@@ -185,7 +185,7 @@ workbook.save("output_pivot_filtered.xlsx")
 Aspose.Cells for Python via .NET tillhandahåller en komplett uppsättning filtreringsfunktioner för pivottabeller som matchar de som finns i Microsoft Excel. Etikett-, datum- och värdefilter täcker de vanligaste analysscenarierna, medan topp 10-filtret hanterar rankingrapporter. När filtreringsregeln är oregelbunden erbjuder egenskapen `PivotItem.is_hidden` ett flexibelt, objektnivå-fallback. Genom att kombinera dessa strategier — till exempel genom att tillämpa ett etikettfilter och sedan dölja specifika poster — kan du bygga exakt riktade pivottabellrapporter helt från kod.
 
 ## Relaterade artiklar
-- [Infoga pivottabell](/cells/sv/python-net/pivot-tables/)
+- [Infoga pivottabell](/cells/sv/python-net/create-pivot-table/)
 - [Lägg till rad- och kolumnfält för pivottabell i Aspose.Cells for Python via .NET](/cells/sv/python-net/pivot-table-add-row-and-column-fields/)
 - [Lägg till filterfält i en pivottabell i Aspose.Cells for Python via .NET](/cells/sv/python-net/add-page-field-in-pivot-table/)
 - [Hantera pivottabellens värdefält i Aspose.Cells for Python via .NET](/cells/sv/python-net/manage-value-fields/)

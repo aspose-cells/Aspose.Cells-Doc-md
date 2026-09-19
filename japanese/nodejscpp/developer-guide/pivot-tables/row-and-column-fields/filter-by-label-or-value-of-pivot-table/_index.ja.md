@@ -189,7 +189,7 @@ workbook.save("output_pivot_filtered.xlsx");
 Aspose.Cells for Node.js via C++ は、Microsoft Excel で利用可能な機能と一致する、完全なピボットテーブルフィルタリング機能を提供します。ラベル、値、および日付フィルタは最も一般的な分析シナリオをカバーし、トップ 10 フィルタはランキングレポートを処理します。フィルタリングルールが不規則な場合、`PivotItem.IsHidden` プロパティは柔軟なアイテムレベルのフォールバックを提供します。これらの戦略を組み合わせる（たとえば、ラベルフィルタを適用してから特定のアイテムを非表示にする）ことで、完全にコードから正確に対象を絞ったピボットテーブルレポートを作成できます。
 
 ## Related Articles
-- [ピボットテーブルの挿入](/cells/ja/nodejs-cpp/pivot-tables/)
+- [ピボットテーブルの挿入](/cells/ja/nodejs-cpp/create-pivot-table/)
 - [Aspose.Cells for Node.js via C++ でピボットテーブルの行と列フィールドを追加する](/cells/ja/nodejs-cpp/pivot-table-add-row-and-column-fields/)
 - [Aspose.Cells for Node.js via C++ でピボットテーブルにページフィールドを追加する](/cells/ja/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Node.js via C++ でピボットテーブルの値フィールドを管理する](/cells/ja/nodejs-cpp/manage-value-fields/)

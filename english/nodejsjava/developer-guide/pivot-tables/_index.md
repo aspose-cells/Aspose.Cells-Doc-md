@@ -25,20 +25,15 @@ Aspose.Cells provides a set of classes that are used to create and control pivot
 2. Add a pivot table to the worksheet by calling the `PivotTables` collection's `add` method, which is encapsulated in the worksheet object.
 3. Access the new `PivotTable` object from the `PivotTables` collection by passing the PivotTable's index.
 4. Use any of the `PivotTable` objects (explained above) to manage the pivot table.
-
 After executing the example code, a pivot table is added to the worksheet.
 
 ```javascript
 var dataDir = "./";
-
 // Instantiating a Workbook object
 var workbook = new AsposeCells.Workbook();
-
 // Obtaining the reference of the newly added worksheet
 var sheet = workbook.getWorksheets().get(0);
-
 var cells = sheet.getCells();
-
 // Setting the value to the cells
 var cell = cells.get("A1");
 cell.putValue("Sport");
@@ -46,7 +41,6 @@ cell = cells.get("B1");
 cell.putValue("Quarter");
 cell = cells.get("C1");
 cell.putValue("Sales");
-
 cell = cells.get("A2");
 cell.putValue("Golf");
 cell = cells.get("A3");
@@ -61,7 +55,6 @@ cell = cells.get("A7");
 cell.putValue("Tennis");
 cell = cells.get("A8");
 cell.putValue("Golf");
-
 cell = cells.get("B2");
 cell.putValue("Qtr3");
 cell = cells.get("B3");
@@ -76,7 +69,6 @@ cell = cells.get("B7");
 cell.putValue("Qtr4");
 cell = cells.get("B8");
 cell.putValue("Qtr3");
-
 cell = cells.get("C2");
 cell.putValue(1500);
 cell = cells.get("C3");
@@ -91,27 +83,19 @@ cell = cells.get("C7");
 cell.putValue(5000);
 cell = cells.get("C8");
 cell.putValue(6430);
-
 var pivotTables = sheet.getPivotTables();
-
 // Adding a PivotTable to the worksheet
 var index = pivotTables.add("=A1:C8", "E3", "PivotTable2");
-
 // Accessing the instance of the newly added PivotTable
 var pivotTable = pivotTables.get(index);
-
 // Unshowing grand totals for rows.
 pivotTable.setRowGrand(false);
-
 // Draging the first field to the row area.
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
-
 // Draging the second field to the column area.
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, 1);
-
 // Draging the third field to the data area.
 pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 2);
-
 // Saving the Excel file
 workbook.save(dataDir + "pivotTable_test_out.xls");
 ```

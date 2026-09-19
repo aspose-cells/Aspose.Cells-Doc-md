@@ -25,7 +25,6 @@ Aspose.Cells fournit un ensemble de classes utilisées pour créer et contrôler
 2. Ajoutez un tableau croisé dynamique à la feuille de calcul en appelant la méthode `add` de la collection `PivotTables`, encapsulée dans l'objet feuille de calcul.
 3. Accédez au nouvel objet `PivotTable` de la collection `PivotTables` en passant l'index du tableau croisé dynamique.
 4. Utilisez n'importe lequel des objets `PivotTable` (expliqués ci-dessus) pour gérer le tableau croisé dynamique.
-
 Après l'exécution du code d'exemple, un tableau croisé dynamique est ajouté à la feuille de calcul.
 
 ```javascript

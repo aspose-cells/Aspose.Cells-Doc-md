@@ -25,7 +25,6 @@ Aspose.Cells stellt eine Reihe von Klassen bereit, mit denen Pivot-Tabellen erst
 2. Fügen Sie eine Pivot-Tabelle zum Arbeitsblatt hinzu, indem Sie die `add`-Methode der im Arbeitsblattobjekt gekapselten `PivotTables`-Sammlung aufrufen.
 3. Greifen Sie auf das neue `PivotTable`-Objekt aus der `PivotTables`-Sammlung zu, indem Sie den Index der Pivot-Tabelle übergeben.
 4. Verwenden Sie eines der oben erläuterten `PivotTable`-Objekte, um die Pivot-Tabelle zu verwalten.
-
 Nach der Ausführung des Beispielcodes wird dem Arbeitsblatt eine Pivot-Tabelle hinzugefügt.
 
 ```python

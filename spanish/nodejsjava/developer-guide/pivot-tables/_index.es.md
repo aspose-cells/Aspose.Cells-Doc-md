@@ -25,7 +25,6 @@ Aspose.Cells proporciona un conjunto de clases que se usan para crear y controla
 2. Agregue una tabla dinámica a la hoja de cálculo llamando al método `add` de la colección `PivotTables`, encapsulada en el objeto hoja de cálculo.
 3. Acceda al nuevo objeto `PivotTable` de la colección `PivotTables` pasando el índice de la tabla dinámica.
 4. Use cualquiera de los objetos `PivotTable` (explicados anteriormente) para administrar la tabla dinámica.
-
 Después de ejecutar el código de ejemplo, se agrega una tabla dinámica a la hoja de cálculo.
 
 ```javascript

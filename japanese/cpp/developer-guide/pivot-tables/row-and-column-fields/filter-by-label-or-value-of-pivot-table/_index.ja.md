@@ -224,7 +224,7 @@ int main() {
 Aspose.Cells for C++ は、Microsoft Excel にあるフィルター機能と一致する完全なピボットテーブルフィルター機能を提供します。ラベルフィルター、日付フィルター、値フィルターは最も一般的な分析シナリオをカバーし、トップ10フィルターはランキングレポートを処理します。フィルター規則が不規則な場合、`PivotItem.IsHidden` プロパティは柔軟なアイテムレベルの代替手段を提供します。これらの戦略を組み合わせる（たとえば、ラベルフィルターを適用してから特定のアイテムを非表示にする）ことで、コードから正確に対象を絞ったピボットテーブルレポートを完全に構築できます。
 
 ## Related Articles
-- [Insert Pivot Table](/cells/ja/cpp/pivot-tables/)
+- [Insert Pivot Table](/cells/ja/cpp/create-pivot-table/)
 - [Add Pivot Table Row and Column Fields in Aspose.Cells for C++](/cells/ja/cpp/pivot-table-add-row-and-column-fields/)
 - [Add Filter Fields to a Pivot Table in Aspose.Cells for C++](/cells/ja/cpp/add-page-field-in-pivot-table/)
 - [Manage Pivot Table Value Fields in Aspose.Cells for C++](/cells/ja/cpp/manage-value-fields/)

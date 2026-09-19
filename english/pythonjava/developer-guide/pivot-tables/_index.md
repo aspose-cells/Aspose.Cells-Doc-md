@@ -25,7 +25,6 @@ Aspose.Cells provides a set of classes that are used to create and control pivot
 2. Add a pivot table to the worksheet by calling the `add` method on the `PivotTables` collection, which is encapsulated in the worksheet object.
 3. Access the new `PivotTable` object from the `PivotTables` collection by passing the PivotTable's index.
 4. Use any of the `PivotTable` objects (explained above) to manage the pivot table.
-
 After executing the example code, a pivot table is added to the worksheet.
 
 ```python
@@ -33,19 +32,16 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType
-
 dataDir = "./"
 workbook = Workbook()
 sheet = workbook.getWorksheets().get(0)
 cells = sheet.getCells()
-
 cell = cells.get("A1")
 cell.putValue("Sport")
 cell = cells.get("B1")
 cell.putValue("Quarter")
 cell = cells.get("C1")
 cell.putValue("Sales")
-
 cell = cells.get("A2")
 cell.putValue("Golf")
 cell = cells.get("A3")
@@ -60,7 +56,6 @@ cell = cells.get("A7")
 cell.putValue("Tennis")
 cell = cells.get("A8")
 cell.putValue("Golf")
-
 cell = cells.get("B2")
 cell.putValue("Qtr3")
 cell = cells.get("B3")
@@ -75,7 +70,6 @@ cell = cells.get("B7")
 cell.putValue("Qtr4")
 cell = cells.get("B8")
 cell.putValue("Qtr3")
-
 cell = cells.get("C2")
 cell.putValue(1500)
 cell = cells.get("C3")
@@ -90,7 +84,6 @@ cell = cells.get("C7")
 cell.putValue(5000)
 cell = cells.get("C8")
 cell.putValue(6430)
-
 pivotTables = sheet.getPivotTables()
 index = pivotTables.add("=A1:C8", "E3", "PivotTable2")
 pivotTable = pivotTables.get(index)

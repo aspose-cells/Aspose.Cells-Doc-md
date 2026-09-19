@@ -210,7 +210,7 @@ jpype.shutdownJVM()
 يوفر Aspose.Cells for Python via Java مجموعة كاملة من إمكانيات تصفية الجداول المحورية التي تُطابق تلك المتوفرة في Microsoft Excel. تغطي مرشحات التسميات والتواريخ والقيم السيناريوهات التحليلية الأكثر شيوعًا، بينما يتعامل مرشح أعلى 10 مع تقارير الترتيب. عندما تكون قاعدة التصفية غير منتظمة، توفر الخاصية `PivotItem.is_hidden` بديلًا مرنًا على مستوى العناصر. يتيح لك الجمع بين هذه الاستراتيجيات — على سبيل المثال، تطبيق مرشح تسمية ثم إخفاء عناصر محددة — إنشاء تقارير جدول محوري مستهدفة بدقة بالكامل من خلال الكود.
 
 ## مقالات ذات صلة
-- [إدراج جدول محوري](/cells/ar/python-java/pivot-tables/)
+- [إدراج جدول محوري](/cells/ar/python-java/create-pivot-table/)
 - [إضافة حقول الصفوف والأعمدة إلى الجدول المحوري في Aspose.Cells for Python via Java](/cells/ar/python-java/pivot-table-add-row-and-column-fields/)
 - [إضافة حقول مرشح إلى جدول محوري في Aspose.Cells for Python via Java](/cells/ar/python-java/add-page-field-in-pivot-table/)
 - [إدارة حقول قيم الجدول المحوري في Aspose.Cells for Python via Java](/cells/ar/python-java/manage-value-fields/)

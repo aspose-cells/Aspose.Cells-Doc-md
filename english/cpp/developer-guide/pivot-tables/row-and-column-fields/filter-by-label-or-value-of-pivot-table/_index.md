@@ -224,7 +224,7 @@ int main() {
 Aspose.Cells for C++ provides a complete set of pivot table filtering capabilities that match those found in Microsoft Excel. Label, date, and value filters cover the most common analytical scenarios, while the top 10 filter handles ranking reports. When the filtering rule is irregular, the `PivotItem.IsHidden` property offers a flexible, item-level fallback. Combining these strategies — for example, applying a label filter and then hiding specific items — allows you to build precisely targeted pivot table reports entirely from code.
 
 ## Related Articles
-- [Insert Pivot Table](/cells/cpp/pivot-tables/)
+- [Insert Pivot Table](/cells/cpp/create-pivot-table/)
 - [Add Pivot Table Row and Column Fields in Aspose.Cells for C++](/cells/cpp/pivot-table-add-row-and-column-fields/)
 - [Add Filter Fields to a Pivot Table in Aspose.Cells for C++](/cells/cpp/add-page-field-in-pivot-table/)
 - [Manage Pivot Table Value Fields in Aspose.Cells for C++](/cells/cpp/manage-value-fields/)

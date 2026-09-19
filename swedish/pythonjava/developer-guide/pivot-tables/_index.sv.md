@@ -25,7 +25,6 @@ Aspose.Cells tillhandahåller en uppsättning klasser som används för att skap
 2. Lägg till en pivottabell i kalkylbladet genom att anropa `add`-metoden i `PivotTables`-samlingen, som är inkapslad i kalkylbladsobjektet.
 3. Få åtkomst till det nya `PivotTable`-objektet från `PivotTables`-samlingen genom att skicka pivottabellens index.
 4. Använd valfritt av de `PivotTable`-objekt (som förklaras ovan) för att hantera pivottabellen.
-
 Efter att ha kört exempelkoden läggs en pivottabell till i kalkylbladet.
 
 ```python

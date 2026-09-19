@@ -201,7 +201,7 @@ workbook.save("output_pivot_filtered.xlsx");
 Aspose.Cells for Java, Microsoft Excel'de bulunanlarla eşleşen eksiksiz bir pivot tablosu filtreleme yetenekleri seti sunar. Etiket, tarih ve değer filtreleri en yaygın analiz senaryolarını kapsar, ilk 10 filtresi ise sıralama raporlarını işler. Filtreleme kuralı düzensiz olduğunda, `PivotItem.IsHidden` özelliği esnek, öğe düzeyinde bir alternatif sunar. Bu stratejileri birleştirmek — örneğin bir etiket filtresi uygulamak ve ardından belirli öğeleri gizlemek — tamamen koddan hassas bir şekilde hedeflenmiş pivot tablosu raporları oluşturmanıza olanak tanır.
 
 ## Related Articles
-- [Insert Pivot Table](/cells/tr/java/pivot-tables/)
+- [Insert Pivot Table](/cells/tr/java/create-pivot-table/)
 - [Add Pivot Table Row and Column Fields in Aspose.Cells for Java](/cells/tr/java/pivot-table-add-row-and-column-fields/)
 - [Add Filter Fields to a Pivot Table in Aspose.Cells for Java](/cells/tr/java/add-page-field-in-pivot-table/)
 - [Manage Pivot Table Value Fields in Aspose.Cells for Java](/cells/tr/java/manage-value-fields/)

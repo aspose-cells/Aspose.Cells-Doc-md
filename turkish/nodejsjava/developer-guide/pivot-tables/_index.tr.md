@@ -25,7 +25,6 @@ Aspose.Cells, pivot tabloları oluşturmak ve kontrol etmek için kullanılan bi
 2. Çalışma sayfası nesnesinde kapsüllenmiş `PivotTables` koleksiyonunun `add` yöntemini çağırarak çalışma sayfasına bir pivot tablo ekleyin.
 3. Pivot tablonun dizinini geçirerek `PivotTables` koleksiyonundan yeni `PivotTable` nesnesine erişin.
 4. Pivot tabloyu yönetmek için yukarıda açıklanan `PivotTable` nesnelerinden herhangi birini kullanın.
-
 Örnek kod çalıştırıldıktan sonra çalışma sayfasına bir pivot tablo eklenir.
 
 ```javascript

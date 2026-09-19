@@ -185,7 +185,7 @@ workbook.save("output_pivot_filtered.xlsx")
 Aspose.Cells for Python via .NET stellt einen vollständigen Satz an Filterfunktionen für Pivot-Tabellen bereit, die denen in Microsoft Excel entsprechen. Beschriftungs-, Datums- und Wertfilter decken die gängigsten Analyseszenarien ab, während der Top-10-Filter Ranking-Berichte handhabt. Wenn die Filterregel unregelmäßig ist, bietet die Eigenschaft `PivotItem.is_hidden` einen flexiblen Fallback auf Elementebene. Die Kombination dieser Strategien — beispielsweise die Anwendung eines Beschriftungsfilters und anschließendes Ausblenden bestimmter Elemente — ermöglicht es Ihnen, präzise zugeschnittene Pivot-Tabellen-Berichte vollständig aus Code zu erstellen.
 
 ## Verwandte Artikel
-- [Pivot-Tabelle einfügen](/cells/de/python-net/pivot-tables/)
+- [Pivot-Tabelle einfügen](/cells/de/python-net/create-pivot-table/)
 - [Zeilen- und Spaltenfelder zu einer Pivot-Tabelle in Aspose.Cells for Python via .NET hinzufügen](/cells/de/python-net/pivot-table-add-row-and-column-fields/)
 - [Filterfelder zu einer Pivot-Tabelle in Aspose.Cells for Python via .NET hinzufügen](/cells/de/python-net/add-page-field-in-pivot-table/)
 - [Wertfelder einer Pivot-Tabelle in Aspose.Cells for Python via .NET verwalten](/cells/de/python-net/manage-value-fields/)

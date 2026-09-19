@@ -224,7 +224,7 @@ int main() {
 يوفر Aspose.Cells for C++ مجموعة كاملة من إمكانيات تصفية الجدول المحوري التي تتطابق مع تلك الموجودة في Microsoft Excel. تغطي مرشحات التسميات والتاريخ والقيم معظم السيناريوهات التحليلية الشائعة، بينما يتعامل مرشح أعلى 10 مع تقارير الترتيب. عندما تكون قاعدة التصفية غير منتظمة، توفر الخاصية `PivotItem.IsHidden` بديلاً مرنًا على مستوى العنصر. يتيح لك الجمع بين هذه الاستراتيجيات — على سبيل المثال، تطبيق مرشح تسمية ثم إخفاء عناصر محددة — إنشاء تقارير جدول محوري مستهدفة بدقة بالكامل من التعليمات البرمجية.
 
 ## Related Articles
-- [Insert Pivot Table](/cells/ar/cpp/pivot-tables/)
+- [Insert Pivot Table](/cells/ar/cpp/create-pivot-table/)
 - [Add Pivot Table Row and Column Fields in Aspose.Cells for C++](/cells/ar/cpp/pivot-table-add-row-and-column-fields/)
 - [Add Filter Fields to a Pivot Table in Aspose.Cells for C++](/cells/ar/cpp/add-page-field-in-pivot-table/)
 - [Manage Pivot Table Value Fields in Aspose.Cells for C++](/cells/ar/cpp/manage-value-fields/)

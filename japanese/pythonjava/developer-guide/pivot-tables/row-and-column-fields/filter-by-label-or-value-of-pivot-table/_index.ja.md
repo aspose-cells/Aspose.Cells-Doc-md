@@ -210,7 +210,7 @@ jpype.shutdownJVM()
 Aspose.Cells for Python via Java は、Microsoft Excel で見られるものに匹敵する完全なピボットテーブルのフィルタリング機能を提供します。ラベルフィルタ、日付フィルタ、値フィルタは最も一般的な分析シナリオをカバーし、トップ 10 フィルタはランキングレポートを処理します。フィルタリングルールが不規則な場合、`PivotItem.is_hidden` プロパティは柔軟なアイテムレベルのフォールバックを提供します。これらの戦略を組み合わせる（たとえば、ラベルフィルタを適用してから特定のアイテムを非表示にする）ことで、コードのみから正確にターゲットを絞ったピボットテーブルレポートを構築できます。
 
 ## Related Articles
-- [ピボットテーブルの挿入](/cells/ja/python-java/pivot-tables/)
+- [ピボットテーブルの挿入](/cells/ja/python-java/create-pivot-table/)
 - [Aspose.Cells for Python via Java でピボットテーブルに行と列フィールドを追加](/cells/ja/python-java/pivot-table-add-row-and-column-fields/)
 - [Aspose.Cells for Python via Java でピボットテーブルにページフィールドを追加](/cells/ja/python-java/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Python via Java でピボットテーブルの値フィールドを管理](/cells/ja/python-java/manage-value-fields/)

@@ -201,7 +201,7 @@ workbook.save("output_pivot_filtered.xlsx");
 Aspose.Cells for Java は、Microsoft Excel で利用可能なものと同等の完全なピボットテーブルフィルタリング機能を提供します。ラベル、値、および日付フィルタは最も一般的な分析シナリオをカバーし、トップ10フィルタはランキングレポートを処理します。フィルタリングルールが不規則な場合、`PivotItem.IsHidden` プロパティは柔軟なアイテムレベルの代替手段を提供します。これらの戦略を組み合わせること（たとえば、ラベルフィルタを適用してから特定のアイテムを非表示にする）により、完全にコードから正確にターゲットを絞ったピボットテーブルレポートを構築できます。
 
 ## Related Articles
-- [ピボットテーブルの挿入](/cells/ja/java/pivot-tables/)
+- [ピボットテーブルの挿入](/cells/ja/java/create-pivot-table/)
 - [Aspose.Cells for Java でピボットテーブルの行と列フィールドを追加する](/cells/ja/java/pivot-table-add-row-and-column-fields/)
 - [Aspose.Cells for Java でピボットテーブルにフィルターフィールドを追加する](/cells/ja/java/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Java でピボットテーブルの値フィールドを管理する](/cells/ja/java/manage-value-fields/)

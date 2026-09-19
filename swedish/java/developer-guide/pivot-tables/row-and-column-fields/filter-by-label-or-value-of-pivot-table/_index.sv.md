@@ -201,7 +201,7 @@ workbook.save("output_pivot_filtered.xlsx");
 Aspose.Cells for Java tillhandahåller en komplett uppsättning filtreringsfunktioner för pivottabeller som matchar de som finns i Microsoft Excel. Etikett-, datum- och värdefilter täcker de vanligaste analysscenarierna, medan topp 10-filtret hanterar rankningsrapporter. När filtreringsregeln är oregelbunden erbjuder egenskapen `PivotItem.IsHidden` ett flexibelt objektnivå-fallback. Genom att kombinera dessa strategier — till exempel att tillämpa ett etikettfilter och sedan dölja specifika objekt — kan du bygga exakt riktade pivottabellsrapporter helt från kod.
 
 ## Relaterade artiklar
-- [Infoga pivottabell](/cells/sv/java/pivot-tables/)
+- [Infoga pivottabell](/cells/sv/java/create-pivot-table/)
 - [Lägg till rad- och kolumnfält i pivottabeller i Aspose.Cells for Java](/cells/sv/java/pivot-table-add-row-and-column-fields/)
 - [Lägg till filterfält i en pivottabell i Aspose.Cells for Java](/cells/sv/java/add-page-field-in-pivot-table/)
 - [Hantera värdefält i pivottabeller i Aspose.Cells for Java](/cells/sv/java/manage-value-fields/)

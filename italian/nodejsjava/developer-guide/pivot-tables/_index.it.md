@@ -25,7 +25,6 @@ Aspose.Cells fornisce un insieme di classi utilizzate per creare e controllare l
 2. Aggiungere una tabella pivot al foglio di lavoro chiamando il metodo `add` della raccolta `PivotTables`, incapsulato nell'oggetto foglio di lavoro.
 3. Accedere al nuovo oggetto `PivotTable` dalla raccolta `PivotTables` passando l'indice della tabella pivot.
 4. Utilizzare uno qualsiasi degli oggetti `PivotTable` (illustrati sopra) per gestire la tabella pivot.
-
 Dopo l'esecuzione del codice di esempio, viene aggiunta una tabella pivot al foglio di lavoro.
 
 ```javascript

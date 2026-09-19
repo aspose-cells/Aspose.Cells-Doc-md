@@ -201,7 +201,7 @@ workbook.save("output_pivot_filtered.xlsx");
 Aspose.Cells for Java fournit un ensemble complet de fonctionnalités de filtrage des tableaux croisés dynamiques qui correspondent à celles offertes par Microsoft Excel. Les filtres d'étiquette, de date et de valeur couvrent les scénarios analytiques les plus courants, tandis que le filtre des 10 meilleurs gère les rapports de classement. Lorsque la règle de filtrage est irrégulière, la propriété `PivotItem.IsHidden` offre une solution de secours flexible au niveau de l'élément. Combiner ces stratégies — par exemple, appliquer un filtre d'étiquette puis masquer des éléments spécifiques — vous permet de construire des rapports de tableau croisé dynamique précisément ciblés entièrement à partir du code.
 
 ## Articles connexes
-- [Insertion d'un tableau croisé dynamique](/cells/fr/java/pivot-tables/)
+- [Insertion d'un tableau croisé dynamique](/cells/fr/java/create-pivot-table/)
 - [Ajouter des champs de ligne et de colonne à un tableau croisé dynamique dans Aspose.Cells for Java](/cells/fr/java/pivot-table-add-row-and-column-fields/)
 - [Ajouter des champs de filtre à un tableau croisé dynamique dans Aspose.Cells for Java](/cells/fr/java/add-page-field-in-pivot-table/)
 - [Gérer les champs de valeur d'un tableau croisé dynamique dans Aspose.Cells for Java](/cells/fr/java/manage-value-fields/)

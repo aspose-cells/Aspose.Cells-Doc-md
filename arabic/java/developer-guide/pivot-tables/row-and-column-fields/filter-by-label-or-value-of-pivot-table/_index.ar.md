@@ -201,7 +201,7 @@ workbook.save("output_pivot_filtered.xlsx");
 يوفر Aspose.Cells for Java مجموعة كاملة من إمكانيات تصفية الجداول المحورية التي تُطابق تلك الموجودة في Microsoft Excel. تُغطي مرشحات التسميات والتواريخ والقيم معظم السيناريوهات التحليلية الشائعة، بينما يتعامل مرشح أعلى 10 مع تقارير الترتيب. عندما تكون قاعدة التصفية غير منتظمة، توفر خاصية `PivotItem.IsHidden` بديلاً مرنًا على مستوى العنصر. يتيح لك الجمع بين هذه الاستراتيجيات — على سبيل المثال، تطبيق مرشح تسمية ثم إخفاء عناصر محددة — بناء تقارير جدول محوري مستهدفة بدقة بالكامل من خلال الكود.
 
 ## مقالات ذات صلة
-- [إدراج جدول محوري](/cells/ar/java/pivot-tables/)
+- [إدراج جدول محوري](/cells/ar/java/create-pivot-table/)
 - [إضافة حقول الصفوف والأعمدة للجدول المحوري في Aspose.Cells for Java](/cells/ar/java/pivot-table-add-row-and-column-fields/)
 - [إضافة حقول مرشحات إلى جدول محوري في Aspose.Cells for Java](/cells/ar/java/add-page-field-in-pivot-table/)
 - [إدارة حقول القيم في الجدول المحوري في Aspose.Cells for Java](/cells/ar/java/manage-value-fields/)

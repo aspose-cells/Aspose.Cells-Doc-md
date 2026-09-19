@@ -185,7 +185,7 @@ workbook.save("output_pivot_filtered.xlsx")
 Aspose.Cells for Python via .NET は、Microsoft Excel にあるものと同等の完全なピボットテーブルフィルタリング機能を提供します。ラベル、日付、および値フィルタは最も一般的な分析シナリオをカバーし、トップ 10 フィルタはランキングレポートを処理します。フィルタリングルールが不規則な場合は、`PivotItem.is_hidden` プロパティが柔軟な項目レベルの代替手段を提供します。これらの戦略を組み合わせる（たとえば、ラベルフィルタを適用してから特定の項目を非表示にする）ことで、コードから完全に正確にターゲットを絞ったピボットテーブルレポートを構築できます。
 
 ## Related Articles
-- [ピボットテーブルの挿入](/cells/ja/python-net/pivot-tables/)
+- [ピボットテーブルの挿入](/cells/ja/python-net/create-pivot-table/)
 - [Aspose.Cells for Python via .NET でピボットテーブルの行と列フィールドを追加](/cells/ja/python-net/pivot-table-add-row-and-column-fields/)
 - [Aspose.Cells for Python via .NET でピボットテーブルにページフィールドを追加](/cells/ja/python-net/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Python via .NET でピボットテーブルの値フィールドを管理](/cells/ja/python-net/manage-value-fields/)

@@ -185,7 +185,7 @@ workbook.save("output_pivot_filtered.xlsx")
 Aspose.Cells for Python via .NET fournit un ensemble complet de capacités de filtrage des tableaux croisés dynamiques qui correspondent à celles disponibles dans Microsoft Excel. Les filtres d'étiquettes, de dates et de valeurs couvrent les scénarios analytiques les plus courants, tandis que le filtre des 10 premiers gère les rapports de classement. Lorsque la règle de filtrage est irrégulière, la propriété `PivotItem.is_hidden` offre une alternative flexible au niveau de l'élément. La combinaison de ces stratégies — par exemple, appliquer un filtre d'étiquette puis masquer des éléments spécifiques — vous permet de construire des rapports de tableaux croisés dynamiques ciblés avec précision entièrement à partir du code.
 
 ## Articles Connexes
-- [Insérer un tableau croisé dynamique](/cells/fr/python-net/pivot-tables/)
+- [Insérer un tableau croisé dynamique](/cells/fr/python-net/create-pivot-table/)
 - [Ajouter des champs de ligne et de colonne à un tableau croisé dynamique dans Aspose.Cells for Python via .NET](/cells/fr/python-net/pivot-table-add-row-and-column-fields/)
 - [Ajouter des champs de filtre à un tableau croisé dynamique dans Aspose.Cells for Python via .NET](/cells/fr/python-net/add-page-field-in-pivot-table/)
 - [Gérer les champs de valeur d'un tableau croisé dynamique dans Aspose.Cells for Python via .NET](/cells/fr/python-net/manage-value-fields/)

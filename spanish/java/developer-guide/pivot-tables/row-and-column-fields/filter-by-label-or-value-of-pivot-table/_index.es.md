@@ -201,7 +201,7 @@ workbook.save("output_pivot_filtered.xlsx");
 Aspose.Cells for Java ofrece un conjunto completo de capacidades de filtrado de tablas dinámicas que coinciden con las disponibles en Microsoft Excel. Los filtros de etiqueta, fecha y valor cubren los escenarios analíticos más comunes, mientras que el filtro de los 10 mejores gestiona los informes de clasificación. Cuando la regla de filtrado es irregular, la propiedad `PivotItem.IsHidden` ofrece una alternativa flexible a nivel de elemento. Combinar estas estrategias —por ejemplo, aplicar un filtro de etiqueta y luego ocultar elementos específicos— le permite generar informes de tablas dinámicas con gran precisión completamente desde código.
 
 ## Artículos relacionados
-- [Insertar tabla dinámica](/cells/es/java/pivot-tables/)
+- [Insertar tabla dinámica](/cells/es/java/create-pivot-table/)
 - [Agregar campos de fila y columna a una tabla dinámica en Aspose.Cells for Java](/cells/es/java/pivot-table-add-row-and-column-fields/)
 - [Agregar campos de filtro a una tabla dinámica en Aspose.Cells for Java](/cells/es/java/add-page-field-in-pivot-table/)
 - [Administrar campos de valor de una tabla dinámica en Aspose.Cells for Java](/cells/es/java/manage-value-fields/)
