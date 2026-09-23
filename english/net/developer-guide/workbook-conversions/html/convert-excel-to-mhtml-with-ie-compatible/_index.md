@@ -15,5 +15,5 @@ This article explains how to enable proper worksheet tab switching in Internet E
 This ensures the generated MHTML tabs work correctly in IE.
 ## **Sample Code**
 This is the main code showing how to enable Internet Explorer–compatible MHTML output so that worksheet tab switching works correctly.
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-ExportToMHtmlWithIECompatible.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-HTML-ExportToMHtmlWithIECompatible.cs" >}}
 {{< app/cells/assistant language="csharp" >}}
