@@ -2,7 +2,7 @@
 title: Save Html With StreamProvider
 type: docs
 weight: 80
-url: /net/convert-excel-to-html-with-streamprovider/
+url: /net/save-html-with-streamprovider/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

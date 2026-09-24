@@ -42,6 +42,7 @@ The code example below shows how to save a workbook as an MHTML file using C#:
 - [Export similar Border Style when Border Style is not supported by Web Browsers](/cells/net/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
 - [Export Worksheet CSS Separately in Output HTML](/cells/net/export-worksheet-css-separately-in-output/)
 - [Hiding Overlaid Content with CrossHideRight while saving to HTML](/cells/net/hiding-overlaid-content-with-crosshideright-while-saving-to/)
+- [Import Specific HTML Tables using HtmlTableLoadOption](/cells/net/html-table-load-option/)
 - [Load HTML to Excel with StreamProvider](/cells/net/convert-html-to-excel-with-streamprovider/)
 - [Prefix Table Elements Styles with HtmlSaveOptions.TableCssId property](/cells/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [Prevent Exporting Hidden Worksheet Contents on Saving to HTML](/cells/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
@@ -55,3 +56,4 @@ The code example below shows how to save a workbook as an MHTML file using C#:
 - [Support the layout of DIV tags while loading HTML to Excel workbook](/cells/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)
 {{< app/cells/assistant language="csharp" >}}
 - [Enable CSS Custom Properties while saving to HTML](/cells/net/enable-css-custom-properties-while-saving-to-html/)
+- [How to Switch MHTML Tabs in IE](/cells/net/convert-excel-to-mhtml-with-ie-compatible/)
