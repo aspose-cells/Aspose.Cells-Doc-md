@@ -67,4 +67,4 @@ This section provides practical guides for common GridJs operations such as form
 - [Zoom Levels](/cells/net/aspose-cells-gridjs/user-guide/zoom-levels/)
 - [How to format shapes](/cells/net/aspose-cells-gridjs/user-guide/how-to-format-shapes/)
 - [How to identify unsupported chart types](/cells/net/aspose-cells-gridjs/user-guide/how-to-identify-unsupported-chart-types/)
-- [How to resize position and rotate pictures](/cells/net/aspose-cells-gridjs/user-guide/how-to-resize-position-and-rotate-pictures/)
+- [How to format pictures](/cells/net/aspose-cells-gridjs/user-guide/how-to-resize-position-and-rotate-pictures/)
