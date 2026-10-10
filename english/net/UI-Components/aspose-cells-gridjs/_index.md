@@ -14,6 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [Customize Menus & Toolbars](/cells/net/aspose-cells-gridjs/how-to-customize-menus/)
 - [Custom Modal Window](/cells/net/aspose-cells-gridjs/how-to-customize-modal-window/)
 - [Custom Message Window](/cells/net/aspose-cells-gridjs/how-to-customize-toast/)
+- [Use Json Cache](/cells/net/aspose-cells-gridjs/how-to-use-json-cache-feature/)
 - [Lazy Loading](/cells/net/aspose-cells-gridjs/how-to-do-lazy-loading/)
 - [Localization](/cells/net/aspose-cells-gridjs/localization/)
 - [Run GridJs in Docker](/cells/net/aspose-cells-gridjs/how-to-build-online-excel-editor/)
