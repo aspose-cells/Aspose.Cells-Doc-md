@@ -10,6 +10,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 26.10
+* Support refreshing the items of pivot group field
+* Support refreshing discrete group pivot field
+* Support to create and refresh pivot tables differently based on the file format
+
 ## Aspose.Cells for .NET 26.9
 * Support saving XLS with long ODBC connection command
 * Support automatically group pivot field without any settings
