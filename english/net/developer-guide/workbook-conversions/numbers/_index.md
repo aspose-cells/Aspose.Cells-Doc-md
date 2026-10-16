@@ -3,7 +3,7 @@ title: "Convert Excel and Apple Numbers Files"
 linktitle: Numbers
 type: docs
 weight: 310
-url: /net/convert-excel-to-numbers/
+url: /net/convert-numbers/
 description: "Learn how to convert Excel workbooks to Apple Numbers format and import Apple Numbers spreadsheets into Excel using Aspose.Cells for .NET."
 keywords: ["Aspose.Cells", "Excel to Numbers", "Numbers to Excel", "Apple Numbers", "NumbersLoadOptions"]
 ai_search_scope: cells_net
@@ -24,7 +24,7 @@ Aspose.Cells for .NET allows you to export an Excel workbook to Apple Numbers fo
 
 The conversion process loads the source Excel workbook and saves it as a `.numbers` file. Supported workbook content and formatting are written to the output file according to the capabilities of the Numbers format writer.
 
-For a detailed example, including formatting, formulas, charts, images, and multi-worksheet workbooks, see [Convert Excel to Apple Numbers](/cells/python-net/convert-excel-to-apple-numbers/).
+For a detailed example, including formatting, formulas, charts, images, and multi-worksheet workbooks, see [Convert Excel to Apple Numbers](/cells/net/convert-excel-to-apple-numbers/).
 
 ## Convert Apple Numbers to Excel
 
@@ -32,7 +32,7 @@ Aspose.Cells for .NET allows you to load Apple Numbers spreadsheets by using the
 
 During import, you can configure options such as `PreserveTableName` to control whether source table names are preserved. The `LoadTableType` property can also be used to specify how multiple tables in a Numbers worksheet are loaded.
 
-For detailed instructions and code examples, see [Convert Apple Numbers to Excel](/cells/python-net/convert-apple-numbers-to-excel/).
+For detailed instructions and code examples, see [Convert Apple Numbers to Excel](/cells/net/convert-apple-numbers-to-excel/).
 
 ## Conversion Features
 
@@ -58,7 +58,7 @@ A successful save confirms that the output file has been written, but it does no
 
 ## Related Resources
 
-- [Convert Excel to Apple Numbers](/cells/python-net/convert-excel-to-apple-numbers/)
-- [Convert Apple Numbers to Excel](/cells/python-net/convert-apple-numbers-to-excel/)
+- [Convert Excel to Apple Numbers](/cells/net/convert-excel-to-apple-numbers/)
+- [Convert Apple Numbers to Excel](/cells/net/convert-apple-numbers-to-excel/)
 - [SaveFormat Enumeration](https://reference.aspose.com/cells/net/aspose.cells/saveformat/)
 - [NumbersLoadOptions API Reference](https://reference.aspose.com/cells/net/aspose.cells.numbers/numbersloadoptions/)

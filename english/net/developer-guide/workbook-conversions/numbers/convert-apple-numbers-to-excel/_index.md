@@ -2,7 +2,7 @@
 title: Convert Apple Numbers to Excel
 type: docs
 weight: 220
-url: /net/convert-numbers-to-excel/
+url: /net/convert-apple-numbers-to-excel/
 description: Convert Apple Numbers file to Excel .
 keywords: Convert, Convert Apple Numbers to Excel, Numbers to Excel
 ai_search_scope: cells_net

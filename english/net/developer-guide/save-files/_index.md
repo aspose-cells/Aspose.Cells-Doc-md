@@ -40,6 +40,7 @@ The file format that the file is saved to is decided by the [**SaveFormat**](htt
 |Pdf|Represents a PDF file|
 |XPS|Represents an XPS document|
 |TIFF|Represents Tagged Image File Format (TIFF)|
+|Numbers|Represents a numbers file since 2014 by Apple Inc|
 
 ## **How to Save File to Different Formats**
 

@@ -2,198 +2,179 @@
 title: Convert Excel to Apple Numbers 
 type: docs
 weight: 230
-url: /net/convert-excel-to-numbers/
+url: /net/convert-excel-to-apple-numbers/
 description: Convert Excel to Apple Numbers file.
 keywords: Convert, Convert Excel to Apple Numbers, Excel to Numbers
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-# Convert Apple Numbers to Excel
+# Convert Excel to Apple Numbers
 
-Apple Numbers is a spreadsheet application developed by Apple Inc. It stores spreadsheet data, formatting, formulas, tables, and other objects in the `.numbers` file format. Aspose.Cells for .NET enables developers to load Numbers spreadsheets and convert them to Excel workbooks programmatically, without requiring Microsoft Excel or Apple Numbers to be installed.
+Microsoft Excel and Apple Numbers are spreadsheet applications with different file formats and spreadsheet models. Excel workbooks commonly use `.xlsx` or `.xls` files, while Apple Numbers uses the `.numbers` format.
 
-This article explains how to convert a Numbers file to Excel and how to handle formatting, table names, formulas, charts, and other spreadsheet content during the conversion.
+Aspose.Cells for .NET enables developers to load Excel workbooks and save them in the Apple Numbers format programmatically, without requiring Microsoft Excel or Apple Numbers to be installed.
 
-## Convert Numbers to Excel
+This article demonstrates how to convert Excel workbooks to Numbers files and discusses formatting, formulas, charts, and other content that may need to be verified after conversion.
 
-Aspose.Cells provides the `Workbook` class for loading and saving spreadsheet files. Use `NumbersLoadOptions` to configure the import process and save the loaded workbook in XLSX format.
+## Convert Excel to Numbers
 
-### Steps to Convert Numbers to Excel
+Use the `Workbook` class to load the source Excel workbook and save it with `SaveFormat.Numbers`.
 
-1. Create an instance of `NumbersLoadOptions`.
-2. Configure the options required for the Numbers file.
-3. Load the `.numbers` file into a `Workbook` object.
-4. Save the workbook in XLSX format.
+### Steps to Convert Excel to Numbers
 
-### C# Code Example
-```
-using Aspose.Cells;
-using Aspose.Cells.Numbers;
-
-class ConvertNumbersToExcel
-{
-    static void Main()
-    {
-        // Configure options for loading an Apple Numbers file.
-        NumbersLoadOptions options = new NumbersLoadOptions();
-
-        // Load the Numbers spreadsheet.
-        Workbook workbook = new Workbook("input.numbers", options);
-
-        // Save the workbook in Excel XLSX format.
-        workbook.Save("output.xlsx", SaveFormat.Xlsx);
-    }
-}
-```
-
-The generated `output.xlsx` file can be opened in Microsoft Excel or other applications that support the XLSX format.
-
-## Convert Formatted Numbers Spreadsheets to Excel
-
-Numbers spreadsheets may contain more than plain cell values. They can include formatted tables, fonts, background colors, borders, number formats, formulas, charts, images, and other objects.
-
-Aspose.Cells represents supported spreadsheet content in its workbook object model. When converting a Numbers file to XLSX, the workbook can be saved with the supported data and formatting represented in that model.
-
-For example, a source Numbers spreadsheet might contain:
-
-- A formatted header row with a background color and bold text.
-- Borders and alignment applied to data cells.
-- Currency, percentage, and date number formats.
-- Formulas used to calculate totals.
-- Multiple tables and worksheets.
-- Charts and images.
-
-Load and save the workbook using the same conversion procedure shown above. No separate formatting-conversion method is required for the supported cell styles.
-
-**Note:** The appearance and behavior of some objects may differ between Numbers and Excel because the two applications use different spreadsheet models. Verify the generated XLSX file when fidelity is important, especially for complex tables, charts, formulas, and layout settings.
-
-## Preserve Table Names When Importing Numbers Files
-
-A Numbers worksheet can contain multiple tables, and table names can be important when identifying data or working with formulas.
-
-Aspose.Cells provides the `PreserveTableName` property in the `NumbersLoadOptions` class to control whether table names are preserved when importing Numbers files.
+1. Load the Excel workbook.
+2. Optionally inspect or modify the workbook before conversion.
+3. Save the workbook in Numbers format.
+4. Open the generated file in Apple Numbers and verify the result.
 
 ### C# Code Example
 ```
 using Aspose.Cells;
-using Aspose.Cells.Numbers;
 
-class PreserveNumbersTableNames
+class ConvertExcelToNumbers
 {
     static void Main()
     {
-        NumbersLoadOptions options = new NumbersLoadOptions
-        {
-            PreserveTableName = true
-        };
+        // Load the source Excel workbook.
+        Workbook workbook = new Workbook("input.xlsx");
 
-        Workbook workbook = new Workbook("input.numbers", options);
-
-        workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        // Save the workbook in Apple Numbers format.
+        workbook.Save("output.numbers", SaveFormat.Numbers);
     }
 }
 ```
 
-Set `PreserveTableName` to `true` when preserving source table names is important to your workflow.
+The generated `output.numbers` file can be opened in Apple Numbers.
 
-For more information, see the [NumbersLoadOptions API Reference](https://reference.aspose.com/cells/net/aspose.cells.numbers/numbersloadoptions/).
+## Convert Formatted Excel Workbooks to Numbers
 
-## Load Multiple Tables from a Numbers Worksheet
+Excel workbooks often contain carefully designed layouts and styles. Examples include formatted headers, borders, background colors, number formats, merged cells, and custom row heights and column widths.
 
-A Numbers worksheet may contain multiple tables. The `LoadTableType` property lets you specify how multiple tables in one worksheet should be loaded.
+Aspose.Cells represents supported formatting through its workbook and cell-style model. When saving an Excel workbook to Numbers format, supported data and formatting are written to the destination file.
 
-The property uses the `LoadNumbersTableType` enumeration.
+For example, an Excel workbook may contain:
 
-For example, the following code configures the loader to place each source table on a separate worksheet:
+- Bold headers with background colors.
+- Custom fonts, borders, and cell alignment.
+- Currency, percentage, date, and custom number formats.
+- Merged cells and adjusted row heights and column widths.
+- Multiple worksheets with different layouts.
+- Formulas, charts, and images.
+
+The basic conversion procedure is the same for formatted and unformatted workbooks:
 ```
 using Aspose.Cells;
-using Aspose.Cells.Numbers;
 
-class LoadNumbersTables
+class ConvertFormattedExcelToNumbers
 {
     static void Main()
     {
-        NumbersLoadOptions options = new NumbersLoadOptions
-        {
-            LoadTableType = LoadNumbersTableType.OneTablePerSheet
-        };
+        Workbook workbook = new Workbook("formatted-workbook.xlsx");
 
-        Workbook workbook = new Workbook("input.numbers", options);
-
-        workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        workbook.Save("formatted-workbook.numbers", SaveFormat.Numbers);
     }
 }
 ```
 
-Choose the loading strategy according to the structure of the source file and how the resulting Excel workbook should be organized.
+No additional formatting-conversion call is required for styles supported by the Numbers writer.
 
-See the [LoadNumbersTableType API Reference](https://reference.aspose.com/cells/net/aspose.cells.numbers/loadnumberstabletype/) for the available values and their behavior.
+**Note:** Excel and Numbers do not provide identical formatting and layout features. Some styles or objects may be represented differently in the destination file. Open the generated file in Apple Numbers to validate the visual result, especially for complex borders, table styles, and charts.
 
-## Convert Numbers Formulas and Calculated Values
+## Convert Excel Formulas and Calculated Values
 
-Numbers and Excel do not use identical formula implementations. During conversion, Aspose.Cells processes supported formulas and represents them in the workbook model.
+Excel workbooks may contain formulas, named ranges, cross-sheet references, and functions specific to Excel.
 
-After conversion, check important formulas and their results in the generated Excel workbook. Formulas that depend on application-specific functions or features may require additional verification.
+During conversion, Aspose.Cells processes supported workbook content and writes the corresponding data to the Numbers file. However, formula compatibility depends on the functions and syntax supported by the destination format and the Numbers application.
 
-If your workflow depends on recalculated results, you can request formula calculation before saving:
+If your application requires up-to-date formula results, calculate the workbook before saving:
 ```
 using Aspose.Cells;
-using Aspose.Cells.Numbers;
 
-class ConvertNumbersAndCalculate
+class ConvertExcelAndCalculate
 {
     static void Main()
     {
-        NumbersLoadOptions options = new NumbersLoadOptions();
-        Workbook workbook = new Workbook("input.numbers", options);
+        Workbook workbook = new Workbook("input.xlsx");
 
         // Recalculate formulas supported by Aspose.Cells.
         workbook.CalculateFormula();
 
-        workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        workbook.Save("output.numbers", SaveFormat.Numbers);
     }
 }
 ```
 
-Recalculation is optional. Use it when updated formula results are required rather than simply preserving the loaded workbook's existing state.
+Formula recalculation is optional. Verify important formulas and their results in Apple Numbers, particularly when the workbook uses specialized functions or external references.
 
-## Convert Numbers Charts, Images, and Other Objects
+## Convert Excel Charts and Images to Numbers
 
-A Numbers spreadsheet may contain charts, images, shapes, text boxes, hyperlinks, and other objects in addition to cell data.
+Excel workbooks may contain charts, pictures, shapes, text boxes, and hyperlinks. Aspose.Cells supports many of these objects through its workbook, worksheet, and drawing APIs.
 
-Aspose.Cells supports many spreadsheet objects through its workbook, worksheet, and drawing APIs. The conversion result depends on the object type and the features supported by both formats.
+When exporting to Numbers, the preservation of each object depends on the functionality supported by the destination format.
 
-When converting a complex workbook, verify the following items in Excel:
+After conversion, check:
 
-- Chart types, titles, legends, axes, and data labels.
-- Image and shape placement.
-- Hyperlinks and text boxes.
-- Row heights, column widths, hidden rows, and hidden columns.
-- Conditional formatting and other supported worksheet settings.
+- Whether charts are displayed and whether their titles, legends, axes, and data labels are correct.
+- Whether images and shapes retain their expected placement and dimensions.
+- Whether hyperlinks remain usable.
+- Whether worksheet layout settings, hidden rows, and hidden columns are retained.
+- Whether conditional formatting and other supported features behave as expected.
 
-If a specific object is essential to your application, include it in conversion tests before deploying the workflow.
+For applications that depend on a particular chart or drawing feature, create a representative test workbook and verify the exported result in Apple Numbers.
 
-## Handle Conversion Errors and Validate the Output
+## Convert Excel Workbooks with Multiple Worksheets
 
-For production applications, validate the source file and handle exceptions that may occur while loading or saving a workbook.
+A workbook may contain multiple worksheets, each with its own data, formatting, formulas, and charts.
 
-A simple implementation can catch errors and report the affected file:
+Aspose.Cells loads the Excel workbook into a single `Workbook` object. Saving that workbook in Numbers format exports the workbook using the Numbers writer's supported worksheet and table mapping.
+```
+using Aspose.Cells;
+
+class ConvertMultiSheetExcelToNumbers
+{
+    static void Main()
+    {
+        Workbook workbook = new Workbook("multi-sheet.xlsx");
+
+        workbook.Save("multi-sheet.numbers", SaveFormat.Numbers);
+    }
+}
+```
+
+Verify the number and names of worksheets, the arrangement of tables, and the contents of each sheet in Apple Numbers after conversion.
+
+## Validate the Numbers File
+
+A successful save does not guarantee that all Excel features have an exact equivalent in Numbers. Validation is especially important when converting financial reports, dashboards, or workbooks with complex formatting.
+
+A recommended validation process is:
+
+1. Open the generated `.numbers` file in Apple Numbers.
+2. Compare important cell values with the original workbook.
+3. Inspect fonts, fills, borders, alignment, and number formats.
+4. Check formulas and calculated results.
+5. Inspect charts, images, shapes, and hyperlinks.
+6. Verify worksheet and table organization.
+
+If a specific object or formatting feature is critical, test it with representative source files before using the conversion process in production.
+
+## Handle Conversion Errors
+
+Use exception handling to report invalid input files and other conversion failures:
 ```
 using System;
 using Aspose.Cells;
-using Aspose.Cells.Numbers;
 
-class SafeNumbersConversion
+class SafeExcelToNumbersConversion
 {
     static void Main()
     {
         try
         {
-            NumbersLoadOptions options = new NumbersLoadOptions();
-            Workbook workbook = new Workbook("input.numbers", options);
+            Workbook workbook = new Workbook("input.xlsx");
 
-            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+            workbook.Save("output.numbers", SaveFormat.Numbers);
 
             Console.WriteLine("Conversion completed.");
         }
@@ -205,10 +186,11 @@ class SafeNumbersConversion
 }
 ```
 
-For important business documents, verify cell values, formulas, table names, formatting, and critical objects after conversion. A successful save confirms that the file was written; it does not guarantee that every source feature has an exact equivalent in Excel.
+For batch-processing applications, record the source file and error details so that individual failures can be investigated without stopping the processing of unrelated files.
 
 ## Related Articles
 
-- [NumbersLoadOptions API Reference](https://reference.aspose.com/cells/net/aspose.cells.numbers/numbersloadoptions/)
-- [LoadNumbersTableType API Reference](https://reference.aspose.com/cells/net/aspose.cells.numbers/loadnumberstabletype/)
+- [SaveFormat Enumeration](https://reference.aspose.com/cells/net/aspose.cells/saveformat/)
+- [Workbook.Save Method](https://reference.aspose.com/cells/net/aspose.cells/workbook/save/)
 - [Conversion](https://docs.aspose.com/cells/net/conversion/)
+ 
