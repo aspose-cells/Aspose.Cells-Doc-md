@@ -9,7 +9,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 
-Numbers is a spreadsheet application developed by Apple Inc. Aspose.Cells can read Numbers spreadsheets, but it does not support writing to them. It can read a Numbers spreadsheet's data, style, and formulas.
+Numbers is a spreadsheet application developed by Apple Inc. Aspose.Cells can read Numbers spreadsheets. It can read a Numbers spreadsheet's data, style, and formulas.
 
 ## **Read Numbers Spreadsheet Developed by Apple Inc. using Aspose.Cells**
 
