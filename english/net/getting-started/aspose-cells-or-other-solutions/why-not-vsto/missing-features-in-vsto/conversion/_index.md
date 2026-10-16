@@ -31,6 +31,7 @@ SaveFormat is an enumeration that can convert documents to the extensions given 
 | TIFF | 21 | Represents a TIFF file. |
 | SVG | 22 | Represents an SVG file. |
 | Dif | 30 | Represents the Data Interchange Format. |
+| Numbers | 56 | Represents a numbers file since 2014 by Apple Inc. |
 
 Below is a code snippet that shows conversion from XLS to XLSX; you can do it vice versa as well.
 
