@@ -8,6 +8,7 @@ keywords: GridJs, json cache, cache, performance, optimize loading
 aliases:
   - /net/aspose-cells-gridjs/jsoncache/
   - /net/aspose-cells-gridjs/json-cache/
+  - /net/aspose-cells-gridjs/use-cache/
 
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
