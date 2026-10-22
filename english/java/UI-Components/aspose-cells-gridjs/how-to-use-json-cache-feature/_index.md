@@ -1,3 +1,19 @@
+---
+title: How to Use JSON Cache Feature in GridJs  
+type: docs
+weight: 250
+url: /java/aspose-cells-gridjs/how-to-use-json-cache
+description: This article describes how to enable and configure the JSON cache feature in GridJs to speed up repeated data requests.
+keywords: GridJs, json cache, cache, performance, optimize loading
+aliases:
+  - /java/aspose-cells-gridjs/jsoncache/
+  - /java/aspose-cells-gridjs/json-cache/
+  - /java/aspose-cells-gridjs/use-cache/
+
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+---
+
 # How to Use JSON Cache Feature in GridJs (Java)
 
 This article describes how to enable and configure the JSON cache feature in GridJs to speed up repeated data requests.
