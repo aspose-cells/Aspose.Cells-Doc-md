@@ -50,11 +50,11 @@ All options are provided by the `JsonCacheOptions` class, reachable through the 
 | `Enable` | boolean | `false` | Master switch. Must be `true` for any caching to happen. |
 | `Implementation` | IGridJsJsonCache | `null` | Custom cache storage. If not set, the built-in `DefaultGridJsJsonCache` (memory + disk) is used. |
 | `MaxMemoryEntries` | int | 1000 | Maximum number of entries kept in memory (L1). |
-| `MemoryTtl` | Duration | 1 hour | Lifetime of an in-memory entry. |
+| `MemoryTtl` | long | 1 hour | Lifetime of an in-memory entry , in minutes (default: 60). |
 | `EnableDisk` | boolean | `true` | Whether the disk cache (L2) is used. |
 | `DiskPath` | String | `[FileCacheDirectory]/json_cache` | Directory that stores disk cache files. |
 | `MaxDiskSizeMB` | long | 500 | Maximum total size of the disk cache; oldest files are deleted beyond this limit. |
-| `DiskTtl` | Duration | 24 hours | Lifetime of a disk cache file. |
+| `DiskTtl` | long | 24 hours | Lifetime of a disk cache file, in minutes (default: 24*60). |
 | `CompressDisk` | boolean | `true` | Whether disk cache files are Gzip compressed. |
 
 ## Implementation Steps
@@ -81,9 +81,9 @@ public class GridJsConfig {
         options.getJsonCache().setEnableDisk(true);
         options.getJsonCache().setDiskPath("/tmp/gridjs_json_cache"); // optional, defaults to [FileCacheDirectory]/json_cache
         options.getJsonCache().setMaxMemoryEntries(1000);
-        options.getJsonCache().setMemoryTtl(Duration.ofHours(1));
+        options.getJsonCache().setMemoryTtl(60);//1 hour
         options.getJsonCache().setMaxDiskSizeMB(500);
-        options.getJsonCache().setDiskTtl(Duration.ofHours(24));
+        options.getJsonCache().setDiskTtl(60*24);//24 hours
         options.getJsonCache().setCompressDisk(true);
         return options;
     }
