@@ -30,6 +30,7 @@ Aspose.Cells exponerar etikettfiltrering genom metoden `PivotField.filterByLabel
 Följande exempel läser in en arbetsbok som innehåller en befintlig pivottabell, tillämpar ett etikettfilter så att bara objekt vars etiketter börjar med ett angivet prefix förblir synliga, uppdaterar pivottabellen och sparar resultatet.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
 // Ladda den befintliga arbetsboken som innehåller en pivottabell
@@ -41,7 +42,7 @@ let pivotTable = worksheet.getPivotTables().get(0);
 // Hämta den första radens PivotField
 let rowField = pivotTable.getRowFields().get(0);
 // Tillämpa etikettfiltret — visa endast radobjekt vars etiketter börjar med det angivna prefixet
-rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
+rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
 // Uppdatera och beräkna om pivottabelldata så att filtret träder i kraft
 pivotTable.getPivotCache().refresh();
 // Spara arbetsboken tillbaka till disk
@@ -53,12 +54,13 @@ Datumfilter låter dig begränsa en pivottabell med datumbaserade kriterier som 
 
 {{% alert color="primary" %}}
 Datumfiltret fungerar bara när rad- eller kolumnområdet bara innehåller datum-tidsceller eller tomma värden. Om det underliggande fältet innehåller andra datatyper som tal eller text, kommer datumfiltret inte att ge det förväntade resultatet. Se till att fältet är formaterat som ett datum och att alla värden är giltiga `DateTime`-instanser eller tomma celler innan du tillämpar det här filtret.
-{{% /alert %}}
-
 Aspose.Cells exponerar datumfiltrering genom metoden `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. Uppräkningen `PivotFilterType` innehåller dedikerade datumvärden som `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` och `Between`. Beroende på vald filtertyp skickar du ett eller två `DateTime`-värden (för `Between` skickar du start- och slutdatum).
 Följande exempel läser in en arbetsbok med en pivottabell vars radområde innehåller ett datumfält, tillämpar ett datumfilter som begränsar de synliga objekten till ett visst datumintervall, uppdaterar pivottabellen och sparar arbetsboken.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
 let inputPath = "sample.xlsx";
 let outputPath = "output_filtered.xlsx";
 if (!fs.existsSync(inputPath))
@@ -78,7 +80,7 @@ let dateField = pivotTable.getRowFields().get(0);
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
 // Tillämpa datumfiltret på pivotfältet
-dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
+dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
 // Uppdatera och beräkna om pivottabellen så att filtret träder i kraft
 pivotTable.getPivotCache().refresh();
 // Spara arbetsboken
@@ -91,6 +93,7 @@ Aspose.Cells exponerar värdefiltrering genom metoden `PivotField.filterByValue(
 Följande exempel läser in en arbetsbok med en pivottabell, tillämpar ett värdefilter som bara behåller objekt vars aggregerade försäljning överstiger ett numeriskt tröskelvärde, uppdaterar pivottabellen och sparar arbetsboken.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook("sample.xlsx");
 var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
@@ -108,7 +111,7 @@ for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 }
 if (dataFieldIndex >= 0)
 {
-    rowField.filterByValue(dataFieldIndex, AsposeCells.Pivot.PivotFilterType.ValueGreaterThan, 5000, Number.MAX_VALUE);
+    rowField.filterByValue(dataFieldIndex, AsposeCells.PivotFilterType.VALUE_GREATER_THAN, 5000, Number.MAX_VALUE);
 }
 pivotTable.getPivotCache().refresh();
 workbook.save("output.xlsx");
@@ -119,12 +122,12 @@ Topp 10-filtret är en specialiserad form av värdefilter som bara behåller de 
 
 {{% alert color="primary" %}}
 Topp 10-filtret är bara effektivt när pivottabellen har ett eller flera värde-pivotfält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mått att rangordna objekten mot, och filtret kan inte tillämpas.
-{{% /alert %}}
-
 Aspose.Cells exponerar topp 10-filtrering genom metoden `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Parametern `itemCount` anger hur många objekt som ska behållas, `isTop` anger om de översta objekten (true) eller de nedersta objekten (false) ska behållas, `valueField` refererar till det datafält som används för rankning, och `filterType` styr hur värdet beräknas (vanligtvis `Sum`, men också `Count` och `Percent`).
 Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att bara behålla de 10 högsta objekten efter summa av försäljning, uppdaterar pivottabellen och sparar arbetsboken.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
@@ -144,10 +147,10 @@ let rowField = pivotTable.getRowFields().get(0);
 let valueFieldIndex = 0;
 // Tillämpa Topp 10-filtret på radfältet:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (topp N; false skulle betyda botten N)
 //   - valueFieldIndex = index för datafältet som används för att rangordna objekt
-rowField.filterTop10(10, AsposeCells.PivotFilterType.Sum, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.SUM, true, 10);
 // Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
 pivotTable.getPivotCache().refresh();
 // Spara arbetsboken
@@ -159,6 +162,7 @@ Förutom de strukturerade filter-API:erna låter Aspose.Cells dig styra synlighe
 Det här tillvägagångssättet är användbart när filtreringsregeln är oregelbunden eller objektspecifik, som att dölja ett litet antal namngivna kategorier som inte ska visas i en viss rapport. Exemplet nedan läser in en pivottabell, döljer ett specifikt objekt efter namn, visar hur man visar det igen, uppdaterar pivottabellen och sparar arbetsboken.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
 // Kom åt det första kalkylbladet som innehåller pivottabellen
 let sheet = workbook.getWorksheets().get(0);
@@ -172,15 +176,15 @@ for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
     // Dölj pivot-objekt som matchar ett specifikt namn/kriterium
     if (item.getName() == "Item1" || item.getName() == "Item2") {
-        item.setIsHidden(true);
+        item.setHidden(true);
     }
     // Demonstrera att visa: visa ett tidigare dolt pivot-objekt igen
     if (item.getName() == "Item3") {
-        item.setIsHidden(false);
+        item.setHidden(false);
     }
 }
 // Uppdatera och beräkna om pivottabellen så att ändringarna träder i kraft
-pivotTable.getPivotCache().refreshData();
+pivotTable.getPivotCache().refresh();
 // Spara arbetsboken — dolda objekt finns kvar i underliggande data
 // men är exkluderade från den visade pivottabellens utdata
 workbook.save("output_pivot_filtered.xlsx");

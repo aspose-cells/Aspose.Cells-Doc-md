@@ -26,6 +26,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 يبني المثال التالي مجموعة بيانات صغيرة مكونة من أعمدة Fruit وYear وAmount، ويضع جدولاً محورياً في الخلية E3 مع `Fruit` في منطقة الصفوف، و`Amount` في منطقة البيانات، و`Year` في منطقة التصفية، ويقوم بتحديث المحور، ويحفظ المصنف.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -55,9 +56,9 @@ for (var i = 0; i < data.length; i++)
 var pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 var pivotTable = worksheet.getPivotTables().get(pivotIndex);
 // إضافة الحقول إلى مناطقها: الفاكهة كصف، المبلغ كبيانات، السنة كحقل صفحة
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // تحديث وحساب بيانات الجدول المحوري
 pivotTable.calculateData();
 // حفظ المصنف
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 عندما تعمل بالفعل مع مثيل `PivotField`، يمكنك تمريره مباشرة إلى `pivotTable.getPageFields().add`. يتم إنشاء الجدول المحوري وحقل التصفية تماماً كما في السيناريو السابق؛ فقط تسجيل منطقة التصفية النهائي يتم استبداله باستدعاء واجهة برمجة التطبيقات ذات المستوى الأدنى.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // العناوين
@@ -85,11 +87,11 @@ sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").put
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
 // إضافة جدول محوري في E3 يغطي A1:C10
-let pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1");
+let pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 let pivotTable = sheet.getPivotTables().get(pivotIndex);
 // الفاكهة -> الصف، المبلغ -> البيانات (السنة ستذهب إلى الصفحة أدناه)
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 // نهج منخفض المستوى: احصل على حقل السنة المحوري الموجود من BaseFields
 // وقم بتسجيله في منطقة الصفحة عبر PageFields.Add(PivotField).
 let yearField = pivotTable.getBaseFields().get("Year");
@@ -106,6 +108,7 @@ workbook.save("output.xlsx");
 يعد تعيين `CurrentPageItem` على القيمة السحرية `0x7FFD` مكافئاً لمسح مرشح الصفحة، حيث يلخص جسم المحور كل عناصر الصفحة كما لو لم يتم تطبيق أي مرشح.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 // تعبئة بيانات الفاكهة/السنة/المبلغ
@@ -130,9 +133,9 @@ var pivotTables = sheet.getPivotTables();
 var index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(index);
 // تكوين حقول الجدول المحوري: الفاكهة→الصف، المبلغ→البيانات، السنة→الصفحة
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 pivotTable.calculateData();
 // مسح مرشح الصفحة بحيث يكون كل عنصر في حقل الصفحة مرئيًا.
 // 0x7FFD (عشري 32765) هي القيمة الحارسة الخاصة التي تعني "كل العناصر" —
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 يؤدي تعيين `CurrentPageItem` على فهرس حقيقي إلى اختيار عنصر التصفية الواحد فقط. الفهرس هو موضع العنصر في قائمة العناصر المرتبة لحقل التصفية، لذلك على سبيل المثال يحدد `1` العنصر الثاني بعد الترتيب.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -169,9 +173,9 @@ var pivotTables = sheet.getPivotTables();
 var pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(pivotIndex);
 // إضافة الحقول: فاكهة→صف، مبلغ→بيانات، سنة→صفحة
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // عمليات خاصة بحقل الصفحة
 pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = العنصر الثاني بالترتيب (مثلاً "2021")
 // تحديث وحساب الجدول المحوري
@@ -214,11 +218,11 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotSheet = workbook.getWorksheets().add("Pivot");
 const pivots = pivotSheet.getPivotTables();
-const pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1");
+const pivotIndex = pivots.add("A1:C10", "E3", "PivotTable1");
 const pivotTable = pivots.get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.ROW, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.DATA, "Amount");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // — تمكين الاختيار المتعدد على حقل الصفحة
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
 // الجزء A — تحديد جميع العناصر (جعل كل عنصر مرئيًا)

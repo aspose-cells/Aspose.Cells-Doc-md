@@ -26,6 +26,7 @@ Bir pivot alanını filtre alanına kaydetmenin iki yolu vardır. Üst düzey ç
 Aşağıdaki örnek, küçük bir Meyve / Yıl / Tutar veri kümesi oluşturur, E3 hücresine bir pivot tablo yerleştirir, satır alanına `Fruit`, veri alanına `Amount` ve filtre alanına `Year` koyar, pivot'u yeniler ve çalışma kitabını kaydeder.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 Zaten bir `PivotField` örneğiyle çalışıyorsanız, onu doğrudan `PivotTable.pageFields.add` yöntemine geçebilirsiniz. Pivot tablo ve filtre alanı, önceki senaryodakiyle tam olarak aynı şekilde oluşturulur; yalnızca son filtre alanı kaydı alt düzey API çağrısıyla değiştirilir.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Başlıklar
@@ -106,6 +108,7 @@ Varsayılan tek seçim davranışında, filtre alanı tek bir açılır menü ol
 `currentPageItem` öğesini sihirli değer olan `0x7FFD` değerine ayarlamak, filtreni temizlemeye eşdeğerdir: pivot gövdesi, hiçbir filtre uygulanmamış gibi her sayfa öğesini özetler.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Meyve/Yıl/Miktar verilerini doldur
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 `currentPageItem` öğesini gerçek bir dizine ayarlamak yalnızca o bir sayfa öğesini seçer. Dizin, filtre alanının sıralanmış öğe listesindeki öğenin konumudur, dolayısıyla örneğin `1` değeri sıralamadan sonra ikinci öğeyi seçer.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -184,6 +188,7 @@ workbook.save("output.xlsx");
 Aşağıdaki kod, Senaryo 1a'da oluşturulan aynı Year filtre alanında çoklu seçimi etkinleştirir ve ardından iki desen gösterir: Bölüm A, her giriş için `isHidden` öğesini `false` olarak bırakarak her sayfa öğesini ortaya çıkarırken, Bölüm B yalnızca seçtiğiniz kaynak değerlerini beyaz listeye alır ve `switch (pivotItems[i].getStringValue())` bloğu aracılığıyla diğer her şeyi gizler.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();

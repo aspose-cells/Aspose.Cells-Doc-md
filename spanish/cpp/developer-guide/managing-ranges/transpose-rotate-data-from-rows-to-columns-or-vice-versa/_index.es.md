@@ -156,4 +156,4 @@ Utilice el **Enfoque 1** cuando necesite una transformación rápida y compatibl
 - [Insertar una Imagen en una Celda](/cells/es/cpp/inserting-an-image-into-a-cell/)
 - [Dividir Archivos Excel en Múltiples Archivos](/cells/es/cpp/splitting-excel-files-into-multiple-files/)
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

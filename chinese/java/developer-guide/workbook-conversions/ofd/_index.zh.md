@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持使用 `SaveFormat.Ofd` 枚举值直接将 Excel 工作簿转换为 OFD（Open Fixed-layout Document，开放版式文档）格式。生成的 OFD 文档保留了工作簿的可见布局、内容、合并单元格、列宽、行高、字体、颜色、边框和数字格式。这使得 Aspose.Cells 适用于需要固定版式输出的归档、打印、监管申报和政府提交等场景。
+{{% /alert %}}
 
 ## **简介**
 OFD（Open Fixed-layout Document，开放版式文档）是中国用于以固定、基于页面的版式表示数字文档的国家标准（GB/T 33190-2016）。在源文档的视觉外观必须与原始创建时完全一致的使用场景中，它扮演着与 PDF 类似的角色。OFD 在中华人民共和国的政府提交、监管申报、电子发票和长期归档中得到了广泛采用。
@@ -19,6 +20,7 @@ OFD（Open Fixed-layout Document，开放版式文档）是中国用于以固定
 
 {{% alert color="primary" %}}
 Aspose.Cells 生成的 OFD 输出保留了源工作簿的可见布局，包括单元格内容、合并单元格、列宽和行高。字体、颜色、边框、对齐方式和数字格式等单元格格式也会在固定版式输出中呈现。在工作表上配置的纸张大小、方向和打印区域等页面设置选项会影响生成的 OFD 文档的布局。
+{{% /alert %}}
 
 ## **创建 Excel 工作簿并保存为 OFD**
 Aspose.Cells 允许您以编程方式构建工作簿，向其填充数据，然后使用 `SaveFormat.Ofd` 枚举将其直接保存为 OFD 格式。下面的示例从头开始创建一张发票。它添加公司徽标、抬头信息、收款方区域、明细项和计算出的合计金额，然后将工作簿导出为 OFD 文档。
@@ -206,8 +208,5 @@ System.out.println("\nFile successfully converted to OFD format: " + dataDir + "
 - [在单元格中插入图片](/cells/zh/java/inserting-an-image-into-a-cell/)
 - [读取和写入 DBF 文件](/cells/zh/java/dbf/)
 - [在 Aspose.Cells for Java 中将迷你图转换为图像和 HTML](/cells/zh/java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

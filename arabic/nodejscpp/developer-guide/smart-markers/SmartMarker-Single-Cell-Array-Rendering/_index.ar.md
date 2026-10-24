@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 يدعم Aspose.Cells عرض بيانات المصفوفة في خلية واحدة عبر Smart Markers. باستخدام سمة `ArrayAsSingle` مع سمة `ExtraDelimiter`، يمكن للمطورين التحكم في كيفية فصل عناصر المصفوفة داخل خلية واحدة، مما يوفر تنسيقًا مرنًا للتقارير والقوالب.
+{{% /alert %}}
 
 ## **المقدمة**
 تُعد Smart Markers في Aspose.Cells ميزة قوية قائمة على القوالب تتيح لك ملء بيانات جدول البيانات ديناميكيًا باستخدام تعبيرات العلامات مثل `&=DataSource.Field`. يتم وضع العلامة في مصنف المصمم، وعندما تتم معالجة القالب بواسطة `WorkbookDesigner`، يتم استبدال العلامات بقيم من مصدر البيانات المقدم.
@@ -59,6 +60,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 تقبل سمة `extraDelimiter` أي سلسلة حرفية، بما في ذلك فواصل متعددة الأحرف، أو نص مخصص، أو تسلسلات هروب مثل `\n` للإخراج المفصول بسطر جديد. إذا كانت المصفوفة فارغة، تُترك الخلية الناتجة فارغة.
+{{% /alert %}}
 
 ### **سير العمل خطوة بخطوة**
 يصف سير العمل التالي كيفية عرض مصفوفة في خلية واحدة باستخدام Smart Markers.
@@ -71,6 +73,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ### **مثال الكود 1 — عرض مصفوفة سلاسل أساسية**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let product = {
     Tags: ["C#", "Aspose", "SmartMarker", "Excel"]
 };
@@ -88,6 +91,7 @@ workbook.save("output_arraySingle.xlsx");
 ### **مثال الكود 2 — مصفوفة رقمية مع فاصل مخصص**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 class Student {
     constructor() {
         this.Scores = [];
@@ -105,6 +109,7 @@ workbook.save("output_numericArray.xlsx");
 ### **مثال الكود 3 — مقارنة السلوك الافتراضي بسلوك ArrayAsSingle**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var order = {
     Items: ["Apple", "Banana", "Cherry", "Date"]
 };
@@ -133,8 +138,5 @@ workbook.save("output_comparison.xlsx");
 - تعمل الميزة مع مصادر بيانات الكائنات وكذلك مصادر `DataSet` و `DataTable` حيث يمكن تقسيم عمود إلى مصفوفات.
 - للإخراج المفصول بسطر جديد، يمكنك استخدام `\n` أو `os.EOL` كقيمة فاصل.
 - ضع Smart Marker في خلية ذات عرض كافٍ لعرض السلسلة المدمجة الناتجة؛ وإلا، قد يتجاوز المحتوى بصريًا إلى الخلايا المجاورة اعتمادًا على التنسيق.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, Akıllı İşaretçiler aracılığıyla dizi verilerinin tek bir hücreye dönüştürülmesini destekler. Geliştiriciler, `ArrayAsSingle` özniteliğini `ExtraDelimiter` özniteliğiyle birlikte kullanarak dizi öğelerinin tek bir hücre içinde nasıl ayrılacağını kontrol edebilir ve raporlar ile şablonlar için esnek biçimlendirme sağlayabilir.
+{{% /alert %}}
 
 ## **Giriş**
 Aspose.Cells'teki Akıllı İşaretçiler, `&=DataSource.Field` gibi işaretçi ifadelerini kullanarak elektronik tablo verilerini dinamik olarak doldurmanıza olanak tanıyan güçlü, şablon tabanlı bir özelliktir. İşaretçi, tasarımcı çalışma kitabına yerleştirilir ve şablon `WorkbookDesigner` tarafından işlendiğinde, işaretçiler sağlanan veri kaynağındaki değerlerle değiştirilir.
@@ -59,6 +60,7 @@ Akıllı İşaretçilerinizde `ArrayAsSingle` ve `ExtraDelimiter` öznitelikleri
 
 {{% alert color="primary" %}}
 `extraDelimiter` özniteliği, çok karakterli sınırlayıcılar, özel metin veya yeni satırla ayrılmış çıktı için `\n` gibi kaçış dizileri dahil olmak üzere herhangi bir dize sabitini kabul eder. Dizi boşsa, sonuç hücre boş bırakılır.
+{{% /alert %}}
 
 ### **Adım Adım İş Akışı**
 Aşağıdaki iş akışı, Akıllı İşaretçiler kullanarak bir dizinin tek bir hücreye nasıl dönüştürüleceğini açıklar.
@@ -168,8 +170,5 @@ int main() {
 - Özellik, nesne veri kaynaklarının yanı sıra bir sütunun dizilere bölünebileceği `DataSet` ve `DataTable` kaynaklarıyla da çalışır.
 - Yeni satırla ayrılmış çıktı için sınırlayıcı değeri olarak `\n` kullanabilirsiniz.
 - Akıllı İşaretçiyi, sonuçta ortaya çıkan birleştirilmiş dizeyi görüntülemek için yeterli genişliğe sahip bir hücreye yerleştirin; aksi takdirde, içerik biçime bağlı olarak görsel olarak bitişik hücrelere taşabilir.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

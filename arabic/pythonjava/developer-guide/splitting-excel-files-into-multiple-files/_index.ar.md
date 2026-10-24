@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 تدعم Aspose.Cells تقسيم ملف Excel واحد إلى ملفات متعددة. توجد طريقتان أساسيتان للقيام بذلك: (1) عن طريق نسخ كل ورقة عمل من المصنف المصدر إلى مصنف جديد وحفظ كل منها كملف منفصل، و(2) عن طريق نسخ نطاق خلايا محدد من ورقة عمل إلى مصنف جديد. كلتا الطريقتين مفيدتان عندما تحتاج إلى توزيع مجموعات فرعية من البيانات، أو إنشاء تقارير أصغر لمستلمين مختلفين، أو عزل البيانات للمعالجة الفردية.
+{{% /alert %}}
 
 ## **المقدمة**
 توجد العديد من السيناريوهات الواقعية التي يحتاج فيها المطور إلى تقسيم ملف Excel واحد إلى عدة ملفات أصغر. على سبيل المثال، قد يحتوي المصنف على ورقة عمل واحدة لكل قسم، ويحتاج كل رئيس قسم إلى استلام ورقته الخاصة فقط. في حالات أخرى، قد ترغب في استخراج جدول أو كتلة بيانات معينة من ورقة عمل وإرسالها كملف مستقل عبر البريد الإلكتروني، دون الكشف عن بقية المصنف. قد تحتاج المصنفات الكبيرة المدمجة أيضًا إلى تقسيمها إلى أجزاء أصغر لتسهيل التعامل معها، أو تحميلها بشكل أسرع، أو معالجتها لاحقًا بواسطة أنظمة أخرى.
@@ -40,7 +41,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat
 dataDir = "data/"
 workbook = Workbook(dataDir + "book1.xls")
@@ -56,7 +56,7 @@ for i in range(workbook.getWorksheets().getCount()):
     destSheet.copy(sourceSheet)
     
     destFile = dataDir + sheetName + ".xls"
-    destWorkbook.save(destFile, SaveFormat.Excel97To2003)
+    destWorkbook.save(destFile, SaveFormat.EXCEL_97_TO_2003)
 jpype.shutdownJVM()
 ```
 
@@ -80,6 +80,5 @@ jpype.shutdownJVM()
 
 ### **مثال على الكود**
 الناتج المتوقع هو ملف جديد واحد في دليل البيانات يحتوي فقط على القيم (واختياريًا التنسيق) للنطاق المحدد المستخرج من المصنف المصدر. ملف الوجهة لا يرتبط بأي بيانات أخرى في الملف المصدر؛ فهو يحتوي فقط على النطاق المستخرج، بدءًا من الخلية `A1` في ورقة العمل الأولى الخاصة به.
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

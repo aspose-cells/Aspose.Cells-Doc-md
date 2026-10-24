@@ -196,6 +196,15 @@ workbook.save("output_custom.xlsx");
 
 ## **Resumen**
 
+Las tres escenarios difieren únicamente en las llamadas a `setSubtotals`. Todo lo demás —el conjunto de datos, los campos y las áreas a las que se asignan— es idéntico, lo que permite comparar directamente los diseños.
+- **Colocación de campos.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` mueve una columna de origen a una región. Dentro de una misma región, el orden de las llamadas determina el orden de visualización, por lo que la primera llamada corresponde al grupo más externo. Los subtotales requieren dos o más campos en la misma región: con un único campo no hay nada entre los grupos sobre lo cual calcular el subtotal.
+- **Escenario 1 — subtotales automáticos.** Si no se invoca `setSubtotals`, se deja a Excel la decisión, que aplica su propio subtotal predeterminado a los campos numéricos. Llamar a `setSubtotals` con `PivotFieldSubtotalType.AUTOMATIC` registra explícitamente esa elección en lugar de dejarla implícita.
+- **Escenario 2 — sin subtotales.** `setSubtotals` con `PivotFieldSubtotalType.NONE` desactiva el subtotal predeterminado, por lo que el informe de tabla dinámica conserva las filas de campo y el total general, pero omite las filas de subtotales que Excel insertaría entre ellas.
+- **Escenario 3 — un subconjunto seleccionado.** Cada llamada alterna exactamente un tipo de subtotal, y las llamadas se acumulan en lugar de restablecerse mutuamente. Por ejemplo, si se llama una vez con `PivotFieldSubtotalType.SUM` y otra vez con `PivotFieldSubtotalType.AVERAGE`, ambos tipos permanecen activados, y la tabla dinámica muestra un subtotal de suma, un subtotal de promedio y un total general.
+
+{{% alert color="primary" %}}
+Nada sobre los subtotales es específico de la región de filas. Las mismas llamadas a `setSubtotals` aplicadas a un campo obtenido de `PivotTable.ColumnFields` producen los mismos tres diseños sobre el eje de columnas, ya que la configuración pertenece al campo de tabla dinámica y no al eje en el que se encuentra.
+{{% /alert %}}
 ## **Artículos relacionados**
 - [Campos de página en tablas dinámicas](/cells/es/java/add-page-field-in-pivot-table/)
 - [Actualizar tablas dinámicas en Aspose.Cells for Java](/cells/es/java/refresh-pivot-table/)

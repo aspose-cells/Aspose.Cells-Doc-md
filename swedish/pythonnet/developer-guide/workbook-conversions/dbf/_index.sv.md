@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells har fullt stöd för att läsa och skriva DBF-filer (dBASE). Du kan ladda befintliga dBASE III- och dBASE IV-filer till ett Workbook-objekt, manipulera data med hjälp av det omfattande Aspose.Cells-API:et och spara arbetsboken tillbaka till DBF-format för användning med äldre databasapplikationer.
+{{% /alert %}}
 
 ## **Introduktion**
 DBF (DataBase File) är ett äldre databasfilformat som ursprungligen introducerades av dBASE i början av 1980-talet. Trots formatets ålder används DBF-filer fortfarande i stor utsträckning inom många branscher för att lagra strukturerad data, särskilt inom redovisning, GIS och andra specialiserade tillämpningar. Aspose.Cells gör att du sömlöst kan integrera dessa äldre filer i moderna Python via .NET-kalkylbladsarbetsflöden.
@@ -63,7 +64,7 @@ max_col = cells.max_data_column
 for i in range(max_row + 1):
     line_parts = []
     for j in range(max_col + 1):
-        cell = cells[i, j]
+        cell = cells.get(i, j)
         value = cell.string_value
         line_parts.append("|" + value)
     line_parts.append("|")
@@ -77,6 +78,7 @@ print("DBF file loaded successfully. Converted XLSX saved at: " + output_path)
 
 {{% alert color="primary" %}}
 Du kan öppna DBF-filer direkt i Microsoft Excel genom att välja filen i dialogrutan Öppna. Excel behandlar DBF-filen som ett kalkylblad och visar dess poster i en tabellayout. Detta är användbart för att snabbt verifiera data efter att ha läst eller skrivit den med Aspose.Cells.
+{{% /alert %}}
 
 ## **Skriva en DBF-fil**
 Att skriva data till en DBF-fil följer ett liknande mönster som att spara andra kalkylbladsformat med Aspose.Cells. Du skapar eller laddar en Workbook, fyller kalkylbladet med data och anropar sedan metoden `save` medan du anger `SaveFormat.DBF` som målformat.
@@ -90,6 +92,8 @@ För att skapa en DBF-fil, följ dessa steg:
 Följande exempel visar hur man skapar en ny DBF-fil från grunden. Det fyller ett kalkylblad med exempeldata som innehåller olika datatyper (strängar, tal och datum) för att illustrera hur fälttyper hanteras vid export till DBF-formatet.
 
 ```python
+import os
+import aspose.cells as ac
 from datetime import datetime
 outputDir = r"C:\Output\\"
 filePath = os.path.join(outputDir, "output.dbf")
@@ -99,52 +103,53 @@ workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
 # Kolumnrubriker
-cells[0, 0].put_value("ID")
-cells[0, 1].put_value("Name")
-cells[0, 2].put_value("Department")
-cells[0, 3].put_value("Salary")
-cells[0, 4].put_value("HireDate")
+cells.get(0, 0).put_value("ID")
+cells.get(0, 1).put_value("Name")
+cells.get(0, 2).put_value("Department")
+cells.get(0, 3).put_value("Salary")
+cells.get(0, 4).put_value("HireDate")
 # Datarad 1
-cells[1, 0].put_value(101)
-cells[1, 1].put_value("John Smith")
-cells[1, 2].put_value("Engineering")
-cells[1, 3].put_value(75000.50)
-cells[1, 4].put_value(datetime(2020, 3, 15))
+cells.get(1, 0).put_value(101)
+cells.get(1, 1).put_value("John Smith")
+cells.get(1, 2).put_value("Engineering")
+cells.get(1, 3).put_value(75000.50)
+cells.get(1, 4).put_value(datetime(2020, 3, 15))
 # Datarad 2
-cells[2, 0].put_value(102)
-cells[2, 1].put_value("Jane Doe")
-cells[2, 2].put_value("Marketing")
-cells[2, 3].put_value(68000.75)
-cells[2, 4].put_value(datetime(2019, 7, 22))
+cells.get(2, 0).put_value(102)
+cells.get(2, 1).put_value("Jane Doe")
+cells.get(2, 2).put_value("Marketing")
+cells.get(2, 3).put_value(68000.75)
+cells.get(2, 4).put_value(datetime(2019, 7, 22))
 # Datarad 3
-cells[3, 0].put_value(103)
-cells[3, 1].put_value("Bob Johnson")
-cells[3, 2].put_value("Finance")
-cells[3, 3].put_value(82000.00)
-cells[3, 4].put_value(datetime(2021, 1, 10))
+cells.get(3, 0).put_value(103)
+cells.get(3, 1).put_value("Bob Johnson")
+cells.get(3, 2).put_value("Finance")
+cells.get(3, 3).put_value(82000.00)
+cells.get(3, 4).put_value(datetime(2021, 1, 10))
 # Datarad 4
-cells[4, 0].put_value(104)
-cells[4, 1].put_value("Alice Brown")
-cells[4, 2].put_value("Human Resources")
-cells[4, 3].put_value(71000.25)
-cells[4, 4].put_value(datetime(2018, 11, 5))
+cells.get(4, 0).put_value(104)
+cells.get(4, 1).put_value("Alice Brown")
+cells.get(4, 2).put_value("Human Resources")
+cells.get(4, 3).put_value(71000.25)
+cells.get(4, 4).put_value(datetime(2018, 11, 5))
 # Datarad 5
-cells[5, 0].put_value(105)
-cells[5, 1].put_value("Charlie Wilson")
-cells[5, 2].put_value("Operations")
-cells[5, 3].put_value(79500.80)
-cells[5, 4].put_value(datetime(2022, 5, 30))
+cells.get(5, 0).put_value(105)
+cells.get(5, 1).put_value("Charlie Wilson")
+cells.get(5, 2).put_value("Operations")
+cells.get(5, 3).put_value(79500.80)
+cells.get(5, 4).put_value(datetime(2022, 5, 30))
 # Ställ in kolumnbredder för bättre läsbarhet
-worksheet.cells.set_column_width(0, 8)
-worksheet.cells.set_column_width(1, 20)
-worksheet.cells.set_column_width(2, 20)
-worksheet.cells.set_column_width(3, 12)
-worksheet.cells.set_column_width(4, 14)
-workbook.save(filePath, ac.SaveFormat.Dbf)
+worksheet.cells.set_column_width(0, 8.0)
+worksheet.cells.set_column_width(1, 20.0)
+worksheet.cells.set_column_width(2, 20.0)
+worksheet.cells.set_column_width(3, 12.0)
+worksheet.cells.set_column_width(4, 14.0)
+workbook.save(filePath, ac.SaveFormat.DBF)
 ```
 
 {{% alert color="primary" %}}
 När du skriver data till en DBF-fil, se till att dina data följer formatets begränsningar. Fältnamn bör inte vara längre än 10 tecken och bör inte innehålla mellanslag. Poster som överstiger totalt 4000 byte kommer inte att sparas korrekt. Datum bör vara giltiga datumvärden som kan representeras i formatet ÅÅÅÅMMDD.
+{{% /alert %}}
 
 ## **Överväganden gällande datatyper och formatering**
 Vid överföring av data mellan Aspose.Cells och DBF-formatet är det viktigt att förstå hur datatyper mappas mellan de två systemen för att säkerställa dataintegritet.
@@ -172,10 +177,5 @@ Efter att ha skrivit en DBF-fil kan du verifiera resultatet genom att öppna den
 ## **Konvertera mellan DBF och andra format**
 Ett av de mest praktiska användningsfallen för att läsa och skriva DBF-filer med Aspose.Cells är att konvertera data mellan DBF-formatet och moderna kalkylbladsformat som XLSX, XLS eller CSV. Eftersom Aspose.Cells stöder ett brett utbud av format kan du enkelt läsa in en DBF-fil och spara om den i valfritt annat stött format, eller vice versa.
 Du kan till exempel läsa en DBF-fil, tillämpa formatering eller beräkningar med Aspose.Cells-API:et och sedan spara resultatet som en XLSX-fil för distribution till användare som arbetar med moderna kalkylbladsapplikationer. Omvänt kan du hämta data från en XLSX- eller CSV-fil och exportera den till DBF-format för integration med äldre system.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

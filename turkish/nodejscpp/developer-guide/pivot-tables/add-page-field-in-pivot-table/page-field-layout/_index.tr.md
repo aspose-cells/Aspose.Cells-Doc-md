@@ -38,6 +38,9 @@ Sekiz satırın tümü her kod örneğinde, aynı sırada doldurulur; dolayısı
 İlk senaryoda, iki sayfa alanını (`Yıl`, `Bölge`) pivot tablonun üst kısmında **tek bir satırda yan yana** görünecek şekilde yapılandırıyoruz. `Meyve` öğesini satır eksenine atarız, `Yıl` ve `Region` öğelerini sayfa eksenine sırasıyla birinci ve ikinci olarak yerleştiririz (`addFieldToArea` çağrılarının sırası başlangıç dizinini belirler), `Tutar` (Toplam) öğesini veri alanı olarak ekler ve ardından `pageFieldOrder` öğesini `PrintOrderType.OverThenDown` ve `pageFieldWrapCount = 2` olarak ayarlarız. `OverThenDown` ve kaydırma sayısı 2 ile, iki sayfa alanı pivot tablonun üst kısmında tek bir satırda yatay olarak yan yana yerleştirilir; böylece şerit iki genişliğinde tek bir satır kaplar.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
+const path = require("path");
 let dataDir = "output";
 if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
@@ -118,7 +121,7 @@ workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 Bu örnekte, `Meyve` öğesini satır eksenine, `Yıl` ve `Region` öğelerini sayfa eksenine (`Yıl` birinci olacak şekilde) ve `Tutar` (Toplam) öğesini veri alanı olarak yerleştiriyoruz — tıpkı Örnek 1'deki gibi. Ardından `pageFieldOrder` öğesini `PrintOrderType.DownThenOver` ve `pageFieldWrapCount` öğesini `2` olarak ayarlıyoruz. `DownThenOver` ve kaydırma sayısı 2 ile, iki sayfa alanı dikey olarak istiflenir — `Yıl` üstte, `Bölge` doğrudan altında — ve pivot tablonun üst kısmında tek bir sütun oluşturur. Bu nedenle şerit, Örnek 1'in aksine, bir genişliğinde iki satır kaplar.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
@@ -145,10 +148,10 @@ for (let r = 0; r < data.length; r++) {
 }
 const idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
 const pivotTable = pivotReport.getPivotTables().get(idx);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 3);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DownThenOver);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.calculateData();
@@ -159,7 +162,7 @@ workbook.save("pageFieldLayout_downThenOver.xlsx");
 Üçüncü senaryoda bu veri kümesini ve alan atamasını koruyoruz, nötr bir düzen (`OverThenDown` ve kaydırma sayısı `2`) ayarlıyoruz ve ardından `pageFields.move` işlemini gösteriyoruz. `move(0, 1)` çağrısı, dizin 0'daki sayfa alanını (`Yıl`) konum 1'e taşır ve konum 1'deki sayfa alanı (`Bölge`) konum 0'a kayar. Bu çağrıdan sonra `Bölge` ilk sayfa alanı ve `Yıl` ikinci sayfa alanı olur. Kaydırma ve sıra modu değişmediğinden şerit hâlâ yatay olarak yan yana işlenir — yalnızca iki açılır menünün sırası değiştirilmiştir.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const dataSheet = workbook.getWorksheets().get(0);
 dataSheet.setName("PivotData");

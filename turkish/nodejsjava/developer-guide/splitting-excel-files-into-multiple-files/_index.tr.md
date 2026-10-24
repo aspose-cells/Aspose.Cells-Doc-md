@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, tek bir Excel dosyasını birden fazla dosyaya bölmeyi destekler. Bunu yapmanın iki temel yolu vardır: (1) kaynak çalışma kitabının her çalışma sayfasını yeni bir çalışma kitabına kopyalayarak ve her birini ayrı bir dosya olarak kaydederek ve (2) bir çalışma sayfasından belirli bir hücre aralığını yeni bir çalışma kitabına kopyalayarak. Her iki yaklaşım da veri alt kümelerini dağıtmanız, farklı alıcılar için daha küçük raporlar oluşturmanız veya verileri ayrı ayrı işlenmek üzere ayırmanız gerektiğinde kullanışlıdır.
+{{% /alert %}}
 
 ## **Giriş**
 Bir geliştiricinin tek bir Excel dosyasını birkaç daha küçük dosyaya ayırması gereken birçok gerçek dünya senaryosu vardır. Örneğin, bir çalışma kitabı her departman için bir çalışma sayfası içerebilir ve her departman başkanının yalnızca kendi sayfasını alması gerekebilir. Diğer durumlarda, bir çalışma sayfasından belirli bir tabloyu veya veri bloğunu çıkarmak ve çalışma kitabının geri kalanını açığa çıkarmadan bağımsız bir dosya olarak e-posta yoluyla göndermek isteyebilirsiniz. Büyük konsolide çalışma kitaplarının da daha kolay işleme, daha hızlı yükleme veya diğer sistemler tarafından sonraki işlemler için daha küçük parçalara bölünmesi gerekebilir.
@@ -53,7 +54,7 @@ for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
     destSheet.copy(sourceSheet);
     
     const destFile = dataDir + sheetName + ".xls";
-    destWorkbook.save(destFile, AsposeCells.SaveFormat.Excel97To2003);
+    destWorkbook.save(destFile, AsposeCells.SaveFormat.EXCEL_97_TO_2003);
 }
 ```
 
@@ -77,6 +78,5 @@ Aşağıdaki adımlar, belirli bir aralığı yeni bir çalışma kitabına kopy
 
 ### **Kod Örneği**
 Beklenen çıktı, veri dizininde, kaynak çalışma kitabından çıkarılan belirtilen aralığın yalnızca değerlerini (ve isteğe bağlı olarak biçimlendirmesini) içeren tek bir yeni dosyadır. Hedef dosyanın kaynak dosyadaki diğer verilerle hiçbir ilişkisi yoktur; yalnızca ilk çalışma sayfasının `A1` hücresinden başlayan çıkarılmış aralığı içerir.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 L'ajout d'un champ de base à la zone de données (valeur) est la première étape pour définir la manière dont un tableau croisé dynamique agrège vos données sources. Aspose.Cells expose `PivotTable.addFieldToArea(PivotFieldType, string)`, une surcharge qui accepte la constante `PivotFieldType.Data` et le nom de la colonne source. Une fois qu'un champ est ajouté à la zone de données, l'API l'expose via la collection `PivotTable.getDataFields()`, dans l'ordre dans lequel les champs ont été ajoutés. Par défaut, une colonne source numérique est synthétisée avec `ConsolidationFunction.Sum`, tandis qu'une colonne non numérique utilise `Count` par défaut.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -55,12 +55,11 @@ Chaque champ placé dans la zone de données est encapsulé en interne sous form
 
 {{% alert color="primary" %}}
 La modification de la fonction de synthèse affecte uniquement l'agrégat, la colonne source ne change pas.
+Vous pouvez donc laisser un champ de données avec `Sum` tout en ajoutant un second champ de données qui cible la même colonne source mais utilise `Count` ou `Average`, le tout dans un seul tableau croisé dynamique.
 {{% /alert %}}
 
-Vous pouvez donc laisser un champ de données avec `Sum` tout en ajoutant un second champ de données qui cible la même colonne source mais utilise `Count` ou `Average`, le tout dans un seul tableau croisé dynamique.
-
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -100,12 +99,11 @@ Lorsqu'un tableau croisé dynamique contient au moins deux champs de données, A
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` ne fonctionne pas s'il n'y a aucun champ de valeur ou seulement un.
+Les scénarios ci-dessous présentent trois exemples de bout en bout qui illustrent chaque capacité décrite ci-dessus par rapport à la même structure de tableau croisé dynamique.
 {{% /alert %}}
 
-Les scénarios ci-dessous présentent trois exemples de bout en bout qui illustrent chaque capacité décrite ci-dessus par rapport à la même structure de tableau croisé dynamique.
-
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

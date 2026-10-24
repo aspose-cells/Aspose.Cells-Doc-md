@@ -31,6 +31,7 @@ Aspose.Cells предоставляет два параллельных API ст
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Создать новую рабочую книгу
@@ -86,9 +87,19 @@ int main() {
 
 ## **Применение современного именованного предустановленного стиля сводной таблицы**
 
+`SetPivotTableStyleType` выбирает один из встроенных именованных стилей, которые Excel 2007 представил для сводных таблиц. Перечисление `PivotTableStyleType` предоставляет три семейства тем: светлое семейство от `PivotTableStyleLight1` до `PivotTableStyleLight28`, среднее семейство от `PivotTableStyleMedium1` до `PivotTableStyleMedium28` и темное семейство от `PivotTableStyleDark1` до `PivotTableStyleDark28`. Оно также определяет `None` и `Custom`. Элементы с большими номерами в каждом семействе — это стили, добавленные в Excel 2017.
+Эти предустановки доступны только для чтения. Если необходимо изменить цвета, границы или шрифты сверх того, что предусмотрено предустановкой, вместо этого необходимо определить пользовательский стиль сводной таблицы, как показано в [Сценарии 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**Почему современные предустановки, а не автоформаты для серий отчетов?** Значения `Report1`–`Report10` и `Table1`–`Table10` типа `PivotTableAutoFormatType` существовали до появления полей столбцов сводных таблиц, поэтому они не содержат оформления для заголовков полей столбцов, и Excel отображает такие заголовки без оформления. Предустановки `PivotTableStyleType` разработаны для двумерного макета, используемого современным Excel, и одинаково оформляют заголовки полей строк и полей столбцов.
+{{% /alert %}}
+
+Этот сценарий повторно использует набор данных Fruit/Year/Amount из Сценария 1, добавляет `Year` в область столбцов рядом с полем строки `Fruit` с помощью `PivotFieldType::Column`, применяет предустановку темной темы `PivotTableStyleDark1` с помощью `SetPivotTableStyleType` и сохраняет результат в формате `.xlsx` — формате, для которого `PivotTableStyleType` имеет смысл.
+
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -135,7 +146,6 @@ int main() {
     return 0;
 }
 ```
-
 ## **Определение и применение пользовательского стиля сводной таблицы**
 Встроенные предустановки не могут быть изменены. Всякий раз, когда требуется переопределить цвета, границы или шрифты, необходимо определить пользовательский стиль сводной таблицы. Рабочий процесс состоит из трёх шагов:
 1. Добавьте пользовательский стиль в коллекцию `TableStyles` рабочей книги через `Worksheets.TableStyles.AddPivotTableStyle(string name)`. Метод возвращает индекс вновь созданного стиля.
@@ -144,14 +154,14 @@ int main() {
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` и `PivotTableStyleType` не взаимозаменяемы. Используйте `PivotTableStyleType` для встроенных предустановок и `PivotTableStyleName` для пользовательских стилей, определённых через `AddPivotTableStyle`. Установка обоих свойств безвредна, но отображается только то, которое соответствует предполагаемому источнику.
-{{% /alert %}}
-
 Доступные значения `TableStyleElementType` включают `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` и `PageFieldValues`.
 В следующем примере определяется пользовательский стиль сводной таблицы с тонкой чёрной границей для `WholeTable` и жирным красным шрифтом для `GrandTotalRow`, затем он применяется через `PivotTableStyleName`, и результат сохраняется как `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -230,9 +240,8 @@ int main() {
 
 {{% alert color="primary" %}}
 `FormatAll` переопределяет и `PivotTableStyleType`, и `PivotTableStyleName`. Используйте его только тогда, когда требуется единообразный, независящий от темы внешний вид по всей сводной таблице.
-{{% /alert %}}
-
 В следующем примере создаётся `Style` с жёлтой сплошной заливкой, жирным тёмно-синим шрифтом и тонкими чёрными границами со всех сторон, затем он применяется с помощью `FormatAll`, и результат сохраняется как `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta il rendering dei dati di array in una singola cella tramite Smart Markers. Utilizzando l'attributo `ArrayAsSingle` insieme all'attributo `ExtraDelimiter`, gli sviluppatori possono controllare il modo in cui gli elementi dell'array vengono separati all'interno di una singola cella, offrendo una formattazione flessibile per report e modelli.
+{{% /alert %}}
 
 ## **Introduction**
 Gli Smart Markers in Aspose.Cells sono una potente funzionalità basata su modelli che consente di popolare dinamicamente i dati del foglio di calcolo utilizzando espressioni marker come `&=DataSource.Field`. Il marker viene inserito in una cartella di lavoro designer e, quando il modello viene elaborato dal `WorkbookDesigner`, i marker vengono sostituiti con i valori provenienti dall'origine dati fornita.
@@ -59,6 +60,7 @@ Il marker è composto dalle seguenti parti:
 
 {{% alert color="primary" %}}
 L'attributo `extraDelimiter` accetta qualsiasi stringa letterale, inclusi delimitatori multi-carattere, testo personalizzato o sequenze di escape come `\n` per output separati da nuova riga. Se l'array è vuoto, la cella risultante viene lasciata vuota.
+{{% /alert %}}
 
 ### **Step-by-Step Workflow**
 Il flusso di lavoro seguente descrive come eseguire il rendering di un array in una singola cella utilizzando gli Smart Markers.
@@ -146,9 +148,6 @@ Tenere presenti i seguenti punti quando si lavora con gli attributi `ArrayAsSing
 - La funzionalità funziona sia con origini dati di oggetti sia con origini `DataSet` e `DataTable` in cui una colonna può essere suddivisa in array.
 - Per output separati da nuova riga, è possibile utilizzare `\n` o `System.lineSeparator()` come valore del delimitatore.
 - Posizionare lo Smart Marker in una cella che abbia larghezza sufficiente per visualizzare la stringa concatenata risultante; in caso contrario, il contenuto potrebbe visivamente traboccare nelle celle adiacenti a seconda del formato.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Related Articles
 - [Aggiungere Campi Filtro a una Tabella Pivot in Aspose.Cells for Java](/cells/it/java/add-page-field-in-pivot-table/)

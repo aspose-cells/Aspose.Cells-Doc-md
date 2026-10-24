@@ -36,76 +36,75 @@ Alla tre exempel nedan läser in dessa åtta rader försäljningsdata i ett kalk
 Alla åtta raderna fylls i i varje kodexempel, i identisk ordning, så att källdatan aldrig skiljer sig åt mellan scenarierna — det är bara sidfältets layoutegenskaper som skiljer sig åt.
 
 ## **Exempel 1: Över sedan ned**
-I det första scenariot konfigurerar vi de två sidfälten (`Year`, `Region`) så att de visas **sida vid sida i en enda rad** överst i pivottabellen. Vi tilldelar `Fruit` till radaxeln, placerar `Year` först och `Region` därefter på sidaxeln (ordningen på `add_field_to_area`-anropen bestämmer startindexet), lägger till `Amount` (Summa) som datafält och anger sedan `page_field_order` till `PrintOrderType.OverThenDown` med `page_field_wrap_count = 2`. Med `OverThenDown` och ett radbrytningsantal på 2 läggs de två sidfälten ut horisontellt sida vid sida i en enda rad överst i pivottabellen, så att remsan upptar en rad med bredden två.
+I det första scenariot konfigurerar vi de två sidfälten (`Year`, `Region`) så att de visas **sida vid sida i en enda rad** överst i pivottabellen. Vi tilldelar `Fruit` till radaxeln, placerar `Year` först och `Region` därefter på sidaxeln (ordningen på `add_field_to_area`-anropen bestämmer startindexet), lägger till `Amount` (Summa) som datafält och anger sedan `page_field_order` till `PrintOrderType.OVER_THEN_DOWN` med `page_field_wrap_count = 2`. Med `OverThenDown` och ett radbrytningsantal på 2 läggs de två sidfälten ut horisontellt sida vid sida i en enda rad överst i pivottabellen, så att remsan upptar en rad med bredden två.
 
 ```python
 import os
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 data_dir = "output"
 if not os.path.exists(data_dir):
     os.makedirs(data_dir, exist_ok=True)
 workbook = ac.Workbook()
 worksheets = workbook.worksheets
-pivot_data_idx = worksheets.add("PivotData")
-pivot_data_sheet = worksheets[pivot_data_idx]
+pivot_data_sheet = worksheets.add("PivotData")
 pivot_data_cells = pivot_data_sheet.cells
 # Rubriker (rad 0)
-pivot_data_cells[0, 0].put_value("Fruit")
-pivot_data_cells[0, 1].put_value("Year")
-pivot_data_cells[0, 2].put_value("Region")
-pivot_data_cells[0, 3].put_value("Amount")
+pivot_data_cells.get(0, 0).put_value("Fruit")
+pivot_data_cells.get(0, 1).put_value("Year")
+pivot_data_cells.get(0, 2).put_value("Region")
+pivot_data_cells.get(0, 3).put_value("Amount")
 # Rad 1: Apple, 2022, North, 150
-pivot_data_cells[1, 0].put_value("Apple")
-pivot_data_cells[1, 1].put_value(2022)
-pivot_data_cells[1, 2].put_value("North")
-pivot_data_cells[1, 3].put_value(150)
+pivot_data_cells.get(1, 0).put_value("Apple")
+pivot_data_cells.get(1, 1).put_value(2022)
+pivot_data_cells.get(1, 2).put_value("North")
+pivot_data_cells.get(1, 3).put_value(150)
 # Rad 2: Apple, 2023, North, 180
-pivot_data_cells[2, 0].put_value("Apple")
-pivot_data_cells[2, 1].put_value(2023)
-pivot_data_cells[2, 2].put_value("North")
-pivot_data_cells[2, 3].put_value(180)
+pivot_data_cells.get(2, 0).put_value("Apple")
+pivot_data_cells.get(2, 1).put_value(2023)
+pivot_data_cells.get(2, 2).put_value("North")
+pivot_data_cells.get(2, 3).put_value(180)
 # Rad 3: Banana, 2022, South, 120
-pivot_data_cells[3, 0].put_value("Banana")
-pivot_data_cells[3, 1].put_value(2022)
-pivot_data_cells[3, 2].put_value("South")
-pivot_data_cells[3, 3].put_value(120)
+pivot_data_cells.get(3, 0).put_value("Banana")
+pivot_data_cells.get(3, 1).put_value(2022)
+pivot_data_cells.get(3, 2).put_value("South")
+pivot_data_cells.get(3, 3).put_value(120)
 # Rad 4: Banana, 2023, South, 140
-pivot_data_cells[4, 0].put_value("Banana")
-pivot_data_cells[4, 1].put_value(2023)
-pivot_data_cells[4, 2].put_value("South")
-pivot_data_cells[4, 3].put_value(140)
+pivot_data_cells.get(4, 0).put_value("Banana")
+pivot_data_cells.get(4, 1).put_value(2023)
+pivot_data_cells.get(4, 2).put_value("South")
+pivot_data_cells.get(4, 3).put_value(140)
 # Rad 5: Cherry, 2022, East, 200
-pivot_data_cells[5, 0].put_value("Cherry")
-pivot_data_cells[5, 1].put_value(2022)
-pivot_data_cells[5, 2].put_value("East")
-pivot_data_cells[5, 3].put_value(200)
+pivot_data_cells.get(5, 0).put_value("Cherry")
+pivot_data_cells.get(5, 1).put_value(2022)
+pivot_data_cells.get(5, 2).put_value("East")
+pivot_data_cells.get(5, 3).put_value(200)
 # Rad 6: Cherry, 2023, East, 220
-pivot_data_cells[6, 0].put_value("Cherry")
-pivot_data_cells[6, 1].put_value(2023)
-pivot_data_cells[6, 2].put_value("East")
-pivot_data_cells[6, 3].put_value(220)
+pivot_data_cells.get(6, 0).put_value("Cherry")
+pivot_data_cells.get(6, 1).put_value(2023)
+pivot_data_cells.get(6, 2).put_value("East")
+pivot_data_cells.get(6, 3).put_value(220)
 # Rad 7: Grape, 2022, West, 90
-pivot_data_cells[7, 0].put_value("Grape")
-pivot_data_cells[7, 1].put_value(2022)
-pivot_data_cells[7, 2].put_value("West")
-pivot_data_cells[7, 3].put_value(90)
+pivot_data_cells.get(7, 0).put_value("Grape")
+pivot_data_cells.get(7, 1).put_value(2022)
+pivot_data_cells.get(7, 2).put_value("West")
+pivot_data_cells.get(7, 3).put_value(90)
 # Rad 8: Grape, 2023, West, 110
-pivot_data_cells[8, 0].put_value("Grape")
-pivot_data_cells[8, 1].put_value(2023)
-pivot_data_cells[8, 2].put_value("West")
-pivot_data_cells[8, 3].put_value(110)
+pivot_data_cells.get(8, 0).put_value("Grape")
+pivot_data_cells.get(8, 1).put_value(2023)
+pivot_data_cells.get(8, 2).put_value("West")
+pivot_data_cells.get(8, 3).put_value(110)
 # Lägg till bladet PivotTableReport
-pivot_table_sheet_idx = worksheets.add("PivotTableReport")
-pivot_table_sheet = worksheets[pivot_table_sheet_idx]
+pivot_table_sheet = worksheets.add("PivotTableReport")
 pivot_tables = pivot_table_sheet.pivot_tables
 # Skapa pivottabell med källa från PivotData!A1:D9 placerad vid A1 på PivotTableReport
 pivot_index = pivot_tables.add("PivotData!A1:D9", "A1", "PivotTable1")
 pivot_table = pivot_tables[pivot_index]
 # Lägg till fält
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, 0)   # Fruit
-pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, 1)  # Year
-pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, 2)  # Region
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, 3)  # Amount
+pivot_table.add_field_to_area(PivotFieldType.ROW, 0)   # Fruit
+pivot_table.add_field_to_area(PivotFieldType.PAGE, 1)  # Year
+pivot_table.add_field_to_area(PivotFieldType.PAGE, 2)  # Region
+pivot_table.add_field_to_area(PivotFieldType.DATA, 3)  # Amount
 pivot_table.data_fields[0].function = ac.ConsolidationFunction.SUM
 # Konfigurera layout för sidfältsområde: placera sidfält först horisontellt, radbryt efter varannan
 pivot_table.page_field_order = ac.PrintOrderType.OVER_THEN_DOWN
@@ -117,18 +116,18 @@ workbook.save(os.path.join(data_dir, "pageFieldLayout_overThenDown.xlsx"))
 ```
 
 ## **Exempel 2: Ned sedan över**
-I det här exemplet placerar vi `Fruit` på radaxeln, `Year` och `Region` på sidaxeln (med `Year` först), och `Amount` (Summa) som datafält — exakt som i Exempel 1. Vi anger sedan `page_field_order` till `PrintOrderType.DownThenOver` och `page_field_wrap_count` till `2`. Med `DownThenOver` och ett radbrytningsantal på 2 staplas de två sidfälten vertikalt — `Year` överst, `Region` direkt under — och bildar en enda kolumn överst i pivottabellen. Remsan upptar alltså två rader med bredden ett, till skillnad från Exempel 1.
+I det här exemplet placerar vi `Fruit` på radaxeln, `Year` och `Region` på sidaxeln (med `Year` först), och `Amount` (Summa) som datafält — exakt som i Exempel 1. Vi anger sedan `page_field_order` till `PrintOrderType.DOWN_THEN_OVER` och `page_field_wrap_count` till `2`. Med `DownThenOver` och ett radbrytningsantal på 2 staplas de två sidfälten vertikalt — `Year` överst, `Region` direkt under — och bildar en enda kolumn överst i pivottabellen. Remsan upptar alltså två rader med bredden ett, till skillnad från Exempel 1.
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 workbook = ac.Workbook()
 pivot_data = workbook.worksheets[0]
 pivot_data.name = "PivotData"
-pivot_report_idx = workbook.worksheets.add("PivotTableReport")
-pivot_report = workbook.worksheets[pivot_report_idx]
+pivot_report = workbook.worksheets.add("PivotTableReport")
 headers = ["Fruit", "Year", "Region", "Amount"]
 for c in range(len(headers)):
-    pivot_data.cells[0, c].put_value(headers[c])
+    pivot_data.cells.get(0, c).put_value(headers[c])
 data = [
     ["Apple", 2022, "North", 150],
     ["Apple", 2023, "North", 180],
@@ -141,13 +140,13 @@ data = [
 ]
 for r in range(len(data)):
     for c in range(len(data[r])):
-        pivot_data.cells[r + 1, c].put_value(data[r][c])
+        pivot_data.cells.get(r + 1, c).put_value(data[r][c])
 idx = pivot_report.pivot_tables.add("PivotData!A1:D9", "A1", "PivotTable")
 pivot_table = pivot_report.pivot_tables[idx]
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, 0)
-pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, 1)
-pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, 2)
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, 3)
+pivot_table.add_field_to_area(PivotFieldType.ROW, 0)
+pivot_table.add_field_to_area(PivotFieldType.PAGE, 1)
+pivot_table.add_field_to_area(PivotFieldType.PAGE, 2)
+pivot_table.add_field_to_area(PivotFieldType.DATA, 3)
 pivot_table.page_field_order = ac.PrintOrderType.DOWN_THEN_OVER
 pivot_table.page_field_wrap_count = 2
 pivot_table.calculate_data()
@@ -159,53 +158,53 @@ I det tredje scenariot behåller vi denna datamängd och fälttilldelning, anger
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 workbook = ac.Workbook()
 data_sheet = workbook.worksheets[0]
 data_sheet.name = "PivotData"
-data_sheet.cells["A1"].put_value("Fruit")
-data_sheet.cells["B1"].put_value("Year")
-data_sheet.cells["C1"].put_value("Region")
-data_sheet.cells["D1"].put_value("Amount")
-data_sheet.cells["A2"].put_value("Apple")
-data_sheet.cells["B2"].put_value(2022)
-data_sheet.cells["C2"].put_value("North")
-data_sheet.cells["D2"].put_value(150)
-data_sheet.cells["A3"].put_value("Apple")
-data_sheet.cells["B3"].put_value(2023)
-data_sheet.cells["C3"].put_value("North")
-data_sheet.cells["D3"].put_value(180)
-data_sheet.cells["A4"].put_value("Banana")
-data_sheet.cells["B4"].put_value(2022)
-data_sheet.cells["C4"].put_value("South")
-data_sheet.cells["D4"].put_value(120)
-data_sheet.cells["A5"].put_value("Banana")
-data_sheet.cells["B5"].put_value(2023)
-data_sheet.cells["C5"].put_value("South")
-data_sheet.cells["D5"].put_value(140)
-data_sheet.cells["A6"].put_value("Cherry")
-data_sheet.cells["B6"].put_value(2022)
-data_sheet.cells["C6"].put_value("East")
-data_sheet.cells["D6"].put_value(200)
-data_sheet.cells["A7"].put_value("Cherry")
-data_sheet.cells["B7"].put_value(2023)
-data_sheet.cells["C7"].put_value("East")
-data_sheet.cells["D7"].put_value(220)
-data_sheet.cells["A8"].put_value("Grape")
-data_sheet.cells["B8"].put_value(2022)
-data_sheet.cells["C8"].put_value("West")
-data_sheet.cells["D8"].put_value(90)
-data_sheet.cells["A9"].put_value("Grape")
-data_sheet.cells["B9"].put_value(2023)
-data_sheet.cells["C9"].put_value("West")
-data_sheet.cells["D9"].put_value(110)
-pivot_sheet_idx = workbook.worksheets.add("PivotTableReport")
-pivot_sheet = workbook.worksheets[pivot_sheet_idx]
+data_sheet.cells.get("A1").put_value("Fruit")
+data_sheet.cells.get("B1").put_value("Year")
+data_sheet.cells.get("C1").put_value("Region")
+data_sheet.cells.get("D1").put_value("Amount")
+data_sheet.cells.get("A2").put_value("Apple")
+data_sheet.cells.get("B2").put_value(2022)
+data_sheet.cells.get("C2").put_value("North")
+data_sheet.cells.get("D2").put_value(150)
+data_sheet.cells.get("A3").put_value("Apple")
+data_sheet.cells.get("B3").put_value(2023)
+data_sheet.cells.get("C3").put_value("North")
+data_sheet.cells.get("D3").put_value(180)
+data_sheet.cells.get("A4").put_value("Banana")
+data_sheet.cells.get("B4").put_value(2022)
+data_sheet.cells.get("C4").put_value("South")
+data_sheet.cells.get("D4").put_value(120)
+data_sheet.cells.get("A5").put_value("Banana")
+data_sheet.cells.get("B5").put_value(2023)
+data_sheet.cells.get("C5").put_value("South")
+data_sheet.cells.get("D5").put_value(140)
+data_sheet.cells.get("A6").put_value("Cherry")
+data_sheet.cells.get("B6").put_value(2022)
+data_sheet.cells.get("C6").put_value("East")
+data_sheet.cells.get("D6").put_value(200)
+data_sheet.cells.get("A7").put_value("Cherry")
+data_sheet.cells.get("B7").put_value(2023)
+data_sheet.cells.get("C7").put_value("East")
+data_sheet.cells.get("D7").put_value(220)
+data_sheet.cells.get("A8").put_value("Grape")
+data_sheet.cells.get("B8").put_value(2022)
+data_sheet.cells.get("C8").put_value("West")
+data_sheet.cells.get("D8").put_value(90)
+data_sheet.cells.get("A9").put_value("Grape")
+data_sheet.cells.get("B9").put_value(2023)
+data_sheet.cells.get("C9").put_value("West")
+data_sheet.cells.get("D9").put_value(110)
+pivot_sheet = workbook.worksheets.add("PivotTableReport")
 pivot_idx = pivot_sheet.pivot_tables.add("PivotData!A1:D9", "A3", "PivotTable")
 pivot_table = pivot_sheet.pivot_tables[pivot_idx]
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, 0)
-pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, 1)
-pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, 2)
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, 3)
+pivot_table.add_field_to_area(PivotFieldType.ROW, 0)
+pivot_table.add_field_to_area(PivotFieldType.PAGE, 1)
+pivot_table.add_field_to_area(PivotFieldType.PAGE, 2)
+pivot_table.add_field_to_area(PivotFieldType.DATA, 3)
 pivot_table.page_field_order = ac.PrintOrderType.OVER_THEN_DOWN
 pivot_table.page_field_wrap_count = 2
 pivot_table.page_fields.move(0, 1)

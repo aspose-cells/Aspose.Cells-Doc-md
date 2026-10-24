@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Añadir un campo base a la región de datos (valor) es el primer paso para dar forma a cómo una tabla dinámica agrega los datos de origen. Aspose.Cells expone `PivotTable.addFieldToArea(PivotFieldType, string)`, una sobrecarga que acepta la constante `PivotFieldType.Data` y el nombre de la columna de origen. Una vez que un campo se añade a la región de datos, la API lo expone a través de la colección `PivotTable.getDataFields()`, en el orden en que se añadieron los campos. Por defecto, una columna de origen numérica se resume con `ConsolidationFunction.Sum`, mientras que una columna no numérica usa `Count` por defecto.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -55,12 +55,11 @@ Cada campo colocado en la región de datos se envuelve internamente como una ins
 
 {{% alert color="primary" %}}
 Cambiar la función de resumen solo afecta a la agregación, la columna de origen no cambia.
+Por lo tanto, puede dejar un campo de datos como `Sum` mientras añade un segundo campo de datos que apunte a la misma columna de origen pero use `Count` o `Average`, todo en una sola tabla dinámica.
 {{% /alert %}}
 
-Por lo tanto, puede dejar un campo de datos como `Sum` mientras añade un segundo campo de datos que apunte a la misma columna de origen pero use `Count` o `Average`, todo en una sola tabla dinámica.
-
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -100,12 +99,11 @@ Cuando una tabla dinámica contiene dos o más campos de datos, Aspose.Cells exp
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` no funciona si no hay ningún campo de valor o si solo hay uno.
+Los escenarios a continuación recorren tres ejemplos de extremo a extremo que demuestran cada capacidad descrita anteriormente sobre la misma estructura de tabla dinámica.
 {{% /alert %}}
 
-Los escenarios a continuación recorren tres ejemplos de extremo a extremo que demuestran cada capacidad descrita anteriormente sobre la misma estructura de tabla dinámica.
-
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

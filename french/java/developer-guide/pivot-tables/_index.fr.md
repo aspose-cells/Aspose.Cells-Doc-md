@@ -32,11 +32,10 @@ Pour créer une table pivot à l'aide d'Aspose.Cells, veuillez suivre les étape
 
 {{% alert color="primary" %}}
 Lors de l'attribution d'une plage de cellules comme source de données, la plage doit être définie du haut à gauche au bas à droite. Par exemple, "A1:C3" est valide ; "C3:A1" est invalide.
-{{% /alert %}}
-
 L'exemple de code ci-dessous montre comment créer une table pivot simple en suivant les étapes de base décrites ci-dessus. Lors de l'exécution du code, une table pivot est ajoutée à la feuille de calcul :
 **Création d'un tableau croisé dynamique basé sur un champ correspondant**
 ![todo:image_alt_text](create-pivot-table_1.png)
+{{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
 

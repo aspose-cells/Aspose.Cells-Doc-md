@@ -30,6 +30,7 @@ En linjesparkline ritar en kontinuerlig linje genom datapunkterna i en serie, vi
 Följande exempel skapar en arbetsbok, skriver värdena 5, -3, 8, -2, 6 i cellerna A1 till E1 och lägger till en linjesparkline i cell F1 som följer dessa värden. Det anpassar också linjefärgen till röd och aktiverar markörer för högsta och lägsta punkt.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
@@ -41,13 +42,13 @@ cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
 // Steg 3: Bygg en CellArea som pekar på målcellen F1
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // kolumn F (0-indexerad)
-dest.setEndColumn(5);
-dest.setStartRow(0);      // rad 1 (0-indexerad)
-dest.setEndRow(0);
+dest.StartColumn = 5;   // kolumn F (0-indexerad)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // rad 1 (0-indexerad)
+dest.EndRow = 0;
 // Steg 4: Lägg till en linje-sparkline från A1:E1 i F1
 // SparklineGroups.Add returnerar index för den nyligen tillagda gruppen
-let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, dest);
+let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(index);
 // Steg 5: Skapa en röd CellsColor och tilldela den till sparkline-linjens färg
 let red = workbook.createCellsColor();
@@ -72,6 +73,7 @@ Proceduren speglar exemplet med linjesparkline:
 Exemplet nedan skriver värdena 5, -3, 8, -2, 6 i A1:E1 och renderar en kolumnsparkline i F1. Negativa värden ritas som staplar som går nedåt och positiva värden som staplar som går uppåt, vilket gör det enkelt att se positiva och negativa bidrag med en blick.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Steg 2: Skriv exempelvärden till A1:E1
@@ -81,13 +83,13 @@ for (let i = 0; i < values.length; i++) {
 }
 // Steg 3: Skapa ett CellArea som pekar mot F1 (kolumnindex 5, radindex 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Steg 4: Lägg till en kolumnsparkline i målcellen
 let idx = worksheet.getSparklineGroups().add(
-    AsposeCells.SparklineType.Column, "A1:E1", false, dest);
+    AsposeCells.SparklineType.COLUMN, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(idx);
 // Steg 5: Bekräfta sparklinjetypen genom att läsa group.Type
 console.log("Sparkline Type added: " + group.getType());
@@ -107,6 +109,7 @@ I Aspose.Cells skapas en vinst/förlust-sparkline genom att skicka `SparklineTyp
 6. Spara arbetsboken under ett unikt filnamn så att alla tre exemplen kan samexistera på disk.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -118,13 +121,13 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Steg 3: Bygg en CellArea som pekar mot F1 (kolumn 5, rad 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F
-dest.setEndColumn(5);
-dest.setStartRow(0);      // rad 1
-dest.setEndRow(0);
-// Steg 4: Lägg till en Vinst/Förlust-sparkline (SparklineType.Stacked)
+dest.StartColumn = 5;   // F
+dest.EndColumn = 5;
+dest.StartRow = 0;      // rad 1
+dest.EndRow = 0;
+// Steg 4: Lägg till en Vinst/Förlust-sparkline (SparklineType.STACKED)
 let groupIndex = worksheet.getSparklineGroups().add(
-    AsposeCells.SparklineType.Stacked,
+    AsposeCells.SparklineType.STACKED,
     "A1:E1",
     false,
     dest
@@ -160,6 +163,7 @@ console.log("Workbook saved successfully: output_winloss.xlsx");
 Det kombinerade exemplet nedan skapar en enda arbetsbok, fyller rad 1 med värdena 5, -3, 8, -2, 6 och lägger sedan till tre sparkline-grupper i cellerna F1, F2 och F3 — en av varje typ — så att den resulterande filen demonstrerar alla tre sparkline-stilar samtidigt.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Steg 2: Fyll i exempeldata i rad 1 (A1:E1)
@@ -170,11 +174,11 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Steg 3: Lägg till en linje-sparklinegrupp vid F1
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
 // Anpassa linje-sparklinefärgen via CellsColor
 let lineColor = workbook.createCellsColor();
@@ -182,11 +186,11 @@ lineColor.setColor(AsposeCells.Color.getBlue());
 lineGroup.setSeriesColor(lineColor);
 // Steg 4: Lägg till en kolumn-sparklinegrupp vid F2
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(5);
-columnArea.setEndColumn(5);
-columnArea.setStartRow(1);
-columnArea.setEndRow(1);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 5;
+columnArea.EndColumn = 5;
+columnArea.StartRow = 1;
+columnArea.EndRow = 1;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
 // Anpassa kolumn-sparkline-seriefärgen
 let columnColor = workbook.createCellsColor();
@@ -194,11 +198,11 @@ columnColor.setColor(AsposeCells.Color.getGreen());
 columnGroup.setSeriesColor(columnColor);
 // Steg 5: Lägg till en vinst/förlust (staplad) sparklinegrupp vid F3
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(5);
-stackedArea.setEndColumn(5);
-stackedArea.setStartRow(2);
-stackedArea.setEndRow(2);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 5;
+stackedArea.EndColumn = 5;
+stackedArea.StartRow = 2;
+stackedArea.EndRow = 2;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
 // Anpassa vinst/förlust-sparkline-seriefärgen
 let stackedColor = workbook.createCellsColor();
@@ -217,4 +221,4 @@ När en `SparklineGroup` har skapats och lagts till i `worksheet.SparklineGroups
 - **Första/Sista/Negativa punktmarkörer** — flaggor som växlar markörer på den första, sista och negativa datapunkten.
 För att ändra en färg ska du alltid skapa en `CellsColor`-instans och tilldela den till relevant egenskap. Tilldela inte en `java.awt.Color` direkt till sparkline-färgegenskaper — de förväntar sig typen `CellsColor` från `com.aspose.cells.Drawing`. Metoden `SparklineGroups.add` returnerar i sig ett fullständigt typat `SparklineGroup`-objekt, så du kan kedja egenskapstilldelningar på returvärdet eller lagra det i en lokal variabel och anpassa det innan du sparar.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

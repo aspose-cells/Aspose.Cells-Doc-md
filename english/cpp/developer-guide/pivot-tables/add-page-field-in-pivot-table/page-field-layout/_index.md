@@ -129,6 +129,7 @@ In this example we place `Fruit` on the row axis, `Year` and `Region` on the pag
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -251,4 +252,4 @@ int main() {
 - [Refresh Pivot Table](/cells/cpp/refresh-pivot-table/) — explains `RefreshData` and `CalculateData`, which are required after reordering page fields.
 - [Apply Style to Pivot Table](/cells/cpp/apply-style-to-pivot-table/) — shows how to format the rendered pivot table after the page-field strip has been laid out.
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

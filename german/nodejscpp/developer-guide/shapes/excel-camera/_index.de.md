@@ -18,19 +18,18 @@ Die Excel-Kamera ist im Wesentlichen ein Bildobjekt, das an einer bestimmten Zei
 ## Methode 1 — Hinzufügen eines dynamischen Kamerabildes
 Die dynamische Kamera ist der häufigste Ansatz und entspricht am ehesten dem in Excel eingebauten Kamera-Tool. Sie funktioniert, indem ein Bild ohne anfänglichen Bildinhalt hinzugefügt und anschließend eine `Formula` zugewiesen wird, die auf den Quellbereich verweist. Nachdem die Formel zugewiesen wurde, aktualisiert der Aufruf von `updateSelectedValue()` die eingebetteten Bilddaten, sodass sie mit den Zellen, die sie spiegeln, synchron sind. Die Kamera wird nicht durch eine dedizierte Klasse implementiert — sie wird vollständig auf dem Standardtyp `Picture` aufgebaut.
 Die wichtigsten APIs sind:
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — fügt ein Bild hinzu, das an der angegebenen Zeile und Spalte verankert ist. Die Übergabe von `null` für den Parameter `stream` erstellt ein leeres Bild, das als Platzhalter für eine dynamische Kamera dient. Die Methode gibt den Index des neuen Bildes zurück.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — fügt ein Bild hinzu, das an der angegebenen Zeile und Spalte verankert ist. Die Übergabe von `null` für den Parameter `stream` erstellt ein leeres Bild, das als Platzhalter für eine dynamische Kamera dient. Die Methode gibt den Index des neuen Bildes zurück.
 - `pictures.get(index)` — ruft ein bestimmtes `Picture` aus der Sammlung anhand des Index ab.
 - `Picture.formula` — eine String-Eigenschaft (get/set), die die A1-Referenz auf den Quellbereich enthält, den die Kamera spiegelt, z. B. `"A1:F10"`.
 - `Picture.updateSelectedValue()` — eine void-Methode, die die eingebetteten Bilddaten aus den Zellen aktualisiert, auf die `formula` verweist.
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` MUSS vor dem Speichern aufgerufen werden, wenn die Ausgabe HTML oder PDF ist; andernfalls enthält die exportierte Datei keine Bilddaten und die Kamera erscheint in der gerenderten Ausgabe leer.
+Der folgende Code erstellt eine Arbeitsmappe, fügt ein leeres Bild verankert in Zeile 10, Spalte 6 hinzu, verknüpft es über die Eigenschaft `Formula` mit dem Quellbereich `A1:F10`, aktualisiert die eingebetteten Bilddaten und speichert die Arbeitsmappe.
 {{% /alert %}}
 
-Der folgende Code erstellt eine Arbeitsmappe, fügt ein leeres Bild verankert in Zeile 10, Spalte 6 hinzu, verknüpft es über die Eigenschaft `Formula` mit dem Quellbereich `A1:F10`, aktualisiert die eingebetteten Bilddaten und speichert die Arbeitsmappe.
-
 ```javascript
-const aspose = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
@@ -48,22 +47,18 @@ Die wichtigsten APIs sind:
 - `Cells.createRange(address)` — erstellt ein `Range`-Objekt aus einer A1-Adresse wie `"A1:F10"`.
 - `Range.toImage(ImageOrPrintOptions options)` — rendert den Bereich in Bildbytes. Die Übergabe von `null` verwendet die Standard-Renderingoptionen; es existieren Überladungen für eine feinere Steuerung der Ausgabe.
 - `new Buffer(byte[] buffer)` — umschließt die gerenderten Bildbytes in einem `Buffer`, der in `getPictures().add` eingefügt werden kann.
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — fügt das Bild verankert an der angegebenen Zeile und Spalte hinzu, wobei diesmal der durch das Rendering erzeugte `Buffer` übergeben wird.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — fügt das Bild verankert an der angegebenen Zeile und Spalte hinzu, wobei diesmal der durch das Rendering erzeugte `Buffer` übergeben wird.
 Der folgende Code erstellt eine Arbeitsmappe, baut einen `Range` für `A1:F10`, rendert ihn über `range.toImage(null)` in Bildbytes, umschließt die Bytes in einem `Buffer`, fügt das Bild verankert in Zeile 10, Spalte 6 hinzu und speichert die Arbeitsmappe.
 
 ```javascript
-const aspose = require("aspose.cells");
-const { MemoryStream } = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Statische Kamera: Bereich erstellen, in Bytes rendern, in MemoryStream einwickeln, als Bild hinzufügen
 let range = worksheet.getCells().createRange("A1:F10");
 let imageBytes = range.toImage(null);
-let stream = new MemoryStream();
-stream.write(imageBytes);
 let pictures = worksheet.getPictures();
-pictures.add(10, 6, stream);
+pictures.add(10, 6, imageBytes);
 workbook.save("output_static.xlsx", aspose.SaveFormat.Xlsx);
 ```
 

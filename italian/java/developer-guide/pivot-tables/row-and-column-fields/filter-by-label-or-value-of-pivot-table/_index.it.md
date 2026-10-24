@@ -54,10 +54,9 @@ I filtri per data consentono di restringere una tabella pivot in base a criteri 
 
 {{% alert color="primary" %}}
 Il filtro per data funziona solo quando l'area di riga o colonna contiene solo celle di data-ora o valori vuoti. Se il campo sottostante contiene altri tipi di dati come numeri o testo, il filtro per data non produrrà il risultato atteso. Assicurarsi che il campo sia formattato come data e che tutti i valori siano istanze valide di `DateTime` o celle vuote prima di applicare questo filtro.
-{{% /alert %}}
-
 Aspose.Cells espone il filtraggio per data tramite il metodo `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. L'enumerazione `PivotFilterType` contiene valori dedicati alla data come `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` e `Between`. A seconda del tipo di filtro scelto, si passano uno o due valori `DateTime` (per `Between`, si passano la data di inizio e di fine).
 L'esempio seguente carica una cartella di lavoro con una tabella pivot la cui area di riga contiene un campo data, applica un filtro per data che limita gli elementi visibili a un determinato intervallo di date, aggiorna la tabella pivot e salva la cartella di lavoro.
+{{% /alert %}}
 
 ```java
 import java.io.File;
@@ -123,10 +122,9 @@ Il filtro primi 10 è una forma specializzata di filtro per valore che conserva 
 
 {{% alert color="primary" %}}
 Il filtro primi 10 è efficace solo quando la tabella pivot ha uno o più campi pivot di valore nell'area dati. Senza almeno un campo di valore, non esiste una misura aggregata rispetto alla quale classificare gli elementi, e il filtro non può essere applicato.
-{{% /alert %}}
-
 Aspose.Cells espone il filtraggio primi 10 tramite il metodo `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)`. Il parametro `itemCount` definisce quanti elementi mantenere, `isTop` indica se mantenere gli elementi superiori (true) o inferiori (false), `valueField` fa riferimento al campo dati utilizzato per la classificazione, e `filterType` controlla come viene calcolato il valore (tipicamente `Sum`, ma anche `Count` e `Percent`).
 L'esempio seguente carica una cartella di lavoro con una tabella pivot che contiene un campo di valore, applica un filtro primi 10 per mantenere solo i 10 elementi più alti in base alla somma delle vendite, aggiorna la tabella pivot e salva la cartella di lavoro.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -153,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (primi N; false significherebbe ultimi N)
 //   - valueFieldIndex = l'indice del campo dati utilizzato per classificare gli elementi
-rowField.filterTop10(10, PivotFilterType.SUM, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
 // Aggiorna i dati della tabella pivot e ricalcola in modo che il filtro abbia effetto
 pivotTable.refreshData();
 // Salva la cartella di lavoro
@@ -180,12 +178,12 @@ for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.getPivotItems().get(i);
     // Nascondi gli elementi pivot che corrispondono a un nome/criterio specifico
-    if (item.getName() == "Item1" || item.getName() == "Item2")
+    if (item.getName().equals("Item1") || item.getName().equals("Item2"))
     {
         item.setHidden(true);
     }
     // Dimostra come mostrare nuovamente: ri-mostra un elemento pivot precedentemente nascosto
-    if (item.getName() == "Item3")
+    if (item.getName().equals("Item3"))
     {
         item.setHidden(false);
     }

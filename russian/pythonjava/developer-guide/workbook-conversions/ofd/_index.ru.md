@@ -2,7 +2,7 @@
 title: Преобразование Excel в формат OFD
 description: Aspose.Cells for Python via Java — это библиотека для работы с файлами электронных таблиц, которая поддерживает преобразование рабочих книг Excel в формат OFD (Open Fixed-layout Document). В этой статье показано, как создать содержимое Excel и экспортировать его в формат OFD, а также как преобразовать существующие файлы Excel в OFD с помощью Aspose.Cells for Python via Java.
 linktitle: Преобразование Excel в формат OFD
-keywords: Aspose.Cells, библиотека Python via Java, электронная таблица, Excel в OFD, преобразование в OFD, SaveFormat.Ofd, документ с фиксированной компоновкой, экспорт рабочей книги
+keywords: Aspose.Cells, библиотека Python via Java, электронная таблица, Excel в OFD, преобразование в OFD, SaveFormat.OFD, документ с фиксированной компоновкой, экспорт рабочей книги
 type: docs
 weight: 195
 url: /ru/python-java/converting-excel-to-ofd-format/
@@ -11,26 +11,27 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells for Python via Java поддерживает преобразование рабочих книг Excel непосредственно в формат OFD (Open Fixed-layout Document) с помощью значения перечисления `SaveFormat.Ofd`. Полученный документ OFD сохраняет видимую компоновку рабочей книги, содержимое, объединённые ячейки, ширину столбцов, высоту строк, шрифты, цвета, границы и числовые форматы. Это делает Aspose.Cells for Python via Java подходящим решением для архивирования, печати, подачи в регуляторные органы и государственные учреждения, где требуется вывод с фиксированной компоновкой.
+Aspose.Cells for Python via Java поддерживает преобразование рабочих книг Excel непосредственно в формат OFD (Open Fixed-layout Document) с помощью значения перечисления `SaveFormat.OFD`. Полученный документ OFD сохраняет видимую компоновку рабочей книги, содержимое, объединённые ячейки, ширину столбцов, высоту строк, шрифты, цвета, границы и числовые форматы. Это делает Aspose.Cells for Python via Java подходящим решением для архивирования, печати, подачи в регуляторные органы и государственные учреждения, где требуется вывод с фиксированной компоновкой.
+{{% /alert %}}
 
 ## **Введение**
 OFD (Open Fixed-layout Document) — это китайский национальный стандарт (GB/T 33190-2016) для представления цифровых документов в фиксированной постраничной компоновке. Он выполняет роль, аналогичную PDF, для сценариев, в которых внешний вид исходного документа должен быть сохранён в точности так, как он был создан. OFD широко применяется для государственных представлений, подачи отчётности в регуляторные органы, электронных счетов-фактур и долгосрочного архивирования в Китайской Народной Республике.
-Преобразование рабочих книг Excel в OFD является распространённым требованием в сценариях, где содержимое электронной таблицы должно распространяться как артефакт только для чтения с заблокированной компоновкой, а не как редактируемая электронная таблица. Примеры включают отправку окончательного счёта клиенту, архивирование квартального финансового отчёта или представление бюджетной таблицы в регуляторный орган. Aspose.Cells for Python via Java решает эту задачу с помощью значения перечисления `SaveFormat.Ofd`, которое записывает рабочую книгу непосредственно в OFD без необходимости промежуточного этапа преобразования. Выходной документ OFD сохраняет значения ячеек, объединённые диапазоны, шрифты, цвета, границы, числовые форматы и параметры настройки страницы, заданные в рабочей книге.
+Преобразование рабочих книг Excel в OFD является распространённым требованием в сценариях, где содержимое электронной таблицы должно распространяться как артефакт только для чтения с заблокированной компоновкой, а не как редактируемая электронная таблица. Примеры включают отправку окончательного счёта клиенту, архивирование квартального финансового отчёта или представление бюджетной таблицы в регуляторный орган. Aspose.Cells for Python via Java решает эту задачу с помощью значения перечисления `SaveFormat.OFD`, которое записывает рабочую книгу непосредственно в OFD без необходимости промежуточного этапа преобразования. Выходной документ OFD сохраняет значения ячеек, объединённые диапазоны, шрифты, цвета, границы, числовые форматы и параметры настройки страницы, заданные в рабочей книге.
 
 {{% alert color="primary" %}}
 Выходной документ OFD, созданный Aspose.Cells for Python via Java, сохраняет видимую компоновку исходной рабочей книги, включая содержимое ячеек, объединённые ячейки, ширину столбцов и высоту строк. Форматирование ячеек, такое как шрифты, цвета, границы, выравнивание и числовые форматы, также отображается в выводе с фиксированной компоновкой. Параметры настройки страницы, заданные на листе, такие как размер бумаги, ориентация и область печати, влияют на компоновку результирующего документа OFD.
+{{% /alert %}}
 
 ## **Создание рабочей книги Excel и сохранение в формате OFD**
-Aspose.Cells for Python via Java позволяет программно создать рабочую книгу, заполнить её данными, а затем сохранить её непосредственно в формат OFD с помощью перечисления `SaveFormat.Ofd`. В следующем примере счёт-фактура создаётся с нуля. Добавляется логотип компании, заголовочная информация, раздел плательщика, позиции и вычисляемые итоги, после чего рабочая книга экспортируется в документ OFD.
+Aspose.Cells for Python via Java позволяет программно создать рабочую книгу, заполнить её данными, а затем сохранить её непосредственно в формат OFD с помощью перечисления `SaveFormat.OFD`. В следующем примере счёт-фактура создаётся с нуля. Добавляется логотип компании, заголовочная информация, раздел плательщика, позиции и вычисляемые итоги, после чего рабочая книга экспортируется в документ OFD.
 
 ### **Создание счёта-фактуры с логотипом**
-В этом примере создаётся лист счёта-фактуры путём вставки изображения логотипа в верхнюю левую область, заполнения названия компании и контактных данных, добавления заголовка «INVOICE» через объединённые ячейки, записи номера и даты счёта, указания клиента-плательщика, формирования таблицы позиций с столбцами описания, количества, цены за единицу и итога, а также вычисления промежуточного итога, налога и общей суммы с использованием формул ячеек. Форматирование, такое как жирные заголовки, денежный формат для цен, границы и ширина столбцов, применяется с помощью объектов `Style` и `Font`. Наконец, рабочая книга сохраняется с расширением `.ofd` с использованием `SaveFormat.Ofd`.
+В этом примере создаётся лист счёта-фактуры путём вставки изображения логотипа в верхнюю левую область, заполнения названия компании и контактных данных, добавления заголовка «INVOICE» через объединённые ячейки, записи номера и даты счёта, указания клиента-плательщика, формирования таблицы позиций с столбцами описания, количества, цены за единицу и итога, а также вычисления промежуточного итога, налога и общей суммы с использованием формул ячеек. Форматирование, такое как жирные заголовки, денежный формат для цен, границы и ширина столбцов, применяется с помощью объектов `Style` и `Font`. Наконец, рабочая книга сохраняется с расширением `.ofd` с использованием `SaveFormat.OFD`.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, Style, Cell, TextAlignmentType, BorderType, CellBorderType, Color
 dataDir = "/tmp/"
 # Создаем новую рабочую книгу
@@ -84,10 +85,10 @@ headerStyle.getFont().setBold(True)
 headerStyle.getFont().setColor(Color.getWhite())
 headerStyle.setBackgroundColor(Color.getNavy())
 headerStyle.setHorizontalAlignment(TextAlignmentType.CENTER)
-headerStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 headerDesc.setStyle(headerStyle)
 headerQty.setStyle(headerStyle)
 headerPrice.setStyle(headerStyle)
@@ -95,16 +96,16 @@ headerTotal.setStyle(headerStyle)
 # Стиль валюты с границами
 currencyStyle = workbook.createStyle()
 currencyStyle.setCustom("\"$\"#,##0.00")
-currencyStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # Простой стиль границ для ячеек описания/количества
 borderStyle = workbook.createStyle()
-borderStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # Строки позиций
 lineItems = [
     ["Product A - Widget", 2, 50.00],
@@ -149,7 +150,7 @@ worksheet.getCells().get("B24").setStyle(boldStyle)
 worksheet.getCells().get("B25").setStyle(boldStyle)
 worksheet.getCells().get("B26").setStyle(boldStyle)
 # Сохраняем рабочую книгу как файл OFD
-workbook.save(dataDir + "Invoice.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "Invoice.ofd", SaveFormat.OFD)
 jpype.shutdownJVM()
 ```
 
@@ -194,7 +195,7 @@ printArea = "A1:" + lastColLetter + str(lastRow + 1)
 firstSheet.getPageSetup().setPrintArea(printArea)
 print("\nPrint area set to: " + printArea)
 # (6) Сохранить книгу как файл OFD
-workbook.save(dataDir + "SampleBook.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "SampleBook.ofd", SaveFormat.OFD)
 print("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd")
 jpype.shutdownJVM()
 ```
@@ -204,8 +205,5 @@ jpype.shutdownJVM()
 - [Вставка изображения в ячейку](/cells/ru/python-java/inserting-an-image-into-a-cell/)
 - [Чтение и запись файлов DBF](/cells/ru/python-java/dbf/)
 - [Преобразование спарклайна в изображение и HTML в Aspose.Cells for Python via Java](/cells/ru/python-java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

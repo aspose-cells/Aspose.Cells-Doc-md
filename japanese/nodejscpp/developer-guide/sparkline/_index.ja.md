@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells はワークシートセル内にスパークラインを作成することをサポートします。スパークラインは 1 つのセル内に収まるミニグラフであり、データ傾向を素早く視覚的に表現します。Aspose.Cells は折れ線、縦棒、勝敗の各スパークラインをサポートしており、それぞれを色、線の太さ、高値/安値、マーカーに関してカスタマイズできます。
+{{% /alert %}}
 
 ## **はじめに**
 スパークラインはセル内に収まる小さなグラフで、行や列のデータの隣に完全なグラフほどのスペースを取らずに迅速な傾向を表示したい場合に便利です。Excel は **折れ線**、**縦棒**、**勝敗** の 3 種類のスパークラインをサポートします。Aspose.Cells は `Aspose.Cells.Charts` 名前空間にある `SparklineGroup` および `SparklineGroupCollection` API を介してこの機能を提供します。
@@ -29,7 +30,7 @@ Aspose.Cells がサポートする 3 種類のスパークライン — **折れ
 次の例は、ワークブックを作成し、セル A1 から E1 に値 5、-3、8、-2、6 を書き込み、それらの値をトレースする折れ線スパークラインをセル F1 に追加します。また、線の色を赤にカスタマイズし、高値および安値のマーカーを有効化します。
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // ステップ1: Workbookを作成し、最初のワークシートを取得する
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -42,10 +43,10 @@ cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
 // ステップ3: 宛先セルF1を指すCellAreaを構築する
 const dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // 列F（0から始まるインデックス）
-dest.setEndColumn(5);
-dest.setStartRow(0);      // 行1（0から始まるインデックス）
-dest.setEndRow(0);
+dest.StartColumn = 5;   // 列F（0から始まるインデックス）
+dest.EndColumn = 5;
+dest.StartRow = 0;      // 行1（0から始まるインデックス）
+dest.EndRow = 0;
 // ステップ4: A1:E1からF1にLineスパークラインを追加する
 // SparklineGroups.Addは新しく追加されたグループのインデックスを返す
 const index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, dest);
@@ -72,6 +73,7 @@ workbook.save("output_line.xlsx");
 以下の例では、値 5、-3、8、-2、6 を A1:E1 に書き込み、F1 に縦棒スパークラインを描画します。負の値は下向きの棒として、正の値は上向きの棒として描かれるため、寄与の正負を一目で簡単に見分けられます。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // ステップ 2: A1:E1 にサンプル値を書き込む
@@ -81,10 +83,10 @@ for (let i = 0; i < values.length; i++) {
 }
 // ステップ 3: F1 (列インデックス 5、行インデックス 0) を指す CellArea を作成する
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // ステップ 4: 目的セルに縦棒スパークラインを追加する
 let idx = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Column, "A1:E1", false, dest);
@@ -107,6 +109,7 @@ Aspose.Cells では、`sparklineGroups.add` メソッドに `SparklineType.Stack
 6. ワークブックを別のファイル名で保存し、3 つの例すべてがディスク上に共存できるようにします。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -118,10 +121,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // ステップ3: F1を指すCellAreaを構築する(列5、行0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F
-dest.setEndColumn(5);
-dest.setStartRow(0);      // 1行目
-dest.setEndRow(0);
+dest.StartColumn = 5;   // F
+dest.EndColumn = 5;
+dest.StartRow = 0;      // 1行目
+dest.EndRow = 0;
 // ステップ4: 勝ち/負けのスパークラインを追加(SparklineType.Stacked)
 let groupIndex = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Stacked,
@@ -159,6 +162,7 @@ console.log("Workbook saved successfully: output_winloss.xlsx");
 以下の結合例は、単一のワークブックを作成し、1 行目に値 5、-3、8、-2、6 を入力し、セル F1、F2、F3 に 3 つのスパークライン グループ（各種類 1 つずつ）を追加します。結果として得られるファイルは 3 種類のスパークライン スタイルすべてを一度に示します。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // ステップ2: 1行目（A1:E1）にサンプルデータを入力する
@@ -169,10 +173,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // ステップ3: F1に折れ線スパークライングループを追加する
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
 // CellsColorを使用して折れ線スパークラインの色をカスタマイズする
@@ -181,10 +185,10 @@ lineColor.setColor(AsposeCells.Color.Blue);
 lineGroup.setSeriesColor(lineColor);
 // ステップ4: F2に縦棒スパークライングループを追加する
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(5);
-columnArea.setEndColumn(5);
-columnArea.setStartRow(1);
-columnArea.setEndRow(1);
+columnArea.StartColumn = 5;
+columnArea.EndColumn = 5;
+columnArea.StartRow = 1;
+columnArea.EndRow = 1;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
 // 縦棒スパークラインシリーズの色をカスタマイズする
@@ -193,10 +197,10 @@ columnColor.setColor(AsposeCells.Color.Green);
 columnGroup.setSeriesColor(columnColor);
 // ステップ5: F3に勝敗（積み上げ）スパークライングループを追加する
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(5);
-stackedArea.setEndColumn(5);
-stackedArea.setStartRow(2);
-stackedArea.setEndRow(2);
+stackedArea.StartColumn = 5;
+stackedArea.EndColumn = 5;
+stackedArea.StartRow = 2;
+stackedArea.EndRow = 2;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
 // 勝敗スパークラインシリーズの色をカスタマイズする
@@ -215,6 +219,5 @@ workbook.save("output_all.xlsx");
 - **高値/安値マーカー** — 最高および最低データ点に小さなマーカーを表示するフラグ。極端な値を強調する場合に便利です。
 - **最初/最後/負のデータ点マーカー** — 最初、最後、負のデータ点にマーカーを切り替えるフラグ。
 色を変更するには、常に `CellsColor` インスタンスを作成し、該当するプロパティに割り当ててください。`System.Drawing.Color` を直接スパークラインの色プロパティに代入しないでください。それらは `Aspose.Cells.Drawing` の `CellsColor` 型を必要とします。`sparklineGroups.add` メソッド自体は完全に型付けされた `SparklineGroup` オブジェクトを返すため、戻り値にプロパティ割り当てを連鎖させることも、ローカル変数に保存して保存前にカスタマイズすることもできます。
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

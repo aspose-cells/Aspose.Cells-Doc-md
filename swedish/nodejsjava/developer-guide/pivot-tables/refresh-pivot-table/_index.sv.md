@@ -23,12 +23,11 @@ Den fyrlagriga datakedjan är:
 4. **Celler** — kalkylbladets `Cells` som `PivotTable` renderar sina beräknade värden och stilar till.
 
 {{% alert color="primary" %}}
-`PivotCache.SourceType` (enum `PivotTableSourceType`) anger var cache-datan kom ifrån. Från och med v26.7 stödjer `PivotCache.Refresh()` endast källtyperna **`Sheet`** och **`Consolidation`** — det vill säga data som finns i kalkylbladsintervall. Externa källor (databaser, externa anslutningar osv.) kan ännu inte uppdateras via cache-API:et.
-{{% /alert %}}
-
+`PivotCache.SourceType` (enum `PivotTableSourceType`) anger var cache-datan kom ifrån. Från och med v26.7 stödjer `PivotCache.refresh()` endast källtyperna **`Sheet`** och **`Consolidation`** — det vill säga data som finns i kalkylbladsintervall. Externa källor (databaser, externa anslutningar osv.) kan ännu inte uppdateras via cache-API:et.
 På grund av denna kedja finns det två grundläggande uppdateringsvägar i Aspose.Cells:
-- **`PivotTable.CalculateData()`** — beräknar om en `PivotTable`s visning från redan cachad data, utan att gå tillbaka till datakällan.
+- **`PivotTable.calculateData()`** — beräknar om en `PivotTable`s visning från redan cachad data, utan att gå tillbaka till datakällan.
 Alla scenarier i den här artikeln använder kalkylbladsceller som källdata, så källtypen är `Sheet` och uppdateringsåtgärderna fungerar enligt beskrivningen.
+{{% /alert %}}
 
 ## Snabbstart
 Om du bara behöver den kortaste möjliga kod som uppdaterar varje pivot i arbetsboken räcker det med ett enda anrop:
@@ -47,8 +46,8 @@ Allt annat i den här artikeln förklarar när du istället bör välja ett mer 
 - Eller för specifika importer: `const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
 ## Uppdatera alla pivottabeller i arbetsboken
-När du behöver säkerställa att varje pivotcache och varje pivottabell i arbetsboken återspeglar den senaste källdatan är det enklaste och mest omfattande API:et `Workbook.RefreshAll()`. Ett enda anrop traverserar hela arbetsboken — uppdaterar varje `PivotCache` från dess källa och beräknar sedan om varje beroende `PivotTable`. Det här är den rekommenderade metoden för allmänna, fullständiga dokumentuppdateringar där prestanda inte är ett problem.
-Följande exempel bygger en arbetsbok med ett källintervall för Fruit/Year/Amount, skapar en pivottabell, ändrar några källvärden och använder sedan `RefreshAll()` för att uppdatera allt i ett enda anrop.
+När du behöver säkerställa att varje pivotcache och varje pivottabell i arbetsboken återspeglar den senaste källdatan är det enklaste och mest omfattande API:et `Workbook.refreshAll()`. Ett enda anrop traverserar hela arbetsboken — uppdaterar varje `PivotCache` från dess källa och beräknar sedan om varje beroende `PivotTable`. Det här är den rekommenderade metoden för allmänna, fullständiga dokumentuppdateringar där prestanda inte är ett problem.
+Följande exempel bygger en arbetsbok med ett källintervall för Fruit/Year/Amount, skapar en pivottabell, ändrar några källvärden och använder sedan `refreshAll()` för att uppdatera allt i ett enda anrop.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -88,9 +87,9 @@ worksheet.getCells().get("C9").putValue(120);
 const pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
 // Tilldela pivotfält: Fruit till Rader, Year till Kolumner, Amount till Data
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 // Ändra flera Amount-värden i källdatan för att simulera ändringar
 worksheet.getCells().get("C2").putValue(55);
 worksheet.getCells().get("C5").putValue(85);
@@ -102,9 +101,10 @@ workbook.save("output.xlsx");
 ```
 
 ## Uppdatera alla pivottabeller på ett enskilt kalkylblad
-Ibland behöver du bara uppdatera de pivottabeller som finns på ett visst kalkylblad — till exempel när pivottabeller på andra kalkylblad är kända för att vara orelaterade och inte bör röras. För detta fall tillhandahåller Aspose.Cells `Worksheet.RefreshPivotTables()`, som är begränsad till en enda `Worksheet`-instans.
+Ibland behöver du bara uppdatera de pivottabeller som finns på ett visst kalkylblad — till exempel när pivottabeller på andra kalkylblad är kända för att vara orelaterade och inte bör röras. För detta fall tillhandahåller Aspose.Cells `Worksheet.refreshPivotTables()`, som är begränsad till en enda `Worksheet`-instans.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.getCells().get("A1").putValue("Fruit");
@@ -136,9 +136,9 @@ worksheet.getCells().get("B9").putValue(2020);
 worksheet.getCells().get("C9").putValue(140);
 let pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 worksheet.getCells().get("C2").putValue(300);
 worksheet.getCells().get("C5").putValue(250);
 worksheet.getCells().get("C9").putValue(400);
@@ -149,14 +149,15 @@ workbook.save("output.xlsx");
 ## Uppdatera en enskild pivottabell
 När du vill ha finkornig kontroll över en enskild pivottabell ger det cache-baserade API:et dig två alternativ. Valet mellan dem beror på vad som faktiskt har ändrats: den underliggande källdatan, eller bara visnings-/layoutinställningarna för pivottabellen i sig.
 
-### Källdata har ändrats — använd `PivotCache.Refresh()`
-Om den underliggande källdatan har ändrats är rätt startpunkt `pivotTable.PivotCache.Refresh()`. Det här anropet läser om källdatan till cacheminnet och beräknar sedan om varje `PivotTable` som är beroende av den cachen.
+### Källdata har ändrats — använd `PivotCache.refresh()`
+Om den underliggande källdatan har ändrats är rätt startpunkt `pivotTable.PivotCache.refresh()`. Det här anropet läser om källdatan till cacheminnet och beräknar sedan om varje `PivotTable` som är beroende av den cachen.
 
-### Endast vy/layout har ändrats — använd `CalculateData()`
-Om källdatan *inte* har ändrats men bara pivottabellens visnings- eller layoutinställningar har modifierats (till exempel har ett fält flyttats till ett annat område, eller en refresh-on-open-inställning har växlats) behöver du inte gå tillbaka till datakällan. Cacheminnet innehåller redan rätt data. Det är bara den renderade `PivotTable` som behöver beräknas om. I det här fallet är `pivotTable.CalculateData()` rätt val.
-Följande exempel modifierar en icke-käll-egenskap hos pivottabellen och anropar sedan `CalculateData()` för att rendera om den från den befintliga cachen.
+### Endast vy/layout har ändrats — använd `calculateData()`
+Om källdatan *inte* har ändrats men bara pivottabellens visnings- eller layoutinställningar har modifierats (till exempel har ett fält flyttats till ett annat område, eller en refresh-on-open-inställning har växlats) behöver du inte gå tillbaka till datakällan. Cacheminnet innehåller redan rätt data. Det är bara den renderade `PivotTable` som behöver beräknas om. I det här fallet är `pivotTable.calculateData()` rätt val.
+Följande exempel modifierar en icke-käll-egenskap hos pivottabellen och anropar sedan `calculateData()` för att rendera om den från den befintliga cachen.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 // Skriv rubrikraden Fruit / Year / Amount
@@ -192,11 +193,11 @@ worksheet.getCells().get("C9").putValue(450);
 var pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 var pivotTable = worksheet.getPivotTables().get(pivotIndex);
 // Tilldela fält: Fruit till Rad, Year till Kolumn, Amount till Data
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 // Ändra en egenskap för vy/layout — detta är enbart en presentationsändring,
-// så det kräver INTE att källdatan läses in på nytt via PivotCache.Refresh().
+// så det kräver INTE att källdatan läses in på nytt via PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
 // calculateData() renderar om DEN HÄR pivottabellens visning (data + stil) från
 // datan som redan finns i PivotCache. Eftersom källdatan inte ändrades
@@ -207,7 +208,7 @@ pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
 
-En arbetsbok innehåller ofta många pivottabeller som alla ligger ovanpå en delad cache. För att räkna upp dem — till exempel innan du utför en batchuppdatering, eller för att diagnostisera påverkan av delad cache — använd `PivotCache.GetPivotTables()`. Den här metoden returnerar samlingen av varje `PivotTable` som är beroende av den givna cachen.
+En arbetsbok innehåller ofta många pivottabeller som alla ligger ovanpå en delad cache. För att räkna upp dem — till exempel innan du utför en batchuppdatering, eller för att diagnostisera påverkan av delad cache — använd `PivotCache.getPivotTables()`. Den här metoden returnerar samlingen av varje `PivotTable` som är beroende av den givna cachen.
 
 ## Migrera från den föråldrade `PivotTable.RefreshData()`
 Före Aspose.Cells for Node.js via Java v26.7 var standardsättet att uppdatera en pivottabell att anropa `PivotTable.RefreshData()` på varje pivottabell individuellt. Från och med v26.7 är den metoden markerad som **föråldrad** och bör ersättas med de cache-medvetna API:er som beskrivs ovan.
@@ -220,17 +221,17 @@ Följande exempel visar det nya effektiva mönstret för arbetsböcker med flera
 Tabellen nedan sammanfattar de tillgängliga uppdaterings-API:erna och när du ska välja var och en.
 | Mål | Rekommenderat API | Anteckningar |
 |------|-----------------|-------|
-| Uppdatera allt i arbetsboken | `Workbook.RefreshAll()` | Ett anrop; täcker alla cacheminnen och tabeller. |
-| Uppdatera endast pivottabeller på ett enskilt blad | `Worksheet.RefreshPivotTables()` | Begränsat till ett kalkylblad. |
-| Källdata ändrades för en cache | `pivotTable.PivotCache.Refresh()` | Uppdaterar ALLA pivottabeller på den delade cachen. |
-| Endast visnings-/layoutinställningar ändrades | `pivotTable.CalculateData()` | Hoppar över onödig källåterhämtning. |
-| Lista alla pivottabeller på en delad cache | `pivotCache.GetPivotTables()` | Använd för att räkna upp före bulkuppdatering. |
+| Uppdatera allt i arbetsboken | `Workbook.refreshAll()` | Ett anrop; täcker alla cacheminnen och tabeller. |
+| Uppdatera endast pivottabeller på ett enskilt blad | `Worksheet.refreshPivotTables()` | Begränsat till ett kalkylblad. |
+| Källdata ändrades för en cache | `pivotTable.PivotCache.refresh()` | Uppdaterar ALLA pivottabeller på den delade cachen. |
+| Endast visnings-/layoutinställningar ändrades | `pivotTable.calculateData()` | Hoppar över onödig källåterhämtning. |
+| Lista alla pivottabeller på en delad cache | `pivotCache.getPivotTables()` | Använd för att räkna upp före bulkuppdatering. |
 I praktiken bör du föredra de cache-baserade API:erna framför den föråldrade `RefreshData()` per tabell. De är medvetna om delade cacheminnen, de undviker redundanta källhämtningar och de låter dig välja det minsta omfånget som uppfyller ditt uppdateringskrav.
 
 ## Vanliga fallgropar
-- **Glömmer att uppdatera innan du sparar.** En pivottabell skriver bara sina renderade värden till kalkylbladet när dess datakedja uppdateras. Om du ändrar källceller, anropa `PivotCache.Refresh()` (eller `Workbook.RefreshAll()`) före `Workbook.save()`, annars innehåller den sparade filen fortfarande de gamla aggregerade värdena.
-- **Anropar den föråldrade `RefreshData()` per tabell.** I v26.7 är `PivotTable.RefreshData()` markerad som föråldrad och hämtar om källan vid varje anrop. Med flera pivottabeller som delar en cache innebär detta N redundanta källhämtningar. Ersätt med en enda `PivotCache.Refresh()` följt av `CalculateData()` per tabell.
-- **Uppdaterar när bara layouten ändrades.** Om du bara ändrade en pivottabells vy (kolumnordning, `ConsolidationFunction` osv.) utan att röra källdatan är `PivotCache.Refresh()` onödigt och långsamt. Anropa `pivotTable.CalculateData()` för att rendera om från den befintliga cachen.
-- **Extern källa stöds inte av `PivotCache.Refresh()`.** Om pivottabellens källa kommer från en extern anslutning (databas, OLAP-kub osv.) kan `PivotCache.Refresh()` inte uppdatera den i v26.7 — den stöder för närvarande endast källtyperna `Sheet` och `Consolidation`. För externa källor, öppna arbetsboken igen eller bygg om cacheminnet från källan.
+- **Glömmer att uppdatera innan du sparar.** En pivottabell skriver bara sina renderade värden till kalkylbladet när dess datakedja uppdateras. Om du ändrar källceller, anropa `PivotCache.refresh()` (eller `Workbook.refreshAll()`) före `Workbook.save()`, annars innehåller den sparade filen fortfarande de gamla aggregerade värdena.
+- **Anropar den föråldrade `RefreshData()` per tabell.** I v26.7 är `PivotTable.RefreshData()` markerad som föråldrad och hämtar om källan vid varje anrop. Med flera pivottabeller som delar en cache innebär detta N redundanta källhämtningar. Ersätt med en enda `PivotCache.refresh()` följt av `calculateData()` per tabell.
+- **Uppdaterar när bara layouten ändrades.** Om du bara ändrade en pivottabells vy (kolumnordning, `ConsolidationFunction` osv.) utan att röra källdatan är `PivotCache.refresh()` onödigt och långsamt. Anropa `pivotTable.calculateData()` för att rendera om från den befintliga cachen.
+- **Extern källa stöds inte av `PivotCache.refresh()`.** Om pivottabellens källa kommer från en extern anslutning (databas, OLAP-kub osv.) kan `PivotCache.refresh()` inte uppdatera den i v26.7 — den stöder för närvarande endast källtyperna `Sheet` och `Consolidation`. För externa källor, öppna arbetsboken igen eller bygg om cacheminnet från källan.
 
 {{< app/cells/assistant language="nodejs-java" >}}

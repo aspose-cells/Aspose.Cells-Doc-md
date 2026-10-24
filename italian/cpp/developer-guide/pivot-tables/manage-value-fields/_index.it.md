@@ -80,9 +80,8 @@ Ogni campo posizionato nell'area dati è incapsulato internamente come un'istanz
 
 {{% alert color="primary" %}}
 La modifica di `Function` influisce solo sull'aggregazione, la colonna di origine non cambia.
-{{% /alert %}}
-
 Puoi quindi lasciare un campo dati come `Sum` mentre aggiungi un secondo campo dati che fa riferimento alla stessa colonna di origine ma utilizza `Count` o `Average`, tutto in un'unica tabella pivot.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>
@@ -116,9 +115,8 @@ Quando una tabella pivot contiene due o più campi dati, Aspose.Cells espone un 
 
 {{% alert color="primary" %}}
 `PivotTable.ValuesField` non funziona se non ci sono campi valore o se ce n'è solo uno.
-{{% /alert %}}
-
 Gli scenari seguenti illustrano tre esempi end-to-end che dimostrano ciascuna funzionalità descritta sopra sulla stessa struttura di pivot.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>

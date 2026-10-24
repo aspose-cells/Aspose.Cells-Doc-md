@@ -31,6 +31,7 @@ L'esempio seguente carica una cartella di lavoro contenente una tabella pivot es
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
 # Carica la cartella di lavoro esistente contenente una tabella pivot
@@ -42,7 +43,7 @@ pivot_table = worksheet.pivot_tables[0]
 # Recupera il primo PivotField di riga
 row_field = pivot_table.row_fields[0]
 # Applica il filtro sulle etichette — mostra solo gli elementi di riga le cui etichette iniziano con il prefisso fornito
-row_field.filter_by_label(ac.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
+row_field.filter_by_label(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Aggiorna e ricalcola i dati della tabella pivot in modo che il filtro abbia effetto
 pivot_table.pivot_cache.refresh()
 # Salva la cartella di lavoro su disco
@@ -53,14 +54,16 @@ workbook.save(fileName)
 I filtri per data consentono di restringere una tabella pivot in base a criteri basati sulla data, come oggi, la settimana scorsa, questo mese, il prossimo trimestre o un intervallo di date specifico. Sono filtri specializzati che funzionano solo sui campi che memorizzano informazioni di data-ora.
 
 {{% alert color="primary" %}}
-Il filtro per data funziona solo quando l'area di riga o colonna contiene esclusivamente celle di tipo data-ora o valori vuoti. Se il campo sottostante contiene altri tipi di dati come numeri o testo, il filtro per data non produrrà il risultato atteso. Assicurarsi che il campo sia formattato come data e che tutti i valori siano istanze valide di `DateTime` oppure celle vuote prima di applicare questo filtro.
+Il filtro per data funziona solo quando l'area di riga o colonna contiene esclusivamente celle di tipo data-ora o valori vuoti. Se il campo sottostante contiene altri tipi di dati come numeri o testo, il filtro per data non produrrà il risultato atteso. Assicurarsi che il campo sia formattato come data e che tutti i valori siano istanze valide di `datetime` oppure celle vuote prima di applicare questo filtro.
+Aspose.Cells espone il filtraggio per data tramite il metodo `PivotField.filter_by_date(PivotFilterType, *date_times)`. L'enumerazione `PivotFilterType` contiene valori dedicati alle date come `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` e `Between`. A seconda del tipo di filtro scelto, si passano uno o due valori `datetime` (per `Between`, si passano la data di inizio e la data di fine).
+L'esempio seguente carica una cartella di lavoro con una tabella pivot la cui area di riga contiene un campo data, applica un filtro per data che limita gli elementi visibili a un determinato intervallo di date, aggiorna la tabella pivot e salva la cartella di lavoro.
 {{% /alert %}}
 
-Aspose.Cells espone il filtraggio per data tramite il metodo `PivotField.filter_by_date(PivotFilterType, *date_times)`. L'enumerazione `PivotFilterType` contiene valori dedicati alle date come `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` e `Between`. A seconda del tipo di filtro scelto, si passano uno o due valori `DateTime` (per `Between`, si passano la data di inizio e la data di fine).
-L'esempio seguente carica una cartella di lavoro con una tabella pivot la cui area di riga contiene un campo data, applica un filtro per data che limita gli elementi visibili a un determinato intervallo di date, aggiorna la tabella pivot e salva la cartella di lavoro.
-
 ```python
+import os
+import aspose.cells as ac
 from datetime import datetime
+from aspose.cells.pivot import PivotFilterType
 input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
@@ -78,7 +81,7 @@ date_field = pivot_table.row_fields[0]
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
 # Applica il filtro per data sul campo pivot
-date_field.filter_by_date(ac.PivotFilterType.DATE_BETWEEN, start_date, end_date)
+date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
 # Aggiorna e ricalcola la tabella pivot affinché il filtro abbia effetto
 pivot_table.pivot_cache.refresh()
 # Salva la cartella di lavoro
@@ -92,6 +95,7 @@ L'esempio seguente carica una cartella di lavoro con una tabella pivot, applica 
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 workbook = ac.Workbook("sample.xlsx")
 worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
@@ -99,12 +103,12 @@ row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
 # Trova l'indice del campo dati manualmente poiché PivotFieldCollection non ha IndexOf
 data_field_index = -1
-for i in range(pivot_table.data_fields.count):
+for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
         data_field_index = i
         break
 if data_field_index >= 0:
-    row_field.filter_by_value(data_field_index, ac.PivotFilterType.VALUE_GREATER_THAN, 5000, float('inf'))
+    row_field.filter_by_value(data_field_index, PivotFilterType.VALUE_GREATER_THAN, 5000.0, float('inf'))
 pivot_table.pivot_cache.refresh()
 workbook.save("output.xlsx")
 ```
@@ -114,10 +118,9 @@ Il filtro primi 10 è una forma specializzata di filtro per valore che mantiene 
 
 {{% alert color="primary" %}}
 Il filtro primi 10 è efficace solo quando la tabella pivot dispone di uno o più campi pivot di valore nell'area dati. Senza almeno un campo valore, non esiste alcuna misura aggregata rispetto alla quale classificare gli elementi e il filtro non può essere applicato.
-{{% /alert %}}
-
 Aspose.Cells espone il filtraggio primi 10 tramite il metodo `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)`. Il parametro `item_count` definisce quanti elementi mantenere, `is_top` indica se mantenere gli elementi superiori (True) o inferiori (False), `value_field` fa riferimento al campo dati utilizzato per la classificazione e `PivotFilterType` controlla come viene calcolato il valore (in genere `Sum`, ma anche `Count` e `Percent`).
 L'esempio seguente carica una cartella di lavoro con una tabella pivot che contiene un campo valore, applica un filtro primi 10 per mantenere solo i 10 elementi più alti per la somma delle vendite, aggiorna la tabella pivot e salva la cartella di lavoro.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
@@ -131,7 +134,7 @@ worksheet = workbook.worksheets[0]
 # Accedi alla tabella pivot tramite indice
 pivotTable = worksheet.pivot_tables[0]
 # Verifica che ci sia almeno un PivotField di valori nell'area dati
-if pivotTable.data_fields.count == 0:
+if len(pivotTable.data_fields) == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
 # Ottieni il PivotField di riga target (il campo su cui vogliamo applicare il filtro Top 10)
@@ -140,10 +143,10 @@ rowField = pivotTable.row_fields[0]
 valueFieldIndex = 0
 # Applica il filtro Top 10 sul campo di riga:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (top N; false significherebbe bottom N)
 #   - valueFieldIndex = l'indice del campo dati utilizzato per classificare gli elementi
-rowField.filter_top10(10, acp.PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
 # Aggiorna i dati della tabella pivot e ricalcolala affinché il filtro abbia effetto
 pivotTable.pivot_cache.refresh()
 # Salva il workbook

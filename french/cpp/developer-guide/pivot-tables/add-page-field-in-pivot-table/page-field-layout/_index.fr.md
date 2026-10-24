@@ -130,6 +130,7 @@ Dans cet exemple, nous plaçons `Fruit` sur l'axe des lignes, `Year` et `Region`
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -252,4 +253,4 @@ int main() {
 - [Actualiser un tableau croisé dynamique](/cells/fr/cpp/refresh-pivot-table/) — explique `RefreshData` et `CalculateData`, qui sont requis après le réordonnancement des champs de page.
 - [Appliquer un style à un tableau croisé dynamique](/cells/fr/cpp/apply-style-to-pivot-table/) — montre comment formater le tableau croisé dynamique rendu après que la bande des champs de page a été disposée.
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

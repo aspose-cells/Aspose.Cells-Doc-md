@@ -26,6 +26,7 @@ Esistono due modi per registrare un campo pivot nell'area filtro. La chiamata di
 L'esempio seguente crea un piccolo set di dati Frutta / Anno / Importo, posiziona una tabella pivot nella cella E3 con `Fruit` nell'area riga, `Amount` nell'area dati e `Year` nell'area filtro, aggiorna la pivot e salva la cartella di lavoro.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 Quando si lavora già con un'istanza `PivotField`, è possibile passarla direttamente a `PivotTable.pageFields.add`. La tabella pivot e il campo filtro vengono costruiti esattamente come nello scenario precedente; solo la registrazione finale nell'area filtro viene sostituita con la chiamata API di livello inferiore.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Intestazioni
@@ -106,6 +108,7 @@ Nella modalità predefinita a selezione singola, il campo filtro viene renderizz
 Impostare `currentPageItem` sul valore magico `0x7FFD` equivale ad azzerare il filtro pagina: il corpo della pivot riassume ogni elemento di pagina come se non fosse applicato alcun filtro.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Popola i dati Frutto/Anno/Importo
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 Impostare `currentPageItem` su un indice reale seleziona solo quell'unico elemento di pagina. L'indice è la posizione dell'elemento nell'elenco ordinato degli elementi del campo filtro, quindi ad esempio `1` seleziona il secondo elemento dopo l'ordinamento.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -184,6 +188,7 @@ Il filtraggio a selezione multipla trasforma il menu a discesa della pagina in u
 Il codice seguente abilita la selezione multipla sullo stesso campo filtro Year costruito nello Scenario 1a, e quindi mostra due pattern: la Parte A rivela ogni elemento di pagina lasciando `isHidden` impostato su `false` per ogni voce, mentre la Parte B consente solo i valori di origine scelti e nasconde tutto il resto tramite un blocco `switch (pivotItems[i].getStringValue())`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();

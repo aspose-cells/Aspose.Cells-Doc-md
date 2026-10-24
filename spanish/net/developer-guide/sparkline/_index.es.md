@@ -44,6 +44,7 @@ Related Articles - I need to translate the titles.
 
 {{% alert color="primary" %}}
 Aspose.Cells admite la creación de sparklines dentro de celdas de la hoja de cálculo. Los sparklines son gráficos en miniatura que caben dentro de una sola celda, proporcionando una rápida representación visual de las tendencias de los datos. Aspose.Cells admite sparklines de línea, columna y ganancia/pérdida, y cada uno se puede personalizar en cuanto a color, grosor de línea, puntos altos/bajos y marcadores.
+{{% /alert %}}
 
 ## **Introducción**
 Los sparklines son pequeños gráficos dentro de celda que son útiles cuando se desea mostrar una tendencia rápida junto a una fila o columna de datos sin ocupar el espacio de un gráfico completo. Excel admite tres tipos de sparklines: **línea**, **columna** y **ganancia/pérdida**. Aspose.Cells refleja esta capacidad a través de las API `SparklineGroup` y `SparklineGroupCollection` que se encuentran en el espacio de nombres `Aspose.Cells.Charts`.
@@ -293,7 +294,6 @@ Una vez que se ha creado y añadido un `SparklineGroup` a `worksheet.SparklineGr
 - **Marcadores de puntos altos/bajos** — flags que activan pequeños marcadores en los puntos de datos más altos y más bajos, útiles para enfatizar los extremos.
 - **Marcadores de puntos primero/último/negativo** — flags que activan los marcadores en el primer, último y negativos puntos de datos.
 Para cambiar un color, siempre cree una instancia de `CellsColor` y asígnela a la propiedad correspondiente. No asigne un `System.Drawing.Color` directamente a las propiedades de color del sparkline — esperan el tipo `CellsColor` de `Aspose.Cells.Drawing`. El método `SparklineGroups.Add` en sí mismo devuelve un objeto `SparklineGroup` completamente tipado, por lo que puede encadenar asignaciones de propiedades sobre el valor devuelto o almacenarlo en una variable local y personalizarlo antes de guardar.
-{{% /alert %}}
 
 ## Artículos Relacionados
 - [Convertir Sparkline a Imagen y HTML en Aspose.Cells for .NET](/cells/es/net/convert-sparkline-to-image-and-html/)

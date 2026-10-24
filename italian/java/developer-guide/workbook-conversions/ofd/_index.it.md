@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta la conversione diretta delle cartelle di lavoro Excel in formato OFD (Open Fixed-layout Document) utilizzando il valore di enumerazione `SaveFormat.Ofd`. Il documento OFD risultante preserva il layout visibile, il contenuto, le celle unite, la larghezza delle colonne, l'altezza delle righe, i caratteri, i colori, i bordi e i formati numerici della cartella di lavoro. Questo rende Aspose.Cells adatto per flussi di lavoro di archiviazione, stampa, deposito normativo e presentazione alle autorità governative che richiedono un output a layout fisso.
+{{% /alert %}}
 
 ## **Introduzione**
 OFD (Open Fixed-layout Document) è uno standard nazionale cinese (GB/T 33190-2016) per la rappresentazione di documenti digitali in un layout fisso, basato su pagine. Svolge un ruolo simile a quello del PDF per casi d'uso in cui l'aspetto visivo del documento sorgente deve essere preservato esattamente come è stato creato. OFD è ampiamente adottato per le presentazioni alle autorità governative, i depositi normativi, le fatture elettroniche e l'archiviazione a lungo termine nella Repubblica Popolare Cinese.
@@ -19,6 +20,7 @@ La conversione delle cartelle di lavoro Excel in OFD è un requisito comune negl
 
 {{% alert color="primary" %}}
 L'output OFD generato da Aspose.Cells preserva il layout visibile della cartella di lavoro sorgente, inclusi il contenuto delle celle, le celle unite, la larghezza delle colonne e l'altezza delle righe. Anche la formattazione delle celle come caratteri, colori, bordi, allineamento e formati numerici viene resa nell'output a layout fisso. Le opzioni di impostazione della pagina configurate sul foglio di lavoro, come il formato carta, l'orientamento e l'area di stampa, influenzano il layout del documento OFD risultante.
+{{% /alert %}}
 
 ## **Creazione di una cartella di lavoro Excel e salvataggio come OFD**
 Aspose.Cells consente di creare una cartella di lavoro a livello di codice, popolarla con dati e quindi salvarla direttamente in formato OFD utilizzando l'enumerazione `SaveFormat.Ofd`. L'esempio seguente crea una fattura da zero. Aggiunge un logo aziendale, le informazioni di intestazione, una sezione destinatario della fattura, le voci e i totali calcolati, quindi esporta la cartella di lavoro in un documento OFD.
@@ -206,8 +208,5 @@ System.out.println("\nFile successfully converted to OFD format: " + dataDir + "
 - [Inserimento di un'immagine in una cella](/cells/it/java/inserting-an-image-into-a-cell/)
 - [Lettura e scrittura di file DBF](/cells/it/java/dbf/)
 - [Conversione di sparkline in immagine e HTML in Aspose.Cells for Java](/cells/it/java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

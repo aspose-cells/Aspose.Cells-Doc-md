@@ -28,6 +28,7 @@ Aspose.Cells предоставляет набор классов, исполь�
 После выполнения примера кода сводная таблица добавляется на лист.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var dataDir = "./";
 
 // Instantiating a Workbook object
@@ -103,13 +104,13 @@ var pivotTable = pivotTables.get(index);
 pivotTable.setRowGrand(false);
 
 // Draging the first field to the row area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
 
 // Draging the second field to the column area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, 1);
 
 // Draging the third field to the data area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 2);
 
 // Saving the Excel file
 workbook.save(dataDir + "pivotTable_test_out.xls");
@@ -119,11 +120,11 @@ workbook.save(dataDir + "pivotTable_test_out.xls");
 При назначении диапазона ячеек в качестве источника данных диапазон должен идти от верхнего левого угла к нижнему правому. Например, "A1:C3" допустимо, но "C3:A1" — нет.
 {{% /alert %}}
 
-## Related Articles
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/apply-style-to-pivot-table/)
+## Связанные статьи
+- [Добавить поля фильтров в сводную таблицу в Aspose.Cells для .NET](/cells/ru/nodejs-java/add-page-field-in-pivot-table/)
+- [Применение стилей к сводным таблицам в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/apply-style-to-pivot-table/)
 - [Modify Page Field Layout in Pivot Table](/cells/ru/nodejs-java/change-page-field-layout/)
 - [Filtering Pivot Tables by Label or Value](/cells/ru/nodejs-java/filter-by-label-or-value-of-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/manage-value-fields/)
+- [Управление полями значений сводной таблицы в Aspose.Cells для .NET](/cells/ru/nodejs-java/manage-value-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

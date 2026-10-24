@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells bietet zwei unterschiedliche Möglichkeiten, ein Bild einer einzelnen Zelle zuzuordnen. Ein schwebendes Bild ist eine Form auf der Zeichnungsebene des Arbeitsblatts, die einen Zellbereich visuell überlagert, während ein eingebettetes Bild in der Zelle selbst gespeichert wird und sich automatisch an den Anzeigebereich der Zelle anpasst. Wählen Sie den Ansatz, der Ihren Layout-Anforderungen am besten entspricht.
+{{% /alert %}}
 
 ## **Einführung**
 Ein Bild genau an eine einzelne Zelle anzupassen ist eine häufige Anforderung beim Entwerfen von Tabellenkalkulationen, die als visuelle Berichte, Produktkataloge, Mitarbeiterverzeichnisse, Dashboards oder Inventarlisten dienen. Anstatt ein Bild über viele Zellen zu strecken oder es lose auf einem Arbeitsblatt zu platzieren, möchten Sie möglicherweise ein sauberes, zellgebundenes Bild, das mit der zugehörigen Zelle ausgerichtet bleibt.
@@ -36,6 +37,7 @@ Der Anker des Bildes wird durch vier nullbasierte Indexeigenschaften definiert:
 
 {{% alert color="primary" %}}
 Zeilen- und Spaltenindizes in Aspose.Cells sind **nullbasiert**. Zelle C6 hat den Zeilenindex 5 und den Spaltenindex 2. Off-by-One-Fehler am unteren rechten Anker sind die häufigste Ursache für Bilder, die scheinbar in eine benachbarte Zelle überlappen.
+{{% /alert %}}
 
 ### **Steuerung des Platzierungsverhaltens**
 `Picture.placement` ist eine Enumeration vom Typ `PlacementType`, die steuert, wie sich das Bild verhält, wenn der Benutzer die Zeile oder Spalte darunter in der Größe ändert. Der empfohlene Wert für ein Einzelzellbild ist `PlacementType.MOVE_AND_SIZE`, wodurch sich das Bild zusammen mit seiner darunter liegenden Zelle bewegt und in der Größe ändert, sodass die genaue Anpassung erhalten bleibt.
@@ -53,6 +55,7 @@ Der folgende Code demonstriert den vollständigen Ansatz.
 
 ```python
 import aspose.cells as ac
+from aspose.cells.drawing import PlacementType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 with open("logo.png", "rb") as fs:
@@ -62,7 +65,7 @@ with open("logo.png", "rb") as fs:
     picture.upper_left_column = 2
     picture.lower_right_row = 6
     picture.lower_right_column = 3
-    picture.placement = ac.PlacementType.MOVE_AND_SIZE
+    picture.placement = PlacementType.MOVE_AND_SIZE
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
 
@@ -79,7 +82,7 @@ Damit ist `Cell.embedded_image` die kompakteste Option, wenn Ihr Ziel einfach �
 1. Erstellen Sie eine neue `Workbook` (oder öffnen Sie eine vorhandene).
 2. Greifen Sie über `workbook.worksheets[0]` auf das Ziel-`Worksheet` zu.
 3. Lesen Sie die Bilddatei von der Festplatte in ein `bytes`-Objekt (zum Beispiel durch Öffnen der Datei im Binärmodus und Aufrufen von `.read()`).
-4. Holen Sie sich eine Referenz auf die Zielzelle — entweder über `worksheet.cells["C6"]` oder `worksheet.cells[5, 2]`.
+4. Holen Sie sich eine Referenz auf die Zielzelle — entweder über `worksheet.cells.get("C6")` oder `worksheet.cells.get(5, 2)`.
 5. Weisen Sie das Bytes-Objekt der Eigenschaft `embedded_image` der Zelle zu.
 6. Passen Sie optional die Zeilenhöhe und Spaltenbreite der Zielzeile und -spalte an, um dem eingebetteten Bild ein prominenteres Erscheinungsbild zu verleihen.
 7. Speichern Sie die Arbeitsmappe als `.xlsx`-Datei auf der Festplatte.
@@ -90,15 +93,15 @@ import aspose.cells as ac
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Get the target cell C6
-cell = worksheet.cells["C6"]
+cell = worksheet.cells.get("C6")
 # Read the image file into a byte array
 with open("logo.png", "rb") as f:
     imageData = f.read()
 # Embed the image directly into the cell
 cell.embedded_image = imageData
 # Optionally adjust row height and column width so the embedded image is more visible
-worksheet.cells.set_column_width(2, 30)   # Column C (index 2)
-worksheet.cells.set_row_height(5, 100)     # Row 6 (index 5)
+worksheet.cells.set_column_width(2, 30.0)   # Column C (index 2)
+worksheet.cells.set_row_height(5, 100.0)     # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
@@ -114,9 +117,6 @@ Beide Ansätze erzeugen ein Bild, das in eine einzelne Zelle passt, unterscheide
   - Sie die einfachstmögliche Einfügung eines Bildes in eine Zelle wünschen.
   - Das Bild mit der Zelle wie jeder andere Zellinhalt mitwandern soll.
   - Sie das Bild nicht als Form manipulieren müssen.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Verwandte Artikel
 - [Excel-Kamera in Aspose.Cells for Python via .NET](/cells/de/python-net/excel-camera/)
@@ -125,4 +125,4 @@ Beide Ansätze erzeugen ein Bild, das in eine einzelne Zelle passt, unterscheide
 - [Ändern des Seitenfeldlayouts in einer Pivot-Tabelle](/cells/de/python-net/change-page-field-layout/)
 - [Konvertieren einer Sparkline in Bild und HTML in Aspose.Cells for Python via .NET](/cells/de/python-net/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta la creazione di sparkline all'interno delle celle del foglio di lavoro. Le sparkline sono grafici in miniatura che si adattano a una singola cella, fornendo una rapida rappresentazione visiva delle tendenze dei dati. Aspose.Cells supporta sparkline a linea, a colonne e win/loss, e ciascuna può essere personalizzata per colore, spessore della linea, punti massimi/minimi e marcatori.
+{{% /alert %}}
 
 ## **Introduzione**
 Le sparkline sono piccoli grafici all'interno delle celle, utili quando si desidera visualizzare rapidamente una tendenza accanto a una riga o colonna di dati senza occupare lo spazio di un grafico completo. Excel supporta tre tipi di sparkline: **a linea**, **a colonne** e **win/loss**. Aspose.Cells replica questa funzionalità attraverso le API `SparklineGroup` e `SparklineGroupCollection` presenti nel namespace `Aspose.Cells.Charts`.
@@ -29,7 +30,7 @@ Una sparkline a linea traccia una linea continua attraverso i punti dati di una 
 L'esempio seguente crea una cartella di lavoro, scrive i valori 5, -3, 8, -2, 6 nelle celle da A1 a E1 e aggiunge una sparkline a linea nella cella F1 che traccia tali valori. Personalizza inoltre il colore della linea in rosso e abilita i marcatori per i punti massimi e minimi.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Passo 1: Creare una cartella di lavoro e ottenere il primo foglio di lavoro
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -42,10 +43,10 @@ cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
 // Passo 3: Costruire un CellArea che punti alla cella di destinazione F1
 const dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // colonna F (indicizzata a 0)
-dest.setEndColumn(5);
-dest.setStartRow(0);      // riga 1 (indicizzata a 0)
-dest.setEndRow(0);
+dest.StartColumn = 5;   // colonna F (indicizzata a 0)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // riga 1 (indicizzata a 0)
+dest.EndRow = 0;
 // Passo 4: Aggiungere una sparkline di tipo Linea da A1:E1 in F1
 // SparklineGroups.Add restituisce l'indice del gruppo appena aggiunto
 const index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, dest);
@@ -72,6 +73,7 @@ La procedura rispecchia l'esempio della sparkline a linea:
 L'esempio seguente scrive i valori 5, -3, 8, -2, 6 in A1:E1 e rende una sparkline a colonne in F1. I valori negativi sono disegnati come barre verso il basso e i valori positivi come barre verso l'alto, il che rende facile individuare a colpo d'occhio i contributi positivi e negativi.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Step 2: Write sample values into A1:E1
@@ -81,10 +83,10 @@ for (let i = 0; i < values.length; i++) {
 }
 // Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Step 4: Add a Column sparkline to the destination cell
 let idx = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Column, "A1:E1", false, dest);
@@ -107,6 +109,7 @@ In Aspose.Cells, una sparkline win/loss viene creata passando `SparklineType.Sta
 6. Salvare la cartella di lavoro con un nome file distinto, in modo che tutti e tre gli esempi possano coesistere sul disco.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -118,10 +121,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Passo 3: Crea un CellArea che punta a F1 (colonna 5, riga 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F
-dest.setEndColumn(5);
-dest.setStartRow(0);      // riga 1
-dest.setEndRow(0);
+dest.StartColumn = 5;   // F
+dest.EndColumn = 5;
+dest.StartRow = 0;      // riga 1
+dest.EndRow = 0;
 // Passo 4: Aggiungi uno sparkline Win/Loss (SparklineType.Stacked)
 let groupIndex = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Stacked,
@@ -159,6 +162,7 @@ console.log("Workbook saved successfully: output_winloss.xlsx");
 L'esempio combinato seguente crea un'unica cartella di lavoro, popola la riga 1 con i valori 5, -3, 8, -2, 6 e quindi aggiunge tre gruppi di sparkline nelle celle F1, F2 e F3 — uno di ciascun tipo — in modo che il file risultante dimostri tutti e tre gli stili di sparkline contemporaneamente.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Passo 2: Popola i dati di esempio nella riga 1 (A1:E1)
@@ -169,10 +173,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Passo 3: Aggiungi un gruppo di sparkline Linea in F1
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
 // Personalizza il colore della sparkline Linea tramite CellsColor
@@ -181,10 +185,10 @@ lineColor.setColor(AsposeCells.Color.Blue);
 lineGroup.setSeriesColor(lineColor);
 // Passo 4: Aggiungi un gruppo di sparkline Colonna in F2
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(5);
-columnArea.setEndColumn(5);
-columnArea.setStartRow(1);
-columnArea.setEndRow(1);
+columnArea.StartColumn = 5;
+columnArea.EndColumn = 5;
+columnArea.StartRow = 1;
+columnArea.EndRow = 1;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
 // Personalizza il colore della serie della sparkline Colonna
@@ -193,10 +197,10 @@ columnColor.setColor(AsposeCells.Color.Green);
 columnGroup.setSeriesColor(columnColor);
 // Passo 5: Aggiungi un gruppo di sparkline Vinta/Perdita (In pila) in F3
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(5);
-stackedArea.setEndColumn(5);
-stackedArea.setStartRow(2);
-stackedArea.setEndRow(2);
+stackedArea.StartColumn = 5;
+stackedArea.EndColumn = 5;
+stackedArea.StartRow = 2;
+stackedArea.EndRow = 2;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
 // Personalizza il colore della serie della sparkline vinta/perdita
@@ -215,6 +219,5 @@ Una volta che un `SparklineGroup` è stato creato e aggiunto a `worksheet.sparkl
 - **Marcatori dei punti massimo/minimo** — flag che attivano piccoli marcatori sui punti dati più alti e più bassi, utili per evidenziare gli estremi.
 - **Marcatori dei punti primo/ultimo/negativo** — flag che attivano/disattivano i marcatori sui punti dati primo, ultimo e negativi.
 Per modificare un colore, creare sempre un'istanza di `CellsColor` e assegnarla alla proprietà pertinente. Non assegnare un `System.Drawing.Color` direttamente alle proprietà del colore delle sparkline: queste si aspettano il tipo `CellsColor` di `Aspose.Cells.Drawing`. Il metodo `sparklineGroups.add` stesso restituisce un oggetto `SparklineGroup` completamente tipizzato, quindi è possibile concatenare le assegnazioni di proprietà sul valore restituito oppure memorizzarlo in una variabile locale e personalizzarlo prima di salvare.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

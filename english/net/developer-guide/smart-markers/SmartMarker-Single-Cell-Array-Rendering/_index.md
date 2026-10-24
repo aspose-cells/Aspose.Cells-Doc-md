@@ -60,6 +60,7 @@ The marker is composed of the following parts:
 
 {{% alert color="primary" %}}
 The `extraDelimiter` attribute accepts any string literal, including multi-character delimiters, custom text, or escape sequences such as `\n` for newline-separated output. If the array is empty, the resulting cell is left blank.
+{{% /alert %}}
 
 ### **Step-by-Step Workflow**
 The following workflow describes how to render an array into a single cell using Smart Markers.
@@ -166,7 +167,6 @@ Keep the following points in mind when working with the `ArrayAsSingle` and `Ext
 - If the array is empty or null, the cell is left empty (or contains a blank string depending on the data type).
 - The feature works with object data sources as well as `DataSet` and `DataTable` sources where a column can be split into arrays.
 - For newline-separated output, you can use `\n` or `Environment.NewLine` as the delimiter value.
-{{% /alert %}}
 
 ## Related Articles
 - [Add Filter Fields to a Pivot Table in Aspose.Cells for .NET](/cells/net/add-page-field-in-pivot-table/)

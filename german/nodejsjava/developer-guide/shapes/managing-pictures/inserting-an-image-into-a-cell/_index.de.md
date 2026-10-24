@@ -38,6 +38,7 @@ Um das Bild beispielsweise genau in Zelle **C6** (Zeilenindex `5`, Spaltenindex 
 
 {{% alert color="primary" %}}
 Zeilen- und Spaltenindizes in Aspose.Cells sind **nullbasiert**. Zelle C6 hat den Zeilenindex 5 und den Spaltenindex 2. Off-by-One-Fehler beim unteren rechten Anker sind die häufigste Ursache für Bilder, die scheinbar in eine benachbarte Zelle hineinragen.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `Picture.Placement` ist eine Enumeration vom Typ `PlacementType`, die steuert, wie sich das Bild verhält, wenn der Benutzer die Zeile oder Spalte darunter in der Größe ändert. Der empfohlene Wert für ein Bild in einer einzelnen Zelle ist `PlacementType.MoveAndSize`, wodurch sich das Bild gemeinsam mit der darunter liegenden Zelle bewegt und seine Größe ändert, sodass die genaue Anpassung erhalten bleibt.
@@ -54,7 +55,7 @@ Zeilen- und Spaltenindizes in Aspose.Cells sind **nullbasiert**. Zelle C6 hat de
 Der folgende Code demonstriert den vollständigen Ansatz.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 var picIndex = worksheet.getPictures().add(5, 2, "logo.png");
@@ -63,8 +64,8 @@ picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);
 picture.setLowerRightRow(6);
 picture.setLowerRightColumn(3);
-picture.setPlacement(AsposeCells.PlacementType.MoveAndSize);
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+picture.setPlacement(AsposeCells.PlacementType.MOVE_AND_SIZE);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Approach 2: Embed an Image Directly in a Cell**
@@ -87,7 +88,7 @@ Dies macht `Cell.EmbeddedImage` zur kompaktesten Option, wenn Ihr Ziel einfach �
 Der folgende Code demonstriert den vollständigen Ansatz.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
@@ -101,7 +102,7 @@ cell.setEmbeddedImage(imageData);
 worksheet.getCells().setColumnWidth(2, 30);   // Column C (index 2)
 worksheet.getCells().setRowHeight(5, 100);     // Row 6 (index 5)
 // Save the resulting workbook as an .xlsx file
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Choosing the Right Approach**
@@ -115,6 +116,5 @@ Beide Ansätze erzeugen ein Bild, das in eine einzelne Zelle passt, unterscheide
   - Sie das einfachstmögliche Einfügen eines Bildes in eine Zelle wünschen.
   - Das Bild wie jeder andere Zellinhalt mit der Zelle mitwandern soll.
   - Sie das Bild nicht als Form manipulieren müssen.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

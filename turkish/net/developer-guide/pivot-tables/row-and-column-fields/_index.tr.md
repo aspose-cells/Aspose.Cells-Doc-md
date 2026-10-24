@@ -202,6 +202,19 @@ workbook.Save("output_custom.xlsx");
 ```
 
 ## **Özet**
-Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `SetSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek alanın arasında toplanacak bir şey yoktur, dolayısıyla `SetSubtotals`'ın görünür bir etkiye sahip olmasını istediğinizde her zaman satır veya sütun bölgesine en az iki alan yerleştirin.
 
+Ü senaryo yalnızca SetSubtotals çağrıları konusunda farklılaşır. Geri kalan her şey — veri kümesi, alanlar ve onların atanmış olduğu alanlar — aynıdır; bu da düzenlerin doğrudan karşılaştırılabilir olmasına neden olur.
+- **Alanların yerleştirilmesi.** `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)`, bir kaynak sütunu bir bölgeye taşıır. Bir bölgede, çağrıların sırası, gösterim sırasını belirler; böylece ilk çağrı en dıştaki gruba dönüşür. Alt toplamlar, aynı bölgede iki veya daha fazla alana ihtiyaç duyar: tek bir alanla, grupların arasında alt toplam yapılacak bir şey bulunmaz.
+- **Senaryo 1 — otomatik alt toplamlar.** SetSubtotals çağrısının yapılmaması, seçimi Excel’e bırakır; Excel, sayısal alanlara kendi varsayılan alt toplamını uygular. SetSubtotals, `PivotFieldSubtotalType.Automatic` ile çağrıldığında, bu seçimi açıkça kaydeder ve dolaylı bırakmaz.
+- **Senaryo 2 — alt toplam yok.** SetSubtotals, `PivotFieldSubtotalType.None` ile çağrıldığında varsayılan alt toplamı kapatır; böylece özet tablo, alan satırlarını ve toplamı korur ancak Excel’in aksi takdirde aralarına ekleyeceği alt toplam satırlarını kaldırır.
+- **Senaryo 3 — seçilen bir alt küme.** Her çağrı, tam olarak bir alt toplam türünü açıp kapatır ve çağrılar birbirlerini sıfırlamak yerine birikir. Bu nedenle, bir kez `PivotFieldSubtotalType.Sum` ve bir kez `PivotFieldSubtotalType.Average` ile çağrıldığında her ikisi de etkin kalır ve özet tablo, bir Toplam alt toplamı, bir Ortalama alt toplamı ve bir toplam görüntüler.
+
+{{% alert color="primary" %}}
+Alt toplamlarla ilgili hiçbir şey, satır bölgesine özgü değildir. `PivotTable.ColumnFields`’ten alınmış bir alana aynı SetSubtotals çağrıları yapıldığında, sütun ekseninde aynı üç düzen oluşturulur, çünkü ayar, eksende değil, özet alanına aittir.
+{{% /alert %}}
+## **İlgili Makaleler**
+
+- [Pivot Tablolardaki Sayfa Alanları](/cells/tr/net/add-page-field-in-pivot-table/)
+- [Aspose.Cells for .NET’de Pivot Tabloları Yenileme](/cells/tr/net/refresh-pivot-table/)
+- [Pivot Tablolara Stil Uygulama](/cells/tr/net/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="csharp" >}}

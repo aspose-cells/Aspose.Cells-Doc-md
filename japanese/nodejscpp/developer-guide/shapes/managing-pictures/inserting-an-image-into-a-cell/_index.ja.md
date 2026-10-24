@@ -37,6 +37,7 @@ Aspose.Cells では、このシナリオを 2 つの補完的な方法でサポ�
 
 {{% alert color="primary" %}}
 Aspose.Cells の行と列のインデックスは**ゼロベース**です。セル C6 の行インデックスは 5、列インデックスは 2 です。右下アンカーのオフバイワンエラー (1 単位のずれ) は、画像が隣接するセルに重なって見える最も一般的な原因です。
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `picture.placement` は `PlacementType` 型の列挙型で、ユーザーが下にある行または列のサイズを変更したときの画像の動作を制御します。単一セル画像に推奨される値は `PlacementType.MoveAndSize` で、これにより画像が基になるセルと一緒に移動およびサイズ変更され、正確なフィッティングが維持されます。
@@ -53,7 +54,7 @@ Aspose.Cells の行と列のインデックスは**ゼロベース**です。セ
 次のコードは完全な方法を示しています。
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -88,6 +89,8 @@ Aspose.Cells では、セルにバインドされた画像のためによりシ�
 次のコードは完全な方法を示しています。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 // ターゲットセル C6 を取得
@@ -113,7 +116,6 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 - **次のような場合は埋め込み画像 (方法 2) を使用します:**
   - セルへの画像の挿入をできるだけシンプルにしたい場合。
   - 画像が他のセルコンテンツのようにセルと一緒に移動する必要がある場合。
-{{% /alert %}}
 
 ## Related Articles
 - [Aspose.Cells for Node.js via C++ の Excel Camera](/cells/ja/nodejs-cpp/excel-camera/)
@@ -122,4 +124,4 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 - [ピボットテーブルのページフィールドのレイアウトを変更する](/cells/ja/nodejs-cpp/change-page-field-layout/)
 - [Aspose.Cells for Node.js via C++ でスパークラインを画像と HTML に変換する](/cells/ja/nodejs-cpp/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

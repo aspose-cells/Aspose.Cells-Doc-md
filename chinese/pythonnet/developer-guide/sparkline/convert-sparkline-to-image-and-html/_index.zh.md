@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 迷你图是放置在工作表单元格内的小型图表。Aspose.Cells 允许您将每个迷你图提取为独立图像（用于嵌入到其他单元格或外部报告中），也可以将整个包含迷你图的工作表导出为 HTML，以便通过浏览器进行分发。本文使用的 `cell.embedded_image` 属性在 **Aspose.Cells 26.5 及更高版本**中可用。
+{{% /alert %}}
 
 ## **简介**
 迷你图是一种在工作表内直接可视化趋势的紧凑方式。虽然 Excel 用户可以在原位查看迷你图，但在许多实际场景中需要将迷你图移出单元格——例如，作为静态图片嵌入到其他单元格中、附加到自动发送的电子邮件中，或作为发布到 Web 的 HTML 报告的一部分进行渲染。
@@ -29,59 +30,63 @@ Aspose.Cells 支持上述两种操作。`sparkline.to_image` 方法可将单个�
    - 锚定在 `G1`、数据区域为 `A1:E1` 的 `SparklineType.COLUMN` 组。
    - 锚定在 `H1`、数据区域为 `A1:E1` 的 `SparklineType.STACKED`（盈亏）组。
 5. 构建一个 `ImageOrPrintOptions` 实例，并将其 `image_type` 设置为 `ImageType.PNG`，以便将每个迷你图渲染为透明 PNG。
-6. 对于三个组中的每一个，使用 `group.sparklines[0].to_image(memory_stream, image_options)` 渲染其单个迷你图，将 `BytesIO` 流转换为 `bytes` 对象，并将该数组分别赋值给 `worksheet.cells["F2"].embedded_image`、`worksheet.cells["G2"].embedded_image` 和 `worksheet.cells["H2"].embedded_image`。
+6. 对于三个组中的每一个，使用 `group.sparklines[0].to_image(memory_stream, image_options)` 渲染其单个迷你图，将 `BytesIO` 流转换为 `bytes` 对象，并将该数组分别赋值给 `worksheet.cells.get("F2").embedded_image`、`worksheet.cells.get("G2").embedded_image` 和 `worksheet.cells.get("H2").embedded_image`。
 7. 将工作簿另存为 `output_with_sparklines.xlsx`。
 
 ```python
+from io import BytesIO
 import aspose.cells as ac
+from aspose.cells.charts import SparklineType
+from aspose.cells.drawing import ImageType
+from aspose.cells.rendering import ImageOrPrintOptions
 # 创建一个新的工作簿并访问第一个工作表
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # 在 A1:E1 单元格中填充示例数据
-worksheet.cells["A1"].put_value(5)
-worksheet.cells["B1"].put_value(-3)
-worksheet.cells["C1"].put_value(8)
-worksheet.cells["D1"].put_value(-2)
-worksheet.cells["E1"].put_value(6)
+worksheet.cells.get("A1").put_value(5)
+worksheet.cells.get("B1").put_value(-3)
+worksheet.cells.get("C1").put_value(8)
+worksheet.cells.get("D1").put_value(-2)
+worksheet.cells.get("E1").put_value(6)
 # 在 F1（列 5，行 0）添加一个折线迷你图组
 line_area = ac.CellArea()
 line_area.start_column = 5
 line_area.end_column = 5
 line_area.start_row = 0
 line_area.end_row = 0
-line_idx = worksheet.sparkline_groups.add(ac.SparklineType.LINE, "A1:E1", False, line_area)
+line_idx = worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, line_area)
 # 在 G1（列 6，行 0）添加一个柱形迷你图组
 column_area = ac.CellArea()
 column_area.start_column = 6
 column_area.end_column = 6
 column_area.start_row = 0
 column_area.end_row = 0
-column_idx = worksheet.sparkline_groups.add(ac.SparklineType.COLUMN, "A1:E1", False, column_area)
+column_idx = worksheet.sparkline_groups.add(SparklineType.COLUMN, "A1:E1", False, column_area)
 # 在 H1（列 7，行 0）添加一个盈亏（堆叠）迷你图组
 stacked_area = ac.CellArea()
 stacked_area.start_column = 7
 stacked_area.end_column = 7
 stacked_area.start_row = 0
 stacked_area.end_row = 0
-stacked_idx = worksheet.sparkline_groups.add(ac.SparklineType.STACKED, "A1:E1", False, stacked_area)
+stacked_idx = worksheet.sparkline_groups.add(SparklineType.STACKED, "A1:E1", False, stacked_area)
 # 配置 PNG 输出的图像选项
-image_options = ac.ImageOrPrintOptions()
-image_options.image_type = ac.ImageType.PNG
+image_options = ImageOrPrintOptions()
+image_options.image_type = ImageType.PNG
 # 将折线迷你图转换为图像并嵌入到 F2 单元格
 line_sp = worksheet.sparkline_groups[line_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 line_sp.to_image(ms, image_options)
-worksheet.cells["F2"].embedded_image = ms.to_array()
+worksheet.cells.get("F2").embedded_image = ms.getvalue()
 # 将柱形迷你图转换为图像并嵌入到 G2 单元格
 column_sp = worksheet.sparkline_groups[column_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 column_sp.to_image(ms, image_options)
-worksheet.cells["G2"].embedded_image = ms.to_array()
+worksheet.cells.get("G2").embedded_image = ms.getvalue()
 # 将盈亏迷你图转换为图像并嵌入到 H2 单元格
 stacked_sp = worksheet.sparkline_groups[stacked_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 stacked_sp.to_image(ms, image_options)
-worksheet.cells["H2"].embedded_image = ms.to_array()
+worksheet.cells.get("H2").embedded_image = ms.getvalue()
 # 将工作簿保存到磁盘
 workbook.save("output_with_sparklines.xlsx")
 ```
@@ -90,6 +95,7 @@ workbook.save("output_with_sparklines.xlsx")
 
 {{% alert color="primary" %}}
 由于每个迷你图组都锚定到单个单元格，您可以通过索引器 `group.sparklines[0]` 来访问它，而无需使用 `for` 循环进行枚举。这使得渲染代码保持简洁，并与典型的"每个锚定单元格一个迷你图"的模式相匹配。通过 `cell.embedded_image` 存储图片字节需要 Aspose.Cells 26.5 或更高版本。
+{{% /alert %}}
 
 ## **工作流程 2 — 将迷你图工作表导出为 HTML**
 一旦工作簿中包含实时迷你图（以及可选的嵌入图片版本），就可以通过将工作簿另存为 HTML 来将整个工作表发布到 Web。`HtmlSaveOptions` 类公开了控制此导出所需的设置项；在本工作流程中，您将复用工作流程 1 生成的 `output_with_sparklines.xlsx` 文件，并将其转换为一个干净的单页 HTML 文档。
@@ -112,6 +118,7 @@ workbook.save("sparklines.html", html_options)
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` 类还提供了其他用于微调输出的属性，例如 `export_hidden_worksheet`、`export_images_as_base64` 和 `encoding`。可根据您的部署目标进行调整。
+{{% /alert %}}
 
 ## **API 摘要**
 上述工作流程依赖于一组协同工作的 Aspose.Cells API。
@@ -126,10 +133,5 @@ workbook.save("sparklines.html", html_options)
 - [Aspose.Cells for Python via .NET 中的迷你图](/cells/zh/python-net/sparkline/)
 - [在单元格中插入图像](/cells/zh/python-net/inserting-an-image-into-a-cell/)
 - [SmartMarker 单单元格数组渲染 | Aspose.Cells for Python via .NET](/cells/zh/python-net/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

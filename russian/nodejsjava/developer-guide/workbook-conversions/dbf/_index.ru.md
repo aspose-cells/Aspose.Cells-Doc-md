@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells обеспечивает полную поддержку чтения и записи файлов DBF (dBASE). Вы можете загружать существующие файлы dBASE III и dBASE IV в объект Workbook, обрабатывать данные с помощью богатого API Aspose.Cells и сохранять рабочую книгу обратно в формат DBF для использования с устаревшими приложениями баз данных.
+{{% /alert %}}
 
 ## **Введение**
 DBF (DataBase File) — это устаревший формат файлов баз данных, первоначально представленный dBASE в начале 1980-х годов. Несмотря на возраст формата, файлы DBF по-прежнему широко используются во многих отраслях для хранения структурированных данных, особенно в бухгалтерии, ГИС и других специализированных приложениях. Aspose.Cells позволяет легко интегрировать эти устаревшие файлы в современные рабочие процессы с электронными таблицами в Node.js.
@@ -49,6 +50,8 @@ Aspose.Cells упрощает загрузку данных из файла DBF 
 Следующий пример демонстрирует, как загрузить существующий файл DBF в Aspose.Cells, получить доступ к его первому рабочему листу и прочитать значения ячеек.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const path = require("path");
 let sb = "";
 const maxRow = cells.getMaxDataRow();
 const maxCol = cells.getMaxDataColumn();
@@ -64,12 +67,13 @@ for (let i = 0; i <= maxRow; i++)
 }
 console.log(sb);
 const outputPath = path.join(dataDir, "output.xlsx");
-workbook.save(outputPath, AsposeCells.SaveFormat.Xlsx);
+workbook.save(outputPath, AsposeCells.SaveFormat.XLSX);
 console.log("DBF file loaded successfully. Converted XLSX saved at: " + outputPath);
 ```
 
 {{% alert color="primary" %}}
 Вы можете открывать файлы DBF непосредственно в Microsoft Excel, выбрав файл в диалоговом окне «Открыть». Excel будет обрабатывать файл DBF как электронную таблицу, отображая его записи в табличном виде. Это полезно для быстрой проверки данных после их чтения или записи с помощью Aspose.Cells.
+{{% /alert %}}
 
 ## **Запись файла DBF**
 Запись данных в файл DBF аналогична сохранению в любом другом формате электронных таблиц с помощью Aspose.Cells. Вы создаёте или загружаете Workbook, заполняете рабочий лист данными, а затем вызываете метод `save`, указывая `SaveFormat.Dbf` в качестве целевого формата.
@@ -83,6 +87,7 @@ console.log("DBF file loaded successfully. Converted XLSX saved at: " + outputPa
 Следующий пример демонстрирует, как создать новый файл DBF с нуля. Он заполняет рабочий лист образцами данных, содержащими разные типы данных (строки, числа и даты), чтобы проиллюстрировать обработку типов полей при экспорте в формат DBF.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
@@ -128,11 +133,12 @@ worksheet.getCells().setColumnWidth(1, 20);
 worksheet.getCells().setColumnWidth(2, 20);
 worksheet.getCells().setColumnWidth(3, 12);
 worksheet.getCells().setColumnWidth(4, 14);
-workbook.save(filePath, AsposeCells.SaveFormat.Dbf);
+workbook.save(filePath, AsposeCells.SaveFormat.DBF);
 ```
 
 {{% alert color="primary" %}}
 При записи данных в файл DBF убедитесь, что ваши данные соответствуют ограничениям формата. Имена полей не должны превышать 10 символов и не должны содержать пробелов. Записи, превышающие 4000 байт в общей сложности, не будут сохранены корректно. Даты должны быть допустимыми значениями даты, которые могут быть представлены в формате YYYYMMDD.
+{{% /alert %}}
 
 ## **Замечания о типах данных и форматировании**
 При передаче данных между Aspose.Cells и форматом DBF важно понимать, как типы данных сопоставляются между двумя системами, для обеспечения целостности данных.
@@ -160,10 +166,5 @@ workbook.save(filePath, AsposeCells.SaveFormat.Dbf);
 ## **Преобразование между DBF и другими форматами**
 Одним из наиболее практичных вариантов использования чтения и записи файлов DBF с помощью Aspose.Cells является преобразование данных между форматом DBF и современными форматами электронных таблиц, такими как XLSX, XLS или CSV. Поскольку Aspose.Cells поддерживает широкий спектр форматов, вы можете легко загрузить файл DBF и сохранить его в любом другом поддерживаемом формате, или наоборот.
 Например, вы можете прочитать файл DBF, применить форматирование или вычисления с помощью API Aspose.Cells, а затем сохранить результат в виде файла XLSX для распространения среди пользователей, работающих с современными приложениями для работы с электронными таблицами. И наоборот, вы можете взять данные из файла XLSX или CSV и экспортировать их в формат DBF для интеграции с устаревшими системами.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

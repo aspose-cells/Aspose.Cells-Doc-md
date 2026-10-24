@@ -80,9 +80,8 @@ int main() {
 
 {{% alert color="primary" %}}
 `Function` を変更しても集計にのみ影響し、ソース列は変更されません。
-{{% /alert %}}
-
 したがって、1 つのデータフィールドを `Sum` のままにしておきながら、同じソース列を対象とする 2 番目のデータフィールドを `Count` や `Average` で追加することが、すべて 1 つのピボット内で行えます。
+{{% /alert %}}
 
 ```cpp
 #include <iostream>
@@ -116,9 +115,8 @@ int main() {
 
 {{% alert color="primary" %}}
 値フィールドが存在しない場合や 1 つしかない場合、`PivotTable.ValuesField` は機能しません。
-{{% /alert %}}
-
 以下のシナリオでは、同じピボット構造に対して上記の各機能を示す 3 つのエンドツーエンドの例を順に説明します。
+{{% /alert %}}
 
 ```cpp
 #include <iostream>

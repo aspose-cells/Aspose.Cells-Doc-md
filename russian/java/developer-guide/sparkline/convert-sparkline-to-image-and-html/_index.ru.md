@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Спарклайны — это миниатюрные диаграммы, размещаемые внутри ячеек рабочего листа. Aspose.Cells позволяет извлекать каждый спарклайн как отдельное изображение (для встраивания в другую ячейку или внешний отчёт), а также экспортировать весь рабочий лист со спарклайнами в HTML для распространения через браузер. Свойство `Cell.EmbeddedImage`, используемое в данной статье, доступно в **Aspose.Cells 26.5 и более поздних версиях**.
+{{% /alert %}}
 
 ## **Введение**
 Спарклайны — это компактный способ визуализации трендов непосредственно внутри рабочего листа. В то время как пользователи Excel видят их на месте, во многих реальных сценариях требуется, чтобы спарклайн покинул ячейку — например, чтобы быть встроенным в другую ячейку как статическое изображение, прикреплённым к автоматическому письму или отображённым в составе HTML-отчёта, публикуемого в Интернете.
@@ -45,13 +46,13 @@ worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Добавить группу линейных спарклайнов, привязанную к F1 (столбец 5, строка 0)
-CellArea lineArea = CellArea.createCellArea(5, 0, 5, 0);
+CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5);
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
 // Добавить группу столбчатых спарклайнов, привязанную к G1 (столбец 6, строка 0)
-CellArea columnArea = CellArea.createCellArea(6, 0, 6, 0);
+CellArea columnArea = CellArea.createCellArea(0, 6, 0, 6);
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
 // Добавить группу спарклайнов Win/Loss (составных), привязанную к H1 (столбец 7, строка 0)
-CellArea stackedArea = CellArea.createCellArea(7, 0, 7, 0);
+CellArea stackedArea = CellArea.createCellArea(0, 7, 0, 7);
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
 // Настроить параметры изображения для вывода в формате PNG
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
@@ -79,6 +80,7 @@ workbook.save("output_with_sparklines.xlsx");
 
 {{% alert color="primary" %}}
 Поскольку каждая группа спарклайнов привязана к одной ячейке, вы можете обращаться к ней через индексатор `group.getSparklines().get(0)` вместо перебора в цикле `for`. Это делает код рендеринга коротким и соответствует типичному шаблону «один спарклайн на одну ячейку привязки». Сохранение байтов изображения через `Cell.EmbeddedImage` (устанавливается через `setEmbeddedImage`) требует Aspose.Cells версии 26.5 или более поздней.
+{{% /alert %}}
 
 ## **Рабочий процесс 2 — Экспорт рабочего листа со спарклайнами в HTML**
 После того как рабочая книга содержит живые спарклайны (и опционально встроенные изображения-аналоги), весь рабочий лист может быть опубликован в Интернете путём сохранения его в формате HTML. Класс `HtmlSaveOptions` предоставляет параметры, необходимые для управления этим экспортом; в данном рабочем процессе вы повторно используете файл `output_with_sparklines.xlsx`, созданный в Рабочем процессе 1, и преобразуете его в чистый одностраничный HTML-документ.
@@ -101,6 +103,7 @@ workbook.save("sparklines.html", htmlOptions);
 
 {{% alert color="primary" %}}
 Класс `HtmlSaveOptions` предлагает дополнительные свойства для тонкой настройки вывода, такие как `ExportHiddenWorksheet`, `ExportImagesAsBase64` и `Encoding`. Настраивайте их по мере необходимости для вашей целевой среды развёртывания.
+{{% /alert %}}
 
 ## **Сводка по API**
 Описанные выше рабочие процессы опираются на небольшой набор API Aspose.Cells, работающих совместно.
@@ -115,10 +118,5 @@ workbook.save("sparklines.html", htmlOptions);
 - [Спарклайны в Aspose.Cells для Aspose.Cells for Java](/cells/ru/java/sparkline/)
 - [Вставка изображения в ячейку](/cells/ru/java/inserting-an-image-into-a-cell/)
 - [Рендеринг массива одной ячейки SmartMarker | Aspose.Cells Java](/cells/ru/java/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

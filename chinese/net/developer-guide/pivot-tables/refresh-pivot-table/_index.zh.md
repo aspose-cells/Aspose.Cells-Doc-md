@@ -24,11 +24,10 @@ Aspose.Cells 提供了一套分层刷新 API，允许您在四个不同的范围
 
 {{% alert color="primary" %}}
 `PivotCache.SourceType`（枚举 `PivotTableSourceType`）指示缓存数据的来源。截至 v26.7，`PivotCache.Refresh()` 仅支持 **`Sheet`** 和 **`Consolidation`** 源类型，即位于工作表区域中的数据。外部源（数据库、外部连接等）目前尚无法通过缓存 API 进行刷新。
-{{% /alert %}}
-
 由于这种数据链，Aspose.Cells 中存在两种基本的刷新路径：
 - **`PivotTable.CalculateData()`** — 从已缓存数据重新计算一个 `PivotTable` 的显示，无需返回数据源。
 本文中的所有场景均使用工作表单元格作为源数据，因此源类型为 `Sheet`，刷新操作的行为与所述一致。
+{{% /alert %}}
 
 ## 快速入门
 如果您只需要最短的代码来刷新工作簿中的每个数据透视表，一次调用即可：

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Los minigráficos son pequeños gráficos colocados dentro de las celdas de una hoja de cálculo. Aspose.Cells permite extraer cada minigráfico como una imagen independiente, para incrustarlo en otra celda o en un informe externo, y también exportar a HTML toda la hoja de cálculo que contiene los minigráficos para distribuirla mediante un navegador. La propiedad `Cell.EmbeddedImage` utilizada en este artículo está disponible en **Aspose.Cells 26.5 y versiones posteriores**.
+{{% /alert %}}
 
 ## **Introducción**
 Los minigráficos ofrecen una forma compacta de visualizar tendencias directamente dentro de una hoja de cálculo. Aunque los usuarios de Excel los ven en su lugar, muchos escenarios reales requieren que un minigráfico salga de la celda; por ejemplo, para incrustarlo en otra celda como una imagen estática, adjuntarlo a un mensaje de correo electrónico automatizado o representarlo como parte de un informe HTML publicado en la web.
@@ -44,13 +45,13 @@ worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Agregar un grupo de minigráficos de líneas anclado en F1 (columna 5, fila 0)
-CellArea lineArea = CellArea.createCellArea(5, 0, 5, 0);
+CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5);
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
 // Agregar un grupo de minigráficos de columnas anclado en G1 (columna 6, fila 0)
-CellArea columnArea = CellArea.createCellArea(6, 0, 6, 0);
+CellArea columnArea = CellArea.createCellArea(0, 6, 0, 6);
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
 // Agregar un grupo de minigráficos de victorias/derrotas (apilados) anclado en H1 (columna 7, fila 0)
-CellArea stackedArea = CellArea.createCellArea(7, 0, 7, 0);
+CellArea stackedArea = CellArea.createCellArea(0, 7, 0, 7);
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
 // Configurar las opciones de imagen para la salida PNG
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
@@ -78,6 +79,7 @@ El código anterior genera un libro en el que cada representación visual de un 
 
 {{% alert color="primary" %}}
 Como cada grupo de minigráficos está anclado a una única celda, puede acceder a él mediante el indexador `group.getSparklines().get(0)` en lugar de enumerar sus elementos con un bucle `for`. Esto permite mantener breve el código de representación y se ajusta al patrón habitual de «un minigráfico por celda de anclaje». El almacenamiento de los bytes de la imagen mediante `Cell.EmbeddedImage`, establecido a través de `setEmbeddedImage`, requiere Aspose.Cells 26.5 o una versión posterior.
+{{% /alert %}}
 
 ## **Secuencia de trabajo 2 — Exportar la hoja de cálculo con minigráficos a HTML**
 Una vez que el libro contiene minigráficos activos y, opcionalmente, imágenes equivalentes incrustadas, se puede publicar toda la hoja de cálculo en la web guardándola como HTML. La clase `HtmlSaveOptions` ofrece los controles necesarios para configurar esta exportación. En esta secuencia de trabajo, reutilizará el archivo `output_with_sparklines.xlsx` generado por la Secuencia de trabajo 1 y lo convertirá en un documento HTML limpio de una sola página.
@@ -100,6 +102,7 @@ El código anterior convierte el libro con minigráficos de la Secuencia de trab
 
 {{% alert color="primary" %}}
 La clase `HtmlSaveOptions` ofrece propiedades adicionales para ajustar con precisión la salida, como `ExportHiddenWorksheet`, `ExportImagesAsBase64` y `Encoding`. Ajústelas según sea necesario para el entorno de implementación.
+{{% /alert %}}
 
 ## **Resumen de la API**
 Las secuencias de trabajo anteriores se basan en un pequeño conjunto de API de Aspose.Cells que funcionan conjuntamente.
@@ -113,10 +116,5 @@ Las secuencias de trabajo anteriores se basan en un pequeño conjunto de API de 
 - [Minigráficos en Aspose.Cells for Java](/cells/es/java/sparkline/)
 - [Inserción de una imagen en una celda](/cells/es/java/inserting-an-image-into-a-cell/)
 - [Renderizado de matrices de una única celda con SmartMarker | Aspose.Cells Java](/cells/es/java/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

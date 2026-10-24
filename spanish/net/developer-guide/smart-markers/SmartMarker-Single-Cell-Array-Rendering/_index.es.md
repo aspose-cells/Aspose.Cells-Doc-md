@@ -60,6 +60,7 @@ El marcador se compone de las partes siguientes:
 
 {{% alert color="primary" %}}
 El atributo `extraDelimiter` acepta cualquier cadena literal, incluidos delimitadores de varios caracteres, texto personalizado o secuencias de escape como `\n` para generar resultados separados por saltos de línea. Si la matriz está vacía, la celda resultante se deja en blanco.
+{{% /alert %}}
 
 ### **Step-by-Step Workflow**
 El siguiente flujo de trabajo explica cómo representar una matriz en una sola celda mediante Smart Markers.
@@ -166,7 +167,6 @@ Tenga en cuenta los siguientes aspectos al trabajar con los atributos `ArrayAsSi
 - Si la matriz está vacía o es nula, la celda se deja vacía o contiene una cadena en blanco, según el tipo de datos.
 - La función funciona con orígenes de datos de objetos, así como con orígenes `DataSet` y `DataTable` en los que una columna puede dividirse en matrices.
 - Para generar resultados separados por saltos de línea, puede usar `\n` o `Environment.NewLine` como valor del delimitador.
-{{% /alert %}}
 
 ## Related Articles
 - [Añadir campos de filtro a una tabla dinámica en Aspose.Cells for .NET](/cells/es/net/add-page-field-in-pivot-table/)

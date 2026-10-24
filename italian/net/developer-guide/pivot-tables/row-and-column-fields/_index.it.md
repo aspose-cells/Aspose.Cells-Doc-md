@@ -202,6 +202,19 @@ workbook.Save("output_custom.xlsx");
 ```
 
 ## **Riepilogo**
-I tre scenari precedenti condividono lo stesso dataset e la stessa struttura di tabella pivot. L'unica differenza tra loro è la chiamata a `SetSubtotals` applicata al campo riga esterno `Category`. Ricorda la regola dei due campi: un singolo campo in un'area non ha nulla tra cui calcolare un subtotale, quindi posiziona sempre almeno due campi nell'area righe o colonne quando desideri che `SetSubtotals` abbia un effetto visibile.
 
+I tre scenari differiscono in un solo aspetto: le chiamate a `SetSubtotals`. Il resto — il set di dati, i campi e le aree a cui vengono assegnati — è identico, ed è questo il motivo per cui i layout risultanti sono direttamente confrontabili.
+- **Posizionamento dei campi.** `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` sposta una colonna sorgente in una regione. All'interno di una stessa regione, l’ordine delle chiamate determina l’ordine di visualizzazione, così la prima chiamata corrisponde al gruppo più esterno. I subtotali richiedono due o più campi nella stessa regione: con un solo campo non c’è nulla tra i gruppi su cui calcolare il subtotale.
+- **Scenaro 1 — subtotali automatici.** Non effettuare la chiamata a `SetSubtotals` lascia la scelta a Excel, che applica il proprio subtotale predefinito ai campi numerici. Effettuare la chiamata a `SetSubtotals` con `PivotFieldSubtotalType.Automatic` registra esplicitamente tale scelta invece di lasciarla implicita.
+- **Scenaro 2 — nessun subtotale.** `SetSubtotals` con `PivotFieldSubtotalType.None` disattiva il subtotale predefinito, così il pivot mantiene le righe dei campi e il totale generale, ma omette le righe di subtotale che Excel altrimenti inserirebbe tra di esse.
+- **Scenaro 3 — un sottoinsieme scelto.** Ogni chiamata abilita o disabilita esattamente un tipo di subtotale, e le chiamate si accumulano anziché annullarsi a vicenda. Pertanto, effettuare una chiamata con `PivotFieldSubtotalType.Sum` e un’altra con `PivotFieldSubtotalType.Average` lascia entrambi abilitati, e il pivot visualizza un subtotale Somma, un subtotale Media e un totale generale.
+
+{{% alert color="primary" %}}
+Nulla relativo ai subtotali è specifico della regione riga. Le stesse chiamate a `SetSubtotals` su un campo estratto da `PivotTable.ColumnFields` producono gli stessi tre layout sull’asse delle colonne, poiché l’impostazione appartiene al campo pivot e non all’asse su cui è posizionato.
+{{% /alert %}}
+## **Articoli correlati**
+
+- [Campi pagina nelle tabelle pivot](/cells/it/net/add-page-field-in-pivot-table/)
+- [Aggiornamento delle tabelle pivot in Aspose.Cells per .NET](/cells/it/net/refresh-pivot-table/)
+- [Applicazione di stili alle tabelle pivot](/cells/it/net/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="csharp" >}}

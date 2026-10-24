@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells stöder uppdelning av en enskild Excel-fil i flera filer. Det finns två primära sätt att göra detta: (1) genom att kopiera varje kalkylblad i källarbetsboken till en ny arbetsbok och spara varje som en separat fil, och (2) genom att kopiera ett specifikt cellintervall från ett kalkylblad till en ny arbetsbok. Båda metoderna är användbara när du behöver distribuera delmängder av data, skapa mindre rapporter för olika mottagare, eller isolera data för individuell bearbetning.
+{{% /alert %}}
 
 ## **Introduktion**
 Det finns många verkliga scenarier där en utvecklare behöver bryta upp en enskild Excel-fil i flera mindre filer. En arbetsbok kan till exempel innehålla ett kalkylblad per avdelning, och varje avdelningschef behöver bara få sitt eget blad. I andra fall kanske du vill extrahera en specifik tabell eller datablock från ett kalkylblad och skicka det som en fristående fil via e-post, utan att exponera resten av arbetsboken. Stora konsoliderade arbetsböcker kan också behöva delas upp i mindre bitar för enklare hantering, snabbare laddning, eller vidarebearbetning av andra system.
@@ -37,20 +38,20 @@ Följande steg beskriver hur man delar upp en Excel-fil genom att kopiera varje 
 ### **Kodexempel**
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const dataDir = "data/";
 const workbook = new AsposeCells.Workbook(dataDir + "book1.xls");
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
     const sourceSheet = workbook.getWorksheets().get(i);
     const sheetName = sourceSheet.getName();
-    
+
     const destWorkbook = new AsposeCells.Workbook();
     const destIndex = destWorkbook.getWorksheets().add();
     const destSheet = destWorkbook.getWorksheets().get(destIndex);
     destSheet.setName(sheetName);
-    
+
     destSheet.copy(sourceSheet);
-    
+
     const destFile = dataDir + sheetName + ".xls";
     destWorkbook.save(destFile, AsposeCells.SaveFormat.Excel97To2003);
 }
@@ -76,6 +77,5 @@ Följande steg beskriver hur man delar upp en Excel-fil genom att kopiera ett sp
 
 ### **Kodexempel**
 Den förväntade utdatan är en enskild ny fil i datakatalogen som endast innehåller värdena (och valfritt formateringen) för det angivna intervallet som extraherats från källarbetsboken. Destinationsfilen har ingen relation till annan data i källfilen; den innehåller bara det extraherade intervallet, med början vid cell `A1` i sitt första kalkylblad.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

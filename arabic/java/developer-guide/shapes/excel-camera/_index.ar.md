@@ -25,9 +25,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 يجب استدعاء `updateSelectedValue()` قبل الحفظ عندما يكون الناتج HTML أو PDF، وإلا فلن يحتوي الملف المُصدَّر على بيانات الصورة وستظهر الكاميرا فارغة في الناتج المُنشأ.
-{{% /alert %}}
-
 يُنشئ الكود التالي مصنفًا، ويُضيف صورة فارغة مُثبَّتة عند الصف 10 والعمود 6، ويربطها بنطاق المصدر `A1:F10` من خلال `setFormula`، ويُحدِّث بيانات الصورة المُضمَّنة، ثم يحفظ المصنف.
+{{% /alert %}}
 
 ```java
 import java.io.InputStream;

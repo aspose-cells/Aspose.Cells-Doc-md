@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells تدعم تقسيم ملف Excel واحد إلى ملفات متعددة. توجد طريقتان رئيسيتان للقيام بذلك: (1) عن طريق نسخ كل ورقة عمل من المصنف المصدر إلى مصنف جديد وحفظ كل منها كملف منفصل، و(2) عن طريق نسخ نطاق خلايا محدد من ورقة عمل إلى مصنف جديد. كلتا الطريقتين مفيدتان عندما تحتاج إلى توزيع مجموعات فرعية من البيانات، أو إنشاء تقارير أصغر لمستلمين مختلفين، أو عزل البيانات للمعالجة الفردية.
+{{% /alert %}}
 
 ## **المقدمة**
 توجد العديد من السيناريوهات الواقعية التي يحتاج فيها المطور إلى تقسيم ملف Excel واحد إلى عدة ملفات أصغر. على سبيل المثال، قد يحتوي المصنف على ورقة عمل واحدة لكل قسم، ويحتاج كل رئيس قسم إلى استلام ورقته فقط. في حالات أخرى، قد ترغب في استخراج جدول أو كتلة بيانات معينة من ورقة عمل وإرسالها كملف مستقل عبر البريد الإلكتروني، دون كشف بقية المصنف. قد تحتاج المصنفات الكبيرة الموحدة أيضًا إلى تقسيمها إلى أجزاء أصغر لتسهيل التعامل معها، أو تحميلها بشكل أسرع، أو معالجتها لاحقًا بواسطة أنظمة أخرى.
@@ -37,20 +38,20 @@ Aspose.Cells تدعم تقسيم ملف Excel واحد إلى ملفات متع�
 ### **مثال على الكود**
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const dataDir = "data/";
 const workbook = new AsposeCells.Workbook(dataDir + "book1.xls");
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
     const sourceSheet = workbook.getWorksheets().get(i);
     const sheetName = sourceSheet.getName();
-    
+
     const destWorkbook = new AsposeCells.Workbook();
     const destIndex = destWorkbook.getWorksheets().add();
     const destSheet = destWorkbook.getWorksheets().get(destIndex);
     destSheet.setName(sheetName);
-    
+
     destSheet.copy(sourceSheet);
-    
+
     const destFile = dataDir + sheetName + ".xls";
     destWorkbook.save(destFile, AsposeCells.SaveFormat.Excel97To2003);
 }
@@ -76,6 +77,5 @@ for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
 
 ### **مثال على الكود**
 الناتج المتوقع هو ملف جديد واحد في دليل البيانات يحتوي فقط على القيم (وبشكل اختياري التنسيق) للنطاق المحدد المستخرج من المصنف المصدر. ملف الوجهة لا تربطه أي علاقة ببقية البيانات في الملف المصدر؛ يحتوي فقط على النطاق المستخرج، بدءًا من الخلية `A1` في ورقة العمل الأولى الخاصة به.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta la conversione di cartelle di lavoro Excel direttamente in formato OFD (Open Fixed-layout Document) utilizzando il valore di enumerazione `SaveFormat.Ofd`. Il documento OFD risultante preserva il layout visibile, il contenuto, le celle unite, le larghezze delle colonne, le altezze delle righe, i caratteri, i colori, i bordi e i formati numerici della cartella di lavoro. Ciò rende Aspose.Cells adatto per flussi di lavoro di archiviazione, stampa, deposito normativo e presentazioni governative che richiedono un output a layout fisso.
+{{% /alert %}}
 
 ## **Introduzione**
 OFD (Open Fixed-layout Document) è uno standard nazionale cinese (GB/T 33190-2016) per rappresentare documenti digitali in un layout fisso basato su pagine. Svolge un ruolo simile a PDF per casi d'uso in cui l'aspetto visivo del documento sorgente deve essere preservato esattamente come creato. OFD è ampiamente adottato per le presentazioni governative, i depositi normativi, le fatture elettroniche e l'archiviazione a lungo termine nella Repubblica Popolare Cinese.
@@ -19,6 +20,7 @@ La conversione di cartelle di lavoro Excel in OFD è un requisito comune negli s
 
 {{% alert color="primary" %}}
 L'output OFD generato da Aspose.Cells preserva il layout visibile della cartella di lavoro sorgente, inclusi il contenuto delle celle, le celle unite, le larghezze delle colonne e le altezze delle righe. Anche la formattazione delle celle come caratteri, colori, bordi, allineamento e formati numerici viene renderizzata nell'output a layout fisso. Le opzioni di impostazione della pagina configurate sul foglio di lavoro, come dimensione della carta, orientamento e area di stampa, influenzano il layout del documento OFD risultante.
+{{% /alert %}}
 
 ## **Creazione di una cartella di lavoro Excel e salvataggio come OFD**
 Aspose.Cells consente di creare una cartella di lavoro a livello di codice, popolarla con dati e quindi salvarla direttamente in formato OFD utilizzando l'enumerazione `SaveFormat.Ofd`. L'esempio seguente crea una fattura da zero. Aggiunge un logo aziendale, informazioni di intestazione, una sezione di fatturazione, voci e totali calcolati, quindi esporta la cartella di lavoro in un documento OFD.
@@ -93,7 +95,7 @@ int main()
     Style headerStyle = workbook.CreateStyle();
     headerStyle.GetFont().SetIsBold(true);
     headerStyle.GetFont().SetColor(Color::White());
-    headerStyle.SetForegroundColor(Color{0, 0, 128});
+    headerStyle.SetForegroundColor(Color{0xff, 0x00, 0x00, 0x80});
     headerStyle.SetPattern(BackgroundType::Solid);
     headerStyle.SetHorizontalAlignment(TextAlignmentType::Center);
     headerStyle.GetBorders().Get(BorderType::TopBorder).SetLineStyle(CellBorderType::Thin);
@@ -134,7 +136,7 @@ int main()
         descCell.PutValue(lineItems[i].desc);
         qtyCell.PutValue(lineItems[i].qty);
         priceCell.PutValue(lineItems[i].price);
-        std::string formula = "C" + std::to_string(row) + "*D" + std::to_string(row);
+        std::string formula = "C" + std::to_string(row + 1) + "*D" + std::to_string(row + 1);
         totalCell.SetFormula(U16String(formula.c_str()));
         descCell.SetStyle(borderStyle);
         qtyCell.SetStyle(borderStyle);
@@ -144,7 +146,7 @@ int main()
     // Subtotale, imposta, totale complessivo
     cells.Get(u"B24").PutValue(u"Subtotal:");
     Cell subtotalCell = cells.Get(u"E24");
-    subtotalCell.SetFormula(u"SUM(E20:E22)");
+    subtotalCell.SetFormula(u"SUM(E21:E23)");
     cells.Get(u"B25").PutValue(u"Tax (10%):");
     Cell taxCell = cells.Get(u"E25");
     taxCell.SetFormula(u"E24*0.1");
@@ -246,8 +248,5 @@ int main() {
 - [Inserimento di un'immagine in una cella](/cells/it/cpp/inserting-an-image-into-a-cell/)
 - [Lettura e scrittura di file DBF](/cells/it/cpp/dbf/)
 - [Conversione di Sparkline in immagine e HTML in Aspose.Cells for C++](/cells/it/cpp/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

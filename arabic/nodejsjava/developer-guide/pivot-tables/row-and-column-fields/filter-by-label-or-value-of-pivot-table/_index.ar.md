@@ -30,6 +30,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 يقوم المثال التالي بتحميل مصنف يحتوي على جدول محوري موجود، ويطبق مرشح تسمية بحيث تظل العناصر التي تبدأ تسمياتها ببادئة محددة مرئية فقط، ثم يقوم بتحديث الجدول المحوري وحفظ النتيجة.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
 // تحميل المصنف الحالي الذي يحتوي على جدول محوري
@@ -41,7 +42,7 @@ let pivotTable = worksheet.getPivotTables().get(0);
 // استرجاع حقل الصف الأول PivotField
 let rowField = pivotTable.getRowFields().get(0);
 // تطبيق فلتر التسمية - عرض عناصر الصفوف التي تبدأ تسمياتها بالبادئة المقدمة فقط
-rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
+rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
 // تحديث وإعادة حساب بيانات الجدول المحوري حتى يسري الفلتر
 pivotTable.getPivotCache().refresh();
 // حفظ المصنف مرة أخرى على القرص
@@ -53,12 +54,13 @@ workbook.save(fileName);
 
 {{% alert color="primary" %}}
 لا يعمل مرشح التاريخ إلا عندما تحتوي منطقة الصف أو العمود على خلايا تاريخ ووقت فقط أو قيم فارغة. إذا كان الحقل الأساسي يحتوي على أنواع بيانات أخرى مثل الأرقام أو النصوص، فلن ينتج مرشح التاريخ النتيجة المتوقعة. تأكد من تنسيق الحقل كتاريخ ومن أن جميع القيم هي نسخ `DateTime` صالحة أو خلايا فارغة قبل تطبيق هذا المرشح.
-{{% /alert %}}
-
 يعرض Aspose.Cells تصفية التاريخ من خلال دالة `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. يحتوي تعداد `PivotFilterType` على قيم تاريخ مخصصة مثل `Today` و `Yesterday` و `LastWeek` و `ThisWeek` و `NextWeek` و `LastMonth` و `ThisMonth` و `NextMonth` و `LastQuarter` و `ThisQuarter` و `NextQuarter` و `LastYear` و `ThisYear` و `NextYear` و `Between`. بناءً على نوع المرشح المختار، يمكنك تمرير قيمة أو قيمتي `DateTime` (بالنسبة لـ `Between`، تمرر تاريخ البدء وتاريخ الانتهاء).
 يقوم المثال التالي بتحميل مصنف يحتوي على جدول محوري توجد منطقة الصف فيه على حقل تاريخ، ويطبق مرشح تاريخ يقيد العناصر المرئية إلى نطاق تاريخ معين، ثم يقوم بتحديث الجدول المحوري وحفظ المصنف.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
 let inputPath = "sample.xlsx";
 let outputPath = "output_filtered.xlsx";
 if (!fs.existsSync(inputPath))
@@ -78,7 +80,7 @@ let dateField = pivotTable.getRowFields().get(0);
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
 // تطبيق مرشح التاريخ على حقل المحور
-dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
+dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
 // تحديث وإعادة حساب الجدول المحوري حتى يصبح المرشح ساري المفعول
 pivotTable.getPivotCache().refresh();
 // حفظ المصنف
@@ -91,6 +93,7 @@ workbook.save(outputPath);
 يقوم المثال التالي بتحميل مصنف يحتوي على جدول محوري، ويطبق مرشح قيمة يحتفظ فقط بالعناصر التي تتجاوز مبيعاتها المجمعة حدًا رقميًا، ثم يقوم بتحديث الجدول المحوري وحفظ المصنف.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook("sample.xlsx");
 var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
@@ -108,7 +111,7 @@ for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 }
 if (dataFieldIndex >= 0)
 {
-    rowField.filterByValue(dataFieldIndex, AsposeCells.Pivot.PivotFilterType.ValueGreaterThan, 5000, Number.MAX_VALUE);
+    rowField.filterByValue(dataFieldIndex, AsposeCells.PivotFilterType.VALUE_GREATER_THAN, 5000, Number.MAX_VALUE);
 }
 pivotTable.getPivotCache().refresh();
 workbook.save("output.xlsx");
@@ -119,12 +122,12 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 لا يكون مرشح أعلى 10 فعالًا إلا عندما يحتوي الجدول المحوري على حقل قيمة محوري واحد أو أكثر في منطقة البيانات. بدون وجود حقل قيمة واحد على الأقل، لا يوجد مقياس مجمع لترتيب العناصر مقابله، ولا يمكن تطبيق المرشح.
-{{% /alert %}}
-
 يعرض Aspose.Cells تصفية أعلى 10 من خلال دالة `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. تحدد وسيطة `itemCount` عدد العناصر التي يجب الاحتفاظ بها، وتشير `isTop` إلى ما إذا كان يجب الاحتفاظ بأعلى العناصر (true) أو أدنى العناصر (false)، وتشير `valueField` إلى حقل البيانات المستخدم للترتيب، ويتحكم `filterType` في كيفية حساب القيمة (عادةً `Sum`، ولكن أيضًا `Count` و `Percent`).
 يقوم المثال التالي بتحميل مصنف يحتوي على جدول محوري يوجد به حقل قيمة، ويطبق مرشح أعلى 10 للاحتفاظ فقط بأعلى 10 عناصر من حيث مجموع المبيعات، ثم يقوم بتحديث الجدول المحوري وحفظ المصنف.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
@@ -144,10 +147,10 @@ let rowField = pivotTable.getRowFields().get(0);
 let valueFieldIndex = 0;
 // تطبيق مرشح أفضل 10 على حقل الصف:
 //   - عدد العناصر   = 10
-//   - نوع المرشح    = PivotFilterType.Sum
+//   - نوع المرشح    = PivotFilterType.SUM
 //   - isTop         = true (أفضل N؛ false تعني أسوأ N)
 //   - valueFieldIndex = فهرس حقل البيانات المستخدم لترتيب العناصر
-rowField.filterTop10(10, AsposeCells.PivotFilterType.Sum, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.SUM, true, 10);
 // تحديث بيانات الجدول المحوري وإعادة حسابها حتى يصبح المرشح ساري المفعول
 pivotTable.getPivotCache().refresh();
 // حفظ المصنف
@@ -159,6 +162,7 @@ workbook.save(outputPath);
 يكون هذا الأسلوب مفيدًا عندما تكون قاعدة التصفية غير منتظمة أو خاصة بعنصر معين، مثل إخفاء عدد صغير من الفئات المسماة التي يجب ألا تظهر في تقرير معين. يقوم المثال أدناه بتحميل جدول محوري، وإخفاء عنصر محدد بالاسم، وعرض كيفية إظهاره مرة أخرى، ثم تحديث الجدول المحوري وحفظ المصنف.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
 // الوصول إلى ورقة العمل الأولى التي تحتوي على الجدول المحوري
 let sheet = workbook.getWorksheets().get(0);
@@ -172,15 +176,15 @@ for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
     // إخفاء العناصر المحورية التي تطابق اسمًا/معيارًا محددًا
     if (item.getName() == "Item1" || item.getName() == "Item2") {
-        item.setIsHidden(true);
+        item.setHidden(true);
     }
     // عرض كيفية إظهار: إعادة عرض عنصر محوري تم إخفاؤه سابقًا
     if (item.getName() == "Item3") {
-        item.setIsHidden(false);
+        item.setHidden(false);
     }
 }
 // تحديث وإعادة حساب الجدول المحوري لتطبيق التغييرات
-pivotTable.getPivotCache().refreshData();
+pivotTable.getPivotCache().refresh();
 // حفظ المصنف — تبقى العناصر المخفية في البيانات الأساسية
 // لكنها تُستبعد من مخرجات الجدول المحوري المعروضة
 workbook.save("output_pivot_filtered.xlsx");

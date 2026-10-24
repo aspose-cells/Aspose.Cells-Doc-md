@@ -26,6 +26,7 @@ Aspose.Cells for Node.js via Java は、フィルターフィールドを登録�
 次の例では、小さな Fruit / Year / Amount データセットを作成し、`Fruit` を行領域に、`Amount` をデータ領域に、`Year` をフィルター領域に持つピボットテーブルをセル E3 に配置し、ピボットを更新して、ワークブックを保存します。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -55,9 +56,9 @@ for (var i = 0; i < data.length; i++)
 var pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 var pivotTable = worksheet.getPivotTables().get(pivotIndex);
 // フィールドをそれぞれのエリアに追加：果物を行、金額をデータ、年をページフィールド
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // ピボットテーブルのデータを更新して計算する
 pivotTable.calculateData();
 // ワークブックを保存する
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 すでに `PivotField` インスタンスを操作している場合は、それを `pivotTable.getPageFields().add` に直接渡すことができます。ピボットテーブルとフィルターフィールドは前のシナリオとまったく同じように構築されます。最終的なフィルター領域の登録のみが低レベル API 呼び出しに置き換えられます。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // ヘッダー
@@ -85,11 +87,11 @@ sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").put
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
 // E3 に A1:C10 をカバーするピボットテーブルを追加
-let pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1");
+let pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 let pivotTable = sheet.getPivotTables().get(pivotIndex);
 // Fruit -> 行、Amount -> データ (Year は下記のように Page に配置)
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 // 低レベルアプローチ：BaseFields から既存の Year PivotField を取得し、
 // PageFields.Add(PivotField) 経由で Page エリアに登録する。
 let yearField = pivotTable.getBaseFields().get("Year");
@@ -106,6 +108,7 @@ workbook.save("output.xlsx");
 `CurrentPageItem` をマジック値 `0x7FFD` に設定することは、ページフィルタをクリアすることと同等です。フィルタが適用されていないかのように、ピボット本体はすべてのページアイテムを要約します。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 // Fruit/Year/Amount のデータを入力
@@ -130,9 +133,9 @@ var pivotTables = sheet.getPivotTables();
 var index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(index);
 // ピボットフィールドを設定: Fruit→行、Amount→データ、Year→ページ
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 pivotTable.calculateData();
 // ページフィールドのフィルタをクリアして、ページフィールド内のすべての項目を表示する。
 // 0x7FFD (10進数 32765) は「すべての項目」を意味する特別なセンチネル値です —
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 `CurrentPageItem` を実際のインデックスに設定すると、その 1 つのページアイテムのみが選択されます。インデックスはフィルターフィールドのソート済みアイテムリスト内のアイテムの位置であるため、たとえば `1` はソート後の 2 番目のアイテムを選択します。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -169,9 +173,9 @@ var pivotTables = sheet.getPivotTables();
 var pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(pivotIndex);
 // フィールドを追加: フルーツ→行、金額→データ、年→ページ
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // ページフィールド固有の操作
 pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = ソート順の2番目のアイテム (例: "2021")
 // ピボットテーブルを更新して計算
@@ -214,11 +218,11 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotSheet = workbook.getWorksheets().add("Pivot");
 const pivots = pivotSheet.getPivotTables();
-const pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1");
+const pivotIndex = pivots.add("A1:C10", "E3", "PivotTable1");
 const pivotTable = pivots.get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.ROW, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.DATA, "Amount");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // — ページフィールドで複数選択を有効にする
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
 // パートA — すべてのアイテムを選択する（すべてのアイテムを表示する）

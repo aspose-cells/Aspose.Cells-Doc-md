@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Добавление базового поля в область данных (значений) — это первый шаг в формировании того, как сводная таблица агрегирует исходные данные. Aspose.Cells предоставляет метод `PivotTable.addFieldToArea(PivotFieldType, string)`, перегрузку, которая принимает константу `PivotFieldType.Data` и имя исходного столбца. После добавления поля в область данных API предоставляет к нему доступ через коллекцию `PivotTable.getDataFields()` в порядке добавления полей. По умолчанию числовой исходный столбец агрегируется функцией `ConsolidationFunction.Sum`, а нечисловой — `Count`.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -55,12 +55,11 @@ workbook.save("output_plot.xlsx");
 
 {{% alert color="primary" %}}
 Изменение функции итогов влияет только на агрегат, исходный столбец не изменяется.
+Таким образом, вы можете оставить одно поле данных как `Sum`, добавив второе поле данных, ссылающееся на тот же исходный столбец, но использующее `Count` или `Average`, — всё это в одной сводной таблице.
 {{% /alert %}}
 
-Таким образом, вы можете оставить одно поле данных как `Sum`, добавив второе поле данных, ссылающееся на тот же исходный столбец, но использующее `Count` или `Average`, — всё это в одной сводной таблице.
-
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -100,12 +99,11 @@ workbook.save("output_function.xlsx");
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` не работает, если поле значений отсутствует или является единственным.
+Приведённые ниже сценарии демонстрируют три полных примера, которые показывают каждую из описанных выше возможностей на одной и той же структуре сводной таблицы.
 {{% /alert %}}
 
-Приведённые ниже сценарии демонстрируют три полных примера, которые показывают каждую из описанных выше возможностей на одной и той же структуре сводной таблицы.
-
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

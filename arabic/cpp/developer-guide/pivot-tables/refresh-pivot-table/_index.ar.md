@@ -24,11 +24,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 يشير `PivotCache.SourceType` (تعداد `PivotTableSourceType`) إلى مصدر بيانات ذاكرة التخزين المؤقت. اعتبارًا من الإصدار v26.7، يدعم `PivotCache.Refresh()` فقط أنواع المصادر **`Sheet`** و**`Consolidation`**، أي البيانات الموجودة في نطاقات ورقة العمل. لا يمكن تحديث المصادر الخارجية (قواعد البيانات، الاتصالات الخارجية، وما إلى ذلك) من خلال واجهة برمجة التطبيقات لذاكرة التخزين المؤقت حتى الآن.
-{{% /alert %}}
-
 نظرًا لهذه السلسلة، توجد مساران أساسيان للتحديث في Aspose.Cells:
 - **`PivotTable.CalculateData()`** — يعيد حساب عرض `PivotTable` واحد من البيانات المخزنة مؤقتًا بالفعل، دون الحاجة إلى العودة إلى مصدر البيانات.
 تستخدم جميع السيناريوهات في هذه المقالة بيانات مصدر من خلايا ورقة العمل، لذا فإن نوع المصدر هو `Sheet` وتعمل عمليات التحديث كما هو موضح.
+{{% /alert %}}
 
 ## بداية سريعة
 إذا كنت تحتاج فقط إلى أقصر كود ممكن لتحديث كل جدول محوري في المصنف، فإن استدعاءً واحدًا كافٍ:
@@ -83,11 +82,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - **التحديث عند تغير التخطيط فقط.** إذا قمت بتغيير عرض الجدول المحوري فقط (ترتيب الأعمدة، `ConsolidationFunction`، وما إلى ذلك) دون لمس بيانات المصدر، فإن `PivotCache.Refresh()` غير ضروري وبطيء. استدعِ `pivotTable.CalculateData()` لإعادة العرض من ذاكرة التخزين المؤقت الموجودة.
 - **المصدر الخارجي غير مدعوم بواسطة `PivotCache.Refresh()`.** إذا كان مصدر الجدول المحوري يأتي من اتصال خارجي (قاعدة بيانات، مكعب OLAP، وما إلى ذلك)، فلا يمكن لـ `PivotCache.Refresh()` تحديثه في الإصدار v26.7، فهو يدعم حاليًا أنواع المصادر `Sheet` و`Consolidation` فقط. بالنسبة للمصادر الخارجية، أعد فتح المصنف أو أعد بناء ذاكرة التخزين المؤقت من المصدر.
 
-```csharp
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
+```cpp
+#include "Aspose.Cells.h"
+using namespace Aspose::Cells;
+
+int main()
+{
+    Aspose::Cells::Startup();
+    Workbook workbook(u"input.xlsx");
+    workbook.RefreshAll();
+    workbook.Save(u"output.xlsx");
+    Aspose::Cells::Cleanup();
+    return 0;
+}
 ```
 
 ```cpp
@@ -144,6 +151,7 @@ int main() {
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -193,6 +201,7 @@ int main() {
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;

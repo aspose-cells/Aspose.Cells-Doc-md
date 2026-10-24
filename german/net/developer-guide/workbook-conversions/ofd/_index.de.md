@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells unterstützt die direkte Konvertierung von Excel-Arbeitsmappen in das OFD-Format (Open Fixed-layout Document) mithilfe des Enumerationswerts `SaveFormat.Ofd`. Das resultierende OFD-Dokument bewahrt das sichtbare Layout, den Inhalt, die verbundenen Zellen, die Spaltenbreiten, die Zeilenhöhen, die Schriftarten, die Farben, die Rahmen und die Zahlenformate der Arbeitsmappe. Dies macht Aspose.Cells geeignet für Archivierung, Druck, regulatorische Einreichungen und Workflows zur Behördenvorlage, die eine Fixed-Layout-Ausgabe erfordern.
+{{% /alert %}}
 
 ## **Einführung**
 OFD (Open Fixed-layout Document) ist ein chinesischer nationaler Standard (GB/T 33190-2016) zur Darstellung digitaler Dokumente in einem festen, seitenbasierten Layout. Es erfüllt eine ähnliche Rolle wie PDF für Anwendungsfälle, in denen das visuelle Erscheinungsbild des Quelldokuments genau wie erstellt erhalten bleiben muss. OFD ist in der Volksrepublik China weit verbreitet für Behördenvorlagen, regulatorische Einreichungen, elektronische Rechnungen und Langzeitarchivierung.
@@ -19,6 +20,7 @@ Die Konvertierung von Excel-Arbeitsmappen in OFD ist eine häufige Anforderung i
 
 {{% alert color="primary" %}}
 Die von Aspose.Cells erzeugte OFD-Ausgabe bewahrt das sichtbare Layout der Quellarbeitsmappe, einschließlich Zellinhalten, verbundener Zellen, Spaltenbreiten und Zeilenhöhen. Zellenformatierungen wie Schriftarten, Farben, Rahmen, Ausrichtung und Zahlenformate werden ebenfalls in der Fixed-Layout-Ausgabe gerendert. Auf dem Arbeitsblatt konfigurierte Optionen zur Seiteneinrichtung, wie Papierformat, Ausrichtung und Druckbereich, beeinflussen das Layout des resultierenden OFD-Dokuments.
+{{% /alert %}}
 
 ## **Erstellen einer Excel-Arbeitsmappe und Speichern als OFD**
 Aspose.Cells ermöglicht es Ihnen, eine Arbeitsmappe programmatisch zu erstellen, sie mit Daten zu befüllen und sie dann direkt im OFD-Format unter Verwendung der Enumeration `SaveFormat.Ofd` zu speichern. Das folgende Beispiel erstellt eine Rechnung von Grund auf. Es fügt ein Firmenlogo, Kopfinformationen, einen „Rechnungsempfänger"-Abschnitt, Positionszeilen und berechnete Summen hinzu und exportiert anschließend die Arbeitsmappe in ein OFD-Dokument.
@@ -80,7 +82,8 @@ headerTotal.PutValue("Total");
 Style headerStyle = workbook.CreateStyle();
 headerStyle.Font.IsBold = true;
 headerStyle.Font.Color = Color.White;
-headerStyle.BackgroundColor = Color.Navy;
+headerStyle.ForegroundColor = Color.Navy;
+headerStyle.Pattern = BackgroundType.Solid;
 headerStyle.HorizontalAlignment = TextAlignmentType.Center;
 headerStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 headerStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
@@ -119,7 +122,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
     descCell.PutValue(lineItems[i, 0]);
     qtyCell.PutValue(lineItems[i, 1]);
     priceCell.PutValue(lineItems[i, 2]);
-    totalCell.Formula = "C" + row + "*D" + row;
+    totalCell.Formula = "C" + (row + 1) + "*D" + (row + 1);
     descCell.SetStyle(borderStyle);
     qtyCell.SetStyle(borderStyle);
     priceCell.SetStyle(currencyStyle);
@@ -128,7 +131,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
 // Zwischensumme, Steuer, Gesamtsumme
 worksheet.Cells["B24"].PutValue("Subtotal:");
 Cell subtotalCell = worksheet.Cells["E24"];
-subtotalCell.Formula = "SUM(E20:E22)";
+subtotalCell.Formula = "SUM(E21:E23)";
 worksheet.Cells["B25"].PutValue("Tax (10%):");
 Cell taxCell = worksheet.Cells["E25"];
 taxCell.Formula = "E24*0.1";
@@ -203,8 +206,5 @@ Console.WriteLine("\nFile successfully converted to OFD format: " + dataDir + "S
 - [Einfügen eines Bildes in eine Zelle](/cells/de/net/inserting-an-image-into-a-cell/)
 - [Lesen und Schreiben von DBF-Dateien](/cells/de/net/dbf/)
 - [Konvertieren einer Sparkline in Bild und HTML in Aspose.Cells for .Net](/cells/de/net/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="csharp" >}}

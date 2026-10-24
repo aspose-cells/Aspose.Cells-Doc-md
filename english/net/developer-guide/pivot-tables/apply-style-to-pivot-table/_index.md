@@ -89,6 +89,73 @@ workbook.Save("output.xls");
 
 ## **Apply a Modern Named Preset Pivot Table Style**
 
+`PivotTable.PivotTableStyleType` selects one of the built-in named styles that Excel 2007 introduced for pivot tables. The `PivotTableStyleType` enumeration exposes three theme families: the light family from `PivotTableStyleLight1` through `PivotTableStyleLight28`, the medium family from `PivotTableStyleMedium1` through `PivotTableStyleMedium28`, and the dark family from `PivotTableStyleDark1` through `PivotTableStyleDark28`. It also defines `None` and `Custom`. The higher-numbered members of each family are the styles added in Excel 2017.
+These presets are read-only. As soon as you need to change colors, borders, or fonts beyond what a preset provides, you have to define a custom pivot style instead, as shown in [Scenario 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**Why the modern presets and not the report-series autoformats?** The `Report1` through `Report10` and `Table1` through `Table10` values of `PivotTableAutoFormatType` predate pivot column fields, so they carry no styling for column-field headers and Excel renders those headers unstyled. The `PivotTableStyleType` presets were designed for the two-dimensional layout modern Excel uses and style row-field and column-field headers alike.
+{{% /alert %}}
+
+This scenario reuses the Fruit/Year/Amount dataset of Scenario 1, adds `Year` to the column area alongside the `Fruit` row field via `PivotFieldType.Column`, applies the dark-theme preset `PivotTableStyleDark1` with `PivotTable.PivotTableStyleType`, and saves the result as `.xlsx` — the format for which `PivotTableStyleType` is meaningful.
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+// Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+// Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+// (not in Aspose.Cells.Pivot) -- that is why we do not need any extra using for it.
+// GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.Worksheets[0];
+// Header row: Fruit / Year / Amount
+worksheet.Cells["A1"].PutValue("Fruit");
+worksheet.Cells["B1"].PutValue("Year");
+worksheet.Cells["C1"].PutValue("Amount");
+// 9 data rows of Fruit / Year / Amount
+worksheet.Cells["A2"].PutValue("Grape");
+worksheet.Cells["B2"].PutValue(2020);
+worksheet.Cells["C2"].PutValue(100);
+worksheet.Cells["A3"].PutValue("Blueberry");
+worksheet.Cells["B3"].PutValue(2020);
+worksheet.Cells["C3"].PutValue(150);
+worksheet.Cells["A4"].PutValue("Kiwi");
+worksheet.Cells["B4"].PutValue(2020);
+worksheet.Cells["C4"].PutValue(200);
+worksheet.Cells["A5"].PutValue("Cherry");
+worksheet.Cells["B5"].PutValue(2020);
+worksheet.Cells["C5"].PutValue(180);
+worksheet.Cells["A6"].PutValue("Grape");
+worksheet.Cells["B6"].PutValue(2021);
+worksheet.Cells["C6"].PutValue(120);
+worksheet.Cells["A7"].PutValue("Blueberry");
+worksheet.Cells["B7"].PutValue(2021);
+worksheet.Cells["C7"].PutValue(170);
+worksheet.Cells["A8"].PutValue("Kiwi");
+worksheet.Cells["B8"].PutValue(2021);
+worksheet.Cells["C8"].PutValue(210);
+worksheet.Cells["A9"].PutValue("Cherry");
+worksheet.Cells["B9"].PutValue(2021);
+worksheet.Cells["C9"].PutValue(190);
+worksheet.Cells["A10"].PutValue("Grape");
+worksheet.Cells["B10"].PutValue(2021);
+worksheet.Cells["C10"].PutValue(130);
+// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
+pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
+// Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
+workbook.Save("output.xlsx");
+```
 ## **Define and Apply a Custom Pivot Table Style**
 The built-in presets cannot be modified. Whenever you need to override colors, borders, or fonts, you must define a custom pivot style. The workflow has three steps:
 1. Add a custom style to the workbook's `TableStyles` collection via `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)`. This returns the index of the newly created style.
@@ -97,10 +164,9 @@ The built-in presets cannot be modified. Whenever you need to override colors, b
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` and `PivotTableStyleType` are not interchangeable. Use `PivotTableStyleType` for built-in presets, and `PivotTableStyleName` for custom styles you have defined through `AddPivotTableStyle`. Setting both is harmless, but only the one matching the intended source is rendered.
-{{% /alert %}}
-
 The available `TableStyleElementType` values include `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels`, and `PageFieldValues`.
 The following example defines a custom pivot style with a thin black border on `WholeTable` and a bold red font on `GrandTotalRow`, then applies it via `PivotTableStyleName` and saves as `.xlsx`.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -179,9 +245,8 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 `FormatAll` overrides both `PivotTableStyleType` and `PivotTableStyleName`. Use it only when a uniform, theme-independent appearance is required across the entire pivot.
-{{% /alert %}}
-
 The following example creates a `Style` with a yellow solid fill, a bold dark-blue font, and thin black borders on all sides, then applies it with `FormatAll` and saves as `.xlsx`.
+{{% /alert %}}
 
 ```csharp
 using System;

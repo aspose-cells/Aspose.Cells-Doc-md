@@ -17,8 +17,8 @@ Aspose.Cells, hem eski pivot otomatik biçimlerini (`.xls` dosyaları için tasa
 ## **Giriş**
 Aspose.Cells, pivot tablolar için iki paralel stil API'si sunar. Aralarındaki seçim, çalışma kitabını okuduğunuz formata değil, kaydettiğiniz dosya biçimine göre yapılır. Bir `.xls` dosyasından yüklenen çalışma kitabı `.xlsx` olarak yeniden kaydedilebilir; bu durumda eski stil API'si değil modern stil API'si geçerli olur.
 - `PivotTable.PivotTableStyleType`, yerleşik adlandırılmış stillerden birini seçer (açık ve koyu temalar; Excel 2017'de eklenen stiller dahil). Bu ön ayarlar salt okunurdur.
-- `PivotTable.PivotTableStyleName`, `Workbook.Worksheets.TableStyles.AddPivotTableStyle(...)` aracılığıyla kendinizin tanımladığı özel bir stili seçer. Ön ayarların sunduğundan farklı renkler, kenarlıklar veya yazı tipleri uygulamak istediğinizde özel stiller gerekir.
-Ayrıca `PivotTable.FormatAll(Style)`, tek bir `Style` nesnesini pivot tablonun her hücresine uygulayan ve yukarıdaki stil adı API'lerinden hangisiyle ayarlanmış olursa olsun geçersiz kılan bir kısayoldur. Bu, temel alınan tema ne olursa olsun tek tip bir görünüm gerektiğinde kullanışlıdır.
+- `PivotTable.PivotTableStyleName`, `Workbook.Worksheets.TableStyles.addPivotTableStyle(...)` aracılığıyla kendinizin tanımladığı özel bir stili seçer. Ön ayarların sunduğundan farklı renkler, kenarlıklar veya yazı tipleri uygulamak istediğinizde özel stiller gerekir.
+Ayrıca `PivotTable.formatAll(Style)`, tek bir `Style` nesnesini pivot tablonun her hücresine uygulayan ve yukarıdaki stil adı API'lerinden hangisiyle ayarlanmış olursa olsun geçersiz kılan bir kısayoldur. Bu, temel alınan tema ne olursa olsun tek tip bir görünüm gerektiğinde kullanışlıdır.
 
 ## **Eski XLS Ön Ayar Otomatik Biçimi Uygulama**
 `PivotTable.AutoFormatType`, `Aspose.Cells.Pivot.PivotTableAutoFormatType` numaralandırmasından bir değer kabul eder. Kullanılabilir değerler `Report1`–`Report10`, `Classic` ve `Table1`–`Table10` arasındadır.
@@ -29,7 +29,7 @@ Aşağıdaki örnek yeni bir çalışma kitabı yükler, Fruit/Year/Amount örne
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Senaryo 1: Eski bir XLS ön ayar otomatik biçimi uygula
 // Kullanılan API: PivotTable.AutoFormatType
 // Hedef dosya formatı: .xls (eski)
@@ -86,20 +86,81 @@ workbook.save("output.xls");
 
 ## **Modern Adlandırılmış Ön Ayar Pivot Tablo Stili Uygulama**
 
+`PivotTable.pivotTableStyleType`, Excel 2007'un pivot tablolara tanıttığı yerleşik adlandırılmış stillerden birini seçer. `PivotTableStyleType` numaralandırması, `PivotTableStyleLight1`'den `PivotTableStyleLight28`'e kadar olan açık ton ailesini, `PivotTableStyleMedium1`'den `PivotTableStyleMedium28`'e kadar olan orta ton ailesini ve `PivotTableStyleDark1`'den `PivotTableStyleDark28`'e kadar olan koyu ton ailesini içerir. Ayrıca `None` ve `Custom` değerlerini de tanımlar. Her ailenin daha yüksek numaralı üyeleri, Excel 2017'de eklenen stillerdir.
+Bu ön ayarlar salt okunurdur. Bir ön ayarın sunduğu sınırların ötesinde renkleri, kenarlıkları veya yazı tiplerini değiştirmeniz gerektiğinde, [Senaryo 3](#define-and-apply-a-custom-pivot-table-style)'te gösterildiği gibi bunun yerine özel bir pivot stili tanımlamanız gerekir.
+
+{{% alert color="primary" %}}
+**Neden modern ön ayarlar, rapor serisi otomatik formatlarından daha mı iyi?** `PivotTableAutoFormatType`'ın `Report1` ile `Report10` ve `Table1` ile `Table10` değerleri, pivot sütun alanları öncesinde gelmiştir, bu nedenle sütun alanı başlıklarının stilleri yoktur ve Excel bu başlıkları stilsiz görüntüler. `PivotTableStyleType` ön ayarları ise modern Excel’in kullandığı iki boyutlu düzen için tasarlanmıştır ve hem satır alanı hem de sütun alanı başlıklarını stillendirir.
+{{% /alert %}}
+
+Bu senaryo, Senaryo 1'deki meyve/yıl/tutar veri kümesini kullanır, `Fruit` satır alanının yanı sıra `Year` alanını `PivotFieldType.Column` aracılığıyla sütun alanına ekler, koyu tema ön ayarı olan `PivotTableStyleDark1`'i `pivotTable.setPivotTableStyleType` ile uygular ve sonucu `.xlsx` olarak kaydeder — `PivotTableStyleType`'ın anlamlı olduğu format.
+
+```javascript
+const AsposeCells = require("aspose.cells.node");
+let workbook = new AsposeCells.Workbook();
+let worksheet = workbook.getWorksheets().get(0);
+// Header row: Fruit / Year / Amount
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+// 9 data rows of Fruit / Year / Amount
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(100);
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(150);
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(200);
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(180);
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(120);
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(170);
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(210);
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(190);
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(130);
+// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PivotTableStyleDark1);
+// Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx");
+```
 ## **Özel Bir Pivot Tablo Stili Tanımlama ve Uygulama**
 Yerleşik ön ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı tiplerini geçersiz kılmanız gerektiğinde özel bir pivot stili tanımlamalısınız. İş akışı üç adımdan oluşur:
-1. `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)` aracılığıyla çalışma kitabının `TableStyles` koleksiyonuna özel bir stil ekleyin. Bu, yeni oluşturulan stilin dizinini döndürür.
+1. `Workbook.Worksheets.TableStyles.addPivotTableStyle(string name)` aracılığıyla çalışma kitabının `TableStyles` koleksiyonuna özel bir stil ekleyin. Bu, yeni oluşturulan stilin dizinini döndürür.
 2. `TableStyle.TableStyleElements.Add(TableStyleElementType)` ile `WholeTable` veya `GrandTotalRow` gibi öğeler ekleyerek stili yapılandırın, ardından `TableStyleElement.SetElementStyle(Style)` ile her öğeye bir `Style` atayın.
 3. `PivotTable.PivotTableStyleName` özelliğini stilin adına ayarlayarak özel stili pivota uygulayın. Burada `PivotTableStyleType` kullanmayın; çünkü bu özellik yerleşik ön ayarları seçer.
 
 {{% alert color="primary" %}}
-`PivotTableStyleName` ve `PivotTableStyleType` birbirinin yerine kullanılamaz. Yerleşik ön ayarlar için `PivotTableStyleType`, `AddPivotTableStyle` aracılığıyla tanımladığınız özel stiller için `PivotTableStyleName` kullanın. İkisini birden ayarlamak zararsızdır, ancak yalnızca amaçlanan kaynağa uygun olan işlenir.
-{{% /alert %}}
-
+`PivotTableStyleName` ve `PivotTableStyleType` birbirinin yerine kullanılamaz. Yerleşik ön ayarlar için `PivotTableStyleType`, `addPivotTableStyle` aracılığıyla tanımladığınız özel stiller için `PivotTableStyleName` kullanın. İkisini birden ayarlamak zararsızdır, ancak yalnızca amaçlanan kaynağa uygun olan işlenir.
 Kullanılabilir `TableStyleElementType` değerleri arasında `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` ve `PageFieldValues` bulunur.
 Aşağıdaki örnek, `WholeTable` üzerinde ince siyah kenarlık ve `GrandTotalRow` üzerinde kalın kırmızı yazı tipi içeren özel bir pivot stili tanımlar, ardından bunu `PivotTableStyleName` ile uygular ve `.xlsx` olarak kaydeder.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Kaynak verileri doldur: başlık satırı + 9 veri satırı (A1:C10)
@@ -167,16 +228,16 @@ pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
 
-## **FormatAll ile Her Pivot Hücresine Tek Bir Stil Uygulama**
-`PivotTable.FormatAll(Style)`, tek bir `Style` nesnesini pivot tablonun veri alanı, satır ve sütun başlıkları ile toplamlar dahil her hücresine uygulayan bir kısayoldur. `PivotTableStyleType` veya `PivotTableStyleName` ile daha önce ayarlanmış olan her şey geçersiz kılınır.
+## **formatAll ile Her Pivot Hücresine Tek Bir Stil Uygulama**
+`PivotTable.formatAll(Style)`, tek bir `Style` nesnesini pivot tablonun veri alanı, satır ve sütun başlıkları ile toplamlar dahil her hücresine uygulayan bir kısayoldur. `PivotTableStyleType` veya `PivotTableStyleName` ile daha önce ayarlanmış olan her şey geçersiz kılınır.
 
 {{% alert color="primary" %}}
-`FormatAll`, hem `PivotTableStyleType` hem de `PivotTableStyleName` değerlerini geçersiz kılar. Yalnızca tüm pivot genelinde temadan bağımsız tek tip bir görünüm gerektiğinde kullanın.
+`formatAll`, hem `PivotTableStyleType` hem de `PivotTableStyleName` değerlerini geçersiz kılar. Yalnızca tüm pivot genelinde temadan bağımsız tek tip bir görünüm gerektiğinde kullanın.
+Aşağıdaki örnek, sarı düz dolgu, kalın koyu mavi yazı tipi ve tüm kenarlarda ince siyah kenarlıklar içeren bir `Style` oluşturur, ardından bunu `formatAll` ile uygular ve `.xlsx` olarak kaydeder.
 {{% /alert %}}
 
-Aşağıdaki örnek, sarı düz dolgu, kalın koyu mavi yazı tipi ve tüm kenarlarda ince siyah kenarlıklar içeren bir `Style` oluşturur, ardından bunu `FormatAll` ile uygular ve `.xlsx` olarak kaydeder.
-
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Kaynak verileri doldur: başlık satırı (satır 1) + 9 veri satırı (satır 2-10)
@@ -231,7 +292,7 @@ style.getBorders().get(AsposeCells.BorderType.LeftBorder).setLineStyle(AsposeCel
 style.getBorders().get(AsposeCells.BorderType.LeftBorder).setColor(AsposeCells.Color.Black);
 style.getBorders().get(AsposeCells.BorderType.RightBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 style.getBorders().get(AsposeCells.BorderType.RightBorder).setColor(AsposeCells.Color.Black);
-// FormatAll uygula: bu tek stili pivot tablosunun her hücresine zorla uygular,
+// formatAll uygula: bu tek stili pivot tablosunun her hücresine zorla uygular,
 // daha önce ayarlanmış olan PivotTableStyleType / PivotTableStyleName değerlerini geçersiz kılar
 pivotTable.formatAll(style);
 // Çalışma kitabını modern .xlsx formatında kaydet
@@ -244,8 +305,9 @@ Stil API'si seçimi, çalışma kitabını kaydettiğiniz dosya biçimine bağl�
 |---|---|---|
 | `.xls` (eski) | `PivotTable.AutoFormatType` | `Aspose.Cells.Pivot.PivotTableAutoFormatType` değerleri (ör. `Report1`–`Report10`, `Classic`, `Table1`–`Table10`). Modern biçimlerde kaydederken yok sayılır. |
 | `.xlsx` / `.xlsm` / `.xlsb` (modern, yerleşik stil) | `PivotTable.PivotTableStyleType` | `Aspose.Cells.PivotTableStyleType` değerleri (açık/koyu temalar; Excel 2017 eklemeleri dahil). |
-| `.xlsx` / `.xlsm` / `.xlsb` (modern, özel stil) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.AddPivotTableStyle(...)` | Yerleşik ön ayarlar yeterli olmadığında kullanın. `TableStyleElement.SetElementStyle(...)` ile yapılandırın. |
-| Herhangi bir biçim (tek tip geçersiz kılma) | `PivotTable.FormatAll(Style)` | Pivot genelinde diğer tüm stil ayarlarını geçersiz kılan kısayol. |
+| `.xlsx` / `.xlsm` / `.xlsb` (modern, özel stil) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | Yerleşik ön ayarlar yeterli olmadığında kullanın. `TableStyleElement.SetElementStyle(...)` ile yapılandırın. |
+| Herhangi bir biçim (tek tip geçersiz kılma) | `PivotTable.formatAll(Style)` | Pivot genelinde diğer tüm stil ayarlarını geçersiz kılan kısayol. |
 Kararsız kaldığınızda, `.xlsx` olarak kaydedin ve yerleşik temalar için `PivotTableStyleType`, özel temalar için `PivotTableStyleName` kullanın.
+
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

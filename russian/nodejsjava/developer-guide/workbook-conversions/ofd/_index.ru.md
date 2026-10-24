@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells поддерживает прямое преобразование книг Excel в формат OFD (Open Fixed-layout Document) с помощью значения перечисления `SaveFormat.Ofd`. Полученный документ OFD сохраняет видимый макет книги, содержимое, объединённые ячейки, ширину столбцов, высоту строк, шрифты, цвета, границы и числовые форматы. Это делает Aspose.Cells подходящим решением для архивирования, печати, подачи в регулирующие органы и государственные учреждения, где требуется вывод с фиксированным макетом.
+{{% /alert %}}
 
 ## **Введение**
 OFD (Open Fixed-layout Document) — это китайский национальный стандарт (GB/T 33190-2016) для представления цифровых документов с фиксированным постраничным макетом. Он выполняет роль, аналогичную PDF, для сценариев, в которых визуальное оформление исходного документа должно быть сохранено в точности так, как было создано. OFD широко применяется для государственных представлений, подачи в регулирующие органы, электронных счетов-фактур и долгосрочного архивирования в Китайской Народной Республике.
@@ -19,6 +20,7 @@ OFD (Open Fixed-layout Document) — это китайский национал�
 
 {{% alert color="primary" %}}
 Выходной OFD-документ, создаваемый Aspose.Cells, сохраняет видимый макет исходной книги, включая содержимое ячеек, объединённые ячейки, ширину столбцов и высоту строк. Форматирование ячеек, такое как шрифты, цвета, границы, выравнивание и числовые форматы, также отображается в выводе с фиксированным макетом. Параметры настройки страницы, заданные на рабочем листе, такие как размер бумаги, ориентация и область печати, влияют на макет результирующего OFD-документа.
+{{% /alert %}}
 
 ## **Создание книги Excel и сохранение в формат OFD**
 Aspose.Cells позволяет программно создать книгу, заполнить её данными, а затем сохранить непосредственно в формат OFD с помощью перечисления `SaveFormat.Ofd`. Следующий пример создаёт счёт-фактуру с нуля. В него добавляются логотип компании, заголовочная информация, раздел «Кому», позиции и вычисляемые итоги, после чего книга экспортируется в OFD-документ.
@@ -27,6 +29,7 @@ Aspose.Cells позволяет программно создать книгу, 
 В этом примере формируется лист со счётом-фактурой путём вставки изображения логотипа в верхнюю левую область, заполнения названия компании и контактных данных, добавления заголовка «INVOICE» в объединённых ячейках, записи номера и даты счёта, указания плательщика, построения таблицы позиций с колонками «Описание», «Количество», «Цена за единицу» и «Сумма», а также вычисления промежуточного итога, налога и общего итога с помощью формул ячеек. Форматирование, такое как жирные заголовки, денежный формат для цен, границы и ширина столбцов, применяется с помощью объектов `Style` и `Font`. Наконец, книга сохраняется с расширением `.ofd` с использованием `SaveFormat.Ofd`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let dataDir = "C:\\Temp\\";
 // Создать новую рабочую книгу
 let workbook = new AsposeCells.Workbook();
@@ -51,7 +54,7 @@ worksheet.getCells().merge(7, 1, 2, 4);
 let titleCell = worksheet.getCells().get("B8");
 titleCell.putValue("INVOICE");
 let titleStyle = workbook.createStyle();
-titleStyle.getFont().setIsBold(true);
+titleStyle.getFont().setBold(true);
 titleStyle.getFont().setSize(20);
 titleStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.CENTER);
 titleCell.setStyle(titleStyle);
@@ -75,14 +78,14 @@ headerQty.putValue("Quantity");
 headerPrice.putValue("Unit Price");
 headerTotal.putValue("Total");
 let headerStyle = workbook.createStyle();
-headerStyle.getFont().setIsBold(true);
+headerStyle.getFont().setBold(true);
 headerStyle.getFont().setColor(AsposeCells.Color.getWhite());
 headerStyle.setBackgroundColor(AsposeCells.Color.getNavy());
 headerStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.CENTER);
-headerStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 headerDesc.setStyle(headerStyle);
 headerQty.setStyle(headerStyle);
 headerPrice.setStyle(headerStyle);
@@ -90,16 +93,16 @@ headerTotal.setStyle(headerStyle);
 // Стиль валюты с границами
 let currencyStyle = workbook.createStyle();
 currencyStyle.setCustom("\"$\"#,##0.00");
-currencyStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 // Стиль простых границ для ячеек описания/количества
 let borderStyle = workbook.createStyle();
-borderStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 // Строки позиций
 let lineItems = [
     ["Product A - Widget", 2, 50.00],
@@ -134,19 +137,19 @@ let grandTotalCell = worksheet.getCells().get("E26");
 grandTotalCell.setFormula("E24+E25");
 // Жирный стиль + стиль валюты для итоговых значений
 let totalStyle = workbook.createStyle();
-totalStyle.getFont().setIsBold(true);
+totalStyle.getFont().setBold(true);
 totalStyle.setCustom("\"$\"#,##0.00");
 subtotalCell.setStyle(totalStyle);
 taxCell.setStyle(totalStyle);
 grandTotalCell.setStyle(totalStyle);
 // Жирный стиль для итоговых меток
 let boldStyle = workbook.createStyle();
-boldStyle.getFont().setIsBold(true);
+boldStyle.getFont().setBold(true);
 worksheet.getCells().get("B24").setStyle(boldStyle);
 worksheet.getCells().get("B25").setStyle(boldStyle);
 worksheet.getCells().get("B26").setStyle(boldStyle);
 // Сохранить рабочую книгу как файл OFD
-workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.Ofd);
+workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.OFD);
 ```
 
 ## **Преобразование существующего файла Excel в OFD**
@@ -190,7 +193,7 @@ const printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 console.log("\nPrint area set to: " + printArea);
 // (6) Сохранить книгу как файл OFD
-workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.Ofd);
+workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.OFD);
 console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 function formatDate(date) {
     const pad = (n) => n.toString().padStart(2, '0');
@@ -203,8 +206,5 @@ function formatDate(date) {
 - [Вставка изображения в ячейку](/cells/ru/nodejs-java/inserting-an-image-into-a-cell/)
 - [Чтение и запись файлов DBF](/cells/ru/nodejs-java/dbf/)
 - [Преобразование спарклайна в изображение и HTML в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

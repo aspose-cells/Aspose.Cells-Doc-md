@@ -72,13 +72,11 @@ workbook.save("output_drag.xlsx");
 
 {{% alert color="primary" %}}
 Изменение `Function` влияет только на агрегат, исходный столбец не изменяется.
-{{% /alert %}}
-
 Таким образом, можно оставить одно поле данных как `SUM`, добавив второе поле данных, ссылающееся на тот же исходный столбец, но использующее `COUNT` или `AVERAGE`, всё в одной сводной таблице.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -119,13 +117,11 @@ workbook.save("output_function.xlsx");
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` не работает, если поле значений отсутствует или оно единственное.
-{{% /alert %}}
-
 Приведённые ниже сценарии пошагово рассматривают три законченных примера, демонстрирующих каждую из описанных выше возможностей на одной и той же структуре сводной таблицы.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

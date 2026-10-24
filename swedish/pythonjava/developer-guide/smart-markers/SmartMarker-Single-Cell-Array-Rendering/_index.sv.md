@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells stöder rendering av arraydata i en enda cell via Smart Markers. Genom att använda attributet `ArrayAsSingle` tillsammans med attributet `ExtraDelimiter` kan utvecklare styra hur arrayelement separeras inom en enda cell, vilket ger flexibel formatering för rapporter och mallar.
+{{% /alert %}}
 
 ## **Introduktion**
 Smart Markers i Aspose.Cells är en kraftfull, mallbaserad funktion som låter dig dynamiskt fylla kalkylbladsdata med hjälp av markörexpressioner som `&=DataSource.Field`. Markören placeras i en designarbetsbok, och när mallen bearbetas av `WorkbookDesigner` ersätts markörerna med värden från den angivna datakällan.
@@ -59,6 +60,7 @@ Markören består av följande delar:
 
 {{% alert color="primary" %}}
 Attributet `extraDelimiter` accepterar valfri strängliteral, inklusive flerteckenavgränsare, anpassad text eller escape-sekvenser som `\n` för nyradsseparerad utdata. Om arrayen är tom lämnas den resulterande cellen tom.
+{{% /alert %}}
 
 ### **Steg-för-steg-arbetsflöde**
 Följande arbetsflöde beskriver hur man renderar en array i en enda cell med hjälp av Smart Markers.
@@ -74,7 +76,6 @@ Följande arbetsflöde beskriver hur man renderar en array i en enda cell med hj
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 class Product:
     def __init__(self, tags):
@@ -102,7 +103,6 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-from asposecells.api import Workbook
 # Definiera Student-klass
 class Student:
     def __init__(self):
@@ -123,7 +123,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 # Definiera datakällan som en ordbok (motsvarande Order-klassen)
 order = {"Items": ["Apple", "Banana", "Cherry", "Date"]}
@@ -153,8 +152,5 @@ Tänk på följande punkter när du arbetar med attributen `ArrayAsSingle` och `
 - Funktionen fungerar med objektdatakällor såväl som `DataSet`- och `DataTable`-källor där en kolumn kan delas upp i arrayer.
 - För nyradsseparerad utdata kan du använda `\n` eller plattformens nyradskonstant som avgränsat värde.
 - Placera Smart Marker i en cell som har tillräcklig bredd för att visa den resulterande sammanfogade strängen; annars kan innehållet visuellt spilla över i intilliggande celler beroende på formatet.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

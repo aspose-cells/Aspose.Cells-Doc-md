@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells ofrece dos formas distintas de asociar una imagen con una sola celda. Una imagen flotante es una forma en la capa de dibujo de la hoja de cálculo que se superpone visualmente a un rango de celdas, mientras que una imagen incrustada se almacena dentro de la celda misma y se escala automáticamente al área de visualización de la celda. Elija el enfoque que mejor se adapte a sus requisitos de diseño.
+{{% /alert %}}
 
 ## **Introducción**
 Ajustar una imagen exactamente a una sola celda es un requisito común al diseñar hojas de cálculo que actúan como informes visuales, catálogos de productos, directorios de empleados, paneles de control o listas de inventario. En lugar de estirar una imagen a través de muchas celdas o colocarla de manera flexible sobre una hoja de cálculo, puede que quiera una imagen limpia y vinculada a la celda que permanezca alineada con la celda que la contiene.
@@ -36,6 +37,7 @@ El anclaje de la imagen se define mediante cuatro propiedades de índice basadas
 
 {{% alert color="primary" %}}
 Los índices de fila y columna en Aspose.Cells son **basados en cero**. La celda C6 tiene índice de fila 5 e índice de columna 2. Los errores de uno en uno en el ancla inferior derecha son la fuente más común de imágenes que parecen superponerse a una celda adyacente.
+{{% /alert %}}
 
 ### **Controlar el comportamiento de colocación**
 `Picture.Placement` es una enumeración de tipo `PlacementType` que controla cómo se comporta la imagen cuando el usuario cambia el tamaño de la fila o columna debajo de ella. El valor recomendado para una imagen de una sola celda es `PlacementType.MoveAndSize`, que hace que la imagen se mueva y se redimensione junto con su celda subyacente, preservando el ajuste exacto.
@@ -139,9 +141,6 @@ Ambos enfoques producen una imagen que cabe dentro de una sola celda, pero difie
   - Desee la inserción más simple posible de una imagen en una celda.
   - La imagen deba viajar con la celda como cualquier otro contenido de la celda.
   - No necesite manipular la imagen como una forma.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Artículos relacionados
 - [Cámara de Excel en Aspose.Cells for C++](/cells/es/cpp/excel-camera/)

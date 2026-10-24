@@ -106,10 +106,10 @@ När du tilldelar ett cellområde som datakälla måste området gå från övre
 {{% /alert %}}
 
 ## Relaterade artiklar
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Python via Java](/cells/sv/python-java/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Python via Java](/cells/sv/python-java/apply-style-to-pivot-table/)
+- [Lägga till filterfält i en pivottabell i Aspose.Cells för .NET](/cells/sv/python-java/add-page-field-in-pivot-table/)
+- [Tillämpa stilar på pivottabeller i Aspose.Cells for Python via Java](/cells/sv/python-java/apply-style-to-pivot-table/)
 - [Modify Page Field Layout in Pivot Table](/cells/sv/python-java/change-page-field-layout/)
-- [Filtering Pivot Tables by Label or Value](/cells/sv/python-java/filter-by-label-or-value-of-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Python via Java](/cells/sv/python-java/manage-value-fields/)
+- [Filtrera pivottabeller efter etikett eller värde](/cells/sv/python-java/filter-by-label-or-value-of-pivot-table/)
+- [Värdefält i Aspose.Cells for Python via Java](/cells/sv/python-java/manage-value-fields/)
 
 {{< app/cells/assistant language="python" >}}

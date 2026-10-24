@@ -1,8 +1,8 @@
 ---
-title: Добавить поля строк и столбцов сводной таблицы в Aspose.Cells для .NET
-description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Python via Java.
-linktitle: Поля строк и столбцов
-keywords: Aspose.Cells, Python via Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
+title: Добавление полей строки и столбца сводной таблицы в Aspose.Cells for Python via Java
+linktitle: Добавление полей строки и столбца сводной таблицы в Aspose.Cells for Python via Java
+description: Узнайте, как добавлять базовые поля в области строк и столбцов сводной таблицы и управлять подытогами полей сводной таблицы с помощью PivotField.setSubtotals в Aspose.Cells for Python via Java.
+keywords: Aspose.Cells, Python via Java, сводная таблица, поле строки, поле столбца, PivotField, setSubtotals, PivotFieldSubtotalType, подытоги
 type: docs
 weight: 220
 url: /ru/python-java/pivot-table-add-row-and-column-fields/
@@ -10,20 +10,19 @@ ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Добавление поля в область строк или столбцов**
-Метод `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` перемещает базовое поле из исходных данных в одну из четырёх областей сводной таблицы. Аргумент `fieldType` принимает одно из следующих значений `PivotFieldType`.
-- `ROW` — поля, размещаемые вертикально слева
-- `COLUMN` — поля, размещаемые горизонтально вверху
+## **Adding a Field to the Row or Column Region**
+Метод `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` переносит базовое поле из исходных данных в одну из четырех областей сводной таблицы. Аргумент `fieldType` принимает одно из следующих значений `PivotFieldType`:
+- `ROW` — поля, расположенные вертикально слева
+- `COLUMN` — поля, расположенные горизонтально в верхней части
 - `DATA` — поля, значения которых агрегируются
-- `PAGE` — поля, используемые в качестве фильтров отчёта
-После добавления полей вы можете получить к ним доступ через методы `PivotTable.getRowFields()` и `PivotTable.getColumnFields()`. Каждый метод возвращает коллекцию `PivotFieldCollection`. Поле с индексом 0 в `RowFields` является самым внешним полем строки, а последующие индексы представляют поля, вложенные в него. Та же самая индексация применяется к `ColumnFields`.
-Порядок вложенности полей имеет значение. Если сначала добавить `Category` в область строк, а затем `Item`, получится сводная таблица, в которой внешняя группировка — `Category`, а внутренняя группировка — `Item`. Изменение порядка на противоположный меняет иерархию.
+- `PAGE` — поля, используемые в качестве фильтров отчета
+Порядок вложения полей имеет значение. Если сначала добавить `Category` в область строк, а затем `Item`, получится сводная таблица, в которой внешняя группировка — `Category`, а внутренняя — `Item`. Изменение порядка меняет иерархию.
 
-## **Промежуточные итоги полей сводной таблицы**
-Метод `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, boolean shown)` управляет тем, какие строки промежуточных итогов отображаются для поля сводной таблицы. Каждый вызов переключает один тип промежуточного итога независимо. Передача `shown = true` отображает промежуточный итог, тогда как `shown = false` скрывает его. Поскольку каждый вызов влияет только на один тип, многократный вызов метода с разными значениями `subtotalType` формирует пользовательское подмножество промежуточных итогов.
-Перечисление `PivotFieldSubtotalType` определяет доступные виды промежуточных итогов.
-- `AUTOMATIC` — Aspose.Cells выбирает вариант по умолчанию (как правило, `SUM` для числовых полей)
-- `NONE` — подавляет все строки промежуточных итогов
+## **Pivot Field Subtotals**
+Метод `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, boolean shown)` управляет отображением строк подытогов для поля сводной таблицы. Каждый вызов независимо переключает отображение одного типа подытога. Передача `shown = true` отображает подытог, а `shown = false` скрывает его. Поскольку каждый вызов влияет только на один тип, несколько вызовов с разными значениями `subtotalType` позволяют сформировать пользовательское подмножество подытогов.
+Перечисление `PivotFieldSubtotalType` определяет доступные типы подытогов.
+- `AUTOMATIC` — Aspose.Cells выбирает вариант по умолчанию (обычно `SUM` для числовых полей)
+- `NONE` — подавляет все строки подытогов
 - `SUM`
 - `COUNT`
 - `AVERAGE`
@@ -36,17 +35,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - `VARP`
 
 {{% alert color="primary" %}}
-Промежуточные итоги отображаются только тогда, когда в области строк (или в области столбцов) присутствуют два или более полей сводной таблицы. Для одного поля нет ничего значимого для расчёта промежуточного итога между группами, поэтому вызовы `setSubtotals` в этом случае не имеют видимого эффекта. Поэтому в этой статье в каждом примере в область строк помещаются два поля (`Category` внешнее, `Item` внутреннее), чтобы граница промежуточного итога между группами `Category` была видна.
+Подытоги отображаются только тогда, когда в области строк (или столбцов) есть два или более поля сводной таблицы. У одного поля нет между чем вычислять содержательный подытог, поэтому в этом случае вызовы `setSubtotals` не имеют видимого эффекта. По этой причине в каждом примере этой статьи используются два поля строки (`Category` — внешнее, `Item` — внутреннее), чтобы была видна граница подытогов между каждой группой `Category`.
 {{% /alert %}}
 
-## **Сценарий 1 — Автоматические (по умолчанию) промежуточные итоги**
-Если вы вообще не вызываете `setSubtotals`, Aspose.Cells применяет выбор `AUTOMATIC` к числовым полям. Следующий пример явно подтверждает это поведение, вызывая `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` для внешнего поля строки `Category`.
+## **Scenario 1 — Automatic (Default) Subtotals**
+Если метод `setSubtotals` не вызывается, Aspose.Cells применяет выбор `AUTOMATIC` к числовым полям. Следующий пример явно подтверждает это поведение, вызывая `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` для внешнего поля строки `Category`.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, PivotTable, PivotField, PivotFieldType, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -100,14 +98,13 @@ workbook.save("output_automatic.xlsx")
 jpype.shutdownJVM()
 ```
 
-## **Сценарий 2 — Подавление всех промежуточных итогов (None)**
-Вызов `setSubtotals(PivotFieldSubtotalType.NONE, true)` удаляет все строки промежуточных итогов из сводной таблицы, оставляя только строки полей и общий итог внизу. Это полезно, когда требуются необработанные сгруппированные данные без каких-либо строк итогов.
+## **Scenario 2 — Suppressing All Subtotals (None)**
+Вызов `setSubtotals(PivotFieldSubtotalType.NONE, true)` удаляет все строки подытогов из сводной таблицы, оставляя только строки полей и общий итог внизу. Это полезно, если требуются сгруппированные исходные данные без каких-либо итоговых строк.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -141,14 +138,13 @@ workbook.save("output_none.xlsx")
 jpype.shutdownJVM()
 ```
 
-## **Сценарий 3 — Пользовательское подмножество промежуточных итогов (Sum + Average)**
-Вы не ограничены одним типом промежуточного итога. Каждый вызов `setSubtotals` действует независимо для одного типа, поэтому двойной вызов метода — один раз с `SUM`, а другой раз с `AVERAGE` — формирует пользовательское подмножество из двух строк промежуточных итогов для каждой группы `Category`.
+## **Scenario 3 — Custom Subtotal Subset (Sum + Average)**
+Вы не ограничены одним типом подытога. Каждый вызов `setSubtotals` независимо действует на один тип, поэтому два вызова метода — один с `SUM`, а другой с `AVERAGE` — создают пользовательское подмножество из двух строк подытогов для каждой группы `Category`.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTableCollection, PivotTable, PivotFieldType, PivotField, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -192,19 +188,32 @@ worksheet.getCells().get(8, 3).putValue(45)
 pivotTables = worksheet.getPivotTables()
 pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1")
 pivotTable = pivotTables.get(pivotIndex)
-pivotTable.addFieldToArea(PivotFieldType.Row, "Category")
-pivotTable.addFieldToArea(PivotFieldType.Row, "Item")
-pivotTable.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 categoryField = pivotTable.getRowFields().get(0)
-categoryField.setSubtotals(PivotFieldSubtotalType.Sum, True)
-categoryField.setSubtotals(PivotFieldSubtotalType.Average, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.SUM, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, True)
 pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 jpype.shutdownJVM()
 ```
 
-## **Резюме**
-Три приведённых выше сценария используют один и тот же набор данных и структуру сводной таблицы. Единственное различие между ними — это вызов `setSubtotals`, применяемый к внешнему полю строки `Category`. Помните о правиле двух полей: одно поле в области не даёт ничего значимого для расчёта промежуточного итога между группами, поэтому всегда размещайте как минимум два поля в области строк или столбцов, когда хотите, чтобы `setSubtotals` оказывал видимый эффект.
+## **Recap**
+
+Три сценария различаются только одним: вызовами `setSubtotals`. Всё остальное — набор данных, поля и области, в которые они помещены — идентично, что и делает макеты прямо сравнимыми.
+- **Размещение полей.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` перемещает исходный столбец в определённую область. Внутри одной области порядок вызовов определяет порядок отображения, поэтому первый вызов создаёт внешнюю (самую высокую по иерархии) группу. Для вычисления промежуточных итогов необходимо наличие двух или более полей в одной области: при единственном поле между группами нечего суммировать.
+- **Сценарий 1 — автоматические промежуточные итоги.** Отсутствие вызова `setSubtotals` оставляет решение за Excel, который применяет собственную настройку промежуточного итога к числовым полям. Вызов `setSubtotals` с параметром `PivotFieldSubtotalType.AUTOMATIC` явно фиксирует это решение, вместо того чтобы оставить его неявным.
+- **Сценарий 2 — без промежуточных итогов.** Вызов `setSubtotals` с параметром `PivotFieldSubtotalType.NONE` отключает значение промежуточного итога по умолчанию, поэтому сводная таблица сохраняет строки полей и общий итог, но удаляет строки промежуточных итогов, которые Excel в противном случае вставил бы между ними.
+- **Сценарий 3 — выбранный набор.** Каждый вызов переключает ровно один тип промежуточного итога, и вызовы накапливаются, не сбрасывая друг друга. Вызов с параметром `PivotFieldSubtotalType.SUM`, а затем с `PivotFieldSubtotalType.AVERAGE` оставляет оба режима включёнными, и сводная таблица отображает промежуточный итог по сумме, промежуточный итог по среднему и общий итог.
+
+{{% alert color="primary" %}}
+Ничего в настройке промежуточных итогов не привязано к строковой области. Те же самые вызовы `setSubtotals`, выполненные для поля, полученного из `PivotTable.ColumnFields`, создают те же три макета на оси столбцов, поскольку настройка относится к самому полю сводной таблицы, а не к оси, на которой оно размещено.
+{{% /alert %}}
+## **Related Articles**
+- [Поля страницы в сводных таблицах](/cells/ru/python-java/add-page-field-in-pivot-table/)
+- [Обновление сводных таблиц в Aspose.Cells for Python via Java](/cells/ru/python-java/refresh-pivot-table/)
+- [Применение стилей к сводным таблицам](/cells/ru/python-java/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="python" >}}

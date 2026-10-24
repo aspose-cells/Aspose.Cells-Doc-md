@@ -37,6 +37,7 @@ Resmin bağlantısı dört sıfır tabanlı dizin özelliğiyle tanımlanır:
 
 {{% alert color="primary" %}}
 Aspose.Cells'deki satır ve sütun dizinleri **sıfır tabanlıdır**. C6 hücresinin satır dizini 5 ve sütun dizini 2'dir. Sağ alt bağlantı noktasındaki bir-ofset hataları, resimlerin bitişik bir hücreye taşmış gibi görünmesinin en yaygın kaynağıdır.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `Picture.placement`, kullanıcı alttaki satırı veya sütunu yeniden boyutlandırdığında resmin nasıl davranacağını kontrol eden `PlacementType` türünde bir enum'dur. Tek hücreli bir resim için önerilen değer `PlacementType.MOVE_AND_SIZE`'dir; bu, resmin alttaki hücreyle birlikte taşınmasını ve yeniden boyutlandırılmasını sağlayarak tam sığmayı korur.
@@ -54,6 +55,7 @@ Aşağıdaki kod tam yaklaşımı gösterir.
 
 ```python
 import aspose.cells as ac
+from aspose.cells.drawing import PlacementType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 with open("logo.png", "rb") as fs:
@@ -63,7 +65,7 @@ with open("logo.png", "rb") as fs:
     picture.upper_left_column = 2
     picture.lower_right_row = 6
     picture.lower_right_column = 3
-    picture.placement = ac.PlacementType.MOVE_AND_SIZE
+    picture.placement = PlacementType.MOVE_AND_SIZE
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
 
@@ -80,7 +82,7 @@ Bu, amacınız basitçe 'bu hücrenin içinde yaşayan bir görsel' olduğunda `
 1. Yeni bir `Workbook` oluşturun (veya mevcut birini açın).
 2. `workbook.worksheets[0]` üzerinden hedef `Worksheet`'e erişin.
 3. Görsel dosyasını diskten bir `bytes` nesnesine okuyun (örneğin, dosyayı ikili modda açıp `.read()` çağırarak).
-4. Hedef hücrenin referansını alın — `worksheet.cells["C6"]` veya `worksheet.cells[5, 2]` aracılığıyla.
+4. Hedef hücrenin referansını alın — `worksheet.cells.get("C6")` veya `worksheet.cells.get(5, 2)` aracılığıyla.
 5. Bayt nesnesini hücrenin `embedded_image` özelliğine atayın.
 6. İsteğe bağlı olarak, gömülü görsele daha belirgin bir görünüm kazandırmak için hedef satırın ve sütunun satır yüksekliğini ve sütun genişliğini ayarlayın.
 7. Çalışma kitabını diskte `.xlsx` dosyası olarak kaydedin.
@@ -91,15 +93,15 @@ import aspose.cells as ac
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Get the target cell C6
-cell = worksheet.cells["C6"]
+cell = worksheet.cells.get("C6")
 # Read the image file into a byte array
 with open("logo.png", "rb") as f:
     imageData = f.read()
 # Embed the image directly into the cell
 cell.embedded_image = imageData
 # Optionally adjust row height and column width so the embedded image is more visible
-worksheet.cells.set_column_width(2, 30)   # Column C (index 2)
-worksheet.cells.set_row_height(5, 100)     # Row 6 (index 5)
+worksheet.cells.set_column_width(2, 30.0)   # Column C (index 2)
+worksheet.cells.set_row_height(5, 100.0)     # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
@@ -114,7 +116,6 @@ Her iki yaklaşım da tek bir hücrenin içine sığan bir resim üretir, ancak 
 - **Şu durumlarda gömülü görsel kullanın (Yaklaşım 2):**
   - Bir hücreye mümkün olan en basit görsel eklemeyi istediğinizde.
   - Görsel, diğer hücre içerikleri gibi hücreyle birlikte taşınmalıdır.
-{{% /alert %}}
 
 ## Related Articles
 - [Aspose.Cells for Python via .NET'te Excel Camera](/cells/tr/python-net/excel-camera/)
@@ -123,4 +124,4 @@ Her iki yaklaşım da tek bir hücrenin içine sığan bir resim üretir, ancak 
 - [Pivot Tablosunda Sayfa Alanı Düzenini Değiştirme](/cells/tr/python-net/change-page-field-layout/)
 - [Aspose.Cells for Python via .NET'te Sparkline'ı Görsele ve HTML'e Dönüştürme](/cells/tr/python-net/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

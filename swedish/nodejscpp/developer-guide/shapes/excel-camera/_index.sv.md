@@ -18,19 +18,18 @@ Excel-kameran är i princip ett bildobjekt förankrat vid en specifik rad och ko
 ## Metod 1 — Lägg till en dynamisk kamerabild
 Den dynamiska kameran är den vanligaste metoden och ligger närmast Excels inbyggda kameraverktyg. Den fungerar genom att lägga till en bild utan initialt bildinnehåll och sedan tilldela den en `Formula` som refererar till källintervallet. När formeln har tilldelats uppdaterar ett anrop till `updateSelectedValue()` de inbäddade bilddata så att de är synkroniserade med cellerna de speglar. Kameran implementeras inte via en dedikerad klass — den byggs helt på standardtypen `Picture`.
 De viktigaste API:erna är:
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — lägger till en bild förankrad vid den givna raden och kolumnen. Att skicka `null` för parametern `stream` skapar en tom bild som fungerar som platshållare för en dynamisk kamera. Metoden returnerar indexet för den nya bilden.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — lägger till en bild förankrad vid den givna raden och kolumnen. Att skicka `null` för parametern `stream` skapar en tom bild som fungerar som platshållare för en dynamisk kamera. Metoden returnerar indexet för den nya bilden.
 - `pictures.get(index)` — hämtar en specifik `Picture` från samlingen via index.
 - `Picture.formula` — en strängegenskap (get/set) som håller A1-stilreferensen till källintervallet som kameran speglar, till exempel `"A1:F10"`.
 - `Picture.updateSelectedValue()` — en void-metod som uppdaterar de inbäddade bilddata från cellerna som refereras av `formula`.
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` MÅSTE anropas innan sparning när utdata är HTML eller PDF; annars kommer den exporterade filen inte att innehålla bilddata och kameran visas tom i den renderade utdata.
+Följande kod skapar en arbetsbok, lägger till en tom bild förankrad vid rad 10 kolumn 6, länkar den till källintervallet `A1:F10` via egenskapen `Formula`, uppdaterar de inbäddade bilddata och sparar arbetsboken.
 {{% /alert %}}
 
-Följande kod skapar en arbetsbok, lägger till en tom bild förankrad vid rad 10 kolumn 6, länkar den till källintervallet `A1:F10` via egenskapen `Formula`, uppdaterar de inbäddade bilddata och sparar arbetsboken.
-
 ```javascript
-const aspose = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
@@ -48,22 +47,18 @@ De viktigaste API:erna är:
 - `Cells.createRange(address)` — bygger ett `Range`-objekt från en A1-stiladress som till exempel `"A1:F10"`.
 - `Range.toImage(ImageOrPrintOptions options)` — renderar intervallet till bildbytes. Att skicka `null` använder standardrenderingsalternativen; överlagringar finns för finare kontroll över utdata.
 - `new Buffer(byte[] buffer)` — lindar in de renderade bildbyten i en `Buffer` som kan matas in i `getPictures().add`.
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — lägger till bilden förankrad vid den givna raden och kolumnen, denna gång med `Buffer` som skapats av renderingen.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — lägger till bilden förankrad vid den givna raden och kolumnen, denna gång med `Buffer` som skapats av renderingen.
 Följande kod skapar en arbetsbok, bygger en `Range` för `A1:F10`, renderar den till bildbytes via `range.toImage(null)`, lindar in byten i en `Buffer`, lägger till bilden förankrad vid rad 10 kolumn 6 och sparar arbetsboken.
 
 ```javascript
-const aspose = require("aspose.cells");
-const { MemoryStream } = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Statisk kamera: bygg intervall, rendera till bytes, paketera i MemoryStream, lägg till som bild
 let range = worksheet.getCells().createRange("A1:F10");
 let imageBytes = range.toImage(null);
-let stream = new MemoryStream();
-stream.write(imageBytes);
 let pictures = worksheet.getPictures();
-pictures.add(10, 6, stream);
+pictures.add(10, 6, imageBytes);
 workbook.save("output_static.xlsx", aspose.SaveFormat.Xlsx);
 ```
 

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells erbjuder två distinkta sätt att associera en bild med en enda cell. En flytande bild är en form på kalkylbladets ritlager som visuellt överläggs ett cellintervall, medan en inbäddad bild lagras inuti själva cellen och skalas automatiskt till cellens visningsområde. Välj det tillvägagångssätt som bäst matchar dina layoutkrav.
+{{% /alert %}}
 
 ## **Introduktion**
 Att passa in en bild exakt i en enda cell är ett vanligt krav vid design av kalkylblad som fungerar som visuella rapporter, produktkataloger, personalregister, instrumentpaneler eller inventarielistor. Istället för att sträcka ut en bild över många celler eller placera den löst på ett kalkylblad kanske du vill ha en ren, cellbunden bild som håller sig justerad med den cell som äger den.
@@ -36,6 +37,7 @@ Bildens förankring definieras av fyra nollbaserade indexegenskaper:
 
 {{% alert color="primary" %}}
 Rad- och kolumnindex i Aspose.Cells är **nollbaserade**. Cell C6 har radindex 5 och kolumnindex 2. Off-by-one-fel på den nedre högra förankringen är den vanligaste källan till bilder som ser ut att överlappa in i en intilliggande cell.
+{{% /alert %}}
 
 ### **Styra placeringens beteende**
 `Picture.getPlacement()` returnerar en enum av typen `PlacementType` som styr hur bilden beter sig när användaren ändrar storlek på raden eller kolumnen under den. Det rekommenderade värdet för en encellsbild är `PlacementType.MOVE_AND_SIZE`, vilket gör att bilden flyttas och ändras i storlek tillsammans med sin underliggande cell, vilket bevarar den exakta passformen.
@@ -118,9 +120,6 @@ Båda tillvägagångssätten producerar en bild som passar inuti en enda cell, m
   - Du vill ha det enklaste möjliga infogandet av en bild i en cell.
   - Bilden ska följa med cellen som allt annat cellinnehåll.
   - Du inte behöver manipulera bilden som en form.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Relaterade artiklar
 - [Excel-kamera i Aspose.Cells for Java](/cells/sv/java/excel-camera/)

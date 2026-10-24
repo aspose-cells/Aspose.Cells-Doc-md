@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta la divisione di un singolo file Excel in più file. Esistono due modi principali per farlo: (1) copiando ogni foglio di lavoro della cartella di lavoro sorgente in una nuova cartella di lavoro e salvando ciascuno come file separato, e (2) copiando uno specifico intervallo di celle da un foglio di lavoro in una nuova cartella di lavoro. Entrambi gli approcci sono utili quando è necessario distribuire sottoinsiemi di dati, creare report più piccoli per diversi destinatari, o isolare i dati per l'elaborazione individuale.
+{{% /alert %}}
 
 ## **Introduzione**
 Esistono molti scenari reali in cui uno sviluppatore ha bisogno di suddividere un singolo file Excel in diversi file più piccoli. Ad esempio, una cartella di lavoro può contenere un foglio di lavoro per dipartimento, e ogni responsabile di dipartimento ha bisogno di ricevere solo il proprio foglio. In altri casi, potresti voler estrarre una particolare tabella o blocco di dati da un foglio di lavoro e inviarlo come file autonomo via email, senza esporre il resto della cartella di lavoro. Anche cartelle di lavoro consolidate di grandi dimensioni potrebbero dover essere divise in pezzi più piccoli per una gestione più semplice, un caricamento più rapido, o per l'elaborazione a valle da parte di altri sistemi.
@@ -40,7 +41,6 @@ I seguenti passaggi descrivono come dividere un file Excel copiando ogni foglio 
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat
 dataDir = "data/"
 workbook = Workbook(dataDir + "book1.xls")
@@ -56,7 +56,7 @@ for i in range(workbook.getWorksheets().getCount()):
     destSheet.copy(sourceSheet)
     
     destFile = dataDir + sheetName + ".xls"
-    destWorkbook.save(destFile, SaveFormat.Excel97To2003)
+    destWorkbook.save(destFile, SaveFormat.EXCEL_97_TO_2003)
 jpype.shutdownJVM()
 ```
 
@@ -80,6 +80,5 @@ I seguenti passaggi descrivono come dividere un file Excel copiando uno specific
 
 ### **Esempio di codice**
 Il risultato atteso è un singolo nuovo file nella directory dei dati che contiene solo i valori (e facoltativamente la formattazione) dell'intervallo specificato estratto dalla cartella di lavoro sorgente. Il file di destinazione non ha alcuna relazione con altri dati nel file sorgente; contiene solo l'intervallo estratto, a partire dalla cella `A1` del suo primo foglio di lavoro.
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

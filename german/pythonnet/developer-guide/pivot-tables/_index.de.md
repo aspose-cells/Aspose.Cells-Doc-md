@@ -36,4 +36,11 @@ Beim Zuweisen eines Zellenbereichs als Datenquelle muss der Bereich von oben lin
 
 ## **Erweiterte Themen**
 
+## Verwandte Artikel
+- [Filterfelder zu einer Pivot-Tabelle in Aspose.Cells for Python via .NET hinzufügen](/cells/de/python-net/add-page-field-in-pivot-table/)
+- [Stile auf Pivot-Tabellen in Aspose.Cells for Python via .NET anwenden](/cells/de/python-net/apply-style-to-pivot-table/)
+- [Modify Page Field Layout in Pivot Table](/cells/de/python-net/change-page-field-layout/)
+- [Filtering Pivot Tables by Label or Value](/cells/de/python-net/filter-by-label-or-value-of-pivot-table/)
+- [Verwalten von Wertfeldern in PivotTables in Aspose.Cells for Python via .NET](/cells/de/python-net/manage-value-fields/)
+
 {{< app/cells/assistant language="python-net" >}}

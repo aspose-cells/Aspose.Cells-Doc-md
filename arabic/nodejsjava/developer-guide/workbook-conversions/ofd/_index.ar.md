@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 يدعم Aspose.Cells تحويل مصنفات Excel مباشرةً إلى تنسيق OFD (Open Fixed-layout Document) باستخدام قيمة التعداد `SaveFormat.Ofd`. يحافظ مستند OFD الناتج على التخطيط المرئي للمصنف، ومحتواه، والخلايا المدموجة، وعرض الأعمدة، وارتفاع الصفوف، والخطوط، والألوان، والحدود، وتنسيقات الأرقام. هذا يجعل Aspose.Cells مناسبًا لأعمال الأرشفة، والطباعة، والتقديمات التنظيمية، وعمليات الإيداع الحكومية التي تتطلب مخرجات ذات تخطيط ثابت.
+{{% /alert %}}
 
 ## **المقدمة**
 OFD (Open Fixed-layout Document) هو معيار صيني وطني (GB/T 33190-2016) لتمثيل المستندات الرقمية بتخطيط ثابت قائم على الصفحات. يؤدي دورًا مشابهًا لـ PDF في حالات الاستخدام التي يجب فيها الحفاظ على المظهر المرئي للمستند المصدر تمامًا كما تم تأليفه. يُعتمد OFD على نطاق واسع للإيداعات الحكومية، والتقديمات التنظيمية، والفواتير الإلكترونية، والأرشفة طويلة الأمد في جمهورية الصين الشعبية.
@@ -19,6 +20,7 @@ OFD (Open Fixed-layout Document) هو معيار صيني وطني (GB/T 33190-2
 
 {{% alert color="primary" %}}
 يحافظ مخرج OFD الذي ينتجه Aspose.Cells على التخطيط المرئي لمصنف المصدر، بما في ذلك محتوى الخلايا، والخلايا المدموجة، وعرض الأعمدة، وارتفاع الصفوف. كما يتم عرض تنسيق الخلايا مثل الخطوط والألوان والحدود والمحاذاة وتنسيقات الأرقام في المخرج ذي التخطيط الثابت. تؤثر خيارات إعداد الصفحة المكونة على ورقة العمل، مثل حجم الورق والاتجاه ومنطقة الطباعة، على تخطيط مستند OFD الناتج.
+{{% /alert %}}
 
 ## **إنشاء مصنف Excel وحفظه بتنسيق OFD**
 يتيح لك Aspose.Cells إنشاء مصنف برمجيًا، وتعبئته بالبيانات، ثم حفظه مباشرةً بتنسيق OFD باستخدام تعداد `SaveFormat.Ofd`. يُنشئ المثال التالي فاتورة من الصفر. يضيف شعار الشركة، ومعلومات الرأس، وقسم الفاتورة إلى، وبنود الفاتورة، والإجماليات المحسوبة، ثم يصدر المصنف إلى مستند OFD.
@@ -27,6 +29,7 @@ OFD (Open Fixed-layout Document) هو معيار صيني وطني (GB/T 33190-2
 يبني المثال ورقة عمل الفاتورة عن طريق إدراج صورة شعار في المنطقة العلوية اليسرى، وتعبئة اسم الشركة وتفاصيل الاتصال، وإضافة عنوان "INVOICE" عبر الخلايا المدموجة، وتسجيل رقم الفاتورة وتاريخها، وسرد عميل الفاتورة إلى، وبناء جدول بنود الفاتورة بأعمدة الوصف والكمية وسعر الوحدة والإجمالي، وحساب المجموع الفرعي والضريبة والإجمالي الكلي باستخدام صيغ الخلايا. يتم تطبيق التنسيق مثل العناوين العريضة وتنسيق العملة للأسعار والحدود وعرض الأعمدة باستخدام كائنات `Style` و `Font`. أخيرًا، يتم حفظ المصنف بامتداد `.ofd` باستخدام `SaveFormat.Ofd`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let dataDir = "C:\\Temp\\";
 // إنشاء مصنف جديد
 let workbook = new AsposeCells.Workbook();
@@ -51,7 +54,7 @@ worksheet.getCells().merge(7, 1, 2, 4);
 let titleCell = worksheet.getCells().get("B8");
 titleCell.putValue("INVOICE");
 let titleStyle = workbook.createStyle();
-titleStyle.getFont().setIsBold(true);
+titleStyle.getFont().setBold(true);
 titleStyle.getFont().setSize(20);
 titleStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.CENTER);
 titleCell.setStyle(titleStyle);
@@ -75,14 +78,14 @@ headerQty.putValue("Quantity");
 headerPrice.putValue("Unit Price");
 headerTotal.putValue("Total");
 let headerStyle = workbook.createStyle();
-headerStyle.getFont().setIsBold(true);
+headerStyle.getFont().setBold(true);
 headerStyle.getFont().setColor(AsposeCells.Color.getWhite());
 headerStyle.setBackgroundColor(AsposeCells.Color.getNavy());
 headerStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.CENTER);
-headerStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 headerDesc.setStyle(headerStyle);
 headerQty.setStyle(headerStyle);
 headerPrice.setStyle(headerStyle);
@@ -90,16 +93,16 @@ headerTotal.setStyle(headerStyle);
 // نمط العملة مع الحدود
 let currencyStyle = workbook.createStyle();
 currencyStyle.setCustom("\"$\"#,##0.00");
-currencyStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 // نمط حدود عادي لخلايا الوصف/الكمية
 let borderStyle = workbook.createStyle();
-borderStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 // صفوف عناصر الفاتورة
 let lineItems = [
     ["Product A - Widget", 2, 50.00],
@@ -134,19 +137,19 @@ let grandTotalCell = worksheet.getCells().get("E26");
 grandTotalCell.setFormula("E24+E25");
 // نمط غامق + عملة لقيم الإجمالي
 let totalStyle = workbook.createStyle();
-totalStyle.getFont().setIsBold(true);
+totalStyle.getFont().setBold(true);
 totalStyle.setCustom("\"$\"#,##0.00");
 subtotalCell.setStyle(totalStyle);
 taxCell.setStyle(totalStyle);
 grandTotalCell.setStyle(totalStyle);
 // نمط غامق لتسميات الإجمالي
 let boldStyle = workbook.createStyle();
-boldStyle.getFont().setIsBold(true);
+boldStyle.getFont().setBold(true);
 worksheet.getCells().get("B24").setStyle(boldStyle);
 worksheet.getCells().get("B25").setStyle(boldStyle);
 worksheet.getCells().get("B26").setStyle(boldStyle);
 // حفظ المصنف كملف OFD
-workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.Ofd);
+workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.OFD);
 ```
 
 ## **تحويل ملف Excel موجود إلى OFD**
@@ -190,7 +193,7 @@ const printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 console.log("\nPrint area set to: " + printArea);
 // (6) حفظ المصنف كملف OFD
-workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.Ofd);
+workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.OFD);
 console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 function formatDate(date) {
     const pad = (n) => n.toString().padStart(2, '0');
@@ -203,8 +206,5 @@ function formatDate(date) {
 - [إدراج صورة في خلية](/cells/ar/nodejs-java/inserting-an-image-into-a-cell/)
 - [قراءة وكتابة ملفات DBF](/cells/ar/nodejs-java/dbf/)
 - [تحويل Sparkline إلى صورة وHTML في Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

@@ -2,7 +2,7 @@
 title: Excel'i OFD Formatına Dönüştürme
 linktitle: Excel'i OFD Formatına Dönüştürme
 description: Aspose.Cells for Python via Java, elektronik tablo dosyalarıyla çalışmak için Excel çalışma kitaplarını OFD (Open Fixed-layout Document) formatına dönüştürmeyi destekleyen bir kütüphanedir. Bu makale, Aspose.Cells for Python via Java kullanarak Excel içeriği oluşturmayı ve OFD olarak dışa aktarmayı, ayrıca mevcut Excel dosyalarını OFD'ye dönüştürmeyi gösterir.
-keywords: Aspose.Cells, Python via Java kütüphanesi, elektronik tablo, Excel'den OFD'ye, OFD dönüşümü, SaveFormat.Ofd, sabit düzenli belge, çalışma kitabı dışa aktarma
+keywords: Aspose.Cells, Python via Java kütüphanesi, elektronik tablo, Excel'den OFD'ye, OFD dönüşümü, SaveFormat.OFD, sabit düzenli belge, çalışma kitabı dışa aktarma
 type: docs
 weight: 195
 url: /tr/python-java/converting-excel-to-ofd-format/
@@ -11,27 +11,27 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells for Python via Java, `SaveFormat.Ofd` numaralandırma değerini kullanarak Excel çalışma kitaplarını doğrudan OFD (Open Fixed-layout Document) formatına dönüştürmeyi destekler. Elde edilen OFD belgesi, çalışma kitabının görünür düzenini, içeriğini, birleştirilmiş hücrelerini, sütun genişliklerini, satır yüksekliklerini, yazı tiplerini, renklerini, kenarlıklarını ve sayı formatlarını korur. Bu, Aspose.Cells for Python via Java'yı arşivleme, yazdırma, düzenleyici dosyalama ve sabit düzenli çıktı gerektiren hükümet başvuru iş akışları için uygun hale getirir.
+Aspose.Cells for Python via Java, `SaveFormat.OFD` numaralandırma değerini kullanarak Excel çalışma kitaplarını doğrudan OFD (Open Fixed-layout Document) formatına dönüştürmeyi destekler. Elde edilen OFD belgesi, çalışma kitabının görünür düzenini, içeriğini, birleştirilmiş hücrelerini, sütun genişliklerini, satır yüksekliklerini, yazı tiplerini, renklerini, kenarlıklarını ve sayı formatlarını korur. Bu, Aspose.Cells for Python via Java'yı arşivleme, yazdırma, düzenleyici dosyalama ve sabit düzenli çıktı gerektiren hükümet başvuru iş akışları için uygun hale getirir.
 {{% /alert %}}
 
 ## **Introduction**
 OFD (Open Fixed-layout Document), sayfa tabanlı sabit bir düzende dijital belgeleri temsil etmek için Çin ulusal standardıdır (GB/T 33190-2016). Kaynak belgenin görsel görünümünün tam olarak yazıldığı gibi korunması gereken kullanım durumlarında PDF'ye benzer bir rol oynar. OFD, Çin Halk Cumhuriyeti'nde hükümet başvuruları, düzenleyici dosyalamalar, elektronik faturalar ve uzun süreli arşivleme için yaygın olarak benimsenmiştir.
-Excel çalışma kitaplarını OFD'ye dönüştürmek, elektronik tablo içeriğinin düzenlenebilir bir elektronik tablo olarak değil, salt okunur, düzeni kilitli bir yapı olarak dağıtılması gereken senaryolarda yaygın bir gereksinimdir. Örnekler arasında, sonlandırılmış bir faturanın müşteriye gönderilmesi, üç aylık bir finansal raporun arşivlenmesi veya bir bütçe elektronik tablosunun düzenleyici bir makama sunulması yer alır. Aspose.Cells for Python via Java, ara bir dönüşüm adımı gerektirmeden çalışma kitabını doğrudan OFD'ye yazan `SaveFormat.Ofd` numaralandırma değeri aracılığıyla bu gereksinimi karşılar. OFD çıktısı, hücre değerlerini, birleştirilmiş aralıkları, yazı tiplerini, renkleri, kenarlıkları, sayı formatlarını ve çalışma kitabında yapılandırılan sayfa düzeni seçeneklerini korur.
+Excel çalışma kitaplarını OFD'ye dönüştürmek, elektronik tablo içeriğinin düzenlenebilir bir elektronik tablo olarak değil, salt okunur, düzeni kilitli bir yapı olarak dağıtılması gereken senaryolarda yaygın bir gereksinimdir. Örnekler arasında, sonlandırılmış bir faturanın müşteriye gönderilmesi, üç aylık bir finansal raporun arşivlenmesi veya bir bütçe elektronik tablosunun düzenleyici bir makama sunulması yer alır. Aspose.Cells for Python via Java, ara bir dönüşüm adımı gerektirmeden çalışma kitabını doğrudan OFD'ye yazan `SaveFormat.OFD` numaralandırma değeri aracılığıyla bu gereksinimi karşılar. OFD çıktısı, hücre değerlerini, birleştirilmiş aralıkları, yazı tiplerini, renkleri, kenarlıkları, sayı formatlarını ve çalışma kitabında yapılandırılan sayfa düzeni seçeneklerini korur.
 
 {{% alert color="primary" %}}
 Aspose.Cells for Python via Java tarafından oluşturulan OFD çıktısı, hücre içeriği, birleştirilmiş hücreler, sütun genişlikleri ve satır yükseklikleri dahil olmak üzere kaynak çalışma kitabının görünür düzenini korur. Yazı tipleri, renkler, kenarlıklar, hizalama ve sayı formatları gibi hücre biçimlendirmeleri de sabit düzenli çıktıda işlenir. Çalışma sayfasında yapılandırılan kağıt boyutu, yönlendirme ve yazdırma alanı gibi sayfa düzeni seçenekleri, ortaya çıkan OFD belgesinin düzenini etkiler.
+{{% /alert %}}
 
 ## **Creating an Excel Workbook and Saving as OFD**
-Aspose.Cells for Python via Java, bir çalışma kitabını programlı olarak oluşturmanıza, verilerle doldurmanıza ve ardından `SaveFormat.Ofd` numaralandırmasını kullanarak doğrudan OFD formatında kaydetmenize olanak tanır. Aşağıdaki örnek sıfırdan bir fatura oluşturur. Bir şirket logosu, üstbilgi bilgileri, fatura-alıcı bölümü, satır öğeleri ve hesaplanan toplamlar ekler, ardından çalışma kitabını bir OFD belgesine aktarır.
+Aspose.Cells for Python via Java, bir çalışma kitabını programlı olarak oluşturmanıza, verilerle doldurmanıza ve ardından `SaveFormat.OFD` numaralandırmasını kullanarak doğrudan OFD formatında kaydetmenize olanak tanır. Aşağıdaki örnek sıfırdan bir fatura oluşturur. Bir şirket logosu, üstbilgi bilgileri, fatura-alıcı bölümü, satır öğeleri ve hesaplanan toplamlar ekler, ardından çalışma kitabını bir OFD belgesine aktarır.
 
 ### **Building an Invoice with a Logo**
-Örnek, sol üst alana bir logo görüntüsü ekleyerek, şirket adını ve iletişim bilgilerini doldurarak, birleştirilmiş hücreler arasına "FATURA" başlığı ekleyerek, fatura numarasını ve tarihini kaydederek, fatura-alıcı müşterisini listeleyerek, açıklama, miktar, birim fiyat ve toplam sütunlarıyla bir satır öğeleri tablosu oluşturarak ve hücre formülleri kullanarak alt toplam, vergi ve genel toplamı hesaplayarak bir fatura çalışma sayfası oluşturur. Kalın başlıklar, fiyatlar için para birimi formatı, kenarlıklar ve sütun genişlikleri gibi biçimlendirmeler `Style` ve `Font` nesneleri kullanılarak uygulanır. Son olarak, çalışma kitabı `SaveFormat.Ofd` kullanılarak `.ofd` uzantısıyla kaydedilir.
+Örnek, sol üst alana bir logo görüntüsü ekleyerek, şirket adını ve iletişim bilgilerini doldurarak, birleştirilmiş hücreler arasına "FATURA" başlığı ekleyerek, fatura numarasını ve tarihini kaydederek, fatura-alıcı müşterisini listeleyerek, açıklama, miktar, birim fiyat ve toplam sütunlarıyla bir satır öğeleri tablosu oluşturarak ve hücre formülleri kullanarak alt toplam, vergi ve genel toplamı hesaplayarak bir fatura çalışma sayfası oluşturur. Kalın başlıklar, fiyatlar için para birimi formatı, kenarlıklar ve sütun genişlikleri gibi biçimlendirmeler `Style` ve `Font` nesneleri kullanılarak uygulanır. Son olarak, çalışma kitabı `SaveFormat.OFD` kullanılarak `.ofd` uzantısıyla kaydedilir.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, Style, Cell, TextAlignmentType, BorderType, CellBorderType, Color
 dataDir = "/tmp/"
 # Create a new Workbook
@@ -85,10 +85,10 @@ headerStyle.getFont().setBold(True)
 headerStyle.getFont().setColor(Color.getWhite())
 headerStyle.setBackgroundColor(Color.getNavy())
 headerStyle.setHorizontalAlignment(TextAlignmentType.CENTER)
-headerStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 headerDesc.setStyle(headerStyle)
 headerQty.setStyle(headerStyle)
 headerPrice.setStyle(headerStyle)
@@ -96,16 +96,16 @@ headerTotal.setStyle(headerStyle)
 # Currency style with borders
 currencyStyle = workbook.createStyle()
 currencyStyle.setCustom("\"$\"#,##0.00")
-currencyStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # Plain border style for description/quantity cells
 borderStyle = workbook.createStyle()
-borderStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # Line items rows
 lineItems = [
     ["Product A - Widget", 2, 50.00],
@@ -150,7 +150,7 @@ worksheet.getCells().get("B24").setStyle(boldStyle)
 worksheet.getCells().get("B25").setStyle(boldStyle)
 worksheet.getCells().get("B26").setStyle(boldStyle)
 # Save the workbook as an OFD file
-workbook.save(dataDir + "Invoice.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "Invoice.ofd", SaveFormat.OFD)
 jpype.shutdownJVM()
 ```
 
@@ -195,7 +195,7 @@ printArea = "A1:" + lastColLetter + str(lastRow + 1)
 firstSheet.getPageSetup().setPrintArea(printArea)
 print("\nPrint area set to: " + printArea)
 # (6) Save the workbook as an OFD file
-workbook.save(dataDir + "SampleBook.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "SampleBook.ofd", SaveFormat.OFD)
 print("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd")
 jpype.shutdownJVM()
 ```
@@ -204,6 +204,5 @@ jpype.shutdownJVM()
 - [Excel Dosyalarını Birden Çok Dosyaya Bölme](/cells/tr/python-java/splitting-excel-files-into-multiple-files/)
 - [Bir Hücreye Resim Ekleme](/cells/tr/python-java/inserting-an-image-into-a-cell/)
 - [DBF Dosyalarını Okuma ve Yazma](/cells/tr/python-java/dbf/)
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

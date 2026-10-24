@@ -41,10 +41,10 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -54,9 +54,8 @@ workbook.save("output_drag.xlsx");
 
 {{% alert color="primary" %}}
 تغيير `Function` يؤثر فقط على التجميع، ولا يتغير عمود المصدر.
-{{% /alert %}}
-
 لذلك يمكنك ترك حقل بيانات واحد كـ `SUM` بينما تضيف حقل بيانات ثانٍ يستهدف عمود المصدر نفسه ولكنه يستخدم `COUNT` أو `AVERAGE`، كل ذلك في جدول محوري واحد.
+{{% /alert %}}
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -84,12 +83,12 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.COUNT);
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -99,9 +98,8 @@ workbook.save("output_function.xlsx");
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` لا يعمل إذا لم يكن هناك حقل قيمة أو كان هناك حقل قيمة واحد فقط.
-{{% /alert %}}
-
 تمضي السيناريوهات أدناه في ثلاثة أمثلة شاملة تُظهر كل قدرة موصوفة أعلاه على نفس بنية الجدول المحوري.
+{{% /alert %}}
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -129,15 +127,15 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField());
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.COUNT);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, pivotTable.getValuesField());
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

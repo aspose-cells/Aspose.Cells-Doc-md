@@ -112,6 +112,7 @@ Yukarıdaki kod, İş Akışı 1'den sparkline açısından zengin çalışma ki
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` sınıfı, çıktıyı ince ayar yapmak için `ExportHiddenWorksheet`, `ExportImagesAsBase64` ve `Encoding` gibi ek özellikler sunar. Bunları dağıtım hedefinize göre gerektiği gibi ayarlayın.
+{{% /alert %}}
 
 ## **API Summary**
 Yukarıdaki iş akışları, birlikte çalışan küçük bir Aspose.Cells API kümesine dayanmaktadır.
@@ -123,6 +124,5 @@ Yukarıdaki iş akışları, birlikte çalışan küçük bir Aspose.Cells API k
 
 ## **Related Articles**
 - [Bir Hücreye Görüntü Ekleme](/cells/tr/cpp/inserting-an-image-into-a-cell/)
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

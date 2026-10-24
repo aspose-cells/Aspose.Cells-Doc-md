@@ -30,7 +30,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 يُنشئ المثال التالي مصنفًا، ويكتب القيم 5 و-3 و8 و-2 و6 في الخلايا من A1 إلى E1، ويضيف خط مؤشر خطي في الخلية F1 يتتبع تلك القيم. كما يُخصص لون الخط إلى الأحمر ويُفعّل العلامات لنقطتي القمة والقاع.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // الخطوة 1: إنشاء مصنف والحصول على ورقة العمل الأولى
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -43,10 +43,10 @@ cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
 // الخطوة 3: بناء CellArea يشير إلى خلية الوجهة F1
 const dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // العمود F (مفهرس من 0)
-dest.setEndColumn(5);
-dest.setStartRow(0);      // الصف 1 (مفهرس من 0)
-dest.setEndRow(0);
+dest.StartColumn = 5;   // العمود F (مفهرس من 0)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // الصف 1 (مفهرس من 0)
+dest.EndRow = 0;
 // الخطوة 4: إضافة خط مؤشر مصغر من A1:E1 إلى F1
 // تُرجع SparklineGroups.Add فهرس المجموعة المُضافة حديثًا
 const index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, dest);
@@ -73,6 +73,7 @@ workbook.save("output_line.xlsx");
 يكتب المثال أدناه القيم 5 و-3 و8 و-2 و6 في A1:E1 ويرسم خط مؤشر عمودي في F1. تُرسم القيم السالبة كأعمدة تتجه للأسفل والقيم الموجبة كأعمدة تتجه للأعلى، مما يجعل المساهمات الموجبة والسالبة سهلة الملاحظة بنظرة واحدة.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // الخطوة 2: كتابة قيم عينة في A1:E1
@@ -82,10 +83,10 @@ for (let i = 0; i < values.length; i++) {
 }
 // الخطوة 3: إنشاء CellArea يشير إلى F1 (فهرس العمود 5، فهرس الصف 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // الخطوة 4: إضافة سباركلاين عمود إلى خلية الوجهة
 let idx = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Column, "A1:E1", false, dest);
@@ -108,6 +109,7 @@ console.log("Workbook saved as output_column.xlsx");
 6. احفظ المصنف باسم ملف مميز بحيث يمكن للأمثلة الثلاثة جميعها التعايش على القرص.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -119,10 +121,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // الخطوة 3: إنشاء CellArea تشير إلى F1 (العمود 5، الصف 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F
-dest.setEndColumn(5);
-dest.setStartRow(0);      // الصف 1
-dest.setEndRow(0);
+dest.StartColumn = 5;   // F
+dest.EndColumn = 5;
+dest.StartRow = 0;      // الصف 1
+dest.EndRow = 0;
 // الخطوة 4: إضافة سباركلاين Win/Loss (SparklineType.Stacked)
 let groupIndex = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Stacked,
@@ -160,6 +162,7 @@ console.log("Workbook saved successfully: output_winloss.xlsx");
 يُنشئ المثال المدمج أدناه مصنفًا واحدًا، ويملأ الصف 1 بالقيم 5 و-3 و8 و-2 و6، ثم يُضيف ثلاث مجموعات من خطوط المؤشر في الخلايا F1 وF2 وF3 — واحدة من كل نوع — بحيث يُظهر الملف الناتج أنماط خطوط المؤشر الثلاثة جميعها دفعة واحدة.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // الخطوة 2: تعبئة بيانات العينة في الصف 1 (A1:E1)
@@ -170,10 +173,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // الخطوة 3: إضافة مجموعة خط مؤشر أداء رئيسي عند F1
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
 // تخصيص لون خط المؤشر الرئيسي عبر CellsColor
@@ -182,10 +185,10 @@ lineColor.setColor(AsposeCells.Color.Blue);
 lineGroup.setSeriesColor(lineColor);
 // الخطوة 4: إضافة مجموعة عمود مؤشر أداء رئيسي عند F2
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(5);
-columnArea.setEndColumn(5);
-columnArea.setStartRow(1);
-columnArea.setEndRow(1);
+columnArea.StartColumn = 5;
+columnArea.EndColumn = 5;
+columnArea.StartRow = 1;
+columnArea.EndRow = 1;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
 // تخصيص لون سلسلة المؤشر العمودي
@@ -194,10 +197,10 @@ columnColor.setColor(AsposeCells.Color.Green);
 columnGroup.setSeriesColor(columnColor);
 // الخطوة 5: إضافة مجموعة فوز/خسارة (مكدسة) لمؤشر أداء رئيسي عند F3
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(5);
-stackedArea.setEndColumn(5);
-stackedArea.setStartRow(2);
-stackedArea.setEndRow(2);
+stackedArea.StartColumn = 5;
+stackedArea.EndColumn = 5;
+stackedArea.StartRow = 2;
+stackedArea.EndRow = 2;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
 // تخصيص لون سلسلة مؤشر الفوز/الخسارة
@@ -217,4 +220,4 @@ workbook.save("output_all.xlsx");
 - **علامات النقطتين الأولى والأخيرة والسالبة** — علامات تُبدّل علامات على نقاط البيانات الأولى والأخيرة والسالبة.
 لتغيير لون، أنشئ دائمًا نسخة من `CellsColor` وعيّنها إلى الخاصية ذات الصلة. لا تُعيّن `System.Drawing.Color` مباشرةً إلى خصائص لون خط المؤشر — فهي تتوقع نوع `CellsColor` من `Aspose.Cells.Drawing`. طريقة `sparklineGroups.add` نفسها تُرجع كائن `SparklineGroup` مُنوعًا بالكامل، لذا يمكنك تسلسل تعيينات الخصائص على القيمة المُعادة أو تخزينها في متغير محلي وتخصيصها قبل الحفظ.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -30,6 +30,7 @@ Aspose.Cells предоставляет фильтрацию по меткам �
 В следующем примере загружается рабочая книга, содержащая существующую сводную таблицу, применяется фильтр по метке, чтобы остались видны только элементы, заголовки которых начинаются с указанного префикса, сводная таблица обновляется, и результат сохраняется.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
 // Загрузка существующей книги, содержащей сводную таблицу
@@ -41,7 +42,7 @@ let pivotTable = worksheet.getPivotTables().get(0);
 // Получение первого строкового PivotField
 let rowField = pivotTable.getRowFields().get(0);
 // Применение фильтра по меткам — отображение только строковых элементов, метки которых начинаются с указанного префикса
-rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
+rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
 // Обновление и пересчёт данных сводной таблицы, чтобы фильтр вступил в силу
 pivotTable.getPivotCache().refresh();
 // Сохранение книги обратно на диск
@@ -53,12 +54,13 @@ workbook.save(fileName);
 
 {{% alert color="primary" %}}
 Фильтр по дате работает только в том случае, если область строки или столбца содержит только ячейки с датой и временем либо пустые значения. Если базовое поле содержит другие типы данных, такие как числа или текст, фильтр по дате не даст ожидаемого результата. Перед применением этого фильтра убедитесь, что поле отформатировано как дата и что все значения являются допустимыми экземплярами `DateTime` или пустыми ячейками.
-{{% /alert %}}
-
 Aspose.Cells предоставляет фильтрацию по датам через метод `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. Перечисление `PivotFilterType` содержит специализированные значения дат, такие как `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` и `Between`. В зависимости от выбранного типа фильтра передаётся одно или два значения `DateTime` (для `Between` передаются начальная и конечная даты).
 В следующем примере загружается рабочая книга со сводной таблицей, в области строк которой находится поле даты, применяется фильтр по дате, ограничивающий видимые элементы определённым диапазоном дат, сводная таблица обновляется, и рабочая книга сохраняется.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
 let inputPath = "sample.xlsx";
 let outputPath = "output_filtered.xlsx";
 if (!fs.existsSync(inputPath))
@@ -78,7 +80,7 @@ let dateField = pivotTable.getRowFields().get(0);
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
 // Применяем фильтр по дате к полю сводной таблицы
-dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
+dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
 // Обновляем и пересчитываем сводную таблицу, чтобы фильтр вступил в силу
 pivotTable.getPivotCache().refresh();
 // Сохраняем книгу
@@ -91,6 +93,7 @@ Aspose.Cells предоставляет фильтрацию по значени
 В следующем примере загружается рабочая книга со сводной таблицей, применяется фильтр по значениям, оставляющий только те элементы, агрегированные продажи которых превышают числовой порог, сводная таблица обновляется, и рабочая книга сохраняется.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook("sample.xlsx");
 var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
@@ -108,7 +111,7 @@ for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 }
 if (dataFieldIndex >= 0)
 {
-    rowField.filterByValue(dataFieldIndex, AsposeCells.Pivot.PivotFilterType.ValueGreaterThan, 5000, Number.MAX_VALUE);
+    rowField.filterByValue(dataFieldIndex, AsposeCells.PivotFilterType.VALUE_GREATER_THAN, 5000, Number.MAX_VALUE);
 }
 pivotTable.getPivotCache().refresh();
 workbook.save("output.xlsx");
@@ -119,12 +122,12 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 Топ-10 фильтр эффективен только тогда, когда сводная таблица имеет одно или несколько полей значений в области данных. Без хотя бы одного поля значения нет агрегированной меры для ранжирования элементов, и фильтр не может быть применён.
-{{% /alert %}}
-
 Aspose.Cells предоставляет топ-10 фильтрацию через метод `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Параметр `itemCount` определяет, сколько элементов сохранить, `isTop` указывает, следует ли сохранить верхние элементы (true) или нижние элементы (false), `valueField` ссылается на поле данных, используемое для ранжирования, а `filterType` управляет вычислением значения (обычно `Sum`, а также `Count` и `Percent`).
 В следующем примере загружается рабочая книга со сводной таблицей, содержащей поле значения, применяется топ-10 фильтр, чтобы оставить только 10 наибольших элементов по сумме продаж, сводная таблица обновляется, и рабочая книга сохраняется.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
@@ -144,10 +147,10 @@ let rowField = pivotTable.getRowFields().get(0);
 let valueFieldIndex = 0;
 // Применяем фильтр Топ-10 к полю строки:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (верхние N; false означало бы нижние N)
 //   - valueFieldIndex = индекс поля данных, используемого для ранжирования элементов
-rowField.filterTop10(10, AsposeCells.PivotFilterType.Sum, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.SUM, true, 10);
 // Обновляем данные сводной таблицы и пересчитываем её, чтобы фильтр вступил в силу
 pivotTable.getPivotCache().refresh();
 // Сохраняем книгу
@@ -159,6 +162,7 @@ workbook.save(outputPath);
 Этот подход полезен, когда правило фильтрации является нерегулярным или специфичным для элемента, например, при сокрытии небольшого числа именованных категорий, которые не должны появляться в конкретном отчёте. Пример ниже загружает сводную таблицу, скрывает определённый элемент по имени, демонстрирует, как его отобразить, обновляет сводную таблицу и сохраняет рабочую книгу.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
 // Получаем доступ к первому листу, содержащему сводную таблицу
 let sheet = workbook.getWorksheets().get(0);
@@ -172,15 +176,15 @@ for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
     // Скрываем элементы сводной таблицы, соответствующие определённому имени/критерию
     if (item.getName() == "Item1" || item.getName() == "Item2") {
-        item.setIsHidden(true);
+        item.setHidden(true);
     }
     // Демонстрируем отображение: снова показываем ранее скрытый элемент сводной таблицы
     if (item.getName() == "Item3") {
-        item.setIsHidden(false);
+        item.setHidden(false);
     }
 }
 // Обновляем и пересчитываем сводную таблицу, чтобы изменения вступили в силу
-pivotTable.getPivotCache().refreshData();
+pivotTable.getPivotCache().refresh();
 // Сохраняем книгу — скрытые элементы остаются в исходных данных,
 // но исключаются из отображаемого результата сводной таблицы
 workbook.save("output_pivot_filtered.xlsx");

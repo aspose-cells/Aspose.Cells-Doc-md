@@ -26,6 +26,7 @@ Det finns två sätt att registrera ett pivotfält i filterområdet. Det högniv
 Följande exempel bygger ett litet Fruit / Year / Amount-dataset, placerar en pivottabell vid cell E3 med `Fruit` i radområdet, `Amount` i dataområdet och `Year` i filterområdet, uppdaterar pivoten och sparar arbetsboken.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till `PivotTable.pageFields.add`. Pivottabellen och filterfältet konstrueras exakt som i föregående scenario; endast den slutliga registreringen i filterområdet ersätts med det lägre nivåns API-anrop.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Rubriker
@@ -106,6 +108,7 @@ I standardbeteendet enkelval renderas filterfältet som en enda rullgardinsmeny 
 Att sätta `currentPageItem` till det magiska värdet `0x7FFD` är likvärdigt med att rensa sidfiltret: pivotens innehåll sammanfattar alla sidobjekt som om inget filter tillämpades.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Fylla i Fruit/Year/Amount-data
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 Att sätta `currentPageItem` till ett riktigt index väljer bara det sidobjektet. Indexet är positionen för objektet i filterfältets sorterade objektlista, så till exempel `1` väljer det andra objektet efter sortering.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -184,6 +188,7 @@ Flervalsfiltrering förvandlar sidans rullgardinsmeny till en kryssrutelista och
 Koden nedan aktiverar flerval på samma Year-filterfält som byggdes i Scenario 1a, och visar sedan två mönster: Del A avslöjar alla sidobjekt genom att låta `isHidden` vara satt till `false` för varje post, medan Del B vitlistar endast de källvärden du väljer och döljer allt annat genom ett `switch (pivotItems[i].getStringValue())`-block.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();

@@ -25,9 +25,8 @@ The key APIs are:
 
 {{% alert color="primary" %}}
 `update_selected_value()` MUST be called before saving when the output is HTML or PDF; otherwise the exported file will not contain the picture data and the Camera will appear blank in the rendered output.
-{{% /alert %}}
-
 The following code creates a workbook, adds an empty picture anchored at row 10 column 6, links it to the source range `A1:F10` through the `formula` property, refreshes the embedded image data, and saves the workbook.
+{{% /alert %}}
 
 ```python
 from aspose.cells import Workbook, SaveFormat

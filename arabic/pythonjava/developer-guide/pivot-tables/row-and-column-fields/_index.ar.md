@@ -1,8 +1,8 @@
 ---
-title: إضافة حقول الصفوف والأعمدة إلى جدول محوري في Aspose.Cells لـ .NET
-description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Python via Java.
-linktitle: حقول الصفوف والأعمدة
-keywords: Aspose.Cells, Python via Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
+title: إضافة حقول الصفوف والأعمدة إلى الجدول المحوري في Aspose.Cells for Python عبر Java
+linktitle: إضافة حقول الصفوف والأعمدة إلى الجدول المحوري في Aspose.Cells for Python عبر Java
+description: تعلم كيفية إضافة الحقول الأساسية إلى منطقتي الصفوف والأعمدة في جدول محوري والتحكم في الإجماليات الفرعية لحقول PivotField باستخدام PivotField.setSubtotals في Aspose.Cells for Python عبر Java.
+keywords: Aspose.Cells, Python عبر Java, جدول محوري, حقل صف, حقل عمود, PivotField, setSubtotals, PivotFieldSubtotalType, إجماليات فرعية
 type: docs
 weight: 220
 url: /ar/python-java/pivot-table-add-row-and-column-fields/
@@ -11,19 +11,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **إضافة حقل إلى منطقة الصفوف أو الأعمدة**
-ينقل أسلوب `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` حقلًا أساسيًا من بيانات المصدر إلى إحدى مناطق الجدول المحوري الأربع. تقبل وسيطة `fieldType` إحدى قيم `PivotFieldType` التالية.
-- `ROW` — الحقول الموضوعة عموديًا على اليسار
-- `COLUMN` — الحقول الموضوعة أفقيًا عبر الجزء العلوي
-- `DATA` — الحقول التي يتم تجميع قيمها
-- `PAGE` — الحقول المستخدمة كمرشحات للتقرير
-بعد إضافة الحقول، يمكنك الوصول إليها من خلال أسلوبي `PivotTable.getRowFields()` و`PivotTable.getColumnFields()`. يُرجع كل أسلوب كائن `PivotFieldCollection`. يُعدّ الحقل عند الفهرس 0 في `RowFields` هو حقل الصف الأبعد، وتمثل الفهارس اللاحقة الحقول المتداخلة داخله. ينطبق نفس اصطلاح الفهرسة على `ColumnFields`.
-يهمّ ترتيب تداخل الحقول. تؤدي إضافة `Category` إلى منطقة الصفوف أولًا ثم إضافة `Item` إلى إنشاء جدول محوري يكون فيه التجميع الخارجي `Category` والتجميع الداخلي `Item`. يؤدي عكس الترتيب إلى عكس التسلسل الهرمي.
+تنقل طريقة `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` حقلًا أساسيًا من بيانات المصدر إلى إحدى مناطق الجدول المحوري الأربع. تقبل الوسيطة `fieldType` إحدى قيم `PivotFieldType` التالية.
+- `ROW` — حقول موضوعة رأسيًا على اليسار
+- `COLUMN` — حقول موضوعة أفقيًا في الأعلى
+- `DATA` — حقول يتم تجميع قيمها
+- `PAGE` — حقول تُستخدم كعوامل تصفية للتقارير
+ترتيب تداخل الحقول مهم. تُنتج إضافة `Category` أولًا إلى منطقة الصفوف ثم `Item` جدولًا محوريًا يكون التجميع الخارجي فيه هو `Category` والتجميع الداخلي هو `Item`. وعكس الترتيب يعكس التسلسل الهرمي.
 
-## **الإجماليات الفرعية لحقول الجدول المحوري**
-يتحكم أسلوب `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, boolean shown)` في صفوف الإجمالي الفرعي التي تظهر لحقل محوري. يبدّل كل استدعاء نوع إجمالي فرعي واحدًا بشكل مستقل. يعرض تمرير `shown = true` الإجمالي الفرعي، بينما يخفيه `shown = false`. نظرًا لأن كل استدعاء يؤثر فقط على نوع واحد، فإن استدعاء الأسلوب عدة مرات بقيم `subtotalType` مختلفة يُنشئ مجموعة فرعية مخصصة من الإجماليات الفرعية.
-يحدد التعداد `PivotFieldSubtotalType` أنواع الإجماليات الفرعية المتاحة.
-- `AUTOMATIC` — يختار Aspose.Cells التحديد الافتراضي (عادةً `SUM` للحقول الرقمية)
-- `NONE` — إلغاء عرض جميع صفوف الإجمالي الفرعي
+## **الإجماليات الفرعية لحقل PivotField**
+تتحكم طريقة `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, boolean shown)` في صفوف الإجماليات الفرعية التي تظهر لحقل الجدول المحوري. يبدّل كل استدعاء نوعًا واحدًا من الإجماليات الفرعية بشكل مستقل. تمرير `shown = true` يعرض الإجمالي الفرعي، بينما يخفيه `shown = false`. ونظرًا لأن كل استدعاء يؤثر في نوع واحد فقط، فإن استدعاء الطريقة عدة مرات بقيم `subtotalType` مختلفة يبني مجموعة مخصصة من الإجماليات الفرعية.
+يُعرّف التعداد `PivotFieldSubtotalType` أنواع الإجماليات الفرعية المتاحة.
+- `AUTOMATIC` — يختار Aspose.Cells التحديد الافتراضي، وهو عادةً `SUM` للحقول الرقمية
+- `NONE` — يمنع عرض جميع صفوف الإجماليات الفرعية
 - `SUM`
 - `COUNT`
 - `AVERAGE`
@@ -36,17 +35,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - `VARP`
 
 {{% alert color="primary" %}}
-لا تظهر الإجماليات الفرعية إلا عند وجود حقلين محوريين أو أكثر في منطقة الصفوف (أو في منطقة الأعمدة). لا يوجد لدى حقل واحد ما يستحق الإجمالي الفرعي بينه وبين غيره، لذلك لا يكون لاستدعاءات `setSubtotals` أي تأثير مرئي في هذه الحالة. لذلك تضع هذه المقالة حقلَي صفوف (`Category` خارجي، و`Item` داخلي) في كل مثال لكي يكون حد الإجمالي الفرعي بين كل مجموعة `Category` مرئيًا.
+لا تظهر الإجماليات الفرعية إلا عندما يوجد حقلا جدول محوري أو أكثر في منطقة الصفوف أو في منطقة الأعمدة. لا يوفر الحقل الواحد أي أساس ذي معنى لحساب إجمالي فرعي بين المجموعات، لذا لا يظهر أي تأثير لاستدعاءات `setSubtotals` في هذه الحالة. لذلك تستخدم هذه المقالة حقلي صفوف، هما `Category` في الخارج و`Item` في الداخل، في كل مثال حتى يظهر الحد الفاصل للإجمالي الفرعي بين كل مجموعة `Category`.
 {{% /alert %}}
 
 ## **السيناريو 1 — الإجماليات الفرعية التلقائية (الافتراضية)**
-عندما لا تستدعي `setSubtotals` على الإطلاق، يطبق Aspose.Cells التحديد `AUTOMATIC` على الحقول الرقمية. يؤكد المثال التالي هذا السلوك صراحةً من خلال استدعاء `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` على حقل الصف الخارجي `Category`.
+إذا لم تستدعِ `setSubtotals` إطلاقًا، فإن Aspose.Cells يطبق التحديد `AUTOMATIC` على الحقول الرقمية. يؤكد المثال التالي هذا السلوك صراحةً من خلال استدعاء `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` على حقل الصف الخارجي `Category`.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, PivotTable, PivotField, PivotFieldType, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -100,14 +98,13 @@ workbook.save("output_automatic.xlsx")
 jpype.shutdownJVM()
 ```
 
-## **السيناريو 2 — إلغاء جميع الإجماليات الفرعية (لا شيء)**
-يؤدي استدعاء `setSubtotals(PivotFieldSubtotalType.NONE, true)` إلى إزالة كل صف إجمالي فرعي من الجدول المحوري، تاركًا فقط صفوف الحقول والإجمالي الكلي في الأسفل. يكون ذلك مفيدًا عندما تريد بيانات مجمّعة خام دون أي صفوف ملخص.
+## **السيناريو 2 — منع جميع الإجماليات الفرعية (بدون إجماليات فرعية)**
+يزيل استدعاء `setSubtotals(PivotFieldSubtotalType.NONE, true)` كل صف من صفوف الإجماليات الفرعية من الجدول المحوري، تاركًا فقط صفوف الحقول والإجمالي الكلي أسفل الجدول. يكون هذا مفيدًا عندما تريد البيانات المجمّعة الخام من دون أي صفوف ملخص.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -141,14 +138,13 @@ workbook.save("output_none.xlsx")
 jpype.shutdownJVM()
 ```
 
-## **السيناريو 3 — مجموعة فرعية مخصصة من الإجماليات الفرعية (المجموع + المتوسط)**
-لستَ مقيدًا بنوع إجمالي فرعي واحد. يعمل كل استدعاء `setSubtotals` بشكل مستقل على نوع واحد، لذلك يؤدي استدعاء الأسلوب مرتين — مرة باستخدام `SUM` ومرة باستخدام `AVERAGE` — إلى إنشاء مجموعة فرعية مخصصة من صفّي إجمالي فرعي لكل مجموعة `Category`.
+## **السيناريو 3 — مجموعة فرعية مخصصة من الإجماليات (المجموع + المتوسط)**
+لا تقتصر على نوع واحد من الإجماليات الفرعية. يعمل كل استدعاء لـ `setSubtotals` بشكل مستقل على نوع واحد، لذلك يُنتج استدعاء الطريقة مرتين، مرة مع `SUM` ومرة مع `AVERAGE`، مجموعة مخصصة من صفَّي إجماليات فرعية لكل مجموعة `Category`.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTableCollection, PivotTable, PivotFieldType, PivotField, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -192,19 +188,32 @@ worksheet.getCells().get(8, 3).putValue(45)
 pivotTables = worksheet.getPivotTables()
 pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1")
 pivotTable = pivotTables.get(pivotIndex)
-pivotTable.addFieldToArea(PivotFieldType.Row, "Category")
-pivotTable.addFieldToArea(PivotFieldType.Row, "Item")
-pivotTable.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 categoryField = pivotTable.getRowFields().get(0)
-categoryField.setSubtotals(PivotFieldSubtotalType.Sum, True)
-categoryField.setSubtotals(PivotFieldSubtotalType.Average, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.SUM, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, True)
 pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 jpype.shutdownJVM()
 ```
 
 ## **ملخص**
-تتشارك السيناريوهات الثلاثة أعلاه في نفس مجموعة البيانات وهيكل الجدول المحوري. الفرق الوحيد بينها هو استدعاء `setSubtotals` المطبق على حقل الصف الخارجي `Category`. تذكّر قاعدة الحقلين: لا يوجد لدى حقل واحد في منطقة ما ما يمكن الإجمالي الفرعي بينه وبين غيره، لذلك ضع دائمًا حقلين على الأقل في منطقة الصفوف أو الأعمدة عندما تريد أن يكون لاستدعاء `setSubtotals` تأثير مرئي.
+
+تختلف السيناريوهات الثلاثة في شيء واحد فقط: استدعاءات `setSubtotals`. وeverything else — أي مجموعة البيانات، والحقول، والمجالات التي تُعيَّن إليها — متطابقة تمامًا، وهذا ما يجعل التخطيطات قابلة للمقارنة مباشرة.
+- **وضع الحقول.** ينقل `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` عمود مصدر إلى منطقة. وداخل منطقة واحدة، يحدد ترتيب الاستدعاءات ترتيب العرض، لذا يصبح أول استدعاء المجموعة الخارجية. وتحتاج التجميعات الفرعية إلى حقلين أو أكثر داخل نفس المنطقة: فبوجود حقل واحد لا يوجد شيء بين المجموعات يمكن تجميعه فرعيًا.
+- **السيناريو 1 — التجميعات الفرعية التلقائية.** ترك `setSubtotals` دون استدعائها يترك الخيار لـ Excel، الذي يطبّق تجميعًا فرعيًا افتراضيًا خاصًا به على الحقول الرقمية. بينما يؤدي استدعاء `setSubtotals` مع `PivotFieldSubtotalType.AUTOMATIC` إلى تسجيل هذا الخيار بشكل صريح بدلًا من تركه ضمنيًا.
+- **السيناريو 2 — عدم وجود تجميعات فرعية.** يؤدي استدعاء `setSubtotals` مع `PivotFieldSubtotalType.NONE` إلى إيقاف التجميع الفرعي الافتراضي، بحيث تحتفظ الجدول المحوري بصفوف الحقل والملخص الكلي، لكنه يحذف صفوف التجميع الفرعي التي يُدرجها Excel بشكل افتراضي بينها.
+- **السيناريو 3 — مجموعة مختارة.** يؤدي كل استدعاء إلى تبديل نوع تجميع فرعي واحد فقط، وتتراكم الاستدعاءات بدلًا من أن تُعيد تعيين بعضها. لذا فإن استدعائها مرة واحدة مع `PivotFieldSubtotalType.SUM` ومرة أخرى مع `PivotFieldSubtotalType.AVERAGE` يُبقي كليهما مُفعَّلين، مما يؤدي إلى عرض تجميع فرعي مجموع (Sum)، وتجميع فرعي متوسط (Average)، والملخص الكلي معًا.
+
+{{% alert color="primary" %}}
+لا يوجد شيء خاص بالتجميعات الفرعية يتعلق بالمنطقة الصفية فقط. فاستدعاءات `setSubtotals` نفسها على حقل مأخوذ من `PivotTable.ColumnFields` تُنتج نفس التخطيطات الثلاثة على المحور العمودي، لأن الإعداد ينتمي إلى حقل PivotField بحد ذاته وليس للمحور الذي يقع عليه.
+{{% /alert %}}
+## **مقالات ذات صلة**
+- [حقول الصفحة في الجداول المحورية](/cells/ar/python-java/add-page-field-in-pivot-table/)
+- [تحديث الجداول المحورية في Aspose.Cells for Python عبر Java](/cells/ar/python-java/refresh-pivot-table/)
+- [تطبيق الأنماط على الجداول المحورية](/cells/ar/python-java/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="python" >}}

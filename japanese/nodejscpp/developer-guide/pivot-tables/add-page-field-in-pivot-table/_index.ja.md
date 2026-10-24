@@ -26,6 +26,7 @@ Aspose.Cells for Node.js via C++ は、フィルターフィールドを登録�
 次の例では、小さな Fruit / Year / Amount データセットを構築し、セル E3 にピボットテーブルを配置します。`Fruit` を行領域に、`Amount` をデータ領域に、`Year` をフィルター領域に配置し、ピボットを更新して、ワークブックを保存します。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 すでに `PivotField` インスタンスを操作している場合は、それを `PivotTable.pageFields.add` に直接渡すことができます。ピボットテーブルとフィルターフィールドは前のシナリオとまったく同じように構築されます。最終的なフィルター領域の登録のみが下位レベルの API 呼び出しに置き換えられます。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // ヘッダー
@@ -106,6 +108,7 @@ workbook.save("output.xlsx");
 `currentPageItem` をマジック値 `0x7FFD` に設定することは、ページフィルタをクリアすることと同等です。ピボット本体は、フィルタが適用されていないかのように、すべてのフィルター項目を集計します。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Fruit/Year/Amount のデータを入力
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 `currentPageItem` を実際のインデックスに設定すると、その1つのフィルター項目のみが選択されます。インデックスはフィルターフィールドのソート済み項目リスト内の項目の位置であるため、たとえば `1` はソート後の2番目の項目を選択します。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -184,6 +188,7 @@ workbook.save("output.xlsx");
 以下のコードは、シナリオ 1a で構築された同じ Year フィルターフィールドで複数選択を有効化し、2つのパターンを示します。パート A では、すべてのエントリの `isHidden` を `false` のままにしておくことで、すべてのフィルター項目を公開します。一方、パート B では、選択したソース値のみをホワイトリストに登録し、`switch (pivotItems[i].getStringValue())` ブロックを介してその他すべてを非表示にします。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();

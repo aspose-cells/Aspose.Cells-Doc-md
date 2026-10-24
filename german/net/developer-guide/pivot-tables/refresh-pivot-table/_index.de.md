@@ -24,11 +24,10 @@ Die vierschichtige Datenkette ist:
 
 {{% alert color="primary" %}}
 `PivotCache.SourceType` (Enum `PivotTableSourceType`) gibt an, woher die Cache-Daten stammen. Ab v26.7 unterstützt `PivotCache.Refresh()` nur die Quelltypen **`Sheet`** und **`Consolidation`** – also Daten, die in Arbeitsblattbereichen leben. Externe Quellen (Datenbanken, externe Verbindungen usw.) sind über die Cache-API noch nicht aktualisierbar.
-{{% /alert %}}
-
 Aufgrund dieser Kette gibt es zwei grundlegende Aktualisierungspfade in Aspose.Cells:
 - **`PivotTable.CalculateData()`** — berechnet die Anzeige einer `PivotTable` aus bereits im Cache befindlichen Daten neu, ohne einen Roundtrip zur Datenquelle.
 Alle Szenarien in diesem Artikel verwenden Arbeitsblatt-Zellen als Quelldaten, sodass der Quelltyp `Sheet` ist und sich die Aktualisierungsvorgänge wie beschrieben verhalten.
+{{% /alert %}}
 
 ## **Schnellstart**
 Wenn Sie nur den kürzestmöglichen Code benötigen, der jede Pivot-Tabelle in der Arbeitsmappe aktualisiert, reicht ein einziger Aufruf:

@@ -89,6 +89,73 @@ workbook.Save("output.xls");
 
 ## **Aplicar un estilo de tabla dinámica predefinido con nombre moderno**
 
+`PivotTable.PivotTableStyleType` selecciona uno de los estilos integrados con nombre que Excel 2007 introdujo para las tablas dinámicas. La enumeración `PivotTableStyleType` expone tres familias de temas: la familia clara, desde `PivotTableStyleLight1` hasta `PivotTableStyleLight28`; la familia media, desde `PivotTableStyleMedium1` hasta `PivotTableStyleMedium28`; y la familia oscura, desde `PivotTableStyleDark1` hasta `PivotTableStyleDark28`. También define `None` y `Custom`. Los miembros de mayor número dentro de cada familia corresponden a los estilos añadidos en Excel 2017.
+Estas predefiniciones son de solo lectura. En cuanto necesite modificar colores, bordes o fuentes más allá de lo que una predefinición ofrece, deberá definir un estilo de tabla dinámica personalizado, como se muestra en el [Escenario 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**¿Por qué usar las predefiniciones modernas en lugar de los autoformateos de la serie Report?** Los valores `Report1` hasta `Report10` y `Table1` hasta `Table10` de `PivotTableAutoFormatType` son anteriores a los campos de columna en tablas dinámicas, por lo que no incluyen estilos para las cabeceras de los campos de columna, y Excel renderiza dichas cabeceras sin formato. Las predefiniciones `PivotTableStyleType` fueron diseñadas para el diseño bidimensional que utiliza la versión moderna de Excel y aplica estilo tanto a las cabeceras de los campos de fila como a las de los campos de columna.
+{{% /alert %}}
+
+Este escenario reutiliza el conjunto de datos Fruta/Año/Cantidad del Escenario 1, agrega `Year` al área de columnas junto con el campo de fila `Fruit` mediante `PivotFieldType.Column`, aplica la predefinición de tema oscuro `PivotTableStyleDark1` con `PivotTable.PivotTableStyleType` y guarda el resultado como `.xlsx` —el formato para el cual `PivotTableStyleType` tiene significado.
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+// Escenario 2: Aplicar un estilo predefinido con nombre moderno de Excel 2007+ usando PivotTableStyleType.
+// Formato de archivo de destino: .xlsx. La enumeración PivotTableStyleType reside en el espacio de nombres Aspose.Cells
+// (no en Aspose.Cells.Pivot) -- por eso no necesitamos ningún using adicional para ella.
+// Referencia de GitHub: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.Worksheets[0];
+// Fila de encabezado: Fruta / Año / Cantidad
+worksheet.Cells["A1"].PutValue("Fruit");
+worksheet.Cells["B1"].PutValue("Year");
+worksheet.Cells["C1"].PutValue("Amount");
+// 9 filas de datos de Fruta / Año / Cantidad
+worksheet.Cells["A2"].PutValue("Grape");
+worksheet.Cells["B2"].PutValue(2020);
+worksheet.Cells["C2"].PutValue(100);
+worksheet.Cells["A3"].PutValue("Blueberry");
+worksheet.Cells["B3"].PutValue(2020);
+worksheet.Cells["C3"].PutValue(150);
+worksheet.Cells["A4"].PutValue("Kiwi");
+worksheet.Cells["B4"].PutValue(2020);
+worksheet.Cells["C4"].PutValue(200);
+worksheet.Cells["A5"].PutValue("Cherry");
+worksheet.Cells["B5"].PutValue(2020);
+worksheet.Cells["C5"].PutValue(180);
+worksheet.Cells["A6"].PutValue("Grape");
+worksheet.Cells["B6"].PutValue(2021);
+worksheet.Cells["C6"].PutValue(120);
+worksheet.Cells["A7"].PutValue("Blueberry");
+worksheet.Cells["B7"].PutValue(2021);
+worksheet.Cells["C7"].PutValue(170);
+worksheet.Cells["A8"].PutValue("Kiwi");
+worksheet.Cells["B8"].PutValue(2021);
+worksheet.Cells["C8"].PutValue(210);
+worksheet.Cells["A9"].PutValue("Cherry");
+worksheet.Cells["B9"].PutValue(2021);
+worksheet.Cells["C9"].PutValue(190);
+worksheet.Cells["A10"].PutValue("Grape");
+worksheet.Cells["B10"].PutValue(2021);
+worksheet.Cells["C10"].PutValue(130);
+// Agregar una tabla dinámica en E3 llamada "Pivot1", con origen en A1:C10
+int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Asignar campos de tabla dinámica: Fruta -> Área de filas, Año -> Área de columnas, Cantidad -> Área de datos
+pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
+pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+// Aplicar un estilo predefinido con nombre moderno de tabla dinámica de Excel 2007+.
+// PivotTableStyleType es la API correcta para archivos .xlsx / .xlsm / .xlsb; AutoFormatType
+// es ignorado por Excel para esos formatos. PivotTableStyleDark1 pertenece a la familia
+// de temas oscuros (PivotTableStyleDark1..PivotTableStyleDark28), y la misma enumeración también expone los
+// temas más recientes de Excel 2017 claro/oscuro (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
+// Guardar como moderno .xlsx -- este es el formato para el cual PivotTableStyleType tiene significado.
+workbook.Save("output.xlsx");
+```
 ## **Definir y aplicar un estilo de tabla dinámica personalizado**
 Los preajustes integrados no se pueden modificar. Siempre que necesite anular colores, bordes o fuentes, debe definir un estilo de tabla dinámica personalizado. El flujo de trabajo consta de tres pasos:
 1. Añada un estilo personalizado a la colección `TableStyles` del libro mediante `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)`. Esto devuelve el índice del estilo recién creado.
@@ -97,10 +164,9 @@ Los preajustes integrados no se pueden modificar. Siempre que necesite anular co
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` y `PivotTableStyleType` no son intercambiables. Utilice `PivotTableStyleType` para los preajustes integrados y `PivotTableStyleName` para los estilos personalizados que haya definido mediante `AddPivotTableStyle`. Establecer ambos es inofensivo, pero solo se representa el que coincide con el origen previsto.
-{{% /alert %}}
-
 Los valores disponibles de `TableStyleElementType` incluyen `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` y `PageFieldValues`.
 El siguiente ejemplo define un estilo de tabla dinámica personalizado con un borde negro fino en `WholeTable` y una fuente roja en negrita en `GrandTotalRow`, luego lo aplica mediante `PivotTableStyleName` y guarda como `.xlsx`.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -179,9 +245,8 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 `FormatAll` anula tanto `PivotTableStyleType` como `PivotTableStyleName`. Utilícelo únicamente cuando se requiera una apariencia uniforme e independiente del tema en toda la tabla dinámica.
-{{% /alert %}}
-
 El siguiente ejemplo crea un `Style` con un relleno sólido amarillo, una fuente azul oscuro en negrita y bordes negros finos en todos los lados, luego lo aplica con `FormatAll` y guarda como `.xlsx`.
+{{% /alert %}}
 
 ```csharp
 using System;

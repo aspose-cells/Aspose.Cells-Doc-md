@@ -100,7 +100,7 @@ sheet.Cells["A8"].PutValue("blueberry"); sheet.Cells["B8"].PutValue("2020"); she
 sheet.Cells["A9"].PutValue("blueberry"); sheet.Cells["B9"].PutValue("2021"); sheet.Cells["C9"].PutValue(350);
 sheet.Cells["A10"].PutValue("blueberry");sheet.Cells["B10"].PutValue("2022"); sheet.Cells["C10"].PutValue(450);
 // E3 に A1:C10 をカバーするピボットテーブルを追加
-int pivotIndex = sheet.PivotTables.Add("E3", "A1:C10", "PivotTable1");
+int pivotIndex = sheet.PivotTables.Add("A1:C10", "E3", "PivotTable1");
 PivotTable pivotTable = sheet.PivotTables[pivotIndex];
 // Fruit -> Row、Amount -> Data (Year は下記で Page に追加)
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");

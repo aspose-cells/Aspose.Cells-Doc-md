@@ -22,7 +22,7 @@ Darüber hinaus ist `PivotTable.format_all(Style)` eine Verknüpfung, die ein ei
 
 ## **Eine Legacy-XLS-Voreinstellung als Autoformat anwenden**
 `PivotTable.auto_format_type` akzeptiert einen Wert aus der Aufzählung `aspose.cells.pivot.PivotTableAutoFormatType`. Die verfügbaren Werte sind `REPORT_1` bis `REPORT_10`, `CLASSIC` und `TABLE_1` bis `TABLE_10`.
-Das folgende Beispiel lädt eine neue Arbeitsmappe, füllt die Beispieldaten „Fruit/Year/Amount", fügt eine Pivot-Tabelle hinzu, wendet `PivotTableAutoFormatType.REPORT_5` an und speichert das Ergebnis als `.xls`.
+Das folgende Beispiel lädt eine neue Arbeitsmappe, füllt die Beispieldaten „Fruit/Year/Amount", fügt eine Pivot-Tabelle hinzu, wendet `PivotTableAutoFormatType.REPORT5` an und speichert das Ergebnis als `.xls`.
 
 {{% alert color="primary" %}}
 **Warum keine Spaltenfelder?** Die Autoformate der Report-Reihe (`Report1` bis `Report10`, `Table1` bis `Table10`) wurden im klassischen Excel für **eindimensionale Pivot-Tabellen** entworfen, die nur Zeilenfelder und Werte enthalten; sie verfügen über keine eingebaute Formatierung für Spaltenfeld-Kopfzeilen. Wenn Ihre Pivot-Tabelle Spaltenfelder benötigt, verwenden Sie stattdessen die modernen `PivotTableStyleType`-Voreinstellungen aus [Szenario 2](#apply-a-modern-named-preset-pivot-table-style), die für das zweidimensionale Layout moderner Excel-Versionen ausgelegt sind.
@@ -30,6 +30,8 @@ Das folgende Beispiel lädt eine neue Arbeitsmappe, füllt die Beispieldaten „
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells.pivot import PivotTableAutoFormatType
 # Szenario 1: Wenden Sie ein voreingestelltes Legacy-XLS-Autoformat an
 # Verwendete API: PivotTable.AutoFormatType
 # Zieldateiformat: .xls (Legacy)
@@ -40,53 +42,119 @@ workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 # Befüllen Sie die Quelldaten mit einer Kopfzeile (Frucht, Jahr, Betrag)
 # und 9 Datenzeilen, die Traube, Blaubeere, Kiwi, Kirsche über 2020 und 2021 abdecken
-sheet.cells[0, 0].put_value("Fruit")
-sheet.cells[0, 1].put_value("Year")
-sheet.cells[0, 2].put_value("Amount")
-sheet.cells[1, 0].put_value("grape")
-sheet.cells[1, 1].put_value(2020)
-sheet.cells[1, 2].put_value(50)
-sheet.cells[2, 0].put_value("blueberry")
-sheet.cells[2, 1].put_value(2020)
-sheet.cells[2, 2].put_value(30)
-sheet.cells[3, 0].put_value("kiwi")
-sheet.cells[3, 1].put_value(2020)
-sheet.cells[3, 2].put_value(25)
-sheet.cells[4, 0].put_value("cherry")
-sheet.cells[4, 1].put_value(2020)
-sheet.cells[4, 2].put_value(40)
-sheet.cells[5, 0].put_value("grape")
-sheet.cells[5, 1].put_value(2021)
-sheet.cells[5, 2].put_value(60)
-sheet.cells[6, 0].put_value("blueberry")
-sheet.cells[6, 1].put_value(2021)
-sheet.cells[6, 2].put_value(35)
-sheet.cells[7, 0].put_value("kiwi")
-sheet.cells[7, 1].put_value(2021)
-sheet.cells[7, 2].put_value(28)
-sheet.cells[8, 0].put_value("cherry")
-sheet.cells[8, 1].put_value(2021)
-sheet.cells[8, 2].put_value(45)
-sheet.cells[9, 0].put_value("grape")
-sheet.cells[9, 1].put_value(2020)
-sheet.cells[9, 2].put_value(45)
+sheet.cells.get(0, 0).put_value("Fruit")
+sheet.cells.get(0, 1).put_value("Year")
+sheet.cells.get(0, 2).put_value("Amount")
+sheet.cells.get(1, 0).put_value("grape")
+sheet.cells.get(1, 1).put_value(2020)
+sheet.cells.get(1, 2).put_value(50)
+sheet.cells.get(2, 0).put_value("blueberry")
+sheet.cells.get(2, 1).put_value(2020)
+sheet.cells.get(2, 2).put_value(30)
+sheet.cells.get(3, 0).put_value("kiwi")
+sheet.cells.get(3, 1).put_value(2020)
+sheet.cells.get(3, 2).put_value(25)
+sheet.cells.get(4, 0).put_value("cherry")
+sheet.cells.get(4, 1).put_value(2020)
+sheet.cells.get(4, 2).put_value(40)
+sheet.cells.get(5, 0).put_value("grape")
+sheet.cells.get(5, 1).put_value(2021)
+sheet.cells.get(5, 2).put_value(60)
+sheet.cells.get(6, 0).put_value("blueberry")
+sheet.cells.get(6, 1).put_value(2021)
+sheet.cells.get(6, 2).put_value(35)
+sheet.cells.get(7, 0).put_value("kiwi")
+sheet.cells.get(7, 1).put_value(2021)
+sheet.cells.get(7, 2).put_value(28)
+sheet.cells.get(8, 0).put_value("cherry")
+sheet.cells.get(8, 1).put_value(2021)
+sheet.cells.get(8, 2).put_value(45)
+sheet.cells.get(9, 0).put_value("grape")
+sheet.cells.get(9, 1).put_value(2020)
+sheet.cells.get(9, 2).put_value(45)
 # Fügen Sie eine Pivot-Tabelle in der Zielzelle E3 hinzu, benannt als "Pivot1", unter Verwendung des Quellbereichs A1:C10
 pivot_index = sheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
 pivot_table = sheet.pivot_tables[pivot_index]
 # Felder zuweisen: Frucht -> Zeilen, Betrag -> Daten
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 # Wenden Sie das voreingestellte Legacy-XLS-Autoformat "Report5" an
 # Hinweis: Diese Eigenschaft ist nur beim Speichern als .xls aussagekräftig.
 # Beim Speichern als .xlsx/.xlsm/.xlsb ignoriert Excel AutoFormatType
 # und verwendet stattdessen das, was PivotTableStyleType / PivotTableStyleName angibt.
-pivot_table.auto_format_type = ac.PivotTableAutoFormatType.REPORT5
+pivot_table.auto_format_type = PivotTableAutoFormatType.REPORT5
 # Speichern Sie die Arbeitsmappe im Legacy-.xls-Format
 workbook.save("output.xls")
 ```
 
 ## **Einen modernen benannten Voreinstellungs-Stil für Pivot-Tabellen anwenden**
 
+`pivot_table.pivot_table_style_type` wählt einen der integrierten benannten Stile aus, die Excel 2007 für Pivot-Tabellen eingeführt hat. Die Enumeration `PivotTableStyleType` umfasst drei Themenfamilien: die helle Familie von `PIVOT_TABLE_STYLE_LIGHT1` bis `PIVOT_TABLE_STYLE_LIGHT28`, die mittlere Familie von `PIVOT_TABLE_STYLE_MEDIUM1` bis `PIVOT_TABLE_STYLE_MEDIUM28` und die dunkle Familie von `PIVOT_TABLE_STYLE_DARK1` bis `PIVOT_TABLE_STYLE_DARK28`. Sie definiert außerdem `None` und `Custom`. Die Mitglieder mit höheren Nummern jeder Familie sind die in Excel 2017 hinzugefügten Stile.
+Diese Voreinstellungen sind schreibgeschützt. Sobald Sie Farben, Rahmen oder Schriftarten ändern müssen, die über die Möglichkeiten einer Voreinstellung hinausgehen, müssen Sie stattdessen einen benutzerdefinierten Pivot-Stil definieren, wie in [Szenario 3](#define-and-apply-a-custom-pivot-table-style) gezeigt wird.
+
+{{% alert color="primary" %}}
+**Warum die modernen Voreinstellungen und nicht die automatischen Formatierungen der Berichtsreihen?** Die Werte `Report1` bis `Report10` und `Table1` bis `Table10` von `PivotTableAutoFormatType` stammen aus einer Zeit vor den Pivot-Spaltenfeldern, enthalten daher keine Formatierung für die Überschriften von Spaltenfeldern, und Excel zeigt diese Überschriften ohne Formatierung an. Die Voreinstellungen von `PivotTableStyleType` wurden für das zweidimensionale Layout moderner Excel-Versionen entwickelt und formatieren die Überschriften der Zeilen- und Spaltenfelder gleichermaßen.
+{{% /alert %}}
+
+Dieses Szenario verwendet erneut den Fruit/Year/Amount-Datensatz aus Szenario 1, fügt `Year` über `PivotFieldType.COLUMN` neben dem Zeilenfeld `Fruit` zum Spaltenbereich hinzu, wendet mit `pivot_table.pivot_table_style_type` die Voreinstellung des dunklen Designs `PIVOT_TABLE_STYLE_DARK1` an und speichert das Ergebnis als `.xlsx` – das Format, für das `PivotTableStyleType` sinnvoll ist.
+
+```python
+import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType, PivotTableStyleType
+# Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+# Target file format: .xlsx. PivotTableStyleType lives in aspose.cells.pivot,
+# so it is imported explicitly alongside PivotFieldType.
+# GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+workbook = ac.Workbook()
+worksheet = workbook.worksheets[0]
+# Header row: Fruit / Year / Amount
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
+# 9 data rows of Fruit / Year / Amount
+worksheet.cells.get("A2").put_value("Grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(100)
+worksheet.cells.get("A3").put_value("Blueberry")
+worksheet.cells.get("B3").put_value(2020)
+worksheet.cells.get("C3").put_value(150)
+worksheet.cells.get("A4").put_value("Kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(200)
+worksheet.cells.get("A5").put_value("Cherry")
+worksheet.cells.get("B5").put_value(2020)
+worksheet.cells.get("C5").put_value(180)
+worksheet.cells.get("A6").put_value("Grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(120)
+worksheet.cells.get("A7").put_value("Blueberry")
+worksheet.cells.get("B7").put_value(2021)
+worksheet.cells.get("C7").put_value(170)
+worksheet.cells.get("A8").put_value("Kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(210)
+worksheet.cells.get("A9").put_value("Cherry")
+worksheet.cells.get("B9").put_value(2021)
+worksheet.cells.get("C9").put_value(190)
+worksheet.cells.get("A10").put_value("Grape")
+worksheet.cells.get("B10").put_value(2021)
+worksheet.cells.get("C10").put_value(130)
+# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
+pivot_table = worksheet.pivot_tables[pivot_index]
+# Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+# Apply a modern Excel 2007+ named preset pivot style.
+# PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+# is ignored by Excel for those formats. PIVOT_TABLE_STYLE_DARK1 belongs to the dark-theme
+# family (PIVOT_TABLE_STYLE_DARK1..PIVOT_TABLE_STYLE_DARK28), and the same enum also exposes
+# the newer Excel 2017 themes (PIVOT_TABLE_STYLE_LIGHT1..LIGHT28 / DARK1..DARK28).
+pivot_table.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_DARK1
+# Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx")
+```
 ## **Einen benutzerdefinierten Pivot-Tabellen-Stil definieren und anwenden**
 Die integrierten Voreinstellungen können nicht geändert werden. Wenn Sie Farben, Rahmen oder Schriftarten anpassen müssen, müssen Sie einen benutzerdefinierten Pivot-Stil definieren. Der Arbeitsablauf umfasst drei Schritte:
 1. Fügen Sie der `table_styles`-Sammlung der Arbeitsmappe über `workbook.worksheets.table_styles.add_pivot_table_style(name)` einen benutzerdefinierten Stil hinzu. Dies gibt den Index des neu erstellten Stils zurück.
@@ -95,132 +163,132 @@ Die integrierten Voreinstellungen können nicht geändert werden. Wenn Sie Farbe
 
 {{% alert color="primary" %}}
 `pivot_table_style_name` und `pivot_table_style_type` sind nicht austauschbar. Verwenden Sie `pivot_table_style_type` für integrierte Voreinstellungen und `pivot_table_style_name` für benutzerdefinierte Stile, die Sie über `add_pivot_table_style` definiert haben. Das Setzen beider Werte ist unbedenklich, aber nur derjenige, der der beabsichtigten Quelle entspricht, wird gerendert.
-{{% /alert %}}
-
 Die verfügbaren Werte für `TableStyleElementType` umfassen `WHOLE_TABLE`, `FIRST_ROW`, `LAST_ROW`, `FIRST_COLUMN`, `LAST_COLUMN`, `GRAND_TOTAL_ROW`, `GRAND_TOTAL_COLUMN`, `PAGE_FIELD_LABELS` und `PAGE_FIELD_VALUES`.
 Das folgende Beispiel definiert einen benutzerdefinierten Pivot-Stil mit einem dünnen schwarzen Rahmen für `WHOLE_TABLE` und einer fett formatierten roten Schriftart für `GRAND_TOTAL_ROW`, wendet ihn anschließend über `pivot_table_style_name` an und speichert als `.xlsx`.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
-import System.Drawing
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells.tables import TableStyleElementType
+from aspose.pydrawing import Color
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Quelldaten befüllen: Kopfzeile + 9 Datenzeilen (A1:C10)
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(500)
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(600)
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(700)
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(800)
-worksheet.cells["A10"].put_value("Grape")
-worksheet.cells["B10"].put_value(2021)
-worksheet.cells["C10"].put_value(900)
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
+worksheet.cells.get("A2").put_value("Grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(100)
+worksheet.cells.get("A3").put_value("Blueberry")
+worksheet.cells.get("B3").put_value(2020)
+worksheet.cells.get("C3").put_value(200)
+worksheet.cells.get("A4").put_value("Kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(300)
+worksheet.cells.get("A5").put_value("Cherry")
+worksheet.cells.get("B5").put_value(2020)
+worksheet.cells.get("C5").put_value(400)
+worksheet.cells.get("A6").put_value("Grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(500)
+worksheet.cells.get("A7").put_value("Blueberry")
+worksheet.cells.get("B7").put_value(2021)
+worksheet.cells.get("C7").put_value(600)
+worksheet.cells.get("A8").put_value("Kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(700)
+worksheet.cells.get("A9").put_value("Cherry")
+worksheet.cells.get("B9").put_value(2021)
+worksheet.cells.get("C9").put_value(800)
+worksheet.cells.get("A10").put_value("Grape")
+worksheet.cells.get("B10").put_value(2021)
+worksheet.cells.get("C10").put_value(900)
 # Pivot-Tabelle aus A1:C10 hinzufügen, verankert bei E3, benannt "Pivot1"
 pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 # Schritt 1: Einen neuen benutzerdefinierten Pivot-Tabellenstil registrieren und seinen Index erfassen
 style_index = workbook.worksheets.table_styles.add_pivot_table_style("CustomPivotStyle")
 table_style = workbook.worksheets.table_styles[style_index]
 # Schritt 2: Ein WholeTable-Element hinzufügen und dünne schwarze Rahmen auf allen vier Seiten anwenden
-whole_table_element_index = table_style.table_style_elements.add(ac.TableStyleElementType.WHOLE_TABLE)
+whole_table_element_index = table_style.table_style_elements.add(TableStyleElementType.WHOLE_TABLE)
 whole_table_element = table_style.table_style_elements[whole_table_element_index]
 whole_table_style = workbook.create_style()
-whole_table_style.borders[ac.BorderType.TOP_BORDER].line_style = ac.CellBorderType.THIN
-whole_table_style.borders[ac.BorderType.TOP_BORDER].color = System.Drawing.Color.Black
-whole_table_style.borders[ac.BorderType.BOTTOM_BORDER].line_style = ac.CellBorderType.THIN
-whole_table_style.borders[ac.BorderType.BOTTOM_BORDER].color = System.Drawing.Color.Black
-whole_table_style.borders[ac.BorderType.LEFT_BORDER].line_style = ac.CellBorderType.THIN
-whole_table_style.borders[ac.BorderType.LEFT_BORDER].color = System.Drawing.Color.Black
-whole_table_style.borders[ac.BorderType.RIGHT_BORDER].line_style = ac.CellBorderType.THIN
-whole_table_style.borders[ac.BorderType.RIGHT_BORDER].color = System.Drawing.Color.Black
+whole_table_style.borders.get(ac.BorderType.TOP_BORDER).line_style = ac.CellBorderType.THIN
+whole_table_style.borders.get(ac.BorderType.TOP_BORDER).color = Color.black
+whole_table_style.borders.get(ac.BorderType.BOTTOM_BORDER).line_style = ac.CellBorderType.THIN
+whole_table_style.borders.get(ac.BorderType.BOTTOM_BORDER).color = Color.black
+whole_table_style.borders.get(ac.BorderType.LEFT_BORDER).line_style = ac.CellBorderType.THIN
+whole_table_style.borders.get(ac.BorderType.LEFT_BORDER).color = Color.black
+whole_table_style.borders.get(ac.BorderType.RIGHT_BORDER).line_style = ac.CellBorderType.THIN
+whole_table_style.borders.get(ac.BorderType.RIGHT_BORDER).color = Color.black
 whole_table_element.set_element_style(whole_table_style)
 # Schritt 3: Ein GrandTotalRow-Element hinzufügen und fette rote Schrift anwenden
-grand_total_element_index = table_style.table_style_elements.add(ac.TableStyleElementType.GRAND_TOTAL_ROW)
+grand_total_element_index = table_style.table_style_elements.add(TableStyleElementType.GRAND_TOTAL_ROW)
 grand_total_element = table_style.table_style_elements[grand_total_element_index]
 grand_total_style = workbook.create_style()
 grand_total_style.font.is_bold = True
-grand_total_style.font.color = System.Drawing.Color.Red
+grand_total_style.font.color = Color.red
 grand_total_element.set_element_style(grand_total_style)
 # Schritt 4: Den benutzerdefinierten Stil namentlich anwenden (NICHT über PivotTableStyleType, das für integrierte Voreinstellungen ist)
 pivot_table.pivot_table_style_name = "CustomPivotStyle"
 workbook.save("output.xlsx")
 ```
 
-## **Einen Stil mit FormatAll auf jede Pivot-Zelle anwenden**
+## **Einen Stil mit format_all auf jede Pivot-Zelle anwenden**
 `PivotTable.format_all(Style)` ist eine Verknüpfung, die ein einzelnes `Style`-Objekt auf jede Zelle der Pivot-Tabelle anwendet, einschließlich des Datenbereichs, der Zeilen- und Spaltenüberschriften sowie der Gesamtsummen. Alle zuvor über `pivot_table_style_type` oder `pivot_table_style_name` vorgenommenen Einstellungen werden überschrieben.
 
 {{% alert color="primary" %}}
 `format_all` überschreibt sowohl `pivot_table_style_type` als auch `pivot_table_style_name`. Verwenden Sie dies nur, wenn ein einheitliches, designunabhängiges Erscheinungsbild in der gesamten Pivot-Tabelle erforderlich ist.
+Das folgende Beispiel erstellt einen `Style` mit gelber Volltonfüllung, einer fett formatierten dunkelblauen Schriftart und dünnen schwarzen Rahmen an allen Seiten, wendet ihn anschließend mit `format_all` an und speichert als `.xlsx`.
 {{% /alert %}}
 
-Das folgende Beispiel erstellt einen `Style` mit gelber Volltonfüllung, einer fett formatierten dunkelblauen Schriftart und dünnen schwarzen Rahmen an allen Seiten, wendet ihn anschließend mit `format_all` an und speichert als `.xlsx`.
-
 ```python
-from System.Drawing import Color
+from aspose.pydrawing import Color
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells import BackgroundType, CellBorderType, BorderType
-# Szenario 4: Einen einzelnen Stil auf jede Zelle der Pivot-Tabelle anwenden mit FormatAll
-# Verwendete API: PivotTable.FormatAll(Style)
+# Szenario 4: Einen einzelnen Stil auf jede Zelle der Pivot-Tabelle anwenden mit format_all
+# Verwendete API: PivotTable.format_all(Style)
 # Zielformat: .xlsx
 # GitHub-Referenz: siehe Aspose.Cells-for-.NET Repository — Beispiele zur Pivot-Tabellen-Formatierung
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Quelldaten einfügen: Kopfzeile (Zeile 1) + 9 Datenzeilen (Zeilen 2-10)
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(5000)
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(3000)
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(4000)
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(2000)
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(6000)
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(3500)
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(4500)
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(2500)
-worksheet.cells["A10"].put_value("Grape")
-worksheet.cells["B10"].put_value(2021)
-worksheet.cells["C10"].put_value(5500)
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
+worksheet.cells.get("A2").put_value("Grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(5000)
+worksheet.cells.get("A3").put_value("Blueberry")
+worksheet.cells.get("B3").put_value(2020)
+worksheet.cells.get("C3").put_value(3000)
+worksheet.cells.get("A4").put_value("Kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(4000)
+worksheet.cells.get("A5").put_value("Cherry")
+worksheet.cells.get("B5").put_value(2020)
+worksheet.cells.get("C5").put_value(2000)
+worksheet.cells.get("A6").put_value("Grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(6000)
+worksheet.cells.get("A7").put_value("Blueberry")
+worksheet.cells.get("B7").put_value(2021)
+worksheet.cells.get("C7").put_value(3500)
+worksheet.cells.get("A8").put_value("Kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(4500)
+worksheet.cells.get("A9").put_value("Cherry")
+worksheet.cells.get("B9").put_value(2021)
+worksheet.cells.get("C9").put_value(2500)
+worksheet.cells.get("A10").put_value("Grape")
+worksheet.cells.get("B10").put_value(2021)
+worksheet.cells.get("C10").put_value(5500)
 # Pivot-Tabelle hinzufügen: Quellbereich A1:C10, Zielzelle E3, Name "Pivot1"
 pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
@@ -230,19 +298,19 @@ pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 # Einen Stil erstellen, der auf jede Zelle der Pivot-Tabelle angewendet wird
 style = workbook.create_style()
-style.foreground_color = Color.Yellow
+style.foreground_color = Color.yellow
 style.pattern = BackgroundType.SOLID
 style.font.is_bold = True
-style.font.color = Color.DarkBlue
-style.borders[BorderType.TOP_BORDER].line_style = CellBorderType.THIN
-style.borders[BorderType.TOP_BORDER].color = Color.Black
-style.borders[BorderType.BOTTOM_BORDER].line_style = CellBorderType.THIN
-style.borders[BorderType.BOTTOM_BORDER].color = Color.Black
-style.borders[BorderType.LEFT_BORDER].line_style = CellBorderType.THIN
-style.borders[BorderType.LEFT_BORDER].color = Color.Black
-style.borders[BorderType.RIGHT_BORDER].line_style = CellBorderType.THIN
-style.borders[BorderType.RIGHT_BORDER].color = Color.Black
-# FormatAll anwenden: erzwingt diesen einzelnen Stil auf jede Zelle der Pivot-Tabelle,
+style.font.color = Color.dark_blue
+style.borders.get(BorderType.TOP_BORDER).line_style = CellBorderType.THIN
+style.borders.get(BorderType.TOP_BORDER).color = Color.black
+style.borders.get(BorderType.BOTTOM_BORDER).line_style = CellBorderType.THIN
+style.borders.get(BorderType.BOTTOM_BORDER).color = Color.black
+style.borders.get(BorderType.LEFT_BORDER).line_style = CellBorderType.THIN
+style.borders.get(BorderType.LEFT_BORDER).color = Color.black
+style.borders.get(BorderType.RIGHT_BORDER).line_style = CellBorderType.THIN
+style.borders.get(BorderType.RIGHT_BORDER).color = Color.black
+# format_all anwenden: erzwingt diesen einzelnen Stil auf jede Zelle der Pivot-Tabelle,
 # und überschreibt zuvor gesetzte PivotTableStyleType / PivotTableStyleName-Werte
 pivot_table.format_all(style)
 # Arbeitsmappe im modernen .xlsx-Format speichern
@@ -258,5 +326,6 @@ Die Wahl der Stil-API hängt vom Dateiformat ab, in dem Sie speichern. Verwenden
 | `.xlsx` / `.xlsm` / `.xlsb` (modern, benutzerdefinierter Stil) | `PivotTable.pivot_table_style_name` + `worksheets.table_styles.add_pivot_table_style(...)` | Verwenden, wenn die integrierten Voreinstellungen nicht ausreichen. Konfiguration über `table_style_element.set_element_style(...)`. |
 | Beliebiges Format (einheitliche Überschreibung) | `PivotTable.format_all(Style)` | Verknüpfung, die jede andere Stileinstellung in der gesamten Pivot-Tabelle überschreibt. |
 Im Zweifelsfall speichern Sie als `.xlsx` und verwenden `pivot_table_style_type` für integrierte Designs oder `pivot_table_style_name` für benutzerdefinierte Designs.
+
 
 {{< app/cells/assistant language="python-net" >}}

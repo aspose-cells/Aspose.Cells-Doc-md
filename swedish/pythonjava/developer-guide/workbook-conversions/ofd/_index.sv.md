@@ -2,7 +2,7 @@
 title: Konvertera Excel till OFD-format
 description: Aspose.Cells for Python via Java är ett bibliotek för att arbeta med kalkylbladsfiler som stödjer konvertering av Excel-arbetsböcker till OFD-format (Open Fixed-layout Document). Denna artikel visar hur man skapar Excel-innehåll och exporterar det som OFD, samt hur man konverterar befintliga Excel-filer till OFD med Aspose.Cells for Python via Java.
 linktitle: Konvertera Excel till OFD-format
-keywords: Aspose.Cells, Python via Java library, kalkylblad, Excel till OFD, OFD-konvertering, SaveFormat.Ofd, dokument med fast layout, arbetsboksexport
+keywords: Aspose.Cells, Python via Java library, kalkylblad, Excel till OFD, OFD-konvertering, SaveFormat.OFD, dokument med fast layout, arbetsboksexport
 type: docs
 weight: 195
 url: /sv/python-java/converting-excel-to-ofd-format/
@@ -11,26 +11,27 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells for Python via Java stödjer direkt konvertering av Excel-arbetsböcker till OFD-format (Open Fixed-layout Document) med hjälp av uppräkningsvärdet `SaveFormat.Ofd`. Det resulterande OFD-dokumentet bevarar arbetsbokens synliga layout, innehåll, sammanslagna celler, kolumnbredder, radhöjder, typsnitt, färger, kanter och talformat. Detta gör Aspose.Cells for Python via Java lämpligt för arkivering, utskrift, regulatorisk inlämning och statliga inskickarbetsflöden som kräver en utdata med fast layout.
+Aspose.Cells for Python via Java stödjer direkt konvertering av Excel-arbetsböcker till OFD-format (Open Fixed-layout Document) med hjälp av uppräkningsvärdet `SaveFormat.OFD`. Det resulterande OFD-dokumentet bevarar arbetsbokens synliga layout, innehåll, sammanslagna celler, kolumnbredder, radhöjder, typsnitt, färger, kanter och talformat. Detta gör Aspose.Cells for Python via Java lämpligt för arkivering, utskrift, regulatorisk inlämning och statliga inskickarbetsflöden som kräver en utdata med fast layout.
+{{% /alert %}}
 
 ## **Introduktion**
 OFD (Open Fixed-layout Document) är en kinesisk nationell standard (GB/T 33190-2016) för att representera digitala dokument i en fast, sidbaserad layout. Den tjänar en liknande roll som PDF för användningsfall där det visuella utseendet hos källdokumentet måste bevaras exakt som det skapades. OFD är vitt spritt för statliga inskick, regulatoriska anmälningar, elektroniska fakturor och långsiktig arkivering i Folkrepubliken Kina.
-Att konvertera Excel-arbetsböcker till OFD är ett vanligt krav i scenarier där kalkylbladsinnehåll måste distribueras som ett skrivskyddat, layoutlåst artefakt snarare än som ett redigerbart kalkylblad. Exempel inkluderar att skicka en färdig faktura till en kund, arkivera en kvartalsvis finansiell rapport, eller skicka in ett budgetkalkylblad till en tillsynsmyndighet. Aspose.Cells for Python via Java hanterar detta krav genom uppräkningsvärdet `SaveFormat.Ofd`, som skriver arbetsboken direkt till OFD utan att kräva ett mellanliggande konverteringssteg. OFD-utdata bevarar cellvärden, sammanslagna intervall, typsnitt, färger, kanter, talformat och sidinställningar som konfigurerats på arbetsboken.
+Att konvertera Excel-arbetsböcker till OFD är ett vanligt krav i scenarier där kalkylbladsinnehåll måste distribueras som ett skrivskyddat, layoutlåst artefakt snarare än som ett redigerbart kalkylblad. Exempel inkluderar att skicka en färdig faktura till en kund, arkivera en kvartalsvis finansiell rapport, eller skicka in ett budgetkalkylblad till en tillsynsmyndighet. Aspose.Cells for Python via Java hanterar detta krav genom uppräkningsvärdet `SaveFormat.OFD`, som skriver arbetsboken direkt till OFD utan att kräva ett mellanliggande konverteringssteg. OFD-utdata bevarar cellvärden, sammanslagna intervall, typsnitt, färger, kanter, talformat och sidinställningar som konfigurerats på arbetsboken.
 
 {{% alert color="primary" %}}
 OFD-utdata som genereras av Aspose.Cells for Python via Java bevarar den synliga layouten hos källarbetsboken, inklusive cellinnehåll, sammanslagna celler, kolumnbredder och radhöjder. Cellformatering som typsnitt, färger, kanter, justering och talformat renderas också i utdata med fast layout. Sidinställningar som konfigurerats på kalkylbladet, såsom pappersstorlek, orientering och utskriftsområde, påverkar layouten för det resulterande OFD-dokumentet.
+{{% /alert %}}
 
 ## **Skapa en Excel-arbetsbok och spara som OFD**
-Aspose.Cells for Python via Java låter dig bygga en arbetsbok programmatiskt, fylla den med data och sedan spara den direkt till OFD-format med hjälp av uppräkningen `SaveFormat.Ofd`. Följande exempel skapar en faktura från grunden. Det lägger till en företagslogotyp, rubrikinformation, en "faktura till"-sektion, radobjekt och beräknade summor, och exporterar sedan arbetsboken till ett OFD-dokument.
+Aspose.Cells for Python via Java låter dig bygga en arbetsbok programmatiskt, fylla den med data och sedan spara den direkt till OFD-format med hjälp av uppräkningen `SaveFormat.OFD`. Följande exempel skapar en faktura från grunden. Det lägger till en företagslogotyp, rubrikinformation, en "faktura till"-sektion, radobjekt och beräknade summor, och exporterar sedan arbetsboken till ett OFD-dokument.
 
 ### **Bygga en faktura med en logotyp**
-Exemplet konstruerar ett fakturakalkylblad genom att infoga en logotypbild i det övre vänstra området, fylla i företagsnamn och kontaktuppgifter, lägga till en "FAKTURA"-titel över sammanslagna celler, registrera fakturanummer och datum, lista faktureringskund, bygga en tabell med radobjekt med kolumner för beskrivning, antal, enhetspris och total, samt beräkna delsumma, skatt och totalsumma med cellformler. Formatering som feta rubriker, valutaformat för priser, kanter och kolumnbredder tillämpas med hjälp av `Style`- och `Font`-objekt. Slutligen sparas arbetsboken med filtillägget `.ofd` med hjälp av `SaveFormat.Ofd`.
+Exemplet konstruerar ett fakturakalkylblad genom att infoga en logotypbild i det övre vänstra området, fylla i företagsnamn och kontaktuppgifter, lägga till en "FAKTURA"-titel över sammanslagna celler, registrera fakturanummer och datum, lista faktureringskund, bygga en tabell med radobjekt med kolumner för beskrivning, antal, enhetspris och total, samt beräkna delsumma, skatt och totalsumma med cellformler. Formatering som feta rubriker, valutaformat för priser, kanter och kolumnbredder tillämpas med hjälp av `Style`- och `Font`-objekt. Slutligen sparas arbetsboken med filtillägget `.ofd` med hjälp av `SaveFormat.OFD`.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, Style, Cell, TextAlignmentType, BorderType, CellBorderType, Color
 dataDir = "/tmp/"
 # Skapa en ny arbetsbok
@@ -84,10 +85,10 @@ headerStyle.getFont().setBold(True)
 headerStyle.getFont().setColor(Color.getWhite())
 headerStyle.setBackgroundColor(Color.getNavy())
 headerStyle.setHorizontalAlignment(TextAlignmentType.CENTER)
-headerStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 headerDesc.setStyle(headerStyle)
 headerQty.setStyle(headerStyle)
 headerPrice.setStyle(headerStyle)
@@ -95,16 +96,16 @@ headerTotal.setStyle(headerStyle)
 # Valutastil med kanter
 currencyStyle = workbook.createStyle()
 currencyStyle.setCustom("\"$\"#,##0.00")
-currencyStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # Enkel kantstil för beskrivnings-/kvantitetsceller
 borderStyle = workbook.createStyle()
-borderStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # Rader för artiklar
 lineItems = [
     ["Product A - Widget", 2, 50.00],
@@ -149,7 +150,7 @@ worksheet.getCells().get("B24").setStyle(boldStyle)
 worksheet.getCells().get("B25").setStyle(boldStyle)
 worksheet.getCells().get("B26").setStyle(boldStyle)
 # Spara arbetsboken som en OFD-fil
-workbook.save(dataDir + "Invoice.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "Invoice.ofd", SaveFormat.OFD)
 jpype.shutdownJVM()
 ```
 
@@ -194,7 +195,7 @@ printArea = "A1:" + lastColLetter + str(lastRow + 1)
 firstSheet.getPageSetup().setPrintArea(printArea)
 print("\nPrint area set to: " + printArea)
 # (6) Spara arbetsboken som en OFD-fil
-workbook.save(dataDir + "SampleBook.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "SampleBook.ofd", SaveFormat.OFD)
 print("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd")
 jpype.shutdownJVM()
 ```
@@ -204,8 +205,5 @@ jpype.shutdownJVM()
 - [Infoga en bild i en cell](/cells/sv/python-java/inserting-an-image-into-a-cell/)
 - [Läsa och skriva DBF-filer](/cells/sv/python-java/dbf/)
 - [Konvertera Sparkline till bild och HTML i Aspose.Cells for Python via Java](/cells/sv/python-java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

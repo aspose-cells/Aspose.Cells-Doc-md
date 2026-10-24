@@ -31,6 +31,7 @@ Aşağıdaki örnek, mevcut bir pivot tablo içeren bir çalışma kitabını y�
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
 # Load the existing workbook containing a pivot table
@@ -42,7 +43,7 @@ pivot_table = worksheet.pivot_tables[0]
 # Retrieve the first row PivotField
 row_field = pivot_table.row_fields[0]
 # Apply the label filter — show only row items whose labels begin with the supplied prefix
-row_field.filter_by_label(ac.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
+row_field.filter_by_label(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Refresh and recalculate the pivot table data so the filter takes effect
 pivot_table.pivot_cache.refresh()
 # Save the workbook back to disk
@@ -53,14 +54,16 @@ workbook.save(fileName)
 Tarih filtreleri, bir pivot tablosunu bugün, geçen hafta, bu ay, gelecek çeyrek veya belirli bir tarih aralığı gibi tarih tabanlı ölçütlere göre daraltmanıza olanak tanır. Bunlar yalnızca tarih-saat bilgilerini depolayan alanlara karşı çalışan özel filtrelerdir.
 
 {{% alert color="primary" %}}
-Tarih filtresi yalnızca satır veya sütun alanı yalnızca tarih-saat hücreleri veya boş değerler içerdiğinde çalışır. Temel alandaki alan sayılar veya metin gibi başka veri türleri içeriyorsa, tarih filtresi beklenen sonucu vermeyecektir. Filtreyi uygulamadan önce alanın tarih olarak biçimlendirildiğinden ve tüm değerlerin geçerli `DateTime` örnekleri veya boş hücreler olduğundan emin olun.
+Tarih filtresi yalnızca satır veya sütun alanı yalnızca tarih-saat hücreleri veya boş değerler içerdiğinde çalışır. Temel alandaki alan sayılar veya metin gibi başka veri türleri içeriyorsa, tarih filtresi beklenen sonucu vermeyecektir. Filtreyi uygulamadan önce alanın tarih olarak biçimlendirildiğinden ve tüm değerlerin geçerli `datetime` örnekleri veya boş hücreler olduğundan emin olun.
+Aspose.Cells, tarih filtrelemeyi `PivotField.filter_by_date(PivotFilterType, *date_times)` yöntemi aracılığıyla sunar. `PivotFilterType` numaralandırması `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` ve `Between` gibi özel tarih değerleri içerir. Seçilen filtre türüne bağlı olarak, bir veya iki `datetime` değeri iletirsiniz (`Between` için başlangıç ve bitiş tarihlerini iletirsiniz).
+Aşağıdaki örnek, satır alanında bir tarih alanı bulunan pivot tabloya sahip bir çalışma kitabını yükler, görünür öğeleri belirli bir tarih aralığıyla kısıtlayan bir tarih filtresi uygular, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
 {{% /alert %}}
 
-Aspose.Cells, tarih filtrelemeyi `PivotField.filter_by_date(PivotFilterType, *date_times)` yöntemi aracılığıyla sunar. `PivotFilterType` numaralandırması `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` ve `Between` gibi özel tarih değerleri içerir. Seçilen filtre türüne bağlı olarak, bir veya iki `DateTime` değeri iletirsiniz (`Between` için başlangıç ve bitiş tarihlerini iletirsiniz).
-Aşağıdaki örnek, satır alanında bir tarih alanı bulunan pivot tabloya sahip bir çalışma kitabını yükler, görünür öğeleri belirli bir tarih aralığıyla kısıtlayan bir tarih filtresi uygular, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
-
 ```python
+import os
+import aspose.cells as ac
 from datetime import datetime
+from aspose.cells.pivot import PivotFilterType
 input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
@@ -78,7 +81,7 @@ date_field = pivot_table.row_fields[0]
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
 # Pivot alanına tarih filtresini uygulayın
-date_field.filter_by_date(ac.PivotFilterType.DATE_BETWEEN, start_date, end_date)
+date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
 # Pivot tablosunu yenileyin ve yeniden hesaplayın, böylece filtre etkili olur
 pivot_table.pivot_cache.refresh()
 # Çalışma kitabını kaydedin
@@ -92,6 +95,7 @@ Aşağıdaki örnek, pivot tablo içeren bir çalışma kitabını yükler, yaln
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 workbook = ac.Workbook("sample.xlsx")
 worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
@@ -99,12 +103,12 @@ row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
 # PivotFieldCollection'da IndexOf olmadığından veri alanı dizinini manuel olarak bul
 data_field_index = -1
-for i in range(pivot_table.data_fields.count):
+for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
         data_field_index = i
         break
 if data_field_index >= 0:
-    row_field.filter_by_value(data_field_index, ac.PivotFilterType.VALUE_GREATER_THAN, 5000, float('inf'))
+    row_field.filter_by_value(data_field_index, PivotFilterType.VALUE_GREATER_THAN, 5000.0, float('inf'))
 pivot_table.pivot_cache.refresh()
 workbook.save("output.xlsx")
 ```
@@ -114,10 +118,9 @@ workbook.save("output.xlsx")
 
 {{% alert color="primary" %}}
 İlk 10 filtresi, yalnızca pivot tablosunun veri alanında bir veya daha fazla değer pivot alanı olduğunda etkilidir. En az bir değer alanı olmadan, öğeleri sıralamak için toplam bir ölçü yoktur ve filtre uygulanamaz.
-{{% /alert %}}
-
 Aspose.Cells, ilk 10 filtrelemeyi `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)` yöntemi aracılığıyla sunar. `item_count` parametresi kaç öğenin tutulacağını tanımlar, `is_top` en yüksek öğelerin (True) mi yoksa en düşük öğelerin (False) mi tutulacağını belirtir, `value_field` sıralama için kullanılan veri alanına başvurur ve `PivotFilterType` değerin nasıl hesaplanacağını kontrol eder (genellikle `Sum`, ayrıca `Count` ve `Percent`).
 Aşağıdaki örnek, bir değer alanı içeren pivot tabloya sahip bir çalışma kitabını yükler, satış toplamına göre yalnızca en yüksek 10 öğeyi tutmak için bir ilk 10 filtresi uygular, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
@@ -131,7 +134,7 @@ worksheet = workbook.worksheets[0]
 # Pivot tablosuna indekse göre eriş
 pivotTable = worksheet.pivot_tables[0]
 # Veri alanında en az bir değer PivotField olduğunu doğrula
-if pivotTable.data_fields.count == 0:
+if len(pivotTable.data_fields) == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
 # Hedef satır PivotField'ını al (Top 10 uygulamak istediğimiz alan)
@@ -140,10 +143,10 @@ rowField = pivotTable.row_fields[0]
 valueFieldIndex = 0
 # Satır alanına Top 10 filtresini uygula:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (ilk N; false alt N anlamına gelir)
 #   - valueFieldIndex = öğeleri sıralamak için kullanılan veri alanının indeksi
-rowField.filter_top10(10, acp.PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
 # Pivot tablo verilerini yenile ve filtrenin geçerli olması için yeniden hesapla
 pivotTable.pivot_cache.refresh()
 # Çalışma kitabını kaydet

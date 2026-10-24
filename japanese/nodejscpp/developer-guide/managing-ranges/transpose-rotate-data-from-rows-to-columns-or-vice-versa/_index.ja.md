@@ -45,6 +45,7 @@ Aspose.Cells for Node.js via C++ は、行を列に、列を行に転置（回�
 転置後、同じアンカー範囲に回転されたデータが保持されます。最初の行は（空白、**Europe**、**Asia**、**North America**）となり、最初の列は（空白、**Qtr 1**、**Qtr 2**、**Qtr 3**、**Qtr 4**）となります。元の売上データの各列が、転置後の範囲では行になります。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var srcFile = "source.xlsx";
 var outputFile = "transposed.xlsx";
 var workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
@@ -74,7 +75,7 @@ workbook.save(outputFile);
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
@@ -103,7 +104,7 @@ CSE 配列数式は `TRANSPOSE` 式を評価する従来の Excel の方法で�
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Load the source workbook with xlsx LoadOptions
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));

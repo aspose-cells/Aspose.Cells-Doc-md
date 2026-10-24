@@ -18,19 +18,18 @@ Excel Camera, esasen çalışma sayfasının çizim katmanında belirli bir sat�
 ## Yöntem 1 — Dinamik Camera Resmi Ekleme
 Dinamik Camera en yaygın yaklaşımdır ve Excel'in yerleşik Camera aracına en yakın eşleşmedir. Başlangıçta görüntü içeriği olmayan bir resim ekleyerek ve ardından kaynak aralığa referans veren bir `Formula` atayarak çalışır. Formül atandıktan sonra, `updateSelectedValue()` çağrısı gömülü görüntü verilerini yansıttığı hücrelerle senkronize olacak şekilde yeniler. Camera, özel bir sınıf aracılığıyla uygulanmaz — tamamen standart `Picture` türü üzerine kuruludur.
 Temel API'ler şunlardır:
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — resmi belirtilen satır ve sütuna sabitler. `stream` parametresi için `null` geçmek, dinamik bir Camera için yer tutucu işlevi gören boş bir resim oluşturur. Yöntem, yeni resmin dizinini döndürür.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — resmi belirtilen satır ve sütuna sabitler. `stream` parametresi için `null` geçmek, dinamik bir Camera için yer tutucu işlevi gören boş bir resim oluşturur. Yöntem, yeni resmin dizinini döndürür.
 - `pictures.get(index)` — koleksiyondan dizine göre belirli bir `Picture` alır.
 - `Picture.formula` — Camera'nın yansıttığı kaynak aralığa A1 tarzında referansı tutan bir dize özelliğidir (get/set), örneğin `"A1:F10"`.
 - `Picture.updateSelectedValue()` — `formula` tarafından referans verilen hücrelerden gömülü görüntü verilerini yenileyen void bir yöntemdir.
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` çağrısı, çıktı HTML veya PDF olduğunda kaydetmeden önce YAPILmalıdır; aksi takdirde dışa aktarılan dosya resim verilerini içermeyecek ve Camera işlenmiş çıktıda boş görünecektir.
+Aşağıdaki kod bir çalışma kitabı oluşturur, satır 10 sütun 6'ya sabitlenmiş boş bir resim ekler, onu `Formula` özelliği aracılığıyla `A1:F10` kaynak aralığına bağlar, gömülü görüntü verilerini yeniler ve çalışma kitabını kaydeder.
 {{% /alert %}}
 
-Aşağıdaki kod bir çalışma kitabı oluşturur, satır 10 sütun 6'ya sabitlenmiş boş bir resim ekler, onu `Formula` özelliği aracılığıyla `A1:F10` kaynak aralığına bağlar, gömülü görüntü verilerini yeniler ve çalışma kitabını kaydeder.
-
 ```javascript
-const aspose = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
@@ -48,22 +47,18 @@ Temel API'ler şunlardır:
 - `Cells.createRange(address)` — `A1:F10` gibi A1 tarzında bir adresten bir `Range` nesnesi oluşturur.
 - `Range.toImage(ImageOrPrintOptions options)` — aralığı görüntü baytlarına işler. `null` geçmek varsayılan işleme seçeneklerini kullanır; çıktı üzerinde daha ayrıntılı kontrol için aşırı yüklemeler mevcuttur.
 - `new Buffer(byte[] buffer)` — işlenmiş görüntü baytlarını `getPictures().add` öğesine beslenebilecek bir `Buffer` içinde sarar.
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — resmi belirtilen satır ve sütuna sabitler, bu sefer işleme tarafından üretilen `Buffer`'ı geçer.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — resmi belirtilen satır ve sütuna sabitler, bu sefer işleme tarafından üretilen `Buffer`'ı geçer.
 Aşağıdaki kod bir çalışma kitabı oluşturur, `A1:F10` için bir `Range` oluşturur, onu `range.toImage(null)` aracılığıyla görüntü baytlarına işler, baytları bir `Buffer` içinde sarar, resmi satır 10 sütun 6'ya sabitler ve çalışma kitabını kaydeder.
 
 ```javascript
-const aspose = require("aspose.cells");
-const { MemoryStream } = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Statik Kamera: Aralık oluştur, bayt olarak işle, MemoryStream içine sar, resim olarak ekle
 let range = worksheet.getCells().createRange("A1:F10");
 let imageBytes = range.toImage(null);
-let stream = new MemoryStream();
-stream.write(imageBytes);
 let pictures = worksheet.getPictures();
-pictures.add(10, 6, stream);
+pictures.add(10, 6, imageBytes);
 workbook.save("output_static.xlsx", aspose.SaveFormat.Xlsx);
 ```
 

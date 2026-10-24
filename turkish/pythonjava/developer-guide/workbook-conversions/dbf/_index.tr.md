@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, DBF (dBASE) dosyalarını okuma ve yazma için tam destek sağlar. Mevcut dBASE III ve dBASE IV dosyalarını bir Workbook nesnesine yükleyebilir, zengin Aspose.Cells API'sini kullanarak verileri düzenleyebilir ve çalışma kitabını eski veritabanı uygulamalarıyla kullanılmak üzere tekrar DBF formatında kaydedebilirsiniz.
+{{% /alert %}}
 
 ## **Giriş**
 DBF (DataBase File), başlangıçta 1980'lerin başında dBASE tarafından tanıtılan eski bir veritabanı dosya formatıdır. Formatın eskiliğine rağmen, DBF dosyaları birçok sektörde, özellikle muhasebe, CBS ve diğer özel uygulamalarda yapılandırılmış verileri depolamak için hala yaygın olarak kullanılmaktadır. Aspose.Cells, bu eski dosyaları modern Python via Java elektronik tablo iş akışlarına sorunsuz bir şekilde entegre etmenizi sağlar.
@@ -45,18 +46,18 @@ DBF dosyalarıyla çalışırken aşağıdaki kısıtlamaları aklınızda bulun
 Aspose.Cells, bir DBF dosyasındaki verileri bir Workbook nesnesine yüklemeyi oldukça kolay hale getirir. Kütüphane, kaynak formatı belirtmek için `LoadOptions` sınıfını kullanır ve yükleme işlemi sırasında verilerin doğru şekilde yorumlanmasını sağlar.
 
 ### Aspose.Cells ile DBF Dosyası Okuma
-Bir DBF dosyasını okumak için bir `LoadOptions` örneği oluşturmanız, `LoadFormat` özelliğini `LoadFormat.Dbf` olarak ayarlamanız ve dosya yoluyla birlikte `Workbook` yapıcısına iletmeniz gerekir. Yüklendikten sonra, verilere `Worksheets` koleksiyonu üzerinden erişilebilir; burada hücreler arasında yineleme yapabilir, değerleri çıkarabilir veya verileri gerektiği gibi düzenleyebilirsiniz.
+Bir DBF dosyasını okumak için bir `LoadOptions` örneği oluşturmanız, `LoadFormat` özelliğini `LoadFormat.DBF` olarak ayarlamanız ve dosya yoluyla birlikte `Workbook` yapıcısına iletmeniz gerekir. Yüklendikten sonra, verilere `Worksheets` koleksiyonu üzerinden erişilebilir; burada hücreler arasında yineleme yapabilir, değerleri çıkarabilir veya verileri gerektiği gibi düzenleyebilirsiniz.
 Aşağıdaki örnek, mevcut bir DBF dosyasının Aspose.Cells'e nasıl yükleneceğini, ilk çalışma sayfasına nasıl erişileceğini ve hücre değerlerinin nasıl okunacağını gösterir.
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, LoadOptions, LoadFormat, SaveFormat
 dataDir = "Data/"
 filePath = os.path.join(dataDir, "example.dbf")
-loadOptions = LoadOptions(LoadFormat.Dbf)
+loadOptions = LoadOptions(LoadFormat.DBF)
 workbook = Workbook(filePath, loadOptions)
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
@@ -71,30 +72,32 @@ for i in range(maxRow + 1):
     sb.append("|" + "\n")
 print("".join(sb))
 outputPath = os.path.join(dataDir, "output.xlsx")
-workbook.save(outputPath, SaveFormat.Xlsx)
+workbook.save(outputPath, SaveFormat.XLSX)
 print("DBF file loaded successfully. Converted XLSX saved at: " + outputPath)
 jpype.shutdownJVM()
 ```
 
 {{% alert color="primary" %}}
 DBF dosyalarını doğrudan Microsoft Excel'de, Dosya Aç iletişim kutusunda dosyayı seçerek açabilirsiniz. Excel, DBF dosyasını bir elektronik tablo olarak değerlendirerek kayıtlarını tablo düzeninde görüntüleyecektir. Bu, Aspose.Cells ile okuma veya yazma işleminden sonra verileri hızlıca doğrulamak için kullanışlıdır.
+{{% /alert %}}
 
 ## **DBF Dosyası Yazma**
-DBF dosyasına veri yazmak, Aspose.Cells ile herhangi bir elektronik tablo formatını kaydetmeye benzer bir model izler. Bir Workbook oluşturur veya yüklersiniz, çalışma sayfasını verilerle doldurursunuz ve ardından hedef format olarak `SaveFormat.Dbf` belirterek `Save` yöntemini çağırırsınız.
+DBF dosyasına veri yazmak, Aspose.Cells ile herhangi bir elektronik tablo formatını kaydetmeye benzer bir model izler. Bir Workbook oluşturur veya yüklersiniz, çalışma sayfasını verilerle doldurursunuz ve ardından hedef format olarak `SaveFormat.DBF` belirterek `Save` yöntemini çağırırsınız.
 
 ### Aspose.Cells ile DBF Dosyası Yazma
 Bir DBF dosyası oluşturmak için şu adımları izleyin:
 1. Yeni bir `Workbook` örneği oluşturun.
 2. `Worksheets` koleksiyonundan ilk çalışma sayfasına erişin.
 3. Çalışma sayfasını verilerinizle doldurun; ilk satıra başlıkları ve sonraki satırlara kayıtları ekleyin.
-4. Dosya yolunu ve `SaveFormat.Dbf` parametre olarak ileterek `Workbook.save` yöntemini çağırın.
+4. Dosya yolunu ve `SaveFormat.DBF` parametre olarak ileterek `Workbook.save` yöntemini çağırın.
 Aşağıdaki örnek, sıfırdan yeni bir DBF dosyasının nasıl oluşturulacağını gösterir. DBF formatına dışa aktarırken alan türlerinin nasıl işlendiğini göstermek için farklı veri türleri (dizeler, sayılar ve tarihler) içeren örnek verilerle bir çalışma sayfası doldurur.
 
 ```python
 import jpype
+import os
+import jpype.imports
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat
 import java.time as _jt
 import java.util as _ju
@@ -147,12 +150,13 @@ worksheet.getCells().setColumnWidth(1, 20)
 worksheet.getCells().setColumnWidth(2, 20)
 worksheet.getCells().setColumnWidth(3, 12)
 worksheet.getCells().setColumnWidth(4, 14)
-workbook.save(filePath, SaveFormat.DBf)
+workbook.save(filePath, SaveFormat.DBF)
 jpype.shutdownJVM()
 ```
 
 {{% alert color="primary" %}}
 DBF dosyasına veri yazarken, verilerinizin formatın sınırlamalarına uygun olduğundan emin olun. Alan adları 10 karakterden uzun olmamalı ve boşluk içermemelidir. Toplamda 4000 baytı aşan kayıtlar doğru şekilde kaydedilmeyecektir. Tarihler, YYYYAAGG formatında gösterilebilen geçerli tarih değerleri olmalıdır.
+{{% /alert %}}
 
 ## **Veri Türü ve Biçimlendirme Dikkat Edilmesi Gerekenler**
 Verileri Aspose.Cells ile DBF formatı arasında aktarırken, veri bütünlüğünü sağlamak için veri türlerinin iki sistem arasında nasıl eşlendiğini anlamak önemlidir.
@@ -180,10 +184,5 @@ Bir DBF dosyasını yazdıktan sonra, sonucu Microsoft Excel'de veya herhangi bi
 ## **DBF ve Diğer Formatlar Arasında Dönüştürme**
 Aspose.Cells ile DBF dosyalarını okuma ve yazmanın en pratik kullanım alanlarından biri, verileri DBF formatı ile XLSX, XLS veya CSV gibi modern elektronik tablo formatları arasında dönüştürmektir. Aspose.Cells geniş bir format yelpazesini desteklediğinden, bir DBF dosyasını kolayca yükleyebilir ve desteklenen herhangi bir başka formatta yeniden kaydedebilirsiniz veya bunun tersini yapabilirsiniz.
 Örneğin, bir DBF dosyasını okuyabilir, Aspose.Cells API'sini kullanarak biçimlendirme veya hesaplamalar uygulayabilir ve ardından sonucu modern elektronik tablo uygulamalarıyla çalışan kullanıcılara dağıtmak için bir XLSX dosyası olarak kaydedebilirsiniz. Tersine, bir XLSX veya CSV dosyasındaki verileri alabilir ve eski sistemlerle entegrasyon için DBF formatına dışa aktarabilirsiniz.
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

@@ -73,6 +73,7 @@ int main() {
 #include "Aspose.Cells.h"
 #include <string>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -94,7 +95,7 @@ int main() {
     cells.Get(u"A10").PutValue(u"blueberry");cells.Get(u"B10").PutValue(u"2022");cells.Get(u"C10").PutValue(450);
     // 在 E3 处添加数据透视表，覆盖 A1:C10
     PivotTableCollection pivotTables = sheet.GetPivotTables();
-    int pivotIndex = pivotTables.Add(U16String(u"E3"), U16String(u"A1:C10"), U16String(u"PivotTable1"));
+    int pivotIndex = pivotTables.Add(U16String(u"A1:C10"), U16String(u"E3"), U16String(u"PivotTable1"));
     PivotTable pivotTable = pivotTables.Get(pivotIndex);
     // Fruit -> 行，Amount -> 数据
     pivotTable.AddFieldToArea(PivotFieldType::Row, U16String(u"Fruit"));
@@ -127,6 +128,7 @@ int main() {
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -163,6 +165,7 @@ int main() {
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -206,6 +209,7 @@ int main() {
 #include <string>
 #include <vector>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -233,7 +237,7 @@ int main() {
     }
     Worksheet pivotSheet = workbook.GetWorksheets().Add(u"Pivot");
     PivotTableCollection pivots = pivotSheet.GetPivotTables();
-    int pivotIndex = pivots.Add(u"E3", u"A1:C10", u"PivotTable1");
+    int pivotIndex = pivots.Add(u"A1:C10", u"E3", u"PivotTable1");
     PivotTable pivotTable = pivots.Get(pivotIndex);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");

@@ -26,6 +26,7 @@ Es gibt zwei Möglichkeiten, ein Pivot-Feld im Filterbereich zu registrieren. De
 Das folgende Beispiel erstellt einen kleinen Fruit / Year / Amount-Datensatz, platziert eine Pivot-Tabelle in Zelle E3 mit `Fruit` im Zeilenbereich, `Amount` im Datenbereich und `Year` im Filterbereich, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 Wenn Sie bereits mit einer `PivotField`-Instanz arbeiten, können Sie diese direkt an `PivotTable.pageFields.add` übergeben. Die Pivot-Tabelle und das Filterfeld werden genau wie im vorherigen Szenario konstruiert; nur die endgültige Registrierung im Filterbereich wird durch den Low-Level-API-Aufruf ersetzt.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Überschriften
@@ -106,6 +108,7 @@ Im Standardverhalten der Einzelauswahl rendert das Filterfeld als einzelnes Drop
 Das Setzen von `currentPageItem` auf den magischen Wert `0x7FFD` entspricht dem Löschen des Filters: der Pivot-Körper fasst jedes Seitenelement zusammen, als ob kein Filter angewendet wäre.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Fruit/Jahr/Betrag Daten einfügen
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 Das Setzen von `currentPageItem` auf einen tatsächlichen Index wählt genau dieses eine Seitenelement aus. Der Index ist die Position des Elements in der sortierten Elementliste des Filterfelds, sodass beispielsweise `1` das zweite Element nach dem Sortieren auswählt.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -184,6 +188,7 @@ Die Mehrfachauswahl-Filterung verwandelt das Seiten-Dropdown in eine Kontrollkä
 Der folgende Code aktiviert die Mehrfachauswahl für dasselbe Year-Filterfeld, das in Szenario 1a erstellt wurde, und zeigt dann zwei Muster: Teil A deckt jedes Seitenelement auf, indem `isHidden` für jeden Eintrag auf `false` belassen wird, während Teil B nur die von Ihnen gewählten Quellwerte auf die Whitelist setzt und alles andere über einen `switch (pivotItems[i].getStringValue())`-Block ausblendet.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();

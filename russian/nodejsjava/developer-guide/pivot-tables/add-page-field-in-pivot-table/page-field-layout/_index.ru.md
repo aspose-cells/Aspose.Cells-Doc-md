@@ -39,12 +39,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 В первом сценарии мы настраиваем два поля страницы (`Year`, `Region`) так, чтобы они отображались **бок о бок в одной строке** в верхней части сводной таблицы. Мы назначаем `Fruit` на ось строк, размещаем `Year` первым и `Region` вторым на оси страниц (порядок вызовов `addFieldToArea` определяет начальный индекс), добавляем `Amount` (Sum) в качестве поля данных, а затем устанавливаем `PageFieldOrder` в `PrintOrderType.OVER_THEN_DOWN` со значением `PageFieldWrapCount = 2`. С параметром `OVER_THEN_DOWN` и количеством полей перед переносом равным 2 два поля страницы располагаются горизонтально бок о бок в одной строке в верхней части сводной таблицы, поэтому полоса занимает одну строку шириной в два столбца.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
+const path = require("path");
 let dataDir = "output";
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
 let workbook = new AsposeCells.Workbook();
 let worksheets = workbook.getWorksheets();
-let pivotDataIdx = worksheets.add("PivotData");
-let pivotDataSheet = worksheets.get(pivotDataIdx);
+let pivotDataSheet = worksheets.add("PivotData");
 let pivotDataCells = pivotDataSheet.getCells();
 // Заголовки (строка 0)
 pivotDataCells.get(0, 0).putValue("Fruit");
@@ -92,20 +94,19 @@ pivotDataCells.get(8, 1).putValue(2023);
 pivotDataCells.get(8, 2).putValue("West");
 pivotDataCells.get(8, 3).putValue(110);
 // Добавить лист PivotTableReport
-let pivotTableSheetIdx = worksheets.add("PivotTableReport");
-let pivotTableSheet = worksheets.get(pivotTableSheetIdx);
+let pivotTableSheet = worksheets.add("PivotTableReport");
 let pivotTables = pivotTableSheet.getPivotTables();
 // Создать сводную таблицу из PivotData!A1:D9, размещённую на A1 листа PivotTableReport
 let pivotIndex = pivotTables.add("PivotData!A1:D9", "A1", "PivotTable1");
 let pivotTable = pivotTables.get(pivotIndex);
 // Добавить поля
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // Фрукт
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // Год
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);  // Регион
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // Сумма
-pivotTable.getDataFields().get(0).setFunction(AsposeCells.ConsolidationFunction.Sum);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);   // Фрукт
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);  // Год
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);  // Регион
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);  // Сумма
+pivotTable.getDataFields().get(0).setFunction(AsposeCells.ConsolidationFunction.SUM);
 // Настроить компоновку области полей страницы: сначала размещать поля страницы по горизонтали, переносить после каждых 2
-pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OverThenDown);
+pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OVER_THEN_DOWN);
 pivotTable.setPageFieldWrapCount(2);
 // Обновить и вычислить
 pivotTable.calculateData();
@@ -117,6 +118,7 @@ workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 В этом примере мы размещаем `Fruit` на оси строк, `Year` и `Region` на оси страниц (с `Year` первым), и `Amount` (Sum) в качестве поля данных — точно так же, как в примере 1. Затем мы устанавливаем `PageFieldOrder` в `PrintOrderType.DOWN_THEN_OVER` и `PageFieldWrapCount` в `2`. С параметром `DOWN_THEN_OVER` и количеством полей перед переносом равным 2 два поля страницы располагаются вертикально друг под другом — `Year` сверху, `Region` непосредственно под ним — формируя один столбец в верхней части сводной таблицы. Таким образом, полоса занимает две строки шириной в один столбец, в отличие от примера 1.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
@@ -146,11 +148,11 @@ for (var r = 0; r < data.length; r++)
 }
 var idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
 var pivotTable = pivotReport.getPivotTables().get(idx);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);
-pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DownThenOver);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);
+pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DOWN_THEN_OVER);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.calculateData();
 workbook.save("pageFieldLayout_downThenOver.xlsx");
@@ -204,10 +206,10 @@ const pivotSheetIdx = workbook.getWorksheets().add("PivotTableReport");
 const pivotSheet = workbook.getWorksheets().get(pivotSheetIdx);
 const pivotIdx = pivotSheet.getPivotTables().add("PivotData!A1:D9", "A3", "PivotTable");
 const pivotTable = pivotSheet.getPivotTables().get(pivotIdx);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.ROW, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.DATA, 3);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OVER_THEN_DOWN);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.getPageFields().move(0, 1);

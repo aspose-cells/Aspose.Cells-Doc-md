@@ -57,10 +57,9 @@ Datumsfilter ermöglichen es Ihnen, eine Pivot-Tabelle nach datumsbasierten Krit
 
 {{% alert color="primary" %}}
 Der Datumsfilter funktioniert nur, wenn der Zeilen- oder Spaltenbereich ausschließlich Datums-/Uhrzeit-Zellen oder Leerwerte enthält. Wenn das zugrunde liegende Feld andere Datentypen wie Zahlen oder Text enthält, liefert der Datumsfilter nicht das erwartete Ergebnis. Stellen Sie sicher, dass das Feld als Datum formatiert ist und dass alle Werte gültige `DateTime`-Instanzen oder leere Zellen sind, bevor Sie diesen Filter anwenden.
-{{% /alert %}}
-
 Aspose.Cells stellt die Datumsfilterung über die Methode `PivotField.FilterByDate(PivotFilterType, params DateTime[] values)` bereit. Die Enumeration `PivotFilterType` enthält dedizierte Datumswerte wie `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` und `Between`. Je nach gewähltem Filtertyp übergeben Sie einen oder zwei `DateTime`-Werte (für `Between` übergeben Sie das Start- und Enddatum).
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, deren Zeilenbereich ein Datumsfeld enthält, wendet einen Datumsfilter an, der die sichtbaren Elemente auf einen bestimmten Datumsbereich beschränkt, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -129,10 +128,9 @@ Der Top-10-Filter ist eine spezialisierte Form des Wertfilters, der nur die höc
 
 {{% alert color="primary" %}}
 Der Top-10-Filter ist nur wirksam, wenn die Pivot-Tabelle ein oder mehrere Wert-Pivot-Felder im Datenbereich enthält. Ohne mindestens ein Wertfeld gibt es keine aggregierte Messgröße, gegen die die Elemente eingestuft werden können, und der Filter kann nicht angewendet werden.
-{{% /alert %}}
-
 Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)` bereit. Der Parameter `itemCount` definiert, wie viele Elemente beibehalten werden sollen, `filterType` steuert, wie der Wert berechnet wird (typischerweise `Sum`, aber auch `Count` und `Percent`), `isTop` gibt an, ob die obersten Elemente (true) oder die untersten Elemente (false) beibehalten werden sollen, und `valueFieldIndex` ist der Index des Datenfelds, das zum Einstufen der Elemente verwendet wird.
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, die ein Wertfeld enthält, wendet einen Top-10-Filter an, um nur die obersten 10 Elemente nach der Umsatzsumme beizubehalten, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -162,7 +160,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.Sum
 //   - isTop       = true (obere N; false würde untere N bedeuten)
 //   - valueFieldIndex = der Index des Datenfelds, das zum Rangordnen der Elemente verwendet wird
-rowField.FilterTop10(10, PivotFilterType.Sum, true, valueFieldIndex);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
 // Aktualisieren Sie die Pivot-Tabellendaten und berechnen Sie sie neu, damit der Filter wirksam wird
 pivotTable.PivotCache.Refresh();
 // Speichern der Arbeitsmappe

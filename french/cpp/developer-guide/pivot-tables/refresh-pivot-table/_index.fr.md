@@ -1,8 +1,8 @@
 ---
-title: Actualiser les tableaux croisés dynamiques et les caches de tableau croisé dynamique dans Aspose.Cells for C++
-description: Apprenez à actualiser les tableaux croisés dynamiques dans Aspose.Cells for C++ en utilisant l'API d'actualisation des tableaux croisés dynamiques de la v26.7+. Cet article couvre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData et GetPivotTables avec des exemples de code pratiques.
-linktitle: Actualiser les tableaux croisés dynamiques
-keywords: Aspose.Cells, C++, tableau croisé dynamique, actualiser, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
+title: Actualiser les tableaux croisés dynamiques dans Aspose.Cells for C++
+linktitle: Actualiser les tableaux croisés dynamiques dans Aspose.Cells for C++
+description: "Apprenez à actualiser les tableaux croisés dynamiques dans Aspose.Cells for C++ à l’aide de l’API d’actualisation des pivots v26.7+. Cet article couvre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData et GetPivotTables avec des exemples de code pratiques."
+keywords: Aspose.Cells, C++, tableau croisé dynamique, actualisation, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
 url: /fr/cpp/refresh-pivot-table/
@@ -11,27 +11,54 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells fournit une API d'actualisation en couches qui vous permet de recharger les données des tableaux croisés dynamiques à quatre niveaux différents, du classeur entier à un seul tableau croisé dynamique. À partir de **Aspose.Cells for C++ v26.7**, la méthode héritée `PivotTable.RefreshData()` est marquée comme obsolète et doit être remplacée par les API plus efficaces, prenant en charge le cache, décrites dans cet article.
+Aspose.Cells fournit une API d’actualisation à plusieurs niveaux qui permet de recharger les données du tableau croisé dynamique à quatre portées différentes, du classeur entier jusqu’à un seul tableau croisé dynamique. À partir de **Aspose.Cells for C++ v26.7**, l’ancienne méthode `PivotTable.RefreshData()` est marquée comme obsolète et doit être remplacée par les API plus efficaces qui tiennent compte du cache et décrites dans cet article.
 {{% /alert %}}
 
-## **Introduction**
-Actualiser un tableau croisé dynamique est rarement une opération unique. En arrière-plan, Aspose.Cells maintient une chaîne de données en couches qui relie vos données source d'origine aux valeurs rendues que vous voyez dans la feuille de calcul. Comprendre cette chaîne est la clé pour choisir la bonne API d'actualisation pour chaque situation.
-La chaîne de données à quatre couches est :
-1. **Source de données** — les plages de la feuille de calcul d'origine, la requête de base de données ou la plage de consolidation où se trouvent les valeurs brutes.
-2. **PivotCache** — l'instantané en mémoire des données source. Chaque tableau croisé dynamique est construit au-dessus d'un `PivotCache` ; c'est là que toutes les données sont rassemblées et agrégées.
-3. **Tableau croisé dynamique** — l'objet de vue qui définit les champs de ligne, de colonne, de valeur et de filtre. Un `Tableau croisé dynamique` lit *uniquement* à partir de son `PivotCache`, jamais directement à partir de la source de données.
-4. **Cellules** — les `Cellules` de la feuille de calcul dans lesquelles le `Tableau croisé dynamique` rend ses valeurs calculées et ses styles.
+## Introduction
+L’actualisation d’un tableau croisé dynamique relève rarement d’une seule opération. En arrière-plan, Aspose.Cells gère une chaîne de données hiérarchisée qui relie les données source d’origine aux valeurs affichées dans la feuille de calcul. Comprendre cette chaîne est essentiel pour choisir l’API d’actualisation adaptée à chaque situation.
+La chaîne de données à quatre niveaux est la suivante :
+1. **Source de données** — les plages de la feuille de calcul d’origine, la requête de base de données ou la plage de consolidation dans lesquelles les valeurs brutes sont stockées.
+2. **PivotCache** — l’instantané en mémoire des données source. Chaque tableau croisé dynamique est construit au-dessus d’un `PivotCache` ; c’est là que toutes les données sont rassemblées et agrégées.
+3. **PivotTable** — l’objet de vue qui définit les champs de ligne, de colonne, de valeur et de filtre. Un `PivotTable` lit *uniquement* les données de son `PivotCache`, jamais directement celles de la source.
+4. **Cells** — la collection `Cells` de la feuille de calcul dans laquelle le `PivotTable` rend les valeurs calculées et les styles.
 
 {{% alert color="primary" %}}
-`PivotCache.SourceType` (énumération `PivotTableSourceType`) indique d'où proviennent les données du cache. Depuis la v26.7, `PivotCache.Refresh()` ne prend en charge que les types de source **`Sheet`** et **`Consolidation`** — c'est-à-dire les données qui se trouvent dans les plages de la feuille de calcul. Les sources externes (bases de données, connexions externes, etc.) ne sont pas encore actualisables via l'API du cache.
+`PivotCache.SourceType` (enum `PivotTableSourceType`) indique l’origine des données du cache. À partir de v26.7, `PivotCache.Refresh()` prend en charge uniquement les types de source **`Sheet`** et **`Consolidation`**, c’est-à-dire les données stockées dans des plages de feuilles de calcul. Les sources externes, telles que les bases de données et les connexions externes, ne peuvent pas encore être actualisées via l’API du cache.
+En raison de cette chaîne, Aspose.Cells propose deux chemins d’actualisation fondamentaux :
+- **`PivotTable.CalculateData()`** — recalcule l’affichage d’un `PivotTable` à partir de données déjà mises en cache, sans aller-retour vers la source de données.
+Tous les scénarios de cet article utilisent des données source stockées dans des cellules d’une feuille de calcul. Le type de source est donc `Sheet` et les opérations d’actualisation se comportent comme décrit.
 {{% /alert %}}
 
-En raison de cette chaîne, il existe deux chemins d'actualisation fondamentaux dans Aspose.Cells :
-- **`PivotTable.CalculateData()`** — recalcule l'affichage d'un `Tableau croisé dynamique` à partir des données déjà mises en cache, sans aller-retour vers la source de données.
-Tous les scénarios de cet article utilisent des données source de cellules de feuille de calcul, donc le type de source est `Sheet` et les opérations d'actualisation se comportent comme décrit.
+## Quick Start
+Si vous avez uniquement besoin du code le plus court possible pour actualiser tous les tableaux croisés dynamiques du classeur, un seul appel suffit :
 
-## **Démarrage Rapide**
-Si vous avez seulement besoin du code le plus court possible qui actualise chaque tableau croisé dynamique dans le classeur, un seul appel suffit :
+```cpp
+#include "Aspose.Cells.h"
+using namespace Aspose::Cells;
+
+int main()
+{
+    Aspose::Cells::Startup();
+    Workbook workbook(u"input.xlsx");
+    workbook.RefreshAll();
+    workbook.Save(u"output.xlsx");
+    Aspose::Cells::Cleanup();
+    return 0;
+}
+```
+
+Tout le reste de cet article explique quand choisir une API plus ciblée.
+
+## Required Include Directives
+Tous les exemples C++ de cet article commencent par les directives d’inclusion d’en-tête et de namespace suivantes, car les types de pivot résident dans le namespace `Aspose::Cells::Pivot` :
+- `#include <system/object.h>`
+- `#include "Aspose.Cells.h"`
+- `using namespace Aspose::Cells;`
+- `using namespace Aspose::Cells::Pivot;`
+
+## Refresh All Pivot Tables in the Workbook
+Lorsque vous devez garantir que chaque cache de pivot et chaque tableau croisé dynamique du classeur reflète les dernières données source, l’API la plus simple et la plus complète est `Workbook.RefreshAll()`. Un seul appel parcourt tout le classeur, actualise chaque `PivotCache` depuis sa source, puis recalcule chaque `PivotTable` dépendant. C’est l’approche recommandée pour les actualisations générales de l’ensemble du document lorsque les performances ne sont pas un facteur déterminant.
+L’exemple suivant construit un classeur avec une plage source Fruit/Year/Amount, crée un tableau croisé dynamique, modifie certaines valeurs source, puis utilise `RefreshAll()` pour tout actualiser en un seul appel.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -84,22 +111,13 @@ int main() {
 }
 ```
 
-Tout le reste de cet article explique quand choisir une API plus restreinte à la place.
-
-## **Directives Include Requises**
-Tous les exemples C++ de cet article commencent par les directives d'inclusion d'en-tête et d'espace de noms suivantes car les types de tableau croisé dynamique se trouvent dans l'espace de noms `Aspose::Cells::Pivot` :
-- `#include <system/object.h>`
-- `#include "Aspose.Cells.h"`
-- `using namespace Aspose::Cells;`
-- `using namespace Aspose::Cells::Pivot;`
-
-## **Actualiser Tous les Tableaux Croisés Dynamiques du Classeur**
-Lorsque vous devez vous assurer que chaque cache de tableau croisé dynamique et chaque tableau croisé dynamique du classeur reflète les dernières données source, l'API la plus simple et la plus complète est `Workbook.RefreshAll()`. Un seul appel parcourt tout le classeur — actualisant chaque `PivotCache` à partir de sa source, puis recalculant chaque `Tableau croisé dynamique` dépendant. C'est l'approche recommandée pour les actualisations générales de document complet où la performance n'est pas une préoccupation.
-L'exemple suivant construit un classeur avec une plage source Fruit/Année/Montant, crée un tableau croisé dynamique, modifie certaines valeurs source, puis utilise `RefreshAll()` pour tout mettre à jour en un seul appel.
+## Refresh All Pivot Tables on a Single Worksheet
+Parfois, vous ne souhaitez actualiser que les tableaux croisés dynamiques résidant sur une feuille de calcul donnée, par exemple lorsque vous savez que ceux des autres feuilles de calcul ne sont pas liés et ne doivent pas être modifiés. Dans ce cas, Aspose.Cells fournit `Worksheet.RefreshPivotTables()`, qui est limitée à une seule instance de `Worksheet`.
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -146,17 +164,25 @@ int main() {
 }
 ```
 
-## **Actualiser Tous les Tableaux Croisés Dynamiques sur une Seule Feuille de Calcul**
-Parfois, vous avez seulement besoin d'actualiser les tableaux croisés dynamiques qui se trouvent sur une feuille de calcul spécifique — par exemple, lorsque les tableaux croisés dynamiques sur d'autres feuilles de calcul sont connus pour ne pas être liés et ne doivent pas être touchés. Pour ce cas, Aspose.Cells fournit `Worksheet.RefreshPivotTables()`, qui est limité à une seule instance de `Worksheet`.
+## Refresh a Single Pivot Table
+Lorsque vous souhaitez contrôler finement un seul tableau croisé dynamique, l’API basée sur le cache vous offre deux options. Le choix dépend de ce qui a réellement changé : les données source sous-jacentes ou uniquement les paramètres d’affichage et de disposition du tableau croisé dynamique lui-même.
+
+### Source Data Changed — Use `PivotCache.Refresh()`
+Si les données source sous-jacentes ont changé, le point d’entrée approprié est `pivotTable.GetPivotCache().Refresh()`. Cet appel relit les données source dans le cache, puis recalcule chaque `PivotTable` qui dépend de ce cache.
+
+### Only View/Layout Changed — Use `CalculateData()`
+Si les données source n’ont *pas* changé et que seuls les paramètres d’affichage ou de disposition du tableau croisé dynamique ont été modifiés, par exemple si un champ a été déplacé vers une autre zone ou si un paramètre d’actualisation à l’ouverture a été modifié, il est inutile de retourner à la source de données. Le cache contient déjà les données correctes ; seul le `PivotTable` rendu doit être recalculé. Dans ce cas, `pivotTable.CalculateData()` est le bon choix.
+L’exemple suivant modifie une propriété non liée à la source du tableau croisé dynamique, puis appelle `CalculateData()` pour effectuer un nouveau rendu à partir du cache existant.
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // Écrire la ligne d'en-tête Fruit / Année / Montant
+    // Écrire la ligne d’en-tête Fruit / Year / Amount
     worksheet.GetCells().Get(u"A1").PutValue(u"Fruit");
     worksheet.GetCells().Get(u"B1").PutValue(u"Year");
     worksheet.GetCells().Get(u"C1").PutValue(u"Amount");
@@ -185,19 +211,19 @@ int main() {
     worksheet.GetCells().Get(u"A9").PutValue(u"Cherry");
     worksheet.GetCells().Get(u"B9").PutValue(2021);
     worksheet.GetCells().Get(u"C9").PutValue(450);
-    // Ajouter un tableau croisé dynamique nommé "Pivot1" placé dans la cellule de destination E3, à partir de la plage A1:C9
+    // Ajouter un tableau croisé dynamique nommé "Pivot1", placé dans la cellule de destination E3 et utilisant A1:C9 comme source
     int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
     PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
-    // Assigner les champs : Fruit à Ligne, Année à Colonne, Montant à Données
+    // Affecter les champs : Fruit à Ligne, Year à Colonne, Amount à Données
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // Modifier une propriété d'affichage/mise en page — il s'agit d'une modification purement présentationnelle,
+    // Modifier une propriété d’affichage/disposition — il s’agit uniquement d’une modification de présentation,
     // elle ne nécessite donc PAS de relire les données source via PivotCache.Refresh().
     pivotTable.SetRefreshDataOnOpeningFile(false);
-    // CalculateData() restitue l'affichage de CE tableau croisé dynamique (données + style) à partir des
-    // données déjà détenues dans le PivotCache. Étant donné que les données source n'ont pas changé,
-    // aucun aller-retour vers la source n'est effectué — seules les valeurs mises en cache sont recalculées
+    // CalculateData() régénère l’affichage de CE tableau croisé dynamique (données + style) à partir des
+    // données déjà conservées dans le PivotCache. Comme les données source n’ont pas changé,
+    // aucun aller-retour vers la source n’est effectué — seules les valeurs mises en cache sont recalculées
     // dans les cellules de la feuille de calcul.
     pivotTable.CalculateData();
     // Enregistrer le classeur sur le disque
@@ -207,15 +233,14 @@ int main() {
 }
 ```
 
-## **Actualiser un Seul Tableau Croisé Dynamique**
-Lorsque vous voulez un contrôle précis sur un seul tableau croisé dynamique, l'API basée sur le cache vous offre deux options. Le choix entre elles dépend de ce qui a réellement changé : les données source sous-jacentes, ou simplement les paramètres de vue/mise en page du tableau croisé dynamique lui-même.
+Un classeur contient souvent de nombreux tableaux croisés dynamiques qui reposent tous sur un même cache. Pour les énumérer, par exemple avant d’effectuer une actualisation par lot ou de diagnostiquer l’impact d’un cache partagé, utilisez `PivotCache.GetPivotTables()`. Cette méthode retourne la collection de tous les `PivotTable` qui dépendent du cache spécifié.
 
-### **Les Données Source Ont Changé — Utilisez `PivotCache.Refresh()`**
-Si les données source sous-jacentes ont changé, le bon point d'entrée est `pivotTable.GetPivotCache().Refresh()`. Cet appel relit les données source dans le cache, puis recalcule chaque `Tableau croisé dynamique` qui dépend de ce cache.
-
-### **Seule la Vue/Mise en Page A Changé — Utilisez `CalculateData()`**
-Si les données source n'ont *pas* changé mais que seuls les paramètres de vue ou de mise en page du tableau croisé dynamique ont été modifiés (par exemple, un champ a été déplacé vers une zone différente, ou un paramètre d'actualisation à l'ouverture a été basculé), il n'est pas nécessaire de faire un aller-retour vers la source de données. Le cache contient déjà les bonnes données ; seul le `Tableau croisé dynamique` rendu doit être recalculé. Dans ce cas, `pivotTable.CalculateData()` est le bon choix.
-L'exemple suivant modifie une propriété non source du tableau croisé dynamique, puis appelle `CalculateData()` pour le rendre à nouveau à partir du cache existant.
+## Migrating from the Obsolete `PivotTable.RefreshData()`
+Avant Aspose.Cells for C++ v26.7, la méthode standard consistait à appeler `PivotTable.RefreshData()` sur chaque tableau croisé dynamique. À partir de v26.7, cette méthode est marquée **obsolète** et doit être remplacée par les API basées sur le cache décrites ci-dessus.
+Dans les classeurs réels, l’approche par table avec `RefreshData()` présente deux problèmes :
+- Elle récupère à nouveau les données depuis la source *à chaque appel*, même si la source n’a pas changé.
+Les remplacements recommandés sont les suivants :
+L’exemple suivant illustre le nouveau modèle efficace pour les classeurs contenant plusieurs tableaux croisés dynamiques qui partagent un même cache.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -256,37 +281,21 @@ int main() {
 }
 ```
 
-Un classeur contient souvent de nombreux tableaux croisés dynamiques qui reposent tous sur un cache partagé. Pour les énumérer — par exemple, avant d'effectuer une actualisation par lots, ou pour diagnostiquer l'impact du cache partagé — utilisez `PivotCache.GetPivotTables()`. Cette méthode renvoie la collection de chaque `Tableau croisé dynamique` qui dépend du cache donné.
-
-## **Migrer depuis l'Obsolète `PivotTable.RefreshData()`**
-Avant Aspose.Cells for C++ v26.7, la manière standard d'actualiser un tableau croisé dynamique était d'appeler `PivotTable.RefreshData()` sur chaque tableau croisé dynamique individuellement. À partir de la v26.7, cette méthode est marquée comme **obsolète** et doit être remplacée par les API prenant en charge le cache décrites ci-dessus.
-Il y a deux raisons pour lesquelles l'approche `RefreshData()` par tableau est problématique dans les classeurs réels :
-- Elle récupère à nouveau les données depuis la source à *chaque* appel, même lorsque la source n'a pas changé.
-Les remplacements recommandés sont :
-L'exemple suivant démontre le nouveau modèle efficace pour les classeurs avec plusieurs tableaux croisés dynamiques partageant un seul cache.
-
-## **Quelle API d'Actualisation Dois-je Utiliser ?**
-Le tableau ci-dessous résume les API d'actualisation disponibles et quand choisir chacune.
-| Objectif | API recommandée | Notes |
+## Which Refresh API Should I Use?
+Le tableau ci-dessous récapitule les API d’actualisation disponibles et le moment où choisir chacune d’elles.
+| Objectif | API recommandée | Remarques |
 |------|-----------------|-------|
-| Actualiser tout dans le classeur | `Workbook.RefreshAll()` | Un seul appel ; couvre tous les caches et tous les tableaux. |
-| Actualiser uniquement les tableaux croisés dynamiques sur une seule feuille | `Worksheet.RefreshPivotTables()` | Limité à une feuille de calcul. |
-| Les données source ont changé pour un cache | `pivotTable.GetPivotCache().Refresh()` | Actualise TOUS les tableaux croisés dynamiques sur ce cache partagé. |
-| Seuls les paramètres de vue/mise en page ont changé | `pivotTable.CalculateData()` | Évite l'aller-retour inutile vers la source. |
-| Lister tous les tableaux croisés dynamiques sur un cache partagé | `pivotCache.GetPivotTables()` | À utiliser pour énumérer avant une actualisation en masse. |
-En pratique, préférez les API basées sur le cache à l'obsolète `RefreshData()` par tableau. Elles sont conscientes des caches partagés, elles évitent les récupérations redondantes de la source, et elles vous permettent de choisir la plus petite portée qui satisfait votre exigence d'actualisation.
+| Actualiser tout le classeur | `Workbook.RefreshAll()` | Un seul appel ; couvre tous les caches et tous les tableaux. |
+| Actualiser uniquement les tableaux croisés dynamiques d’une seule feuille | `Worksheet.RefreshPivotTables()` | Limitée à une seule feuille de calcul. |
+| Les données source d’un cache ont changé | `pivotTable.GetPivotCache().Refresh()` | Actualise TOUS les tableaux croisés dynamiques qui utilisent ce cache partagé. |
+| Seuls les paramètres d’affichage et de disposition ont changé | `pivotTable.CalculateData()` | Évite un aller-retour inutile vers la source. |
+| Répertorier tous les tableaux croisés dynamiques d’un cache partagé | `pivotCache.GetPivotTables()` | À utiliser pour les énumérer avant une actualisation groupée. |
+En pratique, préférez les API basées sur le cache à la méthode obsolète `RefreshData()` par table. Elles tiennent compte des caches partagés, évitent les récupérations redondantes de la source et permettent de choisir la plus petite portée qui répond au besoin d’actualisation.
 
-## **Pièges Courants**
-- **Oublier d'actualiser avant d'enregistrer.** Un tableau croisé dynamique n'écrit ses valeurs rendues dans la feuille de calcul que lorsque sa chaîne de données est actualisée. Si vous modifiez les cellules source, appelez `PivotCache.Refresh()` (ou `Workbook.RefreshAll()`) avant `Workbook.Save()`, sinon le fichier enregistré contient toujours les anciennes valeurs agrégées.
-- **Appeler l'obsolète `RefreshData()` par tableau.** Dans la v26.7, `PivotTable.RefreshData()` est marquée comme obsolète et récupère à nouveau la source à chaque appel. Avec plusieurs tableaux croisés dynamiques partageant un cache, cela signifie N récupérations redondantes de la source. Remplacez par un seul `PivotCache.Refresh()` suivi de `CalculateData()` par tableau.
-- **Actualiser lorsque seule la mise en page a changé.** Si vous avez uniquement modifié la vue d'un tableau croisé dynamique (ordre des colonnes, `ConsolidationFunction`, etc.) sans toucher aux données source, `PivotCache.Refresh()` est inutile et lent. Appelez `pivotTable.CalculateData()` pour rendre à nouveau à partir du cache existant.
-- **Source externe non prise en charge par `PivotCache.Refresh()`.** Si la source du tableau croisé dynamique provient d'une connexion externe (base de données, cube OLAP, etc.), `PivotCache.Refresh()` ne peut pas l'actualiser dans la v26.7 — elle ne prend actuellement en charge que les types de source `Sheet` et `Consolidation`. Pour les sources externes, rouvrez le classeur ou reconstruisez le cache à partir de la source.
-
-```csharp
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
-```
+## Common Pitfalls
+- **Oublier d’actualiser avant d’enregistrer.** Un tableau croisé dynamique n’écrit ses valeurs affichées dans la feuille de calcul que lorsque sa chaîne de données est actualisée. Si vous modifiez des cellules source, appelez `PivotCache.Refresh()` ou `Workbook.RefreshAll()` avant `Workbook.Save()`, sinon le fichier enregistré contient toujours les anciennes valeurs agrégées.
+- **Appeler la méthode obsolète `RefreshData()` pour chaque table.** Dans v26.7, `PivotTable.RefreshData()` est marquée obsolète et récupère à nouveau la source à chaque appel. Lorsque plusieurs tableaux croisés dynamiques partagent un cache, cela entraîne N récupérations redondantes de la source. Remplacez cet appel par un seul `PivotCache.Refresh()`, suivi de `CalculateData()` pour chaque table.
+- **Actualiser lorsque seule la disposition a changé.** Si vous ne modifiez que l’affichage d’un tableau croisé dynamique, par exemple l’ordre des colonnes ou `ConsolidationFunction`, sans toucher aux données source, `PivotCache.Refresh()` est inutile et lent. Appelez `pivotTable.CalculateData()` pour effectuer un nouveau rendu à partir du cache existant.
+- **Source externe non prise en charge par `PivotCache.Refresh()`.** Si la source du tableau croisé dynamique provient d’une connexion externe, telle qu’une base de données ou un cube OLAP, `PivotCache.Refresh()` ne peut pas l’actualiser dans v26.7. Cette méthode prend actuellement en charge uniquement les types de source `Sheet` et `Consolidation`. Pour les sources externes, rouvrez le classeur ou reconstruisez le cache à partir de la source.
 
 {{< app/cells/assistant language="cpp" >}}

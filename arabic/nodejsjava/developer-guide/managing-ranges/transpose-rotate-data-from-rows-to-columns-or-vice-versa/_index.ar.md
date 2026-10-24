@@ -47,7 +47,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 const AsposeCells = require("aspose.cells");
 const srcFile = "source.xlsx";
 const outputFile = "transposed.xlsx";
-const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
+const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX);
 const workbook = new AsposeCells.Workbook(srcFile, loadOptions);
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();
@@ -78,11 +78,11 @@ workbook.save(outputFile);
 const AsposeCells = require("aspose.cells");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
-const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
+const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX));
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();
 cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", new AsposeCells.FormulaParseOptions(), true);
-workbook.save(outFile, AsposeCells.SaveFormat.Xlsx);
+workbook.save(outFile, AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Approach 3 — Transpose with a Classic Array Formula (CSE)**
@@ -106,7 +106,7 @@ workbook.save(outFile, AsposeCells.SaveFormat.Xlsx);
 const AsposeCells = require("aspose.cells");
 // Load the source workbook with xlsx LoadOptions
 const srcFile = "source.xlsx";
-const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
+const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX));
 // Access the first worksheet and its Cells collection
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();

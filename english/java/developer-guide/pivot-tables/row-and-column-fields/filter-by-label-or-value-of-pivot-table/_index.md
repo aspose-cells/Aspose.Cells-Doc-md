@@ -54,10 +54,9 @@ Date filters let you narrow a pivot table by date-based criteria such as today, 
 
 {{% alert color="primary" %}}
 The date filter only works when the row or column area contains only date-time cells or blank values. If the underlying field contains other data types such as numbers or text, the date filter will not produce the expected result. Make sure the field is formatted as a date and that all values are valid `DateTime` instances or empty cells before applying this filter.
-{{% /alert %}}
-
 Aspose.Cells exposes date filtering through the `PivotField.filterByDate(PivotFilterType, params DateTime[] values)` method. The `PivotFilterType` enumeration contains dedicated date values such as `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear`, and `Between`. Depending on the chosen filter type, you pass one or two `DateTime` values (for `Between`, you pass the start and end dates).
 The following example loads a workbook with a pivot table whose row area contains a date field, applies a date filter that restricts the visible items to a particular date range, refreshes the pivot table, and saves the workbook.
+{{% /alert %}}
 
 ```java
 import java.io.File;
@@ -123,10 +122,9 @@ The top 10 filter is a specialized form of value filter that retains only the hi
 
 {{% alert color="primary" %}}
 The top 10 filter is only effective when the pivot table has one or more value pivot fields in the data area. Without at least one value field, there is no aggregated measure to rank the items against, and the filter cannot be applied.
-{{% /alert %}}
-
 Aspose.Cells exposes top 10 filtering through the `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)` method. The `itemCount` parameter defines how many items to retain, `isTop` indicates whether to keep the top items (true) or the bottom items (false), `valueField` references the data field used for ranking, and `filterType` controls how the value is computed (typically `Sum`, but also `Count` and `Percent`).
 The following example loads a workbook with a pivot table that contains a value field, applies a top 10 filter to keep only the highest 10 items by the sum of sales, refreshes the pivot table, and saves the workbook.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -153,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (top N; false would mean bottom N)
 //   - valueFieldIndex = the index of the data field used to rank items
-rowField.filterTop10(10, PivotFilterType.SUM, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
 // Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.refreshData();
 // Save the workbook
@@ -180,12 +178,12 @@ for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.getPivotItems().get(i);
     // Hide pivot items that match a specific name/criterion
-    if (item.getName() == "Item1" || item.getName() == "Item2")
+    if (item.getName().equals("Item1") || item.getName().equals("Item2"))
     {
         item.setHidden(true);
     }
     // Demonstrate unhiding: re-show a previously hidden pivot item
-    if (item.getName() == "Item3")
+    if (item.getName().equals("Item3"))
     {
         item.setHidden(false);
     }

@@ -37,6 +37,7 @@ Bildens ankare definieras av fyra nollbaserade indexegenskaper:
 
 {{% alert color="primary" %}}
 Rad- och kolumnindex i Aspose.Cells är **nollbaserade**. Cell C6 har radindex 5 och kolumnindex 2. Off-by-one-fel på det nedre högra ankaret är den vanligaste källan till bilder som verkar överlappa in i en intilliggande cell.
+{{% /alert %}}
 
 ### **Styra placeringsbeteendet**
 `Picture.Placement` är en enum av typen `PlacementType` som styr hur bilden beter sig när användaren ändrar storlek på raden eller kolumnen under den. Det rekommenderade värdet för en encellsbild är `PlacementType.MoveAndSize`, vilket gör att bilden flyttas och storleksändras tillsammans med sin underliggande cell och bevarar den exakta passningen.
@@ -53,7 +54,7 @@ Rad- och kolumnindex i Aspose.Cells är **nollbaserade**. Cell C6 har radindex 5
 Följande kod demonstrerar det fullständiga tillvägagångssättet.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 var picIndex = worksheet.getPictures().add(5, 2, "logo.png");
@@ -62,8 +63,8 @@ picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);
 picture.setLowerRightRow(6);
 picture.setLowerRightColumn(3);
-picture.setPlacement(AsposeCells.PlacementType.MoveAndSize);
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+picture.setPlacement(AsposeCells.PlacementType.MOVE_AND_SIZE);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Metod 2: Bädda in en bild direkt i en cell**
@@ -86,7 +87,7 @@ Detta gör `Cell.EmbeddedImage` till det mest kortfattade alternativet när ditt
 Följande kod demonstrerar det fullständiga tillvägagångssättet.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
@@ -100,7 +101,7 @@ cell.setEmbeddedImage(imageData);
 worksheet.getCells().setColumnWidth(2, 30);   // Kolumn C (index 2)
 worksheet.getCells().setRowHeight(5, 100);     // Rad 6 (index 5)
 // Spara den resulterande arbetsboken som en .xlsx-fil
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Välja rätt metod**
@@ -113,6 +114,5 @@ Båda metoderna producerar en bild som passar inuti en enda cell, men de skiljer
 - **Använd en inbäddad bild (Metod 2) när:**
   - Du vill ha den enklaste möjliga infogningen av en bild i en cell.
   - Bilden ska följa med cellen som vilket annat cellinnehåll som helst.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

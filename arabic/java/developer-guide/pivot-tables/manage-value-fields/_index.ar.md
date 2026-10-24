@@ -72,13 +72,11 @@ workbook.save("output_drag.xlsx");
 
 {{% alert color="primary" %}}
 تغيير `Function` يؤثر فقط على التجميع، بينما يظل عمود المصدر دون تغيير.
-{{% /alert %}}
-
 لذلك يمكنك ترك حقل بيانات واحد كـ `SUM` بينما تضيف حقل بيانات ثانٍ يستهدف نفس عمود المصدر ولكنه يستخدم `COUNT` أو `AVERAGE`، كل ذلك في جدول محوري واحد.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -119,13 +117,11 @@ workbook.save("output_function.xlsx");
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` لا يعمل إذا لم يكن هناك حقل قيمة أو كان هناك حقل قيمة واحد فقط.
-{{% /alert %}}
-
 تستعرض السيناريوهات أدناه ثلاثة أمثلة شاملة توضح كل قدرة من القدرات الموصوفة أعلاه على نفس بنية الجدول المحوري.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

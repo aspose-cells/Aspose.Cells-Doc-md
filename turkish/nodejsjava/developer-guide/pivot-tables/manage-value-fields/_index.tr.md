@@ -41,10 +41,10 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -54,9 +54,8 @@ Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği 
 
 {{% alert color="primary" %}}
 `Function`'ı değiştirmek yalnızca toplamı etkiler, kaynak sütun değişmez.
-{{% /alert %}}
-
 Bu nedenle bir veri alanını `SUM` olarak bırakırken, aynı kaynak sütunu hedefleyen ancak `COUNT` veya `AVERAGE` kullanan ikinci bir veri alanını tek bir pivotta ekleyebilirsiniz.
+{{% /alert %}}
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -84,12 +83,12 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.COUNT);
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -99,9 +98,8 @@ Bir pivot tablosu iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `P
 
 {{% alert color="primary" %}}
 Hiç değer alanı yoksa veya yalnızca bir değer alanı varsa `PivotTable.getValuesField()` çalışmaz.
-{{% /alert %}}
-
 Aşağıdaki senaryolar, yukarıda açıklanan her yeteneği aynı pivot yapısına karşı gösteren üç uçtan uca örnek boyunca ilerler.
+{{% /alert %}}
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -129,15 +127,15 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField());
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.COUNT);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, pivotTable.getValuesField());
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

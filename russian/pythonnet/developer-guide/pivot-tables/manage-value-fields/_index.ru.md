@@ -15,7 +15,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -53,13 +54,13 @@ workbook.save("output_plot.xlsx")
 
 {{% alert color="primary" %}}
 Изменение `function` влияет только на агрегат, исходный столбец не изменяется.
-{{% /alert %}}
-
 Таким образом, можно оставить одно поле данных как `Sum`, одновременно добавив второе поле данных, которое ссылается на тот же исходный столбец, но использует `Count` или `Average`, всё в рамках одной сводной таблицы.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -96,9 +97,8 @@ workbook.save("output_function.xlsx")
 
 {{% alert color="primary" %}}
 `PivotTable.values_field` не работает, если полей значений нет или имеется только одно.
-{{% /alert %}}
-
 Приведённые ниже сценарии последовательно рассматривают три полноценных примера, демонстрирующих каждую из описанных выше возможностей на основе одной и той же структуры сводной таблицы.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac

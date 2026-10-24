@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 يوفّر Aspose.Cells طريقتين متميزتين لربط صورة بخلية واحدة. الصورة العائمة هي شكل على طبقة الرسم في ورقة العمل يغطي بصريًا نطاقًا من الخلايا، بينما تُخزَّن الصورة المضمّنة داخل الخلية نفسها وتتمدّد تلقائيًا لتلائم مساحة عرض الخلية. اختر الأسلوب الذي يتطابق بشكل أفضل مع متطلبات التخطيط لديك.
+{{% /alert %}}
 
 ## **مقدمة**
 تُعدّ ملاءمة صورة بدقة داخل خلية واحدة مطلبًا شائعًا عند تصميم جداول بيانات تعمل كتقارير بصرية، أو كتالوجات منتجات، أو أدلة موظفين، أو لوحات معلومات، أو قوائم جرد. وبدلًا من تمديد صورة عبر عدة خلايا أو وضعها بشكل غير محكم على ورقة العمل، قد ترغب في صورة نظيفة مرتبطة بالخلية وتظل محاذية للخلية التي تنتمي إليها.
@@ -36,6 +37,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 مؤشرات الصفوف والأعمدة في Aspose.Cells **مبنية على الأساس الصفري**. الخلية C6 لها مؤشر صف 5 ومؤشر عمود 2. تُعدّ أخطاء الفهرسة بمقدار واحد (off-by-one) في تثبيت الزاوية السفلية اليمنى المصدر الأكثر شيوعًا لظهور الصور متداخلة في خلية مجاورة.
+{{% /alert %}}
 
 ### **التحكم في سلوك الوضع**
 `getPlacement` هو enum من نوع `PlacementType` يتحكم في كيفية تصرف الصورة عند قيام المستخدم بتغيير حجم الصف أو العمود الواقع تحتها. القيمة الموصى بها لصورة خلية واحدة هي `PlacementType.MOVE_AND_SIZE`، التي تتسبب في تحرك الصورة وإعادة تحجيمها مع خليتها الأصلية، محافظةً بذلك على الملاءمة الدقيقة.
@@ -55,7 +57,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat, PlacementType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -68,10 +69,10 @@ try:
     picture.setUpperLeftColumn(2)
     picture.setLowerRightRow(6)
     picture.setLowerRightColumn(3)
-    picture.setPlacement(PlacementType.MoveAndSize)
+    picture.setPlacement(PlacementType.MOVE_AND_SIZE)
 finally:
     fs.close()
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -111,7 +112,7 @@ cell.setEmbeddedImage(imageData)
 worksheet.getCells().setColumnWidth(2, 30)   # Column C (index 2)
 worksheet.getCells().setRowHeight(5, 100)    # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -126,8 +127,5 @@ jpype.shutdownJVM()
   - تريد أبسط إدراج ممكن لصورة في خلية.
   - يجب أن تنتقل الصورة مع الخلية مثل أي محتوى آخر للخلية.
   - لا تحتاج إلى معالجة الصورة كشكل.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

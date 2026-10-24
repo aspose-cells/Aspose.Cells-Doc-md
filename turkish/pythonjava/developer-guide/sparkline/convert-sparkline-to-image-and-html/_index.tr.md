@@ -36,7 +36,6 @@ Bu iş akışında, küçük bir kaynak değer aralığı içeren bir çalışma
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
@@ -51,28 +50,28 @@ worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
 # F1'de (sütun 5, satır 0) sabitlenmiş bir Çizgi mini grafik grubu ekle
 lineArea = CellArea()
-lineArea.setStartColumn(5)
-lineArea.setEndColumn(5)
-lineArea.setStartRow(0)
-lineArea.setEndRow(0)
-lineIdx = worksheet.getSparklineGroups().add(SparklineType.Line, "A1:E1", False, lineArea)
+lineArea.StartColumn = 5
+lineArea.EndColumn = 5
+lineArea.StartRow = 0
+lineArea.EndRow = 0
+lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
 # G1'de (sütun 6, satır 0) sabitlenmiş bir Sütun mini grafik grubu ekle
 columnArea = CellArea()
-columnArea.setStartColumn(6)
-columnArea.setEndColumn(6)
-columnArea.setStartRow(0)
-columnArea.setEndRow(0)
-columnIdx = worksheet.getSparklineGroups().add(SparklineType.Column, "A1:E1", False, columnArea)
+columnArea.StartColumn = 6
+columnArea.EndColumn = 6
+columnArea.StartRow = 0
+columnArea.EndRow = 0
+columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
 # H1'de (sütun 7, satır 0) sabitlenmiş bir Kazanma/Kaybetme (Yığılmış) mini grafik grubu ekle
 stackedArea = CellArea()
-stackedArea.setStartColumn(7)
-stackedArea.setEndColumn(7)
-stackedArea.setStartRow(0)
-stackedArea.setEndRow(0)
-stackedIdx = worksheet.getSparklineGroups().add(SparklineType.Stacked, "A1:E1", False, stackedArea)
+stackedArea.StartColumn = 7
+stackedArea.EndColumn = 7
+stackedArea.StartRow = 0
+stackedArea.EndRow = 0
+stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
 # PNG çıktısı için görüntü seçeneklerini yapılandır
 imageOptions = ImageOrPrintOptions()
-imageOptions.setImageType(ImageType.Png)
+imageOptions.setImageType(ImageType.PNG)
 # Çizgi mini grafiğini görüntüye dönüştür ve F2 hücresine göm
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
@@ -97,6 +96,7 @@ Yukarıdaki kod, bir sparkline'ın her görsel temsilinin iki biçimde çoğalt�
 
 {{% alert color="primary" %}}
 Her sparkline grubu tek bir hücreye sabitlendiğinden, onu bir `for` döngüsü ile numaralandırmak yerine `group.sparklines[0]` dizin oluşturucusu aracılığıyla adresleyebilirsiniz. Bu, işleme kodunu kısa tutar ve tipik "sabit hücre başına bir sparkline" kalıbıyla eşleşir. Resim baytlarını `Cell.embedded_image` aracılığıyla saklamak Aspose.Cells 26.5 veya sonrasını gerektirir.
+{{% /alert %}}
 
 ## **İş Akışı 2 — Sparkline Çalışma Sayfasını HTML'e Aktarma**
 Çalışma kitabı canlı sparkline'ları (ve isteğe bağlı olarak gömülü resim karşılıklarını) içerdiğinde, tüm çalışma sayfası HTML olarak kaydedilerek web'de yayınlanabilir. `HtmlSaveOptions` sınıfı, bu dışa aktarımı kontrol etmek için ihtiyacınız olan düğmeleri sunar; bu iş akışında İş Akışı 1 tarafından üretilen `output_with_sparklines.xlsx` dosyasını yeniden kullanacak ve onu temiz, tek sayfalık bir HTML belgesine dönüştüreceksiniz.
@@ -111,7 +111,6 @@ Her sparkline grubu tek bir hücreye sabitlendiğinden, onu bir `for` döngüsü
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, HtmlSaveOptions
 workbook = Workbook("output_with_sparklines.xlsx")
 htmlOptions = HtmlSaveOptions()
@@ -121,10 +120,10 @@ jpype.shutdownJVM()
 ```
 
 Yukarıdaki kod, İş Akışı 1'den gelen sparkline açısından zengin çalışma kitabını alır ve onu taşınabilir bir HTML dosyasına dönüştürür. Sparkline'lar, dışa aktarma moduna bağlı olarak oluşturulan HTML içinde satır içi SVG veya PNG işlemeleri olarak korunur, böylece son kullanıcılar Excel yüklemeye gerek kalmadan trendleri herhangi bir modern tarayıcıda görüntüleyebilir. `export_active_worksheet_only`'ı `True` olarak ayarlayarak, gizli sayfaları veya yardımcı verileri yanlışlıkla yayınlamaktan kaçınırsınız — yalnızca kullanıcı tarafından o anda görülebilen çalışma sayfası dışa aktarılır.
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` sınıfı, çıktıyı ince ayar yapmak için `export_hidden_worksheet`, `export_images_as_base64` ve `encoding` gibi ek özellikler sunar. Bunları dağıtım hedefinize göre gerektiği gibi ayarlayın.
+{{% /alert %}}
 
 ## **API Özeti**
 Yukarıdaki iş akışları, birlikte çalışan küçük bir Aspose.Cells API kümesine dayanır.
@@ -134,6 +133,5 @@ Yukarıdaki iş akışları, birlikte çalışan küçük bir Aspose.Cells API k
 - `HtmlSaveOptions.export_active_worksheet_only` (bir `bool`) HTML dışa aktarımını aktif çalışma sayfasıyla sınırlar. Tek sayfalık raporlar oluştururken `HtmlSaveOptions`'ın en sık kullanılan özelliklerinden biridir.
 - `ImageOrPrintOptions.image_type`, `com.aspose.cells.drawing` namespace'inde yaşar ve `to_image` ile işlerken ve çalışma sayfalarını görüntülere yazdırırken kullanılan resim biçimini (örneğin, `ImageType.PNG`) seçer.
 - [Aspose.Cells for Python via Java'da Sparkline'lar](/cells/tr/python-java/sparkline/)
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

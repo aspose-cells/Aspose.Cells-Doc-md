@@ -89,6 +89,73 @@ workbook.Save("output.xls");
 
 ## **Tillämpa en modern namngiven förinställd pivottabellsstil**
 
+`PivotTable.PivotTableStyleType` väljer en av de inbyggda namngivna stilarna som Excel 2007 introducerade för pivottabeller. Enumerationen `PivotTableStyleType` exponerar tre temafamiljer: den ljusa familjen från `PivotTableStyleLight1` till `PivotTableStyleLight28`, den medelfamiljen från `PivotTableStyleMedium1` till `PivotTableStyleMedium28` och den mörka familjen från `PivotTableStyleDark1` till `PivotTableStyleDark28`. Den definierar också `None` och `Custom`. Medlemmarna med högre nummer i varje familj är de stilar som lades till i Excel 2017.
+Dessa förinställningar är skrivskyddade. Så snart du behöver ändra färger, ramar eller teckensnitt utöver vad en förinställning erbjuder, måste du i stället definiera en anpassad pivotstil, som visas i [Scenario 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**Varför de moderna förinställningarna och inte autoformaten i rapportserien?** Värdena `Report1` till `Report10` och `Table1` till `Table10` i `PivotTableAutoFormatType` är äldre än pivottabellens kolumnfält och innehåller därför ingen formatering för rubriker till kolumnfält, så Excel visar dessa rubriker utan formatering. Förinställningarna i `PivotTableStyleType` utformades för den tvådimensionella layout som modern Excel använder och formaterar rubriker till både radfält och kolumnfält.
+{{% /alert %}}
+
+Det här scenariet återanvänder datamängden Fruit/Year/Amount från Scenario 1, lägger till `Year` i kolonnområdet intill radfältet `Fruit` via `PivotFieldType.Column`, tillämpar förinställningen `PivotTableStyleDark1` för det mörka temat med `PivotTable.PivotTableStyleType` och sparar resultatet som `.xlsx` — det format som `PivotTableStyleType` gäller för.
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+// Scenario 2: Använd en modern namngiven förinställningsstil från Excel 2007+ med PivotTableStyleType.
+// Målfilformat: .xlsx. Enumen PivotTableStyleType finns i Aspose.Cells-namnutrymmet
+// (inte i Aspose.Cells.Pivot) -- därför behöver vi inte något extra using-direktiv för det.
+// GitHub-referens: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.Worksheets[0];
+// Rubrikrad: Fruit / Year / Amount
+worksheet.Cells["A1"].PutValue("Fruit");
+worksheet.Cells["B1"].PutValue("Year");
+worksheet.Cells["C1"].PutValue("Amount");
+// 9 datarader med Fruit / Year / Amount
+worksheet.Cells["A2"].PutValue("Grape");
+worksheet.Cells["B2"].PutValue(2020);
+worksheet.Cells["C2"].PutValue(100);
+worksheet.Cells["A3"].PutValue("Blueberry");
+worksheet.Cells["B3"].PutValue(2020);
+worksheet.Cells["C3"].PutValue(150);
+worksheet.Cells["A4"].PutValue("Kiwi");
+worksheet.Cells["B4"].PutValue(2020);
+worksheet.Cells["C4"].PutValue(200);
+worksheet.Cells["A5"].PutValue("Cherry");
+worksheet.Cells["B5"].PutValue(2020);
+worksheet.Cells["C5"].PutValue(180);
+worksheet.Cells["A6"].PutValue("Grape");
+worksheet.Cells["B6"].PutValue(2021);
+worksheet.Cells["C6"].PutValue(120);
+worksheet.Cells["A7"].PutValue("Blueberry");
+worksheet.Cells["B7"].PutValue(2021);
+worksheet.Cells["C7"].PutValue(170);
+worksheet.Cells["A8"].PutValue("Kiwi");
+worksheet.Cells["B8"].PutValue(2021);
+worksheet.Cells["C8"].PutValue(210);
+worksheet.Cells["A9"].PutValue("Cherry");
+worksheet.Cells["B9"].PutValue(2021);
+worksheet.Cells["C9"].PutValue(190);
+worksheet.Cells["A10"].PutValue("Grape");
+worksheet.Cells["B10"].PutValue(2021);
+worksheet.Cells["C10"].PutValue(130);
+// Lägg till en pivottabell vid E3 med namnet "Pivot1", med A1:C10 som datakälla
+int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Tilldela pivotfält: Fruit -> området Row, Year -> området Column, Amount -> området Data
+pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
+pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+// Använd en modern namngiven förinställningsstil för pivottabeller från Excel 2007+.
+// PivotTableStyleType är rätt API för .xlsx / .xlsm / .xlsb-filer; AutoFormatType
+// ignoreras av Excel för dessa format. PivotTableStyleDark1 tillhör familjen med mörka teman
+// (PivotTableStyleDark1..PivotTableStyleDark28), och samma enum exponerar även de
+// nyare ljusa/mörka temana i Excel 2017 (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
+// Spara som modernt .xlsx -- detta är det format för vilket PivotTableStyleType är relevant.
+workbook.Save("output.xlsx");
+```
 ## **Definiera och tillämpa en anpassad pivottabellsstil**
 De inbyggda förinställningarna kan inte modifieras. När du behöver åsidosätta färger, kantlinjer eller typsnitt måste du definiera en anpassad pivotstil. Arbetsflödet har tre steg:
 1. Lägg till en anpassad stil i arbetsbokens `TableStyles`-samling via `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)`. Detta returnerar indexet för den nyskapade stilen.
@@ -97,10 +164,9 @@ De inbyggda förinställningarna kan inte modifieras. När du behöver åsidosä
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` och `PivotTableStyleType` är inte utbytbara. Använd `PivotTableStyleType` för inbyggda förinställningar, och `PivotTableStyleName` för anpassade stilar som du har definierat via `AddPivotTableStyle`. Att sätta båda är ofarligt, men endast den som matchar den avsedda källan renderas.
-{{% /alert %}}
-
 De tillgängliga `TableStyleElementType`-värdena inkluderar `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` och `PageFieldValues`.
 Följande exempel definierar en anpassad pivotstil med en tunn svart kantlinje på `WholeTable` och ett fetstilt rött typsnitt på `GrandTotalRow`, och tillämpar den sedan via `PivotTableStyleName` och sparar som `.xlsx`.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -179,9 +245,8 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 `FormatAll` åsidosätter både `PivotTableStyleType` och `PivotTableStyleName`. Använd den bara när ett enhetligt, temaoberoende utseende krävs över hela pivottabellen.
-{{% /alert %}}
-
 Följande exempel skapar en `Style` med en gul solid fyllning, ett fetstilt mörkblått typsnitt och tunna svarta kantlinjer på alla sidor, och tillämpar den sedan med `FormatAll` och sparar som `.xlsx`.
+{{% /alert %}}
 
 ```csharp
 using System;

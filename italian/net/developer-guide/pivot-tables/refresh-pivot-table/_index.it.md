@@ -24,11 +24,10 @@ La catena di dati a quattro livelli è la seguente:
 
 {{% alert color="primary" %}}
 `PivotCache.SourceType` (enum `PivotTableSourceType`) indica da dove provengono i dati della cache. A partire dalla v26.7, `PivotCache.Refresh()` supporta solo i tipi di origine **`Sheet`** e **`Consolidation`**, ovvero dati che risiedono in intervalli del foglio di lavoro. Le origini esterne (database, connessioni esterne, ecc.) non sono ancora aggiornabili tramite l'API della cache.
-{{% /alert %}}
-
 A causa di questa catena, esistono due percorsi fondamentali di aggiornamento in Aspose.Cells:
 - **`PivotTable.CalculateData()`** — ricalcola la visualizzazione di una singola `PivotTable` a partire dai dati già presenti in cache, senza tornare all'origine dati.
 Tutti gli scenari di questo articolo utilizzano dati di origine in celle del foglio di lavoro, quindi il tipo di origine è `Sheet` e le operazioni di aggiornamento si comportano come descritto.
+{{% /alert %}}
 
 ## Avvio rapido
 Se ti serve solo il codice più breve possibile per aggiornare ogni pivot nella cartella di lavoro, è sufficiente una singola chiamata:

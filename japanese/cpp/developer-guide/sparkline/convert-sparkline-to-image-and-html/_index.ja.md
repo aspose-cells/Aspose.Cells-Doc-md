@@ -83,6 +83,7 @@ int main() {
 
 {{% alert color="primary" %}}
 各スパークライン グループは単一セルにアンカーされているため、`foreach` で列挙する代わりにインデクサ `group.Sparklines[0]` を通じてアクセスできます。これによりレンダリング コードを短く保つことができ、「anchor セルごとに 1 つのスパークライン」という一般的なパターンにも対応します。`Cell.EmbeddedImage` による画像バイトの保存には Aspose.Cells 26.5 以降が必要です。
+{{% /alert %}}
 
 ## **Workflow 2 — Export the Sparkline Worksheet to HTML**
 ワークブックに生きたスパークライン(および必要に応じて埋め込まれた画像)が含まれる場合、ワークシート全体を HTML として保存することで Web に公開できます。`HtmlSaveOptions` クラスにはこのエクスポートを制御するための設定が用意されています。このワークフローでは、ワークフロー 1 で生成された `output_with_sparklines.xlsx` ファイルを再利用し、整った単一ページの HTML ドキュメントに変換します。
@@ -108,10 +109,10 @@ int main() {
 ```
 
 上記のコードは、ワークフロー 1 のスパークラインを含むワークブックをポータブルな HTML ファイルに変換します。スパークラインは、エクスポート モードに応じて生成された HTML 内にインライン SVG または PNG レンダリングとして保持されるため、エンド ユーザーは Excel をインストールしていなくても任意のモダンブラウザでトレンドを閲覧できます。`ExportActiveWorksheetOnly` を `true` に設定することで、非表示シートや補助データが誤って公開されることを防ぎ、現在ユーザーに表示されているワークシートのみがエクスポートされます。
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` クラスには、出力を細かく調整するための追加プロパティ(例:`ExportHiddenWorksheet`、`ExportImagesAsBase64`、`Encoding`)が用意されています。デプロイ先のターゲットに応じて適宜調整してください。
+{{% /alert %}}
 
 ## **API Summary**
 上記のワークフローは、少数の Aspose.Cells API の連携に依存しています。
@@ -123,6 +124,5 @@ int main() {
 
 ## **Related Articles**
 - [セルに画像を挿入する](/cells/ja/cpp/inserting-an-image-into-a-cell/)
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

@@ -41,10 +41,10 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -54,9 +54,8 @@ workbook.save("output_drag.xlsx");
 
 {{% alert color="primary" %}}
 更改 `Function` 仅影响聚合方式，源列本身不会改变。
-{{% /alert %}}
-
 因此，您可以在同一个数据透视表中保留一个使用 `SUM` 的数据字段，同时添加另一个指向同一源列但使用 `COUNT` 或 `AVERAGE` 的数据字段。
+{{% /alert %}}
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -84,12 +83,12 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.COUNT);
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -99,9 +98,8 @@ workbook.save("output_function.xlsx");
 
 {{% alert color="primary" %}}
 如果没有值字段或仅有一个值字段，`PivotTable.getValuesField()` 将无法使用。
-{{% /alert %}}
-
 下面的场景通过三个端到端示例，在同一数据透视表结构上演示上文介绍的每项功能。
+{{% /alert %}}
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -129,15 +127,15 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField());
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.COUNT);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, pivotTable.getValuesField());
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

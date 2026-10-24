@@ -32,11 +32,10 @@ Para crear una tabla dinámica utilizando Aspose.Cells, siga los pasos a continu
 
 {{% alert color="primary" %}}
 Al asignar un rango de celdas como origen de datos, el rango debe establecerse desde la esquina superior izquierda hasta la esquina inferior derecha. Por ejemplo, "A1:C3" es válido; "C3:A1" no es válido.
-{{% /alert %}}
-
 El ejemplo de código a continuación muestra cómo crear una tabla dinámica simple siguiendo los pasos básicos enumerados anteriormente. Al ejecutar el código, se agrega una tabla dinámica a la hoja de cálculo:
 **Creando una tabla dinámica basada en un campo correspondiente**
 ![todo:image_alt_text](create-pivot-table_1.png)
+{{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
 

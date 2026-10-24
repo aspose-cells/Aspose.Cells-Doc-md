@@ -36,4 +36,11 @@ Al asignar un rango de celdas como origen de datos, el rango debe ir de arriba a
 
 ## **Temas avanzados**
 
+## Artículos relacionados
+- [Agregar campos de filtro a una tabla dinámica en Aspose.Cells for Python via .NET](/cells/es/python-net/add-page-field-in-pivot-table/)
+- [Aplicar estilos a tablas dinámicas en Aspose.Cells for Python via .NET](/cells/es/python-net/apply-style-to-pivot-table/)
+- [Modify Page Field Layout in Pivot Table](/cells/es/python-net/change-page-field-layout/)
+- [Filtering Pivot Tables by Label or Value](/cells/es/python-net/filter-by-label-or-value-of-pivot-table/)
+- [Administrar campos de valor de tabla dinámica en Aspose.Cells for Python via .NET](/cells/es/python-net/manage-value-fields/)
+
 {{< app/cells/assistant language="python-net" >}}

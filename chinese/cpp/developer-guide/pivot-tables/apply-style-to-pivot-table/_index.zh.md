@@ -31,6 +31,7 @@ Aspose.Cells 为数据透视表提供了两套并行的样式 API。它们之间
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // 创建新的工作簿
@@ -86,9 +87,19 @@ int main() {
 
 ## **应用现代命名预设数据透视表样式**
 
+`SetPivotTableStyleType` 选择 Excel 2007 为数据透视表引入的内置命名样式之一。`PivotTableStyleType` 枚举公开三个主题系列：从 `PivotTableStyleLight1` 到 `PivotTableStyleLight28` 的浅色系列、从 `PivotTableStyleMedium1` 到 `PivotTableStyleMedium28` 的中等色系列，以及从 `PivotTableStyleDark1` 到 `PivotTableStyleDark28` 的深色系列。它还定义了 `None` 和 `Custom`。每个系列中编号较高的成员是 Excel 2017 中新增的样式。
+这些预设为只读。一旦您需要更改超出预设范围的颜色、边框或字体，就必须改为定义自定义数据透视表样式，如[方案 3](#define-and-apply-a-custom-pivot-table-style)所示。
+
+{{% alert color="primary" %}}
+**为什么使用现代预设，而不采用报表系列自动格式？** `PivotTableAutoFormatType` 中的 `Report1` 到 `Report10` 以及 `Table1` 到 `Table10` 值早于数据透视表列字段的出现，因此不包含列字段标题的样式，Excel 会将这些标题呈现为无样式。`PivotTableStyleType` 预设专为现代 Excel 所使用的二维布局而设计，可同时为行字段和列字段标题设置样式。
+{{% /alert %}}
+
+本方案重用方案 1 的 Fruit/Year/Amount 数据集，通过 `PivotFieldType::Column` 将 `Year` 添加到列区域，并将其与 `Fruit` 行字段并列，使用 `SetPivotTableStyleType` 应用深色主题预设 `PivotTableStyleDark1`，然后将结果保存为 `.xlsx`——`PivotTableStyleType` 正是为此格式而设计的。
+
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -135,7 +146,6 @@ int main() {
     return 0;
 }
 ```
-
 ## **定义并应用自定义数据透视表样式**
 内置预设无法修改。每当需要覆盖颜色、边框或字体时，必须定义自定义数据透视样式。该工作流分为三个步骤：
 1. 通过 `Worksheets.TableStyles.AddPivotTableStyle(string name)` 向工作簿的 `TableStyles` 集合添加自定义样式。这将返回新创建样式的索引。
@@ -144,14 +154,14 @@ int main() {
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` 和 `PivotTableStyleType` 不能互换使用。内置预设使用 `PivotTableStyleType`，而通过 `AddPivotTableStyle` 定义的自定义样式使用 `PivotTableStyleName`。同时设置两者不会有问题，但只会渲染与预期来源匹配的那一个。
-{{% /alert %}}
-
 可用的 `TableStyleElementType` 值包括 `WholeTable`、`FirstRow`、`LastRow`、`FirstColumn`、`LastColumn`、`GrandTotalRow`、`GrandTotalColumn`、`PageFieldLabels` 和 `PageFieldValues`。
 以下示例定义一个自定义数据透视样式，在 `WholeTable` 上使用细黑色边框，在 `GrandTotalRow` 上使用粗体红色字体，然后通过 `PivotTableStyleName` 应用该样式，并保存为 `.xlsx`。
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -230,9 +240,8 @@ int main() {
 
 {{% alert color="primary" %}}
 `FormatAll` 会覆盖 `PivotTableStyleType` 和 `PivotTableStyleName`。仅在整个数据透视表需要统一、与主题无关的外观时才使用它。
-{{% /alert %}}
-
 以下示例创建一个 `Style`，使用黄色实心填充、粗体深蓝色字体和四边细黑色边框，然后使用 `FormatAll` 应用，并将结果保存为 `.xlsx`。
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells stöder konvertering av Excel-arbetsböcker direkt till OFD-format (Open Fixed-layout Document) med hjälp av `SaveFormat.Ofd`-uppräkningsvärdet. Det resulterande OFD-dokumentet bevarar arbetsbokens synliga layout, innehåll, sammanfogade celler, kolumnbredder, radhöjder, teckensnitt, färger, kanter och talformat. Detta gör Aspose.Cells lämpligt för arkivering, utskrift, regulatorisk rapportering och myndighetsinlämning som kräver en utdata med fast layout.
+{{% /alert %}}
 
 ## **Introduktion**
 OFD (Open Fixed-layout Document) är en kinesisk nationell standard (GB/T 33190-2016) för att representera digitala dokument i ett fast, sidobaserat layoutformat. Den har en liknande roll som PDF för användningsfall där det visuella utseendet hos källdokumentet måste bevaras exakt som det skapades. OFD används i stor utsträckning för myndighetsinlämningar, regulatorisk rapportering, elektroniska fakturor och långtidsarkivering i Folkrepubliken Kina.
@@ -19,6 +20,7 @@ Att konvertera Excel-arbetsböcker till OFD är ett vanligt krav i scenarier dä
 
 {{% alert color="primary" %}}
 Den OFD-utdata som genereras av Aspose.Cells bevarar den synliga layouten för källarbetsboken, inklusive cellinnehåll, sammanfogade celler, kolumnbredder och radhöjder. Cellformatering som teckensnitt, färger, kanter, justering och talformat renderas också i utdata med fast layout. Sidinställningar som konfigurerats på kalkylbladet, såsom pappersstorlek, orientering och utskriftsområde, påverkar layouten för det resulterande OFD-dokumentet.
+{{% /alert %}}
 
 ## **Skapa en Excel-arbetsbok och spara som OFD**
 Aspose.Cells låter dig bygga en arbetsbok programmatiskt, fylla den med data och sedan spara den direkt i OFD-format med hjälp av `SaveFormat.Ofd`-uppräkningsvärdet. Följande exempel skapar en faktura från grunden. Det lägger till en företagslogotyp, rubrikinformation, en faktureringsadresssektion, radobjekt och beräknade summor, och exporterar sedan arbetsboken till ett OFD-dokument.
@@ -27,6 +29,7 @@ Aspose.Cells låter dig bygga en arbetsbok programmatiskt, fylla den med data oc
 Exemplet konstruerar ett fakturakalkylblad genom att infoga en logotypbild i det övre vänstra området, fylla i företagsnamn och kontaktuppgifter, lägga till en "INVOICE"-titel över sammanfogade celler, registrera fakturanummer och datum, lista faktureringsmottagarens uppgifter, bygga en tabell med radobjekt och kolumner för beskrivning, antal, styckpris och totalsumma, samt beräkna delsumma, skatt och totalbelopp med cellformler. Formatering som feta rubriker, valutaformat för priser, kanter och kolumnbredder tillämpas med `Style`- och `Font`-objekt. Slutligen sparas arbetsboken med filändelsen `.ofd` med `SaveFormat.Ofd`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let dataDir = "C:\\Temp\\";
 // Skapa en ny arbetsbok
 let workbook = new AsposeCells.Workbook();
@@ -51,7 +54,7 @@ worksheet.getCells().merge(7, 1, 2, 4);
 let titleCell = worksheet.getCells().get("B8");
 titleCell.putValue("INVOICE");
 let titleStyle = workbook.createStyle();
-titleStyle.getFont().setIsBold(true);
+titleStyle.getFont().setBold(true);
 titleStyle.getFont().setSize(20);
 titleStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.CENTER);
 titleCell.setStyle(titleStyle);
@@ -75,14 +78,14 @@ headerQty.putValue("Quantity");
 headerPrice.putValue("Unit Price");
 headerTotal.putValue("Total");
 let headerStyle = workbook.createStyle();
-headerStyle.getFont().setIsBold(true);
+headerStyle.getFont().setBold(true);
 headerStyle.getFont().setColor(AsposeCells.Color.getWhite());
 headerStyle.setBackgroundColor(AsposeCells.Color.getNavy());
 headerStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.CENTER);
-headerStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 headerDesc.setStyle(headerStyle);
 headerQty.setStyle(headerStyle);
 headerPrice.setStyle(headerStyle);
@@ -90,16 +93,16 @@ headerTotal.setStyle(headerStyle);
 // Valutastil med kanter
 let currencyStyle = workbook.createStyle();
 currencyStyle.setCustom("\"$\"#,##0.00");
-currencyStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 // Enkel kantstil för beskrivnings-/kvantitetsceller
 let borderStyle = workbook.createStyle();
-borderStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 // Rader för fakturarader
 let lineItems = [
     ["Product A - Widget", 2, 50.00],
@@ -134,19 +137,19 @@ let grandTotalCell = worksheet.getCells().get("E26");
 grandTotalCell.setFormula("E24+E25");
 // Fet + valutastil för totalvärden
 let totalStyle = workbook.createStyle();
-totalStyle.getFont().setIsBold(true);
+totalStyle.getFont().setBold(true);
 totalStyle.setCustom("\"$\"#,##0.00");
 subtotalCell.setStyle(totalStyle);
 taxCell.setStyle(totalStyle);
 grandTotalCell.setStyle(totalStyle);
 // Fet stil för totaletiketter
 let boldStyle = workbook.createStyle();
-boldStyle.getFont().setIsBold(true);
+boldStyle.getFont().setBold(true);
 worksheet.getCells().get("B24").setStyle(boldStyle);
 worksheet.getCells().get("B25").setStyle(boldStyle);
 worksheet.getCells().get("B26").setStyle(boldStyle);
 // Spara arbetsboken som en OFD-fil
-workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.Ofd);
+workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.OFD);
 ```
 
 ## **Konvertera en befintlig Excel-fil till OFD**
@@ -190,7 +193,7 @@ const printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 console.log("\nPrint area set to: " + printArea);
 // (6) Spara arbetsboken som en OFD-fil
-workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.Ofd);
+workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.OFD);
 console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 function formatDate(date) {
     const pad = (n) => n.toString().padStart(2, '0');
@@ -203,8 +206,5 @@ function formatDate(date) {
 - [Infoga en bild i en cell](/cells/sv/nodejs-java/inserting-an-image-into-a-cell/)
 - [Läsa och skriva DBF-filer](/cells/sv/nodejs-java/dbf/)
 - [Konvertera Sparkline till bild och HTML i Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

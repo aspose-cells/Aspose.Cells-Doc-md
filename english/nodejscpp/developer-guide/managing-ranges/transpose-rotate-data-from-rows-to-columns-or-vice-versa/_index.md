@@ -44,6 +44,7 @@ Use this approach whenever you want to transpose data without involving the `TRA
 After transposition the initial anchor range holds the rotated data. The first row reads (empty, **Europe**, **Asia**, **North America**) and the first column reads (empty, **Qtr 1**, **Qtr 2**, **Qtr 3**, **Qtr 4**). Each original column of sales becomes a row in the transposed range.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var srcFile = "source.xlsx";
 var outputFile = "transposed.xlsx";
 var workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
@@ -73,7 +74,7 @@ This approach works **only on Excel 365 / 2021 or later**. Older Excel versions 
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
@@ -102,7 +103,7 @@ CSE array formulas are the classic Excel way to evaluate a `TRANSPOSE` expressio
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Load the source workbook with xlsx LoadOptions
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));

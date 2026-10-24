@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Sparklines är miniatyrdiagram som placeras inuti kalkylbladsceller. Aspose.Cells låter dig extrahera varje sparkline som en fristående bild (för inbäddning i en annan cell eller en extern rapport) och även exportera hela det sparkline-rika kalkylbladet till HTML för webbläsarbaserad distribution. Egenskapen `cell.embedded_image` som används i den här artikeln är tillgänglig i **Aspose.Cells 26.5 och senare**.
+{{% /alert %}}
 
 ## **Introduktion**
 Sparklines är ett kompakt sätt att visualisera trender direkt i ett kalkylblad. Medan Excel-användare ser dem på plats kräver många verkliga scenarier att en sparkline lämnar cellen — till exempel för att bäddas in i en annan cell som en statisk bild, bifogas till ett automatiserat e-postmeddelande eller renderas som en del av en HTML-rapport som publiceras på webben.
@@ -29,59 +30,63 @@ I det här arbetsflödet kommer du att bygga ett kalkylblad som innehåller ett 
    - En `SparklineType.COLUMN`-grupp förankrad vid `G1`, med dataintervall `A1:E1`.
    - En `SparklineType.STACKED`-grupp (vinst/förlust) förankrad vid `H1`, med dataintervall `A1:E1`.
 5. Bygg en `ImageOrPrintOptions`-instans och ställ in dess `image_type` till `ImageType.PNG` så att varje sparkline renderas som en transparent PNG.
-6. För var och en av de tre grupperna, rendera dess enskilda sparkline med `group.sparklines[0].to_image(memory_stream, image_options)`, konvertera `BytesIO`-strömmen till ett `bytes`-objekt, och tilldela arrayen till `worksheet.cells["F2"].embedded_image`, `worksheet.cells["G2"].embedded_image` respektive `worksheet.cells["H2"].embedded_image`.
+6. För var och en av de tre grupperna, rendera dess enskilda sparkline med `group.sparklines[0].to_image(memory_stream, image_options)`, konvertera `BytesIO`-strömmen till ett `bytes`-objekt, och tilldela arrayen till `worksheet.cells.get("F2").embedded_image`, `worksheet.cells.get("G2").embedded_image` respektive `worksheet.cells.get("H2").embedded_image`.
 7. Spara arbetsboken som `output_with_sparklines.xlsx`.
 
 ```python
+from io import BytesIO
 import aspose.cells as ac
+from aspose.cells.charts import SparklineType
+from aspose.cells.drawing import ImageType
+from aspose.cells.rendering import ImageOrPrintOptions
 # Skapa en ny arbetsbok och kom åt det första arbetsbladet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Fyll i exempeldata i cellerna A1:E1
-worksheet.cells["A1"].put_value(5)
-worksheet.cells["B1"].put_value(-3)
-worksheet.cells["C1"].put_value(8)
-worksheet.cells["D1"].put_value(-2)
-worksheet.cells["E1"].put_value(6)
+worksheet.cells.get("A1").put_value(5)
+worksheet.cells.get("B1").put_value(-3)
+worksheet.cells.get("C1").put_value(8)
+worksheet.cells.get("D1").put_value(-2)
+worksheet.cells.get("E1").put_value(6)
 # Lägg till en linje-sparkline-grupp förankrad vid F1 (kolumn 5, rad 0)
 line_area = ac.CellArea()
 line_area.start_column = 5
 line_area.end_column = 5
 line_area.start_row = 0
 line_area.end_row = 0
-line_idx = worksheet.sparkline_groups.add(ac.SparklineType.LINE, "A1:E1", False, line_area)
+line_idx = worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, line_area)
 # Lägg till en kolumn-sparkline-grupp förankrad vid G1 (kolumn 6, rad 0)
 column_area = ac.CellArea()
 column_area.start_column = 6
 column_area.end_column = 6
 column_area.start_row = 0
 column_area.end_row = 0
-column_idx = worksheet.sparkline_groups.add(ac.SparklineType.COLUMN, "A1:E1", False, column_area)
+column_idx = worksheet.sparkline_groups.add(SparklineType.COLUMN, "A1:E1", False, column_area)
 # Lägg till en vinst/förlust (staplad) sparkline-grupp förankrad vid H1 (kolumn 7, rad 0)
 stacked_area = ac.CellArea()
 stacked_area.start_column = 7
 stacked_area.end_column = 7
 stacked_area.start_row = 0
 stacked_area.end_row = 0
-stacked_idx = worksheet.sparkline_groups.add(ac.SparklineType.STACKED, "A1:E1", False, stacked_area)
+stacked_idx = worksheet.sparkline_groups.add(SparklineType.STACKED, "A1:E1", False, stacked_area)
 # Konfigurera bildalternativ för PNG-utdata
-image_options = ac.ImageOrPrintOptions()
-image_options.image_type = ac.ImageType.PNG
+image_options = ImageOrPrintOptions()
+image_options.image_type = ImageType.PNG
 # Konvertera linje-sparkline till bild och bädda in den i cell F2
 line_sp = worksheet.sparkline_groups[line_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 line_sp.to_image(ms, image_options)
-worksheet.cells["F2"].embedded_image = ms.to_array()
+worksheet.cells.get("F2").embedded_image = ms.getvalue()
 # Konvertera kolumn-sparkline till bild och bädda in den i cell G2
 column_sp = worksheet.sparkline_groups[column_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 column_sp.to_image(ms, image_options)
-worksheet.cells["G2"].embedded_image = ms.to_array()
+worksheet.cells.get("G2").embedded_image = ms.getvalue()
 # Konvertera vinst/förlust-sparkline till bild och bädda in den i cell H2
 stacked_sp = worksheet.sparkline_groups[stacked_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 stacked_sp.to_image(ms, image_options)
-worksheet.cells["H2"].embedded_image = ms.to_array()
+worksheet.cells.get("H2").embedded_image = ms.getvalue()
 # Spara arbetsboken till disk
 workbook.save("output_with_sparklines.xlsx")
 ```
@@ -90,6 +95,7 @@ Koden ovan producerar en arbetsbok där varje visuell representation av en spark
 
 {{% alert color="primary" %}}
 Eftersom varje sparkline-grupp är förankrad till en enda cell kan du adressera den via indexeraren `group.sparklines[0]` istället för att räkna upp med en `for`-loop. Detta håller renderingskoden kort och matchar det typiska mönstret "en sparkline per ankarcell". Att lagra bildbytena via `cell.embedded_image` kräver Aspose.Cells 26.5 eller senare.
+{{% /alert %}}
 
 ## **Arbetsflöde 2 — Exportera sparkline-kalkylbladet till HTML**
 När arbetsboken innehåller levande sparklines (och eventuellt inbäddade bildmotsvarigheter) kan hela kalkylbladet publiceras på webben genom att spara det som HTML. Klassen `HtmlSaveOptions` exponerar de reglage du behöver för att styra denna export; i det här arbetsflödet kommer du att återanvända filen `output_with_sparklines.xlsx` som producerades av arbetsflöde 1 och konvertera den till ett rent HTML-dokument med en sida.
@@ -112,6 +118,7 @@ Koden ovan tar den sparkline-rika arbetsboken från arbetsflöde 1 och förvandl
 
 {{% alert color="primary" %}}
 Klassen `HtmlSaveOptions` erbjuder ytterligare egenskaper för finjustering av utdata, såsom `export_hidden_worksheet`, `export_images_as_base64` och `encoding`. Justera dessa efter behov för ditt distributionsmål.
+{{% /alert %}}
 
 ## **API-sammanfattning**
 Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er som arbetar tillsammans.
@@ -126,10 +133,5 @@ Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er 
 - [Sparklines i Aspose.Cells for Python via .NET](/cells/sv/python-net/sparkline/)
 - [Infoga en bild i en cell](/cells/sv/python-net/inserting-an-image-into-a-cell/)
 - [SmartMarker Single Cell Array Rendering | Aspose.Cells for Python via .NET](/cells/sv/python-net/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

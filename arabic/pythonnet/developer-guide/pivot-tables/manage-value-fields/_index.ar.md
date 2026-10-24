@@ -15,7 +15,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -53,13 +54,13 @@ workbook.save("output_plot.xlsx")
 
 {{% alert color="primary" %}}
 لا يؤثّر تغيير `function` إلا على التجمّع، بينما لا يتغيّر عمود المصدر.
-{{% /alert %}}
-
 يمكنك بالتالي إبقاء حقل بيانات واحد على `Sum` بينما تضيف حقل بيانات ثانٍ يستهدف عمود المصدر نفسه ولكن يستخدم `Count` أو `Average`، كل ذلك في جدول محوري واحد.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -96,9 +97,8 @@ workbook.save("output_function.xlsx")
 
 {{% alert color="primary" %}}
 لا يعمل `PivotTable.values_field` إذا لم يكن هناك أي حقل قيمة أو إذا كان هناك حقل قيمة واحد فقط.
-{{% /alert %}}
-
 تستعرض السيناريوهات أدناه ثلاثة أمثلة شاملة توضّح كل قدرة من القدرات الموصوفة أعلاه على نفس بنية الجدول المحوري.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac

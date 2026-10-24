@@ -33,7 +33,6 @@ Aspose.Cells 通过 `PivotField.filter_by_label(PivotFilterType, str)` 方法公
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
@@ -46,7 +45,7 @@ pivotTable = worksheet.getPivotTables().get(0)
 # Retrieve the first row PivotField
 rowField = pivotTable.getRowFields().get(0)
 # Apply the label filter — show only row items whose labels begin with the supplied prefix
-rowField.filterByLabel(PivotFilterType.CaptionBeginsWith, prefix, "")
+rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh()
 # Save the workbook back to disk
@@ -59,16 +58,15 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 日期筛选仅在行或列区域仅包含日期时间单元格或空白值时才有效。如果基础字段包含其他数据类型（如数字或文本），则日期筛选将无法产生预期结果。在应用此筛选之前，请确保字段已设置为日期格式，并且所有值都是有效的 `DateTime` 实例或空单元格。
-{{% /alert %}}
-
 Aspose.Cells 通过 `PivotField.filter_by_date(PivotFilterType, values)` 方法公开日期筛选功能。`PivotFilterType` 枚举包含专用的日期值，例如 `Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear` 和 `Between`。根据所选的筛选类型，您传递一个或两个 `DateTime` 值（对于 `Between`，传递开始日期和结束日期）。
 以下示例加载一个数据透视表的行区域包含日期字段的工作簿，应用日期筛选将可见项限制在特定日期范围内，刷新数据透视表，然后保存工作簿。
+{{% /alert %}}
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
@@ -88,7 +86,7 @@ Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
 # 在透视字段上应用日期筛选
-dateField.filterByDate(PivotFilterType.DateBetween, startDate, endDate)
+dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
 # 刷新并重新计算数据透视表以使筛选生效
 pivotTable.getPivotCache().refresh()
 # 保存工作簿
@@ -105,7 +103,6 @@ Aspose.Cells 通过 `PivotField.filter_by_value(value_field, filter_type, values
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 workbook = Workbook("sample.xlsx")
 worksheet = workbook.getWorksheets().get(0)
@@ -130,16 +127,14 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 前 10 名筛选仅在数据透视表的数据区域中具有一个或多个值透视字段时才有效。如果至少没有一个值字段，则没有可用于对项进行排名的聚合度量，并且无法应用该筛选。
-{{% /alert %}}
-
 Aspose.Cells 通过 `PivotField.filter_top10(item_count, is_top, value_field, filter_type)` 方法公开前 10 名筛选功能。`item_count` 参数定义要保留的项数，`is_top` 指示是否保留排名靠前的项（true）或排名靠后的项（false），`value_field` 引用用于排名的数据字段，`filter_type` 控制值的计算方式（通常为 `Sum`，也可以是 `Count` 和 `Percent`）。
 以下示例加载一个包含值字段的数据透视表的工作簿，应用前 10 名筛选以仅保留按销售总额排名前 10 的项，刷新数据透视表，然后保存工作簿。
+{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
 # 加载包含数据透视表的现有工作簿
 inputPath = "input.xlsx"
@@ -159,10 +154,10 @@ rowField = pivotTable.getRowFields().get(0)
 valueFieldIndex = 0
 # 对行字段应用前 10 筛选：
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true（前 N；false 表示后 N）
 #   - valueFieldIndex = 用于对项进行排名的数据字段的索引
-rowField.filterTop10(10, PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, True, 10)
 # 刷新数据透视表数据并重新计算，以使筛选生效
 pivotTable.getPivotCache().refresh()
 # 保存工作簿
@@ -178,7 +173,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
 # 加载包含数据透视表的现有工作簿
 workbook = Workbook("pivot_table_sample.xlsx")
@@ -194,10 +188,10 @@ for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
     # 隐藏符合特定名称/条件的数据透视项
     if item.getName() == "Item1" or item.getName() == "Item2":
-        item.setIsHidden(True)
+        item.setHidden(True)
     # 演示取消隐藏：重新显示之前隐藏的数据透视项
     if item.getName() == "Item3":
-        item.setIsHidden(False)
+        item.setHidden(False)
 # 刷新并重新计算数据透视表以使更改生效
 pivotTable.getPivotCache().refresh()
 # 保存工作簿 — 隐藏的项保留在底层数据中

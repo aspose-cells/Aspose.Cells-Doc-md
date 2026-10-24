@@ -20,6 +20,7 @@ Excel çalışma kitaplarını OFD'ye dönüştürmek, elektronik tablo içeriğ
 
 {{% alert color="primary" %}}
 Aspose.Cells tarafından oluşturulan OFD çıktısı, hücre içeriği, birleştirilmiş hücreler, sütun genişlikleri ve satır yükseklikleri dahil olmak üzere kaynak çalışma kitabının görünür düzenini korur. Yazı tipleri, renkler, kenarlıklar, hizalama ve sayı formatları gibi hücre biçimlendirmesi de sabit düzenli çıktıda işlenir. Çalışma sayfasında yapılandırılan kağıt boyutu, yönlendirme ve yazdırma alanı gibi sayfa yapısı seçenekleri, elde edilen OFD belgesinin düzenini etkiler.
+{{% /alert %}}
 
 ## **Creating an Excel Workbook and Saving as OFD**
 Aspose.Cells, bir çalışma kitabını programlı olarak oluşturmanıza, verilerle doldurmanıza ve ardından `SaveFormat.Ofd` numaralandırmasını kullanarak doğrudan OFD formatında kaydetmenize olanak tanır. Aşağıdaki örnek sıfırdan bir fatura oluşturur. Bir şirket logosu, başlık bilgileri, fatura alıcısı bölümü, satır öğeleri ve hesaplanan toplamlar ekler, ardından çalışma kitabını bir OFD belgesine aktarır.
@@ -94,7 +95,7 @@ int main()
     Style headerStyle = workbook.CreateStyle();
     headerStyle.GetFont().SetIsBold(true);
     headerStyle.GetFont().SetColor(Color::White());
-    headerStyle.SetForegroundColor(Color{0, 0, 128});
+    headerStyle.SetForegroundColor(Color{0xff, 0x00, 0x00, 0x80});
     headerStyle.SetPattern(BackgroundType::Solid);
     headerStyle.SetHorizontalAlignment(TextAlignmentType::Center);
     headerStyle.GetBorders().Get(BorderType::TopBorder).SetLineStyle(CellBorderType::Thin);
@@ -135,7 +136,7 @@ int main()
         descCell.PutValue(lineItems[i].desc);
         qtyCell.PutValue(lineItems[i].qty);
         priceCell.PutValue(lineItems[i].price);
-        std::string formula = "C" + std::to_string(row) + "*D" + std::to_string(row);
+        std::string formula = "C" + std::to_string(row + 1) + "*D" + std::to_string(row + 1);
         totalCell.SetFormula(U16String(formula.c_str()));
         descCell.SetStyle(borderStyle);
         qtyCell.SetStyle(borderStyle);
@@ -145,7 +146,7 @@ int main()
     // Subtotal, tax, grand total
     cells.Get(u"B24").PutValue(u"Subtotal:");
     Cell subtotalCell = cells.Get(u"E24");
-    subtotalCell.SetFormula(u"SUM(E20:E22)");
+    subtotalCell.SetFormula(u"SUM(E21:E23)");
     cells.Get(u"B25").PutValue(u"Tax (10%):");
     Cell taxCell = cells.Get(u"E25");
     taxCell.SetFormula(u"E24*0.1");
@@ -246,6 +247,5 @@ int main() {
 - [Excel Dosyalarını Birden Fazla Dosyaya Bölme](/cells/tr/cpp/splitting-excel-files-into-multiple-files/)
 - [Bir Hücreye Görsel Ekleme](/cells/tr/cpp/inserting-an-image-into-a-cell/)
 - [DBF Dosyalarını Okuma ve Yazma](/cells/tr/cpp/dbf/)
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

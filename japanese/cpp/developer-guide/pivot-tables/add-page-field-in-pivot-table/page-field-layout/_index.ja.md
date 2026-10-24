@@ -1,8 +1,8 @@
 ---
 title: ピボットテーブルでページフィールドのレイアウトを変更する
 linktitle: ピボットテーブルでページフィールドのレイアウトを変更する
-description: Aspose.Cells for C++ を使用して、ピボットテーブル上部のページ フィールドの表示順序、折り返し数、フィールドの順序を設定する方法など、ページ フィールド領域のレイアウトを制御する方法を説明します。
-keywords: Aspose.Cells, C++ library, spreadsheet, pivot table, page field, page field order, page field wrap count, move page field
+description: Aspose.Cells for C++ を使用して、ピボットテーブルのページフィールド領域のレイアウトを制御する方法を学びます。また、ピボットテーブル上部のページフィールドについて、表示順序、折り返し数、およびフィールド順序を設定する方法を説明します。
+keywords: Aspose.Cells, C++ ライブラリ, スプレッドシート, ピボットテーブル, ページフィールド, ページフィールドの順序, ページフィールドの折り返し数, ページフィールドの移動
 type: docs
 weight: 191
 url: /ja/cpp/change-page-field-layout/
@@ -11,31 +11,31 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-この記事は、**ピボットテーブルにページフィールドを追加する**トピックの続きです。ピボットテーブル上部にあるフィルター コントロールの帯であるページ フィールド領域のレイアウトを、表示順序、折り返し数、フィールドの並べ替えを含めて制御する方法を説明します。
+本記事は、**ピボットテーブルにページフィールドを追加する**の続きです。ページフィールド領域（ピボットテーブル上部に配置されるフィルターコントロールの帯）のレイアウトを制御する方法を説明します。具体的には、表示順序、折り返し数、およびフィールドの並べ替えを示します。
 {{% /alert %}}
 
-## **Introduction**
-Microsoft Excel のピボットテーブルには、テーブルの行/列/データ本体の上にある専用の**ページフィールド領域**があります。この領域は、各ページ フィールドに対応するドロップダウン フィルター コントロールの帯として表示され、エンド ユーザーは年や地域などの条件でピボットをスライスするためにクリックする部分です。Aspose.Cells for C++ はこの領域を `PivotTable.PageFields` コレクションでモデル化し、帯の視覚的なレイアウトを制御する 3 つのプロパティを公開しています。
-- `PivotTable.PageFieldOrder`（`Aspose.Cells.PrintOrderType` の値）は、追加のページ フィールドを既存のもの*横*に配置するか、*下*に配置するかを決定します。
-- `PivotTable.PageFieldWrapCount` は、折り返しを行う前に 1 行または 1 列に配置するページ フィールドの数を設定します。
-- `PivotTable.PageFields.Move(currIndex, destIndex)` は、順序モードを変更せずにページ フィールドの順序を変更します。
-この記事では、各操作を共通データセットで実演する 3 つのコード例を取り上げるため、結果として得られるレイアウトを並べて比較できます。
+## **はじめに**
+Microsoft Excel のピボットテーブルには、表の行・列・データ部分の上部に配置される専用の**ページフィールド領域**があります。この領域は、各ページフィールドに対応するドロップダウン型フィルターコントロールの帯として表示され、年や地域などの条件に応じてピボットテーブルのデータを絞り込むために、利用者がクリックする部分です。Aspose.Cells for C++ はこの領域を `PivotTable.PageFields` コレクションとしてモデル化し、帯のレイアウトを制御する 3 つのプロパティを公開します。
+- `PivotTable.PageFieldOrder`（`Aspose.Cells.PrintOrderType` の値）は、追加されるページフィールドを既存のフィールドの*横*または*下*に配置するかどうかを決定します。
+- `PivotTable.PageFieldWrapCount` は、折り返すまでの 1 行または 1 列に配置するページフィールド数を設定します。
+- `PivotTable.PageFields.Move(currIndex, destIndex)` は、順序モードを変更せずにページフィールドを並べ替えます。
+本チュートリアルでは、同じデータセットに対してこれら 3 つの操作をそれぞれ示す 3 つのコード例を紹介し、結果のレイアウトを並べて比較できるようにします。
 
-## **Source Data**
-| 果物 | 年 | 地域 | 金額 |
-|---|---:|---|---:|
-| リンゴ | 2022 | 北 | 150 |
-| リンゴ | 2023 | 北 | 180 |
-| バナナ | 2022 | 南 | 120 |
-| バナナ | 2023 | 南 | 140 |
-| チェリー | 2022 | 東 | 200 |
-| チェリー | 2023 | 東 | 220 |
-| ブドウ | 2022 | 西 | 90 |
-| ブドウ | 2023 | 西 | 110 |
-すべてのコード例には、同一の順序で 8 行のデータが入力されています。そのため、シナリオ間でソースデータが異なることはなく、異なるのはページフィールドのレイアウトプロパティだけです。
+## **ソースデータ**
+| Fruit  | Year | Region | Amount |
+|--------|------|--------|--------|
+| Apple  | 2022 | North  | 150    |
+| Apple  | 2023 | North  | 180    |
+| Banana | 2022 | South  | 120    |
+| Banana | 2023 | South  | 140    |
+| Cherry | 2022 | East   | 200    |
+| Cherry | 2023 | East   | 220    |
+| Grape  | 2022 | West   | 90     |
+| Grape  | 2023 | West   | 110    |
+すべてのコード例では、8 行すべてが同一の順序で入力されるため、シナリオ間でソースデータが変化することはありません。変更されるのはページフィールドのレイアウトプロパティだけです。
 
-## **Example 1: Over Then Down**
-最初のシナリオでは、2 つのページフィールド（`Year`、`Region`）がピボットテーブル上部に**1 行に横並び**で表示されるように設定します。`Fruit` を行軸に割り当て、ページ軸では `Year` を最初、`Region` を 2 番目に配置し（`AddFieldToArea` 呼び出しの順序が開始インデックスを決定します）、データフィールドとして `Amount`（`Sum`）を追加します。その後、`PageFieldOrder` を `PrintOrderType.OverThenDown` に設定し、`PageFieldWrapCount = 2` とします。`OverThenDown` と折り返し数 2 を組み合わせると、2 つのページフィールドがピボットテーブル上部の 1 行に横に並んで配置され、帯は 1 行を占め、幅は 2 フィールド分になります。
+## **例 1: Over Then Down**
+最初のシナリオでは、2 つのページフィールド（`Year`、`Region`）が、ピボットテーブルの上部に**1 行で横並び**になるように構成します。`Fruit` を行軸に割り当て、`Year` を先に、`Region` を次にページ軸に配置します（`AddFieldToArea` 呼び出しの順序によって初期インデックスが決まります）。さらに、`Amount`（`Sum`）をデータフィールドとして追加し、`PageFieldOrder` に `PrintOrderType.OverThenDown` を設定して `PageFieldWrapCount = 2` とします。`OverThenDown` と折り返し数 2 を使用すると、2 つのページフィールドがピボットテーブルの上部の 1 行に横並びで配置されます。そのため、帯は 2 つのページフィールドを収める 1 行として表示されます。
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -53,69 +53,69 @@ int main() {
     WorksheetCollection worksheets = workbook.GetWorksheets();
     Worksheet pivotDataSheet = worksheets.Add(u"PivotData");
     Cells pivotDataCells = pivotDataSheet.GetCells();
-    // Headers (row 0)
+    // ヘッダー（0行目）
     pivotDataCells.Get(0, 0).PutValue(u"Fruit");
     pivotDataCells.Get(0, 1).PutValue(u"Year");
     pivotDataCells.Get(0, 2).PutValue(u"Region");
     pivotDataCells.Get(0, 3).PutValue(u"Amount");
-    // Row 1: Apple, 2022, North, 150
+    // 1行目: りんご、2022、北、150
     pivotDataCells.Get(1, 0).PutValue(u"Apple");
     pivotDataCells.Get(1, 1).PutValue(2022);
     pivotDataCells.Get(1, 2).PutValue(u"North");
     pivotDataCells.Get(1, 3).PutValue(150);
-    // Row 2: Apple, 2023, North, 180
+    // 2行目: りんご、2023、北、180
     pivotDataCells.Get(2, 0).PutValue(u"Apple");
     pivotDataCells.Get(2, 1).PutValue(2023);
     pivotDataCells.Get(2, 2).PutValue(u"North");
     pivotDataCells.Get(2, 3).PutValue(180);
-    // Row 3: Banana, 2022, South, 120
+    // 3行目: バナナ、2022、南、120
     pivotDataCells.Get(3, 0).PutValue(u"Banana");
     pivotDataCells.Get(3, 1).PutValue(2022);
     pivotDataCells.Get(3, 2).PutValue(u"South");
     pivotDataCells.Get(3, 3).PutValue(120);
-    // Row 4: Banana, 2023, South, 140
+    // 4行目: バナナ、2023、南、140
     pivotDataCells.Get(4, 0).PutValue(u"Banana");
     pivotDataCells.Get(4, 1).PutValue(2023);
     pivotDataCells.Get(4, 2).PutValue(u"South");
     pivotDataCells.Get(4, 3).PutValue(140);
-    // Row 5: Cherry, 2022, East, 200
+    // 5行目: さくらんぼ、2022、東、200
     pivotDataCells.Get(5, 0).PutValue(u"Cherry");
     pivotDataCells.Get(5, 1).PutValue(2022);
     pivotDataCells.Get(5, 2).PutValue(u"East");
     pivotDataCells.Get(5, 3).PutValue(200);
-    // Row 6: Cherry, 2023, East, 220
+    // 6行目: さくらんぼ、2023、東、220
     pivotDataCells.Get(6, 0).PutValue(u"Cherry");
     pivotDataCells.Get(6, 1).PutValue(2023);
     pivotDataCells.Get(6, 2).PutValue(u"East");
     pivotDataCells.Get(6, 3).PutValue(220);
-    // Row 7: Grape, 2022, West, 90
+    // 7行目: ぶどう、2022、西、90
     pivotDataCells.Get(7, 0).PutValue(u"Grape");
     pivotDataCells.Get(7, 1).PutValue(2022);
     pivotDataCells.Get(7, 2).PutValue(u"West");
     pivotDataCells.Get(7, 3).PutValue(90);
-    // Row 8: Grape, 2023, West, 110
+    // 8行目: ぶどう、2023、西、110
     pivotDataCells.Get(8, 0).PutValue(u"Grape");
     pivotDataCells.Get(8, 1).PutValue(2023);
     pivotDataCells.Get(8, 2).PutValue(u"West");
     pivotDataCells.Get(8, 3).PutValue(110);
-    // Add PivotTableReport sheet
+    // PivotTableReportシートを追加
     Worksheet pivotTableSheet = worksheets.Add(u"PivotTableReport");
     PivotTableCollection pivotTables = pivotTableSheet.GetPivotTables();
-    // Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
+    // PivotData!A1:D9をデータ元としてPivotTableReportのA1に配置するピボットテーブルを作成
     int pivotIndex = pivotTables.Add(u"PivotData!A1:D9", u"A1", u"PivotTable1");
     PivotTable pivotTable = pivotTables.Get(pivotIndex);
-    // Add fields
-    pivotTable.AddFieldToArea(PivotFieldType::Row, 0);   // Fruit
-    pivotTable.AddFieldToArea(PivotFieldType::Page, 1);  // Year
-    pivotTable.AddFieldToArea(PivotFieldType::Page, 2);  // Region
-    pivotTable.AddFieldToArea(PivotFieldType::Data, 3);  // Amount
+    // フィールドを追加
+    pivotTable.AddFieldToArea(PivotFieldType::Row, 0);   // フルーツ
+    pivotTable.AddFieldToArea(PivotFieldType::Page, 1);  // 年
+    pivotTable.AddFieldToArea(PivotFieldType::Page, 2);  // 地域
+    pivotTable.AddFieldToArea(PivotFieldType::Data, 3);  // 金額
     pivotTable.GetDataFields().Get(0).SetFunction(ConsolidationFunction::Sum);
-    // Configure page field area layout: place page fields across first, wrap after every 2
+    // ページフィールド領域のレイアウトを構成：ページフィールドを横に配置し、2個ごとに改行
     pivotTable.SetPageFieldOrder(PrintOrderType::OverThenDown);
     pivotTable.SetPageFieldWrapCount(2);
-    // Refresh and calculate
+    // 更新して計算
     pivotTable.CalculateData();
-    // Save
+    // 保存
     std::string filePath = dataDir + "/pageFieldLayout_overThenDown.xlsx";
     workbook.Save(U16String(filePath.c_str()));
     Aspose::Cells::Cleanup();
@@ -123,12 +123,13 @@ int main() {
 }
 ```
 
-## **Example 2: Down Then Over**
-この例では、例 1 とまったく同じように、`Fruit` を行軸に、`Year` と `Region` をページ軸に（`Year` を先頭に）、`Amount`（`Sum`）をデータフィールドとして配置します。その後、`PageFieldOrder` を `PrintOrderType.DownThenOver` に、`PageFieldWrapCount` を `2` に設定します。`DownThenOver` と折り返し数 2 を組み合わせると、2 つのページフィールドが縦に積まれ、`Year` が上、`Region` がそのすぐ下になり、ピボットテーブル上部に 1 列を形成します。したがって、帯は幅 1 の 2 行を占め、例 1 とは対照的です。
+## **例 2: Down Then Over**
+この例では、例 1 と同様に、`Fruit` を行軸に、`Year` と `Region` をページ軸に（`Year` を先に）、`Amount`（`Sum`）をデータフィールドに配置します。次に、`PageFieldOrder` に `PrintOrderType.DownThenOver` を設定し、`PageFieldWrapCount` を 2 に設定します。`DownThenOver` と折り返し数 2 を使用すると、2 つのページフィールドは `Year` が上、`Region` がその直下に配置され、縦に 2 つ並びます。これにより、ピボットテーブルの上部に 1 列の帯が形成されます。したがって、帯は例 1 とは異なり、1 列幅で 2 行を占めます。
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -178,8 +179,8 @@ int main() {
 }
 ```
 
-## **Example 3: Move a Page Field**
-3 番目のシナリオでは、このデータセットとフィールドの配置を維持し、中立的なレイアウト（折り返し数 `2` の `OverThenDown`）を設定してから、`PageFields.Move` 操作を実演します。`Move(0, 1)` 呼び出しは、インデックス 0 のページフィールド（`Year`）を位置 1 に移動し、元々位置 1 にあったページフィールド（`Region`）を位置 0 に移動します。この呼び出しの後、`Region` が最初のページフィールド、`Year` が 2 番目のページフィールドになります。折り返し数と順序モードは変わらないため、帯は依然として横に並んで表示され、2 つのドロップダウンの順序が入れ替わるだけです。
+## **例 3: ページフィールドの移動**
+3 番目のシナリオでは、このデータセットとフィールド割り当てを維持し、標準的なレイアウト（`OverThenDown`、折り返し数 `2`）を設定してから、`PageFields.Move` 操作を示します。`Move(0, 1)` を呼び出すと、インデックス 0 にあるページフィールド（`Year`）が位置 1 に移動し、位置 1 にあったページフィールド（`Region`）が位置 0 に移ります。この呼び出し後、`Region` が最初のページフィールドになり、`Year` が 2 番目になります。折り返し設定と順序モードは変更されないため、帯は引き続き横並びで表示されます。変更されるのは、2 つのドロップダウンフィルターコントロールの順序だけです。
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -244,11 +245,11 @@ int main() {
 }
 ```
 
-## **Related Articles**
-- [Add Page Field in Pivot Table](/cells/ja/cpp/add-page-field-in-pivot-table/) — ピボットテーブルにページ フィールドを追加する方法を紹介する親ページです。
-- [Row and Column Fields in Pivot Table](/cells/ja/cpp/row-and-column-fields/) — フィールドを行軸と列軸に割り当てる方法を扱い、ここで示すページ軸の作業を補完します。
-- [Manage Value Fields in Pivot Table](/cells/ja/cpp/manage-value-fields/) — データ（値）領域を設定する方法を説明し、この記事で使用する `Sum` 集計を含みます。
-- [Refresh Pivot Table](/cells/ja/cpp/refresh-pivot-table/) — ページ フィールドの並べ替え後に必要となる `RefreshData` と `CalculateData` について説明します。
-- [Apply Style to Pivot Table](/cells/ja/cpp/apply-style-to-pivot-table/) — ページ フィールドの帯を配置した後で、表示されたピボットテーブルの書式を設定する方法を示します。
+## **関連記事**
+- [ピボットテーブルにページフィールドを追加する](/cells/ja/cpp/add-page-field-in-pivot-table/) — ページフィールドをピボットテーブルに追加する方法を説明します。
+- [ピボットテーブルの行フィールドと列フィールド](/cells/ja/cpp/row-and-column-fields/) — フィールドを行軸と列軸に割り当てる方法を説明し、本記事でのページ軸に関する操作を補完します。
+- [ピボットテーブルの値フィールドを管理](/cells/ja/cpp/manage-value-fields/) — この記事で使用する `Sum` 集計を含め、データ（値）領域を設定する方法を説明します。
+- [ピボットテーブルの更新](/cells/ja/cpp/refresh-pivot-table/) — ページフィールドを並べ替えた後に必要となる `RefreshData` と `CalculateData` について説明します。
+- [ピボットテーブルにスタイルを適用](/cells/ja/cpp/apply-style-to-pivot-table/) — ページフィールドの帯を配置した後、表示されたピボットテーブルに書式設定を適用する方法を説明します。
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

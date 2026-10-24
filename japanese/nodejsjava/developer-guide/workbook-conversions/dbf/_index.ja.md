@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells は DBF (dBASE) ファイルの読み取りと書き込みを完全にサポートします。既存の dBASE III および dBASE IV ファイルを Workbook オブジェクトに読み込み、豊富な Aspose.Cells API を使用してデータを操作し、ワークブックを DBF 形式に保存してレガシーデータベースアプリケーションで使用することができます。
+{{% /alert %}}
 
 ## **はじめに**
 DBF (DataBase File) は、1980年代初頭に dBASE によって導入されたレガシーデータベースファイル形式です。この形式は古いものですが、DBF ファイルは構造化データの保存、特に会計、GIS、その他の特殊なアプリケーションにおいて、多くの業界で現在も広く使用されています。Aspose.Cells を使用すると、これらのレガシーファイルを最新の Node.js スプレッドシートワークフローにシームレスに統合できます。
@@ -49,6 +50,8 @@ DBF ファイルを読み取るには、`LoadFormat.Dbf` で設定された `Loa
 次の例は、既存の DBF ファイルを Aspose.Cells に読み込み、最初のワークシートにアクセスしてセルの値を読み取る方法を示しています。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const path = require("path");
 let sb = "";
 const maxRow = cells.getMaxDataRow();
 const maxCol = cells.getMaxDataColumn();
@@ -64,12 +67,13 @@ for (let i = 0; i <= maxRow; i++)
 }
 console.log(sb);
 const outputPath = path.join(dataDir, "output.xlsx");
-workbook.save(outputPath, AsposeCells.SaveFormat.Xlsx);
+workbook.save(outputPath, AsposeCells.SaveFormat.XLSX);
 console.log("DBF file loaded successfully. Converted XLSX saved at: " + outputPath);
 ```
 
 {{% alert color="primary" %}}
 [ファイルを開く] ダイアログでファイルを選択することで、DBF ファイルを Microsoft Excel で直接開くことができます。Excel は DBF ファイルをスプレッドシートとして扱い、そのレコードを表形式レイアウトで表示します。これは、Aspose.Cells で DBF ファイルを読み取ったり書き込んだりした後に、データをすばやく確認するのに便利です。
+{{% /alert %}}
 
 ## **DBF ファイルの書き込み**
 DBF ファイルへのデータの書き込みは、Aspose.Cells で他のスプレッドシート形式を保存するのと類似したパターンに従います。Workbook を作成または読み込み、ワークシートにデータを入力し、`save` メソッドを呼び出す際に `SaveFormat.Dbf` をターゲット形式として指定します。
@@ -83,6 +87,7 @@ DBF ファイルを作成するには、以下の手順に従います:
 次の例は、ゼロから新しい DBF ファイルを作成する方法を示しています。異なるデータ型 (文字列、数値、日付) を含むサンプルデータでワークシートを入力し、DBF 形式にエクスポートする際にフィールド型がどのように処理されるかを説明します。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
@@ -128,11 +133,12 @@ worksheet.getCells().setColumnWidth(1, 20);
 worksheet.getCells().setColumnWidth(2, 20);
 worksheet.getCells().setColumnWidth(3, 12);
 worksheet.getCells().setColumnWidth(4, 14);
-workbook.save(filePath, AsposeCells.SaveFormat.Dbf);
+workbook.save(filePath, AsposeCells.SaveFormat.DBF);
 ```
 
 {{% alert color="primary" %}}
 DBF ファイルにデータを書き込む際は、データが形式の制限に準拠していることを確認してください。フィールド名は 10 文字以下とし、スペースを含めることはできません。合計で 4000 バイトを超えるレコードは正しく保存されません。日付は YYYYMMDD 形式で表現できる有効な日付値である必要があります。
+{{% /alert %}}
 
 ## **データ型と書式設定の考慮事項**
 Aspose.Cells と DBF 形式の間でデータを転送する場合、データの整合性を確保するために、2 つのシステム間でデータ型がどのように対応するかを理解することが重要です。
@@ -160,10 +166,5 @@ DBF ファイルを書き込んだ後、Microsoft Excel または任意の dBASE
 ## **DBF と他の形式の間の変換**
 Aspose.Cells で DBF ファイルを読み書きする最も実用的なユースケースの 1 つは、DBF 形式と XLSX、XLS、CSV などの最新のスプレッドシート形式の間でデータを変換することです。Aspose.Cells は幅広い形式をサポートしているため、DBF ファイルを読み込んで他のサポートされている形式で再保存したり、その逆を行ったりすることが簡単にできます。
 たとえば、DBF ファイルを読み込み、Aspose.Cells API を使用して書式設定や計算を適用し、その結果を最新のスプレッドシートアプリケーションを使用するユーザーに配布するために XLSX ファイルとして保存できます。逆に、XLSX や CSV ファイルからデータを取得し、レガシーシステムとの統合のために DBF 形式にエクスポートすることもできます。
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

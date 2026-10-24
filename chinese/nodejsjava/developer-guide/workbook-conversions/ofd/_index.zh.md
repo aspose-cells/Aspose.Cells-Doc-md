@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持使用 `SaveFormat.Ofd` 枚举值将 Excel 工作簿直接转换为 OFD（Open Fixed-layout Document，开放版式文档）格式。生成的 OFD 文档保留了工作簿的可见布局、内容、合并单元格、列宽、行高、字体、颜色、边框以及数字格式。这使得 Aspose.Cells 适用于需要固定版式输出的归档、打印、监管申报以及政府提交等工作流程。
+{{% /alert %}}
 
 ## **简介**
 OFD（Open Fixed-layout Document，开放版式文档）是中国用于以固定、基于页面的版式表示数字文档的国家标准（GB/T 33190-2016）。在源文档的视觉外观必须与原始所见完全一致的使用场景中，它扮演着与 PDF 类似的角色。OFD 在中华人民共和国的政府提交、监管申报、电子发票以及长期归档等领域被广泛采用。
@@ -19,6 +20,7 @@ OFD（Open Fixed-layout Document，开放版式文档）是中国用于以固定
 
 {{% alert color="primary" %}}
 Aspose.Cells 生成的 OFD 输出保留了源工作簿的可见布局，包括单元格内容、合并单元格、列宽以及行高。字体、颜色、边框、对齐方式和数字格式等单元格格式也会在固定版式输出中呈现。在工作表上配置的页面设置选项（例如纸张大小、方向以及打印区域）会影响生成的 OFD 文档的版式。
+{{% /alert %}}
 
 ## **创建 Excel 工作簿并保存为 OFD**
 Aspose.Cells 允许您通过编程方式构建工作簿，向其中填充数据，然后使用 `SaveFormat.Ofd` 枚举直接将其保存为 OFD 格式。下面的示例从头开始创建一张发票。它添加了公司徽标、抬头信息、收票方信息、明细项目以及计算出的合计金额，然后将工作簿导出为 OFD 文档。
@@ -27,6 +29,7 @@ Aspose.Cells 允许您通过编程方式构建工作簿，向其中填充数据�
 该示例通过在左上角插入徽标图像来构建发票工作表，填充公司名称和联系方式，在合并的单元格中添加"INVOICE"（发票）标题，记录发票编号和日期，列出收票方客户，构建包含描述、数量、单价和合计列的明细项目表，并使用单元格公式计算小计、税金和总计。通过 `Style` 和 `Font` 对象应用粗体标题、价格货币格式、边框以及列宽等格式。最后，使用 `SaveFormat.Ofd` 将工作簿以 `.ofd` 扩展名保存。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let dataDir = "C:\\Temp\\";
 // Create a new Workbook
 let workbook = new AsposeCells.Workbook();
@@ -51,7 +54,7 @@ worksheet.getCells().merge(7, 1, 2, 4);
 let titleCell = worksheet.getCells().get("B8");
 titleCell.putValue("INVOICE");
 let titleStyle = workbook.createStyle();
-titleStyle.getFont().setIsBold(true);
+titleStyle.getFont().setBold(true);
 titleStyle.getFont().setSize(20);
 titleStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.CENTER);
 titleCell.setStyle(titleStyle);
@@ -75,14 +78,14 @@ headerQty.putValue("Quantity");
 headerPrice.putValue("Unit Price");
 headerTotal.putValue("Total");
 let headerStyle = workbook.createStyle();
-headerStyle.getFont().setIsBold(true);
+headerStyle.getFont().setBold(true);
 headerStyle.getFont().setColor(AsposeCells.Color.getWhite());
 headerStyle.setBackgroundColor(AsposeCells.Color.getNavy());
 headerStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.CENTER);
-headerStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 headerDesc.setStyle(headerStyle);
 headerQty.setStyle(headerStyle);
 headerPrice.setStyle(headerStyle);
@@ -90,16 +93,16 @@ headerTotal.setStyle(headerStyle);
 // Currency style with borders
 let currencyStyle = workbook.createStyle();
 currencyStyle.setCustom("\"$\"#,##0.00");
-currencyStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 // Plain border style for description/quantity cells
 let borderStyle = workbook.createStyle();
-borderStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 // Line items rows
 let lineItems = [
     ["Product A - Widget", 2, 50.00],
@@ -134,19 +137,19 @@ let grandTotalCell = worksheet.getCells().get("E26");
 grandTotalCell.setFormula("E24+E25");
 // Bold + currency style for total values
 let totalStyle = workbook.createStyle();
-totalStyle.getFont().setIsBold(true);
+totalStyle.getFont().setBold(true);
 totalStyle.setCustom("\"$\"#,##0.00");
 subtotalCell.setStyle(totalStyle);
 taxCell.setStyle(totalStyle);
 grandTotalCell.setStyle(totalStyle);
 // Bold style for total labels
 let boldStyle = workbook.createStyle();
-boldStyle.getFont().setIsBold(true);
+boldStyle.getFont().setBold(true);
 worksheet.getCells().get("B24").setStyle(boldStyle);
 worksheet.getCells().get("B25").setStyle(boldStyle);
 worksheet.getCells().get("B26").setStyle(boldStyle);
 // Save the workbook as an OFD file
-workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.Ofd);
+workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.OFD);
 ```
 
 ## **将现有的 Excel 文件转换为 OFD**
@@ -190,7 +193,7 @@ const printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 console.log("\nPrint area set to: " + printArea);
 // (6) 将工作簿另存为 OFD 文件
-workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.Ofd);
+workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.OFD);
 console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 function formatDate(date) {
     const pad = (n) => n.toString().padStart(2, '0');
@@ -203,8 +206,5 @@ function formatDate(date) {
 - [在单元格中插入图片](/cells/zh/nodejs-java/inserting-an-image-into-a-cell/)
 - [读写 DBF 文件](/cells/zh/nodejs-java/dbf/)
 - [在 Aspose.Cells for Node.js via Java 中将迷你图转换为图像和 HTML](/cells/zh/nodejs-java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

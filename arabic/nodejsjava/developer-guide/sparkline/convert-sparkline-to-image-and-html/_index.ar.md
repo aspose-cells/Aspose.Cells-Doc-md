@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 خطوط Sparkline هي رسوم بيانية مصغّرة موضوعة داخل خلايا ورقة العمل. يتيح لك Aspose.Cells استخراج كل خط sparkline كصورة مستقلة (لتضمينها في خلية أخرى أو في تقرير خارجي) وكذلك تصدير ورقة العمل بأكملها الغنية بخطوط Sparkline إلى HTML للتوزيع عبر المتصفح. الخاصية `Cell.EmbeddedImage` المستخدمة في هذه المقالة متاحة في **Aspose.Cells 26.5 والإصدارات الأحدث**.
+{{% /alert %}}
 
 ## **المقدمة**
 تمثل خطوط Sparkline طريقة مدمجة لتصور الاتجاهات مباشرة داخل ورقة العمل. بينما يراها مستخدمو Excel في مكانها، تتطلب العديد من السيناريوهات الواقعية أن يغادر خط sparkline الخلية — على سبيل المثال، ليتم تضمينه في خلية مختلفة كصورة ثابتة، أو إرفاقه برسالة بريد إلكتروني مؤتمتة، أو عرضه كجزء من تقرير HTML منشور على الويب.
@@ -33,6 +34,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 7. احفظ المصنف باسم `output_with_sparklines.xlsx`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // تعبئة بيانات العينة في الخلايا A1:E1
@@ -43,28 +45,28 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // إضافة مجموعة شرارة خطية مثبتة عند F1 (العمود 5، الصف 0)
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 // إضافة مجموعة شرارة عمودية مثبتة عند G1 (العمود 6، الصف 0)
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(6);
-columnArea.setEndColumn(6);
-columnArea.setStartRow(0);
-columnArea.setEndRow(0);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 6;
+columnArea.EndColumn = 6;
+columnArea.StartRow = 0;
+columnArea.EndRow = 0;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 // إضافة مجموعة شرارة فوز/خسارة (مكدسة) مثبتة عند H1 (العمود 7، الصف 0)
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(7);
-stackedArea.setEndColumn(7);
-stackedArea.setStartRow(0);
-stackedArea.setEndRow(0);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 7;
+stackedArea.EndColumn = 7;
+stackedArea.StartRow = 0;
+stackedArea.EndRow = 0;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 // تكوين خيارات الصورة لإخراج PNG
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
-imageOptions.setImageType(AsposeCells.ImageType.Png);
+imageOptions.setImageType(AsposeCells.ImageType.PNG);
 // تحويل الشرارة الخطية إلى صورة وتضمينها في الخلية F2
 let lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 let lineMs = new java.io.ByteArrayOutputStream();
@@ -88,6 +90,7 @@ workbook.save("output_with_sparklines.xlsx");
 
 {{% alert color="primary" %}}
 نظرًا لأن كل مجموعة sparkline مُثبَّتة في خلية واحدة، يمكنك الوصول إليها من خلال المفهرس `group.sparklines[0]` بدلاً من التعداد باستخدام `forEach`. يُبقي هذا كود العرض قصيرًا ويتطابق مع النمط النموذجي "خط sparkline واحد لكل خلية تثبيت". يتطلب تخزين بايتات الصورة عبر `Cell.EmbeddedImage` وجود Aspose.Cells 26.5 أو إصدارًا أحدث.
+{{% /alert %}}
 
 ## **سير العمل 2 — تصدير ورقة عمل Sparkline إلى HTML**
 بمجرد أن يحتوي المصنف على خطوط sparkline حية (وصور مُضمَّنة اختيارية)، يمكن نشر ورقة العمل بأكملها على الويب عن طريق حفظها بتنسيق HTML. تُعرَض فئة `HtmlSaveOptions` أدوات التحكم التي تحتاجها للتحكم في هذا التصدير؛ في سير العمل هذا، ستُعيد استخدام ملف `output_with_sparklines.xlsx` الذي أنتجه سير العمل 1 وتحَوِّله إلى مستند HTML نظيف من صفحة واحدة.
@@ -99,6 +102,7 @@ workbook.save("output_with_sparklines.xlsx");
 4. استدعِ `workbook.save("sparklines.html", htmlOptions)` لكتابة مخرجات HTML على القرص.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("output_with_sparklines.xlsx");
 let htmlOptions = new AsposeCells.HtmlSaveOptions();
 htmlOptions.setExportActiveWorksheetOnly(true);
@@ -109,6 +113,7 @@ workbook.save("sparklines.html", htmlOptions);
 
 {{% alert color="primary" %}}
 تُقدِّم فئة `HtmlSaveOptions` خصائص إضافية لضبط المخرجات بدقة، مثل `ExportHiddenWorksheet`، و`ExportImagesAsBase64`، و`Encoding`. اضبط هذه حسب الحاجة وفقًا لهدف النشر لديك.
+{{% /alert %}}
 
 ## **ملخص واجهة برمجة التطبيقات (API)**
 يعتمد سير العمل أعلاه على مجموعة صغيرة من واجهات Aspose.Cells التي تعمل معًا.
@@ -123,10 +128,5 @@ workbook.save("sparklines.html", htmlOptions);
 - [Sparklines in Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/sparkline/)
 - [Inserting an Image into a Cell](/cells/ar/nodejs-java/inserting-an-image-into-a-cell/)
 - [SmartMarker Single Cell Array Rendering | Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

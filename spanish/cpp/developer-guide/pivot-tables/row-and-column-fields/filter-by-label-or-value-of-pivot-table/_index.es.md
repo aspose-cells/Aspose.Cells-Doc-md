@@ -32,6 +32,7 @@ El siguiente ejemplo carga un libro de trabajo que contiene una tabla dinámica 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     U16String fileName(u"sample.xlsx");
@@ -60,10 +61,9 @@ Los filtros de fecha le permiten reducir una tabla dinámica mediante criterios 
 
 {{% alert color="primary" %}}
 El filtro de fecha solo funciona cuando el área de fila o columna contiene únicamente celdas de tipo fecha-hora o valores en blanco. Si el campo subyacente contiene otros tipos de datos como números o texto, el filtro de fecha no producirá el resultado esperado. Asegúrese de que el campo esté formateado como una fecha y de que todos los valores sean instancias válidas de `DateTime` o celdas vacías antes de aplicar este filtro.
-{{% /alert %}}
-
 Aspose.Cells expone el filtrado por fecha a través del método `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)`. La enumeración `PivotFilterType` contiene valores de fecha dedicados como `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` y `Between`. Dependiendo del tipo de filtro elegido, debe pasar uno o dos valores `DateTime` (para `Between`, debe pasar las fechas de inicio y fin).
 El siguiente ejemplo carga un libro de trabajo con una tabla dinámica cuyo área de filas contiene un campo de fecha, aplica un filtro de fecha que restringe los elementos visibles a un rango de fechas particular, actualiza la tabla dinámica y guarda el libro de trabajo.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -111,6 +111,7 @@ El siguiente ejemplo carga un libro de trabajo con una tabla dinámica, aplica u
 #include "Aspose.Cells.h"
 #include <cfloat>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb(u"sample.xlsx");
@@ -144,10 +145,9 @@ El filtro de los 10 mejores es una forma especializada de filtro de valor que co
 
 {{% alert color="primary" %}}
 El filtro de los 10 mejores solo es efectivo cuando la tabla dinámica tiene uno o más campos de valor en el área de datos. Sin al menos un campo de valor, no hay ninguna medida agregada con la que clasificar los elementos, y el filtro no se puede aplicar.
-{{% /alert %}}
-
 Aspose.Cells expone el filtrado de los 10 mejores a través del método `PivotField.FilterTop10(int32_t itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. El parámetro `itemCount` define cuántos elementos se deben conservar, `isTop` indica si se conservan los elementos superiores (true) o los inferiores (false), `valueField` hace referencia al campo de datos utilizado para la clasificación, y `filterType` controla cómo se calcula el valor (normalmente `Sum`, pero también `Count` y `Percent`).
 El siguiente ejemplo carga un libro de trabajo con una tabla dinámica que contiene un campo de valor, aplica un filtro de los 10 mejores para conservar solo los 10 elementos más altos según la suma de ventas, actualiza la tabla dinámica y guarda el libro de trabajo.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -182,6 +182,7 @@ Este enfoque resulta útil cuando la regla de filtrado es irregular o específic
 #include "Aspose.Cells.h"
 #include <string>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Load an existing workbook containing a pivot table

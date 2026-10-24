@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells bietet zwei verschiedene Möglichkeiten, ein Bild mit einer einzelnen Zelle zu verknüpfen. Ein schwebendes Bild ist eine Form auf der Zeichenebene des Arbeitsblatts, die einen Zellbereich visuell überlagert, während ein eingebettetes Bild in der Zelle selbst gespeichert wird und automatisch auf den Anzeigebereich der Zelle skaliert wird. Wählen Sie den Ansatz, der am besten zu Ihren Layout-Anforderungen passt.
+{{% /alert %}}
 
 ## **Einführung**
 Das exakte Anpassen eines Bildes an eine einzelne Zelle ist eine häufige Anforderung beim Entwerfen von Tabellenkalkulationen, die als visuelle Berichte, Produktkataloge, Mitarbeiterverzeichnisse, Dashboards oder Inventarlisten dienen. Anstatt ein Bild über mehrere Zellen auszudehnen oder es lose auf einem Arbeitsblatt zu platzieren, möchten Sie möglicherweise ein sauberes, zellgebundenes Bild, das mit der besitzenden Zelle ausgerichtet bleibt.
@@ -36,6 +37,7 @@ Der Anker des Bildes wird durch vier nullbasierte Indexeigenschaften definiert:
 
 {{% alert color="primary" %}}
 Zeilen- und Spaltenindizes in Aspose.Cells sind **nullbasiert**. Zelle C6 hat den Zeilenindex 5 und den Spaltenindex 2. Off-by-One-Fehler beim unteren rechten Anker sind die häufigste Ursache für Bilder, die scheinbar in eine benachbarte Zelle überlaufen.
+{{% /alert %}}
 
 ### **Platzierungsverhalten steuern**
 `Picture.Placement` ist eine Aufzählung vom Typ `PlacementType`, die steuert, wie sich das Bild verhält, wenn der Benutzer die Größe der darunter liegenden Zeile oder Spalte ändert. Der empfohlene Wert für ein einzelnes Zellenbild ist `PlacementType.MoveAndSize`, wodurch sich das Bild zusammen mit seiner darunter liegenden Zelle bewegt und seine Größe ändert, wobei die exakte Passform erhalten bleibt.
@@ -117,9 +119,6 @@ Beide Ansätze erzeugen ein Bild, das in eine einzelne Zelle passt, unterscheide
   - Sie das einfachstmögliche Einfügen eines Bildes in eine Zelle wünschen.
   - Das Bild mit der Zelle wie jeder andere Zellinhalt mitwandern soll.
   - Sie das Bild nicht als Form manipulieren müssen.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Verwandte Artikel
 - [Excel-Kamera in Aspose.Cells for .NET](/cells/de/net/excel-camera/)

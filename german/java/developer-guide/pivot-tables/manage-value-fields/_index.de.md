@@ -72,13 +72,11 @@ Jedes im Datenbereich platzierte Feld wird intern als `PivotField`-Instanz gekap
 
 {{% alert color="primary" %}}
 Das Ändern von `Function` wirkt sich nur auf das Aggregat aus, die Quellspalte ändert sich nicht.
-{{% /alert %}}
-
 Sie können daher ein Datenfeld als `SUM` belassen, während Sie ein zweites Datenfeld hinzufügen, das auf dieselbe Quellspalte verweist, aber `COUNT` oder `AVERAGE` verwendet, alles in einer einzigen PivotTable.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -119,13 +117,11 @@ Wenn eine PivotTable zwei oder mehr Datenfelder enthält, stellt Aspose.Cells ei
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` funktioniert nicht, wenn kein oder nur ein Wertfeld vorhanden ist.
-{{% /alert %}}
-
 Die folgenden Szenarien erläutern drei durchgängige Beispiele, die jede oben beschriebene Funktion anhand derselben Pivot-Struktur demonstrieren.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

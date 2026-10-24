@@ -37,6 +37,7 @@ Aspose.Cellsは、このシナリオを2つの補完的な方法でサポート�
 
 {{% alert color="primary" %}}
 Aspose.Cellsの行と列のインデックスは**ゼロベース**です。セルC6の行インデックスは5、列インデックスは2です。右下アンカーでの1つ違いのエラーは、画像が隣接セルに重なって表示される最も一般的な原因です。
+{{% /alert %}}
 
 ### **配置動作の制御**
 `Picture.placement`は`PlacementType`型の列挙型で、ユーザーが下の行または列をサイズ変更したときの画像の動作を制御します。単一セル画像に対する推奨値は`PlacementType.MOVE_AND_SIZE`で、これにより画像が基になるセルと一緒に移動およびサイズ変更され、正確なフィット感が維持されます。
@@ -54,6 +55,7 @@ Aspose.Cellsの行と列のインデックスは**ゼロベース**です。セ�
 
 ```python
 import aspose.cells as ac
+from aspose.cells.drawing import PlacementType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 with open("logo.png", "rb") as fs:
@@ -63,7 +65,7 @@ with open("logo.png", "rb") as fs:
     picture.upper_left_column = 2
     picture.lower_right_row = 6
     picture.lower_right_column = 3
-    picture.placement = ac.PlacementType.MOVE_AND_SIZE
+    picture.placement = PlacementType.MOVE_AND_SIZE
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
 
@@ -80,7 +82,7 @@ Aspose.Cellsは、セルにバインドされた画像のためのよりシン�
 1. 新しい`Workbook`を作成します(または既存のものを開きます)。
 2. `workbook.worksheets[0]`からターゲットの`Worksheet`にアクセスします。
 3. 画像ファイルをディスクから`bytes`オブジェクトに読み込みます(たとえば、バイナリモードでファイルを開き、`.read()`を呼び出します)。
-4. ターゲットセルへの参照を取得します — `worksheet.cells["C6"]`または`worksheet.cells[5, 2]`のいずれかを使用します。
+4. ターゲットセルへの参照を取得します — `worksheet.cells.get("C6")`または`worksheet.cells.get(5, 2)`のいずれかを使用します。
 5. bytesオブジェクトをセルの`embedded_image`プロパティに割り当てます。
 6. オプションで、ターゲット行と列の行の高さと列の幅を調整して、埋め込み画像をより目立たせます。
 7. ワークブックを`.xlsx`ファイルとしてディスクに保存します。
@@ -91,15 +93,15 @@ import aspose.cells as ac
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Get the target cell C6
-cell = worksheet.cells["C6"]
+cell = worksheet.cells.get("C6")
 # Read the image file into a byte array
 with open("logo.png", "rb") as f:
     imageData = f.read()
 # Embed the image directly into the cell
 cell.embedded_image = imageData
 # Optionally adjust row height and column width so the embedded image is more visible
-worksheet.cells.set_column_width(2, 30)   # Column C (index 2)
-worksheet.cells.set_row_height(5, 100)     # Row 6 (index 5)
+worksheet.cells.set_column_width(2, 30.0)   # Column C (index 2)
+worksheet.cells.set_row_height(5, 100.0)     # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
@@ -114,7 +116,6 @@ workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 - **次のような場合は、埋め込み画像(アプローチ2)を使用します。**
   - セルへの画像の挿入を可能な限りシンプルにしたい場合。
   - 画像が他のセルコンテンツと同様にセルと一緒に移動する必要がある場合。
-{{% /alert %}}
 
 ## 関連記事
 - [Aspose.Cells for Python via .NETのExcelカメラ](/cells/ja/python-net/excel-camera/)
@@ -123,4 +124,4 @@ workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 - [ピボットテーブルのページフィールドのレイアウトを変更する](/cells/ja/python-net/change-page-field-layout/)
 - [Aspose.Cells for Python via .NETでスパークラインを画像とHTMLに変換する](/cells/ja/python-net/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

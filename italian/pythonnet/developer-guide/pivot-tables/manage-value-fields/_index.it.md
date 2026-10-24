@@ -15,7 +15,8 @@ L'aggiunta di un campo di base all'area dati (valore) è il primo passo per defi
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -53,13 +54,13 @@ Ogni campo posizionato nell'area dati è incapsulato internamente come istanza d
 
 {{% alert color="primary" %}}
 La modifica di `function` influisce solo sull'aggregato, la colonna di origine non cambia.
-{{% /alert %}}
-
 È quindi possibile lasciare un campo dati come `Sum` mentre si aggiunge un secondo campo dati che ha come destinazione la stessa colonna di origine ma utilizza `Count` o `Average`, il tutto in un'unica tabella pivot.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -96,9 +97,8 @@ Quando una tabella pivot contiene due o più campi dati, Aspose.Cells espone un 
 
 {{% alert color="primary" %}}
 `PivotTable.values_field` non funziona se non ci sono campi valore o se ne è presente solo uno.
-{{% /alert %}}
-
 Gli scenari seguenti illustrano tre esempi end-to-end che dimostrano ciascuna delle funzionalità descritte sopra sulla stessa struttura di tabella pivot.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac

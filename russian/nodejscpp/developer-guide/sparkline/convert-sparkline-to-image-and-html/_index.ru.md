@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Спарклайны — это миниатюрные диаграммы, размещаемые внутри ячеек рабочего листа. Aspose.Cells позволяет извлекать каждый спарклайн как отдельное изображение (для встраивания в другую ячейку или внешний отчёт), а также экспортировать весь рабочий лист со спарклайнами в HTML для распространения через браузер. Свойство `cell.embeddedImage`, используемое в этой статье, доступно в **Aspose.Cells 26.5 и более поздних версиях**.
+{{% /alert %}}
 
 ## **Введение**
 Спарклайны — это компактный способ визуализации трендов непосредственно внутри рабочего листа. В то время как пользователи Excel видят их на месте, многие реальные сценарии требуют, чтобы спарклайн покинул ячейку — например, чтобы быть встроенным в другую ячейку как статичное изображение, прикреплённым к автоматическому email-сообщению или отображённым как часть HTML-отчёта, опубликованного в интернете.
@@ -33,6 +34,8 @@ Aspose.Cells поддерживает обе эти операции. Метод
 7. Сохраните рабочую книгу как `output_with_sparklines.xlsx`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Заполнить образец данных в ячейках A1:E1
@@ -43,24 +46,24 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Добавить группу линейных спарклайнов, привязанную к F1 (столбец 5, строка 0)
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
 // Добавить группу столбчатых спарклайнов, привязанную к G1 (столбец 6, строка 0)
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(6);
-columnArea.setEndColumn(6);
-columnArea.setStartRow(0);
-columnArea.setEndRow(0);
+columnArea.StartColumn = 6;
+columnArea.EndColumn = 6;
+columnArea.StartRow = 0;
+columnArea.EndRow = 0;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
 // Добавить группу спарклайнов Выигрыш/Проигрыш (стек), привязанную к H1 (столбец 7, строка 0)
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(7);
-stackedArea.setEndColumn(7);
-stackedArea.setStartRow(0);
-stackedArea.setEndRow(0);
+stackedArea.StartColumn = 7;
+stackedArea.EndColumn = 7;
+stackedArea.StartRow = 0;
+stackedArea.EndRow = 0;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
 // Настроить параметры изображения для вывода в формате PNG
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
@@ -88,6 +91,7 @@ workbook.save("output_with_sparklines.xlsx");
 
 {{% alert color="primary" %}}
 Поскольку каждая группа спарклайнов привязана к одной ячейке, вы можете обращаться к ней через индексатор `group.sparklines[0]` вместо перечисления с помощью `forEach`. Это делает код рендеринга коротким и соответствует типичному шаблону «один спарклайн на одну ячейку привязки». Для сохранения байтов изображения через `cell.embeddedImage` требуется Aspose.Cells 26.5 или более поздней версии.
+{{% /alert %}}
 
 ## **Рабочий процесс 2 — Экспорт рабочего листа со спарклайнами в HTML**
 После того как рабочая книга содержит живые спарклайны (и, при необходимости, встроенные изображения-аналоги), весь рабочий лист может быть опубликован в интернете путём его сохранения как HTML. Класс `HtmlSaveOptions` предоставляет параметры, необходимые для управления этим экспортом; в данном рабочем процессе вы будете повторно использовать файл `output_with_sparklines.xlsx`, созданный в Рабочем процессе 1, и преобразуете его в чистый одностраничный HTML-документ.
@@ -99,6 +103,7 @@ workbook.save("output_with_sparklines.xlsx");
 4. Вызовите `workbook.save("sparklines.html", htmlOptions)` для записи HTML-вывода на диск.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook("output_with_sparklines.xlsx");
 let htmlOptions = new AsposeCells.HtmlSaveOptions();
 htmlOptions.setExportActiveWorksheetOnly(true);
@@ -109,6 +114,7 @@ workbook.save("sparklines.html", htmlOptions);
 
 {{% alert color="primary" %}}
 Класс `HtmlSaveOptions` предлагает дополнительные свойства для тонкой настройки вывода, такие как `exportHiddenWorksheet`, `exportImagesAsBase64` и `encoding`. Настраивайте их по мере необходимости для вашей целевой среды развёртывания.
+{{% /alert %}}
 
 ## **Сводка по API**
 Описанные выше рабочие процессы опираются на небольшой набор API Aspose.Cells, работающих совместно.
@@ -123,10 +129,5 @@ workbook.save("sparklines.html", htmlOptions);
 - [Спарклайны в Aspose.Cells для Aspose.Cells для Node.js via C++](/cells/ru/nodejs-cpp/sparkline/)
 - [Вставка изображения в ячейку](/cells/ru/nodejs-cpp/inserting-an-image-into-a-cell/)
 - [Рендеринг массива одиночной ячейки SmartMarker | Aspose.Cells Node.js via C++](/cells/ru/nodejs-cpp/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

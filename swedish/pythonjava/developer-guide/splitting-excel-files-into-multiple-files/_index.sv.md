@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells stöder delning av en enda Excel-fil i flera filer. Det finns två primära sätt att göra detta: (1) genom att kopiera varje kalkylblad i källarbetsboken till en ny arbetsbok och spara varje som en separat fil, och (2) genom att kopiera ett specifikt cellintervall från ett kalkylblad till en ny arbetsbok. Båda metoderna är användbara när du behöver distribuera delmängder av data, skapa mindre rapporter för olika mottagare, eller isolera data för individuell bearbetning.
+{{% /alert %}}
 
 ## **Introduktion**
 Det finns många verkliga scenarier där en utvecklare behöver dela upp en enda Excel-fil i flera mindre filer. En arbetsbok kan till exempel innehålla ett kalkylblad per avdelning, och varje avdelningschef behöver bara få sitt eget blad. I andra fall kanske du vill extrahera en specifik tabell eller datablock från ett kalkylblad och skicka det som en fristående fil via e-post, utan att exponera resten av arbetsboken. Stora konsoliderade arbetsböcker kan också behöva delas upp i mindre bitar för enklare hantering, snabbare laddning, eller vidare bearbetning av andra system.
@@ -40,7 +41,6 @@ Följande steg beskriver hur man delar upp en Excel-fil genom att kopiera varje 
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat
 dataDir = "data/"
 workbook = Workbook(dataDir + "book1.xls")
@@ -56,7 +56,7 @@ for i in range(workbook.getWorksheets().getCount()):
     destSheet.copy(sourceSheet)
     
     destFile = dataDir + sheetName + ".xls"
-    destWorkbook.save(destFile, SaveFormat.Excel97To2003)
+    destWorkbook.save(destFile, SaveFormat.EXCEL_97_TO_2003)
 jpype.shutdownJVM()
 ```
 
@@ -80,6 +80,5 @@ Följande steg beskriver hur man delar upp en Excel-fil genom att kopiera ett sp
 
 ### **Kodexempel**
 Det förväntade resultatet är en enda ny fil i datakatalogen som endast innehåller värdena (och valfritt formateringen) för det angivna intervallet som extraherats från källarbetsboken. Destinationsfilen har ingen relation till någon annan data i källfilen; den innehåller bara det extraherade intervallet, med början vid cell `A1` i dess första kalkylblad.
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

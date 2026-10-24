@@ -71,12 +71,11 @@ workbook.save("output_drag.xlsx");
 Una volta che un campo risiede nell'area dati, Aspose.Cells lo espone tramite l'oggetto `PivotField` su `PivotTable.DataFields`. Ogni `PivotField` dispone di una proprietà `Function` modificabile di tipo `ConsolidationFunction`, che controlla l'aggregato applicato ai valori sottostanti di quel campo. `ConsolidationFunction` è un'enumerazione con i membri `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` e `Varp`; i primi sei coprono la stragrande maggioranza dei casi d'uso reali, mentre gli ultimi quattro sono aggregati statistici utili per l'analisi della varianza.
 
 {{% alert color="primary" %}}
-La modifica di `Function` influisce solo sull'aggregato; la colonna di origine e la struttura di righe/colonne della pivot non vengono modificate. Per cambiare l'aggregato di un campo dati esistente, imposta `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` e quindi richiama `pivotTable.CalculateData()` per ridisegnare la pivot.
+La modifica di `Function` influisce solo sull'aggregato; la colonna di origine e la struttura di righe/colonne della pivot non vengono modificate. Per cambiare l'aggregato di un campo dati esistente, imposta `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` e quindi richiama `pivotTable.calculateData()` per ridisegnare la pivot.
 {{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -121,7 +120,6 @@ Quando una tabella pivot contiene due o più campi dati, Aspose.Cells espone un 
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

@@ -31,6 +31,7 @@ L'esempio seguente carica una nuova cartella di lavoro, popola i dati di esempio
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Crea una nuova cartella di lavoro
@@ -86,9 +87,19 @@ int main() {
 
 ## **Applica uno stile preset denominato moderno per tabella pivot**
 
+`SetPivotTableStyleType` seleziona uno degli stili predefiniti denominati introdotti da Excel 2007 per le tabelle pivot. L'enumerazione `PivotTableStyleType` espone tre famiglie di temi: la famiglia chiara, da `PivotTableStyleLight1` a `PivotTableStyleLight28`, la famiglia media, da `PivotTableStyleMedium1` a `PivotTableStyleMedium28` e la famiglia scura, da `PivotTableStyleDark1` a `PivotTableStyleDark28`. Definisce inoltre `None` e `Custom`. I membri con numerazione più elevata di ciascuna famiglia sono gli stili aggiunti in Excel 2017.
+Questi preset sono di sola lettura. Non appena è necessario modificare colori, bordi o font oltre a quanto offerto da un preset, occorre definire uno stile pivot personalizzato, come illustrato in [Scenario 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**Perché usare i preset moderni anziché le formattazioni automatiche delle serie di report?** I valori da `Report1` a `Report10` e da `Table1` a `Table10` di `PivotTableAutoFormatType` precedono i campi di colonna delle tabelle pivot, quindi non prevedono alcuno stile per le intestazioni dei campi di colonna ed Excel le visualizza senza formattazione. I preset di `PivotTableStyleType` sono stati progettati per il layout bidimensionale utilizzato dal moderno Excel e applicano lo stesso stile alle intestazioni dei campi di riga e di colonna.
+{{% /alert %}}
+
+Questo scenario riutilizza il set di dati Fruit/Year/Amount dello Scenario 1, aggiunge `Year` all'area delle colonne accanto al campo di riga `Fruit` tramite `PivotFieldType::Column`, applica il preset del tema scuro `PivotTableStyleDark1` con `SetPivotTableStyleType` e salva il risultato come `.xlsx`, il formato per il quale `PivotTableStyleType` è significativo.
+
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -135,7 +146,6 @@ int main() {
     return 0;
 }
 ```
-
 ## **Definire e applicare uno stile personalizzato per tabella pivot**
 I preset incorporati non possono essere modificati. Ogni volta che devi sovrascrivere colori, bordi o font, devi definire uno stile pivot personalizzato. Il flusso di lavoro prevede tre passaggi:
 1. Aggiungi uno stile personalizzato alla raccolta `TableStyles` della cartella di lavoro tramite `Worksheets.TableStyles.AddPivotTableStyle(string name)`. Questo restituisce l'indice dello stile appena creato.
@@ -144,14 +154,14 @@ I preset incorporati non possono essere modificati. Ogni volta che devi sovrascr
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` e `PivotTableStyleType` non sono intercambiabili. Usa `PivotTableStyleType` per i preset incorporati e `PivotTableStyleName` per gli stili personalizzati che hai definito tramite `AddPivotTableStyle`. Impostare entrambi è innocuo, ma viene reso solo quello corrispondente alla sorgente prevista.
-{{% /alert %}}
-
 I valori `TableStyleElementType` disponibili includono `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` e `PageFieldValues`.
 L'esempio seguente definisce uno stile pivot personalizzato con un bordo nero sottile su `WholeTable` e un font rosso grassetto su `GrandTotalRow`, quindi lo applica tramite `PivotTableStyleName` e lo salva come `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -230,9 +240,8 @@ int main() {
 
 {{% alert color="primary" %}}
 `FormatAll` sovrascrive sia `PivotTableStyleType` che `PivotTableStyleName`. Usalo solo quando è richiesto un aspetto uniforme, indipendente dal tema, attraverso l'intera tabella pivot.
-{{% /alert %}}
-
 L'esempio seguente crea uno `Style` con un riempimento giallo a tinta unita, un font blu scuro in grassetto e bordi neri sottili su tutti i lati, quindi lo applica con `FormatAll` e lo salva come `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"

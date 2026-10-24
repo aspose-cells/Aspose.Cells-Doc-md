@@ -57,10 +57,9 @@ Tarih filtreleri, bir pivot tablosunu bugün, geçen hafta, bu ay, gelecek çeyr
 
 {{% alert color="primary" %}}
 Tarih filtresi yalnızca satır veya sütun alanı yalnızca tarih-saat hücreleri veya boş değerler içerdiğinde çalışır. Temel alan sayılar veya metin gibi başka veri türleri içeriyorsa, tarih filtresi beklenen sonucu üretmez. Bu filtreyi uygulamadan önce alanın tarih olarak biçimlendirildiğinden ve tüm değerlerin geçerli `DateTime` örnekleri veya boş hücreler olduğundan emin olun.
-{{% /alert %}}
-
 Aspose.Cells, tarih filtrelemeyi `PivotField.FilterByDate(PivotFilterType, params DateTime[] values)` yöntemi aracılığıyla sunar. `PivotFilterType` numaralandırması, `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` ve `Between` gibi özel tarih değerleri içerir. Seçilen filtre türüne bağlı olarak, bir veya iki `DateTime` değeri geçersiniz (`Between` için başlangıç ve bitiş tarihlerini geçersiniz).
 Aşağıdaki örnek, satır alanında bir tarih alanı bulunan bir pivot tabloya sahip bir çalışma kitabını yükler, görünür öğeleri belirli bir tarih aralığıyla kısıtlayan bir tarih filtresi uygular, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -129,10 +128,9 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 İlk 10 filtresi, yalnızca pivot tablosunun veri alanında bir veya daha fazla değer pivot alanı olduğunda etkilidir. En az bir değer alanı olmadan, öğeleri sıralamak için karşılaştırılacak toplu bir ölçü yoktur ve filtre uygulanamaz.
-{{% /alert %}}
-
 Aspose.Cells, ilk 10 filtrelemeyi `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)` yöntemi aracılığıyla sunar. `itemCount` parametresi kaç öğenin tutulacağını tanımlar, `filterType` değerin nasıl hesaplanacağını kontrol eder (genellikle `Sum`, ancak aynı zamanda `Count` ve `Percent`), `isTop` en üst öğelerin mi (true) yoksa en alt öğelerin mi (false) tutulacağını belirtir ve `valueFieldIndex` öğeleri sıralamak için kullanılan veri alanının dizinidir.
 Aşağıdaki örnek, bir değer alanı içeren bir pivot tabloya sahip bir çalışma kitabını yükler, satış toplamına göre yalnızca en yüksek 10 öğeyi tutmak için bir ilk 10 filtresi uygular, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -162,7 +160,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.Sum
 //   - isTop       = true (en üst N; false en alt N anlamına gelir)
 //   - valueFieldIndex = öğeleri sıralamak için kullanılan veri alanının indeksi
-rowField.FilterTop10(10, PivotFilterType.Sum, true, valueFieldIndex);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
 // Pivot tablosu verilerini yenileyin ve filtrenin etkili olması için yeniden hesaplayın
 pivotTable.PivotCache.Refresh();
 // Çalışma kitabını kaydedin

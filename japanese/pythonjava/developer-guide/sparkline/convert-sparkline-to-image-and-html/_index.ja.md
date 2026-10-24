@@ -2,7 +2,7 @@
 title: Aspose.Cells for Python via Java でスパークラインを画像と HTML に変換する
 linktitle: Aspose.Cells for Python via Java でスパークラインを画像と HTML に変換する
 description: Aspose.Cells のスパークラインをセル埋め込み用のスタンドアロン画像にレンダリングする方法、およびスパークラインを含むワークシートを HtmlSaveOptions を使用して HTML にエクスポートする方法を学習します。
-keywords: Aspose.Cells, Python via Java, sparkline, Sparkline.toImage, Cell.embeddedImage, HtmlSaveOptions, render sparkline, convert sparkline to image, export sparkline to HTML
+keywords: Aspose.Cells, Python via Java, スパークライン, Sparkline.toImage, Cell.embeddedImage, HtmlSaveOptions, スパークラインをレンダリング, スパークラインを画像に変換, スパークラインを HTML にエクスポート
 type: docs
 weight: 120
 url: /ja/python-java/convert-sparkline-to-image-and-html/
@@ -16,7 +16,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **はじめに**
 スパークラインは、ワークシート内で直接トレンドを視覚化するコンパクトな手段です。Excel ユーザーはセル内でそれを確認しますが、実際にはセル外で利用したいケースが多くあります。たとえば、別のセルに静的な画像として埋め込む場合、自動送信メールに添付する場合、Web に公開する HTML レポートの一部としてレンダリングする場合などです。
-Aspose.Cells はこれら両方の操作をサポートしています。`Sparkline.to_image` メソッドは個々のスパークラインをストリームにレンダリングし、そのバイト列を `Cell.embedded_image` に割り当てることで、画像をワークブックの単一セル内に保存できます。別途、`HtmlSaveOptions` を使用すると、ワークブック全体（スパークラインを含む）を自己完結型の HTML ファイルに変換できます。本記事では、両方のワークフローを順に説明します。
+Aspose.Cells はこれら両方の操作をサポートしています。`Sparkline.to_image` メソッドは個々のスパークラインをストリームにレンダリングし、そのバイト列を `Cell.embedded_image` に割り当てることで、画像をワークブックの単一セル内に保存できます。別途、`HtmlSaveOptions` を使用すると、ワークブック全体（スパークラインを含む）を自己完結型の HTML ファイルに変換できます。本記事一覧では、両方のワークフローを順に説明します。
 
 ## **ワークフロー 1 — スパークラインを画像にレンダリングしてセルに埋め込む**
 このワークフローでは、サンプル値を含む小さな範囲を持つワークシートを作成し、その範囲に 3 つの異なるスパークライン グループ（折れ線、縦棒、積み上げ/勝敗）を関連付け、各グループを PNG としてレンダリングし、それらの PNG バイト列を隣接するセルに埋め込み画像として書き込みます。最終結果は、ライブスパークラインとそのレンダリングされた画像の両方を含む単一の `.xlsx` ファイルです。
@@ -36,59 +36,58 @@ Aspose.Cells はこれら両方の操作をサポートしています。`Sparkl
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
-# 新しいワークブックを作成し、最初のワークシートにアクセスします
+# Create a new workbook and access the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# セルA1:E1にサンプルデータを入力します
+# Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5)
 worksheet.getCells().get("B1").putValue(-3)
 worksheet.getCells().get("C1").putValue(8)
 worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
-# F1（列5、行0）にアンカーされた折れ線スパークライングループを追加します
+# Add a Line sparkline group anchored at F1 (column 5, row 0)
 lineArea = CellArea()
-lineArea.setStartColumn(5)
-lineArea.setEndColumn(5)
-lineArea.setStartRow(0)
-lineArea.setEndRow(0)
-lineIdx = worksheet.getSparklineGroups().add(SparklineType.Line, "A1:E1", False, lineArea)
-# G1（列6、行0）にアンカーされた縦棒スパークライングループを追加します
+lineArea.StartColumn = 5
+lineArea.EndColumn = 5
+lineArea.StartRow = 0
+lineArea.EndRow = 0
+lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
+# Add a Column sparkline group anchored at G1 (column 6, row 0)
 columnArea = CellArea()
-columnArea.setStartColumn(6)
-columnArea.setEndColumn(6)
-columnArea.setStartRow(0)
-columnArea.setEndRow(0)
-columnIdx = worksheet.getSparklineGroups().add(SparklineType.Column, "A1:E1", False, columnArea)
-# H1（列7、行0）にアンカーされた勝敗（積み上げ）スパークライングループを追加します
+columnArea.StartColumn = 6
+columnArea.EndColumn = 6
+columnArea.StartRow = 0
+columnArea.EndRow = 0
+columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
+# Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 stackedArea = CellArea()
-stackedArea.setStartColumn(7)
-stackedArea.setEndColumn(7)
-stackedArea.setStartRow(0)
-stackedArea.setEndRow(0)
-stackedIdx = worksheet.getSparklineGroups().add(SparklineType.Stacked, "A1:E1", False, stackedArea)
-# PNG出力用の画像オプションを設定します
+stackedArea.StartColumn = 7
+stackedArea.EndColumn = 7
+stackedArea.StartRow = 0
+stackedArea.EndRow = 0
+stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
+# Configure image options for PNG output
 imageOptions = ImageOrPrintOptions()
-imageOptions.setImageType(ImageType.Png)
-# 折れ線スパークラインを画像に変換し、セルF2に埋め込みます
+imageOptions.setImageType(ImageType.PNG)
+# Convert the Line sparkline to image and embed it in cell F2
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 lineSp.toImage(ms, imageOptions)
 worksheet.getCells().get("F2").setEmbeddedImage(ms.toByteArray())
-# 縦棒スパークラインを画像に変換し、セルG2に埋め込みます
+# Convert the Column sparkline to image and embed it in cell G2
 columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 columnSp.toImage(ms, imageOptions)
 worksheet.getCells().get("G2").setEmbeddedImage(ms.toByteArray())
-# 勝敗スパークラインを画像に変換し、セルH2に埋め込みます
+# Convert the Win/Loss sparkline to image and embed it in cell H2
 stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 stackedSp.toImage(ms, imageOptions)
 worksheet.getCells().get("H2").setEmbeddedImage(ms.toByteArray())
-# ワークブックをディスクに保存します
+# Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx")
 jpype.shutdownJVM()
 ```
@@ -97,6 +96,7 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 各スパークライン グループは単一セルにアンカーされているため、`for` ループで列挙する代わりにインデクサ `group.sparklines[0]` でアクセスできます。これにより、レンダリングコードを簡潔に保ち、一般的な「アンカーセル 1 つに対して 1 つのスパークライン」というパターンに一致します。`Cell.embedded_image` を介して画像バイト列を保存するには、Aspose.Cells 26.5 以降が必要です。
+{{% /alert %}}
 
 ## **ワークフロー 2 — スパークラインのワークシートを HTML にエクスポートする**
 ワークブックにライブスパークライン（および必要に応じて埋め込み画像のコピー）が含まれている場合、ワークシート全体を HTML として保存することで Web に公開できます。`HtmlSaveOptions` クラスには、このエクスポートを制御するための項目が用意されています。このワークフローでは、ワークフロー 1 で生成された `output_with_sparklines.xlsx` ファイルを再利用し、簡潔な単一ページの HTML ドキュメントに変換します。
@@ -111,7 +111,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, HtmlSaveOptions
 workbook = Workbook("output_with_sparklines.xlsx")
 htmlOptions = HtmlSaveOptions()
@@ -121,19 +120,18 @@ jpype.shutdownJVM()
 ```
 
 上記のコードは、ワークフロー 1 のスパークラインを含むワークブックを、ポータブルな HTML ファイルに変換します。スパークラインは、エクスポートモードに応じて生成された HTML 内にインラインの SVG または PNG として保持されるため、エンドユーザーは Excel をインストールすることなく、あらゆるモダンブラウザでトレンドを表示できます。`export_active_worksheet_only` を `True` に設定することで、非表示シートや補助データが誤って公開されることを防ぎ、現在ユーザーに表示されているワークシートのみがエクスポートされます。
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` クラスには、`export_hidden_worksheet`、`export_images_as_base64`、`encoding` など、出力を微調整するための追加プロパティがあります。デプロイメントターゲットに応じてこれらを適宜調整してください。
+{{% /alert %}}
 
 ## **API 概要**
 上記のワークフローは、少数の Aspose.Cells API が連携して動作することで実現されています。
-- `SparklineGroup` およびコレクションアクセサ `worksheet.sparkline_groups` は、各スパークライン グループのタイプ（折れ線、縦棒、積み上げ）、データ範囲、アンカーセルを宣言するために使用されます。本記事では、各グループが単一セルにアンカーされているため、`worksheet.sparkline_groups[i]` を通じてグループにアクセスします。
+- `SparklineGroup` およびコレクションアクセサ `worksheet.sparkline_groups` は、各スパークライン グループのタイプ（折れ線、縦棒、積み上げ）、データ範囲、アンカーセルを宣言するために使用されます。本記事では各グループを単一セルにアンカーしているため、`worksheet.sparkline_groups[i]` でグループにアクセスします。
 - `Sparkline` およびインデクサ `group.sparklines[0]` は、グループ内の個々のスパークラインを返します。例のすべてのグループにはちょうど 1 つのスパークラインが含まれているため、`for` ループは不要です。
 - `Sparkline.to_image(OutputStream, ImageOrPrintOptions)` は、スパークラインの画像を指定された `OutputStream`（`ByteArrayOutputStream` など）に書き込むレンダリングメソッドです。このメソッドは `void` を返します。呼び出し後にストリームからバイト列を読み取ります。
 - `HtmlSaveOptions.export_active_worksheet_only`（`bool` 型）は、HTML エクスポートをアクティブなワークシートのみに制限します。これは、単一ページレポートを生成する際に `HtmlSaveOptions` で最も一般的に使用されるプロパティの 1 つです。
 - `ImageOrPrintOptions.image_type` は `com.aspose.cells.drawing` 名前空間に属し、`to_image` でのレンダリングおよびワークシートの画像印刷時に使用される画像形式（たとえば `ImageType.PNG`）を選択します。
 - [Aspose.Cells for Python via Java のスパークライン](/cells/ja/python-java/sparkline/)
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

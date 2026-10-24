@@ -87,6 +87,67 @@ workbook.save("output.xls");
 
 ## **Aplicar un estilo predefinido moderno con nombre a una tabla dinámica**
 
+`PivotTable.setPivotTableStyleType(int)` selecciona uno de los estilos predefinidos con nombre que Excel 2007 introdujo para tablas dinámicas. La enumeración `PivotTableStyleType` expone tres familias de temas: la familia clara, desde `PIVOT_TABLE_STYLE_LIGHT1` hasta `PIVOT_TABLE_STYLE_LIGHT28`, la familia media, desde `PIVOT_TABLE_STYLE_MEDIUM1` hasta `PIVOT_TABLE_STYLE_MEDIUM28`, y la familia oscura, desde `PIVOT_TABLE_STYLE_DARK1` hasta `PIVOT_TABLE_STYLE_DARK_28`. También define `None` y `Custom`. Los miembros de número más alto de cada familia corresponden a los estilos agregados en Excel 2017.
+Estas predefiniciones son de solo lectura. Tan pronto como necesite cambiar colores, bordes o fuentes más allá de lo que una predefinición ofrece, deberá definir un estilo de tabla dinámica personalizado, como se muestra en el [Escenario 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**¿Por qué usar las predefiniciones modernas y no los autoformateos de la serie Report?** Los valores `Report1` hasta `Report10` y `Table1` hasta `Table10` de `PivotTableAutoFormatType` son anteriores a los campos de columna en tablas dinámicas, por lo que no incluyen estilos para las cabeceras de los campos de columna, y Excel las renderiza sin estilo. Las predefiniciones `PivotTableStyleType` se diseñaron para el diseño bidimensional que utiliza Excel en las versiones modernas, aplicando estilos tanto a las cabeceras de los campos de fila como a las de los campos de columna.
+{{% /alert %}}
+
+Este escenario reutiliza el conjunto de datos Fruta/Año/Cantidad del Escenario 1, agrega `Year` al área de columnas junto con el campo de fila `Fruit` mediante `PivotFieldType.COLUMN`, aplica la predefinición de tema oscuro `PIVOT_TABLE_STYLE_DARK1` con `pivotTable.setPivotTableStyleType`, y guarda el resultado como `.xlsx` —el formato para el cual `PivotTableStyleType` tiene sentido.
+
+```java
+import com.aspose.cells.*;
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+// Header row: Fruit / Year / Amount
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+// 9 data rows of Fruit / Year / Amount
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(100);
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(150);
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(200);
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(180);
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(120);
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(170);
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(210);
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(190);
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(130);
+// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1);
+// Save as modern .xlsx - this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx");
+```
 ## **Definir y aplicar un estilo personalizado a una tabla dinámica**
 Los preajustes integrados no se pueden modificar. Siempre que necesite sobrescribir colores, bordes o fuentes, debe definir un estilo personalizado para la tabla dinámica. El flujo de trabajo consta de tres pasos:
 1. Añada un estilo personalizado a la colección `TableStyles` del libro mediante `Workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)`. Esto devuelve el índice del estilo recién creado.
@@ -95,10 +156,9 @@ Los preajustes integrados no se pueden modificar. Siempre que necesite sobrescri
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` y `PivotTableStyleType` no son intercambiables. Use `PivotTableStyleType` para los preajustes integrados, y `PivotTableStyleName` para los estilos personalizados que haya definido mediante `addPivotTableStyle`. Configurar ambas no causa problemas, pero solo se representa la que coincide con el origen previsto.
-{{% /alert %}}
-
 Los valores disponibles de `TableStyleElementType` incluyen `WHOLE_TABLE`, `FIRST_ROW`, `LAST_ROW`, `FIRST_COLUMN`, `LAST_COLUMN`, `GRAND_TOTAL_ROW`, `GRAND_TOTAL_COLUMN`, `PAGE_FIELD_LABELS` y `PAGE_FIELD_VALUES`.
 El siguiente ejemplo define un estilo personalizado de tabla dinámica con un borde negro fino en `WholeTable` y una fuente roja en negrita en `GrandTotalRow`, lo aplica mediante `PivotTableStyleName` y guarda como `.xlsx`.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -174,14 +234,13 @@ pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
 
-## **Aplicar un estilo a cada celda de la tabla dinámica con FormatAll**
+## **Aplicar un estilo a cada celda de la tabla dinámica con formatAll**
 `PivotTable.formatAll(Style)` es un atajo que aplica un único objeto `Style` a cada celda de la tabla dinámica, incluyendo el área de datos, los encabezados de filas y columnas, y los totales. Lo que se haya configurado previamente mediante `PivotTableStyleType` o `PivotTableStyleName` queda sobrescrito.
 
 {{% alert color="primary" %}}
-`FormatAll` sobrescribe tanto `PivotTableStyleType` como `PivotTableStyleName`. Úselo solo cuando se requiera una apariencia uniforme, independiente del tema, en toda la tabla dinámica.
-{{% /alert %}}
-
+`formatAll` sobrescribe tanto `PivotTableStyleType` como `PivotTableStyleName`. Úselo solo cuando se requiera una apariencia uniforme, independiente del tema, en toda la tabla dinámica.
 El siguiente ejemplo crea un `Style` con relleno sólido amarillo, fuente azul oscuro en negrita y bordes negros finos en todos los lados, lo aplica con `formatAll` y guarda como `.xlsx`.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -255,5 +314,6 @@ La elección de la API de estilos depende del formato de archivo al que está gu
 | `.xlsx` / `.xlsm` / `.xlsb` (moderno, estilo personalizado) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | Úselo cuando los preajustes integrados no sean suficientes. Configúrelo mediante `TableStyleElement.setElementStyle(...)`. |
 | Cualquier formato (anulación uniforme) | `PivotTable.formatAll(Style)` | Atajo que sobrescribe cualquier otra configuración de estilo en toda la tabla dinámica. |
 En caso de duda, guarde como `.xlsx` y use `PivotTableStyleType` para los temas integrados, o `PivotTableStyleName` para los temas personalizados.
+
 
 {{< app/cells/assistant language="java" >}}

@@ -1,8 +1,8 @@
 ---
-title: ラベルまたは値でピボットテーブルをフィルターする
-description: Aspose.Cells for .NETは包括的なピボットテーブルのフィルター機能をサポートしています。この記事では、ラベルフィルター、日付フィルター、値フィルター、トップ10フィルター、およびピボット項目の非表示/表示によってピボットテーブルのデータをフィルターする方法を説明します。
-linktitle: ラベルまたは値でフィルター
-keywords: Aspose.Cells, .NET library, spreadsheet, pivot table, filter, label filter, value filter, date filter, top 10 filter, pivot item, hide pivot item
+title: ラベルまたは値によるピボットテーブルのフィルタリング
+linktitle: ラベルまたは値によるピボットテーブルのフィルタリング
+description: Aspose.Cells for .NET は、包括的なピボットテーブルのフィルタリング機能を備えています。ラベルフィルター、日付フィルター、値フィルター、上位 10 フィルター、およびピボット項目の非表示または表示処理を使用して、ピボットテーブルのデータをフィルタリングする方法を説明します。
+keywords: Aspose.Cells, .NET ライブラリ, スプレッドシート, ピボットテーブル, フィルター, ラベルフィルター, 値フィルター, 日付フィルター, 上位 10 フィルター, ピボット項目, ピボット項目の非表示
 type: docs
 weight: 10
 url: /ja/net/filter-by-label-or-value-of-pivot-table/
@@ -11,23 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cellsは、ピボットテーブルに表示されるデータをフィルタリングするための5つの実用的な戦略を提供します。テキストベースの行または列フィールドにラベルフィルターを適用したり、フィールドに日時セルまたは空白のみが含まれる場合に日付フィルターを使用したり、集約された数値に対して値フィルターを適用したり、値フィールドでランク付けするためにトップ10フィルターを使用したり、`IsHidden`プロパティを使用して個々のピボット項目を手動で非表示または再表示したりできます。各戦略は、`PivotField`クラスと`PivotItem`クラスの専用APIを通じて公開されています。
+Aspose.Cells には、ピボットテーブルに表示されるデータをフィルタリングするための実用的な戦略が 5 つあります。テキストベースの行フィールドまたは列フィールドにはラベルフィルターを、日時セルまたは空セルだけを含むフィールドには日付フィルターを、集計された数値には値フィルターを、値フィールドによる順位付けには上位 10 フィルターを、`IsHidden` プロパティで個々のピボット項目を手動で非表示または表示できます。各戦略は、`PivotField` クラスと `PivotItem` クラスの専用 API を通じて利用できます。
 {{% /alert %}}
 
 ## **はじめに**
-ピボットテーブルは強力な分析ツールですが、生の要約には、表示する必要のある情報よりもはるかに多くの情報が含まれていることがよくあります。フィルタリングは、特定のレポートに必要な行、列、または値にピボットテーブルを絞り込むための主要なメカニズムです。Aspose.Cells for .NETは、Microsoft Excelで利用可能なフィルタリング機能を反映し、プログラムで公開することで、レポート生成を完全に自動化できます。
-この記事で説明するフィルタリング戦略は次のとおりです:
+ピボットテーブルは強力な分析ツールですが、未整理の集計結果には、レポートで提示する必要のある情報より多くの情報が含まれることがよくあります。フィルタリングは、特定のレポートで必要な行、列、または値にピボットテーブルを絞り込む主な手段です。Aspose.Cells for .NET は、Microsoft Excel のフィルタリング機能をプログラムから利用できるようにします。これにより、レポート生成を完全に自動化できます。
+この文書では、次のフィルタリング戦略について説明します。
 1. **ラベルフィルター** — テキストラベルに基づいて行または列フィールドの項目をフィルタリングします。
-2. **日付フィルター** — 日時値（または空白）のみを含む行または列フィールドをフィルタリングします。
-3. **値フィルター** — データフィールドの集約値に基づいて項目をフィルタリングします。
-4. **トップ10フィルター** — 値フィールドでランク付けされた上位または下位のN個の項目のみを表示します。
-5. **ピボット項目の非表示 / 再表示** — フィールド内の各項目の表示を手動で制御します。
-各アプローチは、`PivotField`クラスの異なるメソッドまたは`PivotItem`クラスのプロパティを使用します。フィルターを適用した後、キャッシュされたデータと計算値が新しいフィルター状態を反映するように、ピボットテーブルで`PivotCache.Refresh()`を呼び出す必要があります。
+2. **日付フィルター** — 日時値（または空セル）のみを含む行または列フィールドをフィルタリングします。
+3. **値フィルター** — データフィールドの集計値に基づいて項目をフィルタリングします。
+4. **上位 10 フィルター** — 値フィールドによる順位付けで上位または下位 N 項目だけを表示します。
+5. **ピボット項目の非表示/表示** — フィールド内の各項目の表示を個別に手動で制御します。
+各方法では、`PivotField` クラスのいずれかのメソッド、または `PivotItem` クラスのプロパティを使用します。フィルターを適用した後は、キャッシュされたデータと計算済みの値が新しいフィルター状態を反映するよう、ピボットテーブルの `PivotCache.Refresh()` を呼び出す必要があります。
 
 ## **ラベルフィルター**
-ラベルフィルターを使用すると、テキストキャプションをパターンと比較して、行または列フィールドの項目をフィルタリングできます。これは、特定の文字で始まる名前、特定の単語を含む名前、またはその他のキャプションベースの基準に一致する製品のみを表示する場合に役立ちます。
-Aspose.Cellsは、`PivotField.FilterByLabel(PivotFilterType filterType, string label1, string label2)`メソッドを通じてラベルフィルタリングを公開します。`filterType`引数は比較モードを選択します（`CaptionBeginsWith`、`CaptionContains`、`CaptionEndsWith`、`CaptionDoesNotContain`、`CaptionIsNotBlank`、`CaptionIsBlank`など）。`label1`および`label2`引数は比較テキストを提供します。単一値の一致のみが必要な場合（例：先頭一致や含む）、`label2`に`string.Empty`を渡します。
-次の例では、既存のピボットテーブルを含むワークブックを読み込み、キャプションが指定されたプレフィックスで始まる項目のみが表示されるようにラベルフィルターを適用し、ピボットテーブルを更新して結果を保存します。
+ラベルフィルターでは、行または列フィールドの項目を、そのテキストキャプションとパターンで比較してフィルタリングできます。特定の文字で始まる製品名、特定の語を含む製品名、またはキャプションに基づくその他の条件に一致する製品だけを表示したい場合に便利です。
+Aspose.Cells は、`PivotField.FilterByLabel(PivotFilterType filterType, string label1, string label2)` メソッドによってラベルフィルタリング機能を提供します。`filterType` 引数は比較モード（`CaptionBeginsWith`、`CaptionContains`、`CaptionEndsWith`、`CaptionDoesNotContain`、`CaptionIsNotBlank`、`CaptionIsBlank` など）を選択します。`label1` と `label2` 引数は比較対象のテキストを指定します。1 つの値との照合だけが必要な場合（例：前方一致または部分一致）、`label2` に `string.Empty` を渡します。
+次の例では、既存のピボットテーブルを含むワークブックを読み込み、キャプションが指定した接頭辞で始まる項目だけを表示するラベルフィルターを適用し、ピボットテーブルを更新して結果を保存します。
 
 ```csharp
 using System;
@@ -42,25 +42,24 @@ Workbook workbook = new Workbook(fileName);
 Worksheet worksheet = workbook.Worksheets[0];
 // インデックスでピボットテーブルにアクセスする
 PivotTable pivotTable = worksheet.PivotTables[0];
-// 最初の行の PivotField を取得する
+// 最初の行PivotFieldを取得する
 PivotField rowField = pivotTable.RowFields[0];
-// ラベルフィルターを適用する — ラベルが指定されたプレフィックスで始まる行項目のみを表示する
+// ラベルフィルターを適用する — 指定されたプレフィックスで始まる行項目のみを表示する
 rowField.FilterByLabel(PivotFilterType.CaptionBeginsWith, prefix, string.Empty);
-// フィルターを有効にするためにピボットテーブルのデータを更新して再計算する
+// ピボットテーブルのデータを更新して再計算し、フィルターを反映させる
 pivotTable.PivotCache.Refresh();
 // ワークブックをディスクに保存する
 workbook.Save(fileName);
 ```
 
 ## **日付フィルター**
-日付フィルターを使用すると、今日、先週、今月、次の四半期、特定の期間などの日付ベースの基準でピボットテーブルを絞り込むことができます。これらは、日時情報を格納するフィールドに対してのみ機能する特殊なフィルターです。
+日付フィルターでは、今日、先週、今月、来四半期、または特定の日付範囲などの日付基準に基づいてピボットテーブルを絞り込めます。日時情報を格納するフィールドでのみ機能する特殊なフィルターです。
 
 {{% alert color="primary" %}}
-日付フィルターは、行または列エリアに日時セルまたは空白値のみが含まれている場合にのみ機能します。基になるフィールドに数値やテキストなどの他のデータ型が含まれている場合、日付フィルターは期待される結果を生成しません。このフィルターを適用する前に、フィールドが日付としてフォーマットされ、すべての値が有効な`DateTime`インスタンスまたは空のセルであることを確認してください。
+日付フィルターは、行または列領域に日時セルまたは空値だけが含まれている場合にのみ機能します。元のフィールドに数値やテキストなど他のデータ型が含まれている場合、日付フィルターは期待どおりの結果になりません。このフィルターを適用する前に、フィールドが日付として書式設定され、すべての値が有効な `DateTime` インスタンスまたは空セルであることを確認してください。
+Aspose.Cells は、`PivotField.FilterByDate(PivotFilterType, params DateTime[] values)` メソッドによって日付フィルタリング機能を提供します。`PivotFilterType` 列挙型には、`Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear`、`Between` などの専用値が含まれています。選択したフィルターの種類に応じて、1 つまたは 2 つの `DateTime` 値を渡します（`Between` の場合は開始日と終了日を渡します）。
+次の例では、行領域に日付フィールドを持つピボットテーブルのあるワークブックを読み込み、表示可能な項目を特定の日付範囲に制限する日付フィルターを適用し、ピボットテーブルを更新してワークブックを保存します。
 {{% /alert %}}
-
-Aspose.Cellsは、`PivotField.FilterByDate(PivotFilterType, params DateTime[] values)`メソッドを通じて日付フィルタリングを公開します。`PivotFilterType`列挙体には、`Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear`、`Between`などの専用の日付値が含まれます。選択したフィルタータイプに応じて、1つまたは2つの`DateTime`値を渡します（`Between`の場合、開始日と終了日を渡します）。
-次の例では、行エリアに日付フィールドを含むピボットテーブルを含むワークブックを読み込み、特定の期間に表示される項目を制限する日付フィルターを適用し、ピボットテーブルを更新してワークブックを保存します。
 
 ```csharp
 using System;
@@ -75,28 +74,28 @@ if (!File.Exists(inputPath))
 }
 // ピボットテーブルを含む既存のワークブックを読み込む
 var workbook = new Workbook(inputPath);
-// ピボットテーブルを含むワークシートにアクセスする (インデックス指定)
+// ピボットテーブルを保持するワークシートにアクセス（インデックスによる）
 var worksheet = workbook.Worksheets[0];
-// インデックスでピボットテーブルにアクセスする
+// インデックスに従ってピボットテーブルにアクセス
 var pivotTable = worksheet.PivotTables[0];
-// 行領域から日付のPivotFieldを取得する
-// (日付フィルターは、行/列領域に日時セルまたは空白のみが含まれている場合にのみ機能します)
+// 行エリアから日付 PivotField を取得
+// （日付フィルターは、行/列エリアに日付時刻セルまたは空白のみが含まれる場合にのみ機能します）
 PivotField dateField = pivotTable.RowFields[0];
-// Betweenフィルターの基準日を定義する
+// Between フィルターの条件日を定義
 DateTime startDate = new DateTime(2020, 1, 1);
 DateTime endDate = new DateTime(2020, 12, 31);
-// ピボットフィールドに日付フィルターを適用する
+// ピボットフィールドに日付フィルターを適用
 dateField.FilterByDate(PivotFilterType.DateBetween, startDate, endDate);
-// フィルターを有効にするためにピボットテーブルを更新して再計算する
+// フィルターが反映されるように、ピボットテーブルを更新して再計算
 pivotTable.PivotCache.Refresh();
-// ワークブックを保存する
+// ワークブックを保存
 workbook.Save(outputPath);
 ```
 
 ## **値フィルター**
-値フィルターは、ピボットテーブルがデータ領域で計算する集約値に対して機能します。テキストラベルを照合する代わりに、数値の合計をしきい値と比較します。典型的な使用例には、売上合計が目標額を超える製品のみを表示したり、取引数が範囲内に入る地域のみを表示したりすることが含まれます。
-Aspose.Cellsは、`PivotField.FilterByValue(int valueFieldIndex, PivotFilterType filterType, double value1, double value2)`メソッドを通じて値フィルタリングを公開します。`valueFieldIndex`パラメータは、評価するデータフィールドを指定します（`pivotTable.DataFields.IndexOf(dataField)`を使用するか、コレクションを反復処理して位置を見つけます）。`filterType`パラメータは、`ValueGreaterThan`、`ValueLessThan`、`ValueBetween`、`ValueEqual`、`ValueNotEqual`、`ValueGreaterThanOrEqual`、`ValueLessThanOrEqual`などの値を使用します。2つの`double`引数はしきい値を提供します。
-次の例では、ピボットテーブルを含むワークブックを読み込み、集約された売上が数値のしきい値を超える項目のみを保持する値フィルターを適用し、ピボットテーブルを更新してワークブックを保存します。
+値フィルターは、ピボットテーブルがデータ領域で計算する集計値に対して作用します。テキストラベルを照合する代わりに、数値の集計結果をしきい値と比較します。売上合計が目標金額を超える製品だけを表示したり、取引件数が特定の範囲にある地域だけを表示したりする場合の典型的な使用例です。
+Aspose.Cells は、`PivotField.FilterByValue(int valueFieldIndex, PivotFilterType filterType, double value1, double value2)` メソッドによって値フィルタリング機能を提供します。`valueFieldIndex` パラメーターは、評価対象のデータフィールドを指定します（`pivotTable.DataFields.IndexOf(dataField)` を使用するか、コレクションを反復処理して位置を探します）。`filterType` パラメーターには、`ValueGreaterThan`、`ValueLessThan`、`ValueBetween`、`ValueEqual`、`ValueNotEqual`、`ValueGreaterThanOrEqual`、`ValueLessThanOrEqual` などの値を指定します。`double` 型の 2 つの引数でしきい値を指定します。
+次の例では、ピボットテーブルのあるワークブックを読み込み、集計された売上高が数値のしきい値を超える項目だけを残す値フィルターを適用し、ピボットテーブルを更新してワークブックを保存します。
 
 ```csharp
 using Aspose.Cells;
@@ -106,7 +105,7 @@ var worksheet = workbook.Worksheets[0];
 var pivotTable = worksheet.PivotTables[0];
 var rowField = pivotTable.RowFields[0];
 var dataField = pivotTable.DataFields[0];
-// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
+// PivotFieldCollection に IndexOf がないため、データフィールドのインデックスを手動で查找する
 int dataFieldIndex = -1;
 for (int i = 0; i < pivotTable.DataFields.Count; i++)
 {
@@ -124,97 +123,96 @@ pivotTable.PivotCache.Refresh();
 workbook.Save("output.xlsx");
 ```
 
-## **トップ10フィルター**
-トップ10フィルターは、選択した値フィールドに基づいて最高または最低のN個の項目のみを保持する、値フィルターの特殊な形式です。「収益別トップ10製品」や「販売数別ボトム5地域」などのランキングレポートによく使用されます。
+## **上位 10 フィルター**
+上位 10 フィルターは、値フィルターの一種であり、選択した値フィールドに基づいて、最高または下位 N 項目だけを残します。「売上上位 10 製品」や「販売件数下位 5 地域」などのランキングレポートに一般に使用されます。
 
 {{% alert color="primary" %}}
-トップ10フィルターは、ピボットテーブルのデータ領域に1つ以上の値ピボットフィールドがある場合にのみ有効です。少なくとも1つの値フィールドがなければ、項目をランク付けするための集約された尺度がなく、フィルターを適用できません。
+上位 10 フィルターは、データ領域に 1 つ以上の値ピボットフィールドがある場合にのみ有効です。値フィールドが少なくとも 1 つなければ、項目を順位付けするための集計指標が存在しないため、このフィルターを適用できません。
+Aspose.Cells は、`PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)` メソッドによって上位 10 フィルタリング機能を提供します。`itemCount` パラメーターは維持する項目数を指定し、`filterType` は値の計算方法を制御します（通常は `Sum` ですが、`Count` や `Percent` も使用できます）。`isTop` は、上位項目（`true`）または下位項目（`false`）のどちらを残すかを指定し、`valueFieldIndex` は項目を順位付けするために使用するデータフィールドのインデックスです。
+次の例では、値フィールドを含むピボットテーブルのあるワークブックを読み込み、売上合計による上位 10 項目だけを維持する上位 10 フィルターを適用し、ピボットテーブルを更新してワークブックを保存します。
 {{% /alert %}}
-
-Aspose.Cellsは、`PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)`メソッドを通じてトップ10フィルタリングを公開します。`itemCount`パラメータは保持する項目の数を定義し、`filterType`は値の計算方法を制御し（通常は`Sum`ですが、`Count`や`Percent`もあります）、`isTop`は上位の項目を保持する（true）か下位の項目を保持する（false）かを示し、`valueFieldIndex`は項目のランク付けに使用されるデータフィールドのインデックスです。
-次の例では、値フィールドを含むピボットテーブルを含むワークブックを読み込み、売上合計で上位10項目のみを保持するトップ10フィルターを適用し、ピボットテーブルを更新してワークブックを保存します。
 
 ```csharp
 using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Load the existing workbook that contains the pivot table
+// ピボットテーブルを含む既存のワークブックを読み込みます
 string inputPath = "input.xlsx";
 string outputPath = "output.xlsx";
 Workbook workbook = new Workbook(inputPath);
-// Access the worksheet that holds the pivot table (index 0)
+// ピボットテーブルを保持するワークシートにアクセスします (index 0)
 Worksheet worksheet = workbook.Worksheets[0];
-// Access the pivot table by index
+// インデックスを使ってピボットテーブルにアクセスします
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Confirm there is at least one value PivotField in the data area
+// データ領域に少なくとも 1 つの値 PivotField があることを確認します
 if (pivotTable.DataFields.Count == 0)
 {
     throw new InvalidOperationException("Pivot table has no value (data) PivotField.");
 }
 PivotField valueField = pivotTable.DataFields[0];
-// Retrieve the target row PivotField (the field we want to apply Top 10 on)
+// 対象的行 PivotField (Top 10 を適用するフィールド) を取得します
 PivotField rowField = pivotTable.RowFields[0];
-// The first (and only) data field is at index 0; Top 10 ranks by it.
+// 最初 (かつ唯一) のデータフィールドはインデックス 0 にあり、Top 10 はそれに基づいて項目を順位付けします。
 int valueFieldIndex = 0;
-// Apply the Top 10 filter on the row field:
+// 行フィールドに Top 10 フィルターを適用します:
 //   - itemCount   = 10
 //   - filterType  = PivotFilterType.Sum
-//   - isTop       = true (top N; false would mean bottom N)
-//   - valueFieldIndex = the index of the data field used to rank items
-rowField.FilterTop10(10, PivotFilterType.Sum, true, valueFieldIndex);
-// Refresh the pivot table data and recalculate it so the filter takes effect
+//   - isTop       = true (Top N; false の場合は Bottom N を意味します)
+//   - valueFieldIndex = 項目を順位付けに使用するデータフィールドのインデックス
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
+// ピボットテーブルのデータを更新して再計算し、フィルターが有効になるようにします
 pivotTable.PivotCache.Refresh();
-// Save the workbook
+// ワークブックを保存します
 workbook.Save(outputPath);
 ```
 
-## **ピボット項目の非表示/再表示によるフィルタリング**
-構造化されたフィルターAPIに加えて、Aspose.Cellsでは個々のピボット項目の表示/非表示を直接制御できます。`PivotField`の`PivotItems`コレクションを反復処理して`IsHidden`プロパティを切り替えることで、数式ベースのフィルターを適用せずに特定の項目を選択的に抑制できます。`IsHidden = true`を設定すると項目はピボットテーブルから非表示になり、`IsHidden = false`を設定すると再表示されます。
-このアプローチは、特定のレポートに表示すべきでない少数の名前付きカテゴリを非表示にするなど、フィルタリングルールが不規則だったり項目固有だったりする場合に役立ちます。以下の例では、ピボットテーブルを読み込み、名前を指定して特定の項目を非表示にし、再表示する方法を示し、ピボットテーブルを更新してワークブックを保存します。
+## **ピボット項目の非表示または表示によるフィルタリング**
+構造化されたフィルター API に加えて、Aspose.Cells では、各ピボット項目の表示を直接制御できます。`PivotField` の `PivotItems` コレクションを反復処理し、`IsHidden` プロパティを切り替えることで、数式に基づくフィルターを適用せずに、特定の項目を個別に非表示にできます。`IsHidden = true` を設定すると、その項目はピボットテーブルから非表示になります。`IsHidden = false` を設定すると、項目が再び表示されます。
+この方法は、フィルター条件が規則的でない場合や項目ごとに異なる場合に適しています。たとえば、特定のレポートに表示すべきでない、名前が指定された少数のカテゴリを非表示にする場合です。次の例では、ピボットテーブルを含むワークブックを読み込み、名前を指定して特定の項目を非表示にし、その項目を再表示する方法を例示し、ピボットテーブルを更新してワークブックを保存します。
 
 ```csharp
 using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Load an existing workbook containing a pivot table
+// ピボットテーブルを含む既存のワークブックを読み込む
 Workbook workbook = new Workbook("pivot_table_sample.xlsx");
-// Access the first worksheet which contains the pivot table
+// ピボットテーブルを含む最初のワークシートにアクセスする
 Worksheet sheet = workbook.Worksheets[0];
-// Access the pivot table by index (the first pivot table on the sheet)
+// インデックスに基づいてピボットテーブルにアクセスする（シート上の最初のピボットテーブル）
 PivotTable pivotTable = sheet.PivotTables[0];
-// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
+// 対象のPivotFieldを取得する（項目を非表示/表示にする最初の行ラベルフィールド）
 PivotField pivotField = pivotTable.RowFields[0];
-// Iterate through the PivotItems collection of the selected PivotField
+// 選択したPivotFieldのPivotItemsコレクションを反復する
 int itemCount = pivotField.PivotItems.Count;
 for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.PivotItems[i];
-    // Hide pivot items that match a specific name/criterion
+    // 特定の名前/基準に一致するピボット項目を非表示にする
     if (item.Name == "Item1" || item.Name == "Item2")
     {
         item.IsHidden = true;
     }
-    // Demonstrate unhiding: re-show a previously hidden pivot item
+    // 表示の再開を実演する：以前に非表示にしたピボット項目を再表示する
     if (item.Name == "Item3")
     {
         item.IsHidden = false;
     }
 }
-// Refresh and recalculate the pivot table so changes take effect
+// ピボットテーブルを更新して再計算し、変更を反映する
 pivotTable.PivotCache.Refresh();
-// Save the workbook — hidden items stay in the underlying data
-// but are excluded from the displayed pivot table output
+// ワークブックを保存する — 非表示の項目は基礎データに保持される
+// ただし、表示されるピボットテーブルの出力からは除外される
 workbook.Save("output_pivot_filtered.xlsx");
 ```
 
 ## **まとめ**
-Aspose.Cells for .NETは、Microsoft Excelにあるものと一致する完全なピボットテーブルのフィルタリング機能を提供します。ラベル、日付、および値フィルターは最も一般的な分析シナリオをカバーし、トップ10フィルターはランキングレポートを処理します。フィルタリングルールが不規則な場合、`PivotItem.IsHidden`プロパティは柔軟な項目レベルのフォールバックを提供します。たとえば、ラベルフィルターを適用してから特定の項目を非表示にするなど、これらの戦略を組み合わせることで、コードのみから正確にターゲットを絞ったピボットテーブルレポートを構築できます。
+Aspose.Cells for .NET は、Microsoft Excel に備わっているものと同じ完全なピボットテーブルのフィルタリング機能を提供します。ラベルフィルター、日付フィルター、値フィルターは一般的な分析シナリオに対応し、上位 10 フィルターはランキングレポートに対応します。フィルター条件が規則的でない場合、`PivotItem.IsHidden` プロパティを項目単位の柔軟な代替手段として利用できます。ラベルフィルターを適用してから特定の項目を非表示にする場合のように、これらの戦略を組み合わせることで、コードのみで正確に絞り込んだピボットテーブルのレポートを作成できます。
 
 ## 関連記事
-- [Aspose.Cells for .NETでピボットテーブルの行と列フィールドを追加する](/cells/ja/net/pivot-table-add-row-and-column-fields/)
-- [Aspose.Cells for .NETでピボットテーブルの値フィールドを管理する](/cells/ja/net/manage-value-fields/)
-- [Aspose.Cells for .NETでピボットテーブルとピボットキャッシュを更新する](/cells/ja/net/refresh-pivot-table/)
+- [Aspose.Cells for .NET でピボットテーブルの行および列フィールドを追加](/cells/ja/net/pivot-table-add-row-and-column-fields/)
+- [Aspose.Cells for .NET でピボットテーブルの値フィールドを管理](/cells/ja/net/manage-value-fields/)
+- [Aspose.Cells for .NET でピボットテーブルと PivotCache を更新](/cells/ja/net/refresh-pivot-table/)
 
 {{< app/cells/assistant language="csharp" >}}

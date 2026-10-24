@@ -33,7 +33,6 @@ The following example loads a workbook containing an existing pivot table, appli
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
@@ -46,7 +45,7 @@ pivotTable = worksheet.getPivotTables().get(0)
 # Retrieve the first row PivotField
 rowField = pivotTable.getRowFields().get(0)
 # Apply the label filter — show only row items whose labels begin with the supplied prefix
-rowField.filterByLabel(PivotFilterType.CaptionBeginsWith, prefix, "")
+rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh()
 # Save the workbook back to disk
@@ -59,16 +58,15 @@ Date filters let you narrow a pivot table by date-based criteria such as today, 
 
 {{% alert color="primary" %}}
 The date filter only works when the row or column area contains only date-time cells or blank values. If the underlying field contains other data types such as numbers or text, the date filter will not produce the expected result. Make sure the field is formatted as a date and that all values are valid `DateTime` instances or empty cells before applying this filter.
-{{% /alert %}}
-
 Aspose.Cells exposes date filtering through the `PivotField.filter_by_date(PivotFilterType, values)` method. The `PivotFilterType` enumeration contains dedicated date values such as `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear`, and `Between`. Depending on the chosen filter type, you pass one or two `DateTime` values (for `Between`, you pass the start and end dates).
 The following example loads a workbook with a pivot table whose row area contains a date field, applies a date filter that restricts the visible items to a particular date range, refreshes the pivot table, and saves the workbook.
+{{% /alert %}}
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
@@ -88,7 +86,7 @@ Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
 # Apply the date filter on the pivot field
-dateField.filterByDate(PivotFilterType.DateBetween, startDate, endDate)
+dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
 # Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh()
 # Persist the workbook
@@ -105,7 +103,6 @@ The following example loads a workbook with a pivot table, applies a value filte
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 workbook = Workbook("sample.xlsx")
 worksheet = workbook.getWorksheets().get(0)
@@ -130,16 +127,14 @@ The top 10 filter is a specialized form of value filter that retains only the hi
 
 {{% alert color="primary" %}}
 The top 10 filter is only effective when the pivot table has one or more value pivot fields in the data area. Without at least one value field, there is no aggregated measure to rank the items against, and the filter cannot be applied.
-{{% /alert %}}
-
 Aspose.Cells exposes top 10 filtering through the `PivotField.filter_top10(item_count, is_top, value_field, filter_type)` method. The `item_count` parameter defines how many items to retain, `is_top` indicates whether to keep the top items (true) or the bottom items (false), `value_field` references the data field used for ranking, and `filter_type` controls how the value is computed (typically `Sum`, but also `Count` and `Percent`).
 The following example loads a workbook with a pivot table that contains a value field, applies a top 10 filter to keep only the highest 10 items by the sum of sales, refreshes the pivot table, and saves the workbook.
+{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
 # Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
@@ -159,10 +154,10 @@ rowField = pivotTable.getRowFields().get(0)
 valueFieldIndex = 0
 # Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (top N; false would mean bottom N)
 #   - valueFieldIndex = the index of the data field used to rank items
-rowField.filterTop10(10, PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, True, 10)
 # Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh()
 # Save the workbook
@@ -178,7 +173,6 @@ This approach is useful when the filtering rule is irregular or item-specific, s
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
 # Load an existing workbook containing a pivot table
 workbook = Workbook("pivot_table_sample.xlsx")
@@ -194,10 +188,10 @@ for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
     # Hide pivot items that match a specific name/criterion
     if item.getName() == "Item1" or item.getName() == "Item2":
-        item.setIsHidden(True)
+        item.setHidden(True)
     # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.getName() == "Item3":
-        item.setIsHidden(False)
+        item.setHidden(False)
 # Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh()
 # Save the workbook — hidden items stay in the underlying data

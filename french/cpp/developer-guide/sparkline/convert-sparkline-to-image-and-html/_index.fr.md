@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Les sparklines sont des graphiques miniatures placés dans les cellules d'une feuille de calcul. Aspose.Cells vous permet d'extraire chaque sparkline sous forme d'image autonome (pour l'intégrer dans une autre cellule ou dans un rapport externe) et également d'exporter la feuille de calcul complète, riche en sparklines, vers HTML pour une distribution via navigateur. La propriété Cell.EmbeddedImage utilisée dans cet article est disponible dans Aspose.Cells 26.5 et versions ultérieures.
+{{% /alert %}}
 
 ## **Introduction**
 Les sparklines offrent un moyen compact de visualiser les tendances directement dans une feuille de calcul. Bien que les utilisateurs d'Excel les voient en place, de nombreux scénarios réels nécessitent qu'une sparkline quitte la cellule — par exemple, pour être intégrée dans une autre cellule en tant qu'image statique, jointe à un e-mail automatisé, ou rendue dans le cadre d'un rapport HTML publié sur le web.
@@ -83,6 +84,7 @@ Le code ci-dessus produit un classeur où chaque représentation visuelle d'une 
 
 {{% alert color="primary" %}}
 Parce que chaque groupe de sparklines est ancré sur une seule cellule, vous pouvez l'adresser via l'indexeur group.Sparklines[0] au lieu d'énumérer avec foreach. Cela permet de garder le code de rendu court et correspond au modèle typique « une sparkline par cellule d'ancrage ». Le stockage des octets de l'image via Cell.EmbeddedImage nécessite Aspose.Cells 26.5 ou version ultérieure.
+{{% /alert %}}
 
 ## **Flux de travail 2 — Exporter la feuille de calcul avec sparklines vers HTML**
 Une fois que le classeur contient des sparklines actives (et éventuellement leurs équivalents en images intégrées), la feuille de calcul entière peut être publiée sur le web en l'enregistrant au format HTML. La classe HtmlSaveOptions expose les paramètres dont vous avez besoin pour contrôler cet export ; dans ce flux de travail, vous réutiliserez le fichier output_with_sparklines.xlsx produit par le flux de travail 1 et le convertirez en un document HTML propre d'une seule page.
@@ -111,6 +113,7 @@ Le code ci-dessus prend le classeur riche en sparklines du flux de travail 1 et 
 
 {{% alert color="primary" %}}
 La classe HtmlSaveOptions offre des propriétés supplémentaires pour affiner la sortie, telles que ExportHiddenWorksheet, ExportImagesAsBase64, et Encoding. Ajustez-les selon les besoins de votre cible de déploiement.
+{{% /alert %}}
 
 ## **Résumé de l'API**
 Les flux de travail ci-dessus reposent sur un petit ensemble d'API Aspose.Cells travaillant ensemble.
@@ -124,12 +127,6 @@ Les flux de travail ci-dessus reposent sur un petit ensemble d'API Aspose.Cells 
 - [Sparklines dans Aspose.Cells for C++](/cells/fr/cpp/sparkline/)
 - [Inserting an Image into a Cell](/cells/fr/cpp/inserting-an-image-into-a-cell/)
 - [SmartMarker Single Cell Array Rendering | Aspose.Cells for C++](/cells/fr/cpp/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
-
 - `/cells/cpp/sparkline/` - this is the parent topic for sparklines
 - `/cells/cpp/inserting-an-image-into-a-cell/` - unrelated
 - `/cells/cpp/SmartMarker-Single-Cell-Array-Rendering/` - unrelated

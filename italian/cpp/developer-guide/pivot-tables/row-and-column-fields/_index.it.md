@@ -44,6 +44,7 @@ Quando non si chiama affatto `SetSubtotals`, Aspose.Cells applica la selezione `
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -106,6 +107,7 @@ Chiamare `SetSubtotals(PivotFieldSubtotalType.None, true)` rimuove ogni riga di 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb;
@@ -209,6 +211,15 @@ int main() {
 
 ## **Riepilogo**
 
+I tre scenari differiscono in un unico aspetto: le chiamate a `SetSubtotals`. Tutto il resto — il set di dati, i campi e le aree a cui sono assegnati — è identico, il che rende direttamente confrontabili i layout prodotti.
+- **Posizionamento dei campi.** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` sposta una colonna di origine in una regione. All'interno di una stessa regione, l’ordine delle chiamate corrisponde all’ordine visivo, per cui la prima chiamata determina il gruppo più esterno. Per calcolare i totali parziali sono necessari almeno due campi nella stessa regione: con un solo campo non esiste alcun elemento tra i gruppi su cui calcolare i totali parziali.
+- **Scenaro 1 — totali parziali automatici.** L’omissione di `SetSubtotals` lascia la scelta a Excel, che applica il totale parziale predefinito ai campi numerici. La chiamata a `SetSubtotals` con `PivotFieldSubtotalType::Automatic` esprime esplicitamente tale scelta, invece di lasciarla implicita.
+- **Scenaro 2 — nessun totale parziale.** `SetSubtotals` con `PivotFieldSubtotalType::None` disattiva il totale parziale predefinito, per cui il pivot mantiene le righe del campo e il totale generale, ma omette le righe di totale parziale che Excel altrimenti inserirebbe tra di esse.
+- **Scenaro 3 — un sottoinsieme selezionato.** Ogni chiamata attiva o disattiva esattamente un tipo di totale parziale, e le chiamate si accumulano piuttosto che sovrascindersi a vicenda. Di conseguenza, chiamare `SetSubtotals` una volta con `PivotFieldSubtotalType::Sum` e una volta con `PivotFieldSubtotalType::Average` lascia entrambi abilitati, e il pivot visualizza un totale parziale di tipo Somma, un totale parziale di tipo Media e un totale generale.
+
+{{% alert color="primary" %}}
+Nulla relativo ai totali parziali è specifico della regione riga. Le stesse chiamate a `SetSubtotals` su un campo ottenuto da `PivotTable.ColumnFields` producono gli stessi tre layout sull’asse delle colonne, poiché l’impostazione appartiene al campo pivot e non all’asse su cui esso è collocato.
+{{% /alert %}}
 ## **Articoli correlati**
 - [Campi pagina nelle tabelle pivot](/cells/it/cpp/add-page-field-in-pivot-table/)
 - [Aggiornamento delle tabelle pivot in Aspose.Cells for C++](/cells/it/cpp/refresh-pivot-table/)

@@ -120,6 +120,7 @@ int main() {
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -242,4 +243,4 @@ int main() {
 - [刷新数据透视表](/cells/zh/cpp/refresh-pivot-table/) — 解释 `RefreshData` 和 `CalculateData`，在重新排序页面字段后必须调用这些方法。
 - [向数据透视表应用样式](/cells/zh/cpp/apply-style-to-pivot-table/) — 演示在页面字段条布局完成后，如何为渲染后的数据透视表设置格式。
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -48,7 +48,7 @@ Después de la transposición, el mismo rango ancla contiene los datos rotados. 
 const AsposeCells = require("aspose.cells");
 const srcFile = "source.xlsx";
 const outputFile = "transposed.xlsx";
-const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
+const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX);
 const workbook = new AsposeCells.Workbook(srcFile, loadOptions);
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();
@@ -79,11 +79,11 @@ Este enfoque funciona **solo en Excel 365 / 2021 o posterior**. Las versiones an
 const AsposeCells = require("aspose.cells");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
-const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
+const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX));
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();
 cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", new AsposeCells.FormulaParseOptions(), true);
-workbook.save(outFile, AsposeCells.SaveFormat.Xlsx);
+workbook.save(outFile, AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Enfoque 3 — Transponer con una Fórmula de Matriz Clásica (CSE)**
@@ -107,7 +107,7 @@ Las fórmulas de matriz CSE son la forma clásica de Excel de evaluar una expres
 const AsposeCells = require("aspose.cells");
 // Cargar el libro de origen con Opciones de Carga xlsx
 const srcFile = "source.xlsx";
-const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
+const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX));
 // Acceder a la primera hoja de cálculo y su colección de Celdas
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();

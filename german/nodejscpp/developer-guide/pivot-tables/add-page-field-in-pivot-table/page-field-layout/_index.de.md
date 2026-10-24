@@ -39,6 +39,9 @@ Alle acht Zeilen werden in jedem Codebeispiel in identischer Reihenfolge befüll
 Im ersten Szenario konfigurieren wir die beiden Seitenfelder (`Year`, `Region`) so, dass sie **nebeneinander in einer einzelnen Zeile** am oberen Rand der Pivot-Tabelle erscheinen. Wir weisen `Fruit` der Zeilenachse zu, platzieren `Year` zuerst und `Region` als zweites auf der Seitenachse (die Reihenfolge der `addFieldToArea`-Aufrufe bestimmt den Startindex), fügen `Amount` (Summe) als Datenfeld hinzu und setzen dann `pageFieldOrder` auf `PrintOrderType.OverThenDown` mit `pageFieldWrapCount = 2`. Mit `OverThenDown` und einer Umbruchanzahl von 2 werden die beiden Seitenfelder horizontal nebeneinander in einer einzelnen Zeile am oberen Rand der Pivot-Tabelle angeordnet, sodass der Streifen eine Zeile der Breite zwei einnimmt.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
+const path = require("path");
 let dataDir = "output";
 if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
@@ -119,7 +122,7 @@ workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 In diesem Beispiel platzieren wir `Fruit` auf der Zeilenachse, `Year` und `Region` auf der Seitenachse (mit `Year` zuerst) und `Amount` (Summe) als Datenfeld – genau wie in Beispiel 1. Dann setzen wir `pageFieldOrder` auf `PrintOrderType.DownThenOver` und `pageFieldWrapCount` auf `2`. Mit `DownThenOver` und einer Umbruchanzahl von 2 werden die beiden Seitenfelder vertikal gestapelt – `Year` oben, `Region` direkt darunter – und bilden eine einzelne Spalte am oberen Rand der Pivot-Tabelle. Der Streifen nimmt daher zwei Zeilen der Breite eins ein, im Gegensatz zu Beispiel 1.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
@@ -146,10 +149,10 @@ for (let r = 0; r < data.length; r++) {
 }
 const idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
 const pivotTable = pivotReport.getPivotTables().get(idx);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 3);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DownThenOver);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.calculateData();
@@ -160,7 +163,7 @@ workbook.save("pageFieldLayout_downThenOver.xlsx");
 Im dritten Szenario behalten wir diesen Datensatz und die Feldzuordnung bei, legen ein neutrales Layout fest (`OverThenDown` mit Umbruchanzahl `2`) und demonstrieren dann die `pageFields.move`-Operation. Der Aufruf `move(0, 1)` verschiebt das Seitenfeld am Index 0 (`Year`) an Position 1, und das Seitenfeld, das sich an Position 1 befand (`Region`), rückt auf Position 0. Nach diesem Aufruf ist `Region` das erste Seitenfeld und `Year` das zweite. Umbruch und Reihenfolgemodus bleiben unverändert, sodass der Streifen weiterhin horizontal nebeneinander dargestellt wird – nur die Reihenfolge der beiden Dropdowns wurde vertauscht.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const dataSheet = workbook.getWorksheets().get(0);
 dataSheet.setName("PivotData");

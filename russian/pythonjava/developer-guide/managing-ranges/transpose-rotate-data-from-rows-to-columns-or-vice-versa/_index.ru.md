@@ -36,7 +36,7 @@ Aspose.Cells for Python via Java поддерживает транспониро
 `Range.transpose()` — метод экземпляра класса `com.aspose.cells.Range`. При его вызове диапазон переворачивается на месте путём обмена его строк и столбцов, так что строка становится столбцом, а столбец — строкой. Метод напрямую изменяет базовые ячейки без записи формулы.
 
 ### **Шаги**
-1. Откройте исходную рабочую книгу с `LoadOptions`, установленными в формат `.xlsx`, вызвав `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Откройте исходную рабочую книгу с `LoadOptions`, установленными в формат `.xlsx`, вызвав `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Получите первый рабочий лист из рабочей книги с помощью `workbook.getWorksheets().get(0)`.
 3. Получите доступ к коллекции ячеек рабочего листа через `worksheet.getCells()`.
 4. Создайте исходный диапазон, охватывающий **A1:D5**, вызвав `cells.createRange("A1:D5")`.
@@ -48,11 +48,10 @@ Aspose.Cells for Python via Java поддерживает транспониро
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, LoadOptions, LoadFormat
 srcFile = "source.xlsx"
 outputFile = "transposed.xlsx"
-loadOptions = LoadOptions(LoadFormat.Xlsx)
+loadOptions = LoadOptions(LoadFormat.XLSX)
 workbook = Workbook(srcFile, loadOptions)
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
@@ -69,7 +68,7 @@ jpype.shutdownJVM()
 `Cell.setDynamicArrayFormula(String formula, FormulaParseOptions options, boolean calculateValue)` — метод класса `com.aspose.cells.Cell`, который задаёт формулу ячейки как **формулу динамического массива**. Excel однократно вычисляет формулу и автоматически распределяет результат в окружающие ячейки. Третий параметр, установленный в `True`, указывает Aspose.Cells также вычислить результирующие значения во время записи.
 
 ### **Шаги**
-1. Загрузите исходную рабочую книгу с помощью `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Загрузите исходную рабочую книгу с помощью `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Получите первый рабочий лист и доступ к его коллекции `Cells`.
 3. Поместите формулу динамического массива в ячейку **A6**, прямо под исходным диапазоном, вызвав `cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", None, True)`.
 4. Аргумент `None` передаёт значения по умолчанию для `FormulaParseOptions`, а третий аргумент `True` указывает Aspose.Cells рассматривать формулу как формулу динамического массива и вычислить её, чтобы распределённые значения были записаны в рабочую книгу.
@@ -84,16 +83,15 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, LoadOptions, LoadFormat, FormulaParseOptions, SaveFormat
 # портированный код здесь
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
 cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", FormulaParseOptions(), True)
-workbook.save(outFile, SaveFormat.Xlsx)
+workbook.save(outFile, SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -118,11 +116,10 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, LoadOptions, LoadFormat, Worksheet, Cells
 # Загрузить исходную книгу с помощью параметров загрузки xlsx
 srcFile = "source.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 # Получить доступ к первому листу и его коллекции Cells
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()

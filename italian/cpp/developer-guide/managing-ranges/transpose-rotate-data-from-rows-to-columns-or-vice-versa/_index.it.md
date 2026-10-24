@@ -157,4 +157,4 @@ Utilizzare l'**Approccio 1** quando serve una trasformazione rapida e compatibil
 - [Inserimento di un'immagine in una cella](/cells/it/cpp/inserting-an-image-into-a-cell/)
 - [Divisione di file Excel in più file](/cells/it/cpp/splitting-excel-files-into-multiple-files/)
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

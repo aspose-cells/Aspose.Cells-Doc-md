@@ -156,4 +156,4 @@ Verwenden Sie **Ansatz 1**, wenn Sie eine schnelle, versionsübergreifende Trans
 - [Einfügen eines Bildes in eine Zelle](/cells/de/cpp/inserting-an-image-into-a-cell/)
 - [Aufteilen von Excel-Dateien in mehrere Dateien](/cells/de/cpp/splitting-excel-files-into-multiple-files/)
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

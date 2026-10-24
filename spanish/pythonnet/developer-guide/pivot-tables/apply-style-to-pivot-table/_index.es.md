@@ -22,7 +22,7 @@ Además, `PivotTable.format_all(Style)` es un atajo que aplica un único objeto 
 
 ## **Aplicar un autoformato preestablecido heredado de XLS**
 `PivotTable.auto_format_type` acepta un valor de la enumeración `aspose.cells.pivot.PivotTableAutoFormatType`. Los valores disponibles son `REPORT_1` a `REPORT_10`, `CLASSIC` y `TABLE_1` a `TABLE_10`.
-El siguiente ejemplo carga un libro nuevo, rellena los datos de ejemplo de Fruta/Año/Importe, añade una tabla dinámica, aplica `PivotTableAutoFormatType.REPORT_5` y guarda el resultado como `.xls`.
+El siguiente ejemplo carga un libro nuevo, rellena los datos de ejemplo de Fruta/Año/Importe, añade una tabla dinámica, aplica `PivotTableAutoFormatType.REPORT5` y guarda el resultado como `.xls`.
 
 {{% alert color="primary" %}}
 **¿Por qué no hay campos de columna?** Los autoformatos de la serie Report (`Report1` a `Report10`, `Table1` a `Table10`) se diseñaron en el Excel clásico para **tablas dinámicas de una sola dimensión** con campos de fila y valores únicamente; no cuentan con estilos integrados para los encabezados de campos de columna. Si su tabla dinámica necesita campos de columna, utilice en su lugar los preajustes modernos `PivotTableStyleType` del [Escenario 2](#apply-a-modern-named-preset-pivot-table-style), que están diseñados para el diseño bidimensional que utiliza el Excel moderno.
@@ -30,6 +30,8 @@ El siguiente ejemplo carga un libro nuevo, rellena los datos de ejemplo de Fruta
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells.pivot import PivotTableAutoFormatType
 # Escenario 1: Aplicar un autoformato preestablecido de XLS heredado
 # API en uso: PivotTable.AutoFormatType
 # Formato de archivo de destino: .xls (heredado)
@@ -40,53 +42,119 @@ workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 # Llenar los datos de origen con la fila de encabezado (Fruta, Año, Cantidad)
 # y 9 filas de datos que cubren uva, arándano, kiwi, cereza entre 2020 y 2021
-sheet.cells[0, 0].put_value("Fruit")
-sheet.cells[0, 1].put_value("Year")
-sheet.cells[0, 2].put_value("Amount")
-sheet.cells[1, 0].put_value("grape")
-sheet.cells[1, 1].put_value(2020)
-sheet.cells[1, 2].put_value(50)
-sheet.cells[2, 0].put_value("blueberry")
-sheet.cells[2, 1].put_value(2020)
-sheet.cells[2, 2].put_value(30)
-sheet.cells[3, 0].put_value("kiwi")
-sheet.cells[3, 1].put_value(2020)
-sheet.cells[3, 2].put_value(25)
-sheet.cells[4, 0].put_value("cherry")
-sheet.cells[4, 1].put_value(2020)
-sheet.cells[4, 2].put_value(40)
-sheet.cells[5, 0].put_value("grape")
-sheet.cells[5, 1].put_value(2021)
-sheet.cells[5, 2].put_value(60)
-sheet.cells[6, 0].put_value("blueberry")
-sheet.cells[6, 1].put_value(2021)
-sheet.cells[6, 2].put_value(35)
-sheet.cells[7, 0].put_value("kiwi")
-sheet.cells[7, 1].put_value(2021)
-sheet.cells[7, 2].put_value(28)
-sheet.cells[8, 0].put_value("cherry")
-sheet.cells[8, 1].put_value(2021)
-sheet.cells[8, 2].put_value(45)
-sheet.cells[9, 0].put_value("grape")
-sheet.cells[9, 1].put_value(2020)
-sheet.cells[9, 2].put_value(45)
+sheet.cells.get(0, 0).put_value("Fruit")
+sheet.cells.get(0, 1).put_value("Year")
+sheet.cells.get(0, 2).put_value("Amount")
+sheet.cells.get(1, 0).put_value("grape")
+sheet.cells.get(1, 1).put_value(2020)
+sheet.cells.get(1, 2).put_value(50)
+sheet.cells.get(2, 0).put_value("blueberry")
+sheet.cells.get(2, 1).put_value(2020)
+sheet.cells.get(2, 2).put_value(30)
+sheet.cells.get(3, 0).put_value("kiwi")
+sheet.cells.get(3, 1).put_value(2020)
+sheet.cells.get(3, 2).put_value(25)
+sheet.cells.get(4, 0).put_value("cherry")
+sheet.cells.get(4, 1).put_value(2020)
+sheet.cells.get(4, 2).put_value(40)
+sheet.cells.get(5, 0).put_value("grape")
+sheet.cells.get(5, 1).put_value(2021)
+sheet.cells.get(5, 2).put_value(60)
+sheet.cells.get(6, 0).put_value("blueberry")
+sheet.cells.get(6, 1).put_value(2021)
+sheet.cells.get(6, 2).put_value(35)
+sheet.cells.get(7, 0).put_value("kiwi")
+sheet.cells.get(7, 1).put_value(2021)
+sheet.cells.get(7, 2).put_value(28)
+sheet.cells.get(8, 0).put_value("cherry")
+sheet.cells.get(8, 1).put_value(2021)
+sheet.cells.get(8, 2).put_value(45)
+sheet.cells.get(9, 0).put_value("grape")
+sheet.cells.get(9, 1).put_value(2020)
+sheet.cells.get(9, 2).put_value(45)
 # Agregar una tabla dinámica en la celda de destino E3, llamada "Pivot1", usando el rango de origen A1:C10
 pivot_index = sheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
 pivot_table = sheet.pivot_tables[pivot_index]
 # Asignar campos: Fruta -> Filas, Cantidad -> Datos
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 # Aplicar el autoformato preestablecido "Report5" de XLS heredado
 # Nota: Esta propiedad solo es significativa al guardar como .xls.
 # Al guardar como .xlsx/.xlsm/.xlsb, Excel ignora AutoFormatType
 # y usa lo que especifique PivotTableStyleType / PivotTableStyleName.
-pivot_table.auto_format_type = ac.PivotTableAutoFormatType.REPORT5
+pivot_table.auto_format_type = PivotTableAutoFormatType.REPORT5
 # Guardar el libro de trabajo en formato .xls heredado
 workbook.save("output.xls")
 ```
 
 ## **Aplicar un estilo de tabla dinámica preestablecido moderno con nombre**
 
+`pivot_table.pivot_table_style_type` selecciona uno de los estilos predefinidos con nombre que Excel 2007 introdujo para tablas dinámicas. La enumeración `PivotTableStyleType` expone tres familias de temas: la familia clara, desde `PIVOT_TABLE_STYLE_LIGHT1` hasta `PIVOT_TABLE_STYLE_LIGHT28`; la familia media, desde `PIVOT_TABLE_STYLE_MEDIUM1` hasta `PIVOT_TABLE_STYLE_MEDIUM28`; y la familia oscura, desde `PIVOT_TABLE_STYLE_DARK1` hasta `PIVOT_TABLE_STYLE_DARK28`. Además, define los valores `None` y `Custom`. Los miembros numerados más altamente de cada familia corresponden a los estilos añadidos en Excel 2017.
+Estas predefiniciones son de solo lectura. En cuanto necesite cambiar colores, bordes o fuentes más allá de lo que una predefinición ofrece, debe definir un estilo de tabla dinámica personalizado, como se muestra en [Escenario 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**¿Por qué usar las predefiniciones modernas y no los autoformateos de la serie Report?** Los valores `Report1` hasta `Report10` y `Table1` hasta `Table10` de `PivotTableAutoFormatType` son anteriores a los campos de columna de tabla dinámica, por lo que no contienen estilos para las cabeceras de campo de columna, y Excel las renderiza sin estilo. Las predefiniciones `PivotTableStyleType` fueron diseñadas para el diseño bidimensional que utiliza Excel moderno y aplican estilos tanto a las cabeceras de campo de fila como a las de campo de columna.
+{{% /alert %}}
+
+Este escenario reutiliza el conjunto de datos Fruta/Año/Cantidad del Escenario 1, añade `Year` al área de columnas junto al campo de fila `Fruit` mediante `PivotFieldType.COLUMN`, aplica la predefinición de tema oscuro `PIVOT_TABLE_STYLE_DARK1` con `pivot_table.pivot_table_style_type` y guarda el resultado como `.xlsx`, el formato para el cual `PivotTableStyleType` tiene sentido.
+
+```python
+import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType, PivotTableStyleType
+# Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+# Target file format: .xlsx. PivotTableStyleType lives in aspose.cells.pivot,
+# so it is imported explicitly alongside PivotFieldType.
+# GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+workbook = ac.Workbook()
+worksheet = workbook.worksheets[0]
+# Header row: Fruit / Year / Amount
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
+# 9 data rows of Fruit / Year / Amount
+worksheet.cells.get("A2").put_value("Grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(100)
+worksheet.cells.get("A3").put_value("Blueberry")
+worksheet.cells.get("B3").put_value(2020)
+worksheet.cells.get("C3").put_value(150)
+worksheet.cells.get("A4").put_value("Kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(200)
+worksheet.cells.get("A5").put_value("Cherry")
+worksheet.cells.get("B5").put_value(2020)
+worksheet.cells.get("C5").put_value(180)
+worksheet.cells.get("A6").put_value("Grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(120)
+worksheet.cells.get("A7").put_value("Blueberry")
+worksheet.cells.get("B7").put_value(2021)
+worksheet.cells.get("C7").put_value(170)
+worksheet.cells.get("A8").put_value("Kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(210)
+worksheet.cells.get("A9").put_value("Cherry")
+worksheet.cells.get("B9").put_value(2021)
+worksheet.cells.get("C9").put_value(190)
+worksheet.cells.get("A10").put_value("Grape")
+worksheet.cells.get("B10").put_value(2021)
+worksheet.cells.get("C10").put_value(130)
+# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
+pivot_table = worksheet.pivot_tables[pivot_index]
+# Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+# Apply a modern Excel 2007+ named preset pivot style.
+# PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+# is ignored by Excel for those formats. PIVOT_TABLE_STYLE_DARK1 belongs to the dark-theme
+# family (PIVOT_TABLE_STYLE_DARK1..PIVOT_TABLE_STYLE_DARK28), and the same enum also exposes
+# the newer Excel 2017 themes (PIVOT_TABLE_STYLE_LIGHT1..LIGHT28 / DARK1..DARK28).
+pivot_table.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_DARK1
+# Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx")
+```
 ## **Definir y aplicar un estilo personalizado de tabla dinámica**
 Los preajustes integrados no se pueden modificar. Siempre que necesite anular colores, bordes o fuentes, debe definir un estilo personalizado para tablas dinámicas. El flujo de trabajo consta de tres pasos:
 1. Añada un estilo personalizado a la colección `table_styles` del libro mediante `workbook.worksheets.table_styles.add_pivot_table_style(name)`. Esto devuelve el índice del estilo recién creado.
@@ -95,132 +163,132 @@ Los preajustes integrados no se pueden modificar. Siempre que necesite anular co
 
 {{% alert color="primary" %}}
 `pivot_table_style_name` y `pivot_table_style_type` no son intercambiables. Use `pivot_table_style_type` para los preajustes integrados y `pivot_table_style_name` para los estilos personalizados que haya definido mediante `add_pivot_table_style`. Establecer ambas es inofensivo, pero solo se representa la que coincida con el origen previsto.
-{{% /alert %}}
-
 Los valores disponibles de `TableStyleElementType` incluyen `WHOLE_TABLE`, `FIRST_ROW`, `LAST_ROW`, `FIRST_COLUMN`, `LAST_COLUMN`, `GRAND_TOTAL_ROW`, `GRAND_TOTAL_COLUMN`, `PAGE_FIELD_LABELS` y `PAGE_FIELD_VALUES`.
 El siguiente ejemplo define un estilo personalizado para tablas dinámicas con un borde negro fino en `WHOLE_TABLE` y una fuente roja en negrita en `GRAND_TOTAL_ROW`, lo aplica mediante `pivot_table_style_name` y guarda como `.xlsx`.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
-import System.Drawing
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells.tables import TableStyleElementType
+from aspose.pydrawing import Color
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Poblar datos de origen: fila de encabezado + 9 filas de datos (A1:C10)
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(500)
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(600)
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(700)
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(800)
-worksheet.cells["A10"].put_value("Grape")
-worksheet.cells["B10"].put_value(2021)
-worksheet.cells["C10"].put_value(900)
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
+worksheet.cells.get("A2").put_value("Grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(100)
+worksheet.cells.get("A3").put_value("Blueberry")
+worksheet.cells.get("B3").put_value(2020)
+worksheet.cells.get("C3").put_value(200)
+worksheet.cells.get("A4").put_value("Kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(300)
+worksheet.cells.get("A5").put_value("Cherry")
+worksheet.cells.get("B5").put_value(2020)
+worksheet.cells.get("C5").put_value(400)
+worksheet.cells.get("A6").put_value("Grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(500)
+worksheet.cells.get("A7").put_value("Blueberry")
+worksheet.cells.get("B7").put_value(2021)
+worksheet.cells.get("C7").put_value(600)
+worksheet.cells.get("A8").put_value("Kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(700)
+worksheet.cells.get("A9").put_value("Cherry")
+worksheet.cells.get("B9").put_value(2021)
+worksheet.cells.get("C9").put_value(800)
+worksheet.cells.get("A10").put_value("Grape")
+worksheet.cells.get("B10").put_value(2021)
+worksheet.cells.get("C10").put_value(900)
 # Agregar tabla dinámica desde A1:C10, anclada en E3, llamada "Pivot1"
 pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 # Paso 1: registrar un nuevo estilo personalizado de tabla dinámica y capturar su índice
 style_index = workbook.worksheets.table_styles.add_pivot_table_style("CustomPivotStyle")
 table_style = workbook.worksheets.table_styles[style_index]
 # Paso 2: agregar un elemento WholeTable y aplicar bordes negros finos en los cuatro lados
-whole_table_element_index = table_style.table_style_elements.add(ac.TableStyleElementType.WHOLE_TABLE)
+whole_table_element_index = table_style.table_style_elements.add(TableStyleElementType.WHOLE_TABLE)
 whole_table_element = table_style.table_style_elements[whole_table_element_index]
 whole_table_style = workbook.create_style()
-whole_table_style.borders[ac.BorderType.TOP_BORDER].line_style = ac.CellBorderType.THIN
-whole_table_style.borders[ac.BorderType.TOP_BORDER].color = System.Drawing.Color.Black
-whole_table_style.borders[ac.BorderType.BOTTOM_BORDER].line_style = ac.CellBorderType.THIN
-whole_table_style.borders[ac.BorderType.BOTTOM_BORDER].color = System.Drawing.Color.Black
-whole_table_style.borders[ac.BorderType.LEFT_BORDER].line_style = ac.CellBorderType.THIN
-whole_table_style.borders[ac.BorderType.LEFT_BORDER].color = System.Drawing.Color.Black
-whole_table_style.borders[ac.BorderType.RIGHT_BORDER].line_style = ac.CellBorderType.THIN
-whole_table_style.borders[ac.BorderType.RIGHT_BORDER].color = System.Drawing.Color.Black
+whole_table_style.borders.get(ac.BorderType.TOP_BORDER).line_style = ac.CellBorderType.THIN
+whole_table_style.borders.get(ac.BorderType.TOP_BORDER).color = Color.black
+whole_table_style.borders.get(ac.BorderType.BOTTOM_BORDER).line_style = ac.CellBorderType.THIN
+whole_table_style.borders.get(ac.BorderType.BOTTOM_BORDER).color = Color.black
+whole_table_style.borders.get(ac.BorderType.LEFT_BORDER).line_style = ac.CellBorderType.THIN
+whole_table_style.borders.get(ac.BorderType.LEFT_BORDER).color = Color.black
+whole_table_style.borders.get(ac.BorderType.RIGHT_BORDER).line_style = ac.CellBorderType.THIN
+whole_table_style.borders.get(ac.BorderType.RIGHT_BORDER).color = Color.black
 whole_table_element.set_element_style(whole_table_style)
 # Paso 3: agregar un elemento GrandTotalRow y aplicar fuente roja en negrita
-grand_total_element_index = table_style.table_style_elements.add(ac.TableStyleElementType.GRAND_TOTAL_ROW)
+grand_total_element_index = table_style.table_style_elements.add(TableStyleElementType.GRAND_TOTAL_ROW)
 grand_total_element = table_style.table_style_elements[grand_total_element_index]
 grand_total_style = workbook.create_style()
 grand_total_style.font.is_bold = True
-grand_total_style.font.color = System.Drawing.Color.Red
+grand_total_style.font.color = Color.red
 grand_total_element.set_element_style(grand_total_style)
 # Paso 4: aplicar el estilo personalizado por nombre (NO por PivotTableStyleType, que es para ajustes preestablecidos integrados)
 pivot_table.pivot_table_style_name = "CustomPivotStyle"
 workbook.save("output.xlsx")
 ```
 
-## **Aplicar un único estilo a todas las celdas de la tabla dinámica con FormatAll**
+## **Aplicar un único estilo a todas las celdas de la tabla dinámica con format_all**
 `PivotTable.format_all(Style)` es un atajo que aplica un único objeto `Style` a cada celda de la tabla dinámica, incluido el área de datos, los encabezados de filas y columnas y los totales. Todo lo establecido previamente mediante `pivot_table_style_type` o `pivot_table_style_name` queda anulado.
 
 {{% alert color="primary" %}}
 `format_all` anula tanto `pivot_table_style_type` como `pivot_table_style_name`. Úselo solo cuando se requiera una apariencia uniforme e independiente del tema en toda la tabla dinámica.
+El siguiente ejemplo crea un `Style` con un relleno amarillo sólido, una fuente azul oscuro en negrita y bordes negros finos en todos los lados, lo aplica con `format_all` y guarda como `.xlsx`.
 {{% /alert %}}
 
-El siguiente ejemplo crea un `Style` con un relleno amarillo sólido, una fuente azul oscuro en negrita y bordes negros finos en todos los lados, lo aplica con `format_all` y guarda como `.xlsx`.
-
 ```python
-from System.Drawing import Color
+from aspose.pydrawing import Color
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells import BackgroundType, CellBorderType, BorderType
-# Escenario 4: Aplicar un único Estilo a cada celda de la tabla dinámica usando FormatAll
-# API en uso: PivotTable.FormatAll(Style)
+# Escenario 4: Aplicar un único Estilo a cada celda de la tabla dinámica usando format_all
+# API en uso: PivotTable.format_all(Style)
 # Formato de destino: .xlsx
 # Referencia de GitHub: ver repositorio Aspose.Cells-for-.NET — ejemplos de estilo de tabla dinámica
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Poblar datos de origen: fila de encabezado (fila 1) + 9 filas de datos (filas 2-10)
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(5000)
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(3000)
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(4000)
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(2000)
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(6000)
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(3500)
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(4500)
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(2500)
-worksheet.cells["A10"].put_value("Grape")
-worksheet.cells["B10"].put_value(2021)
-worksheet.cells["C10"].put_value(5500)
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
+worksheet.cells.get("A2").put_value("Grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(5000)
+worksheet.cells.get("A3").put_value("Blueberry")
+worksheet.cells.get("B3").put_value(2020)
+worksheet.cells.get("C3").put_value(3000)
+worksheet.cells.get("A4").put_value("Kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(4000)
+worksheet.cells.get("A5").put_value("Cherry")
+worksheet.cells.get("B5").put_value(2020)
+worksheet.cells.get("C5").put_value(2000)
+worksheet.cells.get("A6").put_value("Grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(6000)
+worksheet.cells.get("A7").put_value("Blueberry")
+worksheet.cells.get("B7").put_value(2021)
+worksheet.cells.get("C7").put_value(3500)
+worksheet.cells.get("A8").put_value("Kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(4500)
+worksheet.cells.get("A9").put_value("Cherry")
+worksheet.cells.get("B9").put_value(2021)
+worksheet.cells.get("C9").put_value(2500)
+worksheet.cells.get("A10").put_value("Grape")
+worksheet.cells.get("B10").put_value(2021)
+worksheet.cells.get("C10").put_value(5500)
 # Agregar tabla dinámica: rango de origen A1:C10, celda de destino E3, nombre "Pivot1"
 pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
@@ -230,19 +298,19 @@ pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 # Construir un Estilo que será forzado en cada celda de la tabla dinámica
 style = workbook.create_style()
-style.foreground_color = Color.Yellow
+style.foreground_color = Color.yellow
 style.pattern = BackgroundType.SOLID
 style.font.is_bold = True
-style.font.color = Color.DarkBlue
-style.borders[BorderType.TOP_BORDER].line_style = CellBorderType.THIN
-style.borders[BorderType.TOP_BORDER].color = Color.Black
-style.borders[BorderType.BOTTOM_BORDER].line_style = CellBorderType.THIN
-style.borders[BorderType.BOTTOM_BORDER].color = Color.Black
-style.borders[BorderType.LEFT_BORDER].line_style = CellBorderType.THIN
-style.borders[BorderType.LEFT_BORDER].color = Color.Black
-style.borders[BorderType.RIGHT_BORDER].line_style = CellBorderType.THIN
-style.borders[BorderType.RIGHT_BORDER].color = Color.Black
-# Aplicar FormatAll: fuerza este único estilo en cada celda de la tabla dinámica,
+style.font.color = Color.dark_blue
+style.borders.get(BorderType.TOP_BORDER).line_style = CellBorderType.THIN
+style.borders.get(BorderType.TOP_BORDER).color = Color.black
+style.borders.get(BorderType.BOTTOM_BORDER).line_style = CellBorderType.THIN
+style.borders.get(BorderType.BOTTOM_BORDER).color = Color.black
+style.borders.get(BorderType.LEFT_BORDER).line_style = CellBorderType.THIN
+style.borders.get(BorderType.LEFT_BORDER).color = Color.black
+style.borders.get(BorderType.RIGHT_BORDER).line_style = CellBorderType.THIN
+style.borders.get(BorderType.RIGHT_BORDER).color = Color.black
+# Aplicar format_all: fuerza este único estilo en cada celda de la tabla dinámica,
 # anulando cualquier PivotTableStyleType / PivotTableStyleName establecido previamente
 pivot_table.format_all(style)
 # Guardar el libro en el formato moderno .xlsx
@@ -258,5 +326,6 @@ La elección de la API de estilos depende del formato de archivo en el que está
 | `.xlsx` / `.xlsm` / `.xlsb` (moderno, estilo personalizado) | `PivotTable.pivot_table_style_name` + `worksheets.table_styles.add_pivot_table_style(...)` | Úselo cuando los preajustes integrados no sean suficientes. Configúrelo mediante `table_style_element.set_element_style(...)`. |
 | Cualquier formato (anulación uniforme) | `PivotTable.format_all(Style)` | Atajo que anula cualquier otra configuración de estilo en toda la tabla dinámica. |
 En caso de duda, guarde como `.xlsx` y use `pivot_table_style_type` para los temas integrados, o `pivot_table_style_name` para los temas personalizados.
+
 
 {{< app/cells/assistant language="python-net" >}}

@@ -48,7 +48,7 @@ Dopo la trasposizione, lo stesso intervallo di ancoraggio contiene i dati ruotat
 const AsposeCells = require("aspose.cells");
 const srcFile = "source.xlsx";
 const outputFile = "transposed.xlsx";
-const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
+const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX);
 const workbook = new AsposeCells.Workbook(srcFile, loadOptions);
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();
@@ -79,11 +79,11 @@ Questo approccio funziona **solo su Excel 365 / 2021 o successivi**. Le versioni
 const AsposeCells = require("aspose.cells");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
-const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
+const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX));
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();
 cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", new AsposeCells.FormulaParseOptions(), true);
-workbook.save(outFile, AsposeCells.SaveFormat.Xlsx);
+workbook.save(outFile, AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Approccio 3 — Trasporre con una formula matrice classica (CSE)**
@@ -107,7 +107,7 @@ Le formule matrice CSE sono il modo classico di Excel per valutare un'espression
 const AsposeCells = require("aspose.cells");
 // Carica il workbook sorgente con le LoadOptions xlsx
 const srcFile = "source.xlsx";
-const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
+const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX));
 // Accedi al primo foglio di lavoro e alla sua raccolta Cells
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();

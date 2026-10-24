@@ -29,6 +29,7 @@ Das folgende Beispiel lädt eine neue Arbeitsmappe, füllt die Fruit/Year/Amount
 {{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 // Das erste Arbeitsblatt abrufen
 let sheet = workbook.getWorksheets().get(0);
@@ -81,6 +82,67 @@ workbook.save("output.xls");
 
 ## **Einen modernen benannten Pivot-Tabellenstil als Voreinstellung anwenden**
 
+`PivotTable.setPivotTableStyleType(int)` wählt einen der integrierten benannten Stile aus, die Excel 2007 für Pivot-Tabellen eingeführt hat. Die Enumeration `PivotTableStyleType` stellt drei Designfamilien bereit: die helle Familie von `PIVOT_TABLE_STYLE_LIGHT1` bis `PIVOT_TABLE_STYLE_LIGHT28`, die mittlere Familie von `PIVOT_TABLE_STYLE_MEDIUM1` bis `PIVOT_TABLE_STYLE_MEDIUM28` und die dunkle Familie von `PIVOT_TABLE_STYLE_DARK1` bis `PIVOT_TABLE_STYLE_DARK_28`. Sie definiert außerdem `None` und `Custom`. Die Elemente mit höherer Nummerierung jeder Familie sind die in Excel 2017 hinzugefügten Stile.
+Diese Voreinstellungen sind schreibgeschützt. Sobald Sie Farben, Rahmen oder Schriftarten ändern müssen, die über die Möglichkeiten einer Voreinstellung hinausgehen, müssen Sie stattdessen einen benutzerdefinierten Pivot-Stil definieren, wie in [Szenario 3](#define-and-apply-a-custom-pivot-table-style) gezeigt.
+
+{{% alert color="primary" %}}
+**Warum die modernen Voreinstellungen und nicht die Autoformatierungen der Berichtsreihe?** Die Werte `Report1` bis `Report10` und `Table1` bis `Table10` von `PivotTableAutoFormatType` wurden vor der Einführung von Pivot-Spaltenfeldern definiert und enthalten daher keine Formatierung für die Kopfzeilen von Spaltenfeldern, sodass Excel diese Kopfzeilen ohne Formatierung rendert. Die Voreinstellungen von `PivotTableStyleType` wurden für das zweidimensionale Layout entwickelt, das moderne Excel-Versionen verwenden, und formatieren die Kopfzeilen von Zeilen- und Spaltenfeldern gleichermaßen.
+{{% /alert %}}
+
+Dieses Szenario verwendet erneut den Fruit/Year/Amount-Datensatz aus Szenario 1, fügt `Year` mithilfe von `PivotFieldType.COLUMN` neben dem Zeilenfeld `Fruit` zum Spaltenbereich hinzu, wendet mit `pivotTable.setPivotTableStyleType` die Voreinstellung mit dunklem Design `PIVOT_TABLE_STYLE_DARK1` an und speichert das Ergebnis als `.xlsx` — das Format, in dem `PivotTableStyleType` sinnvoll zum Einsatz kommt.
+
+```javascript
+const AsposeCells = require("aspose.cells");
+let workbook = new AsposeCells.Workbook();
+let worksheet = workbook.getWorksheets().get(0);
+// Header row: Fruit / Year / Amount
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+// 9 data rows of Fruit / Year / Amount
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(100);
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(150);
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(200);
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(180);
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(120);
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(170);
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(210);
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(190);
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(130);
+// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1);
+// Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx");
+```
 ## **Einen benutzerdefinierten Pivot-Tabellenstil definieren und anwenden**
 Die integrierten Voreinstellungen können nicht geändert werden. Wann immer Sie Farben, Rahmen oder Schriftarten überschreiben müssen, müssen Sie einen benutzerdefinierten Pivot-Stil definieren. Der Arbeitsablauf besteht aus drei Schritten:
 1. Fügen Sie der `TableStyles`-Sammlung der Arbeitsmappe über `Worksheets.getTableStyles().addPivotTableStyle(String name)` einen benutzerdefinierten Stil hinzu. Dies gibt den Index des neu erstellten Stils zurück.
@@ -89,12 +151,12 @@ Die integrierten Voreinstellungen können nicht geändert werden. Wann immer Sie
 
 {{% alert color="primary" %}}
 `pivotTableStyleName` und `pivotTableStyleType` sind nicht austauschbar. Verwenden Sie `pivotTableStyleType` für integrierte Voreinstellungen und `pivotTableStyleName` für benutzerdefinierte Stile, die Sie über `addPivotTableStyle` definiert haben. Beides festzulegen ist harmlos, aber nur das für die beabsichtigte Quelle passende wird gerendert.
-{{% /alert %}}
-
 Die verfügbaren `TableStyleElementType`-Werte umfassen `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` und `PageFieldValues`.
 Das folgende Beispiel definiert einen benutzerdefinierten Pivot-Stil mit einem dünnen schwarzen Rahmen auf `WholeTable` und einer fetten roten Schriftart auf `GrandTotalRow`, wendet ihn dann über `pivotTableStyleName` an und speichert als `.xlsx`.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Quelldaten befüllen: Kopfzeile + 9 Datenzeilen (A1:C10)
@@ -141,41 +203,41 @@ let tableStyle = workbook.getWorksheets().getTableStyles().get(styleIndex);
 let wholeTableElementIndex = tableStyle.getTableStyleElements().add(AsposeCells.TableStyleElementType.WHOLE_TABLE);
 let wholeTableElement = tableStyle.getTableStyleElements().get(wholeTableElementIndex);
 let wholeTableStyle = workbook.createStyle();
-let topBorder = wholeTableStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER);
+let topBorder = wholeTableStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER);
 topBorder.setLineStyle(AsposeCells.CellBorderType.THIN);
-topBorder.setColor(AsposeCells.Color.BLACK);
-let bottomBorder = wholeTableStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER);
+topBorder.setColor(AsposeCells.Color.getBlack());
+let bottomBorder = wholeTableStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER);
 bottomBorder.setLineStyle(AsposeCells.CellBorderType.THIN);
-bottomBorder.setColor(AsposeCells.Color.BLACK);
-let leftBorder = wholeTableStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER);
+bottomBorder.setColor(AsposeCells.Color.getBlack());
+let leftBorder = wholeTableStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER);
 leftBorder.setLineStyle(AsposeCells.CellBorderType.THIN);
-leftBorder.setColor(AsposeCells.Color.BLACK);
-let rightBorder = wholeTableStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER);
+leftBorder.setColor(AsposeCells.Color.getBlack());
+let rightBorder = wholeTableStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER);
 rightBorder.setLineStyle(AsposeCells.CellBorderType.THIN);
-rightBorder.setColor(AsposeCells.Color.BLACK);
+rightBorder.setColor(AsposeCells.Color.getBlack());
 wholeTableElement.setElementStyle(wholeTableStyle);
 // Schritt 3: Ein GrandTotalRow-Element hinzufügen und eine fette rote Schriftart anwenden
 let grandTotalElementIndex = tableStyle.getTableStyleElements().add(AsposeCells.TableStyleElementType.GRAND_TOTAL_ROW);
 let grandTotalElement = tableStyle.getTableStyleElements().get(grandTotalElementIndex);
 let grandTotalStyle = workbook.createStyle();
 grandTotalStyle.getFont().setBold(true);
-grandTotalStyle.getFont().setColor(AsposeCells.Color.RED);
+grandTotalStyle.getFont().setColor(AsposeCells.Color.getRed());
 grandTotalElement.setElementStyle(grandTotalStyle);
 // Schritt 4: Den benutzerdefinierten Stil namentlich anwenden (NICHT über PivotTableStyleType, der für integrierte Voreinstellungen gedacht ist)
 pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
 
-## **Einen Stil mit FormatAll auf jede Pivot-Zelle anwenden**
+## **Einen Stil mit formatAll auf jede Pivot-Zelle anwenden**
 `PivotTable.formatAll(Style)` ist eine Verknüpfung, die ein einzelnes `Style`-Objekt auf jede Zelle der Pivot-Tabelle anwendet, einschließlich des Datenbereichs, der Zeilen- und Spaltenüberschriften sowie der Summen. Alles, was zuvor über `pivotTableStyleType` oder `pivotTableStyleName` festgelegt wurde, wird überschrieben.
 
 {{% alert color="primary" %}}
 `formatAll` überschreibt sowohl `pivotTableStyleType` als auch `pivotTableStyleName`. Verwenden Sie es nur, wenn ein einheitliches, designunabhängiges Erscheinungsbild über die gesamte Pivot-Tabelle hinweg erforderlich ist.
+Das folgende Beispiel erstellt ein `Style`-Objekt mit gelber Vollfüllung, fetter dunkelblauer Schriftart und dünnen schwarzen Rahmen auf allen Seiten, wendet es dann mit `formatAll` an und speichert als `.xlsx`.
 {{% /alert %}}
 
-Das folgende Beispiel erstellt ein `Style`-Objekt mit gelber Vollfüllung, fetter dunkelblauer Schriftart und dünnen schwarzen Rahmen auf allen Seiten, wendet es dann mit `formatAll` an und speichert als `.xlsx`.
-
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Quelldaten befüllen: Kopfzeile (Zeile 1) + 9 Datenzeilen (Zeilen 2-10)
@@ -213,24 +275,24 @@ worksheet.getCells().get("C10").putValue(5500);
 let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
 // Pivot-Felder zuweisen: Fruit -> Zeilenbereich, Year -> Spaltenbereich, Amount -> Datenbereich
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 // Einen Stil erstellen, der auf jede Zelle der Pivot-Tabelle angewendet wird
 let style = workbook.createStyle();
-style.setForegroundColor(AsposeCells.Color.Yellow);
-style.setPattern(AsposeCells.BackgroundType.Solid);
-style.getFont().setIsBold(true);
-style.getFont().setColor(AsposeCells.Color.DarkBlue);
-style.getBorders().get(AsposeCells.BorderType.TopBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
-style.getBorders().get(AsposeCells.BorderType.TopBorder).setColor(AsposeCells.Color.Black);
-style.getBorders().get(AsposeCells.BorderType.BottomBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
-style.getBorders().get(AsposeCells.BorderType.BottomBorder).setColor(AsposeCells.Color.Black);
-style.getBorders().get(AsposeCells.BorderType.LeftBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
-style.getBorders().get(AsposeCells.BorderType.LeftBorder).setColor(AsposeCells.Color.Black);
-style.getBorders().get(AsposeCells.BorderType.RightBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
-style.getBorders().get(AsposeCells.BorderType.RightBorder).setColor(AsposeCells.Color.Black);
-// FormatAll anwenden: erzwingt diesen einzelnen Stil auf jede Zelle der Pivot-Tabelle,
+style.setForegroundColor(AsposeCells.Color.getYellow());
+style.setPattern(AsposeCells.BackgroundType.SOLID);
+style.getFont().setBold(true);
+style.getFont().setColor(AsposeCells.Color.getDarkBlue());
+style.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+style.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setColor(AsposeCells.Color.getBlack());
+style.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+style.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setColor(AsposeCells.Color.getBlack());
+style.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+style.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setColor(AsposeCells.Color.getBlack());
+style.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+style.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setColor(AsposeCells.Color.getBlack());
+// formatAll anwenden: erzwingt diesen einzelnen Stil auf jede Zelle der Pivot-Tabelle,
 // überschreibt jeden zuvor festgelegten PivotTableStyleType / PivotTableStyleName
 pivotTable.formatAll(style);
 // Arbeitsmappe im modernen .xlsx-Format speichern
@@ -246,5 +308,6 @@ Die Wahl der Stil-API hängt vom Dateiformat ab, in dem Sie speichern. Verwenden
 | `.xlsx` / `.xlsm` / `.xlsb` (modern, benutzerdefinierter Stil) | `PivotTable.pivotTableStyleName` + `Worksheets.getTableStyles().addPivotTableStyle(...)` | Verwenden, wenn die integrierten Voreinstellungen nicht ausreichen. Konfiguration über `TableStyleElement.setElementStyle(...)`. |
 | Beliebiges Format (einheitliche Überschreibung) | `PivotTable.formatAll(Style)` | Verknüpfung, die jede andere Stileinstellung in der gesamten Pivot-Tabelle überschreibt. |
 Im Zweifelsfall speichern Sie als `.xlsx` und verwenden Sie `pivotTableStyleType` für integrierte Designs oder `pivotTableStyleName` für benutzerdefinierte Designs.
+
 
 {{< app/cells/assistant language="nodejs-java" >}}

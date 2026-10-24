@@ -130,6 +130,7 @@ En este ejemplo colocamos `Fruit` en el eje de filas, `Year` y `Region` en el ej
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -252,4 +253,4 @@ int main() {
 - [Actualizar tabla dinámica](/cells/es/cpp/refresh-pivot-table/) — explica `RefreshData` y `CalculateData`, que son necesarios después de reordenar los campos de página.
 - [Aplicar estilo a una tabla dinámica](/cells/es/cpp/apply-style-to-pivot-table/) — muestra cómo dar formato a la tabla dinámica renderizada después de haber dispuesto la franja de campos de página.
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

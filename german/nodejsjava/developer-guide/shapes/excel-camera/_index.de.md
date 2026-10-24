@@ -25,9 +25,8 @@ Die wichtigsten APIs sind:
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` MUSS vor dem Speichern aufgerufen werden, wenn die Ausgabe HTML oder PDF ist; andernfalls enthält die exportierte Datei keine Bilddaten und die Kamera erscheint in der gerenderten Ausgabe leer.
-{{% /alert %}}
-
 Der folgende Code erstellt eine Arbeitsmappe, fügt ein leeres Bild verankert an Zeile 10, Spalte 6 hinzu, verknüpft es über die Eigenschaft `Formula` mit dem Quellbereich `A1:F10`, aktualisiert die eingebetteten Bilddaten und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ```javascript
 const aspose = require("aspose.cells");

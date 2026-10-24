@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells erbjuder två olika sätt att koppla en bild till en enda cell. En flytande bild är en form på kalkylbladets ritningslager som visuellt överlagrar ett cellintervall, medan en inbäddad bild lagras inuti själva cellen och automatiskt skalas för att passa cellens visningsområde. Välj det tillvägagångssätt som bäst passar dina layoutkrav.
+{{% /alert %}}
 
 ## **Introduktion**
 Att anpassa en bild exakt till en enda cell är ett vanligt krav när man utformar kalkylblad som fungerar som visuella rapporter, produktkataloger, personalkataloger, instrumentpaneler eller inventarielistor. Istället för att sträcka ut en bild över många celler eller placera den löst på ett kalkylblad kanske du vill ha en ren, cellbunden bild som håller sig justerad med cellen som äger den.
@@ -36,6 +37,7 @@ Bildens ankare definieras av fyra nollbaserade indexegenskaper:
 
 {{% alert color="primary" %}}
 Rad- och kolumnindex i Aspose.Cells är **nollbaserade**. Cell C6 har radindex 5 och kolumnindex 2. Off-by-one-fel på det nedre högra ankaret är den vanligaste orsaken till att bilder verkar överlappa in i en intilliggande cell.
+{{% /alert %}}
 
 ### **Styra placeringsbeteendet**
 `Picture.placement` är en uppräkning av typen `PlacementType` som styr hur bilden beter sig när användaren ändrar storlek på raden eller kolumnen under den. Det rekommenderade värdet för en encellbild är `PlacementType.MOVE_AND_SIZE`, vilket gör att bilden flyttas och storleksändras tillsammans med sin underliggande cell och bevarar den exakta passningen.
@@ -53,6 +55,7 @@ Följande kod demonstrerar det fullständiga tillvägagångssättet.
 
 ```python
 import aspose.cells as ac
+from aspose.cells.drawing import PlacementType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 with open("logo.png", "rb") as fs:
@@ -62,7 +65,7 @@ with open("logo.png", "rb") as fs:
     picture.upper_left_column = 2
     picture.lower_right_row = 6
     picture.lower_right_column = 3
-    picture.placement = ac.PlacementType.MOVE_AND_SIZE
+    picture.placement = PlacementType.MOVE_AND_SIZE
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
 
@@ -79,7 +82,7 @@ Detta gör `Cell.embedded_image` till det mest koncisa alternativet när ditt m�
 1. Skapa en ny `Workbook` (eller öppna en befintlig).
 2. Hämta målets `Worksheet` från `workbook.worksheets[0]`.
 3. Läs bildfilen från disk till ett `bytes`-objekt (till exempel genom att öppna filen i binärt läge och anropa `.read()`).
-4. Hämta en referens till målcellen — antingen via `worksheet.cells["C6"]` eller `worksheet.cells[5, 2]`.
+4. Hämta en referens till målcellen — antingen via `worksheet.cells.get("C6")` eller `worksheet.cells.get(5, 2)`.
 5. Tilldela bytes-objektet till cellens `embedded_image`-egenskap.
 6. Justera eventuellt radhöjden och kolumnbredden för målraden och kolumnen för att ge den inbäddade bilden ett mer framträdande utseende.
 7. Spara arbetsboken på disk som en `.xlsx`-fil.
@@ -90,15 +93,15 @@ import aspose.cells as ac
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Get the target cell C6
-cell = worksheet.cells["C6"]
+cell = worksheet.cells.get("C6")
 # Read the image file into a byte array
 with open("logo.png", "rb") as f:
     imageData = f.read()
 # Embed the image directly into the cell
 cell.embedded_image = imageData
 # Optionally adjust row height and column width so the embedded image is more visible
-worksheet.cells.set_column_width(2, 30)   # Column C (index 2)
-worksheet.cells.set_row_height(5, 100)     # Row 6 (index 5)
+worksheet.cells.set_column_width(2, 30.0)   # Column C (index 2)
+worksheet.cells.set_row_height(5, 100.0)     # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
@@ -114,9 +117,6 @@ Båda tillvägagångssätten producerar en bild som passar inuti en enda cell, m
   - Du vill ha den enklaste möjliga infogningen av en bild i en cell.
   - Bilden ska följa med cellen som annat cellinnehåll.
   - Du inte behöver manipulera bilden som en form.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Relaterade artiklar
 - [Excel Camera i Aspose.Cells for Python via .NET](/cells/sv/python-net/excel-camera/)
@@ -125,4 +125,4 @@ Båda tillvägagångssätten producerar en bild som passar inuti en enda cell, m
 - [Ändra sidfältslayout i pivottabell](/cells/sv/python-net/change-page-field-layout/)
 - [Konvertera sparkline till bild och HTML i Aspose.Cells for Python via .NET](/cells/sv/python-net/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

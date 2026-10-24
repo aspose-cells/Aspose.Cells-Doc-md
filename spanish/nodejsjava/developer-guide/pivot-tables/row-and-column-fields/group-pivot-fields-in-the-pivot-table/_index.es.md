@@ -1,0 +1,100 @@
+---
+title: Agrupar campos dinámicos en la tabla dinámica
+linktitle: Agrupar campos dinámicos en la tabla dinámica
+description: Aprenda a agrupar campos dinámicos de filas y columnas en una tabla dinámica en períodos de fechas, como meses y trimestres, y rangos numéricos usando PivotField.group y PivotFieldGroupOptions en Aspose.Cells for Node.js via Java.
+keywords: Aspose.Cells, tabla dinámica, agrupar campo dinámico, PivotField.group, PivotFieldGroupOptions, agrupación por fecha, agrupación numérica, meses, trimestres, rango numérico, Node.js
+type: docs
+weight: 80
+url: /es/nodejs-java/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_nodejsjava
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+---
+
+## **Posibles escenarios de uso**
+- Agrupar campos dinámicos resulta útil cuando un campo de fila o columna de una tabla dinámica contiene muchos elementos distintos, como un campo de fecha con cientos de fechas o un campo numérico con muchos valores dispersos. La agrupación condensa estos elementos en secciones significativas: las fechas se agrupan en meses, trimestres y años, y los números en rangos como 0-1, 2-3, 4-5. Esto hace que una tabla dinámica grande sea compacta y más fácil de analizar. Aspose.Cells for Node.js via Java ofrece esta capacidad a través del método `PivotField.group()` (agrupación automática por tipo de datos) y `PivotField.group(PivotFieldGroupOptions)` (opciones de agrupación personalizadas).
+- La agrupación por fechas acumula las fechas individuales en períodos más grandes, como días, meses, trimestres y años, y construye una jerarquía temporal (por ejemplo Años, Trimestres, Meses). Las tendencias a lo largo del tiempo se vuelven visibles de un vistazo, y cada nivel de período se convierte en su propio campo dinámico en el área de filas o columnas de la tabla dinámica.
+- La agrupación solo está disponible para los campos ubicados en el área de FILAS o COLUMNAS de una tabla dinámica. Un campo de datos (valor) no puede agruparse directamente. Para agrupar dicho campo, primero debe agregarlo al área de filas o columnas de la tabla dinámica.
+
+## **Agrupar campos dinámicos automáticamente**
+La sobrecarga sin parámetros de `PivotField.group()` examina el tipo de datos del campo y lo agrupa automáticamente. Un campo que contiene solo fechas (y celdas en blanco) se agrupa por meses. Un campo que contiene solo números (y celdas en blanco) se agrupa en rangos numéricos utilizando un intervalo automático.
+
+```javascript
+const AsposeCells = require("aspose.cells");
+let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
+// Acceder a la segunda hoja de cálculo y su tabla dinámica
+let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
+// Agrupar el primer campo de fila automáticamente.
+// El campo contiene fechas, por lo que se agrupa por meses.
+let field = pt.getRowFields().get(0);
+field.group();
+// Calcular los datos de la tabla dinámica y guardar el archivo de salida
+pt.calculateData();
+wb.save("outputAutoGroupPivotField.xlsx");
+```
+
+## **Agrupar campos dinámicos con opciones personalizadas**
+La clase `PivotFieldGroupOptions` ofrece una configuración de agrupación personalizada. Para los campos de fecha, establezca `StartDate`, `EndDate` y `GroupTypes`. Para los campos numéricos, establezca `StartNumber`, `EndNumber` e `Interval`. La propiedad `NewPivotField` controla si la agrupación crea nuevos campos dinámicos junto al original (consulte la sección Nota al final de este artículo).
+
+### **Agrupar un campo de fecha por meses y trimestres**
+El siguiente ejemplo agrupa el campo de fila de fechas de la tabla dinámica de muestra por meses y trimestres entre una fecha de inicio y una fecha de fin. El código carga el [archivo Excel de muestra](sampleGroupPivotFieldsInPivotTable.xlsx), realiza la agrupación, calcula los datos de la tabla dinámica y guarda el resultado agrupado. La captura de pantalla muestra el efecto: el campo de fila de fecha ahora está agrupado por trimestres y meses.
+Tenga en cuenta que se ignora el orden de los valores en `options.GroupTypes`. Sin importar el orden en que se enumeren los tipos de grupo, los campos agrupados siempre se muestran del período más grande al más pequeño: años, trimestres, meses, días, horas, minutos, segundos. En este ejemplo los meses se enumeran antes que los trimestres en `options.GroupTypes`, sin embargo, los trimestres se muestran como el nivel externo y los meses como el nivel interno.
+
+```javascript
+const AsposeCells = require("aspose.cells");
+// Cargar el libro de muestra
+const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
+// Acceder a la segunda hoja de cálculo y a su tabla dinámica
+const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
+// Agrupar el primer campo de fila (un campo de fecha) por meses y trimestres
+const options = new AsposeCells.PivotFieldGroupOptions();
+options.setStartDate(new Date(2008, 0, 1));
+options.setEndDate(new Date(2008, 8, 5));
+options.setGroupTypes([AsposeCells.PivotGroupByType.MONTHS, AsposeCells.PivotGroupByType.QUARTERS]);
+pt.getRowFields().get(0).group(options);
+// Calcular los datos de la tabla dinámica y guardar el archivo de salida
+pt.calculateData();
+wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
+```
+
+![Tabla dinámica agrupada por meses y trimestres](group-pivot-fields-in-the-pivot-table_1.png)
+
+### **Agrupar un campo numérico en rangos**
+`FieldTwo` de la tabla dinámica de muestra es inicialmente un campo de datos (valor). Dado que solo los campos de fila o columna se pueden agrupar, el código primero llama a `pivotTable.addFieldToArea(PivotFieldType.Row, "FieldTwo")` para mover `FieldTwo` al área de filas, actualiza la tabla dinámica y luego agrupa el campo numérico en los rangos 0-1, 2-3 y 4-5 usando `StartNumber = 0`, `EndNumber = 5` e `Interval = 2`.
+
+```javascript
+const AsposeCells = require("aspose.cells");
+// Cargar el libro de trabajo de muestra
+const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
+// Acceder a la segunda hoja de trabajo y su tabla dinámica
+const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
+// FieldTwo es un campo de datos: muévalo al área de filas primero,
+// porque solo los campos de fila/columna se pueden agrupar
+pt.addFieldToArea(AsposeCells.PivotFieldType.ROW, "FieldTwo");
+pt.calculateData();
+// Agrupar el campo numérico en los rangos 0-1, 2-3, 4-5
+const options = new AsposeCells.PivotFieldGroupOptions();
+options.setStartNumber(0);
+options.setEndNumber(5);
+options.setInterval(2);
+pt.getRowFields().get(1).group(options);
+// Calcular los datos de la tabla dinámica y guardar el archivo de salida
+pt.calculateData();
+wb.save("outputNumberGroupPivotField.xlsx");
+```
+
+## **Nota**
+
+{{% alert color="primary" %}}
+- Las sobrecargas del método `PivotField.GroupBy()` están obsoletas y se han eliminado de la superficie de la API. `PivotField.group()` y `PivotField.group(PivotFieldGroupOptions)` son los reemplazos.
+- En Microsoft Excel, agrupar un campo numérico REEMPLAZA el campo dinámico original con los rangos agrupados, mientras que agrupar un campo de fecha crea NUEVOS campos dinámicos (uno por cada nivel de grupo, por ejemplo Trimestres y Meses) junto al campo original. A partir de Aspose.Cells for Node.js via Java 26.10, los métodos `PivotField.group()` siguen el mismo comportamiento que Excel. La propiedad `PivotFieldGroupOptions.NewPivotField` existe por compatibilidad con versiones anteriores: su valor predeterminado es false para la agrupación numérica y true para la agrupación de fecha y hora; establézcala en false si desea que la agrupación por fechas reemplace al campo dinámico original en lugar de crear nuevos campos dinámicos.
+- La propiedad `PivotFieldGroupOptions.Interval` solo surte efecto para la agrupación numérica y para la agrupación por fechas en días (por ejemplo, agrupar fechas en períodos de 7 días); se ignora cuando las fechas se agrupan por meses, trimestres o años.
+{{% /alert %}}
+
+## **Artículos relacionados**
+- [Agregar campos de fila y columna en la tabla dinámica](/cells/es/nodejs-java/pivot-table-add-row-and-column-fields/)
+- [Filtrar tablas dinámicas por etiqueta o valor](/cells/es/nodejs-java/filter-by-label-or-value-of-pivot-table/)
+- [Agregar campo de página en la tabla dinámica](/cells/es/nodejs-java/add-page-field-in-pivot-table/)
+- [Aplicar estilo a la tabla dinámica](/cells/es/nodejs-java/apply-style-to-pivot-table/)
+- [Actualizar tabla dinámica](/cells/es/nodejs-java/refresh-pivot-table/)
+
+{{< app/cells/assistant language="nodejs-java" >}}

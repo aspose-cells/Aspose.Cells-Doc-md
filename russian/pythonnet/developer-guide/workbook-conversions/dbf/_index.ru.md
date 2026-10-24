@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells обеспечивает полную поддержку чтения и записи файлов DBF (dBASE). Вы можете загружать существующие файлы dBASE III и dBASE IV в объект Workbook, обрабатывать данные с помощью мощного API Aspose.Cells и сохранять книгу обратно в формат DBF для использования с устаревшими приложениями баз данных.
+{{% /alert %}}
 
 ## **Введение**
 DBF (DataBase File) — это устаревший формат файлов баз данных, первоначально представленный dBASE в начале 1980-х годов. Несмотря на возраст формата, файлы DBF по-прежнему широко используются во многих отраслях для хранения структурированных данных, особенно в бухгалтерии, ГИС и других специализированных приложениях. Aspose.Cells позволяет легко интегрировать эти устаревшие файлы в современные рабочие процессы с электронными таблицами на Python через .NET.
@@ -63,7 +64,7 @@ max_col = cells.max_data_column
 for i in range(max_row + 1):
     line_parts = []
     for j in range(max_col + 1):
-        cell = cells[i, j]
+        cell = cells.get(i, j)
         value = cell.string_value
         line_parts.append("|" + value)
     line_parts.append("|")
@@ -77,6 +78,7 @@ print("DBF file loaded successfully. Converted XLSX saved at: " + output_path)
 
 {{% alert color="primary" %}}
 Вы можете открывать файлы DBF непосредственно в Microsoft Excel, выбрав файл в диалоговом окне «Открыть». Excel будет обрабатывать файл DBF как электронную таблицу, отображая её записи в табличном виде. Это полезно для быстрой проверки данных после их чтения или записи с помощью Aspose.Cells.
+{{% /alert %}}
 
 ## **Запись файла DBF**
 Запись данных в файл DBF выполняется по тому же шаблону, что и сохранение в любом другом формате электронных таблиц с помощью Aspose.Cells. Вы создаёте или загружаете Workbook, заполняете рабочий лист данными, а затем вызываете метод `save`, указывая `SaveFormat.DBF` в качестве целевого формата.
@@ -90,6 +92,8 @@ print("DBF file loaded successfully. Converted XLSX saved at: " + output_path)
 Следующий пример демонстрирует, как создать новый файл DBF с нуля. Он заполняет рабочий лист образцами данных, содержащими различные типы данных (строки, числа и даты), чтобы показать, как обрабатываются типы полей при экспорте в формат DBF.
 
 ```python
+import os
+import aspose.cells as ac
 from datetime import datetime
 outputDir = r"C:\Output\\"
 filePath = os.path.join(outputDir, "output.dbf")
@@ -99,52 +103,53 @@ workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
 # Заголовки столбцов
-cells[0, 0].put_value("ID")
-cells[0, 1].put_value("Name")
-cells[0, 2].put_value("Department")
-cells[0, 3].put_value("Salary")
-cells[0, 4].put_value("HireDate")
+cells.get(0, 0).put_value("ID")
+cells.get(0, 1).put_value("Name")
+cells.get(0, 2).put_value("Department")
+cells.get(0, 3).put_value("Salary")
+cells.get(0, 4).put_value("HireDate")
 # Строка данных 1
-cells[1, 0].put_value(101)
-cells[1, 1].put_value("John Smith")
-cells[1, 2].put_value("Engineering")
-cells[1, 3].put_value(75000.50)
-cells[1, 4].put_value(datetime(2020, 3, 15))
+cells.get(1, 0).put_value(101)
+cells.get(1, 1).put_value("John Smith")
+cells.get(1, 2).put_value("Engineering")
+cells.get(1, 3).put_value(75000.50)
+cells.get(1, 4).put_value(datetime(2020, 3, 15))
 # Строка данных 2
-cells[2, 0].put_value(102)
-cells[2, 1].put_value("Jane Doe")
-cells[2, 2].put_value("Marketing")
-cells[2, 3].put_value(68000.75)
-cells[2, 4].put_value(datetime(2019, 7, 22))
+cells.get(2, 0).put_value(102)
+cells.get(2, 1).put_value("Jane Doe")
+cells.get(2, 2).put_value("Marketing")
+cells.get(2, 3).put_value(68000.75)
+cells.get(2, 4).put_value(datetime(2019, 7, 22))
 # Строка данных 3
-cells[3, 0].put_value(103)
-cells[3, 1].put_value("Bob Johnson")
-cells[3, 2].put_value("Finance")
-cells[3, 3].put_value(82000.00)
-cells[3, 4].put_value(datetime(2021, 1, 10))
+cells.get(3, 0).put_value(103)
+cells.get(3, 1).put_value("Bob Johnson")
+cells.get(3, 2).put_value("Finance")
+cells.get(3, 3).put_value(82000.00)
+cells.get(3, 4).put_value(datetime(2021, 1, 10))
 # Строка данных 4
-cells[4, 0].put_value(104)
-cells[4, 1].put_value("Alice Brown")
-cells[4, 2].put_value("Human Resources")
-cells[4, 3].put_value(71000.25)
-cells[4, 4].put_value(datetime(2018, 11, 5))
+cells.get(4, 0).put_value(104)
+cells.get(4, 1).put_value("Alice Brown")
+cells.get(4, 2).put_value("Human Resources")
+cells.get(4, 3).put_value(71000.25)
+cells.get(4, 4).put_value(datetime(2018, 11, 5))
 # Строка данных 5
-cells[5, 0].put_value(105)
-cells[5, 1].put_value("Charlie Wilson")
-cells[5, 2].put_value("Operations")
-cells[5, 3].put_value(79500.80)
-cells[5, 4].put_value(datetime(2022, 5, 30))
+cells.get(5, 0).put_value(105)
+cells.get(5, 1).put_value("Charlie Wilson")
+cells.get(5, 2).put_value("Operations")
+cells.get(5, 3).put_value(79500.80)
+cells.get(5, 4).put_value(datetime(2022, 5, 30))
 # Установка ширины столбцов для лучшей читаемости
-worksheet.cells.set_column_width(0, 8)
-worksheet.cells.set_column_width(1, 20)
-worksheet.cells.set_column_width(2, 20)
-worksheet.cells.set_column_width(3, 12)
-worksheet.cells.set_column_width(4, 14)
-workbook.save(filePath, ac.SaveFormat.Dbf)
+worksheet.cells.set_column_width(0, 8.0)
+worksheet.cells.set_column_width(1, 20.0)
+worksheet.cells.set_column_width(2, 20.0)
+worksheet.cells.set_column_width(3, 12.0)
+worksheet.cells.set_column_width(4, 14.0)
+workbook.save(filePath, ac.SaveFormat.DBF)
 ```
 
 {{% alert color="primary" %}}
 При записи данных в файл DBF убедитесь, что ваши данные соответствуют ограничениям формата. Имена полей не должны превышать 10 символов и не должны содержать пробелов. Записи, превышающие 4000 байт в общем объёме, не будут сохранены корректно. Даты должны быть допустимыми значениями дат, которые могут быть представлены в формате YYYYMMDD.
+{{% /alert %}}
 
 ## **Рекомендации по типам данных и форматированию**
 При передаче данных между Aspose.Cells и форматом DBF важно понимать, как типы данных сопоставляются между двумя системами, для обеспечения целостности данных.
@@ -172,10 +177,5 @@ workbook.save(filePath, ac.SaveFormat.Dbf)
 ## **Преобразование между DBF и другими форматами**
 Одним из наиболее практичных вариантов использования чтения и записи файлов DBF с помощью Aspose.Cells является преобразование данных между форматом DBF и современными форматами электронных таблиц, такими как XLSX, XLS или CSV. Поскольку Aspose.Cells поддерживает широкий спектр форматов, вы можете легко загрузить файл DBF и повторно сохранить его в любом другом поддерживаемом формате или наоборот.
 Например, вы можете прочитать файл DBF, применить форматирование или вычисления с помощью API Aspose.Cells, а затем сохранить результат в виде файла XLSX для распространения среди пользователей, которые работают с современными приложениями для работы с электронными таблицами. И наоборот, вы можете взять данные из файла XLSX или CSV и экспортировать их в формат DBF для интеграции с устаревшими системами.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -39,6 +39,9 @@ Las ocho filas se rellenan en cada ejemplo de código, en el mismo orden, de mod
 En el primer escenario configuramos los dos campos de página (`Year`, `Region`) para que aparezcan **uno al lado del otro en una sola fila** en la parte superior de la tabla dinámica. Asignamos `Fruit` al eje de filas, colocamos `Year` primero y `Region` después en el eje de página (el orden de las llamadas a `addFieldToArea` determina el índice inicial), añadimos `Amount` (Sum) como campo de datos y luego establecemos `pageFieldOrder` en `PrintOrderType.OverThenDown` con `pageFieldWrapCount = 2`. Con `OverThenDown` y un número de ajuste de 2, los dos campos de página se colocan horizontalmente uno al lado del otro en una sola fila en la parte superior de la tabla dinámica, de modo que la franja ocupa una fila de ancho dos.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
+const path = require("path");
 let dataDir = "output";
 if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
@@ -119,7 +122,7 @@ workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 En este ejemplo colocamos `Fruit` en el eje de filas, `Year` y `Region` en el eje de página (con `Year` primero) y `Amount` (Sum) como campo de datos — exactamente igual que en el Ejemplo 1. Luego establecemos `pageFieldOrder` en `PrintOrderType.DownThenOver` y `pageFieldWrapCount` en `2`. Con `DownThenOver` y un número de ajuste de 2, los dos campos de página se apilan verticalmente — `Year` arriba, `Region` directamente debajo — formando una sola columna en la parte superior de la tabla dinámica. Por lo tanto, la franja ocupa dos filas de ancho uno, en contraste con el Ejemplo 1.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
@@ -146,10 +149,10 @@ for (let r = 0; r < data.length; r++) {
 }
 const idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
 const pivotTable = pivotReport.getPivotTables().get(idx);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 3);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DownThenOver);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.calculateData();
@@ -160,7 +163,7 @@ workbook.save("pageFieldLayout_downThenOver.xlsx");
 En el tercer escenario conservamos este conjunto de datos y la asignación de campos, establecemos un diseño neutro (`OverThenDown` con número de ajuste `2`) y luego demostramos la operación `pageFields.move`. La llamada a `move(0, 1)` mueve el campo de página en el índice 0 (`Year`) a la posición 1, y el campo de página que estaba en la posición 1 (`Region`) pasa a la posición 0. Tras esta llamada, `Region` es el primer campo de página y `Year` es el segundo. El número de ajuste y el modo de orden no cambian, de modo que la franja sigue representándose horizontalmente uno al lado del otro — solo se ha intercambiado el orden de los dos desplegables.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const dataSheet = workbook.getWorksheets().get(0);
 dataSheet.setName("PivotData");

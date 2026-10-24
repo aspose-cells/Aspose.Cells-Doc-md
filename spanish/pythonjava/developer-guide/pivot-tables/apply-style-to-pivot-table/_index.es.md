@@ -32,7 +32,6 @@ El siguiente ejemplo carga un libro nuevo, rellena los datos de muestra Fruta/A�
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFieldType, PivotTableAutoFormatType
 # Escenario 1: Aplicar un formato automático preestablecido XLS heredado
 # API en uso: PivotTable.AutoFormatType
@@ -78,13 +77,13 @@ sheet.getCells().get(9, 2).putValue(45)
 pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
 pivotTable = sheet.getPivotTables().get(pivotIndex)
 # Asignar campos: Fruta -> Filas, Cantidad -> Datos
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 # Aplicar el formato automático preestablecido XLS heredado "Report5"
 # Nota: Esta propiedad solo es significativa al guardar como .xls.
 # Cuando se guarda como .xlsx/.xlsm/.xlsb, Excel ignora AutoFormatType
 # y usa lo que sea que especifique PivotTableStyleType / PivotTableStyleName.
-pivotTable.setAutoFormatType(PivotTableAutoFormatType.Report5)
+pivotTable.setAutoFormatType(PivotTableAutoFormatType.REPORT_5)
 # Guardar el libro de trabajo en formato .xls heredado
 workbook.save("output.xls")
 jpype.shutdownJVM()
@@ -92,6 +91,74 @@ jpype.shutdownJVM()
 
 ## **Aplicar un estilo de tabla dinámica preestablecido con nombre moderno**
 
+`pivotTable.setPivotTableStyleType(int)` selecciona uno de los estilos integrados con nombre que Excel 2007 introdujo para las tablas dinámicas. La enumeración `PivotTableStyleType` expone tres familias de temas: la familia clara desde `PIVOT_TABLE_STYLE_LIGHT1` hasta `PIVOT_TABLE_STYLE_LIGHT28`, la familia media desde `PIVOT_TABLE_STYLE_MEDIUM1` hasta `PIVOT_TABLE_STYLE_MEDIUM28` y la familia oscura desde `PIVOT_TABLE_STYLE_DARK1` hasta `PIVOT_TABLE_STYLE_DARK_28`. También define `None` y `Custom`. Los miembros con números más altos de cada familia son los estilos agregados en Excel 2017.
+Estos preajustes son de solo lectura. En cuanto necesite cambiar los colores, los bordes o las fuentes más allá de lo que ofrece un preajuste, tendrá que definir un estilo personalizado de tabla dinámica, como se muestra en [Escenario 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**¿Por qué los preajustes modernos y no los autoformatos de la serie de informes?** Los valores `Report1` a `Report10` y `Table1` a `Table10` de `PivotTableAutoFormatType` son anteriores a los campos de columna de las tablas dinámicas, por lo que no incluyen estilos para los encabezados de los campos de columna y Excel representa esos encabezados sin estilo. Los preajustes de `PivotTableStyleType` se diseñaron para la disposición bidimensional que utiliza Excel moderno y dan estilo tanto a los encabezados de los campos de fila como a los de los campos de columna.
+{{% /alert %}}
+
+Este escenario reutiliza el conjunto de datos Fruit/Year/Amount del Escenario 1, agrega `Year` al área de columnas junto con el campo de fila `Fruit` mediante `PivotFieldType.COLUMN`, aplica el preajuste del tema oscuro `PIVOT_TABLE_STYLE_DARK1` con `pivotTable.setPivotTableStyleType` y guarda el resultado como `.xlsx`, el formato para el que `PivotTableStyleType` es relevante.
+
+```python
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTableStyleType, PivotFieldType
+# Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+# Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+# GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+# Header row: Fruit / Year / Amount
+worksheet.getCells().get("A1").putValue("Fruit")
+worksheet.getCells().get("B1").putValue("Year")
+worksheet.getCells().get("C1").putValue("Amount")
+# 9 data rows of Fruit / Year / Amount
+worksheet.getCells().get("A2").putValue("Grape")
+worksheet.getCells().get("B2").putValue(2020)
+worksheet.getCells().get("C2").putValue(100)
+worksheet.getCells().get("A3").putValue("Blueberry")
+worksheet.getCells().get("B3").putValue(2020)
+worksheet.getCells().get("C3").putValue(150)
+worksheet.getCells().get("A4").putValue("Kiwi")
+worksheet.getCells().get("B4").putValue(2020)
+worksheet.getCells().get("C4").putValue(200)
+worksheet.getCells().get("A5").putValue("Cherry")
+worksheet.getCells().get("B5").putValue(2020)
+worksheet.getCells().get("C5").putValue(180)
+worksheet.getCells().get("A6").putValue("Grape")
+worksheet.getCells().get("B6").putValue(2021)
+worksheet.getCells().get("C6").putValue(120)
+worksheet.getCells().get("A7").putValue("Blueberry")
+worksheet.getCells().get("B7").putValue(2021)
+worksheet.getCells().get("C7").putValue(170)
+worksheet.getCells().get("A8").putValue("Kiwi")
+worksheet.getCells().get("B8").putValue(2021)
+worksheet.getCells().get("C8").putValue(210)
+worksheet.getCells().get("A9").putValue("Cherry")
+worksheet.getCells().get("B9").putValue(2021)
+worksheet.getCells().get("C9").putValue(190)
+worksheet.getCells().get("A10").putValue("Grape")
+worksheet.getCells().get("B10").putValue(2021)
+worksheet.getCells().get("C10").putValue(130)
+# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
+pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
+# Apply a modern Excel 2007+ named preset pivot style.
+# PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+# is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+# family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+# newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1)
+# Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx")
+jpype.shutdownJVM()
+```
 ## **Definir y aplicar un estilo personalizado de tabla dinámica**
 Los preajustes integrados no se pueden modificar. Siempre que necesite anular colores, bordes o fuentes, debe definir un estilo personalizado para tabla dinámica. El flujo de trabajo consta de tres pasos:
 1. Agregue un estilo personalizado a la colección `TableStyles` del libro mediante `workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)`. Esto devuelve el índice del estilo recién creado.
@@ -100,19 +167,18 @@ Los preajustes integrados no se pueden modificar. Siempre que necesite anular co
 
 {{% alert color="primary" %}}
 `setPivotTableStyleName` y `setPivotTableStyleType` no son intercambiables. Utilice `setPivotTableStyleType` para preajustes integrados y `setPivotTableStyleName` para estilos personalizados que haya definido mediante `addPivotTableStyle`. Establecer ambos es inofensivo, pero solo se representa el que coincide con el origen previsto.
-{{% /alert %}}
-
 Los valores disponibles de `TableStyleElementType` incluyen `WHOLE_TABLE`, `FIRST_ROW`, `LAST_ROW`, `FIRST_COLUMN`, `LAST_COLUMN`, `GRAND_TOTAL_ROW`, `GRAND_TOTAL_COLUMN`, `PAGE_FIELD_LABELS` y `PAGE_FIELD_VALUES`.
 El siguiente ejemplo define un estilo personalizado para tabla dinámica con un borde negro fino en `WHOLE_TABLE` y una fuente roja en negrita en `GRAND_TOTAL_ROW`, lo aplica mediante `setPivotTableStyleName` y guarda como `.xlsx`.
+{{% /alert %}}
 
 ```python
 import jpype
+import jpype.imports
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat
 from asposecells.api import PivotFieldType, TableStyleElementType, BorderType, CellBorderType
-from java.awt import Color
+from asposecells.api import Color
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 # Poblar datos fuente: fila de encabezado + 9 filas de datos (A1:C10)
@@ -159,21 +225,21 @@ tableStyle = workbook.getWorksheets().getTableStyles().get(styleIndex)
 wholeTableElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.WHOLE_TABLE)
 wholeTableElement = tableStyle.getTableStyleElements().get(wholeTableElementIndex)
 wholeTableStyle = workbook.createStyle()
-wholeTableStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-wholeTableStyle.getBorders().get(BorderType.TOP_BORDER).setColor(Color.BLACK)
-wholeTableStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-wholeTableStyle.getBorders().get(BorderType.BOTTOM_BORDER).setColor(Color.BLACK)
-wholeTableStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-wholeTableStyle.getBorders().get(BorderType.LEFT_BORDER).setColor(Color.BLACK)
-wholeTableStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
-wholeTableStyle.getBorders().get(BorderType.RIGHT_BORDER).setColor(Color.BLACK)
+wholeTableStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+wholeTableStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setColor(Color.getBlack())
+wholeTableStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+wholeTableStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setColor(Color.getBlack())
+wholeTableStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+wholeTableStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setColor(Color.getBlack())
+wholeTableStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+wholeTableStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setColor(Color.getBlack())
 wholeTableElement.setElementStyle(wholeTableStyle)
 # Paso 3: agregar un elemento GrandTotalRow y aplicar fuente roja en negrita
 grandTotalElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.GRAND_TOTAL_ROW)
 grandTotalElement = tableStyle.getTableStyleElements().get(grandTotalElementIndex)
 grandTotalStyle = workbook.createStyle()
 grandTotalStyle.getFont().setBold(True)
-grandTotalStyle.getFont().setColor(Color.RED)
+grandTotalStyle.getFont().setColor(Color.getRed())
 grandTotalElement.setElementStyle(grandTotalStyle)
 # Paso 4: aplicar el estilo personalizado por nombre (NO por PivotTableStyleType, que es para presets integrados)
 pivotTable.setPivotTableStyleName("CustomPivotStyle")
@@ -181,26 +247,24 @@ workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
 
-## **Aplicar un único estilo a cada celda de la tabla dinámica con FormatAll**
+## **Aplicar un único estilo a cada celda de la tabla dinámica con formatAll**
 `pivotTable.formatAll(Style)` es un atajo que aplica un único objeto `Style` a cada celda de la tabla dinámica, incluyendo el área de datos, los encabezados de fila y columna y los totales. Todo lo establecido previamente mediante `setPivotTableStyleType` o `setPivotTableStyleName` queda anulado.
 
 {{% alert color="primary" %}}
 `formatAll` anula tanto `setPivotTableStyleType` como `setPivotTableStyleName`. Utilícelo solo cuando se requiera una apariencia uniforme e independiente del tema en toda la tabla dinámica.
-{{% /alert %}}
-
 El siguiente ejemplo crea un `Style` con un relleno sólido amarillo, una fuente azul oscuro en negrita y bordes negros finos en todos los lados, lo aplica con `formatAll` y guarda como `.xlsx`.
+{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, Style
 from asposecells.api import Color
 from asposecells.api import PivotTable, PivotFieldType
 from asposecells.api import BorderType, CellBorderType, BackgroundType
-# Escenario 4: Aplicar un único Estilo a cada celda de tabla dinámica usando FormatAll
-# API en uso: PivotTable.FormatAll(Style)
+# Escenario 4: Aplicar un único Estilo a cada celda de tabla dinámica usando formatAll
+# API en uso: PivotTable.formatAll(Style)
 # Formato de destino: .xlsx
 # Referencia de GitHub: ver el repositorio Aspose.Cells-for-.NET — ejemplos de estilo de tablas dinámicas
 workbook = Workbook()
@@ -245,19 +309,19 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 # Construir un Estilo que se forzará en cada celda de la tabla dinámica
 style = workbook.createStyle()
-style.setForegroundColor(Color.YELLOW)
+style.setForegroundColor(Color.fromArgb(70, 130, 180))
 style.setPattern(BackgroundType.SOLID)
-style.getFont().setIsBold(True)
-style.getFont().setColor(Color.DARK_BLUE)
-style.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-style.getBorders().get(BorderType.TOP_BORDER).setColor(Color.BLACK)
-style.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-style.getBorders().get(BorderType.BOTTOM_BORDER).setColor(Color.BLACK)
-style.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-style.getBorders().get(BorderType.LEFT_BORDER).setColor(Color.BLACK)
-style.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
-style.getBorders().get(BorderType.RIGHT_BORDER).setColor(Color.BLACK)
-# Aplicar FormatAll: fuerza este único estilo en cada celda de la tabla dinámica,
+style.getFont().setBold(True)
+style.getFont().setColor(Color.getDarkBlue())
+style.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+style.getBorders().getByBorderType(BorderType.TOP_BORDER).setColor(Color.getBlack())
+style.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+style.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setColor(Color.getBlack())
+style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setColor(Color.getBlack())
+style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setColor(Color.getBlack())
+# Aplicar formatAll: fuerza este único estilo en cada celda de la tabla dinámica,
 # sobrescribiendo cualquier PivotTableStyleType / PivotTableStyleName establecido previamente
 pivotTable.formatAll(style)
 # Guardar el libro en el formato moderno .xlsx
@@ -274,5 +338,6 @@ La elección de la API de estilo depende del formato de archivo en el que esté 
 | `.xlsx` / `.xlsm` / `.xlsb` (moderno, estilo personalizado) | `pivotTable.setPivotTableStyleName(String)` + `tableStyles.addPivotTableStyle(String)` | Utilícelo cuando los preajustes integrados no sean suficientes. Configure mediante `tableStyleElement.setElementStyle(Style)`. |
 | Cualquier formato (anulación uniforme) | `pivotTable.formatAll(Style)` | Atajo que anula cualquier otra configuración de estilo en toda la tabla dinámica. |
 En caso de duda, guarde como `.xlsx` y utilice `setPivotTableStyleType` para temas integrados, o `setPivotTableStyleName` para temas personalizados.
+
 
 {{< app/cells/assistant language="python" >}}

@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Bir temel alanı veri (değer) bölgesine eklemek, pivot tablonun kaynak verilerinizi nasıl topladığını şekillendirmede ilk adımdır. Aspose.Cells, `PivotFieldType.Data` sabitini ve kaynak sütun adını kabul eden `PivotTable.addFieldToArea(PivotFieldType, string)` aşırı yüklemesini sunar. Bir alan veri bölgesine eklendiğinde, API bunu `PivotTable.getDataFields()` koleksiyonu aracılığıyla, alanların eklendiği sırayla sunar. Varsayılan olarak, sayısal bir kaynak sütun `ConsolidationFunction.Sum` ile özetlenirken, sayısal olmayan bir sütun `Count` varsayılan değerini alır.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -55,12 +55,11 @@ Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği 
 
 {{% alert color="primary" %}}
 Özetleme işlevini değiştirmek yalnızca toplamı etkiler, kaynak sütun değişmez.
+Bu nedenle bir veri alanını `Sum` olarak bırakırken, aynı kaynak sütunu hedefleyen ancak `Count` veya `Average` kullanan ikinci bir veri alanını tek bir pivot içinde ekleyebilirsiniz.
 {{% /alert %}}
 
-Bu nedenle bir veri alanını `Sum` olarak bırakırken, aynı kaynak sütunu hedefleyen ancak `Count` veya `Average` kullanan ikinci bir veri alanını tek bir pivot içinde ekleyebilirsiniz.
-
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -100,12 +99,11 @@ Bir pivot tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `Piv
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()`, hiç değer alanı yoksa veya yalnızca bir değer alanı varsa çalışmaz.
+Aşağıdaki senaryolar, yukarıda açıklanan her yeteneği aynı pivot yapısına karşı gösteren üç uçtan uca örnek üzerinden ilerler.
 {{% /alert %}}
 
-Aşağıdaki senaryolar, yukarıda açıklanan her yeteneği aynı pivot yapısına karşı gösteren üç uçtan uca örnek üzerinden ilerler.
-
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

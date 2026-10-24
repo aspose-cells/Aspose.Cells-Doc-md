@@ -36,4 +36,11 @@ När du tilldelar ett cellområde som datakälla måste området gå från övre
 
 ## **Fortsatta ämnen**
 
+## Relaterade artiklar
+- [Lägga till filterfält i en pivottabell i Aspose.Cells för .NET](/cells/sv/python-net/add-page-field-in-pivot-table/)
+- [Tillämpa stilar på pivottabeller i Aspose.Cells for Python via .NET](/cells/sv/python-net/apply-style-to-pivot-table/)
+- [Modify Page Field Layout in Pivot Table](/cells/sv/python-net/change-page-field-layout/)
+- [Filtering Pivot Tables by Label or Value](/cells/sv/python-net/filter-by-label-or-value-of-pivot-table/)
+- [Hantera värdefält i en pivottabell i Aspose.Cells för .NET](/cells/sv/python-net/manage-value-fields/)
+
 {{< app/cells/assistant language="python-net" >}}

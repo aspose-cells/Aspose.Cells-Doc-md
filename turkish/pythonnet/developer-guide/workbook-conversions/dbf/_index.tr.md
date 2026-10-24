@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, DBF (dBASE) dosyalarını okuma ve yazma için tam destek sağlar. Mevcut dBASE III ve dBASE IV dosyalarını bir Workbook nesnesine yükleyebilir, Aspose.Cells'in zengin API'sini kullanarak verileri düzenleyebilir ve çalışma kitabını eski veritabanı uygulamalarıyla kullanılmak üzere tekrar DBF biçiminde kaydedebilirsiniz.
+{{% /alert %}}
 
 ## **Giriş**
 DBF (DataBase File), 1980'lerin başında dBASE tarafından tanıtılan eski bir veritabanı dosya biçimidir. Biçimin eskiliğine rağmen, DBF dosyaları yapılandırılmış verileri depolamak için özellikle muhasebe, CBS ve diğer özel uygulamalar olmak üzere birçok endüstride hala yaygın olarak kullanılmaktadır. Aspose.Cells, bu eski dosyaları modern Python via .NET elektronik tablo iş akışlarına sorunsuz bir şekilde entegre etmenize olanak tanır.
@@ -63,7 +64,7 @@ max_col = cells.max_data_column
 for i in range(max_row + 1):
     line_parts = []
     for j in range(max_col + 1):
-        cell = cells[i, j]
+        cell = cells.get(i, j)
         value = cell.string_value
         line_parts.append("|" + value)
     line_parts.append("|")
@@ -77,6 +78,7 @@ print("DBF file loaded successfully. Converted XLSX saved at: " + output_path)
 
 {{% alert color="primary" %}}
 DBF dosyalarını doğrudan Microsoft Excel'de, Dosya Aç iletişim kutusunda dosyayı seçerek açabilirsiniz. Excel, DBF dosyasını bir elektronik tablo olarak değerlendirerek kayıtlarını tablo düzeninde görüntüleyecektir. Bu, Aspose.Cells ile okuduktan veya yazdıktan sonra verileri hızlı bir şekilde doğrulamak için kullanışlıdır.
+{{% /alert %}}
 
 ## **DBF Dosyası Yazma**
 Bir DBF dosyasına veri yazmak, Aspose.Cells ile başka herhangi bir elektronik tablo biçimini kaydetmeye benzer bir kalıba uyar. Bir Workbook oluşturur veya yüklersiniz, çalışma sayfasını verilerle doldurursunuz ve ardından hedef biçim olarak `SaveFormat.DBF` belirterek `save` yöntemini çağırırsınız.
@@ -90,6 +92,8 @@ Bir DBF dosyası oluşturmak için şu adımları izleyin:
 Aşağıdaki örnek, sıfırdan yeni bir DBF dosyasının nasıl oluşturulacağını göstermektedir. DBF biçimine dışa aktarırken alan türlerinin nasıl işlendiğini göstermek için farklı veri türleri (dizeler, sayılar ve tarihler) içeren örnek verilerle bir çalışma sayfası doldurur.
 
 ```python
+import os
+import aspose.cells as ac
 from datetime import datetime
 outputDir = r"C:\Output\\"
 filePath = os.path.join(outputDir, "output.dbf")
@@ -99,52 +103,53 @@ workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
 # Sütun başlıkları
-cells[0, 0].put_value("ID")
-cells[0, 1].put_value("Name")
-cells[0, 2].put_value("Department")
-cells[0, 3].put_value("Salary")
-cells[0, 4].put_value("HireDate")
+cells.get(0, 0).put_value("ID")
+cells.get(0, 1).put_value("Name")
+cells.get(0, 2).put_value("Department")
+cells.get(0, 3).put_value("Salary")
+cells.get(0, 4).put_value("HireDate")
 # Veri satırı 1
-cells[1, 0].put_value(101)
-cells[1, 1].put_value("John Smith")
-cells[1, 2].put_value("Engineering")
-cells[1, 3].put_value(75000.50)
-cells[1, 4].put_value(datetime(2020, 3, 15))
+cells.get(1, 0).put_value(101)
+cells.get(1, 1).put_value("John Smith")
+cells.get(1, 2).put_value("Engineering")
+cells.get(1, 3).put_value(75000.50)
+cells.get(1, 4).put_value(datetime(2020, 3, 15))
 # Veri satırı 2
-cells[2, 0].put_value(102)
-cells[2, 1].put_value("Jane Doe")
-cells[2, 2].put_value("Marketing")
-cells[2, 3].put_value(68000.75)
-cells[2, 4].put_value(datetime(2019, 7, 22))
+cells.get(2, 0).put_value(102)
+cells.get(2, 1).put_value("Jane Doe")
+cells.get(2, 2).put_value("Marketing")
+cells.get(2, 3).put_value(68000.75)
+cells.get(2, 4).put_value(datetime(2019, 7, 22))
 # Veri satırı 3
-cells[3, 0].put_value(103)
-cells[3, 1].put_value("Bob Johnson")
-cells[3, 2].put_value("Finance")
-cells[3, 3].put_value(82000.00)
-cells[3, 4].put_value(datetime(2021, 1, 10))
+cells.get(3, 0).put_value(103)
+cells.get(3, 1).put_value("Bob Johnson")
+cells.get(3, 2).put_value("Finance")
+cells.get(3, 3).put_value(82000.00)
+cells.get(3, 4).put_value(datetime(2021, 1, 10))
 # Veri satırı 4
-cells[4, 0].put_value(104)
-cells[4, 1].put_value("Alice Brown")
-cells[4, 2].put_value("Human Resources")
-cells[4, 3].put_value(71000.25)
-cells[4, 4].put_value(datetime(2018, 11, 5))
+cells.get(4, 0).put_value(104)
+cells.get(4, 1).put_value("Alice Brown")
+cells.get(4, 2).put_value("Human Resources")
+cells.get(4, 3).put_value(71000.25)
+cells.get(4, 4).put_value(datetime(2018, 11, 5))
 # Veri satırı 5
-cells[5, 0].put_value(105)
-cells[5, 1].put_value("Charlie Wilson")
-cells[5, 2].put_value("Operations")
-cells[5, 3].put_value(79500.80)
-cells[5, 4].put_value(datetime(2022, 5, 30))
+cells.get(5, 0).put_value(105)
+cells.get(5, 1).put_value("Charlie Wilson")
+cells.get(5, 2).put_value("Operations")
+cells.get(5, 3).put_value(79500.80)
+cells.get(5, 4).put_value(datetime(2022, 5, 30))
 # Daha iyi okunabilirlik için sütun genişliklerini ayarla
-worksheet.cells.set_column_width(0, 8)
-worksheet.cells.set_column_width(1, 20)
-worksheet.cells.set_column_width(2, 20)
-worksheet.cells.set_column_width(3, 12)
-worksheet.cells.set_column_width(4, 14)
-workbook.save(filePath, ac.SaveFormat.Dbf)
+worksheet.cells.set_column_width(0, 8.0)
+worksheet.cells.set_column_width(1, 20.0)
+worksheet.cells.set_column_width(2, 20.0)
+worksheet.cells.set_column_width(3, 12.0)
+worksheet.cells.set_column_width(4, 14.0)
+workbook.save(filePath, ac.SaveFormat.DBF)
 ```
 
 {{% alert color="primary" %}}
 Bir DBF dosyasına veri yazarken, verilerinizin biçimin sınırlamalarına uygun olduğundan emin olun. Alan adları 10 karakterden uzun olmamalı ve boşluk içermemelidir. Toplamda 4000 baytı aşan kayıtlar doğru şekilde kaydedilmeyecektir. Tarihler, YYYYMMDD biçiminde temsil edilebilen geçerli tarih değerleri olmalıdır.
+{{% /alert %}}
 
 ## **Veri Türü ve Biçimlendirme Dikkat Edilecek Hususlar**
 Aspose.Cells ile DBF biçimi arasında veri aktarırken, veri türlerinin iki sistem arasında nasıl eşlendiğini anlamak, veri bütünlüğünü sağlamak için önemlidir.
@@ -172,10 +177,5 @@ Bir DBF dosyasını yazdıktan sonra, sonucu Microsoft Excel'de veya herhangi bi
 ## **DBF ve Diğer Biçimler Arasında Dönüştürme**
 Aspose.Cells ile DBF dosyalarını okumanın ve yazmanın en pratik kullanım durumlarından biri, verileri DBF biçimi ile XLSX, XLS veya CSV gibi modern elektronik tablo biçimleri arasında dönüştürmektir. Aspose.Cells çok çeşitli biçimleri desteklediğinden, bir DBF dosyasını kolayca yükleyebilir ve desteklenen başka herhangi bir biçimde yeniden kaydedebilir veya bunun tersini yapabilirsiniz.
 Örneğin, bir DBF dosyasını okuyabilir, Aspose.Cells API'sini kullanarak biçimlendirme veya hesaplamalar uygulayabilir ve ardından modern elektronik tablo uygulamalarıyla çalışan kullanıcılara dağıtmak için sonucu bir XLSX dosyası olarak kaydedebilirsiniz. Tersine, bir XLSX veya CSV dosyasındaki verileri alabilir ve eski sistemlerle entegrasyon için DBF biçiminde dışa aktarabilirsiniz.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

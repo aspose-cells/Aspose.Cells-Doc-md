@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 يدعم Aspose.Cells تحويل مصنفات Excel مباشرة إلى تنسيق OFD (مستند التخطيط الثابت المفتوح) باستخدام قيمة التعداد `SaveFormat.Ofd`. يحافظ مستند OFD الناتج على التخطيط المرئي للمصنف ومحتواه والخلايا المدمجة وعروض الأعمدة وارتفاعات الصفوف والخطوط والألوان والحدود وتنسيقات الأرقام. هذا يجعل Aspose.Cells مناسبًا لأرشفة وسير عمل الطباعة والتقديمات التنظيمية والحكومية التي تتطلب إخراجًا بتخطيط ثابت.
+{{% /alert %}}
 
 ## **مقدمة**
 OFD (مستند التخطيط الثابت المفتوح) هو معيار وطني صيني (GB/T 33190-2016) لتمثيل المستندات الرقمية في تخطيط ثابت قائم على الصفحات. يؤدي دورًا مشابهًا لـ PDF في حالات الاستخدام التي يجب فيها الحفاظ على المظهر المرئي للمستند المصدر تمامًا كما تم تأليفه. يُعتمد OFD على نطاق واسع في التقديمات الحكومية والإيداعات التنظيمية والفواتير الإلكترونية والأرشفة طويلة الأمد في جمهورية الصين الشعبية.
@@ -19,6 +20,7 @@ OFD (مستند التخطيط الثابت المفتوح) هو معيار وط
 
 {{% alert color="primary" %}}
 يحافظ إخراج OFD الذي تم إنشاؤه بواسطة Aspose.Cells على التخطيط المرئي للمصنف المصدر، بما في ذلك محتوى الخلايا والخلايا المدمجة وعروض الأعمدة وارتفاعات الصفوف. يتم أيضًا عرض تنسيق الخلايا مثل الخطوط والألوان والحدود والمحاذاة وتنسيقات الأرقام في الإخراج بتخطيط ثابت. تؤثر خيارات إعداد الصفحة التي تم تكوينها على ورقة العمل، مثل حجم الورق والاتجاه ومنطقة الطباعة، على تخطيط مستند OFD الناتج.
+{{% /alert %}}
 
 ## **إنشاء مصنف Excel وحفظه بتنسيق OFD**
 يتيح لك Aspose.Cells إنشاء مصنف برمجيًا، وتعبئته بالبيانات، ثم حفظه مباشرة بتنسيق OFD باستخدام تعداد `SaveFormat.Ofd`. ينشئ المثال التالي فاتورة من الصفر. يضيف شعار الشركة ومعلومات الرأس وقسم الفواتير وعناصر البنود والإجماليات المحسوبة، ثم يصدر المصنف إلى مستند OFD.
@@ -93,7 +95,7 @@ int main()
     Style headerStyle = workbook.CreateStyle();
     headerStyle.GetFont().SetIsBold(true);
     headerStyle.GetFont().SetColor(Color::White());
-    headerStyle.SetForegroundColor(Color{0, 0, 128});
+    headerStyle.SetForegroundColor(Color{0xff, 0x00, 0x00, 0x80});
     headerStyle.SetPattern(BackgroundType::Solid);
     headerStyle.SetHorizontalAlignment(TextAlignmentType::Center);
     headerStyle.GetBorders().Get(BorderType::TopBorder).SetLineStyle(CellBorderType::Thin);
@@ -134,7 +136,7 @@ int main()
         descCell.PutValue(lineItems[i].desc);
         qtyCell.PutValue(lineItems[i].qty);
         priceCell.PutValue(lineItems[i].price);
-        std::string formula = "C" + std::to_string(row) + "*D" + std::to_string(row);
+        std::string formula = "C" + std::to_string(row + 1) + "*D" + std::to_string(row + 1);
         totalCell.SetFormula(U16String(formula.c_str()));
         descCell.SetStyle(borderStyle);
         qtyCell.SetStyle(borderStyle);
@@ -144,7 +146,7 @@ int main()
     // Subtotal, tax, grand total
     cells.Get(u"B24").PutValue(u"Subtotal:");
     Cell subtotalCell = cells.Get(u"E24");
-    subtotalCell.SetFormula(u"SUM(E20:E22)");
+    subtotalCell.SetFormula(u"SUM(E21:E23)");
     cells.Get(u"B25").PutValue(u"Tax (10%):");
     Cell taxCell = cells.Get(u"E25");
     taxCell.SetFormula(u"E24*0.1");
@@ -246,8 +248,5 @@ int main() {
 - [إدراج صورة في خلية](/cells/ar/cpp/inserting-an-image-into-a-cell/)
 - [قراءة وكتابة ملفات DBF](/cells/ar/cpp/dbf/)
 - [تحويل Sparkline إلى صورة وHTML في Aspose.Cells for C++](/cells/ar/cpp/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

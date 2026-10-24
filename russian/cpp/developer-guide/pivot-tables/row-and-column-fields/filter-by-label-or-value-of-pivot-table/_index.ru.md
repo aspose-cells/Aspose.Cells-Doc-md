@@ -32,6 +32,7 @@ Aspose.Cells предоставляет фильтрацию по метке ч�
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     U16String fileName(u"sample.xlsx");
@@ -60,10 +61,9 @@ int main() {
 
 {{% alert color="primary" %}}
 Фильтр по дате работает только тогда, когда область строк или столбцов содержит исключительно ячейки с датой и временем или пустые значения. Если базовое поле содержит другие типы данных, такие как числа или текст, фильтр по дате не даст ожидаемого результата. Перед применением этого фильтра убедитесь, что поле отформатировано как дата и что все значения являются допустимыми экземплярами `DateTime` или пустыми ячейками.
-{{% /alert %}}
-
 Aspose.Cells предоставляет фильтрацию по дате через метод `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)`. Перечисление `PivotFilterType` содержит специализированные значения для дат, такие как `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` и `Between`. В зависимости от выбранного типа фильтра вы передаёте одно или два значения `DateTime` (для `Between` передаются начальная и конечная даты).
 В следующем примере загружается рабочая книга со сводной таблицей, область строк которой содержит поле даты, применяется фильтр по дате, ограничивающий видимые элементы определённым диапазоном дат, обновляется сводная таблица, и сохраняется рабочая книга.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -111,6 +111,7 @@ Aspose.Cells предоставляет фильтрацию по значени
 #include "Aspose.Cells.h"
 #include <cfloat>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb(u"sample.xlsx");
@@ -144,10 +145,9 @@ int main() {
 
 {{% alert color="primary" %}}
 Топ-10 фильтр эффективен только тогда, когда сводная таблица имеет одно или несколько полей значений в области данных. Без хотя бы одного поля значений не существует агрегированной меры для ранжирования элементов, и фильтр не может быть применён.
-{{% /alert %}}
-
 Aspose.Cells предоставляет топ-10 фильтрацию через метод `PivotField.FilterTop10(int32_t itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Параметр `itemCount` определяет, сколько элементов нужно сохранить, `isTop` указывает, следует ли сохранить верхние элементы (true) или нижние элементы (false), `valueField` ссылается на поле данных, используемое для ранжирования, а `filterType` управляет способом вычисления значения (обычно `Sum`, а также `Count` и `Percent`).
 В следующем примере загружается рабочая книга со сводной таблицей, содержащей поле значений, применяется топ-10 фильтр для сохранения только 10 верхних элементов по сумме продаж, обновляется сводная таблица, и сохраняется рабочая книга.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -182,6 +182,7 @@ int main() {
 #include "Aspose.Cells.h"
 #include <string>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Загрузить существующую книгу, содержащую сводную таблицу

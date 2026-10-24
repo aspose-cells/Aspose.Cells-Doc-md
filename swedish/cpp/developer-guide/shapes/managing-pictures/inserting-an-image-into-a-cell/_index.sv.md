@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells erbjuder två olika sätt att koppla en bild till en enskild cell. En flytande bild är en form på kalkylbladets ritlager som visuellt överlagrar ett cellintervall, medan en inbäddad bild lagras inuti själva cellen och skalas automatiskt efter cellens visningsyta. Välj det tillvägagångssätt som bäst matchar dina layoutkrav.
+{{% /alert %}}
 
 ## **Introduktion**
 Att anpassa en bild exakt till en enskild cell är ett vanligt krav när man utformar kalkylblad som fungerar som visuella rapporter, produktkataloger, medarbetarkataloger, dashboards eller inventarielistor. Istället för att sträcka ut en bild över många celler eller placera den löst på ett kalkylblad kanske du vill ha en ren, cellbunden bild som håller sig justerad med den cell som äger den.
@@ -36,6 +37,7 @@ Bildens ankare definieras av fyra nollbaserade indexegenskaper:
 
 {{% alert color="primary" %}}
 Rad- och kolumnindex i Aspose.Cells är **nollbaserade**. Cell C6 har radindex 5 och kolumnindex 2. Off-by-one-fel på det nedre högra ankaret är den vanligaste källan till bilder som ser ut att överlappa in i en intilliggande cell.
+{{% /alert %}}
 
 ### **Styra placeringsbeteende**
 `Picture.Placement` är en uppräkning av typen `PlacementType` som styr hur bilden beter sig när användaren ändrar storlek på raden eller kolumnen under den. Det rekommenderade värdet för en encellsbild är `PlacementType.MoveAndSize`, vilket gör att bilden flyttas och storleksändras tillsammans med sin underliggande cell, vilket bevarar den exakta passformen.
@@ -139,9 +141,6 @@ Båda tillvägagångssätten producerar en bild som passar inuti en enskild cell
   - Du vill ha den enklaste möjliga infogningen av en bild i en cell.
   - Bilden ska följa med cellen som annat cellinnehåll.
   - Du inte behöver manipulera bilden som en form.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Relaterade artiklar
 - [Excel-kamera i Aspose.Cells for C++](/cells/sv/cpp/excel-camera/)

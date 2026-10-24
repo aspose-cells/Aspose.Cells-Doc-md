@@ -33,7 +33,6 @@ Följande exempel läser in en arbetsbok som innehåller en befintlig pivottabel
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
@@ -46,7 +45,7 @@ pivotTable = worksheet.getPivotTables().get(0)
 # Hämta det första radens PivotField
 rowField = pivotTable.getRowFields().get(0)
 # Tillämpa etikettfiltret — visa endast radobjekt vars etiketter börjar med det angivna prefixet
-rowField.filterByLabel(PivotFilterType.CaptionBeginsWith, prefix, "")
+rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Uppdatera och beräkna om pivottabellens data så att filtret träder i kraft
 pivotTable.getPivotCache().refresh()
 # Spara arbetsboken tillbaka till disk
@@ -59,16 +58,15 @@ Datumfilter låter dig begränsa en pivottabell efter datumbaserade kriterier s�
 
 {{% alert color="primary" %}}
 Datumfiltret fungerar endast när rad- eller kolumnområdet endast innehåller datum-/tidsceller eller tomma värden. Om det underliggande fältet innehåller andra datatyper såsom tal eller text kommer datumfiltret inte att ge det förväntade resultatet. Se till att fältet är formaterat som ett datum och att alla värden är giltiga `DateTime`-instanser eller tomma celler innan du tillämpar detta filter.
-{{% /alert %}}
-
 Aspose.Cells exponerar datumfiltrering genom metoden `PivotField.filter_by_date(PivotFilterType, values)`. Uppräkningen `PivotFilterType` innehåller dedikerade datumvärden såsom `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` och `Between`. Beroende på vald filtertyp skickar du ett eller två `DateTime`-värden (för `Between` skickar du start- och slutdatum).
 Följande exempel läser in en arbetsbok med en pivottabell vars radområde innehåller ett datumfält, tillämpar ett datumfilter som begränsar de synliga objekten till ett visst datumintervall, uppdaterar pivottabellen och sparar arbetsboken.
+{{% /alert %}}
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
@@ -88,7 +86,7 @@ Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
 # Tillämpa datumfiltret på pivotfältet
-dateField.filterByDate(PivotFilterType.DateBetween, startDate, endDate)
+dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
 # Uppdatera och beräkna om pivottabellen så att filtret träder i kraft
 pivotTable.getPivotCache().refresh()
 # Spara arbetsboken
@@ -105,7 +103,6 @@ Följande exempel läser in en arbetsbok med en pivottabell, tillämpar ett vär
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 workbook = Workbook("sample.xlsx")
 worksheet = workbook.getWorksheets().get(0)
@@ -130,16 +127,14 @@ Topp 10-filtret är en specialiserad form av värdefilter som endast behåller d
 
 {{% alert color="primary" %}}
 Topp 10-filtret är endast effektivt när pivottabellen har ett eller flera värde-pivotfält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mått att rangordna objekten mot, och filtret kan inte tillämpas.
-{{% /alert %}}
-
 Aspose.Cells exponerar topp 10-filtrering genom metoden `PivotField.filter_top10(item_count, is_top, value_field, filter_type)`. Parametern `item_count` definierar hur många objekt som ska behållas, `is_top` anger om de översta objekten (true) eller de nedersta objekten (false) ska behållas, `value_field` refererar till det datafält som används för rangordning, och `filter_type` styr hur värdet beräknas (vanligtvis `Sum`, men även `Count` och `Percent`).
 Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att endast behålla de 10 översta objekten efter summa av försäljning, uppdaterar pivottabellen och sparar arbetsboken.
+{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
 # Ladda den befintliga arbetsboken som innehåller pivottabellen
 inputPath = "input.xlsx"
@@ -159,10 +154,10 @@ rowField = pivotTable.getRowFields().get(0)
 valueFieldIndex = 0
 # Tillämpa Topp 10-filtret på radfältet:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (topp N; false skulle betyda botten N)
 #   - valueFieldIndex = indexet för datafältet som används för att rangordna objekten
-rowField.filterTop10(10, PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, True, 10)
 # Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
 pivotTable.getPivotCache().refresh()
 # Spara arbetsboken
@@ -178,7 +173,6 @@ Detta tillvägagångssätt är användbart när filterregeln är oregelbunden el
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
 # Ladda en befintlig arbetsbok som innehåller en pivottabell
 workbook = Workbook("pivot_table_sample.xlsx")
@@ -194,10 +188,10 @@ for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
     # Dölj pivotobjekt som matchar ett specifikt namn/kriterium
     if item.getName() == "Item1" or item.getName() == "Item2":
-        item.setIsHidden(True)
+        item.setHidden(True)
     # Demonstrera att visa: visa ett tidigare dolt pivotobjekt igen
     if item.getName() == "Item3":
-        item.setIsHidden(False)
+        item.setHidden(False)
 # Uppdatera och beräkna om pivottabellen så att ändringarna träder i kraft
 pivotTable.getPivotCache().refresh()
 # Spara arbetsboken — dolda objekt finns kvar i underliggande data

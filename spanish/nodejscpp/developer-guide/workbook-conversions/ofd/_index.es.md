@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells admite la conversión de libros de trabajo de Excel directamente al formato OFD (Open Fixed-layout Document) utilizando el valor de enumeración `SaveFormat.Ofd`. El documento OFD resultante conserva el diseño visible, el contenido, las celdas combinadas, los anchos de columna, las alturas de fila, las fuentes, los colores, los bordes y los formatos de número del libro de trabajo. Esto hace que Aspose.Cells sea adecuado para flujos de trabajo de archivado, impresión, presentación regulatoria y trámites gubernamentales que requieren una salida de diseño fijo.
+{{% /alert %}}
 
 ## **Introducción**
 OFD (Open Fixed-layout Document) es un estándar nacional chino (GB/T 33190-2016) para representar documentos digitales en un diseño fijo basado en páginas. Cumple un papel similar al de PDF en casos de uso donde la apariencia visual del documento de origen debe conservarse exactamente como fue creado. OFD es ampliamente adoptado para presentaciones gubernamentales, presentaciones regulatorias, facturas electrónicas y archivado a largo plazo en la República Popular China.
@@ -19,6 +20,7 @@ Convertir libros de trabajo de Excel a OFD es un requisito común en escenarios 
 
 {{% alert color="primary" %}}
 La salida OFD generada por Aspose.Cells conserva el diseño visible del libro de trabajo de origen, incluyendo el contenido de las celdas, las celdas combinadas, los anchos de columna y las alturas de fila. El formato de celda como fuentes, colores, bordes, alineación y formatos de número también se representa en la salida de diseño fijo. Las opciones de configuración de página configuradas en la hoja de cálculo, como el tamaño del papel, la orientación y el área de impresión, influyen en el diseño del documento OFD resultante.
+{{% /alert %}}
 
 ## **Crear un libro de trabajo de Excel y guardar como OFD**
 Aspose.Cells le permite crear un libro de trabajo mediante programación, rellenarlo con datos y luego guardarlo directamente en formato OFD utilizando la enumeración `SaveFormat.Ofd`. El siguiente ejemplo crea una factura desde cero. Añade un logotipo de la empresa, información de encabezado, una sección de facturación, líneas de detalle y totales calculados, y luego exporta el libro de trabajo a un documento OFD.
@@ -27,6 +29,7 @@ Aspose.Cells le permite crear un libro de trabajo mediante programación, rellen
 El ejemplo construye una hoja de cálculo de factura insertando una imagen de logotipo en el área superior izquierda, rellenando el nombre de la empresa y los datos de contacto, añadiendo un título "INVOICE" a través de celdas combinadas, registrando el número y la fecha de la factura, listando el cliente facturado, construyendo una tabla de líneas de detalle con columnas de descripción, cantidad, precio unitario y total, y calculando el subtotal, el impuesto y el total general utilizando fórmulas de celda. El formato, como encabezados en negrita, formato de moneda para precios, bordes y anchos de columna, se aplica utilizando los objetos `Style` y `Font`. Finalmente, el libro de trabajo se guarda con la extensión `.ofd` utilizando `SaveFormat.Ofd`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let dataDir = "C:\\Temp\\";
 // Crear un nuevo Workbook
 let workbook = new AsposeCells.Workbook();
@@ -154,6 +157,7 @@ workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.Ofd);
 Aspose.Cells también puede cargar un libro de trabajo de Excel existente desde el disco y exportarlo directamente a formato OFD. Esto resulta útil para pipelines de conversión por lotes, flujos de trabajo de archivado y escenarios donde el libro de trabajo de origen fue producido por otra herramienta y solo necesita ser reemitido como un artefacto de diseño fijo. El siguiente ejemplo carga un libro de trabajo `.xlsx` existente, lee datos de sus celdas, aplica ajustes opcionales de configuración de página y guarda el resultado como un documento OFD.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook(dataDir + "SampleBook.xlsx");
 // (1) Leer y mostrar valores de las celdas seleccionadas para confirmar que el archivo fue cargado
 let firstSheet = workbook.getWorksheets().get(0);
@@ -197,8 +201,5 @@ console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleB
 - [Insertar una imagen en una celda](/cells/es/nodejs-cpp/inserting-an-image-into-a-cell/)
 - [Leer y escribir archivos DBF](/cells/es/nodejs-cpp/dbf/)
 - [Convertir minigráfico a imagen y HTML en Aspose.Cells for Node.js mediante C++](/cells/es/nodejs-cpp/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells поддерживает рендеринг данных массива в одну ячейку с помощью смарт-маркеров. Используя атрибут `ArrayAsSingle` вместе с атрибутом `ExtraDelimiter`, разработчики могут управлять разделением элементов массива внутри одной ячейки, обеспечивая гибкое форматирование для отчётов и шаблонов.
+{{% /alert %}}
 
 ## **Введение**
 Смарт-маркеры в Aspose.Cells — это мощная функция на основе шаблонов, которая позволяет динамически заполнять данные электронной таблицы с помощью выражений маркеров, таких как `&=DataSource.Field`. Маркер размещается в рабочей книге дизайнера, и когда шаблон обрабатывается `WorkbookDesigner`, маркеры заменяются значениями из предоставленного источника данных.
@@ -59,6 +60,7 @@ Aspose.Cells поддерживает рендеринг данных масси
 
 {{% alert color="primary" %}}
 Атрибут `extraDelimiter` принимает любой строковый литерал, включая многосимвольные разделители, произвольный текст или escape-последовательности, такие как `\n` для вывода с переводом строки. Если массив пуст, результирующая ячейка остаётся пустой.
+{{% /alert %}}
 
 ### **Пошаговый рабочий процесс**
 Следующий рабочий процесс описывает, как отобразить массив в одной ячейке с помощью смарт-маркеров.
@@ -74,7 +76,6 @@ Aspose.Cells поддерживает рендеринг данных масси
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 class Product:
     def __init__(self, tags):
@@ -102,7 +103,6 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-from asposecells.api import Workbook
 # Определение класса Student
 class Student:
     def __init__(self):
@@ -123,7 +123,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 # Определяем источник данных как словарь (эквивалент класса Order)
 order = {"Items": ["Apple", "Banana", "Cherry", "Date"]}
@@ -153,8 +152,5 @@ jpype.shutdownJVM()
 - Функция работает с источниками данных-объектами, а также с источниками `DataSet` и `DataTable`, где столбец может быть разделён на массивы.
 - Для вывода с переводом строки в качестве значения разделителя можно использовать `\n` или константу перевода строки платформы.
 - Размещайте смарт-маркер в ячейке, имеющей достаточную ширину для отображения результирующей объединённой строки; в противном случае содержимое может визуально переполняться в соседние ячейки в зависимости от формата.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

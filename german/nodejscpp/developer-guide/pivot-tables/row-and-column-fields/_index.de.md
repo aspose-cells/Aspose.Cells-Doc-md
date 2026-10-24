@@ -19,7 +19,7 @@ Die Methode `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldNam
 Die Verschachtelungsreihenfolge der Felder ist wichtig. Wenn Sie zuerst `Category` zum Zeilenbereich und dann `Item` hinzufügen, entsteht eine Pivot-Tabelle, deren äußere Gruppierung `Category` und deren innere Gruppierung `Item` ist. Eine umgekehrte Reihenfolge kehrt die Hierarchie um.
 
 ## **Zwischensummen von Pivot-Feldern**
-Die Methode `PivotField.SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` steuert, welche Zwischensummenzeilen für ein Pivot-Feld angezeigt werden. Jeder Aufruf schaltet einen einzelnen Zwischensummentyp unabhängig um. Die Übergabe von `shown = true` zeigt die Zwischensumme an, während `shown = false` sie ausblendet. Da jeder Aufruf nur einen Typ betrifft, wird durch mehrere Aufrufe der Methode mit unterschiedlichen `subtotalType`-Werten eine benutzerdefinierte Untermenge von Zwischensummen erstellt.
+Die Methode `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` steuert, welche Zwischensummenzeilen für ein Pivot-Feld angezeigt werden. Jeder Aufruf schaltet einen einzelnen Zwischensummentyp unabhängig um. Die Übergabe von `shown = true` zeigt die Zwischensumme an, während `shown = false` sie ausblendet. Da jeder Aufruf nur einen Typ betrifft, wird durch mehrere Aufrufe der Methode mit unterschiedlichen `subtotalType`-Werten eine benutzerdefinierte Untermenge von Zwischensummen erstellt.
 Die Enumeration `PivotFieldSubtotalType` definiert die verfügbaren Zwischensummenarten.
 - `Automatic` — Aspose.Cells wählt die Standardauswahl (in der Regel `Sum` für numerische Felder)
 - `None` — alle Zwischensummenzeilen unterdrücken
@@ -35,13 +35,14 @@ Die Enumeration `PivotFieldSubtotalType` definiert die verfügbaren Zwischensumm
 - `Varp`
 
 {{% alert color="primary" %}}
-Zwischensummen werden nur dann gerendert, wenn zwei oder mehr Pivot-Felder im Zeilenbereich (oder im Spaltenbereich) vorhanden sind. Ein einzelnes Feld bietet keine sinnvolle Grundlage für eine Zwischensumme, sodass Aufrufe von `SetSubtotals` in diesem Fall keine sichtbare Wirkung haben. Dieser Artikel platziert daher zwei Zeilenfelder (`Category` außen, `Item` innen) in jedem Beispiel, damit die Zwischensummengrenze zwischen jeder `Category`-Gruppe sichtbar ist.
+Zwischensummen werden nur dann gerendert, wenn zwei oder mehr Pivot-Felder im Zeilenbereich (oder im Spaltenbereich) vorhanden sind. Ein einzelnes Feld bietet keine sinnvolle Grundlage für eine Zwischensumme, sodass Aufrufe von `setSubtotals` in diesem Fall keine sichtbare Wirkung haben. Dieser Artikel platziert daher zwei Zeilenfelder (`Category` außen, `Item` innen) in jedem Beispiel, damit die Zwischensummengrenze zwischen jeder `Category`-Gruppe sichtbar ist.
 {{% /alert %}}
 
 ## **Szenario 1 — Automatische (Standard-) Zwischensummen**
-Wenn Sie `SetSubtotals` überhaupt nicht aufrufen, wendet Aspose.Cells die Auswahl `Automatic` auf numerische Felder an. Das folgende Beispiel bestätigt dieses Verhalten explizit, indem `SetSubtotals(PivotFieldSubtotalType.Automatic, true)` auf dem äußeren `Category`-Zeilenfeld aufgerufen wird.
+Wenn Sie `setSubtotals` überhaupt nicht aufrufen, wendet Aspose.Cells die Auswahl `Automatic` auf numerische Felder an. Das folgende Beispiel bestätigt dieses Verhalten explizit, indem `setSubtotals(PivotFieldSubtotalType.Automatic, true)` auf dem äußeren `Category`-Zeilenfeld aufgerufen wird.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -94,10 +95,10 @@ workbook.save("output_automatic.xlsx");
 ```
 
 ## **Szenario 2 — Unterdrücken aller Zwischensummen (None)**
-Der Aufruf von `SetSubtotals(PivotFieldSubtotalType.None, true)` entfernt jede Zwischensummenzeile aus der Pivot-Tabelle, sodass nur die Feldzeilen und die Gesamtsumme am unteren Rand übrig bleiben. Dies ist nützlich, wenn Sie die rohen gruppierten Daten ohne Zusammenfassungszeilen anzeigen möchten.
+Der Aufruf von `setSubtotals(PivotFieldSubtotalType.None, true)` entfernt jede Zwischensummenzeile aus der Pivot-Tabelle, sodass nur die Feldzeilen und die Gesamtsumme am unteren Rand übrig bleiben. Dies ist nützlich, wenn Sie die rohen gruppierten Daten ohne Zusammenfassungszeilen anzeigen möchten.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -133,9 +134,10 @@ workbook.save("output_none.xlsx");
 ```
 
 ## **Szenario 3 — Benutzerdefinierte Zwischensummen-Untermenge (Sum + Average)**
-Sie sind nicht auf einen einzelnen Zwischensummentyp beschränkt. Jeder `SetSubtotals`-Aufruf wirkt unabhängig auf einen Typ. Daher erzeugt ein zweimaliger Aufruf der Methode — einmal mit `Sum` und einmal mit `Average` — eine benutzerdefinierte Untermenge von zwei Zwischensummenzeilen für jede `Category`-Gruppe.
+Sie sind nicht auf einen einzelnen Zwischensummentyp beschränkt. Jeder `setSubtotals`-Aufruf wirkt unabhängig auf einen Typ. Daher erzeugt ein zweimaliger Aufruf der Methode — einmal mit `Sum` und einmal mit `Average` — eine benutzerdefinierte Untermenge von zwei Zwischensummenzeilen für jede `Category`-Gruppe.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -191,6 +193,15 @@ workbook.save("output_custom.xlsx");
 
 ## **Zusammenfassung**
 
+Die drei Szenarien unterscheiden sich nur in einer Sache: den `setSubtotals`-Aufrufen. Alles Weitere – der Datensatz, die Felder und die Bereiche, in denen sie platziert werden – ist identisch, was die Layouts direkt vergleichbar macht.
+- **Felder platzieren.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` verschiebt eine Quellspalte in einen Bereich. Innerhalb eines Bereichs entspricht die Reihenfolge der Aufrufe der Anzeigereihenfolge, sodass der erste Aufruf die äußere Gruppe bildet. Subtotals benötigen zwei oder mehr Felder im selben Bereich: Bei einem einzelnen Feld gibt es zwischen den Gruppen nichts, worauf eine Subtotalbildung angewendet werden könnte.
+- **Szenario 1 – automatische Subtotals.** Wird `setSubtotals` nicht aufgerufen, trifft Excel selbst die Entscheidung und wendet seinen eigenen Standard-Subtotal-Typ auf numerische Felder an. Ein Aufruf von `setSubtotals` mit `AsposeCells.PivotFieldSubtotalType.Automatic` macht diese Entscheidung explizit, anstatt sie implizit zu belassen.
+- **Szenario 2 – keine Subtotals.** `setSubtotals` mit `AsposeCells.PivotFieldSubtotalType.None` deaktiviert den Standard-Subtotal-Typ, sodass der Pivot-Tabellen die Feldzeilen und die Gesamtsumme beibehält, jedoch die Zwischensubtotal-Zeilen entfällt, die Excel andernfalls dazwischen einfügen würde.
+- **Szenario 3 – eine ausgewählte Teilmenge.** Jeder Aufruf schaltet genau einen Subtotal-Typ um, und die Aufrufe summieren sich auf, anstatt sich gegenseitig zu überschreiben. Ein erstes Maliges Aufrufen mit `AsposeCells.PivotFieldSubtotalType.Sum` und ein zweites Maliges Aufrufen mit `AsposeCells.PivotFieldSubtotalType.Average` führt dazu, dass beide Subtotal-Typen aktiviert bleiben; der Pivot-Tabellen zeigt dann sowohl eine Summen- als auch eine Durchschnitts-Subtotal sowie die Gesamtsumme an.
+
+{{% alert color="primary" %}}
+Nichts an der Subtotal-Behandlung ist auf den Zeilenbereich beschränkt. Dieselben `setSubtotals`-Aufrufe für ein Feld, das aus `PivotTable.ColumnFields` stammt, erzeugen dieselben drei Layouts auf der Spaltenachse, da die Einstellung zum Pivot-Feld selbst gehört und nicht zur Achse, auf der es sitzt.
+{{% /alert %}}
 ## **Verwandte Artikel**
 - [Seitenfelder in Pivot-Tabellen](/cells/de/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Aktualisieren von Pivot-Tabellen in Aspose.Cells for Node.js via C++](/cells/de/nodejs-cpp/refresh-pivot-table/)

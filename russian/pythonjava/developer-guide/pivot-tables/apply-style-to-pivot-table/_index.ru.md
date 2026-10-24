@@ -32,7 +32,6 @@ Aspose.Cells предоставляет два параллельных API ст
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFieldType, PivotTableAutoFormatType
 # Сценарий 1: Применение предустановленного автоформата устаревшего формата XLS
 # Используемый API: PivotTable.AutoFormatType
@@ -78,13 +77,13 @@ sheet.getCells().get(9, 2).putValue(45)
 pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
 pivotTable = sheet.getPivotTables().get(pivotIndex)
 # Назначение полей: Fruit -> Строки, Amount -> Данные
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 # Применение предустановленного автоформата устаревшего формата XLS "Report5"
 # Примечание: Это свойство имеет смысл только при сохранении в формате .xls.
 # При сохранении в .xlsx/.xlsm/.xlsb Excel игнорирует AutoFormatType
 # и использует то, что указано в PivotTableStyleType / PivotTableStyleName.
-pivotTable.setAutoFormatType(PivotTableAutoFormatType.Report5)
+pivotTable.setAutoFormatType(PivotTableAutoFormatType.REPORT_5)
 # Сохранение рабочей книги в устаревшем формате .xls
 workbook.save("output.xls")
 jpype.shutdownJVM()
@@ -92,6 +91,74 @@ jpype.shutdownJVM()
 
 ## **Применение современного именованного предустановленного стиля сводной таблицы**
 
+`pivotTable.setPivotTableStyleType(int)` выбирает один из встроенных именованных стилей, добавленных в Excel 2007 для сводных таблиц. Перечисление `PivotTableStyleType` включает три семейства тем: светлое — от `PIVOT_TABLE_STYLE_LIGHT1` до `PIVOT_TABLE_STYLE_LIGHT28`, среднее — от `PIVOT_TABLE_STYLE_MEDIUM1` до `PIVOT_TABLE_STYLE_MEDIUM28` и темное — от `PIVOT_TABLE_STYLE_DARK1` до `PIVOT_TABLE_STYLE_DARK_28`. Оно также определяет `None` и `Custom`. Элементы с более высокими номерами в каждом семействе — это стили, добавленные в Excel 2017.
+Эти пресеты доступны только для чтения. Как только вам потребуется изменить цвета, границы или шрифты за пределами возможностей пресета, вместо него необходимо определить пользовательский стиль сводной таблицы, как показано в [Сценарии 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**Почему современные пресеты, а не автоформаты для серий отчетов?** Значения `Report1`–`Report10` и `Table1`–`Table10` перечисления `PivotTableAutoFormatType` относятся к периоду до появления полей столбцов сводных таблиц, поэтому не содержат оформления заголовков полей столбцов, и Excel отображает такие заголовки без оформления. Пресеты `PivotTableStyleType` разработаны для двумерной компоновки, которую использует современный Excel, и одинаково оформляют заголовки полей строк и полей столбцов.
+{{% /alert %}}
+
+В этом сценарии повторно используется набор данных Fruit/Year/Amount из Сценария 1, `Year` добавляется в область столбцов рядом с полем строк `Fruit` с помощью `PivotFieldType.COLUMN`, применяется пресет темной темы `PIVOT_TABLE_STYLE_DARK1` с помощью `pivotTable.setPivotTableStyleType`, а результат сохраняется в формате `.xlsx` — формате, для которого `PivotTableStyleType` имеет смысл.
+
+```python
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTableStyleType, PivotFieldType
+# Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+# Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+# GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+# Header row: Fruit / Year / Amount
+worksheet.getCells().get("A1").putValue("Fruit")
+worksheet.getCells().get("B1").putValue("Year")
+worksheet.getCells().get("C1").putValue("Amount")
+# 9 data rows of Fruit / Year / Amount
+worksheet.getCells().get("A2").putValue("Grape")
+worksheet.getCells().get("B2").putValue(2020)
+worksheet.getCells().get("C2").putValue(100)
+worksheet.getCells().get("A3").putValue("Blueberry")
+worksheet.getCells().get("B3").putValue(2020)
+worksheet.getCells().get("C3").putValue(150)
+worksheet.getCells().get("A4").putValue("Kiwi")
+worksheet.getCells().get("B4").putValue(2020)
+worksheet.getCells().get("C4").putValue(200)
+worksheet.getCells().get("A5").putValue("Cherry")
+worksheet.getCells().get("B5").putValue(2020)
+worksheet.getCells().get("C5").putValue(180)
+worksheet.getCells().get("A6").putValue("Grape")
+worksheet.getCells().get("B6").putValue(2021)
+worksheet.getCells().get("C6").putValue(120)
+worksheet.getCells().get("A7").putValue("Blueberry")
+worksheet.getCells().get("B7").putValue(2021)
+worksheet.getCells().get("C7").putValue(170)
+worksheet.getCells().get("A8").putValue("Kiwi")
+worksheet.getCells().get("B8").putValue(2021)
+worksheet.getCells().get("C8").putValue(210)
+worksheet.getCells().get("A9").putValue("Cherry")
+worksheet.getCells().get("B9").putValue(2021)
+worksheet.getCells().get("C9").putValue(190)
+worksheet.getCells().get("A10").putValue("Grape")
+worksheet.getCells().get("B10").putValue(2021)
+worksheet.getCells().get("C10").putValue(130)
+# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
+pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
+# Apply a modern Excel 2007+ named preset pivot style.
+# PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+# is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+# family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+# newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1)
+# Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx")
+jpype.shutdownJVM()
+```
 ## **Определение и применение пользовательского стиля сводной таблицы**
 Встроенные предустановки не могут быть изменены. Всякий раз, когда требуется переопределить цвета, границы или шрифты, необходимо определить пользовательский стиль сводной таблицы. Рабочий процесс состоит из трёх шагов:
 1. Добавьте пользовательский стиль в коллекцию `TableStyles` рабочей книги через `workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)`. Этот метод возвращает индекс только что созданного стиля.
@@ -100,19 +167,18 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 `setPivotTableStyleName` и `setPivotTableStyleType` не являются взаимозаменяемыми. Используйте `setPivotTableStyleType` для встроенных предустановок и `setPivotTableStyleName` для пользовательских стилей, определённых через `addPivotTableStyle`. Установка обоих безвредна, но отображается только тот, который соответствует предполагаемому источнику.
-{{% /alert %}}
-
 Доступные значения `TableStyleElementType` включают `WHOLE_TABLE`, `FIRST_ROW`, `LAST_ROW`, `FIRST_COLUMN`, `LAST_COLUMN`, `GRAND_TOTAL_ROW`, `GRAND_TOTAL_COLUMN`, `PAGE_FIELD_LABELS` и `PAGE_FIELD_VALUES`.
 Следующий пример определяет пользовательский стиль сводной таблицы с тонкой чёрной границей для `WHOLE_TABLE` и жирным красным шрифтом для `GRAND_TOTAL_ROW`, затем применяет его через `setPivotTableStyleName` и сохраняет как `.xlsx`.
+{{% /alert %}}
 
 ```python
 import jpype
+import jpype.imports
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat
 from asposecells.api import PivotFieldType, TableStyleElementType, BorderType, CellBorderType
-from java.awt import Color
+from asposecells.api import Color
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 # Заполнение исходных данных: строка заголовка + 9 строк данных (A1:C10)
@@ -159,21 +225,21 @@ tableStyle = workbook.getWorksheets().getTableStyles().get(styleIndex)
 wholeTableElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.WHOLE_TABLE)
 wholeTableElement = tableStyle.getTableStyleElements().get(wholeTableElementIndex)
 wholeTableStyle = workbook.createStyle()
-wholeTableStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-wholeTableStyle.getBorders().get(BorderType.TOP_BORDER).setColor(Color.BLACK)
-wholeTableStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-wholeTableStyle.getBorders().get(BorderType.BOTTOM_BORDER).setColor(Color.BLACK)
-wholeTableStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-wholeTableStyle.getBorders().get(BorderType.LEFT_BORDER).setColor(Color.BLACK)
-wholeTableStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
-wholeTableStyle.getBorders().get(BorderType.RIGHT_BORDER).setColor(Color.BLACK)
+wholeTableStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+wholeTableStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setColor(Color.getBlack())
+wholeTableStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+wholeTableStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setColor(Color.getBlack())
+wholeTableStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+wholeTableStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setColor(Color.getBlack())
+wholeTableStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+wholeTableStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setColor(Color.getBlack())
 wholeTableElement.setElementStyle(wholeTableStyle)
 # Шаг 3: добавление элемента GrandTotalRow и применение жирного красного шрифта
 grandTotalElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.GRAND_TOTAL_ROW)
 grandTotalElement = tableStyle.getTableStyleElements().get(grandTotalElementIndex)
 grandTotalStyle = workbook.createStyle()
 grandTotalStyle.getFont().setBold(True)
-grandTotalStyle.getFont().setColor(Color.RED)
+grandTotalStyle.getFont().setColor(Color.getRed())
 grandTotalElement.setElementStyle(grandTotalStyle)
 # Шаг 4: применение пользовательского стиля по имени (НЕ через PivotTableStyleType, который предназначен для встроенных предустановок)
 pivotTable.setPivotTableStyleName("CustomPivotStyle")
@@ -181,26 +247,24 @@ workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
 
-## **Применение одного стиля ко всем ячейкам сводной таблицы с помощью FormatAll**
+## **Применение одного стиля ко всем ячейкам сводной таблицы с помощью formatAll**
 `pivotTable.formatAll(Style)` — это вспомогательный метод, который применяет один объект `Style` к каждой ячейке сводной таблицы, включая область данных, заголовки строк и столбцов, а также итоги. Всё, что ранее было задано через `setPivotTableStyleType` или `setPivotTableStyleName`, переопределяется.
 
 {{% alert color="primary" %}}
 `formatAll` переопределяет и `setPivotTableStyleType`, и `setPivotTableStyleName`. Используйте его только в тех случаях, когда требуется единообразный, не зависящий от темы внешний вид по всей сводной таблице.
-{{% /alert %}}
-
 Следующий пример создаёт `Style` с жёлтой сплошной заливкой, жирным тёмно-синим шрифтом и тонкими чёрными границами со всех сторон, затем применяет его с помощью `formatAll` и сохраняет как `.xlsx`.
+{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, Style
 from asposecells.api import Color
 from asposecells.api import PivotTable, PivotFieldType
 from asposecells.api import BorderType, CellBorderType, BackgroundType
-# Сценарий 4: Применение одного стиля к каждой ячейке сводной таблицы с помощью FormatAll
-# Используемый API: PivotTable.FormatAll(Style)
+# Сценарий 4: Применение одного стиля к каждой ячейке сводной таблицы с помощью formatAll
+# Используемый API: PivotTable.formatAll(Style)
 # Целевой формат: .xlsx
 # Ссылка на GitHub: см. репозиторий Aspose.Cells-for-.NET — примеры стилизации сводных таблиц
 workbook = Workbook()
@@ -245,19 +309,19 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 # Создаём стиль, который будет принудительно применён к каждой ячейке сводной таблицы
 style = workbook.createStyle()
-style.setForegroundColor(Color.YELLOW)
+style.setForegroundColor(Color.fromArgb(70, 130, 180))
 style.setPattern(BackgroundType.SOLID)
-style.getFont().setIsBold(True)
-style.getFont().setColor(Color.DARK_BLUE)
-style.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-style.getBorders().get(BorderType.TOP_BORDER).setColor(Color.BLACK)
-style.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-style.getBorders().get(BorderType.BOTTOM_BORDER).setColor(Color.BLACK)
-style.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-style.getBorders().get(BorderType.LEFT_BORDER).setColor(Color.BLACK)
-style.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
-style.getBorders().get(BorderType.RIGHT_BORDER).setColor(Color.BLACK)
-# Применяем FormatAll: принудительно применяет этот единственный стиль к каждой ячейке сводной таблицы,
+style.getFont().setBold(True)
+style.getFont().setColor(Color.getDarkBlue())
+style.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+style.getBorders().getByBorderType(BorderType.TOP_BORDER).setColor(Color.getBlack())
+style.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+style.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setColor(Color.getBlack())
+style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setColor(Color.getBlack())
+style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setColor(Color.getBlack())
+# Применяем formatAll: принудительно применяет этот единственный стиль к каждой ячейке сводной таблицы,
 # переопределяя любой ранее установленный PivotTableStyleType / PivotTableStyleName
 pivotTable.formatAll(style)
 # Сохраняем книгу в современном формате .xlsx
@@ -274,5 +338,6 @@ jpype.shutdownJVM()
 | `.xlsx` / `.xlsm` / `.xlsb` (современный, пользовательский стиль) | `pivotTable.setPivotTableStyleName(String)` + `tableStyles.addPivotTableStyle(String)` | Используйте, когда встроенных предустановок недостаточно. Настройка через `tableStyleElement.setElementStyle(Style)`. |
 | Любой формат (единообразное переопределение) | `pivotTable.formatAll(Style)` | Вспомогательный метод, который переопределяет все остальные параметры стилей по всей сводной таблице. |
 В случае сомнений сохраняйте как `.xlsx` и используйте `setPivotTableStyleType` для встроенных тем или `setPivotTableStyleName` для пользовательских тем.
+
 
 {{< app/cells/assistant language="python" >}}

@@ -32,6 +32,7 @@ L'esempio seguente carica una cartella di lavoro contenente una tabella pivot es
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     U16String fileName(u"sample.xlsx");
@@ -60,10 +61,9 @@ I filtri per data consentono di restringere una tabella pivot in base a criteri 
 
 {{% alert color="primary" %}}
 Il filtro per data funziona solo quando l'area di riga o colonna contiene esclusivamente celle data-ora o valori vuoti. Se il campo sottostante contiene altri tipi di dati, come numeri o testo, il filtro per data non produrrà il risultato atteso. Assicurarsi che il campo sia formattato come data e che tutti i valori siano istanze valide di `DateTime` oppure celle vuote prima di applicare questo filtro.
-{{% /alert %}}
-
 Aspose.Cells espone il filtraggio per data tramite il metodo `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)`. L'enumerazione `PivotFilterType` contiene valori dedicati alle date come `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` e `Between`. A seconda del tipo di filtro scelto, si passano uno o due valori `DateTime` (per `Between` si passano le date di inizio e fine).
 L'esempio seguente carica una cartella di lavoro con una tabella pivot la cui area di riga contiene un campo data, applica un filtro per data che limita gli elementi visibili a un determinato intervallo di date, aggiorna la tabella pivot e salva la cartella di lavoro.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -111,6 +111,7 @@ L'esempio seguente carica una cartella di lavoro con una tabella pivot, applica 
 #include "Aspose.Cells.h"
 #include <cfloat>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb(u"sample.xlsx");
@@ -144,10 +145,9 @@ Il filtro primi 10 è una forma specializzata di filtro per valore che mantiene 
 
 {{% alert color="primary" %}}
 Il filtro primi 10 è efficace solo quando la tabella pivot dispone di uno o più campi valore nell'area dati. Senza almeno un campo valore, non esiste una misura aggregata rispetto alla quale classificare gli elementi e il filtro non può essere applicato.
-{{% /alert %}}
-
 Aspose.Cells espone il filtraggio primi 10 tramite il metodo `PivotField.FilterTop10(int32_t itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Il parametro `itemCount` definisce quanti elementi mantenere, `isTop` indica se mantenere gli elementi superiori (true) o inferiori (false), `valueField` fa riferimento al campo dati utilizzato per la classificazione e `filterType` controlla come viene calcolato il valore (tipicamente `Sum`, ma anche `Count` e `Percent`).
 L'esempio seguente carica una cartella di lavoro con una tabella pivot che contiene un campo valore, applica un filtro primi 10 per mantenere solo i 10 elementi più alti in base alla somma delle vendite, aggiorna la tabella pivot e salva la cartella di lavoro.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -182,6 +182,7 @@ Questo approccio è utile quando la regola di filtraggio è irregolare o specifi
 #include "Aspose.Cells.h"
 #include <string>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Load an existing workbook containing a pivot table

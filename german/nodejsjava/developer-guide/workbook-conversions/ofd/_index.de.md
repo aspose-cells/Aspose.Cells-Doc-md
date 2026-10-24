@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells unterstützt die direkte Konvertierung von Excel-Arbeitsmappen in das OFD-Format (Open Fixed-layout Document) unter Verwendung des Enumerationswerts `SaveFormat.Ofd`. Das resultierende OFD-Dokument bewahrt das sichtbare Layout der Arbeitsmappe, den Inhalt, verbundene Zellen, Spaltenbreiten, Zeilenhöhen, Schriftarten, Farben, Rahmen und Zahlenformate. Dies macht Aspose.Cells geeignet für Archivierungs-, Druck-, regulatorische Einreichungs- und Behördenübermittlungs-Workflows, die eine Fixed-Layout-Ausgabe erfordern.
+{{% /alert %}}
 
 ## **Einführung**
 OFD (Open Fixed-layout Document) ist ein chinesischer nationaler Standard (GB/T 33190-2016) zur Darstellung digitaler Dokumente in einem festen, seitenbasierten Layout. Es erfüllt eine ähnliche Rolle wie PDF für Anwendungsfälle, in denen das visuelle Erscheinungsbild des Quelldokuments genau wie erstellt erhalten bleiben muss. OFD ist in der Volksrepublik China weit verbreitet für Behördenübermittlungen, regulatorische Einreichungen, elektronische Rechnungen und langfristige Archivierung.
@@ -19,6 +20,7 @@ Das Konvertieren von Excel-Arbeitsmappen in OFD ist eine häufige Anforderung in
 
 {{% alert color="primary" %}}
 Die von Aspose.Cells erzeugte OFD-Ausgabe bewahrt das sichtbare Layout der Quellarbeitsmappe, einschließlich Zellinhalten, verbundenen Zellen, Spaltenbreiten und Zeilenhöhen. Zellformatierungen wie Schriftarten, Farben, Rahmen, Ausrichtung und Zahlenformate werden ebenfalls in der Fixed-Layout-Ausgabe dargestellt. Seitenlayoutoptionen, die im Arbeitsblatt konfiguriert sind, wie Papiergröße, Ausrichtung und Druckbereich, beeinflussen das Layout des resultierenden OFD-Dokuments.
+{{% /alert %}}
 
 ## **Erstellen einer Excel-Arbeitsmappe und Speichern als OFD**
 Aspose.Cells ermöglicht es Ihnen, eine Arbeitsmappe programmatisch zu erstellen, sie mit Daten zu füllen und sie dann unter Verwendung der Enumeration `SaveFormat.Ofd` direkt im OFD-Format zu speichern. Das folgende Beispiel erstellt eine Rechnung von Grund auf. Es fügt ein Firmenlogo, Kopfinformationen, einen Rechnungsempfängerbereich, Positionen und berechnete Summen hinzu und exportiert dann die Arbeitsmappe in ein OFD-Dokument.
@@ -27,6 +29,7 @@ Aspose.Cells ermöglicht es Ihnen, eine Arbeitsmappe programmatisch zu erstellen
 Das Beispiel konstruiert ein Rechnungsarbeitsblatt, indem es ein Logobild in den oberen linken Bereich einfügt, den Firmennamen und die Kontaktdaten ausfüllt, einen „INVOICE"-Titel über verbundene Zellen hinzufügt, die Rechnungsnummer und das Datum erfasst, den Rechnungsempfänger auflistet, eine Positionstabelle mit Beschreibung, Menge, Einzelpreis und Gesamtspalten aufbaut und die Zwischensumme, die Steuer und den Gesamtbetrag mithilfe von Zellformeln berechnet. Formatierungen wie fettgedruckte Kopfzeilen, Währungsformat für Preise, Rahmen und Spaltenbreiten werden mit `Style`- und `Font`-Objekten angewendet. Schließlich wird die Arbeitsmappe mit der Erweiterung `.ofd` unter Verwendung von `SaveFormat.Ofd` gespeichert.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let dataDir = "C:\\Temp\\";
 // Eine neue Arbeitsmappe erstellen
 let workbook = new AsposeCells.Workbook();
@@ -51,7 +54,7 @@ worksheet.getCells().merge(7, 1, 2, 4);
 let titleCell = worksheet.getCells().get("B8");
 titleCell.putValue("INVOICE");
 let titleStyle = workbook.createStyle();
-titleStyle.getFont().setIsBold(true);
+titleStyle.getFont().setBold(true);
 titleStyle.getFont().setSize(20);
 titleStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.CENTER);
 titleCell.setStyle(titleStyle);
@@ -75,14 +78,14 @@ headerQty.putValue("Quantity");
 headerPrice.putValue("Unit Price");
 headerTotal.putValue("Total");
 let headerStyle = workbook.createStyle();
-headerStyle.getFont().setIsBold(true);
+headerStyle.getFont().setBold(true);
 headerStyle.getFont().setColor(AsposeCells.Color.getWhite());
 headerStyle.setBackgroundColor(AsposeCells.Color.getNavy());
 headerStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.CENTER);
-headerStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-headerStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+headerStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 headerDesc.setStyle(headerStyle);
 headerQty.setStyle(headerStyle);
 headerPrice.setStyle(headerStyle);
@@ -90,16 +93,16 @@ headerTotal.setStyle(headerStyle);
 // Währungsstil mit Rahmen
 let currencyStyle = workbook.createStyle();
 currencyStyle.setCustom("\"$\"#,##0.00");
-currencyStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-currencyStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 // Einfacher Rahmenstil für Beschreibungs-/Mengenzellen
 let borderStyle = workbook.createStyle();
-borderStyle.getBorders().get(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-borderStyle.getBorders().get(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
+borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 // Zeilen mit Positionen
 let lineItems = [
     ["Product A - Widget", 2, 50.00],
@@ -134,19 +137,19 @@ let grandTotalCell = worksheet.getCells().get("E26");
 grandTotalCell.setFormula("E24+E25");
 // Fett + Währungsstil für Gesamtwerte
 let totalStyle = workbook.createStyle();
-totalStyle.getFont().setIsBold(true);
+totalStyle.getFont().setBold(true);
 totalStyle.setCustom("\"$\"#,##0.00");
 subtotalCell.setStyle(totalStyle);
 taxCell.setStyle(totalStyle);
 grandTotalCell.setStyle(totalStyle);
 // Fettstil für Gesamtbeschriftungen
 let boldStyle = workbook.createStyle();
-boldStyle.getFont().setIsBold(true);
+boldStyle.getFont().setBold(true);
 worksheet.getCells().get("B24").setStyle(boldStyle);
 worksheet.getCells().get("B25").setStyle(boldStyle);
 worksheet.getCells().get("B26").setStyle(boldStyle);
 // Die Arbeitsmappe als OFD-Datei speichern
-workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.Ofd);
+workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.OFD);
 ```
 
 ## **Konvertieren einer vorhandenen Excel-Datei in OFD**
@@ -190,7 +193,7 @@ const printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 console.log("\nPrint area set to: " + printArea);
 // (6) Arbeitsmappe als OFD-Datei speichern
-workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.Ofd);
+workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.OFD);
 console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 function formatDate(date) {
     const pad = (n) => n.toString().padStart(2, '0');
@@ -203,8 +206,5 @@ function formatDate(date) {
 - [Einfügen eines Bildes in eine Zelle](/cells/de/nodejs-java/inserting-an-image-into-a-cell/)
 - [Lesen und Schreiben von DBF-Dateien](/cells/de/nodejs-java/dbf/)
 - [Konvertieren von Sparklines in Bilder und HTML in Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

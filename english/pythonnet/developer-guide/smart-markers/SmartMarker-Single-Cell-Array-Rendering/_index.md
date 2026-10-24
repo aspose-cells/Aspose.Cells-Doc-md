@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supports rendering array data into a single cell via Smart Markers. By using the `ArrayAsSingle` attribute along with the `ExtraDelimiter` attribute, developers can control how array elements are separated within a single cell, providing flexible formatting for reports and templates.
+{{% /alert %}}
 
 ## **Introduction**
 Smart Markers in Aspose.Cells are a powerful, template-based feature that allows you to dynamically populate spreadsheet data using marker expressions such as `&=DataSource.Field`. The marker is placed in a designer workbook, and when the template is processed by the `WorkbookDesigner`, the markers are replaced with values from the supplied data source.
@@ -59,6 +60,7 @@ The marker is composed of the following parts:
 
 {{% alert color="primary" %}}
 The `extraDelimiter` attribute accepts any string literal, including multi-character delimiters, custom text, or escape sequences such as `\n` for newline-separated output. If the array is empty, the resulting cell is left blank.
+{{% /alert %}}
 
 ### **Step-by-Step Workflow**
 The following workflow describes how to render an array into a single cell using Smart Markers.
@@ -71,6 +73,7 @@ The following workflow describes how to render an array into a single cell using
 ### **Code Example 1 — Basic String Array Rendering**
 
 ```python
+import aspose.cells as ac
 class Product:
     def __init__(self):
         self.Tags = []
@@ -78,8 +81,8 @@ product = Product()
 product.Tags = ["C#", "Aspose", "SmartMarker", "Excel"]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Tags")
-worksheet.cells["A2"].put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
+worksheet.cells.get("A1").put_value("Tags")
+worksheet.cells.get("A2").put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
 designer = ac.WorkbookDesigner()
 designer.workbook = workbook
 designer.set_data_source("Product", product)
@@ -90,6 +93,7 @@ workbook.save("output_arraySingle.xlsx")
 ### **Code Example 2 — Numeric Array with Custom Delimiter**
 
 ```python
+import aspose.cells as ac
 class Student:
     def __init__(self):
         self.scores = []
@@ -97,14 +101,15 @@ student = Student()
 student.scores = [95, 88, 76, 100, 67]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Scores")
-worksheet.cells["A2"].put_value(" - ".join(str(s) for s in student.scores))
+worksheet.cells.get("A1").put_value("Scores")
+worksheet.cells.get("A2").put_value(" - ".join(str(s) for s in student.scores))
 workbook.save("output_numericArray.xlsx")
 ```
 
 ### **Code Example 3 — Comparing Default vs. ArrayAsSingle Behavior**
 
 ```python
+import aspose.cells as ac
 class Order:
     def __init__(self, items):
         self._items = items
@@ -119,11 +124,11 @@ workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
 # Section 1: Default Smart Marker - values spread horizontally across cells
-cells["A1"].put_value("Default Spreading Behavior:")
-cells["A2"].put_value("&=Order.Items")
+cells.get("A1").put_value("Default Spreading Behavior:")
+cells.get("A2").put_value("&=Order.Items")
 # Section 2: New single-cell rendering using arrayasSingle and extraDelimiter
-cells["A4"].put_value("Single Cell Rendering (arrayasSingle=true):")
-cells["A5"].put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
+cells.get("A4").put_value("Single Cell Rendering (arrayasSingle=true):")
+cells.get("A5").put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
 # Bind the data source and process Smart Markers
 designer = ac.WorkbookDesigner(workbook)
 designer.set_data_source("Order", order)
@@ -140,9 +145,6 @@ Keep the following points in mind when working with the `ArrayAsSingle` and `Ext
 - The feature works with object data sources as well as `DataSet` and `DataTable` sources where a column can be split into arrays.
 - For newline-separated output, you can use `\n` or `os.linesep` as the delimiter value.
 - Place the Smart Marker in a cell that has sufficient width to display the resulting concatenated string; otherwise, the content may visually overflow into adjacent cells depending on the format.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Related Articles
 - [Add Filter Fields to a Pivot Table in Aspose.Cells for Python via .NET](/cells/python-net/add-page-field-in-pivot-table/)
@@ -151,4 +153,4 @@ Keep the following points in mind when working with the `ArrayAsSingle` and `Ext
 - [Convert Sparkline to Image and HTML in Aspose.Cells for Python via .NET](/cells/python-net/convert-sparkline-to-image-and-html/)
 - [Converting Excel to OFD Format](/cells/python-net/converting-excel-to-ofd-format/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Sparklines sind Miniaturdiagramme, die in Arbeitsblattzellen platziert werden. Aspose.Cells ermöglicht es Ihnen, jede Sparkline als eigenständiges Bild zu extrahieren (zum Einbetten in eine andere Zelle oder einen externen Bericht) und das gesamte sparklinereiche Arbeitsblatt für die browserbasierte Verteilung nach HTML zu exportieren. Die in diesem Artikel verwendete Eigenschaft `Cell.EmbeddedImage` ist in **Aspose.Cells 26.5 und höher** verfügbar.
+{{% /alert %}}
 
 ## **Einführung**
 Sparklines sind eine kompakte Möglichkeit, Trends direkt in einem Arbeitsblatt zu visualisieren. Während Excel-Benutzer sie an Ort und Stelle sehen, erfordern viele reale Szenarien, dass eine Sparkline die Zelle verlässt — zum Beispiel, um als statisches Bild in eine andere Zelle eingebettet, an eine automatisierte E-Mail angehängt oder als Teil eines im Web veröffentlichten HTML-Berichts gerendert zu werden.
@@ -99,6 +100,7 @@ Der obige Code erzeugt eine Arbeitsmappe, in der jede visuelle Darstellung einer
 
 {{% alert color="primary" %}}
 Da jede Sparkline-Gruppe an einer einzelnen Zelle verankert ist, können Sie sie über den Indexer `group.Sparklines[0]` ansprechen, anstatt mit `foreach` zu enumerieren. Dies hält den Rendering-Code kurz und entspricht dem typischen Muster „eine Sparkline pro Ankerzelle". Das Speichern der Bildbytes über `Cell.EmbeddedImage` erfordert Aspose.Cells 26.5 oder höher.
+{{% /alert %}}
 
 ## **Workflow 2 — Das Sparkline-Arbeitsblatt nach HTML exportieren**
 Sobald die Arbeitsmappe aktive Sparklines (und optional eingebettete Bildgegenstücke) enthält, kann das gesamte Arbeitsblatt im Web veröffentlicht werden, indem es als HTML gespeichert wird. Die Klasse `HtmlSaveOptions` bietet die Optionen, die Sie zur Steuerung dieses Exports benötigen; in diesem Workflow verwenden Sie die in Workflow 1 erzeugte Datei `output_with_sparklines.xlsx` wieder und konvertieren sie in ein sauberes, einseitiges HTML-Dokument.
@@ -123,6 +125,7 @@ Der obige Code nimmt die sparklinereiche Arbeitsmappe aus Workflow 1 und verwand
 
 {{% alert color="primary" %}}
 Die Klasse `HtmlSaveOptions` bietet zusätzliche Eigenschaften zur Feinabstimmung der Ausgabe, wie z. B. `ExportHiddenWorksheet`, `ExportImagesAsBase64` und `Encoding`. Passen Sie diese nach Bedarf für Ihr Bereitstellungsziel an.
+{{% /alert %}}
 
 ## **API-Zusammenfassung**
 Die obigen Workflows stützen sich auf einen kleinen Satz von Aspose.Cells-APIs, die zusammenarbeiten.
@@ -134,10 +137,5 @@ Die obigen Workflows stützen sich auf einen kleinen Satz von Aspose.Cells-APIs,
 
 ## **Verwandte Artikel**
 - [Erstellen von Sparklines in Aspose.Cells for .NET](/de/net/creating-sparklines/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="csharp" >}}

@@ -25,9 +25,8 @@ Excel 照相机本质上是锚定在工作表绘图层上特定行和列的图�
 
 {{% alert color="primary" %}}
 当输出为 HTML 或 PDF 时，必须在保存之前调用 `updateSelectedValue()`；否则导出文件将不包含图片数据，照相机在渲染输出中会显示为空白。
-{{% /alert %}}
-
 以下代码创建一个工作簿，在第 10 行第 6 列处添加一个空图片，通过 `setFormula` 方法将其链接到源区域 `A1:F10`，刷新嵌入的图像数据，并保存工作簿。
+{{% /alert %}}
 
 ```python
 import jpype
@@ -38,7 +37,7 @@ worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
 # 动态相机：添加一个空图片，通过公式链接到 A1:F10，然后刷新
 pictures = worksheet.getPictures()
-index = pictures.add(10, 6, None)
+index = pictures.add(10, 6, b"")
 pictures.get(index).setFormula("A1:F10")
 pictures.get(index).updateSelectedValue()
 workbook.save("output_dynamic.xlsx", SaveFormat.XLSX)
@@ -57,6 +56,7 @@ workbook.save("output_dynamic.xlsx", SaveFormat.XLSX)
 import jpype
 import jpype.imports
 from asposecells.api import Workbook, SaveFormat
+from java.io import ByteArrayInputStream
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
@@ -64,7 +64,7 @@ worksheet.setName("CameraDemo")
 range_ = worksheet.getCells().createRange("A1:F10")
 image_bytes = range_.toImage(None)
 pictures = worksheet.getPictures()
-pictures.add(10, 6, jpype.JArray(jpype.JByte)(image_bytes))
+pictures.add(10, 6, ByteArrayInputStream(image_bytes))
 workbook.save("output_static.xlsx", SaveFormat.XLSX)
 ```
 

@@ -25,9 +25,8 @@ De viktigaste API:erna är:
 
 {{% alert color="primary" %}}
 `update_selected_value()` MÅSTE anropas innan du sparar när utdata är HTML eller PDF, annars kommer den exporterade filen inte att innehålla bilddatan och kameran visas tom i den renderade utdata.
-{{% /alert %}}
-
 Följande kod skapar en arbetsbok, lägger till en tom bild förankrad vid rad 10 kolumn 6, kopplar den till källområdet `A1:F10` via egenskapen `formula`, uppdaterar den inbäddade bilddatan och sparar arbetsboken.
+{{% /alert %}}
 
 ```python
 from aspose.cells import Workbook, SaveFormat

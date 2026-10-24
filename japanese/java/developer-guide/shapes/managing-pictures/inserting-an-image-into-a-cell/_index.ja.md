@@ -37,6 +37,7 @@ Aspose.Cells では、このシナリオを以下の2つの補完的な方法で
 
 {{% alert color="primary" %}}
 Aspose.Cells における行と列のインデックスは**ゼロベース**です。セル C6 の行インデックスは 5、列インデックスは 2 です。右下アンカーのオフバイワン エラーが、隣接セルにはみ出して見える画像の最も一般的な原因です。
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `Picture.getPlacement()` は `PlacementType` 型の列挙を返し、ユーザーが下の行または列のサイズを変更したときの画像の動作を制御します。単一セル画像に推奨される値は `PlacementType.MOVE_AND_SIZE` で、基になるセルと共に画像が移動およびサイズ変更され、正確な適合が維持されます。
@@ -118,7 +119,6 @@ workbook.save("output.xlsx", SaveFormat.XLSX);
 - **次のような場合は、埋め込み画像（方法2）を使用します。**
   - セルへの画像の挿入を可能な限りシンプルにしたい場合。
   - 画像が他のセル コンテンツと同様にセルと一緒に移動する必要がある場合。
-{{% /alert %}}
 
 ## Related Articles
 - [Aspose.Cells for Java の Excel カメラ](/cells/ja/java/excel-camera/)

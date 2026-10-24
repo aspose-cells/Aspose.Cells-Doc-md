@@ -2,7 +2,7 @@
 title: Konvertieren von Excel in das OFD-Format
 description: Aspose.Cells for Python via Java ist eine Bibliothek für die Arbeit mit Tabellenkalkulationsdateien, die das Konvertieren von Excel-Arbeitsmappen in das OFD-Format (Open Fixed-layout Document) unterstützt. Dieser Artikel zeigt, wie Excel-Inhalte erstellt und als OFD exportiert werden sowie wie vorhandene Excel-Dateien mit Aspose.Cells for Python via Java in OFD konvertiert werden.
 linktitle: Konvertieren von Excel in das OFD-Format
-keywords: Aspose.Cells, Python via Java Bibliothek, Tabellenkalkulation, Excel zu OFD, OFD-Konvertierung, SaveFormat.Ofd, Fixed-Layout-Dokument, Arbeitsmappen-Export
+keywords: Aspose.Cells, Python via Java Bibliothek, Tabellenkalkulation, Excel zu OFD, OFD-Konvertierung, SaveFormat.OFD, Fixed-Layout-Dokument, Arbeitsmappen-Export
 type: docs
 weight: 195
 url: /de/python-java/converting-excel-to-ofd-format/
@@ -11,26 +11,27 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells for Python via Java unterstützt die direkte Konvertierung von Excel-Arbeitsmappen in das OFD-Format (Open Fixed-layout Document) mithilfe des Enumerationswerts `SaveFormat.Ofd`. Das resultierende OFD-Dokument bewahrt das sichtbare Layout der Arbeitsmappe, die Inhalte, verbundene Zellen, Spaltenbreiten, Zeilenhöhen, Schriftarten, Farben, Rahmen und Zahlenformate. Dies macht Aspose.Cells for Python via Java geeignet für Archivierung, Druck, regulatorische Einreichung und Workflows zur Behördenübermittlung, die eine Fixed-Layout-Ausgabe erfordern.
+Aspose.Cells for Python via Java unterstützt die direkte Konvertierung von Excel-Arbeitsmappen in das OFD-Format (Open Fixed-layout Document) mithilfe des Enumerationswerts `SaveFormat.OFD`. Das resultierende OFD-Dokument bewahrt das sichtbare Layout der Arbeitsmappe, die Inhalte, verbundene Zellen, Spaltenbreiten, Zeilenhöhen, Schriftarten, Farben, Rahmen und Zahlenformate. Dies macht Aspose.Cells for Python via Java geeignet für Archivierung, Druck, regulatorische Einreichung und Workflows zur Behördenübermittlung, die eine Fixed-Layout-Ausgabe erfordern.
+{{% /alert %}}
 
 ## **Einführung**
 OFD (Open Fixed-layout Document) ist ein chinesischer nationaler Standard (GB/T 33190-2016) zur Darstellung digitaler Dokumente in einem festen, seitenbasierten Layout. Es erfüllt eine ähnliche Rolle wie PDF für Anwendungsfälle, in denen das visuelle Erscheinungsbild des Quelldokuments genau wie erstellt erhalten bleiben muss. OFD ist in der Volksrepublik China weit verbreitet für Behördenübermittlungen, regulatorische Einreichungen, elektronische Rechnungen und Langzeitarchivierung.
-Die Konvertierung von Excel-Arbeitsmappen in OFD ist eine häufige Anforderung in Szenarien, in denen Tabellenkalkulationsinhalte als schreibgeschütztes, layoutfixiertes Artefakt und nicht als bearbeitbare Tabellenkalkulation verteilt werden müssen. Beispiele umfassen den Versand einer finalisierten Rechnung an einen Kunden, die Archivierung eines vierteljährlichen Finanzberichts oder die Einreichung einer Budgettabelle bei einer Aufsichtsbehörde. Aspose.Cells for Python via Java erfüllt diese Anforderung durch den Enumerationswert `SaveFormat.Ofd`, der die Arbeitsmappe direkt in OFD schreibt, ohne einen zwischengeschalteten Konvertierungsschritt zu erfordern. Die OFD-Ausgabe bewahrt Zellwerte, verbundene Bereiche, Schriftarten, Farben, Rahmen, Zahlenformate und Seiteneinrichtungsoptionen, die in der Arbeitsmappe konfiguriert sind.
+Die Konvertierung von Excel-Arbeitsmappen in OFD ist eine häufige Anforderung in Szenarien, in denen Tabellenkalkulationsinhalte als schreibgeschütztes, layoutfixiertes Artefakt und nicht als bearbeitbare Tabellenkalkulation verteilt werden müssen. Beispiele umfassen den Versand einer finalisierten Rechnung an einen Kunden, die Archivierung eines vierteljährlichen Finanzberichts oder die Einreichung einer Budgettabelle bei einer Aufsichtsbehörde. Aspose.Cells for Python via Java erfüllt diese Anforderung durch den Enumerationswert `SaveFormat.OFD`, der die Arbeitsmappe direkt in OFD schreibt, ohne einen zwischengeschalteten Konvertierungsschritt zu erfordern. Die OFD-Ausgabe bewahrt Zellwerte, verbundene Bereiche, Schriftarten, Farben, Rahmen, Zahlenformate und Seiteneinrichtungsoptionen, die in der Arbeitsmappe konfiguriert sind.
 
 {{% alert color="primary" %}}
 Die von Aspose.Cells for Python via Java erzeugte OFD-Ausgabe bewahrt das sichtbare Layout der Quellarbeitsmappe, einschließlich Zelleninhalte, verbundener Zellen, Spaltenbreiten und Zeilenhöhen. Zellformatierungen wie Schriftarten, Farben, Rahmen, Ausrichtung und Zahlenformate werden ebenfalls in der Fixed-Layout-Ausgabe dargestellt. Die auf dem Arbeitsblatt konfigurierten Seiteneinrichtungsoptionen wie Papierformat, Ausrichtung und Druckbereich beeinflussen das Layout des resultierenden OFD-Dokuments.
+{{% /alert %}}
 
 ## **Erstellen einer Excel-Arbeitsmappe und Speichern als OFD**
-Aspose.Cells for Python via Java ermöglicht es Ihnen, eine Arbeitsmappe programmatisch zu erstellen, mit Daten zu füllen und sie dann direkt mithilfe der Enumeration `SaveFormat.Ofd` im OFD-Format zu speichern. Das folgende Beispiel erstellt eine Rechnung von Grund auf. Es fügt ein Firmenlogo, Kopfinformationen, einen Rechnungsempfängerbereich, Positionszeilen und berechnete Summen hinzu und exportiert dann die Arbeitsmappe in ein OFD-Dokument.
+Aspose.Cells for Python via Java ermöglicht es Ihnen, eine Arbeitsmappe programmatisch zu erstellen, mit Daten zu füllen und sie dann direkt mithilfe der Enumeration `SaveFormat.OFD` im OFD-Format zu speichern. Das folgende Beispiel erstellt eine Rechnung von Grund auf. Es fügt ein Firmenlogo, Kopfinformationen, einen Rechnungsempfängerbereich, Positionszeilen und berechnete Summen hinzu und exportiert dann die Arbeitsmappe in ein OFD-Dokument.
 
 ### **Erstellen einer Rechnung mit einem Logo**
-Das Beispiel konstruiert ein Rechnungsarbeitsblatt, indem es ein Logobild in den oberen linken Bereich einfügt, den Firmennamen und Kontaktdaten einfügt, einen „INVOICE"-Titel über verbundene Zellen hinzufügt, die Rechnungsnummer und das Datum erfasst, den Rechnungsempfänger auflistet, eine Tabelle mit Positionszeilen mit den Spalten Beschreibung, Menge, Einzelpreis und Gesamtpreis erstellt und Zwischensumme, Steuer und Gesamtsumme mithilfe von Zellformeln berechnet. Formatierungen wie fett formatierte Überschriften, Währungsformat für Preise, Rahmen und Spaltenbreiten werden mithilfe von `Style`- und `Font`-Objekten angewendet. Schließlich wird die Arbeitsmappe mit der Erweiterung `.ofd` unter Verwendung von `SaveFormat.Ofd` gespeichert.
+Das Beispiel konstruiert ein Rechnungsarbeitsblatt, indem es ein Logobild in den oberen linken Bereich einfügt, den Firmennamen und Kontaktdaten einfügt, einen „INVOICE"-Titel über verbundene Zellen hinzufügt, die Rechnungsnummer und das Datum erfasst, den Rechnungsempfänger auflistet, eine Tabelle mit Positionszeilen mit den Spalten Beschreibung, Menge, Einzelpreis und Gesamtpreis erstellt und Zwischensumme, Steuer und Gesamtsumme mithilfe von Zellformeln berechnet. Formatierungen wie fett formatierte Überschriften, Währungsformat für Preise, Rahmen und Spaltenbreiten werden mithilfe von `Style`- und `Font`-Objekten angewendet. Schließlich wird die Arbeitsmappe mit der Erweiterung `.ofd` unter Verwendung von `SaveFormat.OFD` gespeichert.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, Style, Cell, TextAlignmentType, BorderType, CellBorderType, Color
 dataDir = "/tmp/"
 # Eine neue Arbeitsmappe erstellen
@@ -84,10 +85,10 @@ headerStyle.getFont().setBold(True)
 headerStyle.getFont().setColor(Color.getWhite())
 headerStyle.setBackgroundColor(Color.getNavy())
 headerStyle.setHorizontalAlignment(TextAlignmentType.CENTER)
-headerStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 headerDesc.setStyle(headerStyle)
 headerQty.setStyle(headerStyle)
 headerPrice.setStyle(headerStyle)
@@ -95,16 +96,16 @@ headerTotal.setStyle(headerStyle)
 # Währungsstil mit Rahmen
 currencyStyle = workbook.createStyle()
 currencyStyle.setCustom("\"$\"#,##0.00")
-currencyStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # Einfacher Rahmenstil für Beschreibungs-/Mengenzellen
 borderStyle = workbook.createStyle()
-borderStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # Positionszeilen
 lineItems = [
     ["Product A - Widget", 2, 50.00],
@@ -149,7 +150,7 @@ worksheet.getCells().get("B24").setStyle(boldStyle)
 worksheet.getCells().get("B25").setStyle(boldStyle)
 worksheet.getCells().get("B26").setStyle(boldStyle)
 # Die Arbeitsmappe als OFD-Datei speichern
-workbook.save(dataDir + "Invoice.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "Invoice.ofd", SaveFormat.OFD)
 jpype.shutdownJVM()
 ```
 
@@ -194,7 +195,7 @@ printArea = "A1:" + lastColLetter + str(lastRow + 1)
 firstSheet.getPageSetup().setPrintArea(printArea)
 print("\nPrint area set to: " + printArea)
 # (6) Die Arbeitsmappe als OFD-Datei speichern
-workbook.save(dataDir + "SampleBook.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "SampleBook.ofd", SaveFormat.OFD)
 print("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd")
 jpype.shutdownJVM()
 ```
@@ -204,8 +205,5 @@ jpype.shutdownJVM()
 - [Einfügen eines Bildes in eine Zelle](/cells/de/python-java/inserting-an-image-into-a-cell/)
 - [Lesen und Schreiben von DBF-Dateien](/cells/de/python-java/dbf/)
 - [Konvertieren einer Sparkline in Bild und HTML in Aspose.Cells for Python via Java](/cells/de/python-java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

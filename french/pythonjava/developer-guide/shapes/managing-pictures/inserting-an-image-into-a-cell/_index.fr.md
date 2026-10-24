@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells propose deux méthodes distinctes pour associer une image à une seule cellule. Une image flottante est une forme située sur le calque de dessin de la feuille de calcul qui recouvre visuellement une plage de cellules, tandis qu'une image incorporée est stockée à l'intérieur de la cellule elle-même et s'adapte automatiquement à la zone d'affichage de la cellule. Choisissez l'approche qui correspond le mieux à vos exigences de mise en page.
+{{% /alert %}}
 
 ## **Introduction**
 Ajuster précisément une image à une seule cellule est une exigence courante lors de la conception de tableurs servant de rapports visuels, de catalogues de produits, d'annuaires d'employés, de tableaux de bord ou de listes d'inventaire. Plutôt que d'étirer une image sur plusieurs cellules ou de la placer de manière approximative sur une feuille de calcul, vous pouvez souhaiter obtenir une image nette, liée à la cellule, qui reste alignée avec la cellule à laquelle elle appartient.
@@ -36,6 +37,7 @@ L'ancrage de l'image est défini par quatre propriétés d'index de base zéro :
 
 {{% alert color="primary" %}}
 Les index de lignes et de colonnes dans Aspose.Cells sont **de base zéro**. La cellule C6 a pour index de ligne 5 et pour index de colonne 2. Les erreurs de décalage d'une unité sur l'ancrage inférieur droit sont la source la plus fréquente d'images qui semblent empiéter sur une cellule adjacente.
+{{% /alert %}}
 
 ### **Contrôle du comportement de positionnement**
 `getPlacement` est une énumération de type `PlacementType` qui contrôle le comportement de l'image lorsque l'utilisateur redimensionne la ligne ou la colonne située en dessous. La valeur recommandée pour une image dans une seule cellule est `PlacementType.MOVE_AND_SIZE`, qui provoque le déplacement et le redimensionnement simultanés de l'image avec sa cellule sous-jacente, en préservant l'ajustement exact.
@@ -55,7 +57,6 @@ Le code suivant illustre l'approche complète.
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat, PlacementType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -68,10 +69,10 @@ try:
     picture.setUpperLeftColumn(2)
     picture.setLowerRightRow(6)
     picture.setLowerRightColumn(3)
-    picture.setPlacement(PlacementType.MoveAndSize)
+    picture.setPlacement(PlacementType.MOVE_AND_SIZE)
 finally:
     fs.close()
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -111,7 +112,7 @@ cell.setEmbeddedImage(imageData)
 worksheet.getCells().setColumnWidth(2, 30)   # Column C (index 2)
 worksheet.getCells().setRowHeight(5, 100)    # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -126,8 +127,5 @@ Les deux approches produisent une image qui s'ajuste à l'intérieur d'une seule
   - Vous souhaitez l'insertion la plus simple possible d'une image dans une cellule.
   - L'image doit se déplacer avec la cellule comme n'importe quel autre contenu de cellule.
   - Vous n'avez pas besoin de manipuler l'image comme une forme.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

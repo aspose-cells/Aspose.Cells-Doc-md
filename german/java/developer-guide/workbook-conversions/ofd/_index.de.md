@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells unterstützt die direkte Konvertierung von Excel-Arbeitsmappen in das OFD-Format (Open Fixed-layout Document) mithilfe des Enumerationswerts `SaveFormat.Ofd`. Das resultierende OFD-Dokument bewahrt das sichtbare Layout der Arbeitsmappe, den Inhalt, verbundene Zellen, Spaltenbreiten, Zeilenhöhen, Schriftarten, Farben, Rahmen und Zahlenformate. Dadurch eignet sich Aspose.Cells für Archivierungs-, Druck-, regulatorische Einreichungs- und Behörden-Workflows, die eine Fixed-Layout-Ausgabe erfordern.
+{{% /alert %}}
 
 ## **Einführung**
 OFD (Open Fixed-layout Document) ist ein chinesischer nationaler Standard (GB/T 33190-2016) zur Darstellung digitaler Dokumente in einem festen, seitenbasierten Layout. Es erfüllt eine ähnliche Rolle wie PDF für Anwendungsfälle, in denen das visuelle Erscheinungsbild des Quelldokuments genau so erhalten bleiben muss, wie es erstellt wurde. OFD wird in der Volksrepublik China häufig für Behördeneinreichungen, regulatorische Meldungen, elektronische Rechnungen und langfristige Archivierung verwendet.
@@ -19,6 +20,7 @@ Die Konvertierung von Excel-Arbeitsmappen in OFD ist eine häufige Anforderung i
 
 {{% alert color="primary" %}}
 Die von Aspose.Cells erzeugte OFD-Ausgabe bewahrt das sichtbare Layout der Quellarbeitsmappe, einschließlich Zellinhalten, verbundenen Zellen, Spaltenbreiten und Zeilenhöhen. Zellformatierungen wie Schriftarten, Farben, Rahmen, Ausrichtung und Zahlenformate werden ebenfalls in der Fixed-Layout-Ausgabe dargestellt. Die auf dem Arbeitsblatt konfigurierten Seiteneinrichtungsoptionen wie Papierformat, Ausrichtung und Druckbereich beeinflussen das Layout des resultierenden OFD-Dokuments.
+{{% /alert %}}
 
 ## **Erstellen einer Excel-Arbeitsmappe und Speichern als OFD**
 Aspose.Cells ermöglicht es Ihnen, eine Arbeitsmappe programmatisch zu erstellen, mit Daten zu füllen und sie dann unter Verwendung der Enumeration `SaveFormat.Ofd` direkt im OFD-Format zu speichern. Das folgende Beispiel erstellt eine Rechnung von Grund auf. Es fügt ein Firmenlogo, Kopfinformationen, einen Rechnungsempfängerbereich, Positionszeilen und berechnete Summen hinzu und exportiert anschließend die Arbeitsmappe in ein OFD-Dokument.
@@ -206,8 +208,5 @@ System.out.println("\nFile successfully converted to OFD format: " + dataDir + "
 - [Einfügen eines Bildes in eine Zelle](/cells/de/java/inserting-an-image-into-a-cell/)
 - [Lesen und Schreiben von DBF-Dateien](/cells/de/java/dbf/)
 - [Sparkline in Bild und HTML konvertieren in Aspose.Cells for Java](/cells/de/java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

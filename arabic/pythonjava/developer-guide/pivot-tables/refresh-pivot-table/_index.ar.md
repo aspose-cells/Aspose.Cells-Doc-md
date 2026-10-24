@@ -1,7 +1,7 @@
 ---
-title: تحديث الجداول المحورية وذواكر التخزين المؤقت في Aspose.Cells for Python via Java
-linktitle: تحديث الجداول المحورية وذواكر التخزين المؤقت في Aspose.Cells for Python via Java
-description: تعرف على كيفية تحديث الجداول المحورية في Aspose.Cells for Python via Java باستخدام واجهة برمجة التطبيقات للتحديث في الإصدار v26.7+. تتناول هذه المقالة RefreshAll و RefreshPivotTables و PivotCache.Refresh و CalculateData و GetPivotTables مع أمثلة عملية على التعليمات البرمجية.
+title: تحديث الجداول المحورية وذاكرات التخزين المؤقت في Aspose.Cells for Python via Java
+linktitle: تحديث الجداول المحورية وذاكرات التخزين المؤقت في Aspose.Cells for Python via Java
+description: تعلم كيفية تحديث الجداول المحورية في Aspose.Cells for Python via Java باستخدام واجهة برمجة التطبيقات لتحديث المحاور في الإصدار v26.7+. تتناول هذه المقالة واجهات RefreshAll و RefreshPivotTables و PivotCache.Refresh و CalculateData و GetPivotTables مع أمثلة عملية على الكود.
 keywords: Aspose.Cells, Python via Java, جدول محوري, تحديث, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -11,42 +11,61 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-توفر Aspose.Cells واجهة برمجة تطبيقات للتحديث متعددة الطبقات تتيح لك إعادة تحميل بيانات الجدول المحوري في أربعة نطاقات مختلفة — من المصنف بأكمله إلى جدول محوري واحد. بدءًا من **Aspose.Cells for Python via Java v26.7**، تم وضع علامة على الطريقة القديمة `PivotTable.refreshData()` على أنها مهجورة ويجب استبدالها بواجهات برمجة التطبيقات الأكثر كفاءة والواعية بذاكرة التخزين المؤقت الموضحة في هذه المقالة.
+يوفر Aspose.Cells واجهة برمجة تطبيقات تحديث متعددة الطبقات تتيح لك إعادة تحميل بيانات المحاور بأربعة نطاقات مختلفة — من المصنف بأكمله إلى جدول محوري واحد. بدءًا من **Aspose.Cells for Python via Java v26.7**، تم وضع علامة على الطريقة التقليدية `PivotTable.refreshData()` باعتبارها قديمة ويجب استبدالها بواجهات البرمجة الأكثر كفاءة والمراعية لذاكرة التخزين المؤقت الموضحة في هذه المقالة.
 {{% /alert %}}
 
-## المقدمة
-نادرًا ما تكون عملية تحديث الجدول المحوري عملية واحدة. خلف الكواليس، تحافظ Aspose.Cells على سلسلة بيانات متعددة الطبقات تربط بيانات المصدر الأصلية بالقيم المعروضة التي تراها في ورقة العمل. إن فهم هذه السلسلة هو مفتاح اختيار واجهة برمجة التطبيقات المناسبة للتحديث في أي موقف.
-سلسلة البيانات ذات الأربع طبقات هي:
+## Introduction
+نادرًا ما يكون تحديث جدول محوري عملية واحدة. وراء الكواليس، يحافظ Aspose.Cells على سلسلة بيانات متعددة الطبقات تربط بيانات المصدر الأصلية بالقيم المعروضة التي تراها في ورقة العمل. إن فهم هذه السلسلة هو مفتاح اختيار واجهة برمجة التطبيقات المناسبة للتحديث في أي موقف.
+سلسلة البيانات المكونة من أربع طبقات هي:
 1. **مصدر البيانات** — نطاقات ورقة العمل الأصلية، أو استعلام قاعدة البيانات، أو نطاق الدمج حيث توجد القيم الخام.
-2. **PivotCache** — اللقطة الموجودة في الذاكرة لبيانات المصدر. كل جدول محوري مبني فوق `PivotCache`؛ هذا هو المكان الذي يتم فيه جمع جميع البيانات وتجميعها.
-3. **PivotTable** — كائن العرض الذي يحدد حقول الصفوف والأعمدة والقيم والتصفية. يقرأ `PivotTable` *فقط* من `PivotCache` الخاص به، وليس مباشرة من مصدر البيانات.
-4. **Cells** — `Cells` ورقة العمل التي يعرض فيها `PivotTable` القيم والأنماط المحسوبة.
+2. **PivotCache** — اللقطة الموجودة في الذاكرة لبيانات المصدر. كل جدول محوري مبني فوق `PivotCache`؛ حيث يتم جمع جميع البيانات وتجميعها.
+3. **PivotTable** — كائن العرض الذي يحدد حقول الصفوف والأعمدة والقيم والتصفية. يقرأ `PivotTable` *فقط* من `PivotCache` الخاص به، وليس مباشرةً من مصدر البيانات.
+4. **الخلايا (Cells)** — `Cells` ورقة العمل التي يقوم `PivotTable` بعرض القيم والأنماط المحسوبة فيها.
 
 {{% alert color="primary" %}}
-يشير `PivotCache.getSourceType()` (تعداد `PivotTableSourceType`) إلى مصدر بيانات ذاكرة التخزين المؤقت. اعتبارًا من الإصدار v26.7، يدعم `PivotCache.refresh()` فقط أنواع المصادر **`SHEET`** و **`CONSOLIDATION`** — أي البيانات الموجودة في نطاقات ورقة العمل. لا يمكن تحديث المصادر الخارجية (قواعد البيانات، الاتصالات الخارجية، إلخ) من خلال واجهة برمجة تطبيقات ذاكرة التخزين المؤقت حتى الآن.
+يشير `PivotCache.getSourceType()` (التعداد `PivotTableSourceType`) إلى مصدر بيانات ذاكرة التخزين المؤقت. اعتبارًا من الإصدار v26.7، يدعم `PivotCache.refresh()` أنواع المصادر **`SHEET`** و **`CONSOLIDATION`** فقط — أي البيانات التي تعيش في نطاقات أوراق العمل. المصادر الخارجية (قواعد البيانات، الاتصالات الخارجية، إلخ) لا يمكن تحديثها بعد من خلال واجهة برمجة التطبيقات لذاكرة التخزين المؤقت.
+بسبب هذه السلسلة، يوجد مساران أساسيان للتحديث في Aspose.Cells:
+- **`PivotTable.calculateData()`** — يعيد حساب عرض `PivotTable` واحد من البيانات المخزنة مؤقتًا بالفعل، دون رحلة ذهاب وإياب إلى مصدر البيانات.
+جميع السيناريوهات في هذه المقالة تستخدم بيانات مصدر خلايا ورقة العمل، لذا فإن نوع المصدر هو `SHEET` وتعمل عمليات التحديث كما هو موضح.
 {{% /alert %}}
 
-بسبب هذه السلسلة، يوجد مسارا تحديث أساسيان في Aspose.Cells:
-- **`PivotTable.calculateData()`** — يعيد حساب عرض `PivotTable` واحد من البيانات المخزنة مؤقتًا بالفعل، دون رحلة ذهاب وإياب إلى مصدر البيانات.
-تستخدم جميع السيناريوهات في هذه المقالة بيانات المصدر من خلايا ورقة العمل، لذا فإن نوع المصدر هو `SHEET` وتعمل عمليات التحديث كما هو موضح.
+## Quick Start
+إذا كنت تحتاج فقط إلى أقصر كود ممكن لتحديث كل محور في المصنف، فإن استدعاءً واحدًا كافٍ:
 
-## البدء السريع
-إذا كنت تحتاج فقط إلى أقصر كود ممكن يحدث كل جدول محوري في المصنف، فإن مكالمة واحدة تكفي:
+```python
+import jpype
+from asposecells.api import Workbook
+
+workbook = Workbook("input.xlsx")
+workbook.refreshAll()
+workbook.save("output.xlsx")
+```
+
+كل شيء آخر في هذه المقالة يشرح متى تختار واجهة برمجة تطبيقات أضيق بدلاً من ذلك.
+
+## Required Imports
+تعتمد جميع أمثلة Python في هذه المقالة على الواردات التالية لأن أنواع المحاور تعيش في مساحة الاسم `aspose.cells.pivot`:
+- `import jpype`
+- `import aspose.cells as cells`
+تُستخدم وحدة `jpype` لتشغيل JVM، بينما تكشف `aspose.cells` عن أنواع المصنف/ورقة العمل/الخلية/المحور المستخدمة في جميع الأمثلة.
+
+## Refresh All Pivot Tables in the Workbook
+عندما تحتاج إلى التأكد من أن كل ذاكرة تخزين مؤقت للمحاور وكل جدول محوري في المصنف يعكس أحدث بيانات المصدر، فإن أبسط واجهة برمجة تطبيقات وأكثرها شمولاً هي `Workbook.refreshAll()`. استدعاء واحد يجتاز المصنف بأكمله — يحدّث كل `PivotCache` من مصدره ثم يعيد حساب كل `PivotTable` تابع. هذا هو الأسلوب الموصى به للتحديثات العامة للمستند بالكامل حيث لا يكون الأداء موضع قلق.
+يبني المثال التالي مصنفًا بنطاق مصدر Fruit/Year/Amount، وينشئ جدولًا محوريًا واحدًا، ويُعدّل بعض قيم المصدر، ثم يستخدم `refreshAll()` لجلب كل شيء حتى تاريخه باستدعاء واحد.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
-# إنشاء مصنف جديد
+# Create a new workbook
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# كتابة صف الرأس في الخلايا A1:C1
+# Write header row into cells A1:C1
 worksheet.getCells().get("A1").putValue("Fruit")
 worksheet.getCells().get("B1").putValue("Year")
 worksheet.getCells().get("C1").putValue("Amount")
-# كتابة صفوف البيانات في الخلايا A2:C9 (8 صفوف من بيانات الفاكهة عبر عامي 2020 و 2021)
+# Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.getCells().get("A2").putValue("grape")
 worksheet.getCells().get("B2").putValue(2020)
 worksheet.getCells().get("C2").putValue(50)
@@ -71,41 +90,31 @@ worksheet.getCells().get("C8").putValue(110)
 worksheet.getCells().get("A9").putValue("cherry")
 worksheet.getCells().get("B9").putValue(2021)
 worksheet.getCells().get("C9").putValue(120)
-# إضافة جدول محوري: نطاق المصدر "A1:C9"، خلية الوجهة "E3"، الاسم "Pivot1"
+# Add a pivot table: source range "A1:C9", destination cell "E3", name "Pivot1"
 pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
 pivotTable = worksheet.getPivotTables().get(pivotIndex)
-# تعيين حقول الجدول المحوري: الفاكهة إلى الصفوف، السنة إلى الأعمدة، المبلغ إلى البيانات
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
-# تعديل عدة قيم للمبلغ في بيانات المصدر لمحاكاة التغييرات
+# Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
+# Modify several Amount values in the source data to simulate changes
 worksheet.getCells().get("C2").putValue(55)
 worksheet.getCells().get("C5").putValue(85)
 worksheet.getCells().get("C9").putValue(125)
-# تحديث كل جدول محوري / ذاكرة تخزين مؤقت للجدول المحوري في المصنف
+# Refresh every pivot table / pivot cache in the workbook
 workbook.refreshAll()
-# حفظ المصنف
+# Save the workbook
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
 
-يشرح كل شيء آخر في هذه المقالة متى تختار واجهة برمجة تطبيقات أضيق بدلاً من ذلك.
-
-## الاستيرادات المطلوبة
-تعتمد جميع أمثلة Python في هذه المقالة على الاستيرادات التالية لأن أنواع الجداول المحورية توجد في مساحة الاسم `aspose.cells.pivot`:
-- `import jpype`
-- `import aspose.cells as cells`
-تُستخدم وحدة `jpype` لتشغيل JVM، بينما تعرض `aspose.cells` أنواع المصنف/ورقة العمل/الخلية/الجدول المحوري المستخدمة في جميع أنحاء المقالة.
-
-## تحديث جميع الجداول المحورية في المصنف
-عندما تحتاج إلى التأكد من أن كل ذاكرة تخزين مؤقت للجدول المحوري وكل جدول محوري في المصنف يعكس أحدث بيانات المصدر، فإن أبسط وأشمل واجهة برمجة تطبيقات هي `Workbook.refreshAll()`. تتنقل مكالمة واحدة عبر المصنف بأكمله — تحدث كل `PivotCache` من مصدرها ثم تعيد حساب كل `PivotTable` تابع. هذا هو الأسلوب الموصى به للتحديثات العامة للوثيقة بأكملها عندما لا يكون الأداء موضع قلق.
-يبني المثال التالي مصنفًا بنطاق مصدر Fruit/Year/Amount، وينشئ جدولًا محوريًا واحدًا، ويعدل بعض قيم المصدر، ثم يستخدم `refreshAll()` لجلب كل شيء محدّثًا في مكالمة واحدة.
+## Refresh All Pivot Tables on a Single Worksheet
+في بعض الأحيان تحتاج فقط إلى تحديث الجداول المحورية التي تعيش في ورقة عمل واحدة محددة — على سبيل المثال، عندما يكون من المعروف أن الجداول المحورية في أوراق العمل الأخرى غير ذات صلة ولا ينبغي لمسها. لهذه الحالة، يوفر Aspose.Cells `Worksheet.refreshPivotTables()`، الذي يتم تحديد نطاقه لمثيل `Worksheet` واحد.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -149,22 +158,28 @@ workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
 
-## تحديث جميع الجداول المحورية في ورقة عمل واحدة
-في بعض الأحيان تحتاج فقط إلى تحديث الجداول المحورية التي تعيش في ورقة عمل محددة واحدة — على سبيل المثال، عندما تكون الجداول المحورية في أوراق العمل الأخرى غير ذات صلة ولا ينبغي لمسها. لهذه الحالة، توفر Aspose.Cells `Worksheet.refreshPivotTables()`، والتي تكون محصورة في مثيل `Worksheet` واحد.
+## Refresh a Single Pivot Table
+عندما تريد تحكمًا دقيقًا في جدول محوري واحد، تمنحك واجهة البرمجة المستندة إلى ذاكرة التخزين المؤقت خيارين. يعتمد الاختيار بينهما على ما تغير فعليًا: بيانات المصدر الأساسية، أو إعدادات العرض/التخطيط للجدول المحوري نفسه.
+
+### Source Data Changed — Use `PivotCache.refresh()`
+إذا تغيرت بيانات المصدر الأساسية، فإن نقطة الدخول الصحيحة هي `pivotTable.getPivotCache().refresh()`. يعيد هذا الاستدعاء قراءة بيانات المصدر في ذاكرة التخزين المؤقت ثم يعيد حساب كل `PivotTable` يعتمد على تلك الذاكرة المؤقتة.
+
+### Only View/Layout Changed — Use `calculateData()`
+إذا لم تتغير بيانات المصدر ولكن تم تعديل إعدادات عرض أو تخطيط الجدول المحوري فقط (على سبيل المثال، تم نقل حقل إلى منطقة مختلفة، أو تم تبديل إعداد التحديث عند الفتح)، فلا توجد حاجة للذهاب والإياب إلى مصدر البيانات. تحتفظ ذاكرة التخزين المؤقت بالفعل بالبيانات الصحيحة؛ فقط `PivotTable` المعروض يحتاج إلى إعادة حساب. في هذه الحالة، `pivotTable.calculateData()` هو الاختيار الصحيح.
+يعدّل المثال التالي خاصية غير مصدرية للجدول المحوري ثم يستدعي `calculateData()` لإعادة عرضه من ذاكرة التخزين المؤقت الموجودة.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# كتابة صف العناوين: الفاكهة / السنة / المبلغ
+# Write Fruit / Year / Amount header row
 worksheet.getCells().get("A1").putValue("Fruit")
 worksheet.getCells().get("B1").putValue("Year")
 worksheet.getCells().get("C1").putValue("Amount")
-# كتابة 8 صفوف من البيانات (الصفوف 2-9، بحيث تتطابق مع نطاق المصدر A1:C9)
+# Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.getCells().get("A2").putValue("Grape")
 worksheet.getCells().get("B2").putValue(2020)
 worksheet.getCells().get("C2").putValue(100)
@@ -189,66 +204,50 @@ worksheet.getCells().get("C8").putValue(350)
 worksheet.getCells().get("A9").putValue("Cherry")
 worksheet.getCells().get("B9").putValue(2021)
 worksheet.getCells().get("C9").putValue(450)
-# إضافة جدول محوري باسم "Pivot1" موضوع في خلية الوجهة E3، ومصدره A1:C9
+# Add a pivot table named "Pivot1" placed at destination cell E3, sourcing from A1:C9
 pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
 pivotTable = worksheet.getPivotTables().get(pivotIndex)
-# تعيين الحقول: Fruit إلى الصف، Year إلى العمود، Amount إلى البيانات
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
-# تعديل خاصية عرض/تخطيط — هذا تغيير خاص بالعرض فقط،
-# لذلك لا يتطلب إعادة قراءة البيانات المصدر عبر PivotCache.Refresh().
+# Assign fields: Fruit to Row, Year to Column, Amount to Data
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
+# Modify a view/layout property — this is a presentation-only change,
+# so it does NOT require re-reading the source data through PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(False)
-# تقوم calculateData() بإعادة عرض جدول المحوري هذا (البيانات + النمط) من
-# البيانات الموجودة بالفعل في PivotCache. ولأن البيانات المصدر لم تتغير،
-# لا يتم إجراء أي جولة ذهاب وإياب إلى المصدر — يتم فقط إعادة حساب القيم المخزنة مؤقتًا
-# في خلايا ورقة العمل.
+# calculateData() re-renders THIS pivot table's display (data + style) from the
+# data already held in the PivotCache. Because the source data did not change,
+# no round-trip to the source is performed — only the cached values are recalculated
+# into worksheet cells.
 pivotTable.calculateData()
-# حفظ المصنف على القرص
+# Save the workbook to disk
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
 
-## تحديث جدول محوري واحد
-عندما تريد تحكمًا دقيقًا في جدول محوري واحد، فإن واجهة برمجة التطبيقات القائمة على ذاكرة التخزين المؤقت تمنحك خيارين. يعتمد الاختيار بينهما على ما تغير فعليًا: بيانات المصدر الأساسية، أو مجرد إعدادات العرض/التخطيط للجدول المحوري نفسه.
+غالبًا ما يحتوي المصنف على العديد من الجداول المحورية التي تجلس جميعها فوق ذاكرة تخزين مؤقت واحدة مشتركة. لتعدادها — على سبيل المثال، قبل إجراء تحديث دفعة، أو لتشخيص تأثير ذاكرة التخزين المؤقت المشتركة — استخدم `PivotCache.getPivotTables()`. ترجع هذه الطريقة مجموعة كل `PivotTable` يعتمد على ذاكرة التخزين المؤقت المحددة.
 
-### تغيرت بيانات المصدر — استخدم `PivotCache.refresh()`
-إذا تغيرت بيانات المصدر الأساسية، فإن نقطة الدخول الصحيحة هي `pivotTable.getPivotCache().refresh()`. تعيد هذه المكالمة قراءة بيانات المصدر إلى ذاكرة التخزين المؤقت ثم تعيد حساب كل `PivotTable` يعتمد على تلك السلية.
+## Migrating from the Obsolete `PivotTable.refreshData()`
+قبل Aspose.Cells for Python via Java v26.7، كانت الطريقة القياسية لتحديث جدول محوري هي استدعاء `PivotTable.refreshData()` على كل جدول محوري على حدة. اعتبارًا من الإصدار v26.7، تم وضع علامة على هذه الطريقة باعتبارها **قديمة** ويجب استبدالها بواجهات البرمجة المراعية لذاكرة التخزين المؤقت الموضحة أعلاه.
+هناك سببان يجعل نهج `refreshData()` لكل جدول مشكلة في المصنفات الواقعية:
+- يقوم بإعادة جلب البيانات من المصدر *في كل مرة* يتم استدعاؤه فيها، حتى عندما لا يتغير المصدر.
+البدائل الموصى بها:
+يوضح المثال التالي النمط الجديد والفعال للمصنفات ذات الجداول المحورية المتعددة التي تشترك في ذاكرة تخزين مؤقت واحدة.
 
-### تغير العرض/التخطيط فقط — استخدم `calculateData()`
-إذا كانت بيانات المصدر *لم* تتغير ولكن تم تعديل إعدادات عرض أو تخطيط الجدول المحوري فقط (على سبيل المثال، تم نقل حقل إلى منطقة مختلفة، أو تم تبديل إعداد التحديث عند الفتح)، فلا توجد حاجة للعودة إلى مصدر البيانات. تحتوي ذاكرة التخزين المؤقت بالفعل على البيانات الصحيحة؛ فقط `PivotTable` المعروض يحتاج إلى إعادة حساب. في هذه الحالة، `pivotTable.calculateData()` هو الخيار الصحيح.
-يعدل المثال التالي خاصية غير مصدرية للجدول المحوري ثم يستدعي `calculateData()` لإعادة عرضه من ذاكرة التخزين المؤقت الموجودة.
-غالبًا ما يحتوي المصنف على جداول محورية متعددة كلها تستند إلى ذاكرة تخزين مؤقت مشتركة واحدة. لتعدادها — على سبيل المثال، قبل إجراء تحديث مجمع، أو لتشخيص تأثير ذاكرة التخزين المؤقت المشتركة — استخدم `PivotCache.getPivotTables()`. تُرجع هذه الطريقة مجموعة كل `PivotTable` يعتمد على ذاكرة التخزين المؤقت المعطاة.
-
-## الانتقال من `PivotTable.refreshData()` المهجور
-قبل Aspose.Cells for Python via Java v26.7، كانت الطريقة القياسية لتحديث جدول محوري هي استدعاء `PivotTable.refreshData()` على كل جدول محوري على حدة. اعتبارًا من الإصدار v26.7، تم وضع علامة على هذه الطريقة على أنها **مهجورة** ويجب استبدالها بواجهات برمجة التطبيقات الواعية بذاكرة التخزين المؤقت الموضحة أعلاه.
-هناك سببان يجعل أسلوب `refreshData()` لكل جدول إشكاليًا في المصنفات الواقعية:
-- يعيد جلب البيانات من المصدر *في كل مرة* يتم استدعاؤها، حتى عندما لم يتغير المصدر.
-البدائل الموصى بها هي:
-يوضح المثال التالي النمط الفعّال الجديد للمصنفات ذات الجداول المحورية المتعددة التي تتشارك ذاكرة تخزين مؤقت واحدة.
-
-## أي واجهة برمجة تطبيقات للتحديث يجب أن أستخدم؟
+## Which Refresh API Should I Use?
 يلخص الجدول التالي واجهات برمجة التطبيقات المتاحة للتحديث ومتى تختار كل واحدة.
-| الهدف | واجهة برمجة التطبيقات الموصى بها | ملاحظات |
-|------|-----------------|-------|
-| تحديث كل شيء في المصنف | `Workbook.refreshAll()` | مكالمة واحدة؛ تغطي كل ذواكر التخزين المؤقت والجداول. |
-| تحديث الجداول المحورية فقط في ورقة واحدة | `Worksheet.refreshPivotTables()` | محصور في ورقة عمل واحدة. |
-| تغيرت بيانات المصدر لذاكرة تخزين مؤقت واحدة | `pivotTable.getPivotCache().refresh()` | يحدث كل الجداول المحورية على ذاكرة التخزين المؤقت المشتركة تلك. |
+| الهدف | واجهة البرمجة الموصى بها | ملاحظات |
+|------|--------------------------|---------|
+| تحديث كل شيء في المصنف | `Workbook.refreshAll()` | استدعاء واحد؛ يغطي جميع ذاكرات التخزين المؤقت والجداول. |
+| تحديث الجداول المحورية فقط على ورقة واحدة | `Worksheet.refreshPivotTables()` | محدد النطاق بورقة عمل واحدة. |
+| تغيرت بيانات المصدر لذاكرة تخزين مؤقت واحدة | `pivotTable.getPivotCache().refresh()` | يحدّث جميع الجداول المحورية على تلك الذاكرة المؤقتة المشتركة. |
 | تغيرت إعدادات العرض/التخطيط فقط | `pivotTable.calculateData()` | يتخطى رحلة المصدر غير الضرورية. |
-| سرد كل الجداول المحورية على ذاكرة تخزين مؤقت مشتركة | `pivotCache.getPivotTables()` | استخدم للتعداد قبل التحديث المجمع. |
-عمليًا، فضّل واجهات برمجة التطبيقات القائمة على ذاكرة التخزين المؤقت على `refreshData()` المهجور لكل جدول. إنها واعية بذواكر التخزين المؤقت المشتركة، وتتجنب جلب المصدر الزائد عن الحاجة، وتتيح لك اختيار أصغر نطاق يلبي متطلبات التحديث لديك.
+| يسرد جميع الجداول المحورية على ذاكرة تخزين مؤقت مشتركة | `pivotCache.getPivotTables()` | يُستخدم للتعداد قبل التحديث المجمّع. |
+عمليًا، فضّل واجهات البرمجة المستندة إلى ذاكرة التخزين المؤقت على `refreshData()` القديمة لكل جدول. إنها على دراية بذاكرة التخزين المؤقت المشتركة، وتتجنب جلب المصدر بشكل مكرر، وتتيح لك اختيار أصغر نطاق يلبي متطلبات التحديث.
 
-## الأخطاء الشائعة
-- **نسيان التحديث قبل الحفظ.** لا يكتب الجدول المحوري قيمه المعروضة في ورقة العمل إلا عند تحديث سلسلة البيانات الخاصة به. إذا قمت بتعديل خلايا المصدر، فاستدعِ `PivotCache.Refresh()` (أو `Workbook.RefreshAll()`) قبل `Workbook.save()`، وإلا فإن الملف المحفوظ لا يزال يحتوي على القيم المجمعة القديمة.
-- **استدعاء `RefreshData()` المهجور لكل جدول.** في الإصدار v26.7، تم وضع علامة `PivotTable.RefreshData()` على أنها مهجورة وتعيد جلب المصدر لكل مكالمة. مع الجداول المحورية المتعددة التي تتشارك ذاكرة تخزين مؤقت، يعني هذا جلب المصدر N مرة بشكل زائد عن الحاجة. استبدل بمكالمة `PivotCache.Refresh()` واحدة متبوعة بـ `CalculateData()` لكل جدول.
-- **التحديث عند تغير التخطيط فقط.** إذا قمت فقط بتغيير عرض الجدول المحوري (ترتيب الأعمدة، `ConsolidationFunction`، إلخ) دون لمس بيانات المصدر، فإن `PivotCache.Refresh()` غير ضروري وبطيء. استدعِ `pivotTable.CalculateData()` لإعادة العرض من ذاكرة التخزين المؤقت الموجودة.
-- **المصدر الخارجي غير مدعوم من قبل `PivotCache.Refresh()`.** إذا كان مصدر الجدول المحوري يأتي من اتصال خارجي (قاعدة بيانات، مكعب OLAP، إلخ)، فلا يمكن لـ `PivotCache.Refresh()` تحديثه في الإصدار v26.7 — فهو يدعم حاليًا فقط أنواع مصادر `Sheet` و `Consolidation`. بالنسبة للمصادر الخارجية، أعد فتح المصنف أو أعد بناء ذاكرة التخزين المؤقت من المصدر.
-
-```csharp
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
-```
+## Common Pitfalls
+- **نسيان التحديث قبل الحفظ.** لا يكتب الجدول المحوري قيمه المعروضة في ورقة العمل إلا عند تحديث سلسلة البيانات الخاصة به. إذا قمت بتعديل خلايا المصدر، فاستدعِ `PivotCache.refresh()` (أو `Workbook.refreshAll()`) قبل `Workbook.save()`، وإلا فإن الملف المحفوظ سيظل يحتوي على القيم المجمّعة القديمة.
+- **استدعاء `RefreshData()` القديمة لكل جدول.** في الإصدار v26.7، تم وضع علامة `PivotTable.RefreshData()` على أنها قديمة وتعيد جلب المصدر لكل استدعاء. مع جداول محورية متعددة تشترك في ذاكرة تخزين مؤقت يعني هذا وجود عدد N من جلبات المصدر المكررة. استبدل بـ `PivotCache.refresh()` واحد متبوعًا بـ `calculateData()` لكل جدول.
+- **التحديث عندما يتغير التخطيط فقط.** إذا قمت فقط بتغيير عرض الجدول المحوري (ترتيب الأعمدة، `ConsolidationFunction`، إلخ) دون لمس بيانات المصدر، فإن `PivotCache.refresh()` غير ضروري وبطيء. استدعِ `pivotTable.calculateData()` لإعادة العرض من ذاكرة التخزين المؤقت الموجودة.
+- **المصدر الخارجي غير مدعوم من قبل `PivotCache.refresh()`.** إذا كان مصدر الجدول المحوري يأتي من اتصال خارجي (قاعدة بيانات، مكعب OLAP، إلخ)، فإن `PivotCache.refresh()` لا يمكنه تحديثه في الإصدار v26.7 — فهو يدعم حاليًا أنواع مصادر `Sheet` و `Consolidation` فقط. بالنسبة للمصادر الخارجية، أعد فتح المصنف أو أعد بناء ذاكرة التخزين المؤقت من المصدر.
 
 {{< app/cells/assistant language="python" >}}

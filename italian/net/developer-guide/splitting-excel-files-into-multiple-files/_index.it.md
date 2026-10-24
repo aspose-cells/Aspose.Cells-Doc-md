@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta la divisione di un singolo file Excel in più file. Esistono due modi principali per farlo: (1) copiando ciascun foglio di lavoro della cartella di lavoro di origine in una nuova cartella di lavoro e salvando ciascuno come file separato, e (2) copiando un intervallo di celle specifico da un foglio di lavoro in una nuova cartella di lavoro. Entrambi gli approcci sono utili quando è necessario distribuire sottoinsiemi di dati, creare report più piccoli per diversi destinatari o isolare i dati per elaborazioni individuali.
+{{% /alert %}}
 
 ## **Introduzione**
 Esistono molti scenari reali in cui uno sviluppatore ha bisogno di suddividere un singolo file Excel in diversi file più piccoli. Ad esempio, una cartella di lavoro può contenere un foglio di lavoro per ciascun reparto, e ogni responsabile di reparto deve ricevere solo il proprio foglio. In altri casi, potreste voler estrarre una particolare tabella o blocco di dati da un foglio di lavoro e inviarlo come file autonomo tramite e-mail, senza esporre il resto della cartella di lavoro. Cartelle di lavoro consolidate di grandi dimensioni potrebbero anche dover essere divise in parti più piccole per una gestione più semplice, un caricamento più rapido o l'elaborazione successiva da parte di altri sistemi.
@@ -79,6 +80,5 @@ I seguenti passaggi descrivono come dividere un file Excel copiando un intervall
 
 ### **Esempio di codice**
 L'output previsto è un singolo nuovo file nella directory dei dati che contiene solo i valori (e opzionalmente la formattazione) dell'intervallo specificato estratto dalla cartella di lavoro di origine. Il file di destinazione non ha alcuna relazione con altri dati nel file di origine; contiene solo l'intervallo estratto, a partire dalla cella `A1` del suo primo foglio di lavoro.
-{{% /alert %}}
 
 {{< app/cells/assistant language="csharp" >}}

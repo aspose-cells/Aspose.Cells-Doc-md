@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells unterstützt das Aufteilen einer einzelnen Excel-Datei in mehrere Dateien. Es gibt zwei primäre Methoden dafür: (1) indem jedes Arbeitsblatt der Quellarbeitsmappe in eine neue Arbeitsmappe kopiert und jede als separate Datei gespeichert wird, und (2) indem ein bestimmter Zellbereich aus einem Arbeitsblatt in eine neue Arbeitsmappe kopiert wird. Beide Ansätze sind nützlich, wenn Sie Teilmengen von Daten verteilen, kleinere Berichte für verschiedene Empfänger erstellen oder Daten für die individuelle Verarbeitung isolieren müssen.
+{{% /alert %}}
 
 ## **Einführung**
 Es gibt viele reale Szenarien, in denen ein Entwickler eine einzelne Excel-Datei in mehrere kleinere Dateien aufteilen muss. Beispielsweise kann eine Arbeitsmappe ein Arbeitsblatt pro Abteilung enthalten, und jeder Abteilungsleiter muss nur sein eigenes Blatt erhalten. In anderen Fällen möchten Sie möglicherweise eine bestimmte Tabelle oder einen Datenblock aus einem Arbeitsblatt extrahieren und als eigenständige Datei per E-Mail versenden, ohne den Rest der Arbeitsmappe offenzulegen. Große konsolidierte Arbeitsmappen müssen möglicherweise auch in kleinere Teile aufgeteilt werden, um eine einfachere Handhabung, schnelleres Laden oder die nachgelagerte Verarbeitung durch andere Systeme zu ermöglichen.
@@ -40,7 +41,6 @@ Die folgenden Schritte beschreiben, wie eine Excel-Datei durch Kopieren jedes Ar
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat
 dataDir = "data/"
 workbook = Workbook(dataDir + "book1.xls")
@@ -56,7 +56,7 @@ for i in range(workbook.getWorksheets().getCount()):
     destSheet.copy(sourceSheet)
     
     destFile = dataDir + sheetName + ".xls"
-    destWorkbook.save(destFile, SaveFormat.Excel97To2003)
+    destWorkbook.save(destFile, SaveFormat.EXCEL_97_TO_2003)
 jpype.shutdownJVM()
 ```
 
@@ -80,6 +80,5 @@ Die folgenden Schritte beschreiben, wie eine Excel-Datei durch Kopieren eines be
 
 ### **Codebeispiel**
 Die erwartete Ausgabe ist eine einzelne neue Datei im Datenverzeichnis, die nur die Werte (und optional die Formatierung) des angegebenen Bereichs enthält, der aus der Quellarbeitsmappe extrahiert wurde. Die Zieldatei hat keine Beziehung zu anderen Daten in der Quelldatei; sie enthält nur den extrahierten Bereich, beginnend bei Zelle `A1` ihres ersten Arbeitsblatts.
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

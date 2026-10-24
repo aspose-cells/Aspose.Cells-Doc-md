@@ -2,7 +2,7 @@
 title: Conversione di Excel in formato OFD
 description: Aspose.Cells for Python via Java è una libreria per lavorare con file di fogli di calcolo che supporta la conversione di cartelle di lavoro Excel in formato OFD (Open Fixed-layout Document). Questo articolo mostra come creare contenuto Excel ed esportarlo come OFD, nonché come convertire file Excel esistenti in OFD utilizzando Aspose.Cells for Python via Java.
 linktitle: Conversione di Excel in formato OFD
-keywords: Aspose.Cells, libreria Python via Java, foglio di calcolo, Excel in OFD, conversione OFD, SaveFormat.Ofd, documento a layout fisso, esportazione cartella di lavoro
+keywords: Aspose.Cells, libreria Python via Java, foglio di calcolo, Excel in OFD, conversione OFD, SaveFormat.OFD, documento a layout fisso, esportazione cartella di lavoro
 type: docs
 weight: 195
 url: /it/python-java/converting-excel-to-ofd-format/
@@ -11,26 +11,27 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells for Python via Java supporta la conversione delle cartelle di lavoro Excel direttamente in formato OFD (Open Fixed-layout Document) utilizzando il valore di enumerazione `SaveFormat.Ofd`. Il documento OFD risultante preserva il layout visibile della cartella di lavoro, il contenuto, le celle unite, le larghezze delle colonne, le altezze delle righe, i caratteri, i colori, i bordi e i formati numerici. Questo rende Aspose.Cells for Python via Java adatto per flussi di lavoro di archiviazione, stampa, deposito normativo e sottomissioni governative che richiedono un output a layout fisso.
+Aspose.Cells for Python via Java supporta la conversione delle cartelle di lavoro Excel direttamente in formato OFD (Open Fixed-layout Document) utilizzando il valore di enumerazione `SaveFormat.OFD`. Il documento OFD risultante preserva il layout visibile della cartella di lavoro, il contenuto, le celle unite, le larghezze delle colonne, le altezze delle righe, i caratteri, i colori, i bordi e i formati numerici. Questo rende Aspose.Cells for Python via Java adatto per flussi di lavoro di archiviazione, stampa, deposito normativo e sottomissioni governative che richiedono un output a layout fisso.
+{{% /alert %}}
 
 ## **Introduzione**
 OFD (Open Fixed-layout Document) è uno standard nazionale cinese (GB/T 33190-2016) per la rappresentazione di documenti digitali in un layout fisso, basato su pagine. Svolge un ruolo simile a PDF per casi d'uso in cui l'aspetto visivo del documento sorgente deve essere preservato esattamente come è stato creato. OFD è ampiamente adottato per sottomissioni governative, depositi normativi, fatture elettroniche e archiviazione a lungo termine nella Repubblica Popolare Cinese.
-La conversione delle cartelle di lavoro Excel in OFD è un requisito comune in scenari in cui il contenuto del foglio di calcolo deve essere distribuito come artefatto di sola lettura, con layout bloccato, anziché come foglio di calcolo modificabile. Esempi includono l'invio di una fattura finalizzata a un cliente, l'archiviazione di un rapporto finanziario trimestrale o la sottomissione di un foglio di calcolo del budget a un'autorità di regolamentazione. Aspose.Cells for Python via Java soddisfa questo requisito attraverso il valore di enumerazione `SaveFormat.Ofd`, che scrive la cartella di lavoro direttamente in OFD senza richiedere un passaggio intermedio di conversione. L'output OFD preserva i valori delle celle, gli intervalli uniti, i caratteri, i colori, i bordi, i formati numerici e le opzioni di impostazione della pagina configurate sulla cartella di lavoro.
+La conversione delle cartelle di lavoro Excel in OFD è un requisito comune in scenari in cui il contenuto del foglio di calcolo deve essere distribuito come artefatto di sola lettura, con layout bloccato, anziché come foglio di calcolo modificabile. Esempi includono l'invio di una fattura finalizzata a un cliente, l'archiviazione di un rapporto finanziario trimestrale o la sottomissione di un foglio di calcolo del budget a un'autorità di regolamentazione. Aspose.Cells for Python via Java soddisfa questo requisito attraverso il valore di enumerazione `SaveFormat.OFD`, che scrive la cartella di lavoro direttamente in OFD senza richiedere un passaggio intermedio di conversione. L'output OFD preserva i valori delle celle, gli intervalli uniti, i caratteri, i colori, i bordi, i formati numerici e le opzioni di impostazione della pagina configurate sulla cartella di lavoro.
 
 {{% alert color="primary" %}}
 L'output OFD generato da Aspose.Cells for Python via Java preserva il layout visibile della cartella di lavoro sorgente, incluso il contenuto delle celle, le celle unite, le larghezze delle colonne e le altezze delle righe. Anche la formattazione delle celle come caratteri, colori, bordi, allineamento e formati numerici viene riprodotta nell'output a layout fisso. Le opzioni di impostazione della pagina configurate sul foglio di lavoro, come dimensione della carta, orientamento e area di stampa, influenzano il layout del documento OFD risultante.
+{{% /alert %}}
 
 ## **Creazione di una cartella di lavoro Excel e salvataggio come OFD**
-Aspose.Cells for Python via Java consente di creare una cartella di lavoro in modo programmatico, popolarla con dati e quindi salvarla direttamente in formato OFD utilizzando l'enumerazione `SaveFormat.Ofd`. L'esempio seguente crea una fattura da zero. Aggiunge il logo aziendale, le informazioni di intestazione, una sezione "intestatario", le voci e i totali calcolati, quindi esporta la cartella di lavoro in un documento OFD.
+Aspose.Cells for Python via Java consente di creare una cartella di lavoro in modo programmatico, popolarla con dati e quindi salvarla direttamente in formato OFD utilizzando l'enumerazione `SaveFormat.OFD`. L'esempio seguente crea una fattura da zero. Aggiunge il logo aziendale, le informazioni di intestazione, una sezione "intestatario", le voci e i totali calcolati, quindi esporta la cartella di lavoro in un documento OFD.
 
 ### **Costruire una fattura con un logo**
-L'esempio costruisce un foglio di lavoro fattura inserendo un'immagine del logo nell'angolo in alto a sinistra, popolando il nome dell'azienda e i dettagli di contatto, aggiungendo un titolo "INVOICE" su celle unite, registrando il numero e la data della fattura, elencando il cliente intestatario, costruendo una tabella di voci con colonne per descrizione, quantità, prezzo unitario e totale, e calcolando il subtotale, l'imposta e il totale complessivo utilizzando formule nelle celle. La formattazione come intestazioni in grassetto, formato valuta per i prezzi, bordi e larghezze delle colonne viene applicata utilizzando gli oggetti `Style` e `Font`. Infine, la cartella di lavoro viene salvata con l'estensione `.ofd` utilizzando `SaveFormat.Ofd`.
+L'esempio costruisce un foglio di lavoro fattura inserendo un'immagine del logo nell'angolo in alto a sinistra, popolando il nome dell'azienda e i dettagli di contatto, aggiungendo un titolo "INVOICE" su celle unite, registrando il numero e la data della fattura, elencando il cliente intestatario, costruendo una tabella di voci con colonne per descrizione, quantità, prezzo unitario e totale, e calcolando il subtotale, l'imposta e il totale complessivo utilizzando formule nelle celle. La formattazione come intestazioni in grassetto, formato valuta per i prezzi, bordi e larghezze delle colonne viene applicata utilizzando gli oggetti `Style` e `Font`. Infine, la cartella di lavoro viene salvata con l'estensione `.ofd` utilizzando `SaveFormat.OFD`.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, Style, Cell, TextAlignmentType, BorderType, CellBorderType, Color
 dataDir = "/tmp/"
 # Crea una nuova cartella di lavoro
@@ -84,10 +85,10 @@ headerStyle.getFont().setBold(True)
 headerStyle.getFont().setColor(Color.getWhite())
 headerStyle.setBackgroundColor(Color.getNavy())
 headerStyle.setHorizontalAlignment(TextAlignmentType.CENTER)
-headerStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 headerDesc.setStyle(headerStyle)
 headerQty.setStyle(headerStyle)
 headerPrice.setStyle(headerStyle)
@@ -95,16 +96,16 @@ headerTotal.setStyle(headerStyle)
 # Stile valuta con bordi
 currencyStyle = workbook.createStyle()
 currencyStyle.setCustom("\"$\"#,##0.00")
-currencyStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # Stile bordo semplice per celle descrizione/quantità
 borderStyle = workbook.createStyle()
-borderStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # Righe voci
 lineItems = [
     ["Product A - Widget", 2, 50.00],
@@ -149,7 +150,7 @@ worksheet.getCells().get("B24").setStyle(boldStyle)
 worksheet.getCells().get("B25").setStyle(boldStyle)
 worksheet.getCells().get("B26").setStyle(boldStyle)
 # Salva la cartella di lavoro come file OFD
-workbook.save(dataDir + "Invoice.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "Invoice.ofd", SaveFormat.OFD)
 jpype.shutdownJVM()
 ```
 
@@ -194,7 +195,7 @@ printArea = "A1:" + lastColLetter + str(lastRow + 1)
 firstSheet.getPageSetup().setPrintArea(printArea)
 print("\nPrint area set to: " + printArea)
 # (6) Salva la cartella di lavoro come file OFD
-workbook.save(dataDir + "SampleBook.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "SampleBook.ofd", SaveFormat.OFD)
 print("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd")
 jpype.shutdownJVM()
 ```
@@ -204,8 +205,5 @@ jpype.shutdownJVM()
 - [Inserimento di un'immagine in una cella](/cells/it/python-java/inserting-an-image-into-a-cell/)
 - [Lettura e scrittura di file DBF](/cells/it/python-java/dbf/)
 - [Conversione di Sparkline in immagine e HTML in Aspose.Cells for Python via Java](/cells/it/python-java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持通过 Smart Markers 将数组数据渲染到单个单元格。通过同时使用 `ArrayAsSingle` 属性和 `ExtraDelimiter` 属性，开发人员可以控制数组元素在单个单元格中的分隔方式，从而为报表和模板提供灵活的格式化功能。
+{{% /alert %}}
 
 ## **简介**
 Aspose.Cells 中的 Smart Markers 是一项强大的基于模板的功能，允许您使用标记表达式（如 `&=DataSource.Field`）动态填充电子表格数据。标记放置在设计器工作簿中，当模板由 `WorkbookDesigner` 处理时，标记将被替换为所提供数据源中的值。
@@ -59,6 +60,7 @@ Aspose.Cells 中的 Smart Markers 是一项强大的基于模板的功能，允�
 
 {{% alert color="primary" %}}
 `extraDelimiter` 属性接受任何字符串字面量，包括多字符分隔符、自定义文本或转义序列（如 `\n` 用于换行分隔的输出）。如果数组为空，则结果单元格将留空。
+{{% /alert %}}
 
 ### **分步工作流程**
 以下工作流程描述了如何使用 Smart Markers 将数组渲染到单个单元格中。
@@ -166,8 +168,5 @@ public class Order
 - 该功能适用于对象数据源，以及列可以拆分为数组的 `DataSet` 和 `DataTable` 数据源。
 - 对于换行分隔的输出，您可以使用 `\n` 或 `Environment.NewLine` 作为分隔符值。
 - 将 Smart Marker 放置在具有足够宽度的单元格中，以显示最终的连接字符串；否则，根据格式的不同，内容可能会在视觉上溢出到相邻的单元格中。
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="csharp" >}}

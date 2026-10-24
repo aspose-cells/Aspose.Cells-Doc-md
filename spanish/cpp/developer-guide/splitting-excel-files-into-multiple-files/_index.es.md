@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells admite la división de un único archivo Excel en varios archivos. Existen dos formas principales de hacerlo: (1) copiando cada hoja de cálculo del libro de trabajo de origen a un nuevo libro de trabajo y guardando cada uno como un archivo independiente, y (2) copiando un rango de celdas específico de una hoja de cálculo a un nuevo libro de trabajo. Ambos enfoques son útiles cuando necesita distribuir subconjuntos de datos, crear informes más pequeños para diferentes destinatarios o aislar datos para su procesamiento individual.
+{{% /alert %}}
 
 ## **Introducción**
 Existen muchos escenarios del mundo real en los que un desarrollador necesita dividir un único archivo Excel en varios archivos más pequeños. Por ejemplo, un libro de trabajo puede contener una hoja de cálculo por departamento, y cada jefe de departamento necesita recibir únicamente su propia hoja. En otros casos, es posible que desee extraer una tabla o bloque de datos concreto de una hoja de cálculo y enviarlo como archivo independiente por correo electrónico, sin exponer el resto del libro de trabajo. También puede ser necesario dividir libros de trabajo consolidados grandes en fragmentos más pequeños para un manejo más sencillo, una carga más rápida o su procesamiento posterior por otros sistemas.
@@ -78,7 +79,6 @@ Los siguientes pasos describen cómo dividir un archivo Excel copiando un rango 
 
 ### **Ejemplo de código**
 El resultado esperado es un único archivo nuevo en el directorio de datos que contiene solo los valores (y, opcionalmente, el formato) del rango especificado extraído del libro de trabajo de origen. El archivo de destino no tiene relación con ningún otro dato del archivo de origen; contiene únicamente el rango extraído, comenzando en la celda `A1` de su primera hoja de cálculo.
-{{% /alert %}}
 
 ## Artículos relacionados
 - [Agregar campos de filtro a una Tabla Dinámica en Aspose.Cells for C++](/cells/es/cpp/add-page-field-in-pivot-table/)

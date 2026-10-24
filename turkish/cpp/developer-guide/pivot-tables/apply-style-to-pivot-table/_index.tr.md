@@ -31,6 +31,7 @@ Aşağıdaki örnek, yeni bir çalışma kitabı yükler, Fruit/Year/Amount örn
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Yeni bir çalışma kitabı oluştur
@@ -85,9 +86,19 @@ int main() {
 
 ## **Modern Adlandırılmış Hazır Pivot Tablosu Stilini Uygulama**
 
+`SetPivotTableStyleType`, Excel 2007'in pivot tabloları için tanıttığı yerleşik adlandırılmış stillerden birini seçer. `PivotTableStyleType` numaralandırması üç tema ailesini ortaya çıkarır: `PivotTableStyleLight1` ile `PivotTableStyleLight28` arası açık aile, `PivotTableStyleMedium1` ile `PivotTableStyleMedium28` arası orta aile ve `PivotTableStyleDark1` ile `PivotTableStyleDark28` arası koyu aile. Ayrıca `None` ve `Custom` değerlerini de tanımlar. Her ailenin daha yüksek sayıya sahip üyeleri Excel 2017'de eklenen stillerdir.
+Bu ön ayarlar salt okunurdur. Bir ön ayarın sunduğu sınırların ötesinde renkleri, kenarlıkları veya yazı tiplerini değiştirmeniz gerektiğinde, bunun yerine [Senaryo 3](#define-and-apply-a-custom-pivot-table-style)'te gösterildiği gibi özel bir pivot stili tanımlamanız gerekir.
+
+{{% alert color="primary" %}}
+**Neden modern ön ayarlar ve rapor serisi otomatik Biçimlendirmeleri değil?** `PivotTableAutoFormatType`'ın `Report1` ile `Report10` ve `Table1` ile `Table10` değerleri, pivot sütun alanlarından daha önce gelmektedir; bu nedenle sütun alanı başlıkları için hiçbir stillendirme içermez ve Excel bu başlıkları stillendirilmemiş olarak görüntüler. `PivotTableStyleType` ön ayarları ise modern Excel'in kullandığı iki boyutlu düzen için tasarlanmıştır ve hem satır alanı hem de sütun alanı başlıklarını stillendirir.
+{{% /alert %}}
+
+Bu senaryo, Senaryo 1'in meyve/yıl/miktar veri kümesini yeniden kullanır, `PivotFieldType::Column` aracılığıyla `Year`'ı `Fruit` satır alanı ile birlikte sütun alanına ekler, `SetPivotTableStyleType` ile koyu tema ön ayarı `PivotTableStyleDark1` uygular ve sonucu `.xlsx` olarak kaydeder — `PivotTableStyleType`'ın anlamlı olduğu format.
+
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -134,7 +145,6 @@ int main() {
     return 0;
 }
 ```
-
 ## **Özel Bir Pivot Tablosu Stili Tanımlama ve Uygulama**
 Yerleşik hazır ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı tiplerini geçersiz kılmanız gerektiğinde, özel bir pivot stili tanımlamalısınız. İş akışı üç adımdan oluşur:
 1. `Worksheets.TableStyles.AddPivotTableStyle(string name)` aracılığıyla çalışma kitabının `TableStyles` koleksiyonuna özel bir stil ekleyin. Bu, yeni oluşturulan stilin dizinini döndürür.
@@ -143,14 +153,14 @@ Yerleşik hazır ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı t
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` ve `PivotTableStyleType` birbirinin yerine kullanılamaz. Yerleşik hazır ayarlar için `PivotTableStyleType`, `AddPivotTableStyle` aracılığıyla tanımladığınız özel stiller için `PivotTableStyleName` kullanın. İkisini birden ayarlamak zararsızdır; ancak yalnızca amaçlanan kaynağa uygun olan işlenir.
-{{% /alert %}}
-
 Kullanılabilir `TableStyleElementType` değerleri `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` ve `PageFieldValues` değerlerini içerir.
 Aşağıdaki örnek, `WholeTable` üzerinde ince siyah kenarlık ve `GrandTotalRow` üzerinde kalın kırmızı yazı tipi içeren özel bir pivot stili tanımlar, ardından bunu `PivotTableStyleName` aracılığıyla uygular ve `.xlsx` olarak kaydeder.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -229,9 +239,8 @@ int main() {
 
 {{% alert color="primary" %}}
 `FormatAll`, hem `PivotTableStyleType` hem de `PivotTableStyleName` değerlerini geçersiz kılar. Pivotun tamamında temadan bağımsız, tek tip bir görünüm gerektiğinde kullanın.
-{{% /alert %}}
-
 Aşağıdaki örnek, sarı düz dolgu, kalın koyu mavi yazı tipi ve tüm kenarlarda ince siyah kenarlıklar içeren bir `Style` oluşturur, ardından bunu `FormatAll` ile uygular ve `.xlsx` olarak kaydeder.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"

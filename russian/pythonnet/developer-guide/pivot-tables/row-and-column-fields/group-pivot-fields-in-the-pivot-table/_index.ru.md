@@ -1,23 +1,106 @@
 ---
-title: Группировка полей сводной таблицы
+title: Группировка полей в сводной таблице
+linktitle: Группировка полей в сводной таблице
+description: Узнайте, как группировать поля строк и столбцов сводной таблицы в периоды дат, такие как месяцы и кварталы, а также в числовые диапазоны, используя PivotField.Group и PivotFieldGroupOptions в Aspose.Cells for Python via .NET.
+keywords: Aspose.Cells, сводная таблица, группировка полей сводной таблицы, PivotField.Group, PivotFieldGroupOptions, группировка по датам, группировка по числам, месяцы, кварталы, числовые диапазоны, Python via .NET
 type: docs
 weight: 80
 url: /ru/python-net/group-pivot-fields-in-the-pivot-table/
-description: Как сгруппировать поля сводной таблицы в Aspose.Cells для Python via .NET.
-keywords: Aspose.Cells для Python Excel, библиотека Excel Python, Как сгруппировать поля сводной таблицы с использованием библиотеки Aspose.Cells для Python Excel.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Возможные сценарии использования**
+- Группировка полей сводной таблицы полезна, когда поле строки или столбца сводной таблицы содержит множество различных элементов, например поле даты с сотнями дат или числовое поле с большим количеством разрозненных значений. Группировка объединяет эти элементы в осмысленные разделы: даты — в месяцы, кварталы и годы, а числа — в диапазоны, такие как 0-1, 2-3, 4-5. Это делает большую сводную таблицу компактной и удобной для анализа. Aspose.Cells for Python via .NET предоставляет эту возможность через метод `pivot_field.group()` (автоматическая группировка по типу данных) и `pivot_field.group(pivot_field_group_options)` (пользовательские параметры группировки).
+- Группировка по датам сворачивает отдельные даты в более крупные периоды, такие как дни, месяцы, кварталы и годы, и формирует временную иерархию (например, Годы, Кварталы, Месяцы). Тенденции во времени становятся видны с первого взгляда, и каждый уровень периода становится отдельным полем сводной таблицы в области строк или столбцов сводной таблицы.
+- Группировка доступна только для полей, размещённых в области СТРОК или СТОЛБЦОВ сводной таблицы. Поле данных (значения) нельзя сгруппировать напрямую. Чтобы сгруппировать такое поле, необходимо сначала добавить его в область строк или столбцов сводной таблицы.
 
-Microsoft Excel позволяет группировать поля сводной таблицы. Когда имеется большое количество данных, связанных с полем сводной таблицы, часто бывает полезно группировать их в разделы. Aspose.Cells для Python via .NET также предоставляет эту функцию с использованием метода [**PivotTable.set_manual_group_field()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-float-float-list-float).
+## **Автоматическая группировка полей сводной таблицы**
+Перегрузка `pivot_field.group()` без параметров анализирует тип данных поля и автоматически выполняет его группировку. Поле, содержащее только даты (и пустые значения), группируется по месяцам. Поле, содержащее только числа (и пустые значения), группируется в числовые диапазоны с использованием автоматического интервала.
 
-## **Как сгруппировать поля сводной таблицы**
+```python
+import aspose.cells as ac
+# Загрузка workbook-примера
+wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
+# Доступ ко второму листу и его сводной таблице
+pt = wb.worksheets[1].pivot_tables[0]
+# Автоматическая группировка первого поля строки.
+# Поле содержит даты, поэтому оно группируется по месяцам.
+field = pt.row_fields[0]
+field.group()
+# Вычисление данных сводной таблицы и сохранение выходного файла
+pt.calculate_data()
+wb.save("outputAutoGroupPivotField.xlsx")
+```
 
-Приведенный ниже образец кода загружает [образец файла Excel](64716818.xlsx) и выполняет группировку по первому полю сводной таблицы с помощью метода [**PivotTable.set_manual_group_field()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-float-float-list-float). Затем он обновляет и вычисляет данные сводной таблицы и сохраняет книгу Excel как [выходной файл Excel](64716817.xlsx). На скриншоте показан эффект образца кода на образцовый файл Excel. Как видно на скриншоте, первое поле сводной таблицы теперь сгруппировано по месяцам и кварталам.
+## **Группировка полей сводной таблицы с пользовательскими параметрами**
+Класс `PivotFieldGroupOptions` предоставляет пользовательскую конфигурацию группировки. Для полей с датами задайте `start_date`, `end_date` и `group_types`. Для числовых полей задайте `start_number`, `end_number` и `interval`. Свойство `new_pivot_field` управляет тем, создаёт ли группировка новые поля сводной таблицы рядом с исходным (см. раздел Примечание в конце этой статьи).
 
-![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
+### **Группировка поля даты по месяцам и кварталам**
+Следующий пример группирует поле строки с датами образца сводной таблицы по месяцам и кварталам между начальной и конечной датами. Код загружает [образец файла Excel](sampleGroupPivotFieldsInPivotTable.xlsx), выполняет группировку, пересчитывает данные сводной таблицы и сохраняет сгруппированный результат. На снимке экрана показан эффект: поле строки с датами теперь сгруппировано по кварталам и месяцам.
+Обратите внимание, что порядок значений в `options.group_types` игнорируется. Независимо от того, в каком порядке перечислены типы групп, сгруппированные поля всегда отображаются от самого большого периода к самому маленькому: годы, кварталы, месяцы, дни, часы, минуты, секунды. В этом примере месяцы перечислены перед кварталами в `options.group_types`, однако кварталы отображаются как внешний уровень, а месяцы — как внутренний.
 
-## **Образец кода**
+```python
+import aspose.cells as ac
+from datetime import datetime
+from aspose.cells.pivot import PivotGroupByType
+from aspose.cells.pivot import PivotFieldGroupOptions
+# Загрузить образец рабочей книги
+wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
+# Получить доступ ко второму рабочему листу и его сводной таблице
+pt = wb.worksheets[1].pivot_tables[0]
+# Сгруппировать первое поле строки (поле даты) по месяцам и кварталам
+options = PivotFieldGroupOptions()
+options.start_date = datetime(2008, 1, 1)
+options.end_date = datetime(2008, 9, 5)
+options.group_types = [PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS]
+pt.row_fields[0].group(options)
+# Вычислить данные сводной таблицы и сохранить выходной файл
+pt.calculate_data()
+wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
+```
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-GroupPivotFieldsInPivotTable.py" >}}
+![Сводная таблица, сгруппированная по месяцам и кварталам](group-pivot-fields-in-the-pivot-table_1.png)
+
+### **Группировка числового поля в диапазоны**
+`FieldTwo` образца сводной таблицы изначально является полем данных (значения). Поскольку группировать можно только поля строк или столбцов, код сначала вызывает `pivot_table.add_field_to_area(PivotFieldType.ROW, "FieldTwo")`, чтобы переместить `FieldTwo` в область строк, обновляет сводную таблицу, а затем группирует числовое поле в диапазоны 0-1, 2-3 и 4-5, используя `start_number=0`, `end_number=5` и `interval=2`.
+
+```python
+import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells.pivot import PivotFieldGroupOptions
+# Загрузить образец книги
+wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
+# Получить доступ ко второму рабочему листу и его сводной таблице
+pt = wb.worksheets[1].pivot_tables[0]
+# FieldTwo является полем данных: сначала переместить его в область строк,
+# поскольку группировать можно только поля строк/столбцов
+pt.add_field_to_area(PivotFieldType.ROW, "FieldTwo")
+pt.calculate_data()
+# Сгруппировать числовое поле в диапазоны 0-1, 2-3, 4-5
+options = PivotFieldGroupOptions()
+options.start_number = 0.0
+options.end_number = 5.0
+options.interval = 2.0
+pt.row_fields[1].group(options)
+# Рассчитать данные сводной таблицы и сохранить выходной файл
+pt.calculate_data()
+wb.save("outputNumberGroupPivotField.xlsx")
+```
+
+## **Примечание**
+
+{{% alert color="primary" %}}
+- Перегрузки метода `pivot_field.group_by()` устарели и удалены из API. `pivot_field.group()` и `pivot_field.group(pivot_field_group_options)` являются заменами.
+- В Microsoft Excel группировка числового поля ЗАМЕНЯЕТ исходное поле сводной таблицы сгруппированными диапазонами, тогда как группировка поля даты создаёт НОВЫЕ поля сводной таблицы (по одному на каждый уровень группировки, например Кварталы и Месяцы) рядом с исходным полем. Начиная с Aspose.Cells 26.10, методы `pivot_field.group()` следуют тому же поведению, что и Excel. Свойство `PivotFieldGroupOptions.new_pivot_field` существует для совместимости со старыми версиями: оно по умолчанию равно false для числовой группировки и true для группировки по дате и времени; установите его в false, если вы хотите, чтобы группировка по дате заменяла исходное поле сводной таблицы вместо создания новых полей.
+- Свойство `PivotFieldGroupOptions.interval` действует только для числовой группировки и для группировки дат по дням (например, группировка дат в 7-дневные периоды); оно игнорируется, когда даты группируются по месяцам, кварталам или годам.
+{{% /alert %}}
+
+## **Связанные статьи**
+- [Добавление полей строк и столбцов в сводную таблицу](/cells/ru/python-net/pivot-table-add-row-and-column-fields/)
+- [Фильтрация сводных таблиц по метке или значению](/cells/ru/python-net/filter-by-label-or-value-of-pivot-table/)
+- [Добавление поля страницы в сводную таблицу](/cells/ru/python-net/add-page-field-in-pivot-table/)
+- [Применение стиля к сводной таблице](/cells/ru/python-net/apply-style-to-pivot-table/)
+- [Обновление сводной таблицы](/cells/ru/python-net/refresh-pivot-table/)
+
 {{< app/cells/assistant language="python-net" >}}

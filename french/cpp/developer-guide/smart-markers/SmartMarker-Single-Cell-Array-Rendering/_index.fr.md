@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge le rendu des données de tableau dans une seule cellule via les Smart Markers. En utilisant l'attribut `ArrayAsSingle` conjointement avec l'attribut `ExtraDelimiter`, les développeurs peuvent contrôler la manière dont les éléments du tableau sont séparés au sein d'une seule cellule, offrant ainsi une mise en forme flexible pour les rapports et les modèles.
+{{% /alert %}}
 
 ## **Introduction**
 Les Smart Markers dans Aspose.Cells constituent une fonctionnalité puissante basée sur des modèles qui vous permet de remplir dynamiquement des données de feuille de calcul à l'aide d'expressions de marqueurs telles que `&=DataSource.Field`. Le marqueur est placé dans un classeur concepteur, et lorsque le modèle est traité par le `WorkbookDesigner`, les marqueurs sont remplacés par les valeurs provenant de la source de données fournie.
@@ -59,6 +60,7 @@ Le marqueur est composé des parties suivantes :
 
 {{% alert color="primary" %}}
 L'attribut `extraDelimiter` accepte n'importe quelle chaîne littérale, y compris les délimiteurs de plusieurs caractères, du texte personnalisé, ou des séquences d'échappement telles que `\n` pour une sortie séparée par des sauts de ligne. Si le tableau est vide, la cellule résultante est laissée vide.
+{{% /alert %}}
 
 ### **Flux de travail étape par étape**
 Le flux de travail suivant décrit comment restituer un tableau dans une seule cellule à l'aide des Smart Markers.
@@ -168,8 +170,5 @@ Gardez les points suivants à l'esprit lorsque vous travaillez avec les attribut
 - La fonctionnalité fonctionne avec les sources de données objet ainsi qu'avec les sources `DataSet` et `DataTable` où une colonne peut être divisée en tableaux.
 - Pour une sortie séparée par des sauts de ligne, vous pouvez utiliser `\n` comme valeur de délimiteur.
 - Placez le Smart Marker dans une cellule qui a une largeur suffisante pour afficher la chaîne concaténée résultante ; sinon, le contenu peut visuellement déborder dans les cellules adjacentes selon le format.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

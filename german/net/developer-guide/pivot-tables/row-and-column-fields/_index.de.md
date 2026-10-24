@@ -202,6 +202,15 @@ workbook.Save("output_custom.xlsx");
 
 ## **Zusammenfassung**
 
+Die drei Szenarien unterscheiden sich lediglich in den Aufrufen von `SetSubtotals`. Alles andere – der Datensatz, die Felder und die Bereiche, denen sie zugewiesen sind – ist identisch, was die Layouts direkt miteinander vergleichbar macht.
+- **Felder platzieren.** `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` verschiebt eine Quellspalte in einen Bereich. Innerhalb eines Bereichs bestimmt die Reihenfolge der Aufrufe die Anzeigereihenfolge, sodass der erste Aufruf die äußerste Gruppe bildet. Zwischengruppenüberschriften erfordern zwei oder mehr Felder im selben Bereich: bei einem einzelnen Feld gibt es zwischen den Gruppen nichts, für das eine Zwischensumme gebildet werden könnte.
+- **Szenario 1 – automatische Zwischensummen.** Das Auslassen von `SetSubtotals` überlässt die Entscheidung Excel, das dann seine eigene Standard-Zwischensumme für numerische Felder anwendet. Ein Aufruf von `SetSubtotals` mit `PivotFieldSubtotalType.Automatic` dokumentiert diese Auswahl explizit, anstatt sie implizit zu belassen.
+- **Szenario 2 – keine Zwischensummen.** `SetSubtotals` mit `PivotFieldSubtotalType.None` deaktiviert die Standard-Zwischensumme, sodass das Pivot-Tabellenergebnis die Feldzeilen und die Gesamtsumme beibehält, aber die Zwischensummenzeilen weglässt, die Excel andernfalls dazwischen einfügen würde.
+- **Szenario 3 – eine ausgewählte Teilmenge.** Jeder Aufruf schaltet genau einen Zwischensummentyp um, und die Aufrufe summieren sich auf, anstatt sich gegenseitig zurückzusetzen. Ein Aufruf mit `PivotFieldSubtotalType.Sum` und ein weiterer mit `PivotFieldSubtotalType.Average` aktivieren somit beide Zwischensummentypen, und das Pivot-Diagramm zeigt sowohl eine Summen-Zwischensumme als auch eine Durchschnitts-Zwischensumme sowie die Gesamtsumme.
+
+{{% alert color="primary" %}}
+Nichts an den Zwischensummen ist auf den Zeilenbereich beschränkt. Die gleichen Aufrufe von `SetSubtotals` für ein Feld, das aus `PivotTable.ColumnFields` stammt, erzeugen dieselben drei Layouts entlang der Spaltenachse, da die Einstellung zum Pivot-Feld selbst gehört und nicht zur Achse, auf der es platziert ist.
+{{% /alert %}}
 ## **Verwandte Artikel**
 - [Seitenfelder in Pivot-Tabellen](/cells/de/net/add-page-field-in-pivot-table/)
 - [Pivot-Tabellen in Aspose.Cells for .NET aktualisieren](/cells/de/net/refresh-pivot-table/)

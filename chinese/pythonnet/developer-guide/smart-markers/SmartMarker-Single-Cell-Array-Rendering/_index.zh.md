@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持通过 Smart Markers 将数组数据渲染到单个单元格中。通过同时使用 `ArrayAsSingle` 属性和 `ExtraDelimiter` 属性，开发人员可以控制数组元素在单个单元格中的分隔方式，从而为报表和模板提供灵活的格式化功能。
+{{% /alert %}}
 
 ## **简介**
 Aspose.Cells 中的 Smart Markers 是一项强大的、基于模板的功能，允许您使用标记表达式（如 `&=DataSource.Field`）动态填充电子表格数据。标记放置在设计器工作簿中，当模板由 `WorkbookDesigner` 处理时，标记会被替换为来自所提供数据源的值。
@@ -59,6 +60,7 @@ Aspose.Cells 中的 Smart Markers 是一项强大的、基于模板的功能，�
 
 {{% alert color="primary" %}}
 `extraDelimiter` 属性接受任何字符串字面量，包括多字符分隔符、自定义文本或转义序列（如 `\n` 表示换行分隔输出）。如果数组为空，则结果单元格将留空。
+{{% /alert %}}
 
 ### **分步工作流**
 以下工作流描述了如何使用 Smart Markers 将数组渲染到单个单元格中。
@@ -71,6 +73,7 @@ Aspose.Cells 中的 Smart Markers 是一项强大的、基于模板的功能，�
 ### **代码示例 1 — 基本字符串数组渲染**
 
 ```python
+import aspose.cells as ac
 class Product:
     def __init__(self):
         self.Tags = []
@@ -78,8 +81,8 @@ product = Product()
 product.Tags = ["C#", "Aspose", "SmartMarker", "Excel"]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Tags")
-worksheet.cells["A2"].put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
+worksheet.cells.get("A1").put_value("Tags")
+worksheet.cells.get("A2").put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
 designer = ac.WorkbookDesigner()
 designer.workbook = workbook
 designer.set_data_source("Product", product)
@@ -90,6 +93,7 @@ workbook.save("output_arraySingle.xlsx")
 ### **代码示例 2 — 带自定义分隔符的数字数组**
 
 ```python
+import aspose.cells as ac
 class Student:
     def __init__(self):
         self.scores = []
@@ -97,14 +101,15 @@ student = Student()
 student.scores = [95, 88, 76, 100, 67]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Scores")
-worksheet.cells["A2"].put_value(" - ".join(str(s) for s in student.scores))
+worksheet.cells.get("A1").put_value("Scores")
+worksheet.cells.get("A2").put_value(" - ".join(str(s) for s in student.scores))
 workbook.save("output_numericArray.xlsx")
 ```
 
 ### **代码示例 3 — 比较默认行为与 ArrayAsSingle 行为**
 
 ```python
+import aspose.cells as ac
 class Order:
     def __init__(self, items):
         self._items = items
@@ -119,11 +124,11 @@ workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
 # 第 1 节：默认智能标记 - 值水平跨单元格分布
-cells["A1"].put_value("Default Spreading Behavior:")
-cells["A2"].put_value("&=Order.Items")
+cells.get("A1").put_value("Default Spreading Behavior:")
+cells.get("A2").put_value("&=Order.Items")
 # 第 2 节：使用 arrayasSingle 和 extraDelimiter 进行新的单单元格渲染
-cells["A4"].put_value("Single Cell Rendering (arrayasSingle=true):")
-cells["A5"].put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
+cells.get("A4").put_value("Single Cell Rendering (arrayasSingle=true):")
+cells.get("A5").put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
 # 绑定数据源并处理智能标记
 designer = ac.WorkbookDesigner(workbook)
 designer.set_data_source("Order", order)
@@ -140,8 +145,5 @@ workbook.save("output_comparison.xlsx")
 - 该功能适用于对象数据源，也适用于可以将列拆分为数组的 `DataSet` 和 `DataTable` 数据源。
 - 对于换行分隔输出，您可以使用 `\n` 或 `os.linesep` 作为分隔符值。
 - 将 Smart Marker 放置在具有足够宽度的单元格中，以显示连接后的字符串；否则，根据格式的不同，内容可能会在视觉上溢出到相邻的单元格。
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

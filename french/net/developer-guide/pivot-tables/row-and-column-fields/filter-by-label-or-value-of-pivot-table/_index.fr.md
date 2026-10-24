@@ -57,10 +57,9 @@ Les filtres de date vous permettent de restreindre un tableau croisé dynamique 
 
 {{% alert color="primary" %}}
 Le filtre de date ne fonctionne que lorsque la zone de lignes ou de colonnes ne contient que des cellules de type date-heure ou des cellules vides. Si le champ sous-jacent contient d'autres types de données, tels que des nombres ou du texte, le filtre de date ne produira pas le résultat attendu. Assurez-vous que le champ est formaté en tant que date et que toutes les valeurs sont des instances valides de `DateTime` ou des cellules vides avant d'appliquer ce filtre.
-{{% /alert %}}
-
 Aspose.Cells expose le filtrage par date via la méthode `PivotField.FilterByDate(PivotFilterType, params DateTime[] values)`. L'énumération `PivotFilterType` contient des valeurs de date dédiées telles que `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear`, et `Between`. Selon le type de filtre choisi, vous passez une ou deux valeurs `DateTime` (pour `Between`, vous passez les dates de début et de fin).
 L'exemple suivant charge un classeur contenant un tableau croisé dynamique dont la zone de lignes contient un champ de date, applique un filtre de date qui restreint les éléments visibles à une plage de dates particulière, actualise le tableau croisé dynamique et enregistre le classeur.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -129,10 +128,9 @@ Le filtre top 10 est une forme spécialisée de filtre de valeur qui ne conserve
 
 {{% alert color="primary" %}}
 Le filtre top 10 n'est effectif que lorsque le tableau croisé dynamique possède un ou plusieurs champs de valeur dans la zone de données. Sans au moins un champ de valeur, il n'y a aucune mesure agrégée permettant de classer les éléments, et le filtre ne peut pas être appliqué.
-{{% /alert %}}
-
 Aspose.Cells expose le filtrage top 10 via la méthode `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)`. Le paramètre `itemCount` définit combien d'éléments conserver, `filterType` contrôle la manière dont la valeur est calculée (généralement `Sum`, mais aussi `Count` et `Percent`), `isTop` indique s'il faut conserver les éléments supérieurs (true) ou inférieurs (false), et `valueFieldIndex` est l'indice du champ de données utilisé pour classer les éléments.
 L'exemple suivant charge un classeur contenant un tableau croisé dynamique qui possède un champ de valeur, applique un filtre top 10 pour ne conserver que les 10 éléments les plus élevés selon la somme des ventes, actualise le tableau croisé dynamique et enregistre le classeur.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -162,7 +160,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.Sum
 //   - isTop       = true (top N ; false signifierait bottom N)
 //   - valueFieldIndex = l'index du champ de données utilisé pour classer les éléments
-rowField.FilterTop10(10, PivotFilterType.Sum, true, valueFieldIndex);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
 // Actualiser les données du tableau croisé dynamique et les recalculer pour que le filtre prenne effet
 pivotTable.PivotCache.Refresh();
 // Enregistrer le classeur

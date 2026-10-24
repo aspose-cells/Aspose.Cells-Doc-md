@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells unterstützt das Rendern von Array-Daten in eine einzelne Zelle über Smart Markers. Durch die Verwendung des Attributs `ArrayAsSingle` zusammen mit dem Attribut `ExtraDelimiter` können Entwickler steuern, wie Array-Elemente innerhalb einer einzelnen Zelle getrennt werden, und so eine flexible Formatierung für Berichte und Vorlagen ermöglichen.
+{{% /alert %}}
 
 ## **Einführung**
 Smart Markers in Aspose.Cells sind eine leistungsstarke, vorlagenbasierte Funktion, mit der Sie Tabellendaten mithilfe von Marker-Ausdrücken wie `&=DataSource.Field` dynamisch befüllen können. Der Marker wird in einer Designer-Arbeitsmappe platziert, und wenn die Vorlage durch den `WorkbookDesigner` verarbeitet wird, werden die Marker durch Werte aus der bereitgestellten Datenquelle ersetzt.
@@ -59,6 +60,7 @@ Der Marker setzt sich aus folgenden Teilen zusammen:
 
 {{% alert color="primary" %}}
 Das Attribut `extraDelimiter` akzeptiert jedes Zeichenkettenliteral, einschließlich mehrzeichiger Trennzeichen, benutzerdefiniertem Text oder Escape-Sequenzen wie `\n` für zeilenumbruch-getrennte Ausgabe. Wenn das Array leer ist, bleibt die resultierende Zelle leer.
+{{% /alert %}}
 
 ### **Schritt-für-Schritt-Workflow**
 Der folgende Workflow beschreibt, wie ein Array mit Smart Markers in eine einzelne Zelle gerendert wird.
@@ -71,6 +73,7 @@ Der folgende Workflow beschreibt, wie ein Array mit Smart Markers in eine einzel
 ### **Codebeispiel 1 – Grundlegendes Rendern von Zeichenketten-Arrays**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Product {
     constructor() {
         this.Tags = null;
@@ -92,6 +95,7 @@ workbook.save("output_arraySingle.xlsx");
 ### **Codebeispiel 2 – Numerisches Array mit benutzerdefiniertem Trennzeichen**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Student {
     constructor() {
         this.Scores = [];
@@ -141,8 +145,5 @@ Beachten Sie die folgenden Punkte, wenn Sie mit den Attributen `ArrayAsSingle` u
 - Die Funktion funktioniert mit Objekt-Datenquellen sowie mit `DataSet`- und `DataTable`-Datenquellen, bei denen eine Spalte in Arrays aufgeteilt werden kann.
 - Für eine zeilenumbruch-getrennte Ausgabe können Sie `\n` als Trennzeichenwert verwenden.
 - Platzieren Sie den Smart-Marker in einer Zelle, die ausreichend Breite hat, um die resultierende verkettete Zeichenkette anzuzeigen; andernfalls kann der Inhalt je nach Format visuell in benachbarte Zellen überlaufen.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

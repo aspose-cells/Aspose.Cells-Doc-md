@@ -37,6 +37,7 @@ Bildens ankare definieras av fyra nollbaserade indexegenskaper:
 
 {{% alert color="primary" %}}
 Rad- och kolumnindex i Aspose.Cells är **nollbaserade**. Cell C6 har radindex 5 och kolumnindex 2. Off-by-one-fel på det nedre högra ankaret är den vanligaste orsaken till bilder som ser ut att överlappa in i en intilliggande cell.
+{{% /alert %}}
 
 ### **Styra placeringsbeteendet**
 `picture.placement` är en uppräkning av typen `PlacementType` som styr hur bilden beter sig när användaren ändrar storlek på raden eller kolumnen under den. Det rekommenderade värdet för en encellsbild är `PlacementType.MoveAndSize`, vilket gör att bilden flyttas och storleksändras tillsammans med sin underliggande cell, vilket bevarar den exakta passformen.
@@ -53,7 +54,7 @@ Rad- och kolumnindex i Aspose.Cells är **nollbaserade**. Cell C6 har radindex 5
 Följande kod demonstrerar hela metoden.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -88,6 +89,8 @@ Detta gör `cell.embeddedImage` till det mest koncisa alternativet när ditt må
 Följande kod demonstrerar hela metoden.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 // Hämta målcellen C6
@@ -113,7 +116,6 @@ Båda metoderna producerar en bild som passar inuti en enda cell, men de skiljer
 - **Använd en inbäddad bild (Metod 2) när:**
   - Du vill ha den enklaste möjliga infogningen av en bild i en cell.
   - Bilden ska följa med cellen som vilket annat cellinnehåll som helst.
-{{% /alert %}}
 
 ## Relaterade artiklar
 - [Excel-kamera i Aspose.Cells for Node.js via C++](/cells/sv/nodejs-cpp/excel-camera/)
@@ -122,4 +124,4 @@ Båda metoderna producerar en bild som passar inuti en enda cell, men de skiljer
 - [Ändra sidfältslayout i pivottabell](/cells/sv/nodejs-cpp/change-page-field-layout/)
 - [Konvertera sparkline till bild och HTML i Aspose.Cells for Node.js via C++](/cells/sv/nodejs-cpp/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

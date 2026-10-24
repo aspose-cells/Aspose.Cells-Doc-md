@@ -25,9 +25,8 @@ Temel API'ler şunlardır:
 
 {{% alert color="primary" %}}
 Çıktı HTML veya PDF olduğunda, kaydetmeden önce `UpdateSelectedValue()` çağrısı yapılmalıdır; aksi takdirde dışa aktarılan dosya resim verilerini içermeyecek ve Kamera oluşturulan çıktıda boş görünecektir.
-{{% /alert %}}
-
 Aşağıdaki kod bir çalışma kitabı oluşturur, 10. satır 6. sütuna sabitlenmiş boş bir resim ekler, onu `Formula` özelliği aracılığıyla `A1:F10` kaynak aralığına bağlar, gömülü görüntü verilerini yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"

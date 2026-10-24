@@ -45,6 +45,7 @@ Delsummor visas endast när det finns två eller fler pivotfält i radområdet (
 När du inte anropar `setSubtotals` alls tillämpar Aspose.Cells valet `AUTOMATIC` på numeriska fält. Följande exempel bekräftar uttryckligen detta beteende genom att anropa `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` på det yttre `Category`-radfältet.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -86,12 +87,12 @@ worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.AUTOMATIC, true);
 pivotTable.calculateData();
 workbook.save("output_automatic.xlsx");
 ```
@@ -100,6 +101,7 @@ workbook.save("output_automatic.xlsx");
 Att anropa `setSubtotals(PivotFieldSubtotalType.NONE, true)` tar bort varje delsummarad från pivottabellen och lämnar endast fältraderna och den totala summan längst ner. Detta är användbart när du vill ha den råa grupperade datan utan några sammanfattningsrader.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -127,12 +129,12 @@ for (let i = 0; i < data.length; i++)
 }
 let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.NONE, true);
 pivotTable.calculateData();
 workbook.save("output_none.xlsx");
 ```
@@ -141,6 +143,7 @@ workbook.save("output_none.xlsx");
 Du är inte begränsad till en enda delsummatyp. Varje `setSubtotals`-anrop gäller endast en typ, så att anropa metoden två gånger — en gång med `SUM` och en gång med `AVERAGE` — skapar en anpassad delmängd av två delsummarader för varje `Category`-grupp.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -183,23 +186,31 @@ worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
 let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
 let pivotTable = pivotTables.get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.SUM, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.AVERAGE, true);
 pivotTable.calculateData();
 workbook.save("output_custom.xlsx");
 ```
 
 ## **Sammanfattning**
-De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda skillnaden mellan dem är `setSubtotals`-anropet som tillämpas på det yttre `Category`-radfältet. Kom ihåg regeln om två fält: ett enskilt fält i ett område saknar grund för delsummor, så placera alltid minst två fält i rad- eller kolumnområdet när du vill att `setSubtotals` ska ha en synlig effekt.
 
+De tre scenario skiljer sig bara i en sak: anropen till `setSubtotals`. Allt annat — datasetet, fälten och de områden de tilldelas till — är identiskt, vilket gör att layouterna går att jämföra direkt.
+- **Placera fält.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, fieldName)` flyttar en källkolumn till ett område. Inom ett område är kallaordningen den visuella ordningen, så det första anropet blir det yttre gruppfältet. Subtotaler kräver två eller fler fält i samma område: med ett ensamt fält finns det inget mellan grupperna att summera.
+- **Scenario 1 — automatiska subtotaler.** Om `setSubtotals` inte anropas lämnas valet till Excel, som tillämpar sin egen standardsubtotalsumma på numeriska fält. Genom att anropa `setSubtotals` med `AsposeCells.PivotFieldSubtotalType.AUTOMATIC` registreras detta val explicit istället för att lämna det implicit.
+- **Scenario 2 — inga subtotaler.** `setSubtotals` med `AsposeCells.PivotFieldSubtotalType.NONE` inaktiverar standardsubtotalsumman, så pivotdiagrammet behåller fältets rader och summatotemen, men utelämnar de subtotalrader som Excel annars skulle infoga mellan dem.
+- **Scenario 3 — ett valt utval.** Varje anrop aktiverar eller inaktiverar exakt en subtotaltyp, och anropen ackumuleras snarare än återställer varandra. Att anropa den en gång med `AsposeCells.PivotFieldSubtotalType.SUM` och en gång med `AsposeCells.PivotFieldSubtotalType.AVERAGE` gör att båda är aktiva, och pivotdiagrammet visar en subtotal för summa, en för medelvärde samt en totalsumma.
+
+{{% alert color="primary" %}}
+Inget med subtotaler är specifikt för radområdet. Samma `setSubtotals`-anrop på ett fält taget från `PivotTable.ColumnFields` producerar samma tre layouter på axeln för kolumnerna, eftersom inställningen tillhör pivotfältet och inte axeln det är placerat på.
+{{% /alert %}}
 ## **Relaterade artiklar**
 - [Sidfält i pivottabeller](/cells/sv/nodejs-java/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/refresh-pivot-table/)
 - [Tillämpa stilar på pivottabeller](/cells/sv/nodejs-java/apply-style-to-pivot-table/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

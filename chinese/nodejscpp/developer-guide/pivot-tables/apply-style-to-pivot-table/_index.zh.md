@@ -17,8 +17,8 @@ Aspose.Cells 支持应用旧版数据透视自动格式(适用于 `.xls` 文件)
 ## **简介**
 Aspose.Cells 为数据透视表提供两套并行的样式 API。两者之间的选择取决于工作簿保存为的文件格式,而非读取时的格式。从 `.xls` 文件加载的工作簿可以重新保存为 `.xlsx`,在这种情况下适用现代样式 API,而非旧版样式 API。
 - `PivotTable.PivotTableStyleType` 用于选择内置命名样式之一(包括浅色和深色主题,以及 Excel 2017 新增的样式)。这些预设样式为只读。
-- `PivotTable.PivotTableStyleName` 用于选择通过 `Workbook.Worksheets.TableStyles.AddPivotTableStyle(...)` 自行定义的自定义样式。当您希望修改颜色、边框或字体,而预设样式无法满足需求时,必须使用自定义样式。
-此外,`PivotTable.FormatAll(Style)` 是一个快捷方式,可将单个 `Style` 对象应用于数据透视表的每个单元格,覆盖通过上述任一样式名称 API 所设置的内容。当需要统一外观且不受底层主题影响时,此方法非常有用。
+- `PivotTable.PivotTableStyleName` 用于选择通过 `Workbook.Worksheets.TableStyles.addPivotTableStyle(...)` 自行定义的自定义样式。当您希望修改颜色、边框或字体,而预设样式无法满足需求时,必须使用自定义样式。
+此外,`PivotTable.formatAll(Style)` 是一个快捷方式,可将单个 `Style` 对象应用于数据透视表的每个单元格,覆盖通过上述任一样式名称 API 所设置的内容。当需要统一外观且不受底层主题影响时,此方法非常有用。
 
 ## **应用旧版 XLS 预设自动格式**
 `PivotTable.AutoFormatType` 接受来自 `Aspose.Cells.Pivot.PivotTableAutoFormatType` 枚举的值。可用值包括 `Report1` 至 `Report10`、`Classic` 以及 `Table1` 至 `Table10`。
@@ -29,7 +29,7 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。两者之间的
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // 场景 1: 应用旧版 XLS 预设自动格式
 // 使用的 API: PivotTable.AutoFormatType
 // 目标文件格式: .xls（旧版）
@@ -87,20 +87,81 @@ workbook.save("output.xls");
 
 ## **应用现代命名预设数据透视表样式**
 
+`PivotTable.pivotTableStyleType` 用于选择 Excel 2007 为数据透视表引入的内置命名样式之一。`PivotTableStyleType` 枚举提供三个主题系列：从 `PivotTableStyleLight1` 到 `PivotTableStyleLight28` 的浅色系列、从 `PivotTableStyleMedium1` 到 `PivotTableStyleMedium28` 的中等系列，以及从 `PivotTableStyleDark1` 到 `PivotTableStyleDark28` 的深色系列。该枚举还定义了 `None` 和 `Custom`。每个系列中编号较高的成员都是 Excel 2017 新增的样式。
+这些预设为只读。一旦需要更改预设未提供的颜色、边框或字体，就必须改为定义自定义数据透视表样式，如[方案 3](#define-and-apply-a-custom-pivot-table-style)所示。
+
+{{% alert color="primary" %}}
+**为什么不使用现代预设，而不使用报表系列自动格式？** `PivotTableAutoFormatType` 的 `Report1` 到 `Report10` 以及 `Table1` 到 `Table10` 值早于数据透视表列字段出现，因此不包含列字段标题的样式，Excel 会以无样式方式呈现这些标题。`PivotTableStyleType` 预设专为现代 Excel 使用的二维布局而设计，可同时为行字段和列字段标题设置样式。
+{{% /alert %}}
+
+本方案复用方案 1 的 Fruit/Year/Amount 数据集，通过 `PivotFieldType.Column` 将 `Year` 添加到列区域，与 `Fruit` 行字段并列；使用 `pivotTable.setPivotTableStyleType` 应用深色主题预设 `PivotTableStyleDark1`；然后将结果保存为 `.xlsx`——只有在这种格式下，`PivotTableStyleType` 才有意义。
+
+```javascript
+const AsposeCells = require("aspose.cells.node");
+let workbook = new AsposeCells.Workbook();
+let worksheet = workbook.getWorksheets().get(0);
+// Header row: Fruit / Year / Amount
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+// 9 data rows of Fruit / Year / Amount
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(100);
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(150);
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(200);
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(180);
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(120);
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(170);
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(210);
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(190);
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(130);
+// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PivotTableStyleDark1);
+// Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx");
+```
 ## **定义并应用自定义数据透视表样式**
 内置预设样式无法修改。每当您需要覆盖颜色、边框或字体时,都必须定义自定义数据透视样式。该工作流包含三个步骤:
-1. 通过 `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)` 将自定义样式添加到工作簿的 `TableStyles` 集合中。此方法返回新创建样式的索引。
+1. 通过 `Workbook.Worksheets.TableStyles.addPivotTableStyle(string name)` 将自定义样式添加到工作簿的 `TableStyles` 集合中。此方法返回新创建样式的索引。
 2. 通过 `TableStyle.TableStyleElements.Add(TableStyleElementType)` 添加元素(如 `WholeTable` 或 `GrandTotalRow`)来配置样式,然后通过 `TableStyleElement.SetElementStyle(Style)` 为每个元素分配一个 `Style`。
 3. 将 `PivotTable.PivotTableStyleName` 设置为该样式的名称,从而将自定义样式应用于数据透视表。请勿在此处使用 `PivotTableStyleType`,因为该属性选择的是内置预设样式。
 
 {{% alert color="primary" %}}
-`PivotTableStyleName` 和 `PivotTableStyleType` 不能互换使用。请将 `PivotTableStyleType` 用于内置预设样式,将 `PivotTableStyleName` 用于您通过 `AddPivotTableStyle` 定义的自定义样式。同时设置两者无害,但仅会呈现与预期来源匹配的那一个。
-{{% /alert %}}
-
+`PivotTableStyleName` 和 `PivotTableStyleType` 不能互换使用。请将 `PivotTableStyleType` 用于内置预设样式,将 `PivotTableStyleName` 用于您通过 `addPivotTableStyle` 定义的自定义样式。同时设置两者无害,但仅会呈现与预期来源匹配的那一个。
 可用的 `TableStyleElementType` 值包括 `WholeTable`、`FirstRow`、`LastRow`、`FirstColumn`、`LastColumn`、`GrandTotalRow`、`GrandTotalColumn`、`PageFieldLabels` 和 `PageFieldValues`。
 以下示例定义一个自定义数据透视样式:在 `WholeTable` 上使用细黑色边框,在 `GrandTotalRow` 上使用粗体红色字体,然后通过 `PivotTableStyleName` 应用该样式,并保存为 `.xlsx`。
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // 填充源数据：表头行 + 9 行数据 (A1:C10)
@@ -168,16 +229,16 @@ pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
 
-## **使用 FormatAll 将一种样式应用于数据透视表的每个单元格**
-`PivotTable.FormatAll(Style)` 是一个快捷方式,可将单个 `Style` 对象应用于数据透视表的每个单元格,包括数据区域、行/列标题以及汇总。无论之前通过 `PivotTableStyleType` 或 `PivotTableStyleName` 设置了什么,都会被覆盖。
+## **使用 formatAll 将一种样式应用于数据透视表的每个单元格**
+`PivotTable.formatAll(Style)` 是一个快捷方式,可将单个 `Style` 对象应用于数据透视表的每个单元格,包括数据区域、行/列标题以及汇总。无论之前通过 `PivotTableStyleType` 或 `PivotTableStyleName` 设置了什么,都会被覆盖。
 
 {{% alert color="primary" %}}
-`FormatAll` 会覆盖 `PivotTableStyleType` 和 `PivotTableStyleName`。仅当整个数据透视表需要统一的、不受主题影响的外观时才使用它。
+`formatAll` 会覆盖 `PivotTableStyleType` 和 `PivotTableStyleName`。仅当整个数据透视表需要统一的、不受主题影响的外观时才使用它。
+以下示例创建一个 `Style`,具有黄色实心填充、深蓝色粗体字体以及四边的细黑色边框,然后使用 `formatAll` 应用该样式,并保存为 `.xlsx`。
 {{% /alert %}}
 
-以下示例创建一个 `Style`,具有黄色实心填充、深蓝色粗体字体以及四边的细黑色边框,然后使用 `FormatAll` 应用该样式,并保存为 `.xlsx`。
-
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // 填充源数据：表头行（第1行）+ 9行数据行（第2-10行）
@@ -232,7 +293,7 @@ style.getBorders().get(AsposeCells.BorderType.LeftBorder).setLineStyle(AsposeCel
 style.getBorders().get(AsposeCells.BorderType.LeftBorder).setColor(AsposeCells.Color.Black);
 style.getBorders().get(AsposeCells.BorderType.RightBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 style.getBorders().get(AsposeCells.BorderType.RightBorder).setColor(AsposeCells.Color.Black);
-// 应用 FormatAll：强制将此单个样式应用到数据透视表的每个单元格，
+// 应用 formatAll：强制将此单个样式应用到数据透视表的每个单元格，
 // 覆盖之前设置的任何 PivotTableStyleType / PivotTableStyleName
 pivotTable.formatAll(style);
 // 以现代 .xlsx 格式保存工作簿
@@ -245,8 +306,9 @@ workbook.save("output.xlsx");
 |---|---|---|
 | `.xls`(旧版) | `PivotTable.AutoFormatType` | 取自 `Aspose.Cells.Pivot.PivotTableAutoFormatType` 的值(如 `Report1`–`Report10`、`Classic`、`Table1`–`Table10`)。保存为现代格式时会被忽略。 |
 | `.xlsx` / `.xlsm` / `.xlsb`(现代,内置样式) | `PivotTable.PivotTableStyleType` | 取自 `Aspose.Cells.PivotTableStyleType` 的值(浅色/深色主题,包括 Excel 2017 新增的样式)。 |
-| `.xlsx` / `.xlsm` / `.xlsb`(现代,自定义样式) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.AddPivotTableStyle(...)` | 在内置预设样式不够用时使用。通过 `TableStyleElement.SetElementStyle(...)` 进行配置。 |
-| 任意格式(统一覆盖) | `PivotTable.FormatAll(Style)` | 快捷方式,会覆盖整个数据透视表的所有其他样式设置。 |
+| `.xlsx` / `.xlsm` / `.xlsb`(现代,自定义样式) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | 在内置预设样式不够用时使用。通过 `TableStyleElement.SetElementStyle(...)` 进行配置。 |
+| 任意格式(统一覆盖) | `PivotTable.formatAll(Style)` | 快捷方式,会覆盖整个数据透视表的所有其他样式设置。 |
 如有疑问,请保存为 `.xlsx`,并对内置主题使用 `PivotTableStyleType`,对自定义主题使用 `PivotTableStyleName`。
+
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

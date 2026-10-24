@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells поддерживает прямое преобразование рабочих книг Excel в формат OFD (Open Fixed-layout Document) с помощью значения перечисления `SaveFormat.Ofd`. Полученный документ OFD сохраняет видимый макет рабочей книги, содержимое, объединённые ячейки, ширину столбцов, высоту строк, шрифты, цвета, границы и числовые форматы. Это делает Aspose.Cells подходящим решением для архивирования, печати, подачи в регуляторные органы и государственные учреждения, где требуется вывод с фиксированным макетом.
+{{% /alert %}}
 
 ## **Введение**
 OFD (Open Fixed-layout Document) — это китайский национальный стандарт (GB/T 33190-2016) для представления цифровых документов в фиксированном страничном макете. Он выполняет роль, аналогичную PDF, в тех случаях, когда внешний вид исходного документа должен быть сохранён в точности так, как он был создан. OFD широко применяется для государственных отправлений, подачи в регуляторные органы, электронных счетов-фактур и долгосрочного архивирования в Китайской Народной Республике.
@@ -19,6 +20,7 @@ OFD (Open Fixed-layout Document) — это китайский национал�
 
 {{% alert color="primary" %}}
 Выходной документ OFD, сформированный Aspose.Cells, сохраняет видимый макет исходной рабочей книги, включая содержимое ячеек, объединённые ячейки, ширину столбцов и высоту строк. Форматирование ячеек, такое как шрифты, цвета, границы, выравнивание и числовые форматы, также отображается в выводе с фиксированным макетом. Параметры настройки страницы, заданные на рабочем листе, такие как размер бумаги, ориентация и область печати, влияют на макет результирующего документа OFD.
+{{% /alert %}}
 
 ## **Создание рабочей книги Excel и сохранение в формате OFD**
 Aspose.Cells позволяет программно создать рабочую книгу, заполнить её данными, а затем сохранить её непосредственно в формате OFD с помощью перечисления `SaveFormat.Ofd`. Следующий пример создаёт счёт-фактуру с нуля. В него добавляется логотип компании, заголовочная информация, раздел получателя, позиции и вычисляемые итоги, после чего рабочая книга экспортируется в документ OFD.
@@ -80,7 +82,8 @@ headerTotal.PutValue("Total");
 Style headerStyle = workbook.CreateStyle();
 headerStyle.Font.IsBold = true;
 headerStyle.Font.Color = Color.White;
-headerStyle.BackgroundColor = Color.Navy;
+headerStyle.ForegroundColor = Color.Navy;
+headerStyle.Pattern = BackgroundType.Solid;
 headerStyle.HorizontalAlignment = TextAlignmentType.Center;
 headerStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 headerStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
@@ -119,7 +122,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
     descCell.PutValue(lineItems[i, 0]);
     qtyCell.PutValue(lineItems[i, 1]);
     priceCell.PutValue(lineItems[i, 2]);
-    totalCell.Formula = "C" + row + "*D" + row;
+    totalCell.Formula = "C" + (row + 1) + "*D" + (row + 1);
     descCell.SetStyle(borderStyle);
     qtyCell.SetStyle(borderStyle);
     priceCell.SetStyle(currencyStyle);
@@ -128,7 +131,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
 // Промежуточная сумма, налог, итоговая сумма
 worksheet.Cells["B24"].PutValue("Subtotal:");
 Cell subtotalCell = worksheet.Cells["E24"];
-subtotalCell.Formula = "SUM(E20:E22)";
+subtotalCell.Formula = "SUM(E21:E23)";
 worksheet.Cells["B25"].PutValue("Tax (10%):");
 Cell taxCell = worksheet.Cells["E25"];
 taxCell.Formula = "E24*0.1";
@@ -203,8 +206,5 @@ Console.WriteLine("\nFile successfully converted to OFD format: " + dataDir + "S
 - [Вставка изображения в ячейку](/cells/ru/net/inserting-an-image-into-a-cell/)
 - [Чтение и запись файлов DBF](/cells/ru/net/dbf/)
 - [Преобразование спарклайна в изображение и HTML в Aspose.Cells for .NET](/cells/ru/net/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="csharp" >}}

@@ -25,9 +25,8 @@ De viktigaste API:erna är:
 
 {{% alert color="primary" %}}
 `UpdateSelectedValue()` MÅSTE anropas innan sparning när utdata är HTML eller PDF, annars kommer den exporterade filen inte att innehålla bilddata och Camera kommer att visas tom i den renderade utdata.
-{{% /alert %}}
-
 Följande kod skapar en arbetsbok, lägger till en tom bild förankrad vid rad 10 kolumn 6, länkar den till källintervallet `A1:F10` via egenskapen `Formula`, uppdaterar de inbäddade bilddata och sparar arbetsboken.
+{{% /alert %}}
 
 ```csharp
 using System;

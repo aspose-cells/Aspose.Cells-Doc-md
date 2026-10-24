@@ -30,6 +30,7 @@ Aspose.Cells stellt die Beschriftungsfilterung über die Methode `PivotField.fil
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer vorhandenen Pivot-Tabelle, wendet einen Beschriftungsfilter an, sodass nur Elemente sichtbar bleiben, deren Beschriftungen mit einem angegebenen Präfix beginnen, aktualisiert die Pivot-Tabelle und speichert das Ergebnis.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let fileName = "sample.xlsx";
 let prefix = "B";
 // Load the existing workbook containing a pivot table
@@ -53,13 +54,12 @@ Datumsfilter ermöglichen es Ihnen, eine Pivot-Tabelle nach datumsbasierten Krit
 
 {{% alert color="primary" %}}
 Der Datumsfilter funktioniert nur, wenn der Zeilen- oder Spaltenbereich ausschließlich Datums-/Uhrzeit-Zellen oder leere Werte enthält. Wenn das zugrunde liegende Feld andere Datentypen wie Zahlen oder Text enthält, liefert der Datumsfilter nicht das erwartete Ergebnis. Stellen Sie sicher, dass das Feld als Datum formatiert ist und alle Werte gültige `DateTime`-Instanzen oder leere Zellen sind, bevor Sie diesen Filter anwenden.
-{{% /alert %}}
-
 Aspose.Cells stellt die Datumsfilterung über die Methode `PivotField.filterByDate(PivotFilterType, params DateTime[] values)` bereit. Die Enumeration `PivotFilterType` enthält dedizierte Datumswerte wie `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` und `Between`. Abhängig vom gewählten Filtertyp übergeben Sie ein oder zwei `DateTime`-Werte (für `Between` übergeben Sie das Start- und Enddatum).
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, deren Zeilenbereich ein Datumsfeld enthält, wendet einen Datumsfilter an, der die sichtbaren Elemente auf einen bestimmten Datumsbereich beschränkt, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const inputPath = "sample.xlsx";
 const outputPath = "output_filtered.xlsx";
@@ -93,6 +93,7 @@ Aspose.Cells stellt die Wertfilterung über die Methode `PivotField.filterByValu
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, wendet einen Wertfilter an, der nur Elemente beibehält, deren aggregierter Umsatz einen numerischen Schwellenwert überschreitet, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let dataFieldIndex = -1;
 for (let i = 0; i < pivotTable.getDataFields().getCount(); i++) {
     if (pivotTable.getDataFields().get(i) === dataField) {
@@ -112,13 +113,12 @@ Der Top-10-Filter ist eine spezialisierte Form des Wertfilters, der nur die ober
 
 {{% alert color="primary" %}}
 Der Top-10-Filter ist nur wirksam, wenn die Pivot-Tabelle ein oder mehrere Wert-Pivot-Felder im Datenbereich enthält. Ohne mindestens ein Wertfeld gibt es keine aggregierte Kennzahl, gegen die die Elemente sortiert werden können, und der Filter kann nicht angewendet werden.
-{{% /alert %}}
-
 Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)` bereit. Der Parameter `itemCount` definiert, wie viele Elemente beibehalten werden, `isTop` gibt an, ob die obersten Elemente (true) oder die untersten Elemente (false) beibehalten werden sollen, `valueField` verweist auf das für die Rangfolge verwendete Datenfeld, und `filterType` steuert, wie der Wert berechnet wird (typischerweise `Sum`, aber auch `Count` und `Percent`).
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, die ein Wertfeld enthält, wendet einen Top-10-Filter an, um nur die obersten 10 Elemente nach der Umsatzsumme beizubehalten, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Lade die bestehende Arbeitsmappe, die die Pivot-Tabelle enthält
 const inputPath = "input.xlsx";
 const outputPath = "output.xlsx";
@@ -141,9 +141,9 @@ const valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.Sum
 //   - isTop       = true (Top N; false würde Bottom N bedeuten)
 //   - valueFieldIndex = der Index des Datenfelds, das zum Rangordnen der Elemente verwendet wird
-rowField.filterTop10(10, AsposeCells.PivotFilterType.Sum, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Sum, true, 10);
 // Aktualisiere die Daten der Pivot-Tabelle und berechne sie neu, damit der Filter wirksam wird
-pivotTable.getPivotTableCache().refresh();
+pivotTable.getPivotCache().refresh();
 // Speichere die Arbeitsmappe
 workbook.save(outputPath);
 ```
@@ -153,7 +153,7 @@ Zusätzlich zu den strukturierten Filter-APIs ermöglicht Aspose.Cells die direk
 Dieser Ansatz ist nützlich, wenn die Filterregel unregelmäßig oder elementspezifisch ist, etwa beim Ausblenden einer kleinen Anzahl benannter Kategorien, die in einem bestimmten Bericht nicht erscheinen sollen. Das folgende Beispiel lädt eine Pivot-Tabelle, blendet ein bestimmtes Element namentlich aus, zeigt, wie es wieder eingeblendet wird, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Vorhandene Arbeitsmappe laden, die eine Pivot-Tabelle enthält
 const workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
 // Auf das erste Arbeitsblatt zugreifen, das die Pivot-Tabelle enthält
@@ -179,7 +179,7 @@ for (let i = 0; i < itemCount; i++)
     }
 }
 // Die Pivot-Tabelle aktualisieren und neu berechnen, damit die Änderungen wirksam werden
-pivotTable.getPivotCache().refreshData();
+pivotTable.getPivotCache().refresh();
 // Die Arbeitsmappe speichern – ausgeblendete Elemente bleiben in den zugrunde liegenden Daten erhalten,
 // werden jedoch in der angezeigten Pivot-Tabelle ausgeschlossen
 workbook.save("output_pivot_filtered.xlsx");

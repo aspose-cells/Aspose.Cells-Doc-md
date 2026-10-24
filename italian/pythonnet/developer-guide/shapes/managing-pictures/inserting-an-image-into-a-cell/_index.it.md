@@ -37,6 +37,7 @@ L'ancoraggio dell'immagine è definito da quattro proprietà di indice a base ze
 
 {{% alert color="primary" %}}
 Gli indici di riga e colonna in Aspose.Cells sono **a base zero**. La cella C6 ha indice di riga 5 e indice di colonna 2. Gli errori di uno sull'ancoraggio inferiore-destro sono la causa più comune di immagini che sembrano sovrapporsi a una cella adiacente.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `Picture.placement` è un'enumerazione di tipo `PlacementType` che controlla come l'immagine si comporta quando l'utente ridimensiona la riga o la colonna sottostante. Il valore consigliato per un'immagine a cella singola è `PlacementType.MOVE_AND_SIZE`, che fa sì che l'immagine si sposti e si ridimensioni insieme alla cella sottostante, preservando l'adattamento esatto.
@@ -54,6 +55,7 @@ Il codice seguente dimostra l'approccio completo.
 
 ```python
 import aspose.cells as ac
+from aspose.cells.drawing import PlacementType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 with open("logo.png", "rb") as fs:
@@ -63,7 +65,7 @@ with open("logo.png", "rb") as fs:
     picture.upper_left_column = 2
     picture.lower_right_row = 6
     picture.lower_right_column = 3
-    picture.placement = ac.PlacementType.MOVE_AND_SIZE
+    picture.placement = PlacementType.MOVE_AND_SIZE
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
 
@@ -80,7 +82,7 @@ Questo rende `Cell.embedded_image` l'opzione più concisa quando il tuo obiettiv
 1. Crea un nuovo `Workbook` (o aprine uno esistente).
 2. Accedi al `Worksheet` di destinazione da `workbook.worksheets[0]`.
 3. Leggi il file immagine dal disco in un oggetto `bytes` (ad esempio, aprendo il file in modalità binaria e chiamando `.read()`).
-4. Ottieni un riferimento alla cella di destinazione — tramite `worksheet.cells["C6"]` o `worksheet.cells[5, 2]`.
+4. Ottieni un riferimento alla cella di destinazione — tramite `worksheet.cells.get("C6")` o `worksheet.cells.get(5, 2)`.
 5. Assegna l'oggetto bytes alla proprietà `embedded_image` della cella.
 6. Facoltativamente, regola l'altezza della riga e la larghezza della colonna della riga e della colonna di destinazione per dare all'immagine incorporata un aspetto più prominente.
 7. Salva la cartella di lavoro su disco come file `.xlsx`.
@@ -91,15 +93,15 @@ import aspose.cells as ac
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Get the target cell C6
-cell = worksheet.cells["C6"]
+cell = worksheet.cells.get("C6")
 # Read the image file into a byte array
 with open("logo.png", "rb") as f:
     imageData = f.read()
 # Embed the image directly into the cell
 cell.embedded_image = imageData
 # Optionally adjust row height and column width so the embedded image is more visible
-worksheet.cells.set_column_width(2, 30)   # Column C (index 2)
-worksheet.cells.set_row_height(5, 100)     # Row 6 (index 5)
+worksheet.cells.set_column_width(2, 30.0)   # Column C (index 2)
+worksheet.cells.set_row_height(5, 100.0)     # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
@@ -114,7 +116,6 @@ Entrambi gli approcci producono un'immagine che si adatta all'interno di una sin
 - **Usa un'immagine incorporata (Approccio 2) quando:**
   - Vuoi l'inserimento più semplice possibile di un'immagine in una cella.
   - L'immagine deve viaggiare con la cella come qualsiasi altro contenuto della cella.
-{{% /alert %}}
 
 ## Related Articles
 - [Excel Camera in Aspose.Cells for Python tramite .NET](/cells/it/python-net/excel-camera/)
@@ -123,4 +124,4 @@ Entrambi gli approcci producono un'immagine che si adatta all'interno di una sin
 - [Modificare il layout dei campi pagina nella tabella pivot](/cells/it/python-net/change-page-field-layout/)
 - [Convertire uno sparkline in immagine e HTML in Aspose.Cells for Python tramite .NET](/cells/it/python-net/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

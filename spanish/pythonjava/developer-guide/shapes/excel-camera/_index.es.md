@@ -25,9 +25,8 @@ Las API clave son:
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` DEBE llamarse antes de guardar cuando la salida es HTML o PDF; de lo contrario, el archivo exportado no contendrá los datos de la imagen y la Cámara aparecerá en blanco en la salida renderizada.
-{{% /alert %}}
-
 El siguiente código crea un libro, agrega una imagen vacía anclada en la fila 10 columna 6, la vincula al rango de origen `A1:F10` mediante el método `setFormula`, actualiza los datos de imagen incrustados y guarda el libro.
+{{% /alert %}}
 
 ```python
 import jpype
@@ -38,7 +37,7 @@ worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
 # Cámara Dinámica: agregar una imagen vacía, vincularla mediante Fórmula a A1:F10, luego actualizar
 pictures = worksheet.getPictures()
-index = pictures.add(10, 6, None)
+index = pictures.add(10, 6, b"")
 pictures.get(index).setFormula("A1:F10")
 pictures.get(index).updateSelectedValue()
 workbook.save("output_dynamic.xlsx", SaveFormat.XLSX)
@@ -57,6 +56,7 @@ El siguiente código crea un libro, construye un `Range` para `A1:F10`, lo rende
 import jpype
 import jpype.imports
 from asposecells.api import Workbook, SaveFormat
+from java.io import ByteArrayInputStream
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
@@ -64,7 +64,7 @@ worksheet.setName("CameraDemo")
 range_ = worksheet.getCells().createRange("A1:F10")
 image_bytes = range_.toImage(None)
 pictures = worksheet.getPictures()
-pictures.add(10, 6, jpype.JArray(jpype.JByte)(image_bytes))
+pictures.add(10, 6, ByteArrayInputStream(image_bytes))
 workbook.save("output_static.xlsx", SaveFormat.XLSX)
 ```
 

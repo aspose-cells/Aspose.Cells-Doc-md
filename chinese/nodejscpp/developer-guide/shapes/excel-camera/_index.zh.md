@@ -18,19 +18,18 @@ Excel 照相机本质上是一个图片对象，锚定在工作表绘图图层�
 ## 方法一 — 添加动态照相机图片
 动态照相机是最常用的方法，也是最接近 Excel 内置照相机工具的方法。其工作原理是先添加一个不含初始图像内容的图片，然后为其分配引用源区域的 `Formula`。分配公式后，调用 `updateSelectedValue()` 刷新嵌入的图像数据，使其与所镜像的单元格保持一致。照相机并非通过专用类实现，而是完全基于标准 `Picture` 类型构建。
 关键 API 如下：
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — 将图片锚定在指定的行和列。为 `stream` 参数传递 `null` 会创建一个空图片，作为动态照相机的占位符。该方法返回新图片的索引。
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — 将图片锚定在指定的行和列。为 `stream` 参数传递 `null` 会创建一个空图片，作为动态照相机的占位符。该方法返回新图片的索引。
 - `pictures.get(index)` — 通过索引从集合中获取特定的 `Picture`。
 - `Picture.formula` — 一个字符串属性（get/set），用于保存照相机所镜像源区域的 A1 样式引用，例如 `"A1:F10"`。
 - `Picture.updateSelectedValue()` — 无返回值的方法，用于根据 `formula` 引用的单元格刷新嵌入的图像数据。
 
 {{% alert color="primary" %}}
 当输出为 HTML 或 PDF 时，必须在保存前调用 `updateSelectedValue()`；否则，导出的文件将不包含图片数据，照相机在渲染输出中将显示为空白。
+以下代码创建一个工作簿，添加一个锚定在第 10 行第 6 列的空图片，通过 `Formula` 属性将其链接到源区域 `A1:F10`，刷新嵌入的图像数据，然后保存工作簿。
 {{% /alert %}}
 
-以下代码创建一个工作簿，添加一个锚定在第 10 行第 6 列的空图片，通过 `Formula` 属性将其链接到源区域 `A1:F10`，刷新嵌入的图像数据，然后保存工作簿。
-
 ```javascript
-const aspose = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
@@ -48,22 +47,18 @@ workbook.save("output_dynamic.xlsx", aspose.SaveFormat.Xlsx);
 - `Cells.createRange(address)` — 从 A1 样式地址（例如 `"A1:F10"`）构建一个 `Range` 对象。
 - `Range.toImage(ImageOrPrintOptions options)` — 将区域渲染为图像字节。传递 `null` 将使用默认渲染选项；还提供重载，以便更精细地控制输出。
 - `new Buffer(byte[] buffer)` — 将渲染的图像字节封装到可供 `getPictures().add` 使用的 `Buffer` 中。
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — 将图片锚定在指定的行和列，此时传入渲染生成的 `Buffer`。
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — 将图片锚定在指定的行和列，此时传入渲染生成的 `Buffer`。
 以下代码创建一个工作簿，为 `A1:F10` 构建一个 `Range`，通过 `range.toImage(null)` 将其渲染为图像字节，将这些字节封装在 `Buffer` 中，添加一个锚定在第 10 行第 6 列的图片，然后保存工作簿。
 
 ```javascript
-const aspose = require("aspose.cells");
-const { MemoryStream } = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// 静态相机：构建 Range，渲染为字节，包装在 MemoryStream 中，作为图片添加
 let range = worksheet.getCells().createRange("A1:F10");
 let imageBytes = range.toImage(null);
-let stream = new MemoryStream();
-stream.write(imageBytes);
 let pictures = worksheet.getPictures();
-pictures.add(10, 6, stream);
+pictures.add(10, 6, imageBytes);
 workbook.save("output_static.xlsx", aspose.SaveFormat.Xlsx);
 ```
 

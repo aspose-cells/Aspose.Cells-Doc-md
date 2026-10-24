@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge le rendu des données de tableau dans une seule cellule via les marqueurs intelligents. En utilisant l'attribut `ArrayAsSingle` conjointement avec l'attribut `ExtraDelimiter`, les développeurs peuvent contrôler la façon dont les éléments du tableau sont séparés dans une seule cellule, offrant ainsi une mise en forme flexible pour les rapports et les modèles.
+{{% /alert %}}
 
 ## **Introduction**
 Les marqueurs intelligents dans Aspose.Cells sont une fonctionnalité puissante basée sur des modèles qui vous permet de remplir dynamiquement des données de feuille de calcul à l'aide d'expressions de marqueurs telles que `&=DataSource.Field`. Le marqueur est placé dans un classeur concepteur, et lorsque le modèle est traité par le `WorkbookDesigner`, les marqueurs sont remplacés par les valeurs provenant de la source de données fournie.
@@ -59,6 +60,7 @@ Le marqueur est composé des parties suivantes :
 
 {{% alert color="primary" %}}
 L'attribut `extraDelimiter` accepte tout littéral de chaîne, y compris des délimiteurs à plusieurs caractères, du texte personnalisé ou des séquences d'échappement telles que `\n` pour une sortie séparée par des retours à la ligne. Si le tableau est vide, la cellule résultante est laissée vide.
+{{% /alert %}}
 
 ### **Flux de travail étape par étape**
 Le flux de travail suivant décrit comment rendre un tableau dans une seule cellule à l'aide des marqueurs intelligents.
@@ -71,6 +73,7 @@ Le flux de travail suivant décrit comment rendre un tableau dans une seule cell
 ### **Exemple de code 1 — Rendu de tableau de chaînes de base**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let product = {
     Tags: ["C#", "Aspose", "SmartMarker", "Excel"]
 };
@@ -88,6 +91,7 @@ workbook.save("output_arraySingle.xlsx");
 ### **Exemple de code 2 — Tableau numérique avec délimiteur personnalisé**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 class Student {
     constructor() {
         this.Scores = [];
@@ -105,6 +109,7 @@ workbook.save("output_numericArray.xlsx");
 ### **Exemple de code 3 — Comparaison du comportement par défaut et du comportement ArrayAsSingle**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var order = {
     Items: ["Apple", "Banana", "Cherry", "Date"]
 };
@@ -133,8 +138,5 @@ Gardez les points suivants à l'esprit lorsque vous travaillez avec les attribut
 - La fonctionnalité fonctionne avec des sources de données d'objets ainsi qu'avec des sources `DataSet` et `DataTable` où une colonne peut être divisée en tableaux.
 - Pour une sortie séparée par des retours à la ligne, vous pouvez utiliser `\n` ou `os.EOL` comme valeur de délimiteur.
 - Placez le marqueur intelligent dans une cellule dont la largeur est suffisante pour afficher la chaîne concaténée résultante ; sinon, le contenu peut visuellement déborder dans les cellules adjacentes en fonction du format.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

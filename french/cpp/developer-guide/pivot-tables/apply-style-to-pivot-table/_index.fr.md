@@ -31,6 +31,7 @@ L’exemple suivant charge un nouveau classeur, renseigne les données d’exemp
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Créer un nouveau classeur
@@ -86,9 +87,19 @@ int main() {
 
 ## **Appliquer un style nommé moderne préréglé à un tableau croisé dynamique**
 
+`SetPivotTableStyleType` sélectionne l’un des styles nommés intégrés qu’Excel 2007 a introduits pour les tableaux croisés dynamiques. L’énumération `PivotTableStyleType` expose trois familles de thèmes : la famille des styles clairs allant de `PivotTableStyleLight1` à `PivotTableStyleLight28`, la famille des styles moyens allant de `PivotTableStyleMedium1` à `PivotTableStyleMedium28` et la famille des styles sombres allant de `PivotTableStyleDark1` à `PivotTableStyleDark28`. Elle définit également `None` et `Custom`. Les membres portant les numéros les plus élevés de chaque famille correspondent aux styles ajoutés dans Excel 2017.
+Ces préréglages sont en lecture seule. Dès que vous souhaitez modifier les couleurs, les bordures ou les polices au-delà de ce qu’un préréglage propose, vous devez plutôt définir un style personnalisé de tableau croisé dynamique, comme indiqué dans [Scénario 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**Pourquoi les préréglages modernes plutôt que les mises en forme automatiques des séries de rapports ?** Les valeurs `Report1` à `Report10` et `Table1` à `Table10` de `PivotTableAutoFormatType` sont antérieures aux champs de colonne des tableaux croisés dynamiques ; elles ne comportent donc aucune mise en forme pour les en-têtes de champs de colonne et Excel affiche ces en-têtes sans mise en forme. Les préréglages `PivotTableStyleType` ont été conçus pour la disposition bidimensionnelle utilisée par les versions modernes d’Excel et appliquent la même mise en forme aux en-têtes de champs de ligne et de colonne.
+{{% /alert %}}
+
+Ce scénario réutilise le jeu de données Fruit/Year/Amount du Scénario 1, ajoute `Year` à la zone des colonnes à côté du champ de ligne `Fruit` via `PivotFieldType::Column`, applique le préréglage de thème sombre `PivotTableStyleDark1` avec `SetPivotTableStyleType`, puis enregistre le résultat sous forme de `.xlsx` — le format pour lequel `PivotTableStyleType` est pertinent.
+
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -135,7 +146,6 @@ int main() {
     return 0;
 }
 ```
-
 ## **Définir et appliquer un style de tableau croisé dynamique personnalisé**
 Les préréglages intégrés ne peuvent pas être modifiés. Chaque fois que vous devez remplacer les couleurs, les bordures ou les polices, vous devez définir un style de tableau croisé dynamique personnalisé. La procédure comporte trois étapes :
 1. Ajoutez un style personnalisé à la collection `TableStyles` du classeur au moyen de `Worksheets.TableStyles.AddPivotTableStyle(string name)`. Cette opération renvoie l’index du style nouvellement créé.
@@ -144,14 +154,14 @@ Les préréglages intégrés ne peuvent pas être modifiés. Chaque fois que vou
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` et `PivotTableStyleType` ne sont pas interchangeables. Utilisez `PivotTableStyleType` pour les préréglages intégrés et `PivotTableStyleName` pour les styles personnalisés que vous avez définis au moyen de `AddPivotTableStyle`. La définition simultanée des deux propriétés est sans effet secondaire, mais seule celle qui correspond à la source prévue est rendue.
-{{% /alert %}}
-
 Les valeurs `TableStyleElementType` disponibles comprennent `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` et `PageFieldValues`.
 L’exemple suivant définit un style de tableau croisé dynamique personnalisé avec une bordure noire fine sur `WholeTable` et une police rouge en gras sur `GrandTotalRow`, puis applique ce style au moyen de `PivotTableStyleName` et enregistre le classeur au format `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -230,9 +240,8 @@ int main() {
 
 {{% alert color="primary" %}}
 `FormatAll` remplace à la fois `PivotTableStyleType` et `PivotTableStyleName`. Utilisez-le uniquement lorsqu’une apparence uniforme et indépendante du thème est requise pour l’ensemble du tableau croisé dynamique.
-{{% /alert %}}
-
 L’exemple suivant crée un `Style` avec un remplissage jaune uni, une police bleu foncé en gras et des bordures noires fines sur tous les côtés, puis l’applique avec `FormatAll` et enregistre le classeur au format `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"

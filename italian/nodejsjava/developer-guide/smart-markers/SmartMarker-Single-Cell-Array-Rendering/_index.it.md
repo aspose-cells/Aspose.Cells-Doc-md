@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta il rendering dei dati di array in una singola cella tramite Smart Markers. Utilizzando l'attributo `ArrayAsSingle` insieme all'attributo `ExtraDelimiter`, gli sviluppatori possono controllare come gli elementi dell'array vengono separati all'interno di una singola cella, offrendo una formattazione flessibile per report e modelli.
+{{% /alert %}}
 
 ## **Introduzione**
 Gli Smart Markers in Aspose.Cells sono una potente funzionalità basata su modelli che consente di popolare dinamicamente i dati del foglio di calcolo utilizzando espressioni di marker come `&=DataSource.Field`. Il marker viene posizionato in una cartella di lavoro del designer e, quando il modello viene elaborato dal `WorkbookDesigner`, i marker vengono sostituiti con i valori provenienti dall'origine dati fornita.
@@ -59,6 +60,7 @@ Il marker è composto dalle seguenti parti:
 
 {{% alert color="primary" %}}
 L'attributo `extraDelimiter` accetta qualsiasi stringa letterale, inclusi delimitatori multi-carattere, testo personalizzato o sequenze di escape come `\n` per output separati da nuova riga. Se l'array è vuoto, la cella risultante viene lasciata vuota.
+{{% /alert %}}
 
 ### **Flusso di Lavoro Passo per Passo**
 Il flusso di lavoro seguente descrive come eseguire il rendering di un array in una singola cella utilizzando gli Smart Markers.
@@ -71,6 +73,7 @@ Il flusso di lavoro seguente descrive come eseguire il rendering di un array in 
 ### **Esempio di Codice 1 — Rendering di Array di Stringhe di Base**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Product {
     constructor() {
         this.Tags = null;
@@ -92,6 +95,7 @@ workbook.save("output_arraySingle.xlsx");
 ### **Esempio di Codice 2 — Array Numerico con Delimitatore Personalizzato**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Student {
     constructor() {
         this.Scores = [];
@@ -141,8 +145,5 @@ Tenere presente i seguenti punti quando si lavora con gli attributi `ArrayAsSing
 - La funzionalità funziona con origini dati di tipo oggetto, nonché con origini `DataSet` e `DataTable` in cui una colonna può essere suddivisa in array.
 - Per output separati da nuova riga, è possibile utilizzare `\n` come valore del delimitatore.
 - Posizionare lo Smart Marker in una cella che abbia larghezza sufficiente per visualizzare la stringa concatenata risultante; in caso contrario, il contenuto potrebbe traboccare visivamente nelle celle adiacenti a seconda del formato.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

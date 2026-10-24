@@ -45,6 +45,7 @@ Aspose.Cells for Node.js via C++ 支持以三种不同的方式转置（旋转�
 转置后，相同的锚定区域将保存旋转后的数据。第一行变为（空、**Europe**、**Asia**、**North America**），第一列变为（空、**第一季度**、**第二季度**、**第三季度**、**第四季度**）。每个原始的销售列都成为转置区域中的一行。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var srcFile = "source.xlsx";
 var outputFile = "transposed.xlsx";
 var workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
@@ -74,7 +75,7 @@ workbook.save(outputFile);
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
@@ -103,7 +104,7 @@ CSE 数组公式是 Excel 求值 `TRANSPOSE` 表达式的经典方式，此方�
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // 使用 xlsx LoadOptions 加载源工作簿
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));

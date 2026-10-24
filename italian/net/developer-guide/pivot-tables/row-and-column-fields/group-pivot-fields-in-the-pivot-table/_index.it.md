@@ -1,21 +1,98 @@
 ---
 title: Raggruppa i campi pivot nella tabella pivot
+linktitle: Raggruppa i campi pivot nella tabella pivot
+description: Scopri come raggruppare i campi pivot di riga e colonna in una tabella pivot per periodi di date come mesi e trimestri e per intervalli numerici utilizzando PivotField.Group e PivotFieldGroupOptions in Aspose.Cells for .NET.
+keywords: Aspose.Cells, tabella pivot, raggruppa campo pivot, PivotField.Group, PivotFieldGroupOptions, raggruppamento per data, raggruppamento per numero, mesi, trimestri, intervallo numerico, C#
 type: docs
 weight: 80
 url: /it/net/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Possibili Scenari di Utilizzo**
+## **Possibili scenari d'uso**
+- Raggruppare i campi pivot è utile quando un campo di riga o colonna di una tabella pivot contiene molti elementi distinti, come un campo di data con centinaia di date o un campo numerico con molti valori sparsi. Il raggruppamento riunisce questi elementi in sezioni significative: le date in mesi, trimestri e anni, e i numeri in intervalli come 0-1, 2-3, 4-5. In questo modo una tabella pivot di grandi dimensioni diventa compatta e più facile da analizzare. Aspose.Cells offre questa funzionalità tramite il metodo `PivotField.Group()` (raggruppamento automatico in base al tipo di dati) e `PivotField.Group(PivotFieldGroupOptions)` (opzioni di raggruppamento personalizzate).
+- Il raggruppamento per data arrotola le singole date in periodi più ampi, come giorni, mesi, trimestri e anni, e crea una gerarchia temporale (ad esempio Anni, Trimestri, Mesi). Le tendenze nel tempo diventano visibili a colpo d'occhio e ogni livello di periodo diventa un campo proprio nell'area della riga o della colonna della tabella pivot.
+- Il raggruppamento è disponibile solo per i campi posizionati nell'area RIGA o COLONNA di una tabella pivot. Un campo dati (valore) non può essere raggruppato direttamente. Per raggruppare tale campo è necessario prima aggiungerlo all'area della riga o della colonna della tabella pivot.
 
-Microsoft Excel consente di raggruppare i campi pivot della tabella pivot. Quando c'è una grande quantità di dati relativi a un campo pivot, è spesso utile raggrupparli in sezioni. Aspose.Cells fornisce anche questa funzionalità utilizzando il metodo [**PivotTable.GroupBy()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/groupby/).
+## **Raggruppa automaticamente i campi pivot**
+L'overload senza parametri di `PivotField.Group()` esamina il tipo di dati del campo e lo raggruppa automaticamente. Un campo che contiene solo date (e valori vuoti) viene raggruppato per mesi. Un campo che contiene solo numeri (e valori vuoti) viene raggruppato in intervalli numerici utilizzando un intervallo automatico.
 
-## **Raggruppa i campi pivot nella tabella pivot**
+```csharp
+// Carica la cartella di lavoro di esempio
+Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
+// Accedi al secondo foglio di lavoro e alla sua tabella pivot
+PivotTable pt = wb.Worksheets[1].PivotTables[0];
+// Raggruppa automaticamente il primo campo riga.
+// Il campo contiene date, quindi viene raggruppato per mesi.
+PivotField field = pt.RowFields[0];
+field.Group();
+// Calcola i dati della tabella pivot e salva il file di output
+pt.CalculateData();
+wb.Save("outputAutoGroupPivotField.xlsx");
+```
 
-Il codice di esempio seguente carica il [file Excel di esempio](64716818.xlsx) e esegue il raggruppamento sul primo campo pivot utilizzando il metodo [**PivotTable.GroupBy()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/groupby/). Aggiorna quindi e calcola i dati della tabella pivot e salva il foglio di calcolo come [file Excel di output](64716817.xlsx). Lo screenshot mostra l'effetto del codice di esempio sul file Excel di esempio. Come si può vedere dallo screenshot, il primo campo pivot è ora raggruppato per mesi e trimestri.
+## **Raggruppa i campi pivot con opzioni personalizzate**
+La classe `PivotFieldGroupOptions` fornisce una configurazione di raggruppamento personalizzata. Per i campi data, impostare `StartDate`, `EndDate` e `GroupTypes`. Per i campi numerici, impostare `StartNumber`, `EndNumber` e `Interval`. La proprietà `NewPivotField` controlla se il raggruppamento crea nuovi campi pivot accanto a quello originale (consultare la sezione Nota alla fine di questo articolo).
 
-![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
+### **Raggruppa un campo data per mesi e trimestri**
+L'esempio seguente raggruppa il campo data di riga della tabella pivot di esempio per mesi e trimestri tra una data di inizio e una data di fine. Il codice carica il [file Excel di esempio](sampleGroupPivotFieldsInPivotTable.xlsx), esegue il raggruppamento, calcola i dati della tabella pivot e salva il risultato raggruppato. Lo screenshot mostra l'effetto: il campo data di riga è ora raggruppato per trimestri e mesi.
+Si noti che l'ordine dei valori in `options.GroupTypes` viene ignorato. Indipendentemente dall'ordine in cui sono elencati i tipi di gruppo, i campi raggruppati vengono sempre mostrati dal periodo più grande al più piccolo: anni, trimestri, mesi, giorni, ore, minuti, secondi. In questo esempio i mesi sono elencati prima dei trimestri in `options.GroupTypes`, tuttavia i trimestri vengono visualizzati come livello esterno e i mesi come livello interno.
 
-## **Codice di Esempio**
+```csharp
+// Carica la cartella di lavoro di esempio
+Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
+// Accedi al secondo foglio di lavoro e alla sua tabella pivot
+PivotTable pt = wb.Worksheets[1].PivotTables[0];
+// Raggruppa il primo campo riga (un campo data) per mesi e trimestri
+PivotFieldGroupOptions options = new PivotFieldGroupOptions();
+options.StartDate = new DateTime(2008, 1, 1);
+options.EndDate = new DateTime(2008, 9, 5);
+options.GroupTypes = new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Quarters };
+pt.RowFields[0].Group(options);
+// Calcola i dati della tabella pivot e salva il file di output
+pt.CalculateData();
+wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
+```
 
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-GroupPivotFieldsInPivotTable.cs" >}}
+![Tabella pivot raggruppata per mesi e trimestri](group-pivot-fields-in-the-pivot-table_1.png)
+
+### **Raggruppa un campo numerico in intervalli**
+`FieldTwo` della tabella pivot di esempio è inizialmente un campo dati (valore). Poiché solo i campi di riga o colonna possono essere raggruppati, il codice chiama prima `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")` per spostare `FieldTwo` nell'area della riga, aggiorna la tabella pivot, quindi raggruppa il campo numerico negli intervalli 0-1, 2-3 e 4-5 utilizzando `StartNumber = 0`, `EndNumber = 5` e `Interval = 2`.
+
+```csharp
+// Carica la cartella di lavoro di esempio
+Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
+// Accedi al secondo foglio di lavoro e alla sua tabella pivot
+PivotTable pt = wb.Worksheets[1].PivotTables[0];
+// FieldTwo è un campo dati: spostalo prima nell'area delle righe,
+// perché solo i campi riga/colonna possono essere raggruppati
+pt.AddFieldToArea(PivotFieldType.Row, "FieldTwo");
+pt.CalculateData();
+// Raggruppa il campo numerico negli intervalli 0-1, 2-3, 4-5
+PivotFieldGroupOptions options = new PivotFieldGroupOptions();
+options.StartNumber = 0;
+options.EndNumber = 5;
+options.Interval = 2;
+pt.RowFields[1].Group(options);
+// Calcola i dati della tabella pivot e salva il file di output
+pt.CalculateData();
+wb.Save("outputNumberGroupPivotField.xlsx");
+```
+
+## **Nota**
+
+{{% alert color="primary" %}}
+- Gli overload del metodo `PivotField.GroupBy()` sono deprecati e rimossi dalla superficie dell'API. `PivotField.Group()` e `PivotField.Group(PivotFieldGroupOptions)` sono le sostituzioni.
+- In Microsoft Excel, il raggruppamento di un campo numerico SOSTITUISCE il campo pivot originale con gli intervalli raggruppati, mentre il raggruppamento di un campo data crea NUOVI campi pivot (uno per ogni livello di gruppo, ad esempio Trimestri e Mesi) accanto al campo originale. A partire da Aspose.Cells 26.10, i metodi `PivotField.Group()` seguono lo stesso comportamento di Excel. La proprietà `PivotFieldGroupOptions.NewPivotField` esiste per la compatibilità con le versioni precedenti: per impostazione predefinita è false per il raggruppamento numerico e true per il raggruppamento di data e ora; impostarla su false se si vuole che il raggruppamento per data sostituisca il campo pivot originale invece di creare nuovi campi pivot.
+- La proprietà `PivotFieldGroupOptions.Interval` ha effetto solo per il raggruppamento numerico e per il raggruppamento di date per giorni (ad esempio, raggruppare le date in periodi di 7 giorni); viene ignorata quando le date vengono raggruppate per mesi, trimestri o anni.
+{{% /alert %}}
+
+## **Articoli correlati**
+- [Aggiungere campi di riga e colonna nella tabella pivot](/cells/it/net/pivot-table-add-row-and-column-fields/)
+- [Filtrare le tabelle pivot per etichetta o valore](/cells/it/net/filter-by-label-or-value-of-pivot-table/)
+- [Aggiungere un campo pagina nella tabella pivot](/cells/it/net/add-page-field-in-pivot-table/)
+- [Applicare uno stile alla tabella pivot](/cells/it/net/apply-style-to-pivot-table/)
+- [Aggiornare la tabella pivot](/cells/it/net/refresh-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

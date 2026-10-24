@@ -72,13 +72,11 @@ workbook.save("output_drag.xlsx");
 
 {{% alert color="primary" %}}
 更改 `Function` 仅影响汇总方式，源列不会改变。
-{{% /alert %}}
-
 因此，您可以在同一个数据透视表中保留一个 `SUM` 的数据字段，同时添加第二个针对同一源列但使用 `COUNT` 或 `AVERAGE` 的数据字段。
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -119,13 +117,11 @@ workbook.save("output_function.xlsx");
 
 {{% alert color="primary" %}}
 如果没有值字段或仅有一个值字段，`PivotTable.getValuesField()` 不起作用。
-{{% /alert %}}
-
 以下场景通过三个端到端示例演示了上述每个功能，这些示例都针对相同的数据透视结构。
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 迷你图是放置在工作表单元格内的小型图表。Aspose.Cells 允许您将每个迷你图提取为独立图像（用于嵌入到另一个单元格或外部报表中），也可以将整个包含迷你图的工作表导出为 HTML 以便在浏览器中分发。本文中使用的 `Cell.EmbeddedImage` 属性在 **Aspose.Cells 26.5 及更高版本**中可用。
+{{% /alert %}}
 
 ## **简介**
 迷你图是一种直接在工作表中可视化趋势的紧凑方式。虽然 Excel 用户可以在工作表中直接看到它们，但许多实际场景需要迷你图离开单元格 —— 例如，作为静态图片嵌入到不同的单元格中、附加到自动发送的电子邮件中，或作为发布到 Web 的 HTML 报表的一部分进行渲染。
@@ -101,6 +102,7 @@ workbook.Save("output_with_sparklines.xlsx");
 
 {{% alert color="primary" %}}
 由于每个迷你图组都锚定到单个单元格，因此可以通过索引器 `group.Sparklines[0]` 访问它，而无需使用 `foreach` 进行枚举。这使渲染代码保持简洁，并符合典型的"每个锚定单元格对应一个迷你图"的模式。通过 `Cell.EmbeddedImage` 存储图片字节需要 Aspose.Cells 26.5 或更高版本。
+{{% /alert %}}
 
 ## **工作流程 2 — 将包含迷你图的工作表导出为 HTML**
 一旦工作簿包含实时迷你图（以及可选的嵌入图片对应版本），就可以通过将其另存为 HTML 来将整个工作表发布到 Web。`HtmlSaveOptions` 类提供了控制此导出所需的设置；在此工作流程中，您将重用工作流程 1 中生成的 `output_with_sparklines.xlsx` 文件，并将其转换为一个干净的、单页的 HTML 文档。
@@ -125,6 +127,7 @@ workbook.Save("sparklines.html", htmlOptions);
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` 类提供了其他属性用于微调输出，例如 `ExportHiddenWorksheet`、`ExportImagesAsBase64` 和 `Encoding`。可根据您的部署目标调整这些属性。
+{{% /alert %}}
 
 ## **API 摘要**
 上述工作流程依赖于一组协同工作的 Aspose.Cells API。
@@ -139,10 +142,5 @@ workbook.Save("sparklines.html", htmlOptions);
 - [Aspose.Cells for .NET 中的迷你图](/cells/zh/net/sparkline/)
 - [将图像插入单元格](/cells/zh/net/inserting-an-image-into-a-cell/)
 - [SmartMarker 单单元格数组渲染 | Aspose.Cells .NET](/cells/zh/net/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="csharp" >}}

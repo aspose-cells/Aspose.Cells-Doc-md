@@ -28,6 +28,7 @@ Aspose.Cells proporciona un conjunto de clases que se usan para crear y controla
 Después de ejecutar el código de ejemplo, se agrega una tabla dinámica a la hoja de cálculo.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var dataDir = "./";
 
 // Instantiating a Workbook object
@@ -103,13 +104,13 @@ var pivotTable = pivotTables.get(index);
 pivotTable.setRowGrand(false);
 
 // Draging the first field to the row area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
 
 // Draging the second field to the column area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, 1);
 
 // Draging the third field to the data area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 2);
 
 // Saving the Excel file
 workbook.save(dataDir + "pivotTable_test_out.xls");
@@ -119,11 +120,11 @@ workbook.save(dataDir + "pivotTable_test_out.xls");
 Al asignar un rango de celdas como fuente de datos, el rango debe ir de arriba a la izquierda a abajo a la derecha. Por ejemplo, "A1:C3" es válido pero "C3:A1" no lo es.
 {{% /alert %}}
 
-## Related Articles
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/apply-style-to-pivot-table/)
+## Artículos relacionados
+- [Agregar campos de filtro a una tabla dinámica en Aspose.Cells para .NET](/cells/es/nodejs-java/add-page-field-in-pivot-table/)
+- [Aplicar estilos a tablas dinámicas en Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/apply-style-to-pivot-table/)
 - [Modify Page Field Layout in Pivot Table](/cells/es/nodejs-java/change-page-field-layout/)
 - [Filtering Pivot Tables by Label or Value](/cells/es/nodejs-java/filter-by-label-or-value-of-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/manage-value-fields/)
+- [Campos de Valor en Aspose.Cells for Node.js via Java](/cells/es/nodejs-java/manage-value-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

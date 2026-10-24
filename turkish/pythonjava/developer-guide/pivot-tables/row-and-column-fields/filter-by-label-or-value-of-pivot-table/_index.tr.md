@@ -33,7 +33,6 @@ Aşağıdaki örnek, mevcut bir özet tablosu içeren bir çalışma kitabını 
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
@@ -46,7 +45,7 @@ pivotTable = worksheet.getPivotTables().get(0)
 # İlk satır PivotField alanını al
 rowField = pivotTable.getRowFields().get(0)
 # Etiket filtresi uygula — yalnızca etiketleri sağlanan önekle başlayan satır öğelerini göster
-rowField.filterByLabel(PivotFilterType.CaptionBeginsWith, prefix, "")
+rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Filtrenin geçerli olması için özet tablo verilerini yenile ve yeniden hesapla
 pivotTable.getPivotCache().refresh()
 # Çalışma kitabını diske geri kaydet
@@ -59,16 +58,15 @@ Tarih filtreleri, bir özet tablosunu bugün, geçen hafta, bu ay, gelecek çeyr
 
 {{% alert color="primary" %}}
 Tarih filtresi yalnızca satır veya sütun alanı yalnızca tarih-saat hücreleri veya boş değerler içerdiğinde çalışır. Temel alan sayılar veya metin gibi başka veri türleri içeriyorsa, tarih filtresi beklenen sonucu üretmeyecektir. Bu filtreyi uygulamadan önce alanın tarih olarak biçimlendirildiğinden ve tüm değerlerin geçerli `DateTime` örnekleri veya boş hücreler olduğundan emin olun.
-{{% /alert %}}
-
 Aspose.Cells, tarih filtrelemeyi `PivotField.filter_by_date(PivotFilterType, values)` yöntemi aracılığıyla sunar. `PivotFilterType` numaralandırması `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` ve `Between` gibi özel tarih değerleri içerir. Seçilen filtre türüne bağlı olarak bir veya iki `DateTime` değeri geçirirsiniz (`Between` için başlangıç ve bitiş tarihlerini geçirirsiniz).
 Aşağıdaki örnek, satır alanında bir tarih alanı bulunan bir özet tablosu içeren bir çalışma kitabını yükler, görünür öğeleri belirli bir tarih aralığıyla kısıtlayan bir tarih filtresi uygular, özet tablosunu yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
@@ -88,7 +86,7 @@ Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
 # Pivot alanına tarih filtresini uygulayın
-dateField.filterByDate(PivotFilterType.DateBetween, startDate, endDate)
+dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
 # Filtrenin etkili olması için pivot tablosunu yenileyin ve yeniden hesaplayın
 pivotTable.getPivotCache().refresh()
 # Çalışma kitabını kaydedin
@@ -105,7 +103,6 @@ Aşağıdaki örnek, bir özet tablosu içeren bir çalışma kitabını yükler
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 workbook = Workbook("sample.xlsx")
 worksheet = workbook.getWorksheets().get(0)
@@ -130,16 +127,14 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 İlk 10 filtresi yalnızca özet tablosunun veri alanında bir veya daha fazla değer pivot alanı varsa etkilidir. En az bir değer alanı olmadan, öğeleri sıralamak için toplama bir ölçü yoktur ve filtre uygulanamaz.
-{{% /alert %}}
-
 Aspose.Cells, ilk 10 filtrelemeyi `PivotField.filter_top10(item_count, is_top, value_field, filter_type)` yöntemi aracılığıyla sunar. `item_count` parametresi kaç öğenin tutulacağını tanımlar, `is_top` en yüksek öğelerin mi (true) yoksa en düşük öğelerin mi (false) tutulacağını belirtir, `value_field` sıralama için kullanılan veri alanına başvurur ve `filter_type` değerin nasıl hesaplanacağını kontrol eder (genellikle `Sum`, ancak `Count` ve `Percent` da olabilir).
 Aşağıdaki örnek, bir değer alanı içeren bir özet tablosu bulunan bir çalışma kitabını yükler, satış toplamına göre yalnızca en yüksek 10 öğeyi tutmak için ilk 10 filtresi uygular, özet tablosunu yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
 # Pivot tablosunu içeren mevcut çalışma kitabını yükleyin
 inputPath = "input.xlsx"
@@ -159,10 +154,10 @@ rowField = pivotTable.getRowFields().get(0)
 valueFieldIndex = 0
 # Satır alanına Top 10 filtresini uygulayın:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (ilk N; false alt N anlamına gelir)
 #   - valueFieldIndex = öğeleri sıralamak için kullanılan veri alanının indeksi
-rowField.filterTop10(10, PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, True, 10)
 # Pivot tablosu verilerini yenileyin ve filtrenin geçerli olması için yeniden hesaplayın
 pivotTable.getPivotCache().refresh()
 # Çalışma kitabını kaydedin
@@ -178,7 +173,6 @@ Bu yaklaşım, filtreleme kuralının düzensiz veya öğeye özgü olduğu duru
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
 # Pivot tablosu içeren mevcut bir çalışma kitabını yükle
 workbook = Workbook("pivot_table_sample.xlsx")
@@ -194,10 +188,10 @@ for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
     # Belirli bir ad/ölçütle eşleşen pivot öğelerini gizle
     if item.getName() == "Item1" or item.getName() == "Item2":
-        item.setIsHidden(True)
+        item.setHidden(True)
     # Gizlemeyi kaldırmayı göster: daha önce gizlenmiş bir pivot öğesini yeniden göster
     if item.getName() == "Item3":
-        item.setIsHidden(False)
+        item.setHidden(False)
 # Değişikliklerin geçerli olması için pivot tablosunu yenile ve yeniden hesapla
 pivotTable.getPivotCache().refresh()
 # Çalışma kitabını kaydet — gizli öğeler temel verilerde kalır

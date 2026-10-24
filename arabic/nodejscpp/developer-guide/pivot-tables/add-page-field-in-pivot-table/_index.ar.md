@@ -26,6 +26,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 يبني المثال التالي مجموعة بيانات صغيرة مكونة من عمود Fruit وYear وAmount، ويضع جدولاً محورياً في الخلية E3 مع `Fruit` في منطقة الصفوف، و`Amount` في منطقة البيانات، و`Year` في منطقة التصفية، ويقوم بتحديث الجدول المحوري، وحفظ المصنف.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 عندما تعمل بالفعل مع مثيل `PivotField`، يمكنك تمريره مباشرة إلى `PivotTable.pageFields.add`. يتم إنشاء الجدول المحوري وحقل التصفية تماماً كما في السيناريو السابق؛ لا يتم استبدال تسجيل منطقة التصفية النهائي إلا باستدعاء واجهة برمجة التطبيقات ذات المستوى الأدنى.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // العناوين
@@ -106,6 +108,7 @@ workbook.save("output.xlsx");
 يكون تعيين `currentPageItem` على القيمة السحرية `0x7FFD` مكافئاً لمسح مرشح الصفحة: يُلخص جسم الجدول المحوري كل عنصر من عناصر الصفحة كما لو لم يتم تطبيق أي مرشح.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // ملء بيانات الفاكهة/السنة/المبلغ
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 يؤدي تعيين `currentPageItem` على فهرس حقيقي إلى اختيار عنصر صفحة واحد فقط. الفهرس هو موضع العنصر في قائمة العناصر المرتبة لحقل التصفية، لذا على سبيل المثال يحدد `1` العنصر الثاني بعد الترتيب.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -184,6 +188,7 @@ workbook.save("output.xlsx");
 يقوم الكود أدناه بتفعيل الاختيار المتعدد على نفس حقل صفحة Year الذي تم إنشاؤه في السيناريو 1a، ثم يعرض نمطين: الجزء A يكشف عن كل عنصر من عناصر الصفحة عن طريق ترك `isHidden` مضبوطاً على `false` لكل إدخال، بينما يسمح الجزء B فقط بقيم المصدر التي تختارها ويخفي كل شيء آخر من خلال كتلة `switch (pivotItems[i].getStringValue())`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();

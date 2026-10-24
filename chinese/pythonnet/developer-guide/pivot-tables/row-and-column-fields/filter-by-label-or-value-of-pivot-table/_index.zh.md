@@ -31,6 +31,7 @@ Aspose.Cells 通过 `PivotField.filter_by_label(PivotFilterType, label_string)` 
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 workbook = ac.Workbook("sample.xlsx")
 worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
@@ -38,12 +39,12 @@ row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
 # Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 data_field_index = -1
-for i in range(pivot_table.data_fields.count):
+for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
         data_field_index = i
         break
 if data_field_index >= 0:
-    row_field.filter_by_value(data_field_index, ac.PivotFilterType.VALUE_GREATER_THAN, 5000, float('inf'))
+    row_field.filter_by_value(data_field_index, PivotFilterType.VALUE_GREATER_THAN, 5000.0, float('inf'))
 pivot_table.pivot_cache.refresh()
 workbook.save("output.xlsx")
 ```
@@ -52,14 +53,16 @@ workbook.save("output.xlsx")
 日期筛选允许您按基于日期的条件（例如今天、上周、本月、下个季度或特定日期范围）缩小数据透视表。它们是仅适用于存储日期时间信息的字段的专用筛选器。
 
 {{% alert color="primary" %}}
-日期筛选仅在行或列区域仅包含日期时间单元格或空白值时才有效。如果底层字段包含其他数据类型（如数字或文本），日期筛选将无法产生预期结果。在应用此筛选之前，请确保该字段格式化为日期，并且所有值都是有效的 `DateTime` 实例或空单元格。
+日期筛选仅在行或列区域仅包含日期时间单元格或空白值时才有效。如果底层字段包含其他数据类型（如数字或文本），日期筛选将无法产生预期结果。在应用此筛选之前，请确保该字段格式化为日期，并且所有值都是有效的 `datetime` 实例或空单元格。
+Aspose.Cells 通过 `PivotField.filter_by_date(PivotFilterType, *date_times)` 方法公开日期筛选。`PivotFilterType` 枚举包含专用日期值，例如 `Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear` 和 `Between`。根据所选的筛选类型，您需要传递一个或两个 `datetime` 值（对于 `Between`，传递开始和结束日期）。
+以下示例加载一个包含数据透视表的工作簿（该数据透视表的行区域包含日期字段），应用日期筛选将可见项限制为特定日期范围，刷新数据透视表，然后保存工作簿。
 {{% /alert %}}
 
-Aspose.Cells 通过 `PivotField.filter_by_date(PivotFilterType, *date_times)` 方法公开日期筛选。`PivotFilterType` 枚举包含专用日期值，例如 `Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear` 和 `Between`。根据所选的筛选类型，您需要传递一个或两个 `DateTime` 值（对于 `Between`，传递开始和结束日期）。
-以下示例加载一个包含数据透视表的工作簿（该数据透视表的行区域包含日期字段），应用日期筛选将可见项限制为特定日期范围，刷新数据透视表，然后保存工作簿。
-
 ```python
+import os
+import aspose.cells as ac
 from datetime import datetime
+from aspose.cells.pivot import PivotFilterType
 input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
@@ -77,7 +80,7 @@ date_field = pivot_table.row_fields[0]
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
 # 在数据透视字段上应用日期筛选
-date_field.filter_by_date(ac.PivotFilterType.DATE_BETWEEN, start_date, end_date)
+date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
 # 刷新并重新计算数据透视表以使筛选生效
 pivot_table.pivot_cache.refresh()
 # 保存工作簿
@@ -91,6 +94,7 @@ Aspose.Cells 通过 `PivotField.filter_by_value(value_field, PivotFilterType, *t
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
 # Load the existing workbook containing a pivot table
@@ -102,7 +106,7 @@ pivot_table = worksheet.pivot_tables[0]
 # Retrieve the first row PivotField
 row_field = pivot_table.row_fields[0]
 # Apply the label filter — show only row items whose labels begin with the supplied prefix
-row_field.filter_by_label(ac.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
+row_field.filter_by_label(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Refresh and recalculate the pivot table data so the filter takes effect
 pivot_table.pivot_cache.refresh()
 # Save the workbook back to disk
@@ -114,10 +118,9 @@ workbook.save(fileName)
 
 {{% alert color="primary" %}}
 前 10 项筛选仅在数据透视表的数据区域中具有一个或多个值数据透视字段时才有效。如果没有至少一个值字段，则没有可用来对项进行排名的聚合度量，因此无法应用该筛选。
-{{% /alert %}}
-
 Aspose.Cells 通过 `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)` 方法公开前 10 项筛选。`item_count` 参数定义要保留的项数，`is_top` 指示是保留顶部项（True）还是底部项（False），`value_field` 引用用于排名的数据字段，`PivotFilterType` 控制值的计算方式（通常为 `Sum`，但也可以是 `Count` 和 `Percent`）。
 以下示例加载一个包含数据透视表（其中包含值字段）的工作簿，应用前 10 项筛选以仅保留销售额总和最高的前 10 项，刷新数据透视表，然后保存工作簿。
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
@@ -131,7 +134,7 @@ worksheet = workbook.worksheets[0]
 # 通过索引访问数据透视表
 pivotTable = worksheet.pivot_tables[0]
 # 确认数据区域中至少有一个值 PivotField
-if pivotTable.data_fields.count == 0:
+if len(pivotTable.data_fields) == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
 # 检索目标行 PivotField（我们要对其应用前 10 筛选的字段）
@@ -140,10 +143,10 @@ rowField = pivotTable.row_fields[0]
 valueFieldIndex = 0
 # 在行字段上应用前 10 筛选器：
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true（前 N；false 表示后 N）
 #   - valueFieldIndex = 用于对项进行排名的数据字段的索引
-rowField.filter_top10(10, acp.PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
 # 刷新数据透视表数据并重新计算以使筛选器生效
 pivotTable.pivot_cache.refresh()
 # 保存工作簿

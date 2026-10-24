@@ -25,9 +25,8 @@ Excel カメラは基本的に、ワークシートの描画レイヤーの特�
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` は、出力が HTML または PDF の場合に保存する前に必ず呼び出す必要があります。そうしないと、エクスポートされたファイルに画像データが含まれず、レンダリングされた出力でカメラが空白として表示されます。
-{{% /alert %}}
-
 次のコードは、ワークブックを作成し、行 10、列 6 にアンカーされた空の画像を追加し、`setFormula` メソッドを介してソース範囲 `A1:F10` にリンクし、埋め込まれた画像データを更新して、ワークブックを保存します。
+{{% /alert %}}
 
 ```python
 import jpype
@@ -38,7 +37,7 @@ worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
 # 動的カメラ: 空の画像を追加し、数式を介して A1:F10 にリンクし、更新します
 pictures = worksheet.getPictures()
-index = pictures.add(10, 6, None)
+index = pictures.add(10, 6, b"")
 pictures.get(index).setFormula("A1:F10")
 pictures.get(index).updateSelectedValue()
 workbook.save("output_dynamic.xlsx", SaveFormat.XLSX)
@@ -57,6 +56,7 @@ workbook.save("output_dynamic.xlsx", SaveFormat.XLSX)
 import jpype
 import jpype.imports
 from asposecells.api import Workbook, SaveFormat
+from java.io import ByteArrayInputStream
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
@@ -64,7 +64,7 @@ worksheet.setName("CameraDemo")
 range_ = worksheet.getCells().createRange("A1:F10")
 image_bytes = range_.toImage(None)
 pictures = worksheet.getPictures()
-pictures.add(10, 6, jpype.JArray(jpype.JByte)(image_bytes))
+pictures.add(10, 6, ByteArrayInputStream(image_bytes))
 workbook.save("output_static.xlsx", SaveFormat.XLSX)
 ```
 

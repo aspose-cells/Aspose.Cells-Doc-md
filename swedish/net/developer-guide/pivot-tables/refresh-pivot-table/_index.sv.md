@@ -24,11 +24,10 @@ Den fyrskiktade datakedjan är:
 
 {{% alert color="primary" %}}
 `PivotCache.SourceType` (enum `PivotTableSourceType`) anger var cachedatan kom ifrån. Från och med v26.7 stöder `PivotCache.Refresh()` endast källtyperna **`Sheet`** och **`Consolidation`** — det vill säga data som finns i kalkylbladsintervall. Externa källor (databaser, externa anslutningar osv.) är ännu inte möjliga att uppdatera via cache-API:t.
-{{% /alert %}}
-
 På grund av denna kedja finns det två grundläggande uppdateringsvägar i Aspose.Cells:
 - **`PivotTable.CalculateData()`** — beräknar om en `PivotTable`s vy från redan cachelagrad data, utan att gå tillbaka till datakällan.
 Alla scenarier i den här artikeln använder kalkylbladsceller som datakälla, så källtypen är `Sheet` och uppdateringsåtgärderna fungerar enligt beskrivningen.
+{{% /alert %}}
 
 ## Snabbstart
 Om du bara behöver den kortaste möjliga koden som uppdaterar varje pivot i arbetsboken räcker det med ett enda anrop:

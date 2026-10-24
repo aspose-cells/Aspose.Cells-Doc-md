@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持通过 Smart Markers 将数组数据渲染到单个单元格。通过同时使用 `ArrayAsSingle` 属性和 `ExtraDelimiter` 属性，开发人员可以控制数组元素在单个单元格中的分隔方式，从而为报表和模板提供灵活的格式化功能。
+{{% /alert %}}
 
 ## **简介**
 Aspose.Cells 中的 Smart Markers 是一项功能强大的、基于模板的特性，允许您使用标记表达式（如 `&=DataSource.Field`）动态填充电子表格数据。该标记放置在设计器工作簿中，当模板由 `WorkbookDesigner` 处理时，标记将被替换为来自所提供数据源的值。
@@ -59,6 +60,7 @@ Aspose.Cells 中的 Smart Markers 是一项功能强大的、基于模板的特�
 
 {{% alert color="primary" %}}
 `extraDelimiter` 属性接受任何字符串字面量，包括多字符分隔符、自定义文本或转义序列（如用于换行分隔输出的 `\n`）。如果数组为空，则结果单元格将保留空白。
+{{% /alert %}}
 
 ### **分步骤工作流程**
 以下工作流程描述了如何使用 Smart Markers 将数组渲染到单个单元格中。
@@ -71,6 +73,7 @@ Aspose.Cells 中的 Smart Markers 是一项功能强大的、基于模板的特�
 ### **代码示例 1 — 基本字符串数组渲染**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Product {
     constructor() {
         this.Tags = null;
@@ -92,6 +95,7 @@ workbook.save("output_arraySingle.xlsx");
 ### **代码示例 2 — 使用自定义分隔符的数字数组**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Student {
     constructor() {
         this.Scores = [];
@@ -141,8 +145,5 @@ main();
 - 该功能适用于对象数据源以及可将列拆分为数组的 `DataSet` 和 `DataTable` 数据源。
 - 对于换行分隔的输出，您可以使用 `\n` 作为分隔符值。
 - 请将 Smart Marker 放置在宽度足以显示结果合并字符串的单元格中；否则，根据格式的不同，内容可能会在视觉上溢出到相邻的单元格中。
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

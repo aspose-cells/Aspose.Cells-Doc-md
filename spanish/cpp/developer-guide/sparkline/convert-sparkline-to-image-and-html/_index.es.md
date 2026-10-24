@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Los minigráficos son gráficos en miniatura colocados dentro de las celdas de una hoja de cálculo. Aspose.Cells permite extraer cada minigráfico como una imagen independiente (para incrustarlo en otra celda o en un informe externo) y también exportar toda la hoja de cálculo con minigráficos a HTML para su distribución mediante navegadores. La propiedad `Cell.EmbeddedImage` utilizada en este artículo está disponible en **Aspose.Cells 26.5 y versiones posteriores**.
+{{% /alert %}}
 
 ## **Introducción**
 Los minigráficos son una forma compacta de visualizar tendencias directamente dentro de una hoja de cálculo. Aunque los usuarios de Excel los ven en las celdas, en muchos escenarios reales es necesario extraer un minigráfico de ellas; por ejemplo, para insertarlo como imagen estática en otra celda, adjuntarlo a un correo electrónico automatizado o incluirlo como imagen en un informe HTML publicado en la web.
@@ -83,6 +84,7 @@ El código anterior crea un libro de trabajo en el que cada representación visu
 
 {{% alert color="primary" %}}
 Como cada grupo de minigráficos está asociado a una sola celda, puede obtenerlo mediante el operador de indexación `group.Sparklines[0]` en lugar de recorrer la colección con `foreach`. Esto reduce el código necesario para generar las imágenes y se ajusta al patrón habitual de «un minigráfico por celda de anclaje». Guardar los bytes de la imagen mediante `Cell.EmbeddedImage` requiere Aspose.Cells 26.5 o posterior.
+{{% /alert %}}
 
 ## **Flujo de trabajo 2 — Exportar la hoja de cálculo con minigráficos a HTML**
 Una vez que el libro de trabajo contiene minigráficos activos (y, opcionalmente, imágenes estáticas equivalentes), la hoja de cálculo se puede publicar en la web guardándola como HTML. La clase `HtmlSaveOptions` ofrece las opciones necesarias para controlar esta exportación. En este flujo de trabajo, reutilizará el archivo `output_with_sparklines.xlsx` producido por el flujo de trabajo 1 y lo convertirá en un documento HTML limpio de una sola página.
@@ -111,6 +113,7 @@ El código anterior convierte el libro de trabajo con minigráficos del flujo de
 
 {{% alert color="primary" %}}
 La clase `HtmlSaveOptions` ofrece propiedades adicionales para ajustar con precisión la salida, como `ExportHiddenWorksheet`, `ExportImagesAsBase64` y `Encoding`. Ajústelas según las necesidades de su entorno de implementación.
+{{% /alert %}}
 
 ## **Resumen de la API**
 Los flujos de trabajo anteriores se basan en un pequeño conjunto de API de Aspose.Cells que funcionan conjuntamente.
@@ -124,10 +127,5 @@ Los flujos de trabajo anteriores se basan en un pequeño conjunto de API de Aspo
 - [Minigráficos en Aspose.Cells for C++](/cells/es/cpp/sparkline/)
 - [Insertar una imagen en una celda](/cells/es/cpp/inserting-an-image-into-a-cell/)
 - [Renderizado de una matriz de una sola celda mediante SmartMarker | Aspose.Cells for C++](/cells/es/cpp/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

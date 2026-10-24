@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge le fractionnement d'un fichier Excel unique en plusieurs fichiers. Il existe deux méthodes principales pour y parvenir : (1) en copiant chaque feuille de calcul du classeur source dans un nouveau classeur et en enregistrant chacun d'eux dans un fichier distinct, et (2) en copiant une plage de cellules spécifique d'une feuille de calcul vers un nouveau classeur. Ces deux approches sont utiles lorsque vous devez distribuer des sous-ensembles de données, créer des rapports plus petits pour différents destinataires, ou isoler des données pour un traitement individuel.
+{{% /alert %}}
 
 ## **Introduction**
 Il existe de nombreux scénarios concrets dans lesquels un développeur doit diviser un fichier Excel unique en plusieurs fichiers plus petits. Par exemple, un classeur peut contenir une feuille de calcul par département, et chaque responsable de département doit recevoir uniquement sa propre feuille. Dans d'autres cas, vous pouvez souhaiter extraire un tableau ou un bloc de données particulier d'une feuille de calcul et l'envoyer sous forme de fichier autonome par e-mail, sans exposer le reste du classeur. Les grands classeurs consolidés peuvent également devoir être fractionnés en morceaux plus petits pour faciliter leur manipulation, accélérer leur chargement, ou permettre leur traitement en aval par d'autres systèmes.
@@ -53,7 +54,7 @@ for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
     destSheet.copy(sourceSheet);
     
     const destFile = dataDir + sheetName + ".xls";
-    destWorkbook.save(destFile, AsposeCells.SaveFormat.Excel97To2003);
+    destWorkbook.save(destFile, AsposeCells.SaveFormat.EXCEL_97_TO_2003);
 }
 ```
 
@@ -77,6 +78,5 @@ Les étapes suivantes décrivent comment fractionner un fichier Excel en copiant
 
 ### **Exemple de code**
 Le résultat attendu est un nouveau fichier unique dans le répertoire de données qui contient uniquement les valeurs (et éventuellement la mise en forme) de la plage spécifiée extraite du classeur source. Le fichier de destination n'a aucune relation avec d'autres données du fichier source ; il contient uniquement la plage extraite, commençant à la cellule `A1` de sa première feuille de calcul.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

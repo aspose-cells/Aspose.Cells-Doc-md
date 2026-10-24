@@ -25,9 +25,8 @@ Les API clés sont :
 
 {{% alert color="primary" %}}
 `update_selected_value()` DOIT être appelé avant l'enregistrement lorsque la sortie est HTML ou PDF ; sinon, le fichier exporté ne contiendra pas les données d'image et la Camera apparaîtra vide dans la sortie rendue.
-{{% /alert %}}
-
 Le code suivant crée un classeur, ajoute une image vide ancrée à la ligne 10 colonne 6, la lie à la plage source `A1:F10` via la propriété `formula`, actualise les données d'image intégrées, et enregistre le classeur.
+{{% /alert %}}
 
 ```python
 from aspose.cells import Workbook, SaveFormat

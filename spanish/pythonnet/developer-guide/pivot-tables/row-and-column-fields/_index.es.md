@@ -43,53 +43,55 @@ Cuando no se llama a `set_subtotals` en absoluto, Aspose.Cells aplica la selecci
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells.pivot import PivotFieldSubtotalType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-worksheet.cells[0, 0].put_value("Category")
-worksheet.cells[0, 1].put_value("Item")
-worksheet.cells[0, 2].put_value("Year")
-worksheet.cells[0, 3].put_value("Amount")
-worksheet.cells[1, 0].put_value("Fruit")
-worksheet.cells[1, 1].put_value("Apple")
-worksheet.cells[1, 2].put_value(2020)
-worksheet.cells[1, 3].put_value(100)
-worksheet.cells[2, 0].put_value("Fruit")
-worksheet.cells[2, 1].put_value("Apple")
-worksheet.cells[2, 2].put_value(2021)
-worksheet.cells[2, 3].put_value(150)
-worksheet.cells[3, 0].put_value("Fruit")
-worksheet.cells[3, 1].put_value("Banana")
-worksheet.cells[3, 2].put_value(2020)
-worksheet.cells[3, 3].put_value(80)
-worksheet.cells[4, 0].put_value("Fruit")
-worksheet.cells[4, 1].put_value("Banana")
-worksheet.cells[4, 2].put_value(2021)
-worksheet.cells[4, 3].put_value(90)
-worksheet.cells[5, 0].put_value("Vegetable")
-worksheet.cells[5, 1].put_value("Carrot")
-worksheet.cells[5, 2].put_value(2020)
-worksheet.cells[5, 3].put_value(50)
-worksheet.cells[6, 0].put_value("Vegetable")
-worksheet.cells[6, 1].put_value("Carrot")
-worksheet.cells[6, 2].put_value(2021)
-worksheet.cells[6, 3].put_value(60)
-worksheet.cells[7, 0].put_value("Vegetable")
-worksheet.cells[7, 1].put_value("Daikon")
-worksheet.cells[7, 2].put_value(2020)
-worksheet.cells[7, 3].put_value(40)
-worksheet.cells[8, 0].put_value("Vegetable")
-worksheet.cells[8, 1].put_value("Daikon")
-worksheet.cells[8, 2].put_value(2021)
-worksheet.cells[8, 3].put_value(45)
+worksheet.cells.get(0, 0).put_value("Category")
+worksheet.cells.get(0, 1).put_value("Item")
+worksheet.cells.get(0, 2).put_value("Year")
+worksheet.cells.get(0, 3).put_value("Amount")
+worksheet.cells.get(1, 0).put_value("Fruit")
+worksheet.cells.get(1, 1).put_value("Apple")
+worksheet.cells.get(1, 2).put_value(2020)
+worksheet.cells.get(1, 3).put_value(100)
+worksheet.cells.get(2, 0).put_value("Fruit")
+worksheet.cells.get(2, 1).put_value("Apple")
+worksheet.cells.get(2, 2).put_value(2021)
+worksheet.cells.get(2, 3).put_value(150)
+worksheet.cells.get(3, 0).put_value("Fruit")
+worksheet.cells.get(3, 1).put_value("Banana")
+worksheet.cells.get(3, 2).put_value(2020)
+worksheet.cells.get(3, 3).put_value(80)
+worksheet.cells.get(4, 0).put_value("Fruit")
+worksheet.cells.get(4, 1).put_value("Banana")
+worksheet.cells.get(4, 2).put_value(2021)
+worksheet.cells.get(4, 3).put_value(90)
+worksheet.cells.get(5, 0).put_value("Vegetable")
+worksheet.cells.get(5, 1).put_value("Carrot")
+worksheet.cells.get(5, 2).put_value(2020)
+worksheet.cells.get(5, 3).put_value(50)
+worksheet.cells.get(6, 0).put_value("Vegetable")
+worksheet.cells.get(6, 1).put_value("Carrot")
+worksheet.cells.get(6, 2).put_value(2021)
+worksheet.cells.get(6, 3).put_value(60)
+worksheet.cells.get(7, 0).put_value("Vegetable")
+worksheet.cells.get(7, 1).put_value("Daikon")
+worksheet.cells.get(7, 2).put_value(2020)
+worksheet.cells.get(7, 3).put_value(40)
+worksheet.cells.get(8, 0).put_value("Vegetable")
+worksheet.cells.get(8, 1).put_value("Daikon")
+worksheet.cells.get(8, 2).put_value(2021)
+worksheet.cells.get(8, 3).put_value(45)
 pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
 pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
-category_field.set_subtotals(ac.PivotFieldSubtotalType.AUTOMATIC, True)
+category_field.set_subtotals(PivotFieldSubtotalType.AUTOMATIC, True)
 pivot_table.calculate_data()
 workbook.save("output_automatic.xlsx")
 ```
@@ -99,12 +101,14 @@ Llamar a `set_subtotals(PivotFieldSubtotalType.NONE, True)` elimina todas las fi
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells.pivot import PivotFieldSubtotalType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
 headers = ["Category", "Item", "Year", "Amount"]
 for j in range(len(headers)):
-    worksheet.cells[0, j].put_value(headers[j])
+    worksheet.cells.get(0, j).put_value(headers[j])
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -117,15 +121,15 @@ data = [
 ]
 for i in range(len(data)):
     for j in range(len(data[i])):
-        worksheet.cells[i + 1, j].put_value(data[i][j])
+        worksheet.cells.get(i + 1, j).put_value(data[i][j])
 pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
 pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
-for st in [ac.PivotFieldSubtotalType.SUM, ac.PivotFieldSubtotalType.COUNT, ac.PivotFieldSubtotalType.AVERAGE, ac.PivotFieldSubtotalType.MAX, ac.PivotFieldSubtotalType.MIN, ac.PivotFieldSubtotalType.PRODUCT]:
+for st in [PivotFieldSubtotalType.SUM, PivotFieldSubtotalType.COUNT, PivotFieldSubtotalType.AVERAGE, PivotFieldSubtotalType.MAX, PivotFieldSubtotalType.MIN, PivotFieldSubtotalType.PRODUCT]:
     category_field.set_subtotals(st, True)
 pivot_table.calculate_data()
 workbook.save("output_none.xlsx")
@@ -136,61 +140,72 @@ No se limita a un solo tipo de subtotal. Cada llamada a `set_subtotals` opera de
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells.pivot import PivotFieldSubtotalType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-worksheet.cells["A1"].put_value("Category")
-worksheet.cells["B1"].put_value("Item")
-worksheet.cells["C1"].put_value("Year")
-worksheet.cells["D1"].put_value("Amount")
-worksheet.cells[1, 0].put_value("Fruit")
-worksheet.cells[1, 1].put_value("Apple")
-worksheet.cells[1, 2].put_value(2020)
-worksheet.cells[1, 3].put_value(100)
-worksheet.cells[2, 0].put_value("Fruit")
-worksheet.cells[2, 1].put_value("Apple")
-worksheet.cells[2, 2].put_value(2021)
-worksheet.cells[2, 3].put_value(150)
-worksheet.cells[3, 0].put_value("Fruit")
-worksheet.cells[3, 1].put_value("Banana")
-worksheet.cells[3, 2].put_value(2020)
-worksheet.cells[3, 3].put_value(80)
-worksheet.cells[4, 0].put_value("Fruit")
-worksheet.cells[4, 1].put_value("Banana")
-worksheet.cells[4, 2].put_value(2021)
-worksheet.cells[4, 3].put_value(90)
-worksheet.cells[5, 0].put_value("Vegetable")
-worksheet.cells[5, 1].put_value("Carrot")
-worksheet.cells[5, 2].put_value(2020)
-worksheet.cells[5, 3].put_value(50)
-worksheet.cells[6, 0].put_value("Vegetable")
-worksheet.cells[6, 1].put_value("Carrot")
-worksheet.cells[6, 2].put_value(2021)
-worksheet.cells[6, 3].put_value(60)
-worksheet.cells[7, 0].put_value("Vegetable")
-worksheet.cells[7, 1].put_value("Daikon")
-worksheet.cells[7, 2].put_value(2020)
-worksheet.cells[7, 3].put_value(40)
-worksheet.cells[8, 0].put_value("Vegetable")
-worksheet.cells[8, 1].put_value("Daikon")
-worksheet.cells[8, 2].put_value(2021)
-worksheet.cells[8, 3].put_value(45)
+worksheet.cells.get("A1").put_value("Category")
+worksheet.cells.get("B1").put_value("Item")
+worksheet.cells.get("C1").put_value("Year")
+worksheet.cells.get("D1").put_value("Amount")
+worksheet.cells.get(1, 0).put_value("Fruit")
+worksheet.cells.get(1, 1).put_value("Apple")
+worksheet.cells.get(1, 2).put_value(2020)
+worksheet.cells.get(1, 3).put_value(100)
+worksheet.cells.get(2, 0).put_value("Fruit")
+worksheet.cells.get(2, 1).put_value("Apple")
+worksheet.cells.get(2, 2).put_value(2021)
+worksheet.cells.get(2, 3).put_value(150)
+worksheet.cells.get(3, 0).put_value("Fruit")
+worksheet.cells.get(3, 1).put_value("Banana")
+worksheet.cells.get(3, 2).put_value(2020)
+worksheet.cells.get(3, 3).put_value(80)
+worksheet.cells.get(4, 0).put_value("Fruit")
+worksheet.cells.get(4, 1).put_value("Banana")
+worksheet.cells.get(4, 2).put_value(2021)
+worksheet.cells.get(4, 3).put_value(90)
+worksheet.cells.get(5, 0).put_value("Vegetable")
+worksheet.cells.get(5, 1).put_value("Carrot")
+worksheet.cells.get(5, 2).put_value(2020)
+worksheet.cells.get(5, 3).put_value(50)
+worksheet.cells.get(6, 0).put_value("Vegetable")
+worksheet.cells.get(6, 1).put_value("Carrot")
+worksheet.cells.get(6, 2).put_value(2021)
+worksheet.cells.get(6, 3).put_value(60)
+worksheet.cells.get(7, 0).put_value("Vegetable")
+worksheet.cells.get(7, 1).put_value("Daikon")
+worksheet.cells.get(7, 2).put_value(2020)
+worksheet.cells.get(7, 3).put_value(40)
+worksheet.cells.get(8, 0).put_value("Vegetable")
+worksheet.cells.get(8, 1).put_value("Daikon")
+worksheet.cells.get(8, 2).put_value(2021)
+worksheet.cells.get(8, 3).put_value(45)
 pivot_tables = worksheet.pivot_tables
 pivot_index = pivot_tables.add("A1:D9", "F3", "PivotTable1")
 pivot_table = pivot_tables[pivot_index]
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 category_field = pivot_table.row_fields[0]
-category_field.set_subtotals(ac.PivotFieldSubtotalType.SUM, True)
-category_field.set_subtotals(ac.PivotFieldSubtotalType.AVERAGE, True)
+category_field.set_subtotals(PivotFieldSubtotalType.SUM, True)
+category_field.set_subtotals(PivotFieldSubtotalType.AVERAGE, True)
 pivot_table.calculate_data()
 workbook.save("output_custom.xlsx")
 ```
 
 ## **Resumen**
 
+Los tres escenarios difieren únicamente en las llamadas a `set_subtotals`; todo lo demás —el conjunto de datos, los campos y las áreas a las que se asignan— es idéntico, lo que hace que los diseños sean directamente comparables.
+- **Colocación de campos.** `PivotTable.add_field_to_area(PivotFieldType.ROW, fieldName)` mueve una columna de origen a una región. Dentro de una región, el orden de las llamadas determina el orden de visualización, por lo que la primera llamada se convierte en el grupo más externo. Para calcular subtotales se requieren dos o más campos en la misma región: con un único campo no existe nada entre los grupos sobre lo que calcular el subtotal.
+- **Escenario 1 — subtotales automáticos.** No llamar a `set_subtotals` deja la decisión en manos de Excel, que aplica su subtotal predeterminado automáticamente a los campos numéricos. Llamar a `set_subtotals` con `PivotFieldSubtotalType.AUTOMATIC` registra explícitamente esa elección en lugar de dejarla implícita.
+- **Escenario 2 — sin subtotales.** `set_subtotals` con `PivotFieldSubtotalType.NONE` desactiva el subtotal predeterminado, por lo que la tabla dinámica conserva las filas de campo y el total general, pero omite las filas de subtotales que Excel insertaría de otro modo entre ellas.
+- **Escenario 3 — un subconjunto elegido.** Cada llamada activa o desactiva exactamente un tipo de subtotal, y las llamadas se acumulan en lugar de restablecerse entre sí. Por lo tanto, llamar una vez con `PivotFieldSubtotalType.SUM` y otra vez con `PivotFieldSubtotalType.AVERAGE` deja ambos habilitados, y la tabla dinámica muestra un subtotal de Suma, un subtotal de Promedio y un total general.
+
+{{% alert color="primary" %}}
+Nada acerca de los subtotales es específico de la región de filas. Las mismas llamadas a `set_subtotals` sobre un campo obtenido de `PivotTable.ColumnFields` producen los mismos tres diseños en el eje de columnas, porque la configuración pertenece al campo de tabla dinámica y no al eje en el que se encuentra.
+{{% /alert %}}
 ## **Artículos relacionados**
 - [Campos de página en tablas dinámicas](/cells/es/python-net/add-page-field-in-pivot-table/)
 - [Actualizar tablas dinámicas en Aspose.Cells for Python via .NET](/cells/es/python-net/refresh-pivot-table/)

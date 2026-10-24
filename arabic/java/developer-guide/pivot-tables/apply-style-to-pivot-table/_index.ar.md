@@ -87,6 +87,67 @@ workbook.save("output.xls");
 
 ## **تطبيق نمط جدول محوري مسمى مسبق حديث**
 
+`PivotTable.setPivotTableStyleType(int)` يختار أحد الأنماط المدمجة ذات الأسماء التي أدخلها Excel 2007 للجداول المحورية. يوفر تعداد `PivotTableStyleType` ثلاث عائلات سمات: العائلة الفاتحة من `PIVOT_TABLE_STYLE_LIGHT1` إلى `PIVOT_TABLE_STYLE_LIGHT28`، والعائلة المتوسطة من `PIVOT_TABLE_STYLE_MEDIUM1` إلى `PIVOT_TABLE_STYLE_MEDIUM28`، والعائلة الداكنة من `PIVOT_TABLE_STYLE_DARK1` إلى `PIVOT_TABLE_STYLE_DARK_28`. كما يعرّف `None` و`Custom`. الأعضاء ذات الأرقام الأعلى في كل عائلة هي الأنماط التي أضافها Excel 2017.
+هذه الإعدادات المسبقة للقراءة فقط. عند حاجتك إلى تغيير الألوان أو الحدود أو الخطوط بما يتجاوز ما يوفره الإعداد المسبق، عليك تعريف نمط جدول محوري مخصص بدلاً من ذلك، كما هو موضح في [السيناريو 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**لماذا الإعدادات المسبقة الحديثة وليس التنسيقات التلقائية لسلسلة التقارير؟** قيم `Report1` إلى `Report10` و`Table1` إلى `Table10` من `PivotTableAutoFormatType` تسبق حقول أعمدة الجداول المحورية، لذلك لا تحمل أي تنسيق لرؤوس حقول الأعمدة، ويعرض Excel تلك الرؤوس دون تنسيق. صُممت الإعدادات المسبقة `PivotTableStyleType` للتخطيط ثنائي الأبعاد الذي يستخدمه Excel الحديث، وتنسق رؤوس حقول الصفوف وحقول الأعمدة على حد سواء.
+{{% /alert %}}
+
+يعيد هذا السيناريو استخدام مجموعة بيانات الفاكهة/السنة/المبلغ من السيناريو 1، ويضيف `Year` إلى منطقة الأعمدة إلى جانب حقل الصف `Fruit` بواسطة `PivotFieldType.COLUMN`، ويطبق الإعداد المسبق `PIVOT_TABLE_STYLE_DARK1` ذي النمط الداكن باستخدام `pivotTable.setPivotTableStyleType`، ثم يحفظ النتيجة بصيغة `.xlsx` — وهي الصيغة التي يكون فيها `PivotTableStyleType` ذا معنى.
+
+```java
+import com.aspose.cells.*;
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+// Header row: Fruit / Year / Amount
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+// 9 data rows of Fruit / Year / Amount
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(100);
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(150);
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(200);
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(180);
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(120);
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(170);
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(210);
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(190);
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(130);
+// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1);
+// Save as modern .xlsx - this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx");
+```
 ## **تعريف وتطبيق نمط جدول محوري مخصص**
 لا يمكن تعديل الإعدادات المسبقة المدمجة. كلما احتجت إلى تجاوز الألوان أو الحدود أو الخطوط، يجب عليك تعريف نمط جدول محوري مخصص. تتكون سير العمل من ثلاث خطوات:
 1. أضف نمطًا مخصصًا إلى مجموعة `TableStyles` في المصنف عبر `Workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)`. يُرجع هذا فهرس النمط الذي تم إنشاؤه حديثًا.
@@ -95,10 +156,9 @@ workbook.save("output.xls");
 
 {{% alert color="primary" %}}
 إن `PivotTableStyleName` و`PivotTableStyleType` غير قابلين للتبادل. استخدم `PivotTableStyleType` للإعدادات المسبقة المدمجة، و`PivotTableStyleName` للأنماط المخصصة التي قمت بتعريفها من خلال `addPivotTableStyle`. إن تعيين كليهما غير ضار، ولكن يُعرض فقط الذي يتطابق مع المصدر المقصود.
-{{% /alert %}}
-
 تتضمن قيم `TableStyleElementType` المتاحة `WHOLE_TABLE` و`FIRST_ROW` و`LAST_ROW` و`FIRST_COLUMN` و`LAST_COLUMN` و`GRAND_TOTAL_ROW` و`GRAND_TOTAL_COLUMN` و`PAGE_FIELD_LABELS` و`PAGE_FIELD_VALUES`.
 يعرّف المثال التالي نمط جدول محوري مخصصًا بحد أسود رفيع على `WholeTable` وخط أحمر غامق على `GrandTotalRow`، ثم يطبقه عبر `PivotTableStyleName` ويحفظه بصيغة `.xlsx`.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -174,14 +234,13 @@ pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
 
-## **تطبيق نمط واحد على كل خلية من خلايا الجدول المحوري باستخدام FormatAll**
+## **تطبيق نمط واحد على كل خلية من خلايا الجدول المحوري باستخدام formatAll**
 يُعد `PivotTable.formatAll(Style)` اختصارًا يطبق كائن `Style` واحدًا على كل خلية من خلايا الجدول المحوري، بما في ذلك منطقة البيانات ورؤوس الصفوف والأعمدة والإجماليات. يتم تجاوز أي شيء تم تعيينه مسبقًا من خلال `PivotTableStyleType` أو `PivotTableStyleName`.
 
 {{% alert color="primary" %}}
-يتجاوز `FormatAll` كلًا من `PivotTableStyleType` و`PivotTableStyleName`. استخدمه فقط عندما يكون المظهر الموحد المستقل عن السمة مطلوبًا عبر الجدول المحوري بأكمله.
-{{% /alert %}}
-
+يتجاوز `formatAll` كلًا من `PivotTableStyleType` و`PivotTableStyleName`. استخدمه فقط عندما يكون المظهر الموحد المستقل عن السمة مطلوبًا عبر الجدول المحوري بأكمله.
 ينشئ المثال التالي `Style` بتعبئة صلبة صفراء وخط أزرق داكن غامق وحواف سوداء رفيعة على جميع الجوانب، ثم يطبقه باستخدام `formatAll` ويحفظه بصيغة `.xlsx`.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -255,5 +314,6 @@ workbook.save("output.xlsx");
 | `.xlsx` / `.xlsm` / `.xlsb` (حديث، نمط مخصص) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | استخدم عندما لا تكون الإعدادات المسبقة المدمجة كافية. قم بالتكوين عبر `TableStyleElement.setElementStyle(...)`. |
 | أي تنسيق (تجاوز موحد) | `PivotTable.formatAll(Style)` | اختصار يتجاوز أي إعداد نمط آخر عبر الجدول المحوري بأكمله. |
 في حالة الشك، احفظ بصيغة `.xlsx` واستخدم `PivotTableStyleType` للسمات المدمجة، أو `PivotTableStyleName` للسمات المخصصة.
+
 
 {{< app/cells/assistant language="java" >}}

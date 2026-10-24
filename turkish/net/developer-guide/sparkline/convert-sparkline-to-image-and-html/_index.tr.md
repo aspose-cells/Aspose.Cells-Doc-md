@@ -100,6 +100,7 @@ Yukarıdaki kod, her sparkline'ın görsel temsilinin iki biçimde var olduğu b
 
 {{% alert color="primary" %}}
 Her sparkline grubu tek bir hücreye sabitlendiğinden, `foreach` ile numaralandırmak yerine `group.Sparklines[0]` indeksleyicisi aracılığıyla erişebilirsiniz. Bu, işleme kodunu kısa tutar ve tipik "sabitleme hücresi başına bir sparkline" kalıbıyla eşleşir. Resim baytlarının `Cell.EmbeddedImage` aracılığıyla saklanması Aspose.Cells 26.5 veya sonrasını gerektirir.
+{{% /alert %}}
 
 ## **Workflow 2 — Export the Sparkline Worksheet to HTML**
 Çalışma kitabı canlı sparkline'ları (ve isteğe bağlı olarak gömülü resim karşılıklarını) içerdiğinde, tüm çalışma sayfası HTML olarak kaydedilerek web'de yayınlanabilir. `HtmlSaveOptions` sınıfı, bu dışa aktarımı kontrol etmek için ihtiyaç duyduğunuz düğmeleri sunar; bu iş akışında İş Akışı 1 tarafından üretilen `output_with_sparklines.xlsx` dosyasını yeniden kullanacak ve onu temiz, tek sayfalık bir HTML belgesine dönüştüreceksiniz.
@@ -121,10 +122,10 @@ workbook.Save("sparklines.html", htmlOptions);
 ```
 
 Yukarıdaki kod, İş Akışı 1'den gelen sparkline açısından zengin çalışma kitabını alır ve onu taşınabilir bir HTML dosyasına dönüştürür. Sparkline grupları, oluşturulan HTML tablosunun içinde satır içi görüntüler olarak işlenir, böylece son kullanıcılar Excel'in yüklü olmasına gerek kalmadan trendleri herhangi bir modern tarayıcıda görüntüleyebilir. `ExportActiveWorksheetOnly` özelliğini `true` olarak ayarlayarak, gizli sayfaları veya yardımcı verileri yanlışlıkla yayınlamaktan kaçınırsınız — yalnızca kullanıcının o anda görebildiği çalışma sayfası dışa aktarılır.
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` sınıfı, çıktının ince ayarını yapmak için `ExportHiddenWorksheet`, `ExportImagesAsBase64` ve `Encoding` gibi ek özellikler sunar. Bunları dağıtım hedefinize göre gerektiği şekilde ayarlayın.
+{{% /alert %}}
 
 ## **API Summary**
 Yukarıdaki iş akışları, birlikte çalışan küçük bir Aspose.Cells API kümesine dayanır.
@@ -134,7 +135,8 @@ Yukarıdaki iş akışları, birlikte çalışan küçük bir Aspose.Cells API k
 - `HtmlSaveOptions.ExportActiveWorksheetOnly` (bir `bool`), HTML dışa aktarımını etkin çalışma sayfasıyla sınırlar. Tek sayfalık raporlar oluştururken `HtmlSaveOptions` üzerinde en sık kullanılan özelliklerden biridir.
 - `ImageOrPrintOptions.ImageType`, `Aspose.Cells.Drawing` ad alanında yer alır ve `ToImage` ile işlenirken ve çalışma sayfaları görüntülere yazdırılırken kullanılan resim biçimini (örneğin, `ImageType.Png`) seçer.
 
-## **Related Articles**
-{{% /alert %}}
+## **İlgili Makaleler**
+
+- [Bir Hücreye Resim Ekleme](/cells/tr/net/inserting-an-image-into-a-cell/)
 
 {{< app/cells/assistant language="csharp" >}}

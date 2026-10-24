@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells admite la renderización de datos de matriz en una sola celda mediante Smart Markers. Al usar el atributo `ArrayAsSingle` junto con el atributo `ExtraDelimiter`, los desarrolladores pueden controlar cómo se separan los elementos de la matriz dentro de una sola celda, lo que proporciona un formato flexible para informes y plantillas.
+{{% /alert %}}
 
 ## **Introduction**
 Los Smart Markers en Aspose.Cells son una potente función basada en plantillas que permite rellenar dinámicamente datos de hojas de cálculo mediante expresiones de marcadores como `&=DataSource.Field`. El marcador se coloca en un libro de trabajo de diseñador, y cuando la plantilla es procesada por el `WorkbookDesigner`, los marcadores se reemplazan con valores del origen de datos proporcionado.
@@ -59,6 +60,7 @@ El marcador se compone de las siguientes partes:
 
 {{% alert color="primary" %}}
 El atributo `extraDelimiter` acepta cualquier literal de cadena, incluidos delimitadores de varios caracteres, texto personalizado o secuencias de escape como `\n` para una salida separada por nueva línea. Si la matriz está vacía, la celda resultante se deja en blanco.
+{{% /alert %}}
 
 ### **Step-by-Step Workflow**
 El siguiente flujo de trabajo describe cómo renderizar una matriz en una sola celda usando Smart Markers.
@@ -146,9 +148,6 @@ Tenga en cuenta los siguientes puntos cuando trabaje con los atributos `ArrayAsS
 - La función funciona con orígenes de datos de objetos, así como con orígenes `DataSet` y `DataTable` donde una columna se puede dividir en matrices.
 - Para una salida separada por nueva línea, puede usar `\n` o `System.lineSeparator()` como valor del delimitador.
 - Coloque el Smart Marker en una celda que tenga ancho suficiente para mostrar la cadena concatenada resultante; de lo contrario, el contenido puede desbordarse visualmente hacia las celdas adyacentes según el formato.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Related Articles
 - [Agregar campos de filtro a una tabla dinámica en Aspose.Cells for Java](/cells/es/java/add-page-field-in-pivot-table/)

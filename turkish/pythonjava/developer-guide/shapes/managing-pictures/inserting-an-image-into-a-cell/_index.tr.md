@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, bir görüntüyü tek bir hücreyle ilişkilendirmek için iki farklı yol sunar. Kayan resim, çalışma sayfası çizim katmanında bir hücre aralığının üzerine görsel olarak yerleştirilen bir şekildir; gömülü görüntü ise hücrenin kendisinin içinde saklanır ve hücrenin görüntüleme alanına otomatik olarak ölçeklenir. Düzen gereksinimlerinize en uygun yaklaşımı seçin.
+{{% /alert %}}
 
 ## **Giriş**
 Bir resmi tam olarak tek bir hücreye sığdırmak, görsel raporlar, ürün katalogları, çalışan dizinleri, panolar veya envanter listeleri olarak işlev gören elektronik tablolar tasarlanırken sıkça karşılaşılan bir gereksinimdir. Görüntüyü birçok hücreye yaymak veya çalışma sayfasına gevşek bir şekilde yerleştirmek yerine, sahibi olan hücreyle hizalı kalan, temiz ve hücreye bağlı bir görüntü isteyebilirsiniz.
@@ -36,6 +37,7 @@ Resmin çapası dört sıfır tabanlı indis özelliğiyle tanımlanır:
 
 {{% alert color="primary" %}}
 Aspose.Cells'te satır ve sütun indisleri **sıfır tabanlıdır**. C6 hücresinin satır indisi 5, sütun indisi 2'dir. Sağ alt çapadaki bir-bir kayma hataları, resimlerin bitişik hücreye taşmış gibi görünmesinin en yaygın nedenidir.
+{{% /alert %}}
 
 ### **Yerleştirme Davranışını Kontrol Etme**
 `getPlacement`, kullanıcı alttaki satır veya sütunu yeniden boyutlandırdığında resmin nasıl davranacağını kontrol eden `PlacementType` türünde bir numaralandırmadır. Tek hücrelik bir resim için önerilen değer `PlacementType.MOVE_AND_SIZE`'dır; bu, resmin alttaki hücreyle birlikte hareket etmesini ve yeniden boyutlandırılmasını sağlayarak tam sığmayı korur.
@@ -81,15 +83,11 @@ Her iki yaklaşım da tek bir hücrenin içine sığan bir resim üretir, ancak 
   - Bir görüntüyü bir hücreye mümkün olan en basit şekilde eklemek istediğinizde.
   - Görüntünün diğer hücre içerikleri gibi hücreyle birlikte taşınması gerektiğinde.
   - Görüntüyü bir şekil olarak işlemenize gerek olmadığında.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat, PlacementType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -102,10 +100,10 @@ try:
     picture.setUpperLeftColumn(2)
     picture.setLowerRightRow(6)
     picture.setLowerRightColumn(3)
-    picture.setPlacement(PlacementType.MoveAndSize)
+    picture.setPlacement(PlacementType.MOVE_AND_SIZE)
 finally:
     fs.close()
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -126,7 +124,7 @@ cell.setEmbeddedImage(imageData)
 worksheet.getCells().setColumnWidth(2, 30)   # Column C (index 2)
 worksheet.getCells().setRowHeight(5, 100)    # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 

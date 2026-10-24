@@ -45,6 +45,7 @@ Verwenden Sie diesen Ansatz, wann immer Sie Daten transponieren möchten, ohne d
 Nach der Transponierung enthält derselbe Ankerbereich die gedrehten Daten. Die erste Zeile lautet (leer, **Europa**, **Asien**, **Nordamerika**) und die erste Spalte lautet (leer, **Qtr 1**, **Qtr 2**, **Qtr 3**, **Qtr 4**). Jede ursprüngliche Umsatzspalte wird zu einer Zeile im transponierten Bereich.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var srcFile = "source.xlsx";
 var outputFile = "transposed.xlsx";
 var workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
@@ -74,7 +75,7 @@ Dieser Ansatz funktioniert **nur in Excel 365 / 2021 oder neuer**. Ältere Excel
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
@@ -103,7 +104,7 @@ CSE-Array-Formeln sind die klassische Excel-Methode zur Auswertung eines `TRANSP
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Lade die Quellarbeitsmappe mit xlsx-Ladeoptionen
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));

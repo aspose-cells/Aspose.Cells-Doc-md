@@ -1,8 +1,8 @@
 ---
 title: Aspose.Cells for .NET でピボットテーブルの値フィールドを管理する
 linktitle: Aspose.Cells for .NET でピボットテーブルの値フィールドを管理する
-description: Aspose.Cells for .NET で、ピボットテーブルのデータ領域に基本フィールドを追加する方法、PivotField.Function を使用して集計関数を変更する方法、および値フィールドを行軸または列軸にプロットする方法を学習します。
-keywords: Aspose.Cells, .NET, pivot table, value field, PivotField, PivotField.Function, data field, PivotTable.ValuesField, Sum, Average
+description: Aspose.Cells for .NET で、ピボットテーブルのデータ領域に基本フィールドを追加する方法、PivotField.Function で集計関数を変更する方法、値フィールドを行軸または列軸に配置する方法を学びます。
+keywords: Aspose.Cells, .NET, ピボットテーブル, 値フィールド, PivotField, PivotField.Function, データフィールド, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
 url: /ja/net/manage-value-fields/
@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## データ領域へのフィールドの追加
-基本フィールドをデータ（値）領域に追加することは、ピボットテーブルがソース データを集計する方法を形作る最初のステップです。Aspose.Cells は、定数 `PivotFieldType.Data` とソース列名を受け取るオーバーロード `PivotTable.AddFieldToArea(PivotFieldType, string)` を提供します。データ領域にフィールドが追加されると、API は `PivotTable.DataFields` コレクションを通じてフィールドを公開し、フィールドが追加された順序で格納されます。デフォルトでは、数値型のソース列は `ConsolidationFunction.Sum` で集計され、非数値列は `Count` が既定値となります。
+データ（値）領域に基本フィールドを追加することは、ピボットテーブルでソースデータを集計する方法を定義する最初の手順です。Aspose.Cells には `PivotTable.AddFieldToArea(PivotFieldType, string)` オーバーロードがあり、定数 `PivotFieldType.Data` とソース列名を受け付けます。フィールドをデータ領域に追加すると、API は `PivotTable.DataFields` コレクションにフィールドを公開し、フィールドは追加した順序で並びます。デフォルトでは、数値型のソース列は `ConsolidationFunction.Sum` で集計されます。一方、数値以外のソース列の既定の集計は `Count` になります。
 
 ```csharp
 using System;
@@ -53,10 +53,10 @@ workbook.Save("output_drag.xlsx");
 ```
 
 ## 集計関数の変更
-フィールドがデータ領域に配置されると、Aspose.Cells は `PivotTable.DataFields` 内の `PivotField` オブジェクトを通じてフィールドを公開します。各 `PivotField` には `ConsolidationFunction` 型の書き込み可能な `Function` プロパティがあり、そのフィールドの基になる値に適用される集計を制御します。`ConsolidationFunction` は `Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var`、`Varp` のメンバーを持つ列挙型です。最初の 6 つは実際の使用例の大多数をカバーし、最後の 4 つは分散分析に役立つ統計的な集計です。
+データ領域にフィールドを追加すると、Aspose.Cells では `PivotTable.DataFields` 内の `PivotField` オブジェクトからそのフィールドにアクセスできます。各 `PivotField` には、`ConsolidationFunction` 型の書き込み可能な `Function` プロパティがあり、そのフィールドの基となる値に適用される集計を制御します。`ConsolidationFunction` は、`Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var`、`Varp` をメンバーとする列挙型です。最初の 6 つは実務での使用例の大部分をカバーし、最後の 4 つは分散分析に役立つ統計集計です。
 
 {{% alert color="primary" %}}
-`Function` を変更しても集計にのみ影響し、ソース列やピボットの行/列構造は変更されません。既存のデータ フィールドの集計を切り替えるには、`pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` を設定してから `pivotTable.CalculateData()` を呼び出してピボットを再描画します。
+`Function` を変更しても集計方法だけが変わり、ソース列とピボットテーブルの行/列構造は変更されません。既存のデータフィールドの集計方法を変更するには、`pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` を設定してから `pivotTable.CalculateData()` を呼び出し、ピボットテーブルを再描画します。
 {{% /alert %}}
 
 ```csharp
@@ -101,11 +101,11 @@ pivotTable.CalculateData();
 workbook.Save("output_function.xlsx");
 ```
 
-## 値フィールドを行軸または列軸にプロットする
-ピボットテーブルに 2 つ以上のデータ フィールドが含まれている場合、Aspose.Cells は `PivotTable.ValuesField` という追加の仮想フィールドを公開します。この仮想フィールドは、データ領域に配置されたすべてのデータ フィールドの集計を表します。これは基本ピボット フィールドとして行領域または列領域にドラッグでき、複数のメジャーを並べて配置する場合に役立ちます。
+## 値フィールドを行軸または列軸に配置する
+ピボットテーブルに 2 つ以上のデータフィールドが含まれている場合、Aspose.Cells は `PivotTable.ValuesField` という追加の仮想フィールドを公開します。この仮想フィールドは、データ領域にあるすべてのデータフィールドの集計を表し、基本ピボットフィールドとして行領域または列領域にドラッグできます。複数の指標を並べて表示する場合に便利です。
 
 {{% alert color="primary" %}}
-`PivotTable.ValuesField` は、値フィールドが 0 個または 1 個しかない場合は機能しません。
+`PivotTable.ValuesField` は、値フィールドがない場合や 1 つしかない場合には機能しません。
 {{% /alert %}}
 
 ```csharp

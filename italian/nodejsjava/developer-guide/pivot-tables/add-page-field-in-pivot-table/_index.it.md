@@ -26,6 +26,7 @@ Esistono due modi per registrare un campo pivot nell'area filtro. La chiamata di
 L'esempio seguente crea un piccolo set di dati Frutto / Anno / Importo, posiziona una tabella pivot alla cella E3 con `Fruit` nell'area riga, `Amount` nell'area dati e `Year` nell'area filtro, aggiorna la tabella pivot e salva la cartella di lavoro.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -55,9 +56,9 @@ for (var i = 0; i < data.length; i++)
 var pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 var pivotTable = worksheet.getPivotTables().get(pivotIndex);
 // Aggiungi campi alle loro aree: Frutto come Riga, Quantità come Dati, Anno come campo Pagina
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // Aggiorna e calcola i dati della tabella pivot
 pivotTable.calculateData();
 // Salva la cartella di lavoro
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 Quando si lavora già con un'istanza di `PivotField`, è possibile passarla direttamente a `pivotTable.getPageFields().add`. La tabella pivot e il campo filtro vengono costruiti esattamente come nello scenario precedente; solo la registrazione finale nell'area filtro viene sostituita con la chiamata API di livello inferiore.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Intestazioni
@@ -85,11 +87,11 @@ sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").put
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
 // Aggiunge la tabella pivot in E3 coprendo A1:C10
-let pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1");
+let pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 let pivotTable = sheet.getPivotTables().get(pivotIndex);
 // Fruit -> Riga, Amount -> Dati (Year verrà inserito nell'area Pagina qui sotto)
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 // Approccio di basso livello: recupera il PivotField Year esistente da BaseFields
 // e lo registra nell'area Pagina tramite PageFields.Add(PivotField).
 let yearField = pivotTable.getBaseFields().get("Year");
@@ -106,6 +108,7 @@ Nella modalità predefinita di selezione singola, il campo filtro viene visualiz
 Impostare `CurrentPageItem` sul valore magico `0x7FFD` equivale a cancellare il filtro pagina; il corpo della tabella pivot riepiloga ogni elemento della pagina come se non fosse applicato alcun filtro.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 // Popola i dati Frutto/Anno/Quantità
@@ -130,9 +133,9 @@ var pivotTables = sheet.getPivotTables();
 var index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(index);
 // Configura i campi pivot: Frutto→Riga, Quantità→Dati, Anno→Pagina
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 pivotTable.calculateData();
 // Cancella il filtro della pagina in modo che ogni elemento nel campo pagina sia visibile.
 // 0x7FFD (decimale 32765) è il valore sentinella speciale che significa "tutti gli elementi" —
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 Impostare `CurrentPageItem` su un indice reale seleziona solo quell'elemento della pagina. L'indice è la posizione dell'elemento nell'elenco ordinato degli elementi del campo filtro, quindi ad esempio `1` seleziona il secondo elemento dopo l'ordinamento.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -169,9 +173,9 @@ var pivotTables = sheet.getPivotTables();
 var pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(pivotIndex);
 // Aggiungi campi: Frutto→Riga, Importo→Dati, Anno→Pagina
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // Operazioni specifiche del campo pagina
 pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = secondo elemento nell'ordine ordinato (es. "2021")
 // Aggiorna e calcola la tabella pivot
@@ -214,11 +218,11 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotSheet = workbook.getWorksheets().add("Pivot");
 const pivots = pivotSheet.getPivotTables();
-const pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1");
+const pivotIndex = pivots.add("A1:C10", "E3", "PivotTable1");
 const pivotTable = pivots.get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.ROW, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.DATA, "Amount");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // — Abilita la selezione multipla sul campo pagina
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
 // Parte A — seleziona TUTTI gli elementi (rendi visibile ogni elemento)

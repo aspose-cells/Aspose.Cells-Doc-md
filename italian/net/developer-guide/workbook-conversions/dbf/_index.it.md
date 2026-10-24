@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells fornisce supporto completo per la lettura e la scrittura di file DBF (dBASE). È possibile caricare file dBASE III e dBASE IV esistenti in un oggetto Workbook, manipolare i dati utilizzando la ricca API di Aspose.Cells e salvare la cartella di lavoro nel formato DBF per l'utilizzo con applicazioni di database legacy.
+{{% /alert %}}
 
 ## **Introduzione**
 DBF (DataBase File) è un formato di file di database legacy introdotto originariamente da dBASE nei primi anni '80. Nonostante l'età del formato, i file DBF sono ancora ampiamente utilizzati in molti settori per l'archiviazione di dati strutturati, in particolare nella contabilità, nei GIS e in altre applicazioni specializzate. Aspose.Cells consente di integrare questi file legacy nei moderni flussi di lavoro dei fogli di calcolo .NET senza problemi.
@@ -50,6 +51,7 @@ L'esempio seguente dimostra come caricare un file DBF esistente in Aspose.Cells,
 
 {{% alert color="primary" %}}
 È possibile aprire i file DBF direttamente in Microsoft Excel selezionando il file nella finestra di dialogo Apri. Excel tratterà il file DBF come un foglio di calcolo, visualizzando i record in un layout tabulare. Questo è utile per verificare rapidamente i dati dopo averli letti o scritti con Aspose.Cells.
+{{% /alert %}}
 
 ## **Scrittura di un file DBF**
 La scrittura di dati in un file DBF segue uno schema simile al salvataggio di qualsiasi altro formato di foglio di calcolo con Aspose.Cells. È necessario creare o caricare una cartella di lavoro, popolare il foglio di lavoro con i dati e quindi chiamare il metodo `Save` specificando `SaveFormat.Dbf` come formato di destinazione.
@@ -64,6 +66,7 @@ L'esempio seguente dimostra come creare un nuovo file DBF da zero. Popola un fog
 
 {{% alert color="primary" %}}
 Quando si scrivono dati in un file DBF, assicurarsi che i dati siano conformi alle limitazioni del formato. I nomi dei campi non devono essere più lunghi di 10 caratteri e non devono contenere spazi. I record che superano i 4000 byte totali non verranno salvati correttamente. Le date devono essere valori di data validi rappresentabili nel formato YYYYMMDD.
+{{% /alert %}}
 
 ## **Considerazioni sui tipi di dati e sulla formattazione**
 Quando si trasferiscono dati tra Aspose.Cells e il formato DBF, è importante comprendere come i tipi di dati vengono mappati tra i due sistemi per garantire l'integrità dei dati.
@@ -90,11 +93,6 @@ Dopo aver scritto un file DBF, è possibile verificare il risultato aprendolo in
 
 ## **Conversione tra DBF e altri formati**
 Uno dei casi d'uso più pratici per la lettura e la scrittura di file DBF con Aspose.Cells è la conversione di dati tra il formato DBF e i moderni formati di fogli di calcolo come XLSX, XLS o CSV. Poiché Aspose.Cells supporta un'ampia gamma di formati, è possibile caricare facilmente un file DBF e salvarlo in qualsiasi altro formato supportato, o viceversa.
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 ```csharp
 using System;

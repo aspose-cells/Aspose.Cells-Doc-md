@@ -36,7 +36,7 @@ Utilisez cette approche lorsque vous souhaitez transposer des données sans fair
 `Range.transpose()` est une méthode d'instance de la classe `com.aspose.cells.Range`. Son appel retourne la plage en place en échangeant ses lignes et colonnes, de sorte que ce qui était une ligne devient une colonne et ce qui était une colonne devient une ligne. La méthode modifie directement les cellules sous-jacentes sans écrire de formule.
 
 ### **Étapes**
-1. Ouvrez le classeur source avec `LoadOptions` défini sur le format `.xlsx` en appelant `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Ouvrez le classeur source avec `LoadOptions` défini sur le format `.xlsx` en appelant `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Récupérez la première feuille de calcul du classeur à l'aide de `workbook.getWorksheets().get(0)`.
 3. Accédez à la collection de cellules de la feuille de calcul via `worksheet.getCells()`.
 4. Créez la plage source couvrant **A1:D5** en appelant `cells.createRange("A1:D5")`.
@@ -48,11 +48,10 @@ Après transposition, la même plage d'ancrage contient les données pivotées. 
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, LoadOptions, LoadFormat
 srcFile = "source.xlsx"
 outputFile = "transposed.xlsx"
-loadOptions = LoadOptions(LoadFormat.Xlsx)
+loadOptions = LoadOptions(LoadFormat.XLSX)
 workbook = Workbook(srcFile, loadOptions)
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
@@ -69,7 +68,7 @@ Utilisez cette approche lorsque vous souhaitez conserver la formule `=TRANSPOSE(
 `Cell.setDynamicArrayFormula(String formula, FormulaParseOptions options, boolean calculateValue)` est une méthode de `com.aspose.cells.Cell` qui définit la formule de la cellule comme **formule de tableau dynamique**. Excel évalue la formule une fois et déverse automatiquement le résultat dans les cellules environnantes. Le troisième paramètre, lorsqu'il est défini sur `True`, indique à Aspose.Cells de calculer également les valeurs résultantes au moment de l'écriture.
 
 ### **Étapes**
-1. Chargez le classeur source à l'aide de `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Chargez le classeur source à l'aide de `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Récupérez la première feuille de calcul et accédez à sa collection `Cells`.
 3. Placez la formule de tableau dynamique dans la cellule **A6**, juste en dessous de la plage source, en appelant `cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", None, True)`.
 4. L'argument `None` passe les `FormulaParseOptions` par défaut, et le troisième argument `True` indique à Aspose.Cells de traiter la formule comme un tableau dynamique et de l'évaluer afin que les valeurs déversées soient écrites dans le classeur.
@@ -84,16 +83,15 @@ Cette approche fonctionne **uniquement sur Excel 365 / 2021 ou version ultérieu
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, LoadOptions, LoadFormat, FormulaParseOptions, SaveFormat
 # code porté ici
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
 cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", FormulaParseOptions(), True)
-workbook.save(outFile, SaveFormat.Xlsx)
+workbook.save(outFile, SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -118,11 +116,10 @@ Les formules de tableau CSE constituent la méthode classique d'Excel pour éval
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, LoadOptions, LoadFormat, Worksheet, Cells
 # Charger le classeur source avec les options de chargement xlsx
 srcFile = "source.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 # Accéder à la première feuille de calcul et à sa collection Cells
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()

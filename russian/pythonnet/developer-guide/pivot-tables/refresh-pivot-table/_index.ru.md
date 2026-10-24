@@ -24,20 +24,19 @@ Aspose.Cells предоставляет многоуровневый API обн�
 
 {{% alert color="primary" %}}
 `PivotCache.source_type` (перечисление `PivotTableSourceType`) указывает, откуда поступили данные кэша. Начиная с версии 26.7, `PivotCache.refresh()` поддерживает только типы источников **`Sheet`** и **`Consolidation`** — то есть данные, которые находятся в диапазонах рабочего листа. Внешние источники (базы данных, внешние подключения и т. д.) пока не могут быть обновлены через API кэша.
-{{% /alert %}}
-
 Из-за этой цепочки в Aspose.Cells существуют два основных пути обновления:
 - **`PivotTable.calculate_data()`** — пересчитывает отображение одной `PivotTable` из уже закэшированных данных, без обращения к источнику данных.
 Все сценарии в этой статье используют исходные данные ячеек рабочего листа, поэтому тип источника — `Sheet`, и операции обновления работают так, как описано.
+{{% /alert %}}
 
 ## Быстрый старт
 Если вам нужен только самый короткий код, который обновляет каждую сводную таблицу в рабочей книге, достаточно одного вызова:
 
 ```python
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
+import aspose.cells as ac
+workbook = ac.Workbook("input.xlsx")
+workbook.refresh_all()
+workbook.save("output.xlsx")
 ```
 
 Всё остальное в этой статье объясняет, когда вместо этого следует выбрать более узкий API.
@@ -54,49 +53,50 @@ workbook.Save("output.xlsx");
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # Создать новую рабочую книгу
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Записать строку заголовков в ячейки A1:C1
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
 # Записать строки данных в ячейки A2:C9 (8 строк данных о фруктах за 2020 и 2021 годы)
-worksheet.cells["A2"].put_value("grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(50)
-worksheet.cells["A3"].put_value("blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(60)
-worksheet.cells["A4"].put_value("kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(70)
-worksheet.cells["A5"].put_value("cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(80)
-worksheet.cells["A6"].put_value("grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(90)
-worksheet.cells["A7"].put_value("blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(100)
-worksheet.cells["A8"].put_value("kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(110)
-worksheet.cells["A9"].put_value("cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(120)
+worksheet.cells.get("A2").put_value("grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(50)
+worksheet.cells.get("A3").put_value("blueberry")
+worksheet.cells.get("B3").put_value(2020)
+worksheet.cells.get("C3").put_value(60)
+worksheet.cells.get("A4").put_value("kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(70)
+worksheet.cells.get("A5").put_value("cherry")
+worksheet.cells.get("B5").put_value(2020)
+worksheet.cells.get("C5").put_value(80)
+worksheet.cells.get("A6").put_value("grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(90)
+worksheet.cells.get("A7").put_value("blueberry")
+worksheet.cells.get("B7").put_value(2021)
+worksheet.cells.get("C7").put_value(100)
+worksheet.cells.get("A8").put_value("kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(110)
+worksheet.cells.get("A9").put_value("cherry")
+worksheet.cells.get("B9").put_value(2021)
+worksheet.cells.get("C9").put_value(120)
 # Добавить сводную таблицу: исходный диапазон "A1:C9", целевая ячейка "E3", имя "Pivot1"
 pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
 # Назначить поля сводной таблицы: Fruit в строки, Year в столбцы, Amount в данные
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 # Изменить несколько значений Amount в исходных данных для имитации изменений
-worksheet.cells["C2"].put_value(55)
-worksheet.cells["C5"].put_value(85)
-worksheet.cells["C9"].put_value(125)
+worksheet.cells.get("C2").put_value(55)
+worksheet.cells.get("C5").put_value(85)
+worksheet.cells.get("C9").put_value(125)
 # Обновить каждую сводную таблицу / кэш сводных таблиц в рабочей книге
 workbook.refresh_all()
 # Сохранить рабочую книгу
@@ -108,43 +108,44 @@ workbook.save("output.xlsx")
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-worksheet.cells["A2"].put_value("grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-worksheet.cells["A3"].put_value("blueberry")
-worksheet.cells["B3"].put_value(2021)
-worksheet.cells["C3"].put_value(150)
-worksheet.cells["A4"].put_value("kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(200)
-worksheet.cells["A5"].put_value("cherry")
-worksheet.cells["B5"].put_value(2021)
-worksheet.cells["C5"].put_value(120)
-worksheet.cells["A6"].put_value("grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(180)
-worksheet.cells["A7"].put_value("blueberry")
-worksheet.cells["B7"].put_value(2020)
-worksheet.cells["C7"].put_value(130)
-worksheet.cells["A8"].put_value("kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(220)
-worksheet.cells["A9"].put_value("cherry")
-worksheet.cells["B9"].put_value(2020)
-worksheet.cells["C9"].put_value(140)
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
+worksheet.cells.get("A2").put_value("grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(100)
+worksheet.cells.get("A3").put_value("blueberry")
+worksheet.cells.get("B3").put_value(2021)
+worksheet.cells.get("C3").put_value(150)
+worksheet.cells.get("A4").put_value("kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(200)
+worksheet.cells.get("A5").put_value("cherry")
+worksheet.cells.get("B5").put_value(2021)
+worksheet.cells.get("C5").put_value(120)
+worksheet.cells.get("A6").put_value("grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(180)
+worksheet.cells.get("A7").put_value("blueberry")
+worksheet.cells.get("B7").put_value(2020)
+worksheet.cells.get("C7").put_value(130)
+worksheet.cells.get("A8").put_value("kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(220)
+worksheet.cells.get("A9").put_value("cherry")
+worksheet.cells.get("B9").put_value(2020)
+worksheet.cells.get("C9").put_value(140)
 pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-worksheet.cells["C2"].put_value(300)
-worksheet.cells["C5"].put_value(250)
-worksheet.cells["C9"].put_value(400)
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+worksheet.cells.get("C2").put_value(300)
+worksheet.cells.get("C5").put_value(250)
+worksheet.cells.get("C9").put_value(400)
 worksheet.refresh_pivot_tables()
 workbook.save("output.xlsx")
 ```
@@ -165,34 +166,34 @@ import aspose.cells.pivot as acp
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Записать строку заголовков Fruit / Year / Amount
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
 # Записать 8 строк данных (строки 2-9, соответствующие исходному диапазону A1:C9)
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(150)
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(250)
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(350)
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(450)
+worksheet.cells.get("A2").put_value("Grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(100)
+worksheet.cells.get("A3").put_value("Blueberry")
+worksheet.cells.get("B3").put_value(2020)
+worksheet.cells.get("C3").put_value(200)
+worksheet.cells.get("A4").put_value("Kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(300)
+worksheet.cells.get("A5").put_value("Cherry")
+worksheet.cells.get("B5").put_value(2020)
+worksheet.cells.get("C5").put_value(400)
+worksheet.cells.get("A6").put_value("Grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(150)
+worksheet.cells.get("A7").put_value("Blueberry")
+worksheet.cells.get("B7").put_value(2021)
+worksheet.cells.get("C7").put_value(250)
+worksheet.cells.get("A8").put_value("Kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(350)
+worksheet.cells.get("A9").put_value("Cherry")
+worksheet.cells.get("B9").put_value(2021)
+worksheet.cells.get("C9").put_value(450)
 # Добавить сводную таблицу с именем "Pivot1", расположенную в ячейке назначения E3, с источником A1:C9
 pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
@@ -201,9 +202,9 @@ pivot_table.add_field_to_area(acp.PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(acp.PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(acp.PivotFieldType.DATA, "Amount")
 # Изменить свойство представления/макета — это изменение только на уровне отображения,
-# поэтому оно НЕ требует повторного чтения исходных данных через PivotCache.Refresh().
+# поэтому оно НЕ требует повторного чтения исходных данных через PivotCache.refresh().
 pivot_table.refresh_data_on_opening_file = False
-# CalculateData() повторно визуализирует отображение (данные + стили) ЭТОЙ сводной таблицы
+# calculate_data() повторно визуализирует отображение (данные + стили) ЭТОЙ сводной таблицы
 # на основе данных, уже содержащихся в PivotCache. Поскольку исходные данные не изменились,
 # обращения к источнику не происходит — в ячейках рабочего листа пересчитываются только
 # закэшированные значения.
@@ -233,9 +234,9 @@ workbook.save("output.xlsx")
 На практике предпочтительнее использовать API на основе кэша вместо устаревшего `refresh_data()` для каждой таблицы. Они учитывают наличие общих кэшей, избегают избыточных обращений к источнику и позволяют выбрать минимальную область, удовлетворяющую требованию к обновлению.
 
 ## Распространённые ошибки
-- **Забыли выполнить обновление перед сохранением.** Сводная таблица записывает свои отображаемые значения на рабочий лист только тогда, когда её цепочка данных обновлена. Если вы изменяете исходные ячейки, вызовите `PivotCache.Refresh()` (или `Workbook.RefreshAll()`) перед `Workbook.save()`, иначе сохранённый файл по-прежнему будет содержать старые агрегированные значения.
-- **Вызов устаревшего `RefreshData()` для каждой таблицы.** В версии 26.7 метод `PivotTable.RefreshData()` помечен как устаревший и повторно загружает данные из источника при каждом вызове. При наличии нескольких сводных таблиц, использующих общий кэш, это приводит к N избыточным обращениям к источнику. Замените его единственным вызовом `PivotCache.Refresh()` с последующим вызовом `CalculateData()` для каждой таблицы.
-- **Обновление при изменении только макета.** Если вы изменили только представление сводной таблицы (порядок столбцов, `ConsolidationFunction` и т. д.), не затрагивая исходные данные, вызов `PivotCache.Refresh()` не нужен и работает медленно. Вызовите `pivotTable.CalculateData()` для повторной визуализации из существующего кэша.
-- **Внешний источник не поддерживается `PivotCache.Refresh()`.** Если источник сводной таблицы поступает из внешнего подключения (база данных, OLAP-куб и т. д.), `PivotCache.Refresh()` не может обновить его в версии 26.7 — в настоящее время он поддерживает только типы источников `Sheet` и `Consolidation`. Для внешних источников заново откройте рабочую книгу или перестройте кэш из источника.
+- **Забыли выполнить обновление перед сохранением.** Сводная таблица записывает свои отображаемые значения на рабочий лист только тогда, когда её цепочка данных обновлена. Если вы изменяете исходные ячейки, вызовите `PivotCache.refresh()` (или `Workbook.refresh_all()`) перед `Workbook.save()`, иначе сохранённый файл по-прежнему будет содержать старые агрегированные значения.
+- **Вызов устаревшего `refresh_data()` для каждой таблицы.** В версии 26.7 метод `PivotTable.refresh_data()` помечен как устаревший и повторно загружает данные из источника при каждом вызове. При наличии нескольких сводных таблиц, использующих общий кэш, это приводит к N избыточным обращениям к источнику. Замените его единственным вызовом `PivotCache.refresh()` с последующим вызовом `calculate_data()` для каждой таблицы.
+- **Обновление при изменении только макета.** Если вы изменили только представление сводной таблицы (порядок столбцов, `ConsolidationFunction` и т. д.), не затрагивая исходные данные, вызов `PivotCache.refresh()` не нужен и работает медленно. Вызовите `pivotTable.calculate_data()` для повторной визуализации из существующего кэша.
+- **Внешний источник не поддерживается `PivotCache.refresh()`.** Если источник сводной таблицы поступает из внешнего подключения (база данных, OLAP-куб и т. д.), `PivotCache.refresh()` не может обновить его в версии 26.7 — в настоящее время он поддерживает только типы источников `Sheet` и `Consolidation`. Для внешних источников заново откройте рабочую книгу или перестройте кэш из источника.
 
 {{< app/cells/assistant language="python-net" >}}

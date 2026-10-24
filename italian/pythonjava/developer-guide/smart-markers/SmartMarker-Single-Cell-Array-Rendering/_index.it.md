@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta il rendering dei dati di un array in una singola cella tramite gli Smart Markers. Utilizzando l'attributo `ArrayAsSingle` insieme all'attributo `ExtraDelimiter`, gli sviluppatori possono controllare come gli elementi dell'array vengono separati all'interno di una singola cella, fornendo una formattazione flessibile per report e modelli.
+{{% /alert %}}
 
 ## **Introduzione**
 Gli Smart Markers in Aspose.Cells sono una potente funzionalità basata su modelli che consente di popolare dinamicamente i dati del foglio di calcolo utilizzando espressioni marker come `&=DataSource.Field`. Il marker viene posizionato in una cartella di lavoro designer e, quando il modello viene elaborato dal `WorkbookDesigner`, i marker vengono sostituiti con i valori provenienti dall'origine dati fornita.
@@ -59,6 +60,7 @@ Il marker è composto dalle seguenti parti:
 
 {{% alert color="primary" %}}
 L'attributo `extraDelimiter` accetta qualsiasi stringa letterale, inclusi delimitatori multi-carattere, testo personalizzato o sequenze di escape come `\n` per output separati da nuova riga. Se l'array è vuoto, la cella risultante viene lasciata vuota.
+{{% /alert %}}
 
 ### **Flusso di Lavoro Passo per Passo**
 Il seguente flusso di lavoro descrive come eseguire il rendering di un array in una singola cella utilizzando gli Smart Markers.
@@ -74,7 +76,6 @@ Il seguente flusso di lavoro descrive come eseguire il rendering di un array in 
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 class Product:
     def __init__(self, tags):
@@ -102,7 +103,6 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-from asposecells.api import Workbook
 # Definizione della classe Student
 class Student:
     def __init__(self):
@@ -123,7 +123,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 # Definire l'origine dati come dizionario (equivalente alla classe Order)
 order = {"Items": ["Apple", "Banana", "Cherry", "Date"]}
@@ -153,8 +152,5 @@ Tieni presente i seguenti punti quando lavori con gli attributi `ArrayAsSingle` 
 - La funzionalità funziona sia con origini dati di oggetti sia con origini `DataSet` e `DataTable` in cui una colonna può essere suddivisa in array.
 - Per output separati da nuova riga, puoi utilizzare `\n` o la costante di nuova riga della piattaforma come valore del delimitatore.
 - Posiziona lo Smart Marker in una cella che abbia larghezza sufficiente per visualizzare la stringa concatenata risultante; altrimenti, il contenuto potrebbe traboccare visivamente nelle celle adiacenti a seconda del formato.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

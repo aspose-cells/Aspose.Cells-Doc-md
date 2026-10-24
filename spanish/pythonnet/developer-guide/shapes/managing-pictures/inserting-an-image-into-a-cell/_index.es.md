@@ -55,6 +55,7 @@ El siguiente código demuestra el enfoque completo.
 
 ```python
 import aspose.cells as ac
+from aspose.cells.drawing import PlacementType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 with open("logo.png", "rb") as fs:
@@ -64,7 +65,7 @@ with open("logo.png", "rb") as fs:
     picture.upper_left_column = 2
     picture.lower_right_row = 6
     picture.lower_right_column = 3
-    picture.placement = ac.PlacementType.MOVE_AND_SIZE
+    picture.placement = PlacementType.MOVE_AND_SIZE
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
 
@@ -81,7 +82,7 @@ Esto hace que `Cell.embedded_image` sea la opción más concisa cuando su objeti
 1. Cree un nuevo `Workbook` (o abra uno existente).
 2. Acceda al `Worksheet` de destino desde `workbook.worksheets[0]`.
 3. Lea el archivo de imagen desde el disco en un objeto `bytes` (por ejemplo, abriendo el archivo en modo binario y llamando a `.read()`).
-4. Obtenga una referencia a la celda de destino, ya sea a través de `worksheet.cells["C6"]` o `worksheet.cells[5, 2]`.
+4. Obtenga una referencia a la celda de destino, ya sea a través de `worksheet.cells.get("C6")` o `worksheet.cells.get(5, 2)`.
 5. Asigne el objeto bytes a la propiedad `embedded_image` de la celda.
 6. Opcionalmente, ajuste la altura de fila y el ancho de columna de la fila y columna de destino para dar a la imagen incrustada una apariencia más prominente.
 7. Guarde el libro de trabajo en el disco como un archivo `.xlsx`.
@@ -92,15 +93,15 @@ import aspose.cells as ac
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Get the target cell C6
-cell = worksheet.cells["C6"]
+cell = worksheet.cells.get("C6")
 # Read the image file into a byte array
 with open("logo.png", "rb") as f:
     imageData = f.read()
 # Embed the image directly into the cell
 cell.embedded_image = imageData
 # Optionally adjust row height and column width so the embedded image is more visible
-worksheet.cells.set_column_width(2, 30)   # Column C (index 2)
-worksheet.cells.set_row_height(5, 100)     # Row 6 (index 5)
+worksheet.cells.set_column_width(2, 30.0)   # Column C (index 2)
+worksheet.cells.set_row_height(5, 100.0)     # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
@@ -123,4 +124,4 @@ Ambos enfoques producen una imagen que cabe dentro de una sola celda, pero difie
 - [Modificar el diseño del campo de página en una Tabla Dinámica](/cells/es/python-net/change-page-field-layout/)
 - [Convertir minigráfico a imagen y HTML en Aspose.Cells for Python via .NET](/cells/es/python-net/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

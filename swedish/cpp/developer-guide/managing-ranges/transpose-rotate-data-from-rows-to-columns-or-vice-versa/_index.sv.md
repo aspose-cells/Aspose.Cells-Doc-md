@@ -159,4 +159,4 @@ Använd **Metod 1** när du behöver en snabb, kompatibel transformation över v
 - [Infoga en bild i en cell](/cells/sv/cpp/inserting-an-image-into-a-cell/)
 - [Dela Excel-filer i flera filer](/cells/sv/cpp/splitting-excel-files-into-multiple-files/)
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

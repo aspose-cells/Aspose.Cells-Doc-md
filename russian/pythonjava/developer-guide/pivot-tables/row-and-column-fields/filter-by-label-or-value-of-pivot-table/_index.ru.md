@@ -33,7 +33,6 @@ Aspose.Cells предоставляет фильтрацию по меткам �
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
@@ -46,7 +45,7 @@ pivotTable = worksheet.getPivotTables().get(0)
 # Получаем первое поле строки PivotField
 rowField = pivotTable.getRowFields().get(0)
 # Применяем фильтр по метке — отображаем только элементы строк, метки которых начинаются с указанного префикса
-rowField.filterByLabel(PivotFilterType.CaptionBeginsWith, prefix, "")
+rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Обновляем и пересчитываем данные сводной таблицы, чтобы фильтр вступил в силу
 pivotTable.getPivotCache().refresh()
 # Сохраняем рабочую книгу обратно на диск
@@ -59,16 +58,15 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 Фильтр по дате работает только тогда, когда область строк или столбцов содержит только ячейки с датой и временем либо пустые значения. Если базовое поле содержит другие типы данных, такие как числа или текст, фильтр по дате не даст ожидаемого результата. Перед применением этого фильтра убедитесь, что поле отформатировано как дата и что все значения являются допустимыми экземплярами `DateTime` или пустыми ячейками.
-{{% /alert %}}
-
 Aspose.Cells предоставляет фильтрацию по дате через метод `PivotField.filter_by_date(PivotFilterType, values)`. Перечисление `PivotFilterType` содержит специальные значения для дат, такие как `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` и `Between`. В зависимости от выбранного типа фильтра передаётся одно или два значения `DateTime` (для `Between` передаются начальная и конечная даты).
 В следующем примере загружается рабочая книга со сводной таблицей, в области строк которой находится поле даты, применяется фильтр по дате, ограничивающий видимые элементы определённым диапазоном дат, сводная таблица обновляется и рабочая книга сохраняется.
+{{% /alert %}}
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
@@ -88,7 +86,7 @@ Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
 # Применение фильтра по дате к полю сводной таблицы
-dateField.filterByDate(PivotFilterType.DateBetween, startDate, endDate)
+dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
 # Обновление и пересчёт сводной таблицы, чтобы фильтр вступил в силу
 pivotTable.getPivotCache().refresh()
 # Сохранение книги
@@ -105,7 +103,6 @@ Aspose.Cells предоставляет фильтрацию по значени
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 workbook = Workbook("sample.xlsx")
 worksheet = workbook.getWorksheets().get(0)
@@ -130,16 +127,14 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 Фильтр «первые 10» работает только тогда, когда в области данных сводной таблицы имеется одно или несколько полей значений. Без хотя бы одного поля значений не существует агрегированной меры, по которой можно ранжировать элементы, и фильтр не может быть применён.
-{{% /alert %}}
-
 Aspose.Cells предоставляет фильтрацию «первые 10» через метод `PivotField.filter_top10(item_count, is_top, value_field, filter_type)`. Параметр `item_count` определяет, сколько элементов следует оставить, `is_top` указывает, оставлять ли верхние элементы (true) или нижние (false), `value_field` ссылается на поле данных, используемое для ранжирования, а `filter_type` управляет способом вычисления значения (обычно `Sum`, а также `Count` и `Percent`).
 В следующем примере загружается рабочая книга со сводной таблицей, содержащей поле значений, применяется фильтр «первые 10», чтобы оставить только 10 лучших элементов по сумме продаж, сводная таблица обновляется и рабочая книга сохраняется.
+{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
 # Загрузить существующую рабочую книгу, содержащую сводную таблицу
 inputPath = "input.xlsx"
@@ -159,10 +154,10 @@ rowField = pivotTable.getRowFields().get(0)
 valueFieldIndex = 0
 # Применить фильтр Top 10 к полю строки:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (верхние N; false означало бы нижние N)
 #   - valueFieldIndex = индекс поля данных, используемого для ранжирования элементов
-rowField.filterTop10(10, PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, True, 10)
 # Обновить данные сводной таблицы и пересчитать её, чтобы фильтр вступил в силу
 pivotTable.getPivotCache().refresh()
 # Сохранить рабочую книгу
@@ -178,7 +173,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
 # Загружаем существующую книгу, содержащую сводную таблицу
 workbook = Workbook("pivot_table_sample.xlsx")
@@ -194,10 +188,10 @@ for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
     # Скрываем элементы сводной таблицы, соответствующие определённому имени/критерию
     if item.getName() == "Item1" or item.getName() == "Item2":
-        item.setIsHidden(True)
+        item.setHidden(True)
     # Демонстрация отображения: повторно показываем ранее скрытый элемент сводной таблицы
     if item.getName() == "Item3":
-        item.setIsHidden(False)
+        item.setHidden(False)
 # Обновляем и пересчитываем сводную таблицу, чтобы изменения вступили в силу
 pivotTable.getPivotCache().refresh()
 # Сохраняем книгу — скрытые элементы остаются в исходных данных

@@ -60,6 +60,7 @@ Akıllı İşaretleyicilerinizde `ArrayAsSingle` ve `ExtraDelimiter` öznitelikl
 
 {{% alert color="primary" %}}
 `extraDelimiter` özniteliği, çok karakterli sınırlayıcılar, özel metinler veya yeni satırla ayrılmış çıktı için `\n` gibi kaçış dizileri dahil olmak üzere herhangi bir dize sabitini kabul eder. Dizi boşsa, sonuç hücresi boş bırakılır.
+{{% /alert %}}
 
 ### **Step-by-Step Workflow**
 Aşağıdaki iş akışı, Akıllı İşaretleyicileri kullanarak bir dizinin tek bir hücreye nasıl oluşturulacağını açıklar.
@@ -166,7 +167,6 @@ public class Order
 - Dizi boş veya null ise, hücre boş bırakılır (veya veri türüne bağlı olarak boş bir dize içerir).
 - Özellik, nesne veri kaynaklarıyla olduğu kadar bir sütunun dizilere bölünebildiği `DataSet` ve `DataTable` kaynaklarıyla da çalışır.
 - Yeni satırla ayrılmış çıktı için, sınırlayıcı değeri olarak `\n` veya `Environment.NewLine` kullanabilirsiniz.
-{{% /alert %}}
 
 ## Related Articles
 - [Aspose.Cells for .NET'te Pivot Tablosuna Filtre Alanı Ekleme](/cells/tr/net/add-page-field-in-pivot-table/)

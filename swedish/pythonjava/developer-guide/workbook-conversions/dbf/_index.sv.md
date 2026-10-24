@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells erbjuder fullständigt stöd för att läsa och skriva DBF (dBASE)-filer. Du kan ladda befintliga dBASE III- och dBASE IV-filer till ett Workbook-objekt, manipulera data med hjälp av det rika Aspose.Cells-API:et och spara arbetsboken tillbaka till DBF-formatet för användning med äldre databasapplikationer.
+{{% /alert %}}
 
 ## **Introduktion**
 DBF (DataBase File) är ett äldre databasfilformat som ursprungligen introducerades av dBASE i början av 1980-talet. Trots formatets ålder används DBF-filer fortfarande i stor utsträckning inom många branscher för att lagra strukturerad data, särskilt inom redovisning, GIS och andra specialiserade applikationer. Aspose.Cells låter dig integrera dessa äldre filer i moderna Python via Java-kalkylbladsarbetsflöden sömlöst.
@@ -45,18 +46,18 @@ Tänk på följande begränsningar när du arbetar med DBF-filer:
 Aspose.Cells gör det enkelt att ladda data från en DBF-fil till ett Workbook-objekt. Biblioteket använder klassen `LoadOptions` för att ange källformatet, vilket säkerställer att data tolkas korrekt under laddningsprocessen.
 
 ### Läsa en DBF-fil med Aspose.Cells
-För att läsa en DBF-fil måste du skapa en `LoadOptions`-instans, ställa in dess `LoadFormat`-egenskap till `LoadFormat.Dbf` och skicka den till `Workbook`-konstruktören tillsammans med filsökvägen. När den väl är laddad blir data åtkomlig via `Worksheets`-samlingen, där du kan iterera genom celler, extrahera värden eller manipulera data efter behov.
+För att läsa en DBF-fil måste du skapa en `LoadOptions`-instans, ställa in dess `LoadFormat`-egenskap till `LoadFormat.DBF` och skicka den till `Workbook`-konstruktören tillsammans med filsökvägen. När den väl är laddad blir data åtkomlig via `Worksheets`-samlingen, där du kan iterera genom celler, extrahera värden eller manipulera data efter behov.
 Följande exempel visar hur man laddar en befintlig DBF-fil i Aspose.Cells, kommer åt dess första kalkylblad och läser cellvärdena.
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, LoadOptions, LoadFormat, SaveFormat
 dataDir = "Data/"
 filePath = os.path.join(dataDir, "example.dbf")
-loadOptions = LoadOptions(LoadFormat.Dbf)
+loadOptions = LoadOptions(LoadFormat.DBF)
 workbook = Workbook(filePath, loadOptions)
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
@@ -71,30 +72,32 @@ for i in range(maxRow + 1):
     sb.append("|" + "\n")
 print("".join(sb))
 outputPath = os.path.join(dataDir, "output.xlsx")
-workbook.save(outputPath, SaveFormat.Xlsx)
+workbook.save(outputPath, SaveFormat.XLSX)
 print("DBF file loaded successfully. Converted XLSX saved at: " + outputPath)
 jpype.shutdownJVM()
 ```
 
 {{% alert color="primary" %}}
 Du kan öppna DBF-filer direkt i Microsoft Excel genom att välja filen i dialogrutan Öppna. Excel kommer att behandla DBF-filen som ett kalkylblad och visa dess poster i en tabelllayout. Detta är användbart för att snabbt verifiera data efter att ha läst eller skrivit den med Aspose.Cells.
+{{% /alert %}}
 
 ## **Skriva en DBF-fil**
-Att skriva data till en DBF-fil följer ett liknande mönster som att spara andra kalkylbladsformat med Aspose.Cells. Du skapar eller laddar en Workbook, fyller kalkylbladet med data och anropar sedan `Save`-metoden medan du anger `SaveFormat.Dbf` som målformat.
+Att skriva data till en DBF-fil följer ett liknande mönster som att spara andra kalkylbladsformat med Aspose.Cells. Du skapar eller laddar en Workbook, fyller kalkylbladet med data och anropar sedan `Save`-metoden medan du anger `SaveFormat.DBF` som målformat.
 
 ### Skriva en DBF-fil med Aspose.Cells
 För att skapa en DBF-fil, följ dessa steg:
 1. Skapa en ny `Workbook`-instans.
 2. Hämta det första kalkylbladet från `Worksheets`-samlingen.
 3. Fyll kalkylbladet med din data, inklusive rubriker i den första raden och poster i efterföljande rader.
-4. Anropa metoden `Workbook.save` och skicka filsökvägen och `SaveFormat.Dbf` som parametrar.
+4. Anropa metoden `Workbook.save` och skicka filsökvägen och `SaveFormat.DBF` som parametrar.
 Följande exempel visar hur man skapar en ny DBF-fil från grunden. Det fyller ett kalkylblad med exempeldata som innehåller olika datatyper (strängar, tal och datum) för att illustrera hur fälttyper hanteras vid export till DBF-formatet.
 
 ```python
 import jpype
+import os
+import jpype.imports
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat
 import java.time as _jt
 import java.util as _ju
@@ -147,12 +150,13 @@ worksheet.getCells().setColumnWidth(1, 20)
 worksheet.getCells().setColumnWidth(2, 20)
 worksheet.getCells().setColumnWidth(3, 12)
 worksheet.getCells().setColumnWidth(4, 14)
-workbook.save(filePath, SaveFormat.DBf)
+workbook.save(filePath, SaveFormat.DBF)
 jpype.shutdownJVM()
 ```
 
 {{% alert color="primary" %}}
 När du skriver data till en DBF-fil, se till att din data följer formatets begränsningar. Fältnamn bör inte vara längre än 10 tecken och bör inte innehålla mellanslag. Poster som överstiger 4000 byte totalt kommer inte att sparas korrekt. Datum bör vara giltiga datumvärden som kan representeras i formatet YYYYMMDD.
+{{% /alert %}}
 
 ## **Överväganden för datatyp och formatering**
 När data överförs mellan Aspose.Cells och DBF-formatet är det viktigt att förstå hur datatyper mappas mellan de två systemen för att säkerställa dataintegritet.
@@ -180,10 +184,5 @@ Efter att ha skrivit en DBF-fil kan du verifiera resultatet genom att öppna den
 ## **Konvertera mellan DBF och andra format**
 Ett av de mest praktiska användningsfallen för att läsa och skriva DBF-filer med Aspose.Cells är att konvertera data mellan DBF-formatet och moderna kalkylbladsformat som XLSX, XLS eller CSV. Eftersom Aspose.Cells stöder ett brett utbud av format kan du enkelt ladda en DBF-fil och spara om den i vilket annat stött format som helst, eller vice versa.
 Du kan till exempel läsa en DBF-fil, tillämpa formatering eller beräkningar med Aspose.Cells-API:et och sedan spara resultatet som en XLSX-fil för distribution till användare som arbetar med moderna kalkylbladsapplikationer. Omvänt kan du ta data från en XLSX- eller CSV-fil och exportera den till DBF-format för integration med äldre system.
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

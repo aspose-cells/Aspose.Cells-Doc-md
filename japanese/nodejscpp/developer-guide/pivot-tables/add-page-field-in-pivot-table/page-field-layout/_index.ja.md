@@ -38,6 +38,9 @@ Microsoft Excel のピボットテーブルには、テーブルの行/列/デ�
 最初のシナリオでは、2 つのページフィールド（`Year`、`Region`）をピボットテーブルの上部に**単一の行で横並びに**表示するよう設定します。`Fruit` を行軸に割り当て、`Year` を最初、`Region` を 2 番目にページ軸に配置し（`addFieldToArea` の呼び出し順序が開始インデックスを決定します）、データフィールドとして `Amount`（Sum）を追加し、`pageFieldOrder` を `PrintOrderType.OverThenDown` に、`pageFieldWrapCount = 2` に設定します。`OverThenDown` と折り返し数 2 の組み合わせにより、2 つのページフィールドはピボットテーブル上部の単一の行に水平方向に横並びで配置されるため、帯は幅 2 の 1 行を占めます。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
+const path = require("path");
 let dataDir = "output";
 if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
@@ -118,7 +121,7 @@ workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 この例では、例 1 と同様に、`Fruit` を行軸に、`Year` と `Region` をページ軸に（`Year` が最初）、データフィールドとして `Amount`（Sum）を配置します。次に、`pageFieldOrder` を `PrintOrderType.DownThenOver` に、`pageFieldWrapCount` を `2` に設定します。`DownThenOver` と折り返し数 2 の組み合わせにより、2 つのページフィールドは垂直方向に積み上げられ、`Year` が上、`Region` がその直下に配置され、ピボットテーブルの上部に 1 列を形成します。したがって、帯は幅 1 で 2 行を占め、例 1 とは対照的になります。
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
@@ -145,10 +148,10 @@ for (let r = 0; r < data.length; r++) {
 }
 const idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
 const pivotTable = pivotReport.getPivotTables().get(idx);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 3);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DownThenOver);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.calculateData();
@@ -159,7 +162,7 @@ workbook.save("pageFieldLayout_downThenOver.xlsx");
 3 番目のシナリオでは、このデータセットとフィールド割り当てを維持し、中立的なレイアウト（折り返し数 `2` の `OverThenDown`）を設定してから、`pageFields.move` 操作を示します。`move(0, 1)` の呼び出しは、インデックス 0 にあるページフィールド（`Year`）を位置 1 に移動し、位置 1 にあったページフィールド（`Region`）を位置 0 にシフトします。この呼び出しの後、`Region` が最初のページフィールドとなり、`Year` が 2 番目になります。折り返しと順序モードは変更されていないため、帯は依然として横方向に並んでレンダリングされ、2 つのドロップダウンの順序のみが入れ替わっています。
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const dataSheet = workbook.getWorksheets().get(0);
 dataSheet.setName("PivotData");

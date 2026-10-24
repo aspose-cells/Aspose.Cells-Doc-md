@@ -45,6 +45,7 @@ Use este enfoque siempre que desee transponer datos sin involucrar la función d
 Tras la transposición, el mismo rango de anclaje contiene los datos rotados. La primera fila se lee (vacía, **Europe**, **Asia**, **North America**) y la primera columna se lee (vacía, **Qtr 1**, **Qtr 2**, **Qtr 3**, **Qtr 4**). Cada columna original de ventas se convierte en una fila del rango transpuesto.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var srcFile = "source.xlsx";
 var outputFile = "transposed.xlsx";
 var workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
@@ -74,7 +75,7 @@ Este enfoque funciona **solo en Excel 365 / 2021 o posterior**. Las versiones an
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
@@ -103,7 +104,7 @@ Las fórmulas de matriz CSE son la forma clásica de Excel para evaluar una expr
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Cargar el libro de origen con opciones de carga xlsx
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));

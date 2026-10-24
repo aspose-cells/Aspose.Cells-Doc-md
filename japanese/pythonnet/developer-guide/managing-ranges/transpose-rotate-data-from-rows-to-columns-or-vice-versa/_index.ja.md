@@ -35,7 +35,7 @@ Aspose.Cells for Python via .NET は、行を列に、列を行に変換する�
 `range.transpose()` は `Aspose.Cells.Range` クラスのインスタンスメソッドです。これを呼び出すと、範囲の行と列が入れ替わり、その場で反転されます。つまり、行であったものが列になり、列であったものが行になります。このメソッドは数式を書き込まずに、底层のセルを直接変更します。
 
 ### **Steps**
-1. `LoadOptions` を `.xlsx` 形式に設定し、`Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` を呼び出してソースワークブックを開きます。
+1. `LoadOptions` を `.xlsx` 形式に設定し、`Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` を呼び出してソースワークブックを開きます。
 2. `workbook.worksheets[0]` を使用して、ワークブックから最初のワークシートを取得します。
 3. `worksheet.cells` を通じてワークシートのセルコレクションにアクセスします。
 4. `cells.create_range("A1:D5")` を呼び出して、**A1:D5** をカバーするソース範囲を作成します。
@@ -62,7 +62,7 @@ workbook.save(outputFile)
 `cell.set_dynamic_array_formula(formula, options, calculate_value)` は `Aspose.Cells.Cell` のメソッドで、セルの数式を**動的配列数式**として設定します。Excel は数式を 1 回評価し、結果を周囲のセルに自動的にスピルします。3 番目のパラメータを `True` に設定すると、書き込み時に結果の値も計算するよう Aspose.Cells に指示します。
 
 ### **Steps**
-1. `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` を使用してソースワークブックを読み込みます。
+1. `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` を使用してソースワークブックを読み込みます。
 2. 最初のワークシートを取得し、その `cells` コレクションにアクセスします。
 3. ソース範囲の直下にあるセル **A6** に、`cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", None, True)` を呼び出して動的配列数式を配置します。
 4. `None` 引数はデフォルトの `FormulaParseOptions` を渡し、3 番目の引数 `True` は Aspose.Cells に対して、数式を動的配列として扱い、スピル値がワークブックに書き込まれるように評価するよう指示します。
@@ -77,11 +77,11 @@ workbook.save(outputFile)
 import aspose.cells as ac
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
-workbook.save(outFile, ac.SaveFormat.Xlsx)
+cells.get("A6").set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
+workbook.save(outFile, ac.SaveFormat.XLSX)
 ```
 
 ## **Approach 3 — Transpose with a Classic Array Formula (CSE)**
@@ -105,7 +105,7 @@ CSE 配列数式は `TRANSPOSE` 式を評価する従来の Excel の方法で�
 import aspose.cells as ac
 # Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 # Access the first worksheet and its Cells collection
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
@@ -116,7 +116,7 @@ cells = worksheet.cells
 # Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
 # a single multi-cell array formula, compatible with older Excel versions
 # (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
-cells["A6"].set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
+cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
 # Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx")
 ```

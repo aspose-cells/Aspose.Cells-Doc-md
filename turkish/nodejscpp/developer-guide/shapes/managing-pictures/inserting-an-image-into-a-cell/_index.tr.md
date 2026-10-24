@@ -37,6 +37,7 @@ Resmin bağlantısı dört sıfır tabanlı dizin özelliği ile tanımlanır:
 
 {{% alert color="primary" %}}
 Aspose.Cells'teki satır ve sütun dizinleri **sıfır tabanlıdır**. C6 hücresinin satır dizini 5 ve sütun dizini 2'dir. Sağ alt bağlantı noktasındaki bir birimlik sapma hataları, resimlerin bitişik bir hücreye taşmış gibi görünmesinin en yaygın kaynağıdır.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `picture.placement`, kullanıcı alttaki satırı veya sütunu yeniden boyutlandırdığında resmin nasıl davranacağını kontrol eden `PlacementType` türünde bir numaralandırmadır. Tek hücreli bir resim için önerilen değer `PlacementType.MoveAndSize`'dır; bu, resmin alttaki hücreyle birlikte hareket etmesine ve yeniden boyutlandırılmasına neden olarak tam sığmayı korur.
@@ -53,7 +54,7 @@ Aspose.Cells'teki satır ve sütun dizinleri **sıfır tabanlıdır**. C6 hücre
 Aşağıdaki kod, eksiksiz yaklaşımı gösterir.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -88,6 +89,8 @@ Bu, amacınız yalnızca "bu hücrenin içinde yaşayan bir görüntü" olduğun
 Aşağıdaki kod, eksiksiz yaklaşımı gösterir.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 // Get the target cell C6
@@ -113,13 +116,12 @@ Her iki yaklaşım da tek bir hücrenin içine sığan bir resim üretir, ancak 
 - **Şu durumlarda gömülü görüntü kullanın (Yaklaşım 2):**
   - Bir hücreye mümkün olan en basit görüntü eklemeyi istediğinizde.
   - Görüntü, diğer tüm hücre içerikleri gibi hücreyle birlikte hareket etmelidir.
-{{% /alert %}}
 
 ## Related Articles
-- [Excel Camera in Aspose.Cells for Node.js via C++](/cells/tr/nodejs-cpp/excel-camera/)
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Node.js via C++](/cells/tr/nodejs-cpp/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Node.js via C++](/cells/tr/nodejs-cpp/apply-style-to-pivot-table/)
-- [Modify Page Field Layout in Pivot Table](/cells/tr/nodejs-cpp/change-page-field-layout/)
-- [Convert Sparkline to Image and HTML in Aspose.Cells for Node.js via C++](/cells/tr/nodejs-cpp/convert-sparkline-to-image-and-html/)
+- [Aspose.Cells for Node.js via C++ için Excel Kamerası](/cells/tr/nodejs-cpp/excel-camera/)
+- [Aspose.Cells for Node.js via C++ ile Pivot Tabloya Filtre Alanları Ekleme](/cells/tr/nodejs-cpp/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Node.js via C++ ile Pivot Tablolara Stiller Uygulama](/cells/tr/nodejs-cpp/apply-style-to-pivot-table/)
+- [Pivot Tabloda Sayfa Alanı Düzenini Değiştirme](/cells/tr/nodejs-cpp/change-page-field-layout/)
+- [Aspose.Cells for Node.js via C++ ile Sparkline'ı Görüntüye ve HTML'ye Dönüştürme](/cells/tr/nodejs-cpp/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

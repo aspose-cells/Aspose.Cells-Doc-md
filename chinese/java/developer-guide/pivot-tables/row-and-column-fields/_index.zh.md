@@ -196,6 +196,19 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **回顾**
-上述三个场景共享相同的数据集和数据透视表结构。它们之间唯一的区别是应用于外层 `Category` 行字段的 `setSubtotals` 调用。请记住双字段规则：区域中的单个字段之间没有可供小计的内容，因此，当您希望 `setSubtotals` 产生可见效果时，请始终在行或列区域中放置至少两个字段。
 
+三种场景的区别仅在于 `setSubtotals` 调用方式不同；其余部分——数据集、字段及其所分配的区域——均完全相同，这使得各布局之间可直接进行比较。
+- **字段放置。** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` 将源列移入某一区域。在同一区域内，调用顺序即为显示顺序，因此首次调用会形成最外层分组。小计功能要求同一区域内至少存在两个字段；若仅有一个字段，则组间无内容可进行小计。
+- **场景 1——自动小计。** 若不调用 `setSubtotals`，则由 Excel 自行决定采用默认小计方式，即对数值字段应用其内置默认小计。调用 `setSubtotals` 并传入 `PivotFieldSubtotalType.AUTOMATIC` 则显式记录该选择，而非仅保持隐式默认。
+- **场景 2——无小计。** `setSubtotals` 配合 `PivotFieldSubtotalType.NONE` 可关闭默认小计，此时透视表保留字段行与总计行，但移除 Excel 默认在字段行之间插入的小计行。
+- **场景 3——选择特定子集。** 每次调用仅切换一种小计类型，且调用累加而非相互覆盖。例如，先以 `PivotFieldSubtotalType.SUM` 调用一次，再以 `PivotFieldSubtotalType.AVERAGE` 调用一次，则两者均被启用，透视表将渲染出“求和”小计、“平均值”小计和总计行。
+
+{{% alert color="primary" %}}
+小计功能并不局限于行区域。对从 `PivotTable.ColumnFields` 获取的字段执行相同的 `setSubtotals` 调用，可在列轴上生成相同的三种布局，因为该设置属于透视字段本身，而与其所处的轴无关。
+{{% /alert %}}
+## **相关文章**
+
+- [数据透视表中的页字段](/cells/zh/java/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Java 中刷新数据透视表](/cells/zh/java/refresh-pivot-table/)
+- [为数据透视表应用样式](/cells/zh/java/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="java" >}}

@@ -72,13 +72,11 @@ workbook.save("output_drag.xlsx");
 
 {{% alert color="primary" %}}
 `Function` の変更は集計にのみ影響し、ソース列は変更されません。
-{{% /alert %}}
-
 そのため、1 つのデータフィールドを `SUM` のままにして、同じソース列を対象とするが `COUNT` または `AVERAGE` を使用する 2 番目のデータフィールドを追加することも、すべて単一のピボット内で行うことができます。
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -119,13 +117,11 @@ workbook.save("output_function.xlsx");
 
 {{% alert color="primary" %}}
 値フィールドが存在しないか 1 つしかない場合、`PivotTable.getValuesField()` は機能しません。
-{{% /alert %}}
-
 以下のシナリオでは、上記で説明した各機能を同じピボット構造に対して実証する 3 つのエンドツーエンドの例を紹介します。
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

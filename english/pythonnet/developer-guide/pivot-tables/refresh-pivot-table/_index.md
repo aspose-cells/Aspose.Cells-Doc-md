@@ -24,20 +24,19 @@ The four-layer data chain is:
 
 {{% alert color="primary" %}}
 `PivotCache.source_type` (enum `PivotTableSourceType`) indicates where the cache data came from. As of v26.7, `PivotCache.refresh()` supports only the **`Sheet`** and **`Consolidation`** source types — that is, data that lives in worksheet ranges. External sources (databases, external connections, etc.) are not yet refreshable through the cache API.
-{{% /alert %}}
-
 Because of this chain, there are two fundamental refresh paths in Aspose.Cells:
 - **`PivotTable.calculate_data()`** — recalculates one `PivotTable`'s display from already-cached data, with no round-trip back to the data source.
 All scenarios in this article use worksheet-cell source data, so the source type is `Sheet` and refresh operations behave as described.
+{{% /alert %}}
 
 ## Quick Start
 If you just need the shortest possible code that refreshes every pivot in the workbook, a single call is enough:
 
-```csharp
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
+```python
+import aspose.cells as ac
+workbook = ac.Workbook("input.xlsx")
+workbook.refresh_all()
+workbook.save("output.xlsx")
 ```
 
 Everything else in this article explains when to choose a narrower API instead.
@@ -54,49 +53,50 @@ The following example builds a workbook with a Fruit/Year/Amount source range, c
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # Create a new workbook
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Write header row into cells A1:C1
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
 # Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
-worksheet.cells["A2"].put_value("grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(50)
-worksheet.cells["A3"].put_value("blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(60)
-worksheet.cells["A4"].put_value("kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(70)
-worksheet.cells["A5"].put_value("cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(80)
-worksheet.cells["A6"].put_value("grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(90)
-worksheet.cells["A7"].put_value("blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(100)
-worksheet.cells["A8"].put_value("kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(110)
-worksheet.cells["A9"].put_value("cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(120)
+worksheet.cells.get("A2").put_value("grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(50)
+worksheet.cells.get("A3").put_value("blueberry")
+worksheet.cells.get("B3").put_value(2020)
+worksheet.cells.get("C3").put_value(60)
+worksheet.cells.get("A4").put_value("kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(70)
+worksheet.cells.get("A5").put_value("cherry")
+worksheet.cells.get("B5").put_value(2020)
+worksheet.cells.get("C5").put_value(80)
+worksheet.cells.get("A6").put_value("grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(90)
+worksheet.cells.get("A7").put_value("blueberry")
+worksheet.cells.get("B7").put_value(2021)
+worksheet.cells.get("C7").put_value(100)
+worksheet.cells.get("A8").put_value("kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(110)
+worksheet.cells.get("A9").put_value("cherry")
+worksheet.cells.get("B9").put_value(2021)
+worksheet.cells.get("C9").put_value(120)
 # Add a pivot table: source range "A1:C9", destination cell "E3", name "Pivot1"
 pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
 # Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 # Modify several Amount values in the source data to simulate changes
-worksheet.cells["C2"].put_value(55)
-worksheet.cells["C5"].put_value(85)
-worksheet.cells["C9"].put_value(125)
+worksheet.cells.get("C2").put_value(55)
+worksheet.cells.get("C5").put_value(85)
+worksheet.cells.get("C9").put_value(125)
 # Refresh every pivot table / pivot cache in the workbook
 workbook.refresh_all()
 # Save the workbook
@@ -108,43 +108,44 @@ Sometimes you only need to refresh the pivot tables that live on one specific wo
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
-worksheet.cells["A2"].put_value("grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-worksheet.cells["A3"].put_value("blueberry")
-worksheet.cells["B3"].put_value(2021)
-worksheet.cells["C3"].put_value(150)
-worksheet.cells["A4"].put_value("kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(200)
-worksheet.cells["A5"].put_value("cherry")
-worksheet.cells["B5"].put_value(2021)
-worksheet.cells["C5"].put_value(120)
-worksheet.cells["A6"].put_value("grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(180)
-worksheet.cells["A7"].put_value("blueberry")
-worksheet.cells["B7"].put_value(2020)
-worksheet.cells["C7"].put_value(130)
-worksheet.cells["A8"].put_value("kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(220)
-worksheet.cells["A9"].put_value("cherry")
-worksheet.cells["B9"].put_value(2020)
-worksheet.cells["C9"].put_value(140)
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
+worksheet.cells.get("A2").put_value("grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(100)
+worksheet.cells.get("A3").put_value("blueberry")
+worksheet.cells.get("B3").put_value(2021)
+worksheet.cells.get("C3").put_value(150)
+worksheet.cells.get("A4").put_value("kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(200)
+worksheet.cells.get("A5").put_value("cherry")
+worksheet.cells.get("B5").put_value(2021)
+worksheet.cells.get("C5").put_value(120)
+worksheet.cells.get("A6").put_value("grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(180)
+worksheet.cells.get("A7").put_value("blueberry")
+worksheet.cells.get("B7").put_value(2020)
+worksheet.cells.get("C7").put_value(130)
+worksheet.cells.get("A8").put_value("kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(220)
+worksheet.cells.get("A9").put_value("cherry")
+worksheet.cells.get("B9").put_value(2020)
+worksheet.cells.get("C9").put_value(140)
 pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-worksheet.cells["C2"].put_value(300)
-worksheet.cells["C5"].put_value(250)
-worksheet.cells["C9"].put_value(400)
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+worksheet.cells.get("C2").put_value(300)
+worksheet.cells.get("C5").put_value(250)
+worksheet.cells.get("C9").put_value(400)
 worksheet.refresh_pivot_tables()
 workbook.save("output.xlsx")
 ```
@@ -165,34 +166,34 @@ import aspose.cells.pivot as acp
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Write Fruit / Year / Amount header row
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
 # Write 8 data rows (rows 2-9, fitting the source range A1:C9)
-worksheet.cells["A2"].put_value("Grape")
-worksheet.cells["B2"].put_value(2020)
-worksheet.cells["C2"].put_value(100)
-worksheet.cells["A3"].put_value("Blueberry")
-worksheet.cells["B3"].put_value(2020)
-worksheet.cells["C3"].put_value(200)
-worksheet.cells["A4"].put_value("Kiwi")
-worksheet.cells["B4"].put_value(2020)
-worksheet.cells["C4"].put_value(300)
-worksheet.cells["A5"].put_value("Cherry")
-worksheet.cells["B5"].put_value(2020)
-worksheet.cells["C5"].put_value(400)
-worksheet.cells["A6"].put_value("Grape")
-worksheet.cells["B6"].put_value(2021)
-worksheet.cells["C6"].put_value(150)
-worksheet.cells["A7"].put_value("Blueberry")
-worksheet.cells["B7"].put_value(2021)
-worksheet.cells["C7"].put_value(250)
-worksheet.cells["A8"].put_value("Kiwi")
-worksheet.cells["B8"].put_value(2021)
-worksheet.cells["C8"].put_value(350)
-worksheet.cells["A9"].put_value("Cherry")
-worksheet.cells["B9"].put_value(2021)
-worksheet.cells["C9"].put_value(450)
+worksheet.cells.get("A2").put_value("Grape")
+worksheet.cells.get("B2").put_value(2020)
+worksheet.cells.get("C2").put_value(100)
+worksheet.cells.get("A3").put_value("Blueberry")
+worksheet.cells.get("B3").put_value(2020)
+worksheet.cells.get("C3").put_value(200)
+worksheet.cells.get("A4").put_value("Kiwi")
+worksheet.cells.get("B4").put_value(2020)
+worksheet.cells.get("C4").put_value(300)
+worksheet.cells.get("A5").put_value("Cherry")
+worksheet.cells.get("B5").put_value(2020)
+worksheet.cells.get("C5").put_value(400)
+worksheet.cells.get("A6").put_value("Grape")
+worksheet.cells.get("B6").put_value(2021)
+worksheet.cells.get("C6").put_value(150)
+worksheet.cells.get("A7").put_value("Blueberry")
+worksheet.cells.get("B7").put_value(2021)
+worksheet.cells.get("C7").put_value(250)
+worksheet.cells.get("A8").put_value("Kiwi")
+worksheet.cells.get("B8").put_value(2021)
+worksheet.cells.get("C8").put_value(350)
+worksheet.cells.get("A9").put_value("Cherry")
+worksheet.cells.get("B9").put_value(2021)
+worksheet.cells.get("C9").put_value(450)
 # Add a pivot table named "Pivot1" placed at destination cell E3, sourcing from A1:C9
 pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
 pivot_table = worksheet.pivot_tables[pivot_index]
@@ -201,9 +202,9 @@ pivot_table.add_field_to_area(acp.PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(acp.PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(acp.PivotFieldType.DATA, "Amount")
 # Modify a view/layout property — this is a presentation-only change,
-# so it does NOT require re-reading the source data through PivotCache.Refresh().
+# so it does NOT require re-reading the source data through PivotCache.refresh().
 pivot_table.refresh_data_on_opening_file = False
-# CalculateData() re-renders THIS pivot table's display (data + style) from the
+# calculate_data() re-renders THIS pivot table's display (data + style) from the
 # data already held in the PivotCache. Because the source data did not change,
 # no round-trip to the source is performed — only the cached values are recalculated
 # into worksheet cells.
@@ -233,9 +234,9 @@ The table below summarizes the available refresh APIs and when to choose each on
 In practice, prefer the cache-based APIs over the obsolete per-table `refresh_data()`. They are aware of shared caches, they avoid redundant source fetches, and they let you choose the smallest scope that satisfies your refresh requirement.
 
 ## Common Pitfalls
-- **Forgetting to refresh before saving.** A pivot table only writes its rendered values into the worksheet when its data chain is refreshed. If you modify source cells, call `PivotCache.Refresh()` (or `Workbook.RefreshAll()`) before `Workbook.save()`, otherwise the saved file still contains the old aggregated values.
-- **Calling the obsolete `RefreshData()` per table.** In v26.7, `PivotTable.RefreshData()` is marked obsolete and re-fetches the source for every call. With multiple pivot tables sharing a cache this means N redundant source fetches. Replace with a single `PivotCache.Refresh()` followed by `CalculateData()` per table.
-- **Refreshing when only the layout changed.** If you only changed a pivot table's view (column order, `ConsolidationFunction`, etc.) without touching source data, `PivotCache.Refresh()` is unnecessary and slow. Call `pivotTable.CalculateData()` to re-render from the existing cache.
-- **External source not supported by `PivotCache.Refresh()`.** If the pivot table's source comes from an external connection (database, OLAP cube, etc.), `PivotCache.Refresh()` cannot refresh it in v26.7 — it currently only supports `Sheet` and `Consolidation` source types. For external sources, re-open the workbook or rebuild the cache from the source.
+- **Forgetting to refresh before saving.** A pivot table only writes its rendered values into the worksheet when its data chain is refreshed. If you modify source cells, call `PivotCache.refresh()` (or `Workbook.refresh_all()`) before `Workbook.save()`, otherwise the saved file still contains the old aggregated values.
+- **Calling the obsolete `refresh_data()` per table.** In v26.7, `PivotTable.refresh_data()` is marked obsolete and re-fetches the source for every call. With multiple pivot tables sharing a cache this means N redundant source fetches. Replace with a single `PivotCache.refresh()` followed by `calculate_data()` per table.
+- **Refreshing when only the layout changed.** If you only changed a pivot table's view (column order, `ConsolidationFunction`, etc.) without touching source data, `PivotCache.refresh()` is unnecessary and slow. Call `pivotTable.calculate_data()` to re-render from the existing cache.
+- **External source not supported by `PivotCache.refresh()`.** If the pivot table's source comes from an external connection (database, OLAP cube, etc.), `PivotCache.refresh()` cannot refresh it in v26.7 — it currently only supports `Sheet` and `Consolidation` source types. For external sources, re-open the workbook or rebuild the cache from the source.
 
 {{< app/cells/assistant language="python-net" >}}

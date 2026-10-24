@@ -30,6 +30,7 @@ Aspose.Cells は、`PivotField.filterByLabel(PivotFilterType, string)` メソッ
 次の例では、既存のピボットテーブルを含むワークブックを読み込み、キャプションが指定された接頭辞で始まるアイテムのみが表示されるようにラベルフィルタを適用し、ピボットテーブルを更新して結果を保存します。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let fileName = "sample.xlsx";
 let prefix = "B";
 // ピボットテーブルを含む既存のワークブックを読み込む
@@ -53,13 +54,12 @@ workbook.save(fileName);
 
 {{% alert color="primary" %}}
 日付フィルタは、行または列エリアに日時セルのみまたは空白値のみが含まれている場合にのみ機能します。基になるフィールドに数値やテキストなどの他のデータ型が含まれている場合、日付フィルタは期待どおりの結果を生成しません。このフィルタを適用する前に、フィールドが日付として書式設定されており、すべての値が有効な `DateTime` インスタンスまたは空のセルであることを確認してください。
-{{% /alert %}}
-
 Aspose.Cells は、`PivotField.filterByDate(PivotFilterType, params DateTime[] values)` メソッドを通じて日付フィルタリングを公開しています。`PivotFilterType` 列挙型には、`Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear`、`Between` などの専用日付値が含まれます。選択したフィルタタイプに応じて、1 つまたは 2 つの `DateTime` 値を渡します（`Between` の場合は開始日と終了日を渡します）。
 次の例では、行エリアに日付フィールドを含むピボットテーブルを含むワークブックを読み込み、表示範囲を特定の日付範囲に制限する日付フィルタを適用し、ピボットテーブルを更新してワークブックを保存します。
+{{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const inputPath = "sample.xlsx";
 const outputPath = "output_filtered.xlsx";
@@ -93,6 +93,7 @@ Aspose.Cells は、`PivotField.filterByValue(PivotField valueField, PivotFilterT
 次の例では、ピボットテーブルを含むワークブックを読み込み、集計された売上が数値のしきい値を超えるアイテムのみを保持する値フィルタを適用し、ピボットテーブルを更新してワークブックを保存します。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let dataFieldIndex = -1;
 for (let i = 0; i < pivotTable.getDataFields().getCount(); i++) {
     if (pivotTable.getDataFields().get(i) === dataField) {
@@ -112,13 +113,12 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 トップ 10 フィルタは、ピボットテーブルにデータ領域に 1 つ以上の値ピボットフィールドがある場合にのみ有効です。少なくとも 1 つの値フィールドがないと、アイテムをランク付けするための集計されたメジャーがないため、フィルタを適用できません。
-{{% /alert %}}
-
 Aspose.Cells は、`PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)` メソッドを通じてトップ 10 フィルタリングを公開しています。`itemCount` パラメータは保持するアイテムの数を定義し、`isTop` は上位アイテムを保持するかどうか（true）または下位アイテムを保持するかどうか（false）を示し、`valueField` はランク付けに使用されるデータフィールドを参照し、`filterType` は値の計算方法を制御します（通常は `Sum` ですが、`Count` や `Percent` も使用できます）。
 次の例では、値フィールドを含むピボットテーブルを含むワークブックを読み込み、売上の合計による上位 10 個のアイテムのみを保持するトップ 10 フィルタを適用し、ピボットテーブルを更新してワークブックを保存します。
+{{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // ピボットテーブルを含む既存のワークブックを読み込む
 const inputPath = "input.xlsx";
 const outputPath = "output.xlsx";
@@ -141,9 +141,9 @@ const valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.Sum
 //   - isTop       = true（上位N件、falseなら下位N件）
 //   - valueFieldIndex = アイテムのランク付けに使用されるデータFieldのインデックス
-rowField.filterTop10(10, AsposeCells.PivotFilterType.Sum, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Sum, true, 10);
 // ピボットテーブルのデータを更新し、再計算してフィルターを反映する
-pivotTable.getPivotTableCache().refresh();
+pivotTable.getPivotCache().refresh();
 // ワークブックを保存する
 workbook.save(outputPath);
 ```
@@ -153,7 +153,7 @@ workbook.save(outputPath);
 このアプローチは、フィルタリングルールが不規則である、またはアイテム固有である場合、たとえば特定のレポートに表示すべきでない少数の名前付きカテゴリを非表示にする場合に役立ちます。以下の例では、ピボットテーブルを読み込み、特定のアイテムを名前で非表示にし、再表示する方法を実演し、ピボットテーブルを更新してワークブックを保存します。
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // ピボットテーブルを含む既存のワークブックを読み込む
 const workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
 // ピボットテーブルを含む最初のワークシートにアクセスする
@@ -179,7 +179,7 @@ for (let i = 0; i < itemCount; i++)
     }
 }
 // 変更を有効にするためにピボットテーブルを更新して再計算する
-pivotTable.getPivotCache().refreshData();
+pivotTable.getPivotCache().refresh();
 // ワークブックを保存する — 非表示のアイテムは基になるデータに残るが
 // 表示されるピボットテーブルの出力からは除外される
 workbook.save("output_pivot_filtered.xlsx");

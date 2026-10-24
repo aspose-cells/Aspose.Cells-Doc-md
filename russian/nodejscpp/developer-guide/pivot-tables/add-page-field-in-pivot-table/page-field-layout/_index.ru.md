@@ -39,6 +39,9 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 В первом сценарии мы настраиваем два поля страницы (`Year`, `Region`) так, чтобы они отображались **рядом в одной строке** в верхней части сводной таблицы. Мы назначаем `Fruit` оси строк, размещаем `Year` первым и `Region` вторым на оси страницы (порядок вызовов `addFieldToArea` определяет начальный индекс), добавляем `Amount` (Sum) в качестве поля данных, а затем устанавливаем `pageFieldOrder` в значение `PrintOrderType.OverThenDown` с `pageFieldWrapCount = 2`. С `OverThenDown` и количеством полей перед переносом 2 два поля страницы располагаются горизонтально рядом в одной строке в верхней части сводной таблицы, поэтому полоса занимает одну строку шириной в два.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
+const path = require("path");
 let dataDir = "output";
 if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
@@ -119,7 +122,7 @@ workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 В этом примере мы размещаем `Fruit` на оси строк, `Year` и `Region` на оси страницы (с `Year` первым), а `Amount` (Sum) в качестве поля данных — точно так же, как в примере 1. Затем устанавливаем `pageFieldOrder` в значение `PrintOrderType.DownThenOver` и `pageFieldWrapCount` в `2`. С `DownThenOver` и количеством полей перед переносом 2 два поля страницы располагаются вертикально друг под другом — `Year` сверху, `Region` непосредственно под ним — формируя один столбец в верхней части сводной таблицы. Таким образом, полоса занимает две строки шириной один, в отличие от примера 1.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
@@ -146,10 +149,10 @@ for (let r = 0; r < data.length; r++) {
 }
 const idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
 const pivotTable = pivotReport.getPivotTables().get(idx);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 3);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DownThenOver);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.calculateData();
@@ -160,7 +163,7 @@ workbook.save("pageFieldLayout_downThenOver.xlsx");
 В третьем сценарии мы сохраняем этот набор данных и распределение полей, задаём нейтральный макет (`OverThenDown` с количеством полей перед переносом `2`), а затем демонстрируем операцию `pageFields.move`. Вызов `move(0, 1)` перемещает поле страницы с индексом 0 (`Year`) в позицию 1, а поле страницы, которое было в позиции 1 (`Region`), смещается в позицию 0. После этого вызова `Region` является первым полем страницы, а `Year` — вторым. Режим переноса и упорядочивания остаются без изменений, поэтому полоса по-прежнему отображается горизонтально рядом — изменился только порядок двух раскрывающихся списков.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const dataSheet = workbook.getWorksheets().get(0);
 dataSheet.setName("PivotData");

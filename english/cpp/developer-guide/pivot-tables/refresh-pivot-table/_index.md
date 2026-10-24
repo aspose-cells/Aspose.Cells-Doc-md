@@ -24,20 +24,26 @@ The four-layer data chain is:
 
 {{% alert color="primary" %}}
 `PivotCache.SourceType` (enum `PivotTableSourceType`) indicates where the cache data came from. As of v26.7, `PivotCache.Refresh()` supports only the **`Sheet`** and **`Consolidation`** source types — that is, data that lives in worksheet ranges. External sources (databases, external connections, etc.) are not yet refreshable through the cache API.
-{{% /alert %}}
-
 Because of this chain, there are two fundamental refresh paths in Aspose.Cells:
 - **`PivotTable.CalculateData()`** — recalculates one `PivotTable`'s display from already-cached data, with no round-trip back to the data source.
 All scenarios in this article use worksheet-cell source data, so the source type is `Sheet` and refresh operations behave as described.
+{{% /alert %}}
 
 ## Quick Start
 If you just need the shortest possible code that refreshes every pivot in the workbook, a single call is enough:
 
-```csharp
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
+```cpp
+#include "Aspose.Cells.h"
+using namespace Aspose::Cells;
+int main()
+{
+    Aspose::Cells::Startup();
+    Workbook workbook(u"input.xlsx");
+    workbook.RefreshAll();
+    workbook.Save(u"output.xlsx");
+    Aspose::Cells::Cleanup();
+    return 0;
+}
 ```
 
 Everything else in this article explains when to choose a narrower API instead.
@@ -110,6 +116,7 @@ Sometimes you only need to refresh the pivot tables that live on one specific wo
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -169,6 +176,7 @@ The following example modifies a non-source property of the pivot table and then
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;

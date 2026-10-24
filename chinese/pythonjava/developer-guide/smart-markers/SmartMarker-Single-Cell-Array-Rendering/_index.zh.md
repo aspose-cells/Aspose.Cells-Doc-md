@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持通过智能标记将数组数据渲染到单个单元格中。通过结合使用 `ArrayAsSingle` 属性和 `ExtraDelimiter` 属性，开发人员可以控制数组元素在单个单元格中的分隔方式，从而为报表和模板提供灵活的格式化功能。
+{{% /alert %}}
 
 ## **介绍**
 Aspose.Cells 中的智能标记是一项强大的基于模板的功能，允许您使用标记表达式（如 `&=DataSource.Field`）动态填充电子表格数据。标记放置在设计器工作簿中，当模板由 `WorkbookDesigner` 处理时，标记将被替换为来自所提供数据源的值。
@@ -59,6 +60,7 @@ Aspose.Cells 中的智能标记是一项强大的基于模板的功能，允许�
 
 {{% alert color="primary" %}}
 `extraDelimiter` 属性接受任何字符串字面量，包括多字符分隔符、自定义文本或转义序列（如用于换行分隔输出的 `\n`）。如果数组为空，则生成的单元格将留空。
+{{% /alert %}}
 
 ### **分步工作流程**
 以下工作流程描述了如何使用智能标记将数组渲染到单个单元格中。
@@ -74,7 +76,6 @@ Aspose.Cells 中的智能标记是一项强大的基于模板的功能，允许�
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 class Product:
     def __init__(self, tags):
@@ -102,7 +103,6 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-from asposecells.api import Workbook
 # 定义 Student 类
 class Student:
     def __init__(self):
@@ -123,7 +123,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 # 将数据源定义为字典（相当于 Order 类）
 order = {"Items": ["Apple", "Banana", "Cherry", "Date"]}
@@ -153,8 +152,5 @@ jpype.shutdownJVM()
 - 此功能适用于对象数据源以及可以将列拆分为数组的 `DataSet` 和 `DataTable` 数据源。
 - 对于换行分隔的输出，您可以使用 `\n` 或平台的换行常量作为分隔符值。
 - 将智能标记放置在具有足够宽度的单元格中，以显示生成的连接字符串；否则，根据格式的不同，内容可能会视觉上溢出到相邻的单元格中。
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

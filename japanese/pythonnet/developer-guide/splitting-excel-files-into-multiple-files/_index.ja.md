@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells は、単一の Excel ファイルを複数のファイルに分割することをサポートします。これを行うには主に 2 つの方法があります。(1) ソースワークブックの各ワークシートを新しいワークブックにコピーして、それぞれを個別のファイルとして保存する方法、(2) ワークシートから特定のセル範囲を新しいワークブックにコピーする方法です。どちらのアプローチも、データのサブセットを配布したり、受信者ごとに小さいレポートを作成したり、個別の処理のためにデータを分離したりする必要がある場合に役立ちます。
+{{% /alert %}}
 
 ## **はじめに**
 開発者が単一の Excel ファイルを複数の小さなファイルに分割する必要がある現実的なシナリオは多数あります。たとえば、ワークブックには部門ごとに 1 つのワークシートが含まれており、各部門長は自分のシートのみを受け取る必要がある場合があります。他の場合では、ワークシートから特定のテーブルまたはデータブロックを抽出して、ワークブックの残りの部分を公開せずに、電子メールでスタンドアロンファイルとして送信したい場合があります。また、大規模な統合ワークブックは、取り扱いを容易にしたり、読み込みを高速化したり、他のシステムによる後続処理のために、小さなピースに分割する必要がある場合もあります。
@@ -41,19 +42,19 @@ import aspose.cells as ac
 import os
 data_dir = "data/"
 workbook = ac.Workbook(data_dir + "book1.xls")
-for i in range(workbook.worksheets.count):
+for i in range(len(workbook.worksheets)):
     source_sheet = workbook.worksheets[i]
     sheet_name = source_sheet.name
-    
+
     dest_workbook = ac.Workbook()
     dest_index = dest_workbook.worksheets.add()
     dest_sheet = dest_workbook.worksheets[dest_index]
     dest_sheet.name = sheet_name
-    
+
     dest_sheet.copy(source_sheet)
-    
+
     dest_file = data_dir + sheet_name + ".xls"
-    dest_workbook.save(dest_file, ac.SaveFormat.EXCEL97_TO_2003)
+    dest_workbook.save(dest_file, ac.SaveFormat.EXCEL_97_TO_2003)
 ```
 
 期待される出力は、データディレクトリ内の新しいファイルのセット (ソースワークブックのワークシートごとに 1 つのファイル) です。各ファイルは対応するソースシートにちなんで名前が付けられ、そのファイルにはその単一シートのデータ (およびオプションで書式設定) が含まれます。
@@ -76,6 +77,5 @@ for i in range(workbook.worksheets.count):
 
 ### **コード例**
 期待される出力は、ソースワークブックから抽出された指定された範囲の値 (およびオプションで書式設定) のみを含む、データディレクトリ内の単一の新しいファイルです。宛先ファイルは、ソースファイル内の他のデータとは関係がなく、最初のワークシートのセル `A1` から始まる、抽出された範囲のみを含みます。
-{{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

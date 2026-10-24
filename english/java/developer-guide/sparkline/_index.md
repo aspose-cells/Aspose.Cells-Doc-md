@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supports creating sparklines inside worksheet cells. Sparklines are miniature charts that fit within a single cell, providing a quick visual representation of data trends. Aspose.Cells supports line, column, and win/loss sparklines, and each can be customized with respect to color, line weight, high/low points, and markers.
+{{% /alert %}}
 
 ## **Introduction**
 Sparklines are tiny in-cell charts that are useful when you want to display a quick trend next to a row or column of data without taking up the space of a full chart. Excel supports three kinds of sparklines: **line**, **column**, and **win/loss**. Aspose.Cells mirrors this capability through the `SparklineGroup` and `SparklineGroupCollection` APIs found in the `Aspose.Cells.Charts` namespace.
@@ -29,43 +30,36 @@ A line sparkline draws a continuous line through the data points in a series, ma
 The following example creates a workbook, writes the values 5, -3, 8, -2, 6 into cells A1 through E1, and adds a line sparkline in cell F1 that traces those values. It also customizes the line color to red and enables markers for the high and low points.
 
 ```java
-public class CodeRunner {
-    public static void main(String[] args) {
-        try {
-            // Step 1: Create a Workbook and get the first worksheet
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.getWorksheets().get(0);
-            Cells cells = worksheet.getCells();
-            // Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
-            cells.get("A1").putValue(5);
-            cells.get("B1").putValue(-3);
-            cells.get("C1").putValue(8);
-            cells.get("D1").putValue(-2);
-            cells.get("E1").putValue(6);
-            // Step 3: Build a CellArea pointing to destination cell F1
-            CellArea dest = new CellArea();
-            dest.StartColumn = 5;   // column F (0-indexed)
-            dest.EndColumn = 5;
-            dest.StartRow = 0;      // row 1 (0-indexed)
-            dest.EndRow = 0;
-            // Step 4: Add a Line sparkline from A1:E1 into F1
-            // SparklineGroups.add returns the index of the newly added group
-            int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
-            SparklineGroup group = worksheet.getSparklineGroups().get(index);
-            // Step 5: Create a red CellsColor and assign it to the sparkline line color
-            CellsColor red = workbook.createCellsColor();
-            red.setColor(com.aspose.cells.Color.getRed());
-            group.setSeriesColor(red);
-            // Step 6: Enable high-point and low-point markers
-            group.setShowHighPoint(true);
-            group.setShowLowPoint(true);
-            // Step 7: Save the workbook
-            workbook.save("output_line.xlsx");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
+import com.aspose.cells.*;
+// Step 1: Create a Workbook and get the first worksheet
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+Cells cells = worksheet.getCells();
+// Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
+cells.get("A1").putValue(5);
+cells.get("B1").putValue(-3);
+cells.get("C1").putValue(8);
+cells.get("D1").putValue(-2);
+cells.get("E1").putValue(6);
+// Step 3: Build a CellArea pointing to destination cell F1
+CellArea dest = new CellArea();
+dest.StartColumn = 5;   // column F (0-indexed)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // row 1 (0-indexed)
+dest.EndRow = 0;
+// Step 4: Add a Line sparkline from A1:E1 into F1
+// SparklineGroups.add returns the index of the newly added group
+int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
+SparklineGroup group = worksheet.getSparklineGroups().get(index);
+// Step 5: Create a red CellsColor and assign it to the sparkline line color
+CellsColor red = workbook.createCellsColor();
+red.setColor(com.aspose.cells.Color.getRed());
+group.setSeriesColor(red);
+// Step 6: Enable high-point and low-point markers
+group.setShowHighPoint(true);
+group.setShowLowPoint(true);
+// Step 7: Save the workbook
+workbook.save("output_line.xlsx");
 ```
 
 ## **Column Sparklines**
@@ -89,10 +83,10 @@ for (int i = 0; i < values.length; i++) {
 }
 // Build a CellArea pointing to F1 (column index 5, row index 0)
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Add a Column sparkline to the destination cell
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
@@ -115,9 +109,6 @@ In Aspose.Cells, a win/loss sparkline is created by passing `SparklineType.STACK
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.charts.*;
-import com.aspose.cells.drawing.*;
-import java.awt.Color;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -129,10 +120,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Build a CellArea pointing to F1 (column 5, row 0)
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Add a Win/Loss sparkline (SparklineType.Stacked)
 int groupIndex = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(groupIndex);
@@ -142,19 +133,19 @@ group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
 // Set the high-point color to green
 CellsColor highColor = workbook.createCellsColor();
-highColor.setColor(Color.GREEN);
+highColor.setColor(Color.getGreen());
 group.setHighPointColor(highColor);
 // Set the low-point color to red
 CellsColor lowColor = workbook.createCellsColor();
-lowColor.setColor(Color.RED);
+lowColor.setColor(Color.getRed());
 group.setLowPointColor(lowColor);
 // Set the negative-point color to orange
 CellsColor negColor = workbook.createCellsColor();
-negColor.setColor(Color.ORANGE);
+negColor.setColor(Color.getOrange());
 group.setNegativePointsColor(negColor);
 // Set the default series color (used for positive bars)
 CellsColor seriesColor = workbook.createCellsColor();
-seriesColor.setColor(new Color(70, 130, 180)); // SteelBlue approximation
+seriesColor.setColor(Color.fromArgb(70, 130, 180)); // SteelBlue approximation
 group.setSeriesColor(seriesColor);
 // Save the workbook
 workbook.save("output_winloss.xlsx");
@@ -211,6 +202,5 @@ Once a `SparklineGroup` has been created and added to `worksheet.getSparklineGro
 - **High/Low point markers** — flags that turn on small markers on the highest and lowest data points, useful for emphasizing extremes.
 - **First/Last/Negative point markers** — flags that toggle markers on the first, last, and negative data points.
 To change a color, always create a `CellsColor` instance and assign it to the relevant property. Do not assign a `java.awt.Color` directly to sparkline color properties — they expect the `CellsColor` type from `Aspose.Cells.Drawing`. The `add` method itself returns a fully typed `SparklineGroup` object, so you can chain property assignments on the return value or store it in a local variable and customize it before saving.
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

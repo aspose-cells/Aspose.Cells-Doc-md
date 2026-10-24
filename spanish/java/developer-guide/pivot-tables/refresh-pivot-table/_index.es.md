@@ -1,7 +1,7 @@
 ---
 title: Actualizar tablas dinámicas y cachés de tablas dinámicas en Aspose.Cells for Java
+linktitle: Actualizar tablas dinámicas y cachés de tablas dinámicas en Aspose.Cells for Java
 description: Aprenda a actualizar tablas dinámicas en Aspose.Cells for Java usando la API de actualización de tablas dinámicas de v26.7+. Este artículo cubre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData y GetPivotTables con ejemplos prácticos de código.
-linktitle: Actualizar Tablas Dinámicas
 keywords: Aspose.Cells, Java, tabla dinámica, actualizar, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -24,14 +24,32 @@ La cadena de datos de cuatro capas es:
 
 {{% alert color="primary" %}}
 `PivotCache.getSourceType()` (enum `PivotTableSourceType`) indica de dónde provienen los datos del caché. A partir de v26.7, `PivotCache.refresh()` solo admite los tipos de origen **`Sheet`** y **`Consolidation`**, es decir, datos que viven en rangos de hojas de cálculo. Los orígenes externos (bases de datos, conexiones externas, etc.) aún no se pueden actualizar mediante la API de caché.
-{{% /alert %}}
-
 Debido a esta cadena, hay dos rutas fundamentales de actualización en Aspose.Cells:
 - **`PivotTable.calculateData()`** — recalcula la visualización de una `PivotTable` a partir de datos ya almacenados en caché, sin volver al origen de datos.
 Todos los escenarios de este artículo usan datos de origen de celdas de hoja de cálculo, por lo que el tipo de origen es `Sheet` y las operaciones de actualización se comportan como se describe.
+{{% /alert %}}
 
 ## Quick Start
 Si solo necesita el código más breve posible que actualice cada tabla dinámica en el libro de trabajo, una sola llamada es suficiente:
+
+```java
+import com.aspose.cells.*;
+Workbook workbook = new Workbook("input.xlsx");
+workbook.refreshAll();
+workbook.save("output.xlsx");
+```
+
+Todo lo demás en este artículo explica cuándo elegir una API más específica en su lugar.
+
+## Required Import Statements
+Todos los ejemplos de Java en este artículo comienzan con las siguientes sentencias de importación porque los tipos de tabla dinámica viven en el paquete `com.aspose.cells.pivot`:
+- `import java.lang.System;`
+- `import com.aspose.cells.Workbook;`
+- `import com.aspose.cells.pivot.*;`
+
+## Refresh All Pivot Tables in the Workbook
+Cuando necesita asegurarse de que cada caché de tabla dinámica y cada tabla dinámica en el libro de trabajo refleje los datos de origen más recientes, la API más simple y completa es `Workbook.refreshAll()`. Una sola llamada recorre todo el libro de trabajo, actualizando cada `PivotCache` desde su origen y luego recalculando cada `PivotTable` dependiente. Este es el enfoque recomendado para actualizaciones generales de documentos completos donde el rendimiento no es una preocupación.
+El siguiente ejemplo construye un libro de trabajo con un rango de origen Fruta/Año/Cantidad, crea una tabla dinámica, modifica algunos valores de origen y luego usa `refreshAll()` para actualizar todo en una sola llamada.
 
 ```java
 import com.aspose.cells.*;
@@ -84,17 +102,8 @@ workbook.refreshAll();
 workbook.save("output.xlsx");
 ```
 
-Todo lo demás en este artículo explica cuándo elegir una API más específica en su lugar.
-
-## Required Import Statements
-Todos los ejemplos de Java en este artículo comienzan con las siguientes sentencias de importación porque los tipos de tabla dinámica viven en el paquete `com.aspose.cells.pivot`:
-- `import java.lang.System;`
-- `import com.aspose.cells.Workbook;`
-- `import com.aspose.cells.pivot.*;`
-
-## Refresh All Pivot Tables in the Workbook
-Cuando necesita asegurarse de que cada caché de tabla dinámica y cada tabla dinámica en el libro de trabajo refleje los datos de origen más recientes, la API más simple y completa es `Workbook.refreshAll()`. Una sola llamada recorre todo el libro de trabajo, actualizando cada `PivotCache` desde su origen y luego recalculando cada `PivotTable` dependiente. Este es el enfoque recomendado para actualizaciones generales de documentos completos donde el rendimiento no es una preocupación.
-El siguiente ejemplo construye un libro de trabajo con un rango de origen Fruta/Año/Cantidad, crea una tabla dinámica, modifica algunos valores de origen y luego usa `refreshAll()` para actualizar todo en una sola llamada.
+## Refresh All Pivot Tables on a Single Worksheet
+A veces solo necesita actualizar las tablas dinámicas que viven en una hoja de cálculo específica, por ejemplo, cuando se sabe que las tablas dinámicas en otras hojas de cálculo no están relacionadas y no deben modificarse. Para este caso, Aspose.Cells ofrece `Worksheet.refreshPivotTables()`, que está limitada a una sola instancia de `Worksheet`.
 
 ```java
 import com.aspose.cells.*;
@@ -139,8 +148,15 @@ worksheet.refreshPivotTables();
 workbook.save("output.xlsx");
 ```
 
-## Refresh All Pivot Tables on a Single Worksheet
-A veces solo necesita actualizar las tablas dinámicas que viven en una hoja de cálculo específica, por ejemplo, cuando se sabe que las tablas dinámicas en otras hojas de cálculo no están relacionadas y no deben modificarse. Para este caso, Aspose.Cells ofrece `Worksheet.refreshPivotTables()`, que está limitada a una sola instancia de `Worksheet`.
+## Refresh a Single Pivot Table
+Cuando desea un control detallado sobre una sola tabla dinámica, la API basada en caché le ofrece dos opciones. La elección entre ellas depende de qué cambió realmente: los datos de origen subyacentes, o solo la configuración de vista/diseño de la propia tabla dinámica.
+
+### Source Data Changed — Use `PivotCache.refresh()`
+Si los datos de origen subyacentes han cambiado, el punto de entrada correcto es `pivotTable.getPivotCache().refresh()`. Esta llamada vuelve a leer los datos de origen en el caché y luego recalcula cada `PivotTable` que depende de ese caché.
+
+### Only View/Layout Changed — Use `calculateData()`
+Si los datos de origen *no* han cambiado pero solo se han modificado la configuración de vista o diseño de la tabla dinámica (por ejemplo, se ha movido un campo a un área diferente, o se ha alternado una configuración de actualizar al abrir), no es necesario volver al origen de datos. El caché ya contiene los datos correctos; solo la `PivotTable` representada necesita recálculo. En este caso, `pivotTable.calculateData()` es la opción correcta.
+El siguiente ejemplo modifica una propiedad que no es del origen de la tabla dinámica y luego llama a `calculateData()` para volver a representarla desde el caché existente.
 
 ```java
 import com.aspose.cells.*;
@@ -183,7 +199,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 // Modificar una propiedad de vista/diseño -- esto es un cambio solo de presentación,
-// por lo que NO requiere volver a leer los datos de origen a través de PivotCache.Refresh().
+// por lo que NO requiere volver a leer los datos de origen a través de PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
 // calculateData() vuelve a renderizar la visualización de ESTA tabla dinámica (datos + estilo) desde los
 // datos ya almacenados en el PivotCache. Debido a que los datos de origen no cambiaron,
@@ -194,15 +210,6 @@ pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
 
-## Refresh a Single Pivot Table
-Cuando desea un control detallado sobre una sola tabla dinámica, la API basada en caché le ofrece dos opciones. La elección entre ellas depende de qué cambió realmente: los datos de origen subyacentes, o solo la configuración de vista/diseño de la propia tabla dinámica.
-
-### Source Data Changed — Use `PivotCache.refresh()`
-Si los datos de origen subyacentes han cambiado, el punto de entrada correcto es `pivotTable.getPivotCache().refresh()`. Esta llamada vuelve a leer los datos de origen en el caché y luego recalcula cada `PivotTable` que depende de ese caché.
-
-### Only View/Layout Changed — Use `calculateData()`
-Si los datos de origen *no* han cambiado pero solo se han modificado la configuración de vista o diseño de la tabla dinámica (por ejemplo, se ha movido un campo a un área diferente, o se ha alternado una configuración de actualizar al abrir), no es necesario volver al origen de datos. El caché ya contiene los datos correctos; solo la `PivotTable` representada necesita recálculo. En este caso, `pivotTable.calculateData()` es la opción correcta.
-El siguiente ejemplo modifica una propiedad que no es del origen de la tabla dinámica y luego llama a `calculateData()` para volver a representarla desde el caché existente.
 Un libro de trabajo a menudo contiene muchas tablas dinámicas que se asientan sobre un caché compartido. Para enumerarlas, por ejemplo, antes de realizar una actualización por lotes o para diagnosticar el impacto del caché compartido, use `PivotCache.getPivotTables()`. Este método devuelve la colección de cada `PivotTable` que depende del caché dado.
 
 ## Migrating from the Obsolete `PivotTable.refreshData()`
@@ -224,16 +231,9 @@ La tabla a continuación resume las APIs de actualización disponibles y cuándo
 En la práctica, prefiera las APIs basadas en caché sobre la obsoleta `refreshData()` por tabla. Son conscientes de los cachés compartidos, evitan obtenciones redundantes del origen y le permiten elegir el alcance más pequeño que satisfaga su requisito de actualización.
 
 ## Common Pitfalls
-- **Olvidar actualizar antes de guardar.** Una tabla dinámica solo escribe sus valores representados en la hoja de cálculo cuando se actualiza su cadena de datos. Si modifica las celdas de origen, llame a `PivotCache.Refresh()` (o `Workbook.RefreshAll()`) antes de `Workbook.save()`, de lo contrario el archivo guardado aún contendrá los valores agregados antiguos.
-- **Llamar al obsoleto `RefreshData()` por tabla.** En v26.7, `PivotTable.RefreshData()` está marcado como obsoleto y vuelve a obtener el origen en cada llamada. Con varias tablas dinámicas compartiendo un caché, esto significa N obtenciones de origen redundantes. Reemplace con un único `PivotCache.Refresh()` seguido de `CalculateData()` por tabla.
-- **Actualizar cuando solo cambió el diseño.** Si solo cambió la vista de una tabla dinámica (orden de columnas, `ConsolidationFunction`, etc.) sin tocar los datos de origen, `PivotCache.Refresh()` es innecesario y lento. Llame a `pivotTable.CalculateData()` para volver a representar desde el caché existente.
-- **Origen externo no admitido por `PivotCache.Refresh()`.** Si el origen de la tabla dinámica proviene de una conexión externa (base de datos, cubo OLAP, etc.), `PivotCache.Refresh()` no puede actualizarla en v26.7; actualmente solo admite los tipos de origen `Sheet` y `Consolidation`. Para orígenes externos, vuelva a abrir el libro de trabajo o reconstruya el caché desde el origen.
-
-```csharp
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
-```
+- **Olvidar actualizar antes de guardar.** Una tabla dinámica solo escribe sus valores representados en la hoja de cálculo cuando se actualiza su cadena de datos. Si modifica las celdas de origen, llame a `PivotCache.refresh()` (o `Workbook.refreshAll()`) antes de `Workbook.save()`, de lo contrario el archivo guardado aún contendrá los valores agregados antiguos.
+- **Llamar al obsoleto `refreshData()` por tabla.** En v26.7, `PivotTable.refreshData()` está marcado como obsoleto y vuelve a obtener el origen en cada llamada. Con varias tablas dinámicas compartiendo un caché, esto significa N obtenciones de origen redundantes. Reemplace con un único `PivotCache.refresh()` seguido de `calculateData()` por tabla.
+- **Actualizar cuando solo cambió el diseño.** Si solo cambió la vista de una tabla dinámica (orden de columnas, `ConsolidationFunction`, etc.) sin tocar los datos de origen, `PivotCache.refresh()` es innecesario y lento. Llame a `pivotTable.calculateData()` para volver a representar desde el caché existente.
+- **Origen externo no admitido por `PivotCache.refresh()`.** Si el origen de la tabla dinámica proviene de una conexión externa (base de datos, cubo OLAP, etc.), `PivotCache.refresh()` no puede actualizarla en v26.7; actualmente solo admite los tipos de origen `Sheet` y `Consolidation`. Para orígenes externos, vuelva a abrir el libro de trabajo o reconstruya el caché desde el origen.
 
 {{< app/cells/assistant language="java" >}}

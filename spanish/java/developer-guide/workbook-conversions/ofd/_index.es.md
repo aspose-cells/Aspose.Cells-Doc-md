@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells admite convertir libros de trabajo de Excel directamente al formato OFD (Open Fixed-layout Document) utilizando el valor de enumeración `SaveFormat.Ofd`. El documento OFD resultante preserva el diseño visible del libro de trabajo, el contenido, las celdas combinadas, los anchos de columna, las alturas de fila, las fuentes, los colores, los bordes y los formatos de número. Esto hace que Aspose.Cells sea adecuado para flujos de trabajo de archivo, impresión, presentación regulatoria y gubernamental que requieran una salida de diseño fijo.
+{{% /alert %}}
 
 ## **Introducción**
 OFD (Open Fixed-layout Document) es un estándar nacional chino (GB/T 33190-2016) para representar documentos digitales en un diseño fijo basado en páginas. Cumple un papel similar al de PDF en casos de uso donde la apariencia visual del documento fuente debe preservarse exactamente como se creó. OFD se adopta ampliamente para presentaciones gubernamentales, presentaciones regulatorias, facturas electrónicas y archivado a largo plazo en la República Popular China.
@@ -19,6 +20,7 @@ Convertir libros de trabajo de Excel a OFD es un requisito común en escenarios 
 
 {{% alert color="primary" %}}
 La salida OFD generada por Aspose.Cells preserva el diseño visible del libro de trabajo fuente, incluyendo el contenido de las celdas, las celdas combinadas, los anchos de columna y las alturas de fila. El formato de las celdas, como fuentes, colores, bordes, alineación y formatos de número, también se representa en la salida de diseño fijo. Las opciones de configuración de página configuradas en la hoja de cálculo, como el tamaño del papel, la orientación y el área de impresión, influyen en el diseño del documento OFD resultante.
+{{% /alert %}}
 
 ## **Crear un libro de trabajo de Excel y guardar como OFD**
 Aspose.Cells le permite construir un libro de trabajo mediante programación, rellenarlo con datos y luego guardarlo directamente en formato OFD utilizando la enumeración `SaveFormat.Ofd`. El siguiente ejemplo crea una factura desde cero. Agrega un logotipo de empresa, información de encabezado, una sección de facturación, líneas de detalle y totales calculados, luego exporta el libro de trabajo a un documento OFD.
@@ -206,8 +208,5 @@ System.out.println("\nFile successfully converted to OFD format: " + dataDir + "
 - [Inserción de una imagen en una celda](/cells/es/java/inserting-an-image-into-a-cell/)
 - [Lectura y escritura de archivos DBF](/cells/es/java/dbf/)
 - [Convertir minigráfico a imagen y HTML en Aspose.Cells for Java](/cells/es/java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

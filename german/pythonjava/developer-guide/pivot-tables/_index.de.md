@@ -106,10 +106,10 @@ Wenn Sie einen Zellbereich als Datenquelle zuweisen, muss der Bereich von oben l
 {{% /alert %}}
 
 ## Verwandte Artikel
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Python via Java](/cells/de/python-java/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Python via Java](/cells/de/python-java/apply-style-to-pivot-table/)
+- [Filterfelder zu einer PivotTable in Aspose.Cells für .NET hinzufügen](/cells/de/python-java/add-page-field-in-pivot-table/)
+- [Anwenden von Stilen auf Pivot-Tabellen in Aspose.Cells for Python via Java](/cells/de/python-java/apply-style-to-pivot-table/)
 - [Modify Page Field Layout in Pivot Table](/cells/de/python-java/change-page-field-layout/)
-- [Filtering Pivot Tables by Label or Value](/cells/de/python-java/filter-by-label-or-value-of-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Python via Java](/cells/de/python-java/manage-value-fields/)
+- [Filtern von Pivot-Tabellen nach Beschriftung oder Wert](/cells/de/python-java/filter-by-label-or-value-of-pivot-table/)
+- [Wertefelder in Aspose.Cells for Python via Java](/cells/de/python-java/manage-value-fields/)
 
 {{< app/cells/assistant language="python" >}}

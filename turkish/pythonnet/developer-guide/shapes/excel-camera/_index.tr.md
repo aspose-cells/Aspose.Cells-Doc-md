@@ -25,9 +25,8 @@ Anahtar API'ler şunlardır:
 
 {{% alert color="primary" %}}
 Çıktı HTML veya PDF olduğunda kaydetmeden önce `update_selected_value()` çağrılmalıdır; aksi takdirde dışa aktarılan dosya resim verilerini içermez ve Camera işlenmiş çıktıda boş görünür.
-{{% /alert %}}
-
 Aşağıdaki kod bir çalışma kitabı oluşturur, 10. satır 6. sütuna sabitlenmiş boş bir resim ekler, `formula` özelliği aracılığıyla onu kaynak aralığı `A1:F10`'a bağlar, gömülü görüntü verilerini yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```python
 from aspose.cells import Workbook, SaveFormat

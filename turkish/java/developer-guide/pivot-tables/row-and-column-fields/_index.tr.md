@@ -196,6 +196,19 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Özet**
-Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `setSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek alanın aralarında alt toplam yapılacak bir şey yoktur; bu nedenle `setSubtotals`'ın görünür bir etkiye sahip olmasını istediğinizde, satır veya sütun bölgesine her zaman en az iki alan yerleştirin.
 
+üç senaryo, yalnızca `setSubtotals` çağrıları açısından farklılık gösterir. Diğer her şey — veri kümesi, alanlar ve onlara atandıkları bölgeler — aynıdır, bu da düzenlerin doğrudan karşılaştırılabilir olmasını sağlar.
+- **Alanların yerleştirilmesi.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` çağrısı, bir kaynak sütunu bir bölgeye taşır. Bir bölge içinde, çağrıların sırası gösterim sırasını belirler; bu nedenle ilk çağrı en dıştaki grubu oluşturur. Subtotal (alt toplam), aynı bölgede iki veya daha fazla alana ihtiyaç duyar: tek bir alanla, grupların arasında alt toplam yapılacak bir şey bulunmaz.
+- **Senaryo 1 — otomatik alt toplamlar.** `setSubtotals` çağrısının yapılmaması, seçimi Excel’e bırakır; Excel, sayısal alanlara kendi varsayılan alt toplamını uygular. `PivotFieldSubtotalType.AUTOMATIC` ile `setSubtotals` çağrısı, bu seçimi açıkça kaydeder ve dolaylı bırakmaz.
+- **Senaryo 2 — alt toplam yok.** `PivotFieldSubtotalType.NONE` ile `setSubtotals` çağrısı, varsayılan alt toplamı devre dışı bırakır; böylece pivot, alan satırlarını ve genel toplamı korur ancak Excel’in aksi halde aralarına ekleyeceği alt toplam satırlarını kaldırır.
+- **Senaryo 3 — seçilmiş bir alt küme.** Her çağrı, tam olarak bir alt toplam türünü açıp kapatır; çağrılar birbirlerini sıfırlamak yerine birikir. Bu nedenle `PivotFieldSubtotalType.SUM` ile bir kez ve `PivotFieldSubtotalType.AVERAGE` ile bir kez çağrılması, her ikisini de etkinleştirir ve pivot, bir Toplam alt toplamı, bir Ortalama alt toplamı ve bir genel toplam oluşturur.
+
+{{% alert color="primary" %}}
+Alt toplamlarla ilgili hiçbir şey, satır bölgesine özgü değildir. `PivotTable.ColumnFields`’dan alınan bir alana yapılan aynı `setSubtotals` çağrıları, sütun ekseninde aynı üç düzeni üretir; çünkü ayar, eksenin kendisine değil, pivot alanına aittir.
+{{% /alert %}}
+## **İlgili Makaleler**
+
+- [Pivot Tablolarında Sayfa Alanları](/cells/tr/java/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Java ile Pivot Tabloları Yenileme](/cells/tr/java/refresh-pivot-table/)
+- [Pivot Tablolarına Stil Uygulama](/cells/tr/java/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="java" >}}

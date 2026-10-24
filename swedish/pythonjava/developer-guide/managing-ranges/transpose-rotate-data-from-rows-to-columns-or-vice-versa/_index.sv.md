@@ -36,7 +36,7 @@ Använd denna metod när du vill transponera data utan att använda kalkylbladsf
 `Range.transpose()` är en instansmetod på klassen `com.aspose.cells.Range`. När den anropas vänder den intervallet på plats genom att byta dess rader och kolumner, så det som var en rad blir en kolumn och det som var en kolumn blir en rad. Metoden modifierar de underliggande cellerna direkt utan att skriva en formel.
 
 ### **Steg**
-1. Öppna källarbetsboken med `LoadOptions` inställt på `.xlsx`-formatet genom att anropa `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Öppna källarbetsboken med `LoadOptions` inställt på `.xlsx`-formatet genom att anropa `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Hämta det första kalkylbladet från arbetsboken med `workbook.getWorksheets().get(0)`.
 3. Kom åt kalkylbladets cellsamling via `worksheet.getCells()`.
 4. Skapa källintervallet som täcker **A1:D5** genom att anropa `cells.createRange("A1:D5")`.
@@ -48,11 +48,10 @@ Efter transponeringen håller samma anchor-intervall den roterade datan. Första
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, LoadOptions, LoadFormat
 srcFile = "source.xlsx"
 outputFile = "transposed.xlsx"
-loadOptions = LoadOptions(LoadFormat.Xlsx)
+loadOptions = LoadOptions(LoadFormat.XLSX)
 workbook = Workbook(srcFile, loadOptions)
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
@@ -69,7 +68,7 @@ Använd denna metod när du vill bevara formeln `=TRANSPOSE(A1:D5)` som en live-
 `Cell.setDynamicArrayFormula(String formula, FormulaParseOptions options, boolean calculateValue)` är en metod på `com.aspose.cells.Cell` som ställer in cellens formel som en **dynamisk matrisformel**. Excel utvärderar formeln en gång och spiller automatiskt resultatet till de omgivande cellerna. Den tredje parametern, när den är satt till `True`, instruerar Aspose.Cells att även beräkna resultatvärdena vid skrivningstillfället.
 
 ### **Steg**
-1. Ladda källarbetsboken med `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Ladda källarbetsboken med `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Hämta det första kalkylbladet och kom åt dess `Cells`-samling.
 3. Placera den dynamiska matrisformeln på cell **A6**, precis under källintervallet, genom att anropa `cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", None, True)`.
 4. Argumentet `None` skickar standardinställningarna för `FormulaParseOptions`, och det tredje argumentet `True` talar om för Aspose.Cells att behandla formeln som en dynamisk matris och att utvärdera den så att de spillda värdena skrivs till arbetsboken.
@@ -84,16 +83,15 @@ Denna metod fungerar **bara på Excel 365 / 2021 eller senare**. Äldre Excel-ve
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, LoadOptions, LoadFormat, FormulaParseOptions, SaveFormat
 # porterad kod här
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
 cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", FormulaParseOptions(), True)
-workbook.save(outFile, SaveFormat.Xlsx)
+workbook.save(outFile, SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -118,11 +116,10 @@ CSE-matrisformler är det klassiska Excel-sättet att utvärdera ett `TRANSPOSE`
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, LoadOptions, LoadFormat, Worksheet, Cells
 # Ladda källarbetsboken med xlsx LoadOptions
 srcFile = "source.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 # Hämta det första kalkylbladet och dess Cells-samling
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()

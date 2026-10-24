@@ -130,6 +130,7 @@ I det här exemplet placerar vi `Fruit` på radaxeln, `Year` och `Region` på si
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -252,4 +253,4 @@ int main() {
 - [Uppdatera pivottabell](/cells/sv/cpp/refresh-pivot-table/) — förklarar `RefreshData` och `CalculateData`, vilka krävs efter omordning av sidfält.
 - [Tillämpa stil på pivottabell](/cells/sv/cpp/apply-style-to-pivot-table/) — visar hur man formaterar den renderade pivottabellen efter att sidfältsremsan har lagts ut.
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

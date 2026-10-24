@@ -39,12 +39,14 @@ Les huit lignes sont remplies dans chaque exemple de code, dans le même ordre, 
 Dans le premier scénario, nous configurons les deux champs de page (`Year`, `Region`) pour qu'ils apparaissent **côte à côte sur une seule ligne** en haut du tableau croisé dynamique. Nous affectons `Fruit` à l'axe des lignes, plaçons `Year` en premier et `Region` en second sur l'axe des pages (l'ordre des appels à `addFieldToArea` détermine l'indice de départ), ajoutons `Amount` (Somme) comme champ de données, puis définissons `PageFieldOrder` à `PrintOrderType.OVER_THEN_DOWN` avec `PageFieldWrapCount = 2`. Avec `OVER_THEN_DOWN` et un nombre de retours à la ligne de 2, les deux champs de page sont disposés horizontalement côte à côte sur une seule ligne en haut du tableau croisé dynamique, de sorte que la bande occupe une ligne de largeur deux.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
+const path = require("path");
 let dataDir = "output";
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
 let workbook = new AsposeCells.Workbook();
 let worksheets = workbook.getWorksheets();
-let pivotDataIdx = worksheets.add("PivotData");
-let pivotDataSheet = worksheets.get(pivotDataIdx);
+let pivotDataSheet = worksheets.add("PivotData");
 let pivotDataCells = pivotDataSheet.getCells();
 // En-têtes (ligne 0)
 pivotDataCells.get(0, 0).putValue("Fruit");
@@ -92,20 +94,19 @@ pivotDataCells.get(8, 1).putValue(2023);
 pivotDataCells.get(8, 2).putValue("West");
 pivotDataCells.get(8, 3).putValue(110);
 // Ajouter la feuille PivotTableReport
-let pivotTableSheetIdx = worksheets.add("PivotTableReport");
-let pivotTableSheet = worksheets.get(pivotTableSheetIdx);
+let pivotTableSheet = worksheets.add("PivotTableReport");
 let pivotTables = pivotTableSheet.getPivotTables();
 // Créer un tableau croisé dynamique à partir de PivotData!A1:D9 placé en A1 sur PivotTableReport
 let pivotIndex = pivotTables.add("PivotData!A1:D9", "A1", "PivotTable1");
 let pivotTable = pivotTables.get(pivotIndex);
 // Ajouter des champs
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // Fruit
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // Année
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);  // Région
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // Montant
-pivotTable.getDataFields().get(0).setFunction(AsposeCells.ConsolidationFunction.Sum);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);   // Fruit
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);  // Année
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);  // Région
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);  // Montant
+pivotTable.getDataFields().get(0).setFunction(AsposeCells.ConsolidationFunction.SUM);
 // Configurer la disposition de la zone des champs de page : placer les champs de page en travers d'abord, retourner après chaque 2
-pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OverThenDown);
+pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OVER_THEN_DOWN);
 pivotTable.setPageFieldWrapCount(2);
 // Actualiser et calculer
 pivotTable.calculateData();
@@ -117,6 +118,7 @@ workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 Dans cet exemple, nous plaçons `Fruit` sur l'axe des lignes, `Year` et `Region` sur l'axe des pages (avec `Year` en premier), et `Amount` (Somme) comme champ de données — exactement comme dans l'Exemple 1. Nous définissons ensuite `PageFieldOrder` à `PrintOrderType.DOWN_THEN_OVER` et `PageFieldWrapCount` à `2`. Avec `DOWN_THEN_OVER` et un nombre de retours à la ligne de 2, les deux champs de page sont empilés verticalement — `Year` en haut, `Region` directement en dessous — formant une seule colonne en haut du tableau croisé dynamique. La bande occupe donc deux lignes de largeur un, contrairement à l'Exemple 1.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
@@ -146,11 +148,11 @@ for (var r = 0; r < data.length; r++)
 }
 var idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
 var pivotTable = pivotReport.getPivotTables().get(idx);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);
-pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DownThenOver);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);
+pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DOWN_THEN_OVER);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.calculateData();
 workbook.save("pageFieldLayout_downThenOver.xlsx");
@@ -204,10 +206,10 @@ const pivotSheetIdx = workbook.getWorksheets().add("PivotTableReport");
 const pivotSheet = workbook.getWorksheets().get(pivotSheetIdx);
 const pivotIdx = pivotSheet.getPivotTables().add("PivotData!A1:D9", "A3", "PivotTable");
 const pivotTable = pivotSheet.getPivotTables().get(pivotIdx);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.ROW, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.DATA, 3);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OVER_THEN_DOWN);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.getPageFields().move(0, 1);

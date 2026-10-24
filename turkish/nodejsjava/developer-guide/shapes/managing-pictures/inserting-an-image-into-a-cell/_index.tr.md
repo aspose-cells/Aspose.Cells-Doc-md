@@ -37,6 +37,7 @@ Resmin çapası dört sıfır tabanlı dizin özelliği tarafından tanımlanır
 
 {{% alert color="primary" %}}
 Aspose.Cells'deki satır ve sütun dizinleri **sıfır tabanlıdır**. C6 hücresinin satır dizini 5 ve sütun dizini 2'dir. Sağ alt çapasındaki off-by-one hataları, resimlerin bitişik hücreye taşmış gibi görünmesinin en yaygın kaynağıdır.
+{{% /alert %}}
 
 ### **Yerleştirme Davranışını Kontrol Etme**
 `Picture.Placement`, kullanıcı alttaki satırı veya sütunu yeniden boyutlandırdığında resmin nasıl davranacağını kontrol eden `PlacementType` türünde bir enum'dur. Tek hücreli resim için önerilen değer, resmin alttaki hücreyle birlikte hareket etmesini ve yeniden boyutlandırılmasını sağlayarak tam sığmayı koruyan `PlacementType.MoveAndSize`'tır.
@@ -53,7 +54,7 @@ Aspose.Cells'deki satır ve sütun dizinleri **sıfır tabanlıdır**. C6 hücre
 Aşağıdaki kod tüm yaklaşımı gösterir.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 var picIndex = worksheet.getPictures().add(5, 2, "logo.png");
@@ -62,8 +63,8 @@ picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);
 picture.setLowerRightRow(6);
 picture.setLowerRightColumn(3);
-picture.setPlacement(AsposeCells.PlacementType.MoveAndSize);
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+picture.setPlacement(AsposeCells.PlacementType.MOVE_AND_SIZE);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Yaklaşım 2: Görüntüyü Doğrudan Bir Hücreye Gömme**
@@ -86,7 +87,7 @@ Bu, amacınız basitçe "bu hücrenin içinde yaşayan bir görsel" olduğunda `
 Aşağıdaki kod tüm yaklaşımı gösterir.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
@@ -100,7 +101,7 @@ cell.setEmbeddedImage(imageData);
 worksheet.getCells().setColumnWidth(2, 30);   // Sütun C (indeks 2)
 worksheet.getCells().setRowHeight(5, 100);     // Satır 6 (indeks 5)
 // Ortaya çıkan çalışma kitabını .xlsx dosyası olarak kaydet
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Doğru Yaklaşımı Seçme**
@@ -113,6 +114,5 @@ Her iki yaklaşım da tek bir hücrenin içine sığan bir resim üretir, ancak 
 - **Şu durumlarda gömülü bir görsel kullanın (Yaklaşım 2):**
   - Bir hücreye bir görüntünün mümkün olan en basit eklenmesini istediğinizde.
   - Görselin diğer hücre içerikleri gibi hücreyle birlikte taşınması gerektiğinde.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

@@ -2,7 +2,7 @@
 title: Filtrar tablas dinámicas por etiqueta o valor
 description: Aspose.Cells for Python via .NET ofrece completas capacidades de filtrado para tablas dinámicas. Este artículo explica cómo filtrar datos de tablas dinámicas mediante filtros de etiquetas, filtros de fechas, filtros de valores, filtros de los 10 mejores, y ocultando o mostrando elementos de la tabla dinámica.
 linktitle: Filtrar tablas dinámicas por etiqueta o valor
-keywords: Aspose.Cells, Python via .NET library, spreadsheet, pivot table, filter, label filter, value filter, date filter, top 10 filter, pivot item, hide pivot item
+keywords: Aspose.Cells, biblioteca de Python via .NET, hoja de cálculo, tabla dinámica, filtro, filtro por etiqueta, filtro por valor, filtro por fecha, filtro de los 10 primeros, elemento de tabla dinámica, ocultar elemento de tabla dinámica
 type: docs
 weight: 10
 url: /es/python-net/filter-by-label-or-value-of-pivot-table/
@@ -31,6 +31,7 @@ El siguiente ejemplo carga un libro que contiene una tabla dinámica existente, 
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
 # Cargar el libro existente que contiene una tabla dinámica
@@ -42,7 +43,7 @@ pivot_table = worksheet.pivot_tables[0]
 # Obtener el primer PivotField de fila
 row_field = pivot_table.row_fields[0]
 # Aplicar el filtro de etiqueta: mostrar solo los elementos de fila cuyas etiquetas comiencen con el prefijo proporcionado
-row_field.filter_by_label(ac.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
+row_field.filter_by_label(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Actualizar y recalcular los datos de la tabla dinámica para que el filtro surta efecto
 pivot_table.pivot_cache.refresh()
 # Guardar el libro de nuevo en disco
@@ -53,14 +54,16 @@ workbook.save(fileName)
 Los filtros de fecha permiten reducir una tabla dinámica según criterios basados en fechas, como hoy, la semana pasada, este mes, el próximo trimestre o un rango de fechas específico. Son filtros especializados que funcionan únicamente contra campos que almacenan información de tipo fecha-hora.
 
 {{% alert color="primary" %}}
-El filtro de fecha solo funciona cuando el área de fila o columna contiene únicamente celdas de tipo fecha-hora o valores en blanco. Si el campo subyacente contiene otros tipos de datos, como números o texto, el filtro de fecha no producirá el resultado esperado. Asegúrese de que el campo tenga formato de fecha y de que todos los valores sean instancias válidas de `DateTime` o celdas vacías antes de aplicar este filtro.
+El filtro de fecha solo funciona cuando el área de fila o columna contiene únicamente celdas de tipo fecha-hora o valores en blanco. Si el campo subyacente contiene otros tipos de datos, como números o texto, el filtro de fecha no producirá el resultado esperado. Asegúrese de que el campo tenga formato de fecha y de que todos los valores sean instancias válidas de `datetime` o celdas vacías antes de aplicar este filtro.
+Aspose.Cells expone el filtrado por fechas mediante el método `PivotField.filter_by_date(PivotFilterType, *date_times)`. La enumeración `PivotFilterType` contiene valores de fecha dedicados como `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear`, y `Between`. Dependiendo del tipo de filtro elegido, se pasan uno o dos valores `datetime` (para `Between`, se pasan las fechas de inicio y fin).
+El siguiente ejemplo carga un libro con una tabla dinámica cuya área de filas contiene un campo de fecha, aplica un filtro de fecha que restringe los elementos visibles a un rango de fechas particular, actualiza la tabla dinámica y guarda el libro.
 {{% /alert %}}
 
-Aspose.Cells expone el filtrado por fechas mediante el método `PivotField.filter_by_date(PivotFilterType, *date_times)`. La enumeración `PivotFilterType` contiene valores de fecha dedicados como `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear`, y `Between`. Dependiendo del tipo de filtro elegido, se pasan uno o dos valores `DateTime` (para `Between`, se pasan las fechas de inicio y fin).
-El siguiente ejemplo carga un libro con una tabla dinámica cuya área de filas contiene un campo de fecha, aplica un filtro de fecha que restringe los elementos visibles a un rango de fechas particular, actualiza la tabla dinámica y guarda el libro.
-
 ```python
+import os
+import aspose.cells as ac
 from datetime import datetime
+from aspose.cells.pivot import PivotFilterType
 input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
@@ -78,7 +81,7 @@ date_field = pivot_table.row_fields[0]
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
 # Aplicar el filtro de fecha en el campo dinámico
-date_field.filter_by_date(ac.PivotFilterType.DATE_BETWEEN, start_date, end_date)
+date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
 # Refrescar y recalcular la tabla dinámica para que el filtro surta efecto
 pivot_table.pivot_cache.refresh()
 # Guardar el libro
@@ -92,6 +95,7 @@ El siguiente ejemplo carga un libro con una tabla dinámica, aplica un filtro de
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 workbook = ac.Workbook("sample.xlsx")
 worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
@@ -99,12 +103,12 @@ row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
 # Buscar el índice del campo de datos manualmente ya que PivotFieldCollection no tiene IndexOf
 data_field_index = -1
-for i in range(pivot_table.data_fields.count):
+for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
         data_field_index = i
         break
 if data_field_index >= 0:
-    row_field.filter_by_value(data_field_index, ac.PivotFilterType.VALUE_GREATER_THAN, 5000, float('inf'))
+    row_field.filter_by_value(data_field_index, PivotFilterType.VALUE_GREATER_THAN, 5000.0, float('inf'))
 pivot_table.pivot_cache.refresh()
 workbook.save("output.xlsx")
 ```
@@ -114,10 +118,9 @@ El filtro de los 10 mejores es una forma especializada de filtro de valor que re
 
 {{% alert color="primary" %}}
 El filtro de los 10 mejores solo es efectivo cuando la tabla dinámica tiene uno o más campos de valor en el área de datos. Sin al menos un campo de valor, no existe ninguna medida agregada contra la cual clasificar los elementos y el filtro no puede aplicarse.
-{{% /alert %}}
-
 Aspose.Cells expone el filtrado de los 10 mejores mediante el método `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)`. El parámetro `item_count` define cuántos elementos se deben retener, `is_top` indica si se conservan los elementos superiores (True) o los inferiores (False), `value_field` hace referencia al campo de datos utilizado para la clasificación, y `PivotFilterType` controla cómo se calcula el valor (normalmente `Sum`, pero también `Count` y `Percent`).
 El siguiente ejemplo carga un libro con una tabla dinámica que contiene un campo de valor, aplica un filtro de los 10 mejores para conservar solo los 10 elementos más altos por la suma de ventas, actualiza la tabla dinámica y guarda el libro.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
@@ -131,7 +134,7 @@ worksheet = workbook.worksheets[0]
 # Acceder a la tabla dinámica por índice
 pivotTable = worksheet.pivot_tables[0]
 # Confirmar que hay al menos un PivotField de valor en el área de datos
-if pivotTable.data_fields.count == 0:
+if len(pivotTable.data_fields) == 0:
     raise Exception("La tabla dinámica no tiene PivotField de valor (datos).")
 valueField = pivotTable.data_fields[0]
 # Obtener el PivotField de fila objetivo (el campo al que aplicaremos Top 10)
@@ -140,10 +143,10 @@ rowField = pivotTable.row_fields[0]
 valueFieldIndex = 0
 # Aplicar el filtro Top 10 en el campo de fila:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (N superiores; false significaría N inferiores)
 #   - valueFieldIndex = el índice del campo de datos utilizado para clasificar los elementos
-rowField.filter_top10(10, acp.PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
 # Actualizar los datos de la tabla dinámica y recalcularla para que el filtro surta efecto
 pivotTable.pivot_cache.refresh()
 # Guardar el libro

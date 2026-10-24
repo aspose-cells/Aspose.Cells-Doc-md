@@ -2,7 +2,7 @@
 title: إضافة حقول التصفية إلى جدول محوري في Aspose.Cells لـ .NET
 description: تعلم كيفية إضافة وتكوين حقول التصفية في الجداول المحورية باستخدام Aspose.Cells for Python عبر Java، بما في ذلك إضافة حقول التصفية، والتصفية أحادية الاختيار، والتصفية متعددة الاختيارات.
 linktitle: إضافة حقول التصفية
-keywords: Aspose.Cells, Python, Java, جدول محوري, حقل التصفية, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, تصفية
+keywords: Aspose.Cells, Python, Java, جدول محوري, حقل التصفية, PivotFieldType.PAGE, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, تصفية
 type: docs
 weight: 250
 url: /ar/python-java/add-page-field-in-pivot-table/
@@ -29,7 +29,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFieldType
 # إنشاء مصنف جديد
 workbook = Workbook()
@@ -59,9 +58,9 @@ for i in range(len(data)):
 pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1")
 pivotTable = worksheet.getPivotTables().get(pivotIndex)
 # إضافة الحقول إلى مناطقها: الفاكهة كصف، المبلغ كبيانات، السنة كحقل صفحة
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
-pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 # تحديث وحساب بيانات الجدول المحوري
 pivotTable.calculateData()
 # حفظ المصنف
@@ -76,7 +75,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotFieldType
 # — يتم إنشاء الجدول المحوري وحقل الصفحة تمامًا كما في
 #   السيناريو 1أ (بيانات الفاكهة/السنة/المبلغ، الجدول المحوري عند E3، الفاكهة→الصف،
@@ -104,8 +102,8 @@ sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").pu
 pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1")
 pivotTable = sheet.getPivotTables().get(pivotIndex)
 # الفاكهة -> الصف، المبلغ -> البيانات (ستذهب السنة إلى الصفحة أدناه)
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 # نهج منخفض المستوى: احصل على PivotField الموجود للسنة من BaseFields
 # وسجله في منطقة الصفحة عبر PageFields.Add(PivotField).
 yearField = pivotTable.getBaseFields().get("Year")
@@ -126,7 +124,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 # إنشاء مصنف جديد
 workbook = Workbook()
@@ -170,7 +167,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 # Create workbook
 workbook = Workbook()
@@ -197,9 +193,9 @@ pivotTables = sheet.getPivotTables()
 pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1")
 pivotTable = pivotTables.get(pivotIndex)
 # Add fields: Fruit→Row, Amount→Data, Year→Page
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
-pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 # Page-field-specific operations
 pivotTable.getPageFields().get(0).setCurrentPageItem(1) # 1 = second item in sorted order (e.g. "2021")
 # Refresh and calculate pivot table
@@ -216,7 +212,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 import os
 import re
@@ -250,9 +245,9 @@ pivotSheet = workbook.getWorksheets().add("Pivot")
 pivots = pivotSheet.getPivotTables()
 pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1")
 pivotTable = pivots.get(pivotIndex)
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
-pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 # — تمكين التحديد المتعدد على حقل الصفحة
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(True)
 # الجزء أ — حدد جميع العناصر (اجعل كل عنصر مرئيًا)

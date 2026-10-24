@@ -1,8 +1,8 @@
 ---
-title: Uppdatera pivottabeller och pivotcacheminnen i Aspose.Cells for C++
-linktitle: Uppdatera pivottabeller och pivotcacheminnen i Aspose.Cells for C++
-description: Lär dig hur du uppdaterar pivottabeller i Aspose.Cells for C++ med pivot-uppdaterings-API,et i v26.7+. Den här artikeln täcker RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData och GetPivotTables med praktiska kodexempel.
-keywords: Aspose.Cells, C++, pivottabell, uppdatera, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
+title: Uppdatera pivottabeller och pivotcachar i Aspose.Cells for C++
+linktitle: Uppdatera pivottabeller och pivotcachar i Aspose.Cells for C++
+description: Lär dig att uppdatera pivottabeller i Aspose.Cells for C++ med hjälp av API för pivotuppdatering i version v26.7+. Den här artikeln behandlar RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData och GetPivotTables med praktiska kodexempel.
+keywords: Aspose.Cells, C++, pivottabell, uppdatering, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
 url: /sv/cpp/refresh-pivot-table/
@@ -11,27 +11,54 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells tillhandahåller ett skiktat uppdaterings-API som låter dig läsa in pivotdata på fyra olika omfång — från hela arbetsboken ner till en enskild pivottabell. Från och med **Aspose.Cells for C++ v26.7** är den äldre metoden `PivotTable.RefreshData()` markerad som föråldrad och bör ersättas med de mer effektiva, cache-medvetna API:er som beskrivs i den här artikeln.
+Aspose.Cells tillhandahåller ett lagerindelat uppdaterings-API som låter dig läsa in pivotdata inom fyra olika omfattningar – från hela arbetsboken till en enda pivottabell. Från och med **Aspose.Cells for C++ v26.7** är den äldre metoden `PivotTable.RefreshData()` markerad som föråldrad och bör ersättas med de effektivare API:er som tar hänsyn till cachen och beskrivs i den här artikeln.
 {{% /alert %}}
 
-## Introduktion
-Att uppdatera en pivottabell är sällan en enstaka åtgärd. Bakom kulisserna underhåller Aspose.Cells en skiktad datakedja som kopplar samman dina ursprungliga källdata med de renderade värden du ser i kalkylbladet. Att förstå denna kedja är nyckeln till att välja rätt uppdaterings-API för varje situation.
-Den fyra-skikts datakedjan är:
-1. **Datakälla** — de ursprungliga kalkylbladsintervallen, databasfrågan eller konsolideringsintervallet där råvärdena finns.
-2. **PivotCache** — den minnesinterna ögonblicksbilden av källdatan. Varje pivottabell är byggd ovanpå en `PivotCache`; det är här all data samlas in och aggregeras.
-3. **PivotTable** — vyobjektet som definierar rad-, kolumn-, värde- och filterfält. En `PivotTable` läser *bara* från sin `PivotCache`, aldrig direkt från datakällan.
-4. **Cells** — kalkylbladets `Cells` som `PivotTable` renderar sina beräknade värden och stilar till.
+## Introduction
+Att uppdatera en pivottabell är sällan en enda åtgärd. Under huven underhåller Aspose.Cells en lagerindelad datakedja som kopplar den ursprungliga källdatan till de renderade värden som du ser i kalkylbladet. Att förstå den här kedjan är nyckeln till att välja rätt uppdaterings-API för varje situation.
+Den fyralediga datakedjan är:
+1. **Datakälla** – de ursprungliga kalkylbladsintervallen, databasfrågorna eller konsolideringsintervallet där råvärdena finns.
+2. **PivotCache** – ögonblicksbilden av källdatan i minnet. Varje pivottabell byggs ovanpå en `PivotCache`; här samlas och aggregeras all data.
+3. **PivotTable** – vyn som definierar rad-, kolumn-, värde- och filterfält. En `PivotTable` läser *endast* från sin `PivotCache`, aldrig direkt från datakällan.
+4. **Cells** – kalkylbladets `Cells`, dit `PivotTable` renderar de beräknade värdena och stilarna.
 
 {{% alert color="primary" %}}
-`PivotCache.SourceType` (enum `PivotTableSourceType`) anger var cachedatan kom ifrån. Från och med v26.7 stöder `PivotCache.Refresh()` endast källtyperna **`Sheet`** och **`Consolidation`** — det vill säga data som finns i kalkylbladsintervall. Externa källor (databaser, externa anslutningar osv.) kan ännu inte uppdateras via cache-API:et.
+`PivotCache.SourceType` (enum `PivotTableSourceType`) anger varifrån data i cachen kom. Från och med v26.7 stöder `PivotCache.Refresh()` endast källtyperna **`Sheet`** och **`Consolidation`** – alltså data som finns i kalkylbladsintervall. Externa källor (databaser, externa anslutningar etc.) kan ännu inte uppdateras via cache-API:et.
+På grund av den här kedjan finns två grundläggande uppdateringsvägar i Aspose.Cells:
+- **`PivotTable.CalculateData()`** – beräknar om visningen för en `PivotTable` utifrån redan cachad data, utan att göra en tur och retur till datakällan.
+Alla scenarier i den här artikeln använder källdata i kalkylbladsceller, så källtypen är `Sheet` och uppdateringsåtgärderna fungerar som beskrivs.
 {{% /alert %}}
 
-På grund av denna kedja finns det två grundläggande uppdateringsvägar i Aspose.Cells:
-- **`PivotTable.CalculateData()`** — beräknar om en `PivotTable`s visning från redan cachad data, utan returresa till datakällan.
-Alla scenarier i den här artikeln använder kalkylblads-celler som källdata, så källtypen är `Sheet` och uppdateringsåtgärderna fungerar enligt beskrivningen.
+## Quick Start
+Om du bara behöver den kortast möjliga koden för att uppdatera varje pivottabell i arbetsboken räcker ett enda anrop:
 
-## Snabbstart
-Om du bara behöver den kortaste möjliga koden som uppdaterar varje pivot i arbetsboken räcker ett enda anrop:
+```cpp
+#include "Aspose.Cells.h"
+using namespace Aspose::Cells;
+
+int main()
+{
+    Aspose::Cells::Startup();
+    Workbook workbook(u"input.xlsx");
+    workbook.RefreshAll();
+    workbook.Save(u"output.xlsx");
+    Aspose::Cells::Cleanup();
+    return 0;
+}
+```
+
+Allt annat i den här artikeln förklarar när du i stället bör välja ett mer begränsat API.
+
+## Required Include Directives
+Alla C++-exempel i den här artikeln börjar med följande include- och namespace-direktiv eftersom pivottyperna tillhör namespace `Aspose::Cells::Pivot`:
+- `#include <system/object.h>`
+- `#include "Aspose.Cells.h"`
+- `using namespace Aspose::Cells;`
+- `using namespace Aspose::Cells::Pivot;`
+
+## Refresh All Pivot Tables in the Workbook
+När du behöver säkerställa att varje pivotcache och varje pivottabell i arbetsboken återspeglar den senaste källdatan är det enklaste och mest omfattande API:et `Workbook.RefreshAll()`. Ett enda anrop går igenom hela arbetsboken, uppdaterar varje `PivotCache` från dess källa och beräknar sedan om varje beroende `PivotTable`. Detta är den rekommenderade metoden för generella uppdateringar av hela dokumentet när prestanda inte är en avgörande faktor.
+Följande exempel skapar en arbetsbok med ett källintervall för Fruit/Year/Amount, skapar en pivottabell, ändrar vissa källvärden och använder sedan `RefreshAll()` för att uppdatera allt med ett enda anrop.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -84,22 +111,13 @@ int main() {
 }
 ```
 
-Allt annat i den här artikeln förklarar när du bör välja ett smalare API istället.
-
-## Nödvändiga inkluderingsdirektiv
-Alla C++-exempel i den här artikeln börjar med följande headerinkluderingar och namnrymdsdirektiv eftersom pivottyperna ligger i namnrymden `Aspose::Cells::Pivot`:
-- `#include <system/object.h>`
-- `#include "Aspose.Cells.h"`
-- `using namespace Aspose::Cells;`
-- `using namespace Aspose::Cells::Pivot;`
-
-## Uppdatera alla pivottabeller i arbetsboken
-När du behöver säkerställa att varje pivotcache och varje pivottabell i arbetsboken återspeglar de senaste källdatan är det enklaste och mest heltäckande API:et `Workbook.RefreshAll()`. Ett enda anrop traverserar hela arbetsboken — uppdaterar varje `PivotCache` från sin källa och beräknar sedan om varje beroende `PivotTable`. Detta är det rekommenderade tillvägagångssättet för allmänna, heltäckande dokumentuppdateringar där prestanda inte är ett bekymmer.
-Följande exempel bygger en arbetsbok med ett källintervall för Fruit/Year/Amount, skapar en pivottabell, ändrar några källvärden och använder sedan `RefreshAll()` för att föra allt uppdaterat i ett enda anrop.
+## Refresh All Pivot Tables on a Single Worksheet
+Ibland behöver du bara uppdatera pivottabellerna som finns på ett visst kalkylblad – till exempel när det är känt att pivottabeller på andra kalkylblad inte hör ihop med dessa och inte ska påverkas. För detta tillfälle tillhandahåller Aspose.Cells `Worksheet.RefreshPivotTables()`, och metoden är begränsad till en enda `Worksheet`-instans.
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -146,21 +164,29 @@ int main() {
 }
 ```
 
-## Uppdatera alla pivottabeller på ett enskilt kalkylblad
-Ibland behöver du bara uppdatera de pivottabeller som finns på ett specifikt kalkylblad — till exempel när pivottabeller på andra kalkylblad är kända för att vara orelaterade och inte bör röras. För detta fall tillhandahåller Aspose.Cells `Worksheet.RefreshPivotTables()`, som är begränsat till en enda `Worksheet`-instans.
+## Refresh a Single Pivot Table
+När du vill ha detaljerad kontroll över en enda pivottabell ger det cachebaserade API:et dig två alternativ. Vilket alternativ som passar beror på vad som faktiskt har ändrats: den underliggande källdatan eller endast vy-/layoutinställningarna för pivottabellen.
+
+### Source Data Changed — Use `PivotCache.Refresh()`
+Om den underliggande källdatan har ändrats är rätt ingångspunkt `pivotTable.GetPivotCache().Refresh()`. Anropet läser om källdatan till cachen och beräknar sedan om varje `PivotTable` som beror på den cachen.
+
+### Only View/Layout Changed — Use `CalculateData()`
+Om källdatan *inte* har ändrats och endast pivottabellens vy- eller layoutinställningar har ändrats (till exempel om ett fält har flyttats till ett annat område eller en inställning för uppdatering vid öppning har aktiverats eller inaktiverats), finns inget behov av att gå tillbaka till datakällan. Cachen innehåller redan rätt data; endast den renderade `PivotTable` behöver beräknas om. I detta fall är `pivotTable.CalculateData()` rätt val.
+Följande exempel ändrar en egenskap som inte hör till källan i pivottabellen och anropar sedan `CalculateData()` för att rendra om pivottabellen från den befintliga cachen.
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // Skriv rubrikrad för Frukt / År / Belopp
+    // Write Fruit / Year / Amount header row
     worksheet.GetCells().Get(u"A1").PutValue(u"Fruit");
     worksheet.GetCells().Get(u"B1").PutValue(u"Year");
     worksheet.GetCells().Get(u"C1").PutValue(u"Amount");
-    // Skriv 8 datarader (raderna 2–9, som passar källintervallet A1:C9)
+    // Write 8 data rows (rows 2-9, fitting the source range A1:C9)
     worksheet.GetCells().Get(u"A2").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B2").PutValue(2020);
     worksheet.GetCells().Get(u"C2").PutValue(100);
@@ -185,37 +211,36 @@ int main() {
     worksheet.GetCells().Get(u"A9").PutValue(u"Cherry");
     worksheet.GetCells().Get(u"B9").PutValue(2021);
     worksheet.GetCells().Get(u"C9").PutValue(450);
-    // Lägg till en pivottabell med namnet "Pivot1" placerad i målcellen E3, med källa från A1:C9
+    // Add a pivot table named "Pivot1" placed at destination cell E3, sourcing from A1:C9
     int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
     PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
-    // Tilldela fält: Fruit till Rad, Year till Kolumn, Amount till Data
+    // Assign fields: Fruit to Row, Year to Column, Amount to Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // Ändra en egenskap för vy/layout — detta är en ändring som endast gäller presentation,
-    // så den kräver INTE att källdatan läses igen via PivotCache.Refresh().
+    // Modify a view/layout property — this is a presentation-only change,
+    // so it does NOT require re-reading the source data through PivotCache.Refresh().
     pivotTable.SetRefreshDataOnOpeningFile(false);
-    // CalculateData() renderar om DEN HÄ pivottabellens visning (data + stil) från
-    // datan som redan finns i PivotCache. Eftersom källdatan inte ändrades
-    // görs ingen tur-och-retur till källan — endast de cachelagrade värdena beräknas om
-    // till kalkylbladsceller.
+    // CalculateData() re-renders THIS pivot table's display (data + style) from the
+    // data already held in the PivotCache. Because the source data did not change,
+    // no round-trip to the source is performed — only the cached values are recalculated
+    // into worksheet cells.
     pivotTable.CalculateData();
-    // Spara arbetsboken till disk
+    // Save the workbook to disk
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-## Uppdatera en enskild pivottabell
-När du vill ha finkornig kontroll över en enskild pivottabell ger det cache-baserade API:et dig två alternativ. Valet mellan dem beror på vad som faktiskt har ändrats: underliggande källdata, eller bara vy-/layoutinställningarna för själva pivottabellen.
+En arbetsbok innehåller ofta många pivottabeller som alla är byggda på samma delade cache. Om du vill räkna upp dem – till exempel innan du utför en massuppdatering eller för att diagnostisera effekten av en delad cache – använd `PivotCache.GetPivotTables()`. Metoden returnerar listan med alla `PivotTable` som beror på den angivna cachen.
 
-### Källdata har ändrats — Använd `PivotCache.Refresh()`
-Om underliggande källdata har ändrats är rätt startpunkt `pivotTable.GetPivotCache().Refresh()`. Detta anrop läser om källdatan till cacheminnet och beräknar sedan om varje `PivotTable` som är beroende av det cacheminnet.
-
-### Endast vy/layout har ändrats — Använd `CalculateData()`
-Om källdatan *inte* har ändrats men bara pivottabellens vy- eller layoutinställningar har modifierats (till exempel att ett fält har flyttats till ett annat område, eller att en refresh-on-open-inställning har växlats), finns det inget behov av en returresa till datakällan. Cacheminnet innehåller redan rätt data; bara den renderade `PivotTable` behöver beräknas om. I detta fall är `pivotTable.CalculateData()` rätt val.
-Följande exempel modifierar en icke-käll-egenskap hos pivottabellen och anropar sedan `CalculateData()` för att rendera om den från befintligt cacheminne.
+## Migrating from the Obsolete `PivotTable.RefreshData()`
+Före Aspose.Cells for C++ v26.7 var standardmetoden att uppdatera en pivottabell att anropa `PivotTable.RefreshData()` på varje pivottabell separat. Från och med v26.7 är den metoden markerad som **föråldrad** och bör ersättas med de cachemedvetna API:er som beskrivs ovan.
+Det finns två skäl till att metoden `RefreshData()` för varje tabell är problematisk i verkliga arbetsböcker:
+- Den hämtar data från källan *varje* gång den anropas, även när källan inte har ändrats.
+Rekommenderade ersättningar är:
+Följande exempel visar det nya effektiva mönstret för arbetsböcker med flera pivottabeller som delar en enda cache.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -256,37 +281,21 @@ int main() {
 }
 ```
 
-En arbetsbok innehåller ofta många pivottabeller som alla vilar på ett delat cacheminne. För att räkna upp dem — till exempel innan du utför en batchuppdatering, eller för att diagnostisera påverkan av delade cacheminnen — använd `PivotCache.GetPivotTables()`. Denna metod returnerar samlingen av varje `PivotTable` som är beroende av det angivna cacheminnet.
-
-## Migrera från den föråldrade `PivotTable.RefreshData()`
-Före Aspose.Cells for C++ v26.7 var standardmetoden för att uppdatera en pivottabell att anropa `PivotTable.RefreshData()` på varje pivottabell individuellt. Från och med v26.7 är den metoden markerad som **föråldrad** och bör ersättas med de cache-medvetna API:er som beskrivs ovan.
-Det finns två skäl till att `RefreshData()`-metoden per tabell är problematisk i verkliga arbetsböcker:
-- Den hämtar data från källan *varje* gång den anropas, även när källan inte har ändrats.
-De rekommenderade ersättningarna är:
-Följande exempel visar det nya effektiva mönstret för arbetsböcker med flera pivottabeller som delar ett enda cacheminne.
-
-## Vilket uppdaterings-API ska jag använda?
-Tabellen nedan sammanfattar de tillgängliga uppdaterings-API:erna och när du ska välja var och en.
+## Which Refresh API Should I Use?
+Tabellen nedan sammanfattar tillgängliga uppdaterings-API:er och när du bör välja var och en.
 | Mål | Rekommenderat API | Anteckningar |
 |------|-----------------|-------|
-| Uppdatera allt i arbetsboken | `Workbook.RefreshAll()` | Ett anrop; täcker alla cacheminnen och tabeller. |
-| Uppdatera endast pivottabeller på ett enskilt kalkylblad | `Worksheet.RefreshPivotTables()` | Begränsat till ett kalkylblad. |
-| Källdata har ändrats för ett cacheminne | `pivotTable.GetPivotCache().Refresh()` | Uppdaterar ALLA pivottabeller som delar det cacheminnet. |
-| Endast vy-/layoutinställningar har ändrats | `pivotTable.CalculateData()` | Hoppar över onödig hämtning från källan. |
-| Lista alla pivottabeller som delar ett cacheminne | `pivotCache.GetPivotTables()` | Använd för att räkna upp före massuppdatering. |
-I praktiken bör du föredra de cache-baserade API:erna framför den föråldrade `RefreshData()` per tabell. De är medvetna om delade cacheminnen, undviker redundanta källhämtningar och låter dig välja det minsta omfånget som uppfyller ditt uppdateringskrav.
+| Uppdatera allt i arbetsboken | `Workbook.RefreshAll()` | Ett anrop; täcker alla cacher och tabeller. |
+| Uppdatera endast pivottabeller på ett enda kalkylblad | `Worksheet.RefreshPivotTables()` | Avgränsat till ett kalkylblad. |
+| Källdatan har ändrats för en cache | `pivotTable.GetPivotCache().Refresh()` | Uppdaterar ALLA pivottabeller på den delade cachen. |
+| Endast vy-/layoutinställningar har ändrats | `pivotTable.CalculateData()` | Hoppar över onödig återgång till källan. |
+| Lista alla pivottabeller på en delad cache | `pivotCache.GetPivotTables()` | Använd för att räkna upp dem före massuppdatering. |
+I praktiken bör du föredra cachebaserade API:er framför den föråldrade `RefreshData()` per tabell. De tar hänsyn till delade cacher, undviker redundanta hämtningar från källan och låter dig välja den minsta omfattning som uppfyller ditt uppdateringsbehov.
 
-## Vanliga fallgropar
-- **Glömmer att uppdatera innan spara.** En pivottabell skriver bara sina renderade värden till kalkylbladet när dess datakedja är uppdaterad. Om du modifierar källceller, anropa `PivotCache.Refresh()` (eller `Workbook.RefreshAll()`) före `Workbook.Save()`, annars innehåller den sparade filen fortfarande de gamla aggregerade värdena.
-- **Anropar den föråldrade `RefreshData()` per tabell.** I v26.7 är `PivotTable.RefreshData()` markerad som föråldrad och hämtar källan på nytt för varje anrop. Med flera pivottabeller som delar ett cacheminne innebär detta N redundanta källhämtningar. Ersätt med ett enda `PivotCache.Refresh()` följt av `CalculateData()` per tabell.
-- **Uppdaterar när bara layouten ändrades.** Om du bara ändrade en pivottabells vy (kolumnordning, `ConsolidationFunction` osv.) utan att röra källdatan är `PivotCache.Refresh()` onödigt och långsamt. Anropa `pivotTable.CalculateData()` för att rendera om från befintligt cacheminne.
-- **Extern källa stöds inte av `PivotCache.Refresh()`.** Om pivottabellens källa kommer från en extern anslutning (databas, OLAP-kub osv.) kan `PivotCache.Refresh()` inte uppdatera den i v26.7 — den stöder för närvarande endast källtyperna `Sheet` och `Consolidation`. För externa källor, öppna arbetsboken igen eller bygg om cacheminnet från källan.
-
-```csharp
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
-```
+## Common Pitfalls
+- **Att glömma att uppdatera före sparning.** En pivottabell skriver endast sina renderade värden till kalkylbladet när dess datakedja uppdateras. Om du ändrar källceller ska du anropa `PivotCache.Refresh()` (eller `Workbook.RefreshAll()`) före `Workbook.Save()`, annars innehåller den sparade filen fortfarande de gamla aggregerade värdena.
+- **Att anropa den föråldrade `RefreshData()` för varje tabell.** I v26.7 är `PivotTable.RefreshData()` markerad som föråldrad och hämtar källan igen vid varje anrop. Med flera pivottabeller som delar en cache innebär det N redundanta hämtningar från källan. Ersätt med ett enda anrop till `PivotCache.Refresh()` följt av `CalculateData()` för varje tabell.
+- **Att uppdatera när endast layouten har ändrats.** Om du bara har ändrat en pivottabells vy (kolumnordning, `ConsolidationFunction` osv.) utan att röra källdatan är det onödigt och långsamt att anropa `PivotCache.Refresh()`. Anropa `pivotTable.CalculateData()` för att rendra om från den befintliga cachen.
+- **Extern källa som inte stöds av `PivotCache.Refresh()`.** Om pivottabellens källa kommer från en extern anslutning (databas, OLAP-kub etc.) kan `PivotCache.Refresh()` inte uppdatera den i v26.7 – metoden stöder för närvarande endast källtyperna `Sheet` och `Consolidation`. För externa källor kan du öppna arbetsboken igen eller bygga om cachen utifrån källan.
 
 {{< app/cells/assistant language="cpp" >}}

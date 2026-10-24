@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge le rendu des données de tableau dans une seule cellule via les Smart Markers. En utilisant l'attribut `ArrayAsSingle` conjointement avec l'attribut `ExtraDelimiter`, les développeurs peuvent contrôler la manière dont les éléments du tableau sont séparés au sein d'une même cellule, offrant ainsi une mise en forme flexible pour les rapports et les modèles.
+{{% /alert %}}
 
 ## **Introduction**
 Les Smart Markers dans Aspose.Cells sont une fonctionnalité puissante basée sur des modèles qui vous permet de remplir dynamiquement les données de la feuille de calcul à l'aide d'expressions de marqueurs telles que `&=DataSource.Field`. Le marqueur est placé dans un classeur de conception, et lorsque le modèle est traité par le `WorkbookDesigner`, les marqueurs sont remplacés par les valeurs provenant de la source de données fournie.
@@ -59,6 +60,7 @@ Le marqueur est composé des parties suivantes :
 
 {{% alert color="primary" %}}
 L'attribut `extraDelimiter` accepte n'importe quelle chaîne littérale, y compris des délimiteurs à plusieurs caractères, du texte personnalisé ou des séquences d'échappement telles que `\n` pour une sortie séparée par des sauts de ligne. Si le tableau est vide, la cellule résultante est laissée vide.
+{{% /alert %}}
 
 ### **Workflow étape par étape**
 Le workflow suivant décrit comment rendre un tableau dans une seule cellule à l'aide des Smart Markers.
@@ -74,7 +76,6 @@ Le workflow suivant décrit comment rendre un tableau dans une seule cellule à 
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 class Product:
     def __init__(self, tags):
@@ -102,7 +103,6 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-from asposecells.api import Workbook
 # Définir la classe Student
 class Student:
     def __init__(self):
@@ -123,7 +123,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 # Définir la source de données comme un dictionnaire (équivalent à la classe Order)
 order = {"Items": ["Apple", "Banana", "Cherry", "Date"]}
@@ -153,8 +152,5 @@ Gardez les points suivants à l'esprit lorsque vous travaillez avec les attribut
 - La fonctionnalité fonctionne avec les sources de données d'objets ainsi qu'avec les sources `DataSet` et `DataTable` où une colonne peut être divisée en tableaux.
 - Pour une sortie séparée par des sauts de ligne, vous pouvez utiliser `\n` ou la constante de saut de ligne de la plateforme comme valeur de délimiteur.
 - Placez le Smart Marker dans une cellule dont la largeur est suffisante pour afficher la chaîne concaténée résultante ; sinon, le contenu peut visuellement déborder dans les cellules adjacentes selon le format.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

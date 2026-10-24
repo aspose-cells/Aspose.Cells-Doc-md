@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells admite la renderización de datos de matriz en una sola celda a través de Smart Markers. Mediante el uso del atributo `ArrayAsSingle` junto con el atributo `ExtraDelimiter`, los desarrolladores pueden controlar cómo se separan los elementos de la matriz dentro de una sola celda, proporcionando un formato flexible para informes y plantillas.
+{{% /alert %}}
 
 ## **Introducción**
 Los Smart Markers en Aspose.Cells son una potente función basada en plantillas que le permite poblar dinámicamente las hojas de cálculo con datos utilizando expresiones de marcadores como `&=DataSource.Field`. El marcador se coloca en un libro de diseño, y cuando la plantilla es procesada por el `WorkbookDesigner`, los marcadores se reemplazan con valores del origen de datos proporcionado.
@@ -59,6 +60,7 @@ El marcador se compone de las siguientes partes:
 
 {{% alert color="primary" %}}
 El atributo `extraDelimiter` acepta cualquier cadena literal, incluidos delimitadores de varios caracteres, texto personalizado o secuencias de escape como `\n` para salida separada por nuevas líneas. Si la matriz está vacía, la celda resultante se deja en blanco.
+{{% /alert %}}
 
 ### **Flujo de trabajo paso a paso**
 El siguiente flujo de trabajo describe cómo renderizar una matriz en una sola celda utilizando Smart Markers.
@@ -71,6 +73,7 @@ El siguiente flujo de trabajo describe cómo renderizar una matriz en una sola c
 ### **Ejemplo de código 1 — Renderización básica de matriz de cadenas**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Product {
     constructor() {
         this.Tags = null;
@@ -92,6 +95,7 @@ workbook.save("output_arraySingle.xlsx");
 ### **Ejemplo de código 2 — Matriz numérica con delimitador personalizado**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Student {
     constructor() {
         this.Scores = [];
@@ -141,8 +145,5 @@ Tenga en cuenta los siguientes puntos al trabajar con los atributos `ArrayAsSing
 - La función funciona con orígenes de datos de objetos, así como con orígenes `DataSet` y `DataTable` donde una columna se puede dividir en matrices.
 - Para salida separada por nuevas líneas, puede usar `\n` como valor del delimitador.
 - Coloque el Smart Marker en una celda que tenga ancho suficiente para mostrar la cadena concatenada resultante; de lo contrario, el contenido puede desbordarse visualmente hacia las celdas adyacentes según el formato.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

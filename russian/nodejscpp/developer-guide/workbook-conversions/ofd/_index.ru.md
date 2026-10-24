@@ -1,8 +1,8 @@
 ---
 title: Преобразование Excel в формат OFD
-description: Aspose.Cells — это библиотека для Node.js, предназначенная для работы с файлами электронных таблиц, которая поддерживает преобразование рабочих книг Excel в формат OFD (Open Fixed-layout Document). В этой статье показано, как создать содержимое Excel и экспортировать его в OFD, а также как преобразовать существующие файлы Excel в OFD с помощью Aspose.Cells.
 linktitle: Преобразование Excel в формат OFD
-keywords: Aspose.Cells, Node.js library, spreadsheet, Excel to OFD, OFD conversion, SaveFormat.Ofd, fixed-layout document, workbook export
+description: Aspose.Cells — это библиотека Node.js для работы с файлами электронных таблиц, которая поддерживает преобразование рабочих книг Excel в формат OFD (Open Fixed-layout Document). В этой статье показано, как создать содержимое Excel и экспортировать его в OFD, а также как преобразовать существующие файлы Excel в OFD с помощью Aspose.Cells.
+keywords: Aspose.Cells, библиотека Node.js, электронная таблица, преобразование Excel в OFD, преобразование в OFD, SaveFormat.Ofd, документ с фиксированной разметкой, экспорт рабочей книги
 type: docs
 weight: 195
 url: /ru/nodejs-cpp/converting-excel-to-ofd-format/
@@ -11,42 +11,45 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells поддерживает прямое преобразование рабочих книг Excel в формат OFD (Open Fixed-layout Document) с использованием значения перечисления `SaveFormat.Ofd`. Полученный документ OFD сохраняет видимое расположение рабочей книги, содержимое, объединённые ячейки, ширину столбцов, высоту строк, шрифты, цвета, границы и числовые форматы. Это делает Aspose.Cells подходящим решением для задач архивирования, печати, подачи в регуляторные органы и предоставления в государственные учреждения, где требуется вывод с фиксированным макетом.
+Aspose.Cells поддерживает прямое преобразование рабочих книг Excel в формат OFD (Open Fixed-layout Document) с помощью значения перечисления `SaveFormat.Ofd`. В результирующем документе OFD сохраняются видимая разметка, содержимое, объединенные ячейки, ширина столбцов, высота строк, шрифты, цвета, границы и числовые форматы рабочей книги. Благодаря этому Aspose.Cells подходит для процессов архивирования, печати, подготовки отчетности для регулирующих органов и подачи документов в государственные органы, требующих результата с фиксированной разметкой.
+{{% /alert %}}
 
 ## **Введение**
-OFD (Open Fixed-layout Document) — это китайский национальный стандарт (GB/T 33190-2016) для представления цифровых документов в фиксированном постраничном макете. Он выполняет роль, аналогичную PDF, в тех сценариях использования, где визуальное оформление исходного документа должно быть сохранено в точности так, как было создано. OFD широко применяется для подачи документов в государственные органы, регуляторные отчёты, электронные счета-фактуры и долгосрочное архивирование в Китайской Народной Республике.
-Преобразование рабочих книг Excel в OFD — распространённое требование в сценариях, где содержимое электронной таблицы необходимо распространять в виде артефакта только для чтения с заблокированным макетом, а не в виде редактируемой электронной таблицы. Примеры включают отправку окончательного счёта клиенту, архивирование квартального финансового отчёта или передачу бюджетной таблицы в регуляторный орган. Aspose.Cells решает эту задачу с помощью значения перечисления `SaveFormat.Ofd`, которое записывает рабочую книгу непосредственно в OFD без промежуточного этапа преобразования. Выходной документ OFD сохраняет значения ячеек, объединённые диапазоны, шрифты, цвета, границы, числовые форматы и параметры настройки страницы, заданные в рабочей книге.
+OFD (Open Fixed-layout Document) — китайский национальный стандарт (GB/T 33190-2016), предназначенный для представления цифровых документов в фиксированной постраничной разметке. Он выполняет роль, аналогичную PDF, в случаях, когда визуальное оформление исходного документа должно быть сохранено точно таким, каким оно было создано. OFD широко используется при подаче документов в государственные органы, представлении отчетности в регулирующие органы, оформлении электронных счетов и долгосрочном архивировании в Китайской Народной Республике.
+Преобразование рабочих книг Excel в OFD часто требуется в сценариях, в которых содержимое электронной таблицы необходимо распространять не как редактируемую таблицу, а как доступный только для чтения артефакт с заблокированной разметкой. Примеры включают отправку окончательного счета клиенту, архивирование квартального финансового отчета или представление бюджетной таблицы регулирующему органу. Aspose.Cells обеспечивает это требование с помощью значения перечисления `SaveFormat.Ofd`, которое записывает рабочую книгу непосредственно в OFD без промежуточного этапа преобразования. В выходном документе OFD сохраняются значения ячеек, объединенные диапазоны, шрифты, цвета, границы, числовые форматы и параметры настройки страницы, заданные для рабочей книги.
 
 {{% alert color="primary" %}}
-Выходной документ OFD, созданный Aspose.Cells, сохраняет видимый макет исходной рабочей книги, включая содержимое ячеек, объединённые ячейки, ширину столбцов и высоту строк. Форматирование ячеек, такое как шрифты, цвета, границы, выравнивание и числовые форматы, также отображается в выводе с фиксированным макетом. Параметры настройки страницы, заданные на рабочем листе, такие как размер бумаги, ориентация и область печати, влияют на макет результирующего документа OFD.
+В создаваемом Aspose.Cells выходном документе OFD сохраняется видимая разметка исходной рабочей книги, включая содержимое ячеек, объединенные ячейки, ширину столбцов и высоту строк. Форматирование ячеек, включая шрифты, цвета, границы, выравнивание и числовые форматы, также воспроизводится в выходных данных с фиксированной разметкой. Параметры настройки страницы, заданные для рабочего листа, например размер бумаги, ориентация и область печати, влияют на разметку результирующего документа OFD.
+{{% /alert %}}
 
-## **Создание рабочей книги Excel и сохранение в формат OFD**
-Aspose.Cells позволяет программно создать рабочую книгу, заполнить её данными, а затем сохранить непосредственно в формат OFD с использованием перечисления `SaveFormat.Ofd`. В следующем примере счёт создаётся с нуля. Добавляются логотип компании, информация в шапке, раздел плательщика, позиции и вычисляемые итоги, после чего рабочая книга экспортируется в документ OFD.
+## **Создание книги Excel и сохранение в формате OFD**
+Aspose.Cells позволяет программно создать рабочую книгу, заполнить ее данными, а затем сохранить непосредственно в формате OFD с помощью перечисления `SaveFormat.Ofd`. В следующем примере счет создается с нуля. В него добавляются логотип компании, информация заголовка, раздел получателя платежа, позиции счета и рассчитанные итоги, после чего рабочая книга экспортируется в документ OFD.
 
-### **Создание счёта с логотипом**
-В примере формируется рабочий лист счёта путём вставки изображения логотипа в верхнюю левую область, заполнения названия компании и контактных данных, добавления заголовка «INVOICE» через объединённые ячейки, указания номера и даты счёта, перечисления данных клиента-плательщика, построения таблицы позиций с колонками описания, количества, цены за единицу и итога, а также вычисления промежуточной суммы, налога и общей суммы с использованием формул ячеек. Форматирование, такое как жирные заголовки, денежный формат для цен, границы и ширина столбцов, применяется с помощью объектов `Style` и `Font`. Наконец, рабочая книга сохраняется с расширением `.ofd` с использованием `SaveFormat.Ofd`.
+### **Создание счета с логотипом**
+В примере создается рабочий лист счета, на котором в левую верхнюю область вставляется изображение логотипа, заполняются название компании и контактные данные, в объединенные ячейки добавляется заголовок "INVOICE", указываются номер и дата счета, вводится клиент, которому выставляется счет, создается таблица позиций со столбцами описания, количества, цены за единицу и итога, а с помощью формул ячеек рассчитываются промежуточная сумма, налог и общий итог. Форматирование, например полужирное начертание заголовков, валютный формат цен, границы и ширина столбцов, применяется с помощью объектов `Style` и `Font`. Наконец рабочая книга сохраняется с расширением `.ofd` с помощью `SaveFormat.Ofd`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let dataDir = "C:\\Temp\\";
-// Создание новой рабочей книги
+// Создать новую книгу
 let workbook = new AsposeCells.Workbook();
-// Получение первого листа
+// Получить первый лист
 let worksheet = workbook.getWorksheets().get(0);
-// Установка ширины столбцов
+// Установить ширину столбцов
 worksheet.getCells().setColumnWidth(0, 5);
 worksheet.getCells().setColumnWidth(1, 35);
 worksheet.getCells().setColumnWidth(2, 12);
 worksheet.getCells().setColumnWidth(3, 15);
 worksheet.getCells().setColumnWidth(4, 15);
 worksheet.getCells().setColumnWidth(5, 5);
-// Вставка логотипа компании
+// Вставить логотип компании
 worksheet.getPictures().add(1, 1, dataDir + "logo.png");
 // Название компании и контактные данные
 worksheet.getCells().get("B3").putValue("Acme Corporation");
 worksheet.getCells().get("B4").putValue("123 Business Street");
 worksheet.getCells().get("B5").putValue("City, State 12345");
 worksheet.getCells().get("B6").putValue("Phone: (555) 123-4567");
-// Заголовок СЧЁТА - объединение ячеек
+// Заголовок «СЧЕТ» — объединить ячейки
 worksheet.getCells().merge(7, 1, 2, 4);
 let titleCell = worksheet.getCells().get("B8");
 titleCell.putValue("INVOICE");
@@ -55,19 +58,19 @@ titleStyle.getFont().setIsBold(true);
 titleStyle.getFont().setSize(20);
 titleStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.Center);
 titleCell.setStyle(titleStyle);
-// Номер счёта и дата
+// Номер счета и дата
 worksheet.getCells().get("B11").putValue("Invoice Number:");
 worksheet.getCells().get("C11").putValue("INV-2024-001");
 worksheet.getCells().get("B12").putValue("Date:");
 let now = new Date();
 let dateStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 worksheet.getCells().get("C12").putValue(dateStr);
-// Раздел "Плательщик"
+// Раздел «Кому выставить счет»
 worksheet.getCells().get("B14").putValue("Bill To:");
 worksheet.getCells().get("B15").putValue("Client Name");
 worksheet.getCells().get("B16").putValue("Client Address");
 worksheet.getCells().get("B17").putValue("Client City, State");
-// Заголовок строк позиций
+// Заголовок таблицы позиций
 let headerDesc = worksheet.getCells().get("B19");
 let headerQty = worksheet.getCells().get("C19");
 let headerPrice = worksheet.getCells().get("D19");
@@ -96,7 +99,7 @@ currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.TopBorder).set
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.BottomBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.LeftBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.RightBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
-// Стиль простых границ для ячеек описания/количества
+// Простой стиль с границами для ячеек описания и количества
 let borderStyle = workbook.createStyle();
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.TopBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.BottomBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
@@ -123,7 +126,7 @@ for (let i = 0; i < lineItems.length; i++) {
     priceCell.setStyle(currencyStyle);
     totalCell.setStyle(currencyStyle);
 }
-// Промежуточный итог, налог, общий итог
+// Подытог, налог и итоговая сумма
 worksheet.getCells().get("B24").putValue("Subtotal:");
 let subtotalCell = worksheet.getCells().get("E24");
 subtotalCell.setFormula("SUM(E20:E22)");
@@ -133,48 +136,49 @@ taxCell.setFormula("E24*0.1");
 worksheet.getCells().get("B26").putValue("Grand Total:");
 let grandTotalCell = worksheet.getCells().get("E26");
 grandTotalCell.setFormula("E24+E25");
-// Жирный стиль + стиль валюты для итоговых значений
+// Полужирный стиль и стиль валюты для итоговых значений
 let totalStyle = workbook.createStyle();
 totalStyle.getFont().setIsBold(true);
 totalStyle.setCustom("\"$\"#,##0.00");
 subtotalCell.setStyle(totalStyle);
 taxCell.setStyle(totalStyle);
 grandTotalCell.setStyle(totalStyle);
-// Жирный стиль для меток итогов
+// Полужирный стиль для меток итогов
 let boldStyle = workbook.createStyle();
 boldStyle.getFont().setIsBold(true);
 worksheet.getCells().get("B24").setStyle(boldStyle);
 worksheet.getCells().get("B25").setStyle(boldStyle);
 worksheet.getCells().get("B26").setStyle(boldStyle);
-// Сохранение рабочей книги как файла OFD
+// Сохранить книгу как файл OFD
 workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.Ofd);
 ```
 
 ## **Преобразование существующего файла Excel в OFD**
-Aspose.Cells также может загружать существующую рабочую книгу Excel с диска и экспортировать её непосредственно в формат OFD. Это полезно для конвейеров пакетного преобразования, рабочих процессов архивирования и сценариев, в которых исходная рабочая книга была создана другим инструментом и требуется только повторно сохранить её как артефакт с фиксированным макетом. В следующем примере загружается существующая рабочая книга `.xlsx`, считываются данные из её ячеек, применяются дополнительные настройки страницы и результат сохраняется как документ OFD.
+Aspose.Cells также может загрузить существующую рабочую книгу Excel с диска и экспортировать ее непосредственно в формат OFD. Это полезно в конвейерах пакетного преобразования, рабочих процессах архивирования, а также в сценариях, где исходная рабочая книга была создана другим инструментом и ее необходимо только повторно сформировать как артефакт с фиксированной разметкой. В следующем примере загружается существующая рабочая книга `.xlsx`, данные считываются из ее ячеек, применяются необязательные изменения параметров настройки страницы, а результат сохраняется как документ OFD.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook(dataDir + "SampleBook.xlsx");
-// (1) Чтение и отображение значений из выбранных ячеек для подтверждения загрузки файла
+// (1) Считать и отобразить значения выбранных ячеек, чтобы подтвердить загрузку файла
 let firstSheet = workbook.getWorksheets().get(0);
 console.log("First sheet name: " + firstSheet.getName());
 console.log("Cell A1: " + firstSheet.getCells().get("A1").getStringValue());
 console.log("Cell B1: " + firstSheet.getCells().get("B1").getStringValue());
 console.log("Cell C1: " + firstSheet.getCells().get("C1").getStringValue());
-// (2) Перебор коллекции Worksheets для перечисления доступных листов
+// (2) Перебрать коллекцию Worksheets, чтобы получить список доступных листов
 console.log("\nAvailable worksheets:");
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++)
 {
     let ws = workbook.getWorksheets().get(i);
     console.log("  [" + i + "] " + ws.getName());
 }
-// (3) При необходимости обновить ячейку с меткой времени, чтобы отразить преобразование
+// (3) При необходимости обновить ячейку с временной меткой для отражения времени преобразования
 firstSheet.getCells().get("A1").putValue("Converted on: " + formatDate(new Date()));
-// Append a summary header row at the top of the data block
+// Добавить строку заголовка с сводкой в начало блока данных
 firstSheet.getCells().insertRow(0);
 firstSheet.getCells().get("A1").putValue("Conversion Summary");
 firstSheet.getCells().get("A2").putValue("Generated: " + formatDate(new Date()));
-// (4) Настройка свойств PageSetup на листе
+// (4) Настроить свойства PageSetup на листе
 let pageSetup = firstSheet.getPageSetup();
 pageSetup.setOrientation(AsposeCells.PageOrientationType.Landscape);
 pageSetup.setPaperSize(AsposeCells.PaperSizeType.PaperA4);
@@ -187,7 +191,7 @@ let lastColLetter = AsposeCells.CellsHelper.columnIndexToName(lastCol);
 let printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 console.log("\nPrint area set to: " + printArea);
-// (6) Сохранить книгу как файл OFD
+// (6) Сохранить книгу в файл OFD
 workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.Ofd);
 console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 ```
@@ -196,9 +200,5 @@ console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleB
 - [Разделение файлов Excel на несколько файлов](/cells/ru/nodejs-cpp/splitting-excel-files-into-multiple-files/)
 - [Вставка изображения в ячейку](/cells/ru/nodejs-cpp/inserting-an-image-into-a-cell/)
 - [Чтение и запись файлов DBF](/cells/ru/nodejs-cpp/dbf/)
-- [Преобразование спарклайна в изображение и HTML в Aspose.Cells for Node.js via C++](/cells/ru/nodejs-cpp/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

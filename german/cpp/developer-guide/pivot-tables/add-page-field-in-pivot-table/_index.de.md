@@ -70,6 +70,7 @@ Wenn Sie bereits mit einer `PivotField`-Instanz arbeiten, können Sie diese dire
 #include "Aspose.Cells.h"
 #include <string>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -91,7 +92,7 @@ int main() {
     cells.Get(u"A10").PutValue(u"blueberry");cells.Get(u"B10").PutValue(u"2022");cells.Get(u"C10").PutValue(450);
     // Pivot-Tabelle bei E3 hinzufügen, die A1:C10 abdeckt
     PivotTableCollection pivotTables = sheet.GetPivotTables();
-    int pivotIndex = pivotTables.Add(U16String(u"E3"), U16String(u"A1:C10"), U16String(u"PivotTable1"));
+    int pivotIndex = pivotTables.Add(U16String(u"A1:C10"), U16String(u"E3"), U16String(u"PivotTable1"));
     PivotTable pivotTable = pivotTables.Get(pivotIndex);
     // Frucht -> Zeile, Betrag -> Daten
     pivotTable.AddFieldToArea(PivotFieldType::Row, U16String(u"Fruit"));
@@ -124,6 +125,7 @@ Das Setzen von `CurrentPageItem` auf den magischen Wert `0x7FFD` entspricht dem 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -160,6 +162,7 @@ Das Setzen von `CurrentPageItem` auf einen echten Index wählt genau dieses eine
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -202,6 +205,7 @@ Die Mehrfachauswahl-Filterung verwandelt das Filter-Dropdown in eine Kontrollkä
 #include <string>
 #include <vector>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -229,7 +233,7 @@ int main() {
     }
     Worksheet pivotSheet = workbook.GetWorksheets().Add(u"Pivot");
     PivotTableCollection pivots = pivotSheet.GetPivotTables();
-    int pivotIndex = pivots.Add(u"E3", u"A1:C10", u"PivotTable1");
+    int pivotIndex = pivots.Add(u"A1:C10", u"E3", u"PivotTable1");
     PivotTable pivotTable = pivots.Get(pivotIndex);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");

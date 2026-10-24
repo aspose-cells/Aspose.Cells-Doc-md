@@ -31,7 +31,7 @@ Bir çizgi sparkline'ı, bir serideki veri noktalarından sürekli bir çizgi ç
 Aşağıdaki örnek bir çalışma kitabı oluşturur, 5, -3, 8, -2, 6 değerlerini A1'den E1'e kadar olan hücrelere yazar ve bu değerlerin eğilimini gösteren bir çizgi sparkline'ını F1 hücresine ekler. Ayrıca çizgi rengini kırmızıya ayarlar ve yüksek ve düşük nokta işaretleyicilerini etkinleştirir.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Adım 1: Bir Workbook oluştur ve ilk çalışma sayfasını al
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -44,10 +44,10 @@ cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
 // Adım 3: Hedef hücre F1'i gösteren bir CellArea oluştur
 const dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F sütunu (0-indeksli)
-dest.setEndColumn(5);
-dest.setStartRow(0);      // satır 1 (0-indeksli)
-dest.setEndRow(0);
+dest.StartColumn = 5;   // F sütunu (0-indeksli)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // satır 1 (0-indeksli)
+dest.EndRow = 0;
 // Adım 4: A1:E1'den F1'e bir Çizgi sparkline ekle
 // SparklineGroups.Add, yeni eklenen grubun indeksini döndürür
 const index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, dest);
@@ -74,6 +74,7 @@ Bir sütun sparkline'ı, her veri noktasını dikey bir çubuk olarak gösterir.
 Aşağıdaki örnek, 5, -3, 8, -2, 6 değerlerini A1:E1 hücrelerine yazar ve F1 hücresine bir sütun sparkline'ı ekler. Negatif değerler aşağı yönlü, pozitif değerler ise yukarı yönlü çubuklar olarak çizilir. Bu, pozitif ve negatif katkıların bir bakışta kolayca fark edilmesini sağlar.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Adım 2: A1:E1 aralığına örnek değerler yazın
@@ -83,10 +84,10 @@ for (let i = 0; i < values.length; i++) {
 }
 // Adım 3: F1 hücresini (sütun indeksi 5, satır indeksi 0) işaret eden bir CellArea oluşturun
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Adım 4: Hedef hücreye bir Sütun sparkline ekleyin
 let idx = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Column, "A1:E1", false, dest);
@@ -109,6 +110,7 @@ Aspose.Cells'de bir kazanma/kaybetme sparkline'ı, `SparklineType.Stacked` değe
 6. Çalışma kitabını, üç örneğin diskte birlikte bulunabilmesi için farklı bir dosya adıyla kaydedin.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -120,10 +122,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Adım 3: F1 hücresini (sütun 5, satır 0) işaret eden bir CellArea oluşturun
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F
-dest.setEndColumn(5);
-dest.setStartRow(0);      // satır 1
-dest.setEndRow(0);
+dest.StartColumn = 5;   // F
+dest.EndColumn = 5;
+dest.StartRow = 0;      // satır 1
+dest.EndRow = 0;
 // Adım 4: Bir Kazanma/Kaybetme mini grafik ekleyin (SparklineType.Stacked)
 let groupIndex = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Stacked,
@@ -161,6 +163,7 @@ console.log("Çalışma kitabı başarıyla kaydedildi: output_winloss.xlsx");
 Aşağıdaki birleşik örnek, tek bir çalışma kitabı oluşturur, 1. satırı 5, -3, 8, -2, 6 değerleriyle doldurur ve ardından F1, F2 ve F3 hücrelerine — her biri farklı türde olan — üç sparkline grubu ekler; böylece elde edilen dosya üç sparkline stilini bir arada gösterir.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Adım 2: Satır 1'e (A1:E1) örnek verileri doldurun
@@ -171,10 +174,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Adım 3: F1'e bir Çizgi sparkline grubu ekleyin
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
 // CellsColor aracılığıyla çizgi sparkline rengini özelleştirin
@@ -183,10 +186,10 @@ lineColor.setColor(AsposeCells.Color.Blue);
 lineGroup.setSeriesColor(lineColor);
 // Adım 4: F2'ye bir Sütun sparkline grubu ekleyin
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(5);
-columnArea.setEndColumn(5);
-columnArea.setStartRow(1);
-columnArea.setEndRow(1);
+columnArea.StartColumn = 5;
+columnArea.EndColumn = 5;
+columnArea.StartRow = 1;
+columnArea.EndRow = 1;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
 // Sütun sparkline serisinin rengini özelleştirin
@@ -195,10 +198,10 @@ columnColor.setColor(AsposeCells.Color.Green);
 columnGroup.setSeriesColor(columnColor);
 // Adım 5: F3'e bir Kazanma/Kayıp (Yığılmış) sparkline grubu ekleyin
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(5);
-stackedArea.setEndColumn(5);
-stackedArea.setStartRow(2);
-stackedArea.setEndRow(2);
+stackedArea.StartColumn = 5;
+stackedArea.EndColumn = 5;
+stackedArea.StartRow = 2;
+stackedArea.EndRow = 2;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
 // Kazanma/kayıp sparkline serisinin rengini özelleştirin
@@ -218,4 +221,4 @@ Bir `SparklineGroup` nesnesi oluşturulup `worksheet.sparklineGroups` koleksiyon
 - **İlk/Son/Negatif nokta işaretleyicileri** — ilk, son ve negatif veri noktalarındaki işaretleyicileri açıp kapatan bayraklar.
 Bir rengi değiştirmek için her zaman bir `CellsColor` örneği oluşturup ilgili özelliğe atayın. Sparkline renk özelliklerine doğrudan bir `System.Drawing.Color` atamayın; bu özellikler `Aspose.Cells.Drawing` namespace'indeki `CellsColor` türünü bekler. `sparklineGroups.add` metodu tam tür bilgisine sahip bir `SparklineGroup` nesnesi döndürür. Bu nedenle dönüş değeri üzerinde özellik atamalarını zincirleyebilir veya nesneyi yerel bir değişkende saklayıp kaydetmeden önce özelleştirebilirsiniz.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

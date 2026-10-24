@@ -44,6 +44,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -106,6 +107,7 @@ int main() {
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb;
@@ -209,6 +211,15 @@ int main() {
 
 ## **Recap**
 
+以下の3つのシナリオは、`SetSubtotals` の呼び出しの違いのみに違いがあります。それ以外 — データセット、フィールド、およびそれらが割り当てられる領域 — はすべて同一であり、これによりレイアウトが直接比較可能になっています。
+- **フィールドの配置。** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` は、ソース列を領域内に移動させます。1つの領域内では、これらの呼び出しの順序が表示順序になります。したがって、最初の呼び出しが最外側のグループになります。サブ合计を実行するには、同じ領域内に2つ以上のフィールドが必要です。フィールドが1つだけの場合、グループ間にはサブ合计を算出する対象となるデータが存在しません。
+- **シナリオ1 — 自動サブ合计。** `SetSubtotals` を呼び出さない場合、サブ合计の設定は Excel 側で行われ、数値フィールドに対して Excel のデフォルトのサブ合计が適用されます。一方、`PivotFieldSubtotalType::Automatic` を指定して `SetSubtotals` を呼び出すと、この設定が明示的に記録され、暗黙的な状態から明示的な状態へと変わります。
+- **シナリオ2 — サブ合计なし。** `PivotFieldSubtotalType::None` を指定して `SetSubtotals` を呼び出すと、デフォルトのサブ合计が無効になります。この場合、ピボットテーブルはフィールドの行と合計行を保持しますが、Excel が通常挿入する中間のサブ合计行は除外されます。
+- **シナリオ3 — 選択されたサブ合计のセット。** 各呼び出しは、恰好1つのサブ合计タイプを切り替えます。各呼び出しは互いに上書きするのではなく、累積されます。したがって、`PivotFieldSubtotalType::Sum` で1回、`PivotFieldSubtotalType::Average` で1回呼び出すと、両方が有効なままとなり、ピボットテーブルは Sum のサブ合计、Average のサブ合计、および合計行をすべて描画します。
+
+{{% alert color="primary" %}}
+サブ合计に関する設定は、行領域に固有のものではありません。`PivotTable.ColumnFields` から取得したフィールドに対しても同様の `SetSubtotals` 呼び出しを行うと、列軸上でも同様の3つのレイアウトが得られます。なぜなら、この設定は軸ではなくピボットフィールド自体に属しているからです。
+{{% /alert %}}
 ## **Related Articles**
 - [ピボットテーブルのページフィールド](/cells/ja/cpp/add-page-field-in-pivot-table/)
 - [Aspose.Cells for C++ でピボットテーブルを更新する](/cells/ja/cpp/refresh-pivot-table/)

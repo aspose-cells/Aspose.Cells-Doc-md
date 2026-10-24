@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge le fractionnement d'un seul fichier Excel en plusieurs fichiers. Il existe deux méthodes principales pour y parvenir : (1) en copiant chaque feuille de calcul du classeur source dans un nouveau classeur et en enregistrant chacun en tant que fichier séparé, et (2) en copiant une plage de cellules spécifique d'une feuille de calcul dans un nouveau classeur. Les deux approches sont utiles lorsque vous devez distribuer des sous-ensembles de données, créer des rapports plus petits pour différents destinataires, ou isoler des données pour un traitement individuel.
+{{% /alert %}}
 
 ## **Introduction**
 Il existe de nombreux scénarios concrets dans lesquels un développeur doit diviser un seul fichier Excel en plusieurs fichiers plus petits. Par exemple, un classeur peut contenir une feuille de calcul par service, et chaque responsable de service doit recevoir uniquement sa propre feuille. Dans d'autres cas, vous pouvez souhaiter extraire un tableau particulier ou un bloc de données d'une feuille de calcul et l'envoyer en tant que fichier autonome par e-mail, sans exposer le reste du classeur. Les grands classeurs consolidés peuvent également devoir être divisés en éléments plus petits pour faciliter la manipulation, accélérer le chargement, ou pour le traitement en aval par d'autres systèmes.
@@ -41,19 +42,19 @@ import aspose.cells as ac
 import os
 data_dir = "data/"
 workbook = ac.Workbook(data_dir + "book1.xls")
-for i in range(workbook.worksheets.count):
+for i in range(len(workbook.worksheets)):
     source_sheet = workbook.worksheets[i]
     sheet_name = source_sheet.name
-    
+
     dest_workbook = ac.Workbook()
     dest_index = dest_workbook.worksheets.add()
     dest_sheet = dest_workbook.worksheets[dest_index]
     dest_sheet.name = sheet_name
-    
+
     dest_sheet.copy(source_sheet)
-    
+
     dest_file = data_dir + sheet_name + ".xls"
-    dest_workbook.save(dest_file, ac.SaveFormat.EXCEL97_TO_2003)
+    dest_workbook.save(dest_file, ac.SaveFormat.EXCEL_97_TO_2003)
 ```
 
 Le résultat attendu est un ensemble de nouveaux fichiers dans le répertoire de données, un fichier par feuille de calcul du classeur source. Chaque fichier est nommé d'après sa feuille source correspondante, et le fichier contient les données (et éventuellement la mise en forme) de cette seule feuille.
@@ -76,6 +77,5 @@ Les étapes suivantes décrivent comment fractionner un fichier Excel en copiant
 
 ### **Exemple de code**
 Le résultat attendu est un seul nouveau fichier dans le répertoire de données qui contient uniquement les valeurs (et éventuellement la mise en forme) de la plage spécifiée extraite du classeur source. Le fichier de destination n'a aucune relation avec d'autres données du fichier source ; il contient uniquement la plage extraite, en commençant à la cellule `A1` de sa première feuille de calcul.
-{{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

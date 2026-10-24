@@ -31,6 +31,7 @@ Följande exempel läser in en arbetsbok som innehåller en befintlig pivottabel
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
 # Ladda den befintliga arbetsboken som innehåller en pivottabell
@@ -42,7 +43,7 @@ pivot_table = worksheet.pivot_tables[0]
 # Hämta det första radens PivotField
 row_field = pivot_table.row_fields[0]
 # Använd etikettfiltret — visa endast radobjekt vars etiketter börjar med det angivna prefixet
-row_field.filter_by_label(ac.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
+row_field.filter_by_label(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Uppdatera och beräkna om pivottabellens data så att filtret träder i kraft
 pivot_table.pivot_cache.refresh()
 # Spara arbetsboken tillbaka till disken
@@ -53,14 +54,16 @@ workbook.save(fileName)
 Datumfilter låter dig begränsa en pivottabell efter datumbaserade kriterier som idag, förra veckan, denna månad, nästa kvartal eller ett specifikt datumintervall. De är specialiserade filter som endast fungerar mot fält som lagrar datum-tid-information.
 
 {{% alert color="primary" %}}
-Datumfiltret fungerar endast när rad- eller kolumnområdet endast innehåller datum-tid-celler eller tomma värden. Om det underliggande fältet innehåller andra datatyper som tal eller text kommer datumfiltret inte att ge det förväntade resultatet. Se till att fältet är formaterat som ett datum och att alla värden är giltiga `DateTime`-instanser eller tomma celler innan du tillämpar detta filter.
+Datumfiltret fungerar endast när rad- eller kolumnområdet endast innehåller datum-tid-celler eller tomma värden. Om det underliggande fältet innehåller andra datatyper som tal eller text kommer datumfiltret inte att ge det förväntade resultatet. Se till att fältet är formaterat som ett datum och att alla värden är giltiga `datetime`-instanser eller tomma celler innan du tillämpar detta filter.
+Aspose.Cells exponerar datumfiltrering genom metoden `PivotField.filter_by_date(PivotFilterType, *date_times)`. Uppräkningen `PivotFilterType` innehåller dedikerade datumvärden som `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` och `Between`. Beroende på vald filtertyp skickar du ett eller två `datetime`-värden (för `Between` skickar du start- och slutdatum).
+Följande exempel läser in en arbetsbok med en pivottabell vars radområde innehåller ett datumfält, tillämpar ett datumfilter som begränsar de synliga posterna till ett visst datumintervall, uppdaterar pivottabellen och sparar arbetsboken.
 {{% /alert %}}
 
-Aspose.Cells exponerar datumfiltrering genom metoden `PivotField.filter_by_date(PivotFilterType, *date_times)`. Uppräkningen `PivotFilterType` innehåller dedikerade datumvärden som `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` och `Between`. Beroende på vald filtertyp skickar du ett eller två `DateTime`-värden (för `Between` skickar du start- och slutdatum).
-Följande exempel läser in en arbetsbok med en pivottabell vars radområde innehåller ett datumfält, tillämpar ett datumfilter som begränsar de synliga posterna till ett visst datumintervall, uppdaterar pivottabellen och sparar arbetsboken.
-
 ```python
+import os
+import aspose.cells as ac
 from datetime import datetime
+from aspose.cells.pivot import PivotFilterType
 input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
@@ -78,7 +81,7 @@ date_field = pivot_table.row_fields[0]
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
 # Tillämpa datumfiltret på pivotfältet
-date_field.filter_by_date(ac.PivotFilterType.DATE_BETWEEN, start_date, end_date)
+date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
 # Uppdatera och beräkna om pivottabellen så att filtret träder i kraft
 pivot_table.pivot_cache.refresh()
 # Spara arbetsboken
@@ -92,6 +95,7 @@ Följande exempel läser in en arbetsbok med en pivottabell, tillämpar ett vär
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 workbook = ac.Workbook("sample.xlsx")
 worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
@@ -99,12 +103,12 @@ row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
 # Hitta datafältindex manuellt eftersom PivotFieldCollection inte har IndexOf
 data_field_index = -1
-for i in range(pivot_table.data_fields.count):
+for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
         data_field_index = i
         break
 if data_field_index >= 0:
-    row_field.filter_by_value(data_field_index, ac.PivotFilterType.VALUE_GREATER_THAN, 5000, float('inf'))
+    row_field.filter_by_value(data_field_index, PivotFilterType.VALUE_GREATER_THAN, 5000.0, float('inf'))
 pivot_table.pivot_cache.refresh()
 workbook.save("output.xlsx")
 ```
@@ -114,10 +118,9 @@ Topp 10-filtret är en specialiserad form av värdefilter som endast behåller d
 
 {{% alert color="primary" %}}
 Topp 10-filtret är endast effektivt när pivottabellen har ett eller flera värdepivotfält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mått att rangordna posterna mot, och filtret kan inte tillämpas.
-{{% /alert %}}
-
 Aspose.Cells exponerar topp 10-filtrering genom metoden `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)`. Parametern `item_count` anger hur många poster som ska behållas, `is_top` anger om de översta posterna (True) eller de understa posterna (False) ska behållas, `value_field` hänvisar till det datafält som används för rangordning, och `PivotFilterType` styr hur värdet beräknas (vanligtvis `Sum`, men också `Count` och `Percent`).
 Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att endast behålla de 10 översta posterna efter summan av försäljning, uppdaterar pivottabellen och sparar arbetsboken.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
@@ -131,7 +134,7 @@ worksheet = workbook.worksheets[0]
 # Hämta pivottabellen via index
 pivotTable = worksheet.pivot_tables[0]
 # Kontrollera att det finns minst ett värde PivotField i dataområdet
-if pivotTable.data_fields.count == 0:
+if len(pivotTable.data_fields) == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
 # Hämta målets rad PivotField (det fält vi vill tillämpa Top 10 på)
@@ -140,10 +143,10 @@ rowField = pivotTable.row_fields[0]
 valueFieldIndex = 0
 # Tillämpa Top 10-filtret på radfältet:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (topp N; false skulle betyda botten N)
 #   - valueFieldIndex = indexet för datafältet som används för att rangordna objekten
-rowField.filter_top10(10, acp.PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
 # Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
 pivotTable.pivot_cache.refresh()
 # Spara arbetsboken

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells は画像を単一セルに関連付ける 2 つの異なる方法を提供します。フローティング画像はワークシートの描画レイヤーに配置される図形であり、セル範囲の上に視覚的に重なります。一方、埋め込み画像はセル自体の中に保存され、セルの表示領域に合わせて自動的にスケーリングされます。レイアウト要件に最も合った方法を選択してください。
+{{% /alert %}}
 
 ## **はじめに**
 ビジュアルレポート、製品カタログ、社員ディレクトリ、ダッシュボード、在庫リストのように機能するスプレッドシートを設計する際、画像を正確に 1 つのセルに合わせることは一般的な要件です。画像を複数のセルにまたがって引き伸ばしたり、ワークシート上に緩く配置したりする代わりに、それを所有するセルと整合性が保たれるクリーンなセル境界の画像が必要になる場合があります。
@@ -36,6 +37,7 @@ Aspose.Cells はこのシナリオを 2 つの補完的な方法でサポート�
 
 {{% alert color="primary" %}}
 Aspose.Cells の行と列のインデックスは **ゼロベース** です。セル C6 の行インデックスは 5、列インデックスは 2 です。右下アンカーにおけるオフバイワンエラーが、隣接セルにはみ出して表示される画像の最も一般的な原因です。
+{{% /alert %}}
 
 ### **配置動作の制御**
 `getPlacement` は `PlacementType` の列挙型で、ユーザーが基になる行または列のサイズを変更したときの画像の動作を制御します。単一セル画像に推奨される値は `PlacementType.MOVE_AND_SIZE` であり、これにより画像が基になるセルと一緒に移動およびサイズ変更され、正確な適合が維持されます。
@@ -55,7 +57,6 @@ Aspose.Cells の行と列のインデックスは **ゼロベース** です。�
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat, PlacementType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -68,10 +69,10 @@ try:
     picture.setUpperLeftColumn(2)
     picture.setLowerRightRow(6)
     picture.setLowerRightColumn(3)
-    picture.setPlacement(PlacementType.MoveAndSize)
+    picture.setPlacement(PlacementType.MOVE_AND_SIZE)
 finally:
     fs.close()
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -111,7 +112,7 @@ cell.setEmbeddedImage(imageData)
 worksheet.getCells().setColumnWidth(2, 30)   # Column C (index 2)
 worksheet.getCells().setRowHeight(5, 100)    # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -126,8 +127,5 @@ jpype.shutdownJVM()
   - セルへの画像の挿入を可能な限りシンプルにしたい場合。
   - 画像が他のセルコンテンツと同様にセルと一緒に移動するべき場合。
   - 画像を図形として操作する必要がない場合。
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

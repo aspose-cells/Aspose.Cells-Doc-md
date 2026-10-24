@@ -80,9 +80,8 @@ Jedes im Datenbereich platzierte Feld wird intern als `PivotField`-Instanz gekap
 
 {{% alert color="primary" %}}
 Das Ändern von `Function` wirkt sich nur auf das Aggregat aus, die Quellspalte ändert sich nicht.
-{{% /alert %}}
-
 Sie können daher ein Datenfeld als `Sum` belassen, während Sie ein zweites Datenfeld hinzufügen, das auf dieselbe Quellspalte verweist, aber `Count` oder `Average` verwendet, alles in einer einzigen PivotTable.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>
@@ -116,9 +115,8 @@ Wenn eine PivotTable zwei oder mehr Datenfelder enthält, stellt Aspose.Cells ei
 
 {{% alert color="primary" %}}
 `PivotTable.ValuesField` funktioniert nicht, wenn kein oder nur ein Wertfeld vorhanden ist.
-{{% /alert %}}
-
 Die folgenden Szenarien durchlaufen drei durchgängige Beispiele, die jede der oben beschriebenen Funktionen anhand derselben PivotTable-Struktur demonstrieren.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>

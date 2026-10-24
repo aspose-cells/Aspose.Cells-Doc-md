@@ -18,19 +18,18 @@ La Cámara de Excel es esencialmente un objeto de imagen anclado a una fila y co
 ## Método 1 — Agregar una imagen de Cámara dinámica
 La Cámara dinámica es el enfoque más común y es el que más se acerca a la herramienta Cámara integrada de Excel. Funciona agregando una imagen sin contenido inicial y luego asignándole una `Formula` que hace referencia al rango de origen. Una vez asignada la fórmula, llamar a `updateSelectedValue()` actualiza los datos de imagen incrustados para que estén sincronizados con las celdas que refleja. La Cámara no se implementa mediante una clase dedicada, se construye completamente sobre el tipo estándar `Picture`.
 Las API clave son:
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — agrega una imagen anclada en la fila y columna dadas. Pasar `null` para el parámetro `stream` crea una imagen vacía que actúa como marcador de posición para una Cámara dinámica. El método devuelve el índice de la nueva imagen.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — agrega una imagen anclada en la fila y columna dadas. Pasar `null` para el parámetro `stream` crea una imagen vacía que actúa como marcador de posición para una Cámara dinámica. El método devuelve el índice de la nueva imagen.
 - `pictures.get(index)` — recupera una `Picture` específica de la colección por índice.
 - `Picture.formula` — una propiedad de cadena (get/set) que contiene la referencia estilo A1 al rango de origen que refleja la Cámara, como `"A1:F10"`.
 - `Picture.updateSelectedValue()` — un método void que actualiza los datos de imagen incrustados a partir de las celdas referenciadas por `formula`.
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` DEBE llamarse antes de guardar cuando la salida es HTML o PDF; de lo contrario, el archivo exportado no contendrá los datos de la imagen y la Cámara aparecerá en blanco en la salida renderizada.
+El siguiente código crea un libro de trabajo, agrega una imagen vacía anclada en la fila 10, columna 6, la vincula al rango de origen `A1:F10` mediante la propiedad `Formula`, actualiza los datos de imagen incrustados y guarda el libro de trabajo.
 {{% /alert %}}
 
-El siguiente código crea un libro de trabajo, agrega una imagen vacía anclada en la fila 10, columna 6, la vincula al rango de origen `A1:F10` mediante la propiedad `Formula`, actualiza los datos de imagen incrustados y guarda el libro de trabajo.
-
 ```javascript
-const aspose = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
@@ -48,22 +47,18 @@ Las API clave son:
 - `Cells.createRange(address)` — construye un objeto `Range` a partir de una dirección estilo A1 como `"A1:F10"`.
 - `Range.toImage(ImageOrPrintOptions options)` — renderiza el rango a bytes de imagen. Pasar `null` usa las opciones de renderizado predeterminadas; existen sobrecargas para un control más fino de la salida.
 - `new Buffer(byte[] buffer)` — envuelve los bytes de imagen renderizados en un `Buffer` que se puede pasar a `getPictures().add`.
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — agrega la imagen anclada en la fila y columna dadas, esta vez pasando el `Buffer` producido por la renderización.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — agrega la imagen anclada en la fila y columna dadas, esta vez pasando el `Buffer` producido por la renderización.
 El siguiente código crea un libro de trabajo, construye un `Range` para `A1:F10`, lo renderiza a bytes de imagen mediante `range.toImage(null)`, envuelve los bytes en un `Buffer`, agrega la imagen anclada en la fila 10, columna 6 y guarda el libro de trabajo.
 
 ```javascript
-const aspose = require("aspose.cells");
-const { MemoryStream } = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Cámara Estática: construir Range, renderizar a bytes, envolver en MemoryStream, agregar como imagen
 let range = worksheet.getCells().createRange("A1:F10");
 let imageBytes = range.toImage(null);
-let stream = new MemoryStream();
-stream.write(imageBytes);
 let pictures = worksheet.getPictures();
-pictures.add(10, 6, stream);
+pictures.add(10, 6, imageBytes);
 workbook.save("output_static.xlsx", aspose.SaveFormat.Xlsx);
 ```
 

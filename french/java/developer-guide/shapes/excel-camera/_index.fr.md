@@ -25,9 +25,8 @@ Les API clés sont :
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` DOIT être appelé avant l'enregistrement lorsque la sortie est HTML ou PDF ; sinon le fichier exporté ne contiendra pas les données de l'image et la Caméra apparaîtra vide dans le rendu.
-{{% /alert %}}
-
 Le code suivant crée un classeur, ajoute une image vide ancrée à la ligne 10 colonne 6, la lie à la plage source `A1:F10` via `setFormula`, rafraîchit les données d'image intégrées et enregistre le classeur.
+{{% /alert %}}
 
 ```java
 import java.io.InputStream;

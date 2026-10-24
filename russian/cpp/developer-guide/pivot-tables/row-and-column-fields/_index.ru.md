@@ -1,7 +1,7 @@
 ---
 title: Добавление полей строк и столбцов сводной таблицы в Aspose.Cells for C++
-description: Узнайте, как добавлять базовые поля в области строк и столбцов сводной таблицы и управлять промежуточными итогами полей сводной таблицы с помощью PivotField.SetSubtotals в Aspose.Cells for C++.
-linktitle: Поля строк и столбцов
+linktitle: Добавление полей строк и столбцов сводной таблицы в Aspose.Cells for C++
+description: Узнайте, как добавлять базовые поля в область строк и область столбцов сводной таблицы и управлять промежуточными итогами полей сводной таблицы с помощью PivotField.SetSubtotals в Aspose.Cells for C++.
 keywords: Aspose.Cells, C++, сводная таблица, поле строки, поле столбца, PivotField, SetSubtotals, PivotFieldSubtotalType, промежуточные итоги
 type: docs
 weight: 220
@@ -11,18 +11,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Добавление поля в область строк или столбцов**
-Метод `PivotTable.AddFieldToArea(PivotFieldType fieldType, U16String fieldName)` перемещает базовое поле из исходных данных в одну из четырёх областей сводной таблицы. Аргумент `fieldType` принимает одно из следующих значений `PivotFieldType`.
-- `Row` — поля, расположенные вертикально слева
-- `Column` — поля, расположенные горизонтально сверху
+Метод `PivotTable.AddFieldToArea(PivotFieldType fieldType, U16String fieldName)` перемещает базовое поле из исходных данных в одну из четырех областей сводной таблицы. Аргумент `fieldType` принимает одно из следующих значений `PivotFieldType`.
+- `Row` — поля, размещенные вертикально слева
+- `Column` — поля, размещенные горизонтально сверху
 - `Data` — поля, значения которых агрегируются
-- `Page` — поля, используемые в качестве фильтров отчёта
-Порядок вложенности полей имеет значение. Добавление `Category` в область строк первым, а затем `Item` создаёт сводную таблицу, в которой внешняя группировка — `Category`, а внутренняя — `Item`. Изменение порядка на противоположный меняет иерархию.
+- `Page` — поля, используемые в качестве фильтров отчета
+Порядок вложения полей имеет значение. Если сначала добавить `Category` в область строк, а затем `Item`, внешняя группировка сводной таблицы будет выполняться по полю `Category`, а внутренняя — по полю `Item`. Изменение порядка приводит к изменению иерархии.
 
-## **Промежуточные итоги поля сводной таблицы**
-Метод `PivotField.SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` управляет тем, какие строки промежуточных итогов отображаются для поля сводной таблицы. Каждый вызов независимо переключает один тип промежуточного итога. Передача `shown = true` отображает промежуточный итог, а `shown = false` скрывает его. Поскольку каждый вызов влияет только на один тип, многократный вызов метода с разными значениями `subtotalType` позволяет собрать произвольный набор промежуточных итогов.
-Перечисление `PivotFieldSubtotalType` определяет доступные виды промежуточных итогов.
+## **Промежуточные итоги полей сводной таблицы**
+Метод `PivotField.SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` управляет отображением строк промежуточных итогов для поля сводной таблицы. Каждый вызов независимо включает или отключает отображение одного типа промежуточных итогов. Передача `shown = true` отображает промежуточный итог, а `shown = false` скрывает его. Поскольку каждый вызов затрагивает только один тип, несколько вызовов метода с различными значениями `subtotalType` позволяют сформировать настраиваемое подмножество промежуточных итогов.
+Перечисление `PivotFieldSubtotalType` определяет доступные типы промежуточных итогов.
 - `Automatic` — Aspose.Cells выбирает вариант по умолчанию (обычно `Sum` для числовых полей)
-- `None` — подавить все строки промежуточных итогов
+- `None` — скрывает все строки промежуточных итогов
 - `Sum`
 - `Count`
 - `Average`
@@ -35,15 +35,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - `Varp`
 
 {{% alert color="primary" %}}
-Промежуточные итоги отображаются только при наличии двух или более полей сводной таблицы в области строк (или в области столбцов). Для одного поля между ними нечего осмысленно суммировать, поэтому вызовы `SetSubtotals` в этом случае не имеют видимого эффекта. Поэтому в данной статье во всех примерах используются два поля строк (`Category` — внешнее, `Item` — внутреннее), чтобы граница промежуточных итогов между группами `Category` была видна.
+Промежуточные итоги отображаются только тогда, когда в области строк (или области столбцов) есть два или более полей сводной таблицы. Для единственного поля не существует значений, между которыми можно было бы сформировать промежуточный итог, поэтому вызовы `SetSubtotals` в этом случае не имеют видимого эффекта. Поэтому в каждом примере этой статьи используются два поля строк (`Category` — внешнее, `Item` — внутреннее), чтобы для каждой группы `Category` была отчетливо видна граница, на которой отображается промежуточный итог.
 {{% /alert %}}
 
-## **Сценарий 1 — Автоматические (по умолчанию) промежуточные итоги**
-Если `SetSubtotals` вообще не вызывается, Aspose.Cells применяет выбор `Automatic` к числовым полям. Следующий пример явно подтверждает это поведение, вызывая `SetSubtotals(PivotFieldSubtotalType.Automatic, true)` для внешнего поля строки `Category`.
+## **Сценарий 1 — автоматические (по умолчанию) промежуточные итоги**
+Если метод `SetSubtotals` не вызывается, Aspose.Cells применяет вариант `Automatic` к числовым полям. В следующем примере это поведение явно подтверждается вызовом `SetSubtotals(PivotFieldSubtotalType.Automatic, true)` для внешнего поля строки `Category`.
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -100,12 +101,13 @@ int main() {
 }
 ```
 
-## **Сценарий 2 — Подавление всех промежуточных итогов (None)**
-Вызов `SetSubtotals(PivotFieldSubtotalType.None, true)` удаляет все строки промежуточных итогов из сводной таблицы, оставляя только строки полей и общий итог внизу. Это полезно, когда нужны сгруппированные данные в чистом виде без строк итогов.
+## **Сценарий 2 — отключение всех промежуточных итогов (None)**
+Вызов `SetSubtotals(PivotFieldSubtotalType.None, true)` удаляет все строки промежуточных итогов из сводной таблицы, оставляя только строки полей и общий итог внизу. Такое поведение полезно, когда требуется получить сгруппированные исходные данные без строк сводки.
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb;
@@ -142,8 +144,8 @@ int main() {
 }
 ```
 
-## **Сценарий 3 — Пользовательский набор промежуточных итогов (Sum + Average)**
-Вы не ограничены одним типом промежуточного итога. Каждый вызов `SetSubtotals` действует независимо для одного типа, поэтому двойной вызов метода — один раз с `Sum` и один раз с `Average` — формирует пользовательский набор из двух строк промежуточных итогов для каждой группы `Category`.
+## **Сценарий 3 — настраиваемое подмножество промежуточных итогов (Sum + Average)**
+Не обязательно использовать только один тип промежуточных итогов. Каждый вызов `SetSubtotals` независимо управляет одним типом, поэтому два вызова метода — один с `Sum`, другой с `Average` — формируют настраиваемое подмножество из двух строк промежуточных итогов для каждой группы `Category`.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -207,41 +209,20 @@ int main() {
 }
 ```
 
-## **Резюме**
+## **Краткие итоги**
 
+Три сценария различаются только вызовами `SetSubtotals`. Всё остальное — набор данных, поля и области, к которым они назначены — одинаково, что делает макеты напрямую сравнимыми.
+- **Размещение полей.** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` перемещает исходный столбец в область. В пределах одной области порядок вызовов определяет порядок отображения, поэтому первый вызов становится самым внешним группировочным уровнем. Подытоги требуют наличия двух или более полей в одной области: при одном поле между группами просто нечего суммировать.
+- **Сценарий 1 — автоматические подытоги.** Отсутствие вызова `SetSubtotals` оставляет выбор за Excel, который применяет собственный подытог по умолчанию к числовым полям. Вызов `SetSubtotals` с параметром `PivotFieldSubtotalType::Automatic` явно фиксирует этот выбор, а не оставляет его неявным.
+- **Сценарий 2 — без подытогов.** Вызов `SetSubtotals` с параметром `PivotFieldSubtotalType::None` отключает подытог по умолчанию, в результате сводная таблица сохраняет строки полей и итоговую строку, но убирает строки подытогов, которые в противном случае Excel вставлял бы между ними.
+- **Сценарий 3 — выбранный поднабор.** Каждый вызов включает или выключает ровно один тип подытога, при этом вызовы накапливаются, а не сбрасывают друг друга. Таким образом, однократный вызов с параметром `PivotFieldSubtotalType::Sum` и однократный вызов с параметром `PivotFieldSubtotalType::Average` оставляют оба типа включенными, и сводная таблица отображает подытог по сумме, подытог по среднему и итоговую строку.
+
+{{% alert color="primary" %}}
+Ничего в настройке подытогов не связано исключительно с строковой областью. Те же самые вызовы `SetSubtotals` для поля, взятого из `PivotTable.ColumnFields`, дают те же три макета на оси столбцов, поскольку настройка относится к самому сводному полю, а не к оси, на которой оно размещено.
+{{% /alert %}}
 ## **Связанные статьи**
-- [Поля страниц в сводных таблицах](/cells/ru/cpp/add-page-field-in-pivot-table/)
+- [Поля страницы в сводных таблицах](/cells/ru/cpp/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells for C++](/cells/ru/cpp/refresh-pivot-table/)
 - [Применение стилей к сводным таблицам](/cells/ru/cpp/apply-style-to-pivot-table/)
-But the related articles have their own URLs. Looking at the input:
-- [Page Fields in Pivot Tables](/cells/ru/cpp/add-page-field-in-pivot-table/)
-- [Refreshing Pivot Tables in Aspose.Cells for C++](/cells/ru/cpp/refresh-pivot-table/)
-- [Applying Styles to Pivot Tables](/cells/ru/cpp/apply-style-to-pivot-table/)
-And "Applying Styles to Pivot Tables" - "Применение стилей к сводным таблицам".
-The input has:
-- YAML frontmatter with title, description, linktitle, keywords, type, weight, url, ai_search_scope, ai_search_endpoint
-- ## Adding a Field to the Row or Column Region section
-- ## Pivot Field Subtotals section
-- alert block about subtotals
-- ## Scenario 1 — Automatic (Default) Subtotals with code block
-- ## Scenario 2 — Suppressing All Subtotals (None) with code block
-- ## Scenario 3 — Custom Subtotal Subset (Sum + Average) with code block
-- ## Recap (empty)
-- ## Related Articles with 3 links
-- Hugo shortcode at end
-- title: translate
-- description: translate (no colon)
-- linktitle: translate
-- keywords: translate
-- type: keep as "docs"
-- weight: keep as 220
-- ai_search_scope: keep as "cells_cpp"
-- ai_search_endpoint: keep as "https://docsearch.api.aspose.cloud/ask"
-linktitle: Поля строк и столбцов
-keywords: Aspose.Cells, C++, сводная таблица, поле строки, поле столбца, PivotField, SetSubtotals, PivotFieldSubtotalType, промежуточные итоги
-type: docs
-weight: 220
-ai_search_scope: cells_cpp
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{< app/cells/assistant language="cpp" >}}

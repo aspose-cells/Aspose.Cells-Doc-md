@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supports splitting a single Excel file into multiple files. There are two primary ways to do this: (1) by copying each worksheet of the source workbook to a new workbook and saving each as a separate file, and (2) by copying a specific cell range from a worksheet to a new workbook. Both approaches are useful when you need to distribute subsets of data, create smaller reports for different recipients, or isolate data for individual processing.
+{{% /alert %}}
 
 ## **Introduction**
 There are many real-world scenarios in which a developer needs to break a single Excel file into several smaller files. For example, a workbook may contain one worksheet per department, and each department head needs to receive only their own sheet. In other cases, you may want to extract a particular table or data block from a worksheet and send it as a stand-alone file via email, without exposing the rest of the workbook. Large consolidated workbooks may also need to be split into smaller pieces for easier handling, faster loading, or downstream processing by other systems.
@@ -40,19 +41,16 @@ import aspose.cells as ac
 import os
 data_dir = "data/"
 workbook = ac.Workbook(data_dir + "book1.xls")
-for i in range(workbook.worksheets.count):
+for i in range(len(workbook.worksheets)):
     source_sheet = workbook.worksheets[i]
     sheet_name = source_sheet.name
-    
     dest_workbook = ac.Workbook()
     dest_index = dest_workbook.worksheets.add()
     dest_sheet = dest_workbook.worksheets[dest_index]
     dest_sheet.name = sheet_name
-    
     dest_sheet.copy(source_sheet)
-    
     dest_file = data_dir + sheet_name + ".xls"
-    dest_workbook.save(dest_file, ac.SaveFormat.EXCEL97_TO_2003)
+    dest_workbook.save(dest_file, ac.SaveFormat.EXCEL_97_TO_2003)
 ```
 
 The expected output is a set of new files in the data directory, one file per worksheet from the source workbook. Each file is named after its corresponding source sheet, and the file contains the data (and optionally the formatting) of that single sheet.
@@ -75,7 +73,6 @@ The following steps describe how to split an Excel file by copying a specific ra
 
 ### **Code Example**
 The expected output is a single new file in the data directory that contains only the values (and optionally the formatting) of the specified range extracted from the source workbook. The destination file has no relationship to any other data in the source file; it contains just the extracted range, beginning at cell `A1` of its first worksheet.
-{{% /alert %}}
 
 ## Related Articles
 - [Add Filter Fields to a Pivot Table in Aspose.Cells for Python via .NET](/cells/python-net/add-page-field-in-pivot-table/)
@@ -84,4 +81,4 @@ The expected output is a single new file in the data directory that contains onl
 - [Convert Sparkline to Image and HTML in Aspose.Cells for Python via .NET](/cells/python-net/convert-sparkline-to-image-and-html/)
 - [Converting Excel to OFD Format](/cells/python-net/converting-excel-to-ofd-format/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

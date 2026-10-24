@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Le sparkline sono grafici in miniatura posizionati all'interno delle celle del foglio di lavoro. Aspose.Cells consente di estrarre ogni sparkline come immagine autonoma (da incorporare in un'altra cella o in un report esterno) e di esportare l'intero foglio di lavoro ricco di sparkline in HTML per la distribuzione basata su browser. La proprietà `Cell.embedded_image` utilizzata in questo articolo è disponibile in **Aspose.Cells 26.5 e versioni successive**.
+{{% /alert %}}
 
 ## **Introduzione**
 Le sparkline rappresentano un modo compatto per visualizzare le tendenze direttamente all'interno di un foglio di lavoro. Mentre gli utenti di Excel le vedono direttamente, molti scenari reali richiedono che una sparkline lasci la cella, ad esempio per essere incorporata in una cella diversa come immagine statica, allegata a un'email automatizzata o renderizzata come parte di un report HTML pubblicato sul web.
@@ -36,7 +37,6 @@ In questo flusso di lavoro creerai un foglio di lavoro che contiene un piccolo i
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
@@ -51,28 +51,28 @@ worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
 # Aggiungi un gruppo di sparkline a linee ancorato a F1 (colonna 5, riga 0)
 lineArea = CellArea()
-lineArea.setStartColumn(5)
-lineArea.setEndColumn(5)
-lineArea.setStartRow(0)
-lineArea.setEndRow(0)
-lineIdx = worksheet.getSparklineGroups().add(SparklineType.Line, "A1:E1", False, lineArea)
+lineArea.StartColumn = 5
+lineArea.EndColumn = 5
+lineArea.StartRow = 0
+lineArea.EndRow = 0
+lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
 # Aggiungi un gruppo di sparkline a colonne ancorato a G1 (colonna 6, riga 0)
 columnArea = CellArea()
-columnArea.setStartColumn(6)
-columnArea.setEndColumn(6)
-columnArea.setStartRow(0)
-columnArea.setEndRow(0)
-columnIdx = worksheet.getSparklineGroups().add(SparklineType.Column, "A1:E1", False, columnArea)
+columnArea.StartColumn = 6
+columnArea.EndColumn = 6
+columnArea.StartRow = 0
+columnArea.EndRow = 0
+columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
 # Aggiungi un gruppo di sparkline Win/Loss (In pila) ancorato a H1 (colonna 7, riga 0)
 stackedArea = CellArea()
-stackedArea.setStartColumn(7)
-stackedArea.setEndColumn(7)
-stackedArea.setStartRow(0)
-stackedArea.setEndRow(0)
-stackedIdx = worksheet.getSparklineGroups().add(SparklineType.Stacked, "A1:E1", False, stackedArea)
+stackedArea.StartColumn = 7
+stackedArea.EndColumn = 7
+stackedArea.StartRow = 0
+stackedArea.EndRow = 0
+stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
 # Configura le opzioni dell'immagine per l'output PNG
 imageOptions = ImageOrPrintOptions()
-imageOptions.setImageType(ImageType.Png)
+imageOptions.setImageType(ImageType.PNG)
 # Converti lo sparkline a linee in immagine e incorporalo nella cella F2
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
@@ -97,6 +97,7 @@ Il codice sopra produce una cartella di lavoro in cui ogni rappresentazione visi
 
 {{% alert color="primary" %}}
 Poiché ogni gruppo di sparkline è ancorato a una singola cella, puoi accedervi tramite l'indicizzatore `group.sparklines[0]` invece di enumerare con un ciclo `for`. Ciò mantiene breve il codice di rendering e corrisponde al tipico schema "una sparkline per cella di ancoraggio". La memorizzazione dei byte dell'immagine tramite `Cell.embedded_image` richiede Aspose.Cells 26.5 o versioni successive.
+{{% /alert %}}
 
 ## **Flusso di lavoro 2 — Esportare il Foglio di Lavoro con Sparkline in HTML**
 Una volta che la cartella di lavoro contiene sparkline attive (e opzionalmente le controparti immagine incorporate), l'intero foglio di lavoro può essere pubblicato sul web salvandolo come HTML. La classe `HtmlSaveOptions` espone le opzioni necessarie per controllare questa esportazione; in questo flusso di lavoro riutilizzerai il file `output_with_sparklines.xlsx` prodotto dal Flusso di lavoro 1 e lo convertirai in un documento HTML pulito e a pagina singola.
@@ -111,7 +112,6 @@ Una volta che la cartella di lavoro contiene sparkline attive (e opzionalmente l
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, HtmlSaveOptions
 workbook = Workbook("output_with_sparklines.xlsx")
 htmlOptions = HtmlSaveOptions()
@@ -124,6 +124,7 @@ Il codice sopra prende la cartella di lavoro ricca di sparkline dal Flusso di la
 
 {{% alert color="primary" %}}
 La classe `HtmlSaveOptions` offre proprietà aggiuntive per ottimizzare l'output, come `export_hidden_worksheet`, `export_images_as_base64` e `encoding`. Regolale secondo le necessità del tuo target di distribuzione.
+{{% /alert %}}
 
 ## **Riepilogo API**
 I flussi di lavoro sopra si basano su un piccolo insieme di API di Aspose.Cells che lavorano insieme.
@@ -137,10 +138,5 @@ I flussi di lavoro sopra si basano su un piccolo insieme di API di Aspose.Cells 
 ## **Articoli correlati**
 - [Sparkline in Aspose.Cells for Python via Java](/cells/it/python-java/sparkline/)
 - [Inserimento di un'Immagine in una Cella](/cells/it/python-java/inserting-an-image-into-a-cell/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

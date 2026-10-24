@@ -106,10 +106,10 @@ Al asignar un rango de celdas como fuente de datos, el rango debe ir de arriba a
 {{% /alert %}}
 
 ## Artículos relacionados
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Python via Java](/cells/es/python-java/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Python via Java](/cells/es/python-java/apply-style-to-pivot-table/)
+- [Agregar campos de filtro a una tabla dinámica en Aspose.Cells para .NET](/cells/es/python-java/add-page-field-in-pivot-table/)
+- [Aplicar estilos a tablas dinámicas en Aspose.Cells for Python via Java](/cells/es/python-java/apply-style-to-pivot-table/)
 - [Modify Page Field Layout in Pivot Table](/cells/es/python-java/change-page-field-layout/)
-- [Filtering Pivot Tables by Label or Value](/cells/es/python-java/filter-by-label-or-value-of-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Python via Java](/cells/es/python-java/manage-value-fields/)
+- [Filtrar tablas dinámicas por etiqueta o valor](/cells/es/python-java/filter-by-label-or-value-of-pivot-table/)
+- [Campos de Valor en Aspose.Cells for Python via Java](/cells/es/python-java/manage-value-fields/)
 
 {{< app/cells/assistant language="python" >}}

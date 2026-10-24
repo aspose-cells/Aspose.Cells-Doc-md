@@ -25,9 +25,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 يجب استدعاء `update_selected_value()` قبل الحفظ عندما يكون الناتج بتنسيق HTML أو PDF؛ وإلا فلن يحتوي الملف المُصدَّر على بيانات الصورة وستظهر الكاميرا فارغة في الناتج المعروض.
-{{% /alert %}}
-
 ينشئ الرمز التالي مصنفًا، ويضيف صورة فارغة مثبتة عند الصف 10 والعمود 6، ويربطها بنطاق المصدر `A1:F10` من خلال الخاصية `formula`، ويحدث بيانات الصورة المضمّنة، ثم يحفظ المصنف.
+{{% /alert %}}
 
 ```python
 from aspose.cells import Workbook, SaveFormat

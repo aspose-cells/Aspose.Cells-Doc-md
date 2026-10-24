@@ -25,9 +25,8 @@ Temel API'ler şunlardır:
 
 {{% alert color="primary" %}}
 Çıktı HTML veya PDF olduğunda kaydetmeden önce `updateSelectedValue()` çağrılmalıdır; aksi takdirde dışa aktarılan dosya resim verilerini içermeyecek ve Camera işlenmiş çıktıda boş görünecektir.
-{{% /alert %}}
-
 Aşağıdaki kod bir çalışma kitabı oluşturur, satır 10 sütun 6'da sabitlenmiş boş bir resim ekler, `setFormula` metodu aracılığıyla onu kaynak aralığı `A1:F10`'a bağlar, gömülü görüntü verilerini yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```python
 import jpype
@@ -38,7 +37,7 @@ worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
 # Dinamik Kamera: boş bir resim ekle, Formül aracılığıyla A1:F10'a bağla, ardından yenile
 pictures = worksheet.getPictures()
-index = pictures.add(10, 6, None)
+index = pictures.add(10, 6, b"")
 pictures.get(index).setFormula("A1:F10")
 pictures.get(index).updateSelectedValue()
 workbook.save("output_dynamic.xlsx", SaveFormat.XLSX)
@@ -57,6 +56,7 @@ Aşağıdaki kod bir çalışma kitabı oluşturur, `A1:F10` için bir `Range` o
 import jpype
 import jpype.imports
 from asposecells.api import Workbook, SaveFormat
+from java.io import ByteArrayInputStream
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
@@ -64,7 +64,7 @@ worksheet.setName("CameraDemo")
 range_ = worksheet.getCells().createRange("A1:F10")
 image_bytes = range_.toImage(None)
 pictures = worksheet.getPictures()
-pictures.add(10, 6, jpype.JArray(jpype.JByte)(image_bytes))
+pictures.add(10, 6, ByteArrayInputStream(image_bytes))
 workbook.save("output_static.xlsx", SaveFormat.XLSX)
 ```
 

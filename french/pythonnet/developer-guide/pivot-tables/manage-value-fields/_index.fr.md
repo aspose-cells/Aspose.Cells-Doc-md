@@ -15,7 +15,8 @@ L'ajout d'un champ de base à la zone de données (valeur) est la première éta
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -53,13 +54,13 @@ Chaque champ placé dans la zone de données est encapsulé en interne sous form
 
 {{% alert color="primary" %}}
 La modification de `function` affecte uniquement l'agrégat, la colonne source ne change pas.
-{{% /alert %}}
-
 Vous pouvez donc laisser un champ de données en `Sum` tout en ajoutant un second champ de données ciblant la même colonne source mais utilisant `Count` ou `Average`, le tout dans un seul tableau croisé dynamique.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -96,9 +97,8 @@ Lorsqu'un tableau croisé dynamique contient au moins deux champs de données, A
 
 {{% alert color="primary" %}}
 `PivotTable.values_field` ne fonctionne pas s'il n'y a aucun ou un seul champ de valeur.
-{{% /alert %}}
-
 Les scénarios ci-dessous présentent trois exemples de bout en bout qui illustrent chaque fonctionnalité décrite ci-dessus sur la même structure de tableau croisé dynamique.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac

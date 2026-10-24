@@ -45,7 +45,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, PivotTable, PivotField, PivotFieldType, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -106,7 +105,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -147,7 +145,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTableCollection, PivotTable, PivotFieldType, PivotField, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -191,13 +188,13 @@ worksheet.getCells().get(8, 3).putValue(45)
 pivotTables = worksheet.getPivotTables()
 pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1")
 pivotTable = pivotTables.get(pivotIndex)
-pivotTable.addFieldToArea(PivotFieldType.Row, "Category")
-pivotTable.addFieldToArea(PivotFieldType.Row, "Item")
-pivotTable.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 categoryField = pivotTable.getRowFields().get(0)
-categoryField.setSubtotals(PivotFieldSubtotalType.Sum, True)
-categoryField.setSubtotals(PivotFieldSubtotalType.Average, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.SUM, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, True)
 pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 jpype.shutdownJVM()
@@ -205,6 +202,15 @@ jpype.shutdownJVM()
 
 ## **Recap**
 
+この3つのシナリオは、`setSubtotals`メソッドの呼び出しの有無という1点のみが異なります。データセット、フィールド、およびそれらが割り当てられる領域はすべて同じであり、これによりレイアウトを直接比較できるようになります。
+- **フィールドの配置。** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` はソース列を領域内に移動します。1つの領域内では、メソッド呼び出しの順序が表示順序となります。そのため、最初の呼び出しが最も外側のグループになります。小計には、同じ領域内に2つ以上のフィールドが必要です。フィールドが1つの場合、グループ間に小計を置く対象が存在しません。
+- **シナリオ1 — 自動小計。** `setSubtotals` を呼び出さない場合、選択はExcelに委ねられ、Excelは数値フィールドに対して独自の既定の小計を適用します。`PivotFieldSubtotalType.AUTOMATIC` を指定して`setSubtotals` を呼び出すと、この選択を明示的に記録します。
+- **シナリオ2 — 小計なし。** `PivotFieldSubtotalType.NONE` を指定して`setSubtotals` を呼び出すと、既定の小計が無効になります。この場合、ピボットテーブルはフィールド行と合計行は維持しますが、Excelが otherwise に挿入していた小計行は除外されます。
+- **シナリオ3 — 選択されたサブセット。** 各呼び出しは正確に1つの小計タイプを切り替え、呼び出しは互いにリセットするのではなく蓄積されます。そのため、`PivotFieldSubtotalType.SUM` を1回、`PivotFieldSubtotalType.AVERAGE` を1回呼び出すと、両方とも有効のままとなり、ピボットテーブルは「合計」小計、「平均」小計、および合計行をすべて表示します。
+
+{{% alert color="primary" %}}
+小計に関する設定は、行領域に固有のものではありません。`PivotTable.ColumnFields` から取得したフィールドに対して同じ`setSubtotals` の呼び出しを行うと、列軸上でも同じ3つのレイアウトが生成されます。なぜなら、この設定は軸ではなくピボットフィールド自体に属しているからです。
+{{% /alert %}}
 ## **Related Articles**
 - [ピボットテーブルのページフィールド](/cells/ja/python-java/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Python via Java でピボットテーブルを更新する](/cells/ja/python-java/refresh-pivot-table/)

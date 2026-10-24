@@ -54,10 +54,9 @@ workbook.save(fileName);
 
 {{% alert color="primary" %}}
 日期筛选仅在行或列区域仅包含日期时间单元格或空白值时有效。如果基础字段包含其他数据类型（如数字或文本），则日期筛选将无法产生预期的结果。在应用此筛选之前，请确保字段格式设置为日期，并且所有值都是有效的 `DateTime` 实例或空单元格。
-{{% /alert %}}
-
 Aspose.Cells 通过 `PivotField.filterByDate(PivotFilterType, params DateTime[] values)` 方法公开日期筛选。`PivotFilterType` 枚举包含专用日期值，例如 `Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear` 和 `Between`。根据所选的筛选类型，您传递一个或两个 `DateTime` 值（对于 `Between`，传递开始日期和结束日期）。
 以下示例加载一个工作簿，其中包含一个数据透视表，其行区域包含日期字段，应用日期筛选将可见项限制为特定日期范围，刷新数据透视表，并保存工作簿。
+{{% /alert %}}
 
 ```java
 import java.io.File;
@@ -123,10 +122,9 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 前 10 项筛选仅在数据透视表的数据区域中具有一个或多个值透视字段时才有效。如果没有至少一个值字段，则没有可对项进行排序的聚合度量，并且无法应用筛选。
-{{% /alert %}}
-
 Aspose.Cells 通过 `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)` 方法公开前 10 项筛选。`itemCount` 参数定义要保留的项数，`isTop` 指示是否保留排名靠前的项（true）或排名靠后的项（false），`valueField` 引用用于排名的数据字段，`filterType` 控制值的计算方式（通常为 `Sum`，也可以是 `Count` 和 `Percent`）。
 以下示例加载一个包含具有值字段的数据透视表的工作簿，应用前 10 项筛选以仅保留按销售总额排名前 10 的项，刷新数据透视表，并保存工作簿。
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -153,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true（前 N；false 表示后 N）
 //   - valueFieldIndex = 用于对项进行排名的数据字段的索引
-rowField.filterTop10(10, PivotFilterType.SUM, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
 // 刷新数据透视表数据并重新计算，以使筛选生效
 pivotTable.refreshData();
 // 保存工作簿
@@ -180,12 +178,12 @@ for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.getPivotItems().get(i);
     // 隐藏符合特定名称/条件的数据透视项
-    if (item.getName() == "Item1" || item.getName() == "Item2")
+    if (item.getName().equals("Item1") || item.getName().equals("Item2"))
     {
         item.setHidden(true);
     }
     // 演示取消隐藏:重新显示之前隐藏的数据透视项
-    if (item.getName() == "Item3")
+    if (item.getName().equals("Item3"))
     {
         item.setHidden(false);
     }

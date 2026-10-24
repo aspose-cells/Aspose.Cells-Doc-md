@@ -1,8 +1,8 @@
 ---
 title: 範囲の転置
 linktitle: 範囲の転置
-description: この記事では、Aspose.Cells for Java を使用して Excel ファイル内のデータを 3 つの異なる方法で転置または回転する方法について説明します。
-keywords: Aspose.Cells, Java library, spreadsheet, transpose range, rotate data, transpose function, dynamic array formula, array formula, Excel TRANSPOSE, Rows to Columns
+description: Aspose.Cells for Java を使用して、Excel ファイル内のデータを行から列へ、またはその逆方向へ転置（回転）する方法を、3 つの異なるアプローチで説明します。
+keywords: Aspose.Cells, Java ライブラリ, スプレッドシート, 範囲の転置, データの回転, TRANSPOSE 関数, 動的配列数式, 配列数式, Excel TRANSPOSE, 行から列
 type: docs
 weight: 80
 url: /ja/java/transpose-rotate-data-from-rows-to-columns-or-vice-versa/
@@ -11,37 +11,37 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells for Java は、行を列に、列を行に転置（回転）する操作を 3 つの異なる方法でサポートします。1 つ目の方法はインプレースの `Range.transpose()` メソッドを使用し、すべての Excel バージョンで動作します。2 つ目の方法は `Cell.setDynamicArrayFormula()` を使用して、Excel 365 または Excel 2021 で自動的にスピルされる最新の動的配列数式 `=TRANSPOSE(...)` を記述します。3 つ目の方法は `Cell.setArrayFormula()` を使用して、古い Excel バージョンと互換性のある従来の Ctrl+Shift+Enter (CSE) 配列数式を記述します。この記事では、各方法をステップバイステップの手順と完全なコード例で説明します。
+Aspose.Cells for Java は、行を列に、列を行に変換するtranspose（回転）機能を 3 つの異なる方法でサポートします。最初のアプローチではインプレースで動作する `Range.transpose()` メソッドを使用し、すべての Excel バージョンで動作します。2 番目のアプローチでは `Cell.setDynamicArrayFormula()` を使用して、Excel 365 または Excel 2021 で自動的にスピルする最新の動的配列数式 `=TRANSPOSE(...)` を書き込みます。3 番目のアプローチでは `Cell.setArrayFormula()` を使用して、Excel の旧バージョンと互換性のあるクラシックな Ctrl+Shift+Enter (CSE) 配列数式を書き込みます。この.neo에서는、各アプローチについて手順と完全なコード例を説明します。
 {{% /alert %}}
 
-## **Introduction**
-範囲を転置するとは、主対角線を越えてデータを実質的に反転し、行であったものを列に、列であったものを行に回転することです。Microsoft Excel では、ワークシート関数 `TRANSPOSE` がこの操作を実行し、その概念上のリファレンスは [https://support.microsoft.com/en-us/excel/functions/transpose-function](https://support.microsoft.com/en-us/excel/functions/transpose-function) で公開されています。この概念はセルの範囲に対してプログラム的に適用でき、多くのビジネスやレポートのシナリオで役立ちます。
-- 四半期または年次の売上レポートを再構成する。通常は四半期がページ横方向に、地域がページ下方向に並んでいるレイアウトをその逆方向に回転する場合、またはその逆の場合。
-- ダッシュボードやグラフの軸方向を切り替え、時系列データがページ横方向ではなくページ下方向に流れるようにする。
-- 外部システムからインポートしたデータを整形し、下流の分析やレポートテンプレートが期待するレイアウトに合わせる。
-記事の残りの部分を具体的にするため、すべての例では次の小さな地域別・四半期別売上テーブルを使用します。サンプルワークブックでは、このテーブルは **A1:D5** の範囲を占め、左上隅の **A1** は空白、**B1:D1** には地域ヘッダー、**A2:A5** には四半期ヘッダーが配置されます。
-| Region            | Europe    | Asia      | North America |
-|-------------------|-----------|-----------|---------------|
-| Qtr 1             | 21704714  | 8774099   | 12094215      |
-| Qtr 2             | 17987034  | 12214447  | 10873099      |
-| Qtr 3             | 19485029  | 14356879  | 15689543      |
-| Qtr 4             | 22567894  | 15763492  | 17456723      |
-続いて、Aspose.Cells for Java を使用してこのデータを転置する 3 つの方法を紹介します。各方法は Excel のバージョンや用途に応じて使い分けます。
+## **はじめに**
+範囲を転置するとは、行であったものが列になり、列であったものが行になるようにデータを回転することを意味し、事実上、主対角線に関してデータを反転することです。Microsoft Excel では、ワークシート関数 `TRANSPOSE` がこの操作を実行します。この機能に関する説明は、[https://support.microsoft.com/en-us/excel/functions/transpose-function](https://support.microsoft.com/en-us/excel/functions/transpose-function) に記載されています。このtransposeはプログラムによってセル範囲に適用でき、多くのビジネスやレポート作成のAbbreviationsでqz有用です。
+- 通常は四半期を横方向、地域を縦方向に配置する四半期別・年次の売上レポートを、その逆に配置する場合に使用できます。
+- ダッシュボードやグラフで軸の方向を入れ替え、時系列データを横方向ではなく縦方向に並べる場合に使用できます。
+- 外部システムからインポートしたデータを、後続の分析やレポートテンプレートが期待するレイアウトに合わせて整形する場合に使用できます。
+以下の例を具体的に示すため、すべての例では小さな地域別・四半期別売上テーブルを使用します。サンプルワークブックでは、この表は範囲 **A1:D5** に配置され、左上隅の **A1** は空欄、**B1:D1** には地域ヘッダー、**A2:A5** には四半期ヘッダーが入力されています。
+| 地域              | ヨーロッパ | アジア    | 北米        |
+|------------------|-----------|-----------|-------------|
+| 第1四半期         | 21704714  | 8774099   | 12094215    |
+| 第2四半期         | 17987034  | 12214447  | 10873099    |
+| 第3四半期         | 19485029  | 14356879  | 15689543    |
+| 第4四半期         | 22567894  | 15763492  | 17456723    |
+次に、Aspose.Cells for Java を使用してこのデータを転置する 3 つの異なる方法を説明します。それぞれの方法は、異なる Excel バージョンおよびユースケースに適しています。
 
-## **Approach 1 — Transpose Range in Place (Range.transpose)**
-`TRANSPOSE` ワークシート関数を使用せずにデータを転置したい場合は、この方法を使用してください。**すべての Excel バージョン** で動作し、動的配列に依存しないため、互換性の高い最も安全な選択肢です。最終的な転置結果のみが必要で、ワークブックに元の `TRANSPOSE` 数式を残しておく必要がない場合に最適です。
+## **アプローチ 1 — 範囲をインプレースで転置する (Range.transpose)**
+`TRANSPOSE` ワークシート関数を使用せずにデータを転置する場合は、このアプローチを使用してください。この方法は **Excel のすべてのバージョン** で動作し、動的配列に依存しないため、バージョン間の互換性を確保できる最も安全な選択肢です。最終的な転置結果のみが必要で、ワークブックに元の `TRANSPOSE` 数式を保持する必要がない場合に最適です。
 
-### **API used**
-`Range.transpose()` は `com.aspose.cells.Range` クラスのインスタンスメソッドです。これを呼び出すと、範囲の行と列を入れ替えることで範囲をインプレースで反転し、行であったものが列に、列であったものが行になります。このメソッドは数式を書き込まずに、基になるセルを直接変更します。
+### **使用する API**
+`Range.transpose()` は `com.aspose.cells.Range` クラスのインスタンスメソッドです。このメソッドは、行と列を交換することで範囲をその場で転置します。元に行であったものは列になり、元々列であったものは行になります。数式を書き込むことなく、範囲内のセルを直接変更します。
 
-### **Steps**
-1. `new Workbook(srcFile, new LoadOptions(LoadFormat.Xlsx))` を呼び出して、ソースワークブックを `.xlsx` 形式の `LoadOptions` で開きます。
+### **手順**
+1. `new Workbook(srcFile, new LoadOptions(LoadFormat.Xlsx))` を呼び出し、`LoadOptions` で `.xlsx` 形式を指定してソースワークブックを開きます。
 2. `workbook.getWorksheets().get(0)` を使用して、ワークブックから最初のワークシートを取得します。
-3. `worksheet.getCells()` を通じて、ワークシートのセルコレクションにアクセスします。
+3. `worksheet.getCells()` を使用して、ワークシートのセルコレクションにアクセスします。
 4. `cells.createRange("A1:D5")` を呼び出して、**A1:D5** をカバーするソース範囲を作成します。
-5. `source.transpose()` を呼び出して範囲を行と列を入れ替えてインプレースで回転します。
-6. `workbook.save(outputFile)` でワークブックを保存します。
-転置後、最初のアンカー範囲には回転されたデータが保持されます。最初の行は (空白、**Europe**、**Asia**、**North America**) となり、最初の列は (空白、**Qtr 1**、**Qtr 2**、**Qtr 3**、**Qtr 4**) となります。元の各売上列が、転置後の範囲では行になります。
+5. `source.transpose()` を呼び出して、範囲をその場で転置し、行と列を交換します。
+6. `workbook.save(outputFile)` を使用してワークブックを保存します。
+転置後、初期位置にある範囲には転置されたデータが格納されます。最初の行は（空欄、**ヨーロッパ**、**アジア**、**北米**）となり、最初の列は（空欄、**第1四半期**、**第2四半期**、**第3四半期**、**第4四半期**）となります。元の売上データの各列が、転置後の範囲では行になります。
 
 ```java
 import com.aspose.cells.*;
@@ -50,26 +50,27 @@ String outputFile = "transposed.xlsx";
 Workbook workbook = new Workbook(srcFile, new LoadOptions(LoadFormat.XLSX));
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
+Range source = cells.createRange("A1:D5");
 source.transpose();
 workbook.save(outputFile);
 ```
 
-## **Approach 2 — Transpose with a Dynamic Array Formula (Excel 365 / 2021)**
-出力ワークブックで `=TRANSPOSE(A1:D5)` 数式をライブの数式として保持し、ソースデータが変更された場合に結果が自動的に更新されるようにしたい場合、そして対象の Excel ファイルが動的配列とスピル演算子をサポートする **Excel 365 / Excel 2021 以降** で開かれる場合は、この方法を使用してください。
+## **アプローチ 2 — 動的配列数式で転置する (Excel 365 / 2021)**
+`=TRANSPOSE(A1:D5)` 数式を出力ワークブックに有効な数式として保持し、ソースデータが変更された場合に結果が自動的に更新されるようにする場合は、このアプローチを使用してください。対象の Excel ファイルは、動的配列とスピル演算子がサポートされている **Excel 365 / Excel 2021 以降** で開かれることが前提です。
 
-### **API used**
-`Cell.setDynamicArrayFormula(String formula, FormulaParseOptions options, boolean calculateValue)` は `com.aspose.cells.Cell` のメソッドで、セルの数式を **動的配列数式** として設定します。Excel は数式を一度評価し、結果を周囲のセルに自動的にスピルします。3 番目のパラメータを `true` に設定すると、書き込み時に結果の値も計算するよう Aspose.Cells に指示します。
+### **使用する API**
+`Cell.setDynamicArrayFormula(String formula, FormulaParseOptions options, boolean calculateValue)` は `com.aspose.cells.Cell` のメソッドで、セルの数式を **動的配列数式** として設定します。Excel は数式を一度評価し、結果を周囲のセルに自動的にスピルします。3 番目のパラメーターを `true` に設定すると、書き込み時にもAspose.Cells で結果の値が計算されます。
 
-### **Steps**
-1. `new Workbook(srcFile, new LoadOptions(LoadFormat.Xlsx))` を使用して、ソースワークブックを読み込みます。
+### **手順**
+1. `new Workbook(srcFile, new LoadOptions(LoadFormat.Xlsx))` を使用してソースワークブックを読み込みます。
 2. 最初のワークシートを取得し、その `Cells` コレクションにアクセスします。
 3. `cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", null, true)` を呼び出して、ソース範囲のすぐ下にあるセル **A6** に動的配列数式を配置します。
-4. `null` 引数はデフォルトの `FormulaParseOptions` を渡し、3 番目の引数 `true` は Aspose.Cells に対して数式を動的配列として扱い、スピルされた値がワークブックに書き込まれるように評価するように指示します。
-5. `workbook.save(outputFile)` でワークブックを保存します。
-セル **A6** には数式 `=TRANSPOSE(A1:D5)` が保持され、Excel は結果を **A6:D10** の領域（転置されたデータと同じ 5 行 4 列のブロック）に自動的にスピルします。
+4. `null` を渡すとデフォルトの `FormulaParseOptions` が使用されます。3 番目の引数 `true` は、数式を動的配列として扱い、スピルされる値がワークブックに書き込まれるように評価するよう Aspose.Cells に指示します。
+5. `workbook.save(outputFile)` を使用してワークブックを保存します。
+セル **A6** には数式 `=TRANSPOSE(A1:D5)` が格納され、Excel は結果を領域 **A6:D10** に自動的にスピルします。この領域は、転置されたデータと等しい 5 行 4 列のブロックです。
 
 {{% alert color="primary" %}}
-この方法は **Excel 365 / 2021 以降でのみ** 動作します。古い Excel バージョンでは動的配列数式が正しくスピルされません。
+このアプローチは **Excel 365 / Excel 2021 以降でのみ** 動作します。Excel の旧バージョンでは、動的配列数式を正しくスピルできません。
 {{% /alert %}}
 
 ```java
@@ -83,54 +84,55 @@ cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", new FormulaParseOpti
 workbook.save(outFile, SaveFormat.XLSX);
 ```
 
-## **Approach 3 — Transpose with a Classic Array Formula (CSE)**
-`TRANSPOSE` 数式をワークブックに保持したいが、対象の Excel ファイルが動的配列のスピルをサポートしていない **古い Excel バージョン（2021 より前、2019、2016、2013 など）** で開かれる可能性がある場合は、この方法を使用してください。従来の CSE（Ctrl+Shift+Enter）配列数式は、すべての Excel バージョンで評価可能なレガシー互換の代替手段です。
+## **アプローチ 3 — クラシック配列数式で転置する (CSE)**
+`TRANSPOSE` 数式をワークブックに保持する必要がある一方、対象の Excel ファイルが動的配列のスピルをサポートしていない **Excel の旧バージョン (2021 より前、2019、2016、2013 など)** で開かれる可能性がある場合は、このアプローチを使用してください。クラシックな CSE (Ctrl+Shift+Enter) 配列数式は、すべての Excel バージョンで評価できる、互換性の高い代替手段です。
 
-### **API used**
-`Cell.setArrayFormula(String arrayFormula, int nRows, int nColumns)` は `com.aspose.cells.Cell` のメソッドで、**従来の配列（CSE）数式** をアンカーセルに割り当て、結果として得られる配列の次元を宣言します。Aspose.Cells は複数セルの配列数式マーカーを書き込むため、Excel は宣言された範囲を埋める単一の配列式として数式を評価します。
+### **使用する API**
+`Cell.setArrayFormula(String arrayFormula, int nRows, int nColumns)` は `com.aspose.cells.Cell` のメソッドで、**クラシックな配列 (CSE) 数式** をアンカーセルに割り当て、結果として得られる配列の次元を宣言します。Aspose.Cells は複数セルにまたがる配列数式マーカーを書き込むため、Excel は宣言された範囲を埋める単一の配列式として数式を評価します。
 
-### **Steps**
-1. 前の方法で説明したように、ソースワークブックを読み込みます。
+### **手順**
+1. 前のアプローチで説明したように、ソースワークブックを読み込みます。
 2. 最初のワークシートを取得し、その `Cells` コレクションにアクセスします。
-3. `cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5)` を呼び出します。2 番目の引数 `4` はコピー先の配列の行数で、3 番目の引数 `5` はコピー先の配列の列数です。
-4. `workbook.save(outputFile)` でワークブックを保存します。
-セル **A6** が配列数式のアンカーとなり、評価された配列は A6 から始まる 4 行 5 列にまたがり、ソース範囲 A1:D5 の転置された次元と一致します。Excel は結果の範囲全体に単一の配列数式マーカーを書き込むため、古い Excel バージョンでも正しく評価されます。
+3. `cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5)` を呼び出します。2 番目の引数 `4` は宛先配列の行数、3 番目の引数 `5` は列数です。
+4. `workbook.save(outputFile)` を使用してワークブックを保存します。
+セル **A6** は配列数式のアンカーであり、評価された配列は A6 から始まる 4 行 5 列の領域にまたがります。これは、A1:D5 のソース範囲を転置した次元と一致します。Excel は結果の範囲にわたって単一の配列数式マーカーを書き込むため、Excel の旧バージョンでも正しく評価されます。
 
 {{% alert color="primary" %}}
-CSE 配列数式は、`TRANSPOSE` 式を評価するための従来の Excel の方法であり、この方法は Excel のすべてのバージョンで普遍的に互換性があります。
+CSE 配列数式は `TRANSPOSE` 式を評価するためのクラシックな Excel の方法であり、このアプローチは Excel のすべてのバージョンと互換性があります。
 {{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-// Load the source workbook with xlsx LoadOptions
+// xlsx LoadOptions を使用してソースワークブックを読み込む
 String srcFile = "source.xlsx";
 Workbook workbook = new Workbook(srcFile, new LoadOptions(LoadFormat.XLSX));
-// Access the first worksheet and its Cells collection
+// 最初のワークシートとその Cells コレクションにアクセスする
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
-// Set the classic CSE array formula on cell A6.
-// The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
-// into a 4-row x 5-column array. The second argument (4) is the number of rows
-// and the third argument (5) is the number of columns of the resulting array.
-// Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
-// a single multi-cell array formula, compatible with older Excel versions
-// (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
+// セル A6 に従来の CSE 配列数式を設定する
+// 数式 =TRANSPOSE(A1:D5) は、5 行 x 4 列のソース範囲を
+// 4 行 x 5 列の配列に回転させます。2 番目の引数 (4) は結果配列の行数
+// 3 番目の引数 (5) は結果配列の列数です。
+// Aspose.Cells は CSE 配列数式マーカーを書き込み、Excel がこれを
+// 単一の複数セルにまたがる配列数式として評価するようにします。
+// 動的配列の spilling をサポートしていない旧バージョンの Excel
+// (2019、2016、2013 など) との互換性を保ちます。
 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-// Save the workbook so the array-formula marker is persisted
+// 配列数式マーカーが永続化されるようにワークブックを保存する
 workbook.save("output.xlsx");
 ```
 
-## **Comparison — When to Use Each Approach**
-| 方法 | API / メソッド | Excel バージョン | 元の数式が保持されるか | 出力範囲 |
-|----------|--------------|---------------|--------------------------|--------------|
-| 方法 1 — インプレース転置 | `Range.transpose()` | すべての Excel バージョン | いいえ（値のみ） | 初期アンカー範囲、5×4 |
-| 方法 2 — 動的配列数式 | `Cell.setDynamicArrayFormula` | Excel 365 / 2021+ | はい（動的にスピル） | アンカーからスピル |
-| 方法 3 — 従来の配列数式 (CSE) | `Cell.setArrayFormula` | すべての Excel バージョン | はい（複数セル配列数式） | 明示的なサイズ、4×5 |
-迅速でバージョン横断的な変換が必要で、ファイルに転置された値のみを書き込む必要がある場合は、**方法 1** を使用してください。最新の Excel が確実に使用され、ソースが変更された場合に数式をライブで更新したい場合は、**方法 2** を使用してください。動的配列をサポートしない古いバージョンを含むすべての Excel バージョンで、数式を保持したまま最大限の互換性が必要な場合は、**方法 3** を使用してください。
+## **比較 — 各アプローチの使い分け**
+| アプローチ | API / メソッド | Excel のバージョン | 元の数式を保持しますか？ | 出力範囲 |
+|-----------|----------------|--------------------|--------------------------|----------|
+| アプローチ 1 — インプレース転置 | `Range.transpose()` | すべての Excel バージョン | いいえ（値のみ） | 初期位置を基準とした範囲、5×4 |
+| アプローチ 2 — 動的配列数式 | `Cell.setDynamicArrayFormula` | Excel 365 / 2021+ | はい（動的にスピル） | アンカーセルから動的にスピル |
+| アプローチ 3 — クラシック配列数式 (CSE) | `Cell.setArrayFormula` | すべての Excel バージョン | はい（複数セル配列数式） | 明示的なサイズ、4×5 |
+迅速なバージョン間変換が必要で、転置された値のみをファイルに書き込む場合は、**アプローチ 1** を使用してください。最新の Excel が使用され、ソースデータが変更された場合に数式が有効なまま更新されるようにする場合は、**アプローチ 2** を使用してください。動的配列をサポートしない旧リリースを含むすべての Excel バージョンとの互換性が必要で、数式を保持したい場合は、**アプローチ 3** を使用してください。
 
-## **Related Articles**
-- [SmartMarker Single Cell Array Rendering | Aspose.Cells Java](/cells/ja/java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/)
-- [Inserting an Image into a Cell](/cells/ja/java/inserting-an-image-into-a-cell/)
-- [Splitting Excel Files into Multiple Files](/cells/ja/java/splitting-excel-files-into-multiple-files/)
+## **関連記事**
+- [SmartMarker 単一セル配列レンダリング | Aspose.Cells for Java](/cells/ja/java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/)
+- [セルへの画像の挿入](/cells/ja/java/inserting-an-image-into-a-cell/)
+- [Excel ファイルを複数のファイルに分割する](/cells/ja/java/splitting-excel-files-into-multiple-files/)
 
 {{< app/cells/assistant language="java" >}}

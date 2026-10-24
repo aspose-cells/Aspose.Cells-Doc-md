@@ -37,6 +37,7 @@ L'ancoraggio dell'immagine è definito da quattro proprietà di indice a base ze
 
 {{% alert color="primary" %}}
 Gli indici di riga e colonna in Aspose.Cells sono **a base zero**. La cella C6 ha indice di riga 5 e indice di colonna 2. Gli errori di una unità sull'ancoraggio in basso a destra sono la causa più comune di immagini che sembrano sovrapporsi a una cella adiacente.
+{{% /alert %}}
 
 ### **Controllo del comportamento di posizionamento**
 `Picture.Placement` è un'enumerazione di tipo `PlacementType` che controlla il comportamento dell'immagine quando l'utente ridimensiona la riga o la colonna sottostante. Il valore consigliato per un'immagine a cella singola è `PlacementType.MoveAndSize`, che fa sì che l'immagine si sposti e si ridimensioni insieme alla cella sottostante, preservando l'adattamento esatto.
@@ -53,7 +54,7 @@ Gli indici di riga e colonna in Aspose.Cells sono **a base zero**. La cella C6 h
 Il codice seguente dimostra l'approccio completo.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 var picIndex = worksheet.getPictures().add(5, 2, "logo.png");
@@ -62,8 +63,8 @@ picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);
 picture.setLowerRightRow(6);
 picture.setLowerRightColumn(3);
-picture.setPlacement(AsposeCells.PlacementType.MoveAndSize);
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+picture.setPlacement(AsposeCells.PlacementType.MOVE_AND_SIZE);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Approccio 2: Incorporare un'immagine direttamente in una cella**
@@ -86,7 +87,7 @@ Questo rende `Cell.EmbeddedImage` l'opzione più concisa quando il tuo obiettivo
 Il codice seguente dimostra l'approccio completo.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
@@ -100,7 +101,7 @@ cell.setEmbeddedImage(imageData);
 worksheet.getCells().setColumnWidth(2, 30);   // Colonna C (indice 2)
 worksheet.getCells().setRowHeight(5, 100);     // Riga 6 (indice 5)
 // Salva la cartella di lavoro risultante come file .xlsx
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Scegliere l'approccio giusto**
@@ -113,6 +114,5 @@ Entrambi gli approcci producono un'immagine che si adatta all'interno di una sin
 - **Utilizzare un'immagine incorporata (Approccio 2) quando:**
   - Si desidera l'inserimento più semplice possibile di un'immagine in una cella.
   - L'immagine deve viaggiare con la cella come qualsiasi altro contenuto della cella.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

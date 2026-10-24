@@ -30,17 +30,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorksheetCollection, Worksheet, Cells, PivotTableCollection, PivotTable, PivotFieldType, ConsolidationFunction, PrintOrderType
 dataDir = "output"
 if not os.path.exists(dataDir):
     os.makedirs(dataDir, exist_ok=True)
 workbook = Workbook()
 worksheets = workbook.getWorksheets()
-pivotDataIdx = worksheets.add("PivotData")
-pivotDataSheet = worksheets.get(pivotDataIdx)
+pivotDataSheet = worksheets.add("PivotData")
 pivotDataCells = pivotDataSheet.getCells()
 # Headers (row 0)
 pivotDataCells.get(0, 0).putValue("Fruit")
@@ -88,8 +87,7 @@ pivotDataCells.get(8, 1).putValue(2023)
 pivotDataCells.get(8, 2).putValue("West")
 pivotDataCells.get(8, 3).putValue(110)
 # Add PivotTableReport sheet
-pivotTableSheetIdx = worksheets.add("PivotTableReport")
-pivotTableSheet = worksheets.get(pivotTableSheetIdx)
+pivotTableSheet = worksheets.add("PivotTableReport")
 pivotTables = pivotTableSheet.getPivotTables()
 # Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
 pivotIndex = pivotTables.add("PivotData!A1:D9", "A1", "PivotTable1")
@@ -117,13 +115,11 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFieldType, PrintOrderType
 workbook = Workbook()
 pivotData = workbook.getWorksheets().get(0)
 pivotData.setName("PivotData")
-pivotReportIdx = workbook.getWorksheets().add("PivotTableReport")
-pivotReport = workbook.getWorksheets().get(pivotReportIdx)
+pivotReport = workbook.getWorksheets().add("PivotTableReport")
 headers = ["Fruit", "Year", "Region", "Amount"]
 for c in range(len(headers)):
     pivotData.getCells().get(0, c).putValue(headers[c])
@@ -160,7 +156,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType, PrintOrderType
 workbook = Workbook()
 dataSheet = workbook.getWorksheets().get(0)
@@ -201,8 +196,7 @@ dataSheet.getCells().get("A9").putValue("Grape")
 dataSheet.getCells().get("B9").putValue(2023)
 dataSheet.getCells().get("C9").putValue("West")
 dataSheet.getCells().get("D9").putValue(110)
-pivotSheetIdx = workbook.getWorksheets().add("PivotTableReport")
-pivotSheet = workbook.getWorksheets().get(pivotSheetIdx)
+pivotSheet = workbook.getWorksheets().add("PivotTableReport")
 pivotIdx = pivotSheet.getPivotTables().add("PivotData!A1:D9", "A3", "PivotTable")
 pivotTable = pivotSheet.getPivotTables().get(pivotIdx)
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0)

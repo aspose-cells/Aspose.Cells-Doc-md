@@ -25,9 +25,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` ДОЛЖЕН быть вызван перед сохранением, если выходной формат — HTML или PDF; в противном случае экспортированный файл не будет содержать данные изображения, и Камера будет отображаться пустой в отрисованном выводе.
-{{% /alert %}}
-
 Следующий код создаёт рабочую книгу, добавляет пустое изображение, привязанное к строке 10 и столбцу 6, связывает его с исходным диапазоном `A1:F10` через метод `setFormula`, обновляет внедрённые данные изображения и сохраняет рабочую книгу.
+{{% /alert %}}
 
 ```python
 import jpype
@@ -38,7 +37,7 @@ worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
 # Динамическая камера: добавить пустое изображение, связать его через формулу с A1:F10, затем обновить
 pictures = worksheet.getPictures()
-index = pictures.add(10, 6, None)
+index = pictures.add(10, 6, b"")
 pictures.get(index).setFormula("A1:F10")
 pictures.get(index).updateSelectedValue()
 workbook.save("output_dynamic.xlsx", SaveFormat.XLSX)
@@ -57,6 +56,7 @@ workbook.save("output_dynamic.xlsx", SaveFormat.XLSX)
 import jpype
 import jpype.imports
 from asposecells.api import Workbook, SaveFormat
+from java.io import ByteArrayInputStream
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
@@ -64,7 +64,7 @@ worksheet.setName("CameraDemo")
 range_ = worksheet.getCells().createRange("A1:F10")
 image_bytes = range_.toImage(None)
 pictures = worksheet.getPictures()
-pictures.add(10, 6, jpype.JArray(jpype.JByte)(image_bytes))
+pictures.add(10, 6, ByteArrayInputStream(image_bytes))
 workbook.save("output_static.xlsx", SaveFormat.XLSX)
 ```
 

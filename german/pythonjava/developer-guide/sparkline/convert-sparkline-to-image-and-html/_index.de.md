@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Sparklines sind Miniaturdiagramme, die innerhalb von Arbeitsblattzellen platziert werden. Aspose.Cells ermöglicht es Ihnen, jede Sparkline als eigenständiges Bild zu extrahieren (zum Einbetten in eine andere Zelle oder einen externen Bericht) und außerdem das gesamte Sparkline-reiche Arbeitsblatt für die browserbasierte Verteilung nach HTML zu exportieren. Die in diesem Artikel verwendete Eigenschaft `Cell.embedded_image` ist in **Aspose.Cells 26.5 und höher** verfügbar.
+{{% /alert %}}
 
 ## **Einführung**
 Sparklines sind eine kompakte Möglichkeit, Trends direkt innerhalb eines Arbeitsblatts zu visualisieren. Während Excel-Benutzer sie an Ort und Stelle sehen, erfordern viele reale Szenarien, dass eine Sparkline die Zelle verlässt – beispielsweise um als statisches Bild in eine andere Zelle eingebettet, an eine automatisierte E-Mail angehängt oder als Teil eines HTML-Berichts im Web veröffentlicht zu werden.
@@ -36,7 +37,6 @@ In diesem Workflow erstellen Sie ein Arbeitsblatt, das einen kleinen Bereich mit
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
@@ -51,28 +51,28 @@ worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
 # Fügen Sie eine Liniendiagramm-Sparkline-Gruppe hinzu, die bei F1 verankert ist (Spalte 5, Zeile 0)
 lineArea = CellArea()
-lineArea.setStartColumn(5)
-lineArea.setEndColumn(5)
-lineArea.setStartRow(0)
-lineArea.setEndRow(0)
-lineIdx = worksheet.getSparklineGroups().add(SparklineType.Line, "A1:E1", False, lineArea)
+lineArea.StartColumn = 5
+lineArea.EndColumn = 5
+lineArea.StartRow = 0
+lineArea.EndRow = 0
+lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
 # Fügen Sie eine Spaltendiagramm-Sparkline-Gruppe hinzu, die bei G1 verankert ist (Spalte 6, Zeile 0)
 columnArea = CellArea()
-columnArea.setStartColumn(6)
-columnArea.setEndColumn(6)
-columnArea.setStartRow(0)
-columnArea.setEndRow(0)
-columnIdx = worksheet.getSparklineGroups().add(SparklineType.Column, "A1:E1", False, columnArea)
+columnArea.StartColumn = 6
+columnArea.EndColumn = 6
+columnArea.StartRow = 0
+columnArea.EndRow = 0
+columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
 # Fügen Sie eine Win/Loss (Gestapelt) Sparkline-Gruppe hinzu, die bei H1 verankert ist (Spalte 7, Zeile 0)
 stackedArea = CellArea()
-stackedArea.setStartColumn(7)
-stackedArea.setEndColumn(7)
-stackedArea.setStartRow(0)
-stackedArea.setEndRow(0)
-stackedIdx = worksheet.getSparklineGroups().add(SparklineType.Stacked, "A1:E1", False, stackedArea)
+stackedArea.StartColumn = 7
+stackedArea.EndColumn = 7
+stackedArea.StartRow = 0
+stackedArea.EndRow = 0
+stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
 # Bildoptionen für die PNG-Ausgabe konfigurieren
 imageOptions = ImageOrPrintOptions()
-imageOptions.setImageType(ImageType.Png)
+imageOptions.setImageType(ImageType.PNG)
 # Konvertieren Sie die Liniendiagramm-Sparkline in ein Bild und betten Sie es in Zelle F2 ein
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
@@ -97,6 +97,7 @@ Der obige Code erzeugt eine Arbeitsmappe, in der jede visuelle Darstellung einer
 
 {{% alert color="primary" %}}
 Da jede Sparkline-Gruppe an einer einzelnen Zelle verankert ist, können Sie sie über den Indexer `group.sparklines[0]` ansprechen, anstatt mit einer `for`-Schleife zu enumerieren. Dies hält den Rendering-Code kurz und entspricht dem typischen Muster "eine Sparkline pro Ankerzelle". Das Speichern der Bildbytes über `Cell.embedded_image` erfordert Aspose.Cells 26.5 oder höher.
+{{% /alert %}}
 
 ## **Workflow 2 – Das Sparkline-Arbeitsblatt nach HTML exportieren**
 Sobald die Arbeitsmappe Live-Sparklines (und optional eingebettete Bildentsprechungen) enthält, kann das gesamte Arbeitsblatt im Web veröffentlicht werden, indem es als HTML gespeichert wird. Die Klasse `HtmlSaveOptions` bietet die Einstellungen, die Sie zur Steuerung dieses Exports benötigen; in diesem Workflow verwenden Sie die in Workflow 1 erstellte Datei `output_with_sparklines.xlsx` erneut und konvertieren sie in ein sauberes, einseitiges HTML-Dokument.
@@ -111,7 +112,6 @@ Sobald die Arbeitsmappe Live-Sparklines (und optional eingebettete Bildentsprech
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, HtmlSaveOptions
 workbook = Workbook("output_with_sparklines.xlsx")
 htmlOptions = HtmlSaveOptions()
@@ -124,6 +124,7 @@ Der obige Code nimmt die Sparkline-reiche Arbeitsmappe aus Workflow 1 und verwan
 
 {{% alert color="primary" %}}
 Die Klasse `HtmlSaveOptions` bietet zusätzliche Eigenschaften zur Feinabstimmung der Ausgabe, wie `export_hidden_worksheet`, `export_images_as_base64` und `encoding`. Passen Sie diese nach Bedarf für Ihr Bereitstellungsziel an.
+{{% /alert %}}
 
 ## **API-Zusammenfassung**
 Die oben beschriebenen Workflows beruhen auf einer kleinen Reihe von Aspose.Cells-APIs, die zusammenarbeiten.
@@ -137,10 +138,5 @@ Die oben beschriebenen Workflows beruhen auf einer kleinen Reihe von Aspose.Cell
 ## **Verwandte Artikel**
 - [Sparklines in Aspose.Cells for Python via Java](/cells/de/python-java/sparkline/)
 - [Einfügen eines Bildes in eine Zelle](/cells/de/python-java/inserting-an-image-into-a-cell/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

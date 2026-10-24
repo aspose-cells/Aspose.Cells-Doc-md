@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells offre une prise en charge complète pour la lecture et l'écriture de fichiers DBF (dBASE). Vous pouvez charger des fichiers dBASE III et dBASE IV existants dans un objet Workbook, manipuler les données à l'aide de la riche API Aspose.Cells, puis enregistrer le classeur au format DBF pour une utilisation avec des applications de base de données héritées.
+{{% /alert %}}
 
 ## **Introduction**
 DBF (DataBase File) est un format de fichier de base de données hérité initialement introduit par dBASE au début des années 1980. Malgré l'ancienneté du format, les fichiers DBF sont encore largement utilisés dans de nombreux secteurs pour stocker des données structurées, notamment dans la comptabilité, les SIG et d'autres applications spécialisées. Aspose.Cells vous permet d'intégrer ces fichiers hérités de manière transparente dans les flux de travail modernes de feuilles de calcul Node.js.
@@ -49,6 +50,8 @@ Pour lire un fichier DBF, vous devez créer une instance `LoadOptions` configur�
 L'exemple suivant montre comment charger un fichier DBF existant dans Aspose.Cells, accéder à sa première feuille de calcul et lire les valeurs des cellules.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const path = require("path");
 let sb = "";
 const maxRow = cells.getMaxDataRow();
 const maxCol = cells.getMaxDataColumn();
@@ -64,12 +67,13 @@ for (let i = 0; i <= maxRow; i++)
 }
 console.log(sb);
 const outputPath = path.join(dataDir, "output.xlsx");
-workbook.save(outputPath, AsposeCells.SaveFormat.Xlsx);
+workbook.save(outputPath, AsposeCells.SaveFormat.XLSX);
 console.log("DBF file loaded successfully. Converted XLSX saved at: " + outputPath);
 ```
 
 {{% alert color="primary" %}}
 Vous pouvez ouvrir les fichiers DBF directement dans Microsoft Excel en sélectionnant le fichier dans la boîte de dialogue Ouvrir. Excel traitera le fichier DBF comme une feuille de calcul, affichant ses enregistrements dans une disposition tabulaire. Ceci est utile pour vérifier rapidement les données après les avoir lues ou écrites avec Aspose.Cells.
+{{% /alert %}}
 
 ## **Écriture d'un fichier DBF**
 L'écriture de données dans un fichier DBF suit un schéma similaire à l'enregistrement de tout autre format de feuille de calcul avec Aspose.Cells. Vous créez ou chargez un Workbook, remplissez la feuille de calcul avec des données, puis appelez la méthode `save` en spécifiant `SaveFormat.Dbf` comme format cible.
@@ -83,6 +87,7 @@ Pour créer un fichier DBF, suivez ces étapes :
 L'exemple suivant montre comment créer un nouveau fichier DBF à partir de zéro. Il remplit une feuille de calcul avec des données d'exemple contenant différents types de données (chaînes, nombres et dates) pour illustrer comment les types de champs sont gérés lors de l'exportation au format DBF.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
@@ -128,11 +133,12 @@ worksheet.getCells().setColumnWidth(1, 20);
 worksheet.getCells().setColumnWidth(2, 20);
 worksheet.getCells().setColumnWidth(3, 12);
 worksheet.getCells().setColumnWidth(4, 14);
-workbook.save(filePath, AsposeCells.SaveFormat.Dbf);
+workbook.save(filePath, AsposeCells.SaveFormat.DBF);
 ```
 
 {{% alert color="primary" %}}
 Lors de l'écriture de données dans un fichier DBF, assurez-vous que vos données respectent les limitations du format. Les noms de champs ne doivent pas dépasser 10 caractères et ne doivent pas contenir d'espaces. Les enregistrements dépassant 4000 octets au total ne seront pas enregistrés correctement. Les dates doivent être des valeurs de date valides qui peuvent être représentées au format YYYYMMDD.
+{{% /alert %}}
 
 ## **Considérations sur les types de données et la mise en forme**
 Lors du transfert de données entre Aspose.Cells et le format DBF, il est important de comprendre comment les types de données se correspondent entre les deux systèmes pour garantir l'intégrité des données.
@@ -160,10 +166,5 @@ Après avoir écrit un fichier DBF, vous pouvez vérifier le résultat en l'ouvr
 ## **Conversion entre DBF et d'autres formats**
 L'un des cas d'utilisation les plus pratiques de la lecture et de l'écriture de fichiers DBF avec Aspose.Cells est la conversion de données entre le format DBF et des formats de feuilles de calcul modernes tels que XLSX, XLS ou CSV. Comme Aspose.Cells prend en charge un large éventail de formats, vous pouvez facilement charger un fichier DBF et le réenregistrer dans tout autre format pris en charge, ou inversement.
 Par exemple, vous pouvez lire un fichier DBF, appliquer une mise en forme ou des calculs à l'aide de l'API Aspose.Cells, puis enregistrer le résultat en tant que fichier XLSX pour le distribuer aux utilisateurs qui travaillent avec des applications de feuilles de calcul modernes. Inversement, vous pouvez extraire des données d'un fichier XLSX ou CSV et les exporter au format DBF pour les intégrer à des systèmes hérités.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

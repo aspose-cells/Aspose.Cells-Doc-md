@@ -30,6 +30,7 @@ Aspose.Cells 支持在工作表单元格中创建迷你图。迷你图是适合�
 以下示例创建一个工作簿，将值 5、-3、8、-2、6 写入 A1 到 E1 单元格，并在 F1 单元格中添加一条折线迷你图来描绘这些值。该示例还将线条颜色自定义为红色，并为最高点和最低点启用标记。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
@@ -41,13 +42,13 @@ cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
 // 步骤 3：构建一个指向目标单元格 F1 的 CellArea
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // 列 F（从 0 开始索引）
-dest.setEndColumn(5);
-dest.setStartRow(0);      // 行 1（从 0 开始索引）
-dest.setEndRow(0);
+dest.StartColumn = 5;   // 列 F（从 0 开始索引）
+dest.EndColumn = 5;
+dest.StartRow = 0;      // 行 1（从 0 开始索引）
+dest.EndRow = 0;
 // 步骤 4：从 A1:E1 添加一个折线迷你图到 F1
 // SparklineGroups.Add 返回新添加组的索引
-let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, dest);
+let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(index);
 // 步骤 5：创建一个红色 CellsColor 并将其分配给迷你图线条颜色
 let red = workbook.createCellsColor();
@@ -71,6 +72,7 @@ workbook.save("output_line.xlsx");
 下面的示例将值 5、-3、8、-2、6 写入 A1:E1，并在 F1 中渲染一个柱形迷你图。负值绘制为向下的柱形，正值绘制为向上的柱形，这使得一眼就能区分正负贡献。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // 步骤 2：将示例值写入 A1:E1
@@ -80,13 +82,13 @@ for (let i = 0; i < values.length; i++) {
 }
 // 步骤 3：构建一个指向 F1 的 CellArea（列索引 5，行索引 0）
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // 步骤 4：在目标单元格中添加一个 Column 迷你图
 let idx = worksheet.getSparklineGroups().add(
-    AsposeCells.SparklineType.Column, "A1:E1", false, dest);
+    AsposeCells.SparklineType.COLUMN, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(idx);
 // 步骤 5：通过读取 group.Type 确认迷你图类型
 console.log("Sparkline Type added: " + group.getType());
@@ -106,6 +108,7 @@ console.log("Workbook saved as output_column.xlsx");
 6. 使用不同的文件名保存工作簿，以便三个示例可以共存于磁盘中。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -117,13 +120,13 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // 步骤 3：构建一个指向 F1（列 5，行 0）的 CellArea
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F
-dest.setEndColumn(5);
-dest.setStartRow(0);      // 第 1 行
-dest.setEndRow(0);
-// 步骤 4：添加 Win/Loss 迷你图（SparklineType.Stacked）
+dest.StartColumn = 5;   // F
+dest.EndColumn = 5;
+dest.StartRow = 0;      // 第 1 行
+dest.EndRow = 0;
+// 步骤 4：添加 Win/Loss 迷你图（SparklineType.STACKED）
 let groupIndex = worksheet.getSparklineGroups().add(
-    AsposeCells.SparklineType.Stacked,
+    AsposeCells.SparklineType.STACKED,
     "A1:E1",
     false,
     dest
@@ -159,6 +162,7 @@ console.log("Workbook saved successfully: output_winloss.xlsx");
 下面的组合示例创建一个工作簿，在第 1 行填入值 5、-3、8、-2、6，然后在 F1、F2 和 F3 单元格中分别添加三种迷你图组——每种类型一个——从而生成的单个文件即可同时展示全部三种迷你图样式。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // 步骤 2：在第 1 行 (A1:E1) 中填充示例数据
@@ -169,11 +173,11 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // 步骤 3：在 F1 处添加一个折线迷你图组
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
 // 通过 CellsColor 自定义折线迷你图的颜色
 let lineColor = workbook.createCellsColor();
@@ -181,11 +185,11 @@ lineColor.setColor(AsposeCells.Color.getBlue());
 lineGroup.setSeriesColor(lineColor);
 // 步骤 4：在 F2 处添加一个柱形迷你图组
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(5);
-columnArea.setEndColumn(5);
-columnArea.setStartRow(1);
-columnArea.setEndRow(1);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 5;
+columnArea.EndColumn = 5;
+columnArea.StartRow = 1;
+columnArea.EndRow = 1;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
 // 自定义柱形迷你图系列的颜色
 let columnColor = workbook.createCellsColor();
@@ -193,11 +197,11 @@ columnColor.setColor(AsposeCells.Color.getGreen());
 columnGroup.setSeriesColor(columnColor);
 // 步骤 5：在 F3 处添加一个涨跌（堆叠）迷你图组
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(5);
-stackedArea.setEndColumn(5);
-stackedArea.setStartRow(2);
-stackedArea.setEndRow(2);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 5;
+stackedArea.EndColumn = 5;
+stackedArea.StartRow = 2;
+stackedArea.EndRow = 2;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
 // 自定义涨跌迷你图系列的颜色
 let stackedColor = workbook.createCellsColor();
@@ -216,4 +220,4 @@ workbook.save("output_all.xlsx");
 - **首个/末个/负值点标记** — 用于在第一个、最后一个和负值数据点上切换标记显示的开关。
 要更改颜色，务必创建一个 `CellsColor` 实例并将其赋值给相应属性。不要直接将 `java.awt.Color` 赋值给迷你图的颜色属性——这些属性要求使用来自 `com.aspose.cells.Drawing` 的 `CellsColor` 类型。`SparklineGroups.add` 方法本身会返回一个类型完整的 `SparklineGroup` 对象，因此您可以对该返回值链式设置属性，或将其存入局部变量后再进行自定义，然后保存。
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

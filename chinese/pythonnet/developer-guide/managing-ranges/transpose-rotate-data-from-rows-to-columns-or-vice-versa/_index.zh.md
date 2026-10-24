@@ -1,8 +1,8 @@
 ---
 title: 转置区域
 linktitle: 转置区域
-description: 本文介绍如何使用 Aspose.Cells for Python via .NET 通过三种不同方式在 Excel 文件中将数据从行转置或旋转到列，反之亦然。
-keywords: Aspose.Cells for Python via .NET, 电子表格, 转置区域, 旋转数据, 转置函数, 动态数组公式, 数组公式, Excel TRANSPOSE, 行转列
+description: 本文介绍如何使用 Aspose.Cells for Python via .NET 在 Excel 文件中转置或旋转数据，将行转换为列或将列转换为行，并说明三种不同的实现方法。
+keywords: Aspose.Cells for Python via .NET, 电子表格, 转置区域, 旋转数据, TRANSPOSE 函数, 动态数组公式, 数组公式, Excel TRANSPOSE, 行转列
 type: docs
 weight: 80
 url: /zh/python-net/transpose-rotate-data-from-rows-to-columns-or-vice-versa/
@@ -11,37 +11,37 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells for Python via .NET 支持以三种不同的方式转置（旋转）数据，使行变为列、列变为行。第一种方法使用原地执行的 `range.transpose()` 方法，适用于所有 Excel 版本；第二种方法使用 `cell.set_dynamic_array_formula()` 来编写一个现代的动态数组 `=TRANSPOSE(...)` 公式，该公式可在 Excel 365 或 Excel 2021 上自动溢出；第三种方法使用 `cell.set_array_formula()` 来编写一个兼容旧版本 Excel 的经典 Ctrl+Shift+Enter (CSE) 数组公式。本文将逐一介绍每种方法，并提供分步说明和完整的代码示例。
+Aspose.Cells for Python via .NET 支持通过三种不同方式转置（旋转）数据，使行变为列、列变为行。第一种方式使用 `range.transpose()` 方法就地转置数据，适用于所有 Excel 版本；第二种方式使用 `cell.set_dynamic_array_formula()` 写入现代动态数组公式 `=TRANSPOSE(...)`，该公式会在 Excel 365 或 Excel 2021 中自动溢出；第三种方式使用 `cell.set_array_formula()` 写入经典 Ctrl+Shift+Enter (CSE) 数组公式，与较旧的 Excel 版本兼容。本文通过分步说明和完整的代码示例介绍每种方式。
 {{% /alert %}}
 
 ## **简介**
-转置区域意味着对其进行旋转，使原来的行变为列、原来的列变为行，从而实现数据沿主对角线的镜像翻转。在 Microsoft Excel 中，工作表函数 `TRANSPOSE` 用于执行此操作，相关概念参考文档位于 [https://support.microsoft.com/en-us/excel/functions/transpose-function](https://support.microsoft.com/en-us/excel/functions/transpose-function)。此概念可以以编程方式应用于单元格区域，在许多业务和报表场景中非常有用。
-- 重新调整季度或年度销售报表的方向，使季度通常沿页面横向排列、区域沿页面纵向排列，或反之。
-- 在仪表板或图表中切换坐标轴方向，使时间序列沿页面纵向排列而非横向排列。
-- 重塑从外部系统导入的数据，使其与下游分析或报表模板所期望的布局相匹配。
-为使本文后续内容更具体，每个示例都使用以下按区域和季度划分的小型销售数据表。在示例工作簿中，该表位于区域 **A1:D5**，其中 **A1** 留空作为左上角，**B1:D1** 为区域标题行，**A2:A5** 为季度标题列。
-| Region            | Europe    | Asia      | North America |
-|-------------------|-----------|-----------|---------------|
-| Qtr 1             | 21704714  | 8774099   | 12094215      |
-| Qtr 2             | 17987034  | 12214447  | 10873099      |
-| Qtr 3             | 19485029  | 14356879  | 15689543      |
-| Qtr 4             | 22567894  | 15763492  | 17456723      |
-本文接下来将介绍使用 Aspose.Cells for Python via .NET 转置此数据的三种不同方式，每种方式适用于不同的 Excel 版本和用例。
+转置区域是指旋转该区域，使原本的行变为列、原本的列变为行，即以主对角线为轴翻转数据。在 Microsoft Excel 中，工作表函数 `TRANSPOSE` 可执行此操作。有关此概念，请参阅 [https://support.microsoft.com/en-us/excel/functions/transpose-function](https://support.microsoft.com/en-us/excel/functions/transpose-function)。这一概念可通过编程方式应用于单元格区域，适用于许多业务和报表场景。
+- 重新调整季度或年度销售报告的方向，使季度通常横跨页面的布局变为区域沿页面纵向排列，或反之。
+- 交换仪表板或图表中的轴方向，使时间序列沿页面纵向而非横向延伸。
+- 调整从外部系统导入数据的布局，使其符合下游分析或报表模板的预期。
+为了使后续内容更加直观，每个示例都使用以下按区域和季度划分的小型销售表。在示例工作簿中，该表占据 **A1:D5** 区域，其中 **A1** 作为左上角保持为空，**B1:D1** 包含区域标题，**A2:A5** 包含季度标题。
+| 区域             | 欧洲       | 亚洲       | 北美洲     |
+|------------------|-----------|-----------|-----------|
+| 第一季度         | 21704714  | 8774099   | 12094215  |
+| 第二季度         | 17987034  | 12214447  | 10873099  |
+| 第三季度         | 19485029  | 14356879  | 15689543  |
+| 第四季度         | 22567894  | 15763492  | 17456723  |
+随后，本文将介绍使用 Aspose.Cells for Python via .NET 转置此数据的三种不同方式，每种方式都适用于不同的 Excel 版本和使用场景。
 
-## **方法 1 — 原地转置区域 (range.transpose)**
-当您需要在不涉及 `TRANSPOSE` 工作表函数的情况下转置数据时，请使用此方法。它适用于**所有 Excel 版本**，且不依赖动态数组，因此是最安全的跨版本兼容方案。当您只需要最终的转置输出而无需在工作簿中保留原始 `TRANSPOSE` 公式时，此方法是理想之选。
+## **方法 1 — 就地转置区域（range.transpose）**
+如果希望在不调用 `TRANSPOSE` 工作表函数的情况下转置数据，请使用此方法。它适用于**所有 Excel 版本**，不依赖动态数组，因此是最安全的跨版本兼容选项。如果只需最终的转置结果，且无需在工作簿中保留 `TRANSPOSE` 公式，则适合使用此方法。
 
 ### **使用的 API**
-`range.transpose()` 是 `Aspose.Cells.Range` 类上的一个实例方法。调用该方法会原地翻转区域，交换其行和列，使原来的行变为列、原来的列变为行。该方法直接修改底层单元格，而不会写入公式。
+`range.transpose()` 是 `Aspose.Cells.Range` 类的实例方法。调用该方法会就地转置区域，通过交换行和列，使原本的行变为列、原本的列变为行。该方法直接修改底层单元格，而不写入公式。
 
 ### **步骤**
-1. 通过调用 `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` 打开源工作簿，并将 `LoadOptions` 设置为 `.xlsx` 格式。
+1. 调用 `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` 打开源工作簿，并使用 `LoadOptions` 指定 `.xlsx` 格式。
 2. 使用 `workbook.worksheets[0]` 从工作簿中获取第一个工作表。
-3. 通过 `worksheet.cells` 访问工作表的单元格集合。
-4. 通过调用 `cells.create_range("A1:D5")` 创建覆盖 **A1:D5** 的源区域。
-5. 调用 `source.transpose()` 原地旋转区域，交换行和列。
+3. 通过 `worksheet.cells` 访问工作表的 `cells` 集合。
+4. 调用 `cells.create_range("A1:D5")` 创建涵盖 **A1:D5** 的源区域。
+5. 调用 `source.transpose()` 就地转置该区域，交换行和列。
 6. 使用 `workbook.save(outputFile)` 保存工作簿。
-转置后，初始锚点区域将保存旋转后的数据。第一行为（空、**Europe**、**Asia**、**North America**），第一列为（空、**Qtr 1**、**Qtr 2**、**Qtr 3**、**Qtr 4**）。原始的每个销售列都会变为转置区域中的一行。
+转置后，初始锚定区域包含旋转后的数据。第一行显示（空、**欧洲**、**亚洲**、**北美洲**），第一列显示（空、**第一季度**、**第二季度**、**第三季度**、**第四季度**）。销售数据中的每个原始列都会成为转置后区域中的一行。
 
 ```python
 import aspose.cells as ac
@@ -55,83 +55,83 @@ source.transpose()
 workbook.save(outputFile)
 ```
 
-## **方法 2 — 使用动态数组公式进行转置 (Excel 365 / 2021)**
-当您希望将 `=TRANSPOSE(A1:D5)` 公式作为活动公式保留在输出工作簿中，以便在源数据更改时结果能自动更新，并且目标 Excel 文件将在支持动态数组和溢出运算符的 **Excel 365 / Excel 2021 或更高版本**中打开时，请使用此方法。
+## **方法 2 — 使用动态数组公式转置（Excel 365 / 2021）**
+如果希望将 `=TRANSPOSE(A1:D5)` 作为动态公式保留在输出工作簿中，使源数据发生变化时结果自动更新，并且目标 Excel 文件将在支持动态数组和溢出运算符的 **Excel 365 / Excel 2021 或更高版本**中打开，请使用此方法。
 
 ### **使用的 API**
-`cell.set_dynamic_array_formula(formula, options, calculate_value)` 是 `Aspose.Cells.Cell` 类上的一个方法，用于将单元格的公式设置为**动态数组公式**。Excel 仅计算一次公式，并自动将结果溢出到周围的单元格中。第三个参数设置为 `True` 时，会指示 Aspose.Cells 在写入时同时计算结果值。
+`cell.set_dynamic_array_formula(formula, options, calculate_value)` 是 `Aspose.Cells.Cell` 类的方法，用于将单元格的公式设置为**动态数组公式**。Excel 仅对公式求值一次，然后自动将结果溢出到周边单元格。第三个参数设为 `True` 时，Aspose.Cells 会在写入文件时一并计算生成的值。
 
 ### **步骤**
-1. 使用 `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` 加载源工作簿。
+1. 使用 `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` 加载源工作簿。
 2. 获取第一个工作表并访问其 `cells` 集合。
-3. 通过调用 `cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", None, True)` 在源区域正下方的单元格 **A6** 上放置动态数组公式。
-4. `None` 参数传递默认的 `FormulaParseOptions`，第三个参数 `True` 告诉 Aspose.Cells 将该公式视为动态数组并对其进行计算，以便将溢出值写入工作簿。
+3. 在源区域正下方的单元格 **A6** 中设置动态数组公式，调用 `cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", None, True)`。
+4. `None` 参数用于传入默认的 `FormulaParseOptions`；第三个参数 `True` 指示 Aspose.Cells 将该公式视为动态数组并进行计算，从而将溢出值写入工作簿。
 5. 使用 `workbook.save(outputFile)` 保存工作簿。
-单元格 **A6** 保存公式 `=TRANSPOSE(A1:D5)`，Excel 会自动将结果溢出到区域 **A6:D10**，即一个 5 行 4 列的块，与转置后的数据相对应。
+单元格 **A6** 中包含公式 `=TRANSPOSE(A1:D5)`，Excel 会将结果自动溢出到 **A6:D10** 区域，即一个 5 行 × 4 列的块，与转置后的数据一致。
 
 {{% alert color="primary" %}}
-此方法**仅适用于 Excel 365 / 2021 或更高版本**。较旧的 Excel 版本将无法正确溢出动态数组公式。
+此方法**仅适用于 Excel 365 / 2021 或更高版本**。较旧的 Excel 版本无法正确处理动态数组公式的溢出。
 {{% /alert %}}
 
 ```python
 import aspose.cells as ac
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
-workbook.save(outFile, ac.SaveFormat.Xlsx)
+cells.get("A6").set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
+workbook.save(outFile, ac.SaveFormat.XLSX)
 ```
 
-## **方法 3 — 使用经典数组公式 (CSE) 进行转置**
-当您希望在工作簿中保留 `TRANSPOSE` 公式，但目标 Excel 文件可能在不支持动态数组溢出的**较旧 Excel 版本（2021 之前，包括 2019、2016、2013 等）**中打开时，请使用此方法。经典的 CSE (Ctrl+Shift+Enter) 数组公式是所有 Excel 版本都能计算的向后兼容替代方案。
+## **方法 3 — 使用经典数组公式转置（CSE）**
+如果希望在工作簿中保留 `TRANSPOSE` 公式，但目标 Excel 文件可能会在**较旧的 Excel 版本（2021 之前，包括 2019、2016、2013 等）中打开，而这些版本不支持动态数组溢出，请使用此方法。经典 CSE (Ctrl+Shift+Enter) 数组公式是一种向后兼容的替代方案，所有 Excel 版本均可对其进行求值。
 
 ### **使用的 API**
-`cell.set_array_formula(array_formula, n_rows, n_columns)` 是 `Aspose.Cells.Cell` 类上的一个方法，用于将**经典数组 (CSE) 公式**分配给锚点单元格，并声明结果数组的维度。Aspose.Cells 会写入多单元格数组公式标记，以便 Excel 将该公式作为单个数组表达式进行计算，从而填充所声明的区域。
+`cell.set_array_formula(array_formula, n_rows, n_columns)` 是 `Aspose.Cells.Cell` 类的方法，用于为锚点单元格设置**经典数组 (CSE) 公式**，并声明结果数组的维度。Aspose.Cells 会写入多单元格数组公式标记，使 Excel 将该公式作为单个数组表达式求值并填充指定的区域。
 
 ### **步骤**
-1. 按照前述方法加载源工作簿。
+1. 按前述方法加载源工作簿。
 2. 获取第一个工作表并访问其 `cells` 集合。
 3. 调用 `cells["A6"].set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)`。第二个参数 `4` 是目标数组的行数，第三个参数 `5` 是列数。
 4. 使用 `workbook.save(outputFile)` 保存工作簿。
-单元格 **A6** 是数组公式的锚点，所计算的数组从 A6 开始跨越 4 行 5 列，与 A1:D5 源区域的转置维度相匹配。Excel 会在结果区域写入一个数组公式标记，以便较旧的 Excel 版本能够正确计算。
+单元格 **A6** 是数组公式的锚点。求值后的数组从 A6 开始，覆盖 4 行 × 5 列的区域，与 A1:D5 源区域转置后的维度一致。Excel 会在结果区域中写入单个数组公式标记，使较旧的 Excel 版本能够正确对该公式求值。
 
 {{% alert color="primary" %}}
-CSE 数组公式是 Excel 中计算 `TRANSPOSE` 表达式的经典方式，此方法在所有 Excel 版本中都通用兼容。
+CSE 数组公式是 Excel 对 `TRANSPOSE` 表达式求值的经典方式，此方法与所有 Excel 版本兼容。
 {{% /alert %}}
 
 ```python
 import aspose.cells as ac
 # 使用 xlsx LoadOptions 加载源工作簿
 srcFile = "source.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 # 访问第一个工作表及其 Cells 集合
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-# 在单元格 A6 上设置经典的 CSE 数组公式。
-# 公式 =TRANSPOSE(A1:D5) 将 5 行 4 列的源区域旋转
-# 为 4 行 5 列的数组。第二个参数 (4) 是行数
+# 在单元格 A6 上设置经典 CSE 数组公式。
+# 公式 =TRANSPOSE(A1:D5) 将 5 行 x 4 列的源范围
+# 转换为 4 行 x 5 列的数组。第二个参数 (4) 是结果数组的行数，
 # 第三个参数 (5) 是结果数组的列数。
-# Aspose.Cells 写入 CSE 数组公式标记，以便 Excel 将其作为
-# 单个多单元格数组公式进行计算，兼容较旧的 Excel 版本
-# （2019、2016、2013 等）这些版本不支持动态数组溢出。
-cells["A6"].set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
-# 保存工作簿以使数组公式标记持久化
+# Aspose.Cells 会写入 CSE 数组公式标记，以便 Excel 将其作为
+# 单个多单元格数组公式进行计算，兼容不支持动态数组溢出的旧版 Excel
+# 版本（2019、2016、2013 等）。
+cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
+# 保存工作簿，以持久化数组公式标记
 workbook.save("output.xlsx")
 ```
 
-## **对比 — 何时使用每种方法**
-| 方法 | API / 方法 | Excel 版本 | 是否保留源公式 | 输出区域 |
-|----------|--------------|---------------|--------------------------|--------------|
-| 方法 1 — 原地转置 | `range.transpose()` | 所有 Excel 版本 | 否（仅值） | 初始锚点区域，5×4 |
-| 方法 2 — 动态数组公式 | `cell.set_dynamic_array_formula` | Excel 365 / 2021+ | 是（动态溢出） | 从锚点溢出 |
-| 方法 3 — 经典数组公式 (CSE) | `cell.set_array_formula` | 所有 Excel 版本 | 是（多单元格数组公式） | 显式大小，4×5 |
-当您需要快速进行跨版本转换、且仅需要将转置后的值写入文件时，请使用**方法 1**。当可以确定使用现代 Excel 且希望公式保持活动状态并在源数据更改时自动更新时，请使用**方法 2**。当您需要在每个 Excel 版本（包括不支持动态数组的较旧版本）中以保留公式的方式获得最广泛的兼容性时，请使用**方法 3**。
+## **比较 — 何时使用每种方法**
+| 方法 | API / 方法 | Excel 版本 | 是否保留公式？ | 输出区域 |
+|------|------------|------------|------------------|----------|
+| 方法 1 — 就地转置 | `range.transpose()` | 所有 Excel 版本 | 否（仅写入值） | 初始锚定区域，5×4 |
+| 方法 2 — 动态数组公式 | `cell.set_dynamic_array_formula` | Excel 365 / 2021+ | 是（动态溢出） | 从锚点开始溢出 |
+| 方法 3 — 经典数组公式 (CSE) | `cell.set_array_formula` | 所有 Excel 版本 | 是（多单元格数组公式） | 显式维度，4×5 |
+如果需要快速完成跨版本转换，且只需将转置后的值写入文件，请使用**方法 1**。如果可确保使用现代 Excel，并希望公式保持动态，在源数据发生变化时自动更新，请使用**方法 2**。如果需要在所有 Excel 版本（包括不支持动态数组的较旧版本）中保留公式并获得最广泛的兼容性，请使用**方法 3**。
 
 ## **相关文章**
-- [SmartMarker Single Cell Array Rendering | Aspose.Cells for Python via .NET](/cells/zh/python-net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/)
-- [Inserting an Image into a Cell](/cells/zh/python-net/inserting-an-image-into-a-cell/)
-- [Splitting Excel Files into Multiple Files](/cells/zh/python-net/splitting-excel-files-into-multiple-files/)
+- [SmartMarker 单单元格数组呈现 | Aspose.Cells for Python via .NET](/cells/zh/python-net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/)
+- [将图像插入单元格](/cells/zh/python-net/inserting-an-image-into-a-cell/)
+- [将 Excel 文件拆分为多个文件](/cells/zh/python-net/splitting-excel-files-into-multiple-files/)
 
 {{< app/cells/assistant language="python-net" >}}

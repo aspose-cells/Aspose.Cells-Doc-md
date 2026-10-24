@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 迷你图是放置在工作表单元格内的小型图表。Aspose.Cells 允许您将每个迷你图提取为独立图片（用于嵌入到其他单元格或外部报告中），也可以将整个包含迷你图的工作表导出为 HTML，以便在浏览器中分发。本文使用的 `cell.embeddedImage` 属性在 **Aspose.Cells 26.5 及更高版本**中可用。
+{{% /alert %}}
 
 ## **简介**
 迷你图是一种在工作表中直接可视化趋势的紧凑方式。虽然 Excel 用户可以在原位查看它们，但许多实际场景要求迷你图离开单元格——例如，嵌入到其他单元格中作为静态图片、附加到自动发送的电子邮件中，或作为发布到 Web 的 HTML 报告的一部分进行渲染。
@@ -33,6 +34,8 @@ Aspose.Cells 支持这两种操作。`Sparkline.toImage` 方法可将单个迷�
 7. 将工作簿另存为 `output_with_sparklines.xlsx`。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // 在单元格 A1:E1 中填充示例数据
@@ -43,24 +46,24 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // 在 F1（第 5 列，第 0 行）添加一个折线迷你图组
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
 // 在 G1（第 6 列，第 0 行）添加一个柱形迷你图组
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(6);
-columnArea.setEndColumn(6);
-columnArea.setStartRow(0);
-columnArea.setEndRow(0);
+columnArea.StartColumn = 6;
+columnArea.EndColumn = 6;
+columnArea.StartRow = 0;
+columnArea.EndRow = 0;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
 // 在 H1（第 7 列，第 0 行）添加一个盈亏（堆叠）迷你图组
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(7);
-stackedArea.setEndColumn(7);
-stackedArea.setStartRow(0);
-stackedArea.setEndRow(0);
+stackedArea.StartColumn = 7;
+stackedArea.EndColumn = 7;
+stackedArea.StartRow = 0;
+stackedArea.EndRow = 0;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
 // 为 PNG 输出配置图像选项
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
@@ -88,6 +91,7 @@ workbook.save("output_with_sparklines.xlsx");
 
 {{% alert color="primary" %}}
 由于每个迷你图组都锚定到单个单元格，因此您可以通过索引器 `group.sparklines[0]` 访问它，而无需使用 `forEach` 进行枚举。这使得渲染代码保持简洁，并符合典型的"一个锚定单元格对应一个迷你图"模式。通过 `cell.embeddedImage` 存储图片字节需要 Aspose.Cells 26.5 或更高版本。
+{{% /alert %}}
 
 ## **工作流程 2 — 将包含迷你图的工作表导出为 HTML**
 一旦工作簿包含实时迷你图（以及可选的嵌入图片对应物），就可以通过将工作表另存为 HTML 来将整个工作表发布到 Web。`HtmlSaveOptions` 类公开了控制此导出所需的选项；在此工作流程中，您将重用工作流程 1 生成的 `output_with_sparklines.xlsx` 文件，并将其转换为干净的单页 HTML 文档。
@@ -99,6 +103,7 @@ workbook.save("output_with_sparklines.xlsx");
 4. 调用 `workbook.save("sparklines.html", htmlOptions)` 将 HTML 输出写入磁盘。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook("output_with_sparklines.xlsx");
 let htmlOptions = new AsposeCells.HtmlSaveOptions();
 htmlOptions.setExportActiveWorksheetOnly(true);
@@ -109,6 +114,7 @@ workbook.save("sparklines.html", htmlOptions);
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` 类提供了其他用于微调输出的属性，例如 `exportHiddenWorksheet`、`exportImagesAsBase64` 和 `encoding`。根据您的部署目标进行相应的调整。
+{{% /alert %}}
 
 ## **API 摘要**
 上述工作流程依赖于一小组协同工作的 Aspose.Cells API。
@@ -123,10 +129,5 @@ workbook.save("sparklines.html", htmlOptions);
 - [Aspose.Cells for Node.js via C++ 中的迷你图](/cells/zh/nodejs-cpp/sparkline/)
 - [在单元格中插入图片](/cells/zh/nodejs-cpp/inserting-an-image-into-a-cell/)
 - [SmartMarker 单单元格数组渲染 | Aspose.Cells Node.js via C++](/cells/zh/nodejs-cpp/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持将单个 Excel 文件拆分为多个文件。主要有两种方式：(1) 通过将源工作簿的每个工作表复制到一个新的工作簿，并将每个工作簿另存为单独的文件；(2) 通过将工作表中的特定单元格区域复制到新的工作簿。当您需要分发数据子集、为不同收件人生成较小的报告，或者隔离数据以便单独处理时，这两种方法都非常有用。
+{{% /alert %}}
 
 ## **简介**
 在许多实际场景中，开发人员需要将单个 Excel 文件拆分为多个较小的文件。例如，一个工作簿可能为每个部门包含一个工作表，而每个部门负责人只需要接收其自己的工作表。在其他情况下，您可能希望从工作表中提取特定的表格或数据块，并通过电子邮件将其作为独立文件发送，而无需公开工作簿的其余内容。大型合并工作簿也可能需要拆分为较小的部分，以便更轻松地处理、更快地加载或供其他系统进行后续处理。
@@ -81,6 +82,5 @@ for (int i = 0; i < workbook.getWorksheets().getCount(); i++)
 ## **相关文章**
 - [复制行和列](/zh/cells/java/copying-rows-and-columns/)
 - [合并和取消合并单元格](/zh/cells/java/merging-and-unmerging-cells/)
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

@@ -33,6 +33,7 @@ En este flujo de trabajo construirá una hoja de cálculo que contiene un peque�
 6. Guarde el libro como `output_with_sparklines.xlsx`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Poblar datos de muestra en las celdas A1:E1
@@ -43,28 +44,28 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Agregar un grupo de minigráficos de línea anclado en F1 (columna 5, fila 0)
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 // Agregar un grupo de minigráficos de columna anclado en G1 (columna 6, fila 0)
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(6);
-columnArea.setEndColumn(6);
-columnArea.setStartRow(0);
-columnArea.setEndRow(0);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 6;
+columnArea.EndColumn = 6;
+columnArea.StartRow = 0;
+columnArea.EndRow = 0;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 // Agregar un grupo de minigráficos de Ganancia/Pérdida (Apilado) anclado en H1 (columna 7, fila 0)
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(7);
-stackedArea.setEndColumn(7);
-stackedArea.setStartRow(0);
-stackedArea.setEndRow(0);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 7;
+stackedArea.EndColumn = 7;
+stackedArea.StartRow = 0;
+stackedArea.EndRow = 0;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 // Configurar las opciones de imagen para la salida PNG
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
-imageOptions.setImageType(AsposeCells.ImageType.Png);
+imageOptions.setImageType(AsposeCells.ImageType.PNG);
 // Convertir el minigráfico de línea a imagen e incrustarlo en la celda F2
 let lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 let lineMs = new java.io.ByteArrayOutputStream();
@@ -88,6 +89,7 @@ El código anterior produce un libro donde cada representación visual de un spa
 
 {{% alert color="primary" %}}
 Debido a que cada grupo de sparklines está anclado a una sola celda, puede acceder a él mediante el indexador `group.sparklines[0]` en lugar de enumerar con `forEach`. Esto mantiene el código de renderizado corto y coincide con el patrón típico de "un sparkline por celda ancla". Almacenar los bytes de la imagen a través de `Cell.EmbeddedImage` requiere Aspose.Cells 26.5 o posterior.
+{{% /alert %}}
 
 ## **Flujo de trabajo 2 — Exportar la Hoja de Cálculo con Sparklines a HTML**
 Una vez que el libro contiene sparklines en vivo (y opcionalmente sus contrapartes de imágenes incrustadas), la hoja de cálculo completa puede publicarse en la web guardándola como HTML. La clase `HtmlSaveOptions` expone los controles que necesita para controlar esta exportación; en este flujo de trabajo reutilizará el archivo `output_with_sparklines.xlsx` producido por el Flujo de trabajo 1 y lo convertirá en un documento HTML limpio de una sola página.
@@ -99,6 +101,7 @@ Una vez que el libro contiene sparklines en vivo (y opcionalmente sus contrapart
 4. Llame a `workbook.save("sparklines.html", htmlOptions)` para escribir la salida HTML en disco.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("output_with_sparklines.xlsx");
 let htmlOptions = new AsposeCells.HtmlSaveOptions();
 htmlOptions.setExportActiveWorksheetOnly(true);
@@ -106,10 +109,10 @@ workbook.save("sparklines.html", htmlOptions);
 ```
 
 El código anterior toma el libro con sparklines del Flujo de trabajo 1 y lo convierte en un archivo HTML portátil. Los sparklines se conservan como renderizaciones SVG o PNG en línea dentro del HTML generado, dependiendo del modo de exportación, para que los usuarios finales puedan ver las tendencias en cualquier navegador moderno sin necesidad de tener Excel instalado. Al establecer `ExportActiveWorksheetOnly` a `true`, evita publicar accidentalmente hojas ocultas o datos auxiliares; solo se exporta la hoja de cálculo actualmente visible para el usuario.
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 La clase `HtmlSaveOptions` ofrece propiedades adicionales para ajustar finamente la salida, como `ExportHiddenWorksheet`, `ExportImagesAsBase64` y `Encoding`. Ajústelas según sea necesario para su objetivo de despliegue.
+{{% /alert %}}
 
 ## **Resumen de API**
 Los flujos de trabajo anteriores dependen de un pequeño conjunto de APIs de Aspose.Cells que trabajan juntas.
@@ -121,7 +124,6 @@ Los flujos de trabajo anteriores dependen de un pequeño conjunto de APIs de Asp
 
 ## **Artículos Relacionados**
 - [Insertar una imagen en una celda](/cells/es/nodejs-java/inserting-an-image-into-a-cell/)
-{{% /alert %}}
 
 ### **Instrucciones Paso a Paso**
 1. Defina un directorio de trabajo y asegúrese de que exista en disco.
@@ -134,4 +136,4 @@ Los flujos de trabajo anteriores dependen de un pequeño conjunto de APIs de Asp
 5. Cree una instancia de `ImageOrPrintOptions` y establezca su `ImageType` a `ImageType.Png` para que cada sparkline se renderice como un PNG transparente.
 6. Guarde el libro como `output_with_sparklines.xlsx`.El código anterior produce un libro donde cada representación visual de un sparkline se duplica en dos formas: el sparkline nativo en vivo anclado en la fila 1, y una imagen PNG estática incrustada directamente en una celda vecina en la fila 2. Debido a que las imágenes viven dentro del archivo mismo, el libro sigue siendo un único artefacto autónomo que puede enviarse por correo electrónico o archivarse sin romper las referencias de imágenes incrustadas. Renderice cada grupo de sparklines como PNG, convierta el `ByteArrayOutputStream` a un `byte[]`, y asigne el arreglo a la propiedad `setEmbeddedImage` de la celda objetivo; la asignación es lo que hace que la imagen sea parte del contenido almacenado de la celda.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

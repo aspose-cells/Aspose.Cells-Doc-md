@@ -30,6 +30,7 @@ Aspose.Cells espone il filtraggio per etichetta tramite il metodo `PivotField.fi
 L'esempio seguente carica una cartella di lavoro contenente una tabella pivot esistente, applica un filtro per etichetta in modo che solo gli elementi le cui didascalie iniziano con un prefisso specificato rimangano visibili, aggiorna la tabella pivot e salva il risultato.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
 // Carica la cartella di lavoro esistente contenente una tabella pivot
@@ -41,7 +42,7 @@ let pivotTable = worksheet.getPivotTables().get(0);
 // Recupera il primo PivotField di riga
 let rowField = pivotTable.getRowFields().get(0);
 // Applica il filtro delle etichette — mostra solo gli elementi di riga le cui etichette iniziano con il prefisso fornito
-rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
+rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
 // Aggiorna e ricalcola i dati della tabella pivot in modo che il filtro abbia effetto
 pivotTable.getPivotCache().refresh();
 // Salva la cartella di lavoro su disco
@@ -53,12 +54,13 @@ I filtri per data consentono di restringere una tabella pivot in base a criteri 
 
 {{% alert color="primary" %}}
 Il filtro per data funziona solo quando l'area delle righe o delle colonne contiene esclusivamente celle di tipo data-ora o valori vuoti. Se il campo sottostante contiene altri tipi di dati come numeri o testo, il filtro per data non produrrà il risultato atteso. Assicurati che il campo sia formattato come data e che tutti i valori siano istanze `DateTime` valide o celle vuote prima di applicare questo filtro.
-{{% /alert %}}
-
 Aspose.Cells espone il filtraggio per data tramite il metodo `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. L'enumerazione `PivotFilterType` contiene valori dedicati per le date come `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` e `Between`. A seconda del tipo di filtro scelto, si passano uno o due valori `DateTime` (per `Between`, si passano la data di inizio e quella di fine).
 L'esempio seguente carica una cartella di lavoro con una tabella pivot la cui area delle righe contiene un campo data, applica un filtro per data che limita gli elementi visibili a un determinato intervallo di date, aggiorna la tabella pivot e salva la cartella di lavoro.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
 let inputPath = "sample.xlsx";
 let outputPath = "output_filtered.xlsx";
 if (!fs.existsSync(inputPath))
@@ -78,7 +80,7 @@ let dateField = pivotTable.getRowFields().get(0);
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
 // Applica il filtro data sul campo pivot
-dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
+dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
 // Aggiorna e ricalcola la tabella pivot affinché il filtro abbia effetto
 pivotTable.getPivotCache().refresh();
 // Salva il foglio di lavoro
@@ -91,6 +93,7 @@ Aspose.Cells espone il filtraggio per valore tramite il metodo `PivotField.filte
 L'esempio seguente carica una cartella di lavoro con una tabella pivot, applica un filtro per valore che mantiene solo gli elementi le cui vendite aggregate superano una soglia numerica, aggiorna la tabella pivot e salva la cartella di lavoro.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook("sample.xlsx");
 var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
@@ -108,7 +111,7 @@ for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 }
 if (dataFieldIndex >= 0)
 {
-    rowField.filterByValue(dataFieldIndex, AsposeCells.Pivot.PivotFilterType.ValueGreaterThan, 5000, Number.MAX_VALUE);
+    rowField.filterByValue(dataFieldIndex, AsposeCells.PivotFilterType.VALUE_GREATER_THAN, 5000, Number.MAX_VALUE);
 }
 pivotTable.getPivotCache().refresh();
 workbook.save("output.xlsx");
@@ -119,12 +122,12 @@ Il filtro top 10 è una forma specializzata di filtro per valore che mantiene so
 
 {{% alert color="primary" %}}
 Il filtro top 10 è efficace solo quando la tabella pivot ha uno o più campi pivot di valore nell'area dei dati. Senza almeno un campo valore, non esiste una misura aggregata rispetto alla quale classificare gli elementi, e il filtro non può essere applicato.
-{{% /alert %}}
-
 Aspose.Cells espone il filtraggio top 10 tramite il metodo `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Il parametro `itemCount` definisce quanti elementi mantenere, `isTop` indica se mantenere gli elementi più alti (true) o più bassi (false), `valueField` fa riferimento al campo dati utilizzato per la classificazione e `filterType` controlla il modo in cui il valore viene calcolato (in genere `Sum`, ma anche `Count` e `Percent`).
 L'esempio seguente carica una cartella di lavoro con una tabella pivot che contiene un campo valore, applica un filtro top 10 per mantenere solo i 10 elementi più alti in base alla somma delle vendite, aggiorna la tabella pivot e salva la cartella di lavoro.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
@@ -144,10 +147,10 @@ let rowField = pivotTable.getRowFields().get(0);
 let valueFieldIndex = 0;
 // Applica il filtro Top 10 sul campo riga:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (top N; false significherebbe bottom N)
 //   - valueFieldIndex = l'indice del campo dati utilizzato per classificare gli elementi
-rowField.filterTop10(10, AsposeCells.PivotFilterType.Sum, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.SUM, true, 10);
 // Aggiorna i dati della tabella pivot e ricalcola in modo che il filtro abbia effetto
 pivotTable.getPivotCache().refresh();
 // Salva la cartella di lavoro
@@ -159,6 +162,7 @@ Oltre alle API strutturate per il filtraggio, Aspose.Cells consente di controlla
 Questo approccio è utile quando la regola di filtraggio è irregolare o specifica per gli elementi, come nascondere un piccolo numero di categorie denominate che non devono apparire in un determinato report. L'esempio seguente carica una tabella pivot, nasconde un elemento specifico per nome, mostra come mostrarlo nuovamente, aggiorna la tabella pivot e salva la cartella di lavoro.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
 // Accedi al primo foglio di lavoro che contiene la tabella pivot
 let sheet = workbook.getWorksheets().get(0);
@@ -172,15 +176,15 @@ for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
     // Nascondi gli elementi pivot che corrispondono a un nome/criterio specifico
     if (item.getName() == "Item1" || item.getName() == "Item2") {
-        item.setIsHidden(true);
+        item.setHidden(true);
     }
     // Dimostra come mostrare nuovamente: rimostra un elemento pivot precedentemente nascosto
     if (item.getName() == "Item3") {
-        item.setIsHidden(false);
+        item.setHidden(false);
     }
 }
 // Aggiorna e ricalcola la tabella pivot affinché le modifiche abbiano effetto
-pivotTable.getPivotCache().refreshData();
+pivotTable.getPivotCache().refresh();
 // Salva la cartella di lavoro — gli elementi nascosti rimangono nei dati sottostanti
 // ma sono esclusi dall'output della tabella pivot visualizzata
 workbook.save("output_pivot_filtered.xlsx");

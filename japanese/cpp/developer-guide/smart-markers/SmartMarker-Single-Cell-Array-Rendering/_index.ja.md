@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cellsは、Smart Markerを介して配列データを単一セルにレンダリングすることをサポートしています。`ArrayAsSingle`属性を`ExtraDelimiter`属性とともに使用することで、開発者は単一セル内で配列要素を区切る方法を制御でき、レポートやテンプレートの柔軟な書式設定を実現できます。
+{{% /alert %}}
 
 ## **はじめに**
 Aspose.CellsのSmart Markersは、`&=DataSource.Field`などのマーカー式を使用してスプレッドシートのデータを動的に入力できる、強力なテンプレートベースの機能です。マーカーはデザイナーワークブック内に配置され、テンプレートが`WorkbookDesigner`によって処理されると、マーカーは指定されたデータソースからの値に置き換えられます。
@@ -59,6 +60,7 @@ Smart Markerで`ArrayAsSingle`属性と`ExtraDelimiter`属性を使用すると�
 
 {{% alert color="primary" %}}
 `extraDelimiter`属性は、複数文字の区切り文字、カスタムテキスト、改行区切り出力用の`\n`などのエスケープシーケンスなど、任意の文字列リテラルを受け入れます。配列が空の場合、結果のセルは空白のままになります。
+{{% /alert %}}
 
 ### **ステップバイステップのワークフロー**
 次のワークフローでは、Smart Markerを使用して配列を単一セルにレンダリングする方法を説明します。
@@ -168,8 +170,5 @@ int main() {
 - この機能はオブジェクトデータソースだけでなく、カラムを配列に分割できる`DataSet`および`DataTable`ソースでも動作します。
 - 改行区切り出力には、区切り文字の値として`\n`を使用できます。
 - Smart Markerは、連結された結果の文字列を表示するのに十分な幅を持つセルに配置してください。そうでないと、書式によっては隣接するセルに視覚的にオーバーフローする可能性があります。
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

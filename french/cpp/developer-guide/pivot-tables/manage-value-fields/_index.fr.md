@@ -80,9 +80,8 @@ Chaque champ placé dans la zone de données est encapsulé en interne sous form
 
 {{% alert color="primary" %}}
 La modification de `Function` n'affecte que l'agrégat, la colonne source ne change pas.
-{{% /alert %}}
-
 Vous pouvez donc conserver un champ de données en tant que `Sum` tout en ajoutant un second champ de données qui cible la même colonne source mais utilise `Count` ou `Average`, le tout dans un seul tableau croisé dynamique.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>
@@ -116,9 +115,8 @@ Lorsqu'un tableau croisé dynamique contient deux champs de données ou plus, As
 
 {{% alert color="primary" %}}
 `PivotTable.ValuesField` ne fonctionne pas s'il n'y a aucun ou un seul champ de valeur.
-{{% /alert %}}
-
 Les scénarios ci-dessous présentent trois exemples de bout en bout qui illustrent chaque capacité décrite ci-dessus sur la même structure de tableau croisé dynamique.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>

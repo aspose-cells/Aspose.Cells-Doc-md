@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells предоставляет два различных способа связать изображение с одной ячейкой. Плавающее изображение — это фигура на слое рисования рабочего листа, которая визуально накладывается на диапазон ячеек, тогда как внедрённое изображение хранится внутри самой ячейки и автоматически масштабируется под область отображения ячейки. Выберите подход, который наилучшим образом соответствует вашим требованиям к макету.
+{{% /alert %}}
 
 ## **Введение**
 Точная подгонка изображения под одну ячейку — распространённое требование при разработке электронных таблиц, которые служат визуальными отчётами, каталогами товаров, справочниками сотрудников, панелями мониторинга или списками инвентаря. Вместо того чтобы растягивать изображение на множество ячеек или свободно размещать его на рабочем листе, вам может потребоваться чистое, привязанное к ячейке изображение, которое остаётся выровненным с владеющей им ячейкой.
@@ -36,6 +37,7 @@ Aspose.Cells поддерживает этот сценарий двумя вз�
 
 {{% alert color="primary" %}}
 Индексы строк и столбцов в Aspose.Cells **начинаются с нуля**. Ячейка C6 имеет индекс строки 5 и индекс столбца 2. Ошибки смещения на единицу в нижней правой привязке — самая распространённая причина того, что изображения, как кажется, перекрывают соседнюю ячейку.
+{{% /alert %}}
 
 ### **Управление поведением размещения**
 `getPlacement` — это перечисление типа `PlacementType`, которое управляет поведением изображения при изменении пользователем размера находящейся под ним строки или столбца. Рекомендуемое значение для изображения в одной ячейке — `PlacementType.MOVE_AND_SIZE`, благодаря которому изображение перемещается и изменяет размер вместе с базовой ячейкой, сохраняя точное соответствие.
@@ -55,7 +57,6 @@ Aspose.Cells поддерживает этот сценарий двумя вз�
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat, PlacementType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -68,10 +69,10 @@ try:
     picture.setUpperLeftColumn(2)
     picture.setLowerRightRow(6)
     picture.setLowerRightColumn(3)
-    picture.setPlacement(PlacementType.MoveAndSize)
+    picture.setPlacement(PlacementType.MOVE_AND_SIZE)
 finally:
     fs.close()
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -105,9 +106,6 @@ Aspose.Cells также предоставляет более простой м�
   - Вам нужна максимально простая вставка изображения в ячейку.
   - Изображение должно перемещаться вместе с ячейкой, как любое другое содержимое ячейки.
   - Вам не нужно манипулировать изображением как фигурой.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ```python
 import jpype
@@ -126,7 +124,7 @@ cell.setEmbeddedImage(imageData)
 worksheet.getCells().setColumnWidth(2, 30)   # Column C (index 2)
 worksheet.getCells().setRowHeight(5, 100)    # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 

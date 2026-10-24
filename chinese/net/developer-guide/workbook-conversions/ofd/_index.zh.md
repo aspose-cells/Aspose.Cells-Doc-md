@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持使用 `SaveFormat.Ofd` 枚举值将 Excel 工作簿直接转换为 OFD（开放式固定版式文档）格式。生成的 OFD 文档可保留工作簿的可见布局、内容、合并单元格、列宽、行高、字体、颜色、边框以及数字格式。这使得 Aspose.Cells 适用于需要固定版式输出的归档、打印、监管申报以及政府提交等场景。
+{{% /alert %}}
 
 ## **简介**
 OFD（开放式固定版式文档）是中国的一项国家标准（GB/T 33190-2016），用于以固定的、基于页面的版式表示数字文档。它的作用类似于 PDF，适用于必须精确保持源文档视觉外观的使用场景。OFD 在中华人民共和国广泛应用于政府申报、监管备案、电子发票以及长期归档等领域。
@@ -19,6 +20,7 @@ OFD（开放式固定版式文档）是中国的一项国家标准（GB/T 33190-
 
 {{% alert color="primary" %}}
 Aspose.Cells 生成的 OFD 输出可保留源工作簿的可见布局，包括单元格内容、合并单元格、列宽和行高。字体、颜色、边框、对齐方式和数字格式等单元格格式也会在固定版式输出中呈现。工作表上配置的页面设置选项（例如纸张大小、方向和打印区域）会影响最终 OFD 文档的布局。
+{{% /alert %}}
 
 ## **创建 Excel 工作簿并另存为 OFD**
 Aspose.Cells 允许您以编程方式构建工作簿，向其中填充数据，然后使用 `SaveFormat.Ofd` 枚举直接将其保存为 OFD 格式。以下示例从头开始创建一张发票。它添加公司徽标、抬头信息、收款方区域、明细行以及计算后的合计金额，然后将工作簿导出为 OFD 文档。
@@ -80,7 +82,8 @@ headerTotal.PutValue("Total");
 Style headerStyle = workbook.CreateStyle();
 headerStyle.Font.IsBold = true;
 headerStyle.Font.Color = Color.White;
-headerStyle.BackgroundColor = Color.Navy;
+headerStyle.ForegroundColor = Color.Navy;
+headerStyle.Pattern = BackgroundType.Solid;
 headerStyle.HorizontalAlignment = TextAlignmentType.Center;
 headerStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 headerStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
@@ -119,7 +122,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
     descCell.PutValue(lineItems[i, 0]);
     qtyCell.PutValue(lineItems[i, 1]);
     priceCell.PutValue(lineItems[i, 2]);
-    totalCell.Formula = "C" + row + "*D" + row;
+    totalCell.Formula = "C" + (row + 1) + "*D" + (row + 1);
     descCell.SetStyle(borderStyle);
     qtyCell.SetStyle(borderStyle);
     priceCell.SetStyle(currencyStyle);
@@ -128,7 +131,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
 // 小计、税款、总计
 worksheet.Cells["B24"].PutValue("Subtotal:");
 Cell subtotalCell = worksheet.Cells["E24"];
-subtotalCell.Formula = "SUM(E20:E22)";
+subtotalCell.Formula = "SUM(E21:E23)";
 worksheet.Cells["B25"].PutValue("Tax (10%):");
 Cell taxCell = worksheet.Cells["E25"];
 taxCell.Formula = "E24*0.1";
@@ -203,8 +206,5 @@ Console.WriteLine("\nFile successfully converted to OFD format: " + dataDir + "S
 - [在单元格中插入图像](/cells/zh/net/inserting-an-image-into-a-cell/)
 - [读取和写入 DBF 文件](/cells/zh/net/dbf/)
 - [在 Aspose.Cells for .NET 中将迷你图转换为图像和 HTML](/cells/zh/net/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="csharp" >}}

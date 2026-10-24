@@ -80,9 +80,8 @@ int main() {
 
 {{% alert color="primary" %}}
 更改 `Function` 仅影响聚合，源列不会改变。
-{{% /alert %}}
-
 因此，您可以将一个数据字段保留为 `Sum`，同时添加第二个针对同一源列但使用 `Count` 或 `Average` 的数据字段，所有这些都在单个数据透视表中完成。
+{{% /alert %}}
 
 ```cpp
 #include <iostream>
@@ -116,9 +115,8 @@ int main() {
 
 {{% alert color="primary" %}}
 如果没有值字段或只有一个值字段，则 `PivotTable.ValuesField` 不起作用。
-{{% /alert %}}
-
 以下场景通过三个端到端示例演示了针对同一数据透视结构上述每项功能。
+{{% /alert %}}
 
 ```cpp
 #include <iostream>

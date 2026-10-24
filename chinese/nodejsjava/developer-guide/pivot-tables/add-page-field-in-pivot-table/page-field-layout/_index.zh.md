@@ -29,12 +29,14 @@ Microsoft Excel 中的数据透视表提供了一个专用的 **页面字段区�
 在第一个场景中，我们将两个页面字段（`Year`、`Region`）配置为在数据透视表顶部**并排显示在一行中**。我们将 `Fruit` 分配到行轴，将 `Year` 放在页面轴的第一位，`Region` 放在第二位（`addFieldToArea` 调用的顺序决定起始索引），将 `Amount`（Sum）添加为数据字段，然后将 `PageFieldOrder` 设置为 `PrintOrderType.OVER_THEN_DOWN`，并将 `PageFieldWrapCount` 设置为 `2`。使用 `OVER_THEN_DOWN` 和换行数 2，两个页面字段在数据透视表顶部水平并排显示在一行中，因此该控件条占据宽度为二的一行。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
+const path = require("path");
 let dataDir = "output";
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
 let workbook = new AsposeCells.Workbook();
 let worksheets = workbook.getWorksheets();
-let pivotDataIdx = worksheets.add("PivotData");
-let pivotDataSheet = worksheets.get(pivotDataIdx);
+let pivotDataSheet = worksheets.add("PivotData");
 let pivotDataCells = pivotDataSheet.getCells();
 // 表头（第 0 行）
 pivotDataCells.get(0, 0).putValue("Fruit");
@@ -82,20 +84,19 @@ pivotDataCells.get(8, 1).putValue(2023);
 pivotDataCells.get(8, 2).putValue("West");
 pivotDataCells.get(8, 3).putValue(110);
 // 添加 PivotTableReport 工作表
-let pivotTableSheetIdx = worksheets.add("PivotTableReport");
-let pivotTableSheet = worksheets.get(pivotTableSheetIdx);
+let pivotTableSheet = worksheets.add("PivotTableReport");
 let pivotTables = pivotTableSheet.getPivotTables();
 // 创建数据源为 PivotData!A1:D9 的透视表，并放置在 PivotTableReport 的 A1 单元格
 let pivotIndex = pivotTables.add("PivotData!A1:D9", "A1", "PivotTable1");
 let pivotTable = pivotTables.get(pivotIndex);
 // 添加字段
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // Fruit（水果）
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // Year（年份）
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);  // Region（地区）
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // Amount（金额）
-pivotTable.getDataFields().get(0).setFunction(AsposeCells.ConsolidationFunction.Sum);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);   // Fruit（水果）
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);  // Year（年份）
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);  // Region（地区）
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);  // Amount（金额）
+pivotTable.getDataFields().get(0).setFunction(AsposeCells.ConsolidationFunction.SUM);
 // 配置页面字段区域布局：先横向排列页面字段，每 2 个换行
-pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OverThenDown);
+pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OVER_THEN_DOWN);
 pivotTable.setPageFieldWrapCount(2);
 // 刷新并计算
 pivotTable.calculateData();
@@ -107,6 +108,7 @@ workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 在本例中，我们将 `Fruit` 放在行轴上，将 `Year` 和 `Region` 放在页面轴上（`Year` 在前），并将 `Amount`（Sum）作为数据字段——与示例 1 完全相同。然后我们将 `PageFieldOrder` 设置为 `PrintOrderType.DOWN_THEN_OVER`，并将 `PageFieldWrapCount` 设置为 `2`。使用 `DOWN_THEN_OVER` 和换行数 2，两个页面字段垂直堆叠——`Year` 在顶部，`Region` 直接位于其下方——在数据透视表顶部形成单列。因此，该控件条占据宽度为一的两行，这与示例 1 形成对比。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
@@ -136,11 +138,11 @@ for (var r = 0; r < data.length; r++)
 }
 var idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
 var pivotTable = pivotReport.getPivotTables().get(idx);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);
-pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DownThenOver);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);
+pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DOWN_THEN_OVER);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.calculateData();
 workbook.save("pageFieldLayout_downThenOver.xlsx");
@@ -194,10 +196,10 @@ const pivotSheetIdx = workbook.getWorksheets().add("PivotTableReport");
 const pivotSheet = workbook.getWorksheets().get(pivotSheetIdx);
 const pivotIdx = pivotSheet.getPivotTables().add("PivotData!A1:D9", "A3", "PivotTable");
 const pivotTable = pivotSheet.getPivotTables().get(pivotIdx);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.ROW, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.DATA, 3);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OVER_THEN_DOWN);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.getPageFields().move(0, 1);

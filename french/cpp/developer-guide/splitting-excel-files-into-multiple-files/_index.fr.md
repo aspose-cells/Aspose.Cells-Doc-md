@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge le fractionnement d'un seul fichier Excel en plusieurs fichiers. Il existe deux principales méthodes pour y parvenir : (1) copier chaque feuille de calcul du classeur source dans un nouveau classeur et enregistrer chacun d'eux comme un fichier séparé, et (2) copier une plage de cellules spécifique d'une feuille de calcul dans un nouveau classeur. Les deux approches sont utiles lorsque vous devez distribuer des sous-ensembles de données, créer des rapports plus petits pour différents destinataires ou isoler des données pour un traitement individuel.
+{{% /alert %}}
 
 ## **Introduction**
 Il existe de nombreux scénarios concrets dans lesquels un développeur doit diviser un seul fichier Excel en plusieurs fichiers plus petits. Par exemple, un classeur peut contenir une feuille de calcul par département, et chaque responsable de département doit recevoir uniquement sa propre feuille. Dans d'autres cas, vous pouvez souhaiter extraire un tableau particulier ou un bloc de données d'une feuille de calcul et l'envoyer comme fichier autonome par e-mail, sans exposer le reste du classeur. Les grands classeurs consolidés peuvent également devoir être divisés en morceaux plus petits pour faciliter leur manipulation, accélérer le chargement ou permettre un traitement en aval par d'autres systèmes.
@@ -79,6 +80,5 @@ Les étapes suivantes décrivent comment fractionner un fichier Excel en copiant
 
 ### **Exemple de code**
 Le résultat attendu est un seul nouveau fichier dans le répertoire de données qui contient uniquement les valeurs (et éventuellement la mise en forme) de la plage spécifiée extraite du classeur source. Le fichier de destination n'a aucune relation avec d'autres données du fichier source ; il contient uniquement la plage extraite, commençant à la cellule `A1` de sa première feuille de calcul.
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

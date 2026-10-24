@@ -18,19 +18,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## Метод 1 — Добавление динамического изображения камеры
 Динамическая камера — наиболее распространённый подход, максимально близкий к встроенному инструменту «Камера» в Excel. Она создаётся путём добавления изображения без начального содержимого и присвоения ему свойства `Formula`, ссылающегося на исходный диапазон. После присвоения формулы вызов `updateSelectedValue()` обновляет встроенное изображение, синхронизируя его с отображаемыми ячейками. Камера реализована не с помощью отдельного класса — она полностью основана на стандартном типе `Picture`.
 Основные API:
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — добавляет изображение, закреплённое в указанной строке и столбце. Передача `null` в параметр `stream` создаёт пустое изображение, служащее заполнителем для динамической камеры. Метод возвращает индекс нового изображения.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — добавляет изображение, закреплённое в указанной строке и столбце. Передача `null` в параметр `stream` создаёт пустое изображение, служащее заполнителем для динамической камеры. Метод возвращает индекс нового изображения.
 - `pictures.get(index)` — возвращает указанный объект `Picture` из коллекции по индексу.
 - `Picture.formula` — строковое свойство (get/set), содержащее ссылку в стиле A1 на исходный диапазон, отображаемый камерой, например `"A1:F10"`.
 - `Picture.updateSelectedValue()` — метод без возвращаемого значения, обновляющий встроенное изображение по данным ячеек, на которые ссылается `formula`.
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` ДОЛЖЕН быть вызван перед сохранением в формате HTML или PDF; в противном случае экспортированный файл не будет содержать данные изображения, а при его отображении камера будет пустой.
+Следующий код создаёт книгу, добавляет пустую картинку, привязанную к строке 10 столбцу 6, связывает её с исходным диапазоном `A1:F10` через свойство `Formula`, обновляет встроенные данные изображения и сохраняет книгу.
 {{% /alert %}}
 
-Следующий код создаёт книгу, добавляет пустую картинку, привязанную к строке 10 столбцу 6, связывает её с исходным диапазоном `A1:F10` через свойство `Formula`, обновляет встроенные данные изображения и сохраняет книгу.
-
 ```javascript
-const aspose = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
@@ -48,22 +47,18 @@ workbook.save("output_dynamic.xlsx", aspose.SaveFormat.Xlsx);
 - `Cells.createRange(address)` — создаёт объект `Range` на основе адреса в стиле A1, например `"A1:F10"`.
 - `Range.toImage(ImageOrPrintOptions options)` — преобразует диапазон в массив байтов изображения. Передача `null` использует параметры рендеринга по умолчанию; существуют перегрузки для более детального контроля вывода.
 - `new Buffer(byte[] buffer)` — помещает байты отрендерированного изображения в `Buffer`, который можно передать в `getPictures().add`.
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — добавляет изображение, закреплённое в указанной строке и столбце; в этом случае в метод передаётся `Buffer`, полученный при рендеринге.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — добавляет изображение, закреплённое в указанной строке и столбце; в этом случае в метод передаётся `Buffer`, полученный при рендеринге.
 Следующий код создаёт книгу, формирует `Range` для `A1:F10`, преобразует его в байты изображения с помощью `range.toImage(null)`, помещает байты в `Buffer`, добавляет изображение, привязанное к строке 10 столбцу 6, и сохраняет книгу.
 
 ```javascript
-const aspose = require("aspose.cells");
-const { MemoryStream } = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Статичная камера: построить диапазон, преобразовать в байты, обернуть в MemoryStream, добавить как изображение
 let range = worksheet.getCells().createRange("A1:F10");
 let imageBytes = range.toImage(null);
-let stream = new MemoryStream();
-stream.write(imageBytes);
 let pictures = worksheet.getPictures();
-pictures.add(10, 6, stream);
+pictures.add(10, 6, imageBytes);
 workbook.save("output_static.xlsx", aspose.SaveFormat.Xlsx);
 ```
 

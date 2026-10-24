@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells admite la conversión de libros de Excel directamente al formato OFD (Open Fixed-layout Document) utilizando el valor de la enumeración `SaveFormat.Ofd`. El documento OFD resultante conserva el diseño visible del libro, el contenido, las celdas combinadas, los anchos de columna, las alturas de fila, las fuentes, los colores, los bordes y los formatos de número. Esto hace que Aspose.Cells sea adecuado para flujos de trabajo de archivo, impresión, presentación regulatoria y presentación ante organismos gubernamentales que requieren una salida de diseño fijo.
+{{% /alert %}}
 
 ## **Introducción**
 OFD (Open Fixed-layout Document) es un estándar nacional chino (GB/T 33190-2016) para representar documentos digitales en un diseño fijo basado en páginas. Desempeña un papel similar al de PDF en casos de uso donde la apariencia visual del documento de origen debe conservarse exactamente como fue creado. OFD se adopta ampliamente para presentaciones ante organismos gubernamentales, presentaciones regulatorias, facturas electrónicas y archivado a largo plazo en la República Popular China.
@@ -19,6 +20,7 @@ La conversión de libros de Excel a OFD es un requisito común en escenarios don
 
 {{% alert color="primary" %}}
 La salida OFD generada por Aspose.Cells conserva el diseño visible del libro de origen, incluyendo el contenido de las celdas, las celdas combinadas, los anchos de columna y las alturas de fila. El formato de celda, como las fuentes, los colores, los bordes, la alineación y los formatos de número, también se representa en la salida de diseño fijo. Las opciones de configuración de página establecidas en la hoja de cálculo, como el tamaño del papel, la orientación y el área de impresión, influyen en el diseño del documento OFD resultante.
+{{% /alert %}}
 
 ## **Creación de un libro de Excel y guardado como OFD**
 Aspose.Cells permite construir un libro de forma programática, rellenarlo con datos y luego guardarlo directamente en formato OFD utilizando la enumeración `SaveFormat.Ofd`. El siguiente ejemplo crea una factura desde cero. Añade un logotipo de la empresa, información de encabezado, una sección de facturación, líneas de detalle y totales calculados, y luego exporta el libro a un documento OFD.
@@ -93,7 +95,7 @@ int main()
     Style headerStyle = workbook.CreateStyle();
     headerStyle.GetFont().SetIsBold(true);
     headerStyle.GetFont().SetColor(Color::White());
-    headerStyle.SetForegroundColor(Color{0, 0, 128});
+    headerStyle.SetForegroundColor(Color{0xff, 0x00, 0x00, 0x80});
     headerStyle.SetPattern(BackgroundType::Solid);
     headerStyle.SetHorizontalAlignment(TextAlignmentType::Center);
     headerStyle.GetBorders().Get(BorderType::TopBorder).SetLineStyle(CellBorderType::Thin);
@@ -134,7 +136,7 @@ int main()
         descCell.PutValue(lineItems[i].desc);
         qtyCell.PutValue(lineItems[i].qty);
         priceCell.PutValue(lineItems[i].price);
-        std::string formula = "C" + std::to_string(row) + "*D" + std::to_string(row);
+        std::string formula = "C" + std::to_string(row + 1) + "*D" + std::to_string(row + 1);
         totalCell.SetFormula(U16String(formula.c_str()));
         descCell.SetStyle(borderStyle);
         qtyCell.SetStyle(borderStyle);
@@ -144,7 +146,7 @@ int main()
     // Subtotal, impuesto, total general
     cells.Get(u"B24").PutValue(u"Subtotal:");
     Cell subtotalCell = cells.Get(u"E24");
-    subtotalCell.SetFormula(u"SUM(E20:E22)");
+    subtotalCell.SetFormula(u"SUM(E21:E23)");
     cells.Get(u"B25").PutValue(u"Tax (10%):");
     Cell taxCell = cells.Get(u"E25");
     taxCell.SetFormula(u"E24*0.1");
@@ -246,8 +248,5 @@ int main() {
 - [Insertar una imagen en una celda](/cells/es/cpp/inserting-an-image-into-a-cell/)
 - [Leer y escribir archivos DBF](/cells/es/cpp/dbf/)
 - [Convertir minigráficos a imagen y HTML en Aspose.Cells for C++](/cells/es/cpp/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

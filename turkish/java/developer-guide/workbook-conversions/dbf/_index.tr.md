@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, DBF (dBASE) dosyalarını okuma ve yazma için tam destek sağlar. Mevcut dBASE III ve dBASE IV dosyalarını bir Workbook nesnesine yükleyebilir, Aspose.Cells'in zengin API'sini kullanarak verileri işleyebilir ve çalışma kitabını eski veritabanı uygulamalarında kullanılmak üzere DBF formatında geri kaydedebilirsiniz.
+{{% /alert %}}
 
 ## **Giriş**
 DBF (DataBase File), başlangıçta 1980'lerin başında dBASE tarafından tanıtılan eski bir veritabanı dosya formatıdır. Formatın yaşına rağmen, DBF dosyaları özellikle muhasebe, CBS ve diğer özel uygulamalar olmak üzere yapılandırılmış verileri depolamak için birçok sektörde hâlâ yaygın olarak kullanılmaktadır. Aspose.Cells, bu eski dosyaları modern Java elektronik tablo iş akışlarına sorunsuz bir şekilde entegre etmenize olanak tanır.
@@ -78,6 +79,7 @@ System.out.println("DBF file loaded successfully. Converted XLSX saved at: " + o
 
 {{% alert color="primary" %}}
 DBF dosyalarını doğrudan Microsoft Excel'de, Dosya Aç iletişim kutusunda dosyayı seçerek açabilirsiniz. Excel, DBF dosyasını bir elektronik tablo olarak değerlendirecek ve kayıtlarını tablo biçiminde görüntüleyecektir. Bu, Aspose.Cells ile okuma veya yazma işleminden sonra verileri hızlı bir şekilde doğrulamak için kullanışlıdır.
+{{% /alert %}}
 
 ## **DBF Dosyası Yazma**
 Bir DBF dosyasına veri yazma, Aspose.Cells ile herhangi bir elektronik tablo formatını kaydetmeye benzer bir örüntü izler. Bir Workbook oluşturur veya yüklersiniz, çalışma sayfasını verilerle doldurursunuz ve ardından hedef format olarak `SaveFormat.Dbf` belirterek `save` yöntemini çağırırsınız.
@@ -150,6 +152,7 @@ workbook.save(filePath, SaveFormat.DBF);
 
 {{% alert color="primary" %}}
 Bir DBF dosyasına veri yazarken, verilerinizin formatın sınırlamalarına uygun olduğundan emin olun. Alan adları 10 karakterden uzun olmamalı ve boşluk içermemelidir. Toplamda 4000 baytı aşan kayıtlar doğru şekilde kaydedilmeyecektir. Tarihler, YYYYAAGG formatında temsil edilebilen geçerli tarih değerleri olmalıdır.
+{{% /alert %}}
 
 ## **Veri Türü ve Biçimlendirme Dikkat Edilecek Hususlar**
 Aspose.Cells ile DBF formatı arasında veri aktarımı sırasında, veri bütünlüğünü sağlamak için veri türlerinin iki sistem arasında nasıl eşlendiğini anlamak önemlidir.
@@ -177,10 +180,5 @@ Bir DBF dosyası yazdıktan sonra, sonucu Microsoft Excel'de veya herhangi bir d
 ## **DBF ve Diğer Formatlar Arasında Dönüştürme**
 Aspose.Cells ile DBF dosyalarını okuma ve yazmanın en pratik kullanım alanlarından biri, verileri DBF formatı ile XLSX, XLS veya CSV gibi modern elektronik tablo formatları arasında dönüştürmektir. Aspose.Cells geniş bir format yelpazesini desteklediğinden, bir DBF dosyasını kolayca yükleyebilir ve desteklenen herhangi bir formatta yeniden kaydedebilir veya bunun tersini yapabilirsiniz.
 Örneğin, bir DBF dosyasını okuyabilir, Aspose.Cells API'sini kullanarak biçimlendirme veya hesaplamalar uygulayabilir ve ardından modern elektronik tablo uygulamalarıyla çalışan kullanıcılara dağıtım için sonucu bir XLSX dosyası olarak kaydedebilirsiniz. Tersine, bir XLSX veya CSV dosyasındaki verileri alıp eski sistemlerle entegrasyon için DBF formatına dışa aktarabilirsiniz.
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

@@ -1,7 +1,7 @@
 ---
-title: Aggiornare Tabelle Pivot e PivotCache in Aspose.Cells for Node.js via C++
-description: Scopri come aggiornare le tabelle pivot in Aspose.Cells for Node.js via C++ utilizzando l'API di aggiornamento delle pivot introdotta dalla v26.7. Questo articolo copre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData e GetPivotTables con esempi pratici di codice.
-linktitle: Aggiornare Tabelle Pivot
+title: Aggiornare tabelle pivot e cache pivot in Aspose.Cells for Node.js via C++
+linktitle: Aggiornare tabelle pivot e cache pivot
+description: Scopri come aggiornare le tabelle pivot in Aspose.Cells for Node.js via C++ usando l'API di aggiornamento pivot v26.7+. Questo articolo descrive RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData e GetPivotTables con esempi di codice pratici.
 keywords: Aspose.Cells, Node.js via C++, tabella pivot, aggiornamento, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -11,36 +11,54 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells fornisce un'API di aggiornamento a più livelli che consente di ricaricare i dati delle pivot in quattro ambiti diversi, dall'intera cartella di lavoro fino a una singola tabella pivot. A partire da **Aspose.Cells for Node.js via C++ v26.7**, il metodo legacy `PivotTable.RefreshData()` è contrassegnato come obsoleto e deve essere sostituito con le API più efficienti e consapevoli della cache descritte in questo articolo.
+Aspose.Cells fornisce un'API di aggiornamento su più livelli che consente di ricaricare i dati pivot in quattro ambiti diversi, dall'intera cartella di lavoro fino a una singola tabella pivot. A partire da **Aspose.Cells for Node.js via C++ v26.7**, il metodo tradizionale `PivotTable.RefreshData()` è contrassegnato come obsoleto e deve essere sostituito dalle API più efficienti e che tengono conto della cache descritte in questo articolo.
 {{% /alert %}}
 
-## Introduzione
-Aggiornare una tabella pivot è raramente un'operazione singola. Dietro le quinte, Aspose.Cells mantiene una catena di dati a più livelli che collega i dati di origine originali ai valori renderizzati che vedi nel foglio di lavoro. Comprendere questa catena è la chiave per scegliere l'API di aggiornamento giusta per ogni situazione.
+## Introduction
+L'aggiornamento di una tabella pivot raramente consiste in una singola operazione. Dietro le quinte, Aspose.Cells mantiene una catena di dati su più livelli che collega i dati di origine originali ai valori visualizzati nel foglio di lavoro. La comprensione di questa catena è essenziale per scegliere l'API di aggiornamento giusta in ogni situazione.
 La catena di dati a quattro livelli è:
-1. **Origine dati** — gli intervalli originali del foglio di lavoro, la query del database o l'intervallo di consolidamento in cui risiedono i valori grezzi.
-2. **PivotCache** — l'istantanea in memoria dei dati di origine. Ogni tabella pivot è costruita sopra un `PivotCache`; è qui che tutti i dati vengono raccolti e aggregati.
-3. **PivotTable** — l'oggetto vista che definisce i campi riga, colonna, valore e filtro. Una `PivotTable` legge *solo* dal suo `PivotCache`, mai direttamente dall'origine dati.
-4. **Celle** — le `Cells` del foglio di lavoro in cui la `PivotTable` rende i suoi valori calcolati e gli stili.
+1. **Origine dati** — gli intervalli di origine del foglio di lavoro, la query del database o l'intervallo di consolidamento in cui sono presenti i valori grezzi.
+2. **PivotCache** — l'istantanea in memoria dei dati di origine. Ogni tabella pivot è costruita su un `PivotCache`; qui tutti i dati vengono raccolti e aggregati.
+3. **PivotTable** — l'oggetto visuale che definisce i campi riga, colonna, valore e filtro. Una `PivotTable` legge *solo* dal proprio `PivotCache`, mai direttamente dalla fonte dati.
+4. **Cells** — le `Cells` del foglio di lavoro in cui la `PivotTable` rende i valori calcolati e applica gli stili.
 
 {{% alert color="primary" %}}
-`PivotCache.SourceType` (enum `PivotTableSourceType`) indica da dove provengono i dati della cache. A partire dalla v26.7, `PivotCache.Refresh()` supporta solo i tipi di origine **`Sheet`** e **`Consolidation`**, ovvero dati che risiedono in intervalli del foglio di lavoro. Le origini esterne (database, connessioni esterne, ecc.) non sono ancora aggiornabili tramite l'API della cache.
+`PivotCache.SourceType` (enum `PivotTableSourceType`) indica l'origine dei dati della cache. A partire da v26.7, `PivotCache.refresh()` supporta soltanto i tipi di origine **`Sheet`** e **`Consolidation`**, ovvero i dati contenuti in intervalli di foglio di lavoro. Le origini esterne (database, connessioni esterne, ecc.) non possono ancora essere aggiornate tramite l'API della cache.
+Poiché esiste questa catena, in Aspose.Cells sono disponibili due percorsi fondamentali di aggiornamento:
+- **`PivotTable.calculateData()`** — ricalcola la visualizzazione di una singola `PivotTable` usando i dati già presenti nella cache, senza dover tornare alla fonte dati.
+Tutti gli scenari di questo articolo utilizzano dati di origine contenuti nelle celle del foglio di lavoro, quindi il tipo di origine è `Sheet` e le operazioni di aggiornamento si comportano come descritto.
 {{% /alert %}}
 
-A causa di questa catena, in Aspose.Cells esistono due percorsi di aggiornamento fondamentali:
-- **`PivotTable.CalculateData()`** — ricalcola la visualizzazione di una singola `PivotTable` dai dati già presenti nella cache, senza un ritorno all'origine dati.
-Tutti gli scenari in questo articolo utilizzano dati di origine da celle del foglio di lavoro, quindi il tipo di origine è `Sheet` e le operazioni di aggiornamento si comportano come descritto.
-
-## Avvio rapido
-Se hai bisogno del codice più breve possibile che aggiorni ogni pivot nella cartella di lavoro, è sufficiente una singola chiamata:
+## Quick Start
+Se basta aggiornare tutte le tabelle pivot della cartella di lavoro con il codice più breve possibile, è sufficiente una singola chiamata:
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const workbook = new AsposeCells.Workbook("input.xlsx");
+workbook.refreshAll();
+workbook.save("output.xlsx");
+```
+
+Il resto di questo articolo spiega quando conviene scegliere un'API con un ambito più ristretto.
+
+## Required Imports
+Tutti gli esempi JavaScript di questo articolo presuppongono che il modulo Aspose.Cells for Node.js via C++ sia stato caricato e che i tipi pivot si trovino nel namespace `Aspose.Cells.Pivot`. Una configurazione tipica è:
+- `const AsposeCells = require("aspose.cells.node");`
+- `const { PivotFieldType } = AsposeCells;` (oppure accedere tramite `AsposeCells.Pivot.PivotFieldType`)
+
+## Refresh All Pivot Tables in the Workbook
+Quando è necessario garantire che tutte le cache pivot e tutte le tabelle pivot della cartella di lavoro riflettano i dati di origine più aggiornati, l'API più semplice e completa è `Workbook.refreshAll()`. Una singola chiamata attraversa l'intera cartella di lavoro, aggiornando ogni `PivotCache` dalla propria origine e quindi ricalcolando ogni `PivotTable` dipendente. Questo è l'approccio consigliato per gli aggiornamenti generali dell'intero documento quando le prestazioni non costituiscono un problema.
+L'esempio seguente costruisce una cartella di lavoro con un intervallo di origine Frutto/Anno/Importo, crea una tabella pivot, modifica alcuni valori di origine e quindi utilizza `refreshAll()` per aggiornare tutto con una singola chiamata.
+
+```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// Scrivi la riga di intestazione nelle celle A1:C1
+// Write header row into cells A1:C1
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// Scrivi le righe di dati nelle celle A2:C9 (8 righe di dati sulla frutta nel 2020 e 2021)
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.getCells().get("A2").putValue("grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(50);
@@ -65,35 +83,28 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// Aggiungi una tabella pivot: intervallo di origine "A1:C9", cella di destinazione "E3", nome "Pivot1"
+// Add a pivot table: source range "A1:C9", destination cell "E3", name "Pivot1"
 let pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-// Assegna i campi pivot: Fruit a Righe, Year a Colonne, Amount a Dati
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-// Modifica diversi valori di Amount nei dati di origine per simulare le modifiche
+// Modify several Amount values in the source data to simulate changes
 worksheet.getCells().get("C2").putValue(55);
 worksheet.getCells().get("C5").putValue(85);
 worksheet.getCells().get("C9").putValue(125);
-// Aggiorna ogni tabella pivot / cache pivot nella cartella di lavoro
+// Refresh every pivot table / pivot cache in the workbook
 workbook.refreshAll();
-// Salva la cartella di lavoro
+// Save the workbook
 workbook.save("output.xlsx");
 ```
 
-Tutto il resto in questo articolo spiega quando scegliere un'API più mirata.
-
-## Importazioni richieste
-Tutti gli esempi JavaScript in questo articolo presumono che il modulo Aspose.Cells for Node.js via C++ sia stato caricato e che i tipi pivot risiedano nel namespace `Aspose.Cells.Pivot`. Una configurazione tipica è:
-- `const AsposeCells = require("aspose.cells.node");`
-- `const { PivotFieldType } = AsposeCells;` (oppure accedi tramite `AsposeCells.Pivot.PivotFieldType`)
-
-## Aggiornare tutte le Tabelle Pivot nella cartella di lavoro
-Quando devi garantire che ogni cache pivot e ogni tabella pivot nella cartella di lavoro riflettano i dati di origine più recenti, l'API più semplice e completa è `Workbook.RefreshAll()`. Una singola chiamata attraversa l'intera cartella di lavoro, aggiornando ogni `PivotCache` dalla sua origine e quindi ricalcolando ogni `PivotTable` dipendente. Questo è l'approccio consigliato per aggiornamenti generali e completi del documento quando le prestazioni non sono un problema.
-L'esempio seguente crea una cartella di lavoro con un intervallo di origine Frutto/Anno/Importo, crea una tabella pivot, modifica alcuni valori di origine e quindi utilizza `RefreshAll()` per portare tutto aggiornato in una singola chiamata.
+## Refresh All Pivot Tables on a Single Worksheet
+Talvolta è necessario aggiornare soltanto le tabelle pivot presenti in un determinato foglio di lavoro, ad esempio quando quelle in altri fogli sono note come non correlate e non devono essere modificate. Per questo caso, Aspose.Cells fornisce `Worksheet.refreshPivotTables()`, che opera nell'ambito di una singola istanza di `Worksheet`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.getCells().get("A1").putValue("Fruit");
@@ -135,17 +146,25 @@ worksheet.refreshPivotTables();
 workbook.save("output.xlsx");
 ```
 
-## Aggiornare tutte le Tabelle Pivot su un singolo foglio di lavoro
-A volte è necessario aggiornare solo le tabelle pivot che si trovano su uno specifico foglio di lavoro, ad esempio quando le tabelle pivot su altri fogli di lavoro sono note per essere non correlate e non devono essere toccate. Per questo caso, Aspose.Cells fornisce `Worksheet.RefreshPivotTables()`, che è limitato a una singola istanza di `Worksheet`.
+## Refresh a Single Pivot Table
+Quando si desidera un controllo dettagliato di una singola tabella pivot, l'API basata sulla cache offre due opzioni. La scelta dipende da ciò che è effettivamente cambiato: i dati di origine sottostanti oppure solo le impostazioni di visualizzazione o layout della tabella pivot.
+
+### Source Data Changed — Use `PivotCache.refresh()`
+Se i dati di origine sottostanti sono cambiati, il punto di ingresso corretto è `pivotTable.PivotCache.refresh()`. Questa chiamata rilegge i dati di origine nella cache e quindi ricalcola ogni `PivotTable` che dipende da essa.
+
+### Only View/Layout Changed — Use `calculateData()`
+Se i dati di origine *non* sono cambiati, ma sono state modificate soltanto le impostazioni di visualizzazione o layout della tabella pivot, ad esempio quando un campo è stato spostato in un'area diversa o quando è stata attivata o disattivata un'impostazione di aggiornamento all'apertura, non è necessario tornare alla fonte dati. La cache contiene già i dati corretti; occorre soltanto ricalcolare la `PivotTable` visualizzata. In questo caso, `pivotTable.calculateData()` è la scelta appropriata.
+L'esempio seguente modifica una proprietà della tabella pivot che non riguarda la fonte e quindi chiama `calculateData()` per rigenerarne il rendering dalla cache esistente.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
-// Scrivi la riga di intestazione Frutto / Anno / Importo
+// Write Fruit / Year / Amount header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// Scrivi 8 righe di dati (righe 2-9, adattandosi all'intervallo sorgente A1:C9)
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(100);
@@ -170,65 +189,49 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// Aggiungi una tabella pivot denominata "Pivot1" posizionata nella cella di destinazione E3, con origine da A1:C9
+// Add a pivot table named "Pivot1" placed at destination cell E3, sourcing from A1:C9
 var pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 var pivotTable = worksheet.getPivotTables().get(pivotIndex);
-// Assegna i campi: Fruit a Riga, Year a Colonna, Amount a Dati
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, "Amount");
-// Modifica una proprietà di visualizzazione/layout — è una modifica solo di presentazione,
-// quindi NON richiede la rilettura dei dati sorgente tramite PivotCache.Refresh().
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
-// calculateData() ri-renderizza la visualizzazione di QUESTA tabella pivot (dati + stile) dai
-// dati già presenti nella PivotCache. Poiché i dati sorgente non sono cambiati,
-// non viene eseguito alcun round-trip verso la sorgente — vengono ricalcolati solo i valori
-// memorizzati nella cache nelle celle del foglio di lavoro.
+// calculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.calculateData();
-// Salva la cartella di lavoro su disco
+// Save the workbook to disk
 workbook.save("output.xlsx");
 ```
 
-## Aggiornare una singola Tabella Pivot
-Quando desideri un controllo granulare su una singola tabella pivot, l'API basata sulla cache ti offre due opzioni. La scelta tra esse dipende da cosa è effettivamente cambiato: i dati di origine sottostanti, oppure solo le impostazioni di vista/layout della tabella pivot stessa.
+Una cartella di lavoro contiene spesso molte tabelle pivot, tutte basate sulla stessa cache condivisa. Per enumerarle, ad esempio prima di eseguire un aggiornamento massivo o per diagnosticare l'impatto di una cache condivisa, usare `PivotCache.getPivotTables()`. Questo metodo restituisce la raccolta di tutte le `PivotTable` che dipendono dalla cache specificata.
 
-### Dati di origine modificati — Usa `PivotCache.Refresh()`
-Se i dati di origine sottostanti sono cambiati, il punto di ingresso corretto è `pivotTable.PivotCache.Refresh()`. Questa chiamata rilegge i dati di origine nella cache e quindi ricalcola ogni `PivotTable` che dipende da quella cache.
+## Migrating from the Obsolete `PivotTable.RefreshData()`
+Prima di Aspose.Cells for Node.js via C++ v26.7, il modo standard di aggiornare una tabella pivot era chiamare `PivotTable.RefreshData()` per ogni tabella pivot. A partire da v26.7, il metodo è contrassegnato come **obsoleto** e deve essere sostituito dalle API basate sulla cache descritte in precedenza.
+Esistono due motivi per cui l'approccio basato su `RefreshData()` per singola tabella presenta problemi nelle cartelle di lavoro reali:
+- Riescarica i dati dalla fonte *a ogni chiamata*, anche quando la fonte non è cambiata.
+Le API sostitutive consigliate sono:
+L'esempio seguente dimostra il nuovo schema efficiente per cartelle di lavoro con più tabelle pivot che condividono una singola cache.
 
-### Solo vista/layout modificati — Usa `CalculateData()`
-Se i dati di origine *non* sono cambiati ma sono state modificate solo le impostazioni di vista o layout della tabella pivot (ad esempio, un campo è stato spostato in un'area diversa, o un'impostazione di aggiornamento all'apertura è stata attivata/disattivata), non è necessario tornare all'origine dati. La cache contiene già i dati corretti; deve essere ricalcolata solo la `PivotTable` renderizzata. In questo caso, `pivotTable.CalculateData()` è la scelta giusta.
-L'esempio seguente modifica una proprietà non di origine della tabella pivot e quindi chiama `CalculateData()` per renderizzarla nuovamente dalla cache esistente.
-Una cartella di lavoro spesso contiene molte tabelle pivot che poggiano tutte su una cache condivisa. Per enumerarle, ad esempio prima di eseguire un aggiornamento in blocco o per diagnosticare l'impatto della cache condivisa, usa `PivotCache.GetPivotTables()`. Questo metodo restituisce la raccolta di ogni `PivotTable` che dipende dalla cache specificata.
-
-## Migrazione dall'obsoleto `PivotTable.RefreshData()`
-Prima di Aspose.Cells for Node.js via C++ v26.7, il modo standard per aggiornare una tabella pivot era chiamare `PivotTable.RefreshData()` su ogni tabella pivot singolarmente. Dalla v26.7, quel metodo è contrassegnato come **obsoleto** e deve essere sostituito con le API consapevoli della cache descritte sopra.
-Ci sono due motivi per cui l'approccio `RefreshData()` per tabella è problematico nelle cartelle di lavoro reali:
-- Recupera i dati dall'origine *ogni* volta che viene chiamato, anche quando l'origine non è cambiata.
-Le sostituzioni consigliate sono:
-L'esempio seguente mostra il nuovo schema efficiente per cartelle di lavoro con più tabelle pivot che condividono una singola cache.
-
-## Quale API di aggiornamento devo usare?
-La tabella seguente riassume le API di aggiornamento disponibili e quando scegliere ciascuna di esse.
+## Which Refresh API Should I Use?
+La tabella seguente riepiloga le API di aggiornamento disponibili e indica quando scegliere ciascuna di esse.
 | Obiettivo | API consigliata | Note |
 |------|-----------------|-------|
-| Aggiornare tutto nella cartella di lavoro | `Workbook.RefreshAll()` | Una chiamata; copre tutte le cache e tabelle. |
-| Aggiornare solo le tabelle pivot su un singolo foglio | `Worksheet.RefreshPivotTables()` | Limitato a un singolo foglio di lavoro. |
-| Dati di origine modificati per una cache | `pivotTable.PivotCache.Refresh()` | Aggiorna TUTTE le tabelle pivot su quella cache condivisa. |
-| Solo impostazioni di vista/layout modificate | `pivotTable.CalculateData()` | Salta l'inutile round-trip verso l'origine. |
-| Elencare tutte le tabelle pivot su una cache condivisa | `pivotCache.GetPivotTables()` | Da usare per enumerare prima di un aggiornamento in blocco. |
-In pratica, preferisci le API basate sulla cache rispetto all'obsoleto `RefreshData()` per tabella. Sono consapevoli delle cache condivise, evitano recuperi ridondanti dall'origine e ti permettono di scegliere l'ambito più piccolo che soddisfa la tua esigenza di aggiornamento.
+| Aggiornare tutto il contenuto della cartella di lavoro | `Workbook.refreshAll()` | Una singola chiamata; copre tutte le cache e le tabelle. |
+| Aggiornare solo le tabelle pivot di un singolo foglio | `Worksheet.refreshPivotTables()` | Limitato a un foglio di lavoro. |
+| Modifica dei dati di origine per una cache | `pivotTable.PivotCache.refresh()` | Aggiorna TUTTE le tabelle pivot che utilizzano la cache condivisa. |
+| Modifica delle sole impostazioni di visualizzazione o layout | `pivotTable.calculateData()` | Evita il ritorno non necessario alla fonte. |
+| Elenco di tutte le tabelle pivot basate su una cache condivisa | `pivotCache.getPivotTables()` | Utilizzare per enumerarle prima di un aggiornamento massivo. |
+In pratica, è preferibile utilizzare le API basate sulla cache anziché il metodo obsoleto `RefreshData()` per singola tabella. Queste API tengono conto delle cache condivise, evitano recuperi ridondanti dalla fonte e consentono di scegliere l'ambito più ristretto che soddisfa l'esigenza di aggiornamento.
 
-## Errori comuni
-- **Dimenticare di aggiornare prima di salvare.** Una tabella pivot scrive i suoi valori renderizzati nel foglio di lavoro solo quando la sua catena di dati viene aggiornata. Se modifichi le celle di origine, chiama `PivotCache.Refresh()` (oppure `Workbook.RefreshAll()`) prima di `Workbook.save()`, altrimenti il file salvato conterrà ancora i vecchi valori aggregati.
-- **Chiamare l'obsoleto `RefreshData()` per ogni tabella.** Nella v26.7, `PivotTable.RefreshData()` è contrassegnato come obsoleto e recupera l'origine per ogni chiamata. Con più tabelle pivot che condividono una cache, ciò significa N recuperi ridondanti dall'origine. Sostituiscilo con una singola `PivotCache.Refresh()` seguita da `CalculateData()` per ogni tabella.
-- **Aggiornare quando è cambiato solo il layout.** Se hai modificato solo la vista di una tabella pivot (ordine delle colonne, `ConsolidationFunction`, ecc.) senza toccare i dati di origine, `PivotCache.Refresh()` non è necessario ed è lento. Chiama `pivotTable.CalculateData()` per renderizzare nuovamente dalla cache esistente.
-- **Origine esterna non supportata da `PivotCache.Refresh()`.** Se l'origine della tabella pivot proviene da una connessione esterna (database, cubo OLAP, ecc.), `PivotCache.Refresh()` non può aggiornarla nella v26.7: attualmente supporta solo i tipi di origine `Sheet` e `Consolidation`. Per le origini esterne, riapri la cartella di lavoro o ricostruisci la cache dall'origine.
-
-```csharp
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
-```
+## Common Pitfalls
+- **Dimenticare di aggiornare prima di salvare.** Una tabella pivot scrive i valori visualizzati nel foglio di lavoro solo quando la sua catena di dati viene aggiornata. Se si modificano celle di origine, chiamare `PivotCache.refresh()` (o `Workbook.refreshAll()`) prima di `Workbook.save()`; in caso contrario, il file salvato conterrà ancora i precedenti valori aggregati.
+- **Chiamare il metodo obsoleto `RefreshData()` per ogni tabella.** In v26.7, `PivotTable.RefreshData()` è contrassegnato come obsoleto e ricarica la fonte a ogni chiamata. Quando più tabelle pivot condividono una cache, ciò comporta N recuperi ridondanti dalla fonte. Sostituirlo con una singola chiamata `PivotCache.refresh()` seguita da `calculateData()` per ogni tabella.
+- **Aggiornare quando è cambiato solo il layout.** Se è stata modificata soltanto la visualizzazione di una tabella pivot (ordine delle colonne, `ConsolidationFunction`, ecc.) senza intervenire sui dati di origine, l'operazione `PivotCache.refresh()` non è necessaria e risulta lenta. Chiamare `pivotTable.calculateData()` per rigenerare la tabella dalla cache esistente.
+- **Origine esterna non supportata da `PivotCache.refresh()`.** Se la fonte della tabella pivot proviene da una connessione esterna (database, cubo OLAP, ecc.), `PivotCache.refresh()` non può aggiornarla in v26.7: attualmente supporta soltanto i tipi di origine `Sheet` e `Consolidation`. Per le origini esterne, riaprire la cartella di lavoro oppure ricostruire la cache dalla fonte.
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -36,4 +36,11 @@ keywords: إنشاء جدول دوران، إدراج جدول دوران، تن
 
 ## **مواضيع متقدمة**
 
+## مقالات ذات صلة
+- [إضافة حقول التصفية إلى جدول محوري في Aspose.Cells لـ .NET](/cells/ar/python-net/add-page-field-in-pivot-table/)
+- [تطبيق الأنماط على الجداول المحورية في Aspose.Cells for Python via .NET](/cells/ar/python-net/apply-style-to-pivot-table/)
+- [Modify Page Field Layout in Pivot Table](/cells/ar/python-net/change-page-field-layout/)
+- [Filtering Pivot Tables by Label or Value](/cells/ar/python-net/filter-by-label-or-value-of-pivot-table/)
+- [إدارة حقول القيم في الجدول المحوري في Aspose.Cells لـ .NET](/cells/ar/python-net/manage-value-fields/)
+
 {{< app/cells/assistant language="python-net" >}}

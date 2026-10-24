@@ -72,13 +72,11 @@ Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği 
 
 {{% alert color="primary" %}}
 `Function` değiştirmek yalnızca toplamayı etkiler, kaynak sütun değişmez.
-{{% /alert %}}
-
 Bu nedenle, tek bir özet tablo içinde bir veri alanını `SUM` olarak bırakırken aynı kaynak sütunu hedefleyen ancak `COUNT` veya `AVERAGE` kullanan ikinci bir veri alanı ekleyebilirsiniz.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -119,13 +117,11 @@ Bir özet tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells, `Pi
 
 {{% alert color="primary" %}}
 Hiç değer alanı yoksa veya yalnızca bir tane varsa `PivotTable.getValuesField()` çalışmaz.
-{{% /alert %}}
-
 Aşağıdaki senaryolar, aynı özet tablo yapısına karşı yukarıda açıklanan her bir yeteneği gösteren üç uçtan uca örnekten geçer.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

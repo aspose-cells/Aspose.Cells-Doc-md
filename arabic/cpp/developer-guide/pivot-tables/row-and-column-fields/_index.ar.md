@@ -44,6 +44,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -106,6 +107,7 @@ int main() {
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb;
@@ -209,6 +211,15 @@ int main() {
 
 ## **ملخص**
 
+تختلف السيناريوهات الثلاثة في عنصر واحد فقط: استدعاءات `SetSubtotals`. أما باقي العناصر — مثل مجموعة البيانات، والحقول، والمناطق التي تُعيَّن إليها — فهي متطابقة تمامًا، وهذا ما يجعل التنسيقات قابلة للمقارنة المباشرة.
+- **وضع الحقول.** يقوم `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` بنقل عمود مصدر إلى منطقة. وداخل منطقة واحدة، يحدد ترتيب الاستدعاءات ترتيب العرض، لذا يصبح أول استدعاء هو المجموعة الخارجية. وتحتاج المبالغ الجزئية إلى حقلين أو أكثر داخل منطقة واحدة: فمع وجود حقل واحد لا توجد أي عناصر بين المجموعات يمكن احتساب المبالغ الجزئية لها.
+- **السيناريو ١ — المبالغ الجزئية التلقائية.** ترك `SetSubtotals` دون استدعائه يترك خيار اتخاذ القرار لبرنامج إكسل، الذي يطبّق المبلغ الجزئي الافتراضي الخاص به على الحقول الرقمية. أما استدعاء `SetSubtotals` مع `PivotFieldSubtotalType::Automatic` فيسجّل هذا الاختيار صراحةً بدلاً من تركه ضمنيًا.
+- **السيناريو ٢ — عدم وجود مبالغ جزئية.** يؤدي استدعاء `SetSubtotals` مع `PivotFieldSubtotalType::None` إلى إيقاف المبلغ الجزئي الافتراضي، ليبقى الجدول المحوري على حاله من حيث صفوف الحقول والمجموع الكلي، مع حذف صفوف المبالغ الجزئية التي كان برنامج إكسل سيُدخلها بينها في الحالة الاعتيادية.
+- **السيناريو ٣ — مجموعة مختارة.** يُفعّل أو يُعطّل كل استدعاء نوع مبلغ جزئي واحد بالضبط، وتتراكم الاستدعاءات بدلاً من إعادة تعيين بعضها البعض. لذا فإن استدعاء `SetSubtotals` مرة واحدة مع `PivotFieldSubtotalType::Sum` ومرة أخرى مع `PivotFieldSubtotalType::Average` يُبقي كليهما مفعّلين، ويرسم الجدول المحوري مبلغًا جزئيًّا للجمع، ومبلغًا جزئيًّا للمتوسط، والمجموع الكلي.
+
+{{% alert color="primary" %}}
+لا يوجد شيء في المبالغ الجزئية متعلق بالمنطقة الصفية تحديدًا. فالاستدعاءات نفسها `SetSubtotals` على حقل يتم أخذه من `PivotTable.ColumnFields` تنتج نفس التصميمات الثلاثة على المحور العمودي، لأن الإعداد ينتمي إلى حقل المحور pivot field وليس إلى المحور الذي يقع عليه.
+{{% /alert %}}
 ## **مقالات ذات صلة**
 - [حقول الصفحات في الجداول المحورية](/cells/ar/cpp/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for C++](/cells/ar/cpp/refresh-pivot-table/)

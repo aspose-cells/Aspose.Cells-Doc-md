@@ -25,9 +25,8 @@ Temel API'ler şunlardır:
 
 {{% alert color="primary" %}}
 Çıktı HTML veya PDF olduğunda `updateSelectedValue()` kaydetmeden önce çağrılmalıdır; aksi takdirde dışa aktarılan dosya resim verilerini içermeyecek ve Kamera, işlenmiş çıktıda boş görünecektir.
-{{% /alert %}}
-
 Aşağıdaki kod bir çalışma kitabı oluşturur, satır 10 sütun 6'ya sabitlenmiş boş bir resim ekler, `setFormula` aracılığıyla onu kaynak aralık `A1:F10`'a bağlar, gömülü görüntü verilerini yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```java
 import java.io.InputStream;

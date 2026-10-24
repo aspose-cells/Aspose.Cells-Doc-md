@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells تدعم تقسيم ملف Excel واحد إلى ملفات متعددة. هناك طريقتان أساسيتان للقيام بذلك: (1) عن طريق نسخ كل ورقة عمل من المصنف المصدر إلى مصنف جديد وحفظ كل منها كملف منفصل، و(2) عن طريق نسخ نطاق خلايا محدد من ورقة عمل إلى مصنف جديد. كلتا الطريقتين مفيدتان عندما تحتاج إلى توزيع مجموعات فرعية من البيانات، أو إنشاء تقارير أصغر لمستلمين مختلفين، أو عزل البيانات للمعالجة الفردية.
+{{% /alert %}}
 
 ## **مقدمة**
 هناك العديد من السيناريوهات الواقعية التي يحتاج فيها المطور إلى تقسيم ملف Excel واحد إلى عدة ملفات أصغر. على سبيل المثال، قد يحتوي المصنف على ورقة عمل واحدة لكل قسم، ويحتاج كل رئيس قسم إلى استلام ورقته الخاصة فقط. في حالات أخرى، قد ترغب في استخراج جدول أو كتلة بيانات معينة من ورقة عمل وإرسالها كملف مستقل عبر البريد الإلكتروني، دون الكشف عن باقي المصنف. قد تحتاج المصنفات الكبيرة الموحدة أيضًا إلى تقسيمها إلى أجزاء أصغر لتسهيل التعامل معها، أو تحميلها بشكل أسرع، أو معالجتها لاحقًا بواسطة أنظمة أخرى.
@@ -41,19 +42,19 @@ import aspose.cells as ac
 import os
 data_dir = "data/"
 workbook = ac.Workbook(data_dir + "book1.xls")
-for i in range(workbook.worksheets.count):
+for i in range(len(workbook.worksheets)):
     source_sheet = workbook.worksheets[i]
     sheet_name = source_sheet.name
-    
+
     dest_workbook = ac.Workbook()
     dest_index = dest_workbook.worksheets.add()
     dest_sheet = dest_workbook.worksheets[dest_index]
     dest_sheet.name = sheet_name
-    
+
     dest_sheet.copy(source_sheet)
-    
+
     dest_file = data_dir + sheet_name + ".xls"
-    dest_workbook.save(dest_file, ac.SaveFormat.EXCEL97_TO_2003)
+    dest_workbook.save(dest_file, ac.SaveFormat.EXCEL_97_TO_2003)
 ```
 
 الناتج المتوقع هو مجموعة من الملفات الجديدة في دليل البيانات، ملف واحد لكل ورقة عمل من المصنف المصدر. كل ملف مسمى باسم ورقة المصدر المقابلة له، ويحتوي الملف على البيانات (وبشكل اختياري التنسيق) لتلك الورقة الواحدة.
@@ -76,6 +77,5 @@ for i in range(workbook.worksheets.count):
 
 ### **مثال على الكود**
 الناتج المتوقع هو ملف جديد واحد في دليل البيانات يحتوي فقط على القيم (وبشكل اختياري التنسيق) للنطاق المحدد المستخرج من المصنف المصدر. ملف الوجهة لا تربطه علاقة بأي بيانات أخرى في الملف المصدر؛ فهو يحتوي فقط على النطاق المستخرج، بدءًا من الخلية `A1` في ورقة العمل الأولى الخاصة به.
-{{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

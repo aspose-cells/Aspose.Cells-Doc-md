@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge la création de sparklines à l'intérieur des cellules de la feuille de calcul. Les sparklines sont des mini-graphiques qui tiennent dans une seule cellule, fournissant une représentation visuelle rapide des tendances des données. Aspose.Cells prend en charge les sparklines linéaires, en colonnes et gain/perte, et chacune peut être personnalisée en termes de couleur, d'épaisseur de ligne, de points hauts/bas et de marqueurs.
+{{% /alert %}}
 
 ## **Introduction**
 Les sparklines sont de petits graphiques in-cell qui sont utiles lorsque vous souhaitez afficher une tendance rapide à côté d'une ligne ou d'une colonne de données sans occuper l'espace d'un graphique complet. Excel prend en charge trois types de sparklines : **ligne**, **colonne** et **gain/perte**. Aspose.Cells reproduit cette fonctionnalité via les API `SparklineGroup` et `SparklineGroupCollection` que l'on trouve dans le namespace `Aspose.Cells.Charts`.
@@ -29,7 +30,7 @@ Une sparkline linéaire trace une ligne continue à travers les points de donné
 L'exemple suivant crée un classeur, écrit les valeurs 5, -3, 8, -2, 6 dans les cellules A1 à E1, et ajoute une sparkline linéaire dans la cellule F1 qui trace ces valeurs. Il personnalise également la couleur de la ligne en rouge et active les marqueurs pour les points hauts et bas.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Étape 1 : Créer un classeur et obtenir la première feuille de calcul
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -42,10 +43,10 @@ cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
 // Étape 3 : Construire un CellArea pointant vers la cellule de destination F1
 const dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // colonne F (indexée à partir de 0)
-dest.setEndColumn(5);
-dest.setStartRow(0);      // ligne 1 (indexée à partir de 0)
-dest.setEndRow(0);
+dest.StartColumn = 5;   // colonne F (indexée à partir de 0)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // ligne 1 (indexée à partir de 0)
+dest.EndRow = 0;
 // Étape 4 : Ajouter un sparkline de type Ligne depuis A1:E1 dans F1
 // SparklineGroups.Add renvoie l'index du groupe nouvellement ajouté
 const index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, dest);
@@ -72,6 +73,7 @@ La procédure est calquée sur l'exemple de la sparkline linéaire :
 L'exemple ci-dessous écrit les valeurs 5, -3, 8, -2, 6 dans A1:E1 et restitue une sparkline en colonnes dans F1. Les valeurs négatives sont dessinées sous forme de barres descendant vers le bas et les valeurs positives sous forme de barres montant vers le haut, ce qui permet de repérer d'un coup d'œil les contributions positives et négatives.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Étape 2 : Écrire des valeurs d'exemple dans A1:E1
@@ -81,10 +83,10 @@ for (let i = 0; i < values.length; i++) {
 }
 // Étape 3 : Construire un CellArea pointant vers F1 (indice de colonne 5, indice de ligne 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Étape 4 : Ajouter un sparkline de type Colonne à la cellule de destination
 let idx = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Column, "A1:E1", false, dest);
@@ -107,6 +109,7 @@ Dans Aspose.Cells, une sparkline gain/perte est créée en passant `SparklineTyp
 6. Enregistrez le classeur sous un nom de fichier distinct afin que les trois exemples puissent coexister sur le disque.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -118,10 +121,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Étape 3 : Construire un CellArea pointant vers F1 (colonne 5, ligne 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F
-dest.setEndColumn(5);
-dest.setStartRow(0);      // ligne 1
-dest.setEndRow(0);
+dest.StartColumn = 5;   // F
+dest.EndColumn = 5;
+dest.StartRow = 0;      // ligne 1
+dest.EndRow = 0;
 // Étape 4 : Ajouter un sparkline Win/Loss (SparklineType.Stacked)
 let groupIndex = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Stacked,
@@ -159,6 +162,7 @@ console.log("Workbook saved successfully: output_winloss.xlsx");
 L'exemple combiné ci-dessous crée un seul classeur, remplit la ligne 1 avec les valeurs 5, -3, 8, -2, 6, puis ajoute trois groupes de sparklines dans les cellules F1, F2 et F3 — un de chaque type — de sorte que le fichier résultant démontre les trois styles de sparklines en une seule fois.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Étape 2 : Remplir des données d'exemple dans la ligne 1 (A1:E1)
@@ -169,10 +173,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Étape 3 : Ajouter un groupe de sparklines de type ligne à F1
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
 // Personnaliser la couleur de la sparkline de type ligne via CellsColor
@@ -181,10 +185,10 @@ lineColor.setColor(AsposeCells.Color.Blue);
 lineGroup.setSeriesColor(lineColor);
 // Étape 4 : Ajouter un groupe de sparklines de type colonne à F2
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(5);
-columnArea.setEndColumn(5);
-columnArea.setStartRow(1);
-columnArea.setEndRow(1);
+columnArea.StartColumn = 5;
+columnArea.EndColumn = 5;
+columnArea.StartRow = 1;
+columnArea.EndRow = 1;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
 // Personnaliser la couleur de la série de sparklines de type colonne
@@ -193,10 +197,10 @@ columnColor.setColor(AsposeCells.Color.Green);
 columnGroup.setSeriesColor(columnColor);
 // Étape 5 : Ajouter un groupe de sparklines de type gain/perte (empilé) à F3
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(5);
-stackedArea.setEndColumn(5);
-stackedArea.setStartRow(2);
-stackedArea.setEndRow(2);
+stackedArea.StartColumn = 5;
+stackedArea.EndColumn = 5;
+stackedArea.StartRow = 2;
+stackedArea.EndRow = 2;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
 // Personnaliser la couleur de la série de sparklines gain/perte
@@ -215,6 +219,5 @@ Une fois qu'un `SparklineGroup` a été créé et ajouté à `worksheet.sparklin
 - **Marqueurs des points hauts/bas** — des indicateurs qui activent de petits marqueurs sur les points de données les plus hauts et les plus bas, utiles pour mettre en évidence les extrêmes.
 - **Marqueurs des points premier/dernier/négatif** — des indicateurs qui activent/désactivent les marqueurs sur les points de données premier, dernier et négatif.
 Pour changer une couleur, créez toujours une instance de `CellsColor` et affectez-la à la propriété appropriée. N'affectez pas directement un `System.Drawing.Color` aux propriétés de couleur des sparklines — elles attendent le type `CellsColor` de `Aspose.Cells.Drawing`. La méthode `sparklineGroups.add` elle-même renvoie un objet `SparklineGroup` entièrement typé, vous pouvez donc enchaîner les affectations de propriétés sur la valeur de retour ou la stocker dans une variable locale et la personnaliser avant l'enregistrement.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

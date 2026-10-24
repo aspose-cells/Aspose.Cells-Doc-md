@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Sparklines sind Miniaturdiagramme, die in Arbeitsblattzellen platziert werden. Aspose.Cells ermöglicht es Ihnen, jede Sparkline als eigenständiges Bild zu extrahieren (zum Einbetten in eine andere Zelle oder einen externen Bericht) und das gesamte sparkline-reiche Arbeitsblatt zur browserbasierten Verteilung nach HTML zu exportieren. Die in diesem Artikel verwendete Eigenschaft `Cell.EmbeddedImage` ist in **Aspose.Cells 26.5 und höher** verfügbar.
+{{% /alert %}}
 
 ## **Einführung**
 Sparklines sind eine kompakte Möglichkeit, Trends direkt innerhalb eines Arbeitsblatts zu visualisieren. Während Excel-Benutzer sie an Ort und Stelle sehen, erfordern viele reale Szenarien, dass eine Sparkline die Zelle verlässt – zum Beispiel, um als statisches Bild in eine andere Zelle eingebettet, an eine automatisierte E-Mail angehängt oder als Teil eines HTML-Berichts für das Web gerendert zu werden.
@@ -45,13 +46,13 @@ worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Eine Linien-Sparkline-Gruppe verankert bei F1 (Spalte 5, Zeile 0) hinzufügen
-CellArea lineArea = CellArea.createCellArea(5, 0, 5, 0);
+CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5);
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
 // Eine Säulen-Sparkline-Gruppe verankert bei G1 (Spalte 6, Zeile 0) hinzufügen
-CellArea columnArea = CellArea.createCellArea(6, 0, 6, 0);
+CellArea columnArea = CellArea.createCellArea(0, 6, 0, 6);
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
 // Eine Gewinn/Verlust (Gestapelt) Sparkline-Gruppe verankert bei H1 (Spalte 7, Zeile 0) hinzufügen
-CellArea stackedArea = CellArea.createCellArea(7, 0, 7, 0);
+CellArea stackedArea = CellArea.createCellArea(0, 7, 0, 7);
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
 // Bildoptionen für die PNG-Ausgabe konfigurieren
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
@@ -79,6 +80,7 @@ Der obige Code erzeugt eine Arbeitsmappe, in der jede visuelle Darstellung einer
 
 {{% alert color="primary" %}}
 Da jede Sparkline-Gruppe an einer einzelnen Zelle verankert ist, können Sie sie über den Indexer `group.getSparklines().get(0)` ansprechen, anstatt mit einer `for`-Schleife zu enumerieren. Dies hält den Rendering-Code kurz und entspricht dem typischen Muster „eine Sparkline pro Ankerzelle". Das Speichern der Bildbytes über `Cell.EmbeddedImage` (gesetzt durch `setEmbeddedImage`) erfordert Aspose.Cells 26.5 oder höher.
+{{% /alert %}}
 
 ## **Workflow 2 – Das Sparkline-Arbeitsblatt nach HTML exportieren**
 Sobald die Arbeitsmappe aktive Sparklines (und optional eingebettete Bildgegenstücke) enthält, kann das gesamte Arbeitsblatt im Web veröffentlicht werden, indem es als HTML gespeichert wird. Die Klasse `HtmlSaveOptions` bietet die Einstellungen, die Sie zur Steuerung dieses Exports benötigen; in diesem Workflow verwenden Sie die in Workflow 1 erzeugte Datei `output_with_sparklines.xlsx` erneut und konvertieren sie in ein sauberes, einseitiges HTML-Dokument.
@@ -101,6 +103,7 @@ Der obige Code nimmt die sparkline-reiche Arbeitsmappe aus Workflow 1 und wandel
 
 {{% alert color="primary" %}}
 Die Klasse `HtmlSaveOptions` bietet zusätzliche Eigenschaften zur Feinabstimmung der Ausgabe, wie z. B. `ExportHiddenWorksheet`, `ExportImagesAsBase64` und `Encoding`. Passen Sie diese nach Bedarf für Ihr Bereitstellungsziel an.
+{{% /alert %}}
 
 ## **API-Zusammenfassung**
 Die obigen Workflows basieren auf einer kleinen Gruppe von Aspose.Cells-APIs, die zusammenarbeiten.
@@ -115,10 +118,5 @@ Die obigen Workflows basieren auf einer kleinen Gruppe von Aspose.Cells-APIs, di
 - [Sparklines in Aspose.Cells for Java](/cells/de/java/sparkline/)
 - [Einfügen eines Bildes in eine Zelle](/cells/de/java/inserting-an-image-into-a-cell/)
 - [SmartMarker Single Cell Array Rendering | Aspose.Cells Java](/cells/de/java/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

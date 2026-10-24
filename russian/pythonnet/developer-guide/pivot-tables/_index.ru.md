@@ -36,4 +36,11 @@ Aspose.Cells для Python via .NET предоставляет специаль�
 
 ## **Продвинутые темы**
 
+## Связанные статьи
+- [Добавить поля фильтров в сводную таблицу в Aspose.Cells для .NET](/cells/ru/python-net/add-page-field-in-pivot-table/)
+- [Применение стилей к сводным таблицам в Aspose.Cells for Python via .NET](/cells/ru/python-net/apply-style-to-pivot-table/)
+- [Modify Page Field Layout in Pivot Table](/cells/ru/python-net/change-page-field-layout/)
+- [Filtering Pivot Tables by Label or Value](/cells/ru/python-net/filter-by-label-or-value-of-pivot-table/)
+- [Управление полями значений сводной таблицы в Aspose.Cells для .NET](/cells/ru/python-net/manage-value-fields/)
+
 {{< app/cells/assistant language="python-net" >}}

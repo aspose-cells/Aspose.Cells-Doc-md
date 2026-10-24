@@ -44,6 +44,7 @@ Alt toplamlar yalnızca satır bölgesinde (veya sütun bölgesinde) iki veya da
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -106,6 +107,7 @@ int main() {
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb;
@@ -209,6 +211,15 @@ int main() {
 
 ## **Özet**
 
+Üretilen üç senaryo yalnızca bir bakımdan birbirinden farklıdır: `SetSubtotals` çağrıları. Diğer tüm unsurlar — veri kümesi, alanlar ve bunlara atandıkları bölgeler — aynıdır; bu da düzenlerin doğrudan karşılaştırılabilir olmasını sağlar.
+- **Alanların yerleştirilmesi.** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` bir kaynak sütunu bir bölgeye taşır. Bir bölge içinde, çağrıların sırası ekran sırasını belirler; dolayısıyla ilk çağrı en dıştaki grubu oluşturur. Alt toplamlar için aynı bölgede iki veya daha fazla alana ihtiyaç vardır: tek bir alanla gruplar arasında alt toplam yapılacak bir şey bulunmaz.
+- **Senaryo 1 — otomatik alt toplamlar.** `SetSubtotals`’ın çağrılmaması, seçimi Excel’e bırakır; Excel sayısal alanlara kendi öntanımlı alt toplamını uygular. `PivotFieldSubtotalType::Automatic` ile `SetSubtotals`’ın çağrılması, bu seçimi açıkça kaydeder ve dolaylı bırakmaz.
+- **Senaryo 2 — alt toplamsız.** `PivotFieldSubtotalType::None` ile `SetSubtotals`’ın çağrılması, öntanımlı alt toplamı devre dışı bırakır; bu sayede pivottablosu alan satırlarını ve genel toplamı korur, ancak aksi takdirde Excel’in araya ekleyeceği alt toplam satırlarını kaldırır.
+- **Senaryo 3 — seçilmiş bir alt küme.** Her çağrı tam olarak bir alt toplam türünü açıp kapatır ve çağrılar birbirlerini sıfırlamak yerine birikir. Bu nedenle `PivotFieldSubtotalType::Sum` ile bir kez, `PivotFieldSubtotalType::Average` ile bir kez çağrılması her ikisini de etkin bırakır ve pivottablosu bir Toplam alt toplamı, bir Ortalama alt toplamı ve bir genel toplamı oluşturur.
+
+{{% alert color="primary" %}}
+Alt toplamlarla ilgili hiçbir şey, satır bölgesine özgü değildir. `PivotTable.ColumnFields`’ten alınmış bir alana aynı `SetSubtotals` çağrılarının yapılması, ayar alanı değil eksenin kendisine ait olduğundan, sütun ekseninde aynı üç düzeni oluşturur.
+{{% /alert %}}
 ## **İlgili Makaleler**
 - [Pivot Tablolarında Sayfa Alanları](/cells/tr/cpp/add-page-field-in-pivot-table/)
 - [Aspose.Cells for C++ ile Pivot Tablolarını Yenileme](/cells/tr/cpp/refresh-pivot-table/)

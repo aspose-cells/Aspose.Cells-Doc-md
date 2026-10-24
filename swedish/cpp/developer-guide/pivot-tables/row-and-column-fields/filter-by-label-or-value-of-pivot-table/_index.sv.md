@@ -32,6 +32,7 @@ Följande exempel läser in en arbetsbok som innehåller en befintlig pivottabel
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     U16String fileName(u"sample.xlsx");
@@ -60,10 +61,9 @@ Datumfilter låter dig begränsa en pivottabell efter datumbaserade kriterier s�
 
 {{% alert color="primary" %}}
 Datumfiltret fungerar endast när rad- eller kolumnområdet endast innehåller datum- och tidsceller eller tomma värden. Om det underliggande fältet innehåller andra datatyper som tal eller text kommer datumfiltret inte att ge det förväntade resultatet. Se till att fältet är formaterat som ett datum och att alla värden är giltiga `DateTime`-instanser eller tomma celler innan du tillämpar detta filter.
-{{% /alert %}}
-
 Aspose.Cells exponerar datumfiltrering genom metoden `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)`. Uppräkningen `PivotFilterType` innehåller dedikerade datumvärden som `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` och `Between`. Beroende på vald filtertyp skickar du ett eller två `DateTime`-värden (för `Between` skickar du start- och slutdatum).
 Följande exempel läser in en arbetsbok med en pivottabell vars radområde innehåller ett datumfält, tillämpar ett datumfilter som begränsar de synliga posterna till ett visst datumintervall, uppdaterar pivottabellen och sparar arbetsboken.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -111,6 +111,7 @@ Följande exempel läser in en arbetsbok med en pivottabell, tillämpar ett vär
 #include "Aspose.Cells.h"
 #include <cfloat>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb(u"sample.xlsx");
@@ -144,10 +145,9 @@ Topp 10-filtret är en specialiserad form av värdefilter som endast behåller d
 
 {{% alert color="primary" %}}
 Topp 10-filtret är endast effektivt när pivottabellen har ett eller flera värdepivotfält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mått att rangordna posterna mot, och filtret kan inte tillämpas.
-{{% /alert %}}
-
 Aspose.Cells exponerar topp 10-filtrering genom metoden `PivotField.FilterTop10(int32_t itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Parametern `itemCount` anger hur många poster som ska behållas, `isTop` anger om de översta posterna (true) eller de understa posterna (false) ska behållas, `valueField` refererar till det datafält som används för rangordning, och `filterType` styr hur värdet beräknas (vanligtvis `Sum`, men även `Count` och `Percent`).
 Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att endast behålla de 10 översta posterna efter summa av försäljning, uppdaterar pivottabellen och sparar arbetsboken.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -182,6 +182,7 @@ Detta tillvägagångssätt är användbart när filtreringsregeln är oregelbund
 #include "Aspose.Cells.h"
 #include <string>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Ladda en befintlig arbetsbok som innehåller en pivottabell

@@ -89,6 +89,73 @@ workbook.Save("output.xls");
 
 ## **Применение современного именованного предустановленного стиля сводной таблицы**
 
+`PivotTable.PivotTableStyleType` выбирает один из встроенных именованных стилей, которые Excel 2007 представил для сводных таблиц. Перечисление `PivotTableStyleType` предоставляет три семейства тем: светлое семейство от `PivotTableStyleLight1` до `PivotTableStyleLight28`, среднее семейство от `PivotTableStyleMedium1` до `PivotTableStyleMedium28` и темное семейство от `PivotTableStyleDark1` до `PivotTableStyleDark28`. Оно также определяет `None` и `Custom`. Члены с более высокими номерами в каждом семействе — это стили, добавленные в Excel 2017.
+Эти предустановки доступны только для чтения. Как только необходимо изменить цвета, границы или шрифты сверх того, что предоставляет предустановка, следует определить пользовательский стиль сводной таблицы, как показано в [Сценарии 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**Почему современные предустановки, а не автоформатирование серий отчетов?** Значения `Report1`—`Report10` и `Table1`—`Table10` перечисления `PivotTableAutoFormatType` существовали до появления полей столбцов сводных таблиц, поэтому они не содержат оформления для заголовков полей столбцов, и Excel отображает такие заголовки без оформления. Предустановки `PivotTableStyleType` разработаны для двумерной компоновки, которую использует современный Excel, и одинаково оформляют заголовки полей строк и полей столбцов.
+{{% /alert %}}
+
+В этом сценарии повторно используется набор данных Fruit/Year/Amount из сценария 1, поле `Year` добавляется в область столбцов рядом с полем строк `Fruit` с помощью `PivotFieldType.Column`, применяется предустановка темной темы `PivotTableStyleDark1` с помощью `PivotTable.PivotTableStyleType`, а результат сохраняется в формате `.xlsx` — формате, для которого `PivotTableStyleType` имеет смысл.
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+// Сценарий 2: применение современного именованного встроенного стиля Excel 2007+ с помощью PivotTableStyleType.
+// Целевой формат файла: .xlsx. Перечисление PivotTableStyleType находится в пространстве имен Aspose.Cells
+// (а не в Aspose.Cells.Pivot) -- поэтому нам не нужен дополнительный оператор using для него.
+// Ссылка на GitHub: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.Worksheets[0];
+// Строка заголовков: Fruit / Year / Amount
+worksheet.Cells["A1"].PutValue("Fruit");
+worksheet.Cells["B1"].PutValue("Year");
+worksheet.Cells["C1"].PutValue("Amount");
+// 9 строк данных с полями Fruit / Year / Amount
+worksheet.Cells["A2"].PutValue("Grape");
+worksheet.Cells["B2"].PutValue(2020);
+worksheet.Cells["C2"].PutValue(100);
+worksheet.Cells["A3"].PutValue("Blueberry");
+worksheet.Cells["B3"].PutValue(2020);
+worksheet.Cells["C3"].PutValue(150);
+worksheet.Cells["A4"].PutValue("Kiwi");
+worksheet.Cells["B4"].PutValue(2020);
+worksheet.Cells["C4"].PutValue(200);
+worksheet.Cells["A5"].PutValue("Cherry");
+worksheet.Cells["B5"].PutValue(2020);
+worksheet.Cells["C5"].PutValue(180);
+worksheet.Cells["A6"].PutValue("Grape");
+worksheet.Cells["B6"].PutValue(2021);
+worksheet.Cells["C6"].PutValue(120);
+worksheet.Cells["A7"].PutValue("Blueberry");
+worksheet.Cells["B7"].PutValue(2021);
+worksheet.Cells["C7"].PutValue(170);
+worksheet.Cells["A8"].PutValue("Kiwi");
+worksheet.Cells["B8"].PutValue(2021);
+worksheet.Cells["C8"].PutValue(210);
+worksheet.Cells["A9"].PutValue("Cherry");
+worksheet.Cells["B9"].PutValue(2021);
+worksheet.Cells["C9"].PutValue(190);
+worksheet.Cells["A10"].PutValue("Grape");
+worksheet.Cells["B10"].PutValue(2021);
+worksheet.Cells["C10"].PutValue(130);
+// Добавление сводной таблицы в E3 с именем "Pivot1" на основе данных из A1:C10
+int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Назначение полей сводной таблицы: Fruit -> область строк, Year -> область столбцов, Amount -> область данных
+pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
+pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+// Применение современного именованного встроенного стиля сводной таблицы Excel 2007+.
+// PivotTableStyleType — подходящий API для файлов .xlsx / .xlsm / .xlsb; AutoFormatType
+// игнорируется Excel для этих форматов. PivotTableStyleDark1 принадлежит семейству темных тем
+// (PivotTableStyleDark1..PivotTableStyleDark28), и то же перечисление также предоставляет
+// более новые светлые и темные темы Excel 2017 (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
+// Сохранение в современном формате .xlsx -- именно в этом формате PivotTableStyleType имеет смысл.
+workbook.Save("output.xlsx");
+```
 ## **Определение и применение пользовательского стиля сводной таблицы**
 Встроенные предустановки не могут быть изменены. Когда вам нужно переопределить цвета, границы или шрифты, необходимо определить пользовательский стиль сводной таблицы. Рабочий процесс состоит из трёх шагов:
 1. Добавьте пользовательский стиль в коллекцию `TableStyles` рабочей книги через `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)`. Этот метод возвращает индекс вновь созданного стиля.
@@ -97,10 +164,9 @@ workbook.Save("output.xls");
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` и `PivotTableStyleType` не взаимозаменяемы. Используйте `PivotTableStyleType` для встроенных предустановок и `PivotTableStyleName` для пользовательских стилей, определённых через `AddPivotTableStyle`. Установка обоих свойств безвредна, но отображается только то, которое соответствует предполагаемому источнику.
-{{% /alert %}}
-
 Доступные значения `TableStyleElementType` включают `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` и `PageFieldValues`.
 Следующий пример определяет пользовательский стиль сводной таблицы с тонкой чёрной границей для `WholeTable` и жирным красным шрифтом для `GrandTotalRow`, затем применяет его через `PivotTableStyleName` и сохраняет как `.xlsx`.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -179,9 +245,8 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 `FormatAll` переопределяет и `PivotTableStyleType`, и `PivotTableStyleName`. Используйте его только в том случае, когда требуется единообразный, не зависящий от темы внешний вид по всей сводной таблице.
-{{% /alert %}}
-
 Следующий пример создаёт `Style` с жёлтой сплошной заливкой, жирным тёмно-синим шрифтом и тонкими чёрными границами со всех сторон, затем применяет его с помощью `FormatAll` и сохраняет как `.xlsx`.
+{{% /alert %}}
 
 ```csharp
 using System;

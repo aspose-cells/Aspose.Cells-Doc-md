@@ -17,6 +17,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **Minigráficos de líneas**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
@@ -28,13 +29,13 @@ cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
 // Step 3: Build a CellArea pointing to destination cell F1
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // column F (0-indexed)
-dest.setEndColumn(5);
-dest.setStartRow(0);      // row 1 (0-indexed)
-dest.setEndRow(0);
+dest.StartColumn = 5;   // column F (0-indexed)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // row 1 (0-indexed)
+dest.EndRow = 0;
 // Step 4: Add a Line sparkline from A1:E1 into F1
 // SparklineGroups.Add returns the index of the newly added group
-let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, dest);
+let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(index);
 // Step 5: Create a red CellsColor and assign it to the sparkline line color
 let red = workbook.createCellsColor();
@@ -50,6 +51,7 @@ workbook.save("output_line.xlsx");
 ## **Minigráficos de columnas**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Paso 2: Escribir valores de muestra en A1:E1
@@ -59,13 +61,13 @@ for (let i = 0; i < values.length; i++) {
 }
 // Paso 3: Construir un CellArea que apunte a F1 (índice de columna 5, índice de fila 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Paso 4: Agregar un minigráfico de columna a la celda de destino
 let idx = worksheet.getSparklineGroups().add(
-    AsposeCells.SparklineType.Column, "A1:E1", false, dest);
+    AsposeCells.SparklineType.COLUMN, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(idx);
 // Paso 5: Confirmar el tipo de minigráfico leyendo group.Type
 console.log("Tipo de minigráfico agregado: " + group.getType());
@@ -77,6 +79,7 @@ console.log("Libro de trabajo guardado como output_column.xlsx");
 ## **Minigráficos de victorias/derrotas**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -88,13 +91,13 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Paso 3: Construir un CellArea apuntando a F1 (columna 5, fila 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F
-dest.setEndColumn(5);
-dest.setStartRow(0);      // fila 1
-dest.setEndRow(0);
-// Paso 4: Agregar un minigráfico de Ganancias/Pérdidas (SparklineType.Stacked)
+dest.StartColumn = 5;   // F
+dest.EndColumn = 5;
+dest.StartRow = 0;      // fila 1
+dest.EndRow = 0;
+// Paso 4: Agregar un minigráfico de Ganancias/Pérdidas (SparklineType.STACKED)
 let groupIndex = worksheet.getSparklineGroups().add(
-    AsposeCells.SparklineType.Stacked,
+    AsposeCells.SparklineType.STACKED,
     "A1:E1",
     false,
     dest
@@ -129,6 +132,7 @@ console.log("Libro guardado exitosamente: output_winloss.xlsx");
 ## **Combinando los tres tipos de minigráficos**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Paso 2: Poblar datos de muestra en la fila 1 (A1:E1)
@@ -139,11 +143,11 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Paso 3: Agregar un grupo de minigráficos de línea en F1
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
 // Personalizar el color del minigráfico de línea mediante CellsColor
 let lineColor = workbook.createCellsColor();
@@ -151,11 +155,11 @@ lineColor.setColor(AsposeCells.Color.getBlue());
 lineGroup.setSeriesColor(lineColor);
 // Paso 4: Agregar un grupo de minigráficos de columna en F2
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(5);
-columnArea.setEndColumn(5);
-columnArea.setStartRow(1);
-columnArea.setEndRow(1);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 5;
+columnArea.EndColumn = 5;
+columnArea.StartRow = 1;
+columnArea.EndRow = 1;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
 // Personalizar el color de la serie del minigráfico de columna
 let columnColor = workbook.createCellsColor();
@@ -163,11 +167,11 @@ columnColor.setColor(AsposeCells.Color.getGreen());
 columnGroup.setSeriesColor(columnColor);
 // Paso 5: Agregar un grupo de minigráficos de victoria/derrota (apilados) en F3
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(5);
-stackedArea.setEndColumn(5);
-stackedArea.setStartRow(2);
-stackedArea.setEndRow(2);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 5;
+stackedArea.EndColumn = 5;
+stackedArea.StartRow = 2;
+stackedArea.EndRow = 2;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
 // Personalizar el color de la serie del minigráfico de victoria/derrota
 let stackedColor = workbook.createCellsColor();
@@ -183,4 +187,4 @@ workbook.save("output_all.xlsx");
 Aspose.Cells admite la creación de minigráficos dentro de celdas de hojas de cálculo. Los minigráficos son gráficos en miniatura que caben dentro de una sola celda y proporcionan una representación visual rápida de las tendencias de los datos. Aspose.Cells admite minigráficos de líneas, columnas y victorias/derrotas, y cada uno se puede personalizar en cuanto a color, grosor de línea, puntos altos/bajos y marcadores.
 {{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

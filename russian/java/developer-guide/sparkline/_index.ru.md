@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells поддерживает создание спарклайнов внутри ячеек рабочего листа. Спарклайны — это миниатюрные диаграммы, которые помещаются в одной ячейке и обеспечивают быстрое визуальное представление тенденций данных. Aspose.Cells поддерживает линейные, столбцовые спарклайны, а также спарклайны победа/поражение, каждый из которых можно настроить по цвету, толщине линии, верхним/нижним точкам и маркерам.
+{{% /alert %}}
 
 ## **Введение**
 Спарклайны — это крошечные внутриклеточные диаграммы, которые полезны, когда требуется отобразить быструю тенденцию рядом со строкой или столбцом данных, не занимая пространство полноценной диаграммы. Excel поддерживает три вида спарклайнов: **линейные**, **столбцовые** и **победа/поражение**. Aspose.Cells дублирует эту возможность через API `SparklineGroup` и `SparklineGroupCollection`, которые находятся в пространстве имён `Aspose.Cells.Charts`.
@@ -29,43 +30,36 @@ Aspose.Cells поддерживает создание спарклайнов в
 В следующем примере создаётся рабочая книга, значения 5, -3, 8, -2, 6 записываются в ячейки от A1 до E1, а в ячейку F1 добавляется линейный спарклайн, отслеживающий эти значения. Также настраивается красный цвет линии и включаются маркеры для верхних и нижних точек.
 
 ```java
-public class CodeRunner {
-    public static void main(String[] args) {
-        try {
-            // Шаг 1: Создайте Workbook и получите первый рабочий лист
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.getWorksheets().get(0);
-            Cells cells = worksheet.getCells();
-            // Шаг 2: Запишите примеры значений 5, -3, 8, -2, 6 в ячейки A1:E1
-            cells.get("A1").putValue(5);
-            cells.get("B1").putValue(-3);
-            cells.get("C1").putValue(8);
-            cells.get("D1").putValue(-2);
-            cells.get("E1").putValue(6);
-            // Шаг 3: Создайте CellArea, указывающую на ячейку назначения F1
-            CellArea dest = new CellArea();
-            dest.StartColumn = 5;   // столбец F (нумерация с 0)
-            dest.EndColumn = 5;
-            dest.StartRow = 0;      // строка 1 (нумерация с 0)
-            dest.EndRow = 0;
-            // Шаг 4: Добавьте спарклайн-линию из A1:E1 в F1
-            // SparklineGroups.add возвращает индекс только что добавленной группы
-            int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
-            SparklineGroup group = worksheet.getSparklineGroups().get(index);
-            // Шаг 5: Создайте красный CellsColor и назначьте его цветом линии спарклайна
-            CellsColor red = workbook.createCellsColor();
-            red.setColor(com.aspose.cells.Color.getRed());
-            group.setSeriesColor(red);
-            // Шаг 6: Включите маркеры высоких и низких точек
-            group.setShowHighPoint(true);
-            group.setShowLowPoint(true);
-            // Шаг 7: Сохраните книгу
-            workbook.save("output_line.xlsx");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
+import com.aspose.cells.*;
+// Шаг 1: Создайте Workbook и получите первый рабочий лист
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+Cells cells = worksheet.getCells();
+// Шаг 2: Запишите примеры значений 5, -3, 8, -2, 6 в ячейки A1:E1
+cells.get("A1").putValue(5);
+cells.get("B1").putValue(-3);
+cells.get("C1").putValue(8);
+cells.get("D1").putValue(-2);
+cells.get("E1").putValue(6);
+// Шаг 3: Создайте CellArea, указывающую на ячейку назначения F1
+CellArea dest = new CellArea();
+dest.StartColumn = 5;   // столбец F (нумерация с 0)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // строка 1 (нумерация с 0)
+dest.EndRow = 0;
+// Шаг 4: Добавьте спарклайн-линию из A1:E1 в F1
+// SparklineGroups.add возвращает индекс только что добавленной группы
+int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
+SparklineGroup group = worksheet.getSparklineGroups().get(index);
+// Шаг 5: Создайте красный CellsColor и назначьте его цветом линии спарклайна
+CellsColor red = workbook.createCellsColor();
+red.setColor(com.aspose.cells.Color.getRed());
+group.setSeriesColor(red);
+// Шаг 6: Включите маркеры высоких и низких точек
+group.setShowHighPoint(true);
+group.setShowLowPoint(true);
+// Шаг 7: Сохраните книгу
+workbook.save("output_line.xlsx");
 ```
 
 ## **Столбцовые спарклайны**
@@ -90,10 +84,10 @@ for (int i = 0; i < values.length; i++) {
 }
 // Build a CellArea pointing to F1 (column index 5, row index 0)
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Add a Column sparkline to the destination cell
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
@@ -116,9 +110,6 @@ System.out.println("Workbook saved as output_column.xlsx");
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.charts.*;
-import com.aspose.cells.drawing.*;
-import java.awt.Color;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -130,10 +121,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Создание CellArea, указывающей на F1 (столбец 5, строка 0)
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Добавление спарклайн-диаграммы "Победа/Поражение" (SparklineType.Stacked)
 int groupIndex = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(groupIndex);
@@ -143,19 +134,19 @@ group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
 // Установка зелёного цвета для точки максимума
 CellsColor highColor = workbook.createCellsColor();
-highColor.setColor(Color.GREEN);
+highColor.setColor(Color.getGreen());
 group.setHighPointColor(highColor);
 // Установка красного цвета для точки минимума
 CellsColor lowColor = workbook.createCellsColor();
-lowColor.setColor(Color.RED);
+lowColor.setColor(Color.getRed());
 group.setLowPointColor(lowColor);
 // Установка оранжевого цвета для отрицательных точек
 CellsColor negColor = workbook.createCellsColor();
-negColor.setColor(Color.ORANGE);
+negColor.setColor(Color.getOrange());
 group.setNegativePointsColor(negColor);
 // Установка цвета серии по умолчанию (используется для положительных столбцов)
 CellsColor seriesColor = workbook.createCellsColor();
-seriesColor.setColor(new Color(70, 130, 180)); // Приближение к SteelBlue
+seriesColor.setColor(Color.fromArgb(70, 130, 180)); // Приближение к SteelBlue
 group.setSeriesColor(seriesColor);
 // Сохранение рабочей книги
 workbook.save("output_winloss.xlsx");
@@ -212,6 +203,5 @@ workbook.save("output_all.xlsx");
 - **Маркеры верхних/нижних точек** — флаги, которые включают небольшие маркеры на самых высоких и самых низких точках данных, что полезно для выделения экстремумов.
 - **Маркеры первой/последней/отрицательной точки** — флаги, которые переключают маркеры на первой, последней и отрицательной точках данных.
 Чтобы изменить цвет, всегда создавайте экземпляр `CellsColor` и присваивайте его соответствующему свойству. Не присваивайте `java.awt.Color` непосредственно свойствам цвета спарклайна — они ожидают тип `CellsColor` из `Aspose.Cells.Drawing`. Сам метод `add` возвращает полностью типизированный объект `SparklineGroup`, поэтому вы можете объединять присваивания свойств в возвращаемом значении или сохранить его в локальной переменной и настроить перед сохранением.
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

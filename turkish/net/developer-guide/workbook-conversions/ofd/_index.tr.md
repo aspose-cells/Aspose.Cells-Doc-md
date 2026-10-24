@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, `SaveFormat.Ofd` numaralandırma değerini kullanarak Excel çalışma kitaplarını doğrudan OFD (Açık Sabit Düzen Belgesi) biçimine dönüştürmeyi destekler. Elde edilen OFD belgesi; çalışma kitabının görünür düzenini, içeriğini, birleştirilmiş hücrelerini, sütun genişliklerini, satır yüksekliklerini, yazı tiplerini, renklerini, kenarlıklarını ve sayı biçimlerini korur. Bu durum, Aspose.Cells'i sabit düzenli çıktı gerektiren arşivleme, yazdırma, mevzuata uygun dosya sunma ve kamu makamlarına gönderim iş akışları için uygun hâle getirir.
+{{% /alert %}}
 
 ## **Giriş**
 OFD (Açık Sabit Düzen Belgesi), dijital belgeleri sabit ve sayfa tabanlı bir düzende temsil etmeye yönelik Çin ulusal standardıdır (GB/T 33190-2016). Kaynak belgenin görsel görünümünün hazırlandığı biçimiyle tam olarak korunması gereken kullanım senaryolarında PDF'ye benzer bir rol üstlenir. OFD, Çin Halk Cumhuriyeti'nde kamu kurumlarına sunum, mevzuata uygun dosya sunma, elektronik faturalar ve uzun süreli arşivleme amacıyla yaygın olarak kullanılmaktadır.
@@ -19,6 +20,7 @@ Excel çalışma kitaplarını OFD biçimine dönüştürme; elektronik tablo i�
 
 {{% alert color="primary" %}}
 Aspose.Cells tarafından oluşturulan OFD çıktısı, hücre içeriği, birleştirilmiş hücreler, sütun genişlikleri ve satır yükseklikleri dahil olmak üzere kaynak çalışma kitabının görünür düzenini korur. Yazı tipleri, renkler, kenarlıklar, hizalama ve sayı biçimleri gibi hücre biçimlendirmeleri de sabit düzenli çıktıda korunur. Kağıt boyutu, yönlendirme ve yazdırma alanı gibi çalışma sayfasında yapılandırılan sayfa yapısı seçenekleri, elde edilen OFD belgesinin düzenini etkiler.
+{{% /alert %}}
 
 ## **Excel Çalışma Kitabı Oluşturma ve OFD Olarak Kaydetme**
 Aspose.Cells, programlı olarak bir çalışma kitabı oluşturmanıza, verilerle doldurmanıza ve ardından `SaveFormat.Ofd` numaralandırmasını kullanarak doğrudan OFD biçiminde kaydetmenize olanak tanır. Aşağıdaki örnek sıfırdan bir fatura oluşturur. Şirket logosu, üstbilgi bilgileri, fatura edilecek taraf bölümü, kalemler ve hesaplanan toplamlar ekledikten sonra çalışma kitabını OFD belgesi olarak dışa aktarır.
@@ -80,7 +82,8 @@ headerTotal.PutValue("Total");
 Style headerStyle = workbook.CreateStyle();
 headerStyle.Font.IsBold = true;
 headerStyle.Font.Color = Color.White;
-headerStyle.BackgroundColor = Color.Navy;
+headerStyle.ForegroundColor = Color.Navy;
+headerStyle.Pattern = BackgroundType.Solid;
 headerStyle.HorizontalAlignment = TextAlignmentType.Center;
 headerStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 headerStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
@@ -119,7 +122,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
     descCell.PutValue(lineItems[i, 0]);
     qtyCell.PutValue(lineItems[i, 1]);
     priceCell.PutValue(lineItems[i, 2]);
-    totalCell.Formula = "C" + row + "*D" + row;
+    totalCell.Formula = "C" + (row + 1) + "*D" + (row + 1);
     descCell.SetStyle(borderStyle);
     qtyCell.SetStyle(borderStyle);
     priceCell.SetStyle(currencyStyle);
@@ -128,7 +131,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
 // Ara toplam, vergi, genel toplam
 worksheet.Cells["B24"].PutValue("Subtotal:");
 Cell subtotalCell = worksheet.Cells["E24"];
-subtotalCell.Formula = "SUM(E20:E22)";
+subtotalCell.Formula = "SUM(E21:E23)";
 worksheet.Cells["B25"].PutValue("Tax (10%):");
 Cell taxCell = worksheet.Cells["E25"];
 taxCell.Formula = "E24*0.1";
@@ -197,9 +200,5 @@ Console.WriteLine("\nPrint area set to: " + printArea);
 workbook.Save(dataDir + "SampleBook.ofd", SaveFormat.Ofd);
 Console.WriteLine("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 ```
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="csharp" >}}

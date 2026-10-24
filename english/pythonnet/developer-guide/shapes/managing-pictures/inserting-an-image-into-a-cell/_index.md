@@ -37,6 +37,7 @@ The picture's anchor is defined by four zero-based index properties:
 
 {{% alert color="primary" %}}
 Row and column indices in Aspose.Cells are **zero-based**. Cell C6 has row index 5 and column index 2. Off-by-one errors on the lower-right anchor are the most common source of pictures that appear to overlap into an adjacent cell.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `Picture.placement` is an enum of type `PlacementType` that controls how the picture behaves when the user resizes the row or column beneath it. The recommended value for a single-cell picture is `PlacementType.MOVE_AND_SIZE`, which causes the picture to move and resize together with its underlying cell, preserving the exact fit.
@@ -54,6 +55,7 @@ The following code demonstrates the complete approach.
 
 ```python
 import aspose.cells as ac
+from aspose.cells.drawing import PlacementType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 with open("logo.png", "rb") as fs:
@@ -63,7 +65,7 @@ with open("logo.png", "rb") as fs:
     picture.upper_left_column = 2
     picture.lower_right_row = 6
     picture.lower_right_column = 3
-    picture.placement = ac.PlacementType.MOVE_AND_SIZE
+    picture.placement = PlacementType.MOVE_AND_SIZE
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
 
@@ -80,7 +82,7 @@ This makes `Cell.embedded_image` the most concise option when your goal is simpl
 1. Create a new `Workbook` (or open an existing one).
 2. Access the target `Worksheet` from `workbook.worksheets[0]`.
 3. Read the image file from disk into a `bytes` object (for example, by opening the file in binary mode and calling `.read()`).
-4. Get a reference to the target cell — either through `worksheet.cells["C6"]` or `worksheet.cells[5, 2]`.
+4. Get a reference to the target cell — either through `worksheet.cells.get("C6")` or `worksheet.cells.get(5, 2)`.
 5. Assign the bytes object to the cell's `embedded_image` property.
 6. Optionally adjust the row height and column width of the target row and column to give the embedded image a more prominent appearance.
 7. Save the workbook to disk as an `.xlsx` file.
@@ -91,15 +93,15 @@ import aspose.cells as ac
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Get the target cell C6
-cell = worksheet.cells["C6"]
+cell = worksheet.cells.get("C6")
 # Read the image file into a byte array
 with open("logo.png", "rb") as f:
     imageData = f.read()
 # Embed the image directly into the cell
 cell.embedded_image = imageData
 # Optionally adjust row height and column width so the embedded image is more visible
-worksheet.cells.set_column_width(2, 30)   # Column C (index 2)
-worksheet.cells.set_row_height(5, 100)     # Row 6 (index 5)
+worksheet.cells.set_column_width(2, 30.0)   # Column C (index 2)
+worksheet.cells.set_row_height(5, 100.0)     # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
@@ -114,7 +116,6 @@ Both approaches produce a picture that fits inside a single cell, but they diffe
 - **Use an embedded image (Approach 2) when:**
   - You want the simplest possible insertion of an image into a cell.
   - The image should travel with the cell like any other cell content.
-{{% /alert %}}
 
 ## Related Articles
 - [Excel Camera in Aspose.Cells for Python via .NET](/cells/python-net/excel-camera/)
@@ -123,4 +124,4 @@ Both approaches produce a picture that fits inside a single cell, but they diffe
 - [Modify Page Field Layout in Pivot Table](/cells/python-net/change-page-field-layout/)
 - [Convert Sparkline to Image and HTML in Aspose.Cells for Python via .NET](/cells/python-net/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

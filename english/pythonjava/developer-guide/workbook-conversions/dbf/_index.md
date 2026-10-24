@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells provides full support for reading and writing DBF (dBASE) files. You can load existing dBASE III and dBASE IV files into a Workbook object, manipulate the data using the rich Aspose.Cells API, and save the workbook back to the DBF format for use with legacy database applications.
+{{% /alert %}}
 
 ## **Introduction**
 DBF (DataBase File) is a legacy database file format originally introduced by dBASE in the early 1980s. Despite the age of the format, DBF files are still widely used in many industries for storing structured data, particularly in accounting, GIS, and other specialized applications. Aspose.Cells allows you to integrate these legacy files into modern Python via Java spreadsheet workflows seamlessly.
@@ -45,18 +46,18 @@ When working with DBF files, keep the following constraints in mind:
 Aspose.Cells makes it straightforward to load data from a DBF file into a Workbook object. The library uses the `LoadOptions` class to specify the source format, ensuring that the data is interpreted correctly during the loading process.
 
 ### Reading a DBF File with Aspose.Cells
-To read a DBF file, you need to create a `LoadOptions` instance, set its `LoadFormat` property to `LoadFormat.Dbf`, and pass it to the `Workbook` constructor along with the file path. Once loaded, the data becomes accessible through the `Worksheets` collection, where you can iterate through cells, extract values, or manipulate the data as needed.
+To read a DBF file, you need to create a `LoadOptions` instance, set its `LoadFormat` property to `LoadFormat.DBF`, and pass it to the `Workbook` constructor along with the file path. Once loaded, the data becomes accessible through the `Worksheets` collection, where you can iterate through cells, extract values, or manipulate the data as needed.
 The following example demonstrates how to load an existing DBF file into Aspose.Cells, access its first worksheet, and read the cell values.
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, LoadOptions, LoadFormat, SaveFormat
 dataDir = "Data/"
 filePath = os.path.join(dataDir, "example.dbf")
-loadOptions = LoadOptions(LoadFormat.Dbf)
+loadOptions = LoadOptions(LoadFormat.DBF)
 workbook = Workbook(filePath, loadOptions)
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
@@ -71,30 +72,32 @@ for i in range(maxRow + 1):
     sb.append("|" + "\n")
 print("".join(sb))
 outputPath = os.path.join(dataDir, "output.xlsx")
-workbook.save(outputPath, SaveFormat.Xlsx)
+workbook.save(outputPath, SaveFormat.XLSX)
 print("DBF file loaded successfully. Converted XLSX saved at: " + outputPath)
 jpype.shutdownJVM()
 ```
 
 {{% alert color="primary" %}}
 You can open DBF files directly in Microsoft Excel by selecting the file in the Open dialog. Excel will treat the DBF file as a spreadsheet, displaying its records in a tabular layout. This is useful for quickly verifying the data after reading or writing it with Aspose.Cells.
+{{% /alert %}}
 
 ## **Writing a DBF File**
-Writing data to a DBF file follows a similar pattern to saving any other spreadsheet format with Aspose.Cells. You create or load a Workbook, populate the worksheet with data, and then call the `Save` method while specifying `SaveFormat.Dbf` as the target format.
+Writing data to a DBF file follows a similar pattern to saving any other spreadsheet format with Aspose.Cells. You create or load a Workbook, populate the worksheet with data, and then call the `Save` method while specifying `SaveFormat.DBF` as the target format.
 
 ### Writing a DBF File with Aspose.Cells
 To create a DBF file, follow these steps:
 1. Create a new `Workbook` instance.
 2. Access the first worksheet from the `Worksheets` collection.
 3. Populate the worksheet with your data, including headers in the first row and records in subsequent rows.
-4. Call the `Workbook.save` method, passing the file path and `SaveFormat.Dbf` as parameters.
+4. Call the `Workbook.save` method, passing the file path and `SaveFormat.DBF` as parameters.
 The following example demonstrates how to create a new DBF file from scratch. It populates a worksheet with sample data containing different data types (strings, numbers, and dates) to illustrate how field types are handled when exporting to the DBF format.
 
 ```python
 import jpype
+import os
+import jpype.imports
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat
 import java.time as _jt
 import java.util as _ju
@@ -147,12 +150,13 @@ worksheet.getCells().setColumnWidth(1, 20)
 worksheet.getCells().setColumnWidth(2, 20)
 worksheet.getCells().setColumnWidth(3, 12)
 worksheet.getCells().setColumnWidth(4, 14)
-workbook.save(filePath, SaveFormat.DBf)
+workbook.save(filePath, SaveFormat.DBF)
 jpype.shutdownJVM()
 ```
 
 {{% alert color="primary" %}}
 When writing data to a DBF file, ensure that your data conforms to the format's limitations. Field names should be no longer than 10 characters and should not contain spaces. Records exceeding 4000 bytes in total will not be saved correctly. Dates should be valid date values that can be represented in the YYYYMMDD format.
+{{% /alert %}}
 
 ## **Data Type and Formatting Considerations**
 When transferring data between Aspose.Cells and the DBF format, understanding how data types map between the two systems is important for ensuring data integrity.
@@ -179,10 +183,5 @@ After writing a DBF file, you can verify the result by opening it in Microsoft E
 
 ## **Converting Between DBF and Other Formats**
 One of the most practical use cases for reading and writing DBF files with Aspose.Cells is converting data between the DBF format and modern spreadsheet formats such as XLSX, XLS, or CSV. Since Aspose.Cells supports a wide range of formats, you can easily load a DBF file and re-save it in any other supported format, or vice versa.
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

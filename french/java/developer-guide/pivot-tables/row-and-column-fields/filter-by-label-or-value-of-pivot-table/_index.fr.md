@@ -54,10 +54,9 @@ Les filtres de date vous permettent de restreindre un tableau croisé dynamique 
 
 {{% alert color="primary" %}}
 Le filtre de date fonctionne uniquement lorsque la zone de ligne ou de colonne contient uniquement des cellules de date-heure ou des valeurs vides. Si le champ sous-jacent contient d'autres types de données tels que des nombres ou du texte, le filtre de date ne produira pas le résultat attendu. Assurez-vous que le champ est formaté en tant que date et que toutes les valeurs sont des instances `DateTime` valides ou des cellules vides avant d'appliquer ce filtre.
-{{% /alert %}}
-
 Aspose.Cells expose le filtrage par date via la méthode `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. L'énumération `PivotFilterType` contient des valeurs de date dédiées telles que `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear`, et `Between`. Selon le type de filtre choisi, vous passez une ou deux valeurs `DateTime` (pour `Between`, vous passez les dates de début et de fin).
 L'exemple suivant charge un classeur contenant un tableau croisé dynamique dont la zone de ligne contient un champ de date, applique un filtre de date qui restreint les éléments visibles à une plage de dates particulière, actualise le tableau croisé dynamique, et enregistre le classeur.
+{{% /alert %}}
 
 ```java
 import java.io.File;
@@ -123,10 +122,9 @@ Le filtre des 10 meilleurs est une forme spécialisée de filtre de valeur qui n
 
 {{% alert color="primary" %}}
 Le filtre des 10 meilleurs n'est efficace que lorsque le tableau croisé dynamique possède un ou plusieurs champs de valeur dans la zone de données. Sans au moins un champ de valeur, il n'y a aucune mesure agrégée pour classer les éléments, et le filtre ne peut pas être appliqué.
-{{% /alert %}}
-
 Aspose.Cells expose le filtrage des 10 meilleurs via la méthode `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)`. Le paramètre `itemCount` définit combien d'éléments conserver, `isTop` indique s'il faut conserver les éléments supérieurs (true) ou les éléments inférieurs (false), `valueField` référence le champ de données utilisé pour le classement, et `filterType` contrôle la manière dont la valeur est calculée (généralement `Sum`, mais aussi `Count` et `Percent`).
 L'exemple suivant charge un classeur contenant un tableau croisé dynamique qui contient un champ de valeur, applique un filtre des 10 meilleurs pour ne conserver que les 10 éléments les plus élevés par la somme des ventes, actualise le tableau croisé dynamique, et enregistre le classeur.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -153,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (top N ; false signifierait bottom N)
 //   - valueFieldIndex = l'index du champ de données utilisé pour classer les éléments
-rowField.filterTop10(10, PivotFilterType.SUM, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
 // Actualiser les données du tableau croisé dynamique et les recalculer pour que le filtre prenne effet
 pivotTable.refreshData();
 // Enregistrer le classeur
@@ -180,12 +178,12 @@ for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.getPivotItems().get(i);
     // Hide pivot items that match a specific name/criterion
-    if (item.getName() == "Item1" || item.getName() == "Item2")
+    if (item.getName().equals("Item1") || item.getName().equals("Item2"))
     {
         item.setHidden(true);
     }
     // Demonstrate unhiding: re-show a previously hidden pivot item
-    if (item.getName() == "Item3")
+    if (item.getName().equals("Item3"))
     {
         item.setHidden(false);
     }

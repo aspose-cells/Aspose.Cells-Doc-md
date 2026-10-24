@@ -2,7 +2,7 @@
 title: 将 Excel 转换为 OFD 格式
 description: Aspose.Cells for Python via Java 是一个用于处理电子表格文件的库，支持将 Excel 工作簿转换为 OFD (Open Fixed-layout Document) 格式。本文演示如何使用 Aspose.Cells for Python via Java 创建 Excel 内容并将其导出为 OFD，以及如何将现有 Excel 文件转换为 OFD。
 linktitle: 将 Excel 转换为 OFD 格式
-keywords: Aspose.Cells, Python via Java 库, 电子表格, Excel 转 OFD, OFD 转换, SaveFormat.Ofd, 固定版式文档, 工作簿导出
+keywords: Aspose.Cells, Python via Java 库, 电子表格, Excel 转 OFD, OFD 转换, SaveFormat.OFD, 固定版式文档, 工作簿导出
 type: docs
 weight: 195
 url: /zh/python-java/converting-excel-to-ofd-format/
@@ -11,26 +11,27 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells for Python via Java 支持使用 `SaveFormat.Ofd` 枚举值将 Excel 工作簿直接转换为 OFD (Open Fixed-layout Document) 格式。生成的 OFD 文档保留了工作簿的可见布局、内容、合并单元格、列宽、行高、字体、颜色、边框以及数字格式。这使得 Aspose.Cells for Python via Java 适用于需要固定版式输出的归档、打印、监管申报以及政府提交工作流程。
+Aspose.Cells for Python via Java 支持使用 `SaveFormat.OFD` 枚举值将 Excel 工作簿直接转换为 OFD (Open Fixed-layout Document) 格式。生成的 OFD 文档保留了工作簿的可见布局、内容、合并单元格、列宽、行高、字体、颜色、边框以及数字格式。这使得 Aspose.Cells for Python via Java 适用于需要固定版式输出的归档、打印、监管申报以及政府提交工作流程。
+{{% /alert %}}
 
 ## **简介**
 OFD (Open Fixed-layout Document) 是用于以固定、基于页面的布局表示数字文档的中国国家标准 (GB/T 33190-2016)。在源文档的视觉外观必须与原始排版完全一致的使用场景中，它承担着与 PDF 相似的角色。OFD 在中华人民共和国的政府提交、监管申报、电子发票以及长期归档等领域得到广泛应用。
-将 Excel 工作簿转换为 OFD 是一个常见的需求场景，即电子表格内容必须以只读、版式锁定的文档形式分发，而不是作为可编辑的电子表格。例如将最终发票发送给客户、归档季度财务报告，或将预算电子表格提交给监管机构。Aspose.Cells for Python via Java 通过 `SaveFormat.Ofd` 枚举值满足此需求，该值可将工作簿直接写入 OFD，无需中间转换步骤。OFD 输出保留了工作簿中配置的单元格值、合并区域、字体、颜色、边框、数字格式以及页面设置选项。
+将 Excel 工作簿转换为 OFD 是一个常见的需求场景，即电子表格内容必须以只读、版式锁定的文档形式分发，而不是作为可编辑的电子表格。例如将最终发票发送给客户、归档季度财务报告，或将预算电子表格提交给监管机构。Aspose.Cells for Python via Java 通过 `SaveFormat.OFD` 枚举值满足此需求，该值可将工作簿直接写入 OFD，无需中间转换步骤。OFD 输出保留了工作簿中配置的单元格值、合并区域、字体、颜色、边框、数字格式以及页面设置选项。
 
 {{% alert color="primary" %}}
 Aspose.Cells for Python via Java 生成的 OFD 输出保留了源工作簿的可见布局，包括单元格内容、合并单元格、列宽和行高。字体、颜色、边框、对齐方式和数字格式等单元格格式也会在固定版式输出中呈现。工作表上配置的页面设置选项（如纸张大小、方向和打印区域）会影响生成的 OFD 文档的布局。
+{{% /alert %}}
 
 ## **创建 Excel 工作簿并保存为 OFD**
-Aspose.Cells for Python via Java 允许您以编程方式构建工作簿，向其中填充数据，然后使用 `SaveFormat.Ofd` 枚举直接将其保存为 OFD 格式。以下示例从头开始创建一张发票。它添加了公司徽标、抬头信息、收款方区域、明细行以及计算后的合计金额，然后将工作簿导出为 OFD 文档。
+Aspose.Cells for Python via Java 允许您以编程方式构建工作簿，向其中填充数据，然后使用 `SaveFormat.OFD` 枚举直接将其保存为 OFD 格式。以下示例从头开始创建一张发票。它添加了公司徽标、抬头信息、收款方区域、明细行以及计算后的合计金额，然后将工作簿导出为 OFD 文档。
 
 ### **构建带徽标的发票**
-该示例通过在左上角插入徽标图像来构建发票工作表，填写公司名称和联系信息，在合并单元格中添加 "INVOICE" 标题，记录发票编号和日期，列出收款方客户信息，并构建一个包含描述、数量、单价和合计列的明细行表格，然后使用单元格公式计算小计、税额和总计。使用 `Style` 和 `Font` 对象应用粗体标题、价格的货币格式、边框和列宽等格式。最后，使用 `SaveFormat.Ofd` 将工作簿保存为 `.ofd` 扩展名的文件。
+该示例通过在左上角插入徽标图像来构建发票工作表，填写公司名称和联系信息，在合并单元格中添加 "INVOICE" 标题，记录发票编号和日期，列出收款方客户信息，并构建一个包含描述、数量、单价和合计列的明细行表格，然后使用单元格公式计算小计、税额和总计。使用 `Style` 和 `Font` 对象应用粗体标题、价格的货币格式、边框和列宽等格式。最后，使用 `SaveFormat.OFD` 将工作簿保存为 `.ofd` 扩展名的文件。
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, Style, Cell, TextAlignmentType, BorderType, CellBorderType, Color
 dataDir = "/tmp/"
 # 创建一个新的工作簿
@@ -84,10 +85,10 @@ headerStyle.getFont().setBold(True)
 headerStyle.getFont().setColor(Color.getWhite())
 headerStyle.setBackgroundColor(Color.getNavy())
 headerStyle.setHorizontalAlignment(TextAlignmentType.CENTER)
-headerStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-headerStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+headerStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 headerDesc.setStyle(headerStyle)
 headerQty.setStyle(headerStyle)
 headerPrice.setStyle(headerStyle)
@@ -95,16 +96,16 @@ headerTotal.setStyle(headerStyle)
 # 带边框的货币样式
 currencyStyle = workbook.createStyle()
 currencyStyle.setCustom("\"$\"#,##0.00")
-currencyStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-currencyStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+currencyStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # 用于描述/数量单元格的普通边框样式
 borderStyle = workbook.createStyle()
-borderStyle.getBorders().get(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
-borderStyle.getBorders().get(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN)
+borderStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 # 详细行项目行
 lineItems = [
     ["Product A - Widget", 2, 50.00],
@@ -149,7 +150,7 @@ worksheet.getCells().get("B24").setStyle(boldStyle)
 worksheet.getCells().get("B25").setStyle(boldStyle)
 worksheet.getCells().get("B26").setStyle(boldStyle)
 # 将工作簿保存为 OFD 文件
-workbook.save(dataDir + "Invoice.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "Invoice.ofd", SaveFormat.OFD)
 jpype.shutdownJVM()
 ```
 
@@ -194,7 +195,7 @@ printArea = "A1:" + lastColLetter + str(lastRow + 1)
 firstSheet.getPageSetup().setPrintArea(printArea)
 print("\nPrint area set to: " + printArea)
 # (6) 将工作簿保存为 OFD 文件
-workbook.save(dataDir + "SampleBook.ofd", SaveFormat.Ofd)
+workbook.save(dataDir + "SampleBook.ofd", SaveFormat.OFD)
 print("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd")
 jpype.shutdownJVM()
 ```
@@ -204,8 +205,5 @@ jpype.shutdownJVM()
 - [将图像插入单元格](/cells/zh/python-java/inserting-an-image-into-a-cell/)
 - [读取和写入 DBF 文件](/cells/zh/python-java/dbf/)
 - [在 Aspose.Cells for Python via Java 中将迷你图转换为图像和 HTML](/cells/zh/python-java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

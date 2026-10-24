@@ -1,8 +1,8 @@
 ---
-title: Agregar campos de fila y columna a una tabla dinámica en Aspose.Cells para .NET
-description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.SetSubtotals in Aspose.Cells for Node.js via C++
-linktitle: Campos de fila y columna
-keywords: Aspose.Cells, Node.js, C++, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals
+title: Agregar campos de fila y columna a tablas dinámicas en Aspose.Cells for Node.js mediante C++
+linktitle: Agregar campos de fila y columna a tablas dinámicas en Aspose.Cells for Node.js mediante C++
+description: Aprenda a agregar campos base a las regiones de filas y columnas de una tabla dinámica y a controlar los subtotales de los campos de la tabla dinámica mediante PivotField.SetSubtotals en Aspose.Cells for Node.js mediante C++
+keywords: Aspose.Cells, Node.js, C++, tabla dinámica, campo de fila, campo de columna, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotales
 type: docs
 weight: 220
 url: /es/nodejs-cpp/pivot-table-add-row-and-column-fields/
@@ -10,20 +10,19 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Añadir un campo a la región de fila o columna**
-El método `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` mueve un campo base desde los datos de origen a una de las cuatro regiones de la tabla dinámica. El argumento `fieldType` acepta uno de los siguientes valores de `PivotFieldType`.
+## **Agregar un campo a la región de filas o columnas**
+El método `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` mueve un campo base desde los datos de origen hasta una de las cuatro regiones de la tabla dinámica. El argumento `fieldType` acepta uno de los siguientes valores de `PivotFieldType`.
 - `Row` — campos colocados verticalmente a la izquierda
 - `Column` — campos colocados horizontalmente en la parte superior
 - `Data` — campos cuyos valores se agregan
-- `Page` — campos utilizados como filtros de informe
-Después de añadir los campos, puede acceder a ellos a través de las propiedades `PivotTable.RowFields` y `PivotTable.ColumnFields`. Cada propiedad devuelve un `PivotFieldCollection`. El campo en el índice 0 de `RowFields` es el campo de fila más externo, y los índices siguientes representan campos anidados dentro de él. La misma convención de indexación se aplica a `ColumnFields`.
-El orden de anidamiento de los campos es importante. Añadir `Category` a la región de fila primero y luego `Item` produce una tabla dinámica cuya agrupación externa es `Category` y cuya agrupación interna es `Item`. Invertir el orden invierte la jerarquía.
+- `Page` — campos utilizados como filtros del informe
+El orden de anidamiento de los campos es importante. Al agregar primero `Category` a la región de filas y luego `Item`, se obtiene una tabla dinámica cuya agrupación exterior es `Category` y cuya agrupación interior es `Item`. Si se invierte el orden, se invierte la jerarquía.
 
-## **Subtotales de campos dinámicos**
-El método `PivotField.SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` controla qué filas de subtotal aparecen para un campo dinámico. Cada llamada activa un único tipo de subtotal de forma independiente. Pasar `shown = true` muestra el subtotal, mientras que `shown = false` lo oculta. Dado que cada llamada solo afecta a un tipo, llamar al método varias veces con diferentes valores de `subtotalType` construye un subconjunto personalizado de subtotales.
+## **Subtotales de campos de tablas dinámicas**
+El método `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` controla qué filas de subtotales aparecen para un campo de la tabla dinámica. Cada llamada muestra u oculta un único tipo de subtotal de forma independiente. Al pasar `shown = true`, se muestra el subtotal, mientras que al pasar `shown = false`, se oculta. Como cada llamada solo afecta a un tipo, invocar el método varias veces con distintos valores de `subtotalType` crea un subconjunto personalizado de subtotales.
 La enumeración `PivotFieldSubtotalType` define los tipos de subtotales disponibles.
 - `Automatic` — Aspose.Cells elige la selección predeterminada (normalmente `Sum` para campos numéricos)
-- `None` — suprime todas las filas de subtotal
+- `None` — suprime todas las filas de subtotales
 - `Sum`
 - `Count`
 - `Average`
@@ -36,13 +35,14 @@ La enumeración `PivotFieldSubtotalType` define los tipos de subtotales disponib
 - `Varp`
 
 {{% alert color="primary" %}}
-Los subtotales solo se representan cuando hay dos o más campos dinámicos en la región de fila (o en la región de columna). Un solo campo no tiene nada significativo entre lo que calcular un subtotal, por lo que las llamadas a `SetSubtotals` no tienen un efecto visible en ese caso. Por lo tanto, este artículo coloca dos campos de fila (`Category` exterior, `Item` interior) en cada ejemplo para que el límite de subtotal entre cada grupo de `Category` sea visible.
+Los subtotales solo se muestran cuando hay dos o más campos de tabla dinámica en la región de filas o en la región de columnas. Un solo campo no ofrece una base significativa para calcular subtotales entre grupos, por lo que las llamadas a `setSubtotals` no tienen ningún efecto visible en ese caso. Por ello, este artículo coloca dos campos de fila (`Category` exterior e `Item` interior) en todos los ejemplos para que se vea el límite de cada grupo `Category` en los subtotales.
 {{% /alert %}}
 
-## **Escenario 1 — Subtotales automáticos (predeterminados)**
-Cuando no llama a `SetSubtotals` en absoluto, Aspose.Cells aplica la selección `Automatic` a los campos numéricos. El siguiente ejemplo confirma explícitamente este comportamiento llamando a `SetSubtotals(PivotFieldSubtotalType.Automatic, true)` en el campo de fila exterior `Category`.
+## **Escenario 1: subtotales automáticos (predeterminados)**
+Cuando no se llama a `setSubtotals` en absoluto, Aspose.Cells aplica la selección `Automatic` a los campos numéricos. El siguiente ejemplo confirma explícitamente este comportamiento al llamar a `setSubtotals(PivotFieldSubtotalType.Automatic, true)` en el campo de fila exterior `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -94,11 +94,11 @@ pivotTable.calculateData();
 workbook.save("output_automatic.xlsx");
 ```
 
-## **Escenario 2 — Suprimir todos los subtotales (None)**
-Llamar a `SetSubtotals(PivotFieldSubtotalType.None, true)` elimina todas las filas de subtotal de la tabla dinámica, dejando solo las filas de campos y el total general en la parte inferior. Esto es útil cuando desea los datos agrupados en bruto sin ninguna fila de resumen.
+## **Escenario 2: suprimir todos los subtotales (None)**
+Al llamar a `setSubtotals(PivotFieldSubtotalType.None, true)`, se eliminan todas las filas de subtotales de la tabla dinámica y solo quedan las filas de campos y el total general en la parte inferior. Esto es útil para obtener los datos agrupados sin filas de resumen.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -133,10 +133,11 @@ pivotTable.calculateData();
 workbook.save("output_none.xlsx");
 ```
 
-## **Escenario 3 — Subconjunto de subtotales personalizado (Sum + Average)**
-No está limitado a un solo tipo de subtotal. Cada llamada a `SetSubtotals` opera de forma independiente sobre un tipo, por lo que llamar al método dos veces — una vez con `Sum` y otra con `Average` — produce un subconjunto personalizado de dos filas de subtotal para cada grupo `Category`.
+## **Escenario 3: subconjunto personalizado de subtotales (Sum + Average)**
+No se limita a un solo tipo de subtotal. Cada llamada a `setSubtotals` afecta de forma independiente a un tipo de subtotal, por lo que llamar al método dos veces —una con `Sum` y otra con `Average`— produce un subconjunto personalizado de dos filas de subtotales para cada grupo `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -191,6 +192,19 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Resumen**
-Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma estructura de tabla dinámica. La única diferencia entre ellos es la llamada a `SetSubtotals` aplicada al campo de fila exterior `Category`. Recuerde la regla de los dos campos: un solo campo en una región no tiene nada entre lo que calcular un subtotal, así que coloque siempre al menos dos campos en la región de fila o columna cuando quiera que `SetSubtotals` tenga un efecto visible.
+
+Los tres escenarios difieren únicamente en una cosa: las llamadas a `setSubtotals`. Todo lo demás —el conjunto de datos, los campos y las áreas a las que se asignan— es idéntico, lo que permite una comparación directa de las disposiciones.
+- **Colocación de campos.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` mueve una columna de origen a una región. Dentro de una misma región, el orden de las llamadas determina el orden de visualización, por lo que la primera llamada se convierte en el grupo más externo. Los subtotales requieren dos o más campos en la misma región: con un único campo no hay nada entre los grupos sobre lo cual calcular el subtotal.
+- **Escenario 1 — subtotales automáticos.** No invocar `setSubtotals` deja la elección a Excel, que aplica su subtotal predeterminado a los campos numéricos. Invocar `setSubtotals` con `AsposeCells.PivotFieldSubtotalType.Automatic` registra explícitamente dicha elección en lugar de dejarla implícita.
+- **Escenario 2 — sin subtotales.** `setSubtotals` con `AsposeCells.PivotFieldSubtotalType.None` desactiva el subtotal predeterminado, de manera que la tabla dinámica conserva las filas de campo y el total general, pero omite las filas de subtotal que Excel insertaría entre ellas.
+- **Escenario 3 — un subconjunto elegido.** Cada llamada activa o desactiva exactamente un tipo de subtotal, y las llamadas se acumulan en lugar de resetearse mutuamente. Por lo tanto, invocarlo una vez con `AsposeCells.PivotFieldSubtotalType.Sum` y otra vez con `AsposeCells.PivotFieldSubtotalType.Average` deja ambos habilitados, y la tabla dinámica muestra un subtotal de Suma, un subtotal de Promedio y el total general.
+
+{{% alert color="primary" %}}
+Nada acerca de los subtotales es específico de la región de fila. Las mismas llamadas a `setSubtotals` sobre un campo obtenido de `PivotTable.ColumnFields` producen las mismas tres disposiciones en el eje de columna, porque la configuración pertenece al campo de tabla dinámica y no al eje en el que se encuentra.
+{{% /alert %}}
+## **Artículos relacionados**
+- [Campos de página en tablas dinámicas](/cells/es/nodejs-cpp/add-page-field-in-pivot-table/)
+- [Actualizar tablas dinámicas en Aspose.Cells for Node.js mediante C++](/cells/es/nodejs-cpp/refresh-pivot-table/)
+- [Aplicar estilos a tablas dinámicas](/cells/es/nodejs-cpp/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -37,6 +37,7 @@ Resmin bağlantısı, dört sıfır tabanlı dizin özelliğiyle tanımlanır:
 
 {{% alert color="primary" %}}
 Aspose.Cells'deki satır ve sütun dizinleri **sıfır tabanlıdır**. C6 hücresinin satır dizini 5 ve sütun dizini 2'dir. Sağ alt bağlantısındaki off-by-one hataları, resimlerin bitişik hücreye taşmış gibi görünmesinin en yaygın nedenidir.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `Picture.Placement`, kullanıcı alttaki satırı veya sütunu yeniden boyutlandırdığında resmin nasıl davranacağını kontrol eden `PlacementType` türünde bir numaralandırmadır. Tek hücreli bir resim için önerilen değer `PlacementType.MoveAndSize`'dır; bu, resmin alttaki hücreyle birlikte hareket etmesine ve yeniden boyutlandırılmasına neden olarak tam sığmayı korur.
@@ -117,7 +118,6 @@ Her iki yaklaşım da tek bir hücrenin içine sığan bir resim üretir, ancak 
 - **Şu durumlarda gömülü resim kullanın (Yaklaşım 2):**
   - Bir hücreye en basit olası resim eklemeyi istediğinizde.
   - Resmin diğer hücre içerikleri gibi hücreyle birlikte hareket etmesi gerektiğinde.
-{{% /alert %}}
 
 ## Related Articles
 - [Aspose.Cells for .NET'te Excel Kamera](/cells/tr/net/excel-camera/)

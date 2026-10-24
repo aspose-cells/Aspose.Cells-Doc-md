@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Les sparklines sont des mini-graphiques placés à l'intérieur des cellules d'une feuille de calcul. Aspose.Cells vous permet d'extraire chaque sparkline sous forme d'image autonome (pour l'incorporer dans une autre cellule ou dans un rapport externe) et également d'exporter la feuille de calcul entière, riche en sparklines, au format HTML pour une distribution basée sur navigateur. La propriété `Cell.EmbeddedImage` utilisée dans cet article est disponible dans **Aspose.Cells 26.5 et versions ultérieures**.
+{{% /alert %}}
 
 ## **Introduction**
 Les sparklines constituent un moyen compact de visualiser des tendances directement à l'intérieur d'une feuille de calcul. Alors que les utilisateurs d'Excel les voient en place, de nombreux scénarios réels nécessitent qu'un sparkline quitte la cellule — par exemple, pour être incorporé dans une autre cellule sous forme d'image statique, joint à un e-mail automatisé, ou rendu dans le cadre d'un rapport HTML publié sur le web.
@@ -33,6 +34,7 @@ Dans ce workflow, vous allez construire une feuille de calcul qui contient une p
 7. Enregistrez le classeur sous `output_with_sparklines.xlsx`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Remplir les données d'exemple dans les cellules A1:E1
@@ -43,28 +45,28 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Ajouter un groupe de sparklines en ligne ancré à F1 (colonne 5, ligne 0)
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 // Ajouter un groupe de sparklines en colonnes ancré à G1 (colonne 6, ligne 0)
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(6);
-columnArea.setEndColumn(6);
-columnArea.setStartRow(0);
-columnArea.setEndRow(0);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 6;
+columnArea.EndColumn = 6;
+columnArea.StartRow = 0;
+columnArea.EndRow = 0;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 // Ajouter un groupe de sparklines Win/Loss (empilées) ancré à H1 (colonne 7, ligne 0)
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(7);
-stackedArea.setEndColumn(7);
-stackedArea.setStartRow(0);
-stackedArea.setEndRow(0);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 7;
+stackedArea.EndColumn = 7;
+stackedArea.StartRow = 0;
+stackedArea.EndRow = 0;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 // Configurer les options d'image pour la sortie PNG
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
-imageOptions.setImageType(AsposeCells.ImageType.Png);
+imageOptions.setImageType(AsposeCells.ImageType.PNG);
 // Convertir la sparkline en ligne en image et l'incorporer dans la cellule F2
 let lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 let lineMs = new java.io.ByteArrayOutputStream();
@@ -88,6 +90,7 @@ Le code ci-dessus produit un classeur où chaque représentation visuelle d'un s
 
 {{% alert color="primary" %}}
 Parce que chaque groupe de sparklines est ancré à une seule cellule, vous pouvez y accéder via l'indexeur `group.sparklines[0]` au lieu d'énumérer avec `forEach`. Cela permet de garder le code de rendu court et correspond au modèle typique « un sparkline par cellule d'ancrage ». Le stockage des octets de l'image via `Cell.EmbeddedImage` nécessite Aspose.Cells 26.5 ou une version ultérieure.
+{{% /alert %}}
 
 ## **Workflow 2 — Exporter la feuille de calcul avec sparklines au format HTML**
 Une fois que le classeur contient des sparklines actifs (et éventuellement leurs équivalents en images incorporées), la feuille de calcul entière peut être publiée sur le web en l'enregistrant au format HTML. La classe `HtmlSaveOptions` expose les réglages dont vous avez besoin pour contrôler cette exportation ; dans ce workflow, vous réutiliserez le fichier `output_with_sparklines.xlsx` produit par le Workflow 1 et le convertirez en un document HTML propre, d'une seule page.
@@ -99,6 +102,7 @@ Une fois que le classeur contient des sparklines actifs (et éventuellement leur
 4. Appelez `workbook.save("sparklines.html", htmlOptions)` pour écrire la sortie HTML sur le disque.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("output_with_sparklines.xlsx");
 let htmlOptions = new AsposeCells.HtmlSaveOptions();
 htmlOptions.setExportActiveWorksheetOnly(true);
@@ -109,6 +113,7 @@ Le code ci-dessus prend le classeur riche en sparklines du Workflow 1 et le tran
 
 {{% alert color="primary" %}}
 La classe `HtmlSaveOptions` offre des propriétés supplémentaires pour affiner la sortie, telles que `ExportHiddenWorksheet`, `ExportImagesAsBase64`, et `Encoding`. Ajustez-les selon les besoins de votre cible de déploiement.
+{{% /alert %}}
 
 ## **Résumé de l'API**
 Les workflows ci-dessus reposent sur un petit ensemble d'API Aspose.Cells travaillant ensemble.
@@ -123,10 +128,5 @@ Les workflows ci-dessus reposent sur un petit ensemble d'API Aspose.Cells travai
 - [Sparklines dans Aspose.Cells pour Aspose.Cells for Node.js via Java](/cells/fr/nodejs-java/sparkline/)
 - [Insertion d'une image dans une cellule](/cells/fr/nodejs-java/inserting-an-image-into-a-cell/)
 - [Rendu de tableau à cellule unique SmartMarker | Aspose.Cells pour Aspose.Cells for Node.js via Java](/cells/fr/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

@@ -158,4 +158,4 @@ Yalnızca devrik dönüştürülmüş değerlerin dosyaya yazılmasına ihtiyaç
 - [Bir Hücreye Resim Ekleme](/cells/tr/cpp/inserting-an-image-into-a-cell/)
 - [Excel Dosyalarını Birden Çok Dosyaya Bölme](/cells/tr/cpp/splitting-excel-files-into-multiple-files/)
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

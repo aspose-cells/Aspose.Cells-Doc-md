@@ -45,6 +45,7 @@ Utilizzare questo approccio ogni volta che si desidera trasporre i dati senza co
 Dopo la trasposizione, lo stesso intervallo di ancoraggio contiene i dati ruotati. La prima riga è (vuoto, **Europe**, **Asia**, **North America**) e la prima colonna è (vuoto, **Qtr 1**, **Qtr 2**, **Qtr 3**, **Qtr 4**). Ogni colonna di vendite originale diventa una riga nell'intervallo trasposto.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var srcFile = "source.xlsx";
 var outputFile = "transposed.xlsx";
 var workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
@@ -74,7 +75,7 @@ Questo approccio funziona **solo su Excel 365 / 2021 o versioni successive**. Le
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
@@ -103,7 +104,7 @@ Le formule matrice CSE rappresentano il modo classico di Excel per valutare un'e
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Carica la cartella di lavoro sorgente con LoadOptions xlsx
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));

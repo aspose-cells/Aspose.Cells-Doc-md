@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是适合放置在单个单元格内的微型图表，可以快速直观地展示数据趋势。Aspose.Cells 支持折线、柱形和涨/跌三种迷你图，每种迷你图都可以自定义颜色、线宽、最高/最低点和标记等属性。
+{{% /alert %}}
 
 ## **简介**
 迷你图是单元格内的小型图表，当您希望在数据行或列旁边快速显示趋势而又不占用完整图表的空间时，迷你图非常有用。Excel 支持三种迷你图：**折线**、**柱形**和**涨/跌**。Aspose.Cells 通过 `aspose.cells.charts` 命名空间中的 `SparklineGroup` 和 `SparklineGroupCollection` API 提供了相应的功能。
@@ -19,34 +20,35 @@ Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是适合�
 本文将逐一介绍 Aspose.Cells 支持的三种迷你图类型——**折线**、**柱形**和**涨/跌**——并演示如何添加它们、自定义颜色以及保存生成的工作簿。
 
 ## **折线迷你图**
-折线迷你图通过一条连续的线条连接一系列数据点，是显示随时间变化趋势的最自然选择。在 Aspose.Cells 中，通过将 `SparklineType.Line` 传递给 `sparkline_groups.add` 方法即可创建折线迷你图。
+折线迷你图通过一条连续的线条连接一系列数据点，是显示随时间变化趋势的最自然选择。在 Aspose.Cells 中，通过将 `SparklineType.LINE` 传递给 `sparkline_groups.add` 方法即可创建折线迷你图。
 1. 创建一个新的 `Workbook` 并访问第一个工作表。
 2. 在一行源数据中（例如第 1 行的 A 到 E 列）填充要可视化的值。
 3. 构建一个 `CellArea`，描述迷你图将要绘制的目标单元格。
-4. 调用 `worksheet.sparkline_groups.add(SparklineType.Line, "A1:E1", False, dest)`。第三个参数 `False` 表示数据区域是水平的（行），而不是垂直的（列）。
+4. 调用 `worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, dest)`。第三个参数 `False` 表示数据区域是水平的（行），而不是垂直的（列）。
 5. （可选）自定义返回的 `SparklineGroup`。对于折线迷你图，您可以使用 `group.line.color`（需要一个来自 `aspose.cells.drawing` 的 `CellsColor`）设置线条颜色，调整线宽，以及切换最高/最低点标记。
 6. 保存工作簿。
 以下示例创建一个工作簿，将值 5、-3、8、-2、6 写入单元格 A1 到 E1，并在 F1 单元格中添加一个追踪这些值的折线迷你图。它还将线条颜色自定义为红色，并启用最高点和最低点的标记。
 
 ## **柱形迷你图**
-柱形迷你图将每个数据点渲染为垂直柱形。这种迷你图非常适合数据大小具有实际意义的场景——例如月度销售数据或计数。在 Aspose.Cells 中，通过将 `SparklineType.Column` 传递给 `sparkline_groups.add` 方法即可创建柱形迷你图。
+柱形迷你图将每个数据点渲染为垂直柱形。这种迷你图非常适合数据大小具有实际意义的场景——例如月度销售数据或计数。在 Aspose.Cells 中，通过将 `SparklineType.COLUMN` 传递给 `sparkline_groups.add` 方法即可创建柱形迷你图。
 其步骤与折线迷你图示例类似：
 1. 创建一个新的 `Workbook` 并访问第一个工作表。
 3. 构建一个描述目标单元格的 `CellArea`。
-4. 调用 `worksheet.sparkline_groups.add(SparklineType.Column, "A1:E1", False, dest)`。
+4. 调用 `worksheet.sparkline_groups.add(SparklineType.COLUMN, "A1:E1", False, dest)`。
 5. （可选）自定义生成的 `SparklineGroup`——例如，通过设置 `group.type` 来确认类型，或调整柱形颜色。
 6. 将工作簿保存到单独的输出文件，以免覆盖折线迷你图示例。
 以下示例将值 5、-3、8、-2、6 写入 A1:E1，并在 F1 中渲染柱形迷你图。负值绘制为向下的柱形，正值绘制为向上的柱形，可以一目了然地区分正负贡献。
 
 ```python
 import aspose.cells as ac
+from aspose.cells.charts import SparklineType
 # 步骤 1：创建一个 Workbook 并获取第一个工作表
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # 步骤 2：将示例值写入 A1:E1
 values = [5, -3, 8, -2, 6]
 for i in range(len(values)):
-    worksheet.cells[0, i].put_value(values[i])
+    worksheet.cells.get(0, i).put_value(values[i])
 # 步骤 3：构建一个指向 F1（列索引 5，行索引 0）的 CellArea
 dest = ac.CellArea()
 dest.start_column = 5
@@ -55,7 +57,7 @@ dest.start_row = 0
 dest.end_row = 0
 # 步骤 4：向目标单元格添加一个 Column 迷你图
 idx = worksheet.sparkline_groups.add(
-    ac.SparklineType.COLUMN, "A1:E1", False, dest)
+    SparklineType.COLUMN, "A1:E1", False, dest)
 group = worksheet.sparkline_groups[idx]
 # 步骤 5：通过读取 group.Type 来确认迷你图类型
 print("Sparkline Type added: " + str(group.type))
@@ -66,11 +68,11 @@ print("Workbook saved as output_column.xlsx")
 
 ## **涨/跌迷你图**
 涨/跌迷你图是柱形迷你图的一种特殊变体，仅用于显示两种结果：正值绘制为"上涨"柱形（获胜），零或负值绘制为"下跌"柱形（失败）。涨/跌迷你图通常用于可视化一系列胜负、通过/未通过结果或随时间变化的任何二元结果。
-在 Aspose.Cells 中，通过将 `SparklineType.Stacked` 传递给 `sparkline_groups.add` 方法来创建涨/跌迷你图。（尽管名称如此，`SparklineType.Stacked` 是用于请求涨/跌渲染的枚举值。）
+在 Aspose.Cells 中，通过将 `SparklineType.STACKED` 传递给 `sparkline_groups.add` 方法来创建涨/跌迷你图。（尽管名称如此，`SparklineType.STACKED` 是用于请求涨/跌渲染的枚举值。）
 1. 创建一个新的 `Workbook` 并访问第一个工作表。
 2. 填充源区域。由于涨/跌迷你图将每个值视为获胜或失败，值的大小无关紧要——仅其符号才重要。正值变为上涨柱形，非正值变为下跌柱形。
 3. 构建一个描述目标单元格的 `CellArea`。
-4. 调用 `worksheet.sparkline_groups.add(SparklineType.Stacked, "A1:E1", False, dest)`。
+4. 调用 `worksheet.sparkline_groups.add(SparklineType.STACKED, "A1:E1", False, dest)`。
 5. （可选）自定义返回的 `SparklineGroup`，例如通过设置获胜和失败柱形的强调色。
 6. 使用不同的文件名保存工作簿，以便所有三个示例可以共存于磁盘上。
 
@@ -79,27 +81,28 @@ print("Workbook saved as output_column.xlsx")
 
 ```python
 import aspose.cells as ac
-import System.Drawing
+from aspose.cells.charts import SparklineType
+from aspose.pydrawing import Color
 # 步骤 1: 创建工作簿并获取第一个工作表
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # 步骤 2: 在第 1 行 (A1:E1) 填充示例数据
-worksheet.cells["A1"].put_value(5)
-worksheet.cells["B1"].put_value(-3)
-worksheet.cells["C1"].put_value(8)
-worksheet.cells["D1"].put_value(-2)
-worksheet.cells["E1"].put_value(6)
+worksheet.cells.get("A1").put_value(5)
+worksheet.cells.get("B1").put_value(-3)
+worksheet.cells.get("C1").put_value(8)
+worksheet.cells.get("D1").put_value(-2)
+worksheet.cells.get("E1").put_value(6)
 # 步骤 3: 在 F1 添加折线迷你图组
 line_area = ac.CellArea()
 line_area.start_column = 5
 line_area.end_column = 5
 line_area.start_row = 0
 line_area.end_row = 0
-line_idx = worksheet.sparkline_groups.add(ac.SparklineType.LINE, "A1:E1", False, line_area)
+line_idx = worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, line_area)
 line_group = worksheet.sparkline_groups[line_idx]
 # 通过 CellsColor 自定义折线迷你图颜色
 line_color = workbook.create_cells_color()
-line_color.color = System.Drawing.Color.Blue
+line_color.color = Color.blue
 line_group.series_color = line_color
 # 步骤 4: 在 F2 添加柱形迷你图组
 column_area = ac.CellArea()
@@ -107,11 +110,11 @@ column_area.start_column = 5
 column_area.end_column = 5
 column_area.start_row = 1
 column_area.end_row = 1
-column_idx = worksheet.sparkline_groups.add(ac.SparklineType.COLUMN, "A1:E1", False, column_area)
+column_idx = worksheet.sparkline_groups.add(SparklineType.COLUMN, "A1:E1", False, column_area)
 column_group = worksheet.sparkline_groups[column_idx]
 # 自定义柱形迷你图系列颜色
 column_color = workbook.create_cells_color()
-column_color.color = System.Drawing.Color.Green
+column_color.color = Color.green
 column_group.series_color = column_color
 # 步骤 5: 在 F3 添加涨/跌（堆叠）迷你图组
 stacked_area = ac.CellArea()
@@ -119,11 +122,11 @@ stacked_area.start_column = 5
 stacked_area.end_column = 5
 stacked_area.start_row = 2
 stacked_area.end_row = 2
-stacked_idx = worksheet.sparkline_groups.add(ac.SparklineType.STACKED, "A1:E1", False, stacked_area)
+stacked_idx = worksheet.sparkline_groups.add(SparklineType.STACKED, "A1:E1", False, stacked_area)
 stacked_group = worksheet.sparkline_groups[stacked_idx]
 # 自定义涨/跌迷你图系列颜色
 stacked_color = workbook.create_cells_color()
-stacked_color.color = System.Drawing.Color.DarkOrange
+stacked_color.color = Color.dark_orange
 stacked_group.series_color = stacked_color
 # 步骤 6: 保存工作簿
 workbook.save("output_all.xlsx")
@@ -140,17 +143,18 @@ workbook.save("output_all.xlsx")
 
 ```python
 import aspose.cells as ac
-import System.Drawing
+from aspose.cells.charts import SparklineType
+from aspose.pydrawing import Color
 # Step 1: Create a Workbook and get the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
 # Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
-cells["A1"].put_value(5)
-cells["B1"].put_value(-3)
-cells["C1"].put_value(8)
-cells["D1"].put_value(-2)
-cells["E1"].put_value(6)
+cells.get("A1").put_value(5)
+cells.get("B1").put_value(-3)
+cells.get("C1").put_value(8)
+cells.get("D1").put_value(-2)
+cells.get("E1").put_value(6)
 # Step 3: Build a CellArea pointing to destination cell F1
 dest = ac.CellArea()
 dest.start_column = 5   # column F (0-indexed)
@@ -159,11 +163,11 @@ dest.start_row = 0      # row 1 (0-indexed)
 dest.end_row = 0
 # Step 4: Add a Line sparkline from A1:E1 into F1
 # SparklineGroups.Add returns the index of the newly added group
-index = worksheet.sparkline_groups.add(ac.SparklineType.LINE, "A1:E1", False, dest)
+index = worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, dest)
 group = worksheet.sparkline_groups[index]
 # Step 5: Create a red CellsColor and assign it to the sparkline line color
 red = workbook.create_cells_color()
-red.color = System.Drawing.Color.Red
+red.color = Color.red
 group.series_color = red
 # Step 6: Enable high-point and low-point markers
 group.show_high_point = True
@@ -174,26 +178,27 @@ workbook.save("output_line.xlsx")
 
 ```python
 import aspose.cells as ac
-import System.Drawing
+from aspose.cells.charts import SparklineType
+from aspose.pydrawing import Color
 # Step 1: Create a Workbook and get the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "WinLoss"
 # Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
-worksheet.cells["A1"].put_value(5)
-worksheet.cells["B1"].put_value(-3)
-worksheet.cells["C1"].put_value(8)
-worksheet.cells["D1"].put_value(-2)
-worksheet.cells["E1"].put_value(6)
+worksheet.cells.get("A1").put_value(5)
+worksheet.cells.get("B1").put_value(-3)
+worksheet.cells.get("C1").put_value(8)
+worksheet.cells.get("D1").put_value(-2)
+worksheet.cells.get("E1").put_value(6)
 # Step 3: Build a CellArea pointing to F1 (column 5, row 0)
 dest = ac.CellArea()
 dest.start_column = 5   # F
 dest.end_column = 5
 dest.start_row = 0      # row 1
 dest.end_row = 0
-# Step 4: Add a Win/Loss sparkline (SparklineType.Stacked)
+# Step 4: Add a Win/Loss sparkline (SparklineType.STACKED)
 group_index = worksheet.sparkline_groups.add(
-    ac.SparklineType.Stacked,
+    SparklineType.STACKED,
     "A1:E1",
     False,
     dest)
@@ -205,25 +210,23 @@ group.show_low_point = True
 group.show_negative_points = True
 # Set the high-point color to green
 high_color = workbook.create_cells_color()
-high_color.color = System.Drawing.Color.Green
+high_color.color = Color.green
 group.high_point_color = high_color
 # Set the low-point color to red
 low_color = workbook.create_cells_color()
-low_color.color = System.Drawing.Color.Red
+low_color.color = Color.red
 group.low_point_color = low_color
 # Set the negative-point color to orange
 neg_color = workbook.create_cells_color()
-neg_color.color = System.Drawing.Color.Orange
+neg_color.color = Color.orange
 group.negative_points_color = neg_color
 # Set the default series color (used for positive bars)
 series_color = workbook.create_cells_color()
-series_color.color = System.Drawing.Color.SteelBlue
+series_color.color = Color.steel_blue
 group.series_color = series_color
 # Step 6: Save the workbook
 workbook.save("output_winloss.xlsx")
 print("Workbook saved successfully: output_winloss.xlsx")
 ```
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

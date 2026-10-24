@@ -30,6 +30,7 @@ Aspose.Cells exponerar etikettfiltrering genom metoden `PivotField.filterByLabel
 Följande exempel läser in en arbetsbok som innehåller en befintlig pivottabell, tillämpar ett etikettfilter så att endast objekt vars beskrivningar börjar med ett angivet prefix förblir synliga, uppdaterar pivottabellen och sparar resultatet.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let fileName = "sample.xlsx";
 let prefix = "B";
 // Ladda den befintliga arbetsboken som innehåller en pivottabell
@@ -53,13 +54,12 @@ Datumfilter låter dig begränsa en pivottabell efter datumbaserade kriterier s�
 
 {{% alert color="primary" %}}
 Datumfiltret fungerar endast när rad- eller kolumnområdet endast innehåller datum-/tidsceller eller tomma värden. Om det underliggande fältet innehåller andra datatyper såsom tal eller text, kommer datumfiltret inte att ge det förväntade resultatet. Se till att fältet är formaterat som ett datum och att alla värden är giltiga `DateTime`-instanser eller tomma celler innan du tillämpar detta filter.
-{{% /alert %}}
-
 Aspose.Cells exponerar datumfiltrering genom metoden `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. Uppräkningen `PivotFilterType` innehåller dedikerade datumvärden såsom `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` och `Between`. Beroende på vald filtertyp skickar du ett eller två `DateTime`-värden (för `Between` skickar du start- och slutdatum).
 Följande exempel läser in en arbetsbok med en pivottabell vars radområde innehåller ett datumfält, tillämpar ett datumfilter som begränsar de synliga objekten till ett visst datumintervall, uppdaterar pivottabellen och sparar arbetsboken.
+{{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const inputPath = "sample.xlsx";
 const outputPath = "output_filtered.xlsx";
@@ -93,6 +93,7 @@ Aspose.Cells exponerar värdefiltrering genom metoden `PivotField.filterByValue(
 Följande exempel läser in en arbetsbok med en pivottabell, tillämpar ett värdefilter som endast behåller objekt vars aggregerade försäljning överstiger ett numeriskt tröskelvärde, uppdaterar pivottabellen och sparar arbetsboken.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let dataFieldIndex = -1;
 for (let i = 0; i < pivotTable.getDataFields().getCount(); i++) {
     if (pivotTable.getDataFields().get(i) === dataField) {
@@ -112,13 +113,12 @@ Topp 10-filtret är en specialiserad form av värdefilter som endast behåller d
 
 {{% alert color="primary" %}}
 Topp 10-filtret är endast effektivt när pivottabellen har ett eller flera värdepivotfält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mått att rangordna objekten mot, och filtret kan inte tillämpas.
-{{% /alert %}}
-
 Aspose.Cells exponerar topp 10-filtrering genom metoden `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Parametern `itemCount` anger hur många objekt som ska behållas, `isTop` anger om de översta objekten (true) eller de understa objekten (false) ska behållas, `valueField` refererar till det datafält som används för rangordning, och `filterType` styr hur värdet beräknas (vanligtvis `Sum`, men även `Count` och `Percent`).
 Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att endast behålla de 10 högsta objekten efter summa av försäljning, uppdaterar pivottabellen och sparar arbetsboken.
+{{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Ladda den befintliga arbetsboken som innehåller pivottabellen
 const inputPath = "input.xlsx";
 const outputPath = "output.xlsx";
@@ -141,9 +141,9 @@ const valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.Sum
 //   - isTop       = true (topp N; false skulle betyda botten N)
 //   - valueFieldIndex = indexet för det datafält som används för att rangordna objekt
-rowField.filterTop10(10, AsposeCells.PivotFilterType.Sum, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Sum, true, 10);
 // Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
-pivotTable.getPivotTableCache().refresh();
+pivotTable.getPivotCache().refresh();
 // Spara arbetsboken
 workbook.save(outputPath);
 ```
@@ -153,7 +153,7 @@ Utöver de strukturerade filter-API:erna låter Aspose.Cells dig styra synlighet
 Detta tillvägagångssätt är användbart när filtreringsregeln är oregelbunden eller objektspecifik, till exempel att dölja ett litet antal namngivna kategorier som inte ska visas i en viss rapport. Exemplet nedan läser in en pivottabell, döljer ett specifikt objekt efter namn, visar hur man visar det igen, uppdaterar pivottabellen och sparar arbetsboken.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Ladda en befintlig arbetsbok som innehåller en pivottabell
 const workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
 // Öppna det första kalkylbladet som innehåller pivottabellen
@@ -179,7 +179,7 @@ for (let i = 0; i < itemCount; i++)
     }
 }
 // Uppdatera och beräkna om pivottabellen så att ändringarna träder i kraft
-pivotTable.getPivotCache().refreshData();
+pivotTable.getPivotCache().refresh();
 // Spara arbetsboken — dolda objekt finns kvar i underliggande data
 // men exkluderas från den visade pivottabellens utdata
 workbook.save("output_pivot_filtered.xlsx");

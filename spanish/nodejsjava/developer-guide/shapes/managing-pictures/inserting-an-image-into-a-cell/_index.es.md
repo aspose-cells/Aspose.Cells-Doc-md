@@ -37,6 +37,7 @@ El anclaje de la imagen está definido por cuatro propiedades de índices basado
 
 {{% alert color="primary" %}}
 Los índices de fila y columna en Aspose.Cells son **basados en cero**. La celda C6 tiene índice de fila 5 e índice de columna 2. Los errores de uno en uno en el anclaje inferior derecho son la fuente más común de imágenes que parecen superponerse a una celda adyacente.
+{{% /alert %}}
 
 ### **Controlar el comportamiento de ubicación**
 `Picture.Placement` es una enumeración de tipo `PlacementType` que controla cómo se comporta la imagen cuando el usuario cambia el tamaño de la fila o la columna que se encuentra debajo de ella. El valor recomendado para una imagen de una sola celda es `PlacementType.MoveAndSize`, que hace que la imagen se mueva y cambie de tamaño junto con su celda subyacente, preservando el ajuste exacto.
@@ -53,7 +54,7 @@ Los índices de fila y columna en Aspose.Cells son **basados en cero**. La celda
 El siguiente código demuestra el enfoque completo.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 var picIndex = worksheet.getPictures().add(5, 2, "logo.png");
@@ -62,8 +63,8 @@ picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);
 picture.setLowerRightRow(6);
 picture.setLowerRightColumn(3);
-picture.setPlacement(AsposeCells.PlacementType.MoveAndSize);
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+picture.setPlacement(AsposeCells.PlacementType.MOVE_AND_SIZE);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Enfoque 2: Incrustar una imagen directamente en una celda**
@@ -86,7 +87,7 @@ Esto convierte a `Cell.EmbeddedImage` en la opción más concisa cuando su objet
 El siguiente código demuestra el enfoque completo.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
@@ -100,7 +101,7 @@ cell.setEmbeddedImage(imageData);
 worksheet.getCells().setColumnWidth(2, 30);   // Columna C (índice 2)
 worksheet.getCells().setRowHeight(5, 100);     // Fila 6 (índice 5)
 // Guardar el libro de trabajo resultante como un archivo .xlsx
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Elegir el enfoque adecuado**
@@ -113,6 +114,5 @@ Ambos enfoques producen una imagen que cabe dentro de una sola celda, pero difie
 - **Use una imagen incrustada (Enfoque 2) cuando:**
   - Desee la forma más sencilla posible de insertar una imagen en una celda.
   - La imagen deba viajar con la celda como cualquier otro contenido de la celda.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

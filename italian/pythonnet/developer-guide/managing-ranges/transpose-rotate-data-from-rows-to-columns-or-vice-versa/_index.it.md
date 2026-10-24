@@ -35,7 +35,7 @@ Utilizzare questo approccio ogni volta che si desidera trasporre i dati senza co
 `range.transpose()` è un metodo di istanza della classe `Aspose.Cells.Range`. Richiamandolo, l'intervallo viene invertito in place scambiando le sue righe e colonne, quindi ciò che era una riga diventa una colonna e ciò che era una colonna diventa una riga. Il metodo modifica direttamente le celle sottostanti senza scrivere una formula.
 
 ### **Passaggi**
-1. Aprire la cartella di lavoro sorgente con `LoadOptions` impostato sul formato `.xlsx` richiamando `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Aprire la cartella di lavoro sorgente con `LoadOptions` impostato sul formato `.xlsx` richiamando `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Recuperare il primo foglio di lavoro dalla cartella di lavoro utilizzando `workbook.worksheets[0]`.
 3. Accedere alla raccolta di celle del foglio di lavoro tramite `worksheet.cells`.
 4. Creare l'intervallo sorgente che copre **A1:D5** richiamando `cells.create_range("A1:D5")`.
@@ -62,7 +62,7 @@ Utilizzare questo approccio quando si desidera conservare la formula `=TRANSPOSE
 `cell.set_dynamic_array_formula(formula, options, calculate_value)` è un metodo di `Aspose.Cells.Cell` che imposta la formula della cella come **formula matrice dinamica**. Excel valuta la formula una volta ed espande automaticamente il risultato nelle celle circostanti. Il terzo parametro, quando impostato su `True`, indica ad Aspose.Cells di calcolare anche i valori risultanti al momento della scrittura.
 
 ### **Passaggi**
-1. Caricare la cartella di lavoro sorgente utilizzando `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Caricare la cartella di lavoro sorgente utilizzando `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Recuperare il primo foglio di lavoro e accedere alla sua raccolta `cells`.
 3. Posizionare la formula matrice dinamica sulla cella **A6**, appena sotto l'intervallo sorgente, richiamando `cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", None, True)`.
 4. L'argomento `None` passa `FormulaParseOptions` predefiniti, e il terzo argomento `True` indica ad Aspose.Cells di trattare la formula come una matrice dinamica e di valutarla in modo che i valori espansi vengano scritti nella cartella di lavoro.
@@ -77,11 +77,11 @@ Questo approccio funziona **solo su Excel 365 / 2021 o versioni successive**. Le
 import aspose.cells as ac
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
-workbook.save(outFile, ac.SaveFormat.Xlsx)
+cells.get("A6").set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
+workbook.save(outFile, ac.SaveFormat.XLSX)
 ```
 
 ## **Approccio 3 — Trasponi con una formula matrice classica (CSE)**
@@ -105,7 +105,7 @@ Le formule matrice CSE rappresentano il modo classico di Excel per valutare un'e
 import aspose.cells as ac
 # Carica la cartella di lavoro sorgente con LoadOptions xlsx
 srcFile = "source.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 # Accedi al primo foglio di lavoro e alla sua raccolta Cells
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
@@ -116,7 +116,7 @@ cells = worksheet.cells
 # Aspose.Cells scrive il marker della formula di matrice CSE in modo che Excel la valuti come
 # una singola formula di matrice multi-cella, compatibile con le versioni più vecchie di Excel
 # (2019, 2016, 2013, ecc.) che non supportano lo spilling dinamico delle matrici.
-cells["A6"].set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
+cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
 # Salva la cartella di lavoro in modo che il marker della formula di matrice venga mantenuto
 workbook.save("output.xlsx")
 ```

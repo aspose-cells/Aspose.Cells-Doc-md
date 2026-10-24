@@ -37,6 +37,7 @@ Aspose.Cells はこのシナリオを 2 つの補完的な方法でサポート�
 
 {{% alert color="primary" %}}
 Aspose.Cells における行と列のインデックスは **ゼロベース** です。セル C6 の行インデックスは 5、列インデックスは 2 です。右下アンカーにおけるオフバイワンエラーは、隣接するセルにはみ出して見える画像の最も一般的な原因です。
+{{% /alert %}}
 
 ### **配置動作の制御**
 `Picture.Placement` は `PlacementType` 型の列挙型であり、ユーザーが下の行または列のサイズを変更したときの画像の動作を制御します。単一セル画像に対して推奨される値は `PlacementType.MoveAndSize` です。これにより、画像が下のセルと一緒に移動およびサイズ変更され、正確な適合が維持されます。
@@ -53,7 +54,7 @@ Aspose.Cells における行と列のインデックスは **ゼロベース** �
 次のコードは完全な方法を示しています。
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 var picIndex = worksheet.getPictures().add(5, 2, "logo.png");
@@ -62,8 +63,8 @@ picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);
 picture.setLowerRightRow(6);
 picture.setLowerRightColumn(3);
-picture.setPlacement(AsposeCells.PlacementType.MoveAndSize);
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+picture.setPlacement(AsposeCells.PlacementType.MOVE_AND_SIZE);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **方法 2: セル内に画像を直接埋め込む**
@@ -86,7 +87,7 @@ Aspose.Cells は、セルに束縛された画像のためのよりシンプル�
 次のコードは完全な方法を示しています。
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
@@ -100,7 +101,7 @@ cell.setEmbeddedImage(imageData);
 worksheet.getCells().setColumnWidth(2, 30);   // 列 C (インデックス 2)
 worksheet.getCells().setRowHeight(5, 100);     // 行 6 (インデックス 5)
 // 結果のワークブックを .xlsx ファイルとして保存する
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **適切な方法の選択**
@@ -113,6 +114,5 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 - **次のような場合は埋め込み画像 (方法 2) を使用します:**
   - セルへの画像の挿入をできるだけシンプルにしたい場合。
   - 画像が他のセルコンテンツと同様にセルと一緒に移動する必要がある場合。
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

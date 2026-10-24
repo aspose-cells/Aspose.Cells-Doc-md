@@ -46,7 +46,6 @@ Wenn Sie `setSubtotals` gar nicht aufrufen, wendet Aspose.Cells die Auswahl `AUT
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, PivotTable, PivotField, PivotFieldType, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -107,7 +106,6 @@ Der Aufruf von `setSubtotals(PivotFieldSubtotalType.NONE, true)` entfernt jede Z
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -148,7 +146,6 @@ Sie sind nicht auf einen einzelnen Zwischensummentyp beschränkt. Jeder `setSubt
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTableCollection, PivotTable, PivotFieldType, PivotField, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -192,19 +189,32 @@ worksheet.getCells().get(8, 3).putValue(45)
 pivotTables = worksheet.getPivotTables()
 pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1")
 pivotTable = pivotTables.get(pivotIndex)
-pivotTable.addFieldToArea(PivotFieldType.Row, "Category")
-pivotTable.addFieldToArea(PivotFieldType.Row, "Item")
-pivotTable.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 categoryField = pivotTable.getRowFields().get(0)
-categoryField.setSubtotals(PivotFieldSubtotalType.Sum, True)
-categoryField.setSubtotals(PivotFieldSubtotalType.Average, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.SUM, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, True)
 pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 jpype.shutdownJVM()
 ```
 
 ## **Zusammenfassung**
-Die drei oben genannten Szenarien verwenden denselben Datensatz und dieselbe PivotTable-Struktur. Der einzige Unterschied zwischen ihnen ist der `setSubtotals`-Aufruf, der auf das äußere Zeilenfeld `Category` angewendet wird. Beachten Sie die Zwei-Felder-Regel: Ein einzelnes Feld in einem Bereich hat keine Zwischensumme dazwischen. Platzieren Sie daher immer mindestens zwei Felder im Zeilen- oder Spaltenbereich, wenn Sie möchten, dass `setSubtotals` eine sichtbare Wirkung hat.
 
+Die drei Szenarien unterscheiden sich lediglich in den `setSubtotals`-Aufrufen. Alles andere – der Datensatz, die Felder sowie die Bereiche, denen sie zugeordnet sind – ist identisch, was die Layouts unmittelbar vergleichbar macht.
+- **Platzieren von Feldern.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` verschiebt eine Quellspalte in einen Bereich. Innerhalb eines Bereichs bestimmt die Reihenfolge der Aufrufe die Anzeigereihenfolge, sodass der erste Aufruf die äußere Gruppierung darstellt. Zwischen-summieren erfordert zwei oder mehr Felder im gleichen Bereich: Bei einem einzelnen Feld gibt es zwischen den Gruppen nichts, für das eine Zwischensumme gebildet werden könnte.
+- **Szenario 1 – automatische Zwischensummen.** Wenn `setSubtotals` nicht aufgerufen wird, übernimmt Excel die Entscheidung undwendet automatisch seine eigene Standard-Zwischensumme auf numerische Felder an. Ein Aufruf von `setSubtotals` mit `PivotFieldSubtotalType.AUTOMATIC` dokumentiert diese Entscheidung explizit, statt sie implizit zu belassen.
+- **Szenario 2 – keine Zwischensummen.** `setSubtotals` mit `PivotFieldSubtotalType.NONE` deaktiviert die Standard-Zwischensumme, sodass das Pivot-Table die Feldzeilen sowie die Gesamtsumme behält, aber die Zwischensummenzeilen weglässt, die Excel andernfalls dazwischen einfügen würde.
+- **Szenario 3 – eine ausgewählte Teilmenge.** Jeder Aufruf schaltet genau einen Zwischensummentyp um und die Aufrufe addieren sich vielmehr als dass sie sich gegenseitig zurücksetzen. Ein erstes Maliges Aufrufen mit `PivotFieldSubtotalType.SUM` und ein zweites Maliges mit `PivotFieldSubtotalType.AVERAGE` lässt daher beide aktiviert, so dass das Pivot-Table eine Summen-Zwischensumme, eine Durchschnitts-Zwischensumme und eine Gesamtsumme darstellt.
+
+{{% alert color="primary" %}}
+Nichts bezüglich der Zwischensummen ist spezifisch für den Zeilenbereich. Die gleichen `setSubtotals`-Aufrufe auf einem Feld, das aus `PivotTable.ColumnFields` stammt, erzeugen dieselben drei Layouts auf der Spaltenachse, da die Einstellung zum Pivot-Feld gehört und nicht zur Achse, auf der es sich befindet.
+{{% /alert %}}
+## **Verwandte Artikel**
+
+- [Seitenfelder in Pivot-Tabellen](/cells/de/python-java/add-page-field-in-pivot-table/)
+- [Aktualisieren von Pivot-Tabellen in Aspose.Cells für Python via Java](/cells/de/python-java/refresh-pivot-table/)
+- [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/python-java/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="python" >}}

@@ -17,8 +17,8 @@ Aspose.Cells は、レガシーのピボット自動書式（`.xls` ファイル
 ## **概要**
 Aspose.Cells は、ピボットテーブルに対して並列に機能する 2 つのスタイル API を提供しています。どちらを使用するかは、読み込み元の形式ではなく、ワークブックの保存先のファイル形式によって決まります。`.xls` ファイルから読み込んだワークブックを `.xlsx` として再保存する場合、レガシーのスタイル API ではなく、最新のスタイル API が適用されます。
 - `PivotTable.PivotTableStyleType` は、組み込みの名前付きスタイル（明テーマおよび暗テーマ、Excel 2017 で追加されたスタイルを含む）のいずれかを選択します。これらのプリセットは読み取り専用です。
-- `PivotTable.PivotTableStyleName` は、`Workbook.Worksheets.TableStyles.AddPivotTableStyle(...)` を使用して自身で定義したカスタムスタイルを選択します。プリセットで提供される色、罫線、フォント以外の変更が必要な場合は、カスタムスタイルが必要です。
-さらに、`PivotTable.FormatAll(Style)` は、単一の `Style` オブジェクトをピボット内のすべてのセルに適用するショートカットであり、上記のいずれかのスタイル名 API によって設定された内容を上書きします。これは、基になるテーマに関係なく均一な外観が必要な場合に便利です。
+- `PivotTable.PivotTableStyleName` は、`Workbook.Worksheets.TableStyles.addPivotTableStyle(...)` を使用して自身で定義したカスタムスタイルを選択します。プリセットで提供される色、罫線、フォント以外の変更が必要な場合は、カスタムスタイルが必要です。
+さらに、`PivotTable.formatAll(Style)` は、単一の `Style` オブジェクトをピボット内のすべてのセルに適用するショートカットであり、上記のいずれかのスタイル名 API によって設定された内容を上書きします。これは、基になるテーマに関係なく均一な外観が必要な場合に便利です。
 
 ## **レガシー XLS のプリセット自動書式を適用する**
 `PivotTable.AutoFormatType` は、`Aspose.Cells.Pivot.PivotTableAutoFormatType` 列挙体の値を受け取ります。利用可能な値は、`Report1` から `Report10`、`Classic`、および `Table1` から `Table10` です。
@@ -29,7 +29,7 @@ Aspose.Cells は、ピボットテーブルに対して並列に機能する 2 �
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // シナリオ1: レガシー XLS プリセット自動フォーマットを適用する
 // 使用中の API: PivotTable.AutoFormatType
 // 対象ファイル形式: .xls (レガシー)
@@ -87,20 +87,81 @@ workbook.save("output.xls");
 
 ## **最新の名前付きプリセットピボットテーブルスタイルを適用する**
 
+`PivotTable.pivotTableStyleType` は、Excel 2007 でピボットテーブル向けに導入された組み込みの名前付きスタイルから 1 つを選択します。`PivotTableStyleType` 列挙型は 3 つのテーマファミリを公開しています。ライトファミリは `PivotTableStyleLight1` から `PivotTableStyleLight28` まで、ミディアムファミリは `PivotTableStyleMedium1` から `PivotTableStyleMedium28` まで、ダークファミリは `PivotTableStyleDark1` から `PivotTableStyleDark28` までです。また、`None` と `Custom` も定義しています。各ファミリの番号が大きいメンバーは、Excel 2017 で追加されたスタイルです。
+これらのプリセットは読み取り専用です。プリセットが提供する範囲を超えて、色、罫線、またはフォントを変更する必要がある場合は、代わりにカスタムピボットスタイルを定義する必要があります。[シナリオ 3](#define-and-apply-a-custom-pivot-table-style) に示す通りです。
+
+{{% alert color="primary" %}}
+**なぜ新しいプリセットを使い、レポートシリーズの自動書式を使わないのか？** `PivotTableAutoFormatType` の `Report1` から `Report10` まで、および `Table1` から `Table10` までの値は、ピボット列フィールドより古いものなので、列フィールドヘッダーに対する書式設定を持たず、Excel はそれらのヘッダーを書式なしで表示します。`PivotTableStyleType` のプリセットは、現代的な Excel が使用する二次元レイアウト向けに設計されており、行フィールドヘッダーと列フィールドヘッダーの両方にスタイルを適用します。
+{{% /alert %}}
+
+このシナリオでは、シナリオ 1 の Fruit/Year/Amount データセットを再利用し、`Fruit` 行フィールドに加えて `PivotFieldType.Column` を使用して `Year` を列領域に追加し、`pivotTable.setPivotTableStyleType` でダークテーマのプリセット `PivotTableStyleDark1` を適用し、結果を `.xlsx` として保存します — `PivotTableStyleType` が適用できる形式です。
+
+```javascript
+const AsposeCells = require("aspose.cells.node");
+let workbook = new AsposeCells.Workbook();
+let worksheet = workbook.getWorksheets().get(0);
+// Header row: Fruit / Year / Amount
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+// 9 data rows of Fruit / Year / Amount
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(100);
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(150);
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(200);
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(180);
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(120);
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(170);
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(210);
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(190);
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(130);
+// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PivotTableStyleDark1);
+// Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx");
+```
 ## **カスタムのピボットテーブルスタイルを定義して適用する**
 組み込みのプリセットは変更できません。色、罫線、フォントを上書きする必要がある場合は、常にカスタムのピボットスタイルを定義する必要があります。ワークフローは次の 3 ステップで構成されます。
-1. `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)` を介して、ワークブックの `TableStyles` コレクションにカスタムスタイルを追加します。これにより、新しく作成されたスタイルのインデックスが返されます。
+1. `Workbook.Worksheets.TableStyles.addPivotTableStyle(string name)` を介して、ワークブックの `TableStyles` コレクションにカスタムスタイルを追加します。これにより、新しく作成されたスタイルのインデックスが返されます。
 2. `TableStyle.TableStyleElements.Add(TableStyleElementType)` を通じて要素（`WholeTable` や `GrandTotalRow` など）を追加し、`TableStyleElement.SetElementStyle(Style)` を介して各要素に `Style` を割り当てることで、スタイルを構成します。
 3. `PivotTable.PivotTableStyleName` をスタイルの名前に設定することで、カスタムスタイルをピボットテーブルに適用します。このプロパティは組み込みプリセットを選択するため、ここで `PivotTableStyleType` を使用しないでください。
 
 {{% alert color="primary" %}}
-`PivotTableStyleName` と `PivotTableStyleType` は互換性がありません。組み込みプリセットには `PivotTableStyleType` を、`AddPivotTableStyle` を通じて定義したカスタムスタイルには `PivotTableStyleName` を使用してください。両方を設定しても問題ありませんが、レンダリングされるのは目的のソースに合致する一方のみです。
-{{% /alert %}}
-
+`PivotTableStyleName` と `PivotTableStyleType` は互換性がありません。組み込みプリセットには `PivotTableStyleType` を、`addPivotTableStyle` を通じて定義したカスタムスタイルには `PivotTableStyleName` を使用してください。両方を設定しても問題ありませんが、レンダリングされるのは目的のソースに合致する一方のみです。
 利用可能な `TableStyleElementType` の値には、`WholeTable`、`FirstRow`、`LastRow`、`FirstColumn`、`LastColumn`、`GrandTotalRow`、`GrandTotalColumn`、`PageFieldLabels`、および `PageFieldValues` が含まれます。
 次の例では、`WholeTable` に細い黒の罫線を持ち、`GrandTotalRow` に太字の赤フォントを持つカスタムピボットスタイルを定義し、`PivotTableStyleName` を介してそれを適用して `.xlsx` として保存します。
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // 元データを入力: ヘッダー行 + 9行のデータ (A1:C10)
@@ -168,16 +229,16 @@ pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
 
-## **FormatAll を使用してすべてのピボットセルに 1 つのスタイルを適用する**
-`PivotTable.FormatAll(Style)` は、データ領域、行と列のヘッダー、および集計を含む、ピボットテーブルのすべてのセルに単一の `Style` オブジェクトを適用するショートカットです。`PivotTableStyleType` または `PivotTableStyleName` を介して以前に設定された内容はすべて上書きされます。
+## **formatAll を使用してすべてのピボットセルに 1 つのスタイルを適用する**
+`PivotTable.formatAll(Style)` は、データ領域、行と列のヘッダー、および集計を含む、ピボットテーブルのすべてのセルに単一の `Style` オブジェクトを適用するショートカットです。`PivotTableStyleType` または `PivotTableStyleName` を介して以前に設定された内容はすべて上書きされます。
 
 {{% alert color="primary" %}}
-`FormatAll` は、`PivotTableStyleType` と `PivotTableStyleName` の両方を上書きします。ピボットテーブル全体にわたり、テーマ非依存の均一な外観が必要な場合にのみ使用してください。
+`formatAll` は、`PivotTableStyleType` と `PivotTableStyleName` の両方を上書きします。ピボットテーブル全体にわたり、テーマ非依存の均一な外観が必要な場合にのみ使用してください。
+次の例では、黄色の単色塗りつぶし、太字の濃紺フォント、および全辺に細い黒の罫線を持つ `Style` を作成し、`formatAll` で適用して `.xlsx` として保存します。
 {{% /alert %}}
 
-次の例では、黄色の単色塗りつぶし、太字の濃紺フォント、および全辺に細い黒の罫線を持つ `Style` を作成し、`FormatAll` で適用して `.xlsx` として保存します。
-
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // ソースデータを入力: ヘッダー行（1行目）+ 9行のデータ（2～10行目）
@@ -232,7 +293,7 @@ style.getBorders().get(AsposeCells.BorderType.LeftBorder).setLineStyle(AsposeCel
 style.getBorders().get(AsposeCells.BorderType.LeftBorder).setColor(AsposeCells.Color.Black);
 style.getBorders().get(AsposeCells.BorderType.RightBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 style.getBorders().get(AsposeCells.BorderType.RightBorder).setColor(AsposeCells.Color.Black);
-// FormatAll を適用: この単一のスタイルをピボット表の全セルに強制し、
+// formatAll を適用: この単一のスタイルをピボット表の全セルに強制し、
 // 既に設定されている PivotTableStyleType / PivotTableStyleName を上書きします
 pivotTable.formatAll(style);
 // ワークブックを最新の .xlsx 形式で保存
@@ -245,8 +306,9 @@ workbook.save("output.xlsx");
 |---|---|---|
 | `.xls`（レガシー） | `PivotTable.AutoFormatType` | `Aspose.Cells.Pivot.PivotTableAutoFormatType` の値（例：`Report1`～`Report10`、`Classic`、`Table1`～`Table10`）。最新の形式で保存する場合は無視されます。 |
 | `.xlsx` / `.xlsm` / `.xlsb`（最新の組み込みスタイル） | `PivotTable.PivotTableStyleType` | `Aspose.Cells.PivotTableStyleType` の値（明/暗テーマ、Excel 2017 で追加されたものを含む）。 |
-| `.xlsx` / `.xlsm` / `.xlsb`（最新のカスタムスタイル） | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.AddPivotTableStyle(...)` | 組み込みのプリセットでは不十分な場合に使用します。`TableStyleElement.SetElementStyle(...)` を介して構成します。 |
-| 任意の形式（一律の上書き） | `PivotTable.FormatAll(Style)` | ピボットテーブル全体にわたって他のすべてのスタイル設定を上書きするショートカット。 |
+| `.xlsx` / `.xlsm` / `.xlsb`（最新のカスタムスタイル） | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | 組み込みのプリセットでは不十分な場合に使用します。`TableStyleElement.SetElementStyle(...)` を介して構成します。 |
+| 任意の形式（一律の上書き） | `PivotTable.formatAll(Style)` | ピボットテーブル全体にわたって他のすべてのスタイル設定を上書きするショートカット。 |
 迷った場合は、`.xlsx` として保存し、組み込みテーマには `PivotTableStyleType` を、カスタムテーマには `PivotTableStyleName` を使用してください。
+
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

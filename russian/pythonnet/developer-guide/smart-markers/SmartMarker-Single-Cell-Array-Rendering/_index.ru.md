@@ -1,17 +1,18 @@
 ---
 title: Рендеринг массива в одну ячейку SmartMarker | Aspose.Cells for Python via .NET
+linktitle: Рендеринг массива в одну ячейку SmartMarker | Aspose.Cells for Python via .NET
 description: Узнайте, как отображать данные массива в одной ячейке с помощью атрибутов ArrayAsSingle и ExtraDelimiter в смарт-маркерах с Aspose.Cells for Python via .NET.
-linktitle: Рендеринг массива в одну ячейку SmartMarker | Aspose.Cells
-url: /ru/python-net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
-keywords: Aspose.Cells, Python via .NET library, spreadsheet, Smart Markers, ArrayAsSingle, ExtraDelimiter, single cell array, array rendering, template
+keywords: Aspose.Cells, библиотека Python via .NET, электронная таблица, смарт-маркеры, ArrayAsSingle, ExtraDelimiter, массив в одной ячейке, рендеринг массива, шаблон
 type: docs
 weight: 195
+url: /ru/python-net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
 Aspose.Cells поддерживает отображение данных массива в одной ячейке через смарт-маркеры. Используя атрибут `ArrayAsSingle` вместе с атрибутом `ExtraDelimiter`, разработчики могут управлять тем, как элементы массива разделяются внутри одной ячейки, обеспечивая гибкое форматирование отчётов и шаблонов.
+{{% /alert %}}
 
 ## **Введение**
 Смарт-маркеры в Aspose.Cells — это мощная функция на основе шаблонов, которая позволяет динамически заполнять данные электронной таблицы с помощью выражений маркеров, таких как `&=DataSource.Field`. Маркер размещается в рабочей книге-шаблоне, и при обработке шаблона объектом `WorkbookDesigner` маркеры заменяются значениями из предоставленного источника данных.
@@ -59,6 +60,7 @@ Aspose.Cells поддерживает отображение данных мас
 
 {{% alert color="primary" %}}
 Атрибут `extraDelimiter` принимает любой строковый литерал, включая многосимвольные разделители, произвольный текст или escape-последовательности, такие как `\n` для вывода с переводом строки. Если массив пуст, результирующая ячейка остаётся пустой.
+{{% /alert %}}
 
 ### **Пошаговый рабочий процесс**
 Следующий рабочий процесс описывает, как отобразить массив в одной ячейке с помощью смарт-маркеров.
@@ -71,6 +73,7 @@ Aspose.Cells поддерживает отображение данных мас
 ### **Пример кода 1 — Базовый рендеринг строкового массива**
 
 ```python
+import aspose.cells as ac
 class Product:
     def __init__(self):
         self.Tags = []
@@ -78,8 +81,8 @@ product = Product()
 product.Tags = ["C#", "Aspose", "SmartMarker", "Excel"]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Tags")
-worksheet.cells["A2"].put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
+worksheet.cells.get("A1").put_value("Tags")
+worksheet.cells.get("A2").put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
 designer = ac.WorkbookDesigner()
 designer.workbook = workbook
 designer.set_data_source("Product", product)
@@ -90,6 +93,7 @@ workbook.save("output_arraySingle.xlsx")
 ### **Пример кода 2 — Числовой массив с пользовательским разделителем**
 
 ```python
+import aspose.cells as ac
 class Student:
     def __init__(self):
         self.scores = []
@@ -97,14 +101,15 @@ student = Student()
 student.scores = [95, 88, 76, 100, 67]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Scores")
-worksheet.cells["A2"].put_value(" - ".join(str(s) for s in student.scores))
+worksheet.cells.get("A1").put_value("Scores")
+worksheet.cells.get("A2").put_value(" - ".join(str(s) for s in student.scores))
 workbook.save("output_numericArray.xlsx")
 ```
 
 ### **Пример кода 3 — Сравнение поведения по умолчанию и ArrayAsSingle**
 
 ```python
+import aspose.cells as ac
 class Order:
     def __init__(self, items):
         self._items = items
@@ -118,17 +123,17 @@ order = Order(["Apple", "Banana", "Cherry", "Date"])
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
-# Раздел 1: Smart Marker по умолчанию - значения распределяются горизонтально по ячейкам
-cells["A1"].put_value("Default Spreading Behavior:")
-cells["A2"].put_value("&=Order.Items")
-# Раздел 2: Новое отображение в одной ячейке с использованием arrayasSingle и extraDelimiter
-cells["A4"].put_value("Single Cell Rendering (arrayasSingle=true):")
-cells["A5"].put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
-# Привязка источника данных и обработка Smart Markers
+# Section 1: Default Smart Marker - values spread horizontally across cells
+cells.get("A1").put_value("Default Spreading Behavior:")
+cells.get("A2").put_value("&=Order.Items")
+# Section 2: New single-cell rendering using arrayasSingle and extraDelimiter
+cells.get("A4").put_value("Single Cell Rendering (arrayasSingle=true):")
+cells.get("A5").put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
+# Bind the data source and process Smart Markers
 designer = ac.WorkbookDesigner(workbook)
 designer.set_data_source("Order", order)
 designer.process()
-# Сохранение результирующей рабочей книги
+# Save the resulting workbook
 workbook.save("output_comparison.xlsx")
 ```
 
@@ -140,8 +145,12 @@ workbook.save("output_comparison.xlsx")
 - Функция работает как с объектными источниками данных, так и с источниками `DataSet` и `DataTable`, где столбец может быть разделён на массивы.
 - Для вывода с переводом строки в качестве значения разделителя можно использовать `\n` или `os.linesep`.
 - Размещайте смарт-маркер в ячейке, имеющей достаточную ширину для отображения результирующей объединённой строки; в противном случае содержимое может визуально перекрывать соседние ячейки в зависимости от формата.
-{{% /alert %}}
 
-{{% /alert %}}
+## Связанные статьи
+- [Добавление полей фильтра в сводную таблицу в Aspose.Cells for Python via .NET](/cells/ru/python-net/add-page-field-in-pivot-table/)
+- [Применение стилей к сводным таблицам в Aspose.Cells for Python via .NET](/cells/ru/python-net/apply-style-to-pivot-table/)
+- [Изменение макета поля страницы в сводной таблице](/cells/ru/python-net/change-page-field-layout/)
+- [Преобразование Sparkline в изображение и HTML в Aspose.Cells for Python via .NET](/cells/ru/python-net/convert-sparkline-to-image-and-html/)
+- [Преобразование Excel в формат OFD](/cells/ru/python-net/converting-excel-to-ofd-format/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

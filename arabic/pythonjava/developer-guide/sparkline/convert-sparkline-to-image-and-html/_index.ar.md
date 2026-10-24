@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 الشرارات هي رسوم بيانية صغيرة الحجم تُوضع داخل خلايا ورقة العمل. يتيح لك Aspose.Cells استخراج كل شرارة كصورة مستقلة (لتضمينها في خلية أخرى أو في تقرير خارجي) وأيضًا تصدير ورقة العمل بأكملها الغنية بالشرارات إلى HTML للتوزيع عبر المتصفح. خاصية `Cell.embedded_image` المستخدمة في هذه المقالة متوفرة في **Aspose.Cells 26.5 والإصدارات الأحدث**.
+{{% /alert %}}
 
 ## **مقدمة**
 تُعد الشرارات طريقة موجزة لتصور الاتجاهات مباشرة داخل ورقة العمل. بينما يراها مستخدمو Excel في مكانها، تتطلب العديد من السيناريوهات العملية أن تغادر الشرارة الخلية — على سبيل المثال، ليتم تضمينها في خلية مختلفة كصورة ثابتة، أو إرفاقها برسالة بريد إلكتروني آلية، أو عرضها كجزء من تقرير HTML منشور على الويب.
@@ -36,7 +37,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
@@ -51,28 +51,28 @@ worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
 # إضافة مجموعة مؤشرات سطرية من نوع خط مثبتة في F1 (العمود 5، الصف 0)
 lineArea = CellArea()
-lineArea.setStartColumn(5)
-lineArea.setEndColumn(5)
-lineArea.setStartRow(0)
-lineArea.setEndRow(0)
-lineIdx = worksheet.getSparklineGroups().add(SparklineType.Line, "A1:E1", False, lineArea)
+lineArea.StartColumn = 5
+lineArea.EndColumn = 5
+lineArea.StartRow = 0
+lineArea.EndRow = 0
+lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
 # إضافة مجموعة مؤشرات سطرية من نوع عمود مثبتة في G1 (العمود 6، الصف 0)
 columnArea = CellArea()
-columnArea.setStartColumn(6)
-columnArea.setEndColumn(6)
-columnArea.setStartRow(0)
-columnArea.setEndRow(0)
-columnIdx = worksheet.getSparklineGroups().add(SparklineType.Column, "A1:E1", False, columnArea)
+columnArea.StartColumn = 6
+columnArea.EndColumn = 6
+columnArea.StartRow = 0
+columnArea.EndRow = 0
+columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
 # إضافة مجموعة مؤشرات سطرية من نوع فوز/خسارة (مكدسة) مثبتة في H1 (العمود 7، الصف 0)
 stackedArea = CellArea()
-stackedArea.setStartColumn(7)
-stackedArea.setEndColumn(7)
-stackedArea.setStartRow(0)
-stackedArea.setEndRow(0)
-stackedIdx = worksheet.getSparklineGroups().add(SparklineType.Stacked, "A1:E1", False, stackedArea)
+stackedArea.StartColumn = 7
+stackedArea.EndColumn = 7
+stackedArea.StartRow = 0
+stackedArea.EndRow = 0
+stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
 # تكوين خيارات الصورة للإخراج بصيغة PNG
 imageOptions = ImageOrPrintOptions()
-imageOptions.setImageType(ImageType.Png)
+imageOptions.setImageType(ImageType.PNG)
 # تحويل المؤشر السطري الخطي إلى صورة وتضمينها في الخلية F2
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
@@ -97,6 +97,7 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 نظرًا لأن كل مجموعة شرارات مُثبَّتة في خلية واحدة، يمكنك الوصول إليها من خلال المفهرس `group.sparklines[0]` بدلاً من التعداد باستخدام حلقة `for`. هذا يحافظ على قصر كود العرض ويتطابق مع النمط النموذجي "شرارة واحدة لكل خلية تثبيت". يتطلب تخزين بايتات الصورة عبر `Cell.embedded_image` إصدار Aspose.Cells 26.5 أو أحدث.
+{{% /alert %}}
 
 ## **سير العمل 2 — تصدير ورقة عمل الشرارات إلى HTML**
 بمجرد أن يحتوي المصنف على شرارات حية (وصورًا مضمنة اختياريًا)، يمكن نشر ورقة العمل بأكملها على الويب بحفظها بتنسيق HTML. توفّر فئة `HtmlSaveOptions` خيارات التحكم اللازمة لهذا التصدير؛ في سير العمل هذا، ستعيد استخدام ملف `output_with_sparklines.xlsx` المُنشَأ في سير العمل 1 وتحوِّله إلى مستند HTML نظيف أحادي الصفحة.
@@ -111,7 +112,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, HtmlSaveOptions
 workbook = Workbook("output_with_sparklines.xlsx")
 htmlOptions = HtmlSaveOptions()
@@ -124,6 +124,7 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 توفّر فئة `HtmlSaveOptions` خصائص إضافية لضبط المخرجات بدقة، مثل `export_hidden_worksheet`، و`export_images_as_base64`، و`encoding`. اضبط هذه حسب الحاجة لهدف النشر لديك.
+{{% /alert %}}
 
 ## **ملخص واجهة برمجة التطبيقات (API)**
 تعتمد سير العمل أعلاه على مجموعة صغيرة من واجهات Aspose.Cells التي تعمل معًا.
@@ -137,10 +138,5 @@ jpype.shutdownJVM()
 ## **مقالات ذات صلة**
 - [الشرارات في Aspose.Cells لـ Aspose.Cells for Python via Java](/cells/ar/python-java/sparkline/)
 - [إدراج صورة في خلية](/cells/ar/python-java/inserting-an-image-into-a-cell/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta il rendering dei dati di un array in una singola cella tramite gli Smart Marker. Utilizzando l'attributo `ArrayAsSingle` insieme all'attributo `ExtraDelimiter`, gli sviluppatori possono controllare il modo in cui gli elementi dell'array vengono separati all'interno di una singola cella, offrendo una formattazione flessibile per report e modelli.
+{{% /alert %}}
 
 ## **Introduzione**
 Gli Smart Marker in Aspose.Cells sono una potente funzionalità basata su modelli che consente di popolare dinamicamente i dati di un foglio di calcolo utilizzando espressioni marker come `&=DataSource.Field`. Il marker viene posizionato in una cartella di lavoro di progettazione e, quando il modello viene elaborato dal `WorkbookDesigner`, i marker vengono sostituiti con i valori provenienti dall'origine dati fornita.
@@ -59,6 +60,7 @@ Il marker è composto dalle seguenti parti:
 
 {{% alert color="primary" %}}
 L'attributo `extraDelimiter` accetta qualsiasi stringa letterale, inclusi delimitatori di più caratteri, testo personalizzato o sequenze di escape come `\n` per un output separato da nuove righe. Se l'array è vuoto, la cella risultante viene lasciata vuota.
+{{% /alert %}}
 
 ### **Flusso di Lavoro Passo per Passo**
 Il flusso di lavoro seguente descrive come eseguire il rendering di un array in una singola cella utilizzando gli Smart Marker.
@@ -168,8 +170,5 @@ Tieni presente i seguenti punti quando lavori con gli attributi `ArrayAsSingle` 
 - La funzionalità funziona con origini dati oggetto, nonché con origini di tipo `DataSet` e `DataTable` in cui una colonna può essere suddivisa in array.
 - Per un output separato da nuove righe, puoi utilizzare `\n` come valore del delimitatore.
 - Posiziona lo Smart Marker in una cella con larghezza sufficiente per visualizzare la stringa concatenata risultante; in caso contrario, il contenuto potrebbe traboccare visivamente nelle celle adiacenti a seconda del formato.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

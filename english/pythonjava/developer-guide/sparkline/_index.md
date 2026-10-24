@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supports creating sparklines inside worksheet cells. Sparklines are miniature charts that fit within a single cell, providing a quick visual representation of data trends. Aspose.Cells supports line, column, and win/loss sparklines, and each can be customized with respect to color, line weight, high/low points, and markers.
+{{% /alert %}}
 
 ## **Introduction**
 Sparklines are tiny in-cell charts that are useful when you want to display a quick trend next to a row or column of data without taking up the space of a full chart. Excel supports three kinds of sparklines: **line**, **column**, and **win/loss**. Aspose.Cells mirrors this capability through the `SparklineGroup` and `SparklineGroupCollection` APIs found in the `Aspose.Cells.Charts` namespace.
@@ -30,11 +31,11 @@ The following example creates a workbook, writes the values 5, -3, 8, -2, 6 into
 
 ```python
 import jpype
+import jpype.imports
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, CellArea, SparklineType
-from java.awt import Color
+from asposecells.api import Color
 # Step 1: Create a Workbook and get the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -47,17 +48,17 @@ cells.get("D1").putValue(-2)
 cells.get("E1").putValue(6)
 # Step 3: Build a CellArea pointing to destination cell F1
 dest = CellArea()
-dest.setStartColumn(5)  # column F (0-indexed)
-dest.setEndColumn(5)
-dest.setStartRow(0)     # row 1 (0-indexed)
-dest.setEndRow(0)
+dest.StartColumn = 5  # column F (0-indexed)
+dest.EndColumn = 5
+dest.StartRow = 0     # row 1 (0-indexed)
+dest.EndRow = 0
 # Step 4: Add a Line sparkline from A1:E1 into F1
 # SparklineGroups.add returns the index of the newly added group
-index = worksheet.getSparklineGroups().add(SparklineType.Line, "A1:E1", False, dest)
+index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, dest)
 group = worksheet.getSparklineGroups().get(index)
 # Step 5: Create a red CellsColor and assign it to the sparkline line color
 red = workbook.createCellsColor()
-red.setColor(Color.RED)
+red.setColor(Color.getRed())
 group.setSeriesColor(red)
 # Step 6: Enable high-point and low-point markers
 group.setShowHighPoint(True)
@@ -81,7 +82,6 @@ The example below writes the values 5, -3, 8, -2, 6 into A1:E1 and renders a col
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType
 # Step 1: Create a Workbook and get the first worksheet
 workbook = Workbook()
@@ -92,13 +92,13 @@ for i in range(len(values)):
     worksheet.getCells().get(0, i).putValue(values[i])
 # Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 dest = CellArea()
-dest.setStartColumn(5)
-dest.setEndColumn(5)
-dest.setStartRow(0)
-dest.setEndRow(0)
+dest.StartColumn = 5
+dest.EndColumn = 5
+dest.StartRow = 0
+dest.EndRow = 0
 # Step 4: Add a Column sparkline to the destination cell
 idx = worksheet.getSparklineGroups().add(
-    SparklineType.Column, "A1:E1", False, dest)
+    SparklineType.COLUMN, "A1:E1", False, dest)
 group = worksheet.getSparklineGroups().get(idx)
 # Step 5: Confirm the sparkline type by reading group.Type
 print("Sparkline Type added: " + str(group.getType()))
@@ -122,7 +122,6 @@ In Aspose.Cells, a win/loss sparkline is created by passing `SparklineType.STACK
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, CellsColor, Color
 # Step 1: Create a Workbook and get the first worksheet
 workbook = Workbook()
@@ -136,13 +135,13 @@ worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
 # Step 3: Build a CellArea pointing to F1 (column 5, row 0)
 dest = CellArea()
-dest.setStartColumn(5)   # F
-dest.setEndColumn(5)
-dest.setStartRow(0)      # row 1
-dest.setEndRow(0)
-# Step 4: Add a Win/Loss sparkline (SparklineType.Stacked)
+dest.StartColumn = 5   # F
+dest.EndColumn = 5
+dest.StartRow = 0      # row 1
+dest.EndRow = 0
+# Step 4: Add a Win/Loss sparkline (SparklineType.STACKED)
 groupIndex = worksheet.getSparklineGroups().add(
-    SparklineType.Stacked,
+    SparklineType.STACKED,
     "A1:E1",
     False,
     dest)
@@ -154,19 +153,19 @@ group.setShowLowPoint(True)
 group.setShowNegativePoints(True)
 # Set the high-point color to green
 highColor = workbook.createCellsColor()
-highColor.setColor(Color.GREEN)
+highColor.setColor(Color.getGreen())
 group.setHighPointColor(highColor)
 # Set the low-point color to red
 lowColor = workbook.createCellsColor()
-lowColor.setColor(Color.RED)
+lowColor.setColor(Color.getRed())
 group.setLowPointColor(lowColor)
 # Set the negative-point color to orange
 negColor = workbook.createCellsColor()
-negColor.setColor(Color.ORANGE)
+negColor.setColor(Color.getOrange())
 group.setNegativePointsColor(negColor)
 # Set the default series color (used for positive bars)
 seriesColor = workbook.createCellsColor()
-seriesColor.setColor(Color.STEELBLUE)
+seriesColor.setColor(Color.fromArgb(70, 130, 180))
 group.setSeriesColor(seriesColor)
 # Step 6: Save the workbook
 workbook.save("output_winloss.xlsx")
@@ -179,11 +178,11 @@ The combined example below creates a single workbook, populates row 1 with the v
 
 ```python
 import jpype
+import jpype.imports
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, CellArea, CellsColor, SparklineType
-from java.awt import Color
+from asposecells.api import Color
 # Step 1: Create a Workbook and get the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -195,39 +194,39 @@ worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
 # Step 3: Add a Line sparkline group at F1
 lineArea = CellArea()
-lineArea.setStartColumn(5)
-lineArea.setEndColumn(5)
-lineArea.setStartRow(0)
-lineArea.setEndRow(0)
+lineArea.StartColumn = 5
+lineArea.EndColumn = 5
+lineArea.StartRow = 0
+lineArea.EndRow = 0
 lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
 lineGroup = worksheet.getSparklineGroups().get(lineIdx)
 # Customize the line sparkline color via CellsColor
 lineColor = workbook.createCellsColor()
-lineColor.setColor(Color.BLUE)
+lineColor.setColor(Color.getBlue())
 lineGroup.setSeriesColor(lineColor)
 # Step 4: Add a Column sparkline group at F2
 columnArea = CellArea()
-columnArea.setStartColumn(5)
-columnArea.setEndColumn(5)
-columnArea.setStartRow(1)
-columnArea.setEndRow(1)
+columnArea.StartColumn = 5
+columnArea.EndColumn = 5
+columnArea.StartRow = 1
+columnArea.EndRow = 1
 columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
 columnGroup = worksheet.getSparklineGroups().get(columnIdx)
 # Customize the column sparkline series color
 columnColor = workbook.createCellsColor()
-columnColor.setColor(Color.GREEN)
+columnColor.setColor(Color.getGreen())
 columnGroup.setSeriesColor(columnColor)
 # Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 stackedArea = CellArea()
-stackedArea.setStartColumn(5)
-stackedArea.setEndColumn(5)
-stackedArea.setStartRow(2)
-stackedArea.setEndRow(2)
+stackedArea.StartColumn = 5
+stackedArea.EndColumn = 5
+stackedArea.StartRow = 2
+stackedArea.EndRow = 2
 stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
 stackedGroup = worksheet.getSparklineGroups().get(stackedIdx)
 # Customize the win/loss sparkline series color
 stackedColor = workbook.createCellsColor()
-stackedColor.setColor(Color(255, 140, 0))  # DarkOrange
+stackedColor.setColor(Color.fromArgb(255, 140, 0))  # DarkOrange
 stackedGroup.setSeriesColor(stackedColor)
 # Step 6: Save the workbook
 workbook.save("output_all.xlsx")
@@ -242,6 +241,5 @@ Once a `SparklineGroup` has been created and added to `worksheet.getSparklineGro
 - **High/Low point markers** — flags that turn on small markers on the highest and lowest data points, useful for emphasizing extremes.
 - **First/Last/Negative point markers** — flags that toggle markers on the first, last, and negative data points.
 To change a color, always create a `CellsColor` instance and assign it to the relevant property. Do not assign a `java.awt.Color` directly to sparkline color properties — they expect the `CellsColor` type from `Aspose.Cells.Drawing`. The `add` method itself returns a fully typed `SparklineGroup` object, so you can chain property assignments on the return value or store it in a local variable and customize it before saving.
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

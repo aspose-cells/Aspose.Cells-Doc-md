@@ -15,7 +15,8 @@ Att lägga till ett basfält i data- (värde-)regionen är det första steget f�
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -53,13 +54,13 @@ Varje fält som placeras i dataregionen omsluts internt som en `PivotField`-inst
 
 {{% alert color="primary" %}}
 Att ändra `function` påverkar bara aggregatet, källkolumnen ändras inte.
-{{% /alert %}}
-
 Du kan därför låta ett datafält vara kvar som `Sum` medan du lägger till ett andra datafält som riktar sig mot samma källkolumn men använder `Count` eller `Average`, allt i en enda pivot.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -96,9 +97,8 @@ När en pivottabell innehåller två eller fler datafält exponerar Aspose.Cells
 
 {{% alert color="primary" %}}
 `PivotTable.values_field` fungerar inte om det inte finns något eller bara ett värdefält.
-{{% /alert %}}
-
 Scenarierna nedan går igenom tre kompletta exempel som demonstrerar varje funktionalitet som beskrivs ovan mot samma pivotstruktur.
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac

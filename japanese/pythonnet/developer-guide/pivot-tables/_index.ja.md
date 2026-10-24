@@ -36,4 +36,11 @@ Aspose.Cells for Python via .NETでは、ピボットテーブルを作成およ
 
 ## **高度なトピック**
 
+## 関連事項
+- [Aspose.Cells for Python via .NET でピボットテーブルにフィルターフィールドを追加する](/cells/ja/python-net/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Python via .NET でピボットテーブルにスタイルを適用する](/cells/ja/python-net/apply-style-to-pivot-table/)
+- [Modify Page Field Layout in Pivot Table](/cells/ja/python-net/change-page-field-layout/)
+- [Filtering Pivot Tables by Label or Value](/cells/ja/python-net/filter-by-label-or-value-of-pivot-table/)
+- [Aspose.Cells for Python via .NET でピボットテーブルの値フィールドを管理する](/cells/ja/python-net/manage-value-fields/)
+
 {{< app/cells/assistant language="python-net" >}}

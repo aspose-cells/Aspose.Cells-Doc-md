@@ -130,6 +130,7 @@ int main() {
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -252,4 +253,4 @@ int main() {
 - [Обновление сводной таблицы](/cells/ru/cpp/refresh-pivot-table/) — поясняет `RefreshData` и `CalculateData`, которые требуются после изменения порядка полей страницы.
 - [Применение стиля к сводной таблице](/cells/ru/cpp/apply-style-to-pivot-table/) — показывает, как отформатировать отображаемую сводную таблицу после размещения полосы полей страницы.
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

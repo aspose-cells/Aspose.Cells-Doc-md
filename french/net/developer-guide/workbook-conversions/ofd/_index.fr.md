@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge la conversion des classeurs Excel directement au format OFD (Open Fixed-layout Document) à l'aide de la valeur d'énumération `SaveFormat.Ofd`. Le document OFD résultant préserve la mise en page visible du classeur, le contenu, les cellules fusionnées, les largeurs de colonnes, les hauteurs de lignes, les polices, les couleurs, les bordures et les formats de nombres. Cela rend Aspose.Cells adapté aux flux de travail d'archivage, d'impression, de dépôt réglementaire et de soumission gouvernementale qui nécessitent une sortie à mise en page fixe.
+{{% /alert %}}
 
 ## **Introduction**
 OFD (Open Fixed-layout Document) est une norme nationale chinoise (GB/T 33190-2016) pour représenter des documents numériques dans une mise en page fixe, basée sur des pages. Elle joue un rôle similaire à celui du PDF pour les cas d'utilisation où l'apparence visuelle du document source doit être préservée exactement telle qu'elle a été conçue. L'OFD est largement adopté pour les soumissions gouvernementales, les dépôts réglementaires, les factures électroniques et l'archivage à long terme en République populaire de Chine.
@@ -19,6 +20,7 @@ La conversion des classeurs Excel en OFD est une exigence courante dans les scé
 
 {{% alert color="primary" %}}
 La sortie OFD générée par Aspose.Cells préserve la mise en page visible du classeur source, y compris le contenu des cellules, les cellules fusionnées, les largeurs de colonnes et les hauteurs de lignes. La mise en forme des cellules telle que les polices, les couleurs, les bordures, l'alignement et les formats de nombres est également restituée dans la sortie à mise en page fixe. Les options de mise en page configurées sur la feuille de calcul, telles que le format du papier, l'orientation et la zone d'impression, influencent la mise en page du document OFD résultant.
+{{% /alert %}}
 
 ## **Création d'un classeur Excel et enregistrement au format OFD**
 Aspose.Cells vous permet de construire un classeur par programmation, de le remplir avec des données, puis de l'enregistrer directement au format OFD à l'aide de l'énumération `SaveFormat.Ofd`. L'exemple suivant crée une facture à partir de zéro. Il ajoute un logo d'entreprise, des informations d'en-tête, une section de facturation, des lignes d'articles et des totaux calculés, puis exporte le classeur vers un document OFD.
@@ -80,7 +82,8 @@ headerTotal.PutValue("Total");
 Style headerStyle = workbook.CreateStyle();
 headerStyle.Font.IsBold = true;
 headerStyle.Font.Color = Color.White;
-headerStyle.BackgroundColor = Color.Navy;
+headerStyle.ForegroundColor = Color.Navy;
+headerStyle.Pattern = BackgroundType.Solid;
 headerStyle.HorizontalAlignment = TextAlignmentType.Center;
 headerStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 headerStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
@@ -119,7 +122,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
     descCell.PutValue(lineItems[i, 0]);
     qtyCell.PutValue(lineItems[i, 1]);
     priceCell.PutValue(lineItems[i, 2]);
-    totalCell.Formula = "C" + row + "*D" + row;
+    totalCell.Formula = "C" + (row + 1) + "*D" + (row + 1);
     descCell.SetStyle(borderStyle);
     qtyCell.SetStyle(borderStyle);
     priceCell.SetStyle(currencyStyle);
@@ -128,7 +131,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
 // Sous-total, taxe, total général
 worksheet.Cells["B24"].PutValue("Subtotal:");
 Cell subtotalCell = worksheet.Cells["E24"];
-subtotalCell.Formula = "SUM(E20:E22)";
+subtotalCell.Formula = "SUM(E21:E23)";
 worksheet.Cells["B25"].PutValue("Tax (10%):");
 Cell taxCell = worksheet.Cells["E25"];
 taxCell.Formula = "E24*0.1";
@@ -203,8 +206,5 @@ Console.WriteLine("\nFile successfully converted to OFD format: " + dataDir + "S
 - [Insertion d'une image dans une cellule](/cells/fr/net/inserting-an-image-into-a-cell/)
 - [Lecture et écriture de fichiers DBF](/cells/fr/net/dbf/)
 - [Convertir une sparkline en image et HTML dans Aspose.Cells for .NET](/cells/fr/net/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="csharp" >}}

@@ -129,6 +129,7 @@ Bu örnekte, Örnek 1'deki gibi tam olarak `Fruit` alanını satır eksenine, `Y
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -251,4 +252,4 @@ int main() {
 - [Pivot Tablosunu Yenileme](/cells/tr/cpp/refresh-pivot-table/) — sayfa alanları yeniden sıralandıktan sonra gerekli olan `RefreshData` ve `CalculateData` işlemlerini açıklar.
 - [Pivot Tablosuna Stil Uygulama](/cells/tr/cpp/apply-style-to-pivot-table/) — sayfa alanı şeridi düzenlendikten sonra işlenmiş pivot tablonun nasıl biçimlendirileceğini gösterir.
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

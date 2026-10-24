@@ -37,6 +37,7 @@ Resmin bağlantısı, sıfır tabanlı dört indeks özelliğiyle tanımlanır:
 
 {{% alert color="primary" %}}
 Aspose.Cells'deki satır ve sütun indisleri **sıfır tabanlıdır**. C6 hücresinin satır indeksi 5, sütun indeksi 2'dir. Sağ alt bağlantı noktasındaki bir-bir dışı hatalar, resimlerin bitişik bir hücreye taşmış gibi görünmesinin en yaygın kaynağıdır.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `Picture.getPlacement()`, kullanıcı alttaki satırı veya sütunu yeniden boyutlandırdığında resmin nasıl davranacağını kontrol eden `PlacementType` türünde bir enum döndürür. Tek hücreli resim için önerilen değer `PlacementType.MOVE_AND_SIZE`'dir; bu değer, resmin temel alınan hücreyle birlikte taşınmasına ve yeniden boyutlandırılmasına neden olarak tam sığmayı korur.
@@ -118,7 +119,6 @@ Her iki yaklaşım da tek bir hücreye sığan bir resim üretir, ancak resmin n
 - **Aşağıdaki durumlarda gömülü görüntü (Yaklaşım 2) kullanın:**
   - Bir hücreye bir görüntünün mümkün olan en basit şekilde eklenmesini istediğinizde.
   - Görüntü, diğer tüm hücre içerikleri gibi hücreyle birlikte hareket etmelidir.
-{{% /alert %}}
 
 ## Related Articles
 - [Aspose.Cells for Java'da Excel Camera](/cells/tr/java/excel-camera/)

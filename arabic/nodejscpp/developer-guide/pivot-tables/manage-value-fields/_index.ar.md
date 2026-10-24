@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 تُعد إضافة حقل أساسي إلى منطقة البيانات (القيم) هي الخطوة الأولى في تشكيل كيفية تجميع الجدول المحوري لبيانات المصدر. يعرض Aspose.Cells الطريقة `PivotTable.addFieldToArea(PivotFieldType, string)`، وهي نسخة محمّلة تقبل الثابت `PivotFieldType.Data` واسم عمود المصدر. بمجرد إضافة حقل إلى منطقة البيانات، تكشفه الواجهة البرمجية من خلال مجموعة `PivotTable.getDataFields()`، بالترتيب الذي تمت به إضافة الحقول. افتراضيًا، يتم تلخيص عمود رقمي في المصدر باستخدام `ConsolidationFunction.Sum`، بينما يكون العمود غير الرقمي افتراضيًا على `Count`.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -55,12 +55,11 @@ workbook.save("output_plot.xlsx");
 
 {{% alert color="primary" %}}
 لا يؤثر تغيير دالة التلخيص إلا على التجميع، بينما يظل عمود المصدر دون تغيير.
+يمكنك بالتالي ترك حقل بيانات واحد على `Sum` بينما تضيف حقل بيانات ثانٍ يستهدف نفس عمود المصدر لكنه يستخدم `Count` أو `Average`، كل ذلك في جدول محوري واحد.
 {{% /alert %}}
 
-يمكنك بالتالي ترك حقل بيانات واحد على `Sum` بينما تضيف حقل بيانات ثانٍ يستهدف نفس عمود المصدر لكنه يستخدم `Count` أو `Average`، كل ذلك في جدول محوري واحد.
-
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -100,12 +99,11 @@ workbook.save("output_function.xlsx");
 
 {{% alert color="primary" %}}
 لا تعمل `PivotTable.getValuesField()` في حالة عدم وجود حقل قيمة أو وجود حقل واحد فقط.
+تستعرض السيناريوهات أدناه ثلاثة أمثلة شاملة من البداية إلى النهاية توضح كل قدرة موصوفة أعلاه على نفس بنية الجدول المحوري.
 {{% /alert %}}
 
-تستعرض السيناريوهات أدناه ثلاثة أمثلة شاملة من البداية إلى النهاية توضح كل قدرة موصوفة أعلاه على نفس بنية الجدول المحوري.
-
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

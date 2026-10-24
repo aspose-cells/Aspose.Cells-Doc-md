@@ -72,13 +72,11 @@ Chaque champ placé dans la zone de données est encapsulé en interne en tant q
 
 {{% alert color="primary" %}}
 La modification de `Function` n'affecte que l'agrégat, la colonne source ne change pas.
-{{% /alert %}}
-
 Vous pouvez donc conserver un champ de données avec la fonction `SUM` tout en ajoutant un second champ de données qui cible la même colonne source mais utilise `COUNT` ou `AVERAGE`, le tout dans un seul tableau croisé dynamique.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -119,13 +117,11 @@ Lorsqu'un tableau croisé dynamique contient deux champs de données ou plus, As
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` ne fonctionne pas s'il n'y a aucun ou un seul champ de valeur.
-{{% /alert %}}
-
 Les scénarios ci-dessous présentent trois exemples de bout en bout qui illustrent chaque capacité décrite ci-dessus sur la même structure de tableau croisé dynamique.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

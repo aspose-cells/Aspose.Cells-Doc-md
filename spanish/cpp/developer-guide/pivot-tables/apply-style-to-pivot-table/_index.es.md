@@ -31,6 +31,7 @@ El siguiente ejemplo carga un libro de trabajo nuevo, rellena los datos de muest
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Crear un nuevo libro de trabajo
@@ -86,9 +87,19 @@ int main() {
 
 ## **Aplicar un estilo de tabla dinámica preajustado con nombre moderno**
 
+`SetPivotTableStyleType` selecciona uno de los estilos integrados con nombre que Excel 2007 introdujo para las tablas dinámicas. La enumeración `PivotTableStyleType` expone tres familias de temas: la familia clara desde `PivotTableStyleLight1` hasta `PivotTableStyleLight28`, la familia media desde `PivotTableStyleMedium1` hasta `PivotTableStyleMedium28` y la familia oscura desde `PivotTableStyleDark1` hasta `PivotTableStyleDark28`. También define `None` y `Custom`. Los miembros con números más altos de cada familia son los estilos agregados en Excel 2017.
+Estos preajustes son de solo lectura. En cuanto necesite cambiar colores, bordes o fuentes más allá de lo que ofrece un preajuste, tendrá que definir en su lugar un estilo personalizado para tablas dinámicas, como se muestra en [Escenario 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**¿Por qué los preajustes modernos y no los autoformatos de la serie de informes?** Los valores `Report1` a `Report10` y `Table1` a `Table10` de `PivotTableAutoFormatType` son anteriores a los campos de columna de las tablas dinámicas, por lo que no incluyen ningún estilo para los encabezados de los campos de columna y Excel representa esos encabezados sin estilo. Los preajustes de `PivotTableStyleType` se diseñaron para la disposición bidimensional que usa Excel moderno y aplican el mismo estilo a los encabezados de los campos de fila y de columna.
+{{% /alert %}}
+
+Este escenario reutiliza el conjunto de datos Fruit/Year/Amount del Escenario 1, agrega `Year` al área de columnas junto con el campo de fila `Fruit` mediante `PivotFieldType::Column`, aplica el preajuste de tema oscuro `PivotTableStyleDark1` con `SetPivotTableStyleType` y guarda el resultado como `.xlsx` — el formato para el cual `PivotTableStyleType` es válido.
+
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -135,7 +146,6 @@ int main() {
     return 0;
 }
 ```
-
 ## **Definir y aplicar un estilo personalizado de tabla dinámica**
 Los preajustes integrados no se pueden modificar. Siempre que necesite anular colores, bordes o fuentes, debe definir un estilo personalizado de tabla dinámica. El flujo de trabajo consta de tres pasos:
 1. Añada un estilo personalizado a la colección `TableStyles` del libro de trabajo mediante `Worksheets.TableStyles.AddPivotTableStyle(string name)`. Esto devuelve el índice del estilo recién creado.
@@ -144,14 +154,14 @@ Los preajustes integrados no se pueden modificar. Siempre que necesite anular co
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` y `PivotTableStyleType` no son intercambiables. Use `PivotTableStyleType` para preajustes integrados, y `PivotTableStyleName` para estilos personalizados que haya definido mediante `AddPivotTableStyle`. Establecer ambos es inofensivo, pero solo se representa el que coincida con la fuente prevista.
-{{% /alert %}}
-
 Los valores disponibles de `TableStyleElementType` incluyen `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` y `PageFieldValues`.
 El siguiente ejemplo define un estilo personalizado de tabla dinámica con un borde negro fino en `WholeTable` y una fuente roja en negrita en `GrandTotalRow`, luego lo aplica mediante `PivotTableStyleName` y guarda como `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -230,9 +240,8 @@ int main() {
 
 {{% alert color="primary" %}}
 `FormatAll` anula tanto `PivotTableStyleType` como `PivotTableStyleName`. Úselo solo cuando se requiera una apariencia uniforme e independiente del tema en toda la tabla dinámica.
-{{% /alert %}}
-
 El siguiente ejemplo crea un `Style` con un relleno sólido amarillo, una fuente azul oscuro en negrita y bordes negros finos en todos los lados, luego lo aplica con `FormatAll` y guarda como `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"

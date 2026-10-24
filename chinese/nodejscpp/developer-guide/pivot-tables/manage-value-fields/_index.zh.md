@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 将基本字段添加到数据（值）区域，是确定数据透视表如何汇总源数据的第一步。Aspose.Cells 提供了 `PivotTable.AddFieldToArea(PivotFieldType, string)` 重载，该重载接受常量 `PivotFieldType.Data` 和源列名称。字段添加到数据区域后，API 会通过 `PivotTable.DataFields` 集合按字段添加顺序将其公开。默认情况下，数值源列使用 `Sum` 汇总，而非数值列默认使用 `Count` 汇总。
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -51,11 +51,11 @@ workbook.save("output_drag.xlsx");
 字段位于数据区域后，Aspose.Cells 会通过 `PivotTable.DataFields` 中的 `PivotField` 对象将其公开。每个 `PivotField` 都有一个可写的 `Function` 属性，其类型为 `ConsolidationFunction`，用于控制应用于该字段基础值的聚合方式。`ConsolidationFunction` 是一个枚举，包含 `Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var` 和 `Varp` 成员。前六个成员可满足现实中的绝大多数使用场景，后四个成员则适用于方差分析等统计汇总。
 
 {{% alert color="primary" %}}
-更改 `Function` 只会影响汇总方式，不会修改源列以及数据透视表的行/列结构。要更改现有数据字段的汇总方式，请设置 `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;`，然后调用 `pivotTable.CalculateData()` 重新呈现数据透视表。
+更改 `Function` 只会影响汇总方式，不会修改源列以及数据透视表的行/列结构。要更改现有数据字段的汇总方式，请设置 `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;`，然后调用 `pivotTable.calculateData()` 重新呈现数据透视表。
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -98,7 +98,7 @@ workbook.save("output_function.xlsx");
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

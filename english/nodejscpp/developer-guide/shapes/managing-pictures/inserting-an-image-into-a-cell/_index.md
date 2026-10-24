@@ -37,6 +37,7 @@ The picture's anchor is defined by four zero-based index properties:
 
 {{% alert color="primary" %}}
 Row and column indices in Aspose.Cells are **zero-based**. Cell C6 has row index 5 and column index 2. Off-by-one errors on the lower-right anchor are the most common source of pictures that appear to overlap into an adjacent cell.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `picture.placement` is an enum of type `PlacementType` that controls how the picture behaves when the user resizes the row or column beneath it. The recommended value for a single-cell picture is `PlacementType.MoveAndSize`, which causes the picture to move and resize together with its underlying cell, preserving the exact fit.
@@ -53,7 +54,7 @@ Row and column indices in Aspose.Cells are **zero-based**. Cell C6 has row index
 The following code demonstrates the complete approach.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -88,6 +89,8 @@ This makes `cell.embeddedImage` the most concise option when your goal is simply
 The following code demonstrates the complete approach.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 // Get the target cell C6
@@ -113,7 +116,6 @@ Both approaches produce a picture that fits inside a single cell, but they diffe
 - **Use an embedded image (Approach 2) when:**
   - You want the simplest possible insertion of an image into a cell.
   - The image should travel with the cell like any other cell content.
-{{% /alert %}}
 
 ## Related Articles
 - [Excel Camera in Aspose.Cells for Node.js via C++](/cells/nodejs-cpp/excel-camera/)
@@ -122,4 +124,4 @@ Both approaches produce a picture that fits inside a single cell, but they diffe
 - [Modify Page Field Layout in Pivot Table](/cells/nodejs-cpp/change-page-field-layout/)
 - [Convert Sparkline to Image and HTML in Aspose.Cells for Node.js via C++](/cells/nodejs-cpp/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -20,6 +20,7 @@ ExcelワークブックをOFDに変換することは、スプレッドシート
 
 {{% alert color="primary" %}}
 Aspose.Cellsによって生成されたOFD出力は、セルの内容、結合されたセル、列幅、行の高さなど、ソースワークブックの表示レイアウトを保持します。フォント、色、罫線、配置、数値書式などのセル書式も、固定レイアウト出力でレンダリングされます。用紙サイズ、向き、印刷領域など、ワークシートに設定されたページ設定オプションは、生成されるOFDドキュメントのレイアウトに影響します。
+{{% /alert %}}
 
 ## **Excelワークブックの作成とOFDとしての保存**
 Aspose.Cellsを使用すると、プログラムでワークブックを構築し、データを入力してから、`SaveFormat.Ofd`列挙を使用してOFD形式に直接保存できます。次の例では、請求書を最初から作成します。会社のロゴ、ヘッダー情報、請求先セクション、明細項目、および計算された合計を追加し、ワークブックをOFDドキュメントとしてエクスポートします。
@@ -81,7 +82,8 @@ headerTotal.PutValue("Total");
 Style headerStyle = workbook.CreateStyle();
 headerStyle.Font.IsBold = true;
 headerStyle.Font.Color = Color.White;
-headerStyle.BackgroundColor = Color.Navy;
+headerStyle.ForegroundColor = Color.Navy;
+headerStyle.Pattern = BackgroundType.Solid;
 headerStyle.HorizontalAlignment = TextAlignmentType.Center;
 headerStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 headerStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
@@ -120,7 +122,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
     descCell.PutValue(lineItems[i, 0]);
     qtyCell.PutValue(lineItems[i, 1]);
     priceCell.PutValue(lineItems[i, 2]);
-    totalCell.Formula = "C" + row + "*D" + row;
+    totalCell.Formula = "C" + (row + 1) + "*D" + (row + 1);
     descCell.SetStyle(borderStyle);
     qtyCell.SetStyle(borderStyle);
     priceCell.SetStyle(currencyStyle);
@@ -129,7 +131,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
 // 小計、税、総合計
 worksheet.Cells["B24"].PutValue("Subtotal:");
 Cell subtotalCell = worksheet.Cells["E24"];
-subtotalCell.Formula = "SUM(E20:E22)";
+subtotalCell.Formula = "SUM(E21:E23)";
 worksheet.Cells["B25"].PutValue("Tax (10%):");
 Cell taxCell = worksheet.Cells["E25"];
 taxCell.Formula = "E24*0.1";
@@ -198,7 +200,5 @@ Console.WriteLine("\nPrint area set to: " + printArea);
 workbook.Save(dataDir + "SampleBook.ofd", SaveFormat.Ofd);
 Console.WriteLine("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 ```
-
-{{% /alert %}}csharp
 
 {{< app/cells/assistant language="csharp" >}}

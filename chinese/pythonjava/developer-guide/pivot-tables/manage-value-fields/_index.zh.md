@@ -14,14 +14,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 将基础字段添加到数据（值）区域是塑造数据透视表如何聚合源数据的第一步。Aspose.Cells 公开 `PivotTable.addFieldToArea(PivotFieldType, string)`，这是一个接受常量 `PivotFieldType.DATA` 和源列名称的重载。一旦字段被添加到数据区域，API 会通过 `PivotTable.DataFields` 集合按字段添加顺序公开它们。默认情况下，数值型源列使用 `ConsolidationFunction.SUM` 进行汇总，而非数值列默认为 `COUNT`。
 
 ```python
-import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Data"
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, PivotFieldType
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+worksheet.setName("Data")
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
-    worksheet.cells.get(0, j).put_value(h)
+    worksheet.getCells().get(0, j).putValue(h)
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -34,15 +36,16 @@ data = [
 ]
 for i, row in enumerate(data):
     for j, val in enumerate(row):
-        worksheet.cells.get(i + 1, j).put_value(val)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.calculate_data()
+        worksheet.getCells().get(i + 1, j).putValue(val)
+pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
+pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.calculateData()
 workbook.save("output_drag.xlsx")
+jpype.shutdownJVM()
 ```
 
 ## 更改汇总函数
@@ -50,19 +53,20 @@ workbook.save("output_drag.xlsx")
 
 {{% alert color="primary" %}}
 更改 `Function` 仅影响聚合，源列不会更改。
+因此，您可以让一个数据字段保持为 `SUM`，同时添加另一个针对同一源列但使用 `COUNT` 或 `AVERAGE` 的数据字段，所有这些都可以在同一个透视表中完成。
 {{% /alert %}}
 
-因此，您可以让一个数据字段保持为 `SUM`，同时添加另一个针对同一源列但使用 `COUNT` 或 `AVERAGE` 的数据字段，所有这些都可以在同一个透视表中完成。
-
 ```python
-import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Data"
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, PivotFieldType, ConsolidationFunction
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+worksheet.setName("Data")
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
-    worksheet.cells.get(0, j).put_value(h)
+    worksheet.getCells().get(0, j).putValue(h)
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -75,17 +79,18 @@ data = [
 ]
 for i, row in enumerate(data):
     for j, val in enumerate(row):
-        worksheet.cells.get(i + 1, j).put_value(val)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-pivot_table.calculate_data()
+        worksheet.getCells().get(i + 1, j).putValue(val)
+pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
+pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT)
+pivot_table.calculateData()
 workbook.save("output_function.xlsx")
+jpype.shutdownJVM()
 ```
 
 ## 将值字段绘制到行或列轴
@@ -93,19 +98,20 @@ workbook.save("output_function.xlsx")
 
 {{% alert color="primary" %}}
 `PivotTable.ValuesField` 在没有或仅有一个值字段时不起作用。
+下面的场景演练了三个端到端示例，针对相同的数据透视结构演示上述每个功能。
 {{% /alert %}}
 
-下面的场景演练了三个端到端示例，针对相同的数据透视结构演示上述每个功能。
-
 ```python
-import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Data"
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, PivotFieldType, ConsolidationFunction
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+worksheet.setName("Data")
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
-    worksheet.cells.get(0, j).put_value(h)
+    worksheet.getCells().get(0, j).putValue(h)
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -118,18 +124,19 @@ data = [
 ]
 for i, row in enumerate(data):
     for j, val in enumerate(row):
-        worksheet.cells.get(i + 1, j).put_value(val)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field)
-pivot_table.calculate_data()
+        worksheet.getCells().get(i + 1, j).putValue(val)
+pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
+pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT)
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, pivot_table.getValuesField())
+pivot_table.calculateData()
 workbook.save("output_plot.xlsx")
+jpype.shutdownJVM()
 ```
 
 {{< app/cells/assistant language="python" >}}

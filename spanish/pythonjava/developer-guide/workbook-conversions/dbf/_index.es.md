@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells proporciona soporte completo para leer y escribir archivos DBF (dBASE). Puede cargar archivos dBASE III y dBASE IV existentes en un objeto Workbook, manipular los datos usando la rica API de Aspose.Cells, y guardar el libro de trabajo de vuelta al formato DBF para su uso con aplicaciones de bases de datos legadas.
+{{% /alert %}}
 
 ## **Introducción**
 DBF (DataBase File) es un formato de archivo de base de datos legado introducido originalmente por dBASE a principios de la década de 1980. A pesar de la antigüedad del formato, los archivos DBF todavía se utilizan ampliamente en muchas industrias para almacenar datos estructurados, particularmente en contabilidad, SIG y otras aplicaciones especializadas. Aspose.Cells le permite integrar estos archivos legados en flujos de trabajo modernos de hojas de cálculo de Python vía Java sin problemas.
@@ -45,18 +46,18 @@ Cuando trabaje con archivos DBF, tenga en cuenta las siguientes restricciones:
 Aspose.Cells hace que sea sencillo cargar datos desde un archivo DBF en un objeto Workbook. La biblioteca utiliza la clase `LoadOptions` para especificar el formato de origen, asegurando que los datos se interpreten correctamente durante el proceso de carga.
 
 ### Leer un Archivo DBF con Aspose.Cells
-Para leer un archivo DBF, necesita crear una instancia de `LoadOptions`, establecer su propiedad `LoadFormat` en `LoadFormat.Dbf`, y pasarla al constructor de `Workbook` junto con la ruta del archivo. Una vez cargado, los datos serán accesibles a través de la colección `Worksheets`, donde puede iterar a través de las celdas, extraer valores o manipular los datos según sea necesario.
+Para leer un archivo DBF, necesita crear una instancia de `LoadOptions`, establecer su propiedad `LoadFormat` en `LoadFormat.DBF`, y pasarla al constructor de `Workbook` junto con la ruta del archivo. Una vez cargado, los datos serán accesibles a través de la colección `Worksheets`, donde puede iterar a través de las celdas, extraer valores o manipular los datos según sea necesario.
 El siguiente ejemplo demuestra cómo cargar un archivo DBF existente en Aspose.Cells, acceder a su primera hoja de cálculo y leer los valores de las celdas.
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, LoadOptions, LoadFormat, SaveFormat
 dataDir = "Data/"
 filePath = os.path.join(dataDir, "example.dbf")
-loadOptions = LoadOptions(LoadFormat.Dbf)
+loadOptions = LoadOptions(LoadFormat.DBF)
 workbook = Workbook(filePath, loadOptions)
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
@@ -71,30 +72,32 @@ for i in range(maxRow + 1):
     sb.append("|" + "\n")
 print("".join(sb))
 outputPath = os.path.join(dataDir, "output.xlsx")
-workbook.save(outputPath, SaveFormat.Xlsx)
+workbook.save(outputPath, SaveFormat.XLSX)
 print("DBF file loaded successfully. Converted XLSX saved at: " + outputPath)
 jpype.shutdownJVM()
 ```
 
 {{% alert color="primary" %}}
 Puede abrir archivos DBF directamente en Microsoft Excel seleccionando el archivo en el cuadro de diálogo Abrir. Excel tratará el archivo DBF como una hoja de cálculo, mostrando sus registros en un diseño tabular. Esto es útil para verificar rápidamente los datos después de leerlos o escribirlos con Aspose.Cells.
+{{% /alert %}}
 
 ## **Escribir un Archivo DBF**
-Escribir datos en un archivo DBF sigue un patrón similar al de guardar cualquier otro formato de hoja de cálculo con Aspose.Cells. Crea o carga un Workbook, llena la hoja de cálculo con datos y luego llama al método `Save` especificando `SaveFormat.Dbf` como formato de destino.
+Escribir datos en un archivo DBF sigue un patrón similar al de guardar cualquier otro formato de hoja de cálculo con Aspose.Cells. Crea o carga un Workbook, llena la hoja de cálculo con datos y luego llama al método `Save` especificando `SaveFormat.DBF` como formato de destino.
 
 ### Escribir un Archivo DBF con Aspose.Cells
 Para crear un archivo DBF, siga estos pasos:
 1. Cree una nueva instancia de `Workbook`.
 2. Acceda a la primera hoja de cálculo desde la colección `Worksheets`.
 3. Llene la hoja de cálculo con sus datos, incluyendo encabezados en la primera fila y registros en las filas siguientes.
-4. Llame al método `Workbook.save`, pasando la ruta del archivo y `SaveFormat.Dbf` como parámetros.
+4. Llame al método `Workbook.save`, pasando la ruta del archivo y `SaveFormat.DBF` como parámetros.
 El siguiente ejemplo demuestra cómo crear un nuevo archivo DBF desde cero. Llena una hoja de cálculo con datos de muestra que contienen diferentes tipos de datos (cadenas, números y fechas) para ilustrar cómo se manejan los tipos de campo al exportar al formato DBF.
 
 ```python
 import jpype
+import os
+import jpype.imports
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat
 import java.time as _jt
 import java.util as _ju
@@ -147,12 +150,13 @@ worksheet.getCells().setColumnWidth(1, 20)
 worksheet.getCells().setColumnWidth(2, 20)
 worksheet.getCells().setColumnWidth(3, 12)
 worksheet.getCells().setColumnWidth(4, 14)
-workbook.save(filePath, SaveFormat.DBf)
+workbook.save(filePath, SaveFormat.DBF)
 jpype.shutdownJVM()
 ```
 
 {{% alert color="primary" %}}
 Al escribir datos en un archivo DBF, asegúrese de que sus datos se ajusten a las limitaciones del formato. Los nombres de campo no deben tener más de 10 caracteres y no deben contener espacios. Los registros que excedan los 4000 bytes en total no se guardarán correctamente. Las fechas deben ser valores de fecha válidos que puedan representarse en el formato AAAAMMDD.
+{{% /alert %}}
 
 ## **Consideraciones sobre Tipos de Datos y Formato**
 Al transferir datos entre Aspose.Cells y el formato DBF, es importante comprender cómo se mapean los tipos de datos entre los dos sistemas para garantizar la integridad de los datos.
@@ -180,10 +184,5 @@ Después de escribir un archivo DBF, puede verificar el resultado abriéndolo en
 ## **Conversión entre DBF y Otros Formatos**
 Uno de los casos de uso más prácticos para leer y escribir archivos DBF con Aspose.Cells es la conversión de datos entre el formato DBF y formatos modernos de hojas de cálculo como XLSX, XLS o CSV. Dado que Aspose.Cells admite una amplia gama de formatos, puede cargar fácilmente un archivo DBF y volver a guardarlo en cualquier otro formato compatible, o viceversa.
 Por ejemplo, puede leer un archivo DBF, aplicar formato o cálculos usando la API de Aspose.Cells y luego guardar el resultado como un archivo XLSX para distribuirlo a usuarios que trabajan con aplicaciones modernas de hojas de cálculo. Por el contrario, puede tomar datos de un archivo XLSX o CSV y exportarlos al formato DBF para integrarlos con sistemas legados.
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

@@ -18,19 +18,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## الطريقة الأولى — إضافة صورة كاميرا ديناميكية
 تمثّل الكاميرا الديناميكية الأسلوب الأكثر شيوعًا وهو الأقرب إلى أداة الكاميرا المدمجة في Excel. تعمل عبر إضافة صورة دون محتوى صوروي أولي، ثم تعيين صيغة `Formula` لها تُشير إلى النطاق المصدر. بعد تعيين الصيغة، يقوم استدعاء `updateSelectedValue()` بتحديث بيانات الصورة المُضمَّنة لتكون متزامنة مع الخلايا التي تعكسها. لا تُنفَّذ الكاميرا عبر فئة مخصصة — بل تُبنى بالكامل على النوع القياسي `Picture`.
 واجهات API الأساسية هي:
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — تُضيف صورة مُثبَّتة عند الصف والعمود المُحدَّدين. يؤدي تمرير `null` إلى معامل `stream` إلى إنشاء صورة فارغة تعمل كعنصر نائب للكاميرا الديناميكية. تُعيد هذه الطريقة فهرس الصورة الجديدة.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — تُضيف صورة مُثبَّتة عند الصف والعمود المُحدَّدين. يؤدي تمرير `null` إلى معامل `stream` إلى إنشاء صورة فارغة تعمل كعنصر نائب للكاميرا الديناميكية. تُعيد هذه الطريقة فهرس الصورة الجديدة.
 - `pictures.get(index)` — تسترجع صورة `Picture` محددة من المجموعة بحسب الفهرس.
 - `Picture.formula` — خاصية نصية (get/set) تحمل مرجع نمط A1 للنطاق المصدر الذي تعكسه الكاميرا، مثل `"A1:F10"`.
 - `Picture.updateSelectedValue()` — طريقة بلا قيمة مُعادة تُحدِّث بيانات الصورة المُضمَّنة من الخلايا المُشار إليها بواسطة `formula`.
 
 {{% alert color="primary" %}}
 يجب استدعاء `updateSelectedValue()` قبل الحفظ عندما يكون الناتج بتنسيق HTML أو PDF؛ وإلا فلن يحتوي الملف المُصدَّر على بيانات الصورة وستظهر الكاميرا فارغة في الناتج المُعالَج.
+ينشئ الكود التالي مصنفًا، ويُضيف صورة فارغة مُثبَّتة عند الصف 10 والعمود 6، ويربطها بنطاق المصدر `A1:F10` عبر خاصية `Formula`، ويُحدِّث بيانات الصورة المُضمَّنة، ويحفظ المصنف.
 {{% /alert %}}
 
-ينشئ الكود التالي مصنفًا، ويُضيف صورة فارغة مُثبَّتة عند الصف 10 والعمود 6، ويربطها بنطاق المصدر `A1:F10` عبر خاصية `Formula`، ويُحدِّث بيانات الصورة المُضمَّنة، ويحفظ المصنف.
-
 ```javascript
-const aspose = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
@@ -48,22 +47,18 @@ workbook.save("output_dynamic.xlsx", aspose.SaveFormat.Xlsx);
 - `Cells.createRange(address)` — تُنشئ كائن `Range` من عنوان بنمط A1 مثل `"A1:F10"`.
 - `Range.toImage(ImageOrPrintOptions options)` — تُعالِج النطاق إلى بايتات صورة. يؤدي تمرير `null` إلى استخدام خيارات المعالجة الافتراضية؛ تتوفر صيغ أخرى للتحكم أكثر دقة في الناتج.
 - `new Buffer(byte[] buffer)` — تُغلِّف بايتات الصورة المُعالَجة داخل `Buffer` يمكن تغذيته إلى `getPictures().add`.
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — تُضيف الصورة مُثبَّتة عند الصف والعمود المُحدَّدين، مع تمرير `Buffer` الناتج عن المعالجة هذه المرة.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — تُضيف الصورة مُثبَّتة عند الصف والعمود المُحدَّدين، مع تمرير `Buffer` الناتج عن المعالجة هذه المرة.
 ينشئ الكود التالي مصنفًا، ويُنشئ `Range` للنطاق `A1:F10`، ويُعالجه إلى بايتات صورة عبر `range.toImage(null)`، ويُغلِّف البايتات داخل `Buffer`، ويُضيف الصورة مُثبَّتة عند الصف 10 والعمود 6، ويحفظ المصنف.
 
 ```javascript
-const aspose = require("aspose.cells");
-const { MemoryStream } = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// الكاميرا الثابتة: إنشاء Range، تحويل إلى بايتات، تغليف في MemoryStream، إضافة كصورة
 let range = worksheet.getCells().createRange("A1:F10");
 let imageBytes = range.toImage(null);
-let stream = new MemoryStream();
-stream.write(imageBytes);
 let pictures = worksheet.getPictures();
-pictures.add(10, 6, stream);
+pictures.add(10, 6, imageBytes);
 workbook.save("output_static.xlsx", aspose.SaveFormat.Xlsx);
 ```
 

@@ -106,10 +106,10 @@ jpype.shutdownJVM()
 {{% /alert %}}
 
 ## 関連記事
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Python via Java](/cells/ja/python-java/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Python via Java](/cells/ja/python-java/apply-style-to-pivot-table/)
+- [Aspose.Cells for Python via Java を使用してピボットテーブルにフィルターフィールドを追加](/cells/ja/python-java/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Python via Java でピボットテーブルにスタイルを適用する](/cells/ja/python-java/apply-style-to-pivot-table/)
 - [Modify Page Field Layout in Pivot Table](/cells/ja/python-java/change-page-field-layout/)
-- [Filtering Pivot Tables by Label or Value](/cells/ja/python-java/filter-by-label-or-value-of-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Python via Java](/cells/ja/python-java/manage-value-fields/)
+- [ラベルまたは値でピボットテーブルをフィルタリング](/cells/ja/python-java/filter-by-label-or-value-of-pivot-table/)
+- [Aspose.Cells for Python via Java の値フィールド](/cells/ja/python-java/manage-value-fields/)
 
 {{< app/cells/assistant language="python" >}}

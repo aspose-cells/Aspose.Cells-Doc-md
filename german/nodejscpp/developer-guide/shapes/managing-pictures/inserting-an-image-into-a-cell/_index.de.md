@@ -37,6 +37,7 @@ Der Anker des Bildes wird durch vier nullbasierte Index-Eigenschaften definiert:
 
 {{% alert color="primary" %}}
 Zeilen- und Spaltenindizes in Aspose.Cells sind **nullbasiert**. Zelle C6 hat den Zeilenindex 5 und den Spaltenindex 2. Off-by-One-Fehler beim unteren rechten Anker sind die häufigste Ursache für Bilder, die scheinbar in eine benachbarte Zelle hineinragen.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `picture.placement` ist eine Aufzählung vom Typ `PlacementType`, die steuert, wie sich das Bild verhält, wenn der Benutzer die Zeile oder Spalte darunter in der Größe ändert. Der empfohlene Wert für ein Einzelzellbild ist `PlacementType.MoveAndSize`, was bewirkt, dass sich das Bild gemeinsam mit seiner darunter liegenden Zelle bewegt und seine Größe ändert und so die genaue Anpassung beibehält.
@@ -53,7 +54,7 @@ Zeilen- und Spaltenindizes in Aspose.Cells sind **nullbasiert**. Zelle C6 hat de
 Der folgende Code demonstriert den vollständigen Ansatz.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -88,6 +89,8 @@ Dies macht `cell.embeddedImage` zur kompaktesten Option, wenn Ihr Ziel einfach �
 Der folgende Code demonstriert den vollständigen Ansatz.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 // Get the target cell C6
@@ -113,7 +116,6 @@ Beide Ansätze erzeugen ein Bild, das in eine einzelne Zelle passt, aber sie unt
 - **Verwenden Sie ein eingebettetes Bild (Ansatz 2), wenn:**
   - Sie das einfachstmögliche Einfügen eines Bildes in eine Zelle wünschen.
   - Das Bild wie jeder andere Zellinhalt mit der Zelle mitwandern soll.
-{{% /alert %}}
 
 ## Related Articles
 - [Excel-Kamera in Aspose.Cells for Node.js via C++](/cells/de/nodejs-cpp/excel-camera/)
@@ -122,4 +124,4 @@ Beide Ansätze erzeugen ein Bild, das in eine einzelne Zelle passt, aber sie unt
 - [Seitenfeld-Layout in der Pivot-Tabelle ändern](/cells/de/nodejs-cpp/change-page-field-layout/)
 - [Sparkline in Bild und HTML in Aspose.Cells for Node.js via C++ konvertieren](/cells/de/nodejs-cpp/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

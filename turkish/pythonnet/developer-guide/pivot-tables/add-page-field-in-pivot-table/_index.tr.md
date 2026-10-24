@@ -2,7 +2,7 @@
 title: Aspose.Cells for Python via .NET'te PivotTable'a filtre alanları ekleme
 description: Aspose.Cells for Python via .NET kullanarak özet tablolarda filtre alanlarını nasıl ekleyeceğinizi ve yapılandıracağınızı, filtre alanı ekleme, tekli seçim filtreleme ve çoklu seçim filtreleme dahil öğrenin.
 linktitle: Filtre Alanları Ekleme
-keywords: Aspose.Cells, Python via .NET, özet tablo, filtre alanı, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
+keywords: Aspose.Cells, Python via .NET, özet tablo, filtre alanı, PivotFieldType.PAGE, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
 weight: 250
 url: /tr/python-net/add-page-field-in-pivot-table/
@@ -27,14 +27,15 @@ Aşağıdaki örnek, küçük bir Meyve / Yıl / Tutar veri kümesi oluşturur, 
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # Yeni bir çalışma kitabı oluştur
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
 # Başlık satırını ayarla
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
 # 9 satır örnek veri doldur: Meyve, Yıl, Miktar
 data = [
     ["apple", 2020, 100],
@@ -48,16 +49,16 @@ data = [
     ["orange", 2021, 110]
 ]
 for i in range(len(data)):
-    worksheet.cells[i + 1, 0].put_value(data[i][0])
-    worksheet.cells[i + 1, 1].put_value(data[i][1])
-    worksheet.cells[i + 1, 2].put_value(data[i][2])
+    worksheet.cells.get(i + 1, 0).put_value(data[i][0])
+    worksheet.cells.get(i + 1, 1).put_value(data[i][1])
+    worksheet.cells.get(i + 1, 2).put_value(data[i][2])
 # E3 hücresine sabitlenmiş bir pivot tablo ekle
 pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "PivotTable1")
 pivot_table = worksheet.pivot_tables[pivot_index]
 # Alanları ilgili bölgelere ekle: Meyve Satır olarak, Miktar Veri olarak, Yıl Sayfa alanı olarak
-pivot_table.add_field_to_area(ac.PivotFieldType.Row, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
-pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 # Pivot tablo verilerini yenile ve hesapla
 pivot_table.calculate_data()
 # Çalışma kitabını kaydet
@@ -69,6 +70,7 @@ Zaten bir `PivotField` örneğiyle çalışıyorsanız, doğrudan `PivotTable.pa
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # — Pivot tablo ve sayfa alanı, tam olarak Senaryo 1a'daki gibi oluşturulur
 #   (Meyve/Yıl/Tutar verileri, pivot E3'te, Meyve→Satır,
 #   Tutar→Veri). Aşağıda Yıl PivotField'ını BaseFields koleksiyonundan alır
@@ -78,25 +80,25 @@ import aspose.cells as ac
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 # Başlıklar
-sheet.cells["A1"].put_value("Fruit")
-sheet.cells["B1"].put_value("Year")
-sheet.cells["C1"].put_value("Amount")
+sheet.cells.get("A1").put_value("Fruit")
+sheet.cells.get("B1").put_value("Year")
+sheet.cells.get("C1").put_value("Amount")
 # Örnek veri (9 satır)
-sheet.cells["A2"].put_value("apple");    sheet.cells["B2"].put_value("2020"); sheet.cells["C2"].put_value(100)
-sheet.cells["A3"].put_value("apple");    sheet.cells["B3"].put_value("2021"); sheet.cells["C3"].put_value(150)
-sheet.cells["A4"].put_value("apple");    sheet.cells["B4"].put_value("2022"); sheet.cells["C4"].put_value(200)
-sheet.cells["A5"].put_value("grape");    sheet.cells["B5"].put_value("2020"); sheet.cells["C5"].put_value(300)
-sheet.cells["A6"].put_value("grape");    sheet.cells["B6"].put_value("2021"); sheet.cells["C6"].put_value(400)
-sheet.cells["A7"].put_value("grape");    sheet.cells["B7"].put_value("2022"); sheet.cells["C7"].put_value(500)
-sheet.cells["A8"].put_value("blueberry"); sheet.cells["B8"].put_value("2020"); sheet.cells["C8"].put_value(250)
-sheet.cells["A9"].put_value("blueberry"); sheet.cells["B9"].put_value("2021"); sheet.cells["C9"].put_value(350)
-sheet.cells["A10"].put_value("blueberry");sheet.cells["B10"].put_value("2022"); sheet.cells["C10"].put_value(450)
+sheet.cells.get("A2").put_value("apple");    sheet.cells.get("B2").put_value("2020"); sheet.cells.get("C2").put_value(100)
+sheet.cells.get("A3").put_value("apple");    sheet.cells.get("B3").put_value("2021"); sheet.cells.get("C3").put_value(150)
+sheet.cells.get("A4").put_value("apple");    sheet.cells.get("B4").put_value("2022"); sheet.cells.get("C4").put_value(200)
+sheet.cells.get("A5").put_value("grape");    sheet.cells.get("B5").put_value("2020"); sheet.cells.get("C5").put_value(300)
+sheet.cells.get("A6").put_value("grape");    sheet.cells.get("B6").put_value("2021"); sheet.cells.get("C6").put_value(400)
+sheet.cells.get("A7").put_value("grape");    sheet.cells.get("B7").put_value("2022"); sheet.cells.get("C7").put_value(500)
+sheet.cells.get("A8").put_value("blueberry"); sheet.cells.get("B8").put_value("2020"); sheet.cells.get("C8").put_value(250)
+sheet.cells.get("A9").put_value("blueberry"); sheet.cells.get("B9").put_value("2021"); sheet.cells.get("C9").put_value(350)
+sheet.cells.get("A10").put_value("blueberry");sheet.cells.get("B10").put_value("2022"); sheet.cells.get("C10").put_value(450)
 # A1:C10'u kapsayacak şekilde E3'e pivot tablosu ekle
 pivot_index = sheet.pivot_tables.add("E3", "A1:C10", "PivotTable1")
 pivot_table = sheet.pivot_tables[pivot_index]
 # Meyve -> Satır, Tutar -> Veri (Yıl aşağıda Sayfa'ya gidecek)
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 # Düşük seviyeli yaklaşım: mevcut Yıl PivotField'ını BaseFields'tan al
 # ve PageFields.Add(PivotField) aracılığıyla Sayfa alanına kaydet.
 year_field = pivot_table.base_fields["Year"]
@@ -114,13 +116,14 @@ Varsayılan tekli seçim davranışında, filtre alanı tek bir açılır menü 
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # Yeni bir çalışma kitabı oluştur
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 # Meyve/Yıl/Miktar verilerini doldur
-sheet.cells["A1"].put_value("Fruit")
-sheet.cells["B1"].put_value("Year")
-sheet.cells["C1"].put_value("Amount")
+sheet.cells.get("A1").put_value("Fruit")
+sheet.cells.get("B1").put_value("Year")
+sheet.cells.get("C1").put_value("Amount")
 data = [
     ["Apple", 2022, 100],
     ["Apple", 2023, 150],
@@ -131,15 +134,15 @@ data = [
 ]
 for r in range(len(data)):
     for c in range(len(data[r])):
-        sheet.cells[r + 1, c].put_value(data[r][c])
+        sheet.cells.get(r + 1, c).put_value(data[r][c])
 # E3 konumunda pivot tablo oluştur
 pivot_tables = sheet.pivot_tables
 index = pivot_tables.add("=A1:C7", "E3", "PivotTable1")
 pivot_table = pivot_tables[index]
 # Pivot alanlarını yapılandır: Fruit→Satır, Amount→Veri, Year→Sayfa
-pivot_table.add_field_to_area(ac.PivotFieldType.Row, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
-pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 pivot_table.calculate_data()
 # Sayfa filtresini temizle, böylece sayfa alanındaki her öğe görünür olsun.
 # 0x7FFD (ondalık 32765), "tüm öğeler" anlamına gelen özel bekçi değeridir —
@@ -153,34 +156,35 @@ workbook.save("output.xlsx")
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # Create workbook
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
 # Add sample data (Fruit/Year/Amount)
-cells["A1"].put_value("Fruit")
-cells["B1"].put_value("Year")
-cells["C1"].put_value("Amount")
-cells["A2"].put_value("Apple")
-cells["B2"].put_value("2020")
-cells["C2"].put_value("100")
-cells["A3"].put_value("Apple")
-cells["B3"].put_value("2021")
-cells["C3"].put_value("150")
-cells["A4"].put_value("Banana")
-cells["B4"].put_value("2020")
-cells["C4"].put_value("200")
-cells["A5"].put_value("Banana")
-cells["B5"].put_value("2021")
-cells["C5"].put_value("250")
+cells.get("A1").put_value("Fruit")
+cells.get("B1").put_value("Year")
+cells.get("C1").put_value("Amount")
+cells.get("A2").put_value("Apple")
+cells.get("B2").put_value("2020")
+cells.get("C2").put_value("100")
+cells.get("A3").put_value("Apple")
+cells.get("B3").put_value("2021")
+cells.get("C3").put_value("150")
+cells.get("A4").put_value("Banana")
+cells.get("B4").put_value("2020")
+cells.get("C4").put_value("200")
+cells.get("A5").put_value("Banana")
+cells.get("B5").put_value("2021")
+cells.get("C5").put_value("250")
 # Add pivot table at E3
 pivot_tables = sheet.pivot_tables
 pivot_index = pivot_tables.add("A1:C5", "E3", "PivotTable1")
 pivot_table = pivot_tables[pivot_index]
 # Add fields: Fruit→Row, Amount→Data, Year→Page
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, "Year")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 # Page-field-specific operations
 pivot_table.page_fields[0].current_page_item = 1  # 1 = second item in sorted order (e.g. "2021")
 # Refresh and calculate pivot table
@@ -194,6 +198,7 @@ Aşağıdaki kod, Senaryo 1a'da oluşturulan aynı Yıl filtre alanında çoklu 
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # — Pivot tablo ve sayfa alanı tam olarak
 #   Senaryo 1a'daki gibi oluşturulur (Fruit/Year/Amount verileri, pivot E3'te, Fruit→Satır,
 #   Amount→Veri, Year→Sayfa AddFieldToArea aracılığıyla).
@@ -202,9 +207,9 @@ workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
 # Örnek veri: Fruit | Year | Amount
-cells[0, 0].put_value("Fruit")
-cells[0, 1].put_value("Year")
-cells[0, 2].put_value("Amount")
+cells.get(0, 0).put_value("Fruit")
+cells.get(0, 1).put_value("Year")
+cells.get(0, 2).put_value("Amount")
 data = [
     ["apple",  "2019", "100"],
     ["apple",  "2020", "150"],
@@ -217,24 +222,24 @@ data = [
     ["grape",  "2021", "220"]
 ]
 for i in range(len(data)):
-    cells[i + 1, 0].put_value(data[i][0])
-    cells[i + 1, 1].put_value(int(data[i][1]))
-    cells[i + 1, 2].put_value(int(data[i][2]))
+    cells.get(i + 1, 0).put_value(data[i][0])
+    cells.get(i + 1, 1).put_value(int(data[i][1]))
+    cells.get(i + 1, 2).put_value(int(data[i][2]))
 pivot_sheet = workbook.worksheets.add("Pivot")
 pivots = pivot_sheet.pivot_tables
 pivot_index = pivots.add("E3", "A1:C10", "PivotTable1")
 pivot_table = pivots[pivot_index]
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, "Year")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 # — Sayfa alanında çoklu seçimi etkinleştir
 pivot_table.page_fields[0].is_multiple_item_selection_allowed = True
 # Bölüm A — TÜM öğeleri seç (her öğeyi görünür yap)
 pivot_items = pivot_table.page_fields[0].pivot_items
-for i in range(pivot_items.count):
+for i in range(len(pivot_items)):
     pivot_items[i].is_hidden = False
 # Bölüm B — Yalnızca kaynak değere göre belirli öğeleri seç
-for i in range(pivot_items.count):
+for i in range(len(pivot_items)):
     value = pivot_items[i].get_string_value()
     if value == "2020" or value == "grape" or value == "blueberry":
         pivot_items[i].is_hidden = False

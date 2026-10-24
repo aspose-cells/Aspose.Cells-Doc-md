@@ -33,7 +33,6 @@ L'esempio seguente carica una cartella di lavoro contenente una tabella pivot es
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
@@ -46,7 +45,7 @@ pivotTable = worksheet.getPivotTables().get(0)
 # Recupera il primo PivotField di riga
 rowField = pivotTable.getRowFields().get(0)
 # Applica il filtro etichetta: mostra solo gli elementi di riga le cui etichette iniziano con il prefisso fornito
-rowField.filterByLabel(PivotFilterType.CaptionBeginsWith, prefix, "")
+rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Aggiorna e ricalcola i dati della tabella pivot affinché il filtro abbia effetto
 pivotTable.getPivotCache().refresh()
 # Salva la cartella di lavoro su disco
@@ -59,16 +58,15 @@ I filtri per data consentono di restringere una tabella pivot in base a criteri 
 
 {{% alert color="primary" %}}
 Il filtro per data funziona solo quando l'area di riga o colonna contiene solo celle di tipo data-ora o valori vuoti. Se il campo sottostante contiene altri tipi di dati come numeri o testo, il filtro per data non produrrà il risultato atteso. Assicurarsi che il campo sia formattato come data e che tutti i valori siano istanze valide di `DateTime` o celle vuote prima di applicare questo filtro.
-{{% /alert %}}
-
 Aspose.Cells espone il filtraggio per data tramite il metodo `PivotField.filter_by_date(PivotFilterType, values)`. L'enumerazione `PivotFilterType` contiene valori dedicati alle date come `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` e `Between`. A seconda del tipo di filtro scelto, si passano uno o due valori `DateTime` (per `Between`, si passano le date di inizio e fine).
 L'esempio seguente carica una cartella di lavoro con una tabella pivot la cui area di riga contiene un campo data, applica un filtro per data che limita gli elementi visibili a un determinato intervallo di date, aggiorna la tabella pivot e salva la cartella di lavoro.
+{{% /alert %}}
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
@@ -88,7 +86,7 @@ Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
 # Applica il filtro per data sul campo pivot
-dateField.filterByDate(PivotFilterType.DateBetween, startDate, endDate)
+dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
 # Aggiorna e ricalcola la tabella pivot affinché il filtro abbia effetto
 pivotTable.getPivotCache().refresh()
 # Salva la cartella di lavoro
@@ -105,7 +103,6 @@ L'esempio seguente carica una cartella di lavoro con una tabella pivot, applica 
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 workbook = Workbook("sample.xlsx")
 worksheet = workbook.getWorksheets().get(0)
@@ -130,16 +127,14 @@ Il filtro primi 10 è una forma specializzata di filtro per valore che mantiene 
 
 {{% alert color="primary" %}}
 Il filtro primi 10 è efficace solo quando la tabella pivot dispone di uno o più campi pivot di valore nell'area dati. Senza almeno un campo valore, non esiste una misura aggregata rispetto a cui classificare gli elementi e il filtro non può essere applicato.
-{{% /alert %}}
-
 Aspose.Cells espone il filtraggio primi 10 tramite il metodo `PivotField.filter_top10(item_count, is_top, value_field, filter_type)`. Il parametro `item_count` definisce quanti elementi mantenere, `is_top` indica se mantenere gli elementi superiori (true) o inferiori (false), `value_field` fa riferimento al campo dati utilizzato per la classificazione e `filter_type` controlla come viene calcolato il valore (tipicamente `Sum`, ma anche `Count` e `Percent`).
 L'esempio seguente carica una cartella di lavoro con una tabella pivot che contiene un campo valore, applica un filtro primi 10 per mantenere solo i 10 elementi più alti in base alla somma delle vendite, aggiorna la tabella pivot e salva la cartella di lavoro.
+{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
 # Carica la cartella di lavoro esistente che contiene la tabella pivot
 inputPath = "input.xlsx"
@@ -159,10 +154,10 @@ rowField = pivotTable.getRowFields().get(0)
 valueFieldIndex = 0
 # Applica il filtro Top 10 sul campo riga:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (top N; false significherebbe bottom N)
 #   - valueFieldIndex = l'indice del campo dati utilizzato per classificare gli elementi
-rowField.filterTop10(10, PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, True, 10)
 # Aggiorna i dati della tabella pivot e ricalcolala in modo che il filtro abbia effetto
 pivotTable.getPivotCache().refresh()
 # Salva la cartella di lavoro
@@ -178,7 +173,6 @@ Questo approccio è utile quando la regola di filtraggio è irregolare o specifi
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
 # Carica una cartella di lavoro esistente contenente una tabella pivot
 workbook = Workbook("pivot_table_sample.xlsx")
@@ -194,10 +188,10 @@ for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
     # Nascondi gli elementi pivot che corrispondono a un nome/criterio specifico
     if item.getName() == "Item1" or item.getName() == "Item2":
-        item.setIsHidden(True)
+        item.setHidden(True)
     # Dimostra come mostrare nuovamente un elemento pivot precedentemente nascosto
     if item.getName() == "Item3":
-        item.setIsHidden(False)
+        item.setHidden(False)
 # Aggiorna e ricalcola la tabella pivot affinché le modifiche abbiano effetto
 pivotTable.getPivotCache().refresh()
 # Salva la cartella di lavoro: gli elementi nascosti rimangono nei dati sottostanti

@@ -43,6 +43,7 @@ Los subtotales solo se representan cuando hay dos o más campos dinámicos en la
 Cuando no llama a `setSubtotals` en absoluto, Aspose.Cells aplica la selección `AUTOMATIC` a los campos numéricos. El siguiente ejemplo confirma explícitamente este comportamiento llamando a `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` en el campo de fila externo `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -84,12 +85,12 @@ worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.AUTOMATIC, true);
 pivotTable.calculateData();
 workbook.save("output_automatic.xlsx");
 ```
@@ -98,6 +99,7 @@ workbook.save("output_automatic.xlsx");
 Llamar a `setSubtotals(PivotFieldSubtotalType.NONE, true)` elimina todas las filas de subtotal de la tabla dinámica, dejando solo las filas de campo y el total general en la parte inferior. Esto es útil cuando desea los datos agrupados sin procesar sin ninguna fila de resumen.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -125,12 +127,12 @@ for (let i = 0; i < data.length; i++)
 }
 let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.NONE, true);
 pivotTable.calculateData();
 workbook.save("output_none.xlsx");
 ```
@@ -139,6 +141,7 @@ workbook.save("output_none.xlsx");
 No está limitado a un único tipo de subtotal. Cada llamada a `setSubtotals` opera de forma independiente en un solo tipo, por lo que llamar al método dos veces — una con `SUM` y otra con `AVERAGE` — produce un subconjunto personalizado de dos filas de subtotal para cada grupo `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -181,18 +184,31 @@ worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
 let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
 let pivotTable = pivotTables.get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.SUM, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.AVERAGE, true);
 pivotTable.calculateData();
 workbook.save("output_custom.xlsx");
 ```
 
 ## **Resumen**
-Los tres escenarios anteriores comparten el mismo conjunto de datos y la misma estructura de tabla dinámica. La única diferencia entre ellos es la llamada a `setSubtotals` aplicada al campo de fila externo `Category`. Recuerde la regla de los dos campos: un único campo en una región no tiene nada para calcular subtotales entre grupos, por lo que siempre coloque al menos dos campos en la región de filas o columnas cuando desee que `setSubtotals` tenga un efecto visible.
 
+Los tres escenarios difieren únicamente en las llamadas a `setSubtotals`. Todo lo demás —el conjunto de datos, los campos y las áreas a las que se asignan— es idéntico, lo cual permite comparar directamente los diseños.
+- **Colocación de campos.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, fieldName)` mueve una columna de origen a una región. Dentro de una misma región, el orden de las llamadas determina el orden de visualización, por lo que la primera llamada corresponde al grupo más externo. Para calcular subtotales se requieren dos o más campos en la misma región: con un único campo no hay nada entre los grupos sobre lo cual calcular el subtotal.
+- **Escenario 1 — subtotales automáticos.** Si no se llama a `setSubtotals`, se deja a Excel la decisión, que aplica su subtotal predeterminado automáticamente a los campos numéricos. Llamar a `setSubtotals` con `AsposeCells.PivotFieldSubtotalType.AUTOMATIC` registra explícitamente esa elección en lugar de dejarla implícita.
+- **Escenario 2 — sin subtotales.** `setSubtotals` con `AsposeCells.PivotFieldSubtotalType.NONE` desactiva el subtotal predeterminado, de modo que la tabla dinámica conserva las filas de campo y el total general, pero omite las filas de subtotal que Excel insertaría entre ellas.
+- **Escenario 3 — un subconjunto elegido.** Cada llamada alterna exactamente un tipo de subtotal, y las llamadas se acumulan en lugar de restablecerse mutuamente. Por tanto, si se llama una vez con `AsposeCells.PivotFieldSubtotalType.SUM` y otra vez con `AsposeCells.PivotFieldSubtotalType.AVERAGE`, ambos se mantienen habilitados, y la tabla dinámica muestra un subtotal de suma, un subtotal de promedio y un total general.
+
+{{% alert color="primary" %}}
+Nada acerca de los subtotales es específico de la región de filas. Las mismas llamadas a `setSubtotals` aplicadas a un campo obtenido de `PivotTable.ColumnFields` producen los mismos tres diseños en el eje de columnas, porque la configuración pertenece al campo dinámico y no al eje en el que se encuentra.
+{{% /alert %}}
+## **Artículos relacionados**
+
+- [Campos de página en tablas dinámicas](/cells/es/nodejs-java/add-page-field-in-pivot-table/)
+- [Actualización de tablas dinámicas en Aspose.Cells para Node.js mediante Java](/cells/es/nodejs-java/refresh-pivot-table/)
+- [Aplicación de estilos a tablas dinámicas](/cells/es/nodejs-java/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="nodejs-java" >}}

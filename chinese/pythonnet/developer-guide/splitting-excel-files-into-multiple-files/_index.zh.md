@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持将单个 Excel 文件拆分为多个文件。有两种主要方法可以实现这一点：(1) 通过将源工作簿的每个工作表复制到一个新的工作簿中，并将每个工作表另存为一个单独的文件；(2) 通过将工作表中的特定单元格区域复制到一个新的工作簿中。当您需要分发数据的子集、为不同的收件人创建较小的报表，或隔离数据以进行单独处理时，这两种方法都非常有用。
+{{% /alert %}}
 
 ## **介绍**
 在许多实际场景中，开发人员需要将单个 Excel 文件拆分为几个较小的文件。例如，一个工作簿可能每个部门包含一个工作表，每个部门主管只需要接收他们自己的工作表。在其他情况下，您可能希望从工作表中提取特定的表格或数据块，并通过电子邮件将其作为独立文件发送，而不暴露工作簿的其余部分。大型合并工作簿也可能需要拆分为较小的部分，以便于处理、更快地加载，或由其他系统进行下游处理。
@@ -41,19 +42,19 @@ import aspose.cells as ac
 import os
 data_dir = "data/"
 workbook = ac.Workbook(data_dir + "book1.xls")
-for i in range(workbook.worksheets.count):
+for i in range(len(workbook.worksheets)):
     source_sheet = workbook.worksheets[i]
     sheet_name = source_sheet.name
-    
+
     dest_workbook = ac.Workbook()
     dest_index = dest_workbook.worksheets.add()
     dest_sheet = dest_workbook.worksheets[dest_index]
     dest_sheet.name = sheet_name
-    
+
     dest_sheet.copy(source_sheet)
-    
+
     dest_file = data_dir + sheet_name + ".xls"
-    dest_workbook.save(dest_file, ac.SaveFormat.EXCEL97_TO_2003)
+    dest_workbook.save(dest_file, ac.SaveFormat.EXCEL_97_TO_2003)
 ```
 
 预期输出是数据目录中的一组新文件，每个文件对应源工作簿中的一个工作表。每个文件以其对应的源工作表命名，文件包含该单个工作表的数据（以及可选的格式）。
@@ -76,6 +77,5 @@ for i in range(workbook.worksheets.count):
 
 ### **代码示例**
 预期输出是数据目录中的一个新文件，其中仅包含从源工作簿中提取的指定区域的值（以及可选的格式）。目标文件与源文件中的任何其他数据没有关系；它仅包含提取的区域，从其第一个工作表的单元格 `A1` 开始。
-{{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

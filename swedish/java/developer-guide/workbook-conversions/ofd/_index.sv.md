@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells stöder konvertering av Excel-arbetsböcker direkt till OFD-format (Open Fixed-layout Document) med hjälp av uppräkningsvärdet `SaveFormat.Ofd`. Det resulterande OFD-dokumentet bevarar arbetsbokens synliga layout, innehåll, sammanfogade celler, kolumnbredder, radhöjder, teckensnitt, färger, ramar och talformat. Detta gör Aspose.Cells lämpligt för arkivering, utskrift, regulatorisk rapportering och myndighetsinskick som kräver en utdata med fast layout.
+{{% /alert %}}
 
 ## **Introduktion**
 OFD (Open Fixed-layout Document) är en kinesisk nationell standard (GB/T 33190-2016) för att representera digitala dokument i en fast, sidbaserad layout. Den tjänar en roll som liknar PDF för användningsfall där det visuella utseendet på källdokumentet måste bevaras exakt såsom det skapades. OFD används i stor utsträckning för myndighetsinskick, regulatorisk rapportering, elektroniska fakturor och långtidsarkivering i Folkrepubliken Kina.
@@ -19,6 +20,7 @@ Att konvertera Excel-arbetsböcker till OFD är ett vanligt krav i scenarier dä
 
 {{% alert color="primary" %}}
 OFD-utdata som genereras av Aspose.Cells bevarar den synliga layouten av källarbetsboken, inklusive cellinnehåll, sammanfogade celler, kolumnbredder och radhöjder. Cellformatering som teckensnitt, färger, ramar, justering och talformat renderas också i utdata med fast layout. Sidlayoutsalternativ som konfigurerats på kalkylbladet, såsom pappersstorlek, orientering och utskriftsområde, påverkar layouten för det resulterande OFD-dokumentet.
+{{% /alert %}}
 
 ## **Skapa en Excel-arbetsbok och spara som OFD**
 Aspose.Cells låter dig bygga en arbetsbok programmatiskt, fylla den med data och sedan spara den direkt i OFD-format med hjälp av uppräkningen `SaveFormat.Ofd`. Följande exempel skapar en faktura från grunden. Det lägger till en företagslogotyp, rubrikinformation, en faktureringssektion, rader och beräknade summor, och exporterar sedan arbetsboken till ett OFD-dokument.
@@ -206,8 +208,5 @@ System.out.println("\nFile successfully converted to OFD format: " + dataDir + "
 - [Infoga en bild i en cell](/cells/sv/java/inserting-an-image-into-a-cell/)
 - [Läsa och skriva DBF-filer](/cells/sv/java/dbf/)
 - [Konvertera Sparkline till bild och HTML i Aspose.Cells for Java](/cells/sv/java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

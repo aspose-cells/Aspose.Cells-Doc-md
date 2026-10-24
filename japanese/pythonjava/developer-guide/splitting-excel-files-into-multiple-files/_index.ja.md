@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells は、単一の Excel ファイルを複数のファイルに分割することをサポートします。これを行うには主に 2 つの方法があります。(1) ソースワークブックの各ワークシートを新しいワークブックにコピーし、それぞれを個別のファイルとして保存する方法、および (2) ワークシートから特定のセル範囲を新しいワークブックにコピーする方法です。どちらの方法も、データのサブセットを配布する場合、受信者ごとに小さいレポートを作成する場合、または個別処理のためにデータを分離する必要がある場合に役立ちます。
+{{% /alert %}}
 
 ## **はじめに**
 開発者が単一の Excel ファイルを複数の小さいファイルに分割する必要のある現実的なシナリオは数多くあります。たとえば、ワークブックには部門ごとに 1 つのワークシートが含まれており、各部門長は自分のシートのみを受け取る必要がある場合があります。その他の場合、ワークブックの残りの部分を公開せずに、ワークシートから特定のテーブルやデータブロックを抽出して、スタンドアロンファイルとして電子メールで送信したい場合もあります。大きな統合ワークブックは、取り扱いを容易にするため、読み込みを高速化するため、または他のシステムによる後続処理のために、より小さなピースに分割する必要がある場合もあります。
@@ -40,7 +41,6 @@ Aspose.Cells は、このタスクに対して 2 つの柔軟なアプローチ�
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat
 dataDir = "data/"
 workbook = Workbook(dataDir + "book1.xls")
@@ -56,7 +56,7 @@ for i in range(workbook.getWorksheets().getCount()):
     destSheet.copy(sourceSheet)
     
     destFile = dataDir + sheetName + ".xls"
-    destWorkbook.save(destFile, SaveFormat.Excel97To2003)
+    destWorkbook.save(destFile, SaveFormat.EXCEL_97_TO_2003)
 jpype.shutdownJVM()
 ```
 
@@ -80,6 +80,5 @@ jpype.shutdownJVM()
 
 ### **コード例**
 期待される出力は、ソースワークブックから抽出された指定された範囲の値（およびオプションで書式設定）のみを含む、データディレクトリ内の単一の新しいファイルです。宛先ファイルはソースファイル内の他のデータと何の関係もありません。最初のワークシートのセル `A1` から始まる、抽出された範囲のみを含みます。
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

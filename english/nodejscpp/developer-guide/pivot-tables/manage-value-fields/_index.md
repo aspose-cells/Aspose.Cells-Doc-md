@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Adding a base field to the data (value) region is the first step in shaping how a pivot table aggregates the source data. Aspose.Cells exposes `PivotTable.AddFieldToArea(PivotFieldType, string)`, an overload that accepts the constant `PivotFieldType.Data` and the source-column name. Once a field is added to the data region, the API exposes it through the `PivotTable.DataFields` collection, in the order in which the fields were added. By default, a numeric source column is summarised with `Sum`, while a non-numeric column defaults to `Count`.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -51,11 +51,11 @@ workbook.save("output_drag.xlsx");
 Once a field lives in the data region, Aspose.Cells exposes it through the `PivotField` object on `PivotTable.DataFields`. Each `PivotField` has a writable `Function` property of type `ConsolidationFunction`, which controls the aggregate applied to that field's underlying values. `ConsolidationFunction` is an enum with members `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var`, and `Varp` — the first six cover the vast majority of real-world use cases, while the last four are statistical aggregates useful for variance analysis.
 
 {{% alert color="primary" %}}
-Changing `Function` only affects the aggregate; the source column and the pivot's row/column structure are not modified. To switch the aggregate for an existing data field, set `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` and then call `pivotTable.CalculateData()` to re-render the pivot.
+Changing `Function` only affects the aggregate; the source column and the pivot's row/column structure are not modified. To switch the aggregate for an existing data field, set `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` and then call `pivotTable.calculateData()` to re-render the pivot.
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -98,7 +98,7 @@ When a pivot table contains two or more data fields, Aspose.Cells exposes an add
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

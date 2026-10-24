@@ -37,6 +37,7 @@ The picture's anchor is defined by four zero-based index properties:
 
 {{% alert color="primary" %}}
 Row and column indices in Aspose.Cells are **zero-based**. Cell C6 has row index 5 and column index 2. Off-by-one errors on the lower-right anchor are the most common source of pictures that appear to overlap into an adjacent cell.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `getPlacement` is an enum of type `PlacementType` that controls how the picture behaves when the user resizes the row or column beneath it. The recommended value for a single-cell picture is `PlacementType.MOVE_AND_SIZE`, which causes the picture to move and resize together with its underlying cell, preserving the exact fit.
@@ -56,7 +57,6 @@ The following code demonstrates the complete approach.
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat, PlacementType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -69,10 +69,10 @@ try:
     picture.setUpperLeftColumn(2)
     picture.setLowerRightRow(6)
     picture.setLowerRightColumn(3)
-    picture.setPlacement(PlacementType.MoveAndSize)
+    picture.setPlacement(PlacementType.MOVE_AND_SIZE)
 finally:
     fs.close()
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -112,7 +112,7 @@ cell.setEmbeddedImage(imageData)
 worksheet.getCells().setColumnWidth(2, 30)   # Column C (index 2)
 worksheet.getCells().setRowHeight(5, 100)    # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -126,6 +126,5 @@ Both approaches produce a picture that fits inside a single cell, but they diffe
 - **Use an embedded image (Approach 2) when:**
   - You want the simplest possible insertion of an image into a cell.
   - The image should travel with the cell like any other cell content.
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

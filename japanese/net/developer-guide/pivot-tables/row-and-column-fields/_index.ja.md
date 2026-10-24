@@ -202,6 +202,15 @@ workbook.Save("output_custom.xlsx");
 
 ## **Recap**
 
+3つのシナリオは、`SetSubtotals` の呼び出しという1点のみが異なります。それ以外の部分 — データセット、フィールド、およびそれらが割り当てられる領域 — はすべて同一であり、これによりレイアウトが直接比較可能となります。
+- **フィールドの配置**。`PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` は、ソース列を領域内に移動します。1つの領域内では、呼び出しの順序が表示順序となりますため、最初の呼び出しが最も外側のグループになります。小計を算出するには、同じ領域内に2つ以上のフィールドが必要です。フィールドが1つしかない場合、グループ間には小計を算出する対象となるデータが存在しなくなります。
+- **シナリオ 1 — 自動小計**。`SetSubtotals` を呼び出さない場合、Excel が独自のデフォルト小計を数値フィールドに適用します。`PivotFieldSubtotalType.Automatic` を指定して `SetSubtotals` を呼び出すと、その選択が暗黙的ではなく明示的に記録されます。
+- **シナリオ 2 — 小計なし**。`PivotFieldSubtotalType.None` を指定して `SetSubtotals` を呼び出すと、デフォルトの小計が無効化され、ピボットテーブルはフィールド行と合計行は維持しますが、Excel が通常挿入する小計行は省略されます。
+- **シナリオ 3 — 選択したサブセット**。各呼び出しは、正確に1つの小計タイプを切り替え、呼び出しは累積されて上書きされることはありません。`PivotFieldSubtotalType.Sum` で1度、`PivotFieldSubtotalType.Average` で1度呼び出すと、両方が有効のままとなり、ピボットテーブルは Sum 小計、Average 小計、および合計をすべて表示します。
+
+{{% alert color="primary" %}}
+小計に関する設定は、行領域に固有のものではありません。`PivotTable.ColumnFields` から取得したフィールドに対しても同様の `SetSubtotals` 呼び出しを行うと、列軸上に同じ3つのレイアウトが生成されます。なぜなら、この設定は軸の配置ではなく、ピボットフィールド自体に属しているからです。
+{{% /alert %}}
 ## **Related Articles**
 - [ピボットテーブルのページフィールド](/cells/ja/net/add-page-field-in-pivot-table/)
 - [Aspose.Cells for .NET でピボットテーブルを更新する](/cells/ja/net/refresh-pivot-table/)

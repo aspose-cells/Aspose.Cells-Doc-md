@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是放置在单个单元格内的小型图表，可快速直观地呈现数据趋势。Aspose.Cells 支持折线、柱形和盈亏三种迷你图，并且每种都可以从颜色、线宽、高/低点和标记等方面进行自定义。
+{{% /alert %}}
 
 ## **简介**
 迷你图是单元格内的小型图表，当您希望在数据行或数据列旁边快速显示趋势而不占用完整图表的空间时，它们非常有用。Excel 支持三种迷你图：**折线**、**柱形**和**盈亏**。Aspose.Cells 通过 `Aspose.Cells.Charts` 命名空间中的 `SparklineGroup` 和 `SparklineGroupCollection` API 提供了这一能力。
@@ -29,7 +30,7 @@ Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是放置�
 以下示例创建一个工作簿，将值 5、-3、8、-2、6 写入单元格 A1 至 E1，并在单元格 F1 中添加一个折线迷你图来描绘这些值。它还将线条颜色自定义为红色，并启用高点和低点的标记。
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // 步骤 1：创建一个 Workbook 并获取第一个工作表
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -42,10 +43,10 @@ cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
 // 步骤 3：构建一个指向目标单元格 F1 的 CellArea
 const dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // 列 F（从 0 开始索引）
-dest.setEndColumn(5);
-dest.setStartRow(0);      // 行 1（从 0 开始索引）
-dest.setEndRow(0);
+dest.StartColumn = 5;   // 列 F（从 0 开始索引）
+dest.EndColumn = 5;
+dest.StartRow = 0;      // 行 1（从 0 开始索引）
+dest.EndRow = 0;
 // 步骤 4：从 A1:E1 添加一个 Line 迷你图到 F1
 // SparklineGroups.Add 返回新添加分组的索引
 const index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, dest);
@@ -72,6 +73,7 @@ workbook.save("output_line.xlsx");
 下面的示例将值 5、-3、8、-2、6 写入 A1:E1，并在 F1 中渲染一个柱形迷你图。负值绘制为向下的柱形，正值绘制为向上的柱形，这使得正向和负向贡献一眼即可分辨。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // 步骤 2：将示例值写入 A1:E1
@@ -81,10 +83,10 @@ for (let i = 0; i < values.length; i++) {
 }
 // 步骤 3：构建一个指向 F1 的 CellArea（列索引 5，行索引 0）
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // 步骤 4：将 Column 类型的迷你图添加到目标单元格
 let idx = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Column, "A1:E1", false, dest);
@@ -107,6 +109,7 @@ console.log("Workbook saved as output_column.xlsx");
 6. 使用不同的文件名保存工作簿，以便所有三个示例可以同时存在于磁盘上。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -118,10 +121,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // 步骤 3：构建一个指向 F1（列 5，行 0）的 CellArea
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F
-dest.setEndColumn(5);
-dest.setStartRow(0);      // 第 1 行
-dest.setEndRow(0);
+dest.StartColumn = 5;   // F
+dest.EndColumn = 5;
+dest.StartRow = 0;      // 第 1 行
+dest.EndRow = 0;
 // 步骤 4：添加一个 Win/Loss 迷你图（SparklineType.Stacked）
 let groupIndex = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.Stacked,
@@ -159,6 +162,7 @@ console.log("Workbook saved successfully: output_winloss.xlsx");
 下面的组合示例创建一个工作簿，在第 1 行填入值 5、-3、8、-2、6，然后在 F1、F2 和 F3 单元格中添加三个迷你图组——每种类型各一个——使生成的文件同时展示所有三种迷你图样式。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // 步骤 2：在第 1 行（A1:E1）填充示例数据
@@ -169,10 +173,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // 步骤 3：在 F1 添加一个折线迷你图组
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
 // 通过 CellsColor 自定义折线迷你图的颜色
@@ -181,10 +185,10 @@ lineColor.setColor(AsposeCells.Color.Blue);
 lineGroup.setSeriesColor(lineColor);
 // 步骤 4：在 F2 添加一个柱状迷你图组
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(5);
-columnArea.setEndColumn(5);
-columnArea.setStartRow(1);
-columnArea.setEndRow(1);
+columnArea.StartColumn = 5;
+columnArea.EndColumn = 5;
+columnArea.StartRow = 1;
+columnArea.EndRow = 1;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
 // 自定义柱状迷你图系列颜色
@@ -193,10 +197,10 @@ columnColor.setColor(AsposeCells.Color.Green);
 columnGroup.setSeriesColor(columnColor);
 // 步骤 5：在 F3 添加一个盈亏（堆叠）迷你图组
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(5);
-stackedArea.setEndColumn(5);
-stackedArea.setStartRow(2);
-stackedArea.setEndRow(2);
+stackedArea.StartColumn = 5;
+stackedArea.EndColumn = 5;
+stackedArea.StartRow = 2;
+stackedArea.EndRow = 2;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
 // 自定义盈亏迷你图系列颜色
@@ -215,6 +219,5 @@ workbook.save("output_all.xlsx");
 - **高/低点标记** —— 用于在高数据点和低数据点上显示小标记的标志，有助于突出极值。
 - **首/末/负点标记** —— 用于在第一个、最后一个和负数数据点上切换标记的标志。
 要更改颜色，请始终创建一个 `CellsColor` 实例并将其分配给相关属性。不要直接将 `System.Drawing.Color` 分配给迷你图颜色属性——它们期望来自 `Aspose.Cells.Drawing` 的 `CellsColor` 类型。`sparklineGroups.add` 方法本身返回一个类型完整的 `SparklineGroup` 对象，因此您可以在返回值上链接属性赋值，或者将其存储在本地变量中并在保存之前进行自定义。
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Sparklines är miniatyrdiagram placerade i kalkylbladsceller. Aspose.Cells låter dig extrahera varje sparkline som en fristående bild (för inbäddning i en annan cell eller en extern rapport) och även exportera hela det sparkline-rika kalkylbladet till HTML för webbläsarbaserad distribution. Egenskapen `Cell.EmbeddedImage` som används i denna artikel är tillgänglig i **Aspose.Cells 26.5 och senare**.
+{{% /alert %}}
 
 ## **Introduktion**
 Sparklines är ett kompakt sätt att visualisera trender direkt i ett kalkylblad. Medan Excel-användare ser dem på plats kräver många verkliga scenarier att en sparkline lämnar cellen — till exempel för att bäddas in i en annan cell som en statisk bild, bifogas till ett automatiserat e-postmeddelande, eller renderas som en del av en HTML-rapport som publiceras på webben.
@@ -33,6 +34,7 @@ I detta arbetsflöde kommer du att bygga ett kalkylblad som innehåller ett lite
 7. Spara arbetsboken som `output_with_sparklines.xlsx`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Fylla i exempeldata i cellerna A1:E1
@@ -43,28 +45,28 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Lägg till en linje-sparkline-grupp förankrad vid F1 (kolumn 5, rad 0)
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 // Lägg till en kolumn-sparkline-grupp förankrad vid G1 (kolumn 6, rad 0)
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(6);
-columnArea.setEndColumn(6);
-columnArea.setStartRow(0);
-columnArea.setEndRow(0);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 6;
+columnArea.EndColumn = 6;
+columnArea.StartRow = 0;
+columnArea.EndRow = 0;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 // Lägg till en vinst/förlust (staplad) sparkline-grupp förankrad vid H1 (kolumn 7, rad 0)
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(7);
-stackedArea.setEndColumn(7);
-stackedArea.setStartRow(0);
-stackedArea.setEndRow(0);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 7;
+stackedArea.EndColumn = 7;
+stackedArea.StartRow = 0;
+stackedArea.EndRow = 0;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 // Konfigurera bildalternativ för PNG-utdata
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
-imageOptions.setImageType(AsposeCells.ImageType.Png);
+imageOptions.setImageType(AsposeCells.ImageType.PNG);
 // Konvertera linje-sparkline till bild och bädda in den i cell F2
 let lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 let lineMs = new java.io.ByteArrayOutputStream();
@@ -88,6 +90,7 @@ Koden ovan producerar en arbetsbok där varje visuell representation av en spark
 
 {{% alert color="primary" %}}
 Eftersom varje sparkline-grupp är förankrad i en enskild cell kan du adressera den via indexeraren `group.sparklines[0]` istället för att räkna upp med `forEach`. Detta håller renderingskoden kort och matchar det typiska mönstret "en sparkline per ankarcell". Att lagra bildbytena via `Cell.EmbeddedImage` kräver Aspose.Cells 26.5 eller senare.
+{{% /alert %}}
 
 ## **Arbetsflöde 2 — Exportera sparkline-kalkylbladet till HTML**
 När arbetsboken innehåller levande sparklines (och valfritt inbäddade bildmotsvarigheter) kan hela kalkylbladet publiceras på webben genom att spara det som HTML. Klassen `HtmlSaveOptions` exponerar de reglage du behöver för att styra denna export; i detta arbetsflöde kommer du att återanvända filen `output_with_sparklines.xlsx` som producerades av Arbetsflöde 1 och konvertera den till ett rent HTML-dokument med en sida.
@@ -99,6 +102,7 @@ När arbetsboken innehåller levande sparklines (och valfritt inbäddade bildmot
 4. Anropa `workbook.save("sparklines.html", htmlOptions)` för att skriva HTML-utdata till disk.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("output_with_sparklines.xlsx");
 let htmlOptions = new AsposeCells.HtmlSaveOptions();
 htmlOptions.setExportActiveWorksheetOnly(true);
@@ -109,6 +113,7 @@ Koden ovan tar den sparkline-rika arbetsboken från Arbetsflöde 1 och gör om d
 
 {{% alert color="primary" %}}
 Klassen `HtmlSaveOptions` erbjuder ytterligare egenskaper för finjustering av utdata, såsom `ExportHiddenWorksheet`, `ExportImagesAsBase64` och `Encoding`. Justera dessa efter behov för ditt distributionsmål.
+{{% /alert %}}
 
 ## **API-sammanfattning**
 Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er som arbetar tillsammans.
@@ -123,10 +128,5 @@ Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er 
 - [Sparklines i Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/sparkline/)
 - [Infoga en bild i en cell](/cells/sv/nodejs-java/inserting-an-image-into-a-cell/)
 - [SmartMarker-rendering av enstaka cellmatris | Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

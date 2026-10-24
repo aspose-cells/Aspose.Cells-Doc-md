@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, Akıllı İşaretleyiciler aracılığıyla dizi verilerinin tek bir hücreye dönüştürülmesini destekler. Geliştiriciler, `ArrayAsSingle` özniteliğini `ExtraDelimiter` özniteliğiyle birlikte kullanarak dizi öğelerinin tek bir hücre içinde nasıl ayrılacağını kontrol edebilir ve raporlar ile şablonlar için esnek biçimlendirme sağlayabilir.
+{{% /alert %}}
 
 ## **Giriş**
 Aspose.Cells'teki Akıllı İşaretleyiciler, `&=DataSource.Field` gibi işaretleyici ifadeleri kullanarak elektronik tablo verilerini dinamik olarak doldurmanıza olanak tanıyan güçlü, şablon tabanlı bir özelliktir. İşaretleyici, tasarımcı çalışma kitabına yerleştirilir ve şablon `WorkbookDesigner` tarafından işlendiğinde, işaretleyiciler sağlanan veri kaynağındaki değerlerle değiştirilir.
@@ -59,6 +60,7 @@ Akıllı İşaretleyicilerinizde `ArrayAsSingle` ve `ExtraDelimiter` öznitelikl
 
 {{% alert color="primary" %}}
 `extraDelimiter` özniteliği, çok karakterli ayraçlar, özel metinler veya yeni satırla ayrılmış çıktı için `\n` gibi kaçış dizileri dahil herhangi bir dize sabitini kabul eder. Dizi boşsa, sonuç hücre boş bırakılır.
+{{% /alert %}}
 
 ### **Adım Adım İş Akışı**
 Aşağıdaki iş akışı, Akıllı İşaretleyicileri kullanarak bir dizinin tek bir hücreye nasıl dönüştürüleceğini açıklar.
@@ -71,6 +73,7 @@ Aşağıdaki iş akışı, Akıllı İşaretleyicileri kullanarak bir dizinin te
 ### **Kod Örneği 1 — Temel Dize Dizisi Oluşturma**
 
 ```python
+import aspose.cells as ac
 class Product:
     def __init__(self):
         self.Tags = []
@@ -78,8 +81,8 @@ product = Product()
 product.Tags = ["C#", "Aspose", "SmartMarker", "Excel"]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Tags")
-worksheet.cells["A2"].put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
+worksheet.cells.get("A1").put_value("Tags")
+worksheet.cells.get("A2").put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
 designer = ac.WorkbookDesigner()
 designer.workbook = workbook
 designer.set_data_source("Product", product)
@@ -90,6 +93,7 @@ workbook.save("output_arraySingle.xlsx")
 ### **Kod Örneği 2 — Özel Ayraçlı Sayısal Dizi**
 
 ```python
+import aspose.cells as ac
 class Student:
     def __init__(self):
         self.scores = []
@@ -97,14 +101,15 @@ student = Student()
 student.scores = [95, 88, 76, 100, 67]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Scores")
-worksheet.cells["A2"].put_value(" - ".join(str(s) for s in student.scores))
+worksheet.cells.get("A1").put_value("Scores")
+worksheet.cells.get("A2").put_value(" - ".join(str(s) for s in student.scores))
 workbook.save("output_numericArray.xlsx")
 ```
 
 ### **Kod Örneği 3 — Varsayılan ve ArrayAsSingle Davranışının Karşılaştırılması**
 
 ```python
+import aspose.cells as ac
 class Order:
     def __init__(self, items):
         self._items = items
@@ -119,11 +124,11 @@ workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
 # Bölüm 1: Varsayılan Akıllı İşaretleyici - değerler hücreler arasında yatay olarak yayılır
-cells["A1"].put_value("Default Spreading Behavior:")
-cells["A2"].put_value("&=Order.Items")
+cells.get("A1").put_value("Default Spreading Behavior:")
+cells.get("A2").put_value("&=Order.Items")
 # Bölüm 2: arrayasSingle ve extraDelimiter kullanarak yeni tek hücreli işleme
-cells["A4"].put_value("Single Cell Rendering (arrayasSingle=true):")
-cells["A5"].put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
+cells.get("A4").put_value("Single Cell Rendering (arrayasSingle=true):")
+cells.get("A5").put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
 # Veri kaynağını bağla ve Akıllı İşaretleyicileri işle
 designer = ac.WorkbookDesigner(workbook)
 designer.set_data_source("Order", order)
@@ -140,8 +145,5 @@ workbook.save("output_comparison.xlsx")
 - Özellik, nesne veri kaynaklarının yanı sıra bir sütunun dizilere bölünebileceği `DataSet` ve `DataTable` kaynaklarıyla da çalışır.
 - Yeni satırla ayrılmış çıktı için, ayraç değeri olarak `\n` veya `os.linesep` kullanabilirsiniz.
 - Akıllı İşaretleyiciyi, sonuçta birleştirilmiş dizeyi görüntülemek için yeterli genişliğe sahip bir hücreye yerleştirin; aksi takdirde, içerik biçime bağlı olarak bitişik hücrelere görsel olarak taşabilir.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

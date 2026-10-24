@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, Smart Markers aracılığıyla dizi verilerini tek bir hücreye işlemeyi destekler. Geliştiriciler, `ArrayAsSingle` özniteliğini `ExtraDelimiter` özniteliğiyle birlikte kullanarak dizi öğelerinin tek bir hücre içinde nasıl ayrılacağını kontrol edebilir ve bu sayede raporlar ve şablonlar için esnek biçimlendirme sağlayabilir.
+{{% /alert %}}
 
 ## **Giriş**
 Aspose.Cells'teki Smart Markers, `&=DataSource.Field` gibi işaretçi ifadeleri kullanarak elektronik tablo verilerini dinamik olarak doldurmanıza olanak tanıyan güçlü, şablon tabanlı bir özelliktir. İşaretçi, tasarımcı çalışma kitabına yerleştirilir ve şablon `WorkbookDesigner` tarafından işlendiğinde, işaretçiler sağlanan veri kaynağındaki değerlerle değiştirilir.
@@ -59,6 +60,7 @@ Smart Markers'da `ArrayAsSingle` ve `ExtraDelimiter` özniteliklerini kullanmak 
 
 {{% alert color="primary" %}}
 `extraDelimiter` özniteliği, çok karakterli sınırlayıcılar, özel metin veya satır sonu ile ayrılmış çıktı için `\n` gibi kaçış dizileri dahil olmak üzere herhangi bir dize değişmezini kabul eder. Dizi boşsa, sonuç hücre boş bırakılır.
+{{% /alert %}}
 
 ### **Adım Adım İş Akışı**
 Aşağıdaki iş akışı, Smart Markers kullanarak bir dizinin tek bir hücreye nasıl işleneceğini açıklar.
@@ -146,8 +148,5 @@ class Order
 - Özellik, nesne veri kaynaklarının yanı sıra bir sütunun dizilere bölünebileceği `DataSet` ve `DataTable` kaynaklarıyla da çalışır.
 - Satır sonu ile ayrılmış çıktı için sınırlayıcı değeri olarak `\n` veya `System.lineSeparator()` kullanabilirsiniz.
 - Smart Marker'ı, sonuçta oluşan birleştirilmiş dizeyi görüntülemek için yeterli genişliğe sahip bir hücreye yerleştirin; aksi takdirde, içerik biçime bağlı olarak görsel olarak bitişik hücrelere taşabilir.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

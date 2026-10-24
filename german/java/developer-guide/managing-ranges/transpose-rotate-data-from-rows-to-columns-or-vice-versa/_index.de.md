@@ -50,6 +50,7 @@ String outputFile = "transposed.xlsx";
 Workbook workbook = new Workbook(srcFile, new LoadOptions(LoadFormat.XLSX));
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
+Range source = cells.createRange("A1:D5");
 source.transpose();
 workbook.save(outputFile);
 ```

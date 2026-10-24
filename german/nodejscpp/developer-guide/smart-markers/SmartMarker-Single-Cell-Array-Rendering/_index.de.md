@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells unterstützt das Rendern von Array-Daten in eine einzelne Zelle über Smart Markers. Durch die Verwendung des Attributs `ArrayAsSingle` zusammen mit dem Attribut `ExtraDelimiter` können Entwickler steuern, wie Array-Elemente innerhalb einer einzelnen Zelle getrennt werden, was eine flexible Formatierung für Berichte und Vorlagen ermöglicht.
+{{% /alert %}}
 
 ## **Einführung**
 Smart Markers in Aspose.Cells sind eine leistungsstarke, vorlagenbasierte Funktion, mit der Sie Tabellenkalkulationsdaten dynamisch mithilfe von Marker-Ausdrücken wie `&=DataSource.Field` befüllen können. Der Marker wird in einer Designer-Arbeitsmappe platziert, und wenn die Vorlage durch den `WorkbookDesigner` verarbeitet wird, werden die Marker durch Werte aus der bereitgestellten Datenquelle ersetzt.
@@ -59,6 +60,7 @@ Der Marker besteht aus den folgenden Teilen:
 
 {{% alert color="primary" %}}
 Das Attribut `extraDelimiter` akzeptiert jedes Zeichenfolgenliteral, einschließlich mehrzeichiger Trennzeichen, benutzerdefiniertem Text oder Escape-Sequenzen wie `\n` für zeilenumbruchgetrennte Ausgabe. Wenn das Array leer ist, bleibt die resultierende Zelle leer.
+{{% /alert %}}
 
 ### **Schritt-für-Schritt-Workflow**
 Der folgende Workflow beschreibt, wie Sie ein Array mithilfe von Smart Markers in eine einzelne Zelle rendern.
@@ -71,6 +73,7 @@ Der folgende Workflow beschreibt, wie Sie ein Array mithilfe von Smart Markers i
 ### **Codebeispiel 1 — Grundlegendes String-Array-Rendering**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let product = {
     Tags: ["C#", "Aspose", "SmartMarker", "Excel"]
 };
@@ -88,6 +91,7 @@ workbook.save("output_arraySingle.xlsx");
 ### **Codebeispiel 2 — Numerisches Array mit benutzerdefiniertem Trennzeichen**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 class Student {
     constructor() {
         this.Scores = [];
@@ -105,6 +109,7 @@ workbook.save("output_numericArray.xlsx");
 ### **Codebeispiel 3 — Vergleich von Standard- vs. ArrayAsSingle-Verhalten**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var order = {
     Items: ["Apple", "Banana", "Cherry", "Date"]
 };
@@ -133,8 +138,5 @@ Beachten Sie die folgenden Punkte, wenn Sie mit den Attributen `ArrayAsSingle` u
 - Die Funktion funktioniert mit Objektdatenquellen sowie `DataSet`- und `DataTable`-Quellen, bei denen eine Spalte in Arrays aufgeteilt werden kann.
 - Für zeilenumbruchgetrennte Ausgabe können Sie `\n` oder `os.EOL` als Trennzeichenwert verwenden.
 - Platzieren Sie den Smart Marker in einer Zelle, die ausreichend Breite hat, um die resultierende verkettete Zeichenkette anzuzeigen; andernfalls kann der Inhalt je nach Format visuell in benachbarte Zellen überlaufen.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells はワークシートセル内でのスパークライン作成をサポートしています。スパークラインは 1 つのセルに収まるミニチュアチャートであり、データ傾向を素早く視覚的に表現します。Aspose.Cells は折れ線、縦棒、勝敗のスパークラインをサポートしており、それぞれを色、線の太さ、高値/安値ポイント、マーカーなどに関してカスタマイズできます。
+{{% /alert %}}
 
 ## **はじめに**
 スパークラインはセル内に表示される小さなチャートで、完全なチャートほどのスペースを取らずに、行や列のデータの隣に簡単な傾向を示したい場合に役立ちます。Excel は **折れ線**、**縦棒**、**勝敗** という 3 種類のスパークラインをサポートしています。Aspose.Cells も `Aspose.Cells.Charts` 名前空間にある `SparklineGroup` および `SparklineGroupCollection` API によってこの機能を提供します。
@@ -29,43 +30,36 @@ Aspose.Cells では、追加するすべてのスパークラインが `workshee
 次の例では、ワークブックを作成し、セル A1 から E1 に値 5、-3、8、-2、6 を書き込んで、それらの値をトレースする折れ線スパークラインをセル F1 に追加します。また、線の色を赤にカスタマイズし、高値および安値のポイントにマーカーを有効化しています。
 
 ```java
-public class CodeRunner {
-    public static void main(String[] args) {
-        try {
-            // ステップ1: Workbookを作成し、最初のワークシートを取得します
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.getWorksheets().get(0);
-            Cells cells = worksheet.getCells();
-            // ステップ2: セルA1:E1にサンプル値 5、-3、8、-2、6 を書き込みます
-            cells.get("A1").putValue(5);
-            cells.get("B1").putValue(-3);
-            cells.get("C1").putValue(8);
-            cells.get("D1").putValue(-2);
-            cells.get("E1").putValue(6);
-            // ステップ3: コピー先セルF1を指すCellAreaを構築します
-            CellArea dest = new CellArea();
-            dest.StartColumn = 5;   // 列F（0から始まるインデックス）
-            dest.EndColumn = 5;
-            dest.StartRow = 0;      // 行1（0から始まるインデックス）
-            dest.EndRow = 0;
-            // ステップ4: A1:E1からF1に折れ線スパークラインを追加します
-            // SparklineGroups.addは新しく追加されたグループのインデックスを返します
-            int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
-            SparklineGroup group = worksheet.getSparklineGroups().get(index);
-            // ステップ5: 赤色のCellsColorを作成し、スパークラインの線の色に割り当てます
-            CellsColor red = workbook.createCellsColor();
-            red.setColor(com.aspose.cells.Color.getRed());
-            group.setSeriesColor(red);
-            // ステップ6: 高値マーカーと低値マーカーを有効にします
-            group.setShowHighPoint(true);
-            group.setShowLowPoint(true);
-            // ステップ7: ワークブックを保存します
-            workbook.save("output_line.xlsx");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
+import com.aspose.cells.*;
+// ステップ1: Workbookを作成し、最初のワークシートを取得します
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+Cells cells = worksheet.getCells();
+// ステップ2: セルA1:E1にサンプル値 5、-3、8、-2、6 を書き込みます
+cells.get("A1").putValue(5);
+cells.get("B1").putValue(-3);
+cells.get("C1").putValue(8);
+cells.get("D1").putValue(-2);
+cells.get("E1").putValue(6);
+// ステップ3: コピー先セルF1を指すCellAreaを構築します
+CellArea dest = new CellArea();
+dest.StartColumn = 5;   // 列F（0から始まるインデックス）
+dest.EndColumn = 5;
+dest.StartRow = 0;      // 行1（0から始まるインデックス）
+dest.EndRow = 0;
+// ステップ4: A1:E1からF1に折れ線スパークラインを追加します
+// SparklineGroups.addは新しく追加されたグループのインデックスを返します
+int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
+SparklineGroup group = worksheet.getSparklineGroups().get(index);
+// ステップ5: 赤色のCellsColorを作成し、スパークラインの線の色に割り当てます
+CellsColor red = workbook.createCellsColor();
+red.setColor(com.aspose.cells.Color.getRed());
+group.setSeriesColor(red);
+// ステップ6: 高値マーカーと低値マーカーを有効にします
+group.setShowHighPoint(true);
+group.setShowLowPoint(true);
+// ステップ7: ワークブックを保存します
+workbook.save("output_line.xlsx");
 ```
 
 ## **縦棒スパークライン**
@@ -89,10 +83,10 @@ for (int i = 0; i < values.length; i++) {
 }
 // F1を指すCellAreaを構築（列インデックス5、行インデックス0）
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // 目的セルにColumnスパークラインを追加
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
@@ -115,9 +109,6 @@ Aspose.Cells では、`add` メソッドに `SparklineType.STACKED` を渡すこ
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.charts.*;
-import com.aspose.cells.drawing.*;
-import java.awt.Color;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -129,10 +120,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // F1（5列目、0行目）を指す CellArea を作成
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Win/Loss スパークラインを追加（SparklineType.Stacked）
 int groupIndex = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(groupIndex);
@@ -142,19 +133,19 @@ group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
 // 高値の色を緑に設定
 CellsColor highColor = workbook.createCellsColor();
-highColor.setColor(Color.GREEN);
+highColor.setColor(Color.getGreen());
 group.setHighPointColor(highColor);
 // 低値の色を赤に設定
 CellsColor lowColor = workbook.createCellsColor();
-lowColor.setColor(Color.RED);
+lowColor.setColor(Color.getRed());
 group.setLowPointColor(lowColor);
 // 負値の色をオレンジに設定
 CellsColor negColor = workbook.createCellsColor();
-negColor.setColor(Color.ORANGE);
+negColor.setColor(Color.getOrange());
 group.setNegativePointsColor(negColor);
 // デフォルトの系列色を設定（正の値に使用）
 CellsColor seriesColor = workbook.createCellsColor();
-seriesColor.setColor(new Color(70, 130, 180)); // スチールブルーの近似色
+seriesColor.setColor(Color.fromArgb(70, 130, 180)); // スチールブルーの近似色
 group.setSeriesColor(seriesColor);
 // ワークブックを保存
 workbook.save("output_winloss.xlsx");
@@ -211,6 +202,5 @@ workbook.save("output_all.xlsx");
 - **高値/安値ポイントのマーカー** — 最高および最低のデータ点に小さなマーカーを表示するフラグ。極端な値を強調するのに役立ちます。
 - **最初/最後/負のポイントのマーカー** — 最初、最後、および負のデータ点にマーカーを表示するフラグ。
 色を変更するには、必ず `CellsColor` インスタンスを作成して該当するプロパティに割り当ててください。スパークラインの色プロパティに `java.awt.Color` を直接代入しないでください。それらは `Aspose.Cells.Drawing` の `CellsColor` 型を期待します。`add` メソッド自体は完全な型付けされた `SparklineGroup` オブジェクトを返すため、戻り値に対してプロパティの代入をチェーンしたり、ローカル変数に保存して保存前にカスタマイズしたりできます。
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

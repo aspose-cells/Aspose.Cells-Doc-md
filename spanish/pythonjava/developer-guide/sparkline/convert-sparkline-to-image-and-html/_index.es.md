@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Los minigráficos son gráficos miniatura colocados dentro de celdas de hojas de cálculo. Aspose.Cells le permite extraer cada minigráfico como una imagen independiente (para incrustarlo en otra celda o en un informe externo) y también exportar la hoja de cálculo completa con minigráficos a HTML para su distribución en navegadores. La propiedad `Cell.embedded_image` utilizada en este artículo está disponible en **Aspose.Cells 26.5 y posteriores**.
+{{% /alert %}}
 
 ## **Introducción**
 Los minigráficos son una forma compacta de visualizar tendencias directamente dentro de una hoja de cálculo. Mientras que los usuarios de Excel los ven en su lugar, muchos escenarios del mundo real requieren que un minigráfico salga de la celda — por ejemplo, para incrustarse en una celda diferente como una imagen estática, adjuntarse a un correo electrónico automatizado o renderizarse como parte de un informe HTML publicado en la web.
@@ -36,7 +37,6 @@ En este flujo de trabajo, creará una hoja de cálculo que contiene un pequeño 
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
@@ -51,28 +51,28 @@ worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
 # Agregar un grupo de minigráficos de Línea anclado en F1 (columna 5, fila 0)
 lineArea = CellArea()
-lineArea.setStartColumn(5)
-lineArea.setEndColumn(5)
-lineArea.setStartRow(0)
-lineArea.setEndRow(0)
-lineIdx = worksheet.getSparklineGroups().add(SparklineType.Line, "A1:E1", False, lineArea)
+lineArea.StartColumn = 5
+lineArea.EndColumn = 5
+lineArea.StartRow = 0
+lineArea.EndRow = 0
+lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
 # Agregar un grupo de minigráficos de Columna anclado en G1 (columna 6, fila 0)
 columnArea = CellArea()
-columnArea.setStartColumn(6)
-columnArea.setEndColumn(6)
-columnArea.setStartRow(0)
-columnArea.setEndRow(0)
-columnIdx = worksheet.getSparklineGroups().add(SparklineType.Column, "A1:E1", False, columnArea)
+columnArea.StartColumn = 6
+columnArea.EndColumn = 6
+columnArea.StartRow = 0
+columnArea.EndRow = 0
+columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
 # Agregar un grupo de minigráficos de Ganancia/Pérdida (Apilado) anclado en H1 (columna 7, fila 0)
 stackedArea = CellArea()
-stackedArea.setStartColumn(7)
-stackedArea.setEndColumn(7)
-stackedArea.setStartRow(0)
-stackedArea.setEndRow(0)
-stackedIdx = worksheet.getSparklineGroups().add(SparklineType.Stacked, "A1:E1", False, stackedArea)
+stackedArea.StartColumn = 7
+stackedArea.EndColumn = 7
+stackedArea.StartRow = 0
+stackedArea.EndRow = 0
+stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
 # Configurar opciones de imagen para salida PNG
 imageOptions = ImageOrPrintOptions()
-imageOptions.setImageType(ImageType.Png)
+imageOptions.setImageType(ImageType.PNG)
 # Convertir el minigráfico de Línea a imagen e incrustarlo en la celda F2
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
@@ -97,6 +97,7 @@ El código anterior produce un libro donde cada representación visual de un min
 
 {{% alert color="primary" %}}
 Debido a que cada grupo de minigráficos está anclado a una sola celda, puede accederlo mediante el indizador `group.sparklines[0]` en lugar de enumerar con un bucle `for`. Esto mantiene el código de renderizado corto y coincide con el patrón típico de "un minigráfico por celda ancla". Almacenar los bytes de la imagen a través de `Cell.embedded_image` requiere Aspose.Cells 26.5 o posterior.
+{{% /alert %}}
 
 ## **Flujo de Trabajo 2 — Exportar la Hoja de Cálculo con Minigráficos a HTML**
 Una vez que el libro contiene minigráficos en vivo (y opcionalmente contrapartes de imágenes incrustadas), toda la hoja de cálculo puede publicarse en la web guardándola como HTML. La clase `HtmlSaveOptions` expone los controles que necesita para gestionar esta exportación; en este flujo de trabajo reutilizará el archivo `output_with_sparklines.xlsx` producido por el Flujo de Trabajo 1 y lo convertirá en un documento HTML limpio de una sola página.
@@ -111,7 +112,6 @@ Una vez que el libro contiene minigráficos en vivo (y opcionalmente contraparte
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, HtmlSaveOptions
 workbook = Workbook("output_with_sparklines.xlsx")
 htmlOptions = HtmlSaveOptions()
@@ -124,6 +124,7 @@ El código anterior toma el libro con minigráficos del Flujo de Trabajo 1 y lo 
 
 {{% alert color="primary" %}}
 La clase `HtmlSaveOptions` ofrece propiedades adicionales para ajustar la salida, como `export_hidden_worksheet`, `export_images_as_base64` y `encoding`. Ajústelas según sea necesario para su objetivo de despliegue.
+{{% /alert %}}
 
 ## **Resumen de la API**
 Los flujos de trabajo anteriores se basan en un pequeño conjunto de APIs de Aspose.Cells que trabajan juntas.
@@ -137,10 +138,5 @@ Los flujos de trabajo anteriores se basan en un pequeño conjunto de APIs de Asp
 ## **Artículos Relacionados**
 - [Minigráficos en Aspose.Cells for Python via Java](/cells/es/python-java/sparkline/)
 - [Insertar una Imagen en una Celda](/cells/es/python-java/inserting-an-image-into-a-cell/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

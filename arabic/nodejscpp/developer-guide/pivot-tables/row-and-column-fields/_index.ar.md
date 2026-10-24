@@ -1,8 +1,8 @@
 ---
-title: إضافة حقول الصفوف والأعمدة إلى جدول محوري في Aspose.Cells لـ .NET
-description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.SetSubtotals in Aspose.Cells for Node.js via C++
-linktitle: حقول الصفوف والأعمدة
-keywords: Aspose.Cells, Node.js, C++, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals
+title: إضافة حقول الصفوف والأعمدة إلى جدول محوري في Aspose.Cells for Node.js via C++
+linktitle: إضافة حقول الصفوف والأعمدة إلى جدول محوري في Aspose.Cells for Node.js via C++
+description: تعلّم كيفية إضافة الحقول الأساسية إلى منطقتي الصفوف والأعمدة في جدول محوري والتحكم في المجاميع الفرعية لحقول الجدول المحوري باستخدام PivotField.SetSubtotals في Aspose.Cells for Node.js via C++
+keywords: Aspose.Cells, Node.js, C++, جدول محوري, حقل صف, حقل عمود, PivotField, SetSubtotals, PivotFieldSubtotalType, مجاميع فرعية
 type: docs
 weight: 220
 url: /ar/nodejs-cpp/pivot-table-add-row-and-column-fields/
@@ -11,19 +11,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **إضافة حقل إلى منطقة الصفوف أو الأعمدة**
-تنقل طريقة `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` حقلًا أساسيًا من البيانات المصدر إلى إحدى مناطق الجدول المحوري الأربع. تقبل وسيط `fieldType` إحدى قيم `PivotFieldType` التالية.
-- `Row` — الحقول الموضوعة عموديًا على اليسار
-- `Column` — الحقول الموضوعة أفقيًا عبر الأعلى
+تنقل طريقة `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` حقلًا أساسيًا من بيانات المصدر إلى إحدى مناطق الجدول المحوري الأربع. تقبل الوسيطة `fieldType` إحدى قيم `PivotFieldType` التالية.
+- `Row` — الحقول الموضوعة رأسيًا على الجانب الأيسر
+- `Column` — الحقول الموضوعة أفقيًا في أعلى الجدول
 - `Data` — الحقول التي يتم تجميع قيمها
 - `Page` — الحقول المستخدمة كمرشحات للتقرير
-بعد إضافة الحقول، يمكنك الوصول إليها من خلال خصائص `PivotTable.RowFields` و`PivotTable.ColumnFields`. تُرجع كل خاصية كائن `PivotFieldCollection`. الحقل في الفهرس 0 من `RowFields` هو حقل الصف الخارجي، وتمثل الفهارس اللاحقة الحقول المتداخلة داخله. ينطبق نفس اصطلاح الفهرسة على `ColumnFields`.
-يهم ترتيب تداخل الحقول. تؤدي إضافة `Category` إلى منطقة الصفوف أولًا، ثم إضافة `Item`، إلى إنتاج جدول محوري يكون فيه التجميع الخارجي هو `Category` والتجميع الداخلي هو `Item`. يؤدي عكس الترتيب إلى عكس التسلسل الهرمي.
+ترتيب تداخل الحقول مهم. تؤدي إضافة `Category` إلى منطقة الصفوف أولًا، ثم `Item`، إلى إنشاء جدول محوري يكون التجميع الخارجي فيه هو `Category` والتجميع الداخلي هو `Item`. ويؤدي عكس الترتيب إلى عكس التسلسل الهرمي.
 
-## **إجماليات الحقول المحورية الفرعية**
-تتحكم طريقة `PivotField.SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` في صفوف الإجمالي الفرعي التي تظهر لحقل محوري. يعمل كل استدعاء على تبديل نوع إجمالي فرعي واحد بشكل مستقل. يعرض تمرير `shown = true` الإجمالي الفرعي، بينما يخفيه `shown = false`. نظرًا لأن كل استدعاء يؤثر على نوع واحد فقط، فإن استدعاء الطريقة عدة مرات بقيم `subtotalType` مختلفة يُنشئ مجموعة فرعية مخصصة من الإجماليات الفرعية.
-يحدد التعداد `PivotFieldSubtotalType` أنواع الإجماليات الفرعية المتاحة.
-- `Automatic` — يختار Aspose.Cells التحديد الافتراضي (عادةً `Sum` للحقول الرقمية)
-- `None` — إلغاء جميع صفوف الإجمالي الفرعي
+## **المجاميع الفرعية لحقول الجدول المحوري**
+تتحكم طريقة `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` في صفوف المجاميع الفرعية الظاهرة لحقل في الجدول المحوري. يبدّل كل استدعاء حالة نوع واحد من أنواع المجاميع الفرعية بشكل مستقل. يؤدي تمرير `shown = true` إلى عرض المجموع الفرعي، بينما يؤدي `shown = false` إلى إخفائه. وبناءً على أن كل استدعاء يؤثر في نوع واحد فقط، فإن استدعاء الطريقة عدة مرات بقيم `subtotalType` مختلفة ينشئ مجموعة مخصصة من المجاميع الفرعية.
+يحدد التعداد `PivotFieldSubtotalType` أنواع المجاميع الفرعية المتاحة.
+- `Automatic` — يختار Aspose.Cells الخيار الافتراضي (عادةً `Sum` للحقول الرقمية)
+- `None` — يمنع عرض جميع صفوف المجاميع الفرعية
 - `Sum`
 - `Count`
 - `Average`
@@ -36,13 +35,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - `Varp`
 
 {{% alert color="primary" %}}
-لا تظهر الإجماليات الفرعية إلا عند وجود حقلين محوريين أو أكثر في منطقة الصفوف (أو في منطقة الأعمدة). لا يوفّر حقل واحد منفردًا ما يمكن حساب إجمالي فرعي له بين المجموعات، لذلك لا يكون لاستدعاءات `SetSubtotals` أي تأثير مرئي في هذه الحالة. لذلك تضع هذه المقالة حقلَي صفوف (`Category` خارجي، `Item` داخلي) في كل مثال بحيث تكون حدود الإجمالي الفرعي بين كل مجموعة `Category` مرئية.
+لا تظهر المجاميع الفرعية إلا عند وجود حقلين أو أكثر في الجدول المحوري ضمن منطقة الصفوف (أو منطقة الأعمدة). لا يوجد عند الحقل المفرد أي حد يمكن أن تظهر عنده المجاميع الفرعية بصورة ذات معنى، لذلك لا يظهر لاستدعاءات `setSubtotals` أي تأثير مرئي في هذه الحالة. تضع هذه المقالة حقلين في منطقة الصفوف (`Category` هو الحقل الخارجي و`Item` هو الحقل الداخلي) في كل مثال، حتى يكون الحد الفاصل للمجاميع الفرعية بين كل مجموعة `Category` واضحًا.
 {{% /alert %}}
 
-## **السيناريو 1 — الإجماليات الفرعية التلقائية (الافتراضية)**
-عندما لا تستدعي `SetSubtotals` على الإطلاق، يطبق Aspose.Cells تحديد `Automatic` على الحقول الرقمية. يؤكد المثال التالي هذا السلوك صراحةً عن طريق استدعاء `SetSubtotals(PivotFieldSubtotalType.Automatic, true)` على حقل الصف الخارجي `Category`.
+## **السيناريو 1 — المجاميع الفرعية التلقائية (الافتراضية)**
+عند عدم استدعاء `setSubtotals` إطلاقًا، يطبق Aspose.Cells الخيار `Automatic` على الحقول الرقمية. يؤكد المثال التالي هذا السلوك صراحةً من خلال استدعاء `setSubtotals(PivotFieldSubtotalType.Automatic, true)` على حقل الصف الخارجي `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -94,11 +94,11 @@ pivotTable.calculateData();
 workbook.save("output_automatic.xlsx");
 ```
 
-## **السيناريو 2 — إلغاء جميع الإجماليات الفرعية (None)**
-يؤدي استدعاء `SetSubtotals(PivotFieldSubtotalType.None, true)` إلى إزالة جميع صفوف الإجمالي الفرعي من الجدول المحوري، مع ترك صفوف الحقول والإجمالي الكلي فقط في الأسفل. يكون هذا مفيدًا عندما تريد البيانات المجمّعة الأولية بدون أي صفوف ملخص.
+## **السيناريو 2 — تعطيل جميع المجاميع الفرعية (None)**
+يزيل استدعاء `setSubtotals(PivotFieldSubtotalType.None, true)` جميع صفوف المجاميع الفرعية من الجدول المحوري، تاركًا فقط صفوف الحقول والإجمالي الكلي في الأسفل. ويكون هذا مفيدًا عند الرغبة في عرض البيانات الخام المجمّعة حسب الحقول دون أي صفوف ملخصات.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -133,10 +133,11 @@ pivotTable.calculateData();
 workbook.save("output_none.xlsx");
 ```
 
-## **السيناريو 3 — مجموعة الإجماليات الفرعية المخصصة (Sum + Average)**
-لستَ مقيدًا بنوع إجمالي فرعي واحد. يعمل كل استدعاء `SetSubtotals` بشكل مستقل على نوع واحد، لذلك يؤدي استدعاء الطريقة مرتين — مرة باستخدام `Sum` ومرة باستخدام `Average` — إلى إنتاج مجموعة فرعية مخصصة من صفّي إجمالي فرعي لكل مجموعة `Category`.
+## **السيناريو 3 — مجموعة مخصصة من أنواع المجاميع الفرعية (Sum + Average)**
+لا تقتصر على نوع واحد من المجاميع الفرعية. يعمل كل استدعاء لـ `setSubtotals` على نوع واحد بشكل مستقل، لذا يؤدي استدعاء الطريقة مرتين — مرة مع `Sum` ومرة مع `Average` — إلى إنشاء مجموعة مخصصة من صفين للمجاميع الفرعية لكل مجموعة `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -191,6 +192,19 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **ملخص**
-تتشارك السيناريوهات الثلاثة أعلاه في نفس مجموعة البيانات وبنية الجدول المحوري. الاختلاف الوحيد بينها هو استدعاء `SetSubtotals` المطبق على حقل الصف الخارجي `Category`. تذكّر قاعدة الحقلين: حقل منفرد واحد في منطقة ما لا يوفّر ما يمكن حساب إجمالي فرعي له بين المجموعات، لذلك ضع دائمًا حقلين على الأقل في منطقة الصفوف أو الأعمدة عندما تريد أن يكون لاستدعاء `SetSubtotals` تأثير مرئي.
+
+تختلف السيناريوهات الثلاثة في أمرٍ واحد فقط: مكالمات `setSubtotals`. أما كل شيءٍ آخر — أي مجموعة البيانات، والحقول، والمجالات التي تُعين لها — فهو متطابق، وهو ما يجعل التخطيطات قابلة للمقارنة مباشرةً.
+- **وضع الحقول.** تنقل `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` عمود المصدر إلى منطقةٍ معيّنة. وداخل منطقةٍ واحدة، يُحدد ترتيب المكالمات ترتيب العرض، لذا تصبح المكالمة الأولى هي المجموعة الخارجية الأعمّ. وتحتاج الحسابات الجزئية إلى حقلين أو أكثر في نفس المنطقة: فمع وجود حقلٍ واحد، لا يوجد ما يُحسب حسابه جزئيًا بين المجموعات.
+- **السيناريو ١ — الحسابات الجزئية التلقائية.** ترك `setSubtotals` دون استدعاءٍ يترك الاختيار لـ Excel، الذي يطبّق حسابه الجزئي الافتراضي التلقائي على الحقول الرقمية. أما استدعاء `setSubtotals` مع `AsposeCells.PivotFieldSubtotalType.Automatic` فيسجّل هذا الاختيار صراحةً بدلاً من تركه ضمنيًا.
+- **السيناريو ٢ — عدم وجود حسابات جزئية.** يؤدي استدعاء `setSubtotals` مع `AsposeCells.PivotFieldSubtotalType.None` إلى إيقاف الحساب الجزئي الافتراضي، بحيث يحتفظ الجدول المحوري بأسطر الحقل وحسابه الكلي، لكنه يحذف أسطر الحسابات الجزئية التي يُدرجها Excel عادةً بينها.
+- **السيناريو ٣ — مجموعة مختارة.** تُفعّل أو تُعطّل كل مكالمة نوع حساب جزئيٍ واحد فقط، وتتراكم المكالمات بدلاً من إلغاء بعضها. ولذلك، يؤدي استدعاء المكتبة مرةً واحدةً مع `AsposeCells.PivotFieldSubtotalType.Sum` ومرةً أخرى مع `AsposeCells.PivotFieldSubtotalType.Average` إلى إبقاء كلا النوعين مفعلَين، فيُظهر الجدول المحوري حسابًا جزئيًا للمجموع (Sum)، وحسابًا جزئيًا للمتوسط (Average)، وحسابًا كليًا.
+
+{{% alert color="primary" %}}
+لا شيءٍ في الحسابات الجزئية مخصوصٌ بالمنطقة الصفية فقط. فالمكالمات نفسها على `setSubtotals` لحقلٍ مُؤخذ من `PivotTable.ColumnFields` تُنتج نفس التخطيطات الثلاثة على المحور العمودي، لأن الإعداد ينتمي إلى حقل الجدول المحوري وليس للمحور الذي يقع عليه.
+{{% /alert %}}
+## **المقالات ذات الصلة**
+- [حقول الصفحات في الجداول المحورية](/cells/ar/nodejs-cpp/add-page-field-in-pivot-table/)
+- [تحديث الجداول المحورية في Aspose.Cells for Node.js via C++](/cells/ar/nodejs-cpp/refresh-pivot-table/)
+- [تطبيق الأنماط على الجداول المحورية](/cells/ar/nodejs-cpp/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

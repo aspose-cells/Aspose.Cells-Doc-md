@@ -30,6 +30,7 @@ Aspose.Cells, etiket filtrelemeyi `PivotField.filterByLabel(PivotFilterType, str
 Aşağıdaki örnek, mevcut bir özet tablo içeren bir çalışma kitabını yükler, başlıkları belirli bir önekle başlayan öğelerin görünür kalması için bir etiket filtresi uygular, özet tablosunu yeniler ve sonucu kaydeder.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
 // Mevcut çalışma kitabını, içinde bir pivot tablo bulunan şekilde yükle
@@ -41,7 +42,7 @@ let pivotTable = worksheet.getPivotTables().get(0);
 // İlk satır PivotField'ını al
 let rowField = pivotTable.getRowFields().get(0);
 // Etiket filtresini uygula — yalnızca etiketleri sağlanan önekle başlayan satır öğelerini göster
-rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
+rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
 // Pivot tablo verilerini yenile ve yeniden hesapla, böylece filtre etkili olur
 pivotTable.getPivotCache().refresh();
 // Çalışma kitabını diske geri kaydet
@@ -53,12 +54,13 @@ Tarih filtreleri, bir özet tablosunu bugün, geçen hafta, bu ay, gelecek çeyr
 
 {{% alert color="primary" %}}
 Tarih filtresi yalnızca satır veya sütun alanı yalnızca tarih-saat hücreleri veya boş değerler içerdiğinde çalışır. Temel alan sayılar veya metin gibi başka veri türlerini içeriyorsa, tarih filtresi beklenen sonucu üretmeyecektir. Alanın tarih olarak biçimlendirildiğinden ve tüm değerlerin geçerli `DateTime` örnekleri veya boş hücreler olduğundan emin olun, ardından bu filtreyi uygulayın.
-{{% /alert %}}
-
 Aspose.Cells, tarih filtrelemeyi `PivotField.filterByDate(PivotFilterType, params DateTime[] values)` yöntemi aracılığıyla sunar. `PivotFilterType` numaralandırması `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` ve `Between` gibi özel tarih değerleri içerir. Seçilen filtre türüne bağlı olarak bir veya iki `DateTime` değeri geçersiniz (`Between` için başlangıç ve bitiş tarihlerini geçersiniz).
 Aşağıdaki örnek, satır alanında bir tarih alanı bulunan özet tablosuna sahip bir çalışma kitabını yükler, görünür öğeleri belirli bir tarih aralığıyla kısıtlayan bir tarih filtresi uygular, özet tablosunu yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
 let inputPath = "sample.xlsx";
 let outputPath = "output_filtered.xlsx";
 if (!fs.existsSync(inputPath))
@@ -78,7 +80,7 @@ let dateField = pivotTable.getRowFields().get(0);
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
 // Pivot alanına tarih filtresini uygula
-dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
+dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
 // Filtrenin etkili olması için pivot tablosunu yenile ve yeniden hesapla
 pivotTable.getPivotCache().refresh();
 // Çalışma kitabını kaydet
@@ -91,6 +93,7 @@ Aspose.Cells, değer filtrelemeyi `PivotField.filterByValue(PivotField valueFiel
 Aşağıdaki örnek, özet tablosu olan bir çalışma kitabını yükler, yalnızca toplanan satışları sayısal bir eşiği aşan öğeleri tutan bir değer filtresi uygular, özet tablosunu yeniler ve çalışma kitabını kaydeder.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook("sample.xlsx");
 var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
@@ -108,7 +111,7 @@ for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 }
 if (dataFieldIndex >= 0)
 {
-    rowField.filterByValue(dataFieldIndex, AsposeCells.Pivot.PivotFilterType.ValueGreaterThan, 5000, Number.MAX_VALUE);
+    rowField.filterByValue(dataFieldIndex, AsposeCells.PivotFilterType.VALUE_GREATER_THAN, 5000, Number.MAX_VALUE);
 }
 pivotTable.getPivotCache().refresh();
 workbook.save("output.xlsx");
@@ -119,12 +122,12 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 İlk 10 filtresi yalnızca özet tablosunun veri alanında bir veya daha fazla değer pivot alanı olduğunda etkilidir. En az bir değer alanı olmadan, öğeleri sıralamak için toplanan bir ölçü yoktur ve filtre uygulanamaz.
-{{% /alert %}}
-
 Aspose.Cells, ilk 10 filtrelemeyi `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)` yöntemi aracılığıyla sunar. `itemCount` parametresi kaç öğenin tutulacağını tanımlar, `isTop` en üstteki öğelerin (true) mi yoksa en alttaki öğelerin (false) mi tutulacağını belirtir, `valueField` sıralama için kullanılan veri alanına başvurur ve `filterType` değerin nasıl hesaplanacağını kontrol eder (genellikle `Sum`, ayrıca `Count` ve `Percent`).
 Aşağıdaki örnek, değer alanı içeren özet tablosuna sahip bir çalışma kitabını yükler, satış toplamına göre yalnızca en yüksek 10 öğeyi tutmak için bir ilk 10 filtresi uygular, özet tablosunu yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
@@ -144,10 +147,10 @@ let rowField = pivotTable.getRowFields().get(0);
 let valueFieldIndex = 0;
 // Apply the Top 10 filter on the row field:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (top N; false would mean bottom N)
 //   - valueFieldIndex = the index of the data field used to rank items
-rowField.filterTop10(10, AsposeCells.PivotFilterType.Sum, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.SUM, true, 10);
 // Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
 // Save the workbook
@@ -159,6 +162,7 @@ Yapılandırılmış filtre API'lerine ek olarak, Aspose.Cells her bir özet ö�
 Bu yaklaşım, filtreleme kuralı düzensiz veya öğeye özgü olduğunda, örneğin belirli bir raporda görünmemesi gereken küçük sayıda adlandırılmış kategoriyi gizlerken kullanışlıdır. Aşağıdaki örnek bir özet tablosunu yükler, belirli bir öğeyi ada göre gizler, onu nasıl göstereceğinizi gösterir, özet tablosunu yeniler ve çalışma kitabını kaydeder.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
 // İlk çalışma sayfasına erişim sağla, pivot tabloyu içeren sayfa
 let sheet = workbook.getWorksheets().get(0);
@@ -172,15 +176,15 @@ for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
     // Belirli bir ad/ölçütle eşleşen pivot öğelerini gizle
     if (item.getName() == "Item1" || item.getName() == "Item2") {
-        item.setIsHidden(true);
+        item.setHidden(true);
     }
     // Gizleme işlemini geri almayı göster: daha önce gizlenmiş bir pivot öğesini yeniden göster
     if (item.getName() == "Item3") {
-        item.setIsHidden(false);
+        item.setHidden(false);
     }
 }
 // Değişikliklerin etkili olması için pivot tabloyu yenile ve yeniden hesapla
-pivotTable.getPivotCache().refreshData();
+pivotTable.getPivotCache().refresh();
 // Çalışma kitabını kaydet — gizli öğeler temel verilerde kalır
 // ancak görüntülenen pivot tablo çıktısından hariç tutulur
 workbook.save("output_pivot_filtered.xlsx");

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells admite la renderización de datos de matriz en una sola celda a través de Smart Markers. Al utilizar el atributo `ArrayAsSingle` junto con el atributo `ExtraDelimiter`, los desarrolladores pueden controlar cómo se separan los elementos de la matriz dentro de una sola celda, proporcionando un formato flexible para informes y plantillas.
+{{% /alert %}}
 
 ## **Introducción**
 Los Smart Markers en Aspose.Cells son una potente función basada en plantillas que le permite llenar dinámicamente datos de hojas de cálculo usando expresiones de marcadores como `&=DataSource.Field`. El marcador se coloca en un libro de trabajo de diseño y, cuando la plantilla es procesada por el `WorkbookDesigner`, los marcadores se reemplazan con valores del origen de datos proporcionado.
@@ -59,6 +60,7 @@ El marcador se compone de las siguientes partes:
 
 {{% alert color="primary" %}}
 El atributo `extraDelimiter` acepta cualquier cadena literal, incluyendo delimitadores de varios caracteres, texto personalizado o secuencias de escape como `\n` para salida separada por nueva línea. Si la matriz está vacía, la celda resultante se deja en blanco.
+{{% /alert %}}
 
 ### **Flujo de trabajo paso a paso**
 El siguiente flujo de trabajo describe cómo renderizar una matriz en una sola celda usando Smart Markers.
@@ -71,6 +73,7 @@ El siguiente flujo de trabajo describe cómo renderizar una matriz en una sola c
 ### **Ejemplo de código 1 — Renderizado básico de matriz de cadenas**
 
 ```python
+import aspose.cells as ac
 class Product:
     def __init__(self):
         self.Tags = []
@@ -78,8 +81,8 @@ product = Product()
 product.Tags = ["C#", "Aspose", "SmartMarker", "Excel"]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Tags")
-worksheet.cells["A2"].put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
+worksheet.cells.get("A1").put_value("Tags")
+worksheet.cells.get("A2").put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
 designer = ac.WorkbookDesigner()
 designer.workbook = workbook
 designer.set_data_source("Product", product)
@@ -90,6 +93,7 @@ workbook.save("output_arraySingle.xlsx")
 ### **Ejemplo de código 2 — Matriz numérica con delimitador personalizado**
 
 ```python
+import aspose.cells as ac
 class Student:
     def __init__(self):
         self.scores = []
@@ -97,14 +101,15 @@ student = Student()
 student.scores = [95, 88, 76, 100, 67]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Scores")
-worksheet.cells["A2"].put_value(" - ".join(str(s) for s in student.scores))
+worksheet.cells.get("A1").put_value("Scores")
+worksheet.cells.get("A2").put_value(" - ".join(str(s) for s in student.scores))
 workbook.save("output_numericArray.xlsx")
 ```
 
 ### **Ejemplo de código 3 — Comparación del comportamiento predeterminado frente a ArrayAsSingle**
 
 ```python
+import aspose.cells as ac
 class Order:
     def __init__(self, items):
         self._items = items
@@ -119,11 +124,11 @@ workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
 # Sección 1: Marcador Inteligente Predeterminado - valores distribuidos horizontalmente en las celdas
-cells["A1"].put_value("Default Spreading Behavior:")
-cells["A2"].put_value("&=Order.Items")
+cells.get("A1").put_value("Default Spreading Behavior:")
+cells.get("A2").put_value("&=Order.Items")
 # Sección 2: Nueva renderización de celda única usando arrayasSingle y extraDelimiter
-cells["A4"].put_value("Single Cell Rendering (arrayasSingle=true):")
-cells["A5"].put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
+cells.get("A4").put_value("Single Cell Rendering (arrayasSingle=true):")
+cells.get("A5").put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
 # Vincular la fuente de datos y procesar Marcadores Inteligentes
 designer = ac.WorkbookDesigner(workbook)
 designer.set_data_source("Order", order)
@@ -140,8 +145,5 @@ Tenga en cuenta los siguientes puntos al trabajar con los atributos `ArrayAsSing
 - La función funciona con orígenes de datos de objetos, así como con orígenes `DataSet` y `DataTable` donde una columna se puede dividir en matrices.
 - Para salida separada por nueva línea, puede usar `\n` o `os.linesep` como valor del delimitador.
 - Coloque el Smart Marker en una celda que tenga el ancho suficiente para mostrar la cadena concatenada resultante; de lo contrario, el contenido puede desbordarse visualmente a las celdas adyacentes según el formato.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

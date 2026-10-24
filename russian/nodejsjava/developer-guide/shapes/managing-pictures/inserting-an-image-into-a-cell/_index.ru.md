@@ -37,6 +37,7 @@ Aspose.Cells поддерживает этот сценарий двумя вз�
 
 {{% alert color="primary" %}}
 Индексы строк и столбцов в Aspose.Cells **начинаются с нуля**. Ячейка C6 имеет индекс строки 5 и индекс столбца 2. Ошибки смещения на единицу в привязке нижнего правого угла — наиболее распространённая причина того, что изображения визуально перекрывают соседнюю ячейку.
+{{% /alert %}}
 
 ### **Управление поведением размещения**
 `Picture.Placement` — это перечисление типа `PlacementType`, которое управляет поведением изображения при изменении пользователем размера строки или столбца под ним. Рекомендуемое значение для изображения в одной ячейке — `PlacementType.MoveAndSize`, при котором изображение перемещается и изменяет размер вместе с базовой ячейкой, сохраняя точное соответствие.
@@ -53,7 +54,7 @@ Aspose.Cells поддерживает этот сценарий двумя вз�
 Следующий код демонстрирует полный подход.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 var picIndex = worksheet.getPictures().add(5, 2, "logo.png");
@@ -62,8 +63,8 @@ picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);
 picture.setLowerRightRow(6);
 picture.setLowerRightColumn(3);
-picture.setPlacement(AsposeCells.PlacementType.MoveAndSize);
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+picture.setPlacement(AsposeCells.PlacementType.MOVE_AND_SIZE);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Подход 2: встраивание изображения непосредственно в ячейку**
@@ -86,7 +87,7 @@ Aspose.Cells также предоставляет более простой м�
 Следующий код демонстрирует полный подход.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
@@ -100,7 +101,7 @@ cell.setEmbeddedImage(imageData);
 worksheet.getCells().setColumnWidth(2, 30);   // Столбец C (индекс 2)
 worksheet.getCells().setRowHeight(5, 100);     // Строка 6 (индекс 5)
 // Сохранить полученную рабочую книгу как файл .xlsx
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Выбор подходящего подхода**
@@ -113,6 +114,5 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 - **Используйте встроенное изображение (Подход 2), когда:**
   - Вам нужна максимально простая вставка изображения в ячейку.
   - Изображение должно перемещаться вместе с ячейкой, как и любое другое содержимое ячейки.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

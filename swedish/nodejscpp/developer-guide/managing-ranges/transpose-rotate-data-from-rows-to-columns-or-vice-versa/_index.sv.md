@@ -74,7 +74,7 @@ Denna metod fungerar **endast på Excel 365 / 2021 eller senare**. Äldre Excel-
 {{% /alert %}}
 
 ```python
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
@@ -103,7 +103,7 @@ CSE-matrisformler är det klassiska Excel-sättet att utvärdera ett `TRANSPOSE`
 {{% /alert %}}
 
 ```python
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Ladda källarbetsboken med xlsx LoadOptions
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));

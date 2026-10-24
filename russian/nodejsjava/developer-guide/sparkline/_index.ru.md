@@ -30,6 +30,7 @@ Aspose.Cells поддерживает создание спарклайнов в
 В следующем примере создаётся рабочая книга, значения 5, -3, 8, -2, 6 записываются в ячейки от A1 до E1, и в ячейку F1 добавляется линейный спарклайн, отображающий эти значения. Также настраивается красный цвет линии и включаются маркеры для верхней и нижней точек.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
@@ -41,13 +42,13 @@ cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
 // Шаг 3: Создать CellArea, указывающую на целевую ячейку F1
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // столбец F (индексация с 0)
-dest.setEndColumn(5);
-dest.setStartRow(0);      // строка 1 (индексация с 0)
-dest.setEndRow(0);
+dest.StartColumn = 5;   // столбец F (индексация с 0)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // строка 1 (индексация с 0)
+dest.EndRow = 0;
 // Шаг 4: Добавить линейную спарклайн из A1:E1 в F1
 // SparklineGroups.Add возвращает индекс вновь добавленной группы
-let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, dest);
+let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(index);
 // Шаг 5: Создать красный CellsColor и назначить его цвету линии спарклайна
 let red = workbook.createCellsColor();
@@ -72,6 +73,7 @@ workbook.save("output_line.xlsx");
 В примере ниже значения 5, -3, 8, -2, 6 записываются в A1:E1, и в ячейке F1 отображается столбцовый спарклайн. Отрицательные значения отображаются как полосы, направленные вниз, а положительные — как полосы, направленные вверх, что позволяет легко увидеть положительный и отрицательный вклад.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Шаг 2: Записать примеры значений в A1:E1
@@ -81,13 +83,13 @@ for (let i = 0; i < values.length; i++) {
 }
 // Шаг 3: Создать CellArea, указывающую на F1 (индекс столбца 5, индекс строки 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Шаг 4: Добавить столбцовую спарклайн в целевую ячейку
 let idx = worksheet.getSparklineGroups().add(
-    AsposeCells.SparklineType.Column, "A1:E1", false, dest);
+    AsposeCells.SparklineType.COLUMN, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(idx);
 // Шаг 5: Подтвердить тип спарклайн, прочитав group.Type
 console.log("Sparkline Type added: " + group.getType());
@@ -107,6 +109,7 @@ console.log("Workbook saved as output_column.xlsx");
 6. Сохраните рабочую книгу под отдельным именем файла, чтобы все три примера могли сосуществовать на диске.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -118,13 +121,13 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Шаг 3: Создание CellArea, указывающей на F1 (столбец 5, строка 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F
-dest.setEndColumn(5);
-dest.setStartRow(0);      // строка 1
-dest.setEndRow(0);
-// Шаг 4: Добавление спарклайна Win/Loss (SparklineType.Stacked)
+dest.StartColumn = 5;   // F
+dest.EndColumn = 5;
+dest.StartRow = 0;      // строка 1
+dest.EndRow = 0;
+// Шаг 4: Добавление спарклайна Win/Loss (SparklineType.STACKED)
 let groupIndex = worksheet.getSparklineGroups().add(
-    AsposeCells.SparklineType.Stacked,
+    AsposeCells.SparklineType.STACKED,
     "A1:E1",
     false,
     dest
@@ -160,6 +163,7 @@ console.log("Workbook saved successfully: output_winloss.xlsx");
 В следующем комбинированном примере создаётся одна рабочая книга, в строке 1 записываются значения 5, -3, 8, -2, 6, после чего добавляются три группы спарклайнов в ячейки F1, F2 и F3 — по одной каждого типа — чтобы полученный файл демонстрировал все три стиля спарклайнов одновременно.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Шаг 2: Заполнение образца данных в строке 1 (A1:E1)
@@ -170,11 +174,11 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Шаг 3: Добавление группы спарклайнов «Линия» в F1
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
 // Настройка цвета спарклайна «Линия» через CellsColor
 let lineColor = workbook.createCellsColor();
@@ -182,11 +186,11 @@ lineColor.setColor(AsposeCells.Color.getBlue());
 lineGroup.setSeriesColor(lineColor);
 // Шаг 4: Добавление группы спарклайнов «Столбец» в F2
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(5);
-columnArea.setEndColumn(5);
-columnArea.setStartRow(1);
-columnArea.setEndRow(1);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 5;
+columnArea.EndColumn = 5;
+columnArea.StartRow = 1;
+columnArea.EndRow = 1;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
 // Настройка цвета серии спарклайна «Столбец»
 let columnColor = workbook.createCellsColor();
@@ -194,11 +198,11 @@ columnColor.setColor(AsposeCells.Color.getGreen());
 columnGroup.setSeriesColor(columnColor);
 // Шаг 5: Добавление группы спарклайнов «Выигрыш/Проигрыш» (Стопочная) в F3
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(5);
-stackedArea.setEndColumn(5);
-stackedArea.setStartRow(2);
-stackedArea.setEndRow(2);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 5;
+stackedArea.EndColumn = 5;
+stackedArea.StartRow = 2;
+stackedArea.EndRow = 2;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
 // Настройка цвета серии спарклайна «Выигрыш/Проигрыш»
 let stackedColor = workbook.createCellsColor();
@@ -217,4 +221,4 @@ workbook.save("output_all.xlsx");
 - **Маркеры первой/последней/отрицательной точек** — флаги, переключающие маркеры на первой, последней и отрицательной точках данных.
 Чтобы изменить цвет, всегда создавайте экземпляр `CellsColor` и присваивайте его соответствующему свойству. Не присваивайте `java.awt.Color` напрямую свойствам цвета спарклайна — они ожидают тип `CellsColor` из `com.aspose.cells.Drawing`. Сам метод `SparklineGroups.add` возвращает полностью типизированный объект `SparklineGroup`, поэтому можно либо объединять присваивания свойств в цепочку на возвращаемом значении, либо сохранить его в локальную переменную и настроить перед сохранением.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

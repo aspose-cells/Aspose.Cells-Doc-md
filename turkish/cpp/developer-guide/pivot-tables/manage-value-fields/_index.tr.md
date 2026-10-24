@@ -80,9 +80,8 @@ Veri bölgesine yerleştirilen her alan dahili olarak bir `PivotField` örneği 
 
 {{% alert color="primary" %}}
 `Function` özelliğini değiştirmek yalnızca toplamayı etkiler, kaynak sütun değişmez.
-{{% /alert %}}
-
 Bu nedenle tek bir pivot içinde, bir veri alanını `Sum` olarak bırakırken aynı kaynak sütunu hedefleyen ancak `Count` veya `Average` kullanan ikinci bir veri alanı ekleyebilirsiniz.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>
@@ -116,9 +115,8 @@ Bir pivot tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `Piv
 
 {{% alert color="primary" %}}
 Hiç değer alanı yoksa veya yalnızca bir tane varsa `PivotTable.ValuesField` çalışmaz.
-{{% /alert %}}
-
 Aşağıdaki senaryolar, aynı pivot yapısı üzerinde yukarıda açıklanan her yeteneği gösteren üç uçtan uca örneği ele alır.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>

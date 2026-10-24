@@ -36,7 +36,7 @@ Aspose.Cells for Python via Java 支持以三种不同方式转置（旋转）�
 `Range.transpose()` 是 `com.aspose.cells.Range` 类的一个实例方法。调用它可就地翻转区域，交换其行和列，使原本作为行的内容变为列，原本作为列的内容变为行。该方法直接修改底层单元格而不写入任何公式。
 
 ### **步骤**
-1. 通过调用 `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` 打开源工作簿，并将 `LoadOptions` 设置为 `.xlsx` 格式。
+1. 通过调用 `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` 打开源工作簿，并将 `LoadOptions` 设置为 `.xlsx` 格式。
 2. 使用 `workbook.getWorksheets().get(0)` 从工作簿中获取第一个工作表。
 3. 通过 `worksheet.getCells()` 访问工作表的单元格集合。
 4. 通过调用 `cells.createRange("A1:D5")` 创建覆盖 **A1:D5** 的源区域。
@@ -48,11 +48,10 @@ Aspose.Cells for Python via Java 支持以三种不同方式转置（旋转）�
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, LoadOptions, LoadFormat
 srcFile = "source.xlsx"
 outputFile = "transposed.xlsx"
-loadOptions = LoadOptions(LoadFormat.Xlsx)
+loadOptions = LoadOptions(LoadFormat.XLSX)
 workbook = Workbook(srcFile, loadOptions)
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
@@ -69,7 +68,7 @@ jpype.shutdownJVM()
 `Cell.setDynamicArrayFormula(String formula, FormulaParseOptions options, boolean calculateValue)` 是 `com.aspose.cells.Cell` 上的一个方法，用于将单元格的公式设置为 **动态数组公式**。Excel 对该公式仅求值一次，并自动将结果溢出到周围的单元格中。第三个参数设置为 `True` 时，指示 Aspose.Cells 在写入时也计算结果值。
 
 ### **步骤**
-1. 使用 `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` 加载源工作簿。
+1. 使用 `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` 加载源工作簿。
 2. 获取第一个工作表并访问其 `Cells` 集合。
 3. 通过调用 `cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", None, True)` 将动态数组公式放在源区域正下方的单元格 **A6** 上。
 4. `None` 参数传入默认的 `FormulaParseOptions`，第三个参数 `True` 告诉 Aspose.Cells 将该公式视为动态数组并对其求值，以便将溢出值写入工作簿。
@@ -84,16 +83,15 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, LoadOptions, LoadFormat, FormulaParseOptions, SaveFormat
 # 移植代码如下
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
 cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", FormulaParseOptions(), True)
-workbook.save(outFile, SaveFormat.Xlsx)
+workbook.save(outFile, SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -118,11 +116,10 @@ CSE 数组公式是 Excel 求值 `TRANSPOSE` 表达式的经典方式，此方�
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, LoadOptions, LoadFormat, Worksheet, Cells
 # 使用 xlsx LoadOptions 加载源工作簿
 srcFile = "source.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 # 访问第一个工作表及其单元格集合
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()

@@ -54,10 +54,9 @@ workbook.save(fileName);
 
 {{% alert color="primary" %}}
 日付フィルタは、行または列領域に日時セルまたは空白値のみが含まれている場合にのみ機能します。基になるフィールドに数値やテキストなどの他のデータ型が含まれている場合、日付フィルタは期待された結果を生成しません。このフィルタを適用する前に、フィールドが日付として書式設定されており、すべての値が有効な `DateTime` インスタンスまたは空のセルであることを確認してください。
-{{% /alert %}}
-
 Aspose.Cells は、日付フィルタリングを `PivotField.filterByDate(PivotFilterType, params DateTime[] values)` メソッドを通じて公開しています。`PivotFilterType` 列挙型には、`Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear`、`Between` などの専用の日付値が含まれます。選択したフィルタタイプに応じて、1つまたは2つの `DateTime` 値を渡します（`Between` の場合は開始日と終了日を渡します）。
 次の例では、行領域に日付フィールドを含むピボットテーブルを持つワークブックを読み込み、特定の日付範囲に表示されるアイテムを制限する日付フィルタを適用し、ピボットテーブルを更新してワークブックを保存します。
+{{% /alert %}}
 
 ```java
 import java.io.File;
@@ -123,10 +122,9 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 トップ10フィルタは、データ領域に1つ以上の値ピボットフィールドがある場合にのみ有効です。少なくとも1つの値フィールドがないと、アイテムのランク付けに使用する集計された指標がなく、フィルタを適用できません。
-{{% /alert %}}
-
 Aspose.Cells は、トップ10フィルタリングを `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)` メソッドを通じて公開しています。`itemCount` パラメータは保持するアイテムの数を定義し、`isTop` は上位アイテムを保持する（true）か下位アイテムを保持するか（false）を示し、`valueField` はランク付けに使用されるデータフィールドを参照し、`filterType` は値の計算方法を制御します（通常は `Sum` ですが、`Count` や `Percent` も可能です）。
 次の例では、値フィールドを含むピボットテーブルを持つワークブックを読み込み、売上の合計による上位10個のアイテムのみを保持するトップ10フィルタを適用し、ピボットテーブルを更新してワークブックを保存します。
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -153,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (上位N件; falseの場合は下位N件)
 //   - valueFieldIndex = アイテムのランク付けに使用されるデータフィールドのインデックス
-rowField.filterTop10(10, PivotFilterType.SUM, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
 // ピボットテーブルのデータを更新し、フィルターが適用されるように再計算する
 pivotTable.refreshData();
 // ワークブックを保存する
@@ -180,12 +178,12 @@ for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.getPivotItems().get(i);
     // 特定の名前/条件に一致するピボット項目を非表示にする
-    if (item.getName() == "Item1" || item.getName() == "Item2")
+    if (item.getName().equals("Item1") || item.getName().equals("Item2"))
     {
         item.setHidden(true);
     }
     // 再表示のデモ：以前に非表示にしたピボット項目を再度表示する
-    if (item.getName() == "Item3")
+    if (item.getName().equals("Item3"))
     {
         item.setHidden(false);
     }

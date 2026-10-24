@@ -32,11 +32,10 @@ To create a pivot table using Aspose.Cells, please follow the steps below:
 
 {{% alert color="primary" %}}
 When assigning a range of cells as the data source, the range must be set from the top left to the bottom right. For example, "A1:C3" is valid; "C3:A1" is invalid.
-{{% /alert %}}
-
 The code example below shows how to create a simple pivot table following the basic steps listed above. When executing the code, a pivot table is added to the worksheet:
 **Creating a pivot table based on a corresponding field**
 ![todo:image_alt_text](create-pivot-table_1.png)
+{{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
 

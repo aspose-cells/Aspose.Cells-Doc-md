@@ -202,6 +202,15 @@ workbook.Save("output_custom.xlsx");
 
 ## **Resumen**
 
+Los tres escenarios difieren únicamente en las llamadas a `SetSubtotals`. Todo lo demás —el conjunto de datos, los campos y las áreas a las que se asignan— es idéntico, lo que permite una comparación directa entre los diseños.
+- **Colocación de campos.** `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` mueve una columna de origen a una región. Dentro de una misma región, el orden de las llamadas determina el orden de visualización; por lo tanto, la primera llamada genera el grupo más externo. Para calcular subtotales se requieren dos o más campos en la misma región: con un único campo no existe ningún elemento entre los grupos sobre el cual calcular el subtotal.
+- **Escenario 1 — subtotales automáticos.** Si se omite la llamada a `SetSubtotals`, Excel decide automáticamente aplicar su subtotal predeterminado a los campos numéricos. Llamar a `SetSubtotals` con `PivotFieldSubtotalType.Automatic` registra explícitamente dicha decisión, en lugar de dejarla implícita.
+- **Escenario 2 — sin subtotales.** `SetSubtotals` con `PivotFieldSubtotalType.None` desactiva el subtotal predeterminado, de modo que la tabla dinámica conserva las filas de campos y el total general, pero omite las filas de subtotal que de otro modo Excel insertaría entre ellas.
+- **Escenario 3 — un subconjunto seleccionado.** Cada llamada activa o desactiva exactamente un tipo de subtotal, y las llamadas se acumulan en lugar de anularse mutuamente. Por lo tanto, llamarlo una vez con `PivotFieldSubtotalType.Sum` y otra vez con `PivotFieldSubtotalType.Average` deja ambos habilitados, y la tabla dinámica muestra un subtotal de `Sum`, un subtotal de `Average` y el total general.
+
+{{% alert color="primary" %}}
+Nada en lo relativo a los subtotales es específico de la región de fila. Las mismas llamadas a `SetSubtotals` aplicadas a un campo obtenido de `PivotTable.ColumnFields` producen los mismos tres diseños en el eje de columna, puesto que la configuración pertenece al campo dinámico y no al eje en el que se ubica.
+{{% /alert %}}
 ## **Artículos relacionados**
 - [Campos de página en tablas dinámicas](/cells/es/net/add-page-field-in-pivot-table/)
 - [Actualizar tablas dinámicas en Aspose.Cells for .NET](/cells/es/net/refresh-pivot-table/)

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, çalışma sayfası hücrelerinin içine mini grafikler oluşturmayı destekler. Mini grafikler, tek bir hücreye sığan ve veri eğilimlerinin hızlı bir görsel temsilini sağlayan küçük grafiklerdir. Aspose.Cells; çizgi, sütun ve kazanma/kayıp mini grafiklerini destekler ve her biri renk, çizgi kalınlığı, en yüksek/düşük noktalar ve işaretleyiciler açısından özelleştirilebilir.
+{{% /alert %}}
 
 ## **Giriş**
 Mini grafikler, bir satır veya sütun dolusu verinin yanında tam bir grafiğin kapladığı alanı kaplamadan hızlı bir eğilim göstermek istediğinizde kullanışlı olan, hücre içi küçük grafiklerdir. Excel üç tür mini grafiği destekler: **çizgi**, **sütun** ve **kazanma/kayıp**. Aspose.Cells, `Aspose.Cells.Charts` ad alanında bulunan `SparklineGroup` ve `SparklineGroupCollection` API'leri aracılığıyla bu yeteneği birebir yansıtır.
@@ -29,43 +30,36 @@ Bu makale, Aspose.Cells tarafından desteklenen üç mini grafik türünün — 
 Aşağıdaki örnek bir çalışma kitabı oluşturur, A1'den E1'e kadar olan hücrelere 5, -3, 8, -2, 6 değerlerini yazar ve bu değerleri izleyen bir çizgi mini grafiğini F1 hücresine ekler. Ayrıca çizgi rengini kırmızı olarak özelleştirir ve en yüksek ve en düşük noktalar için işaretleyicileri etkinleştirir.
 
 ```java
-public class CodeRunner {
-    public static void main(String[] args) {
-        try {
-            // Adım 1: Bir Workbook oluşturun ve ilk çalışma sayfasını alın
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.getWorksheets().get(0);
-            Cells cells = worksheet.getCells();
-            // Adım 2: A1:E1 hücrelerine 5, -3, 8, -2, 6 örnek değerlerini yazın
-            cells.get("A1").putValue(5);
-            cells.get("B1").putValue(-3);
-            cells.get("C1").putValue(8);
-            cells.get("D1").putValue(-2);
-            cells.get("E1").putValue(6);
-            // Adım 3: Hedef hücre F1'i gösteren bir CellArea oluşturun
-            CellArea dest = new CellArea();
-            dest.StartColumn = 5;   // F sütunu (0-indeksli)
-            dest.EndColumn = 5;
-            dest.StartRow = 0;      // 1. satır (0-indeksli)
-            dest.EndRow = 0;
-            // Adım 4: A1:E1'den F1'e bir Çizgi sparkline ekleyin
-            // SparklineGroups.add, yeni eklenen grubun indeksini döndürür
-            int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
-            SparklineGroup group = worksheet.getSparklineGroups().get(index);
-            // Adım 5: Kırmızı bir CellsColor oluşturun ve sparkline çizgi rengine atayın
-            CellsColor red = workbook.createCellsColor();
-            red.setColor(com.aspose.cells.Color.getRed());
-            group.setSeriesColor(red);
-            // Adım 6: Yüksek nokta ve düşük nokta işaretleyicilerini etkinleştirin
-            group.setShowHighPoint(true);
-            group.setShowLowPoint(true);
-            // Adım 7: Workbook'u kaydedin
-            workbook.save("output_line.xlsx");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
+import com.aspose.cells.*;
+// Adım 1: Bir Workbook oluşturun ve ilk çalışma sayfasını alın
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+Cells cells = worksheet.getCells();
+// Adım 2: A1:E1 hücrelerine 5, -3, 8, -2, 6 örnek değerlerini yazın
+cells.get("A1").putValue(5);
+cells.get("B1").putValue(-3);
+cells.get("C1").putValue(8);
+cells.get("D1").putValue(-2);
+cells.get("E1").putValue(6);
+// Adım 3: Hedef hücre F1'i gösteren bir CellArea oluşturun
+CellArea dest = new CellArea();
+dest.StartColumn = 5;   // F sütunu (0-indeksli)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // 1. satır (0-indeksli)
+dest.EndRow = 0;
+// Adım 4: A1:E1'den F1'e bir Çizgi sparkline ekleyin
+// SparklineGroups.add, yeni eklenen grubun indeksini döndürür
+int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
+SparklineGroup group = worksheet.getSparklineGroups().get(index);
+// Adım 5: Kırmızı bir CellsColor oluşturun ve sparkline çizgi rengine atayın
+CellsColor red = workbook.createCellsColor();
+red.setColor(com.aspose.cells.Color.getRed());
+group.setSeriesColor(red);
+// Adım 6: Yüksek nokta ve düşük nokta işaretleyicilerini etkinleştirin
+group.setShowHighPoint(true);
+group.setShowLowPoint(true);
+// Adım 7: Workbook'u kaydedin
+workbook.save("output_line.xlsx");
 ```
 
 ## **Sütun Mini Grafikleri**
@@ -89,10 +83,10 @@ for (int i = 0; i < values.length; i++) {
 }
 // F1 hücresini işaret eden bir CellArea oluştur (sütun indeksi 5, satır indeksi 0)
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Hedef hücreye bir Sütun sparkline ekle
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
@@ -115,9 +109,6 @@ Aspose.Cells'de bir kazanma/kayıp mini grafiği, `SparklineType.STACKED` değer
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.charts.*;
-import com.aspose.cells.drawing.*;
-import java.awt.Color;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -129,10 +120,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // F1'e (5. sütun, 0. satır) işaret eden bir CellArea oluştur
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Bir Kazanma/Kayıp mini grafik ekle (SparklineType.Stacked)
 int groupIndex = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(groupIndex);
@@ -142,19 +133,19 @@ group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
 // Yüksek nokta rengini yeşil olarak ayarla
 CellsColor highColor = workbook.createCellsColor();
-highColor.setColor(Color.GREEN);
+highColor.setColor(Color.getGreen());
 group.setHighPointColor(highColor);
 // Düşük nokta rengini kırmızı olarak ayarla
 CellsColor lowColor = workbook.createCellsColor();
-lowColor.setColor(Color.RED);
+lowColor.setColor(Color.getRed());
 group.setLowPointColor(lowColor);
 // Negatif nokta rengini turuncu olarak ayarla
 CellsColor negColor = workbook.createCellsColor();
-negColor.setColor(Color.ORANGE);
+negColor.setColor(Color.getOrange());
 group.setNegativePointsColor(negColor);
 // Varsayılan seri rengini ayarla (pozitif çubuklar için kullanılır)
 CellsColor seriesColor = workbook.createCellsColor();
-seriesColor.setColor(new Color(70, 130, 180)); // SteelBlue yaklaşımı
+seriesColor.setColor(Color.fromArgb(70, 130, 180)); // SteelBlue yaklaşımı
 group.setSeriesColor(seriesColor);
 // Çalışma kitabını kaydet
 workbook.save("output_winloss.xlsx");
@@ -211,6 +202,5 @@ Bir `SparklineGroup` oluşturulup `worksheet.getSparklineGroups()` koleksiyonuna
 - **En Yüksek/Düşük nokta işaretleyicileri** — en yüksek ve en düşük veri noktalarında küçük işaretleyicileri açan, uç değerleri vurgulamak için kullanışlı bayraklar.
 - **İlk/Son/Negatif nokta işaretleyicileri** — ilk, son ve negatif veri noktalarındaki işaretleyicileri açıp kapatan bayraklar.
 Bir rengi değiştirmek için her zaman bir `CellsColor` örneği oluşturun ve bunu ilgili özelliğe atayın. Mini grafik renk özelliklerine doğrudan bir `java.awt.Color` atamayın — bu özellikler `Aspose.Cells.Drawing` ad alanındaki `CellsColor` türünü bekler. `add` yönteminin kendisi tam tür belirtilmiş bir `SparklineGroup` nesnesi döndürür; böylece özellik atamalarını dönüş değeri üzerinde zincirleyebilir ya da döndürülen nesneyi yerel bir değişkende saklayıp kaydetmeden önce özelleştirebilirsiniz.
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

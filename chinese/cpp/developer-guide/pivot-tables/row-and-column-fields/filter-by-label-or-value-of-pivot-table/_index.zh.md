@@ -32,6 +32,7 @@ Aspose.Cells 通过 `PivotField.FilterByLabel(PivotFilterType, const char16_t*)`
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     U16String fileName(u"sample.xlsx");
@@ -60,10 +61,9 @@ int main() {
 
 {{% alert color="primary" %}}
 日期筛选仅在行区域或列区域仅包含日期时间单元格或空值时才有效。如果底层字段包含其他数据类型（如数字或文本），日期筛选将无法产生预期结果。在应用此筛选之前，请确保字段格式设置为日期，并且所有值都是有效的 `DateTime` 实例或空单元格。
-{{% /alert %}}
-
 Aspose.Cells 通过 `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)` 方法公开日期筛选功能。`PivotFilterType` 枚举包含专门的日期值，例如 `Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear` 和 `Between`。根据所选的筛选类型，您传入一个或两个 `DateTime` 值（对于 `Between`，传入起始日期和结束日期）。
 下面的示例加载一个数据透视表的行区域中包含日期字段的工作簿，应用日期筛选将可见项限制在特定日期范围内，刷新数据透视表，并保存工作簿。
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -111,6 +111,7 @@ Aspose.Cells 通过 `PivotField.FilterByValue(PivotField valueField, PivotFilter
 #include "Aspose.Cells.h"
 #include <cfloat>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb(u"sample.xlsx");
@@ -144,10 +145,9 @@ int main() {
 
 {{% alert color="primary" %}}
 前 10 筛选仅在数据透视表的数据区域中具有一个或多个值数据透视字段时才有效。如果没有至少一个值字段，则没有可用来对项进行排名的聚合度量，筛选将无法应用。
-{{% /alert %}}
-
 Aspose.Cells 通过 `PivotField.FilterTop10(int32_t itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)` 方法公开前 10 筛选功能。`itemCount` 参数定义要保留的项数，`isTop` 指示是保留顶部项（true）还是底部项（false），`valueField` 引用用于排名的数据字段，`filterType` 控制如何计算值（通常为 `Sum`，也可以是 `Count` 和 `Percent`）。
 下面的示例加载一个包含具有值字段的数据透视表的工作簿，应用前 10 筛选仅保留按销售额总和排名的最高 10 项，刷新数据透视表，并保存工作簿。
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -182,6 +182,7 @@ int main() {
 #include "Aspose.Cells.h"
 #include <string>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // 加载包含数据透视表的现有工作簿

@@ -41,10 +41,10 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
 workbook.save("output_drag.xlsx");
 ```
@@ -54,9 +54,8 @@ Ogni campo posizionato nell'area dati viene incapsulato internamente come istanz
 
 {{% alert color="primary" %}}
 La modifica di `Function` influisce solo sull'aggregato, la colonna di origine non cambia.
-{{% /alert %}}
-
 È quindi possibile lasciare un campo dati come `SUM` mentre si aggiunge un secondo campo dati che fa riferimento alla stessa colonna di origine ma utilizza `COUNT` o `AVERAGE`, il tutto in un'unica tabella pivot.
+{{% /alert %}}
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -84,12 +83,12 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.COUNT);
 pivotTable.calculateData();
 workbook.save("output_function.xlsx");
 ```
@@ -99,9 +98,8 @@ Quando una tabella pivot contiene due o più campi dati, Aspose.Cells espone un 
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` non funziona se non è presente alcun campo valore o se ne è presente solo uno.
-{{% /alert %}}
-
 Gli scenari seguenti illustrano tre esempi end-to-end che dimostrano ciascuna capacità descritta sopra sulla stessa struttura di tabella pivot.
+{{% /alert %}}
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -129,15 +127,15 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.Count);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, pivotTable.getValuesField());
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.getDataFields().get(1).setFunction(AsposeCells.ConsolidationFunction.COUNT);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, pivotTable.getValuesField());
 pivotTable.calculateData();
 workbook.save("output_plot.xlsx");
 ```
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

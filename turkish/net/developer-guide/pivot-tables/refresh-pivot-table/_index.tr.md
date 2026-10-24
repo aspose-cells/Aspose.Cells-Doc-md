@@ -24,11 +24,10 @@ Dört katmanlı veri zinciri şunlardır:
 
 {{% alert color="primary" %}}
 `PivotCache.SourceType` (enum `PivotTableSourceType`), önbellek verilerinin nereden geldiğini gösterir. v26.7 itibarıyla, `PivotCache.Refresh()` yalnızca **`Sheet`** ve **`Consolidation`** kaynak türlerini destekler; yani çalışma sayfası aralıklarında bulunan verileri. Dış kaynaklar (veritabanları, dış bağlantılar vb.) henüz önbellek API'si aracılığıyla yenilenemez.
-{{% /alert %}}
-
 Bu zincir nedeniyle, Aspose.Cells'te iki temel yenileme yolu vardır:
 - **`PivotTable.CalculateData()`** — veri kaynağına geri dönmeden, zaten önbelleğe alınmış verilerden tek bir `PivotTable`'ın görüntüsünü yeniden hesaplar.
 Bu makaledeki tüm senaryolar çalışma sayfası hücre kaynağı verilerini kullanır; dolayısıyla kaynak türü `Sheet`'tir ve yenileme işlemleri açıklandığı şekilde çalışır.
+{{% /alert %}}
 
 ## Hızlı Başlangıç
 Çalışma kitabındaki her pivot tablosunu yenileyen mümkün olan en kısa koda ihtiyacınız varsa, tek bir çağrı yeterlidir:

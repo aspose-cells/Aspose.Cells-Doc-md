@@ -31,6 +31,7 @@ Följande exempel laddar en ny arbetsbok, fyller i exempeldata för Fruit/Year/A
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Skapa en ny arbetsbok
@@ -86,9 +87,19 @@ int main() {
 
 ## **Tillämpa en modern namngiven förinställd pivottabellstil**
 
+`SetPivotTableStyleType` väljer en av de inbyggda namngivna stilar som Excel 2007 introducerade för pivottabeller. `PivotTableStyleType`-uppräkningen erbjuder tre temafamiljer: ljusfamiljen från `PivotTableStyleLight1` till `PivotTableStyleLight28`, mediumfamiljen från `PivotTableStyleMedium1` till `PivotTableStyleMedium28` och mörkfamiljen från `PivotTableStyleDark1` till `PivotTableStyleDark28`. Den definierar också `None` och `Custom`. De inläsningsmässigt högre värdena i varje familj är de stilar som lades till i Excel 2017.
+Dessa förinställningar är skrivskyddade. Så snart du behöver ändra färger, linjer eller typsnitt utöver vad en förinställning tillåter, måste du i stället definiera en anpassad pivottabellsstil, enligt hur det visas i [Scenario 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**Varför de moderna förinställningarna och inte rapportseriens automatiska format?** Värdena `Report1` till `Report10` och `Table1` till `Table10` i `PivotTableAutoFormatType` är äldre än pivottabellens kolumnfält, så de innehåller ingen formatering för kolumnfältshuvuden, vilket innebär att Excel visar dessa huvuden utan formatering. `PivotTableStyleType`-förinställningarna designades för den tvådimensionella layout som den moderna Excel använder och formaterar både radfält- och kolumnfältshuvuden.
+{{% /alert %}}
+
+Det här scenario återanvänder datasetet för Fruit/Year/Amount från scenario 1, lägger till `Year` i kolumnområdet bredvid radfältet `Fruit` via `PivotFieldType::Column`, tillämpar mörktematsförinställningen `PivotTableStyleDark1` med `SetPivotTableStyleType` och sparar resultatet som `.xlsx` — det format för vilket `PivotTableStyleType` har betydelse.
+
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -135,7 +146,6 @@ int main() {
     return 0;
 }
 ```
-
 ## **Definiera och tillämpa en anpassad pivottabellstil**
 De inbyggda förinställningarna kan inte modifieras. När du behöver åsidosätta färger, kanter eller typsnitt måste du definiera en anpassad pivotstil. Arbetsflödet har tre steg:
 1. Lägg till en anpassad stil i arbetsbokens `TableStyles`-samling via `Worksheets.TableStyles.AddPivotTableStyle(string name)`. Detta returnerar indexet för den nyskapade stilen.
@@ -144,14 +154,14 @@ De inbyggda förinställningarna kan inte modifieras. När du behöver åsidosä
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` och `PivotTableStyleType` är inte utbytbara. Använd `PivotTableStyleType` för inbyggda förinställningar, och `PivotTableStyleName` för anpassade stilar som du har definierat via `AddPivotTableStyle`. Att sätta båda är ofarligt, men endast den som matchar den avsedda källan renderas.
-{{% /alert %}}
-
 De tillgängliga `TableStyleElementType`-värdena inkluderar `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels`, och `PageFieldValues`.
 Följande exempel definierar en anpassad pivotstil med en tunn svart kant på `WholeTable` och ett fetstilt rött typsnitt på `GrandTotalRow`, tillämpar den sedan via `PivotTableStyleName` och sparar som `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -230,9 +240,8 @@ int main() {
 
 {{% alert color="primary" %}}
 `FormatAll` åsidosätter både `PivotTableStyleType` och `PivotTableStyleName`. Använd det endast när ett enhetligt, temaoberoende utseende krävs över hela pivoten.
-{{% /alert %}}
-
 Följande exempel skapar en `Style` med gul solid fyllning, ett fetstilt mörkblått typsnitt och tunna svarta kanter på alla sidor, tillämpar den sedan med `FormatAll` och sparar som `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"

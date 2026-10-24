@@ -39,6 +39,9 @@ Alla åtta rader fylls i i varje kodexempel, i identisk ordning, så att källda
 I det första scenariot konfigurerar vi de två sidfälten (`Year`, `Region`) så att de visas **sida vid sida i en enda rad** högst upp i pivottabellen. Vi tilldelar `Fruit` till radaxeln, placerar `Year` först och `Region` sedan på sidaxeln (ordningen på `addFieldToArea`-anropen avgör startindexet), lägger till `Amount` (Summa) som datafält och anger sedan `pageFieldOrder` till `PrintOrderType.OverThenDown` med `pageFieldWrapCount = 2`. Med `OverThenDown` och ett radbrytningsantal på 2 läggs de två sidfälten ut horisontellt sida vid sida i en enda rad högst upp i pivottabellen, så att remsan upptar en rad med bredden två.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
+const path = require("path");
 let dataDir = "output";
 if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
@@ -119,7 +122,7 @@ workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 I det här exemplet placerar vi `Fruit` på radaxeln, `Year` och `Region` på sidaxeln (med `Year` först) och `Amount` (Summa) som datafält – exakt som i Exempel 1. Vi anger sedan `pageFieldOrder` till `PrintOrderType.DownThenOver` och `pageFieldWrapCount` till `2`. Med `DownThenOver` och ett radbrytningsantal på 2 staplas de två sidfälten vertikalt – `Year` överst, `Region` direkt under – och bildar en enda kolumn högst upp i pivottabellen. Remsan upptar därför två rader med bredden ett, i motsats till Exempel 1.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
@@ -146,10 +149,10 @@ for (let r = 0; r < data.length; r++) {
 }
 const idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
 const pivotTable = pivotReport.getPivotTables().get(idx);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 3);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DownThenOver);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.calculateData();
@@ -160,7 +163,7 @@ workbook.save("pageFieldLayout_downThenOver.xlsx");
 I det tredje scenariot behåller vi denna datamängd och fälttilldelning, anger en neutral layout (`OverThenDown` med radbrytningsantal `2`) och demonstrerar sedan `pageFields.move`-operationen. Anropet `move(0, 1)` flyttar sidfältet på index 0 (`Year`) till position 1, och sidfältet som var på position 1 (`Region`) flyttas till position 0. Efter detta anrop är `Region` det första sidfältet och `Year` det andra. Radbrytning och ordningsläge är oförändrade, så remsan renderas fortfarande horisontellt sida vid sida – bara ordningen på de två rullgardinerna har bytts ut.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const dataSheet = workbook.getWorksheets().get(0);
 dataSheet.setName("PivotData");

@@ -31,6 +31,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // إنشاء مصنف جديد
@@ -86,9 +87,19 @@ int main() {
 
 ## **تطبيق نمط جدول محوري مسمى حديث مسبق**
 
+`SetPivotTableStyleType` يختار إحدى الأنماط المدمجة ذات الأسماء التي قدمتها Excel 2007 للجداول المحورية. يعرض تعداد `PivotTableStyleType` ثلاث عائلات من السمات: العائلة الخفيفة من `PivotTableStyleLight1` إلى `PivotTableStyleLight28`، والعائلة المتوسطة من `PivotTableStyleMedium1` إلى `PivotTableStyleMedium28`، والعائلة الداكنة من `PivotTableStyleDark1` إلى `PivotTableStyleDark28`. كما يحدد `None` و`Custom`. إن الأعضاء ذات الأرقام الأعلى في كل عائلة هي الأنماط التي أضافتها Excel 2017.
+هذه الإعدادات المسبقة للقراءة فقط. بمجرد أن تحتاج إلى تغيير الألوان أو الحدود أو الخطوط بما يتجاوز ما توفره الإعداد المسبق، يتعين عليك تعريف نمط جدول محوري مخصص بدلاً من ذلك، كما هو موضح في [السيناريو 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**لماذا الإعدادات المسبقة الحديثة، وليس التنسيقات التلقائية لسلسلة التقارير؟** إن قيم `Report1` إلى `Report10` وقيم `Table1` إلى `Table10` من `PivotTableAutoFormatType` تسبق حقول أعمدة الجداول المحورية، لذا لا تتضمن أي تنسيقات لرؤوس حقول الأعمدة، ويعرض Excel تلك الرؤوس دون تنسيق. صُممت الإعدادات المسبقة `PivotTableStyleType` للتخطيط ثنائي الأبعاد الذي تستخدمه إصدارات Excel الحديثة، وتنسق رؤوس حقول الصفوف وحقول الأعمدة على حد سواء.
+{{% /alert %}}
+
+يستخدم هذا السيناريو مجموعة بيانات Fruit/Year/Amount الخاصة بالسيناريو 1، ويضيف `Year` إلى منطقة الأعمدة إلى جانب حقل الصف `Fruit` عبر `PivotFieldType::Column`، ويطبق الإعداد المسبق الداكن `PivotTableStyleDark1` باستخدام `SetPivotTableStyleType`، ثم يحفظ النتيجة بصيغة `.xlsx` — وهي الصيغة التي يكون `PivotTableStyleType` فيها ذا معنى.
+
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -135,7 +146,6 @@ int main() {
     return 0;
 }
 ```
-
 ## **تعريف وتطبيق نمط جدول محوري مخصص**
 لا يمكن تعديل الإعدادات المسبقة المضمنة. كلما احتجت إلى تجاوز الألوان أو الحدود أو الخطوط، يجب عليك تعريف نمط جدول محوري مخصص. تتكون سير العمل من ثلاث خطوات:
 1. أضف نمطًا مخصصًا إلى مجموعة `TableStyles` في المصنف عبر `Worksheets.TableStyles.AddPivotTableStyle(string name)`. يُرجع ذلك فهرس النمط الذي تم إنشاؤه حديثًا.
@@ -144,14 +154,14 @@ int main() {
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` و`PivotTableStyleType` ليسا قابلين للتبديل. استخدم `PivotTableStyleType` للإعدادات المسبقة المضمنة، واستخدم `PivotTableStyleName` للأنماط المخصصة التي قمت بتعريفها من خلال `AddPivotTableStyle`. تعيين كليهما غير ضار، ولكن فقط الإعداد المطابق للمصدر المطلوب هو الذي يتم عرضه.
-{{% /alert %}}
-
 تتضمن قيم `TableStyleElementType` المتاحة `WholeTable`، و`FirstRow`، و`LastRow`، و`FirstColumn`، و`LastColumn`، و`GrandTotalRow`، و`GrandTotalColumn`، و`PageFieldLabels`، و`PageFieldValues`.
 يعرف المثال التالي نمط جدول محوري مخصص بحد أسود رفيع على `WholeTable` وخط أحمر عريض على `GrandTotalRow`، ثم يطبقه عبر `PivotTableStyleName` ويحفظ بصيغة `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -230,9 +240,8 @@ int main() {
 
 {{% alert color="primary" %}}
 يتجاوز `FormatAll` كلًا من `PivotTableStyleType` و`PivotTableStyleName`. استخدمه فقط عندما يكون مطلوبًا مظهر موحد ومستقل عن الثيمة عبر الجدول المحوري بأكمله.
-{{% /alert %}}
-
 ينشئ المثال التالي `Style` بتعبئة صلبة باللون الأصفر وخط عريض بلون أزرق داكن وحواف سوداء رفيعة على جميع الجوانب، ثم يطبقه باستخدام `FormatAll` ويحفظ بصيغة `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"

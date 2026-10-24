@@ -36,4 +36,11 @@ Lors de l'attribution d'une plage de cellules en tant que source de données, la
 
 ## **Sujets avancés**
 
+## Articles connexes
+- [Ajouter des champs de filtre à un tableau croisé dynamique dans Aspose.Cells pour .NET](/cells/fr/python-net/add-page-field-in-pivot-table/)
+- [Appliquer des styles aux tableaux croisés dynamiques dans Aspose.Cells for Python via .NET](/cells/fr/python-net/apply-style-to-pivot-table/)
+- [Modify Page Field Layout in Pivot Table](/cells/fr/python-net/change-page-field-layout/)
+- [Filtering Pivot Tables by Label or Value](/cells/fr/python-net/filter-by-label-or-value-of-pivot-table/)
+- [Gérer les champs de valeur d'un tableau croisé dynamique dans Aspose.Cells pour .NET](/cells/fr/python-net/manage-value-fields/)
+
 {{< app/cells/assistant language="python-net" >}}

@@ -36,7 +36,7 @@ Aspose.Cells for Python via .NET поддерживает транспониро
 `range.transpose()` — это метод экземпляра класса `Aspose.Cells.Range`. При его вызове диапазон переворачивается на месте путём обмена его строк и столбцов, так что строка становится столбцом, а столбец — строкой. Метод изменяет базовые ячейки напрямую, не записывая формулу.
 
 ### **Шаги**
-1. Откройте исходную рабочую книгу с помощью `LoadOptions`, установленного в формат `.xlsx`, вызвав `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Откройте исходную рабочую книгу с помощью `LoadOptions`, установленного в формат `.xlsx`, вызвав `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Получите первый рабочий лист из рабочей книги, используя `workbook.worksheets[0]`.
 3. Получите доступ к коллекции ячеек рабочего листа через `worksheet.cells`.
 4. Создайте исходный диапазон, охватывающий **A1:D5**, вызвав `cells.create_range("A1:D5")`.
@@ -63,7 +63,7 @@ workbook.save(outputFile)
 `cell.set_dynamic_array_formula(formula, options, calculate_value)` — это метод `Aspose.Cells.Cell`, который задаёт формулу ячейки как **формулу динамического массива**. Excel вычисляет формулу один раз и автоматически разливает результат в окружающие ячейки. Третий параметр, если он установлен в `True`, указывает Aspose.Cells также вычислить результирующие значения во время записи.
 
 ### **Шаги**
-1. Загрузите исходную рабочую книгу с помощью `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Загрузите исходную рабочую книгу с помощью `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Получите первый рабочий лист и доступ к его коллекции `cells`.
 3. Поместите формулу динамического массива в ячейку **A6**, прямо под исходным диапазоном, вызвав `cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", None, True)`.
 4. Аргумент `None` передаёт `FormulaParseOptions` по умолчанию, а третий аргумент `True` сообщает Aspose.Cells рассматривать формулу как динамический массив и вычислить её, чтобы разлитые значения были записаны в рабочую книгу.
@@ -78,11 +78,11 @@ workbook.save(outputFile)
 import aspose.cells as ac
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
-workbook.save(outFile, ac.SaveFormat.Xlsx)
+cells.get("A6").set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
+workbook.save(outFile, ac.SaveFormat.XLSX)
 ```
 
 ## **Подход 3 — Транспонирование с помощью классической формулы массива (CSE)**
@@ -106,7 +106,7 @@ workbook.save(outFile, ac.SaveFormat.Xlsx)
 import aspose.cells as ac
 # Загружаем исходную рабочую книгу с помощью параметров загрузки xlsx
 srcFile = "source.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 # Получаем доступ к первому рабочему листу и его коллекции Cells
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
@@ -117,7 +117,7 @@ cells = worksheet.cells
 # Aspose.Cells записывает маркер CSE формулы массива, чтобы Excel вычислял её как
 # единую многоячеечную формулу массива, совместимую со старыми версиями Excel
 # (2019, 2016, 2013 и т.д.), которые не поддерживают динамическое распределение массивов.
-cells["A6"].set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
+cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
 # Сохраняем рабочую книгу, чтобы маркер формулы массива был сохранён
 workbook.save("output.xlsx")
 ```

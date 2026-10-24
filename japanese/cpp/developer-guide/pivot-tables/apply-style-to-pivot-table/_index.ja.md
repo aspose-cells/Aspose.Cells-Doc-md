@@ -31,6 +31,7 @@ Aspose.Cells は、ピボットテーブル用の 2 つの並行するスタイ�
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // 新しいワークブックを作成
@@ -86,9 +87,19 @@ int main() {
 
 ## **新しい名前付き定義済みピボットテーブルスタイルを適用する**
 
+`SetPivotTableStyleType` は、Excel 2007 でピボットテーブル用に導入された組み込みの名前付きスタイルから 1 つを選択します。`PivotTableStyleType` 列挙体は、3 つのテーマファミリーを公開します。`PivotTableStyleLight1` から `PivotTableStyleLight28` までのライトファミリー、`PivotTableStyleMedium1` から `PivotTableStyleMedium28` までの中間ファミリー、`PivotTableStyleDark1` から `PivotTableStyleDark28` までのダークファミリーです。また、`None` と `Custom` も定義しています。各ファミリーで番号が大きいメンバーは、Excel 2017 で追加されたスタイルです。
+これらのプリセットは読み取り専用です。プリセットが提供する範囲を超えて、色、罫線、フォントを変更する必要がある場合は、代わりにカスタムピボットスタイルを定義する必要があります。[シナリオ 3](#define-and-apply-a-custom-pivot-table-style) に示すとおりです。
+
+{{% alert color="primary" %}}
+**なぜレポートシリーズの自動書式ではなく、新しいプリセットを使用するのか？** `PivotTableAutoFormatType` の `Report1` から `Report10` まで、および `Table1` から `Table10` までの値は、ピボット列フィールドより古い形式であるため、列フィールドヘッダーにはスタイルが適用されません。Excel はそれらのヘッダーをスタイルなしで表示します。`PivotTableStyleType` のプリセットは、新しい Excel が使用する二次元レイアウト向けに設計されており、行フィールドと列フィールドのヘッダーの両方にスタイルを適用します。
+{{% /alert %}}
+
+このシナリオでは、シナリオ 1 の Fruit/Year/Amount データセットを再利用し、`PivotFieldType::Column` を使用して `Fruit` 行フィールドと並べて `Year` を列エリアに追加し、`SetPivotTableStyleType` によってダークテーマのプリセット `PivotTableStyleDark1` を適用します。結果は `.xlsx` として保存されます。これは `PivotTableStyleType` が意味を持つ形式です。
+
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -135,7 +146,6 @@ int main() {
     return 0;
 }
 ```
-
 ## **カスタムピボットテーブルスタイルを定義して適用する**
 組み込みの定義済みスタイルは変更できません。色、罫線、フォントを上書きする必要がある場合は、必ずカスタムピボットスタイルを定義する必要があります。作業手順は次の 3 つです。
 1. `Worksheets.TableStyles.AddPivotTableStyle(string name)` を使用して、カスタムスタイルをワークブックの `TableStyles` コレクションに追加します。新しく作成されたスタイルのインデックスが返されます。
@@ -144,14 +154,14 @@ int main() {
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` と `PivotTableStyleType` は同じ目的で使用できません。組み込みの定義済みスタイルには `PivotTableStyleType` を使用し、`AddPivotTableStyle` を通じて定義したカスタムスタイルには `PivotTableStyleName` を使用します。両方を設定しても問題ありませんが、実際に適用されるのは、意図したソースに一致する一方だけです。
-{{% /alert %}}
-
 使用できる `TableStyleElementType` の値には、`WholeTable`、`FirstRow`、`LastRow`、`FirstColumn`、`LastColumn`、`GrandTotalRow`、`GrandTotalColumn`、`PageFieldLabels`、`PageFieldValues` があります。
 次の例では、`WholeTable` に細い黒い罫線、`GrandTotalRow` に太字の赤いフォントを指定してカスタムピボットスタイルを定義し、`PivotTableStyleName` を使用して適用して `.xlsx` として保存します。
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -230,9 +240,8 @@ int main() {
 
 {{% alert color="primary" %}}
 `FormatAll` は、`PivotTableStyleType` と `PivotTableStyleName` の両方を上書きします。ピボットテーブル全体で、テーマに依存しない均一な外観が必要な場合にのみ使用してください。
-{{% /alert %}}
-
 次の例では、黄色の単色塗りつぶし、太字の濃紺フォント、すべての辺に細い黒い罫線を持つ `Style` を作成し、`FormatAll` を使用して適用して `.xlsx` として保存します。
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"

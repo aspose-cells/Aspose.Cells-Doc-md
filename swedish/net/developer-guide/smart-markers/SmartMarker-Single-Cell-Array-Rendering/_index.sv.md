@@ -60,6 +60,7 @@ Markören består av följande delar:
 
 {{% alert color="primary" %}}
 Attributet `extraDelimiter` accepterar alla strängliterals, inklusive flerteckenavgränsare, anpassad text eller escape-sekvenser som `\n` för nyradsseparerad utdata. Om matrisen är tom lämnas den resulterande cellen tom.
+{{% /alert %}}
 
 ### **Step-by-Step Workflow**
 Följande arbetsflöde beskriver hur man renderar en matris till en enda cell med hjälp av Smart Markers.
@@ -166,7 +167,6 @@ Tänk på följande punkter när du arbetar med attributen `ArrayAsSingle` och `
 - Om matrisen är tom eller null lämnas cellen tom (eller innehåller en tom sträng beroende på datatyp).
 - Funktionen fungerar med objektdatakällor samt `DataSet`- och `DataTable`-källor där en kolumn kan delas upp i matriser.
 - För nyradsseparerad utdata kan du använda `\n` eller `Environment.NewLine` som avgränsarvärde.
-{{% /alert %}}
 
 ## Related Articles
 - [Lägg till filterfält i en pivottabell i Aspose.Cells for .NET](/cells/sv/net/add-page-field-in-pivot-table/)

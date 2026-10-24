@@ -202,6 +202,19 @@ workbook.Save("output_custom.xlsx");
 ```
 
 ## **小结**
-上述三个场景使用相同的数据集和数据透视表结构。它们之间唯一的区别是对最外层 `Category` 行字段应用的 `SetSubtotals` 调用。请记住两字段规则：区域中单个字段之间没有内容可进行小计，因此当您希望 `SetSubtotals` 产生可见效果时，始终在行或列区域中放置至少两个字段。
 
+这三种情形仅在 `SetSubtotals` 调用上存在差异；其余部分——数据集、字段以及它们被分配到的区域——均完全相同，这使得各布局之间可直接进行对比。
+- **字段放置**：`PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` 用于将源列移入某一区域。在单一区域中，各调用的顺序即为显示顺序，因此首次调用将形成最外层的分组。计算 subtotal 需要同一区域中至少存在两个字段：若仅有一个字段，则组间无任何项目可供计算 subtotal。
+- **情形 1——自动subtotal**：若未调用 `SetSubtotals`，则交由 Excel 自行决定，其将对数值字段应用默认的 subtotal 设置；调用 `SetSubtotals` 并传入 `PivotFieldSubtotalType.Automatic` 则显式记录该默认行为，而非以隐式方式保留。
+- **情形 2——无subtotal**：调用 `SetSubtotals` 并传入 `PivotFieldSubtotalType.None` 将关闭默认的 subtotal 设置，因此数据透视表将保留字段行及总计行，但移除 Excel 原本会在其间插入的 subtotal 行。
+- **情形 3——选定子集**：每次调用仅切换一种 subtotal 类型，且多次调用会累加而非相互覆盖。例如，先以 `PivotFieldSubtotalType.Sum` 调用一次，再以 `PivotFieldSubtotalType.Average` 调用一次，则二者均保持启用状态，数据透视表将呈现 Sum subtotal、Average subtotal 和总计行。
+
+{{% alert color="primary" %}}
+subtotal 相关设置并非仅限于行区域。对从 `PivotTable.ColumnFields` 获取的字段执行相同的 `SetSubtotals` 调用，可在列轴上生成相同的三种布局，因为该设置属于数据透视字段本身，而非其所处的轴。
+{{% /alert %}}
+## **相关文章**
+
+- [数据透视表中的页字段](/cells/zh/net/add-page-field-in-pivot-table/)
+- [在 Aspose.Cells for .NET 中刷新数据透视表](/cells/zh/net/refresh-pivot-table/)
+- [为数据透视表应用样式](/cells/zh/net/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="csharp" >}}

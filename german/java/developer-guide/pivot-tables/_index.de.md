@@ -32,11 +32,10 @@ Um eine Pivot-Tabelle mit Aspose.Cells zu erstellen, befolgen Sie bitte die folg
 
 {{% alert color="primary" %}}
 Beim Zuweisen eines Zellenbereichs als Datenquelle muss der Bereich von links oben nach rechts unten festgelegt sein. Zum Beispiel ist "A1:C3" gültig; "C3:A1" ist ungültig.
-{{% /alert %}}
-
 Das nachfolgende Codebeispiel zeigt, wie man eine einfache Pivot-Tabelle gemäß den oben aufgeführten Grundschritten erstellt. Beim Ausführen des Codes wird eine Pivot-Tabelle dem Arbeitsblatt hinzugefügt:
 **Erstellen einer Pivot-Tabelle basierend auf einem entsprechenden Feld**
 ![todo:image_alt_text](create-pivot-table_1.png)
+{{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
 

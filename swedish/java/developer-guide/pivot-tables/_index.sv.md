@@ -32,11 +32,10 @@ För att skapa en pivot-tabell med Aspose.Cells, följ följande steg:
 
 {{% alert color="primary" %}}
 När du tilldelar en cellintervall som datakälla måste intervallet vara inställt från det översta vänstra till det nedersta högra. Till exempel är "A1:C3" giltigt; "C3:A1" är ogiltigt.
-{{% /alert %}}
-
 Exemplet nedan visar hur man skapar en enkel pivot-tabell enligt de grundläggande stegen som anges ovan. När koden utförs läggs en pivot-tabell till i arbetsbladet:
 **Skapa en pivottabell baserad på ett motsvarande fält**
 ![todo:image_alt_text](create-pivot-table_1.png)
+{{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
 

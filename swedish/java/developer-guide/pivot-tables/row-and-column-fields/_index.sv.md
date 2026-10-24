@@ -196,6 +196,15 @@ workbook.save("output_custom.xlsx");
 
 ## **Sammanfattning**
 
+De tre scenarierna skiljer sig åt i en enda sak: `setSubtotals`-anropen. Allt annat – datamängden, fälten och de områden de tilldelas till – är identiskt, vilket gör att utformningarna kan jämföras direkt.
+- **Placering av fält.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` flyttar en källkolumn till ett område. Inom ett och samma område är anropens ordning den visuella ordningen, så det första anroppet blir det yttre gruppfältet. För subsumtorer krävs två eller fler fält i samma område, eftersom det saknas något att subsumtiera mellan grupperna vid ett ensamt fält.
+- **Scenarie 1 – automatiska subsumtorer.** Om `setSubtotals` inte anropas lämnas valet till Excel, som tillämpar sin egna standardsubsumtor på numeriska fält. Genom att anropa `setSubtotals` med `PivotFieldSubtotalType.AUTOMATIC` registreras detta val explicit istället för att lämnas implicit.
+- **Scenarie 2 – inga subsumtorer.** `setSubtotals` med `PivotFieldSubtotalType.NONE` inaktiverar standardsubsumtorn, så pivottabellen behåller fältrader och totalraden, men utelämnar de subsumtorerader som Excel annars skulle infoga mellan dem.
+- **Scenarie 3 – ett valt urval.** Varje anrop växlar exakt en subsumtotertype, och anropen ackumulerar snarare än återställer varandra. Att anropa den en gång med `PivotFieldSubtotalType.SUM` och en gång med `PivotFieldSubtotalType.AVERAGE` lämnar båda aktiverade, så pivottabellen visar en subsumta för Summa, en subsumta för Medelvärde och en totalrad.
+
+{{% alert color="primary" %}}
+Inget vid subsumtorer är specifikt för radområdet. Samma `setSubtotals`-anrop på ett fält hämtat från `PivotTable.ColumnFields` producerar samma tre utformningar på kolomaxeln, eftersom inställningen tillhör pivottabellfältet snarare än axeln det sitter på.
+{{% /alert %}}
 ## **Relaterade artiklar**
 - [Sidfält i pivottabeller](/cells/sv/java/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells for Java](/cells/sv/java/refresh-pivot-table/)

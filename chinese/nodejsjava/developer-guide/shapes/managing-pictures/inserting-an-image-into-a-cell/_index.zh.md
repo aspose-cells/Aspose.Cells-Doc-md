@@ -37,6 +37,7 @@ Aspose.Cells 通过两种互补的方式支持此场景：
 
 {{% alert color="primary" %}}
 Aspose.Cells 中的行和列索引**从零开始**。单元格 C6 的行索引为 5，列索引为 2。右下角锚定上的差一错误是图片看起来与相邻单元格重叠的最常见原因。
+{{% /alert %}}
 
 ### **控制放置行为**
 `Picture.Placement` 是 `PlacementType` 类型的枚举，用于控制当用户调整底层行或列的大小时图片的行为。对于单个单元格的图片，推荐的值是 `PlacementType.MoveAndSize`，它会使图片随底层单元格一起移动和调整大小，从而保持精确的适配。
@@ -53,7 +54,7 @@ Aspose.Cells 中的行和列索引**从零开始**。单元格 C6 的行索引�
 以下代码演示了完整的实现方式。
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 var picIndex = worksheet.getPictures().add(5, 2, "logo.png");
@@ -62,8 +63,8 @@ picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);
 picture.setLowerRightRow(6);
 picture.setLowerRightColumn(3);
-picture.setPlacement(AsposeCells.PlacementType.MoveAndSize);
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+picture.setPlacement(AsposeCells.PlacementType.MOVE_AND_SIZE);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **方式 2：将图片直接嵌入单元格**
@@ -86,7 +87,7 @@ Aspose.Cells 还为单元格绑定图片提供了一种更简单的机制：`Cel
 以下代码演示了完整的实现方式。
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
@@ -100,7 +101,7 @@ cell.setEmbeddedImage(imageData);
 worksheet.getCells().setColumnWidth(2, 30);   // 列 C（索引 2）
 worksheet.getCells().setRowHeight(5, 100);     // 第 6 行（索引 5）
 // 将生成的工作簿保存为 .xlsx 文件
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **选择合适的方式**
@@ -113,6 +114,5 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 - **在以下情况下使用嵌入图片（方式 2）：**
   - 您希望以最简单的方式将图片插入单元格。
   - 图片应像其他单元格内容一样随单元格一起移动。
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

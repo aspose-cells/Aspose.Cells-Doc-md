@@ -19,7 +19,7 @@ The `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` meth
 Field nesting order matters. Adding `Category` to the row region first and then `Item` produces a pivot whose outer grouping is `Category` and whose inner grouping is `Item`. Reversing the order reverses the hierarchy.
 
 ## **Pivot Field Subtotals**
-The `PivotField.SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` method controls which subtotal rows appear for a pivot field. Each call toggles a single subtotal type independently. Passing `shown = true` displays the subtotal, while `shown = false` hides it. Because each call only affects one type, calling the method multiple times with different `subtotalType` values builds a custom subset of subtotals.
+The `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` method controls which subtotal rows appear for a pivot field. Each call toggles a single subtotal type independently. Passing `shown = true` displays the subtotal, while `shown = false` hides it. Because each call only affects one type, calling the method multiple times with different `subtotalType` values builds a custom subset of subtotals.
 The `PivotFieldSubtotalType` enum defines the available subtotal kinds.
 - `Automatic` — Aspose.Cells chooses the default selection (typically `Sum` for numeric fields)
 - `None` — suppress every subtotal row
@@ -35,13 +35,14 @@ The `PivotFieldSubtotalType` enum defines the available subtotal kinds.
 - `Varp`
 
 {{% alert color="primary" %}}
-Subtotals only render when there are two or more pivot fields in the row region (or in the column region). A single field has nothing meaningful to subtotal between, so `SetSubtotals` calls have no visible effect in that case. This article therefore places two row fields (`Category` outer, `Item` inner) in every example so the subtotal boundary between each `Category` group is visible.
+Subtotals only render when there are two or more pivot fields in the row region (or in the column region). A single field has nothing meaningful to subtotal between, so `setSubtotals` calls have no visible effect in that case. This article therefore places two row fields (`Category` outer, `Item` inner) in every example so the subtotal boundary between each `Category` group is visible.
 {{% /alert %}}
 
 ## **Scenario 1 — Automatic (Default) Subtotals**
-When you do not call `SetSubtotals` at all, Aspose.Cells applies the `Automatic` selection to numeric fields. The following example explicitly confirms this behavior by calling `SetSubtotals(PivotFieldSubtotalType.Automatic, true)` on the outer `Category` row field.
+When you do not call `setSubtotals` at all, Aspose.Cells applies the `Automatic` selection to numeric fields. The following example explicitly confirms this behavior by calling `setSubtotals(PivotFieldSubtotalType.Automatic, true)` on the outer `Category` row field.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -94,10 +95,10 @@ workbook.save("output_automatic.xlsx");
 ```
 
 ## **Scenario 2 — Suppressing All Subtotals (None)**
-Calling `SetSubtotals(PivotFieldSubtotalType.None, true)` removes every subtotal row from the pivot, leaving only the field rows and the grand total at the bottom. This is useful when you want the raw grouped data without any summary rows.
+Calling `setSubtotals(PivotFieldSubtotalType.None, true)` removes every subtotal row from the pivot, leaving only the field rows and the grand total at the bottom. This is useful when you want the raw grouped data without any summary rows.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -133,9 +134,10 @@ workbook.save("output_none.xlsx");
 ```
 
 ## **Scenario 3 — Custom Subtotal Subset (Sum + Average)**
-You are not limited to a single subtotal type. Each `SetSubtotals` call operates independently on one type, so calling the method twice — once with `Sum` and once with `Average` — produces a custom subset of two subtotal rows for each `Category` group.
+You are not limited to a single subtotal type. Each `setSubtotals` call operates independently on one type, so calling the method twice — once with `Sum` and once with `Average` — produces a custom subset of two subtotal rows for each `Category` group.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -191,6 +193,15 @@ workbook.save("output_custom.xlsx");
 
 ## **Recap**
 
+The three scenarios differ in one thing only: the setSubtotals calls. Everything else — the dataset, the fields, and the areas they are assigned to — is identical, which is what makes the layouts directly comparable.
+- **Placing fields.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` moves a source column into a region. Within one region the order of the calls is the display order, so the first call becomes the outermost group. Subtotals need two or more fields in the same region: with a single field there is nothing between the groups to subtotal.
+- **Scenario 1 — automatic subtotals.** Leaving setSubtotals uncalled leaves the choice to Excel, which applies its own default subtotal to numeric fields. Calling setSubtotals with `AsposeCells.PivotFieldSubtotalType.Automatic` records that choice explicitly instead of leaving it implicit.
+- **Scenario 2 — no subtotals.** setSubtotals with `AsposeCells.PivotFieldSubtotalType.None` switches the default subtotal off, so the pivot keeps the field rows and the grand total but drops the subtotal rows Excel would otherwise insert between them.
+- **Scenario 3 — a chosen subset.** Each call toggles exactly one subtotal type, and calls accumulate rather than reset one another. Calling it once with `AsposeCells.PivotFieldSubtotalType.Sum` and once with `AsposeCells.PivotFieldSubtotalType.Average` therefore leaves both enabled, and the pivot renders a Sum subtotal, an Average subtotal, and a grand total.
+
+{{% alert color="primary" %}}
+Nothing about subtotals is specific to the row region. The same setSubtotals calls on a field taken from `PivotTable.ColumnFields` produce the same three layouts on the column axis, because the setting belongs to the pivot field rather than to the axis it sits on.
+{{% /alert %}}
 ## **Related Articles**
 - [Page Fields in Pivot Tables](/cells/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Refreshing Pivot Tables in Aspose.Cells for Node.js via C++](/cells/nodejs-cpp/refresh-pivot-table/)

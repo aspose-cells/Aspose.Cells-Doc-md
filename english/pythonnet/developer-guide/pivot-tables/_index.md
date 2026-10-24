@@ -33,8 +33,6 @@ After executing the example code, a pivot table is added to the worksheet.
 When assigning a range of cells as the data source, the range must go from top left to bottom right. For example, "A1:C3" is valid but "C3:A1" is not.
 {{% /alert %}}
 
-## **Advanced topics**
-
 ## Related Articles
 - [Add Filter Fields to a Pivot Table in Aspose.Cells for Python via .NET](/cells/python-net/add-page-field-in-pivot-table/)
 - [Apply Styles to Pivot Tables in Aspose.Cells for Python via .NET](/cells/python-net/apply-style-to-pivot-table/)

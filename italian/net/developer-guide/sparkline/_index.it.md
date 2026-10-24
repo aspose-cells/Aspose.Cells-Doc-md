@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta la creazione di sparkline all'interno delle celle del foglio di lavoro. Le sparkline sono grafici in miniatura che si adattano a una singola cella, fornendo una rapida rappresentazione visiva degli andamenti dei dati. Aspose.Cells supporta sparkline a linea, a colonna e win/loss, e ciascuna può essere personalizzata per quanto riguarda colore, spessore della linea, punti massimi/minimi e marcatori.
+{{% /alert %}}
 
 ## **Introduzione**
 Le sparkline sono minuscoli grafici all'interno delle celle, utili quando si desidera visualizzare rapidamente un andamento accanto a una riga o colonna di dati senza occupare lo spazio di un grafico completo. Excel supporta tre tipi di sparkline: **linea**, **colonna** e **win/loss**. Aspose.Cells rispecchia questa funzionalità tramite le API `SparklineGroup` e `SparklineGroupCollection` presenti nel namespace `Aspose.Cells.Charts`.
@@ -261,7 +262,6 @@ Una volta che un `SparklineGroup` è stato creato e aggiunto a `worksheet.Sparkl
 - **Marcatori dei punti massimi/minimi** — flag che attivano piccoli marcatori sui punti dati più alti e più bassi, utili per evidenziare gli estremi.
 - **Marcatori dei punti primo/ultimo/negativo** — flag che attivano/disattivano i marcatori sui punti dati primo, ultimo e negativo.
 Per modificare un colore, creare sempre un'istanza di `CellsColor` e assegnarla alla proprietà pertinente. Non assegnare un `System.Drawing.Color` direttamente alle proprietà del colore della sparkline — queste si aspettano il tipo `CellsColor` da `Aspose.Cells.Drawing`. Il metodo `SparklineGroups.Add` stesso restituisce un oggetto `SparklineGroup` completamente tipizzato, quindi è possibile concatenare le assegnazioni di proprietà sul valore restituito o memorizzarlo in una variabile locale e personalizzarlo prima di salvare.
-{{% /alert %}}
 
 ## Articoli Correlati
 - [Convertire Sparkline in Immagine e HTML in Aspose.Cells for .NET](/cells/it/net/convert-sparkline-to-image-and-html/)

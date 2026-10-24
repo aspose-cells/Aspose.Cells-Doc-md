@@ -196,6 +196,15 @@ workbook.save("output_custom.xlsx");
 
 ## **Zusammenfassung**
 
+Die drei Szenarien unterscheiden sich lediglich in den `setSubtotals`-Aufrufen. Alles andere — der Datensatz, die Felder und die Bereiche, denen sie zugeordnet sind — ist identisch, was die Layouts direkt miteinander vergleichbar macht.
+- **Platzieren von Feldern.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` verschiebt eine Quellspalte in einen Bereich. Innerhalb eines Bereichs bestimmt die Reihenfolge der Aufrufe die Anzeigereihenfolge, sodass der erste Aufruf die äußerste Gruppe bildet. Subsummen benötigen zwei oder mehr Felder im selben Bereich: Bei einem einzelnen Feld gibt es zwischen den Gruppen keine Daten, für die eine Subsumme gebildet werden könnte.
+- **Szenario 1 — automatische Subsummen.** Wenn `setSubtotals` nicht aufgerufen wird, trifft Excel die Entscheidung selbst und wendet automatisch seine eigene Standard-Subsumme auf numerische Felder an. Ein Aufruf von `setSubtotals` mit `PivotFieldSubtotalType.AUTOMATIC` dokumentiert diese Entscheidung explizit, anstatt sie implizit zu belassen.
+- **Szenario 2 — keine Subsummen.** Ein Aufruf von `setSubtotals` mit `PivotFieldSubtotalType.NONE` deaktiviert die Standard-Subsumme, sodass das Pivot-Table die Zeilen des Felds und die Gesamtsumme behält, aber die Zwischenseiten mit den Subsummen entfernt, die Excel andernfalls dazwischen einfügen würde.
+- **Szenario 3 — eine ausgewählte Teilmenge.** Jeder Aufruf schaltet genau einen Subsummentyp um, und die Aufrufeakkumulieren sich, anstatt sich gegenseitig zurückzusetzen. Ein einmaliger Aufruf mit `PivotFieldSubtotalType.SUM` und ein weiterer Aufruf mit `PivotFieldSubtotalType.AVERAGE` lassen somit beide aktiviert, und das Pivot-Table zeigt sowohl eine Subsumme (Summe) als auch eine Subsumme (Durchschnitt) sowie die Gesamtsumme an.
+
+{{% alert color="primary" %}}
+Nichts an Subsummen ist auf den Zeilenbereich beschränkt. Die gleichen `setSubtotals`-Aufrufe für ein Feld aus `PivotTable.ColumnFields` erzeugen dieselben drei Layouts entlang der Spaltenachse, da die Einstellung zum Pivot-Feld selbst gehört und nicht zur Achse, auf der es sich befindet.
+{{% /alert %}}
 ## **Verwandte Artikel**
 - [Seitenfelder in Pivot-Tabellen](/cells/de/java/add-page-field-in-pivot-table/)
 - [Aktualisieren von Pivot-Tabellen in Aspose.Cells for Java](/cells/de/java/refresh-pivot-table/)

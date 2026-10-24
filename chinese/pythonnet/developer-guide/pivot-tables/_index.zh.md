@@ -36,4 +36,11 @@ Aspose.Cells for Python via .NET在[**aspose.cells.pivot**](https://reference.as
 
 ## **高级主题**
 
+## 相关文章
+- [在 Aspose.Cells for Python via .NET 中向数据透视表添加筛选字段](/cells/zh/python-net/add-page-field-in-pivot-table/)
+- [在 Aspose.Cells for Python via .NET 中为数据透视表应用样式](/cells/zh/python-net/apply-style-to-pivot-table/)
+- [Modify Page Field Layout in Pivot Table](/cells/zh/python-net/change-page-field-layout/)
+- [Filtering Pivot Tables by Label or Value](/cells/zh/python-net/filter-by-label-or-value-of-pivot-table/)
+- [在 Aspose.Cells for Python via .NET 中管理数据透视表的值字段](/cells/zh/python-net/manage-value-fields/)
+
 {{< app/cells/assistant language="python-net" >}}

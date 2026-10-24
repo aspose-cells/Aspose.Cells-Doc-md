@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells は単一の Excel ファイルを複数のファイルに分割することをサポートしています。これを行うには主に 2 つの方法があります。(1) ソースワークブックの各ワークシートを新しいワークブックにコピーし、それぞれを個別のファイルとして保存する方法、および (2) ワークシートから特定のセル範囲を新しいワークブックにコピーする方法です。どちらのアプローチも、データのサブセットを配布したり、受信者ごとに小さいレポートを作成したり、個別の処理のためにデータを分離したりする必要がある場合に役立ちます。
+{{% /alert %}}
 
 ## **はじめに**
 開発者が単一の Excel ファイルを複数の小さなファイルに分割する必要のある実世界のシナリオは数多くあります。たとえば、ワークブックには部門ごとに 1 つのワークシートが含まれており、各部門長は自分のシートのみを受け取る必要がある場合があります。その他のケースでは、ワークシートから特定のテーブルやデータブロックを抽出し、ワークブックの残りの部分を公開せずに、スタンドアロンファイルとして電子メールで送信したい場合があります。また、大規模な統合ワークブックは、取り扱いを容易にし、読み込みを高速化し、他のシステムによる後続処理のために、より小さなピースに分割する必要がある場合もあります。
@@ -53,7 +54,7 @@ for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
     destSheet.copy(sourceSheet);
     
     const destFile = dataDir + sheetName + ".xls";
-    destWorkbook.save(destFile, AsposeCells.SaveFormat.Excel97To2003);
+    destWorkbook.save(destFile, AsposeCells.SaveFormat.EXCEL_97_TO_2003);
 }
 ```
 
@@ -77,6 +78,5 @@ for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
 
 ### **コード例**
 期待される出力は、ソースワークブックから抽出された指定された範囲の値（および必要に応じて書式設定）のみを含む、データディレクトリ内の単一の新しいファイルです。宛先ファイルはソースファイル内の他のデータとは関係がありません。最初のワークシートのセル `A1` から始まる、抽出された範囲のみが含まれています。
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

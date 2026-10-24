@@ -36,7 +36,6 @@ In this workflow you will build a worksheet that contains a small range of sourc
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
@@ -51,28 +50,28 @@ worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
 # Add a Line sparkline group anchored at F1 (column 5, row 0)
 lineArea = CellArea()
-lineArea.setStartColumn(5)
-lineArea.setEndColumn(5)
-lineArea.setStartRow(0)
-lineArea.setEndRow(0)
-lineIdx = worksheet.getSparklineGroups().add(SparklineType.Line, "A1:E1", False, lineArea)
+lineArea.StartColumn = 5
+lineArea.EndColumn = 5
+lineArea.StartRow = 0
+lineArea.EndRow = 0
+lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
 # Add a Column sparkline group anchored at G1 (column 6, row 0)
 columnArea = CellArea()
-columnArea.setStartColumn(6)
-columnArea.setEndColumn(6)
-columnArea.setStartRow(0)
-columnArea.setEndRow(0)
-columnIdx = worksheet.getSparklineGroups().add(SparklineType.Column, "A1:E1", False, columnArea)
+columnArea.StartColumn = 6
+columnArea.EndColumn = 6
+columnArea.StartRow = 0
+columnArea.EndRow = 0
+columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
 # Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 stackedArea = CellArea()
-stackedArea.setStartColumn(7)
-stackedArea.setEndColumn(7)
-stackedArea.setStartRow(0)
-stackedArea.setEndRow(0)
-stackedIdx = worksheet.getSparklineGroups().add(SparklineType.Stacked, "A1:E1", False, stackedArea)
+stackedArea.StartColumn = 7
+stackedArea.EndColumn = 7
+stackedArea.StartRow = 0
+stackedArea.EndRow = 0
+stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
 # Configure image options for PNG output
 imageOptions = ImageOrPrintOptions()
-imageOptions.setImageType(ImageType.Png)
+imageOptions.setImageType(ImageType.PNG)
 # Convert the Line sparkline to image and embed it in cell F2
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
@@ -97,6 +96,7 @@ The code above produces a workbook where each visual representation of a sparkli
 
 {{% alert color="primary" %}}
 Because each sparkline group is anchored to a single cell, you can address it through the indexer `group.sparklines[0]` instead of enumerating with a `for` loop. This keeps the rendering code short and matches the typical "one sparkline per anchor cell" pattern. Storing the picture bytes via `Cell.embedded_image` requires Aspose.Cells 26.5 or later.
+{{% /alert %}}
 
 ## **Workflow 2 — Export the Sparkline Worksheet to HTML**
 Once the workbook contains live sparklines (and optionally embedded picture counterparts), the entire worksheet can be published to the web by saving it as HTML. The `HtmlSaveOptions` class exposes the knobs you need to control this export; in this workflow you will reuse the `output_with_sparklines.xlsx` file produced by Workflow 1 and convert it to a clean, single-page HTML document.
@@ -111,7 +111,6 @@ Once the workbook contains live sparklines (and optionally embedded picture coun
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, HtmlSaveOptions
 workbook = Workbook("output_with_sparklines.xlsx")
 htmlOptions = HtmlSaveOptions()
@@ -121,10 +120,10 @@ jpype.shutdownJVM()
 ```
 
 The code above takes the sparkline-rich workbook from Workflow 1 and turns it into a portable HTML file. Sparklines are preserved as inline SVG or PNG renderings inside the generated HTML, depending on the export mode, so end users can view the trends in any modern browser without needing Excel installed. By setting `export_active_worksheet_only` to `True`, you avoid accidentally publishing hidden sheets or auxiliary data — only the worksheet currently visible to the user is exported.
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 The `HtmlSaveOptions` class offers additional properties for fine-tuning the output, such as `export_hidden_worksheet`, `export_images_as_base64`, and `encoding`. Adjust these as needed for your deployment target.
+{{% /alert %}}
 
 ## **API Summary**
 The workflows above rely on a small set of Aspose.Cells APIs working together.
@@ -133,7 +132,9 @@ The workflows above rely on a small set of Aspose.Cells APIs working together.
 - `Sparkline.to_image(OutputStream, ImageOrPrintOptions)` is the rendering method that writes a picture of the sparkline into a supplied `OutputStream` (such as a `ByteArrayOutputStream`). The method returns `void`; you read the bytes from the stream after the call.
 - `HtmlSaveOptions.export_active_worksheet_only` (a `bool`) restricts HTML export to the active worksheet. It is one of the most commonly used properties on `HtmlSaveOptions` when generating single-page reports.
 - `ImageOrPrintOptions.image_type` lives in the `com.aspose.cells.drawing` namespace and selects the picture format (for example, `ImageType.PNG`) used when rendering with `to_image` and when printing worksheets to images.
+
+## **Related Articles**
+
 - [Sparklines in Aspose.Cells for Python via Java](/cells/python-java/sparkline/)
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

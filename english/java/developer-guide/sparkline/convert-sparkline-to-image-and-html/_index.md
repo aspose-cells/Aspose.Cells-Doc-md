@@ -45,13 +45,13 @@ worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Add a Line sparkline group anchored at F1 (column 5, row 0)
-CellArea lineArea = CellArea.createCellArea(5, 0, 5, 0);
+CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5);
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
 // Add a Column sparkline group anchored at G1 (column 6, row 0)
-CellArea columnArea = CellArea.createCellArea(6, 0, 6, 0);
+CellArea columnArea = CellArea.createCellArea(0, 6, 0, 6);
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
 // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
-CellArea stackedArea = CellArea.createCellArea(7, 0, 7, 0);
+CellArea stackedArea = CellArea.createCellArea(0, 7, 0, 7);
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
 // Configure image options for PNG output
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
@@ -79,6 +79,7 @@ The code above produces a workbook where each visual representation of a sparkli
 
 {{% alert color="primary" %}}
 Because each sparkline group is anchored to a single cell, you can address it through the indexer `group.getSparklines().get(0)` instead of enumerating with a `for` loop. This keeps the rendering code short and matches the typical "one sparkline per anchor cell" pattern. Storing the picture bytes via `Cell.EmbeddedImage` (set through `setEmbeddedImage`) requires Aspose.Cells 26.5 or later.
+{{% /alert %}}
 
 ## **Workflow 2 — Export the Sparkline Worksheet to HTML**
 Once the workbook contains live sparklines (and optionally embedded picture counterparts), the entire worksheet can be published to the web by saving it as HTML. The `HtmlSaveOptions` class exposes the knobs you need to control this export; in this workflow you will reuse the `output_with_sparklines.xlsx` file produced by Workflow 1 and convert it to a clean, single-page HTML document.
@@ -98,10 +99,10 @@ workbook.save("sparklines.html", htmlOptions);
 ```
 
 The code above takes the sparkline-rich workbook from Workflow 1 and turns it into a portable HTML file. Sparklines are preserved as inline SVG or PNG renderings inside the generated HTML, depending on the export mode, so end users can view the trends in any modern browser without needing Excel installed. By setting `ExportActiveWorksheetOnly` to `true` through `setExportActiveWorksheetOnly(true)`, you avoid accidentally publishing hidden sheets or auxiliary data — only the worksheet currently visible to the user is exported.
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 The `HtmlSaveOptions` class offers additional properties for fine-tuning the output, such as `ExportHiddenWorksheet`, `ExportImagesAsBase64`, and `Encoding`. Adjust these as needed for your deployment target.
+{{% /alert %}}
 
 ## **API Summary**
 The workflows above rely on a small set of Aspose.Cells APIs working together.
@@ -113,6 +114,5 @@ The workflows above rely on a small set of Aspose.Cells APIs working together.
 
 ## **Related Articles**
 - [Inserting an Image into a Cell](/cells/java/inserting-an-image-into-a-cell/)
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

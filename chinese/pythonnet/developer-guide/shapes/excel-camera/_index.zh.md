@@ -25,9 +25,8 @@ Excel 照相机本质上是一个锚定在工作表绘图层上特定行和列�
 
 {{% alert color="primary" %}}
 当输出为 HTML 或 PDF 时，必须在保存之前调用 `update_selected_value()`；否则导出的文件将不包含图片数据，照相机在渲染输出中将为空白。
-{{% /alert %}}
-
 以下代码创建一个工作簿，添加一个锚定在第 10 行第 6 列的空图片，通过 `formula` 属性将其链接到源区域 `A1:F10`，刷新嵌入的图像数据，然后保存工作簿。
+{{% /alert %}}
 
 ```python
 from aspose.cells import Workbook, SaveFormat

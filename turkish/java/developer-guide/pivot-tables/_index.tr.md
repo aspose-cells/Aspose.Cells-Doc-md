@@ -32,11 +32,10 @@ Aspose.Cells kullanarak bir özet tablo oluşturmak için lütfen aşağıdaki a
 
 {{% alert color="primary" %}}
 Hücre aralığını veri kaynağı olarak atadığınızda, aralığın sol üstten sağ alta kadar ayarlanmış olması gerekir. Örneğin, "A1:C3" geçerlidir; "C3:A1" geçersizdir.
-{{% /alert %}}
-
 Aşağıdaki kod örneği, yukarıda listelenen temel adımları takip ederek basit bir özet tablo oluşturmanın nasıl yapıldığını göstermektedir. Kodu çalıştırdığınızda, bir özet tablosu çalışma sayfasına eklenir:
 **İlgili alana dayalı bir özet tablo oluşturmak**
 ![todo:image_alt_text](create-pivot-table_1.png)
+{{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
 

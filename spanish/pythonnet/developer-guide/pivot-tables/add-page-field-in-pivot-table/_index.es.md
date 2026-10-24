@@ -1,7 +1,7 @@
 ---
 title: Agregar campos de filtro a una tabla dinámica en Aspose.Cells for Python via .NET
 description: Aprenda a agregar y configurar campos de filtro en tablas dinámicas con Aspose.Cells for Python via .NET, incluyendo la adición de campos de filtro, el filtrado de selección única y el filtrado de selección múltiple.
-keywords: Aspose.Cells, Python via .NET, tabla dinámica, campo de filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
+keywords: Aspose.Cells, Python via .NET, tabla dinámica, campo de filtro, PivotFieldType.PAGE, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
 url: /es/python-net/add-page-field-in-pivot-table/
@@ -24,14 +24,15 @@ El siguiente ejemplo crea un pequeño conjunto de datos de Fruta / Año / Import
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # Crear un nuevo libro de trabajo
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
 # Configurar la fila de encabezado
-worksheet.cells["A1"].put_value("Fruit")
-worksheet.cells["B1"].put_value("Year")
-worksheet.cells["C1"].put_value("Amount")
+worksheet.cells.get("A1").put_value("Fruit")
+worksheet.cells.get("B1").put_value("Year")
+worksheet.cells.get("C1").put_value("Amount")
 # Poblar 9 filas de datos de muestra: Fruta, Año, Cantidad
 data = [
     ["apple", 2020, 100],
@@ -45,16 +46,16 @@ data = [
     ["orange", 2021, 110]
 ]
 for i in range(len(data)):
-    worksheet.cells[i + 1, 0].put_value(data[i][0])
-    worksheet.cells[i + 1, 1].put_value(data[i][1])
-    worksheet.cells[i + 1, 2].put_value(data[i][2])
+    worksheet.cells.get(i + 1, 0).put_value(data[i][0])
+    worksheet.cells.get(i + 1, 1).put_value(data[i][1])
+    worksheet.cells.get(i + 1, 2).put_value(data[i][2])
 # Agregar una tabla dinámica anclada en la celda E3
 pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "PivotTable1")
 pivot_table = worksheet.pivot_tables[pivot_index]
 # Agregar campos a sus áreas: Fruta como Fila, Cantidad como Dato, Año como campo de Página
-pivot_table.add_field_to_area(ac.PivotFieldType.Row, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
-pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 # Actualizar y calcular los datos de la tabla dinámica
 pivot_table.calculate_data()
 # Guardar el libro de trabajo
@@ -66,6 +67,7 @@ Cuando ya trabaja con una instancia de `PivotField`, puede pasarla directamente 
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # — La tabla dinámica y el campo de página se construyen exactamente como en
 #   el Escenario 1a (datos de Fruta/Año/Importe, pivote en E3, Fruta→Fila,
 #   Importe→Datos). A continuación obtenemos el PivotField de Año desde la
@@ -75,25 +77,25 @@ import aspose.cells as ac
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 # Encabezados
-sheet.cells["A1"].put_value("Fruit")
-sheet.cells["B1"].put_value("Year")
-sheet.cells["C1"].put_value("Amount")
+sheet.cells.get("A1").put_value("Fruit")
+sheet.cells.get("B1").put_value("Year")
+sheet.cells.get("C1").put_value("Amount")
 # Datos de muestra (9 filas)
-sheet.cells["A2"].put_value("apple");    sheet.cells["B2"].put_value("2020"); sheet.cells["C2"].put_value(100)
-sheet.cells["A3"].put_value("apple");    sheet.cells["B3"].put_value("2021"); sheet.cells["C3"].put_value(150)
-sheet.cells["A4"].put_value("apple");    sheet.cells["B4"].put_value("2022"); sheet.cells["C4"].put_value(200)
-sheet.cells["A5"].put_value("grape");    sheet.cells["B5"].put_value("2020"); sheet.cells["C5"].put_value(300)
-sheet.cells["A6"].put_value("grape");    sheet.cells["B6"].put_value("2021"); sheet.cells["C6"].put_value(400)
-sheet.cells["A7"].put_value("grape");    sheet.cells["B7"].put_value("2022"); sheet.cells["C7"].put_value(500)
-sheet.cells["A8"].put_value("blueberry"); sheet.cells["B8"].put_value("2020"); sheet.cells["C8"].put_value(250)
-sheet.cells["A9"].put_value("blueberry"); sheet.cells["B9"].put_value("2021"); sheet.cells["C9"].put_value(350)
-sheet.cells["A10"].put_value("blueberry");sheet.cells["B10"].put_value("2022"); sheet.cells["C10"].put_value(450)
+sheet.cells.get("A2").put_value("apple");    sheet.cells.get("B2").put_value("2020"); sheet.cells.get("C2").put_value(100)
+sheet.cells.get("A3").put_value("apple");    sheet.cells.get("B3").put_value("2021"); sheet.cells.get("C3").put_value(150)
+sheet.cells.get("A4").put_value("apple");    sheet.cells.get("B4").put_value("2022"); sheet.cells.get("C4").put_value(200)
+sheet.cells.get("A5").put_value("grape");    sheet.cells.get("B5").put_value("2020"); sheet.cells.get("C5").put_value(300)
+sheet.cells.get("A6").put_value("grape");    sheet.cells.get("B6").put_value("2021"); sheet.cells.get("C6").put_value(400)
+sheet.cells.get("A7").put_value("grape");    sheet.cells.get("B7").put_value("2022"); sheet.cells.get("C7").put_value(500)
+sheet.cells.get("A8").put_value("blueberry"); sheet.cells.get("B8").put_value("2020"); sheet.cells.get("C8").put_value(250)
+sheet.cells.get("A9").put_value("blueberry"); sheet.cells.get("B9").put_value("2021"); sheet.cells.get("C9").put_value(350)
+sheet.cells.get("A10").put_value("blueberry");sheet.cells.get("B10").put_value("2022"); sheet.cells.get("C10").put_value(450)
 # Agregar tabla dinámica en E3 cubriendo A1:C10
 pivot_index = sheet.pivot_tables.add("E3", "A1:C10", "PivotTable1")
 pivot_table = sheet.pivot_tables[pivot_index]
 # Fruta -> Fila, Importe -> Datos (Año irá a Página a continuación)
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 # Enfoque de bajo nivel: obtener el PivotField existente de Año desde BaseFields
 # y registrarlo en el área de Página mediante PageFields.Add(PivotField).
 year_field = pivot_table.base_fields["Year"]
@@ -111,13 +113,14 @@ Establecer `current_page_item` en el valor mágico `0x7FFD` equivale a limpiar e
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # Crear un nuevo libro de trabajo
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 # Poblar datos de Fruta/Año/Cantidad
-sheet.cells["A1"].put_value("Fruit")
-sheet.cells["B1"].put_value("Year")
-sheet.cells["C1"].put_value("Amount")
+sheet.cells.get("A1").put_value("Fruit")
+sheet.cells.get("B1").put_value("Year")
+sheet.cells.get("C1").put_value("Amount")
 data = [
     ["Apple", 2022, 100],
     ["Apple", 2023, 150],
@@ -128,15 +131,15 @@ data = [
 ]
 for r in range(len(data)):
     for c in range(len(data[r])):
-        sheet.cells[r + 1, c].put_value(data[r][c])
+        sheet.cells.get(r + 1, c).put_value(data[r][c])
 # Crear tabla dinámica en E3
 pivot_tables = sheet.pivot_tables
 index = pivot_tables.add("=A1:C7", "E3", "PivotTable1")
 pivot_table = pivot_tables[index]
 # Configurar campos dinámicos: Fruta→Fila, Cantidad→Datos, Año→Página
-pivot_table.add_field_to_area(ac.PivotFieldType.Row, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.Data, "Amount")
-pivot_table.add_field_to_area(ac.PivotFieldType.Page, "Year")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 pivot_table.calculate_data()
 # Borrar el filtro de página para que cada elemento del campo de página sea visible.
 # 0x7FFD (decimal 32765) es el valor centinela especial que significa "todos los elementos" —
@@ -150,34 +153,35 @@ Establecer `current_page_item` en un índice real elige solamente ese elemento d
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # Create workbook
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
 # Add sample data (Fruit/Year/Amount)
-cells["A1"].put_value("Fruit")
-cells["B1"].put_value("Year")
-cells["C1"].put_value("Amount")
-cells["A2"].put_value("Apple")
-cells["B2"].put_value("2020")
-cells["C2"].put_value("100")
-cells["A3"].put_value("Apple")
-cells["B3"].put_value("2021")
-cells["C3"].put_value("150")
-cells["A4"].put_value("Banana")
-cells["B4"].put_value("2020")
-cells["C4"].put_value("200")
-cells["A5"].put_value("Banana")
-cells["B5"].put_value("2021")
-cells["C5"].put_value("250")
+cells.get("A1").put_value("Fruit")
+cells.get("B1").put_value("Year")
+cells.get("C1").put_value("Amount")
+cells.get("A2").put_value("Apple")
+cells.get("B2").put_value("2020")
+cells.get("C2").put_value("100")
+cells.get("A3").put_value("Apple")
+cells.get("B3").put_value("2021")
+cells.get("C3").put_value("150")
+cells.get("A4").put_value("Banana")
+cells.get("B4").put_value("2020")
+cells.get("C4").put_value("200")
+cells.get("A5").put_value("Banana")
+cells.get("B5").put_value("2021")
+cells.get("C5").put_value("250")
 # Add pivot table at E3
 pivot_tables = sheet.pivot_tables
 pivot_index = pivot_tables.add("A1:C5", "E3", "PivotTable1")
 pivot_table = pivot_tables[pivot_index]
 # Add fields: Fruit→Row, Amount→Data, Year→Page
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, "Year")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 # Page-field-specific operations
 pivot_table.page_fields[0].current_page_item = 1  # 1 = second item in sorted order (e.g. "2021")
 # Refresh and calculate pivot table
@@ -190,6 +194,7 @@ El filtrado de selección múltiple convierte el menú desplegable del filtro en
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFieldType
 # — La tabla dinámica y el campo de página se construyen exactamente como en
 #   Escenario 1a (datos Fruta/Año/Cantidad, pivote en E3, Fruta→Fila,
 #   Cantidad→Datos, Año→Página vía AddFieldToArea).
@@ -198,9 +203,9 @@ workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
 # Datos de muestra: Fruta | Año | Cantidad
-cells[0, 0].put_value("Fruit")
-cells[0, 1].put_value("Year")
-cells[0, 2].put_value("Amount")
+cells.get(0, 0).put_value("Fruit")
+cells.get(0, 1).put_value("Year")
+cells.get(0, 2).put_value("Amount")
 data = [
     ["apple",  "2019", "100"],
     ["apple",  "2020", "150"],
@@ -213,24 +218,24 @@ data = [
     ["grape",  "2021", "220"]
 ]
 for i in range(len(data)):
-    cells[i + 1, 0].put_value(data[i][0])
-    cells[i + 1, 1].put_value(int(data[i][1]))
-    cells[i + 1, 2].put_value(int(data[i][2]))
+    cells.get(i + 1, 0).put_value(data[i][0])
+    cells.get(i + 1, 1).put_value(int(data[i][1]))
+    cells.get(i + 1, 2).put_value(int(data[i][2]))
 pivot_sheet = workbook.worksheets.add("Pivot")
 pivots = pivot_sheet.pivot_tables
 pivot_index = pivots.add("E3", "A1:C10", "PivotTable1")
 pivot_table = pivots[pivot_index]
-pivot_table.add_field_to_area(ac.PivotFieldType.ROW, "Fruit")
-pivot_table.add_field_to_area(ac.PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(ac.PivotFieldType.PAGE, "Year")
+pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 # — Habilitar selección múltiple en el campo de página
 pivot_table.page_fields[0].is_multiple_item_selection_allowed = True
 # Parte A — seleccionar TODOS los elementos (hacer visible cada elemento)
 pivot_items = pivot_table.page_fields[0].pivot_items
-for i in range(pivot_items.count):
+for i in range(len(pivot_items)):
     pivot_items[i].is_hidden = False
 # Parte B — seleccionar solo elementos específicos por valor de origen
-for i in range(pivot_items.count):
+for i in range(len(pivot_items)):
     value = pivot_items[i].get_string_value()
     if value == "2020" or value == "grape" or value == "blueberry":
         pivot_items[i].is_hidden = False

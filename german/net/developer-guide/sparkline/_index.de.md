@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells unterstützt das Erstellen von Sparklines innerhalb von Arbeitsblattzellen. Sparklines sind Miniaturdiagramme, die in eine einzelne Zelle passen und eine schnelle visuelle Darstellung von Datentrends bieten. Aspose.Cells unterstützt Linien-, Säulen- und Gewinn/Verlust-Sparklines, die jeweils hinsichtlich Farbe, Liniengewicht, Hoch-/Tiefpunkte und Markierungen angepasst werden können.
+{{% /alert %}}
 
 ## **Einführung**
 Sparklines sind winzige Diagramme in Zellen, die nützlich sind, wenn Sie einen schnellen Trend neben einer Datenzeile oder -spalte anzeigen möchten, ohne den Platz eines vollständigen Diagramms einzunehmen. Excel unterstützt drei Arten von Sparklines: **Linie**, **Säule** und **Gewinn/Verlust**. Aspose.Cells spiegelt diese Fähigkeit über die `SparklineGroup`- und `SparklineGroupCollection`-APIs wider, die sich im Namespace `Aspose.Cells.Charts` befinden.
@@ -260,7 +261,6 @@ Sobald eine `SparklineGroup` erstellt und zu `worksheet.SparklineGroups` hinzuge
 - **Hoch-/Tiefpunkt-Markierungen** — Flags, die kleine Markierungen an den höchsten und niedrigsten Datenpunkten einschalten, nützlich, um Extremwerte hervorzuheben.
 - **Markierungen für den ersten/letzten/negativen Punkt** — Flags, die Markierungen an den ersten, letzten und negativen Datenpunkten umschalten.
 Um eine Farbe zu ändern, erstellen Sie immer eine `CellsColor`-Instanz und weisen Sie sie der entsprechenden Eigenschaft zu. Weisen Sie den Sparkline-Farbeigenschaften nicht direkt eine `System.Drawing.Color` zu — sie erwarten den Typ `CellsColor` aus `Aspose.Cells.Drawing`. Die Methode `SparklineGroups.Add` selbst gibt ein vollständig typisiertes `SparklineGroup`-Objekt zurück, sodass Sie Eigenschaftszuweisungen auf den Rückgabewert verketten oder ihn in einer lokalen Variablen speichern und vor dem Speichern anpassen können.
-{{% /alert %}}
 
 ## Verwandte Artikel
 - [Sparkline in Bild und HTML konvertieren in Aspose.Cells for .NET](/cells/de/net/convert-sparkline-to-image-and-html/)

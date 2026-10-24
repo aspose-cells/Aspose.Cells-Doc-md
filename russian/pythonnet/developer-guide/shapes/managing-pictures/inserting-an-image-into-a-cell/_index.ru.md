@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells предоставляет два различных способа связать изображение с одной ячейкой. Плавающее изображение — это фигура на слое рисунков рабочего листа, которая визуально накладывается на диапазон ячеек, тогда как встроенное изображение хранится внутри самой ячейки и автоматически масштабируется под область отображения ячейки. Выберите подход, который лучше всего соответствует вашим требованиям к компоновке.
+{{% /alert %}}
 
 ## **Введение**
 Точное размещение изображения в одной ячейке — распространённое требование при проектировании электронных таблиц, которые служат визуальными отчётами, каталогами продукции, справочниками сотрудников, панелями мониторинга или списками инвентаря. Вместо того чтобы растягивать изображение на множество ячеек или размещать его свободно на рабочем листе, может потребоваться чистое изображение, привязанное к ячейке, которое остаётся выровненным с ячейкой, которой оно принадлежит.
@@ -36,6 +37,7 @@ Aspose.Cells поддерживает этот сценарий двумя вз�
 
 {{% alert color="primary" %}}
 Индексы строк и столбцов в Aspose.Cells начинаются с нуля. Ячейка C6 имеет индекс строки 5 и индекс столбца 2. Ошибки смещения на единицу в нижней правой привязке — наиболее частая причина появления изображений, накладывающихся на соседнюю ячейку.
+{{% /alert %}}
 
 ### **Управление поведением размещения**
 `Picture.placement` — это перечисление типа `PlacementType`, которое управляет поведением изображения при изменении пользователем размеров строки или столбца под ним. Рекомендуемое значение для изображения в одной ячейке — `PlacementType.MOVE_AND_SIZE`, при котором изображение перемещается и изменяет размер вместе с базовой ячейкой, сохраняя точное соответствие.
@@ -53,6 +55,7 @@ Aspose.Cells поддерживает этот сценарий двумя вз�
 
 ```python
 import aspose.cells as ac
+from aspose.cells.drawing import PlacementType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 with open("logo.png", "rb") as fs:
@@ -62,7 +65,7 @@ with open("logo.png", "rb") as fs:
     picture.upper_left_column = 2
     picture.lower_right_row = 6
     picture.lower_right_column = 3
-    picture.placement = ac.PlacementType.MOVE_AND_SIZE
+    picture.placement = PlacementType.MOVE_AND_SIZE
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
 
@@ -79,7 +82,7 @@ Aspose.Cells также предоставляет более простой м�
 1. Создайте новую `Workbook` (или откройте существующую).
 2. Получите доступ к целевому `Worksheet` через `workbook.worksheets[0]`.
 3. Прочитайте файл изображения с диска в объект `bytes` (например, открыв файл в двоичном режиме и вызвав `.read()`).
-4. Получите ссылку на целевую ячейку — либо через `worksheet.cells["C6"]`, либо через `worksheet.cells[5, 2]`.
+4. Получите ссылку на целевую ячейку — либо через `worksheet.cells.get("C6")`, либо через `worksheet.cells.get(5, 2)`.
 5. Присвойте объект `bytes` свойству `embedded_image` ячейки.
 6. При необходимости настройте высоту строки и ширину столбца целевой строки и столбца, чтобы встроенное изображение выглядело более заметным.
 7. Сохраните книгу на диск в виде файла `.xlsx`.
@@ -90,15 +93,15 @@ import aspose.cells as ac
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Get the target cell C6
-cell = worksheet.cells["C6"]
+cell = worksheet.cells.get("C6")
 # Read the image file into a byte array
 with open("logo.png", "rb") as f:
     imageData = f.read()
 # Embed the image directly into the cell
 cell.embedded_image = imageData
 # Optionally adjust row height and column width so the embedded image is more visible
-worksheet.cells.set_column_width(2, 30)   # Column C (index 2)
-worksheet.cells.set_row_height(5, 100)     # Row 6 (index 5)
+worksheet.cells.set_column_width(2, 30.0)   # Column C (index 2)
+worksheet.cells.set_row_height(5, 100.0)     # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
@@ -114,9 +117,6 @@ workbook.save("output.xlsx", ac.SaveFormat.XLSX)
   - Вам нужна максимально простая вставка изображения в ячейку.
   - Изображение должно перемещаться вместе с ячейкой, как любое другое содержимое ячейки.
   - Вам не нужно манипулировать изображением как фигурой.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Связанные статьи
 - [Камера Excel в Aspose.Cells for Python via .NET](/cells/ru/python-net/excel-camera/)
@@ -125,4 +125,4 @@ workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 - [Изменение макета поля страницы в сводной таблице](/cells/ru/python-net/change-page-field-layout/)
 - [Преобразование спарклайна в изображение и HTML в Aspose.Cells for Python via .NET](/cells/ru/python-net/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

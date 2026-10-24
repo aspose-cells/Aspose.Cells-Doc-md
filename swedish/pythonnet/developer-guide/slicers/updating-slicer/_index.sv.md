@@ -1,23 +1,66 @@
 ---
-title: Uppdatera slicer
+title: Uppdatera en slicer
+linktitle: Uppdatera en slicer
 type: docs
 weight: 50
 url: /sv/python-net/updating-slicer/
-description: Lär dig hur du uppdaterar slicer med Aspose.Cells för Python via .NET.
-keywords: Aspose.Cells för Python Excel, Excel Python bibliotek, Python uppdatera Slicer utan Excel, Uppdatera Slicer med Aspose.Cells för Python.
+description: Lär dig hur du uppdaterar en slicer för att filtrera data i den länkade pivottabellen eller tabellen med Aspose.Cells for Python via .NET.
+keywords: Aspose.Cells for Python Excel, Excel Python-bibliotek, Python uppdatera slicer utan Excel, filtrera pivottabell med slicer i Python, Slicer select_items, Slicer clear_filter.
+ai_search_scope: cells_pythonnet
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Möjliga användningsscenario**
+## **Möjliga användningsscenarier**
+Att uppdatera en slicer innebär att filtrera data i pivottabellen eller tabellen som slicern är kopplad till. När du markerar eller avmarkerar slicerobjekt i Microsoft Excel beräknas den länkade pivottabellen eller tabellen om därefter. Med Aspose.Cells for Python via .NET behöver du inte iterera över slicer-cacheobjekten och uppdatera slicern manuellt — metoden [**Slicer.select_items(labels, append)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/selectitems/) uppdaterar slicern och beräknar om den länkade pivottabellen eller tabellen direkt från filterobjekten:
+- `Slicer.select_items(labels, append)` — markerar de angivna etiketterna och beräknar om den länkade pivottabellen eller tabellen. När `append` är `True` behålls de ursprungligen markerade etiketterna och de angivna etiketterna läggs till i urvalet; när `append` är `False` rensas alla ursprungliga markeringar och endast de angivna etiketterna förblir markerade.
+- `Slicer.unselect_items(labels)` — avmarkerar en del av de för närvarande markerade objekten.
+- `Slicer.clear_filter()` — tar bort filtret och markerar alla objekt.
 
-Om du vill uppdatera slicer i Microsoft Excel, välj eller avmarkera dess objekt, så kommer det att uppdatera slicer-tabellen eller pivot-tabellen i enlighet därmed. Använd [**Slicer.slicer_cache.slicer_cache_items**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercache/slicer_cache_items/) för att välja eller avmarkera slicer-objekt med Aspose.Cells för Python via .NET och ring sedan in [**Slicer.refresh()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/refresh/#) funktionen för att uppdatera slicer-tabellen eller pivot-tabellen.
+{{% alert color="primary" %}}
+Från och med Aspose.Cells for Python via .NET 26.10 blir egenskapen `SlicerCacheItem.selected` skrivskyddad och dess setter stöds inte längre. Använd metoderna `Slicer.select_items`, `Slicer.unselect_items` och `Slicer.clear_filter` istället för att sätta `SlicerCacheItem.selected` objekt för objekt.
+{{% /alert %}}
 
-## **Hur man uppdaterar slicer med Aspose.Cells för Python Excel-bibliotek**
-
-Följande exempelkod laddar [provmappen](67338475.xlsx) som innehåller en befintlig snitt. Den avmarkerar den 2:a och 3:e objekten i snittet och uppdaterar snittet sedan. Den sparar sedan arbetsboken som [utmatningsmapp](67338476.xlsx). Skärmbilden nedan visar effekten av exempelkoden på provmappen. Som du kan se på skärmbilden, har uppdateringen av snittet med markerade objekt också uppdaterat pivottabellen.
-
+## **Hur man uppdaterar en slicer med Excel-biblioteket Aspose.Cells for Python**
+Följande exempelkod laddar [exempel-Excel-filen](67338475.xlsx) som innehåller en befintlig slicer som är kopplad till en pivottabell. Den markerar endast objekten "Blue" och "Pink" i slicern med `Slicer.select_items(labels, False)` — pivottabellen beräknas om direkt från filterobjekten, utan ett manuellt anrop av `Slicer.refresh()`. Därefter sparas arbetsboken som [utdata-Excel-filen](67338476.xlsx). Skärmbilden nedan visar effekten av exempelkoden på exempel-Excel-filen. Som du kan se på skärmbilden visar pivottabellen endast de filtrerade objekten.
 ![todo:image_alt_text](updating-slicer_1.png)
 
 ## **Exempelkod**
+Ersätt den aktuella markeringen (endast de angivna etiketterna förblir markerade) och beräkna om den länkade pivottabellen eller tabellen:
 
-{{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-UpdatingSlicer.py" >}}
+```python
+import aspose.cells as ac
+# Load sample Excel file containing slicer.
+workbook = ac.Workbook("sampleUpdatingSlicer.xlsx")
+# Access first worksheet.
+worksheet = workbook.worksheets[0]
+# Access the first slicer inside the slicer collection.
+slicer = worksheet.slicers[0]
+# Select only "Blue" and "Pink"; the linked pivot table or table
+# is recalculated directly from the filter items.
+slicer.select_items(["Blue", "Pink"], False)
+# Save the modified workbook.
+workbook.save("out.xlsx")
+```
+
+Behåll de för närvarande markerade etiketterna och markera ytterligare objekt:
+
+```python
+# Keep the current selection and add "Red" to it.
+slicer.select_items(["Red"], True)
+```
+
+Avmarkera en del av de markerade objekten:
+
+```python
+# Remove "Pink" from the current selection.
+slicer.unselect_items(["Pink"])
+```
+
+Ta bort filtret (markera alla objekt):
+
+```python
+# Clear the filter; all slicer items become selected again.
+slicer.clear_filter()
+```
+
 {{< app/cells/assistant language="python-net" >}}

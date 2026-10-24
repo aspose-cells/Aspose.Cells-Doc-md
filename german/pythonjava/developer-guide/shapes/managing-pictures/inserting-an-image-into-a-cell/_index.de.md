@@ -37,6 +37,7 @@ Der Anker des Bildes wird durch vier nullbasierte Indexeigenschaften definiert:
 
 {{% alert color="primary" %}}
 Zeilen- und Spaltenindizes in Aspose.Cells sind **nullbasiert**. Zelle C6 hat den Zeilenindex 5 und den Spaltenindex 2. Off-by-One-Fehler beim unteren rechten Anker sind die häufigste Ursache für Bilder, die scheinbar in eine benachbarte Zelle hineinragen.
+{{% /alert %}}
 
 ### **Platzierungsverhalten steuern**
 `getPlacement` ist eine Aufzählung vom Typ `PlacementType`, die steuert, wie sich das Bild verhält, wenn der Benutzer die darunterliegende Zeile oder Spalte in der Größe ändert. Der empfohlene Wert für ein Bild in einer einzelnen Zelle ist `PlacementType.MOVE_AND_SIZE`, wodurch das Bild zusammen mit seiner darunterliegenden Zelle verschoben und in der Größe verändert wird, sodass die exakte Anpassung erhalten bleibt.
@@ -56,7 +57,6 @@ Der folgende Code demonstriert den vollständigen Ansatz.
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat, PlacementType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -69,10 +69,10 @@ try:
     picture.setUpperLeftColumn(2)
     picture.setLowerRightRow(6)
     picture.setLowerRightColumn(3)
-    picture.setPlacement(PlacementType.MoveAndSize)
+    picture.setPlacement(PlacementType.MOVE_AND_SIZE)
 finally:
     fs.close()
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -112,7 +112,7 @@ cell.setEmbeddedImage(imageData)
 worksheet.getCells().setColumnWidth(2, 30)   # Column C (index 2)
 worksheet.getCells().setRowHeight(5, 100)    # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -126,6 +126,5 @@ Beide Ansätze erzeugen ein Bild, das in eine einzelne Zelle passt, unterscheide
 - **Verwenden Sie ein eingebettetes Bild (Ansatz 2), wenn:**
   - Sie die einfachstmögliche Einfügung eines Bildes in eine Zelle wünschen.
   - Das Bild wie jeder andere Zelleninhalt mit der Zelle mitwandern soll.
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

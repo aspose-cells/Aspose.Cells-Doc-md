@@ -45,6 +45,7 @@ Aspose.Cells for Node.js via C++ поддерживает транспониро
 После транспонирования тот же самый опорный диапазон содержит повёрнутые данные. Первая строка читается как (пусто, **Европа**, **Азия**, **Северная Америка**), а первый столбец — как (пусто, **Кв. 1**, **Кв. 2**, **Кв. 3**, **Кв. 4**). Каждый исходный столбец продаж становится строкой в транспонированном диапазоне.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var srcFile = "source.xlsx";
 var outputFile = "transposed.xlsx";
 var workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
@@ -74,7 +75,7 @@ workbook.save(outputFile);
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
@@ -103,7 +104,7 @@ workbook.save(outFile, AsposeCells.SaveFormat.Xlsx);
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Загружаем исходную рабочую книгу с параметрами загрузки xlsx
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));

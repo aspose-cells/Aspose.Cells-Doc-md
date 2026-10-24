@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, Akıllı İşaretleyiciler aracılığıyla dizi verilerinin tek bir hücreye işlenmesini destekler. Geliştiriciler, `ArrayAsSingle` özniteliğini `ExtraDelimiter` özniteliğiyle birlikte kullanarak dizi öğelerinin tek bir hücre içinde nasıl ayrılacağını kontrol edebilir ve raporlar ile şablonlar için esnek biçimlendirme sağlayabilir.
+{{% /alert %}}
 
 ## **Giriş**
 Aspose.Cells'teki Akıllı İşaretleyiciler, `&=DataSource.Field` gibi işaretleyici ifadeleri kullanarak elektronik tablo verilerini dinamik olarak doldurmanıza olanak tanıyan güçlü, şablon tabanlı bir özelliktir. İşaretleyici, bir tasarımcı çalışma kitabına yerleştirilir ve şablon `WorkbookDesigner` tarafından işlendiğinde, işaretleyiciler sağlanan veri kaynağından gelen değerlerle değiştirilir.
@@ -59,6 +60,7 @@ Akıllı İşaretleyicilerinizde `ArrayAsSingle` ve `ExtraDelimiter` öznitelikl
 
 {{% alert color="primary" %}}
 `extraDelimiter` özniteliği, çok karakterli sınırlayıcılar, özel metinler veya yeni satırla ayrılmış çıktı için `\n` gibi kaçış dizileri dahil herhangi bir dize sabitini kabul eder. Dizi boşsa, sonuç hücre boş bırakılır.
+{{% /alert %}}
 
 ### **Adım Adım İş Akışı**
 Aşağıdaki iş akışı, bir diziyi Akıllı İşaretleyicileri kullanarak tek bir hücreye nasıl işleyeceğinizi açıklar.
@@ -74,7 +76,6 @@ Aşağıdaki iş akışı, bir diziyi Akıllı İşaretleyicileri kullanarak tek
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 class Product:
     def __init__(self, tags):
@@ -102,7 +103,6 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-from asposecells.api import Workbook
 # Student sınıfını tanımla
 class Student:
     def __init__(self):
@@ -123,7 +123,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 # Veri kaynağını bir sözlük olarak tanımlayın (Order sınıfına eşdeğer)
 order = {"Items": ["Apple", "Banana", "Cherry", "Date"]}
@@ -153,8 +152,5 @@ jpype.shutdownJVM()
 - Özellik, nesne veri kaynaklarının yanı sıra bir sütunun dizilere bölünebileceği `DataSet` ve `DataTable` kaynaklarıyla da çalışır.
 - Yeni satırla ayrılmış çıktı için sınırlayıcı değeri olarak `\n` veya platformun yeni satır sabitini kullanabilirsiniz.
 - Akıllı İşaretleyiciyi, sonuçta ortaya çıkan birleştirilmiş dizeyi görüntülemek için yeterli genişliğe sahip bir hücreye yerleştirin; aksi takdirde, içerik biçime bağlı olarak görsel olarak bitişik hücrelere taşabilir.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

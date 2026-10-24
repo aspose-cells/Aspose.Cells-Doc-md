@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta la creazione di sparkline all'interno delle celle del foglio di lavoro. Le sparkline sono grafici in miniatura che si adattano a una singola cella, offrendo una rappresentazione visiva rapida delle tendenze dei dati. Aspose.Cells supporta sparkline a linea, a colonna e di tipo win/loss, e ciascuna può essere personalizzata per quanto riguarda colore, spessore della linea, punti massimo/minimo e marcatori.
+{{% /alert %}}
 
 ## **Introduzione**
 Le sparkline sono piccoli grafici all'interno delle celle, utili quando si desidera visualizzare rapidamente una tendenza accanto a una riga o colonna di dati senza occupare lo spazio di un grafico completo. Excel supporta tre tipi di sparkline: **a linea**, **a colonna** e **win/loss**. Aspose.Cells replica questa funzionalità tramite le API `SparklineGroup` e `SparklineGroupCollection` presenti nel namespace `Aspose.Cells.Charts`.
@@ -29,43 +30,36 @@ Una sparkline a linea disegna una linea continua attraverso i punti dati di una 
 L'esempio seguente crea una cartella di lavoro, scrive i valori 5, -3, 8, -2, 6 nelle celle da A1 a E1 e aggiunge una sparkline a linea nella cella F1 che traccia tali valori. Personalizza inoltre il colore della linea in rosso e abilita i marcatori per i punti massimo e minimo.
 
 ```java
-public class CodeRunner {
-    public static void main(String[] args) {
-        try {
-            // Passo 1: Crea un Workbook e ottieni il primo foglio di lavoro
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.getWorksheets().get(0);
-            Cells cells = worksheet.getCells();
-            // Passo 2: Scrivi i valori di esempio 5, -3, 8, -2, 6 nelle celle A1:E1
-            cells.get("A1").putValue(5);
-            cells.get("B1").putValue(-3);
-            cells.get("C1").putValue(8);
-            cells.get("D1").putValue(-2);
-            cells.get("E1").putValue(6);
-            // Passo 3: Costruisci un CellArea che punta alla cella di destinazione F1
-            CellArea dest = new CellArea();
-            dest.StartColumn = 5;   // colonna F (indicizzata a 0)
-            dest.EndColumn = 5;
-            dest.StartRow = 0;      // riga 1 (indicizzata a 0)
-            dest.EndRow = 0;
-            // Passo 4: Aggiungi una sparkline Line da A1:E1 in F1
-            // SparklineGroups.add restituisce l'indice del gruppo appena aggiunto
-            int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
-            SparklineGroup group = worksheet.getSparklineGroups().get(index);
-            // Passo 5: Crea un CellsColor rosso e assegnalo al colore della linea della sparkline
-            CellsColor red = workbook.createCellsColor();
-            red.setColor(com.aspose.cells.Color.getRed());
-            group.setSeriesColor(red);
-            // Passo 6: Abilita i marcatori dei punti alti e bassi
-            group.setShowHighPoint(true);
-            group.setShowLowPoint(true);
-            // Passo 7: Salva il workbook
-            workbook.save("output_line.xlsx");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
+import com.aspose.cells.*;
+// Passo 1: Crea un Workbook e ottieni il primo foglio di lavoro
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+Cells cells = worksheet.getCells();
+// Passo 2: Scrivi i valori di esempio 5, -3, 8, -2, 6 nelle celle A1:E1
+cells.get("A1").putValue(5);
+cells.get("B1").putValue(-3);
+cells.get("C1").putValue(8);
+cells.get("D1").putValue(-2);
+cells.get("E1").putValue(6);
+// Passo 3: Costruisci un CellArea che punta alla cella di destinazione F1
+CellArea dest = new CellArea();
+dest.StartColumn = 5;   // colonna F (indicizzata a 0)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // riga 1 (indicizzata a 0)
+dest.EndRow = 0;
+// Passo 4: Aggiungi una sparkline Line da A1:E1 in F1
+// SparklineGroups.add restituisce l'indice del gruppo appena aggiunto
+int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
+SparklineGroup group = worksheet.getSparklineGroups().get(index);
+// Passo 5: Crea un CellsColor rosso e assegnalo al colore della linea della sparkline
+CellsColor red = workbook.createCellsColor();
+red.setColor(com.aspose.cells.Color.getRed());
+group.setSeriesColor(red);
+// Passo 6: Abilita i marcatori dei punti alti e bassi
+group.setShowHighPoint(true);
+group.setShowLowPoint(true);
+// Passo 7: Salva il workbook
+workbook.save("output_line.xlsx");
 ```
 
 ## **Sparkline a Colonna**
@@ -90,10 +84,10 @@ for (int i = 0; i < values.length; i++) {
 }
 // Costruisci un CellArea che punta a F1 (indice colonna 5, indice riga 0)
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Aggiungi uno sparkline a colonne alla cella di destinazione
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
@@ -116,9 +110,6 @@ In Aspose.Cells, una sparkline win/loss viene creata passando `SparklineType.STA
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.charts.*;
-import com.aspose.cells.drawing.*;
-import java.awt.Color;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -130,10 +121,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Costruisci un CellArea che punta a F1 (colonna 5, riga 0)
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // Aggiungi uno sparkline Win/Loss (SparklineType.Stacked)
 int groupIndex = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(groupIndex);
@@ -143,19 +134,19 @@ group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
 // Imposta il colore del punto massimo a verde
 CellsColor highColor = workbook.createCellsColor();
-highColor.setColor(Color.GREEN);
+highColor.setColor(Color.getGreen());
 group.setHighPointColor(highColor);
 // Imposta il colore del punto minimo a rosso
 CellsColor lowColor = workbook.createCellsColor();
-lowColor.setColor(Color.RED);
+lowColor.setColor(Color.getRed());
 group.setLowPointColor(lowColor);
 // Imposta il colore del punto negativo ad arancione
 CellsColor negColor = workbook.createCellsColor();
-negColor.setColor(Color.ORANGE);
+negColor.setColor(Color.getOrange());
 group.setNegativePointsColor(negColor);
 // Imposta il colore predefinito della serie (usato per le barre positive)
 CellsColor seriesColor = workbook.createCellsColor();
-seriesColor.setColor(new Color(70, 130, 180)); // Approssimazione di SteelBlue
+seriesColor.setColor(Color.fromArgb(70, 130, 180)); // Approssimazione di SteelBlue
 group.setSeriesColor(seriesColor);
 // Salva la cartella di lavoro
 workbook.save("output_winloss.xlsx");
@@ -212,6 +203,5 @@ Una volta creato e aggiunto un `SparklineGroup` a `worksheet.getSparklineGroups(
 - **Marcatori dei punti massimo/minimo** — flag che attivano piccoli marcatori sui punti dati più alti e più bassi, utili per evidenziare gli estremi.
 - **Marcatori dei punti primo/ultimo/negativo** — flag che attivano/disattivano i marcatori sui punti dati primo, ultimo e negativo.
 Per cambiare un colore, crea sempre un'istanza di `CellsColor` e assegnala alla proprietà pertinente. Non assegnare direttamente un `java.awt.Color` alle proprietà di colore delle sparkline — si aspettano il tipo `CellsColor` di `Aspose.Cells.Drawing`. Il metodo `add` stesso restituisce un oggetto `SparklineGroup` completamente tipizzato, quindi puoi concatenare le assegnazioni di proprietà sul valore restituito oppure memorizzarlo in una variabile locale e personalizzarlo prima del salvataggio.
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

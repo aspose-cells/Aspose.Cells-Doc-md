@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells provides full support for reading and writing DBF (dBASE) files. You can load existing dBASE III and dBASE IV files into a Workbook object, manipulate the data using the rich Aspose.Cells API, and save the workbook back to the DBF format for use with legacy database applications.
+{{% /alert %}}
 
 ## **Introduction**
 DBF (DataBase File) is a legacy database file format originally introduced by dBASE in the early 1980s. Despite the age of the format, DBF files are still widely used in many industries for storing structured data, particularly in accounting, GIS, and other specialized applications. Aspose.Cells allows you to integrate these legacy files into modern Node.js spreadsheet workflows seamlessly.
@@ -49,6 +50,8 @@ To read a DBF file, you need to create a `LoadOptions` instance, set its `LoadFo
 The following example demonstrates how to load an existing DBF file into Aspose.Cells, access its first worksheet, and read the cell values.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const path = require("path");
 let sb = "";
 const maxRow = cells.getMaxDataRow();
 const maxCol = cells.getMaxDataColumn();
@@ -64,12 +67,13 @@ for (let i = 0; i <= maxRow; i++)
 }
 console.log(sb);
 const outputPath = path.join(dataDir, "output.xlsx");
-workbook.save(outputPath, AsposeCells.SaveFormat.Xlsx);
+workbook.save(outputPath, AsposeCells.SaveFormat.XLSX);
 console.log("DBF file loaded successfully. Converted XLSX saved at: " + outputPath);
 ```
 
 {{% alert color="primary" %}}
 You can open DBF files directly in Microsoft Excel by selecting the file in the Open dialog. Excel will treat the DBF file as a spreadsheet, displaying its records in a tabular layout. This is useful for quickly verifying the data after reading or writing it with Aspose.Cells.
+{{% /alert %}}
 
 ## **Writing a DBF File**
 Writing data to a DBF file follows a similar pattern to saving any other spreadsheet format with Aspose.Cells. You create or load a Workbook, populate the worksheet with data, and then call the `save` method while specifying `SaveFormat.DBF` as the target format.
@@ -83,6 +87,7 @@ To create a DBF file, follow these steps:
 The following example demonstrates how to create a new DBF file from scratch. It populates a worksheet with sample data containing different data types (strings, numbers, and dates) to illustrate how field types are handled when exporting to the DBF format.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
@@ -128,11 +133,12 @@ worksheet.getCells().setColumnWidth(1, 20);
 worksheet.getCells().setColumnWidth(2, 20);
 worksheet.getCells().setColumnWidth(3, 12);
 worksheet.getCells().setColumnWidth(4, 14);
-workbook.save(filePath, AsposeCells.SaveFormat.Dbf);
+workbook.save(filePath, AsposeCells.SaveFormat.DBF);
 ```
 
 {{% alert color="primary" %}}
 When writing data to a DBF file, ensure that your data conforms to the format's limitations. Field names should be no longer than 10 characters and should not contain spaces. Records exceeding 4000 bytes in total will not be saved correctly. Dates should be valid date values that can be represented in the YYYYMMDD format.
+{{% /alert %}}
 
 ## **Data Type and Formatting Considerations**
 When transferring data between Aspose.Cells and the DBF format, understanding how data types map between the two systems is important for ensuring data integrity.
@@ -159,10 +165,5 @@ After writing a DBF file, you can verify the result by opening it in Microsoft E
 
 ## **Converting Between DBF and Other Formats**
 One of the most practical use cases for reading and writing DBF files with Aspose.Cells is converting data between the DBF format and modern spreadsheet formats such as XLSX, XLS, or CSV. Since Aspose.Cells supports a wide range of formats, you can easily load a DBF file and re-save it in any other supported format, or vice versa.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

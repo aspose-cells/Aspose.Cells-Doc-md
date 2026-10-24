@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, DBF (dBASE) dosyalarını okuma ve yazma için tam destek sağlar. Mevcut dBASE III ve dBASE IV dosyalarını bir Workbook nesnesine yükleyebilir, zengin Aspose.Cells API'sini kullanarak verileri düzenleyebilir ve çalışma kitabını eski veritabanı uygulamalarıyla kullanılmak üzere tekrar DBF biçiminde kaydedebilirsiniz.
+{{% /alert %}}
 
 ## **Giriş**
 DBF (DataBase File), başlangıçta 1980'lerin başında dBASE tarafından kullanıma sunulmuş eski bir veritabanı dosya biçimidir. Biçimin eski olmasına rağmen, DBF dosyaları özellikle muhasebe, CBS ve diğer özel uygulamalar olmak üzere yapılandırılmış verileri depolamak için birçok sektörde hâlâ yaygın olarak kullanılmaktadır. Aspose.Cells, bu eski dosyaları modern Node.js via C++ elektronik tablo iş akışlarına sorunsuz bir şekilde entegre etmenize olanak tanır.
@@ -49,7 +50,7 @@ Bir DBF dosyasını okumak için bir `LoadOptions` örneği oluşturmanız, `Loa
 Aşağıdaki örnek, mevcut bir DBF dosyasının Aspose.Cells'e nasıl yükleneceğini, ilk çalışma sayfasına nasıl erişileceğini ve hücre değerlerinin nasıl okunacağını göstermektedir.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 const dataDir = "Data/";
 const filePath = path.join(dataDir, "example.dbf");
@@ -80,6 +81,7 @@ console.log("DBF file loaded successfully. Converted XLSX saved at: " + outputPa
 
 {{% alert color="primary" %}}
 DBF dosyalarını, Open (Aç) iletişim kutusunda dosyayı seçerek doğrudan Microsoft Excel'de açabilirsiniz. Excel, DBF dosyasını bir elektronik tablo gibi değerlendirerek kayıtlarını tablo düzeninde görüntüleyecektir. Bu, Aspose.Cells ile okuduktan veya yazdıktan sonra verileri hızlı bir şekilde doğrulamak için kullanışlıdır.
+{{% /alert %}}
 
 ## **DBF Dosyası Yazma**
 DBF dosyasına veri yazma işlemi, Aspose.Cells ile herhangi bir elektronik tablo biçimini kaydetmeye benzer bir kalıp izler. Bir Workbook oluşturur veya yüklersiniz, çalışma sayfasını verilerle doldurursunuz ve ardından hedef biçim olarak `SaveFormat.Dbf` belirterek `save` yöntemini çağırırsınız.
@@ -93,7 +95,7 @@ Bir DBF dosyası oluşturmak için şu adımları izleyin:
 Aşağıdaki örnek, sıfırdan yeni bir DBF dosyasının nasıl oluşturulacağını göstermektedir. DBF biçimine dışa aktarırken alan türlerinin nasıl işlendiğini göstermek için farklı veri türleri (dizeler, sayılar ve tarihler) içeren örnek verilerle bir çalışma sayfasını doldurur.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const path = require("path");
 const fs = require("fs");
 const outputDir = "C:\\Output\\";
@@ -151,6 +153,7 @@ workbook.save(filePath, AsposeCells.SaveFormat.Dbf);
 
 {{% alert color="primary" %}}
 DBF dosyasına veri yazarken, verilerinizin biçimin sınırlamalarına uygun olduğundan emin olun. Alan adları 10 karakterden uzun olmamalı ve boşluk içermemelidir. Toplamda 4000 baytı aşan kayıtlar doğru şekilde kaydedilmeyecektir. Tarihler, YYYYAAGG biçiminde temsil edilebilen geçerli tarih değerleri olmalıdır.
+{{% /alert %}}
 
 ## **Veri Türü ve Biçimlendirme Dikkat Edilecek Hususlar**
 Aspose.Cells ile DBF biçimi arasında veri aktarırken, veri bütünlüğünü sağlamak için veri türlerinin iki sistem arasında nasıl eşlendiğini anlamak önemlidir.
@@ -178,10 +181,5 @@ Bir DBF dosyası yazdıktan sonra, sonucu Microsoft Excel'de veya herhangi bir d
 ## **DBF ve Diğer Biçimler Arasında Dönüştürme**
 Aspose.Cells ile DBF dosyalarını okumanın ve yazmanın en pratik kullanım alanlarından biri, verileri DBF biçimi ile XLSX, XLS veya CSV gibi modern elektronik tablo biçimleri arasında dönüştürmektir. Aspose.Cells çok çeşitli biçimleri desteklediğinden, bir DBF dosyasını kolayca yükleyebilir ve desteklenen herhangi bir başka biçimde yeniden kaydedebilir veya bunun tersini yapabilirsiniz.
 Örneğin, bir DBF dosyasını okuyabilir, Aspose.Cells API'sini kullanarak biçimlendirme veya hesaplamalar uygulayabilir ve ardından modern elektronik tablo uygulamalarıyla çalışan kullanıcılara dağıtmak üzere sonucu bir XLSX dosyası olarak kaydedebilirsiniz. Tersine, bir XLSX veya CSV dosyasından veri alabilir ve eski sistemlerle entegrasyon için bunu DBF biçiminde dışa aktarabilirsiniz.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

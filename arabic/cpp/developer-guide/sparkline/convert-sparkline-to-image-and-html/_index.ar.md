@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 تُعد Sparklines رسومًا بيانيةً مصغّرةً تُوضع داخل خلايا ورقة العمل. يتيح لك Aspose.Cells استخراج كل Sparkline كصورة مستقلة (لتضمينها في خلية أخرى أو تقرير خارجي) كما يتيح تصدير ورقة العمل بأكملها الغنية بـ Sparkline إلى HTML للتوزيع عبر المتصفح. خاصية `Cell.EmbeddedImage` المستخدمة في هذه المقالة متاحة بدءًا من **Aspose.Cells 26.5 والإصدارات الأحدث**.
+{{% /alert %}}
 
 ## **المقدمة**
 تُعد Sparklines طريقةً مدمجةً لتصور الاتجاهات مباشرةً داخل ورقة العمل. وبينما يراها مستخدمو Excel في مكانها، تتطلب سيناريوهات واقعية عديدة أن تغادر Sparkline الخلية — على سبيل المثال، لتُدمج في خلية مختلفة كصورة ثابتة، أو تُرفق في رسالة بريد إلكتروني آلية، أو تُعرض كجزء من تقرير HTML منشور على الويب.
@@ -83,6 +84,7 @@ int main() {
 
 {{% alert color="primary" %}}
 نظرًا لأن كل مجموعة Sparkline مُرساة في خلية واحدة، يمكنك الوصول إليها عبر المُفهرس `group.Sparklines[0]` بدلاً من العدّ بـ `foreach`. يحافظ ذلك على قصر كود العرض ويطابق النمط المعتاد وهو "Sparkline واحدة لكل خلية مُرساة". يتطلب تخزين بايتات الصورة عبر `Cell.EmbeddedImage` الإصدار Aspose.Cells 26.5 أو أحدث.
+{{% /alert %}}
 
 ## **سير العمل 2 — تصدير ورقة عمل Sparkline إلى HTML**
 بمجرد أن يحتوي المصنف على Sparklines حيّة (وبشكل اختياري، نظائرها من الصور المُدمجة)، يمكن نشر ورقة العمل بأكملها على الويب بحفظها بصيغة HTML. يكشف صنف `HtmlSaveOptions` عن الأدوات التي تحتاجها للتحكم في هذا التصدير؛ في سير العمل هذا، ستُعيد استخدام ملف `output_with_sparklines.xlsx` الذي أنتجه سير العمل 1 وتحوله إلى مستند HTML نظيف بصفحة واحدة.
@@ -111,6 +113,7 @@ int main() {
 
 {{% alert color="primary" %}}
 يقدّم صنف `HtmlSaveOptions` خصائص إضافية لضبط المخرجات بدقة، مثل `ExportHiddenWorksheet` و`ExportImagesAsBase64` و`Encoding`. اضبطها حسب الحاجة وفقًا لهدف النشر لديك.
+{{% /alert %}}
 
 ## **ملخص واجهات برمجة التطبيقات**
 تعتمد سيرَا العمل أعلاه على مجموعة صغيرة من واجهات Aspose.Cells التي تعمل معًا.
@@ -124,10 +127,5 @@ int main() {
 - [Sparklines في Aspose.Cells for C++](/cells/ar/cpp/sparkline/)
 - [إدراج صورة داخل خلية](/cells/ar/cpp/inserting-an-image-into-a-cell/)
 - [عرض مصفوفة الخلية الواحدة في SmartMarker | Aspose.Cells for C++](/cells/ar/cpp/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

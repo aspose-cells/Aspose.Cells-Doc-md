@@ -89,6 +89,73 @@ workbook.Save("output.xls");
 
 ## **تطبيق نمط جدول محوري مسمى مسبق حديث**
 
+يحدد `PivotTable.PivotTableStyleType` أحد أنماط التسمية المدمجة التي أدخلها Excel 2007 للجداول المحورية. يعرض تعداد `PivotTableStyleType` ثلاث عائلات من السمات: العائلة الفاتحة من `PivotTableStyleLight1` إلى `PivotTableStyleLight28`، والعائلة المتوسطة من `PivotTableStyleMedium1` إلى `PivotTableStyleMedium28`، والعائلة الداكنة من `PivotTableStyleDark1` إلى `PivotTableStyleDark28`. كما يحدد `None` و`Custom`. إن أعضاء كل عائلة الذين يحملون أرقامًا أعلى هم الأنماط التي أضافها Excel 2017.
+هذه الإعدادات المسبقة للقراءة فقط. متى احتجت إلى تغيير الألوان أو الحدود أو الخطوط بما يتجاوز ما توفره الإعدادات المسبقة، عليك تعريف نمط جدول محوري مخصص بدلاً من ذلك، كما هو موضح في [المشهد 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**لماذا الإعدادات المسبقة الحديثة، وليس التنسيقات التلقائية لسلسلة التقارير؟** قيم `Report1` إلى `Report10` و`Table1` إلى `Table10` الخاصة بـ`PivotTableAutoFormatType` تسبق حقول أعمدة الجداول المحورية، لذا لا تتضمن أي تنسيق لرؤوس حقول الأعمدة، ويعرض Excel تلك الرؤوس دون تنسيق. صُممت الإعدادات المسبقة `PivotTableStyleType` للتخطيط ثنائي الأبعاد الذي يستخدمه Excel الحديث، وتنسق رؤوس حقول الصفوف وحقول الأعمدة على حد سواء.
+{{% /alert %}}
+
+يعيد هذا المشهد استخدام مجموعة بيانات Fruit/Year/Amount من المشهد 1، ويضيف `Year` إلى منطقة الأعمدة إلى جانب حقل الصف `Fruit` عبر `PivotFieldType.Column`، ويطبق الإعداد المسبق `PivotTableStyleDark1` ذي السمة الداكنة باستخدام `PivotTable.PivotTableStyleType`، ويحفظ النتيجة بصيغة `.xlsx` — وهي الصيغة التي يكون فيها `PivotTableStyleType` ذا معنى.
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+// السيناريو 2: تطبيق نمط حديث مُعد مسبقًا ومُسمّى في Excel 2007+ باستخدام PivotTableStyleType.
+// تنسيق الملف الهدف: .xlsx. يقع تعداد PivotTableStyleType في مساحة الاسم Aspose.Cells
+// (وليس في Aspose.Cells.Pivot) -- ولهذا لا نحتاج إلى أي عبارة using إضافية.
+// مرجع GitHub: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.Worksheets[0];
+// صف الرأس: Fruit / Year / Amount
+worksheet.Cells["A1"].PutValue("Fruit");
+worksheet.Cells["B1"].PutValue("Year");
+worksheet.Cells["C1"].PutValue("Amount");
+// 9 صفوف بيانات من Fruit / Year / Amount
+worksheet.Cells["A2"].PutValue("Grape");
+worksheet.Cells["B2"].PutValue(2020);
+worksheet.Cells["C2"].PutValue(100);
+worksheet.Cells["A3"].PutValue("Blueberry");
+worksheet.Cells["B3"].PutValue(2020);
+worksheet.Cells["C3"].PutValue(150);
+worksheet.Cells["A4"].PutValue("Kiwi");
+worksheet.Cells["B4"].PutValue(2020);
+worksheet.Cells["C4"].PutValue(200);
+worksheet.Cells["A5"].PutValue("Cherry");
+worksheet.Cells["B5"].PutValue(2020);
+worksheet.Cells["C5"].PutValue(180);
+worksheet.Cells["A6"].PutValue("Grape");
+worksheet.Cells["B6"].PutValue(2021);
+worksheet.Cells["C6"].PutValue(120);
+worksheet.Cells["A7"].PutValue("Blueberry");
+worksheet.Cells["B7"].PutValue(2021);
+worksheet.Cells["C7"].PutValue(170);
+worksheet.Cells["A8"].PutValue("Kiwi");
+worksheet.Cells["B8"].PutValue(2021);
+worksheet.Cells["C8"].PutValue(210);
+worksheet.Cells["A9"].PutValue("Cherry");
+worksheet.Cells["B9"].PutValue(2021);
+worksheet.Cells["C9"].PutValue(190);
+worksheet.Cells["A10"].PutValue("Grape");
+worksheet.Cells["B10"].PutValue(2021);
+worksheet.Cells["C10"].PutValue(130);
+// أضف جدولًا محوريًا عند E3 باسم "Pivot1"، بمصدر A1:C10
+int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// عين حقول الجدول المحوري: Fruit -> منطقة الصفوف، Year -> منطقة الأعمدة، Amount -> منطقة البيانات
+pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
+pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+// تطبيق نمط جدول محوري حديث مُعد مسبقًا ومُسمّى في Excel 2007+.
+// PivotTableStyleType هي واجهة API الصحيحة لملفات .xlsx / .xlsm / .xlsb؛ يتم تجاهل AutoFormatType
+// بواسطة Excel بهذه التنسيقات. تنتمي PivotTableStyleDark1 إلى عائلة المظهر الداكن
+// (PivotTableStyleDark1..PivotTableStyleDark28)، ويوفّر التعداد نفسه أيضًا
+// سمات Excel 2017 الأحدث ذات المظهر الفاتح/الداكن (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
+// احفظ بصيغة .xlsx الحديثة -- هذا هو التنسيق الذي يكون فيه PivotTableStyleType ذا معنى.
+workbook.Save("output.xlsx");
+```
 ## **تحديد نمط جدول محوري مخصص وتطبيقه**
 لا يمكن تعديل الإعدادات المسبقة المدمجة. كلما احتجت إلى تجاوز الألوان أو الحدود أو الخطوط، يجب تحديد نمط محوري مخصص. تتكون سير العمل من ثلاث خطوات:
 1. أضف نمطًا مخصصًا إلى مجموعة `TableStyles` الخاصة بالمصنف عبر `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)`. يُرجع ذلك فهرس النمط الذي تم إنشاؤه حديثًا.
@@ -97,10 +164,9 @@ workbook.Save("output.xls");
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` و`PivotTableStyleType` ليسا قابلين للتبادل. استخدم `PivotTableStyleType` للإعدادات المسبقة المدمجة، واستخدم `PivotTableStyleName` للأنماط المخصصة التي قمت بتعريفها من خلال `AddPivotTableStyle`. تعيين كليهما غير ضار، ولكن يُعرض فقط النمط المطابق للمصدر المقصود.
-{{% /alert %}}
-
 تتضمن قيم `TableStyleElementType` المتاحة: `WholeTable`، و`FirstRow`، و`LastRow`، و`FirstColumn`، و`LastColumn`، و`GrandTotalRow`، و`GrandTotalColumn`، و`PageFieldLabels`، و`PageFieldValues`.
 يحدد المثال التالي نمطًا محوريًا مخصصًا بحد أسود رفيع على `WholeTable` وخط أحمر عريض على `GrandTotalRow`، ثم يطبّقه عبر `PivotTableStyleName` ويحفظ بصيغة `.xlsx`.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -179,9 +245,8 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 يتجاوز `FormatAll` كلًا من `PivotTableStyleType` و`PivotTableStyleName`. استخدمه فقط عند الحاجة إلى مظهر موحّد ومستقل عن السمة في جميع أنحاء الجدول المحوري.
-{{% /alert %}}
-
 ينشئ المثال التالي `Style` بتعبئة صلبة باللون الأصفر، وخط عريض بلون أزرق داكن، وحدود سوداء رفيعة على جميع الجوانب، ثم يطبّقه باستخدام `FormatAll` ويحفظ بصيغة `.xlsx`.
+{{% /alert %}}
 
 ```csharp
 using System;

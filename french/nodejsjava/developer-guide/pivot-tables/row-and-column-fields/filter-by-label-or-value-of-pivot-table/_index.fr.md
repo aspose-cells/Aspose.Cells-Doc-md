@@ -30,6 +30,7 @@ Aspose.Cells expose le filtrage par étiquette via la méthode `PivotField.filte
 L'exemple suivant charge un classeur contenant un tableau croisé dynamique existant, applique un filtre d'étiquette afin que seuls les éléments dont les libellés commencent par un préfixe spécifié restent visibles, actualise le tableau croisé dynamique et enregistre le résultat.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
 // Charger le classeur existant contenant un tableau croisé dynamique
@@ -41,7 +42,7 @@ let pivotTable = worksheet.getPivotTables().get(0);
 // Récupérer le premier PivotField de ligne
 let rowField = pivotTable.getRowFields().get(0);
 // Appliquer le filtre d'étiquette — afficher uniquement les éléments de ligne dont les étiquettes commencent par le préfixe fourni
-rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
+rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
 // Actualiser et recalculer les données du tableau croisé dynamique pour que le filtre prenne effet
 pivotTable.getPivotCache().refresh();
 // Enregistrer le classeur sur le disque
@@ -53,12 +54,13 @@ Les filtres de date vous permettent de restreindre un tableau croisé dynamique 
 
 {{% alert color="primary" %}}
 Le filtre de date ne fonctionne que lorsque la zone de ligne ou de colonne contient uniquement des cellules de type date-heure ou des valeurs vides. Si le champ sous-jacent contient d'autres types de données, tels que des nombres ou du texte, le filtre de date ne produira pas le résultat attendu. Assurez-vous que le champ est formaté en tant que date et que toutes les valeurs sont des instances `DateTime` valides ou des cellules vides avant d'appliquer ce filtre.
-{{% /alert %}}
-
 Aspose.Cells expose le filtrage par date via la méthode `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. L'énumération `PivotFilterType` contient des valeurs de date dédiées telles que `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear`, et `Between`. Selon le type de filtre choisi, vous passez une ou deux valeurs `DateTime` (pour `Between`, vous passez les dates de début et de fin).
 L'exemple suivant charge un classeur avec un tableau croisé dynamique dont la zone de ligne contient un champ de date, applique un filtre de date qui restreint les éléments visibles à une plage de dates particulière, actualise le tableau croisé dynamique et enregistre le classeur.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
 let inputPath = "sample.xlsx";
 let outputPath = "output_filtered.xlsx";
 if (!fs.existsSync(inputPath))
@@ -78,7 +80,7 @@ let dateField = pivotTable.getRowFields().get(0);
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
 // Appliquer le filtre de date sur le champ croisé dynamique
-dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
+dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
 // Actualiser et recalculer le tableau croisé dynamique pour que le filtre prenne effet
 pivotTable.getPivotCache().refresh();
 // Enregistrer le classeur
@@ -91,6 +93,7 @@ Aspose.Cells expose le filtrage par valeur via la méthode `PivotField.filterByV
 L'exemple suivant charge un classeur avec un tableau croisé dynamique, applique un filtre de valeur qui ne conserve que les éléments dont les ventes agrégées dépassent un seuil numérique, actualise le tableau croisé dynamique et enregistre le classeur.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook("sample.xlsx");
 var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
@@ -108,7 +111,7 @@ for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 }
 if (dataFieldIndex >= 0)
 {
-    rowField.filterByValue(dataFieldIndex, AsposeCells.Pivot.PivotFilterType.ValueGreaterThan, 5000, Number.MAX_VALUE);
+    rowField.filterByValue(dataFieldIndex, AsposeCells.PivotFilterType.VALUE_GREATER_THAN, 5000, Number.MAX_VALUE);
 }
 pivotTable.getPivotCache().refresh();
 workbook.save("output.xlsx");
@@ -119,12 +122,12 @@ Le filtre des 10 premiers est une forme spécialisée de filtre de valeur qui ne
 
 {{% alert color="primary" %}}
 Le filtre des 10 premiers n'est efficace que lorsque le tableau croisé dynamique possède un ou plusieurs champs de valeur dans la zone de données. Sans au moins un champ de valeur, il n'y a pas de mesure agrégée pour classer les éléments, et le filtre ne peut pas être appliqué.
-{{% /alert %}}
-
 Aspose.Cells expose le filtrage des 10 premiers via la méthode `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Le paramètre `itemCount` définit combien d'éléments conserver, `isTop` indique s'il faut conserver les éléments du haut (true) ou du bas (false), `valueField` référence le champ de données utilisé pour le classement, et `filterType` contrôle la manière dont la valeur est calculée (généralement `Sum`, mais aussi `Count` et `Percent`).
 L'exemple suivant charge un classeur avec un tableau croisé dynamique contenant un champ de valeur, applique un filtre des 10 premiers pour ne conserver que les 10 éléments les plus élevés selon la somme des ventes, actualise le tableau croisé dynamique et enregistre le classeur.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
@@ -144,10 +147,10 @@ let rowField = pivotTable.getRowFields().get(0);
 let valueFieldIndex = 0;
 // Appliquer le filtre Top 10 sur le champ de ligne :
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (top N ; false signifierait bottom N)
 //   - valueFieldIndex = l'index du champ de données utilisé pour classer les éléments
-rowField.filterTop10(10, AsposeCells.PivotFilterType.Sum, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.SUM, true, 10);
 // Actualiser les données du tableau croisé dynamique et les recalculer pour que le filtre prenne effet
 pivotTable.getPivotCache().refresh();
 // Enregistrer le classeur
@@ -159,6 +162,7 @@ En plus des API de filtrage structuré, Aspose.Cells vous permet de contrôler d
 Cette approche est utile lorsque la règle de filtrage est irrégulière ou spécifique à un élément, par exemple masquer un petit nombre de catégories nommées qui ne doivent pas apparaître dans un rapport particulier. L'exemple ci-dessous charge un tableau croisé dynamique, masque un élément spécifique par son nom, montre comment l'afficher à nouveau, actualise le tableau croisé dynamique et enregistre le classeur.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
 // Accéder à la première feuille de calcul qui contient le tableau croisé dynamique
 let sheet = workbook.getWorksheets().get(0);
@@ -172,15 +176,15 @@ for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
     // Masquer les éléments du tableau croisé dynamique qui correspondent à un nom/critère spécifique
     if (item.getName() == "Item1" || item.getName() == "Item2") {
-        item.setIsHidden(true);
+        item.setHidden(true);
     }
     // Démontrer le réaffichage : ré-afficher un élément précédemment masqué du tableau croisé dynamique
     if (item.getName() == "Item3") {
-        item.setIsHidden(false);
+        item.setHidden(false);
     }
 }
 // Actualiser et recalculer le tableau croisé dynamique pour que les modifications prennent effet
-pivotTable.getPivotCache().refreshData();
+pivotTable.getPivotCache().refresh();
 // Enregistrer le classeur — les éléments masqués restent dans les données sous-jacentes
 // mais sont exclus de l'affichage du tableau croisé dynamique
 workbook.save("output_pivot_filtered.xlsx");

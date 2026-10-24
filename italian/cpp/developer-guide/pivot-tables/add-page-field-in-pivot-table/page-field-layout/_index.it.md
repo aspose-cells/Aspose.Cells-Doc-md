@@ -129,6 +129,7 @@ In questo esempio posizioniamo `Fruit` sull'asse delle righe, `Year` e `Region` 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -251,4 +252,4 @@ int main() {
 - [Aggiornare la Tabella Pivot](/cells/it/cpp/refresh-pivot-table/) — spiega `RefreshData` e `CalculateData`, che sono necessari dopo il riordino dei campi pagina.
 - [Applicare uno Stile alla Tabella Pivot](/cells/it/cpp/apply-style-to-pivot-table/) — mostra come formattare la tabella pivot visualizzata dopo che la striscia dei campi pagina è stata disposta.
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

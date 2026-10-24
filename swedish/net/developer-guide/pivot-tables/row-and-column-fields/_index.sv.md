@@ -202,6 +202,15 @@ workbook.Save("output_custom.xlsx");
 
 ## **Sammanfattning**
 
+De tre scenario skiljer sig i en enda sak: `SetSubtotals`-anropen. Allt annat — datasetet, fälten och de områden de tilldelas till — är identiskt, vilket gör att layouterna kan jämföras direkt.
+- **Placering av fält.** `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` flyttar en källkolumn till ett område. Inom ett och samma område är anropsordningen den visuella ordningen, så det första anropet blir den yttre gruppen. Subtotaler kräver två eller fler fält i samma område: med ett enda fält finns det inget mellan grupperna att summera.
+- **Scenario 1 — automatiska subtotaler.** Om `SetSubtotals` inte anropas lämnas valet till Excel, som tillämpar sin egen standardsubtotale för numeriska fält. Genom att anropa `SetSubtotals` med `PivotFieldSubtotalType.Automatic` registreras detta val explicit istället för att lämna det implicit.
+- **Scenario 2 — inga subtotaler.** `SetSubtotals` med `PivotFieldSubtotalType.None` inaktiverar standardsubtotale, så pivottabellen behåller fältraderna och summan, men utelämnar de subtotalrader som Excel annars skulle infoga mellan dem.
+- **Scenario 3 — ett valt urval.** Varje anrop växlar exakt en subtotaltyp, och anropen ackumuleras snarare än att återställa varandra. Att anropa den en gång med `PivotFieldSubtotalType.Sum` och en gång med `PivotFieldSubtotalType.Average` lämnar båda aktiverade, och pivottabellen visar en Sum-subtotale, en Average-subtotale och en summa.
+
+{{% alert color="primary" %}}
+Inget i subtotalfrågan är specifikt för radområdet. Samma `SetSubtotals`-anrop på ett fält hämtat från `PivotTable.ColumnFields` producerar samma tre layouter på_axeln, eftersom inställningen hör till pivottabellsfältet och inte till axeln det sitter på.
+{{% /alert %}}
 ## **Relaterade artiklar**
 - [Sidfält i pivottabeller](/cells/sv/net/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells for .NET](/cells/sv/net/refresh-pivot-table/)

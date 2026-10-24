@@ -83,6 +83,7 @@ The code above produces a workbook where each visual representation of a sparkli
 
 {{% alert color="primary" %}}
 Because each sparkline group is anchored to a single cell, you can address it through the indexer `group.Sparklines[0]` instead of enumerating with `foreach`. This keeps the rendering code short and matches the typical "one sparkline per anchor cell" pattern. Storing the picture bytes via `Cell.EmbeddedImage` requires Aspose.Cells 26.5 or later.
+{{% /alert %}}
 
 ## **Workflow 2 — Export the Sparkline Worksheet to HTML**
 Once the workbook contains live sparklines (and optionally embedded picture counterparts), the entire worksheet can be published to the web by saving it as HTML. The `HtmlSaveOptions` class exposes the knobs you need to control this export; in this workflow you will reuse the `output_with_sparklines.xlsx` file produced by Workflow 1 and convert it to a clean, single-page HTML document.
@@ -108,10 +109,10 @@ int main() {
 ```
 
 The code above takes the sparkline-rich workbook from Workflow 1 and turns it into a portable HTML file. Sparklines are preserved as inline SVG or PNG renderings inside the generated HTML, depending on the export mode, so end users can view the trends in any modern browser without needing Excel installed. By setting `ExportActiveWorksheetOnly` to `true`, you avoid accidentally publishing hidden sheets or auxiliary data — only the worksheet currently visible to the user is exported.
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 The `HtmlSaveOptions` class offers additional properties for fine-tuning the output, such as `ExportHiddenWorksheet`, `ExportImagesAsBase64`, and `Encoding`. Adjust these as needed for your deployment target.
+{{% /alert %}}
 
 ## **API Summary**
 The workflows above rely on a small set of Aspose.Cells APIs working together.
@@ -123,6 +124,5 @@ The workflows above rely on a small set of Aspose.Cells APIs working together.
 
 ## **Related Articles**
 - [Inserting an Image into a Cell](/cells/cpp/inserting-an-image-into-a-cell/)
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

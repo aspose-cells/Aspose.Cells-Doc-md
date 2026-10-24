@@ -48,7 +48,7 @@ Après la transposition, la même plage d'ancrage contient les données pivotée
 const AsposeCells = require("aspose.cells");
 const srcFile = "source.xlsx";
 const outputFile = "transposed.xlsx";
-const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
+const loadOptions = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX);
 const workbook = new AsposeCells.Workbook(srcFile, loadOptions);
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();
@@ -79,11 +79,11 @@ Cette approche fonctionne **uniquement sur Excel 365 / 2021 ou version ultérieu
 const AsposeCells = require("aspose.cells");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
-const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
+const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX));
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();
 cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", new AsposeCells.FormulaParseOptions(), true);
-workbook.save(outFile, AsposeCells.SaveFormat.Xlsx);
+workbook.save(outFile, AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Approche 3 — Transposer avec une formule matricielle classique (CSE)**
@@ -107,7 +107,7 @@ Les formules matricielles CSE représentent la méthode classique d'évaluation 
 const AsposeCells = require("aspose.cells");
 // Charger le classeur source avec les options de chargement xlsx
 const srcFile = "source.xlsx";
-const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
+const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX));
 // Accéder à la première feuille de calcul et à sa collection Cells
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();

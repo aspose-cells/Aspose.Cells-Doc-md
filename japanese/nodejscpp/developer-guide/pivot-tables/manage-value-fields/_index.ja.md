@@ -14,7 +14,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 データ（値）領域に基本フィールドを追加することは、ピボットテーブルがソースデータを集計する方法を形作る最初のステップです。Aspose.Cells では、定数 `PivotFieldType.Data` とソース列の名前を受け取るオーバーロード `PivotTable.AddFieldToArea(PivotFieldType, string)` が公開されています。フィールドがデータ領域に追加されると、API は `PivotTable.DataFields` コレクションを通じて、フィールドが追加された順にそのフィールドを公開します。既定では、数値型のソース列は `Sum` で集計され、数値型以外の列は既定で `Count` になります。
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -51,11 +51,11 @@ workbook.save("output_drag.xlsx");
 フィールドがデータ領域に存在する場合、Aspose.Cells は `PivotTable.DataFields` 上の `PivotField` オブジェクトを通じてそのフィールドを公開します。各 `PivotField` には、`ConsolidationFunction` 型の書き込み可能な `Function` プロパティがあり、そのフィールドの基になる値に適用される集計を制御します。`ConsolidationFunction` は、`Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var`、`Varp` のメンバーを持つ列挙型です。最初の 6 つは実際の使用例の大部分をカバーし、最後の 4 つは分散分析に役立つ統計的な集計です。
 
 {{% alert color="primary" %}}
-`Function` を変更しても集計のみに影響し、ソース列やピボットの行/列構造は変更されません。既存のデータフィールドの集計を切り替えるには、`pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` を設定し、その後 `pivotTable.CalculateData()` を呼び出してピボットを再レンダリングします。
+`Function` を変更しても集計のみに影響し、ソース列やピボットの行/列構造は変更されません。既存のデータフィールドの集計を切り替えるには、`pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` を設定し、その後 `pivotTable.calculateData()` を呼び出してピボットを再レンダリングします。
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -98,7 +98,7 @@ workbook.save("output_function.xlsx");
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

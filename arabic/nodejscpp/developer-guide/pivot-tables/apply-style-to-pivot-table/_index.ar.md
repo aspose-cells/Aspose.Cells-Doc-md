@@ -17,8 +17,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **المقدمة**
 يكشف Aspose.Cells عن واجهتي API متوازيتين للأنماط الخاصة بالجداول المحورية. يعتمد الاختيار بينهما على تنسيق الملف الذي تحفظ المصنف به، وليس على التنسيق الذي تقرأه منه. يمكن إعادة حفظ مصنف تم تحميله من ملف `.xls` بصيغة `.xlsx`، وفي هذه الحالة تُطبَّق واجهة API الحديثة للأنماط بدلاً من واجهة API القديمة.
 - يحدد `PivotTable.PivotTableStyleType` أحد الأنماط المسماة المدمجة (السمات الفاتحة والداكنة، بما في ذلك الأنماط المُضافة في Excel 2017). هذه الإعدادات المسبقة للقراءة فقط.
-- يحدد `PivotTable.PivotTableStyleName` نمطًا مخصصًا تُعرِّفه بنفسك من خلال `Workbook.Worksheets.TableStyles.AddPivotTableStyle(...)`. تُعد الأنماط المخصصة ضرورية كلما أردت تعديل الألوان أو الحدود أو الخطوط بما يتجاوز ما تقدمه الإعدادات المسبقة.
-بالإضافة إلى ذلك، يُعد `PivotTable.FormatAll(Style)` اختصارًا يطبّق كائن `Style` واحدًا على كل خلية من خلايا الجدول المحوري، متجاوزًا أي شيء يتم تعيينه من خلال أيٍّ من واجهتي API لاسم النمط المذكورتين أعلاه. يكون ذلك مفيدًا عند الحاجة إلى مظهر موحد بصرف النظر عن السمة الأساسية.
+- يحدد `PivotTable.PivotTableStyleName` نمطًا مخصصًا تُعرِّفه بنفسك من خلال `Workbook.Worksheets.TableStyles.addPivotTableStyle(...)`. تُعد الأنماط المخصصة ضرورية كلما أردت تعديل الألوان أو الحدود أو الخطوط بما يتجاوز ما تقدمه الإعدادات المسبقة.
+بالإضافة إلى ذلك، يُعد `PivotTable.formatAll(Style)` اختصارًا يطبّق كائن `Style` واحدًا على كل خلية من خلايا الجدول المحوري، متجاوزًا أي شيء يتم تعيينه من خلال أيٍّ من واجهتي API لاسم النمط المذكورتين أعلاه. يكون ذلك مفيدًا عند الحاجة إلى مظهر موحد بصرف النظر عن السمة الأساسية.
 
 ## **تطبيق تنسيق تلقائي مسبق الضبط قديم في XLS**
 يقبل `PivotTable.AutoFormatType` قيمة من تعداد `Aspose.Cells.Pivot.PivotTableAutoFormatType`. القيم المتاحة هي `Report1` إلى `Report10`، و`Classic`، و`Table1` إلى `Table10`.
@@ -29,7 +29,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // السيناريو 1: تطبيق تنسيق تلقائي جاهز من إصدارات XLS القديمة
 // واجهة برمجة التطبيقات المستخدمة: PivotTable.AutoFormatType
 // صيغة الملف الهدف: .xls (إصدار قديم)
@@ -87,20 +87,81 @@ workbook.save("output.xls");
 
 ## **تطبيق نمط جدول محوري حديث مسمى مسبق الضبط**
 
+`PivotTable.pivotTableStyleType` يحدد أحد الأنماط المدمجة ذات الأسماء التي استحدثها Excel 2007 لجداول المحور. يتيح التعداد `PivotTableStyleType` ثلاث عائلات من السمات: العائلة الفاتحة من `PivotTableStyleLight1` إلى `PivotTableStyleLight28`، والعائلة المتوسطة من `PivotTableStyleMedium1` إلى `PivotTableStyleMedium28`، والعائلة الداكنة من `PivotTableStyleDark1` إلى `PivotTableStyleDark28`. كما يحدد `None` و`Custom`. وتُعد العناصر ذات الأرقام الأعلى في كل عائلة الأنماط التي أضافها Excel 2017.
+هذه الأنماط المسبقة للقراءة فقط. وبمجرد حاجتك إلى تغيير الألوان أو الحدود أو الخطوط بما يتجاوز ما توفره الأنماط المسبقة، يجب عليك تعريف نمط محور مخصص بدلاً منها، كما هو موضح في [سيناريو 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**لماذا الأنماط المسبقة الحديثة وليس التنسيقات التلقائية لسلسلة التقارير؟** القيم `Report1` إلى `Report10` و`Table1` إلى `Table10` من `PivotTableAutoFormatType` تسبق حقول أعمدة المحور، لذا لا تحمل أي تنسيقات لرؤوس حقول الأعمدة، ويعرض Excel تلك الرؤوس بلا تنسيق. صُممت الأنماط المسبقة لـ `PivotTableStyleType` لتلائم التخطيط ثنائي الأبعاد الذي يستخدمه Excel الحديث، وتُطبّق التنسيق نفسه على رؤوس حقول الصفوف وحقول الأعمدة.
+{{% /alert %}}
+
+يعيد هذا السيناريو استخدام مجموعة بيانات Fruit/Year/Amount الخاصة بالسيناريو 1، ويضيف `Year` إلى منطقة الأعمدة إلى جانب حقل الصف `Fruit` عبر `PivotFieldType.Column`، ويطبق النمط المسبق `PivotTableStyleDark1` الخاص بالسمة الداكنة باستخدام `pivotTable.setPivotTableStyleType`، ثم يحفظ النتيجة بصيغة `.xlsx` — وهي الصيغة التي يكون فيها `PivotTableStyleType` ذا معنى.
+
+```javascript
+const AsposeCells = require("aspose.cells.node");
+let workbook = new AsposeCells.Workbook();
+let worksheet = workbook.getWorksheets().get(0);
+// Header row: Fruit / Year / Amount
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+// 9 data rows of Fruit / Year / Amount
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(100);
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(150);
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(200);
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(180);
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(120);
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(170);
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(210);
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(190);
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(130);
+// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PivotTableStyleDark1);
+// Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx");
+```
 ## **تعريف وتطبيق نمط جدول محوري مخصص**
 لا يمكن تعديل الإعدادات المسبقة المدمجة. كلما احتجت إلى تجاوز الألوان أو الحدود أو الخطوط، يجب أن تُعرِّف نمط جدول محوري مخصص. تتكون سير العمل من ثلاث خطوات:
-1. أضف نمطًا مخصصًا إلى مجموعة `TableStyles` الخاصة بالمصنف عبر `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)`. يُرجِع هذا الأمر فهرس النمط الذي تم إنشاؤه حديثًا.
+1. أضف نمطًا مخصصًا إلى مجموعة `TableStyles` الخاصة بالمصنف عبر `Workbook.Worksheets.TableStyles.addPivotTableStyle(string name)`. يُرجِع هذا الأمر فهرس النمط الذي تم إنشاؤه حديثًا.
 2. اضبط النمط بإضافة عناصر (مثل `WholeTable` أو `GrandTotalRow`) من خلال `TableStyle.TableStyleElements.Add(TableStyleElementType)`، ثم عيّن كائن `Style` لكل عنصر عبر `TableStyleElement.SetElementStyle(Style)`.
 3. طبِّق النمط المخصص على الجدول المحوري عن طريق تعيين `PivotTable.PivotTableStyleName` إلى اسم النمط. لا تستخدم `PivotTableStyleType` هنا، لأن هذه الخاصية تحدد الإعدادات المسبقة المدمجة.
 
 {{% alert color="primary" %}}
-لا يمكن استخدام `PivotTableStyleName` و`PivotTableStyleType` بالتبادل. استخدم `PivotTableStyleType` للإعدادات المسبقة المدمجة، واستخدم `PivotTableStyleName` للأنماط المخصصة التي تُعرِّفها عبر `AddPivotTableStyle`. تعيين كليهما غير ضار، ولكن يُعرض فقط النمط الذي يطابق المصدر المقصود.
-{{% /alert %}}
-
+لا يمكن استخدام `PivotTableStyleName` و`PivotTableStyleType` بالتبادل. استخدم `PivotTableStyleType` للإعدادات المسبقة المدمجة، واستخدم `PivotTableStyleName` للأنماط المخصصة التي تُعرِّفها عبر `addPivotTableStyle`. تعيين كليهما غير ضار، ولكن يُعرض فقط النمط الذي يطابق المصدر المقصود.
 تتضمن قيم `TableStyleElementType` المتاحة: `WholeTable`، و`FirstRow`، و`LastRow`، و`FirstColumn`، و`LastColumn`، و`GrandTotalRow`، و`GrandTotalColumn`، و`PageFieldLabels`، و`PageFieldValues`.
 يُعرِّف المثال التالي نمط جدول محوري مخصصًا بحد أسود رفيع على `WholeTable`، وخط أحمر عريض على `GrandTotalRow`، ثم يُطبِّقه عبر `PivotTableStyleName` ويحفظه بصيغة `.xlsx`.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // تعبئة البيانات المصدرية: صف العناوين + 9 صفوف بيانات (A1:C10)
@@ -168,16 +229,16 @@ pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
 
-## **تطبيق نمط واحد على كل خلية من الجدول المحوري باستخدام FormatAll**
-يُعد `PivotTable.FormatAll(Style)` اختصارًا يطبّق كائن `Style` واحدًا على كل خلية من خلايا الجدول المحوري، بما في ذلك منطقة البيانات، وترويسات الصفوف والأعمدة، والإجماليات. يتم تجاوز كل ما تم تعيينه مسبقًا عبر `PivotTableStyleType` أو `PivotTableStyleName`.
+## **تطبيق نمط واحد على كل خلية من الجدول المحوري باستخدام formatAll**
+يُعد `PivotTable.formatAll(Style)` اختصارًا يطبّق كائن `Style` واحدًا على كل خلية من خلايا الجدول المحوري، بما في ذلك منطقة البيانات، وترويسات الصفوف والأعمدة، والإجماليات. يتم تجاوز كل ما تم تعيينه مسبقًا عبر `PivotTableStyleType` أو `PivotTableStyleName`.
 
 {{% alert color="primary" %}}
-يتجاوز `FormatAll` كلاً من `PivotTableStyleType` و`PivotTableStyleName`. استخدمه فقط عندما يكون مطلوبًا مظهر موحد ومستقل عن السمة في جميع أنحاء الجدول المحوري.
+يتجاوز `formatAll` كلاً من `PivotTableStyleType` و`PivotTableStyleName`. استخدمه فقط عندما يكون مطلوبًا مظهر موحد ومستقل عن السمة في جميع أنحاء الجدول المحوري.
+يُنشئ المثال التالي كائن `Style` بتعبئة صلبة باللون الأصفر، وخط عريض باللون الأزرق الداكن، وحدود سوداء رفيعة على جميع الجوانب، ثم يُطبِّقه باستخدام `formatAll` ويحفظه بصيغة `.xlsx`.
 {{% /alert %}}
 
-يُنشئ المثال التالي كائن `Style` بتعبئة صلبة باللون الأصفر، وخط عريض باللون الأزرق الداكن، وحدود سوداء رفيعة على جميع الجوانب، ثم يُطبِّقه باستخدام `FormatAll` ويحفظه بصيغة `.xlsx`.
-
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // تعبئة بيانات المصدر: صف العناوين (الصف 1) + 9 صفوف بيانات (الصفوف 2-10)
@@ -245,8 +306,9 @@ workbook.save("output.xlsx");
 |---|---|---|
 | `.xls` (قديم) | `PivotTable.AutoFormatType` | قيم من `Aspose.Cells.Pivot.PivotTableAutoFormatType` (مثل `Report1`–`Report10`، و`Classic`، و`Table1`–`Table10`). يتم تجاهلها عند الحفظ بتنسيقات حديثة. |
 | `.xlsx` / `.xlsm` / `.xlsb` (حديث، نمط مدمج) | `PivotTable.PivotTableStyleType` | قيم من `Aspose.Cells.PivotTableStyleType` (السمات الفاتحة/الداكنة، بما في ذلك إضافات Excel 2017). |
-| `.xlsx` / `.xlsm` / `.xlsb` (حديث، نمط مخصص) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.AddPivotTableStyle(...)` | استخدم عندما لا تكفي الإعدادات المسبقة المدمجة. اضبط عبر `TableStyleElement.SetElementStyle(...)`. |
-| أي تنسيق (تجاوز موحد) | `PivotTable.FormatAll(Style)` | اختصار يتجاوز كل إعداد نمط آخر في جميع أنحاء الجدول المحوري. |
+| `.xlsx` / `.xlsm` / `.xlsb` (حديث، نمط مخصص) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | استخدم عندما لا تكفي الإعدادات المسبقة المدمجة. اضبط عبر `TableStyleElement.SetElementStyle(...)`. |
+| أي تنسيق (تجاوز موحد) | `PivotTable.formatAll(Style)` | اختصار يتجاوز كل إعداد نمط آخر في جميع أنحاء الجدول المحوري. |
 عند الشك، احفظ بصيغة `.xlsx` واستخدم `PivotTableStyleType` للسمات المدمجة، أو `PivotTableStyleName` للسمات المخصصة.
+
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

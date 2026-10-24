@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells offre due modi distinti per associare un'immagine a una singola cella. Un'immagine fluttuante è una forma sul livello di disegno del foglio di lavoro che si sovrappone visivamente a un intervallo di celle, mentre un'immagine incorporata è memorizzata all'interno della cella stessa e si ridimensiona automaticamente in base all'area di visualizzazione della cella. Scegli l'approccio che meglio soddisfa i tuoi requisiti di layout.
+{{% /alert %}}
 
 ## **Introduzione**
 Adattare un'immagine esattamente a una singola cella è un requisito comune quando si progettano fogli di calcolo che fungono da report visivi, cataloghi di prodotti, rubriche dei dipendenti, dashboard o elenchi di inventario. Piuttosto che estendere un'immagine su molte celle o posizionarla liberamente su un foglio di lavoro, potresti desiderare un'immagine pulita, legata alla cella, che rimanga allineata con la cella che la possiede.
@@ -36,6 +37,7 @@ L'ancoraggio dell'immagine è definito da quattro proprietà di indice a base ze
 
 {{% alert color="primary" %}}
 Gli indici di riga e colonna in Aspose.Cells sono **a base zero**. La cella C6 ha indice di riga 5 e indice di colonna 2. Gli errori off-by-one sull'ancoraggio in basso a destra sono la causa più comune di immagini che sembrano sovrapporsi a una cella adiacente.
+{{% /alert %}}
 
 ### **Controllo del comportamento di posizionamento**
 `getPlacement` è un'enumerazione di tipo `PlacementType` che controlla come si comporta l'immagine quando l'utente ridimensiona la riga o la colonna sottostante. Il valore consigliato per un'immagine a cella singola è `PlacementType.MOVE_AND_SIZE`, che fa sì che l'immagine si sposti e si ridimensioni insieme alla cella sottostante, preservando l'adattamento esatto.
@@ -55,7 +57,6 @@ Il codice seguente dimostra l'approccio completo.
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat, PlacementType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -68,10 +69,10 @@ try:
     picture.setUpperLeftColumn(2)
     picture.setLowerRightRow(6)
     picture.setLowerRightColumn(3)
-    picture.setPlacement(PlacementType.MoveAndSize)
+    picture.setPlacement(PlacementType.MOVE_AND_SIZE)
 finally:
     fs.close()
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -111,7 +112,7 @@ cell.setEmbeddedImage(imageData)
 worksheet.getCells().setColumnWidth(2, 30)   # Column C (index 2)
 worksheet.getCells().setRowHeight(5, 100)    # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -126,8 +127,5 @@ Entrambi gli approcci producono un'immagine che si adatta a una singola cella, m
   - Vuoi l'inserimento più semplice possibile di un'immagine in una cella.
   - L'immagine deve viaggiare con la cella come qualsiasi altro contenuto della cella.
   - Non hai bisogno di manipolare l'immagine come una forma.
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

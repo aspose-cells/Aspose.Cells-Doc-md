@@ -20,6 +20,7 @@ Excel çalışma kitaplarını OFD'ye dönüştürmek, elektronik tablo içeriğ
 
 {{% alert color="primary" %}}
 Aspose.Cells tarafından oluşturulan OFD çıktısı, kaynak çalışma kitabının görünür düzenini, hücre içeriği, birleştirilmiş hücreler, sütun genişlikleri ve satır yükseklikleri dahil olmak üzere korur. Yazı tipleri, renkler, kenarlıklar, hizalama ve sayı biçimleri gibi hücre biçimlendirmesi de sabit düzenli çıktıda işlenir. Çalışma sayfasında yapılandırılan kağıt boyutu, yönlendirme ve yazdırma alanı gibi sayfa yapısı seçenekleri, ortaya çıkan OFD belgesinin düzenini etkiler.
+{{% /alert %}}
 
 ## **Excel Çalışma Kitabı Oluşturma ve OFD Olarak Kaydetme**
 Aspose.Cells, bir çalışma kitabını programatik olarak oluşturmanıza, verilerle doldurmanıza ve ardından `SaveFormat.Ofd` numaralandırmasını kullanarak doğrudan OFD biçiminde kaydetmenize olanak tanır. Aşağıdaki örnek sıfırdan bir fatura oluşturur. Bir şirket logosu, başlık bilgileri, fatura alıcısı bölümü, satır öğeleri ve hesaplanan toplamlar ekler, ardından çalışma kitabını bir OFD belgesi olarak dışa aktarır.
@@ -28,6 +29,7 @@ Aspose.Cells, bir çalışma kitabını programatik olarak oluşturmanıza, veri
 Örnek, sol üst alana bir logo görüntüsü ekleyerek bir fatura çalışma sayfası oluşturur, şirket adı ve iletişim bilgilerini doldurur, birleştirilmiş hücreler arasına "INVOICE" (FATURA) başlığı ekler, fatura numarasını ve tarihini kaydeder, fatura alıcısı müşterisini listeler, açıklama, miktar, birim fiyat ve toplam sütunlarıyla bir satır öğeleri tablosu oluşturur ve hücre formülleri kullanarak alt toplam, vergi ve genel toplamı hesaplar. Kalın başlıklar, fiyatlar için para birimi biçimi, kenarlıklar ve sütun genişlikleri gibi biçimlendirme, `Style` ve `Font` nesneleri kullanılarak uygulanır. Son olarak, çalışma kitabı `SaveFormat.Ofd` kullanılarak `.ofd` uzantısıyla kaydedilir.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let dataDir = "C:\\Temp\\";
 // Yeni bir Çalışma Kitabı oluştur
 let workbook = new AsposeCells.Workbook();
@@ -156,9 +158,9 @@ Aspose.Cells ayrıca diskteki mevcut bir Excel çalışma kitabını yükleyebil
 - [Excel Dosyalarını Birden Fazla Dosyaya Bölme](/cells/tr/nodejs-cpp/splitting-excel-files-into-multiple-files/)
 - [Bir Hücreye Görüntü Ekleme](/cells/tr/nodejs-cpp/inserting-an-image-into-a-cell/)
 - [DBF Dosyalarını Okuma ve Yazma](/cells/tr/nodejs-cpp/dbf/)
-{{% /alert %}}`javascript
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook(dataDir + "SampleBook.xlsx");
 // (1) Read and display values from selected cells to confirm the file was loaded
 let firstSheet = workbook.getWorksheets().get(0);
@@ -197,4 +199,4 @@ workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.Ofd);
 console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 ```
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

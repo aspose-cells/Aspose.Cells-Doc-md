@@ -36,7 +36,7 @@ Use este enfoque siempre que desee transponer datos sin involucrar la función d
 `range.transpose()` es un método de instancia en la clase `Aspose.Cells.Range`. Al llamarlo, se voltea el rango en su lugar intercambiando sus filas y columnas, de modo que lo que era una fila se convierte en una columna y lo que era una columna se convierte en una fila. El método modifica las celdas subyacentes directamente sin escribir una fórmula.
 
 ### **Pasos**
-1. Abra el libro de origen con `LoadOptions` establecido en el formato `.xlsx` llamando a `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Abra el libro de origen con `LoadOptions` establecido en el formato `.xlsx` llamando a `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Obtenga la primera hoja de cálculo del libro usando `workbook.worksheets[0]`.
 3. Acceda a la colección de celdas de la hoja de cálculo a través de `worksheet.cells`.
 4. Cree el rango de origen que cubre **A1:D5** llamando a `cells.create_range("A1:D5")`.
@@ -63,7 +63,7 @@ Use este enfoque cuando desee conservar la fórmula `=TRANSPOSE(A1:D5)` como una
 `cell.set_dynamic_array_formula(formula, options, calculate_value)` es un método en `Aspose.Cells.Cell` que establece la fórmula de la celda como una **fórmula de matriz dinámica**. Excel evalúa la fórmula una vez y derrama automáticamente el resultado en las celdas circundantes. El tercer parámetro, cuando se establece en `True`, indica an Aspose.Cells que también calcule los valores resultantes en el momento de la escritura.
 
 ### **Pasos**
-1. Cargue el libro de origen usando `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Cargue el libro de origen usando `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Obtenga la primera hoja de cálculo y acceda a su colección `cells`.
 3. Coloque la fórmula de matriz dinámica en la celda **A6**, justo debajo del rango de origen, llamando a `cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", None, True)`.
 4. El argumento `None` pasa el `FormulaParseOptions` por defecto, y el tercer argumento `True` indica an Aspose.Cells que trate la fórmula como una matriz dinámica y que la evalúe para que los valores derramados se escriban en el libro.
@@ -78,11 +78,11 @@ Este enfoque funciona **solo en Excel 365 / 2021 o posterior**. Las versiones an
 import aspose.cells as ac
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
-workbook.save(outFile, ac.SaveFormat.Xlsx)
+cells.get("A6").set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
+workbook.save(outFile, ac.SaveFormat.XLSX)
 ```
 
 ## **Enfoque 3 — Transponer con una fórmula matricial clásica (CSE)**
@@ -106,7 +106,7 @@ Las fórmulas matriciales CSE son la forma clásica de Excel para evaluar una ex
 import aspose.cells as ac
 # Cargar el libro de trabajo de origen con LoadOptions de xlsx
 srcFile = "source.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 # Acceder a la primera hoja de trabajo y su colección Cells
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
@@ -117,7 +117,7 @@ cells = worksheet.cells
 # Aspose.Cells escribe el marcador de fórmula de matriz CSE para que Excel lo evalúe como
 # una fórmula de matriz de múltiples celdas única, compatible con versiones anteriores de Excel
 # (2019, 2016, 2013, etc.) que no admiten el desbordamiento de matriz dinámica.
-cells["A6"].set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
+cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
 # Guardar el libro de trabajo para que el marcador de fórmula de matriz se conserve
 workbook.save("output.xlsx")
 ```

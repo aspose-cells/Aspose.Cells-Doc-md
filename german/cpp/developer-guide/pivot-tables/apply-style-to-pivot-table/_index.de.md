@@ -31,6 +31,7 @@ Das folgende Beispiel lädt eine neue Arbeitsmappe, füllt die Fruit/Year/Amount
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Erstellen Sie eine neue Arbeitsmappe
@@ -86,9 +87,19 @@ int main() {
 
 ## **Anwenden eines modernen benannten Voreinstellungs-Pivot-Tabellenstils**
 
+`SetPivotTableStyleType` wählt einen der integrierten benannten Stile aus, die Excel 2007 für Pivot-Tabellen eingeführt hat. Die Enumeration `PivotTableStyleType` stellt drei Farbschemafamilien bereit: die helle Familie von `PivotTableStyleLight1` bis `PivotTableStyleLight28`, die mittlere Familie von `PivotTableStyleMedium1` bis `PivotTableStyleMedium28` und die dunkle Familie von `PivotTableStyleDark1` bis `PivotTableStyleDark28`. Sie definiert außerdem `None` und `Custom`. Die Mitglieder mit höheren Nummern jeder Familie sind die Stile, die in Excel 2017 hinzugefügt wurden.
+Diese Presets sind schreibgeschützt. Sobald Sie Farben, Rahmen oder Schriften ändern müssen, die über den Umfang eines Presets hinausgehen, müssen Sie stattdessen einen benutzerdefinierten Pivot-Stil definieren, wie in [Szenario 3](#define-and-apply-a-custom-pivot-table-style) gezeigt.
+
+{{% alert color="primary" %}}
+**Warum die modernen Presets und nicht die Autoformate der Berichtsreihe?** Die Werte `Report1` bis `Report10` und `Table1` bis `Table10` von `PivotTableAutoFormatType` gehen den Pivot-Spaltenfeldern voraus, weshalb sie keine Formatierung für die Header von Spaltenfeldern enthalten und Excel diese Header ohne Formatierung darstellt. Die Presets von `PivotTableStyleType` wurden für das zweidimensionale Layout konzipiert, das moderne Excel-Versionen verwenden, und formatieren die Header von Zeilen- und Spaltenfeldern gleichermaßen.
+{{% /alert %}}
+
+Dieses Szenario verwendet erneut den Datensatz Fruit/Year/Amount aus Szenario 1, fügt `Year` mithilfe von `PivotFieldType::Column` zum Spaltenbereich hinzu, während `Fruit` als Zeilenfeld beibehalten wird, wendet mit `SetPivotTableStyleType` das Preset für das dunkle Farbschema `PivotTableStyleDark1` an und speichert das Ergebnis als `.xlsx` – das Format, in dem `PivotTableStyleType` sinnvoll verwendet werden kann.
+
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -135,7 +146,6 @@ int main() {
     return 0;
 }
 ```
-
 ## **Definieren und Anwenden eines benutzerdefinierten Pivot-Tabellenstils**
 Die integrierten Voreinstellungen können nicht geändert werden. Wenn Sie Farben, Rahmen oder Schriftarten überschreiben müssen, müssen Sie einen benutzerdefinierten Pivot-Stil definieren. Der Workflow umfasst drei Schritte:
 1. Fügen Sie der `TableStyles`-Sammlung der Arbeitsmappe über `Worksheets.TableStyles.AddPivotTableStyle(string name)` einen benutzerdefinierten Stil hinzu. Dies gibt den Index des neu erstellten Stils zurück.
@@ -144,14 +154,14 @@ Die integrierten Voreinstellungen können nicht geändert werden. Wenn Sie Farbe
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` und `PivotTableStyleType` sind nicht austauschbar. Verwenden Sie `PivotTableStyleType` für integrierte Voreinstellungen und `PivotTableStyleName` für benutzerdefinierte Stile, die Sie über `AddPivotTableStyle` definiert haben. Das Setzen beider Werte ist harmlos, aber nur der Wert, der der beabsichtigten Quelle entspricht, wird gerendert.
-{{% /alert %}}
-
 Die verfügbaren `TableStyleElementType`-Werte umfassen `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` und `PageFieldValues`.
 Das folgende Beispiel definiert einen benutzerdefinierten Pivot-Stil mit einem dünnen schwarzen Rahmen auf `WholeTable` und einer fetten roten Schriftart auf `GrandTotalRow`, wendet ihn dann über `PivotTableStyleName` an und speichert als `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -230,9 +240,8 @@ int main() {
 
 {{% alert color="primary" %}}
 `FormatAll` überschreibt sowohl `PivotTableStyleType` als auch `PivotTableStyleName`. Verwenden Sie es nur, wenn ein einheitliches, designunabhängiges Erscheinungsbild in der gesamten Pivot-Tabelle erforderlich ist.
-{{% /alert %}}
-
 Das folgende Beispiel erstellt einen `Style` mit gelber Vollfüllung, fetter dunkelblauer Schriftart und dünnen schwarzen Rahmen auf allen Seiten, wendet ihn dann mit `FormatAll` an und speichert als `.xlsx`.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"

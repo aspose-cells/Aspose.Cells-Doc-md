@@ -35,7 +35,7 @@ Aspose.Cells for Python via Java は、行を列に、列を行に転置（回�
 `Range.transpose()` は `com.aspose.cells.Range` クラスのインスタンスメソッドです。これを呼び出すと、行と列を交換して範囲をインプレースで反転させ、行であったものが列になり、列であったものが行になります。このメソッドは数式を書き込まずに、基になるセルを直接変更します。
 
 ### **Steps**
-1. `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` を呼び出して、`LoadOptions` を `.xlsx` 形式に設定したソースワークブックを開きます。
+1. `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` を呼び出して、`LoadOptions` を `.xlsx` 形式に設定したソースワークブックを開きます。
 2. `workbook.getWorksheets().get(0)` を使用して、ワークブックから最初のワークシートを取得します。
 3. `worksheet.getCells()` を通じてワークシートのセルコレクションにアクセスします。
 4. `cells.createRange("A1:D5")` を呼び出して、**A1:D5** をカバーするソース範囲を作成します。
@@ -47,11 +47,10 @@ Aspose.Cells for Python via Java は、行を列に、列を行に転置（回�
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, LoadOptions, LoadFormat
 srcFile = "source.xlsx"
 outputFile = "transposed.xlsx"
-loadOptions = LoadOptions(LoadFormat.Xlsx)
+loadOptions = LoadOptions(LoadFormat.XLSX)
 workbook = Workbook(srcFile, loadOptions)
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
@@ -68,7 +67,7 @@ jpype.shutdownJVM()
 `Cell.setDynamicArrayFormula(String formula, FormulaParseOptions options, boolean calculateValue)` は `com.aspose.cells.Cell` のメソッドで、セルの数式を**動的配列数式**として設定します。Excel は数式を一度評価し、結果を周囲のセルに自動的にスピルします。3 番目のパラメータを `True` に設定すると、書き込み時に結果の値も計算するように Aspose.Cells に指示します。
 
 ### **Steps**
-1. `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` を使用してソースワークブックを読み込みます。
+1. `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` を使用してソースワークブックを読み込みます。
 2. 最初のワークシートを取得し、その `Cells` コレクションにアクセスします。
 3. `cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", None, True)` を呼び出して、ソース範囲のすぐ下にあるセル **A6** に動的配列数式を配置します。
 4. `None` 引数はデフォルトの `FormulaParseOptions` を渡し、3 番目の引数 `True` は Aspose.Cells に対して、数式を動的配列として扱い、スピルされた値がワークブックに書き込まれるように評価するよう指示します。
@@ -83,16 +82,15 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, LoadOptions, LoadFormat, FormulaParseOptions, SaveFormat
 # ported code here
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
 cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", FormulaParseOptions(), True)
-workbook.save(outFile, SaveFormat.Xlsx)
+workbook.save(outFile, SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -117,11 +115,10 @@ CSE 配列数式は `TRANSPOSE` 式を評価する従来の Excel の方法で�
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, LoadOptions, LoadFormat, Worksheet, Cells
 # Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 # Access the first worksheet and its Cells collection
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()

@@ -25,9 +25,8 @@ Le API chiave sono:
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` DEVE essere chiamato prima del salvataggio quando l'output è HTML o PDF; altrimenti il file esportato non conterrà i dati immagine e la Camera apparirà vuota nell'output renderizzato.
-{{% /alert %}}
-
 Il codice seguente crea una cartella di lavoro, aggiunge un'immagine vuota ancorata alla riga 10 colonna 6, la collega all'intervallo di origine `A1:F10` tramite `setFormula`, aggiorna i dati immagine incorporati e salva la cartella di lavoro.
+{{% /alert %}}
 
 ```java
 import java.io.InputStream;

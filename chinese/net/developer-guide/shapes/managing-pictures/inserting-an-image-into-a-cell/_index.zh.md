@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 提供了两种不同的方式将图片与单个单元格关联。浮动图片是工作表绘图层上的一个形状，它在视觉上覆盖一个单元格区域，而嵌入图片则存储在单元格内部，并会自动缩放到单元格的显示区域。请根据您的布局需求选择最适合的方式。
+{{% /alert %}}
 
 ## **简介**
 在设计作为可视化报表、产品目录、员工通讯录、仪表板或库存清单的电子表格时，将图片精确适配到单个单元格是一项常见需求。与其将图片拉伸到多个单元格或随意放置在工作表上，您可能希望获得一个干净的、与单元格绑定的图片，并保持与所属单元格的对齐。
@@ -36,6 +37,7 @@ Aspose.Cells 以两种互补的方式支持此场景：
 
 {{% alert color="primary" %}}
 Aspose.Cells 中的行和列索引**从零开始**。单元格 C6 的行索引为 5，列索引为 2。右下角锚点的差一错误是导致图片看似溢出到相邻单元格的最常见原因。
+{{% /alert %}}
 
 ### **控制放置行为**
 `Picture.Placement` 是 `PlacementType` 类型的枚举，用于控制当用户调整底层行高或列宽时图片的行为。对于单个单元格的图片，推荐值为 `PlacementType.MoveAndSize`，它会使图片与其底层单元格一起移动和调整大小，从而保持精确适配。
@@ -117,9 +119,6 @@ workbook.Save("output.xlsx", SaveFormat.Xlsx);
   - 您希望以最简单的方式将图片插入到单元格中。
   - 图片应像其他单元格内容一样随单元格一起移动。
   - 您不需要将图片作为形状进行操作。
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## 相关文章
 - [Aspose.Cells for .NET 中的 Excel 照相机](/cells/zh/net/excel-camera/)

@@ -100,6 +100,7 @@ workbook.Save("output_with_sparklines.xlsx");
 
 {{% alert color="primary" %}}
 各スパークライングループは単一のセルにアンカーされているため、`foreach` で列挙する代わりにインデクサ `group.Sparklines[0]` を通じてアクセスできます。これによりレンダリングコードが簡潔になり、「アンカーセルごとに 1 つのスパークライン」という一般的なパターンと一致します。`Cell.EmbeddedImage` による画像のバイト列保存には Aspose.Cells 26.5 以降が必要です。
+{{% /alert %}}
 
 ## **Workflow 2 — Export the Sparkline Worksheet to HTML**
 ワークブックにライブスパークライン（およびオプションで埋め込み画像版）が含まれたら、ワークシート全体を HTML として保存することでウェブに公開できます。`HtmlSaveOptions` クラスはこのエクスポートを制御するためのノブを公開しています。このワークフローでは、ワークフロー 1 で生成された `output_with_sparklines.xlsx` ファイルを再利用して、きれいな単一ページの HTML ドキュメントに変換します。
@@ -121,10 +122,10 @@ workbook.Save("sparklines.html", htmlOptions);
 ```
 
 上記のコードは、ワークフロー 1 からのスパークラインを含むワークブックを、ポータブルな HTML ファイルに変換します。スパークライングループは生成された HTML テーブル内にインライン画像としてレンダリングされるため、エンドユーザーは Excel をインストールすることなく任意のモダンブラウザでトレンドを表示できます。`ExportActiveWorksheetOnly` を `true` に設定することで、非表示シートや補助データが誤って公開されることを避け、現在ユーザーに表示されているワークシートのみがエクスポートされます。
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` クラスには、`ExportHiddenWorksheet`、`ExportImagesAsBase64`、`Encoding` など、出力を微調整するための追加プロパティが用意されています。デプロイメントターゲットに応じてこれらを適宜調整してください。
+{{% /alert %}}
 
 ## **API Summary**
 上記のワークフローは、Aspose.Cells の少数の API の組み合わせに依存しています。
@@ -134,7 +135,8 @@ workbook.Save("sparklines.html", htmlOptions);
 - `HtmlSaveOptions.ExportActiveWorksheetOnly`（`bool` 型）は、HTML エクスポートをアクティブなワークシートのみに制限します。単一ページレポートを生成する際に最も一般的に使用される `HtmlSaveOptions` のプロパティの 1 つです。
 - `ImageOrPrintOptions.ImageType` は `Aspose.Cells.Drawing` 名前空間に属し、`ToImage` でのレンダリング時およびワークシートを画像に印刷する際に使用される画像形式（たとえば `ImageType.Png`）を選択します。
 
-## **Related Articles**
-{{% /alert %}}
+## **関連記事**
+
+- [セルに画像を挿入する](/cells/ja/net/inserting-an-image-into-a-cell/)
 
 {{< app/cells/assistant language="csharp" >}}

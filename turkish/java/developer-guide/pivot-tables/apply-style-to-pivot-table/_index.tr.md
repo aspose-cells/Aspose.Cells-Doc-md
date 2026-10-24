@@ -87,6 +87,67 @@ workbook.save("output.xls");
 
 ## **Modern Adlandırılmış Hazır Pivot Tablo Stilini Uygulama**
 
+`PivotTable.setPivotTableStyleType(int)`, Excel 2007'in pivot tablolar için sunduğu yerleşik adlandırılmış stillerden birini seçer. `PivotTableStyleType` numaralandırması üç tema ailesi sunar: `PIVOT_TABLE_STYLE_LIGHT1` ile `PIVOT_TABLE_STYLE_LIGHT28` arasındaki açık aile, `PIVOT_TABLE_STYLE_MEDIUM1` ile `PIVOT_TABLE_STYLE_MEDIUM28` arasındaki orta aile ve `PIVOT_TABLE_STYLE_DARK1` ile `PIVOT_TABLE_STYLE_DARK_28` arasındaki koyu aile. Ayrıca `None` ve `Custom` değerlerini tanımlar. Her ailenin daha yüksek numaralı üyeleri, Excel 2017'de eklenen stillerdir.
+Bu ön ayarlar salt okunurdur. Renkleri, kenarlıkları veya yazı tiplerini bir ön ayarın sunduğunun ötesinde değiştirmeniz gerektiği anda, bunun yerine özel bir pivot stili tanımlamanız gerekir; [Senaryo 3](#define-and-apply-a-custom-pivot-table-style).
+
+{{% alert color="primary" %}}
+**Neden rapor serisi otomatik biçimlendirmeleri yerine modern ön ayarlar?** `PivotTableAutoFormatType` değerlerinden `Report1` ile `Report10` arasındaki ve `Table1` ile `Table10` arasındaki değerler, pivot sütun alanlarından önce kullanılmaya başlamıştır; bu nedenle sütun alanı başlıkları için hiçbir stil taşımaz ve Excel bu başlıkları stilsiz olarak görüntüler. `PivotTableStyleType` ön ayarları ise modern Excel'in kullandığı iki boyutlu düzen için tasarlanmıştır ve hem satır alanı hem de sütun alanı başlıklarına aynı biçimde stil uygular.
+{{% /alert %}}
+
+Bu senaryo, Senaryo 1'deki Fruit/Year/Amount veri kümesini yeniden kullanır, `Fruit` satır alanının yanında `PivotFieldType.COLUMN` aracılığıyla sütun alanına `Year` ekler, `pivotTable.setPivotTableStyleType` kullanarak koyu tema ön ayarı `PIVOT_TABLE_STYLE_DARK1` biçimini uygular ve sonucu `.xlsx` olarak kaydeder — `PivotTableStyleType` için anlamlı olan biçim budur.
+
+```java
+import com.aspose.cells.*;
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+// Header row: Fruit / Year / Amount
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+// 9 data rows of Fruit / Year / Amount
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(100);
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(150);
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(200);
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(180);
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(120);
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(170);
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(210);
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(190);
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(130);
+// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1);
+// Save as modern .xlsx - this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx");
+```
 ## **Özel Pivot Tablo Stili Tanımlama ve Uygulama**
 Yerleşik hazır ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı tiplerini geçersiz kılmanız gerektiğinde özel bir pivot stili tanımlamalısınız. İş akışı üç adımdan oluşur:
 1. `Workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)` aracılığıyla çalışma kitabının `TableStyles` koleksiyonuna özel bir stil ekleyin. Bu, yeni oluşturulan stilin dizinini döndürür.
@@ -95,10 +156,9 @@ Yerleşik hazır ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı t
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` ve `PivotTableStyleType` birbirinin yerine kullanılamaz. Yerleşik hazır ayarlar için `PivotTableStyleType`, `addPivotTableStyle` ile tanımladığınız özel stiller için `PivotTableStyleName` kullanın. İkisini birden ayarlamak zararsızdır, ancak yalnızca amaçlanan kaynağa uygun olan işlenir.
-{{% /alert %}}
-
 Kullanılabilir `TableStyleElementType` değerleri arasında `WHOLE_TABLE`, `FIRST_ROW`, `LAST_ROW`, `FIRST_COLUMN`, `LAST_COLUMN`, `GRAND_TOTAL_ROW`, `GRAND_TOTAL_COLUMN`, `PAGE_FIELD_LABELS` ve `PAGE_FIELD_VALUES` bulunur.
 Aşağıdaki örnek, `WholeTable` üzerinde ince siyah kenarlık ve `GrandTotalRow` üzerinde kalın kırmızı yazı tipi ile özel bir pivot stili tanımlar, ardından bunu `PivotTableStyleName` aracılığıyla uygular ve `.xlsx` olarak kaydeder.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -174,14 +234,13 @@ pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
 
-## **FormatAll ile Her Pivot Hücresine Tek Bir Stil Uygulama**
+## **formatAll ile Her Pivot Hücresine Tek Bir Stil Uygulama**
 `PivotTable.formatAll(Style)`, tek bir `Style` nesnesini pivot tablonun veri alanı, satır ve sütun başlıkları ve toplamlar dahil her hücresine uygulayan bir kısayoldur. `PivotTableStyleType` veya `PivotTableStyleName` ile daha önce ayarlananlar geçersiz kılınır.
 
 {{% alert color="primary" %}}
-`FormatAll`, hem `PivotTableStyleType` hem de `PivotTableStyleName` öğelerini geçersiz kılar. Yalnızca pivot tablonun tamamında temadan bağımsız tek tip bir görünüm gerektiğinde kullanın.
-{{% /alert %}}
-
+`formatAll`, hem `PivotTableStyleType` hem de `PivotTableStyleName` öğelerini geçersiz kılar. Yalnızca pivot tablonun tamamında temadan bağımsız tek tip bir görünüm gerektiğinde kullanın.
 Aşağıdaki örnek, sarı düz dolgulu, kalın koyu mavi yazı tipli ve tüm kenarlarında ince siyah kenarlıklı bir `Style` oluşturur, ardından bunu `formatAll` ile uygular ve `.xlsx` olarak kaydeder.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -239,7 +298,7 @@ style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBord
 style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setColor(Color.getBlack());
 style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN);
 style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setColor(Color.getBlack());
-// FormatAll uygula: bu tek stili özet tablonun her hücresine zorla uygular,
+// formatAll uygula: bu tek stili özet tablonun her hücresine zorla uygular,
 // daha önce ayarlanmış PivotTableStyleType / PivotTableStyleName değerlerini geçersiz kılar
 pivotTable.formatAll(style);
 // Çalışma kitabını modern .xlsx formatında kaydet
@@ -255,5 +314,6 @@ Stil API'si seçimi, kaydettiğiniz dosya biçimine bağlıdır. Hızlı bir ba�
 | `.xlsx` / `.xlsm` / `.xlsb` (modern, özel stil) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | Yerleşik hazır ayarlar yeterli olmadığında kullanın. `TableStyleElement.setElementStyle(...)` aracılığıyla yapılandırın. |
 | Herhangi bir biçim (tek tip geçersiz kılma) | `PivotTable.formatAll(Style)` | Pivotun tamamında diğer tüm stil ayarlarını geçersiz kılan kısayol. |
 Kararsız kaldığınızda, `.xlsx` olarak kaydedin ve yerleşik temalar için `PivotTableStyleType`, özel temalar için `PivotTableStyleName` kullanın.
+
 
 {{< app/cells/assistant language="java" >}}

@@ -71,12 +71,11 @@ workbook.save("output_drag.xlsx");
 Once a field lives in the data region, Aspose.Cells exposes it through the `PivotField` object on `PivotTable.DataFields`. Each `PivotField` has a writable `Function` property of type `ConsolidationFunction`, which controls the aggregate applied to that field's underlying values. `ConsolidationFunction` is an enum with members `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var`, and `Varp` — the first six cover the vast majority of real-world use cases, while the last four are statistical aggregates useful for variance analysis.
 
 {{% alert color="primary" %}}
-Changing `Function` only affects the aggregate; the source column and the pivot's row/column structure are not modified. To switch the aggregate for an existing data field, set `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` and then call `pivotTable.CalculateData()` to re-render the pivot.
+Changing `Function` only affects the aggregate; the source column and the pivot's row/column structure are not modified. To switch the aggregate for an existing data field, set `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` and then call `pivotTable.calculateData()` to re-render the pivot.
 {{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -121,7 +120,6 @@ When a pivot table contains two or more data fields, Aspose.Cells exposes an add
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

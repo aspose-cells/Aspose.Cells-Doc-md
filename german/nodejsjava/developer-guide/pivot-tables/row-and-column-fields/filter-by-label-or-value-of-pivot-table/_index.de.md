@@ -30,6 +30,7 @@ Aspose.Cells stellt die Beschriftungsfilterung über die Methode `PivotField.fil
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer vorhandenen PivotTable, wendet einen Beschriftungsfilter an, sodass nur Elemente sichtbar bleiben, deren Beschriftungen mit einem angegebenen Präfix beginnen, aktualisiert die PivotTable und speichert das Ergebnis.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
 // Lade die vorhandene Arbeitsmappe, die eine Pivot-Tabelle enthält
@@ -41,7 +42,7 @@ let pivotTable = worksheet.getPivotTables().get(0);
 // Hole das erste Zeilen-PivotField
 let rowField = pivotTable.getRowFields().get(0);
 // Wende den Beschriftungsfilter an — zeige nur Zeilenelemente, deren Beschriftungen mit dem angegebenen Präfix beginnen
-rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
+rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
 // Aktualisiere und berechne die Daten der Pivot-Tabelle neu, damit der Filter wirksam wird
 pivotTable.getPivotCache().refresh();
 // Speichere die Arbeitsmappe zurück auf die Festplatte
@@ -53,12 +54,13 @@ Datumsfilter ermöglichen es Ihnen, eine PivotTable anhand datumsbezogener Krite
 
 {{% alert color="primary" %}}
 Der Datumsfilter funktioniert nur, wenn der Zeilen- oder Spaltenbereich ausschließlich Datums-/Uhrzeit-Zellen oder leere Werte enthält. Wenn das zugrunde liegende Feld andere Datentypen wie Zahlen oder Text enthält, liefert der Datumsfilter nicht das erwartete Ergebnis. Stellen Sie sicher, dass das Feld als Datum formatiert ist und dass alle Werte gültige `DateTime`-Instanzen oder leere Zellen sind, bevor Sie diesen Filter anwenden.
-{{% /alert %}}
-
 Aspose.Cells stellt die Datumsfilterung über die Methode `PivotField.filterByDate(PivotFilterType, params DateTime[] values)` bereit. Die Enumeration `PivotFilterType` enthält dedizierte Datumswerte wie `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` und `Between`. Abhängig vom gewählten Filtertyp übergeben Sie einen oder zwei `DateTime`-Werte (für `Between` übergeben Sie das Start- und Enddatum).
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer PivotTable, deren Zeilenbereich ein Datumsfeld enthält, wendet einen Datumsfilter an, der die sichtbaren Elemente auf einen bestimmten Datumsbereich beschränkt, aktualisiert die PivotTable und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
 let inputPath = "sample.xlsx";
 let outputPath = "output_filtered.xlsx";
 if (!fs.existsSync(inputPath))
@@ -78,7 +80,7 @@ let dateField = pivotTable.getRowFields().get(0);
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
 // Wende den Datumsfilter auf das Pivot-Feld an
-dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
+dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
 // Aktualisiere und berechne die Pivot-Tabelle neu, damit der Filter wirksam wird
 pivotTable.getPivotCache().refresh();
 // Speichere die Arbeitsmappe
@@ -91,6 +93,7 @@ Aspose.Cells stellt die Wertefilterung über die Methode `PivotField.filterByVal
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer PivotTable, wendet einen Wertefilter an, der nur Elemente beibehält, deren aggregierter Umsatz einen numerischen Schwellenwert überschreitet, aktualisiert die PivotTable und speichert die Arbeitsmappe.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook("sample.xlsx");
 var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
@@ -108,7 +111,7 @@ for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 }
 if (dataFieldIndex >= 0)
 {
-    rowField.filterByValue(dataFieldIndex, AsposeCells.Pivot.PivotFilterType.ValueGreaterThan, 5000, Number.MAX_VALUE);
+    rowField.filterByValue(dataFieldIndex, AsposeCells.PivotFilterType.VALUE_GREATER_THAN, 5000, Number.MAX_VALUE);
 }
 pivotTable.getPivotCache().refresh();
 workbook.save("output.xlsx");
@@ -119,12 +122,12 @@ Der Top-10-Filter ist eine spezialisierte Form des Wertfilters, der nur die höc
 
 {{% alert color="primary" %}}
 Der Top-10-Filter ist nur wirksam, wenn die PivotTable ein oder mehrere Wert-Pivot-Felder im Datenbereich enthält. Ohne mindestens ein Wertefeld gibt es keine aggregierte Messgröße, gegen die die Elemente geordnet werden können, und der Filter kann nicht angewendet werden.
-{{% /alert %}}
-
 Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)` bereit. Der Parameter `itemCount` definiert, wie viele Elemente beibehalten werden sollen, `isTop` gibt an, ob die obersten Elemente (true) oder die untersten Elemente (false) beibehalten werden sollen, `valueField` verweist auf das für die Rangordnung verwendete Datenfeld, und `filterType` steuert, wie der Wert berechnet wird (typischerweise `Sum`, aber auch `Count` und `Percent`).
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer PivotTable, die ein Wertefeld enthält, wendet einen Top-10-Filter an, um nur die 10 höchsten Elemente nach der Summe der Verkäufe beizubehalten, aktualisiert die PivotTable und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
@@ -144,10 +147,10 @@ let rowField = pivotTable.getRowFields().get(0);
 let valueFieldIndex = 0;
 // Den Top-10-Filter auf das Zeilenfeld anwenden:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (obere N; false würde untere N bedeuten)
 //   - valueFieldIndex = der Index des Datenfelds, das zum Sortieren der Elemente verwendet wird
-rowField.filterTop10(10, AsposeCells.PivotFilterType.Sum, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.SUM, true, 10);
 // Die Pivot-Tabellendaten aktualisieren und neu berechnen, damit der Filter wirksam wird
 pivotTable.getPivotCache().refresh();
 // Die Arbeitsmappe speichern
@@ -159,6 +162,7 @@ Zusätzlich zu den strukturierten Filter-APIs ermöglicht Aspose.Cells die direk
 Dieser Ansatz ist nützlich, wenn die Filterregel unregelmäßig oder elementspezifisch ist, etwa beim Ausblenden einer kleinen Anzahl benannter Kategorien, die in einem bestimmten Bericht nicht erscheinen sollen. Das folgende Beispiel lädt eine PivotTable, blendet ein bestimmtes Element anhand seines Namens aus, zeigt, wie es wieder eingeblendet wird, aktualisiert die PivotTable und speichert die Arbeitsmappe.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
 // Zugriff auf das erste Arbeitsblatt, das die Pivot-Tabelle enthält
 let sheet = workbook.getWorksheets().get(0);
@@ -172,15 +176,15 @@ for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
     // Pivot-Elemente ausblenden, die einem bestimmten Namen/Kriterium entsprechen
     if (item.getName() == "Item1" || item.getName() == "Item2") {
-        item.setIsHidden(true);
+        item.setHidden(true);
     }
     // Einblenden demonstrieren: Ein zuvor ausgeblendetes Pivot-Element wieder anzeigen
     if (item.getName() == "Item3") {
-        item.setIsHidden(false);
+        item.setHidden(false);
     }
 }
 // Pivot-Tabelle aktualisieren und neu berechnen, damit die Änderungen wirksam werden
-pivotTable.getPivotCache().refreshData();
+pivotTable.getPivotCache().refresh();
 // Arbeitsmappe speichern – ausgeblendete Elemente bleiben in den zugrunde liegenden Daten erhalten,
 // werden jedoch aus der angezeigten Pivot-Tabellen-Ausgabe ausgeschlossen
 workbook.save("output_pivot_filtered.xlsx");

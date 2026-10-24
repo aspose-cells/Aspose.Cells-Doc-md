@@ -25,9 +25,8 @@ Les principales API sont :
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` DOIT être appelé avant l'enregistrement lorsque la sortie est au format HTML ou PDF ; sinon, le fichier exporté ne contiendra pas les données de l'image et la Caméra apparaîtra vide dans la sortie rendue.
-{{% /alert %}}
-
 Le code suivant crée un classeur, ajoute une image vide ancrée à la ligne 10, colonne 6, la lie à la plage source `A1:F10` via la méthode `setFormula`, rafraîchit les données d'image intégrées, puis enregistre le classeur.
+{{% /alert %}}
 
 ```python
 import jpype
@@ -38,7 +37,7 @@ worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
 # Caméra dynamique : ajouter une image vide, la lier via une formule à A1:F10, puis actualiser
 pictures = worksheet.getPictures()
-index = pictures.add(10, 6, None)
+index = pictures.add(10, 6, b"")
 pictures.get(index).setFormula("A1:F10")
 pictures.get(index).updateSelectedValue()
 workbook.save("output_dynamic.xlsx", SaveFormat.XLSX)
@@ -57,6 +56,7 @@ Le code suivant crée un classeur, construit un `Range` pour `A1:F10`, le restit
 import jpype
 import jpype.imports
 from asposecells.api import Workbook, SaveFormat
+from java.io import ByteArrayInputStream
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
@@ -64,7 +64,7 @@ worksheet.setName("CameraDemo")
 range_ = worksheet.getCells().createRange("A1:F10")
 image_bytes = range_.toImage(None)
 pictures = worksheet.getPictures()
-pictures.add(10, 6, jpype.JArray(jpype.JByte)(image_bytes))
+pictures.add(10, 6, ByteArrayInputStream(image_bytes))
 workbook.save("output_static.xlsx", SaveFormat.XLSX)
 ```
 
@@ -73,4 +73,4 @@ workbook.save("output_static.xlsx", SaveFormat.XLSX)
 - **Caméra statique :** un rendu unique qui ne se met jamais à jour, utile lorsque vous souhaitez un instantané visuel figé intégré au moment de la génération plutôt qu'un reflet dynamique des données.
 Aspose.Cells for Python via Java prend en charge à la fois une Caméra dynamique et à rafraîchissement automatique construite sur `setFormula` plus `updateSelectedValue()`, et une Caméra statique en une seule passe construite sur `toImage` plus un tableau `byte[]`. Choisissez l'approche dynamique lorsque votre sortie doit rester synchronisée avec les cellules source, et choisissez l'approche statique lorsque vous n'avez besoin que d'un instantané visuel figé au moment de la génération.
 
-{{< app/cells/assistant language"python" >}}
+{{< app/cells/assistant language="python" language"python" >}}

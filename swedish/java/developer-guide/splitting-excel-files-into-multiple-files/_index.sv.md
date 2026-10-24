@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells stöder uppdelning av en enskild Excel-fil i flera filer. Det finns två primära sätt att göra detta: (1) genom att kopiera varje kalkylblad i källarbetsboken till en ny arbetsbok och spara varje som en separat fil, och (2) genom att kopiera ett specifikt cellintervall från ett kalkylblad till en ny arbetsbok. Båda metoderna är användbara när du behöver distribuera delmängder av data, skapa mindre rapporter för olika mottagare, eller isolera data för individuell bearbetning.
+{{% /alert %}}
 
 ## **Introduktion**
 Det finns många verkliga scenarier där en utvecklare behöver dela upp en enskild Excel-fil i flera mindre filer. Till exempel kan en arbetsbok innehålla ett kalkylblad per avdelning, och varje avdelningschef behöver bara få sitt eget blad. I andra fall kanske du vill extrahera en viss tabell eller datablock från ett kalkylblad och skicka den som en fristående fil via e-post, utan att exponera resten av arbetsboken. Stora konsoliderade arbetsböcker kan också behöva delas upp i mindre bitar för enklare hantering, snabbare laddning, eller vidarebearbetning av andra system.
@@ -76,7 +77,6 @@ Följande steg beskriver hur man delar upp en Excel-fil genom att kopiera ett sp
 
 ### **Kodexempel**
 Den förväntade utdatan är en enskild ny fil i datakatalogen som endast innehåller värdena (och valfritt formateringen) av det angivna intervallet extraherat från källarbetsboken. Destinationsfilen har ingen relation till någon annan data i källfilen; den innehåller bara det extraherade intervallet, med början från cell `A1` i sitt första kalkylblad.
-{{% /alert %}}
 
 ## Relaterade artiklar
 - [Lägg till filterfält i en pivottabell i Aspose.Cells for Java](/cells/sv/java/add-page-field-in-pivot-table/)

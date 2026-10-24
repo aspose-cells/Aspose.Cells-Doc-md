@@ -130,6 +130,7 @@ In diesem Beispiel platzieren wir `Fruit` auf der Zeilenachse, `Year` und `Regio
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -252,4 +253,4 @@ int main() {
 - [Pivot-Tabelle aktualisieren](/cells/de/cpp/refresh-pivot-table/) — erläutert `RefreshData` und `CalculateData`, die nach der Neuanordnung der Seitenfelder erforderlich sind.
 - [Stil auf Pivot-Tabelle anwenden](/cells/de/cpp/apply-style-to-pivot-table/) — zeigt, wie die gerenderte Pivot-Tabelle formatiert wird, nachdem der Seitenfeldstreifen angeordnet wurde.
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

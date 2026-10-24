@@ -1,8 +1,8 @@
 ---
 title: تحويل Excel إلى تنسيق OFD
-description: Aspose.Cells هي مكتبة Node.js للعمل مع ملفات جداول البيانات تدعم تحويل مصنفات Excel إلى تنسيق OFD (مستند التخطيط الثابت المفتوح). يوضح هذا المقال كيفية إنشاء محتوى Excel وتصديره كـ OFD، بالإضافة إلى كيفية تحويل ملفات Excel الموجودة إلى OFD باستخدام Aspose.Cells.
 linktitle: تحويل Excel إلى تنسيق OFD
-keywords: Aspose.Cells, مكتبة Node.js, جدول بيانات, Excel إلى OFD, تحويل OFD, SaveFormat.Ofd, مستند تخطيط ثابت, تصدير مصنف
+description: Aspose.Cells هي مكتبة Node.js للعمل مع ملفات جداول البيانات تدعم تحويل مصنفات Excel إلى تنسيق OFD (مستند التخطيط الثابت المفتوح). توضح هذه المقالة كيفية إنشاء محتوى Excel وتصديره بتنسيق OFD، وكذلك كيفية تحويل ملفات Excel الحالية إلى OFD باستخدام Aspose.Cells.
+keywords: Aspose.Cells, مكتبة Node.js, جدول بيانات, تحويل Excel إلى OFD, تحويل OFD, SaveFormat.Ofd, مستند ذي تخطيط ثابت, تصدير مصنف
 type: docs
 weight: 195
 url: /ar/nodejs-cpp/converting-excel-to-ofd-format/
@@ -11,24 +11,27 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-يدعم Aspose.Cells تحويل مصنفات Excel مباشرة إلى تنسيق OFD (مستند التخطيط الثابت المفتوح) باستخدام قيمة تعداد `SaveFormat.Ofd`. يحافظ مستند OFD الناتج على التخطيط المرئي للمصنف، والمحتوى، والخلايا المدمجة، وعرض الأعمدة، وارتفاع الصفوف، والخطوط، والألوان، والحدود، وتنسيقات الأرقام. وهذا يجعل Aspose.Cells مناسبًا لأرشفة المستندات، والطباعة، والإيداعات التنظيمية، والتقديمات الحكومية التي تتطلب مخرجات بتخطيط ثابت.
+يدعم Aspose.Cells تحويل مصنفات Excel مباشرةً إلى تنسيق OFD (مستند التخطيط الثابت المفتوح) باستخدام قيمة التعداد `SaveFormat.Ofd`. وتحافظ مستندات OFD الناتجة على التخطيط المرئي للمصنف، ومحتواه، والخلايا المدمجة، وعروض الأعمدة، وارتفاعات الصفوف، والخطوط، والألوان، والحدود، وتنسيقات الأرقام. نتيجة لذلك، تناسب Aspose.Cells تدفقات العمل التي تتطلب مخرجات ذات تخطيط ثابت، مثل الأرشفة والطباعة والإيداع التنظيمي والإرسال الحكومي.
+{{% /alert %}}
 
-## **المقدمة**
-OFD (مستند التخطيط الثابت المفتوح) هو معيار وطني صيني (GB/T 33190-2016) لتمثيل المستندات الرقمية بتخطيط ثابت قائم على الصفحات. ويؤدي دورًا مشابهًا لـ PDF في حالات الاستخدام التي يجب فيها الحفاظ على المظهر المرئي للمستند المصدر تمامًا كما تم تأليفه. يُعتمد OFD على نطاق واسع للتقديمات الحكومية، والإيداعات التنظيمية، والفواتير الإلكترونية، والأرشفة طويلة الأمد في جمهورية الصين الشعبية.
-يعد تحويل مصنفات Excel إلى OFD مطلبًا شائعًا في السيناريوهات التي يجب فيها توزيع محتوى جدول البيانات كقطعة أثرية للقراءة فقط ومقيدة التخطيط بدلاً من جدول بيانات قابل للتحرير. تتضمن الأمثلة شحن فاتورة نهائية إلى عميل، أو أرشفة تقرير مالي ربع سنوي، أو تقديم جدول بيانات ميزانية إلى سلطة تنظيمية. يعالج Aspose.Cells هذا المتطلب من خلال قيمة تعداد `SaveFormat.Ofd`، التي تكتب المصنف مباشرة إلى OFD دون الحاجة إلى خطوة تحويل وسيطة. يحافظ مخرج OFD على قيم الخلايا، والنطاقات المدمجة، والخطوط، والألوان، والحدود، وتنسيقات الأرقام، وخيارات إعداد الصفحة التي تم تكوينها في المصنف.
+## **مقدمة**
+يمثل OFD (مستند التخطيط الثابت المفتوح) معيارًا وطنيًا صينيًا (GB/T 33190-2016) لتمثيل المستندات الرقمية في تخطيط ثابت قائم على الصفحات. ويؤدي دورًا مشابهًا لـ PDF في حالات الاستخدام التي يجب فيها الحفاظ على المظهر البصري للمستند المصدر تمامًا حسب إعداده الأصلي. ويُستخدم OFD على نطاق واسع للإرسال الحكومي والإيداع التنظيمي والفواتير الإلكترونية والأرشفة طويلة الأجل في جمهورية الصين الشعبية.
+يُعد تحويل مصنفات Excel إلى OFD متطلبًا شائعًا في السيناريوهات التي يجب فيها توزيع محتوى جدول البيانات كملف للقراءة فقط ومقفل التخطيط، بدلًا من جدول بيانات قابل للتحرير. ومن بين الأمثلة إرسال فاتورة مكتملة إلى عميل، أو أرشفة تقرير مالي ربع سنوي، أو تقديم جدول بيانات ميزانية إلى جهة تنظيمية. يعالج Aspose.Cells هذا المتطلب من خلال قيمة التعداد `SaveFormat.Ofd`، التي تكتب المصنف مباشرةً بتنسيق OFD دون الحاجة إلى خطوة تحويل وسيطة. كما يحافظ ملف OFD الناتج على قيم الخلايا والنطاقات المدمجة والخطوط والألوان والحدود وتنسيقات الأرقام وإعدادات تخطيط الصفحة التي تم تكوينها للمصنف.
 
 {{% alert color="primary" %}}
-يحافظ مخرج OFD الذي تم إنشاؤه بواسطة Aspose.Cells على التخطيط المرئي لمصنف المصدر، بما في ذلك محتوى الخلايا، والخلايا المدمجة، وعرض الأعمدة، وارتفاع الصفوف. كما يتم عرض تنسيقات الخلايا مثل الخطوط، والألوان، والحدود، والمحاذاة، وتنسيقات الأرقام في مخرج التخطيط الثابت. تؤثر خيارات إعداد الصفحة التي تم تكوينها في ورقة العمل، مثل حجم الورق، والاتجاه، ومنطقة الطباعة، على تخطيط مستند OFD الناتج.
+تحافظ مخرجات OFD التي ينتجها Aspose.Cells على التخطيط المرئي للمصنف المصدر، بما في ذلك محتوى الخلايا والخلايا المدمجة وعروض الأعمدة وارتفاعات الصفوف. كما تُعرض تنسيقات الخلايا، مثل الخطوط والألوان والحدود والمحاذاة وتنسيقات الأرقام، في المخرج ذي التخطيط الثابت. وتؤثر خيارات تخطيط الصفحة التي تم إعدادها لورقة العمل، مثل حجم الورق والاتجاه ومنطقة الطباعة، في تخطيط مستند OFD الناتج.
+{{% /alert %}}
 
 ## **إنشاء مصنف Excel وحفظه بتنسيق OFD**
-يتيح لك Aspose.Cells إنشاء مصنف برمجيًا، وتعبئته بالبيانات، ثم حفظه مباشرة بتنسيق OFD باستخدام تعداد `SaveFormat.Ofd`. يُنشئ المثال التالي فاتورة من الصفر. يضيف شعار الشركة، ومعلومات الرأس، وقسم الفاتورة، وعناصر السطر، والإجماليات المحسوبة، ثم يصدر المصنف إلى مستند OFD.
+يتيح لك Aspose.Cells إنشاء مصنف برمجيًا، وتعبئته بالبيانات، ثم حفظه مباشرةً بتنسيق OFD باستخدام تعداد `SaveFormat.Ofd`. ينشئ المثال التالي فاتورة من الصفر. يضيف شعار الشركة ومعلومات الترويسة وقسم بيانات العميل وبنود الفاتورة والإجماليات المحسوبة، ثم يصدّر المصنف إلى مستند OFD.
 
-### **إنشاء فاتورة بشعار**
-يُنشئ المثال ورقة عمل الفاتورة عن طريق إدراج صورة شعار في المنطقة العلوية اليسرى، وتعبئة اسم الشركة وتفاصيل الاتصال، وإضافة عنوان "INVOICE" عبر الخلايا المدمجة، وتسجيل رقم الفاتورة وتاريخها، وسرد عميل الفاتورة، وبناء جدول عناصر السطر بأعمدة الوصف، والكمية، وسعر الوحدة، والإجمالي، وحساب الإجمالي الفرعي، والضريبة، والإجمالي الكلي باستخدام صيغ الخلايا. يتم تطبيق التنسيقات مثل العناوين الغامقة، وتنسيق العملة للأسعار، والحدود، وعرض الأعمدة باستخدام كائنات `Style` و`Font`. وأخيرًا، يتم حفظ المصنف بامتداد `.ofd` باستخدام `SaveFormat.Ofd`.
+### **إنشاء فاتورة مع شعار**
+يبني المثال ورقة عمل الفاتورة عن طريق إدراج صورة شعار في المنطقة العلوية اليسرى، وتعبئة اسم الشركة وبيانات الاتصال، وإضافة عنوان "فاتورة" عبر خلايا مدمجة، وتسجيل رقم الفاتورة وتاريخها، وسرد العميل الذي تذهب إليه الفاتورة، وبناء جدول لبنود الفاتورة يتضمن أعمدة الوصف والكمية وسعر الوحدة والإجمالي، وحساب المجموع الفرعي والضريبة والإجمالي النهائي باستخدام صيغ الخلايا. ويُطبَّق تنسيقٌ مثل العناوين الغامقة وتنسيق عملة للأسعار والحدود وعروض الأعمدة باستخدام كائنات `Style` و`Font`. وأخيرًا، يُحفظ المصنف بامتداد `.ofd` باستخدام `SaveFormat.Ofd`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let dataDir = "C:\\Temp\\";
-// إنشاء مصنف جديد
+// إنشاء مصنف عمل جديد
 let workbook = new AsposeCells.Workbook();
 // الحصول على ورقة العمل الأولى
 let worksheet = workbook.getWorksheets().get(0);
@@ -41,7 +44,7 @@ worksheet.getCells().setColumnWidth(4, 15);
 worksheet.getCells().setColumnWidth(5, 5);
 // إدراج شعار الشركة
 worksheet.getPictures().add(1, 1, dataDir + "logo.png");
-// اسم الشركة وتفاصيل الاتصال
+// اسم الشركة وبيانات الاتصال
 worksheet.getCells().get("B3").putValue("Acme Corporation");
 worksheet.getCells().get("B4").putValue("123 Business Street");
 worksheet.getCells().get("B5").putValue("City, State 12345");
@@ -62,12 +65,12 @@ worksheet.getCells().get("B12").putValue("Date:");
 let now = new Date();
 let dateStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 worksheet.getCells().get("C12").putValue(dateStr);
-// قسم الفوترة
+// قسم بيانات العميل
 worksheet.getCells().get("B14").putValue("Bill To:");
 worksheet.getCells().get("B15").putValue("Client Name");
 worksheet.getCells().get("B16").putValue("Client Address");
 worksheet.getCells().get("B17").putValue("Client City, State");
-// رأس عناصر الفاتورة
+// ترويسة بنود الفاتورة
 let headerDesc = worksheet.getCells().get("B19");
 let headerQty = worksheet.getCells().get("C19");
 let headerPrice = worksheet.getCells().get("D19");
@@ -89,7 +92,7 @@ headerDesc.setStyle(headerStyle);
 headerQty.setStyle(headerStyle);
 headerPrice.setStyle(headerStyle);
 headerTotal.setStyle(headerStyle);
-// نمط العملة مع الحدود
+// تنسيق العملة مع الحدود
 let currencyStyle = workbook.createStyle();
 currencyStyle.setCustom("\"$\"#,##0.00");
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.TopBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
@@ -102,7 +105,7 @@ borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.TopBorder).setLi
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.BottomBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.LeftBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.RightBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
-// صفوف عناصر الفاتورة
+// صفوف بنود الفاتورة
 let lineItems = [
     ["Product A - Widget", 2, 50.00],
     ["Product B - Gadget", 3, 75.00],
@@ -123,7 +126,7 @@ for (let i = 0; i < lineItems.length; i++) {
     priceCell.setStyle(currencyStyle);
     totalCell.setStyle(currencyStyle);
 }
-// المجموع الفرعي، الضريبة، المجموع الكلي
+// المجموع الفرعي والضريبة والإجمالي الكلي
 worksheet.getCells().get("B24").putValue("Subtotal:");
 let subtotalCell = worksheet.getCells().get("E24");
 subtotalCell.setFormula("SUM(E20:E22)");
@@ -133,14 +136,14 @@ taxCell.setFormula("E24*0.1");
 worksheet.getCells().get("B26").putValue("Grand Total:");
 let grandTotalCell = worksheet.getCells().get("E26");
 grandTotalCell.setFormula("E24+E25");
-// نمط غامق + عملة لقيم الإجمالي
+// نمط الغامق + تنسيق العملة لقيم الإجماليات
 let totalStyle = workbook.createStyle();
 totalStyle.getFont().setIsBold(true);
 totalStyle.setCustom("\"$\"#,##0.00");
 subtotalCell.setStyle(totalStyle);
 taxCell.setStyle(totalStyle);
 grandTotalCell.setStyle(totalStyle);
-// نمط غامق لتسميات الإجمالي
+// النمط الغامق لتسميات الإجماليات
 let boldStyle = workbook.createStyle();
 boldStyle.getFont().setIsBold(true);
 worksheet.getCells().get("B24").setStyle(boldStyle);
@@ -151,11 +154,12 @@ workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.Ofd);
 ```
 
 ## **تحويل ملف Excel موجود إلى OFD**
-يمكن لـ Aspose.Cells أيضًا تحميل مصنف Excel موجود من القرص وتصديره مباشرة إلى تنسيق OFD. وهذا مفيد لخطوط أنابيب التحويل الدفعي، وسير عمل الأرشفة، والسيناريوهات التي تم فيها إنتاج المصنف المصدر بواسطة أداة أخرى ويحتاج فقط إلى إعادة إصداره كقطعة أثرية بتخطيط ثابت. يقوم المثال التالي بتحميل مصنف `.xlsx` موجود، وقراءة البيانات من خلاياه، وتطبيق تعديلات إعداد الصفحة الاختيارية، وحفظ النتيجة كمستند OFD.
+يمكن لـ Aspose.Cells أيضًا تحميل مصنف Excel موجود من القرص وتصديره مباشرةً بتنسيق OFD. ويفيد ذلك في خطوط أنابيب التحويل الدفعي وتدفقات عمل الأرشفة والسيناريوهات التي أُنتج فيها المصنف المصدر بواسطة أداة أخرى ولا يحتاج فيه إلى أكثر من إعادة إصداره كعنصر ذي تخطيط ثابت. يحمّل المثال التالي مصنفًا موجودًا بصيغة `.xlsx`، ويقرأ البيانات من خلاياه، ويطبّق تعديلات اختيارية على تخطيط الصفحة، ثم يحفظ النتيجة كمستند OFD.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook(dataDir + "SampleBook.xlsx");
-// (1) قراءة وعرض القيم من الخلايا المحددة للتأكد من تحميل الملف
+// (1) قراءة القيم وعرضها من الخلايا المحددة للتأكد من تحميل الملف
 let firstSheet = workbook.getWorksheets().get(0);
 console.log("First sheet name: " + firstSheet.getName());
 console.log("Cell A1: " + firstSheet.getCells().get("A1").getStringValue());
@@ -168,19 +172,19 @@ for (let i = 0; i < workbook.getWorksheets().getCount(); i++)
     let ws = workbook.getWorksheets().get(i);
     console.log("  [" + i + "] " + ws.getName());
 }
-// (3) اختيارياً، تحديث خلية الطابع الزمني لتعكس التحويل
+// (3) تحديث خلية الطابع الزمني اختياريًا لتعكس التحويل
 firstSheet.getCells().get("A1").putValue("Converted on: " + formatDate(new Date()));
-// إلحاق صف عنوان ملخص في بداية كتلة البيانات
+// إضافة صف رأس ملخص في أعلى كتلة البيانات
 firstSheet.getCells().insertRow(0);
 firstSheet.getCells().get("A1").putValue("Conversion Summary");
 firstSheet.getCells().get("A2").putValue("Generated: " + formatDate(new Date()));
-// (4) تكوين خصائص PageSetup على ورقة العمل
+// (4) تكوين خصائص إعداد الصفحة في ورقة العمل
 let pageSetup = firstSheet.getPageSetup();
 pageSetup.setOrientation(AsposeCells.PageOrientationType.Landscape);
 pageSetup.setPaperSize(AsposeCells.PaperSizeType.PaperA4);
 pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
-// (5) اختيارياً، تعيين منطقة الطباعة لمخرجات OFD
+// (5) تعيين منطقة الطباعة اختياريًا لإخراج OFD
 let lastRow = firstSheet.getCells().getMaxDataRow();
 let lastCol = firstSheet.getCells().getMaxDataColumn();
 let lastColLetter = AsposeCells.CellsHelper.columnIndexToName(lastCol);
@@ -193,12 +197,8 @@ console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleB
 ```
 
 ## **مقالات ذات صلة**
-- [Splitting Excel Files into Multiple Files](/cells/ar/nodejs-cpp/splitting-excel-files-into-multiple-files/)
-- [Inserting an Image into a Cell](/cells/ar/nodejs-cpp/inserting-an-image-into-a-cell/)
-- [Reading and Writing DBF Files](/cells/ar/nodejs-cpp/dbf/)
-- [Convert Sparkline to Image and HTML in Aspose.Cells for Node.js via C++](/cells/ar/nodejs-cpp/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
+- [تقسيم ملفات Excel إلى ملفات متعددة](/cells/ar/nodejs-cpp/splitting-excel-files-into-multiple-files/)
+- [إدراج صورة في خلية](/cells/ar/nodejs-cpp/inserting-an-image-into-a-cell/)
+- [قراءة ملفات DBF وكتابتها](/cells/ar/nodejs-cpp/dbf/)
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

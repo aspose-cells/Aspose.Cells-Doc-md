@@ -35,7 +35,7 @@ Makale daha sonra Aspose.Cells for Python via Java kullanarak bu verileri transp
 `Range.transpose()`, `com.aspose.cells.Range` sınıfının bir örnek yöntemidir. Çağrıldığında, satırlarını ve sütunlarını değiştirerek aralığı yerinde çevirir; böylece satır olan sütun, sütun olan satır olur. Yöntem, formül yazmadan doğrudan temel hücreleri değiştirir.
 
 ### **Steps**
-1. Kaynak çalışma kitabını `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` çağrısıyla `.xlsx` biçimine ayarlanmış `LoadOptions` ile açın.
+1. Kaynak çalışma kitabını `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` çağrısıyla `.xlsx` biçimine ayarlanmış `LoadOptions` ile açın.
 2. `workbook.getWorksheets().get(0)` kullanarak çalışma kitabından ilk çalışma sayfasını alın.
 3. `worksheet.getCells()` aracılığıyla çalışma sayfasının hücre koleksiyonuna erişin.
 4. `cells.createRange("A1:D5")` çağırarak **A1:D5** aralığını kapsayan kaynak aralığı oluşturun.
@@ -47,11 +47,10 @@ Transpoze işleminden sonra başlangıç çapa aralığı, döndürülmüş veri
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, LoadOptions, LoadFormat
 srcFile = "source.xlsx"
 outputFile = "transposed.xlsx"
-loadOptions = LoadOptions(LoadFormat.Xlsx)
+loadOptions = LoadOptions(LoadFormat.XLSX)
 workbook = Workbook(srcFile, loadOptions)
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
@@ -68,7 +67,7 @@ jpype.shutdownJVM()
 `Cell.setDynamicArrayFormula(String formula, FormulaParseOptions options, boolean calculateValue)`, bir hücrenin formülünü **dinamik dizi formülü** olarak ayarlayan `com.aspose.cells.Cell` üzerinde bir yöntemdir. Excel formülü bir kez değerlendirir ve sonucu otomatik olarak çevreleyen hücrelere taşırır. Üçüncü parametre, `True` olarak ayarlandığında Aspose.Cells'e yazma zamanında sonuç değerlerini de hesaplaması talimatını verir.
 
 ### **Steps**
-1. Kaynak çalışma kitabını `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` kullanarak yükleyin.
+1. Kaynak çalışma kitabını `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` kullanarak yükleyin.
 2. İlk çalışma sayfasını alın ve `Cells` koleksiyonuna erişin.
 3. `cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", None, True)` çağırarak dinamik dizi formülünü kaynak aralığın hemen altındaki **A6** hücresine yerleştirin.
 4. `None` argümanı varsayılan `FormulaParseOptions` öğesini geçer ve üçüncü `True` argümanı Aspose.Cells'e formülü dinamik dizi olarak ele almasını ve taşan değerlerin çalışma kitabına yazılması için değerlendirmesini söyler.
@@ -83,16 +82,15 @@ Bu yaklaşım **yalnızca Excel 365 / 2021 veya üstünde** çalışır. Eski Ex
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, LoadOptions, LoadFormat, FormulaParseOptions, SaveFormat
 # ported code here
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
 cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", FormulaParseOptions(), True)
-workbook.save(outFile, SaveFormat.Xlsx)
+workbook.save(outFile, SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -117,11 +115,10 @@ CSE dizi formülleri, bir `TRANSPOSE` ifadesini değerlendirmenin klasik Excel y
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, LoadOptions, LoadFormat, Worksheet, Cells
 # Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 # Access the first worksheet and its Cells collection
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()

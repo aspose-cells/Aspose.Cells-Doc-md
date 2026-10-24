@@ -32,11 +32,10 @@ Per creare una tabella pivot utilizzando Aspose.Cells, segui i passaggi seguenti
 
 {{% alert color="primary" %}}
 Quando si assegna un intervallo di celle come origine dati, l'intervallo deve essere impostato dall'angolo in alto a sinistra all'angolo in basso a destra. Ad esempio, "A1:C3" è valido; "C3:A1" non è valido.
-{{% /alert %}}
-
 L'esempio di codice qui sotto mostra come creare una semplice tabella pivot seguendo i passaggi di base elencati sopra. Quando si esegue il codice, viene aggiunta una tabella pivot al foglio di lavoro:
 **Creazione di una tabella pivot basata su un campo corrispondente**
 ![todo:image_alt_text](create-pivot-table_1.png)
+{{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
 

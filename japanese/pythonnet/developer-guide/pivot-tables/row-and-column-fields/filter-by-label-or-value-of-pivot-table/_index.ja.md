@@ -31,6 +31,7 @@ Aspose.Cells は、`PivotField.filter_by_label(PivotFilterType, label_string)` �
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
 # Load the existing workbook containing a pivot table
@@ -42,7 +43,7 @@ pivot_table = worksheet.pivot_tables[0]
 # Retrieve the first row PivotField
 row_field = pivot_table.row_fields[0]
 # Apply the label filter — show only row items whose labels begin with the supplied prefix
-row_field.filter_by_label(ac.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
+row_field.filter_by_label(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Refresh and recalculate the pivot table data so the filter takes effect
 pivot_table.pivot_cache.refresh()
 # Save the workbook back to disk
@@ -53,14 +54,16 @@ workbook.save(fileName)
 日付フィルタを使用すると、今日、先週、今月、次の四半期、特定の日付範囲などの日付ベースの条件によってピボットテーブルを絞り込むことができます。これらは、日付時刻情報を格納するフィールドに対してのみ機能する特殊なフィルタです。
 
 {{% alert color="primary" %}}
-日付フィルタは、行または列領域に日付時刻セルまたは空白値のみが含まれている場合にのみ機能します。基になるフィールドに数値やテキストなどの他のデータ型が含まれている場合、日付フィルタは期待どおりの結果を生成しません。このフィルタを適用する前に、フィールドが日付として書式設定されており、すべての値が有効な `DateTime` インスタンスまたは空のセルであることを確認してください。
+日付フィルタは、行または列領域に日付時刻セルまたは空白値のみが含まれている場合にのみ機能します。基になるフィールドに数値やテキストなどの他のデータ型が含まれている場合、日付フィルタは期待どおりの結果を生成しません。このフィルタを適用する前に、フィールドが日付として書式設定されており、すべての値が有効な `datetime` インスタンスまたは空のセルであることを確認してください。
+Aspose.Cells は、`PivotField.filter_by_date(PivotFilterType, *date_times)` メソッドを通じて日付フィルタリングを公開しています。`PivotFilterType` 列挙には、`Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear`、および `Between` などの専用の日付値が含まれます。選択したフィルタタイプに応じて、1 つまたは 2 つの `datetime` 値を渡します（`Between` の場合は開始日と終了日を渡します）。
+次の例では、行領域に日付フィールドを含むピボットテーブルを含むワークブックを読み込み、表示される項目を特定の日付範囲に制限する日付フィルタを適用し、ピボットテーブルを更新してワークブックを保存します。
 {{% /alert %}}
 
-Aspose.Cells は、`PivotField.filter_by_date(PivotFilterType, *date_times)` メソッドを通じて日付フィルタリングを公開しています。`PivotFilterType` 列挙には、`Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear`、および `Between` などの専用の日付値が含まれます。選択したフィルタタイプに応じて、1 つまたは 2 つの `DateTime` 値を渡します（`Between` の場合は開始日と終了日を渡します）。
-次の例では、行領域に日付フィールドを含むピボットテーブルを含むワークブックを読み込み、表示される項目を特定の日付範囲に制限する日付フィルタを適用し、ピボットテーブルを更新してワークブックを保存します。
-
 ```python
+import os
+import aspose.cells as ac
 from datetime import datetime
+from aspose.cells.pivot import PivotFilterType
 input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
@@ -78,7 +81,7 @@ date_field = pivot_table.row_fields[0]
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
 # Apply the date filter on the pivot field
-date_field.filter_by_date(ac.PivotFilterType.DATE_BETWEEN, start_date, end_date)
+date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
 # Refresh and recalculate the pivot table so the filter takes effect
 pivot_table.pivot_cache.refresh()
 # Persist the workbook
@@ -92,6 +95,7 @@ Aspose.Cells は、`PivotField.filter_by_value(value_field, PivotFilterType, *th
 
 ```python
 import aspose.cells as ac
+from aspose.cells.pivot import PivotFilterType
 workbook = ac.Workbook("sample.xlsx")
 worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
@@ -99,12 +103,12 @@ row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
 # Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 data_field_index = -1
-for i in range(pivot_table.data_fields.count):
+for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
         data_field_index = i
         break
 if data_field_index >= 0:
-    row_field.filter_by_value(data_field_index, ac.PivotFilterType.VALUE_GREATER_THAN, 5000, float('inf'))
+    row_field.filter_by_value(data_field_index, PivotFilterType.VALUE_GREATER_THAN, 5000.0, float('inf'))
 pivot_table.pivot_cache.refresh()
 workbook.save("output.xlsx")
 ```
@@ -114,10 +118,9 @@ workbook.save("output.xlsx")
 
 {{% alert color="primary" %}}
 トップ 10 フィルタは、ピボットテーブルのデータ領域に 1 つ以上の値ピボットフィールドがある場合にのみ有効です。少なくとも 1 つの値フィールドがないと、項目をランク付けするための集計された指標が存在しないため、フィルタを適用できません。
-{{% /alert %}}
-
 Aspose.Cells は、`PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)` メソッドを通じてトップ 10 フィルタリングを公開しています。`item_count` パラメータは保持する項目の数を定義し、`is_top` は上位の項目を保持するかどうかを示し（True）、`value_field` はランク付けに使用されるデータフィールドを参照し、`PivotFilterType` は値の計算方法を制御します（通常は `Sum` ですが、`Count` や `Percent` もあります）。
 次の例では、値フィールドを含むピボットテーブルを含むワークブックを読み込み、売上合計で上位 10 個の項目のみを保持するトップ 10 フィルタを適用し、ピボットテーブルを更新してワークブックを保存します。
+{{% /alert %}}
 
 ```python
 import aspose.cells as ac
@@ -131,7 +134,7 @@ worksheet = workbook.worksheets[0]
 # Access the pivot table by index
 pivotTable = worksheet.pivot_tables[0]
 # Confirm there is at least one value PivotField in the data area
-if pivotTable.data_fields.count == 0:
+if len(pivotTable.data_fields) == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
 # Retrieve the target row PivotField (the field we want to apply Top 10 on)
@@ -140,10 +143,10 @@ rowField = pivotTable.row_fields[0]
 valueFieldIndex = 0
 # Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (top N; false would mean bottom N)
 #   - valueFieldIndex = the index of the data field used to rank items
-rowField.filter_top10(10, acp.PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
 # Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.pivot_cache.refresh()
 # Save the workbook

@@ -37,6 +37,7 @@ Aspose.Cells 通过两种互补的方式来支持这一场景：
 
 {{% alert color="primary" %}}
 Aspose.Cells 中的行和列索引**从零开始**。单元格 C6 的行索引为 5，列索引为 2。在右下锚点上的差一错误是导致图片看起来重叠到相邻单元格的最常见原因。
+{{% /alert %}}
 
 ### **控制放置行为**
 `Picture.placement` 是 `PlacementType` 类型的枚举，用于控制当用户调整下方行高或列宽时图片的行为。对于单个单元格图片，推荐使用 `PlacementType.MOVE_AND_SIZE`，它会使图片与底层单元格一起移动和调整大小，从而保持精确的适配效果。
@@ -54,6 +55,7 @@ Aspose.Cells 中的行和列索引**从零开始**。单元格 C6 的行索引�
 
 ```python
 import aspose.cells as ac
+from aspose.cells.drawing import PlacementType
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 with open("logo.png", "rb") as fs:
@@ -63,7 +65,7 @@ with open("logo.png", "rb") as fs:
     picture.upper_left_column = 2
     picture.lower_right_row = 6
     picture.lower_right_column = 3
-    picture.placement = ac.PlacementType.MOVE_AND_SIZE
+    picture.placement = PlacementType.MOVE_AND_SIZE
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
 
@@ -80,7 +82,7 @@ Aspose.Cells 还提供了更简单的单元格绑定图片机制：`Cell.embedde
 1. 创建一个新的 `Workbook`（或打开一个已有的工作簿）。
 2. 通过 `workbook.worksheets[0]` 访问目标 `Worksheet`。
 3. 将磁盘上的图片文件读取到 `bytes` 对象中（例如，以二进制模式打开文件并调用 `.read()`）。
-4. 获取目标单元格的引用——可以通过 `worksheet.cells["C6"]` 或 `worksheet.cells[5, 2]`。
+4. 获取目标单元格的引用——可以通过 `worksheet.cells.get("C6")` 或 `worksheet.cells.get(5, 2)`。
 5. 将 bytes 对象赋值给单元格的 `embedded_image` 属性。
 6. 可选地调整目标行和列的行高与列宽，以使嵌入图片看起来更醒目。
 7. 将工作簿另存为 `.xlsx` 文件。
@@ -91,15 +93,15 @@ import aspose.cells as ac
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Get the target cell C6
-cell = worksheet.cells["C6"]
+cell = worksheet.cells.get("C6")
 # Read the image file into a byte array
 with open("logo.png", "rb") as f:
     imageData = f.read()
 # Embed the image directly into the cell
 cell.embedded_image = imageData
 # Optionally adjust row height and column width so the embedded image is more visible
-worksheet.cells.set_column_width(2, 30)   # Column C (index 2)
-worksheet.cells.set_row_height(5, 100)     # Row 6 (index 5)
+worksheet.cells.set_column_width(2, 30.0)   # Column C (index 2)
+worksheet.cells.set_row_height(5, 100.0)     # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 ```
@@ -114,7 +116,6 @@ workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 - **在以下情况下使用嵌入图片（方法二）：**
   - 您希望以最简单的方式将图片插入到单元格中。
   - 图片应像其他单元格内容一样随单元格一起移动。
-{{% /alert %}}
 
 ## 相关文章
 - [Aspose.Cells for Python via .NET 中的 Excel 照相机](/cells/zh/python-net/excel-camera/)
@@ -123,4 +124,4 @@ workbook.save("output.xlsx", ac.SaveFormat.XLSX)
 - [修改数据透视表中的页面字段布局](/cells/zh/python-net/change-page-field-layout/)
 - [在 Aspose.Cells for Python via .NET 中将迷你图转换为图像和 HTML](/cells/zh/python-net/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

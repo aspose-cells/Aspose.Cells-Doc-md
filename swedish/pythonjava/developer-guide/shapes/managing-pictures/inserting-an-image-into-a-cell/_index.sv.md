@@ -37,6 +37,7 @@ Bildens förankring definieras av fyra egenskaper med nollbaserade index:
 
 {{% alert color="primary" %}}
 Rad- och kolumnindex i Aspose.Cells är **nollbaserade**. Cell C6 har radindex 5 och kolumnindex 2. Off-by-one-fel i det nedre högra ankaret är den vanligaste orsaken till bilder som ser ut att överlappa en intilliggande cell.
+{{% /alert %}}
 
 ### **Styra placeringsbeteendet**
 `getPlacement` är en uppräkning av typen `PlacementType` som styr hur bilden beter sig när användaren ändrar storlek på den underliggande raden eller kolumnen. Det rekommenderade värdet för en bild i en enda cell är `PlacementType.MOVE_AND_SIZE`, vilket innebär att bilden flyttas och storleksanpassas tillsammans med den underliggande cellen så att den exakta anpassningen bibehålls.
@@ -56,7 +57,6 @@ Följande kod visar hela tillvägagångssättet.
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, SaveFormat, PlacementType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -69,10 +69,10 @@ try:
     picture.setUpperLeftColumn(2)
     picture.setLowerRightRow(6)
     picture.setLowerRightColumn(3)
-    picture.setPlacement(PlacementType.MoveAndSize)
+    picture.setPlacement(PlacementType.MOVE_AND_SIZE)
 finally:
     fs.close()
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -112,7 +112,7 @@ cell.setEmbeddedImage(imageData)
 worksheet.getCells().setColumnWidth(2, 30)   # Column C (index 2)
 worksheet.getCells().setRowHeight(5, 100)    # Row 6 (index 5)
 # Save the resulting workbook as an .xlsx file
-workbook.save("output.xlsx", SaveFormat.Xlsx)
+workbook.save("output.xlsx", SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -126,6 +126,5 @@ Båda metoderna skapar en bild som anpassas till en enskild cell, men de skiljer
 - **Använd en inbäddad bild (Metod 2) när:**
   - Du vill kunna infoga en bild i en cell så enkelt som möjligt.
   - Bilden ska följa med cellen som allt annat cellinnehåll.
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

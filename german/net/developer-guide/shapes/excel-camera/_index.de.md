@@ -25,9 +25,8 @@ Die wichtigsten APIs sind:
 
 {{% alert color="primary" %}}
 `UpdateSelectedValue()` MUSS vor dem Speichern aufgerufen werden, wenn die Ausgabe HTML oder PDF ist; andernfalls enthält die exportierte Datei keine Bilddaten und die Kamera erscheint in der gerenderten Ausgabe leer.
-{{% /alert %}}
-
 Der folgende Code erstellt eine Arbeitsmappe, fügt eine leere Grafik verankert an Zeile 10 Spalte 6 hinzu, verknüpft sie über die Eigenschaft `Formula` mit dem Quellbereich `A1:F10`, aktualisiert die eingebetteten Bilddaten und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ```csharp
 using System;

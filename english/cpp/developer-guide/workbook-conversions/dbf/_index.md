@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells provides full support for reading and writing DBF (dBASE) files. You can load existing dBASE III and dBASE IV files into a Workbook object, manipulate the data using the rich Aspose.Cells API, and save the workbook back to the DBF format for use with legacy database applications.
+{{% /alert %}}
 
 ## **Introduction**
 DBF (DataBase File) is a legacy database file format originally introduced by dBASE in the early 1980s. Despite the age of the format, DBF files are still widely used in many industries for storing structured data, particularly in accounting, GIS, and other specialized applications. Aspose.Cells allows you to integrate these legacy files into modern C++ spreadsheet workflows seamlessly.
@@ -85,6 +86,7 @@ int main() {
 
 {{% alert color="primary" %}}
 You can open DBF files directly in Microsoft Excel by selecting the file in the Open dialog. Excel will treat the DBF file as a spreadsheet, displaying its records in a tabular layout. This is useful for quickly verifying the data after reading or writing it with Aspose.Cells.
+{{% /alert %}}
 
 ## **Writing a DBF File**
 Writing data to a DBF file follows a similar pattern to saving any other spreadsheet format with Aspose.Cells. You create or load a Workbook, populate the worksheet with data, and then call the `Save` method while specifying `SaveFormat.Dbf` as the target format.
@@ -167,6 +169,7 @@ int main() {
 
 {{% alert color="primary" %}}
 When writing data to a DBF file, ensure that your data conforms to the format's limitations. Field names should be no longer than 10 characters and should not contain spaces. Records exceeding 4000 bytes in total will not be saved correctly. Dates should be valid date values that can be represented in the YYYYMMDD format.
+{{% /alert %}}
 
 ## **Data Type and Formatting Considerations**
 When transferring data between Aspose.Cells and the DBF format, understanding how data types map between the two systems is important for ensuring data integrity.
@@ -193,10 +196,5 @@ After writing a DBF file, you can verify the result by opening it in Microsoft E
 
 ## **Converting Between DBF and Other Formats**
 One of the most practical use cases for reading and writing DBF files with Aspose.Cells is converting data between the DBF format and modern spreadsheet formats such as XLSX, XLS, or CSV. Since Aspose.Cells supports a wide range of formats, you can easily load a DBF file and re-save it in any other supported format, or vice versa.
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

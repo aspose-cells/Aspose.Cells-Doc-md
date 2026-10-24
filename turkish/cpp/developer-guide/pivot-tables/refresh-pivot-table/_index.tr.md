@@ -1,8 +1,8 @@
 ---
-title: Aspose.Cells for C++ ile Pivot Tablolarını ve Pivot Önbelleklerini Yenileme
-linktitle: Aspose.Cells for C++ ile Pivot Tablolarını ve Pivot Önbelleklerini Yenileme
-description: Aspose.Cells for C++ ile v26.7+ pivot yenileme API'sini kullanarak pivot tablolarını nasıl yenileyeceğinizi öğrenin. Bu makale RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData ve GetPivotTables yöntemlerini pratik kod örnekleriyle ele alır.
-keywords: Aspose.Cells, C++, pivot tablosu, yenileme, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
+title: Aspose.Cells for C++ ile Pivot Tablolarını ve Pivot Önbelleklerini Yenileyin
+linktitle: Aspose.Cells for C++ ile Pivot Tablolarını ve Pivot Önbelleklerini Yenileyin
+description: Aspose.Cells for C++ ile v26.7+ pivot yenileme API'sini kullanarak Pivot Tablolarının nasıl yenilendiğini öğrenin. Bu makale, RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData ve GetPivotTables işlevlerini pratik kod örnekleriyle ele alır.
+keywords: Aspose.Cells, C++, Pivot Tablosu, yenileme, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
 url: /tr/cpp/refresh-pivot-table/
@@ -11,27 +11,54 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells, tüm çalışma kitabından tek bir pivot tablosuna kadar dört farklı kapsamda pivot verilerini yeniden yüklemenizi sağlayan katmanlı bir yenileme API'si sunar. **Aspose.Cells for C++ v26.7** sürümünden itibaren eski `PivotTable.RefreshData()` yöntemi kullanımdan kaldırılmış (obsolete) olarak işaretlenmiştir ve bu makalede açıklanan daha verimli, önbellek farkındalığına sahip API'lerle değiştirilmelidir.
+Aspose.Cells, pivot verisini çalışma kitabının tamamından tek bir Pivot Tablosuna kadar dört farklı kapsamda yeniden yüklemenize olanak tanıyan katmanlı bir yenileme API'si sunar. **Aspose.Cells for C++ v26.7** sürümünden başlayarak eski `PivotTable.RefreshData()` yöntemi eskimiş olarak işaretlenir ve bu makalede açıklanan daha verimli, önbellek farkındalıklı API'lerle değiştirilmelidir.
 {{% /alert %}}
 
-## Giriş
-Bir pivot tablosunu yenileme nadiren tek bir işlemdir. Sahne arkasında Aspose.Cells, orijinal kaynak verilerinizi çalışma sayfasında gördüğünüz işlenmiş değerlere bağlayan katmanlı bir veri zinciri tutar. Bu zinciri anlamak, her durum için doğru yenileme API'sini seçmenin anahtarıdır.
-Dört katmanlı veri zinciri şudur:
-1. **Veri Kaynağı** — ham değerlerin bulunduğu orijinal çalışma sayfası aralıkları, veritabanı sorgusu veya konsolidasyon aralığı.
-2. **PivotCache** — kaynak verilerin bellek içi anlık görüntüsü. Her pivot tablosu bir `PivotCache` üzerine inşa edilir; tüm veriler burada toplanır ve agrega edilir.
-3. **PivotTable** — satır, sütun, değer ve filtre alanlarını tanımlayan görünüm nesnesi. Bir `PivotTable` yalnızca kendi `PivotCache`'inden okur, doğrudan veri kaynağından asla okumaz.
-4. **Cells** — `PivotTable`'ın hesaplanan değerlerini ve stillerini işlediği çalışma sayfası `Cells` koleksiyonu.
+## Introduction
+Bir Pivot Tablosunu yenileme nadiren tek işlemden oluşur. Aspose.Cells arka planda, özgün kaynak verinizi çalışma sayfasında gördüğünüz işlenmiş değerlere bağlayan katmanlı bir veri zinciri korur. Bu zinciri anlamak, her durum için doğru yenileme API'sini seçmenin anahtarıdır.
+Dört katmanlı veri zinciri şöyledir:
+1. **Veri Kaynağı** — özgün değerlerin bulunduğu çalışma sayfası aralıkları, veritabanı sorgusu veya birleştirme aralığı.
+2. **PivotCache** — kaynak verinin bellek içi anlık görüntüsü. Her Pivot Tablosu bir `PivotCache` üzerine kuruludur; tüm verilerin toplandığı ve özetlendiği yer burasıdır.
+3. **PivotTable** — satır, sütun, değer ve filtre alanlarını tanımlayan görünüm nesnesi. Bir `PivotTable` nesnesi yalnızca kendi `PivotCache` verisinden okur, hiçbir zaman doğrudan veri kaynağından okumaz.
+4. **Cells** — `PivotTable` nesnesinin hesaplanan değerlerini ve biçimlerini oluşturduğu çalışma sayfası `Cells` koleksiyonu.
 
 {{% alert color="primary" %}}
-`PivotCache.SourceType` (`PivotTableSourceType` enum değeri) önbellek verilerinin nereden geldiğini belirtir. v26.7 itibarıyla `PivotCache.Refresh()` yalnızca **`Sheet`** ve **`Consolidation`** kaynak türlerini destekler; yani çalışma sayfası aralıklarında bulunan verileri. Dış kaynaklar (veritabanları, dış bağlantılar vb.) önbellek API üzerinden henüz yenilenemez.
+`PivotCache.SourceType` (`PivotTableSourceType` türündeki enum), önbellek verisinin nereden geldiğini gösterir. v26.7 sürümünde `PivotCache.Refresh()` yalnızca **`Sheet`** ve **`Consolidation`** kaynak türlerini, başka bir ifadeyle çalışma sayfası aralıklarında bulunan verileri destekler. Harici kaynaklar (veritabanları, harici bağlantılar vb.) önbellek API'si aracılığıyla henüz yenilenemez.
+Bu veri zinciri nedeniyle Aspose.Cells için iki temel yenileme yolu vardır:
+- **`PivotTable.CalculateData()`** — bir `PivotTable` nesnesinin görüntülenmesini, veri kaynağına geri dönülmeden önbelleğe alınmış verilerden yeniden hesaplar.
+Bu makaledeki tüm senaryolar çalışma sayfası hücrelerini kaynak olarak kullandığından kaynak türü `Sheet` olur ve yenileme işlemleri açıklandığı gibi davranır.
 {{% /alert %}}
 
-Bu zincir nedeniyle Aspose.Cells'te iki temel yenileme yolu vardır:
-- **`PivotTable.CalculateData()`** — veri kaynağına geri dönmeden, zaten önbelleğe alınmış verilerden tek bir `PivotTable`'ın görünümünü yeniden hesaplar.
-Bu makaledeki tüm senaryolarda çalışma sayfası hücresi kaynak verileri kullanılır; dolayısıyla kaynak türü `Sheet`'tir ve yenileme işlemleri açıklandığı şekilde çalışır.
+## Quick Start
+Yalnızca çalışma kitabındaki tüm Pivot Tablolarını yenileyen en kısa kodu istiyorsanız, tek çağrı yeterlidir:
 
-## Hızlı Başlangıç
-Çalışma kitabındaki her pivot'u yenileyen en kısa olası koda ihtiyacınız varsa, tek bir çağrı yeterlidir:
+```cpp
+#include "Aspose.Cells.h"
+using namespace Aspose::Cells;
+
+int main()
+{
+    Aspose::Cells::Startup();
+    Workbook workbook(u"input.xlsx");
+    workbook.RefreshAll();
+    workbook.Save(u"output.xlsx");
+    Aspose::Cells::Cleanup();
+    return 0;
+}
+```
+
+Bu makalenin geri kalanı, daha dar kapsamlı bir API'nin ne zaman seçilmesi gerektiğini açıklar.
+
+## Required Include Directives
+Bu makaledeki tüm C++ örnekleri, Pivot türlerinin `Aspose::Cells::Pivot` namespace içinde yer alması nedeniyle aşağıdaki üst bilgi include ve namespace yönergeleriyle başlar:
+- `#include <system/object.h>`
+- `#include "Aspose.Cells.h"`
+- `using namespace Aspose::Cells;`
+- `using namespace Aspose::Cells::Pivot;`
+
+## Refresh All Pivot Tables in the Workbook
+Çalışma kitabındaki her Pivot önbelleğinin ve her Pivot Tablosunun en güncel kaynak verileri yansıtmasını sağlamanız gerektiğinde, en basit ve en kapsamlı API `Workbook.RefreshAll()` yöntemidir. Tek çağrı çalışma kitabının tamamını tarar ve her `PivotCache` nesnesini kendi kaynağından yeniler; ardından bu önbelleğe bağlı her `PivotTable` nescesini yeniden hesaplar. Performansın bir sorun teşkil etmediği genel belge düzeyindeki yenilemelerde bu yaklaşım önerilir.
+Aşağıdaki örnek, Fruit/Year/Amount kaynak aralığı bulunan bir çalışma kitabı oluşturur, bir Pivot Tablosu oluşturur, bazı kaynak değerlerini değiştirir ve ardından `RefreshAll()` çağırarak her şeyi tek çağrıda güncel hâle getirir.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -84,22 +111,13 @@ int main() {
 }
 ```
 
-Bu makaledeki diğer her şey, bunun yerine ne zaman daha dar kapsamlı bir API seçmeniz gerektiğini açıklar.
-
-## Gerekli Include Direktifleri
-Bu makaledeki tüm C++ örnekleri, pivot türlerinin `Aspose::Cells::Pivot` namespace'inde bulunması nedeniyle aşağıdaki başlık include ve namespace direktifleriyle başlar:
-- `#include <system/object.h>`
-- `#include "Aspose.Cells.h"`
-- `using namespace Aspose::Cells;`
-- `using namespace Aspose::Cells::Pivot;`
-
-## Çalışma Kitabındaki Tüm Pivot Tablolarını Yenileme
-Çalışma kitabındaki her pivot önbelleğinin ve her pivot tablosunun en güncel kaynak verileri yansıttığından emin olmanız gerektiğinde, en basit ve en kapsamlı API `Workbook.RefreshAll()` yöntemidir. Tek bir çağrı tüm çalışma kitabını dolaşır — her `PivotCache`'i kendi kaynağından yeniler ve ardından ona bağlı her `PivotTable`'ı yeniden hesaplar. Performansın sorun olmadığı genel, tam belge yenilemeleri için önerilen yaklaşım budur.
-Aşağıdaki örnek, Meyve/Yıl/Tutar kaynak aralığıyla bir çalışma kitabı oluşturur, bir pivot tablo oluşturur, bazı kaynak değerlerini değiştirir ve ardından her şeyi tek bir çağrıyla güncel hale getirmek için `RefreshAll()` yöntemini kullanır.
+## Refresh All Pivot Tables on a Single Worksheet
+Bazen yalnızca belirli bir çalışma sayfasında bulunan Pivot Tablolarını yenilemeniz gerekir. Örneğin diğer çalışma sayfalarındaki Pivot Tablolarının ilişkisiz olduğu bilinir ve bunlara dokunulmamalıdır. Bu durumda Aspose.Cells, tek bir `Worksheet` örneğiyle sınırlı `Worksheet.RefreshPivotTables()` yöntemini sunar.
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -146,21 +164,29 @@ int main() {
 }
 ```
 
-## Tek Bir Çalışma Sayfasındaki Tüm Pivot Tablolarını Yenileme
-Bazen yalnızca belirli bir çalışma sayfasında bulunan pivot tablolarını yenilemeniz gerekir — örneğin, diğer çalışma sayfalarındaki pivot tablolarının ilgisiz olduğu biliniyorsa ve bunlara dokunulmaması gerektiğinde. Bu durum için Aspose.Cells, tek bir `Worksheet` örneğiyle sınırlı olan `Worksheet.RefreshPivotTables()` yöntemini sağlar.
+## Refresh a Single Pivot Table
+Tek bir Pivot Tablosu üzerinde ayrıntılı denetim istediğinizde, önbellek tabanlı API size iki seçenek sunar. Aralarındaki seçim, gerçekte neyin değiştiğine bağlıdır: temel kaynak veriler mi, yoksa yalnızca Pivot Tablosunun kendi görünüm veya düzen ayarları mı?
+
+### Source Data Changed — Use `PivotCache.Refresh()`
+Temel kaynak verileri değiştiyse doğru giriş noktası `pivotTable.GetPivotCache().Refresh()` yöntemidir. Bu çağrı kaynak verileri önbelleğe yeniden okur ve ardından bu önbelleğe bağlı her `PivotTable` nesnesini yeniden hesaplar.
+
+### Only View/Layout Changed — Use `CalculateData()`
+Kaynak verileri değişmemişse ve yalnızca Pivot Tablosunun görünüm veya düzen ayarları değiştirilmişse, örneğin bir alan farklı bir alana taşındıysa veya açılışta yenileme ayarı açılıp kapatıldıysa, veri kaynağına geri dönmeniz gerekmez. Önbellek zaten doğru verileri içerir; yalnızca işlenmiş `PivotTable` nesnesinin yeniden hesaplanması gerekir. Bu durumda doğru seçim `pivotTable.CalculateData()` yöntemidir.
+Aşağıdaki örnek, Pivot Tablosunun kaynak dışı bir özelliğini değiştirir ve ardından mevcut önbellekten yeniden işlemek için `CalculateData()` işlevini çağırır.
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // Meyve / Yıl / Miktar başlık satırını yaz
+    // Write Fruit / Year / Amount header row
     worksheet.GetCells().Get(u"A1").PutValue(u"Fruit");
     worksheet.GetCells().Get(u"B1").PutValue(u"Year");
     worksheet.GetCells().Get(u"C1").PutValue(u"Amount");
-    // 8 veri satırı yaz (2-9. satırlar, kaynak aralığı A1:C9'a uyuyor)
+    // Write 8 data rows (rows 2-9, fitting the source range A1:C9)
     worksheet.GetCells().Get(u"A2").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B2").PutValue(2020);
     worksheet.GetCells().Get(u"C2").PutValue(100);
@@ -185,37 +211,36 @@ int main() {
     worksheet.GetCells().Get(u"A9").PutValue(u"Cherry");
     worksheet.GetCells().Get(u"B9").PutValue(2021);
     worksheet.GetCells().Get(u"C9").PutValue(450);
-    // Hedef hücre E3'e yerleştirilen, A1:C9'dan veri alan "Pivot1" adlı bir özet tablo ekle
+    // Add a pivot table named "Pivot1" placed at destination cell E3, sourcing from A1:C9
     int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
     PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
-    // Alanları ata: Satır için Meyve, Sütun için Yıl, Veri için Miktar
+    // Assign fields: Fruit to Row, Year to Column, Amount to Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // Bir görünüm/düzen özelliğini değiştir — bu yalnızca sunumla ilgili bir değişikliktir,
-    // bu nedenle PivotCache.Refresh() aracılığıyla kaynak verilerin yeniden okunmasını GEREKTİRMEZ.
+    // Modify a view/layout property — this is a presentation-only change,
+    // so it does NOT require re-reading the source data through PivotCache.Refresh().
     pivotTable.SetRefreshDataOnOpeningFile(false);
-    // CalculateData(), BU özet tablosunun görüntüsünü (veri + stil) PivotCache'te zaten
-    // tutulan verilerden yeniden oluşturur. Kaynak veriler değişmediğinden,
-    // kaynağa gidiş-dönüş yapılmaz — yalnızca önbelleğe alınmış değerler çalışma sayfası
-    // hücrelerine yeniden hesaplanır.
+    // CalculateData() re-renders THIS pivot table's display (data + style) from the
+    // data already held in the PivotCache. Because the source data did not change,
+    // no round-trip to the source is performed — only the cached values are recalculated
+    // into worksheet cells.
     pivotTable.CalculateData();
-    // Çalışma kitabını diske kaydet
+    // Save the workbook to disk
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-## Tek Bir Pivot Tablosunu Yenileme
-Tek bir pivot tablosu üzerinde ayrıntılı denetim istediğinizde, önbellek tabanlı API size iki seçenek sunar. Aralarındaki seçim, gerçekte neyin değiştiğine bağlıdır: altta yatan kaynak veriler mi yoksa yalnızca pivot tablosunun görünüm/düzen ayarları mı.
+Bir çalışma kitabı genellikle tek bir paylaşılan önbelleğin üzerine kurulmuş birçok Pivot Tablosu içerir. Bunları sıralamak için — örneğin toplu yenileme yapmadan önce veya paylaşılan önbelleğin etkisini tanılamak için — `PivotCache.GetPivotTables()` yöntemini kullanın. Bu yöntem, verilen önbelleğe bağlı her `PivotTable` nesnesinin koleksiyonunu döndürür.
 
-### Kaynak Veriler Değişti — `PivotCache.Refresh()` Kullanın
-Alttaki kaynak veriler değiştiyse, doğru giriş noktası `pivotTable.GetPivotCache().Refresh()` çağrısıdır. Bu çağrı, kaynak verileri önbelleğe geri okur ve ardından o önbelleğe bağlı olan her `PivotTable`'ı yeniden hesaplar.
-
-### Yalnızca Görünüm/Düzen Değişti — `CalculateData()` Kullanın
-Kaynak veriler değişmediyse ancak yalnızca pivot tablosunun görünüm veya düzen ayarları değiştirildiyse (örneğin, bir alan farklı bir bölgeye taşındıysa veya açılışta yenileme ayarı değiştirildiyse), veri kaynağına geri dönmek gerekmez. Önbellek zaten doğru verileri tutar; yalnızca işlenmiş `PivotTable`'ın yeniden hesaplanması gerekir. Bu durumda `pivotTable.CalculateData()` doğru seçimdir.
-Aşağıdaki örnek, pivot tablosunun kaynak olmayan bir özelliğini değiştirir ve ardından mevcut önbellekten yeniden işlemek için `CalculateData()` yöntemini çağırır.
+## Migrating from the Obsolete `PivotTable.RefreshData()`
+Aspose.Cells for C++ v26.7 sürümünden önce, bir Pivot Tablosunu yenilemenin standart yolu her Pivot Tablosunda ayrı ayrı `PivotTable.RefreshData()` çağırmaktı. v26.7 itibarıyla bu yöntem **eskimiş** olarak işaretlenir ve yukarıda açıklanan önbellek farkındalıklı API'lerle değiştirilmelidir.
+Gerçek dünya çalışma kitaplarında tablo başına `RefreshData()` yaklaşımının sorunlu olmasının iki nedeni vardır:
+- Her çağrıldığında, kaynak değişmemiş olsa bile verileri kaynaktan *yeniden getirir*.
+Önerilen değiştirmeler şunlardır:
+Aşağıdaki örnek, tek bir önbelleği paylaşan birden fazla Pivot Tablosu içeren çalışma kitapları için yeni ve verimli kalıbı gösterir.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -256,37 +281,21 @@ int main() {
 }
 ```
 
-Bir çalışma kitabı genellikle tek bir paylaşılan önbelleğin üzerinde oturan birçok pivot tablosu içerir. Bunları numaralandırmak için — örneğin, toplu bir yenileme gerçekleştirmeden önce veya paylaşılan önbellek etkisini tanılamak için — `PivotCache.GetPivotTables()` yöntemini kullanın. Bu yöntem, verilen önbelleğe bağlı olan her `PivotTable`'ın koleksiyonunu döndürür.
-
-## Kullanımdan Kaldırılan `PivotTable.RefreshData()` Yönteminden Geçiş
-Aspose.Cells for C++ v26.7'den önce, bir pivot tablosunu yenilemenin standart yolu her pivot tablosunda ayrı ayrı `PivotTable.RefreshData()` çağırmaktı. v26.7 itibarıyla bu yöntem **kullanımdan kaldırılmış (obsolete)** olarak işaretlenmiştir ve yukarıda açıklanan önbellek farkındalığına sahip API'lerle değiştirilmelidir.
-Tablo başına `RefreshData()` yaklaşımının gerçek dünya çalışma kitaplarında sorunlu olmasının iki nedeni vardır:
-- Kaynak değişmemiş olsa bile her çağrıldığında verileri kaynaktan yeniden getirir.
-Önerilen alternatifler şunlardır:
-Aşağıdaki örnek, tek bir önbelleği paylaşan birden çok pivot tablosuna sahip çalışma kitapları için yeni ve verimli kalıbı gösterir.
-
-```cpp
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
-```
-
-## Hangi Yenileme API'sini Kullanmalıyım?
-Aşağıdaki tablo, mevcut yenileme API'lerini özetler ve her birinin ne zaman seçilmesi gerektiğini gösterir.
-| Hedef | Önerilen API | Notlar |
+## Which Refresh API Should I Use?
+Aşağıdaki tablo, kullanılabilir yenileme API'lerini ve her birinin ne zaman seçilmesi gerektiğini özetler.
+| Amaç | Önerilen API | Notlar |
 |------|-----------------|-------|
-| Çalışma kitabındaki her şeyi yenileme | `Workbook.RefreshAll()` | Tek çağrı; tüm önbellekleri ve tabloları kapsar. |
-| Yalnızca tek bir sayfadaki pivot tablolarını yenileme | `Worksheet.RefreshPivotTables()` | Tek bir çalışma sayfasıyla sınırlı. |
-| Bir önbellek için kaynak veriler değişti | `pivotTable.GetPivotCache().Refresh()` | O paylaşılan önbellekteki TÜM pivot tablolarını yeniler. |
-| Yalnızca görünüm/düzen ayarları değişti | `pivotTable.CalculateData()` | Gereksiz kaynak geri dönüşünü atlar. |
-| Paylaşılan önbellekteki tüm pivot tablolarını listeleme | `pivotCache.GetPivotTables()` | Toplu yenilemeden önce numaralandırmak için kullanın. |
-Uygulamada, kullanımdan kaldırılan tablo başına `RefreshData()` yerine önbellek tabanlı API'leri tercih edin. Bunlar paylaşılan önbelleklerin farkındadır, gereksiz kaynak getirmelerini önler ve yenileme gereksiniminizi karşılayan en küçük kapsamı seçmenize olanak tanır.
+| Çalışma kitabındaki her şeyi yenile | `Workbook.RefreshAll()` | Tek çağrı; tüm önbellekleri ve tabloları kapsar. |
+| Yalnızca tek bir çalışma sayfasındaki Pivot Tablolarını yenile | `Worksheet.RefreshPivotTables()` | Tek bir çalışma sayfasıyla sınırlıdır. |
+| Bir önbelleğin kaynak verileri değişti | `pivotTable.GetPivotCache().Refresh()` | Paylaşılan önbellekteki TÜM Pivot Tablolarını yeniler. |
+| Yalnızca görünüm/düzen ayarları değişti | `pivotTable.CalculateData()` | Gereksiz kaynak gidiş-dönüşünü atlar. |
+| Paylaşılan önbellekteki tüm Pivot Tablolarını listele | `pivotCache.GetPivotTables()` | Toplu yenilemeden önce sıralamak için kullanın. |
+Uygulamada eskimiş tablo başına `RefreshData()` yöntemi yerine önbellek tabanlı API'leri tercih edin. Bu API'ler paylaşılan önbelleklerin farkındadır, gereksiz kaynak veri getirme işlemlerini önler ve yenileme gereksiniminizi karşılayan en dar kapsamı seçmenizi sağlar.
 
-## Yaygın Tuzaklar
-- **Kaydetmeden önce yenilemeyi unutmak.** Bir pivot tablosu, veri zinciri yenilendiğinde işlenmiş değerlerini çalışma sayfasına yalnızca o zaman yazar. Kaynak hücreleri değiştirdiyseniz, `Workbook.Save()` çağrısından önce `PivotCache.Refresh()` (veya `Workbook.RefreshAll()`) çağırın; aksi takdirde kaydedilen dosya hâlâ eski agrega edilmiş değerleri içerir.
-- **Tablo başına kullanımdan kaldırılan `RefreshData()` çağrısı.** v26.7'de `PivotTable.RefreshData()` kullanımdan kaldırılmış olarak işaretlenmiştir ve her çağrı için kaynağı yeniden getirir. Bir önbelleği paylaşan birden çok pivot tablosuyla bu, N adet gereksiz kaynak getirmesi anlamına gelir. Bunun yerine tek bir `PivotCache.Refresh()` ve ardından her tablo için `CalculateData()` kullanın.
-- **Yalnızca düzen değiştiğinde yenileme yapmak.** Kaynak verilere dokunmadan yalnızca pivot tablosunun görünümünü (sütun sırası, `ConsolidationFunction` vb.) değiştirdiyseniz `PivotCache.Refresh()` gereksiz ve yavaştır. Mevcut önbellekten yeniden işlemek için `pivotTable.CalculateData()` çağırın.
-- **`PivotCache.Refresh()` tarafından desteklenmeyen dış kaynak.** Pivot tablosunun kaynağı dış bir bağlantıdan (veritabanı, OLAP küpü vb.) geliyorsa, `PivotCache.Refresh()` bunu v26.7'de yenileyemez — şu anda yalnızca `Sheet` ve `Consolidation` kaynak türlerini destekler. Dış kaynaklar için çalışma kitabını yeniden açın veya önbelleği kaynaktan yeniden oluşturun.
+## Common Pitfalls
+- **Kaydetmeden önce yenilemeyi unutmak.** Bir Pivot Tablosu, veri zinciri yenilendiğinde hesaplanmış değerlerini çalışma sayfasına yazar. Kaynak hücrelerini değiştirirseniz `Workbook.Save()` çağrısından önce `PivotCache.Refresh()` (veya `Workbook.RefreshAll()`) çağırın; aksi takdirde kaydedilen dosya eski özetlenmiş değerleri içermeye devam eder.
+- **Eskimiş `RefreshData()` yöntemini tablo başına çağırmak.** v26.7 sürümünde `PivotTable.RefreshData()` eskimiş olarak işaretlenir ve her çağrıda kaynağı yeniden getirir. Bir önbelleği paylaşan birden fazla Pivot Tablosu bulunduğunda bu, N adet gereksiz kaynak veri getirme işlemi anlamına gelir. Bunun yerine tek bir `PivotCache.Refresh()` çağrısı ve ardından her tablo için `CalculateData()` kullanın.
+- **Yalnızca düzen değiştiğinde yenilemek.** Kaynak verilerine dokunmadan yalnızca Pivot Tablosunun görünümünü (sütun sırası, `ConsolidationFunction` vb.) değiştirdiyseniz `PivotCache.Refresh()` gereksiz ve yavaştır. Mevcut önbellekten yeniden işlemek için `pivotTable.CalculateData()` çağırın.
+- **`PivotCache.Refresh()` tarafından desteklenmeyen harici kaynak.** Pivot Tablosunun kaynağı harici bir bağlantıdan geliyorsa (veritabanı, OLAP küpü vb.) `PivotCache.Refresh()` bunu v26.7 sürümünde yenileyemez; yöntem şu anda yalnızca `Sheet` ve `Consolidation` kaynak türlerini destekler. Harici kaynaklar için çalışma kitabını yeniden açın veya önbelleği kaynaktan yeniden oluşturun.
 
 {{< app/cells/assistant language="cpp" >}}

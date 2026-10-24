@@ -1,52 +1,53 @@
 ---
 title: Läsa och skriva DBF-filer
-description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylbladsfiler, vilket stöder läsning och skrivning av dBASE III- och IV-filer (DBF). Den här artikeln förklarar hur man importerar data från och exporterar data till DBF-filer med Aspose.Cells, inklusive information om filformat, funktioner som stöds och steg-för-steg-exempel.
-linktitle: Läsa och skriva
-url: /sv/net/reading-and-writing-dbf-files/
-keywords: Aspose.Cells, .NET library, DBF, dBASE, read DBF, write DBF, import DBF, export DBF, file format, .dbf
+linktitle: Läsa och skriva DBF-filer
+description: Aspose.Cells är ett .NET-bibliotek som stöder arbete med kalkylarksfiler samt läsning och skrivning av dBASE III- och dBASE IV-filer (DBF). Den här artikeln förklarar hur du importerar data från och exporterar data till DBF-filer med Aspose.Cells, inklusive information om filformat, funktioner som stöds och steg-för-steg-exempel.
+keywords: Aspose.Cells, .NET-bibliotek, DBF, dBASE, läsa DBF, skriva DBF, importera DBF, exportera DBF, filformat, .dbf
 type: docs
 weight: 200
+url: /sv/net/reading-and-writing-dbf-files/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells erbjuder fullständigt stöd för läsning och skrivning av DBF-filer (dBASE). Du kan läsa in befintliga dBASE III- och dBASE IV-filer i ett Workbook-objekt, manipulera data med hjälp av det omfattande Aspose.Cells-API:et, och spara arbetsboken tillbaka till DBF-formatet för användning med äldre databasprogram.
+Aspose.Cells har fullständigt stöd för att läsa och skriva DBF-filer (dBASE). Du kan läsa in befintliga dBASE III- och dBASE IV-filer i ett Workbook-objekt, ändra data med hjälp av det omfattande API:et i Aspose.Cells och spara tillbaka arbetsboken i DBF-format för användning med äldre databasprogram.
+{{% /alert %}}
 
 ## **Introduktion**
-DBF (DataBase File) är ett äldre databasfilformat som ursprungligen introducerades av dBASE i början av 1980-talet. Trots formatets ålder används DBF-filer fortfarande i stor utsträckning inom många branscher för lagring av strukturerad data, särskilt inom redovisning, GIS och andra specialiserade tillämpningar. Aspose.Cells låter dig sömlöst integrera dessa äldre filer i moderna .NET-kalkylbladsarbetsflöden.
+DBF (DataBase File) är ett äldre databasfilformat som ursprungligen introducerades av dBASE i början av 1980-talet. Trots formatets ålder används DBF-filer fortfarande allmänt i många branscher för att lagra strukturerad data, särskilt inom redovisning, GIS och andra specialiserade tillämpningar. Med Aspose.Cells kan du integrera dessa äldre filer sömlöst i moderna .NET-baserade arbetsflöden för kalkylarkshantering.
 Biblioteket stöder både läsning och skrivning av DBF-filer, vilket ger dig möjlighet att:
-- Importera data från befintliga DBF-filer till Aspose.Cells Workbook-objekt för vidare bearbetning eller konvertering till andra format.
-- Skapa nya DBF-filer från grunden eller genom att omvandla data från andra kalkylbladsformat.
-- Bibehålla fältdefinitioner, datatyper och poststrukturer vid överföring av data till och från DBF-formatet.
-DBF-filer kan också öppnas direkt i Microsoft Excel och andra kalkylbladsprogram, vilket gör dem till en bekväm brygga mellan äldre system och moderna kalkylbladsverktyg.
+- Importera data från befintliga DBF-filer till Workbook-objekt i Aspose.Cells för vidare bearbetning eller konvertering till andra format.
+- Skapa nya DBF-filer från grunden eller genom att omvandla data från andra kalkylarksformat.
+- Behålla fältdefinitioner, datatyper och poststrukturer vid överföring av data till och från DBF-format.
+DBF-filer kan också öppnas direkt i Microsoft Excel och andra kalkylarksprogram, vilket gör dem till en praktisk bro mellan äldre system och moderna kalkylarksverktyg.
 
 ## **DBF-versioner och funktioner som stöds**
-Aspose.Cells stöder följande DBF-formatversioner:
-- **dBASE III** — Den ursprungliga och mest stödda varianten av DBF-formatet.
-- **dBASE IV** — En utökad version som stöder ytterligare datatyper och större fältstorlekar.
+Aspose.Cells stöder följande versioner av DBF-formatet:
+- **dBASE III** – den ursprungliga och mest allmänt stödda varianten av DBF-formatet.
+- **dBASE IV** – en utvidgad version som stöder ytterligare datatyper och större fältstorlekar.
 
 ### Funktioner som stöds
-Biblioteket erbjuder omfattande stöd för följande operationer:
+Biblioteket ger omfattande stöd för följande åtgärder:
 - Läsa DBF-data till ett Workbook-objekt, där alla poster och fältdefinitioner bevaras.
-- Skriva arbetsboksdata tillbaka till DBF-format för export till dBASE-kompatibla program.
-- Hantera vanliga datatyper som används i DBF-filer, inklusive tecken-, numeriska-, datum- och logiska fält.
-- Bevara fältdefinitioner som fältnamn, typ och längd vid läsning/skrivning.
+- Skriva arbetsboksdata till DBF-format för export till program som är kompatibla med dBASE.
+- Hantera vanliga datatyper som används i DBF-filer, inklusive teckenfält, numeriska fält, datumfält och logiska fält.
+- Behålla fältdefinitioner såsom fältnamn, typ och längd vid läs- och skrivåtgärder.
 
 ### Begränsningar och överväganden
-Tänk på följande begränsningar när du arbetar med DBF-filer:
+När du arbetar med DBF-filer bör du tänka på följande begränsningar:
 - Det maximala antalet fält per fil är **128**.
 - Den maximala poststorleken är **4000 byte**.
-- Fältnamn är begränsade till **10 tecken**, måste vara versaler och får inte innehålla mellanslag.
+- Fältnamn är begränsade till **10 tecken**, måste anges i versaler och får inte innehålla mellanslag.
 - Datumvärden i DBF-filer lagras i formatet `YYYYMMDD`.
-- Teckenkodning kan variera beroende på källprogrammet (vanligtvis Windows-1252 eller OEM-kodtabeller).
+- Teckenkodningen kan variera beroende på programmet som skapade filen (vanligtvis Windows-1252 eller OEM-kodsidor).
 
 ## **Läsa en DBF-fil**
-Aspose.Cells gör det enkelt att läsa in data från en DBF-fil till ett Workbook-objekt. Biblioteket använder klassen `LoadOptions` för att ange källformatet, vilket säkerställer att data tolkas korrekt under inläsningen.
+Med Aspose.Cells är det enkelt att läsa in data från en DBF-fil i ett Workbook-objekt. Biblioteket använder klassen `LoadOptions` för att ange källformaten, vilket säkerställer att data tolkas korrekt under inläsningen.
 
 ### Läsa en DBF-fil med Aspose.Cells
-För att läsa en DBF-fil behöver du skapa en `LoadOptions`-instans, ange egenskapen `LoadFormat` till `LoadFormat.Dbf` och skicka den till `Workbook`-konstruktören tillsammans med filsökvägen. När data har lästs in blir de åtkomliga via samlingen `Worksheets`, där du kan iterera genom celler, extrahera värden eller manipulera data efter behov.
-Följande exempel visar hur man läsa in en befintlig DBF-fil i Aspose.Cells, komma åt det första kalkylbladet och läsa cellvärdena.
+För att läsa en DBF-fil skapar du en `LoadOptions`-instans, anger egenskapen `LoadFormat` till `LoadFormat.Dbf` och skickar den tillsammans med filsökvägen till `Workbook`-konstruktorn. När filen har lästs in är data tillgängliga via samlingen `Worksheets`, där du kan iterera över celler, hämta värden eller ändra data efter behov.
+Följande exempel visar hur du läser in en befintlig DBF-fil med Aspose.Cells, får åtkomst till det första kalkylarket och läser cellvärdena.
 
 ```csharp
 using System;
@@ -79,18 +80,19 @@ Console.WriteLine("DBF file loaded successfully. Converted XLSX saved at: " + ou
 ```
 
 {{% alert color="primary" %}}
-Du kan öppna DBF-filer direkt i Microsoft Excel genom att välja filen i dialogrutan Öppna. Excel behandlar DBF-filen som ett kalkylblad och visar dess poster i en tabellayout. Detta är användbart för att snabbt verifiera data efter att ha läst eller skrivit den med Aspose.Cells.
+Du kan öppna DBF-filer direkt i Microsoft Excel genom att välja filen i dialogrutan Öppna. Excel behandlar DBF-filen som ett kalkylark och visar dess poster i tabellform. Detta är användbart för att snabbt verifiera data efter läsning eller skrivning med Aspose.Cells.
+{{% /alert %}}
 
 ## **Skriva en DBF-fil**
-Att skriva data till en DBF-fil följer ett liknande mönster som att spara i vilket annat kalkylbladsformat som helst med Aspose.Cells. Du skapar eller läser in en Workbook, fyller kalkylbladet med data och anropar sedan metoden `Save` med `SaveFormat.Dbf` som målformat.
+Att skriva data till en DBF-fil följer samma mönster som att spara data i andra kalkylarksformat med Aspose.Cells. Du skapar eller läser in en Workbook, fyller kalkylarket med data och anropar sedan metoden `Save` med `SaveFormat.Dbf` som målformat.
 
 ### Skriva en DBF-fil med Aspose.Cells
-Följ dessa steg för att skapa en DBF-fil:
+Följ de här stegen för att skapa en DBF-fil:
 1. Skapa en ny `Workbook`-instans.
-2. Hämta det första kalkylbladet från samlingen `Worksheets`.
-3. Fyll kalkylbladet med din data, inklusive rubriker på den första raden och poster på efterföljande rader.
-4. Anropa metoden `Workbook.Save` med filsökvägen och `SaveFormat.Dbf` som parametrar.
-Följande exempel visar hur man skapar en ny DBF-fil från grunden. Det fyller ett kalkylblad med exempeldata som innehåller olika datatyper (strängar, tal och datum) för att illustrera hur fälttyper hanteras vid export till DBF-formatet.
+2. Hämta det första kalkylarket från samlingen `Worksheets`.
+3. Fyll kalkylarket med data, inklusive rubriker i den första raden och poster i de efterföljande raderna.
+4. Anropa metoden `Workbook.Save` och skicka filsökvägen samt `SaveFormat.Dbf` som parametrar.
+Följande exempel visar hur du skapar en ny DBF-fil från grunden. Exemplet fyller ett kalkylark med data som innehåller olika datatyper (strängar, tal och datum) för att illustrera hur fälttyper hanteras vid export till DBF-formatet.
 
 ```csharp
 using System;
@@ -141,7 +143,7 @@ cells[5, 1].PutValue("Charlie Wilson");
 cells[5, 2].PutValue("Operations");
 cells[5, 3].PutValue(79500.80);
 cells[5, 4].PutValue(new DateTime(2022, 5, 30));
-// Ställ in kolumnbredder för bättre läsbarhet
+// Ange kolumnbredder för bättre läsbarhet
 worksheet.Cells.SetColumnWidth(0, 8);
 worksheet.Cells.SetColumnWidth(1, 20);
 worksheet.Cells.SetColumnWidth(2, 20);
@@ -151,38 +153,33 @@ workbook.Save(filePath, SaveFormat.Dbf);
 ```
 
 {{% alert color="primary" %}}
-När du skriver data till en DBF-fil ska du se till att dina data följer formatets begränsningar. Fältnamn bör inte vara längre än 10 tecken och får inte innehålla mellanslag. Poster som överstiger 4000 byte totalt kommer inte att sparas korrekt. Datum bör vara giltiga datumvärden som kan representeras i formatet YYYYMMDD.
+När du skriver data till en DBF-fil måste du se till att data uppfyller formatets begränsningar. Fältnamnen får vara högst 10 tecken långa och får inte innehålla mellanslag. Poster som totalt överstiger 4000 byte sparas inte korrekt. Datumvärdena bör vara giltiga och kunna representeras i formatet YYYYMMDD.
+{{% /alert %}}
 
 ## **Överväganden om datatyper och formatering**
-När data överförs mellan Aspose.Cells och DBF-formatet är det viktigt att förstå hur datatyper mappas mellan de två systemen för att säkerställa dataintegritet.
+För att säkerställa att dataintegriteten bevaras är det viktigt att förstå hur datatyperna mappas mellan de två systemen.
 
-### Celltyper till DBF-fälttyper
-Aspose.Cells cellvärden konverteras automatiskt till lämpliga DBF-fälttyper vid sparande:
+### Mappning av celltyper till DBF-fälttyper
+Cellvärden i Aspose.Cells konverteras automatiskt till lämpliga DBF-fälttyper vid sparning:
 - **Strängar** mappas till teckenfält (C).
-- **Numeriska värden** (heltal och decimaler) mappas till numeriska fält (N).
+- **Numeriska värden** (heltal och decimaltal) mappas till numeriska fält (N).
 - **Datumvärden** mappas till datumfält (D) i formatet `YYYYMMDD`.
 - **Booleska värden** mappas till logiska fält (L).
 
 ### Teckenkodning
-DBF-filer kan använda olika teckenkodningar beroende på programmet som skapade dem. Aspose.Cells hanterar teckenkodning transparent i de flesta fall, men om du stöter på problem med teckenvisningen kan du behöva verifiera källfilens teckenkodning.
+DBF-filer kan använda olika teckenkodningar beroende på vilket program som skapade dem. Aspose.Cells hanterar teckenkodningen automatiskt i de flesta fall, men om du får problem med att tecken visas kan du behöva kontrollera källfilens kodning.
 
 ### Regler för fältnamn
 DBF-fältnamn måste följa följande regler:
-- Maximal längd på 10 tecken.
+- Maximal längd är 10 tecken.
 - Måste börja med en bokstav.
 - Får inte innehålla mellanslag eller specialtecken.
-- Lagras som versaler oavsett skiftläge som används vid inmatning.
+- Lagras med versaler oavsett om indatan använder versaler eller gemener.
 
-### Verifiera utdata
-Efter att ha skrivit en DBF-fil kan du verifiera resultatet genom att öppna den i Microsoft Excel eller annat dBASE-kompatibelt program. Data ska visas i en tabellayout med fältnamnen som kolumnrubriker, och posterna ifyllda enligt den data du angav.
+### Verifiera resultatet
+När du har skrivit en DBF-fil kan du verifiera resultatet genom att öppna filen i Microsoft Excel eller ett program som är kompatibelt med dBASE. Data bör visas i tabellform, med fältnamnen som kolumnrubriker och posterna ifyllda utifrån de data du har angett.
 
 ## **Konvertera mellan DBF och andra format**
-Ett av de mest praktiska användningsfallen för att läsa och skriva DBF-filer med Aspose.Cells är att konvertera data mellan DBF-formatet och moderna kalkylbladsformat som XLSX, XLS eller CSV. Eftersom Aspose.Cells stöder ett brett utbud av format kan du enkelt läsa in en DBF-fil och spara om den i valfritt annat format som stöds, eller vice versa.
-Du kan till exempel läsa en DBF-fil, tillämpa formatering eller beräkningar med hjälp av Aspose.Cells-API:et och sedan spara resultatet som en XLSX-fil för distribution till användare som arbetar med moderna kalkylbladsprogram. Omvänt kan du ta data från en XLSX- eller CSV-fil och exportera den till DBF-format för integration med äldre system.
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
+Ett av de mest praktiska användningsområdena för att läsa och skriva DBF-filer med Aspose.Cells är att konvertera data mellan DBF-formatet och moderna kalkylarksformat som XLSX, XLS eller CSV. Eftersom Aspose.Cells stöder ett stort antal format kan du enkelt läsa in en DBF-fil och spara om den i ett annat format som stöds, eller omvänt.
 
 {{< app/cells/assistant language="csharp" >}}

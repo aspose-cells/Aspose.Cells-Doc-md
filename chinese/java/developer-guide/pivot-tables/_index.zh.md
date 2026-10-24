@@ -32,11 +32,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 在将单元格范围指定为数据源时，范围必须从左上到右下进行设置。例如，“A1:C3” 是有效的；“C3:A1” 是无效的。
-{{% /alert %}}
-
 下面的代码示例显示了如何根据上述基本步骤创建一个简单的数据透视表。执行代码时，会在工作表中添加一个数据透视表:
 **基于相应字段创建数据透视表**
 ![todo:image_alt_text](create-pivot-table_1.png)
+{{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
 

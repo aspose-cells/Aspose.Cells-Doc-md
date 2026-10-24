@@ -57,10 +57,9 @@ workbook.Save(fileName);
 
 {{% alert color="primary" %}}
 لا يعمل مرشح التاريخ إلا عندما تحتوي منطقة الصف أو العمود على خلايا تاريخ ووقت فقط أو قيم فارغة. إذا كان الحقل الأساسي يحتوي على أنواع بيانات أخرى مثل الأرقام أو النصوص، فلن ينتج مرشح التاريخ النتيجة المتوقعة. تأكد من تنسيق الحقل كتاريخ وأن جميع القيم هي نسخ صالحة من `DateTime` أو خلايا فارغة قبل تطبيق هذا المرشح.
-{{% /alert %}}
-
 تعرض Aspose.Cells تصفية التاريخ من خلال أسلوب `PivotField.FilterByDate(PivotFilterType, params DateTime[] values)`. يحتوي تعداد `PivotFilterType` على قيم تاريخ مخصصة مثل `Today` و`Yesterday` و`LastWeek` و`ThisWeek` و`NextWeek` و`LastMonth` و`ThisMonth` و`NextMonth` و`LastQuarter` و`ThisQuarter` و`NextQuarter` و`LastYear` و`ThisYear` و`NextYear` و`Between`. اعتمادًا على نوع المرشح المختار، تمرر قيمة أو قيمتين من `DateTime` (بالنسبة لـ `Between`، تمرر تاريخ البدء والانتهاء).
 يحمل المثال التالي مصنفًا يحتوي على جدول محوري توجد به منطقة صفوف تحتوي على حقل تاريخ، ويطبق مرشح تاريخ يقصر العناصر المرئية على نطاق تاريخ معين، ويُحدّث الجدول المحوري، ويحفظ المصنف.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -129,10 +128,9 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 يكون مرشح أعلى 10 فعالًا فقط عندما يحتوي الجدول المحوري على حقل قيمة واحد أو أكثر في منطقة البيانات. بدون حقل قيمة واحد على الأقل، لا يوجد مقياس مجمع لترتيب العناصر مقابله، ولا يمكن تطبيق المرشح.
-{{% /alert %}}
-
 تعرض Aspose.Cells تصفية أعلى 10 من خلال أسلوب `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)`. يحدد المعامل `itemCount` عدد العناصر التي يجب الاحتفاظ بها، ويتحكم `filterType` في كيفية حساب القيمة، عادةً باستخدام `Sum` وكذلك `Count` أو `Percent`. يحدد `isTop` ما إذا كان يجب الاحتفاظ بأعلى العناصر (`true`) أو أدناها (`false`)، ويمثل `valueFieldIndex` فهرس حقل البيانات المستخدم لترتيب العناصر.
 يحمل المثال التالي مصنفًا يحتوي على جدول محوري يحتوي على حقل قيمة، ويطبق مرشح أعلى 10 للاحتفاظ فقط بأعلى 10 عناصر حسب مجموع المبيعات، ويُحدّث الجدول المحوري، ويحفظ المصنف.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -162,7 +160,7 @@ int valueFieldIndex = 0;
 //   - filterType = PivotFilterType.Sum
 //   - isTop = true لأعلى N، أو false لأدنى N
 //   - valueFieldIndex = فهرس حقل البيانات المستخدم لترتيب العناصر
-rowField.FilterTop10(10, PivotFilterType.Sum, true, valueFieldIndex);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
 // تحديث بيانات الجدول المحوري وإعادة حسابها لتطبيق المرشح
 pivotTable.PivotCache.Refresh();
 // حفظ المصنف

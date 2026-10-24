@@ -106,10 +106,10 @@ Lors de l'affectation d'une plage de cellules comme source de données, la plage
 {{% /alert %}}
 
 ## Articles connexes
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Python via Java](/cells/fr/python-java/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Python via Java](/cells/fr/python-java/apply-style-to-pivot-table/)
+- [Ajouter des champs de filtre à un tableau croisé dynamique dans Aspose.Cells pour .NET](/cells/fr/python-java/add-page-field-in-pivot-table/)
+- [Appliquer des styles aux tableaux croisés dynamiques dans Aspose.Cells for Python via Java](/cells/fr/python-java/apply-style-to-pivot-table/)
 - [Modify Page Field Layout in Pivot Table](/cells/fr/python-java/change-page-field-layout/)
-- [Filtering Pivot Tables by Label or Value](/cells/fr/python-java/filter-by-label-or-value-of-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Python via Java](/cells/fr/python-java/manage-value-fields/)
+- [Filtrage des tableaux croisés dynamiques par étiquette ou valeur](/cells/fr/python-java/filter-by-label-or-value-of-pivot-table/)
+- [Champs de valeurs dans Aspose.Cells for Python via Java](/cells/fr/python-java/manage-value-fields/)
 
 {{< app/cells/assistant language="python" >}}

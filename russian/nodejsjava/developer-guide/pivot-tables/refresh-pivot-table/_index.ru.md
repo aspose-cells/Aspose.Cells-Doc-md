@@ -23,12 +23,11 @@ Aspose.Cells предоставляет многоуровневый API обн�
 4. **Cells** — ячейки `Cells` рабочего листа, в которые `PivotTable` вычисляет и отображает свои значения и стили.
 
 {{% alert color="primary" %}}
-`PivotCache.SourceType` (перечисление `PivotTableSourceType`) указывает, откуда поступили данные кэша. Начиная с версии v26.7, `PivotCache.Refresh()` поддерживает только типы источников **`Sheet`** и **`Consolidation`** — то есть данные, которые находятся в диапазонах рабочего листа. Внешние источники (базы данных, внешние подключения и т.д.) пока не могут быть обновлены через API кэша.
-{{% /alert %}}
-
+`PivotCache.SourceType` (перечисление `PivotTableSourceType`) указывает, откуда поступили данные кэша. Начиная с версии v26.7, `PivotCache.refresh()` поддерживает только типы источников **`Sheet`** и **`Consolidation`** — то есть данные, которые находятся в диапазонах рабочего листа. Внешние источники (базы данных, внешние подключения и т.д.) пока не могут быть обновлены через API кэша.
 Из-за этой цепочки в Aspose.Cells существуют два основных пути обновления:
-- **`PivotTable.CalculateData()`** — пересчитывает отображение одной `PivotTable` из уже кэшированных данных, без обращения к источнику данных.
+- **`PivotTable.calculateData()`** — пересчитывает отображение одной `PivotTable` из уже кэшированных данных, без обращения к источнику данных.
 Все сценарии в этой статье используют исходные данные из ячеек рабочего листа, поэтому тип источника — `Sheet`, и операции обновления работают так, как описано.
+{{% /alert %}}
 
 ## Быстрый старт
 Если вам нужен только минимально возможный код для обновления всех сводных таблиц в рабочей книге, достаточно одного вызова:
@@ -47,8 +46,8 @@ workbook.save("output.xlsx");
 - Или для конкретных импортов: `const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
 ## Обновление всех сводных таблиц в рабочей книге
-Если вам нужно убедиться, что каждый кэш сводных таблиц и каждая сводная таблица в рабочей книге отражают самые последние исходные данные, самый простой и всеобъемлющий API — это `Workbook.RefreshAll()`. Один вызов обходит всю рабочую книгу — обновляя каждый `PivotCache` из его источника, а затем пересчитывая каждую зависимую `PivotTable`. Это рекомендуемый подход для общих полных обновлений документа, когда производительность не является проблемой.
-Следующий пример создаёт рабочую книгу с исходным диапазоном Fruit/Year/Amount, создаёт одну сводную таблицу, изменяет некоторые исходные значения, а затем использует `RefreshAll()` для актуализации всего за один вызов.
+Если вам нужно убедиться, что каждый кэш сводных таблиц и каждая сводная таблица в рабочей книге отражают самые последние исходные данные, самый простой и всеобъемлющий API — это `Workbook.refreshAll()`. Один вызов обходит всю рабочую книгу — обновляя каждый `PivotCache` из его источника, а затем пересчитывая каждую зависимую `PivotTable`. Это рекомендуемый подход для общих полных обновлений документа, когда производительность не является проблемой.
+Следующий пример создаёт рабочую книгу с исходным диапазоном Fruit/Year/Amount, создаёт одну сводную таблицу, изменяет некоторые исходные значения, а затем использует `refreshAll()` для актуализации всего за один вызов.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -88,9 +87,9 @@ worksheet.getCells().get("C9").putValue(120);
 const pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 const pivotTable = worksheet.getPivotTables().get(pivotIndex);
 // Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 // Modify several Amount values in the source data to simulate changes
 worksheet.getCells().get("C2").putValue(55);
 worksheet.getCells().get("C5").putValue(85);
@@ -102,9 +101,10 @@ workbook.save("output.xlsx");
 ```
 
 ## Обновление всех сводных таблиц на одном рабочем листе
-Иногда вам нужно обновить только сводные таблицы, которые находятся на одном конкретном рабочем листе — например, когда известно, что сводные таблицы на других листах не связаны и не должны быть затронуты. Для этого случая Aspose.Cells предоставляет `Worksheet.RefreshPivotTables()`, который ограничен одним экземпляром `Worksheet`.
+Иногда вам нужно обновить только сводные таблицы, которые находятся на одном конкретном рабочем листе — например, когда известно, что сводные таблицы на других листах не связаны и не должны быть затронуты. Для этого случая Aspose.Cells предоставляет `Worksheet.refreshPivotTables()`, который ограничен одним экземпляром `Worksheet`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.getCells().get("A1").putValue("Fruit");
@@ -136,9 +136,9 @@ worksheet.getCells().get("B9").putValue(2020);
 worksheet.getCells().get("C9").putValue(140);
 let pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 worksheet.getCells().get("C2").putValue(300);
 worksheet.getCells().get("C5").putValue(250);
 worksheet.getCells().get("C9").putValue(400);
@@ -149,14 +149,15 @@ workbook.save("output.xlsx");
 ## Обновление одной сводной таблицы
 Если вы хотите точно контролировать одну сводную таблицу, кэш-ориентированный API предоставляет два варианта. Выбор между ними зависит от того, что именно изменилось: базовые исходные данные или только параметры представления/макета самой сводной таблицы.
 
-### Исходные данные изменились — используйте `PivotCache.Refresh()`
-Если базовые исходные данные изменились, правильной точкой входа является `pivotTable.PivotCache.Refresh()`. Этот вызов перечитывает исходные данные в кэш, а затем пересчитывает каждую `PivotTable`, зависящую от этого кэша.
+### Исходные данные изменились — используйте `PivotCache.refresh()`
+Если базовые исходные данные изменились, правильной точкой входа является `pivotTable.PivotCache.refresh()`. Этот вызов перечитывает исходные данные в кэш, а затем пересчитывает каждую `PivotTable`, зависящую от этого кэша.
 
-### Изменились только представление/макет — используйте `CalculateData()`
-Если исходные данные *не* изменились, но изменились только параметры представления или макета сводной таблицы (например, поле было перемещено в другую область или переключена настройка обновления при открытии), нет необходимости обращаться к источнику данных. Кэш уже содержит правильные данные; необходимо только пересчитать отображаемую `PivotTable`. В этом случае `pivotTable.CalculateData()` является правильным выбором.
-Следующий пример изменяет не исходное свойство сводной таблицы, а затем вызывает `CalculateData()` для её повторного отображения из существующего кэша.
+### Изменились только представление/макет — используйте `calculateData()`
+Если исходные данные *не* изменились, но изменились только параметры представления или макета сводной таблицы (например, поле было перемещено в другую область или переключена настройка обновления при открытии), нет необходимости обращаться к источнику данных. Кэш уже содержит правильные данные; необходимо только пересчитать отображаемую `PivotTable`. В этом случае `pivotTable.calculateData()` является правильным выбором.
+Следующий пример изменяет не исходное свойство сводной таблицы, а затем вызывает `calculateData()` для её повторного отображения из существующего кэша.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 // Write Fruit / Year / Amount header row
@@ -192,13 +193,13 @@ worksheet.getCells().get("C9").putValue(450);
 var pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 var pivotTable = worksheet.getPivotTables().get(pivotIndex);
 // Assign fields: Fruit to Row, Year to Column, Amount to Data
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 // Modify a view/layout property — this is a presentation-only change,
-// so it does NOT require re-reading the source data through PivotCache.Refresh().
+// so it does NOT require re-reading the source data through PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
-// CalculateData() re-renders THIS pivot table's display (data + style) from the
+// calculateData() re-renders THIS pivot table's display (data + style) from the
 // data already held in the PivotCache. Because the source data did not change,
 // no round-trip to the source is performed — only the cached values are recalculated
 // into worksheet cells.
@@ -207,7 +208,7 @@ pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
 
-Рабочая книга часто содержит множество сводных таблиц, которые все расположены поверх одного общего кэша. Чтобы перечислить их — например, перед выполнением пакетного обновления или для диагностики влияния общего кэша — используйте `PivotCache.GetPivotTables()`. Этот метод возвращает коллекцию всех `PivotTable`, зависящих от данного кэша.
+Рабочая книга часто содержит множество сводных таблиц, которые все расположены поверх одного общего кэша. Чтобы перечислить их — например, перед выполнением пакетного обновления или для диагностики влияния общего кэша — используйте `PivotCache.getPivotTables()`. Этот метод возвращает коллекцию всех `PivotTable`, зависящих от данного кэша.
 
 ## Миграция с устаревшего `PivotTable.RefreshData()`
 До версии Aspose.Cells for Node.js via Java v26.7 стандартным способом обновления сводной таблицы был вызов `PivotTable.RefreshData()` для каждой сводной таблицы отдельно. Начиная с версии v26.7 этот метод помечен как **устаревший** и должен быть заменён на кэш-ориентированные API, описанные выше.
@@ -220,17 +221,17 @@ workbook.save("output.xlsx");
 В таблице ниже приведены доступные API обновления и рекомендации по выбору каждого из них.
 | Цель | Рекомендуемый API | Примечания |
 |------|-----------------|-------|
-| Обновить всё в рабочей книге | `Workbook.RefreshAll()` | Один вызов; охватывает все кэши и таблицы. |
-| Обновить только сводные таблицы на одном листе | `Worksheet.RefreshPivotTables()` | Ограничено одним рабочим листом. |
-| Исходные данные изменились для одного кэша | `pivotTable.PivotCache.Refresh()` | Обновляет ВСЕ сводные таблицы на этом общем кэше. |
-| Изменились только параметры представления/макета | `pivotTable.CalculateData()` | Пропускает ненужное обращение к источнику. |
-| Получить список всех сводных таблиц на общем кэше | `pivotCache.GetPivotTables()` | Используйте для перечисления перед массовым обновлением. |
+| Обновить всё в рабочей книге | `Workbook.refreshAll()` | Один вызов; охватывает все кэши и таблицы. |
+| Обновить только сводные таблицы на одном листе | `Worksheet.refreshPivotTables()` | Ограничено одним рабочим листом. |
+| Исходные данные изменились для одного кэша | `pivotTable.PivotCache.refresh()` | Обновляет ВСЕ сводные таблицы на этом общем кэше. |
+| Изменились только параметры представления/макета | `pivotTable.calculateData()` | Пропускает ненужное обращение к источнику. |
+| Получить список всех сводных таблиц на общем кэше | `pivotCache.getPivotTables()` | Используйте для перечисления перед массовым обновлением. |
 На практике отдавайте предпочтение кэш-ориентированным API вместо устаревшего потабличного `RefreshData()`. Они учитывают общие кэши, избегают избыточных обращений к источнику и позволяют выбрать наименьший объём, удовлетворяющий вашим требованиям к обновлению.
 
 ## Распространённые ошибки
-- **Забыли обновить перед сохранением.** Сводная таблица записывает свои отображаемые значения на рабочий лист только при обновлении цепочки данных. Если вы изменяете исходные ячейки, вызовите `PivotCache.Refresh()` (или `Workbook.RefreshAll()`) перед `Workbook.save()`, иначе сохранённый файл всё ещё будет содержать старые агрегированные значения.
-- **Вызов устаревшего `RefreshData()` для каждой таблицы.** В версии v26.7 метод `PivotTable.RefreshData()` помечен как устаревший и повторно извлекает данные из источника при каждом вызове. При наличии нескольких сводных таблиц, использующих общий кэш, это означает N избыточных обращений к источнику. Замените его одним вызовом `PivotCache.Refresh()`, за которым следует `CalculateData()` для каждой таблицы.
-- **Обновление, когда изменился только макет.** Если вы изменили только представление сводной таблицы (порядок столбцов, `ConsolidationFunction` и т.д.), не затрагивая исходные данные, вызов `PivotCache.Refresh()` не нужен и медленный. Вызовите `pivotTable.CalculateData()` для повторного отображения из существующего кэша.
-- **Внешний источник не поддерживается `PivotCache.Refresh()`.** Если источник сводной таблицы поступает из внешнего подключения (база данных, OLAP-куб и т.д.), `PivotCache.Refresh()` не может обновить его в версии v26.7 — в настоящее время он поддерживает только типы источников `Sheet` и `Consolidation`. Для внешних источников откройте рабочую книгу заново или пересоздайте кэш из источника.
+- **Забыли обновить перед сохранением.** Сводная таблица записывает свои отображаемые значения на рабочий лист только при обновлении цепочки данных. Если вы изменяете исходные ячейки, вызовите `PivotCache.refresh()` (или `Workbook.refreshAll()`) перед `Workbook.save()`, иначе сохранённый файл всё ещё будет содержать старые агрегированные значения.
+- **Вызов устаревшего `RefreshData()` для каждой таблицы.** В версии v26.7 метод `PivotTable.RefreshData()` помечен как устаревший и повторно извлекает данные из источника при каждом вызове. При наличии нескольких сводных таблиц, использующих общий кэш, это означает N избыточных обращений к источнику. Замените его одним вызовом `PivotCache.refresh()`, за которым следует `calculateData()` для каждой таблицы.
+- **Обновление, когда изменился только макет.** Если вы изменили только представление сводной таблицы (порядок столбцов, `ConsolidationFunction` и т.д.), не затрагивая исходные данные, вызов `PivotCache.refresh()` не нужен и медленный. Вызовите `pivotTable.calculateData()` для повторного отображения из существующего кэша.
+- **Внешний источник не поддерживается `PivotCache.refresh()`.** Если источник сводной таблицы поступает из внешнего подключения (база данных, OLAP-куб и т.д.), `PivotCache.refresh()` не может обновить его в версии v26.7 — в настоящее время он поддерживает только типы источников `Sheet` и `Consolidation`. Для внешних источников откройте рабочую книгу заново или пересоздайте кэш из источника.
 
 {{< app/cells/assistant language="nodejs-java" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells admite la creación de sparklines dentro de las celdas de la hoja de cálculo. Las sparklines son minigráficos que caben dentro de una sola celda, ofreciendo una representación visual rápida de las tendencias de los datos. Aspose.Cells admite sparklines de línea, columna y ganar/perder, y cada una se puede personalizar en cuanto a color, grosor de línea, puntos altos/bajos y marcadores.
+{{% /alert %}}
 
 ## **Introducción**
 Las sparklines son pequeños gráficos dentro de la celda que resultan útiles cuando se desea mostrar una tendencia rápida junto a una fila o columna de datos sin ocupar el espacio de un gráfico completo. Excel admite tres tipos de sparklines: **línea**, **columna** y **ganar/perder**. Aspose.Cells replica esta funcionalidad a través de las API `SparklineGroup` y `SparklineGroupCollection` que se encuentran en el espacio de nombres `Aspose.Cells.Charts`.
@@ -248,6 +249,5 @@ Una vez que un `SparklineGroup` ha sido creado y añadido a `worksheet.Sparkline
 - **Marcadores de puntos altos/bajos** — indicadores que activan pequeños marcadores en los puntos de datos más altos y más bajos, útiles para enfatizar los extremos.
 - **Marcadores de primer/último/punto negativo** — indicadores que alternan los marcadores en el primer, último y negativos puntos de datos.
 Para cambiar un color, cree siempre una instancia de `CellsColor` y asígnela a la propiedad correspondiente. No asigne un valor de color sin procesar directamente a las propiedades de color de la sparkline — esperan el tipo `CellsColor` de `Aspose.Cells.Drawing`. El propio método `SparklineGroups.Add` devuelve un objeto `SparklineGroup` totalmente tipado, por lo que puede encadenar asignaciones de propiedades sobre el valor de retorno o almacenarlo en una variable local y personalizarlo antes de guardar.
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

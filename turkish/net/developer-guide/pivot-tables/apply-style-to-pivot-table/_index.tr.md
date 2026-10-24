@@ -89,6 +89,74 @@ workbook.Save("output.xls");
 
 ## **Apply a Modern Named Preset Pivot Table Style**
 
+`PivotTable.PivotTableStyleType`, Excel 2007’de pivot tablolar için tanıtılan önceden hazırlanmış adlandırılmış stillerden birini seçer. `PivotTableStyleType` numaralandırması, üç temel aileyi sunar: `PivotTableStyleLight1`’den `PivotTableStyleLight28`’e kadar olan açık ailesi, `PivotTableStyleMedium1`’den `PivotTableStyleMedium28`’e kadar olan orta ailesi ve `PivotTableStyleDark1`’den `PivotTableStyleDark28`’e kadar olan koyu ailesi. Ayrıca, `None` ve `Custom` değerlerini de tanımlar. Her ailenin daha yüksek numaralı üyeleri, Excel 2017’de eklenen stillerdir.
+Bu ön ayarlar salt okunurdur. Bir ön ayarın sunduğu şekilde renkleri, kenarlıkları veya yazı tiplerini değiştirmeniz gerektiğinde, bunun yerine [Senaryo 3](#define-and-apply-a-custom-pivot-table-style)’te gösterildiği gibi özel bir pivot stili tanımlamanız gerekir.
+
+{{% alert color="primary" %}}
+**Neden modern ön ayarlar ve rapor serisi otomatik Biçimlendirmeleri değil?** `PivotTableAutoFormatType` numaralandırmasındaki `Report1` ile `Report10` ve `Table1` ile `Table10` değerleri, pivot sütun alanları öncesi olarak oluşturulmuştur ve dolayısıyla sütun alanı başlıklarını stilendirmek için herhangi bir tanımlama içermemektedir; Excel bu başlıkları stilsiz olarak işler. Öte yandan `PivotTableStyleType` ön ayarları, modern Excel’in kullandığı iki boyutlu düzen için tasarlanmış olup, hem satır alanı hem de sütun alanı başlıklarını stilendirebilir.
+{{% /alert %}}
+
+Bu senaryo, Senaryo 1’deki Meyve/Yıl/Miktar veri kümesini kullanmakta, `Fruit` satır alanının yanına `Year` öğesini `PivotFieldType.Column` aracılığıyla sütun alanına eklemekte, `PivotTable.PivotTableStyleType` ile koyu tema ön ayarı `PivotTableStyleDark1`’i uygulamakta ve sonucu `.xlsx` olarak kaydetmektedir — `PivotTableStyleType`'ın anlamlı olduğu format.
+---
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+// Senaryo 2: PivotTableStyleType kullanarak modern Excel 2007+ adlandırılmış ön ayarlı bir stil uygulayın.
+// Hedef dosya formatı: .xlsx. PivotTableStyleType numaralandırma türü Aspose.Cells namespacesinde yer alır
+// (Aspose.Cells.Pivot içinde değildir) -- bu yüzden onun için ekstra bir using kullanmamıza gerek yoktur.
+// GitHub referansı: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.Worksheets[0];
+// Başlık satırı: Meyve / Yıl / Miktar
+worksheet.Cells["A1"].PutValue("Fruit");
+worksheet.Cells["B1"].PutValue("Year");
+worksheet.Cells["C1"].PutValue("Amount");
+// 9 veri satırı: Meyve / Yıl / Miktar
+worksheet.Cells["A2"].PutValue("Grape");
+worksheet.Cells["B2"].PutValue(2020);
+worksheet.Cells["C2"].PutValue(100);
+worksheet.Cells["A3"].PutValue("Blueberry");
+worksheet.Cells["B3"].PutValue(2020);
+worksheet.Cells["C3"].PutValue(150);
+worksheet.Cells["A4"].PutValue("Kiwi");
+worksheet.Cells["B4"].PutValue(2020);
+worksheet.Cells["C4"].PutValue(200);
+worksheet.Cells["A5"].PutValue("Cherry");
+worksheet.Cells["B5"].PutValue(2020);
+worksheet.Cells["C5"].PutValue(180);
+worksheet.Cells["A6"].PutValue("Grape");
+worksheet.Cells["B6"].PutValue(2021);
+worksheet.Cells["C6"].PutValue(120);
+worksheet.Cells["A7"].PutValue("Blueberry");
+worksheet.Cells["B7"].PutValue(2021);
+worksheet.Cells["C7"].PutValue(170);
+worksheet.Cells["A8"].PutValue("Kiwi");
+worksheet.Cells["B8"].PutValue(2021);
+worksheet.Cells["C8"].PutValue(210);
+worksheet.Cells["A9"].PutValue("Cherry");
+worksheet.Cells["B9"].PutValue(2021);
+worksheet.Cells["C9"].PutValue(190);
+worksheet.Cells["A10"].PutValue("Grape");
+worksheet.Cells["B10"].PutValue(2021);
+worksheet.Cells["C10"].PutValue(130);
+// E3'te "Pivot1" adlı bir pivot tablosu ekleyin, kaynak A1:C10
+int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Pivot alanlarını atayın: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
+pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
+pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+// Modern Excel 2007+ adlandırılmış ön ayarlı bir pivot stili uygulayın.
+// PivotTableStyleType, .xlsx / .xlsm / .xlsb dosyaları için doğru API'dir; AutoFormatType
+// bu formatlar için Excel tarafından yoksayılır. PivotTableStyleDark1, koyu tema ailesine
+// (PivotTableStyleDark1..PivotTableStyleDark28) aittir ve aynı numaralandırma türü aynı zamanda
+// daha yeni Excel 2017 açık/koyu temalarını da (PivotTableStyleLight1..Light28 / Dark1..Dark28) sunar.
+pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
+// Modern .xlsx olarak kaydedin -- bu, PivotTableStyleType'in anlamlı olduğu formattır.
+workbook.Save("output.xlsx");
+```
 ## **Define and Apply a Custom Pivot Table Style**
 Yerleşik hazır ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı tiplerini geçersiz kılmanız gerektiğinde özel bir pivot stili tanımlamalısınız. İş akışı üç adımdan oluşur:
 1. `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)` aracılığıyla çalışma kitabının `TableStyles` koleksiyonuna özel bir stil ekleyin. Bu, yeni oluşturulan stilin dizinini döndürür.
@@ -97,10 +165,9 @@ Yerleşik hazır ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı t
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` ve `PivotTableStyleType` birbirinin yerine kullanılamaz. Yerleşik hazır ayarlar için `PivotTableStyleType`, `AddPivotTableStyle` aracılığıyla tanımladığınız özel stiller için `PivotTableStyleName` kullanın. İkisini birden ayarlamak zararsızdır, ancak yalnızca amaçlanan kaynağa uyan render edilir.
-{{% /alert %}}
-
 Kullanılabilir `TableStyleElementType` değerleri `WholeTable`, `FirstRow`, `LastRow`, `FirstColumn`, `LastColumn`, `GrandTotalRow`, `GrandTotalColumn`, `PageFieldLabels` ve `PageFieldValues` değerlerini içerir.
 Aşağıdaki örnek, `WholeTable` üzerinde ince siyah kenarlık ve `GrandTotalRow` üzerinde kalın kırmızı yazı tipi olan özel bir pivot stili tanımlar, ardından bunu `PivotTableStyleName` aracılığıyla uygular ve `.xlsx` olarak kaydeder.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -179,9 +246,8 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 `FormatAll`, hem `PivotTableStyleType` hem de `PivotTableStyleName` değerlerini geçersiz kılar. Yalnızca tüm pivot genelinde temadan bağımsız tek tip bir görünüm gerektiğinde kullanın.
-{{% /alert %}}
-
 Aşağıdaki örnek sarı düz dolgu, kalın koyu mavi yazı tipi ve tüm kenarlarda ince siyah kenarlıklar içeren bir `Style` oluşturur, ardından bunu `FormatAll` ile uygular ve `.xlsx` olarak kaydeder.
+{{% /alert %}}
 
 ```csharp
 using System;

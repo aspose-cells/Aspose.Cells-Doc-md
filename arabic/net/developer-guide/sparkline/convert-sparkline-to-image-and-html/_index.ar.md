@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 السباركلاين هي رسوم بيانية صغيرة الحجم تُوضع داخل خلايا ورقة العمل. يتيح لك Aspose.Cells استخراج كل سباركلاين كصورة مستقلة (لتضمينها في خلية أخرى أو تقرير خارجي) وأيضًا تصدير ورقة العمل الغنية بالسباركلاين بأكملها إلى HTML للتوزيع عبر المتصفح. خاصية `Cell.EmbeddedImage` المستخدمة في هذه المقالة متاحة في **Aspose.Cells 26.5 والإصدارات الأحدث**.
+{{% /alert %}}
 
 ## **المقدمة**
 تُعد السباركلاين طريقة مدمجة لتصور الاتجاهات مباشرة داخل ورقة العمل. بينما يراها مستخدمو Excel في مكانها، تتطلب العديد من السيناريوهات العملية أن يغادر السباركلاين الخلية — على سبيل المثال، ليتم تضمينه في خلية مختلفة كصورة ثابتة، أو إرفاقه ببريد إلكتروني آلي، أو عرضه كجزء من تقرير HTML منشور على الويب.
@@ -101,6 +102,7 @@ workbook.Save("output_with_sparklines.xlsx");
 
 {{% alert color="primary" %}}
 نظرًا لأن كل مجموعة سباركلاين مثبتة في خلية واحدة، يمكنك الوصول إليها من خلال المفهرس `group.Sparklines[0]` بدلاً من التعداد باستخدام `foreach`. هذا يحافظ على قصر كود العرض ويتطابق مع النمط المعتاد "سباركلاين واحد لكل خلية تثبيت". يتطلب تخزين بايتات الصورة عبر `Cell.EmbeddedImage` الإصدار Aspose.Cells 26.5 أو الأحدث.
+{{% /alert %}}
 
 ## **سير العمل 2 — تصدير ورقة عمل السباركلاين إلى HTML**
 بمجرد أن يحتوي المصنف على سباركلاين حية (وبشكل اختياري نظائر صور مدمجة)، يمكن نشر ورقة العمل بأكملها على الويب عن طريق حفظها كملف HTML. يكشف فئة `HtmlSaveOptions` عن الخيارات التي تحتاجها للتحكم في هذا التصدير؛ في سير العمل هذا، ستعيد استخدام ملف `output_with_sparklines.xlsx` الذي تم إنتاجه في سير العمل 1 وتحوّله إلى مستند HTML نظيف أحادي الصفحة.
@@ -125,6 +127,7 @@ workbook.Save("sparklines.html", htmlOptions);
 
 {{% alert color="primary" %}}
 توفر فئة `HtmlSaveOptions` خصائص إضافية لضبط المخرجات بدقة، مثل `ExportHiddenWorksheet`، و`ExportImagesAsBase64`، و`Encoding`. اضبط هذه حسب الحاجة لهدف النشر الخاص بك.
+{{% /alert %}}
 
 ## **ملخص واجهة برمجة التطبيقات**
 تعتمد سير العمل أعلاه على مجموعة صغيرة من واجهات Aspose.Cells API التي تعمل معًا.
@@ -139,10 +142,5 @@ workbook.Save("sparklines.html", htmlOptions);
 - [السباركلاين في Aspose.Cells for .NET](/cells/ar/net/sparkline/)
 - [إدراج صورة في خلية](/cells/ar/net/inserting-an-image-into-a-cell/)
 - [عرض مصفوفة خلية واحدة من SmartMarker | Aspose.Cells .NET](/cells/ar/net/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="csharp" >}}

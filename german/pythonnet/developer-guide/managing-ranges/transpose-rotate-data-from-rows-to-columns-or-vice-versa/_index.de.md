@@ -35,7 +35,7 @@ Verwenden Sie diesen Ansatz, wenn Sie Daten transponieren möchten, ohne die Arb
 `range.transpose()` ist eine Instanzmethode der Klasse `Aspose.Cells.Range`. Der Aufruf dreht den Bereich in Place, indem er Zeilen und Spalten vertauscht, sodass eine Zeile zu einer Spalte wird und eine Spalte zu einer Zeile. Die Methode ändert die zugrunde liegenden Zellen direkt, ohne eine Formel zu schreiben.
 
 ### **Schritte**
-1. Öffnen Sie die Quellarbeitsmappe mit `LoadOptions`, das auf das Format `.xlsx` eingestellt ist, durch den Aufruf `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Öffnen Sie die Quellarbeitsmappe mit `LoadOptions`, das auf das Format `.xlsx` eingestellt ist, durch den Aufruf `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Rufen Sie das erste Arbeitsblatt aus der Arbeitsmappe mit `workbook.worksheets[0]` ab.
 3. Greifen Sie über `worksheet.cells` auf die Zellauflistung des Arbeitsblatts zu.
 4. Erstellen Sie den Quellbereich, der **A1:D5** abdeckt, durch den Aufruf `cells.create_range("A1:D5")`.
@@ -62,7 +62,7 @@ Verwenden Sie diesen Ansatz, wenn Sie die Formel `=TRANSPOSE(A1:D5)` als Live-Fo
 `cell.set_dynamic_array_formula(formula, options, calculate_value)` ist eine Methode auf `Aspose.Cells.Cell`, die die Formel der Zelle als **dynamische Arrayformel** festlegt. Excel wertet die Formel einmal aus und überläuft das Ergebnis automatisch in die umgebenden Zellen. Der dritte Parameter weist, wenn er auf `True` gesetzt ist, Aspose.Cells an, die resultierenden Werte auch beim Schreiben zu berechnen.
 
 ### **Schritte**
-1. Laden Sie die Quellarbeitsmappe mit `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Laden Sie die Quellarbeitsmappe mit `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Rufen Sie das erste Arbeitsblatt ab und greifen Sie auf seine `cells`-Auflistung zu.
 3. Platzieren Sie die dynamische Arrayformel in Zelle **A6**, direkt unter dem Quellbereich, durch den Aufruf `cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", None, True)`.
 4. Das Argument `None` übergibt die Standard-`FormulaParseOptions`, und das dritte Argument `True` weist Aspose.Cells an, die Formel als dynamisches Array zu behandeln und sie auszuwerten, sodass die überlaufenden Werte in die Arbeitsmappe geschrieben werden.
@@ -77,11 +77,11 @@ Dieser Ansatz funktioniert **nur in Excel 365 / 2021 oder neuer**. Ältere Excel
 import aspose.cells as ac
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
-workbook.save(outFile, ac.SaveFormat.Xlsx)
+cells.get("A6").set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
+workbook.save(outFile, ac.SaveFormat.XLSX)
 ```
 
 ## **Ansatz 3 — Transponieren mit klassischer Arrayformel (CSE)**
@@ -105,7 +105,7 @@ CSE-Arrayformeln sind die klassische Excel-Methode, um einen `TRANSPOSE`-Ausdruc
 import aspose.cells as ac
 # Laden Sie die Quellarbeitsmappe mit xlsx-Ladeoptionen
 srcFile = "source.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 # Zugriff auf das erste Arbeitsblatt und dessen Cells-Auflistung
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
@@ -116,7 +116,7 @@ cells = worksheet.cells
 # Aspose.Cells schreibt die CSE-Array-Formel-Markierung, sodass Excel sie als
 # eine einzelne Mehrzellen-Array-Formel auswertet, kompatibel mit älteren Excel-Versionen
 # (2019, 2016, 2013 usw.), die das dynamische Array-Spilling nicht unterstützen.
-cells["A6"].set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
+cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
 # Speichern Sie die Arbeitsmappe, damit die Array-Formel-Markierung beibehalten wird
 workbook.save("output.xlsx")
 ```

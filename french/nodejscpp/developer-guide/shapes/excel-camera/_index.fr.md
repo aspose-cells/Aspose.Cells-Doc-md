@@ -18,19 +18,18 @@ Excel Camera est essentiellement un objet image ancré à une ligne et une colon
 ## Méthode 1 — Ajouter une image dynamique de l'Excel Camera
 L'Excel Camera dynamique est l'approche la plus courante et correspond le mieux à l'outil Excel Camera intégré d'Excel. Elle fonctionne en ajoutant une image sans contenu initial, puis en lui attribuant une `Formula` qui référence la plage source. Une fois la formule attribuée, l'appel de `updateSelectedValue()` rafraîchit les données d'image intégrées pour qu'elles soient synchronisées avec les cellules qu'elles reflètent. L'Excel Camera n'est pas implémentée via une classe dédiée — elle est entièrement construite sur le type standard `Picture`.
 Les API clés sont :
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — ajoute une image ancrée à la ligne et à la colonne données. Passer `null` pour le paramètre `stream` crée une image vide qui sert d'espace réservé pour une Excel Camera dynamique. La méthode retourne l'index de la nouvelle image.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — ajoute une image ancrée à la ligne et à la colonne données. Passer `null` pour le paramètre `stream` crée une image vide qui sert d'espace réservé pour une Excel Camera dynamique. La méthode retourne l'index de la nouvelle image.
 - `pictures.get(index)` — récupère une `Picture` spécifique de la collection par index.
 - `Picture.formula` — une propriété de chaîne de caractères (get/set) contenant la référence de style A1 à la plage source que l'Excel Camera reflète, telle que `"A1:F10"`.
 - `Picture.updateSelectedValue()` — une méthode vide qui rafraîchit les données d'image intégrées à partir des cellules référencées par `formula`.
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` DOIT être appelée avant l'enregistrement lorsque la sortie est au format HTML ou PDF ; sinon le fichier exporté ne contiendra pas les données d'image et l'Excel Camera apparaîtra vide dans la sortie rendue.
+Le code suivant crée un classeur, ajoute une image vide ancrée à la ligne 10 colonne 6, la lie à la plage source `A1:F10` via la propriété `Formula`, rafraîchit les données d'image intégrées et enregistre le classeur.
 {{% /alert %}}
 
-Le code suivant crée un classeur, ajoute une image vide ancrée à la ligne 10 colonne 6, la lie à la plage source `A1:F10` via la propriété `Formula`, rafraîchit les données d'image intégrées et enregistre le classeur.
-
 ```javascript
-const aspose = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
@@ -48,22 +47,18 @@ Les API clés sont :
 - `Cells.createRange(address)` — construit un objet `Range` à partir d'une adresse de style A1 telle que `"A1:F10"`.
 - `Range.toImage(ImageOrPrintOptions options)` — restitue la plage en octets d'image. Passer `null` utilise les options de rendu par défaut ; des surcharges existent pour un contrôle plus fin de la sortie.
 - `new Buffer(byte[] buffer)` — enveloppe les octets d'image rendus dans une `Buffer` qui peut être alimentée à `getPictures().add`.
-- `Pictures.add(int upperLeftRow, int upperLeftColumn, null)` — ajoute l'image ancrée à la ligne et à la colonne données, en passant cette fois la `Buffer` produite par le rendu.
+- `Pictures.add(int upperLeftRow, int upperLeftColumn, bytes)` — ajoute l'image ancrée à la ligne et à la colonne données, en passant cette fois la `Buffer` produite par le rendu.
 Le code suivant crée un classeur, construit une `Range` pour `A1:F10`, la restitue en octets d'image via `range.toImage(null)`, enveloppe les octets dans une `Buffer`, ajoute l'image ancrée à la ligne 10 colonne 6, et enregistre le classeur.
 
 ```javascript
-const aspose = require("aspose.cells");
-const { MemoryStream } = require("aspose.cells");
+const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Camera statique : construire la plage, rendre en octets, envelopper dans un MemoryStream, ajouter comme image
 let range = worksheet.getCells().createRange("A1:F10");
 let imageBytes = range.toImage(null);
-let stream = new MemoryStream();
-stream.write(imageBytes);
 let pictures = worksheet.getPictures();
-pictures.add(10, 6, stream);
+pictures.add(10, 6, imageBytes);
 workbook.save("output_static.xlsx", aspose.SaveFormat.Xlsx);
 ```
 

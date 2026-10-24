@@ -156,4 +156,4 @@ int main() {
 - [セルへの画像の挿入](/cells/ja/cpp/inserting-an-image-into-a-cell/)
 - [Excel ファイルの複数ファイルへの分割](/cells/ja/cpp/splitting-excel-files-into-multiple-files/)
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -40,7 +40,7 @@ Utilisez cette approche lorsque vous souhaitez transposer des données sans impl
 `range.transpose()` est une méthode d'instance de la classe `Aspose.Cells.Range`. Son appel retourne la plage en place en échangeant ses lignes et ses colonnes, de sorte que ce qui était une ligne devient une colonne et ce qui était une colonne devient une ligne. La méthode modifie directement les cellules sous-jacentes sans écrire de formule.
 
 ### **Étapes**
-1. Ouvrez le classeur source avec `LoadOptions` défini sur le format `.xlsx` en appelant `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Ouvrez le classeur source avec `LoadOptions` défini sur le format `.xlsx` en appelant `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Récupérez la première feuille de calcul du classeur à l'aide de `workbook.worksheets[0]`.
 3. Accédez à la collection de cellules de la feuille de calcul via `worksheet.cells`.
 4. Créez la plage source couvrant **A1:D5** en appelant `cells.create_range("A1:D5")`.
@@ -67,7 +67,7 @@ Utilisez cette approche lorsque vous souhaitez conserver la formule `=TRANSPOSE(
 `cell.set_dynamic_array_formula(formula, options, calculate_value)` est une méthode de `Aspose.Cells.Cell` qui définit la formule de la cellule comme une **formule de tableau dynamique**. Excel évalue la formule une seule fois et déverse automatiquement le résultat dans les cellules environnantes. Le troisième paramètre, lorsqu'il est défini sur `True`, indique à Aspose.Cells de calculer également les valeurs résultantes au moment de l'écriture.
 
 ### **Étapes**
-1. Chargez le classeur source à l'aide de `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Chargez le classeur source à l'aide de `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Récupérez la première feuille de calcul et accédez à sa collection `cells`.
 3. Placez la formule de tableau dynamique dans la cellule **A6**, juste sous la plage source, en appelant `cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", None, True)`.
 4. L'argument `None` passe les `FormulaParseOptions` par défaut, et le troisième argument `True` indique à Aspose.Cells de traiter la formule comme un tableau dynamique et de l'évaluer afin que les valeurs débordées soient écrites dans le classeur.
@@ -82,11 +82,11 @@ Cette approche fonctionne **uniquement sur Excel 365 / 2021 ou ultérieur**. Les
 import aspose.cells as ac
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
-workbook.save(outFile, ac.SaveFormat.Xlsx)
+cells.get("A6").set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
+workbook.save(outFile, ac.SaveFormat.XLSX)
 ```
 
 ## **Approche 3 — Transposer avec une formule matricielle classique (CSE)**
@@ -110,7 +110,7 @@ Les formules matricielles CSE sont la méthode classique d'Excel pour évaluer u
 import aspose.cells as ac
 # Charger le classeur source avec les LoadOptions xlsx
 srcFile = "source.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 # Accéder à la première feuille de calcul et à sa collection Cells
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
@@ -121,7 +121,7 @@ cells = worksheet.cells
 # Aspose.Cells écrit le marqueur de formule matricielle CSE afin qu'Excel l'évalue comme
 # une formule matricielle multi-cellules unique, compatible avec les anciennes versions d'Excel
 # (2019, 2016, 2013, etc.) qui ne prennent pas en charge le déversement dynamique des tableaux.
-cells["A6"].set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
+cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
 # Enregistrer le classeur afin que le marqueur de formule matricielle soit conservé
 workbook.save("output.xlsx")
 ```

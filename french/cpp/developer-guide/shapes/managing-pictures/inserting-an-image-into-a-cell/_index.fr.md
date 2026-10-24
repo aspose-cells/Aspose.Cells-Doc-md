@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells propose deux manières distinctes d'associer une image à une seule cellule. Une image flottante est une forme placée sur la couche de dessin de la feuille de calcul qui recouvre visuellement une plage de cellules, tandis qu'une image intégrée est stockée à l'intérieur de la cellule elle-même et se redimensionne automatiquement à la zone d'affichage de la cellule. Choisissez l'approche qui correspond le mieux à vos exigences de mise en page.
+{{% /alert %}}
 
 ## **Introduction**
 Ajuster une image exactement à une seule cellule est une exigence courante lors de la conception de feuilles de calcul servant de rapports visuels, catalogues de produits, annuaires d'employés, tableaux de bord ou listes d'inventaire. Plutôt que d'étirer une image sur plusieurs cellules ou de la placer librement sur une feuille de calcul, vous pouvez souhaiter une image nette et liée à la cellule qui reste alignée avec la cellule qui la contient.
@@ -36,6 +37,7 @@ L'ancrage de l'image est défini par quatre propriétés d'index basées sur zé
 
 {{% alert color="primary" %}}
 Les index de ligne et de colonne dans Aspose.Cells sont **basés sur zéro**. La cellule C6 a pour index de ligne 5 et pour index de colonne 2. Les erreurs d'une unité sur l'ancrage inférieur droit sont la source la plus fréquente d'images qui semblent empiéter sur une cellule adjacente.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `Picture.Placement` est une énumération de type `PlacementType` qui contrôle le comportement de l'image lorsque l'utilisateur redimensionne la ligne ou la colonne située en dessous. La valeur recommandée pour une image sur une seule cellule est `PlacementType.MoveAndSize`, qui fait que l'image se déplace et se redimensionne avec sa cellule sous-jacente, en préservant l'ajustement exact.
@@ -139,9 +141,6 @@ Les deux approches produisent une image qui s'insère dans une seule cellule, ma
   - Vous souhaitez l'insertion la plus simple possible d'une image dans une cellule.
   - L'image doit se déplacer avec la cellule comme tout autre contenu de cellule.
   - Vous n'avez pas besoin de manipuler l'image en tant que forme.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Related Articles
 - [Caméra Excel dans Aspose.Cells for C++](/cells/fr/cpp/excel-camera/)

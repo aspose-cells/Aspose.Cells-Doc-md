@@ -37,6 +37,7 @@ Aspose.Cellsは、このシナリオを2つの補完的な方法でサポート�
 
 {{% alert color="primary" %}}
 Aspose.Cellsの行と列のインデックスは**0から始まる**ものです。セルC6の行インデックスは5、列インデックスは2です。右下アンカーのオフバイワンエラーは、画像が隣接セルに重なって表示される最も一般的な原因です。
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `Picture.Placement`は`PlacementType`型の列挙型であり、ユーザーが下の行または列のサイズを変更したときの画像の動作を制御します。単一セル画像に推奨される値は`PlacementType.MoveAndSize`であり、これにより画像が基になるセルと一緒に移動およびサイズ変更され、正確なフィット感が維持されます。
@@ -139,7 +140,6 @@ int main() {
 - **次のような場合は、埋め込み画像（方法2）を使用します。**
   - セルへの画像の最も簡単な挿入方法を希望する場合。
   - 画像が他のセルコンテンツのようにセルと一緒に移動する必要がある場合。
-{{% /alert %}}
 
 ## Related Articles
 - [Aspose.Cells for C++のExcelカメラ](/cells/ja/cpp/excel-camera/)

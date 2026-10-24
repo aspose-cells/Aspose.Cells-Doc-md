@@ -25,9 +25,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 يجب استدعاء `updateSelectedValue()` قبل الحفظ عندما يكون الناتج HTML أو PDF؛ وإلا فلن يحتوي الملف المُصدّر على بيانات الصورة وستظهر الكاميرا فارغة في الناتج المعروض.
-{{% /alert %}}
-
 ينشئ الكود التالي مصنفًا، ويُضيف صورة فارغة مثبتة عند الصف 10 والعمود 6، ويربطها بنطاق المصدر `A1:F10` من خلال طريقة `setFormula`، ويُحدّث بيانات الصورة المُضمنة، ويحفظ المصنف.
+{{% /alert %}}
 
 ```python
 import jpype
@@ -38,7 +37,7 @@ worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
 # الكاميرا الديناميكية: أضف صورة فارغة، اربطها عبر الصيغة بـ A1:F10، ثم حدّث
 pictures = worksheet.getPictures()
-index = pictures.add(10, 6, None)
+index = pictures.add(10, 6, b"")
 pictures.get(index).setFormula("A1:F10")
 pictures.get(index).updateSelectedValue()
 workbook.save("output_dynamic.xlsx", SaveFormat.XLSX)
@@ -57,6 +56,7 @@ workbook.save("output_dynamic.xlsx", SaveFormat.XLSX)
 import jpype
 import jpype.imports
 from asposecells.api import Workbook, SaveFormat
+from java.io import ByteArrayInputStream
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
@@ -64,7 +64,7 @@ worksheet.setName("CameraDemo")
 range_ = worksheet.getCells().createRange("A1:F10")
 image_bytes = range_.toImage(None)
 pictures = worksheet.getPictures()
-pictures.add(10, 6, jpype.JArray(jpype.JByte)(image_bytes))
+pictures.add(10, 6, ByteArrayInputStream(image_bytes))
 workbook.save("output_static.xlsx", SaveFormat.XLSX)
 ```
 

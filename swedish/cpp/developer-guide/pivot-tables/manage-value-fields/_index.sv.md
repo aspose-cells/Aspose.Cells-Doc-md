@@ -80,9 +80,8 @@ Varje fält som placeras i dataregionen omsluts internt som en `PivotField`-inst
 
 {{% alert color="primary" %}}
 Att ändra `Function` påverkar bara aggregatet, källkolumnen ändras inte.
-{{% /alert %}}
-
 Du kan därför lämna ett datafält som `Sum` medan du lägger till ett andra datafält som riktar sig mot samma källkolumn men använder `Count` eller `Average`, allt i en enda pivot.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>
@@ -116,9 +115,8 @@ När en pivottabell innehåller två eller flera datafält, exponerar Aspose.Cel
 
 {{% alert color="primary" %}}
 `PivotTable.ValuesField` fungerar inte om det inte finns något eller bara ett värdefält.
-{{% /alert %}}
-
 Scenarierna nedan går igenom tre kompletta exempel som visar varje funktion som beskrivs ovan mot samma pivotstruktur.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>

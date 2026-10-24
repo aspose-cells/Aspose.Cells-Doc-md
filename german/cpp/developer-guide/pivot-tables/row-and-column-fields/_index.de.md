@@ -44,6 +44,7 @@ Wenn `SetSubtotals` nicht aufgerufen wird, wendet Aspose.Cells auf numerische Fe
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -106,6 +107,7 @@ Der Aufruf von `SetSubtotals(PivotFieldSubtotalType.None, true)` entfernt alle Z
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb;
@@ -209,6 +211,15 @@ int main() {
 
 ## **Zusammenfassung**
 
+Die drei Szenarien unterscheiden sich lediglich in den `SetSubtotals`-Aufrufen. Alles Weitere — der Datensatz, die Felder sowie die Bereiche, denen sie zugeordnet sind — ist identisch, wodurch die Layouts direkt miteinander vergleichbar sind.
+- **Platzieren von Feldern.** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` verschiebt eine Quellspalte in einen Bereich. Innerhalb eines Bereichs bestimmt die Reihenfolge der Aufrufe die Anzeigereihenfolge, sodass der erste Aufruf die äußerste Gruppe bildet. Zwischensummen erfordern zwei oder mehr Felder im selben Bereich: Bei einem einzelnen Feld gäbe es zwischen den Gruppen nichts, für das eine Zwischensumme gebildet werden könnte.
+- **Szenario 1 – automatische Zwischensummen.** Das Auslassen von `SetSubtotals` überlässt die Entscheidung Excel, das seine eigene Standard-Zwischensumme für numerische Felder anwendet. Ein Aufruf von `SetSubtotals` mit `PivotFieldSubtotalType::Automatic` protokolliert diese Entscheidung explizit, anstatt sie implizit zu belassen.
+- **Szenario 2 – keine Zwischensummen.** `SetSubtotals` mit `PivotFieldSubtotalType::None` deaktiviert die Standard-Zwischensumme, sodass das Pivot-Tabellenblatt die Zeilen für die Felder und die Gesamtsumme beibehält, aber die von Excel sonst dazwischen eingefügten Zwischensummenzeilen weglässt.
+- **Szenario 3 – eine ausgewählte Teilmenge.** Jeder Aufruf schaltet genau einen Zwischensummentyp um, und die Aufrufe summieren sich, anstatt sich gegenseitig zurückzusetzen. Ein einmaliger Aufruf mit `PivotFieldSubtotalType::Sum` und ein zweiter Aufruf mit `PivotFieldSubtotalType::Average` aktivieren daher beide Typen, und das Pivot-Tabellenblatt stellt sowohl eine Summen-Zwischensumme als auch eine Durchschnitts-Zwischensumme sowie die Gesamtsumme dar.
+
+{{% alert color="primary" %}}
+Nichts an den Zwischensummen ist spezifisch für den Zeilenbereich. Die gleichen `SetSubtotals`-Aufrufe für ein Feld aus `PivotTable.ColumnFields` erzeugen die gleichen drei Layouts auf der Spaltenachse, da die Einstellung zum Pivot-Feld selbst gehört und nicht zur Achse, auf der es platziert ist.
+{{% /alert %}}
 ## **Verwandte Artikel**
 - [Seitenfelder in PivotTables](/cells/de/cpp/add-page-field-in-pivot-table/)
 - [Aktualisieren von PivotTables in Aspose.Cells for C++](/cells/de/cpp/refresh-pivot-table/)

@@ -26,6 +26,7 @@ Aspose.Cells for Node.js via C++ предоставляет два эквива�
 Следующий пример создаёт небольшой набор данных Fruit / Year / Amount, размещает сводную таблицу в ячейке E3 с `Fruit` в области строк, `Amount` в области данных и `Year` в области страницы, обновляет сводную таблицу и сохраняет рабочую книгу.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 Когда вы уже работаете с экземпляром `PivotField`, вы можете передать его напрямую в `PivotTable.pageFields.add`. Сводная таблица и поле фильтра создаются точно так же, как в предыдущем сценарии; только последняя регистрация в области страницы заменяется вызовом низкоуровневого API.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Заголовки
@@ -106,6 +108,7 @@ workbook.save("output.xlsx");
 Установка `currentPageItem` на магическое значение `0x7FFD` эквивалентна снятию фильтра страницы: тело сводной таблицы суммирует все элементы страницы, как если бы фильтр не был применён.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Заполнение данных Fruit/Year/Amount
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 Установка `currentPageItem` на реальный индекс выбирает только этот один элемент страницы. Индекс — это позиция элемента в отсортированном списке элементов поля фильтраы, поэтому, например, `1` выбирает второй элемент после сортировки.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -184,6 +188,7 @@ workbook.save("output.xlsx");
 Код ниже включает множественный выбор для того же поля фильтраы Year, созданного в сценарии 1a, а затем демонстрирует два шаблона: Часть A показывает все элементы страницы, оставляя `isHidden` равным `false` для каждой записи, тогда как Часть B включает в белый список только выбранные вами исходные значения и скрывает все остальные через блок `switch (pivotItems[i].getStringValue())`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();

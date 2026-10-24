@@ -44,6 +44,7 @@ Makale daha sonra Aspose.Cells for Node.js via C++ kullanarak bu verileri devrik
 Devrik çevirme işleminden sonra başlangıçtaki çapa aralığı döndürülmüş veriyi tutar. İlk satır (boş, **Avrupa**, **Asya**, **Kuzey Amerika**) ve ilk sütun (boş, **Çeyrek 1**, **Çeyrek 2**, **Çeyrek 3**, **Çeyrek 4**) olarak okunur. Satışların orijinal her sütunu, devrik çevrilmiş aralıkta bir satır haline gelir.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var srcFile = "source.xlsx";
 var outputFile = "transposed.xlsx";
 var workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
@@ -73,7 +74,7 @@ Bu yaklaşım **yalnızca Excel 365 / 2021 veya üzeri** sürümlerde çalışı
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const srcFile = "source.xlsx";
 const outFile = "output_transpose_dynamic.xlsx";
 const opts = new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx);
@@ -102,7 +103,7 @@ CSE dizi formülleri, `TRANSPOSE` ifadesini değerlendirmenin klasik Excel yolud
 {{% /alert %}}
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 // Load the source workbook with xlsx LoadOptions
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));

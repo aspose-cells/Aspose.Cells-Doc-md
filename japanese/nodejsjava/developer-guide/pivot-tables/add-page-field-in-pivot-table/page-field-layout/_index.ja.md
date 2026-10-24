@@ -38,12 +38,14 @@ Microsoft Excel のピボットテーブルには、テーブルの行/列/デ�
 最初のシナリオでは、2 つのページフィールド（`Year`、`Region`）をピボットテーブル上部の **1 つの行に横並びで** 表示するように構成します。`Fruit` を行軸に割り当て、ページ軸には `Year` を最初に、`Region` を 2 番目に配置し（`addFieldToArea` 呼び出しの順序が開始インデックスを決定します）、データフィールドとして `Amount`（Sum）を追加し、`PageFieldOrder` を `PrintOrderType.OVER_THEN_DOWN` に、`PageFieldWrapCount` を `2` に設定します。`OVER_THEN_DOWN` と折り返し数 2 では、2 つのページフィールドがピボットテーブル上部の 1 つの行に水平に横並びで配置されるため、帯は幅 2 の 1 行を占めます。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
+const path = require("path");
 let dataDir = "output";
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
 let workbook = new AsposeCells.Workbook();
 let worksheets = workbook.getWorksheets();
-let pivotDataIdx = worksheets.add("PivotData");
-let pivotDataSheet = worksheets.get(pivotDataIdx);
+let pivotDataSheet = worksheets.add("PivotData");
 let pivotDataCells = pivotDataSheet.getCells();
 // ヘッダー (0行目)
 pivotDataCells.get(0, 0).putValue("Fruit");
@@ -91,20 +93,19 @@ pivotDataCells.get(8, 1).putValue(2023);
 pivotDataCells.get(8, 2).putValue("West");
 pivotDataCells.get(8, 3).putValue(110);
 // PivotTableReportシートを追加
-let pivotTableSheetIdx = worksheets.add("PivotTableReport");
-let pivotTableSheet = worksheets.get(pivotTableSheetIdx);
+let pivotTableSheet = worksheets.add("PivotTableReport");
 let pivotTables = pivotTableSheet.getPivotTables();
 // PivotData!A1:D9をソースとし、PivotTableReportのA1に配置するピボットテーブルを作成
 let pivotIndex = pivotTables.add("PivotData!A1:D9", "A1", "PivotTable1");
 let pivotTable = pivotTables.get(pivotIndex);
 // フィールドを追加
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // 果物
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // 年
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);  // 地域
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // 数量
-pivotTable.getDataFields().get(0).setFunction(AsposeCells.ConsolidationFunction.Sum);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);   // 果物
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);  // 年
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);  // 地域
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);  // 数量
+pivotTable.getDataFields().get(0).setFunction(AsposeCells.ConsolidationFunction.SUM);
 // ページフィールドエリアレイアウトを設定: ページフィールドを最初に横方向に配置し、2つごとに折り返す
-pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OverThenDown);
+pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OVER_THEN_DOWN);
 pivotTable.setPageFieldWrapCount(2);
 // 更新して計算
 pivotTable.calculateData();
@@ -116,6 +117,7 @@ workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 この例では、例 1 とまったく同様に、`Fruit` を行軸に、`Year` と `Region`（`Year` が最初）をページ軸に、`Amount`（Sum）をデータフィールドとして配置します。次に、`PageFieldOrder` を `PrintOrderType.DOWN_THEN_OVER` に、`PageFieldWrapCount` を `2` に設定します。`DOWN_THEN_OVER` と折り返し数 2 では、2 つのページフィールドが縦に積み込まれ、`Year` が上、`Region` がその直下となり、ピボットテーブル上部の 1 つの列を形成します。したがって、帯は例 1 とは対照的に、幅 1 で 2 行を占めます。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
@@ -145,11 +147,11 @@ for (var r = 0; r < data.length; r++)
 }
 var idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
 var pivotTable = pivotReport.getPivotTables().get(idx);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);
-pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DownThenOver);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);
+pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DOWN_THEN_OVER);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.calculateData();
 workbook.save("pageFieldLayout_downThenOver.xlsx");
@@ -203,10 +205,10 @@ const pivotSheetIdx = workbook.getWorksheets().add("PivotTableReport");
 const pivotSheet = workbook.getWorksheets().get(pivotSheetIdx);
 const pivotIdx = pivotSheet.getPivotTables().add("PivotData!A1:D9", "A3", "PivotTable");
 const pivotTable = pivotSheet.getPivotTables().get(pivotIdx);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.ROW, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.DATA, 3);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OVER_THEN_DOWN);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.getPageFields().move(0, 1);

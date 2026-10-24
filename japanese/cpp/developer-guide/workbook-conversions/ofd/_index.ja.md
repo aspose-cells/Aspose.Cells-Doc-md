@@ -20,6 +20,7 @@ Excel ワークブックを OFD に変換することは、スプレッドシー
 
 {{% alert color="primary" %}}
 Aspose.Cells によって生成された OFD 出力は、セルコンテンツ、結合されたセル、列幅、行の高さなど、ソースワークブックの視覚的なレイアウトを保持します。フォント、色、罫線、配置、数値形式などのセル書式も固定レイアウト出力にレンダリングされます。ワークシートに設定されたページ設定オプション (用紙サイズ、向き、印刷領域など) は、結果として得られる OFD ドキュメントのレイアウトに影響します。
+{{% /alert %}}
 
 ## **Creating an Excel Workbook and Saving as OFD**
 Aspose.Cells を使用すると、プログラムによってワークブックを構築し、データを入力してから、`SaveFormat.Ofd` 列挙を使用して OFD 形式に直接保存することができます。次の例では、請求書を最初から作成します。会社ロゴ、請求先セクション、明細項目、計算された合計を追加し、ワークブックを OFD ドキュメントとしてエクスポートします。
@@ -94,7 +95,7 @@ int main()
     Style headerStyle = workbook.CreateStyle();
     headerStyle.GetFont().SetIsBold(true);
     headerStyle.GetFont().SetColor(Color::White());
-    headerStyle.SetForegroundColor(Color{0, 0, 128});
+    headerStyle.SetForegroundColor(Color{0xff, 0x00, 0x00, 0x80});
     headerStyle.SetPattern(BackgroundType::Solid);
     headerStyle.SetHorizontalAlignment(TextAlignmentType::Center);
     headerStyle.GetBorders().Get(BorderType::TopBorder).SetLineStyle(CellBorderType::Thin);
@@ -135,7 +136,7 @@ int main()
         descCell.PutValue(lineItems[i].desc);
         qtyCell.PutValue(lineItems[i].qty);
         priceCell.PutValue(lineItems[i].price);
-        std::string formula = "C" + std::to_string(row) + "*D" + std::to_string(row);
+        std::string formula = "C" + std::to_string(row + 1) + "*D" + std::to_string(row + 1);
         totalCell.SetFormula(U16String(formula.c_str()));
         descCell.SetStyle(borderStyle);
         qtyCell.SetStyle(borderStyle);
@@ -145,7 +146,7 @@ int main()
     // Subtotal, tax, grand total
     cells.Get(u"B24").PutValue(u"Subtotal:");
     Cell subtotalCell = cells.Get(u"E24");
-    subtotalCell.SetFormula(u"SUM(E20:E22)");
+    subtotalCell.SetFormula(u"SUM(E21:E23)");
     cells.Get(u"B25").PutValue(u"Tax (10%):");
     Cell taxCell = cells.Get(u"E25");
     taxCell.SetFormula(u"E24*0.1");
@@ -246,6 +247,5 @@ int main() {
 - [Excel ファイルを複数のファイルに分割する](/cells/ja/cpp/splitting-excel-files-into-multiple-files/)
 - [セルに画像を挿入する](/cells/ja/cpp/inserting-an-image-into-a-cell/)
 - [DBF ファイルの読み取りと書き込み](/cells/ja/cpp/dbf/)
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

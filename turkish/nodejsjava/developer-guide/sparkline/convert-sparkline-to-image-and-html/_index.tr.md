@@ -33,6 +33,7 @@ Bu iş akışında, kaynak değerlerin küçük bir aralığını içeren bir ç
 7. Çalışma kitabını `output_with_sparklines.xlsx` olarak kaydedin.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // A1:E1 hücrelerine örnek veri yerleştir
@@ -43,28 +44,28 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // F1'de (sütun 5, satır 0) sabitlenmiş bir Çizgi sparkline grubu ekle
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 // G1'de (sütun 6, satır 0) sabitlenmiş bir Sütun sparkline grubu ekle
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(6);
-columnArea.setEndColumn(6);
-columnArea.setStartRow(0);
-columnArea.setEndRow(0);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 6;
+columnArea.EndColumn = 6;
+columnArea.StartRow = 0;
+columnArea.EndRow = 0;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 // H1'de (sütun 7, satır 0) sabitlenmiş bir Kazanma/Kaybetme (Yığılmış) sparkline grubu ekle
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(7);
-stackedArea.setEndColumn(7);
-stackedArea.setStartRow(0);
-stackedArea.setEndRow(0);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 7;
+stackedArea.EndColumn = 7;
+stackedArea.StartRow = 0;
+stackedArea.EndRow = 0;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 // PNG çıktısı için görüntü seçeneklerini yapılandır
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
-imageOptions.setImageType(AsposeCells.ImageType.Png);
+imageOptions.setImageType(AsposeCells.ImageType.PNG);
 // Çizgi sparkline'ı görüntüye dönüştür ve F2 hücresine göm
 let lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 let lineMs = new java.io.ByteArrayOutputStream();
@@ -88,6 +89,7 @@ Yukarıdaki kod, bir sparkline'ın her görsel temsilinin iki biçimde çoğalt�
 
 {{% alert color="primary" %}}
 Her sparkline grubu tek bir hücreye sabitlendiğinden, `forEach` ile numaralandırmak yerine `group.sparklines[0]` dizin oluşturucusu aracılığıyla ona erişebilirsiniz. Bu, oluşturma kodunu kısa tutar ve tipik "sabitleme hücresi başına bir sparkline" kalıbıyla eşleşir. Resim baytlarını `Cell.EmbeddedImage` aracılığıyla saklamak Aspose.Cells 26.5 veya sonrasını gerektirir.
+{{% /alert %}}
 
 ## **Workflow 2 — Export the Sparkline Worksheet to HTML**
 Çalışma kitabı canlı sparkline'ları (ve isteğe bağlı olarak gömülü resim karşılıklarını) içerdiğinde, tüm çalışma sayfası HTML olarak kaydedilerek web'de yayınlanabilir. `HtmlSaveOptions` sınıfı bu dışa aktarmayı kontrol etmek için ihtiyaç duyduğunuz ayar düğmelerini sunar; bu iş akışında İş Akışı 1 tarafından üretilen `output_with_sparklines.xlsx` dosyasını yeniden kullanacak ve onu temiz, tek sayfalık bir HTML belgesine dönüştüreceksiniz.
@@ -99,6 +101,7 @@ Her sparkline grubu tek bir hücreye sabitlendiğinden, `forEach` ile numaraland
 4. HTML çıktısını diske yazmak için `workbook.save("sparklines.html", htmlOptions)` çağrısını yapın.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("output_with_sparklines.xlsx");
 let htmlOptions = new AsposeCells.HtmlSaveOptions();
 htmlOptions.setExportActiveWorksheetOnly(true);
@@ -106,10 +109,10 @@ workbook.save("sparklines.html", htmlOptions);
 ```
 
 Yukarıdaki kod, İş Akışı 1'deki sparkline açısından zengin çalışma kitabını alır ve onu taşınabilir bir HTML dosyasına dönüştürür. Sparkline'lar, dışa aktarma moduna bağlı olarak üretilen HTML içinde satır içi SVG veya PNG oluşturmaları olarak korunur, böylece son kullanıcılar Excel yüklemeye gerek kalmadan eğilimleri herhangi bir modern tarayıcıda görüntüleyebilir. `ExportActiveWorksheetOnly`'i `true` olarak ayarlayarak, gizli sayfaları veya yardımcı verileri yanlışlıkla yayınlamaktan kaçınırsınız — yalnızca kullanıcının o anda gördüğü çalışma sayfası dışa aktarılır.
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` sınıfı, çıktıyı ince ayarlamak için `ExportHiddenWorksheet`, `ExportImagesAsBase64` ve `Encoding` gibi ek özellikler sunar. Bunları dağıtım hedefinize göre gerektiği şekilde ayarlayın.
+{{% /alert %}}
 
 ## **API Summary**
 Yukarıdaki iş akışları, birlikte çalışan küçük bir Aspose.Cells API setine dayanır.
@@ -121,6 +124,5 @@ Yukarıdaki iş akışları, birlikte çalışan küçük bir Aspose.Cells API s
 
 ## **Related Articles**
 - [Hücreye Görüntü Ekleme](/cells/tr/nodejs-java/inserting-an-image-into-a-cell/)
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

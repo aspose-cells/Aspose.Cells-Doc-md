@@ -1,8 +1,8 @@
 ---
-title: Aspose.Cells for Java でピボットテーブルとピボットキャッシュを更新する
-linktitle: Aspose.Cells for Java でピボットテーブルとピボットキャッシュを更新する
-description: v26.7+ のピボット更新 API を使用して Aspose.Cells for Java でピボットテーブルを更新する方法を学びます。本記事では RefreshAll、RefreshPivotTables、PivotCache.Refresh、CalculateData、GetPivotTables を実用的なコード例とともに解説します。
-keywords: Aspose.Cells, Java, pivot table, refresh, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
+title: Aspose.Cells for JavaでピボットテーブルとPivotCacheを更新
+linktitle: Aspose.Cells for JavaでピボットテーブルとPivotCacheを更新
+description: Aspose.Cells for Javaのv26.7以降のピボット更新APIを使用して、ピボットテーブルを更新する方法を学びます。この.brückでは、RefreshAll、RefreshPivotTables、PivotCache.Refresh、CalculateData、およびGetPivotTablesについて、実用的なコード例を説明します。
+keywords: Aspose.Cells, Java, ピボットテーブル, 更新, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
 url: /ja/java/refresh-pivot-table/
@@ -11,38 +11,56 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells は、ワークブック全体から単一のピボットテーブルまで、4 つの異なるスコープでピボットデータを再読み込みできる階層的な更新 API を提供します。**Aspose.Cells for Java v26.7** 以降、従来のメソッド `PivotTable.refreshData()` は非推奨となり、本記事で紹介するより効率的でキャッシュを認識する API に置き換える必要があります。
+Aspose.Cellsは、ワークブック全体から単一のピボットテーブルまで、4つの異なるスコープでピボットデータを再読み込みできる階層型の更新APIを提供します。**Aspose.Cells for Java v26.7**以降、従来のメソッド`PivotTable.refreshData()`は非推奨としてマークされており、この.extensionsで説明する、より効率的でキャッシュに対応するAPIに置き換える必要があります。
 {{% /alert %}}
 
-## はじめに
-ピボットテーブルの更新は、単一の操作であることはほとんどありません。Aspose.Cells は内部で、元のソースデータとワークシートに表示されるレンダリング値を結ぶ階層的なデータチェーンを維持しています。このチェーンを理解することが、あらゆる状況で適切な更新 API を選択する鍵となります。
-4 層のデータチェーンは次のとおりです。
-1. **データソース** — 生の値が格納されている元のワークシート範囲、データベースクエリ、または統合範囲。
-2. **PivotCache** — ソースデータのインメモリスナップショット。すべてのピボットテーブルは `PivotCache` の上に構築され、ここにすべてのデータが収集・集計されます。
-3. **PivotTable** — 行、列、値、フィルタの各フィールドを定義するビューオブジェクト。`PivotTable` はデータソースから直接読み取ることはなく、*常に* `PivotCache` からのみ読み取ります。
-4. **Cells** — `PivotTable` が計算結果とスタイルをレンダリングする先の、ワークシートの `Cells`。
+## Introduction
+ピボットテーブルの更新が1つの操作だけで完結することはまれです。内部では、Aspose.Cellsは元のソースデータとワークシートに表示される値をつなぐ階層型のデータチェーンを管理しています。このチェーンを理解することが、さまざまな状況で適切な更新APIを選択するための鍵となります。
+4層構造のデータチェーンは次のとおりです。
+1. **データソース** — 元のワークシート範囲、データベースクエリ、または統合範囲であり、生の値が格納されているものです。
+2. **PivotCache** — ソースデータのインメモリスナップショットです。すべてのピボットテーブルは`PivotCache`の上に構築され、データはここで収集されて集計されます。
+3. **PivotTable** — 行、列、値、およびフィルター項目を定義するビューオブジェクトです。`PivotTable`が読み込むのは*`PivotCache`のみ*であり、データソースから直接読み込むことはありません。
+4. **Cells** — `PivotTable`が計算済みの値とスタイルを描画するワークシートの`Cells`です。
 
 {{% alert color="primary" %}}
-`PivotCache.getSourceType()`（列挙型 `PivotTableSourceType`）は、キャッシュデータの取得元を示します。v26.7 時点で、`PivotCache.refresh()` は **`Sheet`** および **`Consolidation`** のソースタイプ、つまりワークシート範囲に存在するデータのみをサポートしています。外部ソース（データベース、外部接続など）は、まだキャッシュ API 経由では更新できません。
+`PivotCache.getSourceType()`（列挙型`PivotTableSourceType`）は、キャッシュデータの取得元を示します。v26.7現在、`PivotCache.refresh()`がサポートするソースタイプは**`Sheet`**と**`Consolidation`**のみです。つまり、ワークシート範囲に格納されているデータが対象です。外部ソース（データベース、外部接続など）は、キャッシュAPIではまだ更新できません。
+このチェーンにより、Aspose.Cellsには2つの基本的な更新パスがあります。
+- **`PivotTable.calculateData()`** — データソースへの往復処理なしで、キャッシュ済みデータから1つの`PivotTable`の表示を再計算します。
+この記事のすべての例ではワークシートのセルをソースデータとして使用するため、ソースタイプは`Sheet`であり、更新操作は次のように動作します。
 {{% /alert %}}
 
-このチェーンのため、Aspose.Cells には次の 2 つの基本的な更新パスがあります。
-- **`PivotTable.calculateData()`** — すでにキャッシュされたデータから、1 つの `PivotTable` の表示を再計算します。データソースへのラウンドトリップはありません。
-本記事のすべてのシナリオではワークシートセルをソースデータとして使用しているため、ソースタイプは `Sheet` となり、更新操作は記載どおりに動作します。
-
-## クイックスタート
-ワークブック内のすべてのピボットを更新する最小限のコードが必要な場合は、次の 1 回の呼び出しだけで十分です。
+## Quick Start
+ワークブック内のすべてのピボットテーブルを更新するために必要最小限のコードだけでよい場合は、1回の呼び出しで十分です。
 
 ```java
 import com.aspose.cells.*;
-// 新しいワークブックを作成
+Workbook workbook = new Workbook("input.xlsx");
+workbook.refreshAll();
+workbook.save("output.xlsx");
+```
+
+この記事の他のセクションでは、より対象を限定したAPIを選択すべき場合について説明します。
+
+## Required Import Statements
+ピボット関連の型は`com.aspose.cells.pivot`パッケージにあるため、この記事のJavaの例はすべて次のimportステートメントで始まります。
+- `import java.lang.System;`
+- `import com.aspose.cells.Workbook;`
+- `import com.aspose.cells.pivot.*;`
+
+## Refresh All Pivot Tables in the Workbook
+ワークブック内のすべてのPivotCacheとPivotTableが最新のソースデータを反映するようにする必要がある場合、最も包括的なAPIは`Workbook.refreshAll()`です。1回の呼び出しでワークブック全体を処理し、各`PivotCache`をソースから更新してから、それに依存するすべての`PivotTable`を再計算します。パフォーマンスをあまり気にしない場合の、一般的な文書全体の更新にはこの方法を推奨します。
+次の例では、Fruit/Year/Amountのソース範囲を持つワークブックを作成し、1つのピボットテーブルを生成します。その後、一部のソース値を変更し、`refreshAll()`を1回呼び出すことで、すべてを最新の状態に更新します。
+
+```java
+import com.aspose.cells.*;
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// セル A1:C1 にヘッダー行を書き込む
+// Write header row into cells A1:C1
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// セル A2:C9 にデータ行を書き込む（2020年と2021年にわたる8行の果物のデータ）
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.getCells().get("A2").putValue("grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(50);
@@ -67,34 +85,25 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// ピボットテーブルを追加：ソース範囲 "A1:C9"、配置先のセル "E3"、名前 "Pivot1"
+// Add a pivot table: source range "A1:C9", destination cell "E3", name "Pivot1"
 int pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-// ピボットフィールドを割り当て：Fruit を行に、Year を列に、Amount をデータに
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// 変更をシミュレートするためにソースデータのいくつかの Amount 値を変更
+// Modify several Amount values in the source data to simulate changes
 worksheet.getCells().get("C2").putValue(55);
 worksheet.getCells().get("C5").putValue(85);
 worksheet.getCells().get("C9").putValue(125);
-// ワークブック内のすべてのピボットテーブル / ピボットキャッシュを更新
+// Refresh every pivot table / pivot cache in the workbook
 workbook.refreshAll();
-// ワークブックを保存
+// Save the workbook
 workbook.save("output.xlsx");
 ```
 
-本記事の以降のセクションでは、より狭いスコープの API を選ぶべき場面について説明します。
-
-## 必要なインポート文
-本記事のすべての Java サンプルは、ピボット型が `com.aspose.cells.pivot` パッケージに存在するため、次のインポート文から始まります。
-- `import java.lang.System;`
-- `import com.aspose.cells.Workbook;`
-- `import com.aspose.cells.pivot.*;`
-
-## ワークブック内のすべてのピボットテーブルを更新する
-ワークブック内のすべてのピボットキャッシュとすべてのピボットテーブルが最新のソースデータを反映するようにする必要がある場合、最もシンプルで包括的な API は `Workbook.refreshAll()` です。この呼び出し 1 回でワークブック全体を走査し、各 `PivotCache` をソースから更新し、それに依存するすべての `PivotTable` を再計算します。パフォーマンスを懸念しない一般的なフルドキュメントの更新には、この方法が推奨されます。
-次の例では、Fruit/Year/Amount のソース範囲を持つワークブックを作成し、1 つのピボットテーブルを作成し、一部のソース値を変更し、`refreshAll()` を使用してすべてを 1 回の呼び出しで最新の状態にします。
+## Refresh All Pivot Tables on a Single Worksheet
+他のワークシート上にあるピボットテーブルは関係がなく、変更してはいけないことが分かっている場合など、特定のワークシート上のピボットテーブルだけを更新する必要がある場合があります。この場合、Aspose.Cellsは`Worksheet.refreshPivotTables()`を提供しており、このメソッドは1つの`Worksheet`インスタンスに限定されます。
 
 ```java
 import com.aspose.cells.*;
@@ -139,18 +148,25 @@ worksheet.refreshPivotTables();
 workbook.save("output.xlsx");
 ```
 
-## 単一のワークシート上のすべてのピボットテーブルを更新する
-特定の 1 つのワークシート上にあるピボットテーブルだけを更新する必要がある場合があります（たとえば、他のワークシート上のピボットテーブルは無関係であり、触れないようにしたい場合など）。このようなケースのために、Aspose.Cells は単一の `Worksheet` インスタンスにスコープされた `Worksheet.refreshPivotTables()` を提供します。
+## Refresh a Single Pivot Table
+単一のピボットテーブルを細かく制御したい場合、キャッシュベースのAPIには2つの選択肢があります。どちらを選ぶかは、実際に変更された内容、つまり基礎となるソースデータか、ピボットテーブル自体の表示/レイアウト設定かによって異なります。
+
+### Source Data Changed — Use `PivotCache.refresh()`
+基礎となるソースデータが変更された場合は、`pivotTable.getPivotCache().refresh()`が正しいエントリーポイントです。この呼び出しはソースデータをキャッシュに再読み込みし、そのキャッシュに依存するすべての`PivotTable`を再計算します。
+
+### Only View/Layout Changed — Use `calculateData()`
+ソースデータは*変更されていない*が、ピボットテーブルの表示またはレイアウト設定が変更されている場合（例：項目を別の領域に移動した場合、または開くときに更新する設定を切り替えた場合）、データソースへ往復する必要はありません。キャッシュにはすでに正しいデータが含まれているため、再計算が必要なのはレンダリングされた`PivotTable`だけです。この場合、`pivotTable.calculateData()`が正しい選択です。
+次の例では、ピボットテーブルのソース以外のプロパティを変更し、既存のキャッシュから再レンダリングするために`calculateData()`を呼び出します。
 
 ```java
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Fruit / Year / Amount のヘッダー行を書き込みます
+// Write Fruit / Year / Amount header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// 8 行のデータ行を書き込みます (行 2-9、ソース範囲 A1:C9 に適合)
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(100);
@@ -175,64 +191,49 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// "Pivot1" という名前のピボット テーブルを、配置先セル E3 に追加し、ソース範囲は A1:C9 です
+// Add a pivot table named "Pivot1" placed at destination cell E3, sourcing from A1:C9
 int pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
 PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
-// フィールドを割り当てます: Fruit を行、Year を列、Amount をデータに
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// 表示/レイアウト プロパティを変更します -- これは表示のみの変更であり、
-// したがって、PivotCache.Refresh() を通じてソース データを再読み込みする必要はありません。
+// Modify a view/layout property -- this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
-// calculateData() は、PivotCache に保持されているデータから、このピボット テーブルの表示 (データ + スタイル) を再レンダリングします。
-// ソース データが変更されていないため、ソースへのラウンド トリップは実行されません -- キャッシュされた値のみが再計算され、
-// ワークシートのセルへ反映されます。
+// calculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed -- only the cached values are recalculated
+// into worksheet cells.
 pivotTable.calculateData();
-// ワークブックをディスクに保存します
+// Save the workbook to disk
 workbook.save("output.xlsx");
 ```
 
-## 単一のピボットテーブルを更新する
-単一のピボットテーブルを細かく制御したい場合は、キャッシュベースの API で 2 つのオプションがあります。どちらを選ぶかは、実際に変更されたのが基になるソースデータなのか、それともピボットテーブル自身の表示/レイアウト設定のみなのかによって決まります。
+1つの共有キャッシュの上に置かれた多数のピボットテーブルを含むワークブックも_argument:_.それらを列挙するには、たとえば一括更新の実行前や共有キャッシュの影響を診断するときに、`PivotCache.getPivotTables()`を使用します。このメソッドは、指定されたキャッシュに依存するすべての`PivotTable`のコレクションを返します。
 
-### ソースデータが変更された場合 — `PivotCache.refresh()` を使用
-基になるソースデータが変更された場合の正しいエントリポイントは、`pivotTable.getPivotCache().refresh()` です。この呼び出しはソースデータをキャッシュに再読み込みし、そのキャッシュに依存するすべての `PivotTable` を再計算します。
-
-### 表示/レイアウトのみが変更された場合 — `calculateData()` を使用
-ソースデータが変更されておらず、ピボットテーブルの表示やレイアウト設定のみが変更された場合（たとえば、フィールドを別のエリアに移動したり、開くたびに更新する設定を切り替えたりした場合）、データソースへのラウンドトリップは必要ありません。キャッシュにはすでに正しいデータが保持されており、再計算する必要があるのはレンダリング済みの `PivotTable` のみです。この場合、`pivotTable.calculateData()` が正しい選択です。
-次の例では、ピボットテーブルのソース以外のプロパティを変更し、既存のキャッシュから再レンダリングするために `calculateData()` を呼び出します。
-ワークブックには多くのピボットテーブルが含まれ、それらがすべて 1 つの共有キャッシュ上に存在することがよくあります。それらを列挙するには（たとえば、一括更新を行う前や、共有キャッシュの影響を診断するために）、`PivotCache.getPivotTables()` を使用します。このメソッドは、指定されたキャッシュに依存するすべての `PivotTable` のコレクションを返します。
-
-## 非推奨の `PivotTable.refreshData()` からの移行
-Aspose.Cells for Java v26.7 より前は、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルに対して個別に `PivotTable.refreshData()` を呼び出すことでした。v26.7 時点で、このメソッドは **非推奨** とマークされており、上記のキャッシュ対応 API に置き換える必要があります。
-実運用上のワークブックでテーブルごとの `refreshData()` アプローチに問題がある理由は 2 つあります。
+## Migrating from the Obsolete `PivotTable.refreshData()`
+Aspose.Cells for Java v26.7より前は、ピボットテーブルを更新する標準的な方法は、各ピボットテーブルで`PivotTable.refreshData()`を個別に呼び出すことでした。v26.7以降、このメソッドは**非推奨**とマークされ、上記で説明したキャッシュ対応APIに置き換える必要があります。
+実際のワークブックで、テーブルごとの`refreshData()`アプローチが問題になる理由は次のとおりです。
 - ソースが変更されていない場合でも、呼び出すたびにソースからデータを再取得します。
-推奨される置き換えは次のとおりです。
-次の例では、単一のキャッシュを共有する複数のピボットテーブルを持つワークブックに対する、新しい効率的なパターンを示します。
+推奨される置き換え方法は次のとおりです。
+次の例では、1つのキャッシュを共有する複数のピボットテーブルを持つワークブックの新しい効率的なパターンを示します。
 
-## どの更新 API を使用すべきか
-次の表は、利用可能な更新 API とそれぞれを選択するタイミングをまとめたものです。
-| 目的 | 推奨 API | 備考 |
+## Which Refresh API Should I Use?
+以下の表は、利用可能な更新APIと、それぞれの選択基準をまとめたものです。
+| 目的 | 推奨API | 注記 |
 |------|-----------------|-------|
-| ワークブック内のすべてを更新する | `Workbook.refreshAll()` | 1 回の呼び出しで、すべてのキャッシュとテーブルを対象とします。 |
-| 単一シート上のピボットテーブルだけを更新する | `Worksheet.refreshPivotTables()` | 1 つのワークシートにスコープされます。 |
-| 1 つのキャッシュのソースデータが変更された | `pivotTable.getPivotCache().refresh()` | その共有キャッシュ上のすべてのピボットテーブルを更新します。 |
-| 表示/レイアウト設定のみが変更された | `pivotTable.calculateData()` | 不要なソースへのラウンドトリップを回避します。 |
-| 共有キャッシュ上のすべてのピボットテーブルを列挙する | `pivotCache.getPivotTables()` | 一括更新の前に列挙するために使用します。 |
-実際のところ、非推奨のテーブルごとの `refreshData()` よりもキャッシュベースの API を優先してください。これらは共有キャッシュを認識しており、冗長なソース取得を回避し、更新要件を満たす最小のスコープを選択できるようにします。
+| ワークブック内のすべてを更新する | `Workbook.refreshAll()` | 1回の呼び出しですべてのキャッシュとテーブルを処理します。 |
+| 単一シート上のピボットテーブルのみを更新する | `Worksheet.refreshPivotTables()` | 1つのワークシートに限定されます。 |
+| 1つのキャッシュのソースデータが変更された | `pivotTable.getPivotCache().refresh()` | その共有キャッシュ上のすべてのピボットテーブルを更新します。 |
+| 表示またはレイアウトの設定だけが変更された | `pivotTable.calculateData()` | 不要なソースへの往復処理を省略します。 |
+| 共有キャッシュ上のすべてのピボットテーブルを一覧表示する | `pivotCache.getPivotTables()` | 一括更新の前に列挙します。 |
+実際の使用では、非推奨のテーブルごとの`refreshData()`より、キャッシュベースのAPIを優先してください。共有キャッシュを認識し、冗長なソース取得を避け、更新要件を満たす最小の範囲を選択できます。
 
-## よくある落とし穴
-- **保存前に更新し忘れる。** ピボットテーブルは、データチェーンが更新された場合にのみ、レンダリングされた値をワークシートに書き込みます。ソースセルを変更した場合は、`Workbook.save()` の前に `PivotCache.Refresh()`（または `Workbook.RefreshAll()`）を呼び出してください。さもないと、保存されたファイルには古い集計値がそのまま含まれます。
-- **テーブルごとに非推奨の `RefreshData()` を呼び出す。** v26.7 では、`PivotTable.RefreshData()` は非推奨とマークされており、呼び出すたびにソースを再取得します。キャッシュを共有する複数のピボットテーブルがある場合、N 回の冗長なソース取得を意味します。テーブルごとに 1 回の `CalculateData()` の後に続く、単一の `PivotCache.Refresh()` に置き換えてください。
-- **レイアウトのみが変更された場合に更新する。** ソースデータを変更せずにピボットテーブルの表示（列順、`ConsolidationFunction` など）のみを変更した場合、`PivotCache.Refresh()` は不要であり、遅くなります。既存のキャッシュから再レンダリングするには `pivotTable.CalculateData()` を呼び出してください。
-- **`PivotCache.Refresh()` でサポートされない外部ソース。** ピボットテーブルのソースが外部接続（データベース、OLAP キューブなど）に由来する場合、v26.7 では `PivotCache.Refresh()` では更新できません。現在、`Sheet` および `Consolidation` のソースタイプのみをサポートしています。外部ソースの場合は、ワークブックを開き直すか、ソースからキャッシュを再構築してください。
-
-```csharp
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
-```
+## Common Pitfalls
+- **保存前に更新するのを忘れる。** ピボットテーブルは、データチェーンが更新されたときにのみ、レンダリングされた値をワークシートに書き込みます。ソースセルを変更した場合は、`Workbook.save()`の前に`PivotCache.refresh()`（または`Workbook.refreshAll()`）を呼び出してください。そうしないと、保存されるファイルに古い集計値が含まれたままになります。
+- **廃止予定の`refreshData()`をテーブルごとに呼び出す。** v26.7では、`PivotTable.refreshData()`は非推奨とマークされており、呼び出しごとにソースを再取得します。複数のピボットテーブルが1つのキャッシュを共有している場合、N回の冗長なソース取得になります。1回の`PivotCache.refresh()`と、各テーブルに対する`calculateData()`で置き換えてください。
+- **レイアウトだけを変更したときに更新する。** ソースデータに触れることなくピボットテーブルの表示（列の順序、`ConsolidationFunction`など）のみ変更した場合、`PivotCache.refresh()`は不要であり、遅くなります。`pivotTable.calculateData()`を呼び出して、既存のキャッシュから再レンダリングしてください。
+- **`PivotCache.refresh()`がサポートしない外部ソース。** ピボットテーブルのソースが外部接続（データベース、OLAPキューブなど）からの場合、v26.7では`PivotCache.refresh()`で更新できません。現在サポートされているのは`Sheet`と`Consolidation`のソースタイプのみです。外部ソースの場合は、ワークブックを開き直すか、ソースからキャッシュを再構築してください。
 
 {{< app/cells/assistant language="java" >}}

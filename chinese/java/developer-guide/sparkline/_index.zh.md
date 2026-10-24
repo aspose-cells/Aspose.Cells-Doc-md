@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是适合放置在单个单元格内的小型图表，能够快速直观地呈现数据趋势。Aspose.Cells 支持折线、柱形和涨/跌迷你图，并且每种类型都可以在颜色、线宽、最高/最低点和标记方面进行自定义。
+{{% /alert %}}
 
 ## **简介**
 迷你图是单元格内的小型图表，当您希望在数据行或列旁边快速显示趋势而又不占用完整图表的空间时非常有用。Excel 支持三种迷你图：**折线**、**柱形** 和 **涨/跌**。Aspose.Cells 通过 `Aspose.Cells.Charts` 命名空间中的 `SparklineGroup` 和 `SparklineGroupCollection` API 实现了这一功能。
@@ -29,43 +30,36 @@ Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是适合�
 以下示例创建一个工作簿，将值 5、-3、8、-2、6 写入 A1 到 E1 单元格，并在 F1 单元格中添加一个折线迷你图来跟踪这些值。该示例还将线条颜色自定义为红色，并启用最高和最低点的标记。
 
 ```java
-public class CodeRunner {
-    public static void main(String[] args) {
-        try {
-            // 步骤 1：创建一个 Workbook 并获取第一个工作表
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.getWorksheets().get(0);
-            Cells cells = worksheet.getCells();
-            // 步骤 2：将示例值 5、-3、8、-2、6 写入单元格 A1:E1
-            cells.get("A1").putValue(5);
-            cells.get("B1").putValue(-3);
-            cells.get("C1").putValue(8);
-            cells.get("D1").putValue(-2);
-            cells.get("E1").putValue(6);
-            // 步骤 3：构建一个指向目标单元格 F1 的 CellArea
-            CellArea dest = new CellArea();
-            dest.StartColumn = 5;   // 列 F（从 0 开始索引）
-            dest.EndColumn = 5;
-            dest.StartRow = 0;      // 第 1 行（从 0 开始索引）
-            dest.EndRow = 0;
-            // 步骤 4：从 A1:E1 添加一个 Line 迷你图到 F1
-            // SparklineGroups.add 返回新添加的组的索引
-            int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
-            SparklineGroup group = worksheet.getSparklineGroups().get(index);
-            // 步骤 5：创建一个红色的 CellsColor 并将其分配给迷你图线条颜色
-            CellsColor red = workbook.createCellsColor();
-            red.setColor(com.aspose.cells.Color.getRed());
-            group.setSeriesColor(red);
-            // 步骤 6：启用高点标记和低点标记
-            group.setShowHighPoint(true);
-            group.setShowLowPoint(true);
-            // 步骤 7：保存工作簿
-            workbook.save("output_line.xlsx");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
+import com.aspose.cells.*;
+// 步骤 1：创建一个 Workbook 并获取第一个工作表
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+Cells cells = worksheet.getCells();
+// 步骤 2：将示例值 5、-3、8、-2、6 写入单元格 A1:E1
+cells.get("A1").putValue(5);
+cells.get("B1").putValue(-3);
+cells.get("C1").putValue(8);
+cells.get("D1").putValue(-2);
+cells.get("E1").putValue(6);
+// 步骤 3：构建一个指向目标单元格 F1 的 CellArea
+CellArea dest = new CellArea();
+dest.StartColumn = 5;   // 列 F（从 0 开始索引）
+dest.EndColumn = 5;
+dest.StartRow = 0;      // 第 1 行（从 0 开始索引）
+dest.EndRow = 0;
+// 步骤 4：从 A1:E1 添加一个 Line 迷你图到 F1
+// SparklineGroups.add 返回新添加的组的索引
+int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
+SparklineGroup group = worksheet.getSparklineGroups().get(index);
+// 步骤 5：创建一个红色的 CellsColor 并将其分配给迷你图线条颜色
+CellsColor red = workbook.createCellsColor();
+red.setColor(com.aspose.cells.Color.getRed());
+group.setSeriesColor(red);
+// 步骤 6：启用高点标记和低点标记
+group.setShowHighPoint(true);
+group.setShowLowPoint(true);
+// 步骤 7：保存工作簿
+workbook.save("output_line.xlsx");
 ```
 
 ## **柱形迷你图**
@@ -89,10 +83,10 @@ for (int i = 0; i < values.length; i++) {
 }
 // 构建一个指向 F1 的 CellArea（列索引 5，行索引 0）
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // 向目标单元格添加一个 Column 迷你图
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
@@ -115,9 +109,6 @@ System.out.println("Workbook saved as output_column.xlsx");
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.charts.*;
-import com.aspose.cells.drawing.*;
-import java.awt.Color;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -129,10 +120,10 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // 构建一个指向 F1 的 CellArea（列 5，行 0）
 CellArea dest = new CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // 添加一个 Win/Loss 迷你图（SparklineType.Stacked）
 int groupIndex = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(groupIndex);
@@ -142,19 +133,19 @@ group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
 // 将高点颜色设置为绿色
 CellsColor highColor = workbook.createCellsColor();
-highColor.setColor(Color.GREEN);
+highColor.setColor(Color.getGreen());
 group.setHighPointColor(highColor);
 // 将低点颜色设置为红色
 CellsColor lowColor = workbook.createCellsColor();
-lowColor.setColor(Color.RED);
+lowColor.setColor(Color.getRed());
 group.setLowPointColor(lowColor);
 // 将负点颜色设置为橙色
 CellsColor negColor = workbook.createCellsColor();
-negColor.setColor(Color.ORANGE);
+negColor.setColor(Color.getOrange());
 group.setNegativePointsColor(negColor);
 // 设置默认系列颜色（用于正值柱）
 CellsColor seriesColor = workbook.createCellsColor();
-seriesColor.setColor(new Color(70, 130, 180)); // 近似钢蓝色
+seriesColor.setColor(Color.fromArgb(70, 130, 180)); // 近似钢蓝色
 group.setSeriesColor(seriesColor);
 // 保存工作簿
 workbook.save("output_winloss.xlsx");
@@ -211,6 +202,5 @@ workbook.save("output_all.xlsx");
 - **最高/最低点标记** —— 用于在最高和最低数据点上开启小标记的标志，便于强调极值。
 - **首点/末点/负点标记** —— 用于在第一个、最后一个和负数据点上切换标记的标志。
 要更改颜色，请始终创建一个 `CellsColor` 实例并将其分配给相关属性。不要直接将 `java.awt.Color` 分配给迷你图颜色属性 —— 它们期望来自 `Aspose.Cells.Drawing` 的 `CellsColor` 类型。`add` 方法本身会返回一个完全类型化的 `SparklineGroup` 对象，因此您可以在返回值上链式调用属性赋值，或将其存储在局部变量中并在保存前进行自定义。
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

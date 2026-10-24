@@ -54,10 +54,9 @@ workbook.save(fileName);
 
 {{% alert color="primary" %}}
 لا يعمل مرشح التاريخ إلا عندما تحتوي منطقة الصف أو العمود على خلايا تاريخ ووقت فقط ou قيم فارغة. إذا كان الحقل الأساسي يحتوي على أنواع بيانات أخرى مثل الأرقام أو النصوص، فلن يُنتج مرشح التاريخ النتيجة المتوقعة. تأكد من تنسيق الحقل كتاريخ ومن أن جميع القيم هي نسخ صالحة من `DateTime` أو خلايا فارغة قبل تطبيق هذا المرشح.
-{{% /alert %}}
-
 يعرض Aspose.Cells ميزة تصفية التواريخ من خلال الطريقة `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. يحتوي تعداد `PivotFilterType` على قيم تاريخ مخصصة مثل `Today` و`Yesterday` و`LastWeek` و`ThisWeek` و`NextWeek` و`LastMonth` و`ThisMonth` و`NextMonth` و`LastQuarter` و`ThisQuarter` و`NextQuarter` و`LastYear` و`ThisYear` و`NextYear` و`Between`. بناءً على نوع المرشح المختار، تُمرِّر قيمة أو قيمتين من نوع `DateTime` (بالنسبة لـ `Between`، تُمرِّر تاريخي البداية والنهاية).
 يُحمِّل المثال التالي مصنفًا يحتوي على جدول محوري توجد في منطقة الصفوف فيه حقل تاريخ، ويطبق مرشح تاريخ يقصر العناصر المرئية على نطاق تاريخي معين، ثم يُحدِّث الجدول المحوري ويحفظ المصنف.
+{{% /alert %}}
 
 ```java
 import java.io.File;
@@ -123,10 +122,9 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 لا يكون مرشح أعلى 10 فعالًا إلا عندما يحتوي الجدول المحوري على حقل قيمة واحد أو أكثر في منطقة البيانات. فبدون وجود حقل قيمة واحد على الأقل، لا يوجد مقياس مجمع لترتيب العناصر وفقًا له، ولا يمكن تطبيق المرشح.
-{{% /alert %}}
-
 يعرض Aspose.Cells ميزة تصفية أعلى 10 من خلال الطريقة `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)`. تحدد وسيطة `itemCount` عدد العناصر التي يجب الاحتفاظ بها، وتشير `isTop` إلى ما إذا كان يجب الاحتفاظ بأعلى العناصر (true) أو أدنى العناصر (false)، وتشير `valueField` إلى حقل البيانات المستخدم للترتيب، وتتحكم `filterType` في كيفية حساب القيمة (عادةً `Sum`، ولكن أيضًا `Count` و`Percent`).
 يُحمِّل المثال التالي مصنفًا يحتوي على جدول محوري يشمل حقل قيمة، ويطبق مرشح أعلى 10 للاحتفاظ فقط بأعلى 10 عناصر من حيث مجموع المبيعات، ثم يُحدِّث الجدول المحوري ويحفظ المصنف.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -153,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (أعلى N؛ القيمة false تعني أسفل N)
 //   - valueFieldIndex = فهرس حقل البيانات المستخدم لترتيب العناصر
-rowField.filterTop10(10, PivotFilterType.SUM, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
 // تحديث بيانات الجدول المحوري وإعادة حسابها حتى يصبح المرشح ساري المفعول
 pivotTable.refreshData();
 // حفظ دفتر العمل
@@ -180,12 +178,12 @@ for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.getPivotItems().get(i);
     // إخفاء عناصر الجدول المحوري التي تطابق اسمًا/معيارًا معينًا
-    if (item.getName() == "Item1" || item.getName() == "Item2")
+    if (item.getName().equals("Item1") || item.getName().equals("Item2"))
     {
         item.setHidden(true);
     }
     // عرض كيفية إظهار عنصر محوري مخفي سابقًا
-    if (item.getName() == "Item3")
+    if (item.getName().equals("Item3"))
     {
         item.setHidden(false);
     }

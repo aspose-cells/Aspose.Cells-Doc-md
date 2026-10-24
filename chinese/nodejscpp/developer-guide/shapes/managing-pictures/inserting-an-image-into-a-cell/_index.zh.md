@@ -37,6 +37,7 @@ Aspose.Cells 通过两种互补的方式支持此场景：
 
 {{% alert color="primary" %}}
 Aspose.Cells 中的行和列索引采用 **从零开始** 的编号方式。单元格 C6 的行索引为 5，列索引为 2。右下角锚定的差一错误是导致图片看似溢出到相邻单元格的最常见原因。
+{{% /alert %}}
 
 ### **控制放置行为**
 `picture.placement` 是 `PlacementType` 类型的枚举，用于控制当用户调整图片下方行或列时图片的行为。对于单单元格图片，推荐的取值是 `PlacementType.MoveAndSize`，它会使图片与其下方单元格一起移动和缩放，从而保持精确的适配效果。
@@ -53,7 +54,7 @@ Aspose.Cells 中的行和列索引采用 **从零开始** 的编号方式。单�
 下面的代码演示了完整的实现方法。
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -88,6 +89,8 @@ Aspose.Cells 还提供了一种更简单的单元格绑定图像机制：`cell.e
 下面的代码演示了完整的实现方法。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 // 获取目标单元格 C6
@@ -113,7 +116,6 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 - **在以下情况下使用嵌入图像（方法 2）：**
   - 您希望以最简单的方式将图像插入单元格。
   - 图像应当像其他单元格内容一样随单元格一起移动。
-{{% /alert %}}
 
 ## 相关文章
 - [Aspose.Cells for Node.js via C++ 中的 Excel 照相机](/cells/zh/nodejs-cpp/excel-camera/)
@@ -122,4 +124,4 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 - [修改数据透视表中的页面字段布局](/cells/zh/nodejs-cpp/change-page-field-layout/)
 - [Aspose.Cells for Node.js via C++ 中将迷你图转换为图像和 HTML](/cells/zh/nodejs-cpp/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

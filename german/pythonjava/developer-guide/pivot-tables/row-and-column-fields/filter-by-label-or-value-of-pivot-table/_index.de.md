@@ -33,7 +33,6 @@ Das folgende Beispiel lädt eine Arbeitsmappe mit einer vorhandenen Pivot-Tabell
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
@@ -46,7 +45,7 @@ pivotTable = worksheet.getPivotTables().get(0)
 # Das erste Zeilen-PivotField abrufen
 rowField = pivotTable.getRowFields().get(0)
 # Beschriftungsfilter anwenden — nur Zeilenelemente anzeigen, deren Beschriftungen mit dem angegebenen Präfix beginnen
-rowField.filterByLabel(PivotFilterType.CaptionBeginsWith, prefix, "")
+rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Pivot-Tabellendaten aktualisieren und neu berechnen, damit der Filter wirksam wird
 pivotTable.getPivotCache().refresh()
 # Arbeitsmappe wieder auf der Festplatte speichern
@@ -59,16 +58,15 @@ Datumsfilter ermöglichen es Ihnen, eine Pivot-Tabelle anhand datumsbasierter Kr
 
 {{% alert color="primary" %}}
 Der Datumsfilter funktioniert nur, wenn der Zeilen- oder Spaltenbereich ausschließlich Datum-Zeit-Zellen oder leere Werte enthält. Wenn das zugrunde liegende Feld andere Datentypen wie Zahlen oder Text enthält, liefert der Datumsfilter nicht das erwartete Ergebnis. Stellen Sie sicher, dass das Feld als Datum formatiert ist und alle Werte gültige `DateTime`-Instanzen oder leere Zellen sind, bevor Sie diesen Filter anwenden.
-{{% /alert %}}
-
 Aspose.Cells stellt die Datumsfilterung über die Methode `PivotField.filter_by_date(PivotFilterType, values)` bereit. Die Aufzählung `PivotFilterType` enthält dedizierte Datumswerte wie `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` und `Between`. Je nach gewähltem Filtertyp übergeben Sie einen oder zwei `DateTime`-Werte (für `Between` übergeben Sie das Start- und Enddatum).
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, deren Zeilenbereich ein Datumsfeld enthält, wendet einen Datumsfilter an, der die sichtbaren Elemente auf einen bestimmten Datumsbereich beschränkt, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
@@ -88,7 +86,7 @@ Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
 # Wenden Sie den Datumsfilter auf das Pivot-Feld an
-dateField.filterByDate(PivotFilterType.DateBetween, startDate, endDate)
+dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
 # Aktualisieren und berechnen Sie die Pivot-Tabelle neu, damit der Filter wirksam wird
 pivotTable.getPivotCache().refresh()
 # Speichern Sie die Arbeitsmappe
@@ -105,7 +103,6 @@ Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, wendet ei
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 workbook = Workbook("sample.xlsx")
 worksheet = workbook.getWorksheets().get(0)
@@ -130,16 +127,14 @@ Der Top-10-Filter ist eine spezialisierte Form des Wertfilters, der nur die ober
 
 {{% alert color="primary" %}}
 Der Top-10-Filter ist nur wirksam, wenn die Pivot-Tabelle ein oder mehrere Wert-Pivot-Felder im Datenbereich enthält. Ohne mindestens ein Wertfeld gibt es keine aggregierte Kennzahl, gegen die die Elemente eingestuft werden können, und der Filter kann nicht angewendet werden.
-{{% /alert %}}
-
 Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.filter_top10(item_count, is_top, value_field, filter_type)` bereit. Der Parameter `item_count` definiert, wie viele Elemente beibehalten werden, `is_top` gibt an, ob die obersten Elemente (true) oder die untersten Elemente (false) beibehalten werden sollen, `value_field` verweist auf das für das Ranking verwendete Datenfeld, und `filter_type` steuert, wie der Wert berechnet wird (typischerweise `Sum`, aber auch `Count` und `Percent`).
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, die ein Wertfeld enthält, wendet einen Top-10-Filter an, um nur die obersten 10 Elemente nach der Verkaufssumme beizubehalten, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
 # Vorhandene Arbeitsmappe laden, die die Pivot-Tabelle enthält
 inputPath = "input.xlsx"
@@ -159,10 +154,10 @@ rowField = pivotTable.getRowFields().get(0)
 valueFieldIndex = 0
 # Den Top-10-Filter auf das Zeilenfeld anwenden:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (Top N; false würde Bottom N bedeuten)
 #   - valueFieldIndex = der Index des Datenfelds, das zum Sortieren der Elemente verwendet wird
-rowField.filterTop10(10, PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, True, 10)
 # Die Pivot-Tabellendaten aktualisieren und neu berechnen, damit der Filter wirksam wird
 pivotTable.getPivotCache().refresh()
 # Die Arbeitsmappe speichern
@@ -178,7 +173,6 @@ Dieser Ansatz ist nützlich, wenn die Filterregel unregelmäßig oder elementspe
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
 # Eine vorhandene Arbeitsmappe mit einer Pivot-Tabelle laden
 workbook = Workbook("pivot_table_sample.xlsx")
@@ -194,10 +188,10 @@ for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
     # Pivot-Elemente ausblenden, die einem bestimmten Namen/Kriterium entsprechen
     if item.getName() == "Item1" or item.getName() == "Item2":
-        item.setIsHidden(True)
+        item.setHidden(True)
     # Einblenden demonstrieren: ein zuvor ausgeblendetes Pivot-Element wieder anzeigen
     if item.getName() == "Item3":
-        item.setIsHidden(False)
+        item.setHidden(False)
 # Die Pivot-Tabelle aktualisieren und neu berechnen, damit die Änderungen wirksam werden
 pivotTable.getPivotCache().refresh()
 # Die Arbeitsmappe speichern — ausgeblendete Elemente bleiben in den zugrunde liegenden Daten

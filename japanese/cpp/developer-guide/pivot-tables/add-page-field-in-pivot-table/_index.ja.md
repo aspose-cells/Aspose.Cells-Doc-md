@@ -1,8 +1,8 @@
 ---
 title: Aspose.Cells for C++ でピボットテーブルにフィルターフィールドを追加する
-description: Aspose.Cells for C++ を使用して、ピボットテーブル内のフィルターフィールドの追加と設定（フィルターフィールドの追加、単一選択フィルタリング、複数選択フィルタリングを含む）について学びます。
 linktitle: Aspose.Cells for C++ でピボットテーブルにフィルターフィールドを追加する
-keywords: Aspose.Cells, C++, pivot table, filter field, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
+description: Aspose.Cells for C++ を使用して、ピボットテーブルにフィルターフィールドを追加して構成する方法について学習します。フィルターフィールドの追加、単一選択フィルター、複数選択フィルターを含みます。
+keywords: Aspose.Cells, C++, ピボットテーブル, フィルターフィールド, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, フィルター
 type: docs
 weight: 250
 url: /ja/cpp/add-page-field-in-pivot-table/
@@ -11,19 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells は、ピボットテーブル内のフィルターフィールドの全ライフサイクルをサポートします。ハイレベルの便利な API または低レベルの `PageFields` コレクションを介してフィルターフィールドを追加でき、単一選択モードでフィルターを駆動したり、すべてのフィルター項目を表示するためにクリアしたり、フィールドを複数選択に切り替えて Excel のチェックボックス UI を通じて複数のフィルター項目を一度に選択できるようにしたりできます。
+Aspose.Cells は、ピボットテーブルのフィルターフィールドのライフサイクル全体を immense ポートしています。高レベルの簡易 API または下位レベルの `PageFields` コレクションを通じてフィルターフィールドを追加できます。また、フィルターを単一選択モードで制御したり、すべてのフィルター項目を表示するようにクリアしたり、フィールドを複数選択モードに切り替えたりして、Excel のチェックボックス UI を通じてユーザーが複数のフィルター項目を一度に選択することもできます。
 {{% /alert %}}
 
 ## **はじめに**
-フィルターフィールドは、ピボット本体が表示するソースデータの *どのサブセット* を制御するピボットフィールドです。エンドユーザーは Excel でレンダリングされたピボットの上部にドロップダウンとしてそれを目にし、利用可能なフィルター項目のいずれかを選択すると、そのフィルター項目に属するレコードのみが集約されるようにピボット本体が再構築されます。ピボットフィールドは、`PivotFieldType.Row`、`PivotFieldType.Column`、または `PivotFieldType.Data` ではなく `PivotFieldType.Page` として登録された場合にフィルターフィールドになります。
-フィルターフィールドは 2 つの動作で動作できます。デフォルトの **単一選択** 動作では、一度に 1 つのフィルター項目のみが表示されるため、ピボット本体は正確に 1 つのサブセットを集約します。**複数選択** 動作では、フィールドはチェックボックスリストを公開し、ピボット本体はチェックされたすべてのフィルター項目の和集合を集約します。同じソースフィールドは、単一のプロパティを切り替えることによって、これらの動作間で行き来できます。
-Aspose.Cells for C++ は、フィルターフィールドを登録する 2 つの同等の方法を公開しています。ハイレベル API は `PivotTable.AddFieldToArea(PivotFieldType.Page, "fieldName")` で、ソース列名を引数として受け取り、単一の呼び出しでフィールドを追加します。低レベル API は `PivotTable.PageFields.Add(PivotField)` で、すでに `PivotField` 参照を保持しており、同じフィールドインスタンスをフィルター領域に追加したい場合に使用されます。両方の API は最終的に同じ `PageFields` コレクションを生成し、この記事の残りの部分では、それらの選択方法と各フィルタリングモードの駆動方法について説明します。
+フィルターフィールドは、ピボット本体に表示されるソースデータの*どの部分集合*かを制御するピボットフィールドです。Excel でレンダリングされたピボットの上部には、エンドユーザーが選択できるドロップダウンとして表示されます。利用可能なフィルター項目を 1 つ選択すると、そのフィルター項目に属するレコードだけが要約されるようにピボット本体が再構築されます。ピボットフィールドが `PivotFieldType.Row`、`PivotFieldType.Column` または `PivotFieldType.Data` としてではなく、`PivotFieldType.Page` として登録されると、フィルターフィールドになります。
 
-## **フィルターフィールドの追加**
-フィルター領域にピボットフィールドを登録するには 2 つの方法があります。ハイレベル呼び出しは、ソース列名を文字列として受け取り、最も一般的なパスです。低レベル呼び出しは既存の `PivotField` インスタンスを受け取り、同じフィールドオブジェクトを複数のピボット領域で再利用する必要がある場合に便利です。どちらの呼び出しもフィールドを `PivotTable.PageFields` に配置し、その後、レンダリングされたピボットの上部にページドロップダウンとして表示されます。
+## **フィルターフィールドを追加する**
 
-### AddFieldToArea を使用したフィルターフィールドの追加
-次の例は、小さな Fruit / Year / Amount データセットを作成し、`Fruit` を行領域、`Amount` をデータ領域、`Year` をフィルター領域としてセル E3 にピボットテーブルを配置し、ピボットを更新して、ワークブックを保存します。
+### AddFieldToArea を使用してフィルターフィールドを追加する
+次の例では、小さな `Fruit` / `Year` / `Amount` データセットを作成し、`Fruit` を行領域、`Amount` をデータ領域、`Year` をフィルター領域に割り当てて、E3 セルにピボットテーブルを作成します。その後、ピボットを更新し、ワークブックを保存します。
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -31,16 +28,16 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // 新しいワークブックを作成
+    // 新しいワークブックを作成します
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(u"Data");
     Cells cells = worksheet.GetCells();
-    // ヘッダー行を設定
+    // ヘッダー行を設定します
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
-    // フルーツ、年度、数量の9行のサンプルデータを入力
+    // 9行のサンプルデータ（Fruit、Year、Amount）を入力します
     const char* fruits[] = { "apple", "banana", "apple", "grape", "orange", "banana", "grape", "apple", "orange" };
     int years[]   = { 2020, 2021, 2021, 2020, 2022, 2020, 2021, 2022, 2021 };
     int amounts[] = { 100, 200, 150, 120, 180, 90, 130, 170, 110 };
@@ -50,29 +47,30 @@ int main() {
         cells.Get(i + 1, 1).PutValue(years[i]);
         cells.Get(i + 1, 2).PutValue(amounts[i]);
     }
-    // セルE3にアンカーされたピボットテーブルを追加
+    // セル E3 を基準位置としてピボットテーブルを追加します
     int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"PivotTable1");
     PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
-    // フィールドをそれぞれのエリアに追加：フルーツを行、データをデータ、年度をページフィールド
+    // フィールドを各領域に追加します：Fruitを行、Amountをデータ、Yearをページフィールドとして指定します
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
-    // ピボットテーブルのデータを更新して計算
+    // ピボットテーブルのデータを更新して計算します
     pivotTable.CalculateData();
-    // ワークブックを保存
+    // ワークブックを保存します
     workbook.Save(u"pageFieldSample.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-### PageFields.Add を使用したフィルターフィールドの追加
-すでに `PivotField` インスタンスを操作している場合は、それを `PivotTable.PageFields.Add` に直接渡すことができます。ピボットテーブルとフィルターフィールドは前のシナリオとまったく同じ方法で構築されます。最終的なフィルター領域の登録のみが低レベル API 呼び出しに置き換えられます。
+### PageFields.Add を使用してフィルターフィールドを追加する
+すでに `PivotField` インスタンスを操作している場合は、それを直接 `PivotTable.PageFields.Add` に渡すことができます。ピボットテーブルとフィルターフィールドは前の例とまったく同様に構成されます。異なるのは、最終的なフィルター領域への登録のみが下位レベルの API 呼び出しに置き換えられるという点です。
 
 ```cpp
 #include "Aspose.Cells.h"
 #include <string>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -92,15 +90,15 @@ int main() {
     cells.Get(u"A8").PutValue(u"blueberry"); cells.Get(u"B8").PutValue(u"2020"); cells.Get(u"C8").PutValue(250);
     cells.Get(u"A9").PutValue(u"blueberry"); cells.Get(u"B9").PutValue(u"2021"); cells.Get(u"C9").PutValue(350);
     cells.Get(u"A10").PutValue(u"blueberry");cells.Get(u"B10").PutValue(u"2022");cells.Get(u"C10").PutValue(450);
-    // E3にA1:C10をカバーするピボットテーブルを追加
+    // E3にA1:C10を範囲とするピボットテーブルを追加
     PivotTableCollection pivotTables = sheet.GetPivotTables();
-    int pivotIndex = pivotTables.Add(U16String(u"E3"), U16String(u"A1:C10"), U16String(u"PivotTable1"));
+    int pivotIndex = pivotTables.Add(U16String(u"A1:C10"), U16String(u"E3"), U16String(u"PivotTable1"));
     PivotTable pivotTable = pivotTables.Get(pivotIndex);
-    // フルーツ -> 行、金額 -> データ
+    // 果物 -> 行、金額 -> データ
     pivotTable.AddFieldToArea(PivotFieldType::Row, U16String(u"Fruit"));
     pivotTable.AddFieldToArea(PivotFieldType::Data, U16String(u"Amount"));
-    // 低レベルアプローチ：BaseFieldsから既存のYear PivotFieldを検索し、
-    // PageFields.Add(PivotField)経由でページ領域に登録する。
+    // 低レベルアプローチ：BaseFields内の既存のYear PivotFieldを検索し、
+    // PageFields.Add(PivotField)を使用してページ領域に登録する。
     PivotFieldCollection baseFields = pivotTable.GetBaseFields();
     int baseFieldCount = baseFields.GetCount();
     for (int i = 0; i < baseFieldCount; ++i) {
@@ -110,7 +108,7 @@ int main() {
             break;
         }
     }
-    // 新しいページフィールドが保存されたワークブックに反映されるように更新
+    // 新しいページフィールドが保存されたワークブックに反映されるように更新する
     pivotTable.CalculateData();
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
@@ -118,15 +116,16 @@ int main() {
 }
 ```
 
-## **単一選択フィルタリング (1 つのフィルター項目の表示)**
-デフォルトの単一選択動作では、フィルターフィールドは単一のドロップダウンとしてレンダリングされ、`PivotField.CurrentPageItem` 整数がピボット本体を駆動するフィルター項目を選択します。特定のインデックスを割り当てるとその項目が選択されます。特別なセンチネル `0x7FFD` (10 進数 32765) を割り当てるとフィルターがクリアされ、すべてのフィルター項目が一度に集約されます。単一選択がデフォルトです。明示的に有効にする必要はありません。
+## **単一選択フィルター（1 つのフィルター項目を表示する）**
+デフォルトの単一選択動作では、フィルターフィールドは単一のドロップダウンとして表示され、`PivotField.CurrentPageItem` の整数値は、ピボット本体をどのフィルター項目で制御するかを指定します。特定のインデックスを割り当てると、その項目だけが選択されます。特殊な番兵値 `0x7FFD`（10 進数で 32765）を割り当てると、フィルターがクリアされ、すべてのフィルター項目が同時に要約されます。単一選択はデフォルトであるため、明示的に有効にする必要はありません。
 
-### すべての項目の表示
-`CurrentPageItem` をマジック値 `0x7FFD` に設定することは、フィルターをクリアすることと同じです。フィルターが適用されていないかのように、ピボット本体はすべてのフィルター項目を集約します。
+### すべての項目を表示する
+`CurrentPageItem` を特殊な値 `0x7FFD` に設定すると、フィルターをクリアした場合と同じ結果になります。ピボット本体には、フィルターが適用されていないかのように、すべてのフィルター項目が要約されます。
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -157,12 +156,13 @@ int main() {
 }
 ```
 
-### 特定の 1 つの項目の表示
-`CurrentPageItem` を実際のインデックスに設定すると、その 1 つのフィルター項目のみが選択されます。インデックスはフィルターフィールドのソートされた項目リスト内の項目の位置であるため、たとえば `1` はソート後に 2 番目の項目を選択します。
+### 特定の項目を 1 つ表示する
+`CurrentPageItem` を実際の項目のインデックスに設定すると、その項目だけが選択されます。このインデックスは、フィルターフィールドのソート済みの項目一覧における項目の位置です。したがって、例えば `1` は、ソート後の 2 番目の項目を選択します。
 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -197,15 +197,15 @@ int main() {
 }
 ```
 
-## **複数選択フィルタリング**
-複数選択フィルタリングは、ページドロップダウンをチェックボックスリストに変え、エンドユーザーが複数のフィルター項目を同時に選択できるようにします。Aspose.Cells は連携して動作する 2 つのプロパティを公開しています。複数選択 UI がまったく有効になる前に、`PivotField.IsMultipleItemSelectionAllowed` を `true` に設定する必要があります。有効にされた後、`PivotItem.IsHidden` はチェックボックスリストに表示される項目を制御するため、すべての項目を表示するか、特定の項目のみをホワイトリストに登録するかを選択できます。
-次のコードは、シナリオ 1a で構築された同じ Year フィルターフィールドで複数選択を有効にし、2 つのパターンを示しています。パート A では、すべてのエントリの `IsHidden` を `false` のままにしてすべてのフィルター項目を公開し、パート B では、`switch (pivotItems[i].GetStringValue())` ブロックを介して、選択したソース値のみをホワイトリストに登録し、その他すべてを非表示にします。
+## **複数選択フィルター**
+複数選択フィルターでは、フィルターのドロップダウンがチェックボックス一覧になり、ユーザーが複数のフィルター項目を同時に選択できます。Aspose.Cells は、連携して機能する 2 つのプロパティを提供します。複数選択 UI を有効にするには、まず `PivotField.IsMultipleItemSelectionAllowed` を `true` に設定する必要があります。有効化すると、`PivotItem.IsHidden` によって、チェックボックス一覧に表示される項目を制御できます。そのため、すべての項目を表示することも、特定の項目だけをホワイトリストに含めることもできます。
 
 ```cpp
 #include "Aspose.Cells.h"
 #include <string>
 #include <vector>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -233,20 +233,20 @@ int main() {
     }
     Worksheet pivotSheet = workbook.GetWorksheets().Add(u"Pivot");
     PivotTableCollection pivots = pivotSheet.GetPivotTables();
-    int pivotIndex = pivots.Add(u"E3", u"A1:C10", u"PivotTable1");
+    int pivotIndex = pivots.Add(u"A1:C10", u"E3", u"PivotTable1");
     PivotTable pivotTable = pivots.Get(pivotIndex);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
     // — ページフィールドで複数選択を有効にする
     pivotTable.GetPageFields().Get(0).SetIsMultipleItemSelectionAllowed(true);
-    // パート A — すべての項目を選択 (すべての項目を表示する)
+    // パート A — すべての項目を選択する（すべての項目を表示可能にする）
     PivotItemCollection pivotItems = pivotTable.GetPageFields().Get(0).GetPivotItems();
     int itemCount = pivotItems.GetCount();
     for (int i = 0; i < itemCount; i++) {
         pivotItems.Get(i).SetIsHidden(false);
     }
-    // パート B — ソース値で特定の項目のみを選択
+    // パート B — ソース値に基づいて特定の項目だけを選択する
     for (int i = 0; i < itemCount; i++) {
         U16String val = pivotItems.Get(i).GetStringValue();
         std::string s = val.ToUtf8();
@@ -263,21 +263,21 @@ int main() {
 }
 ```
 
-> **注意:** `PivotItem.IsHidden` を通じて複数選択フィルタリングを使用する場合、**少なくとも 1 つの `PivotItem` は表示されたままにする必要があります** (`IsHidden == false`)。すべての項目が非表示になっている場合、Excel はファイルを開くときにクラッシュするか、空のピボットをレンダリングします。複数選択のホワイトリストにソースデータから少なくとも 1 つの項目が含まれていることを常に確認してください。
+> **注:** `PivotItem.IsHidden` を使って複数選択フィルターを設定する場合、**少なくとも 1 つの `PivotItem` を表示状態（`IsHidden == false`）に保つ必要があります**。すべての項目を非表示にすると、Excel はファイルを開いたときにクラッシュするか、空のピボットを描画します。複数選択のホワイトリストには、ソースデータから少なくとも 1 つの項目が含まれていることを必ず確認してください。
 
-## **どの API とどのモードを使用すべきか?**
-次の表は、各 API とモードをいつ使用するかをまとめたもので、すべてのシナリオを詳細に読まなくても適切な組み合わせを選択できます。
-| シナリオ / ユースケース | 推奨 API | 使用されるプロパティ | メモ |
+## **どの API とどのモードを使用すべきか？**
+以下の表は、各 API とモードをいつ使用すべきかを示しています。すべてのシナリオを詳しく読まずに、適切な組み合わせを選択できます。
+| シナリオ / ユースケース | 推奨 API | 使用するプロパティ | 注記 |
 |---|---|---|---|
-| ソース列名でフィルターフィールドを追加する (最も一般的) | `PivotTable.AddFieldToArea(PivotFieldType.Page, "fieldName")` | n/a | ハイレベル、ワンライナー。`PivotField` 参照が必要ない限り、これを使用してください。 |
-| すでに `PivotField` オブジェクトがある場合にフィルターフィールドを追加する | `PivotTable.PageFields.Add(PivotField)` | n/a | フィールドオブジェクトが他の場所で取得されたか、再利用が必要な場合に使用します。 |
-| 単一のフィルター項目にフィルターする (デフォルトモード) | `PivotField.CurrentPageItem` | 特定のインデックスに設定 | たとえば、`1` はソートされたリストの 2 番目の項目を表示します。 |
-| すべての項目を表示する / フィルターをクリアする | `PivotField.CurrentPageItem` | `0x7FFD` に設定 | マジック値 `0x7FFD` (10 進数 32765) は「すべての項目」のセンチネルです。 |
-| Excel で複数選択 UI を有効にする | `PivotField.IsMultipleItemSelectionAllowed` | `true` に設定 | `IsHidden` 呼び出しが有効になる前に必要です。 |
-| 複数選択リスト内の個別項目を非表示 / 表示する | `PivotItem.IsHidden` | 項目ごとに設定 | 少なくとも 1 つの項目が表示されたままである必要があります (`IsHidden == false`)。 |
+| ソース列名でフィルターフィールドを追加する（最も一般的） | `PivotTable.AddFieldToArea(PivotFieldType.Page, "fieldName")` | 該当なし | 1 行で追加できる高レベルの API です。`PivotField` への参照が必要な場合を除き、これを使用します。 |
+| `PivotField` オブジェクトをすでに保有している場合にフィルターフィールドを追加する | `PivotTable.PageFields.Add(PivotField)` | 該当なし | フィールドオブジェクトを別の場所で取得した場合、または再利用する必要がある場合に使用します。 |
+| 単一のフィルター項目に絞り込む（デフォルトモード） | `PivotField.CurrentPageItem` | 特定のインデックスを設定 | 例えば、`1` はソート済みリストの 2 番目の項目を表示します。 |
+| すべての項目を表示する / フィルターをクリアする | `PivotField.CurrentPageItem` | `0x7FFD` に設定 | この特殊な値 `0x7FFD`（10 進数で 32765）は、「すべての項目」を表す番兵値です。 |
+| Excel で複数選択 UI を有効にする | `PivotField.IsMultipleItemSelectionAllowed` | `true` に設定 | `IsHidden` 呼び出しを機能させる前に必要です。 |
+| 複数選択一覧内の個別の項目を非表示にする / 表示する | `PivotItem.IsHidden` | 項目ごとに設定 | 少なくとも 1 つの項目を表示状態（`IsHidden == false`）に保つ必要があります。 |
 
 {{% alert color="primary" %}}
-複数選択フィルタリングを設定するときは、表示制約を常に覚えておいてください。複数選択フィルターフィールドのすべての `PivotItem` が非表示になっている場合、Excel は開くときにクラッシュするか、空のピボットをレンダリングします。少なくとも 1 つの項目が表示されたままになるようにソースデータに対してホワイトリストを構築すると、保存されたワークブックはすべてのマシンで確実に開きます。
+複数選択フィルターを設定する場合は、常に項目を 1 つ以上表示状態にするという制約を忘れないでください。複数選択用のフィルターフィールド内ですべての `PivotItem` が非表示になっていると、Excel はファイルを開いたときにクラッシュするか、空のピボットを描画します。ソースデータに基づいてホワイトリストを作成し、少なくとも 1 つの項目を表示状態にしてください。これにより、保存したワークブックをすべての環境で確実に開くことができます。
 {{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

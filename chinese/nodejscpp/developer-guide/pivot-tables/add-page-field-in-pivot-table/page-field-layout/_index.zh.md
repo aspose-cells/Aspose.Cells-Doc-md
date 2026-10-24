@@ -29,6 +29,9 @@ Microsoft Excel 中的数据透视表有一个专用的**页面字段区域**，
 在第一个场景中，我们将两个页面字段（`Year`、`Region`）配置为出现在数据透视表顶部的**单行并排**。我们将 `Fruit` 分配到行轴，先将 `Year` 放在页面轴上，再将 `Region` 放在第二位（`addFieldToArea` 调用的顺序决定了起始索引），将 `Amount`（Sum）作为数据字段，然后将 `pageFieldOrder` 设为 `PrintOrderType.OverThenDown`，并设置 `pageFieldWrapCount = 2`。使用 `OverThenDown` 和换行数为 2 时，两个页面字段在数据透视表顶部以单行水平并排布局，因此该条带占用宽度为 2 的一行。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
+const path = require("path");
 let dataDir = "output";
 if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
@@ -109,7 +112,7 @@ workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 在此示例中，我们将 `Fruit` 放在行轴上，将 `Year` 和 `Region` 放在页面轴上（`Year` 在前），并将 `Amount`（Sum）作为数据字段——与示例 1 完全相同。然后我们将 `pageFieldOrder` 设为 `PrintOrderType.DownThenOver`，并将 `pageFieldWrapCount` 设为 `2`。使用 `DownThenOver` 和换行数为 2 时，两个页面字段垂直堆叠——`Year` 在顶部，`Region` 直接在其下方，形成一个位于数据透视表顶部的单列。因此，与示例 1 相比，该条带占用宽度为 1 的两行。
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
@@ -136,10 +139,10 @@ for (let r = 0; r < data.length; r++) {
 }
 const idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
 const pivotTable = pivotReport.getPivotTables().get(idx);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 1);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Page, 2);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 3);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.DownThenOver);
 pivotTable.setPageFieldWrapCount(2);
 pivotTable.calculateData();
@@ -150,7 +153,7 @@ workbook.save("pageFieldLayout_downThenOver.xlsx");
 在第三个场景中，我们保留此数据集和字段分配，设置中性布局（`OverThenDown` 与换行数 `2`），然后演示 `pageFields.move` 操作。`move(0, 1)` 调用将索引 0 处的页面字段（`Year`）移动到位置 1，原来位于位置 1 的页面字段（`Region`）移至位置 0。调用后，`Region` 成为第一个页面字段，`Year` 成为第二个页面字段。换行和顺序模式不变，因此该条带仍以水平并排方式呈现——只是两个下拉框的顺序被交换了。
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const dataSheet = workbook.getWorksheets().get(0);
 dataSheet.setName("PivotData");

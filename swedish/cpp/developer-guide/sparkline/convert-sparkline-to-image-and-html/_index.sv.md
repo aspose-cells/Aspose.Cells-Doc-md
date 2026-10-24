@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Sparklines är miniatyrdiagram placerade i kalkylbladsceller. Aspose.Cells låter dig extrahera varje sparkline som en fristående bild (för inbäddning i en annan cell eller en extern rapport) och även exportera hela det sparkline-rika kalkylbladet till HTML för webbläsarbaserad distribution. Egenskapen `Cell.EmbeddedImage` som används i denna artikel är tillgänglig i **Aspose.Cells 26.5 och senare**.
+{{% /alert %}}
 
 ## **Introduktion**
 Sparklines är ett kompakt sätt att visualisera trender direkt i ett kalkylblad. Medan Excel-användare ser dem på plats, kräver många verkliga situationer att en sparkline lämnar cellen — till exempel för att bäddas in i en annan cell som en statisk bild, bifogas till ett automatiserat e-postmeddelande eller renderas som en del av en HTML-rapport som publiceras på webben.
@@ -82,6 +83,7 @@ Koden ovan producerar en arbetsbok där varje visuell representation av en spark
 
 {{% alert color="primary" %}}
 Eftersom varje sparkline-grupp är förankrad till en enda cell kan du adressera den via indexeraren `group.Sparklines[0]` istället för att enumerera med `foreach`. Detta håller renderingskoden kort och matchar det typiska mönstret "en sparkline per ankarcell". Att lagra bildbyten via `Cell.EmbeddedImage` kräver Aspose.Cells 26.5 eller senare.
+{{% /alert %}}
 
 ## **Arbetsflöde 2 — Exportera sparkline-kalkylbladet till HTML**
 När arbetsboken innehåller levande sparklines (och eventuellt inbäddade bildmotsvarigheter) kan hela kalkylbladet publiceras på webben genom att spara det som HTML. Klassen `HtmlSaveOptions` exponerar de reglage du behöver för att styra denna export; i detta arbetsflöde återanvänder du filen `output_with_sparklines.xlsx` som producerades av Arbetsflöde 1 och konverterar den till ett rent, ensidigt HTML-dokument.
@@ -110,6 +112,7 @@ Koden ovan tar den sparkline-rika arbetsboken från Arbetsflöde 1 och förvandl
 
 {{% alert color="primary" %}}
 Klassen `HtmlSaveOptions` erbjuder ytterligare egenskaper för finjustering av utdata, såsom `ExportHiddenWorksheet`, `ExportImagesAsBase64` och `Encoding`. Justera dessa efter behov för ditt driftsättningsmål.
+{{% /alert %}}
 
 ## **API-sammanfattning**
 Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er som arbetar tillsammans.
@@ -123,10 +126,5 @@ Arbetsflödena ovan förlitar sig på en liten uppsättning Aspose.Cells-API:er 
 - [Sparklines i Aspose.Cells for C++](/cells/sv/cpp/sparkline/)
 - [Infoga en bild i en cell](/cells/sv/cpp/inserting-an-image-into-a-cell/)
 - [SmartMarker-rendering av enskild cellmatris | Aspose.Cells for C++](/cells/sv/cpp/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

@@ -54,10 +54,9 @@ workbook.save(fileName);
 
 {{% alert color="primary" %}}
 Фильтр по дате работает только тогда, когда строковая или столбцовая область содержит исключительно ячейки с датой и временем либо пустые значения. Если базовое поле содержит данные других типов, например числа или текст, фильтр по дате не даст ожидаемого результата. Перед применением этого фильтра убедитесь, что поле отформатировано как дата и что все значения представляют собой корректные экземпляры `DateTime` либо пустые ячейки.
-{{% /alert %}}
-
 Aspose.Cells предоставляет фильтрацию по дате через метод `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. Перечисление `PivotFilterType` содержит специализированные значения для дат, такие как `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` и `Between`. В зависимости от выбранного типа фильтра передаётся одно или два значения `DateTime` (для `Between` передаются начальная и конечная даты).
 В следующем примере загружается рабочая книга со сводной таблицей, у которой строковая область содержит поле даты, применяется фильтр по дате, ограничивающий видимые элементы определённым диапазоном дат, после чего сводная таблица обновляется и рабочая книга сохраняется.
+{{% /alert %}}
 
 ```java
 import java.io.File;
@@ -123,10 +122,9 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 Фильтр первых 10 эффективен только тогда, когда в области данных сводной таблицы имеется хотя бы одно поле значений. Без хотя бы одного поля значений нет агрегированной меры, по которой можно ранжировать элементы, и фильтр не может быть применён.
-{{% /alert %}}
-
 Aspose.Cells предоставляет фильтрацию первых 10 через метод `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)`. Параметр `itemCount` определяет, сколько элементов нужно оставить, `isTop` указывает, сохранять ли верхние элементы (true) или нижние (false), `valueField` ссылается на поле данных, используемое для ранжирования, а `filterType` управляет способом вычисления значения (обычно `Sum`, а также `Count` и `Percent`).
 В следующем примере загружается рабочая книга со сводной таблицей, содержащей поле значений, применяется фильтр первых 10, оставляющий только 10 наибольших элементов по сумме продаж, после чего сводная таблица обновляется и рабочая книга сохраняется.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -153,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (топ N; false означало бы нижние N)
 //   - valueFieldIndex = индекс поля данных, используемого для ранжирования элементов
-rowField.filterTop10(10, PivotFilterType.SUM, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
 // Обновляем данные сводной таблицы и пересчитываем её, чтобы фильтр вступил в силу
 pivotTable.refreshData();
 // Сохраняем книгу
@@ -180,12 +178,12 @@ for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.getPivotItems().get(i);
     // Скрытие элементов сводной таблицы, соответствующих определённому имени/критерию
-    if (item.getName() == "Item1" || item.getName() == "Item2")
+    if (item.getName().equals("Item1") || item.getName().equals("Item2"))
     {
         item.setHidden(true);
     }
     // Демонстрация отображения: повторное отображение ранее скрытого элемента сводной таблицы
-    if (item.getName() == "Item3")
+    if (item.getName().equals("Item3"))
     {
         item.setHidden(false);
     }

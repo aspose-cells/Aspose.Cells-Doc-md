@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells stöder att dela en enskild Excel-fil i flera filer. Det finns två primära sätt att göra detta: (1) genom att kopiera varje kalkylblad i källarbetsboken till en ny arbetsbok och spara varje som en separat fil, och (2) genom att kopiera ett specifikt cellintervall från ett kalkylblad till en ny arbetsbok. Båda metoderna är användbara när du behöver distribuera delmängder av data, skapa mindre rapporter för olika mottagare, eller isolera data för individuell bearbetning.
+{{% /alert %}}
 
 ## **Introduktion**
 Det finns många verkliga scenarier där en utvecklare behöver bryta en enskild Excel-fil i flera mindre filer. Till exempel kan en arbetsbok innehålla ett kalkylblad per avdelning, och varje avdelningschef behöver bara få sitt eget blad. I andra fall kanske du vill extrahera en viss tabell eller datablock från ett kalkylblad och skicka den som en fristående fil via e-post, utan att exponera resten av arbetsboken. Stora konsoliderade arbetsböcker kan också behöva delas upp i mindre bitar för enklare hantering, snabbare laddning, eller vidare bearbetning av andra system.
@@ -53,7 +54,7 @@ for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
     destSheet.copy(sourceSheet);
     
     const destFile = dataDir + sheetName + ".xls";
-    destWorkbook.save(destFile, AsposeCells.SaveFormat.Excel97To2003);
+    destWorkbook.save(destFile, AsposeCells.SaveFormat.EXCEL_97_TO_2003);
 }
 ```
 
@@ -77,6 +78,5 @@ Följande steg beskriver hur man delar en Excel-fil genom att kopiera ett specif
 
 ### **Kodexempel**
 Förväntad utdata är en enda ny fil i datakatalogen som endast innehåller värdena (och eventuellt formateringen) för det angivna intervallet extraherat från källarbetsboken. Destinationsfilen har ingen relation till någon annan data i källfilen; den innehåller bara det extraherade intervallet, med början vid cell `A1` i dess första kalkylblad.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

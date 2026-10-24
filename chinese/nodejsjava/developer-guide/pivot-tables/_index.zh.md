@@ -28,6 +28,7 @@ Aspose.Cells 提供了一组用于创建和控制数据透视表的类。其构�
 执行示例代码后,数据透视表将添加到工作表中。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var dataDir = "./";
 
 // Instantiating a Workbook object
@@ -103,13 +104,13 @@ var pivotTable = pivotTables.get(index);
 pivotTable.setRowGrand(false);
 
 // Draging the first field to the row area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
 
 // Draging the second field to the column area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, 1);
 
 // Draging the third field to the data area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 2);
 
 // Saving the Excel file
 workbook.save(dataDir + "pivotTable_test_out.xls");
@@ -119,11 +120,11 @@ workbook.save(dataDir + "pivotTable_test_out.xls");
 将单元格范围指定为数据源时,范围必须从左上到右下。例如,"A1:C3" 是有效的,但 "C3:A1" 无效。
 {{% /alert %}}
 
-## Related Articles
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Node.js via Java](/cells/zh/nodejs-java/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Node.js via Java](/cells/zh/nodejs-java/apply-style-to-pivot-table/)
+## 相关文章
+- [在 Aspose.Cells for Node.js via Java 中向数据透视表添加筛选字段](/cells/zh/nodejs-java/add-page-field-in-pivot-table/)
+- [在 Aspose.Cells for Node.js via Java 中为数据透视表应用样式](/cells/zh/nodejs-java/apply-style-to-pivot-table/)
 - [Modify Page Field Layout in Pivot Table](/cells/zh/nodejs-java/change-page-field-layout/)
 - [Filtering Pivot Tables by Label or Value](/cells/zh/nodejs-java/filter-by-label-or-value-of-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Node.js via Java](/cells/zh/nodejs-java/manage-value-fields/)
+- [Aspose.Cells for Node.js via Java 中的值字段](/cells/zh/nodejs-java/manage-value-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

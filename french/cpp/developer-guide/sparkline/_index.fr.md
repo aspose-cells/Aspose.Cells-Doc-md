@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge la création de sparklines à l'intérieur des cellules de la feuille de calcul. Les sparklines sont des mini-graphiques qui tiennent dans une seule cellule, fournissant une représentation visuelle rapide des tendances des données. Aspose.Cells prend en charge les sparklines de type ligne, colonne et gain/perte, et chacune peut être personnalisée en termes de couleur, d'épaisseur de ligne, de points hauts/bas et de marqueurs.
+{{% /alert %}}
 
 ## **Introduction**
 Les sparklines sont de petits graphiques in-cell qui s'avèrent utiles lorsque vous souhaitez afficher une tendance rapide à côté d'une ligne ou d'une colonne de données sans occuper l'espace d'un graphique complet. Excel prend en charge trois types de sparklines : **ligne**, **colonne** et **gain/perte**. Aspose.Cells reproduit cette fonctionnalité via les API `SparklineGroup` et `SparklineGroupCollection` que l'on trouve dans le namespace `Aspose.Cells.Charts`.
@@ -248,6 +249,5 @@ Une fois qu'un `SparklineGroup` a été créé et ajouté à `worksheet.Sparklin
 - **Marqueurs des points hauts/bas** — des indicateurs qui activent de petits marqueurs sur les points de données les plus élevés et les plus bas, utiles pour mettre en évidence les extrêmes.
 - **Marqueurs des points premier/dernier/négatif** — des indicateurs qui basculent les marqueurs sur les points de données premier, dernier et négatifs.
 Pour modifier une couleur, créez toujours une instance de `CellsColor` et attribuez-la à la propriété concernée. N'attribuez pas directement une valeur de couleur brute aux propriétés de couleur des sparklines — elles attendent le type `CellsColor` de `Aspose.Cells.Drawing`. La méthode `SparklineGroups.Add` retourne elle-même un objet `SparklineGroup` pleinement typé, ce qui vous permet d'enchaîner les affectations de propriétés sur la valeur de retour ou de la stocker dans une variable locale et de la personnaliser avant l'enregistrement.
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

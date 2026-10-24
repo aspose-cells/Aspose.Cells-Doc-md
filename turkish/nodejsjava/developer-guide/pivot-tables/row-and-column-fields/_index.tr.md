@@ -1,8 +1,8 @@
 ---
-title: Aspose.Cells for Node.js via Java'te PivotTable'a satır ve sütun alanları ekleme
-description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Node.js via Java
-linktitle: Satır ve Sütun Alanları
-keywords: Aspose.Cells, Node.js, Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
+title: Aspose.Cells for Node.js via Java ile Özet Tablosuna Satır ve Sütun Alanları Ekleme
+linktitle: Aspose.Cells for Node.js via Java ile Özet Tablosuna Satır ve Sütun Alanları Ekleme
+description: Aspose.Cells for Node.js via Java kullanarak bir özet tablonun satır ve sütun bölgelerine temel alanlar eklemeyi ve özet tablo alanlarının alt toplamlarını PivotField.setSubtotals ile kontrol etmeyi öğrenin
+keywords: Aspose.Cells, Node.js, Java, özet tablo, satır alanı, sütun alanı, PivotField, setSubtotals, PivotFieldSubtotalType, alt toplamlar
 type: docs
 weight: 220
 url: /tr/nodejs-java/pivot-table-add-row-and-column-fields/
@@ -11,19 +11,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Satır veya Sütun Bölgesine Alan Ekleme**
-`PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` yöntemi, kaynak verideki bir temel alanı dört pivot bölgesinden birine taşır. `fieldType` bağımsız değişkeni aşağıdaki `PivotFieldType` değerlerinden birini kabul eder.
-- `ROW` — solda dikey olarak yerleştirilen alanlar
-- `COLUMN` — üstte yatay olarak yerleştirilen alanlar
+`PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` yöntemi, kaynak verilerdeki bir temel alanı dört özet tablo bölgesinden birine taşır. `fieldType` argümanı aşağıdaki `PivotFieldType` değerlerinden birini kabul eder.
+- `ROW` — sol tarafta dikey olarak yerleştirilen alanlar
+- `COLUMN` — üst kısımda yatay olarak yerleştirilen alanlar
 - `DATA` — değerleri toplanan alanlar
 - `PAGE` — rapor filtreleri olarak kullanılan alanlar
-Alanlar eklendikten sonra, `PivotTable.getRowFields()` ve `PivotTable.getColumnFields()` özellikleri aracılığıyla bunlara erişebilirsiniz. Her özellik bir `PivotFieldCollection` döndürür. `RowFields`'in 0 indeksindeki alan en dıştaki satır alanıdır ve sonraki indeksler onun içine yerleştirilmiş alanları temsil eder. Aynı indeksleme kuralı `ColumnFields` için de geçerlidir.
-Alan iç içe geçme sırası önemlidir. Önce `Category` alanını satır bölgesine, ardından `Item` alanını eklemek, dış gruplaması `Category` ve iç gruplaması `Item` olan bir pivot tablosu üretir. Sırayı tersine çevirmek hiyerarşiyi tersine çevirir.
+Alanların iç içe yerleştirilme sırası önemlidir. Satır bölgesine önce `Category`, ardından `Item` eklediğinizde, dış gruplaması `Category` ve iç gruplaması `Item` olan bir özet tablo oluşur. Sırayı tersine çevirmek hiyerarşiyi de tersine çevirir.
 
-## **Pivot Alan Alt Toplamları**
-`PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, boolean shown)` yöntemi, bir pivot alanı için hangi alt toplam satırlarının görüneceğini kontrol eder. Her çağrı tek bir alt toplam türünü bağımsız olarak değiştirir. `shown = true` değerini geçmek alt toplamı görüntüler, `shown = false` ise gizler. Her çağrı yalnızca bir türü etkilediğinden, yöntemi farklı `subtotalType` değerleriyle birden çok kez çağırmak özel bir alt toplam alt kümesi oluşturur.
+## **Özet Tablo Alanı Alt Toplamları**
+`PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, boolean shown)` yöntemi, bir özet tablo alanı için hangi alt toplam satırlarının görüntüleneceğini kontrol eder. Her çağrı tek bir alt toplam türünü bağımsız olarak açar veya kapatır. `shown = true` değeri belirtildiğinde alt toplam görüntülenir; `shown = false` değerinde ise gizlenir. Her çağrı yalnızca bir türü etkilediğinden, yöntemi farklı `subtotalType` değerleriyle birden fazla kez çağırmak özel bir alt toplam alt kümesi oluşturur.
 `PivotFieldSubtotalType` numaralandırması, kullanılabilir alt toplam türlerini tanımlar.
-- `AUTOMATIC` — Aspose.Cells varsayılan seçimi seçer (genellikle sayısal alanlar için `SUM`)
-- `NONE` — her alt toplam satırını gizle
+- `AUTOMATIC` — Aspose.Cells varsayılan seçimi uygular (sayısal alanlar için genellikle `SUM`)
+- `NONE` — tüm alt toplam satırlarını gizler
 - `SUM`
 - `COUNT`
 - `AVERAGE`
@@ -36,13 +35,14 @@ Alan iç içe geçme sırası önemlidir. Önce `Category` alanını satır böl
 - `VARP`
 
 {{% alert color="primary" %}}
-Alt toplamlar yalnızca satır bölgesinde (veya sütun bölgesinde) iki veya daha fazla pivot alanı olduğunda görüntülenir. Tek bir alanın arasında alt toplanacak anlamlı bir şey yoktur, dolayısıyla bu durumda `setSubtotals` çağrılarının görünür bir etkisi olmaz. Bu nedenle bu makale, her örnekte iki satır alanı (`Category` dış, `Item` iç) yerleştirir; böylece her `Category` grubu arasındaki alt toplam sınırı görünür hale gelir.
+Alt toplamlar yalnızca satır bölgesinde (veya sütun bölgesinde) iki veya daha fazla özet tablo alanı bulunduğunda görüntülenir. Tek bir alan olduğunda alt toplam oluşturulabilecek anlamlı bir hiyerarşik ayrım bulunmaz. Bu nedenle `setSubtotals` çağrılarının bu durumda görünür bir etkisi olmaz. Bu makale, her örnekte iki satır alanı (`Category` dış, `Item` iç) yerleştirerek her `Category` grubunu ayıran alt toplam sınırının görünmesini sağlar.
 {{% /alert %}}
 
 ## **Senaryo 1 — Otomatik (Varsayılan) Alt Toplamlar**
-`setSubtotals` yöntemini hiç çağırmadığınızda, Aspose.Cells sayısal alanlar için `AUTOMATIC` seçimini uygular. Aşağıdaki örnek, dış `Category` satır alanında `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` çağırarak bu davranışı açıkça doğrular.
+`setSubtotals` yöntemini hiç çağırmadığınızda Aspose.Cells, sayısal alanlar için `AUTOMATIC` seçimini uygular. Aşağıdaki örnek, dış `Category` satır alanında `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` çağırarak bu davranışı açıkça doğrular.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -84,20 +84,21 @@ worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.AUTOMATIC, true);
 pivotTable.calculateData();
 workbook.save("output_automatic.xlsx");
 ```
 
-## **Senaryo 2 — Tüm Alt Toplamların Gizlenmesi (Yok)**
-`setSubtotals(PivotFieldSubtotalType.NONE, true)` çağrısı, pivot tablodan her alt toplam satırını kaldırarak yalnızca alan satırlarını ve alttaki genel toplamı bırakır. Bu, özet satırları olmadan ham gruplanmış verileri istediğinizde kullanışlıdır.
+## **Senaryo 2 — Tüm Alt Toplamları Bastırma (Yok)**
+`setSubtotals(PivotFieldSubtotalType.NONE, true)` çağrısı, özet tablosundaki tüm alt toplam satırlarını kaldırarak yalnızca alan satırlarını ve en alttaki genel toplamı bırakır. Özet satırları olmadan yalnızca gruplandırılmış ham verileri görüntülemek istediğinizde bu yöntem yararlıdır.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -125,20 +126,21 @@ for (let i = 0; i < data.length; i++)
 }
 let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.NONE, true);
 pivotTable.calculateData();
 workbook.save("output_none.xlsx");
 ```
 
 ## **Senaryo 3 — Özel Alt Toplam Alt Kümesi (Toplam + Ortalama)**
-Tek bir alt toplam türüyle sınırlı değilsiniz. Her `setSubtotals` çağrısı tek bir tür üzerinde bağımsız olarak çalışır; dolayısıyla yöntemi iki kez çağırmak — bir kez `SUM` ile, bir kez `AVERAGE` ile — her `Category` grubu için iki alt toplam satırından oluşan özel bir alt küme üretir.
+Tek bir alt toplam türüyle sınırlı değilsiniz. Her `setSubtotals` çağrısı yalnızca bir tür üzerinde bağımsız olarak etki gösterir. Bu nedenle yöntemi iki kez — sırasıyla `SUM` ve `AVERAGE` türleriyle — çağırdığınızda her `Category` grubu için iki alt toplam satırından oluşan özel bir alt küme elde edersiniz.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -181,18 +183,31 @@ worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
 let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
 let pivotTable = pivotTables.get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.SUM, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.AVERAGE, true);
 pivotTable.calculateData();
 workbook.save("output_custom.xlsx");
 ```
 
 ## **Özet**
-Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `setSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek bir alanın arasında alt toplanacak bir şey yoktur; bu nedenle `setSubtotals`'ın görünür bir etkiye sahip olmasını istediğinizde, satır veya sütun bölgesine her zaman en az iki alan yerleştirin.
+
+Ü senaryo, tek bir noktada farklılık gösterir: `setSubtotals` çağrıları. Diğer tüm unsurlar — veri kümesi, alanlar ve bunların atan olduğu bölgeler — aynıdır, bu da düzenlerin doğrudan karşılaştırılabilir olmasını sağlar.
+- **Alanların yerleştirilmesi.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, fieldName)` kaynağındaki bir sütunu bir bölgeye Taşır. Bir bölgede içinde, çağrıların sırası gösterim sırasını belirler, böylece ilk çağrı en dıştaki grubu oluşturur. Subtotal’lar, aynı bölgede iki veya daha fazla alanı gerektirir: tek bir alanla, gruplar arasında subtotal alınacak hiçbir şey bulunmaz.
+- **Senaryo 1 — otomatik subtotal’lar.** `setSubtotals` çağrısının yapılmaması, seçeneği Excel’e bırakır, Excel bu durumda sayısal alanlara kendi varsayılan subtotal’ını uygular. `AsposeCells.PivotFieldSubtotalType.AUTOMATIC` ile `setSubtotals`’ın çağrılması, bu seçimi açıkça kaydeder; dolayısıyla seçimi örtük bırakmaz.
+- **Senaryo 2 — subtotal yok.** `AsposeCells.PivotFieldSubtotalType.NONE` ile `setSubtotals`'ın çağrılması, varsayılan subtotal’ı kapatır; bu da pivot’un alanı satırlarını ve toplamı tuttururken, Excel’inkinin aksine araya ekleyeceği subtotal satırlarını düşürmesine neden olur.
+- **Senaryo 3 — seçilmiş bir alt küme.** Her çağrı, tam olarak bir subtotal türünü değiştirir ve çağrılar birbirlerini sıfırlamak yerine birikir. Bu nedenle bir kez `AsposeCells.PivotFieldSubtotalType.SUM` ve bir kez `AsposeCells.PivotFieldSubtotalType.AVERAGE` ile çağrılması, her ikisinin de etkin kalmasına neden olur ve pivot, bir Toplam subtotal, bir Ortalama subtotal ve bir toplam rendered eder.
+
+{{% alert color="primary" %}}
+Subtotal’larla ilgili hiçbir şey, satır bölgesine özgü değildir. `PivotTable.ColumnFields`’tan alınan bir alanda aynı `setSubtotals` çağrıları, ayarların pivot alanı ait olduğu ve üzerinde durduğu eksenin değil, sütun ekseninde aynı üç düzeni üretir.
+{{% /alert %}}
+## **İlgili Makaleler**
+- [Özet Tablolarında Sayfa Alanları](/cells/tr/nodejs-java/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Node.js via Java Kullanılarak Özet Tablolarını Yenileme](/cells/tr/nodejs-java/refresh-pivot-table/)
+- [Özet Tablolarına Stil Uygulama](/cells/tr/nodejs-java/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

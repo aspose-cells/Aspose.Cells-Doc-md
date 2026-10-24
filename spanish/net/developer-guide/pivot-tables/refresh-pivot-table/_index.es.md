@@ -24,11 +24,10 @@ La cadena de datos de cuatro capas es:
 
 {{% alert color="primary" %}}
 `PivotCache.SourceType` (enumeración `PivotTableSourceType`) indica de dónde provienen los datos de la caché. A partir de la versión 26.7, `PivotCache.Refresh()` solo admite los tipos de origen **`Sheet`** y **`Consolidation`**, es decir, datos que residen en rangos de hojas de cálculo. Los orígenes externos (bases de datos, conexiones externas, etc.) aún no se pueden actualizar mediante la API de caché.
-{{% /alert %}}
-
 Debido a esta cadena, existen dos rutas fundamentales de actualización en Aspose.Cells:
 - **`PivotTable.CalculateData()`** — recalcula la visualización de una `PivotTable` a partir de los datos ya almacenados en caché, sin realizar un viaje de ida y vuelta al origen de datos.
 Todos los escenarios de este artículo usan datos de origen de celdas de la hoja de cálculo, por lo que el tipo de origen es `Sheet` y las operaciones de actualización se comportan como se describe.
+{{% /alert %}}
 
 ## Inicio Rápido
 Si solo necesita el código más breve posible que actualice cada tabla dinámica del libro, basta con una sola llamada:

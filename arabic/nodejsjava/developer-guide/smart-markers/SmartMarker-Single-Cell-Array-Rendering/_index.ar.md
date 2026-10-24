@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 يدعم Aspose.Cells عرض بيانات المصفوفة في خلية واحدة عبر علامات Smart. من خلال استخدام سمة `ArrayAsSingle` مع سمة `ExtraDelimiter`، يمكن للمطورين التحكم في كيفية فصل عناصر المصفوفة داخل خلية واحدة، مما يوفر تنسيقًا مرنًا للتقارير والقوالب.
+{{% /alert %}}
 
 ## **المقدمة**
 تعد علامات Smart في Aspose.Cells ميزة قوية قائمة على القوالب تتيح لك تعبئة بيانات جدول البيانات ديناميكيًا باستخدام تعبيرات العلامات مثل `&=DataSource.Field`. يتم وضع العلامة في مصنف المصمم، وعندما تتم معالجة القالب بواسطة `WorkbookDesigner`، يتم استبدال العلامات بقيم من مصدر البيانات المقدم.
@@ -59,6 +60,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 تقبل سمة `extraDelimiter` أي سلسلة حرفية، بما في ذلك الفواصل متعددة الأحرف أو النص المخصص أو تسلسلات الهروب مثل `\n` للإخراج المفصول بسطر جديد. إذا كانت المصفوفة فارغة، فستترك الخلية الناتجة فارغة.
+{{% /alert %}}
 
 ### **سير العمل خطوة بخطوة**
 يصف سير العمل التالي كيفية عرض مصفوفة في خلية واحدة باستخدام علامات Smart.
@@ -71,6 +73,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ### **مثال الكود 1 — عرض مصفوفة سلسلة أساسية**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Product {
     constructor() {
         this.Tags = null;
@@ -92,6 +95,7 @@ workbook.save("output_arraySingle.xlsx");
 ### **مثال الكود 2 — مصفوفة رقمية بفاصل مخصص**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Student {
     constructor() {
         this.Scores = [];
@@ -141,8 +145,5 @@ main();
 - تعمل الميزة مع مصادر بيانات الكائنات بالإضافة إلى مصادر `DataSet` و `DataTable` حيث يمكن تقسيم عمود إلى مصفوفات.
 - للإخراج المفصول بسطر جديد، يمكنك استخدام `\n` كقيمة الفاصل.
 - ضع علامة Smart في خلية ذات عرض كافٍ لعرض السلسلة المتسلسلة الناتجة؛ وإلا، فقد يفيض المحتوى بصريًا إلى الخلايا المجاورة اعتمادًا على التنسيق.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

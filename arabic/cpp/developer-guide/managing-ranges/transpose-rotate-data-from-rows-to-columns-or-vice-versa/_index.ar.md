@@ -156,4 +156,4 @@ int main() {
 - [إدراج صورة في خلية](/cells/ar/cpp/inserting-an-image-into-a-cell/)
 - [تقسيم ملفات Excel إلى ملفات متعددة](/cells/ar/cpp/splitting-excel-files-into-multiple-files/)
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

@@ -28,6 +28,7 @@ Aspose.Cells provides a set of classes that are used to create and control pivot
 After executing the example code, a pivot table is added to the worksheet.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var dataDir = "./";
 // Instantiating a Workbook object
 var workbook = new AsposeCells.Workbook();
@@ -91,11 +92,11 @@ var pivotTable = pivotTables.get(index);
 // Unshowing grand totals for rows.
 pivotTable.setRowGrand(false);
 // Draging the first field to the row area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
 // Draging the second field to the column area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, 1);
 // Draging the third field to the data area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 2);
 // Saving the Excel file
 workbook.save(dataDir + "pivotTable_test_out.xls");
 ```

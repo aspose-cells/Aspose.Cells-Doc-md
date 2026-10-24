@@ -26,6 +26,7 @@ Bir pivot alanını filtre alanına kaydetmenin iki yolu vardır. Üst düzey ç
 Aşağıdaki örnek, küçük bir Meyve / Yıl / Tutar veri kümesi oluşturur, E3 hücresinde `Fruit` satır alanında, `Amount` veri alanında ve `Year` filtre alanında bir pivot tablo yerleştirir, pivotu yeniler ve çalışma kitabını kaydeder.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -55,9 +56,9 @@ for (var i = 0; i < data.length; i++)
 var pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 var pivotTable = worksheet.getPivotTables().get(pivotIndex);
 // Alanları bölgelerine ekle: Meyve Satır olarak, Miktar Veri olarak, Yıl Sayfa alanı olarak
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // Pivot tablo verilerini yenile ve hesapla
 pivotTable.calculateData();
 // Çalışma kitabını kaydet
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 Zaten bir `PivotField` örneğiyle çalışıyorsanız, onu doğrudan `pivotTable.getPageFields().add` yöntemine geçirebilirsiniz. Pivot tablo ve filtre alanı, önceki senaryodaki ile tam olarak aynı şekilde oluşturulur; yalnızca son filtre alanı kaydı, daha düşük seviyeli API çağrısıyla değiştirilir.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Başlıklar
@@ -85,11 +87,11 @@ sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").put
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
 // E3 konumunda, A1:C10 aralığını kapsayan pivot tablo ekle
-let pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1");
+let pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 let pivotTable = sheet.getPivotTables().get(pivotIndex);
 // Fruit -> Satır, Amount -> Veri (Year aşağıda Sayfa alanına gidecek)
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 // Düşük seviye yaklaşım: BaseFields'tan mevcut Year PivotField'ını al
 // ve PageFields.Add(PivotField) aracılığıyla Sayfa alanına kaydet.
 let yearField = pivotTable.getBaseFields().get("Year");
@@ -106,6 +108,7 @@ Varsayılan tek seçim davranışında, filtre alanı tek bir açılır menü ol
 `CurrentPageItem` öğesini sihirli değer olan `0x7FFD` olarak ayarlamak, filtreni temizlemeye eşdeğerdir; pivot gövdesi, hiçbir filtre uygulanmamış gibi her sayfa öğesini özetler.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 // Fruit/Yıl/Miktar verilerini doldur
@@ -130,9 +133,9 @@ var pivotTables = sheet.getPivotTables();
 var index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(index);
 // Pivot alanlarını yapılandır: Fruit→Satır, Amount→Veri, Year→Sayfa
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 pivotTable.calculateData();
 // Sayfa filtresini temizle, böylece sayfa alanındaki her öğe görünür olsun.
 // 0x7FFD (ondalık 32765) "tüm öğeler" anlamına gelen özel bekçi değeridir —
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 `CurrentPageItem` öğesini gerçek bir dizine ayarlamak yalnızca o sayfa öğesini seçer. Dizin, filtre alanının sıralanmış öğe listesindeki konumdur; dolayısıyla örneğin `1` sıralamadan sonra ikinci öğeyi seçer.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -169,9 +173,9 @@ var pivotTables = sheet.getPivotTables();
 var pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(pivotIndex);
 // Alanları ekle: Meyve→Satır, Miktar→Veri, Yıl→Sayfa
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // Sayfa alanına özel işlemler
 pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = sıralanmış listedeki ikinci öğe (örn. "2021")
 // Pivot tabloyu yenile ve hesapla
@@ -214,11 +218,11 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotSheet = workbook.getWorksheets().add("Pivot");
 const pivots = pivotSheet.getPivotTables();
-const pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1");
+const pivotIndex = pivots.add("A1:C10", "E3", "PivotTable1");
 const pivotTable = pivots.get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.ROW, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.DATA, "Amount");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // — Sayfa alanında çoklu seçimi etkinleştir
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
 // Bölüm A — TÜM öğeleri seç (her öğeyi görünür yap)

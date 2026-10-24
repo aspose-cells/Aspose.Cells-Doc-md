@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 スパークラインはワークシートのセル内に配置されるミニチュアグラフです。Aspose.Cells では、各スパークラインをスタンドアロン画像として抽出（別のセルや外部レポートへの埋め込み用）したり、スパークラインを含むワークシート全体をブラウザでの配信用 HTML にエクスポートしたりすることができます。本記事で使用する `Cell.EmbeddedImage` プロパティは **Aspose.Cells 26.5 以降** で利用可能です。
+{{% /alert %}}
 
 ## **はじめに**
 スパークラインはワークシート内で直接トレンドを視覚化するコンパクトな方法です。Excel ユーザーはセル内でそれを閲覧しますが、多くの実際のシナリオではスパークラインをセルから取り出す必要があります。例えば、別のセルに静的な画像として埋め込む、自動化されたメールに添付する、Web に公開された HTML レポートの一部としてレンダリングするといったケースです。
@@ -44,13 +45,13 @@ worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // F1（列5、行0）にアンカーされた折れ線スパークライングループを追加します
-CellArea lineArea = CellArea.createCellArea(5, 0, 5, 0);
+CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5);
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
 // G1（列6、行0）にアンカーされた縦棒スパークライングループを追加します
-CellArea columnArea = CellArea.createCellArea(6, 0, 6, 0);
+CellArea columnArea = CellArea.createCellArea(0, 6, 0, 6);
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
 // H1（列7、行0）にアンカーされたWin/Loss（積み上げ）スパークライングループを追加します
-CellArea stackedArea = CellArea.createCellArea(7, 0, 7, 0);
+CellArea stackedArea = CellArea.createCellArea(0, 7, 0, 7);
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
 // PNG出力用の画像オプションを設定します
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
@@ -78,6 +79,7 @@ workbook.save("output_with_sparklines.xlsx");
 
 {{% alert color="primary" %}}
 各スパークライングループは単一セルにアンカーされているため、`for` ループで列挙する代わりにインデクサ `group.getSparklines().get(0)` を通じてアクセスできます。これによりレンダリングコードを簡潔に保ち、一般的な「アンカーセルごとに 1 つのスパークライン」パターンと一致します。`Cell.EmbeddedImage`（`setEmbeddedImage` を通じて設定）による画像のバイト列の保存には Aspose.Cells 26.5 以降が必要です。
+{{% /alert %}}
 
 ## **ワークフロー 2 — スパークラインのワークシートを HTML にエクスポートする**
 ワークブックにライブスパークライン（およびオプションで埋め込み画像の対応物）が含まれている場合、ワークシート全体を HTML として保存することで Web に公開できます。`HtmlSaveOptions` クラスは、このエクスポートを制御するために必要な設定を公開しています。このワークフローでは、ワークフロー 1 で生成された `output_with_sparklines.xlsx` ファイルを再利用し、それをクリーンな単一ページの HTML ドキュメントに変換します。
@@ -100,6 +102,7 @@ workbook.save("sparklines.html", htmlOptions);
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` クラスには、出力を微調整するための追加プロパティがあります。例えば `ExportHiddenWorksheet`、`ExportImagesAsBase64`、`Encoding` などです。デプロイメントターゲットに応じてこれらを調整してください。
+{{% /alert %}}
 
 ## **API の概要**
 上記のワークフローは、連携して動作する少数の Aspose.Cells API に依存しています。
@@ -108,10 +111,5 @@ workbook.save("sparklines.html", htmlOptions);
 - `Sparkline.toImage(Stream, ImageOrPrintOptions)` は、スパークラインの画像を提供された `Stream` に書き込むレンダリングメソッドです。このメソッドは `void` を返します。呼び出し後にストリームからバイト列を読み取ります。
 - `HtmlSaveOptions.setExportActiveWorksheetOnly(boolean)` は、HTML エクスポートをアクティブなワークシートのみに制限します。これは、単一ページレポートを生成する際に `HtmlSaveOptions` で最も一般的に使用されるプロパティの 1 つです。
 - `ImageOrPrintOptions.setImageType(ImageType)` は `com.aspose.cells.drawing` パッケージにあり、`toImage` でのレンダリングおよびワークシートを画像に印刷する際に使用される画像フォーマット（例えば `ImageType.PNG`）を選択します。`java
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

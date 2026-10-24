@@ -2,7 +2,7 @@
 title: Agregar campos de filtro a una tabla dinámica en Aspose.Cells para .NET
 description: Aprenda a añadir y configurar campos de filtro en tablas dinámicas usando Aspose.Cells for Python via Java, incluyendo añadir campos de filtro, filtrado de selección única y filtrado de selección múltiple.
 linktitle: Agregar campos de filtro
-keywords: Aspose.Cells, Python, Java, tabla dinámica, campo de filtro, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
+keywords: Aspose.Cells, Python, Java, tabla dinámica, campo de filtro, PivotFieldType.PAGE, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtro
 type: docs
 weight: 250
 url: /es/python-java/add-page-field-in-pivot-table/
@@ -29,7 +29,6 @@ El siguiente ejemplo construye un pequeño conjunto de datos de Fruta / Año / C
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFieldType
 # Crear un nuevo libro de trabajo
 workbook = Workbook()
@@ -59,9 +58,9 @@ for i in range(len(data)):
 pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1")
 pivotTable = worksheet.getPivotTables().get(pivotIndex)
 # Agregar campos a sus áreas: Fruta como Fila, Cantidad como Dato, Año como campo de Página
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
-pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 # Actualizar y calcular los datos de la tabla dinámica
 pivotTable.calculateData()
 # Guardar el libro de trabajo
@@ -76,7 +75,6 @@ Cuando ya trabaja con una instancia de `PivotField`, puede pasarla directamente 
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotFieldType
 # — La tabla dinámica y el campo de página se construyen exactamente como en
 #   el Escenario 1a (datos de Fruta/Año/Cantidad, pivote en E3, Fruta→Fila,
@@ -104,8 +102,8 @@ sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").pu
 pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1")
 pivotTable = sheet.getPivotTables().get(pivotIndex)
 # Fruta -> Fila, Cantidad -> Datos (Año irá a la Página abajo)
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 # Enfoque de bajo nivel: tomar el PivotField de Año existente de BaseFields
 # y registrarlo en el área de Página mediante PageFields.Add(PivotField).
 yearField = pivotTable.getBaseFields().get("Year")
@@ -126,7 +124,6 @@ Establecer `current_page_item` al valor mágico `0x7FFD` equivale a limpiar el f
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 # Crear un nuevo libro de trabajo
 workbook = Workbook()
@@ -170,7 +167,6 @@ Establecer `current_page_item` a un índice real elige solo ese elemento de pág
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 # Create workbook
 workbook = Workbook()
@@ -197,9 +193,9 @@ pivotTables = sheet.getPivotTables()
 pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1")
 pivotTable = pivotTables.get(pivotIndex)
 # Add fields: Fruit→Row, Amount→Data, Year→Page
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
-pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 # Page-field-specific operations
 pivotTable.getPageFields().get(0).setCurrentPageItem(1) # 1 = second item in sorted order (e.g. "2021")
 # Refresh and calculate pivot table
@@ -216,7 +212,6 @@ El código siguiente habilita la selección múltiple en el mismo campo de filtr
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 import os
 import re
@@ -250,9 +245,9 @@ pivotSheet = workbook.getWorksheets().add("Pivot")
 pivots = pivotSheet.getPivotTables()
 pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1")
 pivotTable = pivots.get(pivotIndex)
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
-pivotTable.addFieldToArea(PivotFieldType.Page, "Year")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 # — Habilitar selección múltiple en el campo de página
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(True)
 # Parte A — seleccionar TODOS los elementos (hacer visible cada elemento)

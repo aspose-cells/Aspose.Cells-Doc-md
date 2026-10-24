@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 迷你图是放置在工作表单元格中的微型图表。Aspose.Cells 允许您将每个迷你图提取为独立的图片（以便嵌入到另一个单元格或外部报告中），还可以将整个包含迷你图的工作表导出为 HTML，以便在浏览器中分发。本文中使用的 `Cell.embedded_image` 属性在 **Aspose.Cells 26.5 及更高版本**中可用。
+{{% /alert %}}
 
 ## **简介**
 迷你图是一种在工作表内直接可视化趋势的紧凑方式。虽然 Excel 用户可以在原位查看它们，但在许多实际场景中，需要将迷你图从单元格中"取出"——例如，作为静态图片嵌入到不同的单元格中、附加到自动发送的电子邮件中，或者作为发布到 Web 的 HTML 报告的一部分进行渲染。
@@ -36,7 +37,6 @@ Aspose.Cells 支持这两种操作。`Sparkline.to_image` 方法可将单个迷�
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
@@ -51,28 +51,28 @@ worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
 # 添加锚定在 F1（第 5 列，第 0 行）的折线迷你图组
 lineArea = CellArea()
-lineArea.setStartColumn(5)
-lineArea.setEndColumn(5)
-lineArea.setStartRow(0)
-lineArea.setEndRow(0)
-lineIdx = worksheet.getSparklineGroups().add(SparklineType.Line, "A1:E1", False, lineArea)
+lineArea.StartColumn = 5
+lineArea.EndColumn = 5
+lineArea.StartRow = 0
+lineArea.EndRow = 0
+lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
 # 添加锚定在 G1（第 6 列，第 0 行）的柱形迷你图组
 columnArea = CellArea()
-columnArea.setStartColumn(6)
-columnArea.setEndColumn(6)
-columnArea.setStartRow(0)
-columnArea.setEndRow(0)
-columnIdx = worksheet.getSparklineGroups().add(SparklineType.Column, "A1:E1", False, columnArea)
+columnArea.StartColumn = 6
+columnArea.EndColumn = 6
+columnArea.StartRow = 0
+columnArea.EndRow = 0
+columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
 # 添加锚定在 H1（第 7 列，第 0 行）的盈亏（堆叠）迷你图组
 stackedArea = CellArea()
-stackedArea.setStartColumn(7)
-stackedArea.setEndColumn(7)
-stackedArea.setStartRow(0)
-stackedArea.setEndRow(0)
-stackedIdx = worksheet.getSparklineGroups().add(SparklineType.Stacked, "A1:E1", False, stackedArea)
+stackedArea.StartColumn = 7
+stackedArea.EndColumn = 7
+stackedArea.StartRow = 0
+stackedArea.EndRow = 0
+stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
 # 为 PNG 输出配置图像选项
 imageOptions = ImageOrPrintOptions()
-imageOptions.setImageType(ImageType.Png)
+imageOptions.setImageType(ImageType.PNG)
 # 将折线迷你图转换为图像并嵌入到单元格 F2 中
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
@@ -97,6 +97,7 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 由于每个迷你图组都锚定在单个单元格上，您可以通过索引器 `group.sparklines[0]` 来访问它，而无需使用 `for` 循环进行枚举。这使得渲染代码保持简洁，并符合典型的"每个锚定单元格对应一个迷你图"的模式。通过 `Cell.embedded_image` 存储图片字节需要 Aspose.Cells 26.5 或更高版本。
+{{% /alert %}}
 
 ## **工作流程 2 — 将包含迷你图的工作表导出为 HTML**
 一旦工作簿中包含实时迷你图（以及可选的嵌入图片副本），就可以通过将工作表另存为 HTML 来将其发布到 Web。`HtmlSaveOptions` 类提供了控制此导出所需的设置项；在此工作流程中，您将重用工作流程 1 生成的 `output_with_sparklines.xlsx` 文件，并将其转换为一个简洁的单页 HTML 文档。
@@ -111,7 +112,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, HtmlSaveOptions
 workbook = Workbook("output_with_sparklines.xlsx")
 htmlOptions = HtmlSaveOptions()
@@ -124,6 +124,7 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` 类提供了其他一些用于微调输出的属性，例如 `export_hidden_worksheet`、`export_images_as_base64` 和 `encoding`。可根据部署目标的需要进行调整。
+{{% /alert %}}
 
 ## **API 摘要**
 上述工作流程依赖于一组协同工作的 Aspose.Cells API。
@@ -137,10 +138,5 @@ jpype.shutdownJVM()
 ## **相关文章**
 - [Aspose.Cells for Python via Java 中的迷你图](/cells/zh/python-java/sparkline/)
 - [将图片插入到单元格中](/cells/zh/python-java/inserting-an-image-into-a-cell/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

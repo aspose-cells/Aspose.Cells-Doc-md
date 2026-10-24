@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Les sparklines sont des mini-graphiques placés à l'intérieur des cellules d'une feuille de calcul. Aspose.Cells vous permet d'extraire chaque sparkline sous forme d'image autonome (pour l'intégrer dans une autre cellule ou dans un rapport externe) et également d'exporter la feuille de calcul enrichie de sparklines au format HTML pour une distribution via navigateur. La propriété `Cell.EmbeddedImage` utilisée dans cet article est disponible dans **Aspose.Cells 26.5 et versions ultérieures**.
+{{% /alert %}}
 
 ## **Introduction**
 Les sparklines offrent un moyen compact de visualiser des tendances directement dans une feuille de calcul. Bien que les utilisateurs d'Excel les voient en place, de nombreux scénarios réels exigent qu'une sparkline quitte la cellule — par exemple, pour être intégrée dans une autre cellule sous forme d'image statique, jointe à un e-mail automatisé, ou rendue dans le cadre d'un rapport HTML publié sur le web.
@@ -44,13 +45,13 @@ worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Ajouter un groupe de sparklines de type Ligne ancré à F1 (colonne 5, ligne 0)
-CellArea lineArea = CellArea.createCellArea(5, 0, 5, 0);
+CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5);
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
 // Ajouter un groupe de sparklines de type Colonne ancré à G1 (colonne 6, ligne 0)
-CellArea columnArea = CellArea.createCellArea(6, 0, 6, 0);
+CellArea columnArea = CellArea.createCellArea(0, 6, 0, 6);
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
 // Ajouter un groupe de sparklines de type Victoire/Défaite (Empilé) ancré à H1 (colonne 7, ligne 0)
-CellArea stackedArea = CellArea.createCellArea(7, 0, 7, 0);
+CellArea stackedArea = CellArea.createCellArea(0, 7, 0, 7);
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
 // Configurer les options d'image pour la sortie PNG
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
@@ -78,6 +79,7 @@ Le code ci-dessus produit un classeur dans lequel chaque représentation visuell
 
 {{% alert color="primary" %}}
 Comme chaque groupe de sparklines est ancré à une seule cellule, vous pouvez y accéder via l'indexeur `group.getSparklines().get(0)` au lieu d'énumérer avec une boucle `for`. Cela permet de garder le code de rendu court et correspond au schéma typique « une sparkline par cellule d'ancrage ». Le stockage des octets de l'image via `Cell.EmbeddedImage` (défini via `setEmbeddedImage`) nécessite Aspose.Cells 26.5 ou version ultérieure.
+{{% /alert %}}
 
 ## **Workflow 2 — Exporter la feuille de calcul avec sparklines vers HTML**
 Une fois que le classeur contient des sparklines actives (et éventuellement des équivalents sous forme d'images intégrées), la feuille de calcul entière peut être publiée sur le web en l'enregistrant au format HTML. La classe `HtmlSaveOptions` expose les paramètres dont vous avez besoin pour contrôler cet export ; dans ce workflow, vous réutiliserez le fichier `output_with_sparklines.xlsx` produit par le Workflow 1 et le convertirez en un document HTML propre d'une seule page.
@@ -100,6 +102,7 @@ Le code ci-dessus prend le classeur enrichi de sparklines du Workflow 1 et le tr
 
 {{% alert color="primary" %}}
 La classe `HtmlSaveOptions` offre des propriétés supplémentaires pour ajuster finement la sortie, telles que `ExportHiddenWorksheet`, `ExportImagesAsBase64`, et `Encoding`. Ajustez-les selon les besoins de votre cible de déploiement.
+{{% /alert %}}
 
 ## **Résumé de l'API**
 Les workflows ci-dessus reposent sur un petit ensemble d'API Aspose.Cells fonctionnant ensemble.
@@ -113,10 +116,5 @@ Les workflows ci-dessus reposent sur un petit ensemble d'API Aspose.Cells foncti
 - [Sparklines dans Aspose.Cells for Java](/cells/fr/java/sparkline/)
 - [Insertion d'une image dans une cellule](/cells/fr/java/inserting-an-image-into-a-cell/)
 - [Rendu de tableau à cellule unique SmartMarker | Aspose.Cells Java](/cells/fr/java/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}`java
 
 {{< app/cells/assistant language="java" >}}

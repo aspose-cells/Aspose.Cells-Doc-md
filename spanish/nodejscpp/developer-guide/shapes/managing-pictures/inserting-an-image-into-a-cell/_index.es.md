@@ -37,6 +37,7 @@ El anclaje de la imagen se define mediante cuatro propiedades de índice basadas
 
 {{% alert color="primary" %}}
 Los índices de fila y columna en Aspose.Cells están **basados en cero**. La celda C6 tiene el índice de fila 5 y el índice de columna 2. Los errores de desfase por uno en el anclaje inferior derecho son la fuente más común de imágenes que parecen superponerse a una celda adyacente.
+{{% /alert %}}
 
 ### **Controlando el comportamiento de colocación**
 `picture.placement` es una enumeración de tipo `PlacementType` que controla cómo se comporta la imagen cuando el usuario cambia el tamaño de la fila o la columna debajo de ella. El valor recomendado para una imagen de una sola celda es `PlacementType.MoveAndSize`, que hace que la imagen se mueva y cambie de tamaño junto con su celda subyacente, preservando el ajuste exacto.
@@ -53,7 +54,7 @@ Los índices de fila y columna en Aspose.Cells están **basados en cero**. La ce
 El siguiente código demuestra el enfoque completo.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -88,6 +89,8 @@ Esto hace que `cell.embeddedImage` sea la opción más concisa cuando su objetiv
 El siguiente código demuestra el enfoque completo.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 // Get the target cell C6
@@ -113,7 +116,6 @@ Ambos enfoques producen una imagen que cabe dentro de una sola celda, pero difie
 - **Utilice una imagen incrustada (Enfoque 2) cuando:**
   - Desee la inserción más simple posible de una imagen en una celda.
   - La imagen deba viajar con la celda como cualquier otro contenido de la celda.
-{{% /alert %}}
 
 ## Artículos relacionados
 - [Cámara de Excel en Aspose.Cells for Node.js via C++](/cells/es/nodejs-cpp/excel-camera/)
@@ -122,4 +124,4 @@ Ambos enfoques producen una imagen que cabe dentro de una sola celda, pero difie
 - [Modificar el diseño del campo de página en una Tabla Dinámica](/cells/es/nodejs-cpp/change-page-field-layout/)
 - [Convertir sparkline a imagen y HTML en Aspose.Cells for Node.js via C++](/cells/es/nodejs-cpp/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

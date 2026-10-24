@@ -2,7 +2,7 @@
 title: إدراج صورة في خلية
 linktitle: إدراج صورة في خلية
 description: Aspose.Cells هي مكتبة Node.js via Java للعمل مع ملفات جداول البيانات. توضح هذه المقالة كيفية احتواء صورة تمامًا في خلية واحدة، سواء عن طريق وضع صورة عائمة فوق الخلية أو عن طريق تضمين الصورة مباشرة داخل الخلية.
-keywords: Aspose.Cells, Node.js via Java library, spreadsheet, insert image, embed image, picture in cell, fit image to cell, PictureCollection, EmbeddedImage
+keywords: Aspose.Cells, مكتبة Node.js عبر Java, جداول البيانات, إدراج صورة, تضمين صورة, صورة في خلية, احتواء صورة في خلية, PictureCollection, EmbeddedImage
 type: docs
 weight: 80
 url: /ar/nodejs-java/inserting-an-image-into-a-cell/
@@ -14,21 +14,21 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 يوفر Aspose.Cells طريقتين مميزتين لربط صورة بخلية واحدة. الصورة العائمة هي شكل موجود في طبقة الرسم في ورقة العمل وتغطي بصريًا نطاقًا من الخلايا، بينما تُخزَّن الصورة المضمنة داخل الخلية نفسها وتتدرج تلقائيًا لتتناسب مع مساحة عرض الخلية. اختر الأسلوب الذي يناسب متطلبات التخطيط لديك بشكل أفضل.
 {{% /alert %}}
 
-## **مقدمة**
+## **Introduction**
 يعد احتواء صورة تمامًا في خلية واحدة مطلبًا شائعًا عند تصميم جداول البيانات التي تعمل كتقارير مرئية، أو كتالوجات منتجات، أو سجلات موظفين، أو لوحات معلومات، أو قوائم جرد. بدلاً من تمديد صورة عبر عدة خلايا أو وضعها بشكل غير محكم على ورقة العمل، قد ترغب في صورة نظيفة ومرتبطة بالخلية تظل محاذية مع الخلية التي تنتمي إليها.
 يدعم Aspose.Cells هذا السيناريو بطريقتين متكاملتين:
 - **الأسلوب الأول — وضع صورة عائمة فوق خلية.** أضف `Picture` إلى ورقة العمل، وعيّن خاصية `Placement` إلى `MoveAndSize`، واضبط خلايا الإرساء الخاصة بها (`UpperLeftRow`، `UpperLeftColumn`، `LowerRightRow`، `LowerRightColumn`) بحيث تغطي الصورة خلية واحدة بالضبط.
 - **الأسلوب الثاني — تضمين صورة مباشرة داخل خلية.** عيّن وحدات البايت الخاصة بالصورة إلى خاصية `EmbeddedImage` للخلية. تتدرج الصورة تلقائيًا لتلائم مساحة عرض الخلية وتنتقل معها.
 يتناول باقي هذه المقالة كلا الأسلوبين، ويشرح واجهات برمجة التطبيقات ذات الصلة، ويوضح كيفية استخدامها في الكود.
 
-## **الأسلوب الأول: وضع صورة فوق خلية**
-الصورة العائمة هي كائن `Picture` يوجد على طبقة الرسم في ورقة العمل. على الرغم من أنها ليست جزءًا من أي خلية واحدة، إلا أنها مُرساة إلى نطاق من الخلايا. تحدد خلايا الإرساء الخاصة بالصورة — الزاوية العلوية اليسرى والزاوية السفلية اليمنى — امتدادها البصري على ورقة العمل. افتراضيًا، تمتد الصورة المُضافة حديثًا إلى عدة خلايا.
+## **Approach 1: Place a Picture Over a Cell**
+الصورة العائمة هي كائن `Picture` موجود على طبقة الرسم في ورقة العمل. على الرغم من أنها ليست جزءًا من أي خلية واحدة، إلا أنها مُرساة إلى نطاق من الخلايا. تحدد خلايا الإرساء الخاصة بالصورة — الزاوية العلوية اليسرى والزاوية السفلية اليمنى — امتدادها البصري على ورقة العمل. افتراضيًا، تمتد الصورة المُضافة حديثًا إلى عدة خلايا.
 لجعل الصورة العائمة تغطي **خلية واحدة بالضبط**، تحتاج إلى:
 1. إضافة الصورة باستخدام `worksheet.getPictures().add(int row, int column, InputStream stream)`، مما يربط الصورة الجديدة بالخلية المُحددة.
 2. تعيين خصائص الإرساء الأربعة بحيث يتطابق المستطيل المحيط بالصورة مع الخلية المستهدفة.
 3. تعيين `picture.setPlacement(PlacementType.MOVE_AND_SIZE)` بحيث تتحرك الصورة وتتغير حجمها مع الخلية الأساسية عندما يقوم المستخدم بتغيير عرض العمود أو ارتفاع الصف.
 
-### **إرساء الصورة في خلية واحدة**
+### **Anchoring the Picture to a Single Cell**
 يتم تعريف إرساء الصورة من خلال أربع خصائص فهرسة تبدأ من الصفر:
 - `picture.setUpperLeftRow(int)` — فهرس الصف للحافة العلوية للصورة.
 - `picture.setUpperLeftColumn(int)` — فهرس العمود للحافة اليسرى للصورة.
@@ -37,11 +37,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 مؤشرات الصفوف والأعمدة في Aspose.Cells **تبدأ من الصفر**. الخلية C6 لها فهرس صف 5 وفهرس عمود 2. أخطاء الانحراف بمقدار واحد في مرساة الزاوية السفلية اليمنى هي المصدر الأكثر شيوعًا لظهور الصور وكأنها تتداخل إلى خلية مجاورة.
+{{% /alert %}}
 
-### **التحكم في سلوك الوضع**
+### **Controlling Placement Behavior**
 `Picture.Placement` هو تعداد من نوع `PlacementType` يتحكم في كيفية تصرف الصورة عندما يقوم المستخدم بتغيير حجم الصف أو العمود الموجود تحتها. القيمة الموصى بها لصورة خلية واحدة هي `PlacementType.MoveAndSize`، والتي تتسبب في تحرك الصورة وتغيير حجمها معًا مع الخلية الأساسية لها، مما يحافظ على الاحتواء الدقيق.
 
-### **إرشادات خطوة بخطوة**
+### **Step-by-Step Instructions**
 1. أنشئ `Workbook` جديدًا (أو افتح ملفًا موجودًا).
 2. يمكنك الوصول إلى `Worksheet` المستهدف من `workbook.getWorksheets().get(0)`.
 3. افتح ملف الصورة من القرص في `InputStream` (على سبيل المثال، باستخدام `FileInputStream`) بحيث يتم إغلاق التدفق بشكل صحيح.
@@ -53,7 +54,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 يوضح الكود التالي الأسلوب الكامل.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 var picIndex = worksheet.getPictures().add(5, 2, "logo.png");
@@ -62,20 +63,20 @@ picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);
 picture.setLowerRightRow(6);
 picture.setLowerRightColumn(3);
-picture.setPlacement(AsposeCells.PlacementType.MoveAndSize);
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+picture.setPlacement(AsposeCells.PlacementType.MOVE_AND_SIZE);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
-## **الأسلوب الثاني: تضمين صورة مباشرة في خلية**
+## **Approach 2: Embed an Image Directly in a Cell**
 يعرض Aspose.Cells أيضًا آلية أبسط للصور المرتبطة بالخلايا: خاصية `Cell.EmbeddedImage`. يؤدي تعيين وحدات البايت الخاصة بالصورة إلى هذه الخاصية إلى إرفاق الصورة بالخلية نفسها، كما لو كانت محتوى مضمّنًا.
 
-### **كيف تعمل الصور المضمنة**
+### **How Embedded Images Work**
 - تُخزَّن الصورة كجزء من محتوى الخلية بدلاً من كونها شكلًا على طبقة الرسم.
 - تتدرج الصورة تلقائيًا لتلائم داخل الحدود المعروضة للخلية. لا حاجة إلى إحداثيات إرساء أو إعدادات وضع.
 - تظل الخلية خلية حقيقية بعنوان حقيقي يمكن الإشارة إليه بواسطة الصيغ، أو فرزه كجزء من صف، أو استخدامه في عمليات على مستوى الخلية.
 هذا يجعل `Cell.EmbeddedImage` الخيار الأكثر إيجازًا عندما يكون هدفك ببساطة هو "صورة تعيش داخل هذه الخلية".
 
-### **إرشادات خطوة بخطوة**
+### **Step-by-Step Instructions**
 1. أنشئ `Workbook` جديدًا (أو افتح ملفًا موجودًا).
 2. يمكنك الوصول إلى `Worksheet` المستهدف من `workbook.getWorksheets().get(0)`.
 3. اقرأ ملف الصورة من القرص في مصفوفة بايتات (على سبيل المثال، باستخدام `Files.readAllBytes` من `java.nio.file.Files`).
@@ -86,24 +87,24 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 يوضح الكود التالي الأسلوب الكامل.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
-// الحصول على الخلية المستهدفة C6
+// Get the target cell C6
 var cell = worksheet.getCells().get("C6");
-// قراءة ملف الصورة إلى مصفوفة بايتات
+// Read the image file into a byte array
 var imageData = fs.readFileSync("logo.png");
-// تضمين الصورة مباشرة في الخلية
+// Embed the image directly into the cell
 cell.setEmbeddedImage(imageData);
-// اختيارياً ضبط ارتفاع الصف وعرض العمود لجعل الصورة المضمنة أكثر وضوحاً
-worksheet.getCells().setColumnWidth(2, 30);   // العمود C (المؤشر 2)
-worksheet.getCells().setRowHeight(5, 100);     // الصف 6 (المؤشر 5)
-// حفظ المصنف الناتج كملف .xlsx
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+// Optionally adjust row height and column width so the embedded image is more visible
+worksheet.getCells().setColumnWidth(2, 30);   // Column C (index 2)
+worksheet.getCells().setRowHeight(5, 100);     // Row 6 (index 5)
+// Save the resulting workbook as an .xlsx file
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
-## **اختيار الأسلوب المناسب**
+## **Choosing the Right Approach**
 ينتج كلا الأسلوبين صورة تتناسب داخل خلية واحدة، لكنهما يختلفان في كيفية تخزين الصورة وكيف تتصرف:
 - **استخدم صورة عائمة (الأسلوب الأول) عندما:**
   - تحتاج إلى تحكم أدق في الوضع أو الطبقات أو المحاذاة مع كائنات الرسم الأخرى.
@@ -113,6 +114,5 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 - **استخدم صورة مضمنة (الأسلوب الثاني) عندما:**
   - تريد أبسط إدراج ممكن لصورة في خلية.
   - ينبغي أن تنتقل الصورة مع الخلية مثل أي محتوى آخر في الخلية.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

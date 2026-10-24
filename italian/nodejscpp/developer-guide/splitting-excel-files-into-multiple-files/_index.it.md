@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supporta la divisione di un singolo file Excel in più file. Esistono due modi principali per farlo: (1) copiando ogni foglio di lavoro della cartella di lavoro di origine in una nuova cartella di lavoro e salvando ciascuno come file separato, e (2) copiando uno specifico intervallo di celle da un foglio di lavoro in una nuova cartella di lavoro. Entrambi gli approcci sono utili quando è necessario distribuire sottoinsiemi di dati, creare report più piccoli per diversi destinatari o isolare i dati per elaborazioni individuali.
+{{% /alert %}}
 
 ## **Introduzione**
 Esistono molti scenari reali in cui uno sviluppatore ha bisogno di suddividere un singolo file Excel in diversi file più piccoli. Ad esempio, una cartella di lavoro può contenere un foglio di lavoro per ciascun dipartimento, e ogni responsabile di dipartimento deve ricevere solo il proprio foglio. In altri casi, si potrebbe voler estrarre una determinata tabella o un blocco di dati da un foglio di lavoro e inviarlo come file autonomo tramite email, senza esporre il resto della cartella di lavoro. Grandi cartelle di lavoro consolidate possono inoltre richiedere di essere suddivise in parti più piccole per una gestione più agevole, un caricamento più rapido o l'elaborazione a valle da parte di altri sistemi.
@@ -37,20 +38,20 @@ I seguenti passaggi descrivono come dividere un file Excel copiando ogni foglio 
 ### **Esempio di codice**
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const dataDir = "data/";
 const workbook = new AsposeCells.Workbook(dataDir + "book1.xls");
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
     const sourceSheet = workbook.getWorksheets().get(i);
     const sheetName = sourceSheet.getName();
-    
+
     const destWorkbook = new AsposeCells.Workbook();
     const destIndex = destWorkbook.getWorksheets().add();
     const destSheet = destWorkbook.getWorksheets().get(destIndex);
     destSheet.setName(sheetName);
-    
+
     destSheet.copy(sourceSheet);
-    
+
     const destFile = dataDir + sheetName + ".xls";
     destWorkbook.save(destFile, AsposeCells.SaveFormat.Excel97To2003);
 }
@@ -76,6 +77,5 @@ I seguenti passaggi descrivono come dividere un file Excel copiando uno specific
 
 ### **Esempio di codice**
 L'output atteso è un singolo nuovo file nella directory dei dati che contiene solo i valori (e facoltativamente la formattazione) dell'intervallo specificato estratto dalla cartella di lavoro di origine. Il file di destinazione non ha alcuna relazione con altri dati nel file di origine; contiene solo l'intervallo estratto, a partire dalla cella `A1` del suo primo foglio di lavoro.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -57,10 +57,9 @@ Datumfilter låter dig begränsa en pivottabell efter datumbaserade kriterier so
 
 {{% alert color="primary" %}}
 Datumfiltret fungerar endast när rad- eller kolumnområdet endast innehåller datum- och tidsceller eller tomma värden. Om det underliggande fältet innehåller andra datatyper som tal eller text kommer datumfiltret inte att ge det förväntade resultatet. Se till att fältet är formaterat som ett datum och att alla värden är giltiga `DateTime`-instanser eller tomma celler innan du tillämpar detta filter.
-{{% /alert %}}
-
 Aspose.Cells exponerar datumfiltrering via metoden `PivotField.FilterByDate(PivotFilterType, params DateTime[] values)`. Uppräkningen `PivotFilterType` innehåller dedikerade datumvärden som `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` och `Between`. Beroende på vald filtertyp skickar du ett eller två `DateTime`-värden (för `Between` skickar du start- och slutdatum).
 Följande exempel läser in en arbetsbok med en pivottabell vars radområde innehåller ett datumfält, tillämpar ett datumfilter som begränsar de synliga objekten till ett visst datumintervall, uppdaterar pivottabellen och sparar arbetsboken.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -129,10 +128,9 @@ Topp 10-filtret är en specialiserad form av värdefilter som endast behåller d
 
 {{% alert color="primary" %}}
 Topp 10-filtret är endast effektivt när pivottabellen har ett eller flera värde-pivotfält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mått att rangordna objekten mot, och filtret kan inte tillämpas.
-{{% /alert %}}
-
 Aspose.Cells exponerar topp 10-filtrering via metoden `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)`. Parametern `itemCount` anger hur många objekt som ska behållas, `filterType` styr hur värdet beräknas (vanligtvis `Sum`, men även `Count` och `Percent`), `isTop` anger om de översta objekten (true) eller de understa objekten (false) ska behållas, och `valueFieldIndex` är indexet för det datafält som används för att rangordna objekten.
 Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att endast behålla de 10 översta objekten efter summan av försäljning, uppdaterar pivottabellen och sparar arbetsboken.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -162,7 +160,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.Sum
 //   - isTop       = true (topp N; false skulle betyda botten N)
 //   - valueFieldIndex = index för datafältet som används för att rangordna objekt
-rowField.FilterTop10(10, PivotFilterType.Sum, true, valueFieldIndex);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
 // Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
 pivotTable.PivotCache.Refresh();
 // Spara arbetsboken

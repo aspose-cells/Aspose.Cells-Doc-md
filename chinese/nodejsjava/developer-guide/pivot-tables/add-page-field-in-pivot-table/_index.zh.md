@@ -26,6 +26,7 @@ Aspose.Cells for Node.js via Java 提供了两种等效的方式来注册筛选�
 以下示例构建一个小的 Fruit / Year / Amount 数据集，在 E3 单元格处放置一个数据透视表，其中 `Fruit` 位于行区域，`Amount` 位于数据区域，`Year` 位于筛选区域，刷新数据透视表并保存工作簿。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -55,9 +56,9 @@ for (var i = 0; i < data.length; i++)
 var pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 var pivotTable = worksheet.getPivotTables().get(pivotIndex);
 // 将字段添加到相应区域：Fruit 作为行字段，Amount 作为数据字段，Year 作为页字段
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // 刷新并计算数据透视表数据
 pivotTable.calculateData();
 // 保存工作簿
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 当您已经使用 `PivotField` 实例时，可以将其直接传递给 `pivotTable.getPageFields().add`。数据透视表和筛选字段的构造方式与前面的场景完全相同；仅最终的筛选区域注册被替换为低级 API 调用。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // 表头
@@ -85,11 +87,11 @@ sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").put
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
 // 在E3位置添加数据透视表，覆盖A1:C10
-let pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1");
+let pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
 let pivotTable = sheet.getPivotTables().get(pivotIndex);
 // 水果 -> 行，金额 -> 数据（年份将放在下面的页面区域）
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 // 底层方法：从BaseFields中获取现有的年份透视字段
 // 并通过PageFields.Add(PivotField)将其注册到页面区域
 let yearField = pivotTable.getBaseFields().get("Year");
@@ -106,6 +108,7 @@ workbook.save("output.xlsx");
 将 `CurrentPageItem` 设置为魔术值 `0x7FFD` 等同于清除页面过滤器，数据透视表主体将汇总每个筛选项，就好像没有应用过滤器一样。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 // 填充 Fruit/Year/Amount 数据
@@ -130,9 +133,9 @@ var pivotTables = sheet.getPivotTables();
 var index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(index);
 // 配置透视字段：Fruit→行，Amount→数据，Year→页
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 pivotTable.calculateData();
 // 清除页面筛选，以便页面字段中的每个项都可见。
 // 0x7FFD（十进制 32765）是表示"所有项"的特殊哨兵值 —
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 将 `CurrentPageItem` 设置为实际索引会仅选取该单个筛选项。该索引是项目在筛选字段排序项列表中的位置，因此例如 `1` 选择排序后的第二项。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -169,9 +173,9 @@ var pivotTables = sheet.getPivotTables();
 var pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
 var pivotTable = pivotTables.get(pivotIndex);
 // 添加字段：水果→行，金额→数据，年份→页
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // 页字段特定操作
 pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = 排序顺序中的第二项（例如"2021"）
 // 刷新并计算数据透视表
@@ -214,11 +218,11 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotSheet = workbook.getWorksheets().add("Pivot");
 const pivots = pivotSheet.getPivotTables();
-const pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1");
+const pivotIndex = pivots.add("A1:C10", "E3", "PivotTable1");
 const pivotTable = pivots.get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.ROW, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.DATA, "Amount");
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.PAGE, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 // — 在页面字段上启用多选
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
 // 部分 A — 选择所有项目（使每个项目可见）

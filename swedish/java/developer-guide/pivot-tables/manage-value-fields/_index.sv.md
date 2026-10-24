@@ -72,13 +72,11 @@ Varje fält som placeras i dataområdet är internt inpackat som en `PivotField`
 
 {{% alert color="primary" %}}
 Att ändra `Function` påverkar bara aggregeringen, källkolumnen ändras inte.
-{{% /alert %}}
-
 Du kan därför låta ett datafält vara `SUM` medan du lägger till ett andra datafält som riktar sig mot samma källkolumn men använder `COUNT` eller `AVERAGE`, allt i en enda pivot.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -119,13 +117,11 @@ När en pivottabell innehåller två eller flera datafält, exponerar Aspose.Cel
 
 {{% alert color="primary" %}}
 `PivotTable.getValuesField()` fungerar inte om det inte finns något eller bara ett värdefält.
-{{% /alert %}}
-
 Scenarierna nedan går igenom tre kompletta exempel som demonstrerar varje funktion som beskrivs ovan mot samma pivotstruktur.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-import com.aspose.cells.pivot.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");

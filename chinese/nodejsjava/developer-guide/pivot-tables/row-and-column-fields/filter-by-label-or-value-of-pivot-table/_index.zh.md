@@ -30,6 +30,7 @@ Aspose.Cells 通过 `PivotField.filterByLabel(PivotFilterType, string)` 方法�
 以下示例加载包含现有数据透视表的工作簿，应用标签筛选以便仅保留标题以指定前缀开头的项，刷新数据透视表并保存结果。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
 // 加载包含数据透视表的现有工作簿
@@ -41,7 +42,7 @@ let pivotTable = worksheet.getPivotTables().get(0);
 // 获取第一个行字段
 let rowField = pivotTable.getRowFields().get(0);
 // 应用标签筛选 — 仅显示标签以所提供前缀开头的行项
-rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
+rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
 // 刷新并重新计算数据透视表数据，以使筛选生效
 pivotTable.getPivotCache().refresh();
 // 将工作簿保存回磁盘
@@ -53,12 +54,13 @@ workbook.save(fileName);
 
 {{% alert color="primary" %}}
 日期筛选仅在行或列区域包含日期时间单元格或空白值时才有效。如果基础字段包含其他数据类型（例如数字或文本），则日期筛选将无法产生预期结果。在应用此筛选之前，请确保字段设置为日期格式，并且所有值都是有效的 `DateTime` 实例或空白单元格。
-{{% /alert %}}
-
 Aspose.Cells 通过 `PivotField.filterByDate(PivotFilterType, params DateTime[] values)` 方法公开日期筛选功能。`PivotFilterType` 枚举包含专用的日期值，例如 `Today`、`Yesterday`、`LastWeek`、`ThisWeek`、`NextWeek`、`LastMonth`、`ThisMonth`、`NextMonth`、`LastQuarter`、`ThisQuarter`、`NextQuarter`、`LastYear`、`ThisYear`、`NextYear` 和 `Between`。根据所选的筛选类型，您可以传递一个或两个 `DateTime` 值（对于 `Between`，传递开始日期和结束日期）。
 以下示例加载一个包含行区域包含日期字段的数据透视表的工作簿，应用日期筛选将可见项限制为特定日期范围，刷新数据透视表并保存工作簿。
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const fs = require("fs");
 let inputPath = "sample.xlsx";
 let outputPath = "output_filtered.xlsx";
 if (!fs.existsSync(inputPath))
@@ -78,7 +80,7 @@ let dateField = pivotTable.getRowFields().get(0);
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
 // 在透视字段上应用日期筛选
-dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
+dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
 // 刷新并重新计算数据透视表以使筛选生效
 pivotTable.getPivotCache().refresh();
 // 保存工作簿
@@ -91,6 +93,7 @@ Aspose.Cells 通过 `PivotField.filterByValue(PivotField valueField, PivotFilter
 以下示例加载一个包含数据透视表的工作簿，应用值筛选以仅保留聚合销售超过数值阈值的项，刷新数据透视表并保存工作簿。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook("sample.xlsx");
 var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
@@ -108,7 +111,7 @@ for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 }
 if (dataFieldIndex >= 0)
 {
-    rowField.filterByValue(dataFieldIndex, AsposeCells.Pivot.PivotFilterType.ValueGreaterThan, 5000, Number.MAX_VALUE);
+    rowField.filterByValue(dataFieldIndex, AsposeCells.PivotFilterType.VALUE_GREATER_THAN, 5000, Number.MAX_VALUE);
 }
 pivotTable.getPivotCache().refresh();
 workbook.save("output.xlsx");
@@ -119,12 +122,12 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 前 10 项筛选仅在数据透视表的数据区域中具有一个或多个值数据透视字段时才有效。如果没有任何值字段，则没有聚合度量可用于项排序，也无法应用该筛选。
-{{% /alert %}}
-
 Aspose.Cells 通过 `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)` 方法公开前 10 项筛选功能。`itemCount` 参数定义要保留的项数，`isTop` 指示是保留排名靠前的项（true）还是排名靠后的项（false），`valueField` 引用用于排序的数据字段，`filterType` 控制值的计算方式（通常为 `Sum`，但也可以是 `Count` 和 `Percent`）。
 以下示例加载一个包含具有值字段的数据透视表的工作簿，应用前 10 项筛选仅保留按销售总额排名前 10 的项，刷新数据透视表并保存工作簿。
+{{% /alert %}}
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
@@ -144,10 +147,10 @@ let rowField = pivotTable.getRowFields().get(0);
 let valueFieldIndex = 0;
 // 对行字段应用前 10 筛选器：
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.SUM
 //   - isTop       = true（前 N；false 表示后 N）
 //   - valueFieldIndex = 用于对项进行排序的数据字段的索引
-rowField.filterTop10(10, AsposeCells.PivotFilterType.Sum, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.SUM, true, 10);
 // 刷新数据透视表数据并重新计算，以使筛选器生效
 pivotTable.getPivotCache().refresh();
 // 保存工作簿
@@ -159,6 +162,7 @@ workbook.save(outputPath);
 当筛选规则不规则或特定于项时（例如隐藏特定报告中不应出现的小部分命名类别），此方法非常有用。下面的示例加载数据透视表，按名称隐藏特定项，演示如何取消隐藏它，刷新数据透视表并保存工作簿。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
 // 访问第一个包含数据透视表的工作表
 let sheet = workbook.getWorksheets().get(0);
@@ -172,15 +176,15 @@ for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
     // 隐藏符合特定名称/条件的数据透视表项
     if (item.getName() == "Item1" || item.getName() == "Item2") {
-        item.setIsHidden(true);
+        item.setHidden(true);
     }
     // 演示取消隐藏：重新显示之前隐藏的数据透视表项
     if (item.getName() == "Item3") {
-        item.setIsHidden(false);
+        item.setHidden(false);
     }
 }
 // 刷新并重新计算数据透视表以使更改生效
-pivotTable.getPivotCache().refreshData();
+pivotTable.getPivotCache().refresh();
 // 保存工作簿 —— 隐藏项仍保留在底层数据中，
 // 但会从显示的数据透视表输出中排除
 workbook.save("output_pivot_filtered.xlsx");

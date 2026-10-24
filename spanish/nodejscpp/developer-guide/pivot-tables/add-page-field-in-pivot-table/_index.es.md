@@ -26,6 +26,7 @@ Hay dos formas de registrar un campo dinámico en el área de filtro. La llamada
 El siguiente ejemplo construye un pequeño conjunto de datos de Fruta / Año / Cantidad, coloca una tabla dinámica en la celda E3 con `Fruit` en el área de filas, `Amount` en el área de datos y `Year` en el área de filtro, actualiza la tabla dinámica y guarda el libro de trabajo.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 Cuando ya trabaja con una instancia `PivotField`, puede pasarla directamente a `PivotTable.pageFields.add`. La tabla dinámica y el campo de filtro se construyen exactamente como en el escenario anterior; solo se reemplaza el registro final del área de filtro con la llamada API de bajo nivel.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Encabezados
@@ -106,6 +108,7 @@ En el comportamiento predeterminado de selección única, el campo de filtro se 
 Establecer `currentPageItem` en el valor mágico `0x7FFD` equivale a limpiar el filtro de página: el cuerpo de la tabla dinámica resume todos los elementos de página como si no se aplicara ningún filtro.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Rellenar datos de Fruta/Año/Cantidad
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 Establecer `currentPageItem` en un índice real selecciona solo ese elemento de página. El índice es la posición del elemento en la lista de elementos ordenada del campo de filtro, por lo que, por ejemplo, `1` selecciona el segundo elemento después de ordenar.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -184,6 +188,7 @@ El filtrado de selección múltiple convierte la lista desplegable de la página
 El código a continuación habilita la selección múltiple en el mismo campo de filtro Year construido en el Escenario 1a, y luego muestra dos patrones: la Parte A revela cada elemento de página al dejar `isHidden` establecido en `false` para cada entrada, mientras que la Parte B permite solo los valores de origen que elija y oculta todo lo demás mediante un bloque `switch (pivotItems[i].getStringValue())`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells unterstützt das Aufteilen einer einzelnen Excel-Datei in mehrere Dateien. Es gibt zwei grundsätzliche Vorgehensweisen: (1) durch Kopieren jedes Arbeitsblatts der Quellarbeitsmappe in eine neue Arbeitsmappe und Speichern jeder einzelnen als separate Datei sowie (2) durch Kopieren eines bestimmten Zellbereichs aus einem Arbeitsblatt in eine neue Arbeitsmappe. Beide Ansätze sind nützlich, wenn Sie Teilmengen von Daten verteilen, kleinere Berichte für unterschiedliche Empfänger erstellen oder Daten zur Einzelverarbeitung isolieren müssen.
+{{% /alert %}}
 
 ## **Einführung**
 Es gibt viele reale Szenarien, in denen ein Entwickler eine einzelne Excel-Datei in mehrere kleinere Dateien zerlegen muss. Beispielsweise kann eine Arbeitsmappe ein Arbeitsblatt pro Abteilung enthalten, und jeder Abteilungsleiter muss nur sein eigenes Blatt erhalten. In anderen Fällen möchten Sie möglicherweise eine bestimmte Tabelle oder einen Datenblock aus einem Arbeitsblatt extrahieren und als eigenständige Datei per E-Mail versenden, ohne den Rest der Arbeitsmappe offenzulegen. Große konsolidierte Arbeitsmappen müssen möglicherweise auch in kleinere Teile zerlegt werden, um sie leichter handhaben zu können, schneller zu laden oder um sie von anderen Systemen weiterverarbeiten zu lassen.
@@ -78,7 +79,6 @@ Die folgenden Schritte beschreiben, wie eine Excel-Datei durch Kopieren eines be
 
 ### **Codebeispiel**
 Die erwartete Ausgabe ist eine einzelne neue Datei im Datenverzeichnis, die nur die Werte (und optional die Formatierung) des angegebenen Bereichs enthält, der aus der Quellarbeitsmappe extrahiert wurde. Die Zieldatei hat keine Beziehung zu anderen Daten in der Quelldatei; sie enthält nur den extrahierten Bereich, beginnend bei Zelle `A1` des ersten Arbeitsblatts.
-{{% /alert %}}
 
 ## Verwandte Artikel
 - [Hinzufügen von Filterfeldern zu einer PivotTable in Aspose.Cells for C++](/cells/de/cpp/add-page-field-in-pivot-table/)

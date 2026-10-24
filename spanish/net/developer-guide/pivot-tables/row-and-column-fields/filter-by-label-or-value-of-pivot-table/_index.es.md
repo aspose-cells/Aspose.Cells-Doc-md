@@ -57,10 +57,9 @@ Los filtros por fecha le permiten reducir una tabla dinámica mediante criterios
 
 {{% alert color="primary" %}}
 El filtro por fecha solo funciona cuando el área de fila o columna contiene únicamente celdas de tipo fecha-hora o valores en blanco. Si el campo subyacente contiene otros tipos de datos, como números o texto, el filtro por fecha no producirá el resultado esperado. Asegúrese de que el campo tenga formato de fecha y de que todos los valores sean instancias válidas de `DateTime` o celdas vacías antes de aplicar este filtro.
-{{% /alert %}}
-
 Aspose.Cells expone el filtrado por fecha mediante el método `PivotField.FilterByDate(PivotFilterType, params DateTime[] values)`. La enumeración `PivotFilterType` contiene valores de fecha dedicados como `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` y `Between`. Dependiendo del tipo de filtro elegido, se pasan uno o dos valores `DateTime` (para `Between`, se pasan las fechas de inicio y fin).
 El siguiente ejemplo carga un libro con una tabla dinámica cuyo área de filas contiene un campo de fecha, aplica un filtro por fecha que restringe los elementos visibles a un rango de fechas particular, actualiza la tabla dinámica y guarda el libro.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -129,10 +128,9 @@ El filtro top 10 es una forma especializada de filtro por valor que conserva sol
 
 {{% alert color="primary" %}}
 El filtro top 10 solo es efectivo cuando la tabla dinámica tiene uno o más campos de valor en el área de datos. Sin al menos un campo de valor, no hay ninguna medida agregada con la que clasificar los elementos y el filtro no puede aplicarse.
-{{% /alert %}}
-
 Aspose.Cells expone el filtrado top 10 mediante el método `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)`. El parámetro `itemCount` define cuántos elementos conservar, `filterType` controla cómo se calcula el valor (normalmente `Sum`, pero también `Count` y `Percent`), `isTop` indica si se conservan los elementos superiores (true) o los inferiores (false), y `valueFieldIndex` es el índice del campo de datos utilizado para clasificar los elementos.
 El siguiente ejemplo carga un libro con una tabla dinámica que contiene un campo de valor, aplica un filtro top 10 para conservar solo los 10 elementos superiores según la suma de ventas, actualiza la tabla dinámica y guarda el libro.
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -162,7 +160,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.Sum
 //   - isTop       = true (N superiores; false significaría N inferiores)
 //   - valueFieldIndex = el índice del campo de datos utilizado para clasificar elementos
-rowField.FilterTop10(10, PivotFilterType.Sum, true, valueFieldIndex);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
 // Actualizar los datos de la tabla dinámica y recalcularla para que el filtro surta efecto
 pivotTable.PivotCache.Refresh();
 // Guardar el libro de trabajo

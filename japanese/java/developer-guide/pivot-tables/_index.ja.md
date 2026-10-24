@@ -32,11 +32,10 @@ Aspose.Cells を使用してピボットテーブルを作成するには、以�
 
 {{% alert color="primary" %}}
 データソースとしてセルの範囲を割り当てる場合、範囲は左上から右下に設定する必要があります。例えば、「A1:C3」は有効であり、「C3:A1」は無効です。
-{{% /alert %}}
-
 以下のコード例は、上記の基本的な手順に従って簡単なピボットテーブルを作成する方法を示しています。コードを実行すると、ワークシートにピボットテーブルが追加されます:
 **対応するフィールドに基づいてピボットテーブルを作成する**
 ![todo:image_alt_text](create-pivot-table_1.png)
+{{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
 

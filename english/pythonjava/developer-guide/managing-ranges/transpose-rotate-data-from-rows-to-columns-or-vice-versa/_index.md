@@ -35,7 +35,7 @@ Use this approach whenever you want to transpose data without involving the `TRA
 `Range.transpose()` is an instance method on the `com.aspose.cells.Range` class. Calling it flips the range in place by swapping its rows and columns, so what was a row becomes a column and what was a column becomes a row. The method modifies the underlying cells directly without writing a formula.
 
 ### **Steps**
-1. Open the source workbook with `LoadOptions` set to the `.xlsx` format by calling `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Open the source workbook with `LoadOptions` set to the `.xlsx` format by calling `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Retrieve the first worksheet from the workbook using `workbook.getWorksheets().get(0)`.
 3. Access the cells collection of the worksheet through `worksheet.getCells()`.
 4. Create the source range covering **A1:D5** by calling `cells.createRange("A1:D5")`.
@@ -47,11 +47,10 @@ After transposition the initial anchor range holds the rotated data. The first r
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, LoadOptions, LoadFormat
 srcFile = "source.xlsx"
 outputFile = "transposed.xlsx"
-loadOptions = LoadOptions(LoadFormat.Xlsx)
+loadOptions = LoadOptions(LoadFormat.XLSX)
 workbook = Workbook(srcFile, loadOptions)
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
@@ -68,7 +67,7 @@ Use this approach when you want to preserve the `=TRANSPOSE(A1:D5)` formula as a
 `Cell.setDynamicArrayFormula(String formula, FormulaParseOptions options, boolean calculateValue)` is a method on `com.aspose.cells.Cell` that sets the cell's formula as a **dynamic array formula**. Excel evaluates the formula once and automatically spills the result into the surrounding cells. The third parameter, when set to `True`, instructs Aspose.Cells to also calculate the resulting values at write time.
 
 ### **Steps**
-1. Load the source workbook using `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Load the source workbook using `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Retrieve the first worksheet and access its `Cells` collection.
 3. Place the dynamic array formula on cell **A6**, just below the source range, by calling `cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", None, True)`.
 4. The `None` argument passes default `FormulaParseOptions`, and the third argument `True` tells Aspose.Cells to treat the formula as a dynamic array and to evaluate it so the spilled values are written to the workbook.
@@ -83,16 +82,15 @@ This approach works **only on Excel 365 / 2021 or later**. Older Excel versions 
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, LoadOptions, LoadFormat, FormulaParseOptions, SaveFormat
 # ported code here
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
 cells.get("A6").setDynamicArrayFormula("=TRANSPOSE(A1:D5)", FormulaParseOptions(), True)
-workbook.save(outFile, SaveFormat.Xlsx)
+workbook.save(outFile, SaveFormat.XLSX)
 jpype.shutdownJVM()
 ```
 
@@ -117,11 +115,10 @@ CSE array formulas are the classic Excel way to evaluate a `TRANSPOSE` expressio
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, LoadOptions, LoadFormat, Worksheet, Cells
 # Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
-workbook = Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))
+workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
 # Access the first worksheet and its Cells collection
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()

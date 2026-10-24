@@ -32,11 +32,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 При назначении диапазона ячеек в качестве источника данных диапазон должен быть установлен слева вверху и справа внизу. Например, "A1:C3" допустим; "C3:A1" недопустим.
-{{% /alert %}}
-
 Приведенный ниже пример кода показывает, как создать простую сводную таблицу, следуя основным шагам, перечисленным выше. При выполнении кода на листе добавляется сводная таблица:
 **Создание сводной таблицы на основе соответствующего поля**
 ![todo:image_alt_text](create-pivot-table_1.png)
+{{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
 

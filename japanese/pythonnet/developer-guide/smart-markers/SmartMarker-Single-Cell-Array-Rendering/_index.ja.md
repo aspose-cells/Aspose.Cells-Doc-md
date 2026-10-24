@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells は、Smart Markers を介して配列データを単一セルにレンダリングすることをサポートしています。`ArrayAsSingle` 属性と `ExtraDelimiter` 属性を併用することで、開発者は単一セル内での配列要素の区切り方法を制御でき、レポートやテンプレートに柔軟な書式設定を提供できます。
+{{% /alert %}}
 
 ## **はじめに**
 Aspose.Cells の Smart Markers は、`&=DataSource.Field` などのマーカー式を使用してスプレッドシートのデータを動的に入力できる、強力なテンプレートベースの機能です。マーカーはデザイナー ワークブック内に配置され、`WorkbookDesigner` によってテンプレートが処理されると、マーカーは指定されたデータソースの値に置き換えられます。
@@ -59,6 +60,7 @@ Smart Markers で `ArrayAsSingle` 属性と `ExtraDelimiter` 属性を使用す�
 
 {{% alert color="primary" %}}
 `extraDelimiter` 属性は、複数文字の区切り文字、カスタムテキスト、改行区切りの出力用の `\n` などのエスケープシーケンスを含む、任意の文字列リテラルを受け入れます。配列が空の場合、結果のセルは空白のままになります。
+{{% /alert %}}
 
 ### **ステップバイステップのワークフロー**
 以下のワークフローは、Smart Markers を使用して配列を単一セルにレンダリングする方法を説明しています。
@@ -71,6 +73,7 @@ Smart Markers で `ArrayAsSingle` 属性と `ExtraDelimiter` 属性を使用す�
 ### **コード例 1 — 基本的な文字列配列のレンダリング**
 
 ```python
+import aspose.cells as ac
 class Product:
     def __init__(self):
         self.Tags = []
@@ -78,8 +81,8 @@ product = Product()
 product.Tags = ["C#", "Aspose", "SmartMarker", "Excel"]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Tags")
-worksheet.cells["A2"].put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
+worksheet.cells.get("A1").put_value("Tags")
+worksheet.cells.get("A2").put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
 designer = ac.WorkbookDesigner()
 designer.workbook = workbook
 designer.set_data_source("Product", product)
@@ -90,6 +93,7 @@ workbook.save("output_arraySingle.xlsx")
 ### **コード例 2 — カスタム区切り文字を使用した数値配列**
 
 ```python
+import aspose.cells as ac
 class Student:
     def __init__(self):
         self.scores = []
@@ -97,14 +101,15 @@ student = Student()
 student.scores = [95, 88, 76, 100, 67]
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-worksheet.cells["A1"].put_value("Scores")
-worksheet.cells["A2"].put_value(" - ".join(str(s) for s in student.scores))
+worksheet.cells.get("A1").put_value("Scores")
+worksheet.cells.get("A2").put_value(" - ".join(str(s) for s in student.scores))
 workbook.save("output_numericArray.xlsx")
 ```
 
 ### **コード例 3 — デフォルト動作と ArrayAsSingle 動作の比較**
 
 ```python
+import aspose.cells as ac
 class Order:
     def __init__(self, items):
         self._items = items
@@ -119,11 +124,11 @@ workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
 # セクション 1: デフォルトのスマートマーカー - 値がセル全体に水平方向に展開される
-cells["A1"].put_value("Default Spreading Behavior:")
-cells["A2"].put_value("&=Order.Items")
+cells.get("A1").put_value("Default Spreading Behavior:")
+cells.get("A2").put_value("&=Order.Items")
 # セクション 2: arrayasSingle と extraDelimiter を使用した新しい単一セルレンダリング
-cells["A4"].put_value("Single Cell Rendering (arrayasSingle=true):")
-cells["A5"].put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
+cells.get("A4").put_value("Single Cell Rendering (arrayasSingle=true):")
+cells.get("A5").put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
 # データソースをバインドし、スマートマーカーを処理する
 designer = ac.WorkbookDesigner(workbook)
 designer.set_data_source("Order", order)
@@ -140,8 +145,5 @@ workbook.save("output_comparison.xlsx")
 - この機能はオブジェクトデータソースだけでなく、列を配列に分割できる `DataSet` および `DataTable` ソースとも連携します。
 - 改行区切りの出力には、区切り文字の値として `\n` または `os.linesep` を使用できます。
 - 結果の連結文字列を表示するのに十分な幅を持つセルに Smart Marker を配置してください。そうでない場合、形式によってはコンテンツが隣接するセルに視覚的にオーバーフローする可能性があります。
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

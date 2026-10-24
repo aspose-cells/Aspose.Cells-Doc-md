@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells stöder rendering av arraydata till en enskild cell via Smart Markers. Genom att använda attributet `ArrayAsSingle` tillsammans med attributet `ExtraDelimiter` kan utvecklare styra hur arrayelement separeras inom en enskild cell, vilket ger flexibel formatering för rapporter och mallar.
+{{% /alert %}}
 
 ## **Introduction**
 Smart Markers i Aspose.Cells är en kraftfull, mallbaserad funktion som låter dig dynamiskt fylla kalkylbladsdata med markörruttryck som `&=DataSource.Field`. Markören placeras i en designarbetsbok, och när mallen bearbetas av `WorkbookDesigner` ersätts markörerna med värden från den angivna datakällan.
@@ -59,6 +60,7 @@ Markören består av följande delar:
 
 {{% alert color="primary" %}}
 Attributet `extraDelimiter` accepterar valfri strängliteral, inklusive flerteckenavgränsare, anpassad text eller escape-sekvenser som `\n` för nyradsseparerad utdata. Om arrayen är tom lämnas den resulterande cellen tom.
+{{% /alert %}}
 
 ### **Step-by-Step Workflow**
 Följande arbetsflöde beskriver hur man renderar en array i en enskild cell med Smart Markers.
@@ -146,9 +148,6 @@ Tänk på följande punkter när du arbetar med attributen `ArrayAsSingle` och `
 - Funktionen fungerar med objektdatakällor såväl som `DataSet`- och `DataTable`-källor där en kolumn kan delas upp i arrayer.
 - För nyradsseparerad utdata kan du använda `\n` eller `System.lineSeparator()` som avgränsarvärde.
 - Placera Smart Markern i en cell som har tillräcklig bredd för att visa den resulterande sammanfogade strängen; annars kan innehållet visuellt svämma över till intilliggande celler beroende på formatet.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Related Articles
 - [Lägg till filterfält i en pivottabell i Aspose.Cells for Java](/cells/sv/java/add-page-field-in-pivot-table/)

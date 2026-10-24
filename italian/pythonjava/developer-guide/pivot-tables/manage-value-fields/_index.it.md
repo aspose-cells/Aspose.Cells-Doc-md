@@ -14,14 +14,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 L'aggiunta di un campo base all'area dati (valore) è il primo passo per definire come una tabella pivot aggrega i dati di origine. Aspose.Cells espone `PivotTable.addFieldToArea(PivotFieldType, string)`, un overload che accetta la costante `PivotFieldType.DATA` e il nome della colonna di origine. Una volta che un campo viene aggiunto all'area dati, l'API lo espone attraverso la raccolta `PivotTable.DataFields`, nell'ordine in cui i campi sono stati aggiunti. Per impostazione predefinita, una colonna di origine numerica viene riassunta con `ConsolidationFunction.SUM`, mentre una colonna non numerica utilizza `COUNT` come valore predefinito.
 
 ```python
-import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Data"
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, PivotFieldType
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+worksheet.setName("Data")
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
-    worksheet.cells.get(0, j).put_value(h)
+    worksheet.getCells().get(0, j).putValue(h)
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -34,15 +36,16 @@ data = [
 ]
 for i, row in enumerate(data):
     for j, val in enumerate(row):
-        worksheet.cells.get(i + 1, j).put_value(val)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.calculate_data()
+        worksheet.getCells().get(i + 1, j).putValue(val)
+pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
+pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.calculateData()
 workbook.save("output_drag.xlsx")
+jpype.shutdownJVM()
 ```
 
 ## Modifica della Funzione di Riepilogo
@@ -50,19 +53,20 @@ Ogni campo posizionato nell'area dati viene incapsulato internamente come un'ist
 
 {{% alert color="primary" %}}
 La modifica di `Function` influisce solo sull'aggregato, la colonna di origine non cambia.
+Puoi quindi lasciare un campo dati come `SUM` mentre aggiungi un secondo campo dati che ha come destinazione la stessa colonna di origine ma utilizza `COUNT` o `AVERAGE`, tutto in un'unica tabella pivot.
 {{% /alert %}}
 
-Puoi quindi lasciare un campo dati come `SUM` mentre aggiungi un secondo campo dati che ha come destinazione la stessa colonna di origine ma utilizza `COUNT` o `AVERAGE`, tutto in un'unica tabella pivot.
-
 ```python
-import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Data"
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, PivotFieldType, ConsolidationFunction
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+worksheet.setName("Data")
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
-    worksheet.cells.get(0, j).put_value(h)
+    worksheet.getCells().get(0, j).putValue(h)
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -75,17 +79,18 @@ data = [
 ]
 for i, row in enumerate(data):
     for j, val in enumerate(row):
-        worksheet.cells.get(i + 1, j).put_value(val)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-pivot_table.calculate_data()
+        worksheet.getCells().get(i + 1, j).putValue(val)
+pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
+pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT)
+pivot_table.calculateData()
 workbook.save("output_function.xlsx")
+jpype.shutdownJVM()
 ```
 
 ## Visualizzazione dei Campi Valore sull'Asse Riga o Colonna
@@ -93,19 +98,20 @@ Quando una tabella pivot contiene due o più campi dati, Aspose.Cells espone un 
 
 {{% alert color="primary" %}}
 `PivotTable.ValuesField` non funziona se non è presente alcun campo valore o se ne è presente solo uno.
+Gli scenari seguenti illustrano tre esempi end-to-end che dimostrano ciascuna delle funzionalità descritte sopra sulla stessa struttura pivot.
 {{% /alert %}}
 
-Gli scenari seguenti illustrano tre esempi end-to-end che dimostrano ciascuna delle funzionalità descritte sopra sulla stessa struttura pivot.
-
 ```python
-import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Data"
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, PivotFieldType, ConsolidationFunction
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+worksheet.setName("Data")
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
-    worksheet.cells.get(0, j).put_value(h)
+    worksheet.getCells().get(0, j).putValue(h)
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -118,18 +124,19 @@ data = [
 ]
 for i, row in enumerate(data):
     for j, val in enumerate(row):
-        worksheet.cells.get(i + 1, j).put_value(val)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field)
-pivot_table.calculate_data()
+        worksheet.getCells().get(i + 1, j).putValue(val)
+pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
+pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT)
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, pivot_table.getValuesField())
+pivot_table.calculateData()
 workbook.save("output_plot.xlsx")
+jpype.shutdownJVM()
 ```
 
 {{< app/cells/assistant language="python" >}}

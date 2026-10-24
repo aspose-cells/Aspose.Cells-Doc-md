@@ -37,6 +37,7 @@ L'ancrage de l'image est défini par quatre propriétés d'index à base zéro :
 
 {{% alert color="primary" %}}
 Les indices de ligne et de colonne dans Aspose.Cells sont **à base zéro**. La cellule C6 a l'index de ligne 5 et l'index de colonne 2. Les erreurs d'une unité sur l'ancrage inférieur droit sont la source la plus courante d'images qui semblent déborder dans une cellule adjacente.
+{{% /alert %}}
 
 ### **Contrôler le comportement de placement**
 `Picture.Placement` est une énumération de type `PlacementType` qui contrôle le comportement de l'image lorsque l'utilisateur redimensionne la ligne ou la colonne située en dessous. La valeur recommandée pour une image sur une seule cellule est `PlacementType.MoveAndSize`, qui fait que l'image se déplace et se redimensionne conjointement avec sa cellule sous-jacente, préservant ainsi l'ajustement exact.
@@ -53,7 +54,7 @@ Les indices de ligne et de colonne dans Aspose.Cells sont **à base zéro**. La 
 Le code suivant illustre l'approche complète.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 var picIndex = worksheet.getPictures().add(5, 2, "logo.png");
@@ -62,8 +63,8 @@ picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);
 picture.setLowerRightRow(6);
 picture.setLowerRightColumn(3);
-picture.setPlacement(AsposeCells.PlacementType.MoveAndSize);
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+picture.setPlacement(AsposeCells.PlacementType.MOVE_AND_SIZE);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Approche 2 : Incorporer une image directement dans une cellule**
@@ -86,7 +87,7 @@ Cela fait de `Cell.EmbeddedImage` l'option la plus concise lorsque votre objecti
 Le code suivant illustre l'approche complète.
 
 ```javascript
-const AsposeCells = require("aspose.cells-node");
+const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
@@ -100,7 +101,7 @@ cell.setEmbeddedImage(imageData);
 worksheet.getCells().setColumnWidth(2, 30);   // Column C (index 2)
 worksheet.getCells().setRowHeight(5, 100);     // Row 6 (index 5)
 // Save the resulting workbook as an .xlsx file
-workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
+workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 
 ## **Choisir la bonne approche**
@@ -113,6 +114,5 @@ Les deux approches produisent une image qui s'inscrit dans une seule cellule, ma
 - **Utilisez une image incorporée (Approche 2) lorsque :**
   - Vous souhaitez l'insertion la plus simple possible d'une image dans une cellule.
   - L'image doit se déplacer avec la cellule comme tout autre contenu de cellule.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

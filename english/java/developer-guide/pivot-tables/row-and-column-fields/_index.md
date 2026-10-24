@@ -196,6 +196,15 @@ workbook.save("output_custom.xlsx");
 
 ## **Recap**
 
+The three scenarios differ in one thing only: the setSubtotals calls. Everything else — the dataset, the fields, and the areas they are assigned to — is identical, which is what makes the layouts directly comparable.
+- **Placing fields.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` moves a source column into a region. Within one region the order of the calls is the display order, so the first call becomes the outermost group. Subtotals need two or more fields in the same region: with a single field there is nothing between the groups to subtotal.
+- **Scenario 1 — automatic subtotals.** Leaving setSubtotals uncalled leaves the choice to Excel, which applies its own default subtotal to numeric fields. Calling setSubtotals with `PivotFieldSubtotalType.AUTOMATIC` records that choice explicitly instead of leaving it implicit.
+- **Scenario 2 — no subtotals.** setSubtotals with `PivotFieldSubtotalType.NONE` switches the default subtotal off, so the pivot keeps the field rows and the grand total but drops the subtotal rows Excel would otherwise insert between them.
+- **Scenario 3 — a chosen subset.** Each call toggles exactly one subtotal type, and calls accumulate rather than reset one another. Calling it once with `PivotFieldSubtotalType.SUM` and once with `PivotFieldSubtotalType.AVERAGE` therefore leaves both enabled, and the pivot renders a Sum subtotal, an Average subtotal, and a grand total.
+
+{{% alert color="primary" %}}
+Nothing about subtotals is specific to the row region. The same setSubtotals calls on a field taken from `PivotTable.ColumnFields` produce the same three layouts on the column axis, because the setting belongs to the pivot field rather than to the axis it sits on.
+{{% /alert %}}
 ## **Related Articles**
 - [Page Fields in Pivot Tables](/cells/java/add-page-field-in-pivot-table/)
 - [Refreshing Pivot Tables in Aspose.Cells for Java](/cells/java/refresh-pivot-table/)

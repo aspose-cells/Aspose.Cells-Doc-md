@@ -2,7 +2,7 @@
 title: إدراج صورة في خلية
 linktitle: إدراج صورة في خلية
 description: Aspose.Cells هي مكتبة Node.js عبر C++ للعمل مع ملفات جداول البيانات. تشرح هذه المقالة كيفية ملاءمة صورة تمامًا في خلية واحدة، إما عن طريق وضع صورة عائمة فوق الخلية أو عن طريق تضمين الصورة مباشرة في الخلية.
-keywords: Aspose.Cells, Node.js via C++ library, spreadsheet, insert image, embed image, picture in cell, fit image to cell, PictureCollection, EmbeddedImage
+keywords: Aspose.Cells, مكتبة Node.js عبر C++, جداول البيانات, إدراج صورة, تضمين صورة, صورة داخل خلية, ملاءمة الصورة للخلية, PictureCollection, EmbeddedImage
 type: docs
 weight: 80
 url: /ar/nodejs-cpp/inserting-an-image-into-a-cell/
@@ -14,21 +14,21 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 يوفر Aspose.Cells طريقتين متميزتين لربط صورة بخلية واحدة. الصورة العائمة هي شكل على طبقة الرسم في ورقة العمل يغطي بصريًا نطاقًا من الخلايا، بينما تُخزَّن الصورة المُضمَّنة داخل الخلية نفسها وتتدرج تلقائيًا مع منطقة عرض الخلية. اختر الأسلوب الذي يتوافق أفضل مع متطلبات التخطيط لديك.
 {{% /alert %}}
 
-## **مقدمة**
+## **Introduction**
 تُعدّ ملاءمة صورة تمامًا داخل خلية واحدة من المتطلبات الشائعة عند تصميم جداول البيانات التي تعمل كتقارير مرئية أو كتالوجات منتجات أو أدلة موظفين أو لوحات معلومات أو قوائم جرد. بدلًا من تمديد صورة عبر عدة خلايا أو وضعها بشكل فضفاض على ورقة العمل، قد ترغب في الحصول على صورة نظيفة مرتبطة بخلية تظل محاذية للخلية المالكة لها.
 يدعم Aspose.Cells هذا السيناريو بطريقتين متكاملتين:
 - **الأسلوب الأول — وضع صورة عائمة فوق خلية.** أضف `Picture` إلى ورقة العمل، وعيّن خاصية `placement` إلى `MoveAndSize`، واضبط خلايا الإرساء (`upperLeftRow`، `upperLeftColumn`، `lowerRightRow`، `lowerRightColumn`) بحيث تغطي الصورة خلية واحدة بالضبط.
 - **الأسلوب الثاني — تضمين صورة مباشرة في خلية.** عيّن بايتات الصورة إلى خاصية `embeddedImage` الخاصة بالخلية. تتدرج الصورة تلقائيًا لتلائم منطقة عرض الخلية وتنتقل معها.
 يتناول باقي هذه المقالة كلا الأسلوبين، ويوضح واجهات برمجة التطبيقات ذات الصلة، ويبيّن كيفية استخدامها في الكود.
 
-## **الأسلوب الأول: وضع صورة فوق خلية**
+## **Approach 1: Place a Picture Over a Cell**
 الصورة العائمة هي كائن `Picture` يعيش على طبقة الرسم في ورقة العمل. على الرغم من أنها ليست جزءًا من أي خلية واحدة، إلا أنها مُرتبطة بنطاق من الخلايا. تحدد خلايا الإرساء للصورة — الزاويتان العلوية اليسرى والسفلية اليمنى — مدى ظهورها بصريًا على ورقة العمل. افتراضيًا، تمتد الصورة المُضافة حديثًا عبر عدة خلايا.
 لجعل الصورة العائمة تغطي **خلية واحدة بالضبط**، تحتاج إلى:
 1. إضافة الصورة باستخدام `worksheet.pictures.add(row, column, stream)`، والذي يربط الصورة الجديدة بالخلية المُحددة.
 2. تعيين خصائص الإرساء الأربعة بحيث يتطابق المستطيل المحيط بالصورة مع الخلية المستهدفة.
 3. تعيين `picture.placement` إلى `PlacementType.MoveAndSize` بحيث تتحرك الصورة ويتغيّر حجمها مع الخلية الأساسية عندما يقوم المستخدم بتغيير عرض العمود أو ارتفاع الصف.
 
-### **إرساء الصورة في خلية واحدة**
+### **Anchoring the Picture to a Single Cell**
 يتم تعريف إرساء الصورة من خلال أربع خصائص فهرسة تبدأ من الصفر:
 - `picture.upperLeftRow` — فهرس الصف للحافة العلوية للصورة.
 - `picture.upperLeftColumn` — فهرس العمود للحافة اليسرى للصورة.
@@ -37,11 +37,12 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 فهارس الصفوف والأعمدة في Aspose.Cells **تبدأ من الصفر**. الخلية C6 لها فهرس صف 5 وفهرس عمود 2. تُعد أخطاء الفرق بواحد في إحداثيات الإرساء السفلية اليمنى المصدر الأكثر شيوعًا لظهور الصور وكأنها تتداخل مع خلية مجاورة.
+{{% /alert %}}
 
-### **التحكم في سلوك الموضع**
+### **Controlling Placement Behavior**
 `picture.placement` هو تعداد من نوع `PlacementType` يتحكم في كيفية تصرف الصورة عندما يقوم المستخدم بتغيير حجم الصف أو العمود الموجود أسفلها. القيمة الموصى بها لصورة داخل خلية واحدة هي `PlacementType.MoveAndSize`، والتي تتسبب في تحرك الصورة وتغيير حجمها معًا مع الخلية الأساسية، مع الحفاظ على الملاءمة الدقيقة.
 
-### **إرشادات خطوة بخطوة**
+### **Step-by-Step Instructions**
 1. أنشئ `Workbook` جديدًا (أو افتح ملفًا موجودًا).
 2. الوصول إلى `Worksheet` المستهدف من `workbook.worksheets[0]`.
 3. افتح ملف الصورة من القرص في دفق، مع التأكد من إغلاق الدفق بشكل صحيح بعد الاستخدام.
@@ -53,7 +54,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 يوضح الكود التالي الأسلوب الكامل.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -68,16 +69,16 @@ picture.setPlacement(AsposeCells.PlacementType.MoveAndSize);
 workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 ```
 
-## **الأسلوب الثاني: تضمين صورة مباشرة في خلية**
+## **Approach 2: Embed an Image Directly in a Cell**
 يوفر Aspose.Cells أيضًا آلية أبسط للصور المرتبطة بالخلايا: خاصية `cell.embeddedImage`. يُعدّ تعيين بايتات الصورة إلى هذه الخاصية بمثابة إرفاق الصورة بالخلية نفسها، كما لو كانت محتوى مضمّنًا.
 
-### **كيف تعمل الصور المُضمَّنة**
+### **How Embedded Images Work**
 - تُخزَّن الصورة كجزء من محتوى الخلية بدلاً من شكل على طبقة الرسم.
 - تتدرج الصورة تلقائيًا لتلائم داخل حدود الخلية المعروضة. لا حاجة إلى إحداثيات إرساء أو إعدادات موضع.
 - تظل الخلية خلية حقيقية بعنوان حقيقي يمكن الإشارة إليه في الصيغ، أو فرزها كجزء من صف، أو استخدامها في عمليات أخرى على مستوى الخلية.
 يجعل هذا `cell.embeddedImage` الخيار الأكثر إيجازًا عندما يكون هدفك ببساطة "صورة تعيش داخل هذه الخلية".
 
-### **إرشادات خطوة بخطوة**
+### **Step-by-Step Instructions**
 1. أنشئ `Workbook` جديدًا (أو افتح ملفًا موجودًا).
 2. الوصول إلى `Worksheet` المستهدف من `workbook.worksheets[0]`.
 3. اقرأ ملف الصورة من القرص في Buffer أو مصفوفة بايتات باستخدام واجهات برمجة نظام الملفات في Node.js (على سبيل المثال، `fs.readFileSync`).
@@ -88,22 +89,24 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 يوضح الكود التالي الأسلوب الكامل.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
-// الحصول على الخلية المستهدفة C6
+// Get the target cell C6
 var cell = worksheet.getCells().get("C6");
-// قراءة ملف الصورة في مصفوفة بايتات
+// Read the image file into a byte array
 var imageData = fs.readFileSync("logo.png");
-// تضمين الصورة مباشرة في الخلية
+// Embed the image directly into the cell
 cell.setEmbeddedImage(imageData);
-// اختياريًا قم بضبط ارتفاع الصف وعرض العمود لتكون الصورة المضمنة أكثر وضوحًا
-worksheet.getCells().setColumnWidth(2, 30);   // العمود C (الفهرس 2)
-worksheet.getCells().setRowHeight(5, 100);     // الصف 6 (الفهرس 5)
-// حفظ المصنف الناتج كملف .xlsx
+// Optionally adjust row height and column width so the embedded image is more visible
+worksheet.getCells().setColumnWidth(2, 30);   // Column C (index 2)
+worksheet.getCells().setRowHeight(5, 100);     // Row 6 (index 5)
+// Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 ```
 
-## **اختيار الأسلوب المناسب**
+## **Choosing the Right Approach**
 ينتج كلا الأسلوبين صورة تلائم داخل خلية واحدة، لكنهما يختلفان في كيفية تخزين الصورة وسلوكها:
 - **استخدم صورة عائمة (الأسلوب 1) عندما:**
   - تحتاج إلى تحكم أدق في الموضع أو الطبقات أو المحاذاة مع كائنات الرسم الأخرى.
@@ -113,13 +116,12 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 - **استخدم صورة مُضمَّنة (الأسلوب 2) عندما:**
   - تريد أبسط إدراج ممكن لصورة في خلية.
   - يجب أن تنتقل الصورة مع الخلية كما لو كانت أي محتوى آخر للخلية.
-{{% /alert %}}
 
-## مقالات ذات صلة
+## Related Articles
 - [كاميرا Excel في Aspose.Cells for Node.js via C++](/cells/ar/nodejs-cpp/excel-camera/)
 - [إضافة حقول التصفية إلى جدول محوري في Aspose.Cells for Node.js via C++](/cells/ar/nodejs-cpp/add-page-field-in-pivot-table/)
 - [تطبيق الأنماط على الجداول المحورية في Aspose.Cells for Node.js via C++](/cells/ar/nodejs-cpp/apply-style-to-pivot-table/)
 - [تعديل تخطيط حقل الصفحة في الجدول المحوري](/cells/ar/nodejs-cpp/change-page-field-layout/)
 - [تحويل Sparkline إلى صورة وHTML في Aspose.Cells for Node.js via C++](/cells/ar/nodejs-cpp/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

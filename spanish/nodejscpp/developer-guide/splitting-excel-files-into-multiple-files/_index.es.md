@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells admite dividir un único archivo de Excel en varios archivos. Hay dos formas principales de hacerlo: (1) copiando cada hoja de cálculo del libro de trabajo de origen a un nuevo libro de trabajo y guardando cada uno como un archivo separado, y (2) copiando un rango de celdas específico de una hoja de cálculo a un nuevo libro de trabajo. Ambos enfoques son útiles cuando necesita distribuir subconjuntos de datos, crear informes más pequeños para diferentes destinatarios o aislar datos para su procesamiento individual.
+{{% /alert %}}
 
 ## **Introducción**
 Hay muchos escenarios del mundo real en los que un desarrollador necesita dividir un único archivo de Excel en varios archivos más pequeños. Por ejemplo, un libro de trabajo puede contener una hoja de cálculo por departamento, y cada jefe de departamento necesita recibir solo su propia hoja. En otros casos, es posible que desee extraer una tabla o bloque de datos particular de una hoja de cálculo y enviarla como un archivo independiente por correo electrónico, sin exponer el resto del libro de trabajo. También puede ser necesario dividir libros de trabajo consolidados grandes en piezas más pequeñas para facilitar su manejo, carga más rápida o procesamiento posterior por otros sistemas.
@@ -37,20 +38,20 @@ Los siguientes pasos describen cómo dividir un archivo de Excel copiando cada h
 ### **Ejemplo de código**
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const dataDir = "data/";
 const workbook = new AsposeCells.Workbook(dataDir + "book1.xls");
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
     const sourceSheet = workbook.getWorksheets().get(i);
     const sheetName = sourceSheet.getName();
-    
+
     const destWorkbook = new AsposeCells.Workbook();
     const destIndex = destWorkbook.getWorksheets().add();
     const destSheet = destWorkbook.getWorksheets().get(destIndex);
     destSheet.setName(sheetName);
-    
+
     destSheet.copy(sourceSheet);
-    
+
     const destFile = dataDir + sheetName + ".xls";
     destWorkbook.save(destFile, AsposeCells.SaveFormat.Excel97To2003);
 }
@@ -76,6 +77,5 @@ Los siguientes pasos describen cómo dividir un archivo de Excel copiando un ran
 
 ### **Ejemplo de código**
 El resultado esperado es un único archivo nuevo en el directorio de datos que contiene solo los valores (y opcionalmente el formato) del rango especificado extraído del libro de trabajo de origen. El archivo de destino no tiene relación con ningún otro dato en el archivo de origen; contiene solo el rango extraído, comenzando en la celda `A1` de su primera hoja de cálculo.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

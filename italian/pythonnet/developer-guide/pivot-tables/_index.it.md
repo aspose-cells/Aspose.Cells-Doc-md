@@ -36,4 +36,11 @@ Quando si assegna un intervallo di celle come origine dati, l'intervallo deve an
 
 ## **Argomenti avanzati**
 
+## Articoli correlati
+- [Aggiungere campi filtro a una tabella pivot in Aspose.Cells per .NET](/cells/it/python-net/add-page-field-in-pivot-table/)
+- [Applicare stili alle tabelle pivot in Aspose.Cells for Python via .NET](/cells/it/python-net/apply-style-to-pivot-table/)
+- [Modify Page Field Layout in Pivot Table](/cells/it/python-net/change-page-field-layout/)
+- [Filtering Pivot Tables by Label or Value](/cells/it/python-net/filter-by-label-or-value-of-pivot-table/)
+- [Gestire i campi valore di una tabella pivot in Aspose.Cells per .NET](/cells/it/python-net/manage-value-fields/)
+
 {{< app/cells/assistant language="python-net" >}}

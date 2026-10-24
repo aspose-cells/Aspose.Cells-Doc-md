@@ -60,6 +60,7 @@ Der Marker besteht aus den folgenden Teilen:
 
 {{% alert color="primary" %}}
 Das Attribut `extraDelimiter` akzeptiert jedes Zeichenkettenliteral, einschließlich mehrteiliger Trennzeichen, benutzerdefinierten Texts oder Escape-Sequenzen wie `\n` für zeilenumbruchgetrennte Ausgabe. Wenn das Array leer ist, bleibt die resultierende Zelle leer.
+{{% /alert %}}
 
 ### **Step-by-Step Workflow**
 Der folgende Workflow beschreibt, wie ein Array mit Smart Markers in eine einzelne Zelle gerendert wird.
@@ -166,7 +167,6 @@ Beachten Sie die folgenden Punkte, wenn Sie mit den Attributen `ArrayAsSingle` u
 - Wenn das Array leer oder null ist, bleibt die Zelle leer (oder enthält je nach Datentyp eine leere Zeichenkette).
 - Die Funktion arbeitet mit Objekt-Datenquellen sowie mit `DataSet`- und `DataTable`-Quellen, bei denen eine Spalte in Arrays aufgeteilt werden kann.
 - Für zeilenumbruchgetrennte Ausgabe können Sie `\n` oder `Environment.NewLine` als Trennzeichenwert verwenden.
-{{% /alert %}}
 
 ## Related Articles
 - [Filterfelder zu einer Pivot-Tabelle in Aspose.Cells for .NET hinzufügen](/cells/de/net/add-page-field-in-pivot-table/)

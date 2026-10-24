@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supports splitting a single Excel file into multiple files. There are two primary ways to do this: (1) by copying each worksheet of the source workbook to a new workbook and saving each as a separate file, and (2) by copying a specific cell range from a worksheet to a new workbook. Both approaches are useful when you need to distribute subsets of data, create smaller reports for different recipients, or isolate data for individual processing.
+{{% /alert %}}
 
 ## **Introduction**
 There are many real-world scenarios in which a developer needs to break a single Excel file into several smaller files. For example, a workbook may contain one worksheet per department, and each department head needs to receive only their own sheet. In other cases, you may want to extract a particular table or data block from a worksheet and send it as a stand-alone file via email, without exposing the rest of the workbook. Large consolidated workbooks may also need to be split into smaller pieces for easier handling, faster loading, or downstream processing by other systems.
@@ -36,20 +37,20 @@ The following steps describe how to split an Excel file by copying each workshee
 ### **Code Example**
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const dataDir = "data/";
 const workbook = new AsposeCells.Workbook(dataDir + "book1.xls");
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
     const sourceSheet = workbook.getWorksheets().get(i);
     const sheetName = sourceSheet.getName();
-    
+
     const destWorkbook = new AsposeCells.Workbook();
     const destIndex = destWorkbook.getWorksheets().add();
     const destSheet = destWorkbook.getWorksheets().get(destIndex);
     destSheet.setName(sheetName);
-    
+
     destSheet.copy(sourceSheet);
-    
+
     const destFile = dataDir + sheetName + ".xls";
     destWorkbook.save(destFile, AsposeCells.SaveFormat.Excel97To2003);
 }
@@ -75,7 +76,6 @@ The following steps describe how to split an Excel file by copying a specific ra
 
 ### **Code Example**
 The expected output is a single new file in the data directory that contains only the values (and optionally the formatting) of the specified range extracted from the source workbook. The destination file has no relationship to any other data in the source file; it contains just the extracted range, beginning at cell `A1` of its first worksheet.
-{{% /alert %}}
 
 ## Related Articles
 - [Add Filter Fields to a Pivot Table in Aspose.Cells for Node.js via C++](/cells/nodejs-cpp/add-page-field-in-pivot-table/)
@@ -84,4 +84,4 @@ The expected output is a single new file in the data directory that contains onl
 - [Convert Sparkline to Image and HTML in Aspose.Cells for Node.js via C++](/cells/nodejs-cpp/convert-sparkline-to-image-and-html/)
 - [Converting Excel to OFD Format](/cells/nodejs-cpp/converting-excel-to-ofd-format/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells supports rendering array data into a single cell via Smart Markers. By using the `ArrayAsSingle` attribute along with the `ExtraDelimiter` attribute, developers can control how array elements are separated within a single cell, providing flexible formatting for reports and templates.
+{{% /alert %}}
 
 ## **Introduction**
 Smart Markers in Aspose.Cells are a powerful, template-based feature that allows you to dynamically populate spreadsheet data using marker expressions such as `&=DataSource.Field`. The marker is placed in a designer workbook, and when the template is processed by the `WorkbookDesigner`, the markers are replaced with values from the supplied data source.
@@ -59,6 +60,7 @@ The marker is composed of the following parts:
 
 {{% alert color="primary" %}}
 The `extraDelimiter` attribute accepts any string literal, including multi-character delimiters, custom text, or escape sequences such as `\n` for newline-separated output. If the array is empty, the resulting cell is left blank.
+{{% /alert %}}
 
 ### **Step-by-Step Workflow**
 The following workflow describes how to render an array into a single cell using Smart Markers.
@@ -168,9 +170,6 @@ Keep the following points in mind when working with the `ArrayAsSingle` and `Ext
 - The feature works with object data sources as well as `DataSet` and `DataTable` sources where a column can be split into arrays.
 - For newline-separated output, you can use `\n` as the delimiter value.
 - Place the Smart Marker in a cell that has sufficient width to display the resulting concatenated string; otherwise, the content may visually overflow into adjacent cells depending on the format.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Related Articles
 - [Add Filter Fields to a Pivot Table in Aspose.Cells for C++](/cells/cpp/add-page-field-in-pivot-table/)

@@ -106,10 +106,10 @@ Bir hücre aralığını veri kaynağı olarak atarken, aralık sol üstten sağ
 {{% /alert %}}
 
 ## İlgili Makaleler
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Python via Java](/cells/tr/python-java/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Python via Java](/cells/tr/python-java/apply-style-to-pivot-table/)
+- [Aspose.Cells for Python via Java ile Pivot Tablosuna Filtre Alanları Ekleme](/cells/tr/python-java/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Python via Java'da Pivot Tablolarına Stil Uygulama](/cells/tr/python-java/apply-style-to-pivot-table/)
 - [Modify Page Field Layout in Pivot Table](/cells/tr/python-java/change-page-field-layout/)
-- [Filtering Pivot Tables by Label or Value](/cells/tr/python-java/filter-by-label-or-value-of-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Python via Java](/cells/tr/python-java/manage-value-fields/)
+- [Pivot Tablolarını Etiket veya Değere Göre Filtreleme](/cells/tr/python-java/filter-by-label-or-value-of-pivot-table/)
+- [Aspose.Cells for Python via Java'da Değer Alanları](/cells/tr/python-java/manage-value-fields/)
 
 {{< app/cells/assistant language="python" >}}

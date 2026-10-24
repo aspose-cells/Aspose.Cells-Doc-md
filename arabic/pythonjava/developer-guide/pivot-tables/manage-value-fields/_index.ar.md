@@ -1,8 +1,8 @@
 ---
-title: حقول القيم في Aspose.Cells for Python via Java
-description: تعرّف على كيفية إضافة الحقول الأساسية إلى منطقة البيانات في الجدول المحوري، وتغيير دالة التلخيص عبر PivotField.Function، وعرض حقل القيمة على محور الصفوف أو الأعمدة في Aspose.Cells for Python via Java.
-linktitle: حقول القيم في Aspose.Cells for Python via Java
-keywords: Aspose.Cells, Python via Java, pivot table, value field, PivotField, PivotField.Function, data field, PivotTable.ValuesField, Sum, Average
+title: إدارة حقول قيم الجدول المحوري في Aspose.Cells for Python عبر Java
+linktitle: إدارة حقول قيم الجدول المحوري في Aspose.Cells for Python عبر Java
+description: تعلّم كيفية إضافة الحقول الأساسية إلى منطقة بيانات الجدول المحوري، وتغيير دالة التلخيص باستخدام PivotField.Function، ورسم حقل القيمة على محور الصفوف أو الأعمدة في Aspose.Cells for Python عبر Java.
+keywords: Aspose.Cells, Python عبر Java, جدول محوري, حقل قيمة, PivotField, PivotField.Function, حقل بيانات, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
 url: /ar/python-java/manage-value-fields/
@@ -11,17 +11,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## إضافة حقل إلى منطقة البيانات
-تُعدّ إضافة حقل أساسي إلى منطقة البيانات (القيم) الخطوة الأولى في تشكيل كيفية تجميع الجدول المحوري لبيانات المصدر. يوفّر Aspose.Cells الحمل الزائد `PivotTable.addFieldToArea(PivotFieldType, string)` الذي يقبل الثابت `PivotFieldType.DATA` واسم عمود المصدر. بمجرد إضافة حقل إلى منطقة البيانات، يكشف لك الـ API عنه من خلال مجموعة `PivotTable.DataFields`، وذلك وفق الترتيب الذي أُضيفت به الحقول. افتراضيًا، يتم تلخيص عمود المصدر الرقمي باستخدام `ConsolidationFunction.SUM`، بينما يكون العمود غير الرقمي افتراضيًا على `COUNT`.
+تُعد إضافة حقل أساسي إلى منطقة البيانات (القيم) الخطوة الأولى في تحديد طريقة تجميع بيانات المصدر في الجدول المحوري. يتيح Aspose.Cells استخدام الدالة `PivotTable.AddFieldToArea(PivotFieldType, string)` من خلال إحدى صور التحميل الزائد لها، حيث تقبل هذه الصورة الثابت `PivotFieldType.DATA` واسم عمود المصدر. وبمجرد إضافة حقل إلى منطقة البيانات، تتيح API الوصول إليه من خلال مجموعة `PivotTable.DataFields`، التي تعكس ترتيب إضافة الحقول. افتراضيًا، تُستخدم الدالة `Sum` لتلخيص عمود المصدر الرقمي، بينما تُستخدم الدالة `Count` للعمود غير الرقمي.
 
 ```python
-import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Data"
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, PivotFieldType
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+worksheet.setName("Data")
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
-    worksheet.cells.get(0, j).put_value(h)
+    worksheet.getCells().get(0, j).putValue(h)
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -34,35 +36,36 @@ data = [
 ]
 for i, row in enumerate(data):
     for j, val in enumerate(row):
-        worksheet.cells.get(i + 1, j).put_value(val)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.calculate_data()
+        worksheet.getCells().get(i + 1, j).putValue(val)
+pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
+pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.calculateData()
 workbook.save("output_drag.xlsx")
+jpype.shutdownJVM()
 ```
 
 ## تغيير دالة التلخيص
-يتم تغليف كل حقل موضوع في منطقة البيانات داخليًا كنسخة من `PivotField`، وتُرجع خاصية `Function` الخاصة به قيمة من تعداد `ConsolidationFunction`. يتيح لك المُعيّن `Function` نفسه التبديل بين التجميعات المتاحة، بما في ذلك `SUM` و`COUNT` و`AVERAGE` و`MAX` و`MIN` و`PRODUCT` و`STDDEV` و`STDDEVP` و`VAR` و`VARP`.
+بعد إضافة حقل إلى منطقة البيانات، يتيح Aspose.Cells الوصول إليه عبر كائن `PivotField` في `PivotTable.DataFields`. يمتلك كل كائن `PivotField` خاصية `Function` قابلة للكتابة، من النوع `ConsolidationFunction`، وتتحكم هذه الخاصية في التجميع المطبق على القيم المصدرية للحقل. ويُعد `ConsolidationFunction` نوع تعداد يتضمّن الأعضاء `Sum` و`Count` و`Average` و`Max` و`Min` و`Product` و`StdDev` و`StdDevp` و`Var` و`Varp`؛ وتغطي الأعضاء الستة الأولى معظم حالات الاستخدام الواقعية، بينما تمثل الأعضاء الأربعة الأخيرة تجميعات إحصائية مفيدة في تحليل التباين.
 
 {{% alert color="primary" %}}
-لا يؤثّر تغيير `Function` إلا على التجميع، بينما يظل عمود المصدر دون تغيير.
+لا يؤثر تغيير `Function` على شيء سوى التجميع؛ ولا يُعدَّل عمود المصدر أو بنية الصفوف/الأعمدة في الجدول المحوري. لتبديل التجميع في حقل بيانات موجود، عيّن `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` ثم استدعِ `pivotTable.calculateData()` لإعادة عرض الجدول المحوري.
 {{% /alert %}}
 
-يمكنك بالتالي الإبقاء على حقل بيانات واحد كـ `Sum` بينما تُضيف حقل بيانات ثانٍ يستهدف عمود المصدر نفسه لكنه يستخدم `Count` أو `Average`، وذلك جميعه ضمن جدول محوري واحد.
-
 ```python
-import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Data"
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, PivotFieldType, ConsolidationFunction
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+worksheet.setName("Data")
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
-    worksheet.cells.get(0, j).put_value(h)
+    worksheet.getCells().get(0, j).putValue(h)
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -75,37 +78,38 @@ data = [
 ]
 for i, row in enumerate(data):
     for j, val in enumerate(row):
-        worksheet.cells.get(i + 1, j).put_value(val)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-pivot_table.calculate_data()
+        worksheet.getCells().get(i + 1, j).putValue(val)
+pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
+pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT)
+pivot_table.calculateData()
 workbook.save("output_function.xlsx")
+jpype.shutdownJVM()
 ```
 
-## عرض حقول القيم على محور الصفوف أو الأعمدة
-عندما يحتوي الجدول المحوري على حقلين أو أكثر من حقول البيانات، يكشف Aspose.Cells عن حقل افتراضي إضافي يُسمى `PivotTable.ValuesField`. يمثّل هذا الحقل الافتراضي تجميع كل حقل بيانات موجود في منطقة البيانات. يمكنك سحبه إلى منطقة الصفوف أو الأعمدة باعتباره حقل محور أساسي، وهو أمر مفيد لتخطيط مقاييس متعددة جنبًا إلى جنب.
+## رسم حقول القيم على محور الصفوف أو الأعمدة
+عندما يحتوي الجدول المحوري على حقلين أو أكثر من حقول البيانات، يتيح Aspose.Cells الوصول إلى حقل افتراضي إضافي يُعرف باسم `PivotTable.ValuesField`. يمثل هذا الحقل الافتراضي تجميع كل حقل بيانات موجود في منطقة البيانات. يمكنك سحبه إلى منطقة الصفوف أو الأعمدة بوصفه حقلًا أساسيًا في الجدول المحوري، وهو أمر مفيد لتخطيط مقاييس متعددة جنبًا إلى جنب.
 
 {{% alert color="primary" %}}
-لا يعمل `PivotTable.ValuesField` إذا لم يكن هناك أي حقل قيمة أو إذا كان هناك حقل قيمة واحد فقط.
+لا يعمل `PivotTable.ValuesField` في حالة عدم وجود أي حقل قيم أو وجود حقل قيم واحد فقط.
 {{% /alert %}}
 
-تستعرض السيناريوهات أدناه ثلاثة أمثلة شاملة تُوضّح كل قدرة من القدرات الموصوفة أعلاه على نفس بنية الجدول المحوري.
-
 ```python
-import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
-workbook = ac.Workbook()
-worksheet = workbook.worksheets[0]
-worksheet.name = "Data"
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, PivotFieldType, ConsolidationFunction
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+worksheet.setName("Data")
 headers = ["Category", "Item", "Year", "Amount"]
 for j, h in enumerate(headers):
-    worksheet.cells.get(0, j).put_value(h)
+    worksheet.getCells().get(0, j).putValue(h)
 data = [
     ["Fruit",     "Apple",  2020, 100],
     ["Fruit",     "Apple",  2021, 150],
@@ -118,18 +122,19 @@ data = [
 ]
 for i, row in enumerate(data):
     for j, val in enumerate(row):
-        worksheet.cells.get(i + 1, j).put_value(val)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.pivot_tables[pivot_index]
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
-pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field)
-pivot_table.calculate_data()
+        worksheet.getCells().get(i + 1, j).putValue(val)
+pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
+pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
+pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
+pivot_table.getDataFields().get(1).setFunction(ConsolidationFunction.COUNT)
+pivot_table.addFieldToArea(PivotFieldType.COLUMN, pivot_table.getValuesField())
+pivot_table.calculateData()
 workbook.save("output_plot.xlsx")
+jpype.shutdownJVM()
 ```
 
 {{< app/cells/assistant language="python" >}}

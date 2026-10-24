@@ -44,6 +44,7 @@ Cuando no llama en absoluto a `SetSubtotals`, Aspose.Cells aplica la selección 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -106,6 +107,7 @@ Llamar a `SetSubtotals(PivotFieldSubtotalType.None, true)` elimina todas las fil
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb;
@@ -209,6 +211,15 @@ int main() {
 
 ## **Resumen**
 
+Los tres escenarios difieren únicamente en las llamadas a `SetSubtotals`. Todo lo demás —el conjunto de datos, los campos y las áreas a las que se asignan— es idéntico, lo que hace que los diseños sean directamente comparables.
+- **Colocación de campos.** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` mueve una columna de origen a una región. Dentro de una misma región, el orden de las llamadas determina el orden de visualización, por lo que la primera llamada se convierte en el grupo más externo. Para los subtotales se requieren dos o más campos en la misma región: con un solo campo no hay nada entre los grupos sobre lo que calcular el subtotal.
+- **Escenario 1 — subtotales automáticos.** No invocar `SetSubtotals` deja la elección a Excel, el cual aplica su subtotal predeterminado automáticamente a los campos numéricos. Invocar `SetSubtotals` con `PivotFieldSubtotalType::Automatic` registra explícitamente esa elección en lugar de dejarla implícita.
+- **Escenario 2 — sin subtotales.** `SetSubtotals` con `PivotFieldSubtotalType::None` desactiva el subtotal predeterminado, por lo que el informe de tabla dinámica conserva las filas del campo y el total general, pero omite las filas de subtotal que Excel insertaría de otra manera entre ellas.
+- **Escenario 3 — un subconjunto elegido.** Cada llamada alterna exactamente un tipo de subtotal, y las llamadas se acumulan en lugar de cancelarse entre sí. Por tanto, invocarlo una vez con `PivotFieldSubtotalType::Sum` y otra vez con `PivotFieldSubtotalType::Average` deja ambos habilitados, y la tabla dinámica muestra un subtotal de Suma, un subtotal de Promedio y un total general.
+
+{{% alert color="primary" %}}
+Nada sobre los subtotales es específico de la región de filas. Las mismas llamadas a `SetSubtotals` sobre un campo obtenido de `PivotTable.ColumnFields` generan los mismos tres diseños en el eje de columnas, porque la configuración pertenece al campo de tabla dinámica y no al eje en el que se encuentra.
+{{% /alert %}}
 ## **Artículos relacionados**
 - [Campos de página en tablas dinámicas](/cells/es/cpp/add-page-field-in-pivot-table/)
 - [Actualizar tablas dinámicas en Aspose.Cells for C++](/cells/es/cpp/refresh-pivot-table/)

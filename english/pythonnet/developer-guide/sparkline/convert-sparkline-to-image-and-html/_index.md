@@ -33,55 +33,59 @@ In this workflow you will build a worksheet that contains a small range of sourc
 7. Save the workbook as `output_with_sparklines.xlsx`.
 
 ```python
+from io import BytesIO
 import aspose.cells as ac
+from aspose.cells.charts import SparklineType
+from aspose.cells.drawing import ImageType
+from aspose.cells.rendering import ImageOrPrintOptions
 # Create a new workbook and access the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Populate sample data in cells A1:E1
-worksheet.cells["A1"].put_value(5)
-worksheet.cells["B1"].put_value(-3)
-worksheet.cells["C1"].put_value(8)
-worksheet.cells["D1"].put_value(-2)
-worksheet.cells["E1"].put_value(6)
+worksheet.cells.get("A1").put_value(5)
+worksheet.cells.get("B1").put_value(-3)
+worksheet.cells.get("C1").put_value(8)
+worksheet.cells.get("D1").put_value(-2)
+worksheet.cells.get("E1").put_value(6)
 # Add a Line sparkline group anchored at F1 (column 5, row 0)
 line_area = ac.CellArea()
 line_area.start_column = 5
 line_area.end_column = 5
 line_area.start_row = 0
 line_area.end_row = 0
-line_idx = worksheet.sparkline_groups.add(ac.SparklineType.LINE, "A1:E1", False, line_area)
+line_idx = worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, line_area)
 # Add a Column sparkline group anchored at G1 (column 6, row 0)
 column_area = ac.CellArea()
 column_area.start_column = 6
 column_area.end_column = 6
 column_area.start_row = 0
 column_area.end_row = 0
-column_idx = worksheet.sparkline_groups.add(ac.SparklineType.COLUMN, "A1:E1", False, column_area)
+column_idx = worksheet.sparkline_groups.add(SparklineType.COLUMN, "A1:E1", False, column_area)
 # Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 stacked_area = ac.CellArea()
 stacked_area.start_column = 7
 stacked_area.end_column = 7
 stacked_area.start_row = 0
 stacked_area.end_row = 0
-stacked_idx = worksheet.sparkline_groups.add(ac.SparklineType.STACKED, "A1:E1", False, stacked_area)
+stacked_idx = worksheet.sparkline_groups.add(SparklineType.STACKED, "A1:E1", False, stacked_area)
 # Configure image options for PNG output
-image_options = ac.ImageOrPrintOptions()
-image_options.image_type = ac.ImageType.PNG
+image_options = ImageOrPrintOptions()
+image_options.image_type = ImageType.PNG
 # Convert the Line sparkline to image and embed it in cell F2
 line_sp = worksheet.sparkline_groups[line_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 line_sp.to_image(ms, image_options)
-worksheet.cells["F2"].embedded_image = ms.to_array()
+worksheet.cells.get("F2").embedded_image = ms.getvalue()
 # Convert the Column sparkline to image and embed it in cell G2
 column_sp = worksheet.sparkline_groups[column_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 column_sp.to_image(ms, image_options)
-worksheet.cells["G2"].embedded_image = ms.to_array()
+worksheet.cells.get("G2").embedded_image = ms.getvalue()
 # Convert the Win/Loss sparkline to image and embed it in cell H2
 stacked_sp = worksheet.sparkline_groups[stacked_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 stacked_sp.to_image(ms, image_options)
-worksheet.cells["H2"].embedded_image = ms.to_array()
+worksheet.cells.get("H2").embedded_image = ms.getvalue()
 # Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx")
 ```
@@ -90,6 +94,7 @@ The code above produces a workbook where each visual representation of a sparkli
 
 {{% alert color="primary" %}}
 Because each sparkline group is anchored to a single cell, you can address it through the indexer `group.sparklines[0]` instead of enumerating with a `for` loop. This keeps the rendering code short and matches the typical "one sparkline per anchor cell" pattern. Storing the picture bytes via `cell.embedded_image` requires Aspose.Cells 26.5 or later.
+{{% /alert %}}
 
 ## **Workflow 2 — Export the Sparkline Worksheet to HTML**
 Once the workbook contains live sparklines (and optionally embedded picture counterparts), the entire worksheet can be published to the web by saving it as HTML. The `HtmlSaveOptions` class exposes the knobs you need to control this export; in this workflow you will reuse the `output_with_sparklines.xlsx` file produced by Workflow 1 and convert it to a clean, single-page HTML document.
@@ -109,10 +114,10 @@ workbook.save("sparklines.html", html_options)
 ```
 
 The code above takes the sparkline-rich workbook from Workflow 1 and turns it into a portable HTML file. Sparklines are preserved as inline SVG or PNG renderings inside the generated HTML, depending on the export mode, so end users can view the trends in any modern browser without needing Excel installed. By setting `export_active_worksheet_only` to `True`, you avoid accidentally publishing hidden sheets or auxiliary data — only the worksheet currently visible to the user is exported.
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 The `HtmlSaveOptions` class offers additional properties for fine-tuning the output, such as `export_hidden_worksheet`, `export_images_as_base64`, and `encoding`. Adjust these as needed for your deployment target.
+{{% /alert %}}
 
 ## **API Summary**
 The workflows above rely on a small set of Aspose.Cells APIs working together.
@@ -124,6 +129,5 @@ The workflows above rely on a small set of Aspose.Cells APIs working together.
 
 ## **Related Articles**
 - [Inserting an Image into a Cell](/cells/python-net/inserting-an-image-into-a-cell/)
-{{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

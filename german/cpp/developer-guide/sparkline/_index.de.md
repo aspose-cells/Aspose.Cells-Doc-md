@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells unterstützt das Erstellen von Sparklines in Arbeitsblattzellen. Sparklines sind kleine Diagramme, die in eine einzelne Zelle passen und eine schnelle visuelle Darstellung von Datentrends bieten. Aspose.Cells unterstützt Linien-, Spalten- und Gewinn/Verlust-Sparklines, und jede kann hinsichtlich Farbe, Liniendicke, Hoch-/Tiefpunkte und Markierungen angepasst werden.
+{{% /alert %}}
 
 ## **Einführung**
 Sparklines sind winzige Diagramme innerhalb von Zellen, die nützlich sind, wenn Sie einen schnellen Trend neben einer Datenreihe oder -spalte anzeigen möchten, ohne den Platz eines vollständigen Diagramms einzunehmen. Excel unterstützt drei Arten von Sparklines: **Linien**, **Spalten** und **Gewinn/Verlust**. Aspose.Cells spiegelt diese Funktionalität durch die APIs `SparklineGroup` und `SparklineGroupCollection` wider, die sich im Namespace `Aspose.Cells.Charts` befinden.
@@ -247,6 +248,5 @@ Nachdem eine `SparklineGroup` erstellt und zu `worksheet.SparklineGroups` hinzug
 - **Hoch-/Tiefpunkt-Markierungen** — Flags, die kleine Markierungen an den höchsten und niedrigsten Datenpunkten aktivieren, nützlich zur Hervorhebung von Extremwerten.
 - **Erster/Letzter/Negativer-Punkt-Markierungen** — Flags, die Markierungen an den ersten, letzten und negativen Datenpunkten umschalten.
 Um eine Farbe zu ändern, erstellen Sie immer eine `CellsColor`-Instanz und weisen Sie sie der entsprechenden Eigenschaft zu. Weisen Sie keinen rohen Farbwert direkt den Sparkline-Farbeigenschaften zu — sie erwarten den Typ `CellsColor` aus `Aspose.Cells.Drawing`. Die Methode `SparklineGroups.Add` selbst gibt ein vollständig typisiertes `SparklineGroup`-Objekt zurück, sodass Sie Eigenschaftszuweisungen am Rückgabewert verketten oder es in einer lokalen Variablen speichern und vor dem Speichern anpassen können.
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

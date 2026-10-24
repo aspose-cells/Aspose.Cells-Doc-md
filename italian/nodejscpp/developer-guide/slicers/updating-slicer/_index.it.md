@@ -1,53 +1,87 @@
 ---
-title: Aggiornamento Slicer con Node.js tramite C++
-linktitle: Aggiornamento Slicer
+title: Aggiornamento dello slicer con Node.js tramite C++
+linktitle: Aggiornamento dello slicer
 type: docs
 weight: 50
 url: /it/nodejs-cpp/updating-slicer/
-description: Questo articolo mostra come aggiornare le tabelle pivot collegate aggiornando lo slicer usando Aspose.Cells for Node.js via C++.
-keywords: Aspose.Cells Node.js tramite C++, Aggiorna slicer Node.js, come cambiare lo slicer Node.js, come regolare lo slicer in Node.js, come selezionare o deselezionare gli elementi dello slicer Node.js tramite C++.
+description: Questo articolo mostra come aggiornare uno slicer per filtrare i dati della Tabella Pivot o della tabella collegata utilizzando Aspose.Cells for Node.js via C++.
+keywords: Aspose.Cells Node.js via C++, Aggiorna slicer Node.js, come cambiare lo slicer Node.js, come filtrare una Tabella Pivot tramite slicer in Node.js, Slicer selectItems, Slicer clearFilter, Slicer unselectItems.
+ai_search_scope: cells_nodejscpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possibili Scenari di Utilizzo**
+Aggiornare uno slicer significa filtrare i dati della Tabella Pivot o della tabella a cui lo slicer è collegato. Quando si selezionano o si deselezionano gli elementi dello slicer in Microsoft Excel, la Tabella Pivot o la tabella collegata viene ricalcolata di conseguenza. Con Aspose.Cells for Node.js via C++, non è necessario iterare gli elementi della cache dello slicer e aggiornare manualmente lo slicer — il metodo [**Slicer.selectItems(labels, append)**](https://reference.aspose.com/cells/nodejs-cpp/slicer/) aggiorna lo slicer e ricalcola la Tabella Pivot o la tabella collegata direttamente dagli elementi del filtro:
+- `Slicer.selectItems(labels, append)` — seleziona le etichette specificate e ricalcola la Tabella Pivot o la tabella collegata. Quando `append` è `true`, le etichette originariamente selezionate vengono mantenute e le etichette specificate vengono aggiunte alla selezione; quando `append` è `false`, tutte le selezioni originali vengono cancellate e solo le etichette specificate restano selezionate.
+- `Slicer.unselectItems(labels)` — deseleziona parte degli elementi attualmente selezionati.
+- `Slicer.clearFilter()` — rimuove il filtro e seleziona tutti gli elementi.
 
-Se vuoi aggiornare uno slicer in Microsoft Excel, seleziona o deseleziona i suoi elementi, e aggiornará di conseguenza la tabella dello slicer o la tabella pivot. Per favore usa [**Slicer.getSlicerCacheItems()**](https://reference.aspose.com/cells/nodejs-cpp/slicercache/#getSlicerCacheItems--) per selezionare o deselezionare gli elementi dello slicer con Aspose.Cells e poi chiama il metodo [**Slicer.refresh()**](https://reference.aspose.com/cells/nodejs-cpp/slicer/#refresh--) per aggiornare la tabella dello slicer o la tabella pivot.
+{{% alert color="primary" %}}
+A partire da Aspose.Cells for Node.js via C++ 26.10, la proprietà `SlicerCacheItem.Selected` diventa di sola lettura e il relativo setter non è più supportato. Utilizzare i metodi `Slicer.selectItems`, `Slicer.unselectItems` e `Slicer.clearFilter` anziché impostare `SlicerCacheItem.Selected` elemento per elemento.
+{{% /alert %}}
 
-## **Come aggiornare il riquadro di selezione**
-
-Il seguente codice di esempio carica il [file Excel di esempio](67338475.xlsx) che contiene un filtro esistente. Deseleziona il 2° e 3° elemento del filtro e aggiorna il filtro. Quindi salva il lavoro come [file Excel di output](67338476.xlsx). La seguente schermata mostra l'effetto del codice di esempio sul file Excel di esempio. Come puoi vedere nella schermata, l'aggiornamento del filtro con gli elementi selezionati ha anche aggiornato la tabella pivot di conseguenza.
-
+## **Come aggiornare lo slicer**
+Il seguente codice di esempio carica il [file Excel di esempio](67338475.xlsx) che contiene uno slicer esistente collegato a una Tabella Pivot. Seleziona solo gli elementi "Blue" e "Pink" dello slicer con `Slicer.selectItems(labels, false)` — la Tabella Pivot viene ricalcolata direttamente dagli elementi del filtro, senza una chiamata manuale a `Slicer.refresh()`. Salva quindi la cartella di lavoro come [file Excel di output](67338476.xlsx). La schermata seguente mostra l'effetto del codice di esempio sul file Excel di esempio. Come puoi vedere nella schermata, la Tabella Pivot mostra solo gli elementi filtrati.
 ![todo:image_alt_text](updating-slicer_1.png)
 
 ## **Codice di Esempio**
+Sostituire la selezione corrente (restano selezionate solo le etichette specificate) e ricalcolare la Tabella Pivot o la tabella collegata:
 
 ```javascript
-const path = require("path");
 const AsposeCells = require("aspose.cells.node");
-
-// The path to the documents directory.
-const dataDir = path.join(__dirname, "data");
-const filePath = path.join(dataDir, "sampleUpdatingSlicer.xlsx");
 // Load sample Excel file containing slicer.
-const wb = new AsposeCells.Workbook(filePath);
-
-// Access first worksheet.
+const wb = new AsposeCells.Workbook("sampleUpdatingSlicer.xlsx");
+// Access the first worksheet.
 const ws = wb.getWorksheets().get(0);
-
 // Access the first slicer inside the slicer collection.
 const slicer = ws.getSlicers().get(0);
-
-// Access the slicer items.
-const scItems = slicer.getSlicerCache().getSlicerCacheItems();
-
-const items = slicer.getSlicerCache().getSlicerCacheItems();
-
-for (let i = 0; i < items.getCount(); i++) {
-const item = items.get(i);
-if (item.getValue() === "Pink" || item.getValue() === "Green") {
-item.setSelected(false);
-}
-}
-slicer.refresh();
+// Select only "Blue" and "Pink"; the linked pivot table or table
+// is recalculated directly from the filter items.
+slicer.selectItems(["Blue", "Pink"], false);
+// Save the modified workbook.
 wb.save("out.xlsx");
 ```
+
+Mantenere le etichette attualmente selezionate e selezionare ulteriori elementi:
+
+```javascript
+const AsposeCells = require("aspose.cells.node");
+// Load sample Excel file containing slicer.
+const wb = new AsposeCells.Workbook("sampleUpdatingSlicer.xlsx");
+// Access the first worksheet.
+const ws = wb.getWorksheets().get(0);
+// Access the first slicer inside the slicer collection.
+const slicer = ws.getSlicers().get(0);
+// Keep the current selection and add "Red" to it.
+slicer.selectItems(["Red"], true);
+```
+
+Deselezionare parte degli elementi selezionati:
+
+```javascript
+const AsposeCells = require("aspose.cells.node");
+// Load sample Excel file containing slicer.
+const wb = new AsposeCells.Workbook("sampleUpdatingSlicer.xlsx");
+// Access the first worksheet.
+const ws = wb.getWorksheets().get(0);
+// Access the first slicer inside the slicer collection.
+const slicer = ws.getSlicers().get(0);
+// Remove "Pink" from the current selection.
+slicer.unselectItems(["Pink"]);
+```
+
+Rimuovere il filtro (selezionare tutti gli elementi):
+
+```javascript
+const AsposeCells = require("aspose.cells.node");
+// Load sample Excel file containing slicer.
+const wb = new AsposeCells.Workbook("sampleUpdatingSlicer.xlsx");
+// Access the first worksheet.
+const ws = wb.getWorksheets().get(0);
+// Access the first slicer inside the slicer collection.
+const slicer = ws.getSlicers().get(0);
+// Clear the filter; all slicer items become selected again.
+slicer.clearFilter();
+```
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

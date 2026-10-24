@@ -26,6 +26,7 @@ Il existe deux façons d'enregistrer un champ pivot dans la zone de filtre. L'ap
 L'exemple suivant construit un petit jeu de données Fruit / Année / Montant, place un tableau croisé dynamique à la cellule E3 avec `Fruit` dans la zone de ligne, `Amount` dans la zone de données et `Year` dans la zone de filtre, actualise le tableau croisé dynamique et enregistre le classeur.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 Lorsque vous travaillez déjà avec une instance `PivotField`, vous pouvez la transmettre directement à `PivotTable.pageFields.add`. Le tableau croisé dynamique et le champ de filtre sont construits exactement comme dans le scénario précédent ; seul l'enregistrement final de la zone de filtre est remplacé par l'appel d'API de bas niveau.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // En-têtes
@@ -106,6 +108,7 @@ Dans le comportement par défaut de sélection unique, le champ de filtre est re
 Définir `currentPageItem` sur la valeur magique `0x7FFD` équivaut à effacer le filtre : le corps du tableau croisé dynamique résume chaque élément de page comme si aucun filtre n'était appliqué.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // Remplir les données Fruit/Année/Montant
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 Définir `currentPageItem` sur un index réel ne sélectionne qu'un seul élément de page. L'index est la position de l'élément dans la liste triée des éléments du champ de filtre, donc par exemple `1` sélectionne le deuxième élément après le tri.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -184,6 +188,7 @@ Le filtrage à sélection multiple transforme la liste déroulante de page en un
 Le code ci-dessous active la sélection multiple sur le même champ de filtre Year construit dans le scénario 1a, puis montre deux modèles : la partie A révèle chaque élément de page en laissant `isHidden` défini sur `false` pour chaque entrée, tandis que la partie B n'autorise que les valeurs source que vous choisissez et masque tout le reste via un bloc `switch (pivotItems[i].getStringValue())`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();

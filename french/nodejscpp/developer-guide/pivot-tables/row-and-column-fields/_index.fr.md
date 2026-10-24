@@ -1,8 +1,8 @@
 ---
-title: Ajouter des champs de ligne et de colonne à un tableau croisé dynamique dans Aspose.Cells pour .NET
-description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.SetSubtotals in Aspose.Cells for Node.js via C++
+title: Ajouter des champs de ligne et de colonne à un tableau croisé dynamique avec Aspose.Cells for Node.js via C++
+description: Découvrez comment ajouter des champs de base aux régions de ligne et de colonne d’un tableau croisé dynamique et contrôler les sous-totaux des champs de pivot à l’aide de PivotField.SetSubtotals dans Aspose.Cells for Node.js via C++
 linktitle: Champs de ligne et de colonne
-keywords: Aspose.Cells, Node.js, C++, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals
+keywords: Aspose.Cells, Node.js, C++, tableau croisé dynamique, champ de ligne, champ de colonne, PivotField, SetSubtotals, PivotFieldSubtotalType, sous-totaux
 type: docs
 weight: 220
 url: /fr/nodejs-cpp/pivot-table-add-row-and-column-fields/
@@ -10,18 +10,17 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Ajout d'un champ à la région de ligne ou de colonne**
-La méthode `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` déplace un champ de base des données source vers l'une des quatre régions du tableau croisé dynamique. L'argument `fieldType` accepte l'une des valeurs `PivotFieldType` suivantes.
+## **Ajouter un champ à la région de ligne ou de colonne**
+La méthode `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` déplace un champ de base des données source vers l’une des quatre régions du tableau croisé dynamique. L’argument `fieldType` accepte l’une des valeurs `PivotFieldType` suivantes.
 - `Row` — champs placés verticalement à gauche
 - `Column` — champs placés horizontalement en haut
 - `Data` — champs dont les valeurs sont agrégées
 - `Page` — champs utilisés comme filtres de rapport
-Après l'ajout des champs, vous pouvez y accéder via les propriétés `PivotTable.RowFields` et `PivotTable.ColumnFields`. Chaque propriété renvoie une `PivotFieldCollection`. Le champ à l'index 0 de `RowFields` est le champ de ligne le plus externe, et les indices suivants représentent les champs imbriqués à l'intérieur. La même convention d'indexation s'applique à `ColumnFields`.
-L'ordre d'imbrication des champs est important. L'ajout de `Category` à la région de ligne en premier, puis de `Item`, produit un tableau croisé dynamique dont le regroupement externe est `Category` et dont le regroupement interne est `Item`. L'inversion de l'ordre inverse la hiérarchie.
+L’ordre d’imbrication des champs est important. L’ajout de `Category` à la région de ligne, puis de `Item`, produit un tableau croisé dynamique dont le regroupement externe est `Category` et le regroupement interne est `Item`. L’inversion de l’ordre inverse la hiérarchie.
 
-## **Sous-totaux des champs croisés**
-La méthode `PivotField.SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` contrôle quelles lignes de sous-total apparaissent pour un champ croisé. Chaque appel bascule un seul type de sous-total indépendamment. Le passage de `shown = true` affiche le sous-total, tandis que `shown = false` le masque. Comme chaque appel n'affecte qu'un seul type, l'appel de la méthode plusieurs fois avec différentes valeurs `subtotalType` permet de construire un sous-ensemble personnalisé de sous-totaux.
-L'énumération `PivotFieldSubtotalType` définit les types de sous-totaux disponibles.
+## **Sous-totaux des champs de pivot**
+La méthode `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` contrôle les lignes de sous-total qui apparaissent pour un champ de pivot. Chaque appel active ou désactive indépendamment un seul type de sous-total. La transmission de `shown = true` affiche le sous-total, tandis que `shown = false` le masque. Comme chaque appel n’affecte qu’un seul type, l’appel de la méthode à plusieurs reprises avec différentes valeurs de `subtotalType` permet de définir un sous-ensemble personnalisé de sous-totaux.
+L’énumération `PivotFieldSubtotalType` définit les types de sous-total disponibles.
 - `Automatic` — Aspose.Cells choisit la sélection par défaut (généralement `Sum` pour les champs numériques)
 - `None` — supprime toutes les lignes de sous-total
 - `Sum`
@@ -36,13 +35,14 @@ L'énumération `PivotFieldSubtotalType` définit les types de sous-totaux dispo
 - `Varp`
 
 {{% alert color="primary" %}}
-Les sous-totaux ne s'affichent que lorsqu'il y a deux champs croisés ou plus dans la région de ligne (ou dans la région de colonne). Un seul champ n'a rien de significatif à sous-totaliser entre les valeurs, donc les appels `SetSubtotals` n'ont aucun effet visible dans ce cas. Cet article place donc deux champs de ligne (`Category` externe, `Item` interne) dans chaque exemple afin que la limite de sous-total entre chaque groupe `Category` soit visible.
+Les sous-totaux ne sont affichés que si la région de ligne (ou la région de colonne) contient au moins deux champs de pivot. Un champ unique ne permet pas de calculer un sous-total pertinent entre des groupes ; dans ce cas, les appels à `setSubtotals` n’ont donc aucun effet visible. Le présent article place par conséquent deux champs de ligne (`Category` externe, `Item` interne) dans chaque exemple, afin que la limite de sous-total entre chaque groupe `Category` soit visible.
 {{% /alert %}}
 
 ## **Scénario 1 — Sous-totaux automatiques (par défaut)**
-Lorsque vous n'appelez pas du tout `SetSubtotals`, Aspose.Cells applique la sélection `Automatic` aux champs numériques. L'exemple suivant confirme explicitement ce comportement en appelant `SetSubtotals(PivotFieldSubtotalType.Automatic, true)` sur le champ de ligne `Category` externe.
+Lorsque vous n’appelez pas `setSubtotals`, Aspose.Cells applique la sélection `Automatic` aux champs numériques. L’exemple suivant confirme explicitement ce comportement en appelant `setSubtotals(PivotFieldSubtotalType.Automatic, true)` sur le champ de ligne externe `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -95,10 +95,10 @@ workbook.save("output_automatic.xlsx");
 ```
 
 ## **Scénario 2 — Suppression de tous les sous-totaux (None)**
-L'appel de `SetSubtotals(PivotFieldSubtotalType.None, true)` supprime toutes les lignes de sous-total du tableau croisé dynamique, ne laissant que les lignes de champ et le total général en bas. Ceci est utile lorsque vous souhaitez obtenir les données groupées brutes sans aucune ligne de synthèse.
+L’appel à `setSubtotals(PivotFieldSubtotalType.None, true)` supprime toutes les lignes de sous-total du tableau croisé dynamique, ne laissant que les lignes de champ et le total général au bas de celui-ci. Cette approche est utile lorsque vous souhaitez obtenir les données groupées brutes sans aucune ligne de résumé.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -134,9 +134,10 @@ workbook.save("output_none.xlsx");
 ```
 
 ## **Scénario 3 — Sous-ensemble personnalisé de sous-totaux (Sum + Average)**
-Vous n'êtes pas limité à un seul type de sous-total. Chaque appel `SetSubtotals` opère indépendamment sur un type, donc l'appel de la méthode deux fois — une fois avec `Sum` et une fois avec `Average` — produit un sous-ensemble personnalisé de deux lignes de sous-total pour chaque groupe `Category`.
+Vous n’êtes pas limité à un seul type de sous-total. Chaque appel à `setSubtotals` agit indépendamment sur un type. Par conséquent, l’appel de la méthode deux fois — une fois avec `Sum` et une fois avec `Average` — produit un sous-ensemble personnalisé de deux lignes de sous-total pour chaque groupe `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -191,6 +192,19 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Récapitulatif**
-Les trois scénarios ci-dessus partagent le même ensemble de données et la même structure de tableau croisé dynamique. La seule différence entre eux est l'appel `SetSubtotals` appliqué au champ de ligne `Category` externe. Rappelez-vous la règle des deux champs : un seul champ dans une région n'a rien à sous-totaliser entre les valeurs, donc placez toujours au moins deux champs dans la région de ligne ou de colonne lorsque vous souhaitez que `SetSubtotals` ait un effet visible.
+
+Les trois scénarios ne diffèrent que par les appels à `setSubtotals`. Tout le reste — le jeu de données, les champs et les zones auxquelles ils sont assignés — est identique, ce qui rend les dispositions directement comparables.
+- **Placer les champs.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` déplace une colonne source vers une région. Dans une même région, l’ordre des appels détermine l’ordre d’affichage, de sorte que le premier appel devient le groupe le plus externe. Les sous-totaux nécessitent deux champs ou plus dans la même région : avec un seul champ, il n’y a rien entre les groupes sur lequel effectuer un sous-total.
+- **Scénario 1 — sous-totaux automatiques.** Ne pas appeler `setSubtotals` laisse le choix à Excel, qui applique son sous-total par défaut aux champs numériques. Appeler `setSubtotals` avec `AsposeCells.PivotFieldSubtotalType.Automatic` enregistre explicitement ce choix au lieu de le laisser implicite.
+- **Scénario 2 — pas de sous-totaux.** `setSubtotals` avec `AsposeCells.PivotFieldSubtotalType.None` désactive le sous-total par défaut, de sorte que le tableau croisé conserve les lignes de champ et le total général, mais supprime les lignes de sous-total qu’Excel insérerait normalement entre elles.
+- **Scénario 3 — un sous-ensemble choisi.** Chaque appel active ou désactive précisément un type de sous-total, et les appels s’accumulent plutôt qu’ils ne s’annulent les uns les autres. Appeler `setSubtotals` une fois avec `AsposeCells.PivotFieldSubtotalType.Sum` et une fois avec `AsposeCells.PivotFieldSubtotalType.Average` laisse donc les deux activés, et le tableau croisé affiche un sous-total de Somme, un sous-total de Moyenne et un total général.
+
+{{% alert color="primary" %}}
+Rien concernant les sous-totaux n’est spécifique à la région des lignes. Les mêmes appels à `setSubtotals` sur un champ provenant de `PivotTable.ColumnFields` produisent les mêmes trois dispositions sur l’axe des colonnes, car le paramètre appartient au champ croisé et non à l’axe sur lequel il est placé.
+{{% /alert %}}
+## **Articles associés**
+- [Champs de page dans les tableaux croisés dynamiques](/cells/fr/nodejs-cpp/add-page-field-in-pivot-table/)
+- [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for Node.js via C++](/cells/fr/nodejs-cpp/refresh-pivot-table/)
+- [Application de styles aux tableaux croisés dynamiques](/cells/fr/nodejs-cpp/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -33,7 +33,6 @@ L'exemple suivant charge un classeur contenant un tableau croisé dynamique exis
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
@@ -46,7 +45,7 @@ pivotTable = worksheet.getPivotTables().get(0)
 # Récupérer le premier PivotField de ligne
 rowField = pivotTable.getRowFields().get(0)
 # Appliquer le filtre d'étiquette — afficher uniquement les éléments de ligne dont les étiquettes commencent par le préfixe fourni
-rowField.filterByLabel(PivotFilterType.CaptionBeginsWith, prefix, "")
+rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Actualiser et recalculer les données du tableau croisé dynamique pour que le filtre prenne effet
 pivotTable.getPivotCache().refresh()
 # Enregistrer le classeur sur le disque
@@ -59,16 +58,15 @@ Les filtres de date vous permettent de restreindre un tableau croisé dynamique 
 
 {{% alert color="primary" %}}
 Le filtre de date ne fonctionne que lorsque la zone de ligne ou de colonne contient uniquement des cellules de date et d'heure ou des valeurs vides. Si le champ sous-jacent contient d'autres types de données tels que des nombres ou du texte, le filtre de date ne produira pas le résultat attendu. Assurez-vous que le champ est formaté en tant que date et que toutes les valeurs sont des instances valides de `DateTime` ou des cellules vides avant d'appliquer ce filtre.
-{{% /alert %}}
-
 Aspose.Cells expose le filtrage par date via la méthode `PivotField.filter_by_date(PivotFilterType, values)`. L'énumération `PivotFilterType` contient des valeurs de date dédiées telles que `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` et `Between`. Selon le type de filtre choisi, vous passez une ou deux valeurs `DateTime` (pour `Between`, vous passez les dates de début et de fin).
 L'exemple suivant charge un classeur contenant un tableau croisé dynamique dont la zone de ligne contient un champ de date, applique un filtre de date qui restreint les éléments visibles à une plage de dates particulière, actualise le tableau croisé dynamique et enregistre le classeur.
+{{% /alert %}}
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
@@ -88,7 +86,7 @@ Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
 # Appliquer le filtre de date sur le champ croisé dynamique
-dateField.filterByDate(PivotFilterType.DateBetween, startDate, endDate)
+dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
 # Actualiser et recalculer le tableau croisé dynamique pour que le filtre prenne effet
 pivotTable.getPivotCache().refresh()
 # Enregistrer le classeur
@@ -105,7 +103,6 @@ L'exemple suivant charge un classeur contenant un tableau croisé dynamique, app
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 workbook = Workbook("sample.xlsx")
 worksheet = workbook.getWorksheets().get(0)
@@ -130,16 +127,14 @@ Le filtre des 10 premiers est une forme spécialisée de filtre de valeur qui ne
 
 {{% alert color="primary" %}}
 Le filtre des 10 premiers n'est efficace que lorsque le tableau croisé dynamique possède un ou plusieurs champs de valeur dans la zone de données. Sans au moins un champ de valeur, il n'y a aucune mesure agrégée permettant de classer les éléments, et le filtre ne peut pas être appliqué.
-{{% /alert %}}
-
 Aspose.Cells expose le filtrage des 10 premiers via la méthode `PivotField.filter_top10(item_count, is_top, value_field, filter_type)`. Le paramètre `item_count` définit combien d'éléments conserver, `is_top` indique s'il faut conserver les premiers éléments (true) ou les derniers éléments (false), `value_field` fait référence au champ de données utilisé pour le classement, et `filter_type` contrôle la manière dont la valeur est calculée (généralement `Sum`, mais aussi `Count` et `Percent`).
 L'exemple suivant charge un classeur contenant un tableau croisé dynamique qui contient un champ de valeur, applique un filtre des 10 premiers pour ne conserver que les 10 éléments les plus élevés par somme des ventes, actualise le tableau croisé dynamique et enregistre le classeur.
+{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
 # Charger le classeur existant qui contient le tableau croisé dynamique
 inputPath = "input.xlsx"
@@ -159,10 +154,10 @@ rowField = pivotTable.getRowFields().get(0)
 valueFieldIndex = 0
 # Appliquer le filtre Top 10 sur le champ de ligne :
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (N premiers ; false signifierait N derniers)
 #   - valueFieldIndex = l'index du champ de données utilisé pour classer les éléments
-rowField.filterTop10(10, PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, True, 10)
 # Actualiser les données du tableau croisé dynamique et le recalculer pour que le filtre prenne effet
 pivotTable.getPivotCache().refresh()
 # Enregistrer le classeur
@@ -178,7 +173,6 @@ Cette approche est utile lorsque la règle de filtrage est irrégulière ou spé
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
 # Charger un classeur existant contenant un tableau croisé dynamique
 workbook = Workbook("pivot_table_sample.xlsx")
@@ -194,10 +188,10 @@ for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
     # Masquer les éléments du tableau croisé dynamique qui correspondent à un nom ou critère spécifique
     if item.getName() == "Item1" or item.getName() == "Item2":
-        item.setIsHidden(True)
+        item.setHidden(True)
     # Démontrer l'affichage : réafficher un élément précédemment masqué du tableau croisé dynamique
     if item.getName() == "Item3":
-        item.setIsHidden(False)
+        item.setHidden(False)
 # Actualiser et recalculer le tableau croisé dynamique pour que les modifications prennent effet
 pivotTable.getPivotCache().refresh()
 # Enregistrer le classeur — les éléments masqués restent dans les données sous-jacentes

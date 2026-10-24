@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge la création de sparklines dans les cellules de la feuille de calcul. Les sparklines sont des mini-graphiques qui tiennent dans une seule cellule, offrant une représentation visuelle rapide des tendances des données. Aspose.Cells prend en charge les sparklines de type ligne, colonne et gain/perte, et chacune peut être personnalisée en termes de couleur, d'épaisseur de ligne, de points hauts/bas et de marqueurs.
+{{% /alert %}}
 
 ## **Introduction**
 Les sparklines sont de petits graphiques intra-cellulaires utiles lorsque vous souhaitez afficher une tendance rapide à côté d'une ligne ou d'une colonne de données sans occuper l'espace d'un graphique complet. Excel prend en charge trois types de sparklines : **ligne**, **colonne** et **gain/perte**. Aspose.Cells offre la même fonctionnalité via les API `SparklineGroup` et `SparklineGroupCollection` disponibles dans le namespace `Aspose.Cells.Charts`.
@@ -260,7 +261,6 @@ Une fois qu'un `SparklineGroup` a été créé et ajouté à `worksheet.Sparklin
 - **Marqueurs de points hauts/bas** — indicateurs qui activent de petits marqueurs sur les points de données les plus hauts et les plus bas, utiles pour mettre en évidence les extrêmes.
 - **Marqueurs de points premier/dernier/négatif** — indicateurs qui activent/désactivent les marqueurs sur les points de données premier, dernier et négatif.
 Pour changer une couleur, créez toujours une instance de `CellsColor` et affectez-la à la propriété correspondante. N'affectez pas directement un `System.Drawing.Color` aux propriétés de couleur des sparklines — elles attendent le type `CellsColor` de `Aspose.Cells.Drawing`. La méthode `SparklineGroups.Add` elle-même renvoie un objet `SparklineGroup` complètement typé, vous pouvez donc enchaîner les affectations de propriétés sur la valeur de retour ou la stocker dans une variable locale et la personnaliser avant d'enregistrer.
-{{% /alert %}}
 
 ## Articles Connexes
 - [Convertir une sparkline en image et HTML dans Aspose.Cells for .NET](/cells/fr/net/convert-sparkline-to-image-and-html/)

@@ -78,6 +78,7 @@ namespace SparklineDemo
 A column sparkline renders each data point as a vertical bar. This makes it well suited to data whose magnitude is meaningful — for example, monthly sales figures or counts. In Aspose.Cells, you create a column sparkline by passing `SparklineType.Column` to the `SparklineGroups.Add` method.
 The procedure mirrors the line sparkline example:
 1. Create a new `Workbook` and access the first worksheet.
+2. Populate a row of source data (for example, row 1, columns A through E) with the values you want to visualize.
 3. Build a `CellArea` describing the destination cell.
 4. Call `worksheet.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, dest)`.
 5. Optionally customize the resulting `SparklineGroup` — for example, by setting `group.Type` to confirm the type, or by tweaking the bar color.

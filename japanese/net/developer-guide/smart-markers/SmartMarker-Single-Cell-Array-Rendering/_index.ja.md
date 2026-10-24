@@ -60,6 +60,7 @@ Smart Markers で `ArrayAsSingle` および `ExtraDelimiter` 属性を使用す�
 
 {{% alert color="primary" %}}
 `extraDelimiter` 属性は、複数文字の区切り文字、カスタムテキスト、改行区切り出力用の `\n` などのエスケープシーケンスを含む任意の文字列リテラルを受け入れます。配列が空の場合、結果のセルは空白のままになります。
+{{% /alert %}}
 
 ### **Step-by-Step Workflow**
 以下のワークフローでは、Smart Markers を使用して配列を単一セルにレンダリングする方法を説明します。
@@ -166,7 +167,6 @@ public class Order
 - 配列が空または null の場合、セルは空になります（データ型に応じて空文字列が含まれる場合もあります）。
 - この機能はオブジェクトデータソースだけでなく、列を配列に分割できる `DataSet` および `DataTable` ソースでも動作します。
 - 改行区切りの出力には、区切り文字の値として `\n` または `Environment.NewLine` を使用できます。
-{{% /alert %}}
 
 ## Related Articles
 - [Aspose.Cells for .NET でピボットテーブルにフィルターフィールドを追加する](/cells/ja/net/add-page-field-in-pivot-table/)

@@ -54,10 +54,9 @@ Los filtros de fecha permiten reducir una tabla dinámica según criterios basad
 
 {{% alert color="primary" %}}
 El filtro de fecha solo funciona cuando el área de fila o columna contiene exclusivamente celdas de fecha y hora o valores en blanco. Si el campo subyacente contiene otros tipos de datos, como números o texto, el filtro de fecha no producirá el resultado esperado. Asegúrese de que el campo esté formateado como fecha y de que todos los valores sean instancias válidas de `DateTime` o celdas vacías antes de aplicar este filtro.
-{{% /alert %}}
-
 Aspose.Cells expone el filtrado por fecha mediante el método `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. La enumeración `PivotFilterType` contiene valores de fecha dedicados como `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` y `Between`. Según el tipo de filtro elegido, se pasan uno o dos valores de `DateTime` (para `Between`, se pasan las fechas de inicio y fin).
 El siguiente ejemplo carga un libro con una tabla dinámica cuya área de fila contiene un campo de fecha, aplica un filtro de fecha que restringe los elementos visibles a un rango de fechas concreto, actualiza la tabla dinámica y guarda el libro.
+{{% /alert %}}
 
 ```java
 import java.io.File;
@@ -123,10 +122,9 @@ El filtro de los 10 mejores es una forma especializada de filtro de valor que co
 
 {{% alert color="primary" %}}
 El filtro de los 10 mejores solo es efectivo cuando la tabla dinámica tiene uno o varios campos de valor en el área de datos. Sin al menos un campo de valor, no existe ninguna medida agregada para clasificar los elementos y el filtro no puede aplicarse.
-{{% /alert %}}
-
 Aspose.Cells expone el filtrado de los 10 mejores mediante el método `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)`. El parámetro `itemCount` define cuántos elementos se deben conservar, `isTop` indica si se conservan los elementos superiores (true) o inferiores (false), `valueField` hace referencia al campo de datos utilizado para la clasificación y `filterType` controla cómo se calcula el valor (normalmente `Sum`, pero también `Count` y `Percent`).
 El siguiente ejemplo carga un libro con una tabla dinámica que contiene un campo de valor, aplica un filtro de los 10 mejores para conservar solo los 10 elementos superiores según la suma de ventas, actualiza la tabla dinámica y guarda el libro.
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -153,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (top N; false would mean bottom N)
 //   - valueFieldIndex = the index of the data field used to rank items
-rowField.filterTop10(10, PivotFilterType.SUM, true, valueFieldIndex);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
 // Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.refreshData();
 // Save the workbook
@@ -180,12 +178,12 @@ for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.getPivotItems().get(i);
     // Hide pivot items that match a specific name/criterion
-    if (item.getName() == "Item1" || item.getName() == "Item2")
+    if (item.getName().equals("Item1") || item.getName().equals("Item2"))
     {
         item.setHidden(true);
     }
     // Demonstrate unhiding: re-show a previously hidden pivot item
-    if (item.getName() == "Item3")
+    if (item.getName().equals("Item3"))
     {
         item.setHidden(false);
     }

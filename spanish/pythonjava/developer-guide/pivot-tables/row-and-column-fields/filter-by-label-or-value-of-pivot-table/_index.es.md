@@ -33,7 +33,6 @@ El siguiente ejemplo carga un libro que contiene una tabla dinámica existente, 
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
@@ -46,7 +45,7 @@ pivotTable = worksheet.getPivotTables().get(0)
 # Obtener el primer campo de fila PivotField
 rowField = pivotTable.getRowFields().get(0)
 # Aplicar el filtro de etiqueta — mostrar solo los elementos de fila cuyas etiquetas comiencen con el prefijo proporcionado
-rowField.filterByLabel(PivotFilterType.CaptionBeginsWith, prefix, "")
+rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
 # Refrescar y recalcular los datos de la tabla dinámica para que el filtro surta efecto
 pivotTable.getPivotCache().refresh()
 # Guardar el libro de trabajo de vuelta en disco
@@ -59,16 +58,15 @@ Los filtros de fecha le permiten reducir una tabla dinámica según criterios ba
 
 {{% alert color="primary" %}}
 El filtro de fecha solo funciona cuando el área de fila o columna contiene únicamente celdas de tipo fecha-hora o valores en blanco. Si el campo subyacente contiene otros tipos de datos, como números o texto, el filtro de fecha no producirá el resultado esperado. Asegúrese de que el campo esté formateado como fecha y de que todos los valores sean instancias válidas de `DateTime` o celdas vacías antes de aplicar este filtro.
-{{% /alert %}}
-
 Aspose.Cells expone el filtrado por fecha mediante el método `PivotField.filter_by_date(PivotFilterType, values)`. La enumeración `PivotFilterType` contiene valores específicos de fecha, como `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` y `Between`. Según el tipo de filtro elegido, debe pasar uno o dos valores `DateTime` (para `Between`, debe pasar las fechas de inicio y fin).
 El siguiente ejemplo carga un libro con una tabla dinámica cuyo área de filas contiene un campo de fecha, aplica un filtro de fecha que restringe los elementos visibles a un rango de fechas particular, actualiza la tabla dinámica y guarda el libro.
+{{% /alert %}}
 
 ```python
 import jpype
+import os
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
@@ -88,7 +86,7 @@ Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
 # Aplicar el filtro de fecha en el campo dinámico
-dateField.filterByDate(PivotFilterType.DateBetween, startDate, endDate)
+dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
 # Actualizar y recalcular la tabla dinámica para que el filtro surta efecto
 pivotTable.getPivotCache().refresh()
 # Guardar el libro de trabajo
@@ -105,7 +103,6 @@ El siguiente ejemplo carga un libro con una tabla dinámica, aplica un filtro de
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, PivotFilterType
 workbook = Workbook("sample.xlsx")
 worksheet = workbook.getWorksheets().get(0)
@@ -130,16 +127,14 @@ El filtro de los 10 mejores es una forma especializada de filtro de valor que co
 
 {{% alert color="primary" %}}
 El filtro de los 10 mejores solo es eficaz cuando la tabla dinámica tiene uno o más campos de valor en el área de datos. Sin al menos un campo de valor, no existe ninguna medida agregada con la que clasificar los elementos, y el filtro no se puede aplicar.
-{{% /alert %}}
-
 Aspose.Cells expone el filtrado de los 10 mejores mediante el método `PivotField.filter_top10(item_count, is_top, value_field, filter_type)`. El parámetro `item_count` define cuántos elementos se deben conservar, `is_top` indica si se deben mantener los elementos superiores (true) o los inferiores (false), `value_field` hace referencia al campo de datos utilizado para la clasificación, y `filter_type` controla cómo se calcula el valor (normalmente `Sum`, pero también `Count` y `Percent`).
 El siguiente ejemplo carga un libro con una tabla dinámica que contiene un campo de valor, aplica un filtro de los 10 mejores para mantener solo los 10 elementos superiores por la suma de ventas, actualiza la tabla dinámica y guarda el libro.
+{{% /alert %}}
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
 # Cargar el libro de trabajo existente que contiene la tabla dinámica
 inputPath = "input.xlsx"
@@ -159,10 +154,10 @@ rowField = pivotTable.getRowFields().get(0)
 valueFieldIndex = 0
 # Aplicar el filtro Top 10 en el campo de fila:
 #   - itemCount   = 10
-#   - filterType  = PivotFilterType.Sum
+#   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (N superiores; false significaría N inferiores)
 #   - valueFieldIndex = el índice del campo de datos utilizado para clasificar los elementos
-rowField.filterTop10(10, PivotFilterType.Sum, True, valueFieldIndex)
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, True, 10)
 # Actualizar los datos de la tabla dinámica y recalcularla para que el filtro surta efecto
 pivotTable.getPivotCache().refresh()
 # Guardar el libro de trabajo
@@ -178,7 +173,6 @@ Este enfoque resulta útil cuando la regla de filtrado es irregular o específic
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
 # Cargar un libro de trabajo existente que contiene una tabla dinámica
 workbook = Workbook("pivot_table_sample.xlsx")
@@ -194,10 +188,10 @@ for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
     # Ocultar elementos de la tabla dinámica que coincidan con un nombre/criterio específico
     if item.getName() == "Item1" or item.getName() == "Item2":
-        item.setIsHidden(True)
+        item.setHidden(True)
     # Demostrar cómo mostrar: volver a mostrar un elemento previamente oculto de la tabla dinámica
     if item.getName() == "Item3":
-        item.setIsHidden(False)
+        item.setHidden(False)
 # Actualizar y recalcular la tabla dinámica para que los cambios surtan efecto
 pivotTable.getPivotCache().refresh()
 # Guardar el libro de trabajo — los elementos ocultos permanecen en los datos subyacentes

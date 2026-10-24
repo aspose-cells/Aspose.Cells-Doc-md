@@ -32,6 +32,7 @@ Aşağıdaki örnek, mevcut bir özet tablo içeren bir çalışma kitabını y�
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     U16String fileName(u"sample.xlsx");
@@ -60,10 +61,9 @@ Tarih filtreleri, özet tablosunu bugün, geçen hafta, bu ay, gelecek çeyrek v
 
 {{% alert color="primary" %}}
 Tarih filtresi yalnızca satır veya sütun alanı yalnızca tarih-saat hücreleri veya boş değerler içerdiğinde çalışır. Temel alan sayılar veya metin gibi başka veri türleri içeriyorsa, tarih filtresi beklenen sonucu üretmez. Bu filtreyi uygulamadan önce alanın tarih olarak biçimlendirildiğinden ve tüm değerlerin geçerli `DateTime` örnekleri veya boş hücreler olduğundan emin olun.
-{{% /alert %}}
-
 Aspose.Cells, tarih filtrelemeyi `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)` yöntemi aracılığıyla sunar. `PivotFilterType` numaralandırması `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` ve `Between` gibi özel tarih değerleri içerir. Seçilen filtre türüne bağlı olarak bir veya iki `DateTime` değeri iletirsiniz (`Between` için başlangıç ve bitiş tarihlerini iletirsiniz).
 Aşağıdaki örnek, satır alanında bir tarih alanı bulunan özet tablo içeren bir çalışma kitabını yükler, görünür öğeleri belirli bir tarih aralığıyla kısıtlayan bir tarih filtresi uygular, özet tabloyu yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -111,6 +111,7 @@ Aşağıdaki örnek, bir özet tablo içeren bir çalışma kitabını yükler, 
 #include "Aspose.Cells.h"
 #include <cfloat>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook wb(u"sample.xlsx");
@@ -144,10 +145,9 @@ int main() {
 
 {{% alert color="primary" %}}
 İlk 10 filtresi yalnızca özet tablosunun veri alanında bir veya daha fazla değer özet alanı olduğunda etkilidir. En az bir değer alanı olmadan, öğeleri sıralamak için toplanan bir ölçü yoktur ve filtre uygulanamaz.
-{{% /alert %}}
-
 Aspose.Cells, ilk 10 filtrelemeyi `PivotField.FilterTop10(int32_t itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)` yöntemi aracılığıyla sunar. `itemCount` parametresi kaç öğenin tutulacağını tanımlar, `isTop` en üst öğelerin (true) mi yoksa en alt öğelerin (false) mi tutulacağını belirtir, `valueField` sıralama için kullanılan veri alanına referans verir ve `filterType` değerin nasıl hesaplanacağını kontrol eder (genellikle `Sum`, ayrıca `Count` ve `Percent`).
 Aşağıdaki örnek, bir değer alanı içeren özet tablo bulunan bir çalışma kitabını yükler, satış toplamına göre yalnızca en yüksek 10 öğeyi tutmak için bir ilk 10 filtresi uygular, özet tabloyu yeniler ve çalışma kitabını kaydeder.
+{{% /alert %}}
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -182,6 +182,7 @@ Bu yaklaşım, filtreleme kuralı düzensiz veya öğeye özgü olduğunda, örn
 #include "Aspose.Cells.h"
 #include <string>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     // Pivot tablo içeren mevcut bir çalışma kitabını yükle

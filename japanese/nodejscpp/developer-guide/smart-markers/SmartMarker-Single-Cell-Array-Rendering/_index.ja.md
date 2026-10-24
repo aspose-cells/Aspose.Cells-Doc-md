@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells は、スマートマーカーを介して配列データを単一セルにレンダリングすることをサポートしています。`ArrayAsSingle` 属性と `ExtraDelimiter` 属性を併用することで、開発者は単一セル内で配列要素を区切る方法を制御でき、レポートやテンプレートの柔軟な書式設定を実現します。
+{{% /alert %}}
 
 ## **はじめに**
 Aspose.Cells のスマートマーカーは、強力なテンプレートベースの機能であり、`&=DataSource.Field` などのマーカー式を使用してスプレッドシートのデータを動的に入力することができます。マーカーはデザイナーワークブックに配置され、テンプレートが `WorkbookDesigner` によって処理されると、マーカーは指定されたデータソースからの値に置き換えられます。
@@ -59,6 +60,7 @@ Aspose.Cells のスマートマーカーは、強力なテンプレートベー�
 
 {{% alert color="primary" %}}
 `extraDelimiter` 属性は、複数文字の区切り文字、カスタムテキスト、改行で区切られた出力のための `\n` などのエスケープシーケンスなど、任意の文字列リテラルを受け入れます。配列が空の場合、結果のセルは空白のままになります。
+{{% /alert %}}
 
 ### **ステップバイステップのワークフロー**
 次のワークフローでは、スマートマーカーを使用して配列を単一セルにレンダリングする方法について説明します。
@@ -71,6 +73,7 @@ Aspose.Cells のスマートマーカーは、強力なテンプレートベー�
 ### **コード例 1 — 基本的な文字列配列のレンダリング**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let product = {
     Tags: ["C#", "Aspose", "SmartMarker", "Excel"]
 };
@@ -88,6 +91,7 @@ workbook.save("output_arraySingle.xlsx");
 ### **コード例 2 — カスタム区切り文字を使用した数値配列**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 class Student {
     constructor() {
         this.Scores = [];
@@ -105,6 +109,7 @@ workbook.save("output_numericArray.xlsx");
 ### **コード例 3 — デフォルトの動作と ArrayAsSingle 動作の比較**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var order = {
     Items: ["Apple", "Banana", "Cherry", "Date"]
 };
@@ -133,8 +138,5 @@ workbook.save("output_comparison.xlsx");
 - この機能はオブジェクトデータソースだけでなく、列を配列に分割できる `DataSet` および `DataTable` ソースでも機能します。
 - 改行で区切られた出力には、区切り文字の値として `\n` または `os.EOL` を使用できます。
 - スマートマーカーは、結果として得られる連結文字列を表示するのに十分な幅を持つセルに配置してください。そうでない場合、書式によってはコンテンツが隣接するセルに視覚的にオーバーフローする可能性があります。
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

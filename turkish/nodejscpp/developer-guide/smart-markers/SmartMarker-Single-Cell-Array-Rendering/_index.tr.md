@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, Akıllı İşaretçiler aracılığıyla dizi verilerini tek bir hücreye oluşturmayı destekler. Geliştiriciler, `ArrayAsSingle` özniteliğini `ExtraDelimiter` özniteliği ile birlikte kullanarak dizi öğelerinin tek bir hücre içinde nasıl ayrılacağını kontrol edebilir ve raporlar ile şablonlar için esnek biçimlendirme sağlayabilir.
+{{% /alert %}}
 
 ## **Giriş**
 Aspose.Cells'teki Akıllı İşaretçiler, `&=DataSource.Field` gibi işaretçi ifadelerini kullanarak elektronik tablo verilerini dinamik olarak doldurmanıza olanak tanıyan güçlü, şablon tabanlı bir özelliktir. İşaretçi, tasarımcı çalışma kitabına yerleştirilir ve şablon `WorkbookDesigner` tarafından işlendiğinde, işaretçiler sağlanan veri kaynağından gelen değerlerle değiştirilir.
@@ -59,6 +60,7 @@ Akıllı İşaretçilerinizde `ArrayAsSingle` ve `ExtraDelimiter` öznitelikleri
 
 {{% alert color="primary" %}}
 `extraDelimiter` özniteliği, çok karakterli sınırlayıcılar, özel metinler veya yeni satırla ayrılmış çıktı için `\n` gibi kaçış dizileri dahil herhangi bir dize değişmezini kabul eder. Dizi boşsa, sonuç hücresi boş bırakılır.
+{{% /alert %}}
 
 ### **Adım Adım İş Akışı**
 Aşağıdaki iş akışı, Akıllı İşaretçileri kullanarak bir dizinin tek bir hücreye nasıl oluşturulacağını açıklar.
@@ -71,6 +73,7 @@ Aşağıdaki iş akışı, Akıllı İşaretçileri kullanarak bir dizinin tek b
 ### **Kod Örneği 1 — Temel Dize Dizisi Oluşturma**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let product = {
     Tags: ["C#", "Aspose", "SmartMarker", "Excel"]
 };
@@ -88,6 +91,7 @@ workbook.save("output_arraySingle.xlsx");
 ### **Kod Örneği 2 — Özel Sınırlayıcı ile Sayısal Dizi**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 class Student {
     constructor() {
         this.Scores = [];
@@ -105,6 +109,7 @@ workbook.save("output_numericArray.xlsx");
 ### **Kod Örneği 3 — Varsayılan ve ArrayAsSingle Davranışının Karşılaştırılması**
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var order = {
     Items: ["Apple", "Banana", "Cherry", "Date"]
 };
@@ -133,8 +138,5 @@ workbook.save("output_comparison.xlsx");
 - Özellik, bir sütunun dizilere bölünebileceği `DataSet` ve `DataTable` kaynaklarının yanı sıra nesne veri kaynaklarıyla da çalışır.
 - Yeni satırla ayrılmış çıktı için, sınırlayıcı değeri olarak `\n` veya `os.EOL` kullanabilirsiniz.
 - Akıllı İşaretçiyi, sonuçta birleştirilmiş dizeyi görüntülemek için yeterli genişliğe sahip bir hücreye yerleştirin; aksi takdirde, içerik biçime bağlı olarak bitişik hücrelere görsel olarak taşabilir.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

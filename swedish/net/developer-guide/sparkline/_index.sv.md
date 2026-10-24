@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells stöder skapande av sparklines inuti kalkylbladsceller. Sparklines är miniatyrdiagram som passar inom en enskild cell och ger en snabb visuell representation av datatrender. Aspose.Cells stöder linje-, kolumn- och vinst/förlust-sparklines, och var och en kan anpassas vad gäller färg, linjetjocklek, högsta/lägsta punkter och markörer.
+{{% /alert %}}
 
 ## **Introduktion**
 Sparklines är små diagram i celler som är användbara när du vill visa en snabb trend bredvid en rad eller kolumn med data utan att ta upp utrymmet för ett fullstort diagram. Excel stöder tre typer av sparklines: **linje**, **kolumn** och **vinst/förlust**. Aspose.Cells speglar denna funktion via API:erna `SparklineGroup` och `SparklineGroupCollection` som finns i namnrymden `Aspose.Cells.Charts`.
@@ -260,13 +261,12 @@ När en `SparklineGroup` har skapats och lagts till i `worksheet.SparklineGroups
 - **Högsta/lägsta punktmarkörer** — flaggor som slår på små markörer på de högsta och lägsta datapunkterna, användbara för att betona extremer.
 - **Första/sista/negativa punktmarkörer** — flaggor som växlar markörer på de första, sista och negativa datapunkterna.
 För att ändra en färg, skapa alltid en `CellsColor`-instans och tilldela den till den relevanta egenskapen. Tilldela inte en `System.Drawing.Color` direkt till sparkline-färgegenskaper — de förväntar sig typen `CellsColor` från `Aspose.Cells.Drawing`. Metoden `SparklineGroups.Add` returnerar själv ett fullständigt typat `SparklineGroup`-objekt, så du kan kedja egenskapstilldelningar på returvärdet eller lagra det i en lokal variabel och anpassa det innan du sparar.
-{{% /alert %}}
 
 ## Relaterade artiklar
 - [Konvertera sparkline till bild och HTML i Aspose.Cells for .NET](/cells/sv/net/convert-sparkline-to-image-and-html/)
 - [Lägg till filterfält i en pivottabell i Aspose.Cells for .NET](/cells/sv/net/add-page-field-in-pivot-table/)
 - [Tillämpa stilar på pivottabeller i Aspose.Cells for .NET](/cells/sv/net/apply-style-to-pivot-table/)
 - [Ändra sidfältslayout i pivottabell](/cells/sv/net/change-page-field-layout/)
-- [Konvertera Excel till OFD-format](/cells/sv/net/converting-excel-to-ofd-format/)csharp
+- [Konvertera Excel till OFD-format](/cells/sv/net/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="csharp" >}}

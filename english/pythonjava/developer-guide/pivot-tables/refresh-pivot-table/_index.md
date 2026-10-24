@@ -24,20 +24,20 @@ The four-layer data chain is:
 
 {{% alert color="primary" %}}
 `PivotCache.getSourceType()` (enum `PivotTableSourceType`) indicates where the cache data came from. As of v26.7, `PivotCache.refresh()` supports only the **`SHEET`** and **`CONSOLIDATION`** source types — that is, data that lives in worksheet ranges. External sources (databases, external connections, etc.) are not yet refreshable through the cache API.
-{{% /alert %}}
-
 Because of this chain, there are two fundamental refresh paths in Aspose.Cells:
 - **`PivotTable.calculateData()`** — recalculates one `PivotTable`'s display from already-cached data, with no round-trip back to the data source.
 All scenarios in this article use worksheet-cell source data, so the source type is `SHEET` and refresh operations behave as described.
+{{% /alert %}}
 
 ## Quick Start
 If you just need the shortest possible code that refreshes every pivot in the workbook, a single call is enough:
 
-```csharp
-using Aspose.Cells;
-Workbook workbook = new Workbook("input.xlsx");
-workbook.RefreshAll();
-workbook.Save("output.xlsx");
+```python
+import jpype
+from asposecells.api import Workbook
+workbook = Workbook("input.xlsx")
+workbook.refreshAll()
+workbook.save("output.xlsx")
 ```
 
 Everything else in this article explains when to choose a narrower API instead.
@@ -56,7 +56,6 @@ The following example builds a workbook with a Fruit/Year/Amount source range, c
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 # Create a new workbook
 workbook = Workbook()
@@ -94,9 +93,9 @@ worksheet.getCells().get("C9").putValue(120)
 pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
 pivotTable = worksheet.getPivotTables().get(pivotIndex)
 # Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 # Modify several Amount values in the source data to simulate changes
 worksheet.getCells().get("C2").putValue(55)
 worksheet.getCells().get("C5").putValue(85)
@@ -115,7 +114,6 @@ Sometimes you only need to refresh the pivot tables that live on one specific wo
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -173,7 +171,6 @@ The following example modifies a non-source property of the pivot table and then
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -210,13 +207,13 @@ worksheet.getCells().get("C9").putValue(450)
 pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
 pivotTable = worksheet.getPivotTables().get(pivotIndex)
 # Assign fields: Fruit to Row, Year to Column, Amount to Data
-pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit")
-pivotTable.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 # Modify a view/layout property — this is a presentation-only change,
-# so it does NOT require re-reading the source data through PivotCache.Refresh().
+# so it does NOT require re-reading the source data through PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(False)
-# CalculateData() re-renders THIS pivot table's display (data + style) from the
+# calculateData() re-renders THIS pivot table's display (data + style) from the
 # data already held in the PivotCache. Because the source data did not change,
 # no round-trip to the source is performed — only the cached values are recalculated
 # into worksheet cells.
@@ -247,9 +244,9 @@ The table below summarizes the available refresh APIs and when to choose each on
 In practice, prefer the cache-based APIs over the obsolete per-table `refreshData()`. They are aware of shared caches, they avoid redundant source fetches, and they let you choose the smallest scope that satisfies your refresh requirement.
 
 ## Common Pitfalls
-- **Forgetting to refresh before saving.** A pivot table only writes its rendered values into the worksheet when its data chain is refreshed. If you modify source cells, call `PivotCache.Refresh()` (or `Workbook.RefreshAll()`) before `Workbook.save()`, otherwise the saved file still contains the old aggregated values.
-- **Calling the obsolete `RefreshData()` per table.** In v26.7, `PivotTable.RefreshData()` is marked obsolete and re-fetches the source for every call. With multiple pivot tables sharing a cache this means N redundant source fetches. Replace with a single `PivotCache.Refresh()` followed by `CalculateData()` per table.
-- **Refreshing when only the layout changed.** If you only changed a pivot table's view (column order, `ConsolidationFunction`, etc.) without touching source data, `PivotCache.Refresh()` is unnecessary and slow. Call `pivotTable.CalculateData()` to re-render from the existing cache.
-- **External source not supported by `PivotCache.Refresh()`.** If the pivot table's source comes from an external connection (database, OLAP cube, etc.), `PivotCache.Refresh()` cannot refresh it in v26.7 — it currently only supports `Sheet` and `Consolidation` source types. For external sources, re-open the workbook or rebuild the cache from the source.
+- **Forgetting to refresh before saving.** A pivot table only writes its rendered values into the worksheet when its data chain is refreshed. If you modify source cells, call `PivotCache.refresh()` (or `Workbook.refreshAll()`) before `Workbook.save()`, otherwise the saved file still contains the old aggregated values.
+- **Calling the obsolete `RefreshData()` per table.** In v26.7, `PivotTable.RefreshData()` is marked obsolete and re-fetches the source for every call. With multiple pivot tables sharing a cache this means N redundant source fetches. Replace with a single `PivotCache.refresh()` followed by `calculateData()` per table.
+- **Refreshing when only the layout changed.** If you only changed a pivot table's view (column order, `ConsolidationFunction`, etc.) without touching source data, `PivotCache.refresh()` is unnecessary and slow. Call `pivotTable.calculateData()` to re-render from the existing cache.
+- **External source not supported by `PivotCache.refresh()`.** If the pivot table's source comes from an external connection (database, OLAP cube, etc.), `PivotCache.refresh()` cannot refresh it in v26.7 — it currently only supports `Sheet` and `Consolidation` source types. For external sources, re-open the workbook or rebuild the cache from the source.
 
 {{< app/cells/assistant language="python" >}}

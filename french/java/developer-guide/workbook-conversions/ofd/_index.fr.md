@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge la conversion des classeurs Excel directement au format OFD (Open Fixed-layout Document) à l'aide de la valeur d'énumération `SaveFormat.Ofd`. Le document OFD obtenu préserve la mise en page visible du classeur, son contenu, les cellules fusionnées, les largeurs de colonnes, les hauteurs de lignes, les polices, les couleurs, les bordures et les formats de nombres. Aspose.Cells convient ainsi aux flux de travail d'archivage, d'impression, de dépôt réglementaire et de soumission aux autorités publiques qui nécessitent une sortie à mise en page fixe.
+{{% /alert %}}
 
 ## **Introduction**
 OFD (Open Fixed-layout Document) est une norme nationale chinoise (GB/T 33190-2016) destinée à représenter les documents numériques selon une mise en page fixe et paginée. Elle joue un rôle similaire à celui du PDF pour les cas d'utilisation où l'apparence visuelle du document source doit être conservée exactement telle qu'elle a été conçue. L'OFD est largement adopté pour les soumissions aux autorités publiques, les dépôts réglementaires, les factures électroniques et l'archivage à long terme en République populaire de Chine.
@@ -19,6 +20,7 @@ La conversion de classeurs Excel en OFD est une exigence fréquente dans les sc�
 
 {{% alert color="primary" %}}
 La sortie OFD générée par Aspose.Cells préserve la mise en page visible du classeur source, y compris le contenu des cellules, les cellules fusionnées, les largeurs de colonnes et les hauteurs de lignes. La mise en forme des cellules, telles que les polices, les couleurs, les bordures, l'alignement et les formats de nombres, est également restituée dans la sortie à mise en page fixe. Les options de mise en page configurées sur la feuille de calcul, telles que le format du papier, l'orientation et la zone d'impression, influencent la mise en page du document OFD résultant.
+{{% /alert %}}
 
 ## **Création d'un classeur Excel et enregistrement au format OFD**
 Aspose.Cells vous permet de construire un classeur par programmation, de le remplir avec des données, puis de l'enregistrer directement au format OFD à l'aide de l'énumération `SaveFormat.Ofd`. L'exemple suivant crée une facture à partir de zéro. Il ajoute un logo d'entreprise, des informations d'en-tête, une section de facturation, des lignes de détail et des totaux calculés, puis exporte le classeur vers un document OFD.
@@ -206,8 +208,5 @@ System.out.println("\nFile successfully converted to OFD format: " + dataDir + "
 - [Insertion d'une image dans une cellule](/cells/fr/java/inserting-an-image-into-a-cell/)
 - [Lecture et écriture de fichiers DBF](/cells/fr/java/dbf/)
 - [Convertir un sparkline en image et HTML dans Aspose.Cells for Java](/cells/fr/java/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

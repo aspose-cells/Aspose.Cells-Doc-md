@@ -30,6 +30,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ينشئ المثال التالي مصنفًا، ويكتب القيم 5، -3، 8، -2، 6 في الخلايا من A1 إلى E1، ويضيف خط مؤشر خطي في الخلية F1 يتتبع تلك القيم. كما يخصص لون الخط إلى الأحمر ويُفعِّل علامات لنقاط القمة والقاع.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
@@ -41,13 +42,13 @@ cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
 // الخطوة 3: بناء منطقة CellArea تشير إلى خلية الوجهة F1
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // العمود F (مفهرس من 0)
-dest.setEndColumn(5);
-dest.setStartRow(0);      // الصف 1 (مفهرس من 0)
-dest.setEndRow(0);
+dest.StartColumn = 5;   // العمود F (مفهرس من 0)
+dest.EndColumn = 5;
+dest.StartRow = 0;      // الصف 1 (مفهرس من 0)
+dest.EndRow = 0;
 // الخطوة 4: إضافة سباركلاين خطي من A1:E1 إلى F1
 // SparklineGroups.Add يُرجع فهرس المجموعة المُضافة حديثًا
-let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, dest);
+let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(index);
 // الخطوة 5: إنشاء لون أحمر CellsColor وتعيينه كلون خط سباركلاين
 let red = workbook.createCellsColor();
@@ -71,6 +72,7 @@ workbook.save("output_line.xlsx");
 يكتب المثال أدناه القيم 5، -3، 8، -2، 6 في A1:E1 ويُصير خط مؤشر عمودي في F1. تُرسم القيم السالبة كأشرطة تتجه للأسفل والقيم الموجبة كأشرطة تتجه للأعلى، مما يجعل المساهمات الموجبة والسالبة سهلة التمييز بمجرد النظر.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // الخطوة 2: كتابة قيم العينة في A1:E1
@@ -80,13 +82,13 @@ for (let i = 0; i < values.length; i++) {
 }
 // الخطوة 3: بناء CellArea يشير إلى F1 (فهرس العمود 5، فهرس الصف 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);
-dest.setEndColumn(5);
-dest.setStartRow(0);
-dest.setEndRow(0);
+dest.StartColumn = 5;
+dest.EndColumn = 5;
+dest.StartRow = 0;
+dest.EndRow = 0;
 // الخطوة 4: إضافة Column sparkline إلى خلية الوجهة
 let idx = worksheet.getSparklineGroups().add(
-    AsposeCells.SparklineType.Column, "A1:E1", false, dest);
+    AsposeCells.SparklineType.COLUMN, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(idx);
 // الخطوة 5: تأكيد نوع الـ sparkline عن طريق قراءة group.Type
 console.log("Sparkline Type added: " + group.getType());
@@ -106,6 +108,7 @@ console.log("Workbook saved as output_column.xlsx");
 6. احفظ المصنف تحت اسم ملف مميز بحيث يمكن للأمثلة الثلاثة أن تتعايش على القرص.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
@@ -117,13 +120,13 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // الخطوة 3: إنشاء CellArea يشير إلى F1 (العمود 5، الصف 0)
 let dest = new AsposeCells.CellArea();
-dest.setStartColumn(5);   // F
-dest.setEndColumn(5);
-dest.setStartRow(0);      // الصف 1
-dest.setEndRow(0);
-// الخطوة 4: إضافة سباركلاين Win/Loss (SparklineType.Stacked)
+dest.StartColumn = 5;   // F
+dest.EndColumn = 5;
+dest.StartRow = 0;      // الصف 1
+dest.EndRow = 0;
+// الخطوة 4: إضافة سباركلاين Win/Loss (SparklineType.STACKED)
 let groupIndex = worksheet.getSparklineGroups().add(
-    AsposeCells.SparklineType.Stacked,
+    AsposeCells.SparklineType.STACKED,
     "A1:E1",
     false,
     dest
@@ -159,6 +162,7 @@ console.log("Workbook saved successfully: output_winloss.xlsx");
 ينشئ المثال المجمع أدناه مصنفًا واحدًا، ويمتلئ الصف 1 بالقيم 5، -3، 8، -2، 6، ثم يضيف ثلاث مجموعات من خطوط المؤشرات في الخلايا F1 وF2 وF3 — واحدة من كل نوع — بحيث يُظهر الملف الناتج أنماط خطوط المؤشرات الثلاثة دفعة واحدة.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // الخطوة 2: تعبئة بيانات العينة في الصف 1 (A1:E1)
@@ -169,11 +173,11 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // الخطوة 3: إضافة مجموعة خط مؤشر الأداء في F1
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
 // تخصيص لون خط مؤشر الأداء عبر CellsColor
 let lineColor = workbook.createCellsColor();
@@ -181,11 +185,11 @@ lineColor.setColor(AsposeCells.Color.getBlue());
 lineGroup.setSeriesColor(lineColor);
 // الخطوة 4: إضافة مجموعة مؤشر أداء عمودية في F2
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(5);
-columnArea.setEndColumn(5);
-columnArea.setStartRow(1);
-columnArea.setEndRow(1);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 5;
+columnArea.EndColumn = 5;
+columnArea.StartRow = 1;
+columnArea.EndRow = 1;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
 // تخصيص لون سلسلة مؤشر الأداء العمودي
 let columnColor = workbook.createCellsColor();
@@ -193,11 +197,11 @@ columnColor.setColor(AsposeCells.Color.getGreen());
 columnGroup.setSeriesColor(columnColor);
 // الخطوة 5: إضافة مجموعة مؤشر أداء الفوز/الخسارة (المكدسة) في F3
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(5);
-stackedArea.setEndColumn(5);
-stackedArea.setStartRow(2);
-stackedArea.setEndRow(2);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 5;
+stackedArea.EndColumn = 5;
+stackedArea.StartRow = 2;
+stackedArea.EndRow = 2;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
 // تخصيص لون سلسلة مؤشر أداء الفوز/الخسارة
 let stackedColor = workbook.createCellsColor();
@@ -216,4 +220,4 @@ workbook.save("output_all.xlsx");
 - **علامات نقاط الأولى/الأخيرة/السالبة** — أعلام تُبدّل العلامات على نقاط البيانات الأولى والأخيرة والسالبة.
 لتغيير اللون، أنشئ دائمًا نسخة `CellsColor` وعيّنها إلى الخاصية ذات الصلة. لا تعيّن `java.awt.Color` مباشرة إلى خصائص لون خط المؤشر — فهي تتوقع النوع `CellsColor` من `com.aspose.cells.Drawing`. إن طريقة `SparklineGroups.add` نفسها تُرجع كائن `SparklineGroup` مكتوبًا بالكامل، بحيث يمكنك ربط تعيينات الخصائص على القيمة المُرجعة أو تخزينها في متغير محلي وتخصيصها قبل الحفظ.
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

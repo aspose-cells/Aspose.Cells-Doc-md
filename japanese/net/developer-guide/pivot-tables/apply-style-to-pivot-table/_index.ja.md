@@ -89,6 +89,73 @@ workbook.Save("output.xls");
 
 ## **Apply a Modern Named Preset Pivot Table Style**
 
+`PivotTable.PivotTableStyleType` は、Excel 2007 でピボットテーブル用に導入された組み込みの名前付きスタイルから 1 つを選択します。`PivotTableStyleType` 列挙型は 3 つのテーマファミリーを公開しています。`PivotTableStyleLight1` から `PivotTableStyleLight28` までのライトファミリー、`PivotTableStyleMedium1` から `PivotTableStyleMedium28` までのミディアムファミリー、および `PivotTableStyleDark1` から `PivotTableStyleDark28` までのダークファミリーです。`None` と `Custom` も定義しています。各ファミリーで番号が大きいメンバーは、Excel 2017 で追加されたスタイルです。
+これらのプリセットは読み取り専用です。プリセットが提供する範囲を超えて色、罫線、またはフォントを変更する必要がある場合は、代わりにカスタムピボットスタイルを定義する必要があります。これは [シナリオ 3](#define-and-apply-a-custom-pivot-table-style) に示されています。
+
+{{% alert color="primary" %}}
+**なぜ現代のプリセットを使用し、レポートシリーズの自動形式を使用しないのですか?** `PivotTableAutoFormatType` の `Report1` から `Report10` まで、および `Table1` から `Table10` までの値は、ピボット列フィールドより前に導入されたものなので、列フィールドのヘッダーに対するスタイル設定を含みません。そのため、Excel はそれらのヘッダーをスタイルなしで描画します。`PivotTableStyleType` のプリセットは、現代の Excel が使用する二次元レイアウト向けに設計されており、行フィールドと列フィールドのヘッダーの両方にスタイルを適用します。
+{{% /alert %}}
+
+このシナリオでは、シナリオ 1 の Fruit/Year/Amount データセットを再利用し、`Fruit` 行フィールドと併置するように `PivotFieldType.Column` を使用して `Year` を列領域に追加し、`PivotTable.PivotTableStyleType` を使ってダークテーマのプリセット `PivotTableStyleDark1` を適用し、結果を `PivotTableStyleType` が意味を持つ形式である `.xlsx` として保存します。
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+// シナリオ 2: PivotTableStyleType を使用して、モダンな Excel 2007+ の名前付きプリセットスタイルを適用します。
+// 対象ファイル形式: .xlsx。PivotTableStyleType 列挙体は Aspose.Cells 名前空間にあります
+// (Aspose.Cells.Pivot ではなく) -- したがって、追加の using ステートメントは不要です。
+// GitHub 参照: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.Worksheets[0];
+// ヘッダー行: Fruit / Year / Amount
+worksheet.Cells["A1"].PutValue("Fruit");
+worksheet.Cells["B1"].PutValue("Year");
+worksheet.Cells["C1"].PutValue("Amount");
+// Fruit / Year / Amount の 9 データ行
+worksheet.Cells["A2"].PutValue("Grape");
+worksheet.Cells["B2"].PutValue(2020);
+worksheet.Cells["C2"].PutValue(100);
+worksheet.Cells["A3"].PutValue("Blueberry");
+worksheet.Cells["B3"].PutValue(2020);
+worksheet.Cells["C3"].PutValue(150);
+worksheet.Cells["A4"].PutValue("Kiwi");
+worksheet.Cells["B4"].PutValue(2020);
+worksheet.Cells["C4"].PutValue(200);
+worksheet.Cells["A5"].PutValue("Cherry");
+worksheet.Cells["B5"].PutValue(2020);
+worksheet.Cells["C5"].PutValue(180);
+worksheet.Cells["A6"].PutValue("Grape");
+worksheet.Cells["B6"].PutValue(2021);
+worksheet.Cells["C6"].PutValue(120);
+worksheet.Cells["A7"].PutValue("Blueberry");
+worksheet.Cells["B7"].PutValue(2021);
+worksheet.Cells["C7"].PutValue(170);
+worksheet.Cells["A8"].PutValue("Kiwi");
+worksheet.Cells["B8"].PutValue(2021);
+worksheet.Cells["C8"].PutValue(210);
+worksheet.Cells["A9"].PutValue("Cherry");
+worksheet.Cells["B9"].PutValue(2021);
+worksheet.Cells["C9"].PutValue(190);
+worksheet.Cells["A10"].PutValue("Grape");
+worksheet.Cells["B10"].PutValue(2021);
+worksheet.Cells["C10"].PutValue(130);
+// E3 に "Pivot1" という名前のピボットテーブルを追加し、A1:C10 をデータソースとして使用します
+int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// ピボットフィールドを割り当て: Fruit -> Row 領域、Year -> Column 領域、Amount -> Data 領域
+pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
+pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+// モダンな Excel 2007+ の名前付きプリセットピボットスタイルを適用します。
+// PivotTableStyleType は .xlsx / .xlsm / .xlsb ファイルに対する適切な API です。Excel は
+// これらの形式では AutoFormatType を無視します。PivotTableStyleDark1 はダークテーマ
+// ファミリー (PivotTableStyleDark1..PivotTableStyleDark28) に属し、同じ列挙体では
+// 新しい Excel 2017 のライト/ダークテーマ (PivotTableStyleLight1..Light28 / Dark1..Dark28) も公開されています。
+pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
+// モダンな .xlsx 形式で保存 -- PivotTableStyleType が有効となる形式です。
+workbook.Save("output.xlsx");
+```
 ## **Define and Apply a Custom Pivot Table Style**
 組み込みプリセットは変更できません。色、罫線、またはフォントを上書きする必要がある場合は、カスタムピボットスタイルを定義する必要があります。ワークフローは次の3ステップで構成されます。
 1. `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)` を使用して、カスタムスタイルをワークブックの `TableStyles` コレクションに追加します。新たに作成されたスタイルのインデックスが返されます。
@@ -97,10 +164,9 @@ workbook.Save("output.xls");
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` と `PivotTableStyleType` は互換的に使用できません。組み込みプリセットには `PivotTableStyleType` を、`AddPivotTableStyle` で定義したカスタムスタイルには `PivotTableStyleName` を使用してください。両方を設定しても問題ありませんが、意図したソースに一致する一方だけが描画されます。
-{{% /alert %}}
-
 使用できる `TableStyleElementType` の値には、`WholeTable`、`FirstRow`、`LastRow`、`FirstColumn`、`LastColumn`、`GrandTotalRow`、`GrandTotalColumn`、`PageFieldLabels`、および `PageFieldValues` が含まれます。
 次の例では、`WholeTable` に細い黒色の罫線、`GrandTotalRow` に太字の赤色フォントを指定してカスタムピボットスタイルを定義し、`PivotTableStyleName` を使用して適用し、`.xlsx` として保存します。
+{{% /alert %}}
 
 ```csharp
 using System;
@@ -179,9 +245,8 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 `FormatAll` は、`PivotTableStyleType` と `PivotTableStyleName` の両方を上書きします。ピボットテーブル全体に、テーマに関係なく均一な外観が必要な場合にのみ使用してください。
-{{% /alert %}}
-
 次の例では、黄色の単色塗りつぶし、太字の濃青色フォント、および全辺に細い黒色の罫線を持つ `Style` を作成し、`FormatAll` を使用して適用し、`.xlsx` として保存します。
+{{% /alert %}}
 
 ```csharp
 using System;

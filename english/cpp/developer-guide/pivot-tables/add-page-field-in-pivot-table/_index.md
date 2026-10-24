@@ -70,6 +70,7 @@ When you already work with a `PivotField` instance, you can pass it directly to 
 #include "Aspose.Cells.h"
 #include <string>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -91,7 +92,7 @@ int main() {
     cells.Get(u"A10").PutValue(u"blueberry");cells.Get(u"B10").PutValue(u"2022");cells.Get(u"C10").PutValue(450);
     // Add pivot table at E3 covering A1:C10
     PivotTableCollection pivotTables = sheet.GetPivotTables();
-    int pivotIndex = pivotTables.Add(U16String(u"E3"), U16String(u"A1:C10"), U16String(u"PivotTable1"));
+    int pivotIndex = pivotTables.Add(U16String(u"A1:C10"), U16String(u"E3"), U16String(u"PivotTable1"));
     PivotTable pivotTable = pivotTables.Get(pivotIndex);
     // Fruit -> Row, Amount -> Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, U16String(u"Fruit"));
@@ -124,6 +125,7 @@ Setting `CurrentPageItem` to the magic value `0x7FFD` is equivalent to clearing 
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -160,6 +162,7 @@ Setting `CurrentPageItem` to a real index picks just that one filter item. The i
 ```cpp
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -202,6 +205,7 @@ Multi-select filtering turns the filter dropdown into a checkbox list and lets t
 #include <string>
 #include <vector>
 using namespace Aspose::Cells;
+using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
@@ -229,7 +233,7 @@ int main() {
     }
     Worksheet pivotSheet = workbook.GetWorksheets().Add(u"Pivot");
     PivotTableCollection pivots = pivotSheet.GetPivotTables();
-    int pivotIndex = pivots.Add(u"E3", u"A1:C10", u"PivotTable1");
+    int pivotIndex = pivots.Add(u"A1:C10", u"E3", u"PivotTable1");
     PivotTable pivotTable = pivots.Get(pivotIndex);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");

@@ -33,6 +33,7 @@ Aspose.Cells はこれら両方の操作をサポートしています。`Sparkl
 7. ワークブックを `output_with_sparklines.xlsx` として保存します。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Populate sample data in cells A1:E1
@@ -43,28 +44,28 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Add a Line sparkline group anchored at F1 (column 5, row 0)
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 // Add a Column sparkline group anchored at G1 (column 6, row 0)
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(6);
-columnArea.setEndColumn(6);
-columnArea.setStartRow(0);
-columnArea.setEndRow(0);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 6;
+columnArea.EndColumn = 6;
+columnArea.StartRow = 0;
+columnArea.EndRow = 0;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(7);
-stackedArea.setEndColumn(7);
-stackedArea.setStartRow(0);
-stackedArea.setEndRow(0);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 7;
+stackedArea.EndColumn = 7;
+stackedArea.StartRow = 0;
+stackedArea.EndRow = 0;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 // Configure image options for PNG output
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
-imageOptions.setImageType(AsposeCells.ImageType.Png);
+imageOptions.setImageType(AsposeCells.ImageType.PNG);
 // Convert the Line sparkline to image and embed it in cell F2
 let lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 let lineMs = new java.io.ByteArrayOutputStream();
@@ -88,6 +89,7 @@ workbook.save("output_with_sparklines.xlsx");
 
 {{% alert color="primary" %}}
 各スパークライングループは単一のセルにアンカーされるため、`forEach` で列挙する代わりにインデクサ `group.sparklines[0]` を通じてアクセスできます。これにより、レンダリングコードを短く保つことができ、一般的な「アンカーセルごとに 1 つのスパークライン」というパターンにも対応します。`Cell.EmbeddedImage` を使用してピクチャバイトを保存するには、Aspose.Cells 26.5 以降が必要です。
+{{% /alert %}}
 
 ## **Workflow 2 — Export the Sparkline Worksheet to HTML**
 ワークブックにライブのスパークライン（およびオプションで埋め込まれたピクチャ）が含まれるようになると、ワークシート全体を HTML として保存することで Web に公開できます。`HtmlSaveOptions` クラスには、このエクスポートを制御するために必要な機能が用意されています。このワークフローでは、ワークフロー 1 で生成された `output_with_sparklines.xlsx` ファイルを再利用して、クリーンな単一ページの HTML ドキュメントに変換します。
@@ -99,6 +101,7 @@ workbook.save("output_with_sparklines.xlsx");
 4. `workbook.save("sparklines.html", htmlOptions)` を呼び出して、HTML 出力をディスクに書き込みます。
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("output_with_sparklines.xlsx");
 let htmlOptions = new AsposeCells.HtmlSaveOptions();
 htmlOptions.setExportActiveWorksheetOnly(true);
@@ -106,10 +109,10 @@ workbook.save("sparklines.html", htmlOptions);
 ```
 
 上記のコードは、ワークフロー 1 からのスパークラインを含むワークブックを、ポータブルな HTML ファイルに変換します。スパークラインは、エクスポートモードに応じて生成された HTML 内でインライン SVG または PNG レンダリングとして保持されるため、エンドユーザーは Excel がインストールされていなくても、モダンなブラウザでトレンドを確認できます。`ExportActiveWorksheetOnly` を `true` に設定することで、非表示シートや補助データを誤って公開するのを防ぎ、現在ユーザーに表示されているワークシートのみがエクスポートされます。
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` クラスには、出力を微調整するための追加のプロパティ（`ExportHiddenWorksheet`、`ExportImagesAsBase64`、`Encoding` など）が用意されています。デプロイメントターゲットに応じてこれらを適宜調整してください。
+{{% /alert %}}
 
 ## **API Summary**
 上記のワークフローは、Aspose.Cells API の小さなセットが連携して動作することに依存しています。
@@ -121,6 +124,5 @@ workbook.save("sparklines.html", htmlOptions);
 
 ## **Related Articles**
 - [セルへの画像の挿入](/cells/ja/nodejs-java/inserting-an-image-into-a-cell/)
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

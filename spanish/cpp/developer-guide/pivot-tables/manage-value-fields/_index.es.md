@@ -80,9 +80,8 @@ Cada campo colocado en la región de datos se envuelve internamente como una ins
 
 {{% alert color="primary" %}}
 Cambiar `Function` solo afecta al agregado, la columna de origen no cambia.
-{{% /alert %}}
-
 Por lo tanto, puede dejar un campo de datos como `Sum` mientras añade un segundo campo de datos que apunte a la misma columna de origen pero use `Count` o `Average`, todo en una sola tabla dinámica.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>
@@ -116,9 +115,8 @@ Cuando una tabla dinámica contiene dos o más campos de datos, Aspose.Cells exp
 
 {{% alert color="primary" %}}
 `PivotTable.ValuesField` no funciona si no hay ningún campo de valor o si hay solo uno.
-{{% /alert %}}
-
 Los escenarios siguientes recorren tres ejemplos de extremo a extremo que demuestran cada capacidad descrita anteriormente sobre la misma estructura de tabla dinámica.
+{{% /alert %}}
 
 ```cpp
 #include <iostream>

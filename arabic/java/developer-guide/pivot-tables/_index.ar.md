@@ -32,11 +32,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 عند تعيين نطاق خلايا معين كمصدر بيانات، يجب تعيين النطاق من الزاوية العلوية اليسرى إلى الزاوية السفلى اليمنى. على سبيل المثال، "A1:C3" صالح؛ "C3:A1" غير صالح.
-{{% /alert %}}
-
 يظهر الكود المثال أدناه كيفية إنشاء جدول محوري بسيط باتباع الخطوات الأساسية المدرجة أعلاه. عند تنفيذ الكود، يتم إضافة جدول محوري إلى ورقة العمل:
 ** إنشاء جدول محوري استنادًا إلى حقل مقابل **
 ![todo:image_alt_text](create-pivot-table_1.png)
+{{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}
 

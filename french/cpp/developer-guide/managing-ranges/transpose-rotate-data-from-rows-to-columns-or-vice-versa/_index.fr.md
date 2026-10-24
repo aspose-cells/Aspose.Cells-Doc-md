@@ -156,4 +156,4 @@ Utilisez l'**Approche 1** lorsque vous avez besoin d'une transformation rapide e
 - [Insertion d'une image dans une cellule](/cells/fr/cpp/inserting-an-image-into-a-cell/)
 - [Fractionnement de fichiers Excel en plusieurs fichiers](/cells/fr/cpp/splitting-excel-files-into-multiple-files/)
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

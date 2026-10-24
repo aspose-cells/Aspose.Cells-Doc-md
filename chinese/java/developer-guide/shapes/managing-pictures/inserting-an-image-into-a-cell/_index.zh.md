@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 提供了两种不同的方式将图片与单个单元格关联。浮动图片是工作表绘图层上的一个图形，它在视觉上覆盖在单元格区域上方；而嵌入图片则存储在单元格内部，并会自动缩放以适应单元格的显示区域。请选择最适合您布局需求的方式。
+{{% /alert %}}
 
 ## **简介**
 在设计作为可视化报表、产品目录、员工通讯录、仪表板或库存清单的电子表格时，将图片精确地放入单个单元格是一个常见需求。与其让图片跨越多个单元格或松散地放置在工作表上，您可能更希望拥有一张干净、与单元格绑定、并始终与其所属单元格对齐的图片。
@@ -36,6 +37,7 @@ Aspose.Cells 通过两种互补的方式支持此场景：
 
 {{% alert color="primary" %}}
 Aspose.Cells 中的行和列索引**从零开始**。单元格 C6 的行索引为 5，列索引为 2。在右下角锚点上出现差一错误是导致图片看似与相邻单元格重叠的最常见原因。
+{{% /alert %}}
 
 ### **控制放置行为**
 `Picture.getPlacement()` 返回一个 `PlacementType` 类型的枚举，用于控制当用户调整图片下方行高或列宽时图片的行为。对于单个单元格的图片，推荐的取值是 `PlacementType.MOVE_AND_SIZE`，它会使图片与其下方的单元格一起移动和调整大小，从而保持精确的适配。
@@ -118,9 +120,6 @@ workbook.save("output.xlsx", SaveFormat.XLSX);
   - 您希望以最简单的方式将图片插入单元格。
   - 图片应像其他单元格内容一样随单元格移动。
   - 您不需要将图片作为图形进行操作。
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## 相关文章
 - [Aspose.Cells for Java 中的 Excel 照相机](/cells/zh/java/excel-camera/)

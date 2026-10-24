@@ -25,9 +25,8 @@ Las API clave son:
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` DEBE llamarse antes de guardar cuando la salida es HTML o PDF; de lo contrario, el archivo exportado no contendrá los datos de la imagen y la Cámara aparecerá en blanco en la salida renderizada.
-{{% /alert %}}
-
 El siguiente código crea un libro, agrega una imagen vacía anclada en la fila 10 columna 6, la vincula al rango de origen `A1:F10` mediante `setFormula`, actualiza los datos de imagen incrustados y guarda el libro.
+{{% /alert %}}
 
 ```java
 import java.io.InputStream;

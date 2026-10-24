@@ -28,6 +28,7 @@ Aspose.Cells tillhandahåller en uppsättning klasser som används för att skap
 Efter att ha kört exempelkoden läggs en pivottabell till i kalkylbladet.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var dataDir = "./";
 
 // Instantiating a Workbook object
@@ -103,13 +104,13 @@ var pivotTable = pivotTables.get(index);
 pivotTable.setRowGrand(false);
 
 // Draging the first field to the row area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
 
 // Draging the second field to the column area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, 1);
 
 // Draging the third field to the data area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 2);
 
 // Saving the Excel file
 workbook.save(dataDir + "pivotTable_test_out.xls");
@@ -119,11 +120,11 @@ workbook.save(dataDir + "pivotTable_test_out.xls");
 När du tilldelar ett cellområde som datakälla måste området gå från övre vänstra till nedre högra hörnet. Till exempel är "A1:C3" giltigt men "C3:A1" är det inte.
 {{% /alert %}}
 
-## Related Articles
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/apply-style-to-pivot-table/)
+## Relaterade artiklar
+- [Lägga till filterfält i en pivottabell i Aspose.Cells för .NET](/cells/sv/nodejs-java/add-page-field-in-pivot-table/)
+- [Tillämpa stilar på pivottabeller i Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/apply-style-to-pivot-table/)
 - [Modify Page Field Layout in Pivot Table](/cells/sv/nodejs-java/change-page-field-layout/)
 - [Filtering Pivot Tables by Label or Value](/cells/sv/nodejs-java/filter-by-label-or-value-of-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/manage-value-fields/)
+- [Hantera värdefält i pivottabeller i Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/manage-value-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells prend en charge le fractionnement d'un fichier Excel unique en plusieurs fichiers. Il existe deux méthodes principales pour cela : (1) en copiant chaque feuille de calcul du classeur source dans un nouveau classeur et en enregistrant chacune d'elles dans un fichier séparé, et (2) en copiant une plage de cellules spécifique d'une feuille de calcul dans un nouveau classeur. Les deux approches sont utiles lorsque vous devez distribuer des sous-ensembles de données, créer des rapports plus petits pour différents destinataires ou isoler des données pour un traitement individuel.
+{{% /alert %}}
 
 ## **Introduction**
 Il existe de nombreux scénarios concrets dans lesquels un développeur doit diviser un fichier Excel unique en plusieurs fichiers plus petits. Par exemple, un classeur peut contenir une feuille de calcul par service, et chaque responsable de service ne doit recevoir que sa propre feuille. Dans d'autres cas, vous pouvez souhaiter extraire un tableau ou un bloc de données particulier d'une feuille de calcul et l'envoyer comme fichier autonome par e-mail, sans exposer le reste du classeur. Les grands classeurs consolidés peuvent également devoir être divisés en éléments plus petits pour faciliter leur manipulation, accélérer le chargement ou permettre un traitement en aval par d'autres systèmes.
@@ -37,20 +38,20 @@ Les étapes suivantes décrivent comment fractionner un fichier Excel en copiant
 ### **Exemple de code**
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const dataDir = "data/";
 const workbook = new AsposeCells.Workbook(dataDir + "book1.xls");
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++) {
     const sourceSheet = workbook.getWorksheets().get(i);
     const sheetName = sourceSheet.getName();
-    
+
     const destWorkbook = new AsposeCells.Workbook();
     const destIndex = destWorkbook.getWorksheets().add();
     const destSheet = destWorkbook.getWorksheets().get(destIndex);
     destSheet.setName(sheetName);
-    
+
     destSheet.copy(sourceSheet);
-    
+
     const destFile = dataDir + sheetName + ".xls";
     destWorkbook.save(destFile, AsposeCells.SaveFormat.Excel97To2003);
 }
@@ -76,6 +77,5 @@ Les étapes suivantes décrivent comment fractionner un fichier Excel en copiant
 
 ### **Exemple de code**
 Le résultat attendu est un nouveau fichier unique dans le répertoire de données qui contient uniquement les valeurs (et éventuellement la mise en forme) de la plage spécifiée extraite du classeur source. Le fichier de destination n'a aucune relation avec d'autres données du fichier source ; il contient uniquement la plage extraite, commençant à la cellule `A1` de sa première feuille de calcul.
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

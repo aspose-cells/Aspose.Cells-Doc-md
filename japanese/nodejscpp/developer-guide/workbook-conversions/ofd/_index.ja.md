@@ -20,6 +20,7 @@ ExcelワークブックのOFDへの変換は、スプレッドシートコンテ
 
 {{% alert color="primary" %}}
 Aspose.Cellsによって生成されるOFD出力は、セルコンテンツ、結合セル、列幅、行の高さなど、ソースワークブックの表示レイアウトを保持します。フォント、色、罫線、配置、数値形式などのセル書式設定も、固定レイアウト出力でレンダリングされます。用紙サイズ、向き、印刷領域など、ワークシートに設定されたページ設定オプションは、結果として生成されるOFDドキュメントのレイアウトに影響します。
+{{% /alert %}}
 
 ## **Creating an Excel Workbook and Saving as OFD**
 Aspose.Cellsを使用すると、プログラムでワークブックを構築し、データを入力してから、`SaveFormat.Ofd`列挙を使用してOFD形式に直接保存できます。次の例では、請求書をゼロから作成します。会社ロゴ、ヘッダー情報、請求先セクション、明細項目、計算された合計を追加し、ワークブックをOFDドキュメントとしてエクスポートします。
@@ -28,6 +29,7 @@ Aspose.Cellsを使用すると、プログラムでワークブックを構築�
 この例では、左上領域にロゴ画像を挿入し、会社名と連絡先を入力し、結合セルをまたいで「INVOICE」タイトルを追加し、請求書番号と日付を記録し、請求先クライアントを記載し、説明、数量、単価、合計の列を持つ明細項目テーブルを作成し、セル数式を使用して小計、税金、総額を計算することで、請求書ワークシートを構築します。太字ヘッダー、価格の通貨形式、罫線、列幅などの書式設定は、`Style`および`Font`オブジェクトを使用して適用されます。最後に、`SaveFormat.Ofd`を使用してワークブックを`.ofd`拡張子で保存します。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let dataDir = "C:\\Temp\\";
 // Create a new Workbook
 let workbook = new AsposeCells.Workbook();
@@ -155,6 +157,7 @@ workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.Ofd);
 Aspose.Cellsは、ディスクから既存のExcelワークブックを読み込み、OFD形式に直接エクスポートすることもできます。これは、バッチ変換パイプライン、アーカイブワークフロー、およびソースワークブックが別のツールで作成され、固定レイアウトアーティファクトとして再発行するだけでよいシナリオで役立ちます。次の例では、既存の`.xlsx`ワークブックを読み込み、そのセルからデータを読み取り、オプションのページ設定調整を適用し、結果をOFDドキュメントとして保存します。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook(dataDir + "SampleBook.xlsx");
 // (1) Read and display values from selected cells to confirm the file was loaded
 let firstSheet = workbook.getWorksheets().get(0);
@@ -197,6 +200,5 @@ console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleB
 - [Excelファイルを複数のファイルに分割](/cells/ja/nodejs-cpp/splitting-excel-files-into-multiple-files/)
 - [セルに画像を挿入](/cells/ja/nodejs-cpp/inserting-an-image-into-a-cell/)
 - [DBFファイルの読み取りと書き込み](/cells/ja/nodejs-cpp/dbf/)
-{{% /alert %}}
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

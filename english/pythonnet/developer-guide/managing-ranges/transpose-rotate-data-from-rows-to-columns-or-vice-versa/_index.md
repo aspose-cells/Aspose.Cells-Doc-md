@@ -35,7 +35,7 @@ Use this approach whenever you want to transpose data without involving the `TRA
 `range.transpose()` is an instance method on the `Aspose.Cells.Range` class. Calling it flips the range in place by swapping its rows and columns, so what was a row becomes a column and what was a column becomes a row. The method modifies the underlying cells directly without writing a formula.
 
 ### **Steps**
-1. Open the source workbook with `LoadOptions` set to the `.xlsx` format by calling `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Open the source workbook with `LoadOptions` set to the `.xlsx` format by calling `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Retrieve the first worksheet from the workbook using `workbook.worksheets[0]`.
 3. Access the cells collection of the worksheet through `worksheet.cells`.
 4. Create the source range covering **A1:D5** by calling `cells.create_range("A1:D5")`.
@@ -62,7 +62,7 @@ Use this approach when you want to preserve the `=TRANSPOSE(A1:D5)` formula as a
 `cell.set_dynamic_array_formula(formula, options, calculate_value)` is a method on `Aspose.Cells.Cell` that sets the cell's formula as a **dynamic array formula**. Excel evaluates the formula once and automatically spills the result into the surrounding cells. The third parameter, when set to `True`, instructs Aspose.Cells to also calculate the resulting values at write time.
 
 ### **Steps**
-1. Load the source workbook using `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))`.
+1. Load the source workbook using `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))`.
 2. Retrieve the first worksheet and access its `cells` collection.
 3. Place the dynamic array formula on cell **A6**, just below the source range, by calling `cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", None, True)`.
 4. The `None` argument passes default `FormulaParseOptions`, and the third argument `True` tells Aspose.Cells to treat the formula as a dynamic array and to evaluate it so the spilled values are written to the workbook.
@@ -77,11 +77,11 @@ This approach works **only on Excel 365 / 2021 or later**. Older Excel versions 
 import aspose.cells as ac
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
-workbook.save(outFile, ac.SaveFormat.Xlsx)
+cells.get("A6").set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
+workbook.save(outFile, ac.SaveFormat.XLSX)
 ```
 
 ## **Approach 3 — Transpose with a Classic Array Formula (CSE)**
@@ -105,7 +105,7 @@ CSE array formulas are the classic Excel way to evaluate a `TRANSPOSE` expressio
 import aspose.cells as ac
 # Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 # Access the first worksheet and its Cells collection
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
@@ -116,7 +116,7 @@ cells = worksheet.cells
 # Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
 # a single multi-cell array formula, compatible with older Excel versions
 # (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
-cells["A6"].set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
+cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
 # Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx")
 ```

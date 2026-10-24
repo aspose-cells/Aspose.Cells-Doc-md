@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells bietet zwei verschiedene Möglichkeiten, ein Bild mit einer einzelnen Zelle zu verknüpfen. Ein schwebendes Bild ist eine Form auf der Zeichenebene des Arbeitsblatts, die einen Zellbereich visuell überlagert, während ein eingebettetes Bild in der Zelle selbst gespeichert wird und sich automatisch an den Anzeigebereich der Zelle anpasst. Wählen Sie den Ansatz, der am besten zu Ihren Layout-Anforderungen passt.
+{{% /alert %}}
 
 ## **Einführung**
 Ein Bild exakt an eine einzelne Zelle anzupassen ist eine häufige Anforderung beim Entwerfen von Tabellenkalkulationen, die als visuelle Berichte, Produktkataloge, Mitarbeiterverzeichnisse, Dashboards oder Inventarlisten dienen. Anstatt ein Bild über viele Zellen zu strecken oder es lose auf einem Arbeitsblatt zu platzieren, möchten Sie möglicherweise ein sauberes, zellgebundenes Bild, das mit der zugehörigen Zelle ausgerichtet bleibt.
@@ -36,6 +37,7 @@ Der Anker des Bildes wird durch vier nullbasierte Indexeigenschaften definiert:
 
 {{% alert color="primary" %}}
 Zeilen- und Spaltenindizes in Aspose.Cells sind **nullbasiert**. Die Zelle C6 hat den Zeilenindex 5 und den Spaltenindex 2. Off-by-One-Fehler beim unteren rechten Anker sind die häufigste Ursache für Bilder, die scheinbar in eine benachbarte Zelle hineinragen.
+{{% /alert %}}
 
 ### **Platzierungsverhalten steuern**
 `Picture.getPlacement()` gibt eine Enumeration vom Typ `PlacementType` zurück, die steuert, wie sich das Bild verhält, wenn der Benutzer die darunterliegende Zeile oder Spalte in der Größe ändert. Der empfohlene Wert für ein Einzelzellenbild ist `PlacementType.MOVE_AND_SIZE`, wodurch sich das Bild zusammen mit der zugrunde liegenden Zelle bewegt und in der Größe ändert, wodurch die exakte Anpassung erhalten bleibt.
@@ -118,9 +120,6 @@ Beide Ansätze erzeugen ein Bild, das in eine einzelne Zelle passt, aber sie unt
   - Sie die einfachstmögliche Einfügung eines Bildes in eine Zelle wünschen.
   - Das Bild soll sich wie jeder andere Zellinhalt mit der Zelle bewegen.
   - Sie das Bild nicht als Form bearbeiten müssen.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Verwandte Artikel
 - [Excel-Kamera in Aspose.Cells for Java](/cells/de/java/excel-camera/)

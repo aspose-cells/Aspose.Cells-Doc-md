@@ -1,8 +1,8 @@
 ---
-title: إدارة حقول القيمة في الجدول المحوري في Aspose.Cells for .NET
-linktitle: إدارة حقول القيمة في الجدول المحوري في Aspose.Cells for .NET
-description: تعرف على كيفية إضافة حقول أساسية إلى منطقة البيانات في الجدول المحوري، وتغيير دالة التلخيص باستخدام PivotField.Function، وتخطيط حقل القيمة على محور الصفوف أو الأعمدة في Aspose.Cells for .NET.
-keywords: Aspose.Cells, .NET, pivot table, value field, PivotField, PivotField.Function, data field, PivotTable.ValuesField, Sum, Average
+title: إدارة حقول قيم الجداول المحورية في Aspose.Cells for .Net
+linktitle: إدارة حقول قيم الجداول المحورية في Aspose.Cells for .Net
+description: تعلم كيفية إضافة الحقول الأساسية إلى منطقة البيانات في جدول محوري، وتغيير دالة التلخيص باستخدام PivotField.Function، ورسم حقل القيم على محور الصف أو العمود في Aspose.Cells for .Net.
+keywords: Aspose.Cells, .NET, جدول محوري, حقل القيم, PivotField, PivotField.Function, حقل البيانات, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
 url: /ar/net/manage-value-fields/
@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## إضافة حقل إلى منطقة البيانات
-تُعد إضافة حقل أساسي إلى منطقة البيانات (القيمة) الخطوة الأولى في تشكيل كيفية تجميع الجدول المحوري لبيانات المصدر. يوفّر Aspose.Cells الأسلوب `PivotTable.AddFieldToArea(PivotFieldType, string)`، وهو تحميل زائد يقبل الثابت `PivotFieldType.Data` واسم عمود المصدر. بمجرد إضافة حقل إلى منطقة البيانات، يعرضه الـ API عبر مجموعة `PivotTable.DataFields`، بالترتيب الذي أُضيفت به الحقول. بشكل افتراضي، يتم تلخيص عمود المصدر الرقمي باستخدام `ConsolidationFunction.Sum`، بينما يكون عمود المصدر غير الرقمي افتراضيًا `Count`.
+تعد إضافة حقل أساسي إلى منطقة البيانات (القيم) الخطوة الأولى في تحديد كيفية تجميع بيانات المصدر في الجدول المحوري. يتيح Aspose.Cells استدعاء `PivotTable.AddFieldToArea(PivotFieldType, string)`، وهي طريقة محمّلة بشكل زائد تقبل الثابت `PivotFieldType.Data` واسم عمود المصدر. وبمجرد إضافة حقل إلى منطقة البيانات، تتيح واجهة API الوصول إليه من خلال مجموعة `PivotTable.DataFields`، وفق ترتيب إضافة الحقول. افتراضيًا، يُلخّص عمود المصدر الرقمي باستخدام `ConsolidationFunction.Sum`، بينما تُستخدم الدالة `Count` للأعمدة غير الرقمية.
 
 ```csharp
 using System;
@@ -53,10 +53,10 @@ workbook.Save("output_drag.xlsx");
 ```
 
 ## تغيير دالة التلخيص
-بمجرد وجود حقل في منطقة البيانات، يعرضه Aspose.Cells عبر كائن `PivotField` الموجود في `PivotTable.DataFields`. يمتلك كل `PivotField` خاصية `Function` قابلة للكتابة من النوع `ConsolidationFunction`، والتي تتحكم في التجميع المُطبَّق على القيم الأساسية لذلك الحقل. يُعد `ConsolidationFunction` تعدادًا يحوي الأعضاء `Sum` و`Count` و`Average` و`Max` و`Min` و`Product` و`StdDev` و`StdDevp` و`Var` و`Varp`، حيث تُغطي الأعضاء الستة الأولى الغالبية العظمى من حالات الاستخدام الواقعية، بينما تُعد الأعضاء الأربعة الأخيرة تجميعات إحصائية مفيدة لتحليل التباين.
+عند وجود الحقل في منطقة البيانات، تتيح Aspose.Cells الوصول إليه من خلال كائن `PivotField` في `PivotTable.DataFields`. يحتوي كل كائن `PivotField` على خاصية `Function` قابلة للكتابة من النوع `ConsolidationFunction`، وهي تتحكم في التجميع المطبَّق على القيم المصدرية للحقل. يُعد `ConsolidationFunction` نوع تعداد يحتوي على الأعضاء `Sum` و`Count` و`Average` و`Max` و`Min` و`Product` و`StdDev` و`StdDevp` و`Var` و`Varp`. يغطي الأعضاء الستة الأولى الغالبية العظمى من حالات الاستخدام الواقعية، بينما تمثل الأعضاء الأربعة الأخيرة تجميعات إحصائية مفيدة في تحليل التباين.
 
 {{% alert color="primary" %}}
-يؤثر تغيير `Function` على التجميع فقط، ولا يتم تعديل عمود المصدر أو بنية صفوف/أعمدة الجدول المحوري. لتبديل التجميع لحقل بيانات موجود، اضبط `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` ثم استدعِ `pivotTable.CalculateData()` لإعادة عرض الجدول المحوري.
+لا يؤثر تغيير `Function` إلا على التجميع؛ إذ يبقى عمود المصدر وبنية الصفوف والأعمدة في الجدول المحوري دون تغيير. لتغيير التجميع لحقل بيانات موجود، اضبط `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` ثم استدعِ `pivotTable.CalculateData()` لإعادة عرض الجدول المحوري.
 {{% /alert %}}
 
 ```csharp
@@ -101,11 +101,11 @@ pivotTable.CalculateData();
 workbook.Save("output_function.xlsx");
 ```
 
-## تخطيط حقول القيمة على محور الصفوف أو الأعمدة
-عندما يحتوي الجدول المحوري على حقلَي بيانات أو أكثر، يعرض Aspose.Cells حقلًا افتراضيًا إضافيًا يُسمى `PivotTable.ValuesField`. يمثّل هذا الحقل الافتراضي تجميع كل حقل بيانات موجود في منطقة البيانات. يمكنك سحبه إلى منطقة الصفوف أو الأعمدة باعتباره حقل محور أساسي، وهو أمر مفيد لتنسيق مقاييس متعددة جنبًا إلى جنب.
+## رسم حقول القيم على محور الصف أو العمود
+عندما يحتوي الجدول المحوري على حقلين أو أكثر من حقول البيانات، يعرض Aspose.Cells حقلًا ظاهريًا إضافيًا يُسمى `PivotTable.ValuesField`. يمثل هذا الحقل الظاهري تجميع جميع حقول البيانات الموجودة في منطقة البيانات. يمكنك سحبه إلى منطقة الصف أو العمود كحقل أساسي في الجدول المحوري، وهو مفيد لتخطيط مقاييس متعددة جنبًا إلى جنب.
 
 {{% alert color="primary" %}}
-لا يعمل `PivotTable.ValuesField` في حالة عدم وجود أي حقل قيمة أو وجود حقل قيمة واحد فقط.
+لا يعمل `PivotTable.ValuesField` إذا لم يوجد حقل قيم أو إذا كان عدد حقول القيم واحدًا فقط.
 {{% /alert %}}
 
 ```csharp

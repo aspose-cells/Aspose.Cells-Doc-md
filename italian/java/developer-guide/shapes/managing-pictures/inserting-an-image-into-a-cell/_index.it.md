@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells offre due modalità distinte per associare un'immagine a una singola cella. Un'immagine mobile è una forma sul livello di disegno del foglio di lavoro che si sovrappone visivamente a un intervallo di celle, mentre un'immagine incorporata è memorizzata all'interno della cella stessa e si adatta automaticamente all'area di visualizzazione della cella. Scegli l'approccio che meglio soddisfa i requisiti del tuo layout.
+{{% /alert %}}
 
 ## **Introduzione**
 Adattare un'immagine esattamente a una singola cella è un requisito comune quando si progettano fogli di calcolo che fungono da report visivi, cataloghi prodotti, elenchi dipendenti, dashboard o liste di inventario. Piuttosto che allungare un'immagine su molte celle o posizionarla liberamente su un foglio di lavoro, potresti volere un'immagine pulita, legata alla cella, che rimane allineata alla cella che la contiene.
@@ -36,6 +37,7 @@ L'ancoraggio dell'immagine è definito da quattro proprietà di indice a base ze
 
 {{% alert color="primary" %}}
 Gli indici di riga e colonna in Aspose.Cells sono **a base zero**. La cella C6 ha indice di riga 5 e indice di colonna 2. Gli errori di off-by-one sull'ancoraggio in basso a destra sono la causa più comune di immagini che sembrano sovrapporsi a una cella adiacente.
+{{% /alert %}}
 
 ### **Controllo del comportamento di posizionamento**
 `Picture.getPlacement()` restituisce un'enumerazione di tipo `PlacementType` che controlla il comportamento dell'immagine quando l'utente ridimensiona la riga o la colonna sottostante. Il valore consigliato per un'immagine a cella singola è `PlacementType.MOVE_AND_SIZE`, che fa sì che l'immagine si sposti e si ridimensioni insieme alla cella sottostante, preservando l'adattamento esatto.
@@ -118,9 +120,6 @@ Entrambi gli approcci producono un'immagine che si adatta all'interno di una sin
   - Vuoi l'inserimento più semplice possibile di un'immagine in una cella.
   - L'immagine deve viaggiare con la cella come qualsiasi altro contenuto della cella.
   - Non hai bisogno di manipolare l'immagine come una forma.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Articoli correlati
 - [Fotocamera di Excel in Aspose.Cells for Java](/cells/it/java/excel-camera/)

@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells stöder konvertering av Excel-arbetsböcker direkt till OFD-format (Open Fixed-layout Document) med hjälp av `SaveFormat.Ofd`-uppräkningsvärdet. Det resulterande OFD-dokumentet bevarar arbetsbokens synliga layout, innehåll, sammanfogade celler, kolumnbredder, radhöjder, teckensnitt, färger, kanter och talformat. Detta gör Aspose.Cells lämpligt för arkivering, utskrift, regulatorisk rapportering och myndighetsinlämningar som kräver utdata med fast layout.
+{{% /alert %}}
 
 ## **Introduktion**
 OFD (Open Fixed-layout Document) är en kinesisk nationell standard (GB/T 33190-2016) för att representera digitala dokument i en fast, sidobaserad layout. Den tjänar en roll som liknar PDF för användningsfall där det visuella utseendet på källdokumentet måste bevaras exakt som det skapades. OFD är vitt spritt för myndighetsinlämningar, regulatorisk rapportering, elektroniska fakturor och långtidsarkivering i Folkrepubliken Kina.
@@ -19,6 +20,7 @@ Att konvertera Excel-arbetsböcker till OFD är ett vanligt krav i scenarier dä
 
 {{% alert color="primary" %}}
 OFD-utdata som genereras av Aspose.Cells bevarar den synliga layouten av källarbetsboken, inklusive cellinnehåll, sammanfogade celler, kolumnbredder och radhöjder. Cellformatering som teckensnitt, färger, kanter, justering och talformat renderas också i utdata med fast layout. Alternativ för siduppsättning som konfigurerats på kalkylbladet, såsom pappersstorlek, orientering och utskriftsområde, påverkar layouten för det resulterande OFD-dokumentet.
+{{% /alert %}}
 
 ## **Skapa en Excel-arbetsbok och spara som OFD**
 Aspose.Cells låter dig bygga en arbetsbok programmatiskt, fylla den med data och sedan spara den direkt i OFD-format med hjälp av `SaveFormat.Ofd`-uppräkningen. Följande exempel skapar en faktura från grunden. Det lägger till en företagslogotyp, rubrikinformation, en faktureringssektion, rader och beräknade summor, och exporterar sedan arbetsboken till ett OFD-dokument.
@@ -27,6 +29,7 @@ Aspose.Cells låter dig bygga en arbetsbok programmatiskt, fylla den med data oc
 Exemplet konstruerar ett fakturakalkylblad genom att infoga en logotypbild i det övre vänstra området, fylla i företagsnamn och kontaktuppgifter, lägga till en "INVOICE"-rubrik över sammanfogade celler, registrera fakturanummer och datum, lista faktureringskunden, bygga en tabell med rader som innehåller beskrivning, kvantitet, enhetspris och totalsumma, samt beräkna delsumma, skatt och totalsumma med hjälp av cellformler. Formatering som feta rubriker, valutaformat för priser, kanter och kolumnbredder tillämpas med hjälp av `Style`- och `Font`-objekt. Slutligen sparas arbetsboken med filändelsen `.ofd` med hjälp av `SaveFormat.Ofd`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let dataDir = "C:\\Temp\\";
 // Skapa en ny arbetsbok
 let workbook = new AsposeCells.Workbook();
@@ -154,6 +157,7 @@ workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.Ofd);
 Aspose.Cells kan också läsa in en befintlig Excel-arbetsbok från disk och exportera den direkt till OFD-format. Detta är användbart för batchkonverteringspipelines, arkiveringsarbetsflöden och scenarier där källarbetsboken producerades av ett annat verktyg och bara behöver återutges som en artefakt med fast layout. Följande exempel läser in en befintlig `.xlsx`-arbetsbok, läser data från dess celler, tillämpar valfria justeringar av siduppsättningen och sparar resultatet som ett OFD-dokument.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook(dataDir + "SampleBook.xlsx");
 // (1) Läs och visa värden från valda celler för att bekräfta att filen laddades
 let firstSheet = workbook.getWorksheets().get(0);
@@ -197,8 +201,5 @@ console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleB
 - [Infoga en bild i en cell](/cells/sv/nodejs-cpp/inserting-an-image-into-a-cell/)
 - [Läsa och skriva DBF-filer](/cells/sv/nodejs-cpp/dbf/)
 - [Konvertera sparkline till bild och HTML i Aspose.Cells for Node.js via C++](/cells/sv/nodejs-cpp/convert-sparkline-to-image-and-html/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -33,55 +33,59 @@ Aspose.Cells はこれらの両方の操作をサポートしています。`spa
 7. ワークブックを `output_with_sparklines.xlsx` として保存します。
 
 ```python
+from io import BytesIO
 import aspose.cells as ac
+from aspose.cells.charts import SparklineType
+from aspose.cells.drawing import ImageType
+from aspose.cells.rendering import ImageOrPrintOptions
 # Create a new workbook and access the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 # Populate sample data in cells A1:E1
-worksheet.cells["A1"].put_value(5)
-worksheet.cells["B1"].put_value(-3)
-worksheet.cells["C1"].put_value(8)
-worksheet.cells["D1"].put_value(-2)
-worksheet.cells["E1"].put_value(6)
+worksheet.cells.get("A1").put_value(5)
+worksheet.cells.get("B1").put_value(-3)
+worksheet.cells.get("C1").put_value(8)
+worksheet.cells.get("D1").put_value(-2)
+worksheet.cells.get("E1").put_value(6)
 # Add a Line sparkline group anchored at F1 (column 5, row 0)
 line_area = ac.CellArea()
 line_area.start_column = 5
 line_area.end_column = 5
 line_area.start_row = 0
 line_area.end_row = 0
-line_idx = worksheet.sparkline_groups.add(ac.SparklineType.LINE, "A1:E1", False, line_area)
+line_idx = worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, line_area)
 # Add a Column sparkline group anchored at G1 (column 6, row 0)
 column_area = ac.CellArea()
 column_area.start_column = 6
 column_area.end_column = 6
 column_area.start_row = 0
 column_area.end_row = 0
-column_idx = worksheet.sparkline_groups.add(ac.SparklineType.COLUMN, "A1:E1", False, column_area)
+column_idx = worksheet.sparkline_groups.add(SparklineType.COLUMN, "A1:E1", False, column_area)
 # Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 stacked_area = ac.CellArea()
 stacked_area.start_column = 7
 stacked_area.end_column = 7
 stacked_area.start_row = 0
 stacked_area.end_row = 0
-stacked_idx = worksheet.sparkline_groups.add(ac.SparklineType.STACKED, "A1:E1", False, stacked_area)
+stacked_idx = worksheet.sparkline_groups.add(SparklineType.STACKED, "A1:E1", False, stacked_area)
 # Configure image options for PNG output
-image_options = ac.ImageOrPrintOptions()
-image_options.image_type = ac.ImageType.PNG
+image_options = ImageOrPrintOptions()
+image_options.image_type = ImageType.PNG
 # Convert the Line sparkline to image and embed it in cell F2
 line_sp = worksheet.sparkline_groups[line_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 line_sp.to_image(ms, image_options)
-worksheet.cells["F2"].embedded_image = ms.to_array()
+worksheet.cells.get("F2").embedded_image = ms.getvalue()
 # Convert the Column sparkline to image and embed it in cell G2
 column_sp = worksheet.sparkline_groups[column_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 column_sp.to_image(ms, image_options)
-worksheet.cells["G2"].embedded_image = ms.to_array()
+worksheet.cells.get("G2").embedded_image = ms.getvalue()
 # Convert the Win/Loss sparkline to image and embed it in cell H2
 stacked_sp = worksheet.sparkline_groups[stacked_idx].sparklines[0]
-ms = ac.MemoryStream()
+ms = BytesIO()
 stacked_sp.to_image(ms, image_options)
-worksheet.cells["H2"].embedded_image = ms.to_array()
+worksheet.cells.get("H2").embedded_image = ms.getvalue()
 # Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx")
 ```
@@ -90,6 +94,7 @@ workbook.save("output_with_sparklines.xlsx")
 
 {{% alert color="primary" %}}
 各スパークライン グループは単一のセルにアンカーされるため、`for` ループで列挙する代わりにインデクサ `group.sparklines[0]` を通じてアクセスできます。これによりレンダリング コードを短く保ち、一般的な「アンカー セルごとに 1 つのスパークライン」パターンと一致します。`cell.embedded_image` を介して画像バイトを保存するには Aspose.Cells 26.5 以降が必要です。
+{{% /alert %}}
 
 ## **Workflow 2 — Export the Sparkline Worksheet to HTML**
 ワークブックにライブ スパークライン（およびオプションで埋め込み画像の対応物）が含まれたら、ワークシート全体を HTML として保存することで Web に公開できます。`HtmlSaveOptions` クラスは、このエクスポートを制御するために必要な設定を公開しています。このワークフローでは、ワークフロー 1 で生成された `output_with_sparklines.xlsx` ファイルを再利用して、クリーンな単一ページ HTML ドキュメントに変換します。
@@ -109,10 +114,10 @@ workbook.save("sparklines.html", html_options)
 ```
 
 上記のコードは、ワークフロー 1 からのスパークラインを含むワークブックを取得し、ポータブルな HTML ファイルに変換します。スパークラインは、エクスポート モードに応じて、生成された HTML 内にインライン SVG または PNG レンダリングとして保持されるため、エンドユーザーは Excel をインストールすることなく、どの最新ブラウザでもトレンドを表示できます。`export_active_worksheet_only` を `True` に設定することで、非表示シートや補助データを誤って公開することを避け、現在ユーザーに表示されているワークシートのみがエクスポートされます。
-{{% /alert %}}
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` クラスは、`export_hidden_worksheet`、`export_images_as_base64`、`encoding` など、出力を微調整するための追加プロパティを提供します。デプロイメント ターゲットに応じてこれらを調整してください。
+{{% /alert %}}
 
 ## **API Summary**
 上記のワークフローは、少数の Aspose.Cells API の連携に依存しています。
@@ -124,6 +129,5 @@ workbook.save("sparklines.html", html_options)
 
 ## **Related Articles**
 - [セルへの画像の挿入](/cells/ja/python-net/inserting-an-image-into-a-cell/)
-{{% /alert %}}
 
-{{< app/cells/assistant language="python" >}}
+{{< app/cells/assistant language="python-net" >}}

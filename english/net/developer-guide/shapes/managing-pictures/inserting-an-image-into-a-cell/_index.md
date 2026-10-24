@@ -37,6 +37,7 @@ The picture's anchor is defined by four zero-based index properties:
 
 {{% alert color="primary" %}}
 Row and column indices in Aspose.Cells are **zero-based**. Cell C6 has row index 5 and column index 2. Off-by-one errors on the lower-right anchor are the most common source of pictures that appear to overlap into an adjacent cell.
+{{% /alert %}}
 
 ### **Controlling Placement Behavior**
 `Picture.Placement` is an enum of type `PlacementType` that controls how the picture behaves when the user resizes the row or column beneath it. The recommended value for a single-cell picture is `PlacementType.MoveAndSize`, which causes the picture to move and resize together with its underlying cell, preserving the exact fit.
@@ -117,7 +118,6 @@ Both approaches produce a picture that fits inside a single cell, but they diffe
 - **Use an embedded image (Approach 2) when:**
   - You want the simplest possible insertion of an image into a cell.
   - The image should travel with the cell like any other cell content.
-{{% /alert %}}
 
 ## Related Articles
 - [Excel Camera in Aspose.Cells for .NET](/cells/net/excel-camera/)

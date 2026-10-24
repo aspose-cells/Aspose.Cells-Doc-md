@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, Smart Markers aracılığıyla dizi verilerini tek bir hücreye aktarmayı destekler. Geliştiriciler, `ArrayAsSingle` özniteliğini `ExtraDelimiter` özniteliği ile birlikte kullanarak dizi öğelerinin tek bir hücre içinde nasıl ayrılacağını kontrol edebilir ve raporlar ile şablonlar için esnek biçimlendirme sağlayabilir.
+{{% /alert %}}
 
 ## **Giriş**
 Aspose.Cells'teki Smart Markers, `&=DataSource.Field` gibi işaretçi ifadeleri kullanarak elektronik tablo verilerini dinamik olarak doldurmanıza olanak tanıyan güçlü, şablon tabanlı bir özelliktir. İşaretçi, tasarımcı çalışma kitabına yerleştirilir ve şablon `WorkbookDesigner` tarafından işlendiğinde, işaretçiler sağlanan veri kaynağındaki değerlerle değiştirilir.
@@ -59,6 +60,7 @@ Smart Marker'larınızda `ArrayAsSingle` ve `ExtraDelimiter` özniteliklerini ku
 
 {{% alert color="primary" %}}
 `extraDelimiter` özniteliği, çok karakterli ayırıcılar, özel metinler veya yeni satırla ayrılmış çıktı için `\n` gibi kaçış dizileri dahil herhangi bir dize değişmezini kabul eder. Dizi boşsa, sonuç hücresi boş bırakılır.
+{{% /alert %}}
 
 ### **Adım Adım İş Akışı**
 Aşağıdaki iş akışı, Smart Markers kullanarak bir dizinin tek bir hücreye nasıl aktarılacağını açıklar.
@@ -71,6 +73,7 @@ Aşağıdaki iş akışı, Smart Markers kullanarak bir dizinin tek bir hücreye
 ### **Kod Örneği 1 — Temel Dize Dizisi Oluşturma**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Product {
     constructor() {
         this.Tags = null;
@@ -92,6 +95,7 @@ workbook.save("output_arraySingle.xlsx");
 ### **Kod Örneği 2 — Özel Ayırıcılı Sayısal Dizi**
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 class Student {
     constructor() {
         this.Scores = [];
@@ -141,8 +145,5 @@ main();
 - Özellik, nesne veri kaynaklarının yanı sıra bir sütunun dizilere bölünebileceği `DataSet` ve `DataTable` kaynaklarıyla da çalışır.
 - Yeni satırla ayrılmış çıktı için, ayırıcı değeri olarak `\n` kullanabilirsiniz.
 - Smart Marker'ı, ortaya çıkan birleştirilmiş dizeyi görüntülemek için yeterli genişliğe sahip bir hücreye yerleştirin; aksi takdirde, içerik biçime bağlı olarak görsel olarak bitişik hücrelere taşabilir.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

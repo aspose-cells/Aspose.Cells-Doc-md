@@ -46,7 +46,6 @@ Ara toplamlar yalnızca satır bölgesinde (veya sütun bölgesinde) iki veya da
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, PivotTable, PivotField, PivotFieldType, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -107,7 +106,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -148,7 +146,6 @@ Tek bir ara toplam türüyle sınırlı değilsiniz. Her `setSubtotals` çağrı
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTableCollection, PivotTable, PivotFieldType, PivotField, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -192,30 +189,32 @@ worksheet.getCells().get(8, 3).putValue(45)
 pivotTables = worksheet.getPivotTables()
 pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1")
 pivotTable = pivotTables.get(pivotIndex)
-pivotTable.addFieldToArea(PivotFieldType.Row, "Category")
-pivotTable.addFieldToArea(PivotFieldType.Row, "Item")
-pivotTable.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 categoryField = pivotTable.getRowFields().get(0)
-categoryField.setSubtotals(PivotFieldSubtotalType.Sum, True)
-categoryField.setSubtotals(PivotFieldSubtotalType.Average, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.SUM, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, True)
 pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 jpype.shutdownJVM()
 ```
 
 ## **Özet**
-Yukarıdaki üç senaryo aynı veri kümesini ve pivot tablo yapısını paylaşır. Aralarındaki tek fark, dış `Category` satır alanına uygulanan `setSubtotals` çağrısıdır. İki alan kuralını unutmayın: bir bölgedeki tek bir alanın ara toplam yapacak bir şeyi yoktur, dolayısıyla `setSubtotals`'ın görünür bir etki yaratmasını istediğinizde her zaman satır veya sütun bölgesine en az iki alan yerleştirin.
-1. ✅ Product names: "Aspose.Cells for Python via Java" appears correctly
-2. ✅ No doubling of product names
-3. ✅ All API names kept in English
-4. ✅ Code blocks preserved exactly
-5. ✅ HTML comment placeholders preserved exactly (3 of them)
-6. ✅ Hugo shortcodes preserved exactly
-7. ✅ URLs unchanged
-8. ✅ Frontmatter structure preserved
-9. ✅ All 3 CODE_BLOCK placeholders preserved
-"Aspose.Cells for Python via Java kullanarak bir pivot tablosunun satır ve sütun bölgelerine temel alanların nasıl ekleneceğini ve PivotField.setSubtotals kullanılarak pivot alanı ara toplamlarının nasıl kontrol edileceğini öğrenin."
-Satır ve sütun alanları, bir pivot tablosunun yapı taşlarıdır. Satır bölgesine yerleştirilen bir alan pivotun solunda dikey olarak görünürken, sütun bölgesine yerleştirilen bir alan üstte yatay olarak görünür. Bu makale, bu bölgelere programatik olarak temel alanların nasıl ekleneceğini ve `PivotField.setSubtotals` yöntemi kullanılarak alan grupları arasında görüntülenen ara toplamların nasıl kontrol edileceğini gösterir.
 
+Bu üç senaryo yalnızca `setSubtotals` çağrıları açısından farklılık gösterir. Geri kalan her şey — veri kümesi, alanlar ve bu alanların atandığı bölgeler — aynıdır, bu durum düzenlerin doğrudan karşılaştırılabilir olmasının nedenidir.
+- **Alanların yerleştirilmesi.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` çağrısı, bir kaynak sütunu bir bölgeye yerleştirir. Bir bölge içinde, çağrıların sırası gösterim sırasını belirler; bu nedenle ilk çağrı en dıştaki grubu oluşturur. Alt toplamlar, aynı bölgede iki veya daha fazla alana ihtiyaç duyar: tek bir alanla gruplar arasında alt toplam yapılacak hiçbir şey bulunmaz.
+- **Senaryo 1 — otomatik alt toplamlar.** `setSubtotals` çağrısının yapılmaması, seçimi Excel’e bırakır ve Excel, sayısal alanlara kendi varsayılan alt toplamını uygular. `PivotFieldSubtotalType.AUTOMATIC` ile `setSubtotals` çağrısı, bu seçimi açıkça kaydeder ve dolaylı bırakmaz.
+- **Senaryo 2 — alt toplam yok.** `PivotFieldSubtotalType.NONE` ile `setSubtotals` çağrısı, varsayılan alt toplamı kapatır; bu durumda pivot tablo, alanı satır olarak ve genel toplamı tutar ancak Excel’in aksi takdirde araya ekleyeceği alt toplam satırlarını kaldırır.
+- **Senaryo 3 — seçilmiş bir alt küme.** Her çağrı tam olarak bir alt toplam türünü açar veya kapatır ve çağrılar birbirlerini sıfırlamak yerine birikir. Bu nedenle, bir kez `PivotFieldSubtotalType.SUM` ve bir kez `PivotFieldSubtotalType.AVERAGE` ile çağırılması, her ikisini de etkinleştirir ve pivot tablo bir Toplam alt toplamı, bir Ortalama alt toplamı ve bir genel toplamı görüntüler.
+
+{{% alert color="primary" %}}
+Alt toplamlarla ilgili hiçbir şey, satır bölgesine özeldir. `PivotTable.ColumnFields`’tan alınan bir alana yapılan aynı `setSubtotals` çağrıları, sütun ekseninde aynı üç düzeni oluşturur, çünkü ayar, eksende bulunduğu alana değil, kendi pivot alanına aittir.
+{{% /alert %}}
+## **İlgili Makaleler**
+
+- [Pivot Tablolarda Sayfa Alanları](/cells/tr/python-java/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Python via Java ile Pivot Tabloları Yenileme](/cells/tr/python-java/refresh-pivot-table/)
+- [Pivot Tablolara Stil Uygulama](/cells/tr/python-java/apply-style-to-pivot-table/)
 {{< app/cells/assistant language="python" >}}

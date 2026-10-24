@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 迷你图是放置在工作表单元格内的小型图表。Aspose.Cells 允许您将每个迷你图提取为独立图像（以便嵌入到另一个单元格或外部报告中），还可以将整个包含迷你图的工作表导出为 HTML，以便在浏览器中分发。本文中使用的 `Cell.EmbeddedImage` 属性在 **Aspose.Cells 26.5 及更高版本**中可用。
+{{% /alert %}}
 
 ## **简介**
 迷你图是一种直接在单元格内可视化趋势的紧凑方式。虽然 Excel 用户可以在工作表中直接看到它们，但许多实际场景需要迷你图"离开"单元格 —— 例如，作为静态图片嵌入到其他单元格中、附加到自动发送的电子邮件中，或作为发布到 Web 的 HTML 报告的一部分进行渲染。
@@ -45,13 +46,13 @@ worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // 添加一个锚定在 F1（列 5，行 0）的折线迷你图组
-CellArea lineArea = CellArea.createCellArea(5, 0, 5, 0);
+CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5);
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
 // 添加一个锚定在 G1（列 6，行 0）的柱形迷你图组
-CellArea columnArea = CellArea.createCellArea(6, 0, 6, 0);
+CellArea columnArea = CellArea.createCellArea(0, 6, 0, 6);
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
 // 添加一个锚定在 H1（列 7，行 0）的盈亏（堆叠）迷你图组
-CellArea stackedArea = CellArea.createCellArea(7, 0, 7, 0);
+CellArea stackedArea = CellArea.createCellArea(0, 7, 0, 7);
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
 // 配置 PNG 输出的图像选项
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
@@ -79,6 +80,7 @@ workbook.save("output_with_sparklines.xlsx");
 
 {{% alert color="primary" %}}
 由于每个迷你图组都锚定到单个单元格，因此您可以通过索引器 `group.getSparklines().get(0)` 来访问它，而无需使用 `for` 循环进行枚举。这使得渲染代码保持简洁，并符合典型的"每个锚定单元格对应一个迷你图"的模式。通过 `setEmbeddedImage` 将图片字节存储到 `Cell.EmbeddedImage` 需要 Aspose.Cells 26.5 或更高版本。
+{{% /alert %}}
 
 ## **工作流程 2 — 将包含迷你图的工作表导出为 HTML**
 一旦工作簿中包含活动的迷你图（以及可选的嵌入图片副本），就可以通过将工作表保存为 HTML 来将其发布到 Web。`HtmlSaveOptions` 类公开了控制此导出所需的选项；在此工作流程中，您将重用工作流程 1 生成的 `output_with_sparklines.xlsx` 文件，并将其转换为简洁的单页 HTML 文档。
@@ -101,6 +103,7 @@ workbook.save("sparklines.html", htmlOptions);
 
 {{% alert color="primary" %}}
 `HtmlSaveOptions` 类提供了其他用于微调输出的属性，例如 `ExportHiddenWorksheet`、`ExportImagesAsBase64` 和 `Encoding`。根据您的部署目标需要进行调整。
+{{% /alert %}}
 
 ## **API 摘要**
 上述工作流程依赖于少量协同工作的 Aspose.Cells API。
@@ -115,10 +118,5 @@ workbook.save("sparklines.html", htmlOptions);
 - [Aspose.Cells for Java 中的迷你图](/cells/zh/java/sparkline/)
 - [将图像插入到单元格中](/cells/zh/java/inserting-an-image-into-a-cell/)
 - [SmartMarker 单单元格数组渲染 | Aspose.Cells Java](/cells/zh/java/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="java" >}}

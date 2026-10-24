@@ -37,6 +37,7 @@ Aspose.Cells поддерживает этот сценарий двумя вз�
 
 {{% alert color="primary" %}}
 Индексы строк и столбцов в Aspose.Cells **начинаются с нуля**. Ячейка C6 имеет индекс строки 5 и индекс столбца 2. Ошибки смещения на единицу в привязке нижнего правого угла — самая частая причина появления изображений, которые, как кажется, заходят на соседнюю ячейку.
+{{% /alert %}}
 
 ### **Управление поведением размещения**
 `picture.placement` — это перечисление типа `PlacementType`, которое управляет поведением изображения при изменении пользователем размера строки или столбца под ним. Рекомендуемое значение для изображения в одной ячейке — `PlacementType.MoveAndSize`, при котором изображение перемещается и изменяет размер вместе со своей базовой ячейкой, сохраняя точное вписывание.
@@ -53,7 +54,7 @@ Aspose.Cells поддерживает этот сценарий двумя вз�
 Следующий код демонстрирует весь подход целиком.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -88,6 +89,8 @@ Aspose.Cells также предоставляет более простой м�
 Следующий код демонстрирует весь подход целиком.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 // Получить целевую ячейку C6
@@ -113,7 +116,6 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 - **Используйте встроенное изображение (подход 2), когда:**
   - нужна максимально простая вставка изображения в ячейку;
   - изображение должно перемещаться вместе с ячейкой как любое другое содержимое ячейки.
-{{% /alert %}}
 
 ## Связанные статьи
 - [Камера Excel в Aspose.Cells for Node.js via C++](/cells/ru/nodejs-cpp/excel-camera/)
@@ -122,4 +124,4 @@ workbook.save("output.xlsx", AsposeCells.SaveFormat.Xlsx);
 - [Изменение компоновки поля страницы в сводной таблице](/cells/ru/nodejs-cpp/change-page-field-layout/)
 - [Преобразование спарклайна в изображение и HTML в Aspose.Cells for Node.js via C++](/cells/ru/nodejs-cpp/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

@@ -1,8 +1,8 @@
 ---
-title: Aggiungere campi riga e colonna a una tabella pivot in Aspose.Cells per .NET
-description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.SetSubtotals in Aspose.Cells for Node.js via C++
-linktitle: Campi riga e colonna
-keywords: Aspose.Cells, Node.js, C++, pivot table, row field, column field, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotals
+title: Aggiungere campi di riga e colonna a una tabella pivot in Aspose.Cells for Node.js via C++
+linktitle: Aggiungere campi di riga e colonna a una tabella pivot
+description: Scopri come aggiungere campi di base alle aree delle righe e delle colonne di una tabella pivot e controllare i subtotali dei campi pivot utilizzando PivotField.SetSubtotals in Aspose.Cells for Node.js via C++
+keywords: Aspose.Cells, Node.js, C++, tabella pivot, campo di riga, campo di colonna, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotali
 type: docs
 weight: 220
 url: /it/nodejs-cpp/pivot-table-add-row-and-column-fields/
@@ -10,20 +10,19 @@ ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Aggiungere un campo all'area riga o colonna**
-Il metodo `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` sposta un campo di base dai dati di origine in una delle quattro aree della tabella pivot. L'argomento `fieldType` accetta uno dei seguenti valori di `PivotFieldType`.
-- `Row` — campi posizionati verticalmente sulla sinistra
-- `Column` — campi posizionati orizzontalmente nella parte superiore
+## **Aggiunta di un campo all'area delle righe o delle colonne**
+Il metodo `PivotTable.AddFieldToArea(PivotFieldType fieldType, string fieldName)` sposta un campo di base dai dati di origine in una delle quattro aree della tabella pivot. L'argomento `fieldType` accetta uno dei seguenti valori `PivotFieldType`.
+- `Row` — campi disposti verticalmente a sinistra
+- `Column` — campi disposti orizzontalmente nella parte superiore
 - `Data` — campi i cui valori vengono aggregati
-- `Page` — campi utilizzati come filtri del report
-Dopo aver aggiunto i campi, è possibile accedervi tramite le proprietà `PivotTable.RowFields` e `PivotTable.ColumnFields`. Ogni proprietà restituisce un `PivotFieldCollection`. Il campo all'indice 0 di `RowFields` è il campo riga più esterno, e gli indici successivi rappresentano i campi annidati al suo interno. La stessa convenzione di indicizzazione si applica a `ColumnFields`.
-L'ordine di annidamento dei campi è importante. Aggiungere `Category` all'area riga per primo e poi `Item` produce una tabella pivot il cui raggruppamento esterno è `Category` e il cui raggruppamento interno è `Item`. Invertendo l'ordine si inverte la gerarchia.
+- `Page` — campi utilizzati come filtri del rapporto
+L'ordine di annidamento dei campi è importante. Se si aggiunge prima `Category` all'area delle righe e poi `Item`, si ottiene una tabella pivot il cui raggruppamento esterno è `Category` e quello interno è `Item`. L'ordine inverso inverte la gerarchia.
 
-## **Subtotali dei campi pivot**
-Il metodo `PivotField.SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` controlla quali righe di subtotale vengono visualizzate per un campo pivot. Ogni chiamata attiva/disattiva un singolo tipo di subtotale in modo indipendente. Passando `shown = true` si visualizza il subtotale, mentre `shown = false` lo nasconde. Poiché ogni chiamata influisce su un solo tipo, chiamare il metodo più volte con valori di `subtotalType` diversi consente di creare un sottoinsieme personalizzato di subtotali.
+## **Sottototali dei campi della tabella pivot**
+Il metodo `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, bool shown)` controlla quali righe di subtotale vengono visualizzate per un campo della tabella pivot. Ogni chiamata attiva o disattiva indipendentemente un singolo tipo di subtotale. Il valore `shown = true` visualizza il subtotale, mentre `shown = false` lo nasconde. Poiché ogni chiamata interessa un solo tipo, la chiamata del metodo più volte con diversi valori `subtotalType` consente di definire un sottoinsieme personalizzato di subtotali.
 L'enumerazione `PivotFieldSubtotalType` definisce i tipi di subtotale disponibili.
-- `Automatic` — Aspose.Cells sceglie la selezione predefinita (tipicamente `Sum` per i campi numerici)
-- `None` — elimina ogni riga di subtotale
+- `Automatic` — Aspose.Cells sceglie l'opzione predefinita (in genere `Sum` per i campi numerici)
+- `None` — sopprime tutte le righe di subtotale
 - `Sum`
 - `Count`
 - `Average`
@@ -36,13 +35,14 @@ L'enumerazione `PivotFieldSubtotalType` definisce i tipi di subtotale disponibil
 - `Varp`
 
 {{% alert color="primary" %}}
-I subtotali vengono visualizzati solo quando sono presenti due o più campi pivot nell'area riga (o nell'area colonna). Un singolo campo non ha nulla di significativo da subtotalizzare tra un gruppo e l'altro, quindi le chiamate a `SetSubtotals` non hanno alcun effetto visibile in tal caso. Questo articolo, pertanto, inserisce due campi riga (`Category` esterno, `Item` interno) in ogni esempio, in modo che il confine di subtotale tra ciascun gruppo `Category` sia visibile.
+I subtotali vengono visualizzati solo quando nell'area delle righe (o delle colonne) sono presenti due o più campi della tabella pivot. Un singolo campo non fornisce elementi significativi rispetto ai quali calcolare un subtotale; pertanto, in questo caso, le chiamate a `setSubtotals` non producono effetti visibili. Questo articolo inserisce quindi, in ogni esempio, due campi di riga (`Category` come campo esterno e `Item` come campo interno), in modo da rendere visibile il confine dei subtotali tra ciascun gruppo `Category`.
 {{% /alert %}}
 
 ## **Scenario 1 — Subtotali automatici (predefiniti)**
-Quando non si chiama affatto `SetSubtotals`, Aspose.Cells applica la selezione `Automatic` ai campi numerici. L'esempio seguente conferma esplicitamente questo comportamento chiamando `SetSubtotals(PivotFieldSubtotalType.Automatic, true)` sul campo riga esterno `Category`.
+Quando `setSubtotals` non viene chiamato, Aspose.Cells applica l'opzione `Automatic` ai campi numerici. L'esempio seguente conferma esplicitamente questo comportamento chiamando `setSubtotals(PivotFieldSubtotalType.Automatic, true)` sul campo di riga esterno `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -94,11 +94,11 @@ pivotTable.calculateData();
 workbook.save("output_automatic.xlsx");
 ```
 
-## **Scenario 2 — Eliminazione di tutti i subtotali (None)**
-Chiamare `SetSubtotals(PivotFieldSubtotalType.None, true)` rimuove ogni riga di subtotale dalla tabella pivot, lasciando solo le righe dei campi e il totale generale in fondo. Ciò è utile quando si desidera raggruppare i dati grezzi senza alcuna riga di riepilogo.
+## **Scenario 2 — Soppressione di tutti i subtotali (None)**
+La chiamata `setSubtotals(PivotFieldSubtotalType.None, true)` rimuove tutte le righe di subtotale dalla tabella pivot, lasciando soltanto le righe dei campi e il totale generale in basso. Questa impostazione è utile quando si desidera visualizzare i dati raggruppati in forma grezza, senza righe di riepilogo.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -133,10 +133,11 @@ pivotTable.calculateData();
 workbook.save("output_none.xlsx");
 ```
 
-## **Scenario 3 — Sottoinsieme di subtotali personalizzato (Sum + Average)**
-Non si è limitati a un singolo tipo di subtotale. Ogni chiamata a `SetSubtotals` agisce in modo indipendente su un singolo tipo, quindi chiamare il metodo due volte — una con `Sum` e una con `Average` — produce un sottoinsieme personalizzato di due righe di subtotale per ciascun gruppo `Category`.
+## **Scenario 3 — Sottototali personalizzati (Sum + Average)**
+Non è necessario limitarsi a un singolo tipo di subtotale. Ogni chiamata a `setSubtotals` opera indipendentemente su un tipo; pertanto, chiamando il metodo due volte, una con `Sum` e una con `Average`, si ottiene un sottoinsieme personalizzato di due righe di subtotale per ciascun gruppo `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -191,6 +192,19 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Riepilogo**
-I tre scenari precedenti condividono lo stesso set di dati e la stessa struttura di tabella pivot. L'unica differenza tra essi è la chiamata a `SetSubtotals` applicata al campo riga esterno `Category`. Ricordare la regola dei due campi: un singolo campo in un'area non ha nulla da subtotalizzare tra un gruppo e l'altro, quindi è sempre necessario inserire almeno due campi nell'area riga o colonna quando si desidera che `SetSubtotals` abbia un effetto visibile.
+
+I tre scenari differiscono in un unico aspetto: le chiamate a `setSubtotals`. Tutto il resto — il set di dati, i campi e le aree a cui vengono assegnati — è identico, il che rende i layout direttamente confrontabili.
+- **Posizionamento dei campi.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` sposta una colonna di origine in una regione. All'interno di una stessa regione, l’ordine delle chiamate determina l’ordine di visualizzazione, pertanto la prima chiamata corrisponde al gruppo esterno più esteso. Per calcolare le subtotali servono due o più campi nella stessa regione: con un unico campo non esiste alcun elemento tra i gruppi su cui calcolare le subtotali.
+- **Scenario 1 — subtotali automatiche.** Non chiamare `setSubtotals` lascia la scelta a Excel, che applica la propria subtotals predefinita ai campi numerici. Chiamare `setSubtotals` con `AsposeCells.PivotFieldSubtotalType.Automatic` registra esplicitamente tale scelta, invece di lasciarla implicita.
+- **Scenario 2 — nessuna subtotale.** `setSubtotals` con `AsposeCells.PivotFieldSubtotalType.None` disattiva la subtotale predefinita, per cui il pivot mantiene le righe del campo e la totale generale, ma omette le righe di subtotale che Excel altrimenti inserirebbe tra di esse.
+- **Scenario 3 — un sottoinsieme selezionato.** Ogni chiamata abilita o disabilita esattamente un tipo di subtotale, e le chiamate si accumulano piuttosto che sovrascidersi reciprocamente. Di conseguenza, chiamarlo una volta con `AsposeCells.PivotFieldSubtotalType.Sum` e una volta con `AsposeCells.PivotFieldSubtotalType.Average` lascia entrambi abilitati, e il pivot genera una subtotale Sum, una subtotale Average e la totale generale.
+
+{{% alert color="primary" %}}
+Nulla riguardo le subtotali è specifico per la regione riga. Le stesse chiamate a `setSubtotals` su un campo estratto da `PivotTable.ColumnFields` producono gli stessi tre layout sull’asse delle colonne, poiché l’impostazione appartiene al campo pivot e non all’asse su cui è posizionato.
+{{% /alert %}}
+## **Articoli correlati**
+- [Campi di pagina nelle tabelle pivot](/cells/it/nodejs-cpp/add-page-field-in-pivot-table/)
+- [Aggiornamento delle tabelle pivot in Aspose.Cells for Node.js via C++](/cells/it/nodejs-cpp/refresh-pivot-table/)
+- [Applicazione degli stili alle tabelle pivot](/cells/it/nodejs-cpp/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

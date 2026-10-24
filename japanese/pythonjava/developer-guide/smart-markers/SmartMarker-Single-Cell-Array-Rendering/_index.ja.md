@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells は、Smart Markers を介して配列データを単一セルにレンダリングすることをサポートしています。`ArrayAsSingle` 属性と `ExtraDelimiter` 属性を併用することで、開発者は単一セル内での配列要素の区切り方法を制御でき、レポートやテンプレートに対して柔軟な書式設定を提供できます。
+{{% /alert %}}
 
 ## **はじめに**
 Aspose.Cells の Smart Markers は、`&=DataSource.Field` などのマーカー式を使用してスプレッドシートのデータを動的に入力できる、強力なテンプレートベースの機能です。マーカーはデザイナーワークブック内に配置され、テンプレートが `WorkbookDesigner` によって処理されると、マーカーは指定されたデータソースの値に置き換えられます。
@@ -59,6 +60,7 @@ Smart Markers で `ArrayAsSingle` および `ExtraDelimiter` 属性を使用す�
 
 {{% alert color="primary" %}}
 `extraDelimiter` 属性は、複数文字の区切り文字、カスタムテキスト、改行で区切られた出力用の `\n` などのエスケープシーケンスなど、任意の文字列リテラルを受け入れます。配列が空の場合、結果のセルは空白のままになります。
+{{% /alert %}}
 
 ### **ステップバイステップのワークフロー**
 次のワークフローでは、Smart Markers を使用して配列を単一セルにレンダリングする方法について説明します。
@@ -74,7 +76,6 @@ Smart Markers で `ArrayAsSingle` および `ExtraDelimiter` 属性を使用す�
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 class Product:
     def __init__(self, tags):
@@ -102,7 +103,6 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-from asposecells.api import Workbook
 # Student クラスを定義する
 class Student:
     def __init__(self):
@@ -123,7 +123,6 @@ jpype.shutdownJVM()
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, WorkbookDesigner
 # データソースを辞書として定義する (Order クラスと同等)
 order = {"Items": ["Apple", "Banana", "Cherry", "Date"]}
@@ -153,8 +152,5 @@ jpype.shutdownJVM()
 - この機能はオブジェクトデータソースだけでなく、列を配列に分割できる `DataSet` および `DataTable` ソースでも動作します。
 - 改行で区切られた出力の場合、区切り文字の値として `\n` またはプラットフォームの改行定数を使用できます。
 - 結果として得られる連結文字列を表示するのに十分な幅を持つセルに Smart Marker を配置してください。さもなければ、フォーマットに応じて内容が隣接するセルに視覚的にオーバーフローする可能性があります。
-{{% /alert %}}
-
-{{% /alert %}}
 
 {{< app/cells/assistant language="python" >}}

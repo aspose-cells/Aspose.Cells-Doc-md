@@ -88,6 +88,67 @@ workbook.save("output.xls");
 
 ## **モダンな名前付きプリセットのピボットテーブルスタイルを適用する**
 
+`PivotTable.setPivotTableStyleType(int)` は、Excel 2007 でピボットテーブルに導入された組み込みの名前付きスタイルのいずれかを選択します。`PivotTableStyleType` 列挙型は、3 つのテーマファミリーを公開しています。`PIVOT_TABLE_STYLE_LIGHT1` から `PIVOT_TABLE_STYLE_LIGHT28` までのライトファミリー、`PIVOT_TABLE_STYLE_MEDIUM1` から `PIVOT_TABLE_STYLE_MEDIUM28` までの中間ファミリー、`PIVOT_TABLE_STYLE_DARK1` から `PIVOT_TABLE_STYLE_DARK_28` までのダークファミリーです。また、`None` と `Custom` も定義しています。各ファミリーで番号が大きいメンバーは、Excel 2017 で追加されたスタイルです。
+これらのプリセットは読み取り専用です。色、罫線、またはフォントをプリセットの範囲を超えて変更する必要がある場合は、代わりにカスタムピボットスタイルを定義する必要があります。これは [シナリオ 3](#define-and-apply-a-custom-pivot-table-style) で示されています。
+
+{{% alert color="primary" %}}
+**なぜ現代のプリセットを使用し、レポートシリーズのオートフォーマットを使用しないのですか？** `PivotTableAutoFormatType` の `Report1` から `Report10` までの値と `Table1` から `Table10` までの値は、ピボット列フィールドより前に定義されたもので、列フィールドヘッダーのスタイル指定がないため、Excel はそれらのヘッダーをスタイルなしで表示します。`PivotTableStyleType` のプリセットは、现代の Excel が使用する二次元レイアウト向けに設計されており、行フィールドヘッダーと列フィールドヘッダーの両方にスタイルを適用します。
+{{% /alert %}}
+
+このシナリオでは、シナリオ 1 の Fruit/Year/Amount データセットを再利用し、`PivotFieldType.COLUMN` を使用して `Year` を列エリアに追加します。列エリアには `Fruit` 行フィールドが配置されているため、`Year` はその行フィールドの隣に追加されます。次に、`pivotTable.setPivotTableStyleType` を使用してダークテーマのプリセット `PIVOT_TABLE_STYLE_DARK1` を適用し、結果を `.xlsx` として保存します。これは `PivotTableStyleType` が意味を持つ形式です。
+
+```java
+import com.aspose.cells.*;
+Workbook workbook = new Workbook();
+Worksheet worksheet = workbook.getWorksheets().get(0);
+// Header row: Fruit / Year / Amount
+worksheet.getCells().get("A1").putValue("Fruit");
+worksheet.getCells().get("B1").putValue("Year");
+worksheet.getCells().get("C1").putValue("Amount");
+// 9 data rows of Fruit / Year / Amount
+worksheet.getCells().get("A2").putValue("Grape");
+worksheet.getCells().get("B2").putValue(2020);
+worksheet.getCells().get("C2").putValue(100);
+worksheet.getCells().get("A3").putValue("Blueberry");
+worksheet.getCells().get("B3").putValue(2020);
+worksheet.getCells().get("C3").putValue(150);
+worksheet.getCells().get("A4").putValue("Kiwi");
+worksheet.getCells().get("B4").putValue(2020);
+worksheet.getCells().get("C4").putValue(200);
+worksheet.getCells().get("A5").putValue("Cherry");
+worksheet.getCells().get("B5").putValue(2020);
+worksheet.getCells().get("C5").putValue(180);
+worksheet.getCells().get("A6").putValue("Grape");
+worksheet.getCells().get("B6").putValue(2021);
+worksheet.getCells().get("C6").putValue(120);
+worksheet.getCells().get("A7").putValue("Blueberry");
+worksheet.getCells().get("B7").putValue(2021);
+worksheet.getCells().get("C7").putValue(170);
+worksheet.getCells().get("A8").putValue("Kiwi");
+worksheet.getCells().get("B8").putValue(2021);
+worksheet.getCells().get("C8").putValue(210);
+worksheet.getCells().get("A9").putValue("Cherry");
+worksheet.getCells().get("B9").putValue(2021);
+worksheet.getCells().get("C9").putValue(190);
+worksheet.getCells().get("A10").putValue("Grape");
+worksheet.getCells().get("B10").putValue(2021);
+worksheet.getCells().get("C10").putValue(130);
+// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
+int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
+PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1);
+// Save as modern .xlsx - this is the format for which PivotTableStyleType is meaningful.
+workbook.save("output.xlsx");
+```
 ## **カスタムピボットテーブルスタイルを定義して適用する**
 組み込みのプリセットは変更できません。色、罫線、フォントを上書きする必要がある場合は、必ずカスタムピボットスタイルを定義する必要があります。ワークフローは次の 3 ステップで構成されます。
 1. `Workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)` を呼び出して、ワークブックの `TableStyles` コレクションにカスタムスタイルを追加します。これは新しく作成されたスタイルのインデックスを返します。
@@ -96,10 +157,9 @@ workbook.save("output.xls");
 
 {{% alert color="primary" %}}
 `PivotTableStyleName` と `PivotTableStyleType` は相互に置き換え可能なものではありません。組み込みプリセットには `PivotTableStyleType` を、`addPivotTableStyle` を通じて定義したカスタムスタイルには `PivotTableStyleName` を使用してください。両方を設定しても害はありませんが、意図したソースに合致する一方のみがレンダリングされます。
-{{% /alert %}}
-
 利用可能な `TableStyleElementType` の値には、`WHOLE_TABLE`、`FIRST_ROW`、`LAST_ROW`、`FIRST_COLUMN`、`LAST_COLUMN`、`GRAND_TOTAL_ROW`、`GRAND_TOTAL_COLUMN`、`PAGE_FIELD_LABELS`、`PAGE_FIELD_VALUES` が含まれます。
 次の例では、`WholeTable` に細い黒色の罫線、`GrandTotalRow` に太字の赤色のフォントを持つカスタムピボットスタイルを定義し、`PivotTableStyleName` を介してそれを適用して `.xlsx` として保存します。
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -175,14 +235,13 @@ pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
 
-## **FormatAll を使用してすべてのピボットセルに 1 つのスタイルを適用する**
+## **formatAll を使用してすべてのピボットセルに 1 つのスタイルを適用する**
 `PivotTable.formatAll(Style)` は、データ領域、行/列ヘッダー、合計を含むピボットテーブルのすべてのセルに単一の `Style` オブジェクトを適用するショートカットです。`PivotTableStyleType` または `PivotTableStyleName` を介して以前に設定された内容はすべて上書きされます。
 
 {{% alert color="primary" %}}
-`FormatAll` は `PivotTableStyleType` と `PivotTableStyleName` の両方を上書きします。テーマに関係なく、ピボット全体で統一された外観が必要な場合にのみ使用してください。
-{{% /alert %}}
-
+`formatAll` は `PivotTableStyleType` と `PivotTableStyleName` の両方を上書きします。テーマに関係なく、ピボット全体で統一された外観が必要な場合にのみ使用してください。
 次の例では、黄色の単色塗りつぶし、太字の濃紺フォント、すべての辺に細い黒色の罫線を持つ `Style` を作成し、`formatAll` で適用して `.xlsx` として保存します。
+{{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
@@ -240,7 +299,7 @@ style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBord
 style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setColor(Color.getBlack());
 style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN);
 style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setColor(Color.getBlack());
-// FormatAllを適用: この単一のスタイルをピボットテーブルのすべてのセルに強制適用し、
+// formatAllを適用: この単一のスタイルをピボットテーブルのすべてのセルに強制適用し、
 // 以前に設定されたPivotTableStyleType / PivotTableStyleNameを上書きします
 pivotTable.formatAll(style);
 // ワークブックを最新の.xlsx形式で保存
@@ -256,5 +315,6 @@ workbook.save("output.xlsx");
 | `.xlsx` / `.xlsm` / `.xlsb`（モダン、カスタムスタイル） | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | 組み込みプリセットで足りない場合に使用します。`TableStyleElement.setElementStyle(...)` を介して設定します。 |
 | すべての形式（統一上書き） | `PivotTable.formatAll(Style)` | ピボット全体の他のすべてのスタイル設定を上書きするショートカット。 |
 判断に迷った場合は、`.xlsx` として保存し、組み込みテーマには `PivotTableStyleType` を、カスタムテーマには `PivotTableStyleName` を使用してください。
+
 
 {{< app/cells/assistant language="java" >}}

@@ -156,4 +156,4 @@ Use **Approach 1** when you need a quick, cross-version transformation and only 
 - [Inserting an Image into a Cell](/cells/cpp/inserting-an-image-into-a-cell/)
 - [Splitting Excel Files into Multiple Files](/cells/cpp/splitting-excel-files-into-multiple-files/)
 
-{{< app/cells/assistant language="" >}}
+{{< app/cells/assistant language="cpp" >}}

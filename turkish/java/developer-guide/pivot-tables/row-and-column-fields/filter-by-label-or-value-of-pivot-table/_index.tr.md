@@ -1,8 +1,8 @@
 ---
-title: Pivot Tablolarını Etikete veya Değere Göre Filtreleme
-description: Aspose.Cells for Java kapsamlı pivot tablosu filtreleme yeteneklerini destekler. Bu makale, etiket filtreleri, tarih filtreleri, değer filtreleri, ilk 10 filtreleri ve pivot öğelerini gizleyerek veya göstererek pivot tablosu verilerinin nasıl filtreleneceğini açıklar.
-linktitle: Pivot Tablolarını Etikete veya Değere Göre Filtreleme
-keywords: Aspose.Cells, Java kütüphanesi, elektronik tablo, pivot tablosu, filtre, etiket filtresi, değer filtresi, tarih filtresi, ilk 10 filtresi, pivot öğesi, pivot öğesini gizle
+title: Etikete veya Değere Göre Özet Tablolarını Filtreleme
+linktitle: Etikete veya Değere Göre Özet Tablolarını Filtreleme
+description: Aspose.Cells for Java, kapsamlı özet tablo filtreleme özelliklerini destekler. Bu makale, etiket filtreleri, tarih filtreleri, değer filtreleri, ilk 10 filtreleri ve özet tablo öğelerini gizleyerek veya görünür hâle getirerek özet tablo verilerinin nasıl filtreleneceğini açıklar.
+keywords: Aspose.Cells, Java kitaplığı, elektronik tablo, özet tablo, filtre, etiket filtresi, değer filtresi, tarih filtresi, ilk 10 filtresi, özet tablo öğesi, özet tablo öğesini gizleme
 type: docs
 weight: 10
 url: /tr/java/filter-by-label-or-value-of-pivot-table/
@@ -11,23 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells, bir pivot tablosunda görüntülenen verileri filtrelemek için beş pratik strateji sunar. Metin tabanlı satır veya sütun alanlarına etiket filtreleri uygulayabilir, alan yalnızca tarih-saat hücreleri veya boş değerler içerdiğinde tarih filtreleri kullanabilir, toplu sayılara karşı değer filtreleri uygulayabilir, bir değer alanına göre sıralamak için ilk 10 filtreleri kullanabilir veya `IsHidden` özelliğini kullanarak tek tek pivot öğelerini manuel olarak gizleyebilir ve gösterebilirsiniz. Her strateji, `PivotField` ve `PivotItem` sınıfları üzerindeki özel API'ler aracılığıyla sunulur.
+Aspose.Cells, bir özet tabloda görüntülenen verileri filtrelemek için beş pratik strateji sunar. Metin tabanlı satır veya sütun alanlarına etiket filtreleri uygulayabilir, alan yalnızca tarih-saat hücrelerini veya boş değerleri içeriyorsa tarih filtreleri kullanabilir, toplulaştırılmış sayılar üzerinde değer filtreleri uygulayabilir, bir değer alanına göre sıralama yapmak için ilk 10 filtresini kullanabilir veya `IsHidden` özelliğini kullanarak bireysel özet tablo öğelerini elle gizleyip görünür hâle getirebilirsiniz. Her strateji, `PivotField` ve `PivotItem` sınıflarındaki ilgili API'ler aracılığıyla sunulur.
 {{% /alert %}}
 
 ## **Giriş**
-Pivot tabloları güçlü analiz araçlarıdır, ancak ham özetler genellikle sunmanız gerekenden çok daha fazla bilgi içerir. Filtreleme, bir pivot tablosunu belirli bir rapor için önemli olan satırlara, sütunlara veya değerlere daraltmanın birincil mekanizmasıdır. Aspose.Cells for Java, Microsoft Excel'de bulunan filtreleme yeteneklerini yansıtır ve rapor oluşturmanın tamamen otomatikleştirilebilmesi için bunları programlı olarak sunar.
+Özet tablolar güçlü analitik araçlardır; ancak ham özetler genellikle sunmak istediğinizden çok daha fazla bilgi içerir. Filtreleme, bir özet tabloyu belirli bir rapor için gereken satırlarla, sütunlarla veya değerlerle daraltmanın temel mekanizmasıdır. Aspose.Cells for Java, Microsoft Excel'de kullanılabilen filtreleme özelliklerini programatik olarak sunar; böylece rapor oluşturma süreci tamamen otomatikleştirilebilir.
 Bu makalede aşağıdaki filtreleme stratejileri ele alınmaktadır:
-1. **Etiket Filtresi** — satır veya sütun alanı öğelerini metin etiketlerine göre filtreler.
-2. **Tarih Filtresi** — yalnızca tarih-saat değerleri (veya boş değerler) içeren satır veya sütun alanlarını filtreler.
-3. **Değer Filtresi** — öğeleri bir veri alanının toplu değerlerine göre filtreler.
-4. **İlk 10 Filtresi** — bir değer alanına göre sıralanmış yalnızca ilk veya son N öğeyi gösterir.
-5. **Pivot Öğelerini Gizle / Göster** — bir alandaki her bir öğenin görünürlüğünü manuel olarak kontrol eder.
-Her yaklaşım, `PivotField` sınıfında farklı bir yöntem veya `PivotItem` sınıfında bir özellik kullanır. Herhangi bir filtre uyguladıktan sonra, önbelleğe alınmış verilerin ve hesaplanan değerlerin yeni filtre durumunu yansıtması için pivot tablosunda `refreshData()` ve `calculateData()` çağrısı yapmalısınız.
+1. **Etiket Filtresi** — metin etiketlerine göre bir satır veya sütun alanının öğelerini filtreler.
+2. **Tarih Filtresi** — yalnızca tarih-saat değerlerini veya boş hücreleri içeren satır veya sütun alanlarını filtreler.
+3. **Değer Filtresi** — öğeleri bir veri alanının toplulaştırılmış değerlerine göre filtreler.
+4. **İlk 10 Filtresi** — bir değer alanına göre sıralama yaparak yalnızca ilk veya son N öğeyi gösterir.
+5. **Özet Tablo Öğelerini Gizleme / Görünür Hâle Getirme** — bir alandaki her bireysel öğenin görünürlüğünü elle denetler.
+Her yaklaşım, `PivotField` sınıfında farklı bir metot veya `PivotItem` sınıfında bir özellik kullanır. Herhangi bir filtre uyguladıktan sonra, önbelleğe alınmış verilerin ve hesaplanan değerlerin yeni filtre durumunu yansıtması için özet tablo üzerinde `refreshData()` ve `calculateData()` çağırın.
 
 ## **Etiket Filtresi**
-Bir etiket filtresi, bir satır veya sütun alanının öğelerini metin başlıklarını bir kalıpla karşılaştırarak filtrelemenize olanak tanır. Bu, yalnızca adları belirli bir harfle başlayan, belirli bir kelimeyi içeren veya başka bir başlık tabanlı ölçüte uyan ürünleri görüntülemek istediğinizde kullanışlıdır.
-Aspose.Cells, etiket filtrelemeyi `PivotField.filterByLabel(PivotFilterType, String)` yöntemi aracılığıyla sunar. `PivotFilterType` numaralandırması `CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank`, `CaptionIsBlank` gibi değerler içerir. İkinci bağımsız değişken, karşılaştırma için kullanılan etiket dizesini sağlar.
-Aşağıdaki örnek, mevcut bir pivot tablosu içeren bir çalışma kitabını yükler, başlıkları belirli bir önekle başlayan öğelerin görünür kalması için bir etiket filtresi uygular, pivot tablosunu yeniler ve sonucu kaydeder.
+Etiket filtresi, bir satır veya sütun alanının öğelerini, metin etiketlerini bir desenle karşılaştırarak filtrelemenizi sağlar. Yalnızca adları belirli bir harfle başlayan, belirli bir sözcük içeren veya başka bir etiket ölçütüyle eşleşen ürünleri görüntülemek istediğinizde bu yöntem kullanışlıdır.
+Aspose.Cells, etiket filtrelemeyi `PivotField.filterByLabel(PivotFilterType, String)` metoduyla sunar. `PivotFilterType` numaralandırması `CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank`, `CaptionIsBlank` ve benzeri değerleri içerir. İkinci argüman, karşılaştırmada kullanılacak etiket dizesini belirtir.
+Aşağıdaki örnek, mevcut bir özet tablo içeren bir çalışma kitabını yükler ve yalnızca etiketleri belirli bir ön ekle başlayan öğelerin görünür kalmasını sağlayan bir etiket filtresi uygular. Ardından özet tabloyu yeniler ve sonucu kaydeder.
 
 ```java
 import com.aspose.cells.*;
@@ -35,29 +35,28 @@ String fileName = "sample.xlsx";
 String prefix = "B";
 // Pivot tablosu içeren mevcut çalışma kitabını yükle
 Workbook workbook = new Workbook(fileName);
-// Çalışma sayfasına dizine göre eriş (ilk çalışma sayfası)
+// Çalışma sayfasına dizinle eriş (ilk çalışma sayfası)
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Pivot tablosuna dizine göre eriş
+// Pivot tablosuna dizinle eriş
 PivotTable pivotTable = worksheet.getPivotTables().get(0);
-// İlk satır PivotField'ı al
+// İlk satır PivotField'ını al
 PivotField rowField = pivotTable.getRowFields().get(0);
-// Etiket filtresini uygula - yalnızca etiketleri sağlanan önekle başlayan satır öğelerini göster
+// Etiket filtresini uygula - yalnızca etiketleri sağlanan ön ekle başlayan satır öğelerini göster
 rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
-// Filtrenin geçerli olması için pivot tablo verilerini yenile ve yeniden hesapla
+// Filtre geçerli olsun diye pivot tablosu verilerini yenile ve yeniden hesapla
 pivotTable.refreshData();
 // Çalışma kitabını diske geri kaydet
 workbook.save(fileName);
 ```
 
 ## **Tarih Filtresi**
-Tarih filtreleri, pivot tablosunu bugün, geçen hafta, bu ay, gelecek çeyrek veya belirli bir tarih aralığı gibi tarih tabanlı ölçütlerle daraltmanıza olanak tanır. Bunlar, yalnızca tarih-saat bilgisi saklayan alanlara karşı çalışan özel filtrelerdir.
+Tarih filtreleri, bugün, geçen hafta, bu ay, sonraki çeyrek veya belirli bir tarih aralığı gibi tarihe dayalı ölçütlere göre bir özet tabloyu daraltmanızı sağlar. Bunlar, yalnızca tarih-saat bilgisi saklayan alanlarda çalışan özel filtrelerdir.
 
 {{% alert color="primary" %}}
-Tarih filtresi yalnızca satır veya sütun alanı yalnızca tarih-saat hücreleri veya boş değerler içerdiğinde çalışır. Temel alandaki alan sayılar veya metin gibi başka veri türleri içeriyorsa, tarih filtresi beklenen sonucu vermeyecektir. Alanın tarih olarak biçimlendirildiğinden ve tüm değerlerin geçerli `DateTime` örnekleri veya boş hücreler olduğundan emin olun, ardından bu filtreyi uygulayın.
+Tarih filtresi, yalnızca tarih-saat hücreleri veya boş değerler içeren bir satır veya sütun alanında çalışır. İlgili alan sayı veya metin gibi başka veri türleri içeriyorsa tarih filtresi beklenen sonucu vermez. Bu filtreyi uygulamadan önce alanın tarih olarak biçimlendirildiğinden ve tüm hücrelerin geçerli `DateTime` değerleri içerdiğinden veya boş olduğundan emin olun.
+Aspose.Cells, tarih filtrelemeyi `PivotField.filterByDate(PivotFilterType, params DateTime[] values)` metoduyla sunar. `PivotFilterType` numaralandırması `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` ve `Between` gibi özel tarih değerlerini içerir. Belirlenen filtre türüne göre bir veya iki `DateTime` değeri belirtirsiniz; `Between` filtresi için başlangıç ve bitiş tarihlerini verirsiniz.
+Aşağıdaki örnek, satır alanında bir tarih alanı bulunan bir özet tablo içeren bir çalışma kitabını yükler ve yalnızca belirli bir tarih aralığındaki öğelerin görünür kalmasını sağlayan bir tarih filtresi uygular. Ardından özet tabloyu yeniler ve çalışma kitabını kaydeder.
 {{% /alert %}}
-
-Aspose.Cells, tarih filtrelemeyi `PivotField.filterByDate(PivotFilterType, params DateTime[] values)` yöntemi aracılığıyla sunar. `PivotFilterType` numaralandırması `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` ve `Between` gibi özel tarih değerleri içerir. Seçilen filtre türüne bağlı olarak bir veya iki `DateTime` değeri geçirirsiniz (`Between` için başlangıç ve bitiş tarihlerini geçirirsiniz).
-Aşağıdaki örnek, satır alanında bir tarih alanı içeren bir pivot tablosuyla bir çalışma kitabı yükler, görünür öğeleri belirli bir tarih aralığıyla sınırlayan bir tarih filtresi uygular, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
 
 ```java
 import java.io.File;
@@ -68,30 +67,30 @@ if (!new File(inputPath).exists())
 {
     throw new FileNotFoundException("Source workbook not found: " + inputPath);
 }
-// Pivot tablosunu içeren mevcut çalışma kitabını yükle
+// Pivot tablosunu içeren mevcut çalışma kitabını yükleyin
 Workbook workbook = new Workbook(inputPath);
-// Pivot tablosunu tutan çalışma sayfasına eriş (indekse göre)
+// Pivot tablosunu içeren çalışma sayfasına erişin (dizinle)
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Pivot tablosuna indekse göre eriş
+// Pivot tablosuna dizinle erişin
 PivotTable pivotTable = worksheet.getPivotTables().get(0);
-// Satır alanından tarih PivotField'ını al
-// (Tarih filtresi yalnızca satır/sütun alanı yalnızca tarih-saat hücreleri veya boşluklar içerdiğinde çalışır)
+// Tarih PivotField'ini satır alanından alın
+// (Tarih filtresi yalnızca satır/sütun alanı yalnızca tarih-saat hücreleri veya boş hücreler içerdiğinde çalışır)
 PivotField dateField = pivotTable.getRowFields().get(0);
-// Between filtresi için tarih kriterini tanımla
+// Between filtresi için tarih ölçütünü tanımlayın
 DateTime startDate = new DateTime(2020, 1, 1);
 DateTime endDate = new DateTime(2020, 12, 31);
-// Pivot alanına tarih filtresini uygula
+// Pivot alanına tarih filtresini uygulayın
 dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate);
-// Filtrenin etkili olması için pivot tablosunu yenile ve yeniden hesapla
+// Filtrenin etkinleşmesi için pivot tablosunu yenileyin ve yeniden hesaplayın
 pivotTable.refreshData();
-// Çalışma kitabını kalıcı hale getir
+// Çalışma kitabını kaydedin
 workbook.save(outputPath);
 ```
 
 ## **Değer Filtresi**
-Değer filtreleri, bir pivot tablosunun veri alanında hesapladığı toplu değerler üzerinde çalışır. Metin etiketlerini eşleştirmek yerine, sayısal toplamları bir eşik değeriyle karşılaştırırlar. Tipik kullanım durumları arasında yalnızca satış toplamı hedef tutarı aşan ürünleri veya işlem sayısı belirli bir aralıkta olan bölgeleri göstermek yer alır.
-Aspose.Cells, değer filtrelemeyi `PivotField.filterByValue(PivotField valueField, PivotFilterType filterType, params Object[] values)` yöntemi aracılığıyla sunar. `filterType` parametresi `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual` ve `ValueLessThanOrEqual` gibi değerler kullanır. `valueField` parametresi, hangi veri alanının değerlendirileceğini belirtir ve son bağımsız değişken(ler) eşik değerini(lerini) sağlar.
-Aşağıdaki örnek, bir pivot tablosu içeren bir çalışma kitabı yükler, yalnızca toplu satışları sayısal bir eşiği aşan öğeleri tutan bir değer filtresi uygular, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
+Değer filtreleri, bir özet tablonun veri alanında hesapladığı toplulaştırılmış değerler üzerinde çalışır. Metin etiketleriyle eşleştirmek yerine, sayısal toplamları bir eşik değerle karşılaştırırlar. Tipik kullanım durumları arasında yalnızca satış toplamı hedef tutarı aşan ürünlerin veya işlem sayısı belirli bir aralıkta bulunan bölgelerin gösterilmesi yer alır.
+Aspose.Cells, değer filtrelemeyi `PivotField.filterByValue(PivotField valueField, PivotFilterType filterType, params Object[] values)` metoduyla sunar. `filterType` parametresi `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual` ve `ValueLessThanOrEqual` gibi değerleri kullanır. `valueField` parametresi, değerlendirilecek veri alanını belirtir; son argüman veya argümanlar ise eşik değerleri sağlar.
+Aşağıdaki örnek, bir özet tablo içeren bir çalışma kitabını yükler ve yalnızca toplulaştırılmış satış toplamları sayısal bir eşiği aşan öğeleri bırakan bir değer filtresi uygular. Ardından özet tabloyu yeniler ve çalışma kitabını kaydeder.
 
 ```java
 import com.aspose.cells.*;
@@ -100,7 +99,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 PivotTable pivotTable = worksheet.getPivotTables().get(0);
 PivotField rowField = pivotTable.getRowFields().get(0);
 PivotField dataField = pivotTable.getDataFields().get(0);
-// PivotFieldCollection'ın IndexOf metodu olmadığı için veri alanı indeksini manuel olarak bul
+// PivotFieldCollection'ın IndexOf metodu olmadığından veri alanı dizinini manuel olarak bul
 int dataFieldIndex = -1;
 for (int i = 0; i < pivotTable.getDataFields().getCount(); i++)
 {
@@ -119,92 +118,91 @@ workbook.save("output.xlsx");
 ```
 
 ## **İlk 10 Filtresi**
-İlk 10 filtresi, seçilen bir değer alanına göre yalnızca en yüksek veya en düşük N öğeyi tutan özel bir değer filtresi biçimidir. "Gelire göre ilk 10 ürün" veya "Satış sayısına göre son 5 bölge" gibi sıralama raporları için yaygın olarak kullanılır.
+İlk 10 filtresi, seçilen bir değer alanına göre yalnızca en yüksek veya en düşük N öğeyi koruyan özel bir değer filtresi türüdür. Gelire göre ilk 10 ürün veya satış sayısına göre son 5 bölge gibi sıralama raporlarında yaygın olarak kullanılır.
 
 {{% alert color="primary" %}}
-İlk 10 filtresi yalnızca pivot tablosunun veri alanında bir veya daha fazla değer pivot alanı olduğunda etkilidir. En az bir değer alanı olmadan, öğeleri sıralamak için toplu bir ölçü yoktur ve filtre uygulanamaz.
+İlk 10 filtresi, yalnızca özet tablonun veri alanında bir veya daha fazla değer alanı bulunduğunda etkilidir. En az bir değer alanı yoksa, öğeleri sıralamak için kullanılacak toplulaştırılmış bir ölçü bulunmaz ve filtre uygulanamaz.
+Aspose.Cells, ilk 10 filtrelemeyi `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)` metoduyla sunar. `itemCount` parametresi, kaç öğenin korunacağını belirtir; `isTop`, en yüksek öğelerin mi (true) yoksa en düşük öğelerin mi (false) korunacağını gösterir; `valueField`, sıralamada kullanılan veri alanına başvurur ve `filterType`, değerin nasıl hesaplandığını denetler. Genellikle `Sum` kullanılır; `Count` ve `Percent` de kullanılabilir.
+Aşağıdaki örnek, bir değer alanı bulunan bir özet tabloyu içeren çalışma kitabını yükler ve satış toplamına göre yalnızca en yüksek 10 öğeyi koruyan bir ilk 10 filtresi uygular. Ardından özet tabloyu yeniler ve çalışma kitabını kaydeder.
 {{% /alert %}}
-
-Aspose.Cells, ilk 10 filtrelemeyi `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)` yöntemi aracılığıyla sunar. `itemCount` parametresi kaç öğenin tutulacağını tanımlar, `isTop` ilk öğelerin mi (true) yoksa son öğelerin mi (false) tutulacağını belirtir, `valueField` sıralama için kullanılan veri alanına başvurur ve `filterType` değerin nasıl hesaplanacağını kontrol eder (genellikle `Sum`, ayrıca `Count` ve `Percent`).
-Aşağıdaki örnek, bir değer alanı içeren bir pivot tablosu içeren bir çalışma kitabı yükler, satış toplamına göre yalnızca en yüksek 10 öğeyi tutmak için ilk 10 filtresi uygular, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
 
 ```java
 import com.aspose.cells.*;
-// Pivot tablosunu içeren mevcut çalışma kitabını yükleyin
+// Load the existing workbook that contains the pivot table
 String inputPath = "input.xlsx";
 String outputPath = "output.xlsx";
 Workbook workbook = new Workbook(inputPath);
-// Pivot tablosunu tutan çalışma sayfasına erişin (indeks 0)
+// Access the worksheet that holds the pivot table (index 0)
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Pivot tablosuna dizine göre erişin
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.getPivotTables().get(0);
-// Veri alanında en az bir değer PivotField olduğunu doğrulayın
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() == 0)
 {
     throw new RuntimeException("Pivot table has no value (data) PivotField.");
 }
 PivotField valueField = pivotTable.getDataFields().get(0);
-// Hedef satır PivotField'ını alın (Top 10 filtresini uygulamak istediğimiz alan)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 PivotField rowField = pivotTable.getRowFields().get(0);
-// İlk (ve tek) veri alanı indeks 0'da; Top 10 bu alana göre sıralar.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 int valueFieldIndex = 0;
-// Top 10 filtresini satır alanına uygulayın:
+// Apply the Top 10 filter on the row field:
 //   - itemCount   = 10
 //   - filterType  = PivotFilterType.SUM
-//   - isTop       = true (üst N; false alt N anlamına gelir)
-//   - valueFieldIndex = öğeleri sıralamak için kullanılan veri alanının indeksi
-rowField.filterTop10(10, PivotFilterType.SUM, true, valueFieldIndex);
-// Pivot tablo verilerini yenileyin ve filtrenin etkili olması için yeniden hesaplayın
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
+rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.refreshData();
-// Çalışma kitabını kaydedin
+// Save the workbook
 workbook.save(outputPath);
 ```
 
-## **Pivot Öğelerini Gizleyerek veya Göstererek Filtreleme**
-Yapılandırılmış filtre API'lerine ek olarak, Aspose.Cells her bir pivot öğesinin görünürlüğünü doğrudan kontrol etmenize olanak tanır. Bir `PivotField` öğesinin `PivotItems` koleksiyonunda gezinerek ve `IsHidden` özelliğini değiştirerek, formül tabanlı bir filtre uygulamadan belirli öğeleri seçici olarak gizleyebilirsiniz. `IsHidden = true` ayarı, öğeyi pivot tablosundan gizler; `IsHidden = false` ayarı onu tekrar görünür kılar.
-Bu yaklaşım, filtreleme kuralı düzensiz veya öğeye özgü olduğunda, örneğin belirli bir raporda görünmemesi gereken az sayıda adlandırılmış kategoriyi gizlerken kullanışlıdır. Aşağıdaki örnek bir pivot tablosunu yükler, ada göre belirli bir öğeyi gizler, nasıl gösterileceğini gösterir, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
+## **Özet Tablo Öğelerini Gizleyerek veya Görünür Hâle Getirerek Filtreleme**
+Yapılandırılmış filtre API'lerine ek olarak Aspose.Cells, her bireysel özet tablo öğesinin görünürlüğünü doğrudan denetlemenize olanak tanır. Bir `PivotField` nesnesinin `PivotItems` koleksiyonunda gezinip `IsHidden` özelliğini değiştirerek, formül tabanlı bir filtre uygulamadan belirli öğeleri seçici olarak gizleyebilirsiniz. `IsHidden = true` ayarı öğeyi özet tablodan gizler; `IsHidden = false` ayarı öğeyi yeniden görünür hâle getirir.
+Bu yaklaşım, filtre kuralı düzensiz veya öğeye özgü olduğunda kullanışlıdır. Örneğin, belirli bir raporda görünmesi gerekmeyen az sayıdaki adlandırılmış kategoriyi gizlemek için bu yaklaşımdan yararlanılabilir. Aşağıdaki örnek, bir özet tabloyu yükler, ada göre belirli bir öğeyi gizler ve öğenin nasıl görünür hâle getirileceğini gösterir. Ardından özet tabloyu yeniler ve çalışma kitabını kaydeder.
 
 ```java
 import com.aspose.cells.*;
-// Pivot tablosu içeren mevcut bir çalışma kitabını yükle
+// Bir pivot tablosu içeren mevcut çalışma kitabını yükleyin
 Workbook workbook = new Workbook("pivot_table_sample.xlsx");
-// Pivot tablosunu içeren ilk çalışma sayfasına eriş
+// Pivot tablosunu içeren ilk çalışma sayfasına erişin
 Worksheet sheet = workbook.getWorksheets().get(0);
-// Pivot tablosuna dizine göre eriş (sayfadaki ilk pivot tablosu)
+// Pivot tablosuna dizinle erişin (sayfadaki ilk pivot tablosu)
 PivotTable pivotTable = sheet.getPivotTables().get(0);
-// Hedef PivotField'ı al (öğelerini gizleyeceğimiz/göstereceğimiz ilk satır etiket alanı)
+// Hedef PivotField alanını alın (öğeleri gizleyeceğimiz/göstereceğimiz ilk satır etiketi alanı)
 PivotField pivotField = pivotTable.getRowFields().get(0);
-// Seçilen PivotField'ın PivotItems koleksiyonu boyunca yinele
+// Seçilen PivotField alanının PivotItems koleksiyonu üzerinde yineleyin
 int itemCount = pivotField.getPivotItems().getCount();
 for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.getPivotItems().get(i);
-    // Belirli bir ad/kriterle eşleşen pivot öğelerini gizle
-    if (item.getName() == "Item1" || item.getName() == "Item2")
+    // Belirli bir ada/kriterle eşleşen pivot öğelerini gizleyin
+    if (item.getName().equals("Item1") || item.getName().equals("Item2"))
     {
         item.setHidden(true);
     }
-    // Gizlemeyi kaldırmayı göster: daha önce gizlenmiş bir pivot öğesini yeniden göster
-    if (item.getName() == "Item3")
+    // Gizlemeyi kaldırma işlemini gösterin: daha önce gizlenmiş bir pivot öğesini yeniden gösterin
+    if (item.getName().equals("Item3"))
     {
         item.setHidden(false);
     }
 }
-// Değişikliklerin etkili olması için pivot tablosunu yenile ve yeniden hesapla
+// Değişikliklerin geçerli olması için pivot tablosunu yenileyin ve yeniden hesaplayın
 pivotTable.refreshData();
-// Çalışma kitabını kaydet - gizli öğeler alttaki verilerde kalır
+// Çalışma kitabını kaydedin - gizli öğeler temel veride kalır
 // ancak görüntülenen pivot tablosu çıktısından hariç tutulur
 workbook.save("output_pivot_filtered.xlsx");
 ```
 
 ## **Özet**
-Aspose.Cells for Java, Microsoft Excel'de bulunanlarla eşleşen eksiksiz bir pivot tablosu filtreleme yetenekleri seti sunar. Etiket, tarih ve değer filtreleri en yaygın analiz senaryolarını kapsar, ilk 10 filtresi ise sıralama raporlarını işler. Filtreleme kuralı düzensiz olduğunda, `PivotItem.IsHidden` özelliği esnek, öğe düzeyinde bir alternatif sunar. Bu stratejileri birleştirmek — örneğin bir etiket filtresi uygulamak ve ardından belirli öğeleri gizlemek — tamamen koddan hassas bir şekilde hedeflenmiş pivot tablosu raporları oluşturmanıza olanak tanır.
+Aspose.Cells for Java, Microsoft Excel'dekilerle eşleşen kapsamlı bir özet tablo filtreleme özellikleri paketi sunar. Etiket, tarih ve değer filtreleri en yaygın analitik senaryoları kapsarken ilk 10 filtresi sıralama raporlarını ele alır. Filtreleme kuralı düzensiz olduğunda `PivotItem.IsHidden` özelliği, öğe düzeyinde esnek bir alternatif sunar. Bu stratejileri birleştirerek — örneğin bir etiket filtresi uygulayıp ardından belirli öğeleri gizleyerek — tamamen kod aracılığıyla hassas biçimde hedeflenmiş özet tablo raporları oluşturabilirsiniz.
 
-## Related Articles
-- [Insert Pivot Table](/cells/tr/java/create-pivot-table/)
-- [Add Pivot Table Row and Column Fields in Aspose.Cells for Java](/cells/tr/java/pivot-table-add-row-and-column-fields/)
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Java](/cells/tr/java/add-page-field-in-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Java](/cells/tr/java/manage-value-fields/)
-- [Refresh Pivot Tables and Pivot Caches in Aspose.Cells for Java](/cells/tr/java/refresh-pivot-table/)
+## İlgili Makaleler
+- [Özet Tablo Ekle](/cells/tr/java/create-pivot-table/)
+- [Aspose.Cells for Java ile Özet Tabloya Satır ve Sütun Alanları Ekle](/cells/tr/java/pivot-table-add-row-and-column-fields/)
+- [Aspose.Cells for Java ile Özet Tabloya Filtre Alanları Ekle](/cells/tr/java/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Java ile Özet Tablosunun Değer Alanlarını Yönet](/cells/tr/java/manage-value-fields/)
+- [Aspose.Cells for Java ile Özet Tablolarını ve Özet Tablo Önbelleklerini Yenile](/cells/tr/java/refresh-pivot-table/)
 
 {{< app/cells/assistant language="java" >}}

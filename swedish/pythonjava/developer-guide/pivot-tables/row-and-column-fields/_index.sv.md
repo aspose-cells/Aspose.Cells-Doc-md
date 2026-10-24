@@ -1,8 +1,8 @@
 ---
-title: Lägga till rad- och kolumnfält i en pivottabell i Aspose.Cells för .NET
-description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Python via Java.
-linktitle: Rad- och kolumnfält
-keywords: Aspose.Cells, Python via Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
+title: Lägg till pivottabellens rad- och kolumnfält i Aspose.Cells for Python via Java
+linktitle: Lägg till pivottabellens rad- och kolumnfält i Aspose.Cells for Python via Java
+description: Lär dig hur du lägger till basfält i pivottabellens rad- och kolumnområden och styr pivotfältets delsummor med PivotField.setSubtotals i Aspose.Cells for Python via Java.
+keywords: Aspose.Cells, Python via Java, pivottabell, radfält, kolumnfält, PivotField, setSubtotals, PivotFieldSubtotalType, delsummor
 type: docs
 weight: 220
 url: /sv/python-java/pivot-table-add-row-and-column-fields/
@@ -10,20 +10,19 @@ ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Lägga till ett fält i rad- eller kolumnregionen**
-Metoden `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` flyttar ett basfält från källdatan till en av de fyra pivotregionerna. Argumentet `fieldType` accepterar ett av följande `PivotFieldType`-värden.
+## **Lägga till ett fält i rad- eller kolumnområdet**
+Metoden `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` flyttar ett basfält från källdatan till ett av de fyra pivotområdena. Argumentet `fieldType` accepterar ett av följande `PivotFieldType`-värden.
 - `ROW` — fält som placeras vertikalt till vänster
 - `COLUMN` — fält som placeras horisontellt överst
 - `DATA` — fält vars värden aggregeras
 - `PAGE` — fält som används som rapportfilter
-När fält har lagts till kan du komma åt dem via metoderna `PivotTable.getRowFields()` och `PivotTable.getColumnFields()`. Varje metod returnerar en `PivotFieldCollection`. Fältet på index 0 i `RowFields` är det yttersta radfältet, och efterföljande index representerar fält som är nästlade inuti det. Samma indexkonvention gäller för `ColumnFields`.
-Ordningen på fältnästning spelar roll. Att lägga till `Category` i radregionen först och sedan `Item` skapar en pivot vars yttre gruppering är `Category` och vars inre gruppering är `Item`. Att vända på ordningen vänder på hierarkin.
+Fältens nästlingsordning spelar roll. Att lägga till `Category` i radområdet först och `Item` sedan skapar en pivottabell med `Category` som yttre gruppering och `Item` som inre gruppering. Att vända ordningen inverterar hierarkin.
 
-## **Pivotfältets delsummor**
-Metoden `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, boolean shown)` styr vilka delsummarader som visas för ett pivotfält. Varje anrop växlar en enskild delsummatyp oberoende. Att skicka `shown = true` visar delsummoraden, medan `shown = false` döljer den. Eftersom varje anrop endast påverkar en typ, bygger upprepade anrop med olika `subtotalType`-värden en anpassad delmängd av delsummor.
-Enumen `PivotFieldSubtotalType` definierar de tillgängliga typerna av delsummor.
+## **Delsummor för pivotfält**
+Metoden `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, boolean shown)` styr vilka delsummarader som visas för ett pivotfält. Varje anrop styr en enskild delsummatyp oberoende av övriga typer. `shown = true` visar delsummoraden, medan `shown = false` döljer den. Eftersom varje anrop endast påverkar en typ skapar upprepade anrop med olika `subtotalType`-värden en anpassad delmängd av delsummor.
+Enumet `PivotFieldSubtotalType` definierar de tillgängliga delsummatyperna.
 - `AUTOMATIC` — Aspose.Cells väljer standardvalet (vanligtvis `SUM` för numeriska fält)
-- `NONE` — undertryck alla delsummarader
+- `NONE` — undertrycker alla delsummarader
 - `SUM`
 - `COUNT`
 - `AVERAGE`
@@ -36,17 +35,16 @@ Enumen `PivotFieldSubtotalType` definierar de tillgängliga typerna av delsummor
 - `VARP`
 
 {{% alert color="primary" %}}
-Delsummor renderas endast när det finns två eller fler pivotfält i radregionen (eller i kolumnregionen). Ett enskilt fält har inget meningsfullt att beräkna delsummor mellan, så anrop till `setSubtotals` har ingen synlig effekt i det fallet. Den här artikeln placerar därför två radfält (`Category` ytterst, `Item` innerst) i varje exempel så att delsummogränsen mellan varje `Category`-grupp är synlig.
+Delsummor visas endast när det finns två eller flera pivotfält i radområdet (eller i kolumnområdet). Ett enda fält ger ingen meningsfull grund för att beräkna delsummor mellan grupper, och anrop till `setSubtotals` har därför ingen synlig effekt i det fallet. Denna artikel placerar därför två radfält (`Category` ytterst, `Item` innerst) i varje exempel så att gränsen till delsummorna i varje `Category`-grupp blir synlig.
 {{% /alert %}}
 
-## **Scenario 1 — Automatiska (standard) delsummor**
-När du inte anropar `setSubtotals` alls, tillämpar Aspose.Cells valet `AUTOMATIC` på numeriska fält. Följande exempel bekräftar uttryckligen detta beteende genom att anropa `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` på det yttre `Category`-radfältet.
+## **Scenario 1 — Automatiska delsummor (standard)**
+Om du inte anropar `setSubtotals` alls, tillämpar Aspose.Cells valet `AUTOMATIC` på numeriska fält. Följande exempel bekräftar uttryckligen detta beteende genom att anropa `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` på det yttre radfältet `Category`.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import Workbook, Worksheet, Cells, PivotTable, PivotField, PivotFieldType, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -100,17 +98,53 @@ workbook.save("output_automatic.xlsx")
 jpype.shutdownJVM()
 ```
 
-## **Scenario 2 — Undertrycka alla delsummor (None)**
-Att anropa `setSubtotals(PivotFieldSubtotalType.NONE, true)` tar bort varje delsummarad från pivottabellen och lämnar endast fältraderna och totalsumman längst ner. Detta är användbart när du vill ha den råa grupperade datan utan några sammanfattningsrader.
-
-## **Scenario 3 — Anpassad delmängd av delsummor (Sum + Average)**
-Du är inte begränsad till en enskild delsummatyp. Varje `setSubtotals`-anrop verkar oberoende på en typ, så att anropa metoden två gånger — en gång med `SUM` och en gång med `AVERAGE` — skapar en anpassad delmängd av två delsummarader för varje `Category`-grupp.
+## **Scenario 2 — Dölja alla delsummor (inga)**
+Att anropa `setSubtotals(PivotFieldSubtotalType.NONE, true)` tar bort alla delsummarader från pivottabellen och lämnar endast fältraderna och totalsumman längst ned. Det är användbart när du vill se den grupperade rådatan utan sammanfattningsrader.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
+from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType, PivotFieldSubtotalType
+workbook = Workbook()
+worksheet = workbook.getWorksheets().get(0)
+worksheet.setName("Data")
+headers = ["Category", "Item", "Year", "Amount"]
+for j in range(len(headers)):
+    worksheet.getCells().get(0, j).putValue(headers[j])
+data = [
+    ["Fruit",     "Apple",  2020, 100],
+    ["Fruit",     "Apple",  2021, 150],
+    ["Fruit",     "Banana", 2020, 80 ],
+    ["Fruit",     "Banana", 2021, 90 ],
+    ["Vegetable", "Carrot", 2020, 50 ],
+    ["Vegetable", "Carrot", 2021, 60 ],
+    ["Vegetable", "Daikon", 2020, 40 ],
+    ["Vegetable", "Daikon", 2021, 45 ]
+]
+for i in range(len(data)):
+    for j in range(len(data[0])):
+        worksheet.getCells().get(i + 1, j).putValue(data[i][j])
+pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1")
+pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
+categoryField = pivotTable.getRowFields().get(0)
+categoryField.setSubtotals(PivotFieldSubtotalType.NONE, True)
+pivotTable.calculateData()
+workbook.save("output_none.xlsx")
+jpype.shutdownJVM()
+```
+
+## **Scenario 3 — Anpassad delmängd av delsummor (Summa + Medelvärde)**
+Du är inte begränsad till en enda delsummatyp. Varje anrop till `setSubtotals` påverkar oberoende en delsummatyp, så att två anrop till metoden — ett med `SUM` och ett med `AVERAGE` — ger en anpassad delmängd av två delsummarader för varje `Category`-grupp.
+
+```python
+import jpype
+import asposecells
+jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTableCollection, PivotTable, PivotFieldType, PivotField, PivotFieldSubtotalType
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
@@ -154,77 +188,32 @@ worksheet.getCells().get(8, 3).putValue(45)
 pivotTables = worksheet.getPivotTables()
 pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1")
 pivotTable = pivotTables.get(pivotIndex)
-pivotTable.addFieldToArea(PivotFieldType.Row, "Category")
-pivotTable.addFieldToArea(PivotFieldType.Row, "Item")
-pivotTable.addFieldToArea(PivotFieldType.Column, "Year")
-pivotTable.addFieldToArea(PivotFieldType.Data, "Amount")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 categoryField = pivotTable.getRowFields().get(0)
-categoryField.setSubtotals(PivotFieldSubtotalType.Sum, True)
-categoryField.setSubtotals(PivotFieldSubtotalType.Average, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.SUM, True)
+categoryField.setSubtotals(PivotFieldSubtotalType.AVERAGE, True)
 pivotTable.calculateData()
 workbook.save("output_custom.xlsx")
 jpype.shutdownJVM()
 ```
 
 ## **Sammanfattning**
-De tre scenarierna ovan delar samma dataset och pivottabellstruktur. Den enda skillnaden mellan dem är `setSubtotals`-anropet som tillämpas på det yttre `Category`-radfältet. Kom ihåg tvåfältsregeln: ett enskilt fält i en region har inget att beräkna delsummor mellan, så placera alltid minst två fält i rad- eller kolumnregionen när du vill att `setSubtotals` ska ha en synlig effekt.
-The CODE_BLOCK comments are HTML comment placeholders with descriptions. The instruction says: "HTML Comment Placeholders (CRITICAL): The document contains `` HTML comments. These are CODE BLOCK PLACEHOLDERS — you MUST preserve them EXACTLY as-is in your translation. Do NOT remove, modify, or translate them."
-The title is: "Row and Column Fields in Aspose.Cells for Python via Java"
-This contains the product name "Aspose.Cells for Python via Java" which must be preserved exactly.
-That's correct - I'm not translating it because it contains the product name which must stay.
-"ONLY translate the VALUES of title, description, and keywords."
-But also: "The following product names must appear EXACTLY as-is throughout the document"
-But the title contains the product name. If I translate "Row and Column Fields" to "Rad- och kolumnfält", then I'd have:
-"Rad- och kolumnfält in Aspose.Cells for Python via Java"
-This should be fine. The product name "Aspose.Cells for Python via Java" appears exactly once.
-And linktitle:
-"Rad- och kolumnfält"
-linktitle: Rad- och kolumnfält
-keywords: "Aspose.Cells, Python via Java, pivottabell, radfält, kolumnfält, PivotField, setSubtotals, PivotFieldSubtotalType, delsummor"
-Translated: "Lär dig hur du lägger till basfält i rad- och kolumnregionerna i en pivottabell och styr pivotfältets delsummor med PivotField.setSubtotals i Aspose.Cells for Python via Java."
-- All API names: ✓
-- All enum values: ✓
-- All method names: ✓
-- All shortcodes: ✓
-- All HTML comments: ✓
-- All URLs: ✓
 
-```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import Workbook
-from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType, PivotFieldSubtotalType
-workbook = Workbook()
-worksheet = workbook.getWorksheets().get(0)
-worksheet.setName("Data")
-headers = ["Category", "Item", "Year", "Amount"]
-for j in range(len(headers)):
-    worksheet.getCells().get(0, j).putValue(headers[j])
-data = [
-    ["Fruit",     "Apple",  2020, 100],
-    ["Fruit",     "Apple",  2021, 150],
-    ["Fruit",     "Banana", 2020, 80 ],
-    ["Fruit",     "Banana", 2021, 90 ],
-    ["Vegetable", "Carrot", 2020, 50 ],
-    ["Vegetable", "Carrot", 2021, 60 ],
-    ["Vegetable", "Daikon", 2020, 40 ],
-    ["Vegetable", "Daikon", 2021, 45 ]
-]
-for i in range(len(data)):
-    for j in range(len(data[0])):
-        worksheet.getCells().get(i + 1, j).putValue(data[i][j])
-pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
-pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
-pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
-pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
-pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
-categoryField = pivotTable.getRowFields().get(0)
-categoryField.setSubtotals(PivotFieldSubtotalType.NONE, True)
-pivotTable.calculateData()
-workbook.save("output_none.xlsx")
-jpype.shutdownJVM()
-```
+De tre scenarierna skiljer sig bara i en sak: `setSubtotals`-anropen. Allt annat – datamängden, fälten och de områden de tilldelas till – är identiskt, vilket gör att layouterna kan jämföras direkt.
+- **Placera fält.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` flyttar en källkolumn till ett område. Inom ett område är anropens ordning den visuella ordningen, så det första anroppet blir den yttre gruppen. Subtotaler kräver två eller fler fält i samma område: med ett enda fält finns det inget mellan grupperna att summera.
+- **Scenario 1 – automatiska subtotaler.** Om `setSubtotals` inte anropas lämnas valet till Excel, som tillämpar sin egen standardsubtotal för numeriska fält. Om `setSubtotals` anropas med `PivotFieldSubtotalType.AUTOMATIC` registreras detta val explicit istället för att lämna det implicit.
+- **Scenario 2 – inga subtotaler.** `setSubtotals` med `PivotFieldSubtotalType.NONE` inaktiverar standardsubtotalkonfigurationen, så pivottabellen behåller fältrowerna och grandtotalkolumnen men utelämnar de subtotalrader som Excel annars skulle infoga mellan dem.
+- **Scenario 3 – ett valt utvalt subtotalset.** Varje anrop växlar exakt en subtotaltyp, och anropen akkumuleras snarare än att återställa varandra. Om du anropar den en gång med `PivotFieldSubtotalType.SUM` och en gång med `PivotFieldSubtotalType.AVERAGE` är båda aktiverade, och pivottabellen visar en `Sum`-subtotal, en `Average`-subtotal och en `grand total`.
+
+{{% alert color="primary" %}}
+Inget vid subtotaler är specifikt för radområdet. Samma `setSubtotals`-anrop på ett fält taget från `PivotTable.ColumnFields` ger samma tre layouter på kolomaxeln, eftersom inställningen hör till pivottabellfältet snarare än till axeln det placeras på.
+{{% /alert %}}
+## **Relaterade artiklar**
+- [Sidfält i pivottabeller](/cells/sv/python-java/add-page-field-in-pivot-table/)
+- [Uppdatera pivottabeller i Aspose.Cells for Python via Java](/cells/sv/python-java/refresh-pivot-table/)
+- [Tillämpa stilar på pivottabeller](/cells/sv/python-java/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="python" >}}

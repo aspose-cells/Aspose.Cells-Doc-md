@@ -25,9 +25,8 @@ Die wichtigsten APIs sind:
 
 {{% alert color="primary" %}}
 `UpdateSelectedValue()` MUSS vor dem Speichern aufgerufen werden, wenn die Ausgabe HTML oder PDF ist; andernfalls enthält die exportierte Datei keine Bilddaten und die Kamera erscheint in der gerenderten Ausgabe leer.
-{{% /alert %}}
-
 Der folgende Code erstellt eine Arbeitsmappe, fügt ein leeres Bild verankert an Zeile 10, Spalte 6 hinzu, verknüpft es über die Eigenschaft `Formula` mit dem Quellbereich `A1:F10`, aktualisiert die eingebetteten Bilddaten und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ## Methode 2 – Hinzufügen eines statischen Kamerabilds
 Die statische Kamera ist im Wesentlichen eine einmal gerenderte Vorschau eines Zellbereichs. Anstatt eine Live-Verknüpfung beizubehalten, rendern Sie den Bereich einmal in einen Bytepuffer `Vector<uint8_t>` und übergeben diesen Puffer direkt an `Pictures.Add(row, col, data)`. Der Bildinhalt wird zum Zeitpunkt der Erstellung fixiert und aktualisiert sich nicht automatisch, wenn sich die Quellzellen ändern.

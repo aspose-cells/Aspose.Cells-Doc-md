@@ -28,6 +28,7 @@ Aspose.Cells, pivot tabloları oluşturmak ve kontrol etmek için kullanılan bi
 Örnek kod çalıştırıldıktan sonra çalışma sayfasına bir pivot tablo eklenir.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 var dataDir = "./";
 
 // Instantiating a Workbook object
@@ -103,13 +104,13 @@ var pivotTable = pivotTables.get(index);
 pivotTable.setRowGrand(false);
 
 // Draging the first field to the row area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Row, 0);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
 
 // Draging the second field to the column area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Column, 1);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, 1);
 
 // Draging the third field to the data area.
-pivotTable.addFieldToArea(AsposeCells.Pivot.PivotFieldType.Data, 2);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 2);
 
 // Saving the Excel file
 workbook.save(dataDir + "pivotTable_test_out.xls");
@@ -119,11 +120,11 @@ workbook.save(dataDir + "pivotTable_test_out.xls");
 Bir hücre aralığını veri kaynağı olarak atarken, aralık sol üstten sağ alta doğru gitmelidir. Örneğin, "A1:C3" geçerlidir, ancak "C3:A1" geçerli değildir.
 {{% /alert %}}
 
-## Related Articles
-- [Add Filter Fields to a Pivot Table in Aspose.Cells for Node.js via Java](/cells/tr/nodejs-java/add-page-field-in-pivot-table/)
-- [Apply Styles to Pivot Tables in Aspose.Cells for Node.js via Java](/cells/tr/nodejs-java/apply-style-to-pivot-table/)
+## İlgili Makaleler
+- [Aspose.Cells for Node.js via Java'te PivotTable'a filtre alanları ekleme](/cells/tr/nodejs-java/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Node.js via Java'da Pivot Tablolarına Stil Uygulama](/cells/tr/nodejs-java/apply-style-to-pivot-table/)
 - [Modify Page Field Layout in Pivot Table](/cells/tr/nodejs-java/change-page-field-layout/)
 - [Filtering Pivot Tables by Label or Value](/cells/tr/nodejs-java/filter-by-label-or-value-of-pivot-table/)
-- [Manage Pivot Table Value Fields in Aspose.Cells for Node.js via Java](/cells/tr/nodejs-java/manage-value-fields/)
+- [Aspose.Cells for Node.js via Java'da Değer Alanları](/cells/tr/nodejs-java/manage-value-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

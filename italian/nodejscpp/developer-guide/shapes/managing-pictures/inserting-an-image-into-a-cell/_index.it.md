@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells offre due modi distinti per associare un'immagine a una singola cella. Un'immagine mobile è una forma sul livello di disegno del foglio di lavoro che si sovrappone visivamente a un intervallo di celle, mentre un'immagine incorporata è memorizzata all'interno della cella stessa e si adatta automaticamente all'area di visualizzazione della cella. Scegli l'approccio che meglio soddisfa i tuoi requisiti di layout.
+{{% /alert %}}
 
 ## **Introduzione**
 Adattare un'immagine esattamente a una singola cella è un requisito comune quando si progettano fogli di calcolo che fungono da report visivi, cataloghi di prodotti, rubriche del personale, dashboard o elenchi di inventario. Piuttosto che allungare un'immagine su più celle o posizionarla liberamente su un foglio di lavoro, potresti volere un'immagine pulita, legata alla cella, che rimanga allineata con la cella che la possiede.
@@ -36,6 +37,7 @@ L'ancoraggio dell'immagine è definito da quattro proprietà di indice a base ze
 
 {{% alert color="primary" %}}
 Gli indici di riga e colonna in Aspose.Cells sono **a base zero**. La cella C6 ha indice di riga 5 e indice di colonna 2. Gli errori di off-by-one sull'ancoraggio in basso a destra sono la causa più comune di immagini che sembrano sovrapporsi a una cella adiacente.
+{{% /alert %}}
 
 ### **Controllo del comportamento di posizionamento**
 `picture.placement` è un'enumerazione di tipo `PlacementType` che controlla come si comporta l'immagine quando l'utente ridimensiona la riga o la colonna sottostante. Il valore consigliato per un'immagine a cella singola è `PlacementType.MoveAndSize`, che fa sì che l'immagine si sposti e si ridimensioni insieme alla cella sottostante, preservando l'adattamento esatto.
@@ -52,7 +54,7 @@ Gli indici di riga e colonna in Aspose.Cells sono **a base zero**. La cella C6 h
 Il codice seguente dimostra l'approccio completo.
 
 ```javascript
-const AsposeCells = require("aspose.cells");
+const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
@@ -87,6 +89,8 @@ Questo rende `cell.embeddedImage` l'opzione più concisa quando il tuo obiettivo
 Il codice seguente dimostra l'approccio completo.
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
+const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 // Ottieni la cella di destinazione C6
@@ -113,9 +117,6 @@ Entrambi gli approcci producono un'immagine che si adatta all'interno di una sin
   - Vuoi l'inserimento più semplice possibile di un'immagine in una cella.
   - L'immagine deve seguire la cella come qualsiasi altro contenuto della cella.
   - Non hai bisogno di manipolare l'immagine come una forma.
-{{% /alert %}}
-
-{{% /alert %}}
 
 ## Related Articles
 - [Excel Camera in Aspose.Cells for Node.js via C++](/cells/it/nodejs-cpp/excel-camera/)
@@ -124,4 +125,4 @@ Entrambi gli approcci producono un'immagine che si adatta all'interno di una sin
 - [Modifica layout dei campi pagina nella tabella pivot](/cells/it/nodejs-cpp/change-page-field-layout/)
 - [Converti Sparkline in immagine e HTML in Aspose.Cells for Node.js via C++](/cells/it/nodejs-cpp/convert-sparkline-to-image-and-html/)
 
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-cpp" >}}

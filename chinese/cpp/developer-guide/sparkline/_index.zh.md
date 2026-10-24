@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是容纳在单个单元格内的小型图表，可以快速直观地呈现数据趋势。Aspose.Cells 支持折线、柱形和盈亏迷你图，并且每种迷你图都可以针对颜色、线宽、高/低点以及标记进行自定义。
+{{% /alert %}}
 
 ## **简介**
 迷你图是单元格内的小型图表，当您希望在数据行或列旁边快速显示趋势而又不占用完整图表的空间时，它们非常有用。Excel 支持三种迷你图：**折线**、**柱形**和**盈亏**。Aspose.Cells 通过位于 `Aspose.Cells.Charts` 命名空间中的 `SparklineGroup` 和 `SparklineGroupCollection` API 提供了相同的功能。
@@ -247,6 +248,5 @@ int main() {
 - **高/低点标记** —— 用于在最高和最低数据点上打开小标记的标志，有助于突出极值。
 - **首/尾/负值点标记** —— 用于切换第一个、最后一个和负值数据点上标记的标志。
 要更改颜色，请始终创建 `CellsColor` 实例并将其分配给相关属性。不要将原始颜色值直接分配给迷你图的颜色属性——它们期望来自 `Aspose.Cells.Drawing` 的 `CellsColor` 类型。`SparklineGroups.Add` 方法本身返回一个完全类型化的 `SparklineGroup` 对象，因此您可以在返回值上链式分配属性，或者将其存储在本地变量中并在保存之前进行自定义。
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

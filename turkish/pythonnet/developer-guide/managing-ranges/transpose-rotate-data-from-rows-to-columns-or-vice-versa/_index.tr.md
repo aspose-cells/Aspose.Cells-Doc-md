@@ -35,7 +35,7 @@ Verileri `TRANSPOSE` çalışma sayfası işlevini devreye sokmadan devrik çevi
 `range.transpose()`, `Aspose.Cells.Range` sınıfında bir örnek yöntemidir. Çağrıldığında, satırları ve sütunları değiştirerek aralığı yerinde çevirir; böylece satır olan sütun, sütun olan satır olur. Yöntem, formül yazmadan doğrudan temel hücreleri değiştirir.
 
 ### **Steps**
-1. `LoadOptions` öğesini `.xlsx` biçimine ayarlayarak `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` çağrısıyla kaynak çalışma kitabını açın.
+1. `LoadOptions` öğesini `.xlsx` biçimine ayarlayarak `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` çağrısıyla kaynak çalışma kitabını açın.
 2. `workbook.worksheets[0]` kullanarak çalışma kitabından ilk çalışma sayfasını alın.
 3. `worksheet.cells` aracılığıyla çalışma sayfasının hücre koleksiyonuna erişin.
 4. `cells.create_range("A1:D5")` çağırarak **A1:D5** aralığını kapsayan kaynak aralığı oluşturun.
@@ -62,7 +62,7 @@ workbook.save(outputFile)
 `cell.set_dynamic_array_formula(formula, options, calculate_value)`, `Aspose.Cells.Cell` üzerinde hücrenin formülünü **dinamik dizi formülü** olarak ayarlayan bir yöntemdir. Excel formülü bir kez değerlendirir ve sonucu otomatik olarak çevreleyen hücrelere taşırır. Üçüncü parametre `True` olarak ayarlandığında Aspose.Cells'e yazma zamanında sonuç değerlerini de hesaplaması talimatını verir.
 
 ### **Steps**
-1. Kaynak çalışma kitabını `Workbook(srcFile, LoadOptions(LoadFormat.Xlsx))` kullanarak yükleyin.
+1. Kaynak çalışma kitabını `Workbook(srcFile, LoadOptions(LoadFormat.XLSX))` kullanarak yükleyin.
 2. İlk çalışma sayfasını alın ve `cells` koleksiyonuna erişin.
 3. `cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", None, True)` çağrısıyla dinamik dizi formülünü kaynak aralığının hemen altındaki **A6** hücresine yerleştirin.
 4. `None` bağımsız değişkeni varsayılan `FormulaParseOptions` öğesini geçer ve üçüncü bağımsız değişken `True` Aspose.Cells'e formülü dinamik dizi olarak ele almasını ve taşan değerlerin çalışma kitabına yazılması için değerlendirmesini söyler.
@@ -77,11 +77,11 @@ Bu yaklaşım yalnızca **Excel 365 / 2021 veya üstünde** çalışır. Eski Ex
 import aspose.cells as ac
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-cells["A6"].set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
-workbook.save(outFile, ac.SaveFormat.Xlsx)
+cells.get("A6").set_dynamic_array_formula("=TRANSPOSE(A1:D5)", ac.FormulaParseOptions(), True)
+workbook.save(outFile, ac.SaveFormat.XLSX)
 ```
 
 ## **Approach 3 — Transpose with a Classic Array Formula (CSE)**
@@ -105,7 +105,7 @@ CSE dizi formülleri, bir `TRANSPOSE` ifadesini değerlendirmenin klasik Excel y
 import aspose.cells as ac
 # Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
-workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.Xlsx))
+workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
 # Access the first worksheet and its Cells collection
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
@@ -116,7 +116,7 @@ cells = worksheet.cells
 # Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
 # a single multi-cell array formula, compatible with older Excel versions
 # (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
-cells["A6"].set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
+cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
 # Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx")
 ```

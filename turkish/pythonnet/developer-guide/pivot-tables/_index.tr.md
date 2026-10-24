@@ -36,4 +36,11 @@ Veri kaynağı olarak bir hücre aralığı atadığınızda, aralığın sol ü
 
 ## **Gelişmiş Konular**
 
+## İlgili Makaleler
+- [Aspose.Cells for Python via .NET'te PivotTable'a filtre alanları ekleme](/cells/tr/python-net/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Python via .NET ile Pivot Tablolarına Stil Uygulama](/cells/tr/python-net/apply-style-to-pivot-table/)
+- [Modify Page Field Layout in Pivot Table](/cells/tr/python-net/change-page-field-layout/)
+- [Filtering Pivot Tables by Label or Value](/cells/tr/python-net/filter-by-label-or-value-of-pivot-table/)
+- [Aspose.Cells for Python via .NET'te PivotTable değer alanlarını yönetme](/cells/tr/python-net/manage-value-fields/)
+
 {{< app/cells/assistant language="python-net" >}}

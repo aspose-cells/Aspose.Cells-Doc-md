@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## Agregar un campo a la región de datos
-Agregar un campo base a la región de datos (valor) es el primer paso para dar forma a cómo una tabla dinámica agrega los datos de origen. Aspose.Cells expone `PivotTable.AddFieldToArea(PivotFieldType, string)`, una sobrecarga que acepta la constante `PivotFieldType.Data` y el nombre de la columna de origen. Una vez que se agrega un campo a la región de datos, la API lo expone a través de la colección `PivotTable.DataFields`, en el orden en que se agregaron los campos. De forma predeterminada, una columna de origen numérica se resume con `Sum`, mientras que una columna no numérica usa `Count` por defecto.
+Agregar un campo base a la región de datos (valor) es el primer paso para dar forma a cómo una tabla dinámica agrega los datos de origen. Aspose.Cells expone `PivotTable.AddFieldToArea(PivotFieldType, string)`, una sobrecarga que acepta la constante `PivotFieldType.DATA` y el nombre de la columna de origen. Una vez que se agrega un campo a la región de datos, la API lo expone a través de la colección `PivotTable.DataFields`, en el orden en que se agregaron los campos. De forma predeterminada, una columna de origen numérica se resume con `Sum`, mientras que una columna no numérica usa `Count` por defecto.
 
 ```python
 import aspose.cells as ac
@@ -49,12 +49,13 @@ workbook.save("output_drag.xlsx")
 Una vez que un campo reside en la región de datos, Aspose.Cells lo expone a través del objeto `PivotField` en `PivotTable.DataFields`. Cada `PivotField` tiene una propiedad `Function` modificable de tipo `ConsolidationFunction`, que controla el agregado aplicado a los valores subyacentes de ese campo. `ConsolidationFunction` es una enumeración con los miembros `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` y `Varp` — los primeros seis cubren la gran mayoría de los casos de uso del mundo real, mientras que los últimos cuatro son agregados estadísticos útiles para el análisis de varianza.
 
 {{% alert color="primary" %}}
-Cambiar `Function` solo afecta al agregado; la columna de origen y la estructura de filas/columnas de la tabla dinámica no se modifican. Para cambiar el agregado de un campo de datos existente, establezca `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` y luego llame a `pivotTable.CalculateData()` para volver a renderizar la tabla dinámica.
+Cambiar `Function` solo afecta al agregado; la columna de origen y la estructura de filas/columnas de la tabla dinámica no se modifican. Para cambiar el agregado de un campo de datos existente, establezca `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` y luego llame a `pivotTable.calculate_data()` para volver a renderizar la tabla dinámica.
 {{% /alert %}}
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -95,7 +96,8 @@ Cuando una tabla dinámica contiene dos o más campos de datos, Aspose.Cells exp
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldType, ConsolidationFunction
+from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"

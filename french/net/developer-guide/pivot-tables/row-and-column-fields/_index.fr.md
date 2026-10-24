@@ -202,6 +202,15 @@ workbook.Save("output_custom.xlsx");
 
 ## **Récapitulatif**
 
+Les trois scénarios diffèrent uniquement par les appels à `SetSubtotals`. Tout le reste — le jeu de données, les champs et les zones auxquelles ils sont affectés — est identique, ce qui rend les dispositions directement comparables.
+- **Placement des champs.** `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` déplace une colonne source vers une région. Dans une même région, l’ordre des appels correspond à l’ordre d’affichage, de sorte que le premier appel devient le groupe le plus externe. Les sous-totaux nécessitent deux champs ou plus dans la même région : avec un seul champ, il n’y a rien entre les groupes sur lequel calculer un sous-total.
+- **Scénario 1 — sous-totaux automatiques.** Ne pas appeler `SetSubtotals` laisse le choix à Excel, qui applique son sous-total par défaut aux champs numériques. Appeler `SetSubtotals` avec `PivotFieldSubtotalType.Automatic` enregistre explicitement ce choix au lieu de le laisser implicite.
+- **Scénario 2 — pas de sous-totaux.** `SetSubtotals` avec `PivotFieldSubtotalType.None` désactive le sous-total par défaut, de sorte que le tableau croisé dynamique conserve les lignes de champ et le total général, mais supprime les lignes de sous-total qu’Excel insérerait normalement entre elles.
+- **Scénario 3 — un sous-ensemble choisi.** Chaque appel active ou désactive exactement un type de sous-total, et les appels s’accumulent plutôt que de se réinitialiser mutuellement. Appeler `SetSubtotals` une fois avec `PivotFieldSubtotalType.Sum` et une autre fois avec `PivotFieldSubtotalType.Average` laisse donc les deux activés, et le tableau croisé dynamique affiche un sous-total Somme, un sous-total Moyenne et un total général.
+
+{{% alert color="primary" %}}
+Rien dans la gestion des sous-totaux n’est spécifique à la région des lignes. Les mêmes appels à `SetSubtotals` sur un champ provenant de `PivotTable.ColumnFields` produisent les mêmes trois dispositions sur l’axe des colonnes, car le paramètre appartient au champ croisé dynamique plutôt qu’à l’axe sur lequel il est placé.
+{{% /alert %}}
 ## **Articles connexes**
 - [Champs de page dans les tableaux croisés dynamiques](/cells/fr/net/add-page-field-in-pivot-table/)
 - [Actualisation des tableaux croisés dynamiques dans Aspose.Cells for .NET](/cells/fr/net/refresh-pivot-table/)

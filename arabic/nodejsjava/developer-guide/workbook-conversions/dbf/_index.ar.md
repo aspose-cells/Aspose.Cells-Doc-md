@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 توفر Aspose.Cells دعمًا كاملًا لقراءة وكتابة ملفات DBF (dBASE). يمكنك تحميل ملفات dBASE III و dBASE IV الموجودة في كائن Workbook، ومعالجة البيانات باستخدام واجهة برمجة التطبيقات الغنية لـ Aspose.Cells، ثم حفظ المصنف مرة أخرى بتنسيق DBF لاستخدامه مع تطبيقات قواعد البيانات القديمة.
+{{% /alert %}}
 
 ## **المقدمة**
 DBF (ملف قاعدة البيانات) هو تنسيق ملف قاعدة بيانات قديم تم تقديمه في الأصل بواسطة dBASE في أوائل الثمانينيات. على الرغم من قدم هذا التنسيق، لا تزال ملفات DBF مستخدمة على نطاق واسع في العديد من الصناعات لتخزين البيانات المنظمة، لا سيما في المحاسبة ونظم المعلومات الجغرافية والتطبيقات المتخصصة الأخرى. تتيح لك Aspose.Cells دمج هذه الملفات القديمة في سير عمل جداول البيانات الحديثة في Node.js بسلاسة.
@@ -49,6 +50,8 @@ DBF (ملف قاعدة البيانات) هو تنسيق ملف قاعدة بي�
 يوضح المثال التالي كيفية تحميل ملف DBF موجود في Aspose.Cells، والوصول إلى ورقة العمل الأولى، وقراءة قيم الخلايا.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
+const path = require("path");
 let sb = "";
 const maxRow = cells.getMaxDataRow();
 const maxCol = cells.getMaxDataColumn();
@@ -64,12 +67,13 @@ for (let i = 0; i <= maxRow; i++)
 }
 console.log(sb);
 const outputPath = path.join(dataDir, "output.xlsx");
-workbook.save(outputPath, AsposeCells.SaveFormat.Xlsx);
+workbook.save(outputPath, AsposeCells.SaveFormat.XLSX);
 console.log("DBF file loaded successfully. Converted XLSX saved at: " + outputPath);
 ```
 
 {{% alert color="primary" %}}
 يمكنك فتح ملفات DBF مباشرة في Microsoft Excel عن طريق تحديد الملف في مربع الحوار فتح. سيتعامل Excel مع ملف DBF كجدول بيانات، ويعرض سجلاته في تخطيط جدولي. هذا مفيد للتحقق السريع من البيانات بعد قراءتها أو كتابتها باستخدام Aspose.Cells.
+{{% /alert %}}
 
 ## **كتابة ملف DBF**
 تتبع كتابة البيانات في ملف DBF نمطًا مشابهًا لحفظ أي تنسيق جدول بيانات آخر باستخدام Aspose.Cells. يمكنك إنشاء أو تحميل Workbook، وتعبئة ورقة العمل بالبيانات، ثم استدعاء طريقة `save` مع تحديد `SaveFormat.Dbf` كتنسيق الهدف.
@@ -83,6 +87,7 @@ console.log("DBF file loaded successfully. Converted XLSX saved at: " + outputPa
 يوضح المثال التالي كيفية إنشاء ملف DBF جديد من البداية. يقوم بتعبئة ورقة العمل ببيانات نموذجية تحتوي على أنواع بيانات مختلفة (سلاسل وأرقام وتواريخ) لتوضيح كيفية معالجة أنواع الحقول عند التصدير إلى تنسيق DBF.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
@@ -128,11 +133,12 @@ worksheet.getCells().setColumnWidth(1, 20);
 worksheet.getCells().setColumnWidth(2, 20);
 worksheet.getCells().setColumnWidth(3, 12);
 worksheet.getCells().setColumnWidth(4, 14);
-workbook.save(filePath, AsposeCells.SaveFormat.Dbf);
+workbook.save(filePath, AsposeCells.SaveFormat.DBF);
 ```
 
 {{% alert color="primary" %}}
 عند كتابة البيانات في ملف DBF، تأكد من أن بياناتك تتوافق مع قيود التنسيق. يجب ألا يتجاوز طول أسماء الحقول 10 أحرف ولا ينبغي أن تحتوي على مسافات. لن يتم حفظ السجلات التي يتجاوز حجمها الإجمالي 4000 بايت بشكل صحيح. يجب أن تكون التواريخ قيم تاريخ صالحة يمكن تمثيلها بتنسيق YYYYMMDD.
+{{% /alert %}}
 
 ## **اعتبارات نوع البيانات والتنسيق**
 عند نقل البيانات بين Aspose.Cells وتنسيق DBF، فإن فهم كيفية تعيين أنواع البيانات بين النظامين أمر مهم لضمان سلامة البيانات.
@@ -160,10 +166,5 @@ workbook.save(filePath, AsposeCells.SaveFormat.Dbf);
 ## **التحويل بين DBF والتنسيقات الأخرى**
 تعد القدرة على قراءة وكتابة ملفات DBF باستخدام Aspose.Cells من أكثر حالات الاستخدام العملية لتحويل البيانات بين تنسيق DBF وتنسيقات جداول البيانات الحديثة مثل XLSX أو XLS أو CSV. نظرًا لأن Aspose.Cells تدعم مجموعة واسعة من التنسيقات، يمكنك بسهولة تحميل ملف DBF وإعادة حفظه بأي تنسيق مدعوم آخر، أو العكس.
 على سبيل المثال، يمكنك قراءة ملف DBF، وتطبيق التنسيق أو الحسابات باستخدام واجهة برمجة تطبيقات Aspose.Cells، ثم حفظ النتيجة كملف XLSX لتوزيعها على المستخدمين الذين يعملون مع تطبيقات جداول البيانات الحديثة. وعلى العكس من ذلك، يمكنك أخذ البيانات من ملف XLSX أو CSV وتصديرها إلى تنسيق DBF للتكامل مع الأنظمة القديمة.
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}

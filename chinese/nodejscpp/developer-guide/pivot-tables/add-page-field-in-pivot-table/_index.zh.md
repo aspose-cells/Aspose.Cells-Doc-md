@@ -26,6 +26,7 @@ Aspose.Cells for Node.js via C++ 提供了两种等效的方式来注册筛选�
 以下示例构建一个小的 Fruit / Year / Amount 数据集，在 E3 单元格处放置一个数据透视表，其中 `Fruit` 放在行区域，`Amount` 放在数据区域，`Year` 放在筛选区域，刷新数据透视表，然后保存工作簿。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -68,6 +69,7 @@ workbook.save("pageFieldSample.xlsx");
 当您已经在使用一个 `PivotField` 实例时，可以直接将其传递给 `PivotTable.pageFields.add`。数据透视表和筛选字段的构建方式与上一场景完全相同；只是最终的筛选区域注册被替换为底层 API 调用。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // 表头
@@ -106,6 +108,7 @@ workbook.save("output.xlsx");
 将 `currentPageItem` 设置为特殊值 `0x7FFD` 等同于清除筛选器：数据透视表主体会汇总所有筛选项，就像没有应用筛选器一样。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 // 填充 水果/年份/金额 数据
@@ -145,6 +148,7 @@ workbook.save("output.xlsx");
 将 `currentPageItem` 设置为实际索引值即可选中那一个筛选项。该索引是筛选字段已排序项列表中的位置，因此例如 `1` 会在排序后选中第二项。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
@@ -184,6 +188,7 @@ workbook.save("output.xlsx");
 下面的代码在场景 1a 中构建的同一 Year 筛选字段上启用多选，然后展示两种模式：A 部分通过对每个项保留 `isHidden` 为 `false` 来显示所有筛选项，而 B 部分通过 `switch (pivotItems[i].getStringValue())` 块仅白名单您选择的源值并隐藏其他所有项。
 
 ```javascript
+const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();

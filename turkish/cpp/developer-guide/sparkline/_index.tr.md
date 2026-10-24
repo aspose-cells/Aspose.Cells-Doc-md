@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Aspose.Cells, çalışma sayfası hücrelerinin içinde sparkline'lar oluşturmayı destekler. Sparkline'lar tek bir hücreye sığan ve veri trendlerinin hızlı bir görsel temsilini sağlayan küçük grafiklerdir. Aspose.Cells; çizgi, sütun ve kazanma/kaybetme sparkline'larını destekler ve her biri renk, çizgi kalınlığı, en yüksek/düşük noktalar ve işaretçiler açısından özelleştirilebilir.
+{{% /alert %}}
 
 ## **Giriş**
 Sparkline'lar, tam boyutlu bir grafiğin kaplayacağı alanı kaplamadan bir satır veya sütun verisinin yanında hızlı bir trendi göstermek istediğinizde kullanışlı olan hücre içi küçük grafiklerdir. Excel üç tür sparkline'ı destekler: **çizgi**, **sütun** ve **kazanma/kaybetme**. Aspose.Cells bu yeteneği, `Aspose.Cells.Charts` ad alanında bulunan `SparklineGroup` ve `SparklineGroupCollection` API'leri aracılığıyla yansıtır.
@@ -247,6 +248,5 @@ Bir `SparklineGroup` oluşturulup `worksheet.SparklineGroups`'a eklendikten sonr
 - **En Yüksek/Düşük nokta işaretçileri** — en yüksek ve en düşük veri noktalarında uç değerleri vurgulamak için kullanışlı küçük işaretçileri açan bayraklar.
 - **İlk/Son/Negatif nokta işaretçileri** — ilk, son ve negatif veri noktalarındaki işaretçileri açıp kapatan bayraklar.
 Bir rengi değiştirmek için her zaman bir `CellsColor` örneği oluşturun ve bunu ilgili özelliğe atayın. Sparkline renk özelliklerine doğrudan ham bir renk değeri atamayın — bunlar `Aspose.Cells.Drawing`'den `CellsColor` türünü bekler. `SparklineGroups.Add` metodunun kendisi tam türde belirtilmiş bir `SparklineGroup` nesnesi döndürür, böylece dönüş değeri üzerinde özellik atamalarını zincirleyebilir ya da yerel bir değişkende saklayıp kaydetmeden önce özelleştirebilirsiniz.
-{{% /alert %}}
 
 {{< app/cells/assistant language="cpp" >}}

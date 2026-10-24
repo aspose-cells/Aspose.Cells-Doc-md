@@ -1,8 +1,8 @@
 ---
-title: Добавить поля строк и столбцов сводной таблицы в Aspose.Cells для .NET
-description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Node.js via Java
-linktitle: Поля строк и столбцов
-keywords: Aspose.Cells, Node.js, Java, pivot table, row field, column field, PivotField, setSubtotals, PivotFieldSubtotalType, subtotals
+title: Добавление полей строк и столбцов в сводную таблицу в Aspose.Cells for Node.js via Java
+linktitle: Добавление полей строк и столбцов в сводную таблицу в Aspose.Cells for Node.js via Java
+description: Узнайте, как добавлять базовые поля в области строк и столбцов сводной таблицы и управлять подытогами полей сводной таблицы с помощью PivotField.setSubtotals в Aspose.Cells for Node.js via Java
+keywords: Aspose.Cells, Node.js, Java, сводная таблица, поле строк, поле столбцов, PivotField, setSubtotals, PivotFieldSubtotalType, подытоги
 type: docs
 weight: 220
 url: /ru/nodejs-java/pivot-table-add-row-and-column-fields/
@@ -11,19 +11,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Добавление поля в область строк или столбцов**
-Метод `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` перемещает базовое поле из исходных данных в одну из четырёх областей сводной таблицы. Аргумент `fieldType` принимает одно из следующих значений `PivotFieldType`.
-- `ROW` — поля, размещаемые вертикально слева
-- `COLUMN` — поля, размещаемые горизонтально в верхней части
+Метод `PivotTable.addFieldToArea(PivotFieldType fieldType, String fieldName)` перемещает базовое поле из исходных данных в одну из четырех областей сводной таблицы. Аргумент `fieldType` принимает одно из следующих значений `PivotFieldType`.
+- `ROW` — поля, размещенные вертикально слева
+- `COLUMN` — поля, размещенные горизонтально сверху
 - `DATA` — поля, значения которых агрегируются
-- `PAGE` — поля, используемые в качестве фильтров отчёта
-После добавления полей вы можете получить к ним доступ через свойства `PivotTable.getRowFields()` и `PivotTable.getColumnFields()`. Каждое свойство возвращает `PivotFieldCollection`. Поле с индексом 0 в `RowFields` является самым внешним полем строки, а последующие индексы представляют поля, вложенные в него. Та же самая индексация применяется и к `ColumnFields`.
-Порядок вложенности полей имеет значение. Добавление `Category` в область строк первым, а затем `Item` создаёт сводную таблицу, в которой внешняя группировка — `Category`, а внутренняя — `Item`. Изменение порядка на противоположный меняет иерархию.
+- `PAGE` — поля, используемые в качестве фильтров отчета
+Порядок вложения полей имеет значение. Если сначала добавить `Category` в область строк, а затем `Item`, внешняя группировка будет выполняться по `Category`, а внутренняя — по `Item`. Изменение порядка меняет иерархию.
 
-## **Промежуточные итоги поля сводной таблицы**
-Метод `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, boolean shown)` управляет тем, какие строки промежуточных итогов отображаются для поля сводной таблицы. Каждый вызов независимо переключает отдельный тип промежуточного итога. Передача `shown = true` отображает промежуточный итог, а `shown = false` скрывает его. Поскольку каждый вызов влияет только на один тип, многократный вызов метода с разными значениями `subtotalType` формирует пользовательское подмножество промежуточных итогов.
-Перечисление `PivotFieldSubtotalType` определяет доступные виды промежуточных итогов.
+## **Подытоги поля сводной таблицы**
+Метод `PivotField.setSubtotals(PivotFieldSubtotalType subtotalType, boolean shown)` управляет отображением строк подытогов для поля сводной таблицы. Каждый вызов независимо включает или отключает один тип подытога. При передаче `shown = true` подытог отображается, а при `shown = false` — скрывается. Поскольку каждый вызов затрагивает только один тип, несколько вызовов метода с различными значениями `subtotalType` позволяют сформировать пользовательский набор подытогов.
+Перечисление `PivotFieldSubtotalType` определяет доступные типы подытогов.
 - `AUTOMATIC` — Aspose.Cells выбирает вариант по умолчанию (обычно `SUM` для числовых полей)
-- `NONE` — подавить все строки промежуточных итогов
+- `NONE` — отключает отображение всех строк подытогов
 - `SUM`
 - `COUNT`
 - `AVERAGE`
@@ -36,13 +35,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - `VARP`
 
 {{% alert color="primary" %}}
-Промежуточные итоги отображаются только при наличии двух или более полей сводной таблицы в области строк (или в области столбцов). Для одного поля нет ничего значимого для подведения промежуточных итогов между ними, поэтому в этом случае вызовы `setSubtotals` не имеют видимого эффекта. Поэтому в данной статье во всех примерах размещены два поля строк (`Category` — внешнее, `Item` — внутреннее), чтобы граница промежуточных итогов между каждой группой `Category` была видна.
+Подытоги отображаются только тогда, когда в области строк (или области столбцов) есть два или более полей сводной таблицы. Для одного поля нет внутренних групп, между которыми можно было бы вычислить подытог, поэтому вызовы `setSubtotals` в таком случае не имеют видимого эффекта. Поэтому в каждом примере этой статьи используются два поля строк (`Category` — внешнее, `Item` — внутреннее), чтобы была видна граница подытога для каждой группы `Category`.
 {{% /alert %}}
 
-## **Сценарий 1 — Автоматические (по умолчанию) промежуточные итоги**
-Если вы вообще не вызываете `setSubtotals`, Aspose.Cells применяет выбор `AUTOMATIC` к числовым полям. Следующий пример явно подтверждает это поведение, вызывая `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` на внешнем поле строки `Category`.
+## **Сценарий 1 — Автоматические подытоги (по умолчанию)**
+Если метод `setSubtotals` вообще не вызывается, Aspose.Cells использует вариант `AUTOMATIC` для числовых полей. В следующем примере это поведение явно подтверждается вызовом `setSubtotals(PivotFieldSubtotalType.AUTOMATIC, true)` для внешнего поля строк `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -84,20 +84,21 @@ worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Automatic, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.AUTOMATIC, true);
 pivotTable.calculateData();
 workbook.save("output_automatic.xlsx");
 ```
 
-## **Сценарий 2 — Подавление всех промежуточных итогов (None)**
-Вызов `setSubtotals(PivotFieldSubtotalType.NONE, true)` удаляет все строки промежуточных итогов из сводной таблицы, оставляя только строки полей и общий итог внизу. Это полезно, когда нужны необработанные сгруппированные данные без каких-либо строк итогов.
+## **Сценарий 2 — Подавление всех подытогов (NONE)**
+Вызов `setSubtotals(PivotFieldSubtotalType.NONE, true)` удаляет все строки подытогов из сводной таблицы, оставляя только строки полей и общий итог в нижней части. Это полезно, когда требуются сгруппированные данные без каких-либо строк с итогами.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -125,20 +126,21 @@ for (let i = 0; i < data.length; i++)
 }
 let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
 let pivotTable = worksheet.getPivotTables().get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.None, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.NONE, true);
 pivotTable.calculateData();
 workbook.save("output_none.xlsx");
 ```
 
-## **Сценарий 3 — Пользовательское подмножество промежуточных итогов (Sum + Average)**
-Вы не ограничены одним типом промежуточного итога. Каждый вызов `setSubtotals` работает независимо над одним типом, поэтому двукратный вызов метода — один раз с `SUM` и один раз с `AVERAGE` — создаёт пользовательское подмножество из двух строк промежуточных итогов для каждой группы `Category`.
+## **Сценарий 3 — Пользовательский набор подытогов (сумма + среднее)**
+Можно использовать несколько типов подытогов. Каждый вызов `setSubtotals` независимо воздействует на один тип, поэтому два вызова метода — с `SUM` и `AVERAGE` — формируют пользовательский набор из двух строк подытогов для каждой группы `Category`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
@@ -181,18 +183,31 @@ worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
 let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
 let pivotTable = pivotTables.get(pivotIndex);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 let categoryField = pivotTable.getRowFields().get(0);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Sum, true);
-categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.Average, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.SUM, true);
+categoryField.setSubtotals(AsposeCells.PivotFieldSubtotalType.AVERAGE, true);
 pivotTable.calculateData();
 workbook.save("output_custom.xlsx");
 ```
 
-## **Резюме**
-Три приведённых выше сценария используют один и тот же набор данных и структуру сводной таблицы. Единственное различие между ними — вызов `setSubtotals`, применяемый к внешнему полю строки `Category`. Помните правило двух полей: одно поле в области не имеет ничего для подведения промежуточных итогов между ними, поэтому всегда размещайте как минимум два поля в области строк или столбцов, если вы хотите, чтобы `setSubtotals` имел видимый эффект.
+## **Заключение**
+
+Три сценария различаются только вызовами метода `setSubtotals`. Всё остальное — набор данных, поля и области, в которые они назначены, — одинаково, что и делает макеты прямо сравнимыми друг с другом.
+- **Размещение полей.** Вызов `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, fieldName)` перемещает исходный столбец в указанную область. В пределах одной области порядок вызовов определяет порядок отображения: первый вызов формирует наиболее внешнюю группу. Для вычисления промежуточных итогов требуется два или более полей в одной области: при наличии только одного поля промежуточные итоги вычислять не между какими элементами.
+- **Сценарий 1 — автоматические промежуточные итоги.** Отсутствие вызова `setSubtotals` оставляет выбор за Excel, который применяет собственный стандартный промежуточный итог к числовым полям. Явный вызов `setSubtotals` с параметром `AsposeCells.PivotFieldSubtotalType.AUTOMATIC` фиксирует этот выбор, делая его явным, а не оставляя подразумеваемым.
+- **Сценарий 2 — отсутствие промежуточных итогов.** Вызов `setSubtotals` с параметром `AsposeCells.PivotFieldSubtotalType.NONE` отключает стандартный промежуточный итог, в результате чего сводная таблица сохраняет строки полей и общий итог, но не вставляет между ними строки промежуточных итогов, которые иначе добавлял бы Excel.
+- **Сценарий 3 — выбранный набор типов итогов.** Каждый вызов включает или отключает ровно один тип промежуточного итога, и вызовы накапливаются, не сбрасывая друг друга. Таким образом, один вызов с `AsposeCells.PivotFieldSubtotalType.SUM` и один вызов с `AsposeCells.PivotFieldSubtotalType.AVERAGE` одновременно включают оба типа итогов, и сводная таблица отображает промежуточный итог по сумме, промежуточный итог по среднему значению и общий итог.
+
+{{% alert color="primary" %}}
+Особенности работы с промежуточными итогами не относятся исключительно к строковой области. Те же самые вызовы `setSubtotals`, применённые к полю из `PivotTable.ColumnFields`, создают те же три макета на оси столбцов, поскольку параметр относится к самому полю сводной таблицы, а не к той оси, на которой оно размещено.
+{{% /alert %}}
+## **Связанные статьи**
+- [Поля страницы в сводных таблицах](/cells/ru/nodejs-java/add-page-field-in-pivot-table/)
+- [Обновление сводных таблиц в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/refresh-pivot-table/)
+- [Применение стилей к сводным таблицам](/cells/ru/nodejs-java/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

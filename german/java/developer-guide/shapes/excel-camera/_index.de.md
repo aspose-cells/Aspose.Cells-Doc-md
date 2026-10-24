@@ -25,9 +25,8 @@ Die wichtigsten APIs sind:
 
 {{% alert color="primary" %}}
 `updateSelectedValue()` MUSS vor dem Speichern aufgerufen werden, wenn die Ausgabe HTML oder PDF ist; andernfalls enthält die exportierte Datei keine Bilddaten und die Kamera wird im gerenderten Output leer angezeigt.
-{{% /alert %}}
-
 Der folgende Code erstellt eine Arbeitsmappe, fügt ein leeres Bild verankert an Zeile 10, Spalte 6 hinzu, verknüpft es über `setFormula` mit dem Quellbereich `A1:F10`, aktualisiert die eingebetteten Bilddaten und speichert die Arbeitsmappe.
+{{% /alert %}}
 
 ```java
 import java.io.InputStream;

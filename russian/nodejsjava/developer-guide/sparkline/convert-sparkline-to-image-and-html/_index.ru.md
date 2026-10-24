@@ -12,6 +12,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 {{% alert color="primary" %}}
 Спарклайны — это миниатюрные диаграммы, размещаемые внутри ячеек рабочего листа. Aspose.Cells позволяет извлекать каждый спарклайн в виде отдельного изображения (для встраивания в другую ячейку или внешний отчёт), а также экспортировать весь рабочий лист со спарклайнами в HTML для распространения через браузер. Свойство `Cell.EmbeddedImage`, используемое в этой статье, доступно в **Aspose.Cells 26.5 и более поздних версиях**.
+{{% /alert %}}
 
 ## **Введение**
 Спарклайны — это компактный способ визуализации тенденций непосредственно внутри рабочего листа. В то время как пользователи Excel видят их на месте, многие реальные сценарии требуют, чтобы спарклайн покинул ячейку — например, для встраивания в другую ячейку в виде статического изображения, для прикрепления к автоматическому email-сообщению или для отображения в составе HTML-отчёта, опубликованного в Интернете.
@@ -33,6 +34,7 @@ Aspose.Cells поддерживает обе эти операции. Метод
 7. Сохраните рабочую книгу как `output_with_sparklines.xlsx`.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 // Заполнение образцов данных в ячейках A1:E1
@@ -43,28 +45,28 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Добавление группы спарклайнов "Линия" с привязкой к F1 (столбец 5, строка 0)
 let lineArea = new AsposeCells.CellArea();
-lineArea.setStartColumn(5);
-lineArea.setEndColumn(5);
-lineArea.setStartRow(0);
-lineArea.setEndRow(0);
-let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
+lineArea.StartColumn = 5;
+lineArea.EndColumn = 5;
+lineArea.StartRow = 0;
+lineArea.EndRow = 0;
+let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 // Добавление группы спарклайнов "Столбец" с привязкой к G1 (столбец 6, строка 0)
 let columnArea = new AsposeCells.CellArea();
-columnArea.setStartColumn(6);
-columnArea.setEndColumn(6);
-columnArea.setStartRow(0);
-columnArea.setEndRow(0);
-let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
+columnArea.StartColumn = 6;
+columnArea.EndColumn = 6;
+columnArea.StartRow = 0;
+columnArea.EndRow = 0;
+let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 // Добавление группы спарклайнов "Победа/Поражение" (С накоплением) с привязкой к H1 (столбец 7, строка 0)
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.setStartColumn(7);
-stackedArea.setEndColumn(7);
-stackedArea.setStartRow(0);
-stackedArea.setEndRow(0);
-let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
+stackedArea.StartColumn = 7;
+stackedArea.EndColumn = 7;
+stackedArea.StartRow = 0;
+stackedArea.EndRow = 0;
+let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 // Настройка параметров изображения для вывода в формате PNG
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
-imageOptions.setImageType(AsposeCells.ImageType.Png);
+imageOptions.setImageType(AsposeCells.ImageType.PNG);
 // Преобразование спарклайна "Линия" в изображение и встраивание его в ячейку F2
 let lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 let lineMs = new java.io.ByteArrayOutputStream();
@@ -88,6 +90,7 @@ workbook.save("output_with_sparklines.xlsx");
 
 {{% alert color="primary" %}}
 Поскольку каждая группа спарклайнов привязана к одной ячейке, вы можете обращаться к ней через индексатор `group.sparklines[0]` вместо перечисления с помощью `forEach`. Это позволяет сохранить код отрисовки коротким и соответствует типичному шаблону «один спарклайн на одну ячейку привязки». Для сохранения байтов изображения через `Cell.EmbeddedImage` требуется Aspose.Cells 26.5 или более поздней версии.
+{{% /alert %}}
 
 ## **Рабочий процесс 2 — Экспорт рабочего листа со спарклайнами в HTML**
 После того как рабочая книга содержит живые спарклайны (и, опционально, встроенные изображения), весь рабочий лист может быть опубликован в Интернете путём сохранения в формате HTML. Класс `HtmlSaveOptions` предоставляет параметры, необходимые для управления этим экспортом; в этом рабочем процессе вы будете повторно использовать файл `output_with_sparklines.xlsx`, созданный в Рабочем процессе 1, и преобразуете его в чистый одностраничный HTML-документ.
@@ -99,6 +102,7 @@ workbook.save("output_with_sparklines.xlsx");
 4. Вызовите `workbook.save("sparklines.html", htmlOptions)` для записи HTML-вывода на диск.
 
 ```javascript
+const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("output_with_sparklines.xlsx");
 let htmlOptions = new AsposeCells.HtmlSaveOptions();
 htmlOptions.setExportActiveWorksheetOnly(true);
@@ -109,6 +113,7 @@ workbook.save("sparklines.html", htmlOptions);
 
 {{% alert color="primary" %}}
 Класс `HtmlSaveOptions` предлагает дополнительные свойства для тонкой настройки вывода, такие как `ExportHiddenWorksheet`, `ExportImagesAsBase64` и `Encoding`. Настройте их по мере необходимости для вашей целевой среды развёртывания.
+{{% /alert %}}
 
 ## **Сводная информация по API**
 Рабочие процессы, описанные выше, опираются на небольшой набор API Aspose.Cells, работающих совместно.
@@ -123,10 +128,5 @@ workbook.save("sparklines.html", htmlOptions);
 - [Спарклайны в Aspose.Cells для Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/sparkline/)
 - [Вставка изображения в ячейку](/cells/ru/nodejs-java/inserting-an-image-into-a-cell/)
 - [Рендеринг массива в одной ячейке SmartMarker | Aspose.Cells для Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/SmartMarker-Single-Cell-Array-Rendering/)
-{{% /alert %}}
 
-{{% /alert %}}
-
-{{% /alert %}}
-
-{{< app/cells/assistant language="javascript" >}}
+{{< app/cells/assistant language="nodejs-java" >}}
