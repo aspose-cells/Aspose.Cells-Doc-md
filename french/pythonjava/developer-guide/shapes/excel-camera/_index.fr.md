@@ -73,4 +73,4 @@ workbook.save("output_static.xlsx", SaveFormat.XLSX)
 - **Caméra statique :** un rendu unique qui ne se met jamais à jour, utile lorsque vous souhaitez un instantané visuel figé intégré au moment de la génération plutôt qu'un reflet dynamique des données.
 Aspose.Cells for Python via Java prend en charge à la fois une Caméra dynamique et à rafraîchissement automatique construite sur `setFormula` plus `updateSelectedValue()`, et une Caméra statique en une seule passe construite sur `toImage` plus un tableau `byte[]`. Choisissez l'approche dynamique lorsque votre sortie doit rester synchronisée avec les cellules source, et choisissez l'approche statique lorsque vous n'avez besoin que d'un instantané visuel figé au moment de la génération.
 
-{{< app/cells/assistant language="python" language"python" >}}
+{{< app/cells/assistant language="python" >}}

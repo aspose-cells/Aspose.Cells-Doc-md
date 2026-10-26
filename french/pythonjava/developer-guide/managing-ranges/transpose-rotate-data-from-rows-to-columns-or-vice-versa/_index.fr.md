@@ -149,4 +149,4 @@ Utilisez l'**Approche 1** lorsque vous avez besoin d'une transformation rapide e
 - [Insertion d'une image dans une cellule](/cells/fr/python-java/inserting-an-image-into-a-cell/)
 - [Fractionnement de fichiers Excel en plusieurs fichiers](/cells/fr/python-java/splitting-excel-files-into-multiple-files/)
 
-{{< app/cells/assistant language="python" >}}| Region            | Europe    | Asia      | North America |
+{{< app/cells/assistant language="python" >}}
