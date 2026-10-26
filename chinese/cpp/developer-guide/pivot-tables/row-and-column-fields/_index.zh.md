@@ -86,8 +86,7 @@ int main() {
     worksheet.GetCells().Get(8, 1).PutValue(u"Daikon");
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -129,8 +128,7 @@ int main() {
         sheet.GetCells().Get(i + 1, 2).PutValue(years[i]);
         sheet.GetCells().Get(i + 1, 3).PutValue(amounts[i]);
     }
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -193,8 +191,7 @@ int main() {
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
     PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivotIndex = pivotTables.Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = pivotTables.Get(pivotIndex);
+    PivotTable pivotTable = pivotTables.Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -210,7 +207,6 @@ int main() {
 ```
 
 ## **小结**
-
 这三种方案仅在 `SetSubtotals` 调用上存在差异，其余部分——数据集、字段及其分配到的区域——完全相同，因此这些布局可直接进行比较。
 - **字段放置。** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` 将源列移入某个区域。在同一个区域内，调用的顺序即为显示顺序，因此首次调用对应的字段将成为最外层分组。计算小计需要同一区域中至少两个字段：若仅有一个字段，则组与组之间无内容可供小计。
 - **方案 1——自动小计。** 若未调用 `SetSubtotals`，则由 Excel 自行决定，默认对数值字段应用其自身的默认小计方式；调用 `SetSubtotals` 并传入 `PivotFieldSubtotalType::Automatic` 则显式记录该选择，而非保留为隐式默认行为。
@@ -220,6 +216,7 @@ int main() {
 {{% alert color="primary" %}}
 小计设置与行区域无特殊关联。对 `PivotTable.ColumnFields` 中获取的字段执行相同的 `SetSubtotals` 调用，会在列轴上生成相同的三种布局，因为该设置属于数据透视字段本身，而非其所在的轴。
 {{% /alert %}}
+
 ## **相关文章**
 - [数据透视表中的页面字段](/cells/zh/cpp/add-page-field-in-pivot-table/)
 - [在 Aspose.Cells for C++ 中刷新数据透视表](/cells/zh/cpp/refresh-pivot-table/)

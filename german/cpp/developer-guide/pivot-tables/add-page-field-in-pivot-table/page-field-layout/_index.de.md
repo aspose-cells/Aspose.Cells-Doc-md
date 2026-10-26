@@ -103,8 +103,7 @@ int main() {
     Worksheet pivotTableSheet = worksheets.Add(u"PivotTableReport");
     PivotTableCollection pivotTables = pivotTableSheet.GetPivotTables();
     // Pivot-Tabelle erstellen, die aus PivotData!A1:D9 stammt und auf A1 in PivotTableReport platziert wird
-    int pivotIndex = pivotTables.Add(u"PivotData!A1:D9", u"A1", u"PivotTable1");
-    PivotTable pivotTable = pivotTables.Get(pivotIndex);
+    PivotTable pivotTable = pivotTables.Add(u"PivotData!A1:D9", 0, 0);
     // Felder hinzufügen
     pivotTable.AddFieldToArea(PivotFieldType::Row, 0);   // Frucht
     pivotTable.AddFieldToArea(PivotFieldType::Page, 1);  // Jahr
@@ -165,8 +164,7 @@ int main() {
         pivotData.GetCells().Get(r + 1, 2).PutValue(data[r].region);
         pivotData.GetCells().Get(r + 1, 3).PutValue(data[r].amount);
     }
-    int idx = pivotReport.GetPivotTables().Add(u"PivotData!A1:D9", u"A1", u"PivotTable");
-    PivotTable pivotTable = pivotReport.GetPivotTables().Get(idx);
+    PivotTable pivotTable = pivotReport.GetPivotTables().Add(u"PivotData!A1:D9", 0, 0);
     pivotTable.AddFieldToArea(PivotFieldType::Row, 0);
     pivotTable.AddFieldToArea(PivotFieldType::Page, 1);
     pivotTable.AddFieldToArea(PivotFieldType::Page, 2);
@@ -230,8 +228,7 @@ int main() {
     dataCells.Get(u"C9").PutValue(u"West");
     dataCells.Get(u"D9").PutValue(110);
     Worksheet pivotSheet = wb.GetWorksheets().Add(u"PivotTableReport");
-    int32_t pivotIndex = pivotSheet.GetPivotTables().Add(u"PivotData!A1:D9", u"A3", u"PivotTable");
-    PivotTable pivotTable = pivotSheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = pivotSheet.GetPivotTables().Add(u"PivotData!A1:D9", 2, 0);
     pivotTable.AddFieldToArea(PivotFieldType::Row, 0);
     pivotTable.AddFieldToArea(PivotFieldType::Page, 1);
     pivotTable.AddFieldToArea(PivotFieldType::Page, 2);

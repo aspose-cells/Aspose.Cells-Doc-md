@@ -85,8 +85,7 @@ worksheet.Cells[8, 0].PutValue("Vegetable");
 worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -129,8 +128,7 @@ for (int i = 0; i < data.GetLength(0); i++)
         worksheet.Cells[i + 1, j].PutValue(data[i, j]);
     }
 }
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -188,8 +186,7 @@ worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
 PivotTableCollection pivotTables = worksheet.PivotTables;
-int pivotIndex = pivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables[pivotIndex];
+PivotTable pivotTable = pivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -202,7 +199,6 @@ workbook.Save("output_custom.xlsx");
 ```
 
 ## **Резюме**
-
 Три сценария различаются только вызовами метода `SetSubtotals`. Всё остальное — набор данных, поля и области, в которые они помещены — идентично, именно поэтому макеты можно напрямую сравнивать.
 - **Размещение полей.** Вызов `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` перемещает исходный столбец в определённую область. В пределах одной области порядок вызовов определяет порядок отображения, так что первый вызов формирует наиболее внешнюю группу. Для вычисления промежуточных итогов требуется наличие двух или более полей в одной и той же области: при одном поле между группами просто нечего суммировать.
 - **Сценарий 1 — автоматические промежуточные итоги.** Если метод `SetSubtotals` не вызывается, выбор режима остаётся за Excel, который по умолчанию вычисляет собственные промежуточные итоги для числовых полей. Вызов `SetSubtotals` с параметром `PivotFieldSubtotalType.Automatic` явно фиксирует это поведение, делая его видимым в коде, а не оставляя неявным.
@@ -212,9 +208,10 @@ workbook.Save("output_custom.xlsx");
 {{% alert color="primary" %}}
 Механизм работы с промежуточными итогами не ограничен областью строк. Те же самые вызовы `SetSubtotals` для поля, полученного из `PivotTable.ColumnFields`, создают идентичные три макета на оси столбцов, поскольку параметр относится к самому полю сводной таблицы, а не к оси, на которой оно размещено.
 {{% /alert %}}
-## **Связанные статьи**
 
+## **Связанные статьи**
 - [Поле страницы в сводных таблицах](/cells/ru/net/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells для .NET](/cells/ru/net/refresh-pivot-table/)
 - [Применение стилей к сводным таблицам](/cells/ru/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

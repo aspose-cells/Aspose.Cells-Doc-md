@@ -70,9 +70,8 @@ int main() {
     sheet.GetCells().Get(9, 0).PutValue(u"grape");
     sheet.GetCells().Get(9, 1).PutValue(2020);
     sheet.GetCells().Get(9, 2).PutValue(45);
-    // Agregar una tabla dinámica en la celda destino E3, llamada "Pivot1", usando el rango de origen A1:C10
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+ // Agregar una tabla dinámica en la celda destino E3, llamada, usando el rango de origen A1:C10
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // Asignar campos: Fruit -> Filas, Amount -> Datos
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -86,7 +85,6 @@ int main() {
 ```
 
 ## **Aplicar un estilo de tabla dinámica preajustado con nombre moderno**
-
 `SetPivotTableStyleType` selecciona uno de los estilos integrados con nombre que Excel 2007 introdujo para las tablas dinámicas. La enumeración `PivotTableStyleType` expone tres familias de temas: la familia clara desde `PivotTableStyleLight1` hasta `PivotTableStyleLight28`, la familia media desde `PivotTableStyleMedium1` hasta `PivotTableStyleMedium28` y la familia oscura desde `PivotTableStyleDark1` hasta `PivotTableStyleDark28`. También define `None` y `Custom`. Los miembros con números más altos de cada familia son los estilos agregados en Excel 2017.
 Estos preajustes son de solo lectura. En cuanto necesite cambiar colores, bordes o fuentes más allá de lo que ofrece un preajuste, tendrá que definir en su lugar un estilo personalizado para tablas dinámicas, como se muestra en [Escenario 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -135,8 +133,7 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(130);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -146,6 +143,7 @@ int main() {
     return 0;
 }
 ```
+
 ## **Definir y aplicar un estilo personalizado de tabla dinámica**
 Los preajustes integrados no se pueden modificar. Siempre que necesite anular colores, bordes o fuentes, debe definir un estilo personalizado de tabla dinámica. El flujo de trabajo consta de tres pasos:
 1. Añada un estilo personalizado a la colección `TableStyles` del libro de trabajo mediante `Worksheets.TableStyles.AddPivotTableStyle(string name)`. Esto devuelve el índice del estilo recién creado.
@@ -198,9 +196,8 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(900);
-    // Agregar tabla dinámica con origen en A1:C10, anclada en E3, llamada "Pivot1"
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ // Agregar tabla dinámica con origen en A1:C10, anclada en E3, llamada
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -284,9 +281,8 @@ int main() {
     worksheet.GetCells().Get(u"A10").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B10").PutValue(2021);
     worksheet.GetCells().Get(u"C10").PutValue(5500);
-    // Agregar tabla dinámica: rango de origen A1:C10, celda de destino E3, nombre "Pivot1"
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ // Agregar tabla dinámica: rango de origen A1:C10, celda de destino E3, nombre
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // Asignar campos dinámicos
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");

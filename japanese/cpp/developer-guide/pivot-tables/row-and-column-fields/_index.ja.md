@@ -86,8 +86,7 @@ int main() {
     worksheet.GetCells().Get(8, 1).PutValue(u"Daikon");
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -129,8 +128,7 @@ int main() {
         sheet.GetCells().Get(i + 1, 2).PutValue(years[i]);
         sheet.GetCells().Get(i + 1, 3).PutValue(amounts[i]);
     }
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -193,8 +191,7 @@ int main() {
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
     PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivotIndex = pivotTables.Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = pivotTables.Get(pivotIndex);
+    PivotTable pivotTable = pivotTables.Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -210,7 +207,6 @@ int main() {
 ```
 
 ## **Recap**
-
 以下の3つのシナリオは、`SetSubtotals` の呼び出しの違いのみに違いがあります。それ以外 — データセット、フィールド、およびそれらが割り当てられる領域 — はすべて同一であり、これによりレイアウトが直接比較可能になっています。
 - **フィールドの配置。** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` は、ソース列を領域内に移動させます。1つの領域内では、これらの呼び出しの順序が表示順序になります。したがって、最初の呼び出しが最外側のグループになります。サブ合计を実行するには、同じ領域内に2つ以上のフィールドが必要です。フィールドが1つだけの場合、グループ間にはサブ合计を算出する対象となるデータが存在しません。
 - **シナリオ1 — 自動サブ合计。** `SetSubtotals` を呼び出さない場合、サブ合计の設定は Excel 側で行われ、数値フィールドに対して Excel のデフォルトのサブ合计が適用されます。一方、`PivotFieldSubtotalType::Automatic` を指定して `SetSubtotals` を呼び出すと、この設定が明示的に記録され、暗黙的な状態から明示的な状態へと変わります。
@@ -220,6 +216,7 @@ int main() {
 {{% alert color="primary" %}}
 サブ合计に関する設定は、行領域に固有のものではありません。`PivotTable.ColumnFields` から取得したフィールドに対しても同様の `SetSubtotals` 呼び出しを行うと、列軸上でも同様の3つのレイアウトが得られます。なぜなら、この設定は軸ではなくピボットフィールド自体に属しているからです。
 {{% /alert %}}
+
 ## **Related Articles**
 - [ピボットテーブルのページフィールド](/cells/ja/cpp/add-page-field-in-pivot-table/)
 - [Aspose.Cells for C++ でピボットテーブルを更新する](/cells/ja/cpp/refresh-pivot-table/)

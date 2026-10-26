@@ -87,9 +87,8 @@ worksheet.Cells["C8"].PutValue(110);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(120);
-// Aggiungi una tabella pivot: intervallo di origine "A1:C9", cella di destinazione "E3", nome "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Aggiungi una tabella pivot: intervallo di origine "A1:C9", cella di destinazione "E3", nome
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 // Assegna i campi pivot: Fruit alle Righe, Year alle Colonne, Amount ai Dati
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -140,8 +139,7 @@ worksheet.Cells["C8"].PutValue(220);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2020);
 worksheet.Cells["C9"].PutValue(140);
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -196,9 +194,8 @@ worksheet.Cells["C8"].PutValue(350);
 worksheet.Cells["A9"].PutValue("Cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(450);
-// Aggiungi una tabella pivot denominata "Pivot1" posizionata nella cella di destinazione E3, con origine da A1:C9
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-var pivotTable = worksheet.PivotTables[pivotIndex];
+// Aggiungi una tabella pivot denominata posizionata nella cella di destinazione E3, con origine da A1:C9
+var pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 // Assegna i campi: Fruit a Riga, Year a Colonna, Amount a Dati
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");

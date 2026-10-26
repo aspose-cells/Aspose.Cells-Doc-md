@@ -61,8 +61,7 @@ int main() {
  }
  }
  // Lägg till pivottabell vid F3 med namnet PivotTable1
- int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1", true, false);
- PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
  // Pivotlayout: Category och Item på Rad, Year på Kolumn, Amount som datafält
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
@@ -84,29 +83,58 @@ Du kan därför lämna ett datafält som `Sum` medan du lägger till ett andra d
 {{% /alert %}}
 
 ```cpp
-#include <iostream>
 #include "Aspose.Cells.h"
+
 using namespace Aspose::Cells;
-using namespace Aspose::Cells::Pivot;
+
 int main() {
- Workbook workbook;
- Worksheet ws = workbook.GetWorksheets().Get(0);
- ws->SetName("Data");
- Vector<String> headers{ "Category", "Item", "Year", "Amount" };
- for (int j = 0; j < 4; j++) ws->GetCells()->Get(0, j)->PutValue(headers[j]);
- Vector<Vector<Object*>> data;
- // Fyll i data ...
- int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1", true, false);
- PivotTable pivotTable = ws.GetPivotTables().Get(pivotIndex);
- pivotTable->AddFieldToArea(PivotFieldType::Row, "Category");
- pivotTable->AddFieldToArea(PivotFieldType::Row, "Item");
- pivotTable->AddFieldToArea(PivotFieldType::Column, "Year");
- pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
- pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
- PivotField countField = pivotTable.GetDataFields().Get(1);
- countField->SetFunction(ConsolidationFunction_Count);
- pivotTable->CalculateData();
- workbook->Save("output_function.xlsx");
+    Aspose::Cells::Startup();
+
+    Workbook wb;
+    Worksheet worksheet = wb.GetWorksheets().Get(0);
+    worksheet.SetName(u"Data");
+
+    worksheet.GetCells().Get(0, 0).PutValue(u"Category");
+    worksheet.GetCells().Get(0, 1).PutValue(u"Item");
+    worksheet.GetCells().Get(0, 2).PutValue(u"Year");
+    worksheet.GetCells().Get(0, 3).PutValue(u"Amount");
+
+    U16String items[] = { u"Apple", u"Apple", u"Banana", u"Banana", u"Carrot", u"Carrot", u"Daikon", u"Daikon" };
+    int years[] = { 2020, 2021, 2020, 2021, 2020, 2021, 2020, 2021 };
+    int amounts[] = { 100, 150, 80, 90, 50, 60, 40, 45 };
+
+    for (int i = 1; i <= 8; i++) {
+        for (int j = 0; j <= 3; j++) {
+            if (j == 0) {
+                worksheet.GetCells().Get(i, j).PutValue(i <= 4 ? u"Fruit" : u"Vegetable");
+            } else if (j == 1) {
+                worksheet.GetCells().Get(i, j).PutValue(items[i - 1]);
+            } else if (j == 2) {
+                worksheet.GetCells().Get(i, j).PutValue(years[i - 1]);
+            } else {
+                worksheet.GetCells().Get(i, j).PutValue(amounts[i - 1]);
+            }
+        }
+    }
+
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
+
+    pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
+    pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
+    pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
+
+    pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
+    pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
+
+    PivotField countField = pivotTable.GetDataFields().Get(1);
+    countField.SetFunction(ConsolidationFunction::Count);
+
+    pivotTable.CalculateData();
+
+    wb.Save(u"output_function.xlsx");
+
+    Aspose::Cells::Cleanup();
+    return 0;
 }
 ```
 
@@ -119,26 +147,61 @@ Scenarierna nedan går igenom tre kompletta exempel som visar varje funktion som
 {{% /alert %}}
 
 ```cpp
-#include <iostream>
 #include "Aspose.Cells.h"
+#include <vector>
+
 using namespace Aspose::Cells;
-using namespace Aspose::Cells::Pivot;
+
 int main() {
- Workbook workbook;
- Worksheet ws = workbook.GetWorksheets().Get(0);
- ws->SetName("Data");
- // ... bygg data ...
- int pivotIndex = ws->GetPivotTables()->Add("A1:D9", "F3", "PivotTable1", true, false);
- PivotTable pivotTable = ws.GetPivotTables().Get(pivotIndex);
- pivotTable->AddFieldToArea(PivotFieldType::Row, "Category");
- pivotTable->AddFieldToArea(PivotFieldType::Row, "Item");
- pivotTable->AddFieldToArea(PivotFieldType::Column, "Year");
- pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
- pivotTable->AddFieldToArea(PivotFieldType::Data, "Amount");
- pivotTable->GetDataFields()->Get(1)->SetFunction(ConsolidationFunction_Count);
- pivotTable->AddFieldToArea(PivotFieldType::Column, pivotTable->GetValuesField());
- pivotTable->CalculateData();
- workbook->Save("output_plot.xlsx");
+    Aspose::Cells::Startup();
+
+    Workbook workbook;
+    Worksheet worksheet = workbook.GetWorksheets().Get(0);
+    worksheet.SetName(u"Data");
+
+    Cells cells = worksheet.GetCells();
+    cells.Get(0, 0).PutValue(U16String("Category"));
+    cells.Get(0, 1).PutValue(U16String("Item"));
+    cells.Get(0, 2).PutValue(U16String("Year"));
+    cells.Get(0, 3).PutValue(U16String("Amount"));
+
+    std::vector<U16String> categories = {
+        U16String("Fruit"), U16String("Fruit"), U16String("Fruit"), U16String("Fruit"),
+        U16String("Vegetable"), U16String("Vegetable"), U16String("Vegetable"), U16String("Vegetable")
+    };
+    std::vector<U16String> items = {
+        U16String("Apple"), U16String("Apple"), U16String("Banana"), U16String("Banana"),
+        U16String("Carrot"), U16String("Carrot"), U16String("Daikon"), U16String("Daikon")
+    };
+    int years[8] = { 2020, 2021, 2020, 2021, 2020, 2021, 2020, 2021 };
+    int amounts[8] = { 100, 150, 80, 90, 50, 60, 40, 45 };
+
+    for (int i = 1; i <= 8; i++) {
+        for (int j = 0; j <= 3; j++) {
+            if (j == 0) cells.Get(i, j).PutValue(categories[i - 1]);
+            else if (j == 1) cells.Get(i, j).PutValue(items[i - 1]);
+            else if (j == 2) cells.Get(i, j).PutValue(years[i - 1]);
+            else cells.Get(i, j).PutValue(amounts[i - 1]);
+        }
+    }
+
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
+
+    pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
+    pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
+    pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
+    pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
+    pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
+
+    pivotTable.GetDataFields().Get(1).SetFunction(ConsolidationFunction::Count);
+
+    pivotTable.AddFieldToArea(PivotFieldType::Column, pivotTable.GetValuesField().GetName());
+
+    pivotTable.CalculateData();
+    workbook.Save(u"output_plot.xlsx");
+
+    Aspose::Cells::Cleanup();
+    return 0;
 }
 ```
 

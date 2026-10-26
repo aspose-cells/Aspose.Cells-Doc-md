@@ -53,8 +53,7 @@ for i in range(len(data)):
     worksheet.cells.get(i + 1, 1).put_value(data[i][1])
     worksheet.cells.get(i + 1, 2).put_value(data[i][2])
 # 在 E3 单元格添加一个数据透视表
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # 将字段添加到相应区域：水果作为行字段，数量作为数据字段，年份作为页字段
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -94,8 +93,7 @@ sheet.cells.get("A8").put_value("blueberry"); sheet.cells.get("B8").put_value("2
 sheet.cells.get("A9").put_value("blueberry"); sheet.cells.get("B9").put_value("2021"); sheet.cells.get("C9").put_value(350)
 sheet.cells.get("A10").put_value("blueberry");sheet.cells.get("B10").put_value("2022"); sheet.cells.get("C10").put_value(450)
 # 在 E3 处添加数据透视表，覆盖 A1:C10
-pivot_index = sheet.pivot_tables.add("E3", "A1:C10", "PivotTable1")
-pivot_table = sheet.pivot_tables[pivot_index]
+pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
 # Fruit -> 行，Amount -> 数据（Year 将在下方添加到页字段）
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -137,8 +135,7 @@ for r in range(len(data)):
         sheet.cells.get(r + 1, c).put_value(data[r][c])
 # 在 E3 创建数据透视表
 pivot_tables = sheet.pivot_tables
-index = pivot_tables.add("=A1:C7", "E3", "PivotTable1")
-pivot_table = pivot_tables[index]
+pivot_table = pivot_tables.add("=A1:C7", 2, 4)
 # 配置透视字段：Fruit→行，Amount→数据，Year→页面
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -179,8 +176,7 @@ cells.get("B5").put_value("2021")
 cells.get("C5").put_value("250")
 # Add pivot table at E3
 pivot_tables = sheet.pivot_tables
-pivot_index = pivot_tables.add("A1:C5", "E3", "PivotTable1")
-pivot_table = pivot_tables[pivot_index]
+pivot_table = pivot_tables.add("A1:C5", 2, 4)
 # Add fields: Fruit→Row, Amount→Data, Year→Page
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -227,8 +223,7 @@ for i in range(len(data)):
     cells.get(i + 1, 2).put_value(int(data[i][2]))
 pivot_sheet = workbook.worksheets.add("Pivot")
 pivots = pivot_sheet.pivot_tables
-pivot_index = pivots.add("E3", "A1:C10", "PivotTable1")
-pivot_table = pivots[pivot_index]
+pivot_table = pivots.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")

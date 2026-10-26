@@ -61,7 +61,7 @@ int main() {
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
     // Définir les types de groupe : Mois et Trimestres
-    ArrayPtr<PivotGroupByType> groupTypes = ArrayPtr<PivotGroupByType>(new PivotGroupByType[2]{ PivotGroupByType::Months, PivotGroupByType::Quarters });
+    Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
     // Appliquer le regroupement au premier champ de ligne
     PivotField rowField = pt.GetRowFields().Get(0);

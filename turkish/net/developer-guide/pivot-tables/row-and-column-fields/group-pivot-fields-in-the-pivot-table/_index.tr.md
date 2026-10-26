@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Parametresiz `PivotField.Group()` aşırı yüklemesi, alanın veri türünü inceler ve onu otomatik olarak gruplar. Yalnızca tarihler (ve boşluklar) içeren bir alan aylara göre gruplanır. Yalnızca sayılar (ve boşluklar) içeren bir alan, otomatik bir aralık kullanılarak sayısal aralıklara gruplanır.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Örnek çalışma kitabını yükle
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // İkinci çalışma sayfasına ve onun pivot tablosuna eriş
@@ -40,6 +41,7 @@ Aşağıdaki örnek, örnek pivot tablosunun tarih satır alanını bir başlang
 `options.GroupTypes` içindeki değerlerin sırasının göz ardı edildiğini unutmayın. Grup türleri hangi sırayla listelenmiş olursa olsun, gruplanmış alanlar her zaman en büyük dönemden en küçüğe doğru görüntülenir: yıllar, çeyrekler, aylar, günler, saatler, dakikalar, saniyeler. Bu örnekte, `options.GroupTypes` içinde aylar çeyreklerden önce listelenmiştir, ancak çeyrekler dış seviye, aylar ise iç seviye olarak görüntülenir.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Örnek çalışma kitabını yükle
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // İkinci çalışma sayfasına ve özet tablosuna erişim
@@ -61,6 +63,7 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 Örnek pivot tablosunun `FieldTwo` alanı başlangıçta bir veri (değer) alanıdır. Yalnızca satır veya sütun alanları gruplanabildiğinden, kod önce `FieldTwo` öğesini satır alanına taşımak için `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")` çağırır, pivot tabloyu yeniler, ardından `StartNumber = 0`, `EndNumber = 5` ve `Interval = 2` kullanarak sayısal alanı 0-1, 2-3 ve 4-5 aralıklarına gruplar.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Örnek çalışma kitabını yükle
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // İkinci çalışma sayfasına ve onun pivot tablosuna eriş

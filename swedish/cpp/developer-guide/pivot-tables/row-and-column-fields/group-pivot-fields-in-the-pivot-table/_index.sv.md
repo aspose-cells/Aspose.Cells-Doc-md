@@ -61,7 +61,7 @@ int main() {
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
     // Ställ in grupptyper: Månader och Kvartal
-    ArrayPtr<PivotGroupByType> groupTypes = ArrayPtr<PivotGroupByType>(new PivotGroupByType[2]{ PivotGroupByType::Months, PivotGroupByType::Quarters });
+    Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
     // Tillämpa gruppering på det första radfältet
     PivotField rowField = pt.GetRowFields().Get(0);

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Node.js via C++でピボットテーブルの行フィールドと列フィールドを追加する
 linktitle: Aspose.Cells for Node.js via C++でピボットテーブルの行フィールドと列フィールドを追加する
-description: Aspose.Cells for Node.js via C++でピボットテーブルの行領域と列領域に基本フィールドを追加する方法と、PivotField.SetSubtotalsを使用してピボットフィールドの小計を制御する方法を学びます。
+description: Aspose.Cells for Node.js via C++でピボットテーブルの行領域と列領域に基本フィールドを追加する方法と、PivotField.setSubtotalsを使用してピボットフィールドの小計を制御する方法を学びます。
 keywords: Aspose.Cells, Node.js, C++, ピボットテーブル, 行フィールド, 列フィールド, PivotField, SetSubtotals, PivotFieldSubtotalType, 小計
 type: docs
 weight: 220
@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -121,8 +120,7 @@ for (let i = 0; i < data.length; i++) {
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+const pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -178,8 +176,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -192,7 +189,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **まとめ**
-
 この3つのシナリオの違いは、`setSubtotals`メソッドの呼び出し方のみです。データセット、フィールド、およびそれらが割り当てられるエリアはすべて同一であり、これによりレイアウトを直接比較可能となっています。
 - **フィールドの配置**：`PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` は、ソース列をエリア内に移動します。同じエリア内では、メソッド呼び出しの順序が表示順序となります。そのため、最初の呼び出しが最も外側のグループになります。サブtotalCountを適用するには、同じエリア内に2つ以上のフィールドが必要です。フィールドが1つしかない場合、グループ間にはサブトータルを適用する対象が存在しません。
 - **シナリオ1 — 自動サブトータル**：`setSubtotals` を呼び出さない場合、サブトータルの選択はExcelに委ねられ、数値フィールドに対してExcel独自の既定のサブトータルが適用されます。一方、`AsposeCells.PivotFieldSubtotalType.Automatic` を指定して `setSubtotals` を呼び出すと、この選択が明示的に記録されます。
@@ -202,6 +198,7 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 サブトータルに関する設定は、行エリアに特有のものではありません。`PivotTable.ColumnFields` から取得したフィールドに対して同じ `setSubtotals` の呼び出しを行うと、列軸上でも同様の3つのレイアウトが生成されます。なぜなら、この設定は軸ではなくピボットフィールド自体に属しているからです。
 {{% /alert %}}
+
 ## **関連記事**
 - [ピボットテーブルのページフィールド](/cells/ja/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Node.js via C++でピボットテーブルを更新](/cells/ja/nodejs-cpp/refresh-pivot-table/)

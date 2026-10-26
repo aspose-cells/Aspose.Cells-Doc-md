@@ -1,7 +1,7 @@
 ---
 title: Apply Styles to Pivot Tables in Aspose.Cells for Node.js via C++
 linktitle: Apply Styles to Pivot Tables
-description: Découvrez comment appliquer des styles intégrés et personnalisés aux tableaux croisés dynamiques avec Aspose.Cells for Node.js via C++. Cette documentation couvre les autoformats XLS hérités, les styles nommés modernes d'Excel 2007+, les styles de tableau croisé dynamique personnalisés et le raccourci FormatAll.
+description: Découvrez comment appliquer des styles intégrés et personnalisés aux tableaux croisés dynamiques avec Aspose.Cells for Node.js via C++. Cette documentation couvre les autoformats XLS hérités, les styles nommés modernes d'Excel 2007+, les styles de tableau croisé dynamique personnalisés et le raccourci formatAll.
 keywords: Aspose.Cells Node.js via C++ style de tableau croisé dynamique, PivotTableStyleType, AutoFormatType, FormatAll, style personnalisé, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -70,9 +70,8 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// Ajouter un tableau croisé dynamique à la cellule de destination E3, nommé "Pivot1", en utilisant la plage source A1:C10
-const pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-const pivotTable = sheet.getPivotTables().get(pivotIndex);
+// Ajouter un tableau croisé dynamique à la cellule de destination E3, nommé, en utilisant la plage source A1:C10
+const pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // Assigner les champs : Fruit -> Lignes, Montant -> Données
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -86,7 +85,6 @@ workbook.save("output.xls");
 ```
 
 ## **Appliquer un style de tableau croisé dynamique prédéfini nommé moderne**
-
 `PivotTable.pivotTableStyleType` sélectionne l’un des styles nommés intégrés qu’Excel 2007 a introduits pour les tableaux croisés dynamiques. L’énumération `PivotTableStyleType` expose trois familles de thèmes : la famille claire allant de `PivotTableStyleLight1` à `PivotTableStyleLight28`, la famille moyenne allant de `PivotTableStyleMedium1` à `PivotTableStyleMedium28` et la famille sombre allant de `PivotTableStyleDark1` à `PivotTableStyleDark28`. Elle définit également `None` et `Custom`. Les membres portant les numéros les plus élevés de chaque famille correspondent aux styles ajoutés dans Excel 2017.
 Ces préréglages sont en lecture seule. Dès que vous devez modifier les couleurs, les bordures ou les polices au-delà des possibilités offertes par un préréglage, vous devez définir à la place un style personnalisé de tableau croisé dynamique, comme indiqué dans [Scénario 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -132,9 +130,8 @@ worksheet.getCells().get("C9").putValue(190);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(130);
-// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Add a pivot table at E3, sourced from A1:C10
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -148,6 +145,7 @@ pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PivotTableStyl
 // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx");
 ```
+
 ## **Définir et appliquer un style de tableau croisé dynamique personnalisé**
 Les préréglages intégrés ne peuvent pas être modifiés. Chaque fois que vous devez redéfinir les couleurs, les bordures ou les polices, vous devez définir un style de tableau croisé dynamique personnalisé. Le flux de travail comporte trois étapes :
 1. Ajoutez un style personnalisé à la collection `TableStyles` du classeur via `Workbook.Worksheets.TableStyles.addPivotTableStyle(string name)`. Cela renvoie l'index du style nouvellement créé.
@@ -195,9 +193,8 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// Ajouter un tableau croisé dynamique à partir de A1:C10, ancré en E3, nommé "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Ajouter un tableau croisé dynamique à partir de A1:C10, ancré en E3, nommé
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -272,9 +269,8 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// Ajouter un tableau croisé dynamique : plage source A1:C10, cellule de destination E3, nom "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Ajouter un tableau croisé dynamique : plage source A1:C10, cellule de destination E3, nom
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Affecter les champs du tableau croisé dynamique : Fruit -> zone Ligne, Année -> zone Colonne, Montant -> zone Données
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -309,6 +305,5 @@ Le choix de l'API de style dépend du format de fichier dans lequel vous enregis
 | `.xlsx` / `.xlsm` / `.xlsb` (moderne, style personnalisé) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | À utiliser lorsque les préréglages intégrés ne suffisent pas. Configurer via `TableStyleElement.SetElementStyle(...)`. |
 | Tout format (remplacement uniforme) | `PivotTable.formatAll(Style)` | Raccourci qui remplace tout autre paramètre de style sur l'ensemble du tableau croisé dynamique. |
 En cas de doute, enregistrez au format `.xlsx` et utilisez `PivotTableStyleType` pour les thèmes intégrés, ou `PivotTableStyleName` pour les thèmes personnalisés.
-
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

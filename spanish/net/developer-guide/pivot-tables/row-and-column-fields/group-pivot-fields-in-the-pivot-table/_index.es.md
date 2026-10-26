@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 La sobrecarga sin parámetros `PivotField.Group()` inspecciona el tipo de dato del campo y lo agrupa automáticamente. Un campo que solo contiene fechas (y espacios en blanco) se agrupa por meses. Un campo que solo contiene números (y espacios en blanco) se agrupa en rangos numéricos usando un intervalo automático.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Cargar el libro de muestra
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Acceder a la segunda hoja de cálculo y a su tabla dinámica
@@ -40,6 +41,7 @@ El siguiente ejemplo agrupa el campo de fila de fecha de la tabla dinámica de m
 Tenga en cuenta que el orden de los valores en `options.GroupTypes` se ignora. Sin importar el orden en que se enumeren los tipos de grupo, los campos agrupados siempre se muestran del período más grande al más pequeño: años, trimestres, meses, días, horas, minutos, segundos. En este ejemplo los meses se enumeran antes que los trimestres en `options.GroupTypes`, sin embargo, los trimestres se muestran como el nivel externo y los meses como el nivel interno.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Cargar el libro de muestra
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Acceder a la segunda hoja de cálculo y su tabla dinámica
@@ -61,6 +63,7 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 `FieldTwo` de la tabla dinámica de muestra es inicialmente un campo de datos (valor). Como solo se pueden agrupar los campos de fila o columna, el código primero llama a `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")` para mover `FieldTwo` al área de filas, actualiza la tabla dinámica y luego agrupa el campo numérico en los rangos 0-1, 2-3 y 4-5 usando `StartNumber = 0`, `EndNumber = 5` e `Interval = 2`.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Cargar el libro de muestra
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Acceder a la segunda hoja de cálculo y su tabla dinámica

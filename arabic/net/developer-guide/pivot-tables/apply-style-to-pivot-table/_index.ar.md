@@ -72,9 +72,8 @@ sheet.Cells[8, 2].PutValue(45);
 sheet.Cells[9, 0].PutValue("grape");
 sheet.Cells[9, 1].PutValue(2020);
 sheet.Cells[9, 2].PutValue(45);
-// إضافة جدول محوري في خلية الوجهة E3، باسم "Pivot1"، باستخدام نطاق المصدر A1:C10
-int pivotIndex = sheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+// إضافة جدول محوري في خلية الوجهة E3، باسم ، باستخدام نطاق المصدر A1:C10
+PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
 // تعيين الحقول: فاكهة -> صفوف، مبلغ -> بيانات
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -88,7 +87,6 @@ workbook.Save("output.xls");
 ```
 
 ## **تطبيق نمط جدول محوري مسمى مسبق حديث**
-
 يحدد `PivotTable.PivotTableStyleType` أحد أنماط التسمية المدمجة التي أدخلها Excel 2007 للجداول المحورية. يعرض تعداد `PivotTableStyleType` ثلاث عائلات من السمات: العائلة الفاتحة من `PivotTableStyleLight1` إلى `PivotTableStyleLight28`، والعائلة المتوسطة من `PivotTableStyleMedium1` إلى `PivotTableStyleMedium28`، والعائلة الداكنة من `PivotTableStyleDark1` إلى `PivotTableStyleDark28`. كما يحدد `None` و`Custom`. إن أعضاء كل عائلة الذين يحملون أرقامًا أعلى هم الأنماط التي أضافها Excel 2017.
 هذه الإعدادات المسبقة للقراءة فقط. متى احتجت إلى تغيير الألوان أو الحدود أو الخطوط بما يتجاوز ما توفره الإعدادات المسبقة، عليك تعريف نمط جدول محوري مخصص بدلاً من ذلك، كما هو موضح في [المشهد 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -140,9 +138,8 @@ worksheet.Cells["C9"].PutValue(190);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(130);
-// أضف جدولًا محوريًا عند E3 باسم "Pivot1"، بمصدر A1:C10
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// أضف جدولًا محوريًا عند E3 باسم ، بمصدر A1:C10
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // عين حقول الجدول المحوري: Fruit -> منطقة الصفوف، Year -> منطقة الأعمدة، Amount -> منطقة البيانات
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -156,6 +153,7 @@ pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
 // احفظ بصيغة .xlsx الحديثة -- هذا هو التنسيق الذي يكون فيه PivotTableStyleType ذا معنى.
 workbook.Save("output.xlsx");
 ```
+
 ## **تحديد نمط جدول محوري مخصص وتطبيقه**
 لا يمكن تعديل الإعدادات المسبقة المدمجة. كلما احتجت إلى تجاوز الألوان أو الحدود أو الخطوط، يجب تحديد نمط محوري مخصص. تتكون سير العمل من ثلاث خطوات:
 1. أضف نمطًا مخصصًا إلى مجموعة `TableStyles` الخاصة بالمصنف عبر `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)`. يُرجع ذلك فهرس النمط الذي تم إنشاؤه حديثًا.
@@ -173,6 +171,7 @@ using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
 using System.Drawing;
+using Aspose.Cells.Tables;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 // تعبئة البيانات المصدرية: صف العناوين + 9 صفوف بيانات (A1:C10)
@@ -206,9 +205,8 @@ worksheet.Cells["C9"].PutValue(800);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(900);
-// إضافة جدول محوري مصدره A1:C10، مثبت عند E3، باسم "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// إضافة جدول محوري مصدره A1:C10، مثبت عند E3، باسم
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -291,9 +289,8 @@ worksheet.Cells["C9"].PutValue(2500);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(5500);
-// إضافة الجدول المحوري: نطاق المصدر A1:C10، خلية الوجهة E3، الاسم "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// إضافة الجدول المحوري: نطاق المصدر A1:C10، خلية الوجهة E3، الاسم
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // تعيين حقول الجدول المحوري: Fruit -> منطقة الصفوف، Year -> منطقة الأعمدة، Amount -> منطقة البيانات
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");

@@ -86,8 +86,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable")
 worksheet.getCells().get(8, 1).putValue("Daikon")
 worksheet.getCells().get(8, 2).putValue(2021)
 worksheet.getCells().get(8, 3).putValue(45)
-pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -126,8 +125,7 @@ data = [
 for i in range(len(data)):
     for j in range(len(data[0])):
         worksheet.getCells().get(i + 1, j).putValue(data[i][j])
-pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -187,8 +185,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon")
 worksheet.getCells().get(8, 2).putValue(2021)
 worksheet.getCells().get(8, 3).putValue(45)
 pivotTables = worksheet.getPivotTables()
-pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1")
-pivotTable = pivotTables.get(pivotIndex)
+pivotTable = pivotTables.add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -202,7 +199,6 @@ jpype.shutdownJVM()
 ```
 
 ## **Zusammenfassung**
-
 Die drei Szenarien unterscheiden sich lediglich in den `setSubtotals`-Aufrufen. Alles andere – der Datensatz, die Felder sowie die Bereiche, denen sie zugeordnet sind – ist identisch, was die Layouts unmittelbar vergleichbar macht.
 - **Platzieren von Feldern.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` verschiebt eine Quellspalte in einen Bereich. Innerhalb eines Bereichs bestimmt die Reihenfolge der Aufrufe die Anzeigereihenfolge, sodass der erste Aufruf die äußere Gruppierung darstellt. Zwischen-summieren erfordert zwei oder mehr Felder im gleichen Bereich: Bei einem einzelnen Feld gibt es zwischen den Gruppen nichts, für das eine Zwischensumme gebildet werden könnte.
 - **Szenario 1 – automatische Zwischensummen.** Wenn `setSubtotals` nicht aufgerufen wird, übernimmt Excel die Entscheidung undwendet automatisch seine eigene Standard-Zwischensumme auf numerische Felder an. Ein Aufruf von `setSubtotals` mit `PivotFieldSubtotalType.AUTOMATIC` dokumentiert diese Entscheidung explizit, statt sie implizit zu belassen.
@@ -212,9 +208,10 @@ Die drei Szenarien unterscheiden sich lediglich in den `setSubtotals`-Aufrufen. 
 {{% alert color="primary" %}}
 Nichts bezüglich der Zwischensummen ist spezifisch für den Zeilenbereich. Die gleichen `setSubtotals`-Aufrufe auf einem Feld, das aus `PivotTable.ColumnFields` stammt, erzeugen dieselben drei Layouts auf der Spaltenachse, da die Einstellung zum Pivot-Feld gehört und nicht zur Achse, auf der es sich befindet.
 {{% /alert %}}
-## **Verwandte Artikel**
 
+## **Verwandte Artikel**
 - [Seitenfelder in Pivot-Tabellen](/cells/de/python-java/add-page-field-in-pivot-table/)
 - [Aktualisieren von Pivot-Tabellen in Aspose.Cells für Python via Java](/cells/de/python-java/refresh-pivot-table/)
 - [Anwenden von Stilen auf Pivot-Tabellen](/cells/de/python-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python" >}}

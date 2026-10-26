@@ -86,8 +86,7 @@ int main() {
     worksheet.GetCells().Get(8, 1).PutValue(u"Daikon");
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -129,8 +128,7 @@ int main() {
         sheet.GetCells().Get(i + 1, 2).PutValue(years[i]);
         sheet.GetCells().Get(i + 1, 3).PutValue(amounts[i]);
     }
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -193,8 +191,7 @@ int main() {
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
     PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivotIndex = pivotTables.Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = pivotTables.Get(pivotIndex);
+    PivotTable pivotTable = pivotTables.Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -210,7 +207,6 @@ int main() {
 ```
 
 ## **Краткие итоги**
-
 Три сценария различаются только вызовами `SetSubtotals`. Всё остальное — набор данных, поля и области, к которым они назначены — одинаково, что делает макеты напрямую сравнимыми.
 - **Размещение полей.** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` перемещает исходный столбец в область. В пределах одной области порядок вызовов определяет порядок отображения, поэтому первый вызов становится самым внешним группировочным уровнем. Подытоги требуют наличия двух или более полей в одной области: при одном поле между группами просто нечего суммировать.
 - **Сценарий 1 — автоматические подытоги.** Отсутствие вызова `SetSubtotals` оставляет выбор за Excel, который применяет собственный подытог по умолчанию к числовым полям. Вызов `SetSubtotals` с параметром `PivotFieldSubtotalType::Automatic` явно фиксирует этот выбор, а не оставляет его неявным.
@@ -220,6 +216,7 @@ int main() {
 {{% alert color="primary" %}}
 Ничего в настройке подытогов не связано исключительно с строковой областью. Те же самые вызовы `SetSubtotals` для поля, взятого из `PivotTable.ColumnFields`, дают те же три макета на оси столбцов, поскольку настройка относится к самому сводному полю, а не к оси, на которой оно размещено.
 {{% /alert %}}
+
 ## **Связанные статьи**
 - [Поля страницы в сводных таблицах](/cells/ru/cpp/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells for C++](/cells/ru/cpp/refresh-pivot-table/)

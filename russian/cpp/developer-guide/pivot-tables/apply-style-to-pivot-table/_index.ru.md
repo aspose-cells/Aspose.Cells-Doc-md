@@ -70,9 +70,8 @@ int main() {
     sheet.GetCells().Get(9, 0).PutValue(u"grape");
     sheet.GetCells().Get(9, 1).PutValue(2020);
     sheet.GetCells().Get(9, 2).PutValue(45);
-    // Добавить сводную таблицу в ячейку назначения E3 с именем "Pivot1", используя исходный диапазон A1:C10
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+ // Добавить сводную таблицу в ячейку назначения E3 с именем, используя исходный диапазон A1:C10
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // Назначить поля: Fruit -> Строки, Amount -> Данные
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -86,7 +85,6 @@ int main() {
 ```
 
 ## **Применение современного именованного предустановленного стиля сводной таблицы**
-
 `SetPivotTableStyleType` выбирает один из встроенных именованных стилей, которые Excel 2007 представил для сводных таблиц. Перечисление `PivotTableStyleType` предоставляет три семейства тем: светлое семейство от `PivotTableStyleLight1` до `PivotTableStyleLight28`, среднее семейство от `PivotTableStyleMedium1` до `PivotTableStyleMedium28` и темное семейство от `PivotTableStyleDark1` до `PivotTableStyleDark28`. Оно также определяет `None` и `Custom`. Элементы с большими номерами в каждом семействе — это стили, добавленные в Excel 2017.
 Эти предустановки доступны только для чтения. Если необходимо изменить цвета, границы или шрифты сверх того, что предусмотрено предустановкой, вместо этого необходимо определить пользовательский стиль сводной таблицы, как показано в [Сценарии 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -135,8 +133,7 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(130);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -146,6 +143,7 @@ int main() {
     return 0;
 }
 ```
+
 ## **Определение и применение пользовательского стиля сводной таблицы**
 Встроенные предустановки не могут быть изменены. Всякий раз, когда требуется переопределить цвета, границы или шрифты, необходимо определить пользовательский стиль сводной таблицы. Рабочий процесс состоит из трёх шагов:
 1. Добавьте пользовательский стиль в коллекцию `TableStyles` рабочей книги через `Worksheets.TableStyles.AddPivotTableStyle(string name)`. Метод возвращает индекс вновь созданного стиля.
@@ -198,9 +196,8 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(900);
-    // Добавление сводной таблицы с источником A1:C10, привязанной к E3, с именем "Pivot1"
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ // Добавление сводной таблицы с источником A1:C10, привязанной к E3, с именем
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -284,9 +281,8 @@ int main() {
     worksheet.GetCells().Get(u"A10").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B10").PutValue(2021);
     worksheet.GetCells().Get(u"C10").PutValue(5500);
-    // Добавление сводной таблицы: исходный диапазон A1:C10, ячейка назначения E3, имя "Pivot1"
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ // Добавление сводной таблицы: исходный диапазон A1:C10, ячейка назначения E3, имя
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // Назначение полей сводной таблицы
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");

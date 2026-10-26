@@ -1,7 +1,7 @@
 ---
 title: Actualizar tablas dinámicas y cachés de tablas dinámicas en Aspose.Cells for Java
 linktitle: Actualizar tablas dinámicas y cachés de tablas dinámicas en Aspose.Cells for Java
-description: Aprenda a actualizar tablas dinámicas en Aspose.Cells for Java usando la API de actualización de tablas dinámicas de v26.7+. Este artículo cubre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData y GetPivotTables con ejemplos prácticos de código.
+description: Aprenda a actualizar tablas dinámicas en Aspose.Cells for Java usando la API de actualización de tablas dinámicas de v26.7+. Este artículo cubre refreshAll, refreshPivotTables, PivotCache.refresh, calculateData y getPivotTables con ejemplos prácticos de código.
 keywords: Aspose.Cells, Java, tabla dinámica, actualizar, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -85,9 +85,8 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// Agregar una tabla dinámica: rango de origen "A1:C9", celda de destino "E3", nombre "Pivot1"
-int pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Agregar una tabla dinámica: rango de origen "A1:C9", celda de destino "E3", nombre
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // Asignar campos de la tabla dinámica: Fruit a Filas, Year a Columnas, Amount a Datos
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -136,8 +135,7 @@ worksheet.getCells().get("C8").putValue(220);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2020);
 worksheet.getCells().get("C9").putValue(140);
-int pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -191,9 +189,8 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// Agregar una tabla dinámica llamada "Pivot1" ubicada en la celda de destino E3, con origen en A1:C9
-int pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Agregar una tabla dinámica llamada ubicada en la celda de destino E3, con origen en A1:C9
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // Asignar campos: Fruta a Fila, Año a Columna, Cantidad a Datos
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");

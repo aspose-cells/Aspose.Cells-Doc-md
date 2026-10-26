@@ -85,8 +85,7 @@ worksheet.cells.get(8, 0).put_value("Vegetable")
 worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -123,8 +122,7 @@ data = [
 for i in range(len(data)):
     for j in range(len(data[i])):
         worksheet.cells.get(i + 1, j).put_value(data[i][j])
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -183,8 +181,7 @@ worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
 pivot_tables = worksheet.pivot_tables
-pivot_index = pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = pivot_tables[pivot_index]
+pivot_table = pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -197,7 +194,6 @@ workbook.save("output_custom.xlsx")
 ```
 
 ## **Sammanfattning**
-
 De tre scenarierna skiljer sig i en enda sak: anropen till `set_subtotals`. Allt annat — datasamlingen, fälten och de områden de tilldelas till — är identiskt, vilket gör att layouterna kan jämföras direkt.
 - **Placera fält.** `PivotTable.add_field_to_area(PivotFieldType.ROW, fieldName)` flyttar en källkolumn till ett område. Inom ett område är anropens ordning synlig ordning, så det första anropet blir det yttersta gruppen. Subtotaler kräver två eller fler fält i samma område: med ett ensamt fält finns det inget mellan grupperna att ta subtotal för.
 - **Scenario 1 — automatiska subtotaler.** Om `set_subtotals` inte anropas lämnas valet till Excel, som tillämpar sin egen standardsubtotalsumma på numeriska fält. Att anropa `set_subtotals` med `PivotFieldSubtotalType.AUTOMATIC` registrerar detta val explicit istället för att lämna det implicit.
@@ -207,9 +203,10 @@ De tre scenarierna skiljer sig i en enda sak: anropen till `set_subtotals`. Allt
 {{% alert color="primary" %}}
 Inget av det som gäller subtotaler är specifikt för radområdet. Samma `set_subtotals`-anrop på ett fält taget från `PivotTable.ColumnFields` producerar samma tre layouter på kolom axeln, eftersom inställningen tillhör pivottfältet snarare än axeln det sitter på.
 {{% /alert %}}
-## **Relaterade artiklar**
 
+## **Relaterade artiklar**
 - [Sidfält i pivottabeller](/cells/sv/python-net/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells för Python via .NET](/cells/sv/python-net/refresh-pivot-table/)
 - [Tillämpa stilar på pivottabeller](/cells/sv/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python-net" >}}

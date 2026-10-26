@@ -53,8 +53,7 @@ for (var i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
 // E3 hücresine bağlı bir pivot tablo ekle
-var pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
-var pivotTable = worksheet.getPivotTables().get(pivotIndex);
+var pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Alanları ilgili bölümlere ekle: Satır olarak Meyve, Veri olarak Miktar, Sayfa alanı olarak Yıl
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -87,8 +86,7 @@ sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").put
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
 // A1:C10 aralığını kapsayacak şekilde E3 konumuna pivot tablosu ekle
-let pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1");
-let pivotTable = sheet.getPivotTables().get(pivotIndex);
+let pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // Fruit -> Satır, Amount -> Veri (Year aşağıda Sayfa alanına eklenecek)
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -130,8 +128,7 @@ for (let r = 0; r < data.length; r++) {
 }
 // E3'te özet tablo oluştur
 let pivotTables = sheet.getPivotTables();
-let index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
-let pivotTable = pivotTables.get(index);
+let pivotTable = pivotTables.add("=A1:C7", 2, 4);
 // Özet tablo alanlarını yapılandır: Fruit→Satır, Amount→Veri, Year→Sayfa
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -170,8 +167,7 @@ cells.get("B5").putValue("2021");
 cells.get("C5").putValue("250");
 // E3'e pivot tablo ekle
 var pivotTables = sheet.getPivotTables();
-var pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
-var pivotTable = pivotTables.get(pivotIndex);
+var pivotTable = pivotTables.add("A1:C5", 2, 4);
 // Alanları ekle: Fruit→Satır, Amount→Veri, Year→Sayfa
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -214,8 +210,7 @@ for (let i = 0; i < data.length; i++) {
 }
 let pivotSheet = workbook.getWorksheets().add("Pivot");
 let pivots = pivotSheet.getPivotTables();
-let pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1");
-let pivotTable = pivots.get(pivotIndex);
+let pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");

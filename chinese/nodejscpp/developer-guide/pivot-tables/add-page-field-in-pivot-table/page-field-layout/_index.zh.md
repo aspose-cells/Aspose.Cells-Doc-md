@@ -38,8 +38,7 @@ if (!fs.existsSync(dataDir)) {
 }
 let workbook = new AsposeCells.Workbook();
 let worksheets = workbook.getWorksheets();
-let pivotDataIdx = worksheets.add("PivotData");
-let pivotDataSheet = worksheets.get(pivotDataIdx);
+let pivotDataSheet = worksheets.add("PivotData");
 let pivotDataCells = pivotDataSheet.getCells();
 // 表头（第0行）
 pivotDataCells.get(0, 0).putValue("Fruit");
@@ -87,12 +86,10 @@ pivotDataCells.get(8, 1).putValue(2023);
 pivotDataCells.get(8, 2).putValue("West");
 pivotDataCells.get(8, 3).putValue(110);
 // 添加透视表报表工作表
-let pivotTableSheetIdx = worksheets.add("PivotTableReport");
-let pivotTableSheet = worksheets.get(pivotTableSheetIdx);
+let pivotTableSheet = worksheets.add("PivotTableReport");
 let pivotTables = pivotTableSheet.getPivotTables();
 // 创建数据源为PivotData!A1:D9的透视表，放在PivotTableReport的A1位置
-let pivotIndex = pivotTables.add("PivotData!A1:D9", "A1", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0);
 // 添加字段
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // 水果
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // 年份
@@ -116,8 +113,7 @@ const AsposeCells = require("aspose.cells.node");
 const workbook = new AsposeCells.Workbook();
 const pivotData = workbook.getWorksheets().get(0);
 pivotData.setName("PivotData");
-const pivotReportIdx = workbook.getWorksheets().add("PivotTableReport");
-const pivotReport = workbook.getWorksheets().get(pivotReportIdx);
+const pivotReport = workbook.getWorksheets().add("PivotTableReport");
 const headers = ["Fruit", "Year", "Region", "Amount"];
 for (let c = 0; c < headers.length; c++) {
     pivotData.getCells().get(0, c).putValue(headers[c]);
@@ -137,8 +133,7 @@ for (let r = 0; r < data.length; r++) {
         pivotData.getCells().get(r + 1, c).putValue(data[r][c]);
     }
 }
-const idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
-const pivotTable = pivotReport.getPivotTables().get(idx);
+const pivotTable = pivotReport.getPivotTables().add("PivotData!A1:D9", 0, 0);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
@@ -193,10 +188,8 @@ dataSheet.getCells().get("A9").putValue("Grape");
 dataSheet.getCells().get("B9").putValue(2023);
 dataSheet.getCells().get("C9").putValue("West");
 dataSheet.getCells().get("D9").putValue(110);
-const pivotSheetIdx = workbook.getWorksheets().add("PivotTableReport");
-const pivotSheet = workbook.getWorksheets().get(pivotSheetIdx);
-const pivotIdx = pivotSheet.getPivotTables().add("PivotData!A1:D9", "A3", "PivotTable");
-const pivotTable = pivotSheet.getPivotTables().get(pivotIdx);
+const pivotSheet = workbook.getWorksheets().add("PivotTableReport");
+const pivotTable = pivotSheet.getPivotTables().add("PivotData!A1:D9", 2, 0);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);

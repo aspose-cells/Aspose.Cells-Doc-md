@@ -1,6 +1,6 @@
 ---
 title: Apply Styles to Pivot Tables in Aspose.Cells for Python via Java
-description: Learn how to apply built-in and custom styles to pivot tables in Aspose.Cells for Python via Java, covering legacy XLS autoformats, modern Excel 2007+ named styles, custom pivot table styles, and the FormatAll shortcut.
+description: Learn how to apply built-in and custom styles to pivot tables in Aspose.Cells for Python via Java, covering legacy XLS autoformats, modern Excel 2007+ named styles, custom pivot table styles, and the formatAll shortcut.
 linktitle: Apply Pivot Table Styles
 keywords: Aspose.Cells Python via Java pivot table style, PivotTableStyleType, AutoFormatType, FormatAll, custom style, PivotTableStyleName, TableStyles
 type: docs
@@ -73,9 +73,8 @@ sheet.getCells().get(8, 2).putValue(45)
 sheet.getCells().get(9, 0).putValue("grape")
 sheet.getCells().get(9, 1).putValue(2020)
 sheet.getCells().get(9, 2).putValue(45)
-# Add a pivot table at destination cell E3, named "Pivot1", using source range A1:C10
-pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = sheet.getPivotTables().get(pivotIndex)
+# Add a pivot table at destination cell E3, using source range A1:C10
+pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4)
 # Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -90,7 +89,6 @@ jpype.shutdownJVM()
 ```
 
 ## **Apply a Modern Named Preset Pivot Table Style**
-
 `pivotTable.setPivotTableStyleType(int)` selects one of the built-in named styles that Excel 2007 introduced for pivot tables. The `PivotTableStyleType` enumeration exposes three theme families: the light family from `PIVOT_TABLE_STYLE_LIGHT1` through `PIVOT_TABLE_STYLE_LIGHT28`, the medium family from `PIVOT_TABLE_STYLE_MEDIUM1` through `PIVOT_TABLE_STYLE_MEDIUM28`, and the dark family from `PIVOT_TABLE_STYLE_DARK1` through `PIVOT_TABLE_STYLE_DARK_28`. It also defines `None` and `Custom`. The higher-numbered members of each family are the styles added in Excel 2017.
 These presets are read-only. As soon as you need to change colors, borders, or fonts beyond what a preset provides, you have to define a custom pivot style instead, as shown in [Scenario 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -142,9 +140,8 @@ worksheet.getCells().get("C9").putValue(190)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add a pivot table at E3, sourced from A1:C10
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -159,6 +156,7 @@ pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1)
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
+
 ## **Define and Apply a Custom Pivot Table Style**
 The built-in presets cannot be modified. Whenever you need to override colors, borders, or fonts, you must define a custom pivot style. The workflow has three steps:
 1. Add a custom style to the workbook's `TableStyles` collection via `workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)`. This returns the index of the newly created style.
@@ -212,9 +210,8 @@ worksheet.getCells().get("C9").putValue(800)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(900)
-# Add pivot table sourced from A1:C10, anchored at E3, named "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add pivot table sourced from A1:C10, anchored at E3
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -300,9 +297,8 @@ worksheet.getCells().get("C9").putValue(2500)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(5500)
-# Add pivot table: source range A1:C10, destination cell E3, name "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add pivot table: source range A1:C10, destination cell E3
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")

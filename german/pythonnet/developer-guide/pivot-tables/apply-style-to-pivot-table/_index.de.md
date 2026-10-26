@@ -1,7 +1,7 @@
 ---
 title: Stile auf Pivot-Tabellen in Aspose.Cells for Python via .NET anwenden
 linktitle: Stile auf Pivot-Tabellen
-description: Erfahren Sie, wie Sie integrierte und benutzerdefinierte Stile auf Pivot-Tabellen in Aspose.Cells for Python via .NET anwenden, einschließlich Legacy-XLS-Autoformaten, moderner benannter Stile ab Excel 2007, benutzerdefinierter Pivot-Tabellen-Stile und der FormatAll-Verknüpfung.
+description: Erfahren Sie, wie Sie integrierte und benutzerdefinierte Stile auf Pivot-Tabellen in Aspose.Cells for Python via .NET anwenden, einschließlich Legacy-XLS-Autoformaten, moderner benannter Stile ab Excel 2007, benutzerdefinierter Pivot-Tabellen-Stile und der _format_all-Verknüpfung.
 keywords: Aspose.Cells Python via .NET Pivot-Tabellen-Stil, PivotTableStyleType, AutoFormatType, FormatAll, benutzerdefinierter Stil, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -72,9 +72,8 @@ sheet.cells.get(8, 2).put_value(45)
 sheet.cells.get(9, 0).put_value("grape")
 sheet.cells.get(9, 1).put_value(2020)
 sheet.cells.get(9, 2).put_value(45)
-# Fügen Sie eine Pivot-Tabelle in der Zielzelle E3 hinzu, benannt als "Pivot1", unter Verwendung des Quellbereichs A1:C10
-pivot_index = sheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = sheet.pivot_tables[pivot_index]
+# Fügen Sie eine Pivot-Tabelle in der Zielzelle E3 hinzu, benannt als, unter Verwendung des Quellbereichs A1:C10
+pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
 # Felder zuweisen: Frucht -> Zeilen, Betrag -> Daten
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -88,7 +87,6 @@ workbook.save("output.xls")
 ```
 
 ## **Einen modernen benannten Voreinstellungs-Stil für Pivot-Tabellen anwenden**
-
 `pivot_table.pivot_table_style_type` wählt einen der integrierten benannten Stile aus, die Excel 2007 für Pivot-Tabellen eingeführt hat. Die Enumeration `PivotTableStyleType` umfasst drei Themenfamilien: die helle Familie von `PIVOT_TABLE_STYLE_LIGHT1` bis `PIVOT_TABLE_STYLE_LIGHT28`, die mittlere Familie von `PIVOT_TABLE_STYLE_MEDIUM1` bis `PIVOT_TABLE_STYLE_MEDIUM28` und die dunkle Familie von `PIVOT_TABLE_STYLE_DARK1` bis `PIVOT_TABLE_STYLE_DARK28`. Sie definiert außerdem `None` und `Custom`. Die Mitglieder mit höheren Nummern jeder Familie sind die in Excel 2017 hinzugefügten Stile.
 Diese Voreinstellungen sind schreibgeschützt. Sobald Sie Farben, Rahmen oder Schriftarten ändern müssen, die über die Möglichkeiten einer Voreinstellung hinausgehen, müssen Sie stattdessen einen benutzerdefinierten Pivot-Stil definieren, wie in [Szenario 3](#define-and-apply-a-custom-pivot-table-style) gezeigt wird.
 
@@ -139,9 +137,8 @@ worksheet.cells.get("C9").put_value(190)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Add a pivot table at E3, sourced from A1:C10
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -155,6 +152,7 @@ pivot_table.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_DARK1
 # Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx")
 ```
+
 ## **Einen benutzerdefinierten Pivot-Tabellen-Stil definieren und anwenden**
 Die integrierten Voreinstellungen können nicht geändert werden. Wenn Sie Farben, Rahmen oder Schriftarten anpassen müssen, müssen Sie einen benutzerdefinierten Pivot-Stil definieren. Der Arbeitsablauf umfasst drei Schritte:
 1. Fügen Sie der `table_styles`-Sammlung der Arbeitsmappe über `workbook.worksheets.table_styles.add_pivot_table_style(name)` einen benutzerdefinierten Stil hinzu. Dies gibt den Index des neu erstellten Stils zurück.
@@ -205,9 +203,8 @@ worksheet.cells.get("C9").put_value(800)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(900)
-# Pivot-Tabelle aus A1:C10 hinzufügen, verankert bei E3, benannt "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Pivot-Tabelle aus A1:C10 hinzufügen, verankert bei E3, benannt
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -289,9 +286,8 @@ worksheet.cells.get("C9").put_value(2500)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(5500)
-# Pivot-Tabelle hinzufügen: Quellbereich A1:C10, Zielzelle E3, Name "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Pivot-Tabelle hinzufügen: Quellbereich A1:C10, Zielzelle E3
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Pivot-Felder zuweisen: Fruit -> Zeilenbereich, Year -> Spaltenbereich, Amount -> Datenbereich
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -326,6 +322,5 @@ Die Wahl der Stil-API hängt vom Dateiformat ab, in dem Sie speichern. Verwenden
 | `.xlsx` / `.xlsm` / `.xlsb` (modern, benutzerdefinierter Stil) | `PivotTable.pivot_table_style_name` + `worksheets.table_styles.add_pivot_table_style(...)` | Verwenden, wenn die integrierten Voreinstellungen nicht ausreichen. Konfiguration über `table_style_element.set_element_style(...)`. |
 | Beliebiges Format (einheitliche Überschreibung) | `PivotTable.format_all(Style)` | Verknüpfung, die jede andere Stileinstellung in der gesamten Pivot-Tabelle überschreibt. |
 Im Zweifelsfall speichern Sie als `.xlsx` und verwenden `pivot_table_style_type` für integrierte Designs oder `pivot_table_style_name` für benutzerdefinierte Designs.
-
 
 {{< app/cells/assistant language="python-net" >}}

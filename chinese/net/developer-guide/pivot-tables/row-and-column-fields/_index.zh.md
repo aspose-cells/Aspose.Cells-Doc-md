@@ -85,8 +85,7 @@ worksheet.Cells[8, 0].PutValue("Vegetable");
 worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -129,8 +128,7 @@ for (int i = 0; i < data.GetLength(0); i++)
         worksheet.Cells[i + 1, j].PutValue(data[i, j]);
     }
 }
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -188,8 +186,7 @@ worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
 PivotTableCollection pivotTables = worksheet.PivotTables;
-int pivotIndex = pivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables[pivotIndex];
+PivotTable pivotTable = pivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -202,7 +199,6 @@ workbook.Save("output_custom.xlsx");
 ```
 
 ## **小结**
-
 这三种情形仅在 `SetSubtotals` 调用上存在差异；其余部分——数据集、字段以及它们被分配到的区域——均完全相同，这使得各布局之间可直接进行对比。
 - **字段放置**：`PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` 用于将源列移入某一区域。在单一区域中，各调用的顺序即为显示顺序，因此首次调用将形成最外层的分组。计算 subtotal 需要同一区域中至少存在两个字段：若仅有一个字段，则组间无任何项目可供计算 subtotal。
 - **情形 1——自动subtotal**：若未调用 `SetSubtotals`，则交由 Excel 自行决定，其将对数值字段应用默认的 subtotal 设置；调用 `SetSubtotals` 并传入 `PivotFieldSubtotalType.Automatic` 则显式记录该默认行为，而非以隐式方式保留。
@@ -212,9 +208,10 @@ workbook.Save("output_custom.xlsx");
 {{% alert color="primary" %}}
 subtotal 相关设置并非仅限于行区域。对从 `PivotTable.ColumnFields` 获取的字段执行相同的 `SetSubtotals` 调用，可在列轴上生成相同的三种布局，因为该设置属于数据透视字段本身，而非其所处的轴。
 {{% /alert %}}
-## **相关文章**
 
+## **相关文章**
 - [数据透视表中的页字段](/cells/zh/net/add-page-field-in-pivot-table/)
 - [在 Aspose.Cells for .NET 中刷新数据透视表](/cells/zh/net/refresh-pivot-table/)
 - [为数据透视表应用样式](/cells/zh/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

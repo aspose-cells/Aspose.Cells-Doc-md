@@ -1,7 +1,7 @@
 ---
 title: Aggiungere campi di riga e colonna a una tabella pivot in Aspose.Cells for Node.js via C++
 linktitle: Aggiungere campi di riga e colonna a una tabella pivot
-description: Scopri come aggiungere campi di base alle aree delle righe e delle colonne di una tabella pivot e controllare i subtotali dei campi pivot utilizzando PivotField.SetSubtotals in Aspose.Cells for Node.js via C++
+description: Scopri come aggiungere campi di base alle aree delle righe e delle colonne di una tabella pivot e controllare i subtotali dei campi pivot utilizzando PivotField.setSubtotals in Aspose.Cells for Node.js via C++
 keywords: Aspose.Cells, Node.js, C++, tabella pivot, campo di riga, campo di colonna, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotali
 type: docs
 weight: 220
@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -121,8 +120,7 @@ for (let i = 0; i < data.length; i++) {
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+const pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -178,8 +176,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -192,7 +189,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Riepilogo**
-
 I tre scenari differiscono in un unico aspetto: le chiamate a `setSubtotals`. Tutto il resto — il set di dati, i campi e le aree a cui vengono assegnati — è identico, il che rende i layout direttamente confrontabili.
 - **Posizionamento dei campi.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` sposta una colonna di origine in una regione. All'interno di una stessa regione, l’ordine delle chiamate determina l’ordine di visualizzazione, pertanto la prima chiamata corrisponde al gruppo esterno più esteso. Per calcolare le subtotali servono due o più campi nella stessa regione: con un unico campo non esiste alcun elemento tra i gruppi su cui calcolare le subtotali.
 - **Scenario 1 — subtotali automatiche.** Non chiamare `setSubtotals` lascia la scelta a Excel, che applica la propria subtotals predefinita ai campi numerici. Chiamare `setSubtotals` con `AsposeCells.PivotFieldSubtotalType.Automatic` registra esplicitamente tale scelta, invece di lasciarla implicita.
@@ -202,6 +198,7 @@ I tre scenari differiscono in un unico aspetto: le chiamate a `setSubtotals`. Tu
 {{% alert color="primary" %}}
 Nulla riguardo le subtotali è specifico per la regione riga. Le stesse chiamate a `setSubtotals` su un campo estratto da `PivotTable.ColumnFields` producono gli stessi tre layout sull’asse delle colonne, poiché l’impostazione appartiene al campo pivot e non all’asse su cui è posizionato.
 {{% /alert %}}
+
 ## **Articoli correlati**
 - [Campi di pagina nelle tabelle pivot](/cells/it/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Aggiornamento delle tabelle pivot in Aspose.Cells for Node.js via C++](/cells/it/nodejs-cpp/refresh-pivot-table/)

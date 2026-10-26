@@ -84,8 +84,7 @@ worksheet.Cells[8, 0].PutValue("Vegetable");
 worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -128,8 +127,7 @@ for (int i = 0; i < data.GetLength(0); i++)
         worksheet.Cells[i + 1, j].PutValue(data[i, j]);
     }
 }
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -187,8 +185,7 @@ worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
 PivotTableCollection pivotTables = worksheet.PivotTables;
-int pivotIndex = pivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables[pivotIndex];
+PivotTable pivotTable = pivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -201,7 +198,6 @@ workbook.Save("output_custom.xlsx");
 ```
 
 ## **Zusammenfassung**
-
 Die drei Szenarien unterscheiden sich lediglich in den Aufrufen von `SetSubtotals`. Alles andere – der Datensatz, die Felder und die Bereiche, denen sie zugewiesen sind – ist identisch, was die Layouts direkt miteinander vergleichbar macht.
 - **Felder platzieren.** `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` verschiebt eine Quellspalte in einen Bereich. Innerhalb eines Bereichs bestimmt die Reihenfolge der Aufrufe die Anzeigereihenfolge, sodass der erste Aufruf die äußerste Gruppe bildet. Zwischengruppenüberschriften erfordern zwei oder mehr Felder im selben Bereich: bei einem einzelnen Feld gibt es zwischen den Gruppen nichts, für das eine Zwischensumme gebildet werden könnte.
 - **Szenario 1 – automatische Zwischensummen.** Das Auslassen von `SetSubtotals` überlässt die Entscheidung Excel, das dann seine eigene Standard-Zwischensumme für numerische Felder anwendet. Ein Aufruf von `SetSubtotals` mit `PivotFieldSubtotalType.Automatic` dokumentiert diese Auswahl explizit, anstatt sie implizit zu belassen.
@@ -211,6 +207,7 @@ Die drei Szenarien unterscheiden sich lediglich in den Aufrufen von `SetSubtotal
 {{% alert color="primary" %}}
 Nichts an den Zwischensummen ist auf den Zeilenbereich beschränkt. Die gleichen Aufrufe von `SetSubtotals` für ein Feld, das aus `PivotTable.ColumnFields` stammt, erzeugen dieselben drei Layouts entlang der Spaltenachse, da die Einstellung zum Pivot-Feld selbst gehört und nicht zur Achse, auf der es platziert ist.
 {{% /alert %}}
+
 ## **Verwandte Artikel**
 - [Seitenfelder in Pivot-Tabellen](/cells/de/net/add-page-field-in-pivot-table/)
 - [Pivot-Tabellen in Aspose.Cells for .NET aktualisieren](/cells/de/net/refresh-pivot-table/)

@@ -1,7 +1,7 @@
 ---
 title: 在 Aspose.Cells for Node.js via C++ 中添加数据透视表行字段和列字段
 linktitle: 在 Aspose.Cells for Node.js via C++ 中添加数据透视表行字段和列字段
-description: 了解如何使用 PivotField.SetSubtotals 在 Aspose.Cells for Node.js via C++ 中将基础字段添加到数据透视表的行区域和列区域，并控制数据透视字段的小计。
+description: 了解如何使用 PivotField.setSubtotals 在 Aspose.Cells for Node.js via C++ 中将基础字段添加到数据透视表的行区域和列区域，并控制数据透视字段的小计。
 keywords: Aspose.Cells, Node.js, C++, 数据透视表, 行字段, 列字段, PivotField, SetSubtotals, PivotFieldSubtotalType, 小计
 type: docs
 weight: 220
@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -121,8 +120,7 @@ for (let i = 0; i < data.length; i++) {
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+const pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -178,8 +176,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -192,7 +189,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **总结**
-
 这三种场景仅有一处不同：setSubtotals 调用。其余所有内容——数据集、字段及其所属区域——完全相同，因此这些布局可以直接比较。
 - **放置字段。** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` 将源列移入某个区域。在同一区域内，调用顺序就是显示顺序，因此第一次调用会成为最外层组。子汇总需要同一区域内有两个或更多字段：如果只有一个字段，组与组之间就没有可汇总的内容。
 - **方案 1 — 自动子汇总。** 不调用 setSubtotals 会将选择权交给 Excel，由 Excel 对数值字段应用其默认子汇总。使用 `AsposeCells.PivotFieldSubtotalType.Automatic` 调用 setSubtotals 会明确记录该选择，而不是让其保持隐式状态。
@@ -202,6 +198,7 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 子汇总的任何行为都不是行区域所特有的。对取自 `PivotTable.ColumnFields` 的字段执行相同的 setSubtotals 调用，也会在列轴上生成相同的三种布局，因为该设置属于数据透视字段，而不是字段所在的轴。
 {{% /alert %}}
+
 ## **相关文章**
 - [数据透视表中的页字段](/cells/zh/nodejs-cpp/add-page-field-in-pivot-table/)
 - [在 Aspose.Cells for Node.js via C++ 中刷新数据透视表](/cells/zh/nodejs-cpp/refresh-pivot-table/)

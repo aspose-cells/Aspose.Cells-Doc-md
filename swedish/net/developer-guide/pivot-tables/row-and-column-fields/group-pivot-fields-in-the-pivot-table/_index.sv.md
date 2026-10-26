@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Den parameterlösa överlagringen `PivotField.Group()` inspekterar fältets datatyp och grupperar det automatiskt. Ett fält som endast innehåller datum (och tomma celler) grupperas efter månader. Ett fält som endast innehåller tal (och tomma celler) grupperas i numeriska intervall med ett automatiskt intervall.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Ladda exempelarbetsboken
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Öppna det andra kalkylbladet och dess pivottabell
@@ -40,6 +41,7 @@ Följande exempel grupperar exempelpivottabellens datumradfält efter månader o
 Observera att ordningen på värdena i `options.GroupTypes` ignoreras. Oavsett i vilken ordning grupptyperna listas visas de grupperade fälten alltid från den största perioden till den minsta: år, kvartal, månader, dagar, timmar, minuter, sekunder. I detta exempel listas månaderna före kvartalen i `options.GroupTypes`, men kvartalen visas som den yttre nivån och månaderna som den inre nivån.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Ladda exempelarbetsboken
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Öppna det andra kalkylbladet och dess pivottabell
@@ -61,6 +63,7 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 `FieldTwo` i exempelpivottabellen är från början ett datafält (värdefält). Eftersom endast rad- eller kolumnfält kan grupperas anropar koden först `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")` för att flytta `FieldTwo` till radområdet, uppdaterar pivottabellen och grupperar sedan det numeriska fältet i intervallen 0–1, 2–3 och 4–5 med `StartNumber = 0`, `EndNumber = 5` och `Interval = 2`.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Ladda exempelarbetsboken
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Åtkomst till det andra kalkylbladet och dess pivottabell

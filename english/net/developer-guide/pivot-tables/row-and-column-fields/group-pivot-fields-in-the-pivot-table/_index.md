@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 The parameterless `PivotField.Group()` overload inspects the data type of the field and groups it automatically. A field that contains only dates (and blanks) is grouped by months. A field that contains only numbers (and blanks) is grouped into numeric ranges using an automatic interval.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Access the second worksheet and its pivot table
@@ -40,6 +41,7 @@ The following example groups the date row field of the sample pivot table by mon
 Note that the order of the values in `options.GroupTypes` is ignored. No matter in which order the group types are listed, the grouped fields are always displayed from the largest period to the smallest: years, quarters, months, days, hours, minutes, seconds. In this example the months are listed before the quarters in `options.GroupTypes`, yet the quarters are displayed as the outer level and the months as the inner level.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Access the second worksheet and its pivot table
@@ -61,6 +63,7 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 `FieldTwo` of the sample pivot table is initially a data (value) field. Because only row or column fields can be grouped, the code first calls `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")` to move `FieldTwo` to the row area, refreshes the pivot, then groups the numeric field into the ranges 0-1, 2-3 and 4-5 using `StartNumber = 0`, `EndNumber = 5` and `Interval = 2`.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Access the second worksheet and its pivot table

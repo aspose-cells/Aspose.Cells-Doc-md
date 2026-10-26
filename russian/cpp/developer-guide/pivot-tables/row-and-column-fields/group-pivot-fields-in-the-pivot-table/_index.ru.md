@@ -61,7 +61,7 @@ int main() {
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
     // Установить типы групп: Месяцы и Кварталы
-    ArrayPtr<PivotGroupByType> groupTypes = ArrayPtr<PivotGroupByType>(new PivotGroupByType[2]{ PivotGroupByType::Months, PivotGroupByType::Quarters });
+    Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
     // Применить группировку к первому полю строки
     PivotField rowField = pt.GetRowFields().Get(0);

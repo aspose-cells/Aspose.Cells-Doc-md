@@ -1,7 +1,7 @@
 ---
 title: Applica stili alle tabelle pivot in Aspose.Cells for Python via Java
 linktitle: Applica stili alle tabelle pivot
-description: Impara come applicare stili predefiniti e personalizzati alle tabelle pivot in Aspose.Cells for Python via Java, trattando i formati automatici legacy XLS, gli stili denominati moderni di Excel 2007+, gli stili personalizzati di tabella pivot e la scorciatoia FormatAll.
+description: Impara come applicare stili predefiniti e personalizzati alle tabelle pivot in Aspose.Cells for Python via Java, trattando i formati automatici legacy XLS, gli stili denominati moderni di Excel 2007+, gli stili personalizzati di tabella pivot e la scorciatoia formatAll.
 keywords: Aspose.Cells Python via Java stile tabella pivot, PivotTableStyleType, AutoFormatType, FormatAll, stile personalizzato, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -73,9 +73,8 @@ sheet.getCells().get(8, 2).putValue(45)
 sheet.getCells().get(9, 0).putValue("grape")
 sheet.getCells().get(9, 1).putValue(2020)
 sheet.getCells().get(9, 2).putValue(45)
-# Aggiungi una tabella pivot nella cella di destinazione E3, denominata "Pivot1", usando l'intervallo di origine A1:C10
-pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = sheet.getPivotTables().get(pivotIndex)
+# Aggiungi una tabella pivot nella cella di destinazione E3, denominata, usando l'intervallo di origine A1:C10
+pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4)
 # Assegna i campi: Fruit -> Righe, Amount -> Dati
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -90,7 +89,6 @@ jpype.shutdownJVM()
 ```
 
 ## **Applica uno stile di tabella pivot predefinito denominato moderno**
-
 `pivotTable.setPivotTableStyleType(int)` seleziona uno degli stili predefiniti denominati introdotti da Excel 2007 per le tabelle pivot. L'enumerazione `PivotTableStyleType` espone tre famiglie di temi: la famiglia chiara, da `PIVOT_TABLE_STYLE_LIGHT1` a `PIVOT_TABLE_STYLE_LIGHT28`, la famiglia media, da `PIVOT_TABLE_STYLE_MEDIUM1` a `PIVOT_TABLE_STYLE_MEDIUM28` e la famiglia scura, da `PIVOT_TABLE_STYLE_DARK1` a `PIVOT_TABLE_STYLE_DARK_28`. Definisce inoltre `None` e `Custom`. I membri con numerazione più elevata di ciascuna famiglia sono gli stili aggiunti in Excel 2017.
 Questi preset sono di sola lettura. Non appena è necessario modificare colori, bordi o font oltre a quanto offerto da un preset, è necessario definire uno stile pivot personalizzato, come illustrato in [Scenario 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -142,9 +140,8 @@ worksheet.getCells().get("C9").putValue(190)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add a pivot table at E3, sourced from A1:C10
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -159,6 +156,7 @@ pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1)
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
+
 ## **Definisci e applica uno stile personalizzato di tabella pivot**
 I preset predefiniti non possono essere modificati. Ogni volta che hai bisogno di sovrascrivere colori, bordi o font, devi definire uno stile personalizzato per la tabella pivot. Il flusso di lavoro prevede tre passaggi:
 1. Aggiungi uno stile personalizzato alla raccolta `TableStyles` della cartella di lavoro tramite `workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)`. Questo restituisce l'indice dello stile appena creato.
@@ -212,9 +210,8 @@ worksheet.getCells().get("C9").putValue(800)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(900)
-# Aggiungi una tabella pivot con origine A1:C10, ancorata in E3, denominata "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Aggiungi una tabella pivot con origine A1:C10, ancorata in E3, denominata
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -300,9 +297,8 @@ worksheet.getCells().get("C9").putValue(2500)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(5500)
-# Aggiungi tabella pivot: intervallo sorgente A1:C10, cella di destinazione E3, nome "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Aggiungi tabella pivot: intervallo sorgente A1:C10, cella di destinazione E3, nome
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Assegna campi pivot: Frutta -> area Riga, Anno -> area Colonna, Importo -> area Dati
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -338,6 +334,5 @@ La scelta dell'API di stile dipende dal formato di file con cui stai salvando. U
 | `.xlsx` / `.xlsm` / `.xlsb` (moderno, stile personalizzato) | `pivotTable.setPivotTableStyleName(String)` + `tableStyles.addPivotTableStyle(String)` | Da usare quando i preset predefiniti non sono sufficienti. Configura tramite `tableStyleElement.setElementStyle(Style)`. |
 | Qualsiasi formato (sovrascrittura uniforme) | `pivotTable.formatAll(Style)` | Scorciatoia che sovrascrive ogni altra impostazione di stile nell'intera tabella pivot. |
 In caso di dubbio, salva come `.xlsx` e usa `setPivotTableStyleType` per i temi predefiniti oppure `setPivotTableStyleName` per i temi personalizzati.
-
 
 {{< app/cells/assistant language="python" >}}

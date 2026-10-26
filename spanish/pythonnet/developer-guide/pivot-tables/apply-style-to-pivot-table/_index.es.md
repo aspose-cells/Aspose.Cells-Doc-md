@@ -1,6 +1,6 @@
 ---
 title: Aplicar estilos a tablas dinámicas en Aspose.Cells for Python via .NET
-description: Aprenda a aplicar estilos integrados y personalizados a tablas dinámicas en Aspose.Cells for Python via .NET, abarcando autoformatos heredados de XLS, estilos con nombre modernos de Excel 2007+, estilos personalizados para tablas dinámicas y el atajo FormatAll.
+description: Aprenda a aplicar estilos integrados y personalizados a tablas dinámicas en Aspose.Cells for Python via .NET, abarcando autoformatos heredados de XLS, estilos con nombre modernos de Excel 2007+, estilos personalizados para tablas dinámicas y el atajo _format_all.
 linktitle: Aplicar estilos a tablas dinámicas
 keywords: Aspose.Cells Python via .NET estilo de tabla dinámica, PivotTableStyleType, AutoFormatType, FormatAll, estilo personalizado, PivotTableStyleName, TableStyles
 type: docs
@@ -72,9 +72,8 @@ sheet.cells.get(8, 2).put_value(45)
 sheet.cells.get(9, 0).put_value("grape")
 sheet.cells.get(9, 1).put_value(2020)
 sheet.cells.get(9, 2).put_value(45)
-# Agregar una tabla dinámica en la celda de destino E3, llamada "Pivot1", usando el rango de origen A1:C10
-pivot_index = sheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = sheet.pivot_tables[pivot_index]
+# Agregar una tabla dinámica en la celda de destino E3, llamada, usando el rango de origen A1:C10
+pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
 # Asignar campos: Fruta -> Filas, Cantidad -> Datos
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -88,7 +87,6 @@ workbook.save("output.xls")
 ```
 
 ## **Aplicar un estilo de tabla dinámica preestablecido moderno con nombre**
-
 `pivot_table.pivot_table_style_type` selecciona uno de los estilos predefinidos con nombre que Excel 2007 introdujo para tablas dinámicas. La enumeración `PivotTableStyleType` expone tres familias de temas: la familia clara, desde `PIVOT_TABLE_STYLE_LIGHT1` hasta `PIVOT_TABLE_STYLE_LIGHT28`; la familia media, desde `PIVOT_TABLE_STYLE_MEDIUM1` hasta `PIVOT_TABLE_STYLE_MEDIUM28`; y la familia oscura, desde `PIVOT_TABLE_STYLE_DARK1` hasta `PIVOT_TABLE_STYLE_DARK28`. Además, define los valores `None` y `Custom`. Los miembros numerados más altamente de cada familia corresponden a los estilos añadidos en Excel 2017.
 Estas predefiniciones son de solo lectura. En cuanto necesite cambiar colores, bordes o fuentes más allá de lo que una predefinición ofrece, debe definir un estilo de tabla dinámica personalizado, como se muestra en [Escenario 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -139,9 +137,8 @@ worksheet.cells.get("C9").put_value(190)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Add a pivot table at E3, sourced from A1:C10
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -155,6 +152,7 @@ pivot_table.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_DARK1
 # Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx")
 ```
+
 ## **Definir y aplicar un estilo personalizado de tabla dinámica**
 Los preajustes integrados no se pueden modificar. Siempre que necesite anular colores, bordes o fuentes, debe definir un estilo personalizado para tablas dinámicas. El flujo de trabajo consta de tres pasos:
 1. Añada un estilo personalizado a la colección `table_styles` del libro mediante `workbook.worksheets.table_styles.add_pivot_table_style(name)`. Esto devuelve el índice del estilo recién creado.
@@ -205,9 +203,8 @@ worksheet.cells.get("C9").put_value(800)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(900)
-# Agregar tabla dinámica desde A1:C10, anclada en E3, llamada "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Agregar tabla dinámica desde A1:C10, anclada en E3, llamada
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -289,9 +286,8 @@ worksheet.cells.get("C9").put_value(2500)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(5500)
-# Agregar tabla dinámica: rango de origen A1:C10, celda de destino E3, nombre "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Agregar tabla dinámica: rango de origen A1:C10, celda de destino E3, nombre
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Asignar campos de tabla dinámica: Fruit -> área de Fila, Year -> área de Columna, Amount -> área de Datos
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -326,6 +322,5 @@ La elección de la API de estilos depende del formato de archivo en el que está
 | `.xlsx` / `.xlsm` / `.xlsb` (moderno, estilo personalizado) | `PivotTable.pivot_table_style_name` + `worksheets.table_styles.add_pivot_table_style(...)` | Úselo cuando los preajustes integrados no sean suficientes. Configúrelo mediante `table_style_element.set_element_style(...)`. |
 | Cualquier formato (anulación uniforme) | `PivotTable.format_all(Style)` | Atajo que anula cualquier otra configuración de estilo en toda la tabla dinámica. |
 En caso de duda, guarde como `.xlsx` y use `pivot_table_style_type` para los temas integrados, o `pivot_table_style_name` para los temas personalizados.
-
 
 {{< app/cells/assistant language="python-net" >}}

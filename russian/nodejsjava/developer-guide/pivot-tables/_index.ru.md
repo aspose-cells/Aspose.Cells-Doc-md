@@ -1,130 +1,92 @@
 ---
 title: Вставка сводной таблицы
-description: Создание и форматирование сводных таблиц в файлах электронных таблиц Excel с помощью Aspose.Cells для Node.js через Java.
-linktitle: Сводные таблицы
-url: /ru/nodejs-java/create-pivot-table/
+linktitle: Вставка сводной таблицы
+description: Создавайте и форматируйте сводные таблицы для файлов электронных таблиц Excel с помощью Aspose.Cells for Node.js via Java.
+keywords: Создание сводной таблицы, Вставка сводной таблицы, Форматирование сводной таблицы, Aspose.Cells for Node.js via Java.
 type: docs
 weight: 160
-keywords: Создать сводную таблицу, Вставить сводную таблицу, Форматировать сводную таблицу, Aspose.Cells для Node.js через Java.
+url: /ru/nodejs-java/create-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Создание сводной таблицы**
-С помощью Aspose.Cells можно программно добавлять сводные таблицы в электронные таблицы.
+## **Что такое сводная таблица?**
+Сводная таблица — это интерактивный сводный отчёт, который преобразует большой массив необработанных данных, представленных в виде строк, в компактную матрицу без единой формулы. Вы выбираете, какие столбцы станут метками строк, какие — метками столбцов, а какие будут агрегироваться как значения; сводная таблица выполняет группировку и вычисления:
+- **Обобщение** — итоговые объёмы продаж по продуктам, регионам или кварталам вместо длинных цепочек формул.
+- **Сравнение** — категории в строках и периоды в столбцах превращают плоский список в перекрёстный отчёт, в котором тенденции видны наглядно.
+- **Детализация** — дважды щёлкните по любому итоговому значению, чтобы просмотреть соответствующие исходные строки.
+- **Обновление** — если исходные данные изменились, одно обновление пересчитывает весь отчёт.
+Типичные сценарии — дашборды продаж, разбиение расходов и анализ запасов, а также любые вопросы вида «как разбиваются эти числа по категориям и времени?». Aspose.Cells for Node.js via Java программно создаёт аналогичные сводные таблицы, поэтому рабочие книги, создаваемые вашим приложением, могут содержать готовые отчёты, а не только необработанные данные.
 
-### **Объектная модель сводной таблицы**
-Aspose.Cells предоставляет набор классов, используемых для создания сводных таблиц и управления ими. Основные строительные блоки:
+### **Модель объектов сводной таблицы**
+Aspose.Cells предоставляет набор классов, используемых для создания сводных таблиц и управления ими. Основные элементы:
 - `PivotField` представляет поле в `PivotTable`.
 - `PivotFieldCollection` представляет коллекцию всех объектов `PivotField` в `PivotTable`.
-- `PivotTable` представляет сводную таблицу на листе.
-- `PivotTableCollection` представляет коллекцию всех объектов `PivotTable` на листе.
+- `PivotTable` представляет сводную таблицу на рабочем листе.
+- `PivotTableCollection` представляет коллекцию всех объектов `PivotTable` на рабочем листе.
 
 ### **Создание простой сводной таблицы с помощью Aspose.Cells**
-1. Добавьте данные на лист с помощью метода `putValue` ячейки. Эти данные будут использоваться в качестве источника данных сводной таблицы.
-2. Добавьте сводную таблицу на лист, вызвав метод `add` коллекции `PivotTables`, инкапсулированной в объекте листа.
-3. Получите доступ к новому объекту `PivotTable` из коллекции `PivotTables`, передав индекс сводной таблицы.
-4. Используйте любой из объектов `PivotTable` (описанных выше) для управления сводной таблицей.
-После выполнения примера кода сводная таблица добавляется на лист.
+Создание сводной таблицы выполняется в три этапа: запись исходных данных в ячейки рабочего листа, добавление сводной таблицы в указанное место и размещение полей сводной таблицы в областях строк, столбцов и данных.
+1. Добавьте данные в рабочий лист с помощью метода `putValue` ячейки. Эти данные будут использоваться в качестве источника данных сводной таблицы.
+2. Добавьте сводную таблицу в рабочий лист с помощью метода `add` коллекции `PivotTables`: `add(sourceData, row, column)`. `sourceData` — исходный диапазон (например, "A1:C8"); `row` и `column` — координаты целевой ячейки в левом верхнем углу сводной таблицы (нумерация начинается с нуля; ячейка E3 соответствует строке 2 и столбцу 4). Метод непосредственно возвращает новый объект `PivotTable`.
+3. Разместите поля сводной таблицы с помощью метода `addFieldToArea` объекта `PivotTable`: имя поля передаётся в область строк (`PivotFieldType.ROW`), в область столбцов (`PivotFieldType.COLUMN`) или в область данных (`PivotFieldType.DATA`).
+4. Сохраните рабочую книгу — сводная таблица будет записана в сохранённый файл.
+После выполнения примера кода в рабочий лист добавляется сводная таблица.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-var dataDir = "./";
 
-// Instantiating a Workbook object
-var workbook = new AsposeCells.Workbook();
+// Создайте новую книгу и получите первый рабочий лист
+let workbook = new AsposeCells.Workbook();
+let sheet = workbook.getWorksheets().get(0);
 
-// Obtaining the reference of the newly added worksheet
-var sheet = workbook.getWorksheets().get(0);
+// Запишите исходные данные: продажи по видам спорта и кварталам
+sheet.getCells().get("A1").putValue("Sport");
+sheet.getCells().get("B1").putValue("Quarter");
+sheet.getCells().get("C1").putValue("Sales");
+sheet.getCells().get("A2").putValue("Golf");
+sheet.getCells().get("B2").putValue("Qtr3");
+sheet.getCells().get("C2").putValue(1500);
+sheet.getCells().get("A3").putValue("Golf");
+sheet.getCells().get("B3").putValue("Qtr4");
+sheet.getCells().get("C3").putValue(2000);
+sheet.getCells().get("A4").putValue("Tennis");
+sheet.getCells().get("B4").putValue("Qtr3");
+sheet.getCells().get("C4").putValue(600);
+sheet.getCells().get("A5").putValue("Tennis");
+sheet.getCells().get("B5").putValue("Qtr4");
+sheet.getCells().get("C5").putValue(1500);
+sheet.getCells().get("A6").putValue("Tennis");
+sheet.getCells().get("B6").putValue("Qtr3");
+sheet.getCells().get("C6").putValue(4070);
+sheet.getCells().get("A7").putValue("Tennis");
+sheet.getCells().get("B7").putValue("Qtr4");
+sheet.getCells().get("C7").putValue(5000);
+sheet.getCells().get("A8").putValue("Golf");
+sheet.getCells().get("B8").putValue("Qtr3");
+sheet.getCells().get("C8").putValue(6430);
 
-var cells = sheet.getCells();
+// Добавьте сводную таблицу в ячейку назначения E3 с источником данных A1:C8
+let pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
 
-// Setting the value to the cells
-var cell = cells.get("A1");
-cell.putValue("Sport");
-cell = cells.get("B1");
-cell.putValue("Quarter");
-cell = cells.get("C1");
-cell.putValue("Sales");
+// Назначьте поля сводной таблицы: Sport для строк, Quarter для столбцов, Sales для данных
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Sport");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Quarter");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Sales");
 
-cell = cells.get("A2");
-cell.putValue("Golf");
-cell = cells.get("A3");
-cell.putValue("Golf");
-cell = cells.get("A4");
-cell.putValue("Tennis");
-cell = cells.get("A5");
-cell.putValue("Tennis");
-cell = cells.get("A6");
-cell.putValue("Tennis");
-cell = cells.get("A7");
-cell.putValue("Tennis");
-cell = cells.get("A8");
-cell.putValue("Golf");
-
-cell = cells.get("B2");
-cell.putValue("Qtr3");
-cell = cells.get("B3");
-cell.putValue("Qtr4");
-cell = cells.get("B4");
-cell.putValue("Qtr3");
-cell = cells.get("B5");
-cell.putValue("Qtr4");
-cell = cells.get("B6");
-cell.putValue("Qtr3");
-cell = cells.get("B7");
-cell.putValue("Qtr4");
-cell = cells.get("B8");
-cell.putValue("Qtr3");
-
-cell = cells.get("C2");
-cell.putValue(1500);
-cell = cells.get("C3");
-cell.putValue(2000);
-cell = cells.get("C4");
-cell.putValue(600);
-cell = cells.get("C5");
-cell.putValue(1500);
-cell = cells.get("C6");
-cell.putValue(4070);
-cell = cells.get("C7");
-cell.putValue(5000);
-cell = cells.get("C8");
-cell.putValue(6430);
-
-var pivotTables = sheet.getPivotTables();
-
-// Adding a PivotTable to the worksheet
-var index = pivotTables.add("=A1:C8", "E3", "PivotTable2");
-
-// Accessing the instance of the newly added PivotTable
-var pivotTable = pivotTables.get(index);
-
-// Unshowing grand totals for rows.
-pivotTable.setRowGrand(false);
-
-// Draging the first field to the row area.
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
-
-// Draging the second field to the column area.
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, 1);
-
-// Draging the third field to the data area.
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 2);
-
-// Saving the Excel file
-workbook.save(dataDir + "pivotTable_test_out.xls");
+// Сохраните книгу
+workbook.save("pivotTable_test_out.xlsx");
 ```
 
 {{% alert color="primary" %}}
-При назначении диапазона ячеек в качестве источника данных диапазон должен идти от верхнего левого угла к нижнему правому. Например, "A1:C3" допустимо, но "C3:A1" — нет.
+При назначении диапазона ячеек в качестве источника данных диапазон должен располагаться от верхней левой ячейки до нижней правой. Например, "A1:C3" допустим, а "C3:A1" — нет.
 {{% /alert %}}
 
 ## Связанные статьи
-- [Добавить поля фильтров в сводную таблицу в Aspose.Cells для .NET](/cells/ru/nodejs-java/add-page-field-in-pivot-table/)
-- [Применение стилей к сводным таблицам в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/apply-style-to-pivot-table/)
-- [Modify Page Field Layout in Pivot Table](/cells/ru/nodejs-java/change-page-field-layout/)
-- [Filtering Pivot Tables by Label or Value](/cells/ru/nodejs-java/filter-by-label-or-value-of-pivot-table/)
-- [Управление полями значений сводной таблицы в Aspose.Cells для .NET](/cells/ru/nodejs-java/manage-value-fields/)
+- [Добавление полей фильтрации в сводную таблицу с помощью Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/add-page-field-in-pivot-table/)
+- [Применение стилей к сводным таблицам с помощью Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/apply-style-to-pivot-table/)
+- [Изменение макета поля страницы в сводной таблице](/cells/ru/nodejs-java/change-page-field-layout/)
+- [Фильтрация сводных таблиц по метке или значению](/cells/ru/nodejs-java/filter-by-label-or-value-of-pivot-table/)
+- [Управление полями значений сводной таблицы с помощью Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/manage-value-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

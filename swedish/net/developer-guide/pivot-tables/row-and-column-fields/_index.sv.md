@@ -84,8 +84,7 @@ worksheet.Cells[8, 0].PutValue("Vegetable");
 worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -128,8 +127,7 @@ for (int i = 0; i < data.GetLength(0); i++)
         worksheet.Cells[i + 1, j].PutValue(data[i, j]);
     }
 }
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -187,8 +185,7 @@ worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
 PivotTableCollection pivotTables = worksheet.PivotTables;
-int pivotIndex = pivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables[pivotIndex];
+PivotTable pivotTable = pivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -201,7 +198,6 @@ workbook.Save("output_custom.xlsx");
 ```
 
 ## **Sammanfattning**
-
 De tre scenario skiljer sig i en enda sak: `SetSubtotals`-anropen. Allt annat — datasetet, fälten och de områden de tilldelas till — är identiskt, vilket gör att layouterna kan jämföras direkt.
 - **Placering av fält.** `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` flyttar en källkolumn till ett område. Inom ett och samma område är anropsordningen den visuella ordningen, så det första anropet blir den yttre gruppen. Subtotaler kräver två eller fler fält i samma område: med ett enda fält finns det inget mellan grupperna att summera.
 - **Scenario 1 — automatiska subtotaler.** Om `SetSubtotals` inte anropas lämnas valet till Excel, som tillämpar sin egen standardsubtotale för numeriska fält. Genom att anropa `SetSubtotals` med `PivotFieldSubtotalType.Automatic` registreras detta val explicit istället för att lämna det implicit.
@@ -211,6 +207,7 @@ De tre scenario skiljer sig i en enda sak: `SetSubtotals`-anropen. Allt annat �
 {{% alert color="primary" %}}
 Inget i subtotalfrågan är specifikt för radområdet. Samma `SetSubtotals`-anrop på ett fält hämtat från `PivotTable.ColumnFields` producerar samma tre layouter på_axeln, eftersom inställningen hör till pivottabellsfältet och inte till axeln det sitter på.
 {{% /alert %}}
+
 ## **Relaterade artiklar**
 - [Sidfält i pivottabeller](/cells/sv/net/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells for .NET](/cells/sv/net/refresh-pivot-table/)

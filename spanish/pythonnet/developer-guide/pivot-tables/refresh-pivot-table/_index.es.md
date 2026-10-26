@@ -1,7 +1,7 @@
 ---
 title: Actualizar tablas dinámicas y cachés dinámicos en Aspose.Cells for Python via .NET
 linktitle: Actualizar tablas dinámicas y cachés dinámicos en Aspose.Cells for Python via .NET
-description: Aprenda a actualizar tablas dinámicas en Aspose.Cells for Python via .NET usando la API de actualización de tablas dinámicas v26.7+. Este artículo cubre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData y GetPivotTables con ejemplos prácticos de código.
+description: Aprenda a actualizar tablas dinámicas en Aspose.Cells for Python via .NET usando la API de actualización de tablas dinámicas v26.7+. Este artículo cubre refresh_all, _refresh_pivot_tables, PivotCache.refresh, _calculate_data y _get_pivot_tables con ejemplos prácticos de código.
 keywords: Aspose.Cells, Python via .NET, tabla dinámica, actualizar, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -87,9 +87,8 @@ worksheet.cells.get("C8").put_value(110)
 worksheet.cells.get("A9").put_value("cherry")
 worksheet.cells.get("B9").put_value(2021)
 worksheet.cells.get("C9").put_value(120)
-# Add a pivot table: source range "A1:C9", destination cell "E3", name "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Add a pivot table: source range "A1:C9", destination cell "E3"
+pivot_table = worksheet.pivot_tables.add("A1:C9", 2, 4)
 # Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -139,8 +138,7 @@ worksheet.cells.get("C8").put_value(220)
 worksheet.cells.get("A9").put_value("cherry")
 worksheet.cells.get("B9").put_value(2020)
 worksheet.cells.get("C9").put_value(140)
-pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:C9", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -195,9 +193,8 @@ worksheet.cells.get("C8").put_value(350)
 worksheet.cells.get("A9").put_value("Cherry")
 worksheet.cells.get("B9").put_value(2021)
 worksheet.cells.get("C9").put_value(450)
-# Add a pivot table named "Pivot1" placed at destination cell E3, sourcing from A1:C9
-pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Add a pivot table placed at destination cell E3, sourcing from A1:C9
+pivot_table = worksheet.pivot_tables.add("A1:C9", 2, 4)
 # Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivot_table.add_field_to_area(acp.PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(acp.PivotFieldType.COLUMN, "Year")

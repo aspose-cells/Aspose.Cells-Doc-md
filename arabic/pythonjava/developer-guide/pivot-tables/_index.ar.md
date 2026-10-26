@@ -1,31 +1,37 @@
 ---
-title: جداول الدوران
-description: إنشاء وتنسيق جداول الدوران في ملفات جداول البيانات في Excel.
-linktitle: جداول الدوران
-url: /ar/python-java/create-pivot-table/
+title: الجداول المحورية
+linktitle: الجداول المحورية
+description: إنشاء وتنسيق الجداول المحورية باستخدام Aspose.Cells for Python via Java.
+keywords: إنشاء جدول محوري, إدراج جدول محوري, تنسيق جدول محوري.
 type: docs
 weight: 160
-keywords: إنشاء جدول دوران، إدراج جدول دوران، تنسيق جدول دوران.
+url: /ar/python-java/create-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **إنشاء جدول محوري**
-من الممكن استخدام Aspose.Cells لإضافة جداول محورية إلى جداول البيانات برمجياً.
+## **ما هو الجدول المحوري؟**
+الجدول المحوري هو تقرير ملخص تفاعلي: يختصر مجموعة كبيرة من البيانات الخام المرتبة صفًا بصف في مصفوفة موجزة دون الحاجة إلى استخدام أي صيغة. تحدد أنت الأعمدة التي ستُستخدم كتسميات للصفوف، وتلك التي ستُستخدم كتسميات للأعمدة، وتلك التي ستُجمَّع كقيم — يتولى الجدول المحوري عملية التجميع والحساب:
+- **تلخيص** — إجمالي المبيعات لكل منتج أو منطقة أو ربع بدلًا من سلاسل الصيغ الطويلة.
+- **مقارنة** — وضع الفئات في الصفوف والفترات في الأعمدة يحوّل قائمة مسطحة إلى تقرير متقاطع تظهر فيه الاتجاهات بنظرة سريعة.
+- **الانتقال إلى التفاصيل** — انقر نقرًا مزدوجًا على أي قيمة ملخصة لفحص الصفوف المصدرية المرتبطة بها.
+- **تحديث** — عند تغيّر بيانات المصدر، تؤدي عملية تحديث واحدة إلى إعادة حساب التقرير بالكامل.
+تشمل السيناريوهات النموذجية لوحات معلومات المبيعات وتفصيل المصروفات وتحليل المخزون — أي سؤال من الشكل «كيف تُفصَّل هذه الأرقام حسب الفئة والوقت؟». يبني Aspose.Cells for Python via Java الجداول المحورية ذاتها برمجيًا، لذا يمكن أن تحمل المصنفات التي ينشئها تطبيقك تقارير جاهزة بدلاً من البيانات الخام فقط.
 
-### **نموذج كائنات الجدول المحوري**
-توفر Aspose.Cells مجموعة من الفئات المستخدمة لإنشاء الجداول المحورية والتحكم فيها. اللبنات الأساسية هي:
-- `PivotField` يمثل حقلاً في `PivotTable`.
-- `PivotFieldCollection` يمثل مجموعة من جميع كائنات `PivotField` في `PivotTable`.
-- `PivotTable` يمثل جدولاً محورياً في ورقة العمل.
-- `PivotTableCollection` يمثل مجموعة من جميع كائنات `PivotTable` في ورقة العمل.
+### **نموذج كائن الجدول المحوري**
+يوفر Aspose.Cells مجموعة من الفئات المستخدمة لإنشاء الجداول المحورية والتحكم فيها. العناصر الأساسية هي:
+- `PivotField` يمثل حقلًا في `PivotTable`.
+- `PivotFieldCollection` يمثل مجموعة جميع كائنات `PivotField` الموجودة في `PivotTable`.
+- `PivotTable` يمثل جدولًا محوريًا على ورقة عمل.
+- `PivotTableCollection` يمثل مجموعة جميع كائنات `PivotTable` الموجودة على ورقة عمل.
 
 ### **إنشاء جدول محوري بسيط باستخدام Aspose.Cells**
-1. أضف بيانات إلى ورقة العمل باستخدام طريقة `putValue` للخلية. سيتم استخدام هذه البيانات كمصدر بيانات للجدول المحوري.
-2. أضف جدولاً محورياً إلى ورقة العمل عن طريق استدعاء طريقة `add` لمجموعة `PivotTables` المغلفة داخل كائن ورقة العمل.
-3. قم بالوصول إلى كائن `PivotTable` الجديد من مجموعة `PivotTables` بتمرير فهرس الجدول المحوري.
-4. استخدم أياً من كائنات `PivotTable` (الموضحة أعلاه) لإدارة الجدول المحوري.
-بعد تنفيذ كود المثال، تتم إضافة جدول محوري إلى ورقة العمل.
+يتطلب إنشاء جدول محوري ثلاث خطوات: كتابة بيانات المصدر في خلايا ورقة العمل، وإضافة الجدول المحوري في موضع الوجهة، ووضع حقول الجدول المحوري في مناطق الصفوف والأعمدة والبيانات.
+1. أضف البيانات إلى ورقة العمل باستخدام طريقة `putValue` الخاصة بالخلية. ستُستخدم هذه البيانات بوصفها مصدر بيانات الجدول المحوري.
+2. أضف الجدول المحوري إلى ورقة العمل عن طريق استدعاء طريقة `add` الخاصة بمجموعة `PivotTables`: `add(sourceData, row, column)`. يمثل `sourceData` نطاق المصدر (على سبيل المثال، "A1:C8")، وتحدد `row` و`column` إحداثيات خلية الوجهة، بدءًا من الصفر، عند الركن العلوي الأيسر للجدول المحوري (الخلية E3 تعني الصف 2 والعمود 4). تُرجع الطريقة كائن `PivotTable` الجديد مباشرة.
+3. ضع حقول الجدول المحوري باستخدام طريقة `addFieldToArea` الخاصة بكائن `PivotTable`: يوضع اسم الحقل في منطقة الصفوف (`PivotFieldType.ROW`) أو منطقة الأعمدة (`PivotFieldType.COLUMN`) أو منطقة البيانات (`PivotFieldType.DATA`).
+4. احفظ المصنف — إذ يُكتب الجدول المحوري في الملف المحفوظ.
+بعد تنفيذ رمز المثال، تتم إضافة جدول محوري إلى ورقة العمل.
 
 ```python
 import jpype
@@ -33,83 +39,58 @@ import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType
 
-dataDir = "./"
+# إنشاء مصنف جديد والحصول على ورقة العمل الأولى
 workbook = Workbook()
 sheet = workbook.getWorksheets().get(0)
 cells = sheet.getCells()
 
-cell = cells.get("A1")
-cell.putValue("Sport")
-cell = cells.get("B1")
-cell.putValue("Quarter")
-cell = cells.get("C1")
-cell.putValue("Sales")
+# كتابة بيانات المصدر: المبيعات لكل رياضة وربع سنة
+cells.get("A1").putValue("Sport")
+cells.get("B1").putValue("Quarter")
+cells.get("C1").putValue("Sales")
+cells.get("A2").putValue("Golf")
+cells.get("B2").putValue("Qtr3")
+cells.get("C2").putValue(1500)
+cells.get("A3").putValue("Golf")
+cells.get("B3").putValue("Qtr4")
+cells.get("C3").putValue(2000)
+cells.get("A4").putValue("Tennis")
+cells.get("B4").putValue("Qtr3")
+cells.get("C4").putValue(600)
+cells.get("A5").putValue("Tennis")
+cells.get("B5").putValue("Qtr4")
+cells.get("C5").putValue(1500)
+cells.get("A6").putValue("Tennis")
+cells.get("B6").putValue("Qtr3")
+cells.get("C6").putValue(4070)
+cells.get("A7").putValue("Tennis")
+cells.get("B7").putValue("Qtr4")
+cells.get("C7").putValue(5000)
+cells.get("A8").putValue("Golf")
+cells.get("B8").putValue("Qtr3")
+cells.get("C8").putValue(6430)
 
-cell = cells.get("A2")
-cell.putValue("Golf")
-cell = cells.get("A3")
-cell.putValue("Golf")
-cell = cells.get("A4")
-cell.putValue("Tennis")
-cell = cells.get("A5")
-cell.putValue("Tennis")
-cell = cells.get("A6")
-cell.putValue("Tennis")
-cell = cells.get("A7")
-cell.putValue("Tennis")
-cell = cells.get("A8")
-cell.putValue("Golf")
+# إضافة جدول محوري في خلية الوجهة E3، مصدره A1:C8
+pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4)
 
-cell = cells.get("B2")
-cell.putValue("Qtr3")
-cell = cells.get("B3")
-cell.putValue("Qtr4")
-cell = cells.get("B4")
-cell.putValue("Qtr3")
-cell = cells.get("B5")
-cell.putValue("Qtr4")
-cell = cells.get("B6")
-cell.putValue("Qtr3")
-cell = cells.get("B7")
-cell.putValue("Qtr4")
-cell = cells.get("B8")
-cell.putValue("Qtr3")
+# تعيين حقول الجدول المحوري: Sport إلى الصفوف، Quarter إلى الأعمدة، Sales إلى البيانات
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Quarter")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales")
 
-cell = cells.get("C2")
-cell.putValue(1500)
-cell = cells.get("C3")
-cell.putValue(2000)
-cell = cells.get("C4")
-cell.putValue(600)
-cell = cells.get("C5")
-cell.putValue(1500)
-cell = cells.get("C6")
-cell.putValue(4070)
-cell = cells.get("C7")
-cell.putValue(5000)
-cell = cells.get("C8")
-cell.putValue(6430)
-
-pivotTables = sheet.getPivotTables()
-index = pivotTables.add("=A1:C8", "E3", "PivotTable2")
-pivotTable = pivotTables.get(index)
-pivotTable.setRowGrand(False)
-pivotTable.addFieldToArea(PivotFieldType.ROW, 0)
-pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1)
-pivotTable.addFieldToArea(PivotFieldType.DATA, 2)
-workbook.save(dataDir + "pivotTable_test_out.xls")
-jpype.shutdownJVM()
+# حفظ المصنف
+workbook.save("pivotTable_test_out.xlsx")
 ```
 
 {{% alert color="primary" %}}
-عند تعيين نطاق من الخلايا كمصدر بيانات، يجب أن يمتد النطاق من أعلى اليسار إلى أسفل اليمين. على سبيل المثال، "A1:C3" صالح ولكن "C3:A1" غير صالح.
+عند تعيين نطاق من الخلايا كمصدر للبيانات، يجب أن يمتد النطاق من أعلى اليسار إلى أسفل اليمين. على سبيل المثال، تُعد "A1:C3" صالحة، بينما تُعد "C3:A1" غير صالحة.
 {{% /alert %}}
 
 ## مقالات ذات صلة
-- [إضافة حقول التصفية إلى جدول محوري في Aspose.Cells لـ .NET](/cells/ar/python-java/add-page-field-in-pivot-table/)
+- [إضافة حقول تصفية إلى جدول محوري في Aspose.Cells for Python via Java](/cells/ar/python-java/add-page-field-in-pivot-table/)
 - [تطبيق الأنماط على الجداول المحورية في Aspose.Cells for Python via Java](/cells/ar/python-java/apply-style-to-pivot-table/)
-- [Modify Page Field Layout in Pivot Table](/cells/ar/python-java/change-page-field-layout/)
+- [تعديل تخطيط حقل الصفحة في الجدول المحوري](/cells/ar/python-java/change-page-field-layout/)
 - [تصفية الجداول المحورية حسب التسمية أو القيمة](/cells/ar/python-java/filter-by-label-or-value-of-pivot-table/)
-- [إدارة حقول قيم الجدول المحوري في Aspose.Cells for Python عبر Java](/cells/ar/python-java/manage-value-fields/)
+- [إدارة حقول قيم الجدول المحوري في Aspose.Cells for Python via Java](/cells/ar/python-java/manage-value-fields/)
 
 {{< app/cells/assistant language="python" >}}

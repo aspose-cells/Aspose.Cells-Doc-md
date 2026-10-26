@@ -86,8 +86,7 @@ int main() {
     worksheet.GetCells().Get(8, 1).PutValue(u"Daikon");
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -129,8 +128,7 @@ int main() {
         sheet.GetCells().Get(i + 1, 2).PutValue(years[i]);
         sheet.GetCells().Get(i + 1, 3).PutValue(amounts[i]);
     }
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -193,8 +191,7 @@ int main() {
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
     PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivotIndex = pivotTables.Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = pivotTables.Get(pivotIndex);
+    PivotTable pivotTable = pivotTables.Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -210,7 +207,6 @@ int main() {
 ```
 
 ## **ملخص**
-
 تختلف السيناريوهات الثلاثة في عنصر واحد فقط: استدعاءات `SetSubtotals`. أما باقي العناصر — مثل مجموعة البيانات، والحقول، والمناطق التي تُعيَّن إليها — فهي متطابقة تمامًا، وهذا ما يجعل التنسيقات قابلة للمقارنة المباشرة.
 - **وضع الحقول.** يقوم `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` بنقل عمود مصدر إلى منطقة. وداخل منطقة واحدة، يحدد ترتيب الاستدعاءات ترتيب العرض، لذا يصبح أول استدعاء هو المجموعة الخارجية. وتحتاج المبالغ الجزئية إلى حقلين أو أكثر داخل منطقة واحدة: فمع وجود حقل واحد لا توجد أي عناصر بين المجموعات يمكن احتساب المبالغ الجزئية لها.
 - **السيناريو ١ — المبالغ الجزئية التلقائية.** ترك `SetSubtotals` دون استدعائه يترك خيار اتخاذ القرار لبرنامج إكسل، الذي يطبّق المبلغ الجزئي الافتراضي الخاص به على الحقول الرقمية. أما استدعاء `SetSubtotals` مع `PivotFieldSubtotalType::Automatic` فيسجّل هذا الاختيار صراحةً بدلاً من تركه ضمنيًا.
@@ -220,6 +216,7 @@ int main() {
 {{% alert color="primary" %}}
 لا يوجد شيء في المبالغ الجزئية متعلق بالمنطقة الصفية تحديدًا. فالاستدعاءات نفسها `SetSubtotals` على حقل يتم أخذه من `PivotTable.ColumnFields` تنتج نفس التصميمات الثلاثة على المحور العمودي، لأن الإعداد ينتمي إلى حقل المحور pivot field وليس إلى المحور الذي يقع عليه.
 {{% /alert %}}
+
 ## **مقالات ذات صلة**
 - [حقول الصفحات في الجداول المحورية](/cells/ar/cpp/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for C++](/cells/ar/cpp/refresh-pivot-table/)

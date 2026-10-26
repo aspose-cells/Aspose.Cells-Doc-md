@@ -61,7 +61,7 @@ int main() {
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
     // Gruppentypen festlegen: Monate und Quartale
-    ArrayPtr<PivotGroupByType> groupTypes = ArrayPtr<PivotGroupByType>(new PivotGroupByType[2]{ PivotGroupByType::Months, PivotGroupByType::Quarters });
+    Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
     // Gruppierung auf das erste Zeilenfeld anwenden
     PivotField rowField = pt.GetRowFields().Get(0);

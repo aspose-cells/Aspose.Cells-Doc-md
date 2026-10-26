@@ -1,7 +1,7 @@
 ---
 title: 在 Aspose.Cells for Node.js via Java 中刷新数据透视表和数据透视缓存
 linktitle: 在 Aspose.Cells for Node.js via Java 中刷新数据透视表和数据透视缓存
-description: 了解如何使用 v26.7+ 的透视表刷新 API 在 Aspose.Cells for Node.js via Java 中刷新数据透视表。本文涵盖 RefreshAll、RefreshPivotTables、PivotCache.Refresh、CalculateData 以及 GetPivotTables，并配有实用的代码示例。
+description: 了解如何使用 v26.7+ 的透视表刷新 API 在 Aspose.Cells for Node.js via Java 中刷新数据透视表。本文涵盖 refreshAll、refreshPivotTables、PivotCache.refresh、calculateData 以及 getPivotTables，并配有实用的代码示例。
 keywords: Aspose.Cells, Node.js, Java, 数据透视表, 刷新, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -83,9 +83,8 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// 添加数据透视表：源区域 "A1:C9"，目标单元格 "E3"，名称 "Pivot1"
-const pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// 添加数据透视表：源区域 "A1:C9"，目标单元格 "E3"，名称
+const pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // 分配数据透视表字段：Fruit 到行，Year 到列，Amount 到数据
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -134,8 +133,7 @@ worksheet.getCells().get("C8").putValue(220);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2020);
 worksheet.getCells().get("C9").putValue(140);
-let pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
@@ -189,9 +187,8 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// 添加名为 "Pivot1" 的数据透视表，放置在目标单元格 E3，数据源为 A1:C9
-var pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-var pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// 添加名为 的数据透视表，放置在目标单元格 E3，数据源为 A1:C9
+var pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // 分配字段：Fruit 分配到行，Year 分配到列，Amount 分配到数据
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");

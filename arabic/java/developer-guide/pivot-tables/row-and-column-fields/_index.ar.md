@@ -83,8 +83,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -125,8 +124,7 @@ for (int i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -182,8 +180,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 PivotTableCollection pivotTables = worksheet.getPivotTables();
-int pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables.get(pivotIndex);
+PivotTable pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -196,7 +193,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **ملخص**
-
 تختلف السيناريوهات الثلاثة في شيء واحد فقط: استدعاءات `setSubtotals`. أما بقية الأمور — وهي مجموعة البيانات، والحقول، والمناطق التي تُسنَد إليها — فهي متطابقة تمامًا، وهو ما يجعل التخطيطات قابلة للمقارنة مباشرة.
 - **وضع الحقول.** تُنقل الدالة `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` عمود المصدر إلى منطقة معينة. وخلال منطقة واحدة، يحدد ترتيب الاستدعاءات ترتيب العرض، لذا يصبح أول استدعاء هو المجموعة الخارجية. ويحتاج الحسابات الفرعية إلى حقلين أو أكثر في نفس المنطقة: فمع حقل واحد، لا يوجد شيء بين المجموعات لحساب حساباته الفرعية.
 - **السيناريو ١ — الحسابات الفرعية التلقائية.** يترك الاستدعاء غير المُستدعَى `setSubtotals` الخيار لـ Excel، الذي يطبّق افتراضي الحسابات الفرعية الخاص به تلقائيًّا على الحقول الرقمية. أما استدعاء `setSubtotals` باستخدام `PivotFieldSubtotalType.AUTOMATIC` فيسجّل هذا الاختيار بشكل صريح بدلاً من تركه ضمنيًّا.
@@ -206,9 +202,10 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 لا يوجد شيء خاص بالسيناريوهات المتعلقة بالحسابات الفرعية يتعلّق بالمنطقة الصفية فقط. فاستدعاءات `setSubtotals` نفسها التي تُطبّق على حقل تم أخذه من `PivotTable.ColumnFields` تُنتِج نفس التخطيطات الثلاثة على المحور العمودي، لأن الإعداد ينتمي إلى الحقل التكراري ذاته وليس إلى المحور الذي يقع عليه.
 {{% /alert %}}
-## **مقالات ذات صلة**
 
+## **مقالات ذات صلة**
 - [حقول الصفحة في جداول المحور (Pivot Tables)](/cells/ar/java/add-page-field-in-pivot-table/)
 - [تحديث جداول المحور في Aspose.Cells لـ Java](/cells/ar/java/refresh-pivot-table/)
 - [تطبيق الأنماط على جداول المحور](/cells/ar/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="java" >}}

@@ -1,7 +1,7 @@
 ---
 title: تطبيق الأنماط على الجداول المحورية في Aspose.Cells for Python via Java
 linktitle: تطبيق الأنماط على الجداول المحورية في Aspose.Cells for Python via Java
-description: تعرف على كيفية تطبيق الأنماط المدمجة والمخصصة على الجداول المحورية في Aspose.Cells for Python via Java، بما في ذلك التنسيقات التلقائية القديمة لملفات XLS، والأنماط المسماة الحديثة في Excel 2007+، وأنماط الجدول المحوري المخصصة، واختصار FormatAll.
+description: تعرف على كيفية تطبيق الأنماط المدمجة والمخصصة على الجداول المحورية في Aspose.Cells for Python via Java، بما في ذلك التنسيقات التلقائية القديمة لملفات XLS، والأنماط المسماة الحديثة في Excel 2007+، وأنماط الجدول المحوري المخصصة، واختصار formatAll.
 keywords: Aspose.Cells, Python via Java, نمط الجدول المحوري, PivotTableStyleType, AutoFormatType, FormatAll, نمط مخصص, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -73,9 +73,8 @@ sheet.getCells().get(8, 2).putValue(45)
 sheet.getCells().get(9, 0).putValue("grape")
 sheet.getCells().get(9, 1).putValue(2020)
 sheet.getCells().get(9, 2).putValue(45)
-# إضافة جدول محوري في خلية الوجهة E3، باسم "Pivot1"، باستخدام نطاق المصدر A1:C10
-pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = sheet.getPivotTables().get(pivotIndex)
+# إضافة جدول محوري في خلية الوجهة E3، باسم ، باستخدام نطاق المصدر A1:C10
+pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4)
 # تعيين الحقول: Fruit -> Rows، Amount -> Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -90,7 +89,6 @@ jpype.shutdownJVM()
 ```
 
 ## **تطبيق نمط جدول محوري مُعد مسبقًا حديث باسم**
-
 يحدد `pivotTable.setPivotTableStyleType(int)` أحد أنماط الجداول المحورية المسماة والمدمجة التي أدخلها Excel 2007. ويتيح التعداد `PivotTableStyleType` ثلاث عائلات من السمات: العائلة الفاتحة من `PIVOT_TABLE_STYLE_LIGHT1` إلى `PIVOT_TABLE_STYLE_LIGHT28`، والعائلة المتوسطة من `PIVOT_TABLE_STYLE_MEDIUM1` إلى `PIVOT_TABLE_STYLE_MEDIUM28`، والعائلة الداكنة من `PIVOT_TABLE_STYLE_DARK1` إلى `PIVOT_TABLE_STYLE_DARK_28`. كما يحدد `None` و`Custom`. وتُعد الأعضاء ذات الأرقام الأعلى في كل عائلة الأنماط التي تمت إضافتها في Excel 2017.
 هذه الإعدادات المسبقة للقراءة فقط. وفي اللحظة التي تحتاج فيها إلى تغيير الألوان أو الحدود أو الخطوط بما يتجاوز ما يوفره أي إعداد مسبق، عليك تعريف نمط جدول محوري مخصص بدلاً من ذلك، كما هو موضح في [السيناريو 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -142,9 +140,8 @@ worksheet.getCells().get("C9").putValue(190)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add a pivot table at E3, sourced from A1:C10
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -159,6 +156,7 @@ pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1)
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
+
 ## **تعريف نمط جدول محوري مخصص وتطبيقه**
 لا يمكن تعديل الإعدادات المسبقة المدمجة. كلما احتجت إلى تجاوز الألوان أو الحدود أو الخطوط، يجب عليك تعريف نمط محوري مخصص. تتكون سير العمل من ثلاث خطوات:
 1. أضف نمطًا مخصصًا إلى مجموعة `TableStyles` الخاصة بالمصنف عبر `workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)`. يُرجع ذلك فهرس النمط المُنشأ حديثًا.
@@ -212,9 +210,8 @@ worksheet.getCells().get("C9").putValue(800)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(900)
-# إضافة جدول محوري مصدره A1:C10، مثبت عند E3، باسم "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# إضافة جدول محوري مصدره A1:C10، مثبت عند E3، باسم
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -300,9 +297,8 @@ worksheet.getCells().get("C9").putValue(2500)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(5500)
-# إضافة جدول محوري: نطاق المصدر A1:C10، خلية الوجهة E3، الاسم "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# إضافة جدول محوري: نطاق المصدر A1:C10، خلية الوجهة E3، الاسم
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # تعيين حقول الجدول المحوري: Fruit -> منطقة الصفوف، Year -> منطقة الأعمدة، Amount -> منطقة البيانات
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -338,6 +334,5 @@ jpype.shutdownJVM()
 | `.xlsx` / `.xlsm` / `.xlsb` (حديث، نمط مخصص) | `pivotTable.setPivotTableStyleName(String)` + `tableStyles.addPivotTableStyle(String)` | استخدم عندما لا تكفي الإعدادات المسبقة المدمجة. قم بالتكوين عبر `tableStyleElement.setElementStyle(Style)`. |
 | أي تنسيق (تجاوز موحد) | `pivotTable.formatAll(Style)` | اختصار يتجاوز كل إعداد نمط آخر عبر كامل الجدول المحوري. |
 في حالة الشك، احفظ بصيغة `.xlsx` واستخدم `setPivotTableStyleType` للسمات المدمجة، أو `setPivotTableStyleName` للسمات المخصصة.
-
 
 {{< app/cells/assistant language="python" >}}

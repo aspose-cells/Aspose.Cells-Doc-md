@@ -87,9 +87,8 @@ worksheet.Cells["C8"].PutValue(110);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(120);
-// Agregar una tabla dinámica: rango de origen "A1:C9", celda de destino "E3", nombre "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Agregar una tabla dinámica: rango de origen "A1:C9", celda de destino "E3", nombre
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 // Asignar campos dinámicos: Fruit a Filas, Year a Columnas, Amount a Datos
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -140,8 +139,7 @@ worksheet.Cells["C8"].PutValue(220);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2020);
 worksheet.Cells["C9"].PutValue(140);
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -196,9 +194,8 @@ worksheet.Cells["C8"].PutValue(350);
 worksheet.Cells["A9"].PutValue("Cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(450);
-// Agregar una tabla dinámica llamada "Pivot1" ubicada en la celda de destino E3, con origen en A1:C9
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-var pivotTable = worksheet.PivotTables[pivotIndex];
+// Agregar una tabla dinámica llamada ubicada en la celda de destino E3, con origen en A1:C9
+var pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 // Asignar campos: Fruit a Fila, Year a Columna, Amount a Datos
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");

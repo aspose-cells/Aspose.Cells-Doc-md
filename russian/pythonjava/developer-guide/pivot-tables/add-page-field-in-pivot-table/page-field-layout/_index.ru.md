@@ -100,8 +100,7 @@ pivotDataCells.get(8, 3).putValue(110)
 pivotTableSheet = worksheets.add("PivotTableReport")
 pivotTables = pivotTableSheet.getPivotTables()
 # Создание сводной таблицы с источником PivotData!A1:D9, размещённой в A1 на PivotTableReport
-pivotIndex = pivotTables.add("PivotData!A1:D9", "A1", "PivotTable1")
-pivotTable = pivotTables.get(pivotIndex)
+pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0)
 # Добавление полей
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0)   # Fruit
 pivotTable.addFieldToArea(PivotFieldType.PAGE, 1)  # Year
@@ -146,8 +145,7 @@ data = [
 for r in range(len(data)):
     for c in range(len(data[r])):
         pivotData.getCells().get(r + 1, c).putValue(data[r][c])
-idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable")
-pivotTable = pivotReport.getPivotTables().get(idx)
+pivotTable = pivotReport.getPivotTables().add("PivotData!A1:D9", 0, 0)
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0)
 pivotTable.addFieldToArea(PivotFieldType.PAGE, 1)
 pivotTable.addFieldToArea(PivotFieldType.PAGE, 2)
@@ -207,8 +205,7 @@ dataSheet.getCells().get("B9").putValue(2023)
 dataSheet.getCells().get("C9").putValue("West")
 dataSheet.getCells().get("D9").putValue(110)
 pivotSheet = workbook.getWorksheets().add("PivotTableReport")
-pivotIdx = pivotSheet.getPivotTables().add("PivotData!A1:D9", "A3", "PivotTable")
-pivotTable = pivotSheet.getPivotTables().get(pivotIdx)
+pivotTable = pivotSheet.getPivotTables().add("PivotData!A1:D9", 2, 0)
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0)
 pivotTable.addFieldToArea(PivotFieldType.PAGE, 1)
 pivotTable.addFieldToArea(PivotFieldType.PAGE, 2)

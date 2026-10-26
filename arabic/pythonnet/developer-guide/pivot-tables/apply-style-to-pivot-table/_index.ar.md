@@ -1,7 +1,7 @@
 ---
 title: تطبيق الأنماط على الجداول المحورية في Aspose.Cells for Python via .NET
 linktitle: تطبيق الأنماط على الجداول المحورية في Aspose.Cells for Python via .NET
-description: تعرف على كيفية تطبيق الأنماط المضمنة والمخصصة على الجداول المحورية في Aspose.Cells for Python via .NET، بما في ذلك التنسيقات التلقائية القديمة لملفات XLS، والأنماط المسماة الحديثة في Excel 2007+، وأنماط الجدول المحوري المخصصة، واختصار FormatAll.
+description: تعرف على كيفية تطبيق الأنماط المضمنة والمخصصة على الجداول المحورية في Aspose.Cells for Python via .NET، بما في ذلك التنسيقات التلقائية القديمة لملفات XLS، والأنماط المسماة الحديثة في Excel 2007+، وأنماط الجدول المحوري المخصصة، واختصار _format_all.
 keywords: Aspose.Cells Python via .NET نمط الجدول المحوري, PivotTableStyleType, AutoFormatType, FormatAll, نمط مخصص, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -72,9 +72,8 @@ sheet.cells.get(8, 2).put_value(45)
 sheet.cells.get(9, 0).put_value("grape")
 sheet.cells.get(9, 1).put_value(2020)
 sheet.cells.get(9, 2).put_value(45)
-# إضافة جدولًا محوريًا في خلية الوجهة E3، باسم "Pivot1"، باستخدام نطاق المصدر A1:C10
-pivot_index = sheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = sheet.pivot_tables[pivot_index]
+# إضافة جدولًا محوريًا في خلية الوجهة E3، باسم ، باستخدام نطاق المصدر A1:C10
+pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
 # تعيين الحقول: الفاكهة -> الصفوف، المبلغ -> البيانات
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -88,7 +87,6 @@ workbook.save("output.xls")
 ```
 
 ## **تطبيق نمط جدول محوري حديث مسمى ومحدد مسبقًا**
-
 `pivot_table.pivot_table_style_type` يحدد واحدًا من أنماط التسمية المدمجة التي أدخلتها Excel 2007 للجداول المحورية. يوفر تعداد `PivotTableStyleType` ثلاث عائلات من الأنماط: العائلة الفاتحة من `PIVOT_TABLE_STYLE_LIGHT1` إلى `PIVOT_TABLE_STYLE_LIGHT28`، وعائلة المتوسطة من `PIVOT_TABLE_STYLE_MEDIUM1` إلى `PIVOT_TABLE_STYLE_MEDIUM28`، وعائلة الداكنة من `PIVOT_TABLE_STYLE_DARK1` إلى `PIVOT_TABLE_STYLE_DARK28`. كما يحدد `None` و`Custom`. الأعضاء ذو الأرقام الأعلى في كل عائلة هي الأنماط التي أُضيفت في Excel 2017.
 هذه الأنماط الجاهزة للقراءة فقط. بمجرد أن تحتاج إلى تغيير الألوان أو الحدود أو الخطوط بما يتجاوز ما توفره الأنماط الجاهزة، فعليك تعريف نمط جدول محوري مخصص بدلاً من ذلك، كما هو موضح في [السيناريو 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -139,9 +137,8 @@ worksheet.cells.get("C9").put_value(190)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Add a pivot table at E3, sourced from A1:C10
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -155,6 +152,7 @@ pivot_table.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_DARK1
 # Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx")
 ```
+
 ## **تعريف وتطبيق نمط جدول محوري مخصص**
 لا يمكن تعديل الإعدادات المسبقة المضمنة. كلما احتجت إلى تجاوز الألوان أو الحدود أو الخطوط، يجب عليك تعريف نمط جدول محوري مخصص. تتكون سير العمل من ثلاث خطوات:
 1. أضف نمطًا مخصصًا إلى مجموعة `table_styles` الخاصة بالمصنف عبر `workbook.worksheets.table_styles.add_pivot_table_style(name)`. يُرجع هذا فهرس النمط الذي تم إنشاؤه حديثًا.
@@ -205,9 +203,8 @@ worksheet.cells.get("C9").put_value(800)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(900)
-# إضافة جدول محوري مصدره A1:C10، مثبت عند E3، باسم "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# إضافة جدول محوري مصدره A1:C10، مثبت عند E3، باسم
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -289,9 +286,8 @@ worksheet.cells.get("C9").put_value(2500)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(5500)
-# إضافة جدول محوري: نطاق المصدر A1:C10، خلية الوجهة E3، الاسم "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# إضافة جدول محوري: نطاق المصدر A1:C10، خلية الوجهة E3، الاسم
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # تعيين حقول الجدول المحوري: Fruit -> منطقة الصفوف، Year -> منطقة الأعمدة، Amount -> منطقة البيانات
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -326,6 +322,5 @@ workbook.save("output.xlsx")
 | `.xlsx` / `.xlsm` / `.xlsb` (حديث، نمط مخصص) | `PivotTable.pivot_table_style_name` + `worksheets.table_styles.add_pivot_table_style(...)` | استخدم عندما لا تكون الإعدادات المسبقة المضمنة كافية. قم بالتهيئة عبر `table_style_element.set_element_style(...)`. |
 | أي تنسيق (تجاوز موحد) | `PivotTable.format_all(Style)` | اختصار يتجاوز كل إعداد نط آخر عبر الجدول المحوري بأكمله. |
 في حالة الشك، احفظ بصيغة `.xlsx` واستخدم `pivot_table_style_type` للسمات المضمنة، أو `pivot_table_style_name` للسمات المخصصة.
-
 
 {{< app/cells/assistant language="python-net" >}}

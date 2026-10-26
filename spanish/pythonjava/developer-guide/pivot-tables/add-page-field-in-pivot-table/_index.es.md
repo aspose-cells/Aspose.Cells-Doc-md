@@ -55,8 +55,7 @@ for i in range(len(data)):
     worksheet.getCells().get(i + 1, 1).putValue(data[i][1])
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2])
 # Agregar una tabla dinámica anclada en la celda E3
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Agregar campos a sus áreas: Fruta como Fila, Cantidad como Dato, Año como campo de Página
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -99,8 +98,7 @@ sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").put
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350)
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450)
 # Agregar tabla dinámica en E3 cubriendo A1:C10
-pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1")
-pivotTable = sheet.getPivotTables().get(pivotIndex)
+pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4)
 # Fruta -> Fila, Cantidad -> Datos (Año irá a la Página abajo)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -145,8 +143,7 @@ for r in range(len(data)):
         sheet.getCells().get(r + 1, c).putValue(data[r][c])
 # Crear tabla dinámica en E3
 pivotTables = sheet.getPivotTables()
-index = pivotTables.add("=A1:C7", "E3", "PivotTable1")
-pivotTable = pivotTables.get(index)
+pivotTable = pivotTables.add("=A1:C7", 2, 4)
 # Configurar campos dinámicos: Fruta→Fila, Cantidad→Datos, Año→Página
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -190,8 +187,7 @@ cells.get("B5").putValue("2021")
 cells.get("C5").putValue("250")
 # Add pivot table at E3
 pivotTables = sheet.getPivotTables()
-pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1")
-pivotTable = pivotTables.get(pivotIndex)
+pivotTable = pivotTables.add("A1:C5", 2, 4)
 # Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -243,8 +239,7 @@ for i in range(len(data)):
     cells.get(i + 1, 2).putValue(int(data[i][2]))
 pivotSheet = workbook.getWorksheets().add("Pivot")
 pivots = pivotSheet.getPivotTables()
-pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1")
-pivotTable = pivots.get(pivotIndex)
+pivotTable = pivots.add("A1:C10", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")

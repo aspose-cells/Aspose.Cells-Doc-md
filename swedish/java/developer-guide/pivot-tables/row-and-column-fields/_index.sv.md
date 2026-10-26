@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -124,8 +123,7 @@ for (int i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -181,8 +179,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 PivotTableCollection pivotTables = worksheet.getPivotTables();
-int pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables.get(pivotIndex);
+PivotTable pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -195,7 +192,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Sammanfattning**
-
 De tre scenarierna skiljer sig åt i en enda sak: `setSubtotals`-anropen. Allt annat – datamängden, fälten och de områden de tilldelas till – är identiskt, vilket gör att utformningarna kan jämföras direkt.
 - **Placering av fält.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` flyttar en källkolumn till ett område. Inom ett och samma område är anropens ordning den visuella ordningen, så det första anroppet blir det yttre gruppfältet. För subsumtorer krävs två eller fler fält i samma område, eftersom det saknas något att subsumtiera mellan grupperna vid ett ensamt fält.
 - **Scenarie 1 – automatiska subsumtorer.** Om `setSubtotals` inte anropas lämnas valet till Excel, som tillämpar sin egna standardsubsumtor på numeriska fält. Genom att anropa `setSubtotals` med `PivotFieldSubtotalType.AUTOMATIC` registreras detta val explicit istället för att lämnas implicit.
@@ -205,6 +201,7 @@ De tre scenarierna skiljer sig åt i en enda sak: `setSubtotals`-anropen. Allt a
 {{% alert color="primary" %}}
 Inget vid subsumtorer är specifikt för radområdet. Samma `setSubtotals`-anrop på ett fält hämtat från `PivotTable.ColumnFields` producerar samma tre utformningar på kolomaxeln, eftersom inställningen tillhör pivottabellfältet snarare än axeln det sitter på.
 {{% /alert %}}
+
 ## **Relaterade artiklar**
 - [Sidfält i pivottabeller](/cells/sv/java/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells for Java](/cells/sv/java/refresh-pivot-table/)

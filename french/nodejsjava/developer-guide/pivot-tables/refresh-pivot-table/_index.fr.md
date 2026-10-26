@@ -1,6 +1,6 @@
 ---
 title: Actualiser les Tableaux Croisés Dynamiques et les Caches de TCD dans Aspose.Cells for Node.js via Java
-description: Apprenez à actualiser les tableaux croisés dynamiques dans Aspose.Cells for Node.js via Java en utilisant l'API d'actualisation de tableau croisé dynamique v26.7+. Cet article couvre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData et GetPivotTables avec des exemples de code pratiques.
+description: Apprenez à actualiser les tableaux croisés dynamiques dans Aspose.Cells for Node.js via Java en utilisant l'API d'actualisation de tableau croisé dynamique v26.7+. Cet article couvre refreshAll, refreshPivotTables, PivotCache.refresh, calculateData et getPivotTables avec des exemples de code pratiques.
 linktitle: Actualiser les Tableaux Croisés Dynamiques
 keywords: Aspose.Cells, Node.js, Java, tableau croisé dynamique, actualiser, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
@@ -83,9 +83,8 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// Ajouter un tableau croisé dynamique : plage source "A1:C9", cellule de destination "E3", nom "Pivot1"
-const pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Ajouter un tableau croisé dynamique : plage source "A1:C9", cellule de destination "E3", nom
+const pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // Affecter les champs du tableau croisé dynamique : Fruit aux lignes, Year aux colonnes, Amount aux données
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -134,8 +133,7 @@ worksheet.getCells().get("C8").putValue(220);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2020);
 worksheet.getCells().get("C9").putValue(140);
-let pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
@@ -189,9 +187,8 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// Ajouter un tableau croisé dynamique nommé "Pivot1" placé à la cellule de destination E3, sourçant depuis A1:C9
-var pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-var pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Ajouter un tableau croisé dynamique nommé placé à la cellule de destination E3, sourçant depuis A1:C9
+var pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // Assigner les champs : Fruit à Ligne, Année à Colonne, Montant à Données
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");

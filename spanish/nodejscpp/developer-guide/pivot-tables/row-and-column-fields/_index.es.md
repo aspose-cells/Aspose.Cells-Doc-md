@@ -1,7 +1,7 @@
 ---
 title: Agregar campos de fila y columna a tablas dinámicas en Aspose.Cells for Node.js mediante C++
 linktitle: Agregar campos de fila y columna a tablas dinámicas en Aspose.Cells for Node.js mediante C++
-description: Aprenda a agregar campos base a las regiones de filas y columnas de una tabla dinámica y a controlar los subtotales de los campos de la tabla dinámica mediante PivotField.SetSubtotals en Aspose.Cells for Node.js mediante C++
+description: Aprenda a agregar campos base a las regiones de filas y columnas de una tabla dinámica y a controlar los subtotales de los campos de la tabla dinámica mediante PivotField.setSubtotals en Aspose.Cells for Node.js mediante C++
 keywords: Aspose.Cells, Node.js, C++, tabla dinámica, campo de fila, campo de columna, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotales
 type: docs
 weight: 220
@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -121,8 +120,7 @@ for (let i = 0; i < data.length; i++) {
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+const pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -178,8 +176,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -192,7 +189,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Resumen**
-
 Los tres escenarios difieren únicamente en una cosa: las llamadas a `setSubtotals`. Todo lo demás —el conjunto de datos, los campos y las áreas a las que se asignan— es idéntico, lo que permite una comparación directa de las disposiciones.
 - **Colocación de campos.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` mueve una columna de origen a una región. Dentro de una misma región, el orden de las llamadas determina el orden de visualización, por lo que la primera llamada se convierte en el grupo más externo. Los subtotales requieren dos o más campos en la misma región: con un único campo no hay nada entre los grupos sobre lo cual calcular el subtotal.
 - **Escenario 1 — subtotales automáticos.** No invocar `setSubtotals` deja la elección a Excel, que aplica su subtotal predeterminado a los campos numéricos. Invocar `setSubtotals` con `AsposeCells.PivotFieldSubtotalType.Automatic` registra explícitamente dicha elección en lugar de dejarla implícita.
@@ -202,6 +198,7 @@ Los tres escenarios difieren únicamente en una cosa: las llamadas a `setSubtota
 {{% alert color="primary" %}}
 Nada acerca de los subtotales es específico de la región de fila. Las mismas llamadas a `setSubtotals` sobre un campo obtenido de `PivotTable.ColumnFields` producen las mismas tres disposiciones en el eje de columna, porque la configuración pertenece al campo de tabla dinámica y no al eje en el que se encuentra.
 {{% /alert %}}
+
 ## **Artículos relacionados**
 - [Campos de página en tablas dinámicas](/cells/es/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Actualizar tablas dinámicas en Aspose.Cells for Node.js mediante C++](/cells/es/nodejs-cpp/refresh-pivot-table/)

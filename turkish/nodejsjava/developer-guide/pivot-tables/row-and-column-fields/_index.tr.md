@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -124,8 +123,7 @@ for (let i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -181,8 +179,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -195,7 +192,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Özet**
-
 Ü senaryo, tek bir noktada farklılık gösterir: `setSubtotals` çağrıları. Diğer tüm unsurlar — veri kümesi, alanlar ve bunların atan olduğu bölgeler — aynıdır, bu da düzenlerin doğrudan karşılaştırılabilir olmasını sağlar.
 - **Alanların yerleştirilmesi.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, fieldName)` kaynağındaki bir sütunu bir bölgeye Taşır. Bir bölgede içinde, çağrıların sırası gösterim sırasını belirler, böylece ilk çağrı en dıştaki grubu oluşturur. Subtotal’lar, aynı bölgede iki veya daha fazla alanı gerektirir: tek bir alanla, gruplar arasında subtotal alınacak hiçbir şey bulunmaz.
 - **Senaryo 1 — otomatik subtotal’lar.** `setSubtotals` çağrısının yapılmaması, seçeneği Excel’e bırakır, Excel bu durumda sayısal alanlara kendi varsayılan subtotal’ını uygular. `AsposeCells.PivotFieldSubtotalType.AUTOMATIC` ile `setSubtotals`’ın çağrılması, bu seçimi açıkça kaydeder; dolayısıyla seçimi örtük bırakmaz.
@@ -205,6 +201,7 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 Subtotal’larla ilgili hiçbir şey, satır bölgesine özgü değildir. `PivotTable.ColumnFields`’tan alınan bir alanda aynı `setSubtotals` çağrıları, ayarların pivot alanı ait olduğu ve üzerinde durduğu eksenin değil, sütun ekseninde aynı üç düzeni üretir.
 {{% /alert %}}
+
 ## **İlgili Makaleler**
 - [Özet Tablolarında Sayfa Alanları](/cells/tr/nodejs-java/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Node.js via Java Kullanılarak Özet Tablolarını Yenileme](/cells/tr/nodejs-java/refresh-pivot-table/)

@@ -85,8 +85,7 @@ worksheet.cells.get(8, 0).put_value("Vegetable")
 worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -123,8 +122,7 @@ data = [
 for i in range(len(data)):
     for j in range(len(data[i])):
         worksheet.cells.get(i + 1, j).put_value(data[i][j])
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -183,8 +181,7 @@ worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
 pivot_tables = worksheet.pivot_tables
-pivot_index = pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = pivot_tables[pivot_index]
+pivot_table = pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -197,7 +194,6 @@ workbook.save("output_custom.xlsx")
 ```
 
 ## **Özet**
-
 Bu üç senaryo yalnızca `set_subtotals` çağrılarıyla farklılık gösterir. Diğer her şey — veri kümesi, alanlar ve bu alanların atanmış oldukları bölgeler — aynıdır, bu da düzenlerin doğrudan karşılaştırılabilir olmasını sağlar.
 - **Alanların yerleştirilmesi.** `PivotTable.add_field_to_area(PivotFieldType.ROW, fieldName)` çağrısı, bir kaynak sütunu bir bölgeye taşır. Bir bölge içinde, çağrıların sırası görünüm sırasını belirler; bu nedenle ilk çağrı en dıştaki gruba Corresponds (karşılık gelir). Alt toplamlar için aynı bölgede iki veya daha fazla alan gerekir: tek bir alanla gruplar arasında alt toplam yapılacak bir şey bulunmaz.
 - **Senaryo 1 — otomatik alt toplamlar.** `set_subtotals` çağrısının yapılmaması, seçimi Excel’e bırakır; Excel, sayısal alanlar için kendi varsayılan alt toplamını uygular. `PivotFieldSubtotalType.AUTOMATIC` ile `set_subtotals` çağrısı, bu seçimi açıkça kaydeder ve dolaylı bırakmaz.
@@ -207,9 +203,10 @@ Bu üç senaryo yalnızca `set_subtotals` çağrılarıyla farklılık gösterir
 {{% alert color="primary" %}}
 Alt toplamlarla ilgili hiçbir şey satır bölgesine özeldir. `PivotTable.ColumnFields`’ten alınan bir alana aynı `set_subtotals` çağrılarının yapılması, sütun ekseninde aynı üç düzeni üretir, çünkü ayar, eksenin kendisinden ziyade özet alanına aittir.
 {{% /alert %}}
-## **İlgili Makaleler**
 
+## **İlgili Makaleler**
 - [Pivot Tablolarında Sayfa Alanları](/cells/tr/python-net/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Python via .NET ile Pivot Tabloları Yenileme](/cells/tr/python-net/refresh-pivot-table/)
 - [Pivot Tablolarına Stil Uygulama](/cells/tr/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python-net" >}}

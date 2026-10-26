@@ -86,8 +86,7 @@ int main() {
     worksheet.GetCells().Get(8, 1).PutValue(u"Daikon");
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -129,8 +128,7 @@ int main() {
         sheet.GetCells().Get(i + 1, 2).PutValue(years[i]);
         sheet.GetCells().Get(i + 1, 3).PutValue(amounts[i]);
     }
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -193,8 +191,7 @@ int main() {
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
     PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivotIndex = pivotTables.Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = pivotTables.Get(pivotIndex);
+    PivotTable pivotTable = pivotTables.Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -210,7 +207,6 @@ int main() {
 ```
 
 ## **Riepilogo**
-
 I tre scenari differiscono in un unico aspetto: le chiamate a `SetSubtotals`. Tutto il resto — il set di dati, i campi e le aree a cui sono assegnati — è identico, il che rende direttamente confrontabili i layout prodotti.
 - **Posizionamento dei campi.** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` sposta una colonna di origine in una regione. All'interno di una stessa regione, l’ordine delle chiamate corrisponde all’ordine visivo, per cui la prima chiamata determina il gruppo più esterno. Per calcolare i totali parziali sono necessari almeno due campi nella stessa regione: con un solo campo non esiste alcun elemento tra i gruppi su cui calcolare i totali parziali.
 - **Scenaro 1 — totali parziali automatici.** L’omissione di `SetSubtotals` lascia la scelta a Excel, che applica il totale parziale predefinito ai campi numerici. La chiamata a `SetSubtotals` con `PivotFieldSubtotalType::Automatic` esprime esplicitamente tale scelta, invece di lasciarla implicita.
@@ -220,6 +216,7 @@ I tre scenari differiscono in un unico aspetto: le chiamate a `SetSubtotals`. Tu
 {{% alert color="primary" %}}
 Nulla relativo ai totali parziali è specifico della regione riga. Le stesse chiamate a `SetSubtotals` su un campo ottenuto da `PivotTable.ColumnFields` producono gli stessi tre layout sull’asse delle colonne, poiché l’impostazione appartiene al campo pivot e non all’asse su cui esso è collocato.
 {{% /alert %}}
+
 ## **Articoli correlati**
 - [Campi pagina nelle tabelle pivot](/cells/it/cpp/add-page-field-in-pivot-table/)
 - [Aggiornamento delle tabelle pivot in Aspose.Cells for C++](/cells/it/cpp/refresh-pivot-table/)

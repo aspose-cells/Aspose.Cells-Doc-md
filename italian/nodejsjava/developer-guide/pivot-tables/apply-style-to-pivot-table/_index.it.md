@@ -1,7 +1,7 @@
 ---
 title: Applica stili alle tabelle pivot in Aspose.Cells for Node.js via Java
 linktitle: Applica stili alle tabelle pivot
-description: Scopri come applicare stili predefiniti e personalizzati alle tabelle pivot in Aspose.Cells for Node.js via Java, trattando le formattazioni automatiche legacy XLS, gli stili moderni con nome di Excel 2007+, gli stili personalizzati per tabelle pivot e la scorciatoia FormatAll.
+description: Scopri come applicare stili predefiniti e personalizzati alle tabelle pivot in Aspose.Cells for Node.js via Java, trattando le formattazioni automatiche legacy XLS, gli stili moderni con nome di Excel 2007+, gli stili personalizzati per tabelle pivot e la scorciatoia formatAll.
 keywords: Aspose.Cells Node.js via Java stile tabella pivot, PivotTableStyleType, AutoFormatType, FormatAll, stile personalizzato, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -65,9 +65,8 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// Aggiungi una tabella pivot nella cella di destinazione E3, denominata "Pivot1", utilizzando l'intervallo di origine A1:C10
-let pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = sheet.getPivotTables().get(pivotIndex);
+// Aggiungi una tabella pivot nella cella di destinazione E3, denominata, utilizzando l'intervallo di origine A1:C10
+let pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // Assegna i campi: Fruit -> Righe, Amount -> Dati
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
@@ -81,7 +80,6 @@ workbook.save("output.xls");
 ```
 
 ## **Applica uno stile preimpostato moderno con nome per tabelle pivot**
-
 `PivotTable.setPivotTableStyleType(int)` seleziona uno degli stili predefiniti denominati introdotti da Excel 2007 per le tabelle pivot. L’enumerazione `PivotTableStyleType` espone tre famiglie di temi: la famiglia chiara, da `PIVOT_TABLE_STYLE_LIGHT1` a `PIVOT_TABLE_STYLE_LIGHT28`, la famiglia media, da `PIVOT_TABLE_STYLE_MEDIUM1` a `PIVOT_TABLE_STYLE_MEDIUM28` e la famiglia scura, da `PIVOT_TABLE_STYLE_DARK1` a `PIVOT_TABLE_STYLE_DARK_28`. Definisce inoltre `None` e `Custom`. I membri con numerazione più elevata di ciascuna famiglia sono gli stili aggiunti in Excel 2017.
 Questi preset sono di sola lettura. Non appena è necessario modificare colori, bordi o font oltre a quanto offerto da un preset, è necessario definire uno stile pivot personalizzato, come illustrato in [Scenario 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -127,9 +125,8 @@ worksheet.getCells().get("C9").putValue(190);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(130);
-// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Add a pivot table at E3, sourced from A1:C10
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -143,6 +140,7 @@ pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PIVOT_TABLE_ST
 // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx");
 ```
+
 ## **Definire e applicare uno stile personalizzato per tabelle pivot**
 I preset predefiniti non possono essere modificati. Ogni volta che hai bisogno di sovrascrivere colori, bordi o font, devi definire uno stile personalizzato per tabelle pivot. Il flusso di lavoro prevede tre passaggi:
 1. Aggiungi uno stile personalizzato alla collezione `TableStyles` della cartella di lavoro tramite `Worksheets.getTableStyles().addPivotTableStyle(String name)`. Questo restituisce l'indice dello stile appena creato.
@@ -190,9 +188,8 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// Aggiungi tabella pivot con origine da A1:C10, ancorata in E3, denominata "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Aggiungi tabella pivot con origine da A1:C10, ancorata in E3, denominata
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
@@ -271,9 +268,8 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// Aggiungi tabella pivot: intervallo di origine A1:C10, cella di destinazione E3, nome "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Aggiungi tabella pivot: intervallo di origine A1:C10, cella di destinazione E3, nome
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Assegna i campi pivot: Fruit -> area Righe, Year -> area Colonne, Amount -> area Dati
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -308,6 +304,5 @@ La scelta dell'API di stile dipende dal formato del file in cui stai salvando. U
 | `.xlsx` / `.xlsm` / `.xlsb` (moderno, stile personalizzato) | `PivotTable.pivotTableStyleName` + `Worksheets.getTableStyles().addPivotTableStyle(...)` | Usare quando i preset predefiniti non sono sufficienti. Configurare tramite `TableStyleElement.setElementStyle(...)`. |
 | Qualsiasi formato (sovrascrittura uniforme) | `PivotTable.formatAll(Style)` | Scorciatoia che sovrascrive ogni altra impostazione di stile nell'intera tabella pivot. |
 In caso di dubbio, salva come `.xlsx` e usa `pivotTableStyleType` per i temi predefiniti, oppure `pivotTableStyleName` per i temi personalizzati.
-
 
 {{< app/cells/assistant language="nodejs-java" >}}

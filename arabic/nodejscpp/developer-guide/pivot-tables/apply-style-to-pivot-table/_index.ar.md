@@ -1,7 +1,7 @@
 ---
 title: تطبيق الأنماط على الجداول المحورية في Aspose.Cells for Node.js via C++
 linktitle: تطبيق الأنماط على الجداول المحورية في Aspose.Cells for Node.js via C++
-description: تعلّم كيفية تطبيق الأنماط المدمجة والمخصصة على الجداول المحورية باستخدام Aspose.Cells for Node.js via C++, بما في ذلك التنسيقات التلقائية القديمة في XLS، وأنماط الجداول المحورية الحديثة المسماة في Excel 2007+، وأنماط الجداول المحورية المخصصة، واختصار FormatAll.
+description: تعلّم كيفية تطبيق الأنماط المدمجة والمخصصة على الجداول المحورية باستخدام Aspose.Cells for Node.js via C++, بما في ذلك التنسيقات التلقائية القديمة في XLS، وأنماط الجداول المحورية الحديثة المسماة في Excel 2007+، وأنماط الجداول المحورية المخصصة، واختصار formatAll.
 keywords: Aspose.Cells Node.js via C++ نمط الجدول المحوري, PivotTableStyleType, AutoFormatType, FormatAll, نمط مخصص, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -70,9 +70,8 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// إضافة جدول محوري في خلية الوجهة E3، باسم "Pivot1"، باستخدام نطاق المصدر A1:C10
-const pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-const pivotTable = sheet.getPivotTables().get(pivotIndex);
+// إضافة جدول محوري في خلية الوجهة E3، باسم ، باستخدام نطاق المصدر A1:C10
+const pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // تعيين الحقول: Fruit -> الصفوف، Amount -> البيانات
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -86,7 +85,6 @@ workbook.save("output.xls");
 ```
 
 ## **تطبيق نمط جدول محوري حديث مسمى مسبق الضبط**
-
 `PivotTable.pivotTableStyleType` يحدد أحد الأنماط المدمجة ذات الأسماء التي استحدثها Excel 2007 لجداول المحور. يتيح التعداد `PivotTableStyleType` ثلاث عائلات من السمات: العائلة الفاتحة من `PivotTableStyleLight1` إلى `PivotTableStyleLight28`، والعائلة المتوسطة من `PivotTableStyleMedium1` إلى `PivotTableStyleMedium28`، والعائلة الداكنة من `PivotTableStyleDark1` إلى `PivotTableStyleDark28`. كما يحدد `None` و`Custom`. وتُعد العناصر ذات الأرقام الأعلى في كل عائلة الأنماط التي أضافها Excel 2017.
 هذه الأنماط المسبقة للقراءة فقط. وبمجرد حاجتك إلى تغيير الألوان أو الحدود أو الخطوط بما يتجاوز ما توفره الأنماط المسبقة، يجب عليك تعريف نمط محور مخصص بدلاً منها، كما هو موضح في [سيناريو 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -132,9 +130,8 @@ worksheet.getCells().get("C9").putValue(190);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(130);
-// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Add a pivot table at E3, sourced from A1:C10
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -148,6 +145,7 @@ pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PivotTableStyl
 // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx");
 ```
+
 ## **تعريف وتطبيق نمط جدول محوري مخصص**
 لا يمكن تعديل الإعدادات المسبقة المدمجة. كلما احتجت إلى تجاوز الألوان أو الحدود أو الخطوط، يجب أن تُعرِّف نمط جدول محوري مخصص. تتكون سير العمل من ثلاث خطوات:
 1. أضف نمطًا مخصصًا إلى مجموعة `TableStyles` الخاصة بالمصنف عبر `Workbook.Worksheets.TableStyles.addPivotTableStyle(string name)`. يُرجِع هذا الأمر فهرس النمط الذي تم إنشاؤه حديثًا.
@@ -195,9 +193,8 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// إضافة جدول محوري مصدره A1:C10، مثبت عند E3، باسم "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// إضافة جدول محوري مصدره A1:C10، مثبت عند E3، باسم
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -272,9 +269,8 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// إضافة جدول محوري: نطاق المصدر A1:C10، خلية الوجهة E3، الاسم "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// إضافة جدول محوري: نطاق المصدر A1:C10، خلية الوجهة E3، الاسم
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // تعيين حقول الجدول المحوري: Fruit -> منطقة الصفوف، Year -> منطقة الأعمدة، Amount -> منطقة البيانات
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -309,6 +305,5 @@ workbook.save("output.xlsx");
 | `.xlsx` / `.xlsm` / `.xlsb` (حديث، نمط مخصص) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | استخدم عندما لا تكفي الإعدادات المسبقة المدمجة. اضبط عبر `TableStyleElement.SetElementStyle(...)`. |
 | أي تنسيق (تجاوز موحد) | `PivotTable.formatAll(Style)` | اختصار يتجاوز كل إعداد نمط آخر في جميع أنحاء الجدول المحوري. |
 عند الشك، احفظ بصيغة `.xlsx` واستخدم `PivotTableStyleType` للسمات المدمجة، أو `PivotTableStyleName` للسمات المخصصة.
-
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

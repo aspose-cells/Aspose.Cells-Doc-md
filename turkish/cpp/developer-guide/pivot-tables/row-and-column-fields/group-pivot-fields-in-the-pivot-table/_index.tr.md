@@ -61,7 +61,7 @@ int main() {
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
     // Grup türlerini ayarla: Aylar ve Çeyrekler
-    ArrayPtr<PivotGroupByType> groupTypes = ArrayPtr<PivotGroupByType>(new PivotGroupByType[2]{ PivotGroupByType::Months, PivotGroupByType::Quarters });
+    Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
     // Gruplamayı ilk satır alanına uygula
     PivotField rowField = pt.GetRowFields().Get(0);

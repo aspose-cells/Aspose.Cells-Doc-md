@@ -87,9 +87,8 @@ worksheet.Cells["C8"].PutValue(110);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(120);
-// Pivot-Tabelle hinzufügen: Quellbereich "A1:C9", Zielzelle "E3", Name "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Pivot-Tabelle hinzufügen: Quellbereich "A1:C9", Zielzelle "E3"
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 // Pivot-Felder zuweisen: Fruit zu Zeilen, Year zu Spalten, Amount zu Daten
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -140,8 +139,7 @@ worksheet.Cells["C8"].PutValue(220);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2020);
 worksheet.Cells["C9"].PutValue(140);
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -196,9 +194,8 @@ worksheet.Cells["C8"].PutValue(350);
 worksheet.Cells["A9"].PutValue("Cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(450);
-// Eine Pivot-Tabelle namens "Pivot1" hinzufügen, platziert in der Zielzelle E3, mit Quelle A1:C9
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-var pivotTable = worksheet.PivotTables[pivotIndex];
+// Eine Pivot-Tabelle namens hinzufügen, platziert in der Zielzelle E3, mit Quelle A1:C9
+var pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 // Felder zuweisen: Fruit zu Zeile, Year zu Spalte, Amount zu Daten
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");

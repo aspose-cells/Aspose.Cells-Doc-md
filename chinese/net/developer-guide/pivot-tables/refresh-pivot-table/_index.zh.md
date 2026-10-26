@@ -87,9 +87,8 @@ worksheet.Cells["C8"].PutValue(110);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(120);
-// 添加数据透视表：源数据范围 "A1:C9"，目标单元格 "E3"，名称 "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// 添加数据透视表：源数据范围 "A1:C9"，目标单元格 "E3"，名称
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 // 分配数据透视字段：Fruit 到行，Year 到列，Amount 到数据
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -140,8 +139,7 @@ worksheet.Cells["C8"].PutValue(220);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2020);
 worksheet.Cells["C9"].PutValue(140);
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -196,9 +194,8 @@ worksheet.Cells["C8"].PutValue(350);
 worksheet.Cells["A9"].PutValue("Cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(450);
-// 添加名为 "Pivot1" 的数据透视表，放置在目标单元格 E3，数据源为 A1:C9
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-var pivotTable = worksheet.PivotTables[pivotIndex];
+// 添加名为 的数据透视表，放置在目标单元格 E3，数据源为 A1:C9
+var pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 // 分配字段：Fruit 到行，Year 到列，Amount 到数据
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");

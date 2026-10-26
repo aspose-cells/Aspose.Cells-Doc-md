@@ -72,9 +72,8 @@ sheet.Cells[8, 2].PutValue(45);
 sheet.Cells[9, 0].PutValue("grape");
 sheet.Cells[9, 1].PutValue(2020);
 sheet.Cells[9, 2].PutValue(45);
-// Lägg till en pivottabell vid destinationscell E3, med namnet "Pivot1", med hjälp av källintervall A1:C10
-int pivotIndex = sheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+// Lägg till en pivottabell vid destinationscell E3, med namnet, med hjälp av källintervall A1:C10
+PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
 // Tilldela fält: Fruit -> Rader, Amount -> Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -88,7 +87,6 @@ workbook.Save("output.xls");
 ```
 
 ## **Tillämpa en modern namngiven förinställd pivottabellsstil**
-
 `PivotTable.PivotTableStyleType` väljer en av de inbyggda namngivna stilarna som Excel 2007 introducerade för pivottabeller. Enumerationen `PivotTableStyleType` exponerar tre temafamiljer: den ljusa familjen från `PivotTableStyleLight1` till `PivotTableStyleLight28`, den medelfamiljen från `PivotTableStyleMedium1` till `PivotTableStyleMedium28` och den mörka familjen från `PivotTableStyleDark1` till `PivotTableStyleDark28`. Den definierar också `None` och `Custom`. Medlemmarna med högre nummer i varje familj är de stilar som lades till i Excel 2017.
 Dessa förinställningar är skrivskyddade. Så snart du behöver ändra färger, ramar eller teckensnitt utöver vad en förinställning erbjuder, måste du i stället definiera en anpassad pivotstil, som visas i [Scenario 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -140,9 +138,8 @@ worksheet.Cells["C9"].PutValue(190);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(130);
-// Lägg till en pivottabell vid E3 med namnet "Pivot1", med A1:C10 som datakälla
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Lägg till en pivottabell vid E3 med namnet, med A1:C10 som datakälla
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // Tilldela pivotfält: Fruit -> området Row, Year -> området Column, Amount -> området Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -156,6 +153,7 @@ pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
 // Spara som modernt .xlsx -- detta är det format för vilket PivotTableStyleType är relevant.
 workbook.Save("output.xlsx");
 ```
+
 ## **Definiera och tillämpa en anpassad pivottabellsstil**
 De inbyggda förinställningarna kan inte modifieras. När du behöver åsidosätta färger, kantlinjer eller typsnitt måste du definiera en anpassad pivotstil. Arbetsflödet har tre steg:
 1. Lägg till en anpassad stil i arbetsbokens `TableStyles`-samling via `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)`. Detta returnerar indexet för den nyskapade stilen.
@@ -173,6 +171,7 @@ using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
 using System.Drawing;
+using Aspose.Cells.Tables;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 // Fyll i källdata: rubrikrad + 9 datarader (A1:C10)
@@ -206,9 +205,8 @@ worksheet.Cells["C9"].PutValue(800);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(900);
-// Lägg till pivottabell med källa från A1:C10, förankrad vid E3, med namnet "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Lägg till pivottabell med källa från A1:C10, förankrad vid E3, med namnet
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -291,9 +289,8 @@ worksheet.Cells["C9"].PutValue(2500);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(5500);
-// Lägg till pivottabell: källintervall A1:C10, destinationscell E3, namn "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Lägg till pivottabell: källintervall A1:C10, destinationscell E3, namn
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // Tilldela pivotfält: Fruit -> Rad-område, Year -> Kolumn-område, Amount -> Data-område
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");

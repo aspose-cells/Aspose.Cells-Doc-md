@@ -55,8 +55,7 @@ for (int i = 0; i < data.GetLength(0); i++)
     worksheet.Cells[i + 1, 2].PutValue(data[i, 2]);
 }
 // Ajouter un tableau croisé dynamique ancré à la cellule E3
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // Ajouter des champs à leurs zones : Fruit comme Ligne, Montant comme Données, Année comme champ de Page
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -97,8 +96,7 @@ sheet.Cells["A8"].PutValue("blueberry"); sheet.Cells["B8"].PutValue("2020"); she
 sheet.Cells["A9"].PutValue("blueberry"); sheet.Cells["B9"].PutValue("2021"); sheet.Cells["C9"].PutValue(350);
 sheet.Cells["A10"].PutValue("blueberry");sheet.Cells["B10"].PutValue("2022"); sheet.Cells["C10"].PutValue(450);
 // Ajouter un tableau croisé dynamique à E3 couvrant A1:C10
-int pivotIndex = sheet.PivotTables.Add("A1:C10", "E3", "PivotTable1");
-PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
 // Fruit -> Ligne, Montant -> Données (Année ira dans la Page ci-dessous)
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -150,8 +148,7 @@ class Program
         }
         // Créer un tableau croisé dynamique à E3
         var pivotTables = sheet.PivotTables;
-        int index = pivotTables.Add("=A1:C7", "E3", "PivotTable1");
-        PivotTable pivotTable = pivotTables[index];
+        PivotTable pivotTable = pivotTables.Add("=A1:C7", 2, 4);
         // Configurer les champs du tableau croisé : Fruit→Ligne, Montant→Données, Année→Page
         pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
         pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -195,8 +192,7 @@ cells["B5"].PutValue("2021");
 cells["C5"].PutValue("250");
 // Ajouter un tableau croisé dynamique à E3
 var pivotTables = sheet.PivotTables;
-int pivotIndex = pivotTables.Add("A1:C5", "E3", "PivotTable1");
-var pivotTable = pivotTables[pivotIndex];
+var pivotTable = pivotTables.Add("A1:C5", 2, 4);
 // Ajouter des champs : Fruit→Ligne, Montant→Données, Année→Page
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -246,8 +242,7 @@ for (int i = 0; i < data.GetLength(0); i++)
 }
 Worksheet pivotSheet = workbook.Worksheets.Add("Pivot");
 PivotTableCollection pivots = pivotSheet.PivotTables;
-int pivotIndex = pivots.Add("A1:C10", "E3", "PivotTable1");
-PivotTable pivotTable = pivots[pivotIndex];
+PivotTable pivotTable = pivots.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");

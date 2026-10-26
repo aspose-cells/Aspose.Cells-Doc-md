@@ -133,8 +133,7 @@ int main() {
     cells.Get(u"A9").PutValue(U16String("cherry"));
     cells.Get(u"B9").PutValue(2021);
     cells.Get(u"C9").PutValue(120);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C9", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -183,8 +182,7 @@ int main() {
     worksheet.GetCells().Get(u"A9").PutValue(u"cherry");
     worksheet.GetCells().Get(u"B9").PutValue(2020);
     worksheet.GetCells().Get(u"C9").PutValue(140);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C9", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -235,9 +233,8 @@ int main() {
     worksheet.GetCells().Get(u"A9").PutValue(u"Cherry");
     worksheet.GetCells().Get(u"B9").PutValue(2021);
     worksheet.GetCells().Get(u"C9").PutValue(450);
-    // Add a pivot table named "Pivot1" placed at destination cell E3, sourcing from A1:C9
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ // Add a pivot table placed at destination cell E3, sourcing from A1:C9
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C9", 2, 4);
     // Assign fields: Fruit to Row, Year to Column, Amount to Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -276,13 +273,11 @@ int main() {
     sheet.GetCells().Get(u"A7").PutValue(u"Blueberry");  sheet.GetCells().Get(u"B7").PutValue(2021); sheet.GetCells().Get(u"C7").PutValue(1800);
     sheet.GetCells().Get(u"A8").PutValue(u"Kiwi");       sheet.GetCells().Get(u"B8").PutValue(2021); sheet.GetCells().Get(u"C8").PutValue(2200);
     sheet.GetCells().Get(u"A9").PutValue(u"Cherry");     sheet.GetCells().Get(u"B9").PutValue(2021); sheet.GetCells().Get(u"C9").PutValue(2700);
-    int idx1 = sheet.GetPivotTables().Add(u"A1:C9", u"E3", u"Pivot1");
-    PivotTable pivotTable1 = sheet.GetPivotTables().Get(idx1);
+    PivotTable pivotTable1 = sheet.GetPivotTables().Add(u"A1:C9", 2, 4);
     pivotTable1.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable1.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable1.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    int idx2 = sheet.GetPivotTables().Add(u"A1:C9", u"E15", u"Pivot2");
-    PivotTable pivotTable2 = sheet.GetPivotTables().Get(idx2);
+    PivotTable pivotTable2 = sheet.GetPivotTables().Add(u"A1:C9", 14, 4);
     pivotTable2.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable2.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable2.AddFieldToArea(PivotFieldType::Data, u"Amount");

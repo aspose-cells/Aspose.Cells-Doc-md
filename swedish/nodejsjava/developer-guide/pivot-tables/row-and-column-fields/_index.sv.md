@@ -85,8 +85,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -127,8 +126,7 @@ for (let i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -184,8 +182,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -198,7 +195,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Sammanfattning**
-
 De tre scenario skiljer sig bara i en sak: anropen till `setSubtotals`. Allt annat — datasetet, fälten och de områden de tilldelas till — är identiskt, vilket gör att layouterna går att jämföra direkt.
 - **Placera fält.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, fieldName)` flyttar en källkolumn till ett område. Inom ett område är kallaordningen den visuella ordningen, så det första anropet blir det yttre gruppfältet. Subtotaler kräver två eller fler fält i samma område: med ett ensamt fält finns det inget mellan grupperna att summera.
 - **Scenario 1 — automatiska subtotaler.** Om `setSubtotals` inte anropas lämnas valet till Excel, som tillämpar sin egen standardsubtotalsumma på numeriska fält. Genom att anropa `setSubtotals` med `AsposeCells.PivotFieldSubtotalType.AUTOMATIC` registreras detta val explicit istället för att lämna det implicit.
@@ -208,6 +204,7 @@ De tre scenario skiljer sig bara i en sak: anropen till `setSubtotals`. Allt ann
 {{% alert color="primary" %}}
 Inget med subtotaler är specifikt för radområdet. Samma `setSubtotals`-anrop på ett fält taget från `PivotTable.ColumnFields` producerar samma tre layouter på axeln för kolumnerna, eftersom inställningen tillhör pivotfältet och inte axeln det är placerat på.
 {{% /alert %}}
+
 ## **Relaterade artiklar**
 - [Sidfält i pivottabeller](/cells/sv/nodejs-java/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells for Node.js via Java](/cells/sv/nodejs-java/refresh-pivot-table/)

@@ -58,8 +58,7 @@ for (int i = 0; i < data.GetLength(0); i++)
     worksheet.Cells[i + 1, 2].PutValue(data[i, 2]);
 }
 // E3 hücresine bağlı bir özet tablo ekle
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // Alanları kendi alanlarına ekle: Meyve Satır olarak, Miktar Veri olarak, Yıl Sayfa alanı olarak
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -99,8 +98,7 @@ sheet.Cells["A8"].PutValue("blueberry"); sheet.Cells["B8"].PutValue("2020"); she
 sheet.Cells["A9"].PutValue("blueberry"); sheet.Cells["B9"].PutValue("2021"); sheet.Cells["C9"].PutValue(350);
 sheet.Cells["A10"].PutValue("blueberry");sheet.Cells["B10"].PutValue("2022"); sheet.Cells["C10"].PutValue(450);
 // A1:C10 aralığını kapsayacak şekilde E3'e pivot tablo ekle
-int pivotIndex = sheet.PivotTables.Add("A1:C10", "E3", "PivotTable1");
-PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
 // Meyve -> Satır, Tutar -> Veri (Yıl aşağıda Sayfa'ya gidecek)
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -152,8 +150,7 @@ class Program
         }
         // E3 konumunda pivot tablo oluştur
         var pivotTables = sheet.PivotTables;
-        int index = pivotTables.Add("=A1:C7", "E3", "PivotTable1");
-        PivotTable pivotTable = pivotTables[index];
+        PivotTable pivotTable = pivotTables.Add("=A1:C7", 2, 4);
         // Pivot alanlarını yapılandır: Fruit→Satır, Amount→Veri, Year→Sayfa
         pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
         pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -197,8 +194,7 @@ cells["B5"].PutValue("2021");
 cells["C5"].PutValue("250");
 // E3'e pivot tablo ekle
 var pivotTables = sheet.PivotTables;
-int pivotIndex = pivotTables.Add("A1:C5", "E3", "PivotTable1");
-var pivotTable = pivotTables[pivotIndex];
+var pivotTable = pivotTables.Add("A1:C5", 2, 4);
 // Alanları ekle: Meyve→Satır, Tutar→Veri, Yıl→Sayfa
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -249,8 +245,7 @@ for (int i = 0; i < data.GetLength(0); i++)
 }
 Worksheet pivotSheet = workbook.Worksheets.Add("Pivot");
 PivotTableCollection pivots = pivotSheet.PivotTables;
-int pivotIndex = pivots.Add("A1:C10", "E3", "PivotTable1");
-PivotTable pivotTable = pivots[pivotIndex];
+PivotTable pivotTable = pivots.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");

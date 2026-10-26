@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Die parameterlose Überladung `PivotField.Group()` prüft den Datentyp des Felds und gruppiert es automatisch. Ein Feld, das nur Datumsangaben (und leere Werte) enthält, wird nach Monaten gruppiert. Ein Feld, das nur Zahlen (und leere Werte) enthält, wird mit einem automatischen Intervall in Zahlenbereiche gruppiert.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Laden Sie die Beispielarbeitsmappe
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Zugriff auf das zweite Arbeitsblatt und dessen Pivot-Tabelle
@@ -40,6 +41,7 @@ Das folgende Beispiel gruppiert das Datumszeilenfeld der Beispiel-Pivot-Tabelle 
 Beachten Sie, dass die Reihenfolge der Werte in `options.GroupTypes` ignoriert wird. Unabhängig davon, in welcher Reihenfolge die Gruppentypen aufgelistet sind, werden die gruppierten Felder immer vom größten zum kleinsten Zeitraum angezeigt: Jahre, Quartale, Monate, Tage, Stunden, Minuten, Sekunden. In diesem Beispiel sind die Monate vor den Quartalen in `options.GroupTypes` aufgeführt, dennoch werden die Quartale als äußere Ebene und die Monate als innere Ebene angezeigt.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Laden Sie die Beispielarbeitsmappe
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Greifen Sie auf das zweite Arbeitsblatt und seine Pivot-Tabelle zu
@@ -61,6 +63,7 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 `FieldTwo` der Beispiel-Pivot-Tabelle ist zunächst ein Datenfeld (Wertfeld). Da nur Zeilen- oder Spaltenfelder gruppiert werden können, ruft der Code zunächst `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")` auf, um `FieldTwo` in den Zeilenbereich zu verschieben, aktualisiert die Pivot-Tabelle und gruppiert dann das numerische Feld mit `StartNumber = 0`, `EndNumber = 5` und `Interval = 2` in die Bereiche 0–1, 2–3 und 4–5.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Laden der Beispielarbeitsmappe
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Zugriff auf das zweite Arbeitsblatt und seine Pivot-Tabelle

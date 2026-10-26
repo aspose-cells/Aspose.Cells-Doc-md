@@ -87,9 +87,8 @@ worksheet.Cells["C8"].PutValue(110);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(120);
-// Добавить сводную таблицу: исходный диапазон "A1:C9", ячейка назначения "E3", имя "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Добавить сводную таблицу: исходный диапазон "A1:C9", ячейка назначения "E3", имя
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 // Назначить поля сводной таблицы: Fruit — в строки, Year — в столбцы, Amount — в данные
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -140,8 +139,7 @@ worksheet.Cells["C8"].PutValue(220);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2020);
 worksheet.Cells["C9"].PutValue(140);
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -196,9 +194,8 @@ worksheet.Cells["C8"].PutValue(350);
 worksheet.Cells["A9"].PutValue("Cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(450);
-// Добавить сводную таблицу с именем "Pivot1", размещённую в ячейке E3, с источником A1:C9
-int pivotIndex = worksheet.PivotTables.Add("A1:C9", "E3", "Pivot1");
-var pivotTable = worksheet.PivotTables[pivotIndex];
+// Добавить сводную таблицу с именем, размещённую в ячейке E3, с источником A1:C9
+var pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
 // Назначить поля: Fruit в строки, Year в столбцы, Amount в данные
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");

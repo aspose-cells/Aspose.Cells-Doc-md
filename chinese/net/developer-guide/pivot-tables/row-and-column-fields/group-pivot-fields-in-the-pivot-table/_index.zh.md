@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 无参数的 `PivotField.Group()` 重载会检查字段的数据类型并进行自动分组。仅包含日期（和空白）的字段按月分组。仅包含数字（和空白）的字段使用自动间隔分组为数值范围。
 
 ```csharp
+using Aspose.Cells.Pivot;
 // 加载示例工作簿
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // 访问第二个工作表及其数据透视表
@@ -40,6 +41,7 @@ wb.Save("outputAutoGroupPivotField.xlsx");
 请注意，`options.GroupTypes` 中值的顺序将被忽略。无论组类型按何种顺序列出，分组后的字段始终按从最大周期到最小周期的顺序显示：年、季度、月、日、小时、分钟、秒。在本示例中，`options.GroupTypes` 中月份的列出顺序在季度之前，但季度显示为外层级别，月份显示为内层级别。
 
 ```csharp
+using Aspose.Cells.Pivot;
 // 加载示例工作簿
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // 访问第二个工作表及其数据透视表
@@ -61,6 +63,7 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 示例数据透视表的 `FieldTwo` 最初是一个数据（值）字段。由于仅行或列字段可被分组，代码首先调用 `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")` 将 `FieldTwo` 移到行区域，刷新数据透视表，然后使用 `StartNumber = 0`、`EndNumber = 5` 和 `Interval = 2` 将该数值字段分组为 0-1、2-3 和 4-5 的范围。
 
 ```csharp
+using Aspose.Cells.Pivot;
 // 加载示例工作簿
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // 访问第二个工作表及其数据透视表

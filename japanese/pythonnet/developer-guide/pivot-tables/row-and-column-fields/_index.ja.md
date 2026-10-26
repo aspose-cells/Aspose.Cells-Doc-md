@@ -84,8 +84,7 @@ worksheet.cells.get(8, 0).put_value("Vegetable")
 worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -122,8 +121,7 @@ data = [
 for i in range(len(data)):
     for j in range(len(data[i])):
         worksheet.cells.get(i + 1, j).put_value(data[i][j])
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -182,8 +180,7 @@ worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
 pivot_tables = worksheet.pivot_tables
-pivot_index = pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = pivot_tables[pivot_index]
+pivot_table = pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -196,7 +193,6 @@ workbook.save("output_custom.xlsx")
 ```
 
 ## **Recap**
-
 三つのシナリオの違いは、`set_subtotals` の呼び出し方のみです。データセット、フィールド、およびそれらが割り当てられるエリアについては、すべて同一です。この点が、レイアウトを直接比較可能である理由です。
 - **フィールドの配置。** `PivotTable.add_field_to_area(PivotFieldType.ROW, fieldName)` は、ソース列をエリア内に移動します。同一エリア内では、このメソッド呼び出しの順序が表示順序となり、最初の呼び出しが最も外側のグループになります。小計を算出するには、同一エリア内に 2 つ以上のフィールドが必要です。1 つのフィールドしかないと、グループ間に小計を算出する対象が存在しなくなります。
 - **シナリオ 1 — 自動小計。** `set_subtotals` を呼び出さない場合、小計の適用は Excel に委ねられ、Excel は数値フィールドに対して独自のデフォルト小計を適用します。`PivotFieldSubtotalType.AUTOMATIC` を指定して `set_subtotals` を呼び出すと、その選択を暗黙的ではなく明示的に記録します。
@@ -206,6 +202,7 @@ workbook.save("output_custom.xlsx")
 {{% alert color="primary" %}}
 小計に関する設定は、行エリアに特有のものではありません。`PivotTable.ColumnFields` から取得したフィールドに対して同じ `set_subtotals` の呼び出しを行うと、列軸上でも同じ 3 つのレイアウトが得られます。なぜなら、この設定は軸ではなくピボットフィールド自体に属しているからです。
 {{% /alert %}}
+
 ## **Related Articles**
 - [ピボットテーブルのページフィールド](/cells/ja/python-net/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Python via .NET でピボットテーブルを更新する](/cells/ja/python-net/refresh-pivot-table/)

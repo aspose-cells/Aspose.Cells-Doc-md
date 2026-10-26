@@ -95,8 +95,7 @@ pivotDataCells.get(8, 3).putValue(110);
 Worksheet pivotTableSheet = worksheets.add("PivotTableReport");
 PivotTableCollection pivotTables = pivotTableSheet.getPivotTables();
 // PivotData!A1:D9 kaynağından, PivotTableReport üzerinde A1'e yerleştirilen bir pivot tablo oluştur
-int pivotIndex = pivotTables.add("PivotData!A1:D9", "A1", "PivotTable1");
-PivotTable pivotTable = pivotTables.get(pivotIndex);
+PivotTable pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0);
 // Alanları ekle
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0);   // Meyve
 pivotTable.addFieldToArea(PivotFieldType.PAGE, 1);  // Yıl
@@ -146,8 +145,7 @@ for (int r = 0; r < data.length; r++)
         pivotData.getCells().get(r + 1, c).putValue(data[r][c]);
     }
 }
-int idx = pivotReport.getPivotTables().add("PivotData!A1:D9", "A1", "PivotTable");
-PivotTable pivotTable = pivotReport.getPivotTables().get(idx);
+PivotTable pivotTable = pivotReport.getPivotTables().add("PivotData!A1:D9", 0, 0);
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0);
 pivotTable.addFieldToArea(PivotFieldType.PAGE, 1);
 pivotTable.addFieldToArea(PivotFieldType.PAGE, 2);
@@ -203,8 +201,7 @@ dataSheet.getCells().get("B9").putValue(2023);
 dataSheet.getCells().get("C9").putValue("West");
 dataSheet.getCells().get("D9").putValue(110);
 Worksheet pivotSheet = workbook.getWorksheets().add("PivotTableReport");
-int pivotIdx = pivotSheet.getPivotTables().add("PivotData!A1:D9", "A3", "PivotTable");
-PivotTable pivotTable = pivotSheet.getPivotTables().get(pivotIdx);
+PivotTable pivotTable = pivotSheet.getPivotTables().add("PivotData!A1:D9", 2, 0);
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0);
 pivotTable.addFieldToArea(PivotFieldType.PAGE, 1);
 pivotTable.addFieldToArea(PivotFieldType.PAGE, 2);

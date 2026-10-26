@@ -1,7 +1,7 @@
 ---
 title: Tillämpa stilar på pivottabeller i Aspose.Cells for Node.js via C++
 linktitle: Tillämpa stilar på pivottabeller i Aspose.Cells for Node.js via C++
-description: Lär dig hur du tillämpar inbyggda och anpassade stilar på pivottabeller med Aspose.Cells for Node.js via C++, inklusive äldre XLS-autoformat, moderna namngivna stilar för Excel 2007+, anpassade pivottabellstilar och FormatAll-genvägen.
+description: Lär dig hur du tillämpar inbyggda och anpassade stilar på pivottabeller med Aspose.Cells for Node.js via C++, inklusive äldre XLS-autoformat, moderna namngivna stilar för Excel 2007+, anpassade pivottabellstilar och formatAll-genvägen.
 keywords: Aspose.Cells Node.js via C++ pivottabellstil, PivotTableStyleType, AutoFormatType, FormatAll, anpassad stil, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -70,9 +70,8 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// Lägg till en pivottabell vid destinationscell E3, namngiven "Pivot1", med källintervall A1:C10
-const pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-const pivotTable = sheet.getPivotTables().get(pivotIndex);
+// Lägg till en pivottabell vid destinationscell E3, namngiven, med källintervall A1:C10
+const pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // Tilldela fält: Fruit -> Rader, Amount -> Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -86,7 +85,6 @@ workbook.save("output.xls");
 ```
 
 ## **Tillämpa en modern namngiven förinställd pivottabellstil**
-
 `PivotTable.pivotTableStyleType` väljer en av de inbyggda namngivna stilarna som Excel 2007 införde för pivot-tabeller. Uppräkningen `PivotTableStyleType` erbjuder tre temafamiljer: ljusfamiljen från `PivotTableStyleLight1` till `PivotTableStyleLight28`, medelfamiljen från `PivotTableStyleMedium1` till `PivotTableStyleMedium28` och mörkfamiljen från `PivotTableStyleDark1` till `PivotTableStyleDark28`. Den definierar även `None` och `Custom`. De högernummererade medlemmarna i varje familj är de stilar som lades till i Excel 2017.
 Dessa förinställningar är skrivskyddade. När du behöver ändra färger, linjer eller teckensnitt bortom vad en förinställning tillåter, måste du istället definiera en anpassad pivotstil, enligt vad som visas i [Scenario 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -132,9 +130,8 @@ worksheet.getCells().get("C9").putValue(190);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(130);
-// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Add a pivot table at E3, sourced from A1:C10
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -148,6 +145,7 @@ pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PivotTableStyl
 // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx");
 ```
+
 ## **Definiera och tillämpa en anpassad pivottabellstil**
 De inbyggda förinställningarna kan inte ändras. När du behöver åsidosätta färger, kanter eller typsnitt måste du definiera en anpassad pivotstil. Arbetsflödet har tre steg:
 1. Lägg till en anpassad stil i arbetsbokens `TableStyles`-samling via `Workbook.Worksheets.TableStyles.addPivotTableStyle(string name)`. Detta returnerar indexet för den nyskapade stilen.
@@ -195,9 +193,8 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// Lägg till pivottabell från A1:C10, förankrad vid E3, med namnet "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Lägg till pivottabell från A1:C10, förankrad vid E3, med namnet
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -272,9 +269,8 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// Lägg till pivottabell: källområde A1:C10, destinationscell E3, namn "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Lägg till pivottabell: källområde A1:C10, destinationscell E3, namn
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Tilldela pivotfält: Fruit -> Rad-område, Year -> Kolumn-område, Amount -> Data-område
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -309,6 +305,5 @@ Valet av stil-API beror på det filformat du sparar till. Använd tabellen nedan
 | `.xlsx` / `.xlsm` / `.xlsb` (modern, anpassad stil) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | Använd när de inbyggda förinställningarna inte räcker. Konfigurera via `TableStyleElement.SetElementStyle(...)`. |
 | Valfritt format (enhetlig åsidosättning) | `PivotTable.formatAll(Style)` | Genväg som åsidosätter alla andra stilinställningar i hela pivottabellen. |
 Vid tveksamhet, spara som `.xlsx` och använd `PivotTableStyleType` för inbyggda teman, eller `PivotTableStyleName` för anpassade teman.
-
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

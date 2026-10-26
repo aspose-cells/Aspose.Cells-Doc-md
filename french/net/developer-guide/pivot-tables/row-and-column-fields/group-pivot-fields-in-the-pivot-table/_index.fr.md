@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 La surcharge sans paramètre `PivotField.Group()` examine le type de données du champ et le regroupe automatiquement. Un champ qui ne contient que des dates (et des blancs) est regroupé par mois. Un champ qui ne contient que des nombres (et des blancs) est regroupé en plages numériques à l'aide d'un intervalle automatique.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Charger le classeur exemple
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Accéder à la deuxième feuille de calcul et à son tableau croisé dynamique
@@ -40,6 +41,7 @@ L'exemple suivant regroupe le champ de ligne de date du tableau croisé dynamiqu
 Notez que l'ordre des valeurs dans `options.GroupTypes` est ignoré. Quel que soit l'ordre dans lequel les types de groupes sont listés, les champs regroupés sont toujours affichés de la plus grande période à la plus petite : années, trimestres, mois, jours, heures, minutes, secondes. Dans cet exemple, les mois sont listés avant les trimestres dans `options.GroupTypes`, pourtant les trimestres sont affichés comme le niveau externe et les mois comme le niveau interne.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Charger le classeur d'exemple
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Accéder à la deuxième feuille de calcul et à son tableau croisé dynamique
@@ -61,6 +63,7 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 `FieldTwo` du tableau croisé dynamique d'exemple est initialement un champ de données (valeur). Comme seuls les champs de ligne ou de colonne peuvent être regroupés, le code appelle d'abord `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")` pour déplacer `FieldTwo` dans la zone des lignes, actualise le tableau croisé dynamique, puis regroupe le champ numérique dans les plages 0-1, 2-3 et 4-5 à l'aide de `StartNumber = 0`, `EndNumber = 5` et `Interval = 2`.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Charger le classeur d'exemple
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Accéder à la deuxième feuille de calcul et à son tableau croisé dynamique

@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -124,8 +123,7 @@ for (let i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -181,8 +179,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -195,7 +192,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Zusammenfassung**
-
 Die drei Szenarien unterscheiden sich lediglich in den Aufrufen von `setSubtotals`. Alles Weitere — der Dataset, die Felder und die Bereiche, denen sie zugewiesen sind — ist identisch, was die Layouts unmittelbar miteinander vergleichbar macht.
 - **Platzieren von Feldern.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, fieldName)` verschiebt eine Quellspalte in einen Bereich. Innerhalb eines Bereichs bestimmt die Reihenfolge der Aufrufe die Anzeigereihenfolge, sodass der erste Aufruf die äußerste Gruppe bildet. Zwischensummen benötigen zwei oder mehr Felder im selben Bereich: Bei nur einem Feld gibt es nichts zwischen den Gruppen, für das eine Zwischensumme gebildet werden könnte.
 - **Szenario 1 — automatische Zwischensummen.** Das Auslassen von `setSubtotals` überlässt die Entscheidung Excel, welches seine eigene Standard-Zwischensumme für numerische Felder anwendet. Der Aufruf von `setSubtotals` mit `AsposeCells.PivotFieldSubtotalType.AUTOMATIC` dokumentiert diese Entscheidung explizit, statt sie implizit zu belassen.
@@ -205,6 +201,7 @@ Die drei Szenarien unterscheiden sich lediglich in den Aufrufen von `setSubtotal
 {{% alert color="primary" %}}
 Nichtsbezüglich der Zwischensummen ist auf den Zeilenbereich spezifisch beschränkt. Die gleichen Aufrufe von `setSubtotals` für ein Feld aus `PivotTable.ColumnFields` erzeugen die gleichen drei Layouts entlang der Spaltenachse, da die Einstellung zum Pivot-Feld selbst gehört und nicht zur Achse, auf der es platziert ist.
 {{% /alert %}}
+
 ## **Verwandte Artikel**
 - [Seitenfelder in PivotTables](/cells/de/nodejs-java/add-page-field-in-pivot-table/)
 - [Aktualisieren von PivotTables in Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/refresh-pivot-table/)

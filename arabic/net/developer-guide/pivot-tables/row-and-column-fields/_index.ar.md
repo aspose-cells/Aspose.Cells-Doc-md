@@ -85,8 +85,7 @@ worksheet.Cells[8, 0].PutValue("Vegetable");
 worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -129,8 +128,7 @@ for (int i = 0; i < data.GetLength(0); i++)
         worksheet.Cells[i + 1, j].PutValue(data[i, j]);
     }
 }
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -188,8 +186,7 @@ worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
 PivotTableCollection pivotTables = worksheet.PivotTables;
-int pivotIndex = pivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables[pivotIndex];
+PivotTable pivotTable = pivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -202,7 +199,6 @@ workbook.Save("output_custom.xlsx");
 ```
 
 ## **ملخص**
-
 تختلف السيناريوهات الثلاثة في نقطة واحدة فقط: مكالمات `SetSubtotals`. وتتطابق كل الأجزاء الأخرى — namely مجموعة البيانات، والحقول، ومناطق تعيينها — مما يجعل الترتيبات قابلة للمقارنة المباشرة.
 - **وضع الحقول.** ينقل `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` عمود المصدر إلى منطقة ما. وفي إطار منطقة واحدة، يُحدد ترتيب المكالمات ترتيب العرض، لذا يصبح أول استدعاء هو المجموعة الخارجية. وتحتاج المجموعات الفرعية (Subtotals) إلى حقلين أو أكثر داخل منطقة واحدة: فمع وجود حقل واحد فقط لا يوجد ما بين المجموعات لحساب مجموعات فرعية له.
 - **السيناريو ١ — مجموعات فرعية تلقائية.** ترك استدعاء `SetSubtotals` غير مُستدعٍ يترك الخيار لـ Excel، الذي يُطبّق مجموعه الفرعي الافتراضي الخاص به على الحقول الرقمية. أما استدعاء `SetSubtotals` مع `PivotFieldSubtotalType.Automatic` فيسجّل هذا الاختيار صراحةً بدلاً من تركه ضمنيًا.
@@ -212,9 +208,10 @@ workbook.Save("output_custom.xlsx");
 {{% alert color="primary" %}}
 لا شيء في المجموعات الفرعية (Subtotals) مخصوص بمنطقة الصفوف فقط. فالاستدعاءات نفسها لـ `SetSubtotals` على حقل مأخوذ من `PivotTable.ColumnFields` تنتج نفس التصاميم الثلاثة على المحور العمودي، لأن الإعداد مرتبط بالحقل المحوري نفسه وليس بالمحور الذي ي sits عليه.
 {{% /alert %}}
-## **مقالات ذات صلة**
 
+## **مقالات ذات صلة**
 - [حقول الصفحة في جداول Pivot](/cells/ar/net/add-page-field-in-pivot-table/)
 - [تحديث جداول Pivot في Aspose.Cells لـ .NET](/cells/ar/net/refresh-pivot-table/)
 - [تطبيق أنماط على جداول Pivot](/cells/ar/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

@@ -56,8 +56,7 @@ for (int i = 1; i <= 8; i++)
  }
 }
 // F3 konumunda PivotTable1 adlı özet tablo ekle
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 // Pivot düzeni: Satır olarak Kategori ve Öğe, Sütun olarak Yıl, veri alanı olarak Tutar
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
@@ -99,8 +98,7 @@ for (int i = 0; i < data.length; i++) {
  worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
  }
 }
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -144,8 +142,7 @@ for (int i = 0; i < data.length; i++) {
  worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
  }
 }
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", true, false);
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");

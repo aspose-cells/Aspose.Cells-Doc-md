@@ -1,130 +1,92 @@
 ---
-title: Pivot Tablo Ekle
-description: Aspose.Cells for Node.js via Java kullanarak Excel elektronik tablo dosyalarında pivot tablolar oluşturun ve biçimlendirin.
-linktitle: Pivot Tablolar
-url: /tr/nodejs-java/create-pivot-table/
+title: Özet Tablo Ekle
+linktitle: Özet Tablo Ekle
+description: Excel elektronik tablo dosyalarında özet tablolar oluşturmak ve biçimlendirmek için Aspose.Cells for Node.js via Java kullanın.
+keywords: Özet Tablo Oluştur, Özet Tablo Ekle, Özet Tablosunu Biçimlendir, Aspose.Cells for Node.js via Java.
 type: docs
 weight: 160
-keywords: Pivot Tablo Oluştur, Pivot Tablo Ekle, Pivot Tablo Biçimlendir, Aspose.Cells for Node.js via Java.
+url: /tr/nodejs-java/create-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Pivot Tablo Oluşturma**
-Aspose.Cells kullanarak elektronik tablolara programlı olarak pivot tablolar eklemek mümkündür.
+## **Özet Tablo Nedir?**
+Özet tablo, etkileşimli bir özet raporudur: Ham, satır satır düzenlenmiş büyük bir veri bloğunu tek bir formül kullanmadan kompakt bir matrise dönüştürür. Hangi sütunların satır etiketlerine, hangilerinin sütun etiketlerine dönüşeceğini ve hangilerinin değerler olarak özetleneceğini siz belirlersiniz; gruplama ve hesaplamayı özet tablo yapar:
+- **Özetleme** — uzun formül zincirleri yerine ürün, bölge veya çeyrek bazında toplam satışlar.
+- **Karşılaştırma** — satırlarda kategoriler ve sütunlarda dönemler, düz bir listeyi eğilimlerin tek bakışta görülebileceği çapraz bir rapora dönüştürür.
+- **Ayrıntıya inme** — özetlenmiş bir değere çift tıklayarak arkasındaki kaynak satırları inceleyebilirsiniz.
+- **Yenileme** — kaynak veri değiştiğinde tek bir yenileme, raporun tamamını yeniden hesaplar.
+Tipik kullanım senaryoları; satış panoları, gider kırılımları ve stok analizidir. Bu alanlar, "bu sayılar kategori ve zamana göre nasıl dağılıyor?" biçimindeki sorulara yanıt verir. Aspose.Cells for Node.js via Java, özet tabloları programatik olarak oluşturmanızı sağlar. Böylece uygulamanızın oluşturduğu çalışma kitapları yalnızca ham veriden oluşmak yerine hazır raporlar da içerebilir.
 
-### **Pivot Tablo Nesne Modeli**
-Aspose.Cells, pivot tabloları oluşturmak ve kontrol etmek için kullanılan bir dizi sınıf sağlar. Yapı taşları şunlardır:
+### **Özet Tablosu Nesne Modeli**
+Aspose.Cells, özet tabloları oluşturmak ve denetlemek için kullanılan bir sınıf kümesi sağlar. Temel yapı taşları şunlardır:
 - `PivotField`, bir `PivotTable` içindeki bir alanı temsil eder.
-- `PivotFieldCollection`, `PivotTable` içindeki tüm `PivotField` nesnelerinin bir koleksiyonunu temsil eder.
-- `PivotTable`, çalışma sayfasındaki bir pivot tabloyu temsil eder.
-- `PivotTableCollection`, çalışma sayfasındaki tüm `PivotTable` nesnelerinin bir koleksiyonunu temsil eder.
+- `PivotFieldCollection`, `PivotTable` içindeki tüm `PivotField` nesnelerinin koleksiyonunu temsil eder.
+- `PivotTable`, bir çalışma sayfası üzerindeki özet tabloyu temsil eder.
+- `PivotTableCollection`, bir çalışma sayfası üzerindeki tüm `PivotTable` nesnelerinin koleksiyonunu temsil eder.
 
-### **Aspose.Cells Kullanarak Basit Bir Pivot Tablo Oluşturma**
-1. Hücrenin `putValue` yöntemini kullanarak çalışma sayfasına veri ekleyin. Bu veriler, pivot tablonun veri kaynağı olarak kullanılacaktır.
-2. Çalışma sayfası nesnesinde kapsüllenmiş `PivotTables` koleksiyonunun `add` yöntemini çağırarak çalışma sayfasına bir pivot tablo ekleyin.
-3. Pivot tablonun dizinini geçirerek `PivotTables` koleksiyonundan yeni `PivotTable` nesnesine erişin.
-4. Pivot tabloyu yönetmek için yukarıda açıklanan `PivotTable` nesnelerinden herhangi birini kullanın.
-Örnek kod çalıştırıldıktan sonra çalışma sayfasına bir pivot tablo eklenir.
+### **Aspose.Cells Kullanarak Basit Bir Özet Tablo Oluşturma**
+Bir özet tablo oluşturmak üç adımlı bir işlemdir: kaynak veriyi çalışma sayfası hücrelerine yazın, özet tabloyu hedef konuma ekleyin ve özet alanlarını satır, sütun ve veri alanlarına yerleştirin.
+1. Bir çalışma sayfasındaki hücreye `putValue` yöntemini kullanarak veri ekleyin. Bu veri, özet tablonun veri kaynağı olarak kullanılacaktır.
+2. `PivotTables` koleksiyonunun `add` yöntemini çağırarak çalışma sayfasına bir özet tablo ekleyin: `add(sourceData, row, column)`. `sourceData` kaynak aralıktır (örneğin, "A1:C8"); `row` ve `column`, özet tablonun sol üst köşesinin yerleştirileceği hedef hücrenin sıfırdan başlayan koordinatlarıdır (E3 hücresi satır 2, sütun 4 anlamına gelir). Yöntem, yeni `PivotTable` nesnesini doğrudan döndürür.
+3. `PivotTable` nesnesinin `addFieldToArea` yöntemini kullanarak özet alanlarını yerleştirin. Alan adı, satır alanına (`PivotFieldType.ROW`), sütun alanına (`PivotFieldType.COLUMN`) veya veri alanına (`PivotFieldType.DATA`) eklenir.
+4. Çalışma kitabını kaydedin — özet tablo, kaydedilen dosyaya yazılır.
+Örnek kodu çalıştırdıktan sonra çalışma sayfasına bir özet tablo eklenir.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-var dataDir = "./";
 
-// Instantiating a Workbook object
-var workbook = new AsposeCells.Workbook();
+// Yeni bir çalışma kitabı oluştur ve ilk çalışma sayfasını al
+let workbook = new AsposeCells.Workbook();
+let sheet = workbook.getWorksheets().get(0);
 
-// Obtaining the reference of the newly added worksheet
-var sheet = workbook.getWorksheets().get(0);
+// Kaynak verileri yaz: spor ve çeyrek bazında satışlar
+sheet.getCells().get("A1").putValue("Sport");
+sheet.getCells().get("B1").putValue("Quarter");
+sheet.getCells().get("C1").putValue("Sales");
+sheet.getCells().get("A2").putValue("Golf");
+sheet.getCells().get("B2").putValue("Qtr3");
+sheet.getCells().get("C2").putValue(1500);
+sheet.getCells().get("A3").putValue("Golf");
+sheet.getCells().get("B3").putValue("Qtr4");
+sheet.getCells().get("C3").putValue(2000);
+sheet.getCells().get("A4").putValue("Tennis");
+sheet.getCells().get("B4").putValue("Qtr3");
+sheet.getCells().get("C4").putValue(600);
+sheet.getCells().get("A5").putValue("Tennis");
+sheet.getCells().get("B5").putValue("Qtr4");
+sheet.getCells().get("C5").putValue(1500);
+sheet.getCells().get("A6").putValue("Tennis");
+sheet.getCells().get("B6").putValue("Qtr3");
+sheet.getCells().get("C6").putValue(4070);
+sheet.getCells().get("A7").putValue("Tennis");
+sheet.getCells().get("B7").putValue("Qtr4");
+sheet.getCells().get("C7").putValue(5000);
+sheet.getCells().get("A8").putValue("Golf");
+sheet.getCells().get("B8").putValue("Qtr3");
+sheet.getCells().get("C8").putValue(6430);
 
-var cells = sheet.getCells();
+// E3 hedef hücresine A1:C8 kaynaklı bir pivot tablo ekle
+let pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
 
-// Setting the value to the cells
-var cell = cells.get("A1");
-cell.putValue("Sport");
-cell = cells.get("B1");
-cell.putValue("Quarter");
-cell = cells.get("C1");
-cell.putValue("Sales");
+// Pivot alanlarını ata: Satırlar alanına Sport, Sütunlar alanına Quarter, Veriler alanına Sales
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Sport");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Quarter");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Sales");
 
-cell = cells.get("A2");
-cell.putValue("Golf");
-cell = cells.get("A3");
-cell.putValue("Golf");
-cell = cells.get("A4");
-cell.putValue("Tennis");
-cell = cells.get("A5");
-cell.putValue("Tennis");
-cell = cells.get("A6");
-cell.putValue("Tennis");
-cell = cells.get("A7");
-cell.putValue("Tennis");
-cell = cells.get("A8");
-cell.putValue("Golf");
-
-cell = cells.get("B2");
-cell.putValue("Qtr3");
-cell = cells.get("B3");
-cell.putValue("Qtr4");
-cell = cells.get("B4");
-cell.putValue("Qtr3");
-cell = cells.get("B5");
-cell.putValue("Qtr4");
-cell = cells.get("B6");
-cell.putValue("Qtr3");
-cell = cells.get("B7");
-cell.putValue("Qtr4");
-cell = cells.get("B8");
-cell.putValue("Qtr3");
-
-cell = cells.get("C2");
-cell.putValue(1500);
-cell = cells.get("C3");
-cell.putValue(2000);
-cell = cells.get("C4");
-cell.putValue(600);
-cell = cells.get("C5");
-cell.putValue(1500);
-cell = cells.get("C6");
-cell.putValue(4070);
-cell = cells.get("C7");
-cell.putValue(5000);
-cell = cells.get("C8");
-cell.putValue(6430);
-
-var pivotTables = sheet.getPivotTables();
-
-// Adding a PivotTable to the worksheet
-var index = pivotTables.add("=A1:C8", "E3", "PivotTable2");
-
-// Accessing the instance of the newly added PivotTable
-var pivotTable = pivotTables.get(index);
-
-// Unshowing grand totals for rows.
-pivotTable.setRowGrand(false);
-
-// Draging the first field to the row area.
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
-
-// Draging the second field to the column area.
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, 1);
-
-// Draging the third field to the data area.
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 2);
-
-// Saving the Excel file
-workbook.save(dataDir + "pivotTable_test_out.xls");
+// Çalışma kitabını kaydet
+workbook.save("pivotTable_test_out.xlsx");
 ```
 
 {{% alert color="primary" %}}
-Bir hücre aralığını veri kaynağı olarak atarken, aralık sol üstten sağ alta doğru gitmelidir. Örneğin, "A1:C3" geçerlidir, ancak "C3:A1" geçerli değildir.
+Bir hücre aralığını veri kaynağı olarak atarken aralığın sol üstten sağ alta gitmesi gerekir. Örneğin, "A1:C3" geçerlidir ancak "C3:A1" geçerli değildir.
 {{% /alert %}}
 
 ## İlgili Makaleler
-- [Aspose.Cells for Node.js via Java'te PivotTable'a filtre alanları ekleme](/cells/tr/nodejs-java/add-page-field-in-pivot-table/)
-- [Aspose.Cells for Node.js via Java'da Pivot Tablolarına Stil Uygulama](/cells/tr/nodejs-java/apply-style-to-pivot-table/)
-- [Modify Page Field Layout in Pivot Table](/cells/tr/nodejs-java/change-page-field-layout/)
-- [Filtering Pivot Tables by Label or Value](/cells/tr/nodejs-java/filter-by-label-or-value-of-pivot-table/)
-- [Aspose.Cells for Node.js via Java'da Değer Alanları](/cells/tr/nodejs-java/manage-value-fields/)
+- [Aspose.Cells for Node.js via Java ile Özet Tabloya Filtre Alanları Ekle](/cells/tr/nodejs-java/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Node.js via Java ile Özet Tablolara Stiller Uygula](/cells/tr/nodejs-java/apply-style-to-pivot-table/)
+- [Özet Tabloda Sayfa Alanı Düzenini Değiştir](/cells/tr/nodejs-java/change-page-field-layout/)
+- [Özet Tabloları Etikete veya Değere Göre Filtreleme](/cells/tr/nodejs-java/filter-by-label-or-value-of-pivot-table/)
+- [Aspose.Cells for Node.js via Java ile Özet Tablo Değer Alanlarını Yönetme](/cells/tr/nodejs-java/manage-value-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

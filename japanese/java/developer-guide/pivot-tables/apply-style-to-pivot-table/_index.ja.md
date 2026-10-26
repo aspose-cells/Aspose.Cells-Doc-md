@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Java でピボットテーブルにスタイルを適用する
 linktitle: Aspose.Cells for Java でピボットテーブルにスタイルを適用する
-description: Aspose.Cells for Java でピボットテーブルに組み込みスタイルとカスタムスタイルを適用する方法を説明します。レガシー XLS の自動書式、Excel 2007 以降のモダンな名前付きスタイル、カスタムピボットテーブルスタイル、FormatAll ショートカットについて解説します。
+description: Aspose.Cells for Java でピボットテーブルに組み込みスタイルとカスタムスタイルを適用する方法を説明します。レガシー XLS の自動書式、Excel 2007 以降のモダンな名前付きスタイル、カスタムピボットテーブルスタイル、formatAll ショートカットについて解説します。
 keywords: Aspose.Cells Java ピボットテーブル スタイル, PivotTableStyleType, AutoFormatType, FormatAll, カスタムスタイル, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -72,8 +72,7 @@ sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
 // 送信先セル E3 に「Pivot1」という名前のピボットテーブルをソース範囲 A1:C10 を使用して追加する
-int pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = sheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // フィールドを割り当てる: Fruit -> 行、Amount -> データ
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -87,7 +86,6 @@ workbook.save("output.xls");
 ```
 
 ## **モダンな名前付きプリセットのピボットテーブルスタイルを適用する**
-
 `PivotTable.setPivotTableStyleType(int)` は、Excel 2007 でピボットテーブルに導入された組み込みの名前付きスタイルのいずれかを選択します。`PivotTableStyleType` 列挙型は、3 つのテーマファミリーを公開しています。`PIVOT_TABLE_STYLE_LIGHT1` から `PIVOT_TABLE_STYLE_LIGHT28` までのライトファミリー、`PIVOT_TABLE_STYLE_MEDIUM1` から `PIVOT_TABLE_STYLE_MEDIUM28` までの中間ファミリー、`PIVOT_TABLE_STYLE_DARK1` から `PIVOT_TABLE_STYLE_DARK_28` までのダークファミリーです。また、`None` と `Custom` も定義しています。各ファミリーで番号が大きいメンバーは、Excel 2017 で追加されたスタイルです。
 これらのプリセットは読み取り専用です。色、罫線、またはフォントをプリセットの範囲を超えて変更する必要がある場合は、代わりにカスタムピボットスタイルを定義する必要があります。これは [シナリオ 3](#define-and-apply-a-custom-pivot-table-style) で示されています。
 
@@ -133,9 +131,8 @@ worksheet.getCells().get("C9").putValue(190);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(130);
-// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Add a pivot table at E3, sourced from A1:C10
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -149,6 +146,7 @@ pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1);
 // Save as modern .xlsx - this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx");
 ```
+
 ## **カスタムピボットテーブルスタイルを定義して適用する**
 組み込みのプリセットは変更できません。色、罫線、フォントを上書きする必要がある場合は、必ずカスタムピボットスタイルを定義する必要があります。ワークフローは次の 3 ステップで構成されます。
 1. `Workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)` を呼び出して、ワークブックの `TableStyles` コレクションにカスタムスタイルを追加します。これは新しく作成されたスタイルのインデックスを返します。
@@ -197,8 +195,7 @@ worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
 // A1:C10をソースとするピボットテーブルをE3に「Pivot1」という名前で追加
-int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -278,9 +275,8 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// ピボットテーブルを追加: ソース範囲 A1:C10、配置先セル E3、名前 "Pivot1"
-int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// ピボットテーブルを追加: ソース範囲 A1:C10、配置先セル E3、名前
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // ピボットフィールドを割り当て: Fruit -> 行エリア、Year -> 列エリア、Amount -> データエリア
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -315,6 +311,5 @@ workbook.save("output.xlsx");
 | `.xlsx` / `.xlsm` / `.xlsb`（モダン、カスタムスタイル） | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | 組み込みプリセットで足りない場合に使用します。`TableStyleElement.setElementStyle(...)` を介して設定します。 |
 | すべての形式（統一上書き） | `PivotTable.formatAll(Style)` | ピボット全体の他のすべてのスタイル設定を上書きするショートカット。 |
 判断に迷った場合は、`.xlsx` として保存し、組み込みテーマには `PivotTableStyleType` を、カスタムテーマには `PivotTableStyleName` を使用してください。
-
 
 {{< app/cells/assistant language="java" >}}

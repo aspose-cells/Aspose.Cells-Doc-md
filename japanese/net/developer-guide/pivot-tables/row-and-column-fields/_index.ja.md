@@ -84,8 +84,7 @@ worksheet.Cells[8, 0].PutValue("Vegetable");
 worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -128,8 +127,7 @@ for (int i = 0; i < data.GetLength(0); i++)
         worksheet.Cells[i + 1, j].PutValue(data[i, j]);
     }
 }
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -187,8 +185,7 @@ worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
 PivotTableCollection pivotTables = worksheet.PivotTables;
-int pivotIndex = pivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables[pivotIndex];
+PivotTable pivotTable = pivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -201,7 +198,6 @@ workbook.Save("output_custom.xlsx");
 ```
 
 ## **Recap**
-
 3つのシナリオは、`SetSubtotals` の呼び出しという1点のみが異なります。それ以外の部分 — データセット、フィールド、およびそれらが割り当てられる領域 — はすべて同一であり、これによりレイアウトが直接比較可能となります。
 - **フィールドの配置**。`PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` は、ソース列を領域内に移動します。1つの領域内では、呼び出しの順序が表示順序となりますため、最初の呼び出しが最も外側のグループになります。小計を算出するには、同じ領域内に2つ以上のフィールドが必要です。フィールドが1つしかない場合、グループ間には小計を算出する対象となるデータが存在しなくなります。
 - **シナリオ 1 — 自動小計**。`SetSubtotals` を呼び出さない場合、Excel が独自のデフォルト小計を数値フィールドに適用します。`PivotFieldSubtotalType.Automatic` を指定して `SetSubtotals` を呼び出すと、その選択が暗黙的ではなく明示的に記録されます。
@@ -211,6 +207,7 @@ workbook.Save("output_custom.xlsx");
 {{% alert color="primary" %}}
 小計に関する設定は、行領域に固有のものではありません。`PivotTable.ColumnFields` から取得したフィールドに対しても同様の `SetSubtotals` 呼び出しを行うと、列軸上に同じ3つのレイアウトが生成されます。なぜなら、この設定は軸の配置ではなく、ピボットフィールド自体に属しているからです。
 {{% /alert %}}
+
 ## **Related Articles**
 - [ピボットテーブルのページフィールド](/cells/ja/net/add-page-field-in-pivot-table/)
 - [Aspose.Cells for .NET でピボットテーブルを更新する](/cells/ja/net/refresh-pivot-table/)

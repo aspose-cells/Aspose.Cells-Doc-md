@@ -1,7 +1,7 @@
 ---
 title: Добавление полей строк и столбцов сводной таблицы в Aspose.Cells for Node.js с помощью C++
 linktitle: Добавление полей строк и столбцов сводной таблицы в Aspose.Cells for Node.js с помощью C++
-description: Узнайте, как добавлять базовые поля в области строк и столбцов сводной таблицы и управлять подытогами полей сводной таблицы с помощью PivotField.SetSubtotals в Aspose.Cells for Node.js с помощью C++
+description: Узнайте, как добавлять базовые поля в области строк и столбцов сводной таблицы и управлять подытогами полей сводной таблицы с помощью PivotField.setSubtotals в Aspose.Cells for Node.js с помощью C++
 keywords: Aspose.Cells, Node.js, C++, сводная таблица, поле строки, поле столбца, PivotField, SetSubtotals, PivotFieldSubtotalType, подытоги
 type: docs
 weight: 220
@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -121,8 +120,7 @@ for (let i = 0; i < data.length; i++) {
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+const pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -178,8 +176,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -192,7 +189,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Краткие итоги**
-
 Три сценария отличаются только вызовами метода `setSubtotals`. Всё остальное — набор данных, поля и области, которым они назначены, — идентично, что делает макеты непосредственно сопоставимыми.
 - **Размещение полей.** Метод `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` перемещает исходный столбец в определённую область. Внутри одной области порядок вызовов определяет порядок отображения, поэтому первый вызов создаёт самую внешнюю группу. Для вычисления промежуточных итогов необходимо наличие двух или более полей в одной и той же области: при наличии одного поля между группами просто отсутствует место для вставки промежуточных итогов.
 - **Сценарий 1 — автоматические промежуточные итоги.** Если метод `setSubtotals` не вызывается, выбор по умолчанию остаётся за Excel, который применяет свой собственный промежуточный итог к числовым полям. Вызов `setSubtotals` с параметром `AsposeCells.PivotFieldSubtotalType.Automatic` явным образом фиксирует этот выбор, а не оставляет его неявным.
@@ -202,6 +198,7 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 Ничего в работе с промежуточными итогами не связано строго с областью строк. Те же самые вызовы `setSubtotals`, применённые к полю, полученному из `PivotTable.ColumnFields`, создают такие же три макета по оси столбцов, поскольку настройка принадлежит сводному полю, а не оси, на которой оно расположено.
 {{% /alert %}}
+
 ## **Связанные статьи**
 - [Поля страницы в сводных таблицах](/cells/ru/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells for Node.js с помощью C++](/cells/ru/nodejs-cpp/refresh-pivot-table/)

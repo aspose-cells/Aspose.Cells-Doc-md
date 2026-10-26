@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Python via Java でピボットテーブルとピボットキャッシュを更新する
 linktitle: Aspose.Cells for Python via Java でピボットテーブルとピボットキャッシュを更新する
-description: Aspose.Cells for Python via Java の v26.7+ ピボット更新 API を使用してピボットテーブルを更新する方法を説明します。本_exportでは RefreshAll、RefreshPivotTables、PivotCache.Refresh、CalculateData、GetPivotTables を実践的なコード例とともに解説します。
+description: Aspose.Cells for Python via Java の v26.7+ ピボット更新 API を使用してピボットテーブルを更新する方法を説明します。本_exportでは refreshAll、refreshPivotTables、PivotCache.refresh、calculateData、getPivotTables を実践的なコード例とともに解説します。
 keywords: Aspose.Cells, Python via Java, ピボットテーブル, 更新, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -91,8 +91,7 @@ worksheet.getCells().get("A9").putValue("cherry")
 worksheet.getCells().get("B9").putValue(2021)
 worksheet.getCells().get("C9").putValue(120)
 # ピボットテーブルを追加：ソース範囲「A1:C9」、配置先セル「E3」、名前「Pivot1」
-pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4)
 # ピボットフィールドを割り当て：Fruitを行、Yearを列、Amountをデータ
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -145,8 +144,7 @@ worksheet.getCells().get("C8").putValue(220)
 worksheet.getCells().get("A9").putValue("cherry")
 worksheet.getCells().get("B9").putValue(2020)
 worksheet.getCells().get("C9").putValue(140)
-pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -204,9 +202,8 @@ worksheet.getCells().get("C8").putValue(350)
 worksheet.getCells().get("A9").putValue("Cherry")
 worksheet.getCells().get("B9").putValue(2021)
 worksheet.getCells().get("C9").putValue(450)
-# "Pivot1" という名前のピボットテーブルを追加し、配置先はセル E3、ソースは A1:C9
-pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# という名前のピボットテーブルを追加し、配置先はセル E3、ソースは A1:C9
+pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4)
 # フィールドを割り当てる：Fruit を行、Year を列、Amount をデータ
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")

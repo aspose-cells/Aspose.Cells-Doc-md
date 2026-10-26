@@ -84,8 +84,7 @@ worksheet.cells.get(8, 0).put_value("Vegetable")
 worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -122,8 +121,7 @@ data = [
 for i in range(len(data)):
     for j in range(len(data[i])):
         worksheet.cells.get(i + 1, j).put_value(data[i][j])
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -182,8 +180,7 @@ worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
 pivot_tables = worksheet.pivot_tables
-pivot_index = pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = pivot_tables[pivot_index]
+pivot_table = pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -196,7 +193,6 @@ workbook.save("output_custom.xlsx")
 ```
 
 ## **Recap**
-
 The three scenarios differ in one thing only: the set_subtotals calls. Everything else — the dataset, the fields, and the areas they are assigned to — is identical, which is what makes the layouts directly comparable.
 - **Placing fields.** `PivotTable.add_field_to_area(PivotFieldType.ROW, fieldName)` moves a source column into a region. Within one region the order of the calls is the display order, so the first call becomes the outermost group. Subtotals need two or more fields in the same region: with a single field there is nothing between the groups to subtotal.
 - **Scenario 1 — automatic subtotals.** Leaving set_subtotals uncalled leaves the choice to Excel, which applies its own default subtotal to numeric fields. Calling set_subtotals with `PivotFieldSubtotalType.AUTOMATIC` records that choice explicitly instead of leaving it implicit.
@@ -206,6 +202,7 @@ The three scenarios differ in one thing only: the set_subtotals calls. Everythin
 {{% alert color="primary" %}}
 Nothing about subtotals is specific to the row region. The same set_subtotals calls on a field taken from `PivotTable.ColumnFields` produce the same three layouts on the column axis, because the setting belongs to the pivot field rather than to the axis it sits on.
 {{% /alert %}}
+
 ## **Related Articles**
 - [Page Fields in Pivot Tables](/cells/python-net/add-page-field-in-pivot-table/)
 - [Refreshing Pivot Tables in Aspose.Cells for Python via .NET](/cells/python-net/refresh-pivot-table/)

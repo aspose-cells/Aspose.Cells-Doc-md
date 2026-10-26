@@ -83,8 +83,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -125,8 +124,7 @@ for (int i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -182,8 +180,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 PivotTableCollection pivotTables = worksheet.getPivotTables();
-int pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables.get(pivotIndex);
+PivotTable pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -196,7 +193,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **回顾**
-
 三种场景的区别仅在于 `setSubtotals` 调用方式不同；其余部分——数据集、字段及其所分配的区域——均完全相同，这使得各布局之间可直接进行比较。
 - **字段放置。** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` 将源列移入某一区域。在同一区域内，调用顺序即为显示顺序，因此首次调用会形成最外层分组。小计功能要求同一区域内至少存在两个字段；若仅有一个字段，则组间无内容可进行小计。
 - **场景 1——自动小计。** 若不调用 `setSubtotals`，则由 Excel 自行决定采用默认小计方式，即对数值字段应用其内置默认小计。调用 `setSubtotals` 并传入 `PivotFieldSubtotalType.AUTOMATIC` 则显式记录该选择，而非仅保持隐式默认。
@@ -206,9 +202,10 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 小计功能并不局限于行区域。对从 `PivotTable.ColumnFields` 获取的字段执行相同的 `setSubtotals` 调用，可在列轴上生成相同的三种布局，因为该设置属于透视字段本身，而与其所处的轴无关。
 {{% /alert %}}
-## **相关文章**
 
+## **相关文章**
 - [数据透视表中的页字段](/cells/zh/java/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Java 中刷新数据透视表](/cells/zh/java/refresh-pivot-table/)
 - [为数据透视表应用样式](/cells/zh/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="java" >}}

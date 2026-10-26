@@ -85,8 +85,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable")
 worksheet.getCells().get(8, 1).putValue("Daikon")
 worksheet.getCells().get(8, 2).putValue(2021)
 worksheet.getCells().get(8, 3).putValue(45)
-pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -125,8 +124,7 @@ data = [
 for i in range(len(data)):
     for j in range(len(data[0])):
         worksheet.getCells().get(i + 1, j).putValue(data[i][j])
-pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -186,8 +184,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon")
 worksheet.getCells().get(8, 2).putValue(2021)
 worksheet.getCells().get(8, 3).putValue(45)
 pivotTables = worksheet.getPivotTables()
-pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1")
-pivotTable = pivotTables.get(pivotIndex)
+pivotTable = pivotTables.add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -201,7 +198,6 @@ jpype.shutdownJVM()
 ```
 
 ## **Recap**
-
 这三种场景仅在 `setSubtotals` 调用上有所不同；其余部分——数据集、字段及其所分配的区域——完全相同，这使得各布局之间可直接进行比较。
 - **字段放置。** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` 会将源列移入某一区域。在同一区域内，调用的顺序即为显示顺序，因此首次调用生成最外层分组。子总计需要同一区域中存在两个或更多字段：若仅有一个字段，则组间无内容可供计算子总计。
 - **场景 1——自动子总计。** 若不调用 `setSubtotals`，则由 Excel 自行决定采用其默认的子总计方式，该方式仅对数值字段生效；若显式调用 `setSubtotals` 并传入 `PivotFieldSubtotalType.AUTOMATIC`，则明确记录该默认选项，而非使其隐含存在。
@@ -211,6 +207,7 @@ jpype.shutdownJVM()
 {{% alert color="primary" %}}
 子总计设置与行区域并无绑定关系；对 `PivotTable.ColumnFields` 中获取的字段执行同样的 `setSubtotals` 调用，即可在列轴上生成相同的三种布局，因为该设置属于数据透视字段本身，而非其所在的轴。
 {{% /alert %}}
+
 ## **Related Articles**
 - [数据透视表中的页字段](/cells/zh/python-java/add-page-field-in-pivot-table/)
 - [在 Aspose.Cells for Python via Java 中刷新数据透视表](/cells/zh/python-java/refresh-pivot-table/)

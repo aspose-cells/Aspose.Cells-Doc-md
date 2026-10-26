@@ -1,7 +1,7 @@
 ---
 title: Uppdatera pivottabeller och pivotcacheminnen i Aspose.Cells for Java
 linktitle: Uppdatera pivottabeller och pivotcacheminnen i Aspose.Cells for Java
-description: Lär dig hur du uppdaterar pivottabeller i Aspose.Cells for Java med v26.7+ pivot-uppdaterings-API,et. Den här artikeln tar upp RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData och GetPivotTables med praktiska kodexempel.
+description: Lär dig hur du uppdaterar pivottabeller i Aspose.Cells for Java med v26.7+ pivot-uppdaterings-API,et. Den här artikeln tar upp refreshAll, refreshPivotTables, PivotCache.refresh, calculateData och getPivotTables med praktiska kodexempel.
 keywords: Aspose.Cells, Java, pivottabell, uppdatera, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -85,9 +85,8 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// Lägg till en pivottabell: källområde "A1:C9", destinationscell "E3", namn "Pivot1"
-int pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Lägg till en pivottabell: källområde "A1:C9", destinationscell "E3", namn
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // Tilldela pivotfält: Fruit till Rows, Year till Columns, Amount till Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -136,8 +135,7 @@ worksheet.getCells().get("C8").putValue(220);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2020);
 worksheet.getCells().get("C9").putValue(140);
-int pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -191,9 +189,8 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// Lägg till en pivottabell med namnet "Pivot1" som är placerad på destinationscellen E3 och har A1:C9 som datakälla
-int pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Lägg till en pivottabell med namnet som är placerad på destinationscellen E3 och har A1:C9 som datakälla
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // Tilldela fält: Fruit till rad, Year till kolumn, Amount till data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");

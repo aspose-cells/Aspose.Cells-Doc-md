@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 L'overload senza parametri di `PivotField.Group()` esamina il tipo di dati del campo e lo raggruppa automaticamente. Un campo che contiene solo date (e valori vuoti) viene raggruppato per mesi. Un campo che contiene solo numeri (e valori vuoti) viene raggruppato in intervalli numerici utilizzando un intervallo automatico.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Carica la cartella di lavoro di esempio
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Accedi al secondo foglio di lavoro e alla sua tabella pivot
@@ -40,6 +41,7 @@ L'esempio seguente raggruppa il campo data di riga della tabella pivot di esempi
 Si noti che l'ordine dei valori in `options.GroupTypes` viene ignorato. Indipendentemente dall'ordine in cui sono elencati i tipi di gruppo, i campi raggruppati vengono sempre mostrati dal periodo più grande al più piccolo: anni, trimestri, mesi, giorni, ore, minuti, secondi. In questo esempio i mesi sono elencati prima dei trimestri in `options.GroupTypes`, tuttavia i trimestri vengono visualizzati come livello esterno e i mesi come livello interno.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Carica la cartella di lavoro di esempio
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Accedi al secondo foglio di lavoro e alla sua tabella pivot
@@ -61,6 +63,7 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 `FieldTwo` della tabella pivot di esempio è inizialmente un campo dati (valore). Poiché solo i campi di riga o colonna possono essere raggruppati, il codice chiama prima `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")` per spostare `FieldTwo` nell'area della riga, aggiorna la tabella pivot, quindi raggruppa il campo numerico negli intervalli 0-1, 2-3 e 4-5 utilizzando `StartNumber = 0`, `EndNumber = 5` e `Interval = 2`.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Carica la cartella di lavoro di esempio
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Accedi al secondo foglio di lavoro e alla sua tabella pivot

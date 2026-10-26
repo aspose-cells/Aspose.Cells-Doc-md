@@ -1,7 +1,7 @@
 ---
 title: PivotTables und PivotCaches in Aspose.Cells for Node.js via Java aktualisieren
 linktitle: PivotTables und PivotCaches
-description: Erfahren Sie, wie Sie mit der PivotTable-Aktualisierungs-API v26.7+ PivotTables in Aspose.Cells for Node.js via Java aktualisieren. Dieser Artikel behandelt RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData und GetPivotTables anhand praktischer Codebeispiele.
+description: Erfahren Sie, wie Sie mit der PivotTable-Aktualisierungs-API v26.7+ PivotTables in Aspose.Cells for Node.js via Java aktualisieren. Dieser Artikel behandelt refreshAll, refreshPivotTables, PivotCache.refresh, calculateData und getPivotTables anhand praktischer Codebeispiele.
 keywords: Aspose.Cells, Node.js, Java, PivotTable, Aktualisierung, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -83,9 +83,8 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// Füge eine Pivot-Tabelle hinzu: Quellbereich "A1:C9", Zielzelle "E3", Name "Pivot1"
-const pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Füge eine Pivot-Tabelle hinzu: Quellbereich "A1:C9", Zielzelle "E3"
+const pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // Weise Pivot-Felder zu: Fruit zu Zeilen, Year zu Spalten, Amount zu Daten
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -134,8 +133,7 @@ worksheet.getCells().get("C8").putValue(220);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2020);
 worksheet.getCells().get("C9").putValue(140);
-let pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
@@ -189,9 +187,8 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// Pivot-Tabelle mit dem Namen "Pivot1" hinzufügen, platziert in Zielzelle E3, Datenquelle A1:C9
-var pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-var pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Pivot-Tabelle mit dem Namen hinzufügen, platziert in Zielzelle E3, Datenquelle A1:C9
+var pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // Felder zuweisen: Fruit zu Zeile, Year zu Spalte, Amount zu Daten
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");

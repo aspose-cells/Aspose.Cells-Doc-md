@@ -70,9 +70,8 @@ int main() {
     sheet.GetCells().Get(9, 0).PutValue(u"grape");
     sheet.GetCells().Get(9, 1).PutValue(2020);
     sheet.GetCells().Get(9, 2).PutValue(45);
-    // 在目标单元格 E3 处添加名为“Pivot1”的数据透视表，使用源区域 A1:C10
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+ // 在目标单元格 E3 处添加名为“Pivot1”的数据透视表，使用源区域 A1:C10
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // 分配字段：Fruit -> 行，Amount -> 数据
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -86,7 +85,6 @@ int main() {
 ```
 
 ## **应用现代命名预设数据透视表样式**
-
 `SetPivotTableStyleType` 选择 Excel 2007 为数据透视表引入的内置命名样式之一。`PivotTableStyleType` 枚举公开三个主题系列：从 `PivotTableStyleLight1` 到 `PivotTableStyleLight28` 的浅色系列、从 `PivotTableStyleMedium1` 到 `PivotTableStyleMedium28` 的中等色系列，以及从 `PivotTableStyleDark1` 到 `PivotTableStyleDark28` 的深色系列。它还定义了 `None` 和 `Custom`。每个系列中编号较高的成员是 Excel 2017 中新增的样式。
 这些预设为只读。一旦您需要更改超出预设范围的颜色、边框或字体，就必须改为定义自定义数据透视表样式，如[方案 3](#define-and-apply-a-custom-pivot-table-style)所示。
 
@@ -135,8 +133,7 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(130);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -146,6 +143,7 @@ int main() {
     return 0;
 }
 ```
+
 ## **定义并应用自定义数据透视表样式**
 内置预设无法修改。每当需要覆盖颜色、边框或字体时，必须定义自定义数据透视样式。该工作流分为三个步骤：
 1. 通过 `Worksheets.TableStyles.AddPivotTableStyle(string name)` 向工作簿的 `TableStyles` 集合添加自定义样式。这将返回新创建样式的索引。
@@ -198,9 +196,8 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(900);
-    // 添加数据源为 A1:C10 的数据透视表，定位在 E3，名称为 "Pivot1"
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ // 添加数据源为 A1:C10 的数据透视表，定位在 E3，名称为
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -284,9 +281,8 @@ int main() {
     worksheet.GetCells().Get(u"A10").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B10").PutValue(2021);
     worksheet.GetCells().Get(u"C10").PutValue(5500);
-    // 添加数据透视表:源区域 A1:C10,目标单元格 E3,名称 "Pivot1"
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ // 添加数据透视表:源区域 A1:C10,目标单元格 E3,名称
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // 分配数据透视表字段
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");

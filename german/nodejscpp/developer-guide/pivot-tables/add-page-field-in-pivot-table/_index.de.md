@@ -53,8 +53,7 @@ for (var i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
 // Pivot-Tabelle verankert an Zelle E3 hinzufügen
-var pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
-var pivotTable = worksheet.getPivotTables().get(pivotIndex);
+var pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Felder ihren Bereichen hinzufügen: Frucht als Zeile, Betrag als Daten, Jahr als Seitenfeld
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -87,8 +86,7 @@ sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").put
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
 // Pivot-Tabelle bei E3 hinzufügen, die A1:C10 abdeckt
-let pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1");
-let pivotTable = sheet.getPivotTables().get(pivotIndex);
+let pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // Frucht -> Zeile, Betrag -> Daten (Jahr wird unten zur Seite hinzugefügt)
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -130,8 +128,7 @@ for (let r = 0; r < data.length; r++) {
 }
 // Pivot-Tabelle bei E3 erstellen
 let pivotTables = sheet.getPivotTables();
-let index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
-let pivotTable = pivotTables.get(index);
+let pivotTable = pivotTables.add("=A1:C7", 2, 4);
 // Pivot-Felder konfigurieren: Fruit→Zeile, Amount→Daten, Year→Seite
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -170,8 +167,7 @@ cells.get("B5").putValue("2021");
 cells.get("C5").putValue("250");
 // Pivot-Tabelle bei E3 hinzufügen
 var pivotTables = sheet.getPivotTables();
-var pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
-var pivotTable = pivotTables.get(pivotIndex);
+var pivotTable = pivotTables.add("A1:C5", 2, 4);
 // Felder hinzufügen: Frucht→Zeile, Betrag→Daten, Jahr→Seite
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -214,8 +210,7 @@ for (let i = 0; i < data.length; i++) {
 }
 let pivotSheet = workbook.getWorksheets().add("Pivot");
 let pivots = pivotSheet.getPivotTables();
-let pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1");
-let pivotTable = pivots.get(pivotIndex);
+let pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");

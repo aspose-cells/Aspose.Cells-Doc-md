@@ -70,9 +70,8 @@ int main() {
     sheet.GetCells().Get(9, 0).PutValue(u"grape");
     sheet.GetCells().Get(9, 1).PutValue(2020);
     sheet.GetCells().Get(9, 2).PutValue(45);
-    // ソース範囲 A1:C10 を使用して、宛先セル E3 に「Pivot1」という名前のピボットテーブルを追加
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+ // ソース範囲 A1:C10 を使用して、宛先セル E3 に「Pivot1」という名前のピボットテーブルを追加
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // フィールドを割り当て：Fruit → 行、Amount → データ
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -86,7 +85,6 @@ int main() {
 ```
 
 ## **新しい名前付き定義済みピボットテーブルスタイルを適用する**
-
 `SetPivotTableStyleType` は、Excel 2007 でピボットテーブル用に導入された組み込みの名前付きスタイルから 1 つを選択します。`PivotTableStyleType` 列挙体は、3 つのテーマファミリーを公開します。`PivotTableStyleLight1` から `PivotTableStyleLight28` までのライトファミリー、`PivotTableStyleMedium1` から `PivotTableStyleMedium28` までの中間ファミリー、`PivotTableStyleDark1` から `PivotTableStyleDark28` までのダークファミリーです。また、`None` と `Custom` も定義しています。各ファミリーで番号が大きいメンバーは、Excel 2017 で追加されたスタイルです。
 これらのプリセットは読み取り専用です。プリセットが提供する範囲を超えて、色、罫線、フォントを変更する必要がある場合は、代わりにカスタムピボットスタイルを定義する必要があります。[シナリオ 3](#define-and-apply-a-custom-pivot-table-style) に示すとおりです。
 
@@ -135,8 +133,7 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(130);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -146,6 +143,7 @@ int main() {
     return 0;
 }
 ```
+
 ## **カスタムピボットテーブルスタイルを定義して適用する**
 組み込みの定義済みスタイルは変更できません。色、罫線、フォントを上書きする必要がある場合は、必ずカスタムピボットスタイルを定義する必要があります。作業手順は次の 3 つです。
 1. `Worksheets.TableStyles.AddPivotTableStyle(string name)` を使用して、カスタムスタイルをワークブックの `TableStyles` コレクションに追加します。新しく作成されたスタイルのインデックスが返されます。
@@ -198,9 +196,8 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(900);
-    // A1:C10 をデータソースとするピボットテーブルを追加し、E3 に配置、名前を "Pivot1" とする
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ // A1:C10 をデータソースとするピボットテーブルを追加し、E3 に配置、名前を とする
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -284,9 +281,8 @@ int main() {
     worksheet.GetCells().Get(u"A10").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B10").PutValue(2021);
     worksheet.GetCells().Get(u"C10").PutValue(5500);
-    // ピボットテーブルの追加：ソース範囲 A1:C10、配置先セル E3、名前 "Pivot1"
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ // ピボットテーブルの追加：ソース範囲 A1:C10、配置先セル E3、名前
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // ピボットフィールドの割り当て
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");

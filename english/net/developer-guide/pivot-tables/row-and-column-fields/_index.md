@@ -84,8 +84,7 @@ worksheet.Cells[8, 0].PutValue("Vegetable");
 worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -128,8 +127,7 @@ for (int i = 0; i < data.GetLength(0); i++)
         worksheet.Cells[i + 1, j].PutValue(data[i, j]);
     }
 }
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -187,8 +185,7 @@ worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
 PivotTableCollection pivotTables = worksheet.PivotTables;
-int pivotIndex = pivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables[pivotIndex];
+PivotTable pivotTable = pivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -201,7 +198,6 @@ workbook.Save("output_custom.xlsx");
 ```
 
 ## **Recap**
-
 The three scenarios differ in one thing only: the SetSubtotals calls. Everything else — the dataset, the fields, and the areas they are assigned to — is identical, which is what makes the layouts directly comparable.
 - **Placing fields.** `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)` moves a source column into a region. Within one region the order of the calls is the display order, so the first call becomes the outermost group. Subtotals need two or more fields in the same region: with a single field there is nothing between the groups to subtotal.
 - **Scenario 1 — automatic subtotals.** Leaving SetSubtotals uncalled leaves the choice to Excel, which applies its own default subtotal to numeric fields. Calling SetSubtotals with `PivotFieldSubtotalType.Automatic` records that choice explicitly instead of leaving it implicit.
@@ -211,6 +207,7 @@ The three scenarios differ in one thing only: the SetSubtotals calls. Everything
 {{% alert color="primary" %}}
 Nothing about subtotals is specific to the row region. The same SetSubtotals calls on a field taken from `PivotTable.ColumnFields` produce the same three layouts on the column axis, because the setting belongs to the pivot field rather than to the axis it sits on.
 {{% /alert %}}
+
 ## **Related Articles**
 - [Page Fields in Pivot Tables](/cells/net/add-page-field-in-pivot-table/)
 - [Refreshing Pivot Tables in Aspose.Cells for .NET](/cells/net/refresh-pivot-table/)

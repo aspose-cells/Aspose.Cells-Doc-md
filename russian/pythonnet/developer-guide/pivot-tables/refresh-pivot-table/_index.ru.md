@@ -1,7 +1,7 @@
 ---
 title: Обновление сводных таблиц и кэшей сводных таблиц в Aspose.Cells for Python via .NET
 linktitle: Обновление сводных таблиц и кэшей сводных таблиц в Aspose.Cells for Python via .NET
-description: Узнайте, как обновлять сводные таблицы в Aspose.Cells for Python via .NET с помощью API обновления сводных таблиц версии 26.7+. В этой статье рассматриваются RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData и GetPivotTables с практическими примерами кода.
+description: Узнайте, как обновлять сводные таблицы в Aspose.Cells for Python via .NET с помощью API обновления сводных таблиц версии 26.7+. В этой статье рассматриваются refresh_all, _refresh_pivot_tables, PivotCache.refresh, _calculate_data и _get_pivot_tables с практическими примерами кода.
 keywords: Aspose.Cells, Python via .NET, сводная таблица, обновление, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -86,9 +86,8 @@ worksheet.cells.get("C8").put_value(110)
 worksheet.cells.get("A9").put_value("cherry")
 worksheet.cells.get("B9").put_value(2021)
 worksheet.cells.get("C9").put_value(120)
-# Добавить сводную таблицу: исходный диапазон "A1:C9", целевая ячейка "E3", имя "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Добавить сводную таблицу: исходный диапазон "A1:C9", целевая ячейка "E3", имя
+pivot_table = worksheet.pivot_tables.add("A1:C9", 2, 4)
 # Назначить поля сводной таблицы: Fruit в строки, Year в столбцы, Amount в данные
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -138,8 +137,7 @@ worksheet.cells.get("C8").put_value(220)
 worksheet.cells.get("A9").put_value("cherry")
 worksheet.cells.get("B9").put_value(2020)
 worksheet.cells.get("C9").put_value(140)
-pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:C9", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -194,9 +192,8 @@ worksheet.cells.get("C8").put_value(350)
 worksheet.cells.get("A9").put_value("Cherry")
 worksheet.cells.get("B9").put_value(2021)
 worksheet.cells.get("C9").put_value(450)
-# Добавить сводную таблицу с именем "Pivot1", расположенную в ячейке назначения E3, с источником A1:C9
-pivot_index = worksheet.pivot_tables.add("A1:C9", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Добавить сводную таблицу с именем, расположенную в ячейке назначения E3, с источником A1:C9
+pivot_table = worksheet.pivot_tables.add("A1:C9", 2, 4)
 # Назначить поля: Fruit в строки, Year в столбцы, Amount в данные
 pivot_table.add_field_to_area(acp.PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(acp.PivotFieldType.COLUMN, "Year")

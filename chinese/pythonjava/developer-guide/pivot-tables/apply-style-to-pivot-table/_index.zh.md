@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for Python via Java 中为数据透视表应用样式
-description: 了解如何在 Aspose.Cells for Python via Java 中为数据透视表应用内置和自定义样式，包括传统的 XLS 自动格式、现代的 Excel 2007+ 命名样式、自定义数据透视表样式以及 FormatAll 快捷方式。
+description: 了解如何在 Aspose.Cells for Python via Java 中为数据透视表应用内置和自定义样式，包括传统的 XLS 自动格式、现代的 Excel 2007+ 命名样式、自定义数据透视表样式以及 formatAll 快捷方式。
 linktitle: 应用数据透视表样式
 keywords: Aspose.Cells Python via Java 数据透视表样式, PivotTableStyleType, AutoFormatType, FormatAll, 自定义样式, PivotTableStyleName, TableStyles
 type: docs
@@ -73,9 +73,8 @@ sheet.getCells().get(8, 2).putValue(45)
 sheet.getCells().get(9, 0).putValue("grape")
 sheet.getCells().get(9, 1).putValue(2020)
 sheet.getCells().get(9, 2).putValue(45)
-# Add a pivot table at destination cell E3, named "Pivot1", using source range A1:C10
-pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = sheet.getPivotTables().get(pivotIndex)
+# Add a pivot table at destination cell E3, using source range A1:C10
+pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4)
 # Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -90,7 +89,6 @@ jpype.shutdownJVM()
 ```
 
 ## **应用现代命名预设数据透视表样式**
-
 `pivotTable.setPivotTableStyleType(int)` 用于选择 Excel 2007 为数据透视表引入的内置命名样式之一。`PivotTableStyleType` 枚举公开三个主题系列：浅色系列从 `PIVOT_TABLE_STYLE_LIGHT1` 到 `PIVOT_TABLE_STYLE_LIGHT28`，中等色系列从 `PIVOT_TABLE_STYLE_MEDIUM1` 到 `PIVOT_TABLE_STYLE_MEDIUM28`，深色系列从 `PIVOT_TABLE_STYLE_DARK1` 到 `PIVOT_TABLE_STYLE_DARK_28`。它还定义了 `None` 和 `Custom`。每个系列中编号较高的成员是 Excel 2017 中新增的样式。
 这些预设样式是只读的。一旦您需要更改预设样式所提供范围之外的颜色、边框或字体，就必须改为定义自定义数据透视表样式，如[方案 3](#define-and-apply-a-custom-pivot-table-style)所示。
 
@@ -142,9 +140,8 @@ worksheet.getCells().get("C9").putValue(190)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add a pivot table at E3, sourced from A1:C10
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -159,6 +156,7 @@ pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1)
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
+
 ## **定义并应用自定义数据透视表样式**
 无法修改内置预设。当您需要覆盖颜色、边框或字体时，必须定义自定义数据透视样式。该工作流包含三个步骤：
 1. 通过 `workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)` 向工作簿的 `TableStyles` 集合添加自定义样式。这将返回新创建样式的索引。
@@ -212,9 +210,8 @@ worksheet.getCells().get("C9").putValue(800)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(900)
-# Add pivot table sourced from A1:C10, anchored at E3, named "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add pivot table sourced from A1:C10, anchored at E3
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -300,9 +297,8 @@ worksheet.getCells().get("C9").putValue(2500)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(5500)
-# Add pivot table: source range A1:C10, destination cell E3, name "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add pivot table: source range A1:C10, destination cell E3
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -338,6 +334,5 @@ jpype.shutdownJVM()
 | `.xlsx` / `.xlsm` / `.xlsb`（现代，自定义样式） | `pivotTable.setPivotTableStyleName(String)` + `tableStyles.addPivotTableStyle(String)` | 在内置预设不够用时使用。通过 `tableStyleElement.setElementStyle(Style)` 进行配置。 |
 | 任何格式（统一覆盖） | `pivotTable.formatAll(Style)` | 快捷方式，可覆盖整个数据透视表上的所有其他样式设置。 |
 如有疑问，请保存为 `.xlsx` 并使用 `setPivotTableStyleType` 应用内置主题，或使用 `setPivotTableStyleName` 应用自定义主题。
-
 
 {{< app/cells/assistant language="python" >}}

@@ -85,8 +85,7 @@ worksheet.Cells[8, 0].PutValue("Vegetable");
 worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -129,8 +128,7 @@ for (int i = 0; i < data.GetLength(0); i++)
         worksheet.Cells[i + 1, j].PutValue(data[i, j]);
     }
 }
-int pivotIndex = worksheet.PivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -188,8 +186,7 @@ worksheet.Cells[8, 1].PutValue("Daikon");
 worksheet.Cells[8, 2].PutValue(2021);
 worksheet.Cells[8, 3].PutValue(45);
 PivotTableCollection pivotTables = worksheet.PivotTables;
-int pivotIndex = pivotTables.Add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables[pivotIndex];
+PivotTable pivotTable = pivotTables.Add("A1:D9", 2, 5);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Item");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -202,7 +199,6 @@ workbook.Save("output_custom.xlsx");
 ```
 
 ## **Özet**
-
 Ü senaryo yalnızca SetSubtotals çağrıları konusunda farklılaşır. Geri kalan her şey — veri kümesi, alanlar ve onların atanmış olduğu alanlar — aynıdır; bu da düzenlerin doğrudan karşılaştırılabilir olmasına neden olur.
 - **Alanların yerleştirilmesi.** `PivotTable.AddFieldToArea(PivotFieldType.Row, fieldName)`, bir kaynak sütunu bir bölgeye taşıır. Bir bölgede, çağrıların sırası, gösterim sırasını belirler; böylece ilk çağrı en dıştaki gruba dönüşür. Alt toplamlar, aynı bölgede iki veya daha fazla alana ihtiyaç duyar: tek bir alanla, grupların arasında alt toplam yapılacak bir şey bulunmaz.
 - **Senaryo 1 — otomatik alt toplamlar.** SetSubtotals çağrısının yapılmaması, seçimi Excel’e bırakır; Excel, sayısal alanlara kendi varsayılan alt toplamını uygular. SetSubtotals, `PivotFieldSubtotalType.Automatic` ile çağrıldığında, bu seçimi açıkça kaydeder ve dolaylı bırakmaz.
@@ -212,9 +208,10 @@ workbook.Save("output_custom.xlsx");
 {{% alert color="primary" %}}
 Alt toplamlarla ilgili hiçbir şey, satır bölgesine özgü değildir. `PivotTable.ColumnFields`’ten alınmış bir alana aynı SetSubtotals çağrıları yapıldığında, sütun ekseninde aynı üç düzen oluşturulur, çünkü ayar, eksende değil, özet alanına aittir.
 {{% /alert %}}
-## **İlgili Makaleler**
 
+## **İlgili Makaleler**
 - [Pivot Tablolardaki Sayfa Alanları](/cells/tr/net/add-page-field-in-pivot-table/)
 - [Aspose.Cells for .NET’de Pivot Tabloları Yenileme](/cells/tr/net/refresh-pivot-table/)
 - [Pivot Tablolara Stil Uygulama](/cells/tr/net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="csharp" >}}

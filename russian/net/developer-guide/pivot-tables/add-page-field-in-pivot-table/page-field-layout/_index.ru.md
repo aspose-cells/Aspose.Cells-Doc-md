@@ -47,8 +47,7 @@ string dataDir = "output";
 if (!Directory.Exists(dataDir)) Directory.CreateDirectory(dataDir);
 Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.Worksheets;
-int pivotDataIdx = worksheets.Add("PivotData");
-Worksheet pivotDataSheet = worksheets[pivotDataIdx];
+Worksheet pivotDataSheet = worksheets.Add("PivotData");
 Cells pivotDataCells = pivotDataSheet.Cells;
 // Заголовки (строка 0)
 pivotDataCells[0, 0].PutValue("Fruit");
@@ -96,12 +95,10 @@ pivotDataCells[8, 1].PutValue(2023);
 pivotDataCells[8, 2].PutValue("West");
 pivotDataCells[8, 3].PutValue(110);
 // Добавить лист PivotTableReport
-int pivotTableSheetIdx = worksheets.Add("PivotTableReport");
-Worksheet pivotTableSheet = worksheets[pivotTableSheetIdx];
+Worksheet pivotTableSheet = worksheets.Add("PivotTableReport");
 PivotTableCollection pivotTables = pivotTableSheet.PivotTables;
 // Создать сводную таблицу из диапазона PivotData!A1:D9, размещённую в A1 на листе PivotTableReport
-int pivotIndex = pivotTables.Add("PivotData!A1:D9", "A1", "PivotTable1");
-PivotTable pivotTable = pivotTables[pivotIndex];
+PivotTable pivotTable = pivotTables.Add("PivotData!A1:D9", 0, 0);
 // Добавить поля
 pivotTable.AddFieldToArea(PivotFieldType.Row, 0);   // Фрукт
 pivotTable.AddFieldToArea(PivotFieldType.Page, 1);  // Год
@@ -128,8 +125,7 @@ using Aspose.Cells.Pivot;
 var workbook = new Workbook();
 var pivotData = workbook.Worksheets[0];
 pivotData.Name = "PivotData";
-int pivotReportIdx = workbook.Worksheets.Add("PivotTableReport");
-var pivotReport = workbook.Worksheets[pivotReportIdx];
+var pivotReport = workbook.Worksheets.Add("PivotTableReport");
 var headers = new[] { "Fruit", "Year", "Region", "Amount" };
 for (int c = 0; c < headers.Length; c++)
 {
@@ -153,8 +149,7 @@ for (int r = 0; r < data.GetLength(0); r++)
         pivotData.Cells[r + 1, c].PutValue(data[r, c]);
     }
 }
-int idx = pivotReport.PivotTables.Add("PivotData!A1:D9", "A1", "PivotTable");
-var pivotTable = pivotReport.PivotTables[idx];
+var pivotTable = pivotReport.PivotTables.Add("PivotData!A1:D9", 0, 0);
 pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
 pivotTable.AddFieldToArea(PivotFieldType.Page, 1);
 pivotTable.AddFieldToArea(PivotFieldType.Page, 2);
@@ -211,10 +206,8 @@ dataSheet.Cells["A9"].PutValue("Grape");
 dataSheet.Cells["B9"].PutValue(2023);
 dataSheet.Cells["C9"].PutValue("West");
 dataSheet.Cells["D9"].PutValue(110);
-int pivotSheetIdx = workbook.Worksheets.Add("PivotTableReport");
-Worksheet pivotSheet = workbook.Worksheets[pivotSheetIdx];
-int pivotIdx = pivotSheet.PivotTables.Add("PivotData!A1:D9", "A3", "PivotTable");
-PivotTable pivotTable = pivotSheet.PivotTables[pivotIdx];
+Worksheet pivotSheet = workbook.Worksheets.Add("PivotTableReport");
+PivotTable pivotTable = pivotSheet.PivotTables.Add("PivotData!A1:D9", 2, 0);
 pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
 pivotTable.AddFieldToArea(PivotFieldType.Page, 1);
 pivotTable.AddFieldToArea(PivotFieldType.Page, 2);

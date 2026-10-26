@@ -72,9 +72,8 @@ sheet.Cells[8, 2].PutValue(45);
 sheet.Cells[9, 0].PutValue("grape");
 sheet.Cells[9, 1].PutValue(2020);
 sheet.Cells[9, 2].PutValue(45);
-// Aggiungi una tabella pivot nella cella di destinazione E3, denominata "Pivot1", usando l'intervallo di origine A1:C10
-int pivotIndex = sheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+// Aggiungi una tabella pivot nella cella di destinazione E3, denominata, usando l'intervallo di origine A1:C10
+PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
 // Assegna i campi: Fruit -> Righe, Amount -> Dati
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -88,7 +87,6 @@ workbook.Save("output.xls");
 ```
 
 ## **Applicare uno stile predefinito denominato moderno per tabella pivot**
-
 `PivotTable.PivotTableStyleType` seleziona uno degli stili predefiniti denominati introdotti da Excel 2007 per le tabelle pivot. L'enumerazione `PivotTableStyleType` espone tre famiglie di temi: la famiglia chiara, da `PivotTableStyleLight1` a `PivotTableStyleLight28`, la famiglia media, da `PivotTableStyleMedium1` a `PivotTableStyleMedium28`, e la famiglia scura, da `PivotTableStyleDark1` a `PivotTableStyleDark28`. Definisce inoltre `None` e `Custom`. I membri con numerazione più elevata di ciascuna famiglia sono gli stili aggiunti in Excel 2017.
 Questi preset sono di sola lettura. Non appena è necessario modificare colori, bordi o caratteri oltre quanto offerto da un preset, è necessario definire uno stile pivot personalizzato, come illustrato in [Scenario 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -140,9 +138,8 @@ worksheet.Cells["C9"].PutValue(190);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(130);
-// Aggiungi una tabella pivot in E3 denominata "Pivot1", con dati di origine A1:C10
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Aggiungi una tabella pivot in E3 denominata, con dati di origine A1:C10
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // Assegna i campi pivot: Fruit -> area Row, Year -> area Column, Amount -> area Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -156,6 +153,7 @@ pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
 // Salva come .xlsx moderno -- è il formato per cui PivotTableStyleType è valido.
 workbook.Save("output.xlsx");
 ```
+
 ## **Definire e applicare uno stile personalizzato per tabella pivot**
 Gli stili predefiniti non possono essere modificati. Quando è necessario sovrascrivere colori, bordi o font, è necessario definire uno stile pivot personalizzato. Il flusso di lavoro è composto da tre passaggi:
 1. Aggiungere uno stile personalizzato alla raccolta `TableStyles` della cartella di lavoro tramite `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)`. Viene restituito l'indice dello stile appena creato.
@@ -173,6 +171,7 @@ using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
 using System.Drawing;
+using Aspose.Cells.Tables;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 // Popola i dati di origine: riga di intestazione + 9 righe di dati (A1:C10)
@@ -206,9 +205,8 @@ worksheet.Cells["C9"].PutValue(800);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(900);
-// Aggiungi tabella pivot con origine da A1:C10, ancorata in E3, denominata "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Aggiungi tabella pivot con origine da A1:C10, ancorata in E3, denominata
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -291,9 +289,8 @@ worksheet.Cells["C9"].PutValue(2500);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(5500);
-// Aggiungi tabella pivot: intervallo di origine A1:C10, cella di destinazione E3, nome "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Aggiungi tabella pivot: intervallo di origine A1:C10, cella di destinazione E3, nome
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // Assegna campi pivot: Frutta -> area Riga, Anno -> area Colonna, Importo -> area Dati
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");

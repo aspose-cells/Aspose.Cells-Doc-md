@@ -1,31 +1,37 @@
 ---
 title: 数据透视表
-description: 创建和格式化Excel电子表格文件的数据透视表。
 linktitle: 数据透视表
-url: /zh/python-java/create-pivot-table/
+description: 使用 Aspose.Cells for Python via Java 创建数据透视表并设置其格式。
+keywords: 创建数据透视表, 插入数据透视表, 设置数据透视表格式。
 type: docs
 weight: 160
-keywords: 创建数据透视表，插入数据透视表，格式化数据透视表。
+url: /zh/python-java/create-pivot-table/
 ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **创建数据透视表**
-可以使用 Aspose.Cells 以编程方式将数据透视表添加到电子表格中。
+## **什么是数据透视表？**
+数据透视表是一种交互式汇总报告：无需任何公式，它便可将大量逐行排列的原始数据汇总为紧凑的矩阵。您可以决定哪些列用作行标签、哪些列用作列标签，以及哪些列用作值进行聚合——分组和计算均由数据透视表完成：
+- **汇总** — 按产品、地区或季度汇总销售总额，无需使用冗长的公式链。
+- **比较** — 将类别置于行中、时期置于列中，可将扁平列表转换为交叉分析报告，从而直观呈现趋势。
+- **下钻** — 双击任意汇总值，即可查看其对应的源数据行。
+- **刷新** — 源数据发生变化时，只需刷新一次即可重新计算整个报告。
+常见场景包括销售仪表板、费用构成分析和库存分析——无论要回答“这些数字按类别和时间如何分解？”之类的问题。Aspose.Cells for Python via Java 支持以编程方式创建同类数据透视表，使您的应用程序生成的工作簿能够直接包含现成报告，而不只是原始数据。
 
 ### **数据透视表对象模型**
-Aspose.Cells 提供了一组用于创建和控制数据透视表的类。其构建块如下:
+Aspose.Cells 提供一组用于创建和管理数据透视表的类。其基本组成部分如下：
 - `PivotField` 表示 `PivotTable` 中的一个字段。
 - `PivotFieldCollection` 表示 `PivotTable` 中所有 `PivotField` 对象的集合。
-- `PivotTable` 表示工作表上的数据透视表。
+- `PivotTable` 表示工作表上的一个 `PivotTable`。
 - `PivotTableCollection` 表示工作表上所有 `PivotTable` 对象的集合。
 
 ### **使用 Aspose.Cells 创建简单的数据透视表**
-1. 使用单元格的 `putValue` 方法向工作表添加数据。此数据将用作数据透视表的数据源。
-2. 通过调用封装在工作表对象中的 `PivotTables` 集合的 `add` 方法,将数据透视表添加到工作表。
-3. 通过传递数据透视表的索引,从 `PivotTables` 集合访问新的 `PivotTable` 对象。
-4. 使用上述任何一个 `PivotTable` 对象来管理数据透视表。
-执行示例代码后,数据透视表将添加到工作表。
+创建数据透视表的基本过程可分为三个步骤：将源数据写入工作表单元格，在目标位置添加数据透视表，然后将数据透视字段放入行区域、列区域和数据区域。
+1. 使用单元格的 `putValue` 方法将数据添加到工作表中。该数据将作为数据透视表的数据源。
+2. 通过调用 `PivotTables` 集合的 `add` 方法，将数据透视表添加到工作表：`add(sourceData, row, column)`。`sourceData` 表示源区域（例如，“A1:C8”）；`row` 和 `column` 表示数据透视表左上角目标单元格的基于 0 的坐标（单元格 E3 对应行索引 2、列索引 4）。该方法直接返回新的 `PivotTable` 对象。
+3. 使用 `PivotTable` 对象的 `addFieldToArea` 方法放置数据透视字段：将字段名称放入行区域（`PivotFieldType.ROW`）、列区域（`PivotFieldType.COLUMN`）或数据区域（`PivotFieldType.DATA`）。
+4. 保存工作簿——数据透视表将写入保存的文件。
+执行示例代码后，工作表中将添加一个数据透视表。
 
 ```python
 import jpype
@@ -33,83 +39,58 @@ import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType
 
-dataDir = "./"
+# 创建一个新的工作簿并获取第一个工作表
 workbook = Workbook()
 sheet = workbook.getWorksheets().get(0)
 cells = sheet.getCells()
 
-cell = cells.get("A1")
-cell.putValue("Sport")
-cell = cells.get("B1")
-cell.putValue("Quarter")
-cell = cells.get("C1")
-cell.putValue("Sales")
+# 写入源数据：按运动和季度统计的销售额
+cells.get("A1").putValue("Sport")
+cells.get("B1").putValue("Quarter")
+cells.get("C1").putValue("Sales")
+cells.get("A2").putValue("Golf")
+cells.get("B2").putValue("Qtr3")
+cells.get("C2").putValue(1500)
+cells.get("A3").putValue("Golf")
+cells.get("B3").putValue("Qtr4")
+cells.get("C3").putValue(2000)
+cells.get("A4").putValue("Tennis")
+cells.get("B4").putValue("Qtr3")
+cells.get("C4").putValue(600)
+cells.get("A5").putValue("Tennis")
+cells.get("B5").putValue("Qtr4")
+cells.get("C5").putValue(1500)
+cells.get("A6").putValue("Tennis")
+cells.get("B6").putValue("Qtr3")
+cells.get("C6").putValue(4070)
+cells.get("A7").putValue("Tennis")
+cells.get("B7").putValue("Qtr4")
+cells.get("C7").putValue(5000)
+cells.get("A8").putValue("Golf")
+cells.get("B8").putValue("Qtr3")
+cells.get("C8").putValue(6430)
 
-cell = cells.get("A2")
-cell.putValue("Golf")
-cell = cells.get("A3")
-cell.putValue("Golf")
-cell = cells.get("A4")
-cell.putValue("Tennis")
-cell = cells.get("A5")
-cell.putValue("Tennis")
-cell = cells.get("A6")
-cell.putValue("Tennis")
-cell = cells.get("A7")
-cell.putValue("Tennis")
-cell = cells.get("A8")
-cell.putValue("Golf")
+# 在目标单元格 E3 处添加数据透视表，数据源为 A1:C8
+pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4)
 
-cell = cells.get("B2")
-cell.putValue("Qtr3")
-cell = cells.get("B3")
-cell.putValue("Qtr4")
-cell = cells.get("B4")
-cell.putValue("Qtr3")
-cell = cells.get("B5")
-cell.putValue("Qtr4")
-cell = cells.get("B6")
-cell.putValue("Qtr3")
-cell = cells.get("B7")
-cell.putValue("Qtr4")
-cell = cells.get("B8")
-cell.putValue("Qtr3")
+# 分配数据透视字段：将 Sport 放入行区域，将 Quarter 放入列区域，将 Sales 放入数据区域
+pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport")
+pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Quarter")
+pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales")
 
-cell = cells.get("C2")
-cell.putValue(1500)
-cell = cells.get("C3")
-cell.putValue(2000)
-cell = cells.get("C4")
-cell.putValue(600)
-cell = cells.get("C5")
-cell.putValue(1500)
-cell = cells.get("C6")
-cell.putValue(4070)
-cell = cells.get("C7")
-cell.putValue(5000)
-cell = cells.get("C8")
-cell.putValue(6430)
-
-pivotTables = sheet.getPivotTables()
-index = pivotTables.add("=A1:C8", "E3", "PivotTable2")
-pivotTable = pivotTables.get(index)
-pivotTable.setRowGrand(False)
-pivotTable.addFieldToArea(PivotFieldType.ROW, 0)
-pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1)
-pivotTable.addFieldToArea(PivotFieldType.DATA, 2)
-workbook.save(dataDir + "pivotTable_test_out.xls")
-jpype.shutdownJVM()
+# 保存工作簿
+workbook.save("pivotTable_test_out.xlsx")
 ```
 
 {{% alert color="primary" %}}
-将单元格区域指定为数据源时,区域必须从左上到右下。例如,"A1:C3" 有效,但 "C3:A1" 无效。
+将单元格区域用作数据源时，该区域必须从左上角延伸到右下角。例如，“A1:C3”是有效的，而“C3:A1”无效。
 {{% /alert %}}
 
 ## 相关文章
-- [在 Aspose.Cells for Python via Java 中向数据透视表添加筛选字段](/cells/zh/python-java/add-page-field-in-pivot-table/)
+- [在 Aspose.Cells for Python via Java 中将筛选字段添加到数据透视表](/cells/zh/python-java/add-page-field-in-pivot-table/)
 - [在 Aspose.Cells for Python via Java 中为数据透视表应用样式](/cells/zh/python-java/apply-style-to-pivot-table/)
-- [Modify Page Field Layout in Pivot Table](/cells/zh/python-java/change-page-field-layout/)
+- [修改数据透视表中的页字段布局](/cells/zh/python-java/change-page-field-layout/)
 - [按标签或值筛选数据透视表](/cells/zh/python-java/filter-by-label-or-value-of-pivot-table/)
-- [Aspose.Cells for Python via Java 中的值字段](/cells/zh/python-java/manage-value-fields/)
+- [在 Aspose.Cells for Python via Java 中管理数据透视表值字段](/cells/zh/python-java/manage-value-fields/)
 
 {{< app/cells/assistant language="python" >}}

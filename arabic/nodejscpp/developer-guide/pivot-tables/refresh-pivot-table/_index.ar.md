@@ -1,7 +1,7 @@
 ---
 title: تحديث الجداول المحورية وذاكرات التخزين المؤقت في Aspose.Cells for Node.js via C++
 linktitle: تحديث الجداول المحورية وذاكرات التخزين المؤقت في Aspose.Cells for Node.js via C++
-description: تعلّم كيفية تحديث الجداول المحورية في Aspose.Cells for Node.js via C++ باستخدام واجهة pivot-refresh API في v26.7+. تغطي هذه المقالة RefreshAll وRefreshPivotTables وPivotCache.Refresh وCalculateData وGetPivotTables مع أمثلة برمجية عملية.
+description: تعلّم كيفية تحديث الجداول المحورية في Aspose.Cells for Node.js via C++ باستخدام واجهة pivot-refresh API في v26.7+. تغطي هذه المقالة refreshAll وrefreshPivotTables وPivotCache.refresh وcalculateData وgetPivotTables مع أمثلة برمجية عملية.
 keywords: Aspose.Cells, Node.js via C++, جدول محوري, تحديث, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -83,9 +83,8 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// إضافة جدول محوري: نطاق المصدر "A1:C9"، خلية الوجهة "E3"، الاسم "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// إضافة جدول محوري: نطاق المصدر "A1:C9"، خلية الوجهة "E3"، الاسم
+let pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // تعيين حقول الجدول المحوري: Fruit إلى الصفوف، Year إلى الأعمدة، Amount إلى البيانات
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -134,8 +133,7 @@ worksheet.getCells().get("C8").putValue(220);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2020);
 worksheet.getCells().get("C9").putValue(140);
-let pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -189,9 +187,8 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// إضافة جدول محور باسم "Pivot1" موضوعًا في خلية الوجهة E3، مع مصدر A1:C9
-var pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-var pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// إضافة جدول محور باسم موضوعًا في خلية الوجهة E3، مع مصدر A1:C9
+var pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // تعيين الحقول: Fruit إلى Row، Year إلى Column، Amount إلى Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

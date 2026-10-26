@@ -1,130 +1,92 @@
 ---
-title: Pivot-Tabelle einfügen
-description: Erstellen und formatieren Sie Pivot-Tabellen in Excel-Tabellen mit Aspose.Cells für Node.js via Java.
-linktitle: Pivot-Tabellen
-url: /de/nodejs-java/create-pivot-table/
+title: PivotTable einfügen
+linktitle: PivotTable einfügen
+description: Erstellen und formatieren Sie PivotTables in Excel-Kalkulationsdateien mit Aspose.Cells for Node.js via Java.
+keywords: PivotTable erstellen, PivotTable einfügen, PivotTable formatieren, Aspose.Cells for Node.js via Java.
 type: docs
 weight: 160
-keywords: Pivot-Tabelle erstellen, Pivot-Tabelle einfügen, Pivot-Tabelle formatieren, Aspose.Cells für Node.js via Java.
+url: /de/nodejs-java/create-pivot-table/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Pivot-Tabelle erstellen**
-Mit Aspose.Cells können Sie Pivot-Tabellen programmgesteuert zu Tabellen hinzufügen.
+## **Was ist eine PivotTable?**
+Eine PivotTable ist ein interaktiver Zusammenfassungsbericht: Sie verdichtet einen großen Block an Rohdaten, der Zeile für Zeile vorliegt, zu einer kompakten Matrix, ganz ohne eine einzige Formel. Sie legen fest, welche Spalten zu Zeilenbeschriftungen, welche zu Spaltenbeschriftungen und welche als Werte aggregiert werden – die PivotTable übernimmt die Gruppierung und die Berechnung:
+- **Zusammenfassen** – Umsatzsummen pro Produkt, Region oder Quartal statt langer Formelketten.
+- **Vergleichen** – Kategorien in den Zeilen und Zeiträume in den Spalten machen aus einer flachen Liste einen Kreuzbericht, in dem Trends auf einen Blick erkennbar sind.
+- **Auf Details eingehen** – Doppelklicken Sie auf einen Zusammenfassungswert, um die zugrunde liegenden Quellzeilen einzusehen.
+- **Aktualisieren** – Wenn sich die Quelldaten ändern, berechnet eine einzige Aktualisierung den gesamten Bericht neu.
+Typische Anwendungsfälle sind Vertriebs-Dashboards, Ausgabenaufschlüsselungen und Bestandsanalysen – beispielsweise die Frage: „Wie lassen sich diese Zahlen nach Kategorie und Zeit aufteilen?“ Aspose.Cells for Node.js via Java erstellt dieselben PivotTables programmgesteuert, sodass die von Ihrer Anwendung erzeugten Arbeitsmappen einsatzfertige Berichte statt ausschließlich Rohdaten enthalten können.
 
-### **Objektmodell der Pivot-Tabelle**
-Aspose.Cells stellt eine Reihe von Klassen bereit, mit denen Pivot-Tabellen erstellt und gesteuert werden. Die Bausteine sind:
+### **Objektmodell der PivotTable**
+Aspose.Cells stellt eine Reihe von Klassen bereit, mit denen PivotTables erstellt und gesteuert werden. Die Bausteine sind:
 - `PivotField` stellt ein Feld in einer `PivotTable` dar.
-- `PivotFieldCollection` stellt eine Sammlung aller `PivotField`-Objekte in der `PivotTable` dar.
-- `PivotTable` stellt eine Pivot-Tabelle auf einem Arbeitsblatt dar.
-- `PivotTableCollection` stellt eine Sammlung aller `PivotTable`-Objekte auf einem Arbeitsblatt dar.
+- `PivotFieldCollection` stellt eine Auflistung aller `PivotField`-Objekte in der `PivotTable` dar.
+- `PivotTable` stellt eine PivotTable auf einem Arbeitsblatt dar.
+- `PivotTableCollection` stellt eine Auflistung aller `PivotTable`-Objekte auf einem Arbeitsblatt dar.
 
-### **Erstellen einer einfachen Pivot-Tabelle mit Aspose.Cells**
-1. Fügen Sie Daten mit der Methode `putValue` der Zelle zu einem Arbeitsblatt hinzu. Diese Daten werden als Datenquelle für die Pivot-Tabelle verwendet.
-2. Fügen Sie eine Pivot-Tabelle zum Arbeitsblatt hinzu, indem Sie die Methode `add` der im Arbeitsblattobjekt gekapselten `PivotTables`-Sammlung aufrufen.
-3. Greifen Sie auf das neue `PivotTable`-Objekt aus der `PivotTables`-Sammlung zu, indem Sie den Index der Pivot-Tabelle übergeben.
-4. Verwenden Sie eines der oben erläuterten `PivotTable`-Objekte, um die Pivot-Tabelle zu verwalten.
-Nach der Ausführung des Beispielcodes wird dem Arbeitsblatt eine Pivot-Tabelle hinzugefügt.
+### **Erstellen einer einfachen PivotTable mit Aspose.Cells**
+Das Erstellen einer PivotTable umfasst drei Schritte: Schreiben Sie die Quelldaten in Zellen eines Arbeitsblatts, fügen Sie die PivotTable an einer Zielposition hinzu und platzieren Sie die Felder der PivotTable im Zeilen-, Spalten- und Datenbereich.
+1. Fügen Sie einem Arbeitsblatt mithilfe der Methode `putValue` der Zelle Daten hinzu. Diese Daten dienen als Datenquelle der PivotTable.
+2. Fügen Sie dem Arbeitsblatt eine PivotTable hinzu, indem Sie die Methode `add` der Auflistung `PivotTables` aufrufen: `add(sourceData, row, column)`. `sourceData` ist der Quellbereich (zum Beispiel „A1:C8“); `row` und `column` sind die 0-basierten Koordinaten der Zielzelle an der linken oberen Ecke der PivotTable (Zelle E3 entspricht Zeile 2, Spalte 4). Die Methode gibt direkt das neue Objekt `PivotTable` zurück.
+3. Ordnen Sie die Felder mithilfe der Methode `addFieldToArea` des Objekts `PivotTable` zu: Ein Feldname wird dem Zeilenbereich (`PivotFieldType.ROW`), dem Spaltenbereich (`PivotFieldType.COLUMN`) oder dem Datenbereich (`PivotFieldType.DATA`) zugeordnet.
+4. Speichern Sie die Arbeitsmappe – die PivotTable wird in die gespeicherte Datei geschrieben.
+Nach Ausführung des Beispielcodes wird dem Arbeitsblatt eine PivotTable hinzugefügt.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-var dataDir = "./";
 
-// Instantiating a Workbook object
-var workbook = new AsposeCells.Workbook();
+// Erstelle eine neue Arbeitsmappe und rufe das erste Arbeitsblatt ab
+let workbook = new AsposeCells.Workbook();
+let sheet = workbook.getWorksheets().get(0);
 
-// Obtaining the reference of the newly added worksheet
-var sheet = workbook.getWorksheets().get(0);
+// Schreibe die Quelldaten: Umsätze pro Sport und Quartal
+sheet.getCells().get("A1").putValue("Sport");
+sheet.getCells().get("B1").putValue("Quarter");
+sheet.getCells().get("C1").putValue("Sales");
+sheet.getCells().get("A2").putValue("Golf");
+sheet.getCells().get("B2").putValue("Qtr3");
+sheet.getCells().get("C2").putValue(1500);
+sheet.getCells().get("A3").putValue("Golf");
+sheet.getCells().get("B3").putValue("Qtr4");
+sheet.getCells().get("C3").putValue(2000);
+sheet.getCells().get("A4").putValue("Tennis");
+sheet.getCells().get("B4").putValue("Qtr3");
+sheet.getCells().get("C4").putValue(600);
+sheet.getCells().get("A5").putValue("Tennis");
+sheet.getCells().get("B5").putValue("Qtr4");
+sheet.getCells().get("C5").putValue(1500);
+sheet.getCells().get("A6").putValue("Tennis");
+sheet.getCells().get("B6").putValue("Qtr3");
+sheet.getCells().get("C6").putValue(4070);
+sheet.getCells().get("A7").putValue("Tennis");
+sheet.getCells().get("B7").putValue("Qtr4");
+sheet.getCells().get("C7").putValue(5000);
+sheet.getCells().get("A8").putValue("Golf");
+sheet.getCells().get("B8").putValue("Qtr3");
+sheet.getCells().get("C8").putValue(6430);
 
-var cells = sheet.getCells();
+// Füge am Zielcell E3 eine Pivot-Tabelle hinzu, deren Quelle A1:C8 ist
+let pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
 
-// Setting the value to the cells
-var cell = cells.get("A1");
-cell.putValue("Sport");
-cell = cells.get("B1");
-cell.putValue("Quarter");
-cell = cells.get("C1");
-cell.putValue("Sales");
+// Weise die Pivot-Felder zu: Sport zu Zeilen, Quarter zu Spalten, Sales zu Daten
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Sport");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Quarter");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Sales");
 
-cell = cells.get("A2");
-cell.putValue("Golf");
-cell = cells.get("A3");
-cell.putValue("Golf");
-cell = cells.get("A4");
-cell.putValue("Tennis");
-cell = cells.get("A5");
-cell.putValue("Tennis");
-cell = cells.get("A6");
-cell.putValue("Tennis");
-cell = cells.get("A7");
-cell.putValue("Tennis");
-cell = cells.get("A8");
-cell.putValue("Golf");
-
-cell = cells.get("B2");
-cell.putValue("Qtr3");
-cell = cells.get("B3");
-cell.putValue("Qtr4");
-cell = cells.get("B4");
-cell.putValue("Qtr3");
-cell = cells.get("B5");
-cell.putValue("Qtr4");
-cell = cells.get("B6");
-cell.putValue("Qtr3");
-cell = cells.get("B7");
-cell.putValue("Qtr4");
-cell = cells.get("B8");
-cell.putValue("Qtr3");
-
-cell = cells.get("C2");
-cell.putValue(1500);
-cell = cells.get("C3");
-cell.putValue(2000);
-cell = cells.get("C4");
-cell.putValue(600);
-cell = cells.get("C5");
-cell.putValue(1500);
-cell = cells.get("C6");
-cell.putValue(4070);
-cell = cells.get("C7");
-cell.putValue(5000);
-cell = cells.get("C8");
-cell.putValue(6430);
-
-var pivotTables = sheet.getPivotTables();
-
-// Adding a PivotTable to the worksheet
-var index = pivotTables.add("=A1:C8", "E3", "PivotTable2");
-
-// Accessing the instance of the newly added PivotTable
-var pivotTable = pivotTables.get(index);
-
-// Unshowing grand totals for rows.
-pivotTable.setRowGrand(false);
-
-// Draging the first field to the row area.
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);
-
-// Draging the second field to the column area.
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, 1);
-
-// Draging the third field to the data area.
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 2);
-
-// Saving the Excel file
-workbook.save(dataDir + "pivotTable_test_out.xls");
+// Speichere die Arbeitsmappe
+workbook.save("pivotTable_test_out.xlsx");
 ```
 
 {{% alert color="primary" %}}
-Wenn Sie einen Zellbereich als Datenquelle zuweisen, muss der Bereich von oben links nach unten rechts verlaufen. Beispielsweise ist "A1:C3" gültig, aber "C3:A1" nicht.
+Wenn ein Zellenbereich als Datenquelle zugewiesen wird, muss er von oben links nach unten rechts verlaufen. Beispielsweise ist „A1:C3“ gültig, „C3:A1“ jedoch nicht.
 {{% /alert %}}
 
 ## Verwandte Artikel
-- [Filterfelder zu einer PivotTable in Aspose.Cells für .NET hinzufügen](/cells/de/nodejs-java/add-page-field-in-pivot-table/)
-- [Stile auf Pivot-Tabellen in Aspose.Cells for Node.js via Java anwenden](/cells/de/nodejs-java/apply-style-to-pivot-table/)
-- [Modify Page Field Layout in Pivot Table](/cells/de/nodejs-java/change-page-field-layout/)
-- [Filtering Pivot Tables by Label or Value](/cells/de/nodejs-java/filter-by-label-or-value-of-pivot-table/)
-- [Wertfelder in Aspose.Cells for Node.js via Java](/cells/de/nodejs-java/manage-value-fields/)
+- [Filterfelder zu einer PivotTable in Aspose.Cells for Node.js via Java hinzufügen](/cells/de/nodejs-java/add-page-field-in-pivot-table/)
+- [Stile auf PivotTables in Aspose.Cells for Node.js via Java anwenden](/cells/de/nodejs-java/apply-style-to-pivot-table/)
+- [Layout des Seitenfelds in einer PivotTable ändern](/cells/de/nodejs-java/change-page-field-layout/)
+- [PivotTables nach Beschriftung oder Wert filtern](/cells/de/nodejs-java/filter-by-label-or-value-of-pivot-table/)
+- [Wertfelder von PivotTables in Aspose.Cells for Node.js via Java verwalten](/cells/de/nodejs-java/manage-value-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

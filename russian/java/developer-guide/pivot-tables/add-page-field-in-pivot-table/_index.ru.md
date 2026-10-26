@@ -52,8 +52,7 @@ for (int i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
 // Добавить сводную таблицу с привязкой к ячейке E3
-int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Добавить поля в соответствующие области: Fruit как строка, Amount как данные, Year как поле страницы
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -92,8 +91,7 @@ sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").put
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
 // Добавление сводной таблицы в E3, охватывающей A1:C10
-int pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1");
-PivotTable pivotTable = sheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // Fruit -> Row, Amount -> Data (Year будет помещено на Page ниже)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -138,8 +136,7 @@ for (int r = 0; r < data.length; r++)
 }
 // Создать сводную таблицу в E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
-int index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
-PivotTable pivot = pivotTables.get(index);
+PivotTable pivot = pivotTables.add("=A1:C7", 2, 4);
 // Настроить поля сводной таблицы: Fruit — строки, Amount — данные, Year — страница
 pivot.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivot.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -179,8 +176,7 @@ cells.get("B5").putValue("2021");
 cells.get("C5").putValue("250");
 // Добавить сводную таблицу в E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
-int pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
-PivotTable pivotTable = pivotTables.get(pivotIndex);
+PivotTable pivotTable = pivotTables.add("A1:C5", 2, 4);
 // Добавить поля: Fruit→Строка, Amount→Данные, Year→Страница
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -224,8 +220,7 @@ for (int i = 0; i < data.length; i++)
 }
 Worksheet pivotSheet = workbook.getWorksheets().add("Pivot");
 PivotTableCollection pivots = pivotSheet.getPivotTables();
-int pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1");
-PivotTable pivotTable = pivots.get(pivotIndex);
+PivotTable pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");

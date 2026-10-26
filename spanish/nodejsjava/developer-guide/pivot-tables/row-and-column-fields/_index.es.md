@@ -83,8 +83,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -125,8 +124,7 @@ for (let i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -182,8 +180,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -196,7 +193,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Resumen**
-
 Los tres escenarios difieren únicamente en las llamadas a `setSubtotals`. Todo lo demás —el conjunto de datos, los campos y las áreas a las que se asignan— es idéntico, lo cual permite comparar directamente los diseños.
 - **Colocación de campos.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, fieldName)` mueve una columna de origen a una región. Dentro de una misma región, el orden de las llamadas determina el orden de visualización, por lo que la primera llamada corresponde al grupo más externo. Para calcular subtotales se requieren dos o más campos en la misma región: con un único campo no hay nada entre los grupos sobre lo cual calcular el subtotal.
 - **Escenario 1 — subtotales automáticos.** Si no se llama a `setSubtotals`, se deja a Excel la decisión, que aplica su subtotal predeterminado automáticamente a los campos numéricos. Llamar a `setSubtotals` con `AsposeCells.PivotFieldSubtotalType.AUTOMATIC` registra explícitamente esa elección en lugar de dejarla implícita.
@@ -206,9 +202,10 @@ Los tres escenarios difieren únicamente en las llamadas a `setSubtotals`. Todo 
 {{% alert color="primary" %}}
 Nada acerca de los subtotales es específico de la región de filas. Las mismas llamadas a `setSubtotals` aplicadas a un campo obtenido de `PivotTable.ColumnFields` producen los mismos tres diseños en el eje de columnas, porque la configuración pertenece al campo dinámico y no al eje en el que se encuentra.
 {{% /alert %}}
-## **Artículos relacionados**
 
+## **Artículos relacionados**
 - [Campos de página en tablas dinámicas](/cells/es/nodejs-java/add-page-field-in-pivot-table/)
 - [Actualización de tablas dinámicas en Aspose.Cells para Node.js mediante Java](/cells/es/nodejs-java/refresh-pivot-table/)
 - [Aplicación de estilos a tablas dinámicas](/cells/es/nodejs-java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="nodejs-java" >}}

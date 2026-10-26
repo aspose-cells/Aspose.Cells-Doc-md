@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Node.js via C++ でピボットテーブルにスタイルを適用する
 linktitle: Aspose.Cells for Node.js via C++ でピボットテーブルにスタイルを適用する
-description: Aspose.Cells for Node.js via C++ を使用して、レガシー XLS の自動書式、最新の Excel 2007+ 名前付きスタイル、カスタムのピボットテーブルスタイル、および FormatAll ショートカットなど、組み込みおよびカスタムのスタイルをピボットテーブルに適用する方法を学びます。
+description: Aspose.Cells for Node.js via C++ を使用して、レガシー XLS の自動書式、最新の Excel 2007+ 名前付きスタイル、カスタムのピボットテーブルスタイル、および formatAll ショートカットなど、組み込みおよびカスタムのスタイルをピボットテーブルに適用する方法を学びます。
 keywords: Aspose.Cells for Node.js via C++ ピボットテーブル スタイル, PivotTableStyleType, AutoFormatType, FormatAll, カスタムスタイル, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -70,9 +70,8 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// 宛先セル E3 に "Pivot1" という名前のピボットテーブルを、ソース範囲 A1:C10 を使用して追加する
-const pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-const pivotTable = sheet.getPivotTables().get(pivotIndex);
+// 宛先セル E3 に という名前のピボットテーブルを、ソース範囲 A1:C10 を使用して追加する
+const pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // フィールドを割り当てる: Fruit -> 行、Amount -> データ
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -86,7 +85,6 @@ workbook.save("output.xls");
 ```
 
 ## **最新の名前付きプリセットピボットテーブルスタイルを適用する**
-
 `PivotTable.pivotTableStyleType` は、Excel 2007 でピボットテーブル向けに導入された組み込みの名前付きスタイルから 1 つを選択します。`PivotTableStyleType` 列挙型は 3 つのテーマファミリを公開しています。ライトファミリは `PivotTableStyleLight1` から `PivotTableStyleLight28` まで、ミディアムファミリは `PivotTableStyleMedium1` から `PivotTableStyleMedium28` まで、ダークファミリは `PivotTableStyleDark1` から `PivotTableStyleDark28` までです。また、`None` と `Custom` も定義しています。各ファミリの番号が大きいメンバーは、Excel 2017 で追加されたスタイルです。
 これらのプリセットは読み取り専用です。プリセットが提供する範囲を超えて、色、罫線、またはフォントを変更する必要がある場合は、代わりにカスタムピボットスタイルを定義する必要があります。[シナリオ 3](#define-and-apply-a-custom-pivot-table-style) に示す通りです。
 
@@ -132,9 +130,8 @@ worksheet.getCells().get("C9").putValue(190);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(130);
-// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Add a pivot table at E3, sourced from A1:C10
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -148,6 +145,7 @@ pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PivotTableStyl
 // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx");
 ```
+
 ## **カスタムのピボットテーブルスタイルを定義して適用する**
 組み込みのプリセットは変更できません。色、罫線、フォントを上書きする必要がある場合は、常にカスタムのピボットスタイルを定義する必要があります。ワークフローは次の 3 ステップで構成されます。
 1. `Workbook.Worksheets.TableStyles.addPivotTableStyle(string name)` を介して、ワークブックの `TableStyles` コレクションにカスタムスタイルを追加します。これにより、新しく作成されたスタイルのインデックスが返されます。
@@ -196,8 +194,7 @@ worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
 // A1:C10 をソースとするピボットテーブルを E3 に「Pivot1」という名前で追加
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -272,9 +269,8 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// ピボット表の追加: ソース範囲 A1:C10、配置先のセル E3、名前 "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// ピボット表の追加: ソース範囲 A1:C10、配置先のセル E3、名前
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // ピボットフィールドの割り当て: Fruit → 行エリア、Year → 列エリア、Amount → データエリア
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -309,6 +305,5 @@ workbook.save("output.xlsx");
 | `.xlsx` / `.xlsm` / `.xlsb`（最新のカスタムスタイル） | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | 組み込みのプリセットでは不十分な場合に使用します。`TableStyleElement.SetElementStyle(...)` を介して構成します。 |
 | 任意の形式（一律の上書き） | `PivotTable.formatAll(Style)` | ピボットテーブル全体にわたって他のすべてのスタイル設定を上書きするショートカット。 |
 迷った場合は、`.xlsx` として保存し、組み込みテーマには `PivotTableStyleType` を、カスタムテーマには `PivotTableStyleName` を使用してください。
-
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

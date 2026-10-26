@@ -48,8 +48,7 @@ int main() {
         cells.Get(i + 1, 2).PutValue(amounts[i]);
     }
     // Aggiungi una tabella pivot ancorata alla cella E3
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"PivotTable1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // Aggiungi campi alle loro aree: Frutta come Riga, Importo come Dati, Anno come Campo Pagina
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -143,8 +142,7 @@ int main() {
         cells.Get(r + 1, 2).PutValue(amounts[r]);
     }
     PivotTableCollection pivotTables = sheet.GetPivotTables();
-    int index = pivotTables.Add(u"=A1:C7", u"E3", u"PivotTable1");
-    PivotTable pivotTable = pivotTables.Get(index);
+    PivotTable pivotTable = pivotTables.Add(u"=A1:C7", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
@@ -233,8 +231,7 @@ int main() {
     }
     Worksheet pivotSheet = workbook.GetWorksheets().Add(u"Pivot");
     PivotTableCollection pivots = pivotSheet.GetPivotTables();
-    int pivotIndex = pivots.Add(u"A1:C10", u"E3", u"PivotTable1");
-    PivotTable pivotTable = pivots.Get(pivotIndex);
+    PivotTable pivotTable = pivots.Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");

@@ -72,9 +72,8 @@ sheet.Cells[8, 2].PutValue(45);
 sheet.Cells[9, 0].PutValue("grape");
 sheet.Cells[9, 1].PutValue(2020);
 sheet.Cells[9, 2].PutValue(45);
-// Ajouter un tableau croisé dynamique à la cellule E3, nommé "Pivot1", en utilisant la plage source A1:C10
-int pivotIndex = sheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+// Ajouter un tableau croisé dynamique à la cellule E3, nommé, en utilisant la plage source A1:C10
+PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
 // Attribuer les champs : Fruit -> Lignes, Amount -> Données
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -88,7 +87,6 @@ workbook.Save("output.xls");
 ```
 
 ## **Appliquer un style de tableau croisé dynamique moderne, intégré et nommé**
-
 `PivotTable.PivotTableStyleType` sélectionne l’un des styles nommés intégrés qu’Excel 2007 a introduits pour les tableaux croisés dynamiques. L’énumération `PivotTableStyleType` expose trois familles de thèmes : la famille claire allant de `PivotTableStyleLight1` à `PivotTableStyleLight28`, la famille moyenne allant de `PivotTableStyleMedium1` à `PivotTableStyleMedium28` et la famille sombre allant de `PivotTableStyleDark1` à `PivotTableStyleDark28`. Elle définit également `None` et `Custom`. Les membres portant les numéros les plus élevés de chaque famille sont les styles ajoutés dans Excel 2017.
 Ces préréglages sont en lecture seule. Dès que vous souhaitez modifier les couleurs, les bordures ou les polices au-delà de ce que fournit un préréglage, vous devez plutôt définir un style de tableau croisé dynamique personnalisé, comme indiqué dans [Scénario 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -140,9 +138,8 @@ worksheet.Cells["C9"].PutValue(190);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(130);
-// Ajouter un tableau croisé dynamique à E3, nommé "Pivot1", avec A1:C10 comme source
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Ajouter un tableau croisé dynamique à E3, nommé, avec A1:C10 comme source
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // Attribuer les champs du tableau croisé dynamique : Fruit -> zone de lignes (Row), Year -> zone de colonnes (Column), Amount -> zone de données (Data)
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -156,6 +153,7 @@ pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
 // Enregistrer au format .xlsx moderne -- c’est le format pour lequel PivotTableStyleType est pris en compte.
 workbook.Save("output.xlsx");
 ```
+
 ## **Définir et appliquer un style de tableau croisé dynamique personnalisé**
 Les préréglages intégrés ne peuvent pas être modifiés. Lorsque vous souhaitez modifier les couleurs, les bordures ou les polices, vous devez définir un style de tableau croisé dynamique personnalisé. Le processus comporte trois étapes :
 1. Ajoutez un style personnalisé à la collection `TableStyles` du classeur via `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)`. Cette méthode renvoie l'index du style nouvellement créé.
@@ -173,6 +171,7 @@ using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
 using System.Drawing;
+using Aspose.Cells.Tables;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 // Remplir les données sources : ligne d'en-tête + 9 lignes de données (A1:C10)
@@ -206,9 +205,8 @@ worksheet.Cells["C9"].PutValue(800);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(900);
-// Ajouter un tableau croisé dynamique à partir de A1:C10, ancré en E3, nommé "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Ajouter un tableau croisé dynamique à partir de A1:C10, ancré en E3, nommé
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -291,9 +289,8 @@ worksheet.Cells["C9"].PutValue(2500);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(5500);
-// Ajouter un tableau croisé dynamique : plage source A1:C10, cellule de destination E3, nom "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Ajouter un tableau croisé dynamique : plage source A1:C10, cellule de destination E3, nom
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // Affecter les champs du tableau croisé dynamique : Fruit -> zone Ligne, Year -> zone Colonne, Amount -> zone Données
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");

@@ -37,8 +37,7 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.getCells().get(i + 1, j).putValue(val)
-pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table = worksheet.getPivotTables().add("A1:D9", 2, 5)
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
 pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -80,8 +79,7 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.getCells().get(i + 1, j).putValue(val)
-pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table = worksheet.getPivotTables().add("A1:D9", 2, 5)
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
 pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -125,8 +123,7 @@ data = [
 for i, row in enumerate(data):
     for j, val in enumerate(row):
         worksheet.getCells().get(i + 1, j).putValue(val)
-pivot_index = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1", True, False)
-pivot_table = worksheet.getPivotTables().get(pivot_index)
+pivot_table = worksheet.getPivotTables().add("A1:D9", 2, 5)
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Category")
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Item")
 pivot_table.addFieldToArea(PivotFieldType.COLUMN, "Year")

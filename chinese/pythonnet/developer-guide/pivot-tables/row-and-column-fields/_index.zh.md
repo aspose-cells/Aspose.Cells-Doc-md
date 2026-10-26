@@ -87,8 +87,7 @@ worksheet.cells.get(8, 0).put_value("Vegetable")
 worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -125,8 +124,7 @@ data = [
 for i in range(len(data)):
     for j in range(len(data[i])):
         worksheet.cells.get(i + 1, j).put_value(data[i][j])
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -185,8 +183,7 @@ worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
 pivot_tables = worksheet.pivot_tables
-pivot_index = pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = pivot_tables[pivot_index]
+pivot_table = pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -199,7 +196,6 @@ workbook.save("output_custom.xlsx")
 ```
 
 ## **总结**
-
 三种场景仅在 `set_subtotals` 调用上存在差异；其余部分——数据集、字段及其所分配的区域——均完全相同，这使得各布局之间可直接进行比较。
 - **字段放置。** `PivotTable.add_field_to_area(PivotFieldType.ROW, fieldName)` 将源列移入某一区域；在同一个区域内，调用顺序即为显示顺序，因此首次调用对应的字段会成为最外层分组。 subtotal 计算需要同一区域中存在两个或更多字段：仅有一个字段时，组间不存在可进行小计的间隔。
 - **场景 1——自动小计。** 若不调用 `set_subtotals`，则由 Excel 自行决定默认的小计方式，即对数值字段应用其内置默认小计函数；而显式调用 `set_subtotals` 并传入 `PivotFieldSubtotalType.AUTOMATIC` 可明确记录该选择，而非保留其隐含默认行为。
@@ -209,6 +205,7 @@ workbook.save("output_custom.xlsx")
 {{% alert color="primary" %}}
 关于小计的设置并非仅限于行区域；对 `PivotTable.ColumnFields` 中取出的字段执行相同的 `set_subtotals` 调用，同样可在列轴上生成上述三种布局，因为该设置属于数据透视字段本身，而非其所在的轴。
 {{% /alert %}}
+
 ## **相关文章**
 - [数据透视表中的页字段](/cells/zh/python-net/add-page-field-in-pivot-table/)
 - [在 Aspose.Cells for Python via .NET 中刷新数据透视表](/cells/zh/python-net/refresh-pivot-table/)

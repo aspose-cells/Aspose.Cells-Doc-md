@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -124,8 +123,7 @@ for (let i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -181,8 +179,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -195,7 +192,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **ملخص**
-
 تختلف السيناريوهات الثلاثة في عنصر واحد فقط: استدعاءات `setSubtotals`. أما كل شيء آخر — مثل مجموعة البيانات، والحقول، والمناطق التي تُعيَّن إليها — فهو متطابق، وهذا هو ما يجعل التوزيعات مقارنة مباشرة.
 - **وضع الحقول.** ينقل `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, fieldName)` عمود مصدر إلى منطقة معينة. وترتيب هذه الاستدعاءات داخل منطقة واحدة يُحدِّد ترتيب العرض، لذا فإن أول استدعاء يصبح المجموعة الخارجية. وتحتاج القيم الفرعية إلى حقلين أو أكثر داخل نفس المنطقة: فمع وجود حقل واحد لا توجد أي قيمة تُحسب بين المجموعات لتكون قيمة فرعية.
 - **السيناريو 1 — القيم الفرعية التلقائية.** تترك القيم الفرعية على خيار إكسل إذا لم تُستدعَ `setSubtotals`، حيث يُطبِّق إكسل القيمة الفرعية التلقائية الافتراضية الخاصة به على الحقول الرقمية. بينما يُسجَّل هذا الاختيار صراحة عند استدعاء `setSubtotals` باستخدام `AsposeCells.PivotFieldSubtotalType.AUTOMATIC`، بدلاً من تركه ضمنياً.
@@ -205,6 +201,7 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 لا يوجد شيء في القيم الفرعية مرتبط بالمنطقة الصفية فقط. فالاستدعاءات نفسها `setSubtotals` المطبَّقة على حقل مأخوذ من `PivotTable.ColumnFields` تُنتج نفس التوزيعات الثلاثة على محور الأعمدة، لأن الإعداد ينتمي إلى الحقل المحوري نفسه وليس إلى المحور الذي يقبع عليه.
 {{% /alert %}}
+
 ## **مقالات ذات صلة**
 - [حقول الصفحة في الجداول المحورية](/cells/ar/nodejs-java/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for Node.js عبر Java](/cells/ar/nodejs-java/refresh-pivot-table/)

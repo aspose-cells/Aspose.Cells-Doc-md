@@ -52,8 +52,7 @@ for (int i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
 // E3セルを基準位置としてピボットテーブルを追加
-int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // フィールドを各エリアに追加: Fruitは行、Amountはデータ、Yearはページフィールド
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -91,8 +90,7 @@ sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").put
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
 // A1:C10 を対象として E3 にピボットテーブルを追加
-int pivotIndex = sheet.getPivotTables().add("E3", "A1:C10", "PivotTable1");
-PivotTable pivotTable = sheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // Fruit -> Row、Amount -> Data（Year は後で Page に追加されます）
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -137,8 +135,7 @@ for (int r = 0; r < data.length; r++)
 }
 // E3 にピボットテーブルを作成
 PivotTableCollection pivotTables = sheet.getPivotTables();
-int index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
-PivotTable pivot = pivotTables.get(index);
+PivotTable pivot = pivotTables.add("=A1:C7", 2, 4);
 // ピボットフィールドを設定: Fruit を Row、Amount を Data、Year を Page に配置
 pivot.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivot.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -178,8 +175,7 @@ cells.get("B5").putValue("2021");
 cells.get("C5").putValue("250");
 // E3にピボットテーブルを追加
 PivotTableCollection pivotTables = sheet.getPivotTables();
-int pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
-PivotTable pivotTable = pivotTables.get(pivotIndex);
+PivotTable pivotTable = pivotTables.add("A1:C5", 2, 4);
 // フィールドを追加：Fruit→Row、Amount→Data、Year→Page
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -223,8 +219,7 @@ for (int i = 0; i < data.length; i++)
 }
 Worksheet pivotSheet = workbook.getWorksheets().add("Pivot");
 PivotTableCollection pivots = pivotSheet.getPivotTables();
-int pivotIndex = pivots.add("E3", "A1:C10", "PivotTable1");
-PivotTable pivotTable = pivots.get(pivotIndex);
+PivotTable pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");

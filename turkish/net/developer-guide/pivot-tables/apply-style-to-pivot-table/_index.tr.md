@@ -72,9 +72,8 @@ sheet.Cells[8, 2].PutValue(45);
 sheet.Cells[9, 0].PutValue("grape");
 sheet.Cells[9, 1].PutValue(2020);
 sheet.Cells[9, 2].PutValue(45);
-// Hedef hücre E3'e "Pivot1" adında, A1:C10 kaynak aralığını kullanan bir pivot tablo ekleyin
-int pivotIndex = sheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+// Hedef hücre E3'e adında, A1:C10 kaynak aralığını kullanan bir pivot tablo ekleyin
+PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
 // Alanları atayın: Fruit -> Satırlar, Amount -> Veri
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -88,7 +87,6 @@ workbook.Save("output.xls");
 ```
 
 ## **Apply a Modern Named Preset Pivot Table Style**
-
 `PivotTable.PivotTableStyleType`, Excel 2007’de pivot tablolar için tanıtılan önceden hazırlanmış adlandırılmış stillerden birini seçer. `PivotTableStyleType` numaralandırması, üç temel aileyi sunar: `PivotTableStyleLight1`’den `PivotTableStyleLight28`’e kadar olan açık ailesi, `PivotTableStyleMedium1`’den `PivotTableStyleMedium28`’e kadar olan orta ailesi ve `PivotTableStyleDark1`’den `PivotTableStyleDark28`’e kadar olan koyu ailesi. Ayrıca, `None` ve `Custom` değerlerini de tanımlar. Her ailenin daha yüksek numaralı üyeleri, Excel 2017’de eklenen stillerdir.
 Bu ön ayarlar salt okunurdur. Bir ön ayarın sunduğu şekilde renkleri, kenarlıkları veya yazı tiplerini değiştirmeniz gerektiğinde, bunun yerine [Senaryo 3](#define-and-apply-a-custom-pivot-table-style)’te gösterildiği gibi özel bir pivot stili tanımlamanız gerekir.
 
@@ -97,7 +95,6 @@ Bu ön ayarlar salt okunurdur. Bir ön ayarın sunduğu şekilde renkleri, kenar
 {{% /alert %}}
 
 Bu senaryo, Senaryo 1’deki Meyve/Yıl/Miktar veri kümesini kullanmakta, `Fruit` satır alanının yanına `Year` öğesini `PivotFieldType.Column` aracılığıyla sütun alanına eklemekte, `PivotTable.PivotTableStyleType` ile koyu tema ön ayarı `PivotTableStyleDark1`’i uygulamakta ve sonucu `.xlsx` olarak kaydetmektedir — `PivotTableStyleType`'ın anlamlı olduğu format.
----
 
 ```csharp
 using System;
@@ -141,9 +138,8 @@ worksheet.Cells["C9"].PutValue(190);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(130);
-// E3'te "Pivot1" adlı bir pivot tablosu ekleyin, kaynak A1:C10
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// E3'te adlı bir pivot tablosu ekleyin, kaynak A1:C10
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // Pivot alanlarını atayın: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
@@ -157,6 +153,7 @@ pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
 // Modern .xlsx olarak kaydedin -- bu, PivotTableStyleType'in anlamlı olduğu formattır.
 workbook.Save("output.xlsx");
 ```
+
 ## **Define and Apply a Custom Pivot Table Style**
 Yerleşik hazır ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı tiplerini geçersiz kılmanız gerektiğinde özel bir pivot stili tanımlamalısınız. İş akışı üç adımdan oluşur:
 1. `Workbook.Worksheets.TableStyles.AddPivotTableStyle(string name)` aracılığıyla çalışma kitabının `TableStyles` koleksiyonuna özel bir stil ekleyin. Bu, yeni oluşturulan stilin dizinini döndürür.
@@ -174,6 +171,7 @@ using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
 using System.Drawing;
+using Aspose.Cells.Tables;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 // Kaynak verileri doldur: başlık satırı + 9 veri satırı (A1:C10)
@@ -207,9 +205,8 @@ worksheet.Cells["C9"].PutValue(800);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(900);
-// A1:C10'dan kaynaklanan, E3'e yerleştirilen ve "Pivot1" adlı pivot tablo ekle
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// A1:C10'dan kaynaklanan, E3'e yerleştirilen ve adlı pivot tablo ekle
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -292,9 +289,8 @@ worksheet.Cells["C9"].PutValue(2500);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(5500);
-// Pivot tablo ekle: kaynak aralık A1:C10, hedef hücre E3, ad "Pivot1"
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+// Pivot tablo ekle: kaynak aralık A1:C10, hedef hücre E3, ad
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // Pivot alanlarını ata: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");

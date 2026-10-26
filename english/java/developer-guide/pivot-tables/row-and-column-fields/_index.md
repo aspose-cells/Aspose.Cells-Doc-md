@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -124,8 +123,7 @@ for (int i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -181,8 +179,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 PivotTableCollection pivotTables = worksheet.getPivotTables();
-int pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables.get(pivotIndex);
+PivotTable pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -195,7 +192,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Recap**
-
 The three scenarios differ in one thing only: the setSubtotals calls. Everything else — the dataset, the fields, and the areas they are assigned to — is identical, which is what makes the layouts directly comparable.
 - **Placing fields.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` moves a source column into a region. Within one region the order of the calls is the display order, so the first call becomes the outermost group. Subtotals need two or more fields in the same region: with a single field there is nothing between the groups to subtotal.
 - **Scenario 1 — automatic subtotals.** Leaving setSubtotals uncalled leaves the choice to Excel, which applies its own default subtotal to numeric fields. Calling setSubtotals with `PivotFieldSubtotalType.AUTOMATIC` records that choice explicitly instead of leaving it implicit.
@@ -205,6 +201,7 @@ The three scenarios differ in one thing only: the setSubtotals calls. Everything
 {{% alert color="primary" %}}
 Nothing about subtotals is specific to the row region. The same setSubtotals calls on a field taken from `PivotTable.ColumnFields` produce the same three layouts on the column axis, because the setting belongs to the pivot field rather than to the axis it sits on.
 {{% /alert %}}
+
 ## **Related Articles**
 - [Page Fields in Pivot Tables](/cells/java/add-page-field-in-pivot-table/)
 - [Refreshing Pivot Tables in Aspose.Cells for Java](/cells/java/refresh-pivot-table/)

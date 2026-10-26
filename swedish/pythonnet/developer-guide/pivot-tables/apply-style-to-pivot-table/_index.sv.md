@@ -1,7 +1,7 @@
 ---
 title: Tillämpa stilar på pivottabeller i Aspose.Cells for Python via .NET
 linktitle: Tillämpa stilar på pivottabeller i Aspose.Cells for Python via .NET
-description: Lär dig hur du tillämpar inbyggda och anpassade stilar på pivottabeller i Aspose.Cells for Python via .NET, inklusive äldre XLS-autoformat, moderna namngivna stilar från Excel 2007+, anpassade pivottabellstilar och genvägen FormatAll.
+description: Lär dig hur du tillämpar inbyggda och anpassade stilar på pivottabeller i Aspose.Cells for Python via .NET, inklusive äldre XLS-autoformat, moderna namngivna stilar från Excel 2007+, anpassade pivottabellstilar och genvägen _format_all.
 keywords: Aspose.Cells Python via .NET pivottabellstil, PivotTableStyleType, AutoFormatType, FormatAll, anpassad stil, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -72,9 +72,8 @@ sheet.cells.get(8, 2).put_value(45)
 sheet.cells.get(9, 0).put_value("grape")
 sheet.cells.get(9, 1).put_value(2020)
 sheet.cells.get(9, 2).put_value(45)
-# Lägg till en pivottabell vid destinationscell E3, med namnet "Pivot1", med källintervall A1:C10
-pivot_index = sheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = sheet.pivot_tables[pivot_index]
+# Lägg till en pivottabell vid destinationscell E3, med namnet, med källintervall A1:C10
+pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
 # Tilldela fält: Frukt -> Rader, Belopp -> Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -88,7 +87,6 @@ workbook.save("output.xls")
 ```
 
 ## **Tillämpa en modern namngiven förinställd pivottabellstil**
-
 `pivot_table.pivot_table_style_type` väljer en av de inbyggda namngivna stilmallarna som Excel 2007 introducerade för pivottabeller. Enumerationen `PivotTableStyleType` tillhandahåller tre temafamiljer: ljusfamiljen från `PIVOT_TABLE_STYLE_LIGHT1` till `PIVOT_TABLE_STYLE_LIGHT28`, mellanfamiljen från `PIVOT_TABLE_STYLE_MEDIUM1` till `PIVOT_TABLE_STYLE_MEDIUM28` och mörkfamiljen från `PIVOT_TABLE_STYLE_DARK1` till `PIVOT_TABLE_STYLE_DARK28`. Den definierar även `None` och `Custom`. De högre numrerade medlemmarna i varje familj är de stilmallar som lades till i Excel 2017.
 Dessa förinställningar är skrivskyddade. Så snart du behöver ändra färger, kanter eller teckensnitt utöver vad en förinställning tillåter, måste du istället definiera en anpassad pivotstil, som visas i [Scenario 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -139,9 +137,8 @@ worksheet.cells.get("C9").put_value(190)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Add a pivot table at E3, sourced from A1:C10
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -155,6 +152,7 @@ pivot_table.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_DARK1
 # Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx")
 ```
+
 ## **Definiera och tillämpa en anpassad pivottabellstil**
 De inbyggda förinställningarna kan inte ändras. När du behöver åsidosätta färger, kantlinjer eller typsnitt måste du definiera en anpassad pivotstil. Arbetsflödet har tre steg:
 1. Lägg till en anpassad stil i arbetsbokens `table_styles`-samling via `workbook.worksheets.table_styles.add_pivot_table_style(name)`. Detta returnerar indexet för den nya stil som skapats.
@@ -205,9 +203,8 @@ worksheet.cells.get("C9").put_value(800)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(900)
-# Lägg till pivottabell från A1:C10, förankrad vid E3, med namnet "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Lägg till pivottabell från A1:C10, förankrad vid E3, med namnet
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -289,9 +286,8 @@ worksheet.cells.get("C9").put_value(2500)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(5500)
-# Lägg till pivottabell: källområde A1:C10, målcell E3, namn "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Lägg till pivottabell: källområde A1:C10, målcell E3, namn
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Tilldela pivotfält: Fruit -> Radområde, Year -> Kolumnområde, Amount -> Dataområde
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -326,6 +322,5 @@ Valet av stil-API beror på det filformat du sparar till. Använd tabellen nedan
 | `.xlsx` / `.xlsm` / `.xlsb` (modern, anpassad stil) | `PivotTable.pivot_table_style_name` + `worksheets.table_styles.add_pivot_table_style(...)` | Använd när de inbyggda förinställningarna inte räcker. Konfigurera via `table_style_element.set_element_style(...)`. |
 | Valfritt format (enhetlig åsidosättning) | `PivotTable.format_all(Style)` | Genväg som åsidosätter alla andra stilinställningar över hela pivoten. |
 Vid tveksamhet, spara som `.xlsx` och använd `pivot_table_style_type` för inbyggda teman, eller `pivot_table_style_name` för anpassade teman.
-
 
 {{< app/cells/assistant language="python-net" >}}

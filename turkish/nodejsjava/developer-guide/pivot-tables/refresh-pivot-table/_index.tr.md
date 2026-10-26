@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Node.js via Java'da Pivot Tablolarını ve Pivot Önbelleklerini Yenileme
 linktitle: Aspose.Cells for Node.js via Java'da Pivot Tablolarını ve Pivot Önbelleklerini Yenileme
-description: v26.7+ pivot yenileme API'sini kullanarak Aspose.Cells for Node.js via Java'da pivot tablolarını nasıl yenileyeceğinizi öğrenin. Bu makale, pratik kod örnekleriyle RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData ve GetPivotTables konularını ele almaktadır.
+description: v26.7+ pivot yenileme API'sini kullanarak Aspose.Cells for Node.js via Java'da pivot tablolarını nasıl yenileyeceğinizi öğrenin. Bu makale, pratik kod örnekleriyle refreshAll, refreshPivotTables, PivotCache.refresh, calculateData ve getPivotTables konularını ele almaktadır.
 keywords: Aspose.Cells, Node.js, Java, pivot tablosu, yenileme, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -83,9 +83,8 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// Özet tablo ekle: kaynak aralık "A1:C9", hedef hücre "E3", ad "Pivot1"
-const pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Özet tablo ekle: kaynak aralık "A1:C9", hedef hücre "E3", ad
+const pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // Özet tablo alanlarını ata: Satırlar'a Fruit, Sütunlar'a Year, Veri'ye Amount
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -134,8 +133,7 @@ worksheet.getCells().get("C8").putValue(220);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2020);
 worksheet.getCells().get("C9").putValue(140);
-let pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
@@ -189,9 +187,8 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// Hedef hücre E3'e yerleştirilen, A1:C9'dan kaynaklanan "Pivot1" adlı bir pivot tablo ekle
-var pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-var pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Hedef hücre E3'e yerleştirilen, A1:C9'dan kaynaklanan adlı bir pivot tablo ekle
+var pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // Alanları ata: Satır'a Meyve, Sütun'a Yıl, Veri'ye Tutar
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");

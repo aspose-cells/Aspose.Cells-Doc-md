@@ -83,8 +83,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -125,8 +124,7 @@ for (int i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -182,8 +180,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 PivotTableCollection pivotTables = worksheet.getPivotTables();
-int pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables.get(pivotIndex);
+PivotTable pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -196,7 +193,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Riepilogo**
-
 I tre scenari differiscono solo in un aspetto: le chiamate a `setSubtotals`. Tutto il resto — il set di dati, i campi e le aree a cui sono assegnati — è identico, ed è proprio questo a rendere i layout direttamente confrontabili.
 - **Posizionamento dei campi.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` sposta una colonna sorgente in una regione. All’interno di una stessa regione, l’ordine delle chiamate determina l’ordine di visualizzazione, per cui la prima chiamata corrisponde al gruppo più esterno. I totali parziali richiedono due o più campi nella stessa regione: con un singolo campo non ci sono elementi tra i gruppi sui quali calcolare il totale parziale.
 - **Scenario 1 — totali parziali automatici.** Non chiamare `setSubtotals` lascia la scelta a Excel, che applica il proprio totale parziale predefinito ai campi numerici. Chiamare `setSubtotals` con `PivotFieldSubtotalType.AUTOMATIC` registra esplicitamente tale scelta, anziché lasciarla implicita.
@@ -206,9 +202,10 @@ I tre scenari differiscono solo in un aspetto: le chiamate a `setSubtotals`. Tut
 {{% alert color="primary" %}}
 Nulla relativo ai totali parziali è specifico della regione riga. Le stesse chiamate a `setSubtotals` su un campo ottenuto da `PivotTable.ColumnFields` producono gli stessi tre layout sull’asse delle colonne, poiché l’impostazione appartiene al campo pivot e non all’asse su cui è posizionato.
 {{% /alert %}}
-## **Articoli correlati**
 
+## **Articoli correlati**
 - [Campi pagina nelle tabelle pivot](/cells/it/java/add-page-field-in-pivot-table/)
 - [Aggiornamento delle tabelle pivot in Aspose.Cells per Java](/cells/it/java/refresh-pivot-table/)
 - [Applicazione di stili alle tabelle pivot](/cells/it/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="java" >}}

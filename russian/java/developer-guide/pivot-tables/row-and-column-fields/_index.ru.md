@@ -83,8 +83,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -125,8 +124,7 @@ for (int i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -182,8 +180,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 PivotTableCollection pivotTables = worksheet.getPivotTables();
-int pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables.get(pivotIndex);
+PivotTable pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -196,7 +193,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Краткое резюме**
-
 Три сценария различаются только вызовами `setSubtotals`. Всё остальное — набор данных, поля и области, в которые они назначены, — одинаково, что и делает макеты прямо сопоставимыми.
 - **Размещение полей.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` перемещает исходный столбец в определённую область. В пределах одной области порядок вызовов определяет порядок отображения, так что первый вызов формирует самую внешнюю группу. Для подытогов требуется два или более полей в одной и той же области: при одном поле между группами, для которых вычисляются подытоги, просто нет промежуточного содержимого.
 - **Сценарий 1 — автоматические подытоги.** Если вызов `setSubtotals` не выполняется, выбор делает Excel, который применяет собственную подразумеваемую подытоговую функцию к числовым полям. Вызов `setSubtotals` с параметром `PivotFieldSubtotalType.AUTOMATIC` явно фиксирует этот выбор, делая его видимым.
@@ -206,9 +202,10 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 Ничего, касающегося подытогов, не связано исключительно с строковой областью. Те же самые вызовы `setSubtotals` для поля, полученного из `PivotTable.ColumnFields`, создают те же три макета на оси столбцов, поскольку настройка принадлежит самому полю сводной таблицы, а не оси, на которой оно размещено.
 {{% /alert %}}
-## **Связанные статьи**
 
+## **Связанные статьи**
 - [Поле страницы в сводных таблицах](/cells/ru/java/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells для Java](/cells/ru/java/refresh-pivot-table/)
 - [Применение стилей к сводным таблицам](/cells/ru/java/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="java" >}}

@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Перегрузка `PivotField.Group()` без параметров анализирует тип данных поля и группирует его автоматически. Поле, содержащее только даты (и пустые значения), группируется по месяцам. Поле, содержащее только числа (и пустые значения), группируется в числовые диапазоны с использованием автоматического интервала.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Загрузить образец книги
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Получить доступ ко второму рабочему листу и его сводной таблице
@@ -40,6 +41,7 @@ wb.Save("outputAutoGroupPivotField.xlsx");
 Обратите внимание, что порядок значений в `options.GroupTypes` игнорируется. Независимо от того, в каком порядке перечислены типы групп, сгруппированные поля всегда отображаются от самого крупного периода к самому мелкому: годы, кварталы, месяцы, дни, часы, минуты, секунды. В этом примере месяцы перечислены перед кварталами в `options.GroupTypes`, однако кварталы отображаются как внешний уровень, а месяцы — как внутренний.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Загрузить образец книги
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Получить доступ ко второму рабочему листу и его сводной таблице
@@ -61,6 +63,7 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 `FieldTwo` образца сводной таблицы изначально является полем данных (значения). Поскольку группировать можно только поля строк или столбцов, код сначала вызывает `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")`, чтобы переместить `FieldTwo` в область строк, обновляет сводную таблицу, а затем группирует числовое поле в диапазоны 0-1, 2-3 и 4-5, используя `StartNumber = 0`, `EndNumber = 5` и `Interval = 2`.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // Загрузить образец книги
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // Получить доступ ко второму листу и его сводной таблице

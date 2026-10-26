@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 يفحص الأسلوب الزائد `PivotField.Group()` بدون معاملات نوع بيانات الحقل ويجمعه تلقائيًا. يتم تجميع الحقل الذي يحتوي على التواريخ فقط (والفراغات) حسب الأشهر. يتم تجميع الحقل الذي يحتوي على الأرقام فقط (والفراغات) في نطاقات رقمية باستخدام فاصل زمني تلقائي.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // تحميل ملف العمل النموذجي
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // الوصول إلى ورقة العمل الثانية وجدول المحور الخاص بها
@@ -40,6 +41,7 @@ wb.Save("outputAutoGroupPivotField.xlsx");
 لاحظ أن ترتيب القيم في `options.GroupTypes` يتم تجاهله. بصرف النظر عن الترتيب الذي يتم فيه سرد أنواع المجموعات، يتم دائمًا عرض الحقول المجمعة من أكبر فترة إلى أصغرها: السنوات، الأرباع، الأشهر، الأيام، الساعات، الدقائق، الثواني. في هذا المثال تم سرد الأشهر قبل الأرباع في `options.GroupTypes`، ومع ذلك يتم عرض الأرباع كمستوى خارجي والأشهر كمستوى داخلي.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // تحميل مصنف العينة
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // الوصول إلى ورقة العمل الثانية والجدول المحوري الخاص بها
@@ -61,6 +63,7 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 يعد `FieldTwo` في الجدول المحوري النموذجي حقل بيانات (قيمة) في البداية. ولأن حقول الصفوف أو الأعمدة فقط هي التي يمكن تجميعها، يستدعي الكود أولاً `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")` لنقل `FieldTwo` إلى منطقة الصفوف، وتحديث الجدول المحوري، ثم تجميع الحقل الرقمي في النطاقات 0-1 و2-3 و4-5 باستخدام `StartNumber = 0` و`EndNumber = 5` و`Interval = 2`.
 
 ```csharp
+using Aspose.Cells.Pivot;
 // تحميل مصنف العينة
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // الوصول إلى ورقة العمل الثانية وجدول المحور الخاص بها

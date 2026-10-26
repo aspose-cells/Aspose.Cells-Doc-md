@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen von Zeilen- und Spaltenfeldern zu Pivot-Tabellen in Aspose.Cells for Node.js via C++
 linktitle: Hinzufügen von Zeilen- und Spaltenfeldern zu Pivot-Tabellen
-description: Erfahren Sie, wie Sie Basisfelder zu den Zeilen- und Spaltenbereichen einer Pivot-Tabelle hinzufügen und Pivot-Feld-Zwischensummen mit PivotField.SetSubtotals in Aspose.Cells for Node.js via C++ steuern
+description: Erfahren Sie, wie Sie Basisfelder zu den Zeilen- und Spaltenbereichen einer Pivot-Tabelle hinzufügen und Pivot-Feld-Zwischensummen mit PivotField.setSubtotals in Aspose.Cells for Node.js via C++ steuern
 keywords: Aspose.Cells, Node.js, C++, Pivot-Tabelle, Zeilenfeld, Spaltenfeld, PivotField, SetSubtotals, PivotFieldSubtotalType, Zwischensummen
 type: docs
 weight: 220
@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -121,8 +120,7 @@ for (let i = 0; i < data.length; i++) {
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+const pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -178,8 +176,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -192,7 +189,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Zusammenfassung**
-
 Die drei Szenarien unterscheiden sich nur in einer Sache: den `setSubtotals`-Aufrufen. Alles Weitere – der Datensatz, die Felder und die Bereiche, in denen sie platziert werden – ist identisch, was die Layouts direkt vergleichbar macht.
 - **Felder platzieren.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` verschiebt eine Quellspalte in einen Bereich. Innerhalb eines Bereichs entspricht die Reihenfolge der Aufrufe der Anzeigereihenfolge, sodass der erste Aufruf die äußere Gruppe bildet. Subtotals benötigen zwei oder mehr Felder im selben Bereich: Bei einem einzelnen Feld gibt es zwischen den Gruppen nichts, worauf eine Subtotalbildung angewendet werden könnte.
 - **Szenario 1 – automatische Subtotals.** Wird `setSubtotals` nicht aufgerufen, trifft Excel selbst die Entscheidung und wendet seinen eigenen Standard-Subtotal-Typ auf numerische Felder an. Ein Aufruf von `setSubtotals` mit `AsposeCells.PivotFieldSubtotalType.Automatic` macht diese Entscheidung explizit, anstatt sie implizit zu belassen.
@@ -202,6 +198,7 @@ Die drei Szenarien unterscheiden sich nur in einer Sache: den `setSubtotals`-Auf
 {{% alert color="primary" %}}
 Nichts an der Subtotal-Behandlung ist auf den Zeilenbereich beschränkt. Dieselben `setSubtotals`-Aufrufe für ein Feld, das aus `PivotTable.ColumnFields` stammt, erzeugen dieselben drei Layouts auf der Spaltenachse, da die Einstellung zum Pivot-Feld selbst gehört und nicht zur Achse, auf der es sitzt.
 {{% /alert %}}
+
 ## **Verwandte Artikel**
 - [Seitenfelder in Pivot-Tabellen](/cells/de/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Aktualisieren von Pivot-Tabellen in Aspose.Cells for Node.js via C++](/cells/de/nodejs-cpp/refresh-pivot-table/)

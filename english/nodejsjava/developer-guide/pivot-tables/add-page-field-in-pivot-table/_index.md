@@ -50,8 +50,7 @@ for (var i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
 // Add a pivot table anchored at cell E3
-var pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
-var pivotTable = worksheet.getPivotTables().get(pivotIndex);
+var pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
@@ -84,8 +83,7 @@ sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").put
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
 // Add pivot table at E3 covering A1:C10
-let pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "PivotTable1");
-let pivotTable = sheet.getPivotTables().get(pivotIndex);
+let pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
@@ -127,8 +125,7 @@ for (var r = 0; r < data.length; r++) {
 }
 // Create pivot table at E3
 var pivotTables = sheet.getPivotTables();
-var index = pivotTables.add("=A1:C7", "E3", "PivotTable1");
-var pivotTable = pivotTables.get(index);
+var pivotTable = pivotTables.add("=A1:C7", 2, 4);
 // Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
@@ -167,8 +164,7 @@ cells.get("B5").setValue("2021");
 cells.get("C5").setValue("250");
 // Add pivot table at E3
 var pivotTables = sheet.getPivotTables();
-var pivotIndex = pivotTables.add("A1:C5", "E3", "PivotTable1");
-var pivotTable = pivotTables.get(pivotIndex);
+var pivotTable = pivotTables.add("A1:C5", 2, 4);
 // Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
@@ -214,8 +210,7 @@ for (let i = 0; i < data.length; i++) {
 }
 const pivotSheet = workbook.getWorksheets().add("Pivot");
 const pivots = pivotSheet.getPivotTables();
-const pivotIndex = pivots.add("A1:C10", "E3", "PivotTable1");
-const pivotTable = pivots.get(pivotIndex);
+const pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");

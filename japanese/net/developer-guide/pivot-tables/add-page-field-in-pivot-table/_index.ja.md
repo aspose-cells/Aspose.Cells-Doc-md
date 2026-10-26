@@ -58,8 +58,7 @@ for (int i = 0; i < data.GetLength(0); i++)
     worksheet.Cells[i + 1, 2].PutValue(data[i, 2]);
 }
 // セルE3を基準にピボットテーブルを追加
-int pivotIndex = worksheet.PivotTables.Add("A1:C10", "E3", "PivotTable1");
-PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 // 各エリアにフィールドを追加：果物を行、金額をデータ、年をページフィールド
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -100,8 +99,7 @@ sheet.Cells["A8"].PutValue("blueberry"); sheet.Cells["B8"].PutValue("2020"); she
 sheet.Cells["A9"].PutValue("blueberry"); sheet.Cells["B9"].PutValue("2021"); sheet.Cells["C9"].PutValue(350);
 sheet.Cells["A10"].PutValue("blueberry");sheet.Cells["B10"].PutValue("2022"); sheet.Cells["C10"].PutValue(450);
 // E3 に A1:C10 をカバーするピボットテーブルを追加
-int pivotIndex = sheet.PivotTables.Add("A1:C10", "E3", "PivotTable1");
-PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
 // Fruit -> Row、Amount -> Data (Year は下記で Page に追加)
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -153,8 +151,7 @@ class Program
         }
         // E3 にピボットテーブルを作成
         var pivotTables = sheet.PivotTables;
-        int index = pivotTables.Add("=A1:C7", "E3", "PivotTable1");
-        PivotTable pivotTable = pivotTables[index];
+        PivotTable pivotTable = pivotTables.Add("=A1:C7", 2, 4);
         // ピボットフィールドを設定: Fruit→行、Amount→データ、Year→ページ
         pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
         pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -198,8 +195,7 @@ cells["B5"].PutValue("2021");
 cells["C5"].PutValue("250");
 // E3にピボットテーブルを追加
 var pivotTables = sheet.PivotTables;
-int pivotIndex = pivotTables.Add("A1:C5", "E3", "PivotTable1");
-var pivotTable = pivotTables[pivotIndex];
+var pivotTable = pivotTables.Add("A1:C5", 2, 4);
 // フィールドを追加: Fruit→行, Amount→データ, Year→ページ
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
@@ -250,8 +246,7 @@ for (int i = 0; i < data.GetLength(0); i++)
 }
 Worksheet pivotSheet = workbook.Worksheets.Add("Pivot");
 PivotTableCollection pivots = pivotSheet.PivotTables;
-int pivotIndex = pivots.Add("A1:C10", "E3", "PivotTable1");
-PivotTable pivotTable = pivots[pivotIndex];
+PivotTable pivotTable = pivots.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");

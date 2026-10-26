@@ -85,8 +85,7 @@ worksheet.cells.get(8, 0).put_value("Vegetable")
 worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -123,8 +122,7 @@ data = [
 for i in range(len(data)):
     for j in range(len(data[i])):
         worksheet.cells.get(i + 1, j).put_value(data[i][j])
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -183,8 +181,7 @@ worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
 pivot_tables = worksheet.pivot_tables
-pivot_index = pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = pivot_tables[pivot_index]
+pivot_table = pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -197,7 +194,6 @@ workbook.save("output_custom.xlsx")
 ```
 
 ## **Récapitulatif**
-
 Les trois scénarios ne diffèrent que par un seul point : les appels à `set_subtotals`. Tout le reste — l’ensemble de données, les champs et les zones auxquelles ils sont assignés — est identique, ce qui rend les dispositions directement comparables.
 - **Placement des champs.** `PivotTable.add_field_to_area(PivotFieldType.ROW, fieldName)` déplace une colonne source vers une région. Dans une même région, l’ordre des appels détermine l’ordre d’affichage, de sorte que le premier appel devient le groupe le plus externe. Les sous-totaux requièrent deux champs ou plus dans la même région : avec un seul champ, il n’y a rien entre les groupes sur lequel calculer un sous-total.
 - **Scénario 1 — sous-totaux automatiques.** Ne pas appeler `set_subtotals` laisse le choix à Excel, qui applique son sous-total par défaut aux champs numériques. Appeler `set_subtotals` avec `PivotFieldSubtotalType.AUTOMATIC` enregistre explicitement ce choix plutôt que de le laisser implicite.
@@ -207,9 +203,10 @@ Les trois scénarios ne diffèrent que par un seul point : les appels à `set_su
 {{% alert color="primary" %}}
 Rien concernant les sous-totaux n’est spécifique à la région des lignes. Les mêmes appels à `set_subtotals` appliqués à un champ tiré de `PivotTable.ColumnFields` produisent les mêmes trois dispositions sur l’axe des colonnes, car le paramètre appartient au champ croisé et non pas à l’axe sur lequel il est placé.
 {{% /alert %}}
-## **Articles connexes**
 
+## **Articles connexes**
 - [Champs de page dans les tables croisées dynamiques](/cells/fr/python-net/add-page-field-in-pivot-table/)
 - [Actualisation des tables croisées dynamiques dans Aspose.Cells pour Python via .NET](/cells/fr/python-net/refresh-pivot-table/)
 - [Application de styles aux tables croisées dynamiques](/cells/fr/python-net/apply-style-to-pivot-table/)
+
 {{< app/cells/assistant language="python-net" >}}

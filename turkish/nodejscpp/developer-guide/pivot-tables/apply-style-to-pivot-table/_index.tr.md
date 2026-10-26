@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Node.js via C++ ile Pivot Tablolarına Stil Uygulama
 linktitle: Aspose.Cells for Node.js via C++ ile Pivot Tablolarına Stil Uygulama
-description: Aspose.Cells for Node.js via C++ kullanarak pivot tablolarına yerleşik ve özel stiller uygulamayı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stiller, özel pivot tablo stilleri ve FormatAll kısayolu ele alınmaktadır.
+description: Aspose.Cells for Node.js via C++ kullanarak pivot tablolarına yerleşik ve özel stiller uygulamayı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stiller, özel pivot tablo stilleri ve formatAll kısayolu ele alınmaktadır.
 keywords: Aspose.Cells Node.js via C++ pivot tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -69,9 +69,8 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// E3 hedef hücresinde, "Pivot1" adıyla, A1:C10 kaynak aralığını kullanarak bir pivot tablo ekle
-const pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-const pivotTable = sheet.getPivotTables().get(pivotIndex);
+// E3 hedef hücresinde, adıyla, A1:C10 kaynak aralığını kullanarak bir pivot tablo ekle
+const pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // Alanları ata: Fruit -> Rows, Amount -> Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -85,7 +84,6 @@ workbook.save("output.xls");
 ```
 
 ## **Modern Adlandırılmış Ön Ayar Pivot Tablo Stili Uygulama**
-
 `PivotTable.pivotTableStyleType`, Excel 2007'un pivot tablolara tanıttığı yerleşik adlandırılmış stillerden birini seçer. `PivotTableStyleType` numaralandırması, `PivotTableStyleLight1`'den `PivotTableStyleLight28`'e kadar olan açık ton ailesini, `PivotTableStyleMedium1`'den `PivotTableStyleMedium28`'e kadar olan orta ton ailesini ve `PivotTableStyleDark1`'den `PivotTableStyleDark28`'e kadar olan koyu ton ailesini içerir. Ayrıca `None` ve `Custom` değerlerini de tanımlar. Her ailenin daha yüksek numaralı üyeleri, Excel 2017'de eklenen stillerdir.
 Bu ön ayarlar salt okunurdur. Bir ön ayarın sunduğu sınırların ötesinde renkleri, kenarlıkları veya yazı tiplerini değiştirmeniz gerektiğinde, [Senaryo 3](#define-and-apply-a-custom-pivot-table-style)'te gösterildiği gibi bunun yerine özel bir pivot stili tanımlamanız gerekir.
 
@@ -131,9 +129,8 @@ worksheet.getCells().get("C9").putValue(190);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(130);
-// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Add a pivot table at E3, sourced from A1:C10
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -147,6 +144,7 @@ pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PivotTableStyl
 // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx");
 ```
+
 ## **Özel Bir Pivot Tablo Stili Tanımlama ve Uygulama**
 Yerleşik ön ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı tiplerini geçersiz kılmanız gerektiğinde özel bir pivot stili tanımlamalısınız. İş akışı üç adımdan oluşur:
 1. `Workbook.Worksheets.TableStyles.addPivotTableStyle(string name)` aracılığıyla çalışma kitabının `TableStyles` koleksiyonuna özel bir stil ekleyin. Bu, yeni oluşturulan stilin dizinini döndürür.
@@ -194,9 +192,8 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// A1:C10'dan kaynak alan, E3'e sabitlenmiş ve "Pivot1" adlı pivot tablo ekle
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// A1:C10'dan kaynak alan, E3'e sabitlenmiş ve adlı pivot tablo ekle
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -271,9 +268,8 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// Pivot tablo ekle: kaynak aralığı A1:C10, hedef hücre E3, ad "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Pivot tablo ekle: kaynak aralığı A1:C10, hedef hücre E3, ad
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Pivot alanlarını ata: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -308,6 +304,5 @@ Stil API'si seçimi, çalışma kitabını kaydettiğiniz dosya biçimine bağl�
 | `.xlsx` / `.xlsm` / `.xlsb` (modern, özel stil) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | Yerleşik ön ayarlar yeterli olmadığında kullanın. `TableStyleElement.SetElementStyle(...)` ile yapılandırın. |
 | Herhangi bir biçim (tek tip geçersiz kılma) | `PivotTable.formatAll(Style)` | Pivot genelinde diğer tüm stil ayarlarını geçersiz kılan kısayol. |
 Kararsız kaldığınızda, `.xlsx` olarak kaydedin ve yerleşik temalar için `PivotTableStyleType`, özel temalar için `PivotTableStyleName` kullanın.
-
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -124,8 +123,7 @@ for (int i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-int pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -181,8 +179,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 PivotTableCollection pivotTables = worksheet.getPivotTables();
-int pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-PivotTable pivotTable = pivotTables.get(pivotIndex);
+PivotTable pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -195,7 +192,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **まとめ**
-
 3つのシナリオの違いは、`setSubtotals` メソッドの呼び出し方の1点のみです。その他の点 — データセット、フィールド、およびそれらが割り当てられるエリア — はすべて同一であり、これによりレイアウトを直接比較できるようになります。
 - **フィールドの配置。** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` は、ソース列を特定のエリアへ移動させます。同一エリア内では、メソッド呼び出しの順序が表示順序となります。したがって、最初の呼び出しが最も外側のグループになります。サブトータルを設定するには、同一エリア内に2つ以上のフィールドが必要です。1つのフィールドだけでは、グループ間にサブトータルを挿入する余地がありません。
 - **シナリオ1 — 自動サブトータル。** `setSubtotals` を呼び出さない場合、Excelが独自のデフォルトサブトータルを数値フィールドに適用します。一方、`PivotFieldSubtotalType.AUTOMATIC` を指定して `setSubtotals` を呼び出すと、その選択が明示的にレコードされます。
@@ -205,6 +201,7 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 サブトータルに関する設定は、行エリアに固有のものではありません。`PivotTable.ColumnFields` から取得したフィールドに対して同様の `setSubtotals` 呼び出しを行うと、列軸上でも同じ3つのレイアウトが得られます。これは、設定が軸ではなく、ピボットフィールド自体に属するためです。
 {{% /alert %}}
+
 ## **関連記事**
 - [ピボットテーブルのページフィールド](/cells/ja/java/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Java でピボットテーブルを更新する](/cells/ja/java/refresh-pivot-table/)

@@ -51,8 +51,7 @@ int main() {
         cells.Get(i + 1, 2).PutValue(amounts[i]);
     }
     // 添加锚定在单元格 E3 的数据透视表
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"PivotTable1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // 将字段添加到相应区域：水果作为行字段，数量作为数据字段，年份作为页字段
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -146,8 +145,7 @@ int main() {
         cells.Get(r + 1, 2).PutValue(amounts[r]);
     }
     PivotTableCollection pivotTables = sheet.GetPivotTables();
-    int index = pivotTables.Add(u"=A1:C7", u"E3", u"PivotTable1");
-    PivotTable pivotTable = pivotTables.Get(index);
+    PivotTable pivotTable = pivotTables.Add(u"=A1:C7", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
@@ -237,8 +235,7 @@ int main() {
     }
     Worksheet pivotSheet = workbook.GetWorksheets().Add(u"Pivot");
     PivotTableCollection pivots = pivotSheet.GetPivotTables();
-    int pivotIndex = pivots.Add(u"A1:C10", u"E3", u"PivotTable1");
-    PivotTable pivotTable = pivots.Get(pivotIndex);
+    PivotTable pivotTable = pivots.Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");

@@ -98,8 +98,7 @@ pivot_data_cells.get(8, 3).put_value(110)
 pivot_table_sheet = worksheets.add("PivotTableReport")
 pivot_tables = pivot_table_sheet.pivot_tables
 # Skapa pivottabell med källa från PivotData!A1:D9 placerad vid A1 på PivotTableReport
-pivot_index = pivot_tables.add("PivotData!A1:D9", "A1", "PivotTable1")
-pivot_table = pivot_tables[pivot_index]
+pivot_table = pivot_tables.add("PivotData!A1:D9", 0, 0)
 # Lägg till fält
 pivot_table.add_field_to_area(PivotFieldType.ROW, 0)   # Fruit
 pivot_table.add_field_to_area(PivotFieldType.PAGE, 1)  # Year
@@ -141,8 +140,7 @@ data = [
 for r in range(len(data)):
     for c in range(len(data[r])):
         pivot_data.cells.get(r + 1, c).put_value(data[r][c])
-idx = pivot_report.pivot_tables.add("PivotData!A1:D9", "A1", "PivotTable")
-pivot_table = pivot_report.pivot_tables[idx]
+pivot_table = pivot_report.pivot_tables.add("PivotData!A1:D9", 0, 0)
 pivot_table.add_field_to_area(PivotFieldType.ROW, 0)
 pivot_table.add_field_to_area(PivotFieldType.PAGE, 1)
 pivot_table.add_field_to_area(PivotFieldType.PAGE, 2)
@@ -199,8 +197,7 @@ data_sheet.cells.get("B9").put_value(2023)
 data_sheet.cells.get("C9").put_value("West")
 data_sheet.cells.get("D9").put_value(110)
 pivot_sheet = workbook.worksheets.add("PivotTableReport")
-pivot_idx = pivot_sheet.pivot_tables.add("PivotData!A1:D9", "A3", "PivotTable")
-pivot_table = pivot_sheet.pivot_tables[pivot_idx]
+pivot_table = pivot_sheet.pivot_tables.add("PivotData!A1:D9", 2, 0)
 pivot_table.add_field_to_area(PivotFieldType.ROW, 0)
 pivot_table.add_field_to_area(PivotFieldType.PAGE, 1)
 pivot_table.add_field_to_area(PivotFieldType.PAGE, 2)

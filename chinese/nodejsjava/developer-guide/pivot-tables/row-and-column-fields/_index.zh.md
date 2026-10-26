@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -124,8 +123,7 @@ for (let i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -181,8 +179,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -195,7 +192,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **回顾**
-
 这三种场景仅在 `setSubtotals` 调用上存在差异；其余部分——数据集、字段及其分配区域——均相同，这也使得各布局之间具有直接可比性。
 - **字段放置。** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, fieldName)` 将源列移入某一区域。在同一个区域内，调用的顺序即为显示顺序，因此首次调用对应最外层分组。子总计功能要求同一区域内至少包含两个字段：单个字段情况下，组与组之间无任何数据可供计算子总计。
 - **场景一——自动子总计。** 若不调用 `setSubtotals`，则将选择权交由 Excel 自行决定，Excel 会对数值型字段应用其默认的子总计方式；而调用 `setSubtotals` 并传入 `AsposeCells.PivotFieldSubtotalType.AUTOMATIC`，则显式记录了该选择，而非依赖隐式默认行为。
@@ -205,6 +201,7 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 子总计设置并非仅限于行区域。对从 `PivotTable.ColumnFields` 获取的字段执行相同的 `setSubtotals` 调用，可在列轴上生成相同的三种布局，因为该设置属于数据透视字段本身，而非其所在的轴。
 {{% /alert %}}
+
 ## **相关文章**
 - [数据透视表中的页面字段](/cells/zh/nodejs-java/add-page-field-in-pivot-table/)
 - [使用 Aspose.Cells for Node.js via Java 刷新数据透视表](/cells/zh/nodejs-java/refresh-pivot-table/)

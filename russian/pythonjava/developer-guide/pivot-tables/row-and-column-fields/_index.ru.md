@@ -85,8 +85,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable")
 worksheet.getCells().get(8, 1).putValue("Daikon")
 worksheet.getCells().get(8, 2).putValue(2021)
 worksheet.getCells().get(8, 3).putValue(45)
-pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -125,8 +124,7 @@ data = [
 for i in range(len(data)):
     for j in range(len(data[0])):
         worksheet.getCells().get(i + 1, j).putValue(data[i][j])
-pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -186,8 +184,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon")
 worksheet.getCells().get(8, 2).putValue(2021)
 worksheet.getCells().get(8, 3).putValue(45)
 pivotTables = worksheet.getPivotTables()
-pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1")
-pivotTable = pivotTables.get(pivotIndex)
+pivotTable = pivotTables.add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -201,7 +198,6 @@ jpype.shutdownJVM()
 ```
 
 ## **Recap**
-
 Три сценария различаются только одним: вызовами `setSubtotals`. Всё остальное — набор данных, поля и области, в которые они помещены — идентично, что и делает макеты прямо сравнимыми.
 - **Размещение полей.** `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` перемещает исходный столбец в определённую область. Внутри одной области порядок вызовов определяет порядок отображения, поэтому первый вызов создаёт внешнюю (самую высокую по иерархии) группу. Для вычисления промежуточных итогов необходимо наличие двух или более полей в одной области: при единственном поле между группами нечего суммировать.
 - **Сценарий 1 — автоматические промежуточные итоги.** Отсутствие вызова `setSubtotals` оставляет решение за Excel, который применяет собственную настройку промежуточного итога к числовым полям. Вызов `setSubtotals` с параметром `PivotFieldSubtotalType.AUTOMATIC` явно фиксирует это решение, вместо того чтобы оставить его неявным.
@@ -211,6 +207,7 @@ jpype.shutdownJVM()
 {{% alert color="primary" %}}
 Ничего в настройке промежуточных итогов не привязано к строковой области. Те же самые вызовы `setSubtotals`, выполненные для поля, полученного из `PivotTable.ColumnFields`, создают те же три макета на оси столбцов, поскольку настройка относится к самому полю сводной таблицы, а не к оси, на которой оно размещено.
 {{% /alert %}}
+
 ## **Related Articles**
 - [Поля страницы в сводных таблицах](/cells/ru/python-java/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells for Python via Java](/cells/ru/python-java/refresh-pivot-table/)

@@ -1,7 +1,7 @@
 ---
 title: Применение стилей к сводным таблицам в Aspose.Cells for Java
 linktitle: Применение стилей к сводным таблицам в Aspose.Cells for Java
-description: Узнайте, как применять встроенные и пользовательские стили к сводным таблицам в Aspose.Cells for Java, включая устаревшие автоформаты XLS, современные именованные стили Excel 2007+, пользовательские стили сводных таблиц и сокращение FormatAll.
+description: Узнайте, как применять встроенные и пользовательские стили к сводным таблицам в Aspose.Cells for Java, включая устаревшие автоформаты XLS, современные именованные стили Excel 2007+, пользовательские стили сводных таблиц и сокращение formatAll.
 keywords: Aspose.Cells Java стиль сводной таблицы, PivotTableStyleType, AutoFormatType, FormatAll, пользовательский стиль, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -70,9 +70,8 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// Добавить сводную таблицу в ячейку назначения E3 с именем "Pivot1", используя исходный диапазон A1:C10
-int pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = sheet.getPivotTables().get(pivotIndex);
+// Добавить сводную таблицу в ячейку назначения E3 с именем, используя исходный диапазон A1:C10
+PivotTable pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // Назначить поля: Fruit -> строки, Amount -> данные
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -86,7 +85,6 @@ workbook.save("output.xls");
 ```
 
 ## **Применение современного именованного предопределённого стиля сводной таблицы**
-
 `PivotTable.setPivotTableStyleType(int)` выбирает один из встроенных именованных стилей, представленных в Excel 2007 для сводных таблиц. Перечисление `PivotTableStyleType` предоставляет три семейства тем: светлое семейство — от `PIVOT_TABLE_STYLE_LIGHT1` до `PIVOT_TABLE_STYLE_LIGHT28`, среднее семейство — от `PIVOT_TABLE_STYLE_MEDIUM1` до `PIVOT_TABLE_STYLE_MEDIUM28` и темное семейство — от `PIVOT_TABLE_STYLE_DARK1` до `PIVOT_TABLE_STYLE_DARK_28`. Оно также определяет `None` и `Custom`. Члены каждого семейства с более высоким номером — это стили, добавленные в Excel 2017.
 Эти предустановленные стили доступны только для чтения. Как только требуется изменить цвета, границы или шрифты сверх того, что предусмотрено предустановленным стилем, необходимо определить пользовательский стиль сводной таблицы, как показано в [Сценарий 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -132,9 +130,8 @@ worksheet.getCells().get("C9").putValue(190);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(130);
-// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Add a pivot table at E3, sourced from A1:C10
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -148,6 +145,7 @@ pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1);
 // Save as modern .xlsx - this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx");
 ```
+
 ## **Определение и применение пользовательского стиля сводной таблицы**
 Встроенные предустановки не могут быть изменены. Если требуется переопределить цвета, границы или шрифты, необходимо определить пользовательский стиль сводной таблицы. Рабочий процесс состоит из трёх шагов:
 1. Добавьте пользовательский стиль в коллекцию `TableStyles` рабочей книги с помощью `Workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)`. Метод возвращает индекс только что созданного стиля.
@@ -195,9 +193,8 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// Добавить сводную таблицу с источником A1:C10, привязанную к E3, с именем "Pivot1"
-int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Добавить сводную таблицу с источником A1:C10, привязанную к E3, с именем
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -277,9 +274,8 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// Добавление сводной таблицы: исходный диапазон A1:C10, ячейка назначения E3, имя "Pivot1"
-int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Добавление сводной таблицы: исходный диапазон A1:C10, ячейка назначения E3, имя
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Назначение полей сводной таблицы: Fruit -> область строк, Year -> область столбцов, Amount -> область данных
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -314,6 +310,5 @@ workbook.save("output.xlsx");
 | `.xlsx` / `.xlsm` / `.xlsb` (современный, пользовательский стиль) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | Используйте, когда встроенных предустановок недостаточно. Настройка через `TableStyleElement.setElementStyle(...)`. |
 | Любой формат (единообразное переопределение) | `PivotTable.formatAll(Style)` | Сокращение, переопределяющее все остальные настройки стилей во всей сводной таблице. |
 Если сомневаетесь, сохраняйте в `.xlsx` и используйте `PivotTableStyleType` для встроенных тем или `PivotTableStyleName` для пользовательских тем.
-
 
 {{< app/cells/assistant language="java" >}}

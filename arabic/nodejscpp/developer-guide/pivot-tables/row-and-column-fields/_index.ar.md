@@ -1,7 +1,7 @@
 ---
 title: إضافة حقول الصفوف والأعمدة إلى جدول محوري في Aspose.Cells for Node.js via C++
 linktitle: إضافة حقول الصفوف والأعمدة إلى جدول محوري في Aspose.Cells for Node.js via C++
-description: تعلّم كيفية إضافة الحقول الأساسية إلى منطقتي الصفوف والأعمدة في جدول محوري والتحكم في المجاميع الفرعية لحقول الجدول المحوري باستخدام PivotField.SetSubtotals في Aspose.Cells for Node.js via C++
+description: تعلّم كيفية إضافة الحقول الأساسية إلى منطقتي الصفوف والأعمدة في جدول محوري والتحكم في المجاميع الفرعية لحقول الجدول المحوري باستخدام PivotField.setSubtotals في Aspose.Cells for Node.js via C++
 keywords: Aspose.Cells, Node.js, C++, جدول محوري, حقل صف, حقل عمود, PivotField, SetSubtotals, PivotFieldSubtotalType, مجاميع فرعية
 type: docs
 weight: 220
@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -121,8 +120,7 @@ for (let i = 0; i < data.length; i++) {
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+const pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -178,8 +176,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -192,7 +189,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **ملخص**
-
 تختلف السيناريوهات الثلاثة في أمرٍ واحد فقط: مكالمات `setSubtotals`. أما كل شيءٍ آخر — أي مجموعة البيانات، والحقول، والمجالات التي تُعين لها — فهو متطابق، وهو ما يجعل التخطيطات قابلة للمقارنة مباشرةً.
 - **وضع الحقول.** تنقل `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` عمود المصدر إلى منطقةٍ معيّنة. وداخل منطقةٍ واحدة، يُحدد ترتيب المكالمات ترتيب العرض، لذا تصبح المكالمة الأولى هي المجموعة الخارجية الأعمّ. وتحتاج الحسابات الجزئية إلى حقلين أو أكثر في نفس المنطقة: فمع وجود حقلٍ واحد، لا يوجد ما يُحسب حسابه جزئيًا بين المجموعات.
 - **السيناريو ١ — الحسابات الجزئية التلقائية.** ترك `setSubtotals` دون استدعاءٍ يترك الاختيار لـ Excel، الذي يطبّق حسابه الجزئي الافتراضي التلقائي على الحقول الرقمية. أما استدعاء `setSubtotals` مع `AsposeCells.PivotFieldSubtotalType.Automatic` فيسجّل هذا الاختيار صراحةً بدلاً من تركه ضمنيًا.
@@ -202,6 +198,7 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 لا شيءٍ في الحسابات الجزئية مخصوصٌ بالمنطقة الصفية فقط. فالمكالمات نفسها على `setSubtotals` لحقلٍ مُؤخذ من `PivotTable.ColumnFields` تُنتج نفس التخطيطات الثلاثة على المحور العمودي، لأن الإعداد ينتمي إلى حقل الجدول المحوري وليس للمحور الذي يقع عليه.
 {{% /alert %}}
+
 ## **المقالات ذات الصلة**
 - [حقول الصفحات في الجداول المحورية](/cells/ar/nodejs-cpp/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for Node.js via C++](/cells/ar/nodejs-cpp/refresh-pivot-table/)

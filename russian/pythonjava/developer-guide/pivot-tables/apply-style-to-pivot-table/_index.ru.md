@@ -1,7 +1,7 @@
 ---
 title: Применение стилей к сводным таблицам в Aspose.Cells for Python via Java
 linktitle: Применение стилей к сводным таблицам в Aspose.Cells for Python via Java
-description: Узнайте, как применять встроенные и пользовательские стили к сводным таблицам в Aspose.Cells for Python via Java, включая устаревшие автоформаты XLS, современные именованные стили Excel 2007+, пользовательские стили сводных таблиц и вспомогательный метод FormatAll.
+description: Узнайте, как применять встроенные и пользовательские стили к сводным таблицам в Aspose.Cells for Python via Java, включая устаревшие автоформаты XLS, современные именованные стили Excel 2007+, пользовательские стили сводных таблиц и вспомогательный метод formatAll.
 keywords: Aspose.Cells Python via Java стиль сводной таблицы, PivotTableStyleType, AutoFormatType, FormatAll, пользовательский стиль, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -73,9 +73,8 @@ sheet.getCells().get(8, 2).putValue(45)
 sheet.getCells().get(9, 0).putValue("grape")
 sheet.getCells().get(9, 1).putValue(2020)
 sheet.getCells().get(9, 2).putValue(45)
-# Добавление сводной таблицы в ячейку назначения E3 с именем "Pivot1", использующей исходный диапазон A1:C10
-pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = sheet.getPivotTables().get(pivotIndex)
+# Добавление сводной таблицы в ячейку назначения E3 с именем, использующей исходный диапазон A1:C10
+pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4)
 # Назначение полей: Fruit -> Строки, Amount -> Данные
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -90,7 +89,6 @@ jpype.shutdownJVM()
 ```
 
 ## **Применение современного именованного предустановленного стиля сводной таблицы**
-
 `pivotTable.setPivotTableStyleType(int)` выбирает один из встроенных именованных стилей, добавленных в Excel 2007 для сводных таблиц. Перечисление `PivotTableStyleType` включает три семейства тем: светлое — от `PIVOT_TABLE_STYLE_LIGHT1` до `PIVOT_TABLE_STYLE_LIGHT28`, среднее — от `PIVOT_TABLE_STYLE_MEDIUM1` до `PIVOT_TABLE_STYLE_MEDIUM28` и темное — от `PIVOT_TABLE_STYLE_DARK1` до `PIVOT_TABLE_STYLE_DARK_28`. Оно также определяет `None` и `Custom`. Элементы с более высокими номерами в каждом семействе — это стили, добавленные в Excel 2017.
 Эти пресеты доступны только для чтения. Как только вам потребуется изменить цвета, границы или шрифты за пределами возможностей пресета, вместо него необходимо определить пользовательский стиль сводной таблицы, как показано в [Сценарии 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -142,9 +140,8 @@ worksheet.getCells().get("C9").putValue(190)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add a pivot table at E3, sourced from A1:C10
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -159,6 +156,7 @@ pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1)
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
+
 ## **Определение и применение пользовательского стиля сводной таблицы**
 Встроенные предустановки не могут быть изменены. Всякий раз, когда требуется переопределить цвета, границы или шрифты, необходимо определить пользовательский стиль сводной таблицы. Рабочий процесс состоит из трёх шагов:
 1. Добавьте пользовательский стиль в коллекцию `TableStyles` рабочей книги через `workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)`. Этот метод возвращает индекс только что созданного стиля.
@@ -212,9 +210,8 @@ worksheet.getCells().get("C9").putValue(800)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(900)
-# Добавление сводной таблицы из диапазона A1:C10, привязанная к ячейке E3, с именем "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Добавление сводной таблицы из диапазона A1:C10, привязанная к ячейке E3, с именем
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -300,9 +297,8 @@ worksheet.getCells().get("C9").putValue(2500)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(5500)
-# Добавляем сводную таблицу: исходный диапазон A1:C10, целевая ячейка E3, имя "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Добавляем сводную таблицу: исходный диапазон A1:C10, целевая ячейка E3, имя
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Назначаем поля сводной таблицы: Fruit -> область строк, Year -> область столбцов, Amount -> область данных
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -338,6 +334,5 @@ jpype.shutdownJVM()
 | `.xlsx` / `.xlsm` / `.xlsb` (современный, пользовательский стиль) | `pivotTable.setPivotTableStyleName(String)` + `tableStyles.addPivotTableStyle(String)` | Используйте, когда встроенных предустановок недостаточно. Настройка через `tableStyleElement.setElementStyle(Style)`. |
 | Любой формат (единообразное переопределение) | `pivotTable.formatAll(Style)` | Вспомогательный метод, который переопределяет все остальные параметры стилей по всей сводной таблице. |
 В случае сомнений сохраняйте как `.xlsx` и используйте `setPivotTableStyleType` для встроенных тем или `setPivotTableStyleName` для пользовательских тем.
-
 
 {{< app/cells/assistant language="python" >}}

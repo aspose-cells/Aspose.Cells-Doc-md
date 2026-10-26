@@ -86,8 +86,7 @@ int main() {
     worksheet.GetCells().Get(8, 1).PutValue(u"Daikon");
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -129,8 +128,7 @@ int main() {
         sheet.GetCells().Get(i + 1, 2).PutValue(years[i]);
         sheet.GetCells().Get(i + 1, 3).PutValue(amounts[i]);
     }
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -193,8 +191,7 @@ int main() {
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
     PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivotIndex = pivotTables.Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = pivotTables.Get(pivotIndex);
+    PivotTable pivotTable = pivotTables.Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -210,7 +207,6 @@ int main() {
 ```
 
 ## **Resumen**
-
 Los tres escenarios difieren únicamente en las llamadas a `SetSubtotals`. Todo lo demás —el conjunto de datos, los campos y las áreas a las que se asignan— es idéntico, lo que hace que los diseños sean directamente comparables.
 - **Colocación de campos.** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` mueve una columna de origen a una región. Dentro de una misma región, el orden de las llamadas determina el orden de visualización, por lo que la primera llamada se convierte en el grupo más externo. Para los subtotales se requieren dos o más campos en la misma región: con un solo campo no hay nada entre los grupos sobre lo que calcular el subtotal.
 - **Escenario 1 — subtotales automáticos.** No invocar `SetSubtotals` deja la elección a Excel, el cual aplica su subtotal predeterminado automáticamente a los campos numéricos. Invocar `SetSubtotals` con `PivotFieldSubtotalType::Automatic` registra explícitamente esa elección en lugar de dejarla implícita.
@@ -220,6 +216,7 @@ Los tres escenarios difieren únicamente en las llamadas a `SetSubtotals`. Todo 
 {{% alert color="primary" %}}
 Nada sobre los subtotales es específico de la región de filas. Las mismas llamadas a `SetSubtotals` sobre un campo obtenido de `PivotTable.ColumnFields` generan los mismos tres diseños en el eje de columnas, porque la configuración pertenece al campo de tabla dinámica y no al eje en el que se encuentra.
 {{% /alert %}}
+
 ## **Artículos relacionados**
 - [Campos de página en tablas dinámicas](/cells/es/cpp/add-page-field-in-pivot-table/)
 - [Actualizar tablas dinámicas en Aspose.Cells for C++](/cells/es/cpp/refresh-pivot-table/)

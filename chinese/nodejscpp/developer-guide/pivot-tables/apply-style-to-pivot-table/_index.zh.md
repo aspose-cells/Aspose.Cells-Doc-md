@@ -1,7 +1,7 @@
 ---
 title: 在 Aspose.Cells for Node.js via C++ 中为数据透视表应用样式
 linktitle: 在 Aspose.Cells for Node.js via C++ 中为数据透视表应用样式
-description: 学习如何使用 Aspose.Cells for Node.js via C++ 为数据透视表应用内置和自定义样式,涵盖旧版 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式,以及 FormatAll 快捷方式。
+description: 学习如何使用 Aspose.Cells for Node.js via C++ 为数据透视表应用内置和自定义样式,涵盖旧版 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式,以及 formatAll 快捷方式。
 keywords: Aspose.Cells Node.js via C++ 数据透视表样式, PivotTableStyleType, AutoFormatType, FormatAll, 自定义样式, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -70,9 +70,8 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// 在目标单元格 E3 添加一个数据透视表，命名为 "Pivot1"，使用源区域 A1:C10
-const pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-const pivotTable = sheet.getPivotTables().get(pivotIndex);
+// 在目标单元格 E3 添加一个数据透视表，命名为 ，使用源区域 A1:C10
+const pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // 分配字段：Fruit -> 行，Amount -> 数据
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -86,7 +85,6 @@ workbook.save("output.xls");
 ```
 
 ## **应用现代命名预设数据透视表样式**
-
 `PivotTable.pivotTableStyleType` 用于选择 Excel 2007 为数据透视表引入的内置命名样式之一。`PivotTableStyleType` 枚举提供三个主题系列：从 `PivotTableStyleLight1` 到 `PivotTableStyleLight28` 的浅色系列、从 `PivotTableStyleMedium1` 到 `PivotTableStyleMedium28` 的中等系列，以及从 `PivotTableStyleDark1` 到 `PivotTableStyleDark28` 的深色系列。该枚举还定义了 `None` 和 `Custom`。每个系列中编号较高的成员都是 Excel 2017 新增的样式。
 这些预设为只读。一旦需要更改预设未提供的颜色、边框或字体，就必须改为定义自定义数据透视表样式，如[方案 3](#define-and-apply-a-custom-pivot-table-style)所示。
 
@@ -132,9 +130,8 @@ worksheet.getCells().get("C9").putValue(190);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(130);
-// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Add a pivot table at E3, sourced from A1:C10
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -148,6 +145,7 @@ pivotTable.setPivotTableStyleType(AsposeCells.PivotTableStyleType.PivotTableStyl
 // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx");
 ```
+
 ## **定义并应用自定义数据透视表样式**
 内置预设样式无法修改。每当您需要覆盖颜色、边框或字体时,都必须定义自定义数据透视样式。该工作流包含三个步骤:
 1. 通过 `Workbook.Worksheets.TableStyles.addPivotTableStyle(string name)` 将自定义样式添加到工作簿的 `TableStyles` 集合中。此方法返回新创建样式的索引。
@@ -195,9 +193,8 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// 添加数据源为 A1:C10 的数据透视表，定位到 E3，命名为 "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// 添加数据源为 A1:C10 的数据透视表，定位到 E3，命名为
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -272,9 +269,8 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// 添加数据透视表：源数据范围 A1:C10，目标单元格 E3，名称 "Pivot1"
-let pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// 添加数据透视表：源数据范围 A1:C10，目标单元格 E3，名称
+let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // 分配透视字段：Fruit -> 行区域，Year -> 列区域，Amount -> 数据区域
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -309,6 +305,5 @@ workbook.save("output.xlsx");
 | `.xlsx` / `.xlsm` / `.xlsb`(现代,自定义样式) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | 在内置预设样式不够用时使用。通过 `TableStyleElement.SetElementStyle(...)` 进行配置。 |
 | 任意格式(统一覆盖) | `PivotTable.formatAll(Style)` | 快捷方式,会覆盖整个数据透视表的所有其他样式设置。 |
 如有疑问,请保存为 `.xlsx`,并对内置主题使用 `PivotTableStyleType`,对自定义主题使用 `PivotTableStyleName`。
-
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Python via Java でピボットテーブルにスタイルを適用する
 linktitle: Aspose.Cells for Python via Java でピボットテーブルにスタイルを適用する
-description: Aspose.Cells for Python via Java でピボットテーブルに組み込みおよびカスタムスタイルを適用する方法を説明します。レガシー XLS 自動フォーマット、モダン Excel 2007+ の名前付きスタイル、カスタムピボットテーブルスタイル、FormatAll ショートカットについて解説します。
+description: Aspose.Cells for Python via Java でピボットテーブルに組み込みおよびカスタムスタイルを適用する方法を説明します。レガシー XLS 自動フォーマット、モダン Excel 2007+ の名前付きスタイル、カスタムピボットテーブルスタイル、formatAll ショートカットについて解説します。
 keywords: Aspose.Cells Python via Java ピボットテーブルスタイル, PivotTableStyleType, AutoFormatType, FormatAll, カスタムスタイル, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -74,8 +74,7 @@ sheet.getCells().get(9, 0).putValue("grape")
 sheet.getCells().get(9, 1).putValue(2020)
 sheet.getCells().get(9, 2).putValue(45)
 # セル E3 に、ソース範囲 A1:C10 を使用して「Pivot1」という名前のピボットテーブルを追加する
-pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = sheet.getPivotTables().get(pivotIndex)
+pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4)
 # フィールドを割り当てる: Fruit → 行、Amount → データ
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -90,7 +89,6 @@ jpype.shutdownJVM()
 ```
 
 ## **モダンな名前付きプリセットピボットテーブルスタイルの適用**
-
 `pivotTable.setPivotTableStyleType(int)` は、Excel 2007 でピボット テーブルに導入された組み込みの名前付きスタイルの 1 つを選択します。`PivotTableStyleType` 列挙型は、3 つのテーマ ファミリーを公開しています。`PIVOT_TABLE_STYLE_LIGHT1` から `PIVOT_TABLE_STYLE_LIGHT28` までのライト ファミリー、`PIVOT_TABLE_STYLE_MEDIUM1` から `PIVOT_TABLE_STYLE_MEDIUM28` までのミディアム ファミリー、`PIVOT_TABLE_STYLE_DARK1` から `PIVOT_TABLE_STYLE_DARK_28` までのダーク ファミリーです。また、`None` と `Custom` も定義しています。各ファミリーで番号が大きいメンバーは、Excel 2017 で追加されたスタイルです。
 これらのプリセットは読み取り専用です。プリセットが提供する範囲を超えて、色、罫線、またはフォントを変更する必要がある場合は、代わりにカスタム ピボット スタイルを定義する必要があります。[シナリオ 3](#define-and-apply-a-custom-pivot-table-style) に示す通りです。
 
@@ -142,9 +140,8 @@ worksheet.getCells().get("C9").putValue(190)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add a pivot table at E3, sourced from A1:C10
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -159,6 +156,7 @@ pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1)
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
+
 ## **カスタムピボットテーブルスタイルの定義と適用**
 組み込みプリセットは変更できません。色、罫線、フォントを上書きする必要がある場合は、必ずカスタムピボットスタイルを定義する必要があります。ワークフローは次の 3 ステップで構成されます。
 1. `workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)` を使用して、ワークブックの `TableStyles` コレクションにカスタムスタイルを追加します。これにより、新しく作成されたスタイルのインデックスが返されます。
@@ -213,8 +211,7 @@ worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(900)
 # A1:C10 をソースとするピボットテーブルを E3 に「Pivot1」という名前で追加
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -300,9 +297,8 @@ worksheet.getCells().get("C9").putValue(2500)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(5500)
-# ピボットテーブルを追加: ソース範囲 A1:C10、配置先セル E3、名前 "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# ピボットテーブルを追加: ソース範囲 A1:C10、配置先セル E3、名前
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # ピボットフィールドを割り当て: Fruit -> 行エリア、Year -> 列エリア、Amount -> データエリア
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -338,6 +334,5 @@ jpype.shutdownJVM()
 | `.xlsx` / `.xlsm` / `.xlsb`(モダン、カスタムスタイル) | `pivotTable.setPivotTableStyleName(String)` + `tableStyles.addPivotTableStyle(String)` | 組み込みプリセットでは不十分な場合に使用します。`tableStyleElement.setElementStyle(Style)` で構成します。 |
 | 任意の形式(均一な上書き) | `pivotTable.formatAll(Style)` | ピボット全体の他のすべてのスタイル設定を上書きするショートカット。 |
 迷う場合は、`.xlsx` として保存し、組み込みテーマには `setPivotTableStyleType` を、カスタムテーマには `setPivotTableStyleName` を使用してください。
-
 
 {{< app/cells/assistant language="python" >}}

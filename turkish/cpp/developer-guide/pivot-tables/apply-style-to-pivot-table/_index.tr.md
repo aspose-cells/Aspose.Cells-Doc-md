@@ -69,9 +69,8 @@ int main() {
     sheet.GetCells().Get(9, 0).PutValue(u"grape");
     sheet.GetCells().Get(9, 1).PutValue(2020);
     sheet.GetCells().Get(9, 2).PutValue(45);
-    // Hedef hücre E3'e "Pivot1" adında, A1:C10 kaynak aralığını kullanan bir özet tablo ekle
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+ // Hedef hücre E3'e adında, A1:C10 kaynak aralığını kullanan bir özet tablo ekle
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // Alanları ata: Fruit -> Satırlar, Amount -> Veri
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -85,7 +84,6 @@ int main() {
 ```
 
 ## **Modern Adlandırılmış Hazır Pivot Tablosu Stilini Uygulama**
-
 `SetPivotTableStyleType`, Excel 2007'in pivot tabloları için tanıttığı yerleşik adlandırılmış stillerden birini seçer. `PivotTableStyleType` numaralandırması üç tema ailesini ortaya çıkarır: `PivotTableStyleLight1` ile `PivotTableStyleLight28` arası açık aile, `PivotTableStyleMedium1` ile `PivotTableStyleMedium28` arası orta aile ve `PivotTableStyleDark1` ile `PivotTableStyleDark28` arası koyu aile. Ayrıca `None` ve `Custom` değerlerini de tanımlar. Her ailenin daha yüksek sayıya sahip üyeleri Excel 2017'de eklenen stillerdir.
 Bu ön ayarlar salt okunurdur. Bir ön ayarın sunduğu sınırların ötesinde renkleri, kenarlıkları veya yazı tiplerini değiştirmeniz gerektiğinde, bunun yerine [Senaryo 3](#define-and-apply-a-custom-pivot-table-style)'te gösterildiği gibi özel bir pivot stili tanımlamanız gerekir.
 
@@ -134,8 +132,7 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(130);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -145,6 +142,7 @@ int main() {
     return 0;
 }
 ```
+
 ## **Özel Bir Pivot Tablosu Stili Tanımlama ve Uygulama**
 Yerleşik hazır ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı tiplerini geçersiz kılmanız gerektiğinde, özel bir pivot stili tanımlamalısınız. İş akışı üç adımdan oluşur:
 1. `Worksheets.TableStyles.AddPivotTableStyle(string name)` aracılığıyla çalışma kitabının `TableStyles` koleksiyonuna özel bir stil ekleyin. Bu, yeni oluşturulan stilin dizinini döndürür.
@@ -197,9 +195,8 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(900);
-    // A1:C10'dan kaynaklanan, E3'e sabitlenmiş ve "Pivot1" adında pivot tablo ekle
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ // A1:C10'dan kaynaklanan, E3'e sabitlenmiş ve adında pivot tablo ekle
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
@@ -283,9 +280,8 @@ int main() {
     worksheet.GetCells().Get(u"A10").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B10").PutValue(2021);
     worksheet.GetCells().Get(u"C10").PutValue(5500);
-    // Pivot tablosu ekle: kaynak aralık A1:C10, hedef hücre E3, ad "Pivot1"
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:C10", u"E3", u"Pivot1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+ // Pivot tablosu ekle: kaynak aralık A1:C10, hedef hücre E3, ad
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     // Pivot alanlarını ata
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");

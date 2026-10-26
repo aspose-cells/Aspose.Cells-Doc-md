@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -124,8 +123,7 @@ for (let i = 0; i < data.length; i++)
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -181,8 +179,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -195,7 +192,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Заключение**
-
 Три сценария различаются только вызовами метода `setSubtotals`. Всё остальное — набор данных, поля и области, в которые они назначены, — одинаково, что и делает макеты прямо сравнимыми друг с другом.
 - **Размещение полей.** Вызов `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, fieldName)` перемещает исходный столбец в указанную область. В пределах одной области порядок вызовов определяет порядок отображения: первый вызов формирует наиболее внешнюю группу. Для вычисления промежуточных итогов требуется два или более полей в одной области: при наличии только одного поля промежуточные итоги вычислять не между какими элементами.
 - **Сценарий 1 — автоматические промежуточные итоги.** Отсутствие вызова `setSubtotals` оставляет выбор за Excel, который применяет собственный стандартный промежуточный итог к числовым полям. Явный вызов `setSubtotals` с параметром `AsposeCells.PivotFieldSubtotalType.AUTOMATIC` фиксирует этот выбор, делая его явным, а не оставляя подразумеваемым.
@@ -205,6 +201,7 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 Особенности работы с промежуточными итогами не относятся исключительно к строковой области. Те же самые вызовы `setSubtotals`, применённые к полю из `PivotTable.ColumnFields`, создают те же три макета на оси столбцов, поскольку параметр относится к самому полю сводной таблицы, а не к той оси, на которой оно размещено.
 {{% /alert %}}
+
 ## **Связанные статьи**
 - [Поля страницы в сводных таблицах](/cells/ru/nodejs-java/add-page-field-in-pivot-table/)
 - [Обновление сводных таблиц в Aspose.Cells for Node.js via Java](/cells/ru/nodejs-java/refresh-pivot-table/)

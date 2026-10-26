@@ -84,8 +84,7 @@ worksheet.cells.get(8, 0).put_value("Vegetable")
 worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -122,8 +121,7 @@ data = [
 for i in range(len(data)):
     for j in range(len(data[i])):
         worksheet.cells.get(i + 1, j).put_value(data[i][j])
-pivot_index = worksheet.pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+pivot_table = worksheet.pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -182,8 +180,7 @@ worksheet.cells.get(8, 1).put_value("Daikon")
 worksheet.cells.get(8, 2).put_value(2021)
 worksheet.cells.get(8, 3).put_value(45)
 pivot_tables = worksheet.pivot_tables
-pivot_index = pivot_tables.add("A1:D9", "F3", "PivotTable1")
-pivot_table = pivot_tables[pivot_index]
+pivot_table = pivot_tables.add("A1:D9", 2, 5)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -196,7 +193,6 @@ workbook.save("output_custom.xlsx")
 ```
 
 ## **ملخص**
-
 تختلف السيناريوهات الثلاثة في أمرٍ واحد فقط: استدعاءات `set_subtotals`. أما بقية الأمور — مثل مجموعة البيانات، والحقول، والمناطق التي تُعيّن إليها — فهي متطابقة تمامًا، وهي ما يجعل التخطيطات قابلة للمقارنة المباشرة.
 - **وضع الحقول.** ينقل `PivotTable.add_field_to_area(PivotFieldType.ROW, fieldName)` عمود المصدر إلى منطقة معينة. وداخل منطقة واحدة، يمثل ترتيب الاستدعاءات ترتيب العرض، لذا يصبح أول استدعاء هو المجموعة الخارجية. وتحتاج القيم الإجمالية الجزئية (subtotals) إلى حقلين أو أكثر في نفس المنطقة: فمع وجود حقل واحد، لا يوجد ما بين المجموعات لاجتيازه لحساب القيم الإجمالية الجزئية.
 - **السيناريو ١ — القيم الإجمالية الجزئية التلقائية.** ترك استدعاء `set_subtotals` دون تنفيذه يُترك الخيار لبرنامج Excel، الذي يطبّق افتراضيًا قيمته الإجمالية الجزئية تلقائيًا على الحقول الرقمية. واستدعاء `set_subtotals` مع `PivotFieldSubtotalType.AUTOMATIC` يسجّل هذا الخيار بشكل صريح بدلاً من تركه ضمنيًا.
@@ -206,6 +202,7 @@ workbook.save("output_custom.xlsx")
 {{% alert color="primary" %}}
 لا يوجد شيء في القيم الإجمالية الجزئية مرتبطًا بمنطقة الصفوف تحديدًا. فإن تنفيذ استدعاءات `set_subtotals` نفسها على حقل مأخوذ من `PivotTable.ColumnFields` ينتج نفس التخطيطات الثلاثة على المحور العمودي، لأن الإعداد ينتمي إلى حقل الجدول المحوري بحد ذاته وليس إلى المحور الذي يقع عليه.
 {{% /alert %}}
+
 ## **مقالات ذات صلة**
 - [حقول الصفحات في الجداول المحورية](/cells/ar/python-net/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for Python via .NET](/cells/ar/python-net/refresh-pivot-table/)

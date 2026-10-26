@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Java'da Pivot Tablolarına Stil Uygulama
 linktitle: Aspose.Cells for Java'da Pivot Tablolarına Stil Uygulama
-description: Aspose.Cells for Java'da pivot tablolarına yerleşik ve özel stiller uygulamayı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stiller, özel pivot tablo stilleri ve FormatAll kısayolu dahil.
+description: Aspose.Cells for Java'da pivot tablolarına yerleşik ve özel stiller uygulamayı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stiller, özel pivot tablo stilleri ve formatAll kısayolu dahil.
 keywords: Aspose.Cells Java pivot tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -70,9 +70,8 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// E3 hedef hücresine, A1:C10 kaynak aralığını kullanarak "Pivot1" adlı bir özet tablo ekle
-int pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = sheet.getPivotTables().get(pivotIndex);
+// E3 hedef hücresine, A1:C10 kaynak aralığını kullanarak adlı bir özet tablo ekle
+PivotTable pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
 // Alanları ata: Meyve -> Satırlar, Miktar -> Veri
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -86,7 +85,6 @@ workbook.save("output.xls");
 ```
 
 ## **Modern Adlandırılmış Hazır Pivot Tablo Stilini Uygulama**
-
 `PivotTable.setPivotTableStyleType(int)`, Excel 2007'in pivot tablolar için sunduğu yerleşik adlandırılmış stillerden birini seçer. `PivotTableStyleType` numaralandırması üç tema ailesi sunar: `PIVOT_TABLE_STYLE_LIGHT1` ile `PIVOT_TABLE_STYLE_LIGHT28` arasındaki açık aile, `PIVOT_TABLE_STYLE_MEDIUM1` ile `PIVOT_TABLE_STYLE_MEDIUM28` arasındaki orta aile ve `PIVOT_TABLE_STYLE_DARK1` ile `PIVOT_TABLE_STYLE_DARK_28` arasındaki koyu aile. Ayrıca `None` ve `Custom` değerlerini tanımlar. Her ailenin daha yüksek numaralı üyeleri, Excel 2017'de eklenen stillerdir.
 Bu ön ayarlar salt okunurdur. Renkleri, kenarlıkları veya yazı tiplerini bir ön ayarın sunduğunun ötesinde değiştirmeniz gerektiği anda, bunun yerine özel bir pivot stili tanımlamanız gerekir; [Senaryo 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -132,9 +130,8 @@ worksheet.getCells().get("C9").putValue(190);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(130);
-// Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Add a pivot table at E3, sourced from A1:C10
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -148,6 +145,7 @@ pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1);
 // Save as modern .xlsx - this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx");
 ```
+
 ## **Özel Pivot Tablo Stili Tanımlama ve Uygulama**
 Yerleşik hazır ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı tiplerini geçersiz kılmanız gerektiğinde özel bir pivot stili tanımlamalısınız. İş akışı üç adımdan oluşur:
 1. `Workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)` aracılığıyla çalışma kitabının `TableStyles` koleksiyonuna özel bir stil ekleyin. Bu, yeni oluşturulan stilin dizinini döndürür.
@@ -195,9 +193,8 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// A1:C10'dan kaynaklanan ve E3'e sabitlenen "Pivot1" adlı pivot tablo ekle
-int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// A1:C10'dan kaynaklanan ve E3'e sabitlenen adlı pivot tablo ekle
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
@@ -277,9 +274,8 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// Özet tablo ekle: kaynak aralık A1:C10, hedef hücre E3, ad "Pivot1"
-int pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1");
-PivotTable pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// Özet tablo ekle: kaynak aralık A1:C10, hedef hücre E3, ad
+PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 // Özet tablo alanlarını ata: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
@@ -314,6 +310,5 @@ Stil API'si seçimi, kaydettiğiniz dosya biçimine bağlıdır. Hızlı bir ba�
 | `.xlsx` / `.xlsm` / `.xlsb` (modern, özel stil) | `PivotTable.PivotTableStyleName` + `Worksheets.TableStyles.addPivotTableStyle(...)` | Yerleşik hazır ayarlar yeterli olmadığında kullanın. `TableStyleElement.setElementStyle(...)` aracılığıyla yapılandırın. |
 | Herhangi bir biçim (tek tip geçersiz kılma) | `PivotTable.formatAll(Style)` | Pivotun tamamında diğer tüm stil ayarlarını geçersiz kılan kısayol. |
 Kararsız kaldığınızda, `.xlsx` olarak kaydedin ve yerleşik temalar için `PivotTableStyleType`, özel temalar için `PivotTableStyleName` kullanın.
-
 
 {{< app/cells/assistant language="java" >}}

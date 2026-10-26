@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Python via Java ile Özet Tablolarını ve Pivot Önbelleklerini Yenileme
 linktitle: Aspose.Cells for Python via Java ile Özet Tablolarını ve Pivot Önbelleklerini Yenileme
-description: Aspose.Cells for Python via Java ile v26.7+ özet tablo yenileme API'sini kullanarak özet tablolarını nasıl yenileyeceğinizi öğrenin. Bu makale, RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData ve GetPivotTables yöntemlerini pratik kod örnekleriyle ele alır.
+description: Aspose.Cells for Python via Java ile v26.7+ özet tablo yenileme API'sini kullanarak özet tablolarını nasıl yenileyeceğinizi öğrenin. Bu makale, refreshAll, refreshPivotTables, PivotCache.refresh, calculateData ve getPivotTables yöntemlerini pratik kod örnekleriyle ele alır.
 keywords: Aspose.Cells, Python via Java, özet tablo, yenileme, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -90,9 +90,8 @@ worksheet.getCells().get("C8").putValue(110)
 worksheet.getCells().get("A9").putValue("cherry")
 worksheet.getCells().get("B9").putValue(2021)
 worksheet.getCells().get("C9").putValue(120)
-# Add a pivot table: source range "A1:C9", destination cell "E3", name "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add a pivot table: source range "A1:C9", destination cell "E3"
+pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4)
 # Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -145,8 +144,7 @@ worksheet.getCells().get("C8").putValue(220)
 worksheet.getCells().get("A9").putValue("cherry")
 worksheet.getCells().get("B9").putValue(2020)
 worksheet.getCells().get("C9").putValue(140)
-pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -204,9 +202,8 @@ worksheet.getCells().get("C8").putValue(350)
 worksheet.getCells().get("A9").putValue("Cherry")
 worksheet.getCells().get("B9").putValue(2021)
 worksheet.getCells().get("C9").putValue(450)
-# Add a pivot table named "Pivot1" placed at destination cell E3, sourcing from A1:C9
-pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add a pivot table placed at destination cell E3, sourcing from A1:C9
+pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4)
 # Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Python via Java'da Pivot Tablolarına Stil Uygulama
 linktitle: Aspose.Cells for Python via Java'da Pivot Tablolarına Stil Uygulama
-description: Aspose.Cells for Python via Java'da pivot tablolarına yerleşik ve özel stiller uygulamayı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stiller, özel pivot tablosu stilleri ve FormatAll kısayolu dahil.
+description: Aspose.Cells for Python via Java'da pivot tablolarına yerleşik ve özel stiller uygulamayı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stiller, özel pivot tablosu stilleri ve formatAll kısayolu dahil.
 keywords: Aspose.Cells Python via Java pivot tablosu stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -73,9 +73,8 @@ sheet.getCells().get(8, 2).putValue(45)
 sheet.getCells().get(9, 0).putValue("grape")
 sheet.getCells().get(9, 1).putValue(2020)
 sheet.getCells().get(9, 2).putValue(45)
-# E3 hedef hücresinde, "Pivot1" adıyla, A1:C10 kaynak aralığını kullanarak bir pivot tablo ekle
-pivotIndex = sheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = sheet.getPivotTables().get(pivotIndex)
+# E3 hedef hücresinde, adıyla, A1:C10 kaynak aralığını kullanarak bir pivot tablo ekle
+pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4)
 # Alanları ata: Fruit -> Satırlar, Amount -> Veri
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -90,7 +89,6 @@ jpype.shutdownJVM()
 ```
 
 ## **Modern Adlandırılmış Ön Ayar Pivot Tablosu Stili Uygulama**
-
 `pivotTable.setPivotTableStyleType(int)`, Excel 2007'in pivottablolara tanıttığı önceden oluşturulmuş adlandırılmış stillerden birini seçer. `PivotTableStyleType` numaralandırması üç tema ailesini ortaya çıkarır: `PIVOT_TABLE_STYLE_LIGHT1` ile `PIVOT_TABLE_STYLE_LIGHT28` arasında bulunan açık tema ailesi, `PIVOT_TABLE_STYLE_MEDIUM1` ile `PIVOT_TABLE_STYLE_MEDIUM28` arasında bulunan orta tema ailesi ve `PIVOT_TABLE_STYLE_DARK1` ile `PIVOT_TABLE_STYLE_DARK_28` arasında bulunan koyu tema ailesi. Ayrıca `None` ve `Custom` değerlerini de tanımlar. Her ailenin daha yüksek numaralı üyelerine Excel 2017'de eklenen stiller aittir.
 Bu ön ayarlar salt okunurdur. Bir ön ayarın sunduğu sınırların ötesine geçip renkleri, kenarlıkları veya yazı tiplerini değiştirmeniz gerektiği an, [Senaryo 3](#define-and-apply-a-custom-pivot-table-style)'te gösterildiği gibi bunun yerine özel bir pivot stili tanımlamanız gerekir.
 
@@ -142,9 +140,8 @@ worksheet.getCells().get("C9").putValue(190)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Add a pivot table at E3, sourced from A1:C10
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -159,6 +156,7 @@ pivotTable.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_DARK_1)
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```
+
 ## **Özel Bir Pivot Tablosu Stili Tanımlama ve Uygulama**
 Yerleşik ön ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı tiplerini geçersiz kılmanız gerektiğinde özel bir pivot stili tanımlamanız gerekir. İş akışı üç adımdan oluşur:
 1. `workbook.getWorksheets().getTableStyles().addPivotTableStyle(String name)` aracılığıyla çalışma kitabının `TableStyles` koleksiyonuna özel bir stil ekleyin. Bu, yeni oluşturulan stilin dizinini döndürür.
@@ -212,9 +210,8 @@ worksheet.getCells().get("C9").putValue(800)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(900)
-# A1:C10'dan kaynaklanan, E3'e sabitlenmiş ve "Pivot1" adlı pivot tablo ekle
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# A1:C10'dan kaynaklanan, E3'e sabitlenmiş ve adlı pivot tablo ekle
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
@@ -300,9 +297,8 @@ worksheet.getCells().get("C9").putValue(2500)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(5500)
-# Pivot tablo ekle: kaynak aralığı A1:C10, hedef hücre E3, adı "Pivot1"
-pivotIndex = worksheet.getPivotTables().add("A1:C10", "E3", "Pivot1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+# Pivot tablo ekle: kaynak aralığı A1:C10, hedef hücre E3, adı
+pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 # Pivot alanlarını ata: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -338,6 +334,5 @@ Stil API'si seçimi, kaydettiğiniz dosya formatına bağlıdır. Hızlı bir ba
 | `.xlsx` / `.xlsm` / `.xlsb` (modern, özel stil) | `pivotTable.setPivotTableStyleName(String)` + `tableStyles.addPivotTableStyle(String)` | Yerleşik ön ayarlar yeterli olmadığında kullanın. `tableStyleElement.setElementStyle(Style)` ile yapılandırın. |
 | Herhangi bir format (tek tip geçersiz kılma) | `pivotTable.formatAll(Style)` | Pivotun tamamında diğer tüm stil ayarlarını geçersiz kılan kısayol. |
 Kararsız kaldığınızda, `.xlsx` olarak kaydedin ve yerleşik temalar için `setPivotTableStyleType`, özel temalar için `setPivotTableStyleName` kullanın.
-
 
 {{< app/cells/assistant language="python" >}}

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Node.js via Java でピボットテーブルとピボットキャッシュを更新する
 linktitle: Aspose.Cells for Node.js via Java でピボットテーブルとピボットキャッシュを更新する
-description: v26.7+ の pivot-refresh API を使用して Aspose.Cells for Node.js via Java でピボットテーブルを更新する方法を学びます。この記事では RefreshAll、RefreshPivotTables、PivotCache.Refresh、CalculateData、GetPivotTables を実用的なコード例とともに解説します。
+description: v26.7+ の pivot-refresh API を使用して Aspose.Cells for Node.js via Java でピボットテーブルを更新する方法を学びます。この記事では refreshAll、refreshPivotTables、PivotCache.refresh、calculateData、getPivotTables を実用的なコード例とともに解説します。
 keywords: Aspose.Cells, Node.js, Java, ピボットテーブル, 更新, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
 weight: 200
@@ -83,9 +83,8 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// ピボットテーブルを追加：ソース範囲"A1:C9"、配置先のセル"E3"、名前"Pivot1"
-const pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// ピボットテーブルを追加：ソース範囲"A1:C9"、配置先のセル"E3"、名前
+const pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // ピボットフィールドを割り当て：Fruitを行、Yearを列、Amountをデータに
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
@@ -134,8 +133,7 @@ worksheet.getCells().get("C8").putValue(220);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2020);
 worksheet.getCells().get("C9").putValue(140);
-let pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
@@ -189,9 +187,8 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// 名前が "Pivot1" のピボットテーブルを追加し、配置先セルE3、ソース範囲をA1:C9とする
-var pivotIndex = worksheet.getPivotTables().add("A1:C9", "E3", "Pivot1");
-var pivotTable = worksheet.getPivotTables().get(pivotIndex);
+// 名前が のピボットテーブルを追加し、配置先セルE3、ソース範囲をA1:C9とする
+var pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
 // フィールドを割り当てる：Fruitを行、Yearを列、Amountをデータへ
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");

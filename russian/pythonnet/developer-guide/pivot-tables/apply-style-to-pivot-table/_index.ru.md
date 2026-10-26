@@ -1,6 +1,6 @@
 ---
 title: Применение стилей к сводным таблицам в Aspose.Cells for Python via .NET
-description: Узнайте, как применять встроенные и пользовательские стили к сводным таблицам в Aspose.Cells for Python via .NET, включая устаревшие автоформаты XLS, современные именованные стили Excel 2007+, пользовательские стили сводных таблиц и сокращение FormatAll.
+description: Узнайте, как применять встроенные и пользовательские стили к сводным таблицам в Aspose.Cells for Python via .NET, включая устаревшие автоформаты XLS, современные именованные стили Excel 2007+, пользовательские стили сводных таблиц и сокращение _format_all.
 linktitle: Применение стилей к сводной таблице
 keywords: Aspose.Cells Python via .NET, стиль сводной таблицы, PivotTableStyleType, AutoFormatType, FormatAll, пользовательский стиль, PivotTableStyleName, TableStyles
 type: docs
@@ -72,9 +72,8 @@ sheet.cells.get(8, 2).put_value(45)
 sheet.cells.get(9, 0).put_value("grape")
 sheet.cells.get(9, 1).put_value(2020)
 sheet.cells.get(9, 2).put_value(45)
-# Add a pivot table at destination cell E3, named "Pivot1", using source range A1:C10
-pivot_index = sheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = sheet.pivot_tables[pivot_index]
+# Add a pivot table at destination cell E3, using source range A1:C10
+pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
 # Assign fields: Fruit -> Rows, Amount -> Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -88,7 +87,6 @@ workbook.save("output.xls")
 ```
 
 ## **Применение современного именованного предустановленного стиля сводной таблицы**
-
 `pivot_table.pivot_table_style_type` выбирает один из встроенных именованных стилей, представленных в Excel 2007 для сводных таблиц. Перечисление `PivotTableStyleType` предоставляет три семейства тем: светлое семейство от `PIVOT_TABLE_STYLE_LIGHT1` до `PIVOT_TABLE_STYLE_LIGHT28`, среднее семейство от `PIVOT_TABLE_STYLE_MEDIUM1` до `PIVOT_TABLE_STYLE_MEDIUM28` и темное семейство от `PIVOT_TABLE_STYLE_DARK1` до `PIVOT_TABLE_STYLE_DARK28`. Оно также определяет `None` и `Custom`. Элементы с более высоким номером в каждом семействе представляют собой стили, добавленные в Excel 2017.
 Эти предустановки доступны только для чтения. Как только возникает необходимость изменить цвета, границы или шрифты за пределами возможностей предустановки, необходимо определить пользовательский стиль сводной таблицы, как показано в [Сценарии 3](#define-and-apply-a-custom-pivot-table-style).
 
@@ -139,9 +137,8 @@ worksheet.cells.get("C9").put_value(190)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Add a pivot table at E3, sourced from A1:C10
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -155,6 +152,7 @@ pivot_table.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_DARK1
 # Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx")
 ```
+
 ## **Определение и применение пользовательского стиля сводной таблицы**
 Встроенные предустановки не могут быть изменены. Если требуется переопределить цвета, границы или шрифты, необходимо определить пользовательский стиль сводной таблицы. Рабочий процесс состоит из трёх шагов:
 1. Добавьте пользовательский стиль в коллекцию `table_styles` рабочей книги с помощью `workbook.worksheets.table_styles.add_pivot_table_style(name)`. Метод возвращает индекс только что созданного стиля.
@@ -205,9 +203,8 @@ worksheet.cells.get("C9").put_value(800)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(900)
-# Add pivot table sourced from A1:C10, anchored at E3, named "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Add pivot table sourced from A1:C10, anchored at E3
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -289,9 +286,8 @@ worksheet.cells.get("C9").put_value(2500)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(5500)
-# Add pivot table: source range A1:C10, destination cell E3, name "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Add pivot table: source range A1:C10, destination cell E3
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -326,6 +322,5 @@ workbook.save("output.xlsx")
 | `.xlsx` / `.xlsm` / `.xlsb` (современный, пользовательский стиль) | `PivotTable.pivot_table_style_name` + `worksheets.table_styles.add_pivot_table_style(...)` | Используйте, когда встроенных предустановок недостаточно. Настройка выполняется через `table_style_element.set_element_style(...)`. |
 | Любой формат (единообразное переопределение) | `PivotTable.format_all(Style)` | Сокращение, переопределяющее все остальные настройки стилей во всей сводной таблице. |
 Если вы сомневаетесь, сохраняйте в формате `.xlsx` и используйте `pivot_table_style_type` для встроенных тем или `pivot_table_style_name` для пользовательских тем.
-
 
 {{< app/cells/assistant language="python-net" >}}

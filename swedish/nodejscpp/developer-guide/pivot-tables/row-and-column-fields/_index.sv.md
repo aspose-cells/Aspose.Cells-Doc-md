@@ -1,7 +1,7 @@
 ---
 title: Lägg till rad- och kolumnfält i pivottabeller med Aspose.Cells for Node.js via C++
 linktitle: Lägg till rad- och kolumnfält i pivottabeller med Aspose.Cells for Node.js via C++
-description: Lär dig att lägga till basfält i rad- och kolumnområdena i en pivottabell och styra delsummor för pivotfält med hjälp av PivotField.SetSubtotals i Aspose.Cells for Node.js via C++
+description: Lär dig att lägga till basfält i rad- och kolumnområdena i en pivottabell och styra delsummor för pivotfält med hjälp av PivotField.setSubtotals i Aspose.Cells for Node.js via C++
 keywords: Aspose.Cells, Node.js, C++, pivottabell, radfält, kolumnfält, PivotField, SetSubtotals, PivotFieldSubtotalType, delsummor
 type: docs
 weight: 220
@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -121,8 +120,7 @@ for (let i = 0; i < data.length; i++) {
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+const pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -178,8 +176,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -192,7 +189,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Sammanfattning**
-
 De tre scenario skiljer sig åt i en sak endast: anroppen till `setSubtotals`. Allt annat — datasetet, fälten och de områden de tilldelas till — är identiskt, vilket gör att layouterna kan jämföras direkt.
 - **Placering av fält.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` flyttar en källkolumn till ett område. Inom ett och samma område är kallordningen den visuella ordningen, så det första anropet blir det yttre gruppdjupet. Subtotaler kräver två eller fler fält i samma område: med ett enda fält finns det inget mellan grupperna att summera.
 - **Scenario 1 — automatiska subtotaler.** Om `setSubtotals` inte anropas lämnas valet till Excel, som tillämpar sin egen standardsubtotal på numeriska fält. Att anropa `setSubtotals` med `AsposeCells.PivotFieldSubtotalType.Automatic` uttryckligen registrerar detta val istället för att lämna det implicit.
@@ -202,6 +198,7 @@ De tre scenario skiljer sig åt i en sak endast: anroppen till `setSubtotals`. A
 {{% alert color="primary" %}}
 Ingenting angående subtotaler är specifikt för radområdet. Samma anrop till `setSubtotals` på ett fält hämtat från `PivotTable.ColumnFields` producerar samma tre layouter på kolumnaxeln, eftersom inställningen hör till pivottabellfältet och inte till axeln det sitter på.
 {{% /alert %}}
+
 ## **Relaterade artiklar**
 - [Sidfält i pivottabeller](/cells/sv/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Uppdatera pivottabeller i Aspose.Cells for Node.js via C++](/cells/sv/nodejs-cpp/refresh-pivot-table/)

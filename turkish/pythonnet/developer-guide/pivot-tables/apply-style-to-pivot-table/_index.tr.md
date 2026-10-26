@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Python via .NET ile Pivot Tablolarına Stil Uygulama
 linktitle: Aspose.Cells for Python via .NET ile Pivot Tablolarına Stil Uygulama
-description: Aspose.Cells for Python via .NET'te yerleşik ve özel stilleri pivot tablolarına nasıl uygulayacağınızı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stilleri, özel pivot tablo stilleri ve FormatAll kısayolu dahil.
+description: Aspose.Cells for Python via .NET'te yerleşik ve özel stilleri pivot tablolarına nasıl uygulayacağınızı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stilleri, özel pivot tablo stilleri ve _format_all kısayolu dahil.
 keywords: Aspose.Cells Python via .NET pivot tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -72,9 +72,8 @@ sheet.cells.get(8, 2).put_value(45)
 sheet.cells.get(9, 0).put_value("grape")
 sheet.cells.get(9, 1).put_value(2020)
 sheet.cells.get(9, 2).put_value(45)
-# E3 hedef hücresinde, "Pivot1" adında, A1:C10 kaynak aralığını kullanarak bir pivot tablo ekle
-pivot_index = sheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = sheet.pivot_tables[pivot_index]
+# E3 hedef hücresinde, adında, A1:C10 kaynak aralığını kullanarak bir pivot tablo ekle
+pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
 # Alanları ata: Fruit -> Satırlar, Amount -> Veri
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -88,7 +87,6 @@ workbook.save("output.xls")
 ```
 
 ## **Modern Adlandırılmış Bir Ön Ayar Pivot Tablo Stilini Uygulama**
-
 `pivot_table.pivot_table_style_type`, Excel 2007’in pivot tabloları için tanıttığı yerleşik adlandırılmış stillerden birini seçer. `PivotTableStyleType` numaralandırması üç tema ailesini ortaya çıkarır: `PIVOT_TABLE_STYLE_LIGHT1`’den `PIVOT_TABLE_STYLE_LIGHT28`’e kadar olan açık ailesi, `PIVOT_TABLE_STYLE_MEDIUM1`’den `PIVOT_TABLE_STYLE_MEDIUM28`’e kadar olan orta ailesi ve `PIVOT_TABLE_STYLE_DARK1`’den `PIVOT_TABLE_STYLE_DARK28`’e kadar olan koyu ailesi. Ayrıca `None` ve `Custom` değerlerini de tanımlar. Her ailenin daha yüksek numaralı üyeleri Excel 2017’ye eklenen stillerdir.
 Bu ön ayarlar salt-okunurdur. Bir ön ayarın sunduğu imkanlar ötesinde renkleri, kenarlıkları veya yazı tiplerini değiştirmeniz gerektiğinde, bunun yerine [Senaryo 3](#define-and-apply-a-custom-pivot-table-style)’te gösterildiği gibi özel bir pivot stili tanımlamanız gerekir.
 
@@ -139,9 +137,8 @@ worksheet.cells.get("C9").put_value(190)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Add a pivot table at E3, sourced from A1:C10
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -155,6 +152,7 @@ pivot_table.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_DARK1
 # Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx")
 ```
+
 ## **Özel Bir Pivot Tablo Stilini Tanımlama ve Uygulama**
 Yerleşik ön ayarlar değiştirilemez. Renkleri, kenarlıkları veya yazı tiplerini geçersiz kılmanız gerektiğinde, özel bir pivot stili tanımlamalısınız. İş akışı üç adımdan oluşur:
 1. `workbook.worksheets.table_styles.add_pivot_table_style(name)` aracılığıyla çalışma kitabının `table_styles` koleksiyonuna özel bir stil ekleyin. Bu, yeni oluşturulan stilin dizinini döndürür.
@@ -205,9 +203,8 @@ worksheet.cells.get("C9").put_value(800)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(900)
-# A1:C10'dan kaynaklanan, E3'e yerleştirilen ve "Pivot1" adında bir pivot tablo ekle
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# A1:C10'dan kaynaklanan, E3'e yerleştirilen ve adında bir pivot tablo ekle
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -289,9 +286,8 @@ worksheet.cells.get("C9").put_value(2500)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(5500)
-# Pivot tablo ekle: kaynak aralığı A1:C10, hedef hücre E3, ad "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Pivot tablo ekle: kaynak aralığı A1:C10, hedef hücre E3, ad
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Pivot alanlarını ata: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -326,6 +322,5 @@ Stil API'si seçimi, kaydettiğiniz dosya formatına bağlıdır. Hızlı bir re
 | `.xlsx` / `.xlsm` / `.xlsb` (modern, özel stil) | `PivotTable.pivot_table_style_name` + `worksheets.table_styles.add_pivot_table_style(...)` | Yerleşik ön ayarlar yeterli olmadığında kullanın. `table_style_element.set_element_style(...)` aracılığıyla yapılandırın. |
 | Herhangi bir format (tek tip geçersiz kılma) | `PivotTable.format_all(Style)` | Pivot genelinde diğer tüm stil ayarlarını geçersiz kılan kısayol. |
 Kararsız kaldığınızda, `.xlsx` olarak kaydedin ve yerleşik temalar için `pivot_table_style_type` veya özel temalar için `pivot_table_style_name` kullanın.
-
 
 {{< app/cells/assistant language="python-net" >}}

@@ -85,8 +85,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable")
 worksheet.getCells().get(8, 1).putValue("Daikon")
 worksheet.getCells().get(8, 2).putValue(2021)
 worksheet.getCells().get(8, 3).putValue(45)
-pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -125,8 +124,7 @@ data = [
 for i in range(len(data)):
     for j in range(len(data[0])):
         worksheet.getCells().get(i + 1, j).putValue(data[i][j])
-pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1")
-pivotTable = worksheet.getPivotTables().get(pivotIndex)
+pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -186,8 +184,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon")
 worksheet.getCells().get(8, 2).putValue(2021)
 worksheet.getCells().get(8, 3).putValue(45)
 pivotTables = worksheet.getPivotTables()
-pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1")
-pivotTable = pivotTables.get(pivotIndex)
+pivotTable = pivotTables.add("A1:D9", 2, 5)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category")
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
@@ -201,7 +198,6 @@ jpype.shutdownJVM()
 ```
 
 ## **ملخص**
-
 تختلف السيناريوهات الثلاثة في شيء واحد فقط: استدعاءات `setSubtotals`. وeverything else — أي مجموعة البيانات، والحقول، والمجالات التي تُعيَّن إليها — متطابقة تمامًا، وهذا ما يجعل التخطيطات قابلة للمقارنة مباشرة.
 - **وضع الحقول.** ينقل `PivotTable.addFieldToArea(PivotFieldType.ROW, fieldName)` عمود مصدر إلى منطقة. وداخل منطقة واحدة، يحدد ترتيب الاستدعاءات ترتيب العرض، لذا يصبح أول استدعاء المجموعة الخارجية. وتحتاج التجميعات الفرعية إلى حقلين أو أكثر داخل نفس المنطقة: فبوجود حقل واحد لا يوجد شيء بين المجموعات يمكن تجميعه فرعيًا.
 - **السيناريو 1 — التجميعات الفرعية التلقائية.** ترك `setSubtotals` دون استدعائها يترك الخيار لـ Excel، الذي يطبّق تجميعًا فرعيًا افتراضيًا خاصًا به على الحقول الرقمية. بينما يؤدي استدعاء `setSubtotals` مع `PivotFieldSubtotalType.AUTOMATIC` إلى تسجيل هذا الخيار بشكل صريح بدلًا من تركه ضمنيًا.
@@ -211,6 +207,7 @@ jpype.shutdownJVM()
 {{% alert color="primary" %}}
 لا يوجد شيء خاص بالتجميعات الفرعية يتعلق بالمنطقة الصفية فقط. فاستدعاءات `setSubtotals` نفسها على حقل مأخوذ من `PivotTable.ColumnFields` تُنتج نفس التخطيطات الثلاثة على المحور العمودي، لأن الإعداد ينتمي إلى حقل PivotField بحد ذاته وليس للمحور الذي يقع عليه.
 {{% /alert %}}
+
 ## **مقالات ذات صلة**
 - [حقول الصفحة في الجداول المحورية](/cells/ar/python-java/add-page-field-in-pivot-table/)
 - [تحديث الجداول المحورية في Aspose.Cells for Python عبر Java](/cells/ar/python-java/refresh-pivot-table/)

@@ -86,8 +86,7 @@ int main() {
     worksheet.GetCells().Get(8, 1).PutValue(u"Daikon");
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
-    int pivotIndex = worksheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -129,8 +128,7 @@ int main() {
         sheet.GetCells().Get(i + 1, 2).PutValue(years[i]);
         sheet.GetCells().Get(i + 1, 3).PutValue(amounts[i]);
     }
-    int pivotIndex = sheet.GetPivotTables().Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = sheet.GetPivotTables().Get(pivotIndex);
+    PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -193,8 +191,7 @@ int main() {
     worksheet.GetCells().Get(8, 2).PutValue(2021);
     worksheet.GetCells().Get(8, 3).PutValue(45);
     PivotTableCollection pivotTables = worksheet.GetPivotTables();
-    int pivotIndex = pivotTables.Add(u"A1:D9", u"F3", u"PivotTable1");
-    PivotTable pivotTable = pivotTables.Get(pivotIndex);
+    PivotTable pivotTable = pivotTables.Add(u"A1:D9", 2, 5);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
@@ -210,7 +207,6 @@ int main() {
 ```
 
 ## **Özet**
-
 Üretilen üç senaryo yalnızca bir bakımdan birbirinden farklıdır: `SetSubtotals` çağrıları. Diğer tüm unsurlar — veri kümesi, alanlar ve bunlara atandıkları bölgeler — aynıdır; bu da düzenlerin doğrudan karşılaştırılabilir olmasını sağlar.
 - **Alanların yerleştirilmesi.** `PivotTable.AddFieldToArea(PivotFieldType::Row, fieldName)` bir kaynak sütunu bir bölgeye taşır. Bir bölge içinde, çağrıların sırası ekran sırasını belirler; dolayısıyla ilk çağrı en dıştaki grubu oluşturur. Alt toplamlar için aynı bölgede iki veya daha fazla alana ihtiyaç vardır: tek bir alanla gruplar arasında alt toplam yapılacak bir şey bulunmaz.
 - **Senaryo 1 — otomatik alt toplamlar.** `SetSubtotals`’ın çağrılmaması, seçimi Excel’e bırakır; Excel sayısal alanlara kendi öntanımlı alt toplamını uygular. `PivotFieldSubtotalType::Automatic` ile `SetSubtotals`’ın çağrılması, bu seçimi açıkça kaydeder ve dolaylı bırakmaz.
@@ -220,6 +216,7 @@ int main() {
 {{% alert color="primary" %}}
 Alt toplamlarla ilgili hiçbir şey, satır bölgesine özgü değildir. `PivotTable.ColumnFields`’ten alınmış bir alana aynı `SetSubtotals` çağrılarının yapılması, ayar alanı değil eksenin kendisine ait olduğundan, sütun ekseninde aynı üç düzeni oluşturur.
 {{% /alert %}}
+
 ## **İlgili Makaleler**
 - [Pivot Tablolarında Sayfa Alanları](/cells/tr/cpp/add-page-field-in-pivot-table/)
 - [Aspose.Cells for C++ ile Pivot Tablolarını Yenileme](/cells/tr/cpp/refresh-pivot-table/)

@@ -1,7 +1,7 @@
 ---
 title: 在 Aspose.Cells for Python via .NET 中为数据透视表应用样式
 linktitle: 在 Aspose.Cells for Python via .NET 中为数据透视表应用样式
-description: 了解如何在 Aspose.Cells for Python via .NET 中为数据透视表应用内置和自定义样式，涵盖旧版 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式以及 FormatAll 快捷方式。
+description: 了解如何在 Aspose.Cells for Python via .NET 中为数据透视表应用内置和自定义样式，涵盖旧版 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式以及 _format_all 快捷方式。
 keywords: Aspose.Cells Python via .NET 数据透视表样式, PivotTableStyleType, AutoFormatType, FormatAll, 自定义样式, PivotTableStyleName, TableStyles
 type: docs
 weight: 200
@@ -72,9 +72,8 @@ sheet.cells.get(8, 2).put_value(45)
 sheet.cells.get(9, 0).put_value("grape")
 sheet.cells.get(9, 1).put_value(2020)
 sheet.cells.get(9, 2).put_value(45)
-# 在目标单元格 E3 处添加一个名为 "Pivot1" 的数据透视表，使用源范围 A1:C10
-pivot_index = sheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = sheet.pivot_tables[pivot_index]
+# 在目标单元格 E3 处添加一个名为 的数据透视表，使用源范围 A1:C10
+pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
 # 分配字段：Fruit -> 行，Amount -> 数据
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -88,7 +87,6 @@ workbook.save("output.xls")
 ```
 
 ## **应用现代命名预设数据透视表样式**
-
 `pivot_table.pivot_table_style_type` 选择 Excel 2007 为数据透视表引入的内置命名样式之一。`PivotTableStyleType` 枚举包含三个主题系列：从 `PIVOT_TABLE_STYLE_LIGHT1` 到 `PIVOT_TABLE_STYLE_LIGHT28` 的浅色系列、从 `PIVOT_TABLE_STYLE_MEDIUM1` 到 `PIVOT_TABLE_STYLE_MEDIUM28` 的中等色系列，以及从 `PIVOT_TABLE_STYLE_DARK1` 到 `PIVOT_TABLE_STYLE_DARK28` 的深色系列。它还定义了 `None` 和 `Custom`。每个系列中编号较高的成员都是 Excel 2017 中新增的样式。
 这些预设是只读的。一旦你需要更改预设未涵盖的颜色、边框或字体，就必须改为定义自定义数据透视表样式，如[场景 3](#define-and-apply-a-custom-pivot-table-style)所示。
 
@@ -139,9 +137,8 @@ worksheet.cells.get("C9").put_value(190)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(130)
-# Add a pivot table at E3 named "Pivot1", sourced from A1:C10
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# Add a pivot table at E3, sourced from A1:C10
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -155,6 +152,7 @@ pivot_table.pivot_table_style_type = PivotTableStyleType.PIVOT_TABLE_STYLE_DARK1
 # Save as modern .xlsx — this is the format for which PivotTableStyleType is meaningful.
 workbook.save("output.xlsx")
 ```
+
 ## **定义并应用自定义数据透视表样式**
 内置预设样式无法修改。每当您需要覆盖颜色、边框或字体时，都必须定义自定义数据透视样式。该工作流包含三个步骤：
 1. 通过 `workbook.worksheets.table_styles.add_pivot_table_style(name)` 向工作簿的 `table_styles` 集合添加自定义样式。这将返回新创建样式的索引。
@@ -205,9 +203,8 @@ worksheet.cells.get("C9").put_value(800)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(900)
-# 添加数据源为 A1:C10 的数据透视表，锚定在 E3，命名为 "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# 添加数据源为 A1:C10 的数据透视表，锚定在 E3，命名为
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
@@ -289,9 +286,8 @@ worksheet.cells.get("C9").put_value(2500)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(5500)
-# 添加数据透视表：源区域 A1:C10，目标单元格 E3，名称 "Pivot1"
-pivot_index = worksheet.pivot_tables.add("A1:C10", "E3", "Pivot1")
-pivot_table = worksheet.pivot_tables[pivot_index]
+# 添加数据透视表：源区域 A1:C10，目标单元格 E3，名称
+pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 # 分配数据透视字段：Fruit -> 行区域，Year -> 列区域，Amount -> 数据区域
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
@@ -326,6 +322,5 @@ workbook.save("output.xlsx")
 | `.xlsx` / `.xlsm` / `.xlsb`（现代，自定义样式） | `PivotTable.pivot_table_style_name` + `worksheets.table_styles.add_pivot_table_style(...)` | 当内置预设样式不够用时使用。通过 `table_style_element.set_element_style(...)` 进行配置。 |
 | 任何格式（统一覆盖） | `PivotTable.format_all(Style)` | 覆盖整个数据透视表所有其他样式设置的快捷方式。 |
 如有疑问，请保存为 `.xlsx` 并对内置主题使用 `pivot_table_style_type`，或对自定义主题使用 `pivot_table_style_name`。
-
 
 {{< app/cells/assistant language="python-net" >}}

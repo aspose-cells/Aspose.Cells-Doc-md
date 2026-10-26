@@ -19,6 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 引数なしの `PivotField.Group()` オーバーロードは、フィールドのデータ型を調べて自動的にグループ化します。日付(および空白)のみを含むフィールドは月別にグループ化されます。数値(および空白)のみを含むフィールドは、自動間隔を使用して数値範囲にグループ化されます。
 
 ```csharp
+using Aspose.Cells.Pivot;
 // サンプルワークブックを読み込む
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // 2番目のワークシートとそのピボットテーブルにアクセスする
@@ -40,6 +41,7 @@ wb.Save("outputAutoGroupPivotField.xlsx");
 `options.GroupTypes` の値の順序は無視されることに注意してください。グループタイプの順序にかかわらず、グループ化されたフィールドは常に最大の期間から最小の期間の順に表示されます。年、四半期、月、日、時間、分、秒の順です。この例では `options.GroupTypes` で月が四半期より前にリストされていますが、四半期が外側のレベル、月が内側のレベルとして表示されます。
 
 ```csharp
+using Aspose.Cells.Pivot;
 // サンプルワークブックを読み込む
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // 2番目のワークシートとそのピボットテーブルにアクセスする
@@ -61,6 +63,7 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 サンプルピボットテーブルの `FieldTwo` は最初はデータ(値)フィールドです。グループ化できるのは行または列フィールドのみであるため、コードは最初に `PivotTable.AddFieldToArea(PivotFieldType.Row, "FieldTwo")` を呼び出して `FieldTwo` を行エリアに移動し、ピボットを更新してから、`StartNumber = 0`、`EndNumber = 5`、`Interval = 2` を使用して数値フィールドを 0-1、2-3、4-5 の範囲にグループ化します。
 
 ```csharp
+using Aspose.Cells.Pivot;
 // サンプルワークブックを読み込む
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
 // 2番目のワークシートとそのピボットテーブルにアクセスする

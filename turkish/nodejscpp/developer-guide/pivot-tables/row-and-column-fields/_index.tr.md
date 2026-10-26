@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Node.js via C++'te PivotTable'a satır ve sütun alanları ekleme
 linktitle: Aspose.Cells for Node.js via C++'te PivotTable'a satır ve sütun alanları ekleme
-description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.SetSubtotals in Aspose.Cells for Node.js via C++
+description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Node.js via C++
 keywords: Aspose.Cells, Node.js, C++, pivot tablosu, satır alanı, sütun alanı, PivotField, SetSubtotals, PivotFieldSubtotalType, alt toplamlar
 type: docs
 weight: 220
@@ -82,8 +82,7 @@ worksheet.getCells().get(8, 0).putValue("Vegetable");
 worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
-let pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-let pivotTable = worksheet.getPivotTables().get(pivotIndex);
+let pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -121,8 +120,7 @@ for (let i = 0; i < data.length; i++) {
         worksheet.getCells().get(i + 1, j).putValue(data[i][j]);
     }
 }
-const pivotIndex = worksheet.getPivotTables().add("A1:D9", "F3", "PivotTable1");
-const pivotTable = worksheet.getPivotTables().get(pivotIndex);
+const pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -178,8 +176,7 @@ worksheet.getCells().get(8, 1).putValue("Daikon");
 worksheet.getCells().get(8, 2).putValue(2021);
 worksheet.getCells().get(8, 3).putValue(45);
 let pivotTables = worksheet.getPivotTables();
-let pivotIndex = pivotTables.add("A1:D9", "F3", "PivotTable1");
-let pivotTable = pivotTables.get(pivotIndex);
+let pivotTable = pivotTables.add("A1:D9", 2, 5);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -192,7 +189,6 @@ workbook.save("output_custom.xlsx");
 ```
 
 ## **Recap**
-
 İlk üç senaryo yalnızca `setSubtotals` çağrıları konusunda farklılık gösterir. Diğer her şey — veri kümesi, alanlar ve onların atanmış oldukları bölgeler — aynıdır, bu da düzenlerin doğrudan karşılaştırılabilir olmasına neden olur.
 - **Alanların yerleştirilmesi.** `PivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, fieldName)` bir kaynak sütunu bir bölgeye taşır. Bir bölgede, çağrıların sırası ekran sırasını belirler; böylece ilk çağrı en dıştaki grubu oluşturur. Alt toplamlar için aynı bölgede iki veya daha fazla alan gerekir: tek bir alanla gruplar arasında alt toplam alınacak bir şey bulunmaz.
 - **Senaryo 1 — otomatik alt toplamlar.** `setSubtotals` çağrılmazsa, seçime Excel bırakılır ve sayısal alanlara kendi öntanımlı alt toplamını uygular. `AsposeCells.PivotFieldSubtotalType.Automatic` ile `setSubtotals` çağrıldığında, bu seçim açıkça kaydedilir ve örtük bırakılmaz.
@@ -202,6 +198,7 @@ workbook.save("output_custom.xlsx");
 {{% alert color="primary" %}}
 Alt toplamlarla ilgili hiçbir şey, satır bölgesine özgü değildir. `PivotTable.ColumnFields`’ten alınan bir alana aynı `setSubtotals` çağrıları yapıldığında, sütun ekseninde aynı üç düzen oluşturulur, çünkü ayar, eksenden ziyade pivot alanıyla ilişkilidir.
 {{% /alert %}}
+
 ## **Related Articles**
 - [Pivot Tablolarında Sayfa Alanları](/cells/tr/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Aspose.Cells for Node.js via C++ ile Pivot Tablolarını Yenileme](/cells/tr/nodejs-cpp/refresh-pivot-table/)
