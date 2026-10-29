@@ -7,6 +7,7 @@ ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---  
 
+- [User Guide](/cells/java/aspose-cells-gridjs/user-guide/)
 - [Basics of GridJs](/cells/java/aspose-cells-gridjs/basics/)  
 - [Custom Context Menu](/cells/java/aspose-cells-gridjs/how-to-custom-context-menu/)  
 - [Customize Menus & Toolbars](/cells/java/aspose-cells-gridjs/how-to-customize-menus/)  
@@ -21,7 +22,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [Show Translate](/cells/java/aspose-cells-gridjs/how-to-show-translate/)
 - [Step-by-Step Example](/cells/java/aspose-cells-gridjs/step-by-step-example/)  
 - [Syntax Checking & Spell Correction](/cells/java/aspose-cells-gridjs/how-to-do-syntax-checking/)  
-- [User Guide](/cells/java/aspose-cells-gridjs/user-guide/)
+- [Use Json Cache Feature ](/cells/java/aspose-cells-gridjs/how-to-use-json-cache-feature/)
+- [Use Loging Feature ](/cells/java/aspose-cells-gridjs/how-to-use-logger/)
 - [Use Redaction Feature ](/cells/java/aspose-cells-gridjs/how-to-use-redaction-feature/)
 - [Working with GridJs Server Side](/cells/java/aspose-cells-gridjs/how-to-use-api/)  
 - [Working with GridJs Client Side Script](/cells/java/aspose-cells-gridjs/how-to-use-gridjs-client-api/)  

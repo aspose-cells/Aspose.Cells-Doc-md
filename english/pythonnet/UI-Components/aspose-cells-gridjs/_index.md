@@ -8,7 +8,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 
-
+- [User Guide](/cells/python-net/aspose-cells-gridjs/user-guide/)
 - [Basics of GridJs](/cells/python-net/aspose-cells-gridjs/basics/)
 - [Custom Context Menu](/cells/python-net/aspose-cells-gridjs/custommenu/)
 - [Customize Menus & Toolbars](/cells/python-net/aspose-cells-gridjs/how-to-customize-menus/)
@@ -20,7 +20,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [Show Formula Explanation](/cells/python-net/aspose-cells-gridjs/how-to-show-formula-explanation/)
 - [Step-by-Step Example](/cells/python-net/aspose-cells-gridjs/step-by-step-example/) 
 - [Syntax Checking & Spell Correction](/cells/python-net/aspose-cells-gridjs/how-to-do-syntax-checking/)
-- [User Guide](/cells/python-net/aspose-cells-gridjs/user-guide/)
+- [Use Json Cache Feature ](/cells/python-net/aspose-cells-gridjs/how-to-use-json-cache-feature/)
+- [Use Loging Feature ](/cells/python-net/aspose-cells-gridjs/how-to-use-logger/)
 - [Use Redaction Feature ](/cells/python-net/aspose-cells-gridjs/how-to-use-redaction-feature/)
 - [Working with GridJs Server-side](/cells/python-net/aspose-cells-gridjs/server/)
 - [Working with GridJs Client-side script](/cells/python-net/aspose-cells-gridjs/client/)
