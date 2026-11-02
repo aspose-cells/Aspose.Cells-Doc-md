@@ -1,10 +1,9 @@
----
-title: Trabajando con la función de resaltado de GridJs
+---title: Trabajando con la función de resaltado de GridJs
 type: docs
 weight: 250
 url: /es/python-net/aspose-cells-gridjs/highlight/
 description: Este artículo describe cómo usar GridJs para resaltar texto de celda, rangos de celdas, formas e imágenes.
-keywords: resaltar, hoja de cálculo, redacción, observaciones, excel, comentario	
+keywords: resaltar, hoja de cálculo, redacción, observaciones, excel, comentario 
 ---
 
 # Trabajando con la función de resaltado de GridJs 

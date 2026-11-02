@@ -1,5 +1,4 @@
----
-title: 	Zellen in einem Arbeitsblatt in einer Arbeitsmappe formatieren
+---title:  Zellen in einem Arbeitsblatt in einer Arbeitsmappe formatieren
 description: Aspose.Cells ist eine Python Bibliothek zur Arbeit mit Tabellenkalkulationsdateien. Es unterstützt die Formatierung von Arbeitsblattzellen in Arbeitsmappen, sodass Benutzer das Erscheinungsbild und den Stil der Zellen anpassen können. Dieser Artikel stellt vor, wie man mit der Aspose.Cells für Python via .NET Bibliothek Zellen formatiert.
 keywords: Aspose.Cells für Python via .NET, Arbeitsmappe, Arbeitsblatt, Zelle, Formatierung, Erscheinungsbild, Stil
 type: docs

@@ -1,10 +1,10 @@
----  
-title: Formatieren Sie Arbeitsblattzellen in einer Arbeitsmappe mit Node.js über C++  
-linktitle: 	Zellen in einem Arbeitsblatt in einer Arbeitsmappe formatieren  
-description: Lernen Sie, wie man Arbeitsblattzellen in einer Arbeitsmappe mit Aspose.Cells for Node.js via C++ formatiert. Passen Sie das Aussehen und den Stil der Daten in Tabellen an.  
-keywords: Aspose.Cells, Arbeitsmappe, Arbeitsblatt, Zelle, Formatierung, Erscheinungsbild, Stil, Node.js über C++  
-type: docs  
-weight: 2000  
+---
+title: Formatieren Sie Arbeitsblattzellen in einer Arbeitsmappe mit Node.js über C++
+linktitle:  Zellen in einem Arbeitsblatt in einer Arbeitsmappe formatieren
+description: Lernen Sie, wie man Arbeitsblattzellen in einer Arbeitsmappe mit Aspose.Cells for Node.js via C++ formatiert. Passen Sie das Aussehen und den Stil der Daten in Tabellen an.
+keywords: Aspose.Cells, Arbeitsmappe, Arbeitsblatt, Zelle, Formatierung, Erscheinungsbild, Stil, Node.js über C++
+type: docs
+weight: 2000
 url: /de/nodejs-cpp/format-worksheet-cells-in-a-workbook/  
 ---  
 

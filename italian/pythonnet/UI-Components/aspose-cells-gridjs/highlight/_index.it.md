@@ -1,10 +1,9 @@
----
-title: Lavorare con la funzionalità di evidenziazione di GridJs
+---title: Lavorare con la funzionalità di evidenziazione di GridJs
 type: docs
 weight: 250
 url: /it/python-net/aspose-cells-gridjs/highlight/
 description: Questo articolo descrive come utilizzare GridJs per evidenziare il testo della cella, intervalli di celle, forme e immagini.
-keywords: evidenziare, foglio elettronico, redazione, annotazioni, excel, commento	
+keywords: evidenziare, foglio elettronico, redazione, annotazioni, excel, commento 
 ---
 
 # Lavorare con la funzionalità di evidenziazione di GridJs 

@@ -1,10 +1,9 @@
----
-title: 使用GridJs的高亮功能
+---title: 使用GridJs的高亮功能
 type: docs
 weight: 250
 url: /zh/python-net/aspose-cells-gridjs/highlight/
 description: 本文描述了如何使用GridJs对单元格文本、单元格范围、形状和图片进行高亮显示。
-keywords: 突出显示,电子表格,删除,备注,表格,评论	
+keywords: 突出显示,电子表格,删除,备注,表格,评论 
 ---
 
 # 使用 GridJs 突出显示功能 

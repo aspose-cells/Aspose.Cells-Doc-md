@@ -1,10 +1,9 @@
----
-title: Arbetar med GridJs Markera funktion
+---title: Arbetar med GridJs Markera funktion
 type: docs
 weight: 250
 url: /sv/python-net/aspose-cells-gridjs/highlight/
 description: Denna artikel beskriver hur man använder GridJs för att markera celltext, cellområden, former och bilder.
-keywords: markera, kalkylblad, sekretess, anmärkningar, excel, kommentar	
+keywords: markera, kalkylblad, sekretess, anmärkningar, excel, kommentar 
 ---
 
 # Arbeta med GridJs Markera funktion 

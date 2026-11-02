@@ -1,10 +1,9 @@
----
-title: GridJsハイライト機能の操作
+---title: GridJsハイライト機能の操作
 type: docs
 weight: 250
 url: /ja/python-net/aspose-cells-gridjs/highlight/
 description: この記事では、セルのテキスト、セル範囲、図形、および画像のハイライトを行うためのGridJsの使用方法について説明します。
-keywords: ハイライト、スプレッドシート、塗りつぶし、備考、エクセル、コメント	
+keywords: ハイライト、スプレッドシート、塗りつぶし、備考、エクセル、コメント 
 ---
 
 # GridJsのハイライト機能の操作 

@@ -1,10 +1,9 @@
----
-title: Arbeiten mit der GridJs Hervorhebungs Funktion
+---title: Arbeiten mit der GridJs Hervorhebungs Funktion
 type: docs
 weight: 250
 url: /de/python-net/aspose-cells-gridjs/highlight/
 description: In diesem Artikel wird beschrieben, wie GridJs zur Hervorhebung von Zelltexten, Zellbereichen, Formen und Bildern verwendet wird.
-keywords: hervorheben, tabellenkalkulation, Schwärzen, Bemerkungen, Excel, Kommentar	
+keywords: hervorheben, tabellenkalkulation, Schwärzen, Bemerkungen, Excel, Kommentar 
 ---
 
 # Arbeiten mit der GridJs-Hervorhebungs-Funktion 

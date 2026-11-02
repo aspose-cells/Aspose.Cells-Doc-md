@@ -1,9 +1,9 @@
----  
-title: 	Json مع Node.js عبر C++  
-linktitle: Json  
-type: docs  
-weight: 300  
-url: /ar/nodejs-cpp/convert-workbook-to-json/  
+---
+title:  Json مع Node.js عبر C++
+linktitle: Json
+type: docs
+weight: 300
+url: /ar/nodejs-cpp/convert-workbook-to-json/
 description: تعلم كيفية تحويل دفتر عمل Excel إلى JSON باستخدام Aspose.Cells for Node.js via C++.  
 ---  
 

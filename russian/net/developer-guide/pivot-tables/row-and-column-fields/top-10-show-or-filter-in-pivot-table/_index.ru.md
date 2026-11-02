@@ -1,6 +1,6 @@
 ---
-title: Топ-10: отображение или фильтрация в сводной таблице
-linktitle: Топ-10: отображение или фильтрация в сводной таблице
+title: "Топ-10: отображение или фильтрация в сводной таблице"
+linktitle: "Топ-10: отображение или фильтрация в сводной таблице"
 description: Узнайте, как отображать только элементы с наибольшим или наименьшим рейтингом поля сводной таблицы в Aspose.Cells for .Net. В этой статье рассматриваются метод Top10AutoShow для Excel 97-2003, чтение параметров с помощью Top10AutoShowSettings и фильтр «Топ-10» для Excel 2007-365 с помощью FilterTop10.
 keywords: Aspose.Cells, .NET, сводная таблица, топ-10, автопоказ, Top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, FilterTop10, PivotFilterType, PivotField, C#
 type: docs

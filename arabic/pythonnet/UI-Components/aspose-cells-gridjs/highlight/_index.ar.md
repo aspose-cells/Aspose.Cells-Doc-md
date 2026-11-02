@@ -1,10 +1,9 @@
----
-title: العمل مع ميزة تحديد في GridJs
+---title: العمل مع ميزة تحديد في GridJs
 type: docs
 weight: 250
 url: /ar/python-net/aspose-cells-gridjs/highlight/
 description: يصف هذا المقال كيفية استخدام GridJs للتمييز على نص الخلية ونطاق الخلية والأشكال والصور.
-keywords: تمييز، جدول البيانات، حذف معلومات، ملاحظات، إكسيل، تعليق	
+keywords: تمييز، جدول البيانات، حذف معلومات، ملاحظات، إكسيل، تعليق 
 ---
 
 # العمل مع ميزة تحديد في GridJs 

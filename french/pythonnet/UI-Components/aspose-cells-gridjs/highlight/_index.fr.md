@@ -1,10 +1,9 @@
----
-title: Travailler avec la fonction de surlignage de GridJs
+---title: Travailler avec la fonction de surlignage de GridJs
 type: docs
 weight: 250
 url: /fr/python-net/aspose-cells-gridjs/highlight/
 description: Cet article décrit comment utiliser GridJs pour mettre en surbrillance le texte de cellule, des plages de cellules, des formes et des images.
-keywords: surligner, feuille de calcul, rédaction, remarques, excel, commentaire	
+keywords: surligner, feuille de calcul, rédaction, remarques, excel, commentaire 
 ---
 
 # Travailler avec la fonction de surlignage de GridJs 

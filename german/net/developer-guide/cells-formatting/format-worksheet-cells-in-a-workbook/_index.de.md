@@ -1,5 +1,4 @@
----
-title: 	Zellen in einem Arbeitsblatt in einer Arbeitsmappe formatieren
+---title:  Zellen in einem Arbeitsblatt in einer Arbeitsmappe formatieren
 description: Aspose.Cells ist eine .NET Bibliothek zur Arbeit mit Tabellenkalkulationsdateien. Sie unterstützt die Formatierung von Arbeitsblattzellen in Arbeitsmappen und ermöglicht es den Benutzern, das Erscheinungsbild und den Stil der Zellen anzupassen. Dieser Artikel zeigt, wie Arbeitsblattzellen mithilfe der Aspose.Cells Bibliothek formatiert werden können.
 keywords: Aspose.Cells, Workbook, Worksheet, Cell, Formatting, Appearance, Style
 type: docs

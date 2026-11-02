@@ -1,10 +1,9 @@
----
-title: GridJs vurgu özelliği ile çalışmak
+---title: GridJs vurgu özelliği ile çalışmak
 type: docs
 weight: 250
 url: /tr/python-net/aspose-cells-gridjs/highlight/
 description: Bu makale, hücre metni, hücre aralıkları, şekiller ve resimler üzerinde vurgulamak için GridJs i nasıl kullanacağınızı açıklar.
-keywords: vurgulama, elektronik tablo,karartma, açıklamalar, excel, yorum	
+keywords: vurgulama, elektronik tablo,karartma, açıklamalar, excel, yorum 
 ---
 
 # GridJs Vurgulama Özelliği İle Çalışma 

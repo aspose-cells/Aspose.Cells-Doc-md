@@ -1,5 +1,4 @@
----
-title: 	Zellen in einem Arbeitsblatt in einer Arbeitsmappe formatieren
+---title:  Zellen in einem Arbeitsblatt in einer Arbeitsmappe formatieren
 type: docs
 weight: 140
 url: /de/java/format-worksheet-cells-in-a-workbook/

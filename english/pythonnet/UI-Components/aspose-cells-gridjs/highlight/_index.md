@@ -1,10 +1,9 @@
----
-title: Working with GridJs Highlight feature
+---title: Working with GridJs Highlight feature
 type: docs
 weight: 250
 url: /python-net/aspose-cells-gridjs/highlight/
 description: This article describes how to use GridJs to highlight on cell text, cell ranges ,shapes and pictures.
-keywords: highlight,spreadsheet,redaction,remarks,excel,comment	
+keywords: highlight,spreadsheet,redaction,remarks,excel,comment
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---

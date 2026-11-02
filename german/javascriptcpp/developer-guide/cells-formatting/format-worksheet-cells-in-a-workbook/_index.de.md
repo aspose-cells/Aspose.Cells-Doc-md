@@ -1,6 +1,5 @@
----
-title: Tabellenblattzellen in einer Arbeitsmappe mit JavaScript über C++ formatieren
-linktitle: 	Zellen in einem Arbeitsblatt in einer Arbeitsmappe formatieren
+---title: Tabellenblattzellen in einer Arbeitsmappe mit JavaScript über C++ formatieren
+linktitle:  Zellen in einem Arbeitsblatt in einer Arbeitsmappe formatieren
 description: Lernen Sie, wie Sie Arbeitsblattzellen in einer Arbeitsmappe mithilfe von Aspose.Cells for JavaScript über C++ formatieren. Passen Sie das Erscheinungsbild und den Stil der Daten in Tabellen an.
 keywords: Aspose.Cells, Arbeitsmappe, Arbeitsblatt, Zelle, Formatierung, Erscheinungsbild, Stil, JavaScript über C++
 type: docs
