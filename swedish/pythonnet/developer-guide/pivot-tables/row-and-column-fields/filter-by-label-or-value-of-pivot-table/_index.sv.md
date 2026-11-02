@@ -118,7 +118,7 @@ Topp 10-filtret är en specialiserad form av värdefilter som endast behåller d
 
 {{% alert color="primary" %}}
 Topp 10-filtret är endast effektivt när pivottabellen har ett eller flera värdepivotfält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mått att rangordna posterna mot, och filtret kan inte tillämpas.
-Aspose.Cells exponerar topp 10-filtrering genom metoden `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)`. Parametern `item_count` anger hur många poster som ska behållas, `is_top` anger om de översta posterna (True) eller de understa posterna (False) ska behållas, `value_field` hänvisar till det datafält som används för rangordning, och `PivotFilterType` styr hur värdet beräknas (vanligtvis `Sum`, men också `Count` och `Percent`).
+Aspose.Cells exponerar Top 10-filtrering via metoden `PivotField.filter_top10(value_field_index, filter_type, is_top, item_count)`. Parametern `value_field_index` är indexet för datafältet vars aggregerade värden rangordnar objekten, `filter_type` väljer enheten för `item_count` (`PivotFilterType.COUNT` behåller ett fast antal objekt, `PivotFilterType.PERCENT` behåller en procentandel av objekten så att `item_count` är själva procenttalet), `is_top` anger om de översta objekten (True) eller de nedersta (False) behålls, och `item_count` definierar hur många objekt, eller vilken procentandel, som behålls.
 Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att endast behålla de 10 översta posterna efter summan av försäljning, uppdaterar pivottabellen och sparar arbetsboken.
 {{% /alert %}}
 
@@ -146,7 +146,7 @@ valueFieldIndex = 0
 #   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (topp N; false skulle betyda botten N)
 #   - valueFieldIndex = indexet för datafältet som används för att rangordna objekten
-rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
+rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
 # Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
 pivotTable.pivot_cache.refresh()
 # Spara arbetsboken

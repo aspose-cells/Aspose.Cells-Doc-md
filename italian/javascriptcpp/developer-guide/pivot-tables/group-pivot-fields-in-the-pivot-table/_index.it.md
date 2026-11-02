@@ -1,20 +1,20 @@
 ---
 title: Raggruppa i campi pivot nella tabella pivot
+linktitle: Raggruppa i campi pivot nella tabella pivot
 type: docs
 weight: 80
 url: /it/javascript-cpp/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: Come raggruppare i campi pivot nella tabella pivot con Aspose.Cells for JavaScript via C++.
 keywords: Aspose.Cells for JavaScript via C++ Excel, libreria JavaScript di Excel, come raggruppare i campi pivot nella tabella pivot usando Aspose.Cells for JavaScript via C++ Excel Library.
 ---
 
 ## **Possibili Scenari di Utilizzo**
-
 Microsoft Excel consente di raggruppare i campi pivot della tabella pivot. Quando ci sono grandi quantità di dati correlati a un campo pivot, è spesso utile raggrupparli in sezioni. Aspose.Cells for JavaScript tramite C++ fornisce anche questa funzione utilizzando il metodo [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-).
 
 ## **Come raggruppare i campi pivot nella tabella pivot**
-
 Il codice di esempio seguente carica il [file Excel di esempio](64716818.xlsx) e esegue il raggruppamento sul primo campo pivot utilizzando il metodo [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-). Aggiorna quindi e calcola i dati della tabella pivot e salva il foglio di calcolo come [file Excel di output](64716817.xlsx). Lo screenshot mostra l'effetto del codice di esempio sul file Excel di esempio. Come si può vedere dallo screenshot, il primo campo pivot è ora raggruppato per mesi e trimestri.
-
 ![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **Codice di Esempio**
@@ -98,3 +98,5 @@ Il codice di esempio seguente carica il [file Excel di esempio](64716818.xlsx) e
     </script>
 </html>
 ```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

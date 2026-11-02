@@ -45,6 +45,7 @@ Använd denna metod när du vill transponera data utan att använda kalkylbladsf
 Efter transponeringen innehåller samma ankarpunkt den roterade datan. Den första raden läser (tom, **Europa**, **Asien**, **Nordamerika**) och den första kolumnen läser (tom, **Kvartal 1**, **Kvartal 2**, **Kvartal 3**, **Kvartal 4**). Varje ursprunglig kolumn av försäljning blir en rad i det transponerade intervallet.
 
 ```python
+const AsposeCells = require("aspose.cells.node");
 var srcFile = "source.xlsx";
 var outputFile = "transposed.xlsx";
 var workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));

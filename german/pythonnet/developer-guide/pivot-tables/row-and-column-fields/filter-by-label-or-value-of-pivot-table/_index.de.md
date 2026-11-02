@@ -118,7 +118,7 @@ Der Top-10-Filter ist eine spezialisierte Form des Wertfilters, der nur die höc
 
 {{% alert color="primary" %}}
 Der Top-10-Filter ist nur wirksam, wenn die Pivot-Tabelle ein oder mehrere Wert-Pivot-Felder im Datenbereich enthält. Ohne mindestens ein Wertfeld gibt es keine aggregierte Kennzahl, gegen die die Elemente eingestuft werden können, und der Filter kann nicht angewendet werden.
-Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)` bereit. Der Parameter `item_count` definiert, wie viele Elemente beibehalten werden sollen, `is_top` gibt an, ob die obersten Elemente (True) oder die untersten Elemente (False) beibehalten werden sollen, `value_field` verweist auf das für das Ranking verwendete Datenfeld, und `PivotFilterType` steuert, wie der Wert berechnet wird (typischerweise `Sum`, aber auch `Count` und `Percent`).
+Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.filter_top10(value_field_index, filter_type, is_top, item_count)` bereit. Der Parameter `value_field_index` ist der Index des Datenfelds, dessen aggregierte Werte die Elemente reihenfolgen, `filter_type` wählt die Einheit von `item_count` (`PivotFilterType.COUNT` behält eine feste Anzahl von Elementen, `PivotFilterType.PERCENT` behält einen Prozentsatz der Elemente, sodass `item_count` der Prozentsatz selbst ist), `is_top` gibt an, ob die obersten (True) oder die untersten (False) Elemente behalten werden, und `item_count` legt fest, wie viele Elemente oder welcher Prozentsatz erhalten bleibt.
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, die ein Wertfeld enthält, wendet einen Top-10-Filter an, um nur die obersten 10 Elemente nach der Umsatzsumme beizubehalten, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
 {{% /alert %}}
 
@@ -146,7 +146,7 @@ valueFieldIndex = 0
 #   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (Top N; false würde Bottom N bedeuten)
 #   - valueFieldIndex = der Index des Datenfelds, das zum Sortieren verwendet wird
-rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
+rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
 # Aktualisieren der Pivot-Tabellen-Daten und Neuberechnung, damit der Filter wirksam wird
 pivotTable.pivot_cache.refresh()
 # Speichern der Arbeitsmappe

@@ -118,7 +118,7 @@ El filtro de los 10 mejores es una forma especializada de filtro de valor que re
 
 {{% alert color="primary" %}}
 El filtro de los 10 mejores solo es efectivo cuando la tabla dinámica tiene uno o más campos de valor en el área de datos. Sin al menos un campo de valor, no existe ninguna medida agregada contra la cual clasificar los elementos y el filtro no puede aplicarse.
-Aspose.Cells expone el filtrado de los 10 mejores mediante el método `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)`. El parámetro `item_count` define cuántos elementos se deben retener, `is_top` indica si se conservan los elementos superiores (True) o los inferiores (False), `value_field` hace referencia al campo de datos utilizado para la clasificación, y `PivotFilterType` controla cómo se calcula el valor (normalmente `Sum`, pero también `Count` y `Percent`).
+Aspose.Cells expone el filtrado Top 10 mediante el método `PivotField.filter_top10(value_field_index, filter_type, is_top, item_count)`. El parámetro `value_field_index` es el índice del campo de datos cuyos valores agregados clasifican los elementos, `filter_type` selecciona la unidad de `item_count` (`PivotFilterType.COUNT` conserva un número fijo de elementos, `PivotFilterType.PERCENT` conserva un porcentaje de los elementos, por lo que `item_count` es el propio porcentaje), `is_top` indica si se conservan los elementos superiores (True) o los inferiores (False), y `item_count` define cuántos elementos, o qué porcentaje, conservar.
 El siguiente ejemplo carga un libro con una tabla dinámica que contiene un campo de valor, aplica un filtro de los 10 mejores para conservar solo los 10 elementos más altos por la suma de ventas, actualiza la tabla dinámica y guarda el libro.
 {{% /alert %}}
 
@@ -146,7 +146,7 @@ valueFieldIndex = 0
 #   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (N superiores; false significaría N inferiores)
 #   - valueFieldIndex = el índice del campo de datos utilizado para clasificar los elementos
-rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
+rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
 # Actualizar los datos de la tabla dinámica y recalcularla para que el filtro surta efecto
 pivotTable.pivot_cache.refresh()
 # Guardar el libro

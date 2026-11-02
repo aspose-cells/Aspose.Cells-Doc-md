@@ -1,24 +1,29 @@
 ---
-title: تحديث القطعة الفاصلة باستخدام جافا سكريبت عبر C++
-linktitle: تحديث المقسم
+title: تحديث العارض باستخدام جافا سكريبت عبر C++
+linktitle: تحديث العارض
 type: docs
 weight: 50
 url: /ar/javascript-cpp/updating-slicer/
-description: تعرض هذه المقالة كيفية تحديث الجداول المحورية المرتبطة عن طريق تحديث القطعة الفاصلة باستخدام Aspose.Cells for JavaScript عبر C++.
-keywords: Aspose.Cells جافا سكريبت عبر C++، تحديث القطعة الفاصلة، كيفية تغيير القطعة الفاصلة في جافا سكريبت، كيفية تعديل القطعة الفاصلة في جافا سكريبت، كيفية اختيار أو إلغاء اختيار عناصر القطعة الفاصلة باستخدام JavaScript عبر C++.
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+description: تعرض هذه المقالة كيفية تحديث العارض لتصفية بيانات الجدول المحوري أو الجدول المرتبط باستخدام Aspose.Cells for JavaScript via C++.
+keywords: Aspose.Cells JavaScript عبر C++، تحديث العارض في JavaScript، كيفية تغيير العارض في JavaScript، كيفية تصفية الجدول المحوري بواسطة العارض في JavaScript، Slicer selectItems، Slicer clearFilter، Slicer unselectItems.
 ---
 
 ## **سيناريوهات الاستخدام المحتملة**
+يعني تحديث العارض تصفية بيانات الجدول المحوري أو الجدول المرتبط بالعارض. عندما تقوم بتحديد عناصر العارض أو إلغاء تحديدها في Microsoft Excel، يُعاد حساب الجدول المحوري أو الجدول المرتبط وفقًا لذلك. باستخدام Aspose.Cells for JavaScript via C++، لا تحتاج إلى المرور على عناصر ذاكرة التخزين المؤقت للعارض وتحديث العارض يدويًا — تقوم طريقة [**Slicer.selectItems(labels, append)**](https://reference.aspose.com/cells/javascript-cpp/slicer/) بتحديث العارض وإعادة حساب الجدول المحوري أو الجدول المرتبط مباشرةً من عناصر التصفية:
+- `Slicer.selectItems(labels, append)` — تحدد التسميات المطلوبة وتعيد حساب الجدول المحوري أو الجدول المرتبط. عندما تكون قيمة `append` هي `true`، يتم الاحتفاظ بالتسميات المحددة في الأصل وتُضاف التسميات المطلوبة إلى التحديد؛ وعندما تكون قيمة `append` هي `false`، يتم مسح جميع التحديدات الأصلية وتبقى التسميات المطلوبة فقط محددة.
+- `Slicer.unselectItems(labels)` — تلغي تحديد جزء من العناصر المحددة حاليًا.
+- `Slicer.clearFilter()` — تزيل التصفية وتحدد جميع العناصر.
 
- إذا كنت تريد تحديث مقسم في Microsoft Excel، قم باختيار أو إلغاء اختيار عناصره، وسيتحدث المقسم وفقًا لذلك. يرجى استخدام [**Slicer.slicerCacheItems**](https://reference.aspose.com/cells/javascript-cpp/slicercache/#slicerCacheItems--) لاختيار أو إلغاء اختيار عناصر المقسم مع Aspose.Cells ثم استدعاء [**Slicer.refresh()**](https://reference.aspose.com/cells/javascript-cpp/slicer/#refresh--) لتحديث جدول المقسم أو الجدول المحوري.
+{{% alert color="primary" %}}
+بدءًا من Aspose.Cells for JavaScript via C++ 26.10، أصبحت خاصية `SlicerCacheItem.selected` للقراءة فقط ولم يعد تعيين قيمتها مدعومًا. استخدم الطرق `Slicer.selectItems` و`Slicer.unselectItems` و`Slicer.clearFilter` بدلاً من تعيين `SlicerCacheItem.selected` عنصرًا بعنصر.
+{{% /alert %}}
 
 ## **كيفية تحديث العارض**
+يقوم الكود النموذجي التالي بتحميل [ملف Excel النموذجي](67338475.xlsx) الذي يحتوي على عارض موجود مرتبط بجدول محوري. يحدد عناصر "Blue" و"Pink" فقط من العارض باستخدام `Slicer.selectItems(labels, false)` — يُعاد حساب الجدول المحوري مباشرةً من عناصر التصفية دون استدعاء `Slicer.refresh()` يدويًا. ثم يحفظ المصنف كـ [ملف Excel الناتج](67338476.xlsx). تُظهر لقطة الشاشة التالية تأثير الكود النموذجي على ملف Excel النموذجي. كما يمكنك أن ترى في لقطة الشاشة، يعرض الجدول المحوري العناصر المصفّاة فقط.
 
-يحمل الكود العيني التالي الملف اكسل العيني الذي يحتوي على عارض موجود. يلغي تحديد العناصر الثانية والثالثة من العارض ويحدث العارض. ثم يحفظ الدفتر كملف أكسل بإسم ملف الأكسل العيني الناتج. تظهر الصورة العينية التالية تأثير الكود العيني على ملف الأكسل العيني العيني. كما ترون في الصورة العينية، تم تحديث العارض بالعناصر المحددة وكذلك تم تحديث الجدول المحوري وفقًا لذلك.
-
-![todo:image_alt_text](updating-slicer_1.png)
-
-## **الكود المثالي**
+## **الكود النموذجي**
 
 ```html
 <!DOCTYPE html>
@@ -36,7 +41,7 @@ keywords: Aspose.Cells جافا سكريبت عبر C++، تحديث القطع�
 
     <script src="aspose.cells.js.min.js"></script>
     <script type="text/javascript">
-        const { Workbook, SaveFormat, Utils } = AsposeCells;
+        const { Workbook, SaveFormat } = AsposeCells;
 
         AsposeCells.onReady({
             license: "/lic/aspose.cells.enc",
@@ -68,19 +73,9 @@ keywords: Aspose.Cells جافا سكريبت عبر C++، تحديث القطع�
             // Access the first slicer inside the slicer collection
             const slicer = ws.slicers.get(0);
 
-            // Access the slicer items via slicer cache
-            const items = slicer.slicerCache.slicerCacheItems;
-
-            // Iterate items and deselect "Pink" and "Green"
-            for (let i = 0; i < items.count; i++) {
-                const item = items.get(i);
-                if (item.value === "Pink" || item.value === "Green") {
-                    item.selected = false;
-                }
-            }
-
-            // Refresh slicer to apply changes
-            slicer.refresh();
+            // Select only "Blue" and "Pink"; the linked pivot table or table
+            // is recalculated directly from the filter items
+            slicer.selectItems(["Blue", "Pink"], false);
 
             // Save modified workbook and provide download link
             const outputData = workbook.save(SaveFormat.Xlsx);
@@ -96,3 +91,26 @@ keywords: Aspose.Cells جافا سكريبت عبر C++، تحديث القطع�
     </script>
 </html>
 ```
+
+احتفظ بالتسميات المحددة حاليًا وحدد عناصر إضافية:
+
+```javascript
+// Keep the current selection and add "Red" to it.
+slicer.selectItems(["Red"], true);
+```
+
+ألغِ تحديد جزء من العناصر المحددة:
+
+```javascript
+// Remove "Pink" from the current selection.
+slicer.unselectItems(["Pink"]);
+```
+
+أزل التصفية (حدد جميع العناصر):
+
+```javascript
+// Clear the filter; all slicer items become selected again.
+slicer.clearFilter();
+```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

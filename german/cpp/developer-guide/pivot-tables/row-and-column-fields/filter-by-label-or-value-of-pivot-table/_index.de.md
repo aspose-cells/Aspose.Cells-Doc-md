@@ -145,7 +145,7 @@ Der Top-10-Filter ist eine spezielle Form des Wertfilters, der nur die höchsten
 
 {{% alert color="primary" %}}
 Der Top-10-Filter ist nur wirksam, wenn die Pivot-Tabelle über ein oder mehrere Wertfelder im Datenbereich verfügt. Ohne mindestens ein Wertfeld gibt es keine aggregierte Messgröße, gegen die die Elemente eingestuft werden können, und der Filter kann nicht angewendet werden.
-Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.FilterTop10(int32_t itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)` bereit. Der Parameter `itemCount` legt fest, wie viele Elemente beibehalten werden, `isTop` gibt an, ob die obersten Elemente (true) oder die untersten Elemente (false) beibehalten werden sollen, `valueField` verweist auf das für die Rangfolge verwendete Datenfeld, und `filterType` steuert, wie der Wert berechnet wird (in der Regel `Sum`, aber auch `Count` und `Percent`).
+Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)` bereit. Der Parameter `valueFieldIndex` ist der Index des Datenfelds, dessen aggregierte Werte die Elemente reihenfolgen, `type` wählt die Einheit von `itemCount` (`PivotFilterType::Count` behält eine feste Anzahl von Elementen, `PivotFilterType::Percent` behält einen Prozentsatz der Elemente, sodass `itemCount` der Prozentsatz selbst ist), `isTop` gibt an, ob die obersten (true) oder die untersten (false) Elemente behalten werden, und `itemCount` legt fest, wie viele Elemente oder welcher Prozentsatz erhalten bleibt.
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, die ein Wertfeld enthält, wendet einen Top-10-Filter an, um nur die obersten 10 Elemente nach der Umsatzsumme beizubehalten, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
 {{% /alert %}}
 
@@ -167,7 +167,7 @@ int main() {
     PivotField valueField = pivotTable.GetDataFields().Get(0);
     PivotField rowField = pivotTable.GetRowFields().Get(0);
     int valueFieldIndex = 0;
-    rowField.FilterTop10(10, PivotFilterType::Sum, true, valueFieldIndex);
+    rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
     workbook.Save(outputPath);
     Aspose::Cells::Cleanup();
     return 0;

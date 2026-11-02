@@ -1,35 +1,39 @@
 ---
-title: JavaScriptをC++経由で保護および解除
-linktitle: 暗号化と保護
+title: C++ アドオン経由で JavaScript を使用して保護と保護解除
+linktitle: C++ アドオン経由で JavaScript を使用して保護と保護解除
+description: このスニペットでは、C++ アドオン経由で JavaScript を使用して、Excel ファイルを暗号化および復号化し、Excel ファイル内のデータを保護および保護解除する方法について説明します。
+keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, 暗号化, 復号化, パスワード, 保護, 保護解除, ワークブック保護, ワークシート保護, 共有ワークブック, JavaScript
 type: docs
 weight: 68
 url: /ja/javascript-cpp/protect-and-unprotect/
 alias: [/javascript-cpp/security-features/]
-description: このコードスニペットは、JavaScriptをC++アドオンとともに使用して、Excelファイルの暗号化と復号化、データの保護と解除方法を紹介します。
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-C++経由のAspose.Cells for JavaScriptは、MS Excelのようにファイルからデータレベルまで広範囲にわたる保護と解除を提供します：
+Aspose.Cells for JavaScript via C++ は、MS Excel と同様に、ファイルレベルからデータレベルまで幅広い保護および保護解除機能を提供します:
 {{% /alert %}}
 
+## [**Excel ファイルの暗号化と復号化**](/cells/ja/javascript-cpp/encrypt-and-decrypt-excel-files/)
+他のユーザーが Excel ファイル内のデータにアクセスできないようにするには、Excel ファイルをパスワードで保護します。
 
-## [**Encrypt and decrypt Excel files**](/cells/ja/javascript-cpp/encrypt-and-decrypt-excel-files/)
-他者がExcelファイル内のデータにアクセスできないようにするには、Excelファイルをパスワードで保護します。
+## [**ワークブックの保護と保護解除**](/cells/ja/javascript-cpp/protect-and-unprotect-workbook-structure/)
+他のユーザーが非表示のワークシートを表示したり、ワークシートを追加したり、移動したり、削除したり、非表示にしたり、ワークシート名を変更したりできないようにするには、Excel ワークブックの構造をパスワードで保護できます。
 
-## [**Protect and unprotect workbook**](/cells/ja/javascript-cpp/protect-and-unprotect-workbook-structure/)
-他のユーザーによる隠しワークシートの表示、追加、移動、削除、または非表示、およびワークシートの名前の変更を防ぐために、Excelブックの構造をパスワードで保護できます。
+## [**ワークシートの保護と保護解除**](/cells/ja/javascript-cpp/protect-and-unprotect-worksheets/)
+他のユーザーがワークシート内のデータを誤ってまたは意図的に変更したり、移動したり、削除したりできないようにするには、Excel ワークシートのセルをロックしてから、ワークシートをパスワードで保護できます。
 
-## [**Protect and unprotect worksheet**](/cells/ja/javascript-cpp/protect-and-unprotect-worksheets/)
-ワークシート上のデータの変更、移動、または削除を他のユーザーが誤ってまたは意図的に防ぐために、Excelワークシートのセルをロックし、その後シートをパスワードで保護できます。 
+## [**共有ワークブックの保護と保護解除**](/cells/ja/javascript-cpp/password-protect-or-unprotect-the-shared-workbook/)
+共有ワークブックを保護および保護解除します。
 
-## [**Protect and unprotect shared workbook**](/cells/ja/javascript-cpp/password-protect-or-unprotect-the-shared-workbook/)
-共有ワークブックの保護および解除。
-
-## [**Add or remove a digital signature in Office files**](/cells/ja/javascript-cpp/assign-and-validate-digital-signatures/)
-ドキュメントの内容の真正性を保護します；デジタル署名を追加できます。
+## [**Office ファイルへのデジタル署名の追加または削除**](/cells/ja/javascript-cpp/assign-and-validate-digital-signatures/)
+文書の内容の真正性を保護します。デジタル署名を追加できます。
 
 ## **高度なトピック**
-- [Aspose.Cellsを使用して変更パスワードを確認する](/cells/ja/javascript-cpp/check-password-to-modify-using-aspose-cells/)
-- [暗号化されたOffice Open XML - OOXMLファイルのファイル形式を検出する](/cells/ja/javascript-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
-- [Excelファイルの暗号化](/cells/ja/javascript-cpp/encrypting-excel-files/)
-- [ファイル形式を検出し、ファイルが暗号化されているかどうかを確認する方法](/cells/ja/javascript-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+- [Aspose.Cells を使用して変更用パスワードを確認する](/cells/ja/javascript-cpp/check-password-to-modify-using-aspose-cells/)
+- [暗号化された Office Open XML - OOXML ファイルの形式を検出する](/cells/ja/javascript-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
+- [Excel ファイルの暗号化](/cells/ja/javascript-cpp/encrypting-excel-files/)
+- [ファイル形式を検出し、ファイルが暗号化されているかを確認する](/cells/ja/javascript-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+
+{{< app/cells/assistant language="javascript-cpp" >}}

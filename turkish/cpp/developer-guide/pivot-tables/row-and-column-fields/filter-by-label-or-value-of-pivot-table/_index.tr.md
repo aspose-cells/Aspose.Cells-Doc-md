@@ -145,7 +145,7 @@ int main() {
 
 {{% alert color="primary" %}}
 İlk 10 filtresi yalnızca özet tablosunun veri alanında bir veya daha fazla değer özet alanı olduğunda etkilidir. En az bir değer alanı olmadan, öğeleri sıralamak için toplanan bir ölçü yoktur ve filtre uygulanamaz.
-Aspose.Cells, ilk 10 filtrelemeyi `PivotField.FilterTop10(int32_t itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)` yöntemi aracılığıyla sunar. `itemCount` parametresi kaç öğenin tutulacağını tanımlar, `isTop` en üst öğelerin (true) mi yoksa en alt öğelerin (false) mi tutulacağını belirtir, `valueField` sıralama için kullanılan veri alanına referans verir ve `filterType` değerin nasıl hesaplanacağını kontrol eder (genellikle `Sum`, ayrıca `Count` ve `Percent`).
+Aspose.Cells, Top 10 filtrelemesini `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)` yöntemi üzerinden sunar. `valueFieldIndex` parametresi, öğelerin sıralandığı birleşik değerlere sahip veri alanının dizinidir, `type` `itemCount` birimini seçer (`PivotFilterType::Count` sabit sayıda öğe tutar, `PivotFilterType::Percent` öğelerin bir yüzdesini tutar, bu nedenle `itemCount` yüzdenin kendisidir), `isTop` üst öğelerin (true) mi alt öğelerin mi (false) tutulacağını belirtir ve `itemCount` kaç öğenin veya hangi yüzdenin tutulacağını tanımlar.
 Aşağıdaki örnek, bir değer alanı içeren özet tablo bulunan bir çalışma kitabını yükler, satış toplamına göre yalnızca en yüksek 10 öğeyi tutmak için bir ilk 10 filtresi uygular, özet tabloyu yeniler ve çalışma kitabını kaydeder.
 {{% /alert %}}
 
@@ -167,7 +167,7 @@ int main() {
     PivotField valueField = pivotTable.GetDataFields().Get(0);
     PivotField rowField = pivotTable.GetRowFields().Get(0);
     int valueFieldIndex = 0;
-    rowField.FilterTop10(10, PivotFilterType::Sum, true, valueFieldIndex);
+    rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
     workbook.Save(outputPath);
     Aspose::Cells::Cleanup();
     return 0;

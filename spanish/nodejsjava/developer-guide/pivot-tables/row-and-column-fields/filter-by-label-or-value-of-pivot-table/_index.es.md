@@ -122,7 +122,7 @@ El filtro de los 10 mejores es una forma especializada de filtro de valor que re
 
 {{% alert color="primary" %}}
 El filtro de los 10 mejores solo es efectivo cuando la tabla dinámica tiene uno o más campos dinámicos de valor en el área de datos. Sin al menos un campo de valor, no hay ninguna medida agregada contra la cual clasificar los elementos, y no se puede aplicar el filtro.
-Aspose.Cells expone el filtrado de los 10 mejores mediante el método `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. El parámetro `itemCount` define cuántos elementos retener, `isTop` indica si se mantienen los elementos superiores (true) o los inferiores (false), `valueField` hace referencia al campo de datos utilizado para la clasificación, y `filterType` controla cómo se calcula el valor (normalmente `Sum`, pero también `Count` y `Percent`).
+Aspose.Cells expone el filtrado Top 10 mediante el método `PivotField.filterTop10(valueFieldIndex, filterType, isTop, itemCount)`. El parámetro `valueFieldIndex` es el índice del campo de datos cuyos valores agregados clasifican los elementos, `filterType` selecciona la unidad de `itemCount` (`PivotFilterType.COUNT` conserva un número fijo de elementos, `PivotFilterType.PERCENT` conserva un porcentaje de los elementos, por lo que `itemCount` es el propio porcentaje), `isTop` indica si se conservan los elementos superiores (true) o los inferiores (false), y `itemCount` define cuántos elementos, o qué porcentaje, conservar.
 El siguiente ejemplo carga un libro con una tabla dinámica que contiene un campo de valor, aplica un filtro de los 10 mejores para mantener solo los 10 elementos superiores por la suma de ventas, actualiza la tabla dinámica y guarda el libro.
 {{% /alert %}}
 
@@ -150,7 +150,7 @@ let valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (N superiores; false significaría N inferiores)
 //   - valueFieldIndex = el índice del campo de datos utilizado para clasificar los elementos
-rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.SUM, true, 10);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.COUNT, true, 10);
 // Actualizar los datos de la tabla dinámica y recalcularla para que el filtro surta efecto
 pivotTable.getPivotCache().refresh();
 // Guardar el libro

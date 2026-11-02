@@ -122,7 +122,7 @@ Der Top-10-Filter ist eine spezialisierte Form des Wertfilters, der nur die ober
 
 {{% alert color="primary" %}}
 Der Top-10-Filter ist nur wirksam, wenn die Pivot-Tabelle ein oder mehrere Wert-Pivot-Felder im Datenbereich enthält. Ohne mindestens ein Wertfeld gibt es keine aggregierte Kennzahl, gegen die die Elemente eingestuft werden können, und der Filter kann nicht angewendet werden.
-Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)` bereit. Der Parameter `itemCount` definiert, wie viele Elemente beibehalten werden sollen, `isTop` gibt an, ob die obersten Elemente (true) oder die untersten Elemente (false) beibehalten werden sollen, `valueField` verweist auf das für die Rangfolge verwendete Datenfeld, und `filterType` steuert, wie der Wert berechnet wird (typischerweise `Sum`, aber auch `Count` und `Percent`).
+Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.filterTop10(int valueFieldIndex, PivotFilterType filterType, boolean isTop, int itemCount)` bereit. Der Parameter `valueFieldIndex` ist der Index des Datenfelds, dessen aggregierte Werte die Elemente reihenfolgen, `filterType` wählt die Einheit von `itemCount` (`PivotFilterType.COUNT` behält eine feste Anzahl von Elementen, `PivotFilterType.PERCENT` behält einen Prozentsatz der Elemente, sodass `itemCount` der Prozentsatz selbst ist), `isTop` gibt an, ob die obersten (true) oder die untersten (false) Elemente behalten werden, und `itemCount` legt fest, wie viele Elemente oder welcher Prozentsatz erhalten bleibt.
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, die ein Wertfeld enthält, wendet einen Top-10-Filter an, um nur die 10 umsatzstärksten Elemente beizubehalten, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
 {{% /alert %}}
 
@@ -151,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (Top N; false würde Bottom N bedeuten)
 //   - valueFieldIndex = der Index des Datenfelds, das zum Sortieren der Elemente verwendet wird
-rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, true, 10);
 // Aktualisieren der Pivot-Tabellendaten und Neuberechnung, damit der Filter wirksam wird
 pivotTable.refreshData();
 // Speichern der Arbeitsmappe

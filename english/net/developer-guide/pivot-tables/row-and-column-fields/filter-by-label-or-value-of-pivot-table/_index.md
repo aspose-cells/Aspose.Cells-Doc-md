@@ -128,7 +128,7 @@ The top 10 filter is a specialized form of value filter that retains only the hi
 
 {{% alert color="primary" %}}
 The top 10 filter is only effective when the pivot table has one or more value pivot fields in the data area. Without at least one value field, there is no aggregated measure to rank the items against, and the filter cannot be applied.
-Aspose.Cells exposes top 10 filtering through the `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)` method. The `itemCount` parameter defines how many items to retain, `filterType` controls how the value is computed (typically `Sum`, but also `Count` and `Percent`), `isTop` indicates whether to keep the top items (true) or the bottom items (false), and `valueFieldIndex` is the index of the data field used to rank items.
+Aspose.Cells exposes top 10 filtering through the `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)` method. The `valueFieldIndex` parameter is the index of the data field whose aggregated values rank the items, `filterType` selects the unit of `itemCount` (`Count` retains a fixed number of items, `Percent` retains a percentage of the items so `itemCount` is the percentage itself), `isTop` indicates whether to keep the top items (true) or the bottom items (false), and `itemCount` defines how many items, or what percentage, to retain.
 The following example loads a workbook with a pivot table that contains a value field, applies a top 10 filter to keep only the highest 10 items by the sum of sales, refreshes the pivot table, and saves the workbook.
 {{% /alert %}}
 
@@ -156,11 +156,12 @@ PivotField rowField = pivotTable.RowFields[0];
 // The first (and only) data field is at index 0; Top 10 ranks by it.
 int valueFieldIndex = 0;
 // Apply the Top 10 filter on the row field:
-//   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - valueFieldIndex = 0 — the data field used to rank items
+//   - filterType  = PivotFilterType.Count (keep a fixed number of items;
+//     PivotFilterType.Percent would interpret 10 as "top 10 percent")
 //   - isTop       = true (top N; false would mean bottom N)
-//   - valueFieldIndex = the index of the data field used to rank items
-rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
+//   - itemCount   = 10
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
 // Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.PivotCache.Refresh();
 // Save the workbook

@@ -1,21 +1,27 @@
 ---
-title: Uppdatera slicer med JavaScript via C++
-linktitle: Uppdatera slicer
+title: Uppdatera en slicer med JavaScript via C++
+linktitle: Uppdatera en slicer
 type: docs
 weight: 50
 url: /sv/javascript-cpp/updating-slicer/
-description: Denna artikel visar hur man uppdaterar länkade pivottabeller genom att uppdatera slicer med Aspose.Cells for JavaScript via C++.
-keywords: Aspose.Cells JavaScript via C++, Uppdatera slicer JavaScript, hur man ändrar slicer JavaScript, hur man justerar slicer i JavaScript, hur man väljer eller avmarkerar slicer objekt JavaScript via C++.
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+description: Den här artikeln visar hur man uppdaterar en slicer för att filtrera data i den länkade pivottabellen eller tabellen med Aspose.Cells for JavaScript via C++.
+keywords: Aspose.Cells JavaScript via C++, Uppdatera slicer JavaScript, hur man ändrar slicern i JavaScript, hur man filtrerar en pivottabell med slicer i JavaScript, Slicer selectItems, Slicer clearFilter, Slicer unselectItems.
 ---
 
-## **Möjliga användningsscenario**
+## **Möjliga användningsscenarier**
+Att uppdatera en slicer innebär att filtrera data i pivottabellen eller tabellen som slicern är kopplad till. När du markerar eller avmarkerar slicerobjekt i Microsoft Excel beräknas den länkade pivottabellen eller tabellen om därefter. Med Aspose.Cells for JavaScript via C++ behöver du inte iterera över slicer-cacheobjekten och uppdatera slicern manuellt — metoden [**Slicer.selectItems(labels, append)**](https://reference.aspose.com/cells/javascript-cpp/slicer/) uppdaterar slicern och beräknar om den länkade pivottabellen eller tabellen direkt från filterobjekten:
+- `Slicer.selectItems(labels, append)` — markerar de angivna etiketterna och beräknar om den länkade pivottabellen eller tabellen. När `append` är `true` behålls de ursprungligen markerade etiketterna och de angivna etiketterna läggs till i urvalet; när `append` är `false` rensas alla ursprungliga markeringar och endast de angivna etiketterna förblir markerade.
+- `Slicer.unselectItems(labels)` — avmarkerar en del av de för närvarande markerade objekten.
+- `Slicer.clearFilter()` — tar bort filtret och markerar alla objekt.
 
-Om du vill uppdatera en slicer i Microsoft Excel, välj eller avmarkera dess objekt, och den kommer då att uppdatera slicer-tabellen eller pivottabellen i enlighet därmed. Använd gärna [**Slicer.slicerCacheItems**](https://reference.aspose.com/cells/javascript-cpp/slicercache/#slicerCacheItems--) för att välja eller avmarkera slicer-objekt med Aspose.Cells och kalla sedan på [**Slicer.refresh()**](https://reference.aspose.com/cells/javascript-cpp/slicer/#refresh--)-metoden för att uppdatera slicer-tabellen eller pivottabellen.
+{{% alert color="primary" %}}
+Från och med Aspose.Cells for JavaScript via C++ 26.10 blir egenskapen `SlicerCacheItem.selected` skrivskyddad och dess setter stöds inte längre. Använd metoderna `Slicer.selectItems`, `Slicer.unselectItems` och `Slicer.clearFilter` istället för att sätta `SlicerCacheItem.selected` objekt för objekt.
+{{% /alert %}}
 
-## **Hur man uppdaterar snittet**
-
-Följande exempelkod laddar [provmappen](67338475.xlsx) som innehåller en befintlig snitt. Den avmarkerar den 2:a och 3:e objekten i snittet och uppdaterar snittet sedan. Den sparar sedan arbetsboken som [utmatningsmapp](67338476.xlsx). Skärmbilden nedan visar effekten av exempelkoden på provmappen. Som du kan se på skärmbilden, har uppdateringen av snittet med markerade objekt också uppdaterat pivottabellen.
-
+## **Hur man uppdaterar en slicer**
+Följande exempelkod laddar [exempel-Excel-filen](67338475.xlsx) som innehåller en befintlig slicer som är kopplad till en pivottabell. Den markerar endast objekten "Blue" och "Pink" i slicern med `Slicer.selectItems(labels, false)` — pivottabellen beräknas om direkt från filterobjekten, utan ett manuellt anrop av `Slicer.refresh()`. Därefter sparas arbetsboken som [utdata-Excel-filen](67338476.xlsx). Skärmbilden nedan visar effekten av exempelkoden på exempel-Excel-filen. Som du kan se på skärmbilden visar pivottabellen endast de filtrerade objekten.
 ![todo:image_alt_text](updating-slicer_1.png)
 
 ## **Exempelkod**
@@ -36,7 +42,7 @@ Följande exempelkod laddar [provmappen](67338475.xlsx) som innehåller en befin
 
     <script src="aspose.cells.js.min.js"></script>
     <script type="text/javascript">
-        const { Workbook, SaveFormat, Utils } = AsposeCells;
+        const { Workbook, SaveFormat } = AsposeCells;
 
         AsposeCells.onReady({
             license: "/lic/aspose.cells.enc",
@@ -68,19 +74,9 @@ Följande exempelkod laddar [provmappen](67338475.xlsx) som innehåller en befin
             // Access the first slicer inside the slicer collection
             const slicer = ws.slicers.get(0);
 
-            // Access the slicer items via slicer cache
-            const items = slicer.slicerCache.slicerCacheItems;
-
-            // Iterate items and deselect "Pink" and "Green"
-            for (let i = 0; i < items.count; i++) {
-                const item = items.get(i);
-                if (item.value === "Pink" || item.value === "Green") {
-                    item.selected = false;
-                }
-            }
-
-            // Refresh slicer to apply changes
-            slicer.refresh();
+            // Select only "Blue" and "Pink"; the linked pivot table or table
+            // is recalculated directly from the filter items
+            slicer.selectItems(["Blue", "Pink"], false);
 
             // Save modified workbook and provide download link
             const outputData = workbook.save(SaveFormat.Xlsx);
@@ -96,3 +92,26 @@ Följande exempelkod laddar [provmappen](67338475.xlsx) som innehåller en befin
     </script>
 </html>
 ```
+
+Behåll de för närvarande markerade etiketterna och markera ytterligare objekt:
+
+```javascript
+// Keep the current selection and add "Red" to it.
+slicer.selectItems(["Red"], true);
+```
+
+Avmarkera en del av de markerade objekten:
+
+```javascript
+// Remove "Pink" from the current selection.
+slicer.unselectItems(["Pink"]);
+```
+
+Ta bort filtret (markera alla objekt):
+
+```javascript
+// Clear the filter; all slicer items become selected again.
+slicer.clearFilter();
+```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

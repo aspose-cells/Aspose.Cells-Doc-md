@@ -122,7 +122,7 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 Фильтр первых 10 эффективен только тогда, когда в области данных сводной таблицы имеется хотя бы одно поле значений. Без хотя бы одного поля значений нет агрегированной меры, по которой можно ранжировать элементы, и фильтр не может быть применён.
-Aspose.Cells предоставляет фильтрацию первых 10 через метод `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)`. Параметр `itemCount` определяет, сколько элементов нужно оставить, `isTop` указывает, сохранять ли верхние элементы (true) или нижние (false), `valueField` ссылается на поле данных, используемое для ранжирования, а `filterType` управляет способом вычисления значения (обычно `Sum`, а также `Count` и `Percent`).
+Aspose.Cells предоставляет фильтрацию Top 10 через метод `PivotField.filterTop10(int valueFieldIndex, PivotFilterType filterType, boolean isTop, int itemCount)`. Параметр `valueFieldIndex` — это индекс поля данных, по агрегированным значениям которого ранжируются элементы, `filterType` выбирает единицу для `itemCount` (`PivotFilterType.COUNT` сохраняет фиксированное количество элементов, `PivotFilterType.PERCENT` сохраняет процент элементов, поэтому `itemCount` — это сам процент), `isTop` указывает, сохранять верхние элементы (true) или нижние (false), а `itemCount` определяет, сколько элементов или какой процент сохранить.
 В следующем примере загружается рабочая книга со сводной таблицей, содержащей поле значений, применяется фильтр первых 10, оставляющий только 10 наибольших элементов по сумме продаж, после чего сводная таблица обновляется и рабочая книга сохраняется.
 {{% /alert %}}
 
@@ -151,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (топ N; false означало бы нижние N)
 //   - valueFieldIndex = индекс поля данных, используемого для ранжирования элементов
-rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, true, 10);
 // Обновляем данные сводной таблицы и пересчитываем её, чтобы фильтр вступил в силу
 pivotTable.refreshData();
 // Сохраняем книгу

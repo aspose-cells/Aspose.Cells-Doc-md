@@ -118,7 +118,7 @@ workbook.save(fileName)
 
 {{% alert color="primary" %}}
 前 10 项筛选仅在数据透视表的数据区域中具有一个或多个值数据透视字段时才有效。如果没有至少一个值字段，则没有可用来对项进行排名的聚合度量，因此无法应用该筛选。
-Aspose.Cells 通过 `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)` 方法公开前 10 项筛选。`item_count` 参数定义要保留的项数，`is_top` 指示是保留顶部项（True）还是底部项（False），`value_field` 引用用于排名的数据字段，`PivotFilterType` 控制值的计算方式（通常为 `Sum`，但也可以是 `Count` 和 `Percent`）。
+Aspose.Cells 通过 `PivotField.filter_top10(value_field_index, filter_type, is_top, item_count)` 方法公开前 10 筛选功能。`value_field_index` 参数是用于对项进行排名的数据字段的索引，`filter_type` 选择 `item_count` 的单位（`PivotFilterType.COUNT` 保留固定数量的项，`PivotFilterType.PERCENT` 保留一定百分比的项，此时 `item_count` 即为百分比值），`is_top` 指示是保留排名靠前的项（True）还是排名靠后的项（False），`item_count` 定义要保留的项数或百分比。
 以下示例加载一个包含数据透视表（其中包含值字段）的工作簿，应用前 10 项筛选以仅保留销售额总和最高的前 10 项，刷新数据透视表，然后保存工作簿。
 {{% /alert %}}
 
@@ -146,7 +146,7 @@ valueFieldIndex = 0
 #   - filterType  = PivotFilterType.SUM
 #   - isTop       = true（前 N；false 表示后 N）
 #   - valueFieldIndex = 用于对项进行排名的数据字段的索引
-rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
+rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
 # 刷新数据透视表数据并重新计算以使筛选器生效
 pivotTable.pivot_cache.refresh()
 # 保存工作簿

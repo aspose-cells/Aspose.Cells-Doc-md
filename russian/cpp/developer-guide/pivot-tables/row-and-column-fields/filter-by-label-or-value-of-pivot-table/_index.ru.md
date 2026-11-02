@@ -145,7 +145,7 @@ int main() {
 
 {{% alert color="primary" %}}
 Топ-10 фильтр эффективен только тогда, когда сводная таблица имеет одно или несколько полей значений в области данных. Без хотя бы одного поля значений не существует агрегированной меры для ранжирования элементов, и фильтр не может быть применён.
-Aspose.Cells предоставляет топ-10 фильтрацию через метод `PivotField.FilterTop10(int32_t itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Параметр `itemCount` определяет, сколько элементов нужно сохранить, `isTop` указывает, следует ли сохранить верхние элементы (true) или нижние элементы (false), `valueField` ссылается на поле данных, используемое для ранжирования, а `filterType` управляет способом вычисления значения (обычно `Sum`, а также `Count` и `Percent`).
+Aspose.Cells предоставляет фильтрацию Top 10 через метод `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)`. Параметр `valueFieldIndex` — это индекс поля данных, по агрегированным значениям которого ранжируются элементы, `type` выбирает единицу для `itemCount` (`PivotFilterType::Count` сохраняет фиксированное количество элементов, `PivotFilterType::Percent` сохраняет процент элементов, поэтому `itemCount` — это сам процент), `isTop` указывает, сохранять верхние элементы (true) или нижние (false), а `itemCount` определяет, сколько элементов или какой процент сохранить.
 В следующем примере загружается рабочая книга со сводной таблицей, содержащей поле значений, применяется топ-10 фильтр для сохранения только 10 верхних элементов по сумме продаж, обновляется сводная таблица, и сохраняется рабочая книга.
 {{% /alert %}}
 
@@ -167,7 +167,7 @@ int main() {
     PivotField valueField = pivotTable.GetDataFields().Get(0);
     PivotField rowField = pivotTable.GetRowFields().Get(0);
     int valueFieldIndex = 0;
-    rowField.FilterTop10(10, PivotFilterType::Sum, true, valueFieldIndex);
+    rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
     workbook.Save(outputPath);
     Aspose::Cells::Cleanup();
     return 0;

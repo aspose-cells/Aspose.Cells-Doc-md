@@ -1,20 +1,20 @@
 ---
 title: Группировка полей сводной таблицы
+linktitle: Группировка полей сводной таблицы
 type: docs
 weight: 80
 url: /ru/javascript-cpp/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: Как группировать поля сводной таблицы с помощью Aspose.Cells for JavaScript для C++.
 keywords: Aspose.Cells for JavaScript для C++ Excel, библиотека Excel JavaScript, как сгруппировать поля сводной таблицы с помощью Aspose.Cells for JavaScript для C++.
 ---
 
 ## **Возможные сценарии использования**
-
 Microsoft Excel позволяет группировать поля сводной таблицы. Когда есть большое количество данных, связанных с полем сводной таблицы, часто удобно группировать их в секции. Aspose.Cells for JavaScript через C++ также предоставляет эту функцию с помощью метода [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-).
 
 ## **Как сгруппировать поля сводной таблицы**
-
 Приведенный ниже образец кода загружает [образец файла Excel](64716818.xlsx) и выполняет группировку по первому полю сводной таблицы с помощью метода [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-). Затем он обновляет и вычисляет данные сводной таблицы и сохраняет книгу Excel как [выходной файл Excel](64716817.xlsx). На скриншоте показан эффект образца кода на образцовый файл Excel. Как видно на скриншоте, первое поле сводной таблицы теперь сгруппировано по месяцам и кварталам.
-
 ![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **Образец кода**
@@ -98,3 +98,5 @@ Microsoft Excel позволяет группировать поля сводн�
     </script>
 </html>
 ```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

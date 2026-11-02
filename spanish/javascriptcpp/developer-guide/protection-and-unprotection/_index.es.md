@@ -1,35 +1,39 @@
 ---
-title: Proteger y Desproteger con JavaScript a través de C++
-linktitle: Cifrado y protección
+title: Proteger y desproteger con JavaScript mediante C++
+linktitle: Proteger y desproteger con JavaScript mediante C++
+description: Este fragmento presenta cómo cifrar y descifrar archivos de Excel, así como proteger y desproteger los datos de los archivos de Excel mediante JavaScript con complementos de C++.
+keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, cifrar, descifrar, contraseña, proteger, desproteger, protección del libro de trabajo, protección de la hoja de cálculo, libro de trabajo compartido, JavaScript
 type: docs
 weight: 68
 url: /es/javascript-cpp/protect-and-unprotect/
 alias: [/javascript-cpp/security-features/]
-description: Este fragmento muestra cómo encriptar y desencriptar archivos de Excel, proteger y desproteger datos en archivos de Excel usando JavaScript con complementos C++.
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells for JavaScript a través de C++ ofrece una amplia gama de protección y desprotección desde el nivel de archivo hasta de datos como MS Excel:
+Aspose.Cells for JavaScript via C++ ofrece una amplia gama de funciones de protección y desprotección, desde el nivel de archivo hasta el de datos, de forma similar a MS Excel:
 {{% /alert %}}
 
+## [**Cifrar y descifrar archivos de Excel**](/cells/es/javascript-cpp/encrypt-and-decrypt-excel-files/)
+Para impedir que otras personas accedan a los datos de los archivos de Excel, proteja un archivo de Excel con una contraseña.
 
-## [**Encrypt and decrypt Excel files**](/cells/es/javascript-cpp/encrypt-and-decrypt-excel-files/)
-Para evitar que otros accedan a los datos en archivos de Excel, proteja el archivo de Excel con una contraseña.
+## [**Proteger y desproteger el libro de trabajo**](/cells/es/javascript-cpp/protect-and-unprotect-workbook-structure/)
+Para impedir que otros usuarios vean hojas de cálculo ocultas, agreguen, muevan, eliminen u oculten hojas de cálculo, o renombreen hojas de cálculo, puede proteger la estructura de su libro de trabajo de Excel con una contraseña.
 
-## [**Protect and unprotect workbook**](/cells/es/javascript-cpp/protect-and-unprotect-workbook-structure/)
-Para evitar que otros usuarios vean hojas de cálculo ocultas, agreguen, muevan, eliminen u oculten hojas de cálculo, y cambien el nombre de las hojas de cálculo, puede proteger la estructura de su libro de Excel con una contraseña.
+## [**Proteger y desproteger la hoja de cálculo**](/cells/es/javascript-cpp/protect-and-unprotect-worksheets/)
+Para impedir que otros usuarios cambien, muevan o eliminen accidental o deliberadamente los datos de una hoja de cálculo, puede bloquear las celdas de su hoja de cálculo de Excel y, a continuación, la proteja con una contraseña.
 
-## [**Protect and unprotect worksheet**](/cells/es/javascript-cpp/protect-and-unprotect-worksheets/)
-Para evitar que otros usuarios cambien, muevan o eliminen datos en una hoja de cálculo de forma accidental o deliberada, puede bloquear las celdas en su hoja de cálculo de Excel y luego proteger la hoja con una contraseña. 
+## [**Proteger y desproteger un libro de trabajo compartido**](/cells/es/javascript-cpp/password-protect-or-unprotect-the-shared-workbook/)
+Proteja y desproteja el libro de trabajo compartido.
 
-## [**Protect and unprotect shared workbook**](/cells/es/javascript-cpp/password-protect-or-unprotect-the-shared-workbook/)
-Proteger y desproteger el libro compartido.
-
-## [**Add or remove a digital signature in Office files**](/cells/es/javascript-cpp/assign-and-validate-digital-signatures/)
-Protege la autenticidad del contenido de un documento; puedes agregar una firma digital.
+## [**Agregar o eliminar una firma digital en archivos de Office**](/cells/es/javascript-cpp/assign-and-validate-digital-signatures/)
+Proteja la autenticidad del contenido de un documento; puede agregar una firma digital.
 
 ## **Temas avanzados**
-- [Verificar contraseña para modificar usando Aspose.Cells](/cells/es/javascript-cpp/check-password-to-modify-using-aspose-cells/)
-- [Detectar formato de archivo de archivos XML abierto de Office encriptados - Archivos OOXML](/cells/es/javascript-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
+- [Comprobar la contraseña de modificación mediante Aspose.Cells](/cells/es/javascript-cpp/check-password-to-modify-using-aspose-cells/)
+- [Detectar el formato de los archivos Office Open XML cifrados (OOXML)](/cells/es/javascript-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Cifrado de archivos de Excel](/cells/es/javascript-cpp/encrypting-excel-files/)
-- [Cómo detectar un formato de archivo y verificar si el archivo está encriptado](/cells/es/javascript-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+- [Cómo detectar un formato de archivo y comprobar si el archivo está cifrado](/cells/es/javascript-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+
+{{< app/cells/assistant language="javascript-cpp" >}}

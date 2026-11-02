@@ -4,20 +4,79 @@ linktitle: スライサーの更新
 type: docs
 weight: 50
 url: /ja/go-cpp/updating-slicer/
-description: この記事は、Aspose.Cells for C++ APIを使用してスライサーを更新し、リンクされたピボットテーブルを更新する方法を示しています。
-keywords: Aspose.Cells C++ でスライサーを更新する方法、スライサーの変更方法、C++でスライサーを調整する方法、スライサーアイテムの選択・解除方法。
+ai_search_scope: cells_gocpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+description: この記事では、Aspose.Cells for Go via C++ APIを使用してスライサーを更新し、リンクされたピボットテーブルまたはテーブルのデータをフィルター処理する方法を示します。
+keywords: Aspose.Cells Go via C++ スライサーの更新、Go スライサーの変更方法、Goでスライサーによるピボットテーブルのフィルター方法、Slicer SelectItems、Slicer ClearFilter、Slicer UnselectItems。
 ---
 
 ## **可能な使用シナリオ**
+スライサーの更新とは、スライサーが接続されているピボットテーブルまたはテーブルのデータをフィルター処理することを意味します。Microsoft Excelでスライサーのアイテムを選択または選択解除すると、リンクされたピボットテーブルまたはテーブルがそれに応じて再計算されます。Aspose.Cells for Go via C++では、スライサーキャッシュアイテムを反復処理してスライサーを手動でリフレッシュする必要はありません。[**Slicer.SelectItems(labels, append)**](https://reference.aspose.com/cells/go-cpp/slicer/)メソッドがスライサーを更新し、フィルターアイテムから直接、リンクされたピボットテーブルまたはテーブルを再計算します：
+- `Slicer.SelectItems(labels, append)` — 指定されたラベルを選択し、リンクされたピボットテーブルまたはテーブルを再計算します。`append`が`true`の場合は元々選択されていたラベルが保持され、指定されたラベルが選択に追加されます。`append`が`false`の場合は元の選択がすべてクリアされ、指定されたラベルのみが選択された状態になります。
+- `Slicer.UnselectItems(labels)` — 現在選択されているアイテムの一部を選択解除します。
+- `Slicer.ClearFilter()` — フィルターを解除してすべてのアイテムを選択します。
 
-Microsoft Excelでスライサーを更新したい場合、アイテムを選択または解除すると、それに応じてスライサーテーブルまたはピボットテーブルが更新されます。[**Slicer.GetSlicerCacheItems()**](https://reference.aspose.com/cells/go-cpp/slicercache/getslicercacheitems/)を使ってAspose.Cellsでスライサーアイテムを選択または解除し、その後[**Slicer.Refresh()**](https://reference.aspose.com/cells/cpp/aspose.cells.slicers/slicer/refresh/)メソッドを呼び出してスライサーテーブルやピボットテーブルを更新してください。
+{{% alert color="primary" %}}
+Aspose.Cells for Go via C++ 26.10以降、`SlicerCacheItem.Selected`プロパティは読み取り専用になり、そのセッターはサポートされなくなります。`SlicerCacheItem.Selected`をアイテムごとに設定する代わりに、`Slicer.SelectItems`、`Slicer.UnselectItems`、`Slicer.ClearFilter`メソッドを使用してください。
+{{% /alert %}}
 
 ## **スライサーの更新方法**
-
-次のサンプルコードは、既存のスライサーを含む [サンプルExcelファイル](67338475.xlsx) を読み込みます。スライサーの2番目と3番目の項目を選択解除し、スライサーを更新します。それからワークブックを[出力Excelファイル](67338476.xlsx)として保存します。スクリーンショットには、サンプルコードがサンプルExcelファイルに与えた影響が示されています。スクリーンショットでは、選択された項目を持つスライサーを更新することでピボットテーブルも更新されていることがわかります。
-
-![todo:image_alt_text](updating-slicer_1.png)
+次のサンプルコードは、ピボットテーブルに接続された既存のスライサーを含む[サンプルExcelファイル](67338475.xlsx)を読み込みます。`Slicer.SelectItems(labels, false)`を使用してスライサーの"Blue"と"Pink"のアイテムのみを選択すると、ピボットテーブルはフィルターアイテムから直接再計算され、手動での`Slicer.Refresh()`の呼び出しは不要です。その後、ワークブックを[出力Excelファイル](67338476.xlsx)として保存します。次のスクリーンショットは、サンプルコードがサンプルExcelファイルに与える影響を示しています。スクリーンショットでわかるように、ピボットテーブルにはフィルターされたアイテムのみが表示されます。
 
 ## **サンプルコード**
+現在の選択を置き換え（指定されたラベルのみが選択された状態になります）、リンクされたピボットテーブルまたはテーブルを再計算します：
 
-{{< gist "aspose-cells-gists" "b414abd53259bbc47d2c3c0fe985395b" "Examples-Go-CPP-UpdatingSlicer.go" >}}
+```go
+package main
+
+import (
+    "fmt"
+
+    . "github.com/aspose-cells/aspose-cells-go-cpp/v26"
+)
+
+func main() {
+    // Load sample Excel file containing slicer.
+    wb, _ := NewWorkbook_String("sampleUpdatingSlicer.xlsx")
+
+    // Access first worksheet.
+    wss, _ := wb.GetWorksheets()
+    ws, _ := wss.Get_Int(0)
+
+    // Access the first slicer inside the slicer collection.
+    slicers, _ := ws.GetSlicers()
+    slicer, _ := slicers.Get_Int(0)
+
+    // Select only "Blue" and "Pink"; the linked pivot table or table
+    // is recalculated directly from the filter items.
+    slicer.SelectItems([]string{ "Blue", "Pink" }, false)
+
+    // Save the modified workbook.
+    wb.Save_String("out.xlsx")
+
+    fmt.Println("Slicer updated and workbook saved successfully!")
+}
+```
+
+現在選択されているラベルを保持したまま、さらにアイテムを選択します：
+
+```go
+// Keep the current selection and add "Red" to it.
+slicer.SelectItems([]string{ "Red" }, true)
+```
+
+選択されたアイテムの一部を選択解除します：
+
+```go
+// Remove "Pink" from the current selection.
+slicer.UnselectItems([]string{ "Pink" })
+```
+
+フィルターを解除します（すべてのアイテムを選択します）：
+
+```go
+// Clear the filter; all slicer items become selected again.
+slicer.ClearFilter()
+```
+
+{{< app/cells/assistant language="go" >}}

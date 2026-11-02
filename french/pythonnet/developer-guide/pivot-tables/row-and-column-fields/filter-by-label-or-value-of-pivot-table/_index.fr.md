@@ -118,7 +118,7 @@ Le filtre Top 10 est une forme spécialisée de filtre de valeur qui ne conserve
 
 {{% alert color="primary" %}}
 Le filtre Top 10 n’est efficace que si le tableau croisé dynamique contient un ou plusieurs champs de valeur dans la zone de données. En l’absence d’au moins un champ de valeur, aucune mesure agrégée ne permet de classer les éléments et le filtre ne peut pas être appliqué.
-Aspose.Cells expose le filtre Top 10 au moyen de la méthode `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)`. Le paramètre `item_count` définit le nombre d’éléments à conserver, `is_top` indique s’il faut conserver les éléments en tête (`True`) ou en fin de classement (`False`), `value_field` désigne le champ de données utilisé pour le classement et `PivotFilterType` contrôle le mode de calcul de la valeur (généralement `Sum`, mais aussi `Count` et `Percent`).
+Aspose.Cells expose le filtrage Top 10 via la méthode `PivotField.filter_top10(value_field_index, filter_type, is_top, item_count)`. Le paramètre `value_field_index` est l'index du champ de données dont les valeurs agrégées classent les éléments, `filter_type` sélectionne l'unité de `item_count` (`PivotFilterType.COUNT` conserve un nombre fixe d'éléments, `PivotFilterType.PERCENT` conserve un pourcentage des éléments, de sorte que `item_count` est le pourcentage lui-même), `is_top` indique s'il faut conserver les premiers éléments (True) ou les derniers (False), et `item_count` définit combien d'éléments, ou quel pourcentage, conserver.
 L’exemple suivant charge un classeur contenant un tableau croisé dynamique qui comporte un champ de valeur, applique un filtre Top 10 pour conserver uniquement les 10 éléments les plus élevés selon la somme des ventes, actualise le tableau croisé dynamique, puis enregistre le classeur.
 {{% /alert %}}
 
@@ -146,7 +146,7 @@ valueFieldIndex = 0
 #   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (N premiers ; false signifierait N derniers)
 #   - valueFieldIndex = index du champ de données utilisé pour classer les éléments
-rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
+rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
 # Actualiser les données du tableau croisé dynamique et le recalculer afin que le filtre prenne effet
 pivotTable.pivot_cache.refresh()
 # Enregistrer le classeur

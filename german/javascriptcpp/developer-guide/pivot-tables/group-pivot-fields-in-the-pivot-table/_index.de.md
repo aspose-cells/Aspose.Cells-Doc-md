@@ -1,20 +1,20 @@
 ---
 title: Gruppieren von Pivot Feldern in der Pivot Tabelle
+linktitle: Gruppieren von Pivot Feldern in der Pivot Tabelle
 type: docs
 weight: 80
 url: /de/javascript-cpp/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: Wie man Pivot Felder im Pivot Table mit Aspose.Cells for JavaScript via C++ gruppiert.
 keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript Bibliothek, Wie man Pivot Felder im Pivot Table mit Aspose.Cells for JavaScript via C++ gruppiert.
 ---
 
 ## **Mögliche Verwendungsszenarien**
-
 Microsoft Excel ermöglicht es, Pivot-Felder der Pivot-Tabelle zu gruppieren. Wenn eine große Datenmenge mit einem Pivot-Feld verbunden ist, ist es oft nützlich, diese in Abschnitte zu unterteilen. Aspose.Cells for JavaScript via C++ bietet diese Funktion ebenfalls mit der [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-) Methode.
 
 ## **Wie man Pivot-Felder in der Pivot-Tabelle gruppiert**
-
 Der folgende Beispielcode lädt die [Beispieldatei Excel](64716818.xlsx) und führt eine Gruppierung des ersten Pivot-Felds mit der Methode [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-) durch. Anschließend aktualisiert und berechnet er die Daten der Pivot-Tabelle und speichert die Arbeitsmappe als [Ausgabedatei Excel](64716817.xlsx). Der Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispieldatei Excel. Wie im Screenshot zu sehen ist, ist das erste Pivot-Feld nun nach Monaten und Quartalen gruppiert.
-
 ![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **Beispielcode**
@@ -98,3 +98,5 @@ Der folgende Beispielcode lädt die [Beispieldatei Excel](64716818.xlsx) und fü
     </script>
 </html>
 ```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

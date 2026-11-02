@@ -118,7 +118,7 @@ Il filtro primi 10 è una forma specializzata di filtro per valore che mantiene 
 
 {{% alert color="primary" %}}
 Il filtro primi 10 è efficace solo quando la tabella pivot dispone di uno o più campi pivot di valore nell'area dati. Senza almeno un campo valore, non esiste alcuna misura aggregata rispetto alla quale classificare gli elementi e il filtro non può essere applicato.
-Aspose.Cells espone il filtraggio primi 10 tramite il metodo `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)`. Il parametro `item_count` definisce quanti elementi mantenere, `is_top` indica se mantenere gli elementi superiori (True) o inferiori (False), `value_field` fa riferimento al campo dati utilizzato per la classificazione e `PivotFilterType` controlla come viene calcolato il valore (in genere `Sum`, ma anche `Count` e `Percent`).
+Aspose.Cells espone il filtro Top 10 tramite il metodo `PivotField.filter_top10(value_field_index, filter_type, is_top, item_count)`. Il parametro `value_field_index` è l'indice del campo dati i cui valori aggregati ordinano gli elementi, `filter_type` seleziona l'unità di `item_count` (`PivotFilterType.COUNT` mantiene un numero fisso di elementi, `PivotFilterType.PERCENT` mantiene una percentuale di elementi, quindi `item_count` è la percentuale stessa), `is_top` indica se mantenere gli elementi in alto (True) o in basso (False), e `item_count` definisce quanti elementi, o quale percentuale, mantenere.
 L'esempio seguente carica una cartella di lavoro con una tabella pivot che contiene un campo valore, applica un filtro primi 10 per mantenere solo i 10 elementi più alti per la somma delle vendite, aggiorna la tabella pivot e salva la cartella di lavoro.
 {{% /alert %}}
 
@@ -146,7 +146,7 @@ valueFieldIndex = 0
 #   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (top N; false significherebbe bottom N)
 #   - valueFieldIndex = l'indice del campo dati utilizzato per classificare gli elementi
-rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
+rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
 # Aggiorna i dati della tabella pivot e ricalcolala affinché il filtro abbia effetto
 pivotTable.pivot_cache.refresh()
 # Salva il workbook

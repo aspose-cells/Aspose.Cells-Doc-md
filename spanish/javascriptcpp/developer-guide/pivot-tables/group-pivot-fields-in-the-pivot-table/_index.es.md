@@ -1,20 +1,20 @@
 ---
 title: Agrupar campos de pivote en la tabla dinámica
+linktitle: Agrupar campos de pivote en la tabla dinámica
 type: docs
 weight: 80
 url: /es/javascript-cpp/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: Cómo agrupar campos pivote en la tabla dinámica con Aspose.Cells for JavaScript vía C++.
 keywords: Aspose.Cells for JavaScript vía C++ Excel, biblioteca JavaScript de Excel, cómo agrupar campos pivote en la tabla dinámica usando Aspose.Cells for JavaScript vía C++ Excel Library.
 ---
 
 ## **Escenarios de uso posibles**
-
 Microsoft Excel te permite agrupar campos de tabla dinámica en la tabla dinámica. Cuando hay una gran cantidad de datos relacionados con un campo de tabla dinámica, a menudo es útil agruparlos en secciones. Aspose.Cells for JavaScript vía C++ también ofrece esta función usando el método [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-).
 
 ## **Cómo agrupar campos de tabla dinámica en la tabla dinámica**
-
 El siguiente código de muestra carga el [archivo Excel de muestra](64716818.xlsx) y realiza agrupaciones en el primer campo de tabla dinámica utilizando el método [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-). Luego actualiza y calcula los datos de la tabla dinámica y guarda la hoja de cálculo como [archivo Excel de salida](64716817.xlsx). La captura de pantalla muestra el efecto del código de muestra en el archivo Excel de muestra. Como se puede ver en la captura de pantalla, el primer campo de tabla dinámica está ahora agrupado por meses y trimestres.
-
 ![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **Código de muestra**
@@ -98,3 +98,5 @@ El siguiente código de muestra carga el [archivo Excel de muestra](64716818.xls
     </script>
 </html>
 ```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

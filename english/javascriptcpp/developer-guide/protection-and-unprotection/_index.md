@@ -4,8 +4,11 @@ linktitle: Encryption and Protection
 type: docs
 weight: 68
 url: /javascript-cpp/protect-and-unprotect/
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 alias: [/javascript-cpp/security-features/]
 description: This snippet introduces how to encrypt and decrypt Excel files, protect and unprotect the data in Excel files using JavaScript with C++ addons.
+keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, encrypt, decrypt, password, protect, unprotect, workbook protection, worksheet protection, shared workbook, JavaScript
 ---
 
 {{% alert color="primary" %}}
@@ -32,3 +35,5 @@ Protect the authenticity of a document's content; you can add a digital signatur
 - [Detect File Format of Encrypted Office Open XML - OOXML Files](/cells/javascript-cpp/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
 - [Encrypting Excel Files](/cells/javascript-cpp/encrypting-excel-files/)
 - [How to Detect a File Format and Check if the File is Encrypted](/cells/javascript-cpp/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+
+{{< app/cells/assistant language="javascript-cpp" >}}

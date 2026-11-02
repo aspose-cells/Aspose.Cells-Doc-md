@@ -113,7 +113,7 @@ Il filtro primi 10 è una forma specializzata di filtro per valore che mantiene 
 
 {{% alert color="primary" %}}
 Il filtro primi 10 è efficace solo quando la tabella pivot dispone di uno o più campi pivot di valore nell'area dati. Senza almeno un campo valore, non esiste una misura aggregata rispetto alla quale classificare gli elementi e il filtro non può essere applicato.
-Aspose.Cells espone il filtraggio primi 10 tramite il metodo `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Il parametro `itemCount` definisce quanti elementi mantenere, `isTop` indica se mantenere gli elementi superiori (true) o inferiori (false), `valueField` fa riferimento al campo dati utilizzato per la classificazione e `filterType` controlla come viene calcolato il valore (tipicamente `Sum`, ma anche `Count` e `Percent`).
+Aspose.Cells espone il filtro Top 10 tramite il metodo `PivotField.filterTop10(valueFieldIndex, filterType, isTop, itemCount)`. Il parametro `valueFieldIndex` è l'indice del campo dati i cui valori aggregati ordinano gli elementi, `filterType` seleziona l'unità di `itemCount` (`PivotFilterType.Count` mantiene un numero fisso di elementi, `PivotFilterType.Percent` mantiene una percentuale di elementi, quindi `itemCount` è la percentuale stessa), `isTop` indica se mantenere gli elementi in alto (true) o in basso (false), e `itemCount` definisce quanti elementi, o quale percentuale, mantenere.
 L'esempio seguente carica una cartella di lavoro con una tabella pivot che contiene un campo valore, applica un filtro primi 10 per mantenere solo i 10 elementi più alti in base alla somma delle vendite, aggiorna la tabella pivot e salva la cartella di lavoro.
 {{% /alert %}}
 
@@ -141,7 +141,7 @@ const valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.Sum
 //   - isTop       = true (top N; false significherebbe bottom N)
 //   - valueFieldIndex = l'indice del campo dati utilizzato per classificare gli elementi
-rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Sum, true, 10);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
 // Aggiorna i dati della tabella pivot e ricalcolala affinché il filtro abbia effetto
 pivotTable.getPivotCache().refresh();
 // Salva la cartella di lavoro

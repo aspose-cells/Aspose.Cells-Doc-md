@@ -113,7 +113,7 @@ Le filtre top 10 est une forme spécialisée de filtre de valeur qui ne conserve
 
 {{% alert color="primary" %}}
 Le filtre top 10 n’est efficace que si le tableau croisé dynamique contient un ou plusieurs champs de valeur dans la zone de données. En l’absence d’au moins un champ de valeur, aucune mesure agrégée ne permet de classer les éléments et le filtre ne peut pas être appliqué.
-Aspose.Cells expose le filtrage top 10 au moyen de la méthode `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Le paramètre `itemCount` définit le nombre d’éléments à conserver, `isTop` indique s’il faut conserver les éléments les plus élevés (true) ou les plus bas (false), `valueField` désigne le champ de données utilisé pour le classement et `filterType` contrôle la manière dont la valeur est calculée (généralement `Sum`, mais aussi `Count` et `Percent`).
+Aspose.Cells expose le filtrage Top 10 via la méthode `PivotField.filterTop10(valueFieldIndex, filterType, isTop, itemCount)`. Le paramètre `valueFieldIndex` est l'index du champ de données dont les valeurs agrégées classent les éléments, `filterType` sélectionne l'unité de `itemCount` (`PivotFilterType.Count` conserve un nombre fixe d'éléments, `PivotFilterType.Percent` conserve un pourcentage des éléments, de sorte que `itemCount` est le pourcentage lui-même), `isTop` indique s'il faut conserver les premiers éléments (true) ou les derniers (false), et `itemCount` définit combien d'éléments, ou quel pourcentage, conserver.
 L’exemple suivant charge un classeur contenant un tableau croisé dynamique avec un champ de valeur, applique un filtre top 10 afin de ne conserver que les 10 éléments les plus élevés selon la somme des ventes, actualise le tableau croisé dynamique et enregistre le classeur.
 {{% /alert %}}
 
@@ -141,7 +141,7 @@ const valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.Sum
 //   - isTop       = true (top N; false would mean bottom N)
 //   - valueFieldIndex = the index of the data field used to rank items
-rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Sum, true, 10);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
 // Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
 // Save the workbook

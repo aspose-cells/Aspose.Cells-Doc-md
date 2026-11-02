@@ -128,7 +128,7 @@ Il filtro primi 10 è una forma specializzata di filtro per valore che mantiene 
 
 {{% alert color="primary" %}}
 Il filtro primi 10 è efficace solo quando la tabella pivot dispone di uno o più campi pivot di valore nell'area dati. Senza almeno un campo valore, non c'è alcuna misura aggregata rispetto a cui classificare gli elementi e il filtro non può essere applicato.
-Aspose.Cells espone il filtraggio primi 10 tramite il metodo `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)`. Il parametro `itemCount` definisce quanti elementi mantenere, `filterType` controlla come viene calcolato il valore (tipicamente `Sum`, ma anche `Count` e `Percent`), `isTop` indica se mantenere gli elementi superiori (true) o inferiori (false), e `valueFieldIndex` è l'indice del campo dati utilizzato per classificare gli elementi.
+Aspose.Cells espone il filtro Top 10 tramite il metodo `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)`. Il parametro `valueFieldIndex` è l'indice del campo dati i cui valori aggregati ordinano gli elementi, `filterType` seleziona l'unità di `itemCount` (`Count` mantiene un numero fisso di elementi, `Percent` mantiene una percentuale di elementi, quindi `itemCount` è la percentuale stessa), `isTop` indica se mantenere gli elementi in alto (true) o in basso (false), e `itemCount` definisce quanti elementi, o quale percentuale, mantenere.
 L'esempio seguente carica una cartella di lavoro con una tabella pivot che contiene un campo valore, applica un filtro primi 10 per mantenere solo i 10 elementi più alti per somma delle vendite, aggiorna la tabella pivot e salva la cartella di lavoro.
 {{% /alert %}}
 
@@ -157,10 +157,10 @@ PivotField rowField = pivotTable.RowFields[0];
 int valueFieldIndex = 0;
 // Applica il filtro Top 10 sul campo di riga:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.Count
 //   - isTop       = true (top N; false significherebbe bottom N)
 //   - valueFieldIndex = l'indice del campo dati utilizzato per classificare gli elementi
-rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
 // Aggiorna i dati della tabella pivot e ricalcola in modo che il filtro abbia effetto
 pivotTable.PivotCache.Refresh();
 // Salva la cartella di lavoro

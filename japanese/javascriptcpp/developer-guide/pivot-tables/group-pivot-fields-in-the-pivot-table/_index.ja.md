@@ -1,21 +1,20 @@
 ---
 title: ピボットテーブル内のPivot Fieldをグループ化
+linktitle: ピボットテーブル内のPivot Fieldをグループ化
 type: docs
 weight: 80
 url: /ja/javascript-cpp/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: ピボットテーブルのピボットフィールドをグループ化する方法。
 keywords: C++を使用したAspose.Cells for JavaScriptとExcel、Excel JavaScriptライブラリを利用して、ピボットテーブル内のピボットフィールドをグループ化する方法。
 ---
 
 ## **可能な使用シナリオ**
-
 Microsoft Excelではピボットテーブルのピボットフィールドをグループ化できます。ピボットフィールドに関連するデータが大量にある場合、それらをセクションに分けてグループ化することがよくあります。 Aspose.Cells for JavaScriptはC++を使用してこの機能を[**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-)メソッドで提供します。
 
 ## **Pivot TableでPivot Fieldsをグループ化する方法**
-
 以下のサンプルコードは、[サンプルExcelファイル](64716818.xlsx)をロードし、[**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-)メソッドを使用して最初のピボットフィールドにグループ化を行います。それからピボットテーブルのデータをリフレッシュして計算し、ブックを[出力Excelファイル](64716817.xlsx)として保存します。スクリーンショットは、サンプルコードのサンプルExcelファイルに対する効果を示しています。スクリーンショットに示されているように、最初のピボットフィールドは現在月ごとと四半期ごとにグループ化されています。
-
-![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **サンプルコード**
 
@@ -98,3 +97,5 @@ Microsoft Excelではピボットテーブルのピボットフィールドを�
     </script>
 </html>
 ```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

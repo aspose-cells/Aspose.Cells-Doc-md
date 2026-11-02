@@ -118,7 +118,7 @@ workbook.save("output.xlsx")
 
 {{% alert color="primary" %}}
 لا يكون مرشح أعلى 10 فعالًا إلا عندما يحتوي الجدول المحوري على حقل قيمة محوري واحد أو أكثر في منطقة البيانات. فبدون وجود حقل قيمة واحد على الأقل، لا يوجد مقياس مجمع لترتيب العناصر وفقًا له، ولا يمكن تطبيق المرشح.
-يعرض Aspose.Cells تصفية أعلى 10 من خلال الطريقة `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)`. يحدد معامل `item_count` عدد العناصر التي يجب الاحتفاظ بها، ويشير `is_top` إلى الاحتفاظ بأعلى العناصر (True) أو أدنى العناصر (False)، ويُحيل `value_field` إلى حقل البيانات المستخدم للترتيب، بينما يتحكم `PivotFilterType` في كيفية حساب القيمة (عادةً `Sum`، وكذلك `Count` و`Percent`).
+تكشف Aspose.Cells عن تصفية أفضل 10 من خلال الطريقة `PivotField.filter_top10(value_field_index, filter_type, is_top, item_count)`. المعلمة `value_field_index` هي فهرس حقل البيانات الذي تُرتَّب العناصر حسب قيمه المجمعة، وتحدد `filter_type` وحدة `item_count` (`PivotFilterType.COUNT` تحتفظ بعدد ثابت من العناصر، و`PivotFilterType.PERCENT` تحتفظ بنسبة مئوية من العناصر بحيث تكون `item_count` هي النسبة المئوية نفسها)، وتشير `is_top` إلى ما إذا كان سيتم الاحتفاظ بأعلى العناصر (True) أم أدناها (False)، وتحدد `item_count` عدد العناصر أو النسبة المئوية المطلوب الاحتفاظ بها.
 يقوم المثال التالي بتحميل مصنف يحتوي على جدول محوري يضم حقل قيمة، ويطبق مرشح أعلى 10 للاحتفاظ فقط بأعلى 10 عناصر من حيث مجموع المبيعات، ثم يُحدّث الجدول المحوري، ويحفظ المصنف.
 {{% /alert %}}
 
@@ -146,7 +146,7 @@ valueFieldIndex = 0
 #   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (top N; false would mean bottom N)
 #   - valueFieldIndex = the index of the data field used to rank items
-rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
+rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
 # Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.pivot_cache.refresh()
 # Save the workbook

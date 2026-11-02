@@ -122,7 +122,7 @@ Le filtre des 10 premiers est une forme spécialisée de filtre de valeur qui ne
 
 {{% alert color="primary" %}}
 Le filtre des 10 premiers n'est efficace que lorsque le tableau croisé dynamique possède un ou plusieurs champs de valeur dans la zone de données. Sans au moins un champ de valeur, il n'y a pas de mesure agrégée pour classer les éléments, et le filtre ne peut pas être appliqué.
-Aspose.Cells expose le filtrage des 10 premiers via la méthode `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Le paramètre `itemCount` définit combien d'éléments conserver, `isTop` indique s'il faut conserver les éléments du haut (true) ou du bas (false), `valueField` référence le champ de données utilisé pour le classement, et `filterType` contrôle la manière dont la valeur est calculée (généralement `Sum`, mais aussi `Count` et `Percent`).
+Aspose.Cells expose le filtrage Top 10 via la méthode `PivotField.filterTop10(valueFieldIndex, filterType, isTop, itemCount)`. Le paramètre `valueFieldIndex` est l'index du champ de données dont les valeurs agrégées classent les éléments, `filterType` sélectionne l'unité de `itemCount` (`PivotFilterType.COUNT` conserve un nombre fixe d'éléments, `PivotFilterType.PERCENT` conserve un pourcentage des éléments, de sorte que `itemCount` est le pourcentage lui-même), `isTop` indique s'il faut conserver les premiers éléments (true) ou les derniers (false), et `itemCount` définit combien d'éléments, ou quel pourcentage, conserver.
 L'exemple suivant charge un classeur avec un tableau croisé dynamique contenant un champ de valeur, applique un filtre des 10 premiers pour ne conserver que les 10 éléments les plus élevés selon la somme des ventes, actualise le tableau croisé dynamique et enregistre le classeur.
 {{% /alert %}}
 
@@ -150,7 +150,7 @@ let valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (top N ; false signifierait bottom N)
 //   - valueFieldIndex = l'index du champ de données utilisé pour classer les éléments
-rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.SUM, true, 10);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.COUNT, true, 10);
 // Actualiser les données du tableau croisé dynamique et les recalculer pour que le filtre prenne effet
 pivotTable.getPivotCache().refresh();
 // Enregistrer le classeur

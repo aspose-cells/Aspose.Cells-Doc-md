@@ -122,7 +122,7 @@ Topp 10-filtret är en specialiserad form av värdefilter som endast behåller d
 
 {{% alert color="primary" %}}
 Topp 10-filtret är endast effektivt när pivottabellen har ett eller flera värde-pivotfält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mått att rangordna objekten mot, och filtret kan inte tillämpas.
-Aspose.Cells exponerar topp 10-filtrering genom metoden `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)`. Parametern `itemCount` anger hur många objekt som ska behållas, `isTop` indikerar om de översta objekten (true) eller de nedersta objekten (false) ska behållas, `valueField` refererar till det datafält som används för rangordning, och `filterType` styr hur värdet beräknas (vanligtvis `Sum`, men även `Count` och `Percent`).
+Aspose.Cells exponerar Top 10-filtrering via metoden `PivotField.filterTop10(int valueFieldIndex, PivotFilterType filterType, boolean isTop, int itemCount)`. Parametern `valueFieldIndex` är indexet för datafältet vars aggregerade värden rangordnar objekten, `filterType` väljer enheten för `itemCount` (`PivotFilterType.COUNT` behåller ett fast antal objekt, `PivotFilterType.PERCENT` behåller en procentandel av objekten så att `itemCount` är själva procenttalet), `isTop` anger om de översta objekten (true) eller de nedersta (false) behålls, och `itemCount` definierar hur många objekt, eller vilken procentandel, som behålls.
 Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att endast behålla de 10 högsta objekten efter summan av försäljning, uppdaterar pivottabellen och sparar arbetsboken.
 {{% /alert %}}
 
@@ -151,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (topp N; false skulle betyda botten N)
 //   - valueFieldIndex = indexet för datafältet som används för att rangordna objekten
-rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, true, 10);
 // Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
 pivotTable.refreshData();
 // Spara arbetsboken

@@ -1,21 +1,27 @@
 ---
-title: Actualizar segmentador con JavaScript a través de C++
+title: Actualizar Slicer con JavaScript a través de C++
 linktitle: Actualización de Slicer
 type: docs
 weight: 50
 url: /es/javascript-cpp/updating-slicer/
-description: Este artículo muestra cómo actualizar tablas dinámicas vinculadas actualizando el segmentador usando Aspose.Cells for JavaScript a través de C++.
-keywords: Aspose.Cells JavaScript a través de C++, actualizar segmento JavaScript, cómo cambiar el segmento JavaScript, cómo ajustar el segmento en JavaScript, cómo seleccionar o deseleccionar los elementos del segmento JavaScript a través de C++.
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+description: Este artículo muestra cómo actualizar un slicer para filtrar los datos de la tabla dinámica o tabla vinculada usando Aspose.Cells for JavaScript via C++.
+keywords: Aspose.Cells JavaScript via C++, Actualizar Slicer en JavaScript, cómo cambiar el slicer en JavaScript, cómo filtrar una tabla dinámica mediante slicer en JavaScript, Slicer selectItems, Slicer clearFilter, Slicer unselectItems.
 ---
 
 ## **Escenarios de uso posibles**
+Actualizar un slicer significa filtrar los datos de la tabla dinámica o tabla a la que está conectado el slicer. Cuando selecciona o deselecciona elementos del slicer en Microsoft Excel, la tabla dinámica o tabla vinculada se recalcula en consecuencia. Con Aspose.Cells for JavaScript via C++, no necesita recorrer los elementos de la caché del slicer ni actualizar el slicer manualmente — el método [**Slicer.selectItems(labels, append)**](https://reference.aspose.com/cells/javascript-cpp/slicer/) actualiza el slicer y recalcula la tabla dinámica o tabla vinculada directamente a partir de los elementos de filtro:
+- `Slicer.selectItems(labels, append)` — selecciona las etiquetas especificadas y recalcula la tabla dinámica o tabla vinculada. Cuando `append` es `true`, las etiquetas seleccionadas originalmente se conservan y las etiquetas especificadas se añaden a la selección; cuando `append` es `false`, todas las selecciones originales se borran y solo permanecen seleccionadas las etiquetas especificadas.
+- `Slicer.unselectItems(labels)` — deselecciona parte de los elementos seleccionados actualmente.
+- `Slicer.clearFilter()` — elimina el filtro y selecciona todos los elementos.
 
-Si deseas actualizar un segmentador en Microsoft Excel, selecciona o deselecciona sus elementos, y el segmentador actualizará la tabla o la tabla dinámica en consecuencia. Usa [**Slicer.slicerCacheItems**](https://reference.aspose.com/cells/javascript-cpp/slicercache/#slicerCacheItems--) para seleccionar o deseleccionar elementos del segmentador con Aspose.Cells y luego llama al método [**Slicer.refresh()**](https://reference.aspose.com/cells/javascript-cpp/slicer/#refresh--) para actualizar la tabla o la tabla dinámica.
+{{% alert color="primary" %}}
+A partir de Aspose.Cells for JavaScript via C++ 26.10, la propiedad `SlicerCacheItem.selected` pasa a ser de solo lectura y su establecedor ya no se admite. Utilice los métodos `Slicer.selectItems`, `Slicer.unselectItems` y `Slicer.clearFilter` en lugar de establecer `SlicerCacheItem.selected` elemento por elemento.
+{{% /alert %}}
 
-## **Cómo actualizar filtro**
-
-El siguiente código de muestra carga el [archivo Excel de muestra](67338475.xlsx) que contiene un filtro existente. Desactiva los elementos 2 y 3 del filtro y actualiza el filtro. Luego guarda el libro de trabajo como [archivo Excel de salida](67338476.xlsx). La captura de pantalla siguiente muestra el efecto del código de muestra en el archivo Excel de muestra. Como se puede ver en la captura de pantalla, al actualizar el filtro con los elementos seleccionados también se ha actualizado la tabla dinámica correspondientemente.
-
+## **Cómo actualizar el slicer**
+El siguiente código de muestra carga el [archivo Excel de muestra](67338475.xlsx) que contiene un slicer existente conectado a una tabla dinámica. Selecciona solo los elementos "Blue" y "Pink" del slicer con `Slicer.selectItems(labels, false)` — la tabla dinámica se recalcula directamente a partir de los elementos de filtro, sin una llamada manual a `Slicer.refresh()`. A continuación, guarda el libro de trabajo como el [archivo Excel de salida](67338476.xlsx). La siguiente captura de pantalla muestra el efecto del código de muestra en el archivo Excel de muestra. Como puede ver en la captura de pantalla, la tabla dinámica muestra solo los elementos filtrados.
 ![todo:image_alt_text](updating-slicer_1.png)
 
 ## **Código de muestra**
@@ -36,7 +42,7 @@ El siguiente código de muestra carga el [archivo Excel de muestra](67338475.xls
 
     <script src="aspose.cells.js.min.js"></script>
     <script type="text/javascript">
-        const { Workbook, SaveFormat, Utils } = AsposeCells;
+        const { Workbook, SaveFormat } = AsposeCells;
 
         AsposeCells.onReady({
             license: "/lic/aspose.cells.enc",
@@ -68,19 +74,9 @@ El siguiente código de muestra carga el [archivo Excel de muestra](67338475.xls
             // Access the first slicer inside the slicer collection
             const slicer = ws.slicers.get(0);
 
-            // Access the slicer items via slicer cache
-            const items = slicer.slicerCache.slicerCacheItems;
-
-            // Iterate items and deselect "Pink" and "Green"
-            for (let i = 0; i < items.count; i++) {
-                const item = items.get(i);
-                if (item.value === "Pink" || item.value === "Green") {
-                    item.selected = false;
-                }
-            }
-
-            // Refresh slicer to apply changes
-            slicer.refresh();
+            // Select only "Blue" and "Pink"; the linked pivot table or table
+            // is recalculated directly from the filter items
+            slicer.selectItems(["Blue", "Pink"], false);
 
             // Save modified workbook and provide download link
             const outputData = workbook.save(SaveFormat.Xlsx);
@@ -96,3 +92,26 @@ El siguiente código de muestra carga el [archivo Excel de muestra](67338475.xls
     </script>
 </html>
 ```
+
+Conserve las etiquetas seleccionadas actualmente y seleccione elementos adicionales:
+
+```javascript
+// Keep the current selection and add "Red" to it.
+slicer.selectItems(["Red"], true);
+```
+
+Deseleccione parte de los elementos seleccionados:
+
+```javascript
+// Remove "Pink" from the current selection.
+slicer.unselectItems(["Pink"]);
+```
+
+Elimine el filtro (seleccione todos los elementos):
+
+```javascript
+// Clear the filter; all slicer items become selected again.
+slicer.clearFilter();
+```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

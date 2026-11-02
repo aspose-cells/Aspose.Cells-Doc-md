@@ -128,7 +128,7 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 上位 10 フィルターは、データ領域に 1 つ以上の値ピボットフィールドがある場合にのみ有効です。値フィールドが少なくとも 1 つなければ、項目を順位付けするための集計指標が存在しないため、このフィルターを適用できません。
-Aspose.Cells は、`PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)` メソッドによって上位 10 フィルタリング機能を提供します。`itemCount` パラメーターは維持する項目数を指定し、`filterType` は値の計算方法を制御します（通常は `Sum` ですが、`Count` や `Percent` も使用できます）。`isTop` は、上位項目（`true`）または下位項目（`false`）のどちらを残すかを指定し、`valueFieldIndex` は項目を順位付けするために使用するデータフィールドのインデックスです。
+Aspose.Cells は `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)` メソッドを通じて Top 10 フィルターを提供します。`valueFieldIndex` パラメーターは項目のランク付けに使用されるデータ フィールドのインデックスであり、`filterType` は `itemCount` の単位を選択します（`Count` は固定数の項目を保持し、`Percent` は項目の割合を保持するため、`itemCount` がその割合の値になります）。`isTop` は上位の項目（true）か下位の項目（false）のどちらを保持するかを示し、`itemCount` は保持する項目数または割合を定義します。
 次の例では、値フィールドを含むピボットテーブルのあるワークブックを読み込み、売上合計による上位 10 項目だけを維持する上位 10 フィルターを適用し、ピボットテーブルを更新してワークブックを保存します。
 {{% /alert %}}
 
@@ -157,10 +157,10 @@ PivotField rowField = pivotTable.RowFields[0];
 int valueFieldIndex = 0;
 // 行フィールドに Top 10 フィルターを適用します:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.Count
 //   - isTop       = true (Top N; false の場合は Bottom N を意味します)
 //   - valueFieldIndex = 項目を順位付けに使用するデータフィールドのインデックス
-rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
 // ピボットテーブルのデータを更新して再計算し、フィルターが有効になるようにします
 pivotTable.PivotCache.Refresh();
 // ワークブックを保存します

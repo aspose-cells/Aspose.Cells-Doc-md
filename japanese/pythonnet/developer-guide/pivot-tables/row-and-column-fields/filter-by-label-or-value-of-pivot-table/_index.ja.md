@@ -118,7 +118,7 @@ workbook.save("output.xlsx")
 
 {{% alert color="primary" %}}
 トップ 10 フィルタは、ピボットテーブルのデータ領域に 1 つ以上の値ピボットフィールドがある場合にのみ有効です。少なくとも 1 つの値フィールドがないと、項目をランク付けするための集計された指標が存在しないため、フィルタを適用できません。
-Aspose.Cells は、`PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)` メソッドを通じてトップ 10 フィルタリングを公開しています。`item_count` パラメータは保持する項目の数を定義し、`is_top` は上位の項目を保持するかどうかを示し（True）、`value_field` はランク付けに使用されるデータフィールドを参照し、`PivotFilterType` は値の計算方法を制御します（通常は `Sum` ですが、`Count` や `Percent` もあります）。
+Aspose.Cells は `PivotField.filter_top10(value_field_index, filter_type, is_top, item_count)` メソッドを通じて Top 10 フィルターを提供します。`value_field_index` パラメーターは項目のランク付けに使用されるデータ フィールドのインデックスであり、`filter_type` は `item_count` の単位を選択します（`PivotFilterType.COUNT` は固定数の項目を保持し、`PivotFilterType.PERCENT` は項目の割合を保持するため、`item_count` がその割合の値になります）。`is_top` は上位の項目（True）か下位の項目（False）のどちらを保持するかを示し、`item_count` は保持する項目数または割合を定義します。
 次の例では、値フィールドを含むピボットテーブルを含むワークブックを読み込み、売上合計で上位 10 個の項目のみを保持するトップ 10 フィルタを適用し、ピボットテーブルを更新してワークブックを保存します。
 {{% /alert %}}
 
@@ -146,7 +146,7 @@ valueFieldIndex = 0
 #   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (top N; false would mean bottom N)
 #   - valueFieldIndex = the index of the data field used to rank items
-rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
+rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
 # Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.pivot_cache.refresh()
 # Save the workbook

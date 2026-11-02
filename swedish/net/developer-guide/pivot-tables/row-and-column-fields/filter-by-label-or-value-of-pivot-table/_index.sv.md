@@ -128,7 +128,7 @@ Topp 10-filtret är en specialiserad form av värdefilter som endast behåller d
 
 {{% alert color="primary" %}}
 Topp 10-filtret är endast effektivt när pivottabellen har ett eller flera värde-pivotfält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mått att rangordna objekten mot, och filtret kan inte tillämpas.
-Aspose.Cells exponerar topp 10-filtrering via metoden `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)`. Parametern `itemCount` anger hur många objekt som ska behållas, `filterType` styr hur värdet beräknas (vanligtvis `Sum`, men även `Count` och `Percent`), `isTop` anger om de översta objekten (true) eller de understa objekten (false) ska behållas, och `valueFieldIndex` är indexet för det datafält som används för att rangordna objekten.
+Aspose.Cells exponerar Top 10-filtrering via metoden `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)`. Parametern `valueFieldIndex` är indexet för datafältet vars aggregerade värden rangordnar objekten, `filterType` väljer enheten för `itemCount` (`Count` behåller ett fast antal objekt, `Percent` behåller en procentandel av objekten så att `itemCount` är själva procenttalet), `isTop` anger om de översta objekten (true) eller de nedersta (false) behålls, och `itemCount` definierar hur många objekt, eller vilken procentandel, som behålls.
 Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att endast behålla de 10 översta objekten efter summan av försäljning, uppdaterar pivottabellen och sparar arbetsboken.
 {{% /alert %}}
 
@@ -157,10 +157,10 @@ PivotField rowField = pivotTable.RowFields[0];
 int valueFieldIndex = 0;
 // Tillämpa Top 10-filtret på radfältet:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.Count
 //   - isTop       = true (topp N; false skulle betyda botten N)
 //   - valueFieldIndex = index för datafältet som används för att rangordna objekt
-rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
 // Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
 pivotTable.PivotCache.Refresh();
 // Spara arbetsboken

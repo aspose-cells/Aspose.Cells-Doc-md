@@ -128,7 +128,7 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 前 10 筛选仅在数据透视表的数据区域中具有一个或多个值字段时才有效。如果没有至少一个值字段，则没有可用于对项进行排名的汇总度量，因此无法应用该筛选。
-Aspose.Cells 通过 `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)` 方法公开前 10 筛选功能。`itemCount` 参数定义要保留的项数，`filterType` 控制如何计算值（通常为 `Sum`，但也可以是 `Count` 和 `Percent`），`isTop` 指示是保留排名靠前的项（true）还是排名靠后的项（false），`valueFieldIndex` 是用于对项进行排名的数据字段的索引。
+Aspose.Cells 通过 `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)` 方法公开前 10 筛选功能。`valueFieldIndex` 参数是用于对项进行排名的数据字段的索引，`filterType` 选择 `itemCount` 的单位（`Count` 保留固定数量的项，`Percent` 保留一定百分比的项，此时 `itemCount` 即为百分比值），`isTop` 指示是保留排名靠前的项（true）还是排名靠后的项（false），`itemCount` 定义要保留的项数或百分比。
 以下示例加载一个包含数据透视表（其中包含值字段）的工作簿，应用前 10 筛选仅保留按销售总额排名前 10 的项，刷新数据透视表，并保存工作簿。
 {{% /alert %}}
 
@@ -157,10 +157,10 @@ PivotField rowField = pivotTable.RowFields[0];
 int valueFieldIndex = 0;
 // 对行字段应用 Top 10 筛选：
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.Count
 //   - isTop       = true（顶部 N；false 表示底部 N）
 //   - valueFieldIndex = 用于对项目进行排名的数据字段索引
-rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
 // 刷新数据透视表数据并重新计算，使筛选生效
 pivotTable.PivotCache.Refresh();
 // 保存工作簿

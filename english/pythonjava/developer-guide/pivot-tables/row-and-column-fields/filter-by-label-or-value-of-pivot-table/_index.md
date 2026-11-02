@@ -127,7 +127,7 @@ The top 10 filter is a specialized form of value filter that retains only the hi
 
 {{% alert color="primary" %}}
 The top 10 filter is only effective when the pivot table has one or more value pivot fields in the data area. Without at least one value field, there is no aggregated measure to rank the items against, and the filter cannot be applied.
-Aspose.Cells exposes top 10 filtering through the `PivotField.filter_top10(item_count, is_top, value_field, filter_type)` method. The `item_count` parameter defines how many items to retain, `is_top` indicates whether to keep the top items (true) or the bottom items (false), `value_field` references the data field used for ranking, and `filter_type` controls how the value is computed (typically `Sum`, but also `Count` and `Percent`).
+Aspose.Cells exposes top 10 filtering through the `PivotField.filterTop10(valueFieldIndex, filterType, isTop, itemCount)` method. The `valueFieldIndex` parameter is the index of the data field whose aggregated values rank the items, `filterType` selects the unit of `itemCount` (`PivotFilterType.COUNT` retains a fixed number of items, `PivotFilterType.PERCENT` retains a percentage of the items so `itemCount` is the percentage itself), `isTop` indicates whether to keep the top items (true) or the bottom items (false), and `itemCount` defines how many items, or what percentage, to retain.
 The following example loads a workbook with a pivot table that contains a value field, applies a top 10 filter to keep only the highest 10 items by the sum of sales, refreshes the pivot table, and saves the workbook.
 {{% /alert %}}
 
@@ -157,7 +157,7 @@ valueFieldIndex = 0
 #   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (top N; false would mean bottom N)
 #   - valueFieldIndex = the index of the data field used to rank items
-rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, True, 10)
+rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, True, 10)
 # Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh()
 # Save the workbook

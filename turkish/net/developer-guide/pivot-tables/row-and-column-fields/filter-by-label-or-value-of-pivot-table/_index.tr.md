@@ -128,7 +128,7 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 İlk 10 filtresi, yalnızca pivot tablosunun veri alanında bir veya daha fazla değer pivot alanı olduğunda etkilidir. En az bir değer alanı olmadan, öğeleri sıralamak için karşılaştırılacak toplu bir ölçü yoktur ve filtre uygulanamaz.
-Aspose.Cells, ilk 10 filtrelemeyi `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)` yöntemi aracılığıyla sunar. `itemCount` parametresi kaç öğenin tutulacağını tanımlar, `filterType` değerin nasıl hesaplanacağını kontrol eder (genellikle `Sum`, ancak aynı zamanda `Count` ve `Percent`), `isTop` en üst öğelerin mi (true) yoksa en alt öğelerin mi (false) tutulacağını belirtir ve `valueFieldIndex` öğeleri sıralamak için kullanılan veri alanının dizinidir.
+Aspose.Cells, Top 10 filtrelemesini `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)` yöntemi üzerinden sunar. `valueFieldIndex` parametresi, öğelerin sıralandığı birleşik değerlere sahip veri alanının dizinidir, `filterType` `itemCount` birimini seçer (`Count` sabit sayıda öğe tutar, `Percent` öğelerin bir yüzdesini tutar, bu nedenle `itemCount` yüzdenin kendisidir), `isTop` üst öğelerin (true) mi alt öğelerin mi (false) tutulacağını belirtir ve `itemCount` kaç öğenin veya hangi yüzdenin tutulacağını tanımlar.
 Aşağıdaki örnek, bir değer alanı içeren bir pivot tabloya sahip bir çalışma kitabını yükler, satış toplamına göre yalnızca en yüksek 10 öğeyi tutmak için bir ilk 10 filtresi uygular, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
 {{% /alert %}}
 
@@ -157,10 +157,10 @@ PivotField rowField = pivotTable.RowFields[0];
 int valueFieldIndex = 0;
 // Satır alanına Top 10 filtresini uygulayın:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.Count
 //   - isTop       = true (en üst N; false en alt N anlamına gelir)
 //   - valueFieldIndex = öğeleri sıralamak için kullanılan veri alanının indeksi
-rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
 // Pivot tablosu verilerini yenileyin ve filtrenin etkili olması için yeniden hesaplayın
 pivotTable.PivotCache.Refresh();
 // Çalışma kitabını kaydedin

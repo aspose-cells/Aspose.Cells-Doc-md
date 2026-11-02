@@ -122,7 +122,7 @@ El filtro de los 10 mejores es una forma especializada de filtro de valor que co
 
 {{% alert color="primary" %}}
 El filtro de los 10 mejores solo es efectivo cuando la tabla dinámica tiene uno o varios campos de valor en el área de datos. Sin al menos un campo de valor, no existe ninguna medida agregada para clasificar los elementos y el filtro no puede aplicarse.
-Aspose.Cells expone el filtrado de los 10 mejores mediante el método `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)`. El parámetro `itemCount` define cuántos elementos se deben conservar, `isTop` indica si se conservan los elementos superiores (true) o inferiores (false), `valueField` hace referencia al campo de datos utilizado para la clasificación y `filterType` controla cómo se calcula el valor (normalmente `Sum`, pero también `Count` y `Percent`).
+Aspose.Cells expone el filtrado Top 10 mediante el método `PivotField.filterTop10(int valueFieldIndex, PivotFilterType filterType, boolean isTop, int itemCount)`. El parámetro `valueFieldIndex` es el índice del campo de datos cuyos valores agregados clasifican los elementos, `filterType` selecciona la unidad de `itemCount` (`PivotFilterType.COUNT` conserva un número fijo de elementos, `PivotFilterType.PERCENT` conserva un porcentaje de los elementos, por lo que `itemCount` es el propio porcentaje), `isTop` indica si se conservan los elementos superiores (true) o los inferiores (false), y `itemCount` define cuántos elementos, o qué porcentaje, conservar.
 El siguiente ejemplo carga un libro con una tabla dinámica que contiene un campo de valor, aplica un filtro de los 10 mejores para conservar solo los 10 elementos superiores según la suma de ventas, actualiza la tabla dinámica y guarda el libro.
 {{% /alert %}}
 
@@ -151,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (top N; false would mean bottom N)
 //   - valueFieldIndex = the index of the data field used to rank items
-rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, true, 10);
 // Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.refreshData();
 // Save the workbook

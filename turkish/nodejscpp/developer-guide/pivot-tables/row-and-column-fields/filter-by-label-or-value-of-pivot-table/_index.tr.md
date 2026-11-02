@@ -113,7 +113,7 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 İlk 10 filtresi yalnızca pivot tablosunun veri alanında bir veya daha fazla değer pivot alanı olduğunda etkilidir. En az bir değer alanı olmadan, öğeleri sıralamak için toplanan bir ölçü yoktur ve filtre uygulanamaz.
-Aspose.Cells, ilk 10 filtrelemeyi `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)` yöntemi aracılığıyla sunar. `itemCount` parametresi kaç öğenin tutulacağını tanımlar, `isTop` en yüksek öğelerin (true) mi yoksa en düşük öğelerin (false) mi tutulacağını belirtir, `valueField` sıralama için kullanılan veri alanına başvurur ve `filterType` değerin nasıl hesaplanacağını kontrol eder (genellikle `Sum`, ancak `Count` ve `Percent` da kullanılabilir).
+Aspose.Cells, Top 10 filtrelemesini `PivotField.filterTop10(valueFieldIndex, filterType, isTop, itemCount)` yöntemi üzerinden sunar. `valueFieldIndex` parametresi, öğelerin sıralandığı birleşik değerlere sahip veri alanının dizinidir, `filterType` `itemCount` birimini seçer (`PivotFilterType.Count` sabit sayıda öğe tutar, `PivotFilterType.Percent` öğelerin bir yüzdesini tutar, bu nedenle `itemCount` yüzdenin kendisidir), `isTop` üst öğelerin (true) mi alt öğelerin mi (false) tutulacağını belirtir ve `itemCount` kaç öğenin veya hangi yüzdenin tutulacağını tanımlar.
 Aşağıdaki örnek, bir değer alanı içeren pivot tablolu bir çalışma kitabını yükler, satış toplamına göre yalnızca en yüksek 10 öğeyi tutmak için bir ilk 10 filtresi uygular, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
 {{% /alert %}}
 
@@ -141,7 +141,7 @@ const valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.Sum
 //   - isTop       = true (en üst N; false en alt N anlamına gelir)
 //   - valueFieldIndex = öğeleri sıralamak için kullanılan veri alanının indeksi
-rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Sum, true, 10);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
 // Pivot tablo verilerini yenile ve filtrenin etkili olması için yeniden hesapla
 pivotTable.getPivotCache().refresh();
 // Çalışma kitabını kaydet

@@ -1,24 +1,31 @@
 ---
-title: Обновление слайсера с помощью JavaScript через C++
-linktitle: Обновление срезки
+title: Обновление среза с помощью JavaScript через C++
+linktitle: Обновление среза
 type: docs
 weight: 50
 url: /ru/javascript-cpp/updating-slicer/
-description: В этой статье показано, как обновлять связные сводные таблицы, обновляя слайсер с помощью Aspose.Cells for JavaScript через C++.
-keywords: Aspose.Cells JavaScript через C++, обновление слайсера JavaScript, как изменить слайсер JavaScript, как настроить слайсер в JavaScript, как выбрать или отменить выбор элементов слайсера JavaScript через C++.
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+description: Эта статья показывает, как обновить срез, чтобы фильтровать данные связанной сводной таблицы или таблицы с помощью Aspose.Cells for JavaScript via C++.
+keywords: Aspose.Cells JavaScript via C++, обновление среза JavaScript, как изменить срез в JavaScript, как отфильтровать сводную таблицу срезом в JavaScript, Slicer selectItems, Slicer clearFilter, Slicer unselectItems.
 ---
 
 ## **Возможные сценарии использования**
+Обновление среза означает фильтрацию данных сводной таблицы или таблицы, к которой подключен срез. Когда вы выбираете или снимаете выбор с элементов среза в Microsoft Excel, связанная сводная таблица или таблица пересчитывается соответствующим образом. С Aspose.Cells for JavaScript via C++ вам не нужно перебирать элементы кэша среза и обновлять срез вручную — метод [**Slicer.selectItems(labels, append)**](https://reference.aspose.com/cells/javascript-cpp/slicer/) обновляет срез и пересчитывает связанную сводную таблицу или таблицу напрямую из элементов фильтра:
+- `Slicer.selectItems(labels, append)` — выбирает указанные метки и пересчитывает связанную сводную таблицу или таблицу. Если `append` равно `true`, изначально выбранные метки сохраняются, а указанные метки добавляются к выделению; если `append` равно `false`, все исходные выделения сбрасываются и выбранными остаются только указанные метки.
+- `Slicer.unselectItems(labels)` — отменяет выбор части выбранных элементов.
+- `Slicer.clearFilter()` — удаляет фильтр и выбирает все элементы.
 
-Если хотите обновить сегментатор в Microsoft Excel, выберите или отмените выбор его элементов, и он обновит таблицу сегментатора или сводную таблицу соответственно. Используйте [**Slicer.slicerCacheItems**](https://reference.aspose.com/cells/javascript-cpp/slicercache/#slicerCacheItems--) для выбора или снятия выбора элементов сегментатора с помощью Aspose.Cells, затем вызовите метод [**Slicer.refresh()**](https://reference.aspose.com/cells/javascript-cpp/slicer/#refresh--) для обновления таблицы сегментатора или сводной таблицы.
+{{% alert color="primary" %}}
+Начиная с версии Aspose.Cells for JavaScript via C++ 26.10, свойство `SlicerCacheItem.selected` становится доступным только для чтения, и его сеттер больше не поддерживается. Используйте методы `Slicer.selectItems`, `Slicer.unselectItems` и `Slicer.clearFilter` вместо установки `SlicerCacheItem.selected` для каждого элемента по отдельности.
+{{% /alert %}}
 
-## **Как обновить фильтр**
-
-Следующий образец кода загружает [образец файла Excel](67338475.xlsx), содержащий существующий фильтр. Он отменяет выбор 2-го и 3-го элементов фильтра и обновляет фильтр. Затем сохраняет рабочую книгу в [выходной файл Excel](67338476.xlsx). На следующем скриншоте показан эффект образца кода на образцовый файл Excel. Как вы можете видеть на скриншоте, обновление фильтра с выбранными элементами также обновило сводную таблицу соответственно.
-
+## **Как обновить срез**
+Следующий образец кода загружает [образец файла Excel](67338475.xlsx), содержащий существующий срез, подключенный к сводной таблице. Он выбирает только элементы "Blue" и "Pink" среза с помощью `Slicer.selectItems(labels, false)` — сводная таблица пересчитывается напрямую из элементов фильтра, без ручного вызова `Slicer.refresh()`. Затем он сохраняет рабочую книгу как [выходной файл Excel](67338476.xlsx). На следующем скриншоте показано влияние образца кода на образец файла Excel. Как видно на скриншоте, сводная таблица отображает только отфильтрованные элементы.
 ![todo:image_alt_text](updating-slicer_1.png)
 
 ## **Образец кода**
+Замените текущее выделение (выбранными остаются только указанные метки) и пересчитайте связанную сводную таблицу или таблицу:
 
 ```html
 <!DOCTYPE html>
@@ -36,7 +43,7 @@ keywords: Aspose.Cells JavaScript через C++, обновление слай�
 
     <script src="aspose.cells.js.min.js"></script>
     <script type="text/javascript">
-        const { Workbook, SaveFormat, Utils } = AsposeCells;
+        const { Workbook, SaveFormat } = AsposeCells;
 
         AsposeCells.onReady({
             license: "/lic/aspose.cells.enc",
@@ -68,19 +75,9 @@ keywords: Aspose.Cells JavaScript через C++, обновление слай�
             // Access the first slicer inside the slicer collection
             const slicer = ws.slicers.get(0);
 
-            // Access the slicer items via slicer cache
-            const items = slicer.slicerCache.slicerCacheItems;
-
-            // Iterate items and deselect "Pink" and "Green"
-            for (let i = 0; i < items.count; i++) {
-                const item = items.get(i);
-                if (item.value === "Pink" || item.value === "Green") {
-                    item.selected = false;
-                }
-            }
-
-            // Refresh slicer to apply changes
-            slicer.refresh();
+            // Select only "Blue" and "Pink"; the linked pivot table or table
+            // is recalculated directly from the filter items
+            slicer.selectItems(["Blue", "Pink"], false);
 
             // Save modified workbook and provide download link
             const outputData = workbook.save(SaveFormat.Xlsx);
@@ -96,3 +93,26 @@ keywords: Aspose.Cells JavaScript через C++, обновление слай�
     </script>
 </html>
 ```
+
+Сохраните текущие выбранные метки и дополнительно выберите другие элементы:
+
+```javascript
+// Keep the current selection and add "Red" to it.
+slicer.selectItems(["Red"], true);
+```
+
+Отмените выбор части выбранных элементов:
+
+```javascript
+// Remove "Pink" from the current selection.
+slicer.unselectItems(["Pink"]);
+```
+
+Удалите фильтр (выберите все элементы):
+
+```javascript
+// Clear the filter; all slicer items become selected again.
+slicer.clearFilter();
+```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

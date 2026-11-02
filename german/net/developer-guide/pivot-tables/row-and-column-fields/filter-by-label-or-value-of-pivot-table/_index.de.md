@@ -128,7 +128,7 @@ Der Top-10-Filter ist eine spezialisierte Form des Wertfilters, der nur die höc
 
 {{% alert color="primary" %}}
 Der Top-10-Filter ist nur wirksam, wenn die Pivot-Tabelle ein oder mehrere Wert-Pivot-Felder im Datenbereich enthält. Ohne mindestens ein Wertfeld gibt es keine aggregierte Messgröße, gegen die die Elemente eingestuft werden können, und der Filter kann nicht angewendet werden.
-Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)` bereit. Der Parameter `itemCount` definiert, wie viele Elemente beibehalten werden sollen, `filterType` steuert, wie der Wert berechnet wird (typischerweise `Sum`, aber auch `Count` und `Percent`), `isTop` gibt an, ob die obersten Elemente (true) oder die untersten Elemente (false) beibehalten werden sollen, und `valueFieldIndex` ist der Index des Datenfelds, das zum Einstufen der Elemente verwendet wird.
+Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)` bereit. Der Parameter `valueFieldIndex` ist der Index des Datenfelds, dessen aggregierte Werte die Elemente reihenfolgen, `filterType` wählt die Einheit von `itemCount` (`Count` behält eine feste Anzahl von Elementen, `Percent` behält einen Prozentsatz der Elemente, sodass `itemCount` der Prozentsatz selbst ist), `isTop` gibt an, ob die obersten (true) oder die untersten (false) Elemente behalten werden, und `itemCount` legt fest, wie viele Elemente oder welcher Prozentsatz erhalten bleibt.
 Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, die ein Wertfeld enthält, wendet einen Top-10-Filter an, um nur die obersten 10 Elemente nach der Umsatzsumme beizubehalten, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
 {{% /alert %}}
 
@@ -157,10 +157,10 @@ PivotField rowField = pivotTable.RowFields[0];
 int valueFieldIndex = 0;
 // Anwenden des Top-10-Filters auf das Zeilenfeld:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.Count
 //   - isTop       = true (obere N; false würde untere N bedeuten)
 //   - valueFieldIndex = der Index des Datenfelds, das zum Rangordnen der Elemente verwendet wird
-rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
 // Aktualisieren Sie die Pivot-Tabellendaten und berechnen Sie sie neu, damit der Filter wirksam wird
 pivotTable.PivotCache.Refresh();
 // Speichern der Arbeitsmappe

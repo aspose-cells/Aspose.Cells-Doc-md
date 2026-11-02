@@ -1,20 +1,20 @@
 ---
 title: Gruppera Pivot Fields i PivotTable
+linktitle: Gruppera Pivot Fields i PivotTable
 type: docs
 weight: 80
 url: /sv/javascript-cpp/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: Hur man grupperar pivotfält i pivotdiagrammet med Aspose.Cells for JavaScript via C++.
 keywords: Aspose.Cells for JavaScript via C++ Excel, Excel JavaScript bibliotek, hur man grupperar pivotfält i pivotdiagrammet med Aspose.Cells for JavaScript via C++ Excel bibliotek.
 ---
 
 ## **Möjliga användningsscenario**
-
 Microsoft Excel tillåter dig att gruppera pivåfält i pivottabellen. När det finns stora mängder data relaterade till ett pivåfält är det ofta användbart att gruppera dem i sektioner. Aspose.Cells for JavaScript via C++ ger också denna funktion med hjälp av metoden [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-).
 
 ## **Hur man grupperar Pivot-fält i pivottabellen**
-
 Följande exempelkod laddar den [provpå Excel-filen](64716818.xlsx) och utför gruppering på det första pivotfältet med [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-)-metoden. Sedan uppdaterar och beräknar det pivotabellens data och sparar arbetsboken som [utdata Excel-fil](64716817.xlsx). Skärmbilden visar effekten av exempelkoden på den provpå Excel-filen. Som du kan se på skärmbilden är det första pivotfältet nu grupperat efter månader och kvartal.
-
 ![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **Exempelkod**
@@ -98,3 +98,5 @@ Följande exempelkod laddar den [provpå Excel-filen](64716818.xlsx) och utför 
     </script>
 </html>
 ```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

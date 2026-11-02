@@ -1,21 +1,20 @@
 ---
 title: 在透视表中对透视字段进行分组
+linktitle: 在透视表中对透视字段进行分组
 type: docs
 weight: 80
 url: /zh/javascript-cpp/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: 如何用Aspose.Cells for JavaScript通过C++对数据透视表中的字段进行分组。
 keywords: Aspose.Cells for JavaScript通过C++ Excel、Excel JavaScript库，介绍如何用Aspose.Cells for JavaScript通过C++对数据透视表中的字段进行分组。
 ---
 
 ## **可能的使用场景**
-
 Microsoft Excel允许你对数据透视表的字段进行分组。当有关某个字段的大量数据时，将其分组到不同部分通常很有用。Aspose.Cells for JavaScript通过C++也提供了此功能，使用[**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-)方法。
 
 ## **在数据透视表中对字段进行分组**
-
 以下示例代码加载[示例Excel文件](64716818.xlsx)，并使用[**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-)方法对第一个透视字段执行分组。然后刷新和计算透视表的数据，并将工作簿保存为[输出Excel文件](64716817.xlsx)。屏幕截图显示了示例代码对示例Excel文件的效果。如屏幕截图所示，第一个透视字段现在按月份和季度分组。
-
-![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **示例代码**
 
@@ -98,3 +97,5 @@ Microsoft Excel允许你对数据透视表的字段进行分组。当有关某�
     </script>
 </html>
 ```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

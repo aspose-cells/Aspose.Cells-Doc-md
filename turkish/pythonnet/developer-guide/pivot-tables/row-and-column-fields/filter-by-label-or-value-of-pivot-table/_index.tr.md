@@ -118,7 +118,7 @@ workbook.save("output.xlsx")
 
 {{% alert color="primary" %}}
 İlk 10 filtresi, yalnızca pivot tablosunun veri alanında bir veya daha fazla değer pivot alanı olduğunda etkilidir. En az bir değer alanı olmadan, öğeleri sıralamak için toplam bir ölçü yoktur ve filtre uygulanamaz.
-Aspose.Cells, ilk 10 filtrelemeyi `PivotField.filter_top_10(item_count, is_top, value_field, PivotFilterType)` yöntemi aracılığıyla sunar. `item_count` parametresi kaç öğenin tutulacağını tanımlar, `is_top` en yüksek öğelerin (True) mi yoksa en düşük öğelerin (False) mi tutulacağını belirtir, `value_field` sıralama için kullanılan veri alanına başvurur ve `PivotFilterType` değerin nasıl hesaplanacağını kontrol eder (genellikle `Sum`, ayrıca `Count` ve `Percent`).
+Aspose.Cells, Top 10 filtrelemesini `PivotField.filter_top10(value_field_index, filter_type, is_top, item_count)` yöntemi üzerinden sunar. `value_field_index` parametresi, öğelerin sıralandığı birleşik değerlere sahip veri alanının dizinidir, `filter_type` `item_count` birimini seçer (`PivotFilterType.COUNT` sabit sayıda öğe tutar, `PivotFilterType.PERCENT` öğelerin bir yüzdesini tutar, bu nedenle `item_count` yüzdenin kendisidir), `is_top` üst öğelerin (True) mi alt öğelerin mi (False) tutulacağını belirtir ve `item_count` kaç öğenin veya hangi yüzdenin tutulacağını tanımlar.
 Aşağıdaki örnek, bir değer alanı içeren pivot tabloya sahip bir çalışma kitabını yükler, satış toplamına göre yalnızca en yüksek 10 öğeyi tutmak için bir ilk 10 filtresi uygular, pivot tablosunu yeniler ve çalışma kitabını kaydeder.
 {{% /alert %}}
 
@@ -146,7 +146,7 @@ valueFieldIndex = 0
 #   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (ilk N; false alt N anlamına gelir)
 #   - valueFieldIndex = öğeleri sıralamak için kullanılan veri alanının indeksi
-rowField.filter_top10(10, acp.PivotFilterType.SUM, True, valueFieldIndex)
+rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
 # Pivot tablo verilerini yenile ve filtrenin geçerli olması için yeniden hesapla
 pivotTable.pivot_cache.refresh()
 # Çalışma kitabını kaydet

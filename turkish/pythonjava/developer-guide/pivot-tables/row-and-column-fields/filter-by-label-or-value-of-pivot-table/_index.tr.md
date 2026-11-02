@@ -127,7 +127,7 @@ jpype.shutdownJVM()
 
 {{% alert color="primary" %}}
 İlk 10 filtresi yalnızca özet tablosunun veri alanında bir veya daha fazla değer pivot alanı varsa etkilidir. En az bir değer alanı olmadan, öğeleri sıralamak için toplama bir ölçü yoktur ve filtre uygulanamaz.
-Aspose.Cells, ilk 10 filtrelemeyi `PivotField.filter_top10(item_count, is_top, value_field, filter_type)` yöntemi aracılığıyla sunar. `item_count` parametresi kaç öğenin tutulacağını tanımlar, `is_top` en yüksek öğelerin mi (true) yoksa en düşük öğelerin mi (false) tutulacağını belirtir, `value_field` sıralama için kullanılan veri alanına başvurur ve `filter_type` değerin nasıl hesaplanacağını kontrol eder (genellikle `Sum`, ancak `Count` ve `Percent` da olabilir).
+Aspose.Cells, Top 10 filtrelemesini `PivotField.filterTop10(valueFieldIndex, filterType, isTop, itemCount)` yöntemi üzerinden sunar. `valueFieldIndex` parametresi, öğelerin sıralandığı birleşik değerlere sahip veri alanının dizinidir, `filterType` `itemCount` birimini seçer (`PivotFilterType.COUNT` sabit sayıda öğe tutar, `PivotFilterType.PERCENT` öğelerin bir yüzdesini tutar, bu nedenle `itemCount` yüzdenin kendisidir), `isTop` üst öğelerin (true) mi alt öğelerin mi (false) tutulacağını belirtir ve `itemCount` kaç öğenin veya hangi yüzdenin tutulacağını tanımlar.
 Aşağıdaki örnek, bir değer alanı içeren bir özet tablosu bulunan bir çalışma kitabını yükler, satış toplamına göre yalnızca en yüksek 10 öğeyi tutmak için ilk 10 filtresi uygular, özet tablosunu yeniler ve çalışma kitabını kaydeder.
 {{% /alert %}}
 
@@ -157,7 +157,7 @@ valueFieldIndex = 0
 #   - filterType  = PivotFilterType.SUM
 #   - isTop       = true (ilk N; false alt N anlamına gelir)
 #   - valueFieldIndex = öğeleri sıralamak için kullanılan veri alanının indeksi
-rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, True, 10)
+rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, True, 10)
 # Pivot tablosu verilerini yenileyin ve filtrenin geçerli olması için yeniden hesaplayın
 pivotTable.getPivotCache().refresh()
 # Çalışma kitabını kaydedin

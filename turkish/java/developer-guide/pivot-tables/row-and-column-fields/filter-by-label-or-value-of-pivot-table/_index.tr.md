@@ -122,7 +122,7 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 İlk 10 filtresi, yalnızca özet tablonun veri alanında bir veya daha fazla değer alanı bulunduğunda etkilidir. En az bir değer alanı yoksa, öğeleri sıralamak için kullanılacak toplulaştırılmış bir ölçü bulunmaz ve filtre uygulanamaz.
-Aspose.Cells, ilk 10 filtrelemeyi `PivotField.filterTop10(int itemCount, boolean isTop, PivotField valueField, PivotFilterType filterType)` metoduyla sunar. `itemCount` parametresi, kaç öğenin korunacağını belirtir; `isTop`, en yüksek öğelerin mi (true) yoksa en düşük öğelerin mi (false) korunacağını gösterir; `valueField`, sıralamada kullanılan veri alanına başvurur ve `filterType`, değerin nasıl hesaplandığını denetler. Genellikle `Sum` kullanılır; `Count` ve `Percent` de kullanılabilir.
+Aspose.Cells, Top 10 filtrelemesini `PivotField.filterTop10(int valueFieldIndex, PivotFilterType filterType, boolean isTop, int itemCount)` yöntemi üzerinden sunar. `valueFieldIndex` parametresi, öğelerin sıralandığı birleşik değerlere sahip veri alanının dizinidir, `filterType` `itemCount` birimini seçer (`PivotFilterType.COUNT` sabit sayıda öğe tutar, `PivotFilterType.PERCENT` öğelerin bir yüzdesini tutar, bu nedenle `itemCount` yüzdenin kendisidir), `isTop` üst öğelerin (true) mi alt öğelerin mi (false) tutulacağını belirtir ve `itemCount` kaç öğenin veya hangi yüzdenin tutulacağını tanımlar.
 Aşağıdaki örnek, bir değer alanı bulunan bir özet tabloyu içeren çalışma kitabını yükler ve satış toplamına göre yalnızca en yüksek 10 öğeyi koruyan bir ilk 10 filtresi uygular. Ardından özet tabloyu yeniler ve çalışma kitabını kaydeder.
 {{% /alert %}}
 
@@ -151,7 +151,7 @@ int valueFieldIndex = 0;
 //   - filterType  = PivotFilterType.SUM
 //   - isTop       = true (top N; false would mean bottom N)
 //   - valueFieldIndex = the index of the data field used to rank items
-rowField.filterTop10(valueFieldIndex, PivotFilterType.SUM, true, 10);
+rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, true, 10);
 // Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.refreshData();
 // Save the workbook

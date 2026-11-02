@@ -1,21 +1,20 @@
 ---
 title: تجميع حقول الجدول المحوري في جدول الدوران
+linktitle: تجميع حقول الجدول المحوري في جدول الدوران
 type: docs
 weight: 80
 url: /ar/javascript-cpp/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: كيفية تجميع حقول Pivot في الجدول المحوري باستخدام Aspose.Cells for JavaScript عبر C++.
 keywords: Aspose.Cells for JavaScript عبر C++ مكتبة Excel، JavaScript لـ Excel، كيفية تجميع حقول Pivot في الجدول المحوري باستخدام Aspose.Cells for JavaScript عبر مكتبة Excel لـ C++.
 ---
 
 ## **سيناريوهات الاستخدام المحتملة**
-
 يتيح لك Microsoft Excel تجميع حقول النقاط في جدول المحوري. عندما يكون هناك حجم كبير من البيانات المتعلقة بحقل محوري، غالبًا ما يكون من المفيد تجميعها في أقسام. Aspose.Cells for JavaScript عبر C++ يوفر أيضًا هذه الميزة باستخدام طريقة [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-).
 
 ## **كيفية تجميع حقول الجدول المحوري**
-
 يقوم الكود العيني التالي بتحميل ملف الإكسل العيني وينفذ عمليات التجميع على الحقل المحوري الأول باستخدام طريقة [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-). ثم يقوم بتحديث وحساب بيانات الجدول المحوري ويحفظ الدفتر كملف إكسل جديد. توضح الصورة الناتجة تأثير الكود العيني على ملف الإكسل العيني. كما يظهر في الصورة، تم تجميع الحقل المحوري الأول الآن حسب الشهور والربع.
-
-![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **الكود المثالي**
 
@@ -98,3 +97,5 @@ keywords: Aspose.Cells for JavaScript عبر C++ مكتبة Excel، JavaScript �
     </script>
 </html>
 ```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

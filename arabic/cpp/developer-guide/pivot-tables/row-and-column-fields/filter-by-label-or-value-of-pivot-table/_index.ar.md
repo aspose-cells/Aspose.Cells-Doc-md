@@ -145,7 +145,7 @@ int main() {
 
 {{% alert color="primary" %}}
 لا يكون مرشح أعلى 10 فعالًا إلا عندما يحتوي الجدول المحوري على حقل قيمة واحد أو أكثر في منطقة البيانات. من دون حقل قيمة واحد على الأقل، لا يوجد مقياس مجمع يمكن لترتيب العناصر استنادًا إليه، ولا يمكن تطبيق المرشح.
-توفر Aspose.Cells تصفية أعلى 10 من خلال أسلوب `PivotField.FilterTop10(int32_t itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. يحدد الوسيط `itemCount` عدد العناصر التي يجب الاحتفاظ بها، ويشير `isTop` إلى الاحتفاظ بأعلى العناصر (`true`) أو أدناها (`false`)، ويشير `valueField` إلى حقل البيانات المستخدم في الترتيب، بينما يتحكم `filterType` في طريقة حساب القيمة، وهي عادةً `Sum`، لكن يمكن أيضًا استخدام `Count` و`Percent`.
+تكشف Aspose.Cells عن تصفية أفضل 10 من خلال الطريقة `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)`. المعلمة `valueFieldIndex` هي فهرس حقل البيانات الذي تُرتَّب العناصر حسب قيمه المجمعة، وتحدد `type` وحدة `itemCount` (`PivotFilterType::Count` تحتفظ بعدد ثابت من العناصر، و`PivotFilterType::Percent` تحتفظ بنسبة مئوية من العناصر بحيث تكون `itemCount` هي النسبة المئوية نفسها)، وتشير `isTop` إلى ما إذا كان سيتم الاحتفاظ بأعلى العناصر (true) أم أدناها (false)، وتحدد `itemCount` عدد العناصر أو النسبة المئوية المطلوب الاحتفاظ بها.
 يحمّل المثال التالي مصنفًا يحتوي على جدول محوري يضم حقل قيمة، ويطبق مرشح أعلى 10 للاحتفاظ بأعلى 10 عناصر فقط استنادًا إلى مجموع المبيعات، ثم يحدّث الجدول المحوري ويحفظ المصنف.
 {{% /alert %}}
 
@@ -167,7 +167,7 @@ int main() {
     PivotField valueField = pivotTable.GetDataFields().Get(0);
     PivotField rowField = pivotTable.GetRowFields().Get(0);
     int valueFieldIndex = 0;
-    rowField.FilterTop10(10, PivotFilterType::Sum, true, valueFieldIndex);
+    rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
     workbook.Save(outputPath);
     Aspose::Cells::Cleanup();
     return 0;

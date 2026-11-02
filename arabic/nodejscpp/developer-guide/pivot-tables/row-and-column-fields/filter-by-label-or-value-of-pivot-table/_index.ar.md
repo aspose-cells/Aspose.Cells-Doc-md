@@ -113,7 +113,7 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}}
 يكون مرشح أعلى 10 فعالًا فقط عندما يحتوي الجدول المحوري على حقل قيمة واحد أو أكثر في منطقة البيانات. فبدون وجود حقل قيمة واحد على الأقل، لن يكون هناك مقياس مجمع لترتيب العناصر وفقًا له، ولن يمكن تطبيق المرشح.
-يعرض Aspose.Cells تصفية أعلى 10 من خلال الدالة `PivotField.filterTop10(int itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. تُحدد وسيطة `itemCount` عدد العناصر التي يجب الاحتفاظ بها، وتشير `isTop` إلى ما إذا كان يجب الاحتفاظ بأعلى العناصر (true) أو أقل العناصر (false)، ويُشير `valueField` إلى حقل البيانات المستخدم للترتيب، ويتحكم `filterType` في كيفية حساب القيمة (عادةً `Sum`، ولكن أيضًا `Count` و `Percent`).
+تكشف Aspose.Cells عن تصفية أفضل 10 من خلال الطريقة `PivotField.filterTop10(valueFieldIndex, filterType, isTop, itemCount)`. المعلمة `valueFieldIndex` هي فهرس حقل البيانات الذي تُرتَّب العناصر حسب قيمه المجمعة، وتحدد `filterType` وحدة `itemCount` (`PivotFilterType.Count` تحتفظ بعدد ثابت من العناصر، و`PivotFilterType.Percent` تحتفظ بنسبة مئوية من العناصر بحيث تكون `itemCount` هي النسبة المئوية نفسها)، وتشير `isTop` إلى ما إذا كان سيتم الاحتفاظ بأعلى العناصر (true) أم أدناها (false)، وتحدد `itemCount` عدد العناصر أو النسبة المئوية المطلوب الاحتفاظ بها.
 يُحمّل المثال التالي مصنفًا يحتوي على جدول محوري يشتمل على حقل قيمة، ويطبق مرشح أعلى 10 للاحتفاظ فقط بأعلى 10 عناصر من حيث مجموع المبيعات، ويُحدّث الجدول المحوري، ويحفظ المصنف.
 {{% /alert %}}
 
@@ -141,7 +141,7 @@ const valueFieldIndex = 0;
 //   - نوع المرشح = PivotFilterType.Sum
 //   - isTop = true (أفضل N؛ false تعني أسوأ N)
 //   - valueFieldIndex = فهرس حقل البيانات المستخدم لترتيب العناصر
-rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Sum, true, 10);
+rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
 // تحديث بيانات الجدول المحوري وإعادة حسابه بحيث يصبح المرشح ساري المفعول
 pivotTable.getPivotCache().refresh();
 // حفظ مصنف العمل

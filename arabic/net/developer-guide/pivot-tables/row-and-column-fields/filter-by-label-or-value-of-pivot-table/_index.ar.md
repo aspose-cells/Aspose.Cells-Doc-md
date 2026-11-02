@@ -128,7 +128,7 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 يكون مرشح أعلى 10 فعالًا فقط عندما يحتوي الجدول المحوري على حقل قيمة واحد أو أكثر في منطقة البيانات. بدون حقل قيمة واحد على الأقل، لا يوجد مقياس مجمع لترتيب العناصر مقابله، ولا يمكن تطبيق المرشح.
-تعرض Aspose.Cells تصفية أعلى 10 من خلال أسلوب `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)`. يحدد المعامل `itemCount` عدد العناصر التي يجب الاحتفاظ بها، ويتحكم `filterType` في كيفية حساب القيمة، عادةً باستخدام `Sum` وكذلك `Count` أو `Percent`. يحدد `isTop` ما إذا كان يجب الاحتفاظ بأعلى العناصر (`true`) أو أدناها (`false`)، ويمثل `valueFieldIndex` فهرس حقل البيانات المستخدم لترتيب العناصر.
+تكشف Aspose.Cells عن تصفية أفضل 10 من خلال الطريقة `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)`. المعلمة `valueFieldIndex` هي فهرس حقل البيانات الذي تُرتَّب العناصر حسب قيمه المجمعة، وتحدد `filterType` وحدة `itemCount` (`Count` تحتفظ بعدد ثابت من العناصر، و`Percent` تحتفظ بنسبة مئوية من العناصر بحيث تكون `itemCount` هي النسبة المئوية نفسها)، وتشير `isTop` إلى ما إذا كان سيتم الاحتفاظ بأعلى العناصر (true) أم أدناها (false)، وتحدد `itemCount` عدد العناصر أو النسبة المئوية المطلوب الاحتفاظ بها.
 يحمل المثال التالي مصنفًا يحتوي على جدول محوري يحتوي على حقل قيمة، ويطبق مرشح أعلى 10 للاحتفاظ فقط بأعلى 10 عناصر حسب مجموع المبيعات، ويُحدّث الجدول المحوري، ويحفظ المصنف.
 {{% /alert %}}
 
@@ -157,10 +157,10 @@ PivotField rowField = pivotTable.RowFields[0];
 int valueFieldIndex = 0;
 // تطبيق مرشح أعلى 10 على حقل الصف:
 //   - itemCount = 10
-//   - filterType = PivotFilterType.Sum
+//   - filterType = PivotFilterType.Count
 //   - isTop = true لأعلى N، أو false لأدنى N
 //   - valueFieldIndex = فهرس حقل البيانات المستخدم لترتيب العناصر
-rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
 // تحديث بيانات الجدول المحوري وإعادة حسابها لتطبيق المرشح
 pivotTable.PivotCache.Refresh();
 // حفظ المصنف

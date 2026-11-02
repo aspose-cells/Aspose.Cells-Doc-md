@@ -1,20 +1,20 @@
 ---
 title: Pivot Tablosunda Alanları Gruplandırın
+linktitle: Pivot Tablosunda Alanları Gruplandırın
 type: docs
 weight: 80
 url: /tr/javascript-cpp/group-pivot-fields-in-the-pivot-table/
+ai_search_scope: cells_javascriptcpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 description: Pivot Tabloda Pivot Alanlarını Aspose.Cells for JavaScript ile C++ kullanarak gruplayın
 keywords: Aspose.Cells for JavaScript ile C++ Excel, Excel JavaScript kütüphanesi kullanarak, Pivot Tablosunda Pivot Alanlarını Aspose.Cells for JavaScript ile C++ kütüphanesi kullanarak nasıl gruplandırırım
 ---
 
 ## **Olası Kullanım Senaryoları**
-
 Microsoft Excel, pivot tablosunun pivot alanlarını gruplamanıza izin verir. Bir pivot alanıyla ilgili büyük miktarda veri olduğunda, bunları bölümlere ayırmak genellikle faydalıdır. Aspose.Cells for JavaC++ ile betik, [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-) yöntemini kullanarak bu özelliği de sağlar.
 
 ## **Pivot Tablosundaki Pivot Alanlarını Gruplama**
-
 Aşağıdaki örnek kod, [örnek Excel dosyasını](64716818.xlsx) yükler ve ilk pivot alanında [**PivotTable.groupBy()**](https://reference.aspose.com/cells/javascript-cpp/pivotfield/#groupBy-date-date-pivotgroupbytypearray-number-boolean-) yöntemini kullanarak gruplama yapar. Ardından pivot tablosunun verilerini yeniler ve hesaplar ve çalışma kitabını [çıktı Excel dosyası olarak](64716817.xlsx) kaydeder. Ekran görüntüsü, örnek kodun örneğin Excel dosyası üzerindeki etkisini göstermektedir. Ekran görüntüsünde gördüğünüz gibi, ilk pivot alanı artık aylara ve çeyreklere göre gruplandırılmış durumda.
-
 ![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **Örnek Kod**
@@ -98,3 +98,5 @@ Aşağıdaki örnek kod, [örnek Excel dosyasını](64716818.xlsx) yükler ve il
     </script>
 </html>
 ```
+
+{{< app/cells/assistant language="javascript-cpp" >}}

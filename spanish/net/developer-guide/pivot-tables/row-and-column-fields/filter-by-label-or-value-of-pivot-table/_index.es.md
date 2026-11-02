@@ -128,7 +128,7 @@ El filtro top 10 es una forma especializada de filtro por valor que conserva sol
 
 {{% alert color="primary" %}}
 El filtro top 10 solo es efectivo cuando la tabla dinámica tiene uno o más campos de valor en el área de datos. Sin al menos un campo de valor, no hay ninguna medida agregada con la que clasificar los elementos y el filtro no puede aplicarse.
-Aspose.Cells expone el filtrado top 10 mediante el método `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)`. El parámetro `itemCount` define cuántos elementos conservar, `filterType` controla cómo se calcula el valor (normalmente `Sum`, pero también `Count` y `Percent`), `isTop` indica si se conservan los elementos superiores (true) o los inferiores (false), y `valueFieldIndex` es el índice del campo de datos utilizado para clasificar los elementos.
+Aspose.Cells expone el filtrado Top 10 mediante el método `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)`. El parámetro `valueFieldIndex` es el índice del campo de datos cuyos valores agregados clasifican los elementos, `filterType` selecciona la unidad de `itemCount` (`Count` conserva un número fijo de elementos, `Percent` conserva un porcentaje de los elementos, por lo que `itemCount` es el propio porcentaje), `isTop` indica si se conservan los elementos superiores (true) o los inferiores (false), y `itemCount` define cuántos elementos, o qué porcentaje, conservar.
 El siguiente ejemplo carga un libro con una tabla dinámica que contiene un campo de valor, aplica un filtro top 10 para conservar solo los 10 elementos superiores según la suma de ventas, actualiza la tabla dinámica y guarda el libro.
 {{% /alert %}}
 
@@ -157,10 +157,10 @@ PivotField rowField = pivotTable.RowFields[0];
 int valueFieldIndex = 0;
 // Aplicar el filtro Top 10 en el campo de fila:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.Count
 //   - isTop       = true (N superiores; false significaría N inferiores)
 //   - valueFieldIndex = el índice del campo de datos utilizado para clasificar elementos
-rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
 // Actualizar los datos de la tabla dinámica y recalcularla para que el filtro surta efecto
 pivotTable.PivotCache.Refresh();
 // Guardar el libro de trabajo

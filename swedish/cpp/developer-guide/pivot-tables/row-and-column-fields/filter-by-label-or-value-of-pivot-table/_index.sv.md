@@ -145,7 +145,7 @@ Topp 10-filtret är en specialiserad form av värdefilter som endast behåller d
 
 {{% alert color="primary" %}}
 Topp 10-filtret är endast effektivt när pivottabellen har ett eller flera värdepivotfält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mått att rangordna posterna mot, och filtret kan inte tillämpas.
-Aspose.Cells exponerar topp 10-filtrering genom metoden `PivotField.FilterTop10(int32_t itemCount, bool isTop, PivotField valueField, PivotFilterType filterType)`. Parametern `itemCount` anger hur många poster som ska behållas, `isTop` anger om de översta posterna (true) eller de understa posterna (false) ska behållas, `valueField` refererar till det datafält som används för rangordning, och `filterType` styr hur värdet beräknas (vanligtvis `Sum`, men även `Count` och `Percent`).
+Aspose.Cells exponerar Top 10-filtrering via metoden `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)`. Parametern `valueFieldIndex` är indexet för datafältet vars aggregerade värden rangordnar objekten, `type` väljer enheten för `itemCount` (`PivotFilterType::Count` behåller ett fast antal objekt, `PivotFilterType::Percent` behåller en procentandel av objekten så att `itemCount` är själva procenttalet), `isTop` anger om de översta objekten (true) eller de nedersta (false) behålls, och `itemCount` definierar hur många objekt, eller vilken procentandel, som behålls.
 Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att endast behålla de 10 översta posterna efter summa av försäljning, uppdaterar pivottabellen och sparar arbetsboken.
 {{% /alert %}}
 
@@ -167,7 +167,7 @@ int main() {
     PivotField valueField = pivotTable.GetDataFields().Get(0);
     PivotField rowField = pivotTable.GetRowFields().Get(0);
     int valueFieldIndex = 0;
-    rowField.FilterTop10(10, PivotFilterType::Sum, true, valueFieldIndex);
+    rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
     workbook.Save(outputPath);
     Aspose::Cells::Cleanup();
     return 0;

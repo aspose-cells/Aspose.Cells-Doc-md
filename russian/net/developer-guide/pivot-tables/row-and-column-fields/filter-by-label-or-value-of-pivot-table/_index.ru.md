@@ -128,7 +128,7 @@ workbook.Save("output.xlsx");
 
 {{% alert color="primary" %}}
 Фильтр «первые 10» эффективен только тогда, когда в области данных сводной таблицы имеется одно или несколько полей значений. Без хотя бы одного поля значения нет агрегированной меры, по которой можно ранжировать элементы, и фильтр не может быть применён.
-Aspose.Cells предоставляет фильтрацию «первые 10» через метод `PivotField.FilterTop10(int itemCount, PivotFilterType filterType, bool isTop, int valueFieldIndex)`. Параметр `itemCount` определяет, сколько элементов нужно оставить, `filterType` управляет способом вычисления значения (обычно `Sum`, а также `Count` и `Percent`), `isTop` указывает, нужно ли сохранить верхние элементы (true) или нижние элементы (false), а `valueFieldIndex` — это индекс поля данных, используемого для ранжирования элементов.
+Aspose.Cells предоставляет фильтрацию Top 10 через метод `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)`. Параметр `valueFieldIndex` — это индекс поля данных, по агрегированным значениям которого ранжируются элементы, `filterType` выбирает единицу для `itemCount` (`Count` сохраняет фиксированное количество элементов, `Percent` сохраняет процент элементов, поэтому `itemCount` — это сам процент), `isTop` указывает, сохранять верхние элементы (true) или нижние (false), а `itemCount` определяет, сколько элементов или какой процент сохранить.
 В следующем примере загружается рабочая книга со сводной таблицей, содержащей поле значения, применяется фильтр «первые 10», чтобы оставить только 10 элементов с наибольшей суммой продаж, сводная таблица обновляется, и рабочая книга сохраняется.
 {{% /alert %}}
 
@@ -157,10 +157,10 @@ PivotField rowField = pivotTable.RowFields[0];
 int valueFieldIndex = 0;
 // Применяем фильтр Top 10 к строковому полю:
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Sum
+//   - filterType  = PivotFilterType.Count
 //   - isTop       = true (верхние N; false означало бы нижние N)
 //   - valueFieldIndex = индекс поля данных, используемого для ранжирования элементов
-rowField.FilterTop10(valueFieldIndex, PivotFilterType.Sum, true, 10);
+rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
 // Обновляем данные сводной таблицы и пересчитываем её, чтобы фильтр вступил в силу
 pivotTable.PivotCache.Refresh();
 // Сохраняем книгу
