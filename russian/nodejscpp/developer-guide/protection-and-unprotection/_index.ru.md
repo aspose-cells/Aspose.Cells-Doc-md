@@ -79,14 +79,14 @@ console.log("Structure protection has been successfully removed from the workboo
 ```
 
 ## Защита и снятие защиты рабочих листов
-Защита рабочего листа блокирует случайные или намеренные изменения ячеек. Пользователи не могут редактировать защищённые ячейки без ввода пароля. Это типичный способ защиты формул, заголовков или выделенных областей ввода данных в совместно используемых электронных таблицах. Чтобы защитить рабочий лист, вызовите `worksheet.protect(ProtectionType.All, "password")`. Использование `ProtectionType.All` включает все доступные параметры защиты, например возможность выбора защищённых ячеек, форматирования ячеек, вставки и удаления строк и столбцов. Чтобы снять защиту, вызовите `worksheet.unprotect("password")`, передав правильный пароль. Более гибкое управление доступно при комбинировании других типов защиты, таких как `Contents`, `Objects` и `Scenarios`, с помощью побитового оператора ИЛИ.
+Защита рабочего листа блокирует случайные или намеренные изменения ячеек. Пользователи не могут редактировать защищённые ячейки без ввода пароля. Это типичный способ защиты формул, заголовков или выделенных областей ввода данных в совместно используемых электронных таблицах. Чтобы защитить рабочий лист, вызовите `worksheet.protect(ProtectionType.All, "password", null)`. Использование `ProtectionType.All` включает все доступные параметры защиты, например возможность выбора защищённых ячеек, форматирования ячеек, вставки и удаления строк и столбцов. Чтобы снять защиту, вызовите `worksheet.unprotect("password")`, передав правильный пароль. Более гибкое управление доступно при комбинировании других типов защиты, таких как `Contents`, `Objects` и `Scenarios`, с помощью побитового оператора ИЛИ.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 sheet.getCells().get("A1").putValue("Sample Data");
-sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd");
+sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd", null);
 workbook.save("sheet_protected.xlsx");
 let workbookReloaded = new AsposeCells.Workbook("sheet_protected.xlsx");
 let sheetReloaded = workbookReloaded.getWorksheets().get(0);

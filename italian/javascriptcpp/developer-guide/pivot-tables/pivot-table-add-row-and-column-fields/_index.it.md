@@ -104,8 +104,7 @@ Se non si chiama mai `setSubtotals`, Aspose.Cells applica la selezione `Automati
             cells.get(8, 1).value = "Daikon";
             cells.get(8, 2).value = 2021;
             cells.get(8, 3).value = 45;
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -173,8 +172,7 @@ La chiamata `setSubtotals(PivotFieldSubtotalType.None, true)` rimuove tutte le r
                     worksheet.cells.get(i + 1, j).value = data[i][j];
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -261,8 +259,7 @@ Non è necessario limitarsi a un singolo tipo di subtotale. Ogni chiamata a `set
             cells.get(8, 2).value = 2021;
             cells.get(8, 3).value = 45;
             const pivotTables = worksheet.pivotTables;
-            const i = pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = pivotTables.get(i);
+            const pivotTable = pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

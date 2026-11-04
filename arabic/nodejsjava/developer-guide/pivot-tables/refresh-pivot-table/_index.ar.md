@@ -33,8 +33,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 إذا كنت لا تحتاج سوى أقصر شيفرة ممكنة لتحديث جميع الجداول المحورية في المصنف، فكفى استدعاء واحد:
 
 ```javascript
-const aspose = require('aspose.cells');
-const workbook = new aspose.cells.Workbook("input.xlsx");
+const AsposeCells = require('aspose.cells');
+const workbook = new AsposeCells.Workbook("input.xlsx");
 workbook.refreshAll();
 workbook.save("output.xlsx");
 ```
@@ -42,7 +42,7 @@ workbook.save("output.xlsx");
 توضح بقية هذه المقالة متى ينبغي اختيار واجهة API أكثر تحديدًا بدلًا من ذلك.
 
 ## الاستيرادات المطلوبة
-- `const aspose = require('aspose.cells');`
+- `const AsposeCells = require('aspose.cells');`
 - أو للاستيرادات المحددة: `const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
 ## تحديث جميع الجداول المحورية في المصنف

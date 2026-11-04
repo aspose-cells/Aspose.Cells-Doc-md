@@ -44,7 +44,7 @@ workbook.save("output.xlsx");
 ## Required Imports
 Все примеры JavaScript в этой статье предполагают, что модуль Aspose.Cells для Node.js через C++ уже загружен, а типы сводных таблиц находятся в пространстве имен `Aspose.Cells.Pivot`. Типичная настройка выглядит так:
 - `const AsposeCells = require("aspose.cells.node");`
-- `const { PivotFieldType } = AsposeCells;` (или обращение через `AsposeCells.Pivot.PivotFieldType`)
+- `const { PivotFieldType } = AsposeCells;` (или обращение через `AsposeCells.PivotFieldType`)
 
 ## Refresh All Pivot Tables in the Workbook
 Когда необходимо убедиться, что все кэши сводных таблиц и все сводные таблицы в рабочей книге отражают наиболее актуальные исходные данные, самым простым и всеобъемлющим API является `Workbook.refreshAll()`. Один вызов обходит всю рабочую книгу — обновляет каждый `PivotCache` из исходных данных и затем пересчитывает каждую зависящую `PivotTable`. Это рекомендуемый подход для общего полного обновления документа, когда производительность не является приоритетом.

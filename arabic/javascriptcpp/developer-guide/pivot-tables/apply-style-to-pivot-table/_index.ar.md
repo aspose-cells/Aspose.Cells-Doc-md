@@ -93,8 +93,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
             // إضافة جدول محوري في الخلية E3 باستخدام نطاق المصدر A1:C10
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // تعيين الحقول: Fruit إلى Rows، Amount إلى Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -188,8 +187,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
             // إضافة جدول محوري عند E3، بمصدر A1:C10
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // تعيين حقول الجدول المحوري: Fruit -> منطقة الصفوف، Year -> منطقة الأعمدة، Amount -> منطقة البيانات
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -284,8 +282,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
             // إضافة جدول محوري مصدره A1:C10 ومثبت عند E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -402,8 +399,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
             // إضافة جدول محور: نطاق المصدر A1:C10، خلية الوجهة E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // تعيين حقول المحور: Fruit -> منطقة الصفوف، Year -> منطقة الأعمدة، Amount -> منطقة البيانات
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

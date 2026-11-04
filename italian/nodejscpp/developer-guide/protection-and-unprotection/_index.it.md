@@ -79,14 +79,14 @@ console.log("Structure protection has been successfully removed from the workboo
 ```
 
 ## Proteggere e rimuovere la protezione dei fogli di lavoro
-La protezione del foglio di lavoro blocca le celle di un foglio di lavoro contro modifiche accidentali o intenzionali. Gli utenti non possono modificare le celle bloccate senza fornire la password. Questa è la tipica protezione utilizzata per tutelare formule, intestazioni o aree designate per l'immissione dei dati nei fogli di calcolo condivisi. Per proteggere un foglio di lavoro, chiamare `worksheet.protect(ProtectionType.All, "password")`. L'utilizzo di `ProtectionType.All` abilita ogni opzione di protezione disponibile, come la selezione delle celle bloccate, la formattazione delle celle, l'inserimento di righe e colonne e l'eliminazione di righe e colonne. Per rimuovere la protezione, chiamare `worksheet.unprotect("password")` con la password corretta. È disponibile un controllo più granulare combinando altri tipi di protezione come `Contents`, `Objects` e `Scenarios` tramite l'OR bit per bit.
+La protezione del foglio di lavoro blocca le celle di un foglio di lavoro contro modifiche accidentali o intenzionali. Gli utenti non possono modificare le celle bloccate senza fornire la password. Questa è la tipica protezione utilizzata per tutelare formule, intestazioni o aree designate per l'immissione dei dati nei fogli di calcolo condivisi. Per proteggere un foglio di lavoro, chiamare `worksheet.protect(ProtectionType.All, "password", null)`. L'utilizzo di `ProtectionType.All` abilita ogni opzione di protezione disponibile, come la selezione delle celle bloccate, la formattazione delle celle, l'inserimento di righe e colonne e l'eliminazione di righe e colonne. Per rimuovere la protezione, chiamare `worksheet.unprotect("password")` con la password corretta. È disponibile un controllo più granulare combinando altri tipi di protezione come `Contents`, `Objects` e `Scenarios` tramite l'OR bit per bit.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 sheet.getCells().get("A1").putValue("Sample Data");
-sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd");
+sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd", null);
 workbook.save("sheet_protected.xlsx");
 let workbookReloaded = new AsposeCells.Workbook("sheet_protected.xlsx");
 let sheetReloaded = workbookReloaded.getWorksheets().get(0);

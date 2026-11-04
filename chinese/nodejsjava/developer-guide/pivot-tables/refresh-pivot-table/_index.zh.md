@@ -33,8 +33,8 @@ Aspose.Cells 提供了一套分层刷新 API，使您能够在四个不同的范
 如果您只需要使用最短的代码来刷新工作簿中的每个数据透视表，只需一次调用即可：
 
 ```javascript
-const aspose = require('aspose.cells');
-const workbook = new aspose.cells.Workbook("input.xlsx");
+const AsposeCells = require('aspose.cells');
+const workbook = new AsposeCells.Workbook("input.xlsx");
 workbook.refreshAll();
 workbook.save("output.xlsx");
 ```
@@ -42,7 +42,7 @@ workbook.save("output.xlsx");
 本文其余部分将解释何时应选择范围更窄的 API。
 
 ## 必需的导入
-- `const aspose = require('aspose.cells');`
+- `const AsposeCells = require('aspose.cells');`
 - 或者使用特定的导入：`const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
 ## 刷新工作簿中的所有数据透视表

@@ -58,8 +58,7 @@ Att lägga till ett basfält i dataområdet (värdeområdet) är det första ste
                     worksheet.cells.get(i + 1, j).value = data[i][j];
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -131,8 +130,7 @@ När ett fält finns i dataområdet exponerar Aspose.Cells det via `PivotField`-
                     worksheet.cells.get(i + 1, j).value = data[i][j];
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -206,8 +204,7 @@ Det virtuella värdefältet som returneras av `pivotTable.getValuesField()` fung
                     cells.get(i + 1, j).value = data[i][j];
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

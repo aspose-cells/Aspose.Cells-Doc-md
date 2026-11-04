@@ -44,7 +44,7 @@ Everything else in this article explains when to choose a narrower API instead.
 ## Required Imports
 All JavaScript examples in this article assume the Aspose.Cells for Node.js via C++ module has been loaded and the pivot types live in the `Aspose.Cells.Pivot` namespace. A typical setup is:
 - `const AsposeCells = require("aspose.cells.node");`
-- `const { PivotFieldType } = AsposeCells;` (or access via `AsposeCells.Pivot.PivotFieldType`)
+- `const { PivotFieldType } = AsposeCells;` (or access via `AsposeCells.PivotFieldType`)
 
 ## Refresh All Pivot Tables in the Workbook
 When you need to ensure that every pivot cache and every pivot table in the workbook reflects the latest source data, the simplest and most comprehensive API is `Workbook.refreshAll()`. A single call traverses the entire workbook — refreshing each `PivotCache` from its source and then recalculating every dependent `PivotTable`. This is the recommended approach for general, full-document refreshes where performance is not a concern.

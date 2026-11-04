@@ -44,7 +44,7 @@ workbook.save("output.xlsx");
 ## Required Imports
 この記事の JavaScript の例では、Aspose.Cells for Node.js via C++ モジュールが読み込まれ、ピボット型が `Aspose.Cells.Pivot` namespace に存在すると仮定しています。典型的なセットアップは次のとおりです。
 - `const AsposeCells = require("aspose.cells.node");`
-- `const { PivotFieldType } = AsposeCells;`（または `AsposeCells.Pivot.PivotFieldType` 経由でアクセス）
+- `const { PivotFieldType } = AsposeCells;`（または `AsposeCells.PivotFieldType` 経由でアクセス）
 
 ## Refresh All Pivot Tables in the Workbook
 ワークブック内のすべてのピボットキャッシュとすべてのピボットテーブルを最新のソースデータに合わせる必要がある場合、最も単純で包括的な API は `Workbook.refreshAll()` です。1 回の呼び出しでワークブック全体を処理し、各 `PivotCache` をそのソースから更新してから、依存するすべての `PivotTable` を再計算します。性能が問題にならない一般的な文書全体の更新では、この方法を推奨します。

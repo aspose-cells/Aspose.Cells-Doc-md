@@ -79,14 +79,14 @@ console.log("Structure protection has been successfully removed from the workboo
 ```
 
 ## Protect and unprotect worksheets
-Worksheet protection locks the cells of a worksheet against accidental or deliberate changes. Users cannot edit locked cells without supplying the password. This is the typical protection used to guard formulas, headers, or designated data-entry areas in shared spreadsheets. To protect a worksheet, call `worksheet.protect(ProtectionType.All, "password")`. Using `ProtectionType.All` enables every available protection option such as selecting locked cells, formatting cells, inserting rows and columns, and deleting rows and columns. To remove the protection, call `worksheet.unprotect("password")` with the correct password. Finer-grained control is available by combining other protection types such as `Contents`, `Objects`, and `Scenarios` using bitwise OR.
+Worksheet protection locks the cells of a worksheet against accidental or deliberate changes. Users cannot edit locked cells without supplying the password. This is the typical protection used to guard formulas, headers, or designated data-entry areas in shared spreadsheets. To protect a worksheet, call `worksheet.protect(ProtectionType.All, "password", null)`. Using `ProtectionType.All` enables every available protection option such as selecting locked cells, formatting cells, inserting rows and columns, and deleting rows and columns. To remove the protection, call `worksheet.unprotect("password")` with the correct password. Finer-grained control is available by combining other protection types such as `Contents`, `Objects`, and `Scenarios` using bitwise OR.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 sheet.getCells().get("A1").putValue("Sample Data");
-sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd");
+sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd", null);
 workbook.save("sheet_protected.xlsx");
 let workbookReloaded = new AsposeCells.Workbook("sheet_protected.xlsx");
 let sheetReloaded = workbookReloaded.getWorksheets().get(0);

@@ -44,7 +44,7 @@ workbook.save("output.xlsx");
 ## Required Imports
 تفترض جميع أمثلة JavaScript في هذه المقالة أنه تم تحميل وحدة Aspose.Cells for Node.js via C++ وأن أنواع الجداول المحورية موجودة في namespace ‏`Aspose.Cells.Pivot`. أحد الإعدادات المعتادة هو:
 - `const AsposeCells = require("aspose.cells.node");`
-- `const { PivotFieldType } = AsposeCells;` أو الوصول إليها عبر `AsposeCells.Pivot.PivotFieldType`
+- `const { PivotFieldType } = AsposeCells;` أو الوصول إليها عبر `AsposeCells.PivotFieldType`
 
 ## Refresh All Pivot Tables in the Workbook
 عندما تريد التأكد من أن جميع ذاكر التخزين المؤقت وجميع الجداول المحورية في المصنف تعكس أحدث بيانات المصدر، تكون أبسط واجهة وأكثرها شمولًا هي `Workbook.refreshAll()`. تعبر المكالمة الواحدة المصنف بأكمله، فتعيد تحديث كل `PivotCache` من مصدره ثم تعيد حساب كل `PivotTable` يعتمد عليه. هذه هي الطريقة الموصى بها للتحديث العام لكامل المستند عندما لا يمثل الأداء مصدر قلق.

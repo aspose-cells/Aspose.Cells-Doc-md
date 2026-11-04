@@ -79,14 +79,14 @@ console.log("Structure protection has been successfully removed from the workboo
 ```
 
 ## Çalışma sayfalarını koruma ve korumayı kaldırma
-Çalışma sayfası koruması, bir çalışma sayfasının hücrelerini yanlışlıkla veya kasıtlı olarak yapılan değişikliklere karşı kilitler. Kullanıcılar, parola sağlamadan kilitli hücreleri düzenleyemez. Bu, paylaşılan elektronik tablolarda formülleri, başlıkları veya belirlenen veri girişi alanlarını korumak için kullanılan tipik koruma yöntemidir. Bir çalışma sayfasını korumak için `worksheet.protect(ProtectionType.All, "password")` yöntemini çağırın. `ProtectionType.All` kullanmak, kilitli hücreleri seçme, hücreleri biçimlendirme, satır ve sütun ekleme ve satır ve sütun silme gibi mevcut tüm koruma seçeneklerini etkinleştirir. Korumayı kaldırmak için `worksheet.unprotect("password")` yöntemini doğru parolayla çağırın. Bit düzeyinde VEYA kullanılarak `Contents`, `Objects` ve `Scenarios` gibi diğer koruma türleri birleştirilerek daha ayrıntılı denetim sağlanabilir.
+Çalışma sayfası koruması, bir çalışma sayfasının hücrelerini yanlışlıkla veya kasıtlı olarak yapılan değişikliklere karşı kilitler. Kullanıcılar, parola sağlamadan kilitli hücreleri düzenleyemez. Bu, paylaşılan elektronik tablolarda formülleri, başlıkları veya belirlenen veri girişi alanlarını korumak için kullanılan tipik koruma yöntemidir. Bir çalışma sayfasını korumak için `worksheet.protect(ProtectionType.All, "password", null)` yöntemini çağırın. `ProtectionType.All` kullanmak, kilitli hücreleri seçme, hücreleri biçimlendirme, satır ve sütun ekleme ve satır ve sütun silme gibi mevcut tüm koruma seçeneklerini etkinleştirir. Korumayı kaldırmak için `worksheet.unprotect("password")` yöntemini doğru parolayla çağırın. Bit düzeyinde VEYA kullanılarak `Contents`, `Objects` ve `Scenarios` gibi diğer koruma türleri birleştirilerek daha ayrıntılı denetim sağlanabilir.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 sheet.getCells().get("A1").putValue("Sample Data");
-sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd");
+sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd", null);
 workbook.save("sheet_protected.xlsx");
 let workbookReloaded = new AsposeCells.Workbook("sheet_protected.xlsx");
 let sheetReloaded = workbookReloaded.getWorksheets().get(0);

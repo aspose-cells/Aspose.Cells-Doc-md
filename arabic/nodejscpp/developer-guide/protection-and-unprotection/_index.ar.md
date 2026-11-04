@@ -79,14 +79,14 @@ console.log("Structure protection has been successfully removed from the workboo
 ```
 
 ## حماية وإلغاء حماية أوراق العمل
-تقفل حماية ورقة العمل خلايا ورقة العمل ضد التغييرات العرضية أو المتعمدة. لا يمكن للمستخدمين تحرير الخلايا المقفلة دون توفير كلمة المرور. هذه هي الحماية النموذجية المستخدمة لحماية الصيغ، أو العناوين، أو مناطق إدخال البيانات المحددة في جداول البيانات المشتركة. لحماية ورقة عمل، استدعِ `worksheet.protect(ProtectionType.All, "password")`. يتيح استخدام `ProtectionType.All` كل خيار حماية متاح مثل تحديد الخلايا المقفلة، وتنسيق الخلايا، وإدراج الصفوف والأعمدة، وحذف الصفوف والأعمدة. لإلغاء الحماية، استدعِ `worksheet.unprotect("password")` بكلمة المرور الصحيحة. يتوفر تحكم أكثر دقة من خلال دمج أنواع حماية أخرى مثل `Contents` و`Objects` و`Scenarios` باستخدام OR على مستوى البت.
+تقفل حماية ورقة العمل خلايا ورقة العمل ضد التغييرات العرضية أو المتعمدة. لا يمكن للمستخدمين تحرير الخلايا المقفلة دون توفير كلمة المرور. هذه هي الحماية النموذجية المستخدمة لحماية الصيغ، أو العناوين، أو مناطق إدخال البيانات المحددة في جداول البيانات المشتركة. لحماية ورقة عمل، استدعِ `worksheet.protect(ProtectionType.All, "password", null)`. يتيح استخدام `ProtectionType.All` كل خيار حماية متاح مثل تحديد الخلايا المقفلة، وتنسيق الخلايا، وإدراج الصفوف والأعمدة، وحذف الصفوف والأعمدة. لإلغاء الحماية، استدعِ `worksheet.unprotect("password")` بكلمة المرور الصحيحة. يتوفر تحكم أكثر دقة من خلال دمج أنواع حماية أخرى مثل `Contents` و`Objects` و`Scenarios` باستخدام OR على مستوى البت.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 sheet.getCells().get("A1").putValue("Sample Data");
-sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd");
+sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd", null);
 workbook.save("sheet_protected.xlsx");
 let workbookReloaded = new AsposeCells.Workbook("sheet_protected.xlsx");
 let sheetReloaded = workbookReloaded.getWorksheets().get(0);

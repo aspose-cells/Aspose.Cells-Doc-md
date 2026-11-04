@@ -148,12 +148,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             cells.get("B9").value = 2021;
             cells.get("C9").value = 120;
             // إضافة جدول محوري: نطاق المصدر "A1:C9"، خلية الوجهة "E3"
-            const pivotTableIndex = worksheet.pivotTables.add(
-                "=A1:C9",
-                "E3",
-                "PivotTable1"
-            );
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
             // تعيين حقول الجدول المحوري: Fruit إلى الصفوف، Year إلى الأعمدة، Amount إلى البيانات
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -234,8 +229,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
                 cells.get("A9").value = "cherry";
                 cells.get("B9").value = 2020;
                 cells.get("C9").value = 140;
-                const pivotTableIndex = worksheet.pivotTables.add("=A1:C9", "E3", "PivotTable1");
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -321,12 +315,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
                 cells.get("B9").value = 2021;
                 cells.get("C9").value = 450;
                 // إضافة جدول محوري في خلية الوجهة E3، مع أخذ البيانات من A1:C9
-                const pivotTableIndex = worksheet.pivotTables.add(
-                    "=A1:C9",
-                    "E3",
-                    "PivotTable1"
-                );
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 // تعيين الحقول: الفاكهة إلى الصفوف، السنة إلى الأعمدة، المبلغ إلى البيانات
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

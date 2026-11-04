@@ -33,8 +33,8 @@ Bu makaledeki tüm senaryolar çalışma sayfası hücresi kaynak verilerini kul
 Çalışma kitabındaki tüm pivot'ları yenileyen en kısa olası koda ihtiyacınız varsa, tek bir çağrı yeterlidir:
 
 ```javascript
-const aspose = require('aspose.cells');
-const workbook = new aspose.cells.Workbook("input.xlsx");
+const AsposeCells = require('aspose.cells');
+const workbook = new AsposeCells.Workbook("input.xlsx");
 workbook.refreshAll();
 workbook.save("output.xlsx");
 ```
@@ -42,7 +42,7 @@ workbook.save("output.xlsx");
 Bu makaledeki diğer her şey, bunun yerine daha dar kapsamlı bir API'nin ne zaman seçileceğini açıklar.
 
 ## Gerekli İçe Aktarmalar
-- `const aspose = require('aspose.cells');`
+- `const AsposeCells = require('aspose.cells');`
 - Veya belirli içe aktarmalar için: `const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
 ## Çalışma Kitabındaki Tüm Pivot Tablolarını Yenileme

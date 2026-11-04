@@ -66,8 +66,7 @@ Rank the row field's items by an ordinary value field such as Sum of Sales. The 
                     row++;
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C16", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();
@@ -133,8 +132,7 @@ A field can also be ranked by itself — pass -1 to `autoShowField`. No extra da
                     row++;
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C16", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();

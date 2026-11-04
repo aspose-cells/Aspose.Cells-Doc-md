@@ -44,7 +44,7 @@ Tout le reste de cet article explique quand choisir une API plus restreinte à l
 ## Required Imports
 Tous les exemples JavaScript de cet article supposent que le module Aspose.Cells for Node.js via C++ a été chargé et que les types de tableaux croisés dynamiques se trouvent dans le namespace `Aspose.Cells.Pivot`. Une configuration typique est la suivante :
 - `const AsposeCells = require("aspose.cells.node");`
-- `const { PivotFieldType } = AsposeCells;` (ou accès via `AsposeCells.Pivot.PivotFieldType`)
+- `const { PivotFieldType } = AsposeCells;` (ou accès via `AsposeCells.PivotFieldType`)
 
 ## Refresh All Pivot Tables in the Workbook
 Lorsque vous devez vous assurer que chaque cache de tableau croisé dynamique et chaque tableau croisé dynamique du classeur reflète les dernières données source, l'API la plus simple et la plus complète est `Workbook.refreshAll()`. Un seul appel parcourt tout le classeur — actualisant chaque `PivotCache` depuis sa source, puis recalculant chaque `PivotTable` dépendant. C'est l'approche recommandée pour les actualisations générales et complètes d'un document lorsque la performance n'est pas un critère critique.

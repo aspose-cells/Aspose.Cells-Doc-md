@@ -46,7 +46,7 @@ Aspose.Cells 中的行和列索引采用 **从零开始** 的编号方式。单�
 1. 创建一个新的 `Workbook`（或打开现有的工作簿）。
 2. 通过 `workbook.worksheets[0]` 访问目标 `Worksheet`。
 3. 将磁盘上的图像文件打开到流中，并确保使用完毕后正确关闭该流。
-4. 调用 `worksheet.pictures.add(5, 2, stream)` 添加锚定到单元格 C6 的图片，并接收返回的 `Picture` 引用。
+4. 调用 `worksheet.pictures.add(5, 2, imageBytes)` 添加锚定到单元格 C6 的图片，并接收返回的 `Picture` 引用。
 5. 设置四个锚定坐标，使图片仅覆盖单元格 C6：`upperLeftRow = 5`，`upperLeftColumn = 2`，`lowerRightRow = 6`，`lowerRightColumn = 3`。
 6. 将 `picture.placement = PlacementType.MoveAndSize`，以确保在调整列宽或行高时图片始终与 C6 对齐。
 7. 可选择在周围单元格中添加示例文本，以演示只有单元格 C6 包含此图片。
@@ -58,8 +58,8 @@ const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-const fs_stream = fs.createReadStream("logo.png");
-const picIndex = worksheet.getPictures().add(5, 2, fs_stream);
+const imageBytes = fs.readFileSync("logo.png");
+const picIndex = worksheet.getPictures().add(5, 2, imageBytes);
 const picture = worksheet.getPictures().get(picIndex);
 picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);

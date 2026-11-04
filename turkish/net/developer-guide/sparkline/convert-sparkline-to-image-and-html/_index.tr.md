@@ -136,7 +136,6 @@ Yukarıdaki iş akışları, birlikte çalışan küçük bir Aspose.Cells API k
 - `ImageOrPrintOptions.ImageType`, `Aspose.Cells.Drawing` ad alanında yer alır ve `ToImage` ile işlenirken ve çalışma sayfaları görüntülere yazdırılırken kullanılan resim biçimini (örneğin, `ImageType.Png`) seçer.
 
 ## **İlgili Makaleler**
-
 - [Bir Hücreye Resim Ekleme](/cells/tr/net/inserting-an-image-into-a-cell/)
 
 {{< app/cells/assistant language="csharp" >}}

@@ -44,24 +44,24 @@ worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
 // Add a Line sparkline group anchored at F1 (column 5, row 0)
 let lineArea = new AsposeCells.CellArea();
-lineArea.StartColumn = 5;
-lineArea.EndColumn = 5;
-lineArea.StartRow = 0;
-lineArea.EndRow = 0;
+lineArea.startColumn = 5;
+lineArea.endColumn = 5;
+lineArea.startRow = 0;
+lineArea.endRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
 // Add a Column sparkline group anchored at G1 (column 6, row 0)
 let columnArea = new AsposeCells.CellArea();
-columnArea.StartColumn = 6;
-columnArea.EndColumn = 6;
-columnArea.StartRow = 0;
-columnArea.EndRow = 0;
+columnArea.startColumn = 6;
+columnArea.endColumn = 6;
+columnArea.startRow = 0;
+columnArea.endRow = 0;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
 // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.StartColumn = 7;
-stackedArea.EndColumn = 7;
-stackedArea.StartRow = 0;
-stackedArea.EndRow = 0;
+stackedArea.startColumn = 7;
+stackedArea.endColumn = 7;
+stackedArea.startRow = 0;
+stackedArea.endRow = 0;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
 // Configure image options for PNG output
 let imageOptions = new AsposeCells.ImageOrPrintOptions();

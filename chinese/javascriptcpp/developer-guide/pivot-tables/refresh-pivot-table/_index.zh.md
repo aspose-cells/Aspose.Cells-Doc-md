@@ -148,12 +148,7 @@ Aspose.Cells 提供分层刷新 API，可在四个不同层级重新加载数据
             cells.get("B9").value = 2021;
             cells.get("C9").value = 120;
             // 添加数据透视表：源范围为 "A1:C9"，目标单元格为 "E3"
-            const pivotTableIndex = worksheet.pivotTables.add(
-                "=A1:C9",
-                "E3",
-                "PivotTable1"
-            );
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
             // 分配数据透视字段：将 Fruit 放置在行区域，将 Year 放置在列区域，将 Amount 放置在数据区域
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -234,8 +229,7 @@ Aspose.Cells 提供分层刷新 API，可在四个不同层级重新加载数据
                 cells.get("A9").value = "cherry";
                 cells.get("B9").value = 2020;
                 cells.get("C9").value = 140;
-                const pivotTableIndex = worksheet.pivotTables.add("=A1:C9", "E3", "PivotTable1");
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -321,12 +315,7 @@ Aspose.Cells 提供分层刷新 API，可在四个不同层级重新加载数据
                 cells.get("B9").value = 2021;
                 cells.get("C9").value = 450;
                 // 添加数据透视表，放置在目标单元格 E3，数据源为 A1:C9
-                const pivotTableIndex = worksheet.pivotTables.add(
-                    "=A1:C9",
-                    "E3",
-                    "PivotTable1"
-                );
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 // 分配字段：将 Fruit 分配到行，Year 分配到列，Amount 分配到数据区域
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

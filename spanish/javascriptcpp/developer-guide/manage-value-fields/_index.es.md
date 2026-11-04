@@ -58,8 +58,7 @@ Agregar un campo base a la región de datos (valor) es el primer paso para defin
                     worksheet.cells.get(i + 1, j).value = data[i][j];
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -131,8 +130,7 @@ Cambiar `function` solo afecta a la función de agregación; la columna de orige
                     worksheet.cells.get(i + 1, j).value = data[i][j];
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -206,8 +204,7 @@ El campo virtual de valores devuelto por `pivotTable.getValuesField()` no funcio
                     cells.get(i + 1, j).value = data[i][j];
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

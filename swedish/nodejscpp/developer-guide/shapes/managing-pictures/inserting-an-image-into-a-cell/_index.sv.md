@@ -46,7 +46,7 @@ Rad- och kolumnindex i Aspose.Cells är **nollbaserade**. Cell C6 har radindex 5
 1. Skapa en ny `Workbook` (eller öppna en befintlig).
 2. Hämta målets `Worksheet` från `workbook.worksheets[0]`.
 3. Öppna bildfilen från disk till en ström, och se till att strömmen stängs korrekt efter användning.
-4. Anropa `worksheet.pictures.add(5, 2, stream)` för att lägga till en bild förankrad till cell C6. Fånga den returnerade `Picture`-referensen.
+4. Anropa `worksheet.pictures.add(5, 2, imageBytes)` för att lägga till en bild förankrad till cell C6. Fånga den returnerade `Picture`-referensen.
 5. Ställ in de fyra ankarpositionerna så att bilden bara täcker cell C6: `upperLeftRow = 5`, `upperLeftColumn = 2`, `lowerRightRow = 6`, `lowerRightColumn = 3`.
 6. Ställ in `picture.placement = PlacementType.MoveAndSize` för att hålla bilden justerad med C6 när kolumnen eller raden ändras.
 7. Lägg eventuellt till exempeltext i omgivande celler för att visa att bara cell C6 innehåller bilden.
@@ -58,8 +58,8 @@ const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-const fs_stream = fs.createReadStream("logo.png");
-const picIndex = worksheet.getPictures().add(5, 2, fs_stream);
+const imageBytes = fs.readFileSync("logo.png");
+const picIndex = worksheet.getPictures().add(5, 2, imageBytes);
 const picture = worksheet.getPictures().get(picIndex);
 picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);

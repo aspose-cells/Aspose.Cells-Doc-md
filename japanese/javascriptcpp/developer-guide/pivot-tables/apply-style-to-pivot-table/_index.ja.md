@@ -92,8 +92,7 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
             // ソース範囲 A1:C10 を使用して、宛先セル E3 にピボットテーブルを追加する
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // フィールドを割り当てる: Fruit -> 行、Amount -> データ
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -187,8 +186,7 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
             // A1:C10 をソースとして E3 にピボットテーブルを追加します。
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // ピボットフィールドを割り当てる: 果物 -> 行領域、年 -> 列領域、金額 -> データ領域
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -283,8 +281,7 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
             // A1:C10 をソースとし、E3 に配置するピボットテーブルを追加
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -401,8 +398,7 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
             // ピボットテーブルを追加: ソース範囲 A1:C10、宛先セル E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // ピボットフィールドを割り当て: Fruit -> 行領域、Year -> 列領域、Amount -> データ領域
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

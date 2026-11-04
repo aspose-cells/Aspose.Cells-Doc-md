@@ -72,8 +72,7 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
                 cells.get(i + 1, 2).value = data[i][2];
             }
             // 添加一个以 E3 单元格为锚点的数据透视表
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // 将字段添加到各自区域：水果作为行，数量作为数据，年份作为页字段
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -142,8 +141,7 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
             sheet.cells.get("A9").value = "blueberry"; sheet.cells.get("B9").value = "2021"; sheet.cells.get("C9").value = 350;
             sheet.cells.get("A10").value = "blueberry"; sheet.cells.get("B10").value = "2022"; sheet.cells.get("C10").value = 450;
             // 在 E3 处添加数据透视表，涵盖 A1:C10
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // Fruit → 行，Amount → 数据（Year 将在下方添加到 Page）
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -217,8 +215,7 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
             }
             // 在 E3 处创建数据透视表
             const pivotTables = sheet.pivotTables;
-            const pivotTableIndex = pivotTables.add("=A1:C7", "E3", "PivotTable1");
-            const pivotTable = pivotTables.get(pivotTableIndex);
+            const pivotTable = pivotTables.add("=A1:C7", 2, 4);
             // 配置数据透视字段：水果→行，金额→值，年份→页面
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -288,8 +285,7 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
                 cells.get("C5").value = "250";
                 // 在 E3 处添加数据透视表
                 const pivotTables = sheet.pivotTables;
-                const pivotTableIndex = pivotTables.add("=A1:C5", "E3", "PivotTable1");
-                const pivotTable = pivotTables.get(pivotTableIndex);
+                const pivotTable = pivotTables.add("=A1:C5", 2, 4);
                 // 添加字段：水果→行，金额→数据，年份→页
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -367,8 +363,7 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
                 }
                 const pivotSheet = workbook.worksheets.add("Pivot");
                 const pivots = pivotSheet.pivotTables;
-                const pivotTableIndex = pivots.add("=A1:C10", "E3", "PivotTable1");
-                const pivotTable = pivots.get(pivotTableIndex);
+                const pivotTable = pivots.add("=A1:C10", 2, 4);
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");

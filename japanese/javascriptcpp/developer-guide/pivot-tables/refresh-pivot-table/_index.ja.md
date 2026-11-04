@@ -148,12 +148,7 @@ Aspose.Cells は、ワークブック全体から単一のピボットテーブ�
             cells.get("B9").value = 2021;
             cells.get("C9").value = 120;
             // ピボットテーブルを追加: ソース範囲 "A1:C9"、宛先セル "E3"
-            const pivotTableIndex = worksheet.pivotTables.add(
-                "=A1:C9",
-                "E3",
-                "PivotTable1"
-            );
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
             // ピボットフィールドを割り当て: Fruit を行、Year を列、Amount をデータ領域に設定
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -234,8 +229,7 @@ Aspose.Cells は、ワークブック全体から単一のピボットテーブ�
                 cells.get("A9").value = "cherry";
                 cells.get("B9").value = 2020;
                 cells.get("C9").value = 140;
-                const pivotTableIndex = worksheet.pivotTables.add("=A1:C9", "E3", "PivotTable1");
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -321,12 +315,7 @@ Aspose.Cells は、ワークブック全体から単一のピボットテーブ�
                 cells.get("B9").value = 2021;
                 cells.get("C9").value = 450;
                 // 宛先セル E3 に配置し、A1:C9 をデータ元とするピボットテーブルを追加します
-                const pivotTableIndex = worksheet.pivotTables.add(
-                    "=A1:C9",
-                    "E3",
-                    "PivotTable1"
-                );
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 // フィールドを割り当てます：Fruit を Row、Year を Column、Amount を Data に設定
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

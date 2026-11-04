@@ -72,8 +72,7 @@ L’esempio seguente crea un piccolo set di dati `Fruit` / `Year` / `Amount`, co
                 cells.get(i + 1, 2).value = data[i][2];
             }
             // Aggiungi una tabella pivot ancorata alla cella E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Aggiungi i campi alle rispettive aree: Fruit come riga, Amount come dati, Year come campo di pagina
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -142,8 +141,7 @@ Quando si lavora già con un’istanza di `PivotField`, è possibile passarla di
             sheet.cells.get("A9").value = "blueberry"; sheet.cells.get("B9").value = "2021"; sheet.cells.get("C9").value = 350;
             sheet.cells.get("A10").value = "blueberry"; sheet.cells.get("B10").value = "2022"; sheet.cells.get("C10").value = 450;
             // Aggiungi la tabella pivot in E3 che copre A1:C10
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // Fruit → Riga, Amount → Dati (Year verrà aggiunto alla pagina qui sotto)
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -217,8 +215,7 @@ L’impostazione di `currentPageItem` sul valore magico `0x7FFD` equivale a canc
             }
             // Crea una tabella pivot in E3
             const pivotTables = sheet.pivotTables;
-            const pivotTableIndex = pivotTables.add("=A1:C7", "E3", "PivotTable1");
-            const pivotTable = pivotTables.get(pivotTableIndex);
+            const pivotTable = pivotTables.add("=A1:C7", 2, 4);
             // Configura i campi pivot: Fruit→Row, Amount→Data, Year→Page
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -288,8 +285,7 @@ L’impostazione di `currentPageItem` su un indice valido seleziona soltanto tal
                 cells.get("C5").value = "250";
                 // Aggiungi una tabella pivot a E3
                 const pivotTables = sheet.pivotTables;
-                const pivotTableIndex = pivotTables.add("=A1:C5", "E3", "PivotTable1");
-                const pivotTable = pivotTables.get(pivotTableIndex);
+                const pivotTable = pivotTables.add("=A1:C5", 2, 4);
                 // Aggiungi campi: Fruit→Riga, Amount→Dati, Year→Pagina
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -367,8 +363,7 @@ Il filtro con selezione multipla trasforma il menu a discesa del filtro in un el
                 }
                 const pivotSheet = workbook.worksheets.add("Pivot");
                 const pivots = pivotSheet.pivotTables;
-                const pivotTableIndex = pivots.add("=A1:C10", "E3", "PivotTable1");
-                const pivotTable = pivots.get(pivotTableIndex);
+                const pivotTable = pivots.add("=A1:C10", 2, 4);
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");

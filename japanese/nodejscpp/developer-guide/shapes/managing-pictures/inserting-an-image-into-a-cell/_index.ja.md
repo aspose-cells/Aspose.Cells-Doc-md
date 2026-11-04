@@ -46,7 +46,7 @@ Aspose.Cells の行と列のインデックスは**ゼロベース**です。セ
 1. 新しい `Workbook` を作成します (または既存のものを開きます)。
 2. `workbook.worksheets[0]` から対象の `Worksheet` にアクセスします。
 3. ディスクから画像ファイルをストリームに開き、使用後にストリームが適切に閉じられることを確認します。
-4. `worksheet.pictures.add(5, 2, stream)` を呼び出して、セル C6 にアンカーされた画像を追加します。返された `Picture` 参照を取得します。
+4. `worksheet.pictures.add(5, 2, imageBytes)` を呼び出して、セル C6 にアンカーされた画像を追加します。返された `Picture` 参照を取得します。
 5. 4 つのアンカー座標を設定して、セル C6 のみを覆うようにします: `upperLeftRow = 5`、`upperLeftColumn = 2`、`lowerRightRow = 6`、`lowerRightColumn = 3`。
 6. 列または行のサイズが変更されたときに画像が C6 に揃えられたままになるように、`picture.placement = PlacementType.MoveAndSize` を設定します。
 7. 必要に応じて、周囲のセルにサンプルテキストを追加して、セル C6 のみが画像を含むことを示します。
@@ -58,8 +58,8 @@ const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-const fs_stream = fs.createReadStream("logo.png");
-const picIndex = worksheet.getPictures().add(5, 2, fs_stream);
+const imageBytes = fs.readFileSync("logo.png");
+const picIndex = worksheet.getPictures().add(5, 2, imageBytes);
 const picture = worksheet.getPictures().get(picIndex);
 picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);

@@ -46,7 +46,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 1. أنشئ `Workbook` جديدًا (أو افتح ملفًا موجودًا).
 2. الوصول إلى `Worksheet` المستهدف من `workbook.worksheets[0]`.
 3. افتح ملف الصورة من القرص في دفق، مع التأكد من إغلاق الدفق بشكل صحيح بعد الاستخدام.
-4. استدعِ `worksheet.pictures.add(5, 2, stream)` لإضافة صورة مُرتبطة بالخلية C6. احفظ مرجع `Picture` المُعاد.
+4. استدعِ `worksheet.pictures.add(5, 2, imageBytes)` لإضافة صورة مُرتبطة بالخلية C6. احفظ مرجع `Picture` المُعاد.
 5. عيّن إحداثيات الإرساء الأربعة بحيث تغطي الصورة الخلية C6 فقط: `upperLeftRow = 5`، `upperLeftColumn = 2`، `lowerRightRow = 6`، `lowerRightColumn = 3`.
 6. عيّن `picture.placement = PlacementType.MoveAndSize` للحفاظ على محاذاة الصورة مع C6 عند تغيير حجم العمود أو الصف.
 7. اختياريًا، أضف نصًا نموذجيًا إلى الخلايا المحاورة لإثبات أن الخلية C6 فقط تحتوي على الصورة.
@@ -58,8 +58,8 @@ const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-const fs_stream = fs.createReadStream("logo.png");
-const picIndex = worksheet.getPictures().add(5, 2, fs_stream);
+const imageBytes = fs.readFileSync("logo.png");
+const picIndex = worksheet.getPictures().add(5, 2, imageBytes);
 const picture = worksheet.getPictures().get(picIndex);
 picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);

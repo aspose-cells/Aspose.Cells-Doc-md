@@ -46,7 +46,7 @@ Zeilen- und Spaltenindizes in Aspose.Cells sind **nullbasiert**. Zelle C6 hat de
 1. Erstellen Sie eine neue `Workbook` (oder öffnen Sie eine vorhandene).
 2. Greifen Sie auf das Ziel-`Worksheet` über `workbook.worksheets[0]` zu.
 3. Öffnen Sie die Bilddatei von der Festplatte in einen Stream und stellen Sie sicher, dass der Stream nach der Verwendung ordnungsgemäß geschlossen wird.
-4. Rufen Sie `worksheet.pictures.add(5, 2, stream)` auf, um ein an Zelle C6 verankertes Bild hinzuzufügen. Erfassen Sie die zurückgegebene `Picture`-Referenz.
+4. Rufen Sie `worksheet.pictures.add(5, 2, imageBytes)` auf, um ein an Zelle C6 verankertes Bild hinzuzufügen. Erfassen Sie die zurückgegebene `Picture`-Referenz.
 5. Setzen Sie die vier Anker-Koordinaten so, dass das Bild nur die Zelle C6 abdeckt: `upperLeftRow = 5`, `upperLeftColumn = 2`, `lowerRightRow = 6`, `lowerRightColumn = 3`.
 6. Setzen Sie `picture.placement = PlacementType.MoveAndSize`, um das Bild an C6 ausgerichtet zu halten, wenn die Spalte oder Zeile in der Größe geändert wird.
 7. Optional können Sie Beispieltext zu umgebenden Zellen hinzufügen, um zu zeigen, dass nur Zelle C6 das Bild enthält.
@@ -58,8 +58,8 @@ const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-const fs_stream = fs.createReadStream("logo.png");
-const picIndex = worksheet.getPictures().add(5, 2, fs_stream);
+const imageBytes = fs.readFileSync("logo.png");
+const picIndex = worksheet.getPictures().add(5, 2, imageBytes);
 const picture = worksheet.getPictures().get(picIndex);
 picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);

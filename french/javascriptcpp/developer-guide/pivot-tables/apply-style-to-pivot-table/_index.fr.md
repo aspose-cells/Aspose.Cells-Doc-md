@@ -93,8 +93,7 @@ L’exemple suivant charge un nouveau classeur, remplit le jeu de données d’e
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
             // Ajouter un tableau croisé dynamique à la cellule de destination E3, en utilisant la plage source A1:C10
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // Affecter les champs : Fruit -> Lignes, Amount -> Données
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -188,8 +187,7 @@ Ce scénario réutilise le jeu de données Fruit/Year/Amount du Scénario 1, ajo
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
             // Ajouter un tableau croisé dynamique à E3, utilisant A1:C10 comme source
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Affecter les champs du tableau croisé dynamique : Fruit -> zone des lignes, Year -> zone des colonnes, Amount -> zone des données
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -284,8 +282,7 @@ L’exemple suivant définit un style personnalisé de tableau croisé dynamique
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
             // Ajouter un tableau croisé dynamique utilisant A1:C10 comme source et ancré à E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -402,8 +399,7 @@ L’exemple suivant crée un `style` avec un remplissage jaune uni, une police b
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
             // Ajouter un tableau croisé dynamique : plage source A1:C10, cellule de destination E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Affecter les champs du tableau croisé dynamique : Fruit -> zone des lignes, Year -> zone des colonnes, Amount -> zone des données
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

@@ -54,10 +54,9 @@ for (const [r, row] of rows.entries()) {
 }
 // --- Pivot table ------------------------------------------------------------
 const pivotTables = sheet.getPivotTables();
-const pivotTableIndex = pivotTables.add("A1:C7", 0, 4);
-const pivotTable = pivotTables.get(pivotTableIndex);
-pivotTable.getRowFields().add("Region");
-pivotTable.getDataFields().add("Sales");
+const pivotTable = pivotTables.add("A1:C7", 0, 4);
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Region");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
 const salesField = pivotTable.getDataFields().get(0);
 // --- ShowValuesAs -----------------------------------------------------------
 const displayFormat = pickEnum(
@@ -168,9 +167,9 @@ console.log(`BaseItemIndex: ${settings.getBaseItemIndex()}`);
 // Switch to a base-item calculation with the one-call method: difference
 // from the value of the previous item in the row field
 dataField.showValuesAs(
-    AsposeCells.Pivot.PivotFieldDataDisplayFormat.DifferenceFrom,
+    AsposeCells.PivotFieldDataDisplayFormat.DifferenceFrom,
     pivotTable.getRowFields().get(0).getBaseIndex(),
-    AsposeCells.Pivot.PivotItemPositionType.Previous,
+    AsposeCells.PivotItemPositionType.Previous,
     0
 );
 pivotTable.calculateData();

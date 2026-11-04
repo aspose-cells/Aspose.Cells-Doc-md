@@ -46,7 +46,7 @@ Aspose.Cells поддерживает этот сценарий двумя вз�
 1. Создайте новый `Workbook` (или откройте существующий).
 2. Получите целевой `Worksheet` через `workbook.worksheets[0]`.
 3. Откройте файл изображения с диска в поток, обеспечив корректное закрытие потока после использования.
-4. Вызовите `worksheet.pictures.add(5, 2, stream)`, чтобы добавить изображение, привязанное к ячейке C6. Сохраните возвращённую ссылку на `Picture`.
+4. Вызовите `worksheet.pictures.add(5, 2, imageBytes)`, чтобы добавить изображение, привязанное к ячейке C6. Сохраните возвращённую ссылку на `Picture`.
 5. Задайте четыре координаты привязки так, чтобы изображение покрывало только ячейку C6: `upperLeftRow = 5`, `upperLeftColumn = 2`, `lowerRightRow = 6`, `lowerRightColumn = 3`.
 6. Установите `picture.placement = PlacementType.MoveAndSize`, чтобы изображение оставалось выровненным по C6 при изменении ширины столбца или высоты строки.
 7. При необходимости добавьте пример текста в окружающие ячейки, чтобы показать, что только ячейка C6 содержит изображение.
@@ -58,8 +58,8 @@ const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-const fs_stream = fs.createReadStream("logo.png");
-const picIndex = worksheet.getPictures().add(5, 2, fs_stream);
+const imageBytes = fs.readFileSync("logo.png");
+const picIndex = worksheet.getPictures().add(5, 2, imageBytes);
 const picture = worksheet.getPictures().get(picIndex);
 picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);

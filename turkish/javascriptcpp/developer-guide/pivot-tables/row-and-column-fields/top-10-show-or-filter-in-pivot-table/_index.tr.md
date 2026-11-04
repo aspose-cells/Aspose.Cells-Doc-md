@@ -66,8 +66,7 @@ Satır alanının öğelerini Satışların Toplamı gibi sıradan bir değer al
                     row++;
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C16", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();
@@ -133,8 +132,7 @@ Bir alan kendisiyle de sıralanabilir; bunun için `autoShowField` özelliğine 
                     row++;
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C16", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();

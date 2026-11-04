@@ -136,7 +136,6 @@ The workflows above rely on a small set of Aspose.Cells APIs working together.
 - `ImageOrPrintOptions.ImageType` lives in the `Aspose.Cells.Drawing` namespace and selects the picture format (for example, `ImageType.Png`) used when rendering with `ToImage` and when printing worksheets to images.
 
 ## **Related Articles**
-
 - [Inserting an Image into a Cell](/cells/net/inserting-an-image-into-a-cell/)
 
 {{< app/cells/assistant language="csharp" >}}

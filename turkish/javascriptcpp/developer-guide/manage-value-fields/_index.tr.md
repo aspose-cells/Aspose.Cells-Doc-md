@@ -58,8 +58,7 @@ Bir temel alanı veri (değer) bölgesine eklemek, bir özet tablonun kaynak ver
                     worksheet.cells.get(i + 1, j).value = data[i][j];
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -131,8 +130,7 @@ Bir alan veri bölgesine eklendiğinde, Aspose.Cells onu `pivotTable.getDataFiel
                     worksheet.cells.get(i + 1, j).value = data[i][j];
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -206,8 +204,7 @@ Bir özet tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `piv
                     cells.get(i + 1, j).value = data[i][j];
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:D9", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:D9", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Category");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Item");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

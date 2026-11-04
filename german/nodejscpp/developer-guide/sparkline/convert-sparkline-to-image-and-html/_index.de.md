@@ -38,52 +38,52 @@ const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// Beispieldaten in die Zellen A1:E1 einfügen
+// Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Eine Liniendiagramm-Sparkline-Gruppe hinzufügen, verankert bei F1 (Spalte 5, Zeile 0)
+// Add a Line sparkline group anchored at F1 (column 5, row 0)
 let lineArea = new AsposeCells.CellArea();
-lineArea.StartColumn = 5;
-lineArea.EndColumn = 5;
-lineArea.StartRow = 0;
-lineArea.EndRow = 0;
+lineArea.startColumn = 5;
+lineArea.endColumn = 5;
+lineArea.startRow = 0;
+lineArea.endRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
-// Eine Spaltendiagramm-Sparkline-Gruppe hinzufügen, verankert bei G1 (Spalte 6, Zeile 0)
+// Add a Column sparkline group anchored at G1 (column 6, row 0)
 let columnArea = new AsposeCells.CellArea();
-columnArea.StartColumn = 6;
-columnArea.EndColumn = 6;
-columnArea.StartRow = 0;
-columnArea.EndRow = 0;
+columnArea.startColumn = 6;
+columnArea.endColumn = 6;
+columnArea.startRow = 0;
+columnArea.endRow = 0;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
-// Eine Win/Loss-(Gestapelte) Sparkline-Gruppe hinzufügen, verankert bei H1 (Spalte 7, Zeile 0)
+// Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.StartColumn = 7;
-stackedArea.EndColumn = 7;
-stackedArea.StartRow = 0;
-stackedArea.EndRow = 0;
+stackedArea.startColumn = 7;
+stackedArea.endColumn = 7;
+stackedArea.startRow = 0;
+stackedArea.endRow = 0;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
-// Bildoptionen für PNG-Ausgabe konfigurieren
+// Configure image options for PNG output
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
 imageOptions.setImageType(AsposeCells.ImageType.Png);
-// Die Liniendiagramm-Sparkline in ein Bild konvertieren und in Zelle F2 einbetten
+// Convert the Line sparkline to image and embed it in cell F2
 let lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 let linePath = "line_sparkline.png";
 lineSp.toImage(linePath, imageOptions);
 worksheet.getCells().get("F2").setEmbeddedImage(fs.readFileSync(linePath));
-// Die Spaltendiagramm-Sparkline in ein Bild konvertieren und in Zelle G2 einbetten
+// Convert the Column sparkline to image and embed it in cell G2
 let columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0);
 let columnPath = "column_sparkline.png";
 columnSp.toImage(columnPath, imageOptions);
 worksheet.getCells().get("G2").setEmbeddedImage(fs.readFileSync(columnPath));
-// Die Win/Loss-Sparkline in ein Bild konvertieren und in Zelle H2 einbetten
+// Convert the Win/Loss sparkline to image and embed it in cell H2
 let stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0);
 let stackedPath = "stacked_sparkline.png";
 stackedSp.toImage(stackedPath, imageOptions);
 worksheet.getCells().get("H2").setEmbeddedImage(fs.readFileSync(stackedPath));
-// Die Arbeitsmappe auf der Festplatte speichern
+// Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx");
 ```
 

@@ -46,7 +46,7 @@ Los índices de fila y columna en Aspose.Cells están **basados en cero**. La ce
 1. Cree un nuevo `Workbook` (o abra uno existente).
 2. Acceda al `Worksheet` de destino desde `workbook.worksheets[0]`.
 3. Abra el archivo de imagen desde el disco en un flujo, asegurándose de que el flujo se cierre correctamente después de su uso.
-4. Llame a `worksheet.pictures.add(5, 2, stream)` para agregar una imagen anclada a la celda C6. Capture la referencia del `Picture` devuelto.
+4. Llame a `worksheet.pictures.add(5, 2, imageBytes)` para agregar una imagen anclada a la celda C6. Capture la referencia del `Picture` devuelto.
 5. Establezca las cuatro coordenadas de anclaje para que la imagen cubra solo la celda C6: `upperLeftRow = 5`, `upperLeftColumn = 2`, `lowerRightRow = 6`, `lowerRightColumn = 3`.
 6. Establezca `picture.placement = PlacementType.MoveAndSize` para mantener la imagen alineada con C6 cuando se cambie el tamaño de la columna o la fila.
 7. Opcionalmente, agregue texto de muestra a las celdas circundantes para demostrar que solo la celda C6 contiene la imagen.
@@ -58,8 +58,8 @@ const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-const fs_stream = fs.createReadStream("logo.png");
-const picIndex = worksheet.getPictures().add(5, 2, fs_stream);
+const imageBytes = fs.readFileSync("logo.png");
+const picIndex = worksheet.getPictures().add(5, 2, imageBytes);
 const picture = worksheet.getPictures().get(picIndex);
 picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);

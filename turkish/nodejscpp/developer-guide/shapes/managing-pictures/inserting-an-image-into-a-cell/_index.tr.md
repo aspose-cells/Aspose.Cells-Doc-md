@@ -46,7 +46,7 @@ Aspose.Cells'teki satır ve sütun dizinleri **sıfır tabanlıdır**. C6 hücre
 1. Yeni bir `Workbook` oluşturun (veya mevcut birini açın).
 2. Hedef `Worksheet`'e `workbook.worksheets[0]` üzerinden erişin.
 3. Görüntü dosyasını diskten bir akışa açın ve akışın kullanımdan sonra düzgün bir şekilde kapatıldığından emin olun.
-4. C6 hücresine sabitlenmiş bir resim eklemek için `worksheet.pictures.add(5, 2, stream)` çağrısı yapın. Döndürülen `Picture` referansını yakalayın.
+4. C6 hücresine sabitlenmiş bir resim eklemek için `worksheet.pictures.add(5, 2, imageBytes)` çağrısı yapın. Döndürülen `Picture` referansını yakalayın.
 5. Resmin yalnızca C6 hücresini kaplaması için dört bağlantı koordinatını ayarlayın: `upperLeftRow = 5`, `upperLeftColumn = 2`, `lowerRightRow = 6`, `lowerRightColumn = 3`.
 6. Sütun veya satır yeniden boyutlandırıldığında resmin C6 ile hizalı kalmasını sağlamak için `picture.placement = PlacementType.MoveAndSize` ayarlayın.
 7. İsteğe bağlı olarak, yalnızca C6 hücresinin resmi içerdiğini göstermek için çevreleyen hücrelere örnek metin ekleyin.
@@ -58,8 +58,8 @@ const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-const fs_stream = fs.createReadStream("logo.png");
-const picIndex = worksheet.getPictures().add(5, 2, fs_stream);
+const imageBytes = fs.readFileSync("logo.png");
+const picIndex = worksheet.getPictures().add(5, 2, imageBytes);
 const picture = worksheet.getPictures().get(picIndex);
 picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);

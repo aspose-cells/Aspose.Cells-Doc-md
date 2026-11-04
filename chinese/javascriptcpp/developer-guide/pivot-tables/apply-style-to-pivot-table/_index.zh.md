@@ -93,8 +93,7 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
             // 在目标单元格 E3 处添加数据透视表，使用源范围 A1:C10
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // 分配字段：Fruit -> 行，Amount -> 数据
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -188,8 +187,7 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
             // 在 E3 处添加数据透视图，源数据范围为 A1:C10
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // 分配数据透视字段：水果 -> 行区域，年份 -> 列区域，金额 -> 数据区域
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -283,8 +281,7 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
             // Add pivot table sourced from A1:C10, anchored at E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -401,8 +398,7 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
             // 添加数据透视表：源范围 A1:C10，目标单元格 E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // 分配数据透视字段：Fruit -> 行区域，Year -> 列区域，Amount -> 数据区域
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

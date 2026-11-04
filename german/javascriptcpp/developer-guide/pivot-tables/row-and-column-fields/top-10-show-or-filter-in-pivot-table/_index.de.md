@@ -66,8 +66,7 @@ Ordnen Sie die Elemente des Zeilenfelds anhand eines gewöhnlichen Wertfelds wie
                     row++;
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C16", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();
@@ -133,8 +132,7 @@ Ein Feld kann ebenfalls nach seinen eigenen Werten geordnet werden – übergebe
                     row++;
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C16", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();

@@ -57,8 +57,7 @@ func main() {
 		}
 	}
 	pivotTables, _ := worksheet.GetPivotTables()
-	idx, _ := pivotTables.Add_String_String_String_Bool_Bool("A1:C16", "F3", "PivotTable1", true, false)
-	pivotTable, _ := pivotTables.Get_Int(idx)
+	pivotTable, _ := pivotTables.Add_String_Int_Int("A1:C16", 2, 5)
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Row, "Sport")
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Data, "Sales")
 	pivotTable.CalculateData()
@@ -108,8 +107,7 @@ func main() {
 		}
 	}
 	pivotTables, _ := worksheet.GetPivotTables()
-	idx, _ := pivotTables.Add_String_String_String_Bool_Bool("A1:C16", "F3", "PivotTable1", true, false)
-	pivotTable, _ := pivotTables.Get_Int(idx)
+	pivotTable, _ := pivotTables.Add_String_Int_Int("A1:C16", 2, 5)
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Row, "Sport")
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Data, "Sales")
 	pivotTable.CalculateData()
@@ -206,8 +204,7 @@ func main() {
 		}
 	}
 	pivotTables, _ := worksheet.GetPivotTables()
-	idx, _ := pivotTables.Add_String_String_String_Bool_Bool("A1:C16", "F3", "PivotTable1", true, false)
-	pivotTable, _ := pivotTables.Get_Int(idx)
+	pivotTable, _ := pivotTables.Add_String_Int_Int("A1:C16", 2, 5)
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Row, "Sport")
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Data, "Sales")
 	pivotTable.CalculateData()

@@ -46,7 +46,7 @@ Row and column indices in Aspose.Cells are **zero-based**. Cell C6 has row index
 1. Create a new `Workbook` (or open an existing one).
 2. Access the target `Worksheet` from `workbook.worksheets[0]`.
 3. Open the image file from disk into a stream, ensuring the stream is properly closed after use.
-4. Call `worksheet.pictures.add(5, 2, stream)` to add a picture anchored to cell C6. Capture the returned `Picture` reference.
+4. Call `worksheet.pictures.add(5, 2, imageBytes)` to add a picture anchored to cell C6. Capture the returned `Picture` reference.
 5. Set the four anchor coordinates so the picture covers only cell C6: `upperLeftRow = 5`, `upperLeftColumn = 2`, `lowerRightRow = 6`, `lowerRightColumn = 3`.
 6. Set `picture.placement = PlacementType.MoveAndSize` to keep the picture aligned with C6 when the column or row is resized.
 7. Optionally add sample text to surrounding cells to demonstrate that only cell C6 contains the picture.
@@ -58,8 +58,8 @@ const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-const fs_stream = fs.createReadStream("logo.png");
-const picIndex = worksheet.getPictures().add(5, 2, fs_stream);
+const imageBytes = fs.readFileSync("logo.png");
+const picIndex = worksheet.getPictures().add(5, 2, imageBytes);
 const picture = worksheet.getPictures().get(picIndex);
 picture.setUpperLeftRow(5);
 picture.setUpperLeftColumn(2);

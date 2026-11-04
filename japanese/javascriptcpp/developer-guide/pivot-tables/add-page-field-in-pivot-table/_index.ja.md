@@ -72,8 +72,7 @@ Aspose.Cells は、ピボットテーブルのフィルターフィールドに�
                 cells.get(i + 1, 2).value = data[i][2];
             }
             // E3セルを基準位置とするピボットテーブルを追加する
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // フィールドを各領域に追加する：FruitをRow、AmountをData、YearをPageフィールドとして設定
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -143,8 +142,7 @@ Aspose.Cells は、ピボットテーブルのフィルターフィールドに�
             sheet.cells.get("A9").value = "blueberry"; sheet.cells.get("B9").value = "2021"; sheet.cells.get("C9").value = 350;
             sheet.cells.get("A10").value = "blueberry"; sheet.cells.get("B10").value = "2022"; sheet.cells.get("C10").value = 450;
             // A1:C10 をカバーし、E3 にピボットテーブルを追加
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // Fruit -> Row、Amount -> Data（Year は後で Page に配置）
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -218,8 +216,7 @@ Aspose.Cells は、ピボットテーブルのフィルターフィールドに�
             }
             // E3にピボットテーブルを作成します
             const pivotTables = sheet.pivotTables;
-            const pivotTableIndex = pivotTables.add("=A1:C7", "E3", "PivotTable1");
-            const pivotTable = pivotTables.get(pivotTableIndex);
+            const pivotTable = pivotTables.add("=A1:C7", 2, 4);
             // ピボットフィールドを構成します：果物→行、金額→データ、年→ページ
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -289,8 +286,7 @@ Aspose.Cells は、ピボットテーブルのフィルターフィールドに�
                 cells.get("C5").value = "250";
                 // E3にピボットテーブルを追加
                 const pivotTables = sheet.pivotTables;
-                const pivotTableIndex = pivotTables.add("=A1:C5", "E3", "PivotTable1");
-                const pivotTable = pivotTables.get(pivotTableIndex);
+                const pivotTable = pivotTables.add("=A1:C5", 2, 4);
                 // フィールドを追加: Fruit→行、Amount→データ、Year→ページ
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -368,8 +364,7 @@ Aspose.Cells は、ピボットテーブルのフィルターフィールドに�
                 }
                 const pivotSheet = workbook.worksheets.add("Pivot");
                 const pivots = pivotSheet.pivotTables;
-                const pivotTableIndex = pivots.add("=A1:C10", "E3", "PivotTable1");
-                const pivotTable = pivots.get(pivotTableIndex);
+                const pivotTable = pivots.add("=A1:C10", 2, 4);
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");

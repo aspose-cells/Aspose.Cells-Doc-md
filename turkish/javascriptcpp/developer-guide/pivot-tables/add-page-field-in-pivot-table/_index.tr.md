@@ -72,8 +72,7 @@ Aşağıdaki örnek, küçük bir `Fruit` / `Year` / `Amount` veri kümesi oluş
                 cells.get(i + 1, 2).value = data[i][2];
             }
             // E3 hücresine sabitlenmiş bir pivot tablo ekle
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Alanları ilgili alanlara ekle: Fruit Satır, Amount Veri, Year Sayfa alanı olarak
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -142,8 +141,7 @@ Halihazırda bir `PivotField` örneğiyle çalışıyorsanız, bu nesneyi doğru
             sheet.cells.get("A9").value = "blueberry"; sheet.cells.get("B9").value = "2021"; sheet.cells.get("C9").value = 350;
             sheet.cells.get("A10").value = "blueberry"; sheet.cells.get("B10").value = "2022"; sheet.cells.get("C10").value = 450;
             // E3 konumunda A1:C10 aralığını kapsayan pivot tabloyu ekle
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // Fruit -> Satır, Amount -> Veri (Year aşağıda Sayfa alanına gidecek)
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -217,8 +215,7 @@ Varsayılan tekli seçim davranışında filtre alanı tek bir açılır liste o
             }
             // E3 konumunda pivot tablo oluştur
             const pivotTables = sheet.pivotTables;
-            const pivotTableIndex = pivotTables.add("=A1:C7", "E3", "PivotTable1");
-            const pivotTable = pivotTables.get(pivotTableIndex);
+            const pivotTable = pivotTables.add("=A1:C7", 2, 4);
             // Pivot alanlarını yapılandır: Fruit→Satır, Amount→Veri, Year→Sayfa
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -288,8 +285,7 @@ Varsayılan tekli seçim davranışında filtre alanı tek bir açılır liste o
                 cells.get("C5").value = "250";
                 // Add pivot table at E3
                 const pivotTables = sheet.pivotTables;
-                const pivotTableIndex = pivotTables.add("=A1:C5", "E3", "PivotTable1");
-                const pivotTable = pivotTables.get(pivotTableIndex);
+                const pivotTable = pivotTables.add("=A1:C5", 2, 4);
                 // Add fields: Fruit→Row, Amount→Data, Year→Page
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -367,8 +363,7 @@ Varsayılan tekli seçim davranışında filtre alanı tek bir açılır liste o
                 }
                 const pivotSheet = workbook.worksheets.add("Pivot");
                 const pivots = pivotSheet.pivotTables;
-                const pivotTableIndex = pivots.add("=A1:C10", "E3", "PivotTable1");
-                const pivotTable = pivots.get(pivotTableIndex);
+                const pivotTable = pivots.add("=A1:C10", 2, 4);
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");

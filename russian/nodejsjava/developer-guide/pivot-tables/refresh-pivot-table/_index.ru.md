@@ -33,8 +33,8 @@ Aspose.Cells предоставляет многоуровневый API обн�
 Если вам нужен только минимально возможный код для обновления всех сводных таблиц в рабочей книге, достаточно одного вызова:
 
 ```javascript
-const aspose = require('aspose.cells');
-const workbook = new aspose.cells.Workbook("input.xlsx");
+const AsposeCells = require('aspose.cells');
+const workbook = new AsposeCells.Workbook("input.xlsx");
 workbook.refreshAll();
 workbook.save("output.xlsx");
 ```
@@ -42,7 +42,7 @@ workbook.save("output.xlsx");
 Всё остальное в этой статье объясняет, когда вместо этого выбрать более узкий API.
 
 ## Необходимые импорты
-- `const aspose = require('aspose.cells');`
+- `const AsposeCells = require('aspose.cells');`
 - Или для конкретных импортов: `const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
 ## Обновление всех сводных таблиц в рабочей книге

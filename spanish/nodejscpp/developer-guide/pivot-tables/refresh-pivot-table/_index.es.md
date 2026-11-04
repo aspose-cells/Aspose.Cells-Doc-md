@@ -44,7 +44,7 @@ El resto de este artículo explica cuándo elegir una API más específica en lu
 ## Required Imports
 Todos los ejemplos de JavaScript de este artículo asumen que el módulo Aspose.Cells para Node.js mediante C++ se ha cargado y que los tipos de tablas dinámicas residen en el espacio de nombres `Aspose.Cells.Pivot`. Una configuración típica es:
 - `const AsposeCells = require("aspose.cells.node");`
-- `const { PivotFieldType } = AsposeCells;` (o acceder vía `AsposeCells.Pivot.PivotFieldType`)
+- `const { PivotFieldType } = AsposeCells;` (o acceder vía `AsposeCells.PivotFieldType`)
 
 ## Refresh All Pivot Tables in the Workbook
 Cuando necesita garantizar que cada cache de tabla dinámica y cada tabla dinámica del libro refleje los datos de origen más recientes, la API más simple y completa es `Workbook.refreshAll()`. Una sola llamada recorre todo el libro de trabajo: actualiza cada `PivotCache` desde su origen y luego recalcula cada `PivotTable` dependiente. Este es el enfoque recomendado para actualizaciones generales y completas del documento cuando el rendimiento no es una preocupación.

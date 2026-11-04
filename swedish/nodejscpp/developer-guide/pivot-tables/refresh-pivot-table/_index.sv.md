@@ -44,7 +44,7 @@ Allt annat i den här artikeln förklarar när man bör välja ett mindre omfatt
 ## Required Imports
 Alla JavaScript-exempel i den här artikeln förutsätter att Aspose.Cells för Node.js via C++-modulen har laddats och att pivottyperna finns i `Aspose.Cells.Pivot`-namnrymden. En typisk inställning är:
 - `const AsposeCells = require("aspose.cells.node");`
-- `const { PivotFieldType } = AsposeCells;` (eller åtkomst via `AsposeCells.Pivot.PivotFieldType`)
+- `const { PivotFieldType } = AsposeCells;` (eller åtkomst via `AsposeCells.PivotFieldType`)
 
 ## Refresh All Pivot Tables in the Workbook
 När du behöver säkerställa att varje pivottillgång och varje pivottabell i arbetsboken återspeglar senaste källdata är det enklaste och mest omfattande API:et `Workbook.refreshAll()`. Ett enda anrop går igenom hela arbetsboken — uppdaterar varje `PivotCache` från dess källa och beräknar sedan om varjeberoende `PivotTable`. Detta är den rekommenderade metoden för generella, fullständiga dokumentuppdateringar där prestanda inte är en fråga.

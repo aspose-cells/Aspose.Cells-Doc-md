@@ -148,12 +148,7 @@ L’exemple suivant crée un classeur avec une plage source contenant des fruits
             cells.get("B9").value = 2021;
             cells.get("C9").value = 120;
             // Ajouter un tableau croisé dynamique : plage source "A1:C9", cellule de destination "E3"
-            const pivotTableIndex = worksheet.pivotTables.add(
-                "=A1:C9",
-                "E3",
-                "PivotTable1"
-            );
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
             // Attribuer les champs du tableau croisé dynamique : Fruit aux lignes, Year aux colonnes, Amount aux données
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -234,8 +229,7 @@ Parfois, vous n’avez besoin d’actualiser que les Tableaux Croisés Dynamique
                 cells.get("A9").value = "cherry";
                 cells.get("B9").value = 2020;
                 cells.get("C9").value = 140;
-                const pivotTableIndex = worksheet.pivotTables.add("=A1:C9", "E3", "PivotTable1");
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -321,12 +315,7 @@ L’exemple suivant modifie une propriété qui ne concerne pas la source du Tab
                 cells.get("B9").value = 2021;
                 cells.get("C9").value = 450;
                 // Ajouter un tableau croisé dynamique à la cellule de destination E3, avec A1:C9 comme source
-                const pivotTableIndex = worksheet.pivotTables.add(
-                    "=A1:C9",
-                    "E3",
-                    "PivotTable1"
-                );
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 // Affecter les champs : Fruit aux lignes, Year aux colonnes, Amount aux données
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

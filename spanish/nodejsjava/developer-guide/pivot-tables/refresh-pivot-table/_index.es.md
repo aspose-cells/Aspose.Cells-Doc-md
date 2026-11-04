@@ -33,8 +33,8 @@ Todos los escenarios de este artículo usan datos de origen de celdas de la hoja
 Si solo necesita el código más corto posible que actualice cada tabla dinámica del libro, basta con una sola llamada:
 
 ```javascript
-const aspose = require('aspose.cells');
-const workbook = new aspose.cells.Workbook("input.xlsx");
+const AsposeCells = require('aspose.cells');
+const workbook = new AsposeCells.Workbook("input.xlsx");
 workbook.refreshAll();
 workbook.save("output.xlsx");
 ```
@@ -42,7 +42,7 @@ workbook.save("output.xlsx");
 Todo lo demás de este artículo explica cuándo elegir una API más específica en su lugar.
 
 ## Importaciones Requeridas
-- `const aspose = require('aspose.cells');`
+- `const AsposeCells = require('aspose.cells');`
 - O para importaciones específicas: `const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
 ## Actualizar Todas las Tablas Dinámicas del Libro

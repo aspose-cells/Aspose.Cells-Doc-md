@@ -148,12 +148,7 @@ Das folgende Beispiel erstellt eine Arbeitsmappe mit einem Quellbereich für die
             cells.get("B9").value = 2021;
             cells.get("C9").value = 120;
             // Pivot-Tabelle hinzufügen: Quellbereich "A1:C9", ZieldZelle "E3"
-            const pivotTableIndex = worksheet.pivotTables.add(
-                "=A1:C9",
-                "E3",
-                "PivotTable1"
-            );
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
             // Pivot-Felder zuweisen: Fruit zu Zeilen, Year zu Spalten, Amount zu Daten
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -234,8 +229,7 @@ Manchmal müssen Sie nur die PivotTables eines bestimmten Arbeitsblatts aktualis
                 cells.get("A9").value = "cherry";
                 cells.get("B9").value = 2020;
                 cells.get("C9").value = 140;
-                const pivotTableIndex = worksheet.pivotTables.add("=A1:C9", "E3", "PivotTable1");
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -321,12 +315,7 @@ Das folgende Beispiel ändert eine Eigenschaft, die nicht die Datenquelle betrif
                 cells.get("B9").value = 2021;
                 cells.get("C9").value = 450;
                 // Eine Pivot-Tabelle hinzufügen, die in der Zielzelle E3 platziert wird und ihre Daten aus A1:C9 bezieht
-                const pivotTableIndex = worksheet.pivotTables.add(
-                    "=A1:C9",
-                    "E3",
-                    "PivotTable1"
-                );
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 // Felder zuweisen: Fruit der Zeile, Year der Spalte, Amount den Daten
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

@@ -93,8 +93,7 @@ Aşağıdaki örnek yeni bir çalışma kitabı yükler, Fruit/Year/Amount örne
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
             // Add a pivot table at destination cell E3, using source range A1:C10
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // Assign fields: Fruit -> Rows, Amount -> Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -188,8 +187,7 @@ Bu senaryo, birinci senaryodaki Fruit/Year/Amount veri kümesini yeniden kullan�
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
             // E3 konumuna, A1:C10 kaynağından bir pivot tablo ekle
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Pivot alanlarını ata: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -284,8 +282,7 @@ Aşağıdaki örnek, `WholeTable` üzerinde ince siyah kenarlık ve `GrandTotalR
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
             // A1:C10 kaynaklı pivot tablo ekle ve E3 konumuna sabitle
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -402,8 +399,7 @@ Aşağıdaki örnek, sarı düz dolguya, kalın koyu mavi yazı tipine ve dört 
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
             // Pivot tablo ekle: kaynak aralık A1:C10, hedef hücre E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Pivot alanlarını ata: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

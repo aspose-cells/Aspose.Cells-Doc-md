@@ -136,7 +136,6 @@ workbook.Save("sparklines.html", htmlOptions);
 - `ImageOrPrintOptions.ImageType` は `Aspose.Cells.Drawing` 名前空間に属し、`ToImage` でのレンダリング時およびワークシートを画像に印刷する際に使用される画像形式（たとえば `ImageType.Png`）を選択します。
 
 ## **関連記事**
-
 - [セルに画像を挿入する](/cells/ja/net/inserting-an-image-into-a-cell/)
 
 {{< app/cells/assistant language="csharp" >}}

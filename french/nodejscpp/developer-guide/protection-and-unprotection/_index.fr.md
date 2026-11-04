@@ -79,14 +79,14 @@ console.log("Structure protection has been successfully removed from the workboo
 ```
 
 ## Protéger et déprotéger les feuilles de calcul
-La protection de la feuille de calcul verrouille les cellules d'une feuille de calcul contre toute modification accidentelle ou délibérée. Les utilisateurs ne peuvent pas modifier les cellules verrouillées sans fournir le mot de passe. Il s'agit de la protection généralement utilisée pour sécuriser les formules, les en-têtes ou les zones de saisie de données désignées dans les feuilles de calcul partagées. Pour protéger une feuille de calcul, appelez `worksheet.protect(ProtectionType.All, "password")`. L'utilisation de `ProtectionType.All` active toutes les options de protection disponibles, telles que la sélection de cellules verrouillées, la mise en forme des cellules, l'insertion de lignes et de colonnes, ainsi que la suppression de lignes et de colonnes. Pour supprimer la protection, appelez `worksheet.unprotect("password")` avec le mot de passe correct. Un contrôle plus fin est disponible en combinant d'autres types de protection tels que `Contents`, `Objects` et `Scenarios` à l'aide de l'opérateur OR bit à bit.
+La protection de la feuille de calcul verrouille les cellules d'une feuille de calcul contre toute modification accidentelle ou délibérée. Les utilisateurs ne peuvent pas modifier les cellules verrouillées sans fournir le mot de passe. Il s'agit de la protection généralement utilisée pour sécuriser les formules, les en-têtes ou les zones de saisie de données désignées dans les feuilles de calcul partagées. Pour protéger une feuille de calcul, appelez `worksheet.protect(ProtectionType.All, "password", null)`. L'utilisation de `ProtectionType.All` active toutes les options de protection disponibles, telles que la sélection de cellules verrouillées, la mise en forme des cellules, l'insertion de lignes et de colonnes, ainsi que la suppression de lignes et de colonnes. Pour supprimer la protection, appelez `worksheet.unprotect("password")` avec le mot de passe correct. Un contrôle plus fin est disponible en combinant d'autres types de protection tels que `Contents`, `Objects` et `Scenarios` à l'aide de l'opérateur OR bit à bit.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 sheet.getCells().get("A1").putValue("Sample Data");
-sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd");
+sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd", null);
 workbook.save("sheet_protected.xlsx");
 let workbookReloaded = new AsposeCells.Workbook("sheet_protected.xlsx");
 let sheetReloaded = workbookReloaded.getWorksheets().get(0);

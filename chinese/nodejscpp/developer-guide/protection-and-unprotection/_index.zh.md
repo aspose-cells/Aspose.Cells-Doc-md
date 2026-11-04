@@ -79,14 +79,14 @@ console.log("Structure protection has been successfully removed from the workboo
 ```
 
 ## 保护和取消保护工作表
-工作表保护可锁定工作表的单元格，防止意外或故意的更改。用户在不提供密码的情况下无法编辑已锁定的单元格。这是用于保护共享电子表格中的公式、标题或指定数据输入区域的典型保护方式。要保护工作表，请调用 `worksheet.protect(ProtectionType.All, "password")`。使用 `ProtectionType.All` 将启用所有可用的保护选项，例如选择锁定的单元格、格式化单元格、插入行和列以及删除行和列。要取消保护，请使用正确的密码调用 `worksheet.unprotect("password")`。可以通过按位 OR 组合其他保护类型（例如 `Contents`、`Objects` 和 `Scenarios`）来实现更精细的控制。
+工作表保护可锁定工作表的单元格，防止意外或故意的更改。用户在不提供密码的情况下无法编辑已锁定的单元格。这是用于保护共享电子表格中的公式、标题或指定数据输入区域的典型保护方式。要保护工作表，请调用 `worksheet.protect(ProtectionType.All, "password", null)`。使用 `ProtectionType.All` 将启用所有可用的保护选项，例如选择锁定的单元格、格式化单元格、插入行和列以及删除行和列。要取消保护，请使用正确的密码调用 `worksheet.unprotect("password")`。可以通过按位 OR 组合其他保护类型（例如 `Contents`、`Objects` 和 `Scenarios`）来实现更精细的控制。
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 sheet.getCells().get("A1").putValue("Sample Data");
-sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd");
+sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd", null);
 workbook.save("sheet_protected.xlsx");
 let workbookReloaded = new AsposeCells.Workbook("sheet_protected.xlsx");
 let sheetReloaded = workbookReloaded.getWorksheets().get(0);

@@ -66,8 +66,7 @@ Clasifique los elementos del campo de fila por un campo de valores convencional,
                     row++;
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C16", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();
@@ -133,8 +132,7 @@ También es posible clasificar un campo por sí mismo: pase -1 a `autoShowField`
                     row++;
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C16", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();

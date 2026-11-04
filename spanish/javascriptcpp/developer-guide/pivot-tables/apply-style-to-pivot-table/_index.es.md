@@ -93,8 +93,7 @@ El siguiente ejemplo carga un libro de trabajo nuevo, llena los datos de ejemplo
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
             // Agregar una tabla dinámica en la celda de destino E3, usando el rango de origen A1:C10
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // Asignar campos: Fruit -> Filas, Amount -> Datos
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -188,8 +187,7 @@ Este escenario reutiliza el conjunto de datos Fruit/Year/Amount del Escenario 1,
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
             // Agregar una tabla dinámica en E3, usando A1:C10 como origen
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Asignar campos de tabla dinámica: Fruit -> área de filas, Year -> área de columnas, Amount -> área de datos
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -284,8 +282,7 @@ El siguiente ejemplo define un estilo personalizado de tabla dinámica con un bo
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
             // Agregar una tabla dinámica con origen en A1:C10, anclada en E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -402,8 +399,7 @@ El siguiente ejemplo crea un `style` con un relleno sólido amarillo, una fuente
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
             // Agregar tabla dinámica: rango de origen A1:C10, celda de destino E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Asignar campos de la tabla dinámica: Fruit -> área de filas, Year -> área de columnas, Amount -> área de datos
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

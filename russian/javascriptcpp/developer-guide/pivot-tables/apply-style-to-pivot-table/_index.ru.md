@@ -93,8 +93,7 @@ Aspose.Cells предоставляет два параллельных API дл
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
             // Добавление сводной таблицы в ячейку E3 с использованием исходного диапазона A1:C10
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // Назначение полей: Fruit → строки, Amount → данные
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -188,8 +187,7 @@ Aspose.Cells предоставляет два параллельных API дл
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
             // Добавление сводной таблицы в E3 с источником данных A1:C10
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Назначение полей сводной таблицы: Fruit -> область строк, Year -> область столбцов, Amount -> область данных
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -284,8 +282,7 @@ Aspose.Cells предоставляет два параллельных API дл
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
             // Добавить сводную таблицу из диапазона A1:C10 с якорем в E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -402,8 +399,7 @@ Aspose.Cells предоставляет два параллельных API дл
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
             // Добавление сводной таблицы: исходный диапазон A1:C10, ячейка назначения E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Назначение полей сводной таблицы: Fruit -> область строк, Year -> область столбцов, Amount -> область данных
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

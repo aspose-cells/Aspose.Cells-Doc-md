@@ -44,7 +44,7 @@ workbook.save("output.xlsx");
 ## Required Imports
 本文中的所有 JavaScript 示例都假定 Aspose.Cells for Node.js via C++ 模块已加载，并且透视类型位于 `Aspose.Cells.Pivot` 命名空间中。典型的设置如下：
 - `const AsposeCells = require("aspose.cells.node");`
-- `const { PivotFieldType } = AsposeCells;`（或通过 `AsposeCells.Pivot.PivotFieldType` 访问）
+- `const { PivotFieldType } = AsposeCells;`（或通过 `AsposeCells.PivotFieldType` 访问）
 
 ## Refresh All Pivot Tables in the Workbook
 当您需要确保工作簿中的每个数据透视缓存和每个数据透视表都反映最新的源数据时，最简单且最全面的 API 是 `Workbook.refreshAll()`。单次调用会遍历整个工作簿——从其源刷新每个 `PivotCache`，然后重新计算每个依赖的 `PivotTable`。对于一般性能不受关注的全文档刷新，推荐使用此方法。

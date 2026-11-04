@@ -79,14 +79,14 @@ console.log("Structure protection has been successfully removed from the workboo
 ```
 
 ## ワークシートの保護と保護解除
-ワークシート保護は、ワークシートのセルを偶発的な変更や意図的な変更からロックします。ユーザーはパスワードを指定しない限り、ロックされたセルを編集できません。これは、共有スプレッドシートの数式、ヘッダー、または指定されたデータ入力領域を保護するために通常使用される保護方法です。ワークシートを保護するには、`worksheet.protect(ProtectionType.All, "password")` を呼び出します。`ProtectionType.All` を使用すると、ロックされたセルの選択、セルの書式設定、行と列の挿入、行と列の削除など、利用可能なすべての保護オプションが有効になります。保護を解除するには、正しいパスワードを指定して `worksheet.unprotect("password")` を呼び出します。`Contents`、`Objects`、`Scenarios` などの他の保護タイプをビット単位の OR 演算で組み合わせると、より細かい制御が可能です。
+ワークシート保護は、ワークシートのセルを偶発的な変更や意図的な変更からロックします。ユーザーはパスワードを指定しない限り、ロックされたセルを編集できません。これは、共有スプレッドシートの数式、ヘッダー、または指定されたデータ入力領域を保護するために通常使用される保護方法です。ワークシートを保護するには、`worksheet.protect(ProtectionType.All, "password", null)` を呼び出します。`ProtectionType.All` を使用すると、ロックされたセルの選択、セルの書式設定、行と列の挿入、行と列の削除など、利用可能なすべての保護オプションが有効になります。保護を解除するには、正しいパスワードを指定して `worksheet.unprotect("password")` を呼び出します。`Contents`、`Objects`、`Scenarios` などの他の保護タイプをビット単位の OR 演算で組み合わせると、より細かい制御が可能です。
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 sheet.getCells().get("A1").putValue("Sample Data");
-sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd");
+sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd", null);
 workbook.save("sheet_protected.xlsx");
 let workbookReloaded = new AsposeCells.Workbook("sheet_protected.xlsx");
 let sheetReloaded = workbookReloaded.getWorksheets().get(0);

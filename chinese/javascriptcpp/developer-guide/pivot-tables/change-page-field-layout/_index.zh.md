@@ -113,8 +113,7 @@ Microsoft Excel 中的数据透视表提供专用的**页字段区域**，该区
             const pivotTableSheet = worksheets.add("PivotTableReport");
             const pivotTables = pivotTableSheet.pivotTables;
             // 创建数据源为 PivotData!A1:D9 的数据透视表，并将其放置在 PivotTableReport 的 A1 单元格
-            const pivotTableIndex = pivotTables.add("PivotData!A1:D9", "A1", "PivotTable1");
-            const pivotTable = pivotTables.get(pivotTableIndex);
+            const pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0);
             // 添加字段
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // 水果
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // 年份
@@ -188,12 +187,7 @@ Microsoft Excel 中的数据透视表提供专用的**页字段区域**，该区
                     pivotData.cells.get(r + 1, c).value = data[r][c];
                 }
             }
-            const pivotTableIndex = pivotReport.pivotTables.add(
-                "=PivotData!A1:D9",
-                "A1",
-                "PivotTable1"
-            );
-            const pivotTable = pivotReport.pivotTables.get(pivotTableIndex);
+            const pivotTable = pivotReport.pivotTables.add("=PivotData!A1:D9", 0, 0);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
@@ -284,12 +278,7 @@ Microsoft Excel 中的数据透视表提供专用的**页字段区域**，该区
             cells.get("C9").value = "West";
             cells.get("D9").value = 110;
             const pivotSheet = workbook.worksheets.add("PivotTableReport");
-            const pivotTableIndex = pivotSheet.pivotTables.add(
-                "=PivotData!A1:D9",
-                "A3",
-                "PivotTable1"
-            );
-            const pivotTable = pivotSheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = pivotSheet.pivotTables.add("=PivotData!A1:D9", 2, 0);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Region");

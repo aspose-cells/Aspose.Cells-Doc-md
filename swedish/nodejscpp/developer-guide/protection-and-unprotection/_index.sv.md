@@ -79,14 +79,14 @@ console.log("Structure protection has been successfully removed from the workboo
 ```
 
 ## Skydda kalkylblad och ta bort skyddet
-Kalkylbladsskydd låser cellerna i ett kalkylblad så att de inte kan ändras oavsiktligt eller avsiktligt. Användare kan inte redigera låsta celler utan att ange lösenordet. Detta är det vanliga skyddet som används för att skydda formler, rubriker eller utvalda områden för datainmatning i delade kalkylblad. Om du vill skydda ett kalkylblad anropar du `worksheet.protect(ProtectionType.All, "password")`. Om du använder `ProtectionType.All` aktiveras alla tillgängliga skyddsalternativ, till exempel att välja låsta celler, formatera celler, infoga rader och kolumner samt ta bort rader och kolumner. Om du vill ta bort skyddet anropar du `worksheet.unprotect("password")` med rätt lösenord. Mer detaljerad kontroll är tillgänglig genom att kombinera andra skyddstyper som `Contents`, `Objects` och `Scenarios` med bitvis OR.
+Kalkylbladsskydd låser cellerna i ett kalkylblad så att de inte kan ändras oavsiktligt eller avsiktligt. Användare kan inte redigera låsta celler utan att ange lösenordet. Detta är det vanliga skyddet som används för att skydda formler, rubriker eller utvalda områden för datainmatning i delade kalkylblad. Om du vill skydda ett kalkylblad anropar du `worksheet.protect(ProtectionType.All, "password", null)`. Om du använder `ProtectionType.All` aktiveras alla tillgängliga skyddsalternativ, till exempel att välja låsta celler, formatera celler, infoga rader och kolumner samt ta bort rader och kolumner. Om du vill ta bort skyddet anropar du `worksheet.unprotect("password")` med rätt lösenord. Mer detaljerad kontroll är tillgänglig genom att kombinera andra skyddstyper som `Contents`, `Objects` och `Scenarios` med bitvis OR.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 sheet.getCells().get("A1").putValue("Sample Data");
-sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd");
+sheet.protect(AsposeCells.ProtectionType.All, "SheetPwd", null);
 workbook.save("sheet_protected.xlsx");
 let workbookReloaded = new AsposeCells.Workbook("sheet_protected.xlsx");
 let sheetReloaded = workbookReloaded.getWorksheets().get(0);

@@ -33,8 +33,8 @@ Alle Szenarien in diesem Artikel verwenden Zellen eines Arbeitsblatts als Quelld
 Wenn Sie lediglich den kürzestmöglichen Code benötigen, um alle PivotTables in der Arbeitsmappe zu aktualisieren, genügt ein einzelner Aufruf:
 
 ```javascript
-const aspose = require('aspose.cells');
-const workbook = new aspose.cells.Workbook("input.xlsx");
+const AsposeCells = require('aspose.cells');
+const workbook = new AsposeCells.Workbook("input.xlsx");
 workbook.refreshAll();
 workbook.save("output.xlsx");
 ```
@@ -42,7 +42,7 @@ workbook.save("output.xlsx");
 Alle weiteren Informationen in diesem Artikel erläutern, wann Sie stattdessen eine API mit engerem Geltungsbereich wählen sollten.
 
 ## Erforderliche Imports
-- `const aspose = require('aspose.cells');`
+- `const AsposeCells = require('aspose.cells');`
 - Oder für einzelne Imports: `const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
 ## Alle PivotTables in der Arbeitsmappe aktualisieren

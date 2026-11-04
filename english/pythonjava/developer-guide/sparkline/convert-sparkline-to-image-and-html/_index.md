@@ -134,7 +134,6 @@ The workflows above rely on a small set of Aspose.Cells APIs working together.
 - `ImageOrPrintOptions.image_type` lives in the `com.aspose.cells.drawing` namespace and selects the picture format (for example, `ImageType.PNG`) used when rendering with `to_image` and when printing worksheets to images.
 
 ## **Related Articles**
-
 - [Sparklines in Aspose.Cells for Python via Java](/cells/python-java/sparkline/)
 
 {{< app/cells/assistant language="python" >}}

@@ -44,7 +44,7 @@ Il resto di questo articolo spiega quando conviene scegliere un'API con un ambit
 ## Required Imports
 Tutti gli esempi JavaScript di questo articolo presuppongono che il modulo Aspose.Cells for Node.js via C++ sia stato caricato e che i tipi pivot si trovino nel namespace `Aspose.Cells.Pivot`. Una configurazione tipica è:
 - `const AsposeCells = require("aspose.cells.node");`
-- `const { PivotFieldType } = AsposeCells;` (oppure accedere tramite `AsposeCells.Pivot.PivotFieldType`)
+- `const { PivotFieldType } = AsposeCells;` (oppure accedere tramite `AsposeCells.PivotFieldType`)
 
 ## Refresh All Pivot Tables in the Workbook
 Quando è necessario garantire che tutte le cache pivot e tutte le tabelle pivot della cartella di lavoro riflettano i dati di origine più aggiornati, l'API più semplice e completa è `Workbook.refreshAll()`. Una singola chiamata attraversa l'intera cartella di lavoro, aggiornando ogni `PivotCache` dalla propria origine e quindi ricalcolando ogni `PivotTable` dipendente. Questo è l'approccio consigliato per gli aggiornamenti generali dell'intero documento quando le prestazioni non costituiscono un problema.

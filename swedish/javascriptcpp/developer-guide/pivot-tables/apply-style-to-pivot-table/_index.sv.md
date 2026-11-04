@@ -93,8 +93,7 @@ Följande exempel läser in en ny arbetsbok, fyller i exempeldata för `Fruit`/`
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
             // Lägg till en pivottabell vid destinationscellen E3, med källintervallet A1:C10
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // Tilldela fält: Fruit -> Rader, Amount -> Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -188,8 +187,7 @@ Det här scenariot återanvänder exempeldata med `Fruit`/`Year`/`Amount` från 
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
             // Lägg till en pivottabell vid E3 med A1:C10 som datakälla
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Tilldela pivotfält: Fruit -> radområde, Year -> kolumnområde, Amount -> dataområde
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -284,8 +282,7 @@ Följande exempel definierar en anpassad pivottabellstil med en tunn svart ram r
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
             // Lägg till pivottabell med data från A1:C10, förankrad vid E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -402,8 +399,7 @@ Följande exempel skapar en `style` med en gul solidfyllning, ett fett och mörk
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
             // Lägg till pivottabell: källområde A1:C10, destinationscell E3
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Tilldela pivotfält: Fruit -> radområde, Year -> kolumnområde, Amount -> dataområde
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

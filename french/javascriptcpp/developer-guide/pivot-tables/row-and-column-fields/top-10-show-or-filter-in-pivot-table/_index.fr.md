@@ -66,8 +66,7 @@ Classez les éléments du champ de ligne en fonction d’un champ de valeurs sta
                     row++;
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C16", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();
@@ -133,8 +132,7 @@ Un champ peut également se classer lui-même — transmettez la valeur -1 à `a
                     row++;
                 }
             }
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C16", "F3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();

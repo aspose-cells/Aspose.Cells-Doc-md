@@ -113,8 +113,7 @@ I det första scenariet konfigurerar vi de två sidfälten (`Year`, `Region`) s�
             const pivotTableSheet = worksheets.add("PivotTableReport");
             const pivotTables = pivotTableSheet.pivotTables;
             // Skapa pivottabell med källan PivotData!A1:D9, placerad på A1 i PivotTableReport
-            const pivotTableIndex = pivotTables.add("PivotData!A1:D9", "A1", "PivotTable1");
-            const pivotTable = pivotTables.get(pivotTableIndex);
+            const pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0);
             // Lägg till fält
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // Fruit
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // Year
@@ -188,12 +187,7 @@ I det här exemplet placerar vi `Fruit` på radaxeln, `Year` och `Region` som si
                     pivotData.cells.get(r + 1, c).value = data[r][c];
                 }
             }
-            const pivotTableIndex = pivotReport.pivotTables.add(
-                "=PivotData!A1:D9",
-                "A1",
-                "PivotTable1"
-            );
-            const pivotTable = pivotReport.pivotTables.get(pivotTableIndex);
+            const pivotTable = pivotReport.pivotTables.add("=PivotData!A1:D9", 0, 0);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);
@@ -284,12 +278,7 @@ I det tredje scenariet behåller vi samma datamängd och fältfördelning. Vi an
             cells.get("C9").value = "West";
             cells.get("D9").value = 110;
             const pivotSheet = workbook.worksheets.add("PivotTableReport");
-            const pivotTableIndex = pivotSheet.pivotTables.add(
-                "=PivotData!A1:D9",
-                "A3",
-                "PivotTable1"
-            );
-            const pivotTable = pivotSheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = pivotSheet.pivotTables.add("=PivotData!A1:D9", 2, 0);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Region");

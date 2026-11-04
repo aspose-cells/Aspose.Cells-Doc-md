@@ -44,7 +44,7 @@ Bu makaledeki diğer bölümler, daha dar kapsamlı API'lerden hangisinin seçil
 ## Required Imports
 Bu makaledeki tüm JavaScript örneklerinde Aspose.Cells for Node.js via C++ modülünün yüklenmiş olduğu ve özet tablo türlerinin `Aspose.Cells.Pivot` namespace içinde bulunduğu varsayılır. Tipik kurulum şöyledir:
 - `const AsposeCells = require("aspose.cells.node");`
-- `const { PivotFieldType } = AsposeCells;` (veya `AsposeCells.Pivot.PivotFieldType` üzerinden erişin)
+- `const { PivotFieldType } = AsposeCells;` (veya `AsposeCells.PivotFieldType` üzerinden erişin)
 
 ## Refresh All Pivot Tables in the Workbook
 Çalışma kitabındaki tüm önbelleklerin ve özet tabloların en güncel kaynak verileri yansıtmasını sağlamak istediğinizde, en basit ve kapsamlı API `Workbook.refreshAll()` yöntemidir. Tek çağrı tüm çalışma kitabını kapsar; her `PivotCache` öğesini kaynağından yeniler ve ardından bunlara bağlı her `PivotTable` öğesini yeniden hesaplar. Performans bir sorun değilse ve belgenin tamamını kapsayan genel bir yenileme yapılacaksa önerilen yaklaşım budur.

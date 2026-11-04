@@ -148,12 +148,7 @@ Aşağıdaki örnek, `Fruit/Year/Amount` kaynak aralığını içeren bir çalı
             cells.get("B9").value = 2021;
             cells.get("C9").value = 120;
             // Bir özet tablo ekle: kaynak aralığı "A1:C9", hedef hücresi "E3"
-            const pivotTableIndex = worksheet.pivotTables.add(
-                "=A1:C9",
-                "E3",
-                "PivotTable1"
-            );
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
             // Özet alanlarını ata: Fruit'ı Satırlara, Year'ı Sütunlara, Amount'ı Veriye
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -234,8 +229,7 @@ Bazen yalnızca belirli bir çalışma sayfasında bulunan özet tablolarını y
                 cells.get("A9").value = "cherry";
                 cells.get("B9").value = 2020;
                 cells.get("C9").value = 140;
-                const pivotTableIndex = worksheet.pivotTables.add("=A1:C9", "E3", "PivotTable1");
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -321,12 +315,7 @@ Aşağıdaki örnek, özet tablonun kaynak dışı bir özelliğini değiştirir
                 cells.get("B9").value = 2021;
                 cells.get("C9").value = 450;
                 // E3 hedef hücresine yerleştirilen ve A1:C9 aralığından veri alan bir pivot tablo ekle
-                const pivotTableIndex = worksheet.pivotTables.add(
-                    "=A1:C9",
-                    "E3",
-                    "PivotTable1"
-                );
-                const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+                const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
                 // Alanları ata: Fruit → Row, Year → Column, Amount → Data
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

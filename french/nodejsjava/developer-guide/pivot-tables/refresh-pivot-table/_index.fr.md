@@ -33,8 +33,8 @@ Tous les scénarios de cet article utilisent des données source de cellules de 
 Si vous avez juste besoin du code le plus court possible qui actualise tous les tableaux croisés dynamiques du classeur, un seul appel suffit :
 
 ```javascript
-const aspose = require('aspose.cells');
-const workbook = new aspose.cells.Workbook("input.xlsx");
+const AsposeCells = require('aspose.cells');
+const workbook = new AsposeCells.Workbook("input.xlsx");
 workbook.refreshAll();
 workbook.save("output.xlsx");
 ```
@@ -42,7 +42,7 @@ workbook.save("output.xlsx");
 Tout le reste de cet article explique quand choisir une API plus restreinte à la place.
 
 ## Imports Requis
-- `const aspose = require('aspose.cells');`
+- `const AsposeCells = require('aspose.cells');`
 - Ou pour des imports spécifiques : `const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
 ## Actualiser Tous les Tableaux Croisés Dynamiques du Classeur

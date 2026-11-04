@@ -38,52 +38,52 @@ const AsposeCells = require("aspose.cells.node");
 const fs = require("fs");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// 在单元格 A1:E1 中填充示例数据
+// Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// 在 F1（第 5 列，第 0 行）添加一个折线迷你图组
+// Add a Line sparkline group anchored at F1 (column 5, row 0)
 let lineArea = new AsposeCells.CellArea();
-lineArea.StartColumn = 5;
-lineArea.EndColumn = 5;
-lineArea.StartRow = 0;
-lineArea.EndRow = 0;
+lineArea.startColumn = 5;
+lineArea.endColumn = 5;
+lineArea.startRow = 0;
+lineArea.endRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Line, "A1:E1", false, lineArea);
-// 在 G1（第 6 列，第 0 行）添加一个柱形迷你图组
+// Add a Column sparkline group anchored at G1 (column 6, row 0)
 let columnArea = new AsposeCells.CellArea();
-columnArea.StartColumn = 6;
-columnArea.EndColumn = 6;
-columnArea.StartRow = 0;
-columnArea.EndRow = 0;
+columnArea.startColumn = 6;
+columnArea.endColumn = 6;
+columnArea.startRow = 0;
+columnArea.endRow = 0;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Column, "A1:E1", false, columnArea);
-// 在 H1（第 7 列，第 0 行）添加一个盈亏（堆叠）迷你图组
+// Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 let stackedArea = new AsposeCells.CellArea();
-stackedArea.StartColumn = 7;
-stackedArea.EndColumn = 7;
-stackedArea.StartRow = 0;
-stackedArea.EndRow = 0;
+stackedArea.startColumn = 7;
+stackedArea.endColumn = 7;
+stackedArea.startRow = 0;
+stackedArea.endRow = 0;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.Stacked, "A1:E1", false, stackedArea);
-// 为 PNG 输出配置图像选项
+// Configure image options for PNG output
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
 imageOptions.setImageType(AsposeCells.ImageType.Png);
-// 将折线迷你图转换为图像并嵌入到单元格 F2 中
+// Convert the Line sparkline to image and embed it in cell F2
 let lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 let linePath = "line_sparkline.png";
 lineSp.toImage(linePath, imageOptions);
 worksheet.getCells().get("F2").setEmbeddedImage(fs.readFileSync(linePath));
-// 将柱形迷你图转换为图像并嵌入到单元格 G2 中
+// Convert the Column sparkline to image and embed it in cell G2
 let columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0);
 let columnPath = "column_sparkline.png";
 columnSp.toImage(columnPath, imageOptions);
 worksheet.getCells().get("G2").setEmbeddedImage(fs.readFileSync(columnPath));
-// 将盈亏迷你图转换为图像并嵌入到单元格 H2 中
+// Convert the Win/Loss sparkline to image and embed it in cell H2
 let stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0);
 let stackedPath = "stacked_sparkline.png";
 stackedSp.toImage(stackedPath, imageOptions);
 worksheet.getCells().get("H2").setEmbeddedImage(fs.readFileSync(stackedPath));
-// 将工作簿保存到磁盘
+// Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx");
 ```
 

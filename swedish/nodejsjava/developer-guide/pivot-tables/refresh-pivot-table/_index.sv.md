@@ -33,8 +33,8 @@ Alla scenarier i den här artikeln använder kalkylbladsceller som källdata, s�
 Om du bara behöver den kortaste möjliga kod som uppdaterar varje pivot i arbetsboken räcker det med ett enda anrop:
 
 ```javascript
-const aspose = require('aspose.cells');
-const workbook = new aspose.cells.Workbook("input.xlsx");
+const AsposeCells = require('aspose.cells');
+const workbook = new AsposeCells.Workbook("input.xlsx");
 workbook.refreshAll();
 workbook.save("output.xlsx");
 ```
@@ -42,7 +42,7 @@ workbook.save("output.xlsx");
 Allt annat i den här artikeln förklarar när du istället bör välja ett mer avgränsat API.
 
 ## Nödvändiga importer
-- `const aspose = require('aspose.cells');`
+- `const AsposeCells = require('aspose.cells');`
 - Eller för specifika importer: `const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
 ## Uppdatera alla pivottabeller i arbetsboken

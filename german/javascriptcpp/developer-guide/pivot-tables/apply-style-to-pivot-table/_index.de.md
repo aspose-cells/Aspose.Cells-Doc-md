@@ -93,8 +93,7 @@ Das folgende Beispiel erstellt eine neue Arbeitsmappe, füllt die Beispieldaten 
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
             // Eine Pivot-Tabelle am Zielcell E3 unter Verwendung des Quellbereichs A1:C10 hinzufügen
-            const pivotTableIndex = sheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = sheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
             // Felder zuweisen: Fruit -> Zeilen, Amount -> Daten
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -188,8 +187,7 @@ Dieses Szenario verwendet erneut den Fruit/Year/Amount-Datensatz aus Szenario 1,
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
             // Eine PivotTable bei E3 hinzufügen, die aus A1:C10 stammt
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Pivotfelder zuweisen: Fruit -> Zeilenbereich, Year -> Spaltenbereich, Amount -> Datenbereich
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
@@ -284,8 +282,7 @@ Das folgende Beispiel definiert einen benutzerdefinierten PivotTable-Stil mit ei
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
             // Pivot-Tabelle aus A1:C10 hinzufügen und bei E3 verankern
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
@@ -402,8 +399,7 @@ Das folgende Beispiel erstellt einen `style` mit einer gelben Volltonfüllung, e
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
             // Pivot-Tabelle hinzufügen: Quellbereich A1:C10, Zelle E3 als Ziel
-            const pivotTableIndex = worksheet.pivotTables.add("=A1:C10", "E3", "PivotTable1");
-            const pivotTable = worksheet.pivotTables.get(pivotTableIndex);
+            const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             // Pivot-Felder zuweisen: Fruit -> Zeilenbereich, Year -> Spaltenbereich, Amount -> Datenbereich
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");

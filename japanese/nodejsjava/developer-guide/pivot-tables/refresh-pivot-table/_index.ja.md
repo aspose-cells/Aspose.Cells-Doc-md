@@ -33,8 +33,8 @@ Aspose.Cells は、ワークブック全体から単一のピボットテーブ�
 ワークブック内のすべてのピボットを更新する最小限のコードだけが必要な場合は、1 回の呼び出しで十分です:
 
 ```javascript
-const aspose = require('aspose.cells');
-const workbook = new aspose.cells.Workbook("input.xlsx");
+const AsposeCells = require('aspose.cells');
+const workbook = new AsposeCells.Workbook("input.xlsx");
 workbook.refreshAll();
 workbook.save("output.xlsx");
 ```
@@ -42,7 +42,7 @@ workbook.save("output.xlsx");
 この記事の残りの部分では、代わりにいつより狭い API を選択すべきかについて説明します。
 
 ## 必要なインポート
-- `const aspose = require('aspose.cells');`
+- `const AsposeCells = require('aspose.cells');`
 - 特定のインポートの場合: `const { Workbook, Cells, PivotTableSourceType } = require('aspose.cells');`
 
 ## ワークブック内のすべてのピボットテーブルを更新する
