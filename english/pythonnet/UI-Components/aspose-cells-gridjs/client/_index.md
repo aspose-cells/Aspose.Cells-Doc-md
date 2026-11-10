@@ -529,6 +529,26 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	state: input | finished ,if finished ,it will do update action to servside
 ```
 
+-  Set the cell values in batch
+```javascript
+// form 1: a list of discrete cells
+xs.setCellValues(cells, sheetIndex)
+// form 2: a region with a 2D value matrix
+xs.setCellValues(ref, values, sheetIndex)
+    // the parameters are:
+	cells: the array of cell objects, each like {ri:0, ci:1, text:'a'} , ri/ci are row/column index ,text is the cell value
+	ref: the target cell range, can be an A1-style string such as 'B1:E10' , or an object like {sri:0, sci:1, eri:9, eci:4} which represents range from cell B1 to E10
+	values: the 2D array of strings (Array<Array<String>>), rows/columns are mapped from the top-left corner of the ref range; extra items beyond the range are trimmed
+	sheetIndex: the index of the sheet, default is 0
+    // the batch update is committed as ONE operation: one undo record, one re-render and one server 'batchupdate' request
+    // it does NOT apply per-cell editing conversions (auto date/number format, formula parsing) like manual typing does, it writes the plain value
+    // rows/columns beyond the current sheet size are extended automatically
+    for example:
+        xs.setCellValues([{ri:0, ci:1, text:'a'}, {ri:2, ci:3, text:'7'}]);
+        xs.setCellValues('B1:E10', [['a','b','c','d'], ['1','2','3','4']]);
+        xs.setCellValues({sri:0, sci:1, eri:1, eci:2}, [['a','b'], ['c','d']], 1); // write into the sheet with index 1
+```
+
 -  Get/Set the selected cell range
 ```javascript
 xs.sheet.data.selector.range
