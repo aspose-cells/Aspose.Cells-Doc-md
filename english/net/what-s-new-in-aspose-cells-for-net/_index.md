@@ -10,6 +10,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for .NET 26.11
+* Supports the "Follow Path" effect for WordArt
+* Upgrade referenced Bouncy Castle to v2.7.0 for CVE-2026-15999
+* Upgrade referenced SkiaSharp to v4.154.0 for CVE-2026-58641
+* Preprocessing JSON data before processing smart markers
+* Enhancement for configuring the setting of showing value
+
 ## Aspose.Cells for .NET 26.10
 * Support refreshing the items of pivot group field
 * Support refreshing discrete group pivot field
