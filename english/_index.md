@@ -7,6 +7,11 @@ description: Aspose.Cells is a class library that can be used by developers for 
 keywords: Aspose.Cells Create repair parse merge convert JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG and more formats, Python Excel, Java Excel, C# Excel, PHP Excel, CPP Excel, Nodejs Excel, Android Excel. 
 ---
 
+## Excel Automation with AI and the Command Line
+
+- [Aspose.Cells MCP for Node.js](/cells/nodejs-cpp/mcp/) - Connect an AI assistant to local Excel inspection, editing, auditing, conversion, and rendering.
+- [Aspose CLI for Excel](/cells/cli/) - Process spreadsheets from a terminal, script, or AI agent, with local browser preview.
+
 {{% alert color="primary" %}}
 
 **![Aspose.Cells for .NET Product Logo](cells-for-net.png)**

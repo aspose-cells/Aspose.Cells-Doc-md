@@ -1,239 +1,158 @@
 ---
-title: Excel File and Data Operations
+title: Excel File and Data Operations with MCP
 linktitle: File and Data Operations
 type: docs
 weight: 10
 url: /nodejs-cpp/mcp/file-operations
-keywords: "Excel file operations, Excel data operations, create Excel workbook, Excel worksheet, read Excel data, write Excel data"
-description: "Excel file and data operations - create workbooks, manage worksheets, read and write Excel data with AI automation"
+description: "Inspect Excel files, read ranges, search data, and create or edit workbooks with revision-aware MCP plans."
+keywords: "Aspose.Cells, Excel, spreadsheet automation, File and Data Operations"
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Excel File and Data Operations
 
-Manage **Excel files** and **data operations** with AI‑powered automation. Create **Excel workbooks**, manage **worksheets**, and perform **Excel data** read/write operations.
+Use `inspect_workbook`, `read_range`, and `search_workbook` to discover data. Use `apply_workbook_plan` to create or edit a workbook. See [installation and the complete creation example](/cells/nodejs-cpp/mcp/).
 
-## Available Tools
+## Inspect a workbook
 
-- `create_workbook` – Create new **Excel workbooks** with **AI Excel** automation  
-- `create_worksheet` – Add **Excel worksheets** to existing **Excel workbooks**  
-- `get_workbook_info` – Get **Excel workbook** metadata and information  
-- `read_data_from_excel` – Read data from **Excel worksheets** with **AI‑powered** precision  
-- `write_data_to_excel` – Write data to **Excel worksheets** through **Excel MCP**
-
-## Create Excel Workbooks
-
-### Create Basic Workbook
 ```json
 {
-  "tool": "create_workbook",
-  "parameters": {
-    "filepath": "reports/sales-report.xlsx"
-  }
-}
-```
-
-### Create Workbook with Custom Sheet
-```json
-{
-  "tool": "create_workbook",
-  "parameters": {
-    "filepath": "reports/financial-report.xlsx",
-    "sheet_name": "Financial Data"
-  }
-}
-```
-
-## Manage Worksheets
-
-### Add New Worksheet
-```json
-{
-  "tool": "create_worksheet",
-  "parameters": {
-    "filepath": "reports/sales-report.xlsx",
-    "sheet_name": "Summary Report"
-  }
-}
-```
-
-### Get Workbook Information
-```json
-{
-  "tool": "get_workbook_info",
-  "parameters": {
-    "filepath": "reports/sales-report.xlsx"
-  }
-}
-```
-
-## Write Excel Data
-
-### Write Headers and Data
-```json
-{
-  "tool": "write_data_to_excel",
-  "parameters": {
-    "filepath": "reports/sales-report.xlsx",
-    "sheet_name": "Sales Data",
-    "data": [
-      ["Product", "Category", "Unit Price", "Quantity", "Total", "Status"],
-      ["Laptop Pro", "Electronics", 1299.99, 5, "", "In Stock"],
-      ["Wireless Mouse", "Electronics", 89.99, 15, "", "In Stock"],
-      ["Office Chair", "Furniture", 299.99, 8, "", "Low Stock"]
+  "name": "inspect_workbook",
+  "arguments": {
+    "file_path": "sales.xlsx",
+    "dimensions": [
+      "summary",
+      "structure"
     ]
   }
 }
 ```
 
-### Write Data to Custom Position
+Successful results contain `ok`, `data`, and `warnings`. Keep `data.revision.sha256` for subsequent edits. Inspect structure before referring to sheets, charts, or pivot tables by name. Follow inspection pagination when the workbook has more sheets or objects than one response can include.
+
+## Read and search
+
 ```json
 {
-  "tool": "write_data_to_excel",
-  "parameters": {
-    "filepath": "reports/analysis.xlsx",
-    "sheet_name": "Data Analysis",
-    "start_cell": "C3",
-    "data": [
-      ["Name", "Score", "Grade", "Double Score", "Bonus"],
-      ["Alice", 95, "A", "", ""],
-      ["Bob", 87, "B", "", ""],
-      ["Charlie", 92, "A", "", ""]
+  "name": "read_range",
+  "arguments": {
+    "file_path": "sales.xlsx",
+    "sheet_name": "Sales",
+    "range": "A1:D3",
+    "include_formats": true
+  }
+}
+```
+
+If the result includes `next_range`, read that range next. Pass the previous response's `revision.sha256` as `expected_sha256` to detect a file change between pages.
+
+```json
+{
+  "name": "search_workbook",
+  "arguments": {
+    "file_path": "sales.xlsx",
+    "sheet_name": "Sales",
+    "query": "Laptop",
+    "target": "values"
+  }
+}
+```
+
+Use explicit ranges to narrow large searches. A response can be truncated; check the result metadata before drawing conclusions.
+
+## Edit an existing workbook
+
+Replace `REPLACE_WITH_REVISION_SHA256` below with the actual 64-character hash returned by inspection. This example updates a quantity and its dependent formula in the same transaction.
+
+```json
+{
+  "name": "apply_workbook_plan",
+  "arguments": {
+    "target": {
+      "mode": "edit",
+      "file_path": "sales.xlsx",
+      "expected_sha256": "REPLACE_WITH_REVISION_SHA256"
+    },
+    "operations": [
+      {
+        "id": "quantity",
+        "type": "set_values",
+        "sheet_name": "Sales",
+        "range": "B2",
+        "values": [
+          [
+            3
+          ]
+        ]
+      },
+      {
+        "id": "total",
+        "type": "set_formulas",
+        "sheet_name": "Sales",
+        "range": "D2",
+        "formulas": [
+          [
+            "=B2*C2"
+          ]
+        ]
+      }
     ]
   }
 }
 ```
 
-## Read Excel Data
+A changed input returns `CONFLICT`; inspect it again and reconsider the edit. Do not generate a hash or reuse one from a different file. After a successful plan, its `result_revision.sha256` identifies the new file revision.
 
-### Read Full Used Range
+## Choose a target
+
+| `target.mode` | Required target fields | Result |
+| --- | --- | --- |
+| `create` | `output_path`, `first_sheet_name` | Create a new XLSX/XLSM workbook. |
+| `copy` | `source_path`, `output_path`, `expected_source_sha256` | Edit a copy while keeping the source. |
+| `edit` | `file_path`, `expected_sha256` | Replace the inspected workbook after verification. |
+
+For `create` and `copy`, replacing an existing output requires both `overwrite: true` and `expected_output_sha256` for that output. Prefer a new filename for a first attempt. Other formats can be handled with [conversion](/cells/nodejs-cpp/mcp/audit-render-and-convert/).
+
+## Add a worksheet and write values
+
+The following is an `operations` array. Put it inside the `arguments` of an `apply_workbook_plan` call, alongside a target as above. The same convention applies to operation arrays in the other guides.
+
 ```json
-{
-  "tool": "read_data_from_excel",
-  "parameters": {
-    "filepath": "reports/sales-report.xlsx",
-    "sheet_name": "Sales Data"
-  }
-}
-```
-
-### Read Specific Range
-```json
-{
-  "tool": "read_data_from_excel",
-  "parameters": {
-    "filepath": "reports/analysis.xlsx",
-    "sheet_name": "Data Analysis",
-    "start_cell": "C3",
-    "end_cell": "G6"
-  }
-}
-```
-
-### Read from Default Position
-```json
-{
-  "tool": "read_data_from_excel",
-  "parameters": {
-    "filepath": "reports/basic-data.xlsx",
-    "sheet_name": "Sheet1",
-    "start_cell": "A1"
-  }
-}
-```
-
-## Complete Workflow Example
-
-### 1. Create Your First Excel Report
-```json
-{
-  "tool": "create_workbook",
-  "parameters": {
-    "filepath": "reports/monthly-report.xlsx",
-    "sheet_name": "Monthly Sales"
-  }
-}
-```
-
-### 2. Add Summary Sheet
-```json
-{
-  "tool": "create_worksheet",
-  "parameters": {
-    "filepath": "reports/monthly-report.xlsx",
-    "sheet_name": "Summary"
-  }
-}
-```
-
-### 3. Write Sales Data
-```json
-{
-  "tool": "write_data_to_excel",
-  "parameters": {
-    "filepath": "reports/monthly-report.xlsx",
-    "sheet_name": "Monthly Sales",
-    "data": [
-      ["Month", "Product", "Sales", "Target", "Variance"],
-      ["January", "Product A", 5000, 4500, ""],
-      ["January", "Product B", 3200, 3000, ""],
-      ["February", "Product A", 5500, 4500, ""],
-      ["February", "Product B", 3400, 3000, ""]
+[
+  {
+    "id": "add-summary",
+    "type": "add_sheet",
+    "name": "Summary"
+  },
+  {
+    "id": "summary-values",
+    "type": "set_values",
+    "sheet_name": "Summary",
+    "range": "A1:B2",
+    "values": [
+      [
+        "Metric",
+        "Amount"
+      ],
+      [
+        "Sales Total",
+        null
+      ]
     ]
+  },
+  {
+    "id": "summary-total",
+    "type": "set_formulas",
+    "sheet_name": "Summary",
+    "range": "B2",
+    "formulas": [["=SUM(Sales!D2:D3)"]]
   }
-}
+]
 ```
 
-### 4. Verify Data
-```json
-{
-  "tool": "read_data_from_excel",
-  "parameters": {
-    "filepath": "reports/monthly-report.xlsx",
-    "sheet_name": "Monthly Sales",
-    "start_cell": "A1",
-    "end_cell": "E5"
-  }
-}
-```
+Worksheets are never created implicitly. Add a sheet before writing to it. `values` and `formulas` are rectangular matrices matching the specified range. JSON numbers and booleans retain their types; strings remain text. The summary formula keeps the total linked to the Sales sheet.
 
-### 5. Check Workbook Structure
-```json
-{
-  "tool": "get_workbook_info",
-  "parameters": {
-    "filepath": "reports/monthly-report.xlsx"
-  }
-}
-```
+CSV/TSV input fields are read as text, preserving identifiers and leading zeros. Convert to XLSX, then write explicitly selected numeric fields as JSON numbers before calculations.
 
-## Best Practices
-
-1. **File Paths** – Use relative paths for better portability.  
-2. **Sheet Names** – Use descriptive names for worksheets.  
-3. **Data Structure** – Organize data with clear headers.  
-4. **Range Reading** – Specify ranges for large datasets.  
-5. **Error Handling** – Verify file existence before operations.  
-
-## Common Patterns
-
-### Data Import Pattern
-1. Create workbook.  
-2. Write raw data.  
-3. Read back to verify.  
-4. Process with formulas.  
-
-### Multi‑Sheet Reports
-1. Create workbook with a main sheet.  
-2. Add summary/analysis sheets.  
-3. Write data to each sheet.  
-4. Link sheets with formulas.  
-
-### Data Validation
-1. Write data.  
-2. Read back specific ranges.  
-3. Verify data integrity.  
-4. Handle missing values.  
-
-{{< app/cells/assistant language="nodejs-cpp" >}}
+Next: [formulas](/cells/nodejs-cpp/mcp/apply-formula/) and [cell formatting](/cells/nodejs-cpp/mcp/cell-formatting/).

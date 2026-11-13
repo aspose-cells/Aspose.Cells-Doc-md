@@ -32,4 +32,10 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.Cells for Node.js via C++ API Reference Guide](https://reference.aspose.com/cells/nodejs-cpp/)
 - [Aspose.Cells for Node.js via C++ Free Support Forum](https://forum.aspose.com/c/cells/9)
 - [Aspose.Cells for Node.js via C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)
+
+## Excel Automation with AI and the Command Line
+
+- [Aspose.Cells MCP for Node.js](/cells/nodejs-cpp/mcp/) - Connect an AI assistant to local Excel inspection, editing, auditing, conversion, and rendering.
+- [Aspose CLI for Excel](/cells/cli/) - Process spreadsheets from a terminal, script, or AI agent, with local browser preview.
+
 {{< app/cells/assistant language="nodejs-cpp" >}}

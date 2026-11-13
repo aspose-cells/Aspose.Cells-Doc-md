@@ -75,4 +75,10 @@ Aspose.Cells for .NET supports the popular spreadsheet (XLS, XLSX, XLSM, XLSB, X
 			</ul>
 	</div>
 </div>
+
+## Excel Automation with AI and the Command Line
+
+- [Aspose.Cells MCP for Node.js](/cells/nodejs-cpp/mcp/) - Connect an AI assistant to local Excel inspection, editing, auditing, conversion, and rendering.
+- [Aspose CLI for Excel](/cells/cli/) - Process spreadsheets from a terminal, script, or AI agent, with local browser preview.
+
 {{< app/cells/assistant language="csharp" >}}

@@ -1,183 +1,66 @@
 ---
-title: Excel Formula Operations - Excel Formula MCP
-linktitle: Formula Operations - Excel Formula MCP
+title: Excel Formulas with MCP
+linktitle: Formula Operations
 type: docs
 weight: 20
 url: /nodejs-cpp/mcp/apply-formula
-keywords: "Excel Formula MCP, Excel formulas, AI Excel formulas, Excel formula automation, Excel calculations"
-description: "Excel Formula MCP - Apply Excel formulas with AI automation, single and batch Excel formula operations"
+description: "Write and recalculate Excel formulas with set_formulas inside an Aspose.Cells MCP workbook plan."
+keywords: "Aspose.Cells, Excel, spreadsheet automation, Formula Operations"
 ai_search_scope: cells_nodejscpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 # Excel Formula Operations
 
-**Excel Formula MCP** provides powerful **Excel formula** automation with AI integration. Apply **Excel formulas** to single cells or multiple cells in batch operations.
+The JSON below is an `operations` array for `apply_workbook_plan`, not a list of independent tool calls. Use it with a revision-checked target from [File and Data Operations](/cells/nodejs-cpp/mcp/file-operations/). It assumes the `Sales` sheet from the [quick start](/cells/nodejs-cpp/mcp/) exists.
 
-## Available Tools
-
-- `apply_formula` - Apply **Excel formulas** to single cells with **Excel Formula MCP**.
-- `apply_formula_batch` - Apply **Excel formulas** to multiple cells in batch using **AI Excel**.
-
-## Single Formula Operations
-
-### Apply Formula with Equals Sign
 ```json
-{
-  "tool": "apply_formula",
-  "parameters": {
-    "filepath": "reports/calculations.xlsx",
-    "sheet_name": "Data",
-    "cell": "D2",
-    "formula": "=B2*C2"
-  }
-}
-```
-
-### Apply Formula without Equals Sign
-```json
-{
-  "tool": "apply_formula",
-  "parameters": {
-    "filepath": "reports/calculations.xlsx",
-    "sheet_name": "Data",
-    "cell": "E2",
-    "formula": "SUM(B2:D2)"
-  }
-}
-```
-
-### Common Excel Formulas
-```json
-{
-  "tool": "apply_formula",
-  "parameters": {
-    "filepath": "reports/analysis.xlsx",
-    "sheet_name": "Summary",
-    "cell": "F2",
-    "formula": "=AVERAGE(A2:E2)"
-  }
-}
-```
-
-## Batch Formula Operations
-
-### Calculate Sales Report Totals
-```json
-{
-  "tool": "apply_formula_batch",
-  "parameters": {
-    "filepath": "reports/sales-report.xlsx",
-    "sheet_name": "Sales Data",
+[
+  {
+    "id": "line-totals",
+    "type": "set_formulas",
+    "sheet_name": "Sales",
+    "range": "D2:D3",
     "formulas": [
-      { "cell": "E2", "formula": "=C2*D2" },
-      { "cell": "E3", "formula": "=C3*D3" },
-      { "cell": "E4", "formula": "=C4*D4" },
-      { "cell": "E5", "formula": "=SUM(E2:E4)" }
+      [
+        "=B2*C2"
+      ],
+      [
+        "=B3*C3"
+      ]
+    ]
+  },
+  {
+    "id": "grand-total",
+    "type": "set_formulas",
+    "sheet_name": "Sales",
+    "range": "D4",
+    "formulas": [
+      [
+        "=SUM(D2:D3)"
+      ]
     ]
   }
-}
+]
 ```
 
-### Financial Report with Tax Calculations
+Each formula starts with `=`. Supply one formula per cell: the matrix above has two rows for `D2:D3`. Unlike a fill-down command, it does not infer the second formula from the first. Use `$B$2` for an absolute reference and `'Sheet Name'!A1` for a sheet name containing spaces.
+
+The plan recalculates after applying its operations. Put data writes before formulas that depend on them. `set_values` stores a string beginning with `=` as text; use `set_formulas` for calculations.
+
+## Check results
+
 ```json
 {
-  "tool": "apply_formula_batch",
-  "parameters": {
-    "filepath": "reports/financial-report.xlsx",
-    "sheet_name": "Sheet1",
-    "formulas": [
-      { "cell": "D2", "formula": "=B2*C2" },
-      { "cell": "D3", "formula": "=B3*C3" },
-      { "cell": "D4", "formula": "=B4*C4" },
-      { "cell": "E2", "formula": "=D2*0.1" },
-      { "cell": "E3", "formula": "=D3*0.1" },
-      { "cell": "E4", "formula": "=D4*0.1" },
-      { "cell": "F2", "formula": "=D2+E2" },
-      { "cell": "F3", "formula": "=D3+E3" },
-      { "cell": "F4", "formula": "=D4+E4" },
-      { "cell": "D5", "formula": "=SUM(D2:D4)" },
-      { "cell": "E5", "formula": "=SUM(E2:E4)" },
-      { "cell": "F5", "formula": "=SUM(F2:F4)" }
-    ]
+  "name": "read_range",
+  "arguments": {
+    "file_path": "sales.xlsx",
+    "sheet_name": "Sales",
+    "range": "D2:D4"
   }
 }
 ```
 
-### Mixed Formula Syntax
-```json
-{
-  "tool": "apply_formula_batch",
-  "parameters": {
-    "filepath": "reports/analysis.xlsx",
-    "sheet_name": "Data",
-    "formulas": [
-      { "cell": "F4", "formula": "=D4*2" },
-      { "cell": "F5", "formula": "D5*2" },
-      { "cell": "F6", "formula": "=D6*2" },
-      { "cell": "G4", "formula": "=D4+10" },
-      { "cell": "G5", "formula": "=D5+10" },
-      { "cell": "G6", "formula": "=D6+10" },
-      { "cell": "G7", "formula": "=SUM(G4:G6)" }
-    ]
-  }
-}
-```
+For the original quick-start data, the results should be 2,400, 125, and 2,525. If you changed the quantities, verify the corresponding totals instead. Check formula text, calculated values, and any warnings.
 
-## Common Excel Functions
-
-### Mathematical Functions
-- `SUM(range)` – Sum values in range
-- `AVERAGE(range)` – Calculate average
-- `MIN(range)` – Find minimum value
-- `MAX(range)` – Find maximum value
-- `COUNT(range)` – Count numeric cells
-
-### Logical Functions
-- `IF(condition, true_value, false_value)` – Conditional logic
-- `AND(condition1, condition2)` – Logical AND
-- `OR(condition1, condition2)` – Logical OR
-
-### Text Functions
-- `CONCATENATE(text1, text2)` – Join text
-- `LEFT(text, num_chars)` – Extract left characters
-- `RIGHT(text, num_chars)` – Extract right characters
-- `LEN(text)` – Text length
-
-## Best Practices
-
-1. **Formula Syntax**: Both `=SUM(A1:A10)` and `SUM(A1:A10)` work.
-2. **Cell References**: Use absolute references (`$A$1`) when needed.
-3. **Error Handling**: Test formulas with simple data first.
-4. **Batch Operations**: Use batch operations for multiple similar formulas.
-5. **Formula Validation**: Verify results after applying formulas.
-
-## Error Handling
-
-### Empty Formulas Array
-```json
-{
-  "tool": "apply_formula_batch",
-  "parameters": {
-    "filepath": "test.xlsx",
-    "sheet_name": "Sheet1",
-    "formulas": []
-  }
-}
-```
-**Result**: Validation error for empty array
-
-### Invalid Formula
-```json
-{
-  "tool": "apply_formula",
-  "parameters": {
-    "filepath": "test.xlsx",
-    "sheet_name": "Sheet1",
-    "cell": "A1",
-    "formula": "=INVALID_FUNCTION(A1)"
-  }
-}
-```
-**Result**: Formula syntax error
-{{< app/cells/assistant language="nodejs-cpp" >}}
+Use `audit_workbook` to investigate calculation errors. Unresolved formulas and external dependencies need review; a successful read or conversion does not certify calculation correctness. See [audit and verification](/cells/nodejs-cpp/mcp/audit-render-and-convert/).
