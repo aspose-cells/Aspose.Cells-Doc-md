@@ -10,6 +10,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 This page describes the most interesting new Aspose.Cells features introduced in recent releases.
 
+## Aspose.Cells for Java 26.11
+* Supports the "Follow Path" effect for WordArt
+* Preprocessing JSON data before processing smart markers
+* Enhancement for configuring the setting of showing value
+
 ## Aspose.Cells for Java 26.10
 * Support refreshing the items of pivot group field
 * Support refreshing discrete group pivot field

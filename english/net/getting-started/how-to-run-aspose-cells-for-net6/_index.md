@@ -49,7 +49,7 @@ First, create a .NET 6 (or greater) application with VS2022, then choose one o
    In this way, you will use **System.Drawing.Common** as a dependency on your Windows system for a .NET 6 (or greater) project. The drawing result is closer to .NET Core 3.1 or earlier.
 
 4. Locate the **net6.0** subdirectory, add the **Aspose.Cells.dll** in it to your .NET 6 application, and manually add the following NuGet packages to your .NET 6 project:  
-   - SkiaSharp, 2.88.9.  
+   - SkiaSharp, 4.154.0.  
    - System.Security.Cryptography.Pkcs, 6.0.5.  
    - System.Text.Encoding.CodePages, 4.7.0.
 
@@ -86,7 +86,8 @@ You need to perform the following additional operations to ensure proper use of 
 | >= 23.10 && <= 24.12  | 2.88.6 |
 | = 25.1.1              | 3.116.1 |
 | >= 25.1.2 && <= 26.4  | 2.88.9 (.NET 6.0, .NET 8.0), 3.116.1 (.NET 9.0) |
-| >= 26.5.1             | 2.88.9 (.NET 6.0, .NET 8.0), 3.119.0 (.NET 9.0, .NET 10.0) |
+| >= 26.5.1 && <= 26.10 | 2.88.9 (.NET 6.0, .NET 8.0), 3.119.0 (.NET 9.0, .NET 10.0) |
+| >= 26.11 | 4.154.0 |
 
 ### Example Dockerfile for Ubuntu
 
