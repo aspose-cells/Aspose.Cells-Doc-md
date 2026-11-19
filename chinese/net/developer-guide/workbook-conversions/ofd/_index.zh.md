@@ -1,7 +1,7 @@
 ---
 title: 将 Excel 转换为 OFD 格式
 description: Aspose.Cells 是一个用于处理电子表格文件的 .NET 库，支持将 Excel 工作簿转换为 OFD（开放式固定版式文档）格式。本文演示如何使用 Aspose.Cells 创建 Excel 内容并将其导出为 OFD，以及如何将现有 Excel 文件转换为 OFD。
-linktitle: 将 Excel 转换为 OFD 格式
+linktitle: OFD
 keywords: Aspose.Cells, .NET 库, 电子表格, Excel 转 OFD, OFD 转换, SaveFormat.Ofd, 固定版式文档, 工作簿导出
 type: docs
 weight: 195
@@ -33,25 +33,25 @@ using System;
 using Aspose.Cells;
 using System.Drawing;
 string dataDir = "C:\\Temp\\";
-// 创建一个新的工作簿
+// Create a new Workbook
 Workbook workbook = new Workbook();
-// 获取第一个工作表
+// Obtain the first worksheet
 Worksheet worksheet = workbook.Worksheets[0];
-// 设置列宽
+// Set column widths
 worksheet.Cells.SetColumnWidth(0, 5);
 worksheet.Cells.SetColumnWidth(1, 35);
 worksheet.Cells.SetColumnWidth(2, 12);
 worksheet.Cells.SetColumnWidth(3, 15);
 worksheet.Cells.SetColumnWidth(4, 15);
 worksheet.Cells.SetColumnWidth(5, 5);
-// 插入公司标志
+// Insert company logo
 worksheet.Pictures.Add(1, 1, dataDir + "logo.png");
-// 公司名称和联系信息
+// Company name and contact details
 worksheet.Cells["B3"].PutValue("Acme Corporation");
 worksheet.Cells["B4"].PutValue("123 Business Street");
 worksheet.Cells["B5"].PutValue("City, State 12345");
 worksheet.Cells["B6"].PutValue("Phone: (555) 123-4567");
-// 发票标题 - 合并单元格
+// INVOICE title - merge cells
 worksheet.Cells.Merge(7, 1, 2, 4);
 Cell titleCell = worksheet.Cells["B8"];
 titleCell.PutValue("INVOICE");
@@ -60,17 +60,17 @@ titleStyle.Font.IsBold = true;
 titleStyle.Font.Size = 20;
 titleStyle.HorizontalAlignment = TextAlignmentType.Center;
 titleCell.SetStyle(titleStyle);
-// 发票编号和日期
+// Invoice number and date
 worksheet.Cells["B11"].PutValue("Invoice Number:");
 worksheet.Cells["C11"].PutValue("INV-2024-001");
 worksheet.Cells["B12"].PutValue("Date:");
 worksheet.Cells["C12"].PutValue(DateTime.Now.ToString("yyyy-MM-dd"));
-// 收款方信息
+// Bill-to section
 worksheet.Cells["B14"].PutValue("Bill To:");
 worksheet.Cells["B15"].PutValue("Client Name");
 worksheet.Cells["B16"].PutValue("Client Address");
 worksheet.Cells["B17"].PutValue("Client City, State");
-// 订单项表头
+// Line items header
 Cell headerDesc = worksheet.Cells["B19"];
 Cell headerQty = worksheet.Cells["C19"];
 Cell headerPrice = worksheet.Cells["D19"];
@@ -93,20 +93,20 @@ headerDesc.SetStyle(headerStyle);
 headerQty.SetStyle(headerStyle);
 headerPrice.SetStyle(headerStyle);
 headerTotal.SetStyle(headerStyle);
-// 带边框的货币样式
+// Currency style with borders
 Style currencyStyle = workbook.CreateStyle();
 currencyStyle.Custom = "\"$\"#,##0.00";
 currencyStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-// 描述/数量单元格的普通边框样式
+// Plain border style for description/quantity cells
 Style borderStyle = workbook.CreateStyle();
 borderStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-// 订单项行
+// Line items rows
 object[,] lineItems = new object[,] {
     {"Product A - Widget", 2, 50.00},
     {"Product B - Gadget", 3, 75.00},
@@ -128,7 +128,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
     priceCell.SetStyle(currencyStyle);
     totalCell.SetStyle(currencyStyle);
 }
-// 小计、税款、总计
+// Subtotal, tax, grand total
 worksheet.Cells["B24"].PutValue("Subtotal:");
 Cell subtotalCell = worksheet.Cells["E24"];
 subtotalCell.Formula = "SUM(E21:E23)";
@@ -138,20 +138,20 @@ taxCell.Formula = "E24*0.1";
 worksheet.Cells["B26"].PutValue("Grand Total:");
 Cell grandTotalCell = worksheet.Cells["E26"];
 grandTotalCell.Formula = "E24+E25";
-// 总计值的粗体 + 货币样式
+// Bold + currency style for total values
 Style totalStyle = workbook.CreateStyle();
 totalStyle.Font.IsBold = true;
 totalStyle.Custom = "\"$\"#,##0.00";
 subtotalCell.SetStyle(totalStyle);
 taxCell.SetStyle(totalStyle);
 grandTotalCell.SetStyle(totalStyle);
-// 总计标签的粗体样式
+// Bold style for total labels
 Style boldStyle = workbook.CreateStyle();
 boldStyle.Font.IsBold = true;
 worksheet.Cells["B24"].SetStyle(boldStyle);
 worksheet.Cells["B25"].SetStyle(boldStyle);
 worksheet.Cells["B26"].SetStyle(boldStyle);
-// 将工作簿保存为 OFD 文件
+// Save the workbook as an OFD file
 workbook.Save(dataDir + "Invoice.ofd", SaveFormat.Ofd);
 ```
 
@@ -162,41 +162,41 @@ Aspose.Cells 还可以从磁盘加载现有 Excel 工作簿，并将其直接导
 using System;
 using Aspose.Cells;
 string dataDir = "C:\\Examples\\";
-// 从磁盘打开一个现有的 Excel 工作簿
+// Open an existing Excel workbook from disk
 Workbook workbook = new Workbook(dataDir + "SampleBook.xlsx");
-// (1) 读取并显示选定单元格的值，以确认文件已加载
+// (1) Read and display values from selected cells to confirm the file was loaded
 Worksheet firstSheet = workbook.Worksheets[0];
 Console.WriteLine("First sheet name: " + firstSheet.Name);
 Console.WriteLine("Cell A1: " + firstSheet.Cells["A1"].StringValue);
 Console.WriteLine("Cell B1: " + firstSheet.Cells["B1"].StringValue);
 Console.WriteLine("Cell C1: " + firstSheet.Cells["C1"].StringValue);
-// (2) 遍历 Worksheets 集合以枚举可用的工作表
+// (2) Iterate over the Worksheets collection to enumerate available sheets
 Console.WriteLine("\nAvailable worksheets:");
 for (int i = 0; i < workbook.Worksheets.Count; i++)
 {
     Worksheet ws = workbook.Worksheets[i];
     Console.WriteLine("  [" + i + "] " + ws.Name);
 }
-// (3) 可选择地更新时间戳单元格以反映转换操作
+// (3) Optionally update a timestamp cell to reflect the conversion
 firstSheet.Cells["A1"].PutValue("Converted on: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-// 在数据块顶部插入一个汇总标题行
+// Append a summary header row at the top of the data block
 firstSheet.Cells.InsertRow(0);
 firstSheet.Cells["A1"].PutValue("Conversion Summary");
 firstSheet.Cells["A2"].PutValue("Generated: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-// (4) 在工作表上配置 PageSetup 属性
+// (4) Configure PageSetup properties on the worksheet
 PageSetup pageSetup = firstSheet.PageSetup;
 pageSetup.Orientation = PageOrientationType.Landscape;
 pageSetup.PaperSize = PaperSizeType.PaperA4;
 pageSetup.FitToPagesTall = 1;
 pageSetup.FitToPagesWide = 1;
-// (5) 可选择地为 OFD 输出设置打印区域
+// (5) Optionally set the print area for the OFD output
 int lastRow = firstSheet.Cells.MaxDataRow;
 int lastCol = firstSheet.Cells.MaxDataColumn;
 string lastColLetter = CellsHelper.ColumnIndexToName(lastCol);
 string printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.PageSetup.PrintArea = printArea;
 Console.WriteLine("\nPrint area set to: " + printArea);
-// (6) 将工作簿保存为 OFD 文件
+// (6) Save the workbook as an OFD file
 workbook.Save(dataDir + "SampleBook.ofd", SaveFormat.Ofd);
 Console.WriteLine("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 ```

@@ -1,9 +1,9 @@
 ---
-title: SmartMarker-Einzelzellen-Array-Rendering | Aspose.Cells Python via Java
-description: Erfahren Sie, wie Sie Array-Daten mit den Attributen ArrayAsSingle und ExtraDelimiter in Smart Markers in eine einzelne Zelle rendern, mit Aspose.Cells for Python via Java.
-linktitle: SmartMarker-Einzelzellen-Array-Rendering | Aspose.Cells Python
+title: SmartMarker-Rendering eines Arrays in einer einzelnen Zelle | Aspose.Cells Python via Java
+description: Erfahren Sie, wie Sie Arraydaten mithilfe der Smart-Marker-Attribute `arrayassingle` und `arraydelimiter` in Aspose.Cells for Python via Java in einer einzigen Zelle rendern.
+linktitle: SmartMarker-Rendering in einer einzelnen Zelle | Aspose.Cells
 url: /de/python-java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
-keywords: Aspose.Cells, Python via Java Bibliothek, Tabellenkalkulation, Smart Markers, ArrayAsSingle, ExtraDelimiter, Einzelzellen-Array, Array-Rendering, Vorlage
+keywords: Aspose.Cells, Bibliothek für Python via Java, Tabellenverarbeitung, Smart-Marker, arrayassingle, arraydelimiter, Array in einer einzelnen Zelle, Array-Rendering, Vorlage
 type: docs
 weight: 195
 ai_search_scope: cells_pythonjava
@@ -11,146 +11,191 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells unterstützt das Rendern von Array-Daten in eine einzelne Zelle über Smart Markers. Durch die Verwendung des Attributs `ArrayAsSingle` zusammen mit dem Attribut `ExtraDelimiter` können Entwickler steuern, wie Array-Elemente innerhalb einer einzelnen Zelle getrennt werden, was eine flexible Formatierung für Berichte und Vorlagen ermöglicht.
+Aspose.Cells kann eine Array-Datenquelle mithilfe von Smart-Markern in einer einzigen Zelle rendern. Das Attribut `arrayassingle` deaktiviert die standardmäßige elementweise Verteilung, und das Attribut `arraydelimiter` legt das Trennzeichen zwischen den zusammengeführten Elementen fest – standardmäßig ein Komma, alternativ ein einzelnes Zeichen oder eine angegebene Zeichenfolge aus mehreren Zeichen in Anführungszeichen.
 {{% /alert %}}
 
 ## **Einführung**
-Smart Markers in Aspose.Cells sind eine leistungsstarke, vorlagenbasierte Funktion, mit der Sie Tabellendaten dynamisch mithilfe von Marker-Ausdrücken wie `&=DataSource.Field` befüllen können. Der Marker wird in einer Designer-Arbeitsmappe platziert, und wenn die Vorlage vom `WorkbookDesigner` verarbeitet wird, werden die Marker durch Werte aus der bereitgestellten Datenquelle ersetzt.
-Standardmäßig, wenn ein Smart Marker auf eine Array-Eigenschaft verweist (z. B. `&=DataSource.Numbers`), expandiert die Engine das Array und platziert jedes Element in eine eigene angrenzende Zelle – entweder horizontal über eine Zeile oder vertikal über eine Spalte. Obwohl dieses Verhalten in vielen Szenarien praktisch ist, gibt es Situationen, in denen Sie es vorziehen würden, das gesamte Array in eine einzige Zelle zu rendern, wobei die Elemente verkettet und durch ein Trennzeichen Ihrer Wahl getrennt werden.
-Die Attribute `ArrayAsSingle` und `ExtraDelimiter`, die zusammen innerhalb eines Smart-Marker-Tags verwendet werden, erfüllen genau diese Anforderung. Sie ermöglichen es Ihnen, Berichtslayouts kompakt und vorhersagbar zu halten, während Sie dennoch nativ mit Array-Datenquellen arbeiten.
+
+Smart-Marker in Aspose.Cells sind eine vorlagenbasierte Funktion, die Tabellendaten dynamisch mithilfe von Markerausdrücken wie `&=DataSource.Field` befüllt. Der Marker wird in einer Designer-Arbeitsmappe platziert, und wenn die Vorlage durch den `WorkbookDesigner` verarbeitet wird, werden die Marker durch Werte aus der bereitgestellten Datenquelle ersetzt.
+Standardmäßig wird das Array von der Engine über mehrere Zellen verteilt, wenn sich ein Smart-Marker auf ein Arrayfeld bezieht (beispielsweise `&=Product.Tags`, das an eine Liste mit vier Werten gebunden ist), und jedes Element wird in einer eigenen Zelle platziert. Dabei werden die Werte unterhalb des Markers vertikal nach unten in der Spalte verteilt. Dieses Verhalten ist in vielen Szenarien praktisch, es gibt jedoch Situationen, in denen Sie das gesamte Array lieber in einer einzigen Zelle rendern möchten, wobei die Elemente verkettet und durch ein Trennzeichen Ihrer Wahl getrennt werden.
+Die Attribute `arrayassingle` und `arraydelimiter`, die in den Klammern eines Smart-Markers im Format `name:value` angegeben werden, erfüllen genau diese Anforderung. Sie ermöglichen kompakte und vorhersehbare Berichtslayouts und arbeiten zugleich nativ mit Array-Datenquellen.
 
 ## **Warum diese Funktion benötigt wird**
 
-### **Standardverhalten der Array-Verteilung**
-Wenn ein Smart Marker auf eine Array-Eigenschaft verweist, expandiert Aspose.Cells das Array standardmäßig über mehrere Zellen. Beispielsweise platziert ein Marker wie `&=Product.Tags` bei einem `string[]` mit vier Werten jeden Wert in eine eigene Zelle, wodurch andere Vorlageninhalte nach außen verschoben werden und potenziell sorgfältig gestaltete Berichtslayouts beschädigt werden.
+### **Standardverhalten bei der Arrayverteilung**
 
-### **Einschränkungen des Anwendungsfalls**
-Es gibt viele praktische Szenarien, in denen das Standardverteilungsverhalten unerwünscht ist:
-- **Zusammenfassungs-Berichte**, die ein kompaktes Layout mit einer Zeile pro Datensatz benötigen.
-- **Tag-, Label- oder Stichwortlisten**, die als kommagetrennte oder pipe-getrennte Werte innerhalb einer einzelnen Zelle angezeigt werden müssen.
-- **Filter-Chips oder Statusindikatoren**, die mehrere Werte an einer Stelle zur besseren Lesbarkeit gruppieren.
-- **Nachgelagerte Pipelines** (CSV-Export, PDF-Rendering, Serienbrief), die einen einzelnen konsolidierten Wert pro Zelle anstelle eines expandierten Bereichs erwarten.
-- **Plattformübergreifende Kompatibilität**, bei der einige Konsumenten Arrays, die sich über mehrere Zellen erstrecken, nicht tolerieren können.
+Wenn sich ein Smart-Marker auf ein Arrayfeld bezieht, verteilt Aspose.Cells das Array standardmäßig über mehrere Zellen. Ein Marker wie `&=Product.Tags`, der auf eine Liste mit vier Werten verweist, platziert beispielsweise jeden Wert in einer eigenen Zelle unterhalb des Markers. Dadurch werden andere Vorlageninhalte nach unten verschoben und sorgfältig entworfene Berichtslayouts möglicherweise beeinträchtigt.
 
-### **Die Lücke, die sie füllt**
-Ohne einen eingebauten Mechanismus wären Entwickler gezwungen, Daten in Python vorzuverarbeiten – Arrays in getrennte Zeichenketten zu verbinden, bevor sie sie an den Workbook-Designer binden. Dies dupliziert Logik, kompliziert Datenmodelle und erhöht die Fehlerwahrscheinlichkeit. Die Attribute `ArrayAsSingle` und `ExtraDelimiter` beseitigen diesen Workaround, indem sie die Formatierung deklarativ innerhalb des Smart Markers selbst handhaben.
+### **Einschränkungen bei Anwendungsfällen**
 
-## **Funktionsvorteile**
-Die Verwendung der Attribute `ArrayAsSingle` und `ExtraDelimiter` in Ihren Smart Markers bietet mehrere Vorteile:
-- **Einzelzellen-Containment**: Alle Array-Elemente werden in genau eine Zelle gerendert, wodurch Layouts kompakt und vorhersagbar bleiben.
-- **Benutzerdefinierte Trennzeichensteuerung**: Geben Sie eine beliebige Trennzeichenfolge an – Komma, Semikolon, Bindestrich, Pipe, Zeilenumbruch oder beliebigen benutzerdefinierten Text.
-- **Vorlagengesteuerte Formatierung**: Es ist kein zusätzlicher Code erforderlich, um die Daten vorzuverarbeiten; Formatierungsregeln leben innerhalb des Smart-Marker-Tags.
-- **Sauberere Berichte**: Array-Daten verschieben benachbarte Vorlageninhalte nicht mehr in verschiedene Zeilen oder Spalten.
-- **Vielseitige Datentypen**: Funktioniert mit Zeichenketten, Zahlen, Datumsangaben und jedem anderen Datentyp, der mit einem Trennzeichen verbunden werden kann.
-- **Abwärtskompatibilität**: Wenn die Attribute weggelassen werden, bleibt das ursprüngliche Verteilungsverhalten erhalten, sodass bestehende Vorlagen unverändert weiter funktionieren.
+In vielen praktischen Szenarien ist das standardmäßige Verteilungsverhalten unerwünscht:
+- **Zusammenfassende Berichte**, die ein kompaktes Layout mit einer Zeile pro Datensatz benötigen.
+- **Tag-, Label- oder Stichwortlisten**, die in einer einzelnen Zelle als durch Kommas oder senkrechte Striche getrennte Werte angezeigt werden sollen.
+- **Filter-Chips oder Statusindikatoren**, die mehrere Werte an einer Stelle zwecks besserer Lesbarkeit gruppieren.
+- **Nachgelagerte Pipelines** (CSV-Export, PDF-Rendering, Serienbriefverarbeitung), die für jede Zelle einen einzelnen konsolidierten Wert statt eines erweiterten Bereichs erwarten.
+- **Plattformübergreifende Kompatibilität**, bei der einige Verbraucher keine Arrays tolerieren, die sich über mehrere Zellen erstrecken.
+
+### **Die Lücke, die diese Funktion schließt**
+
+Ohne einen integrierten Mechanismus müssten Entwickler die Daten in Python vorverarbeiten und Listen vor der Bindung an den `WorkbookDesigner` in durch Trennzeichen getrennte Zeichenfolgen umwandeln. Dadurch würde Logik dupliziert, die Datenmodelle wären komplizierter und die Fehlerwahrscheinlichkeit höher. Die Attribute `arrayassingle` und `arraydelimiter` beseitigen diesen Umweg, indem sie die Formatierung deklarativ im Smart-Marker selbst übernehmen.
+
+## **Vorteile der Funktion**
+
+Die Verwendung der Attribute `arrayassingle` und `arraydelimiter` in Smart-Markern bietet mehrere Vorteile:
+- **Einbindung in eine einzelne Zelle**: Alle Arrayelemente werden in genau eine Zelle gerendert, wodurch Layouts kompakt und vorhersagbar bleiben.
+- **Steuerung des Trennzeichens**: Legen Sie das gewünschte Trennzeichen fest – das Standardkomma, ein Semikolon, einen Bindestrich, einen senkrechten Strich oder eine Zeichenfolge aus mehreren Zeichen in Anführungszeichen, etwa `" | "`.
+- **Vorlagenbasierte Formatierung**: Für die Vorverarbeitung der Daten ist kein zusätzlicher Code erforderlich; die Formatierungsregeln stehen im Smart-Marker-Tag.
+- **Bereinigtere Berichte**: Arraydaten verschieben benachbarte Vorlageninhalte nicht mehr in andere Zeilen oder Spalten.
+- **Vielseitige Datentypen**: Die Funktion unterstützt Zeichenkettenarrays, die als JSON-Zeilen bereitgestellt werden, einschließlich numerischer Werte, die als Zeichenfolge dargestellt werden.
+- **Abwärtskompatibilität**: Wenn die Attribute weggelassen werden, bleibt das ursprüngliche Verteilungsverhalten erhalten, sodass vorhandene Vorlagen unverändert weiter funktionieren.
 
 ## **So verwenden Sie diese Funktion**
 
 ### **Smart-Marker-Syntax**
-Die Attribute `ArrayAsSingle` und `ExtraDelimiter` werden als Schlüssel-Wert-Paare innerhalb der Klammern eines Standard-Smart-Markers übergeben. Die allgemeine Syntax ist:
+
+Die Attribute `arrayassingle` und `arraydelimiter` verwenden die Attributgrammatik `name:value` von Aspose.Cells innerhalb der Klammern eines standardmäßigen Smart-Markers. Die allgemeine Syntax lautet:
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayField(arrayassingle:true,arraydelimiter:;)
 ```
 
-Der Marker besteht aus den folgenden Teilen:
-- `&=DataSource.ArrayProperty` – der Standard-Smart-Marker, der auf die Array-Eigenschaft der gebundenen Datenquelle verweist.
-- `arrayasSingle=true` – weist die Engine an, das gesamte Array in eine einzelne Zelle zu rendern. Nur der Wert `true` löst das Einzelzellen-Verhalten aus.
-- `extraDelimiter=", "` – definiert das Trennzeichen, das zwischen Array-Elementen platziert wird. Der Wert ist ein Zeichenkettenliteral; er kann leer, ein einzelnes Zeichen oder eine mehrzeichige Zeichenkette sein.
+Der Marker besteht aus den folgenden Komponenten:
+- `&=DataSource.ArrayField` – der standardmäßige Smart-Marker, der auf das Arrayfeld der gebundenen Datenquelle verweist.
+- `arrayassingle:true` – weist die Engine an, das gesamte Array in einer einzigen Zelle statt der Verteilung der Elemente zu rendern.
+- `arraydelimiter:;` – optional; definiert das Trennzeichen zwischen den Arrayelementen. Wenn es weggelassen wird, wird ein Komma verwendet.
 
-{{% alert color="primary" %}}
-Das Attribut `extraDelimiter` akzeptiert jedes Zeichenkettenliteral, einschließlich mehrzeichiger Trennzeichen, benutzerdefiniertem Text oder Escape-Sequenzen wie `\n` für zeilenumbruchgetrennte Ausgabe. Wenn das Array leer ist, bleibt die resultierende Zelle leer.
+{{% alert color="warning" %}}
+Schreiben Sie Attribute im Format `name:value` (mit einem Doppelpunkt, nicht mit einem Gleichheitszeichen) und trennen Sie mehrere Attribute durch ein Komma **ohne Leerzeichen**. Ein Leerzeichen nach dem Komma verschiebt den geparsten Wert um ein Zeichen – `(arrayassingle:true, arraydelimiter:;)` würde die Elemente mit dem fehlerhaften Trennzeichen `:;` statt `;` verbinden.
 {{% /alert %}}
 
-### **Schritt-für-Schritt-Workflow**
-Der folgende Workflow beschreibt, wie ein Array mithilfe von Smart Markers in eine einzelne Zelle gerendert wird.
-1. **Bereiten Sie die Datenquelle vor**: Erstellen Sie eine Klasse (oder Datenstruktur), die eine Eigenschaft bereitstellt, die ein Array zurückgibt. Die Eigenschaft kann `string[]`, `int[]` oder einen anderen unterstützten Array-Typ zurückgeben.
-2. **Erstellen Sie eine Designer-Arbeitsmappe**: Erstellen Sie eine neue `Workbook`, fügen Sie eine Kopfzeile hinzu und platzieren Sie eine Smart-Marker-Zelle, die auf die Array-Eigenschaft mit den Attributen `arrayasSingle` und `extraDelimiter` verweist.
-3. **Instanziieren Sie den WorkbookDesigner**: Erstellen Sie ein `WorkbookDesigner`-Objekt, hängen Sie die Designer-Arbeitsmappe an und binden Sie Ihre Datenquelle mit der Methode `set_data_source`.
-4. **Verarbeiten Sie die Marker**: Rufen Sie die Methode `WorkbookDesigner.process()` auf, um die Smart Markers zu expandieren und die Arbeitsmappe mit echten Daten zu befüllen.
-5. **Speichern Sie das Ergebnis**: Speichern Sie die resultierende Arbeitsmappe auf der Festplatte im XLSX- oder einem anderen unterstützten Dateiformat.
+### **Formen des Trennzeichens**
 
-### **Codebeispiel 1 – Grundlegendes Zeichenketten-Array-Rendering**
+- Ein einzelnes Zeichen folgt unmittelbar auf den Doppelpunkt: `arraydelimiter:;`, `arraydelimiter:-`, `arraydelimiter:*`.
+- Ein Trennzeichen aus mehreren Zeichen wird in doppelten Anführungszeichen geschrieben: `arraydelimiter:" | "`, `arraydelimiter:" - "`.
+
+### **Workflow Schritt für Schritt**
+
+Der folgende Workflow beschreibt, wie ein Array mithilfe von Smart-Markern in einer einzigen Zelle gerendert wird.
+1. **Datenquelle vorbereiten**: Ordnen Sie jeden Datensatz als JSON-Objekt an, dessen Feld ein Array enthält, beispielsweise `{"Tags": ["C#", "Aspose"]}`. Einfache Python-Klasseninstanzen und Wörterbücher, die an `setDataSource` übergeben werden, werden auf dieser Plattform nicht gebunden – JSON-Zeilen sind die unterstützte tabellenförmige Darstellung.
+2. **Designer-Arbeitsmappe erstellen**: Erstellen Sie eine neue `Workbook`, fügen Sie eine Kopfzeile hinzu und platzieren Sie eine Smart-Marker-Zelle, die auf das Arrayfeld verweist und das Attribut `arrayassingle` enthält (sowie `arraydelimiter`, wenn ein benutzerdefiniertes Trennzeichen benötigt wird).
+3. **`WorkbookDesigner` instanziieren**: Erstellen Sie einen `WorkbookDesigner` für die Arbeitsmappe und fügen Sie die JSON-Zeilen mit `setJsonDataSource` hinzu.
+4. **Marker verarbeiten**: Rufen Sie die Methode `WorkbookDesigner.process()` auf, um die Smart-Marker zu erweitern und die Arbeitsmappe mit den tatsächlichen Daten zu befüllen.
+5. **Ergebnis speichern**: Speichern Sie die resultierende Arbeitsmappe im XLSX-Format oder in einem anderen unterstützten Dateiformat auf der Festplatte.
+
+### **Codebeispiel 1 – Grundlegendes Rendering eines Zeichenkettenarrays**
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, WorkbookDesigner
-class Product:
-    def __init__(self, tags):
-        self._tags = tags
-    
-    def getTags(self):
-        return self._tags
-product = Product(["C#", "Aspose", "SmartMarker", "Excel"])
+
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.getCells().get("A1").putValue("Tags")
-worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
-designer = WorkbookDesigner()
-designer.setWorkbook(workbook)
-designer.setDataSource("Product", product)
+# No spaces inside the parentheses: attributes are name:value pairs
+worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayassingle:true)")
+designer = WorkbookDesigner(workbook)
+designer.setJsonDataSource(
+    "Product",
+    '[{"Tags": ["C#", "Aspose", "SmartMarker", "Excel"]}]')
 designer.process()
-workbook.save("output_arraySingle.xlsx")
-jpype.shutdownJVM()
+print(worksheet.getCells().get("A2").getStringValue())
+workbook.save("output-array-single.xlsx")
 ```
 
-### **Codebeispiel 2 – Numerisches Array mit benutzerdefiniertem Trennzeichen**
+Das Beispiel gibt den zusammengeführten Wert des gesamten Arrays aus. Die vier Tags werden in einer Zelle durch das Standardkomma getrennt:
 
-```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import Workbook
-# Definiere die Student-Klasse
-class Student:
-    def __init__(self):
-        self.Scores = []
-student = Student()
-student.Scores = [95, 88, 76, 100, 67]
-workbook = Workbook()
-worksheet = workbook.getWorksheets().get(0)
-worksheet.getCells().get("A1").putValue("Scores")
-worksheet.getCells().get("A2").putValue(" - ".join(str(s) for s in student.Scores))
-workbook.save("output_numericArray.xlsx")
-jpype.shutdownJVM()
+```
+C#,Aspose,SmartMarker,Excel
 ```
 
-### **Codebeispiel 3 – Vergleich von Standard- vs. ArrayAsSingle-Verhalten**
+### **Codebeispiel 2 – Numerische Werte mit einem benutzerdefinierten Trennzeichen**
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, WorkbookDesigner
-# Definieren Sie die Datenquelle als Wörterbuch (entspricht der Order-Klasse)
-order = {"Items": ["Apple", "Banana", "Cherry", "Date"]}
+
 workbook = Workbook()
-sheet = workbook.getWorksheets().get(0)
-cells = sheet.getCells()
-# Abschnitt 1: Standard-Smart-Marker - Werte werden horizontal über Zellen verteilt
-cells.get("A1").putValue("Default Spreading Behavior:")
-cells.get("A2").putValue("&=Order.Items")
-# Abschnitt 2: Neue Einzelzellendarstellung mit arrayasSingle und extraDelimiter
-cells.get("A4").putValue("Single Cell Rendering (arrayasSingle=true):")
-cells.get("A5").putValue("&=Order.Items(arrayasSingle=true, extraDelimiter=\"; \")")
-# Datenquelle binden und Smart-Marker verarbeiten
+worksheet = workbook.getWorksheets().get(0)
+worksheet.getCells().get("A1").putValue("Scores")
+# arraydelimiter:- joins the values with a hyphen
+worksheet.getCells().get("A2").putValue("&=Student.Scores(arrayassingle:true,arraydelimiter:-)")
 designer = WorkbookDesigner(workbook)
-designer.setDataSource("Order", order)
+designer.setJsonDataSource(
+    "Student",
+    '[{"Scores": ["95", "88", "76", "100", "67"]}]')
 designer.process()
-# Speichern Sie die resultierende Arbeitsmappe
-workbook.save("output_comparison.xlsx")
-jpype.shutdownJVM()
+print(worksheet.getCells().get("A2").getStringValue())
+workbook.save("output-array-numeric.xlsx")
 ```
 
-### **Hinweise & bewährte Praktiken**
-Beachten Sie die folgenden Punkte, wenn Sie mit den Attributen `ArrayAsSingle` und `ExtraDelimiter` arbeiten:
-- Der Wert `extraDelimiter` wird als Zeichenkettenliteral behandelt; escapen Sie alle Sonderzeichen, die Ihr Vorlagenprozessor interpretieren könnte.
-- Das Attribut `arrayasSingle` akzeptiert einen booleschen Wert (`true` / `false`). Nur `true` löst das Einzelzellen-Verhalten aus; jeder andere Wert fällt auf das Standardverteilungsverhalten zurück.
-- Wenn das Array leer oder null ist, bleibt die Zelle leer (oder enthält je nach Datentyp eine leere Zeichenkette).
-- Die Funktion ist mit Objektdatenquellen sowie mit `DataSet`- und `DataTable`-Quellen kompatibel, bei denen eine Spalte in Arrays aufgeteilt werden kann.
-- Für zeilenumbruchgetrennte Ausgabe können Sie `\n` oder die Newline-Konstante der Plattform als Trennzeichenwert verwenden.
-- Platzieren Sie den Smart Marker in einer Zelle, die ausreichend Breite hat, um die resultierende verkettete Zeichenkette anzuzeigen; andernfalls kann der Inhalt je nach Format visuell in angrenzende Zellen überlaufen.
+Wenn die Punktzahlen als JSON-Zeichenfolgen bereitgestellt werden, bleiben in der zusammengeführten Ausgabe die einfachen Zahlen erhalten:
+
+```
+95-88-76-100-67
+```
+
+{{% alert color="note" %}}
+JSON-Zahlen, die durch die Java-Engine verarbeitet werden, treffen als Doubles ein, sodass `[95, 88]` zu `95.0-88.0` zusammengeführt würde. Setzen Sie die Zahlen in den JSON-Zeilen in Anführungszeichen, wenn der exakte Ganzzahlentext in der zusammengeführten Zelle erhalten bleiben soll.
+{{% /alert %}}
+
+### **Codebeispiel 3 – Vergleich des Standard-Renderings mit dem Rendering in einer einzelnen Zelle**
+
+```python
+import jpype
+import asposecells
+jpype.startJVM()
+from asposecells.api import Workbook, WorkbookDesigner
+
+workbook = Workbook()
+cells = workbook.getWorksheets().get(0).getCells()
+# Column B: default marker — values spread vertically down the column
+cells.get("B1").putValue("Default")
+cells.get("B2").putValue("&=Order.Items")
+# Column C: single-cell rendering — the whole array joins into one cell
+cells.get("C1").putValue("Single cell")
+cells.get("C2").putValue("&=Order.Items(arrayassingle:true)")
+designer = WorkbookDesigner(workbook)
+designer.setJsonDataSource(
+    "Order",
+    '[{"Items": ["Apple", "Banana", "Cherry", "Date"]}]')
+designer.process()
+for row in range(1, 6):
+    b = cells.get(row, 1).getStringValue() or ""
+    c = cells.get(row, 2).getStringValue() or ""
+    if b or c:
+        print(f"B{row + 1}=[{b}]  C{row + 1}=[{c}]")
+workbook.save("output-array-comparison.xlsx")
+```
+
+Der Standardmarker füllt in Spalte B für jedes Element eine eigene Zelle, während der `arrayassingle`-Marker dasselbe Array in Spalte C in einer einzigen Zelle zusammenfasst:
+
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
+```
+
+### **Hinweise und bewährte Verfahren**
+
+Beachten Sie beim Arbeiten mit den Attributen `arrayassingle` und `arraydelimiter` folgende Punkte:
+- Attributwerte verwenden das Format `name:value`. Die Form mit einem Gleichheitszeichen, etwa `arrayassingle=true`, wird nicht erkannt und führt stillschweigend zum Standardverhalten der Verteilung zurück.
+- Trennen Sie Attribute durch ein Komma ohne Leerzeichen; ein Leerzeichen nach dem Komma verschiebt den Wert des Trennzeichens um ein Zeichen (siehe Warnung oben).
+- Der Wert von `arraydelimiter` kann ein einzelnes Zeichen sein, das unmittelbar nach dem Doppelpunkt steht, oder eine Zeichenfolge aus mehreren Zeichen in doppelten Anführungszeichen.
+- Wenn `arraydelimiter` weggelassen wird, werden die Elemente durch ein Komma verbunden.
+- Stellen Sie Arrayfelder über Zeilenobjekte von `setJsonDataSource` bereit; einfache Python-Objekte und Wörterbücher, die an `setDataSource` übergeben werden, werden auf dieser Plattform nicht gebunden.
+- JSON-Zahlen treffen über die Java-Engine als Doubles ein (`95` wird zu `95.0`); setzen Sie numerische Werte in den JSON-Zeilen in Anführungszeichen, wenn der exakte Ganzzahlentext wichtig ist.
+- Platzieren Sie den Smart-Marker in einer Zelle mit ausreichender Breite, um die resultierende verkettete Zeichenfolge anzuzeigen; andernfalls kann der Inhalt je nach Format visuell in benachbarte Zellen überlaufen.
+
+## **Verwandte Artikel**
+- [Filterfelder zu einer PivotTable in Aspose.Cells for Python via Java](/cells/de/python-java/add-page-field-in-pivot-table/)
+- [Anwenden von Stilen auf Pivot-Tabellen in Aspose.Cells for Python via Java](/cells/de/python-java/apply-style-to-pivot-table/)
+- [Ändern des Seitenfeldlayouts in einer Pivot-Tabelle](/cells/de/python-java/change-page-field-layout/)
+- [Sparkline in Aspose.Cells for Python via Java in Bild und HTML konvertieren](/cells/de/python-java/convert-sparkline-to-image-and-html/)
+- [Konvertieren von Excel in das OFD-Format](/cells/de/python-java/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="python" >}}

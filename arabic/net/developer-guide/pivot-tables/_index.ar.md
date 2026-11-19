@@ -36,12 +36,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
-// إنشاء مصنف جديد والحصول على ورقة العمل الأولى
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-
-// كتابة البيانات المصدرية: المبيعات لكل رياضة وربع
+// Write the source data: sales per sport and quarter
 sheet.Cells["A1"].PutValue("Sport");
 sheet.Cells["B1"].PutValue("Quarter");
 sheet.Cells["C1"].PutValue("Sales");
@@ -66,16 +64,13 @@ sheet.Cells["C7"].PutValue(5000);
 sheet.Cells["A8"].PutValue("Golf");
 sheet.Cells["B8"].PutValue("Qtr3");
 sheet.Cells["C8"].PutValue(6430);
-
-// إضافة جدول محوري في خلية الوجهة E3، مصدره A1:C8
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C8", 2, 4);
-
-// تعيين حقول الجدول المحوري: Sport إلى الصفوف، Quarter إلى الأعمدة، Sales إلى البيانات
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Quarter");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
-
-// حفظ المصنف
+// Save the workbook
 workbook.Save("pivotTable_test_out.xlsx");
 ```
 

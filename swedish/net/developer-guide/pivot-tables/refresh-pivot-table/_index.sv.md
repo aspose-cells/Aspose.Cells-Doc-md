@@ -55,14 +55,14 @@ Följande exempel bygger en arbetsbok med ett källintervall för Fruit/Year/Amo
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Skapa en ny arbetsbok
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Skriv rubrikrad i cellerna A1:C1
+// Write header row into cells A1:C1
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// Skriv datarader i cellerna A2:C9 (8 rader fruktdata för 2020 och 2021)
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.Cells["A2"].PutValue("grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(50);
@@ -87,19 +87,19 @@ worksheet.Cells["C8"].PutValue(110);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(120);
-// Lägg till en pivottabell: källområde "A1:C9", destinationscell "E3", namn
+// Add a pivot table: source range "A1:C9", destination cell "E3"
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// Tilldela pivotfält: Fruit till Rader, Year till Kolumner, Amount till Data
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Ändra flera Amount-värden i källdatan för att simulera förändringar
+// Modify several Amount values in the source data to simulate changes
 worksheet.Cells["C2"].PutValue(55);
 worksheet.Cells["C5"].PutValue(85);
 worksheet.Cells["C9"].PutValue(125);
-// Uppdatera alla pivottabeller / pivotcache i arbetsboken
+// Refresh every pivot table / pivot cache in the workbook
 workbook.RefreshAll();
-// Spara arbetsboken
+// Save the workbook
 workbook.Save("output.xlsx");
 ```
 
@@ -165,11 +165,11 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
-// Skriv rubrikrad för Frukt / År / Belopp
+// Write Fruit / Year / Amount header row
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// Skriv 8 datarader (raderna 2-9, som passar källintervallet A1:C9)
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.Cells["A2"].PutValue("Grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(100);
@@ -194,21 +194,21 @@ worksheet.Cells["C8"].PutValue(350);
 worksheet.Cells["A9"].PutValue("Cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(450);
-// Lägg till en pivottabell med namnet placerad i målcell E3, med källa från A1:C9
+// Add a pivot table placed at destination cell E3, sourcing from A1:C9
 var pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// Tilldela fält: Frukt till Rad, År till Kolumn, Belopp till Data
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Ändra en visnings-/layout-egenskap — detta är enbart en presentationsändring,
-// så den kräver INTE att källdata läses på nytt via PivotCache.Refresh().
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.Refresh().
 pivotTable.RefreshDataOnOpeningFile = false;
-// CalculateData() renderar om DENNA pivottabells visning (data + stil) från de
-// data som redan finns i PivotCache. Eftersom källdata inte ändrades,
-// utförs ingen rundtur till källan — endast de cachade värdena beräknas om
-// till kalkylbladsceller.
+// CalculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.CalculateData();
-// Spara arbetsboken till disk
+// Save the workbook to disk
 workbook.Save("output.xlsx");
 ```
 

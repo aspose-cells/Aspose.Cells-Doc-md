@@ -1,6 +1,6 @@
 ---
 title: Uppdatera pivottabeller och pivotcacher i Aspose.Cells for Python via Java
-linktitle: Uppdatera pivottabeller och pivotcacher i Aspose.Cells for Python via Java
+linktitle: Uppdatera pivottabeller
 description: Lär dig hur du uppdaterar pivottabeller i Aspose.Cells for Python via Java med hjälp av pivotuppdaterings-API i v26.7+. Den här artikeln behandlar refreshAll, refreshPivotTables, PivotCache.refresh, calculateData och getPivotTables med praktiska kodexempel.
 keywords: Aspose.Cells, Python via Java, pivottabell, uppdatering, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

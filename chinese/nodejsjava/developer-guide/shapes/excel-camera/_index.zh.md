@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via Java 中的 Excel 照相机
-linktitle: Aspose.Cells for Node.js via Java 中的 Excel 照相机
+linktitle: Excel 相机
 description: 了解如何在 Aspose.Cells for Node.js via Java 中使用 Excel 照相机，创建链接到单元格区域的动态图片，使其能够随源数据自动刷新并保留所有源格式
 keywords: Aspose.Cells, Aspose.Cells for Node.js via Java, Excel 照相机, 动态图片, 链接图片, Picture.Formula, UpdateSelectedValue, CreateRange, ToImage, Buffer
 type: docs
@@ -33,7 +33,7 @@ const aspose = require("aspose.cells");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// 动态相机：添加一个空图片，通过公式将其链接到 A1:F10，然后刷新
+// Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 let pictures = worksheet.getPictures();
 let index = pictures.add(10, 6, null);
 pictures.get(index).setFormula("A1:F10");
@@ -55,7 +55,7 @@ const aspose = require("aspose.cells");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// 静态相机: 创建 Range, 渲染为字节, 包装在 ByteArrayInputStream 中, 添加为图片
+// Static Camera: build Range, render to bytes, wrap in ByteArrayInputStream, add as picture
 let range = worksheet.getCells().createRange("A1:F10");
 let imageBytes = range.toImage(null);
 let pictures = worksheet.getPictures();

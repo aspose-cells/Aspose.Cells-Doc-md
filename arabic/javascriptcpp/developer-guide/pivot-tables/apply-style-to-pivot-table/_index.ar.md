@@ -51,17 +51,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // السيناريو 1: تطبيق تنسيق تلقائي جاهز من XLS القديم
-            // واجهة برمجة التطبيقات المستخدمة: PivotTable.AutoFormatType
-            // تنسيق الملف الهدف: .xls (قديم)
-            // للحصول على أمثلة كاملة وملفات بيانات، يرجى الانتقال إلى https://github.com/aspose-cells/Aspose.Cells-for-.NET
-            // إنشاء مصنف جديد
+            // Scenario 1: Apply a legacy XLS preset autoformat
+            // API in use: PivotTable.AutoFormatType
+            // Target file format: .xls (legacy)
+            // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+            // Create a new workbook
             const workbook = new Workbook();
-            // الحصول على ورقة العمل الأولى
+            // Get the first worksheet
             const sheet = workbook.worksheets.get(0);
             const cells = sheet.cells;
-            // تعبئة بيانات المصدر بصف عناوين (Fruit، Year، Amount)
-            // و9 صفوف بيانات تغطي grape وblueberry وkiwi وcherry خلال عامَي 2020 و2021
+            // Populate the source data with header row (Fruit, Year, Amount)
+            // and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
             cells.get(0, 0).value = "Fruit";
             cells.get(0, 1).value = "Year";
             cells.get(0, 2).value = "Amount";
@@ -92,17 +92,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             cells.get(9, 0).value = "grape";
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
-            // إضافة جدول محوري في الخلية E3 باستخدام نطاق المصدر A1:C10
+            // Add a pivot table at destination cell E3, using source range A1:C10
             const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
-            // تعيين الحقول: Fruit إلى Rows، Amount إلى Data
+            // Assign fields: Fruit -> Rows, Amount -> Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // تطبيق تنسيق XLS التلقائي الجاهز القديم "Report5"
-            // ملاحظة: هذه الخاصية ذات معنى فقط عند الحفظ بصيغة .xls.
-            // عند الحفظ بصيغة .xlsx أو .xlsm أو .xlsb، يتجاهل Excel خاصية AutoFormatType
-            // ويستخدم ما تحدده PivotTableStyleType / PivotTableStyleName.
+            // Apply the legacy XLS preset autoformat "Report5"
+            // Note: This property is only meaningful when saving as .xls.
+            // When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+            // and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
             pivotTable.autoFormatType = AsposeCells.PivotTableAutoFormatType.Report5;
-            // حفظ المصنف بصيغة XLS القديمة .xls
+            // Save the workbook in legacy .xls format
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData], { type: "application/vnd.ms-excel" });
             const downloadLink = document.getElementById('downloadLink');
@@ -147,18 +147,18 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // السيناريو 2: تطبيق نمط جاهز حديث من Excel 2007+ مسمى باستخدام PivotTableStyleType.
-            // تنسيق الملف الهدف: ‎.xlsx. يقع محرف PivotTableStyleType في مساحة الأسماء Aspose.Cells
-            // (وليس في Aspose.Cells.Pivot) -- ولهذا لا نحتاج إلى أي تعليمة using إضافية له.
-            // مرجع GitHub: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+            // Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+            // Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+            // (not in Aspose.Cells.Pivot) -- that is why we do not need any extra using for it.
+            // GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // صف العناوين: Fruit / Year / Amount
+            // Header row: Fruit / Year / Amount
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // 9 صفوف من البيانات: Fruit / Year / Amount
+            // 9 data rows of Fruit / Year / Amount
             cells.get("A2").value = "Grape";
             cells.get("B2").value = 2020;
             cells.get("C2").value = 100;
@@ -186,19 +186,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
-            // إضافة جدول محوري عند E3، بمصدر A1:C10
+            // Add a pivot table at E3, sourced from A1:C10
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // تعيين حقول الجدول المحوري: Fruit -> منطقة الصفوف، Year -> منطقة الأعمدة، Amount -> منطقة البيانات
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // تطبيق نمط جدول محوري جاهز حديث من Excel 2007+.
-            // PivotTableStyleType هو واجهة برمجة التطبيقات الصحيحة لملفات ‎.xlsx / ‎.xlsm / ‎.xlsb؛ ويتجاهل Excel
-            // AutoFormatType لهذه الصيغ. ينتمي PivotTableStyleDark1 إلى عائلة النمط الداكن
-            // (PivotTableStyleDark1..PivotTableStyleDark28)، كما يعرض المحرف نفسه
-            // سمات Excel 2017 الفاتحة والداكنة الأحدث (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+            // Apply a modern Excel 2007+ named preset pivot style.
+            // PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+            // is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+            // family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+            // newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
             pivotTable.pivotTableStyleType = AsposeCells.PivotTableStyleType.PivotTableStyleDark1;
-            // الحفظ بصيغة ‎.xlsx الحديثة -- هذه هي الصيغة التي يكون فيها PivotTableStyleType ذا معنى.
+            // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -250,7 +250,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // تعبئة بيانات المصدر: صف العناوين + 9 صفوف بيانات (A1:C10)
+            // Populate source data: header row + 9 data rows (A1:C10)
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
@@ -281,15 +281,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
-            // إضافة جدول محوري مصدره A1:C10 ومثبت عند E3
+            // Add pivot table sourced from A1:C10, anchored at E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // الخطوة 1: تسجيل نمط جدول محوري مخصص جديد وCapturing فهرسه
+            // Step 1: register a new custom pivot table style and capture its index
             const styleIndex = workbook.worksheets.tableStyles.addPivotTableStyle("CustomPivotStyle");
             const tableStyle = workbook.worksheets.tableStyles.get(styleIndex);
-            // الخطوة 2: إضافة عنصر WholeTable وتطبيق حدود سوداء رفيعة على الجوانب الأربعة
+            // Step 2: add a WholeTable element and apply thin black borders on all four sides
             const wholeTableElementIndex = tableStyle.tableStyleElements.add(AsposeCells.TableStyleElementType.WholeTable);
             const wholeTableElement = tableStyle.tableStyleElements.get(wholeTableElementIndex);
             const wholeTableStyle = workbook.createStyle();
@@ -306,14 +306,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             rightBorder.lineStyle = AsposeCells.CellBorderType.Thin;
             rightBorder.color = "black";
             wholeTableElement.setElementStyle(wholeTableStyle);
-            // الخطوة 3: إضافة عنصر GrandTotalRow وتطبيق خط أحمر عريض
+            // Step 3: add a GrandTotalRow element and apply bold red font
             const grandTotalElementIndex = tableStyle.tableStyleElements.add(AsposeCells.TableStyleElementType.GrandTotalRow);
             const grandTotalElement = tableStyle.tableStyleElements.get(grandTotalElementIndex);
             const grandTotalStyle = workbook.createStyle();
             grandTotalStyle.font.isBold = true;
             grandTotalStyle.font.color = "red";
             grandTotalElement.setElementStyle(grandTotalStyle);
-            // الخطوة 4: تطبيق النمط المخصص حسب الاسم (وليس باستخدام PivotTableStyleType، الذي يُستخدم للإعدادات المدمجة)
+            // Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
             pivotTable.pivotTableStyleName = "CustomPivotStyle";
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData], {
@@ -360,13 +360,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // السيناريو 4: تطبيق نمط واحد على كل خلية في جدول المحور باستخدام FormatAll
-            // واجهة برمجة التطبيقات المستخدمة: PivotTable.FormatAll(Style)
-            // تنسيق الهدف: .xlsx
-            // مرجع GitHub: راجع مستودع Aspose.Cells-for-.NET — أمثلة تنسيق جداول المحاور
+            // Scenario 4: Apply a single Style to every pivot table cell using FormatAll
+            // API in use: PivotTable.FormatAll(Style)
+            // Target format: .xlsx
+            // GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // تعبئة بيانات المصدر: صف العناوين (الصف 1) + 9 صفوف بيانات (الصفوف 2-10)
+            // Populate source data: header row (row 1) + 9 data rows (rows 2-10)
             const cells = worksheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
@@ -398,13 +398,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
-            // إضافة جدول محور: نطاق المصدر A1:C10، خلية الوجهة E3
+            // Add pivot table: source range A1:C10, destination cell E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // تعيين حقول المحور: Fruit -> منطقة الصفوف، Year -> منطقة الأعمدة، Amount -> منطقة البيانات
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // إنشاء نمط سيتم فرضه على كل خلية في جدول المحور
+            // Build a Style that will be forced onto every cell of the pivot table
             const style = workbook.createStyle();
             style.foregroundColor = AsposeCells.Color.Yellow;
             style.pattern = AsposeCells.BackgroundType.Solid;
@@ -418,10 +418,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             style.borders.get(AsposeCells.BorderType.LeftBorder).color = AsposeCells.Color.Black;
             style.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
             style.borders.get(AsposeCells.BorderType.RightBorder).color = AsposeCells.Color.Black;
-            // تطبيق FormatAll: يفرض هذا النمط الواحد على كل خلية في جدول المحور،
-            // متجاوزًا أي PivotTableStyleType / PivotTableStyleName تم تعيينه مسبقًا
+            // Apply FormatAll: forces this single style onto every cell of the pivot table,
+            // overriding any PivotTableStyleType / PivotTableStyleName previously set
             pivotTable.formatAll(style);
-            // حفظ المصنف بتنسيق .xlsx الحديث
+            // Save the workbook in the modern .xlsx format
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

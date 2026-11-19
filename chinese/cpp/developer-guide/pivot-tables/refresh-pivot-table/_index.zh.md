@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for C++ 中刷新数据透视表和数据透视缓存
-linktitle: 在 Aspose.Cells for C++ 中刷新数据透视表和数据透视缓存
+linktitle: 刷新数据透视表
 description: 学习如何使用 v26.7+ 的数据透视刷新 API 在 Aspose.Cells for C++ 中刷新数据透视表。本文涵盖 RefreshAll、RefreshPivotTables、PivotCache.Refresh、CalculateData 以及 GetPivotTables，并配有实用的代码示例。
 keywords: Aspose.Cells, C++, 数据透视表, 刷新, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

@@ -55,22 +55,22 @@ System.out.println("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 
 ```java
 import com.aspose.cells.*;
-// 创建一个新的工作簿
+// Create a new workbook
 Workbook workbook = new Workbook();
-// 添加第二个工作表
+// Add a second worksheet
 workbook.getWorksheets().add();
-// 将示例值写入第一个工作表的 A1 单元格
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// 保护工作簿结构
+// Protect the workbook structure
 workbook.protect(ProtectionType.STRUCTURE, "StructPwd");
-// 将工作簿保存为 structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 String filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// 将文件重新加载到新的 Workbook 实例中
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// 移除结构保护
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// 打印确认消息
+// Print confirmation message
 System.out.println("Structure protection has been successfully removed from the workbook.");
 ```
 

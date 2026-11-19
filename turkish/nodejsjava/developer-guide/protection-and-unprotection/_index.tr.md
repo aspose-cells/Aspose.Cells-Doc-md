@@ -40,17 +40,17 @@ Excel iki ayrı parola katmanını destekler. Birincisi, dosyanın kendisini şi
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// İlk çalışma sayfasının A1 hücresine örnek bir değer yaz
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get("A1").putValue("Sample Data");
-// Yazma korumasını yapılandır: değiştirme parolasını ve yazarı ayarla
+// Configure the write protection: set the password to modify and the author
 workbook.getSettings().getWriteProtection().setPassword("ModifyPwd");
 workbook.getSettings().getWriteProtection().setAuthor("AuthorName");
-// Çalışma kitabını, yazma korumasının kalıcı olması için kaydet
+// Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx");
-// Doğru parolayı kullanarak değiştirme parolasını doğrula
+// Validate the password to modify using the correct password
 let isCorrectValid = workbook.getSettings().getWriteProtection().validatePassword("ModifyPwd");
 console.log("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// Diğer dalı göstermek için yanlış bir parola kullanarak değiştirme parolasını doğrula
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 let isWrongValid = workbook.getSettings().getWriteProtection().validatePassword("WrongPwd");
 console.log("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -61,20 +61,20 @@ console.log("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// İkinci bir çalışma sayfası ekle
+// Add a second worksheet
 workbook.getWorksheets().add();
-// İlk çalışma sayfasının A1 hücresine örnek bir değer yaz
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// Çalışma kitabı yapısını koru
+// Protect the workbook structure
 workbook.protect(AsposeCells.ProtectionType.STRUCTURE, "StructPwd");
-// Çalışma kitabını structure_protected.xlsx olarak kaydet
+// Save the workbook as structure_protected.xlsx
 let filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// Dosyayı yeni bir Workbook örneğine yeniden yükle
+// Reload the file into a new Workbook instance
 let loadedWorkbook = new AsposeCells.Workbook(filePath);
-// Yapı korumasını kaldır
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// Onay mesajını yazdır
+// Print confirmation message
 console.log("Structure protection has been successfully removed from the workbook.");
 ```
 

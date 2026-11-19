@@ -1,6 +1,6 @@
 ---
 title: Agrupar campos dinámicos en la tabla dinámica
-linktitle: Agrupar campos dinámicos en la tabla dinámica
+linktitle: Agrupar campos dinámicos
 description: Aprenda a agrupar campos dinámicos de filas y columnas en una tabla dinámica en períodos de fechas como meses y trimestres, y en rangos numéricos, usando PivotField.Group y PivotFieldGroupOptions en Aspose.Cells for .NET.
 keywords: Aspose.Cells, tabla dinámica, agrupar campo dinámico, PivotField.Group, PivotFieldGroupOptions, agrupación por fechas, agrupación por números, meses, trimestres, rango numérico, C#
 type: docs
@@ -20,15 +20,15 @@ La sobrecarga sin parámetros `PivotField.Group()` inspecciona el tipo de dato d
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Cargar el libro de muestra
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Acceder a la segunda hoja de cálculo y a su tabla dinámica
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// Agrupar automáticamente el primer campo de fila.
-// El campo contiene fechas, por lo que se agrupa por meses.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 PivotField field = pt.RowFields[0];
 field.Group();
-// Calcular los datos de la tabla dinámica y guardar el archivo de salida
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputAutoGroupPivotField.xlsx");
 ```
@@ -42,17 +42,17 @@ Tenga en cuenta que el orden de los valores en `options.GroupTypes` se ignora. S
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Cargar el libro de muestra
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Acceder a la segunda hoja de cálculo y su tabla dinámica
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// Agrupar el primer campo de fila (un campo de fecha) por meses y trimestres
+// Group the first row field (a date field) by months and quarters
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartDate = new DateTime(2008, 1, 1);
 options.EndDate = new DateTime(2008, 9, 5);
 options.GroupTypes = new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Quarters };
 pt.RowFields[0].Group(options);
-// Calcular los datos de la tabla dinámica y guardar el archivo de salida
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,21 +64,21 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Cargar el libro de muestra
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Acceder a la segunda hoja de cálculo y su tabla dinámica
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// FieldTwo es un campo de datos: muévalo al área de filas primero,
-// porque solo los campos de fila/columna pueden agruparse
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.AddFieldToArea(PivotFieldType.Row, "FieldTwo");
 pt.CalculateData();
-// Agrupar el campo numérico en los rangos 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartNumber = 0;
 options.EndNumber = 5;
 options.Interval = 2;
 pt.RowFields[1].Group(options);
-// Calcular los datos de la tabla dinámica y guardar el archivo de salida
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputNumberGroupPivotField.xlsx");
 ```

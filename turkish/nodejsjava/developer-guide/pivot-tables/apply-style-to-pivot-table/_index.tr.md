@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via Java'da Pivot Tablolarına Stil Uygulama
-linktitle: Aspose.Cells for Node.js via Java'da Pivot Tablolarına Stil Uygulama
+linktitle: Pivot Tablo Stillerini Uygula
 description: Aspose.Cells for Node.js via Java'da pivot tablolarına yerleşik ve özel stillerin nasıl uygulanacağını öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stiller, özel pivot tablosu stilleri ve formatAll kısayolu.
 keywords: Aspose.Cells Node.js via Java pivot tablosu stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
 type: docs
@@ -31,10 +31,10 @@ Aşağıdaki örnek, yeni bir çalışma kitabı yükler, Fruit/Year/Amount örn
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// İlk çalışma sayfasını al
+// Get the first worksheet
 let sheet = workbook.getWorksheets().get(0);
-// Başlık satırı (Fruit, Year, Amount) ile kaynak verileri doldur
-// ve 2020 ile 2021 yılları arasında grape, blueberry, kiwi, cherry verilerini kapsayan 9 veri satırı
+// Populate the source data with header row (Fruit, Year, Amount)
+// and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.getCells().get(0, 0).putValue("Fruit");
 sheet.getCells().get(0, 1).putValue("Year");
 sheet.getCells().get(0, 2).putValue("Amount");
@@ -65,17 +65,17 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// Hedef hücre E3'e, adıyla, A1:C10 kaynak aralığını kullanarak bir pivot tablo ekle
+// Add a pivot table at destination cell E3, using source range A1:C10
 let pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// Alanları atayın: Fruit -> Rows, Amount -> Data
+// Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// Eski XLS ön ayarı olan "Report5" otomatik biçimini uygulayın
-// Not: Bu özellik yalnızca .xls olarak kaydederken geçerlidir.
-// .xlsx/.xlsm/.xlsb olarak kaydedildiğinde Excel AutoFormatType'ı yok sayar
-// ve PivotTableStyleType / PivotTableStyleName'in belirttiği biçimi kullanır.
+// Apply the legacy XLS preset autoformat "Report5"
+// Note: This property is only meaningful when saving as .xls.
+// When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+// and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivotTable.setAutoFormatType(AsposeCells.PivotTableAutoFormatType.REPORT_5);
-// Çalışma kitabını eski .xls formatında kaydedin
+// Save the workbook in legacy .xls format
 workbook.save("output.xls");
 ```
 
@@ -157,7 +157,7 @@ Aşağıdaki örnek, `WholeTable` üzerinde ince siyah kenarlık ve `GrandTotalR
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// Kaynak verileri doldur: başlık satırı + 9 veri satırı (A1:C10)
+// Populate source data: header row + 9 data rows (A1:C10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -188,15 +188,15 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// A1:C10'dan kaynak alan, E3 hücresine sabitlenmiş ve adında bir özet tablo ekle
+// Add pivot table sourced from A1:C10, anchored at E3
 let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// Adım 1: yeni bir özel özet tablo stili kaydet ve dizinini al
+// Step 1: register a new custom pivot table style and capture its index
 let styleIndex = workbook.getWorksheets().getTableStyles().addPivotTableStyle("CustomPivotStyle");
 let tableStyle = workbook.getWorksheets().getTableStyles().get(styleIndex);
-// Adım 2: bir WholeTable (TümTablo) öğesi ekle ve dört kenara ince siyah kenarlık uygula
+// Step 2: add a WholeTable element and apply thin black borders on all four sides
 let wholeTableElementIndex = tableStyle.getTableStyleElements().add(AsposeCells.TableStyleElementType.WHOLE_TABLE);
 let wholeTableElement = tableStyle.getTableStyleElements().get(wholeTableElementIndex);
 let wholeTableStyle = workbook.createStyle();
@@ -213,14 +213,14 @@ let rightBorder = wholeTableStyle.getBorders().getByBorderType(AsposeCells.Borde
 rightBorder.setLineStyle(AsposeCells.CellBorderType.THIN);
 rightBorder.setColor(AsposeCells.Color.getBlack());
 wholeTableElement.setElementStyle(wholeTableStyle);
-// Adım 3: bir GrandTotalRow (Genel Toplam Satırı) öğesi ekle ve kırmızı kalın yazı tipi uygula
+// Step 3: add a GrandTotalRow element and apply bold red font
 let grandTotalElementIndex = tableStyle.getTableStyleElements().add(AsposeCells.TableStyleElementType.GRAND_TOTAL_ROW);
 let grandTotalElement = tableStyle.getTableStyleElements().get(grandTotalElementIndex);
 let grandTotalStyle = workbook.createStyle();
 grandTotalStyle.getFont().setBold(true);
 grandTotalStyle.getFont().setColor(AsposeCells.Color.getRed());
 grandTotalElement.setElementStyle(grandTotalStyle);
-// Adım 4: özel stili ada göre uygula (YERLEŞİK ön ayarlar için olan PivotTableStyleType DEĞİL)
+// Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
@@ -237,7 +237,7 @@ Aşağıdaki örnek, sarı dolgulu, kalın koyu mavi yazı tipine ve her tarafta
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// Kaynak verileri doldur: başlık satırı (satır 1) + 9 veri satırı (satırlar 2-10)
+// Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -268,13 +268,13 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// Özet tablo ekle: kaynak aralığı A1:C10, hedef hücre E3, ad
+// Add pivot table: source range A1:C10, destination cell E3
 let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// Özet tablo alanlarını ata: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// Özet tablosunun her hücresine uygulanacak bir Stil oluştur
+// Build a Style that will be forced onto every cell of the pivot table
 let style = workbook.createStyle();
 style.setForegroundColor(AsposeCells.Color.getYellow());
 style.setPattern(AsposeCells.BackgroundType.SOLID);
@@ -288,10 +288,10 @@ style.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineSt
 style.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setColor(AsposeCells.Color.getBlack());
 style.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 style.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setColor(AsposeCells.Color.getBlack());
-// formatAll uygula: özet tablonun her hücresine bu tek stili uygular,
-// daha önce ayarlanmış olan PivotTableStyleType / PivotTableStyleName ayarlarını geçersiz kılar
+// Apply formatAll: forces this single style onto every cell of the pivot table,
+// overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivotTable.formatAll(style);
-// Çalışma kitabını modern .xlsx formatında kaydet
+// Save the workbook in the modern .xlsx format
 workbook.save("output.xlsx");
 ```
 

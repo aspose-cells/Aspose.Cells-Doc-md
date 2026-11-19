@@ -1,7 +1,7 @@
 ---
 title: Conversión de Excel al formato OFD
 description: Aspose.Cells es una biblioteca de C++ para trabajar con archivos de hojas de cálculo que admite la conversión de libros de Excel al formato OFD (Open Fixed-layout Document). Este artículo muestra cómo crear contenido de Excel y exportarlo como OFD, así como cómo convertir archivos Excel existentes a OFD usando Aspose.Cells.
-linktitle: Conversión de Excel al formato OFD
+linktitle: OFD
 keywords: Aspose.Cells, biblioteca de C++, hoja de cálculo, Excel a OFD, conversión OFD, SaveFormat.Ofd, documento de diseño fijo, exportación de libros
 type: docs
 weight: 195
@@ -29,38 +29,38 @@ Aspose.Cells permite construir un libro de forma programática, rellenarlo con d
 El ejemplo construye una hoja de cálculo de factura insertando una imagen de logotipo en el área superior izquierda, rellenando el nombre de la empresa y los datos de contacto, añadiendo un título "FACTURA" en celdas combinadas, registrando el número y la fecha de la factura, listando el cliente a facturar, construyendo una tabla de líneas de detalle con columnas de descripción, cantidad, precio unitario y total, y calculando el subtotal, los impuestos y el total general mediante fórmulas de celda. Se aplica formato, como encabezados en negrita, formato de moneda para los precios, bordes y anchos de columna utilizando los objetos `Style` y `Font`. Finalmente, el libro se guarda con la extensión `.ofd` utilizando `SaveFormat.Ofd`.
 
 ```cpp
-// Aspose.Cells para ejemplo en C++
-// Compilar con Aspose.Cells 26.6.0 (o posterior) y un compilador C++17 (o posterior)
+// Aspose.Cells for C++ example
+// Compile with Aspose.Cells 26.6.0 (or later) and a C++17 (or later) compiler
 #include "Aspose.Cells.h"
 #include <string>
 #include <ctime>
 using namespace Aspose::Cells;
 int main()
 {
-    // Inicializar Aspose.Cells
+    // Initialize Aspose.Cells
     Aspose::Cells::Startup();
-    // Directorio para recursos y salida
+    // Directory for resources and output
     const char16_t* dataDir = u"C:\\Temp\\";
-    // Crear un nuevo libro de trabajo
+    // Create a new workbook
     Workbook workbook;
-    // Obtener la primera hoja de cálculo
+    // Obtain the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // Establecer anchos de columna
+    // Set column widths
     cells.SetColumnWidth(0, 5.0);
     cells.SetColumnWidth(1, 35.0);
     cells.SetColumnWidth(2, 12.0);
     cells.SetColumnWidth(3, 15.0);
     cells.SetColumnWidth(4, 15.0);
     cells.SetColumnWidth(5, 5.0);
-    // Insertar el logo de la empresa
+    // Insert company logo
     worksheet.GetPictures().Add(1, 1, U16String(dataDir) + u"logo.png");
-    // Nombre de la empresa y datos de contacto
+    // Company name and contact details
     cells.Get(u"B3").PutValue(u"Acme Corporation");
     cells.Get(u"B4").PutValue(u"123 Business Street");
     cells.Get(u"B5").PutValue(u"City, State 12345");
     cells.Get(u"B6").PutValue(u"Phone: (555) 123-4567");
-    // Título INVOICE - combinar celdas
+    // INVOICE title - merge cells
     cells.Merge(7, 1, 2, 4);
     Cell titleCell = cells.Get(u"B8");
     titleCell.PutValue(u"INVOICE");
@@ -69,7 +69,7 @@ int main()
     titleStyle.GetFont().SetSize(20);
     titleStyle.SetHorizontalAlignment(TextAlignmentType::Center);
     titleCell.SetStyle(titleStyle);
-    // Número de factura y fecha
+    // Invoice number and date
     cells.Get(u"B11").PutValue(u"Invoice Number:");
     cells.Get(u"C11").PutValue(u"INV-2024-001");
     cells.Get(u"B12").PutValue(u"Date:");
@@ -78,12 +78,12 @@ int main()
     char dateBuffer[11];
     std::strftime(dateBuffer, sizeof(dateBuffer), "%Y-%m-%d", now);
     cells.Get(u"C12").PutValue(U16String(dateBuffer));
-    // Sección de facturación
+    // Bill-to section
     cells.Get(u"B14").PutValue(u"Bill To:");
     cells.Get(u"B15").PutValue(u"Client Name");
     cells.Get(u"B16").PutValue(u"Client Address");
     cells.Get(u"B17").PutValue(u"Client City, State");
-    // Encabezado de líneas de detalle
+    // Line items header
     Cell headerDesc = cells.Get(u"B19");
     Cell headerQty = cells.Get(u"C19");
     Cell headerPrice = cells.Get(u"D19");
@@ -106,20 +106,20 @@ int main()
     headerQty.SetStyle(headerStyle);
     headerPrice.SetStyle(headerStyle);
     headerTotal.SetStyle(headerStyle);
-    // Estilo de moneda con bordes
+    // Currency style with borders
     Style currencyStyle = workbook.CreateStyle();
     currencyStyle.SetCustom(u"\"$\"#,##0.00");
     currencyStyle.GetBorders().Get(BorderType::TopBorder).SetLineStyle(CellBorderType::Thin);
     currencyStyle.GetBorders().Get(BorderType::BottomBorder).SetLineStyle(CellBorderType::Thin);
     currencyStyle.GetBorders().Get(BorderType::LeftBorder).SetLineStyle(CellBorderType::Thin);
     currencyStyle.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
-    // Estilo de borde simple para celdas de descripción/cantidad
+    // Plain border style for description/quantity cells
     Style borderStyle = workbook.CreateStyle();
     borderStyle.GetBorders().Get(BorderType::TopBorder).SetLineStyle(CellBorderType::Thin);
     borderStyle.GetBorders().Get(BorderType::BottomBorder).SetLineStyle(CellBorderType::Thin);
     borderStyle.GetBorders().Get(BorderType::LeftBorder).SetLineStyle(CellBorderType::Thin);
     borderStyle.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
-    // Filas de líneas de detalle
+    // Line items rows
     struct LineItem { const char16_t* desc; int qty; double price; };
     LineItem lineItems[] = {
         {u"Product A - Widget", 2, 50.00},
@@ -143,7 +143,7 @@ int main()
         priceCell.SetStyle(currencyStyle);
         totalCell.SetStyle(currencyStyle);
     }
-    // Subtotal, impuesto, total general
+    // Subtotal, tax, grand total
     cells.Get(u"B24").PutValue(u"Subtotal:");
     Cell subtotalCell = cells.Get(u"E24");
     subtotalCell.SetFormula(u"SUM(E21:E23)");
@@ -153,22 +153,22 @@ int main()
     cells.Get(u"B26").PutValue(u"Grand Total:");
     Cell grandTotalCell = cells.Get(u"E26");
     grandTotalCell.SetFormula(u"E24+E25");
-    // Estilo de negrita + moneda para los valores totales
+    // Bold + currency style for total values
     Style totalStyle = workbook.CreateStyle();
     totalStyle.GetFont().SetIsBold(true);
     totalStyle.SetCustom(u"\"$\"#,##0.00");
     subtotalCell.SetStyle(totalStyle);
     taxCell.SetStyle(totalStyle);
     grandTotalCell.SetStyle(totalStyle);
-    // Estilo de negrita para las etiquetas de totales
+    // Bold style for total labels
     Style boldStyle = workbook.CreateStyle();
     boldStyle.GetFont().SetIsBold(true);
     cells.Get(u"B24").SetStyle(boldStyle);
     cells.Get(u"B25").SetStyle(boldStyle);
     cells.Get(u"B26").SetStyle(boldStyle);
-    // Guardar el libro de trabajo como un archivo OFD
+    // Save the workbook as an OFD file
     workbook.Save(U16String(dataDir) + u"Invoice.ofd", SaveFormat::Ofd);
-    // Liberar los recursos de Aspose.Cells
+    // Cleanup Aspose.Cells resources
     Aspose::Cells::Cleanup();
     return 0;
 }
@@ -193,9 +193,9 @@ std::string GetCurrentTimestamp() {
 int main() {
     Aspose::Cells::Startup();
     std::string dataDir = "C:\\Examples\\";
-    // Abrir un libro de Excel existente desde el disco
+    // Open an existing Excel workbook from disk
     Workbook workbook(U16String((dataDir + "SampleBook.xlsx").c_str()));
-    // (1) Leer y mostrar valores de celdas seleccionadas para confirmar que el archivo fue cargado
+    // (1) Read and display values from selected cells to confirm the file was loaded
     Worksheet firstSheet = workbook.GetWorksheets().Get(0);
     U16String sheetName = firstSheet.GetName();
     Cell a1 = firstSheet.GetCells().Get(u"A1");
@@ -205,7 +205,7 @@ int main() {
     std::cout << "Cell A1: " << a1.GetStringValue().ToUtf8() << std::endl;
     std::cout << "Cell B1: " << b1.GetStringValue().ToUtf8() << std::endl;
     std::cout << "Cell C1: " << c1.GetStringValue().ToUtf8() << std::endl;
-    // (2) Iterar sobre la colección Worksheets para enumerar las hojas disponibles
+    // (2) Iterate over the Worksheets collection to enumerate available sheets
     std::cout << "\nAvailable worksheets:" << std::endl;
     WorksheetCollection sheets = workbook.GetWorksheets();
     int sheetCount = sheets.GetCount();
@@ -214,28 +214,28 @@ int main() {
         U16String wsName = ws.GetName();
         std::cout << "  [" << i << "] " << wsName.ToUtf8() << std::endl;
     }
-    // (3) Opcionalmente actualizar una celda con marca de tiempo para reflejar la conversión
+    // (3) Optionally update a timestamp cell to reflect the conversion
     std::string timestamp1 = GetCurrentTimestamp();
     firstSheet.GetCells().Get(u"A1").PutValue(U16String(("Converted on: " + timestamp1).c_str()));
-    // Agregar una fila de encabezado de resumen en la parte superior del bloque de datos
+    // Append a summary header row at the top of the data block
     firstSheet.GetCells().InsertRow(0);
     firstSheet.GetCells().Get(u"A1").PutValue(u"Conversion Summary");
     std::string timestamp2 = GetCurrentTimestamp();
     firstSheet.GetCells().Get(u"A2").PutValue(U16String(("Generated: " + timestamp2).c_str()));
-    // (4) Configurar las propiedades de PageSetup en la hoja de cálculo
+    // (4) Configure PageSetup properties on the worksheet
     PageSetup pageSetup = firstSheet.GetPageSetup();
     pageSetup.SetOrientation(PageOrientationType::Landscape);
     pageSetup.SetPaperSize(PaperSizeType::PaperA4);
     pageSetup.SetFitToPagesTall(1);
     pageSetup.SetFitToPagesWide(1);
-    // (5) Opcionalmente establecer el área de impresión para la salida OFD
+    // (5) Optionally set the print area for the OFD output
     int lastRow = firstSheet.GetCells().GetMaxDataRow();
     int lastCol = firstSheet.GetCells().GetMaxDataColumn();
     U16String lastColLetter = CellsHelper::ColumnIndexToName(lastCol);
     std::string printArea = "A1:" + lastColLetter.ToUtf8() + std::to_string(lastRow + 1);
     firstSheet.GetPageSetup().SetPrintArea(U16String(printArea.c_str()));
     std::cout << "\nPrint area set to: " << printArea << std::endl;
-    // (6) Guardar el libro como un archivo OFD
+    // (6) Save the workbook as an OFD file
     workbook.Save(U16String((dataDir + "SampleBook.ofd").c_str()), SaveFormat::Ofd);
     std::cout << "\nFile successfully converted to OFD format: " << dataDir << "SampleBook.ofd" << std::endl;
     Aspose::Cells::Cleanup();

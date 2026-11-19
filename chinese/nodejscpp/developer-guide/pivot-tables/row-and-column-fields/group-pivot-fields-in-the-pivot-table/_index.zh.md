@@ -1,6 +1,6 @@
 ---
 title: 在数据透视表中分组透视字段
-linktitle: 在数据透视表中分组透视字段
+linktitle: 分组透视字段
 description: 了解如何使用 PivotField.Group 和 PivotFieldGroupOptions 在 Aspose.Cells for Node.js via C++ 中将数据透视表的行和列透视字段分组为日期周期(如月份和季度)和数值区域。
 keywords: Aspose.Cells, 数据透视表, 分组透视字段, PivotField.Group, PivotFieldGroupOptions, 日期分组, 数字分组, 月份, 季度, 数值区域, JavaScript
 type: docs
@@ -20,15 +20,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// 加载示例工作簿
+// Load the sample workbook
 const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// 访问第二个工作表及其数据透视表
+// Access the second worksheet and its pivot table
 const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// 自动分组第一个行字段
-// 该字段包含日期,因此按月分组
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 const field = pt.getRowFields().get(0);
 field.group();
-// 计算数据透视表数据并保存输出文件
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputAutoGroupPivotField.xlsx");
 ```
@@ -43,15 +43,15 @@ wb.save("outputAutoGroupPivotField.xlsx");
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// 访问第二个工作表及其数据透视表
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// 按月和季度对第一个行字段(日期字段)进行分组
+// Group the first row field (a date field) by months and quarters
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartDate(new Date(2008, 0, 1));
 options.setEndDate(new Date(2008, 8, 5));
 options.setGroupTypes([AsposeCells.PivotGroupByType.Months, AsposeCells.PivotGroupByType.Quarters]);
 pt.getRowFields().get(0).group(options);
-// 计算数据透视表数据并保存输出文件
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,19 +64,19 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// 访问第二个工作表及其数据透视表
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo 是数据字段:首先将其移动到行区域,
-// 因为只有行/列字段才能进行分组
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(AsposeCells.PivotFieldType.Row, "FieldTwo");
 pt.calculateData();
-// 将数值字段分组为范围 0-1、2-3、4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// 计算数据透视表数据并保存输出文件
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

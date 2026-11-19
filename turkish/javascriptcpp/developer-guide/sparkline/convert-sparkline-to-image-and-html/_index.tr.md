@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for JavaScript via C++ ile Kıvılcım Grafiğini Görüntüye ve HTML'e Dönüştürme
-linktitle: Aspose.Cells for JavaScript via C++ ile Kıvılcım Grafiğini Görüntüye ve HTML'e Dönüştürme
+linktitle: Sparkline'ı Görüntü ve HTML'e Dönüştür
 description: Tek hücreye gömme amacıyla Aspose.Cells kıvılcım grafiklerini bağımsız görüntülere nasıl işleyeceğinizi ve kıvılcım grafiği içeren çalışma sayfalarını HtmlSaveOptions kullanarak HTML olarak nasıl dışa aktaracağınızı öğrenin.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, kıvılcım grafiği, sparkline.toImage, cell.embeddedImage, HtmlSaveOptions, kıvılcım grafiği işleme, kıvılcım grafiğini görüntüye dönüştürme, kıvılcım grafiğini HTML'e dışa aktarma
 type: docs
@@ -54,17 +54,17 @@ Bu iş akışında küçük bir kaynak değer aralığı içeren bir çalışma 
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Yeni bir çalışma kitabı oluştur ve ilk çalışma sayfasına eriş
+            // Create a new workbook and access the first worksheet
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // A1:E1 hücrelerine örnek veri yerleştir
+            // Populate sample data in cells A1:E1
             cells.get("A1").value = 5;
             cells.get("B1").value = -3;
             cells.get("C1").value = 8;
             cells.get("D1").value = -2;
             cells.get("E1").value = 6;
-            // F1 hücresine sabitlenen bir Çizgi sparkline grubu ekle (5. sütun, 0. satır)
+            // Add a Line sparkline group anchored at F1 (column 5, row 0)
             const lineArea = new CellArea();
             lineArea.startColumn = 5;
             lineArea.endColumn = 5;
@@ -76,7 +76,7 @@ Bu iş akışında küçük bir kaynak değer aralığı içeren bir çalışma 
                 false,
                 lineArea
             );
-            // G1 hücresine sabitlenen bir Sütun sparkline grubu ekle (6. sütun, 0. satır)
+            // Add a Column sparkline group anchored at G1 (column 6, row 0)
             const columnArea = new CellArea();
             columnArea.startColumn = 6;
             columnArea.endColumn = 6;
@@ -88,7 +88,7 @@ Bu iş akışında küçük bir kaynak değer aralığı içeren bir çalışma 
                 false,
                 columnArea
             );
-            // H1 hücresine sabitlenen bir Kazanç/Kayıp (Yığılmış) sparkline grubu ekle (7. sütun, 0. satır)
+            // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
             const stackedArea = new CellArea();
             stackedArea.startColumn = 7;
             stackedArea.endColumn = 7;
@@ -100,19 +100,19 @@ Bu iş akışında küçük bir kaynak değer aralığı içeren bir çalışma 
                 false,
                 stackedArea
             );
-            // PNG çıktısı için resim seçeneklerini yapılandır
+            // Configure image options for PNG output
             const imageOptions = new ImageOrPrintOptions();
             imageOptions.imageType = AsposeCells.ImageType.Png;
-            // Çizgi sparkline'ı resme dönüştür ve F2 hücresine göm
+            // Convert the Line sparkline to image and embed it in cell F2
             const lineSp = worksheet.sparklineGroups.get(lineIdx).sparklines.get(0);
             cells.get("F2").embeddedImage = lineSp.toImage(imageOptions);
-            // Sütun sparkline'ı resme dönüştür ve G2 hücresine göm
+            // Convert the Column sparkline to image and embed it in cell G2
             const columnSp = worksheet.sparklineGroups.get(columnIdx).sparklines.get(0);
             cells.get("G2").embeddedImage = columnSp.toImage(imageOptions);
-            // Kazanç/Kayıp sparkline'ı resme dönüştür ve H2 hücresine göm
+            // Convert the Win/Loss sparkline to image and embed it in cell H2
             const stackedSp = worksheet.sparklineGroups.get(stackedIdx).sparklines.get(0);
             cells.get("H2").embeddedImage = stackedSp.toImage(imageOptions);
-            // Çalışma kitabını diske kaydet
+            // Save the workbook to disk
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

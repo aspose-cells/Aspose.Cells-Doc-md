@@ -1,6 +1,6 @@
 ---
 title: Aplicar estilos a tablas dinámicas en Aspose.Cells for C++
-linktitle: Aplicar estilos a tablas dinámicas en Aspose.Cells for C++
+linktitle: Aplicar estilos a tabla dinámica
 description: Aprenda a aplicar estilos integrados y personalizados a tablas dinámicas en Aspose.Cells for C++, incluidos los autoformatos XLS heredados, los nombres de estilos modernos de Excel 2007+, los estilos personalizados de tablas dinámicas y el atajo FormatAll.
 keywords: Aspose.Cells C++ tabla dinámica estilo, PivotTableStyleType, AutoFormatType, FormatAll, estilo personalizado, PivotTableStyleName, TableStyles
 type: docs
@@ -34,12 +34,12 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Crear un nuevo libro de trabajo
+    // Create a new workbook
     Workbook workbook;
-    // Obtener la primera hoja de trabajo
+    // Get the first worksheet
     Worksheet sheet = workbook.GetWorksheets().Get(0);
-    // Rellenar los datos de origen con fila de encabezado (Fruit, Year, Amount)
-    // y 9 filas de datos cubriendo grape, blueberry, kiwi, cherry en 2020 y 2021
+    // Populate the source data with header row (Fruit, Year, Amount)
+    // and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
     sheet.GetCells().Get(0, 0).PutValue(u"Fruit");
     sheet.GetCells().Get(0, 1).PutValue(u"Year");
     sheet.GetCells().Get(0, 2).PutValue(u"Amount");
@@ -70,14 +70,14 @@ int main() {
     sheet.GetCells().Get(9, 0).PutValue(u"grape");
     sheet.GetCells().Get(9, 1).PutValue(2020);
     sheet.GetCells().Get(9, 2).PutValue(45);
- // Agregar una tabla dinámica en la celda destino E3, llamada, usando el rango de origen A1:C10
+ // Add a pivot table at destination cell E3, using source range A1:C10
     PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // Asignar campos: Fruit -> Filas, Amount -> Datos
+    // Assign fields: Fruit -> Rows, Amount -> Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // Aplicar el formato automático preestablecido heredado de XLS "Report5"
+    // Apply the legacy XLS preset autoformat "Report5"
     pivotTable.SetAutoFormatType(PivotTableAutoFormatType::Report5);
-    // Guardar el libro de trabajo en formato .xls heredado
+    // Save the workbook in legacy .xls format
     workbook.Save(u"output.xls");
     Aspose::Cells::Cleanup();
     return 0;
@@ -165,7 +165,7 @@ int main() {
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // Poblar datos fuente: fila de encabezado + 9 filas de datos (A1:C10)
+    // Populate source data: header row + 9 data rows (A1:C10)
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
@@ -196,15 +196,15 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(900);
- // Agregar tabla dinámica con origen en A1:C10, anclada en E3, llamada
+ // Add pivot table sourced from A1:C10, anchored at E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // Paso 1: registrar un nuevo estilo personalizado de tabla dinámica y capturar su índice
+    // Step 1: register a new custom pivot table style and capture its index
     int styleIndex = workbook.GetWorksheets().GetTableStyles().AddPivotTableStyle(u"CustomPivotStyle");
     TableStyle tableStyle = workbook.GetWorksheets().GetTableStyles().Get(styleIndex);
-    // Paso 2: agregar un elemento WholeTable y aplicar bordes negros finos en los cuatro lados
+    // Step 2: add a WholeTable element and apply thin black borders on all four sides
     int wholeTableElementIndex = tableStyle.GetTableStyleElements().Add(TableStyleElementType::WholeTable);
     TableStyleElement wholeTableElement = tableStyle.GetTableStyleElements().Get(wholeTableElementIndex);
     Style wholeTableStyle = workbook.CreateStyle();
@@ -217,14 +217,14 @@ int main() {
     wholeTableStyle.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
     wholeTableStyle.GetBorders().Get(BorderType::RightBorder).SetColor(Color::Black());
     wholeTableElement.SetElementStyle(wholeTableStyle);
-    // Paso 3: agregar un elemento GrandTotalRow y aplicar fuente roja en negrita
+    // Step 3: add a GrandTotalRow element and apply bold red font
     int grandTotalElementIndex = tableStyle.GetTableStyleElements().Add(TableStyleElementType::GrandTotalRow);
     TableStyleElement grandTotalElement = tableStyle.GetTableStyleElements().Get(grandTotalElementIndex);
     Style grandTotalStyle = workbook.CreateStyle();
     grandTotalStyle.GetFont().SetIsBold(true);
     grandTotalStyle.GetFont().SetColor(Color::Red());
     grandTotalElement.SetElementStyle(grandTotalStyle);
-    // Paso 4: aplicar el estilo personalizado por nombre (NO por PivotTableStyleType, que es para preajustes integrados)
+    // Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
     pivotTable.SetPivotTableStyleName(u"CustomPivotStyle");
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
@@ -249,11 +249,11 @@ int main() {
     Aspose::Cells::Startup();
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
-    // Fila de encabezado
+    // Header row
     worksheet.GetCells().Get(u"A1").PutValue(u"Fruit");
     worksheet.GetCells().Get(u"B1").PutValue(u"Year");
     worksheet.GetCells().Get(u"C1").PutValue(u"Amount");
-    // Filas de datos
+    // Data rows
     worksheet.GetCells().Get(u"A2").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B2").PutValue(2020);
     worksheet.GetCells().Get(u"C2").PutValue(5000);
@@ -281,13 +281,13 @@ int main() {
     worksheet.GetCells().Get(u"A10").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B10").PutValue(2021);
     worksheet.GetCells().Get(u"C10").PutValue(5500);
- // Agregar tabla dinámica: rango de origen A1:C10, celda de destino E3, nombre
+ // Add pivot table: source range A1:C10, destination cell E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // Asignar campos dinámicos
+    // Assign pivot fields
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // Crear un estilo que se aplicará a cada celda de la tabla dinámica
+    // Build a Style that will be forced onto every cell of the pivot table
     Style style = wb.CreateStyle();
     style.SetForegroundColor(Color::Yellow());
     style.SetPattern(BackgroundType::Solid);
@@ -301,9 +301,9 @@ int main() {
     style.GetBorders().Get(BorderType::LeftBorder).SetColor(Color::Black());
     style.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
     style.GetBorders().Get(BorderType::RightBorder).SetColor(Color::Black());
-    // Aplicar FormatAll
+    // Apply FormatAll
     pivotTable.FormatAll(style);
-    // Guardar el libro
+    // Save the workbook
     wb.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

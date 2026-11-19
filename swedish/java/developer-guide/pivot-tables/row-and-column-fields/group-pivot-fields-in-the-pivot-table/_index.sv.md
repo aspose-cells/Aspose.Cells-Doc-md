@@ -1,6 +1,6 @@
 ---
 title: Gruppera pivotfält i pivottabellen
-linktitle: Gruppera pivotfält i pivottabellen
+linktitle: Gruppera pivotfält
 description: Lär dig hur du grupperar rad- och kolumnpivotfält i en pivottabell till datumperioder som månader och kvartal samt numeriska intervall med PivotField.group och PivotFieldGroupOptions i Aspose.Cells for Java.
 keywords: Aspose.Cells, pivottabell, gruppera pivotfält, PivotField.group, PivotFieldGroupOptions, datumgruppering, nummergruppering, månader, kvartal, numeriskt intervall, Java
 type: docs
@@ -55,21 +55,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// Ladda exempelarbetsboken
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Öppna det andra kalkylbladet och dess pivottabell
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo är ett datafält: flytta det till radområdet först,
-// eftersom endast rad-/kolumnfält kan grupperas
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(PivotFieldType.ROW, "FieldTwo");
 pt.calculateData();
-// Gruppera det numeriska fältet i intervallen 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Beräkna pivottabellens data och spara utdatafilen
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

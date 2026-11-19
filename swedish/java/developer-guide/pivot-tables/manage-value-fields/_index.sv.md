@@ -1,7 +1,7 @@
 ---
 title: Värdefält i Aspose.Cells for Java
 description: Lär dig hur du lägger till basfält i dataområdet i en pivottabell, ändrar sammanfattningsfunktionen med PivotField.Function och placerar värdefältet på Rad- eller Kolumn-axeln i Aspose.Cells for Java.
-linktitle: Värdefält i Aspose.Cells for Java
+linktitle: Värdefält
 keywords: Aspose.Cells, Java, pivottabell, värdefält, PivotField, PivotField.Function, datafält, PivotTable.ValuesField, Summa, Medel
 type: docs
 weight: 230
@@ -18,12 +18,12 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// Rubriker i A1:D1
+// Headers in A1:D1
 worksheet.getCells().get(0, 0).putValue("Category");
 worksheet.getCells().get(0, 1).putValue("Item");
 worksheet.getCells().get(0, 2).putValue("Year");
 worksheet.getCells().get(0, 3).putValue("Amount");
-// Datarader A2:D9 med kapslade slingor som förgrenar sig på j
+// Data rows A2:D9 using nested loops branching on j
 for (int i = 1; i <= 8; i++)
 {
  for (int j = 0; j < 4; j++)
@@ -55,9 +55,9 @@ for (int i = 1; i <= 8; i++)
  }
  }
 }
-// Lägg till pivottabell vid F3 med namnet PivotTable1
+// Add pivot table at F3 with name PivotTable1
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
-// Pivotlayout: Kategori och Objekt på Rad, År på Kolumn, Belopp som datafält
+// Pivot layout: Category and Item on Row, Year on Column, Amount as data field
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");

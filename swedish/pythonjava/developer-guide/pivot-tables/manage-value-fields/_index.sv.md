@@ -1,7 +1,7 @@
 ---
 title: Värdefält i Aspose.Cells for Python via Java
 description: Lär dig hur du lägger till basfält i dataregionen i en pivottabell, ändrar sammanfattningsfunktionen med PivotField.Function och visar värdefältet på rad- eller kolumnaxeln i Aspose.Cells for Python via Java.
-linktitle: Värdefält i Aspose.Cells for Python via Java
+linktitle: Värdefält
 keywords: Aspose.Cells, Python via Java, pivottabell, värdefält, PivotField, PivotField.Function, datafält, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230

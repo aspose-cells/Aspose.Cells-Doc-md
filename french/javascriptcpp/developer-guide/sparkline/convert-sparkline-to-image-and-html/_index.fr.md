@@ -54,17 +54,17 @@ Dans ce processus, vous allez créer une feuille de calcul contenant une petite 
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Créer un nouveau classeur et accéder à la première feuille de calcul
+            // Create a new workbook and access the first worksheet
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Remplir les cellules A1:E1 avec des données d'exemple
+            // Populate sample data in cells A1:E1
             cells.get("A1").value = 5;
             cells.get("B1").value = -3;
             cells.get("C1").value = 8;
             cells.get("D1").value = -2;
             cells.get("E1").value = 6;
-            // Ajouter un groupe de sparklines de type ligne ancré à F1 (colonne 5, ligne 0)
+            // Add a Line sparkline group anchored at F1 (column 5, row 0)
             const lineArea = new CellArea();
             lineArea.startColumn = 5;
             lineArea.endColumn = 5;
@@ -76,7 +76,7 @@ Dans ce processus, vous allez créer une feuille de calcul contenant une petite 
                 false,
                 lineArea
             );
-            // Ajouter un groupe de sparklines de type colonne ancré à G1 (colonne 6, ligne 0)
+            // Add a Column sparkline group anchored at G1 (column 6, row 0)
             const columnArea = new CellArea();
             columnArea.startColumn = 6;
             columnArea.endColumn = 6;
@@ -88,7 +88,7 @@ Dans ce processus, vous allez créer une feuille de calcul contenant une petite 
                 false,
                 columnArea
             );
-            // Ajouter un groupe de sparklines Gains/Pertes (empilées) ancré à H1 (colonne 7, ligne 0)
+            // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
             const stackedArea = new CellArea();
             stackedArea.startColumn = 7;
             stackedArea.endColumn = 7;
@@ -100,19 +100,19 @@ Dans ce processus, vous allez créer une feuille de calcul contenant une petite 
                 false,
                 stackedArea
             );
-            // Configurer les options d'image pour la sortie PNG
+            // Configure image options for PNG output
             const imageOptions = new ImageOrPrintOptions();
             imageOptions.imageType = AsposeCells.ImageType.Png;
-            // Convertir la sparkline de type ligne en image et l'incorporer dans la cellule F2
+            // Convert the Line sparkline to image and embed it in cell F2
             const lineSp = worksheet.sparklineGroups.get(lineIdx).sparklines.get(0);
             cells.get("F2").embeddedImage = lineSp.toImage(imageOptions);
-            // Convertir la sparkline de type colonne en image et l'incorporer dans la cellule G2
+            // Convert the Column sparkline to image and embed it in cell G2
             const columnSp = worksheet.sparklineGroups.get(columnIdx).sparklines.get(0);
             cells.get("G2").embeddedImage = columnSp.toImage(imageOptions);
-            // Convertir la sparkline Gains/Pertes en image et l'incorporer dans la cellule H2
+            // Convert the Win/Loss sparkline to image and embed it in cell H2
             const stackedSp = worksheet.sparklineGroups.get(stackedIdx).sparklines.get(0);
             cells.get("H2").embeddedImage = stackedSp.toImage(imageOptions);
-            // Enregistrer le classeur sur le disque
+            // Save the workbook to disk
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

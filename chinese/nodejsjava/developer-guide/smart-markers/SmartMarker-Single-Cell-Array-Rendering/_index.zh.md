@@ -1,9 +1,9 @@
 ---
-title: SmartMarker 单单元格数组渲染 | Aspose.Cells for Node.js via Java
-description: 了解如何使用 Aspose.Cells for Node.js via Java 中的 ArrayAsSingle 和 ExtraDelimiter 属性，将数组数据渲染到单个单元格。
-linktitle: SmartMarker 单单元格数组渲染 | Aspose.Cells
+title: 智能标记单单元格数组呈现 | Aspose.Cells for Node.js via Java
+description: 了解如何使用 Aspose.Cells for Node.js via Java 中的 arrayassingle 和 arraydelimiter 智能标记属性，将数组数据呈现到单个单元格中。
+linktitle: 智能标记单单元格数组呈现 | Aspose.Cells for Node.js via Java
 url: /zh/nodejs-java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
-keywords: Aspose.Cells, Node.js via Java 库, 电子表格, Smart Markers, ArrayAsSingle, ExtraDelimiter, 单单元格数组, 数组渲染, 模板
+keywords: Aspose.Cells, Node.js via Java 库, 电子表格, 智能标记, arrayassingle, arraydelimiter, 单单元格数组, 数组呈现, 模板
 type: docs
 weight: 195
 ai_search_scope: cells_nodejsjava
@@ -11,139 +11,182 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells 支持通过 Smart Markers 将数组数据渲染到单个单元格。通过同时使用 `ArrayAsSingle` 属性和 `ExtraDelimiter` 属性，开发人员可以控制数组元素在单个单元格中的分隔方式，从而为报表和模板提供灵活的格式化功能。
+借助智能标记，Aspose.Cells 可以将数组数据源呈现到一个单元格中。`arrayassingle` 属性会关闭默认的逐元素展开行为，而 `arraydelimiter` 属性用于指定连接各元素时使用的分隔符——默认为逗号，也可以是您指定的任意单个字符或带引号的多字符字符串。
 {{% /alert %}}
 
 ## **简介**
-Aspose.Cells 中的 Smart Markers 是一项功能强大的、基于模板的特性，允许您使用标记表达式（如 `&=DataSource.Field`）动态填充电子表格数据。该标记放置在设计器工作簿中，当模板由 `WorkbookDesigner` 处理时，标记将被替换为来自所提供数据源的值。
-默认情况下，当 Smart Marker 引用数组属性（例如 `&=DataSource.Numbers`）时，引擎会展开数组并将每个元素放置到相邻的单独单元格中——可以是水平跨行排列，也可以是垂直沿列排列。虽然这种行为在许多场景下都很方便，但在某些情况下，您可能希望将整个数组渲染到一个单元格中，元素之间使用您选择的自定义分隔符进行连接。
-`ArrayAsSingle` 和 `ExtraDelimiter` 属性一起在 Smart Marker 标签中使用，正好可以满足这一需求。它们允许您保持报表布局的紧凑性和可预测性，同时仍能以原生方式使用数组数据源。
 
-## **为何需要此功能**
+Aspose.Cells 中的智能标记是一项基于模板的功能，可使用 `&=DataSource.Field` 等标记表达式动态填充电子表格数据。标记放置在设计器工作簿中；当 `WorkbookDesigner` 处理模板时，这些标记会被替换为来自所提供数据源的值。
+默认情况下，当智能标记引用数组字段（例如，绑定到包含四个值的数组的 `&=Product.Tags`）时，引擎会展开数组，并将每个元素放入各自的单元格中，使值沿标记下方的列纵向分布。虽然此行为在许多场景中很方便，但有时您希望将整个数组呈现到一个单元格中，将各元素连接起来并以所选分隔符分隔。
+`arrayassingle` 和 `arraydelimiter` 属性正是为满足此需求而设计的。它们以 `name:value` 形式写在智能标记的括号内，使您既能让报表布局保持紧凑、可预测，又能原生处理数组数据源。
+
+## **为什么需要此功能**
 
 ### **默认数组展开行为**
-当 Smart Marker 引用数组属性时，Aspose.Cells 默认会将数组展开到多个单元格中。例如，对于包含四个值的 `string[]`，标记 `&=Product.Tags` 会将每个值放置到各自的单元格中，将其他模板内容向外推移，从而可能破坏精心设计的报表布局。
 
-### **使用场景的局限性**
-在许多实际场景中，默认的展开行为并不理想：
-- **摘要式报表**，需要每条记录一行的紧凑布局。
-- **标签、标注或关键词列表**，需要以逗号分隔或竖线分隔的形式显示在单个单元格中。
-- **筛选标签或状态指示器**，将多个值集中在一处以提高可读性。
-- **下游管道**（CSV 导出、PDF 渲染、邮件合并），期望每个单元格只有一个合并后的值，而不是展开的区域。
-- **跨平台兼容性**，某些消费者无法接受数组跨越多个单元格的情况。
+当智能标记引用数组字段时，Aspose.Cells 默认会将数组展开到多个单元格中。例如，对于包含四个值的数组，`&=Product.Tags` 之类的标记会将每个值放入标记下方的独立单元格中，从而推动其他模板内容向外扩展，并可能破坏精心设计的报表布局。
 
-### **它填补的空白**
-如果没有内置机制，开发人员将不得不在 JavaScript 中预处理数据——在将数组绑定到工作簿设计器之前将数组合并为分隔符分隔的字符串。这会导致逻辑重复、使数据模型复杂化，并增加出错的几率。`ArrayAsSingle` 和 `ExtraDelimiter` 属性通过在 Smart Marker 内部以声明方式处理格式设置，消除了这种变通方法。
+### **使用场景的限制**
+
+默认展开行为在许多实际场景中并不适合：
+- **汇总类报表**，需要每条记录仅占一行的紧凑布局。
+- **标记、标签或关键字列表**，需要在单个单元格中显示为逗号分隔或竖线分隔的值。
+- **筛选条件块或状态指示符**，需要将多个值集中显示在一处以提高可读性。
+- **下游管道**（CSV 导出、PDF 呈现、邮件合并），每个单元格都应包含一个整合后的值，而不是展开后的区域。
+- **跨平台兼容性**，某些使用方无法接受数组扩散到多个单元格中。
+
+### **它所填补的空白**
+
+如果缺少内置机制，开发者将不得不在 JavaScript 中预处理数据，在绑定到 `WorkbookDesigner` 之前先将数组连接为带分隔符的字符串。这会造成逻辑重复、使数据模型复杂化，并增加出错的可能性。`arrayassingle` 和 `arraydelimiter` 属性通过在智能标记自身内部以声明方式处理格式，消除了这种变通方案。
 
 ## **功能优势**
-在 Smart Markers 中使用 `ArrayAsSingle` 和 `ExtraDelimiter` 属性具有以下优势：
-- **单单元格容纳**：所有数组元素都精确地渲染到一个单元格中，保持布局的紧凑性和可预测性。
-- **自定义分隔符控制**：可以指定任意分隔符字符串——逗号、分号、连字符、竖线、换行符或任何自定义文本。
-- **模板驱动的格式化**：无需额外代码来预处理数据；格式规则位于 Smart Marker 标签内。
-- **更整洁的报表**：数组数据不再将相邻的模板内容推入不同的行或列。
-- **通用的数据类型**：适用于字符串、数字、日期以及可以使用分隔符连接的任何其他数据类型。
-- **向后兼容性**：当省略这些属性时，将保留原有的展开行为，因此现有模板可以继续正常工作而无需更改。
+
+在智能标记中使用 `arrayassingle` 和 `arraydelimiter` 属性可获得以下优势：
+- **单单元格容纳**：所有数组元素均呈现到同一个单元格中，使布局保持紧凑且可预测。
+- **自定义分隔符控制**：可指定所需的分隔符——默认逗号、分号、连字符、竖线，或类似 `" | "` 的带引号多字符字符串。
+- **模板驱动的格式设置**：无需额外代码预处理数据；格式规则直接写在智能标记标签内。
+- **更整洁的报表**：数组数据不再将相邻模板内容推入其他行或列。
+- ** versatile data types**：适用于以 JSON 行形式提供的字符串数组，包括以字符串形式呈现的数值。
+- **向后兼容性**：省略这些属性时，将保留原有的展开行为，因此现有模板无需更改即可继续使用。
 
 ## **如何使用此功能**
 
-### **Smart Marker 语法**
-`ArrayAsSingle` 和 `ExtraDelimiter` 属性作为键值对传递，在标准 Smart Marker 的圆括号内指定。通用语法如下：
+### **智能标记语法**
+
+`arrayassingle` 和 `arraydelimiter` 属性在标准智能标记的括号内使用 Aspose.Cells 的 `name:value` 属性语法。其通用语法为：
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayField(arrayassingle:true,arraydelimiter:;)
 ```
 
-标记由以下部分组成：
-- `&=DataSource.ArrayProperty` — 标准 Smart Marker，引用绑定数据源上的数组属性。
-- `arrayasSingle=true` — 指示引擎将整个数组渲染到单个单元格中。只有值 `true` 才会触发单单元格行为。
-- `extraDelimiter=", "` — 定义数组元素之间的分隔符。该值为字符串字面量；可以为空、单个字符或多字符字符串。
+该标记由以下部分组成：
+- `&=DataSource.ArrayField` — 引用绑定数据源中数组字段的标准智能标记。
+- `arrayassingle:true` — 指示引擎将整个数组呈现到一个单元格中，而不是展开各个元素。
+- `arraydelimiter:;` — 可选；定义数组元素之间使用的分隔符。省略时使用逗号。
 
-{{% alert color="primary" %}}
-`extraDelimiter` 属性接受任何字符串字面量，包括多字符分隔符、自定义文本或转义序列（如用于换行分隔输出的 `\n`）。如果数组为空，则结果单元格将保留空白。
+{{% alert color="warning" %}}
+请以 `name:value` 形式写入属性（使用冒号，而不是等号），并使用逗号分隔多个属性，**逗号后不要加空格**。逗号后的空格会使解析出的值偏移一个字符——`(arrayassingle:true, arraydelimiter:;)` 将错误地使用 `:;` 而不是 `;` 进行连接。
 {{% /alert %}}
 
-### **分步骤工作流程**
-以下工作流程描述了如何使用 Smart Markers 将数组渲染到单个单元格中。
-1. **准备数据源**：创建一个公开返回数组的属性的类（或数据结构）。该属性可以返回 `string[]`、`int[]` 或任何其他受支持的数组类型。
-2. **创建设计器工作簿**：创建一个新的 `Workbook`，添加标题行，并放置一个 Smart Marker 单元格，该单元格引用带有 `arrayasSingle` 和 `extraDelimiter` 属性的数组属性。
-3. **实例化 WorkbookDesigner**：创建一个 `WorkbookDesigner` 对象，将设计器工作簿附加到其上，并使用 `setDataSource` 方法绑定您的数据源。
-4. **处理标记**：调用 `workbookDesigner.process()` 方法来展开 Smart Markers 并将真实数据填充到工作簿中。
-5. **保存结果**：将生成的工作簿保存为 XLSX 或任何其他受支持的文件格式。
+### **分隔符形式**
 
-### **代码示例 1 — 基本字符串数组渲染**
+- 单个字符直接跟在冒号后：`arraydelimiter:;`、`arraydelimiter:-`、`arraydelimiter:*`。
+- 多字符分隔符使用双引号括起来：`arraydelimiter:" | "`、`arraydelimiter:" - "`。
+
+### **分步工作流**
+
+以下工作流介绍了如何使用智能标记将数组呈现到一个单元格中。
+1. **准备数据源**：将每条记录组织为 JSON 对象，其字段包含一个数组，例如 `{"Tags": ["C#", "Aspose"]}`。在此平台上，传递给 `setDataSource` 的普通 JavaScript 对象和数组无法绑定——JSON 行才是受支持的表格形式。
+2. **创建设计器工作簿**：创建新的 `Workbook`，添加一个表头行，并放置一个引用数组字段的智能标记单元格，为其添加 `arrayassingle` 属性（需要自定义分隔符时再添加 `arraydelimiter`）。
+3. **实例化 WorkbookDesigner**：基于该工作簿创建 `WorkbookDesigner`，并通过 `setJsonDataSource` 附加 JSON 行。
+4. **处理标记**：调用 `workbookDesigner.process()` 方法展开智能标记，并使用实际数据填充工作簿。
+5. **保存结果**：将生成的工作簿以 XLSX 或其他受支持的文件格式保存到磁盘。
+
+### **代码示例 1 — 基本字符串数组呈现**
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-class Product {
-    constructor() {
-        this.Tags = null;
-    }
-}
-const product = new Product();
-product.Tags = ["C#", "Aspose", "SmartMarker", "Excel"];
+
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.getCells().get("A1").putValue("Tags");
-worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")");
-const designer = new AsposeCells.WorkbookDesigner();
-designer.setWorkbook(workbook);
-designer.setDataSource("Product", product);
+// No spaces inside the parentheses: attributes are name:value pairs
+worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayassingle:true)");
+const designer = new AsposeCells.WorkbookDesigner(workbook);
+designer.setJsonDataSource(
+    "Product",
+    '[{"Tags": ["C#", "Aspose", "SmartMarker", "Excel"]}]');
 designer.process();
-workbook.save("output_arraySingle.xlsx");
+console.log(worksheet.getCells().get("A2").getStringValue());
+workbook.save("output-array-single.xlsx");
 ```
 
-### **代码示例 2 — 使用自定义分隔符的数字数组**
+该示例会输出整个数组连接后的值。四个标签值位于同一个单元格中，并使用默认逗号分隔：
+
+```
+C#,Aspose,SmartMarker,Excel
+```
+
+### **代码示例 2 — 使用自定义分隔符呈现数值**
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-class Student {
-    constructor() {
-        this.Scores = [];
-    }
-}
-const student = new Student();
-student.Scores = [95, 88, 76, 100, 67];
+
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.getCells().get("A1").putValue("Scores");
-worksheet.getCells().get("A2").putValue(student.Scores.join(" - "));
-workbook.save("output_numericArray.xlsx");
+// arraydelimiter:- joins the values with a hyphen
+worksheet.getCells().get("A2").putValue("&=Student.Scores(arrayassingle:true,arraydelimiter:-)");
+const designer = new AsposeCells.WorkbookDesigner(workbook);
+designer.setJsonDataSource(
+    "Student",
+    '[{"Scores": ["95", "88", "76", "100", "67"]}]');
+designer.process();
+console.log(worksheet.getCells().get("A2").getStringValue());
+workbook.save("output-array-numeric.xlsx");
 ```
 
-### **代码示例 3 — 比较默认行为与 ArrayAsSingle 行为**
+以 JSON 字符串形式提供分数后，连接后的输出会保留纯数字文本：
+
+```
+95-88-76-100-67
+```
+
+{{% alert color="note" %}}
+通过 Java 引擎传递的 JSON 数值会作为双精度数值到达，因此 `[95, 88]` 将连接为 `95.0-88.0`。如果希望连接后的单元格中显示精确的整数文本，请在 JSON 行中为数值加引号。
+{{% /alert %}}
+
+### **代码示例 3 — 比较默认呈现与单单元格呈现**
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-function main() {
-    const order = {
-        Items: ["Apple", "Banana", "Cherry", "Date"]
-    };
-    const workbook = new AsposeCells.Workbook();
-    const sheet = workbook.getWorksheets().get(0);
-    const cells = sheet.getCells();
-    // 第 1 部分：默认智能标记 - 值水平分布在各个单元格中
-    cells.get("A1").putValue("Default Spreading Behavior:");
-    cells.get("A2").putValue("&=Order.Items");
-    // 第 2 部分：使用 arrayasSingle 和 extraDelimiter 的新单单元格渲染
-    cells.get("A4").putValue("Single Cell Rendering (arrayasSingle=true):");
-    cells.get("A5").putValue("&=Order.Items(arrayasSingle=true, extraDelimiter=\"; \")");
-    // 绑定数据源并处理智能标记
-    const designer = new AsposeCells.WorkbookDesigner(workbook);
-    designer.setDataSource("Order", order);
-    designer.process();
-    // 保存生成的工作簿
-    workbook.save("output_comparison.xlsx");
+
+const workbook = new AsposeCells.Workbook();
+const cells = workbook.getWorksheets().get(0).getCells();
+// Column B: default marker — values spread vertically down the column
+cells.get("B1").putValue("Default");
+cells.get("B2").putValue("&=Order.Items");
+// Column C: single-cell rendering — the whole array joins into one cell
+cells.get("C1").putValue("Single cell");
+cells.get("C2").putValue("&=Order.Items(arrayassingle:true)");
+const designer = new AsposeCells.WorkbookDesigner(workbook);
+designer.setJsonDataSource(
+    "Order",
+    '[{"Items": ["Apple", "Banana", "Cherry", "Date"]}]');
+designer.process();
+for (let row = 1; row <= 5; row++) {
+    const b = cells.get(row, 1).getStringValue() || "";
+    const c = cells.get(row, 2).getStringValue() || "";
+    if (b || c) console.log(`B${row + 1}=[${b}]  C${row + 1}=[${c}]`);
 }
-main();
+workbook.save("output-array-comparison.xlsx");
+```
+
+默认标记会沿 B 列向下为每个元素填充一个单元格，而 `arrayassingle` 标记会将同一数组合并到 C 列的单个单元格中：
+
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
 ```
 
 ### **注意事项与最佳实践**
-在使用 `ArrayAsSingle` 和 `ExtraDelimiter` 属性时，请牢记以下几点：
-- `extraDelimiter` 值被视为字符串字面量；请转义模板处理器可能解释的任何特殊字符。
-- `arrayasSingle` 属性接受布尔值（`true` / `false`）。只有 `true` 才会触发单单元格行为；任何其他值都将回退到默认的展开行为。
-- 如果数组为空或为 null，则单元格将保留为空（或者根据数据类型包含空白字符串）。
-- 该功能适用于对象数据源以及可将列拆分为数组的 `DataSet` 和 `DataTable` 数据源。
-- 对于换行分隔的输出，您可以使用 `\n` 作为分隔符值。
-- 请将 Smart Marker 放置在宽度足以显示结果合并字符串的单元格中；否则，根据格式的不同，内容可能会在视觉上溢出到相邻的单元格中。
+
+使用 `arrayassingle` 和 `arraydelimiter` 属性时，请注意以下事项：
+- 属性值采用 `name:value` 形式。`arrayassingle=true` 这样的等号形式无法识别，并会静默回退到默认的展开行为。
+- 使用逗号分隔属性且不要加空格；逗号后的空格会使分隔符值偏移一个字符（请参阅上面的警告）。
+- `arraydelimiter` 的值可以是直接写在冒号后的单个字符，也可以是使用双引号括起来的多字符字符串。
+- 省略 `arraydelimiter` 时，各元素将使用逗号连接。
+- 通过 `setJsonDataSource` 的行对象提供数组字段；在此平台上，传递给 `setDataSource` 的普通 JavaScript 对象和数组无法绑定。
+- 通过 Java 引擎传递的 JSON 数值会作为双精度数值到达（`95` 连接后为 `95.0`）；当需要精确的整数文本时，请在 JSON 行中为数值加引号。
+- 将智能标记放在宽度足以显示生成的连接字符串的单元格中；否则，根据所用格式，内容可能会显示到相邻单元格中。
+
+## 相关文章
+- [在 Aspose.Cells for Node.js via Java 中向数据透视表添加筛选字段](/cells/zh/nodejs-java/add-page-field-in-pivot-table/)
+- [在 Aspose.Cells for Node.js via Java 中为数据透视表应用样式](/cells/zh/nodejs-java/apply-style-to-pivot-table/)
+- [修改数据透视表中的页字段布局](/cells/zh/nodejs-java/change-page-field-layout/)
+- [在 Aspose.Cells for Node.js via Java 中将迷你图转换为图片和 HTML](/cells/zh/nodejs-java/convert-sparkline-to-image-and-html/)
+- [将 Excel 转换为 OFD 格式](/cells/zh/nodejs-java/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

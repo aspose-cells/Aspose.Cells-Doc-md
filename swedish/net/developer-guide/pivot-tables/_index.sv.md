@@ -1,6 +1,6 @@
 ---
 title: Infoga pivottabell
-linktitle: Infoga pivottabell
+linktitle: Pivottabeller
 description: Skapa och formatera pivottabeller i Excel-kalkylarksfiler.
 keywords: Skapa pivottabell, Infoga pivottabell, Formatera pivottabell.
 type: docs
@@ -36,12 +36,10 @@ En pivottabell läggs till i kalkylbladet när exempelkoden har körts.
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
-// Skapa en ny arbetsbok och hämta det första kalkylarket
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-
-// Skriv källdata: försäljning per sport och kvartal
+// Write the source data: sales per sport and quarter
 sheet.Cells["A1"].PutValue("Sport");
 sheet.Cells["B1"].PutValue("Quarter");
 sheet.Cells["C1"].PutValue("Sales");
@@ -66,16 +64,13 @@ sheet.Cells["C7"].PutValue(5000);
 sheet.Cells["A8"].PutValue("Golf");
 sheet.Cells["B8"].PutValue("Qtr3");
 sheet.Cells["C8"].PutValue(6430);
-
-// Lägg till en pivottabell vid destinationscellen E3, med data från A1:C8
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C8", 2, 4);
-
-// Tilldela pivotfält: Sport till Rader, Quarter till Kolumner, Sales till Data
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Quarter");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
-
-// Spara arbetsboken
+// Save the workbook
 workbook.Save("pivotTable_test_out.xlsx");
 ```
 

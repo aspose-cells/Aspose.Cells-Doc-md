@@ -1,8 +1,8 @@
 ---
 title: Pivot Tablosunda Değerleri Göster
 linktitle: Pivot Tablosunda Değerleri Göster
-description: Pivot tablo veri alanı değerlerini toplamın yüzde olarak, bir temel öğeden fark olarak, çalışan toplamlar, sıralamalar ve daha fazlası biçiminde Aspose.Cells for JavaScript via C++ ile görüntüleyin.
-keywords: Aspose.Cells, JavaScript via C++, pivot tablosu, değerleri göster, veri gösterim biçimi, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex
+description: Pivot Tablosu veri alanı değerlerini toplamın yüzdesi, temel bir öğeden fark, yürüyen toplamlar, sıralamalar ve daha fazlası şeklinde gösterin, Aspose.Cells for JavaScript via C++ ile.
+keywords: Aspose.Cells, JavaScript via C++, Pivot Tablosu, değerleri göster, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, showValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /tr/javascript-cpp/show-values-as-in-pivot-table/
@@ -11,49 +11,55 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Olası Kullanım Senaryoları**
-Bir pivot tablo genellikle her veri alanını `Sum` veya `Count` gibi bir toplama işleviyle toplar. Excel'in **Show Values As** özelliği, her görüntülenen sonucu bu toplamdan türetilen ikincil bir hesaplamayla değiştirir—örneğin, genel toplamın yüzde olarak, çalışan toplam, seçilen bir temel öğeden fark veya bir sıralama—böylece yardımcı formüller veya hesaplanmış sütunlar olmadan karşılaştırmalı analiz yapabilirsiniz.
-Tipik kullanım senaryoları, bir satır, sütun veya genel toplamın yüzde olarak dahil olmak üzere toplam payı analizini; bir dönem alanında çalışan toplam kullanarak kümülatif raporlamayı; bir temel öğeden fark veya yüzde fark ile bir karşılaştırma öğesine karşı varyans analizini; ve en küçükten en büyüğe ya da en büyükten en küçüğe değerleri sıralamayı içerir.
-Aspose.Cells for JavaScript via C++'de `PivotFieldDataDisplayFormat` ikincil hesaplamayı seçer. Salt okunur `PivotField.showValuesSetting` özelliği bir `PivotShowValuesSetting` nesnesi döndürür; bu nesnenin yazılabilir `calculationType`, `baseFieldIndex`, `baseItemPositionType` ve `baseItemIndex` özellikleri davranışı yapılandırır; kullanıcı dostu `PivotField.showValuesAs(...)` yöntemi aynı dört ayarı tek bir çağrıda uygular. Bu ayarları `PivotTable.dataFields` aracılığıyla elde edilen bir veri veya değer alanına uygulayın.
+Bir pivot tablosu, genellikle `Sum` veya `Count` gibi bir toplama işleviyle her veri alanını toplar. Excel’in **Değerleri Göster** özelliği, her görüntülenen sonucu bu birincil toplama sonucundan türetilen ikincil bir hesaplamayla (örneğin, toplamın yüzdesi, yürüyen toplam, seçilen bir temel öğeden fark veya sıralama) değiştirir; böylece yardımcı formüller veya hesaplanmış sütunlar olmadan karşılaştırmalı analiz yapabilirsiniz.  
+Tipik kullanım alanları arasında satır, sütun veya tüm veri kümesinin yüzdesi gibi toplam payı analizleri; bir dönem alanındaki yürüyen toplamla kümülatif raporlama; bir temel öğeye göre fark veya yüzde fark kullanarak kıyaslama analizi; ve değerlerin en küçükten en büyüğe veya en büyükten en küçüğe sıralanması bulunur.  
+Aspose.Cells for JavaScript via C++ içinde, `PivotShowValuesAsType` enum’u ikincil hesaplamayı seçer. Salt okuma özelliğine sahip `PivotField.showValuesSetting` özelliği bir `PivotShowValuesSetting` nesnesi döndürür; bu nesnenin yazılabilir `showValuesAs`, `baseFieldIndex` ve `baseItemIndex` özellikleri davranışı yapılandırır; aynı ayarları tek bir çağrıda uygulayan `PivotField.showValuesAs(...)` yardımcı yöntemi de mevcuttur. Bu ayarları `PivotTable.dataFields` aracılığıyla elde edilen bir veri veya değer alanına uygulayın.
 
-## **PivotFieldDataDisplayFormat Enum Üyeleri**
-Veri alanı, Sum veya Count gibi toplama işlevini korurken, Show Values As yalnızca toplanan değerin nasıl görüntüleneceğini dönüştürür.
-`PivotShowValuesSetting` özelliklerini doğrudan yazmanın (bkz. son bölüm) yanı sıra, tek çağrılı bir kullanıcı dostu yöntem aynı yapılandırmayı uygular:
+## **PivotShowValuesAsType Enum Üyeleri**
+Veri alanı toplama işlevini (Sum veya Count gibi) korurken, **Değerleri Göster** yalnızca birleştirilmiş değerin nasıl gösterileceğini değiştirir.  
+`PivotShowValuesSetting` özelliklerini doğrudan yazmanın yanı sıra (bkz. son bölüm), aynı yapılandırmayı bir çağrıda uygulayan bir yardımcı yöntem de vardır. Bu yöntem iki biçimde sunulur — biri temel alan ve temel öğeyi indeksle, diğeri ise isimle adresler:
 
 ```html
-dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem);
+function showValuesAs(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
+}
+function showValuesAsByName(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
+}
+// index form: AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0
+// name form:  AsposeCells.PivotShowValuesAsType.PercentageOf, "Fruit", "Apple"
 ```
 
-| Parametre | Anlam | Ne Zaman Gerekli |
+| Parametre | Anlam | Gereklilik Durumu |
 | --- | --- | --- |
-| `displayFormat` | Uygulanacak `PivotFieldDataDisplayFormat` ikincil hesaplama. | Her zaman. |
-| `baseField` | Pivot tablosunun temel alanları arasındaki temel alanın sıfır tabanlı indeksi (örneğin, temel öğenin ait olduğu satır alanının indeksi). | Yalnızca aşağıdaki altı taban ilgili biçimi (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfRunningTotalIn`, `PercentageOfParentTotal`); diğer tüm biçimler tarafından yok sayılır. |
-| `baseItemPositionType` | Temel öğenin mevcut öğeye göre nasıl seçildiği: `PivotItemPositionType.Previous`, `.Next` veya `.Custom`. | Yalnızca üç taban öğesi biçimi (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`); diğer tüm biçimler tarafından yok sayılır. |
-| `baseItem` | Temel öğenin sıfır tabanlı indeksi. | Yalnızca `baseItemPositionType` `Custom` ise (öğe indeksi tam temel öğeyi seçer); `Previous` / `Next` için ve temel olmayan biçimlerde yoksayılır — `0` gönderin. |
+| `showValuesAsType` | Uygulanacak `PivotShowValuesAsType` ikincil hesaplama. | Her zaman. |
+| `baseField` | Pivot tablosunun temel alanları arasında (örneğin, temel öğenin ait olduğu satır alanının indeksi) sıfır‑tabanlı indeks veya — isim biçiminde — temel alanın adı. | Aşağıdaki sekiz temel‑ilişkili biçim (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, `RankSmallestToLargest`, `RankLargestToSmallest`) için gereklidir; diğer tüm biçimler için `0` (veya isim biçiminde `null`) gönderin. |
+| `baseItem` | Temel öğenin sıfır‑tabanlı indeksi; iki sentinel değeri vardır: `-1` önceki öğeyi, `-2` sonraki öğeyi seçer (JavaScript via C++ bağlayıcısı adlandırılmış sabitleri dışa aktarmaz — literal değerleri gönderin). İsim biçimi temel öğenin başlığını alır ve biçim temel öğe gerektirmiyorsa `null` gönderilir. | Yalnızca üç temel‑öğe biçimi (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`) temel öğeyi değerlendirir; beş alan‑ilişkili biçim (`RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, iki sıralama) bunu görmez — `0` ya da `null` gönderin. |
 
-| Hesaplama Türü | Davranış | Temel Öğesi Parametreleri |
+| Hesaplama Tipi | Davranış | Temel Öğe Parametreleri |
 | --- | --- | --- |
-| `Normal` | İkincil hesaplama yok; toplama değeri olduğu gibi görüntülenir (varsayılan). | — |
-| `DifferenceFrom` | Değeri, bir temel alandaki temel öğenin değerinden fark olarak gösterir. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` sadece `Custom` ile) |
-| `PercentageOf` | Değeri, bir temel alandaki temel öğenin değerinin yüzde olarak gösterir. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` sadece `Custom` ile) |
-| `PercentageDifferenceFrom` | Değeri, bir temel alandaki temel öğenin değerinin yüzde farkı olarak gösterir. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` sadece `Custom` ile) |
-| `RunningTotalIn` | Değeri, bir temel alanın ardışık öğeleri için çalışan toplam olarak gösterir. | `baseField` (birikimi yönlendiren alan) |
-| `PercentageOfRow` | Değeri satır toplamının yüzde olarak gösterir. | — |
-| `PercentageOfColumn` | Değeri sütun toplamının yüzde olarak gösterir. | — |
-| `PercentageOfTotal` | Değeri genel toplamın yüzde olarak gösterir. | — |
-| `Index` | Değeri Excel indeks formülü ((değer * genel toplam) / (satır toplamı * sütun toplamı)) kullanarak gösterir. | — |
-| `PercentageOfParentRowTotal` | Değeri, üst satır toplamının yüzde olarak gösterir (iç içe satır alanları için). | — |
-| `PercentageOfParentColumnTotal` | Değeri, üst sütun toplamının yüzde olarak gösterir (iç içe sütun alanları için). | — |
-| `PercentageOfParentTotal` | Değeri, üst toplamın yüzde olarak gösterir. | `baseField` (referans üst alan) |
-| `PercentageOfRunningTotalIn` | Değeri, bir temel alandaki çalışan toplamın yüzde olarak gösterir. | `baseField` (birikim alanı) |
-| `RankSmallestToLargest` | Değeri en küçükten en büyüğe sıralar. | — |
-| `RankLargestToSmallest` | Değeri en büyükten en küçüğe sıralar. | — |
+| `Normal` | İkincil bir hesaplama yok; birleştirilmiş değer olduğu gibi gösterilir (varsayılan). | — |
+| `DifferenceFrom` | Değeri, temel alandaki bir temel öğenin değerinden fark olarak gösterir. | `baseField` + `baseItem` (indeks, başlık veya önceki/sonraki sentinel) |
+| `PercentageOf` | Değeri, temel alandaki bir temel öğenin değerinin yüzdesi olarak gösterir. | `baseField` + `baseItem` (indeks, başlık veya önceki/sonraki sentinel) |
+| `PercentageDifferenceFrom` | Değeri, temel alandaki bir temel öğenin değerine göre yüzde fark olarak gösterir. | `baseField` + `baseItem` (indeks, başlık veya önceki/sonraki sentinel) |
+| `RunningTotalIn` | Değeri, temel alanın art arda gelen öğeleri için bir yürüyen toplam olarak gösterir. | `baseField` (toplamı yönlendiren alan) |
+| `PercentageOfRow` | Değeri, satır toplamının yüzdesi olarak gösterir. | — |
+| `PercentageOfColumn` | Değeri, sütun toplamının yüzdesi olarak gösterir. | — |
+| `PercentageOfTotal` | Değeri, genel toplamın yüzdesi olarak gösterir. | — |
+| `Index` | Değeri, Excel indeks formülü ((value * grand total) / (row total * column total)) ile gösterir. | — |
+| `PercentageOfParentRowTotal` | Değeri, üst satır toplamının yüzdesi olarak gösterir (iç içe satır alanları için). | — |
+| `PercentageOfParentColumnTotal` | Değeri, üst sütun toplamının yüzdesi olarak gösterir (iç içe sütun alanları için). | — |
+| `PercentageOfParentTotal` | Değeri, üst toplamın yüzdesi olarak gösterir. | `baseField` (referans alınan üst alan) |
+| `PercentageOfRunningTotalIn` | Değeri, temel alandaki bir yürüyen toplamın yüzdesi olarak gösterir. | `baseField` (biriktirme alanı) |
+| `RankSmallestToLargest` | Değeri en küçükten (1) en büyüğe sıralar. | `baseField` (sıralama kapsamını tanımlayan alan) |
+| `RankLargestToSmallest` | Değeri en büyükten (1) en küçüğe sıralar. | `baseField` (sıralama kapsamını tanımlayan alan) |
 
 {{% alert color="primary" %}}
-`showValuesAs(...)` `PivotShowValuesSetting` özelliğini (`calculationType`, `baseFieldIndex`, `baseItemPositionType`, `baseItemIndex`) yazar — yöntem ve özellik nesnesi aynı durumu yapılandırmanın iki yoludur, Excel'in Show Values As iletişim kutusundaki temel alan ve temel öğe seçicilerini yansıtır.
+`showValuesAs(...)` yöntemi `PivotShowValuesSetting` özelliklerini (`showValuesAs`, `baseFieldIndex` ve `baseItemIndex`) yazar — yöntem ve özellik nesnesi aynı durumu yapılandırmak için iki yoldur; Excel’in **Değerleri Göster** iletişim kutusundaki temel alan ve temel öğe seçicilerini yansıtır.
 {{% /alert %}}
 
-## **Değerleri Toplamın Yüzdesi Olarak Göster**
-`PivotField.showValuesAs` yöntemini `PivotFieldDataDisplayFormat.PercentageOfTotal` ile çağırarak, genel toplam dahil her veri alanı hücresini genel toplamın payına dönüştürün. Görüntülenen sayılar böylece tam sonuç kümesinin oranı olarak okunur. Bu biçim yalnızca her değeri genel toplamla ölçer, bu yüzden temel alan veya temel öğe gerekmez — son parametreler (`0`, `PivotItemPositionType.Previous`, `0`) bu biçimin görmezden geldiği yer tutuculardır, yukarıdaki parametre tablosunda belirtildiği gibi.
+## **Değerleri Toplam Yüzdesi Olarak Göster**
+`PivotField.showValuesAs` yöntemini `PivotShowValuesAsType.PercentageOfTotal` ile çağırarak, tüm veri alanı hücrelerini (genel toplam dahil) toplamın payı olarak dönüştürün. Böylece gösterilen sayılar, tam sonuç kümesinin oranı gibi okunur. Bu biçim yalnızca genel toplam karşısında ölçüm yapar, bu yüzden temel alan veya temel öğe gerektirmez — son parametreler (`0`, `0`) format tarafından göz ardı edilen yer tutuculardır, yukarıdaki parametre tablosunda da belirtildiği gibi.
 
 ```html
 <!DOCTYPE html>
@@ -79,6 +85,7 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
                 console.log("Aspose.Cells initialized");
             });
             document.getElementById("runExample").addEventListener("click", async () => {
+
                 // Load or create a workbook with source data
                 const workbook = new Workbook();
                 const dataSheet = workbook.worksheets.get(0);
@@ -100,16 +107,12 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
                 pivotTable.calculateData();
                 // Show the Amount data field as a percentage of the grand total with the
                 // one-call method; PercentageOfTotal takes no base item, so the trailing
-                // base arguments (0, Previous, 0) are placeholders the format ignores
+                // base arguments (0, 0) are placeholders the format ignores
                 const dataField = pivotTable.dataFields.get(0);
-                dataField.showValuesAs(
-                    AsposeCells.PivotFieldDataDisplayFormat.PercentageOfTotal,
-                    0,
-                    AsposeCells.PivotItemPositionType.Previous,
-                    0
-                );
+                dataField.showValuesAs(AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0);
                 pivotTable.calculateData();
-                // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
+                // Body now reads (underlying values are fractions, shown with the
+                // percentage format): Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById("downloadLink");
@@ -124,14 +127,14 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
 </html>
 ```
 
-## **PivotField.showValuesSetting'ı Al ve Yapılandır**
-`PivotField.showValuesSetting` aracılığıyla mevcut yapılandırmayı okuyun: salt okunur özellik, alanın `PivotShowValuesSetting` nesnesini döndürür; bu nesnenin dört özelliği aktif Show Values As hesaplamasını tanımlar. Yapılandırmayı değiştirmek için `PivotField.showValuesAs` yöntemini çağırın — bu yöntem tüm dört ayarı tek bir çağrıda yazar, böylece özellikleri tek tek atamanıza gerek kalmaz.
-`PivotShowValuesSetting` nesnesi `showValuesAs` tarafından yazılan dört özelliği ortaya koyar:
-- `calculationType` `PivotFieldDataDisplayFormat` ikincil hesaplamasını seçer.
-- `baseFieldIndex` pivot alanları içinde temel alanın sıfır tabanlı indeksini belirtir. Taban ilgili biçimler tarafından kullanılır.
-- `baseItemPositionType` temel öğenin mevcut öğeye göre nasıl konumlandırıldığını belirler ve `PivotItemPositionType.Next`, `PivotItemPositionType.Previous` veya `PivotItemPositionType.Custom` değerlerini kabul eder.
-- `baseItemIndex` sıfır tabanlı temel öğe indeksini belirtir ve `baseItemPositionType` `Custom` olduğunda kullanılır.
-`showValuesAs` çağrısından sonra `PivotTable.calculateData()` tekrar çağırın, böylece pivot gövdesi güncellenen yapılandırmayla yeniden hesaplanır ve yeniden renderlanır.
+## **PivotField.showValuesSetting’ı Okuma ve Yapılandırma**
+Mevcut yapılandırmayı `PivotField.showValuesSetting` üzerinden okuyun: salt‑okuma özellik, alanın `PivotShowValuesSetting` nesnesini döndürür; bu nesnenin özellikleri etkin **Değerleri Göster** hesabını açıklar. Yapılandırmayı değiştirmek için `PivotField.showValuesAs` yöntemini çağırın — bu yöntem tüm ayarları tek bir çağrıda yazar, böylece özellikleri tek tek atamanıza gerek kalmaz.  
+`PivotShowValuesSetting` nesnesi şu durumu ortaya koyar:
+- `showValuesAs` `PivotShowValuesAsType` ikincil hesabını seçer.  
+- `baseFieldIndex` pivot alanları içinde temel alanın sıfır‑tabanlı indeksini belirtir; temel‑ilişkili biçimler tarafından kullanılır.  
+- `baseItemIndex` temel öğeyi belirtir: belirli bir pivot öğesinin sıfır‑tabanlı indeksi veya iki sentinel değerinden biri — `-1` önceki öğe, `-2` sonraki öğe (bağlayıcı adlandırılmış sabitleri dışa aktarmaz). Bu, temel‑öğe biçimleri tarafından kullanılır.  
+- `baseFieldName` ve `baseItemCaption` salt‑okuma görünümleridir; çözümlenen temel alan adını ve temel öğe başlığını rapor eder; örneğin önceki‑öğe sentinelı seçildiğinde `baseItemCaption` `(previous)` döndürür.  
+`showValuesAs` çağrısından sonra `PivotTable.calculateData()` yöntemiyle pivot gövdesini yeniden hesaplayıp güncellenmiş yapılandırmayla yeniden çizdirin.
 
 ```html
 <!DOCTYPE html>
@@ -170,27 +173,28 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
                 // Read the current show-values settings
                 const settings = dataField.showValuesSetting;
                 const messages = [
-                    `CalculationType: ${settings.calculationType}`,
+                    `ShowValuesAs: ${settings.showValuesAs}`,
                     `BaseFieldIndex: ${settings.baseFieldIndex}`,
-                    `BaseItemPositionType: ${settings.baseItemPositionType}`,
-                    `BaseItemIndex: ${settings.baseItemIndex}`
+                    `BaseItemIndex: ${settings.baseItemIndex}`,
+                    `BaseFieldName: ${settings.baseFieldName}`,
+                    `BaseItemCaption: ${settings.baseItemCaption}`
                 ];
                 document.getElementById('result').innerHTML = messages
                     .map(message => `<p>${message}</p>`)
                     .join("");
                 // Switch to a base-item calculation with the one-call method: difference
                 // from the value of the previous item in the row field
+                // (-1 is the previous-item sentinel; the binding does not export the constant)
                 dataField.showValuesAs(
-                    AsposeCells.PivotFieldDataDisplayFormat.DifferenceFrom,
+                    AsposeCells.PivotShowValuesAsType.DifferenceFrom,
                     pivotTable.rowFields.get(0).baseIndex,
-                    AsposeCells.PivotItemPositionType.Previous,
-                    0
+                    -1
                 );
                 pivotTable.calculateData();
                 // Note: the percentage number format saved by the previous example still
                 // clings to the data field cells; the underlying values are now differences
                 // Re-read the applied configuration
-                messages.push(`CalculationType now: ${dataField.showValuesSetting.calculationType}`);
+                messages.push(`ShowValuesAs now: ${dataField.showValuesSetting.showValuesAs}`);
                 document.getElementById('result').innerHTML = messages
                     .map(message => `<p>${message}</p>`)
                     .join("");
@@ -210,7 +214,7 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
 ```
 
 ## **İlgili Makaleler**
-- [Pivot Tablosundaki Değer Alanlarını Yönetme](/cells/tr/javascript-cpp/manage-value-fields/)
+- [Pivot Tablosunda Değer Alanlarını Yönetme](/cells/tr/javascript-cpp/manage-value-fields/)
 - [Pivot Tablosunu Yenileme](/cells/tr/javascript-cpp/refresh-pivot-table/)
 - [Pivot Tablosuna Stil Uygulama](/cells/tr/javascript-cpp/apply-style-to-pivot-table/)
 

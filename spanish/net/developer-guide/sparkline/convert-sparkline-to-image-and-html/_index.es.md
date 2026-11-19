@@ -1,6 +1,6 @@
 ---
 title: Convertir minigráficos a imagen y HTML en Aspose.Cells for .NET
-linktitle: Convertir minigráficos a imagen y HTML en Aspose.Cells for .NET
+linktitle: Convertir minigráficos a imagen y HTML
 description: Aprenda a renderizar minigráficos de Aspose.Cells como imágenes independientes para incrustar en celdas y exportar hojas de cálculo con minigráficos a HTML usando HtmlSaveOptions.
 keywords: Aspose.Cells, .NET, minigráfico, Sparkline.ToImage, Cell.EmbeddedImage, HtmlSaveOptions, renderizar minigráfico, convertir minigráfico a imagen, exportar minigráfico a HTML
 type: docs
@@ -38,61 +38,61 @@ using Aspose.Cells;
 using Aspose.Cells.Charts;
 using Aspose.Cells.Drawing;
 using Aspose.Cells.Rendering;
-// Crear un nuevo libro de trabajo y acceder a la primera hoja de cálculo
+// Create a new workbook and access the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Poblar datos de muestra en las celdas A1:E1
+// Populate sample data in cells A1:E1
 worksheet.Cells["A1"].PutValue(5);
 worksheet.Cells["B1"].PutValue(-3);
 worksheet.Cells["C1"].PutValue(8);
 worksheet.Cells["D1"].PutValue(-2);
 worksheet.Cells["E1"].PutValue(6);
-// Agregar un grupo de minigráficos de tipo Línea anclado en F1 (columna 5, fila 0)
+// Add a Line sparkline group anchored at F1 (column 5, row 0)
 CellArea lineArea = new CellArea();
 lineArea.StartColumn = 5;
 lineArea.EndColumn = 5;
 lineArea.StartRow = 0;
 lineArea.EndRow = 0;
 int lineIdx = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, lineArea);
-// Agregar un grupo de minigráficos de tipo Columna anclado en G1 (columna 6, fila 0)
+// Add a Column sparkline group anchored at G1 (column 6, row 0)
 CellArea columnArea = new CellArea();
 columnArea.StartColumn = 6;
 columnArea.EndColumn = 6;
 columnArea.StartRow = 0;
 columnArea.EndRow = 0;
 int columnIdx = worksheet.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, columnArea);
-// Agregar un grupo de minigráficos de tipo Ganancia/Pérdida (Apilado) anclado en H1 (columna 7, fila 0)
+// Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 CellArea stackedArea = new CellArea();
 stackedArea.StartColumn = 7;
 stackedArea.EndColumn = 7;
 stackedArea.StartRow = 0;
 stackedArea.EndRow = 0;
 int stackedIdx = worksheet.SparklineGroups.Add(SparklineType.Stacked, "A1:E1", false, stackedArea);
-// Configurar opciones de imagen para salida PNG
+// Configure image options for PNG output
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
 imageOptions.ImageType = ImageType.Png;
-// Convertir el minigráfico de Línea a imagen e incrustarlo en la celda F2
+// Convert the Line sparkline to image and embed it in cell F2
 Sparkline lineSp = worksheet.SparklineGroups[lineIdx].Sparklines[0];
 using (MemoryStream ms = new MemoryStream())
 {
     lineSp.ToImage(ms, imageOptions);
     worksheet.Cells["F2"].EmbeddedImage = ms.ToArray();
 }
-// Convertir el minigráfico de Columna a imagen e incrustarlo en la celda G2
+// Convert the Column sparkline to image and embed it in cell G2
 Sparkline columnSp = worksheet.SparklineGroups[columnIdx].Sparklines[0];
 using (MemoryStream ms = new MemoryStream())
 {
     columnSp.ToImage(ms, imageOptions);
     worksheet.Cells["G2"].EmbeddedImage = ms.ToArray();
 }
-// Convertir el minigráfico de Ganancia/Pérdida a imagen e incrustarlo en la celda H2
+// Convert the Win/Loss sparkline to image and embed it in cell H2
 Sparkline stackedSp = worksheet.SparklineGroups[stackedIdx].Sparklines[0];
 using (MemoryStream ms = new MemoryStream())
 {
     stackedSp.ToImage(ms, imageOptions);
     worksheet.Cells["H2"].EmbeddedImage = ms.ToArray();
 }
-// Guardar el libro de trabajo en disco
+// Save the workbook to disk
 workbook.Save("output_with_sparklines.xlsx");
 ```
 

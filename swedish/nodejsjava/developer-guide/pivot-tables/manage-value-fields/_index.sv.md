@@ -1,6 +1,6 @@
 ---
 title: Hantera värdefält i pivottabeller i Aspose.Cells for Node.js via Java
-linktitle: Hantera värdefält i pivottabeller i Aspose.Cells for Node.js via Java
+linktitle: Värdefält
 description: Lär dig hur du lägger till basfält i dataregionen i en pivottabell, ändrar summeringsfunktionen med PivotField.Function och visar värdefältet på rad- eller kolumnaxeln i Aspose.Cells for Node.js via Java.
 keywords: Aspose.Cells, Node.js via Java, pivottabell, värdefält, PivotField, PivotField.Function, datafält, PivotTable.ValuesField, Sum, Average
 type: docs

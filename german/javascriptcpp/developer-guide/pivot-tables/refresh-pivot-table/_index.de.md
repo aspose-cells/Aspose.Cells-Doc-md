@@ -114,15 +114,15 @@ Das folgende Beispiel erstellt eine Arbeitsmappe mit einem Quellbereich für die
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Neue Arbeitsmappe erstellen
+            // Create a new workbook
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Kopfzeile in die Zellen A1:C1 schreiben
+            // Write header row into cells A1:C1
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // Datenzeilen in die Zellen A2:C9 schreiben (8 Zeilen mit Fruchtdaten für 2020 und 2021)
+            // Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
             cells.get("A2").value = "grape";
             cells.get("B2").value = 2020;
             cells.get("C2").value = 50;
@@ -147,19 +147,19 @@ Das folgende Beispiel erstellt eine Arbeitsmappe mit einem Quellbereich für die
             cells.get("A9").value = "cherry";
             cells.get("B9").value = 2021;
             cells.get("C9").value = 120;
-            // Pivot-Tabelle hinzufügen: Quellbereich "A1:C9", ZieldZelle "E3"
+            // Add a pivot table: source range "A1:C9", destination cell "E3"
             const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
-            // Pivot-Felder zuweisen: Fruit zu Zeilen, Year zu Spalten, Amount zu Daten
+            // Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Mehrere Amount-Werte in den Quelldaten ändern, um Änderungen zu simulieren
+            // Modify several Amount values in the source data to simulate changes
             cells.get("C2").value = 55;
             cells.get("C5").value = 85;
             cells.get("C9").value = 125;
-            // Alle Pivot-Tabellen/Pivot-Caches in der Arbeitsmappe aktualisieren
+            // Refresh every pivot table / pivot cache in the workbook
             workbook.refreshAll();
-            // Arbeitsmappe speichern
+            // Save the workbook
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -285,11 +285,11 @@ Das folgende Beispiel ändert eine Eigenschaft, die nicht die Datenquelle betrif
                 const workbook = new Workbook();
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // Kopfzeile für Obst / Jahr / Menge schreiben
+                // Write Fruit / Year / Amount header row
                 cells.get("A1").value = "Fruit";
                 cells.get("B1").value = "Year";
                 cells.get("C1").value = "Amount";
-                // 8 Datenzeilen schreiben (Zeilen 2–9, passend zum Quellbereich A1:C9)
+                // Write 8 data rows (rows 2-9, fitting the source range A1:C9)
                 cells.get("A2").value = "Grape";
                 cells.get("B2").value = 2020;
                 cells.get("C2").value = 100;
@@ -314,21 +314,21 @@ Das folgende Beispiel ändert eine Eigenschaft, die nicht die Datenquelle betrif
                 cells.get("A9").value = "Cherry";
                 cells.get("B9").value = 2021;
                 cells.get("C9").value = 450;
-                // Eine Pivot-Tabelle hinzufügen, die in der Zielzelle E3 platziert wird und ihre Daten aus A1:C9 bezieht
+                // Add a pivot table placed at destination cell E3, sourcing from A1:C9
                 const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
-                // Felder zuweisen: Fruit der Zeile, Year der Spalte, Amount den Daten
+                // Assign fields: Fruit to Row, Year to Column, Amount to Data
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-                // Eine Ansichts-/Layouteigenschaft ändern – dies ist eine reine Darstellungsänderung,
-                // daher müssen die Quelldaten nicht über PivotCache.Refresh() erneut gelesen werden.
+                // Modify a view/layout property — this is a presentation-only change,
+                // so it does NOT require re-reading the source data through PivotCache.Refresh().
                 pivotTable.refreshDataOnOpeningFile = false;
-                // CalculateData() rendert die Anzeige DIESER Pivot-Tabelle (Daten + Formatierung) aus den
-                // bereits im PivotCache gespeicherten Daten neu. Da sich die Quelldaten nicht geändert haben,
-                // wird kein Rückgriff auf die Quelle durchgeführt – nur die zwischengespeicherten Werte werden
-                // in die Zellen des Arbeitsblatts neu berechnet.
+                // CalculateData() re-renders THIS pivot table's display (data + style) from the
+                // data already held in the PivotCache. Because the source data did not change,
+                // no round-trip to the source is performed — only the cached values are recalculated
+                // into worksheet cells.
                 pivotTable.calculateData();
-                // Arbeitsmappe auf der Festplatte speichern
+                // Save the workbook to disk
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById("downloadLink");

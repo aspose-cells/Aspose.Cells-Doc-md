@@ -58,30 +58,28 @@ Classificare gli elementi del campo di riga in base a un campo valore, ad esempi
             cells.get("C1").value = "Sales";
             const sports = ["Golf", "Tennis", "Rugby", "Cricket", "Boxing"];
             let row = 2;
-            for (const sport of sports) {
+            sports.forEach(sport => {
                 for (let quarter = 1; quarter <= 3; quarter++) {
                     cells.get(row, 0).value = sport;
                     cells.get(row, 1).value = "Qtr" + quarter;
                     cells.get(row, 2).value = 1000 + 777 * row;
                     row++;
                 }
-            }
+            });
             const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();
             const sportField = pivotTable.rowFields.get(0);
-            // Mostra i primi 2 elementi classificati in base a "Sum of Sales" (indice del campo dati 0)
-            sportField.isAutoShow = true;
-            sportField.isAscendShow = false;
-            sportField.autoShowCount = 2;
-            sportField.autoShowField = 0;
+            // Keep the top 3 items ranked by "Sum of Sales" (data field index 0)
+            sportField.filterTop10(0, AsposeCells.PivotFilterType.Count, true, 3);
+            pivotTable.pivotCache.refresh();
             pivotTable.calculateData();
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = "output-top10-by-value-field.xlsx";
+            downloadLink.download = "output-top10-filter.xlsx";
             downloadLink.style.display = "block";
             document.getElementById('result').innerHTML = '<p style="color: green;">Done! Click the download link to get the result file.</p>';
         });
@@ -91,6 +89,64 @@ Classificare gli elementi del campo di riga in base a un campo valore, ad esempi
 
 ### **Classifica in base al campo stesso**
 Un campo può essere classificato in base a sé stesso: in questo caso, passare il valore -1 a `autoShowField`. Per questa variante non è necessario alcun campo dati aggiuntivo; basta che il campo sia collocato nell'area delle righe (o delle colonne). L'esempio seguente mostra gli ultimi 3 sport in base al campo stesso. Quando questa impostazione viene salvata, l'attributo `rankBy` viene omesso dal XML della tabella pivot, poiché -1 è il valore predefinito del formato e il valore di `autoShowField` riletto è -1.
+
+```javascript
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Example</title>
+    </head>
+    <body>
+        <h1>Aspose.Cells PivotTable Example</h1>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+    </body>
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat } = AsposeCells;
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: ["arial.ttf", "NotoSansSC-Regular.ttf"]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            const result = document.getElementById('result');
+            const file = fileInput.files[0];
+            if (!file) {
+                result.innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
+                return;
+            }
+            try {
+                const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
+                const worksheet = workbook.worksheets.get(0);
+                const pivotTable = worksheet.pivotTables.get(0);
+                const sportField = pivotTable.rowFields.get(0);
+                const settings = sportField.top10AutoShowSettings;
+                const autoShowEnabled = settings.isAutoShow;
+                const direction = settings.isTop ? "Top" : "Bottom";
+                const itemCount = settings.autoShowCount;
+                const rankingDataFieldIndex = settings.rankBy;
+                result.innerHTML =
+                    '<p>AutoShow enabled: ' + autoShowEnabled + '</p>' +
+                    '<p>Direction: ' + direction + '</p>' +
+                    '<p>Item count: ' + itemCount + '</p>' +
+                    '<p>Ranking data field index: ' + rankingDataFieldIndex + '</p>';
+            } catch (error) {
+                result.innerHTML = '<p style="color: red;">An error occurred: ' + error.message + '</p>';
+                console.error(error);
+            }
+        });
+    </script>
+</html>
+```
+
+## **Lettura delle opzioni AutoShow correnti**
+Le proprietà `isAutoShow`, `isAscendShow`, `autoShowCount` e `autoShowField` di `PivotField` forniscono accesso alle opzioni AutoShow attualmente memorizzate sul campo. Utilizzatele per controllare come verranno visualizzati gli elementi in una cartella di lavoro esistente o in una tabella pivot appena configurata. Sono valide anche per le cartelle di lavoro caricate da file.
 
 ```javascript
 <!DOCTYPE html>
@@ -137,11 +193,8 @@ Un campo può essere classificato in base a sé stesso: in questo caso, passare 
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();
             const sportField = pivotTable.rowFields.get(0);
-            // Mostra i 3 elementi inferiori classificati in base al campo stesso (rankBy = -1)
-            sportField.isAutoShow = true;
-            sportField.isAscendShow = true;
-            sportField.autoShowCount = 3;
-            sportField.autoShowField = -1;
+            // Show the bottom 3 items ranked by the field itself (rankBy = -1)
+            sportField.top10AutoShow(true, false, 3, -1);
             pivotTable.calculateData();
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -151,63 +204,6 @@ Un campo può essere classificato in base a sé stesso: in questo caso, passare 
             downloadLink.style.display = "block";
             document.getElementById('result').innerHTML =
                 '<p style="color: green;">Done! Click the download link to get the result file.</p>';
-        });
-    </script>
-</html>
-```
-
-## **Lettura delle opzioni AutoShow correnti**
-Le proprietà `isAutoShow`, `isAscendShow`, `autoShowCount` e `autoShowField` di `PivotField` forniscono accesso alle opzioni AutoShow attualmente memorizzate sul campo. Utilizzatele per controllare come verranno visualizzati gli elementi in una cartella di lavoro esistente o in una tabella pivot appena configurata. Sono valide anche per le cartelle di lavoro caricate da file.
-
-```javascript
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Aspose.Cells Example</title>
-    </head>
-    <body>
-        <h1>Aspose.Cells PivotTable Example</h1>
-        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
-        <button id="runExample">Run Example</button>
-        <a id="downloadLink" style="display: none;">Download Result</a>
-        <div id="result"></div>
-    </body>
-    <script src="aspose.cells.js.min.js"></script>
-    <script type="text/javascript">
-        const { Workbook, SaveFormat } = AsposeCells;
-        AsposeCells.onReady({
-            license: "/lic/aspose.cells.enc",
-            fontPath: "/fonts/",
-            fontList: ["arial.ttf", "NotoSansSC-Regular.ttf"]
-        }).then(() => {
-            console.log("Aspose.Cells initialized");
-        });
-        document.getElementById('runExample').addEventListener('click', async () => {
-            const fileInput = document.getElementById('fileInput');
-            const result = document.getElementById('result');
-            const file = fileInput.files[0];
-            if (!file) {
-                result.innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
-                return;
-            }
-            try {
-                const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
-                const worksheet = workbook.worksheets.get(0);
-                const pivotTable = worksheet.pivotTables.get(0);
-                const sportField = pivotTable.rowFields.get(0);
-                const autoShowEnabled = sportField.isAutoShow;
-                const direction = sportField.isAscendShow ? "Bottom" : "Top";
-                const itemCount = sportField.autoShowCount;
-                const rankingDataFieldIndex = sportField.autoShowField;
-                result.innerHTML =
-                    '<p>AutoShow enabled: ' + autoShowEnabled + '</p>' +
-                    '<p>Direction: ' + direction + '</p>' +
-                    '<p>Item count: ' + itemCount + '</p>' +
-                    '<p>Ranking data field index: ' + rankingDataFieldIndex + '</p>';
-            } catch (error) {
-                result.innerHTML = '<p style="color: red;">An error occurred: ' + error.message + '</p>';
-                console.error(error);
-            }
         });
     </script>
 </html>
@@ -261,13 +257,29 @@ Le versioni moderne di Excel espongono l'opzione Primi 10 come filtro valore nel
             cells.get("C1").value = "Sales";
             const sports = ["Golf", "Tennis", "Rugby", "Cricket", "Boxing"];
             let row = 2;
-            sports.forEach(sport => {
+            for (const sport of sports) {
                 for (let quarter = 1; quarter <= 3; quarter++) {
                     cells.get(row, 0).value = sport;
                     cells.get(row, 1).value = "Qtr" + quarter;
                     cells.get(row, 2).value = 1000 + 777 * row;
                     row++;
                 }
+            }
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
+            pivotTable.calculateData();
+            const sportField = pivotTable.rowFields.get(0);
+            // Show the top 2 items ranked by "Sum of Sales" (data field index 0)
+            sportField.top10AutoShow(true, true, 2, 0);
+            pivotTable.calculateData();
+            const outputData = workbook.save(SaveFormat.Xlsx);
+            const blob = new Blob([outputData]);
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = "output-top10-by-value-field.xlsx";
+            downloadLink.style.display = "block";
+            document.getElementById('result').innerHTML = '<p style="color: green;">Done! Click the download link to get the result file.</p>';
         });
     </script>
 </html>

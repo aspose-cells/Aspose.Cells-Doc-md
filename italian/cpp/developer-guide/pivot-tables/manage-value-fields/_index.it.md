@@ -23,12 +23,12 @@ int main() {
  Worksheet worksheet = workbook.GetWorksheets().Get(0);
  worksheet.SetName(u"Data");
  Cells cells = worksheet.GetCells();
- // Intestazioni in A1:D1
+ // Headers in A1:D1
  cells.Get(0, 0).PutValue(U16String("Category"));
  cells.Get(0, 1).PutValue(U16String("Item"));
  cells.Get(0, 2).PutValue(U16String("Year"));
  cells.Get(0, 3).PutValue(U16String("Amount"));
- // Righe di dati A2:D9 utilizzando cicli annidati che si diramano su j
+ // Data rows A2:D9 using nested loops branching on j
  for (int i = 1; i <= 8; i++)
  {
  for (int j = 0; j < 4; j++)
@@ -60,9 +60,9 @@ int main() {
  }
  }
  }
- // Aggiungi tabella pivot in F3 con nome PivotTable1
+ // Add pivot table at F3 with name PivotTable1
  PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
- // Layout pivot: Categoria e Articolo su Riga, Anno su Colonna, Importo come campo dati
+ // Pivot layout: Category and Item on Row, Year on Column, Amount as data field
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");

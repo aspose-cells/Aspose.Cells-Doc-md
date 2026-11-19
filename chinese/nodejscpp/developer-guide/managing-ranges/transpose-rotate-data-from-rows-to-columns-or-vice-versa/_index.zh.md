@@ -105,21 +105,21 @@ CSE 数组公式是 Excel 求值 `TRANSPOSE` 表达式的经典方式，此方�
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// 使用 xlsx LoadOptions 加载源工作簿
+// Load the source workbook with xlsx LoadOptions
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
-// 访问第一个工作表及其 Cells 集合
+// Access the first worksheet and its Cells collection
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();
-// 在 A6 单元格设置经典的 CSE 数组公式
-// 公式 =TRANSPOSE(A1:D5) 将 5 行 x 4 列的源范围
-// 转换为 4 行 x 5 列的数组。第二个参数 (4) 是结果数组的行数
-// 第三个参数 (5) 是结果数组的列数
-// Aspose.Cells 写入 CSE 数组公式标记，以便 Excel 将其作为
-// 单个多单元格数组公式进行计算，兼容旧版 Excel
-// （2019、2016、2013 等）不支持动态数组溢出
+// Set the classic CSE array formula on cell A6.
+// The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+// into a 4-row x 5-column array. The second argument (4) is the number of rows
+// and the third argument (5) is the number of columns of the resulting array.
+// Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+// a single multi-cell array formula, compatible with older Excel versions
+// (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-// 保存工作簿以使数组公式标记持久化
+// Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx");
 ```
 

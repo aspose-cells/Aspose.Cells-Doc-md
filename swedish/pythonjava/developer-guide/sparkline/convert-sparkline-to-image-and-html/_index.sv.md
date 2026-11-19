@@ -1,6 +1,6 @@
 ---
 title: Konvertera sparklinje till bild och HTML i Aspose.Cells for Python via Java
-linktitle: Konvertera sparklinje till bild och HTML i Aspose.Cells for Python via Java
+linktitle: Konvertera sparkline till bild och HTML
 description: Lär dig hur du med Aspose.Cells renderar sparklinjer till fristående bilder för inbäddning i celler och exporterar kalkylblad med sparklinjer till HTML med hjälp av HtmlSaveOptions.
 keywords: Aspose.Cells, Python via Java, sparklinje, Sparkline.toImage, Cell.embeddedImage, HtmlSaveOptions, rendera sparklinje, konvertera sparklinje till bild, exportera sparklinje till HTML
 type: docs
@@ -39,55 +39,55 @@ jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
-# Skapa en ny arbetsbok och öppna det första kalkylbladet
+# Create a new workbook and access the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# Fyll i exempeldata i cellerna A1:E1
+# Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5)
 worksheet.getCells().get("B1").putValue(-3)
 worksheet.getCells().get("C1").putValue(8)
 worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
-# Lägg till en linjesparklinegrupp förankrad vid F1 (kolumn 5, rad 0)
+# Add a Line sparkline group anchored at F1 (column 5, row 0)
 lineArea = CellArea()
 lineArea.StartColumn = 5
 lineArea.EndColumn = 5
 lineArea.StartRow = 0
 lineArea.EndRow = 0
 lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
-# Lägg till en kolumnsparklinegrupp förankrad vid G1 (kolumn 6, rad 0)
+# Add a Column sparkline group anchored at G1 (column 6, row 0)
 columnArea = CellArea()
 columnArea.StartColumn = 6
 columnArea.EndColumn = 6
 columnArea.StartRow = 0
 columnArea.EndRow = 0
 columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
-# Lägg till en Win/Loss (stapel) sparklinegrupp förankrad vid H1 (kolumn 7, rad 0)
+# Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 stackedArea = CellArea()
 stackedArea.StartColumn = 7
 stackedArea.EndColumn = 7
 stackedArea.StartRow = 0
 stackedArea.EndRow = 0
 stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
-# Konfigurera bildalternativ för PNG-utdata
+# Configure image options for PNG output
 imageOptions = ImageOrPrintOptions()
 imageOptions.setImageType(ImageType.PNG)
-# Konvertera linjesparklinen till bild och bädda in den i cell F2
+# Convert the Line sparkline to image and embed it in cell F2
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 lineSp.toImage(ms, imageOptions)
 worksheet.getCells().get("F2").setEmbeddedImage(ms.toByteArray())
-# Konvertera kolumnsparklinen till bild och bädda in den i cell G2
+# Convert the Column sparkline to image and embed it in cell G2
 columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 columnSp.toImage(ms, imageOptions)
 worksheet.getCells().get("G2").setEmbeddedImage(ms.toByteArray())
-# Konvertera Win/Loss-sparklinen till bild och bädda in den i cell H2
+# Convert the Win/Loss sparkline to image and embed it in cell H2
 stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 stackedSp.toImage(ms, imageOptions)
 worksheet.getCells().get("H2").setEmbeddedImage(ms.toByteArray())
-# Spara arbetsboken till disk
+# Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx")
 jpype.shutdownJVM()
 ```

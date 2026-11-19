@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for Java 中为数据透视表应用样式
-linktitle: 在 Aspose.Cells for Java 中为数据透视表应用样式
+linktitle: 应用数据透视表样式
 description: 学习如何在 Aspose.Cells for Java 中为数据透视表应用内置和自定义样式，包括传统 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式以及 formatAll 快捷方式。
 keywords: Aspose.Cells Java 数据透视表样式, PivotTableStyleType, AutoFormatType, FormatAll, 自定义样式, PivotTableStyleName, TableStyles
 type: docs
@@ -30,16 +30,16 @@ Aspose.Cells 为数据透视表提供了两个并行的样式 API。它们之间
 
 ```java
 import com.aspose.cells.*;
-// 场景 1：应用旧版 XLS 预设自动格式
-// 使用的 API：PivotTable.AutoFormatType
-// 目标文件格式：.xls（旧版）
-// 如需完整的示例和数据文件，请访问 https://github.com/aspose-cells/Aspose.Cells-for-.NET
-// 创建新工作簿
+// Scenario 1: Apply a legacy XLS preset autoformat
+// API in use: PivotTable.AutoFormatType
+// Target file format: .xls (legacy)
+// For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+// Create a new workbook
 Workbook workbook = new Workbook();
-// 获取第一个工作表
+// Get the first worksheet
 Worksheet sheet = workbook.getWorksheets().get(0);
-// 使用表头行（Fruit、Year、Amount）填充源数据
-// 以及 9 行数据，涵盖 2020 年和 2021 年的葡萄、蓝莓、猕猴桃和樱桃
+// Populate the source data with header row (Fruit, Year, Amount)
+// and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.getCells().get(0, 0).putValue("Fruit");
 sheet.getCells().get(0, 1).putValue("Year");
 sheet.getCells().get(0, 2).putValue("Amount");
@@ -70,17 +70,17 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// 在目标单元格 E3 添加一个名为 的数据透视表，使用源数据区域 A1:C10
+// Add a pivot table at destination cell E3, using source range A1:C10
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// 分配字段：Fruit -> 行，Amount -> 数据
+// Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// 应用旧版 XLS 预设自动格式 "Report5"
-// 注意：此属性仅在另存为 .xls 时有效。
-// 当另存为 .xlsx/.xlsm/.xlsb 时，Excel 会忽略 AutoFormatType
-// 并使用 PivotTableStyleType / PivotTableStyleName 所指定的样式。
+// Apply the legacy XLS preset autoformat "Report5"
+// Note: This property is only meaningful when saving as .xls.
+// When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+// and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivotTable.setAutoFormatType(PivotTableAutoFormatType.REPORT_5);
-// 将工作簿保存为旧版 .xls 格式
+// Save the workbook in legacy .xls format
 workbook.save("output.xls");
 ```
 
@@ -162,7 +162,7 @@ workbook.save("output.xlsx");
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// 填充源数据：表头行 + 9 行数据（A1:C10）
+// Populate source data: header row + 9 data rows (A1:C10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -193,15 +193,15 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// 添加数据源为 A1:C10 的数据透视表，锚定在 E3，命名为
+// Add pivot table sourced from A1:C10, anchored at E3
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// 步骤 1：注册一个新的自定义数据透视表样式并获取其索引
+// Step 1: register a new custom pivot table style and capture its index
 int styleIndex = workbook.getWorksheets().getTableStyles().addPivotTableStyle("CustomPivotStyle");
 TableStyle tableStyle = workbook.getWorksheets().getTableStyles().get(styleIndex);
-// 步骤 2：添加 WholeTable 元素并在四边应用细的黑色边框
+// Step 2: add a WholeTable element and apply thin black borders on all four sides
 int wholeTableElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.WHOLE_TABLE);
 TableStyleElement wholeTableElement = tableStyle.getTableStyleElements().get(wholeTableElementIndex);
 Style wholeTableStyle = workbook.createStyle();
@@ -219,14 +219,14 @@ Border borderRight = borders.getByBorderType(BorderType.RIGHT_BORDER);
 borderRight.setLineStyle(CellBorderType.THIN);
 borderRight.setColor(Color.getBlack());
 wholeTableElement.setElementStyle(wholeTableStyle);
-// 步骤 3：添加 GrandTotalRow 元素并应用粗体红色字体
+// Step 3: add a GrandTotalRow element and apply bold red font
 int grandTotalElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.GRAND_TOTAL_ROW);
 TableStyleElement grandTotalElement = tableStyle.getTableStyleElements().get(grandTotalElementIndex);
 Style grandTotalStyle = workbook.createStyle();
 grandTotalStyle.getFont().setBold(true);
 grandTotalStyle.getFont().setColor(Color.getRed());
 grandTotalElement.setElementStyle(grandTotalStyle);
-// 步骤 4：通过名称应用自定义样式（不要使用 PivotTableStyleType，它用于内置预设样式）
+// Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
@@ -243,7 +243,7 @@ workbook.save("output.xlsx");
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// 填充源数据：表头行（第 1 行）+ 9 行数据（第 2-10 行）
+// Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -274,13 +274,13 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// 添加数据透视表：源数据范围 A1:C10，目标单元格 E3，名称
+// Add pivot table: source range A1:C10, destination cell E3
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// 分配透视字段：Fruit -> 行区域，Year -> 列区域，Amount -> 数据区域
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// 创建一个将强制应用于透视表每个单元格的样式
+// Build a Style that will be forced onto every cell of the pivot table
 Style style = workbook.createStyle();
 style.setForegroundColor(Color.getYellow());
 style.setPattern(BackgroundType.SOLID);
@@ -294,10 +294,10 @@ style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBord
 style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setColor(Color.getBlack());
 style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN);
 style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setColor(Color.getBlack());
-// 应用 formatAll：将此单一样式强制应用于透视表的每个单元格，
-// 覆盖先前设置的任何 PivotTableStyleType / PivotTableStyleName
+// Apply formatAll: forces this single style onto every cell of the pivot table,
+// overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivotTable.formatAll(style);
-// 以现代 .xlsx 格式保存工作簿
+// Save the workbook in the modern .xlsx format
 workbook.save("output.xlsx");
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for C++'ta Değer Alanları
 description: Aspose.Cells for C++ kullanarak bir pivot tablonun veri bölgesine temel alanlar eklemeyi, PivotField.Function ile özetleme fonksiyonunu değiştirmeyi ve değer alanını Satır veya Sütun eksenine yerleştirmeyi öğrenin.
-linktitle: Aspose.Cells for C++'ta Değer Alanları
+linktitle: Değer Alanları
 keywords: Aspose.Cells, C++, pivot tablo, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -23,12 +23,12 @@ int main() {
  Worksheet worksheet = workbook.GetWorksheets().Get(0);
  worksheet.SetName(u"Data");
  Cells cells = worksheet.GetCells();
- // A1:D1 aralığındaki başlıklar
+ // Headers in A1:D1
  cells.Get(0, 0).PutValue(U16String("Category"));
  cells.Get(0, 1).PutValue(U16String("Item"));
  cells.Get(0, 2).PutValue(U16String("Year"));
  cells.Get(0, 3).PutValue(U16String("Amount"));
- // j üzerinde dallanan iç içe döngüler kullanarak A2:D9 veri satırları
+ // Data rows A2:D9 using nested loops branching on j
  for (int i = 1; i <= 8; i++)
  {
  for (int j = 0; j < 4; j++)
@@ -60,9 +60,9 @@ int main() {
  }
  }
  }
- // F3 konumunda PivotTable1 adında bir pivot tablo ekle
+ // Add pivot table at F3 with name PivotTable1
  PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
- // Pivot düzeni: Satırda Category ve Item, Sütunda Year, veri alanı olarak Amount
+ // Pivot layout: Category and Item on Row, Year on Column, Amount as data field
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");

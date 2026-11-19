@@ -36,12 +36,10 @@ Dopo l'esecuzione del codice di esempio, la tabella pivot viene aggiunta al fogl
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-
-# Crea una nuova cartella di lavoro e ottieni il primo foglio di lavoro
+# Create a new workbook and get the first worksheet
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-
-# Scrivi i dati di origine: vendite per sport e trimestre
+# Write the source data: sales per sport and quarter
 sheet.cells.get("A1").put_value("Sport")
 sheet.cells.get("B1").put_value("Quarter")
 sheet.cells.get("C1").put_value("Sales")
@@ -66,16 +64,13 @@ sheet.cells.get("C7").put_value(5000)
 sheet.cells.get("A8").put_value("Golf")
 sheet.cells.get("B8").put_value("Qtr3")
 sheet.cells.get("C8").put_value(6430)
-
-# Aggiungi una tabella pivot alla cella di destinazione E3, usando A1:C8 come origine
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivot_table = sheet.pivot_tables.add("A1:C8", 2, 4)
-
-# Assegna i campi pivot: Sport a Righe, Quarter a Colonne, Sales a Dati
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Quarter")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
-
-# Salva la cartella di lavoro
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

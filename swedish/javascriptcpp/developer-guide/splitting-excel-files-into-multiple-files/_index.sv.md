@@ -1,6 +1,6 @@
 ---
 title: Dela upp Excel-filer i flera filer
-linktitle: Dela upp Excel-filer i flera filer
+linktitle: Dela upp Excel-filer i flera
 description: Aspose.Cells for JavaScript via C++ är ett JavaScript via C++-bibliotek för att arbeta med kalkylbladsfiler, som stödjer att dela upp en enda Excel-fil i flera filer. Denna artikel visar hur man delar upp Excel-filer genom att kopiera varje kalkylblad till en separat arbetsbok och genom att kopiera specifika cellintervall till andra arbetsböcker.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++ library, kalkylblad, dela upp Excel-fil, kopiera kalkylblad, kopiera intervall, flera arbetsböcker, spara som separata filer
 type: docs

@@ -1,7 +1,7 @@
 ---
 title: Konvertieren von Excel in das OFD-Format
 description: Aspose.Cells ist eine .NET-Bibliothek für die Arbeit mit Tabellenkalkulationsdateien, die das Konvertieren von Excel-Arbeitsmappen in das OFD-Format (Open Fixed-layout Document) unterstützt. Dieser Artikel zeigt, wie Excel-Inhalte erstellt und als OFD exportiert werden, sowie wie vorhandene Excel-Dateien mit Aspose.Cells in OFD konvertiert werden.
-linktitle: Konvertieren von Excel in das OFD-Format
+linktitle: OFD
 keywords: Aspose.Cells, NET-Bibliothek, Tabellenkalkulation, Excel zu OFD, OFD-Konvertierung, SaveFormat.Ofd, Fixed-Layout-Dokument, Arbeitsmappen-Export
 type: docs
 weight: 195
@@ -33,25 +33,25 @@ using System;
 using Aspose.Cells;
 using System.Drawing;
 string dataDir = "C:\\Temp\\";
-// Erstellen Sie eine neue Arbeitsmappe
+// Create a new Workbook
 Workbook workbook = new Workbook();
-// Erste Arbeitsblatt abrufen
+// Obtain the first worksheet
 Worksheet worksheet = workbook.Worksheets[0];
-// Spaltenbreiten festlegen
+// Set column widths
 worksheet.Cells.SetColumnWidth(0, 5);
 worksheet.Cells.SetColumnWidth(1, 35);
 worksheet.Cells.SetColumnWidth(2, 12);
 worksheet.Cells.SetColumnWidth(3, 15);
 worksheet.Cells.SetColumnWidth(4, 15);
 worksheet.Cells.SetColumnWidth(5, 5);
-// Firmenlogo einfügen
+// Insert company logo
 worksheet.Pictures.Add(1, 1, dataDir + "logo.png");
-// Firmenname und Kontaktdetails
+// Company name and contact details
 worksheet.Cells["B3"].PutValue("Acme Corporation");
 worksheet.Cells["B4"].PutValue("123 Business Street");
 worksheet.Cells["B5"].PutValue("City, State 12345");
 worksheet.Cells["B6"].PutValue("Phone: (555) 123-4567");
-// RECHNUNG Titel - Zellen zusammenführen
+// INVOICE title - merge cells
 worksheet.Cells.Merge(7, 1, 2, 4);
 Cell titleCell = worksheet.Cells["B8"];
 titleCell.PutValue("INVOICE");
@@ -60,17 +60,17 @@ titleStyle.Font.IsBold = true;
 titleStyle.Font.Size = 20;
 titleStyle.HorizontalAlignment = TextAlignmentType.Center;
 titleCell.SetStyle(titleStyle);
-// Rechnungsnummer und Datum
+// Invoice number and date
 worksheet.Cells["B11"].PutValue("Invoice Number:");
 worksheet.Cells["C11"].PutValue("INV-2024-001");
 worksheet.Cells["B12"].PutValue("Date:");
 worksheet.Cells["C12"].PutValue(DateTime.Now.ToString("yyyy-MM-dd"));
-// Rechnungsempfänger-Bereich
+// Bill-to section
 worksheet.Cells["B14"].PutValue("Bill To:");
 worksheet.Cells["B15"].PutValue("Client Name");
 worksheet.Cells["B16"].PutValue("Client Address");
 worksheet.Cells["B17"].PutValue("Client City, State");
-// Kopfzeile der Positionen
+// Line items header
 Cell headerDesc = worksheet.Cells["B19"];
 Cell headerQty = worksheet.Cells["C19"];
 Cell headerPrice = worksheet.Cells["D19"];
@@ -93,20 +93,20 @@ headerDesc.SetStyle(headerStyle);
 headerQty.SetStyle(headerStyle);
 headerPrice.SetStyle(headerStyle);
 headerTotal.SetStyle(headerStyle);
-// Währungsstil mit Rahmen
+// Currency style with borders
 Style currencyStyle = workbook.CreateStyle();
 currencyStyle.Custom = "\"$\"#,##0.00";
 currencyStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-// Einfacher Rahmenstil für Beschreibungs-/Mengenzellen
+// Plain border style for description/quantity cells
 Style borderStyle = workbook.CreateStyle();
 borderStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-// Positionszeilen
+// Line items rows
 object[,] lineItems = new object[,] {
     {"Product A - Widget", 2, 50.00},
     {"Product B - Gadget", 3, 75.00},
@@ -128,7 +128,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
     priceCell.SetStyle(currencyStyle);
     totalCell.SetStyle(currencyStyle);
 }
-// Zwischensumme, Steuer, Gesamtsumme
+// Subtotal, tax, grand total
 worksheet.Cells["B24"].PutValue("Subtotal:");
 Cell subtotalCell = worksheet.Cells["E24"];
 subtotalCell.Formula = "SUM(E21:E23)";
@@ -138,20 +138,20 @@ taxCell.Formula = "E24*0.1";
 worksheet.Cells["B26"].PutValue("Grand Total:");
 Cell grandTotalCell = worksheet.Cells["E26"];
 grandTotalCell.Formula = "E24+E25";
-// Fett + Währungsstil für Gesamtwerte
+// Bold + currency style for total values
 Style totalStyle = workbook.CreateStyle();
 totalStyle.Font.IsBold = true;
 totalStyle.Custom = "\"$\"#,##0.00";
 subtotalCell.SetStyle(totalStyle);
 taxCell.SetStyle(totalStyle);
 grandTotalCell.SetStyle(totalStyle);
-// Fettstil für Gesamtbeschriftungen
+// Bold style for total labels
 Style boldStyle = workbook.CreateStyle();
 boldStyle.Font.IsBold = true;
 worksheet.Cells["B24"].SetStyle(boldStyle);
 worksheet.Cells["B25"].SetStyle(boldStyle);
 worksheet.Cells["B26"].SetStyle(boldStyle);
-// Arbeitsmappe als OFD-Datei speichern
+// Save the workbook as an OFD file
 workbook.Save(dataDir + "Invoice.ofd", SaveFormat.Ofd);
 ```
 
@@ -162,41 +162,41 @@ Aspose.Cells kann auch eine vorhandene Excel-Arbeitsmappe von der Festplatte lad
 using System;
 using Aspose.Cells;
 string dataDir = "C:\\Examples\\";
-// Öffnen einer vorhandenen Excel-Arbeitsmappe von der Festplatte
+// Open an existing Excel workbook from disk
 Workbook workbook = new Workbook(dataDir + "SampleBook.xlsx");
-// (1) Werte aus ausgewählten Zellen lesen und anzeigen, um zu bestätigen, dass die Datei geladen wurde
+// (1) Read and display values from selected cells to confirm the file was loaded
 Worksheet firstSheet = workbook.Worksheets[0];
 Console.WriteLine("First sheet name: " + firstSheet.Name);
 Console.WriteLine("Cell A1: " + firstSheet.Cells["A1"].StringValue);
 Console.WriteLine("Cell B1: " + firstSheet.Cells["B1"].StringValue);
 Console.WriteLine("Cell C1: " + firstSheet.Cells["C1"].StringValue);
-// (2) Über die Worksheets-Sammlung iterieren, um verfügbare Blätter aufzulisten
+// (2) Iterate over the Worksheets collection to enumerate available sheets
 Console.WriteLine("\nAvailable worksheets:");
 for (int i = 0; i < workbook.Worksheets.Count; i++)
 {
     Worksheet ws = workbook.Worksheets[i];
     Console.WriteLine("  [" + i + "] " + ws.Name);
 }
-// (3) Optional eine Zeitstempelzelle aktualisieren, um die Konvertierung widerzuspiegeln
+// (3) Optionally update a timestamp cell to reflect the conversion
 firstSheet.Cells["A1"].PutValue("Converted on: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-// Eine Zusammenfassungs-Kopfzeile oben am Datenblock einfügen
+// Append a summary header row at the top of the data block
 firstSheet.Cells.InsertRow(0);
 firstSheet.Cells["A1"].PutValue("Conversion Summary");
 firstSheet.Cells["A2"].PutValue("Generated: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-// (4) PageSetup-Eigenschaften auf dem Arbeitsblatt konfigurieren
+// (4) Configure PageSetup properties on the worksheet
 PageSetup pageSetup = firstSheet.PageSetup;
 pageSetup.Orientation = PageOrientationType.Landscape;
 pageSetup.PaperSize = PaperSizeType.PaperA4;
 pageSetup.FitToPagesTall = 1;
 pageSetup.FitToPagesWide = 1;
-// (5) Optional den Druckbereich für die OFD-Ausgabe festlegen
+// (5) Optionally set the print area for the OFD output
 int lastRow = firstSheet.Cells.MaxDataRow;
 int lastCol = firstSheet.Cells.MaxDataColumn;
 string lastColLetter = CellsHelper.ColumnIndexToName(lastCol);
 string printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.PageSetup.PrintArea = printArea;
 Console.WriteLine("\nPrint area set to: " + printArea);
-// (6) Die Arbeitsmappe als OFD-Datei speichern
+// (6) Save the workbook as an OFD file
 workbook.Save(dataDir + "SampleBook.ofd", SaveFormat.Ofd);
 Console.WriteLine("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 ```

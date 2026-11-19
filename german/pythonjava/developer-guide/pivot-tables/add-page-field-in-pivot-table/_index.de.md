@@ -1,5 +1,5 @@
 ---
-title: Filterfelder zu einer PivotTable in Aspose.Cells für .NET hinzufügen
+title: Filterfelder zu einer PivotTable in Aspose.Cells for Python via Java hinzufügen
 description: Erfahren Sie, wie Sie Filterfelder in PivotTables mit Aspose.Cells for Python via Java hinzufügen und konfigurieren, einschließlich Hinzufügen von Filterfeldern, Einzel-Auswahl-Filterung und Mehrfach-Auswahl-Filterung.
 linktitle: Filterfelder hinzufügen
 keywords: Aspose.Cells, Python, Java, PivotTable, Filterfeld, PivotFieldType.PAGE, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, Filter
@@ -30,15 +30,15 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType
-# Erstellen einer neuen Arbeitsmappe
+# Create a new workbook
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("Data")
-# Kopfzeile einrichten
+# Set up the header row
 worksheet.getCells().get("A1").putValue("Fruit")
 worksheet.getCells().get("B1").putValue("Year")
 worksheet.getCells().get("C1").putValue("Amount")
-# 9 Zeilen Beispieldaten einfügen: Frucht, Jahr, Betrag
+# Populate 9 rows of sample data: Fruit, Year, Amount
 data = [
     ["apple", 2020, 100],
     ["banana", 2021, 200],
@@ -54,15 +54,15 @@ for i in range(len(data)):
     worksheet.getCells().get(i + 1, 0).putValue(data[i][0])
     worksheet.getCells().get(i + 1, 1).putValue(data[i][1])
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2])
-# Pivot-Tabelle hinzufügen, verankert an Zelle E3
+# Add a pivot table anchored at cell E3
 pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
-# Felder ihren Bereichen hinzufügen: Frucht als Zeile, Betrag als Daten, Jahr als Seitenfeld
+# Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
-# Pivot-Tabellen-Daten aktualisieren und berechnen
+# Refresh and calculate the pivot table data
 pivotTable.calculateData()
-# Arbeitsmappe speichern
+# Save the workbook
 workbook.save("pageFieldSample.xlsx")
 jpype.shutdownJVM()
 ```
@@ -75,19 +75,19 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotFieldType
-# — Die Pivot-Tabelle und das Seitenfeld werden genau wie in
-#   Szenario 1a (Obst/Jahr/Betrag-Daten, Pivot bei E3, Obst→Zeile,
-#   Betrag→Daten) erstellt. Unten rufen wir das Jahr-PivotField aus der
-#   BaseFields-Sammlung ab und übergeben es an PageFields.Add — die
-#   Low-Level-Alternative zu AddFieldToArea. Das Ergebnis ist
-#   funktional identisch mit Szenario 1a.
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data). Below we obtain the Year PivotField from the
+#   BaseFields collection and pass it to PageFields.Add — the
+#   low-level alternative to AddFieldToArea. The result is
+#   functionally identical to Scenario 1a.
 workbook = Workbook()
 sheet = workbook.getWorksheets().get(0)
-# Kopfzeilen
+# Headers
 sheet.getCells().get("A1").putValue("Fruit")
 sheet.getCells().get("B1").putValue("Year")
 sheet.getCells().get("C1").putValue("Amount")
-# Beispieldaten (9 Zeilen)
+# Sample data (9 rows)
 sheet.getCells().get("A2").putValue("apple");    sheet.getCells().get("B2").putValue("2020"); sheet.getCells().get("C2").putValue(100)
 sheet.getCells().get("A3").putValue("apple");    sheet.getCells().get("B3").putValue("2021"); sheet.getCells().get("C3").putValue(150)
 sheet.getCells().get("A4").putValue("apple");    sheet.getCells().get("B4").putValue("2022"); sheet.getCells().get("C4").putValue(200)
@@ -97,16 +97,16 @@ sheet.getCells().get("A7").putValue("grape");    sheet.getCells().get("B7").putV
 sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").putValue("2020"); sheet.getCells().get("C8").putValue(250)
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350)
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450)
-# Pivot-Tabelle bei E3 hinzufügen, die A1:C10 abdeckt
+# Add pivot table at E3 covering A1:C10
 pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4)
-# Obst -> Zeile, Betrag -> Daten (Jahr wird unten zur Seite hinzugefügt)
+# Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
-# Low-Level-Ansatz: das vorhandene Jahr-PivotField aus BaseFields holen
-# und im Seitenbereich über PageFields.Add(PivotField) registrieren.
+# Low-level approach: grab the existing Year PivotField from BaseFields
+# and register it in the Page area via PageFields.Add(PivotField).
 yearField = pivotTable.getBaseFields().get("Year")
 pivotTable.getPageFields().add(yearField)
-# Aktualisieren, damit das neue Seitenfeld in der gespeicherten Arbeitsmappe widergespiegelt wird
+# Refresh so the new page field is reflected in the saved workbook
 pivotTable.calculateData()
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
@@ -123,10 +123,10 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
-# Erstellen Sie eine neue Arbeitsmappe
+# Create a new workbook
 workbook = Workbook()
 sheet = workbook.getWorksheets().get(0)
-# Daten für Fruit/Year/Amount einfügen
+# Populate Fruit/Year/Amount data
 sheet.getCells().get("A1").putValue("Fruit")
 sheet.getCells().get("B1").putValue("Year")
 sheet.getCells().get("C1").putValue("Amount")
@@ -141,17 +141,17 @@ data = [
 for r in range(len(data)):
     for c in range(len(data[r])):
         sheet.getCells().get(r + 1, c).putValue(data[r][c])
-# Pivot-Tabelle bei E3 erstellen
+# Create pivot table at E3
 pivotTables = sheet.getPivotTables()
 pivotTable = pivotTables.add("=A1:C7", 2, 4)
-# Pivot-Felder konfigurieren: Fruit→Zeile, Amount→Daten, Year→Seite
+# Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
 pivotTable.calculateData()
-# Den Seitenfilter löschen, damit jeder Eintrag im Seitenfeld sichtbar ist.
-# 0x7FFD (dezimal 32765) ist der spezielle Sentinel-Wert, der „alle Einträge" bedeutet —
-# entspricht der Auswahl von „(Alle)" im Dropdown-Menü des Seitenfelds in Excel.
+# Clear the page filter so every item in the page field is visible.
+# 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+# equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivotTable.getPageFields().get(0).setCurrentPageItem(0x7FFD)
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
@@ -211,14 +211,14 @@ jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotFieldType
 import os
 import re
-# — Die Pivot-Tabelle und das Seitenfeld werden genau wie in
-#   Szenario 1a (Frucht/Jahr/Betrag-Daten, Pivot bei E3, Frucht→Zeile,
-#   Betrag→Daten, Jahr→Seite über AddFieldToArea) erstellt.
-#   Unten wenden wir die Mehrfachauswahl-Filterung auf das Seitenfeld an.
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data, Year→Page via AddFieldToArea).
+#   Below we apply multi-select filtering on the page field.
 workbook = Workbook()
 sheet = workbook.getWorksheets().get(0)
 cells = sheet.getCells()
-# Beispieldaten: Frucht | Jahr | Betrag
+# Sample data: Fruit | Year | Amount
 cells.get(0, 0).putValue("Fruit")
 cells.get(0, 1).putValue("Year")
 cells.get(0, 2).putValue("Amount")
@@ -243,13 +243,13 @@ pivotTable = pivots.add("A1:C10", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year")
-# — Mehrfachauswahl auf dem Seitenfeld aktivieren
+# — Enable multi-select on the page field
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(True)
-# Teil A — ALLE Elemente auswählen (jedes Element sichtbar machen)
+# Part A — select ALL items (make every item visible)
 pivotItems = pivotTable.getPageFields().get(0).getPivotItems()
 for i in range(pivotItems.getCount()):
     pivotItems.get(i).setHidden(False)
-# Teil B — nur bestimmte Elemente nach Quellwert auswählen
+# Part B — select only specific items by source value
 for i in range(pivotItems.getCount()):
     value = pivotItems.get(i).getStringValue()
     if value == "2020" or value == "grape" or value == "blueberry":

@@ -72,24 +72,24 @@ inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
 if not os.path.exists(inputPath):
     raise FileNotFoundError(f"Source workbook not found: {inputPath}")
-# 加载包含数据透视表的现有工作簿
+# Load the existing workbook that contains the pivot table
 workbook = Workbook(inputPath)
-# 通过索引访问包含数据透视表的工作表
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.getWorksheets().get(0)
-# 通过索引访问数据透视表
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# 从行区域检索日期透视字段
-# (日期筛选仅在行/列区域仅包含日期时间单元格或空白时有效)
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 dateField = pivotTable.getRowFields().get(0)
-# 为 Between 筛选定义日期条件
+# Define the date criterion for the Between filter
 Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
-# 在透视字段上应用日期筛选
+# Apply the date filter on the pivot field
 dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
-# 刷新并重新计算数据透视表以使筛选生效
+# Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# 保存工作簿
+# Persist the workbook
 workbook.save(outputPath)
 jpype.shutdownJVM()
 ```
@@ -109,7 +109,7 @@ worksheet = workbook.getWorksheets().get(0)
 pivotTable = worksheet.getPivotTables().get(0)
 rowField = pivotTable.getRowFields().get(0)
 dataField = pivotTable.getDataFields().get(0)
-# 由于 PivotFieldCollection 没有 IndexOf 方法，所以手动查找数据字段索引
+# Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 dataFieldIndex = -1
 for i in range(pivotTable.getDataFields().getCount()):
     if pivotTable.getDataFields().get(i) == dataField:
@@ -136,31 +136,31 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
-# 加载包含数据透视表的现有工作簿
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = Workbook(inputPath)
-# 访问包含数据透视表的工作表（索引 0）
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.getWorksheets().get(0)
-# 按索引访问数据透视表
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# 确认数据区域中至少有一个值 PivotField
+# Confirm there is at least one value PivotField in the data area
 if pivotTable.getDataFields().getCount() == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.getDataFields().get(0)
-# 检索目标行 PivotField（要对其应用前 10 筛选的字段）
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.getRowFields().get(0)
-# 第一个（也是唯一的）数据字段位于索引 0；前 10 按它进行排名。
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# 对行字段应用前 10 筛选：
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true（前 N；false 表示后 N）
-#   - valueFieldIndex = 用于对项进行排名的数据字段的索引
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, True, 10)
-# 刷新数据透视表数据并重新计算，以使筛选生效
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# 保存工作簿
+# Save the workbook
 workbook.save(outputPath)
 jpype.shutdownJVM()
 ```
@@ -174,28 +174,28 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
-# 加载包含数据透视表的现有工作簿
+# Load an existing workbook containing a pivot table
 workbook = Workbook("pivot_table_sample.xlsx")
-# 访问包含数据透视表的第一个工作表
+# Access the first worksheet which contains the pivot table
 sheet = workbook.getWorksheets().get(0)
-# 按索引访问数据透视表（工作表上的第一个数据透视表）
+# Access the pivot table by index (the first pivot table on the sheet)
 pivotTable = sheet.getPivotTables().get(0)
-# 获取目标 PivotField（我们要隐藏/显示其中项的第一个行标签字段）
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivotField = pivotTable.getRowFields().get(0)
-# 遍历所选 PivotField 的 PivotItems 集合
+# Iterate through the PivotItems collection of the selected PivotField
 itemCount = pivotField.getPivotItems().getCount()
 for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
-    # 隐藏符合特定名称/条件的数据透视项
+    # Hide pivot items that match a specific name/criterion
     if item.getName() == "Item1" or item.getName() == "Item2":
         item.setHidden(True)
-    # 演示取消隐藏：重新显示之前隐藏的数据透视项
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.getName() == "Item3":
         item.setHidden(False)
-# 刷新并重新计算数据透视表以使更改生效
+# Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh()
-# 保存工作簿 — 隐藏的项保留在底层数据中
-# 但从显示的数据透视表输出中排除
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 jpype.shutdownJVM()
 ```

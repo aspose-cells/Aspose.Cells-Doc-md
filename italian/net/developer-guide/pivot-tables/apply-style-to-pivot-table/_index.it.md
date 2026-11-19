@@ -32,16 +32,16 @@ L'esempio seguente carica una nuova cartella di lavoro, popola i dati di esempio
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Scenario 1: Applica un formato automatico preimpostato XLS legacy
-// API in uso: PivotTable.AutoFormatType
-// Formato file di destinazione: .xls (legacy)
-// Per esempi completi e file di dati, visitare https://github.com/aspose-cells/Aspose.Cells-for-.NET
-// Crea una nuova cartella di lavoro
+// Scenario 1: Apply a legacy XLS preset autoformat
+// API in use: PivotTable.AutoFormatType
+// Target file format: .xls (legacy)
+// For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Ottieni il primo foglio di lavoro
+// Get the first worksheet
 Worksheet sheet = workbook.Worksheets[0];
-// Popola i dati di origine con la riga di intestazione (Fruit, Year, Amount)
-// e 9 righe di dati che coprono grape, blueberry, kiwi, cherry negli anni 2020 e 2021
+// Populate the source data with header row (Fruit, Year, Amount)
+// and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.Cells[0, 0].PutValue("Fruit");
 sheet.Cells[0, 1].PutValue("Year");
 sheet.Cells[0, 2].PutValue("Amount");
@@ -72,17 +72,17 @@ sheet.Cells[8, 2].PutValue(45);
 sheet.Cells[9, 0].PutValue("grape");
 sheet.Cells[9, 1].PutValue(2020);
 sheet.Cells[9, 2].PutValue(45);
-// Aggiungi una tabella pivot nella cella di destinazione E3, denominata, usando l'intervallo di origine A1:C10
+// Add a pivot table at destination cell E3, using source range A1:C10
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
-// Assegna i campi: Fruit -> Righe, Amount -> Dati
+// Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Applica il formato automatico preimpostato XLS legacy "Report5"
-// Nota: questa proprietà ha significato solo quando si salva come .xls.
-// Quando si salva come .xlsx/.xlsm/.xlsb, Excel ignora AutoFormatType
-// e usa ciò che specifica PivotTableStyleType / PivotTableStyleName.
+// Apply the legacy XLS preset autoformat "Report5"
+// Note: This property is only meaningful when saving as .xls.
+// When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+// and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivotTable.AutoFormatType = PivotTableAutoFormatType.Report5;
-// Salva la cartella di lavoro nel formato .xls legacy
+// Save the workbook in legacy .xls format
 workbook.Save("output.xls");
 ```
 
@@ -100,17 +100,17 @@ Questo scenario riutilizza il set di dati Fruit/Year/Amount dello Scenario 1, ag
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Scenario 2: applica uno stile predefinito moderno di Excel 2007+ con nome tramite PivotTableStyleType.
-// Formato del file di destinazione: .xlsx. L'enumerazione PivotTableStyleType si trova nello spazio dei nomi Aspose.Cells
-// (non in Aspose.Cells.Pivot) -- ecco perché non è necessario alcun using aggiuntivo.
-// Riferimento GitHub: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+// Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+// Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+// (not in Aspose.Cells.Pivot) -- that is why we do not need any extra using for it.
+// GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Riga di intestazione: Fruit / Year / Amount
+// Header row: Fruit / Year / Amount
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// 9 righe di dati contenenti Fruit / Year / Amount
+// 9 data rows of Fruit / Year / Amount
 worksheet.Cells["A2"].PutValue("Grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(100);
@@ -138,19 +138,19 @@ worksheet.Cells["C9"].PutValue(190);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(130);
-// Aggiungi una tabella pivot in E3 denominata, con dati di origine A1:C10
+// Add a pivot table at E3, sourced from A1:C10
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
-// Assegna i campi pivot: Fruit -> area Row, Year -> area Column, Amount -> area Data
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Applica uno stile pivot predefinito moderno di Excel 2007+ con nome.
-// PivotTableStyleType è l'API corretta per i file .xlsx / .xlsm / .xlsb; l'opzione AutoFormatType
-// viene ignorata da Excel per questi formati. PivotTableStyleDark1 appartiene alla famiglia del tema
-// scuro (PivotTableStyleDark1..PivotTableStyleDark28), e la stessa enumerazione espone anche
-// i temi chiaro/scuro più recenti di Excel 2017 (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
 pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
-// Salva come .xlsx moderno -- è il formato per cui PivotTableStyleType è valido.
+// Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
 workbook.Save("output.xlsx");
 ```
 
@@ -174,7 +174,7 @@ using System.Drawing;
 using Aspose.Cells.Tables;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Popola i dati di origine: riga di intestazione + 9 righe di dati (A1:C10)
+// Populate source data: header row + 9 data rows (A1:C10)
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
@@ -205,15 +205,15 @@ worksheet.Cells["C9"].PutValue(800);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(900);
-// Aggiungi tabella pivot con origine da A1:C10, ancorata in E3, denominata
+// Add pivot table sourced from A1:C10, anchored at E3
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Passaggio 1: registra un nuovo stile personalizzato della tabella pivot e cattura il suo indice
+// Step 1: register a new custom pivot table style and capture its index
 int styleIndex = workbook.Worksheets.TableStyles.AddPivotTableStyle("CustomPivotStyle");
 TableStyle tableStyle = workbook.Worksheets.TableStyles[styleIndex];
-// Passaggio 2: aggiungi un elemento WholeTable e applica bordi neri sottili su tutti e quattro i lati
+// Step 2: add a WholeTable element and apply thin black borders on all four sides
 int wholeTableElementIndex = tableStyle.TableStyleElements.Add(TableStyleElementType.WholeTable);
 TableStyleElement wholeTableElement = tableStyle.TableStyleElements[wholeTableElementIndex];
 Style wholeTableStyle = workbook.CreateStyle();
@@ -226,14 +226,14 @@ wholeTableStyle.Borders[BorderType.LeftBorder].Color = Color.Black;
 wholeTableStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
 wholeTableStyle.Borders[BorderType.RightBorder].Color = Color.Black;
 wholeTableElement.SetElementStyle(wholeTableStyle);
-// Passaggio 3: aggiungi un elemento GrandTotalRow e applica un font rosso in grassetto
+// Step 3: add a GrandTotalRow element and apply bold red font
 int grandTotalElementIndex = tableStyle.TableStyleElements.Add(TableStyleElementType.GrandTotalRow);
 TableStyleElement grandTotalElement = tableStyle.TableStyleElements[grandTotalElementIndex];
 Style grandTotalStyle = workbook.CreateStyle();
 grandTotalStyle.Font.IsBold = true;
 grandTotalStyle.Font.Color = Color.Red;
 grandTotalElement.SetElementStyle(grandTotalStyle);
-// Passaggio 4: applica lo stile personalizzato per nome (NON tramite PivotTableStyleType, che è per i preset predefiniti)
+// Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivotTable.PivotTableStyleName = "CustomPivotStyle";
 workbook.Save("output.xlsx");
 ```
@@ -252,13 +252,13 @@ using System.Drawing;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Scenario 4: Applica un singolo stile a ogni cella della tabella pivot utilizzando FormatAll
-// API in uso: PivotTable.FormatAll(Style)
-// Formato di destinazione: .xlsx
-// Riferimento GitHub: vedi il repository Aspose.Cells-for-.NET — esempi di stile delle tabelle pivot
+// Scenario 4: Apply a single Style to every pivot table cell using FormatAll
+// API in use: PivotTable.FormatAll(Style)
+// Target format: .xlsx
+// GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Popola i dati di origine: riga di intestazione (riga 1) + 9 righe di dati (righe 2-10)
+// Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
@@ -289,13 +289,13 @@ worksheet.Cells["C9"].PutValue(2500);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(5500);
-// Aggiungi tabella pivot: intervallo di origine A1:C10, cella di destinazione E3, nome
+// Add pivot table: source range A1:C10, destination cell E3
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
-// Assegna campi pivot: Frutta -> area Riga, Anno -> area Colonna, Importo -> area Dati
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Crea uno stile che verrà applicato forzatamente a ogni cella della tabella pivot
+// Build a Style that will be forced onto every cell of the pivot table
 Style style = workbook.CreateStyle();
 style.ForegroundColor = Color.Yellow;
 style.Pattern = BackgroundType.Solid;
@@ -309,10 +309,10 @@ style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
 style.Borders[BorderType.LeftBorder].Color = Color.Black;
 style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
 style.Borders[BorderType.RightBorder].Color = Color.Black;
-// Applica FormatAll: forza questo singolo stile su ogni cella della tabella pivot,
-// sovrascrivendo qualsiasi PivotTableStyleType / PivotTableStyleName precedentemente impostato
+// Apply FormatAll: forces this single style onto every cell of the pivot table,
+// overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivotTable.FormatAll(style);
-// Salva la cartella di lavoro nel formato .xlsx moderno
+// Save the workbook in the modern .xlsx format
 workbook.Save("output.xlsx");
 ```
 

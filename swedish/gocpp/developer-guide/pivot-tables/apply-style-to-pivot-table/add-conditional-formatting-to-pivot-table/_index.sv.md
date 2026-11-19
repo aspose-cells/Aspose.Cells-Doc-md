@@ -53,18 +53,18 @@ func main() {
 		amountCell, _ := cells.Get_Int_Int(int32(i+1), int32(2))
 		amountCell.PutValue_Int(amounts[i])
 	}
-	// Pivottabell med dess övre vänstra hörn på E3
+	// Pivot table with its top-left corner at E3
 	pivotTables, _ := sheet.GetPivotTables()
 	pivotTable, _ := pivotTables.Add_String_Int_Int("=A1:C7", int32(2), int32(4))
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Row, "Fruit")
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Data, "Amount")
 	pivotTable.CalculateData()
-	// Fäst det villkorsstyrda formatet på F4 (rad 3, kolumn 5) med Data‑omfånget
+	// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 	conditionalFormats, _ := pivotTable.GetConditionalFormats()
 	index, _ := conditionalFormats.Add()
 	format, _ := conditionalFormats.Get(index)
 	format.ApplyTo(int32(3), int32(5), PivotConditionFormatScopeType_Data)
-	// Regel – markera belopp större än 200
+	// Rule - highlight amounts greater than 200
 	formatConditions, _ := format.GetFormatConditions()
 	conditionIndex, _ := formatConditions.AddCondition_FormatConditionType_OperatorType_String_String(
 		FormatConditionType_CellValue,
@@ -125,7 +125,7 @@ func main() {
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Row, "Fruit")
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Data, "Amount")
 	pivotTable.CalculateData()
-	// Måla rektangeln F4:F6 (värdecellerna utan totalen)
+	// Target the rectangle F4:F6 (the value cells without the grand total)
 	conditionalFormats, _ := pivotTable.GetConditionalFormats()
 	index, _ := conditionalFormats.Add()
 	format, _ := conditionalFormats.Get(index)
@@ -135,7 +135,7 @@ func main() {
 	area.Set_StartColumn(5)
 	area.Set_EndColumn(5)
 	format.AddCellArea(area)
-	// Regel – kursiv på ljusgul för belopp mellan 150 och 300
+	// Rule - italic on light yellow for amounts between 150 and 300
 	formatConditions, _ := format.GetFormatConditions()
 	conditionIndex, _ := formatConditions.AddCondition_FormatConditionType_OperatorType_String_String(
 		FormatConditionType_CellValue,
@@ -164,25 +164,25 @@ import (
 	. "github.com/aspose-cells/aspose-cells-go-cpp/v26"
 )
 func main() {
-	// Skapa en ny arbetsbok
+	// Create a new workbook
 	workbook, _ := NewWorkbook()
-	// Hämta det första kalkylbladet
+	// Get the first worksheet
 	worksheets, _ := workbook.GetWorksheets()
 	sheet, _ := worksheets.Get_Int(0)
-	// Hämta cellsamlingen
+	// Get the cells collection
 	cells, _ := sheet.GetCells()
-	// Dataarrayer
+	// Data arrays
 	fruits := []string{"Apple", "Banana", "Apple", "Banana", "Cherry", "Cherry"}
 	years := []int32{2024, 2024, 2025, 2025, 2024, 2025}
 	amounts := []int32{100, 150, 120, 180, 90, 110}
-	// Skriv rubriker
+	// Write headers
 	cellA1, _ := cells.Get_String("A1")
 	cellA1.PutValue_String("Fruit")
 	cellB1, _ := cells.Get_String("B1")
 	cellB1.PutValue_String("Year")
 	cellC1, _ := cells.Get_String("C1")
 	cellC1.PutValue_String("Amount")
-	// Skriv datarader
+	// Write data rows
 	for i := 0; i < len(fruits); i++ {
 		row := int32(i + 1)
 		c0, _ := cells.Get_Int_Int(row, 0)
@@ -192,39 +192,39 @@ func main() {
 		c2, _ := cells.Get_Int_Int(row, 2)
 		c2.PutValue_Int(amounts[i])
 	}
-	// Skapa pivottabell
+	// Create pivot table
 	pivotTables, _ := sheet.GetPivotTables()
 	pivotTable, _ := pivotTables.Add_String_Int_Int("=A1:C7", int32(2), int32(4))
-	// Lägg till fält i pivottabellen
+	// Add fields to the pivot
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Row, "Fruit")
 	pivotTable.AddFieldToArea_PivotFieldType_String(PivotFieldType_Data, "Amount")
 	pivotTable.CalculateData()
-	// Fäst villkorsformat på Amount‑datafältet
+	// Attach conditional format to the Amount data field
 	conditionalFormats, _ := pivotTable.GetConditionalFormats()
 	cfIdx, _ := conditionalFormats.Add()
 	condFormat, _ := conditionalFormats.Get(cfIdx)
-	// Definiera pivotområdet som täcker Amount‑datafältet
+	// Define the pivot area covering the Amount data field
 	area, _ := NewPivotArea(pivotTable)
 	area.SelectField_PivotFieldType_String(PivotFieldType_Data, "Amount")
 	pivotAreas, _ := condFormat.GetPivotAreas()
 	pivotAreas.AddPivotArea(area)
-	// Lägg till ett villkor: grå text för mängder under 150
+	// Add a condition: grey text for amounts below 150
 	formatConds, _ := condFormat.GetFormatConditions()
 	condIdx, _ := formatConds.AddCondition_FormatConditionType_OperatorType_String_String(
 		FormatConditionType_CellValue,
 		OperatorType_LessThan,
 		"150",
-		"", // null andra formeln
+		"", // null second formula
 	)
-	// Skapa stil med grå teckensnittsfärg
+	// Create style with grey font color
 	style, _ := workbook.CreateStyle()
 	font, _ := style.GetFont()
 	grayColor, _ := Color_Gray()
 	font.SetColor(grayColor)
-	// Tillämpa stil på villkoret
+	// Apply style to the condition
 	cond, _ := formatConds.Get(condIdx)
 	cond.SetStyle(style)
-	// Spara arbetsboken
+	// Save the workbook
 	_ = workbook.Save_String("PivotConditionalFormatPivotArea.xlsx")
 	fmt.Println("Workbook saved.")
 }
@@ -277,10 +277,10 @@ func main() {
 				startRow+1, endRow+1, startColumn+1, endColumn+1)
 		}
 	}
-	// Detta skriver ut:
-	// Villkorsformat: 1
+	// This prints:
+	// Conditional formats: 1
 	// Format 0: CellValue GreaterThan formula1==200
-	//     rader 4-7, kolumner 6-6        (F4:F7, det avklarade dataintervallet)
+	//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 }
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Node.js via Java'da Değer Alanları
 description: Aspose.Cells for Node.js via Java'da bir pivot tablosunun veri bölgesine temel alanların nasıl ekleneceğini, PivotField.Function ile özetleme işlevinin nasıl değiştirileceğini ve değer alanının Satır veya Sütun eksenine nasıl yerleştirileceğini öğrenin.
-linktitle: Aspose.Cells for Node.js via Java'da Değer Alanları
+linktitle: Değer Alanları
 keywords: Aspose.Cells, Node.js via Java, pivot tablosu, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Toplam, Ortalama
 type: docs
 weight: 230

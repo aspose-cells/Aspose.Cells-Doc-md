@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for .Net 中的 Excel 照相机
-linktitle: Aspose.Cells for .Net 中的 Excel 照相机
+linktitle: Excel 相机
 description: 了解如何使用 Aspose.Cells for .Net 中的 Excel 照相机创建链接到单元格区域的动态图片，该图片会随源数据变化而刷新，并保留源区域的所有格式。
 keywords: Aspose.Cells, .NET, Excel 照相机, 动态图片, 链接图片, Picture.Formula, UpdateSelectedValue, CreateRange, ToImage, MemoryStream
 type: docs
@@ -37,7 +37,7 @@ using Aspose.Cells.Drawing;
 var workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Name = "CameraDemo";
-// 动态相机：添加一张空图片，通过公式将其链接到 A1:F10，然后刷新
+// Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 var pictures = worksheet.Pictures;
 int index = pictures.Add(10, 6, (Stream)null);
 pictures[0].Formula = "A1:F10";
@@ -63,7 +63,7 @@ using Aspose.Cells.Drawing;
 var workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Name = "CameraDemo";
-// 静态相机：构建范围，渲染为字节，包装在 MemoryStream 中，然后添加为图片
+// Static Camera: build Range, render to bytes, wrap in MemoryStream, add as picture
 var range = workbook.Worksheets[0].Cells.CreateRange("A1:F10");
 var pictures = worksheet.Pictures;
 pictures.Add(10, 6, new MemoryStream(range.ToImage(null)));

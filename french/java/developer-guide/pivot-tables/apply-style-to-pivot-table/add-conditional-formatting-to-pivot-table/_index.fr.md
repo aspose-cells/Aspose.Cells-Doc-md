@@ -44,16 +44,16 @@ for (int i = 0; i < fruits.length; i++)
     cells.get(i + 1, 1).putValue(years[i]);
     cells.get(i + 1, 2).putValue(amounts[i]);
 }
-// Tableau croisé dynamique avec son coin supérieur gauche en E3
+// Pivot table with its top-left corner at E3
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C7", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Ancrer le format conditionnel à F4 (ligne 3, colonne 5) avec la portée Data
+// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 int index = pivotTable.getConditionalFormats().add();
 PivotConditionalFormat format = pivotTable.getConditionalFormats().get(index);
 format.applyTo(3, 5, PivotConditionFormatScopeType.DATA);
-// Règle - mettre en surbrillance les montants supérieurs à 200
+// Rule - highlight amounts greater than 200
 int conditionIndex = format.getFormatConditions().addCondition(
         FormatConditionType.CELL_VALUE, OperatorType.GREATER_THAN, "200", null);
 Style style = workbook.createStyle();
@@ -94,7 +94,7 @@ PivotTable pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Cibler le rectangle F4:F6 (les cellules de valeur sans le total général)
+// Target the rectangle F4:F6 (the value cells without the grand total)
 int index = pivotTable.getConditionalFormats().add();
 PivotConditionalFormat format = pivotTable.getConditionalFormats().get(index);
 CellArea cellArea = new CellArea();
@@ -103,7 +103,7 @@ cellArea.StartColumn = 5;
 cellArea.EndRow = 5;
 cellArea.EndColumn = 5;
 format.addCellArea(cellArea);
-// Règle - italique sur jaune clair pour les montants entre 150 et 300
+// Rule - italic on light yellow for amounts between 150 and 300
 int conditionIndex = format.getFormatConditions().addCondition(
     FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "150", "300");
 Style style = workbook.createStyle();
@@ -138,13 +138,13 @@ PivotTable pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Attacher la règle au champ de données Amount en tant que région sémantique
+// Attach the rule to the Amount data field as a semantic region
 int index = pivotTable.getConditionalFormats().add();
 PivotConditionalFormat format = pivotTable.getConditionalFormats().get(index);
 PivotArea area = new PivotArea(pivotTable);
 area.selectField(PivotFieldType.DATA, "Amount");
 format.getPivotAreas().addPivotArea(area);
-// Règle - texte gris pour les montants inférieurs à 150
+// Rule - grey text for amounts below 150
 int conditionIndex = format.getFormatConditions().addCondition(
         FormatConditionType.CELL_VALUE, OperatorType.LESS_THAN, "150", null);
 Style style = workbook.createStyle();
@@ -175,10 +175,10 @@ for (int i = 0; i < pivotTable.getConditionalFormats().getCount(); i++)
                 + ", columns " + (area.StartColumn + 1) + "-" + (area.EndColumn + 1));
     }
 }
-// Ceci imprime :
-// Formats conditionnels : 1
-// Format 0 : CellValue GreaterThan formula1==200
-//     lignes 4-7, colonnes 6-6 (F4:F7, la région de données résolue)
+// This prints:
+// Conditional formats: 1
+// Format 0: CellValue GreaterThan formula1==200
+//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **Articles associés**

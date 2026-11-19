@@ -1,8 +1,8 @@
 ---
-title: 在 Aspose.Cells for Python via .NET 中管理数据透视表的值字段
-description: 了解如何在 Aspose.Cells for Python via .NET 中向数据透视表的数据区域添加基础字段，使用 PivotField.function 更改汇总函数，以及将值字段绘制到行或列轴上。
+title: 在 Aspose.Cells for Python via .NET 中管理数据透视表值字段
 linktitle: 值字段
-keywords: Aspose.Cells, Python via .NET, 数据透视表, 值字段, PivotField, PivotField.function, 数据字段, PivotTable.values_field, Sum, Average
+description: 学习如何向数据透视表的值区域添加基础字段，使用 PivotField.function 更改汇总函数，以及将值字段绘制到行或列轴，适用于 Aspose.Cells for Python via .NET。
+keywords: Aspose.Cells, Python via .NET, 数据透视表, 值字段, PivotField, PivotField.function, 数据字段, PivotTable.values_field, 求和, 平均值
 type: docs
 weight: 230
 url: /zh/python-net/manage-value-fields/
@@ -10,13 +10,12 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## Adding a Field to the Data Region
-Adding a base field to the data (value) region is the first step in shaping how a pivot table aggregates your source data. Aspose.Cells exposes `PivotTable.add_field_to_area(PivotFieldType, str)`, an overload that accepts the constant `PivotFieldType.DATA` and the source-column name. Once a field is added to the data region, the API exposes it through the `PivotTable.data_fields` collection, in the order in which the fields were added. By default, a numeric source column is summarised with `ConsolidationFunction.SUM`, while a non-numeric column defaults to `Count`.
+## 将字段添加到数据区域
+将基础字段添加到数据（值）区域是定义数据透视表如何汇总源数据的第一步。Aspose.Cells 提供 `PivotTable.AddFieldToArea(PivotFieldType, string)` 重载，接受常量 `PivotFieldType.DATA` 和源列名称。字段一旦添加到数据区域，API 会通过 `PivotTable.DataFields` 集合公开该字段，顺序与添加时相同。默认情况下，数值类型的源列使用 `Sum` 进行汇总，而非数值列默认使用 `Count`。
 
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -41,17 +40,15 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field)
 pivot_table.calculate_data()
-workbook.save("output_plot.xlsx")
+workbook.save("output_drag.xlsx")
 ```
 
-## Changing the Summary Function
+## 更改汇总函数
+当字段位于数据区域后，Aspose.Cells 通过 `PivotTable.DataFields` 上的 `PivotField` 对象公开它。每个 `PivotField` 都具有可写的 `Function` 属性，类型为 `ConsolidationFunction`，用于控制对该字段底层数值的聚合方式。`ConsolidationFunction` 是一个枚举，成员包括 `Sum`、`Count`、`Average`、`Max`、`Min`、`Product`、`StdDev`、`StdDevp`、`Var` 和 `Varp`——前六个覆盖了大多数实际使用场景，后四个是用于方差分析的统计聚合。
 
 {{% alert color="primary" %}}
-Changing `function` only affects the aggregate, the source column does not change.
+更改 `Function` 只会影响聚合方式；源列以及数据透视表的行/列结构不会被修改。要为已有的数据字段切换聚合方式，请设置 `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;`，然后调用 `pivotTable.calculate_data()` 重新呈现数据透视表。
 {{% /alert %}}
 
 ```python
@@ -88,16 +85,17 @@ pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
 
-## Plotting Value Fields to Row or Column Axis
-When a pivot table contains two or more data fields, Aspose.Cells exposes an additional virtual field called `PivotTable.values_field`. This virtual field represents the aggregate of every data field that lives in the data region. You can drag it into the Row or Column region as a base pivot field, which is useful for laying out multiple measures side by side.
+## 将值字段绘制到行或列轴
+当数据透视表包含两个或以上的数据字段时，Aspose.Cells 会公开一个名为 `PivotTable.ValuesField` 的额外虚拟字段。该虚拟字段表示位于数据区域的所有数据字段的聚合结果。您可以将其拖动到行或列区域作为基础数据透视字段，这在并排布局多个度量值时非常有用。
 
 {{% alert color="primary" %}}
-`PivotTable.values_field` does not work if there is no or only one value field.
+`PivotTable.ValuesField` 在没有值字段或仅有一个值字段时不可用。
 {{% /alert %}}
 
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -122,8 +120,11 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field)
 pivot_table.calculate_data()
-workbook.save("output_drag.xlsx")
+workbook.save("output_plot.xlsx")
 ```
 
 {{< app/cells/assistant language="python-net" >}}

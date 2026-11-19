@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Python via Java'da Değer Alanları
 description: Aspose.Cells for Python via Java'da bir pivot tablonun veri bölgesine temel alanların nasıl ekleneceğini, PivotField.Function ile özet fonksiyonunun nasıl değiştirileceğini ve değer alanının Satır veya Sütun eksenine nasıl yerleştirileceğini öğrenin.
-linktitle: Aspose.Cells for Python via Java'da Değer Alanları
+linktitle: Değer Alanları
 keywords: Aspose.Cells, Python via Java, pivot tablosu, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Toplam, Ortalama
 type: docs
 weight: 230

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for JavaScript via C++ ile Özet Tablolara Stilleri Uygulama
-linktitle: Aspose.Cells for JavaScript via C++ ile Özet Tablolara Stilleri Uygulama
+linktitle: Pivot Tablo Stillerini Uygula
 description: Aspose.Cells for JavaScript via C++ ile özet tablolara yerleşik ve özel stillerin nasıl uygulanacağını öğrenin; eski XLS otomatik biçimlendirmelerini, Excel 2007 ve sonrası için modern adlandırılmış stilleri, özel özet tablo stillerini ve FormatAll kısayolunu ele alın.
 keywords: Aspose.Cells for JavaScript via C++ özet tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
 type: docs
@@ -147,18 +147,18 @@ Bu senaryo, birinci senaryodaki Fruit/Year/Amount veri kümesini yeniden kullan�
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Senaryo 2: PivotTableStyleType kullanarak modern bir Excel 2007+ adlandırılmış hazır stili uygula.
-            // Hedef dosya biçimi: .xlsx. PivotTableStyleType enum'u Aspose.Cells ad alanında bulunur
-            // (Aspose.Cells.Pivot içinde değil) -- bu nedenle herhangi bir ek using deyimine gerek yoktur.
-            // GitHub referansı: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+            // Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+            // Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+            // (not in Aspose.Cells.Pivot) -- that is why we do not need any extra using for it.
+            // GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Başlık satırı: Meyve / Yıl / Tutar
+            // Header row: Fruit / Year / Amount
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // 9 veri satırı: Meyve / Yıl / Tutar
+            // 9 data rows of Fruit / Year / Amount
             cells.get("A2").value = "Grape";
             cells.get("B2").value = 2020;
             cells.get("C2").value = 100;
@@ -186,19 +186,19 @@ Bu senaryo, birinci senaryodaki Fruit/Year/Amount veri kümesini yeniden kullan�
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
-            // E3 konumuna, A1:C10 kaynağından bir pivot tablo ekle
+            // Add a pivot table at E3, sourced from A1:C10
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // Pivot alanlarını ata: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Modern bir Excel 2007+ adlandırılmış hazır pivot stili uygula.
-            // PivotTableStyleType, .xlsx / .xlsm / .xlsb dosyaları için doğru API'dir; AutoFormatType
-            // Excel tarafından bu biçimler için yok sayılır. PivotTableStyleDark1, koyu tema ailesine aittir
-            // (PivotTableStyleDark1..PivotTableStyleDark28) ve aynı enum daha yeni Excel 2017 açık/koyu
-            // temalarını da sunar (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+            // Apply a modern Excel 2007+ named preset pivot style.
+            // PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+            // is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+            // family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+            // newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
             pivotTable.pivotTableStyleType = AsposeCells.PivotTableStyleType.PivotTableStyleDark1;
-            // Modern .xlsx olarak kaydet -- PivotTableStyleType'in anlamlı olduğu biçim budur.
+            // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -250,7 +250,7 @@ Aşağıdaki örnek, `WholeTable` üzerinde ince siyah kenarlık ve `GrandTotalR
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Kaynak verileri doldur: başlık satırı + 9 veri satırı (A1:C10)
+            // Populate source data: header row + 9 data rows (A1:C10)
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
@@ -281,15 +281,15 @@ Aşağıdaki örnek, `WholeTable` üzerinde ince siyah kenarlık ve `GrandTotalR
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
-            // A1:C10 kaynaklı pivot tablo ekle ve E3 konumuna sabitle
+            // Add pivot table sourced from A1:C10, anchored at E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Adım 1: Yeni bir özel pivot tablo stili kaydet ve dizinini al
+            // Step 1: register a new custom pivot table style and capture its index
             const styleIndex = workbook.worksheets.tableStyles.addPivotTableStyle("CustomPivotStyle");
             const tableStyle = workbook.worksheets.tableStyles.get(styleIndex);
-            // Adım 2: Bir WholeTable öğesi ekle ve dört tarafına ince siyah kenarlıklar uygula
+            // Step 2: add a WholeTable element and apply thin black borders on all four sides
             const wholeTableElementIndex = tableStyle.tableStyleElements.add(AsposeCells.TableStyleElementType.WholeTable);
             const wholeTableElement = tableStyle.tableStyleElements.get(wholeTableElementIndex);
             const wholeTableStyle = workbook.createStyle();
@@ -306,14 +306,14 @@ Aşağıdaki örnek, `WholeTable` üzerinde ince siyah kenarlık ve `GrandTotalR
             rightBorder.lineStyle = AsposeCells.CellBorderType.Thin;
             rightBorder.color = "black";
             wholeTableElement.setElementStyle(wholeTableStyle);
-            // Adım 3: Bir GrandTotalRow öğesi ekle ve kalın kırmızı yazı tipi uygula
+            // Step 3: add a GrandTotalRow element and apply bold red font
             const grandTotalElementIndex = tableStyle.tableStyleElements.add(AsposeCells.TableStyleElementType.GrandTotalRow);
             const grandTotalElement = tableStyle.tableStyleElements.get(grandTotalElementIndex);
             const grandTotalStyle = workbook.createStyle();
             grandTotalStyle.font.isBold = true;
             grandTotalStyle.font.color = "red";
             grandTotalElement.setElementStyle(grandTotalStyle);
-            // Adım 4: Özel stili ada göre uygula (PivotTableStyleType ile DEĞİL; bu yerleşik ön ayarlar içindir)
+            // Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
             pivotTable.pivotTableStyleName = "CustomPivotStyle";
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData], {
@@ -360,13 +360,13 @@ Aşağıdaki örnek, sarı düz dolguya, kalın koyu mavi yazı tipine ve dört 
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Senaryo 4: FormatAll kullanarak her pivot tablo hücresine tek bir Stil uygula
-            // Kullanılan API: PivotTable.FormatAll(Style)
-            // Hedef biçim: .xlsx
-            // GitHub referansı: Aspose.Cells-for-.NET deposuna bakın — pivot tablo stil örnekleri
+            // Scenario 4: Apply a single Style to every pivot table cell using FormatAll
+            // API in use: PivotTable.FormatAll(Style)
+            // Target format: .xlsx
+            // GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // Kaynak verileri doldur: başlık satırı (1. satır) + 9 veri satırı (2-10. satırlar)
+            // Populate source data: header row (row 1) + 9 data rows (rows 2-10)
             const cells = worksheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
@@ -398,13 +398,13 @@ Aşağıdaki örnek, sarı düz dolguya, kalın koyu mavi yazı tipine ve dört 
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
-            // Pivot tablo ekle: kaynak aralık A1:C10, hedef hücre E3
+            // Add pivot table: source range A1:C10, destination cell E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // Pivot alanlarını ata: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Pivot tablonun her hücresine zorla uygulanacak bir Stil oluştur
+            // Build a Style that will be forced onto every cell of the pivot table
             const style = workbook.createStyle();
             style.foregroundColor = AsposeCells.Color.Yellow;
             style.pattern = AsposeCells.BackgroundType.Solid;
@@ -418,10 +418,10 @@ Aşağıdaki örnek, sarı düz dolguya, kalın koyu mavi yazı tipine ve dört 
             style.borders.get(AsposeCells.BorderType.LeftBorder).color = AsposeCells.Color.Black;
             style.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
             style.borders.get(AsposeCells.BorderType.RightBorder).color = AsposeCells.Color.Black;
-            // FormatAll uygula: bu tek stili pivot tablonun her hücresine zorlar,
-            // daha önce ayarlanmış herhangi bir PivotTableStyleType / PivotTableStyleName geçersiz kılar
+            // Apply FormatAll: forces this single style onto every cell of the pivot table,
+            // overriding any PivotTableStyleType / PivotTableStyleName previously set
             pivotTable.formatAll(style);
-            // Çalışma kitabını modern .xlsx biçiminde kaydet
+            // Save the workbook in the modern .xlsx format
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

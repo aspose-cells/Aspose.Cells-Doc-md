@@ -37,7 +37,7 @@ import com.aspose.cells.Worksheet;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// 动态照相机：添加一个空图片，通过公式将其链接到 A1:F10，然后刷新
+// Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 PictureCollection pictures = worksheet.getPictures();
 int index = pictures.add(10, 6, (InputStream) null);
 pictures.get(index).setFormula("A1:F10");
@@ -64,7 +64,7 @@ import com.aspose.cells.Worksheet;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// 静态相机：构建 Range，渲染为字节，包装在 ByteArrayInputStream 中，添加为图片
+// Static Camera: build Range, render to bytes, wrap in ByteArrayInputStream, add as picture
 Range range = worksheet.getCells().createRange("A1:F10");
 PictureCollection pictures = worksheet.getPictures();
 pictures.add(10, 6, new ByteArrayInputStream(range.toImage(null)));

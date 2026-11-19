@@ -1,7 +1,7 @@
 ---
 title: Campos de valor en Aspose.Cells for C++
 description: Aprenda a añadir campos base a la región de datos de una tabla dinámica, cambiar la función de resumen con PivotField.Function y trazar el campo de valor en el eje de fila o columna en Aspose.Cells for C++.
-linktitle: Campos de valor en Aspose.Cells for C++
+linktitle: Campos de valor
 keywords: Aspose.Cells, C++, tabla dinámica, campo de valor, PivotField, PivotField.Function, campo de datos, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -23,12 +23,12 @@ int main() {
  Worksheet worksheet = workbook.GetWorksheets().Get(0);
  worksheet.SetName(u"Data");
  Cells cells = worksheet.GetCells();
- // Encabezados en A1:D1
+ // Headers in A1:D1
  cells.Get(0, 0).PutValue(U16String("Category"));
  cells.Get(0, 1).PutValue(U16String("Item"));
  cells.Get(0, 2).PutValue(U16String("Year"));
  cells.Get(0, 3).PutValue(U16String("Amount"));
- // Filas de datos A2:D9 usando bucles anidados ramificando en j
+ // Data rows A2:D9 using nested loops branching on j
  for (int i = 1; i <= 8; i++)
  {
  for (int j = 0; j < 4; j++)
@@ -60,9 +60,9 @@ int main() {
  }
  }
  }
- // Agregar tabla dinámica en F3 con el nombre PivotTable1
+ // Add pivot table at F3 with name PivotTable1
  PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
- // Diseño de la tabla dinámica: Categoría e Ítem en Fila, Año en Columna, Cantidad como campo de datos
+ // Pivot layout: Category and Item on Row, Year on Column, Amount as data field
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");

@@ -1,6 +1,6 @@
 ---
 title: Insertar una tabla dinámica
-linktitle: Insertar una tabla dinámica
+linktitle: Tablas dinámicas
 description: Cree y formatee tablas dinámicas en archivos de hojas de cálculo de Excel.
 keywords: Crear tabla dinámica, insertar tabla dinámica, formatear tabla dinámica.
 type: docs
@@ -36,12 +36,10 @@ Tras ejecutar el código de ejemplo, se agrega una tabla dinámica a la hoja de 
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
-// Crear un nuevo libro de trabajo y obtener la primera hoja de cálculo
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-
-// Escribir los datos de origen: ventas por deporte y trimestre
+// Write the source data: sales per sport and quarter
 sheet.Cells["A1"].PutValue("Sport");
 sheet.Cells["B1"].PutValue("Quarter");
 sheet.Cells["C1"].PutValue("Sales");
@@ -66,16 +64,13 @@ sheet.Cells["C7"].PutValue(5000);
 sheet.Cells["A8"].PutValue("Golf");
 sheet.Cells["B8"].PutValue("Qtr3");
 sheet.Cells["C8"].PutValue(6430);
-
-// Agregar una tabla dinámica en la celda de destino E3, usando A1:C8 como origen
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C8", 2, 4);
-
-// Asignar los campos de la tabla dinámica: Sport a Filas, Quarter a Columnas, Sales a Datos
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Quarter");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
-
-// Guardar el libro de trabajo
+// Save the workbook
 workbook.Save("pivotTable_test_out.xlsx");
 ```
 

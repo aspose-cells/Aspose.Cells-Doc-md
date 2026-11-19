@@ -49,68 +49,68 @@ Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.Worksheets;
 Worksheet pivotDataSheet = worksheets.Add("PivotData");
 Cells pivotDataCells = pivotDataSheet.Cells;
-// الرؤوس (الصف 0)
+// Headers (row 0)
 pivotDataCells[0, 0].PutValue("Fruit");
 pivotDataCells[0, 1].PutValue("Year");
 pivotDataCells[0, 2].PutValue("Region");
 pivotDataCells[0, 3].PutValue("Amount");
-// الصف 1: تفاح، 2022، شمال، 150
+// Row 1: Apple, 2022, North, 150
 pivotDataCells[1, 0].PutValue("Apple");
 pivotDataCells[1, 1].PutValue(2022);
 pivotDataCells[1, 2].PutValue("North");
 pivotDataCells[1, 3].PutValue(150);
-// الصف 2: تفاح، 2023، شمال، 180
+// Row 2: Apple, 2023, North, 180
 pivotDataCells[2, 0].PutValue("Apple");
 pivotDataCells[2, 1].PutValue(2023);
 pivotDataCells[2, 2].PutValue("North");
 pivotDataCells[2, 3].PutValue(180);
-// الصف 3: موز، 2022، جنوب، 120
+// Row 3: Banana, 2022, South, 120
 pivotDataCells[3, 0].PutValue("Banana");
 pivotDataCells[3, 1].PutValue(2022);
 pivotDataCells[3, 2].PutValue("South");
 pivotDataCells[3, 3].PutValue(120);
-// الصف 4: موز، 2023، جنوب، 140
+// Row 4: Banana, 2023, South, 140
 pivotDataCells[4, 0].PutValue("Banana");
 pivotDataCells[4, 1].PutValue(2023);
 pivotDataCells[4, 2].PutValue("South");
 pivotDataCells[4, 3].PutValue(140);
-// الصف 5: كرز، 2022، شرق، 200
+// Row 5: Cherry, 2022, East, 200
 pivotDataCells[5, 0].PutValue("Cherry");
 pivotDataCells[5, 1].PutValue(2022);
 pivotDataCells[5, 2].PutValue("East");
 pivotDataCells[5, 3].PutValue(200);
-// الصف 6: كرز، 2023، شرق، 220
+// Row 6: Cherry, 2023, East, 220
 pivotDataCells[6, 0].PutValue("Cherry");
 pivotDataCells[6, 1].PutValue(2023);
 pivotDataCells[6, 2].PutValue("East");
 pivotDataCells[6, 3].PutValue(220);
-// الصف 7: عنب، 2022، غرب، 90
+// Row 7: Grape, 2022, West, 90
 pivotDataCells[7, 0].PutValue("Grape");
 pivotDataCells[7, 1].PutValue(2022);
 pivotDataCells[7, 2].PutValue("West");
 pivotDataCells[7, 3].PutValue(90);
-// الصف 8: عنب، 2023، غرب، 110
+// Row 8: Grape, 2023, West, 110
 pivotDataCells[8, 0].PutValue("Grape");
 pivotDataCells[8, 1].PutValue(2023);
 pivotDataCells[8, 2].PutValue("West");
 pivotDataCells[8, 3].PutValue(110);
-// إضافة ورقة PivotTableReport
+// Add PivotTableReport sheet
 Worksheet pivotTableSheet = worksheets.Add("PivotTableReport");
 PivotTableCollection pivotTables = pivotTableSheet.PivotTables;
-// إنشاء جدول محوري مصدره PivotData!A1:D9 موضوع في A1 على PivotTableReport
+// Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
 PivotTable pivotTable = pivotTables.Add("PivotData!A1:D9", 0, 0);
-// إضافة الحقول
-pivotTable.AddFieldToArea(PivotFieldType.Row, 0);   // فاكهة
-pivotTable.AddFieldToArea(PivotFieldType.Page, 1);  // سنة
-pivotTable.AddFieldToArea(PivotFieldType.Page, 2);  // منطقة
-pivotTable.AddFieldToArea(PivotFieldType.Data, 3);  // المبلغ
+// Add fields
+pivotTable.AddFieldToArea(PivotFieldType.Row, 0);   // Fruit
+pivotTable.AddFieldToArea(PivotFieldType.Page, 1);  // Year
+pivotTable.AddFieldToArea(PivotFieldType.Page, 2);  // Region
+pivotTable.AddFieldToArea(PivotFieldType.Data, 3);  // Amount
 pivotTable.DataFields[0].Function = ConsolidationFunction.Sum;
-// تكوين تخطيط منطقة حقل الصفحة: ضع حقول الصفحة أفقياً أولاً، التفاف بعد كل 2
+// Configure page field area layout: place page fields across first, wrap after every 2
 pivotTable.PageFieldOrder = PrintOrderType.OverThenDown;
 pivotTable.PageFieldWrapCount = 2;
-// التحديث والحساب
+// Refresh and calculate
 pivotTable.CalculateData();
-// حفظ
+// Save
 workbook.Save(Path.Combine(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 ```
 

@@ -36,19 +36,19 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 string fileName = "sample.xlsx";
 string prefix = "B";
-// Cargar el libro existente que contiene una tabla dinámica
+// Load the existing workbook containing a pivot table
 Workbook workbook = new Workbook(fileName);
-// Acceder a la hoja de cálculo por índice (primera hoja)
+// Access the worksheet by index (first worksheet)
 Worksheet worksheet = workbook.Worksheets[0];
-// Acceder a la tabla dinámica por índice
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Obtener el primer PivotField de fila
+// Retrieve the first row PivotField
 PivotField rowField = pivotTable.RowFields[0];
-// Aplicar el filtro de etiqueta: mostrar solo los elementos de fila cuyas etiquetas comiencen con el prefijo proporcionado
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.FilterByLabel(PivotFilterType.CaptionBeginsWith, prefix, string.Empty);
-// Actualizar y recalcular los datos de la tabla dinámica para que el filtro surta efecto
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Guardar el libro de nuevo en disco
+// Save the workbook back to disk
 workbook.Save(fileName);
 ```
 
@@ -72,23 +72,23 @@ if (!File.Exists(inputPath))
 {
     throw new FileNotFoundException("Source workbook not found.", inputPath);
 }
-// Cargar el libro existente que contiene la tabla dinámica
+// Load the existing workbook that contains the pivot table
 var workbook = new Workbook(inputPath);
-// Acceder a la hoja de cálculo que contiene la tabla dinámica (por índice)
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.Worksheets[0];
-// Acceder a la tabla dinámica por índice
+// Access the pivot table by index
 var pivotTable = worksheet.PivotTables[0];
-// Obtener el PivotField de fecha del área de filas
-// (El filtro de fecha solo funciona cuando el área de filas/columnas contiene solo celdas de fecha-hora o están en blanco)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 PivotField dateField = pivotTable.RowFields[0];
-// Definir el criterio de fecha para el filtro Between
+// Define the date criterion for the Between filter
 DateTime startDate = new DateTime(2020, 1, 1);
 DateTime endDate = new DateTime(2020, 12, 31);
-// Aplicar el filtro de fecha en el campo dinámico
+// Apply the date filter on the pivot field
 dateField.FilterByDate(PivotFilterType.DateBetween, startDate, endDate);
-// Actualizar y recalcular la tabla dinámica para que el filtro surta efecto
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Guardar el libro
+// Persist the workbook
 workbook.Save(outputPath);
 ```
 
@@ -105,7 +105,7 @@ var worksheet = workbook.Worksheets[0];
 var pivotTable = worksheet.PivotTables[0];
 var rowField = pivotTable.RowFields[0];
 var dataField = pivotTable.DataFields[0];
-// Encontrar el índice del campo de datos manualmente ya que PivotFieldCollection no tiene IndexOf
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 int dataFieldIndex = -1;
 for (int i = 0; i < pivotTable.DataFields.Count; i++)
 {
@@ -137,33 +137,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Cargar el libro de trabajo existente que contiene la tabla dinámica
+// Load the existing workbook that contains the pivot table
 string inputPath = "input.xlsx";
 string outputPath = "output.xlsx";
 Workbook workbook = new Workbook(inputPath);
-// Acceder a la hoja de cálculo que contiene la tabla dinámica (índice 0)
+// Access the worksheet that holds the pivot table (index 0)
 Worksheet worksheet = workbook.Worksheets[0];
-// Acceder a la tabla dinámica por índice
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Confirmar que hay al menos un PivotField de valor en el área de datos
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.DataFields.Count == 0)
 {
     throw new InvalidOperationException("Pivot table has no value (data) PivotField.");
 }
 PivotField valueField = pivotTable.DataFields[0];
-// Recuperar el PivotField de fila objetivo (el campo al que queremos aplicar Top 10)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 PivotField rowField = pivotTable.RowFields[0];
-// El primer (y único) campo de datos está en el índice 0; Top 10 ordena por él.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 int valueFieldIndex = 0;
-// Aplicar el filtro Top 10 en el campo de fila:
+// Apply the Top 10 filter on the row field:
+//   - valueFieldIndex = 0 — the data field used to rank items
+//   - filterType  = PivotFilterType.Count (keep a fixed number of items;
+//     PivotFilterType.Percent would interpret 10 as "top 10 percent")
+//   - isTop       = true (top N; false would mean bottom N)
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Count
-//   - isTop       = true (N superiores; false significaría N inferiores)
-//   - valueFieldIndex = el índice del campo de datos utilizado para clasificar elementos
 rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
-// Actualizar los datos de la tabla dinámica y recalcularla para que el filtro surta efecto
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Guardar el libro de trabajo
+// Save the workbook
 workbook.Save(outputPath);
 ```
 
@@ -176,34 +177,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Cargar un libro de trabajo existente que contiene una tabla dinámica
+// Load an existing workbook containing a pivot table
 Workbook workbook = new Workbook("pivot_table_sample.xlsx");
-// Acceder a la primera hoja de trabajo que contiene la tabla dinámica
+// Access the first worksheet which contains the pivot table
 Worksheet sheet = workbook.Worksheets[0];
-// Acceder a la tabla dinámica por índice (la primera tabla dinámica en la hoja)
+// Access the pivot table by index (the first pivot table on the sheet)
 PivotTable pivotTable = sheet.PivotTables[0];
-// Recuperar el PivotField objetivo (el primer campo de etiqueta de fila en el que ocultaremos/mostraremos elementos)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 PivotField pivotField = pivotTable.RowFields[0];
-// Iterar a través de la colección PivotItems del PivotField seleccionado
+// Iterate through the PivotItems collection of the selected PivotField
 int itemCount = pivotField.PivotItems.Count;
 for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.PivotItems[i];
-    // Ocultar elementos dinámicos que coincidan con un nombre/criterio específico
+    // Hide pivot items that match a specific name/criterion
     if (item.Name == "Item1" || item.Name == "Item2")
     {
         item.IsHidden = true;
     }
-    // Demostrar la des-ocultación: volver a mostrar un elemento dinámico previamente oculto
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.Name == "Item3")
     {
         item.IsHidden = false;
     }
 }
-// Refrescar y recalcular la tabla dinámica para que los cambios surtan efecto
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.PivotCache.Refresh();
-// Guardar el libro de trabajo — los elementos ocultos permanecen en los datos subyacentes
-// pero se excluyen del resultado de la tabla dinámica mostrada
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.Save("output_pivot_filtered.xlsx");
 ```
 

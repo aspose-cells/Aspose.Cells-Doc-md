@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via C++ 中的 Excel 照相机
-linktitle: Aspose.Cells for Node.js via C++ 中的 Excel 照相机
+linktitle: Excel 相机
 description: 了解如何在 Aspose.Cells for Node.js via C++ 中使用 Excel 照相机，创建一个链接到单元格区域的动态图片，该图片会随源数据刷新并保留所有源格式。
 keywords: Aspose.Cells, Aspose.Cells for Node.js via C++, Excel 照相机, 动态图片, 链接图片, Picture.formula, updateSelectedValue, createRange, toImage, Buffer
 type: docs
@@ -33,7 +33,7 @@ const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// 动态相机：添加一个空图片，通过公式链接到 A1:F10，然后刷新
+// Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 let pictures = worksheet.getPictures();
 let index = pictures.add(10, 6, null);
 pictures.get(index).setFormula("A1:F10");

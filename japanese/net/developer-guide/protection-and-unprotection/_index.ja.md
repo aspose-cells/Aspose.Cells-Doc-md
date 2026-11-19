@@ -41,19 +41,19 @@ Excel は 2 つの異なるパスワード層をサポートしています。1 
 ```csharp
 using System;
 using Aspose.Cells;
-// 新しいワークブックを最初から作成する
+// Create a new workbook from scratch
 Workbook workbook = new Workbook();
-// 最初のワークシートのセル A1 にサンプル値を書き込む
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
-// 書き込み保護を設定する: 変更用のパスワードと作成者を設定する
+// Configure the write protection: set the password to modify and the author
 workbook.Settings.WriteProtection.Password = "ModifyPwd";
 workbook.Settings.WriteProtection.Author = "AuthorName";
-// 書き込み保護を永続化するためにワークブックを保存する
+// Save the workbook so the write protection is persisted
 workbook.Save("WriteProtectedWorkbook.xlsx");
-// 正しいパスワードを使用して変更用のパスワードを検証する
+// Validate the password to modify using the correct password
 bool isCorrectValid = workbook.Settings.WriteProtection.ValidatePassword("ModifyPwd");
 Console.WriteLine("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// 別の分岐を示すために、正しくないパスワードを使用して変更用のパスワードを検証する
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 bool isWrongValid = workbook.Settings.WriteProtection.ValidatePassword("WrongPwd");
 Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -64,22 +64,22 @@ Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```csharp
 using System;
 using Aspose.Cells;
-// 新しいワークブックを作成
+// Create a new workbook
 Workbook workbook = new Workbook();
-// 2番目のワークシートを追加
+// Add a second worksheet
 workbook.Worksheets.Add();
-// 最初のワークシートのセルA1にサンプル値を書き込む
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells[0, 0].PutValue("Sample Data");
-// ワークブックの構造を保護
+// Protect the workbook structure
 workbook.Protect(ProtectionType.Structure, "StructPwd");
-// ワークブックをstructure_protected.xlsxとして保存
+// Save the workbook as structure_protected.xlsx
 string filePath = "structure_protected.xlsx";
 workbook.Save(filePath);
-// ファイルを新しいWorkbookインスタンスに再読み込み
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// 構造保護を解除
+// Remove the structure protection
 loadedWorkbook.Unprotect("StructPwd");
-// 確認メッセージを出力
+// Print confirmation message
 Console.WriteLine("Structure protection has been successfully removed from the workbook.");
 ```
 

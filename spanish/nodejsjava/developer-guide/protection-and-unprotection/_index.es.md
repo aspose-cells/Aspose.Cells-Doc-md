@@ -40,17 +40,17 @@ Excel admite dos capas distintas de contraseñas. La primera es una contraseña 
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// Escribir un valor de muestra en la celda A1 de la primera hoja de cálculo
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get("A1").putValue("Sample Data");
-// Configurar la protección contra escritura: establecer la contraseña para modificar y el autor
+// Configure the write protection: set the password to modify and the author
 workbook.getSettings().getWriteProtection().setPassword("ModifyPwd");
 workbook.getSettings().getWriteProtection().setAuthor("AuthorName");
-// Guardar el libro para que la protección contra escritura quede guardada
+// Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx");
-// Validar la contraseña para modificar usando la contraseña correcta
+// Validate the password to modify using the correct password
 let isCorrectValid = workbook.getSettings().getWriteProtection().validatePassword("ModifyPwd");
 console.log("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// Validar la contraseña para modificar usando una contraseña incorrecta para demostrar la otra rama
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 let isWrongValid = workbook.getSettings().getWriteProtection().validatePassword("WrongPwd");
 console.log("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -61,20 +61,20 @@ Proteger la estructura del libro impide que otros usuarios vean hojas de cálcul
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// Agregar una segunda hoja de cálculo
+// Add a second worksheet
 workbook.getWorksheets().add();
-// Escribir un valor de muestra en la celda A1 de la primera hoja de cálculo
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// Proteger la estructura del libro
+// Protect the workbook structure
 workbook.protect(AsposeCells.ProtectionType.STRUCTURE, "StructPwd");
-// Guardar el libro como structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 let filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// Recargar el archivo en una nueva instancia del libro
+// Reload the file into a new Workbook instance
 let loadedWorkbook = new AsposeCells.Workbook(filePath);
-// Eliminar la protección de la estructura
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// Imprimir mensaje de confirmación
+// Print confirmation message
 console.log("Structure protection has been successfully removed from the workbook.");
 ```
 

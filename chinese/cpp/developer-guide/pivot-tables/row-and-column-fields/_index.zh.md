@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for C++ 中添加数据透视表的行和列字段
-linktitle: 在 Aspose.Cells for C++ 中添加数据透视表的行和列字段
+linktitle: 行列字段
 description: 了解如何将基础字段添加到数据透视表的行和列区域，并使用 Aspose.Cells for C++ 中的 PivotField.SetSubtotals 控制数据透视字段的小计。
 keywords: Aspose.Cells, C++, 数据透视表, 行字段, 列字段, PivotField, SetSubtotals, PivotFieldSubtotalType, 小计
 type: docs

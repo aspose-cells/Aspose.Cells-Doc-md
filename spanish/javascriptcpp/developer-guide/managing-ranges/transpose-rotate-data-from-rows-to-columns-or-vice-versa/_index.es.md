@@ -217,24 +217,24 @@ Las fórmulas de matriz CSE son la forma clásica de Excel para evaluar una expr
                 if (!file) {
                     throw new Error("Please select an XLSX workbook.");
                 }
-                // Cargar el libro de trabajo de origen con LoadOptions de xlsx
+                // Load the source workbook with xlsx LoadOptions
                 const loadOptions = new LoadOptions(AsposeCells.LoadFormat.Xlsx);
                 const workbook = new Workbook(
                     new Uint8Array(await file.arrayBuffer()),
                     loadOptions
                 );
-                // Acceder a la primera hoja de cálculo y a su colección de celdas
+                // Access the first worksheet and its Cells collection
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // Establecer la fórmula de matriz clásica CSE en la celda A6.
-                // La fórmula =TRANSPOSE(A1:D5) rota el rango de origen de 5 filas por 4 columnas
-                // a una matriz de 4 filas por 5 columnas. El segundo argumento (4) es el número de filas
-                // y el tercer argumento (5) es el número de columnas de la matriz resultante.
-                // Aspose.Cells escribe el marcador de fórmula de matriz CSE para que Excel la evalúe como
-                // una única fórmula de matriz de varias celdas, compatible con versiones antiguas de Excel
-                // (2019, 2016, 2013, etc.) que no admiten el desbordamiento de matrices dinámicas.
+                // Set the classic CSE array formula on cell A6.
+                // The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+                // into a 4-row x 5-column array. The second argument (4) is the number of rows
+                // and the third argument (5) is the number of columns of the resulting array.
+                // Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+                // a single multi-cell array formula, compatible with older Excel versions
+                // (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
                 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-                // Guardar el libro de trabajo para que el marcador de fórmula de matriz persista
+                // Save the workbook so the array-formula marker is persisted
                 const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
                 const blob = new Blob([outputData], {
                     type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"

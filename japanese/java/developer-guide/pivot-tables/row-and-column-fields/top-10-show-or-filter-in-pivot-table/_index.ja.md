@@ -50,7 +50,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// 「Sum of Sales」で上位2項目を表示する（データフィールドのインデックス0）
+// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sportField.top10AutoShow(true, true, 2, 0);
 pivotTable.calculateData();
 workbook.save("output-top10-by-value-field.xlsx");
@@ -83,7 +83,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// フィールド自体でランキングされた下位3つの項目を表示 (rankBy = -1)
+// Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sportField.top10AutoShow(true, false, 3, -1);
 pivotTable.calculateData();
 workbook.save("output-top10-by-field-itself.xlsx");
@@ -144,9 +144,9 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// Top 10 フィルター - 「Sales の合計」に基づいて上位 2 項目を保持します（データフィールドのインデックスは 0）
+// Top 10 Filter - keep the top 2 items by "Sum of Sales" (data field index 0)
 sportField.filterTop10(0, PivotFilterType.COUNT, true, 2);
-// パーセントベースのフィルターを使用する場合は、項目の上位 30% を保持します:
+// For a percentage-based filter instead, keep the top 30 percent of the items:
 // sportField.filterTop10(0, PivotFilterType.PERCENT, true, 30);
 pivotTable.getPivotCache().refresh();
 pivotTable.calculateData();

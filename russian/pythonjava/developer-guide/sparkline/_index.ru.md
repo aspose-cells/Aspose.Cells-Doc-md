@@ -102,26 +102,26 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType
-# Шаг 1: Создайте рабочую книгу и получите первый рабочий лист
+# Step 1: Create a Workbook and get the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# Шаг 2: Запишите образцы значений в A1:E1
+# Step 2: Write sample values into A1:E1
 values = [5, -3, 8, -2, 6]
 for i in range(len(values)):
     worksheet.getCells().get(0, i).putValue(values[i])
-# Шаг 3: Создайте CellArea, указывающий на F1 (индекс столбца 5, индекс строки 0)
+# Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 dest = CellArea()
 dest.StartColumn = 5
 dest.EndColumn = 5
 dest.StartRow = 0
 dest.EndRow = 0
-# Шаг 4: Добавьте столбцовую спарклайн в ячейку назначения
+# Step 4: Add a Column sparkline to the destination cell
 idx = worksheet.getSparklineGroups().add(
     SparklineType.COLUMN, "A1:E1", False, dest)
 group = worksheet.getSparklineGroups().get(idx)
-# Шаг 5: Подтвердите тип спарклайн, прочитав group.Type
+# Step 5: Confirm the sparkline type by reading group.Type
 print("Sparkline Type added: " + str(group.getType()))
-# Шаг 6: Сохраните рабочую книгу
+# Step 6: Save the workbook
 workbook.save("output_column.xlsx")
 print("Workbook saved as output_column.xlsx")
 jpype.shutdownJVM()

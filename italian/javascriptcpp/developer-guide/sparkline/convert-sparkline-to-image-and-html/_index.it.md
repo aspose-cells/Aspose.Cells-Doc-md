@@ -54,17 +54,17 @@ In questo flusso di lavoro verrà creato un foglio di lavoro contenente un picco
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Crea un nuovo workbook e accedi al primo foglio di lavoro
+            // Create a new workbook and access the first worksheet
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Popola le celle A1:E1 con dati di esempio
+            // Populate sample data in cells A1:E1
             cells.get("A1").value = 5;
             cells.get("B1").value = -3;
             cells.get("C1").value = 8;
             cells.get("D1").value = -2;
             cells.get("E1").value = 6;
-            // Aggiungi un gruppo di sparkline a linea ancorato a F1 (colonna 5, riga 0)
+            // Add a Line sparkline group anchored at F1 (column 5, row 0)
             const lineArea = new CellArea();
             lineArea.startColumn = 5;
             lineArea.endColumn = 5;
@@ -76,7 +76,7 @@ In questo flusso di lavoro verrà creato un foglio di lavoro contenente un picco
                 false,
                 lineArea
             );
-            // Aggiungi un gruppo di sparkline a colonna ancorato a G1 (colonna 6, riga 0)
+            // Add a Column sparkline group anchored at G1 (column 6, row 0)
             const columnArea = new CellArea();
             columnArea.startColumn = 6;
             columnArea.endColumn = 6;
@@ -88,7 +88,7 @@ In questo flusso di lavoro verrà creato un foglio di lavoro contenente un picco
                 false,
                 columnArea
             );
-            // Aggiungi un gruppo di sparkline vincita/perdita (impilato) ancorato a H1 (colonna 7, riga 0)
+            // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
             const stackedArea = new CellArea();
             stackedArea.startColumn = 7;
             stackedArea.endColumn = 7;
@@ -100,19 +100,19 @@ In questo flusso di lavoro verrà creato un foglio di lavoro contenente un picco
                 false,
                 stackedArea
             );
-            // Configura le opzioni immagine per l'output PNG
+            // Configure image options for PNG output
             const imageOptions = new ImageOrPrintOptions();
             imageOptions.imageType = AsposeCells.ImageType.Png;
-            // Converti lo sparkline a linea in immagine e incorporalo nella cella F2
+            // Convert the Line sparkline to image and embed it in cell F2
             const lineSp = worksheet.sparklineGroups.get(lineIdx).sparklines.get(0);
             cells.get("F2").embeddedImage = lineSp.toImage(imageOptions);
-            // Converti lo sparkline a colonna in immagine e incorporalo nella cella G2
+            // Convert the Column sparkline to image and embed it in cell G2
             const columnSp = worksheet.sparklineGroups.get(columnIdx).sparklines.get(0);
             cells.get("G2").embeddedImage = columnSp.toImage(imageOptions);
-            // Converti lo sparkline vincita/perdita in immagine e incorporalo nella cella H2
+            // Convert the Win/Loss sparkline to image and embed it in cell H2
             const stackedSp = worksheet.sparklineGroups.get(stackedIdx).sparklines.get(0);
             cells.get("H2").embeddedImage = stackedSp.toImage(imageOptions);
-            // Salva il workbook su disco
+            // Save the workbook to disk
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

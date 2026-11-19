@@ -49,24 +49,24 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Charger le classeur d'exemple
+    // Load the sample workbook
     Workbook wb(u"sampleGroupPivotFieldsInPivotTable.xlsx");
-    // Accéder à la deuxième feuille de calcul et à son tableau croisé dynamique
+    // Access the second worksheet and its pivot table
     Worksheet ws = wb.GetWorksheets().Get(1);
     PivotTable pt = ws.GetPivotTables().Get(0);
-    // Grouper le premier champ de ligne (un champ de date) par mois et trimestres
+    // Group the first row field (a date field) by months and quarters
     PivotFieldGroupOptions options;
     Date startDate{2008, 1, 1, 0, 0, 0, 0};
     Date endDate{2008, 9, 5, 0, 0, 0, 0};
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
-    // Définir les types de groupe : Mois et Trimestres
+    // Set group types: Months and Quarters
     Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
-    // Appliquer le regroupement au premier champ de ligne
+    // Apply grouping to the first row field
     PivotField rowField = pt.GetRowFields().Get(0);
     rowField.Group(options);
-    // Calculer les données du tableau croisé dynamique et enregistrer le fichier de sortie
+    // Calculate the pivot table data and save the output file
     pt.CalculateData();
     wb.Save(u"outputGroupPivotFieldsInPivotTable.xlsx");
     Aspose::Cells::Cleanup();

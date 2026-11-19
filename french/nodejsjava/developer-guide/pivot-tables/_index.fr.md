@@ -35,12 +35,10 @@ Après l’exécution du code de l’exemple, un tableau croisé dynamique est a
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-
-// Créer un nouveau classeur et obtenir la première feuille de calcul
+// Create a new workbook and get the first worksheet
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-
-// Écrire les données source : ventes par sport et par trimestre
+// Write the source data: sales per sport and quarter
 sheet.getCells().get("A1").putValue("Sport");
 sheet.getCells().get("B1").putValue("Quarter");
 sheet.getCells().get("C1").putValue("Sales");
@@ -65,16 +63,13 @@ sheet.getCells().get("C7").putValue(5000);
 sheet.getCells().get("A8").putValue("Golf");
 sheet.getCells().get("B8").putValue("Qtr3");
 sheet.getCells().get("C8").putValue(6430);
-
-// Ajouter un tableau croisé dynamique à la cellule de destination E3, à partir de A1:C8
+// Add a pivot table at destination cell E3, sourced from A1:C8
 let pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// Affecter les champs du tableau croisé dynamique : Sport aux lignes, Quarter aux colonnes, Sales aux données
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Quarter");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Sales");
-
-// Enregistrer le classeur
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

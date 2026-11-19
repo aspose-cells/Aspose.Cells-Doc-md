@@ -55,14 +55,14 @@ workbook.Save("output.xlsx");
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// إنشاء مصنف جديد
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// كتابة صف العناوين في الخلايا A1:C1
+// Write header row into cells A1:C1
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// كتابة صفوف البيانات في الخلايا A2:C9 (8 صفوف من بيانات الفاكهة عبر عامي 2020 و2021)
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.Cells["A2"].PutValue("grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(50);
@@ -87,19 +87,19 @@ worksheet.Cells["C8"].PutValue(110);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(120);
-// إضافة جدول محوري: نطاق المصدر "A1:C9"، خلية الوجهة "E3"، الاسم
+// Add a pivot table: source range "A1:C9", destination cell "E3"
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// تعيين حقول الجدول المحوري: Fruit إلى الصفوف، Year إلى الأعمدة، Amount إلى البيانات
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// تعديل عدة قيم Amount في بيانات المصدر لمحاكاة التغييرات
+// Modify several Amount values in the source data to simulate changes
 worksheet.Cells["C2"].PutValue(55);
 worksheet.Cells["C5"].PutValue(85);
 worksheet.Cells["C9"].PutValue(125);
-// تحديث جميع الجداول المحورية / ذاكرات التخزين المؤقت للجداول المحورية في المصنف
+// Refresh every pivot table / pivot cache in the workbook
 workbook.RefreshAll();
-// حفظ المصنف
+// Save the workbook
 workbook.Save("output.xlsx");
 ```
 
@@ -165,11 +165,11 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
-// كتابة صف رؤوس Fruit / Year / Amount
+// Write Fruit / Year / Amount header row
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// كتابة 8 صفوف بيانات (الصفوف 2-9، بما يناسب نطاق المصدر A1:C9)
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.Cells["A2"].PutValue("Grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(100);
@@ -194,21 +194,21 @@ worksheet.Cells["C8"].PutValue(350);
 worksheet.Cells["A9"].PutValue("Cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(450);
-// إضافة جدول محوري باسم موضوع في خلية الوجهة E3، مع مصدره A1:C9
+// Add a pivot table placed at destination cell E3, sourcing from A1:C9
 var pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// تعيين الحقول: Fruit إلى Row، وYear إلى Column، وAmount إلى Data
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// تعديل خاصية العرض/التخطيط — وهذا تغيير للعرض فقط،
-// لذلك لا يتطلب إعادة قراءة بيانات المصدر عبر PivotCache.Refresh().
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.Refresh().
 pivotTable.RefreshDataOnOpeningFile = false;
-// CalculateData() يعيد رسم عرض جدول المحوري هذا (البيانات + النمط) من
-// البيانات الموجودة بالفعل في PivotCache. ولأن بيانات المصدر لم تتغير،
-// فلا يتم تنفيذ رحلة ذهاب وإياب إلى المصدر — يتم فقط إعادة حساب القيم المخزنة مؤقتًا
-// داخل خلايا ورقة العمل.
+// CalculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.CalculateData();
-// حفظ المصنف على القرص
+// Save the workbook to disk
 workbook.Save("output.xlsx");
 ```
 

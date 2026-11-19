@@ -40,61 +40,61 @@ using Aspose.Cells;
 using Aspose.Cells.Charts;
 using Aspose.Cells.Drawing;
 using Aspose.Cells.Rendering;
-// 创建一个新工作簿并访问第一个工作表
+// Create a new workbook and access the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// 在单元格 A1:E1 中填充示例数据
+// Populate sample data in cells A1:E1
 worksheet.Cells["A1"].PutValue(5);
 worksheet.Cells["B1"].PutValue(-3);
 worksheet.Cells["C1"].PutValue(8);
 worksheet.Cells["D1"].PutValue(-2);
 worksheet.Cells["E1"].PutValue(6);
-// 在 F1（第 5 列，第 0 行）添加一个折线迷你图组
+// Add a Line sparkline group anchored at F1 (column 5, row 0)
 CellArea lineArea = new CellArea();
 lineArea.StartColumn = 5;
 lineArea.EndColumn = 5;
 lineArea.StartRow = 0;
 lineArea.EndRow = 0;
 int lineIdx = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, lineArea);
-// 在 G1（第 6 列，第 0 行）添加一个柱形迷你图组
+// Add a Column sparkline group anchored at G1 (column 6, row 0)
 CellArea columnArea = new CellArea();
 columnArea.StartColumn = 6;
 columnArea.EndColumn = 6;
 columnArea.StartRow = 0;
 columnArea.EndRow = 0;
 int columnIdx = worksheet.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, columnArea);
-// 在 H1（第 7 列，第 0 行）添加一个盈亏（堆叠）迷你图组
+// Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 CellArea stackedArea = new CellArea();
 stackedArea.StartColumn = 7;
 stackedArea.EndColumn = 7;
 stackedArea.StartRow = 0;
 stackedArea.EndRow = 0;
 int stackedIdx = worksheet.SparklineGroups.Add(SparklineType.Stacked, "A1:E1", false, stackedArea);
-// 为 PNG 输出配置图像选项
+// Configure image options for PNG output
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
 imageOptions.ImageType = ImageType.Png;
-// 将折线迷你图转换为图像并将其嵌入到单元格 F2 中
+// Convert the Line sparkline to image and embed it in cell F2
 Sparkline lineSp = worksheet.SparklineGroups[lineIdx].Sparklines[0];
 using (MemoryStream ms = new MemoryStream())
 {
     lineSp.ToImage(ms, imageOptions);
     worksheet.Cells["F2"].EmbeddedImage = ms.ToArray();
 }
-// 将柱形迷你图转换为图像并将其嵌入到单元格 G2 中
+// Convert the Column sparkline to image and embed it in cell G2
 Sparkline columnSp = worksheet.SparklineGroups[columnIdx].Sparklines[0];
 using (MemoryStream ms = new MemoryStream())
 {
     columnSp.ToImage(ms, imageOptions);
     worksheet.Cells["G2"].EmbeddedImage = ms.ToArray();
 }
-// 将盈亏迷你图转换为图像并将其嵌入到单元格 H2 中
+// Convert the Win/Loss sparkline to image and embed it in cell H2
 Sparkline stackedSp = worksheet.SparklineGroups[stackedIdx].Sparklines[0];
 using (MemoryStream ms = new MemoryStream())
 {
     stackedSp.ToImage(ms, imageOptions);
     worksheet.Cells["H2"].EmbeddedImage = ms.ToArray();
 }
-// 将工作簿保存到磁盘
+// Save the workbook to disk
 workbook.Save("output_with_sparklines.xlsx");
 ```
 

@@ -35,12 +35,10 @@ Dopo l'esecuzione del codice di esempio, una tabella pivot viene aggiunta al fog
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-
-// Crea un nuovo workbook e ottieni il primo foglio di lavoro
+// Create a new workbook and get the first worksheet
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-
-// Scrivi i dati di origine: vendite per sport e trimestre
+// Write the source data: sales per sport and quarter
 sheet.getCells().get("A1").putValue("Sport");
 sheet.getCells().get("B1").putValue("Quarter");
 sheet.getCells().get("C1").putValue("Sales");
@@ -65,16 +63,13 @@ sheet.getCells().get("C7").putValue(5000);
 sheet.getCells().get("A8").putValue("Golf");
 sheet.getCells().get("B8").putValue("Qtr3");
 sheet.getCells().get("C8").putValue(6430);
-
-// Aggiungi una tabella pivot nella cella di destinazione E3, usando A1:C8 come origine
+// Add a pivot table at destination cell E3, sourced from A1:C8
 let pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// Assegna i campi pivot: Sport a Righe, Quarter a Colonne, Sales a Dati
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Quarter");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Sales");
-
-// Salva il workbook
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

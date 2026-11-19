@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Java 中的迷你图
-linktitle: Aspose.Cells for Java 中的迷你图
+linktitle: 迷你图
 description: Aspose.Cells 是一个用于处理电子表格文件的 Java 库，支持在单元格内创建迷你图 —— 一种放置在单元格中的小型图表。本文介绍如何使用 Aspose.Cells 库添加和自定义折线、柱形和涨/跌迷你图。
 keywords: Aspose.Cells, Java 库, 电子表格, 迷你图, 折线迷你图, 柱形迷你图, 涨/跌迷你图, SparklineGroup, SparklineType
 type: docs
@@ -31,34 +31,34 @@ Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是适合�
 
 ```java
 import com.aspose.cells.*;
-// 步骤 1：创建一个 Workbook 并获取第一个工作表
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
-// 步骤 2：将示例值 5、-3、8、-2、6 写入单元格 A1:E1
+// Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
 cells.get("A1").putValue(5);
 cells.get("B1").putValue(-3);
 cells.get("C1").putValue(8);
 cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
-// 步骤 3：构建一个指向目标单元格 F1 的 CellArea
+// Step 3: Build a CellArea pointing to destination cell F1
 CellArea dest = new CellArea();
-dest.StartColumn = 5;   // 列 F（从 0 开始索引）
+dest.StartColumn = 5;   // column F (0-indexed)
 dest.EndColumn = 5;
-dest.StartRow = 0;      // 第 1 行（从 0 开始索引）
+dest.StartRow = 0;      // row 1 (0-indexed)
 dest.EndRow = 0;
-// 步骤 4：从 A1:E1 添加一个 Line 迷你图到 F1
-// SparklineGroups.add 返回新添加的组的索引
+// Step 4: Add a Line sparkline from A1:E1 into F1
+// SparklineGroups.add returns the index of the newly added group
 int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(index);
-// 步骤 5：创建一个红色的 CellsColor 并将其分配给迷你图线条颜色
+// Step 5: Create a red CellsColor and assign it to the sparkline line color
 CellsColor red = workbook.createCellsColor();
 red.setColor(com.aspose.cells.Color.getRed());
 group.setSeriesColor(red);
-// 步骤 6：启用高点标记和低点标记
+// Step 6: Enable high-point and low-point markers
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
-// 步骤 7：保存工作簿
+// Step 7: Save the workbook
 workbook.save("output_line.xlsx");
 ```
 
@@ -76,23 +76,23 @@ workbook.save("output_line.xlsx");
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// 将示例值写入 A1:E1
+// Write sample values into A1:E1
 int[] values = new int[] { 5, -3, 8, -2, 6 };
 for (int i = 0; i < values.length; i++) {
     worksheet.getCells().get(0, i).putValue(values[i]);
 }
-// 构建一个指向 F1 的 CellArea（列索引 5，行索引 0）
+// Build a CellArea pointing to F1 (column index 5, row index 0)
 CellArea dest = new CellArea();
 dest.StartColumn = 5;
 dest.EndColumn = 5;
 dest.StartRow = 0;
 dest.EndRow = 0;
-// 向目标单元格添加一个 Column 迷你图
+// Add a Column sparkline to the destination cell
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
-// 通过读取 group.Type 来确认迷你图类型
+// Confirm the sparkline type by reading group.Type
 System.out.println("Sparkline Type added: " + group.getType());
-// 保存工作簿
+// Save the workbook
 workbook.save("output_column.xlsx");
 System.out.println("Workbook saved as output_column.xlsx");
 ```
@@ -112,42 +112,42 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
-// 填充示例数据
+// Populate sample data
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// 构建一个指向 F1 的 CellArea（列 5，行 0）
+// Build a CellArea pointing to F1 (column 5, row 0)
 CellArea dest = new CellArea();
 dest.StartColumn = 5;
 dest.EndColumn = 5;
 dest.StartRow = 0;
 dest.EndRow = 0;
-// 添加一个 Win/Loss 迷你图（SparklineType.Stacked）
+// Add a Win/Loss sparkline (SparklineType.Stacked)
 int groupIndex = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(groupIndex);
-// 自定义迷你图组
+// Customize the sparkline group
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
-// 将高点颜色设置为绿色
+// Set the high-point color to green
 CellsColor highColor = workbook.createCellsColor();
 highColor.setColor(Color.getGreen());
 group.setHighPointColor(highColor);
-// 将低点颜色设置为红色
+// Set the low-point color to red
 CellsColor lowColor = workbook.createCellsColor();
 lowColor.setColor(Color.getRed());
 group.setLowPointColor(lowColor);
-// 将负点颜色设置为橙色
+// Set the negative-point color to orange
 CellsColor negColor = workbook.createCellsColor();
 negColor.setColor(Color.getOrange());
 group.setNegativePointsColor(negColor);
-// 设置默认系列颜色（用于正值柱）
+// Set the default series color (used for positive bars)
 CellsColor seriesColor = workbook.createCellsColor();
-seriesColor.setColor(Color.fromArgb(70, 130, 180)); // 近似钢蓝色
+seriesColor.setColor(Color.fromArgb(70, 130, 180)); // SteelBlue approximation
 group.setSeriesColor(seriesColor);
-// 保存工作簿
+// Save the workbook
 workbook.save("output_winloss.xlsx");
 System.out.println("Workbook saved successfully: output_winloss.xlsx");
 ```
@@ -157,40 +157,40 @@ System.out.println("Workbook saved successfully: output_winloss.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// Step 1: 创建一个 Workbook 并获取第一个工作表
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Step 2: 在第 1 行填充示例数据 (A1:E1)
+// Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Step 3: 在 F1 添加一个折线迷你图组
-CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5); // 修复：使用静态工厂方法
+// Step 3: Add a Line sparkline group at F1
+CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5); // Fix: Use static factory method
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
 SparklineGroup lineGroup = worksheet.getSparklineGroups().get(lineIdx);
-// 通过 CellsColor 自定义折线迷你图颜色
+// Customize the line sparkline color via CellsColor
 CellsColor lineColor = workbook.createCellsColor();
 lineColor.setColor(com.aspose.cells.Color.getBlue());
 lineGroup.setSeriesColor(lineColor);
-// Step 4: 在 F2 添加一个柱形迷你图组
-CellArea columnArea = CellArea.createCellArea(1, 5, 1, 5); // 修复：使用静态工厂方法
+// Step 4: Add a Column sparkline group at F2
+CellArea columnArea = CellArea.createCellArea(1, 5, 1, 5); // Fix: Use static factory method
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
 SparklineGroup columnGroup = worksheet.getSparklineGroups().get(columnIdx);
-// 自定义柱形迷你图系列颜色
+// Customize the column sparkline series color
 CellsColor columnColor = workbook.createCellsColor();
 columnColor.setColor(com.aspose.cells.Color.getGreen());
 columnGroup.setSeriesColor(columnColor);
-// Step 5: 在 F3 添加一个胜负（堆叠）迷你图组
-CellArea stackedArea = CellArea.createCellArea(2, 5, 2, 5); // 修复：使用静态工厂方法
+// Step 5: Add a Win/Loss (Stacked) sparkline group at F3
+CellArea stackedArea = CellArea.createCellArea(2, 5, 2, 5); // Fix: Use static factory method
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
 SparklineGroup stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
-// 自定义胜负迷你图系列颜色
+// Customize the win/loss sparkline series color
 CellsColor stackedColor = workbook.createCellsColor();
 stackedColor.setColor(com.aspose.cells.Color.getDarkOrange());
 stackedGroup.setSeriesColor(stackedColor);
-// Step 6: 保存工作簿
+// Step 6: Save the workbook
 workbook.save("output_all.xlsx");
 ```
 

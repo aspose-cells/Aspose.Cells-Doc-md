@@ -1,7 +1,7 @@
 ---
 title: Conversión de Excel al formato OFD
 description: Aspose.Cells for Python via .NET es una biblioteca de procesamiento de hojas de cálculo que admite la conversión de libros de trabajo de Excel al formato OFD (Open Fixed-layout Document). Este artículo demuestra cómo crear contenido de Excel y exportarlo como OFD, así como cómo convertir archivos Excel existentes a OFD usando Aspose.Cells.
-linktitle: Conversión de Excel al formato OFD
+linktitle: OFD
 keywords: Aspose.Cells, Python vía biblioteca .NET, hoja de cálculo, Excel a OFD, conversión OFD, SaveFormat.OFD, documento de diseño fijo, exportación de libro de trabajo
 type: docs
 weight: 195
@@ -32,25 +32,25 @@ El ejemplo construye una hoja de cálculo de factura insertando una imagen de lo
 import aspose.cells as ac
 from datetime import datetime
 data_dir = "C:\\Temp\\"
-# Crear un nuevo Workbook
+# Create a new Workbook
 workbook = ac.Workbook()
-# Obtener la primera hoja de trabajo
+# Obtain the first worksheet
 worksheet = workbook.worksheets[0]
-# Establecer anchos de columna
+# Set column widths
 worksheet.cells.set_column_width(0, 5.0)
 worksheet.cells.set_column_width(1, 35.0)
 worksheet.cells.set_column_width(2, 12.0)
 worksheet.cells.set_column_width(3, 15.0)
 worksheet.cells.set_column_width(4, 15.0)
 worksheet.cells.set_column_width(5, 5.0)
-# Insertar logo de la empresa
+# Insert company logo
 worksheet.pictures.add(1, 1, data_dir + "logo.png")
-# Nombre de la empresa y datos de contacto
+# Company name and contact details
 worksheet.cells.get("B3").put_value("Acme Corporation")
 worksheet.cells.get("B4").put_value("123 Business Street")
 worksheet.cells.get("B5").put_value("City, State 12345")
 worksheet.cells.get("B6").put_value("Phone: (555) 123-4567")
-# Título de FACTURA - combinar celdas
+# INVOICE title - merge cells
 worksheet.cells.merge(7, 1, 2, 4)
 title_cell = worksheet.cells.get("B8")
 title_cell.put_value("INVOICE")
@@ -59,17 +59,17 @@ title_style.font.is_bold = True
 title_style.font.size = 20
 title_style.horizontal_alignment = ac.TextAlignmentType.CENTER
 title_cell.set_style(title_style)
-# Número de factura y fecha
+# Invoice number and date
 worksheet.cells.get("B11").put_value("Invoice Number:")
 worksheet.cells.get("C11").put_value("INV-2024-001")
 worksheet.cells.get("B12").put_value("Date:")
 worksheet.cells.get("C12").put_value(datetime.now().strftime("%Y-%m-%d"))
-# Sección de facturación
+# Bill-to section
 worksheet.cells.get("B14").put_value("Bill To:")
 worksheet.cells.get("B15").put_value("Client Name")
 worksheet.cells.get("B16").put_value("Client Address")
 worksheet.cells.get("B17").put_value("Client City, State")
-# Encabezado de líneas de detalle
+# Line items header
 header_desc = worksheet.cells.get("B19")
 header_qty = worksheet.cells.get("C19")
 header_price = worksheet.cells.get("D19")
@@ -91,20 +91,20 @@ header_desc.set_style(header_style)
 header_qty.set_style(header_style)
 header_price.set_style(header_style)
 header_total.set_style(header_style)
-# Estilo de moneda con bordes
+# Currency style with borders
 currency_style = workbook.create_style()
 currency_style.custom = "\"$\"#,##0.00"
 currency_style.borders.get(ac.BorderType.TOP_BORDER).line_style = ac.CellBorderType.THIN
 currency_style.borders.get(ac.BorderType.BOTTOM_BORDER).line_style = ac.CellBorderType.THIN
 currency_style.borders.get(ac.BorderType.LEFT_BORDER).line_style = ac.CellBorderType.THIN
 currency_style.borders.get(ac.BorderType.RIGHT_BORDER).line_style = ac.CellBorderType.THIN
-# Estilo de borde simple para celdas de descripción/cantidad
+# Plain border style for description/quantity cells
 border_style = workbook.create_style()
 border_style.borders.get(ac.BorderType.TOP_BORDER).line_style = ac.CellBorderType.THIN
 border_style.borders.get(ac.BorderType.BOTTOM_BORDER).line_style = ac.CellBorderType.THIN
 border_style.borders.get(ac.BorderType.LEFT_BORDER).line_style = ac.CellBorderType.THIN
 border_style.borders.get(ac.BorderType.RIGHT_BORDER).line_style = ac.CellBorderType.THIN
-# Filas de líneas de detalle
+# Line items rows
 line_items = [
     ["Product A - Widget", 2, 50.00],
     ["Product B - Gadget", 3, 75.00],
@@ -124,7 +124,7 @@ for i in range(len(line_items)):
     qty_cell.set_style(border_style)
     price_cell.set_style(currency_style)
     total_cell.set_style(currency_style)
-# Subtotal, impuestos, total general
+# Subtotal, tax, grand total
 worksheet.cells.get("B24").put_value("Subtotal:")
 subtotal_cell = worksheet.cells.get("E24")
 subtotal_cell.formula = "SUM(E20:E22)"
@@ -134,20 +134,20 @@ tax_cell.formula = "E24*0.1"
 worksheet.cells.get("B26").put_value("Grand Total:")
 grand_total_cell = worksheet.cells.get("E26")
 grand_total_cell.formula = "E24+E25"
-# Estilo de negrita + moneda para valores totales
+# Bold + currency style for total values
 total_style = workbook.create_style()
 total_style.font.is_bold = True
 total_style.custom = "\"$\"#,##0.00"
 subtotal_cell.set_style(total_style)
 tax_cell.set_style(total_style)
 grand_total_cell.set_style(total_style)
-# Estilo de negrita para etiquetas de totales
+# Bold style for total labels
 bold_style = workbook.create_style()
 bold_style.font.is_bold = True
 worksheet.cells.get("B24").set_style(bold_style)
 worksheet.cells.get("B25").set_style(bold_style)
 worksheet.cells.get("B26").set_style(bold_style)
-# Guardar el libro como archivo OFD
+# Save the workbook as an OFD file
 workbook.save(data_dir + "Invoice.ofd", ac.SaveFormat.OFD)
 ```
 
@@ -158,39 +158,39 @@ Aspose.Cells también puede cargar un libro de trabajo de Excel existente desde 
 import aspose.cells as ac
 from datetime import datetime
 dataDir = "C:\\Examples\\"
-# Abrir un libro de Excel existente desde el disco
+# Open an existing Excel workbook from disk
 workbook = ac.Workbook(dataDir + "SampleBook.xlsx")
-# (1) Leer y mostrar valores de las celdas seleccionadas para confirmar que el archivo se cargó
+# (1) Read and display values from selected cells to confirm the file was loaded
 firstSheet = workbook.worksheets[0]
 print("First sheet name: " + firstSheet.name)
 print("Cell A1: " + firstSheet.cells.get("A1").string_value)
 print("Cell B1: " + firstSheet.cells.get("B1").string_value)
 print("Cell C1: " + firstSheet.cells.get("C1").string_value)
-# (2) Iterar sobre la colección Worksheets para enumerar las hojas disponibles
+# (2) Iterate over the Worksheets collection to enumerate available sheets
 print("\nAvailable worksheets:")
 for i in range(len(workbook.worksheets)):
     ws = workbook.worksheets[i]
     print("  [" + str(i) + "] " + ws.name)
-# (3) Opcionalmente actualizar una celda de marca de tiempo para reflejar la conversión
+# (3) Optionally update a timestamp cell to reflect the conversion
 firstSheet.cells.get("A1").put_value("Converted on: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-# Agregar una fila de encabezado de resumen en la parte superior del bloque de datos
+# Append a summary header row at the top of the data block
 firstSheet.cells.insert_row(0)
 firstSheet.cells.get("A1").put_value("Conversion Summary")
 firstSheet.cells.get("A2").put_value("Generated: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-# (4) Configurar las propiedades de PageSetup en la hoja de cálculo
+# (4) Configure PageSetup properties on the worksheet
 pageSetup = firstSheet.page_setup
 pageSetup.orientation = ac.PageOrientationType.LANDSCAPE
 pageSetup.paper_size = ac.PaperSizeType.PAPER_A4
 pageSetup.fit_to_pages_tall = 1
 pageSetup.fit_to_pages_wide = 1
-# (5) Opcionalmente establecer el área de impresión para la salida OFD
+# (5) Optionally set the print area for the OFD output
 lastRow = firstSheet.cells.max_data_row
 lastCol = firstSheet.cells.max_data_column
 lastColLetter = ac.CellsHelper.column_index_to_name(lastCol)
 printArea = "A1:" + lastColLetter + str(lastRow + 1)
 firstSheet.page_setup.print_area = printArea
 print("\nPrint area set to: " + printArea)
-# (6) Guardar el libro como un archivo OFD
+# (6) Save the workbook as an OFD file
 workbook.save(dataDir + "SampleBook.ofd", ac.SaveFormat.OFD)
 print("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd")
 ```

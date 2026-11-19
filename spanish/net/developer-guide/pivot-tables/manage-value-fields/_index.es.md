@@ -1,6 +1,6 @@
 ---
 title: Administrar los campos de valor de tablas dinámicas en Aspose.Cells for .NET
-linktitle: Administrar los campos de valor de tablas dinámicas en Aspose.Cells for .NET
+linktitle: Campos de valor
 description: Aprenda a agregar campos base a la región de datos de una tabla dinámica, cambie la función de resumen con PivotField.Function y trace el campo de valor en el eje de filas o columnas en Aspose.Cells for .NET.
 keywords: Aspose.Cells, .NET, tabla dinámica, campo de valor, PivotField, PivotField.Function, campo de datos, PivotTable.ValuesField, Sum, Average
 type: docs

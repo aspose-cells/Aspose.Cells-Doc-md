@@ -1,6 +1,6 @@
 ---
 title: Top 10 in einer PivotTable anzeigen oder filtern
-linktitle: Top 10 in einer PivotTable anzeigen oder filtern
+linktitle: Top 10 anzeigen oder filtern
 description: Erfahren Sie, wie Sie in Aspose.Cells for .Net nur die am höchsten oder am niedrigsten rangierten Elemente eines Pivot-Felds in einer PivotTable anzeigen. Dieser Artikel behandelt die Methode Top10AutoShow in Excel 97-2003, das Lesen von Optionen mit Top10AutoShowSettings sowie den Top 10-Filter in Excel 2007-365 über FilterTop10.
 keywords: Aspose.Cells, .NET, PivotTable, Top 10, automatische Anzeige, Top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, FilterTop10, PivotFilterType, PivotField, C#
 type: docs
@@ -52,7 +52,7 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 pivotTable.CalculateData();
 PivotField sportField = pivotTable.RowFields[0];
-// Die Top-2-Elemente nach "Sum of Sales" anzeigen (Index des Datenfelds 0)
+// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sportField.Top10AutoShow(true, true, 2, 0);
 pivotTable.CalculateData();
 workbook.Save("output-top10-by-value-field.xlsx");
@@ -87,7 +87,7 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 pivotTable.CalculateData();
 PivotField sportField = pivotTable.RowFields[0];
-// Die unteren 3 Elemente anzeigen, die nach dem Feld selbst sortiert sind (rankBy = -1)
+// Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sportField.Top10AutoShow(true, false, 3, -1);
 pivotTable.CalculateData();
 workbook.Save("output-top10-by-field-itself.xlsx");
@@ -152,9 +152,9 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 pivotTable.CalculateData();
 PivotField sportField = pivotTable.RowFields[0];
-// Top-10-Filter — die beiden besten Elemente nach "Sum of Sales" beibehalten (Datenfeldindex 0)
+// Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
 PivotFilter filter = sportField.FilterTop10(0, PivotFilterType.Count, true, 2);
-// Für einen prozentualen Filter stattdessen die besten 30 Prozent der Elemente beibehalten:
+// For a percentage-based filter instead, keep the top 30 percent of the items:
 // sportField.FilterTop10(0, PivotFilterType.Percent, true, 30);
 pivotTable.PivotCache.Refresh();
 pivotTable.CalculateData();

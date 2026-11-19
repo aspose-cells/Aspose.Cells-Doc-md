@@ -20,15 +20,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Загрузить образец рабочей книги
+// Load the sample workbook
 const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Получить доступ ко второму рабочему листу и его сводной таблице
+// Access the second worksheet and its pivot table
 const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// Сгруппировать первое поле строки автоматически.
-// Поле содержит даты, поэтому оно группируется по месяцам.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 const field = pt.getRowFields().get(0);
 field.group();
-// Вычислить данные сводной таблицы и сохранить выходной файл
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputAutoGroupPivotField.xlsx");
 ```
@@ -43,15 +43,15 @@ wb.save("outputAutoGroupPivotField.xlsx");
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Получить доступ ко второму рабочему листу и его сводной таблице
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// Сгруппировать первое поле строки (поле даты) по месяцам и кварталам
+// Group the first row field (a date field) by months and quarters
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartDate(new Date(2008, 0, 1));
 options.setEndDate(new Date(2008, 8, 5));
 options.setGroupTypes([AsposeCells.PivotGroupByType.Months, AsposeCells.PivotGroupByType.Quarters]);
 pt.getRowFields().get(0).group(options);
-// Вычислить данные сводной таблицы и сохранить выходной файл
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,19 +64,19 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Получить доступ ко второму листу и его сводной таблице
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo - это поле данных: сначала переместим его в область строк,
-// потому что группировать можно только поля строк/столбцов
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(AsposeCells.PivotFieldType.Row, "FieldTwo");
 pt.calculateData();
-// Сгруппировать числовое поле в диапазоны 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Пересчитать данные сводной таблицы и сохранить выходной файл
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

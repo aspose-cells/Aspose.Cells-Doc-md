@@ -40,34 +40,34 @@ namespace SparklineDemo
     {
         public static void Main()
         {
-            // Шаг 1: Создаём книгу и получаем первый лист
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
             Cells cells = worksheet.Cells;
-            // Шаг 2: Записываем образцы значений 5, -3, 8, -2, 6 в ячейки A1:E1
+            // Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
             cells["A1"].PutValue(5);
             cells["B1"].PutValue(-3);
             cells["C1"].PutValue(8);
             cells["D1"].PutValue(-2);
             cells["E1"].PutValue(6);
-            // Шаг 3: Создаём CellArea, указывающую на целевую ячейку F1
+            // Step 3: Build a CellArea pointing to destination cell F1
             CellArea dest = new CellArea();
-            dest.StartColumn = 5;   // столбец F (индекс с нуля)
+            dest.StartColumn = 5;   // column F (0-indexed)
             dest.EndColumn = 5;
-            dest.StartRow = 0;      // строка 1 (индекс с нуля)
+            dest.StartRow = 0;      // row 1 (0-indexed)
             dest.EndRow = 0;
-            // Шаг 4: Добавляем спарклайн-линию из A1:E1 в F1
-            // SparklineGroups.Add возвращает индекс вновь добавленной группы
+            // Step 4: Add a Line sparkline from A1:E1 into F1
+            // SparklineGroups.Add returns the index of the newly added group
             int index = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, dest);
             SparklineGroup group = worksheet.SparklineGroups[index];
-            // Шаг 5: Создаём красный CellsColor и назначаем его цветом линии спарклайна
+            // Step 5: Create a red CellsColor and assign it to the sparkline line color
             CellsColor red = workbook.CreateCellsColor();
             red.Color = System.Drawing.Color.Red;
             group.SeriesColor = red;
-            // Шаг 6: Включаем маркеры максимальной и минимальной точек
+            // Step 6: Enable high-point and low-point markers
             group.ShowHighPoint = true;
             group.ShowLowPoint = true;
-            // Шаг 7: Сохраняем книгу
+            // Step 7: Save the workbook
             workbook.Save("output_line.xlsx");
         }
     }
@@ -96,28 +96,28 @@ namespace SparklineDemo
     {
         static void Main(string[] args)
         {
-            // Шаг 1: Создайте рабочую книгу и получите первый рабочий лист
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            // Шаг 2: Запишите образцовые значения в A1:E1
+            // Step 2: Write sample values into A1:E1
             int[] values = { 5, -3, 8, -2, 6 };
             for (int i = 0; i < values.Length; i++)
             {
                 worksheet.Cells[0, i].PutValue(values[i]);
             }
-            // Шаг 3: Создайте CellArea, указывающую на F1 (индекс столбца 5, индекс строки 0)
+            // Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
             CellArea dest = new CellArea();
             dest.StartColumn = 5;
             dest.EndColumn = 5;
             dest.StartRow = 0;
             dest.EndRow = 0;
-            // Шаг 4: Добавьте спарклайн типа Column в целевую ячейку
+            // Step 4: Add a Column sparkline to the destination cell
             int idx = worksheet.SparklineGroups.Add(
                 SparklineType.Column, "A1:E1", false, dest);
             SparklineGroup group = worksheet.SparklineGroups[idx];
-            // Шаг 5: Подтвердите тип спарклайна, прочитав group.Type
+            // Step 5: Confirm the sparkline type by reading group.Type
             Console.WriteLine("Sparkline Type added: " + group.Type);
-            // Шаг 6: Сохраните рабочую книгу
+            // Step 6: Save the workbook
             workbook.Save("output_column.xlsx");
             Console.WriteLine("Workbook saved as output_column.xlsx");
         }
@@ -146,51 +146,51 @@ namespace SparklineDemo
     {
         static void Main(string[] args)
         {
-            // Шаг 1: Создайте книгу и получите первый рабочий лист
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
             worksheet.Name = "WinLoss";
-            // Шаг 2: Заполните образец данных в строке 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
+            // Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
             worksheet.Cells["A1"].PutValue(5);
             worksheet.Cells["B1"].PutValue(-3);
             worksheet.Cells["C1"].PutValue(8);
             worksheet.Cells["D1"].PutValue(-2);
             worksheet.Cells["E1"].PutValue(6);
-            // Шаг 3: Создайте CellArea, указывающую на F1 (столбец 5, строка 0)
+            // Step 3: Build a CellArea pointing to F1 (column 5, row 0)
             CellArea dest = new CellArea();
             dest.StartColumn = 5;   // F
             dest.EndColumn = 5;
-            dest.StartRow = 0;      // строка 1
+            dest.StartRow = 0;      // row 1
             dest.EndRow = 0;
-            // Шаг 4: Добавьте спарклайн Win/Loss (SparklineType.Stacked)
+            // Step 4: Add a Win/Loss sparkline (SparklineType.Stacked)
             int groupIndex = worksheet.SparklineGroups.Add(
                 SparklineType.Stacked,
                 "A1:E1",
                 false,
                 dest);
             SparklineGroup group = worksheet.SparklineGroups[groupIndex];
-            // Шаг 5: Настройте группу спарклайнов
-            // Включите маркеры верхних и нижних точек
+            // Step 5: Customize the sparkline group
+            // Enable high-point and low-point markers
             group.ShowHighPoint = true;
             group.ShowLowPoint = true;
             group.ShowNegativePoints = true;
-            // Установите зеленый цвет для верхних точек
+            // Set the high-point color to green
             CellsColor highColor = workbook.CreateCellsColor();
             highColor.Color = System.Drawing.Color.Green;
             group.HighPointColor = highColor;
-            // Установите красный цвет для нижних точек
+            // Set the low-point color to red
             CellsColor lowColor = workbook.CreateCellsColor();
             lowColor.Color = System.Drawing.Color.Red;
             group.LowPointColor = lowColor;
-            // Установите оранжевый цвет для отрицательных точек
+            // Set the negative-point color to orange
             CellsColor negColor = workbook.CreateCellsColor();
             negColor.Color = System.Drawing.Color.Orange;
             group.NegativePointsColor = negColor;
-            // Установите цвет серии по умолчанию (используется для положительных столбцов)
+            // Set the default series color (used for positive bars)
             CellsColor seriesColor = workbook.CreateCellsColor();
             seriesColor.Color = System.Drawing.Color.SteelBlue;
             group.SeriesColor = seriesColor;
-            // Шаг 6: Сохраните книгу
+            // Step 6: Save the workbook
             workbook.Save("output_winloss.xlsx");
             Console.WriteLine("Workbook saved successfully: output_winloss.xlsx");
         }
@@ -205,16 +205,16 @@ namespace SparklineDemo
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Charts;
-// Шаг 1: Создайте рабочую книгу и получите первый рабочий лист
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Шаг 2: Заполните образец данных в строке 1 (A1:E1)
+// Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.Cells["A1"].PutValue(5);
 worksheet.Cells["B1"].PutValue(-3);
 worksheet.Cells["C1"].PutValue(8);
 worksheet.Cells["D1"].PutValue(-2);
 worksheet.Cells["E1"].PutValue(6);
-// Шаг 3: Добавьте группу спарклайнов "Линия" в F1
+// Step 3: Add a Line sparkline group at F1
 CellArea lineArea = new CellArea();
 lineArea.StartColumn = 5;
 lineArea.EndColumn = 5;
@@ -222,11 +222,11 @@ lineArea.StartRow = 0;
 lineArea.EndRow = 0;
 int lineIdx = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, lineArea);
 SparklineGroup lineGroup = worksheet.SparklineGroups[lineIdx];
-// Настройте цвет спарклайна "Линия" с помощью CellsColor
+// Customize the line sparkline color via CellsColor
 CellsColor lineColor = workbook.CreateCellsColor();
 lineColor.Color = System.Drawing.Color.Blue;
 lineGroup.SeriesColor = lineColor;
-// Шаг 4: Добавьте группу спарклайнов "Столбец" в F2
+// Step 4: Add a Column sparkline group at F2
 CellArea columnArea = new CellArea();
 columnArea.StartColumn = 5;
 columnArea.EndColumn = 5;
@@ -234,11 +234,11 @@ columnArea.StartRow = 1;
 columnArea.EndRow = 1;
 int columnIdx = worksheet.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, columnArea);
 SparklineGroup columnGroup = worksheet.SparklineGroups[columnIdx];
-// Настройте цвет серии спарклайна "Столбец"
+// Customize the column sparkline series color
 CellsColor columnColor = workbook.CreateCellsColor();
 columnColor.Color = System.Drawing.Color.Green;
 columnGroup.SeriesColor = columnColor;
-// Шаг 5: Добавьте группу спарклайнов "Победа/Проигрыш" (Составной) в F3
+// Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 CellArea stackedArea = new CellArea();
 stackedArea.StartColumn = 5;
 stackedArea.EndColumn = 5;
@@ -246,11 +246,11 @@ stackedArea.StartRow = 2;
 stackedArea.EndRow = 2;
 int stackedIdx = worksheet.SparklineGroups.Add(SparklineType.Stacked, "A1:E1", false, stackedArea);
 SparklineGroup stackedGroup = worksheet.SparklineGroups[stackedIdx];
-// Настройте цвет серии спарклайна "Победа/Проигрыш"
+// Customize the win/loss sparkline series color
 CellsColor stackedColor = workbook.CreateCellsColor();
 stackedColor.Color = System.Drawing.Color.DarkOrange;
 stackedGroup.SeriesColor = stackedColor;
-// Шаг 6: Сохраните рабочую книгу
+// Step 6: Save the workbook
 workbook.Save("output_all.xlsx");
 ```
 

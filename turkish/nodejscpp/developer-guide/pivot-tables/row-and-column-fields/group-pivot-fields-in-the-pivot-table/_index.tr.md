@@ -1,6 +1,6 @@
 ---
 title: Pivot Tablosunda Pivot Alanlarını Gruplama
-linktitle: Pivot Tablosunda Pivot Alanlarını Gruplama
+linktitle: Pivot Alanlarını Gruplama
 description: Aspose.Cells for Node.js via C++ ile PivotField.Group ve PivotFieldGroupOptions kullanarak bir pivot tablodaki satır ve sütun pivot alanlarını aylar ve çeyrekler gibi tarih dönemlerine ve sayısal aralıklara nasıl gruplayacağınızı öğrenin.
 keywords: Aspose.Cells, pivot tablosu, pivot alanını gruplama, PivotField.Group, PivotFieldGroupOptions, tarih gruplama, sayı gruplama, aylar, çeyrekler, sayısal aralık, JavaScript
 type: docs
@@ -20,15 +20,15 @@ Parametresiz `pivotField.group()` aşırı yüklemesi, alanın veri türünü in
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Örnek çalışma kitabını yükle
+// Load the sample workbook
 const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// İkinci çalışma sayfasına ve onun özet tablosuna erişim sağla
+// Access the second worksheet and its pivot table
 const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// İlk satır alanını otomatik olarak grupla.
-// Alan tarihleri içeriyor, bu nedenle aylara göre gruplandırılır.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 const field = pt.getRowFields().get(0);
 field.group();
-// Özet tablosu verilerini hesapla ve çıktı dosyasını kaydet
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputAutoGroupPivotField.xlsx");
 ```
@@ -42,15 +42,15 @@ Aşağıdaki örnek, örnek pivot tablosunun tarih satır alanını bir başlang
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// İkinci çalışma sayfasına ve pivot tablosuna erişim
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// İlk satır alanını (tarih alanı) aylar ve çeyrekler olarak grupla
+// Group the first row field (a date field) by months and quarters
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartDate(new Date(2008, 0, 1));
 options.setEndDate(new Date(2008, 8, 5));
 options.setGroupTypes([AsposeCells.PivotGroupByType.Months, AsposeCells.PivotGroupByType.Quarters]);
 pt.getRowFields().get(0).group(options);
-// Pivot tablo verilerini hesapla ve çıktı dosyasını kaydet
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -63,19 +63,19 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// İkinci çalışma sayfasına ve özet tablosuna erişin
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo bir veri alanıdır: önce satır alanına taşıyın,
-// çünkü yalnızca satır/sütun alanları gruplanabilir
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(AsposeCells.PivotFieldType.Row, "FieldTwo");
 pt.calculateData();
-// Sayısal alanı 0-1, 2-3, 4-5 aralıklarına gruplayın
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Özet tablosu verilerini hesaplayın ve çıktı dosyasını kaydedin
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

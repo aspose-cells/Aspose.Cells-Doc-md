@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via .NET ile Mini Grafikleri Görüntüye ve HTML'e Dönüştürme
-linktitle: Aspose.Cells for Python via .NET ile Mini Grafikleri Görüntüye ve HTML'e Dönüştürme
+linktitle: Sparkline'ı Görüntü ve HTML'e Dönüştür
 description: Aspose.Cells mini grafiklerini hücreye gömülmeleri için bağımsız görüntüler olarak işlemeyi ve HtmlSaveOptions kullanarak mini grafik açısından zengin çalışma sayfalarını Python via .NET'te HTML olarak dışa aktarmayı öğrenin.
 keywords: Aspose.Cells, Python via .NET, sparkline, sparkline.to_image, cell.embedded_image, HtmlSaveOptions, mini grafik işleme, mini grafiği görüntüye dönüştürme, mini grafiği HTML'e dışa aktarma
 type: docs

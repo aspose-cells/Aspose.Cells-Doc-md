@@ -22,7 +22,7 @@ Aspose.Cells предоставляет пять практических стр
 3. **Фильтр по значению** — фильтрует элементы на основе агрегированных значений поля данных.
 4. **Топ-10 фильтр** — отображает только верхние или нижние N элементов, ранжированных по полю значения.
 5. **Скрытие/отображение элементов сводной таблицы** — вручную управляет видимостью каждого отдельного элемента в поле.
-Каждый подход использует различный метод класса `PivotField` или свойство класса `PivotItem`. После применения любого фильтра необходимо вызвать `refreshData()` и `calculateData()` для сводной таблицы, чтобы кешированные данные и вычисленные значения отражали новое состояние фильтра.
+Каждый подход использует различный метод класса `PivotField` или свойство класса `PivotItem`. После применения любого фильтра необходимо вызвать `getPivotCache().refresh()` для сводной таблицы, чтобы кешированные данные и вычисленные значения отражали новое состояние фильтра.
 
 ## **Фильтр по метке**
 Фильтр по метке позволяет фильтровать элементы поля строки или столбца путём сравнения их текстовых заголовков с шаблоном. Это полезно, когда требуется отобразить только товары, названия которых начинаются с определённой буквы, содержат конкретное слово или соответствуют другому критерию, основанному на заголовке.
@@ -33,19 +33,19 @@ Aspose.Cells предоставляет фильтрацию по меткам �
 const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
-// Загрузка существующей книги, содержащей сводную таблицу
+// Load the existing workbook containing a pivot table
 let workbook = new AsposeCells.Workbook(fileName);
-// Доступ к рабочему листу по индексу (первый рабочий лист)
+// Access the worksheet by index (first worksheet)
 let worksheet = workbook.getWorksheets().get(0);
-// Доступ к сводной таблице по индексу
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// Получение первого строкового PivotField
+// Retrieve the first row PivotField
 let rowField = pivotTable.getRowFields().get(0);
-// Применение фильтра по меткам — отображение только строковых элементов, метки которых начинаются с указанного префикса
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
-// Обновление и пересчёт данных сводной таблицы, чтобы фильтр вступил в силу
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Сохранение книги обратно на диск
+// Save the workbook back to disk
 workbook.save(fileName);
 ```
 
@@ -67,23 +67,23 @@ if (!fs.existsSync(inputPath))
 {
     throw new Error("Source workbook not found. Path: " + inputPath);
 }
-// Загружаем существующую книгу, содержащую сводную таблицу
+// Load the existing workbook that contains the pivot table
 var workbook = new AsposeCells.Workbook(inputPath);
-// Получаем доступ к листу, содержащему сводную таблицу (по индексу)
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.getWorksheets().get(0);
-// Получаем доступ к сводной таблице по индексу
+// Access the pivot table by index
 var pivotTable = worksheet.getPivotTables().get(0);
-// Извлекаем поле даты из области строк
-// (Фильтр по дате работает только тогда, когда область строк/столбцов содержит только ячейки с датой/временем или пустые ячейки)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 let dateField = pivotTable.getRowFields().get(0);
-// Определяем критерий даты для фильтра "Между"
+// Define the date criterion for the Between filter
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
-// Применяем фильтр по дате к полю сводной таблицы
+// Apply the date filter on the pivot field
 dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
-// Обновляем и пересчитываем сводную таблицу, чтобы фильтр вступил в силу
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Сохраняем книгу
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
@@ -99,7 +99,7 @@ var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
 var rowField = pivotTable.getRowFields().get(0);
 var dataField = pivotTable.getDataFields().get(0);
-// Находим индекс поля данных вручную, так как PivotFieldCollection не имеет IndexOf
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 var dataFieldIndex = -1;
 for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 {
@@ -131,29 +131,29 @@ const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
-// Доступ к рабочему листу, содержащему сводную таблицу (индекс 0)
+// Access the worksheet that holds the pivot table (index 0)
 let worksheet = workbook.getWorksheets().get(0);
-// Доступ к сводной таблице по индексу
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// Проверяем, что в области данных есть хотя бы одно поле значений (PivotField)
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() == 0)
 {
-    throw new Error("Сводная таблица не содержит поле значений (данных).");
+    throw new Error("Pivot table has no value (data) PivotField.");
 }
 let valueField = pivotTable.getDataFields().get(0);
-// Получаем целевое поле строки (поле, к которому хотим применить фильтр Топ-10)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 let rowField = pivotTable.getRowFields().get(0);
-// Первое (и единственное) поле данных находится по индексу 0; Топ-10 ранжирует по нему.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 let valueFieldIndex = 0;
-// Применяем фильтр Топ-10 к полю строки:
+// Apply the Top 10 filter on the row field:
 //   - itemCount   = 10
 //   - filterType  = PivotFilterType.SUM
-//   - isTop       = true (верхние N; false означало бы нижние N)
-//   - valueFieldIndex = индекс поля данных, используемого для ранжирования элементов
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.COUNT, true, 10);
-// Обновляем данные сводной таблицы и пересчитываем её, чтобы фильтр вступил в силу
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Сохраняем книгу
+// Save the workbook
 workbook.save(outputPath);
 ```
 
@@ -164,29 +164,29 @@ workbook.save(outputPath);
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
-// Получаем доступ к первому листу, содержащему сводную таблицу
+// Access the first worksheet which contains the pivot table
 let sheet = workbook.getWorksheets().get(0);
-// Получаем доступ к сводной таблице по индексу (первая сводная таблица на листе)
+// Access the pivot table by index (the first pivot table on the sheet)
 let pivotTable = sheet.getPivotTables().get(0);
-// Извлекаем целевое поле сводной таблицы (первое поле метки строки, в котором будем скрывать/отображать элементы)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 let pivotField = pivotTable.getRowFields().get(0);
-// Перебираем коллекцию PivotItems выбранного PivotField
+// Iterate through the PivotItems collection of the selected PivotField
 let itemCount = pivotField.getPivotItems().getCount();
 for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
-    // Скрываем элементы сводной таблицы, соответствующие определённому имени/критерию
+    // Hide pivot items that match a specific name/criterion
     if (item.getName() == "Item1" || item.getName() == "Item2") {
         item.setHidden(true);
     }
-    // Демонстрируем отображение: снова показываем ранее скрытый элемент сводной таблицы
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.getName() == "Item3") {
         item.setHidden(false);
     }
 }
-// Обновляем и пересчитываем сводную таблицу, чтобы изменения вступили в силу
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh();
-// Сохраняем книгу — скрытые элементы остаются в исходных данных,
-// но исключаются из отображаемого результата сводной таблицы
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx");
 ```
 

@@ -122,21 +122,21 @@ Les formules matricielles CSE sont la façon classique d'évaluer une expression
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Charger le classeur source avec les options de chargement xlsx
+    // Load the source workbook with xlsx LoadOptions
     std::string srcFile = "source.xlsx";
     Workbook workbook(U16String(srcFile.c_str()), LoadOptions(LoadFormat::Xlsx));
-    // Accéder à la première feuille de calcul et à sa collection Cells
+    // Access the first worksheet and its Cells collection
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // Définir la formule matricielle CSE classique sur la cellule A6.
-    // La formule =TRANSPOSE(A1:D5) fait pivoter la plage source de 5 lignes x 4 colonnes
-    // dans une matrice de 4 lignes x 5 colonnes. Le deuxième argument (4) est le nombre de lignes
-    // et le troisième argument (5) est le nombre de colonnes de la matrice résultante.
-    // Aspose.Cells écrit le marqueur de formule matricielle CSE afin qu'Excel l'évalue comme
-    // une formule matricielle multi-cellules unique, compatible avec les anciennes versions d'Excel
-    // (2019, 2016, 2013, etc.) qui ne prennent pas en charge le déversement dynamique des matrices.
+    // Set the classic CSE array formula on cell A6.
+    // The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+    // into a 4-row x 5-column array. The second argument (4) is the number of rows
+    // and the third argument (5) is the number of columns of the resulting array.
+    // Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+    // a single multi-cell array formula, compatible with older Excel versions
+    // (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
     cells.Get(u"A6").SetArrayFormula(u"=TRANSPOSE(A1:D5)", 4, 5);
-    // Enregistrer le classeur pour que le marqueur de formule matricielle soit persistant
+    // Save the workbook so the array-formula marker is persisted
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

@@ -1,8 +1,8 @@
 ---
 title: Top 10 Show or Filter in Pivot Table
-description: Learn how to show only the top or bottom ranked items of a pivot field in Aspose.Cells for Go via C++. This article covers the Excel 97-2003 AutoShow settings (SetIsAutoShow and friends), reading the options back, and the Excel 2007-365 Top 10 Filter via FilterTop10.
+description: Learn how to show only the top or bottom ranked items of a pivot field in Aspose.Cells for Go via C++. This article covers the Excel 97-2003 Top10AutoShow method, reading the options back with Top10AutoShowSettings, and the Excel 2007-365 Top 10 Filter via FilterTop10.
 linktitle: Top 10 Show or Filter
-keywords: Aspose.Cells, Go via C++, pivot table, top 10, auto show, SetIsAutoShow, SetIsAscendShow, SetAutoShowCount, SetAutoShowField, FilterTop10, PivotFilterType, PivotField, Go
+keywords: Aspose.Cells, Go via C++, pivot table, top 10, auto show, Top10AutoShow, GetTop10AutoShowSettings, PivotFieldTop10AutoShowSettings, FilterTop10, PivotFilterType, PivotField, Go
 type: docs
 weight: 20
 url: /go-cpp/top-10-show-or-filter-in-pivot-table/
@@ -12,15 +12,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ## **Possible Usage Scenarios**
 A pivot table that lists every item of a row field can be hard to read when the field has dozens of members. A Top 10 report keeps only the highest or lowest ranked items, which is exactly what ranking reports need — "top 5 products by revenue" or "bottom 3 regions by sales count". Aspose.Cells supports two mechanisms for this, and they correspond to two generations of Microsoft Excel.
-- **Excel 97-2003 AutoShow** — the four `PivotField` setters `SetIsAutoShow`, `SetIsAscendShow`, `SetAutoShowCount` and `SetAutoShowField`. This is the classic "Show the top/bottom N items" setting stored directly on the pivot field. It works in every Excel version, old and new, because it is part of the original pivot table format.
+- **Excel 97-2003 AutoShow** — the `PivotField.Top10AutoShow()` method. This is the classic "Show the top/bottom N items" setting stored directly on the pivot field. It works in every Excel version, old and new, because it is part of the original pivot table format.
 - **Excel 2007-365 Top 10 Filter** — the `PivotField.FilterTop10()` method. This is the modern Top 10 value filter found under the field menu's Value Filters. It is stored as a `PivotFilter` object attached to the field and offers item-count and percentage based ranking.
 
-## **Top 10 Show in Excel 97-2003 (AutoShow)**
-The classic AutoShow is configured with four setter calls on the `PivotField`:
-- `SetIsAutoShow(bool)` — enables or disables the AutoShow setting on the field.
-- `SetIsAscendShow(bool)` — `false` keeps the highest ranked items (Top), `true` keeps the lowest (Bottom).
-- `SetAutoShowCount(int32)` — how many items to keep, for example 10 for a classic Top 10 report.
-- `SetAutoShowField(int32)` — the zero-based index of the **data field** whose values rank the items. Pass -1 to rank the items by the field itself.
+## **Top 10 Show in Excel 97-2003 (Top10AutoShow)**
+The classic AutoShow is configured with a single call to `PivotField.Top10AutoShow(isAutoShow bool, isTop bool, count int32, rankBy int32)`:
+- `isAutoShow` — enables or disables the AutoShow setting on the field.
+- `isTop` — `true` keeps the highest ranked items (Top), `false` keeps the lowest (Bottom).
+- `count` — how many items to keep, for example 10 for a classic Top 10 report.
+- `rankBy` — the zero-based index of the **data field** whose values rank the items. Pass -1 to rank the items by the field itself.
 The ranking can be driven by a value field or by the field itself. Two natural variants exist, shown below.
 
 ### **Rank by a Value Field**
@@ -64,17 +64,14 @@ func main() {
 	rowFields, _ := pivotTable.GetRowFields()
 	sportField, _ := rowFields.Get_Int(0)
 	// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
-	sportField.SetIsAutoShow(true)
-	sportField.SetIsAscendShow(false)
-	sportField.SetAutoShowCount(int32(2))
-	sportField.SetAutoShowField(int32(0))
+	sportField.Top10AutoShow(true, true, 2, 0)
 	pivotTable.CalculateData()
 	workbook.Save_String("output-top10-by-value-field.xlsx")
 }
 ```
 
 ### **Rank by the Field Itself**
-A field can also be ranked by itself — pass -1 to `SetAutoShowField`. No extra data field is needed for this variant; the field only has to sit in the row (or column) area. The following example shows the bottom 3 sports ranked by the field itself. When this setting is saved, the `rankBy` attribute is omitted from the pivot table XML because -1 is the format's default value, and `GetAutoShowField()` reads -1 back.
+A field can also be ranked by itself — pass -1 to `rankBy`. No extra data field is needed for this variant; the field only has to sit in the row (or column) area. The following example shows the bottom 3 sports ranked by the field itself. When this setting is saved, the `rankBy` attribute is omitted from the pivot table XML because -1 is the format's default value, and `GetRankBy()` reads -1 back.
 
 ```go
 package main
@@ -114,17 +111,14 @@ func main() {
 	rowFields, _ := pivotTable.GetRowFields()
 	sportField, _ := rowFields.Get_Int(0)
 	// Show the bottom 3 items ranked by the field itself (rankBy = -1)
-	sportField.SetIsAutoShow(true)
-	sportField.SetIsAscendShow(true)
-	sportField.SetAutoShowCount(3)
-	sportField.SetAutoShowField(-1)
+	sportField.Top10AutoShow(true, false, 3, -1)
 	pivotTable.CalculateData()
 	workbook.Save_String("output-top10-by-field-itself.xlsx")
 }
 ```
 
 ## **Reading the Current AutoShow Options**
-The `PivotField` reader methods `IsAutoShow()`, `IsAscendShow()`, `GetAutoShowCount()` and `GetAutoShowField()` expose the AutoShow options currently stored on the field. Use them to inspect how an existing workbook, or a pivot table you just configured, will present its items — including workbooks loaded from file.
+The `PivotField.GetTop10AutoShowSettings()` method returns a `PivotFieldTop10AutoShowSettings` object that exposes the AutoShow options currently stored on the field. Use it to inspect how an existing workbook, or a pivot table you just configured, will present its items — including workbooks loaded from file.
 
 ```go
 package main
@@ -140,27 +134,28 @@ func main() {
 	pivotTable, _ := pivotTables.Get_Int(0)
 	rowFields, _ := pivotTable.GetRowFields()
 	sportField, _ := rowFields.Get_Int(0)
-	isAutoShow, _ := sportField.IsAutoShow()
-	isAscendShow, _ := sportField.IsAscendShow()
-	autoShowCount, _ := sportField.GetAutoShowCount()
-	autoShowField, _ := sportField.GetAutoShowField()
+	settings, _ := sportField.GetTop10AutoShowSettings()
+	isAutoShow, _ := settings.IsAutoShow()
+	isTop, _ := settings.IsTop()
+	autoShowCount, _ := settings.GetAutoShowCount()
+	rankBy, _ := settings.GetRankBy()
 	direction := "Bottom"
-	if !isAscendShow {
+	if isTop {
 		direction = "Top"
 	}
 	fmt.Println("AutoShow enabled:", isAutoShow)
 	fmt.Println("Direction:", direction)
 	fmt.Println("Item count:", autoShowCount)
-	fmt.Println("Ranking data field index:", autoShowField)
+	fmt.Println("Ranking data field index:", rankBy)
 }
 ```
 
-The four properties map to the classic AutoShow attributes written into the pivot table XML (`autoShow`, `topAutoShow`, `itemPageCount`, `rankBy`), so the values read back are the values every Excel version will honor.
+The settings map to the classic AutoShow attributes written into the pivot table XML (`autoShow`, `topAutoShow`, `itemPageCount`, `rankBy`), so the values read back are the values every Excel version will honor.
 
 ## **Note**
 
 {{% alert color="primary" %}}
-- After changing any AutoShow setter, call `PivotTable.CalculateData()` again — the settings only take effect in the rendered layout on the next recalculation.
+- After calling `Top10AutoShow()`, call `PivotTable.CalculateData()` again — the settings only take effect in the rendered layout on the next recalculation.
 - The AutoShow settings work with row and column fields. A field that is only in the page (filter) area cannot be ranked this way because its items are not laid out in the pivot body.
 {{% /alert %}}
 
@@ -218,7 +213,7 @@ func main() {
 ```
 
 {{% alert color="primary" %}}
-The AutoShow settings and `FilterTop10` are two separate features. AutoShow writes the classic `autoShow` attribute set on the pivot field and is honored by all Excel versions back to Excel 97. `FilterTop10` writes a modern `PivotFilter` entry, which requires Excel 2007 or later. When a workbook is opened in an older Excel version, a pivot table that uses the modern filter falls back to showing all items. For documents that must round-trip through legacy tooling, prefer the AutoShow setters; for modern workbooks, prefer `FilterTop10` because it composes with the other value filters.
+The AutoShow settings and `FilterTop10` are two separate features. AutoShow writes the classic `autoShow` attribute set on the pivot field and is honored by all Excel versions back to Excel 97. `FilterTop10` writes a modern `PivotFilter` entry, which requires Excel 2007 or later. When a workbook is opened in an older Excel version, a pivot table that uses the modern filter falls back to showing all items. For documents that must round-trip through legacy tooling, prefer `Top10AutoShow`; for modern workbooks, prefer `FilterTop10` because it composes with the other value filters.
 {{% /alert %}}
 
 ## **Related Articles**

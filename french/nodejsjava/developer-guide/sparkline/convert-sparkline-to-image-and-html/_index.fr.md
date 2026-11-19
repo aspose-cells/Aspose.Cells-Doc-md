@@ -37,52 +37,52 @@ Dans ce workflow, vous allez construire une feuille de calcul qui contient une p
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// Remplir les données d'exemple dans les cellules A1:E1
+// Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Ajouter un groupe de sparklines en ligne ancré à F1 (colonne 5, ligne 0)
+// Add a Line sparkline group anchored at F1 (column 5, row 0)
 let lineArea = new AsposeCells.CellArea();
 lineArea.StartColumn = 5;
 lineArea.EndColumn = 5;
 lineArea.StartRow = 0;
 lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
-// Ajouter un groupe de sparklines en colonnes ancré à G1 (colonne 6, ligne 0)
+// Add a Column sparkline group anchored at G1 (column 6, row 0)
 let columnArea = new AsposeCells.CellArea();
 columnArea.StartColumn = 6;
 columnArea.EndColumn = 6;
 columnArea.StartRow = 0;
 columnArea.EndRow = 0;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
-// Ajouter un groupe de sparklines Win/Loss (empilées) ancré à H1 (colonne 7, ligne 0)
+// Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 let stackedArea = new AsposeCells.CellArea();
 stackedArea.StartColumn = 7;
 stackedArea.EndColumn = 7;
 stackedArea.StartRow = 0;
 stackedArea.EndRow = 0;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
-// Configurer les options d'image pour la sortie PNG
+// Configure image options for PNG output
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
 imageOptions.setImageType(AsposeCells.ImageType.PNG);
-// Convertir la sparkline en ligne en image et l'incorporer dans la cellule F2
+// Convert the Line sparkline to image and embed it in cell F2
 let lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 let lineMs = new java.io.ByteArrayOutputStream();
 lineSp.toImage(lineMs, imageOptions);
 worksheet.getCells().get("F2").setEmbeddedImage(lineMs.toByteArray());
-// Convertir la sparkline en colonnes en image et l'incorporer dans la cellule G2
+// Convert the Column sparkline to image and embed it in cell G2
 let columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0);
 let columnMs = new java.io.ByteArrayOutputStream();
 columnSp.toImage(columnMs, imageOptions);
 worksheet.getCells().get("G2").setEmbeddedImage(columnMs.toByteArray());
-// Convertir la sparkline Win/Loss en image et l'incorporer dans la cellule H2
+// Convert the Win/Loss sparkline to image and embed it in cell H2
 let stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0);
 let stackedMs = new java.io.ByteArrayOutputStream();
 stackedSp.toImage(stackedMs, imageOptions);
 worksheet.getCells().get("H2").setEmbeddedImage(stackedMs.toByteArray());
-// Enregistrer le classeur sur le disque
+// Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx");
 ```
 

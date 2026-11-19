@@ -43,16 +43,16 @@ for (let i = 0; i < fruits.length; i++) {
     cells.get(i + 1, 1).putValue(years[i]);
     cells.get(i + 1, 2).putValue(amounts[i]);
 }
-// Tabla dinámica con su esquina superior izquierda en E3
+// Pivot table with its top-left corner at E3
 const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.calculateData();
-// Anclar el formato condicional en F4 (fila 3, columna 5) con el alcance de Datos
+// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 format.applyTo(3, 5, AsposeCells.PivotConditionFormatScopeType.Data);
-// Regla - resaltar montos mayores a 200
+// Rule - highlight amounts greater than 200
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CellValue,
     AsposeCells.OperatorType.GreaterThan,
@@ -96,7 +96,7 @@ const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.calculateData();
-// Apuntar al rectángulo F4:F6 (las celdas de valor sin el total general)
+// Target the rectangle F4:F6 (the value cells without the grand total)
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 const area = new AsposeCells.CellArea();
@@ -105,7 +105,7 @@ area.startColumn = 5;
 area.endRow = 5;
 area.endColumn = 5;
 format.addCellArea(area);
-// Regla - cursiva en amarillo claro para cantidades entre 150 y 300
+// Rule - italic on light yellow for amounts between 150 and 300
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CellValue,
     AsposeCells.OperatorType.Between,
@@ -143,13 +143,13 @@ const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.calculateData();
-// Adjuntar la regla al campo de datos Amount como una región semántica
+// Attach the rule to the Amount data field as a semantic region
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 const area = new AsposeCells.PivotArea(pivotTable);
 area.selectField(AsposeCells.PivotFieldType.Data, "Amount");
 format.getPivotAreas().addPivotArea(area);
-// Regla - texto gris para cantidades menores a 150
+// Rule - grey text for amounts below 150
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CellValue,
     AsposeCells.OperatorType.LessThan,
@@ -180,10 +180,10 @@ for (let i = 0; i < pivotTable.getConditionalFormats().getCount(); i++) {
         console.log(`    rows ${area.startRow + 1}-${area.endRow + 1}, columns ${area.startColumn + 1}-${area.endColumn + 1}`);
     }
 }
-// Esto imprime:
-// Formatos condicionales: 1
-// Formato 0: ValorDeCelda MayorQue formula1==200
-//     filas 4-7, columnas 6-6        (F4:F7, la región de datos resuelta)
+// This prints:
+// Conditional formats: 1
+// Format 0: 1 2 formula1=200   (type 1 = CellValue, operator 2 = GreaterThan)
+//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **Artículos relacionados**

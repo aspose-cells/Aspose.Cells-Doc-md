@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via Java 中的迷你图
-linktitle: Aspose.Cells for Python via Java 中的迷你图
+linktitle: 迷你图
 description: Aspose.Cells 是一个用于处理电子表格文件的 Python via Java 库，支持创建迷你图——放置在工作表单元格内的微型图表。本文介绍如何使用 Aspose.Cells 库添加和自定义折线、柱形和盈亏迷你图。
 keywords: Aspose.Cells, Python via Java 库, 电子表格, 迷你图, 折线迷你图, 柱形迷你图, 盈亏迷你图, SparklineGroup, SparklineType
 type: docs
@@ -83,26 +83,26 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType
-# 步骤 1: 创建一个 Workbook 并获取第一个工作表
+# Step 1: Create a Workbook and get the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# 步骤 2: 将示例值写入 A1:E1
+# Step 2: Write sample values into A1:E1
 values = [5, -3, 8, -2, 6]
 for i in range(len(values)):
     worksheet.getCells().get(0, i).putValue(values[i])
-# 步骤 3: 构建一个指向 F1（列索引 5，行索引 0）的 CellArea
+# Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 dest = CellArea()
 dest.StartColumn = 5
 dest.EndColumn = 5
 dest.StartRow = 0
 dest.EndRow = 0
-# 步骤 4: 在目标单元格添加一个 Column 迷你图
+# Step 4: Add a Column sparkline to the destination cell
 idx = worksheet.getSparklineGroups().add(
     SparklineType.COLUMN, "A1:E1", False, dest)
 group = worksheet.getSparklineGroups().get(idx)
-# 步骤 5: 通过读取 group.Type 确认迷你图类型
+# Step 5: Confirm the sparkline type by reading group.Type
 print("Sparkline Type added: " + str(group.getType()))
-# 步骤 6: 保存工作簿
+# Step 6: Save the workbook
 workbook.save("output_column.xlsx")
 print("Workbook saved as output_column.xlsx")
 jpype.shutdownJVM()

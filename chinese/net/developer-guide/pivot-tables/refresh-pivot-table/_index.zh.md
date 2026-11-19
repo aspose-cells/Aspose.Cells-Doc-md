@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for .NET 中刷新数据透视表与数据透视缓存
-linktitle: 在 Aspose.Cells for .NET 中刷新数据透视表与数据透视缓存
+linktitle: 刷新数据透视表
 description: 学习如何使用 v26.7+ 的数据透视表刷新 API 在 Aspose.Cells for .NET 中刷新数据透视表。本文涵盖 RefreshAll、RefreshPivotTables、PivotCache.Refresh、CalculateData 和 GetPivotTables，并配有实用代码示例。
 keywords: Aspose.Cells, .NET, 数据透视表, 刷新, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
@@ -55,14 +55,14 @@ workbook.Save("output.xlsx");
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// 创建一个新工作簿
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// 将表头行写入单元格 A1:C1
+// Write header row into cells A1:C1
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// 将数据行写入单元格 A2:C9（2020 和 2021 年的 8 行水果数据）
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.Cells["A2"].PutValue("grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(50);
@@ -87,19 +87,19 @@ worksheet.Cells["C8"].PutValue(110);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(120);
-// 添加数据透视表：源数据范围 "A1:C9"，目标单元格 "E3"，名称
+// Add a pivot table: source range "A1:C9", destination cell "E3"
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// 分配数据透视字段：Fruit 到行，Year 到列，Amount 到数据
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// 修改源数据中的几个 Amount 值以模拟数据更改
+// Modify several Amount values in the source data to simulate changes
 worksheet.Cells["C2"].PutValue(55);
 worksheet.Cells["C5"].PutValue(85);
 worksheet.Cells["C9"].PutValue(125);
-// 刷新工作簿中的所有数据透视表/数据透视缓存
+// Refresh every pivot table / pivot cache in the workbook
 workbook.RefreshAll();
-// 保存工作簿
+// Save the workbook
 workbook.Save("output.xlsx");
 ```
 
@@ -165,11 +165,11 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
-// 写入 Fruit / Year / Amount 表头行
+// Write Fruit / Year / Amount header row
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// 写入 8 行数据（第 2-9 行，匹配源数据区域 A1:C9）
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.Cells["A2"].PutValue("Grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(100);
@@ -194,20 +194,21 @@ worksheet.Cells["C8"].PutValue(350);
 worksheet.Cells["A9"].PutValue("Cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(450);
-// 添加名为 的数据透视表，放置在目标单元格 E3，数据源为 A1:C9
+// Add a pivot table placed at destination cell E3, sourcing from A1:C9
 var pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// 分配字段：Fruit 到行，Year 到列，Amount 到数据
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// 修改视图/布局属性——这是仅展示层面的修改，
-// 因此不需要通过 PivotCache.Refresh() 重新读取源数据。
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.Refresh().
 pivotTable.RefreshDataOnOpeningFile = false;
-// CalculateData() 从 PivotCache 中已持有的数据重新渲染此数据透视表的显示（数据 + 样式）。
-// 因为源数据未发生变化，
-// 不会执行与源数据的往返操作——仅将缓存的值重新计算到工作表单元格中。
+// CalculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.CalculateData();
-// 将工作簿保存到磁盘
+// Save the workbook to disk
 workbook.Save("output.xlsx");
 ```
 

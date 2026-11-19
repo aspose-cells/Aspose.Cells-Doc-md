@@ -24,15 +24,15 @@ Das folgende Beispiel erstellt einen kleinen Datensatz mit Frucht / Jahr / Betra
 
 ```java
 import com.aspose.cells.*;
-// Erstellen Sie eine neue Arbeitsmappe
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// Richten Sie die Kopfzeile ein
+// Set up the header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// Füllen Sie 9 Zeilen mit Beispieldaten: Frucht, Jahr, Betrag
+// Populate 9 rows of sample data: Fruit, Year, Amount
 Object[][] data = new Object[][]
 {
     { "apple", 2020, 100 },
@@ -51,15 +51,15 @@ for (int i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 1).putValue(data[i][1]);
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
-// Fügen Sie eine Pivot-Tabelle hinzu, die an Zelle E3 verankert ist
+// Add a pivot table anchored at cell E3
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// Fügen Sie Felder zu ihren Bereichen hinzu: Frucht als Zeile, Betrag als Daten, Jahr als Seitenfeld
+// Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// Aktualisieren und berechnen Sie die Pivot-Tabellen-Daten
+// Refresh and calculate the pivot table data
 pivotTable.calculateData();
-// Speichern Sie die Arbeitsmappe
+// Save the workbook
 workbook.save("pageFieldSample.xlsx");
 ```
 
@@ -68,19 +68,19 @@ Wenn Sie bereits mit einer `PivotField`-Instanz arbeiten, können Sie diese dire
 
 ```java
 import com.aspose.cells.*;
-// - Die Pivot-Tabelle und das Seitenfeld werden genau wie in
-//   Szenario 1a (Fruit/Year/Amount-Daten, Pivot bei E3, Fruit->Zeile,
-//   Amount->Daten) erstellt. Unten holen wir das Year PivotField aus der
-//   BaseFields-Sammlung und übergeben es an PageFields.Add - die
-//   Low-Level-Alternative zu AddFieldToArea. Das Ergebnis ist
-//   funktional identisch mit Szenario 1a.
+// - The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit->Row,
+//   Amount->Data). Below we obtain the Year PivotField from the
+//   BaseFields collection and pass it to PageFields.Add - the
+//   low-level alternative to AddFieldToArea. The result is
+//   functionally identical to Scenario 1a.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
-// Kopfzeilen
+// Headers
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
-// Beispieldaten (9 Zeilen)
+// Sample data (9 rows)
 sheet.getCells().get("A2").putValue("apple");    sheet.getCells().get("B2").putValue("2020"); sheet.getCells().get("C2").putValue(100);
 sheet.getCells().get("A3").putValue("apple");    sheet.getCells().get("B3").putValue("2021"); sheet.getCells().get("C3").putValue(150);
 sheet.getCells().get("A4").putValue("apple");    sheet.getCells().get("B4").putValue("2022"); sheet.getCells().get("C4").putValue(200);
@@ -90,16 +90,16 @@ sheet.getCells().get("A7").putValue("grape");    sheet.getCells().get("B7").putV
 sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").putValue("2020"); sheet.getCells().get("C8").putValue(250);
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
-// Pivot-Tabelle bei E3 hinzufügen, die A1:C10 abdeckt
+// Add pivot table at E3 covering A1:C10
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// Fruit -> Zeile, Amount -> Daten (Year wird unten zur Seite hinzugefügt)
+// Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// Low-Level-Ansatz: das vorhandene Year PivotField aus BaseFields holen
-// und über PageFields.Add(PivotField) im Seitenbereich registrieren.
+// Low-level approach: grab the existing Year PivotField from BaseFields
+// and register it in the Page area via PageFields.Add(PivotField).
 PivotField yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
-// Aktualisieren, damit das neue Seitenfeld in der gespeicherten Arbeitsmappe widergespiegelt wird
+// Refresh so the new page field is reflected in the saved workbook
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -114,7 +114,7 @@ Das Setzen von `CurrentPageItem` auf den magischen Wert `0x7FFD` entspricht dem 
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
-// Frucht/Jahr/Betrag-Daten einfügen
+// Populate Fruit/Year/Amount data
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
@@ -134,17 +134,17 @@ for (int r = 0; r < data.length; r++)
         sheet.getCells().get(r + 1, c).putValue(data[r][c]);
     }
 }
-// Pivot-Tabelle bei E3 erstellen
+// Create pivot table at E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
 PivotTable pivot = pivotTables.add("=A1:C7", 2, 4);
-// Pivot-Felder konfigurieren: Frucht in Zeile, Betrag in Daten, Jahr in Seite
+// Configure pivot fields: Fruit to Row, Amount to Data, Year to Page
 pivot.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivot.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivot.addFieldToArea(PivotFieldType.PAGE, "Year");
 pivot.calculateData();
-// Den Seitenfilter löschen, damit jedes Element im Seitenfeld sichtbar ist.
-// 0x7FFD (dezimal 32765) ist der spezielle Sentinel-Wert, der "alle Elemente" bedeutet,
-// entspricht der Auswahl von "(Alle)" im Dropdown-Menü des Seitenfelds in Excel.
+// Clear the page filter so every item in the page field is visible.
+// 0x7FFD (decimal 32765) is the special sentinel value that means "all items",
+// equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivot.getPageFields().get(0).setCurrentPageItem((short)0x7FFD);
 workbook.save("output.xlsx");
 ```
@@ -154,11 +154,11 @@ Das Setzen von `CurrentPageItem` auf einen realen Index wählt nur dieses eine F
 
 ```java
 import com.aspose.cells.*;
-// Arbeitsmappe erstellen
+// Create workbook
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-// Beispieldaten hinzufügen (Obst/Jahr/Betrag)
+// Add sample data (Fruit/Year/Amount)
 cells.get("A1").putValue("Fruit");
 cells.get("B1").putValue("Year");
 cells.get("C1").putValue("Amount");
@@ -174,16 +174,16 @@ cells.get("C4").putValue("200");
 cells.get("A5").putValue("Banana");
 cells.get("B5").putValue("2021");
 cells.get("C5").putValue("250");
-// Pivot-Tabelle bei E3 hinzufügen
+// Add pivot table at E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
 PivotTable pivotTable = pivotTables.add("A1:C5", 2, 4);
-// Felder hinzufügen: Obst→Zeile, Betrag→Daten, Jahr→Seite
+// Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// Seitenfeld-spezifische Operationen
-pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = zweites Element in sortierter Reihenfolge (z. B. "2021")
-// Pivot-Tabelle aktualisieren und berechnen
+// Page-field-specific operations
+pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = second item in sorted order (e.g. "2021")
+// Refresh and calculate pivot table
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -196,7 +196,7 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-// Beispieldaten: Frucht | Jahr | Menge
+// Sample data: Fruit | Year | Amount
 cells.get(0, 0).putValue("Fruit");
 cells.get(0, 1).putValue("Year");
 cells.get(0, 2).putValue("Amount");
@@ -224,15 +224,15 @@ PivotTable pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// -- Mehrfachauswahl auf dem Seitenfeld aktivieren
+// -- Enable multi-select on the page field
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
-// Teil A -- ALLE Elemente auswählen (alle Elemente sichtbar machen)
+// Part A -- select ALL items (make every item visible)
 PivotItemCollection pivotItems = pivotTable.getPageFields().get(0).getPivotItems();
 for (int i = 0; i < pivotItems.getCount(); i++)
 {
     pivotItems.get(i).setHidden(false);
 }
-// Teil B -- nur bestimmte Elemente nach Quellwert auswählen
+// Part B -- select only specific items by source value
 for (int i = 0; i < pivotItems.getCount(); i++)
 {
     switch (pivotItems.get(i).getStringValue())

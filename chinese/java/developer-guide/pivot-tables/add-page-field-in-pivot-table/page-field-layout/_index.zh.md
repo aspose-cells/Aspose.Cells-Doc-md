@@ -37,68 +37,68 @@ Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet pivotDataSheet = worksheets.add("PivotData");
 Cells pivotDataCells = pivotDataSheet.getCells();
-// 表头（第 0 行）
+// Headers (row 0)
 pivotDataCells.get(0, 0).putValue("Fruit");
 pivotDataCells.get(0, 1).putValue("Year");
 pivotDataCells.get(0, 2).putValue("Region");
 pivotDataCells.get(0, 3).putValue("Amount");
-// 第 1 行：Apple, 2022, North, 150
+// Row 1: Apple, 2022, North, 150
 pivotDataCells.get(1, 0).putValue("Apple");
 pivotDataCells.get(1, 1).putValue(2022);
 pivotDataCells.get(1, 2).putValue("North");
 pivotDataCells.get(1, 3).putValue(150);
-// 第 2 行：Apple, 2023, North, 180
+// Row 2: Apple, 2023, North, 180
 pivotDataCells.get(2, 0).putValue("Apple");
 pivotDataCells.get(2, 1).putValue(2023);
 pivotDataCells.get(2, 2).putValue("North");
 pivotDataCells.get(2, 3).putValue(180);
-// 第 3 行：Banana, 2022, South, 120
+// Row 3: Banana, 2022, South, 120
 pivotDataCells.get(3, 0).putValue("Banana");
 pivotDataCells.get(3, 1).putValue(2022);
 pivotDataCells.get(3, 2).putValue("South");
 pivotDataCells.get(3, 3).putValue(120);
-// 第 4 行：Banana, 2023, South, 140
+// Row 4: Banana, 2023, South, 140
 pivotDataCells.get(4, 0).putValue("Banana");
 pivotDataCells.get(4, 1).putValue(2023);
 pivotDataCells.get(4, 2).putValue("South");
 pivotDataCells.get(4, 3).putValue(140);
-// 第 5 行：Cherry, 2022, East, 200
+// Row 5: Cherry, 2022, East, 200
 pivotDataCells.get(5, 0).putValue("Cherry");
 pivotDataCells.get(5, 1).putValue(2022);
 pivotDataCells.get(5, 2).putValue("East");
 pivotDataCells.get(5, 3).putValue(200);
-// 第 6 行：Cherry, 2023, East, 220
+// Row 6: Cherry, 2023, East, 220
 pivotDataCells.get(6, 0).putValue("Cherry");
 pivotDataCells.get(6, 1).putValue(2023);
 pivotDataCells.get(6, 2).putValue("East");
 pivotDataCells.get(6, 3).putValue(220);
-// 第 7 行：Grape, 2022, West, 90
+// Row 7: Grape, 2022, West, 90
 pivotDataCells.get(7, 0).putValue("Grape");
 pivotDataCells.get(7, 1).putValue(2022);
 pivotDataCells.get(7, 2).putValue("West");
 pivotDataCells.get(7, 3).putValue(90);
-// 第 8 行：Grape, 2023, West, 110
+// Row 8: Grape, 2023, West, 110
 pivotDataCells.get(8, 0).putValue("Grape");
 pivotDataCells.get(8, 1).putValue(2023);
 pivotDataCells.get(8, 2).putValue("West");
 pivotDataCells.get(8, 3).putValue(110);
-// 添加 PivotTableReport 工作表
+// Add PivotTableReport sheet
 Worksheet pivotTableSheet = worksheets.add("PivotTableReport");
 PivotTableCollection pivotTables = pivotTableSheet.getPivotTables();
-// 创建数据源为 PivotData!A1:D9 的数据透视表，放置在 PivotTableReport 的 A1 单元格
+// Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
 PivotTable pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0);
-// 添加字段
-pivotTable.addFieldToArea(PivotFieldType.ROW, 0);   // 水果
-pivotTable.addFieldToArea(PivotFieldType.PAGE, 1);  // 年份
-pivotTable.addFieldToArea(PivotFieldType.PAGE, 2);  // 区域
-pivotTable.addFieldToArea(PivotFieldType.DATA, 3);  // 金额
+// Add fields
+pivotTable.addFieldToArea(PivotFieldType.ROW, 0);   // Fruit
+pivotTable.addFieldToArea(PivotFieldType.PAGE, 1);  // Year
+pivotTable.addFieldToArea(PivotFieldType.PAGE, 2);  // Region
+pivotTable.addFieldToArea(PivotFieldType.DATA, 3);  // Amount
 pivotTable.getDataFields().get(0).setFunction(ConsolidationFunction.SUM);
-// 配置页面字段区域布局：页面字段先行排列，每 2 个换行
+// Configure page field area layout: place page fields across first, wrap after every 2
 pivotTable.setPageFieldOrder(PrintOrderType.OVER_THEN_DOWN);
 pivotTable.setPageFieldWrapCount(2);
-// 刷新并计算
+// Refresh and calculate
 pivotTable.calculateData();
-// 保存
+// Save
 workbook.save(dataDir + "/pageFieldLayout_overThenDown.xlsx");
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via Java'da Excel Camera
-linktitle: Aspose.Cells for Python via Java'da Excel Camera
+linktitle: Excel Kamera
 description: Aspose.Cells for Python via Java'da Excel Camera'yı nasıl kullanacağınızı öğrenin; kaynak verilerle yenilenen ve tüm kaynak biçimlendirmesini koruyan bir hücre aralığına bağlı dinamik bir resim oluşturun.
 keywords: Aspose.Cells, Python via Java, Excel Camera, dinamik resim, bağlı resim, Picture.formula, updateSelectedValue, createRange, toImage, byte[] dizisi
 type: docs
@@ -35,7 +35,7 @@ from asposecells.api import Workbook, SaveFormat
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
-# Dinamik Kamera: boş bir resim ekle, Formül aracılığıyla A1:F10'a bağla, ardından yenile
+# Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 pictures = worksheet.getPictures()
 index = pictures.add(10, 6, b"")
 pictures.get(index).setFormula("A1:F10")
@@ -60,7 +60,7 @@ from java.io import ByteArrayInputStream
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
-# Statik Kamera: Aralık oluştur, baytlara dönüştür, ByteArrayInputStream içine sar, resim olarak ekle
+# Static Camera: build Range, render to bytes, wrap in ByteArrayInputStream, add as picture
 range_ = worksheet.getCells().createRange("A1:F10")
 image_bytes = range_.toImage(None)
 pictures = worksheet.getPictures()

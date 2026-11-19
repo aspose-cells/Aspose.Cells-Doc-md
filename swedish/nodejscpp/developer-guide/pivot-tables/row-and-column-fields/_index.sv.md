@@ -1,6 +1,6 @@
 ---
 title: Lägg till rad- och kolumnfält i pivottabeller med Aspose.Cells for Node.js via C++
-linktitle: Lägg till rad- och kolumnfält i pivottabeller med Aspose.Cells for Node.js via C++
+linktitle: Rad- och kolumnfält
 description: Lär dig att lägga till basfält i rad- och kolumnområdena i en pivottabell och styra delsummor för pivotfält med hjälp av PivotField.setSubtotals i Aspose.Cells for Node.js via C++
 keywords: Aspose.Cells, Node.js, C++, pivottabell, radfält, kolumnfält, PivotField, SetSubtotals, PivotFieldSubtotalType, delsummor
 type: docs

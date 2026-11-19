@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via Java'da Sparkline'lar
-linktitle: Aspose.Cells for Node.js via Java'da Sparkline'lar
+linktitle: Mini Grafikler
 description: Aspose.Cells, çalışma sayfası hücrelerinin içine yerleştirilen küçük grafikler olan sparkline'lar oluşturmayı destekleyen, elektronik tablo dosyalarıyla çalışmak için bir Node.js via Java kitaplığıdır. Bu makale, Aspose.Cells kitaplığını kullanarak çizgi, sütun ve kazanma/kaybetme sparkline'larının nasıl ekleneceğini ve özelleştirileceğini açıklar.
 keywords: Aspose.Cells, Node.js via Java kitaplığı, elektronik tablo, sparkline'lar, çizgi sparkline, sütun sparkline, kazanma/kaybetme sparkline, SparklineGroup, SparklineType
 type: docs

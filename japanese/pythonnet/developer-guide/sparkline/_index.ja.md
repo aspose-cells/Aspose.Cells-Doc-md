@@ -95,26 +95,26 @@ print("Workbook saved successfully: output_winloss.xlsx")
 ```python
 import aspose.cells as ac
 from aspose.cells.charts import SparklineType
-# ステップ1：Workbookを作成し、最初のワークシートを取得する
+# Step 1: Create a Workbook and get the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# ステップ2：A1:E1にサンプル値を書き込む
+# Step 2: Write sample values into A1:E1
 values = [5, -3, 8, -2, 6]
 for i in range(len(values)):
     worksheet.cells.get(0, i).put_value(values[i])
-# ステップ3：F1（列インデックス5、行インデックス0）を指すCellAreaを構築する
+# Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 dest = ac.CellArea()
 dest.start_column = 5
 dest.end_column = 5
 dest.start_row = 0
 dest.end_row = 0
-# ステップ4：目的のセルに縦棒スパークラインを追加する
+# Step 4: Add a Column sparkline to the destination cell
 idx = worksheet.sparkline_groups.add(
     SparklineType.COLUMN, "A1:E1", False, dest)
 group = worksheet.sparkline_groups[idx]
-# ステップ5：group.Typeを読み取ってスパークラインの種類を確認する
+# Step 5: Confirm the sparkline type by reading group.Type
 print("Sparkline Type added: " + str(group.type))
-# ステップ6：ワークブックを保存する
+# Step 6: Save the workbook
 workbook.save("output_column.xlsx")
 print("Workbook saved as output_column.xlsx")
 ```
@@ -171,16 +171,16 @@ workbook.save("output_line.xlsx")
 import aspose.cells as ac
 from aspose.cells.charts import SparklineType
 from aspose.pydrawing import Color
-# ステップ 1: Workbook を作成し、最初のワークシートを取得します
+# Step 1: Create a Workbook and get the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# ステップ 2: 行 1 (A1:E1) にサンプルデータを入力します
+# Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.cells.get("A1").put_value(5)
 worksheet.cells.get("B1").put_value(-3)
 worksheet.cells.get("C1").put_value(8)
 worksheet.cells.get("D1").put_value(-2)
 worksheet.cells.get("E1").put_value(6)
-# ステップ 3: F1 に折れ線スパークライン グループを追加します
+# Step 3: Add a Line sparkline group at F1
 line_area = ac.CellArea()
 line_area.start_column = 5
 line_area.end_column = 5
@@ -188,11 +188,11 @@ line_area.start_row = 0
 line_area.end_row = 0
 line_idx = worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, line_area)
 line_group = worksheet.sparkline_groups[line_idx]
-# CellsColor を使用して折れ線スパークラインの色をカスタマイズします
+# Customize the line sparkline color via CellsColor
 line_color = workbook.create_cells_color()
 line_color.color = Color.blue
 line_group.series_color = line_color
-# ステップ 4: F2 に縦棒スパークライン グループを追加します
+# Step 4: Add a Column sparkline group at F2
 column_area = ac.CellArea()
 column_area.start_column = 5
 column_area.end_column = 5
@@ -200,11 +200,11 @@ column_area.start_row = 1
 column_area.end_row = 1
 column_idx = worksheet.sparkline_groups.add(SparklineType.COLUMN, "A1:E1", False, column_area)
 column_group = worksheet.sparkline_groups[column_idx]
-# 縦棒スパークライン シリーズの色をカスタマイズします
+# Customize the column sparkline series color
 column_color = workbook.create_cells_color()
 column_color.color = Color.green
 column_group.series_color = column_color
-# ステップ 5: F3 に Win/Loss（積み上げ）スパークライン グループを追加します
+# Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 stacked_area = ac.CellArea()
 stacked_area.start_column = 5
 stacked_area.end_column = 5
@@ -212,11 +212,11 @@ stacked_area.start_row = 2
 stacked_area.end_row = 2
 stacked_idx = worksheet.sparkline_groups.add(SparklineType.STACKED, "A1:E1", False, stacked_area)
 stacked_group = worksheet.sparkline_groups[stacked_idx]
-# Win/Loss スパークライン シリーズの色をカスタマイズします
+# Customize the win/loss sparkline series color
 stacked_color = workbook.create_cells_color()
 stacked_color.color = Color.dark_orange
 stacked_group.series_color = stacked_color
-# ステップ 6: ワークブックを保存します
+# Step 6: Save the workbook
 workbook.save("output_all.xlsx")
 ```
 

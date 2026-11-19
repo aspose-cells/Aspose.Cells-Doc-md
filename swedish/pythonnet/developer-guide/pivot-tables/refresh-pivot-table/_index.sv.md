@@ -1,6 +1,6 @@
 ---
 title: Uppdatera pivottabeller och pivotcacheminnen i Aspose.Cells for Python via .NET
-linktitle: Uppdatera pivottabeller och pivotcacheminnen i Aspose.Cells for Python via .NET
+linktitle: Uppdatera pivottabeller
 description: Lär dig hur du uppdaterar pivottabeller i Aspose.Cells for Python via .NET med hjälp av v26.7+ pivot-uppdaterings-API,et. Den här artikeln täcker refresh_all, _refresh_pivot_tables, PivotCache.refresh, _calculate_data och _get_pivot_tables med praktiska kodexempel.
 keywords: Aspose.Cells, Python via .NET, pivottabell, uppdatera, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

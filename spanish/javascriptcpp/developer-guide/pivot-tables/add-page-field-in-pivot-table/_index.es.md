@@ -45,16 +45,16 @@ El siguiente ejemplo crea un conjunto de datos pequeño de Fruit / Year / Amount
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Crear un nuevo libro
+            // Create a new workbook
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "Data";
-            // Configurar la fila de encabezado
+            // Set up the header row
             const cells = worksheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // Poblar 9 filas de datos de ejemplo: fruta, año y cantidad
+            // Populate 9 rows of sample data: Fruit, Year, Amount
             const data = [
                 ["apple", 2020, 100],
                 ["banana", 2021, 200],
@@ -71,15 +71,15 @@ El siguiente ejemplo crea un conjunto de datos pequeño de Fruit / Year / Amount
                 cells.get(i + 1, 1).value = data[i][1];
                 cells.get(i + 1, 2).value = data[i][2];
             }
-            // Agregar una tabla dinámica anclada en la celda E3
+            // Add a pivot table anchored at cell E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // Agregar campos a sus áreas: Fruit como fila, Amount como datos y Year como campo de página
+            // Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-            // Actualizar y calcular los datos de la tabla dinámica
+            // Refresh and calculate the pivot table data
             pivotTable.calculateData();
-            // Guardar el libro
+            // Save the workbook
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -118,19 +118,19 @@ Cuando ya trabaje con una instancia de `PivotField`, puede pasarla directamente 
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // — La tabla dinámica y el campo de página se construyen exactamente como en
-            //   el Escenario 1a (datos Fruit/Year/Amount, tabla dinámica en E3, Fruit→Fila,
-            //   Amount→Datos). A continuación, obtenemos el PivotField Year de la
-            //   colección BaseFields y lo pasamos a PageFields.Add: la
-            //   alternativa de bajo nivel a AddFieldToArea. El resultado es
-            //   funcionalmente idéntico al del Escenario 1a.
+            // — The pivot table and page field are constructed exactly as in
+            //   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+            //   Amount→Data). Below we obtain the Year PivotField from the
+            //   BaseFields collection and pass it to PageFields.Add — the
+            //   low-level alternative to AddFieldToArea. The result is
+            //   functionally identical to Scenario 1a.
             const workbook = new Workbook();
             const sheet = workbook.worksheets.get(0);
-            // Encabezados
+            // Headers
             sheet.cells.get("A1").value = "Fruit";
             sheet.cells.get("B1").value = "Year";
             sheet.cells.get("C1").value = "Amount";
-            // Datos de ejemplo (9 filas)
+            // Sample data (9 rows)
             sheet.cells.get("A2").value = "apple";    sheet.cells.get("B2").value = "2020"; sheet.cells.get("C2").value = 100;
             sheet.cells.get("A3").value = "apple";    sheet.cells.get("B3").value = "2021"; sheet.cells.get("C3").value = 150;
             sheet.cells.get("A4").value = "apple";    sheet.cells.get("B4").value = "2022"; sheet.cells.get("C4").value = 200;
@@ -140,16 +140,16 @@ Cuando ya trabaje con una instancia de `PivotField`, puede pasarla directamente 
             sheet.cells.get("A8").value = "blueberry"; sheet.cells.get("B8").value = "2020"; sheet.cells.get("C8").value = 250;
             sheet.cells.get("A9").value = "blueberry"; sheet.cells.get("B9").value = "2021"; sheet.cells.get("C9").value = 350;
             sheet.cells.get("A10").value = "blueberry"; sheet.cells.get("B10").value = "2022"; sheet.cells.get("C10").value = 450;
-            // Agregar la tabla dinámica en E3 que cubre A1:C10
+            // Add pivot table at E3 covering A1:C10
             const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
-            // Fruit → Fila, Amount → Datos (Year se añadirá a Página a continuación)
+            // Fruit -> Row, Amount -> Data (Year will go to Page below)
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Enfoque de bajo nivel: obtener el PivotField Year existente de BaseFields
-            // y registrarlo en el área Página mediante PageFields.Add(PivotField).
+            // Low-level approach: grab the existing Year PivotField from BaseFields
+            // and register it in the Page area via PageFields.Add(PivotField).
             const yearField = pivotTable.baseFields.get("Year");
             pivotTable.pageFields.add(yearField);
-            // Actualizar para que el nuevo campo de página se refleje en el libro guardado
+            // Refresh so the new page field is reflected in the saved workbook
             pivotTable.calculateData();
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -192,10 +192,10 @@ Establecer `currentPageItem` en el valor mágico `0x7FFD` equivale a limpiar el 
             document.getElementById('runExample').disabled = false;
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Crear un nuevo libro de trabajo
+            // Create a new workbook
             const workbook = new Workbook();
             const sheet = workbook.worksheets.get(0);
-            // Llenar los datos de fruta/año/cantidad
+            // Populate Fruit/Year/Amount data
             const cells = sheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
@@ -213,17 +213,17 @@ Establecer `currentPageItem` en el valor mágico `0x7FFD` equivale a limpiar el 
                     cells.get(r + 1, c).value = data[r][c];
                 }
             }
-            // Crear una tabla dinámica en E3
+            // Create pivot table at E3
             const pivotTables = sheet.pivotTables;
             const pivotTable = pivotTables.add("=A1:C7", 2, 4);
-            // Configurar los campos de la tabla dinámica: Fruit→Fila, Amount→Datos, Year→Página
+            // Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
             pivotTable.calculateData();
-            // Limpiar el filtro de página para que todos los elementos del campo de página estén visibles.
-            // 0x7FFD (decimal 32765) es el valor centinela especial que significa "todos los elementos":
-            // equivale a seleccionar "(Todos)" en el menú desplegable del campo de página de Excel.
+            // Clear the page filter so every item in the page field is visible.
+            // 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+            // equivalent to selecting "(All)" in Excel's page-field dropdown.
             pivotTable.pageFields.get(0).currentPageItem = 0x7FFD;
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -263,11 +263,11 @@ Establecer `currentPageItem` en un índice real selecciona únicamente ese eleme
                 console.log("Aspose.Cells initialized");
             });
             document.getElementById("runExample").addEventListener("click", async () => {
-                // Crear libro
+                // Create workbook
                 const workbook = new Workbook();
                 const sheet = workbook.worksheets.get(0);
                 const cells = sheet.cells;
-                // Agregar datos de ejemplo (Fruta/Año/Cantidad)
+                // Add sample data (Fruit/Year/Amount)
                 cells.get("A1").value = "Fruit";
                 cells.get("B1").value = "Year";
                 cells.get("C1").value = "Amount";
@@ -283,16 +283,16 @@ Establecer `currentPageItem` en un índice real selecciona únicamente ese eleme
                 cells.get("A5").value = "Banana";
                 cells.get("B5").value = "2021";
                 cells.get("C5").value = "250";
-                // Agregar tabla dinámica en E3
+                // Add pivot table at E3
                 const pivotTables = sheet.pivotTables;
                 const pivotTable = pivotTables.add("=A1:C5", 2, 4);
-                // Agregar campos: Fruit→Fila, Amount→Datos, Year→Página
+                // Add fields: Fruit→Row, Amount→Data, Year→Page
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-                // Operaciones específicas del campo de página
-                pivotTable.pageFields.get(0).currentPageItem = 1; // 1 = segundo elemento en orden clasificado (por ejemplo, "2021")
-                // Actualizar y calcular la tabla dinámica
+                // Page-field-specific operations
+                pivotTable.pageFields.get(0).currentPageItem = 1; // 1 = second item in sorted order (e.g. "2021")
+                // Refresh and calculate pivot table
                 pivotTable.calculateData();
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
@@ -334,14 +334,14 @@ El filtrado de selección múltiple convierte la lista desplegable de filtro en 
             });
             document.getElementById('runExample').addEventListener('click', async () => {
                 await initializationPromise;
-                // — La tabla dinámica y el campo de página se construyen exactamente como en
-                //   el Escenario 1a (datos Fruit/Year/Amount,动态 en E3, Fruit→Fila,
-                //   Amount→Datos, Year→Página mediante AddFieldToArea).
-                //   A continuación, aplicamos el filtrado de selección múltiple al campo de página.
+                // — The pivot table and page field are constructed exactly as in
+                //   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+                //   Amount→Data, Year→Page via AddFieldToArea).
+                //   Below we apply multi-select filtering on the page field.
                 const workbook = new Workbook();
                 const sheet = workbook.worksheets.get(0);
                 const cells = sheet.cells;
-                // Datos de ejemplo: Fruit | Year | Amount
+                // Sample data: Fruit | Year | Amount
                 cells.get(0, 0).value = "Fruit";
                 cells.get(0, 1).value = "Year";
                 cells.get(0, 2).value = "Amount";
@@ -367,15 +367,15 @@ El filtrado de selección múltiple convierte la lista desplegable de filtro en 
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-                // — Habilitar la selección múltiple en el campo de página
+                // — Enable multi-select on the page field
                 const pageField = pivotTable.pageFields.get(0);
                 pageField.isMultipleItemSelectionAllowed = true;
                 const pivotItems = pageField.pivotItems;
-                // Parte A — seleccionar TODOS los elementos (hacer visible cada elemento)
+                // Part A — select ALL items (make every item visible)
                 for (let i = 0; i < pivotItems.count; i++) {
                     pivotItems.get(i).isHidden = false;
                 }
-                // Parte B — seleccionar solo elementos específicos por valor de origen
+                // Part B — select only specific items by source value
                 for (let i = 0; i < pivotItems.count; i++) {
                     const pivotItem = pivotItems.get(i);
                     switch (pivotItem.getStringValue()) {

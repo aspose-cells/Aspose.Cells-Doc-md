@@ -1,6 +1,6 @@
 ---
 title: Actualizar tablas dinámicas y cachés dinámicos en Aspose.Cells for Python via .NET
-linktitle: Actualizar tablas dinámicas y cachés dinámicos en Aspose.Cells for Python via .NET
+linktitle: Actualizar tablas dinámicas
 description: Aprenda a actualizar tablas dinámicas en Aspose.Cells for Python via .NET usando la API de actualización de tablas dinámicas v26.7+. Este artículo cubre refresh_all, _refresh_pivot_tables, PivotCache.refresh, _calculate_data y _get_pivot_tables con ejemplos prácticos de código.
 keywords: Aspose.Cells, Python via .NET, tabla dinámica, actualizar, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

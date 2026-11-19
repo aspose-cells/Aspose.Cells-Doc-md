@@ -1,6 +1,6 @@
 ---
 title: 在数据透视表中显示或筛选前 10 项
-linktitle: 在数据透视表中显示或筛选前 10 项
+linktitle: 前10项显示/筛选
 description: 了解如何通过 .NET 使用 Aspose.Cells for Python，仅显示数据透视字段中排名最高或最低的项目。本文介绍 Excel 97-2003 的 top_10_auto_show 方法、使用 top_10_auto_show_settings 读取选项，以及通过 filter_top10 实现 Excel 2007-365 前 10 项筛选。
 keywords: Aspose.Cells, Python via .NET, 数据透视表, 前 10 项, 自动显示, top_10_auto_show, top_10_auto_show_settings, PivotFieldTop10AutoShowSettings, filter_top10, PivotFilterType, PivotField, Python
 type: docs
@@ -47,7 +47,7 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
 pivot_table.calculate_data()
 sport_field = pivot_table.row_fields[0]
-# 显示按“Sum of Sales”排名的前 2 个项目（数据字段索引 0）
+# Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sport_field.top_10_auto_show(True, True, 2, 0)
 pivot_table.calculate_data()
 workbook.save("output-top10-by-value-field.xlsx")
@@ -134,9 +134,9 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
 pivot_table.calculate_data()
 sport_field = pivot_table.row_fields[0]
-# 前 10 项筛选——按“Sales 总计”（数据字段索引 0）保留前 2 个项
+# Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
 filter = sport_field.filter_top10(0, PivotFilterType.COUNT, True, 2)
-# 如果改用基于百分比的筛选，则保留前 30% 的项：
+# For a percentage-based filter instead, keep the top 30 percent of the items:
 # sport_field.filter_top10(0, PivotFilterType.PERCENT, True, 30)
 pivot_table.pivot_cache.refresh()
 pivot_table.calculate_data()

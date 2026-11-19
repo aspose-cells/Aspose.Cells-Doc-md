@@ -1,6 +1,6 @@
 ---
 title: Konvertera sparkline till bild och HTML i Aspose.Cells for JavaScript via C++
-linktitle: Konvertera sparkline till bild och HTML i Aspose.Cells for JavaScript via C++
+linktitle: Konvertera sparkline till bild och HTML
 description: Lär dig hur du renderar sparklines i Aspose.Cells till fristående bilder för inbäddning i celler och exporterar kalkylblad med sparklines till HTML med hjälp av HtmlSaveOptions.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, sparkline, sparkline.toImage, cell.embeddedImage, HtmlSaveOptions, rendera sparkline, konvertera sparkline till bild, exportera sparkline till HTML
 type: docs
@@ -54,17 +54,17 @@ I det här arbetsflödet skapar du ett kalkylblad som innehåller ett litet inte
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Skapa en ny arbetsbok och kom åt till det första kalkylbladet
+            // Create a new workbook and access the first worksheet
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Fyll i exempeldata i cellerna A1:E1
+            // Populate sample data in cells A1:E1
             cells.get("A1").value = 5;
             cells.get("B1").value = -3;
             cells.get("C1").value = 8;
             cells.get("D1").value = -2;
             cells.get("E1").value = 6;
-            // Lägg till en grupp med linjesparklines förankrad vid F1 (kolumn 5, rad 0)
+            // Add a Line sparkline group anchored at F1 (column 5, row 0)
             const lineArea = new CellArea();
             lineArea.startColumn = 5;
             lineArea.endColumn = 5;
@@ -76,7 +76,7 @@ I det här arbetsflödet skapar du ett kalkylblad som innehåller ett litet inte
                 false,
                 lineArea
             );
-            // Lägg till en grupp med kolumnsparklines förankrad vid G1 (kolumn 6, rad 0)
+            // Add a Column sparkline group anchored at G1 (column 6, row 0)
             const columnArea = new CellArea();
             columnArea.startColumn = 6;
             columnArea.endColumn = 6;
@@ -88,7 +88,7 @@ I det här arbetsflödet skapar du ett kalkylblad som innehåller ett litet inte
                 false,
                 columnArea
             );
-            // Lägg till en grupp med vinst/förlustsparklines (staplad) förankrad vid H1 (kolumn 7, rad 0)
+            // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
             const stackedArea = new CellArea();
             stackedArea.startColumn = 7;
             stackedArea.endColumn = 7;
@@ -100,19 +100,19 @@ I det här arbetsflödet skapar du ett kalkylblad som innehåller ett litet inte
                 false,
                 stackedArea
             );
-            // Konfigurera bildalternativ för PNG-utdata
+            // Configure image options for PNG output
             const imageOptions = new ImageOrPrintOptions();
             imageOptions.imageType = AsposeCells.ImageType.Png;
-            // Konvertera linjesparklinen till en bild och bädda in den i cell F2
+            // Convert the Line sparkline to image and embed it in cell F2
             const lineSp = worksheet.sparklineGroups.get(lineIdx).sparklines.get(0);
             cells.get("F2").embeddedImage = lineSp.toImage(imageOptions);
-            // Konvertera kolumnsparklinen till en bild och bädda in den i cell G2
+            // Convert the Column sparkline to image and embed it in cell G2
             const columnSp = worksheet.sparklineGroups.get(columnIdx).sparklines.get(0);
             cells.get("G2").embeddedImage = columnSp.toImage(imageOptions);
-            // Konvertera vinst/förlustsparklinen till en bild och bädda in den i cell H2
+            // Convert the Win/Loss sparkline to image and embed it in cell H2
             const stackedSp = worksheet.sparklineGroups.get(stackedIdx).sparklines.get(0);
             cells.get("H2").embeddedImage = stackedSp.toImage(imageOptions);
-            // Spara arbetsboken till disk
+            // Save the workbook to disk
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

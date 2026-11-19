@@ -109,7 +109,7 @@ Le code suivant crée un classeur, construit un objet `Range` pour `A1:F10`, eff
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // Caméra statique : créer la plage, la rendre en octets, l'envelopper dans MemoryStream, l'ajouter comme image
+            // Static Camera: build Range, render to bytes, wrap in MemoryStream, add as picture
             const range = worksheet.cells.createRange("A1:F10");
             const imageData = range.toImage();
             const pictures = worksheet.pictures;

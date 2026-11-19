@@ -87,7 +87,7 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
     pivotTable.CalculateData();
     PivotField sportField = pivotTable.GetRowFields().Get(0);
-    // 「Sales の合計」で上位2項目を表示する（データフィールドのインデックスは0）
+    // Show the top 2 items ranked by "Sum of Sales" (data field index 0)
     sportField.Top10AutoShow(true, true, 2, 0);
     pivotTable.CalculateData();
     workbook.Save(u"output-top10-by-value-field.xlsx");
@@ -160,7 +160,7 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
     pivotTable.CalculateData();
     PivotField sportField = pivotTable.GetRowFields().Get(0);
-    // フィールド自体でランク付けされた下位3項目を表示（rankBy = -1）
+    // Show the bottom 3 items ranked by the field itself (rankBy = -1)
     sportField.Top10AutoShow(true, false, 3, -1);
     pivotTable.CalculateData();
     workbook.Save(u"output-top10-by-field-itself.xlsx");
@@ -269,9 +269,9 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
     pivotTable.CalculateData();
     PivotField sportField = pivotTable.GetRowFields().Get(0);
-    // 上位10件のフィルター — 「Sales の合計」（データフィールドインデックス 0）に基づいて上位2項目を維持します
+    // Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
     PivotFilter filter = sportField.FilterTop10(0, PivotFilterType::Count, true, 2);
-    // パーセントベースのフィルターを使用する場合は、項目の上位30%を維持します:
+    // For a percentage-based filter instead, keep the top 30 percent of the items:
     // sportField.FilterTop10(0, PivotFilterType::Percent, true, 30);
     pivotTable.GetPivotCache().Refresh();
     pivotTable.CalculateData();

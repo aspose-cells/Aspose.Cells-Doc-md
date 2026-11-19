@@ -39,19 +39,19 @@ Excel 支持两个不同的密码层。第一层是打开密码，它会对文�
 
 ```python
 import aspose.cells as ac
-# 创建一个全新的工作簿
+# Create a new workbook from scratch
 workbook = ac.Workbook()
-# 向第一个工作表的 A1 单元格写入示例值
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get("A1").put_value("Sample Data")
-# 配置写保护：设置修改密码和作者
+# Configure the write protection: set the password to modify and the author
 workbook.settings.write_protection.password = "ModifyPwd"
 workbook.settings.write_protection.author = "AuthorName"
-# 保存工作簿以使写保护生效
+# Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx")
-# 使用正确的密码验证修改密码
+# Validate the password to modify using the correct password
 is_correct_valid = workbook.settings.write_protection.validate_password("ModifyPwd")
 print("ValidatePassword(\"ModifyPwd\") returned: " + str(is_correct_valid))
-# 使用错误的密码验证修改密码以演示另一种情况
+# Validate the password to modify using an incorrect password to demonstrate the other branch
 is_wrong_valid = workbook.settings.write_protection.validate_password("WrongPwd")
 print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 ```
@@ -61,22 +61,22 @@ print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 
 ```python
 import aspose.cells as ac
-# 创建一个新工作簿
+# Create a new workbook
 workbook = ac.Workbook()
-# 添加第二个工作表
+# Add a second worksheet
 workbook.worksheets.add()
-# 向第一个工作表的 A1 单元格写入示例值
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get(0, 0).put_value("Sample Data")
-# 保护工作簿结构
+# Protect the workbook structure
 workbook.protect(ac.ProtectionType.STRUCTURE, "StructPwd")
-# 将工作簿保存为 structure_protected.xlsx
+# Save the workbook as structure_protected.xlsx
 file_path = "structure_protected.xlsx"
 workbook.save(file_path)
-# 将文件重新加载到新的 Workbook 实例中
+# Reload the file into a new Workbook instance
 loaded_workbook = ac.Workbook(file_path)
-# 移除结构保护
+# Remove the structure protection
 loaded_workbook.unprotect("StructPwd")
-# 打印确认消息
+# Print confirmation message
 print("Structure protection has been successfully removed from the workbook.")
 ```
 

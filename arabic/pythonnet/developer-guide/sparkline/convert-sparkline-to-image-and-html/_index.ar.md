@@ -39,55 +39,55 @@ import aspose.cells as ac
 from aspose.cells.charts import SparklineType
 from aspose.cells.drawing import ImageType
 from aspose.cells.rendering import ImageOrPrintOptions
-# إنشاء مصنف جديد والوصول إلى ورقة العمل الأولى
+# Create a new workbook and access the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# ملء بيانات عينة في الخلايا A1:E1
+# Populate sample data in cells A1:E1
 worksheet.cells.get("A1").put_value(5)
 worksheet.cells.get("B1").put_value(-3)
 worksheet.cells.get("C1").put_value(8)
 worksheet.cells.get("D1").put_value(-2)
 worksheet.cells.get("E1").put_value(6)
-# إضافة مجموعة شرارات خطية مثبتة في F1 (العمود 5، الصف 0)
+# Add a Line sparkline group anchored at F1 (column 5, row 0)
 line_area = ac.CellArea()
 line_area.start_column = 5
 line_area.end_column = 5
 line_area.start_row = 0
 line_area.end_row = 0
 line_idx = worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, line_area)
-# إضافة مجموعة شرارات عمودية مثبتة في G1 (العمود 6، الصف 0)
+# Add a Column sparkline group anchored at G1 (column 6, row 0)
 column_area = ac.CellArea()
 column_area.start_column = 6
 column_area.end_column = 6
 column_area.start_row = 0
 column_area.end_row = 0
 column_idx = worksheet.sparkline_groups.add(SparklineType.COLUMN, "A1:E1", False, column_area)
-# إضافة مجموعة شرارات فوز/خسارة (مكدسة) مثبتة في H1 (العمود 7، الصف 0)
+# Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 stacked_area = ac.CellArea()
 stacked_area.start_column = 7
 stacked_area.end_column = 7
 stacked_area.start_row = 0
 stacked_area.end_row = 0
 stacked_idx = worksheet.sparkline_groups.add(SparklineType.STACKED, "A1:E1", False, stacked_area)
-# تكوين خيارات الصورة لإخراج PNG
+# Configure image options for PNG output
 image_options = ImageOrPrintOptions()
 image_options.image_type = ImageType.PNG
-# تحويل الشرارة الخطية إلى صورة وتضمينها في الخلية F2
+# Convert the Line sparkline to image and embed it in cell F2
 line_sp = worksheet.sparkline_groups[line_idx].sparklines[0]
 ms = BytesIO()
 line_sp.to_image(ms, image_options)
 worksheet.cells.get("F2").embedded_image = ms.getvalue()
-# تحويل الشرارة العمودية إلى صورة وتضمينها في الخلية G2
+# Convert the Column sparkline to image and embed it in cell G2
 column_sp = worksheet.sparkline_groups[column_idx].sparklines[0]
 ms = BytesIO()
 column_sp.to_image(ms, image_options)
 worksheet.cells.get("G2").embedded_image = ms.getvalue()
-# تحويل شرارة الفوز/الخسارة إلى صورة وتضمينها في الخلية H2
+# Convert the Win/Loss sparkline to image and embed it in cell H2
 stacked_sp = worksheet.sparkline_groups[stacked_idx].sparklines[0]
 ms = BytesIO()
 stacked_sp.to_image(ms, image_options)
 worksheet.cells.get("H2").embedded_image = ms.getvalue()
-# حفظ المصنف على القرص
+# Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx")
 ```
 

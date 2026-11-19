@@ -1,6 +1,6 @@
 ---
 title: Mostrar o filtrar los 10 primeros en una tabla dinámica
-linktitle: Mostrar o filtrar los 10 primeros en una tabla dinámica
+linktitle: Mostrar o filtrar top 10
 description: Aprenda a mostrar únicamente los elementos con la clasificación más alta o más baja de un campo de tabla dinámica en Aspose.Cells for Node.js mediante C++. Este artículo explica el método Top10AutoShow de Excel 97-2003, cómo leer las opciones con Top10AutoShowSettings y el filtro de los 10 primeros de Excel 2007-365 mediante FilterTop10.
 keywords: Aspose.Cells, Node.js mediante C++, tabla dinámica, 10 primeros, visualización automática, Top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, FilterTop10, PivotFilterType, PivotField, Node.js
 type: docs

@@ -20,15 +20,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Загрузить образец книги
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Получить доступ ко второму рабочему листу и его сводной таблице
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// Сгруппировать первое поле строки автоматически.
-// Поле содержит даты, поэтому оно группируется по месяцам.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 PivotField field = pt.RowFields[0];
 field.Group();
-// Вычислить данные сводной таблицы и сохранить выходной файл
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputAutoGroupPivotField.xlsx");
 ```
@@ -42,17 +42,17 @@ wb.Save("outputAutoGroupPivotField.xlsx");
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Загрузить образец книги
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Получить доступ ко второму рабочему листу и его сводной таблице
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// Сгруппировать первое поле строки (поле даты) по месяцам и кварталам
+// Group the first row field (a date field) by months and quarters
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartDate = new DateTime(2008, 1, 1);
 options.EndDate = new DateTime(2008, 9, 5);
 options.GroupTypes = new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Quarters };
 pt.RowFields[0].Group(options);
-// Рассчитать данные сводной таблицы и сохранить выходной файл
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,21 +64,21 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Загрузить образец книги
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Получить доступ ко второму листу и его сводной таблице
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// FieldTwo является полем данных: сначала переместить его в область строк,
-// поскольку группировать можно только поля строк/столбцов
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.AddFieldToArea(PivotFieldType.Row, "FieldTwo");
 pt.CalculateData();
-// Сгруппировать числовое поле по диапазонам 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartNumber = 0;
 options.EndNumber = 5;
 options.Interval = 2;
 pt.RowFields[1].Group(options);
-// Вычислить данные сводной таблицы и сохранить выходной файл
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputNumberGroupPivotField.xlsx");
 ```

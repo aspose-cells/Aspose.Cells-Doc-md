@@ -55,22 +55,22 @@ Proteger la estructura del libro impide que otros usuarios vean hojas de cálcul
 
 ```java
 import com.aspose.cells.*;
-// Crear un nuevo libro
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Agregar una segunda hoja de cálculo
+// Add a second worksheet
 workbook.getWorksheets().add();
-// Escribir un valor de muestra en la celda A1 de la primera hoja de cálculo
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// Proteger la estructura del libro
+// Protect the workbook structure
 workbook.protect(ProtectionType.STRUCTURE, "StructPwd");
-// Guardar el libro como structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 String filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// Recargar el archivo en una nueva instancia de Workbook
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// Eliminar la protección de la estructura
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// Imprimir mensaje de confirmación
+// Print confirmation message
 System.out.println("Structure protection has been successfully removed from the workbook.");
 ```
 

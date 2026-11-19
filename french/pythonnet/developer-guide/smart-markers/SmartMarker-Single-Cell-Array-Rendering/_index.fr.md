@@ -1,156 +1,187 @@
 ---
-title: Rendu de tableau SmartMarker dans une seule cellule | Aspose.Cells for Python via .NET
-linktitle: Rendu de tableau SmartMarker dans une seule cellule | Aspose.Cells for Python via .NET
-description: Découvrez comment rendre des données de tableau dans une seule cellule à l’aide des attributs `ArrayAsSingle` et `ExtraDelimiter` dans les Smart Markers avec Aspose.Cells for Python via .NET.
-keywords: Aspose.Cells, bibliothèque Python via .NET, feuille de calcul, Smart Markers, ArrayAsSingle, ExtraDelimiter, tableau dans une seule cellule, rendu de tableau, modèle
+title: Rendu d’un tableau dans une cellule unique avec SmartMarker | Aspose.Cells for Python via .NET
+description: Découvrez comment rendre des données de tableau dans une cellule unique à l’aide des attributs Smart Marker `arrayassingle` et `arraydelimiter` dans Aspose.Cells for Python via .NET.
+linktitle: Rendu d’un tableau dans une cellule unique avec SmartMarker | Aspose.Cells
+url: /fr/python-net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+keywords: Aspose.Cells, bibliothèque Python via .NET, feuille de calcul, Smart Markers, arrayassingle, arraydelimiter, tableau dans une cellule unique, rendu de tableau, modèle
 type: docs
 weight: 195
-url: /fr/python-net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
 ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells permet de rendre les données d’un tableau dans une seule cellule à l’aide des Smart Markers. En utilisant l’attribut `ArrayAsSingle` conjointement avec l’attribut `ExtraDelimiter`, les développeurs peuvent contrôler la manière dont les éléments du tableau sont séparés dans une seule cellule, ce qui offre une mise en forme souple pour les rapports et les modèles.
+Aspose.Cells peut rendre une source de données contenant un tableau dans une cellule unique à l’aide des Smart Markers. L’attribut `arrayassingle` désactive la diffusion élément par élément par défaut, et l’attribut `arraydelimiter` choisit le séparateur inséré entre les éléments concaténés — une virgule par défaut, ou tout caractère unique ou chaîne multicaractères entre guillemets que vous spécifiez.
 {{% /alert %}}
 
 ## **Introduction**
-Les Smart Markers d’Aspose.Cells constituent une fonctionnalité puissante basée sur des modèles, qui permet de renseigner dynamiquement des données de feuille de calcul à l’aide d’expressions de marqueur telles que `&=DataSource.Field`. Le marqueur est placé dans un classeur de conception et, lorsque le modèle est traité par le `WorkbookDesigner`, les marqueurs sont remplacés par les valeurs de la source de données fournie.
-Par défaut, lorsqu’un Smart Marker référence une propriété de tableau, par exemple `&=DataSource.Numbers`, le moteur étend le tableau et place chaque élément dans une cellule adjacente distincte — horizontalement le long d’une ligne ou verticalement le long d’une colonne. Bien que ce comportement soit pratique dans de nombreux scénarios, il existe des situations où vous préféreriez rendre l’ensemble du tableau dans une seule cellule, avec les éléments concaténés et séparés par un délimiteur de votre choix.
-Les attributs `ArrayAsSingle` et `ExtraDelimiter`, utilisés ensemble au sein d’une balise Smart Marker, répondent précisément à ce besoin. Ils permettent de conserver des mises en page de rapport compactes et prévisibles tout en utilisant nativement des sources de données contenant des tableaux.
 
-## **Why This Feature Is Needed**
+Les Smart Markers d’Aspose.Cells constituent une fonctionnalité fondée sur des modèles qui renseigne dynamiquement les données d’une feuille de calcul à l’aide d’expressions de marqueur telles que `&=DataSource.Field`. Le marqueur est placé dans un classeur de conception et, lorsque le modèle est traité par `WorkbookDesigner`, les marqueurs sont remplacés par les valeurs provenant de la source de données fournie.
+Par défaut, lorsqu’un Smart Marker fait référence à un champ de tableau (par exemple, `&=Product.Tags` lié à une liste de quatre valeurs), le moteur développe le tableau et place chaque élément dans une cellule distincte, en propageant les valeurs verticalement vers le bas de la colonne, sous le marqueur. Bien que ce comportement soit pratique dans de nombreux scénarios, certaines situations nécessitent de rendre l’ensemble du tableau dans une cellule unique, avec concaténation des éléments et séparation par un délimiteur de votre choix.
+Les attributs `arrayassingle` et `arraydelimiter`, écrits entre les parenthèses d’un Smart Marker sous la forme `name:value`, répondent précisément à ce besoin. Ils vous permettent de conserver des mises en page de rapport compactes et prévisibles tout en utilisant de manière native des sources de données de tableau.
 
-### **Default Array Spreading Behavior**
-Lorsqu’un Smart Marker référence une propriété de tableau, Aspose.Cells répartit par défaut le tableau sur plusieurs cellules. Par exemple, un marqueur tel que `&=Product.Tags`, associé à un `string[]` contenant quatre valeurs, place chaque valeur dans une cellule distincte. Cela repousse les autres éléments du modèle et peut compromettre des mises en page de rapport soigneusement conçues.
+## **Pourquoi cette fonctionnalité est nécessaire**
 
-### **Use Case Limitations**
-De nombreux scénarios pratiques nécessitent un comportement différent du comportement de répartition par défaut :
+### **Comportement par défaut de diffusion des tableaux**
+
+Lorsqu’un Smart Marker fait référence à un champ de tableau, Aspose.Cells développe le tableau sur plusieurs cellules par défaut. Par exemple, un marqueur tel que `&=Product.Tags`, appliqué à une liste contenant quatre valeurs, place chaque valeur dans une cellule distincte sous le marqueur, ce qui décale les autres éléments du modèle et peut altérer des mises en page de rapport soigneusement conçues.
+
+### **Limites des cas d’utilisation**
+
+De nombreux scénarios pratiques rendent le comportement de diffusion par défaut inapproprié :
 - **Rapports de synthèse** nécessitant une disposition compacte avec une ligne par enregistrement.
 - **Listes de tags, d’étiquettes ou de mots-clés** devant être affichées sous forme de valeurs séparées par des virgules ou des barres verticales dans une seule cellule.
-- **Puces de filtre ou indicateurs d’état** regroupant plusieurs valeurs au même endroit pour améliorer la lisibilité.
-- **Chaînes de traitement en aval** (export CSV, rendu PDF, publipostage) qui attendent une valeur consolidée par cellule plutôt qu’une plage étendue.
-- **Compatibilité multiplateforme**, où certains consommateurs ne peuvent pas tolérer des tableaux qui s’étendent sur plusieurs cellules.
+- **Puces de filtrage ou indicateurs d’état** regroupant plusieurs valeurs au même endroit pour améliorer la lisibilité.
+- **Chaînes de traitement en aval** (exportation CSV, rendu PDF, publipostage) qui attendent une valeur consolidée unique par cellule plutôt qu’une plage étendue.
+- **Compatibilité entre plateformes**, dans laquelle certains consommateurs ne peuvent pas accepter des tableaux qui se répartissent sur plusieurs cellules.
 
-### **The Gap It Fills**
-Sans mécanisme intégré, les développeurs seraient obligés de prétraiter les données en Python — en concaténant les tableaux dans des chaînes délimitées avant de les lier au classeur de conception. Cela duplique la logique, complique les modèles de données et augmente les risques d’erreur. Les attributs `ArrayAsSingle` et `ExtraDelimiter` éliminent ce contournement en gérant la mise en forme de manière déclarative au sein même du Smart Marker.
+### **L’écart comblé**
 
-## **Feature Benefits**
-L’utilisation des attributs `ArrayAsSingle` et `ExtraDelimiter` dans vos Smart Markers offre plusieurs avantages :
-- **Confinement dans une seule cellule** : tous les éléments du tableau sont rendus dans une seule cellule, ce qui permet de conserver des mises en page compactes et prévisibles.
-- **Contrôle du délimiteur** : spécifiez la chaîne de séparation de votre choix — une virgule, un point-virgule, un trait d’union, une barre verticale, un saut de ligne ou tout texte personnalisé.
-- **Mise en forme pilotée par le modèle** : aucun code supplémentaire n’est nécessaire pour prétraiter les données ; les règles de mise en forme sont définies dans la balise Smart Marker.
-- **Rapports plus propres** : les données du tableau ne repoussent plus le contenu voisin du modèle vers d’autres lignes ou colonnes.
-- **Types de données polyvalents** : la fonctionnalité fonctionne avec des chaînes, des nombres, des dates et tout autre type de données pouvant être concaténé à l’aide d’un délimiteur.
-- **Compatibilité ascendante** : lorsque les attributs sont omis, le comportement initial de répartition est conservé et les modèles existants continuent à fonctionner sans modification.
+En l’absence de mécanisme intégré, les développeurs seraient obligés de traiter préalablement les données en Python — en convertissant les listes en chaînes délimitées avant de les lier à `WorkbookDesigner`. Cela duplique la logique, complexifie les modèles de données et augmente les risques d’erreur. Les attributs `arrayassingle` et `arraydelimiter` suppriment ce contournement en gérant la mise en forme de manière déclarative à l’intérieur même du Smart Marker.
 
-## **How to Use This Feature**
+## **Avantages de la fonctionnalité**
 
-### **Smart Marker Syntax**
-Les attributs `ArrayAsSingle` et `ExtraDelimiter` sont transmis sous forme de paires clé-valeur dans les parenthèses d’un Smart Marker standard. La syntaxe générale est la suivante :
+L’utilisation des attributs `arrayassingle` et `arraydelimiter` dans vos Smart Markers offre plusieurs avantages :
+- **Confinement dans une cellule unique** : Tous les éléments du tableau sont rendus dans exactement une cellule, ce qui préserve des mises en page compactes et prévisibles.
+- **Contrôle personnalisé du séparateur** : Spécifiez le séparateur de votre choix — la virgule par défaut, un point-virgule, un trait d’union, une barre verticale ou une chaîne multicaractères entre guillemets telle que `" | "`.
+- **Mise en forme pilotée par le modèle** : Aucun code supplémentaire n’est requis pour traiter préalablement les données ; les règles de mise en forme résident dans la balise Smart Marker.
+- **Rapports plus lisibles** : Les données de tableau ne décalent plus le contenu de modèle voisin vers d’autres lignes ou colonnes.
+- **Types de données polyvalents** : Fonctionne avec des listes de chaînes et des listes numériques fournies sous forme de lignes JSON.
+- **Compatibilité ascendante** : Lorsque les attributs sont omis, le comportement de diffusion d’origine est conservé, si bien que les modèles existants continuent de fonctionner sans modification.
+
+## **Comment utiliser cette fonctionnalité**
+
+### **Syntaxe des Smart Markers**
+
+Les attributs `arrayassingle` et `arraydelimiter` utilisent la grammaire d’attributs `name:value` d’Aspose.Cells entre les parenthèses d’un Smart Marker standard. La syntaxe générale est la suivante :
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayField(arrayassingle:true,arraydelimiter:;)
 ```
 
 Le marqueur est composé des éléments suivants :
-- `&=DataSource.ArrayProperty` — le Smart Marker standard qui référence la propriété de tableau de la source de données liée.
-- `arrayasSingle=true` — indique au moteur de rendre l’ensemble du tableau dans une seule cellule. Seule la valeur `true` déclenche le comportement dans une cellule unique.
-- `extraDelimiter=", "` — définit le séparateur placé entre les éléments du tableau. La valeur est un littéral de chaîne ; elle peut être vide, comporter un seul caractère ou plusieurs caractères.
+- `&=DataSource.ArrayField` — le Smart Marker standard qui fait référence au champ de tableau de la source de données liée.
+- `arrayassingle:true` — indique au moteur de rendre l’ensemble du tableau dans une seule cellule au lieu de répartir ses éléments.
+- `arraydelimiter:;` — facultatif ; définit le séparateur placé entre les éléments du tableau. En son absence, une virgule est utilisée.
 
-{{% alert color="primary" %}}
-L’attribut `extraDelimiter` accepte tout littéral de chaîne, notamment des délimiteurs composés de plusieurs caractères, du texte personnalisé ou des séquences d’échappement telles que `\n` pour produire une sortie séparée par des sauts de ligne. Si le tableau est vide, la cellule résultante est laissée vide.
+{{% alert color="warning" %}}
+Écrivez les attributs sous la forme `name:value` (avec deux-points, et non un signe égal) et séparez plusieurs attributs par une virgule **sans espaces**. Un espace après la virgule décale la valeur analysée d’un caractère — `(arrayassingle:true, arraydelimiter:;)` concaténerait les éléments avec le séparateur erroné `:;` au lieu de `;`.
 {{% /alert %}}
 
-### **Step-by-Step Workflow**
-Le processus suivant explique comment rendre un tableau dans une seule cellule à l’aide des Smart Markers.
-1. **Préparer la source de données** : créez une classe ou une structure de données qui expose une propriété renvoyant un tableau. La propriété peut renvoyer `list[str]`, `list[int]` ou tout autre type de tableau pris en charge.
-2. **Créer un classeur de conception** : créez un nouveau `Workbook`, ajoutez une ligne d’en-tête et placez dans une cellule un Smart Marker qui référence la propriété de tableau avec les attributs `arrayasSingle` et `extraDelimiter`.
-3. **Instancer le WorkbookDesigner** : créez un objet `WorkbookDesigner`, associez-lui le classeur de conception et liez votre source de données à l’aide de la méthode `set_data_source`.
-4. **Traiter les marqueurs** : appelez la méthode `WorkbookDesigner.process()` pour développer les Smart Markers et remplir le classeur avec les données réelles.
-5. **Enregistrer le résultat** : enregistrez le classeur obtenu sur le disque au format XLSX ou dans tout autre format de fichier pris en charge.
+### **Formes du séparateur**
 
-### **Code Example 1 — Basic String Array Rendering**
+- Un caractère unique est écrit directement après les deux-points : `arraydelimiter:;`, `arraydelimiter:-`, `arraydelimiter:*`.
+- Un séparateur multicaractères est placé entre guillemets doubles : `arraydelimiter:" | "`, `arraydelimiter:" - "`.
+
+### **Procédure pas à pas**
+
+La procédure suivante décrit comment rendre un tableau dans une seule cellule à l’aide des Smart Markers.
+1. **Préparer la source de données** : Organisez chaque enregistrement comme un objet JSON dont un champ contient un tableau, par exemple `{"Tags": ["C#", "Aspose"]}`. Les instances de classes Python ordinaires, les dictionnaires et les listes transmis à `set_data_source` ne permettent pas de lier les champs de tableau sur cette plateforme — les lignes JSON constituent la forme tabulaire prise en charge.
+2. **Créer un classeur de conception** : Créez un nouveau `Workbook`, ajoutez une ligne d’en-tête et placez une cellule de Smart Marker qui fait référence au champ de tableau avec l’attribut `arrayassingle` (et `arraydelimiter` lorsqu’un séparateur personnalisé est nécessaire).
+3. **Instancier `WorkbookDesigner`** : Créez un `WorkbookDesigner` autour du classeur et associez vos lignes JSON à l’aide de `set_json_data_source`.
+4. **Traiter les marqueurs** : Appelez la méthode `WorkbookDesigner.process()` pour développer les Smart Markers et renseigner le classeur avec les données réelles.
+5. **Enregistrer le résultat** : Enregistrez le classeur obtenu sur le disque au format XLSX ou dans tout autre format de fichier pris en charge.
+
+### **Exemple de code 1 — Rendu de base d’un tableau de chaînes**
 
 ```python
 import aspose.cells as ac
-class Product:
-    def __init__(self):
-        self.Tags = []
-product = Product()
-product.Tags = ["C#", "Aspose", "SmartMarker", "Excel"]
+
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.cells.get("A1").put_value("Tags")
-worksheet.cells.get("A2").put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
-designer = ac.WorkbookDesigner()
-designer.workbook = workbook
-designer.set_data_source("Product", product)
+# No spaces inside the parentheses: attributes are name:value pairs
+worksheet.cells.get("A2").put_value("&=Product.Tags(arrayassingle:true)")
+designer = ac.WorkbookDesigner(workbook)
+designer.set_json_data_source(
+    "Product",
+    '[{"Tags": ["C#", "Aspose", "SmartMarker", "Excel"]}]')
 designer.process()
-workbook.save("output_arraySingle.xlsx")
+print(worksheet.cells.get("A2").string_value)
+workbook.save("output-array-single.xlsx")
 ```
 
-### **Code Example 2 — Numeric Array with Custom Delimiter**
+L’exemple affiche la valeur concaténée du tableau entier. Les quatre tags sont regroupés dans une seule cellule, séparés par la virgule par défaut :
+
+```
+C#,Aspose,SmartMarker,Excel
+```
+
+### **Exemple de code 2 — Tableau numérique avec un séparateur personnalisé**
 
 ```python
 import aspose.cells as ac
-class Student:
-    def __init__(self):
-        self.scores = []
-student = Student()
-student.scores = [95, 88, 76, 100, 67]
+
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.cells.get("A1").put_value("Scores")
-worksheet.cells.get("A2").put_value(" - ".join(str(s) for s in student.scores))
-workbook.save("output_numericArray.xlsx")
+# arraydelimiter:- joins the numbers with a hyphen
+worksheet.cells.get("A2").put_value("&=Student.Scores(arrayassingle:true,arraydelimiter:-)")
+designer = ac.WorkbookDesigner(workbook)
+designer.set_json_data_source(
+    "Student",
+    '[{"Scores": [95, 88, 76, 100, 67]}]')
+designer.process()
+print(worksheet.cells.get("A2").string_value)
+workbook.save("output-array-numeric.xlsx")
 ```
 
-### **Code Example 3 — Comparing Default vs. ArrayAsSingle Behavior**
+Les nombres JSON sont concaténés exactement comme les chaînes — chaque élément conserve sa représentation numérique brute :
+
+```
+95-88-76-100-67
+```
+
+### **Exemple de code 3 — Comparaison du rendu par défaut et du rendu dans une cellule unique**
 
 ```python
 import aspose.cells as ac
-class Order:
-    def __init__(self, items):
-        self._items = items
-    @property
-    def Items(self):
-        return self._items
-    @Items.setter
-    def Items(self, value):
-        self._items = value
-order = Order(["Apple", "Banana", "Cherry", "Date"])
+
 workbook = ac.Workbook()
-sheet = workbook.worksheets[0]
-cells = sheet.cells
-# Section 1: Default Smart Marker - values spread horizontally across cells
-cells.get("A1").put_value("Default Spreading Behavior:")
-cells.get("A2").put_value("&=Order.Items")
-# Section 2: New single-cell rendering using arrayasSingle and extraDelimiter
-cells.get("A4").put_value("Single Cell Rendering (arrayasSingle=true):")
-cells.get("A5").put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
-# Bind the data source and process Smart Markers
+cells = workbook.worksheets[0].cells
+# Column B: default marker — values spread vertically down the column
+cells.get("B1").put_value("Default")
+cells.get("B2").put_value("&=Order.Items")
+# Column C: single-cell rendering — the whole array joins into one cell
+cells.get("C1").put_value("Single cell")
+cells.get("C2").put_value("&=Order.Items(arrayassingle:true)")
 designer = ac.WorkbookDesigner(workbook)
-designer.set_data_source("Order", order)
+designer.set_json_data_source(
+    "Order",
+    '[{"Items": ["Apple", "Banana", "Cherry", "Date"]}]')
 designer.process()
-# Save the resulting workbook
-workbook.save("output_comparison.xlsx")
+for row in range(1, 6):
+    b = cells.get(row, 1).string_value or ""
+    c = cells.get(row, 2).string_value or ""
+    if b or c:
+        print(f"B{row + 1}=[{b}]  C{row + 1}=[{c}]")
+workbook.save("output-array-comparison.xlsx")
 ```
 
-### **Notes & Best Practices**
-Gardez les points suivants à l’esprit lorsque vous utilisez les attributs `ArrayAsSingle` et `ExtraDelimiter` :
-- La valeur `extraDelimiter` est traitée comme un littéral de chaîne ; échappez les caractères spéciaux susceptibles d’être interprétés par le processeur de votre modèle.
-- L’attribut `arrayasSingle` accepte une valeur booléenne (`True` / `False`). Seule la valeur `True` déclenche le comportement dans une cellule unique ; toute autre valeur entraîne le retour au comportement de répartition par défaut.
-- Si le tableau est vide ou nul, la cellule reste vide ou contient une chaîne vide, selon le type de données.
-- La fonctionnalité fonctionne avec les sources de données constituées d’objets, ainsi qu’avec les sources `DataSet` et `DataTable` dans lesquelles une colonne peut être scindée en tableaux.
-- Pour produire une sortie séparée par des sauts de ligne, vous pouvez utiliser `\n` ou `os.linesep` comme valeur de délimiteur.
-- Placez le Smart Marker dans une cellule dont la largeur est suffisante pour afficher la chaîne concaténée résultante ; sinon, le contenu peut déborder visuellement dans les cellules adjacentes selon le format.
+Le marqueur par défaut remplit une cellule par élément dans la colonne B, tandis que le marqueur `arrayassingle` condense le même tableau dans une seule cellule de la colonne C :
 
-## Related Articles
-- [Ajouter des champs de filtre à un tableau croisé dynamique dans Aspose.Cells for Python via .NET](/cells/fr/python-net/add-page-field-in-pivot-table/)
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
+```
+
+### **Notes et bonnes pratiques**
+
+Gardez les éléments suivants à l’esprit lorsque vous utilisez les attributs `arrayassingle` et `arraydelimiter` :
+- Les valeurs d’attribut utilisent la forme `name:value`. Une forme avec un signe égal, telle que `arrayassingle=true`, n’est pas reconnue et ramène silencieusement au comportement de diffusion par défaut.
+- Séparez les attributs par une virgule sans espace ; un espace après la virgule décale la valeur du séparateur d’un caractère (voir l’avertissement ci-dessus).
+- La valeur de `arraydelimiter` peut être un caractère unique écrit directement après les deux-points ou une chaîne multicaractères placée entre guillemets doubles.
+- Si `arraydelimiter` est omis, les éléments sont concaténés par une virgule.
+- Fournissez les champs de tableau au moyen des objets de ligne de `set_json_data_source`. Les objets Python ordinaires et les dictionnaires transmis à `set_data_source` ne sont pas liés sur cette plateforme, et une instance personnalisée de `ICellsDataTable` dont une colonne renvoie une liste Python affiche le texte du conteneur de la liste au lieu de concaténer ses éléments.
+- Les nombres JSON conservent leur forme d’entier simple dans la sortie concaténée.
+
+## **Articles connexes**
+- [Ajouter des champs de filtre à un tableau croisé dynamique dans Aspose.Cells pour .NET](/cells/fr/python-net/add-page-field-in-pivot-table/)
 - [Appliquer des styles aux tableaux croisés dynamiques dans Aspose.Cells for Python via .NET](/cells/fr/python-net/apply-style-to-pivot-table/)
-- [Modifier la disposition des champs de page dans un tableau croisé dynamique](/cells/fr/python-net/change-page-field-layout/)
-- [Convertir une Sparkline en image et HTML dans Aspose.Cells for Python via .NET](/cells/fr/python-net/convert-sparkline-to-image-and-html/)
-- [Convertir Excel au format OFD](/cells/fr/python-net/converting-excel-to-ofd-format/)
+- [Modifier la disposition du champ de page dans un tableau croisé dynamique](/cells/fr/python-net/change-page-field-layout/)
+- [Convertir une sparkline en image et en HTML dans Aspose.Cells for Python via .NET](/cells/fr/python-net/convert-sparkline-to-image-and-html/)
+- [Conversion d'Excel au format OFD](/cells/fr/python-net/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="python-net" >}}

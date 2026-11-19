@@ -1,6 +1,6 @@
 ---
 title: 插入数据透视表
-linktitle: 插入数据透视表
+linktitle: 数据透视表
 description: 使用 Aspose.Cells for Node.js via C++ 创建并设置数据透视表的格式。
 keywords: 创建数据透视表, 插入数据透视表, 格式化数据透视表.
 type: docs
@@ -35,12 +35,10 @@ Aspose.Cells for Node.js via C++ 提供了一组用于创建和管理数据透�
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-
-// 创建一个新的工作簿并获取第一个工作表
+// Create a new workbook and get the first worksheet
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-
-// 写入源数据：按运动项目和季度统计的销售额
+// Write the source data: sales per sport and quarter
 sheet.getCells().get("A1").putValue("Sport");
 sheet.getCells().get("B1").putValue("Quarter");
 sheet.getCells().get("C1").putValue("Sales");
@@ -65,16 +63,13 @@ sheet.getCells().get("C7").putValue(5000);
 sheet.getCells().get("A8").putValue("Golf");
 sheet.getCells().get("B8").putValue("Qtr3");
 sheet.getCells().get("C8").putValue(6430);
-
-// 在目标单元格 E3 处添加数据透视表，数据源为 A1:C8
+// Add a pivot table at destination cell E3, sourced from A1:C8
 let pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// 指定数据透视字段：将 Sport 放置在行区域，将 Quarter 放置在列区域，将 Sales 放置在数据区域
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Quarter");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
-
-// 保存工作簿
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

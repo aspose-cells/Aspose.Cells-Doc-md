@@ -40,17 +40,17 @@ Excel は 2 つの異なるパスワード層に対応しています。1 つ目
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
-// 最初のワークシートのセルA1にサンプル値を書き込む
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get("A1").putValue("Sample Data");
-// 書き込み保護を設定する：変更用のパスワードと作成者を設定する
+// Configure the write protection: set the password to modify and the author
 workbook.getSettings().getWriteProtection().setPassword("ModifyPwd");
 workbook.getSettings().getWriteProtection().setAuthor("AuthorName");
-// 書き込み保護を永続化するためにブックを保存する
+// Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx");
-// 正しいパスワードを使用して変更用パスワードを検証する
+// Validate the password to modify using the correct password
 let isCorrectValid = workbook.getSettings().getWriteProtection().validatePassword("ModifyPwd");
 console.log("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// もう一方の分岐を示すために、誤ったパスワードを使用して変更用パスワードを検証する
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 let isWrongValid = workbook.getSettings().getWriteProtection().validatePassword("WrongPwd");
 console.log("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -61,20 +61,20 @@ console.log("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
-// 2番目のワークシートを追加
+// Add a second worksheet
 workbook.getWorksheets().add();
-// 最初のワークシートのセルA1にサンプル値を書き込む
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// ワークブックの構造を保護する
+// Protect the workbook structure
 workbook.protect(AsposeCells.ProtectionType.Structure, "StructPwd");
-// ワークブックをstructure_protected.xlsxとして保存する
+// Save the workbook as structure_protected.xlsx
 let filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// ファイルを新しいWorkbookインスタンスに再読み込みする
+// Reload the file into a new Workbook instance
 let loadedWorkbook = new AsposeCells.Workbook(filePath);
-// 構造保護を解除する
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// 確認メッセージを出力する
+// Print confirmation message
 console.log("Structure protection has been successfully removed from the workbook.");
 ```
 

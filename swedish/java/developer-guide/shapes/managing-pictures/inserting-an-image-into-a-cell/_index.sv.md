@@ -96,16 +96,16 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Hämta målcellen C6
+// Get the target cell C6
 Cell cell = worksheet.getCells().get("C6");
-// Läs bildfilen till en byte-array
+// Read the image file into a byte array
 byte[] imageData = Files.readAllBytes(Paths.get("logo.png"));
-// Bädda in bilden direkt i cellen
+// Embed the image directly into the cell
 cell.setEmbeddedImage(imageData);
-// Justera eventuellt radhöjd och kolumnbredd så att den inbäddade bilden syns bättre
-worksheet.getCells().setColumnWidth(2, 30);   // Kolumn C (index 2)
-worksheet.getCells().setRowHeight(5, 100);     // Rad 6 (index 5)
-// Spara den resulterande arbetsboken som en .xlsx-fil
+// Optionally adjust row height and column width so the embedded image is more visible
+worksheet.getCells().setColumnWidth(2, 30);   // Column C (index 2)
+worksheet.getCells().setRowHeight(5, 100);     // Row 6 (index 5)
+// Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", SaveFormat.XLSX);
 ```
 

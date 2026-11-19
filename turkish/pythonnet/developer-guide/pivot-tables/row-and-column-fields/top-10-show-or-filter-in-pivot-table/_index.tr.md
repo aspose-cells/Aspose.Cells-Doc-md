@@ -1,6 +1,6 @@
 ---
 title: Özet Tablosunda İlk 10'u Gösterme veya Filtreleme
-linktitle: Özet Tablosunda İlk 10'u Gösterme veya Filtreleme
+linktitle: İlk 10 Öğeyi Göster veya Filtrele
 description: Aspose.Cells for Python via .NET kullanılarak bir özet tablo alanında yalnızca en üst veya en alt sıralı öğelerin nasıl gösterileceğini öğrenin. Bu makale, Excel 97-2003 top_10_auto_show yöntemini, top_10_auto_show_settings ile seçeneklerin okunmasını ve Excel 2007-365 İlk 10 Filtresi'nin filter_top10 aracılığıyla kullanılmasını ele alır.
 keywords: Aspose.Cells, Python via .NET, özet tablo, ilk 10, otomatik gösterim, top_10_auto_show, top_10_auto_show_settings, PivotFieldTop10AutoShowSettings, filter_top10, PivotFilterType, PivotField, Python
 type: docs
@@ -47,7 +47,7 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
 pivot_table.calculate_data()
 sport_field = pivot_table.row_fields[0]
-# "Satışların Toplamı" değerine göre sıralanan ilk 2 öğeyi göster (veri alanı dizini 0)
+# Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sport_field.top_10_auto_show(True, True, 2, 0)
 pivot_table.calculate_data()
 workbook.save("output-top10-by-value-field.xlsx")
@@ -134,9 +134,9 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
 pivot_table.calculate_data()
 sport_field = pivot_table.row_fields[0]
-# En İlk 10 Filtresi — "Satışların Toplamı" ölçütüyle en üst 2 öğeyi tut (veri alanı dizini 0)
+# Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
 filter = sport_field.filter_top10(0, PivotFilterType.COUNT, True, 2)
-# Bunun yerine yüzde tabanlı bir filtre kullanmak için, öğelerin en üst yüzde 30'unu tut:
+# For a percentage-based filter instead, keep the top 30 percent of the items:
 # sport_field.filter_top10(0, PivotFilterType.PERCENT, True, 30)
 pivot_table.pivot_cache.refresh()
 pivot_table.calculate_data()

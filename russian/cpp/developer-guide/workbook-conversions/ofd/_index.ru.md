@@ -29,38 +29,38 @@ Aspose.Cells позволяет программно создать рабочу
 В примере создается рабочий лист для счета: в левую верхнюю область вставляется изображение логотипа, затем заполняются название компании и контактные данные, в объединенном диапазоне размещается заголовок «INVOICE», указываются номер и дата счета, вводятся данные клиента, которому выставляется счет, и создается таблица позиций со столбцами описания, количества, цены за единицу и общей стоимости. Промежуточная сумма, налог и общая сумма рассчитываются с помощью формул в ячейках. Форматирование — полужирные заголовки, денежный формат цен, границы и ширина столбцов — применяется с помощью объектов `Style` и `Font`. Наконец, рабочая книга сохраняется в файл с расширением `.ofd` с использованием `SaveFormat.Ofd`.
 
 ```cpp
-// Пример Aspose.Cells для C++
-// Компилировать с Aspose.Cells 26.6.0 (или новее) и компилятором C++17 (или новее)
+// Aspose.Cells for C++ example
+// Compile with Aspose.Cells 26.6.0 (or later) and a C++17 (or later) compiler
 #include "Aspose.Cells.h"
 #include <string>
 #include <ctime>
 using namespace Aspose::Cells;
 int main()
 {
-    // Инициализация Aspose.Cells
+    // Initialize Aspose.Cells
     Aspose::Cells::Startup();
-    // Каталог для ресурсов и выходных файлов
+    // Directory for resources and output
     const char16_t* dataDir = u"C:\\Temp\\";
-    // Создание новой рабочей книги
+    // Create a new workbook
     Workbook workbook;
-    // Получение первого листа
+    // Obtain the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // Установка ширины столбцов
+    // Set column widths
     cells.SetColumnWidth(0, 5.0);
     cells.SetColumnWidth(1, 35.0);
     cells.SetColumnWidth(2, 12.0);
     cells.SetColumnWidth(3, 15.0);
     cells.SetColumnWidth(4, 15.0);
     cells.SetColumnWidth(5, 5.0);
-    // Вставка логотипа компании
+    // Insert company logo
     worksheet.GetPictures().Add(1, 1, U16String(dataDir) + u"logo.png");
-    // Название компании и контактные данные
+    // Company name and contact details
     cells.Get(u"B3").PutValue(u"Acme Corporation");
     cells.Get(u"B4").PutValue(u"123 Business Street");
     cells.Get(u"B5").PutValue(u"City, State 12345");
     cells.Get(u"B6").PutValue(u"Phone: (555) 123-4567");
-    // Заголовок INVOICE - объединение ячеек
+    // INVOICE title - merge cells
     cells.Merge(7, 1, 2, 4);
     Cell titleCell = cells.Get(u"B8");
     titleCell.PutValue(u"INVOICE");
@@ -69,7 +69,7 @@ int main()
     titleStyle.GetFont().SetSize(20);
     titleStyle.SetHorizontalAlignment(TextAlignmentType::Center);
     titleCell.SetStyle(titleStyle);
-    // Номер счёта и дата
+    // Invoice number and date
     cells.Get(u"B11").PutValue(u"Invoice Number:");
     cells.Get(u"C11").PutValue(u"INV-2024-001");
     cells.Get(u"B12").PutValue(u"Date:");
@@ -78,12 +78,12 @@ int main()
     char dateBuffer[11];
     std::strftime(dateBuffer, sizeof(dateBuffer), "%Y-%m-%d", now);
     cells.Get(u"C12").PutValue(U16String(dateBuffer));
-    // Раздел "Кому выставлен счёт"
+    // Bill-to section
     cells.Get(u"B14").PutValue(u"Bill To:");
     cells.Get(u"B15").PutValue(u"Client Name");
     cells.Get(u"B16").PutValue(u"Client Address");
     cells.Get(u"B17").PutValue(u"Client City, State");
-    // Заголовок таблицы позиций
+    // Line items header
     Cell headerDesc = cells.Get(u"B19");
     Cell headerQty = cells.Get(u"C19");
     Cell headerPrice = cells.Get(u"D19");
@@ -106,20 +106,20 @@ int main()
     headerQty.SetStyle(headerStyle);
     headerPrice.SetStyle(headerStyle);
     headerTotal.SetStyle(headerStyle);
-    // Стиль валюты с границами
+    // Currency style with borders
     Style currencyStyle = workbook.CreateStyle();
     currencyStyle.SetCustom(u"\"$\"#,##0.00");
     currencyStyle.GetBorders().Get(BorderType::TopBorder).SetLineStyle(CellBorderType::Thin);
     currencyStyle.GetBorders().Get(BorderType::BottomBorder).SetLineStyle(CellBorderType::Thin);
     currencyStyle.GetBorders().Get(BorderType::LeftBorder).SetLineStyle(CellBorderType::Thin);
     currencyStyle.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
-    // Простой стиль с границами для ячеек описания/количества
+    // Plain border style for description/quantity cells
     Style borderStyle = workbook.CreateStyle();
     borderStyle.GetBorders().Get(BorderType::TopBorder).SetLineStyle(CellBorderType::Thin);
     borderStyle.GetBorders().Get(BorderType::BottomBorder).SetLineStyle(CellBorderType::Thin);
     borderStyle.GetBorders().Get(BorderType::LeftBorder).SetLineStyle(CellBorderType::Thin);
     borderStyle.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
-    // Строки позиций
+    // Line items rows
     struct LineItem { const char16_t* desc; int qty; double price; };
     LineItem lineItems[] = {
         {u"Product A - Widget", 2, 50.00},
@@ -143,7 +143,7 @@ int main()
         priceCell.SetStyle(currencyStyle);
         totalCell.SetStyle(currencyStyle);
     }
-    // Промежуточный итог, налог, общий итог
+    // Subtotal, tax, grand total
     cells.Get(u"B24").PutValue(u"Subtotal:");
     Cell subtotalCell = cells.Get(u"E24");
     subtotalCell.SetFormula(u"SUM(E21:E23)");
@@ -153,22 +153,22 @@ int main()
     cells.Get(u"B26").PutValue(u"Grand Total:");
     Cell grandTotalCell = cells.Get(u"E26");
     grandTotalCell.SetFormula(u"E24+E25");
-    // Жирный стиль + стиль валюты для итоговых значений
+    // Bold + currency style for total values
     Style totalStyle = workbook.CreateStyle();
     totalStyle.GetFont().SetIsBold(true);
     totalStyle.SetCustom(u"\"$\"#,##0.00");
     subtotalCell.SetStyle(totalStyle);
     taxCell.SetStyle(totalStyle);
     grandTotalCell.SetStyle(totalStyle);
-    // Жирный стиль для меток итогов
+    // Bold style for total labels
     Style boldStyle = workbook.CreateStyle();
     boldStyle.GetFont().SetIsBold(true);
     cells.Get(u"B24").SetStyle(boldStyle);
     cells.Get(u"B25").SetStyle(boldStyle);
     cells.Get(u"B26").SetStyle(boldStyle);
-    // Сохранение рабочей книги как файла OFD
+    // Save the workbook as an OFD file
     workbook.Save(U16String(dataDir) + u"Invoice.ofd", SaveFormat::Ofd);
-    // Освобождение ресурсов Aspose.Cells
+    // Cleanup Aspose.Cells resources
     Aspose::Cells::Cleanup();
     return 0;
 }
@@ -193,9 +193,9 @@ std::string GetCurrentTimestamp() {
 int main() {
     Aspose::Cells::Startup();
     std::string dataDir = "C:\\Examples\\";
-    // Открыть существующую книгу Excel с диска
+    // Open an existing Excel workbook from disk
     Workbook workbook(U16String((dataDir + "SampleBook.xlsx").c_str()));
-    // (1) Прочитать и отобразить значения выбранных ячеек, чтобы подтвердить загрузку файла
+    // (1) Read and display values from selected cells to confirm the file was loaded
     Worksheet firstSheet = workbook.GetWorksheets().Get(0);
     U16String sheetName = firstSheet.GetName();
     Cell a1 = firstSheet.GetCells().Get(u"A1");
@@ -205,7 +205,7 @@ int main() {
     std::cout << "Cell A1: " << a1.GetStringValue().ToUtf8() << std::endl;
     std::cout << "Cell B1: " << b1.GetStringValue().ToUtf8() << std::endl;
     std::cout << "Cell C1: " << c1.GetStringValue().ToUtf8() << std::endl;
-    // (2) Перебрать коллекцию Worksheets, чтобы получить список доступных листов
+    // (2) Iterate over the Worksheets collection to enumerate available sheets
     std::cout << "\nAvailable worksheets:" << std::endl;
     WorksheetCollection sheets = workbook.GetWorksheets();
     int sheetCount = sheets.GetCount();
@@ -214,28 +214,28 @@ int main() {
         U16String wsName = ws.GetName();
         std::cout << "  [" << i << "] " << wsName.ToUtf8() << std::endl;
     }
-    // (3) При необходимости обновить ячейку с временной меткой, отражающей время преобразования
+    // (3) Optionally update a timestamp cell to reflect the conversion
     std::string timestamp1 = GetCurrentTimestamp();
     firstSheet.GetCells().Get(u"A1").PutValue(U16String(("Converted on: " + timestamp1).c_str()));
-    // Добавить строку заголовка сведений в начало блока данных
+    // Append a summary header row at the top of the data block
     firstSheet.GetCells().InsertRow(0);
     firstSheet.GetCells().Get(u"A1").PutValue(u"Conversion Summary");
     std::string timestamp2 = GetCurrentTimestamp();
     firstSheet.GetCells().Get(u"A2").PutValue(U16String(("Generated: " + timestamp2).c_str()));
-    // (4) Настроить свойства PageSetup рабочего листа
+    // (4) Configure PageSetup properties on the worksheet
     PageSetup pageSetup = firstSheet.GetPageSetup();
     pageSetup.SetOrientation(PageOrientationType::Landscape);
     pageSetup.SetPaperSize(PaperSizeType::PaperA4);
     pageSetup.SetFitToPagesTall(1);
     pageSetup.SetFitToPagesWide(1);
-    // (5) При необходимости задать область печати для вывода OFD
+    // (5) Optionally set the print area for the OFD output
     int lastRow = firstSheet.GetCells().GetMaxDataRow();
     int lastCol = firstSheet.GetCells().GetMaxDataColumn();
     U16String lastColLetter = CellsHelper::ColumnIndexToName(lastCol);
     std::string printArea = "A1:" + lastColLetter.ToUtf8() + std::to_string(lastRow + 1);
     firstSheet.GetPageSetup().SetPrintArea(U16String(printArea.c_str()));
     std::cout << "\nPrint area set to: " << printArea << std::endl;
-    // (6) Сохранить книгу в файл OFD
+    // (6) Save the workbook as an OFD file
     workbook.Save(U16String((dataDir + "SampleBook.ofd").c_str()), SaveFormat::Ofd);
     std::cout << "\nFile successfully converted to OFD format: " << dataDir << "SampleBook.ofd" << std::endl;
     Aspose::Cells::Cleanup();

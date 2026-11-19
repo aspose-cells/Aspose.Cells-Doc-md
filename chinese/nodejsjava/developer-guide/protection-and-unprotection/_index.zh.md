@@ -40,17 +40,17 @@ Excel 支持两种不同的密码层。第一种是打开密码，它会对文�
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// 向第一个工作表的 A1 单元格写入一个示例值
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get("A1").putValue("Sample Data");
-// 配置写保护：设置修改密码和作者
+// Configure the write protection: set the password to modify and the author
 workbook.getSettings().getWriteProtection().setPassword("ModifyPwd");
 workbook.getSettings().getWriteProtection().setAuthor("AuthorName");
-// 保存工作簿以使写保护生效
+// Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx");
-// 使用正确的密码验证修改密码
+// Validate the password to modify using the correct password
 let isCorrectValid = workbook.getSettings().getWriteProtection().validatePassword("ModifyPwd");
 console.log("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// 使用错误的密码验证修改密码以演示另一种情况
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 let isWrongValid = workbook.getSettings().getWriteProtection().validatePassword("WrongPwd");
 console.log("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -61,20 +61,20 @@ console.log("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// 添加第二个工作表
+// Add a second worksheet
 workbook.getWorksheets().add();
-// 在第一个工作表的 A1 单元格中写入一个示例值
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// 保护工作簿结构
+// Protect the workbook structure
 workbook.protect(AsposeCells.ProtectionType.STRUCTURE, "StructPwd");
-// 将工作簿另存为 structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 let filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// 将文件重新加载到新的 Workbook 实例中
+// Reload the file into a new Workbook instance
 let loadedWorkbook = new AsposeCells.Workbook(filePath);
-// 移除结构保护
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// 打印确认消息
+// Print confirmation message
 console.log("Structure protection has been successfully removed from the workbook.");
 ```
 

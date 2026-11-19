@@ -40,13 +40,11 @@ Aspose.Cells を使用すると、スプレッドシートにピボットテー�
 
 ```java
 import com.aspose.cells.*;
-
-// 新しいワークブックを作成し、最初のワークシートを取得する
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-
-// ソースデータを書き込む：スポーツ別および四半期別の売上
+// Write the source data: sales per sport and quarter
 cells.get("A1").putValue("Sport");
 cells.get("B1").putValue("Quarter");
 cells.get("C1").putValue("Sales");
@@ -71,16 +69,13 @@ cells.get("C7").putValue(5000);
 cells.get("A8").putValue("Golf");
 cells.get("B8").putValue("Qtr3");
 cells.get("C8").putValue(6430);
-
-// 宛先セル E3 に、A1:C8 をソースとするピボットテーブルを追加する
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// ピボットフィールドを割り当てる：Sport を Rows に、Quarter を Columns に、Sales を Data に
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Quarter");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
-
-// ワークブックを保存する
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

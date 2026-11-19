@@ -18,59 +18,59 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
-    Aspose::Cells::Startup();
-    Workbook workbook;
-    Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    worksheet.SetName(u"Data");
-    Cells cells = worksheet.GetCells();
-    // A1:D1のヘッダー
-    cells.Get(0, 0).PutValue(U16String("Category"));
-    cells.Get(0, 1).PutValue(U16String("Item"));
-    cells.Get(0, 2).PutValue(U16String("Year"));
-    cells.Get(0, 3).PutValue(U16String("Amount"));
-    // A2:D9のデータ行を、jで分岐するネストループで設定
-    for (int i = 1; i <= 8; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
-            switch (j)
-            {
-                case 0:
-                    cells.Get(i, j).PutValue(U16String(i <= 4 ? "Fruit" : "Vegetable"));
-                    break;
-                case 1:
-                    if (i == 1 || i == 2) cells.Get(i, j).PutValue(U16String("Apple"));
-                    else if (i == 3 || i == 4) cells.Get(i, j).PutValue(U16String("Banana"));
-                    else if (i == 5 || i == 6) cells.Get(i, j).PutValue(U16String("Carrot"));
-                    else cells.Get(i, j).PutValue(U16String("Daikon"));
-                    break;
-                case 2:
-                    cells.Get(i, j).PutValue(2020 + ((i - 1) % 2));
-                    break;
-                case 3:
-                    if (i == 1) cells.Get(i, j).PutValue(100);
-                    else if (i == 2) cells.Get(i, j).PutValue(150);
-                    else if (i == 3) cells.Get(i, j).PutValue(80);
-                    else if (i == 4) cells.Get(i, j).PutValue(90);
-                    else if (i == 5) cells.Get(i, j).PutValue(50);
-                    else if (i == 6) cells.Get(i, j).PutValue(60);
-                    else if (i == 7) cells.Get(i, j).PutValue(40);
-                    else cells.Get(i, j).PutValue(45);
-                    break;
-            }
-        }
-    }
- // F3にPivotTable1という名前のピボットテーブルを追加
-    PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
-    // ピボットレイアウト: 行にCategoryとItem、列にYear、データフィールドにAmountを配置
-    pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
-    pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
-    pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
-    pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    pivotTable.CalculateData();
-    workbook.Save(u"output_drag.xlsx");
-    Aspose::Cells::Cleanup();
-    return 0;
+ Aspose::Cells::Startup();
+ Workbook workbook;
+ Worksheet worksheet = workbook.GetWorksheets().Get(0);
+ worksheet.SetName(u"Data");
+ Cells cells = worksheet.GetCells();
+ // Headers in A1:D1
+ cells.Get(0, 0).PutValue(U16String("Category"));
+ cells.Get(0, 1).PutValue(U16String("Item"));
+ cells.Get(0, 2).PutValue(U16String("Year"));
+ cells.Get(0, 3).PutValue(U16String("Amount"));
+ // Data rows A2:D9 using nested loops branching on j
+ for (int i = 1; i <= 8; i++)
+ {
+ for (int j = 0; j < 4; j++)
+ {
+ switch (j)
+ {
+ case 0:
+ cells.Get(i, j).PutValue(U16String(i <= 4 ? "Fruit" : "Vegetable"));
+ break;
+ case 1:
+ if (i == 1 || i == 2) cells.Get(i, j).PutValue(U16String("Apple"));
+ else if (i == 3 || i == 4) cells.Get(i, j).PutValue(U16String("Banana"));
+ else if (i == 5 || i == 6) cells.Get(i, j).PutValue(U16String("Carrot"));
+ else cells.Get(i, j).PutValue(U16String("Daikon"));
+ break;
+ case 2:
+ cells.Get(i, j).PutValue(2020 + ((i - 1) % 2));
+ break;
+ case 3:
+ if (i == 1) cells.Get(i, j).PutValue(100);
+ else if (i == 2) cells.Get(i, j).PutValue(150);
+ else if (i == 3) cells.Get(i, j).PutValue(80);
+ else if (i == 4) cells.Get(i, j).PutValue(90);
+ else if (i == 5) cells.Get(i, j).PutValue(50);
+ else if (i == 6) cells.Get(i, j).PutValue(60);
+ else if (i == 7) cells.Get(i, j).PutValue(40);
+ else cells.Get(i, j).PutValue(45);
+ break;
+ }
+ }
+ }
+ // Add pivot table at F3 with name PivotTable1
+ PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
+ // Pivot layout: Category and Item on Row, Year on Column, Amount as data field
+ pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
+ pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
+ pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
+ pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
+ pivotTable.CalculateData();
+ workbook.Save(u"output_drag.xlsx");
+ Aspose::Cells::Cleanup();
+ return 0;
 }
 ```
 

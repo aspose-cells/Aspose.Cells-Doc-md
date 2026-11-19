@@ -28,15 +28,15 @@ L'exemple suivant construit un petit jeu de données Fruit / Année / Montant, p
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# Créer un nouveau classeur
+# Create a new workbook
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-# Configurer la ligne d'en-tête
+# Set up the header row
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
-# Remplir 9 lignes de données d'exemple : Fruit, Year, Amount
+# Populate 9 rows of sample data: Fruit, Year, Amount
 data = [
     ["apple", 2020, 100],
     ["banana", 2021, 200],
@@ -52,15 +52,15 @@ for i in range(len(data)):
     worksheet.cells.get(i + 1, 0).put_value(data[i][0])
     worksheet.cells.get(i + 1, 1).put_value(data[i][1])
     worksheet.cells.get(i + 1, 2).put_value(data[i][2])
-# Ajouter un tableau croisé dynamique ancré à la cellule E3
+# Add a pivot table anchored at cell E3
 pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
-# Ajouter des champs à leurs zones : Fruit comme Ligne, Amount comme Données, Year comme champ de Page
+# Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
-# Actualiser et calculer les données du tableau croisé dynamique
+# Refresh and calculate the pivot table data
 pivot_table.calculate_data()
-# Enregistrer le classeur
+# Save the workbook
 workbook.save("pageFieldSample.xlsx")
 ```
 
@@ -70,19 +70,19 @@ Lorsque vous travaillez déjà avec une instance `PivotField`, vous pouvez la pa
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# — Le tableau croisé dynamique et le champ de page sont construits exactement comme dans
-#   le scénario 1a (données Fruit/Année/Montant, pivot à E3, Fruit→Ligne,
-#   Montant→Données). Ci-dessous, nous obtenons le PivotField Année à partir
-#   de la collection BaseFields et le passons à PageFields.Add — l'alternative
-#   de bas niveau à AddFieldToArea. Le résultat est fonctionnellement
-#   identique au scénario 1a.
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data). Below we obtain the Year PivotField from the
+#   BaseFields collection and pass it to PageFields.Add — the
+#   low-level alternative to AddFieldToArea. The result is
+#   functionally identical to Scenario 1a.
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-# En-têtes
+# Headers
 sheet.cells.get("A1").put_value("Fruit")
 sheet.cells.get("B1").put_value("Year")
 sheet.cells.get("C1").put_value("Amount")
-# Données d'exemple (9 lignes)
+# Sample data (9 rows)
 sheet.cells.get("A2").put_value("apple");    sheet.cells.get("B2").put_value("2020"); sheet.cells.get("C2").put_value(100)
 sheet.cells.get("A3").put_value("apple");    sheet.cells.get("B3").put_value("2021"); sheet.cells.get("C3").put_value(150)
 sheet.cells.get("A4").put_value("apple");    sheet.cells.get("B4").put_value("2022"); sheet.cells.get("C4").put_value(200)
@@ -92,16 +92,16 @@ sheet.cells.get("A7").put_value("grape");    sheet.cells.get("B7").put_value("20
 sheet.cells.get("A8").put_value("blueberry"); sheet.cells.get("B8").put_value("2020"); sheet.cells.get("C8").put_value(250)
 sheet.cells.get("A9").put_value("blueberry"); sheet.cells.get("B9").put_value("2021"); sheet.cells.get("C9").put_value(350)
 sheet.cells.get("A10").put_value("blueberry");sheet.cells.get("B10").put_value("2022"); sheet.cells.get("C10").put_value(450)
-# Ajoute le tableau croisé dynamique à E3 couvrant A1:C10
+# Add pivot table at E3 covering A1:C10
 pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
-# Fruit -> Ligne, Montant -> Données (Année ira dans Page ci-dessous)
+# Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Approche de bas niveau : récupère le PivotField Année existant depuis BaseFields
-# et l'enregistre dans la zone Page via PageFields.Add(PivotField).
+# Low-level approach: grab the existing Year PivotField from BaseFields
+# and register it in the Page area via PageFields.Add(PivotField).
 year_field = pivot_table.base_fields["Year"]
 pivot_table.page_fields.add(year_field)
-# Actualise pour que le nouveau champ de page soit reflété dans le classeur enregistré
+# Refresh so the new page field is reflected in the saved workbook
 pivot_table.calculate_data()
 workbook.save("output.xlsx")
 ```
@@ -115,10 +115,10 @@ Définir `current_page_item` sur la valeur magique `0x7FFD` équivaut à effacer
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# Créer un nouveau classeur
+# Create a new workbook
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-# Remplir les données Fruit/Année/Montant
+# Populate Fruit/Year/Amount data
 sheet.cells.get("A1").put_value("Fruit")
 sheet.cells.get("B1").put_value("Year")
 sheet.cells.get("C1").put_value("Amount")
@@ -133,17 +133,17 @@ data = [
 for r in range(len(data)):
     for c in range(len(data[r])):
         sheet.cells.get(r + 1, c).put_value(data[r][c])
-# Créer un tableau croisé dynamique à E3
+# Create pivot table at E3
 pivot_tables = sheet.pivot_tables
 pivot_table = pivot_tables.add("=A1:C7", 2, 4)
-# Configurer les champs du tableau croisé dynamique : Fruit→Ligne, Montant→Données, Année→Page
+# Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 pivot_table.calculate_data()
-# Effacer le filtre de page pour que chaque élément du champ de page soit visible.
-# 0x7FFD (décimal 32765) est la valeur sentinelle spéciale qui signifie "tous les éléments" —
-# équivalent à sélectionner "(Tous)" dans le menu déroulant du champ de page d'Excel.
+# Clear the page filter so every item in the page field is visible.
+# 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+# equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivot_table.page_fields[0].current_page_item = 0x7FFD
 workbook.save("output.xlsx")
 ```
@@ -195,14 +195,14 @@ Le code ci-dessous active la sélection multiple sur le même champ de filtre Ye
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# — Le tableau croisé dynamique et le champ de page sont construits exactement comme dans
-#   Scénario 1a (données Fruit/Année/Montant, pivot en E3, Fruit→Ligne,
-#   Montant→Données, Année→Page via AddFieldToArea).
-#   Ci-dessous, nous appliquons un filtrage multi-sélection sur le champ de page.
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data, Year→Page via AddFieldToArea).
+#   Below we apply multi-select filtering on the page field.
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
-# Données d'exemple : Fruit | Année | Montant
+# Sample data: Fruit | Year | Amount
 cells.get(0, 0).put_value("Fruit")
 cells.get(0, 1).put_value("Year")
 cells.get(0, 2).put_value("Amount")
@@ -227,13 +227,13 @@ pivot_table = pivots.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
-# — Activer la multi-sélection sur le champ de page
+# — Enable multi-select on the page field
 pivot_table.page_fields[0].is_multiple_item_selection_allowed = True
-# Partie A — sélectionner TOUS les éléments (rendre chaque élément visible)
+# Part A — select ALL items (make every item visible)
 pivot_items = pivot_table.page_fields[0].pivot_items
 for i in range(len(pivot_items)):
     pivot_items[i].is_hidden = False
-# Partie B — sélectionner uniquement des éléments spécifiques par valeur source
+# Part B — select only specific items by source value
 for i in range(len(pivot_items)):
     value = pivot_items[i].get_string_value()
     if value == "2020" or value == "grape" or value == "blueberry":

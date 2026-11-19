@@ -1,8 +1,8 @@
 ---
-title: Özet Tabloda İlk 10 Öğeyi Göster veya Filtrele
-linktitle: Özet Tabloda İlk 10 Öğeyi Göster veya Filtrele
-description: Aspose.Cells for Go via C++ kullanarak bir özet tablo alanında yalnızca en yüksek veya en düşük sıralı öğeleri nasıl göstereceğinizi öğrenin. Bu makale; Excel 97-2003 AutoShow ayarlarını (SetIsAutoShow ve ilgili ayar metotları), seçeneklerin geri okunmasını ve FilterTop10 aracılığıyla Excel 2007-365 İlk 10 Filtresi'ni ele alır.
-keywords: Aspose.Cells, Go via C++, özet tablo, ilk 10, otomatik göster, SetIsAutoShow, SetIsAscendShow, SetAutoShowCount, SetAutoShowField, FilterTop10, PivotFilterType, PivotField, Go
+title: Özet Tablosunda İlk 10'un Gösterilmesi veya Filtrelenmesi
+linktitle: Özet Tablosunda İlk 10'un Gösterilmesi veya Filtrelenmesi
+description: Aspose.Cells for Go via C++ kullanarak bir özet alanının yalnızca sıralamada en üstteki veya en altta kalan öğelerini nasıl göstereceğinizi öğrenin. Bu makale, Excel 97-2003 Top10AutoShow yöntemini, seçeneklerin Top10AutoShowSettings ile geri okunmasını ve Excel 2007-365 İlk 10 Filtresinin FilterTop10 aracılığıyla kullanılmasını ele alır.
+keywords: Aspose.Cells, Go via C++, özet tablo, ilk 10, otomatik gösterim, Top10AutoShow, GetTop10AutoShowSettings, PivotFieldTop10AutoShowSettings, FilterTop10, PivotFilterType, PivotField, Go
 type: docs
 weight: 20
 url: /tr/go-cpp/top-10-show-or-filter-in-pivot-table/
@@ -11,20 +11,21 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Olası Kullanım Senaryoları**
-Bir satır alanındaki her öğeyi listeleyen bir özet tablo, alan onlarca öğe içerdiğinde okunması zor olabilir. İlk 10 raporu yalnızca en yüksek veya en düşük sıralı öğeleri korur; bu, "gelire göre ilk 5 ürün" veya "satış sayısına göre son 3 bölge" gibi sıralama raporlarının ihtiyaç duyduğu çözümü sunar. Aspose.Cells bunun için iki mekanizmayı destekler; bu mekanizmalar Microsoft Excel'in iki nesline karşılık gelir.
-- **Excel 97-2003 AutoShow** — `PivotField` sınıfının dört ayar metodu: `SetIsAutoShow`, `SetIsAscendShow`, `SetAutoShowCount` ve `SetAutoShowField`. Bu, doğrudan özet tablo alanında saklanan klasik "En üst/alt N öğeyi göster" ayarıdır. Özgün özet tablo biçiminin bir parçası olduğu için eski ve yeni tüm Excel sürümlerinde çalışır.
-- **Excel 2007-365 İlk 10 Filtresi** — `PivotField.FilterTop10()` metodu. Bu, alan menüsündeki Değer Filtreleri bölümünde bulunan modern İlk 10 değer filtresidir. Alanla ilişkilendirilmiş bir `PivotFilter` nesnesi olarak saklanır ve öğe sayısına ve yüzdeye dayalı sıralama sunar.
+Bir satır alanındaki her öğeyi listeleyen bir özet tablo, alan düzinelerce üyeye sahip olduğunda okunması zor olabilir. İlk 10 raporu yalnızca sıralamada en üstteki veya en altta kalan öğeleri korur; bu da sıralama raporlarının ihtiyaç duyduğu şeydir: "gelire göre ilk 5 ürün" veya "satış sayısına göre son 3 bölge". Aspose.Cells bunun için iki mekanizma destekler; bunlar Microsoft Excel'in iki nesline karşılık gelir.
+- **Excel 97-2003 Otomatik Gösterim** — `PivotField.Top10AutoShow()` yöntemi. Bu, doğrudan özet alanı üzerinde depolanan klasik "En üst/en alt N öğeyi göster" ayarıdır. İlk özet tablo biçiminin bir parçası olduğundan eski ve yeni tüm Excel sürümlerinde çalışır.
+- **Excel 2007-365 İlk 10 Filtresi** — `PivotField.FilterTop10()` yöntemi. Bu, alan menüsündeki Değer Filtreleri bölümünde bulunan modern İlk 10 değer filtresidir. `PivotFilter` nesnesi olarak alana bağlı şekilde depolanır ve öğe sayısına ve yüzdeye dayalı sıralama sunar.
 
-## **Excel 97-2003'te İlk 10'un Gösterilmesi (AutoShow)**
-Klasik AutoShow, `PivotField` üzerinde dört ayar çağrısıyla yapılandırılır:
-- `SetIsAutoShow(bool)` — alandaki AutoShow ayarını etkinleştirir veya devre dışı bırakır.
-- `SetIsAscendShow(bool)` — `false` değeri en yüksek sıralı öğeleri (Üst), `true` değeri ise en düşük sıralı öğeleri (Alt) tutar.
-- `SetAutoShowCount(int32)` — tutulacak öğe sayısı; örneğin klasik bir İlk 10 raporu için 10.
-- `SetAutoShowField(int32)` — öğeleri değerlerine göre sıralayan **veri alanının** sıfırdan başlayan dizini. Alanın kendisine göre sıralamak için -1 değerini geçirin.
-Sıralama, bir değer alanının veya alanın kendisinin değerlerine göre yapılabilir. Aşağıda bu iki doğal varyant gösterilmektedir.
+## **Excel 97-2003'te İlk 10'un Otomatik Gösterimi (Top10AutoShow)**
+Klasik otomatik gösterim, tek bir `PivotField.Top10AutoShow(isAutoShow bool, isTop bool, count int32, rankBy int32)` çağrısıyla yapılandırılır:
+- `isAutoShow` — alan üzerindeki otomatik gösterim ayarını etkinleştirir veya devre dışı bırakır.
+- `isTop` — `true`, en yüksek sıralı öğeleri (Üst) korur; `false`, en düşük sıralı öğeleri (Alt) korur.
+- `count` — korunacak öğe sayısı; klasik bir İlk 10 raporu için örneğin 10.
+- `rankBy` — öğelerin sıralanmasını sağlayan değerlerin bulunduğu **veri alanının** sıfırdan başlayan indeksi. Öğeleri alanın kendisine göre sıralamak için -1 iletin.
+
+Sıralama bir değer alanına veya alanın kendisine göre belirlenebilir. Aşağıda bu iki doğal varyant gösterilmektedir.
 
 ### **Değer Alanına Göre Sıralama**
-Satır alanının öğelerini, Satışların Toplamı gibi sıradan bir değer alanına göre sıralayın. Aşağıdaki örnek, tek bir satır alanı (`Sport`) ve tek bir veri alanı (`Sales`) içeren bir özet tablo oluşturur ve ardından satış değerlerine göre ilk 2 sporu gösterir. `rankBy` değeri 0'dır; çünkü "Satışların Toplamı", 0 dizinindeki veri alanıdır.
+Satışların Toplamı gibi sıradan bir değer alanına göre satır alanının öğelerini sıralayın. Aşağıdaki örnek, bir satır alanı (`Sport`) ve bir veri alanı (`Sales`) içeren bir özet tablo oluşturur; ardından satışlara göre en üst 2 sporu gösterir. `rankBy` değeri 0'dır; çünkü "Satışların Toplamı", 0. indekste bulunan veri alanıdır.
 
 ```go
 package main
@@ -63,18 +64,15 @@ func main() {
 	pivotTable.CalculateData()
 	rowFields, _ := pivotTable.GetRowFields()
 	sportField, _ := rowFields.Get_Int(0)
-	// "Satışların Toplamı" ölçütüne göre sıralanan ilk 2 öğeyi göster (veri alanı dizini 0)
-	sportField.SetIsAutoShow(true)
-	sportField.SetIsAscendShow(false)
-	sportField.SetAutoShowCount(int32(2))
-	sportField.SetAutoShowField(int32(0))
+	// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
+	sportField.Top10AutoShow(true, true, 2, 0)
 	pivotTable.CalculateData()
 	workbook.Save_String("output-top10-by-value-field.xlsx")
 }
 ```
 
 ### **Alanın Kendisine Göre Sıralama**
-Bir alan, kendi değerlerine göre de sıralanabilir; bu durumda `SetAutoShowField` çağrısına -1 değerini geçirin. Bu varyant için ek bir veri alanı gerekmez; alanın yalnızca satır (veya sütun) bölgesinde bulunması yeterlidir. Aşağıdaki örnek, alanın kendi değerlerine göre sıralanan en alt 3 sporu gösterir. Bu ayar kaydedildiğinde, -1 biçimin varsayılan değeri olduğu için `rankBy` özniteliği özet tablo için oluşturulan XML'de yer almaz ve `GetAutoShowField()` -1 değerini geri okur.
+Bir alan kendisine göre de sıralanabilir; `rankBy` değerine -1 iletin. Bu varyant için ek veri alanı gerekmez; alanın yalnızca satır veya sütun alanında bulunması yeterlidir. Aşağıdaki örnek, alanın kendisine göre sıralanan en alt 3 sporu gösterir. Bu ayar kaydedildiğinde, -1 biçimin varsayılan değeri olduğu için `rankBy` özniteliği özet tablo XML dosyasından çıkarılır ve `GetRankBy()` -1 değerini geri okur.
 
 ```go
 package main
@@ -113,18 +111,15 @@ func main() {
 	pivotTable.CalculateData()
 	rowFields, _ := pivotTable.GetRowFields()
 	sportField, _ := rowFields.Get_Int(0)
-	// Alanın kendisine göre sıralanan en alt 3 öğeyi göster (rankBy = -1)
-	sportField.SetIsAutoShow(true)
-	sportField.SetIsAscendShow(true)
-	sportField.SetAutoShowCount(3)
-	sportField.SetAutoShowField(-1)
+	// Show the bottom 3 items ranked by the field itself (rankBy = -1)
+	sportField.Top10AutoShow(true, false, 3, -1)
 	pivotTable.CalculateData()
 	workbook.Save_String("output-top10-by-field-itself.xlsx")
 }
 ```
 
-## **Mevcut AutoShow Seçeneklerini Okuma**
-`PivotField` okuma metotları `IsAutoShow()`, `IsAscendShow()`, `GetAutoShowCount()` ve `GetAutoShowField()`, alanda hâlihazırda saklanan AutoShow seçeneklerini sunar. Bunları, mevcut bir çalışma kitabında veya yeni yapılandırdığınız bir özet tabloda öğelerin nasıl sunulacağını incelemek için kullanın; dosyadan yüklenen çalışma kitapları da kapsama dâhildir.
+## **Mevcut Otomatik Gösterim Seçeneklerini Okuma**
+`PivotField.GetTop10AutoShowSettings()` yöntemi, alan üzerinde şu anda depolanan otomatik gösterim seçeneklerini sunan bir `PivotFieldTop10AutoShowSettings` nesnesi döndürür. Mevcut bir çalışma kitabında veya yeni yapılandırdığınız bir özet tabloda öğelerin nasıl sunulacağını incelemek için bu yöntemi kullanın; dosyadan yüklenen çalışma kitapları da kapsam dâhildir.
 
 ```go
 package main
@@ -140,36 +135,37 @@ func main() {
 	pivotTable, _ := pivotTables.Get_Int(0)
 	rowFields, _ := pivotTable.GetRowFields()
 	sportField, _ := rowFields.Get_Int(0)
-	isAutoShow, _ := sportField.IsAutoShow()
-	isAscendShow, _ := sportField.IsAscendShow()
-	autoShowCount, _ := sportField.GetAutoShowCount()
-	autoShowField, _ := sportField.GetAutoShowField()
+	settings, _ := sportField.GetTop10AutoShowSettings()
+	isAutoShow, _ := settings.IsAutoShow()
+	isTop, _ := settings.IsTop()
+	autoShowCount, _ := settings.GetAutoShowCount()
+	rankBy, _ := settings.GetRankBy()
 	direction := "Bottom"
-	if !isAscendShow {
+	if isTop {
 		direction = "Top"
 	}
 	fmt.Println("AutoShow enabled:", isAutoShow)
 	fmt.Println("Direction:", direction)
 	fmt.Println("Item count:", autoShowCount)
-	fmt.Println("Ranking data field index:", autoShowField)
+	fmt.Println("Ranking data field index:", rankBy)
 }
 ```
 
-Bu dört özellik, özet tablo için oluşturulan XML'deki klasik AutoShow öznitelikleriyle (`autoShow`, `topAutoShow`, `itemPageCount`, `rankBy`) eşleşir; bu nedenle geri okunan değerler, her Excel sürümünde geçerli olacak değerlerdir.
+Bu ayarlar, özet tablo XML dosyasına yazılan klasik otomatik gösterim öznitelikleriyle (`autoShow`, `topAutoShow`, `itemPageCount`, `rankBy`) eşleşir; bu nedenle geri okunan değerler tüm Excel sürümlerinde geçerlidir.
 
 ## **Not**
 
 {{% alert color="primary" %}}
-- Herhangi bir AutoShow ayarını değiştirdikten sonra `PivotTable.CalculateData()` metodunu yeniden çağırın — ayarlar yalnızca bir sonraki yeniden hesaplamadan sonra oluşturulan düzende etkili olur.
-- AutoShow ayarları satır ve sütun alanlarıyla çalışır. Yalnızca sayfa (filtre) alanında bulunan bir alan, öğeleri özet tablo gövdesinde yerleştirilmediği için bu şekilde sıralanamaz.
+- `Top10AutoShow()` çağrısından sonra `PivotTable.CalculateData()` çağrısını yeniden çağırın; ayarlar yalnızca bir sonraki yeniden hesaplamada görüntülenen yerleşime uygulanır.
+- Otomatik gösterim ayarları satır ve sütun alanlarıyla çalışır. Yalnızca sayfa (filtre) alanında bulunan bir alan, öğeleri özet tablo gövdesinde yerleşmediği için bu şekilde sıralanamaz.
 {{% /alert %}}
 
 ## **Excel 2007-365: İlk 10 Filtresi (FilterTop10)**
-Modern Excel sürümleri, İlk 10'u alan menüsünde bir değer filtresi olarak sunar (Değer Filtreleri, İlk 10...). Aspose.Cells bu özelliği, oluşturulan `PivotFilter` nesnesini döndüren `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType type, bool isTop, int itemCount)` metoduyla temsil eder:
-- `valueFieldIndex` — öğeleri toplulaştırılmış değerlerine göre sıralayan veri alanının sıfırdan başlayan dizini.
-- `type` — `itemCount` değerinin nasıl yorumlanacağını belirtir. `PivotFilterType.Count` belirli sayıda öğeyi tutar (iletişim kutusundaki Öğeler seçeneği). `PivotFilterType.Percent` öğelerin bir yüzdesini tutar; bu nedenle `itemCount` doğrudan yüzdeyi belirtir — 30 değeri, öğelerin ilk yüzde 30'unu tutar. `PivotFilterType.Sum` ise kümülatif değer kapsamına göre sıralama yapar.
+Modern Excel sürümlerinde İlk 10, alan menüsünde bir değer filtresi olarak sunulur (Değer Filtreleri, İlk 10...). Aspose.Cells bu özelliği, oluşturulan `PivotFilter` nesnesini döndüren `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType type, bool isTop, int itemCount)` yöntemiyle temsil eder:
+- `valueFieldIndex` — toplanmış değerleriyle öğeleri sıralayan veri alanının sıfırdan başlayan indeksi.
+- `type` — `itemCount` değerinin ne anlama geldiğini belirler. `PivotFilterType.Count` sabit sayıda öğeyi korur (iletişim kutusunun Öğeler seçeneği). `PivotFilterType.Percent` öğelerin belirli bir yüzdesini korur; dolayısıyla `itemCount` doğrudan yüzde değeridir — 30, öğelerin en üst yüzde 30'unu korur. `PivotFilterType.Sum` ise birikimli değer kapsamına göre sıralar.
 - `isTop` — Üst için `true`, Alt için `false`.
-- `itemCount` — İlk N ifadesindeki N; birimi `type` değerine bağlıdır.
+- `itemCount` — İlk N içindeki N; birimi `type` değerine bağlıdır.
 
 ```go
 package main
@@ -208,9 +204,9 @@ func main() {
 	pivotTable.CalculateData()
 	rowFields, _ := pivotTable.GetRowFields()
 	sportField, _ := rowFields.Get_Int(0)
-	// İlk 10 filtresi — öğeleri "Satışların Toplamı" ölçütüne göre ilk 2 öğe olarak tut (veri alanı dizini 0)
+	// Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
 	sportField.FilterTop10(0, PivotFilterType_Count, true, 2)
-	// Bunun yerine yüzdeye dayalı bir filtre kullanmak için öğelerin ilk yüzde 30'unu tut:
+	// For a percentage-based filter instead, keep the top 30 percent of the items:
 	// sportField.FilterTop10(0, PivotFilterType_Percent, true, 30)
 	pivotTable.CalculateData()
 	workbook.Save_String("output-top10-filter.xlsx")
@@ -218,10 +214,10 @@ func main() {
 ```
 
 {{% alert color="primary" %}}
-AutoShow ayarları ve `FilterTop10` birbirinden ayrı iki özelliktir. AutoShow, özet tablo alanına yazılan klasik `autoShow` özniteliklerini oluşturur ve Excel 97 dâhil tüm Excel sürümlerinde geçerlidir. `FilterTop10` ise Excel 2007 veya sonrasını gerektiren modern bir `PivotFilter` kaydı yazar. Bir çalışma kitabı daha eski bir Excel sürümünde açıldığında, modern filtreyi kullanan bir özet tablo tüm öğeleri göstermeye geri döner. Eski yazılım araçlarıyla gidiş-dönüş gerektiren belgelerde AutoShow ayar metotlarını tercih edin; modern çalışma kitaplarında ise diğer değer filtreleriyle birlikte kullanılabildiği için `FilterTop10` metodunu tercih edin.
+Otomatik gösterim ayarları ile `FilterTop10` birbirinden ayrı iki özelliktir. Otomatik gösterim, özet alanı üzerinde bulunan klasik `autoShow` öznitelikleri kümesini yazar ve Excel 97 dâhil tüm Excel sürümlerinde dikkate alınır. `FilterTop10` ise Excel 2007 veya sonrasını gerektiren modern bir `PivotFilter` kaydı yazar. Bir çalışma kitabı daha eski bir Excel sürümünde açıldığında, modern filtreyi kullanan bir özet tablo tüm öğeleri göstermeye geri döner. Eski araçlarla uyumlu şekilde içe aktarılıp dışa aktarılması gereken belgelerde `Top10AutoShow` tercih edin; modern çalışma kitaplarında ise diğer değer filtreleriyle birlikte kullanılabilmesi nedeniyle `FilterTop10` tercih edin.
 {{% /alert %}}
 
 ## **İlgili Makaleler**
-- [Özet Tablodaki Alanları Gruplandırma](/cells/tr/go-cpp/group-pivot-fields-in-the-pivot-table/)
+- [Özet Tablosunda Özet Alanlarını Gruplama](/cells/tr/go-cpp/group-pivot-fields-in-the-pivot-table/)
 
 {{< app/cells/assistant language="go" >}}

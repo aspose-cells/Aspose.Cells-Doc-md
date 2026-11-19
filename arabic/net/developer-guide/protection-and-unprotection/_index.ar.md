@@ -41,19 +41,19 @@ Console.WriteLine("Decrypted cell A1 value: " + decryptedWorkbook.Worksheets[0].
 ```csharp
 using System;
 using Aspose.Cells;
-// إنشاء مصنف جديد من البداية
+// Create a new workbook from scratch
 Workbook workbook = new Workbook();
-// كتابة قيمة عينة في الخلية A1 من ورقة العمل الأولى
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
-// تكوين حماية الكتابة: تعيين كلمة المرور للتعديل والمؤلف
+// Configure the write protection: set the password to modify and the author
 workbook.Settings.WriteProtection.Password = "ModifyPwd";
 workbook.Settings.WriteProtection.Author = "AuthorName";
-// حفظ المصنف بحيث يتم الاحتفاظ بحماية الكتابة
+// Save the workbook so the write protection is persisted
 workbook.Save("WriteProtectedWorkbook.xlsx");
-// التحقق من صحة كلمة المرور للتعديل باستخدام كلمة المرور الصحيحة
+// Validate the password to modify using the correct password
 bool isCorrectValid = workbook.Settings.WriteProtection.ValidatePassword("ModifyPwd");
 Console.WriteLine("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// التحقق من صحة كلمة المرور للتعديل باستخدام كلمة مرور غير صحيحة لتوضيح الفرع الآخر
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 bool isWrongValid = workbook.Settings.WriteProtection.ValidatePassword("WrongPwd");
 Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -64,22 +64,22 @@ Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```csharp
 using System;
 using Aspose.Cells;
-// إنشاء مصنف جديد
+// Create a new workbook
 Workbook workbook = new Workbook();
-// إضافة ورقة عمل ثانية
+// Add a second worksheet
 workbook.Worksheets.Add();
-// كتابة قيمة عينة في الخلية A1 من ورقة العمل الأولى
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells[0, 0].PutValue("Sample Data");
-// حماية بنية المصنف
+// Protect the workbook structure
 workbook.Protect(ProtectionType.Structure, "StructPwd");
-// حفظ المصنف باسم structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 string filePath = "structure_protected.xlsx";
 workbook.Save(filePath);
-// إعادة تحميل الملف في مثيل Workbook جديد
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// إزالة حماية البنية
+// Remove the structure protection
 loadedWorkbook.Unprotect("StructPwd");
-// طباعة رسالة التأكيد
+// Print confirmation message
 Console.WriteLine("Structure protection has been successfully removed from the workbook.");
 ```
 

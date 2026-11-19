@@ -50,68 +50,68 @@ let workbook = new AsposeCells.Workbook();
 let worksheets = workbook.getWorksheets();
 let pivotDataSheet = worksheets.add("PivotData");
 let pivotDataCells = pivotDataSheet.getCells();
-// Заголовки (строка 0)
+// Headers (row 0)
 pivotDataCells.get(0, 0).putValue("Fruit");
 pivotDataCells.get(0, 1).putValue("Year");
 pivotDataCells.get(0, 2).putValue("Region");
 pivotDataCells.get(0, 3).putValue("Amount");
-// Строка 1: Apple, 2022, North, 150
+// Row 1: Apple, 2022, North, 150
 pivotDataCells.get(1, 0).putValue("Apple");
 pivotDataCells.get(1, 1).putValue(2022);
 pivotDataCells.get(1, 2).putValue("North");
 pivotDataCells.get(1, 3).putValue(150);
-// Строка 2: Apple, 2023, North, 180
+// Row 2: Apple, 2023, North, 180
 pivotDataCells.get(2, 0).putValue("Apple");
 pivotDataCells.get(2, 1).putValue(2023);
 pivotDataCells.get(2, 2).putValue("North");
 pivotDataCells.get(2, 3).putValue(180);
-// Строка 3: Banana, 2022, South, 120
+// Row 3: Banana, 2022, South, 120
 pivotDataCells.get(3, 0).putValue("Banana");
 pivotDataCells.get(3, 1).putValue(2022);
 pivotDataCells.get(3, 2).putValue("South");
 pivotDataCells.get(3, 3).putValue(120);
-// Строка 4: Banana, 2023, South, 140
+// Row 4: Banana, 2023, South, 140
 pivotDataCells.get(4, 0).putValue("Banana");
 pivotDataCells.get(4, 1).putValue(2023);
 pivotDataCells.get(4, 2).putValue("South");
 pivotDataCells.get(4, 3).putValue(140);
-// Строка 5: Cherry, 2022, East, 200
+// Row 5: Cherry, 2022, East, 200
 pivotDataCells.get(5, 0).putValue("Cherry");
 pivotDataCells.get(5, 1).putValue(2022);
 pivotDataCells.get(5, 2).putValue("East");
 pivotDataCells.get(5, 3).putValue(200);
-// Строка 6: Cherry, 2023, East, 220
+// Row 6: Cherry, 2023, East, 220
 pivotDataCells.get(6, 0).putValue("Cherry");
 pivotDataCells.get(6, 1).putValue(2023);
 pivotDataCells.get(6, 2).putValue("East");
 pivotDataCells.get(6, 3).putValue(220);
-// Строка 7: Grape, 2022, West, 90
+// Row 7: Grape, 2022, West, 90
 pivotDataCells.get(7, 0).putValue("Grape");
 pivotDataCells.get(7, 1).putValue(2022);
 pivotDataCells.get(7, 2).putValue("West");
 pivotDataCells.get(7, 3).putValue(90);
-// Строка 8: Grape, 2023, West, 110
+// Row 8: Grape, 2023, West, 110
 pivotDataCells.get(8, 0).putValue("Grape");
 pivotDataCells.get(8, 1).putValue(2023);
 pivotDataCells.get(8, 2).putValue("West");
 pivotDataCells.get(8, 3).putValue(110);
-// Добавляем лист PivotTableReport
+// Add PivotTableReport sheet
 let pivotTableSheet = worksheets.add("PivotTableReport");
 let pivotTables = pivotTableSheet.getPivotTables();
-// Создаём сводную таблицу из PivotData!A1:D9, размещённую в A1 на листе PivotTableReport
+// Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
 let pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0);
-// Добавляем поля
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // Фрукт
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // Год
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);  // Регион
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // Сумма
+// Add fields
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // Fruit
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // Year
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);  // Region
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // Amount
 pivotTable.getDataFields().get(0).setFunction(AsposeCells.ConsolidationFunction.Sum);
-// Настраиваем компоновку области полей страницы: сначала поля страницы по горизонтали, перенос после каждых 2
+// Configure page field area layout: place page fields across first, wrap after every 2
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OverThenDown);
 pivotTable.setPageFieldWrapCount(2);
-// Обновляем и вычисляем
+// Refresh and calculate
 pivotTable.calculateData();
-// Сохраняем
+// Save
 workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 ```
 

@@ -51,17 +51,17 @@ El siguiente ejemplo carga un libro de trabajo nuevo, llena los datos de ejemplo
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Escenario 1: Aplicar un autoformato preestablecido de XLS heredado
-            // API utilizada: PivotTable.AutoFormatType
-            // Formato de archivo de destino: .xls (heredado)
-            // Para obtener ejemplos completos y archivos de datos, vaya a https://github.com/aspose-cells/Aspose.Cells-for-.NET
-            // Crear un libro de trabajo nuevo
+            // Scenario 1: Apply a legacy XLS preset autoformat
+            // API in use: PivotTable.AutoFormatType
+            // Target file format: .xls (legacy)
+            // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+            // Create a new workbook
             const workbook = new Workbook();
-            // Obtener la primera hoja de cálculo
+            // Get the first worksheet
             const sheet = workbook.worksheets.get(0);
             const cells = sheet.cells;
-            // Poblar los datos de origen con una fila de encabezado (Fruit, Year, Amount)
-            // y 9 filas de datos que abarcan uva, arándano, kiwi y cereza durante 2020 y 2021
+            // Populate the source data with header row (Fruit, Year, Amount)
+            // and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
             cells.get(0, 0).value = "Fruit";
             cells.get(0, 1).value = "Year";
             cells.get(0, 2).value = "Amount";
@@ -92,17 +92,17 @@ El siguiente ejemplo carga un libro de trabajo nuevo, llena los datos de ejemplo
             cells.get(9, 0).value = "grape";
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
-            // Agregar una tabla dinámica en la celda de destino E3, usando el rango de origen A1:C10
+            // Add a pivot table at destination cell E3, using source range A1:C10
             const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
-            // Asignar campos: Fruit -> Filas, Amount -> Datos
+            // Assign fields: Fruit -> Rows, Amount -> Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Aplicar el autoformato preestablecido "Report5" de XLS heredado
-            // Nota: Esta propiedad solo es relevante al guardar como .xls.
-            // Al guardar como .xlsx/.xlsm/.xlsb, Excel ignora AutoFormatType
-            // y usa lo que especifiquen PivotTableStyleType / PivotTableStyleName.
+            // Apply the legacy XLS preset autoformat "Report5"
+            // Note: This property is only meaningful when saving as .xls.
+            // When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+            // and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
             pivotTable.autoFormatType = AsposeCells.PivotTableAutoFormatType.Report5;
-            // Guardar el libro de trabajo en el formato heredado .xls
+            // Save the workbook in legacy .xls format
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData], { type: "application/vnd.ms-excel" });
             const downloadLink = document.getElementById('downloadLink');
@@ -147,18 +147,18 @@ Este escenario reutiliza el conjunto de datos Fruit/Year/Amount del Escenario 1,
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Escenario 2: Aplicar un estilo predefinido con nombre moderno de Excel 2007+ mediante PivotTableStyleType.
-            // Formato de archivo de destino: .xlsx. La enumeración PivotTableStyleType se encuentra en el espacio de nombres Aspose.Cells
-            // (no en Aspose.Cells.Pivot), por lo que no necesitamos ninguna instrucción using adicional.
-            // Referencia de GitHub: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+            // Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+            // Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+            // (not in Aspose.Cells.Pivot) -- that is why we do not need any extra using for it.
+            // GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Fila de encabezado: Fruit / Year / Amount
+            // Header row: Fruit / Year / Amount
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // 9 filas de datos de Fruit / Year / Amount
+            // 9 data rows of Fruit / Year / Amount
             cells.get("A2").value = "Grape";
             cells.get("B2").value = 2020;
             cells.get("C2").value = 100;
@@ -186,19 +186,19 @@ Este escenario reutiliza el conjunto de datos Fruit/Year/Amount del Escenario 1,
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
-            // Agregar una tabla dinámica en E3, usando A1:C10 como origen
+            // Add a pivot table at E3, sourced from A1:C10
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // Asignar campos de tabla dinámica: Fruit -> área de filas, Year -> área de columnas, Amount -> área de datos
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Aplicar un estilo predefinido con nombre moderno de tabla dinámica de Excel 2007+.
-            // PivotTableStyleType es la API correcta para archivos .xlsx / .xlsm / .xlsb; Excel ignora AutoFormatType
-            // para esos formatos. PivotTableStyleDark1 pertenece a la familia de temas oscuros
-            // (PivotTableStyleDark1..PivotTableStyleDark28), y la misma enumeración también expone los
-            // temas más nuevos claros y oscuros de Excel 2017 (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+            // Apply a modern Excel 2007+ named preset pivot style.
+            // PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+            // is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+            // family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+            // newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
             pivotTable.pivotTableStyleType = AsposeCells.PivotTableStyleType.PivotTableStyleDark1;
-            // Guardar como .xlsx moderno, el formato para el cual PivotTableStyleType es relevante.
+            // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -250,7 +250,7 @@ El siguiente ejemplo define un estilo personalizado de tabla dinámica con un bo
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Completar los datos de origen: fila de encabezado + 9 filas de datos (A1:C10)
+            // Populate source data: header row + 9 data rows (A1:C10)
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
@@ -281,15 +281,15 @@ El siguiente ejemplo define un estilo personalizado de tabla dinámica con un bo
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
-            // Agregar una tabla dinámica con origen en A1:C10, anclada en E3
+            // Add pivot table sourced from A1:C10, anchored at E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Paso 1: registrar un nuevo estilo personalizado de tabla dinámica y capturar su índice
+            // Step 1: register a new custom pivot table style and capture its index
             const styleIndex = workbook.worksheets.tableStyles.addPivotTableStyle("CustomPivotStyle");
             const tableStyle = workbook.worksheets.tableStyles.get(styleIndex);
-            // Paso 2: agregar un elemento WholeTable y aplicar bordes negros finos en los cuatro lados
+            // Step 2: add a WholeTable element and apply thin black borders on all four sides
             const wholeTableElementIndex = tableStyle.tableStyleElements.add(AsposeCells.TableStyleElementType.WholeTable);
             const wholeTableElement = tableStyle.tableStyleElements.get(wholeTableElementIndex);
             const wholeTableStyle = workbook.createStyle();
@@ -306,14 +306,14 @@ El siguiente ejemplo define un estilo personalizado de tabla dinámica con un bo
             rightBorder.lineStyle = AsposeCells.CellBorderType.Thin;
             rightBorder.color = "black";
             wholeTableElement.setElementStyle(wholeTableStyle);
-            // Paso 3: agregar un elemento GrandTotalRow y aplicar una fuente roja en negrita
+            // Step 3: add a GrandTotalRow element and apply bold red font
             const grandTotalElementIndex = tableStyle.tableStyleElements.add(AsposeCells.TableStyleElementType.GrandTotalRow);
             const grandTotalElement = tableStyle.tableStyleElements.get(grandTotalElementIndex);
             const grandTotalStyle = workbook.createStyle();
             grandTotalStyle.font.isBold = true;
             grandTotalStyle.font.color = "red";
             grandTotalElement.setElementStyle(grandTotalStyle);
-            // Paso 4: aplicar el estilo personalizado por nombre (NO por PivotTableStyleType, que es para los preajustes integrados)
+            // Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
             pivotTable.pivotTableStyleName = "CustomPivotStyle";
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData], {
@@ -360,13 +360,13 @@ El siguiente ejemplo crea un `style` con un relleno sólido amarillo, una fuente
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Escenario 4: Aplicar un único Style a todas las celdas de la tabla dinámica usando FormatAll
-            // API en uso: PivotTable.FormatAll(Style)
-            // Formato de destino: .xlsx
-            // Referencia de GitHub: consulte el repositorio Aspose.Cells-for-.NET — ejemplos de estilo de tablas dinámicas
+            // Scenario 4: Apply a single Style to every pivot table cell using FormatAll
+            // API in use: PivotTable.FormatAll(Style)
+            // Target format: .xlsx
+            // GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // Poblar los datos de origen: fila de encabezado (fila 1) + 9 filas de datos (filas 2-10)
+            // Populate source data: header row (row 1) + 9 data rows (rows 2-10)
             const cells = worksheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
@@ -398,13 +398,13 @@ El siguiente ejemplo crea un `style` con un relleno sólido amarillo, una fuente
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
-            // Agregar tabla dinámica: rango de origen A1:C10, celda de destino E3
+            // Add pivot table: source range A1:C10, destination cell E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // Asignar campos de la tabla dinámica: Fruit -> área de filas, Year -> área de columnas, Amount -> área de datos
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Crear un Style que se aplicará obligatoriamente a todas las celdas de la tabla dinámica
+            // Build a Style that will be forced onto every cell of the pivot table
             const style = workbook.createStyle();
             style.foregroundColor = AsposeCells.Color.Yellow;
             style.pattern = AsposeCells.BackgroundType.Solid;
@@ -418,10 +418,10 @@ El siguiente ejemplo crea un `style` con un relleno sólido amarillo, una fuente
             style.borders.get(AsposeCells.BorderType.LeftBorder).color = AsposeCells.Color.Black;
             style.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
             style.borders.get(AsposeCells.BorderType.RightBorder).color = AsposeCells.Color.Black;
-            // Aplicar FormatAll: fuerza este único estilo en todas las celdas de la tabla dinámica,
-            // anulando cualquier PivotTableStyleType / PivotTableStyleName previamente configurado
+            // Apply FormatAll: forces this single style onto every cell of the pivot table,
+            // overriding any PivotTableStyleType / PivotTableStyleName previously set
             pivotTable.formatAll(style);
-            // Guardar el libro en el formato moderno .xlsx
+            // Save the workbook in the modern .xlsx format
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

@@ -20,15 +20,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```csharp
 using Aspose.Cells.Pivot;
-// 加载示例工作簿
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// 访问第二个工作表及其数据透视表
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// 自动分组第一个行字段。
-// 该字段包含日期，因此按月份分组。
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 PivotField field = pt.RowFields[0];
 field.Group();
-// 计算数据透视表数据并保存输出文件
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputAutoGroupPivotField.xlsx");
 ```
@@ -42,17 +42,17 @@ wb.Save("outputAutoGroupPivotField.xlsx");
 
 ```csharp
 using Aspose.Cells.Pivot;
-// 加载示例工作簿
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// 访问第二个工作表及其数据透视表
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// 按月份和季度对第一个行字段（日期字段）进行分组
+// Group the first row field (a date field) by months and quarters
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartDate = new DateTime(2008, 1, 1);
 options.EndDate = new DateTime(2008, 9, 5);
 options.GroupTypes = new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Quarters };
 pt.RowFields[0].Group(options);
-// 计算数据透视表数据并保存输出文件
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,21 +64,21 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```csharp
 using Aspose.Cells.Pivot;
-// 加载示例工作簿
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// 访问第二个工作表及其数据透视表
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// FieldTwo 是一个数据字段：首先将其移动到行区域，
-// 因为只有行/列字段可以进行分组
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.AddFieldToArea(PivotFieldType.Row, "FieldTwo");
 pt.CalculateData();
-// 将数字字段分组为 0-1、2-3、4-5 范围
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartNumber = 0;
 options.EndNumber = 5;
 options.Interval = 2;
 pt.RowFields[1].Group(options);
-// 计算数据透视表数据并保存输出文件
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputNumberGroupPivotField.xlsx");
 ```

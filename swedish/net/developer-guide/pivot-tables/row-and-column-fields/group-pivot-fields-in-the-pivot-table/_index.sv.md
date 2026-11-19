@@ -1,6 +1,6 @@
 ---
 title: Gruppera pivotfält i pivottabellen
-linktitle: Gruppera pivotfält i pivottabellen
+linktitle: Gruppera pivotfält
 description: Lär dig hur du grupperar rad- och kolumnpivotfält i en pivottabell i datumperioder som månader och kvartal samt i numeriska intervall med PivotField.Group och PivotFieldGroupOptions i Aspose.Cells for .NET.
 keywords: Aspose.Cells, pivottabell, gruppera pivotfält, PivotField.Group, PivotFieldGroupOptions, datumgruppering, talgruppering, månader, kvartal, numeriskt intervall, C#
 type: docs
@@ -20,15 +20,15 @@ Den parameterlösa överlagringen `PivotField.Group()` inspekterar fältets data
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Ladda exempelarbetsboken
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Öppna det andra kalkylbladet och dess pivottabell
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// Gruppera det första radfältet automatiskt.
-// Fältet innehåller datum, så det grupperas efter månader.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 PivotField field = pt.RowFields[0];
 field.Group();
-// Beräkna pivottabellens data och spara utdatafilen
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputAutoGroupPivotField.xlsx");
 ```
@@ -42,17 +42,17 @@ Observera att ordningen på värdena i `options.GroupTypes` ignoreras. Oavsett i
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Ladda exempelarbetsboken
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Öppna det andra kalkylbladet och dess pivottabell
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// Gruppera det första radfältet (ett datumfält) efter månader och kvartal
+// Group the first row field (a date field) by months and quarters
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartDate = new DateTime(2008, 1, 1);
 options.EndDate = new DateTime(2008, 9, 5);
 options.GroupTypes = new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Quarters };
 pt.RowFields[0].Group(options);
-// Beräkna pivottabellens data och spara utdatafilen
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,21 +64,21 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Ladda exempelarbetsboken
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Åtkomst till det andra kalkylbladet och dess pivottabell
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// FieldTwo är ett datafält: flytta det till radområdet först,
-// eftersom endast rad-/kolumnfält kan grupperas
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.AddFieldToArea(PivotFieldType.Row, "FieldTwo");
 pt.CalculateData();
-// Gruppera det numeriska fältet i intervallen 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartNumber = 0;
 options.EndNumber = 5;
 options.Interval = 2;
 pt.RowFields[1].Group(options);
-// Beräkna pivottabellsdata och spara utdatafilen
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputNumberGroupPivotField.xlsx");
 ```

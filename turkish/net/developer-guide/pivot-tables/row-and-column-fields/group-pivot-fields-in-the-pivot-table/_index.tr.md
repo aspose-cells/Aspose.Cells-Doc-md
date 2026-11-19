@@ -1,6 +1,6 @@
 ---
 title: Pivot Tablosunda Pivot Alanlarını Gruplama
-linktitle: Pivot Tablosunda Pivot Alanlarını Gruplama
+linktitle: Pivot Alanlarını Gruplama
 description: Aspose.Cells for .NET'te PivotField.Group ve PivotFieldGroupOptions kullanarak bir pivot tablodaki satır ve sütun pivot alanlarını aylar ve çeyrekler gibi tarih dönemlerine ve sayısal aralıklara nasıl gruplayacağınızı öğrenin.
 keywords: Aspose.Cells, pivot tablo, pivot alanı gruplama, PivotField.Group, PivotFieldGroupOptions, tarih gruplama, sayı gruplama, aylar, çeyrekler, sayısal aralık, C#
 type: docs
@@ -20,15 +20,15 @@ Parametresiz `PivotField.Group()` aşırı yüklemesi, alanın veri türünü in
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Örnek çalışma kitabını yükle
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// İkinci çalışma sayfasına ve onun pivot tablosuna eriş
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// İlk satır alanını otomatik olarak grupla.
-// Alan tarihler içerdiğinden aylara göre gruplanır.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 PivotField field = pt.RowFields[0];
 field.Group();
-// Pivot tablo verilerini hesapla ve çıktı dosyasını kaydet
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputAutoGroupPivotField.xlsx");
 ```
@@ -42,17 +42,17 @@ Aşağıdaki örnek, örnek pivot tablosunun tarih satır alanını bir başlang
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Örnek çalışma kitabını yükle
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// İkinci çalışma sayfasına ve özet tablosuna erişim
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// İlk satır alanını (bir tarih alanı) aylar ve çeyrekler bazında grupla
+// Group the first row field (a date field) by months and quarters
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartDate = new DateTime(2008, 1, 1);
 options.EndDate = new DateTime(2008, 9, 5);
 options.GroupTypes = new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Quarters };
 pt.RowFields[0].Group(options);
-// Özet tablo verilerini hesapla ve çıktı dosyasını kaydet
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,21 +64,21 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Örnek çalışma kitabını yükle
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// İkinci çalışma sayfasına ve onun pivot tablosuna eriş
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// FieldTwo bir veri alanıdır: önce onu satır alanına taşı,
-// çünkü yalnızca satır/sütun alanları gruplanabilir
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.AddFieldToArea(PivotFieldType.Row, "FieldTwo");
 pt.CalculateData();
-// Sayısal alanı 0-1, 2-3, 4-5 aralıklarına grupla
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartNumber = 0;
 options.EndNumber = 5;
 options.Interval = 2;
 pt.RowFields[1].Group(options);
-// Pivot tablo verilerini hesapla ve çıktı dosyasını kaydet
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputNumberGroupPivotField.xlsx");
 ```

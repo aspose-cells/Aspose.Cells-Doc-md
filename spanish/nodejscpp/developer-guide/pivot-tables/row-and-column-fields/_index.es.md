@@ -1,6 +1,6 @@
 ---
 title: Agregar campos de fila y columna a tablas dinámicas en Aspose.Cells for Node.js mediante C++
-linktitle: Agregar campos de fila y columna a tablas dinámicas en Aspose.Cells for Node.js mediante C++
+linktitle: Campos de fila y columna
 description: Aprenda a agregar campos base a las regiones de filas y columnas de una tabla dinámica y a controlar los subtotales de los campos de la tabla dinámica mediante PivotField.setSubtotals en Aspose.Cells for Node.js mediante C++
 keywords: Aspose.Cells, Node.js, C++, tabla dinámica, campo de fila, campo de columna, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotales
 type: docs

@@ -91,16 +91,16 @@ const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
-// Hedef hücre C6'yı al
+// Get the target cell C6
 var cell = worksheet.getCells().get("C6");
-// Görüntü dosyasını bir bayt dizisine oku
+// Read the image file into a byte array
 var imageData = fs.readFileSync("logo.png");
-// Görüntüyü doğrudan hücreye göm
+// Embed the image directly into the cell
 cell.setEmbeddedImage(imageData);
-// Gömülü görüntünün daha görünür olması için isteğe bağlı olarak satır yüksekliğini ve sütun genişliğini ayarla
-worksheet.getCells().setColumnWidth(2, 30);   // Sütun C (indeks 2)
-worksheet.getCells().setRowHeight(5, 100);     // Satır 6 (indeks 5)
-// Ortaya çıkan çalışma kitabını .xlsx dosyası olarak kaydet
+// Optionally adjust row height and column width so the embedded image is more visible
+worksheet.getCells().setColumnWidth(2, 30);   // Column C (index 2)
+worksheet.getCells().setRowHeight(5, 100);     // Row 6 (index 5)
+// Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 

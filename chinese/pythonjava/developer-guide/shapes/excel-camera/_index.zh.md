@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via Java 中的 Excel 照相机
-linktitle: Aspose.Cells for Python via Java 中的 Excel 照相机
+linktitle: Excel 相机
 description: 了解如何在 Aspose.Cells for Python via Java 中使用 Excel 照相机，创建一个链接到单元格区域的动态图片，该图片会随源数据刷新并保留所有源格式。
 keywords: Aspose.Cells, Python via Java, Excel 照相机, 动态图片, 链接图片, Picture.formula, updateSelectedValue, createRange, toImage, byte[] 数组
 type: docs
@@ -35,7 +35,7 @@ from asposecells.api import Workbook, SaveFormat
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
-# 动态相机：添加一个空图片，通过公式链接到 A1:F10，然后刷新
+# Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 pictures = worksheet.getPictures()
 index = pictures.add(10, 6, b"")
 pictures.get(index).setFormula("A1:F10")
@@ -60,7 +60,7 @@ from java.io import ByteArrayInputStream
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
-# 静态相机：构建 Range，渲染为字节，包装在 ByteArrayInputStream 中，作为图片添加
+# Static Camera: build Range, render to bytes, wrap in ByteArrayInputStream, add as picture
 range_ = worksheet.getCells().createRange("A1:F10")
 image_bytes = range_.toImage(None)
 pictures = worksheet.getPictures()

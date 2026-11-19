@@ -1,87 +1,102 @@
 ---
 title: SmartMarker 単一セル配列レンダリング | Aspose.Cells .NET
-linktitle: SmartMarker 単一セル配列レンダリング | Aspose.Cells .NET
-description: Aspose.Cells for .NET の Smart Markers における ArrayAsSingle および ExtraDelimiter 属性を使用して、配列データを単一セルにレンダリングする方法を学びます。
-keywords: Aspose.Cells, .NET ライブラリ, スプレッドシート, Smart Markers, ArrayAsSingle, ExtraDelimiter, 単一セル配列, 配列レンダリング, テンプレート
+description: Aspose.Cells for .NET の arrayassingle および arraydelimiter Smart Marker 属性を使用して、配列データを1つのセルにレンダリングする方法を学びます。
+linktitle: SmartMarker 単一セル配列レンダリング | Aspose.Cells
+url: /ja/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+keywords: Aspose.Cells, .NET ライブラリ, スプレッドシート, スマートマーカー, arrayassingle, arraydelimiter, 単一セル配列, 配列レンダリング, テンプレート
 type: docs
 weight: 195
-url: /ja/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells は Smart Markers 経由で配列データを単一セルにレンダリングすることをサポートしています。`ArrayAsSingle` 属性と `ExtraDelimiter` 属性を併用することで、開発者は単一セル内での配列要素の区切り方を制御でき、レポートやテンプレートの柔軟な書式設定を実現できます。
+Aspose.Cells は、Smart Marker を通じて配列データソースを1つのセルにレンダリングできます。`arrayassingle` 属性は既定の要素ごとの展開を無効にし、`arraydelimiter` 属性は結合された要素の間に配置する区切り文字を選択します。デフォルトはカンマですが、指定した任意の1文字、または引用符で囲んだ複数文字の文字列を使用できます。
 {{% /alert %}}
 
-## **Introduction**
-Aspose.Cells の Smart Markers は強力なテンプレートベースの機能であり、`&=DataSource.Field` のようなマーカー式を使用してスプレッドシートのデータを動的に入力することができます。マーカーはデザイナー ワークブック内に配置され、テンプレートが `WorkbookDesigner` によって処理されると、マーカーは指定されたデータソースからの値に置き換えられます。
-デフォルトでは、Smart Marker が配列プロパティ（例えば `&=DataSource.Numbers`）を参照すると、エンジンは配列を展開し、各要素を隣接する別々のセルに配置します（行方向に水平に、または列方向に垂直に展開されます）。この動作は多くのシナリオで便利ですが、配列全体を 1 つのセルにレンダリングし、要素を連結して任意の区切り文字で区切りたい場合もあります。
-Smart Marker タグ内で併用される `ArrayAsSingle` および `ExtraDelimiter` 属性は、まさにこの要件に対応します。これらの属性により、配列データソースをネイティブに扱いながら、レポートのレイアウトをコンパクトで予測可能に保つことができます。
+## **はじめに**
 
-## **Why This Feature Is Needed**
+Aspose.Cells の Smart Marker は、`&=DataSource.Field` などのマーカー式を使用して、スプレッドシートのデータを動的に設定するテンプレートベースの機能です。マーカーをデザイナー用ワークブックに配置し、テンプレートを `WorkbookDesigner` で処理すると、マーカーは指定したデータソースの値に置き換えられます。
+既定では、Smart Marker が配列プロパティを参照する場合（例: 4つの値を持つ `string[]` にバインドされた `&=Product.Tags`）、エンジンは配列を展開し、各要素を個別のセルに配置します。値はマーカーの下にある列に沿って垂直方向に広がります。この動作は多くのシナリオで便利ですが、配列全体を1つのセルにレンダリングし、要素を連結して任意の区切り文字で区切りたい場合もあります。
+`arrayassingle` と `arraydelimiter` 属性は、Smart Marker の括弧内に `name:value` 形式で記述すると、この要件に正確に対応します。レポートレイアウトをコンパクトかつ予測可能な状態に保ちながら、配列データソースをネイティブに扱えます。
 
-### **Default Array Spreading Behavior**
-Smart Marker が配列プロパティを参照すると、Aspose.Cells はデフォルトで配列を複数のセルにわたって展開します。例えば、4 つの値を含む `string[]` に対する `&=Product.Tags` のようなマーカーは、各値をそれぞれのセルに配置し、他のテンプレートコンテンツを押し出して、慎重に設計されたレポートレイアウトを破壊する可能性があります。
+## **この機能が必要な理由**
 
-### **Use Case Limitations**
-デフォルトの展開動作が望ましくない実用的なシナリオは数多く存在します。
-- **サマリー形式のレポート** — レコードごとに 1 行のコンパクトなレイアウトが必要な場合。
-- **タグ、ラベル、キーワードリスト** — 単一セル内にカンマ区切りやパイプ区切りで値を表示する必要がある場合。
-- **フィルターチップやステータスインジケーター** — 読みやすさのために複数の値を 1 か所にグループ化する場合。
-- **下流のパイプライン** (CSV エクスポート、PDF レンダリング、メールマージ) — 展開された範囲ではなく、セルごとに単一の統合された値を期待する場合。
-- **クロスプラットフォーム互換性** — 一部のコンシューマーでは複数のセルにまたがる配列を許容できない場合。
+### **既定の配列展開動作**
 
-### **The Gap It Fills**
-組み込みの仕組みがなければ、開発者は C# や VB.NET でデータを前処理し、ワークブックデザイナーにバインドする前に配列を区切り文字列に結合せざるを得ません。これによりロジックが重複し、データモデルが複雑化し、エラーの可能性が増加します。`ArrayAsSingle` および `ExtraDelimiter` 属性は、Smart Marker 自体の中で宣言的に書式設定を処理することで、この回避策を不要にします。
+Smart Marker が配列プロパティを参照すると、Aspose.Cells は既定で配列を複数セルに展開します。たとえば、4つの値を含む `string[]` に対して `&=Product.Tags` のようなマーカーを使用すると、各値がマーカーの下の個別のセルに配置されます。これにより他のテンプレートコンテンツが押し広げられ、慎重に設計したレポートレイアウトが崩れる可能性があります。
 
-## **Feature Benefits**
-Smart Markers で `ArrayAsSingle` および `ExtraDelimiter` 属性を使用すると、いくつかの利点があります。
-- **単一セル格納**：すべての配列要素が正確に 1 つのセルにレンダリングされ、レイアウトがコンパクトで予測可能になります。
-- **カスタム区切り文字の制御**：カンマ、セミコロン、ハイフン、パイプ、改行、カスタムテキストなど、任意の区切り文字列を指定できます。
-- **テンプレート駆動の書式設定**：データを前処理するための追加コードは不要で、書式設定ルールは Smart Marker タグ内に記述されます。
-- **クリーンなレポート**：配列データが隣接するテンプレートコンテンツを異なる行や列に押し出すことがなくなります。
-- **多様なデータ型**：文字列、数値、日付など、区切り文字で結合可能なあらゆるデータ型に対応します。
-- **後方互換性**：属性を省略した場合、元の展開動作が保持されるため、既存のテンプレートは変更なしで動作し続けます。
+### **ユースケース上の制約**
 
-## **How to Use This Feature**
+既定の展開動作が望ましくない実際のシナリオは多数あります。
+- **サマリー形式のレポート**: 1レコードにつき1行のコンパクトなレイアウトが必要な場合。
+- **タグ、ラベル、キーワードのリスト**: 単一セル内でカンマ区切りまたはパイプ区切りの値として表示する必要がある場合。
+- **フィルターチップまたはステータス表示**: 可読性のため、複数の値を1か所にまとめる場合。
+- **後続処理パイプライン**（CSV エクスポート、PDF レンダリング、メールマージ）: 展開された範囲ではなく、セルごとに1つの統合された値を必要とする場合。
+- **クロスプラットフォーム互換性**: 一部の利用者が複数セルにまたがる配列を扱えない場合。
 
-### **Smart Marker Syntax**
-`ArrayAsSingle` および `ExtraDelimiter` 属性は、標準の Smart Marker の括弧内にキーと値のペアとして渡されます。一般的な構文は次のとおりです。
+### **この機能が埋めるギャップ**
+
+組み込み.mechanismがない場合、開発者は C# または VB.NET でデータを事前処理し、配列を区切り文字付き文字列に結合してから `WorkbookDesigner` にバインドする必要がありました。これではロジックが複製され、データモデルが複雑になり、エラーの発生確率も高まります。`arrayassingle` と `arraydelimiter` 属性は、Smart Marker 内|formatを宣言的に処理するため、この回避策が不要になります。
+
+## **機能の利点**
+
+Smart Marker で `arrayassingle` と `arraydelimiter` 属性を使用すると、次の利点があります。
+- **単一セルへの格納**: すべての配列要素が厳密に1つのセルにレンダリングされ、レイアウトをコンパクトかつ予測可能な状態に保てます。
+- **区切り文字のカスタマイズ**: 既定のカンマ、セミコロン、ハイフン、パイプ、または `" | "` のような引用符で囲んだ複数文字の文字列など、任意の区切り文字を指定できます。
+- **テンプレート駆動の書式設定**: データを事前処理するための追加コードは不要です。書式設定規則は Smart Marker タグ内に記述されます。
+- **よりクリーンなレポート**: 配列データによって、隣接するテンプレートコンテンツが異なる行や列に押し広げられることがなくなります。
+- **多様なデータ型**: オブジェクトデータソースの文字列配列と数値配列で動作します。
+- **後方互換性**: 属性を省略すると従来の展開動作が維持されるため、既存のテンプレートは変更 없이引き続き動作します。
+
+## **この機能の使用方法**
+
+### **Smart Marker の構文**
+
+`arrayassingle` と `arraydelimiter` 属性は、標準の Smart Marker の括弧内で Aspose.Cells の `name:value` 属性文法を使用します。一般的な構文は次のとおりです。
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayProperty(arrayassingle:true,arraydelimiter:;)
 ```
 
-マーカーは以下の部分で構成されています。
-- `&=DataSource.ArrayProperty` — バインドされたデータソースの配列プロパティを参照する標準の Smart Marker。
-- `arrayasSingle=true` — エンジンに対して配列全体を単一セルにレンダリングするように指示します。`true` の値のみが単一セル動作をトリガーします。
-- `extraDelimiter=", "` — 配列要素間に配置される区切り文字を定義します。値は文字列リテラルであり、空、単一文字、複数文字の文字列が可能です。
+マーカーは次の要素で構成されます。
+- `&=DataSource.ArrayProperty` — バインドされたデータソース上の配列プロパティを参照する標準の Smart Marker です。
+- `arrayassingle:true` — 要素を展開する代わりに、配列全体を1つのセルにレンダリングするようエンジンに指示します。
+- `arraydelimiter:;` — 省略可能な属性で、配列要素間に配置される区切り文字を定義します。省略した場合はカンマが使用されます。
 
-{{% alert color="primary" %}}
-`extraDelimiter` 属性は、複数文字の区切り文字、カスタムテキスト、改行区切り出力用の `\n` などのエスケープシーケンスを含む任意の文字列リテラルを受け入れます。配列が空の場合、結果のセルは空白のままになります。
+{{% alert color="warning" %}}
+属性は `name:value` 形式（等号ではなくコロン）で記述し、複数の属性は**スペースなし**でカンマ区切りにします。カンマの後のスペースにより、解析される値が1文字分ずれます。`(arrayassingle:true, arraydelimiter:;)` の場合、誤った区切り文字 `:;` で結合され、`;` にはなりません。
 {{% /alert %}}
 
-### **Step-by-Step Workflow**
-以下のワークフローでは、Smart Markers を使用して配列を単一セルにレンダリングする方法を説明します。
-1. **データソースの準備**：配列を返すプロパティを公開するクラス（またはデータ構造）を作成します。プロパティは `string[]`、`int[]`、またはその他のサポートされている配列型を返すことができます。
-2. **デザイナー ワークブックの作成**：新しい `Workbook` を作成し、ヘッダー行を追加し、`arrayasSingle` および `extraDelimiter` 属性を指定した配列プロパティを参照する Smart Marker セルを配置します。
-3. **WorkbookDesigner のインスタンス化**：`WorkbookDesigner` オブジェクトを作成し、デザイナー ワークブックをアタッチし、`SetDataSource` メソッドを使用してデータソースをバインドします。
-4. **マーカーの処理**：`WorkbookDesigner.Process()` メソッドを呼び出して Smart Markers を展開し、ワークブックに実際のデータを入力します。
-5. **結果の保存**：結果のワークブックを XLSX またはその他のサポートされているファイル形式でディスクに保存します。
+### **区切り文字の形式**
 
-### **Code Example 1 — Basic String Array Rendering**
+- 1文字の区切り文字は、コロンの直後に直接記述します: `arraydelimiter:;`、`arraydelimiter:-`、`arraydelimiter:*`。
+- 複数文字の区切り文字は、二重引用符で囲んで記述します: `arraydelimiter:" | "`、`arraydelimiter:" - "`。
+
+### **段階的な手順**
+
+Smart Marker を使用して配列を1つのセルにレンダリングする方法を、次の手順で説明します。
+1. **データソースを準備します**: `string[]` や `int[]` などの配列を返すプロパティを持つクラスを作成し、そのクラスの `List<T>` をバインドして、エンジンが1行につき1件のレコードを読み取れるようにします。
+2. **デザイナー用ワークブックを作成します**: 新しい `Workbook` を作成し、ヘッダー行を追加します。次に、配列プロパティを参照し、`arrayassingle` 属性を指定した Smart Marker セルを追加します。カスタム区切り文字が必要な場合は `arraydelimiter` も指定します。
+3. **`WorkbookDesigner` をインスタンス化します**: ワークブックを対象に `WorkbookDesigner` を作成し、`SetDataSource` でデータソースをバインドします。
+4. **マーカーを処理します**: `WorkbookDesigner.Process()` メソッドを呼び出し、Smart Marker を展開して実際のデータでワークブックを設定します。
+5. **結果を保存します**: 結果のワークブックを XLSX、またはその他のサポートされているファイル形式でディスクに保存します。
+
+### **コード例1 — 基本的な文字列配列のレンダリング**
 
 ```csharp
 using System;
+using System.Collections.Generic;
 using Aspose.Cells;
+
 class Program
 {
-    public class Product
+    class Product
     {
         public string[] Tags { get; set; }
     }
-    public static void Main()
+
+    static void Main()
     {
         Product product = new Product
         {
@@ -90,89 +105,131 @@ class Program
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.Worksheets[0];
         worksheet.Cells["A1"].PutValue("Tags");
-        worksheet.Cells["A2"].PutValue("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")");
-        WorkbookDesigner designer = new WorkbookDesigner();
-        designer.Workbook = workbook;
-        designer.SetDataSource("Product", product);
+        // No spaces inside the parentheses: attributes are name:value pairs
+        worksheet.Cells["A2"].PutValue("&=Product.Tags(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Product", new List<Product> { product });
         designer.Process();
-        workbook.Save("output_arraySingle.xlsx");
+        Console.WriteLine(worksheet.Cells["A2"].StringValue);
+        workbook.Save("output-array-single.xlsx");
     }
 }
 ```
 
-### **Code Example 2 — Numeric Array with Custom Delimiter**
+この例では、配列全体を結合した値を出力します。4つのタグは、既定のカンマで区切られ、1つのセルに配置されます。
 
-```csharp
-public class Student
-{
-    public int[] Scores { get; set; }
-}
-public class Program
-{
-    public static void Main()
-    {
-        var student = new Student
-        {
-            Scores = new int[] { 95, 88, 76, 100, 67 }
-        };
-        var workbook = new Workbook();
-        var worksheet = workbook.Worksheets[0];
-        worksheet.Cells["A1"].PutValue("Scores");
-        worksheet.Cells["A2"].PutValue(string.Join(" - ", student.Scores));
-        workbook.Save("output_numericArray.xlsx");
-    }
-}
+```
+C#,Aspose,SmartMarker,Excel
 ```
 
-### **Code Example 3 — Comparing Default vs. ArrayAsSingle Behavior**
+### **コード例2 — カスタム区切り文字 specifying 数値配列**
 
 ```csharp
 using System;
+using System.Collections.Generic;
 using Aspose.Cells;
-public class Program
+
+class Program
 {
-    public static void Main()
+    class Student
     {
-        var order = new Order
-        {
-            Items = new string[] { "Apple", "Banana", "Cherry", "Date" }
-        };
-        var workbook = new Workbook();
-        var sheet = workbook.Worksheets[0];
-        var cells = sheet.Cells;
-        // セクション1: デフォルトのスマートマーカー - 値がセルに水平方向に展開される
-        cells["A1"].PutValue("Default Spreading Behavior:");
-        cells["A2"].PutValue("&=Order.Items");
-        // セクション2: arrayasSingle と extraDelimiter を使用した新しい単一セルレンダリング
-        cells["A4"].PutValue("Single Cell Rendering (arrayasSingle=true):");
-        cells["A5"].PutValue("&=Order.Items(arrayasSingle=true, extraDelimiter=\"; \")");
-        // データソースをバインドし、スマートマーカーを処理する
-        var designer = new WorkbookDesigner(workbook);
-        designer.SetDataSource("Order", order);
-        designer.Process();
-        // 結果のワークブックを保存する
-        workbook.Save("output_comparison.xlsx");
+        public int[] Scores { get; set; }
     }
-}
-public class Order
-{
-    public string[] Items { get; set; }
+
+    static void Main()
+    {
+        Student student = new Student
+        {
+            Scores = new int[] { 95, 88, 76, 100, 67 }
+        };
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+        worksheet.Cells["A1"].PutValue("Scores");
+        // arraydelimiter:- joins the numbers with a hyphen
+        worksheet.Cells["A2"].PutValue("&=Student.Scores(arrayassingle:true,arraydelimiter:-)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Student", new List<Student> { student });
+        designer.Process();
+        Console.WriteLine(worksheet.Cells["A2"].StringValue);
+        workbook.Save("output-array-numeric.xlsx");
+    }
 }
 ```
 
-### **Notes & Best Practices**
-`ArrayAsSingle` および `ExtraDelimiter` 属性を使用する際は、以下の点に留意してください。
-- `extraDelimiter` の値は文字列リテラルとして扱われます。テンプレートプロセッサが解釈する可能性のある特殊文字はエスケープしてください。
-- `arrayasSingle` 属性はブール値（`true` / `false`）を受け入れます。`true` のみが単一セル動作をトリガーし、その他の値はデフォルトの展開動作にフォールバックします。
-- 配列が空または null の場合、セルは空になります（データ型に応じて空文字列が含まれる場合もあります）。
-- この機能はオブジェクトデータソースだけでなく、列を配列に分割できる `DataSet` および `DataTable` ソースでも動作します。
-- 改行区切りの出力には、区切り文字の値として `\n` または `Environment.NewLine` を使用できます。
+数値配列は文字列配列と同じように結合され、各要素は単純な数値テキストとして保持されます。
 
-## Related Articles
+```
+95-88-76-100-67
+```
+
+### **コード例3 — 既定の動作と単一セルレンダリングの比較**
+
+```csharp
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+class Program
+{
+    class Order
+    {
+        public string[] Items { get; set; }
+    }
+
+    static void Main()
+    {
+        Order order = new Order
+        {
+            Items = new string[] { "Apple", "Banana", "Cherry", "Date" }
+        };
+        Workbook workbook = new Workbook();
+        Worksheet sheet = workbook.Worksheets[0];
+        Cells cells = sheet.Cells;
+        // Column B: default marker — values spread vertically down the column
+        cells["B1"].PutValue("Default");
+        cells["B2"].PutValue("&=Order.Items");
+        // Column C: single-cell rendering — the whole array joins into one cell
+        cells["C1"].PutValue("Single cell");
+        cells["C2"].PutValue("&=Order.Items(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Order", new List<Order> { order });
+        designer.Process();
+        for (int row = 1; row <= 5; row++)
+        {
+            string b = cells[row, 1].StringValue;
+            string c = cells[row, 2].StringValue;
+            if (!string.IsNullOrEmpty(b) || !string.IsNullOrEmpty(c))
+                Console.WriteLine($"B{row + 1}=[{b}]  C{row + 1}=[{c}]");
+        }
+        workbook.Save("output-array-comparison.xlsx");
+    }
+}
+```
+
+既定のマーカーは B 列で要素ごとに1つのセルを設定しますが、`arrayassingle` マーカーは同じ配列を C 列の1つのセルにまとめます。
+
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
+```
+
+### **注記とベストプラクティス**
+
+`arrayassingle` と `arraydelimiter` 属性を使用する場合は、次の点に注意してください。
+- 属性値は `name:value` 形式です。`arrayassingle=true` のような等号形式は認識されず、警告なく既定の展開動作にフォールバックします。
+- 複数の属性は、スペースなしでカンマ区切りにします。カンマの後のスペースにより、区切り文字の値が1文字分ずれます（上の警告を参照してください）。
+- `arraydelimiter` の値は、コロンの直後に直接記述した1文字、または二重引用符で囲んだ複数文字の文字列にできます。
+- `arraydelimiter` を省略すると、要素はカンマで結合されます。
+- データソースでは、エンジンがレコードを列挙できるようにする必要があります。要素の型が配列プロパティを公開する `List<T>`（またはその他のコレクション）をバインドしてください。単一オブジェクトをバインドすると、本文のマーカーは未解決のままになります。
+- 同じ属性を文字列配列と数値配列に使用できます。各要素は、その値の単純なテキストとしてレンダリングされます。
+
+## 関連記事
 - [Aspose.Cells for .NET でピボットテーブルにフィルターフィールドを追加する](/cells/ja/net/add-page-field-in-pivot-table/)
-- [Aspose.Cells for .NET でピボットテーブルにスタイルを適用する](/cells/ja/net/apply-style-to-pivot-table/)
-- [ピボットテーブルのページフィールドのレイアウトを変更する](/cells/ja/net/change-page-field-layout/)
-- [Aspose.Cells for .NET でスパークラインを画像と HTML に変換する](/cells/ja/net/convert-sparkline-to-image-and-html/)
+- [Aspose.Cells for .Net でピボットテーブルにスタイルを適用](/cells/ja/net/apply-style-to-pivot-table/)
+- [ピボットテーブルのページフィールドレイアウトを変更する](/cells/ja/net/change-page-field-layout/)
+- [Aspose.Cells for .NET でスパークラインを画像および HTML に変換する](/cells/ja/net/convert-sparkline-to-image-and-html/)
 - [Excel を OFD 形式に変換する](/cells/ja/net/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="csharp" >}}

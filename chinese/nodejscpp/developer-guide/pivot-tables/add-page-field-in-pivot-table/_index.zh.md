@@ -30,11 +30,11 @@ const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// 设置表头行
+// Set up the header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// 填充9行示例数据：水果、年份、数量
+// Populate 9 rows of sample data: Fruit, Year, Amount
 var data = [
     [ "apple", 2020, 100 ],
     [ "banana", 2021, 200 ],
@@ -52,15 +52,15 @@ for (var i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 1).putValue(data[i][1]);
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
-// 添加以单元格E3为锚点的数据透视表
+// Add a pivot table anchored at cell E3
 var pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// 将字段添加到各区域：水果作为行字段，数量作为数据字段，年份作为页字段
+// Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-// 刷新并计算数据透视表数据
+// Refresh and calculate the pivot table data
 pivotTable.calculateData();
-// 保存工作簿
+// Save the workbook
 workbook.save("pageFieldSample.xlsx");
 ```
 
@@ -71,11 +71,11 @@ workbook.save("pageFieldSample.xlsx");
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-// 表头
+// Headers
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
-// 示例数据（9行）
+// Sample data (9 rows)
 sheet.getCells().get("A2").putValue("apple");     sheet.getCells().get("B2").putValue("2020"); sheet.getCells().get("C2").putValue(100);
 sheet.getCells().get("A3").putValue("apple");     sheet.getCells().get("B3").putValue("2021"); sheet.getCells().get("C3").putValue(150);
 sheet.getCells().get("A4").putValue("apple");     sheet.getCells().get("B4").putValue("2022"); sheet.getCells().get("C4").putValue(200);
@@ -85,16 +85,16 @@ sheet.getCells().get("A7").putValue("grape");     sheet.getCells().get("B7").put
 sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").putValue("2020"); sheet.getCells().get("C8").putValue(250);
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
-// 在E3位置添加数据透视表，覆盖A1:C10
+// Add pivot table at E3 covering A1:C10
 let pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// 水果 -> 行，金额 -> 数据（年份将放到下面的页面）
+// Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-// 底层方法：从BaseFields中获取现有的年份透视字段，
-// 并通过PageFields.Add(PivotField)将其注册到页面区域。
+// Low-level approach: grab the existing Year PivotField from BaseFields
+// and register it in the Page area via PageFields.Add(PivotField).
 let yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
-// 刷新以便在保存的工作簿中反映新的页面字段
+// Refresh so the new page field is reflected in the saved workbook
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -109,7 +109,7 @@ workbook.save("output.xlsx");
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-// 填充 水果/年份/金额 数据
+// Populate Fruit/Year/Amount data
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
@@ -126,17 +126,17 @@ for (let r = 0; r < data.length; r++) {
         sheet.getCells().get(r + 1, c).putValue(data[r][c]);
     }
 }
-// 在 E3 创建数据透视表
+// Create pivot table at E3
 let pivotTables = sheet.getPivotTables();
 let pivotTable = pivotTables.add("=A1:C7", 2, 4);
-// 配置数据透视表字段：水果→行，金额→数据，年份→页
+// Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 pivotTable.calculateData();
-// 清除页面筛选器，以便页面字段中的每个项目都可见。
-// 0x7FFD（十进制 32765）是表示"所有项目"的特殊哨兵值 —
-// 相当于在 Excel 的页面字段下拉列表中选择"（全部）"。
+// Clear the page filter so every item in the page field is visible.
+// 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+// equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivotTable.getPageFields().get(0).setCurrentPageItem(0x7FFD);
 workbook.save("output.xlsx");
 ```
@@ -149,7 +149,7 @@ const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
-// 添加示例数据（水果/年份/金额）
+// Add sample data (Fruit/Year/Amount)
 cells.get("A1").putValue("Fruit");
 cells.get("B1").putValue("Year");
 cells.get("C1").putValue("Amount");
@@ -165,16 +165,16 @@ cells.get("C4").putValue("200");
 cells.get("A5").putValue("Banana");
 cells.get("B5").putValue("2021");
 cells.get("C5").putValue("250");
-// 在 E3 处添加数据透视表
+// Add pivot table at E3
 var pivotTables = sheet.getPivotTables();
 var pivotTable = pivotTables.add("A1:C5", 2, 4);
-// 添加字段：水果→行，金额→数据，年份→页
+// Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-// 页字段特定操作
-pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = 排序顺序中的第二项（例如 "2021"）
-// 刷新并计算数据透视表
+// Page-field-specific operations
+pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = second item in sorted order (e.g. "2021")
+// Refresh and calculate pivot table
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -188,7 +188,7 @@ const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();
-// 示例数据：水果 | 年份 | 数量
+// Sample data: Fruit | Year | Amount
 cells.get(0, 0).putValue("Fruit");
 cells.get(0, 1).putValue("Year");
 cells.get(0, 2).putValue("Amount");
@@ -214,14 +214,14 @@ let pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-// — 在页面字段上启用多选
+// — Enable multi-select on the page field
 pivotTable.getPageFields().get(0).setIsMultipleItemSelectionAllowed(true);
-// 部分 A — 选择所有项（使每个项都可见）
+// Part A — select ALL items (make every item visible)
 let pivotItems = pivotTable.getPageFields().get(0).getPivotItems();
 for (let i = 0; i < pivotItems.getCount(); i++) {
     pivotItems.get(i).setIsHidden(false);
 }
-// 部分 B — 按源值仅选择特定项
+// Part B — select only specific items by source value
 for (let i = 0; i < pivotItems.getCount(); i++) {
     switch (pivotItems.get(i).getStringValue()) {
         case "2020":

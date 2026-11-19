@@ -40,13 +40,11 @@ L'esempio di codice seguente crea una tabella pivot semplice seguendo questi pas
 
 ```java
 import com.aspose.cells.*;
-
-// Crea una nuova cartella di lavoro e ottieni il primo foglio di lavoro
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-
-// Scrivi i dati di origine: vendite per sport e trimestre
+// Write the source data: sales per sport and quarter
 cells.get("A1").putValue("Sport");
 cells.get("B1").putValue("Quarter");
 cells.get("C1").putValue("Sales");
@@ -71,16 +69,13 @@ cells.get("C7").putValue(5000);
 cells.get("A8").putValue("Golf");
 cells.get("B8").putValue("Qtr3");
 cells.get("C8").putValue(6430);
-
-// Aggiungi una tabella pivot alla cella di destinazione E3, usando A1:C8 come origine
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// Assegna i campi pivot: Sport a Righe, Quarter a Colonne, Sales a Dati
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Quarter");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
-
-// Salva la cartella di lavoro
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

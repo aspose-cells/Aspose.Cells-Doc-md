@@ -22,7 +22,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 3. **مرشح القيمة** — يصفي العناصر بناءً على القيم المجمعة لحقل بيانات.
 4. **مرشح أعلى 10** — يعرض فقط أعلى أو أدنى عدد N من العناصر مرتبة حسب حقل قيمة.
 5. **إخفاء / إظهار العناصر المحورية** — يتحكم يدويًا في رؤية كل عنصر فردي في حقل.
-تستخدم كل طريقة دالة مختلفة على فئة `PivotField` أو خاصية على فئة `PivotItem`. بعد تطبيق أي مرشح، يجب استدعاء `refreshData()` و `calculateData()` على الجدول المحوري بحيث تعكس البيانات المخزنة مؤقتًا والقيم المحسوبة حالة المرشح الجديدة.
+تستخدم كل طريقة دالة مختلفة على فئة `PivotField` أو خاصية على فئة `PivotItem`. بعد تطبيق أي مرشح، يجب استدعاء `getPivotCache().refresh()` على الجدول المحوري بحيث تعكس البيانات المخزنة مؤقتًا والقيم المحسوبة حالة المرشح الجديدة.
 
 ## **مرشح التسمية**
 يتيح لك مرشح التسمية تصفية عناصر حقل الصف أو العمود بمقارنة تسمياتها النصية بنمط معين. يكون ذلك مفيدًا عندما تريد عرض المنتجات التي تبدأ أسماؤها بحرف معين فقط، أو تحتوي على كلمة محددة، أو تطابق معيارًا آخر قائمًا على التسمية.
@@ -33,19 +33,19 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
-// تحميل المصنف الحالي الذي يحتوي على جدول محوري
+// Load the existing workbook containing a pivot table
 let workbook = new AsposeCells.Workbook(fileName);
-// الوصول إلى ورقة العمل حسب الفهرس (ورقة العمل الأولى)
+// Access the worksheet by index (first worksheet)
 let worksheet = workbook.getWorksheets().get(0);
-// الوصول إلى الجدول المحوري حسب الفهرس
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// استرجاع حقل الصف الأول PivotField
+// Retrieve the first row PivotField
 let rowField = pivotTable.getRowFields().get(0);
-// تطبيق فلتر التسمية - عرض عناصر الصفوف التي تبدأ تسمياتها بالبادئة المقدمة فقط
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
-// تحديث وإعادة حساب بيانات الجدول المحوري حتى يسري الفلتر
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// حفظ المصنف مرة أخرى على القرص
+// Save the workbook back to disk
 workbook.save(fileName);
 ```
 
@@ -67,23 +67,23 @@ if (!fs.existsSync(inputPath))
 {
     throw new Error("Source workbook not found. Path: " + inputPath);
 }
-// تحميل المصنف الحالي الذي يحتوي على الجدول المحوري
+// Load the existing workbook that contains the pivot table
 var workbook = new AsposeCells.Workbook(inputPath);
-// الوصول إلى ورقة العمل التي تحتوي على الجدول المحوري (بالفهرس)
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.getWorksheets().get(0);
-// الوصول إلى الجدول المحوري بالفهرس
+// Access the pivot table by index
 var pivotTable = worksheet.getPivotTables().get(0);
-// استرداد حقل المحور التاريخي من منطقة الصفوف
-// (يعمل مرشح التاريخ فقط عندما تحتوي منطقة الصف/العمود على خلايا تاريخ-وقت أو فراغات فقط)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 let dateField = pivotTable.getRowFields().get(0);
-// تحديد معيار التاريخ لمرشح بين
+// Define the date criterion for the Between filter
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
-// تطبيق مرشح التاريخ على حقل المحور
+// Apply the date filter on the pivot field
 dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
-// تحديث وإعادة حساب الجدول المحوري حتى يصبح المرشح ساري المفعول
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// حفظ المصنف
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
@@ -99,7 +99,7 @@ var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
 var rowField = pivotTable.getRowFields().get(0);
 var dataField = pivotTable.getDataFields().get(0);
-// البحث عن فهرس حقل البيانات يدويًا نظرًا لأن PivotFieldCollection لا يحتوي على IndexOf
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 var dataFieldIndex = -1;
 for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 {
@@ -131,29 +131,29 @@ const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
-// الوصول إلى ورقة العمل التي تحتوي على الجدول المحوري (الفهرس 0)
+// Access the worksheet that holds the pivot table (index 0)
 let worksheet = workbook.getWorksheets().get(0);
-// الوصول إلى الجدول المحوري حسب الفهرس
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// التحقق من وجود حقل قيمة واحد على الأقل في منطقة البيانات
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() == 0)
 {
     throw new Error("Pivot table has no value (data) PivotField.");
 }
 let valueField = pivotTable.getDataFields().get(0);
-// استرداد حقل الصف المستهدف (الحقل الذي نريد تطبيق أفضل 10 عليه)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 let rowField = pivotTable.getRowFields().get(0);
-// أول حقل بيانات (والوحيد) موجود في الفهرس 0؛ أفضل 10 يرتب حسبه.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 let valueFieldIndex = 0;
-// تطبيق مرشح أفضل 10 على حقل الصف:
-//   - عدد العناصر   = 10
-//   - نوع المرشح    = PivotFilterType.SUM
-//   - isTop         = true (أفضل N؛ false تعني أسوأ N)
-//   - valueFieldIndex = فهرس حقل البيانات المستخدم لترتيب العناصر
+// Apply the Top 10 filter on the row field:
+//   - itemCount   = 10
+//   - filterType  = PivotFilterType.SUM
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.COUNT, true, 10);
-// تحديث بيانات الجدول المحوري وإعادة حسابها حتى يصبح المرشح ساري المفعول
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// حفظ المصنف
+// Save the workbook
 workbook.save(outputPath);
 ```
 
@@ -164,29 +164,29 @@ workbook.save(outputPath);
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
-// الوصول إلى ورقة العمل الأولى التي تحتوي على الجدول المحوري
+// Access the first worksheet which contains the pivot table
 let sheet = workbook.getWorksheets().get(0);
-// الوصول إلى الجدول المحوري عن طريق الفهرس (الجدول المحوري الأول في الورقة)
+// Access the pivot table by index (the first pivot table on the sheet)
 let pivotTable = sheet.getPivotTables().get(0);
-// استرداد الحقل المحوري المستهدف (أول حقل تسمية صف سنخفي/نظهر عناصره)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 let pivotField = pivotTable.getRowFields().get(0);
-// التكرار خلال مجموعة العناصر المحورية للحقل المحوري المحدد
+// Iterate through the PivotItems collection of the selected PivotField
 let itemCount = pivotField.getPivotItems().getCount();
 for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
-    // إخفاء العناصر المحورية التي تطابق اسمًا/معيارًا محددًا
+    // Hide pivot items that match a specific name/criterion
     if (item.getName() == "Item1" || item.getName() == "Item2") {
         item.setHidden(true);
     }
-    // عرض كيفية إظهار: إعادة عرض عنصر محوري تم إخفاؤه سابقًا
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.getName() == "Item3") {
         item.setHidden(false);
     }
 }
-// تحديث وإعادة حساب الجدول المحوري لتطبيق التغييرات
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh();
-// حفظ المصنف — تبقى العناصر المخفية في البيانات الأساسية
-// لكنها تُستبعد من مخرجات الجدول المحوري المعروضة
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx");
 ```
 

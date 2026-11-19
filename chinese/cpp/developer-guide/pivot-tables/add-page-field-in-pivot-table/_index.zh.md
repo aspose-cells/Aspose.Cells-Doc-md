@@ -31,16 +31,16 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // 创建新的工作簿
+    // Create a new workbook
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(u"Data");
     Cells cells = worksheet.GetCells();
-    // 设置表头行
+    // Set up the header row
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
-    // 填充 9 行示例数据：水果、年份、数量
+    // Populate 9 rows of sample data: Fruit, Year, Amount
     const char* fruits[] = { "apple", "banana", "apple", "grape", "orange", "banana", "grape", "apple", "orange" };
     int years[]   = { 2020, 2021, 2021, 2020, 2022, 2020, 2021, 2022, 2021 };
     int amounts[] = { 100, 200, 150, 120, 180, 90, 130, 170, 110 };
@@ -50,15 +50,15 @@ int main() {
         cells.Get(i + 1, 1).PutValue(years[i]);
         cells.Get(i + 1, 2).PutValue(amounts[i]);
     }
-    // 添加锚定在单元格 E3 的数据透视表
+    // Add a pivot table anchored at cell E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // 将字段添加到相应区域：水果作为行字段，数量作为数据字段，年份作为页字段
+    // Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
-    // 刷新并计算数据透视表数据
+    // Refresh and calculate the pivot table data
     pivotTable.CalculateData();
-    // 保存工作簿
+    // Save the workbook
     workbook.Save(u"pageFieldSample.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -78,11 +78,11 @@ int main() {
     Workbook workbook;
     Worksheet sheet = workbook.GetWorksheets().Get(0);
     Cells cells = sheet.GetCells();
-    // 表头
+    // Headers
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
-    // 示例数据（9 行）
+    // Sample data (9 rows)
     cells.Get(u"A2").PutValue(u"apple");     cells.Get(u"B2").PutValue(u"2020"); cells.Get(u"C2").PutValue(100);
     cells.Get(u"A3").PutValue(u"apple");     cells.Get(u"B3").PutValue(u"2021"); cells.Get(u"C3").PutValue(150);
     cells.Get(u"A4").PutValue(u"apple");     cells.Get(u"B4").PutValue(u"2022"); cells.Get(u"C4").PutValue(200);
@@ -92,15 +92,15 @@ int main() {
     cells.Get(u"A8").PutValue(u"blueberry"); cells.Get(u"B8").PutValue(u"2020"); cells.Get(u"C8").PutValue(250);
     cells.Get(u"A9").PutValue(u"blueberry"); cells.Get(u"B9").PutValue(u"2021"); cells.Get(u"C9").PutValue(350);
     cells.Get(u"A10").PutValue(u"blueberry");cells.Get(u"B10").PutValue(u"2022");cells.Get(u"C10").PutValue(450);
-    // 在 E3 处添加数据透视表，覆盖 A1:C10
+    // Add pivot table at E3 covering A1:C10
     PivotTableCollection pivotTables = sheet.GetPivotTables();
     int pivotIndex = pivotTables.Add(U16String(u"A1:C10"), U16String(u"E3"), U16String(u"PivotTable1"));
     PivotTable pivotTable = pivotTables.Get(pivotIndex);
-    // Fruit -> 行，Amount -> 数据
+    // Fruit -> Row, Amount -> Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, U16String(u"Fruit"));
     pivotTable.AddFieldToArea(PivotFieldType::Data, U16String(u"Amount"));
-    // 底层方法：在 BaseFields 中定位已存在的 Year PivotField，
-    // 然后通过 PageFields.Add(PivotField) 将其注册到页面区域。
+    // Low-level approach: locate the existing Year PivotField in BaseFields
+    // and register it in the Page area via PageFields.Add(PivotField).
     PivotFieldCollection baseFields = pivotTable.GetBaseFields();
     int baseFieldCount = baseFields.GetCount();
     for (int i = 0; i < baseFieldCount; ++i) {
@@ -110,7 +110,7 @@ int main() {
             break;
         }
     }
-    // 刷新，以便在保存的工作簿中反映新增的页面字段
+    // Refresh so the new page field is reflected in the saved workbook
     pivotTable.CalculateData();
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
@@ -213,7 +213,7 @@ int main() {
     Workbook workbook;
     Worksheet sheet = workbook.GetWorksheets().Get(0);
     Cells cells = sheet.GetCells();
-    // 示例数据: 水果 | 年份 | 数量
+    // Sample data: Fruit | Year | Amount
     cells.Get(0, 0).PutValue(u"Fruit");
     cells.Get(0, 1).PutValue(u"Year");
     cells.Get(0, 2).PutValue(u"Amount");
@@ -239,15 +239,15 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
-    // — 启用页面字段的多选功能
+    // — Enable multi-select on the page field
     pivotTable.GetPageFields().Get(0).SetIsMultipleItemSelectionAllowed(true);
-    // 第一部分 — 选择所有项（使每个项可见）
+    // Part A — select ALL items (make every item visible)
     PivotItemCollection pivotItems = pivotTable.GetPageFields().Get(0).GetPivotItems();
     int itemCount = pivotItems.GetCount();
     for (int i = 0; i < itemCount; i++) {
         pivotItems.Get(i).SetIsHidden(false);
     }
-    // 第二部分 — 仅按源值选择特定项
+    // Part B — select only specific items by source value
     for (int i = 0; i < itemCount; i++) {
         U16String val = pivotItems.Get(i).GetStringValue();
         std::string s = val.ToUtf8();

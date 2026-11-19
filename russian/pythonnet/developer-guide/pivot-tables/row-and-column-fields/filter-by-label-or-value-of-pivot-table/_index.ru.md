@@ -34,19 +34,19 @@ import aspose.cells as ac
 from aspose.cells.pivot import PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
-# Загрузить существующую книгу, содержащую сводную таблицу
+# Load the existing workbook containing a pivot table
 workbook = ac.Workbook(fileName)
-# Получить лист по индексу (первый лист)
+# Access the worksheet by index (first worksheet)
 worksheet = workbook.worksheets[0]
-# Получить сводную таблицу по индексу
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# Получить первое поле строки PivotField
+# Retrieve the first row PivotField
 row_field = pivot_table.row_fields[0]
-# Применить фильтр меток — отображать только элементы строк, метки которых начинаются с указанного префикса
+# Apply the label filter — show only row items whose labels begin with the supplied prefix
 row_field.filter_by_label(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
-# Обновить и пересчитать данные сводной таблицы, чтобы применить фильтр
+# Refresh and recalculate the pivot table data so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# Сохранить книгу обратно на диск
+# Save the workbook back to disk
 workbook.save(fileName)
 ```
 
@@ -68,23 +68,23 @@ input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
     raise FileNotFoundError("Source workbook not found.", input_path)
-# Загрузить существующую книгу, содержащую сводную таблицу
+# Load the existing workbook that contains the pivot table
 workbook = ac.Workbook(input_path)
-# Получить доступ к листу, на котором находится сводная таблица (по индексу)
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.worksheets[0]
-# Получить доступ к сводной таблице по индексу
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# Получить поле PivotField даты из области строк
-# (Фильтрация по дате работает только тогда, когда область строк/столбцов содержит исключительно ячейки с датой и временем или пустые ячейки)
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 date_field = pivot_table.row_fields[0]
-# Определить критерии даты для фильтра «Между»
+# Define the date criterion for the Between filter
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
-# Применить фильтр по дате к полю сводной таблицы
+# Apply the date filter on the pivot field
 date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
-# Обновить и пересчитать сводную таблицу, чтобы применить фильтр
+# Refresh and recalculate the pivot table so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# Сохранить книгу
+# Persist the workbook
 workbook.save(output_path)
 ```
 
@@ -101,7 +101,7 @@ worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
 row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
-# Вручную найти индекс поля данных, поскольку PivotFieldCollection не имеет IndexOf
+# Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 data_field_index = -1
 for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
@@ -125,31 +125,31 @@ Aspose.Cells предоставляет фильтрацию Top 10 через �
 ```python
 import aspose.cells as ac
 import aspose.cells.pivot as acp
-# Загрузить существующую книгу, содержащую сводную таблицу
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = ac.Workbook(inputPath)
-# Получить лист, содержащий сводную таблицу (индекс 0)
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.worksheets[0]
-# Получить сводную таблицу по индексу
+# Access the pivot table by index
 pivotTable = worksheet.pivot_tables[0]
-# Убедиться, что в области данных есть хотя бы одно поле значений
+# Confirm there is at least one value PivotField in the data area
 if len(pivotTable.data_fields) == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
-# Получить целевое поле строки (поле, к которому требуется применить фильтр Top 10)
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.row_fields[0]
-# Первое (и единственное) поле данных находится по индексу 0; фильтр Top 10 ранжирует элементы по нему.
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# Применить фильтр Top 10 к полю строки:
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true (Top N; false означает Bottom N)
-#   - valueFieldIndex = индекс поля данных, используемого для ранжирования элементов
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
-# Обновить данные сводной таблицы и пересчитать её, чтобы применить фильтр
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.pivot_cache.refresh()
-# Сохранить книгу
+# Save the workbook
 workbook.save(outputPath)
 ```
 
@@ -159,28 +159,28 @@ workbook.save(outputPath)
 
 ```python
 import aspose.cells as ac
-# Загрузить существующую книгу, содержащую сводную таблицу
+# Load an existing workbook containing a pivot table
 workbook = ac.Workbook("pivot_table_sample.xlsx")
-# Получить доступ к первому листу, содержащему сводную таблицу
+# Access the first worksheet which contains the pivot table
 sheet = workbook.worksheets[0]
-# Получить доступ к сводной таблице по индексу (первая сводная таблица на листе)
+# Access the pivot table by index (the first pivot table on the sheet)
 pivot_table = sheet.pivot_tables[0]
-# Получить целевое поле PivotField (первое поле строк, элементы которого можно скрывать и отображать)
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivot_field = pivot_table.row_fields[0]
-# Перебрать коллекцию PivotItems выбранного поля PivotField
+# Iterate through the PivotItems collection of the selected PivotField
 item_count = pivot_field.pivot_items.count
 for i in range(item_count):
     item = pivot_field.pivot_items[i]
-    # Скрыть элементы сводной таблицы, соответствующие определенному имени или условию
+    # Hide pivot items that match a specific name/criterion
     if item.name == "Item1" or item.name == "Item2":
         item.is_hidden = True
-    # Продемонстрировать отображение: повторно показать ранее скрытый элемент сводной таблицы
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.name == "Item3":
         item.is_hidden = False
-# Обновить и пересчитать сводную таблицу, чтобы изменения вступили в силу
+# Refresh and recalculate the pivot table so changes take effect
 pivot_table.pivot_cache.refresh()
-# Сохранить книгу — скрытые элементы остаются в исходных данных,
-# но исключаются из отображаемого результата сводной таблицы
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 ```
 

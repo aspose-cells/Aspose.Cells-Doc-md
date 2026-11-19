@@ -1,6 +1,6 @@
 ---
 title: 按标签或值筛选数据透视表
-linktitle: 按标签或值筛选数据透视表
+linktitle: 按标签或值筛选
 description: Aspose.Cells for Node.js via Java 支持全面的数据透视表筛选功能。本文介绍如何使用标签筛选、日期筛选、值筛选、前 10 项筛选以及通过隐藏/取消隐藏透视项来筛选数据透视表数据。
 keywords: Aspose.Cells, Node.js via Java 库, 电子表格, 数据透视表, 筛选, 标签筛选, 值筛选, 日期筛选, 前 10 项筛选, 透视项, 隐藏透视项
 type: docs
@@ -22,7 +22,7 @@ Aspose.Cells 提供了五种实用的策略来筛选数据透视表中显示的�
 3. **值筛选** — 基于数据字段的聚合值筛选项。
 4. **前 10 项筛选** — 仅显示按值字段排序的前 N 项或后 N 项。
 5. **隐藏 / 取消隐藏透视项** — 手动控制字段中每个单独项的可见性。
-每种方法使用 `PivotField` 类上的不同方法或 `PivotItem` 类上的属性。应用任何筛选后，必须在数据透视表上调用 `refreshData()` 和 `calculateData()`，以便缓存数据和计算值反映新的筛选状态。
+每种方法使用 `PivotField` 类上的不同方法或 `PivotItem` 类上的属性。应用任何筛选后，必须在数据透视表上调用 `getPivotCache().refresh()`，以便缓存数据和计算值反映新的筛选状态。
 
 ## **标签筛选**
 标签筛选允许您通过将行或列字段项的文本标题与模式进行比较来筛选这些项。当您希望仅显示名称以特定字母开头、包含特定单词或满足其他基于标题条件的项时，此功能非常有用。
@@ -33,19 +33,19 @@ Aspose.Cells 通过 `PivotField.filterByLabel(PivotFilterType, string)` 方法�
 const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
-// 加载包含数据透视表的现有工作簿
+// Load the existing workbook containing a pivot table
 let workbook = new AsposeCells.Workbook(fileName);
-// 通过索引访问工作表（第一个工作表）
+// Access the worksheet by index (first worksheet)
 let worksheet = workbook.getWorksheets().get(0);
-// 通过索引访问数据透视表
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// 获取第一个行字段
+// Retrieve the first row PivotField
 let rowField = pivotTable.getRowFields().get(0);
-// 应用标签筛选 — 仅显示标签以所提供前缀开头的行项
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
-// 刷新并重新计算数据透视表数据，以使筛选生效
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// 将工作簿保存回磁盘
+// Save the workbook back to disk
 workbook.save(fileName);
 ```
 
@@ -67,23 +67,23 @@ if (!fs.existsSync(inputPath))
 {
     throw new Error("Source workbook not found. Path: " + inputPath);
 }
-// 加载包含数据透视表的现有工作簿
+// Load the existing workbook that contains the pivot table
 var workbook = new AsposeCells.Workbook(inputPath);
-// 通过索引访问包含数据透视表的工作表
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.getWorksheets().get(0);
-// 通过索引访问数据透视表
+// Access the pivot table by index
 var pivotTable = worksheet.getPivotTables().get(0);
-// 从行区域中获取日期透视字段
-// (日期筛选仅在行/列区域仅包含日期时间单元格或空白时有效)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 let dateField = pivotTable.getRowFields().get(0);
-// 为 Between 筛选定义日期条件
+// Define the date criterion for the Between filter
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
-// 在透视字段上应用日期筛选
+// Apply the date filter on the pivot field
 dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
-// 刷新并重新计算数据透视表以使筛选生效
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// 保存工作簿
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
@@ -99,7 +99,7 @@ var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
 var rowField = pivotTable.getRowFields().get(0);
 var dataField = pivotTable.getDataFields().get(0);
-// 由于 PivotFieldCollection 没有 IndexOf 方法，因此手动查找数据字段索引
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 var dataFieldIndex = -1;
 for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 {
@@ -131,29 +131,29 @@ const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
-// 访问包含数据透视表的工作表（索引 0）
+// Access the worksheet that holds the pivot table (index 0)
 let worksheet = workbook.getWorksheets().get(0);
-// 按索引访问数据透视表
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// 确认数据区域中至少有一个值 PivotField
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() == 0)
 {
     throw new Error("Pivot table has no value (data) PivotField.");
 }
 let valueField = pivotTable.getDataFields().get(0);
-// 检索目标行 PivotField（我们要对其应用前 10 的字段）
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 let rowField = pivotTable.getRowFields().get(0);
-// 第一个（也是唯一一个）数据字段位于索引 0；前 10 按其排序。
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 let valueFieldIndex = 0;
-// 对行字段应用前 10 筛选器：
+// Apply the Top 10 filter on the row field:
 //   - itemCount   = 10
 //   - filterType  = PivotFilterType.SUM
-//   - isTop       = true（前 N；false 表示后 N）
-//   - valueFieldIndex = 用于对项进行排序的数据字段的索引
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.COUNT, true, 10);
-// 刷新数据透视表数据并重新计算，以使筛选器生效
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// 保存工作簿
+// Save the workbook
 workbook.save(outputPath);
 ```
 
@@ -164,29 +164,29 @@ workbook.save(outputPath);
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
-// 访问第一个包含数据透视表的工作表
+// Access the first worksheet which contains the pivot table
 let sheet = workbook.getWorksheets().get(0);
-// 按索引访问数据透视表（工作表上的第一个数据透视表）
+// Access the pivot table by index (the first pivot table on the sheet)
 let pivotTable = sheet.getPivotTables().get(0);
-// 获取目标 PivotField（我们将对其进行隐藏/取消隐藏项操作的第一个行标签字段）
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 let pivotField = pivotTable.getRowFields().get(0);
-// 遍历所选 PivotField 的 PivotItems 集合
+// Iterate through the PivotItems collection of the selected PivotField
 let itemCount = pivotField.getPivotItems().getCount();
 for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
-    // 隐藏符合特定名称/条件的数据透视表项
+    // Hide pivot items that match a specific name/criterion
     if (item.getName() == "Item1" || item.getName() == "Item2") {
         item.setHidden(true);
     }
-    // 演示取消隐藏：重新显示之前隐藏的数据透视表项
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.getName() == "Item3") {
         item.setHidden(false);
     }
 }
-// 刷新并重新计算数据透视表以使更改生效
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh();
-// 保存工作簿 —— 隐藏项仍保留在底层数据中，
-// 但会从显示的数据透视表输出中排除
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx");
 ```
 

@@ -28,17 +28,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main()
 {
     Aspose::Cells::Startup();
-
-    // إنشاء مصنف جديد والحصول على ورقة العمل الأولى
+    // Create a new workbook and get the first worksheet
     Workbook workbook;
     Worksheet sheet = workbook.GetWorksheets().Get(0);
     Cells cells = sheet.GetCells();
-
-    // كتابة بيانات المصدر: المبيعات حسب الرياضة والربع
+    // Write the source data: sales per sport and quarter
     cells.Get(u"A1").PutValue(u"Sport");
     cells.Get(u"B1").PutValue(u"Quarter");
     cells.Get(u"C1").PutValue(u"Sales");
@@ -63,18 +60,14 @@ int main()
     cells.Get(u"A8").PutValue(u"Golf");
     cells.Get(u"B8").PutValue(u"Qtr3");
     cells.Get(u"C8").PutValue(6430);
-
-    // إضافة جدول محوري في الخلية E3 الوجهة، باستخدام A1:C8 كمصدر
+    // Add a pivot table at destination cell E3, sourced from A1:C8
     PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C8", 2, 4);
-
-    // تعيين حقول الجدول المحوري: الرياضة إلى الصفوف، والربع إلى الأعمدة، والمبيعات إلى البيانات
+    // Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Sport");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Quarter");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
-
-    // حفظ المصنف
+    // Save the workbook
     workbook.Save(u"pivotTable_test_out.xlsx");
-
     Aspose::Cells::Cleanup();
     return 0;
 }

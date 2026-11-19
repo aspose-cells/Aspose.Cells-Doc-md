@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for JavaScript via C++ 中将样式应用于数据透视表
-linktitle: 在 Aspose.Cells for JavaScript via C++ 中将样式应用于数据透视表
+linktitle: 应用数据透视表样式
 description: 了解如何在 Aspose.Cells for JavaScript via C++ 中将内置和自定义样式应用于数据透视表，涵盖旧版 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式以及 FormatAll 快捷方式。
 keywords: Aspose.Cells for JavaScript via C++ 数据透视表样式, PivotTableStyleType, AutoFormatType, FormatAll, 自定义样式, PivotTableStyleName, TableStyles
 type: docs
@@ -51,17 +51,17 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // 场景 1：应用旧版 XLS 预设自动格式
-            // 使用的 API：PivotTable.AutoFormatType
-            // 目标文件格式：.xls（旧版）
-            // 如需完整示例和数据文件，请访问 https://github.com/aspose-cells/Aspose.Cells-for-.NET
-            // 创建新工作簿
+            // Scenario 1: Apply a legacy XLS preset autoformat
+            // API in use: PivotTable.AutoFormatType
+            // Target file format: .xls (legacy)
+            // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+            // Create a new workbook
             const workbook = new Workbook();
-            // 获取第一个工作表
+            // Get the first worksheet
             const sheet = workbook.worksheets.get(0);
             const cells = sheet.cells;
-            // 使用标题行（Fruit、Year、Amount）填充源数据
-            // 并添加 9 行数据，涵盖 2020 年和 2021 年的 grape、blueberry、kiwi、cherry
+            // Populate the source data with header row (Fruit, Year, Amount)
+            // and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
             cells.get(0, 0).value = "Fruit";
             cells.get(0, 1).value = "Year";
             cells.get(0, 2).value = "Amount";
@@ -92,17 +92,17 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
             cells.get(9, 0).value = "grape";
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
-            // 在目标单元格 E3 处添加数据透视表，使用源范围 A1:C10
+            // Add a pivot table at destination cell E3, using source range A1:C10
             const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
-            // 分配字段：Fruit -> 行，Amount -> 数据
+            // Assign fields: Fruit -> Rows, Amount -> Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // 应用旧版 XLS 预设自动格式“Report5”
-            // 注意：此属性仅在保存为 .xls 时有效
-            // 保存为 .xlsx/.xlsm/.xlsb 时，Excel 会忽略 AutoFormatType
-            // 并使用 PivotTableStyleType / PivotTableStyleName 指定的样式
+            // Apply the legacy XLS preset autoformat "Report5"
+            // Note: This property is only meaningful when saving as .xls.
+            // When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+            // and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
             pivotTable.autoFormatType = AsposeCells.PivotTableAutoFormatType.Report5;
-            // 以旧版 .xls 格式保存工作簿
+            // Save the workbook in legacy .xls format
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData], { type: "application/vnd.ms-excel" });
             const downloadLink = document.getElementById('downloadLink');
@@ -147,18 +147,18 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // 场景 2：使用 PivotTableStyleType 应用现代 Excel 2007+ 命名的预设样式。
-            // 目标文件格式：.xlsx。PivotTableStyleType 枚举位于 Aspose.Cells 命名空间中
-            // （而非 Aspose.Cells.Pivot），因此无需额外添加 using 指令。
-            // GitHub 参考：https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+            // Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+            // Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+            // (not in Aspose.Cells.Pivot) -- that is why we do not need any extra using for it.
+            // GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // 标题行：水果 / 年份 / 金额
+            // Header row: Fruit / Year / Amount
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // 9 行水果 / 年份 / 金额数据
+            // 9 data rows of Fruit / Year / Amount
             cells.get("A2").value = "Grape";
             cells.get("B2").value = 2020;
             cells.get("C2").value = 100;
@@ -186,18 +186,19 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
-            // 在 E3 处添加数据透视图，源数据范围为 A1:C10
+            // Add a pivot table at E3, sourced from A1:C10
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // 分配数据透视字段：水果 -> 行区域，年份 -> 列区域，金额 -> 数据区域
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // 应用现代 Excel 2007+ 命名的预设数据透视图样式。
-            // 对于 .xlsx / .xlsm / .xlsb 文件，PivotTableStyleType 是正确的 API；Excel 会忽略这些格式中的 AutoFormatType。
-            // PivotTableStyleDark1 属于深色主题系列（PivotTableStyleDark1..PivotTableStyleDark28），同一枚举还提供
-            // 较新的 Excel 2017 浅色/深色主题（PivotTableStyleLight1..Light28 / Dark1..Dark28）。
+            // Apply a modern Excel 2007+ named preset pivot style.
+            // PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+            // is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+            // family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+            // newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
             pivotTable.pivotTableStyleType = AsposeCells.PivotTableStyleType.PivotTableStyleDark1;
-            // 另存为现代 .xlsx 格式——PivotTableStyleType 仅在此格式中有意义。
+            // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -359,13 +360,13 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // 场景 4：使用 FormatAll 将单个样式应用到数据透视表的所有单元格
-            // 使用的 API：PivotTable.FormatAll(Style)
-            // 目标格式：.xlsx
-            // GitHub 参考：参阅 Aspose.Cells-for-.NET 仓库——数据透视表样式示例
+            // Scenario 4: Apply a single Style to every pivot table cell using FormatAll
+            // API in use: PivotTable.FormatAll(Style)
+            // Target format: .xlsx
+            // GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // 填充源数据：标题行（第 1 行）+ 9 个数据行（第 2-10 行）
+            // Populate source data: header row (row 1) + 9 data rows (rows 2-10)
             const cells = worksheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
@@ -397,13 +398,13 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
-            // 添加数据透视表：源范围 A1:C10，目标单元格 E3
+            // Add pivot table: source range A1:C10, destination cell E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // 分配数据透视字段：Fruit -> 行区域，Year -> 列区域，Amount -> 数据区域
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // 创建一个将强制应用到数据透视表每个单元格的 Style
+            // Build a Style that will be forced onto every cell of the pivot table
             const style = workbook.createStyle();
             style.foregroundColor = AsposeCells.Color.Yellow;
             style.pattern = AsposeCells.BackgroundType.Solid;
@@ -417,10 +418,10 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
             style.borders.get(AsposeCells.BorderType.LeftBorder).color = AsposeCells.Color.Black;
             style.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
             style.borders.get(AsposeCells.BorderType.RightBorder).color = AsposeCells.Color.Black;
-            // 应用 FormatAll：将此单个样式强制应用到数据透视表的每个单元格，
-            // 覆盖之前设置的任何 PivotTableStyleType / PivotTableStyleName
+            // Apply FormatAll: forces this single style onto every cell of the pivot table,
+            // overriding any PivotTableStyleType / PivotTableStyleName previously set
             pivotTable.formatAll(style);
-            // 将工作簿保存为现代 .xlsx 格式
+            // Save the workbook in the modern .xlsx format
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

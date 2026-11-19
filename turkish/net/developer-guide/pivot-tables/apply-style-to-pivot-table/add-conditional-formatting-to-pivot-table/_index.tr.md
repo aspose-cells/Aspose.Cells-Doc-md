@@ -47,16 +47,16 @@ for (int i = 0; i < fruits.Length; i++)
     cells[i + 1, 1].PutValue(years[i]);
     cells[i + 1, 2].PutValue(amounts[i]);
 }
-// Üst sol köşesi E3'te bulunan pivot tablo
+// Pivot table with its top-left corner at E3
 PivotTable pivotTable = sheet.PivotTables.Add("=A1:C7", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.CalculateData();
-// Koşullu biçimi F4'te (satır 3, sütun 5) Veri kapsamıyla bağla
+// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 int index = pivotTable.ConditionalFormats.Add();
 PivotConditionalFormat format = pivotTable.ConditionalFormats[index];
 format.ApplyTo(3, 5, PivotConditionFormatScopeType.Data);
-// Kural - 200'den büyük miktarları vurgula
+// Rule - highlight amounts greater than 200
 int conditionIndex = format.FormatConditions.AddCondition(
     FormatConditionType.CellValue, OperatorType.GreaterThan, "200", null);
 Style style = workbook.CreateStyle();
@@ -71,6 +71,8 @@ workbook.Save("PivotConditionalFormatData.xlsx");
 `Field` kapsamı ile aynı kuralı satır‑alanı etiketi E4'te (satır 3, sütun 4) sabitlediğinizde, bölge F4:F6 olarak çözülür — aynı veri sütunu, ancak büyük‑toplam satırı olmadan — çünkü kapsam artık tüm değer alanı yerine `Fruit` alanını tanımlar. `Selection` kapsamı F4'te sabitlendiğinde sadece F4 çözülür.
 
 ## **Bölgeyi Manuel Olarak Tanımla**
+
+İkinci yöntem, kapsam seçiciyi atlayıp bölgeyi `PivotConditionalFormat` üzerinde açıkça adlandırır.
 
 ### **AddCellArea ile Çalışma Sayfası Dikdörtgeni**
 `AddCellArea(CellArea)` verilen dikdörtgeni kuralın hedefi olarak kaydeder. Koordinatlar sıfır‑tabanlı çalışma sayfası koordinatlarıdır ve bölge tam olarak sağlanan dikdörtgendir — veri sütununa genişleme ya da büyük‑toplam mantığı yoktur. İlgili hücreler mevcut özet düzeninin bilinen sabit bir dikdörtgeni olduğunda bunu kullanın.
@@ -99,11 +101,11 @@ PivotTable pivotTable = sheet.PivotTables.Add("=A1:C7", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.CalculateData();
-// F4:F6 dikdörtgenini hedefle (büyük toplam olmadan değer hücreleri)
+// Target the rectangle F4:F6 (the value cells without the grand total)
 int index = pivotTable.ConditionalFormats.Add();
 PivotConditionalFormat format = pivotTable.ConditionalFormats[index];
 format.AddCellArea(new CellArea { StartRow = 3, StartColumn = 5, EndRow = 5, EndColumn = 5 });
-// Kural - 150 ile 300 arasındaki tutarlar için açık sarı renkte italik
+// Rule - italic on light yellow for amounts between 150 and 300
 int conditionIndex = format.FormatConditions.AddCondition(
     FormatConditionType.CellValue, OperatorType.Between, "150", "300");
 Style style = workbook.CreateStyle();
@@ -141,13 +143,13 @@ PivotTable pivotTable = sheet.PivotTables.Add("=A1:C7", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.CalculateData();
-// Kuralı, Amount veri alanına anlamsal bir bölge olarak ekle
+// Attach the rule to the Amount data field as a semantic region
 int index = pivotTable.ConditionalFormats.Add();
 PivotConditionalFormat format = pivotTable.ConditionalFormats[index];
 PivotArea area = new PivotArea(pivotTable);
 area.SelectField(PivotFieldType.Data, "Amount");
 format.PivotAreas.AddPivotArea(area);
-// Kural - 150'nin altındaki tutarlar için gri metin
+// Rule - grey text for amounts below 150
 int conditionIndex = format.FormatConditions.AddCondition(
     FormatConditionType.CellValue, OperatorType.LessThan, "150", null);
 Style style = workbook.CreateStyle();
@@ -177,10 +179,10 @@ for (int i = 0; i < pivotTable.ConditionalFormats.Count; i++)
     foreach (CellArea area in format.GetCellAreas())
         Console.WriteLine($"    rows {area.StartRow + 1}-{area.EndRow + 1}, columns {area.StartColumn + 1}-{area.EndColumn + 1}");
 }
-// Bu çıktıyı verir:
+// This prints:
 // Conditional formats: 1
 // Format 0: CellValue GreaterThan formula1==200
-//     rows 4-7, columns 6-6        (F4:F7, çözülmüş veri bölgesi)
+//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **İlgili Makaleler**

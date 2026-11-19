@@ -122,21 +122,21 @@ Las fórmulas de matriz CSE son la forma clásica en Excel de evaluar una expres
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Cargar el libro de origen con Opciones de Carga de xlsx
+    // Load the source workbook with xlsx LoadOptions
     std::string srcFile = "source.xlsx";
     Workbook workbook(U16String(srcFile.c_str()), LoadOptions(LoadFormat::Xlsx));
-    // Acceder a la primera hoja de cálculo y a su colección de Celdas
+    // Access the first worksheet and its Cells collection
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // Establecer la fórmula de matriz CSE clásica en la celda A6.
-    // La fórmula =TRANSPOSE(A1:D5) rota el rango fuente de 5 filas x 4 columnas
-    // en una matriz de 4 filas x 5 columnas. El segundo argumento (4) es el número de filas
-    // y el tercer argumento (5) es el número de columnas de la matriz resultante.
-    // Aspose.Cells escribe el marcador de fórmula de matriz CSE para que Excel la evalúe como
-    // una única fórmula de matriz de varias celdas, compatible con versiones anteriores de Excel
-    // (2019, 2016, 2013, etc.) que no admiten el desbordamiento dinámico de matrices.
+    // Set the classic CSE array formula on cell A6.
+    // The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+    // into a 4-row x 5-column array. The second argument (4) is the number of rows
+    // and the third argument (5) is the number of columns of the resulting array.
+    // Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+    // a single multi-cell array formula, compatible with older Excel versions
+    // (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
     cells.Get(u"A6").SetArrayFormula(u"=TRANSPOSE(A1:D5)", 4, 5);
-    // Guardar el libro para que se conserve el marcador de la fórmula de matriz
+    // Save the workbook so the array-formula marker is persisted
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

@@ -20,15 +20,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```python
 import aspose.cells as ac
-# サンプルワークブックを読み込む
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# 2番目のワークシートとそのピボットテーブルにアクセスする
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# 最初の行フィールドを自動的にグループ化します。
-# フィールドには日付が含まれているため、月ごとにグループ化されます。
+# Group the first row field automatically.
+# The field contains dates, so it is grouped by months.
 field = pt.row_fields[0]
 field.group()
-# ピボットテーブルのデータを計算して出力ファイルを保存する
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputAutoGroupPivotField.xlsx")
 ```
@@ -45,17 +45,17 @@ import aspose.cells as ac
 from datetime import datetime
 from aspose.cells.pivot import PivotGroupByType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# サンプルワークブックを読み込む
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# 2 番目のワークシートとそのピボットテーブルにアクセスする
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# 最初の日付フィールドの行フィールドを月と四半期でグループ化する
+# Group the first row field (a date field) by months and quarters
 options = PivotFieldGroupOptions()
 options.start_date = datetime(2008, 1, 1)
 options.end_date = datetime(2008, 9, 5)
 options.group_types = [PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS]
 pt.row_fields[0].group(options)
-# ピボットテーブルのデータを計算して出力ファイルを保存する
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 ```
@@ -69,21 +69,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# サンプルワークブックを読み込む
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# 2番目のワークシートとそのピボットテーブルにアクセスする
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# FieldTwoはデータフィールドです：まず行エリアに移動します、
-# 行/列フィールドのみグループ化できるためです
+# FieldTwo is a data field: move it to the row area first,
+# because only row/column fields can be grouped
 pt.add_field_to_area(PivotFieldType.ROW, "FieldTwo")
 pt.calculate_data()
-# 数値フィールドを0-1、2-3、4-5の範囲にグループ化する
+# Group the numeric field into the ranges 0-1, 2-3, 4-5
 options = PivotFieldGroupOptions()
 options.start_number = 0.0
 options.end_number = 5.0
 options.interval = 2.0
 pt.row_fields[1].group(options)
-# ピボットテーブルのデータを計算し、出力ファイルを保存する
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputNumberGroupPivotField.xlsx")
 ```

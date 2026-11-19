@@ -31,10 +31,10 @@ Aspose.Cells は、ピボットテーブル用の 2 つの並行スタイル API
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// 最初のワークシートを取得する
+// Get the first worksheet
 let sheet = workbook.getWorksheets().get(0);
-// ソースデータにヘッダー行（Fruit、Year、Amount）を入力する
-// および2020年と2021年にわたるgrape、blueberry、kiwi、cherryの9つのデータ行
+// Populate the source data with header row (Fruit, Year, Amount)
+// and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.getCells().get(0, 0).putValue("Fruit");
 sheet.getCells().get(0, 1).putValue("Year");
 sheet.getCells().get(0, 2).putValue("Amount");
@@ -65,17 +65,17 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// ソース範囲A1:C10を使用して、宛先セルE3に「Pivot1」という名前のピボットテーブルを追加する
+// Add a pivot table at destination cell E3, using source range A1:C10
 let pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// フィールドを割り当てる：Fruit → 行、Amount → データ
+// Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// レガシーXLSプリセット自動フォーマット「Report5」を適用する
-// 注：このプロパティは.xlsとして保存する場合にのみ有効です。
-// .xlsx/.xlsm/.xlsbとして保存する場合、ExcelはAutoFormatTypeを無視します
-// およびPivotTableStyleType / PivotTableStyleNameで指定されたものを使用します。
+// Apply the legacy XLS preset autoformat "Report5"
+// Note: This property is only meaningful when saving as .xls.
+// When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+// and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivotTable.setAutoFormatType(AsposeCells.PivotTableAutoFormatType.REPORT_5);
-// ワークブックをレガシー.xls形式で保存する
+// Save the workbook in legacy .xls format
 workbook.save("output.xls");
 ```
 
@@ -157,7 +157,7 @@ workbook.save("output.xlsx");
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// ソースデータを設定：ヘッダー行 + 9データ行 (A1:C10)
+// Populate source data: header row + 9 data rows (A1:C10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -188,15 +188,15 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// A1:C10をソースとするピボットテーブルをE3に配置、名前をとする
+// Add pivot table sourced from A1:C10, anchored at E3
 let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// ステップ1：新しいカスタムピボットテーブルスタイルを登録し、インデックスを取得する
+// Step 1: register a new custom pivot table style and capture its index
 let styleIndex = workbook.getWorksheets().getTableStyles().addPivotTableStyle("CustomPivotStyle");
 let tableStyle = workbook.getWorksheets().getTableStyles().get(styleIndex);
-// ステップ2：WholeTable要素を追加し、4辺すべてに細い黒枠線を適用する
+// Step 2: add a WholeTable element and apply thin black borders on all four sides
 let wholeTableElementIndex = tableStyle.getTableStyleElements().add(AsposeCells.TableStyleElementType.WHOLE_TABLE);
 let wholeTableElement = tableStyle.getTableStyleElements().get(wholeTableElementIndex);
 let wholeTableStyle = workbook.createStyle();
@@ -213,14 +213,14 @@ let rightBorder = wholeTableStyle.getBorders().getByBorderType(AsposeCells.Borde
 rightBorder.setLineStyle(AsposeCells.CellBorderType.THIN);
 rightBorder.setColor(AsposeCells.Color.getBlack());
 wholeTableElement.setElementStyle(wholeTableStyle);
-// ステップ3：GrandTotalRow要素を追加し、太字の赤色フォントを適用する
+// Step 3: add a GrandTotalRow element and apply bold red font
 let grandTotalElementIndex = tableStyle.getTableStyleElements().add(AsposeCells.TableStyleElementType.GRAND_TOTAL_ROW);
 let grandTotalElement = tableStyle.getTableStyleElements().get(grandTotalElementIndex);
 let grandTotalStyle = workbook.createStyle();
 grandTotalStyle.getFont().setBold(true);
 grandTotalStyle.getFont().setColor(AsposeCells.Color.getRed());
 grandTotalElement.setElementStyle(grandTotalStyle);
-// ステップ4：名前でカスタムスタイルを適用する（PivotTableStyleTypeではない、これは組み込みプリセット用）
+// Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
@@ -237,7 +237,7 @@ workbook.save("output.xlsx");
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// ソースデータを入力: ヘッダー行 (1行目) + 9データ行 (2～10行目)
+// Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -268,13 +268,13 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// ピボットテーブルを追加: ソース範囲 A1:C10、配置先セル E3、名前
+// Add pivot table: source range A1:C10, destination cell E3
 let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// ピボットフィールドを割り当て: Fruit -> 行エリア、Year -> 列エリア、Amount -> データエリア
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// ピボットテーブルの全セルに強制適用されるStyleを構築
+// Build a Style that will be forced onto every cell of the pivot table
 let style = workbook.createStyle();
 style.setForegroundColor(AsposeCells.Color.getYellow());
 style.setPattern(AsposeCells.BackgroundType.SOLID);
@@ -288,10 +288,10 @@ style.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineSt
 style.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setColor(AsposeCells.Color.getBlack());
 style.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 style.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setColor(AsposeCells.Color.getBlack());
-// formatAllを適用: この単一のスタイルをピボットテーブルの全セルに強制適用し、
-// 以前に設定された PivotTableStyleType / PivotTableStyleName をすべて上書きします
+// Apply formatAll: forces this single style onto every cell of the pivot table,
+// overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivotTable.formatAll(style);
-// ワークブックを最新の .xlsx 形式で保存
+// Save the workbook in the modern .xlsx format
 workbook.save("output.xlsx");
 ```
 

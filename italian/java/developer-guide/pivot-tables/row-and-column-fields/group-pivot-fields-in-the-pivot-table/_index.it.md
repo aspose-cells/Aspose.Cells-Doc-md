@@ -55,21 +55,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// Carica il workbook di esempio
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Accedi al secondo foglio di lavoro e alla sua tabella pivot
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo è un campo dati: spostalo prima nell'area delle righe,
-// perché solo i campi riga/colonna possono essere raggruppati
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(PivotFieldType.ROW, "FieldTwo");
 pt.calculateData();
-// Raggruppa il campo numerico negli intervalli 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Calcola i dati della tabella pivot e salva il file di output
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

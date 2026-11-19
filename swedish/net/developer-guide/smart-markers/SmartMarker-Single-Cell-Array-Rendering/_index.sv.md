@@ -1,87 +1,102 @@
 ---
-title: SmartMarker Single Cell Array Rendering | Aspose.Cells .NET
-linktitle: SmartMarker Single Cell Array Rendering | Aspose.Cells .NET
-description: Lär dig hur du renderar matriser i en enda cell med attributen ArrayAsSingle och ExtraDelimiter i Smart Markers med Aspose.Cells for .NET.
-keywords: Aspose.Cells, .NET-bibliotek, kalkylblad, Smart Markers, ArrayAsSingle, ExtraDelimiter, single cell array, matrisrendering, mall
+title: Rendering av SmartMarker-array till en enda cell | Aspose.Cells for .Net
+description: Lär dig hur du renderar arraydata till en enda cell med hjälp av Smart Marker-attributen arrayassingle och arraydelimiter i Aspose.Cells for .Net.
+linktitle: SmartMarker-array till en enda cell | Aspose.Cells
+url: /sv/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+keywords: Aspose.Cells, .NET-bibliotek, kalkylblad, Smart Markers, arrayassingle, arraydelimiter, array i en enda cell, arrayrendering, mall
 type: docs
 weight: 195
-url: /sv/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells stöder rendering av matrisdata till en enda cell via Smart Markers. Genom att använda attributet `ArrayAsSingle` tillsammans med attributet `ExtraDelimiter` kan utvecklare styra hur matriselement separeras inom en enda cell, vilket ger flexibel formettering för rapporter och mallar.
+Aspose.Cells kan med hjälp av Smart Markers rendera en arraydatakälla till en enda cell. Attributet `arrayassingle` inaktiverar standardspridningen element för element, och attributet `arraydelimiter` väljer den avgränsare som placeras mellan de sammanfogade elementen – kommatecken som standard, eller valfritt tecken eller en flerteckenssträng i citattecken som du anger.
 {{% /alert %}}
 
-## **Introduction**
-Smart Markers i Aspose.Cells är en kraftfull, mallbaserad funktion som låter dig dynamiskt fylla i kalkylbladsdata med hjälp av marköruttryck som `&=DataSource.Field`. Markören placeras i en designarbetsbok, och när mallen bearbetas av `WorkbookDesigner` ersätts markörerna med värden från den angivna datakällan.
-Som standard, när en Smart Marker refererar till en matrisegenskap (till exempel `&=DataSource.Numbers`), expanderar motorn matrisen och placerar varje element i en separat intilliggande cell — antingen horisontellt över en rad eller vertikalt ner i en kolumn. Även om detta beteende är bekvämt i många scenarier finns det situationer där du skulle föredra att rendera hela matrisen i en enda cell, med elementen sammanfogade och separerade med en avgränsare efter eget val.
-Attributen `ArrayAsSingle` och `ExtraDelimiter`, som används tillsammans inom en Smart Marker-tagg, uppfyller just detta krav. De låter dig hålla rapportlayouter kompakta och förutsägbara samtidigt som du arbetar med matriser som datakällor.
+## **Introduktion**
 
-## **Why This Feature Is Needed**
+Smart Markers i Aspose.Cells är en mallbaserad funktion som dynamiskt fyller kalkylblad med data via markörexpressioner som `&=DataSource.Field`. Markören placeras i en arbetsbok i designverktyget, och när mallen behandlas av `WorkbookDesigner` ersätts markörerna med värden från den angivna datakällan.
+Som standard expanderar motorn arrayen när en Smart Marker refererar till en arrayegenskap (t.ex. `&=Product.Tags` kopplad till en `string[]` med fyra värden), och den placerar varje element i en egen cell, så att värdena sprids lodrätt nedåt i kolumnen under markören. Det här beteendet är bekvämt i många scenarier, men det finns situationer där du hellre vill rendera hela arrayen till en enda cell, med elementen sammanfogade och åtskilda av en avgränsare som du väljer.
+Attributen `arrayassingle` och `arraydelimiter`, som skrivs inuti en Smart Markers parenteser i formatet `name:value`, tillgodoser direkt det här behovet. De gör att du kan hålla rapportlayouten kompakt och förutsägbar samtidigt som du arbetar direkt med arraydatakällor.
 
-### **Default Array Spreading Behavior**
-När en Smart Marker refererar till en matrisegenskap expanderar Aspose.Cells matrisen över flera celler som standard. Till exempel kommer en markör som `&=Product.Tags` mot en `string[]` som innehåller fyra värden att placera varje värde i sin egen cell, vilket skjuter annat mallinnehåll utåt och potentiellt bryter noggrant utformade rapportlayouter.
+## **Varför den här funktionen behövs**
 
-### **Use Case Limitations**
-Det finns många praktiska scenarier där standardspridningsbeteendet är oönskat:
-- **Sammanfattningsrapporter** som behöver en kompakt layout med en rad per post.
-- **Tagg-, etikett- eller nyckelordslistor** som behöver visas som kommaseparerade eller pipe-separerade värden inom en enda cell.
-- **Filterchips eller statusindikatorer** som grupperar flera värden på ett ställe för läsbarhet.
-- **Nedströms pipelines** (CSV-export, PDF-rendering, dokumentkoppling) som förväntar sig ett enda konsoliderat värde per cell snarare än ett expanderat intervall.
-- **Plattformskompatibilitet**, där vissa konsumenter inte kan tolerera matriser som sprider sig över flera celler.
+### **Standardspridning av arrayer**
 
-### **The Gap It Fills**
-Utan en inbyggd mekanism skulle utvecklare tvingas förbearbeta data i C# eller VB.NET — sammanfoga matriser till avgränsade strängar innan de binder dem till arbetsboksdesignern. Detta duplicerar logik, komplicerar datamodeller och ökar risken för fel. Attributen `ArrayAsSingle` och `ExtraDelimiter` eliminerar denna lösning genom att hantera formateringen deklarativt inuti Smart Marker-taggen.
+När en Smart Marker refererar till en arrayegenskap expanderar Aspose.Cells som standard arrayen över flera celler. En markör som `&=Product.Tags` kopplad till en `string[]` med fyra värden placerar till exempel varje värde i en egen cell under markören, vilket förskjuter annat mallinnehåll utåt och potentiellt bryter noggrant utformade rapportlayouter.
 
-## **Feature Benefits**
-Att använda attributen `ArrayAsSingle` och `ExtraDelimiter` i dina Smart Markers ger flera fördelar:
-- **Inneslutning i en cell**: Alla matriselement renderas i exakt en cell, vilket håller layouter kompakta och förutsägbara.
-- **Anpassad avgränsarkontroll**: Ange valfri separatorsträng — komma, semikolon, bindestreck, pipe, nyrad eller annan anpassad text.
-- **Malldriven formatering**: Ingen ytterligare kod krävs för att förbearbeta data; formateringsregler finns inuti Smart Marker-taggen.
-- **Renare rapporter**: Matrisdata skjuter inte längre ut intilliggande mallinnehåll till andra rader eller kolumner.
-- **Mångsidiga datatyper**: Fungerar med strängar, tal, datum och alla andra datatyper som kan sammanfogas med en avgränsare.
-- **Bakåtkompatibilitet**: När attributen utelämnas bevaras det ursprungliga spridningsbeteendet, så befintliga mallar fortsätter att fungera oförändrat.
+### **Begränsningar för användningsfall**
 
-## **How to Use This Feature**
+Det finns många praktiska scenarier där standardspridningen är olämplig:
+- **Sammanfattande rapporter** som behöver en kompakt layout med en rad per post.
+- **Tagg-, etikett- eller nyckelordslistor** som behöver visas som värden med kommatecken eller lodstreck som avgränsare i en enda cell.
+- **Filterchips eller statusindikatorer** som grupperar flera värden på samma plats för att förbättra läsbarheten.
+- **Nedströmsflöden** (CSV-export, PDF-rendering, sammanslagning av utskrifter) som förväntar sig ett enda samlat värde per cell i stället för ett expanderat intervall.
+- **Kompatibilitet mellan plattformar**, där vissa konsumenter inte tolererar arrayer som sprids över flera celler.
 
-### **Smart Marker Syntax**
-Attributen `ArrayAsSingle` och `ExtraDelimiter` skickas som nyckel-värde-par inom parenteserna i en vanlig Smart Marker. Den allmänna syntaxen är:
+### **Luckan som den fyller**
+
+Utan en inbyggd mekanism skulle utvecklare tvingas att förbehandla data i C# eller VB.NET – sammanfoga arrayer till avgränsade strängar innan de bindes till `WorkbookDesigner`. Detta duplicerar logik, komplicerar datamodeller och ökar risken för fel. Attributen `arrayassingle` och `arraydelimiter` eliminerar denna lösning genom att hantera formateringen deklarativt inuti själva Smart Marker-taggen.
+
+## **Fördelar med funktionen**
+
+Attributen `arrayassingle` och `arraydelimiter` i dina Smart Markers ger flera fördelar:
+- **Inneslutning i en enda cell**: Alla arrayelement renderas till exakt en cell, vilket håller layouterna kompakta och förutsägbara.
+- **Kontroll över avgränsare**: Ange den avgränsare du vill använda – kommatecken som standard, ett semikolon, en bindestreck, ett lodstreck eller en flerteckenssträng i citattecken som `" | "`.
+- **Mallstyrd formatering**: Ingen ytterligare kod krävs för att förbehandla data; formateringsreglerna ligger inuti Smart Marker-taggen.
+- **Renare rapporter**: Arraydata förskjuter inte längre intilliggande mallinnehåll till andra rader eller kolumner.
+- **Mångsidiga datatyper**: Fungerar med strängarrayer och numeriska arrayer från objektdatakällor.
+- **Bakåtkompatibilitet**: När attributen utelämnas bevaras det ursprungliga spridningsbeteendet, så att befintliga mallar fortsätter att fungera oförändrade.
+
+## **Så använder du funktionen**
+
+### **Smart Marker-syntax**
+
+Attributen `arrayassingle` och `arraydelimiter` använder Aspose.Cells syntax för attribut i formatet `name:value`, inuti parenteserna i en vanlig Smart Marker. Den generella syntaxen är:
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayProperty(arrayassingle:true,arraydelimiter:;)
 ```
 
 Markören består av följande delar:
-- `&=DataSource.ArrayProperty` — standard-Smart Marker som refererar till matrisegenskapen på den bundna datakällan.
-- `arrayasSingle=true` — instruerar motorn att rendera hela matrisen i en enda cell. Endast värdet `true` utlöser encellsbeteendet.
-- `extraDelimiter=", "` — definierar avgränsaren som placeras mellan matriselement. Värdet är en strängliteral; det kan vara tomt, ett enskilt tecken eller en flerteckensträng.
+- `&=DataSource.ArrayProperty` – standard-Smart Marker som refererar till arrayegenskapen i den bundna datakällan.
+- `arrayassingle:true` – instruerar motorn att rendera hela arrayen till en enda cell i stället för att sprida elementen.
+- `arraydelimiter:;` – valfritt; definierar avgränsaren som placeras mellan arrayelementen. Om det utelämnas används ett kommatecken.
 
-{{% alert color="primary" %}}
-Attributet `extraDelimiter` accepterar alla strängliterals, inklusive flerteckenavgränsare, anpassad text eller escape-sekvenser som `\n` för nyradsseparerad utdata. Om matrisen är tom lämnas den resulterande cellen tom.
+{{% alert color="warning" %}}
+Skriv attribut i formatet `name:value` (ett kolon, inte ett likhetstecken) och skilj åt flera attribut med ett kommatecken **utan mellanslag**. Ett mellanslag efter kommatecknet förskjuter det parsade värdet med ett tecken – `(arrayassingle:true, arraydelimiter:;)` skulle sammanfoga med den felaktiga avgränsaren `:;` i stället för `;`.
 {{% /alert %}}
 
-### **Step-by-Step Workflow**
-Följande arbetsflöde beskriver hur man renderar en matris till en enda cell med hjälp av Smart Markers.
-1. **Förbered datakällan**: Skapa en klass (eller datastruktur) som exponerar en egenskap som returnerar en matris. Egenskapen kan returnera `string[]`, `int[]` eller annan matristyp som stöds.
-2. **Skapa en designarbetsbok**: Skapa en ny `Workbook`, lägg till en rubrikrad och placera en Smart Marker-cell som refererar till matrisegenskapen med attributen `arrayasSingle` och `extraDelimiter`.
-3. **Instansiera WorkbookDesigner**: Skapa ett `WorkbookDesigner`-objekt, koppla designarbetsboken till det och bind din datakälla med metoden `SetDataSource`.
-4. **Bearbeta markörerna**: Anropa metoden `WorkbookDesigner.Process()` för att expandera Smart Markers och fylla arbetsboken med verklig data.
-5. **Spara resultatet**: Spara den resulterande arbetsboken till disk i XLSX eller annat filformat som stöds.
+### **Avgränsarformer**
 
-### **Code Example 1 — Basic String Array Rendering**
+- Ett enda tecken skrivs direkt efter kolonet: `arraydelimiter:;`, `arraydelimiter:-`, `arraydelimiter:*`.
+- En avgränsare med flera tecken skrivs i dubbla citattecken: `arraydelimiter:" | "`, `arraydelimiter:" - "`.
+
+### **Arbetsflöde steg för steg**
+
+Det följande arbetsflödet beskriver hur du renderar en array till en enda cell med hjälp av Smart Markers.
+1. **Förbered datakällan**: Skapa en klass som exponerar en egenskap som returnerar en array, till exempel `string[]` eller `int[]`, och bind en `List<T>` av den klassen så att motorn läser en post per rad.
+2. **Skapa en arbetsbok i designverktyget**: Skapa en ny `Workbook`, lägg till en rubrikrad och placera en cell med en Smart Marker som refererar till arrayegenskapen med attributet `arrayassingle` (och `arraydelimiter` när en anpassad avgränsare behövs).
+3. **Instantiera `WorkbookDesigner`**: Skapa en `WorkbookDesigner` runt arbetsboken och bind datakällan med `SetDataSource`.
+4. **Bearbeta markörerna**: Anropa metoden `WorkbookDesigner.Process()` för att expandera Smart Markers och fylla arbetsboken med verkliga data.
+5. **Spara resultatet**: Spara den resulterande arbetsboken till disk i XLSX eller något annat filformat som stöds.
+
+### **Kodexempel 1 – grundläggande rendering av strängarray**
 
 ```csharp
 using System;
+using System.Collections.Generic;
 using Aspose.Cells;
+
 class Program
 {
-    public class Product
+    class Product
     {
         public string[] Tags { get; set; }
     }
-    public static void Main()
+
+    static void Main()
     {
         Product product = new Product
         {
@@ -90,89 +105,131 @@ class Program
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.Worksheets[0];
         worksheet.Cells["A1"].PutValue("Tags");
-        worksheet.Cells["A2"].PutValue("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")");
-        WorkbookDesigner designer = new WorkbookDesigner();
-        designer.Workbook = workbook;
-        designer.SetDataSource("Product", product);
+        // No spaces inside the parentheses: attributes are name:value pairs
+        worksheet.Cells["A2"].PutValue("&=Product.Tags(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Product", new List<Product> { product });
         designer.Process();
-        workbook.Save("output_arraySingle.xlsx");
+        Console.WriteLine(worksheet.Cells["A2"].StringValue);
+        workbook.Save("output-array-single.xlsx");
     }
 }
 ```
 
-### **Code Example 2 — Numeric Array with Custom Delimiter**
+Exemplet skriver ut det sammanfogade värdet för hela arrayen. De fyra taggarna hamnar i en cell, där standardavgränsaren är ett kommatecken:
 
-```csharp
-public class Student
-{
-    public int[] Scores { get; set; }
-}
-public class Program
-{
-    public static void Main()
-    {
-        var student = new Student
-        {
-            Scores = new int[] { 95, 88, 76, 100, 67 }
-        };
-        var workbook = new Workbook();
-        var worksheet = workbook.Worksheets[0];
-        worksheet.Cells["A1"].PutValue("Scores");
-        worksheet.Cells["A2"].PutValue(string.Join(" - ", student.Scores));
-        workbook.Save("output_numericArray.xlsx");
-    }
-}
+```
+C#,Aspose,SmartMarker,Excel
 ```
 
-### **Code Example 3 — Comparing Default vs. ArrayAsSingle Behavior**
+### **Kodexempel 2 – numerisk array med anpassad avgränsare**
 
 ```csharp
 using System;
+using System.Collections.Generic;
 using Aspose.Cells;
-public class Program
+
+class Program
 {
-    public static void Main()
+    class Student
     {
-        var order = new Order
-        {
-            Items = new string[] { "Apple", "Banana", "Cherry", "Date" }
-        };
-        var workbook = new Workbook();
-        var sheet = workbook.Worksheets[0];
-        var cells = sheet.Cells;
-        // Section 1: Default Smart Marker - values spread horizontally across cells
-        cells["A1"].PutValue("Default Spreading Behavior:");
-        cells["A2"].PutValue("&=Order.Items");
-        // Section 2: New single-cell rendering using arrayasSingle and extraDelimiter
-        cells["A4"].PutValue("Single Cell Rendering (arrayasSingle=true):");
-        cells["A5"].PutValue("&=Order.Items(arrayasSingle=true, extraDelimiter=\"; \")");
-        // Bind the data source and process Smart Markers
-        var designer = new WorkbookDesigner(workbook);
-        designer.SetDataSource("Order", order);
-        designer.Process();
-        // Save the resulting workbook
-        workbook.Save("output_comparison.xlsx");
+        public int[] Scores { get; set; }
     }
-}
-public class Order
-{
-    public string[] Items { get; set; }
+
+    static void Main()
+    {
+        Student student = new Student
+        {
+            Scores = new int[] { 95, 88, 76, 100, 67 }
+        };
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+        worksheet.Cells["A1"].PutValue("Scores");
+        // arraydelimiter:- joins the numbers with a hyphen
+        worksheet.Cells["A2"].PutValue("&=Student.Scores(arrayassingle:true,arraydelimiter:-)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Student", new List<Student> { student });
+        designer.Process();
+        Console.WriteLine(worksheet.Cells["A2"].StringValue);
+        workbook.Save("output-array-numeric.xlsx");
+    }
 }
 ```
 
-### **Notes & Best Practices**
-Tänk på följande punkter när du arbetar med attributen `ArrayAsSingle` och `ExtraDelimiter`:
-- Värdet på `extraDelimiter` behandlas som en strängliteral; escapea eventuella specialtecken som din mallprocessor kan tolka.
-- Attributet `arrayasSingle` accepterar ett boolskt värde (`true` / `false`). Endast `true` utlöser encellsbeteendet; alla andra värden faller tillbaka till standardspridningsbeteendet.
-- Om matrisen är tom eller null lämnas cellen tom (eller innehåller en tom sträng beroende på datatyp).
-- Funktionen fungerar med objektdatakällor samt `DataSet`- och `DataTable`-källor där en kolumn kan delas upp i matriser.
-- För nyradsseparerad utdata kan du använda `\n` eller `Environment.NewLine` som avgränsarvärde.
+Numeriska arrayer sammanfogas på samma sätt som strängarrayer – varje element behåller sin rena numeriska text:
 
-## Related Articles
+```
+95-88-76-100-67
+```
+
+### **Kodexempel 3 – jämförelse av standardspridning och rendering i en enda cell**
+
+```csharp
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+class Program
+{
+    class Order
+    {
+        public string[] Items { get; set; }
+    }
+
+    static void Main()
+    {
+        Order order = new Order
+        {
+            Items = new string[] { "Apple", "Banana", "Cherry", "Date" }
+        };
+        Workbook workbook = new Workbook();
+        Worksheet sheet = workbook.Worksheets[0];
+        Cells cells = sheet.Cells;
+        // Column B: default marker — values spread vertically down the column
+        cells["B1"].PutValue("Default");
+        cells["B2"].PutValue("&=Order.Items");
+        // Column C: single-cell rendering — the whole array joins into one cell
+        cells["C1"].PutValue("Single cell");
+        cells["C2"].PutValue("&=Order.Items(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Order", new List<Order> { order });
+        designer.Process();
+        for (int row = 1; row <= 5; row++)
+        {
+            string b = cells[row, 1].StringValue;
+            string c = cells[row, 2].StringValue;
+            if (!string.IsNullOrEmpty(b) || !string.IsNullOrEmpty(c))
+                Console.WriteLine($"B{row + 1}=[{b}]  C{row + 1}=[{c}]");
+        }
+        workbook.Save("output-array-comparison.xlsx");
+    }
+}
+```
+
+Den vanliga markören fyller en cell per element nedåt i kolumn B, medan `arrayassingle`-markören sammanför samma array till en enda cell i kolumn C:
+
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
+```
+
+### **Anteckningar och bästa praxis**
+
+Beakta följande punkter när du arbetar med attributen `arrayassingle` och `arraydelimiter`:
+- Attributvärden har formatet `name:value`. En form med likhetstecken, så som `arrayassingle=true`, känns inte igen och återgår tyst till det vanliga spridningsbeteendet.
+- Separera attribut med ett kommatecken och inga mellanslag; ett mellanslag efter kommatecknet förskjuter avgränsarvärdet med ett tecken (se varningen ovan).
+- `arraydelimiter`-värdet kan vara ett enda tecken som skrivs direkt efter kolonet eller en sträng med flera tecken inom dubbla citattecken.
+- När `arraydelimiter` utelämnas sammanfogas elementen med ett kommatecken.
+- Datakällan måste låta motorn iterera över poster: bind en `List<T>` (eller en annan samling) vars elementtyp exponerar arrayegenskapen. Om ett enda objekt binds förblir markörerna i brödtexten olösta.
+- Samma attribut fungerar för strängarrayer och numeriska arrayer; varje element renderas med sin rena värdetext.
+
+## **Relaterade artiklar**
 - [Lägg till filterfält i en pivottabell i Aspose.Cells for .NET](/cells/sv/net/add-page-field-in-pivot-table/)
 - [Tillämpa stilar på pivottabeller i Aspose.Cells for .NET](/cells/sv/net/apply-style-to-pivot-table/)
-- [Ändra sidfältslayout i pivottabell](/cells/sv/net/change-page-field-layout/)
-- [Konvertera sparkline till bild och HTML i Aspose.Cells for .NET](/cells/sv/net/convert-sparkline-to-image-and-html/)
+- [Ändra layouten för sidfältet i en pivottabell](/cells/sv/net/change-page-field-layout/)
+- [Konvertera Sparkline till bild och HTML i Aspose.Cells for .NET](/cells/sv/net/convert-sparkline-to-image-and-html/)
 - [Konvertera Excel till OFD-format](/cells/sv/net/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="csharp" >}}

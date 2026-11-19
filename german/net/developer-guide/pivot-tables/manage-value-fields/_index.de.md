@@ -1,6 +1,6 @@
 ---
 title: Wertfelder in Pivot-Tabellen mit Aspose.Cells for .NET verwalten
-linktitle: Wertfelder in Pivot-Tabellen mit Aspose.Cells for .NET verwalten
+linktitle: Wertfelder
 description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET Basisfelder zum Datenbereich einer Pivot-Tabelle hinzufügen, die Zusammenfassungsfunktion über PivotField.Function ändern und das Wertfeld auf die Zeilen- oder Spaltenachse verschieben.
 keywords: Aspose.Cells, .NET, Pivot-Tabelle, Wertfeld, PivotField, PivotField.Function, Datenfeld, PivotTable.ValuesField, Summe, Mittelwert
 type: docs

@@ -49,24 +49,24 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Carica la cartella di lavoro di esempio
+    // Load the sample workbook
     Workbook wb(u"sampleGroupPivotFieldsInPivotTable.xlsx");
-    // Accedi al secondo foglio di lavoro e alla sua tabella pivot
+    // Access the second worksheet and its pivot table
     Worksheet ws = wb.GetWorksheets().Get(1);
     PivotTable pt = ws.GetPivotTables().Get(0);
-    // Raggruppa il primo campo riga (un campo data) per mesi e trimestri
+    // Group the first row field (a date field) by months and quarters
     PivotFieldGroupOptions options;
     Date startDate{2008, 1, 1, 0, 0, 0, 0};
     Date endDate{2008, 9, 5, 0, 0, 0, 0};
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
-    // Imposta i tipi di raggruppamento: Mesi e Trimestri
+    // Set group types: Months and Quarters
     Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
-    // Applica il raggruppamento al primo campo riga
+    // Apply grouping to the first row field
     PivotField rowField = pt.GetRowFields().Get(0);
     rowField.Group(options);
-    // Calcola i dati della tabella pivot e salva il file di output
+    // Calculate the pivot table data and save the output file
     pt.CalculateData();
     wb.Save(u"outputGroupPivotFieldsInPivotTable.xlsx");
     Aspose::Cells::Cleanup();

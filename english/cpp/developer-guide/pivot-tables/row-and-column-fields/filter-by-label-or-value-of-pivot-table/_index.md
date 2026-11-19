@@ -22,7 +22,7 @@ The following filtering strategies are covered in this article:
 3. **Value Filter** — filters items based on the aggregated values of a data field.
 4. **Top 10 Filter** — shows only the top or bottom N items ranked by a value field.
 5. **Hide / Unhide Pivot Items** — manually controls the visibility of each individual item in a field.
-Each approach uses a different method on the `PivotField` class or a property on the `PivotItem` class. After applying any filter, you must call `RefreshData()` and `CalculateData()` on the pivot table so that the cached data and calculated values reflect the new filter state.
+Each approach uses a different method on the `PivotField` class or a property on the `PivotItem` class. After applying any filter, you must call `GetPivotCache().Refresh()` on the pivot table so that the cached data and calculated values reflect the new filter state.
 
 ## **Label Filter**
 A label filter allows you to filter the items of a row or column field by comparing their text captions against a pattern. This is useful when you want to display only products whose names start with a specific letter, contain a particular word, or match some other caption-based criterion.
@@ -48,7 +48,7 @@ int main() {
     // Apply the label filter — show only row items whose labels begin with the supplied prefix
     rowField.FilterByLabel(PivotFilterType::CaptionBeginsWith, prefix, U16String(u""));
     // Refresh and recalculate the pivot table data so the filter takes effect
-    pt.RefreshData();
+    pt.GetPivotCache().Refresh();
     // Save the workbook back to disk
     wb.Save(fileName);
     Aspose::Cells::Cleanup();
@@ -95,6 +95,7 @@ int main() {
     // Apply the date filter on the pivot field
     dateField.FilterByDate(PivotFilterType::DateBetween, startDate, endDate);
     // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     // Persist the workbook
     workbook.Save(U16String(outputPath.c_str()));
     Aspose::Cells::Cleanup();
@@ -134,6 +135,8 @@ int main() {
     {
         rowField.FilterByValue(dataFieldIndex, PivotFilterType::ValueGreaterThan, 5000, DBL_MAX);
     }
+    // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     wb.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -168,6 +171,8 @@ int main() {
     PivotField rowField = pivotTable.GetRowFields().Get(0);
     int valueFieldIndex = 0;
     rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
+    // Refresh the pivot table data and recalculate it so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     workbook.Save(outputPath);
     Aspose::Cells::Cleanup();
     return 0;
@@ -212,7 +217,7 @@ int main() {
         }
     }
     // Refresh and recalculate the pivot table so changes take effect
-    pivotTable.CalculateData();
+    pivotTable.GetPivotCache().Refresh();
     // Save the workbook — hidden items stay in the underlying data
     // but are excluded from the displayed pivot table output
     workbook.Save(u"output_pivot_filtered.xlsx");

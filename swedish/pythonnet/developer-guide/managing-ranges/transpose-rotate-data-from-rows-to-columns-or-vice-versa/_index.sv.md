@@ -103,21 +103,21 @@ Arrayformler med CSE är det klassiska Excel-sättet att utvärdera ett `TRANSPO
 
 ```python
 import aspose.cells as ac
-# Ladda källarboken med xlsx LoadOptions
+# Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
 workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
-# Få åtkomst till det första kalkylarket och dess Cells-samling
+# Access the first worksheet and its Cells collection
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-# Ange den klassiska CSE-arrayformeln i cell A6.
-# Formeln =TRANSPOSE(A1:D5) roterar källområdet med 5 rader och 4 kolumner
-# till en array med 4 rader och 5 kolumner. Det andra argumentet (4) är antalet rader
-# och det tredje argumentet (5) är antalet kolumner i den resulterande arrayen.
-# Aspose.Cells skriver CSE-markören för arrayformler så att Excel utvärderar den
-# som en enda arrayformel för flera celler, kompatibel med äldre Excel-versioner
-# (2019, 2016, 2013 etc.) som inte stöder dynamisk array spilling.
+# Set the classic CSE array formula on cell A6.
+# The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+# into a 4-row x 5-column array. The second argument (4) is the number of rows
+# and the third argument (5) is the number of columns of the resulting array.
+# Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+# a single multi-cell array formula, compatible with older Excel versions
+# (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
-# Spara arbetsboken så att markören för arrayformeln sparas
+# Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx")
 ```
 

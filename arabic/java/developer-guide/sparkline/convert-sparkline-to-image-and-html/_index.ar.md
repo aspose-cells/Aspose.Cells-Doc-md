@@ -35,43 +35,43 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ```java
 import com.aspose.cells.*;
 import java.io.*;
-// إنشاء مصنف جديد والوصول إلى ورقة العمل الأولى
+// Create a new workbook and access the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// إدخال بيانات نموذجية في الخلايا A1:E1
+// Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// إضافة مجموعة خط شرارة مثبتة عند F1 (العمود 5، الصف 0)
+// Add a Line sparkline group anchored at F1 (column 5, row 0)
 CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5);
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
-// إضافة مجموعة أعمدة شرارة مثبتة عند G1 (العمود 6، الصف 0)
+// Add a Column sparkline group anchored at G1 (column 6, row 0)
 CellArea columnArea = CellArea.createCellArea(0, 6, 0, 6);
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
-// إضافة مجموعة شرارة الفوز/الخسارة (المكدسة) مثبتة عند H1 (العمود 7، الصف 0)
+// Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 CellArea stackedArea = CellArea.createCellArea(0, 7, 0, 7);
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
-// configuring خيارات الصورة لإخراج PNG
+// Configure image options for PNG output
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
 imageOptions.setImageType(ImageType.PNG);
-// تحويل خط الشرارة إلى صورة وتضمينها في الخلية F2
+// Convert the Line sparkline to image and embed it in cell F2
 Sparkline lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 ByteArrayOutputStream lineMs = new ByteArrayOutputStream();
 lineSp.toImage(lineMs, imageOptions);
 worksheet.getCells().get("F2").setEmbeddedImage(lineMs.toByteArray());
-// تحويل عمود الشرارة إلى صورة وتضمينها في الخلية G2
+// Convert the Column sparkline to image and embed it in cell G2
 Sparkline columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0);
 ByteArrayOutputStream columnMs = new ByteArrayOutputStream();
 columnSp.toImage(columnMs, imageOptions);
 worksheet.getCells().get("G2").setEmbeddedImage(columnMs.toByteArray());
-// تحويل شرارة الفوز/الخسارة إلى صورة وتضمينها في الخلية H2
+// Convert the Win/Loss sparkline to image and embed it in cell H2
 Sparkline stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0);
 ByteArrayOutputStream stackedMs = new ByteArrayOutputStream();
 stackedSp.toImage(stackedMs, imageOptions);
 worksheet.getCells().get("H2").setEmbeddedImage(stackedMs.toByteArray());
-// حفظ المصنف على القرص
+// Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx");
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: Excel'i OFD Formatına Dönüştürme
-linktitle: Excel'i OFD Formatına Dönüştürme
+linktitle: OFD
 description: Aspose.Cells for Python via Java, elektronik tablo dosyalarıyla çalışmak için Excel çalışma kitaplarını OFD (Open Fixed-layout Document) formatına dönüştürmeyi destekleyen bir kütüphanedir. Bu makale, Aspose.Cells for Python via Java kullanarak Excel içeriği oluşturmayı ve OFD olarak dışa aktarmayı, ayrıca mevcut Excel dosyalarını OFD'ye dönüştürmeyi gösterir.
 keywords: Aspose.Cells, Python via Java kütüphanesi, elektronik tablo, Excel'den OFD'ye, OFD dönüşümü, SaveFormat.OFD, sabit düzenli belge, çalışma kitabı dışa aktarma
 type: docs

@@ -47,16 +47,16 @@ for (int i = 0; i < fruits.Length; i++)
     cells[i + 1, 1].PutValue(years[i]);
     cells[i + 1, 2].PutValue(amounts[i]);
 }
-// Pivot-Tabelle mit ihrer oberen linken Ecke bei E3
+// Pivot table with its top-left corner at E3
 PivotTable pivotTable = sheet.PivotTables.Add("=A1:C7", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.CalculateData();
-// Verankere das bedingte Format bei F4 (Zeile 3, Spalte 5) mit dem Datenbereich
+// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 int index = pivotTable.ConditionalFormats.Add();
 PivotConditionalFormat format = pivotTable.ConditionalFormats[index];
 format.ApplyTo(3, 5, PivotConditionFormatScopeType.Data);
-// Regel - Markiere Beträge größer als 200
+// Rule - highlight amounts greater than 200
 int conditionIndex = format.FormatConditions.AddCondition(
     FormatConditionType.CellValue, OperatorType.GreaterThan, "200", null);
 Style style = workbook.CreateStyle();
@@ -100,11 +100,11 @@ PivotTable pivotTable = sheet.PivotTables.Add("=A1:C7", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.CalculateData();
-// Ziel das Rechteck F4:F6 (die Wertzellen ohne die Gesamtsumme)
+// Target the rectangle F4:F6 (the value cells without the grand total)
 int index = pivotTable.ConditionalFormats.Add();
 PivotConditionalFormat format = pivotTable.ConditionalFormats[index];
 format.AddCellArea(new CellArea { StartRow = 3, StartColumn = 5, EndRow = 5, EndColumn = 5 });
-// Regel - kursiv auf hellgelb für Beträge zwischen 150 und 300
+// Rule - italic on light yellow for amounts between 150 and 300
 int conditionIndex = format.FormatConditions.AddCondition(
     FormatConditionType.CellValue, OperatorType.Between, "150", "300");
 Style style = workbook.CreateStyle();
@@ -142,13 +142,13 @@ PivotTable pivotTable = sheet.PivotTables.Add("=A1:C7", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.CalculateData();
-// Die Regel dem Datenfeld Amount als semantischen Bereich zuweisen
+// Attach the rule to the Amount data field as a semantic region
 int index = pivotTable.ConditionalFormats.Add();
 PivotConditionalFormat format = pivotTable.ConditionalFormats[index];
 PivotArea area = new PivotArea(pivotTable);
 area.SelectField(PivotFieldType.Data, "Amount");
 format.PivotAreas.AddPivotArea(area);
-// Regel – grauer Text für Beträge unter 150
+// Rule - grey text for amounts below 150
 int conditionIndex = format.FormatConditions.AddCondition(
     FormatConditionType.CellValue, OperatorType.LessThan, "150", null);
 Style style = workbook.CreateStyle();
@@ -178,10 +178,10 @@ for (int i = 0; i < pivotTable.ConditionalFormats.Count; i++)
     foreach (CellArea area in format.GetCellAreas())
         Console.WriteLine($"    rows {area.StartRow + 1}-{area.EndRow + 1}, columns {area.StartColumn + 1}-{area.EndColumn + 1}");
 }
-// Dies gibt aus:
-// Bedingte Formate: 1
-// Format 0: Zellwert GrößerAls Formel1==200
-//     Zeilen 4-7, Spalten 6-6        (F4:F7, der aufgelöste Datenbereich)
+// This prints:
+// Conditional formats: 1
+// Format 0: CellValue GreaterThan formula1==200
+//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **Verwandte Artikel**

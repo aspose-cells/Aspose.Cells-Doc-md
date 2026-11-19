@@ -51,17 +51,17 @@ Nell'esempio seguente viene caricata una nuova cartella di lavoro, vengono inser
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Scenario 1: applica un formato automatico predefinito XLS legacy
-            // API in uso: PivotTable.AutoFormatType
-            // Formato file di destinazione: .xls (legacy)
-            // Per esempi completi e file di dati, visitare https://github.com/aspose-cells/Aspose.Cells-for-.NET
-            // Crea una nuova cartella di lavoro
+            // Scenario 1: Apply a legacy XLS preset autoformat
+            // API in use: PivotTable.AutoFormatType
+            // Target file format: .xls (legacy)
+            // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+            // Create a new workbook
             const workbook = new Workbook();
-            // Ottieni il primo foglio di lavoro
+            // Get the first worksheet
             const sheet = workbook.worksheets.get(0);
             const cells = sheet.cells;
-            // Popola i dati di origine con la riga di intestazione (Fruit, Year, Amount)
-            // e 9 righe di dati che coprono grape, blueberry, kiwi e cherry nel 2020 e nel 2021
+            // Populate the source data with header row (Fruit, Year, Amount)
+            // and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
             cells.get(0, 0).value = "Fruit";
             cells.get(0, 1).value = "Year";
             cells.get(0, 2).value = "Amount";
@@ -92,17 +92,17 @@ Nell'esempio seguente viene caricata una nuova cartella di lavoro, vengono inser
             cells.get(9, 0).value = "grape";
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
-            // Aggiungi una tabella pivot nella cella di destinazione E3, usando l'intervallo di origine A1:C10
+            // Add a pivot table at destination cell E3, using source range A1:C10
             const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
-            // Assegna i campi: Fruit -> Righe, Amount -> Dati
+            // Assign fields: Fruit -> Rows, Amount -> Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Applica il formato automatico predefinito "Report5" per XLS legacy
-            // Nota: questa proprietà è significativa solo quando si salva come .xls.
-            // Quando si salva come .xlsx/.xlsm/.xlsb, Excel ignora AutoFormatType
-            // e utilizzawhatever specifica PivotTableStyleType / PivotTableStyleName.
+            // Apply the legacy XLS preset autoformat "Report5"
+            // Note: This property is only meaningful when saving as .xls.
+            // When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+            // and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
             pivotTable.autoFormatType = AsposeCells.PivotTableAutoFormatType.Report5;
-            // Salva la cartella di lavoro nel formato legacy .xls
+            // Save the workbook in legacy .xls format
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData], { type: "application/vnd.ms-excel" });
             const downloadLink = document.getElementById('downloadLink');
@@ -147,18 +147,18 @@ Questo scenario riutilizza il set di dati Fruit/Year/Amount dello Scenario 1, ag
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Scenario 2: applica uno stile predefinito moderno di Excel 2007+ utilizzando PivotTableStyleType.
-            // Formato file di destinazione: .xlsx. L'enumerazione PivotTableStyleType si trova nel namespace Aspose.Cells
-            // (non in Aspose.Cells.Pivot), motivo per cui non sono necessarie ulteriori dichiarazioni using.
-            // Riferimento GitHub: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+            // Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+            // Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+            // (not in Aspose.Cells.Pivot) -- that is why we do not need any extra using for it.
+            // GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Riga di intestazione: Fruit / Year / Amount
+            // Header row: Fruit / Year / Amount
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // 9 righe di dati di Fruit / Year / Amount
+            // 9 data rows of Fruit / Year / Amount
             cells.get("A2").value = "Grape";
             cells.get("B2").value = 2020;
             cells.get("C2").value = 100;
@@ -186,19 +186,19 @@ Questo scenario riutilizza il set di dati Fruit/Year/Amount dello Scenario 1, ag
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
-            // Aggiunge una tabella pivot in E3, utilizzando A1:C10 come origine
+            // Add a pivot table at E3, sourced from A1:C10
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // Assegna i campi pivot: Fruit -> area righe, Year -> area colonne, Amount -> area dati
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Applica uno stile pivot predefinito moderno di Excel 2007+.
-            // PivotTableStyleType è l'API corretta per i file .xlsx / .xlsm / .xlsb; AutoFormatType
-            // viene ignorato da Excel per questi formati. PivotTableStyleDark1 appartiene alla famiglia
-            // dei temi scuri (PivotTableStyleDark1..PivotTableStyleDark28) e la stessa enumerazione espone anche
-            // i temi chiari/scuri più recenti di Excel 2017 (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+            // Apply a modern Excel 2007+ named preset pivot style.
+            // PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+            // is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+            // family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+            // newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
             pivotTable.pivotTableStyleType = AsposeCells.PivotTableStyleType.PivotTableStyleDark1;
-            // Salva nel formato moderno .xlsx, per il quale PivotTableStyleType è significativo.
+            // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -250,7 +250,7 @@ Nell'esempio seguente viene definito uno stile personalizzato per la tabella piv
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Popola i dati di origine: intestazione + 9 righe di dati (A1:C10)
+            // Populate source data: header row + 9 data rows (A1:C10)
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
@@ -281,15 +281,15 @@ Nell'esempio seguente viene definito uno stile personalizzato per la tabella piv
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
-            // Aggiungi una tabella pivot con origine da A1:C10, ancorata in E3
+            // Add pivot table sourced from A1:C10, anchored at E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Passaggio 1: registra un nuovo stile personalizzato per la tabella pivot e acquisisci il relativo indice
+            // Step 1: register a new custom pivot table style and capture its index
             const styleIndex = workbook.worksheets.tableStyles.addPivotTableStyle("CustomPivotStyle");
             const tableStyle = workbook.worksheets.tableStyles.get(styleIndex);
-            // Passaggio 2: aggiungi un elemento WholeTable e applica bordi neri sottili su tutti e quattro i lati
+            // Step 2: add a WholeTable element and apply thin black borders on all four sides
             const wholeTableElementIndex = tableStyle.tableStyleElements.add(AsposeCells.TableStyleElementType.WholeTable);
             const wholeTableElement = tableStyle.tableStyleElements.get(wholeTableElementIndex);
             const wholeTableStyle = workbook.createStyle();
@@ -306,14 +306,14 @@ Nell'esempio seguente viene definito uno stile personalizzato per la tabella piv
             rightBorder.lineStyle = AsposeCells.CellBorderType.Thin;
             rightBorder.color = "black";
             wholeTableElement.setElementStyle(wholeTableStyle);
-            // Passaggio 3: aggiungi un elemento GrandTotalRow e applica un carattere rosso grassetto
+            // Step 3: add a GrandTotalRow element and apply bold red font
             const grandTotalElementIndex = tableStyle.tableStyleElements.add(AsposeCells.TableStyleElementType.GrandTotalRow);
             const grandTotalElement = tableStyle.tableStyleElements.get(grandTotalElementIndex);
             const grandTotalStyle = workbook.createStyle();
             grandTotalStyle.font.isBold = true;
             grandTotalStyle.font.color = "red";
             grandTotalElement.setElementStyle(grandTotalStyle);
-            // Passaggio 4: applica lo stile personalizzato in base al nome (NON tramite PivotTableStyleType, che è per preset predefiniti)
+            // Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
             pivotTable.pivotTableStyleName = "CustomPivotStyle";
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData], {
@@ -360,13 +360,13 @@ Nell'esempio seguente viene creato uno `style` con riempimento giallo uniforme, 
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Scenario 4: applica un singolo Style a ogni cella della tabella pivot utilizzando FormatAll
-            // API in uso: PivotTable.FormatAll(Style)
-            // Formato di destinazione: .xlsx
-            // Riferimento GitHub: consultare il repository Aspose.Cells-for-.NET — esempi di stilizzazione delle tabelle pivot
+            // Scenario 4: Apply a single Style to every pivot table cell using FormatAll
+            // API in use: PivotTable.FormatAll(Style)
+            // Target format: .xlsx
+            // GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // Popola i dati di origine: riga di intestazione (riga 1) + 9 righe di dati (righe 2-10)
+            // Populate source data: header row (row 1) + 9 data rows (rows 2-10)
             const cells = worksheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
@@ -398,13 +398,13 @@ Nell'esempio seguente viene creato uno `style` con riempimento giallo uniforme, 
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
-            // Aggiungi la tabella pivot: intervallo di origine A1:C10, cella di destinazione E3
+            // Add pivot table: source range A1:C10, destination cell E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // Assegna i campi della tabella pivot: Fruit -> area Righe, Year -> area Colonne, Amount -> area Dati
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Crea uno Style che verrà applicato forzatamente a ogni cella della tabella pivot
+            // Build a Style that will be forced onto every cell of the pivot table
             const style = workbook.createStyle();
             style.foregroundColor = AsposeCells.Color.Yellow;
             style.pattern = AsposeCells.BackgroundType.Solid;
@@ -418,10 +418,10 @@ Nell'esempio seguente viene creato uno `style` con riempimento giallo uniforme, 
             style.borders.get(AsposeCells.BorderType.LeftBorder).color = AsposeCells.Color.Black;
             style.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
             style.borders.get(AsposeCells.BorderType.RightBorder).color = AsposeCells.Color.Black;
-            // Applica FormatAll: impone questo singolo stile a ogni cella della tabella pivot,
-            // sovrascrivendo eventuali PivotTableStyleType / PivotTableStyleName impostati in precedenza
+            // Apply FormatAll: forces this single style onto every cell of the pivot table,
+            // overriding any PivotTableStyleType / PivotTableStyleName previously set
             pivotTable.formatAll(style);
-            // Salva il workbook nel formato moderno .xlsx
+            // Save the workbook in the modern .xlsx format
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

@@ -22,7 +22,7 @@ Följande filtreringsstrategier behandlas i denna artikel:
 3. **Värdefilter** — filtrerar objekt baserat på de aggregerade värdena i ett datafält.
 4. **Topp 10-filter** — visar endast de översta eller understa N objekten rangordnade efter ett värdefält.
 5. **Dölj / visa pivotobjekt** — manuellt styr synligheten för varje enskilt objekt i ett fält.
-Varje tillvägagångssätt använder en annan metod på klassen `PivotField` eller en egenskap på klassen `PivotItem`. Efter att du har tillämpat ett filter måste du anropa `refreshData()` och `calculateData()` på pivottabellen så att de cachelagrade data och beräknade värdena återspeglar det nya filtertillståndet.
+Varje tillvägagångssätt använder en annan metod på klassen `PivotField` eller en egenskap på klassen `PivotItem`. Efter att du har tillämpat ett filter måste du anropa `getPivotCache().refresh()` på pivottabellen så att de cachelagrade data och beräknade värdena återspeglar det nya filtertillståndet.
 
 ## **Etikettfilter**
 Ett etikettfilter låter dig filtrera objekten i ett rad- eller kolumnfält genom att jämföra deras textbeskrivningar mot ett mönster. Detta är användbart när du vill visa endast produkter vars namn börjar med en specifik bokstav, innehåller ett visst ord eller uppfyller något annat beskrivningsbaserat kriterium.
@@ -33,19 +33,19 @@ Följande exempel läser in en arbetsbok som innehåller en befintlig pivottabel
 const AsposeCells = require("aspose.cells.node");
 let fileName = "sample.xlsx";
 let prefix = "B";
-// Ladda den befintliga arbetsboken som innehåller en pivottabell
+// Load the existing workbook containing a pivot table
 let workbook = new AsposeCells.Workbook(fileName);
-// Åtkomst till kalkylbladet via index (första kalkylbladet)
+// Access the worksheet by index (first worksheet)
 let worksheet = workbook.getWorksheets().get(0);
-// Åtkomst till pivottabellen via index
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// Hämta den första radens PivotField
+// Retrieve the first row PivotField
 let rowField = pivotTable.getRowFields().get(0);
-// Tillämpa etikettfiltret — visa endast radobjekt vars etiketter börjar med det angivna prefixet
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
-// Uppdatera och beräkna om pivottabelldata så att filtret träder i kraft
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Spara arbetsboken tillbaka till disk
+// Save the workbook back to disk
 workbook.save(fileName);
 ```
 
@@ -67,23 +67,23 @@ if (!fs.existsSync(inputPath))
 {
     throw new Error("Source workbook not found: " + inputPath);
 }
-// Ladda den befintliga arbetsboken som innehåller pivottabellen
+// Load the existing workbook that contains the pivot table
 const workbook = new AsposeCells.Workbook(inputPath);
-// Öppna kalkylbladet som innehåller pivottabellen (via index)
+// Access the worksheet that holds the pivot table (by index)
 const worksheet = workbook.getWorksheets().get(0);
-// Öppna pivottabellen via index
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// Hämta datum-PivotField från radområdet
-// (Datumfilter fungerar bara när rad-/kolumnområdet endast innehåller datum-tidsceller eller tomma celler)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 const dateField = pivotTable.getRowFields().get(0);
-// Definiera datumvillkoret för Between-filtret
+// Define the date criterion for the Between filter
 const startDate = new Date(2020, 0, 1);
 const endDate = new Date(2020, 11, 31);
-// Tillämpa datumfiltret på pivotfältet
+// Apply the date filter on the pivot field
 dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
-// Uppdatera och beräkna om pivottabellen så att filtret träder i kraft
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Spara arbetsboken
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
@@ -119,32 +119,32 @@ Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett 
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Ladda den befintliga arbetsboken som innehåller pivottabellen
+// Load the existing workbook that contains the pivot table
 const inputPath = "input.xlsx";
 const outputPath = "output.xlsx";
 const workbook = new AsposeCells.Workbook(inputPath);
-// Få åtkomst till kalkylbladet som innehåller pivottabellen (index 0)
+// Access the worksheet that holds the pivot table (index 0)
 const worksheet = workbook.getWorksheets().get(0);
-// Få åtkomst till pivottabellen via index
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// Bekräfta att det finns minst ett värde-PivotField i dataområdet
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() === 0) {
     throw new Error("Pivot table has no value (data) PivotField.");
 }
 const valueField = pivotTable.getDataFields().get(0);
-// Hämta målets rad-PivotField (fältet vi vill tillämpa Topp 10 på)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 const rowField = pivotTable.getRowFields().get(0);
-// Det första (och enda) datafältet finns vid index 0; Topp 10 rangordnar efter det.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 const valueFieldIndex = 0;
-// Tillämpa Topp 10-filtret på radfältet:
+// Apply the Top 10 filter on the row field:
 //   - itemCount   = 10
 //   - filterType  = PivotFilterType.Sum
-//   - isTop       = true (topp N; false skulle betyda botten N)
-//   - valueFieldIndex = indexet för det datafält som används för att rangordna objekt
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
-// Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Spara arbetsboken
+// Save the workbook
 workbook.save(outputPath);
 ```
 
@@ -154,34 +154,34 @@ Detta tillvägagångssätt är användbart när filtreringsregeln är oregelbund
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Ladda en befintlig arbetsbok som innehåller en pivottabell
+// Load an existing workbook containing a pivot table
 const workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
-// Öppna det första kalkylbladet som innehåller pivottabellen
+// Access the first worksheet which contains the pivot table
 const sheet = workbook.getWorksheets().get(0);
-// Hämta pivottabellen via index (den första pivottabellen på arket)
+// Access the pivot table by index (the first pivot table on the sheet)
 const pivotTable = sheet.getPivotTables().get(0);
-// Hämta mål-PivotField (det första radetikettfältet där vi kommer att dölja/visa objekt)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 const pivotField = pivotTable.getRowFields().get(0);
-// Iterera genom PivotItems-samlingen för det valda PivotField
+// Iterate through the PivotItems collection of the selected PivotField
 const itemCount = pivotField.getPivotItems().getCount();
 for (let i = 0; i < itemCount; i++)
 {
     const item = pivotField.getPivotItems().get(i);
-    // Dölj pivotobjekt som matchar ett specifikt namn/kriterium
+    // Hide pivot items that match a specific name/criterion
     if (item.getName() == "Item1" || item.getName() == "Item2")
     {
         item.setIsHidden(true);
     }
-    // Demonstrera att visa: visa ett tidigare dolt pivotobjekt igen
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.getName() == "Item3")
     {
         item.setIsHidden(false);
     }
 }
-// Uppdatera och beräkna om pivottabellen så att ändringarna träder i kraft
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh();
-// Spara arbetsboken — dolda objekt finns kvar i underliggande data
-// men exkluderas från den visade pivottabellens utdata
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx");
 ```
 

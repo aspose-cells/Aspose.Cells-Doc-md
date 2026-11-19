@@ -54,14 +54,14 @@ workbook.save("output.xlsx")
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# Создать новую рабочую книгу
+# Create a new workbook
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# Записать строку заголовков в ячейки A1:C1
+# Write header row into cells A1:C1
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
-# Записать строки данных в ячейки A2:C9 (8 строк данных о фруктах за 2020 и 2021 годы)
+# Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.cells.get("A2").put_value("grape")
 worksheet.cells.get("B2").put_value(2020)
 worksheet.cells.get("C2").put_value(50)
@@ -86,19 +86,19 @@ worksheet.cells.get("C8").put_value(110)
 worksheet.cells.get("A9").put_value("cherry")
 worksheet.cells.get("B9").put_value(2021)
 worksheet.cells.get("C9").put_value(120)
-# Добавить сводную таблицу: исходный диапазон "A1:C9", целевая ячейка "E3", имя
+# Add a pivot table: source range "A1:C9", destination cell "E3"
 pivot_table = worksheet.pivot_tables.add("A1:C9", 2, 4)
-# Назначить поля сводной таблицы: Fruit в строки, Year в столбцы, Amount в данные
+# Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Изменить несколько значений Amount в исходных данных для имитации изменений
+# Modify several Amount values in the source data to simulate changes
 worksheet.cells.get("C2").put_value(55)
 worksheet.cells.get("C5").put_value(85)
 worksheet.cells.get("C9").put_value(125)
-# Обновить каждую сводную таблицу / кэш сводных таблиц в рабочей книге
+# Refresh every pivot table / pivot cache in the workbook
 workbook.refresh_all()
-# Сохранить рабочую книгу
+# Save the workbook
 workbook.save("output.xlsx")
 ```
 
@@ -163,11 +163,11 @@ import aspose.cells as ac
 import aspose.cells.pivot as acp
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# Записать строку заголовков Fruit / Year / Amount
+# Write Fruit / Year / Amount header row
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
-# Записать 8 строк данных (строки 2-9, соответствующие исходному диапазону A1:C9)
+# Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.cells.get("A2").put_value("Grape")
 worksheet.cells.get("B2").put_value(2020)
 worksheet.cells.get("C2").put_value(100)
@@ -192,21 +192,21 @@ worksheet.cells.get("C8").put_value(350)
 worksheet.cells.get("A9").put_value("Cherry")
 worksheet.cells.get("B9").put_value(2021)
 worksheet.cells.get("C9").put_value(450)
-# Добавить сводную таблицу с именем, расположенную в ячейке назначения E3, с источником A1:C9
+# Add a pivot table placed at destination cell E3, sourcing from A1:C9
 pivot_table = worksheet.pivot_tables.add("A1:C9", 2, 4)
-# Назначить поля: Fruit в строки, Year в столбцы, Amount в данные
+# Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivot_table.add_field_to_area(acp.PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(acp.PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(acp.PivotFieldType.DATA, "Amount")
-# Изменить свойство представления/макета — это изменение только на уровне отображения,
-# поэтому оно НЕ требует повторного чтения исходных данных через PivotCache.refresh().
+# Modify a view/layout property — this is a presentation-only change,
+# so it does NOT require re-reading the source data through PivotCache.refresh().
 pivot_table.refresh_data_on_opening_file = False
-# calculate_data() повторно визуализирует отображение (данные + стили) ЭТОЙ сводной таблицы
-# на основе данных, уже содержащихся в PivotCache. Поскольку исходные данные не изменились,
-# обращения к источнику не происходит — в ячейках рабочего листа пересчитываются только
-# закэшированные значения.
+# calculate_data() re-renders THIS pivot table's display (data + style) from the
+# data already held in the PivotCache. Because the source data did not change,
+# no round-trip to the source is performed — only the cached values are recalculated
+# into worksheet cells.
 pivot_table.calculate_data()
-# Сохранить рабочую книгу на диск
+# Save the workbook to disk
 workbook.save("output.xlsx")
 ```
 

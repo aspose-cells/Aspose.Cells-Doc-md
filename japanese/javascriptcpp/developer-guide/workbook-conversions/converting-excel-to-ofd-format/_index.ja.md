@@ -51,20 +51,20 @@ Aspose.Cells を使用すると、ワークブックをプログラムで作成�
         });
         document.getElementById('runExample').addEventListener('click', async () => {
             try {
-                // 新しいワークブックを作成
+                // Create a new Workbook
                 const workbook = new Workbook();
-                // 最初のワークシートを取得
+                // Obtain the first worksheet
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // 列幅を設定
+                // Set column widths
                 cells.setColumnWidth(0, 5);
                 cells.setColumnWidth(1, 35);
                 cells.setColumnWidth(2, 12);
                 cells.setColumnWidth(3, 15);
                 cells.setColumnWidth(4, 15);
                 cells.setColumnWidth(5, 5);
-                // 会社のロゴを挿入
-                // ブラウザーにはファイルシステムのパスがないため、メモリ上にPNGを作成
+                // Insert company logo
+                // Create an in-memory PNG because the browser has no filesystem path.
                 const logoCanvas = document.createElement("canvas");
                 logoCanvas.width = 100;
                 logoCanvas.height = 30;
@@ -80,12 +80,12 @@ Aspose.Cells を使用すると、ワークブックをプログラムで作成�
                 }
                 const logoData = new Uint8Array(await logoBlob.arrayBuffer());
                 worksheet.pictures.add(1, 1, logoData);
-                // 会社名と連絡先情報
+                // Company name and contact details
                 cells.get("B3").value = "Acme Corporation";
                 cells.get("B4").value = "123 Business Street";
                 cells.get("B5").value = "City, State 12345";
                 cells.get("B6").value = "Phone: (555) 123-4567";
-                // INVOICEタイトル - セルを結合
+                // INVOICE title - merge cells
                 cells.merge(7, 1, 2, 4);
                 const titleCell = cells.get("B8");
                 titleCell.value = "INVOICE";
@@ -94,7 +94,7 @@ Aspose.Cells を使用すると、ワークブックをプログラムで作成�
                 titleStyle.font.size = 20;
                 titleStyle.horizontalAlignment = AsposeCells.TextAlignmentType.Center;
                 titleCell.style = titleStyle;
-                // 請求書番号と日付
+                // Invoice number and date
                 cells.get("B11").value = "Invoice Number:";
                 cells.get("C11").value = "INV-2024-001";
                 cells.get("B12").value = "Date:";
@@ -105,12 +105,12 @@ Aspose.Cells を使用すると、ワークブックをプログラムで作成�
                     String(now.getDate()).padStart(2, "0")
                 ].join("-");
                 cells.get("C12").value = invoiceDate;
-                // 請求先セクション
+                // Bill-to section
                 cells.get("B14").value = "Bill To:";
                 cells.get("B15").value = "Client Name";
                 cells.get("B16").value = "Client Address";
                 cells.get("B17").value = "Client City, State";
-                // 明細項目ヘッダー
+                // Line items header
                 const headerDesc = cells.get("B19");
                 const headerQty = cells.get("C19");
                 const headerPrice = cells.get("D19");
@@ -133,20 +133,20 @@ Aspose.Cells を使用すると、ワークブックをプログラムで作成�
                 headerQty.style = headerStyle;
                 headerPrice.style = headerStyle;
                 headerTotal.style = headerStyle;
-                // 罫線付きの通貨形式
+                // Currency style with borders
                 const currencyStyle = workbook.createStyle();
                 currencyStyle.custom = '"$"#,##0.00';
                 currencyStyle.borders.get(AsposeCells.BorderType.TopBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.BottomBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.LeftBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
-                // 商品名・数量セル用の標準罫線形式
+                // Plain border style for description/quantity cells
                 const borderStyle = workbook.createStyle();
                 borderStyle.borders.get(AsposeCells.BorderType.TopBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.BottomBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.LeftBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
-                // 明細項目行
+                // Line items rows
                 const lineItems = [
                     ["Product A - Widget", 2, 50.00],
                     ["Product B - Gadget", 3, 75.00],
@@ -167,7 +167,7 @@ Aspose.Cells を使用すると、ワークブックをプログラムで作成�
                     priceCell.style = currencyStyle;
                     totalCell.style = currencyStyle;
                 }
-                // 小計、税金、合計
+                // Subtotal, tax, grand total
                 cells.get("B24").value = "Subtotal:";
                 const subtotalCell = cells.get("E24");
                 subtotalCell.formula = "SUM(E21:E23)";
@@ -177,20 +177,20 @@ Aspose.Cells を使用すると、ワークブックをプログラムで作成�
                 cells.get("B26").value = "Grand Total:";
                 const grandTotalCell = cells.get("E26");
                 grandTotalCell.formula = "E24+E25";
-                // 合計値用の太字・通貨形式
+                // Bold + currency style for total values
                 const totalStyle = workbook.createStyle();
                 totalStyle.font.isBold = true;
                 totalStyle.custom = '"$"#,##0.00';
                 subtotalCell.style = totalStyle;
                 taxCell.style = totalStyle;
                 grandTotalCell.style = totalStyle;
-                // 合計ラベル用の太字形式
+                // Bold style for total labels
                 const boldStyle = workbook.createStyle();
                 boldStyle.font.isBold = true;
                 cells.get("B24").style = boldStyle;
                 cells.get("B25").style = boldStyle;
                 cells.get("B26").style = boldStyle;
-                // ワークブックをOFDファイルとして保存
+                // Save the workbook as an OFD file
                 const outputData = workbook.save(AsposeCells.SaveFormat.Ofd);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById('downloadLink');
@@ -267,9 +267,9 @@ Aspose.Cells は、既存の Excel ワークブックをディスクから読み
                     runButton.disabled = true;
                     downloadLink.style.display = "none";
                     downloadLink.removeAttribute("href");
-                    // ディスク上の既存の Excel ワークブックを開く
+                    // Open an existing Excel workbook from disk
                     const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
-                    // (1) 選択したセルの値を読み取り、ファイルが正常に読み込まれたことを確認する
+                    // (1) Read and display values from selected cells to confirm the file was loaded
                     const firstSheet = workbook.worksheets.get(0);
                     const cells = firstSheet.cells;
                     const output = [];
@@ -277,26 +277,26 @@ Aspose.Cells は、既存の Excel ワークブックをディスクから読み
                     output.push("Cell A1: " + cells.get("A1").stringValue);
                     output.push("Cell B1: " + cells.get("B1").stringValue);
                     output.push("Cell C1: " + cells.get("C1").stringValue);
-                    // (2) Worksheets コレクションを反復処理して利用可能なシートを列挙する
+                    // (2) Iterate over the Worksheets collection to enumerate available sheets
                     output.push("");
                     output.push("Available worksheets:");
                     for (let i = 0; i < workbook.worksheets.count; i++) {
                         const ws = workbook.worksheets.get(i);
                         output.push("  [" + i + "] " + ws.name);
                     }
-                    // (3) 必要に応じてタイムスタンプセルを更新し、変換日時を反映する
+                    // (3) Optionally update a timestamp cell to reflect the conversion
                     cells.get("A1").value = "Converted on: " + formatTimestamp(new Date());
-                    // データブロックの先頭にサマリヘッダー行を追加する
+                    // Append a summary header row at the top of the data block
                     cells.insertRow(0);
                     cells.get("A1").value = "Conversion Summary";
                     cells.get("A2").value = "Generated: " + formatTimestamp(new Date());
-                    // (4) ワークシートの PageSetup プロパティを構成する
+                    // (4) Configure PageSetup properties on the worksheet
                     const pageSetup = firstSheet.pageSetup;
                     pageSetup.orientation = AsposeCells.PageOrientationType.Landscape;
                     pageSetup.paperSize = AsposeCells.PaperSizeType.PaperA4;
                     pageSetup.fitToPagesTall = 1;
                     pageSetup.fitToPagesWide = 1;
-                    // (5) 必要に応じて OFD 出力の印刷範囲を設定する
+                    // (5) Optionally set the print area for the OFD output
                     const lastRow = cells.maxDataRow;
                     const lastCol = cells.maxDataColumn;
                     const lastColLetter = CellsHelper.columnIndexToName(lastCol);
@@ -304,7 +304,7 @@ Aspose.Cells は、既存の Excel ワークブックをディスクから読み
                     pageSetup.printArea = printArea;
                     output.push("");
                     output.push("Print area set to: " + printArea);
-                    // (6) ワークブックを OFD ファイルとして保存する
+                    // (6) Save the workbook as an OFD file
                     const outputData = workbook.save(AsposeCells.SaveFormat.Ofd);
                     const blob = new Blob([outputData]);
                     downloadLink.href = URL.createObjectURL(blob);

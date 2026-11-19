@@ -1,8 +1,8 @@
 ---
-title: Filtrage des tableaux croisés dynamiques par étiquette ou valeur
-linktitle: Filtrage des tableaux croisés dynamiques par étiquette ou valeur
-description: Aspose.Cells for Java prend en charge des fonctionnalités complètes de filtrage des tableaux croisés dynamiques. Cet article explique comment filtrer les données d'un tableau croisé dynamique à l'aide de filtres d'étiquette, de filtres de date, de filtres de valeur, de filtres des 10 meilleurs, et en masquant ou affichant des éléments individuels.
-keywords: Aspose.Cells, bibliothèque Java, tableur, tableau croisé dynamique, filtre, filtre d'étiquette, filtre de valeur, filtre de date, filtre des 10 meilleurs, élément de tableau croisé dynamique, masquer un élément de tableau croisé dynamique
+title: Filtrage des Tableaux Croisés Dynamiques par libellé ou valeur
+description: Aspose.Cells for Java prend en charge des capacités de filtrage exhaustives des Tableaux Croisés Dynamiques. Cet article explique comment filtrer les données d’un Tableau Croisé Dynamique à l’aide de filtres par libellé, de filtres par date, de filtres par valeur, de filtres des 10 premiers et en masquant ou en réaffichant des éléments du Tableau Croisé Dynamique.
+linktitle: Filtrage par libellé ou valeur
+keywords: Aspose.Cells, bibliothèque Java, tableur, Tableau Croisé Dynamique, filtre, filtre par libellé, filtre par valeur, filtre par date, filtre des 10 premiers, élément de Tableau Croisé Dynamique, masquage d’un élément de Tableau Croisé Dynamique
 type: docs
 weight: 10
 url: /fr/java/filter-by-label-or-value-of-pivot-table/
@@ -11,51 +11,51 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells propose cinq stratégies pratiques pour filtrer les données affichées dans un tableau croisé dynamique. Vous pouvez appliquer des filtres d'étiquette aux champs de ligne ou de colonne textuels, utiliser des filtres de date lorsque le champ ne contient que des cellules de date-heure ou des cellules vides, appliquer des filtres de valeur par rapport aux nombres agrégés, utiliser des filtres des 10 meilleurs pour classer par champ de valeur, ou masquer et afficher manuellement des éléments individuels du tableau croisé dynamique à l'aide de la propriété `IsHidden`. Chaque stratégie est exposée via des API dédiées sur les classes `PivotField` et `PivotItem`.
+Aspose.Cells propose cinq stratégies pratiques pour filtrer les données affichées dans un Tableau Croisé Dynamique. Vous pouvez appliquer des filtres par libellé aux champs de ligne ou de colonne contenant du texte, utiliser des filtres par date lorsque le champ contient uniquement des cellules de date et d’heure ou des cellules vides, appliquer des filtres par valeur aux nombres agrégés, utiliser des filtres des 10 premiers pour classer les éléments selon un champ de valeur, ou masquer et réafficher manuellement des éléments individuels du Tableau Croisé Dynamique à l’aide de la propriété `IsHidden`. Chaque stratégie est exposée via des API dédiées sur les classes `PivotField` et `PivotItem`.
 {{% /alert %}}
 
 ## **Introduction**
-Les tableaux croisés dynamiques sont des outils d'analyse puissants, mais les résumés bruts contiennent souvent bien plus d'informations que ce dont vous avez besoin pour une présentation. Le filtrage est le principal mécanisme pour restreindre un tableau croisé dynamique aux lignes, colonnes ou valeurs qui importent pour un rapport spécifique. Aspose.Cells for Java reproduit les fonctionnalités de filtrage disponibles dans Microsoft Excel, en les exposant par programmation afin que la génération de rapports puisse être entièrement automatisée.
-Les stratégies de filtrage suivantes sont traitées dans cet article :
-1. **Filtre d'étiquette** — filtre les éléments des champs de ligne ou de colonne en fonction de leurs étiquettes textuelles.
-2. **Filtre de date** — filtre les champs de ligne ou de colonne qui contiennent uniquement des valeurs de date-heure (ou des cellules vides).
-3. **Filtre de valeur** — filtre les éléments en fonction des valeurs agrégées d'un champ de données.
-4. **Filtre des 10 meilleurs** — affiche uniquement les N éléments supérieurs ou inférieurs classés par champ de valeur.
-5. **Masquer / afficher les éléments** — contrôle manuellement la visibilité de chaque élément individuel dans un champ.
-Chaque approche utilise une méthode différente de la classe `PivotField` ou une propriété de la classe `PivotItem`. Après l'application de tout filtre, vous devez appeler `refreshData()` et `calculateData()` sur le tableau croisé dynamique afin que les données mises en cache et les valeurs calculées reflètent le nouvel état du filtre.
+Les Tableaux Croisés Dynamiques sont de puissants outils d’analyse, mais les synthèses brutes contiennent souvent bien plus d’informations que vous n’avez besoin de présenter. Le filtrage est le principal mécanisme permettant de réduire un Tableau Croisé Dynamique aux lignes, aux colonnes ou aux valeurs utiles pour un rapport donné. Aspose.Cells for Java reproduit les capacités de filtrage disponibles dans Microsoft Excel et les expose de manière programmatique afin que la génération des rapports puisse être entièrement automatisée.
+Les stratégies de filtrage suivantes sont abordées dans cet article :
+1. **Filtre par libellé** — filtre les éléments d’un champ de ligne ou de colonne en fonction de leurs libellés textuels.
+2. **Filtre par date** — filtre les champs de ligne ou de colonne qui ne contiennent que des valeurs de date et d’heure, ou des valeurs vides.
+3. **Filtre par valeur** — filtre les éléments en fonction des valeurs agrégées d’un champ de données.
+4. **Filtre des 10 premiers** — affiche uniquement les N éléments les plus élevés ou les plus bas, classés selon un champ de valeur.
+5. **Masquer / Réafficher les éléments du Tableau Croisé Dynamique** — contrôle manuellement la visibilité de chaque élément individuel d’un champ.
+Chaque approche utilise une méthode différente de la classe `PivotField` ou une propriété de la classe `PivotItem`. Après l’application de n’importe quel filtre, vous devez appeler `getPivotCache().refresh()` sur le Tableau Croisé Dynamique afin que les données mises en cache et les valeurs calculées reflètent le nouvel état du filtre.
 
-## **Filtre d'étiquette**
-Un filtre d'étiquette vous permet de filtrer les éléments d'un champ de ligne ou de colonne en comparant leurs légendes textuelles à un motif. Ceci est utile lorsque vous souhaitez afficher uniquement les produits dont les noms commencent par une lettre spécifique, contiennent un mot particulier, ou correspondent à un autre critère basé sur la légende.
-Aspose.Cells expose le filtrage par étiquette via la méthode `PivotField.filterByLabel(PivotFilterType, String)`. L'énumération `PivotFilterType` inclut des valeurs telles que `CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank`, `CaptionIsBlank`, etc. Le second argument fournit la chaîne d'étiquette utilisée pour la comparaison.
-L'exemple suivant charge un classeur contenant un tableau croisé dynamique existant, applique un filtre d'étiquette afin que seuls les éléments dont les légendes commencent par un préfixe spécifié restent visibles, actualise le tableau croisé dynamique, et enregistre le résultat.
+## **Filtre par libellé**
+Un filtre par libellé permet de filtrer les éléments d’un champ de ligne ou de colonne en comparant leurs libellés textuels à un motif. Cette opération est utile lorsque vous souhaitez afficher uniquement les produits dont les noms commencent par une lettre donnée, contiennent un mot particulier ou correspondent à un autre critère fondé sur les libellés.
+Aspose.Cells expose le filtrage par libellé par l’intermédiaire de la méthode `PivotField.filterByLabel(PivotFilterType, String)`. L’énumération `PivotFilterType` contient des valeurs telles que `CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank`, `CaptionIsBlank`, etc. Le second argument fournit la chaîne de libellé utilisée pour la comparaison.
+L’exemple suivant charge un classeur contenant un Tableau Croisé Dynamique existant, applique un filtre par libellé afin que seuls les éléments dont les libellés commencent par un préfixe spécifié restent visibles, actualise le Tableau Croisé Dynamique et enregistre le résultat.
 
 ```java
 import com.aspose.cells.*;
 String fileName = "sample.xlsx";
 String prefix = "B";
-// Charger le classeur existant contenant un tableau croisé dynamique
+// Load the existing workbook containing a pivot table
 Workbook workbook = new Workbook(fileName);
-// Accéder à la feuille de calcul par index (première feuille de calcul)
+// Access the worksheet by index (first worksheet)
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Accéder au tableau croisé dynamique par index
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.getPivotTables().get(0);
-// Récupérer le premier PivotField de ligne
+// Retrieve the first row PivotField
 PivotField rowField = pivotTable.getRowFields().get(0);
-// Appliquer le filtre d'étiquette - afficher uniquement les éléments de ligne dont les étiquettes commencent par le préfixe fourni
+// Apply the label filter - show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
-// Actualiser et recalculer les données du tableau croisé dynamique pour que le filtre prenne effet
-pivotTable.refreshData();
-// Enregistrer le classeur sur le disque
+// Refresh and recalculate the pivot table data so the filter takes effect
+pivotTable.getPivotCache().refresh();
+// Save the workbook back to disk
 workbook.save(fileName);
 ```
 
-## **Filtre de date**
-Les filtres de date vous permettent de restreindre un tableau croisé dynamique selon des critères basés sur les dates tels qu'aujourd'hui, la semaine dernière, ce mois-ci, le trimestre suivant, ou une plage de dates spécifique. Ce sont des filtres spécialisés qui fonctionnent uniquement contre les champs qui stockent des informations de date-heure.
+## **Filtre par date**
+Les filtres par date permettent de restreindre un Tableau Croisé Dynamique à l’aide de critères fondés sur les dates, tels qu’aujourd’hui, la semaine dernière, ce mois-ci, le trimestre suivant ou une plage de dates donnée. Ce sont des filtres spécialisés qui ne fonctionnent qu’avec des champs stockant des informations de date et d’heure.
 
 {{% alert color="primary" %}}
-Le filtre de date fonctionne uniquement lorsque la zone de ligne ou de colonne contient uniquement des cellules de date-heure ou des valeurs vides. Si le champ sous-jacent contient d'autres types de données tels que des nombres ou du texte, le filtre de date ne produira pas le résultat attendu. Assurez-vous que le champ est formaté en tant que date et que toutes les valeurs sont des instances `DateTime` valides ou des cellules vides avant d'appliquer ce filtre.
-Aspose.Cells expose le filtrage par date via la méthode `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. L'énumération `PivotFilterType` contient des valeurs de date dédiées telles que `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear`, et `Between`. Selon le type de filtre choisi, vous passez une ou deux valeurs `DateTime` (pour `Between`, vous passez les dates de début et de fin).
-L'exemple suivant charge un classeur contenant un tableau croisé dynamique dont la zone de ligne contient un champ de date, applique un filtre de date qui restreint les éléments visibles à une plage de dates particulière, actualise le tableau croisé dynamique, et enregistre le classeur.
+Le filtre par date ne fonctionne que lorsque la zone des lignes ou des colonnes contient uniquement des cellules de date et d’heure ou des valeurs vides. Si le champ sous-jacent contient d’autres types de données, tels que des nombres ou du texte, le filtre par date ne produira pas le résultat attendu. Assurez-vous que le champ est formaté comme une date et que toutes les valeurs sont des instances `DateTime` valides ou des cellules vides avant d’appliquer ce filtre.
+Aspose.Cells expose le filtrage par date par l’intermédiaire de la méthode `PivotField.filterByDate(PivotFilterType, params DateTime[] values)`. L’énumération `PivotFilterType` contient des valeurs spécifiques aux dates, telles que `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` et `Between`. En fonction du type de filtre sélectionné, vous transmettez une ou deux valeurs `DateTime` (pour `Between`, vous transmettez les dates de début et de fin).
+L’exemple suivant charge un classeur contenant un Tableau Croisé Dynamique dont la zone des lignes contient un champ de date, applique un filtre par date qui limite les éléments visibles à une plage de dates donnée, actualise le Tableau Croisé Dynamique et enregistre le classeur.
 {{% /alert %}}
 
 ```java
@@ -67,30 +67,30 @@ if (!new File(inputPath).exists())
 {
     throw new FileNotFoundException("Source workbook not found: " + inputPath);
 }
-// Charger le classeur existant qui contient le tableau croisé dynamique
+// Load the existing workbook that contains the pivot table
 Workbook workbook = new Workbook(inputPath);
-// Accéder à la feuille de calcul qui contient le tableau croisé dynamique (par index)
+// Access the worksheet that holds the pivot table (by index)
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Accéder au tableau croisé dynamique par index
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.getPivotTables().get(0);
-// Récupérer le PivotField de date depuis la zone des lignes
-// (Le filtre de date ne fonctionne que lorsque la zone des lignes/colonnes contient uniquement des cellules date-heure ou des cellules vides)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 PivotField dateField = pivotTable.getRowFields().get(0);
-// Définir le critère de date pour le filtre Entre
+// Define the date criterion for the Between filter
 DateTime startDate = new DateTime(2020, 1, 1);
 DateTime endDate = new DateTime(2020, 12, 31);
-// Appliquer le filtre de date sur le champ pivot
+// Apply the date filter on the pivot field
 dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate);
-// Actualiser et recalculer le tableau croisé dynamique pour que le filtre prenne effet
-pivotTable.refreshData();
-// Enregistrer le classeur
+// Refresh and recalculate the pivot table so the filter takes effect
+pivotTable.getPivotCache().refresh();
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
-## **Filtre de valeur**
-Les filtres de valeur opèrent sur les valeurs agrégées qu'un tableau croisé dynamique calcule dans sa zone de données. Au lieu de faire correspondre des étiquettes textuelles, ils comparent les totaux numériques à un seuil. Les cas d'utilisation typiques incluent l'affichage uniquement des produits dont la somme des ventes dépasse un montant cible ou uniquement des régions dont le nombre de transactions se situe dans une plage.
-Aspose.Cells expose le filtrage par valeur via la méthode `PivotField.filterByValue(PivotField valueField, PivotFilterType filterType, params Object[] values)`. Le paramètre `filterType` utilise des valeurs telles que `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual`, et `ValueLessThanOrEqual`. Le paramètre `valueField` spécifie quel champ de données doit être évalué, et le ou les derniers arguments fournissent la ou les valeurs seuils.
-L'exemple suivant charge un classeur contenant un tableau croisé dynamique, applique un filtre de valeur qui conserve uniquement les éléments dont les ventes agrégées dépassent un seuil numérique, actualise le tableau croisé dynamique, et enregistre le classeur.
+## **Filtre par valeur**
+Les filtres par valeur opèrent sur les valeurs agrégées qu’un Tableau Croisé Dynamique calcule dans sa zone de données. Au lieu de comparer des libellés textuels, ils comparent des totaux numériques à un seuil. Les cas d’utilisation typiques consistent à afficher uniquement les produits dont la somme des ventes dépasse un montant cible, ou uniquement les régions dont le nombre de transactions se situe dans une plage donnée.
+Aspose.Cells expose le filtrage par valeur par l’intermédiaire de la méthode `PivotField.filterByValue(PivotField valueField, PivotFilterType filterType, params Object[] values)`. Le paramètre `filterType` utilise des valeurs telles que `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual` et `ValueLessThanOrEqual`. Le paramètre `valueField` indique le champ de données à évaluer, et le ou les derniers arguments fournissent la ou les valeurs de seuil.
+L’exemple suivant charge un classeur contenant un Tableau Croisé Dynamique, applique un filtre par valeur qui ne conserve que les éléments dont les ventes agrégées dépassent un seuil numérique, actualise le Tableau Croisé Dynamique et enregistre le classeur.
 
 ```java
 import com.aspose.cells.*;
@@ -113,54 +113,54 @@ if (dataFieldIndex >= 0)
 {
     rowField.filterByValue(dataFieldIndex, PivotFilterType.VALUE_GREATER_THAN, 5000, Double.MAX_VALUE);
 }
-pivotTable.refreshData();
+pivotTable.getPivotCache().refresh();
 workbook.save("output.xlsx");
 ```
 
-## **Filtre des 10 meilleurs**
-Le filtre des 10 meilleurs est une forme spécialisée de filtre de valeur qui ne conserve que les N éléments les plus élevés ou les plus bas en fonction d'un champ de valeur choisi. Il est couramment utilisé pour les rapports de classement tels que « les 10 meilleurs produits par chiffre d'affaires » ou « les 5 régions les moins performantes par nombre de ventes ».
+## **Filtre des 10 premiers**
+Le filtre des 10 premiers est une forme spécialisée de filtre par valeur qui ne conserve que les N éléments les plus élevés ou les plus bas selon un champ de valeur choisi. Il est couramment utilisé pour classer des rapports tels que « 10 premiers produits par chiffre d’affaires » ou « 5 dernières régions par nombre de ventes ».
 
 {{% alert color="primary" %}}
-Le filtre des 10 meilleurs n'est efficace que lorsque le tableau croisé dynamique possède un ou plusieurs champs de valeur dans la zone de données. Sans au moins un champ de valeur, il n'y a aucune mesure agrégée pour classer les éléments, et le filtre ne peut pas être appliqué.
-Aspose.Cells expose le filtrage Top 10 via la méthode `PivotField.filterTop10(int valueFieldIndex, PivotFilterType filterType, boolean isTop, int itemCount)`. Le paramètre `valueFieldIndex` est l'index du champ de données dont les valeurs agrégées classent les éléments, `filterType` sélectionne l'unité de `itemCount` (`PivotFilterType.COUNT` conserve un nombre fixe d'éléments, `PivotFilterType.PERCENT` conserve un pourcentage des éléments, de sorte que `itemCount` est le pourcentage lui-même), `isTop` indique s'il faut conserver les premiers éléments (true) ou les derniers (false), et `itemCount` définit combien d'éléments, ou quel pourcentage, conserver.
-L'exemple suivant charge un classeur contenant un tableau croisé dynamique qui contient un champ de valeur, applique un filtre des 10 meilleurs pour ne conserver que les 10 éléments les plus élevés par la somme des ventes, actualise le tableau croisé dynamique, et enregistre le classeur.
+Le filtre des 10 premiers n’est efficace que lorsque le Tableau Croisé Dynamique contient un ou plusieurs champs de valeur dans la zone de données. Sans au moins un champ de valeur, il n’existe aucune mesure agrégée permettant de classer les éléments, et le filtre ne peut pas être appliqué.
+Aspose.Cells expose le filtrage des 10 premiers par l’intermédiaire de la méthode `PivotField.filterTop10(int valueFieldIndex, PivotFilterType filterType, boolean isTop, int itemCount)`. Le paramètre `valueFieldIndex` est l’index du champ de données dont les valeurs agrégées servent à classer les éléments, `filterType` sélectionne l’unité de `itemCount` (`PivotFilterType.COUNT` conserve un nombre fixe d’éléments, `PivotFilterType.PERCENT` conserve un pourcentage des éléments, de sorte que `itemCount` correspond lui-même au pourcentage), `isTop` indique s’il faut conserver les éléments les plus élevés (`true`) ou les plus bas (`false`), et `itemCount` définit le nombre d’éléments, ou le pourcentage, à conserver.
+L’exemple suivant charge un classeur contenant un Tableau Croisé Dynamique qui possède un champ de valeur, applique un filtre des 10 premiers afin de ne conserver que les 10 éléments les plus élevés selon la somme des ventes, actualise le Tableau Croisé Dynamique et enregistre le classeur.
 {{% /alert %}}
 
 ```java
 import com.aspose.cells.*;
-// Charger le classeur existant qui contient le tableau croisé dynamique
+// Load the existing workbook that contains the pivot table
 String inputPath = "input.xlsx";
 String outputPath = "output.xlsx";
 Workbook workbook = new Workbook(inputPath);
-// Accéder à la feuille de calcul qui contient le tableau croisé dynamique (index 0)
+// Access the worksheet that holds the pivot table (index 0)
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Accéder au tableau croisé dynamique par index
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.getPivotTables().get(0);
-// Confirmer qu'il y a au moins un PivotField de valeur dans la zone de données
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() == 0)
 {
     throw new RuntimeException("Pivot table has no value (data) PivotField.");
 }
 PivotField valueField = pivotTable.getDataFields().get(0);
-// Récupérer le PivotField de ligne cible (le champ sur lequel nous voulons appliquer Top 10)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 PivotField rowField = pivotTable.getRowFields().get(0);
-// Le premier (et seul) champ de données est à l'index 0 ; Top 10 classe selon lui.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 int valueFieldIndex = 0;
-// Appliquer le filtre Top 10 sur le champ de ligne :
+// Apply the Top 10 filter on the row field:
 //   - itemCount   = 10
 //   - filterType  = PivotFilterType.SUM
-//   - isTop       = true (top N ; false signifierait bottom N)
-//   - valueFieldIndex = l'index du champ de données utilisé pour classer les éléments
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, true, 10);
-// Actualiser les données du tableau croisé dynamique et les recalculer pour que le filtre prenne effet
-pivotTable.refreshData();
-// Enregistrer le classeur
+// Refresh the pivot table data and recalculate it so the filter takes effect
+pivotTable.getPivotCache().refresh();
+// Save the workbook
 workbook.save(outputPath);
 ```
 
-## **Filtrage par masquage ou affichage des éléments du tableau croisé dynamique**
-En plus des API de filtrage structuré, Aspose.Cells vous permet de contrôler directement la visibilité de chaque élément individuel du tableau croisé dynamique. En parcourant la collection `PivotItems` d'un `PivotField` et en basculant la propriété `IsHidden`, vous pouvez supprimer sélectivement des éléments spécifiques sans appliquer un filtre basé sur une formule. Définir `IsHidden = true` masque l'élément du tableau croisé dynamique ; définir `IsHidden = false` l'affiche à nouveau.
-Cette approche est utile lorsque la règle de filtrage est irrégulière ou spécifique à un élément, comme masquer un petit nombre de catégories nommées qui ne doivent pas apparaître dans un rapport particulier. L'exemple ci-dessous charge un tableau croisé dynamique, masque un élément spécifique par son nom, montre comment l'afficher, actualise le tableau croisé dynamique, et enregistre le classeur.
+## **Filtrage par masquage ou réaffichage des éléments du Tableau Croisé Dynamique**
+En plus des API de filtrage structuré, Aspose.Cells permet de contrôler directement la visibilité de chaque élément du Tableau Croisé Dynamique. En parcourant la collection `PivotItems` d’un `PivotField` et en basculant la propriété `IsHidden`, vous pouvez masquer sélectivement des éléments spécifiques sans appliquer de filtre fondé sur une formule. L’affectation de `IsHidden = true` masque l’élément du Tableau Croisé Dynamique ; l’affectation de `IsHidden = false` l’affiche à nouveau et le rend visible.
+Cette approche est utile lorsque la règle de filtrage est irrégulière ou spécifique à certains éléments, par exemple pour masquer un petit nombre de catégories nommées qui ne doivent pas apparaître dans un rapport donné. L’exemple ci-dessous charge un Tableau Croisé Dynamique, masque un élément spécifique par son nom, montre comment l’afficher à nouveau, actualise le Tableau Croisé Dynamique et enregistre le classeur.
 
 ```java
 import com.aspose.cells.*;
@@ -189,20 +189,20 @@ for (int i = 0; i < itemCount; i++)
     }
 }
 // Refresh and recalculate the pivot table so changes take effect
-pivotTable.refreshData();
+pivotTable.getPivotCache().refresh();
 // Save the workbook - hidden items stay in the underlying data
 // but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx");
 ```
 
 ## **Résumé**
-Aspose.Cells for Java fournit un ensemble complet de fonctionnalités de filtrage des tableaux croisés dynamiques qui correspondent à celles offertes par Microsoft Excel. Les filtres d'étiquette, de date et de valeur couvrent les scénarios analytiques les plus courants, tandis que le filtre des 10 meilleurs gère les rapports de classement. Lorsque la règle de filtrage est irrégulière, la propriété `PivotItem.IsHidden` offre une solution de secours flexible au niveau de l'élément. Combiner ces stratégies — par exemple, appliquer un filtre d'étiquette puis masquer des éléments spécifiques — vous permet de construire des rapports de tableau croisé dynamique précisément ciblés entièrement à partir du code.
+Aspose.Cells for Java fournit un ensemble complet de fonctionnalités de filtrage des tableaux croisés dynamiques qui correspondent à celles disponibles dans Microsoft Excel. Les filtres par libellé, par date et par valeur couvrent les scénarios d’analyse les plus courants, tandis que le filtre des 10 premiers gère les rapports de classement. Lorsque la règle de filtrage est irrégulière, la propriété `PivotItem.IsHidden` offre une solution de repli flexible au niveau de l’élément. La combinaison de ces stratégies — par exemple, l’application d’un filtre par libellé suivie du masquage d’éléments spécifiques — permet de créer des rapports de Tableaux Croisés Dynamiques précisément ciblés entièrement à partir du code.
 
-## Articles connexes
-- [Insertion d'un tableau croisé dynamique](/cells/fr/java/create-pivot-table/)
-- [Ajouter des champs de ligne et de colonne à un tableau croisé dynamique dans Aspose.Cells for Java](/cells/fr/java/pivot-table-add-row-and-column-fields/)
-- [Ajouter des champs de filtre à un tableau croisé dynamique dans Aspose.Cells for Java](/cells/fr/java/add-page-field-in-pivot-table/)
-- [Gérer les champs de valeur d'un tableau croisé dynamique dans Aspose.Cells for Java](/cells/fr/java/manage-value-fields/)
-- [Actualiser les tableaux croisés dynamiques et les caches de tableaux croisés dynamiques dans Aspose.Cells for Java](/cells/fr/java/refresh-pivot-table/)
+## Articles associés
+- [Insérer un Tableau Croisé Dynamique](/cells/fr/java/create-pivot-table/)
+- [Ajouter des champs de ligne et de colonne à un Tableau Croisé Dynamique dans Aspose.Cells for Java](/cells/fr/java/pivot-table-add-row-and-column-fields/)
+- [Ajouter des champs de filtre à un Tableau Croisé Dynamique dans Aspose.Cells for Java](/cells/fr/java/add-page-field-in-pivot-table/)
+- [Gérer les champs de valeur d’un Tableau Croisé Dynamique dans Aspose.Cells for Java](/cells/fr/java/manage-value-fields/)
+- [Actualiser les Tableaux Croisés Dynamiques et les caches de Tableau Croisé Dynamique dans Aspose.Cells for Java](/cells/fr/java/refresh-pivot-table/)
 
 {{< app/cells/assistant language="java" >}}

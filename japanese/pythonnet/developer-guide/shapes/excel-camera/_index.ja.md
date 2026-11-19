@@ -33,7 +33,7 @@ from aspose.cells import Workbook, SaveFormat
 workbook = Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "CameraDemo"
-# ダイナミックカメラ: 空の画像を追加し、数式を使用して A1:F10 にリンクし、更新する
+# Dynamic Camera: add an empty picture, link it via formula to A1:F10, then refresh
 pictures = worksheet.pictures
 index = pictures.add(10, 6, None)
 pictures[index].formula = "A1:F10"
@@ -56,7 +56,7 @@ from aspose.cells import Workbook, SaveFormat
 workbook = Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "CameraDemo"
-# 静的カメラ: Range を構築し、バイトにレンダリングし、BytesIO でラップしてピクチャとして追加
+# Static Camera: build Range, render to bytes, wrap in BytesIO, add as picture
 range_ = worksheet.cells.create_range("A1:F10")
 pictures = worksheet.pictures
 pictures.add(10, 6, BytesIO(range_.to_image(None)))

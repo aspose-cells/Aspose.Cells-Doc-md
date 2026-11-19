@@ -1,6 +1,6 @@
 ---
 title: PivotTable einfügen
-linktitle: PivotTable einfügen
+linktitle: Pivot-Tabellen
 description: Erstellen und formatieren Sie PivotTables mit Aspose.Cells for Node.js über C++.
 keywords: PivotTable erstellen, PivotTable einfügen, PivotTable formatieren.
 type: docs
@@ -35,12 +35,10 @@ Nach der Ausführung des Beispielcodes wird die PivotTable dem Arbeitsblatt hinz
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-
-// Erstellen Sie eine neue Arbeitsmappe und rufen Sie das erste Arbeitsblatt ab
+// Create a new workbook and get the first worksheet
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-
-// Schreiben Sie die Quelldaten: Umsätze pro Sportart und Quartal
+// Write the source data: sales per sport and quarter
 sheet.getCells().get("A1").putValue("Sport");
 sheet.getCells().get("B1").putValue("Quarter");
 sheet.getCells().get("C1").putValue("Sales");
@@ -65,16 +63,13 @@ sheet.getCells().get("C7").putValue(5000);
 sheet.getCells().get("A8").putValue("Golf");
 sheet.getCells().get("B8").putValue("Qtr3");
 sheet.getCells().get("C8").putValue(6430);
-
-// Fügen Sie in der Zielzelle E3 eine Pivot-Tabelle hinzu, die aus A1:C8 stammt
+// Add a pivot table at destination cell E3, sourced from A1:C8
 let pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// Weisen Sie die Pivot-Felder zu: Sportart zu Zeilen, Quartal zu Spalten, Umsätze zu Daten
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Quarter");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
-
-// Speichern Sie die Arbeitsmappe
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

@@ -13,6 +13,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ## **Möjliga användningsscenarier**
 Stilarna som beskrivs på föräldrasidan och på syskonsidan är statiska – ett `PivotArea`‑ eller `CellArea`‑område målas en gång och behåller sin stil oavsett vilka värden som finns. Villkorsstyrd formatering är den regelbaserade motsvarigheten – markera varje belopp över 200, skugga de mittersta femtio procenten av värdena, eller flagga de lägst rankade objekten – och markeringen följer värdena när pivottabellen återberäknas eller uppdateras.
 
+I Aspose.Cells för Node.js via Java finns pivottabellens villkorsstyrda formatering i samlingen `pivotTable.getConditionalFormats()`. Varje element är ett `PivotConditionalFormat` som svarar på två frågor oberoende av varandra:
+
+- **Var gäller regeln?** Målnområdet definieras antingen via `applyTo(int row, int column, PivotConditionFormatScopeType scope)`, vilket speglar urvalet av område i Excel‑gränssnittet, eller via `addCellArea(CellArea)` och samlingen `getPivotAreas()`, som namnger området explicit.
+- **Vad testar regeln?** En eller flera villkor läggs till i `getFormatConditions()` med `FormatConditionCollection.addCondition(FormatConditionType type, OperatorType operatorType, String formula1, String formula2)`, och varje villkor har sin egen `getStyle()`.
+
 {{% alert color="primary" %}}
 Anropa inte `FormatConditionCollection.add(CellArea cellArea, FormatConditionType type, OperatorType operatorType, String formula1, String formula2)` eller `FormatConditionCollection.addArea(CellArea)` på `getFormatConditions()`‑objektet för ett pivottabell‑villkorsformat. Dessa två överlagringar är ärvda från den vanliga kalkylblads‑API:n för villkorsstyrd formatering och fungerar inte för pivottabeller – cellområdet konverteras aldrig till ett pivotområde, så begäran ignoreras tyst. Definiera alltid området på själva `PivotConditionalFormat` (`applyTo`, `addCellArea` eller `getPivotAreas()`) och lägg till regeln med någon av `addCondition`‑överlagringarna.
 {{% /alert %}}
@@ -40,16 +45,16 @@ for (let i = 0; i < fruits.length; i++) {
     cells.get(i + 1, 1).putValue(years[i]);
     cells.get(i + 1, 2).putValue(amounts[i]);
 }
-// Pivottabell med dess övre vänstra hörn vid E3
+// Pivot table with its top-left corner at E3
 const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Ankrona det villkorsstyrda formatet vid F4 (rad 3, kolumn 5) med Data-omfånget
+// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 format.applyTo(3, 5, AsposeCells.PivotConditionFormatScopeType.DATA);
-// Regel - markera belopp som är större än 200
+// Rule - highlight amounts greater than 200
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CELL_VALUE,
     AsposeCells.OperatorType.GREATER_THAN,
@@ -93,7 +98,7 @@ const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Mål rektangeln F4:F6 (värdecellerna utan total)
+// Target the rectangle F4:F6 (the value cells without the grand total)
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 const cellArea = new AsposeCells.CellArea();
@@ -102,7 +107,7 @@ cellArea.StartColumn = 5;
 cellArea.EndRow = 5;
 cellArea.EndColumn = 5;
 format.addCellArea(cellArea);
-// Regel - kursiv på ljusgul för belopp mellan 150 och 300
+// Rule - italic on light yellow for amounts between 150 and 300
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CELL_VALUE,
     AsposeCells.OperatorType.BETWEEN,
@@ -140,13 +145,13 @@ const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Bifoga regeln till datafältet Amount som ett semantiskt område
+// Attach the rule to the Amount data field as a semantic region
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 const area = new AsposeCells.PivotArea(pivotTable);
 area.selectField(AsposeCells.PivotFieldType.DATA, "Amount");
 format.getPivotAreas().addPivotArea(area);
-// Regel - grå text för belopp under 150
+// Rule - grey text for amounts below 150
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CELL_VALUE,
     AsposeCells.OperatorType.LESS_THAN,
@@ -181,10 +186,10 @@ for (let i = 0; i < conditionalFormats.getCount(); i++) {
         console.log(`    rows ${area.StartRow + 1}-${area.EndRow + 1}, columns ${area.StartColumn + 1}-${area.EndColumn + 1}`);
     }
 }
-// Detta skriver ut:
-// Villkorsformat: 1
-// Format 0: CellValue GreaterThan formula1==200
-//     rader 4-7, kolumner 6-6        (F4:F7, det upplösta dataområdet)
+// This prints:
+// Conditional formats: 1
+// Format 0: 1 2 formula1=200   (type 1 = CellValue, operator 2 = GreaterThan)
+//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **Relaterade artiklar**

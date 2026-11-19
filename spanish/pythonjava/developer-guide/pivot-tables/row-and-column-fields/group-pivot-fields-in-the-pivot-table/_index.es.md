@@ -1,6 +1,6 @@
 ---
 title: Agrupar Campos Dinámicos en la Tabla Dinámica
-linktitle: Agrupar Campos Dinámicos en la Tabla Dinámica
+linktitle: Agrupar campos dinámicos
 description: Aprenda a agrupar campos dinámicos de filas y columnas en una tabla dinámica en períodos de fechas como meses y trimestres, y en rangos numéricos usando PivotField.group y PivotFieldGroupOptions en Aspose.Cells for Python via Java.
 keywords: Aspose.Cells, tabla dinámica, agrupar campo dinámico, PivotField.group, PivotFieldGroupOptions, agrupación por fechas, agrupación por números, meses, trimestres, rango numérico, Python
 type: docs
@@ -23,15 +23,15 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-# Cargar el libro de muestra
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Acceder a la segunda hoja de cálculo y su tabla dinámica
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# Agrupar el primer campo de fila automáticamente.
-# El campo contiene fechas, por lo que se agrupa por meses.
+# Group the first row field automatically.
+# The field contains dates, so it is grouped by months.
 field = pt.getRowFields().get(0)
 field.group()
-# Calcular los datos de la tabla dinámica y guardar el archivo de salida
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputAutoGroupPivotField.xlsx")
 jpype.shutdownJVM()
@@ -49,17 +49,17 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldGroupOptions, PivotGroupByType, DateTime
-# Cargar el libro de muestra
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Acceder a la segunda hoja de cálculo y su tabla dinámica
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# Agrupar el primer campo de fila (un campo de fecha) por meses y trimestres
+# Group the first row field (a date field) by months and quarters
 options = PivotFieldGroupOptions()
 options.setStartDate(DateTime(2008, 1, 1))
 options.setEndDate(DateTime(2008, 9, 5))
 options.setGroupTypes([PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS])
 pt.getRowFields().get(0).group(options)
-# Calcular los datos de la tabla dinámica y guardar el archivo de salida
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 jpype.shutdownJVM()
@@ -75,21 +75,21 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType, PivotFieldGroupOptions
-# Cargar el libro de muestra
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Acceder a la segunda hoja de cálculo y su tabla dinámica
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# FieldTwo es un campo de datos: muévalo al área de filas primero,
-# porque solo los campos de fila/columna pueden agruparse
+# FieldTwo is a data field: move it to the row area first,
+# because only row/column fields can be grouped
 pt.addFieldToArea(PivotFieldType.ROW, "FieldTwo")
 pt.calculateData()
-# Agrupar el campo numérico en los rangos 0-1, 2-3, 4-5
+# Group the numeric field into the ranges 0-1, 2-3, 4-5
 options = PivotFieldGroupOptions()
 options.setStartNumber(0)
 options.setEndNumber(5)
 options.setInterval(2)
 pt.getRowFields().get(1).group(options)
-# Calcular los datos de la tabla dinámica y guardar el archivo de salida
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputNumberGroupPivotField.xlsx")
 jpype.shutdownJVM()

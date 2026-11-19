@@ -36,12 +36,10 @@ Aspose.Cells for Python via .NET は、ピボットテーブルの作成と制�
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-
-# 新しいワークブックを作成し、最初のワークシートを取得する
+# Create a new workbook and get the first worksheet
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-
-# ソースデータ（スポーツと四半期ごとの売上）を書き込む
+# Write the source data: sales per sport and quarter
 sheet.cells.get("A1").put_value("Sport")
 sheet.cells.get("B1").put_value("Quarter")
 sheet.cells.get("C1").put_value("Sales")
@@ -66,16 +64,13 @@ sheet.cells.get("C7").put_value(5000)
 sheet.cells.get("A8").put_value("Golf")
 sheet.cells.get("B8").put_value("Qtr3")
 sheet.cells.get("C8").put_value(6430)
-
-# 宛先セル E3 に、A1:C8 をデータソースとするピボットテーブルを追加する
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivot_table = sheet.pivot_tables.add("A1:C8", 2, 4)
-
-# ピボットフィールドを割り当てる: Sport を行、Quarter を列、Sales をデータに割り当てる
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Quarter")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
-
-# ワークブックを保存する
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

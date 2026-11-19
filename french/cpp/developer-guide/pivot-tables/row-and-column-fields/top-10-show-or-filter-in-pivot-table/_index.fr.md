@@ -87,7 +87,7 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
     pivotTable.CalculateData();
     PivotField sportField = pivotTable.GetRowFields().Get(0);
-    // Afficher les 2 principaux éléments classés par « Somme des ventes » (index 0 du champ de données)
+    // Show the top 2 items ranked by "Sum of Sales" (data field index 0)
     sportField.Top10AutoShow(true, true, 2, 0);
     pivotTable.CalculateData();
     workbook.Save(u"output-top10-by-value-field.xlsx");
@@ -160,7 +160,7 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
     pivotTable.CalculateData();
     PivotField sportField = pivotTable.GetRowFields().Get(0);
-    // Afficher les 3 derniers éléments classés par le champ lui-même (rankBy = -1)
+    // Show the bottom 3 items ranked by the field itself (rankBy = -1)
     sportField.Top10AutoShow(true, false, 3, -1);
     pivotTable.CalculateData();
     workbook.Save(u"output-top10-by-field-itself.xlsx");
@@ -269,9 +269,9 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
     pivotTable.CalculateData();
     PivotField sportField = pivotTable.GetRowFields().Get(0);
-    // Filtre Top 10 — conserver les 2 premiers éléments selon « Sum of Sales » (index 0 du champ de données)
+    // Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
     PivotFilter filter = sportField.FilterTop10(0, PivotFilterType::Count, true, 2);
-    // Pour utiliser plutôt un filtre basé sur un pourcentage, conserver les 30 % premiers éléments :
+    // For a percentage-based filter instead, keep the top 30 percent of the items:
     // sportField.FilterTop10(0, PivotFilterType::Percent, true, 30);
     pivotTable.GetPivotCache().Refresh();
     pivotTable.CalculateData();

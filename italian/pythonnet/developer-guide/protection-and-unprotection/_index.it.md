@@ -39,19 +39,19 @@ Excel supporta due distinti livelli di password. Il primo è una password per ap
 
 ```python
 import aspose.cells as ac
-# Crea una nuova cartella di lavoro da zero
+# Create a new workbook from scratch
 workbook = ac.Workbook()
-# Scrivi un valore di esempio nella cella A1 del primo foglio di lavoro
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get("A1").put_value("Sample Data")
-# Configura la protezione da scrittura: imposta la password per modificare e l'autore
+# Configure the write protection: set the password to modify and the author
 workbook.settings.write_protection.password = "ModifyPwd"
 workbook.settings.write_protection.author = "AuthorName"
-# Salva la cartella di lavoro in modo che la protezione da scrittura venga mantenuta
+# Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx")
-# Convalida la password per modificare utilizzando la password corretta
+# Validate the password to modify using the correct password
 is_correct_valid = workbook.settings.write_protection.validate_password("ModifyPwd")
 print("ValidatePassword(\"ModifyPwd\") returned: " + str(is_correct_valid))
-# Convalida la password per modificare utilizzando una password errata per dimostrare l'altro ramo
+# Validate the password to modify using an incorrect password to demonstrate the other branch
 is_wrong_valid = workbook.settings.write_protection.validate_password("WrongPwd")
 print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 ```
@@ -61,22 +61,22 @@ La protezione della struttura della cartella di lavoro impedisce ad altri utenti
 
 ```python
 import aspose.cells as ac
-# Crea una nuova cartella di lavoro
+# Create a new workbook
 workbook = ac.Workbook()
-# Aggiungi un secondo foglio di lavoro
+# Add a second worksheet
 workbook.worksheets.add()
-# Scrivi un valore di esempio nella cella A1 del primo foglio di lavoro
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get(0, 0).put_value("Sample Data")
-# Proteggi la struttura della cartella di lavoro
+# Protect the workbook structure
 workbook.protect(ac.ProtectionType.STRUCTURE, "StructPwd")
-# Salva la cartella di lavoro come structure_protected.xlsx
+# Save the workbook as structure_protected.xlsx
 file_path = "structure_protected.xlsx"
 workbook.save(file_path)
-# Ricarica il file in una nuova istanza della cartella di lavoro
+# Reload the file into a new Workbook instance
 loaded_workbook = ac.Workbook(file_path)
-# Rimuovi la protezione della struttura
+# Remove the structure protection
 loaded_workbook.unprotect("StructPwd")
-# Stampa il messaggio di conferma
+# Print confirmation message
 print("Structure protection has been successfully removed from the workbook.")
 ```
 

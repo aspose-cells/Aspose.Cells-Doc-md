@@ -1,6 +1,6 @@
 ---
 title: 使用 Aspose.Cells for JavaScript via C++ 将迷你图转换为图像和 HTML
-linktitle: 使用 Aspose.Cells for JavaScript via C++ 将迷你图转换为图像和 HTML
+linktitle: 将迷你图转换为图像和HTML
 description: 了解如何使用 HtmlSaveOptions 将 Aspose.Cells 迷你图呈现为可嵌入单元格的独立图像，并将包含迷你图的工作表导出为 HTML
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, 迷你图, sparkline.toImage, cell.embeddedImage, HtmlSaveOptions, 呈现迷你图, 将迷你图转换为图像, 将迷你图导出为 HTML
 type: docs
@@ -54,17 +54,17 @@ Aspose.Cells 支持这两种操作。`sparkline.toImage` 方法将单个迷你�
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // 创建一个新的工作簿并访问第一个工作表
+            // Create a new workbook and access the first worksheet
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // 在 A1:E1 单元格中填充示例数据
+            // Populate sample data in cells A1:E1
             cells.get("A1").value = 5;
             cells.get("B1").value = -3;
             cells.get("C1").value = 8;
             cells.get("D1").value = -2;
             cells.get("E1").value = 6;
-            // 添加以 F1（列 5，行 0）为锚点的折线迷你图组
+            // Add a Line sparkline group anchored at F1 (column 5, row 0)
             const lineArea = new CellArea();
             lineArea.startColumn = 5;
             lineArea.endColumn = 5;
@@ -76,7 +76,7 @@ Aspose.Cells 支持这两种操作。`sparkline.toImage` 方法将单个迷你�
                 false,
                 lineArea
             );
-            // 添加以 G1（列 6，行 0）为锚点的列迷你图组
+            // Add a Column sparkline group anchored at G1 (column 6, row 0)
             const columnArea = new CellArea();
             columnArea.startColumn = 6;
             columnArea.endColumn = 6;
@@ -88,7 +88,7 @@ Aspose.Cells 支持这两种操作。`sparkline.toImage` 方法将单个迷你�
                 false,
                 columnArea
             );
-            // 添加以 H1（列 7，行 0）为锚点的盈亏（堆积）迷你图组
+            // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
             const stackedArea = new CellArea();
             stackedArea.startColumn = 7;
             stackedArea.endColumn = 7;
@@ -100,19 +100,19 @@ Aspose.Cells 支持这两种操作。`sparkline.toImage` 方法将单个迷你�
                 false,
                 stackedArea
             );
-            // 配置 PNG 输出的图像选项
+            // Configure image options for PNG output
             const imageOptions = new ImageOrPrintOptions();
             imageOptions.imageType = AsposeCells.ImageType.Png;
-            // 将折线迷你图转换为图像并嵌入 F2 单元格
+            // Convert the Line sparkline to image and embed it in cell F2
             const lineSp = worksheet.sparklineGroups.get(lineIdx).sparklines.get(0);
             cells.get("F2").embeddedImage = lineSp.toImage(imageOptions);
-            // 将列迷你图转换为图像并嵌入 G2 单元格
+            // Convert the Column sparkline to image and embed it in cell G2
             const columnSp = worksheet.sparklineGroups.get(columnIdx).sparklines.get(0);
             cells.get("G2").embeddedImage = columnSp.toImage(imageOptions);
-            // 将盈亏迷你图转换为图像并嵌入 H2 单元格
+            // Convert the Win/Loss sparkline to image and embed it in cell H2
             const stackedSp = worksheet.sparklineGroups.get(stackedIdx).sparklines.get(0);
             cells.get("H2").embeddedImage = stackedSp.toImage(imageOptions);
-            // 将工作簿保存到磁盘
+            // Save the workbook to disk
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

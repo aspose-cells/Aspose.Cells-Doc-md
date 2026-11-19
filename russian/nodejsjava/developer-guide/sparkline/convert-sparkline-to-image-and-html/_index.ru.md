@@ -37,52 +37,52 @@ Aspose.Cells поддерживает обе эти операции. Метод
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// Заполнение образцов данных в ячейках A1:E1
+// Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Добавление группы спарклайнов "Линия" с привязкой к F1 (столбец 5, строка 0)
+// Add a Line sparkline group anchored at F1 (column 5, row 0)
 let lineArea = new AsposeCells.CellArea();
 lineArea.StartColumn = 5;
 lineArea.EndColumn = 5;
 lineArea.StartRow = 0;
 lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
-// Добавление группы спарклайнов "Столбец" с привязкой к G1 (столбец 6, строка 0)
+// Add a Column sparkline group anchored at G1 (column 6, row 0)
 let columnArea = new AsposeCells.CellArea();
 columnArea.StartColumn = 6;
 columnArea.EndColumn = 6;
 columnArea.StartRow = 0;
 columnArea.EndRow = 0;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
-// Добавление группы спарклайнов "Победа/Поражение" (С накоплением) с привязкой к H1 (столбец 7, строка 0)
+// Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 let stackedArea = new AsposeCells.CellArea();
 stackedArea.StartColumn = 7;
 stackedArea.EndColumn = 7;
 stackedArea.StartRow = 0;
 stackedArea.EndRow = 0;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
-// Настройка параметров изображения для вывода в формате PNG
+// Configure image options for PNG output
 let imageOptions = new AsposeCells.ImageOrPrintOptions();
 imageOptions.setImageType(AsposeCells.ImageType.PNG);
-// Преобразование спарклайна "Линия" в изображение и встраивание его в ячейку F2
+// Convert the Line sparkline to image and embed it in cell F2
 let lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 let lineMs = new java.io.ByteArrayOutputStream();
 lineSp.toImage(lineMs, imageOptions);
 worksheet.getCells().get("F2").setEmbeddedImage(lineMs.toByteArray());
-// Преобразование спарклайна "Столбец" в изображение и встраивание его в ячейку G2
+// Convert the Column sparkline to image and embed it in cell G2
 let columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0);
 let columnMs = new java.io.ByteArrayOutputStream();
 columnSp.toImage(columnMs, imageOptions);
 worksheet.getCells().get("G2").setEmbeddedImage(columnMs.toByteArray());
-// Преобразование спарклайна "Победа/Поражение" в изображение и встраивание его в ячейку H2
+// Convert the Win/Loss sparkline to image and embed it in cell H2
 let stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0);
 let stackedMs = new java.io.ByteArrayOutputStream();
 stackedSp.toImage(stackedMs, imageOptions);
 worksheet.getCells().get("H2").setEmbeddedImage(stackedMs.toByteArray());
-// Сохранение книги на диск
+// Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx");
 ```
 

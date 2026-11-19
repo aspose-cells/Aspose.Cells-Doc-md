@@ -1,6 +1,6 @@
 ---
 title: 使用 Aspose.Cells for JavaScript via C++ 在数据透视表中添加筛选字段
-linktitle: 使用 Aspose.Cells for JavaScript via C++ 在数据透视表中添加筛选字段
+linktitle: 添加筛选字段
 description: 了解如何使用 Aspose.Cells for JavaScript via C++ 在数据透视表中添加和配置筛选字段，包括添加筛选字段、单选筛选和多选筛选。
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, 数据透视表, 筛选字段, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, 筛选
 type: docs
@@ -45,16 +45,16 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // 创建一个新的工作簿
+            // Create a new workbook
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "Data";
-            // 设置标题行
+            // Set up the header row
             const cells = worksheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // 填充 9 行示例数据：水果、年份、数量
+            // Populate 9 rows of sample data: Fruit, Year, Amount
             const data = [
                 ["apple", 2020, 100],
                 ["banana", 2021, 200],
@@ -71,15 +71,15 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
                 cells.get(i + 1, 1).value = data[i][1];
                 cells.get(i + 1, 2).value = data[i][2];
             }
-            // 添加一个以 E3 单元格为锚点的数据透视表
+            // Add a pivot table anchored at cell E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // 将字段添加到各自区域：水果作为行，数量作为数据，年份作为页字段
+            // Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-            // 刷新并计算数据透视表数据
+            // Refresh and calculate the pivot table data
             pivotTable.calculateData();
-            // 保存工作簿
+            // Save the workbook
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -118,19 +118,19 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // — 数据透视表和页字段的构造方式与
-            //   场景 1a 完全一致（Fruit/Year/Amount 数据，透视表位于 E3，Fruit→行，
-            //   Amount→数据）。下面从 BaseFields 集合中获取 Year PivotField，
-            //   并将其传给 PageFields.Add ——
-            //   这是 AddFieldToArea 的底层替代方法。结果在功能上
-            //   与场景 1a 完全相同。
+            // — The pivot table and page field are constructed exactly as in
+            //   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+            //   Amount→Data). Below we obtain the Year PivotField from the
+            //   BaseFields collection and pass it to PageFields.Add — the
+            //   low-level alternative to AddFieldToArea. The result is
+            //   functionally identical to Scenario 1a.
             const workbook = new Workbook();
             const sheet = workbook.worksheets.get(0);
-            // 标题
+            // Headers
             sheet.cells.get("A1").value = "Fruit";
             sheet.cells.get("B1").value = "Year";
             sheet.cells.get("C1").value = "Amount";
-            // 示例数据（9 行）
+            // Sample data (9 rows)
             sheet.cells.get("A2").value = "apple";    sheet.cells.get("B2").value = "2020"; sheet.cells.get("C2").value = 100;
             sheet.cells.get("A3").value = "apple";    sheet.cells.get("B3").value = "2021"; sheet.cells.get("C3").value = 150;
             sheet.cells.get("A4").value = "apple";    sheet.cells.get("B4").value = "2022"; sheet.cells.get("C4").value = 200;
@@ -140,16 +140,16 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
             sheet.cells.get("A8").value = "blueberry"; sheet.cells.get("B8").value = "2020"; sheet.cells.get("C8").value = 250;
             sheet.cells.get("A9").value = "blueberry"; sheet.cells.get("B9").value = "2021"; sheet.cells.get("C9").value = 350;
             sheet.cells.get("A10").value = "blueberry"; sheet.cells.get("B10").value = "2022"; sheet.cells.get("C10").value = 450;
-            // 在 E3 处添加数据透视表，涵盖 A1:C10
+            // Add pivot table at E3 covering A1:C10
             const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
-            // Fruit → 行，Amount → 数据（Year 将在下方添加到 Page）
+            // Fruit -> Row, Amount -> Data (Year will go to Page below)
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // 底层方法：从 BaseFields 中获取现有的 Year PivotField，
-            // 并通过 PageFields.Add(PivotField) 将其注册到 Page 区域。
+            // Low-level approach: grab the existing Year PivotField from BaseFields
+            // and register it in the Page area via PageFields.Add(PivotField).
             const yearField = pivotTable.baseFields.get("Year");
             pivotTable.pageFields.add(yearField);
-            // 刷新，使新的页字段反映在保存的工作簿中
+            // Refresh so the new page field is reflected in the saved workbook
             pivotTable.calculateData();
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -192,10 +192,10 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
             document.getElementById('runExample').disabled = false;
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // 创建一个新的工作簿
+            // Create a new workbook
             const workbook = new Workbook();
             const sheet = workbook.worksheets.get(0);
-            // 填充水果/年份/金额数据
+            // Populate Fruit/Year/Amount data
             const cells = sheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
@@ -213,17 +213,17 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
                     cells.get(r + 1, c).value = data[r][c];
                 }
             }
-            // 在 E3 处创建数据透视表
+            // Create pivot table at E3
             const pivotTables = sheet.pivotTables;
             const pivotTable = pivotTables.add("=A1:C7", 2, 4);
-            // 配置数据透视字段：水果→行，金额→值，年份→页面
+            // Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
             pivotTable.calculateData();
-            // 清除页面筛选器，使页面字段中的所有项都可见。
-            // 0x7FFD（十进制 32765）是表示“所有项”的特殊哨兵值——
-            // 等同于在 Excel 的页面字段下拉列表中选择“(全部)”。
+            // Clear the page filter so every item in the page field is visible.
+            // 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+            // equivalent to selecting "(All)" in Excel's page-field dropdown.
             pivotTable.pageFields.get(0).currentPageItem = 0x7FFD;
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -263,11 +263,11 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
                 console.log("Aspose.Cells initialized");
             });
             document.getElementById("runExample").addEventListener("click", async () => {
-                // 创建工作簿
+                // Create workbook
                 const workbook = new Workbook();
                 const sheet = workbook.worksheets.get(0);
                 const cells = sheet.cells;
-                // 添加示例数据（水果/年份/金额）
+                // Add sample data (Fruit/Year/Amount)
                 cells.get("A1").value = "Fruit";
                 cells.get("B1").value = "Year";
                 cells.get("C1").value = "Amount";
@@ -283,16 +283,16 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
                 cells.get("A5").value = "Banana";
                 cells.get("B5").value = "2021";
                 cells.get("C5").value = "250";
-                // 在 E3 处添加数据透视表
+                // Add pivot table at E3
                 const pivotTables = sheet.pivotTables;
                 const pivotTable = pivotTables.add("=A1:C5", 2, 4);
-                // 添加字段：水果→行，金额→数据，年份→页
+                // Add fields: Fruit→Row, Amount→Data, Year→Page
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-                // 页字段特定操作
-                pivotTable.pageFields.get(0).currentPageItem = 1; // 1 = 排序顺序中的第二项（例如 "2021"）
-                // 刷新并计算数据透视表
+                // Page-field-specific operations
+                pivotTable.pageFields.get(0).currentPageItem = 1; // 1 = second item in sorted order (e.g. "2021")
+                // Refresh and calculate pivot table
                 pivotTable.calculateData();
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
@@ -334,14 +334,14 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
             });
             document.getElementById('runExample').addEventListener('click', async () => {
                 await initializationPromise;
-                // — 数据透视表和页字段的构建方式与
-                //   场景 1a 完全相同（Fruit/Year/Amount 数据，透视表位于 E3，Fruit→行，
-                //   Amount→数据，Year→页，通过 AddFieldToArea 添加）。
-                //   接下来对页字段应用多选筛选。
+                // — The pivot table and page field are constructed exactly as in
+                //   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+                //   Amount→Data, Year→Page via AddFieldToArea).
+                //   Below we apply multi-select filtering on the page field.
                 const workbook = new Workbook();
                 const sheet = workbook.worksheets.get(0);
                 const cells = sheet.cells;
-                // 示例数据：Fruit | Year | Amount
+                // Sample data: Fruit | Year | Amount
                 cells.get(0, 0).value = "Fruit";
                 cells.get(0, 1).value = "Year";
                 cells.get(0, 2).value = "Amount";
@@ -367,15 +367,15 @@ Aspose.Cells 完整支持数据透视表中筛选字段的整个生命周期。�
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-                // — 在页字段上启用多选
+                // — Enable multi-select on the page field
                 const pageField = pivotTable.pageFields.get(0);
                 pageField.isMultipleItemSelectionAllowed = true;
                 const pivotItems = pageField.pivotItems;
-                // A 部分 — 选择所有项（使每个项均可见）
+                // Part A — select ALL items (make every item visible)
                 for (let i = 0; i < pivotItems.count; i++) {
                     pivotItems.get(i).isHidden = false;
                 }
-                // B 部分 — 根据源值仅选择特定项
+                // Part B — select only specific items by source value
                 for (let i = 0; i < pivotItems.count; i++) {
                     const pivotItem = pivotItems.get(i);
                     switch (pivotItem.getStringValue()) {

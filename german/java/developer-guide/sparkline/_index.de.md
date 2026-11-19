@@ -31,34 +31,34 @@ Das folgende Beispiel erstellt eine Arbeitsmappe, schreibt die Werte 5, -3, 8, -
 
 ```java
 import com.aspose.cells.*;
-// Schritt 1: Erstellen Sie eine Workbook und holen Sie sich das erste Arbeitsblatt
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
-// Schritt 2: Schreiben Sie die Beispielwerte 5, -3, 8, -2, 6 in die Zellen A1:E1
+// Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
 cells.get("A1").putValue(5);
 cells.get("B1").putValue(-3);
 cells.get("C1").putValue(8);
 cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
-// Schritt 3: Erstellen Sie eine CellArea, die auf die Zielzelle F1 zeigt
+// Step 3: Build a CellArea pointing to destination cell F1
 CellArea dest = new CellArea();
-dest.StartColumn = 5;   // Spalte F (0-indexiert)
+dest.StartColumn = 5;   // column F (0-indexed)
 dest.EndColumn = 5;
-dest.StartRow = 0;      // Zeile 1 (0-indexiert)
+dest.StartRow = 0;      // row 1 (0-indexed)
 dest.EndRow = 0;
-// Schritt 4: Fügen Sie eine Linien-Sparkline von A1:E1 in F1 hinzu
-// SparklineGroups.add gibt den Index der neu hinzugefügten Gruppe zurück
+// Step 4: Add a Line sparkline from A1:E1 into F1
+// SparklineGroups.add returns the index of the newly added group
 int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(index);
-// Schritt 5: Erstellen Sie eine rote CellsColor und weisen Sie sie der Sparkline-Linienfarbe zu
+// Step 5: Create a red CellsColor and assign it to the sparkline line color
 CellsColor red = workbook.createCellsColor();
 red.setColor(com.aspose.cells.Color.getRed());
 group.setSeriesColor(red);
-// Schritt 6: Aktivieren Sie die Hochpunkt- und Tiefpunkt-Markierungen
+// Step 6: Enable high-point and low-point markers
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
-// Schritt 7: Speichern Sie die Arbeitsmappe
+// Step 7: Save the workbook
 workbook.save("output_line.xlsx");
 ```
 
@@ -76,23 +76,23 @@ Das folgende Beispiel schreibt die Werte 5, -3, 8, -2, 6 nach A1:E1 und rendert 
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Beispielwerte in A1:E1 schreiben
+// Write sample values into A1:E1
 int[] values = new int[] { 5, -3, 8, -2, 6 };
 for (int i = 0; i < values.length; i++) {
     worksheet.getCells().get(0, i).putValue(values[i]);
 }
-// Eine CellArea erstellen, die auf F1 zeigt (Spaltenindex 5, Zeilenindex 0)
+// Build a CellArea pointing to F1 (column index 5, row index 0)
 CellArea dest = new CellArea();
 dest.StartColumn = 5;
 dest.EndColumn = 5;
 dest.StartRow = 0;
 dest.EndRow = 0;
-// Eine Spalten-Sparkline zur Zielzelle hinzufügen
+// Add a Column sparkline to the destination cell
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
-// Den Sparkline-Typ durch Lesen von group.Type bestätigen
+// Confirm the sparkline type by reading group.Type
 System.out.println("Sparkline Type added: " + group.getType());
-// Die Arbeitsmappe speichern
+// Save the workbook
 workbook.save("output_column.xlsx");
 System.out.println("Workbook saved as output_column.xlsx");
 ```
@@ -112,42 +112,42 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
-// Beispieldaten einfügen
+// Populate sample data
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Eine CellArea erstellen, die auf F1 zeigt (Spalte 5, Zeile 0)
+// Build a CellArea pointing to F1 (column 5, row 0)
 CellArea dest = new CellArea();
 dest.StartColumn = 5;
 dest.EndColumn = 5;
 dest.StartRow = 0;
 dest.EndRow = 0;
-// Eine Win/Loss-Sparkline hinzufügen (SparklineType.Stacked)
+// Add a Win/Loss sparkline (SparklineType.Stacked)
 int groupIndex = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(groupIndex);
-// Die Sparkline-Gruppe anpassen
+// Customize the sparkline group
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
-// Die Farbe des Höchstpunkts auf Grün setzen
+// Set the high-point color to green
 CellsColor highColor = workbook.createCellsColor();
 highColor.setColor(Color.getGreen());
 group.setHighPointColor(highColor);
-// Die Farbe des Tiefstpunkts auf Rot setzen
+// Set the low-point color to red
 CellsColor lowColor = workbook.createCellsColor();
 lowColor.setColor(Color.getRed());
 group.setLowPointColor(lowColor);
-// Die Farbe des Negativpunkts auf Orange setzen
+// Set the negative-point color to orange
 CellsColor negColor = workbook.createCellsColor();
 negColor.setColor(Color.getOrange());
 group.setNegativePointsColor(negColor);
-// Die Standardreihenfarbe festlegen (für positive Balken verwendet)
+// Set the default series color (used for positive bars)
 CellsColor seriesColor = workbook.createCellsColor();
-seriesColor.setColor(Color.fromArgb(70, 130, 180)); // SteelBlue-Näherung
+seriesColor.setColor(Color.fromArgb(70, 130, 180)); // SteelBlue approximation
 group.setSeriesColor(seriesColor);
-// Die Arbeitsmappe speichern
+// Save the workbook
 workbook.save("output_winloss.xlsx");
 System.out.println("Workbook saved successfully: output_winloss.xlsx");
 ```
@@ -157,40 +157,40 @@ Das folgende kombinierte Beispiel erstellt eine einzelne Arbeitsmappe, füllt Ze
 
 ```java
 import com.aspose.cells.*;
-// Schritt 1: Erstellen Sie eine Arbeitsmappe und holen Sie das erste Arbeitsblatt
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Schritt 2: Füllen Sie Beispieldaten in Zeile 1 (A1:E1)
+// Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Schritt 3: Fügen Sie eine Linien-Sparkline-Gruppe bei F1 hinzu
-CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5); // Fix: Verwenden Sie die statische Factory-Methode
+// Step 3: Add a Line sparkline group at F1
+CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5); // Fix: Use static factory method
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
 SparklineGroup lineGroup = worksheet.getSparklineGroups().get(lineIdx);
-// Passen Sie die Farbe der Linien-Sparkline über CellsColor an
+// Customize the line sparkline color via CellsColor
 CellsColor lineColor = workbook.createCellsColor();
 lineColor.setColor(com.aspose.cells.Color.getBlue());
 lineGroup.setSeriesColor(lineColor);
-// Schritt 4: Fügen Sie eine Säulen-Sparkline-Gruppe bei F2 hinzu
-CellArea columnArea = CellArea.createCellArea(1, 5, 1, 5); // Fix: Verwenden Sie die statische Factory-Methode
+// Step 4: Add a Column sparkline group at F2
+CellArea columnArea = CellArea.createCellArea(1, 5, 1, 5); // Fix: Use static factory method
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
 SparklineGroup columnGroup = worksheet.getSparklineGroups().get(columnIdx);
-// Passen Sie die Farbe der Säulen-Sparkline-Serie an
+// Customize the column sparkline series color
 CellsColor columnColor = workbook.createCellsColor();
 columnColor.setColor(com.aspose.cells.Color.getGreen());
 columnGroup.setSeriesColor(columnColor);
-// Schritt 5: Fügen Sie eine Gewinn/Verlust (gestapelte) Sparkline-Gruppe bei F3 hinzu
-CellArea stackedArea = CellArea.createCellArea(2, 5, 2, 5); // Fix: Verwenden Sie die statische Factory-Methode
+// Step 5: Add a Win/Loss (Stacked) sparkline group at F3
+CellArea stackedArea = CellArea.createCellArea(2, 5, 2, 5); // Fix: Use static factory method
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
 SparklineGroup stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
-// Passen Sie die Farbe der Gewinn/Verlust-Sparkline-Serie an
+// Customize the win/loss sparkline series color
 CellsColor stackedColor = workbook.createCellsColor();
 stackedColor.setColor(com.aspose.cells.Color.getDarkOrange());
 stackedGroup.setSeriesColor(stackedColor);
-// Schritt 6: Speichern Sie die Arbeitsmappe
+// Step 6: Save the workbook
 workbook.save("output_all.xlsx");
 ```
 

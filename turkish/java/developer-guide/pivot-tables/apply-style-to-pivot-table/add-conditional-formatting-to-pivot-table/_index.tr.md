@@ -44,16 +44,16 @@ for (int i = 0; i < fruits.length; i++)
     cells.get(i + 1, 1).putValue(years[i]);
     cells.get(i + 1, 2).putValue(amounts[i]);
 }
-// Pivot tablosu, sol üst köşesi E3'te
+// Pivot table with its top-left corner at E3
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C7", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Koşullu biçimi F4'te (satır 3, sütun 5) Veri kapsamıyla sabitle
+// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 int index = pivotTable.getConditionalFormats().add();
 PivotConditionalFormat format = pivotTable.getConditionalFormats().get(index);
 format.applyTo(3, 5, PivotConditionFormatScopeType.DATA);
-// Kural - 200'den büyük tutarları vurgula
+// Rule - highlight amounts greater than 200
 int conditionIndex = format.getFormatConditions().addCondition(
         FormatConditionType.CELL_VALUE, OperatorType.GREATER_THAN, "200", null);
 Style style = workbook.createStyle();
@@ -138,13 +138,13 @@ PivotTable pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Kuralı, Amount veri alanına anlamsal bir bölge olarak ilişkilendir
+// Attach the rule to the Amount data field as a semantic region
 int index = pivotTable.getConditionalFormats().add();
 PivotConditionalFormat format = pivotTable.getConditionalFormats().get(index);
 PivotArea area = new PivotArea(pivotTable);
 area.selectField(PivotFieldType.DATA, "Amount");
 format.getPivotAreas().addPivotArea(area);
-// Kural - 150'nin altındaki miktarlar için gri metin
+// Rule - grey text for amounts below 150
 int conditionIndex = format.getFormatConditions().addCondition(
         FormatConditionType.CELL_VALUE, OperatorType.LESS_THAN, "150", null);
 Style style = workbook.createStyle();
@@ -175,10 +175,10 @@ for (int i = 0; i < pivotTable.getConditionalFormats().getCount(); i++)
                 + ", columns " + (area.StartColumn + 1) + "-" + (area.EndColumn + 1));
     }
 }
-// Bu şu çıktıyı verir:
-// Koşullu biçimler: 1
-// Biçim 0: CellValue GreaterThan formula1==200
-//     satırlar 4-7, sütunlar 6-6        (F4:F7, çözülen veri bölgesi)
+// This prints:
+// Conditional formats: 1
+// Format 0: CellValue GreaterThan formula1==200
+//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **İlgili Makaleler**

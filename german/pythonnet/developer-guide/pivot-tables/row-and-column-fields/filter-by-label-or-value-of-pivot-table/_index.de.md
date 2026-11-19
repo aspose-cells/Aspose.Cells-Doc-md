@@ -34,19 +34,19 @@ import aspose.cells as ac
 from aspose.cells.pivot import PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
-# Laden der vorhandenen Arbeitsmappe, die eine Pivot-Tabelle enthält
+# Load the existing workbook containing a pivot table
 workbook = ac.Workbook(fileName)
-# Zugriff auf das Arbeitsblatt nach Index (erstes Arbeitsblatt)
+# Access the worksheet by index (first worksheet)
 worksheet = workbook.worksheets[0]
-# Zugriff auf die Pivot-Tabelle nach Index
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# Abrufen des ersten Zeilen-PivotFields
+# Retrieve the first row PivotField
 row_field = pivot_table.row_fields[0]
-# Anwenden des Beschriftungsfilters – nur Zeilenelemente anzeigen, deren Beschriftungen mit dem angegebenen Präfix beginnen
+# Apply the label filter — show only row items whose labels begin with the supplied prefix
 row_field.filter_by_label(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
-# Aktualisieren und Neuberechnen der Pivot-Tabellen-Daten, damit der Filter wirksam wird
+# Refresh and recalculate the pivot table data so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# Speichern der Arbeitsmappe zurück auf die Festplatte
+# Save the workbook back to disk
 workbook.save(fileName)
 ```
 
@@ -68,23 +68,23 @@ input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
     raise FileNotFoundError("Source workbook not found.", input_path)
-# Laden Sie die vorhandene Arbeitsmappe, die die Pivot-Tabelle enthält
+# Load the existing workbook that contains the pivot table
 workbook = ac.Workbook(input_path)
-# Greifen Sie auf das Arbeitsblatt zu, das die Pivot-Tabelle enthält (nach Index)
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.worksheets[0]
-# Greifen Sie über den Index auf die Pivot-Tabelle zu
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# Rufen Sie das Datums-PivotField aus dem Zeilenbereich ab
-# (Datumsfilter funktioniert nur, wenn der Zeilen-/Spaltenbereich nur Datums-/Uhrzeit-Zellen oder leere Zellen enthält)
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 date_field = pivot_table.row_fields[0]
-# Definieren Sie das Datumskriterium für den Zwischen-Filter
+# Define the date criterion for the Between filter
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
-# Wenden Sie den Datumsfilter auf das Pivot-Feld an
+# Apply the date filter on the pivot field
 date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
-# Aktualisieren und berechnen Sie die Pivot-Tabelle neu, damit der Filter wirksam wird
+# Refresh and recalculate the pivot table so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# Speichern Sie die Arbeitsmappe
+# Persist the workbook
 workbook.save(output_path)
 ```
 
@@ -101,7 +101,7 @@ worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
 row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
-# Da PivotFieldCollection keine IndexOf-Methode besitzt, wird der Index des Datenfelds manuell ermittelt
+# Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 data_field_index = -1
 for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
@@ -125,31 +125,31 @@ Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, die ein W
 ```python
 import aspose.cells as ac
 import aspose.cells.pivot as acp
-# Laden der vorhandenen Arbeitsmappe, die die Pivot-Tabelle enthält
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = ac.Workbook(inputPath)
-# Zugriff auf das Arbeitsblatt, das die Pivot-Tabelle enthält (Index 0)
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.worksheets[0]
-# Zugriff auf die Pivot-Tabelle über den Index
+# Access the pivot table by index
 pivotTable = worksheet.pivot_tables[0]
-# Sicherstellen, dass mindestens ein Wert-PivotField im Datenbereich vorhanden ist
+# Confirm there is at least one value PivotField in the data area
 if len(pivotTable.data_fields) == 0:
-    raise Exception("Die Pivot-Tabelle enthält kein Wert-PivotField.")
+    raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
-# Abrufen des Ziel-Zeilen-PivotFields (das Feld, auf das Top 10 angewendet werden soll)
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.row_fields[0]
-# Das erste (und einzige) Datenfeld befindet sich am Index 0; Top 10 ordnet danach.
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# Anwenden des Top-10-Filters auf das Zeilenfeld:
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true (Top N; false würde Bottom N bedeuten)
-#   - valueFieldIndex = der Index des Datenfelds, das zum Sortieren verwendet wird
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
-# Aktualisieren der Pivot-Tabellen-Daten und Neuberechnung, damit der Filter wirksam wird
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.pivot_cache.refresh()
-# Speichern der Arbeitsmappe
+# Save the workbook
 workbook.save(outputPath)
 ```
 
@@ -159,28 +159,28 @@ Dieser Ansatz ist nützlich, wenn die Filterregel unregelmäßig oder elementspe
 
 ```python
 import aspose.cells as ac
-# Laden Sie eine vorhandene Arbeitsmappe, die eine Pivot-Tabelle enthält
+# Load an existing workbook containing a pivot table
 workbook = ac.Workbook("pivot_table_sample.xlsx")
-# Greifen Sie auf das erste Arbeitsblatt zu, das die Pivot-Tabelle enthält
+# Access the first worksheet which contains the pivot table
 sheet = workbook.worksheets[0]
-# Greifen Sie über den Index auf die Pivot-Tabelle zu (die erste Pivot-Tabelle auf dem Blatt)
+# Access the pivot table by index (the first pivot table on the sheet)
 pivot_table = sheet.pivot_tables[0]
-# Rufen Sie das Ziel-PivotField ab (das erste Zeilenbeschriftungsfeld, in dem wir Elemente ausblenden/einblenden)
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivot_field = pivot_table.row_fields[0]
-# Durchlaufen Sie die PivotItems-Sammlung des ausgewählten PivotField
+# Iterate through the PivotItems collection of the selected PivotField
 item_count = pivot_field.pivot_items.count
 for i in range(item_count):
     item = pivot_field.pivot_items[i]
-    # Blenden Sie Pivot-Elemente aus, die einem bestimmten Namen/Kriterium entsprechen
+    # Hide pivot items that match a specific name/criterion
     if item.name == "Item1" or item.name == "Item2":
         item.is_hidden = True
-    # Demonstrieren Sie das Einblenden: Zeigen Sie ein zuvor ausgeblendetes Pivot-Element wieder an
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.name == "Item3":
         item.is_hidden = False
-# Aktualisieren und berechnen Sie die Pivot-Tabelle neu, damit die Änderungen wirksam werden
+# Refresh and recalculate the pivot table so changes take effect
 pivot_table.pivot_cache.refresh()
-# Speichern Sie die Arbeitsmappe – ausgeblendete Elemente bleiben in den zugrunde liegenden Daten
-# werden jedoch aus der angezeigten Pivot-Tabellen-Ausgabe ausgeschlossen
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 ```
 

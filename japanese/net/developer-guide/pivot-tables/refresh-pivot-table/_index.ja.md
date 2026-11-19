@@ -55,14 +55,14 @@ workbook.Save("output.xlsx");
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// 新しいワークブックを作成する
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// セルA1:C1にヘッダー行を書き込む
+// Write header row into cells A1:C1
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// セルA2:C9にデータ行を書き込む（2020年と2021年にわたる8行の果物データ）
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.Cells["A2"].PutValue("grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(50);
@@ -87,19 +87,19 @@ worksheet.Cells["C8"].PutValue(110);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(120);
-// ピボットテーブルを追加する：ソース範囲「A1:C9」、配置先セル「E3」、名前「Pivot1」
+// Add a pivot table: source range "A1:C9", destination cell "E3"
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// ピボットフィールドを割り当てる：Fruitを行、Yearを列、Amountをデータ
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// ソースデータの複数のAmount値を変更して変更をシミュレートする
+// Modify several Amount values in the source data to simulate changes
 worksheet.Cells["C2"].PutValue(55);
 worksheet.Cells["C5"].PutValue(85);
 worksheet.Cells["C9"].PutValue(125);
-// ワークブック内のすべてのピボットテーブル/ピボットキャッシュを更新する
+// Refresh every pivot table / pivot cache in the workbook
 workbook.RefreshAll();
-// ワークブックを保存する
+// Save the workbook
 workbook.Save("output.xlsx");
 ```
 
@@ -165,11 +165,11 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
-// Fruit / Year / Amount のヘッダー行を書き込み
+// Write Fruit / Year / Amount header row
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// 8 行のデータ行を書き込み (行 2-9、ソース範囲 A1:C9 に合わせる)
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.Cells["A2"].PutValue("Grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(100);
@@ -194,21 +194,21 @@ worksheet.Cells["C8"].PutValue(350);
 worksheet.Cells["A9"].PutValue("Cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(450);
-// という名前のピボット テーブルを宛先セル E3 に追加し、A1:C9 をソースとする
+// Add a pivot table placed at destination cell E3, sourcing from A1:C9
 var pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// フィールドを割り当て: Fruit を行、Year を列、Amount をデータ
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// 表示/レイアウトのプロパティを変更 — これは表示のみの変更であり、
-// PivotCache.Refresh() を介してソース データを再読み込みする必要はない
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.Refresh().
 pivotTable.RefreshDataOnOpeningFile = false;
-// CalculateData() は、PivotCache に既に保持されているデータから、
-// このピボット テーブルの表示 (データ + スタイル) を再レンダリングする。ソース データが変更されていないため、
-// ソースへのラウンドトリップは行われず、キャッシュされた値のみが再計算される
-// ワークシートのセルに反映される
+// CalculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.CalculateData();
-// ワークブックをディスクに保存
+// Save the workbook to disk
 workbook.Save("output.xlsx");
 ```
 

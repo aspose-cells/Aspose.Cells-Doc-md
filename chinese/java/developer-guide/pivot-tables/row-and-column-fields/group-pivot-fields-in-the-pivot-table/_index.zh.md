@@ -1,6 +1,6 @@
 ---
 title: 在数据透视表中对数据透视字段分组
-linktitle: 在数据透视表中对数据透视字段分组
+linktitle: 分组透视字段
 description: 学习如何使用 PivotField.group 和 PivotFieldGroupOptions 在 Aspose.Cells for Java 中将数据透视表中的行和列数据透视字段按日期周期（如月份和季度）和数值范围进行分组。
 keywords: Aspose.Cells, 数据透视表, 对数据透视字段分组, PivotField.group, PivotFieldGroupOptions, 日期分组, 数字分组, 月份, 季度, 数值范围, Java
 type: docs
@@ -55,21 +55,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// 加载示例工作簿
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// 访问第二个工作表及其数据透视表
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo 是一个数据字段：首先将其移动到行区域，
-// 因为只有行/列字段可以分组
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(PivotFieldType.ROW, "FieldTwo");
 pt.calculateData();
-// 将数值字段分组为 0-1、2-3、4-5 范围
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// 计算数据透视表数据并保存输出文件
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

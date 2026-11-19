@@ -1,6 +1,6 @@
 ---
 title: Lesen und Schreiben von DBF-Dateien
-linktitle: Lesen und Schreiben von DBF-Dateien
+linktitle: DBF lesen und schreiben
 description: Aspose.Cells ist eine Java-Bibliothek zur Arbeit mit Tabellenkalkulationsdateien, die das Lesen und Schreiben von dBASE III- und IV-Dateien (DBF) unterstützt. Dieser Artikel erläutert, wie Sie mit Aspose.Cells Daten aus DBF-Dateien importieren und in DBF-Dateien exportieren können, einschließlich Dateiformatdetails, unterstützter Funktionen und schrittweiser Beispiele.
 keywords: Aspose.Cells, Java-Bibliothek, DBF, dBASE, DBF lesen, DBF schreiben, DBF importieren, DBF exportieren, Dateiformat, .dbf
 type: docs
@@ -105,43 +105,43 @@ if (!new File(outputDir).exists())
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
-// Spaltenüberschriften
+// Column headers
 cells.get(0, 0).putValue("ID");
 cells.get(0, 1).putValue("Name");
 cells.get(0, 2).putValue("Department");
 cells.get(0, 3).putValue("Salary");
 cells.get(0, 4).putValue("HireDate");
-// Datenzeile 1
+// Data row 1
 cells.get(1, 0).putValue(101);
 cells.get(1, 1).putValue("John Smith");
 cells.get(1, 2).putValue("Engineering");
 cells.get(1, 3).putValue(75000.50);
 cells.get(1, 4).putValue(new GregorianCalendar(2020, 2, 15).getTime());
-// Datenzeile 2
+// Data row 2
 cells.get(2, 0).putValue(102);
 cells.get(2, 1).putValue("Jane Doe");
 cells.get(2, 2).putValue("Marketing");
 cells.get(2, 3).putValue(68000.75);
 cells.get(2, 4).putValue(new GregorianCalendar(2019, 6, 22).getTime());
-// Datenzeile 3
+// Data row 3
 cells.get(3, 0).putValue(103);
 cells.get(3, 1).putValue("Bob Johnson");
 cells.get(3, 2).putValue("Finance");
 cells.get(3, 3).putValue(82000.00);
 cells.get(3, 4).putValue(new GregorianCalendar(2021, 0, 10).getTime());
-// Datenzeile 4
+// Data row 4
 cells.get(4, 0).putValue(104);
 cells.get(4, 1).putValue("Alice Brown");
 cells.get(4, 2).putValue("Human Resources");
 cells.get(4, 3).putValue(71000.25);
 cells.get(4, 4).putValue(new GregorianCalendar(2018, 10, 5).getTime());
-// Datenzeile 5
+// Data row 5
 cells.get(5, 0).putValue(105);
 cells.get(5, 1).putValue("Charlie Wilson");
 cells.get(5, 2).putValue("Operations");
 cells.get(5, 3).putValue(79500.80);
 cells.get(5, 4).putValue(new GregorianCalendar(2022, 4, 30).getTime());
-// Spaltenbreiten für bessere Lesbarkeit festlegen
+// Set column widths for better readability
 worksheet.getCells().setColumnWidth(0, 8);
 worksheet.getCells().setColumnWidth(1, 20);
 worksheet.getCells().setColumnWidth(2, 20);

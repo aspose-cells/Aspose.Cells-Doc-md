@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for JavaScript via C++ 中的 Excel 照相机
-linktitle: Aspose.Cells for JavaScript via C++ 中的 Excel 照相机
+linktitle: Excel 相机
 description: 了解如何使用 Aspose.Cells for JavaScript via C++ 中的 Excel 照相机，创建与单元格区域链接的动态图片，该图片会随源数据刷新，并保留源区域的所有格式。
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, Excel 照相机, 动态图片, 链接图片, picture.formula, updateSelectedValue, createRange, toImage, Buffer
 type: docs
@@ -54,7 +54,7 @@ Excel 照相机本质上是一个图片对象，锚定于工作表绘图层上�
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // 动态摄像头：添加一张空图片，通过公式将其链接到 A1:F10，然后刷新
+            // Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
             const pictures = worksheet.pictures;
             const index = pictures.add(10, 6, null);
             const picture = pictures.get(0);
@@ -109,7 +109,7 @@ Excel 照相机本质上是一个图片对象，锚定于工作表绘图层上�
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // 静态摄像机：构建 Range，渲染为字节，使用 MemoryStream 包装，然后添加为图片
+            // Static Camera: build Range, render to bytes, wrap in MemoryStream, add as picture
             const range = worksheet.cells.createRange("A1:F10");
             const imageData = range.toImage();
             const pictures = worksheet.pictures;

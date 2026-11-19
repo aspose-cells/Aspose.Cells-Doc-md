@@ -36,19 +36,19 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 string fileName = "sample.xlsx";
 string prefix = "B";
-// Ladda den befintliga arbetsboken som innehåller en pivottabell
+// Load the existing workbook containing a pivot table
 Workbook workbook = new Workbook(fileName);
-// Kom åt arbetsbladet via index (första arbetsbladet)
+// Access the worksheet by index (first worksheet)
 Worksheet worksheet = workbook.Worksheets[0];
-// Kom åt pivottabellen via index
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Hämta den första radens PivotField
+// Retrieve the first row PivotField
 PivotField rowField = pivotTable.RowFields[0];
-// Tillämpa etikettfiltret — visa endast radobjekt vars etiketter börjar med det angivna prefixet
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.FilterByLabel(PivotFilterType.CaptionBeginsWith, prefix, string.Empty);
-// Uppdatera och beräkna om pivottabellens data så att filtret träder i kraft
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Spara arbetsboken tillbaka till disk
+// Save the workbook back to disk
 workbook.Save(fileName);
 ```
 
@@ -105,7 +105,7 @@ var worksheet = workbook.Worksheets[0];
 var pivotTable = worksheet.PivotTables[0];
 var rowField = pivotTable.RowFields[0];
 var dataField = pivotTable.DataFields[0];
-// Hitta datafältets index manuellt eftersom PivotFieldCollection inte har IndexOf
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 int dataFieldIndex = -1;
 for (int i = 0; i < pivotTable.DataFields.Count; i++)
 {
@@ -137,33 +137,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Ladda den befintliga arbetsboken som innehåller pivottabellen
+// Load the existing workbook that contains the pivot table
 string inputPath = "input.xlsx";
 string outputPath = "output.xlsx";
 Workbook workbook = new Workbook(inputPath);
-// Öppna kalkylbladet som innehåller pivottabellen (index 0)
+// Access the worksheet that holds the pivot table (index 0)
 Worksheet worksheet = workbook.Worksheets[0];
-// Öppna pivottabellen via index
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Bekräfta att det finns minst ett värde PivotField i dataområdet
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.DataFields.Count == 0)
 {
     throw new InvalidOperationException("Pivot table has no value (data) PivotField.");
 }
 PivotField valueField = pivotTable.DataFields[0];
-// Hämta målets rad PivotField (fältet vi vill tillämpa Top 10 på)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 PivotField rowField = pivotTable.RowFields[0];
-// Det första (och enda) datafältet är vid index 0; Top 10 rangordnar efter det.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 int valueFieldIndex = 0;
-// Tillämpa Top 10-filtret på radfältet:
+// Apply the Top 10 filter on the row field:
+//   - valueFieldIndex = 0 — the data field used to rank items
+//   - filterType  = PivotFilterType.Count (keep a fixed number of items;
+//     PivotFilterType.Percent would interpret 10 as "top 10 percent")
+//   - isTop       = true (top N; false would mean bottom N)
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Count
-//   - isTop       = true (topp N; false skulle betyda botten N)
-//   - valueFieldIndex = index för datafältet som används för att rangordna objekt
 rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
-// Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Spara arbetsboken
+// Save the workbook
 workbook.Save(outputPath);
 ```
 
@@ -176,34 +177,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Ladda en befintlig arbetsbok som innehåller en pivottabell
+// Load an existing workbook containing a pivot table
 Workbook workbook = new Workbook("pivot_table_sample.xlsx");
-// Öppna det första kalkylbladet som innehåller pivottabellen
+// Access the first worksheet which contains the pivot table
 Worksheet sheet = workbook.Worksheets[0];
-// Öppna pivottabellen via index (den första pivottabellen på arket)
+// Access the pivot table by index (the first pivot table on the sheet)
 PivotTable pivotTable = sheet.PivotTables[0];
-// Hämta målets PivotField (det första radetikettfältet där vi kommer att dölja/visa objekt)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 PivotField pivotField = pivotTable.RowFields[0];
-// Iterera genom PivotItems-samlingen för det valda PivotField
+// Iterate through the PivotItems collection of the selected PivotField
 int itemCount = pivotField.PivotItems.Count;
 for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.PivotItems[i];
-    // Dölj pivotobjekt som matchar ett specifikt namn/villkor
+    // Hide pivot items that match a specific name/criterion
     if (item.Name == "Item1" || item.Name == "Item2")
     {
         item.IsHidden = true;
     }
-    // Demonstrera att visa: visa ett tidigare dolt pivotobjekt igen
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.Name == "Item3")
     {
         item.IsHidden = false;
     }
 }
-// Uppdatera och beräkna om pivottabellen så att ändringarna träder i kraft
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.PivotCache.Refresh();
-// Spara arbetsboken — dolda objekt finns kvar i underliggande data
-// men är exkluderade från den visade pivottabellens utdata
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.Save("output_pivot_filtered.xlsx");
 ```
 

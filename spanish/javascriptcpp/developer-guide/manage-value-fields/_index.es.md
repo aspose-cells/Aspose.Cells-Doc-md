@@ -1,6 +1,6 @@
 ---
 title: Gestionar los campos de valor de una tabla dinámica en Aspose.Cells for JavaScript via C++
-linktitle: Gestionar los campos de valor de una tabla dinámica en Aspose.Cells for JavaScript via C++
+linktitle: Campos de valor
 description: Aprenda a agregar campos base a la región de datos de una tabla dinámica, cambiar la función de resumen con PivotField.Function y colocar el campo de valor en el eje de fila o de columna de Aspose.Cells for JavaScript via C++.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, tabla dinámica, campo de valor, PivotField, PivotField.Function, campo de datos, PivotTable.ValuesField, Sum, Average
 type: docs

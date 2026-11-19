@@ -217,24 +217,24 @@ CSE‑Array‑Formeln sind die klassische Excel‑Methode, um einen `TRANSPOSE`�
                 if (!file) {
                     throw new Error("Please select an XLSX workbook.");
                 }
-                // Laden Sie die Quellarbeitsmappe mit xlsx LoadOptions
+                // Load the source workbook with xlsx LoadOptions
                 const loadOptions = new LoadOptions(AsposeCells.LoadFormat.Xlsx);
                 const workbook = new Workbook(
                     new Uint8Array(await file.arrayBuffer()),
                     loadOptions
                 );
-                // Greifen Sie auf das erste Arbeitsblatt und seine Zellen‑Sammlung zu
+                // Access the first worksheet and its Cells collection
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // Setzen Sie die klassische CSE-Array-Formel in Zelle A6.
-                // Die Formel =TRANSPOSE(A1:D5) dreht den 5‑zeiligen x 4‑spaltigen Quellbereich
-                // in ein 4‑zeiliges x 5‑spaltiges Array. Das zweite Argument (4) ist die Anzahl der Zeilen
-                // und das dritte Argument (5) ist die Anzahl der Spalten des resultierenden Arrays.
-                // Aspose.Cells schreibt den CSE-Array-Formel-Marker, sodass Excel ihn auswertet als
-                // eine einzelne Mehrzellen-Array-Formel, kompatibel mit älteren Excel-Versionen
-                // (2019, 2016, 2013 usw.), die kein dynamisches Array‑Spilling unterstützen.
+                // Set the classic CSE array formula on cell A6.
+                // The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+                // into a 4-row x 5-column array. The second argument (4) is the number of rows
+                // and the third argument (5) is the number of columns of the resulting array.
+                // Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+                // a single multi-cell array formula, compatible with older Excel versions
+                // (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
                 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-                // Speichern Sie die Arbeitsmappe, damit der Array‑Formel‑Marker beibehalten wird
+                // Save the workbook so the array-formula marker is persisted
                 const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
                 const blob = new Blob([outputData], {
                     type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"

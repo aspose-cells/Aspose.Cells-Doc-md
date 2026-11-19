@@ -41,19 +41,19 @@ Excel поддерживает два разных уровня паролей. 
 ```csharp
 using System;
 using Aspose.Cells;
-// Создать новую книгу с нуля
+// Create a new workbook from scratch
 Workbook workbook = new Workbook();
-// Записать пример значения в ячейку A1 первого листа
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
-// Настроить защиту от записи: установить пароль на изменение и автора
+// Configure the write protection: set the password to modify and the author
 workbook.Settings.WriteProtection.Password = "ModifyPwd";
 workbook.Settings.WriteProtection.Author = "AuthorName";
-// Сохранить книгу, чтобы сохранить настройки защиты от записи
+// Save the workbook so the write protection is persisted
 workbook.Save("WriteProtectedWorkbook.xlsx");
-// Проверить правильность пароля на изменение, используя правильный пароль
+// Validate the password to modify using the correct password
 bool isCorrectValid = workbook.Settings.WriteProtection.ValidatePassword("ModifyPwd");
 Console.WriteLine("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// Проверить правильность пароля на изменение, используя неверный пароль, чтобы показать другую ветвь
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 bool isWrongValid = workbook.Settings.WriteProtection.ValidatePassword("WrongPwd");
 Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -64,22 +64,22 @@ Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```csharp
 using System;
 using Aspose.Cells;
-// Создать новую рабочую книгу
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Добавить второй рабочий лист
+// Add a second worksheet
 workbook.Worksheets.Add();
-// Записать образец значения в ячейку A1 первого рабочего листа
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells[0, 0].PutValue("Sample Data");
-// Защитить структуру рабочей книги
+// Protect the workbook structure
 workbook.Protect(ProtectionType.Structure, "StructPwd");
-// Сохранить рабочую книгу как structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 string filePath = "structure_protected.xlsx";
 workbook.Save(filePath);
-// Перезагрузить файл в новый экземпляр Workbook
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// Снять защиту структуры
+// Remove the structure protection
 loadedWorkbook.Unprotect("StructPwd");
-// Вывести сообщение подтверждения
+// Print confirmation message
 Console.WriteLine("Structure protection has been successfully removed from the workbook.");
 ```
 

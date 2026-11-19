@@ -20,15 +20,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// サンプルワークブックを読み込む
+// Load the sample workbook
 const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// 2番目のワークシートとそのピボットテーブルにアクセスする
+// Access the second worksheet and its pivot table
 const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// 最初の行フィールドを自動的にグループ化する。
-// フィールドには日付が含まれているため、月ごとにグループ化されます。
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 const field = pt.getRowFields().get(0);
 field.group();
-// ピボットテーブルのデータを計算して出力ファイルを保存する
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputAutoGroupPivotField.xlsx");
 ```
@@ -43,15 +43,15 @@ wb.save("outputAutoGroupPivotField.xlsx");
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// 2番目のワークシートとそのピボットテーブルにアクセスします
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// 最初の日付フィールド（日時フィールド）を月と四半期でグループ化します
+// Group the first row field (a date field) by months and quarters
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartDate(new Date(2008, 0, 1));
 options.setEndDate(new Date(2008, 8, 5));
 options.setGroupTypes([AsposeCells.PivotGroupByType.Months, AsposeCells.PivotGroupByType.Quarters]);
 pt.getRowFields().get(0).group(options);
-// ピボットテーブルのデータを計算して出力ファイルを保存します
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,19 +64,19 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// 2番目のワークシートとそのピボットテーブルにアクセス
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwoはデータフィールドです: 最初に列エリアに移動します、
-// 行/列フィールドのみをグループ化できるため
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(AsposeCells.PivotFieldType.Row, "FieldTwo");
 pt.calculateData();
-// 数値フィールドを0-1、2-3、4-5の範囲にグループ化します
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// ピボットテーブルのデータを計算し、出力ファイルを保存します
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

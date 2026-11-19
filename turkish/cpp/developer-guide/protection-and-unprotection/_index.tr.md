@@ -77,22 +77,22 @@ int main() {
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Yeni bir çalışma kitabı oluştur
+    // Create a new workbook
     Workbook workbook;
-    // İkinci bir çalışma sayfası ekle
+    // Add a second worksheet
     workbook.GetWorksheets().Add();
-    // İlk çalışma sayfasının A1 hücresine örnek bir değer yaz
+    // Write a sample value to cell A1 of the first worksheet
     workbook.GetWorksheets().Get(0).GetCells().Get(0, 0).PutValue(u"Sample Data");
-    // Çalışma kitabının yapısını koru
+    // Protect the workbook structure
     workbook.Protect(ProtectionType::Structure, u"StructPwd");
-    // Çalışma kitabını structure_protected.xlsx olarak kaydet
+    // Save the workbook as structure_protected.xlsx
     U16String filePath = u"structure_protected.xlsx";
     workbook.Save(filePath);
-    // Dosyayı yeni bir Workbook örneğine yeniden yükle
+    // Reload the file into a new Workbook instance
     Workbook loadedWorkbook(filePath);
-    // Yapı korumasını kaldır
+    // Remove the structure protection
     loadedWorkbook.Unprotect(u"StructPwd");
-    // Onay mesajını yazdır
+    // Print confirmation message
     std::cout << "Structure protection has been successfully removed from the workbook." << std::endl;
     Aspose::Cells::Cleanup();
     return 0;

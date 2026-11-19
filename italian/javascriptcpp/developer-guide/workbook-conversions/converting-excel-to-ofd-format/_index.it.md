@@ -51,20 +51,20 @@ L'esempio costruisce un foglio di lavoro per una fattura inserendo un'immagine d
         });
         document.getElementById('runExample').addEventListener('click', async () => {
             try {
-                // Crea un nuovo Workbook
+                // Create a new Workbook
                 const workbook = new Workbook();
-                // Ottieni il primo foglio di lavoro
+                // Obtain the first worksheet
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // Imposta la larghezza delle colonne
+                // Set column widths
                 cells.setColumnWidth(0, 5);
                 cells.setColumnWidth(1, 35);
                 cells.setColumnWidth(2, 12);
                 cells.setColumnWidth(3, 15);
                 cells.setColumnWidth(4, 15);
                 cells.setColumnWidth(5, 5);
-                // Inserisci il logo dell'azienda
-                // Crea un PNG in memoria perché il browser non ha un percorso del filesystem.
+                // Insert company logo
+                // Create an in-memory PNG because the browser has no filesystem path.
                 const logoCanvas = document.createElement("canvas");
                 logoCanvas.width = 100;
                 logoCanvas.height = 30;
@@ -80,12 +80,12 @@ L'esempio costruisce un foglio di lavoro per una fattura inserendo un'immagine d
                 }
                 const logoData = new Uint8Array(await logoBlob.arrayBuffer());
                 worksheet.pictures.add(1, 1, logoData);
-                // Nome dell'azienda e dettagli di contatto
+                // Company name and contact details
                 cells.get("B3").value = "Acme Corporation";
                 cells.get("B4").value = "123 Business Street";
                 cells.get("B5").value = "City, State 12345";
                 cells.get("B6").value = "Phone: (555) 123-4567";
-                // Titolo "INVOICE" - unisci le celle
+                // INVOICE title - merge cells
                 cells.merge(7, 1, 2, 4);
                 const titleCell = cells.get("B8");
                 titleCell.value = "INVOICE";
@@ -94,7 +94,7 @@ L'esempio costruisce un foglio di lavoro per una fattura inserendo un'immagine d
                 titleStyle.font.size = 20;
                 titleStyle.horizontalAlignment = AsposeCells.TextAlignmentType.Center;
                 titleCell.style = titleStyle;
-                // Numero fattura e data
+                // Invoice number and date
                 cells.get("B11").value = "Invoice Number:";
                 cells.get("C11").value = "INV-2024-001";
                 cells.get("B12").value = "Date:";
@@ -105,12 +105,12 @@ L'esempio costruisce un foglio di lavoro per una fattura inserendo un'immagine d
                     String(now.getDate()).padStart(2, "0")
                 ].join("-");
                 cells.get("C12").value = invoiceDate;
-                // Sezione del destinatario
+                // Bill-to section
                 cells.get("B14").value = "Bill To:";
                 cells.get("B15").value = "Client Name";
                 cells.get("B16").value = "Client Address";
                 cells.get("B17").value = "Client City, State";
-                // Intestazione delle voci
+                // Line items header
                 const headerDesc = cells.get("B19");
                 const headerQty = cells.get("C19");
                 const headerPrice = cells.get("D19");
@@ -133,20 +133,20 @@ L'esempio costruisce un foglio di lavoro per una fattura inserendo un'immagine d
                 headerQty.style = headerStyle;
                 headerPrice.style = headerStyle;
                 headerTotal.style = headerStyle;
-                // Stile valuta con bordi
+                // Currency style with borders
                 const currencyStyle = workbook.createStyle();
                 currencyStyle.custom = '"$"#,##0.00';
                 currencyStyle.borders.get(AsposeCells.BorderType.TopBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.BottomBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.LeftBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
-                // Stile bordo semplice per le celle di descrizione/quantità
+                // Plain border style for description/quantity cells
                 const borderStyle = workbook.createStyle();
                 borderStyle.borders.get(AsposeCells.BorderType.TopBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.BottomBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.LeftBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
-                // Righe delle voci
+                // Line items rows
                 const lineItems = [
                     ["Product A - Widget", 2, 50.00],
                     ["Product B - Gadget", 3, 75.00],
@@ -167,7 +167,7 @@ L'esempio costruisce un foglio di lavoro per una fattura inserendo un'immagine d
                     priceCell.style = currencyStyle;
                     totalCell.style = currencyStyle;
                 }
-                // Subtotale, imposta, totale complessivo
+                // Subtotal, tax, grand total
                 cells.get("B24").value = "Subtotal:";
                 const subtotalCell = cells.get("E24");
                 subtotalCell.formula = "SUM(E21:E23)";
@@ -177,20 +177,20 @@ L'esempio costruisce un foglio di lavoro per una fattura inserendo un'immagine d
                 cells.get("B26").value = "Grand Total:";
                 const grandTotalCell = cells.get("E26");
                 grandTotalCell.formula = "E24+E25";
-                // Stile grassetto e valuta per i valori totali
+                // Bold + currency style for total values
                 const totalStyle = workbook.createStyle();
                 totalStyle.font.isBold = true;
                 totalStyle.custom = '"$"#,##0.00';
                 subtotalCell.style = totalStyle;
                 taxCell.style = totalStyle;
                 grandTotalCell.style = totalStyle;
-                // Stile grassetto per le etichette dei totali
+                // Bold style for total labels
                 const boldStyle = workbook.createStyle();
                 boldStyle.font.isBold = true;
                 cells.get("B24").style = boldStyle;
                 cells.get("B25").style = boldStyle;
                 cells.get("B26").style = boldStyle;
-                // Salva il workbook come file OFD
+                // Save the workbook as an OFD file
                 const outputData = workbook.save(AsposeCells.SaveFormat.Ofd);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById('downloadLink');
@@ -267,9 +267,9 @@ Aspose.Cells può anche caricare una cartella di lavoro Excel esistente dal disc
                     runButton.disabled = true;
                     downloadLink.style.display = "none";
                     downloadLink.removeAttribute("href");
-                    // Aprire una cartella di lavoro Excel esistente dal disco
+                    // Open an existing Excel workbook from disk
                     const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
-                    // (1) Leggere e visualizzare i valori delle celle selezionate per confermare che il file è stato caricato
+                    // (1) Read and display values from selected cells to confirm the file was loaded
                     const firstSheet = workbook.worksheets.get(0);
                     const cells = firstSheet.cells;
                     const output = [];
@@ -277,26 +277,26 @@ Aspose.Cells può anche caricare una cartella di lavoro Excel esistente dal disc
                     output.push("Cell A1: " + cells.get("A1").stringValue);
                     output.push("Cell B1: " + cells.get("B1").stringValue);
                     output.push("Cell C1: " + cells.get("C1").stringValue);
-                    // (2) Iterare sulla raccolta Worksheets per enumerare i fogli disponibili
+                    // (2) Iterate over the Worksheets collection to enumerate available sheets
                     output.push("");
                     output.push("Available worksheets:");
                     for (let i = 0; i < workbook.worksheets.count; i++) {
                         const ws = workbook.worksheets.get(i);
                         output.push("  [" + i + "] " + ws.name);
                     }
-                    // (3) Facoltativamente aggiornare una cella timestamp per riflettere la conversione
+                    // (3) Optionally update a timestamp cell to reflect the conversion
                     cells.get("A1").value = "Converted on: " + formatTimestamp(new Date());
-                    // Aggiungere una riga di intestazione riassuntiva nella parte superiore del blocco di dati
+                    // Append a summary header row at the top of the data block
                     cells.insertRow(0);
                     cells.get("A1").value = "Conversion Summary";
                     cells.get("A2").value = "Generated: " + formatTimestamp(new Date());
-                    // (4) Configurare le proprietà PageSetup nel foglio di lavoro
+                    // (4) Configure PageSetup properties on the worksheet
                     const pageSetup = firstSheet.pageSetup;
                     pageSetup.orientation = AsposeCells.PageOrientationType.Landscape;
                     pageSetup.paperSize = AsposeCells.PaperSizeType.PaperA4;
                     pageSetup.fitToPagesTall = 1;
                     pageSetup.fitToPagesWide = 1;
-                    // (5) Facoltativamente impostare l'area di stampa per l'output OFD
+                    // (5) Optionally set the print area for the OFD output
                     const lastRow = cells.maxDataRow;
                     const lastCol = cells.maxDataColumn;
                     const lastColLetter = CellsHelper.columnIndexToName(lastCol);
@@ -304,7 +304,7 @@ Aspose.Cells può anche caricare una cartella di lavoro Excel esistente dal disc
                     pageSetup.printArea = printArea;
                     output.push("");
                     output.push("Print area set to: " + printArea);
-                    // (6) Salvare la cartella di lavoro come file OFD
+                    // (6) Save the workbook as an OFD file
                     const outputData = workbook.save(AsposeCells.SaveFormat.Ofd);
                     const blob = new Blob([outputData]);
                     downloadLink.href = URL.createObjectURL(blob);

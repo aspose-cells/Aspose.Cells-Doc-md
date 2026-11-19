@@ -55,21 +55,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// تحميل المصنف النموذجي
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// الوصول إلى ورقة العمل الثانية وجدول المحور الخاص بها
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo هو حقل بيانات: انقله إلى منطقة الصفوف أولاً،
-// لأنه يمكن تجميع حقول الصفوف/الأعمدة فقط
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(PivotFieldType.ROW, "FieldTwo");
 pt.calculateData();
-// تجميع الحقل الرقمي إلى النطاقات 0-1، 2-3، 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// حساب بيانات جدول المحور وحفظ ملف الإخراج
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

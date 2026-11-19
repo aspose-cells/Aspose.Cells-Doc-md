@@ -1,6 +1,6 @@
 ---
 title: Lägg till rad- och kolumnfält i pivottabell i Aspose.Cells for C++
-linktitle: Lägg till rad- och kolumnfält i pivottabell i Aspose.Cells for C++
+linktitle: Rad- och kolumnfält
 description: Lär dig hur du lägger till basfält i rad- och kolumnregionerna i en pivottabell och styr delsummor för pivotfält med PivotField.SetSubtotals i Aspose.Cells for C++.
 keywords: Aspose.Cells, C++, pivottabell, radfält, kolumnfält, PivotField, SetSubtotals, PivotFieldSubtotalType, delsummor
 type: docs

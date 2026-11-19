@@ -159,16 +159,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             }
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // الحصول على الخلية الهدف C6
+            // Get the target cell C6
             const cell = worksheet.cells.get("C6");
-            // قراءة ملف الصورة إلى مصفوفة بايتات
+            // Read the image file into a byte array
             const imageData = new Uint8Array(await fileInput.files[0].arrayBuffer());
-            // تضمين الصورة مباشرة في الخلية
+            // Embed the image directly into the cell
             cell.embeddedImage = imageData;
-            // اختياريًا، اضبط ارتفاع الصف وعرض العمود لتكون الصورة المضمّنة أكثر وضوحًا
-            worksheet.cells.setColumnWidth(2, 30); // العمود C (الفهرس 2)
-            worksheet.cells.setRowHeight(5, 100); // الصف 6 (الفهرس 5)
-            // حفظ المصنف الناتج كملف ‎.xlsx
+            // Optionally adjust row height and column width so the embedded image is more visible
+            worksheet.cells.setColumnWidth(2, 30); // Column C (index 2)
+            worksheet.cells.setRowHeight(5, 100); // Row 6 (index 5)
+            // Save the resulting workbook as an .xlsx file
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             downloadLink.href = URL.createObjectURL(blob);

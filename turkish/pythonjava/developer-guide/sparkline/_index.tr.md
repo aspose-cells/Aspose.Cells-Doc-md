@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via Java'da Mini Grafikler
-linktitle: Aspose.Cells for Python via Java'da Mini Grafikler
+linktitle: Mini Grafikler
 description: Aspose.Cells, elektronik tablo dosyalarıyla çalışan ve çalışma sayfası hücrelerine yerleştirilen küçük grafikler olan mini grafikler oluşturmayı destekleyen bir Python via Java kitaplığıdır. Bu makale, çizgi, sütun ve kazanma/kaybetme mini grafiklerinin Aspose.Cells kitaplığı kullanılarak nasıl ekleneceğini ve özelleştirileceğini açıklar.
 keywords: Aspose.Cells, Python via Java kütüphanesi, elektronik tablo, mini grafikler, çizgi mini grafik, sütun mini grafik, kazanma/kaybetme mini grafik, SparklineGroup, SparklineType
 type: docs
@@ -101,26 +101,26 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType
-# Adım 1: Bir Workbook oluşturun ve ilk çalışma sayfasını alın
+# Step 1: Create a Workbook and get the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# Adım 2: A1:E1 aralığına örnek değerler yazın
+# Step 2: Write sample values into A1:E1
 values = [5, -3, 8, -2, 6]
 for i in range(len(values)):
     worksheet.getCells().get(0, i).putValue(values[i])
-# Adım 3: F1 hücresini işaret eden bir CellArea oluşturun (sütun indeksi 5, satır indeksi 0)
+# Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 dest = CellArea()
 dest.StartColumn = 5
 dest.EndColumn = 5
 dest.StartRow = 0
 dest.EndRow = 0
-# Adım 4: Hedef hücreye bir Sütun sparkline ekleyin
+# Step 4: Add a Column sparkline to the destination cell
 idx = worksheet.getSparklineGroups().add(
     SparklineType.COLUMN, "A1:E1", False, dest)
 group = worksheet.getSparklineGroups().get(idx)
-# Adım 5: group.Type okuyarak sparkline türünü doğrulayın
+# Step 5: Confirm the sparkline type by reading group.Type
 print("Sparkline Type added: " + str(group.getType()))
-# Adım 6: Çalışma kitabını kaydedin
+# Step 6: Save the workbook
 workbook.save("output_column.xlsx")
 print("Workbook saved as output_column.xlsx")
 jpype.shutdownJVM()

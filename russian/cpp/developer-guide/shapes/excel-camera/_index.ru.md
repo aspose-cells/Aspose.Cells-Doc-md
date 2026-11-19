@@ -37,7 +37,7 @@ int main()
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(U16String("CameraDemo"));
-    // Динамическая камера: добавить пустое изображение, связать его через формулу с A1:F10, затем обновить
+    // Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
     int index = worksheet.GetPictures().Add(10, 6, Vector<uint8_t>());
     Picture picture = worksheet.GetPictures().Get(index);
     picture.SetFormula(U16String("A1:F10"));
@@ -65,7 +65,7 @@ int main()
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(U16String("CameraDemo"));
-    // Статичная камера: создать Range, отрендерить в байты, добавить как изображение
+    // Static Camera: build Range, render to bytes, add as picture
     Range range = worksheet.GetCells().CreateRange(U16String("A1:F10"));
     Vector<uint8_t> imageBytes = range.ToImage(nullptr);
     worksheet.GetPictures().Add(10, 6, imageBytes);

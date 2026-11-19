@@ -39,19 +39,19 @@ Excel поддерживает два различных уровня парол
 
 ```python
 import aspose.cells as ac
-# Создаём новую рабочую книгу с нуля
+# Create a new workbook from scratch
 workbook = ac.Workbook()
-# Записываем пример значения в ячейку A1 первого рабочего листа
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get("A1").put_value("Sample Data")
-# Настраиваем защиту от записи: задаём пароль на изменение и автора
+# Configure the write protection: set the password to modify and the author
 workbook.settings.write_protection.password = "ModifyPwd"
 workbook.settings.write_protection.author = "AuthorName"
-# Сохраняем рабочую книгу, чтобы защита от записи была сохранена
+# Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx")
-# Проверяем пароль на изменение, используя правильный пароль
+# Validate the password to modify using the correct password
 is_correct_valid = workbook.settings.write_protection.validate_password("ModifyPwd")
 print("ValidatePassword(\"ModifyPwd\") returned: " + str(is_correct_valid))
-# Проверяем пароль на изменение, используя неверный пароль, чтобы продемонстрировать другую ветку
+# Validate the password to modify using an incorrect password to demonstrate the other branch
 is_wrong_valid = workbook.settings.write_protection.validate_password("WrongPwd")
 print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 ```
@@ -61,22 +61,22 @@ print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 
 ```python
 import aspose.cells as ac
-# Создать новую рабочую книгу
+# Create a new workbook
 workbook = ac.Workbook()
-# Добавить второй рабочий лист
+# Add a second worksheet
 workbook.worksheets.add()
-# Записать образец значения в ячейку A1 первого рабочего листа
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get(0, 0).put_value("Sample Data")
-# Защитить структуру рабочей книги
+# Protect the workbook structure
 workbook.protect(ac.ProtectionType.STRUCTURE, "StructPwd")
-# Сохранить рабочую книгу как structure_protected.xlsx
+# Save the workbook as structure_protected.xlsx
 file_path = "structure_protected.xlsx"
 workbook.save(file_path)
-# Перезагрузить файл в новый экземпляр Workbook
+# Reload the file into a new Workbook instance
 loaded_workbook = ac.Workbook(file_path)
-# Снять защиту структуры
+# Remove the structure protection
 loaded_workbook.unprotect("StructPwd")
-# Вывести сообщение с подтверждением
+# Print confirmation message
 print("Structure protection has been successfully removed from the workbook.")
 ```
 

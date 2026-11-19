@@ -159,16 +159,16 @@ Aşağıdaki kod, bu yöntemin tamamını gösterir.
             }
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // C6 hedef hücresini al
+            // Get the target cell C6
             const cell = worksheet.cells.get("C6");
-            // Görsel dosyasını bir bayt dizisine oku
+            // Read the image file into a byte array
             const imageData = new Uint8Array(await fileInput.files[0].arrayBuffer());
-            // Görseli doğrudan hücreye göm
+            // Embed the image directly into the cell
             cell.embeddedImage = imageData;
-            // Gömülü görselin daha görünür olması için isteğe bağlı olarak satır yüksekliğini ve sütun genişliğini ayarla
-            worksheet.cells.setColumnWidth(2, 30); // C sütunu (indeks 2)
-            worksheet.cells.setRowHeight(5, 100); // 6. satır (indeks 5)
-            // Sonuç çalışma kitabını .xlsx dosyası olarak kaydet
+            // Optionally adjust row height and column width so the embedded image is more visible
+            worksheet.cells.setColumnWidth(2, 30); // Column C (index 2)
+            worksheet.cells.setRowHeight(5, 100); // Row 6 (index 5)
+            // Save the resulting workbook as an .xlsx file
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             downloadLink.href = URL.createObjectURL(blob);

@@ -95,26 +95,26 @@ L'exemple ci-dessous écrit les valeurs 5, -3, 8, -2, 6 dans A1:E1 et restitue u
 ```python
 import aspose.cells as ac
 from aspose.cells.charts import SparklineType
-# Étape 1 : Créer un classeur et obtenir la première feuille de calcul
+# Step 1: Create a Workbook and get the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# Étape 2 : Écrire des valeurs d'exemple dans A1:E1
+# Step 2: Write sample values into A1:E1
 values = [5, -3, 8, -2, 6]
 for i in range(len(values)):
     worksheet.cells.get(0, i).put_value(values[i])
-# Étape 3 : Construire un CellArea pointant vers F1 (index de colonne 5, index de ligne 0)
+# Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 dest = ac.CellArea()
 dest.start_column = 5
 dest.end_column = 5
 dest.start_row = 0
 dest.end_row = 0
-# Étape 4 : Ajouter un sparkline de type colonne à la cellule de destination
+# Step 4: Add a Column sparkline to the destination cell
 idx = worksheet.sparkline_groups.add(
     SparklineType.COLUMN, "A1:E1", False, dest)
 group = worksheet.sparkline_groups[idx]
-# Étape 5 : Confirmer le type de sparkline en lisant group.Type
+# Step 5: Confirm the sparkline type by reading group.Type
 print("Sparkline Type added: " + str(group.type))
-# Étape 6 : Enregistrer le classeur
+# Step 6: Save the workbook
 workbook.save("output_column.xlsx")
 print("Workbook saved as output_column.xlsx")
 ```
@@ -171,16 +171,16 @@ L'exemple combiné ci-dessous crée un seul classeur, remplit la ligne 1 avec le
 import aspose.cells as ac
 from aspose.cells.charts import SparklineType
 from aspose.pydrawing import Color
-# Étape 1 : Créer un classeur et obtenir la première feuille de calcul
+# Step 1: Create a Workbook and get the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# Étape 2 : Remplir les données d'exemple dans la ligne 1 (A1:E1)
+# Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.cells.get("A1").put_value(5)
 worksheet.cells.get("B1").put_value(-3)
 worksheet.cells.get("C1").put_value(8)
 worksheet.cells.get("D1").put_value(-2)
 worksheet.cells.get("E1").put_value(6)
-# Étape 3 : Ajouter un groupe de sparklines en ligne à F1
+# Step 3: Add a Line sparkline group at F1
 line_area = ac.CellArea()
 line_area.start_column = 5
 line_area.end_column = 5
@@ -188,11 +188,11 @@ line_area.start_row = 0
 line_area.end_row = 0
 line_idx = worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, line_area)
 line_group = worksheet.sparkline_groups[line_idx]
-# Personnaliser la couleur de la sparkline en ligne via CellsColor
+# Customize the line sparkline color via CellsColor
 line_color = workbook.create_cells_color()
 line_color.color = Color.blue
 line_group.series_color = line_color
-# Étape 4 : Ajouter un groupe de sparklines en colonnes à F2
+# Step 4: Add a Column sparkline group at F2
 column_area = ac.CellArea()
 column_area.start_column = 5
 column_area.end_column = 5
@@ -200,11 +200,11 @@ column_area.start_row = 1
 column_area.end_row = 1
 column_idx = worksheet.sparkline_groups.add(SparklineType.COLUMN, "A1:E1", False, column_area)
 column_group = worksheet.sparkline_groups[column_idx]
-# Personnaliser la couleur de la série de sparklines en colonnes
+# Customize the column sparkline series color
 column_color = workbook.create_cells_color()
 column_color.color = Color.green
 column_group.series_color = column_color
-# Étape 5 : Ajouter un groupe de sparklines Gagne/Perd (Empilé) à F3
+# Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 stacked_area = ac.CellArea()
 stacked_area.start_column = 5
 stacked_area.end_column = 5
@@ -212,11 +212,11 @@ stacked_area.start_row = 2
 stacked_area.end_row = 2
 stacked_idx = worksheet.sparkline_groups.add(SparklineType.STACKED, "A1:E1", False, stacked_area)
 stacked_group = worksheet.sparkline_groups[stacked_idx]
-# Personnaliser la couleur de la série de sparklines gagne/perd
+# Customize the win/loss sparkline series color
 stacked_color = workbook.create_cells_color()
 stacked_color.color = Color.dark_orange
 stacked_group.series_color = stacked_color
-# Étape 6 : Enregistrer le classeur
+# Step 6: Save the workbook
 workbook.save("output_all.xlsx")
 ```
 

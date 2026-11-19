@@ -33,25 +33,25 @@ using System;
 using Aspose.Cells;
 using System.Drawing;
 string dataDir = "C:\\Temp\\";
-// Создаём новую рабочую книгу
+// Create a new Workbook
 Workbook workbook = new Workbook();
-// Получаем первый рабочий лист
+// Obtain the first worksheet
 Worksheet worksheet = workbook.Worksheets[0];
-// Устанавливаем ширину столбцов
+// Set column widths
 worksheet.Cells.SetColumnWidth(0, 5);
 worksheet.Cells.SetColumnWidth(1, 35);
 worksheet.Cells.SetColumnWidth(2, 12);
 worksheet.Cells.SetColumnWidth(3, 15);
 worksheet.Cells.SetColumnWidth(4, 15);
 worksheet.Cells.SetColumnWidth(5, 5);
-// Вставляем логотип компании
+// Insert company logo
 worksheet.Pictures.Add(1, 1, dataDir + "logo.png");
-// Название компании и контактные данные
+// Company name and contact details
 worksheet.Cells["B3"].PutValue("Acme Corporation");
 worksheet.Cells["B4"].PutValue("123 Business Street");
 worksheet.Cells["B5"].PutValue("City, State 12345");
 worksheet.Cells["B6"].PutValue("Phone: (555) 123-4567");
-// Заголовок INVOICE - объединяем ячейки
+// INVOICE title - merge cells
 worksheet.Cells.Merge(7, 1, 2, 4);
 Cell titleCell = worksheet.Cells["B8"];
 titleCell.PutValue("INVOICE");
@@ -60,17 +60,17 @@ titleStyle.Font.IsBold = true;
 titleStyle.Font.Size = 20;
 titleStyle.HorizontalAlignment = TextAlignmentType.Center;
 titleCell.SetStyle(titleStyle);
-// Номер счёта и дата
+// Invoice number and date
 worksheet.Cells["B11"].PutValue("Invoice Number:");
 worksheet.Cells["C11"].PutValue("INV-2024-001");
 worksheet.Cells["B12"].PutValue("Date:");
 worksheet.Cells["C12"].PutValue(DateTime.Now.ToString("yyyy-MM-dd"));
-// Раздел "Кому" (плательщик)
+// Bill-to section
 worksheet.Cells["B14"].PutValue("Bill To:");
 worksheet.Cells["B15"].PutValue("Client Name");
 worksheet.Cells["B16"].PutValue("Client Address");
 worksheet.Cells["B17"].PutValue("Client City, State");
-// Заголовок строк позиций
+// Line items header
 Cell headerDesc = worksheet.Cells["B19"];
 Cell headerQty = worksheet.Cells["C19"];
 Cell headerPrice = worksheet.Cells["D19"];
@@ -93,20 +93,20 @@ headerDesc.SetStyle(headerStyle);
 headerQty.SetStyle(headerStyle);
 headerPrice.SetStyle(headerStyle);
 headerTotal.SetStyle(headerStyle);
-// Стиль валюты с границами
+// Currency style with borders
 Style currencyStyle = workbook.CreateStyle();
 currencyStyle.Custom = "\"$\"#,##0.00";
 currencyStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-// Обычный стиль границ для ячеек описания/количества
+// Plain border style for description/quantity cells
 Style borderStyle = workbook.CreateStyle();
 borderStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-// Строки позиций
+// Line items rows
 object[,] lineItems = new object[,] {
     {"Product A - Widget", 2, 50.00},
     {"Product B - Gadget", 3, 75.00},
@@ -128,7 +128,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
     priceCell.SetStyle(currencyStyle);
     totalCell.SetStyle(currencyStyle);
 }
-// Промежуточная сумма, налог, итоговая сумма
+// Subtotal, tax, grand total
 worksheet.Cells["B24"].PutValue("Subtotal:");
 Cell subtotalCell = worksheet.Cells["E24"];
 subtotalCell.Formula = "SUM(E21:E23)";
@@ -138,20 +138,20 @@ taxCell.Formula = "E24*0.1";
 worksheet.Cells["B26"].PutValue("Grand Total:");
 Cell grandTotalCell = worksheet.Cells["E26"];
 grandTotalCell.Formula = "E24+E25";
-// Жирный шрифт + стиль валюты для итоговых значений
+// Bold + currency style for total values
 Style totalStyle = workbook.CreateStyle();
 totalStyle.Font.IsBold = true;
 totalStyle.Custom = "\"$\"#,##0.00";
 subtotalCell.SetStyle(totalStyle);
 taxCell.SetStyle(totalStyle);
 grandTotalCell.SetStyle(totalStyle);
-// Жирный стиль для подписей итогов
+// Bold style for total labels
 Style boldStyle = workbook.CreateStyle();
 boldStyle.Font.IsBold = true;
 worksheet.Cells["B24"].SetStyle(boldStyle);
 worksheet.Cells["B25"].SetStyle(boldStyle);
 worksheet.Cells["B26"].SetStyle(boldStyle);
-// Сохраняем рабочую книгу как файл OFD
+// Save the workbook as an OFD file
 workbook.Save(dataDir + "Invoice.ofd", SaveFormat.Ofd);
 ```
 
@@ -162,41 +162,41 @@ Aspose.Cells также может загрузить существующую �
 using System;
 using Aspose.Cells;
 string dataDir = "C:\\Examples\\";
-// Открыть существующую книгу Excel с диска
+// Open an existing Excel workbook from disk
 Workbook workbook = new Workbook(dataDir + "SampleBook.xlsx");
-// (1) Прочитать и отобразить значения из выбранных ячеек для подтверждения загрузки файла
+// (1) Read and display values from selected cells to confirm the file was loaded
 Worksheet firstSheet = workbook.Worksheets[0];
 Console.WriteLine("First sheet name: " + firstSheet.Name);
 Console.WriteLine("Cell A1: " + firstSheet.Cells["A1"].StringValue);
 Console.WriteLine("Cell B1: " + firstSheet.Cells["B1"].StringValue);
 Console.WriteLine("Cell C1: " + firstSheet.Cells["C1"].StringValue);
-// (2) Перебрать коллекцию Worksheets для перечисления доступных листов
+// (2) Iterate over the Worksheets collection to enumerate available sheets
 Console.WriteLine("\nAvailable worksheets:");
 for (int i = 0; i < workbook.Worksheets.Count; i++)
 {
     Worksheet ws = workbook.Worksheets[i];
     Console.WriteLine("  [" + i + "] " + ws.Name);
 }
-// (3) При необходимости обновить ячейку с меткой времени для отражения конвертации
+// (3) Optionally update a timestamp cell to reflect the conversion
 firstSheet.Cells["A1"].PutValue("Converted on: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-// Добавить строку заголовка сводки в начало блока данных
+// Append a summary header row at the top of the data block
 firstSheet.Cells.InsertRow(0);
 firstSheet.Cells["A1"].PutValue("Conversion Summary");
 firstSheet.Cells["A2"].PutValue("Generated: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-// (4) Настроить свойства PageSetup на листе
+// (4) Configure PageSetup properties on the worksheet
 PageSetup pageSetup = firstSheet.PageSetup;
 pageSetup.Orientation = PageOrientationType.Landscape;
 pageSetup.PaperSize = PaperSizeType.PaperA4;
 pageSetup.FitToPagesTall = 1;
 pageSetup.FitToPagesWide = 1;
-// (5) При необходимости задать область печати для вывода OFD
+// (5) Optionally set the print area for the OFD output
 int lastRow = firstSheet.Cells.MaxDataRow;
 int lastCol = firstSheet.Cells.MaxDataColumn;
 string lastColLetter = CellsHelper.ColumnIndexToName(lastCol);
 string printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.PageSetup.PrintArea = printArea;
 Console.WriteLine("\nPrint area set to: " + printArea);
-// (6) Сохранить книгу как файл OFD
+// (6) Save the workbook as an OFD file
 workbook.Save(dataDir + "SampleBook.ofd", SaveFormat.Ofd);
 Console.WriteLine("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 ```

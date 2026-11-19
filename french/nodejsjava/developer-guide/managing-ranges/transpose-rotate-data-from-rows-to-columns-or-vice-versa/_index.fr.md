@@ -105,21 +105,21 @@ Les formules matricielles CSE représentent la méthode classique d'évaluation 
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-// Charger le classeur source avec les options de chargement xlsx
+// Load the source workbook with xlsx LoadOptions
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.XLSX));
-// Accéder à la première feuille de calcul et à sa collection Cells
+// Access the first worksheet and its Cells collection
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();
-// Définir la formule matricielle CSE classique sur la cellule A6.
-// La formule =TRANSPOSE(A1:D5) fait pivoter la plage source de 5 lignes x 4 colonnes
-// en un tableau de 4 lignes x 5 colonnes. Le deuxième argument (4) correspond au nombre de lignes
-// et le troisième argument (5) au nombre de colonnes du tableau résultant.
-// Aspose.Cells écrit le marqueur de formule matricielle CSE afin qu'Excel l'évalue
-// comme une formule matricielle unique multi-cellules, compatible avec les anciennes versions d'Excel
-// (2019, 2016, 2013, etc.) qui ne prennent pas en charge le déversement dynamique des tableaux.
+// Set the classic CSE array formula on cell A6.
+// The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+// into a 4-row x 5-column array. The second argument (4) is the number of rows
+// and the third argument (5) is the number of columns of the resulting array.
+// Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+// a single multi-cell array formula, compatible with older Excel versions
+// (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-// Enregistrer le classeur pour que le marqueur de formule matricielle soit conservé
+// Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx");
 ```
 

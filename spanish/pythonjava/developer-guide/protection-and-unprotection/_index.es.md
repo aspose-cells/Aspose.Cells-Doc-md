@@ -46,19 +46,19 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-# Crear un nuevo libro desde cero
+# Create a new workbook from scratch
 workbook = Workbook()
-# Escribir un valor de muestra en la celda A1 de la primera hoja de cálculo
+# Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get("A1").putValue("Sample Data")
-# Configurar la protección de escritura: establecer la contraseña para modificar y el autor
+# Configure the write protection: set the password to modify and the author
 workbook.getSettings().getWriteProtection().setPassword("ModifyPwd")
 workbook.getSettings().getWriteProtection().setAuthor("AuthorName")
-# Guardar el libro para que la protección de escritura persista
+# Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx")
-# Validar la contraseña para modificar usando la contraseña correcta
+# Validate the password to modify using the correct password
 is_correct_valid = workbook.getSettings().getWriteProtection().validatePassword("ModifyPwd")
 print("ValidatePassword(\"ModifyPwd\") returned: " + str(is_correct_valid))
-# Validar la contraseña para modificar usando una contraseña incorrecta para demostrar la otra rama
+# Validate the password to modify using an incorrect password to demonstrate the other branch
 is_wrong_valid = workbook.getSettings().getWriteProtection().validatePassword("WrongPwd")
 print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 jpype.shutdownJVM()
@@ -72,22 +72,22 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, ProtectionType
-# Crear un nuevo libro
+# Create a new workbook
 workbook = Workbook()
-# Agregar una segunda hoja de cálculo
+# Add a second worksheet
 workbook.getWorksheets().add()
-# Escribir un valor de muestra en la celda A1 de la primera hoja de cálculo
+# Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data")
-# Proteger la estructura del libro
+# Protect the workbook structure
 workbook.protect(ProtectionType.STRUCTURE, "StructPwd")
-# Guardar el libro como structure_protected.xlsx
+# Save the workbook as structure_protected.xlsx
 file_path = "structure_protected.xlsx"
 workbook.save(file_path)
-# Recargar el archivo en una nueva instancia de Workbook
+# Reload the file into a new Workbook instance
 loaded_workbook = Workbook(file_path)
-# Eliminar la protección de estructura
+# Remove the structure protection
 loaded_workbook.unprotect("StructPwd")
-# Imprimir mensaje de confirmación
+# Print confirmation message
 print("Structure protection has been successfully removed from the workbook.")
 jpype.shutdownJVM()
 ```
@@ -124,19 +124,19 @@ from asposecells.api import Workbook, DigitalSignature, DigitalSignatureCollecti
 from java.security import KeyStore
 from java.io import FileInputStream
 from java.util import Date
-# Cargar certificado desde archivo PFX usando Java KeyStore
+# Load certificate from PFX file using Java KeyStore
 key_store = KeyStore.getInstance("PKCS12")
 fis = FileInputStream("signature.pfx")
 key_store.load(fis, "pfx-password")
 fis.close()
-# Obtener el certificado
+# Get the certificate
 alias = key_store.aliases().nextElement()
 certificate = key_store.getCertificate(alias)
-# Crear firma digital
+# Create digital signature
 signature = DigitalSignature(certificate, "Signed by Aspose.Cells", Date())
 signatures = DigitalSignatureCollection()
 signatures.add(signature)
-# Crear libro y agregar firma
+# Create workbook and add signature
 workbook = Workbook()
 workbook.getWorksheets().get(0).getCells().get("A1").putValue("Sample Value")
 workbook.addDigitalSignature(signatures)

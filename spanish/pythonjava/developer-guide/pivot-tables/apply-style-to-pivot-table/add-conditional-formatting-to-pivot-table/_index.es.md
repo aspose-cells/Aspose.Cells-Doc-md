@@ -58,16 +58,16 @@ for i in range(len(fruits)):
     cells.get(i + 1, 0).putValue(fruits[i])
     cells.get(i + 1, 1).putValue(years[i])
     cells.get(i + 1, 2).putValue(amounts[i])
-# Tabla dinámica con su esquina superior izquierda en E3
+# Pivot table with its top-left corner at E3
 pivot_table = sheet.getPivotTables().add("=A1:C7", 2, 4)
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivot_table.calculateData()
-# Anclar el formato condicional en F4 (fila 3, columna 5) con el alcance de Datos
+# Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 index = pivot_table.getConditionalFormats().add()
 format = pivot_table.getConditionalFormats().get(index)
 format.applyTo(3, 5, PivotConditionFormatScopeType.DATA)
-# Regla - resaltar montos mayores a 200
+# Rule - highlight amounts greater than 200
 condition_index = format.getFormatConditions().addCondition(
     FormatConditionType.CELL_VALUE,
     OperatorType.GREATER_THAN,
@@ -87,6 +87,8 @@ jpype.shutdownJVM()
 Anclar la misma regla en la etiqueta del campo de fila E4 (fila 3, columna 4) con el alcance `FIELD` se resuelve en F4:F6 – la misma columna de datos sin la fila de total general – porque el alcance ahora describe el campo `Fruit` en lugar de todo el área de valores. El alcance `SELECTION` anclado en F4 se resuelve únicamente en F4.
 
 ## **Definir la región manualmente**
+
+La segunda forma omite el selector de alcance y nombra la región de forma explícita en el `PivotConditionalFormat`.
 
 ### **Un rectángulo de hoja de cálculo con addCellArea()**
 `addCellArea(CellArea)` registra el rectángulo proporcionado como objetivo de la regla. Las coordenadas son coordenadas de hoja de cálculo basadas en cero, y la región es exactamente el rectángulo suministrado – sin expansión a la columna de datos y sin lógica de totales generales. Úselo cuando las celdas de interés forman un rectángulo fijo conocido del diseño actual de la tabla dinámica.
@@ -126,7 +128,7 @@ pivot_table = sheet.getPivotTables().add("=A1:C7", 2, 4)
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivot_table.calculateData()
-# Apunta al rectángulo F4:F6 (las celdas de valores sin el total general)
+# Target the rectangle F4:F6 (the value cells without the grand total)
 index = pivot_table.getConditionalFormats().add()
 conditional_format = pivot_table.getConditionalFormats().get(index)
 area = CellArea()
@@ -135,7 +137,7 @@ area.StartColumn = 5
 area.EndRow = 5
 area.EndColumn = 5
 conditional_format.addCellArea(area)
-# Regla - cursiva en amarillo claro para cantidades entre 150 y 300
+# Rule - italic on light yellow for amounts between 150 and 300
 condition_index = conditional_format.getFormatConditions().addCondition(
     FormatConditionType.CELL_VALUE,
     OperatorType.BETWEEN,
@@ -188,13 +190,13 @@ pivot_table = sheet.getPivotTables().add("=A1:C7", 2, 4)
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivot_table.calculateData()
-# Adjunte la regla al campo de datos Amount como una región semántica
+# Attach the rule to the Amount data field as a semantic region
 index = pivot_table.getConditionalFormats().add()
 conditional_format = pivot_table.getConditionalFormats().get(index)
 area = PivotArea(pivot_table)
 area.selectField(PivotFieldType.DATA, "Amount")
 conditional_format.getPivotAreas().addPivotArea(area)
-# Regla - texto gris para cantidades inferiores a 150
+# Rule - grey text for amounts below 150
 condition_index = conditional_format.getFormatConditions().addCondition(
     FormatConditionType.CELL_VALUE,
     OperatorType.LESS_THAN,
@@ -233,10 +235,10 @@ for i in range(pivot_table.getConditionalFormats().getCount()):
             f"    rows {area.StartRow + 1}-{area.EndRow + 1}, "
             f"columns {area.StartColumn + 1}-{area.EndColumn + 1}"
         )
-# Esto imprime:
-# Formatos condicionales: 1
-# Formato 0: CellValue GreaterThan formula1==200
-#     filas 4-7, columnas 6-6        (F4:F7, la región de datos resuelta)
+# This prints:
+# Conditional formats: 1
+# Format 0: CellValue GreaterThan formula1==200
+#     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 jpype.shutdownJVM()
 ```
 

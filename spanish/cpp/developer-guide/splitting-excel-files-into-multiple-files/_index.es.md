@@ -1,7 +1,7 @@
 ---
 title: División de archivos Excel en varios archivos
 description: Aspose.Cells es una biblioteca de C++ para trabajar con archivos de hojas de cálculo, que admite la división de un único archivo Excel en varios archivos. Este artículo presentará cómo dividir archivos Excel copiando cada hoja de cálculo a un libro de trabajo independiente y copiando rangos de celdas específicos a otros libros de trabajo.
-linktitle: División de archivos Excel en varios archivos
+linktitle: Dividir archivos Excel en varios
 keywords: Aspose.Cells, biblioteca de C++, hoja de cálculo, dividir archivo Excel, copiar hoja de cálculo, copiar rango, varios libros de trabajo, guardar como archivos separados
 type: docs
 weight: 195

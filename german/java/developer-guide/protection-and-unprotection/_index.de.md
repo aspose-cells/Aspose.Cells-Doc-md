@@ -55,22 +55,22 @@ Der Schutz der Arbeitsmappenstruktur verhindert, dass andere Benutzer ausgeblend
 
 ```java
 import com.aspose.cells.*;
-// Erstellen einer neuen Arbeitsmappe
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Ein zweites Arbeitsblatt hinzufügen
+// Add a second worksheet
 workbook.getWorksheets().add();
-// Einen Beispielwert in Zelle A1 des ersten Arbeitsblatts schreiben
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// Die Struktur der Arbeitsmappe schützen
+// Protect the workbook structure
 workbook.protect(ProtectionType.STRUCTURE, "StructPwd");
-// Die Arbeitsmappe als structure_protected.xlsx speichern
+// Save the workbook as structure_protected.xlsx
 String filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// Die Datei in eine neue Workbook-Instanz neu laden
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// Den Strukturschutz entfernen
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// Bestätigungsnachricht drucken
+// Print confirmation message
 System.out.println("Structure protection has been successfully removed from the workbook.");
 ```
 

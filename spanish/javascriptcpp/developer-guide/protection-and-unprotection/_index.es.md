@@ -1,6 +1,6 @@
 ---
 title: Proteger y desproteger con JavaScript mediante C++
-linktitle: Proteger y desproteger con JavaScript mediante C++
+linktitle: Cifrado y protección
 description: Este fragmento presenta cómo cifrar y descifrar archivos de Excel, así como proteger y desproteger los datos de los archivos de Excel mediante JavaScript con complementos de C++.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, cifrar, descifrar, contraseña, proteger, desproteger, protección del libro de trabajo, protección de la hoja de cálculo, libro de trabajo compartido, JavaScript
 type: docs

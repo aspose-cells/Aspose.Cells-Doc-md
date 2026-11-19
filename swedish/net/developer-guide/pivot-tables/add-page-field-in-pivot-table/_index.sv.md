@@ -1,6 +1,6 @@
 ---
 title: Lägg till filterfält i en pivottabell i Aspose.Cells for .NET
-linktitle: Lägg till filterfält i en pivottabell i Aspose.Cells for .NET
+linktitle: Lägg till filterfält
 description: Lär dig hur du lägger till och konfigurerar filterfält i pivottabeller med Aspose.Cells for .NET, inklusive att lägga till filterfält, enkelvalfiltrering och flervalsfiltrering.
 keywords: Aspose.Cells, .NET, pivottabell, filterfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
@@ -27,15 +27,15 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Skapa en ny arbetsbok
+// Create a new workbook
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
 worksheet.Name = "Data";
-// Ställ in rubrikraden
+// Set up the header row
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// Fylla 9 rader med exempeldata: Frukt, År, Belopp
+// Populate 9 rows of sample data: Fruit, Year, Amount
 object[,] data = new object[,]
 {
     { "apple", 2020, 100 },
@@ -54,15 +54,15 @@ for (int i = 0; i < data.GetLength(0); i++)
     worksheet.Cells[i + 1, 1].PutValue(data[i, 1]);
     worksheet.Cells[i + 1, 2].PutValue(data[i, 2]);
 }
-// Lägg till en pivottabell förankrad vid cell E3
+// Add a pivot table anchored at cell E3
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
-// Lägg till fält i deras områden: Frukt som Rad, Belopp som Data, År som Sidfält
+// Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// Uppdatera och beräkna pivottabellens data
+// Refresh and calculate the pivot table data
 pivotTable.CalculateData();
-// Spara arbetsboken
+// Save the workbook
 workbook.Save("pageFieldSample.xlsx");
 ```
 
@@ -73,19 +73,19 @@ När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till 
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// — Pivottabellen och sidfältet konstrueras exakt som i
-//   Scenario 1a (Fruit/Year/Amount-data, pivot vid E3, Fruit→Rad,
-//   Amount→Data). Nedan hämtar vi Year-PivotField från
-//   BaseFields-samlingen och skickar den till PageFields.Add — det
-//   underliggande alternativet till AddFieldToArea. Resultatet är
-//   funktionellt identiskt med Scenario 1a.
+// — The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+//   Amount→Data). Below we obtain the Year PivotField from the
+//   BaseFields collection and pass it to PageFields.Add — the
+//   low-level alternative to AddFieldToArea. The result is
+//   functionally identical to Scenario 1a.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-// Rubriker
+// Headers
 sheet.Cells["A1"].PutValue("Fruit");
 sheet.Cells["B1"].PutValue("Year");
 sheet.Cells["C1"].PutValue("Amount");
-// Exempeldata (9 rader)
+// Sample data (9 rows)
 sheet.Cells["A2"].PutValue("apple");    sheet.Cells["B2"].PutValue("2020"); sheet.Cells["C2"].PutValue(100);
 sheet.Cells["A3"].PutValue("apple");    sheet.Cells["B3"].PutValue("2021"); sheet.Cells["C3"].PutValue(150);
 sheet.Cells["A4"].PutValue("apple");    sheet.Cells["B4"].PutValue("2022"); sheet.Cells["C4"].PutValue(200);
@@ -95,16 +95,16 @@ sheet.Cells["A7"].PutValue("grape");    sheet.Cells["B7"].PutValue("2022"); shee
 sheet.Cells["A8"].PutValue("blueberry"); sheet.Cells["B8"].PutValue("2020"); sheet.Cells["C8"].PutValue(250);
 sheet.Cells["A9"].PutValue("blueberry"); sheet.Cells["B9"].PutValue("2021"); sheet.Cells["C9"].PutValue(350);
 sheet.Cells["A10"].PutValue("blueberry");sheet.Cells["B10"].PutValue("2022"); sheet.Cells["C10"].PutValue(450);
-// Lägg till pivottabell vid E3 som täcker A1:C10
+// Add pivot table at E3 covering A1:C10
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
-// Fruit -> Rad, Amount -> Data (Year kommer att läggas till Sida nedan)
+// Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Underliggande metod: hämta den befintliga Year-PivotField från BaseFields
-// och registrera den i Sid-området via PageFields.Add(PivotField).
+// Low-level approach: grab the existing Year PivotField from BaseFields
+// and register it in the Page area via PageFields.Add(PivotField).
 PivotField yearField = pivotTable.BaseFields["Year"];
 pivotTable.PageFields.Add(yearField);
-// Uppdatera så att det nya sidfältet återspeglas i den sparade arbetsboken
+// Refresh so the new page field is reflected in the saved workbook
 pivotTable.CalculateData();
 workbook.Save("output.xlsx");
 ```
@@ -123,10 +123,10 @@ class Program
 {
     static void Main()
     {
-        // Skapa en ny arbetsbok
+        // Create a new workbook
         Workbook workbook = new Workbook();
         Worksheet sheet = workbook.Worksheets[0];
-        // Fylla i data för Frukt/År/Belopp
+        // Populate Fruit/Year/Amount data
         sheet.Cells["A1"].PutValue("Fruit");
         sheet.Cells["B1"].PutValue("Year");
         sheet.Cells["C1"].PutValue("Amount");
@@ -146,17 +146,17 @@ class Program
                 sheet.Cells[r + 1, c].PutValue(data[r, c]);
             }
         }
-        // Skapa pivottabell vid E3
+        // Create pivot table at E3
         var pivotTables = sheet.PivotTables;
         PivotTable pivotTable = pivotTables.Add("=A1:C7", 2, 4);
-        // Konfigurera pivotfält: Frukt→Rad, Belopp→Data, År→Sida
+        // Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
         pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
         pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
         pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
         pivotTable.CalculateData();
-        // Rensa sidfiltret så att alla objekt i sidfältet är synliga.
-        // 0x7FFD (decimal 32765) är det speciella sentinelvärdet som betyder "alla objekt" —
-        // motsvarande att välja "(Alla)" i Excel:s sidfält-rullgardin.
+        // Clear the page filter so every item in the page field is visible.
+        // 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+        // equivalent to selecting "(All)" in Excel's page-field dropdown.
         pivotTable.PageFields[0].CurrentPageItem = 0x7FFD;
         workbook.Save("output.xlsx");
     }
@@ -170,11 +170,11 @@ Att sätta `CurrentPageItem` till ett verkligt index väljer bara det filterobje
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Skapa arbetsbok
+// Create workbook
 var workbook = new Workbook();
 var sheet = workbook.Worksheets[0];
 var cells = sheet.Cells;
-// Lägg till exempeldata (Frukt/År/Belopp)
+// Add sample data (Fruit/Year/Amount)
 cells["A1"].PutValue("Fruit");
 cells["B1"].PutValue("Year");
 cells["C1"].PutValue("Amount");
@@ -190,16 +190,16 @@ cells["C4"].PutValue("200");
 cells["A5"].PutValue("Banana");
 cells["B5"].PutValue("2021");
 cells["C5"].PutValue("250");
-// Lägg till pivottabell vid E3
+// Add pivot table at E3
 var pivotTables = sheet.PivotTables;
 var pivotTable = pivotTables.Add("A1:C5", 2, 4);
-// Lägg till fält: Fruit→Rad, Amount→Data, Year→Sida
+// Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// Sidfältsspecifika operationer
-pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = andra objektet i sorterad ordning (t.ex. "2021")
-// Uppdatera och beräkna pivottabell
+// Page-field-specific operations
+pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = second item in sorted order (e.g. "2021")
+// Refresh and calculate pivot table
 pivotTable.CalculateData();
 workbook.Save("output.xlsx");
 ```
@@ -211,14 +211,14 @@ Flervalsfiltrering förvandlar filterrullgardinsmenyn till en kryssrutelista och
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// — Pivottabellen och sidfältet konstrueras exakt som i
-//   Scenario 1a (Fruit/Year/Amount-data, pivot vid E3, Fruit→Rad,
-//   Amount→Data, Year→Sida via AddFieldToArea).
-//   Nedan tillämpar vi multiselect-filtrering på sidfältet.
+// — The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+//   Amount→Data, Year→Page via AddFieldToArea).
+//   Below we apply multi-select filtering on the page field.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 Cells cells = sheet.Cells;
-// Exempeldata: Fruit | Year | Amount
+// Sample data: Fruit | Year | Amount
 cells[0, 0].PutValue("Fruit");
 cells[0, 1].PutValue("Year");
 cells[0, 2].PutValue("Amount");
@@ -246,15 +246,15 @@ PivotTable pivotTable = pivots.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// — Aktivera multiselect på sidfältet
+// — Enable multi-select on the page field
 pivotTable.PageFields[0].IsMultipleItemSelectionAllowed = true;
-// Del A — välj ALLA objekt (gör varje objekt synligt)
+// Part A — select ALL items (make every item visible)
 PivotItemCollection pivotItems = pivotTable.PageFields[0].PivotItems;
 for (int i = 0; i < pivotItems.Count; i++)
 {
     pivotItems[i].IsHidden = false;
 }
-// Del B — välj endast specifika objekt efter källvärde
+// Part B — select only specific items by source value
 for (int i = 0; i < pivotItems.Count; i++)
 {
     switch (pivotItems[i].GetStringValue())

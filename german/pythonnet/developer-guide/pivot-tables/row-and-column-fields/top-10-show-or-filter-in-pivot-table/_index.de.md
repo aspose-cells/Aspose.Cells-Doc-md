@@ -1,6 +1,6 @@
 ---
 title: Top 10 in einer PivotTable anzeigen oder filtern
-linktitle: Top 10 in einer PivotTable anzeigen oder filtern
+linktitle: Top 10 anzeigen oder filtern
 description: Erfahren Sie, wie Sie mit Aspose.Cells for Python via .NET in einem PivotTable-Feld nur die höchst- oder niedrigstplatzierten Elemente anzeigen. Dieser Artikel behandelt die Methode top_10_auto_show für Excel 97-2003, das Lesen von Optionen mithilfe von top_10_auto_show_settings und den Top-10-Filter für Excel 2007-365 mithilfe von filter_top10.
 keywords: Aspose.Cells, Python über .NET, PivotTable, Top 10, AutoShow, top_10_auto_show, top_10_auto_show_settings, PivotFieldTop10AutoShowSettings, filter_top10, PivotFilterType, PivotField, Python
 type: docs
@@ -47,7 +47,7 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
 pivot_table.calculate_data()
 sport_field = pivot_table.row_fields[0]
-# Die 2 besten Elemente anzeigen, sortiert nach "Sum of Sales" (Datenfeldindex 0)
+# Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sport_field.top_10_auto_show(True, True, 2, 0)
 pivot_table.calculate_data()
 workbook.save("output-top10-by-value-field.xlsx")
@@ -134,9 +134,9 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
 pivot_table.calculate_data()
 sport_field = pivot_table.row_fields[0]
-# Top-10-Filter — die 2 obersten Elemente nach "Sum of Sales" beibehalten (Datenfeldindex 0)
+# Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
 filter = sport_field.filter_top10(0, PivotFilterType.COUNT, True, 2)
-# Für einen prozentualen Filter stattdessen die obersten 30 Prozent der Elemente beibehalten:
+# For a percentage-based filter instead, keep the top 30 percent of the items:
 # sport_field.filter_top10(0, PivotFilterType.PERCENT, True, 30)
 pivot_table.pivot_cache.refresh()
 pivot_table.calculate_data()

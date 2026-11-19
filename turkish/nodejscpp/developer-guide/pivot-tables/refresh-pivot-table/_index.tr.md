@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via C++ ile Özet Tablolarını ve Özet Tablo Önbelleklerini Yenileyin
-linktitle: Aspose.Cells for Node.js via C++ ile Özet Tablolarını ve Özet Tablo Önbelleklerini Yenileyin
+linktitle: Pivot Tablolarını Yenile
 description: Aspose.Cells for Node.js via C++ ile v26.7+ özet tablo yenileme API'sini kullanarak özet tablolarını nasıl yenileyeceğinizi öğrenin. Bu makale; refreshAll, refreshPivotTables, PivotCache.refresh, calculateData ve getPivotTables yöntemlerini pratik kod örnekleriyle ele alır.
 keywords: Aspose.Cells, Node.js via C++, özet tablo, yenileme, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

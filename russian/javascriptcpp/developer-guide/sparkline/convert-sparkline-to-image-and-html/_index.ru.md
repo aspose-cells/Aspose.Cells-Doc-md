@@ -54,17 +54,17 @@ Aspose.Cells поддерживает обе операции. Метод `spark
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Создать новую книгу и получить доступ к первому листу
+            // Create a new workbook and access the first worksheet
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Заполнить ячейки A1:E1 образцами данных
+            // Populate sample data in cells A1:E1
             cells.get("A1").value = 5;
             cells.get("B1").value = -3;
             cells.get("C1").value = 8;
             cells.get("D1").value = -2;
             cells.get("E1").value = 6;
-            // Добавить группу линейных спарклайнов, привязанную к F1 (столбец 5, строка 0)
+            // Add a Line sparkline group anchored at F1 (column 5, row 0)
             const lineArea = new CellArea();
             lineArea.startColumn = 5;
             lineArea.endColumn = 5;
@@ -76,7 +76,7 @@ Aspose.Cells поддерживает обе операции. Метод `spark
                 false,
                 lineArea
             );
-            // Добавить группу столбчатых спарклайнов, привязанную к G1 (столбец 6, строка 0)
+            // Add a Column sparkline group anchored at G1 (column 6, row 0)
             const columnArea = new CellArea();
             columnArea.startColumn = 6;
             columnArea.endColumn = 6;
@@ -88,7 +88,7 @@ Aspose.Cells поддерживает обе операции. Метод `spark
                 false,
                 columnArea
             );
-            // Добавить группу спарклайнов Win/Loss (Stacked), привязанную к H1 (столбец 7, строка 0)
+            // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
             const stackedArea = new CellArea();
             stackedArea.startColumn = 7;
             stackedArea.endColumn = 7;
@@ -100,19 +100,19 @@ Aspose.Cells поддерживает обе операции. Метод `spark
                 false,
                 stackedArea
             );
-            // Настроить параметры изображения для вывода в формате PNG
+            // Configure image options for PNG output
             const imageOptions = new ImageOrPrintOptions();
             imageOptions.imageType = AsposeCells.ImageType.Png;
-            // Преобразовать линейный спарклайн в изображение и встроить его в ячейку F2
+            // Convert the Line sparkline to image and embed it in cell F2
             const lineSp = worksheet.sparklineGroups.get(lineIdx).sparklines.get(0);
             cells.get("F2").embeddedImage = lineSp.toImage(imageOptions);
-            // Преобразовать столбчатый спарклайн в изображение и встроить его в ячейку G2
+            // Convert the Column sparkline to image and embed it in cell G2
             const columnSp = worksheet.sparklineGroups.get(columnIdx).sparklines.get(0);
             cells.get("G2").embeddedImage = columnSp.toImage(imageOptions);
-            // Преобразовать спарклайн Win/Loss в изображение и встроить его в ячейку H2
+            // Convert the Win/Loss sparkline to image and embed it in cell H2
             const stackedSp = worksheet.sparklineGroups.get(stackedIdx).sparklines.get(0);
             cells.get("H2").embeddedImage = stackedSp.toImage(imageOptions);
-            // Сохранить книгу на диск
+            // Save the workbook to disk
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

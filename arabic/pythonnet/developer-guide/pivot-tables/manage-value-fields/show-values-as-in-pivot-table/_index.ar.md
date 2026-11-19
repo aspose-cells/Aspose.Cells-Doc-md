@@ -1,8 +1,8 @@
 ---
-title: إظهار القيم كما في جدول محوري
-linktitle: إظهار القيم كما في جدول محوري
-description: عرض قيم حقول البيانات في جدول محوري كنسبة مئوية من الإجمالي، أو كفرق عن عنصر أساسي، أو كقيم تراكمية، أو كترتيب، والمزيد باستخدام Aspose.Cells for Python via .NET.
-keywords: Aspose.Cells for Python via .NET, جدول محوري, إظهار القيم كـ, تنسيق عرض البيانات, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex, Python
+title: عرض القيم حسب في الجدول المحوري
+linktitle: عرض القيم حسب في الجدول المحوري
+description: اعرض قيم حقول بيانات الجدول المحوري كنسب مئوية من الإجمالي، أو كفروق من عنصر أساسي، أو كإجماليات تراكمية، أو كمراتب، وغيرها، باستخدام Aspose.Cells for Python via .NET.
+keywords: Aspose.Cells, جدول محوري, عرض القيم حسب, PivotShowValuesAsType, PERCENTAGE_OF_TOTAL, PivotShowValuesSetting, show_values_as, base_field_index, base_item_index, Python
 type: docs
 weight: 145
 url: /ar/python-net/show-values-as-in-pivot-table/
@@ -10,67 +10,76 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **سيناريوهات الاستخدام المحتملة**
-عادةً ما يجمع جدول محوري كل حقل بيانات باستخدام دالة تجميع مثل `SUM` أو `COUNT`. تُستبدل النتيجة المعروضة في ميزة **Show Values As** في Excel بحساب ثانوي مشتق من ذلك التجميع — على سبيل المثال، نسبة مئوية من الإجمالي الكلي، أو قيمة تراكمية، أو فرق عن عنصر أساسي مختار، أو ترتيب — بحيث يمكنك إجراء تحليل مقارن دون الحاجة إلى صيغ مساعدة أو أعمدة محسوبة.  
-تشمل الاستخدامات الشائعة تحليل حصة الإجمالي، بما في ذلك النسب المئوية للصف، أو العمود، أو الإجمالي الكلي؛ تقارير تراكمية باستخدام قيمة تراكمية في حقل فترة؛ تحليل الفروقات مقابل عنصر معيار باستخدام الفرق عن أو الفرق المئوي عن عنصر أساسي؛ وترتيب القيم من الأصغر إلى الأكبر أو من الأكبر إلى الأصغر.  
-في Aspose.Cells for Python via .NET، يحدد `PivotFieldDataDisplayFormat` الحساب الثانوي. تُعيد الخاصية للقراءة فقط `PivotField.show_values_setting` كائنًا من النوع `PivotShowValuesSetting`، حيث تُكوّن الخصائص القابلة للكتابة `calculation_type` و `base_field_index` و `base_item_position_type` و `base_item_index` السلوك؛ وتطبيق الطريقة المريحة `PivotField.show_values_as(...)` يطبق الإعدادات الأربعة نفسها في استدعاء واحد. طبّق هذه الإعدادات على حقل بيانات أو قيمة يتم الحصول عليه من `PivotTable.data_fields`.
+## **سيناريوهات الاستخدام الممكنة**
+يجمع الجدول المحوري عادةً كل حقل بيانات باستخدام دالة تجميع مثل `SUM` أو `COUNT`. وتستبدل ميزة **عرض القيم حسب** في Excel كل نتيجة معروضة بحساب ثانوي مشتق من نتيجة التجميع؛ على سبيل المثال، كنسبة مئوية من الإجمالي الكلي، أو إجمالي تراكمي، أو فارق عن عنصر أساسي محدد، أو رتبة؛ ما يتيح لك إجراء تحليل مقارن دون الحاجة إلى صيغ مساعدة أو أعمدة محسوبة.
+تشمل الاستخدامات النموذجية تحليل حصة كل عنصر من الإجمالي، بما في ذلك النسب المئوية للصف أو العمود أو الإجمالي الكلي؛ إعداد تقارير تراكمية باستخدام إجمالي تراكمي في حقل فترة؛ تحليل التباين مقابل عنصر مرجعي باستخدام الفارق عن عنصر أساسي أو الفارق بالنسبة المئوية عن عنصر أساسي؛ وترتيب القيم من الأصغر إلى الأكبر أو من الأكبر إلى الأصغر.
+في Aspose.Cells for Python via .NET، يحدد تعداد `PivotShowValuesAsType` الحساب الثانوي. وتعيد الخاصية `PivotField.show_values_setting`، وهي للقراءة فقط، كائن `PivotShowValuesSetting`، وتضبط الخصائص القابلة للكتابة `show_values_as` و`base_field_index` و`base_item_index` سلوك العرض؛ كما تطبق طريقة الاختصار `PivotField.show_values_as(...)` الإعدادات نفسها في استدعاء واحد. طبّق هذه الإعدادات على حقل بيانات أو حقل قيمة تم الحصول عليه من `PivotTable.data_fields`.
 
-## **أعضاء تعداد PivotFieldDataDisplayFormat**
-يحتفظ حقل البيانات بدالة التجميع الخاصة به، مثل `SUM` أو `COUNT`، بينما يقوم Show Values As بتحويل طريقة عرض القيمة المجمعة فقط.  
-بالإضافة إلى كتابة خصائص `PivotShowValuesSetting` مباشرة (انظر القسم الأخير)، تطبق طريقة مريحة استدعاء واحد نفس التكوين:
+## **أعضاء تعداد `PivotShowValuesAsType`**
+يحتفظ حقل البيانات بدالة التجميع الخاصة به، مثل `SUM` أو `COUNT`، بينما يغير **عرض القيم حسب** طريقة عرض القيمة المجمعة فحسب.
+بالإضافة إلى كتابة خصائص `PivotShowValuesSetting` مباشرة (راجع القسم الأخير)، تتيح طريقة اختصار في استدعاء واحد تطبيق الإعداد نفسه. وهي متاحة في نموذجين، أحدهما يحدد حقل الأساس والعنصر الأساسي بواسطة الفهرس، والآخر يحددهما بالاسم:
 
 ```python
-from aspose.cells.pivot import PivotField, PivotFieldDataDisplayFormat, PivotItemPositionType
+from aspose.cells.pivot import PivotField, PivotShowValuesAsType
 def show_values_as(
     pivot_field: PivotField,
-    display_format: PivotFieldDataDisplayFormat,
+    show_values_as_type: PivotShowValuesAsType,
     base_field: int,
-    base_item_position_type: PivotItemPositionType,
     base_item: int,
 ) -> None:
     pivot_field.show_values_as(
-        display_format,
+        show_values_as_type,
         base_field,
-        base_item_position_type,
+        base_item,
+    )
+
+def show_values_as_by_name(
+    pivot_field: PivotField,
+    show_values_as_type: PivotShowValuesAsType,
+    base_field: str,
+    base_item: str,
+) -> None:
+    pivot_field.show_values_as(
+        show_values_as_type,
+        base_field,
         base_item,
     )
 ```
 
-| معامل | المعنى | متى يكون مطلوبًا |
+| المعامل | المعنى | متى يكون مطلوبًا |
 | --- | --- | --- |
-| `display_format` | حساب `PivotFieldDataDisplayFormat` الثانوي الذي سيُطبق. | دائمًا. |
-| `base_field` | الفهرس الصفري للحقول الأساسية بين الحقول الأساسية لجدول محوري (على سبيل المثال، فهرس حقل الصف الذي ينتمي إليه العنصر الأساسي). | فقط تنسيقات المرجع الستة أدناه (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`, `RUNNING_TOTAL_IN`, `PERCENTAGE_OF_RUNNING_TOTAL_IN`, `PERCENTAGE_OF_PARENT_TOTAL`)؛ يتم تجاهلها في جميع التنسيقات الأخرى. |
-| `base_item_position_type` | كيفية موضع العنصر الأساسي بالنسبة للعنصر الحالي: `PivotItemPositionType.PREVIOUS`، `.NEXT`، أو `.CUSTOM`. | فقط تنسيقات العنصر الأساسي الثلاثة (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`)؛ يتم تجاهلها في جميع التنسيقات الأخرى. |
-| `base_item` | الفهرس الصفري للعنصر الأساسي. | فقط عندما تكون `base_item_position_type` هي `CUSTOM` (يختار فهرس العنصر الأساسي العنصر المحدد)؛ يُهمل للخيارات `PREVIOUS` / `NEXT` ومن قبل جميع التنسيقات غير القائمة على العنصر الأساسي — مرر `0`. |
+| `show_values_as_type` | الحساب الثانوي من نوع `PivotShowValuesAsType` المطلوب تطبيقه. | دائمًا. |
+| `base_field` | فهرس قائم على الصفر لحقل الأساس ضمن حقول الأساس في الجدول المحوري (على سبيل المثال، فهرس حقل الصف الذي ينتمي إليه العنصر الأساسي)، أو — في النموذج الذي يعتمد على الأسماء — اسم حقل الأساس. | التنسيقات الثمانية القائمة على الأساس أدناه (`DIFFERENCE_FROM` و`PERCENTAGE_OF` و`PERCENTAGE_DIFFERENCE_FROM` و`RUNNING_TOTAL_IN` و`PERCENTAGE_OF_PARENT_TOTAL` و`PERCENTAGE_OF_RUNNING_TOTAL_IN` و`RANK_SMALLEST_TO_LARGEST` و`RANK_LARGEST_TO_SMALLEST`)؛ ومرر `0` (أو `None` في النموذج الذي يعتمد على الأسماء) لكل تنسيق آخر. |
+| `base_item` | فهرس قائم على الصفر للعنصر الأساسي، مع قيمتَي إشارة: `PivotShowValuesSetting.PREVIOUS_PIVOT_ITEM` (-1) لتحديد العنصر السابق، و`PivotShowValuesSetting.NEXT_PIVOT_ITEM` (-2) لتحديد العنصر التالي. ويأخذ النموذج الذي يعتمد على الأسماء تسمية العنصر الأساسي بدلاً من الفهرس، ويستخدم `None` عندما لا يحتاج التنسيق المحدد إلى عنصر أساسي. | تستخدم تنسيقات العنصر الأساسي الثلاثة (`DIFFERENCE_FROM` و`PERCENTAGE_OF` و`PERCENTAGE_DIFFERENCE_FROM`) العنصر الأساسي، بينما تتجاهل التنسيقات الخمسة النسبية إلى الحقل (`RUNNING_TOTAL_IN` و`PERCENTAGE_OF_PARENT_TOTAL` و`PERCENTAGE_OF_RUNNING_TOTAL_IN` وتنسيقَي الترتيب) هذا العنصر؛ ومرر `0` أو `None`. |
 
-| نوع الحساب | السلوك | معامل العنصر الأساسي |
+| نوع الحساب | السلوك | معاملات العنصر الأساسي |
 | --- | --- | --- |
-| `NORMAL` | لا يوجد حساب ثانوي؛ تُعرض القيمة المجمعة كما هي (الإعداد الافتراضي). | — |
-| `DIFFERENCE_FROM` | يعرض القيمة كفرق عن قيمة عنصر أساسي في حقل أساسي. | `base_field` + `PREVIOUS`/`NEXT`/`CUSTOM` (`base_item` فقط مع `CUSTOM`) |
-| `PERCENTAGE_OF` | يعرض القيمة كنسبة مئوية لقيمة عنصر أساسي في حقل أساسي. | `base_field` + `PREVIOUS`/`NEXT`/`CUSTOM` (`base_item` فقط مع `CUSTOM`) |
-| `PERCENTAGE_DIFFERENCE_FROM` | يعرض القيمة كفرق نسبي (نسبة مئوية) عن قيمة عنصر أساسي في حقل أساسي. | `base_field` + `PREVIOUS`/`NEXT`/`CUSTOM` (`base_item` فقط مع `CUSTOM`) |
-| `RUNNING_TOTAL_IN` | يعرض القيمة كقيمة تراكمية للعناصر المتتابعة في حقل أساسي. | `base_field` (الحقل الذي يحدد ترتيب التجميع) |
-| `PERCENTAGE_OF_ROW` | يعرض القيمة كنسبة مئوية لإجمالي الصف. | — |
-| `PERCENTAGE_OF_COLUMN` | يعرض القيمة كنسبة مئوية لإجمالي العمود. | — |
-| `PERCENTAGE_OF_TOTAL` | يعرض القيمة كنسبة مئوية للإجمالي الكلي. | — |
-| `INDEX` | يعرض القيمة باستخدام صيغة الفهرس في Excel ((القيمة * الإجمالي الكلي) / (إجمالي الصف * إجمالي العمود)). | — |
-| `PERCENTAGE_OF_PARENT_ROW_TOTAL` | يعرض القيمة كنسبة مئوية لإجمالي الصف الأصل (للحقول الصفية المتداخلة). | — |
-| `PERCENTAGE_OF_PARENT_COLUMN_TOTAL` | يعرض القيمة كنسبة مئوية لإجمالي العمود الأصل (للحقول العمودية المتداخلة). | — |
-| `PERCENTAGE_OF_PARENT_TOTAL` | يعرض القيمة كنسبة مئوية لإجمالي الأصل. | `baseField` (الحقل الأصل المرجعي) |
-| `PERCENTAGE_OF_RUNNING_TOTAL_IN` | يعرض القيمة كنسبة مئوية لقيمة تراكمية في حقل أساسي. | `base_field` (حقل التجميع) |
-| `RANK_SMALLEST_TO_LARGEST` | يرتب القيمة من الأصغر (1) إلى الأكبر. | — |
-| `RANK_LARGEST_TO_SMALLEST` | يرتب القيمة من الأكبر (1) إلى الأصغر. | — |
+| `NORMAL` | لا يوجد حساب ثانوي؛ تُعرض القيمة المجمعة كما هي (الافتراضي). | — |
+| `DIFFERENCE_FROM` | يعرض القيمة كفارق عن قيمة عنصر أساسي في حقل الأساس. | `base_field` + `base_item` (فهرس أو تسمية، أو قيمة إشارة للعنصر السابق/التالي) |
+| `PERCENTAGE_OF` | يعرض القيمة كنسبة مئوية من قيمة عنصر أساسي في حقل الأساس. | `base_field` + `base_item` (فهرس أو تسمية، أو قيمة إشارة للعنصر السابق/التالي) |
+| `PERCENTAGE_DIFFERENCE_FROM` | يعرض القيمة كالفارق بالنسبة المئوية عن قيمة عنصر أساسي في حقل الأساس. | `base_field` + `base_item` (فهرس أو تسمية، أو قيمة إشارة للعنصر السابق/التالي) |
+| `RUNNING_TOTAL_IN` | يعرض القيمة كإجمالي تراكمي للعناصر المتتالية في حقل الأساس. | `base_field` (الحقل الذي تحدد عناصره مسار التراكم) |
+| `PERCENTAGE_OF_ROW` | يعرض القيمة كنسبة مئوية من إجمالي الصف. | — |
+| `PERCENTAGE_OF_COLUMN` | يعرض القيمة كنسبة مئوية من إجمالي العمود. | — |
+| `PERCENTAGE_OF_TOTAL` | يعرض القيمة كنسبة مئوية من الإجمالي الكلي. | — |
+| `INDEX` | يعرض القيمة باستخدام صيغة الفهرس في Excel `((value * grand total) / (row total * column total))`. | — |
+| `PERCENTAGE_OF_PARENT_ROW_TOTAL` | يعرض القيمة كنسبة مئوية من إجمالي الصف الأب (لحقول الصفوف المتداخلة). | — |
+| `PERCENTAGE_OF_PARENT_COLUMN_TOTAL` | يعرض القيمة كنسبة مئوية من إجمالي العمود الأب (لحقول الأعمدة المتداخلة). | — |
+| `PERCENTAGE_OF_PARENT_TOTAL` | يعرض القيمة كنسبة مئوية من إجمالي حقله الأب. | `base_field` (الحقل الأب الذي يُستخدم إجماليه كمرجع) |
+| `PERCENTAGE_OF_RUNNING_TOTAL_IN` | يعرض القيمة كنسبة مئوية من إجمالي تراكمي في حقل أساس. | `base_field` (حقل التراكم) |
+| `RANK_SMALLEST_TO_LARGEST` | يرتب القيمة من الأصغر (1) إلى الأكبر. | `base_field` (الحقل الذي تحدد عناصره نطاق الترتيب) |
+| `RANK_LARGEST_TO_SMALLEST` | يرتب القيمة من الأكبر (1) إلى الأصغر. | `base_field` (الحقل الذي تحدد عناصره نطاق الترتيب) |
 
 {{% alert color="primary" %}}
-`show_values_as(...)` يكتب الخصائص لكائن `PivotShowValuesSetting` (`calculation_type` و `base_field_index` و `base_item_position_type` و `base_item_index`) — الطريقة وكائن الخاصية هما طريقتان لتكوين الحالة نفسها، معكوسين لأدوات اختيار الحقل الأساسي والعنصر الأساسي في مربع حوار Show Values As في Excel.
+يكتب `show_values_as(...)` خصائص `PivotShowValuesSetting` (`show_values_as` و`base_field_index` و`base_item_index`)؛ وتكوّن الطريقة وكائن الخاصية وسيلتين لضبط الحالة نفسها، تمامًا مثل أدوات اختيار حقل الأساس والعنصر الأساسي في مربع حوار **عرض القيم حسب** في Excel.
 {{% /alert %}}
 
-## **إظهار القيم كنسبة مئوية من الإجمالي**
-استدعِ طريقة `PivotField.show_values_as` مع `PivotFieldDataDisplayFormat.PERCENTAGE_OF_TOTAL` لتحويل كل خلية حقل بيانات، بما في ذلك الإجمالي الكلي، إلى حصتها من الإجمالي الكلي. وبالتالي تُظهر الأرقام كحصص من مجموعة النتائج الكاملة. يقيس هذا التنسيق كل قيمة مقابل الإجمالي الكلي فقط، لذلك لا يحتاج إلى حقل أساسي أو عنصر أساسي — المعاملات اللاحقة (`0`، `PivotItemPositionType.PREVIOUS`، `0`) هي نائيات يتجاهلها التنسيق، كما هو موضح في جدول المعاملات أعلاه.
+## **عرض القيم كنسبة مئوية من الإجمالي**
+استدعِ أسلوب `PivotField.show_values_as` مع `PivotShowValuesAsType.PERCENTAGE_OF_TOTAL` لتحويل كل خلية في حقل البيانات، بما في ذلك الإجمالي الكلي، إلى حصتها من الإجمالي الكلي. لذلك تُعرض الأرقام بوصفها نسبًا من مجموعة النتائج الكاملة. يقيس هذا التنسيق كل قيمة مقارنةً بالإجمالي الكلي فقط، لذا لا يحتاج إلى حقل أساس أو عنصر أساسي؛ أما المعاملان الأخيران (`0`، `0`) فهما قيمتان بديلتان يتجاهلهما التنسيق، كما يوضح جدول المعاملات أعلاه.
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldDataDisplayFormat, PivotFieldType, PivotItemPositionType
+from aspose.cells.pivot import PivotFieldType, PivotShowValuesAsType
 # Load or create a workbook with source data
 workbook = ac.Workbook()
 data_sheet = workbook.worksheets[0]
@@ -89,59 +98,54 @@ pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.calculate_data()
 # Show the Amount data field as a percentage of the grand total with the
 # one-call method; PercentageOfTotal takes no base item, so the trailing
-# base arguments (0, Previous, 0) are placeholders the format ignores
+# base arguments (0, 0) are placeholders the format ignores
 data_field = pivot_table.data_fields[0]
-data_field.show_values_as(
-    PivotFieldDataDisplayFormat.PERCENTAGE_OF_TOTAL,
-    0,
-    PivotItemPositionType.PREVIOUS,
-    0,
-)
+data_field.show_values_as(PivotShowValuesAsType.PERCENTAGE_OF_TOTAL, 0, 0)
 pivot_table.calculate_data()
 # Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
 workbook.save("ShowValuesAsPercentageOfTotal.xlsx")
 ```
 
-## **الحصول على وتكوين PivotField.show_values_setting**
-اقرأ التكوين الحالي عبر `PivotField.show_values_setting`: تُعيد الخاصية للقراءة فقط كائن `PivotShowValuesSetting` الخاص بالحقل، حيث تصف خصائصه الأربعة عملية Show Values As النشطة. لتغيير التكوين، استدعِ طريقة `PivotField.show_values_as` — فهي تكتب جميع الإعدادات الأربعة في استدعاء واحد، لذا لا تحتاج أبدًا إلى تعيين الخصائص واحدةً تلو الأخرى.  
-كائن `PivotShowValuesSetting` يكشف عن الخصائص الأربعة التي تكتبها `show_values_as`:
-- `calculation_type` يختار الحساب الثانوي `PivotFieldDataDisplayFormat`.
-- `base_field_index` يحدد الفهرس الصفري للحقول الأساسية داخل الحقول المحورية. يُستخدم في تنسيقات المرجع.
-- `base_item_position_type` يحدد كيفية موضع العنصر الأساسي بالنسبة للعنصر الحالي ويقبل `PivotItemPositionType.NEXT` أو `PivotItemPositionType.PREVIOUS` أو `PivotItemPositionType.CUSTOM`.
-- `base_item_index` يحدد الفهرس الصفري للعنصر الأساسي ويُستخدم عندما تكون `base_item_position_type` هي `CUSTOM`.
-بعد استدعاء `show_values_as`, استدعِ `PivotTable.calculate_data()` مرة أخرى حتى يُعاد حساب جسم الجدول المحوري وإعادة رسمه بالإعدادات المحدثة.
+## **الحصول على `PivotField.show_values_setting` وتهيئته**
+اقرأ الإعداد الحالي من خلال `PivotField.show_values_setting`: تعيد الخاصية للقراءة فقط كائن `PivotShowValuesSetting` الخاص بالحقل، وتصف خصائصه حساب **عرض القيم حسب** النشط. لتغيير الإعداد، استدعِ أسلوب `PivotField.show_values_as`؛ فهو يكتب جميع الإعدادات في استدعاء واحد، ولا تحتاج إلى تعيين الخصائص واحدة تلو الأخرى.
+يكشف كائن `PivotShowValuesSetting` الحالة التي يكتبها `show_values_as`:
+- يحدد `show_values_as` الحساب الثانوي من نوع `PivotShowValuesAsType`.
+- يحدد `base_field_index` الفهرس القائم على الصفر لحقل الأساس ضمن حقول الجدول المحوري. ويُستخدم في التنسيقات القائمة على الأساس.
+- يحدد `base_item_index` العنصر الأساسي: فهرسًا قائمًا على الصفر لعنصر محوري محدد، أو إحدى قيمتَي الإشارة: `PivotShowValuesSetting.PREVIOUS_PIVOT_ITEM` (-1) للعنصر السابق، أو `PivotShowValuesSetting.NEXT_PIVOT_ITEM` (-2) للعنصر التالي. ويُستخدم في التنسيقات القائمة على العنصر الأساسي.
+- `base_field_name` و`base_item_caption` يعرضان اسم حقل الأساس وتسمية العنصر الأساسي بعد تحديدهما، وهما للقراءة فقط؛ على سبيل المثال، بعد اختيار قيمة الإشارة الخاصة بالعنصر السابق، تكون قراءة `base_item_caption` هي `(previous)`.
+بعد استدعاء `show_values_as`، استدعِ `PivotTable.calculate_data()` مرة أخرى لإعادة حساب بيانات الجدول المحوري وإعادة عرضها بالإعداد المحدث.
 
 ```python
 import aspose.cells as ac
-from aspose.cells.pivot import PivotFieldDataDisplayFormat, PivotFieldType, PivotItemPositionType
+from aspose.cells.pivot import PivotFieldType, PivotShowValuesAsType, PivotShowValuesSetting
 workbook = ac.Workbook("ShowValuesAsPercentageOfTotal.xlsx")
 pivot_table = workbook.worksheets[1].pivot_tables[0]
 data_field = pivot_table.data_fields[0]
 # Read the current show-values settings
 settings = data_field.show_values_setting
-print(f"CalculationType: {settings.calculation_type}")
+print(f"ShowValuesAs: {settings.show_values_as}")
 print(f"BaseFieldIndex: {settings.base_field_index}")
-print(f"BaseItemPositionType: {settings.base_item_position_type}")
 print(f"BaseItemIndex: {settings.base_item_index}")
+print(f"BaseFieldName: {settings.base_field_name}")
+print(f"BaseItemCaption: {settings.base_item_caption}")
 # Switch to a base-item calculation with the one-call method: difference
 # from the value of the previous item in the row field
 data_field.show_values_as(
-    PivotFieldDataDisplayFormat.DIFFERENCE_FROM,
+    PivotShowValuesAsType.DIFFERENCE_FROM,
     pivot_table.row_fields[0].base_index,
-    PivotItemPositionType.PREVIOUS,
-    0
+    PivotShowValuesSetting.PREVIOUS_PIVOT_ITEM
 )
 pivot_table.calculate_data()
 # Note: the percentage number format saved by the previous example still
 # clings to the data field cells; the underlying values are now differences
 # Re-read the applied configuration
-print(f"CalculationType now: {data_field.show_values_setting.calculation_type}")
+print(f"ShowValuesAs now: {data_field.show_values_setting.show_values_as}")
 workbook.save("ShowValuesAsDifferenceFrom.xlsx")
 ```
 
 ## **مقالات ذات صلة**
-- [إدارة حقول القيم في جدول محوري](/cells/ar/python-net/manage-value-fields/)
-- [تحديث جدول محوري](/cells/ar/python-net/refresh-pivot-table/)
-- [تطبيق نمط على جدول محوري](/cells/ar/python-net/apply-style-to-pivot-table/)
+- [إدارة حقول القيم في الجدول المحوري](/cells/ar/python-net/manage-value-fields/)
+- [تحديث الجدول المحوري](/cells/ar/python-net/refresh-pivot-table/)
+- [تطبيق نمط على الجدول المحوري](/cells/ar/python-net/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="python-net" >}}

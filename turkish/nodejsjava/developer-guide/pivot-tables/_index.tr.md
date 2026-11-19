@@ -1,6 +1,6 @@
 ---
 title: Özet Tablo Ekle
-linktitle: Özet Tablo Ekle
+linktitle: Özet Tablolar
 description: Excel elektronik tablo dosyalarında özet tablolar oluşturmak ve biçimlendirmek için Aspose.Cells for Node.js via Java kullanın.
 keywords: Özet Tablo Oluştur, Özet Tablo Ekle, Özet Tablosunu Biçimlendir, Aspose.Cells for Node.js via Java.
 type: docs
@@ -35,12 +35,10 @@ Bir özet tablo oluşturmak üç adımlı bir işlemdir: kaynak veriyi çalışm
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-
-// Yeni bir çalışma kitabı oluştur ve ilk çalışma sayfasını al
+// Create a new workbook and get the first worksheet
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-
-// Kaynak verileri yaz: spor ve çeyrek bazında satışlar
+// Write the source data: sales per sport and quarter
 sheet.getCells().get("A1").putValue("Sport");
 sheet.getCells().get("B1").putValue("Quarter");
 sheet.getCells().get("C1").putValue("Sales");
@@ -65,16 +63,13 @@ sheet.getCells().get("C7").putValue(5000);
 sheet.getCells().get("A8").putValue("Golf");
 sheet.getCells().get("B8").putValue("Qtr3");
 sheet.getCells().get("C8").putValue(6430);
-
-// E3 hedef hücresine A1:C8 kaynaklı bir pivot tablo ekle
+// Add a pivot table at destination cell E3, sourced from A1:C8
 let pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// Pivot alanlarını ata: Satırlar alanına Sport, Sütunlar alanına Quarter, Veriler alanına Sales
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Quarter");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Sales");
-
-// Çalışma kitabını kaydet
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

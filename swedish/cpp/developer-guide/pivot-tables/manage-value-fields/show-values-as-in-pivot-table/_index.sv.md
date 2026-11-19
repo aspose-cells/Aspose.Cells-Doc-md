@@ -1,8 +1,8 @@
 ---
-title: Visa värden som i pivottabell i Aspose.Cells för C++
-linktitle: Visa värden som i pivottabell i Aspose.Cells för C++
-description: Visa pivottabellens datafältvärden som en procentandel av totalen, en differens från ett basobjekt, löpande summor, rankning och mer med Aspose.Cells för C++.
-keywords: Aspose.Cells, C++, pivottabell, visa värden som, data visningsformat, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex
+title: Visa värden som i en pivottabell i Aspose.Cells for C++
+linktitle: Visa värden som i en pivottabell i Aspose.Cells for C++
+description: Visa värden i pivottabellens datfält som procent av totalen, differens från en baspost, löpande totaler, rangordningar med mera i Aspose.Cells for C++.
+keywords: Aspose.Cells, C++, pivottabell, visa värden som, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, ShowValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /sv/cpp/show-values-as-in-pivot-table/
@@ -11,46 +11,51 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Möjliga användningsscenarier**
-En pivottabell aggregerar normalt varje datafält med en aggregationsfunktion som `Sum` eller `Count`. Excels funktion **Visa värden som** ersätter varje visat resultat med en sekundär beräkning härledd från den aggregationen — till exempel en procentandel av totalen, en löpande total, en differens från ett valt basobjekt eller en rankning — så att du kan utföra jämförande analyser utan hjälpförmler eller beräknade kolumner. Vanliga tillämpningar inkluderar andelsanalys av totalen, inklusive procentandelar av rad, kolumn eller total; kumulativ rapportering med löpande total i ett periodfält; variansanalys mot ett basobjekt med differens eller procentuell differens från ett basobjekt; samt rangordning av värden från minsta till största eller omvänt. I Aspose.Cells för C++ väljer `PivotFieldDataDisplayFormat` den sekundära beräkningen. Accessorn `PivotField.GetShowValuesSetting()` returnerar ett `PivotShowValuesSetting`‑objekt, vars metoder `SetCalculationType`, `SetBaseFieldIndex`, `SetBaseItemPositionType` och `SetBaseItemIndex` konfigurerar beteendet; bekvämlighetsmetoden `PivotField.ShowValuesAs(...)` tillämpar samma fyra inställningar i ett anrop. Använd dessa inställningar på ett data‑ eller värdefält som hämtas från `PivotTable.GetDataFields()`.
+En pivottabell aggregerar normalt varje datfält med en aggregeringsfunktion, till exempel `Sum` eller `Count`. Excel-funktionen **Visa värden som** ersätter varje visat resultat med en sekundär beräkning som härleds från den aggregeringen – till exempel en procentandel av totalsumman, en löpande totalsumma, en differens från en vald baspost eller en rangordning – så att du kan utföra jämförande analys utan hjälpformler eller beräknade kolumner.
+Typiska användningsområden omfattar analys av andelsfördelningar, inklusive procentandelar av en rad, kolumn eller totalsumma; kumulativ rapportering med hjälp av en löpande totalsumma i ett periodfält; variansanalys mot en referenspost med hjälp av differens från eller procentuell differens från en baspost; samt rangordning av värden från minst till störst eller från störst till minst.
+I Aspose.Cells for C++ väljer enumereringen `PivotShowValuesAsType` den sekundära beräkningen. Metoden `PivotField.GetShowValuesSetting()` returnerar ett `PivotShowValuesSetting`-objekt. Metoderna `SetShowValuesAs`, `SetBaseFieldIndex` och `SetBaseItemIndex` konfigurerar inställningarna, och metoden `PivotField.ShowValuesAs(...)` tillämpar samma inställningar med ett enda anrop. Tillämpa inställningarna på ett datfält eller värdefält som har hämtats från `PivotTable.GetDataFields()`.
 
-## **PivotFieldDataDisplayFormat Enumeration Medlemmar**
-Datafältet behåller sin aggregationsfunktion, såsom Sum eller Count, medan Visa värden som bara förändrar hur det aggregerade värdet visas. Förutom att skriva `PivotShowValuesSetting`‑värdena direkt (se sista avsnittet) applicerar en enkel‑anrops‑bekvämlighetsmetod samma konfiguration:
+## **Medlemmar i enumereringen PivotShowValuesAsType**
+Datfältet behåller sin aggregeringsfunktion, till exempel Sum eller Count, medan Visa värden som endast ändrar hur det aggregerade värdet visas.
+Utöver att ange värdena för `PivotShowValuesSetting` direkt (se det sista avsnittet) kan samma konfiguration även tillämpas med ett enda anrop. Metoden finns i två former – en där basfältet och basposten anges via index och en där de anges via namn:
 
 ```cpp
-void ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int32_t baseField, PivotItemPositionType baseItemPositionType, int32_t baseItem);
+void ShowValuesAs(PivotShowValuesAsType showValuesAsType, int32_t baseField, int32_t baseItem);
+void ShowValuesAs(PivotShowValuesAsType showValuesAsType, const U16String& baseField, const U16String& baseItem);
+// index form: PivotShowValuesAsType::PercentageOfTotal, 0, 0
+// name form:  PivotShowValuesAsType::PercentageOf, u"Fruit", u"Apple"
 ```
 
-| Parameter | Betydelse | När den krävs |
+| Parameter | Betydelse | När det krävs |
 | --- | --- | --- |
-| `displayFormat` | Det sekundära beräkningsformatet `PivotFieldDataDisplayFormat` som ska tillämpas. | Alltid. |
-| `baseField` | Nollbaserat index för basfältet bland pivottabellens basfält (t.ex. indexet för radfältet som basobjektet tillhör). | Endast för de sex basrelaterade formaten nedan (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfRunningTotalIn`, `PercentageOfParentTotal`); ignoreras av alla andra format. |
-| `baseItemPositionType` | Hur basobjektet väljs i förhållande till det aktuella objektet: `PivotItemPositionType::Previous`, `::Next` eller `::Custom`. | Endast för de tre basobjektformaten (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`); ignoreras av alla andra format. |
-| `baseItem` | Nollbaserat index för basobjektet. | Endast när `baseItemPositionType` är `Custom` (objektindexet väljer exakt basobjekt); ignoreras för `Previous` / `Next` och av alla icke‑basformat — skicka `0`. |
+| `showValuesAsType` | Den sekundära `PivotShowValuesAsType`-beräkningen som ska tillämpas. | Alltid. |
+| `baseField` | Nollbaserat index för basfältet bland pivottabellens basfält (till exempel indexet för det radfält som basposten tillhör), eller – i namnformen – namnet på basfältet. | De åtta basrelaterade formaten nedan (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, `RankSmallestToLargest`, `RankLargestToSmallest`); ange `0` (eller en tom `U16String` i namnformen) för alla andra format. |
+| `baseItem` | Nollbaserat index för basposten, med två sentinelvärden: -1 väljer den föregående posten och -2 den nästa posten (C++ API:t definierar inga namngivna konstanter för sentinelvärdena – ange literalvärdena). I namnformen anges i stället baspostens etikett, eller en tom `U16String` när det valda formatet inte behöver någon baspost. | Endast de tre baspostformaten (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`) använder basposten; de fem fältrelaterade formaten (`RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn` och båda rangordningsformaten) ignorerar den – ange `0` eller en tom `U16String`. |
 
-| Beräkningstyp | Beteende | Basobjektparametrar |
+| Beräkningstyp | Beteende | Baspostparametrar |
 | --- | --- | --- |
 | `Normal` | Ingen sekundär beräkning; det aggregerade värdet visas som det är (standard). | — |
-| `DifferenceFrom` | Visar värdet som en differens från värdet av ett basobjekt i ett basfält. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` endast med `Custom`) |
-| `PercentageOf` | Visar värdet som en procentandel av värdet av ett basobjekt i ett basfält. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` endast med `Custom`) |
-| `PercentageDifferenceFrom` | Visar värdet som procentuell differens från värdet av ett basobjekt i ett basfält. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` endast med `Custom`) |
-| `RunningTotalIn` | Visar värdet som en löpande total för på varandra följande objekt i ett basfält. | `baseField` (fältet vars objektsordning driver ackumuleringen) |
-| `PercentageOfRow` | Visar värdet som en procentandel av radtotalen. | — |
-| `PercentageOfColumn` | Visar värdet som en procentandel av kolumntotalen. | — |
-| `PercentageOfTotal` | Visar värdet som en procentandel av den totala summan. | — |
-| `Index` | Visar värdet med Excel‑indexformeln ((värde * total) / (radtotal * kolumntotal)). | — |
-| `PercentageOfParentRowTotal` | Visar värdet som en procentandel av dess förälderradtotal (för nästlade radfält). | — |
-| `PercentageOfParentColumnTotal` | Visar värdet som en procentandel av dess föräldrakolumntotal (för nästlade kolumnfält). | — |
-| `PercentageOfParentTotal` | Visar värdet som en procentandel av dess föräldratotal. | `baseField` (det överordnade referensfältet) |
-| `PercentageOfRunningTotalIn` | Visar värdet som en procentandel av en löpande total i ett basfält. | `baseField` (ackumuleringsfältet) |
-| `RankSmallestToLargest` | Rangordnar värdet från minsta (1) till största. | — |
-| `RankLargestToSmallest` | Rangordnar värdet från största (1) till minsta. | — |
+| `DifferenceFrom` | Visar värdet som en differens från värdet på en baspost i ett basfält. | `baseField` + `baseItem` (ett index eller en etikett, eller sentinelvärdet för den föregående/nästa posten) |
+| `PercentageOf` | Visar värdet som en procentandel av värdet på en baspost i ett basfält. | `baseField` + `baseItem` (ett index eller en etikett, eller sentinelvärdet för den föregående/nästa posten) |
+| `PercentageDifferenceFrom` | Visar värdet som den procentuella differensen från värdet på en baspost i ett basfält. | `baseField` + `baseItem` (ett index eller en etikett, eller sentinelvärdet för den föregående/nästa posten) |
+| `RunningTotalIn` | Visar värdet som en löpande totalsumma för poster i ordningsföljd i ett basfält. | `baseField` (fältet vars postordning styr ackumulationen) |
+| `PercentageOfRow` | Visar värdet som en procentandel av radens totalsumma. | — |
+| `PercentageOfColumn` | Visar värdet som en procentandel av kolumnens totalsumma. | — |
+| `PercentageOfTotal` | Visar värdet som en procentandel av totalsumman. | — |
+| `Index` | Visar värdet med Excel-formeln för index ((värde * totalsumma) / (radens totalsumma * kolumnens totalsumma)). | — |
+| `PercentageOfParentRowTotal` | Visar värdet som en procentandel av den överordnade radens totalsumma (för nästlade radfält). | — |
+| `PercentageOfParentColumnTotal` | Visar värdet som en procentandel av den överordnade kolumnens totalsumma (för nästlade kolumnfält). | — |
+| `PercentageOfParentTotal` | Visar värdet som en procentandel av det överordnade fältets totalsumma. | `baseField` (det överordnade fältet vars totalsumma är referensen) |
+| `PercentageOfRunningTotalIn` | Visar värdet som en procentandel av en löpande totalsumma i ett basfält. | `baseField` (ackumuleringsfältet) |
+| `RankSmallestToLargest` | Rangordnar värdet från minst (1) till störst. | `baseField` (fältet vars poster definierar rangordningsområdet) |
+| `RankLargestToSmallest` | Rangordnar värdet från störst (1) till minst. | `baseField` (fältet vars poster definierar rangordningsområdet) |
 
 {{% alert color="primary" %}}
-`ShowValuesAs(...)` skriver de `PivotShowValuesSetting`‑värdena (`CalculationType`, `BaseFieldIndex`, `BaseItemPositionType`, `BaseItemIndex`) — metoden och inställningsobjektet är två sätt att konfigurera samma tillstånd, motsvarande basfält‑ och basobjektväljare i Excels dialog för Visa värden som.
+`ShowValuesAs(...)` sätter `PivotShowValuesSetting`-värdena (`ShowValuesAs`, `BaseFieldIndex` och `BaseItemIndex`) – metoden och inställningsobjektet utgör två alternativ för att konfigurera samma konfiguration, vilket motsvarar valen av basfält och baspost i dialogrutan Visa värden som i Excel.
 {{% /alert %}}
 
-## **Visa värden som procentandel av totalen**
-Anropa `PivotField.ShowValuesAs` med `PivotFieldDataDisplayFormat::PercentageOfTotal` för att omvandla varje data‑fältcell, inklusive totalen, till dess andel av den totala summan. De visade siffrorna läses därför som proportioner av hela resultatmängden. Detta format mäter varje värde endast mot den totala summen, så det kräver inget basfält eller basobjekt — de efterföljande argumenten (`0`, `PivotItemPositionType::Previous`, `0`) är platshållare som formatet ignorerar, enligt tabellen ovan.
+## **Visa värden som procent av totalen**
+Anropa metoden `PivotField.ShowValuesAs` med `PivotShowValuesAsType::PercentageOfTotal` för att omvandla varje cell i datfältet, inklusive totalsumman, till dess andel av totalsumman. De visade talen utgör därför andelar av hela resultatet. Formatet jämför alla värden endast med totalsumman och behöver därför varken basfält eller baspost – de avslutande argumenten (`0`, `0`) är platshållare som formatet ignorerar, enligt parametertabellen ovan.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -79,9 +84,9 @@ int main() {
     pivotTable.CalculateData();
     // Show the Amount data field as a percentage of the grand total with the
     // one-call method; PercentageOfTotal takes no base item, so the trailing
-    // base arguments (0, Previous, 0) are placeholders the format ignores
+    // base arguments (0, 0) are placeholders the format ignores
     PivotField dataField = pivotTable.GetDataFields().Get(0);
-    dataField.ShowValuesAs(PivotFieldDataDisplayFormat::PercentageOfTotal, 0, PivotItemPositionType::Previous, 0);
+    dataField.ShowValuesAs(PivotShowValuesAsType::PercentageOfTotal, 0, 0);
     pivotTable.CalculateData();
     // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
     workbook.Save(u"ShowValuesAsPercentageOfTotal.xlsx");
@@ -91,12 +96,13 @@ int main() {
 ```
 
 ## **Hämta och konfigurera PivotField.ShowValuesSetting**
-Läs den aktuella konfigurationen via `PivotField.GetShowValuesSetting()`: accessorn returnerar fältets `PivotShowValuesSetting`‑objekt, vars fyra getter‑metoder beskriver den aktiva Visa värden som‑beräkningen. För att ändra konfigurationen, anropa `PivotField.ShowValuesAs`‑metoden — den skriver alla fyra inställningarna i ett anrop, så att du aldrig behöver tilldela värdena enskilt. `PivotShowValuesSetting`‑objektet exponerar de fyra värden som `ShowValuesAs` skriver:
-- `GetCalculationType()` / `SetCalculationType()` väljer den sekundära beräkningen `PivotFieldDataDisplayFormat`.
-- `GetBaseFieldIndex()` / `SetBaseFieldIndex()` specificerar nollbaserat index för basfältet inom pivottabellens fält. Det används av de basrelaterade formaten.
-- `GetBaseItemPositionType()` / `SetBaseItemPositionType()` bestämmer hur basobjektet placeras relativt till det aktuella objektet och accepterar `PivotItemPositionType::Next`, `PivotItemPositionType::Previous` eller `PivotItemPositionType::Custom`.
-- `GetBaseItemIndex()` / `SetBaseItemIndex()` specificerar nollbaserat index för basobjektet och används när positionstypen är `Custom`.
-Efter anropet av `ShowValuesAs` anropa `PivotTable.CalculateData()` igen så att pivottabellens kropp beräknas om och renderas med den uppdaterade konfigurationen.
+Metoden `PivotField.GetShowValuesSetting()` returnerar fältets `PivotShowValuesSetting`-objekt, vars åtkomstmetoder beskriver den aktiva sekundärberäkningen. Om du vill ändra konfigurationen anropar du metoden `PivotField.ShowValuesAs` – den sätter alla inställningar med ett enda anrop, så att du aldrig behöver ange värdena en i taget.
+`PivotShowValuesSetting`-objektet exponerar de inställningar som `ShowValuesAs` sätter:
+- `GetShowValuesAs()` / `SetShowValuesAs()` väljer den sekundära `PivotShowValuesAsType`-beräkningen.
+- `GetBaseFieldIndex()` / `SetBaseFieldIndex()` anger det nollbaserade indexet för basfältet bland pivotfälten. Det används av de basrelaterade formaten.
+- `GetBaseItemIndex()` / `SetBaseItemIndex()` anger basposten: ett nollbaserat index för en specifik pivotpost, eller ett av de två sentinelvärdena – -1 för den föregående posten och -2 för den nästa posten (C++ API:t definierar inga namngivna konstanter för sentinelvärdena). Det används av baspostformaten.
+- `GetBaseFieldName()` och `GetBaseItemCaption()` är skrivskyddade vyer som återger det aktuella basfältets namn och baspostens etikett; till exempel returnerar `GetBaseItemCaption()` `(previous)` efter att sentinelvärdet för den föregående posten har valts.
+Efter att `ShowValuesAs` har anropats ska du anropa `PivotTable.CalculateData()` igen, så att pivottabellens resultatdel beräknas om och återges med den uppdaterade konfigurationen.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -110,19 +116,22 @@ int main() {
     PivotField dataField = pivotTable.GetDataFields().Get(0);
     // Read the current show-values settings
     PivotShowValuesSetting settings = dataField.GetShowValuesSetting();
-    std::cout << "CalculationType: " << static_cast<int32_t>(settings.GetCalculationType()) << std::endl;
+    std::cout << "ShowValuesAs: " << static_cast<int32_t>(settings.GetShowValuesAs()) << std::endl;
     std::cout << "BaseFieldIndex: " << settings.GetBaseFieldIndex() << std::endl;
-    std::cout << "BaseItemPositionType: " << static_cast<int32_t>(settings.GetBaseItemPositionType()) << std::endl;
     std::cout << "BaseItemIndex: " << settings.GetBaseItemIndex() << std::endl;
+    std::cout << "BaseFieldName: " << settings.GetBaseFieldName().ToUtf8() << std::endl;
+    std::cout << "BaseItemCaption: " << settings.GetBaseItemCaption().ToUtf8() << std::endl;
     // Switch to a base-item calculation with the one-call method: difference
     // from the value of the previous item in the row field
-    dataField.ShowValuesAs(PivotFieldDataDisplayFormat::DifferenceFrom,
-        pivotTable.GetRowFields().Get(0).GetBaseIndex(), PivotItemPositionType::Previous, 0);
+    // (-1 is the previous-item sentinel; no named constant exists in C++)
+    dataField.ShowValuesAs(PivotShowValuesAsType::DifferenceFrom,
+        pivotTable.GetRowFields().Get(0).GetBaseIndex(), -1);
     pivotTable.CalculateData();
     // Note: the percentage number format saved by the previous example still
     // clings to the data field cells; the underlying values are now differences
     // Re-read the applied configuration
-    std::cout << "CalculationType now: " << static_cast<int32_t>(dataField.GetShowValuesSetting().GetCalculationType()) << std::endl;
+    std::cout << "ShowValuesAs now: " << static_cast<int32_t>(dataField.GetShowValuesSetting().GetShowValuesAs()) << std::endl;
+    std::cout << "BaseItemCaption now: " << dataField.GetShowValuesSetting().GetBaseItemCaption().ToUtf8() << std::endl;
     workbook.Save(u"ShowValuesAsDifferenceFrom.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -132,6 +141,6 @@ int main() {
 ## **Relaterade artiklar**
 - [Hantera värdefält i pivottabell](/cells/sv/cpp/manage-value-fields/)
 - [Uppdatera pivottabell](/cells/sv/cpp/refresh-pivot-table/)
-- [Applicera stil på pivottabell](/cells/sv/cpp/apply-style-to-pivot-table/)
+- [Använd stil på pivottabell](/cells/sv/cpp/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="cpp" >}}

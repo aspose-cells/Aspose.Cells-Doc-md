@@ -28,15 +28,15 @@ Aspose.Cells for Python via .NET 公开了两种等效的方式来注册页字�
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# 创建一个新的工作簿
+# Create a new workbook
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-# 设置表头行
+# Set up the header row
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
-# 填充 9 行示例数据：水果、年份、数量
+# Populate 9 rows of sample data: Fruit, Year, Amount
 data = [
     ["apple", 2020, 100],
     ["banana", 2021, 200],
@@ -52,15 +52,15 @@ for i in range(len(data)):
     worksheet.cells.get(i + 1, 0).put_value(data[i][0])
     worksheet.cells.get(i + 1, 1).put_value(data[i][1])
     worksheet.cells.get(i + 1, 2).put_value(data[i][2])
-# 在 E3 单元格添加一个数据透视表
+# Add a pivot table anchored at cell E3
 pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
-# 将字段添加到相应区域：水果作为行字段，数量作为数据字段，年份作为页字段
+# Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
-# 刷新并计算数据透视表的数据
+# Refresh and calculate the pivot table data
 pivot_table.calculate_data()
-# 保存工作簿
+# Save the workbook
 workbook.save("pageFieldSample.xlsx")
 ```
 
@@ -70,19 +70,19 @@ workbook.save("pageFieldSample.xlsx")
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# — 数据透视表和页字段的构建与
-#   场景 1a 完全相同（Fruit/Year/Amount 数据，透视表位于 E3，Fruit→行，
-#   Amount→数据）。下面我们从
-#   BaseFields 集合中获取 Year PivotField 并将其传递给 PageFields.Add — 这是
-#   AddFieldToArea 的底层替代方案。其结果与
-#   场景 1a 在功能上完全相同。
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data). Below we obtain the Year PivotField from the
+#   BaseFields collection and pass it to PageFields.Add — the
+#   low-level alternative to AddFieldToArea. The result is
+#   functionally identical to Scenario 1a.
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-# 表头
+# Headers
 sheet.cells.get("A1").put_value("Fruit")
 sheet.cells.get("B1").put_value("Year")
 sheet.cells.get("C1").put_value("Amount")
-# 示例数据（9 行）
+# Sample data (9 rows)
 sheet.cells.get("A2").put_value("apple");    sheet.cells.get("B2").put_value("2020"); sheet.cells.get("C2").put_value(100)
 sheet.cells.get("A3").put_value("apple");    sheet.cells.get("B3").put_value("2021"); sheet.cells.get("C3").put_value(150)
 sheet.cells.get("A4").put_value("apple");    sheet.cells.get("B4").put_value("2022"); sheet.cells.get("C4").put_value(200)
@@ -92,16 +92,16 @@ sheet.cells.get("A7").put_value("grape");    sheet.cells.get("B7").put_value("20
 sheet.cells.get("A8").put_value("blueberry"); sheet.cells.get("B8").put_value("2020"); sheet.cells.get("C8").put_value(250)
 sheet.cells.get("A9").put_value("blueberry"); sheet.cells.get("B9").put_value("2021"); sheet.cells.get("C9").put_value(350)
 sheet.cells.get("A10").put_value("blueberry");sheet.cells.get("B10").put_value("2022"); sheet.cells.get("C10").put_value(450)
-# 在 E3 处添加数据透视表，覆盖 A1:C10
+# Add pivot table at E3 covering A1:C10
 pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
-# Fruit -> 行，Amount -> 数据（Year 将在下方添加到页字段）
+# Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# 底层方法：从 BaseFields 中获取现有的 Year PivotField
-#   并通过 PageFields.Add(PivotField) 将其注册到页字段区域。
+# Low-level approach: grab the existing Year PivotField from BaseFields
+# and register it in the Page area via PageFields.Add(PivotField).
 year_field = pivot_table.base_fields["Year"]
 pivot_table.page_fields.add(year_field)
-# 刷新数据以便新页字段反映在保存的工作簿中
+# Refresh so the new page field is reflected in the saved workbook
 pivot_table.calculate_data()
 workbook.save("output.xlsx")
 ```
@@ -115,10 +115,10 @@ workbook.save("output.xlsx")
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# 创建新的工作簿
+# Create a new workbook
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-# 填充 Fruit/Year/Amount 数据
+# Populate Fruit/Year/Amount data
 sheet.cells.get("A1").put_value("Fruit")
 sheet.cells.get("B1").put_value("Year")
 sheet.cells.get("C1").put_value("Amount")
@@ -133,17 +133,17 @@ data = [
 for r in range(len(data)):
     for c in range(len(data[r])):
         sheet.cells.get(r + 1, c).put_value(data[r][c])
-# 在 E3 创建数据透视表
+# Create pivot table at E3
 pivot_tables = sheet.pivot_tables
 pivot_table = pivot_tables.add("=A1:C7", 2, 4)
-# 配置透视字段：Fruit→行，Amount→数据，Year→页面
+# Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 pivot_table.calculate_data()
-# 清除页面筛选器，以便显示页面字段中的所有项。
-# 0x7FFD（十进制 32765）是表示"所有项"的特殊哨兵值 ——
-# 相当于在 Excel 的页面字段下拉列表中选择"(全部)"。
+# Clear the page filter so every item in the page field is visible.
+# 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+# equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivot_table.page_fields[0].current_page_item = 0x7FFD
 workbook.save("output.xlsx")
 ```
@@ -195,14 +195,14 @@ workbook.save("output.xlsx")
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# — 透视表和页面字段的构造方式与场景 1a 完全相同
-#   （Fruit/Year/Amount 数据，透视表位于 E3，Fruit→行，
-#   Amount→数据，Year→页面通过 AddFieldToArea 添加）。
-#   下面我们对页面字段应用多选筛选。
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data, Year→Page via AddFieldToArea).
+#   Below we apply multi-select filtering on the page field.
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
-# 示例数据：Fruit | Year | Amount
+# Sample data: Fruit | Year | Amount
 cells.get(0, 0).put_value("Fruit")
 cells.get(0, 1).put_value("Year")
 cells.get(0, 2).put_value("Amount")
@@ -227,13 +227,13 @@ pivot_table = pivots.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
-# — 在页面字段上启用多选
+# — Enable multi-select on the page field
 pivot_table.page_fields[0].is_multiple_item_selection_allowed = True
-# Part A — 选择所有项目（使每个项目都可见）
+# Part A — select ALL items (make every item visible)
 pivot_items = pivot_table.page_fields[0].pivot_items
 for i in range(len(pivot_items)):
     pivot_items[i].is_hidden = False
-# Part B — 按源值仅选择特定项目
+# Part B — select only specific items by source value
 for i in range(len(pivot_items)):
     value = pivot_items[i].get_string_value()
     if value == "2020" or value == "grape" or value == "blueberry":

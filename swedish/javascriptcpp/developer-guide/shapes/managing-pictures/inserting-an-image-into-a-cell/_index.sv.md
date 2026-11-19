@@ -159,16 +159,16 @@ Följande kod visar den fullständiga lösningen.
             }
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // Hämta målcellen C6
+            // Get the target cell C6
             const cell = worksheet.cells.get("C6");
-            // Läs bildfilen in i en byte-array
+            // Read the image file into a byte array
             const imageData = new Uint8Array(await fileInput.files[0].arrayBuffer());
-            // Bädda in bilden direkt i cellen
+            // Embed the image directly into the cell
             cell.embeddedImage = imageData;
-            // Justera vid behov radhöjd och kolumnbredd så att den inbäddade bilden blir mer synlig
-            worksheet.cells.setColumnWidth(2, 30); // Kolumn C (index 2)
-            worksheet.cells.setRowHeight(5, 100); // Rad 6 (index 5)
-            // Spara den resulterande arbetsboken som en .xlsx-fil
+            // Optionally adjust row height and column width so the embedded image is more visible
+            worksheet.cells.setColumnWidth(2, 30); // Column C (index 2)
+            worksheet.cells.setRowHeight(5, 100); // Row 6 (index 5)
+            // Save the resulting workbook as an .xlsx file
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             downloadLink.href = URL.createObjectURL(blob);

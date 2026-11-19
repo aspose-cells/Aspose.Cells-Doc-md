@@ -1,6 +1,6 @@
 ---
 title: Lägg till filterfält i en pivottabell i Aspose.Cells for C++
-linktitle: Lägg till filterfält i en pivottabell i Aspose.Cells for C++
+linktitle: Lägg till filterfält
 description: Lär dig hur du lägger till och konfigurerar filterfält i pivottabeller med Aspose.Cells for C++, inklusive att lägga till filterfält, enkelvalfiltrering och flervalsfiltrering.
 keywords: Aspose.Cells, C++, pivottabell, filterfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
@@ -28,16 +28,16 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Skapa en ny arbetsbok
+    // Create a new workbook
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(u"Data");
     Cells cells = worksheet.GetCells();
-    // Ställ in rubrikraden
+    // Set up the header row
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
-    // Fyll i 9 rader med exempeldata: Frukt, År, Belopp
+    // Populate 9 rows of sample data: Fruit, Year, Amount
     const char* fruits[] = { "apple", "banana", "apple", "grape", "orange", "banana", "grape", "apple", "orange" };
     int years[]   = { 2020, 2021, 2021, 2020, 2022, 2020, 2021, 2022, 2021 };
     int amounts[] = { 100, 200, 150, 120, 180, 90, 130, 170, 110 };
@@ -47,15 +47,15 @@ int main() {
         cells.Get(i + 1, 1).PutValue(years[i]);
         cells.Get(i + 1, 2).PutValue(amounts[i]);
     }
-    // Lägg till en pivottabell förankrad vid cell E3
+    // Add a pivot table anchored at cell E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // Lägg till fält till deras områden: Frukt som Rad, Belopp som Data, År som Sidfält
+    // Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
-    // Uppdatera och beräkna pivottabellens data
+    // Refresh and calculate the pivot table data
     pivotTable.CalculateData();
-    // Spara arbetsboken
+    // Save the workbook
     workbook.Save(u"pageFieldSample.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -75,11 +75,11 @@ int main() {
     Workbook workbook;
     Worksheet sheet = workbook.GetWorksheets().Get(0);
     Cells cells = sheet.GetCells();
-    // Rubriker
+    // Headers
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
-    // Exempeldata (9 rader)
+    // Sample data (9 rows)
     cells.Get(u"A2").PutValue(u"apple");     cells.Get(u"B2").PutValue(u"2020"); cells.Get(u"C2").PutValue(100);
     cells.Get(u"A3").PutValue(u"apple");     cells.Get(u"B3").PutValue(u"2021"); cells.Get(u"C3").PutValue(150);
     cells.Get(u"A4").PutValue(u"apple");     cells.Get(u"B4").PutValue(u"2022"); cells.Get(u"C4").PutValue(200);
@@ -89,15 +89,15 @@ int main() {
     cells.Get(u"A8").PutValue(u"blueberry"); cells.Get(u"B8").PutValue(u"2020"); cells.Get(u"C8").PutValue(250);
     cells.Get(u"A9").PutValue(u"blueberry"); cells.Get(u"B9").PutValue(u"2021"); cells.Get(u"C9").PutValue(350);
     cells.Get(u"A10").PutValue(u"blueberry");cells.Get(u"B10").PutValue(u"2022");cells.Get(u"C10").PutValue(450);
-    // Lägg till pivottabell vid E3 som täcker A1:C10
+    // Add pivot table at E3 covering A1:C10
     PivotTableCollection pivotTables = sheet.GetPivotTables();
     int pivotIndex = pivotTables.Add(U16String(u"A1:C10"), U16String(u"E3"), U16String(u"PivotTable1"));
     PivotTable pivotTable = pivotTables.Get(pivotIndex);
-    // Frukt -> Rad, Belopp -> Data
+    // Fruit -> Row, Amount -> Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, U16String(u"Fruit"));
     pivotTable.AddFieldToArea(PivotFieldType::Data, U16String(u"Amount"));
-    // Lågnivåmetod: hitta det befintliga Year PivotField i BaseFields
-    // och registrera det i sidområdet via PageFields.Add(PivotField).
+    // Low-level approach: locate the existing Year PivotField in BaseFields
+    // and register it in the Page area via PageFields.Add(PivotField).
     PivotFieldCollection baseFields = pivotTable.GetBaseFields();
     int baseFieldCount = baseFields.GetCount();
     for (int i = 0; i < baseFieldCount; ++i) {
@@ -107,7 +107,7 @@ int main() {
             break;
         }
     }
-    // Uppdatera så att det nya sidfältet återspeglas i den sparade arbetsboken
+    // Refresh so the new page field is reflected in the saved workbook
     pivotTable.CalculateData();
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
@@ -209,7 +209,7 @@ int main() {
     Workbook workbook;
     Worksheet sheet = workbook.GetWorksheets().Get(0);
     Cells cells = sheet.GetCells();
-    // Exempeldata: Frukt | År | Belopp
+    // Sample data: Fruit | Year | Amount
     cells.Get(0, 0).PutValue(u"Fruit");
     cells.Get(0, 1).PutValue(u"Year");
     cells.Get(0, 2).PutValue(u"Amount");
@@ -235,15 +235,15 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
-    // — Aktivera flerval på sidfältet
+    // — Enable multi-select on the page field
     pivotTable.GetPageFields().Get(0).SetIsMultipleItemSelectionAllowed(true);
-    // Del A — välj ALLA objekt (gör alla objekt synliga)
+    // Part A — select ALL items (make every item visible)
     PivotItemCollection pivotItems = pivotTable.GetPageFields().Get(0).GetPivotItems();
     int itemCount = pivotItems.GetCount();
     for (int i = 0; i < itemCount; i++) {
         pivotItems.Get(i).SetIsHidden(false);
     }
-    // Del B — välj endast specifika objekt efter källvärde
+    // Part B — select only specific items by source value
     for (int i = 0; i < itemCount; i++) {
         U16String val = pivotItems.Get(i).GetStringValue();
         std::string s = val.ToUtf8();

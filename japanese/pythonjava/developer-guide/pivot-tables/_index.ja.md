@@ -38,13 +38,11 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType
-
-# 新しいワークブックを作成し、最初のワークシートを取得する
+# Create a new workbook and get the first worksheet
 workbook = Workbook()
 sheet = workbook.getWorksheets().get(0)
 cells = sheet.getCells()
-
-# ソースデータ（スポーツ別・四半期別の売上）を書き込む
+# Write the source data: sales per sport and quarter
 cells.get("A1").putValue("Sport")
 cells.get("B1").putValue("Quarter")
 cells.get("C1").putValue("Sales")
@@ -69,16 +67,13 @@ cells.get("C7").putValue(5000)
 cells.get("A8").putValue("Golf")
 cells.get("B8").putValue("Qtr3")
 cells.get("C8").putValue(6430)
-
-# A1:C8をソースとして、宛先セルE3にピボットテーブルを追加する
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4)
-
-# ピボットフィールドを割り当てる：行にSport、列にQuarter、値にSales
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Quarter")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales")
-
-# ワークブックを保存する
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

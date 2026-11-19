@@ -77,22 +77,22 @@ La protezione della struttura della cartella di lavoro impedisce ad altri utenti
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Crea una nuova cartella di lavoro
+    // Create a new workbook
     Workbook workbook;
-    // Aggiungi un secondo foglio di lavoro
+    // Add a second worksheet
     workbook.GetWorksheets().Add();
-    // Scrivi un valore di esempio nella cella A1 del primo foglio di lavoro
+    // Write a sample value to cell A1 of the first worksheet
     workbook.GetWorksheets().Get(0).GetCells().Get(0, 0).PutValue(u"Sample Data");
-    // Proteggi la struttura della cartella di lavoro
+    // Protect the workbook structure
     workbook.Protect(ProtectionType::Structure, u"StructPwd");
-    // Salva la cartella di lavoro come structure_protected.xlsx
+    // Save the workbook as structure_protected.xlsx
     U16String filePath = u"structure_protected.xlsx";
     workbook.Save(filePath);
-    // Ricarica il file in una nuova istanza di Workbook
+    // Reload the file into a new Workbook instance
     Workbook loadedWorkbook(filePath);
-    // Rimuovi la protezione della struttura
+    // Remove the structure protection
     loadedWorkbook.Unprotect(u"StructPwd");
-    // Stampa il messaggio di conferma
+    // Print confirmation message
     std::cout << "Structure protection has been successfully removed from the workbook." << std::endl;
     Aspose::Cells::Cleanup();
     return 0;

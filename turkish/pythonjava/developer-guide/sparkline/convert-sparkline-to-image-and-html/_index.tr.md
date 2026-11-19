@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via Java'da Sparkline'ı Görüntüye ve HTML'e Dönüştürme
-linktitle: Aspose.Cells for Python via Java'da Sparkline'ı Görüntüye ve HTML'e Dönüştürme
+linktitle: Sparkline'ı Görüntü ve HTML'e Dönüştür
 description: Aspose.Cells sparkline'larını hücre gömme için bağımsız görüntüler olarak işlemeyi ve sparkline açısından zengin çalışma sayfalarını HtmlSaveOptions kullanarak HTML'e aktarmayı öğrenin.
 keywords: Aspose.Cells, Python via Java, sparkline, Sparkline.toImage, Cell.embeddedImage, HtmlSaveOptions, sparkline işleme, sparkline'ı görüntüye dönüştürme, sparkline'ı HTML'e aktarma
 type: docs
@@ -39,55 +39,55 @@ jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
-# Yeni bir çalışma kitabı oluştur ve ilk çalışma sayfasına eriş
+# Create a new workbook and access the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# A1:E1 hücrelerine örnek veri yerleştir
+# Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5)
 worksheet.getCells().get("B1").putValue(-3)
 worksheet.getCells().get("C1").putValue(8)
 worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
-# F1'de (sütun 5, satır 0) sabitlenmiş bir Çizgi mini grafik grubu ekle
+# Add a Line sparkline group anchored at F1 (column 5, row 0)
 lineArea = CellArea()
 lineArea.StartColumn = 5
 lineArea.EndColumn = 5
 lineArea.StartRow = 0
 lineArea.EndRow = 0
 lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
-# G1'de (sütun 6, satır 0) sabitlenmiş bir Sütun mini grafik grubu ekle
+# Add a Column sparkline group anchored at G1 (column 6, row 0)
 columnArea = CellArea()
 columnArea.StartColumn = 6
 columnArea.EndColumn = 6
 columnArea.StartRow = 0
 columnArea.EndRow = 0
 columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
-# H1'de (sütun 7, satır 0) sabitlenmiş bir Kazanma/Kaybetme (Yığılmış) mini grafik grubu ekle
+# Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 stackedArea = CellArea()
 stackedArea.StartColumn = 7
 stackedArea.EndColumn = 7
 stackedArea.StartRow = 0
 stackedArea.EndRow = 0
 stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
-# PNG çıktısı için görüntü seçeneklerini yapılandır
+# Configure image options for PNG output
 imageOptions = ImageOrPrintOptions()
 imageOptions.setImageType(ImageType.PNG)
-# Çizgi mini grafiğini görüntüye dönüştür ve F2 hücresine göm
+# Convert the Line sparkline to image and embed it in cell F2
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 lineSp.toImage(ms, imageOptions)
 worksheet.getCells().get("F2").setEmbeddedImage(ms.toByteArray())
-# Sütun mini grafiğini görüntüye dönüştür ve G2 hücresine göm
+# Convert the Column sparkline to image and embed it in cell G2
 columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 columnSp.toImage(ms, imageOptions)
 worksheet.getCells().get("G2").setEmbeddedImage(ms.toByteArray())
-# Kazanma/Kaybetme mini grafiğini görüntüye dönüştür ve H2 hücresine göm
+# Convert the Win/Loss sparkline to image and embed it in cell H2
 stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 stackedSp.toImage(ms, imageOptions)
 worksheet.getCells().get("H2").setEmbeddedImage(ms.toByteArray())
-# Çalışma kitabını diske kaydet
+# Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx")
 jpype.shutdownJVM()
 ```

@@ -22,7 +22,7 @@ The following filtering strategies are covered in this article:
 3. **Value Filter** — filters items based on the aggregated values of a data field.
 4. **Top 10 Filter** — shows only the top or bottom N items ranked by a value field.
 5. **Hide / Unhide Pivot Items** — manually controls the visibility of each individual item in a field.
-Each approach uses a different method on the `PivotField` class or a property on the `PivotItem` class. After applying any filter, you must call `refreshData()` and `calculateData()` on the pivot table so that the cached data and calculated values reflect the new filter state.
+Each approach uses a different method on the `PivotField` class or a property on the `PivotItem` class. After applying any filter, you must call `getPivotCache().refresh()` on the pivot table so that the cached data and calculated values reflect the new filter state.
 
 ## **Label Filter**
 A label filter allows you to filter the items of a row or column field by comparing their text captions against a pattern. This is useful when you want to display only products whose names start with a specific letter, contain a particular word, or match some other caption-based criterion.
@@ -44,7 +44,7 @@ PivotField rowField = pivotTable.getRowFields().get(0);
 // Apply the label filter - show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
 // Refresh and recalculate the pivot table data so the filter takes effect
-pivotTable.refreshData();
+pivotTable.getPivotCache().refresh();
 // Save the workbook back to disk
 workbook.save(fileName);
 ```
@@ -82,7 +82,7 @@ DateTime endDate = new DateTime(2020, 12, 31);
 // Apply the date filter on the pivot field
 dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate);
 // Refresh and recalculate the pivot table so the filter takes effect
-pivotTable.refreshData();
+pivotTable.getPivotCache().refresh();
 // Persist the workbook
 workbook.save(outputPath);
 ```
@@ -113,7 +113,7 @@ if (dataFieldIndex >= 0)
 {
     rowField.filterByValue(dataFieldIndex, PivotFilterType.VALUE_GREATER_THAN, 5000, Double.MAX_VALUE);
 }
-pivotTable.refreshData();
+pivotTable.getPivotCache().refresh();
 workbook.save("output.xlsx");
 ```
 
@@ -153,7 +153,7 @@ int valueFieldIndex = 0;
 //   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, true, 10);
 // Refresh the pivot table data and recalculate it so the filter takes effect
-pivotTable.refreshData();
+pivotTable.getPivotCache().refresh();
 // Save the workbook
 workbook.save(outputPath);
 ```
@@ -189,7 +189,7 @@ for (int i = 0; i < itemCount; i++)
     }
 }
 // Refresh and recalculate the pivot table so changes take effect
-pivotTable.refreshData();
+pivotTable.getPivotCache().refresh();
 // Save the workbook - hidden items stay in the underlying data
 // but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx");

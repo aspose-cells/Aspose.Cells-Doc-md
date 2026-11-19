@@ -1,6 +1,6 @@
 ---
 title: Rad- och kolumnfält i Aspose.Cells for Node.js via Java
-linktitle: Rad- och kolumnfält i Aspose.Cells for Node.js via Java
+linktitle: Rad- och kolumnfält
 description: Lär dig hur du lägger till basfält i rad- och kolumnområdena i en pivottabell och styr delsummor för pivotfält med PivotField.setSubtotals i Aspose.Cells for Node.js via Java
 keywords: Aspose.Cells, Node.js, Java, pivottabell, radfält, kolumnfält, PivotField, setSubtotals, PivotFieldSubtotalType, delsummor
 type: docs

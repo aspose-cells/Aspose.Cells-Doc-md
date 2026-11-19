@@ -1,6 +1,6 @@
 ---
 title: Insertar tabla dinámica
-linktitle: Insertar tabla dinámica
+linktitle: Tablas dinámicas
 description: Crear y formatear tablas dinámicas con Aspose.Cells for Node.js mediante C++.
 keywords: Crear tabla dinámica, Insertar tabla dinámica, Formatear tabla dinámica.
 type: docs
@@ -35,12 +35,10 @@ Después de ejecutar el código de ejemplo, se agrega una tabla dinámica a la h
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-
-// Crear un nuevo libro de trabajo y obtener la primera hoja de cálculo
+// Create a new workbook and get the first worksheet
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-
-// Escribir los datos de origen: ventas por deporte y trimestre
+// Write the source data: sales per sport and quarter
 sheet.getCells().get("A1").putValue("Sport");
 sheet.getCells().get("B1").putValue("Quarter");
 sheet.getCells().get("C1").putValue("Sales");
@@ -65,16 +63,13 @@ sheet.getCells().get("C7").putValue(5000);
 sheet.getCells().get("A8").putValue("Golf");
 sheet.getCells().get("B8").putValue("Qtr3");
 sheet.getCells().get("C8").putValue(6430);
-
-// Agregar una tabla dinámica en la celda de destino E3, usando A1:C8 como origen
+// Add a pivot table at destination cell E3, sourced from A1:C8
 let pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// Asignar campos de tabla dinámica: Sport a Filas, Quarter a Columnas, Sales a Datos
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Quarter");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
-
-// Guardar el libro de trabajo
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

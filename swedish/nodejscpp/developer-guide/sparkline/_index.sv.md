@@ -1,6 +1,6 @@
 ---
 title: Sparklinjer i Aspose.Cells for Node.js via C++
-linktitle: Sparklinjer i Aspose.Cells for Node.js via C++
+linktitle: Sparklines
 description: Aspose.Cells är ett Node.js-bibliotek för att arbeta med kalkylbladsfiler som stöder skapande av sparklinjer — miniatyrdiagram placerade inuti kalkylbladsceller. Denna artikel förklarar hur man lägger till och anpassar linje-, kolumn- och vinst/förlust-sparklinjer med Aspose.Cells-biblioteket.
 keywords: Aspose.Cells, Node.js-bibliotek, kalkylblad, sparklinjer, linje-sparklinje, kolumn-sparklinje, vinst/förlust-sparklinje, SparklineGroup, SparklineType
 type: docs

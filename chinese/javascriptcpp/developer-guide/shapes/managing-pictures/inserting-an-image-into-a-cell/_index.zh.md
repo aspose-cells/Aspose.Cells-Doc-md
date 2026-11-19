@@ -159,16 +159,16 @@ Aspose.Cells 还提供了一种更简单的机制来创建与单元格绑定的�
             }
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // 获取目标单元格 C6
+            // Get the target cell C6
             const cell = worksheet.cells.get("C6");
-            // 将图像文件读入字节数组
+            // Read the image file into a byte array
             const imageData = new Uint8Array(await fileInput.files[0].arrayBuffer());
-            // 将图像直接嵌入单元格
+            // Embed the image directly into the cell
             cell.embeddedImage = imageData;
-            // 可选择调整行高和列宽，使嵌入的图像更清晰可见
-            worksheet.cells.setColumnWidth(2, 30); // C 列（索引 2）
-            worksheet.cells.setRowHeight(5, 100); // 第 6 行（索引 5）
-            // 将生成的工作簿保存为 .xlsx 文件
+            // Optionally adjust row height and column width so the embedded image is more visible
+            worksheet.cells.setColumnWidth(2, 30); // Column C (index 2)
+            worksheet.cells.setRowHeight(5, 100); // Row 6 (index 5)
+            // Save the resulting workbook as an .xlsx file
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             downloadLink.href = URL.createObjectURL(blob);

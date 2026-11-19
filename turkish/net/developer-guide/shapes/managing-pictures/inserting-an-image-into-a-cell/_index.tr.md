@@ -95,16 +95,16 @@ Aşağıdaki kod tüm yaklaşımı göstermektedir.
 ```csharp
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
-// C6 hedef hücresini al
+// Get the target cell C6
 var cell = worksheet.Cells["C6"];
-// Görüntü dosyasını bir bayt dizisine oku
+// Read the image file into a byte array
 byte[] imageData = File.ReadAllBytes("logo.png");
-// Görüntüyü doğrudan hücreye göm
+// Embed the image directly into the cell
 cell.EmbeddedImage = imageData;
-// İsteğe bağlı olarak satır yüksekliğini ve sütun genişliğini gömülü görüntünün daha görünür olması için ayarla
-worksheet.Cells.SetColumnWidth(2, 30);   // C sütunu (2. indeks)
-worksheet.Cells.SetRowHeight(5, 100);     // 6. satır (5. indeks)
-// Elde edilen çalışma kitabını .xlsx dosyası olarak kaydet
+// Optionally adjust row height and column width so the embedded image is more visible
+worksheet.Cells.SetColumnWidth(2, 30);   // Column C (index 2)
+worksheet.Cells.SetRowHeight(5, 100);     // Row 6 (index 5)
+// Save the resulting workbook as an .xlsx file
 workbook.Save("output.xlsx", SaveFormat.Xlsx);
 ```
 

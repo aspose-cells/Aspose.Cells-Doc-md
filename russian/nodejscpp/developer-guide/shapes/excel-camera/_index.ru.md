@@ -33,7 +33,7 @@ const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Динамическая камера: добавить пустое изображение, связать его через формулу с A1:F10, затем обновить
+// Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 let pictures = worksheet.getPictures();
 let index = pictures.add(10, 6, null);
 pictures.get(index).setFormula("A1:F10");

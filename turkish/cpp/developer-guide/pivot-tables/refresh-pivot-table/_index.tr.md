@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for C++ ile Pivot Tablolarını ve Pivot Önbelleklerini Yenileyin
-linktitle: Aspose.Cells for C++ ile Pivot Tablolarını ve Pivot Önbelleklerini Yenileyin
+linktitle: Pivot Tablolarını Yenile
 description: Aspose.Cells for C++ ile v26.7+ pivot yenileme API'sini kullanarak Pivot Tablolarının nasıl yenilendiğini öğrenin. Bu makale, RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData ve GetPivotTables işlevlerini pratik kod örnekleriyle ele alır.
 keywords: Aspose.Cells, C++, Pivot Tablosu, yenileme, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

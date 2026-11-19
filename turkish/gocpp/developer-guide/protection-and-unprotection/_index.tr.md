@@ -1,6 +1,6 @@
 ---
 title: Go ile Koruma ve Korumayı Kaldırma
-linktitle: Go ile Koruma ve Korumayı Kaldırma
+linktitle: Şifreleme ve Koruma
 description: Bu örnek, Go kodu kullanarak Excel dosyalarının nasıl şifreleneceğini ve şifre çözüleceğini, ayrıca Excel dosyalarındaki verilerin nasıl korunacağını ve korumasının nasıl kaldırılacağını tanıtır.
 keywords: Aspose.Cells, Go via C++, şifreleme, şifre çözme, parola, koruma, korumayı kaldırma, çalışma kitabı koruması, çalışma sayfası koruması, paylaşılan çalışma kitabı, Go
 type: docs

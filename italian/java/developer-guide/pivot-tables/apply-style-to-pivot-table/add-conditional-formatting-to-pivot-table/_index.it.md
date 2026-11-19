@@ -44,16 +44,16 @@ for (int i = 0; i < fruits.length; i++)
     cells.get(i + 1, 1).putValue(years[i]);
     cells.get(i + 1, 2).putValue(amounts[i]);
 }
-// Tabella pivot con l'angolo in alto a sinistra in E3
+// Pivot table with its top-left corner at E3
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C7", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Fissa il formato condizionale in F4 (riga 3, colonna 5) con l'ambito Data
+// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 int index = pivotTable.getConditionalFormats().add();
 PivotConditionalFormat format = pivotTable.getConditionalFormats().get(index);
 format.applyTo(3, 5, PivotConditionFormatScopeType.DATA);
-// Regola - evidenzia gli importi maggiori di 200
+// Rule - highlight amounts greater than 200
 int conditionIndex = format.getFormatConditions().addCondition(
         FormatConditionType.CELL_VALUE, OperatorType.GREATER_THAN, "200", null);
 Style style = workbook.createStyle();
@@ -94,7 +94,7 @@ PivotTable pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Individua il rettangolo F4:F6 (le celle di valore senza il totale complessivo)
+// Target the rectangle F4:F6 (the value cells without the grand total)
 int index = pivotTable.getConditionalFormats().add();
 PivotConditionalFormat format = pivotTable.getConditionalFormats().get(index);
 CellArea cellArea = new CellArea();
@@ -103,7 +103,7 @@ cellArea.StartColumn = 5;
 cellArea.EndRow = 5;
 cellArea.EndColumn = 5;
 format.addCellArea(cellArea);
-// Regola - corsivo su giallo chiaro per importi tra 150 e 300
+// Rule - italic on light yellow for amounts between 150 and 300
 int conditionIndex = format.getFormatConditions().addCondition(
     FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "150", "300");
 Style style = workbook.createStyle();
@@ -175,10 +175,10 @@ for (int i = 0; i < pivotTable.getConditionalFormats().getCount(); i++)
                 + ", columns " + (area.StartColumn + 1) + "-" + (area.EndColumn + 1));
     }
 }
-// Questo stampa:
-// Formati condizionali: 1
-// Formato 0: CellValue GreaterThan formula1==200
-//     righe 4-7, colonne 6-6        (F4:F7, la regione dati risolta)
+// This prints:
+// Conditional formats: 1
+// Format 0: CellValue GreaterThan formula1==200
+//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **Articoli correlati**

@@ -55,22 +55,22 @@ Proteggere la struttura della cartella di lavoro impedisce ad altri utenti di vi
 
 ```java
 import com.aspose.cells.*;
-// Crea una nuova cartella di lavoro
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Aggiungi un secondo foglio di lavoro
+// Add a second worksheet
 workbook.getWorksheets().add();
-// Scrivi un valore di esempio nella cella A1 del primo foglio di lavoro
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// Proteggi la struttura della cartella di lavoro
+// Protect the workbook structure
 workbook.protect(ProtectionType.STRUCTURE, "StructPwd");
-// Salva la cartella di lavoro come structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 String filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// Ricarica il file in una nuova istanza di Workbook
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// Rimuovi la protezione della struttura
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// Stampa il messaggio di conferma
+// Print confirmation message
 System.out.println("Structure protection has been successfully removed from the workbook.");
 ```
 

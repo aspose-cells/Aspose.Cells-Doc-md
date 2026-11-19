@@ -51,14 +51,14 @@ Följande exempel bygger en arbetsbok med ett källintervall för Fruit/Year/Amo
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-// Skapa en ny arbetsbok
+// Create a new workbook
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-// Skriv rubrikrad i cellerna A1:C1
+// Write header row into cells A1:C1
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// Skriv datarader i cellerna A2:C9 (8 rader med fruktdata över 2020 och 2021)
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.getCells().get("A2").putValue("grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(50);
@@ -83,19 +83,19 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// Lägg till en pivottabell: källintervall "A1:C9", målcell "E3", namn
+// Add a pivot table: source range "A1:C9", destination cell "E3"
 const pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
-// Tilldela pivotfält: Fruit till Rader, Year till Kolumner, Amount till Data
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// Ändra flera Amount-värden i källdatan för att simulera ändringar
+// Modify several Amount values in the source data to simulate changes
 worksheet.getCells().get("C2").putValue(55);
 worksheet.getCells().get("C5").putValue(85);
 worksheet.getCells().get("C9").putValue(125);
-// Uppdatera varje pivottabell / pivotcache i arbetsboken
+// Refresh every pivot table / pivot cache in the workbook
 workbook.refreshAll();
-// Spara arbetsboken
+// Save the workbook
 workbook.save("output.xlsx");
 ```
 
@@ -158,11 +158,11 @@ Följande exempel modifierar en icke-käll-egenskap hos pivottabellen och anropa
 const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
-// Skriv rubrikraden Fruit / Year / Amount
+// Write Fruit / Year / Amount header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// Skriv 8 datarader (raderna 2–9, som passar källintervallet A1:C9)
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(100);
@@ -187,21 +187,21 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// Lägg till en pivottabell med namnet placerad i destinationscellen E3, med källa från A1:C9
+// Add a pivot table placed at destination cell E3, sourcing from A1:C9
 var pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
-// Tilldela fält: Fruit till Rad, Year till Kolumn, Amount till Data
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// Ändra en egenskap för vy/layout — detta är enbart en presentationsändring,
-// så det kräver INTE att källdatan läses in på nytt via PivotCache.refresh().
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
-// calculateData() renderar om DEN HÄR pivottabellens visning (data + stil) från
-// datan som redan finns i PivotCache. Eftersom källdatan inte ändrades
-// görs ingen tur och retur till källan — endast de cachade värdena beräknas om
-// till celler i kalkylbladet.
+// calculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.calculateData();
-// Spara arbetsboken till disk
+// Save the workbook to disk
 workbook.save("output.xlsx");
 ```
 

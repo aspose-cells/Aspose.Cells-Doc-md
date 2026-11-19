@@ -1,6 +1,6 @@
 ---
 title: Excel-kamera i Aspose.Cells for Java
-linktitle: Excel-kamera i Aspose.Cells for Java
+linktitle: Excel-kamera
 description: Lär dig hur du använder Excel-kamera i Aspose.Cells for Java för att skapa en dynamisk bild kopplad till ett cellintervall som uppdateras med källdata och bevarar all källformatering.
 keywords: Aspose.Cells, Java, Excel-kamera, dynamisk bild, länkad bild, Picture.Formula, UpdateSelectedValue, CreateRange, ToImage, ByteArrayInputStream
 type: docs

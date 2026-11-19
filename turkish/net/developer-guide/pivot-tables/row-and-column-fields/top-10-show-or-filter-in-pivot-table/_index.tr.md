@@ -1,6 +1,6 @@
 ---
 title: Özet Tablosunda İlk 10 Öğeyi Gösterme veya Filtreleme
-linktitle: Özet Tablosunda İlk 10 Öğeyi Gösterme veya Filtreleme
+linktitle: İlk 10 Öğeyi Göster veya Filtrele
 description: Aspose.Cells for .Net kullanarak bir özet tablo alanında yalnızca en yüksek veya en düşük sıralı öğelerin nasıl gösterileceğini öğrenin. Bu makale; Excel 97-2003 için Top10AutoShow yöntemini, Top10AutoShowSettings ile seçenekleri okumayı ve Excel 2007-365 için FilterTop10 aracılığıyla İlk 10 filtresini ele alır.
 keywords: Aspose.Cells, .NET, özet tablo, ilk 10, otomatik göster, Top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, FilterTop10, PivotFilterType, PivotField, C#
 type: docs
@@ -87,7 +87,7 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 pivotTable.CalculateData();
 PivotField sportField = pivotTable.RowFields[0];
-// Alanın kendisine göre sıralanan en alt 3 öğeyi göster (rankBy = -1)
+// Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sportField.Top10AutoShow(true, false, 3, -1);
 pivotTable.CalculateData();
 workbook.Save("output-top10-by-field-itself.xlsx");
@@ -152,9 +152,9 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 pivotTable.CalculateData();
 PivotField sportField = pivotTable.RowFields[0];
-// İlk 10 Filtresi — öğeleri "Satışların Toplamı" ölçütüne göre ilk 2 öğe olarak tut (veri alanı indeksi 0)
+// Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
 PivotFilter filter = sportField.FilterTop10(0, PivotFilterType.Count, true, 2);
-// Bunun yerine yüzdeye dayalı bir filtre kullanarak öğelerin ilk yüzde 30'unu tut:
+// For a percentage-based filter instead, keep the top 30 percent of the items:
 // sportField.FilterTop10(0, PivotFilterType.Percent, true, 30);
 pivotTable.PivotCache.Refresh();
 pivotTable.CalculateData();

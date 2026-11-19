@@ -40,17 +40,17 @@ Excel stöder två distinkta lösenordslager. Det första är ett lösenord för
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// Skriv ett exempelvärde till cell A1 i det första kalkylbladet
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get("A1").putValue("Sample Data");
-// Konfigurera skrivskyddet: ange lösenordet för att ändra och författaren
+// Configure the write protection: set the password to modify and the author
 workbook.getSettings().getWriteProtection().setPassword("ModifyPwd");
 workbook.getSettings().getWriteProtection().setAuthor("AuthorName");
-// Spara arbetsboken så att skrivskyddet bevaras
+// Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx");
-// Validera lösenordet för att ändra med det korrekta lösenordet
+// Validate the password to modify using the correct password
 let isCorrectValid = workbook.getSettings().getWriteProtection().validatePassword("ModifyPwd");
 console.log("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// Validera lösenordet för att ändra med ett felaktigt lösenord för att demonstrera den andra grenen
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 let isWrongValid = workbook.getSettings().getWriteProtection().validatePassword("WrongPwd");
 console.log("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -61,20 +61,20 @@ Att skydda arbetsboksstrukturen förhindrar andra användare från att visa dold
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// Lägg till ett andra kalkylblad
+// Add a second worksheet
 workbook.getWorksheets().add();
-// Skriv ett exempelvärde till cell A1 i det första kalkylbladet
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// Skydda arbetsbokens struktur
+// Protect the workbook structure
 workbook.protect(AsposeCells.ProtectionType.STRUCTURE, "StructPwd");
-// Spara arbetsboken som structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 let filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// Ladda om filen till en ny arbetsboksinstans
+// Reload the file into a new Workbook instance
 let loadedWorkbook = new AsposeCells.Workbook(filePath);
-// Ta bort struktskyddet
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// Skriv ut bekräftelsemeddelande
+// Print confirmation message
 console.log("Structure protection has been successfully removed from the workbook.");
 ```
 

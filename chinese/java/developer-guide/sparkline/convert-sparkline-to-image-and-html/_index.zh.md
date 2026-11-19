@@ -36,43 +36,43 @@ Aspose.Cells 同时支持这两种操作。`Sparkline.toImage` 方法可将单�
 ```java
 import com.aspose.cells.*;
 import java.io.*;
-// 创建一个新的工作簿并访问第一个工作表
+// Create a new workbook and access the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// 在单元格 A1:E1 中填充示例数据
+// Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// 添加一个锚定在 F1（列 5，行 0）的折线迷你图组
+// Add a Line sparkline group anchored at F1 (column 5, row 0)
 CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5);
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
-// 添加一个锚定在 G1（列 6，行 0）的柱形迷你图组
+// Add a Column sparkline group anchored at G1 (column 6, row 0)
 CellArea columnArea = CellArea.createCellArea(0, 6, 0, 6);
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
-// 添加一个锚定在 H1（列 7，行 0）的盈亏（堆叠）迷你图组
+// Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 CellArea stackedArea = CellArea.createCellArea(0, 7, 0, 7);
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
-// 配置 PNG 输出的图像选项
+// Configure image options for PNG output
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
 imageOptions.setImageType(ImageType.PNG);
-// 将折线迷你图转换为图像并嵌入到单元格 F2 中
+// Convert the Line sparkline to image and embed it in cell F2
 Sparkline lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 ByteArrayOutputStream lineMs = new ByteArrayOutputStream();
 lineSp.toImage(lineMs, imageOptions);
 worksheet.getCells().get("F2").setEmbeddedImage(lineMs.toByteArray());
-// 将柱形迷你图转换为图像并嵌入到单元格 G2 中
+// Convert the Column sparkline to image and embed it in cell G2
 Sparkline columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0);
 ByteArrayOutputStream columnMs = new ByteArrayOutputStream();
 columnSp.toImage(columnMs, imageOptions);
 worksheet.getCells().get("G2").setEmbeddedImage(columnMs.toByteArray());
-// 将盈亏迷你图转换为图像并嵌入到单元格 H2 中
+// Convert the Win/Loss sparkline to image and embed it in cell H2
 Sparkline stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0);
 ByteArrayOutputStream stackedMs = new ByteArrayOutputStream();
 stackedSp.toImage(stackedMs, imageOptions);
 worksheet.getCells().get("H2").setEmbeddedImage(stackedMs.toByteArray());
-// 将工作簿保存到磁盘
+// Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx");
 ```
 

@@ -64,68 +64,68 @@ En el primer escenario, configuramos los dos campos de página (`Year`, `Region`
             const worksheets = workbook.worksheets;
             const pivotDataSheet = worksheets.add("PivotData");
             const pivotDataCells = pivotDataSheet.cells;
-            // Encabezados (fila 0)
+            // Headers (row 0)
             pivotDataCells.get(0, 0).value = "Fruit";
             pivotDataCells.get(0, 1).value = "Year";
             pivotDataCells.get(0, 2).value = "Region";
             pivotDataCells.get(0, 3).value = "Amount";
-            // Fila 1: Manzana, 2022, Norte, 150
+            // Row 1: Apple, 2022, North, 150
             pivotDataCells.get(1, 0).value = "Apple";
             pivotDataCells.get(1, 1).value = 2022;
             pivotDataCells.get(1, 2).value = "North";
             pivotDataCells.get(1, 3).value = 150;
-            // Fila 2: Manzana, 2023, Norte, 180
+            // Row 2: Apple, 2023, North, 180
             pivotDataCells.get(2, 0).value = "Apple";
             pivotDataCells.get(2, 1).value = 2023;
             pivotDataCells.get(2, 2).value = "North";
             pivotDataCells.get(2, 3).value = 180;
-            // Fila 3: Plátano, 2022, Sur, 120
+            // Row 3: Banana, 2022, South, 120
             pivotDataCells.get(3, 0).value = "Banana";
             pivotDataCells.get(3, 1).value = 2022;
             pivotDataCells.get(3, 2).value = "South";
             pivotDataCells.get(3, 3).value = 120;
-            // Fila 4: Plátano, 2023, Sur, 140
+            // Row 4: Banana, 2023, South, 140
             pivotDataCells.get(4, 0).value = "Banana";
             pivotDataCells.get(4, 1).value = 2023;
             pivotDataCells.get(4, 2).value = "South";
             pivotDataCells.get(4, 3).value = 140;
-            // Fila 5: Cereza, 2022, Este, 200
+            // Row 5: Cherry, 2022, East, 200
             pivotDataCells.get(5, 0).value = "Cherry";
             pivotDataCells.get(5, 1).value = 2022;
             pivotDataCells.get(5, 2).value = "East";
             pivotDataCells.get(5, 3).value = 200;
-            // Fila 6: Cereza, 2023, Este, 220
+            // Row 6: Cherry, 2023, East, 220
             pivotDataCells.get(6, 0).value = "Cherry";
             pivotDataCells.get(6, 1).value = 2023;
             pivotDataCells.get(6, 2).value = "East";
             pivotDataCells.get(6, 3).value = 220;
-            // Fila 7: Uva, 2022, Oeste, 90
+            // Row 7: Grape, 2022, West, 90
             pivotDataCells.get(7, 0).value = "Grape";
             pivotDataCells.get(7, 1).value = 2022;
             pivotDataCells.get(7, 2).value = "West";
             pivotDataCells.get(7, 3).value = 90;
-            // Fila 8: Uva, 2023, Oeste, 110
+            // Row 8: Grape, 2023, West, 110
             pivotDataCells.get(8, 0).value = "Grape";
             pivotDataCells.get(8, 1).value = 2023;
             pivotDataCells.get(8, 2).value = "West";
             pivotDataCells.get(8, 3).value = 110;
-            // Agregar la hoja PivotTableReport
+            // Add PivotTableReport sheet
             const pivotTableSheet = worksheets.add("PivotTableReport");
             const pivotTables = pivotTableSheet.pivotTables;
-            // Crear una tabla dinámica con origen PivotData!A1:D9 y colocarla en A1 de PivotTableReport
+            // Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
             const pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0);
-            // Agregar campos
-            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // Fruta
-            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // Año
-            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);  // Región
-            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // Importe
+            // Add fields
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // Fruit
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // Year
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);  // Region
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // Amount
             pivotTable.dataFields.get(0).function = AsposeCells.ConsolidationFunction.Sum;
-            // Configurar el diseño del área de campos de página: colocar los campos de página horizontalmente primero y ajustar después de cada 2
+            // Configure page field area layout: place page fields across first, wrap after every 2
             pivotTable.pageFieldOrder = AsposeCells.PrintOrderType.OverThenDown;
             pivotTable.pageFieldWrapCount = 2;
-            // Actualizar y calcular
+            // Refresh and calculate
             pivotTable.calculateData();
-            // Guardar
+            // Save
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

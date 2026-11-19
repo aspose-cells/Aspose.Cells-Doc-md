@@ -1,6 +1,6 @@
 ---
 title: Lägg till rad- och kolumnfält i en pivottabell i Aspose.Cells for JavaScript via C++
-linktitle: Lägg till rad- och kolumnfält i en pivottabell i Aspose.Cells for JavaScript via C++
+linktitle: Rad- och kolumnfält
 description: Lär dig hur du lägger till rad- och kolumnfält i en pivottabell och styr delsummer för pivotfält med PivotField.SetSubtotals och PivotFieldSubtotalType i Aspose.Cells for JavaScript via C++.
 keywords: Aspose.Cells, JavaScript via C++, pivottabell, radfält, kolumnfält, PivotField, setSubtotals, PivotFieldSubtotalType, delsummor, JavaScript, Excel-pivottabell
 type: docs

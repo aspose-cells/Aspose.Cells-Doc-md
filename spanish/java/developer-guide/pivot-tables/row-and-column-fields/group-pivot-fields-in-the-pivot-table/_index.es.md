@@ -1,6 +1,6 @@
 ---
 title: Agrupar Campos Dinámicos en la Tabla Dinámica
-linktitle: Agrupar Campos Dinámicos en la Tabla Dinámica
+linktitle: Agrupar campos dinámicos
 description: "Aprenda a agrupar campos dinámicos de filas y columnas en una tabla dinámica en períodos de fechas como meses y trimestres y en rangos numéricos usando PivotField.group y PivotFieldGroupOptions en Aspose.Cells for Java."
 keywords: Aspose.Cells, tabla dinámica, agrupar campo dinámico, PivotField.group, PivotFieldGroupOptions, agrupación por fechas, agrupación por números, meses, trimestres, rango numérico, Java
 type: docs
@@ -55,21 +55,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// Cargar el libro de trabajo de muestra
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Acceder a la segunda hoja de trabajo y su tabla dinámica
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo es un campo de datos: muévelo al área de filas primero,
-// porque solo los campos de fila/columna se pueden agrupar
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(PivotFieldType.ROW, "FieldTwo");
 pt.calculateData();
-// Agrupar el campo numérico en los rangos 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Calcular los datos de la tabla dinámica y guardar el archivo de salida
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

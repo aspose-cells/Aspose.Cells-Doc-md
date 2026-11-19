@@ -1,6 +1,6 @@
 ---
 title: Gruppera pivotfält i pivottabellen
-linktitle: Gruppera pivotfält i pivottabellen
+linktitle: Gruppera pivotfält
 description: Lär dig hur du grupperar rad- och kolumnpivotfält i en pivottabell i datumperioder som månader och kvartal samt numeriska intervall med PivotField.Group och PivotFieldGroupOptions i Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells, pivottabell, gruppera pivotfält, PivotField.Group, PivotFieldGroupOptions, datumgruppering, nummergruppering, månader, kvartal, numeriskt intervall, JavaScript
 type: docs
@@ -20,15 +20,15 @@ Den parameterlösa överlagringen `pivotField.group()` inspekterar fältets data
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Ladda exempelarbetsboken
+// Load the sample workbook
 const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Öppna det andra kalkylbladet och dess pivottabell
+// Access the second worksheet and its pivot table
 const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// Gruppera det första radfältet automatiskt.
-// Fältet innehåller datum, så det grupperas efter månader.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 const field = pt.getRowFields().get(0);
 field.group();
-// Beräkna pivottabellens data och spara utdatafilen
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputAutoGroupPivotField.xlsx");
 ```
@@ -43,15 +43,15 @@ Observera att ordningen på värdena i `options.groupTypes` ignoreras. Oavsett i
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Få åtkomst till det andra kalkylbladet och dess pivottabell
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// Gruppera det första radfältet (ett datumfält) efter månader och kvartal
+// Group the first row field (a date field) by months and quarters
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartDate(new Date(2008, 0, 1));
 options.setEndDate(new Date(2008, 8, 5));
 options.setGroupTypes([AsposeCells.PivotGroupByType.Months, AsposeCells.PivotGroupByType.Quarters]);
 pt.getRowFields().get(0).group(options);
-// Beräkna pivottabellens data och spara utdatafilen
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,19 +64,19 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Öppna det andra kalkylbladet och dess pivottabell
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo är ett datafält: flytta det först till radområdet,
-// eftersom endast rad-/kolumnfält kan grupperas
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(AsposeCells.PivotFieldType.Row, "FieldTwo");
 pt.calculateData();
-// Gruppera det numeriska fältet i intervallen 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Beräkna pivottabellens data och spara utdatafilen
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

@@ -1,8 +1,8 @@
 ---
-title: Отображение значений как в сводной таблице в Aspose.Cells for C++
-linktitle: Отображение значений как в сводной таблице в Aspose.Cells for C++
-description: Отображайте значения полей данных сводной таблицы в виде процента от общего итога, разницы от базового элемента, накопительных итогов, рангов и т.д. с помощью Aspose.Cells for C++.
-keywords: Aspose.Cells, C++, сводная таблица, отображение значений как, формат отображения данных, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex
+title: Показать значения как в сводной таблице с помощью Aspose.Cells for C++
+linktitle: Показать значения как в сводной таблице с помощью Aspose.Cells for C++
+description: Отображение значений полей данных сводной таблицы в виде процентов от итога, разности относительно базового элемента, нарастающих итогов, рангов и других значений с помощью Aspose.Cells for C++.
+keywords: Aspose.Cells, C++, сводная таблица, показать значения как, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, ShowValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /ru/cpp/show-values-as-in-pivot-table/
@@ -11,49 +11,51 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Возможные сценарии использования**
-Сводная таблица обычно агрегирует каждое поле данных с помощью агрегирующей функции, такой как `Sum` или `Count`. Функция Excel **Show Values As** заменяет каждый отображаемый результат вторичным вычислением, полученным из этой агрегированной величины — например, процентом от общего итога, накопительным итогом, разницей от выбранного базового элемента или рангом — так что можно выполнять сравнительный анализ без вспомогательных формул или вычисляемых столбцов.  
-Типичные применения включают анализ доли от общего итога, включая проценты по строке, столбцу или общему итогу; накопительный отчёт с использованием накопительного итога в поле периода; анализ отклонений относительно эталонного элемента с помощью разницы или процентной разницы от базового элемента; а также ранжирование значений от наименьшего к наибольшему или наоборот.  
-В Aspose.Cells for C++ параметр `PivotFieldDataDisplayFormat` выбирает вторичное вычисление. Метод доступа `PivotField.GetShowValuesSetting()` возвращает объект `PivotShowValuesSetting`, у которого методы `SetCalculationType`, `SetBaseFieldIndex`, `SetBaseItemPositionType` и `SetBaseItemIndex` задают поведение; удобный метод `PivotField.ShowValuesAs(...)` применяет те же четыре настройки одним вызовом. Применяйте эти настройки к полю данных или значений, полученному из `PivotTable.GetDataFields()`.
+Сводная таблица обычно агрегирует каждое поле данных с помощью агрегатной функции, например `Sum` или `Count`. Функция Excel **«Показать значения как»** заменяет каждое отображаемое значение результатом вторичного вычисления, основанного на этом агрегате, например процентом от общего итога, нарастающим итогом, разностью относительно выбранного базового элемента или рангом. Это позволяет выполнять сравнительный анализ без вспомогательных формул или вычисляемых столбцов.
+Типичные варианты применения включают анализ долей, в том числе процентов от итога строки, столбца или общего итога; подготовку отчетности с нарастающим итогом по полю периода; анализ отклонений относительно эталонного элемента с помощью разности или процентного отличия от базового элемента; а также ранжирование значений от меньшего к большему или от большего к меньшему.
+В Aspose.Cells for C++ перечисление `PivotShowValuesAsType` выбирает тип вторичного вычисления. Метод `PivotField.GetShowValuesSetting()` возвращает объект `PivotShowValuesSetting`, методы `SetShowValuesAs`, `SetBaseFieldIndex` и `SetBaseItemIndex` которого настраивают поведение; удобный метод `PivotField.ShowValuesAs(...)` применяет те же параметры одним вызовом. Примените эти параметры к полю данных или значений, полученному из `PivotTable.GetDataFields()`.
 
-## **Элементы перечисления PivotFieldDataDisplayFormat**
-Поле данных сохраняет свою агрегирующую функцию, такую как Sum или Count, в то время как Show Values As изменяет только способ отображения агрегированного значения.  
-Помимо прямой записи значений `PivotShowValuesSetting` (см. последний раздел), удобный метод одним вызовом применяет ту же конфигурацию:
+## **Члены перечисления PivotShowValuesAsType**
+Поле данных сохраняет агрегатную функцию, например `Sum` или `Count`, а функция «Показать значения как» изменяет только способ отображения агрегированного значения.
+Помимо непосредственного задания значений `PivotShowValuesSetting` (см. последний раздел), ту же конфигурацию можно применить с помощью удобного метода, выполняющего настройку одним вызовом. Метод существует в двух вариантах: в одном базовое поле и базовый элемент задаются по индексам, в другом — по именам:
 
 ```cpp
-void ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int32_t baseField, PivotItemPositionType baseItemPositionType, int32_t baseItem);
+void ShowValuesAs(PivotShowValuesAsType showValuesAsType, int32_t baseField, int32_t baseItem);
+void ShowValuesAs(PivotShowValuesAsType showValuesAsType, const U16String& baseField, const U16String& baseItem);
+// index form: PivotShowValuesAsType::PercentageOfTotal, 0, 0
+// name form:  PivotShowValuesAsType::PercentageOf, u"Fruit", u"Apple"
 ```
 
-| Параметр | Описание | Когда требуется |
+| Параметр | Назначение | Когда требуется |
 | --- | --- | --- |
-| `displayFormat` | Вторичный расчёт `PivotFieldDataDisplayFormat`, который необходимо применить. | Всегда. |
-| `baseField` | Индекс (ноль‑базовый) базового поля среди базовых полей сводной таблицы (например, индекс строкового поля, к которому относится базовый элемент). | Только шесть базовых форматов ниже (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfRunningTotalIn`, `PercentageOfParentTotal`); игнорируется всеми остальными форматами. |
-| `baseItemPositionType` | Способ выбора базового элемента относительно текущего: `PivotItemPositionType::Previous`, `::Next` или `::Custom`. | Только три формата базового элемента (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`); игнорируется всеми остальными форматами. |
-| `baseItem` | Индекс (ноль‑базовый) базового элемента. | Только когда `baseItemPositionType` установлен в `Custom` (индекс указывает точный базовый элемент); игнорируется для `Previous`/`Next` и всеми форматами, не использующими базовый элемент — передайте `0`. |
+| `showValuesAsType` | Тип применяемого вторичного вычисления `PivotShowValuesAsType`. | Всегда. |
+| `baseField` | Индекс базового поля (с нуля) среди базовых полей сводной таблицы (например, индекс поля строки, к которому относится базовый элемент) или имя базового поля в варианте с именами. | Требуется для восьми форматов, зависящих от базового поля (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, `RankSmallestToLargest`, `RankLargestToSmallest`); для всех остальных форматов передайте `0` (или пустую `U16String` в варианте с именами). |
+| `baseItem` | Индекс базового элемента (с нуля). Предусмотрены два специальных значения-маркера: -1 выбирает предыдущий элемент, а -2 — следующий (C++ API не определяет именованных констант для этих значений — передайте литералы). В варианте с именами вместо индекса передается подпись базового элемента, а для форматов, не требующих базового элемента, — пустая `U16String`. | Используется только тремя форматами, зависящими от базового элемента (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`); пять форматов, зависящих от поля (`RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, оба ранга), его игнорируют — передайте `0` или пустую `U16String`. |
 
-| Тип расчета | Поведение | Параметры базового элемента |
+| Тип вычисления | Поведение | Параметры базового элемента |
 | --- | --- | --- |
-| `Normal` | Нет вторичного вычисления; агрегированное значение отображается как есть (по умолчанию). | — |
-| `DifferenceFrom` | Отображает значение как разницу с значением базового элемента в базовом поле. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` только при `Custom`) |
-| `PercentageOf` | Отображает значение как процент от значения базового элемента в базовом поле. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` только при `Custom`) |
-| `PercentageDifferenceFrom` | Отображает значение как процентную разницу с базовым элементом в базовом поле. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` только при `Custom`) |
-| `RunningTotalIn` | Отображает значение как накопительный итог для последовательных элементов базового поля. | `baseField` (поле, определяющее порядок накопления) |
-| `PercentageOfRow` | Отображает значение как процент от итога строки. | — |
-| `PercentageOfColumn` | Отображает значение как процент от итога столбца. | — |
-| `PercentageOfTotal` | Отображает значение как процент от общего итога. | — |
-| `Index` | Отображает значение по формуле индекса Excel ((value * grand total) / (row total * column total)). | — |
-| `PercentageOfParentRowTotal` | Отображает значение как процент от итоговой суммы родительской строки (для вложенных полей строк). | — |
-| `PercentageOfParentColumnTotal` | Отображает значение как процент от итоговой суммы родительского столбца (для вложенных полей столбцов). | — |
-| `PercentageOfParentTotal` | Отображает значение как процент от итоговой суммы родительского уровня. | `baseField` (базовое родительское поле) |
-| `PercentageOfRunningTotalIn` | Отображает значение как процент от накопительного итога в базовом поле. | `baseField` (поле накопления) |
-| `RankSmallestToLargest` | Присваивает ранги от наименьшего (1) к наибольшему. | — |
-| `RankLargestToSmallest` | Присваивает ранги от наибольшего (1) к наименьшему. | — |
+| `Normal` | Дополнительное вычисление не выполняется; агрегированное значение отображается как есть (по умолчанию). | — |
+| `DifferenceFrom` | Отображает разность между значением и значением базового элемента в базовом поле. | `baseField` + `baseItem` (индекс или подпись либо значение-маркер предыдущего или следующего элемента) |
+| `PercentageOf` | Отображает значение в процентах от значения базового элемента в базовом поле. | `baseField` + `baseItem` (индекс или подпись либо значение-маркер предыдущего или следующего элемента) |
+| `PercentageDifferenceFrom` | Отображает процентное отличие от значения базового элемента в базовом поле. | `baseField` + `baseItem` (индекс или подпись либо значение-маркер предыдущего или следующего элемента) |
+| `RunningTotalIn` | Отображает нарастающий итог для последовательных элементов базового поля. | `baseField` (поле, порядок элементов которого определяет накопление) |
+| `PercentageOfRow` | Отображает значение в процентах от итога строки. | — |
+| `PercentageOfColumn` | Отображает значение в процентах от итога столбца. | — |
+| `PercentageOfTotal` | Отображает значение в процентах от общего итога. | — |
+| `Index` | Отображает значение по формуле индекса Excel ((значение * общий итог) / (итог строки * итог столбца)). | — |
+| `PercentageOfParentRowTotal` | Отображает значение в процентах от итога родительской строки (для вложенных полей строк). | — |
+| `PercentageOfParentColumnTotal` | Отображает значение в процентах от итога родительского столбца (для вложенных полей столбцов). | — |
+| `PercentageOfParentTotal` | Отображает значение в процентах от итога родительского элемента. | `baseField` (родительское поле, итог которого служит базой) |
+| `PercentageOfRunningTotalIn` | Отображает значение в процентах от нарастающего итога в базовом поле. | `baseField` (поле накопления) |
+| `RankSmallestToLargest` | Присваивает значение ранг от наименьшего (1) к наибольшему. | `baseField` (поле, элементы которого определяют область ранжирования) |
+| `RankLargestToSmallest` | Присваивает значение ранг от наибольшего (1) к наименьшему. | `baseField` (поле, элементы которого определяют область ранжирования) |
 
 {{% alert color="primary" %}}
-`ShowValuesAs(...)` записывает значения `PivotShowValuesSetting` (`CalculationType`, `BaseFieldIndex`, `BaseItemPositionType`, `BaseItemIndex`) — метод и объект настроек представляют два способа конфигурировать одно и то же состояние, аналогично выборам базового поля и базового элемента в диалоговом окне Excel **Show Values As**.
+`ShowValuesAs(...)` устанавливает значения `PivotShowValuesSetting` (`ShowValuesAs`, `BaseFieldIndex` и `BaseItemIndex`). Метод и объект параметров представляют два способа настройки одного и того же состояния, аналогичных полям выбора базового поля и базового элемента в диалоговом окне Excel «Показать значения как».
 {{% /alert %}}
 
-## **Отображение значений как процент от общего итога**
-Вызовите метод `PivotField.ShowValuesAs` с параметром `PivotFieldDataDisplayFormat::PercentageOfTotal`, чтобы преобразовать каждую ячейку поля данных, включая общий итог, в её долю от общего итога. Отображаемые числа тогда представляют собой части от полного набора результатов. Этот формат сравнивает каждое значение только с общим итогом, поэтому ему не требуется базовое поле или базовый элемент — конечные аргументы (`0`, `PivotItemPositionType::Previous`, `0`) являются заполнителями, которые формат игнорирует, как указано в таблице параметров выше.
+## **Отображение значений в процентах от общего итога**
+Вызовите метод `PivotField.ShowValuesAs` с `PivotShowValuesAsType::PercentageOfTotal`, чтобы представить каждую ячейку поля данных, включая ячейку общего итога, в виде доли от общего итога. Таким образом, отображаемые числа показывают долю каждого значения в общем результате. Этот формат сравнивает каждое значение только с общим итогом, поэтому базовое поле и базовый элемент не требуются. Последние аргументы (`0`, `0`) являются значениями-заполнителями, которые игнорируются этим форматом, как указано в таблице параметров выше.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -82,9 +84,9 @@ int main() {
     pivotTable.CalculateData();
     // Show the Amount data field as a percentage of the grand total with the
     // one-call method; PercentageOfTotal takes no base item, so the trailing
-    // base arguments (0, Previous, 0) are placeholders the format ignores
+    // base arguments (0, 0) are placeholders the format ignores
     PivotField dataField = pivotTable.GetDataFields().Get(0);
-    dataField.ShowValuesAs(PivotFieldDataDisplayFormat::PercentageOfTotal, 0, PivotItemPositionType::Previous, 0);
+    dataField.ShowValuesAs(PivotShowValuesAsType::PercentageOfTotal, 0, 0);
     pivotTable.CalculateData();
     // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
     workbook.Save(u"ShowValuesAsPercentageOfTotal.xlsx");
@@ -94,13 +96,13 @@ int main() {
 ```
 
 ## **Получение и настройка PivotField.ShowValuesSetting**
-Считайте текущую конфигурацию через `PivotField.GetShowValuesSetting()`: метод доступа возвращает объект `PivotShowValuesSetting` поля, у которого четыре метода‑получения описывают активное вычисление **Show Values As**. Чтобы изменить конфигурацию, вызовите метод `PivotField.ShowValuesAs` — он записывает все четыре настройки одним вызовом, поэтому нет необходимости задавать их по отдельности.  
-Объект `PivotShowValuesSetting` раскрывает четыре значения, которые записывает `ShowValuesAs`:
-- `GetCalculationType()` / `SetCalculationType()` выбирают вторичный расчёт `PivotFieldDataDisplayFormat`.
-- `GetBaseFieldIndex()` / `SetBaseFieldIndex()` указывают ноль‑базовый индекс базового поля среди полей сводной таблицы. Он используется базовыми форматами.
-- `GetBaseItemPositionType()` / `SetBaseItemPositionType()` определяют, как базовый элемент позиционируется относительно текущего, и принимают значения `PivotItemPositionType::Next`, `PivotItemPositionType::Previous` или `PivotItemPositionType::Custom`.
-- `GetBaseItemIndex()` / `SetBaseItemIndex()` задают ноль‑базовый индекс базового элемента и используются, когда тип позиции установлен в `Custom`.  
-После вызова `ShowValuesAs` повторно вызовите `PivotTable.CalculateData()`, чтобы тело сводной таблицы пересчиталось и отобразилось с обновлённой конфигурацией.
+Получите текущую конфигурацию с помощью `PivotField.GetShowValuesSetting()`: этот метод возвращает объект `PivotShowValuesSetting` поля, а его методы получения позволяют определить активное вычисление функции «Показать значения как». Чтобы изменить конфигурацию, вызовите метод `PivotField.ShowValuesAs`: он задает все параметры одним вызовом, поэтому их не требуется устанавливать по одному.
+Объект `PivotShowValuesSetting` хранит параметры, задаваемые методом `ShowValuesAs`:
+- `GetShowValuesAs()` / `SetShowValuesAs()` выбирают тип вторичного вычисления `PivotShowValuesAsType`.
+- `GetBaseFieldIndex()` / `SetBaseFieldIndex()` задают индекс базового поля (с нуля) среди полей сводной таблицы. Этот индекс используется в форматах, зависящих от базового поля.
+- `GetBaseItemIndex()` / `SetBaseItemIndex()` задают базовый элемент: индекс конкретного элемента сводной таблицы (с нуля) или одно из двух специальных значений-маркеров — -1 для предыдущего элемента и -2 для следующего (C++ API не определяет именованных констант для этих значений). Этот параметр используется в форматах, зависящих от базового элемента.
+- `GetBaseFieldName()` и `GetBaseItemCaption()` — методы только для чтения, которые возвращают вычисленное имя базового поля и подпись базового элемента соответственно. Например, после выбора значения-маркера для предыдущего элемента `GetBaseItemCaption()` возвращает `(previous)`.
+После вызова `ShowValuesAs` снова вызовите `PivotTable.CalculateData()`, чтобы пересчитать и заново отобразить тело сводной таблицы с обновленной конфигурацией.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -114,19 +116,22 @@ int main() {
     PivotField dataField = pivotTable.GetDataFields().Get(0);
     // Read the current show-values settings
     PivotShowValuesSetting settings = dataField.GetShowValuesSetting();
-    std::cout << "CalculationType: " << static_cast<int32_t>(settings.GetCalculationType()) << std::endl;
+    std::cout << "ShowValuesAs: " << static_cast<int32_t>(settings.GetShowValuesAs()) << std::endl;
     std::cout << "BaseFieldIndex: " << settings.GetBaseFieldIndex() << std::endl;
-    std::cout << "BaseItemPositionType: " << static_cast<int32_t>(settings.GetBaseItemPositionType()) << std::endl;
     std::cout << "BaseItemIndex: " << settings.GetBaseItemIndex() << std::endl;
+    std::cout << "BaseFieldName: " << settings.GetBaseFieldName().ToUtf8() << std::endl;
+    std::cout << "BaseItemCaption: " << settings.GetBaseItemCaption().ToUtf8() << std::endl;
     // Switch to a base-item calculation with the one-call method: difference
     // from the value of the previous item in the row field
-    dataField.ShowValuesAs(PivotFieldDataDisplayFormat::DifferenceFrom,
-        pivotTable.GetRowFields().Get(0).GetBaseIndex(), PivotItemPositionType::Previous, 0);
+    // (-1 is the previous-item sentinel; no named constant exists in C++)
+    dataField.ShowValuesAs(PivotShowValuesAsType::DifferenceFrom,
+        pivotTable.GetRowFields().Get(0).GetBaseIndex(), -1);
     pivotTable.CalculateData();
     // Note: the percentage number format saved by the previous example still
     // clings to the data field cells; the underlying values are now differences
     // Re-read the applied configuration
-    std::cout << "CalculationType now: " << static_cast<int32_t>(dataField.GetShowValuesSetting().GetCalculationType()) << std::endl;
+    std::cout << "ShowValuesAs now: " << static_cast<int32_t>(dataField.GetShowValuesSetting().GetShowValuesAs()) << std::endl;
+    std::cout << "BaseItemCaption now: " << dataField.GetShowValuesSetting().GetBaseItemCaption().ToUtf8() << std::endl;
     workbook.Save(u"ShowValuesAsDifferenceFrom.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

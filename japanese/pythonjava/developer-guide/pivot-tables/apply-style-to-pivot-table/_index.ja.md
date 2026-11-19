@@ -33,16 +33,16 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType, PivotTableAutoFormatType
-# シナリオ 1: レガシー XLS プリセット自動フォーマットを適用する
-# 使用中の API: PivotTable.AutoFormatType
-# ターゲットファイル形式: .xls(レガシー)
-# 完全なサンプルとデータファイルについては、https://github.com/aspose-cells/Aspose.Cells-for-.NET を参照してください
-# 新しいワークブックを作成する
+# Scenario 1: Apply a legacy XLS preset autoformat
+# API in use: PivotTable.AutoFormatType
+# Target file format: .xls (legacy)
+# For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+# Create a new workbook
 workbook = Workbook()
-# 最初のワークシートを取得する
+# Get the first worksheet
 sheet = workbook.getWorksheets().get(0)
-# ソースデータにヘッダー行(Fruit、Year、Amount)と、
-# 2020年と2021年にわたる grape、blueberry、kiwi、cherry をカバーする9行のデータを作成する
+# Populate the source data with header row (Fruit, Year, Amount)
+# and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.getCells().get(0, 0).putValue("Fruit")
 sheet.getCells().get(0, 1).putValue("Year")
 sheet.getCells().get(0, 2).putValue("Amount")
@@ -73,17 +73,17 @@ sheet.getCells().get(8, 2).putValue(45)
 sheet.getCells().get(9, 0).putValue("grape")
 sheet.getCells().get(9, 1).putValue(2020)
 sheet.getCells().get(9, 2).putValue(45)
-# セル E3 に、ソース範囲 A1:C10 を使用して「Pivot1」という名前のピボットテーブルを追加する
+# Add a pivot table at destination cell E3, using source range A1:C10
 pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4)
-# フィールドを割り当てる: Fruit → 行、Amount → データ
+# Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
-# レガシー XLS プリセット自動フォーマット「Report5」を適用する
-# 注: このプロパティは .xls として保存する場合にのみ意味を持ちます。
-# .xlsx/.xlsm/.xlsb として保存する場合、Excel は AutoFormatType を無視し、
-# PivotTableStyleType / PivotTableStyleName で指定されたものを使用します。
+# Apply the legacy XLS preset autoformat "Report5"
+# Note: This property is only meaningful when saving as .xls.
+# When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+# and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivotTable.setAutoFormatType(PivotTableAutoFormatType.REPORT_5)
-# ワークブックをレガシー .xls 形式で保存する
+# Save the workbook in legacy .xls format
 workbook.save("output.xls")
 jpype.shutdownJVM()
 ```
@@ -179,7 +179,7 @@ from asposecells.api import PivotFieldType, TableStyleElementType, BorderType, C
 from asposecells.api import Color
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# ソースデータを入力: ヘッダー行 + 9行のデータ (A1:C10)
+# Populate source data: header row + 9 data rows (A1:C10)
 worksheet.getCells().get("A1").putValue("Fruit")
 worksheet.getCells().get("B1").putValue("Year")
 worksheet.getCells().get("C1").putValue("Amount")
@@ -210,15 +210,15 @@ worksheet.getCells().get("C9").putValue(800)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(900)
-# A1:C10 をソースとするピボットテーブルを E3 に「Pivot1」という名前で追加
+# Add pivot table sourced from A1:C10, anchored at E3
 pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
-# ステップ 1: 新しいカスタムピボットテーブルスタイルを登録し、そのインデックスを取得
+# Step 1: register a new custom pivot table style and capture its index
 styleIndex = workbook.getWorksheets().getTableStyles().addPivotTableStyle("CustomPivotStyle")
 tableStyle = workbook.getWorksheets().getTableStyles().get(styleIndex)
-# ステップ 2: WholeTable 要素を追加し、4辺すべてに細い黒の罫線を適用
+# Step 2: add a WholeTable element and apply thin black borders on all four sides
 wholeTableElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.WHOLE_TABLE)
 wholeTableElement = tableStyle.getTableStyleElements().get(wholeTableElementIndex)
 wholeTableStyle = workbook.createStyle()
@@ -231,14 +231,14 @@ wholeTableStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setColor(Co
 wholeTableStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 wholeTableStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setColor(Color.getBlack())
 wholeTableElement.setElementStyle(wholeTableStyle)
-# ステップ 3: GrandTotalRow 要素を追加し、太字の赤いフォントを適用
+# Step 3: add a GrandTotalRow element and apply bold red font
 grandTotalElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.GRAND_TOTAL_ROW)
 grandTotalElement = tableStyle.getTableStyleElements().get(grandTotalElementIndex)
 grandTotalStyle = workbook.createStyle()
 grandTotalStyle.getFont().setBold(True)
 grandTotalStyle.getFont().setColor(Color.getRed())
 grandTotalElement.setElementStyle(grandTotalStyle)
-# ステップ 4: カスタムスタイルを名前で適用(組み込みプリセット用の PivotTableStyleType では無い)
+# Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivotTable.setPivotTableStyleName("CustomPivotStyle")
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
@@ -260,13 +260,13 @@ from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, Style
 from asposecells.api import Color
 from asposecells.api import PivotTable, PivotFieldType
 from asposecells.api import BorderType, CellBorderType, BackgroundType
-# シナリオ 4: formatAll を使用してすべてのピボットテーブルセルに単一のスタイルを適用
-# 使用中の API: PivotTable.formatAll(Style)
-# ターゲット形式: .xlsx
-# GitHub リファレンス: Aspose.Cells-for-.NET リポジトリを参照 — ピボットテーブルのスタイル設定例
+# Scenario 4: Apply a single Style to every pivot table cell using formatAll
+# API in use: PivotTable.formatAll(Style)
+# Target format: .xlsx
+# GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# ソースデータを設定: ヘッダー行 (1行目) + 9データ行 (2～10行目)
+# Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.getCells().get("A1").putValue("Fruit")
 worksheet.getCells().get("B1").putValue("Year")
 worksheet.getCells().get("C1").putValue("Amount")
@@ -297,13 +297,13 @@ worksheet.getCells().get("C9").putValue(2500)
 worksheet.getCells().get("A10").putValue("Grape")
 worksheet.getCells().get("B10").putValue(2021)
 worksheet.getCells().get("C10").putValue(5500)
-# ピボットテーブルを追加: ソース範囲 A1:C10、配置先セル E3、名前
+# Add pivot table: source range A1:C10, destination cell E3
 pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4)
-# ピボットフィールドを割り当て: Fruit -> 行エリア、Year -> 列エリア、Amount -> データエリア
+# Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount")
-# ピボットテーブルのすべてのセルに強制適用されるスタイルを構築
+# Build a Style that will be forced onto every cell of the pivot table
 style = workbook.createStyle()
 style.setForegroundColor(Color.fromArgb(70, 130, 180))
 style.setPattern(BackgroundType.SOLID)
@@ -317,10 +317,10 @@ style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBord
 style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setColor(Color.getBlack())
 style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN)
 style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setColor(Color.getBlack())
-# formatAll を適用: この単一のスタイルをピボットテーブルのすべてのセルに強制し、
-# 以前に設定された PivotTableStyleType / PivotTableStyleName をすべて上書きします
+# Apply formatAll: forces this single style onto every cell of the pivot table,
+# overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivotTable.formatAll(style)
-# ワークブックを最新の .xlsx 形式で保存
+# Save the workbook in the modern .xlsx format
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```

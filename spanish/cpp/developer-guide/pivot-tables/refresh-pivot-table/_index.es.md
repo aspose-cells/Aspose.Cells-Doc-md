@@ -1,6 +1,6 @@
 ---
 title: Actualizar Tablas Dinámicas y Cachés de Tablas Dinámicas en Aspose.Cells for C++
-linktitle: Actualizar Tablas Dinámicas y Cachés de Tablas Dinámicas en Aspose.Cells for C++
+linktitle: Actualizar tablas dinámicas
 description: Aprenda a actualizar tablas dinámicas en Aspose.Cells for C++ utilizando la API de actualización de tablas dinámicas v26.7+. Este artículo cubre RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData y GetPivotTables con ejemplos prácticos de código.
 keywords: Aspose.Cells, C++, tabla dinámica, actualizar, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

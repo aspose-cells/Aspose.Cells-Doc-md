@@ -55,14 +55,14 @@ L’exemple suivant crée un classeur avec une plage source Fruit/Year/Amount, c
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Créer un nouveau classeur
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Écrire la ligne d'en-tête dans les cellules A1:C1
+// Write header row into cells A1:C1
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// Écrire les lignes de données dans les cellules A2:C9 (8 lignes de données de fruits sur 2020 et 2021)
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.Cells["A2"].PutValue("grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(50);
@@ -87,19 +87,19 @@ worksheet.Cells["C8"].PutValue(110);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(120);
-// Ajouter un tableau croisé dynamique : plage source "A1:C9", cellule de destination "E3", nom
+// Add a pivot table: source range "A1:C9", destination cell "E3"
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// Affecter les champs du tableau croisé dynamique : Fruit aux lignes, Year aux colonnes, Amount aux données
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Modifier plusieurs valeurs de Amount dans les données source pour simuler des changements
+// Modify several Amount values in the source data to simulate changes
 worksheet.Cells["C2"].PutValue(55);
 worksheet.Cells["C5"].PutValue(85);
 worksheet.Cells["C9"].PutValue(125);
-// Actualiser tous les tableaux croisés dynamiques / caches de tableau croisé dynamique du classeur
+// Refresh every pivot table / pivot cache in the workbook
 workbook.RefreshAll();
-// Enregistrer le classeur
+// Save the workbook
 workbook.Save("output.xlsx");
 ```
 
@@ -165,11 +165,11 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
-// Écrire la ligne d’en-tête Fruit / Year / Amount
+// Write Fruit / Year / Amount header row
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// Écrire 8 lignes de données (lignes 2-9, correspondant à la plage source A1:C9)
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.Cells["A2"].PutValue("Grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(100);
@@ -194,21 +194,21 @@ worksheet.Cells["C8"].PutValue(350);
 worksheet.Cells["A9"].PutValue("Cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(450);
-// Ajouter un tableau croisé dynamique nommé placé dans la cellule de destination E3, avec A1:C9 comme source
+// Add a pivot table placed at destination cell E3, sourcing from A1:C9
 var pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// Affecter les champs : Fruit à Ligne, Year à Colonne, Amount à Données
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Modifier une propriété d’affichage/de disposition — il s’agit uniquement d’un changement de présentation,
-// donc il ne nécessite PAS de relire les données source via PivotCache.Refresh().
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.Refresh().
 pivotTable.RefreshDataOnOpeningFile = false;
-// CalculateData() redessine l’affichage de CE tableau croisé dynamique (données + style) à partir des
-// données déjà conservées dans le PivotCache. Comme les données source n’ont pas changé,
-// aucun aller-retour vers la source n’est effectué — seules les valeurs mises en cache sont recalculées
-// dans les cellules de la feuille de calcul.
+// CalculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.CalculateData();
-// Enregistrer le classeur sur le disque
+// Save the workbook to disk
 workbook.Save("output.xlsx");
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: Administrar campos de valor de tabla dinámica en Aspose.Cells for Python via .NET
-linktitle: Administrar campos de valor de tabla dinámica en Aspose.Cells for Python via .NET
+linktitle: Campos de valor
 description: Aprenda a agregar campos base a la región de datos de una tabla dinámica, cambiar la función de resumen con PivotField.function y trazar el campo de valor en el eje Fila o Columna en Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells, Python via .NET, tabla dinámica, campo de valor, PivotField, PivotField.function, campo de datos, PivotTable.values_field, Sum, Average
 type: docs

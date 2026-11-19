@@ -50,7 +50,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// Показать 2 лучших элемента, отсортированных по «Сумма продаж» (индекс поля данных 0)
+// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sportField.top10AutoShow(true, true, 2, 0);
 pivotTable.calculateData();
 workbook.save("output-top10-by-value-field.xlsx");
@@ -83,7 +83,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// Показать 3 нижних элемента, ранжированных по самому полю (rankBy = -1)
+// Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sportField.top10AutoShow(true, false, 3, -1);
 pivotTable.calculateData();
 workbook.save("output-top10-by-field-itself.xlsx");
@@ -144,9 +144,9 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// Фильтр Top 10 — сохранить 2 верхних элемента по «Sum of Sales» (индекс поля данных 0)
+// Top 10 Filter - keep the top 2 items by "Sum of Sales" (data field index 0)
 sportField.filterTop10(0, PivotFilterType.COUNT, true, 2);
-// Для фильтра на основе процентов вместо этого сохранить верхние 30 процентов элементов:
+// For a percentage-based filter instead, keep the top 30 percent of the items:
 // sportField.filterTop10(0, PivotFilterType.PERCENT, true, 30);
 pivotTable.getPivotCache().refresh();
 pivotTable.calculateData();

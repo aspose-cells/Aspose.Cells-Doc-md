@@ -1,7 +1,7 @@
 ---
 title: 将 Excel 转换为 OFD 格式
 description: Aspose.Cells for Python via .NET 是一个电子表格处理库，支持将 Excel 工作簿转换为 OFD（开放版式文档）格式。本文演示如何创建 Excel 内容并将其导出为 OFD，以及如何使用 Aspose.Cells 将现有的 Excel 文件转换为 OFD。
-linktitle: 将 Excel 转换为 OFD 格式
+linktitle: OFD
 keywords: Aspose.Cells, Python via .NET 库, 电子表格, Excel 转 OFD, OFD 转换, SaveFormat.OFD, 固定版式文档, 工作簿导出
 type: docs
 weight: 195
@@ -32,25 +32,25 @@ Aspose.Cells 允许您以编程方式构建工作簿，向其中填充数据，�
 import aspose.cells as ac
 from datetime import datetime
 data_dir = "C:\\Temp\\"
-# 创建一个新的 Workbook
+# Create a new Workbook
 workbook = ac.Workbook()
-# 获取第一个工作表
+# Obtain the first worksheet
 worksheet = workbook.worksheets[0]
-# 设置列宽
+# Set column widths
 worksheet.cells.set_column_width(0, 5.0)
 worksheet.cells.set_column_width(1, 35.0)
 worksheet.cells.set_column_width(2, 12.0)
 worksheet.cells.set_column_width(3, 15.0)
 worksheet.cells.set_column_width(4, 15.0)
 worksheet.cells.set_column_width(5, 5.0)
-# 插入公司徽标
+# Insert company logo
 worksheet.pictures.add(1, 1, data_dir + "logo.png")
-# 公司名称和联系详情
+# Company name and contact details
 worksheet.cells.get("B3").put_value("Acme Corporation")
 worksheet.cells.get("B4").put_value("123 Business Street")
 worksheet.cells.get("B5").put_value("City, State 12345")
 worksheet.cells.get("B6").put_value("Phone: (555) 123-4567")
-# INVOICE 标题 - 合并单元格
+# INVOICE title - merge cells
 worksheet.cells.merge(7, 1, 2, 4)
 title_cell = worksheet.cells.get("B8")
 title_cell.put_value("INVOICE")
@@ -59,17 +59,17 @@ title_style.font.is_bold = True
 title_style.font.size = 20
 title_style.horizontal_alignment = ac.TextAlignmentType.CENTER
 title_cell.set_style(title_style)
-# 发票编号和日期
+# Invoice number and date
 worksheet.cells.get("B11").put_value("Invoice Number:")
 worksheet.cells.get("C11").put_value("INV-2024-001")
 worksheet.cells.get("B12").put_value("Date:")
 worksheet.cells.get("C12").put_value(datetime.now().strftime("%Y-%m-%d"))
-# 收款方信息部分
+# Bill-to section
 worksheet.cells.get("B14").put_value("Bill To:")
 worksheet.cells.get("B15").put_value("Client Name")
 worksheet.cells.get("B16").put_value("Client Address")
 worksheet.cells.get("B17").put_value("Client City, State")
-# 明细项目表头
+# Line items header
 header_desc = worksheet.cells.get("B19")
 header_qty = worksheet.cells.get("C19")
 header_price = worksheet.cells.get("D19")
@@ -91,20 +91,20 @@ header_desc.set_style(header_style)
 header_qty.set_style(header_style)
 header_price.set_style(header_style)
 header_total.set_style(header_style)
-# 带边框的货币样式
+# Currency style with borders
 currency_style = workbook.create_style()
 currency_style.custom = "\"$\"#,##0.00"
 currency_style.borders.get(ac.BorderType.TOP_BORDER).line_style = ac.CellBorderType.THIN
 currency_style.borders.get(ac.BorderType.BOTTOM_BORDER).line_style = ac.CellBorderType.THIN
 currency_style.borders.get(ac.BorderType.LEFT_BORDER).line_style = ac.CellBorderType.THIN
 currency_style.borders.get(ac.BorderType.RIGHT_BORDER).line_style = ac.CellBorderType.THIN
-# 用于描述/数量单元格的普通边框样式
+# Plain border style for description/quantity cells
 border_style = workbook.create_style()
 border_style.borders.get(ac.BorderType.TOP_BORDER).line_style = ac.CellBorderType.THIN
 border_style.borders.get(ac.BorderType.BOTTOM_BORDER).line_style = ac.CellBorderType.THIN
 border_style.borders.get(ac.BorderType.LEFT_BORDER).line_style = ac.CellBorderType.THIN
 border_style.borders.get(ac.BorderType.RIGHT_BORDER).line_style = ac.CellBorderType.THIN
-# 明细项目行
+# Line items rows
 line_items = [
     ["Product A - Widget", 2, 50.00],
     ["Product B - Gadget", 3, 75.00],
@@ -124,7 +124,7 @@ for i in range(len(line_items)):
     qty_cell.set_style(border_style)
     price_cell.set_style(currency_style)
     total_cell.set_style(currency_style)
-# 小计、税金、合计
+# Subtotal, tax, grand total
 worksheet.cells.get("B24").put_value("Subtotal:")
 subtotal_cell = worksheet.cells.get("E24")
 subtotal_cell.formula = "SUM(E20:E22)"
@@ -134,20 +134,20 @@ tax_cell.formula = "E24*0.1"
 worksheet.cells.get("B26").put_value("Grand Total:")
 grand_total_cell = worksheet.cells.get("E26")
 grand_total_cell.formula = "E24+E25"
-# 用于合计值的加粗 + 货币样式
+# Bold + currency style for total values
 total_style = workbook.create_style()
 total_style.font.is_bold = True
 total_style.custom = "\"$\"#,##0.00"
 subtotal_cell.set_style(total_style)
 tax_cell.set_style(total_style)
 grand_total_cell.set_style(total_style)
-# 用于合计标签的加粗样式
+# Bold style for total labels
 bold_style = workbook.create_style()
 bold_style.font.is_bold = True
 worksheet.cells.get("B24").set_style(bold_style)
 worksheet.cells.get("B25").set_style(bold_style)
 worksheet.cells.get("B26").set_style(bold_style)
-# 将工作簿保存为 OFD 文件
+# Save the workbook as an OFD file
 workbook.save(data_dir + "Invoice.ofd", ac.SaveFormat.OFD)
 ```
 
@@ -158,39 +158,39 @@ Aspose.Cells 还可以从磁盘加载现有的 Excel 工作簿并将其直接导
 import aspose.cells as ac
 from datetime import datetime
 dataDir = "C:\\Examples\\"
-# 从磁盘打开现有的 Excel 工作簿
+# Open an existing Excel workbook from disk
 workbook = ac.Workbook(dataDir + "SampleBook.xlsx")
-# (1) 读取并显示所选单元格的值以确认文件已加载
+# (1) Read and display values from selected cells to confirm the file was loaded
 firstSheet = workbook.worksheets[0]
 print("First sheet name: " + firstSheet.name)
 print("Cell A1: " + firstSheet.cells.get("A1").string_value)
 print("Cell B1: " + firstSheet.cells.get("B1").string_value)
 print("Cell C1: " + firstSheet.cells.get("C1").string_value)
-# (2) 遍历 Worksheets 集合以枚举可用的工作表
+# (2) Iterate over the Worksheets collection to enumerate available sheets
 print("\nAvailable worksheets:")
 for i in range(len(workbook.worksheets)):
     ws = workbook.worksheets[i]
     print("  [" + str(i) + "] " + ws.name)
-# (3) 可选择地更新时间戳单元格以反映转换
+# (3) Optionally update a timestamp cell to reflect the conversion
 firstSheet.cells.get("A1").put_value("Converted on: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-# 在数据块顶部追加一个摘要标题行
+# Append a summary header row at the top of the data block
 firstSheet.cells.insert_row(0)
 firstSheet.cells.get("A1").put_value("Conversion Summary")
 firstSheet.cells.get("A2").put_value("Generated: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-# (4) 在工作表上配置 PageSetup 属性
+# (4) Configure PageSetup properties on the worksheet
 pageSetup = firstSheet.page_setup
 pageSetup.orientation = ac.PageOrientationType.LANDSCAPE
 pageSetup.paper_size = ac.PaperSizeType.PAPER_A4
 pageSetup.fit_to_pages_tall = 1
 pageSetup.fit_to_pages_wide = 1
-# (5) 可选择地为 OFD 输出设置打印区域
+# (5) Optionally set the print area for the OFD output
 lastRow = firstSheet.cells.max_data_row
 lastCol = firstSheet.cells.max_data_column
 lastColLetter = ac.CellsHelper.column_index_to_name(lastCol)
 printArea = "A1:" + lastColLetter + str(lastRow + 1)
 firstSheet.page_setup.print_area = printArea
 print("\nPrint area set to: " + printArea)
-# (6) 将工作簿另存为 OFD 文件
+# (6) Save the workbook as an OFD file
 workbook.save(dataDir + "SampleBook.ofd", ac.SaveFormat.OFD)
 print("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd")
 ```

@@ -1,6 +1,6 @@
 ---
 title: Infoga pivottabell
-linktitle: Infoga pivottabell
+linktitle: Pivottabeller
 description: Skapa och formatera pivottabeller med Aspose.Cells for Python via .NET.
 keywords: Skapa pivottabell, Infoga pivottabell, Formatera pivottabell.
 type: docs
@@ -36,12 +36,10 @@ När kodexemplet har körts läggs en pivottabell till i kalkylbladet.
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-
-# Skapa en ny arbetsbok och hämta det första kalkylbladet
+# Create a new workbook and get the first worksheet
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-
-# Skriv källdata: försäljning per sport och kvartal
+# Write the source data: sales per sport and quarter
 sheet.cells.get("A1").put_value("Sport")
 sheet.cells.get("B1").put_value("Quarter")
 sheet.cells.get("C1").put_value("Sales")
@@ -66,16 +64,13 @@ sheet.cells.get("C7").put_value(5000)
 sheet.cells.get("A8").put_value("Golf")
 sheet.cells.get("B8").put_value("Qtr3")
 sheet.cells.get("C8").put_value(6430)
-
-# Lägg till en pivottabell vid destinationscellen E3, med A1:C8 som källa
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivot_table = sheet.pivot_tables.add("A1:C8", 2, 4)
-
-# Tilldela pivotfält: Sport till Rader, Quarter till Kolumner, Sales till Data
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Quarter")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
-
-# Spara arbetsboken
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

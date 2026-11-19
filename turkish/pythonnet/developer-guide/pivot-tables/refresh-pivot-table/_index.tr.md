@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via .NET ile Pivot Tablolarını ve Pivot Önbelleklerini Yenileyin
-linktitle: Aspose.Cells for Python via .NET ile Pivot Tablolarını ve Pivot Önbelleklerini Yenileyin
+linktitle: Pivot Tablolarını Yenile
 description: Aspose.Cells for Python via .NET içinde v26.7+ Pivot yenileme API'sini kullanarak Pivot Tablolarının nasıl yenilendiğini öğrenin. Bu makale, refresh_all, _refresh_pivot_tables, PivotCache.refresh, _calculate_data ve _get_pivot_tables işlevlerini pratik kod örnekleriyle ele alır.
 keywords: Aspose.Cells, Python via .NET, Pivot Tablosu, yenile, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

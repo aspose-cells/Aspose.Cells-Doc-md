@@ -32,16 +32,16 @@ L'esempio seguente carica una nuova cartella di lavoro, popola i dati di esempio
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells.pivot import PivotTableAutoFormatType
-# Scenario 1: Applica un formato automatico preimpostato XLS legacy
-# API in uso: PivotTable.AutoFormatType
-# Formato file di destinazione: .xls (legacy)
-# Per esempi completi e file di dati, visitare https://github.com/aspose-cells/Aspose.Cells-for-.NET
-# Crea una nuova cartella di lavoro
+# Scenario 1: Apply a legacy XLS preset autoformat
+# API in use: PivotTable.AutoFormatType
+# Target file format: .xls (legacy)
+# For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+# Create a new workbook
 workbook = ac.Workbook()
-# Ottieni il primo foglio di lavoro
+# Get the first worksheet
 sheet = workbook.worksheets[0]
-# Popola i dati di origine con la riga di intestazione (Frutto, Anno, Importo)
-# e 9 righe di dati che coprono uva, mirtillo, kiwi, ciliegia tra il 2020 e il 2021
+# Populate the source data with header row (Fruit, Year, Amount)
+# and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.cells.get(0, 0).put_value("Fruit")
 sheet.cells.get(0, 1).put_value("Year")
 sheet.cells.get(0, 2).put_value("Amount")
@@ -72,17 +72,17 @@ sheet.cells.get(8, 2).put_value(45)
 sheet.cells.get(9, 0).put_value("grape")
 sheet.cells.get(9, 1).put_value(2020)
 sheet.cells.get(9, 2).put_value(45)
-# Aggiungi una tabella pivot nella cella di destinazione E3, denominata, utilizzando l'intervallo di origine A1:C10
+# Add a pivot table at destination cell E3, using source range A1:C10
 pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
-# Assegna i campi: Frutto -> Righe, Importo -> Dati
+# Assign fields: Fruit -> Rows, Amount -> Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Applica il formato automatico preimpostato XLS legacy "Report5"
-# Nota: questa proprietà è significativa solo quando si salva come .xls.
-# Quando si salva come .xlsx/.xlsm/.xlsb, Excel ignora AutoFormatType
-# e usa qualsiasi cosa specificata da PivotTableStyleType / PivotTableStyleName.
+# Apply the legacy XLS preset autoformat "Report5"
+# Note: This property is only meaningful when saving as .xls.
+# When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+# and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivot_table.auto_format_type = PivotTableAutoFormatType.REPORT5
-# Salva la cartella di lavoro nel formato .xls legacy
+# Save the workbook in legacy .xls format
 workbook.save("output.xls")
 ```
 
@@ -172,7 +172,7 @@ from aspose.cells.tables import TableStyleElementType
 from aspose.pydrawing import Color
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# Popola i dati sorgente: riga intestazione + 9 righe di dati (A1:C10)
+# Populate source data: header row + 9 data rows (A1:C10)
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
@@ -203,15 +203,15 @@ worksheet.cells.get("C9").put_value(800)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(900)
-# Aggiungi tabella pivot con origine da A1:C10, ancorata a E3, denominata
+# Add pivot table sourced from A1:C10, anchored at E3
 pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Passo 1: registra un nuovo stile personalizzato di tabella pivot e acquisisci il suo indice
+# Step 1: register a new custom pivot table style and capture its index
 style_index = workbook.worksheets.table_styles.add_pivot_table_style("CustomPivotStyle")
 table_style = workbook.worksheets.table_styles[style_index]
-# Passo 2: aggiungi un elemento WholeTable e applica bordi neri sottili su tutti e quattro i lati
+# Step 2: add a WholeTable element and apply thin black borders on all four sides
 whole_table_element_index = table_style.table_style_elements.add(TableStyleElementType.WHOLE_TABLE)
 whole_table_element = table_style.table_style_elements[whole_table_element_index]
 whole_table_style = workbook.create_style()
@@ -224,14 +224,14 @@ whole_table_style.borders.get(ac.BorderType.LEFT_BORDER).color = Color.black
 whole_table_style.borders.get(ac.BorderType.RIGHT_BORDER).line_style = ac.CellBorderType.THIN
 whole_table_style.borders.get(ac.BorderType.RIGHT_BORDER).color = Color.black
 whole_table_element.set_element_style(whole_table_style)
-# Passo 3: aggiungi un elemento GrandTotalRow e applica un font rosso in grassetto
+# Step 3: add a GrandTotalRow element and apply bold red font
 grand_total_element_index = table_style.table_style_elements.add(TableStyleElementType.GRAND_TOTAL_ROW)
 grand_total_element = table_style.table_style_elements[grand_total_element_index]
 grand_total_style = workbook.create_style()
 grand_total_style.font.is_bold = True
 grand_total_style.font.color = Color.red
 grand_total_element.set_element_style(grand_total_style)
-# Passo 4: applica lo stile personalizzato per nome (NON tramite PivotTableStyleType, che è per preset predefiniti)
+# Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivot_table.pivot_table_style_name = "CustomPivotStyle"
 workbook.save("output.xlsx")
 ```
@@ -249,13 +249,13 @@ from aspose.pydrawing import Color
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells import BackgroundType, CellBorderType, BorderType
-# Scenario 4: applicare un singolo stile a ogni cella della tabella pivot usando format_all
-# API utilizzata: PivotTable.format_all(Style)
-# Formato di destinazione: .xlsx
-# Riferimento GitHub: vedere il repository Aspose.Cells-for-.NET — esempi di stile delle tabelle pivot
+# Scenario 4: Apply a single Style to every pivot table cell using format_all
+# API in use: PivotTable.format_all(Style)
+# Target format: .xlsx
+# GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# Popolare i dati di origine: riga di intestazione (riga 1) + 9 righe di dati (righe 2-10)
+# Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
@@ -286,13 +286,13 @@ worksheet.cells.get("C9").put_value(2500)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(5500)
-# Aggiungere la tabella pivot: intervallo di origine A1:C10, cella di destinazione E3, nome
+# Add pivot table: source range A1:C10, destination cell E3
 pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
-# Assegnare i campi pivot: Fruit -> area Riga, Year -> area Colonna, Amount -> area Dati
+# Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Creare uno stile che verrà applicato forzatamente a ogni cella della tabella pivot
+# Build a Style that will be forced onto every cell of the pivot table
 style = workbook.create_style()
 style.foreground_color = Color.yellow
 style.pattern = BackgroundType.SOLID
@@ -306,10 +306,10 @@ style.borders.get(BorderType.LEFT_BORDER).line_style = CellBorderType.THIN
 style.borders.get(BorderType.LEFT_BORDER).color = Color.black
 style.borders.get(BorderType.RIGHT_BORDER).line_style = CellBorderType.THIN
 style.borders.get(BorderType.RIGHT_BORDER).color = Color.black
-# Applicare format_all: forza questo singolo stile su ogni cella della tabella pivot,
-# sovrascrivendo eventuali PivotTableStyleType / PivotTableStyleName impostati in precedenza
+# Apply format_all: forces this single style onto every cell of the pivot table,
+# overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivot_table.format_all(style)
-# Salvare la cartella di lavoro nel formato moderno .xlsx
+# Save the workbook in the modern .xlsx format
 workbook.save("output.xlsx")
 ```
 

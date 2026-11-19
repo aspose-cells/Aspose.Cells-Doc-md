@@ -22,7 +22,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 3. **مرشح القيمة** — يُصفّي العناصر بناءً على القيم المجمعة لحقل بيانات.
 4. **مرشح أعلى 10** — يعرض فقط أعلى أو أقل عدد N من العناصر مرتبة حسب حقل قيمة.
 5. **إخفاء / إظهار عناصر الجدول المحوري** — يتحكم يدويًا في رؤية كل عنصر منفرد في الحقل.
-تستخدم كل طريقة دالة مختلفة في فئة `PivotField` أو خاصية في فئة `PivotItem`. بعد تطبيق أي مرشح، يجب استدعاء `refreshData()` و `calculateData()` على الجدول المحوري بحيث تعكس البيانات المخزنة مؤقتًا والقيم المحسوبة حالة المرشح الجديدة.
+تستخدم كل طريقة دالة مختلفة في فئة `PivotField` أو خاصية في فئة `PivotItem`. بعد تطبيق أي مرشح، يجب استدعاء `getPivotCache().refresh()` على الجدول المحوري بحيث تعكس البيانات المخزنة مؤقتًا والقيم المحسوبة حالة المرشح الجديدة.
 
 ## **Label Filter**
 يتيح لك مرشح التسمية تصفية عناصر حقل الصف أو العمود بمقارنة تسمياتها النصية بنمط معين. يكون هذا مفيدًا عندما تريد عرض المنتجات التي تبدأ أسماؤها بحرف معين فقط، أو التي تحتوي على كلمة معينة، أو التي تطابق معيارًا آخر قائمًا على التسمية.
@@ -67,23 +67,23 @@ if (!fs.existsSync(inputPath))
 {
     throw new Error("Source workbook not found: " + inputPath);
 }
-// تحميل مصنف العمل الموجود الذي يحتوي على الجدول المحوري
+// Load the existing workbook that contains the pivot table
 const workbook = new AsposeCells.Workbook(inputPath);
-// الوصول إلى ورقة العمل التي تحتوي على الجدول المحوري (بالفهرس)
+// Access the worksheet that holds the pivot table (by index)
 const worksheet = workbook.getWorksheets().get(0);
-// الوصول إلى الجدول المحوري بالفهرس
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// استرجاع حقل PivotField للتاريخ من منطقة الصفوف
-// (يعمل مرشح التاريخ فقط عندما تحتوي منطقة الصفوف/الأعمدة على خلايا تاريخ-وقت فقط أو خلايا فارغة)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 const dateField = pivotTable.getRowFields().get(0);
-// تحديد معيار التاريخ لمرشح Between
+// Define the date criterion for the Between filter
 const startDate = new Date(2020, 0, 1);
 const endDate = new Date(2020, 11, 31);
-// تطبيق مرشح التاريخ على حقل المحور
+// Apply the date filter on the pivot field
 dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
-// تحديث وإعادة حساب الجدول المحوري لكي يسري المرشح
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// حفظ مصنف العمل
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
@@ -119,32 +119,32 @@ workbook.save("output.xlsx");
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// تحميل مصنف العمل الموجود الذي يحتوي على الجدول المحوري
+// Load the existing workbook that contains the pivot table
 const inputPath = "input.xlsx";
 const outputPath = "output.xlsx";
 const workbook = new AsposeCells.Workbook(inputPath);
-// الوصول إلى ورقة العمل التي تحتوي على الجدول المحوري (الفهرس 0)
+// Access the worksheet that holds the pivot table (index 0)
 const worksheet = workbook.getWorksheets().get(0);
-// الوصول إلى الجدول المحوري عن طريق الفهرس
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// التأكد من وجود حقل محوري للقيمة على الأقل في منطقة البيانات
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() === 0) {
     throw new Error("Pivot table has no value (data) PivotField.");
 }
 const valueField = pivotTable.getDataFields().get(0);
-// استرجاع حقل الصف المحوري المستهدف (الحقل الذي نريد تطبيق أفضل 10 عليه)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 const rowField = pivotTable.getRowFields().get(0);
-// حقل البيانات الأول (والوحيد) موجود في الفهرس 0؛ تقوم أفضل 10 بترتيب العناصر حسبه.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 const valueFieldIndex = 0;
-// تطبيق مرشح أفضل 10 على حقل الصف:
-//   - عدد العناصر = 10
-//   - نوع المرشح = PivotFilterType.Sum
-//   - isTop = true (أفضل N؛ false تعني أسوأ N)
-//   - valueFieldIndex = فهرس حقل البيانات المستخدم لترتيب العناصر
+// Apply the Top 10 filter on the row field:
+//   - itemCount   = 10
+//   - filterType  = PivotFilterType.Sum
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
-// تحديث بيانات الجدول المحوري وإعادة حسابه بحيث يصبح المرشح ساري المفعول
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// حفظ مصنف العمل
+// Save the workbook
 workbook.save(outputPath);
 ```
 
@@ -154,34 +154,34 @@ workbook.save(outputPath);
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// تحميل مصنف موجود يحتوي على جدول محوري
+// Load an existing workbook containing a pivot table
 const workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
-// الوصول إلى ورقة العمل الأولى التي تحتوي على الجدول المحوري
+// Access the first worksheet which contains the pivot table
 const sheet = workbook.getWorksheets().get(0);
-// الوصول إلى الجدول المحوري حسب الفهرس (أول جدول محوري في الورقة)
+// Access the pivot table by index (the first pivot table on the sheet)
 const pivotTable = sheet.getPivotTables().get(0);
-// استرجاع حقل المحور المستهدف (أول حقل تسمية صف سنقوم بإخفاء/إظهار عناصره)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 const pivotField = pivotTable.getRowFields().get(0);
-// التكرار خلال مجموعة عناصر المحور (PivotItems) للحقل المحوري المحدد
+// Iterate through the PivotItems collection of the selected PivotField
 const itemCount = pivotField.getPivotItems().getCount();
 for (let i = 0; i < itemCount; i++)
 {
     const item = pivotField.getPivotItems().get(i);
-    // إخفاء عناصر المحور التي تطابق اسمًا/معيارًا محددًا
+    // Hide pivot items that match a specific name/criterion
     if (item.getName() == "Item1" || item.getName() == "Item2")
     {
         item.setIsHidden(true);
     }
-    // عرض توضيحي لإلغاء الإخفاء: إعادة إظهار عنصر محوري كان مخفيًا سابقًا
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.getName() == "Item3")
     {
         item.setIsHidden(false);
     }
 }
-// تحديث الجدول المحوري وإعادة حسابه لتطبيق التغييرات
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh();
-// حفظ المصنف — تبقى العناصر المخفية في البيانات الأساسية
-// لكنها تُستبعد من مخرجات الجدول المحوري المعروضة
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx");
 ```
 

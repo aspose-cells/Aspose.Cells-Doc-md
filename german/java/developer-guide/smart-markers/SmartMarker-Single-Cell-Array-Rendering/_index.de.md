@@ -1,159 +1,227 @@
 ---
-title: SmartMarker Single Cell Array Rendering | Aspose.Cells Java
-linktitle: SmartMarker Single Cell Array Rendering | Aspose.Cells Java
-description: Erfahren Sie, wie Sie Array-Daten mit den Attributen ArrayAsSingle und ExtraDelimiter in Smart Markers in eine einzelne Zelle rendern mit Aspose.Cells for Java.
-keywords: Aspose.Cells, Java-Bibliothek, Tabellenkalkulation, Smart Markers, ArrayAsSingle, ExtraDelimiter, Einzelzell-Array, Array-Rendering, Vorlage
+title: Rendering eines SmartMarker-Arrays in einer einzelnen Zelle | Aspose.Cells for Java
+description: Erfahren Sie, wie Sie mithilfe der Smart-Marker-Attribute `arrayassingle` und `arraydelimiter` in Aspose.Cells for Java Arraydaten in einer einzigen Zelle rendern.
+linktitle: SmartMarker-Array in einer Zelle | Aspose.Cells
+url: /de/java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+keywords: Aspose.Cells, Java-Bibliothek, Tabellenkalkulation, Smart Markers, arrayassingle, arraydelimiter, Array in einer Einzelzelle, Array-Rendering, Vorlage
 type: docs
 weight: 195
-url: /de/java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
 ai_search_scope: cells_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells unterstützt das Rendern von Array-Daten in eine einzelne Zelle über Smart Markers. Durch die Verwendung des Attributs `ArrayAsSingle` zusammen mit dem Attribut `ExtraDelimiter` können Entwickler steuern, wie Array-Elemente innerhalb einer einzelnen Zelle getrennt werden, und erhalten so eine flexible Formatierung für Berichte und Vorlagen.
+Aspose.Cells kann eine Array-Datenquelle mithilfe von Smart Markers in einer einzigen Zelle rendern. Das Attribut `arrayassingle` deaktiviert die standardmäßige elementweise Verteilung, und das Attribut `arraydelimiter` legt den Trenner fest, der zwischen den zusammengeführten Elementen platziert wird – standardmäßig ein Komma oder alternativ ein beliebiges einzelnes Zeichen oder eine von Ihnen angegebene Zeichenfolge aus mehreren Zeichen in Anführungszeichen.
 {{% /alert %}}
 
-## **Introduction**
-Smart Markers in Aspose.Cells sind eine leistungsstarke, vorlagenbasierte Funktion, mit der Sie Tabellendaten dynamisch mithilfe von Marker-Ausdrücken wie `&=DataSource.Field` befüllen können. Der Marker wird in einer Designer-Arbeitsmappe platziert, und wenn die Vorlage durch den `WorkbookDesigner` verarbeitet wird, werden die Marker durch Werte aus der bereitgestellten Datenquelle ersetzt.
-Standardmäßig expandiert die Engine das Array, wenn ein Smart Marker auf eine Array-Eigenschaft verweist (zum Beispiel `&=DataSource.Numbers`), und platziert jedes Element in eine separate angrenzende Zelle – entweder horizontal über eine Zeile oder vertikal über eine Spalte. Obwohl dieses Verhalten in vielen Szenarien praktisch ist, gibt es Situationen, in denen Sie das gesamte Array lieber in einer einzigen Zelle rendern möchten, wobei die Elemente verkettet und durch ein Trennzeichen Ihrer Wahl getrennt werden.
-Die Attribute `ArrayAsSingle` und `ExtraDelimiter`, die zusammen innerhalb eines Smart-Marker-Tags verwendet werden, erfüllen genau diese Anforderung. Sie ermöglichen es Ihnen, Berichtslayouts kompakt und vorhersagbar zu halten und gleichzeitig nativ mit Array-Datenquellen zu arbeiten.
+## **Einleitung**
 
-## **Why This Feature Is Needed**
+Smart Markers in Aspose.Cells sind eine vorlagenbasierte Funktion, die Tabellendaten dynamisch mithilfe von Markerausdrücken wie `&=DataSource.Field` befüllt. Der Marker wird in einer Entwurfs-Arbeitsmappe platziert. Wenn die Vorlage durch den `WorkbookDesigner` verarbeitet wird, werden die Marker durch Werte aus der bereitgestellten Datenquelle ersetzt.
+Standardmäßig wird das Array erweitert, wenn ein Smart Marker auf eine Arrayeigenschaft verweist. Beispielsweise wird bei einem Marker wie `&=Product.Tags`, der an ein `String[]` mit vier Werten gebunden ist, jedes Element in einer eigenen Zelle abgelegt und die Werte unterhalb des Markers vertikal in der Spalte nach unten verteilt. Zwar ist dieses Verhalten in vielen Szenarien praktisch, in anderen Situationen ist es jedoch vorzuziehen, das gesamte Array in einer einzigen Zelle zu rendern, wobei die Elemente verkettet und durch ein Trennzeichen Ihrer Wahl getrennt werden.
+Die Attribute `arrayassingle` und `arraydelimiter`, die in den Klammern eines Smart Markers in der Form `name:value` geschrieben werden, decken genau diesen Anforderungsfall ab. Sie ermöglichen kompakte und vorhersagbare Berichtslayouts und arbeiten gleichzeitig nativ mit Array-Datenquellen.
 
-### **Default Array Spreading Behavior**
-Wenn ein Smart Marker auf eine Array-Eigenschaft verweist, expandiert Aspose.Cells das Array standardmäßig über mehrere Zellen. Beispielsweise platziert ein Marker wie `&=Product.Tags` bei einem `string[]` mit vier Werten jeden Wert in eine eigene Zelle, wodurch andere Vorlageninhalte nach außen gedrängt und sorgfältig gestaltete Berichtslayouts möglicherweise beschädigt werden.
+## **Warum diese Funktion erforderlich ist**
 
-### **Use Case Limitations**
-Es gibt viele praktische Szenarien, in denen das standardmäßige Spreizverhalten unerwünscht ist:
-- **Zusammenfassungsartige Berichte**, die ein kompaktes Layout mit einer Zeile pro Datensatz benötigen.
-- **Tag-, Beschriftungs- oder Stichwortlisten**, die als kommagetrennte oder pipe-getrennte Werte innerhalb einer einzelnen Zelle angezeigt werden müssen.
-- **Filter-Chips oder Statusindikatoren**, die mehrere Werte zur besseren Lesbarkeit an einem Ort gruppieren.
-- **Nachgelagerte Pipelines** (CSV-Export, PDF-Rendering, Seriendruck), die einen einzigen konsolidierten Wert pro Zelle erwarten, anstatt einen expandierten Bereich.
-- **Plattformübergreifende Kompatibilität**, bei der einige Konsumenten Arrays, die sich über mehrere Zellen erstrecken, nicht tolerieren können.
+### **Standardverhalten bei der Arrayverteilung**
 
-### **The Gap It Fills**
-Ohne einen eingebauten Mechanismus wären Entwickler gezwungen, Daten in Java vorzuverarbeiten – Arrays zu begrenzten Zeichenketten zusammenzufügen, bevor sie sie an den Workbook-Designer binden. Dies dupliziert Logik, verkompliziert Datenmodelle und erhöht die Fehleranfälligkeit. Die Attribute `ArrayAsSingle` und `ExtraDelimiter` beseitigen diesen Workaround, indem sie die Formatierung deklarativ innerhalb des Smart Markers selbst handhaben.
+Wenn ein Smart Marker auf eine Arrayeigenschaft verweist, verteilt Aspose.Cells das Array standardmäßig über mehrere Zellen. Beispielsweise wird bei einem Marker wie `&=Product.Tags` und einem `String[]` mit vier Werten jeder Wert in einer eigenen Zelle unterhalb des Markers abgelegt. Dadurch werden andere Vorlageninhalte verschoben und sorgfältig entworfene Berichtslayouts möglicherweise beeinträchtigt.
 
-## **Feature Benefits**
-Die Verwendung der Attribute `ArrayAsSingle` und `ExtraDelimiter` in Ihren Smart Markers bietet mehrere Vorteile:
-- **Einzelne Zellenkapselung**: Alle Array-Elemente werden in genau eine Zelle gerendert, wodurch die Layouts kompakt und vorhersagbar bleiben.
-- **Benutzerdefinierte Trennzeichensteuerung**: Geben Sie eine beliebige Trennzeichenfolge an – Komma, Semikolon, Bindestrich, Pipe, Zeilenumbruch oder beliebiger benutzerdefinierter Text.
-- **Vorlagengesteuerte Formatierung**: Es ist kein zusätzlicher Code erforderlich, um die Daten vorzuverarbeiten; Formatierungsregeln leben innerhalb des Smart-Marker-Tags.
-- **Sauberere Berichte**: Array-Daten drängen benachbarte Vorlageninhalte nicht mehr in andere Zeilen oder Spalten.
-- **Vielseitige Datentypen**: Funktioniert mit Zeichenketten, Zahlen, Daten und jeden anderen Datentyp, der mit einem Trennzeichen zusammengefügt werden kann.
-- **Abwärtskompatibilität**: Wenn die Attribute weggelassen werden, bleibt das ursprüngliche Spreizverhalten erhalten, sodass bestehende Vorlagen unverändert weiter funktionieren.
+### **Grenzen des Standardverhaltens**
 
-## **How to Use This Feature**
+Es gibt zahlreiche praktische Szenarien, in denen das standardmäßige Verteilungsverhalten unerwünscht ist:
+- **Zusammenfassungsberichte**, die ein kompaktes Layout mit einer Zeile pro Datensatz benötigen.
+- **Tag-, Label- oder Schlüsselwortlisten**, die in einer einzelnen Zelle als kommagetrennte oder Pipe-getrennte Werte angezeigt werden sollen.
+- **Filterchips oder Statusindikatoren**, die mehrere Values zur besseren Lesbarkeit an einer Stelle gruppieren.
+- **Nachgelagerte Verarbeitungspipelines** (CSV-Export, PDF-Rendering, Mailmerge), die pro Zelle einen einzelnen konsolidierten Wert statt eines erweiterten Bereichs erwarten.
+- **Plattformübergreifende Kompatibilität**, bei der einige Verbraucher keine Arrays tolerieren können, die sich über mehrere Zellen erstrecken.
 
-### **Smart Marker Syntax**
-Die Attribute `ArrayAsSingle` und `ExtraDelimiter` werden als Schlüssel-Wert-Paare innerhalb der Klammern eines Standard-Smart-Markers übergeben. Die allgemeine Syntax lautet:
+### **Die damit geschlossene Lücke**
+
+Ohne einen integrierten Mechanismus müssten Entwickler die Daten in Java vorverarbeiten und Arrays vor der Bindung an den Workbook Designer in durch Trennzeichen getrennte Strings zusammenführen. Dadurch wird Logik dupliziert, werden Datenmodelle komplexer und steigt die Wahrscheinlichkeit von Fehlern. Die Attribute `arrayassingle` und `arraydelimiter` beseitigen diese Umgehungslösung, indem sie die Formatierung deklativ direkt im Smart Marker übernehmen.
+
+## **Vorteile der Funktion**
+
+Die Verwendung der Attribute `arrayassingle` und `arraydelimiter` in Smart Markers bietet mehrere Vorteile:
+- **Inhalt in einer einzigen Zelle**: Alle Arrayelemente werden in genau einer Zelle gerendert, wodurch Layouts kompakt und vorhersagbar bleiben.
+- **Individuelles Trennzeichen**: Geben Sie das gewünschte Trennzeichen an – das Standardkomma, ein Semikolon, einen Bindestrich, einen senkrechten Strich oder eine Zeichenfolge aus mehreren Zeichen in Anführungszeichen, beispielsweise `" | "`.
+- **Vorlagenbasierte Formatierung**: Für die Vorverarbeitung der Daten ist kein zusätzlicher Code erforderlich; die Formatierungsregeln stehen im Smart-Marker-Tag.
+- **Übersichtlichere Berichte**: Arraydaten verschieben benachbarte Vorlageninhalte nicht mehr in andere Zeilen oder Spalten.
+- **Vielfältige Datentypen**: Die Funktion unterstützt Arrays aus Strings sowie numerische Werte aus Bean-Datenquellen, die als Strings dargestellt werden.
+- **Abwärtskompatibilität**: Wenn die Attribute weggelassen werden, bleibt das ursprüngliche Verteilungsverhalten erhalten, sodass vorhandene Vorlagen unverändert weiter funktionieren.
+
+## **Verwendung dieser Funktion**
+
+### **Smart-Marker-Syntax**
+
+Die Attribute `arrayassingle` und `arraydelimiter` verwenden innerhalb der Klammern eines standardmäßigen Smart Markers die Attributgrammatik `name:value` von Aspose.Cells. Die allgemeine Syntax lautet:
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayProperty(arrayassingle:true,arraydelimiter:;)
 ```
 
-Der Marker setzt sich aus den folgenden Teilen zusammen:
-- `&=DataSource.ArrayProperty` — der Standard-Smart-Marker, der auf die Array-Eigenschaft der gebundenen Datenquelle verweist.
-- `arrayasSingle=true` — weist die Engine an, das gesamte Array in eine einzelne Zelle zu rendern. Nur der Wert `true` löst das Einzelzellverhalten aus.
-- `extraDelimiter=", "` — definiert das Trennzeichen, das zwischen den Array-Elementen platziert wird. Der Wert ist ein Zeichenkettenliteral; er kann leer sein, ein einzelnes Zeichen oder eine mehrzeichige Zeichenkette.
+Der Marker besteht aus den folgenden Komponenten:
+- `&=DataSource.ArrayProperty` — der standardmäßige Smart Marker, der auf die Arrayeigenschaft der gebundenen Datenquelle verweist.
+- `arrayassingle:true` — weist die Engine an, das gesamte Array in einer einzigen Zelle zu rendern, anstatt die Elemente zu verteilen.
+- `arraydelimiter:;` — optional; definiert das Trennzeichen zwischen den Arrayelementen. Wenn dieser Teil weggelassen wird, wird ein Komma verwendet.
 
-{{% alert color="primary" %}}
-Das Attribut `extraDelimiter` akzeptiert jedes Zeichenkettenliteral, einschließlich mehrzeichiger Trennzeichen, benutzerdefiniertem Text oder Escape-Sequenzen wie `\n` für zeilenumbruchgetrennte Ausgabe. Wenn das Array leer ist, bleibt die resultierende Zelle leer.
+{{% alert color="warning" %}}
+Schreiben Sie die Attribute in der Form `name:value` (mit einem Doppelpunkt, nicht mit einem Gleichheitszeichen) und trennen Sie mehrere Attribute durch ein Komma **ohne Leerzeichen**. Ein Leerzeichen nach dem Komma verschiebt den geparsten Wert um ein Zeichen – `(arrayassingle:true, arraydelimiter:;)` würde mit dem fehlerhaften Trenner `:;` anstelle von `;` verbinden.
 {{% /alert %}}
 
-### **Step-by-Step Workflow**
-Der folgende Workflow beschreibt, wie Sie ein Array mit Smart Markers in eine einzelne Zelle rendern.
-1. **Bereiten Sie die Datenquelle vor**: Erstellen Sie eine Klasse (oder Datenstruktur), die eine Eigenschaft bereitstellt, die ein Array zurückgibt. Die Eigenschaft kann `String[]`, `int[]` oder jeden anderen unterstützten Array-Typ zurückgeben.
-2. **Erstellen Sie eine Designer-Arbeitsmappe**: Erstellen Sie eine neue `Workbook`, fügen Sie eine Kopfzeile hinzu und platzieren Sie eine Smart-Marker-Zelle, die auf die Array-Eigenschaft mit den Attributen `arrayasSingle` und `extraDelimiter` verweist.
-3. **Instanziieren Sie den WorkbookDesigner**: Erstellen Sie ein `WorkbookDesigner`-Objekt, hängen Sie die Designer-Arbeitsmappe daran an und binden Sie Ihre Datenquelle mit der Methode `setDataSource`.
-4. **Verarbeiten Sie die Marker**: Rufen Sie die Methode `WorkbookDesigner.process()` auf, um die Smart Markers zu expandieren und die Arbeitsmappe mit echten Daten zu befüllen.
-5. **Speichern Sie das Ergebnis**: Speichern Sie die resultierende Arbeitsmappe auf der Festplatte im XLSX- oder einem anderen unterstützten Dateiformat.
+### **Formen des Trennzeichens**
 
-### **Code Example 1 — Basic String Array Rendering**
+- Ein einzelnes Zeichen wird direkt nach dem Doppelpunkt angegeben: `arraydelimiter:;`, `arraydelimiter:-`, `arraydelimiter:*`.
+- Ein Trenner aus mehreren Zeichen wird in doppelten Anführungszeichen angegeben: `arraydelimiter:" | "`, `arraydelimiter:" - "`.
+
+### **Schritt-für-Schritt-Arbeitsablauf**
+
+Der folgende Arbeitsablauf beschreibt, wie ein Array mithilfe von Smart Markers in einer einzigen Zelle gerendert wird.
+1. **Datenquelle vorbereiten**: Erstellen Sie eine öffentliche Bean-Klasse mit einem Getter, der das Array zurückgibt, z. B. `String[] getTags()`, und binden Sie eine `java.util.List` von Beans, damit die Engine pro Zeile einen Datensatz liest. Öffentliche Felder allein werden nicht gebunden – die Engine liest JavaBean-Getter.
+2. **Entwurfs-Arbeitsmappe erstellen**: Erstellen Sie eine neue `Workbook`, fügen Sie eine Kopfzeile hinzu und platzieren Sie eine Smart-Marker-Zelle, die mit dem Attribut `arrayassingle` auf die Arrayeigenschaft verweist (und bei Bedarf `arraydelimiter` enthält).
+3. **WorkbookDesigner instanziieren**: Erstellen Sie einen `WorkbookDesigner` für die Arbeitsmappe und binden Sie Ihre Liste mit `setDataSource`.
+4. **Marker verarbeiten**: Rufen Sie die Methode `WorkbookDesigner.process()` auf, um die Smart Marker zu erweitern und die Arbeitsmappe mit realen Daten zu befüllen.
+5. **Ergebnis speichern**: Speichern Sie die resultierende Arbeitsmappe im XLSX-Format oder in einem anderen unterstützten Dateiformat auf dem Datenträger.
+
+### **Codebeispiel 1 – Grundlegendes Rendering eines `String`-Arrays**
 
 ```java
 import com.aspose.cells.*;
-class Product {
-    public String[] Tags;
-}
+import java.util.*;
+
 public class CodeRunner {
+    // The bean must be public and expose a getter; public fields bind nothing
+    public static class Product {
+        private String[] tags;
+        public String[] getTags() { return tags; }
+        public void setTags(String[] tags) { this.tags = tags; }
+    }
+
     public static void main(String[] args) throws Exception {
         Product product = new Product();
-        product.Tags = new String[] { "C#", "Aspose", "SmartMarker", "Excel" };
+        product.setTags(new String[] { "C#", "Aspose", "SmartMarker", "Excel" });
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);
         worksheet.getCells().get("A1").putValue("Tags");
-        worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")");
-        WorkbookDesigner designer = new WorkbookDesigner();
-        designer.setWorkbook(workbook);
-        designer.setDataSource("Product", product);
+        // No spaces inside the parentheses: attributes are name:value pairs
+        worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.setDataSource("Product", Arrays.asList(product));
         designer.process();
-        workbook.save("output_arraySingle.xlsx");
+        System.out.println(worksheet.getCells().get("A2").getStringValue());
+        workbook.save("output-array-single.xlsx");
     }
 }
 ```
 
-### **Code Example 2 — Numeric Array with Custom Delimiter**
+Das Beispiel gibt den durch Zusammenführung gebildeten Wert des gesamten Arrays aus. Die vier Schlagwörter werden in einer Zelle durch das Standardkomma getrennt dargestellt:
+
+```
+C#,Aspose,SmartMarker,Excel
+```
+
+### **Codebeispiel 2 – Zahlenwerte mit einem benutzerdefinierten Trennzeichen**
 
 ```java
 import com.aspose.cells.*;
-class Student
-{
-    public int[] Scores;
-}
-public class CodeRunner
-{
-    public static void main(String[] args) throws Exception
-    {
+import java.util.*;
+
+public class CodeRunner {
+    public static class Student {
+        private String[] scores;
+        public String[] getScores() { return scores; }
+        public void setScores(String[] scores) { this.scores = scores; }
+    }
+
+    public static void main(String[] args) throws Exception {
         Student student = new Student();
-        student.Scores = new int[] { 95, 88, 76, 100, 67 };
+        student.setScores(new String[] { "95", "88", "76", "100", "67" });
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);
         worksheet.getCells().get("A1").putValue("Scores");
-        StringBuilder joined = new StringBuilder();
-        for (int i = 0; i < student.Scores.length; i++)
-        {
-            if (i > 0) joined.append(" - ");
-            joined.append(student.Scores[i]);
-        }
-        worksheet.getCells().get("A2").putValue(joined.toString());
-        workbook.save("output_numericArray.xlsx");
+        // arraydelimiter:- joins the values with a hyphen
+        worksheet.getCells().get("A2").putValue("&=Student.Scores(arrayassingle:true,arraydelimiter:-)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.setDataSource("Student", Arrays.asList(student));
+        designer.process();
+        System.out.println(worksheet.getCells().get("A2").getStringValue());
+        workbook.save("output-array-numeric.xlsx");
     }
 }
 ```
 
-### **Code Example 3 — Comparing Default vs. ArrayAsSingle Behavior**
+Numerische Werte werden genauso zusammengeführt wie Strings, wenn die Arrayeigenschaft `String[]` zurückgibt:
+
+```
+95-88-76-100-67
+```
+
+{{% alert color="note" %}}
+Verwenden Sie die Arrayeigenschaft in Java weiterhin als `String[]`. Eine primitive `int[]`-Eigenschaft, die in einer einzigen Zelle zusammengeführt wird, rendert den `toString`-Text des Arrayobjekts (zum Beispiel `[I@1a2b3c4d`) anstelle der Zahlen, da die Zusammenführung auf der String-Form jedes Elements beruht und ein primitives Array ein undurchsichtiges Einzelelement ist.
+{{% /alert %}}
+
+### **Codebeispiel 3 – Vergleich des Standard-Renderings mit dem Rendering in einer einzigen Zelle**
 
 ```java
-class Order
-{
-    private String[] items;
-    public String[] getItems()
-    {
-        return items;
+import com.aspose.cells.*;
+import java.util.*;
+
+public class CodeRunner {
+    public static class Order {
+        private String[] items;
+        public String[] getItems() { return items; }
+        public void setItems(String[] items) { this.items = items; }
     }
-    public void setItems(String[] items)
-    {
-        this.items = items;
+
+    public static void main(String[] args) throws Exception {
+        Order order = new Order();
+        order.setItems(new String[] { "Apple", "Banana", "Cherry", "Date" });
+        Workbook workbook = new Workbook();
+        Cells cells = workbook.getWorksheets().get(0).getCells();
+        // Column B: default marker — values spread vertically down the column
+        cells.get("B1").putValue("Default");
+        cells.get("B2").putValue("&=Order.Items");
+        // Column C: single-cell rendering — the whole array joins into one cell
+        cells.get("C1").putValue("Single cell");
+        cells.get("C2").putValue("&=Order.Items(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.setDataSource("Order", Arrays.asList(order));
+        designer.process();
+        for (int row = 1; row <= 5; row++) {
+            String b = cells.get(row, 1).getStringValue();
+            String c = cells.get(row, 2).getStringValue();
+            if (b != null && !b.isEmpty() || c != null && !c.isEmpty())
+                System.out.println("B" + (row + 1) + "=[" + b + "]  C" + (row + 1) + "=[" + c + "]");
+        }
+        workbook.save("output-array-comparison.xlsx");
     }
 }
 ```
 
-### **Notes & Best Practices**
-Beachten Sie die folgenden Punkte, wenn Sie mit den Attributen `ArrayAsSingle` und `ExtraDelimiter` arbeiten:
-- Der Wert `extraDelimiter` wird als Zeichenkettenliteral behandelt; maskieren Sie alle Sonderzeichen, die Ihr Vorlagenprozessor interpretieren könnte.
-- Das Attribut `arrayasSingle` akzeptiert einen booleschen Wert (`true` / `false`). Nur `true` löst das Einzelzellverhalten aus; jeder andere Wert fällt auf das standardmäßige Spreizverhalten zurück.
-- Wenn das Array leer oder null ist, bleibt die Zelle leer (oder enthält je nach Datentyp eine leere Zeichenkette).
-- Die Funktion funktioniert mit Objekt-Datenquellen sowie mit `DataSet`- und `DataTable`-Quellen, bei denen eine Spalte in Arrays aufgeteilt werden kann.
-- Für zeilenumbruchgetrennte Ausgabe können Sie `\n` oder `System.lineSeparator()` als Trennzeichenwert verwenden.
-- Platzieren Sie den Smart Marker in einer Zelle, die ausreichend breit ist, um die resultierende verkettete Zeichenkette anzuzeigen; andernfalls kann der Inhalt je nach Format visuell in benachbarte Zellen überlaufen.
+Der Standardmarker füllt in Spalte B nach unten eine Zelle pro Element, während der `arrayassingle`-Marker dasselbe Array in einer einzigen Zelle in Spalte C zusammenfasst:
 
-## Related Articles
-- [Filter-Felder zu einer Pivot-Tabelle in Aspose.Cells for Java hinzufügen](/cells/de/java/add-page-field-in-pivot-table/)
-- [Stile auf Pivot-Tabellen in Aspose.Cells for Java anwenden](/cells/de/java/apply-style-to-pivot-table/)
-- [Seitenfeldlayout in der Pivot-Tabelle ändern](/cells/de/java/change-page-field-layout/)
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
+```
+
+### **Hinweise und bewährte Vorgehensweisen**
+
+Beachten Sie beim Arbeiten mit den Attributen `arrayassingle` und `arraydelimiter` die folgenden Punkte:
+- Attributwerte verwenden die Form `name:value`. Eine Form mit Gleichheitszeichen, z. B. `arrayassingle=true`, wird nicht erkannt und fällt stillschweigend auf das standardmäßige Verteilungsverhalten zurück.
+- Trennen Sie Attribute durch ein Komma ohne Leerzeichen; ein Leerzeichen nach dem Komma verschiebt den Trennerwert um ein Zeichen (siehe die Warnung oben).
+- Der Wert von `arraydelimiter` kann ein einzelnes Zeichen sein, das direkt nach dem Doppelpunkt steht, oder eine Zeichenfolge aus mehreren Zeichen in doppelten Anführungszeichen.
+- Wenn `arraydelimiter` weggelassen wird, werden die Elemente durch ein Komma verbunden.
+- Binden Sie eine `java.util.List` öffentlicher JavaBeans mit Array-Gettern. Ein einzelnes Bean-Objekt oder öffentliche Felder allein lassen die Marker nicht aufgelöst.
+- Behalten Sie Arrayeigenschaften als `String[]` bei; bei einem primitiven `int[]` wird beim Zusammenführen dessen `toString`-Text gerendert (siehe den Hinweis oben).
+- Platzieren Sie den Smart Marker in einer Zelle, die breit genug ist, um den resultierenden verketteten String anzuzeigen; andernfalls kann der Inhalt je nach Format visuell in benachbarte Zellen überlaufen.
+
+## **Verwandte Artikel**
+- [Filterfelder zu einer Pivot-Tabelle in Aspose.Cells for Java hinzufügen](/cells/de/java/add-page-field-in-pivot-table/)
+- [Anwenden von Stilen auf Pivot-Tabellen in Aspose.Cells for Java](/cells/de/java/apply-style-to-pivot-table/)
+- [Ändern des Seitenfeldlayouts in einer Pivot-Tabelle](/cells/de/java/change-page-field-layout/)
 - [Sparkline in Bild und HTML in Aspose.Cells for Java konvertieren](/cells/de/java/convert-sparkline-to-image-and-html/)
-- [Excel in das OFD-Format konvertieren](/cells/de/java/converting-excel-to-ofd-format/)
+- [Konvertieren von Excel in das OFD-Format](/cells/de/java/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="java" >}}

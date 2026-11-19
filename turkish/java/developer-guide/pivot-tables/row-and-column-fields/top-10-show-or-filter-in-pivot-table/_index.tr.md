@@ -1,6 +1,6 @@
 ---
 title: Özet tabloda ilk 10'u gösterme veya filtreleme
-linktitle: Özet tabloda ilk 10'u gösterme veya filtreleme
+linktitle: İlk 10 Öğeyi Göster veya Filtrele
 description: Aspose.Cells for Java ile bir özet alanında yalnızca sıralamada en üstteki veya en alttaki öğeleri nasıl göstereceğinizi öğrenin. Bu makale; Excel 97-2003 Top10AutoShow yöntemini, Top10AutoShowSettings ile seçeneklerin okunmasını ve FilterTop10 aracılığıyla Excel 2007-365 İlk 10 Filtresini ele alır.
 keywords: Aspose.Cells, Java, özet tablo, ilk 10, otomatik gösterim, top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, filterTop10, PivotFilterType, PivotField
 type: docs
@@ -50,7 +50,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// "Satışların Toplamı" değerine göre sıralanan ilk 2 öğeyi göster (veri alanı dizini 0)
+// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sportField.top10AutoShow(true, true, 2, 0);
 pivotTable.calculateData();
 workbook.save("output-top10-by-value-field.xlsx");
@@ -83,7 +83,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// Alanın kendisi kullanılarak sıralanan en alt 3 öğeyi göster (rankBy = -1)
+// Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sportField.top10AutoShow(true, false, 3, -1);
 pivotTable.calculateData();
 workbook.save("output-top10-by-field-itself.xlsx");
@@ -144,9 +144,9 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// İlk 10 Filtresi - "Satışların Toplamı" ölçütüne göre ilk 2 öğeyi tut (veri alanı indeksi 0)
+// Top 10 Filter - keep the top 2 items by "Sum of Sales" (data field index 0)
 sportField.filterTop10(0, PivotFilterType.COUNT, true, 2);
-// Bunun yerine yüzde tabanlı bir filtre kullanarak öğelerin ilk yüzde 30'unu tut:
+// For a percentage-based filter instead, keep the top 30 percent of the items:
 // sportField.filterTop10(0, PivotFilterType.PERCENT, true, 30);
 pivotTable.getPivotCache().refresh();
 pivotTable.calculateData();

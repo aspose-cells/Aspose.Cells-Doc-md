@@ -77,22 +77,22 @@ Proteger la estructura del libro impide que otros usuarios vean hojas de cálcul
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Crear un nuevo libro
+    // Create a new workbook
     Workbook workbook;
-    // Agregar una segunda hoja de cálculo
+    // Add a second worksheet
     workbook.GetWorksheets().Add();
-    // Escribir un valor de muestra en la celda A1 de la primera hoja de cálculo
+    // Write a sample value to cell A1 of the first worksheet
     workbook.GetWorksheets().Get(0).GetCells().Get(0, 0).PutValue(u"Sample Data");
-    // Proteger la estructura del libro
+    // Protect the workbook structure
     workbook.Protect(ProtectionType::Structure, u"StructPwd");
-    // Guardar el libro como structure_protected.xlsx
+    // Save the workbook as structure_protected.xlsx
     U16String filePath = u"structure_protected.xlsx";
     workbook.Save(filePath);
-    // Recargar el archivo en una nueva instancia del libro
+    // Reload the file into a new Workbook instance
     Workbook loadedWorkbook(filePath);
-    // Eliminar la protección de la estructura
+    // Remove the structure protection
     loadedWorkbook.Unprotect(u"StructPwd");
-    // Imprimir mensaje de confirmación
+    // Print confirmation message
     std::cout << "Structure protection has been successfully removed from the workbook." << std::endl;
     Aspose::Cells::Cleanup();
     return 0;

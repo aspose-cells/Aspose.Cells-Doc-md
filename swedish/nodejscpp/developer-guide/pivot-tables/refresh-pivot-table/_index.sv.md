@@ -1,6 +1,6 @@
 ---
 title: Uppdatera pivottabeller och pivottillgångar i Aspose.Cells för Node.js via C++
-linktitle: Uppdatera pivottabeller och pivottillgångar i Aspose.Cells för Node.js via C++
+linktitle: Uppdatera pivottabeller
 description: Lär dig hur du uppdaterar pivottabeller i Aspose.Cells för Node.js via C++ med v26.7+ för pivottabeller, Den här artikeln täcker refreshAll, refreshPivotTables, PivotCache.refresh, calculateData och getPivotTables med praktiska kodexempel.
 keywords: Aspose.Cells, Node.js via C++, pivottabell, uppdatera, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

@@ -159,16 +159,16 @@ Aspose.Cells には、セルに紐づく画像のためのよりシンプルな�
             }
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // 対象のセル C6 を取得
+            // Get the target cell C6
             const cell = worksheet.cells.get("C6");
-            // 画像ファイルをバイト配列に読み込む
+            // Read the image file into a byte array
             const imageData = new Uint8Array(await fileInput.files[0].arrayBuffer());
-            // 画像をセルに直接埋め込む
+            // Embed the image directly into the cell
             cell.embeddedImage = imageData;
-            // 埋め込んだ画像が見えやすくなるように、行の高さと列の幅をオプションで調整する
-            worksheet.cells.setColumnWidth(2, 30); // 列 C（インデックス 2）
-            worksheet.cells.setRowHeight(5, 100); // 行 6（インデックス 5）
-            // 結果のワークブックを .xlsx ファイルとして保存する
+            // Optionally adjust row height and column width so the embedded image is more visible
+            worksheet.cells.setColumnWidth(2, 30); // Column C (index 2)
+            worksheet.cells.setRowHeight(5, 100); // Row 6 (index 5)
+            // Save the resulting workbook as an .xlsx file
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             downloadLink.href = URL.createObjectURL(blob);

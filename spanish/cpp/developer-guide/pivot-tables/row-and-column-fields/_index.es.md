@@ -1,6 +1,6 @@
 ---
 title: Agregar campos de fila y columna a tablas dinámicas en Aspose.Cells for C++
-linktitle: Agregar campos de fila y columna a tablas dinámicas en Aspose.Cells for C++
+linktitle: Campos de fila y columna
 description: Aprenda cómo agregar campos base a las regiones de fila y columna de una tabla dinámica y controlar los subtotales de los campos dinámicos usando PivotField.SetSubtotals en Aspose.Cells for C++.
 keywords: Aspose.Cells, C++, tabla dinámica, campo de fila, campo de columna, PivotField, SetSubtotals, PivotFieldSubtotalType, subtotales
 type: docs

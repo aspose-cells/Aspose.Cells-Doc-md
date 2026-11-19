@@ -64,7 +64,7 @@ import com.aspose.cells.Worksheet;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Cámara Estática: construir Rango, renderizar a bytes, envolver en ByteArrayInputStream, agregar como imagen
+// Static Camera: build Range, render to bytes, wrap in ByteArrayInputStream, add as picture
 Range range = worksheet.getCells().createRange("A1:F10");
 PictureCollection pictures = worksheet.getPictures();
 pictures.add(10, 6, new ByteArrayInputStream(range.toImage(null)));

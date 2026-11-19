@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via .NET 中的迷你图
-linktitle: Aspose.Cells for Python via .NET 中的迷你图
+linktitle: 迷你图
 description: Aspose.Cells 是一个用于处理电子表格文件的 Python 库，支持创建迷你图——放置在工作表单元格内的微型图表。本文介绍如何使用 Aspose.Cells 库添加和自定义折线、柱形和涨/跌迷你图。
 keywords: Aspose.Cells, Python 库, 电子表格, 迷你图, 折线迷你图, 柱形迷你图, 涨/跌迷你图, SparklineGroup, SparklineType
 type: docs
@@ -42,26 +42,26 @@ Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是适合�
 ```python
 import aspose.cells as ac
 from aspose.cells.charts import SparklineType
-# 步骤 1：创建一个 Workbook 并获取第一个工作表
+# Step 1: Create a Workbook and get the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# 步骤 2：将示例值写入 A1:E1
+# Step 2: Write sample values into A1:E1
 values = [5, -3, 8, -2, 6]
 for i in range(len(values)):
     worksheet.cells.get(0, i).put_value(values[i])
-# 步骤 3：构建一个指向 F1（列索引 5，行索引 0）的 CellArea
+# Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 dest = ac.CellArea()
 dest.start_column = 5
 dest.end_column = 5
 dest.start_row = 0
 dest.end_row = 0
-# 步骤 4：向目标单元格添加一个 Column 迷你图
+# Step 4: Add a Column sparkline to the destination cell
 idx = worksheet.sparkline_groups.add(
     SparklineType.COLUMN, "A1:E1", False, dest)
 group = worksheet.sparkline_groups[idx]
-# 步骤 5：通过读取 group.Type 来确认迷你图类型
+# Step 5: Confirm the sparkline type by reading group.Type
 print("Sparkline Type added: " + str(group.type))
-# 步骤 6：保存工作簿
+# Step 6: Save the workbook
 workbook.save("output_column.xlsx")
 print("Workbook saved as output_column.xlsx")
 ```
@@ -83,16 +83,16 @@ print("Workbook saved as output_column.xlsx")
 import aspose.cells as ac
 from aspose.cells.charts import SparklineType
 from aspose.pydrawing import Color
-# 步骤 1: 创建工作簿并获取第一个工作表
+# Step 1: Create a Workbook and get the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# 步骤 2: 在第 1 行 (A1:E1) 填充示例数据
+# Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.cells.get("A1").put_value(5)
 worksheet.cells.get("B1").put_value(-3)
 worksheet.cells.get("C1").put_value(8)
 worksheet.cells.get("D1").put_value(-2)
 worksheet.cells.get("E1").put_value(6)
-# 步骤 3: 在 F1 添加折线迷你图组
+# Step 3: Add a Line sparkline group at F1
 line_area = ac.CellArea()
 line_area.start_column = 5
 line_area.end_column = 5
@@ -100,11 +100,11 @@ line_area.start_row = 0
 line_area.end_row = 0
 line_idx = worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, line_area)
 line_group = worksheet.sparkline_groups[line_idx]
-# 通过 CellsColor 自定义折线迷你图颜色
+# Customize the line sparkline color via CellsColor
 line_color = workbook.create_cells_color()
 line_color.color = Color.blue
 line_group.series_color = line_color
-# 步骤 4: 在 F2 添加柱形迷你图组
+# Step 4: Add a Column sparkline group at F2
 column_area = ac.CellArea()
 column_area.start_column = 5
 column_area.end_column = 5
@@ -112,11 +112,11 @@ column_area.start_row = 1
 column_area.end_row = 1
 column_idx = worksheet.sparkline_groups.add(SparklineType.COLUMN, "A1:E1", False, column_area)
 column_group = worksheet.sparkline_groups[column_idx]
-# 自定义柱形迷你图系列颜色
+# Customize the column sparkline series color
 column_color = workbook.create_cells_color()
 column_color.color = Color.green
 column_group.series_color = column_color
-# 步骤 5: 在 F3 添加涨/跌（堆叠）迷你图组
+# Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 stacked_area = ac.CellArea()
 stacked_area.start_column = 5
 stacked_area.end_column = 5
@@ -124,11 +124,11 @@ stacked_area.start_row = 2
 stacked_area.end_row = 2
 stacked_idx = worksheet.sparkline_groups.add(SparklineType.STACKED, "A1:E1", False, stacked_area)
 stacked_group = worksheet.sparkline_groups[stacked_idx]
-# 自定义涨/跌迷你图系列颜色
+# Customize the win/loss sparkline series color
 stacked_color = workbook.create_cells_color()
 stacked_color.color = Color.dark_orange
 stacked_group.series_color = stacked_color
-# 步骤 6: 保存工作簿
+# Step 6: Save the workbook
 workbook.save("output_all.xlsx")
 ```
 

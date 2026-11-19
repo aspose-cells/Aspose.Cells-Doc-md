@@ -1,6 +1,6 @@
 ---
 title: Cámara de Excel en Aspose.Cells for Node.js via Java
-linktitle: Cámara de Excel en Aspose.Cells for Node.js via Java
+linktitle: Cámara de Excel
 description: Aprenda a usar la Cámara de Excel en Aspose.Cells for Node.js via Java para crear una imagen dinámica vinculada a un rango de celdas que se actualiza con los datos de origen y conserva todo el formato del origen.
 keywords: Aspose.Cells, Aspose.Cells for Node.js via Java, Cámara de Excel, imagen dinámica, imagen vinculada, Picture.Formula, UpdateSelectedValue, CreateRange, ToImage, Buffer
 type: docs
@@ -33,7 +33,7 @@ const aspose = require("aspose.cells");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Cámara Dinámica: agregar una imagen vacía, vincularla mediante Fórmula a A1:F10, luego actualizar
+// Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 let pictures = worksheet.getPictures();
 let index = pictures.add(10, 6, null);
 pictures.get(index).setFormula("A1:F10");
@@ -55,7 +55,7 @@ const aspose = require("aspose.cells");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Cámara Estática: construir Range, renderizar a bytes, envolver en ByteArrayInputStream, agregar como imagen
+// Static Camera: build Range, render to bytes, wrap in ByteArrayInputStream, add as picture
 let range = worksheet.getCells().createRange("A1:F10");
 let imageBytes = range.toImage(null);
 let pictures = worksheet.getPictures();

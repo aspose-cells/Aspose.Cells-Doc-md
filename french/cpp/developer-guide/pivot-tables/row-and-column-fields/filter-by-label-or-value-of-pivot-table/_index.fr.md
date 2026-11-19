@@ -1,8 +1,8 @@
 ---
-title: Filtrage des tableaux croisés dynamiques par étiquette ou valeur
-description: Aspose.Cells for C++ offre des capacités complètes de filtrage des tableaux croisés dynamiques. Cet article explique comment filtrer les données d'un tableau croisé dynamique à l'aide de filtres d'étiquettes, de filtres de dates, de filtres de valeurs, de filtres des 10 premiers, et en masquant ou affichant des éléments dynamiques.
-linktitle: Filtrage des tableaux croisés dynamiques par étiquette ou valeur
-keywords: Aspose.Cells, bibliothèque C++, tableur, tableau croisé dynamique, filtre, filtre d'étiquette, filtre de valeur, filtre de date, filtre des 10 premiers, élément dynamique, masquer élément dynamique
+title: Filtrage des tableaux croisés dynamiques par libellé ou par valeur
+linktitle: Filtrage des tableaux croisés dynamiques par libellé ou par valeur
+description: Aspose.Cells for C++ prend en charge des fonctionnalités complètes de filtrage des tableaux croisés dynamiques. Cet article explique comment filtrer les données d’un tableau croisé dynamique à l’aide de filtres par libellé, de filtres par date, de filtres par valeur et de filtres Top 10, ainsi que comment masquer ou réafficher des éléments de tableau croisé dynamique.
+keywords: Aspose.Cells, bibliothèque C++, tableur, tableau croisé dynamique, filtre, filtre par libellé, filtre par valeur, filtre par date, filtre Top 10, élément de tableau croisé dynamique, masquage d’un élément de tableau croisé dynamique
 type: docs
 weight: 10
 url: /fr/cpp/filter-by-label-or-value-of-pivot-table/
@@ -11,23 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells propose cinq stratégies pratiques pour filtrer les données affichées dans un tableau croisé dynamique. Vous pouvez appliquer des filtres d'étiquettes aux champs de ligne ou de colonne textuels, utiliser des filtres de dates lorsque le champ ne contient que des cellules de type date-heure ou des cellules vides, appliquer des filtres de valeurs sur les nombres agrégés, utiliser des filtres des 10 premiers pour classer selon un champ de valeur, ou encore masquer et afficher manuellement des éléments dynamiques individuels à l'aide de la propriété `IsHidden`. Chaque stratégie est exposée via des API dédiées sur les classes `PivotField` et `PivotItem`.
+Aspose.Cells propose cinq stratégies pratiques de filtrage des données affichées dans un tableau croisé dynamique. Vous pouvez appliquer des filtres par libellé aux champs de ligne ou de colonne contenant du texte, utiliser des filtres par date lorsque le champ contient uniquement des cellules contenant des dates et des heures ou des cellules vides, appliquer des filtres par valeur aux valeurs numériques agrégées, utiliser des filtres Top 10 pour classer les éléments selon un champ de valeur, ou masquer et réafficher manuellement des éléments individuels du tableau croisé dynamique à l’aide de la propriété `IsHidden`. Chaque stratégie est accessible par des API dédiées sur les classes `PivotField` et `PivotItem`.
 {{% /alert %}}
 
 ## **Introduction**
-Les tableaux croisés dynamiques sont des outils d'analyse puissants, mais les résumés bruts contiennent souvent bien plus d'informations que ce dont vous avez besoin pour une présentation. Le filtrage est le principal mécanisme permettant de restreindre un tableau croisé dynamique aux lignes, colonnes ou valeurs pertinentes pour un rapport spécifique. Aspose.Cells for C++ reproduit les capacités de filtrage disponibles dans Microsoft Excel, en les exposant par programmation afin que la génération de rapports puisse être entièrement automatisée.
-Les stratégies de filtrage suivantes sont traitées dans cet article :
-1. **Filtre d'étiquette** — filtre les éléments des champs de ligne ou de colonne en fonction de leurs étiquettes textuelles.
-2. **Filtre de date** — filtre les champs de ligne ou de colonne qui ne contiennent que des valeurs de type date-heure (ou des cellules vides).
-3. **Filtre de valeur** — filtre les éléments en fonction des valeurs agrégées d'un champ de données.
-4. **Filtre des 10 premiers** — affiche uniquement les N éléments supérieurs ou inférieurs classés selon un champ de valeur.
-5. **Masquer / afficher des éléments dynamiques** — contrôle manuellement la visibilité de chaque élément individuel d'un champ.
-Chaque approche utilise une méthode différente de la classe `PivotField` ou une propriété de la classe `PivotItem`. Après avoir appliqué un filtre, vous devez appeler `RefreshData()` et `CalculateData()` sur le tableau croisé dynamique afin que les données mises en cache et les valeurs calculées reflètent le nouvel état du filtre.
+Les tableaux croisés dynamiques sont de puissants outils d’analyse, mais les synthèses brutes contiennent souvent davantage d’informations que nécessaire pour un rapport donné. Le filtrage constitue le principal mécanisme permettant de restreindre un tableau croisé dynamique aux lignes, aux colonnes ou aux valeurs utiles à un rapport donné. Aspose.Cells for C++ reprend les fonctionnalités de filtrage disponibles dans Microsoft Excel et les expose de manière programmatique, ce qui permet d’automatiser entièrement la génération des rapports.
+Les stratégies de filtrage suivantes sont abordées dans cet article :
+1. **Filtre par libellé** — filtre les éléments d’un champ de ligne ou de colonne en fonction de leurs libellés textuels.
+2. **Filtre par date** — filtre les champs de ligne ou de colonne qui ne contiennent que des valeurs de date et d’heure (ou des cellules vides).
+3. **Filtre par valeur** — filtre les éléments en fonction des valeurs agrégées d’un champ de données.
+4. **Filtre Top 10** — affiche uniquement les N éléments en tête ou en fin de classement selon un champ de valeur.
+5. **Masquage / réaffichage d’éléments de tableau croisé dynamique** — contrôle manuellement la visibilité de chaque élément individuel d’un champ.
+Chaque approche recourt à une méthode différente définie sur la classe `PivotField` ou à une propriété de la classe `PivotItem`. Après avoir appliqué un filtre, vous devez appeler `GetPivotCache().Refresh()` sur le tableau croisé dynamique afin que les données en cache et les valeurs calculées reflètent le nouvel état du filtre.
 
-## **Filtre d'étiquette**
-Un filtre d'étiquette vous permet de filtrer les éléments d'un champ de ligne ou de colonne en comparant leurs libellés textuels à un motif. Cela est utile lorsque vous souhaitez afficher uniquement les produits dont les noms commencent par une lettre spécifique, contiennent un mot particulier, ou correspondent à un autre critère basé sur le libellé.
-Aspose.Cells expose le filtrage par étiquettes via la méthode `PivotField.FilterByLabel(PivotFilterType, const char16_t*)`. L'énumération `PivotFilterType` comprend des valeurs telles que `CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank`, `CaptionIsBlank`, etc. Le second argument fournit la chaîne d'étiquette utilisée pour la comparaison.
-L'exemple suivant charge un classeur contenant un tableau croisé dynamique existant, applique un filtre d'étiquette afin que seuls les éléments dont les libellés commencent par un préfixe spécifié restent visibles, actualise le tableau croisé dynamique et enregistre le résultat.
+## **Filtre par libellé**
+Un filtre par libellé permet de filtrer les éléments d’un champ de ligne ou de colonne en comparant leurs libellés textuels à un motif. Cette fonctionnalité est utile lorsque vous souhaitez afficher uniquement les produits dont les noms commencent par une lettre donnée, contiennent un mot particulier ou respectent un autre critère fondé sur les libellés.
+Aspose.Cells expose le filtrage par libellé au moyen de la méthode `PivotField.FilterByLabel(PivotFilterType, const char16_t*)`. L’énumération `PivotFilterType` comprend des valeurs telles que `CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank` et `CaptionIsBlank`, ainsi que d’autres valeurs. Le second argument fournit la chaîne de libellé à comparer.
+L’exemple ci-dessous charge un classeur contenant un tableau croisé dynamique déjà présent, applique un filtre par libellé de sorte que seuls les éléments dont les libellés commencent par le préfixe spécifié restent visibles, actualise le tableau croisé dynamique et enregistre le résultat.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -48,7 +48,7 @@ int main() {
     // Apply the label filter — show only row items whose labels begin with the supplied prefix
     rowField.FilterByLabel(PivotFilterType::CaptionBeginsWith, prefix, U16String(u""));
     // Refresh and recalculate the pivot table data so the filter takes effect
-    pt.RefreshData();
+    pt.GetPivotCache().Refresh();
     // Save the workbook back to disk
     wb.Save(fileName);
     Aspose::Cells::Cleanup();
@@ -56,13 +56,13 @@ int main() {
 }
 ```
 
-## **Filtre de date**
-Les filtres de date vous permettent de restreindre un tableau croisé dynamique selon des critères basés sur les dates, tels qu'aujourd'hui, la semaine dernière, ce mois-ci, le trimestre prochain, ou une plage de dates spécifique. Ce sont des filtres spécialisés qui fonctionnent uniquement sur les champs stockant des informations de type date-heure.
+## **Filtre par date**
+Les filtres par date permettent de filtrer un tableau croisé dynamique selon des critères fondés sur les dates, tels qu’aujourd’hui, la semaine dernière, ce mois-ci, le prochain trimestre ou une plage de dates spécifique. Ce sont des filtres spécialisés qui ne s’appliquent qu’aux champs stockant des informations de date et d’heure.
 
 {{% alert color="primary" %}}
-Le filtre de date ne fonctionne que lorsque la zone de ligne ou de colonne contient uniquement des cellules de type date-heure ou des cellules vides. Si le champ sous-jacent contient d'autres types de données tels que des nombres ou du texte, le filtre de date ne produira pas le résultat attendu. Assurez-vous que le champ est formaté en tant que date et que toutes les valeurs sont des instances valides de `DateTime` ou des cellules vides avant d'appliquer ce filtre.
-Aspose.Cells expose le filtrage par date via la méthode `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)`. L'énumération `PivotFilterType` contient des valeurs de date dédiées telles que `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear`, et `Between`. Selon le type de filtre choisi, vous transmettez une ou deux valeurs `DateTime` (pour `Between`, vous transmettez les dates de début et de fin).
-L'exemple suivant charge un classeur contenant un tableau croisé dynamique dont la zone de ligne contient un champ de date, applique un filtre de date qui restreint les éléments visibles à une plage de dates particulière, actualise le tableau croisé dynamique et enregistre le classeur.
+Le filtre par date ne fonctionne que si la zone des lignes ou des colonnes contient uniquement des cellules contenant des dates et des heures ou des valeurs vides. Si le champ sous-jacent contient d’autres types de données, tels que des nombres ou du texte, le filtre par date ne produira pas le résultat attendu. Vérifiez que le champ est mis en forme comme une date et que toutes les valeurs sont des instances `DateTime` valides ou des cellules vides avant d’appliquer ce filtre.
+Aspose.Cells expose le filtrage par date au moyen de la méthode `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)`. L’énumération `PivotFilterType` contient des valeurs spécifiques aux dates telles que `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` et `Between`. Selon le type de filtre sélectionné, vous transmettez une ou deux valeurs `DateTime` (pour `Between`, vous transmettez la date de début et la date de fin).
+L’exemple ci-dessous charge un classeur dont la zone des lignes du tableau croisé dynamique contient un champ de date, applique un filtre par date qui limite les éléments visibles à une plage de dates particulière, actualise le tableau croisé dynamique et enregistre le classeur.
 {{% /alert %}}
 
 ```cpp
@@ -77,35 +77,36 @@ int main() {
     std::string outputPath = "output_filtered.xlsx";
     if (!std::filesystem::exists(inputPath))
     {
-        // Classeur source introuvable.
+        // Source workbook not found.
         Aspose::Cells::Cleanup();
         return -1;
     }
-    // Charger le classeur existant qui contient le tableau croisé dynamique
+    // Load the existing workbook that contains the pivot table
     Workbook workbook(U16String(inputPath.c_str()));
-    // Accéder à la feuille de calcul qui contient le tableau croisé dynamique (par index)
+    // Access the worksheet that holds the pivot table (by index)
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // Accéder au tableau croisé dynamique par index
+    // Access the pivot table by index
     PivotTable pivotTable = worksheet.GetPivotTables().Get(0);
-    // Récupérer le PivotField de date depuis la zone des lignes
+    // Retrieve the date PivotField from the row area
     PivotField dateField = pivotTable.GetRowFields().Get(0);
-    // Définir le critère de date pour le filtre Entre
+    // Define the date criterion for the Between filter
     Date startDate{2020, 1, 1, 0, 0, 0, 0};
     Date endDate{2020, 12, 31, 0, 0, 0, 0};
-    // Appliquer le filtre de date sur le champ pivot
+    // Apply the date filter on the pivot field
     dateField.FilterByDate(PivotFilterType::DateBetween, startDate, endDate);
-    // Actualiser et recalculer le tableau croisé dynamique pour que le filtre prenne effet
-    // Enregistrer le classeur
+    // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
+    // Persist the workbook
     workbook.Save(U16String(outputPath.c_str()));
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-## **Filtre de valeur**
-Les filtres de valeur opèrent sur les valeurs agrégées qu'un tableau croisé dynamique calcule dans sa zone de données. Au lieu de faire correspondre des étiquettes textuelles, ils comparent les totaux numériques à un seuil. Les cas d'utilisation typiques incluent l'affichage uniquement des produits dont la somme des ventes dépasse un montant cible, ou uniquement des régions dont le nombre de transactions se situe dans une plage donnée.
-Aspose.Cells expose le filtrage par valeur via la méthode `PivotField.FilterByValue(PivotField valueField, PivotFilterType filterType, const Vector<Variant>& values)`. Le paramètre `filterType` utilise des valeurs telles que `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual`, et `ValueLessThanOrEqual`. Le paramètre `valueField` spécifie le champ de données à évaluer, et le ou les derniers arguments fournissent la ou les valeurs seuils.
-L'exemple suivant charge un classeur contenant un tableau croisé dynamique, applique un filtre de valeur qui ne conserve que les éléments dont les ventes agrégées dépassent un seuil numérique, actualise le tableau croisé dynamique et enregistre le classeur.
+## **Filtre par valeur**
+Les filtres par valeur portent sur les valeurs agrégées qu’un tableau croisé dynamique calcule dans sa zone de données. Contrairement aux filtres par libellé, ils comparent des totaux numériques à un seuil. Parmi les cas d’utilisation courants figurent l’affichage des seuls produits dont la somme des ventes dépasse un montant cible, ou des seules régions dont le nombre de transactions se situe dans une plage donnée.
+Aspose.Cells expose le filtrage par valeur au moyen de la méthode `PivotField.FilterByValue(PivotField valueField, PivotFilterType filterType, const Vector<Variant>& values)`. Le paramètre `filterType` peut prendre des valeurs telles que `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual` et `ValueLessThanOrEqual`. Le paramètre `valueField` indique le champ de données à évaluer, tandis que les arguments finaux fournissent la ou les valeurs de seuil.
+L’exemple ci-dessous charge un classeur contenant un tableau croisé dynamique, applique un filtre par valeur qui ne conserve que les éléments dont les ventes agrégées dépassent un seuil numérique, actualise le tableau croisé dynamique et enregistre le classeur.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -134,19 +135,21 @@ int main() {
     {
         rowField.FilterByValue(dataFieldIndex, PivotFilterType::ValueGreaterThan, 5000, DBL_MAX);
     }
+    // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     wb.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-## **Filtre des 10 premiers**
-Le filtre des 10 premiers est une forme spécialisée de filtre de valeur qui ne conserve que les N éléments les plus élevés ou les plus bas en fonction d'un champ de valeur choisi. Il est couramment utilisé pour les rapports de classement tels que « les 10 meilleurs produits par chiffre d'affaires » ou « les 5 régions les moins performantes par nombre de ventes ».
+## **Filtre Top 10**
+Le filtre Top 10 est une forme spécialisée de filtre par valeur qui ne conserve que les N éléments dont la valeur est la plus élevée ou la plus faible, selon le champ de valeur choisi. Il est couramment utilisé pour établir des classements tels que « 10 premiers produits par chiffre d’affaires » ou « 5 régions les moins bien classées par nombre de ventes ».
 
 {{% alert color="primary" %}}
-Le filtre des 10 premiers n'est efficace que lorsque le tableau croisé dynamique possède un ou plusieurs champs de valeur dans la zone de données. Sans au moins un champ de valeur, il n'y a aucune mesure agrégée sur laquelle classer les éléments, et le filtre ne peut pas être appliqué.
-Aspose.Cells expose le filtrage Top 10 via la méthode `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)`. Le paramètre `valueFieldIndex` est l'index du champ de données dont les valeurs agrégées classent les éléments, `type` sélectionne l'unité de `itemCount` (`PivotFilterType::Count` conserve un nombre fixe d'éléments, `PivotFilterType::Percent` conserve un pourcentage des éléments, de sorte que `itemCount` est le pourcentage lui-même), `isTop` indique s'il faut conserver les premiers éléments (true) ou les derniers (false), et `itemCount` définit combien d'éléments, ou quel pourcentage, conserver.
-L'exemple suivant charge un classeur contenant un tableau croisé dynamique qui possède un champ de valeur, applique un filtre des 10 premiers pour ne conserver que les 10 éléments les plus élevés selon la somme des ventes, actualise le tableau croisé dynamique et enregistre le classeur.
+Le filtre Top 10 n’est efficace que si le tableau croisé dynamique contient un ou plusieurs champs de valeur dans la zone de données. Sans au moins un champ de valeur, il n’existe aucune mesure agrégée permettant de classer les éléments et le filtre ne peut pas être appliqué.
+Aspose.Cells expose le filtre Top 10 au moyen de la méthode `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)`. Le paramètre `valueFieldIndex` est l’index du champ de données dont les valeurs agrégées déterminent le classement des éléments, `type` sélectionne l’unité d’expression de `itemCount` (`PivotFilterType::Count` conserve un nombre fixe d’éléments, tandis que `PivotFilterType::Percent` conserve un pourcentage des éléments ; dans ce cas, `itemCount` correspond directement au pourcentage), `isTop` indique s’il faut conserver les éléments en tête de classement (`true`) ou en bas de classement (`false`), et `itemCount` définit le nombre d’éléments ou le pourcentage à conserver.
+L’exemple ci-dessous charge un classeur contenant un tableau croisé dynamique avec un champ de valeur, applique un filtre Top 10 pour ne conserver que les 10 éléments dont la somme des ventes est la plus élevée, actualise le tableau croisé dynamique et enregistre le classeur.
 {{% /alert %}}
 
 ```cpp
@@ -168,15 +171,17 @@ int main() {
     PivotField rowField = pivotTable.GetRowFields().Get(0);
     int valueFieldIndex = 0;
     rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
+    // Refresh the pivot table data and recalculate it so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     workbook.Save(outputPath);
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-## **Filtrer en masquant ou en affichant des éléments dynamiques**
-En plus des API de filtrage structurées, Aspose.Cells vous permet de contrôler directement la visibilité de chaque élément dynamique individuel. En parcourant la collection `PivotItems` d'un `PivotField` et en basculant la propriété `IsHidden`, vous pouvez supprimer sélectivement des éléments spécifiques sans appliquer un filtre basé sur une formule. Définir `IsHidden = true` masque l'élément dans le tableau croisé dynamique ; définir `IsHidden = false` l'affiche à nouveau.
-Cette approche est utile lorsque la règle de filtrage est irrégulière ou spécifique à un élément, par exemple masquer un petit nombre de catégories nommées qui ne doivent pas apparaître dans un rapport particulier. L'exemple ci-dessous charge un tableau croisé dynamique, masque un élément spécifique par son nom, montre comment l'afficher à nouveau, actualise le tableau croisé dynamique et enregistre le classeur.
+## **Filtrage par masquage ou réaffichage d’éléments de tableau croisé dynamique**
+Outre les API de filtrage structuré, Aspose.Cells vous permet de contrôler directement la visibilité de chaque élément individuel du tableau croisé dynamique. En parcourant la collection `PivotItems` d’un `PivotField` et en modifiant la valeur de la propriété `IsHidden`, vous pouvez masquer sélectivement des éléments spécifiques sans appliquer de filtre fondé sur une formule. La définition de `IsHidden = true` masque l’élément du tableau croisé dynamique ; celle de `IsHidden = false` l’affiche à nouveau.
+Cette approche est utile lorsque la règle de filtrage est irrégulière ou propre à un élément, par exemple pour masquer quelques catégories nommées qui ne doivent pas apparaître dans un rapport donné. L’exemple ci-dessous charge un tableau croisé dynamique, masque un élément spécifique par son nom, montre comment le réafficher, actualise le tableau croisé dynamique et enregistre le classeur.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -185,36 +190,36 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Charger un classeur existant contenant un tableau croisé dynamique
+    // Load an existing workbook containing a pivot table
     Workbook workbook(u"pivot_table_sample.xlsx");
-    // Accéder à la première feuille de calcul qui contient le tableau croisé dynamique
+    // Access the first worksheet which contains the pivot table
     Worksheet sheet = workbook.GetWorksheets().Get(0);
-    // Accéder au tableau croisé dynamique par index (le premier tableau croisé dynamique de la feuille)
+    // Access the pivot table by index (the first pivot table on the sheet)
     PivotTable pivotTable = sheet.GetPivotTables().Get(0);
-    // Récupérer le PivotField cible (le premier champ d'étiquette de ligne dans lequel nous masquerons/afficherons des éléments)
+    // Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
     PivotField pivotField = pivotTable.GetRowFields().Get(0);
-    // Parcourir la collection PivotItems du PivotField sélectionné
+    // Iterate through the PivotItems collection of the selected PivotField
     int itemCount = pivotField.GetPivotItems().GetCount();
     for (int i = 0; i < itemCount; i++)
     {
         PivotItem item = pivotField.GetPivotItems().Get(i);
         U16String name = item.GetName();
         std::string nameStr = name.ToUtf8();
-        // Masquer les éléments du tableau croisé dynamique qui correspondent à un nom/critère spécifique
+        // Hide pivot items that match a specific name/criterion
         if (nameStr == "Item1" || nameStr == "Item2")
         {
             item.SetIsHidden(true);
         }
-        // Démontrer l'affichage : ré-afficher un élément précédemment masqué du tableau croisé dynamique
+        // Demonstrate unhiding: re-show a previously hidden pivot item
         if (nameStr == "Item3")
         {
             item.SetIsHidden(false);
         }
     }
-    // Actualiser et recalculer le tableau croisé dynamique pour que les modifications prennent effet
-    pivotTable.CalculateData();
-    // Enregistrer le classeur — les éléments masqués restent dans les données sous-jacentes
-    // mais sont exclus de l'affichage du tableau croisé dynamique
+    // Refresh and recalculate the pivot table so changes take effect
+    pivotTable.GetPivotCache().Refresh();
+    // Save the workbook — hidden items stay in the underlying data
+    // but are excluded from the displayed pivot table output
     workbook.Save(u"output_pivot_filtered.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -222,6 +227,13 @@ int main() {
 ```
 
 ## **Résumé**
-Aspose.Cells for C++ fournit un ensemble complet de capacités de filtrage des tableaux croisés dynamiques qui correspondent à celles trouvées dans Microsoft Excel. Les filtres d'étiquettes, de dates et de valeurs couvrent les scénarios analytiques les plus courants, tandis que le filtre des 10 premiers gère les rapports de classement. Lorsque la règle de filtrage est irrégulière, la propriété `PivotItem.IsHidden` offre une alternative flexible au niveau de l'élément. La combinaison de ces stratégies — par exemple, appliquer un filtre d'étiquette puis masquer des éléments spécifiques — vous permet de construire des rapports de tableau croisé dynamique précisément ciblés entièrement à partir du code.
+Aspose.Cells for C++ fournit un ensemble complet de fonctionnalités de filtrage des tableaux croisés dynamiques qui correspondent à celles disponibles dans Microsoft Excel. Les filtres par libellé, par date et par valeur couvrent les scénarios analytiques les plus courants, tandis que le filtre Top 10 permet de gérer les rapports de classement. Lorsque la règle de filtrage est irrégulière, la propriété `PivotItem.IsHidden` offre une solution de repli flexible, au niveau de chaque élément. Combiner ces stratégies — par exemple, appliquer un filtre par libellé, puis masquer des éléments spécifiques — vous permet de créer entièrement par code des rapports de tableau croisé dynamique ciblés avec précision.
+
+## Articles connexes
+- [Insérer un tableau croisé dynamique](/cells/fr/cpp/create-pivot-table/)
+- [Ajouter des champs de ligne et de colonne à un tableau croisé dynamique dans Aspose.Cells for C++](/cells/fr/cpp/pivot-table-add-row-and-column-fields/)
+- [Ajouter des champs de filtre à un tableau croisé dynamique dans Aspose.Cells for C++](/cells/fr/cpp/add-page-field-in-pivot-table/)
+- [Gérer les champs de valeur d’un tableau croisé dynamique dans Aspose.Cells for C++](/cells/fr/cpp/manage-value-fields/)
+- [Actualiser les tableaux croisés dynamiques et les caches de tableau croisé dynamique dans Aspose.Cells for C++](/cells/fr/cpp/refresh-pivot-table/)
 
 {{< app/cells/assistant language="cpp" >}}

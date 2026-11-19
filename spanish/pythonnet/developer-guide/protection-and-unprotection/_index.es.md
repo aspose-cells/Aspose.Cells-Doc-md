@@ -39,19 +39,19 @@ Excel admite dos capas de contraseña diferenciadas. La primera es una contrase�
 
 ```python
 import aspose.cells as ac
-# Crear un nuevo libro desde cero
+# Create a new workbook from scratch
 workbook = ac.Workbook()
-# Escribir un valor de muestra en la celda A1 de la primera hoja de cálculo
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get("A1").put_value("Sample Data")
-# Configurar la protección contra escritura: establecer la contraseña para modificar y el autor
+# Configure the write protection: set the password to modify and the author
 workbook.settings.write_protection.password = "ModifyPwd"
 workbook.settings.write_protection.author = "AuthorName"
-# Guardar el libro para que la protección contra escritura se mantenga
+# Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx")
-# Validar la contraseña para modificar usando la contraseña correcta
+# Validate the password to modify using the correct password
 is_correct_valid = workbook.settings.write_protection.validate_password("ModifyPwd")
 print("ValidatePassword(\"ModifyPwd\") returned: " + str(is_correct_valid))
-# Validar la contraseña para modificar usando una contraseña incorrecta para demostrar la otra rama
+# Validate the password to modify using an incorrect password to demonstrate the other branch
 is_wrong_valid = workbook.settings.write_protection.validate_password("WrongPwd")
 print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 ```
@@ -61,22 +61,22 @@ Proteger la estructura del libro impide que otros usuarios vean hojas de cálcul
 
 ```python
 import aspose.cells as ac
-# Crear un nuevo libro
+# Create a new workbook
 workbook = ac.Workbook()
-# Agregar una segunda hoja de cálculo
+# Add a second worksheet
 workbook.worksheets.add()
-# Escribir un valor de muestra en la celda A1 de la primera hoja de cálculo
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get(0, 0).put_value("Sample Data")
-# Proteger la estructura del libro
+# Protect the workbook structure
 workbook.protect(ac.ProtectionType.STRUCTURE, "StructPwd")
-# Guardar el libro como structure_protected.xlsx
+# Save the workbook as structure_protected.xlsx
 file_path = "structure_protected.xlsx"
 workbook.save(file_path)
-# Recargar el archivo en una nueva instancia de Workbook
+# Reload the file into a new Workbook instance
 loaded_workbook = ac.Workbook(file_path)
-# Eliminar la protección de la estructura
+# Remove the structure protection
 loaded_workbook.unprotect("StructPwd")
-# Imprimir mensaje de confirmación
+# Print confirmation message
 print("Structure protection has been successfully removed from the workbook.")
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for C++ 中将迷你图转换为图像和 HTML
-linktitle: 在 Aspose.Cells for C++ 中将迷你图转换为图像和 HTML
+linktitle: 将迷你图转换为图像和HTML
 description: 了解如何将 Aspose.Cells 中的迷你图呈现为可嵌入单元格的独立图像，以及如何使用 HtmlSaveOptions 将包含迷你图的工作表导出为 HTML。
 keywords: Aspose.Cells, C++, 迷你图, Sparkline.ToImage, Cell.EmbeddedImage, HtmlSaveOptions, 渲染迷你图, 将迷你图转换为图像, 将迷你图导出为 HTML
 type: docs

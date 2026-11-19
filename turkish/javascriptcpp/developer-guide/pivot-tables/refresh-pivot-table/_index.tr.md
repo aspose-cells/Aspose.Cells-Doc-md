@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for JavaScript via C++ ile Özet Tablolarını ve Özet Önbelleklerini Yenileyin
-linktitle: Aspose.Cells for JavaScript via C++ ile Özet Tablolarını ve Özet Önbelleklerini Yenileyin
+linktitle: Pivot Tablolarını Yenile
 description: Aspose.Cells for JavaScript via C++ v26.7+ özet tablo yenileme API'sini kullanarak özet tablolarının nasıl yenileneceğini öğrenin. Bu makale; workbook.refreshAll, worksheet.refreshPivotTables, pivotCache.refresh, pivotTable.calculateData ve pivotCache.getPivotTables işlevlerini pratik kod örnekleriyle ele alır.
 keywords: Aspose.Cells, JavaScript via C++, özet tablo, yenileme, PivotCache, calculateData, refreshAll, refreshPivotTables, getPivotTables, v26.7
 type: docs
@@ -114,15 +114,15 @@ Aşağıdaki örnek, `Fruit/Year/Amount` kaynak aralığını içeren bir çalı
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Yeni bir çalışma kitabı oluştur
+            // Create a new workbook
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // A1:C1 hücrelerine başlık satırını yaz
+            // Write header row into cells A1:C1
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // A2:C9 hücrelerine veri satırlarını yaz (2020 ve 2021 yıllarına ait 8 satır meyve verisi)
+            // Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
             cells.get("A2").value = "grape";
             cells.get("B2").value = 2020;
             cells.get("C2").value = 50;
@@ -147,19 +147,19 @@ Aşağıdaki örnek, `Fruit/Year/Amount` kaynak aralığını içeren bir çalı
             cells.get("A9").value = "cherry";
             cells.get("B9").value = 2021;
             cells.get("C9").value = 120;
-            // Bir özet tablo ekle: kaynak aralığı "A1:C9", hedef hücresi "E3"
+            // Add a pivot table: source range "A1:C9", destination cell "E3"
             const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
-            // Özet alanlarını ata: Fruit'ı Satırlara, Year'ı Sütunlara, Amount'ı Veriye
+            // Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Değişiklikleri simüle etmek için kaynak verideki birkaç Amount değerini değiştir
+            // Modify several Amount values in the source data to simulate changes
             cells.get("C2").value = 55;
             cells.get("C5").value = 85;
             cells.get("C9").value = 125;
-            // Çalışma kitabındaki tüm özet tabloları / özet önbelleklerini yenile
+            // Refresh every pivot table / pivot cache in the workbook
             workbook.refreshAll();
-            // Çalışma kitabını kaydet
+            // Save the workbook
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -285,11 +285,11 @@ Aşağıdaki örnek, özet tablonun kaynak dışı bir özelliğini değiştirir
                 const workbook = new Workbook();
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // Fruit / Year / Amount başlık satırını yaz
+                // Write Fruit / Year / Amount header row
                 cells.get("A1").value = "Fruit";
                 cells.get("B1").value = "Year";
                 cells.get("C1").value = "Amount";
-                // 8 veri satırı yaz (2-9. satırlar, A1:C9 kaynak aralığına uyacak şekilde)
+                // Write 8 data rows (rows 2-9, fitting the source range A1:C9)
                 cells.get("A2").value = "Grape";
                 cells.get("B2").value = 2020;
                 cells.get("C2").value = 100;
@@ -314,21 +314,21 @@ Aşağıdaki örnek, özet tablonun kaynak dışı bir özelliğini değiştirir
                 cells.get("A9").value = "Cherry";
                 cells.get("B9").value = 2021;
                 cells.get("C9").value = 450;
-                // E3 hedef hücresine yerleştirilen ve A1:C9 aralığından veri alan bir pivot tablo ekle
+                // Add a pivot table placed at destination cell E3, sourcing from A1:C9
                 const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
-                // Alanları ata: Fruit → Row, Year → Column, Amount → Data
+                // Assign fields: Fruit to Row, Year to Column, Amount to Data
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-                // Bir görünüm/düzen özelliğini değiştir — bu yalnızca sunumla ilgili bir değişikliktir,
-                // bu nedenle PivotCache.Refresh() aracılığıyla kaynak verilerin yeniden okunmasını GEREKTİRMEZ.
+                // Modify a view/layout property — this is a presentation-only change,
+                // so it does NOT require re-reading the source data through PivotCache.Refresh().
                 pivotTable.refreshDataOnOpeningFile = false;
-                // CalculateData(), BU pivot tablonun gösterimini (veri + stil) PivotCache içinde
-                // zaten saklanan verilerden yeniden oluşturur. Kaynak veri değişmediğinden,
-                // kaynağa geri dönülmez — yalnızca önbelleğe alınmış değerler yeniden hesaplanarak
-                // çalışma sayfası hücrelerine yazılır.
+                // CalculateData() re-renders THIS pivot table's display (data + style) from the
+                // data already held in the PivotCache. Because the source data did not change,
+                // no round-trip to the source is performed — only the cached values are recalculated
+                // into worksheet cells.
                 pivotTable.calculateData();
-                // Çalışma kitabını diske kaydet
+                // Save the workbook to disk
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById("downloadLink");

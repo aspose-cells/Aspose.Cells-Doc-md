@@ -35,43 +35,43 @@ Dans ce workflow, vous allez créer une feuille de calcul contenant une petite p
 ```java
 import com.aspose.cells.*;
 import java.io.*;
-// Créer un nouveau classeur et accéder à la première feuille de calcul
+// Create a new workbook and access the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Remplir des données d'exemple dans les cellules A1:E1
+// Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Ajouter un groupe de sparklines de type Ligne ancré à F1 (colonne 5, ligne 0)
+// Add a Line sparkline group anchored at F1 (column 5, row 0)
 CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5);
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
-// Ajouter un groupe de sparklines de type Colonne ancré à G1 (colonne 6, ligne 0)
+// Add a Column sparkline group anchored at G1 (column 6, row 0)
 CellArea columnArea = CellArea.createCellArea(0, 6, 0, 6);
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
-// Ajouter un groupe de sparklines de type Victoire/Défaite (Empilé) ancré à H1 (colonne 7, ligne 0)
+// Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 CellArea stackedArea = CellArea.createCellArea(0, 7, 0, 7);
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
-// Configurer les options d'image pour la sortie PNG
+// Configure image options for PNG output
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
 imageOptions.setImageType(ImageType.PNG);
-// Convertir la sparkline Ligne en image et l'incorporer dans la cellule F2
+// Convert the Line sparkline to image and embed it in cell F2
 Sparkline lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 ByteArrayOutputStream lineMs = new ByteArrayOutputStream();
 lineSp.toImage(lineMs, imageOptions);
 worksheet.getCells().get("F2").setEmbeddedImage(lineMs.toByteArray());
-// Convertir la sparkline Colonne en image et l'incorporer dans la cellule G2
+// Convert the Column sparkline to image and embed it in cell G2
 Sparkline columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0);
 ByteArrayOutputStream columnMs = new ByteArrayOutputStream();
 columnSp.toImage(columnMs, imageOptions);
 worksheet.getCells().get("G2").setEmbeddedImage(columnMs.toByteArray());
-// Convertir la sparkline Victoire/Défaite en image et l'incorporer dans la cellule H2
+// Convert the Win/Loss sparkline to image and embed it in cell H2
 Sparkline stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0);
 ByteArrayOutputStream stackedMs = new ByteArrayOutputStream();
 stackedSp.toImage(stackedMs, imageOptions);
 worksheet.getCells().get("H2").setEmbeddedImage(stackedMs.toByteArray());
-// Enregistrer le classeur sur le disque
+// Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx");
 ```
 

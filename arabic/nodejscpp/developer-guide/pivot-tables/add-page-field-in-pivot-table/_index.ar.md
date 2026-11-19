@@ -1,5 +1,5 @@
 ---
-title: إضافة حقول التصفية إلى جدول محوري في Aspose.Cells لـ .NET
+title: إضافة حقول التصفية إلى جدول محوري في Aspose.Cells for Node.js via C++
 description: تعلم كيفية إضافة وتكوين حقول التصفية في الجداول المحورية باستخدام Aspose.Cells for Node.js via C++، بما في ذلك إضافة حقول التصفية والتصفية أحادية الاختيار والتصفية متعددة الاختيارات.
 linktitle: إضافة حقول التصفية
 keywords: Aspose.Cells, Node.js via C++, جدول محوري, حقل صفحة, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, تصفية
@@ -30,11 +30,11 @@ const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// إعداد صف الرأس
+// Set up the header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// ملء 9 صفوف من البيانات النموذجية: الفاكهة، السنة، المبلغ
+// Populate 9 rows of sample data: Fruit, Year, Amount
 var data = [
     [ "apple", 2020, 100 ],
     [ "banana", 2021, 200 ],
@@ -52,15 +52,15 @@ for (var i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 1).putValue(data[i][1]);
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
-// إضافة جدول محوري مثبت عند الخلية E3
+// Add a pivot table anchored at cell E3
 var pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// إضافة الحقول إلى مناطقها: الفاكهة كصف، المبلغ كبيانات، السنة كحقل صفحة
+// Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-// تحديث وحساب بيانات الجدول المحوري
+// Refresh and calculate the pivot table data
 pivotTable.calculateData();
-// حفظ المصنف
+// Save the workbook
 workbook.save("pageFieldSample.xlsx");
 ```
 
@@ -71,11 +71,11 @@ workbook.save("pageFieldSample.xlsx");
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-// العناوين
+// Headers
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
-// بيانات عينة (9 صفوف)
+// Sample data (9 rows)
 sheet.getCells().get("A2").putValue("apple");     sheet.getCells().get("B2").putValue("2020"); sheet.getCells().get("C2").putValue(100);
 sheet.getCells().get("A3").putValue("apple");     sheet.getCells().get("B3").putValue("2021"); sheet.getCells().get("C3").putValue(150);
 sheet.getCells().get("A4").putValue("apple");     sheet.getCells().get("B4").putValue("2022"); sheet.getCells().get("C4").putValue(200);
@@ -85,16 +85,16 @@ sheet.getCells().get("A7").putValue("grape");     sheet.getCells().get("B7").put
 sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").putValue("2020"); sheet.getCells().get("C8").putValue(250);
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
-// إضافة جدول محوري عند E3 يغطي A1:C10
+// Add pivot table at E3 covering A1:C10
 let pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// الفاكهة -> الصف، المبلغ -> البيانات (السنة ستذهب إلى الصفحة أدناه)
+// Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-// نهج منخفض المستوى: احصل على PivotField السنة الموجود من BaseFields
-// وسجله في منطقة الصفحة عبر PageFields.Add(PivotField).
+// Low-level approach: grab the existing Year PivotField from BaseFields
+// and register it in the Page area via PageFields.Add(PivotField).
 let yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
-// قم بالتحديث حتى ينعكس حقل الصفحة الجديد في المصنف المحفوظ
+// Refresh so the new page field is reflected in the saved workbook
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -109,7 +109,7 @@ workbook.save("output.xlsx");
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-// ملء بيانات الفاكهة/السنة/المبلغ
+// Populate Fruit/Year/Amount data
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
@@ -126,17 +126,17 @@ for (let r = 0; r < data.length; r++) {
         sheet.getCells().get(r + 1, c).putValue(data[r][c]);
     }
 }
-// إنشاء جدول محوري عند E3
+// Create pivot table at E3
 let pivotTables = sheet.getPivotTables();
 let pivotTable = pivotTables.add("=A1:C7", 2, 4);
-// تكوين حقول الجدول المحوري: الفاكهة→الصف، المبلغ→البيانات، السنة→الصفحة
+// Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
 pivotTable.calculateData();
-// مسح فلتر الصفحة بحيث يكون كل عنصر في حقل الصفحة مرئيًا.
-// 0x7FFD (عشري 32765) هي القيمة الحارسية الخاصة التي تعني "جميع العناصر" —
-// مكافئة لتحديد "(الكل)" في القائمة المنسدلة لحقل الصفحة في Excel.
+// Clear the page filter so every item in the page field is visible.
+// 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+// equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivotTable.getPageFields().get(0).setCurrentPageItem(0x7FFD);
 workbook.save("output.xlsx");
 ```
@@ -149,7 +149,7 @@ const AsposeCells = require("aspose.cells.node");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
-// إضافة بيانات عينة (فاكهة/سنة/مبلغ)
+// Add sample data (Fruit/Year/Amount)
 cells.get("A1").putValue("Fruit");
 cells.get("B1").putValue("Year");
 cells.get("C1").putValue("Amount");
@@ -165,16 +165,16 @@ cells.get("C4").putValue("200");
 cells.get("A5").putValue("Banana");
 cells.get("B5").putValue("2021");
 cells.get("C5").putValue("250");
-// إضافة جدول محوري عند E3
+// Add pivot table at E3
 var pivotTables = sheet.getPivotTables();
 var pivotTable = pivotTables.add("A1:C5", 2, 4);
-// إضافة الحقول: الفاكهة→صف، المبلغ→بيانات، السنة→صفحة
+// Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-// عمليات خاصة بحقل الصفحة
-pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = العنصر الثاني بالترتيب (مثلاً "2021")
-// تحديث وحساب الجدول المحوري
+// Page-field-specific operations
+pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = second item in sorted order (e.g. "2021")
+// Refresh and calculate pivot table
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -188,7 +188,7 @@ const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
 let cells = sheet.getCells();
-// بيانات نموذجية: الفاكهة | السنة | المبلغ
+// Sample data: Fruit | Year | Amount
 cells.get(0, 0).putValue("Fruit");
 cells.get(0, 1).putValue("Year");
 cells.get(0, 2).putValue("Amount");
@@ -214,14 +214,14 @@ let pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-// — تفعيل التحديد المتعدد في حقل الصفحة
+// — Enable multi-select on the page field
 pivotTable.getPageFields().get(0).setIsMultipleItemSelectionAllowed(true);
-// الجزء A — تحديد جميع العناصر (جعل كل عنصر مرئياً)
+// Part A — select ALL items (make every item visible)
 let pivotItems = pivotTable.getPageFields().get(0).getPivotItems();
 for (let i = 0; i < pivotItems.getCount(); i++) {
     pivotItems.get(i).setIsHidden(false);
 }
-// الجزء B — تحديد عناصر محددة فقط حسب القيمة المصدرية
+// Part B — select only specific items by source value
 for (let i = 0; i < pivotItems.getCount(); i++) {
     switch (pivotItems.get(i).getStringValue()) {
         case "2020":

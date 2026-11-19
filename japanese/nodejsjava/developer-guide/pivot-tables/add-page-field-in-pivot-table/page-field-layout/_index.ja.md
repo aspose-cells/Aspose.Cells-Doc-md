@@ -47,68 +47,68 @@ let workbook = new AsposeCells.Workbook();
 let worksheets = workbook.getWorksheets();
 let pivotDataSheet = worksheets.add("PivotData");
 let pivotDataCells = pivotDataSheet.getCells();
-// ヘッダー (0行目)
+// Headers (row 0)
 pivotDataCells.get(0, 0).putValue("Fruit");
 pivotDataCells.get(0, 1).putValue("Year");
 pivotDataCells.get(0, 2).putValue("Region");
 pivotDataCells.get(0, 3).putValue("Amount");
-// 1行目: りんご、2022年、北、150
+// Row 1: Apple, 2022, North, 150
 pivotDataCells.get(1, 0).putValue("Apple");
 pivotDataCells.get(1, 1).putValue(2022);
 pivotDataCells.get(1, 2).putValue("North");
 pivotDataCells.get(1, 3).putValue(150);
-// 2行目: りんご、2023年、北、180
+// Row 2: Apple, 2023, North, 180
 pivotDataCells.get(2, 0).putValue("Apple");
 pivotDataCells.get(2, 1).putValue(2023);
 pivotDataCells.get(2, 2).putValue("North");
 pivotDataCells.get(2, 3).putValue(180);
-// 3行目: バナナ、2022年、南、120
+// Row 3: Banana, 2022, South, 120
 pivotDataCells.get(3, 0).putValue("Banana");
 pivotDataCells.get(3, 1).putValue(2022);
 pivotDataCells.get(3, 2).putValue("South");
 pivotDataCells.get(3, 3).putValue(120);
-// 4行目: バナナ、2023年、南、140
+// Row 4: Banana, 2023, South, 140
 pivotDataCells.get(4, 0).putValue("Banana");
 pivotDataCells.get(4, 1).putValue(2023);
 pivotDataCells.get(4, 2).putValue("South");
 pivotDataCells.get(4, 3).putValue(140);
-// 5行目: さくらんぼ、2022年、東、200
+// Row 5: Cherry, 2022, East, 200
 pivotDataCells.get(5, 0).putValue("Cherry");
 pivotDataCells.get(5, 1).putValue(2022);
 pivotDataCells.get(5, 2).putValue("East");
 pivotDataCells.get(5, 3).putValue(200);
-// 6行目: さくらんぼ、2023年、東、220
+// Row 6: Cherry, 2023, East, 220
 pivotDataCells.get(6, 0).putValue("Cherry");
 pivotDataCells.get(6, 1).putValue(2023);
 pivotDataCells.get(6, 2).putValue("East");
 pivotDataCells.get(6, 3).putValue(220);
-// 7行目: ぶどう、2022年、西、90
+// Row 7: Grape, 2022, West, 90
 pivotDataCells.get(7, 0).putValue("Grape");
 pivotDataCells.get(7, 1).putValue(2022);
 pivotDataCells.get(7, 2).putValue("West");
 pivotDataCells.get(7, 3).putValue(90);
-// 8行目: ぶどう、2023年、西、110
+// Row 8: Grape, 2023, West, 110
 pivotDataCells.get(8, 0).putValue("Grape");
 pivotDataCells.get(8, 1).putValue(2023);
 pivotDataCells.get(8, 2).putValue("West");
 pivotDataCells.get(8, 3).putValue(110);
-// PivotTableReportシートを追加
+// Add PivotTableReport sheet
 let pivotTableSheet = worksheets.add("PivotTableReport");
 let pivotTables = pivotTableSheet.getPivotTables();
-// PivotData!A1:D9をソースとし、PivotTableReportのA1に配置するピボットテーブルを作成
+// Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
 let pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0);
-// フィールドを追加
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);   // 果物
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);  // 年
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);  // 地域
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);  // 数量
+// Add fields
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, 0);   // Fruit
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 1);  // Year
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, 2);  // Region
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, 3);  // Amount
 pivotTable.getDataFields().get(0).setFunction(AsposeCells.ConsolidationFunction.SUM);
-// ページフィールドエリアレイアウトを設定: ページフィールドを最初に横方向に配置し、2つごとに折り返す
+// Configure page field area layout: place page fields across first, wrap after every 2
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OVER_THEN_DOWN);
 pivotTable.setPageFieldWrapCount(2);
-// 更新して計算
+// Refresh and calculate
 pivotTable.calculateData();
-// 保存
+// Save
 workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 ```
 

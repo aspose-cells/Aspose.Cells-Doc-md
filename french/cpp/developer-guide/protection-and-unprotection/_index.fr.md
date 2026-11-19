@@ -77,22 +77,22 @@ La protection de la structure du classeur empêche les autres utilisateurs de co
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Créer un nouveau classeur
+    // Create a new workbook
     Workbook workbook;
-    // Ajouter une deuxième feuille de calcul
+    // Add a second worksheet
     workbook.GetWorksheets().Add();
-    // Écrire une valeur d'exemple dans la cellule A1 de la première feuille de calcul
+    // Write a sample value to cell A1 of the first worksheet
     workbook.GetWorksheets().Get(0).GetCells().Get(0, 0).PutValue(u"Sample Data");
-    // Protéger la structure du classeur
+    // Protect the workbook structure
     workbook.Protect(ProtectionType::Structure, u"StructPwd");
-    // Enregistrer le classeur sous structure_protected.xlsx
+    // Save the workbook as structure_protected.xlsx
     U16String filePath = u"structure_protected.xlsx";
     workbook.Save(filePath);
-    // Recharger le fichier dans une nouvelle instance de classeur
+    // Reload the file into a new Workbook instance
     Workbook loadedWorkbook(filePath);
-    // Supprimer la protection de la structure
+    // Remove the structure protection
     loadedWorkbook.Unprotect(u"StructPwd");
-    // Afficher le message de confirmation
+    // Print confirmation message
     std::cout << "Structure protection has been successfully removed from the workbook." << std::endl;
     Aspose::Cells::Cleanup();
     return 0;

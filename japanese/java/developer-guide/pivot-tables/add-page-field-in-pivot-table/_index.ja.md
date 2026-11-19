@@ -24,15 +24,15 @@ Aspose.Cells は、ピボットテーブルのフィルターフィールドの�
 
 ```java
 import com.aspose.cells.*;
-// 新しいワークブックを作成
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// ヘッダー行を設定
+// Set up the header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// 9行のサンプルデータを作成: Fruit、Year、Amount
+// Populate 9 rows of sample data: Fruit, Year, Amount
 Object[][] data = new Object[][]
 {
     { "apple", 2020, 100 },
@@ -51,15 +51,15 @@ for (int i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 1).putValue(data[i][1]);
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
-// E3セルを基準位置としてピボットテーブルを追加
+// Add a pivot table anchored at cell E3
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// フィールドを各エリアに追加: Fruitは行、Amountはデータ、Yearはページフィールド
+// Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// ピボットテーブルデータを更新して計算
+// Refresh and calculate the pivot table data
 pivotTable.calculateData();
-// ワークブックを保存
+// Save the workbook
 workbook.save("pageFieldSample.xlsx");
 ```
 
@@ -68,18 +68,19 @@ workbook.save("pageFieldSample.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// - ピボットテーブルとページフィールドは、シナリオ 1a とまったく同じ方法で構築されます
-//   （Fruit/Year/Amount データ、ピボット位置は E3、Fruit->Row、
-//   Amount->Data）。以下では、BaseFields コレクションから Year PivotField を取得し、
-//   PageFields.Add に渡します。これは AddFieldToArea の低レベルな代替手段です。
-//   結果は機能的にシナリオ 1a と同じになります。
+// - The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit->Row,
+//   Amount->Data). Below we obtain the Year PivotField from the
+//   BaseFields collection and pass it to PageFields.Add - the
+//   low-level alternative to AddFieldToArea. The result is
+//   functionally identical to Scenario 1a.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
-// ヘッダー
+// Headers
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
-// サンプルデータ（9 行）
+// Sample data (9 rows)
 sheet.getCells().get("A2").putValue("apple");    sheet.getCells().get("B2").putValue("2020"); sheet.getCells().get("C2").putValue(100);
 sheet.getCells().get("A3").putValue("apple");    sheet.getCells().get("B3").putValue("2021"); sheet.getCells().get("C3").putValue(150);
 sheet.getCells().get("A4").putValue("apple");    sheet.getCells().get("B4").putValue("2022"); sheet.getCells().get("C4").putValue(200);
@@ -89,16 +90,16 @@ sheet.getCells().get("A7").putValue("grape");    sheet.getCells().get("B7").putV
 sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").putValue("2020"); sheet.getCells().get("C8").putValue(250);
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
-// A1:C10 を対象として E3 にピボットテーブルを追加
+// Add pivot table at E3 covering A1:C10
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// Fruit -> Row、Amount -> Data（Year は後で Page に追加されます）
+// Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// 低レベルな方法: BaseFields から既存の Year PivotField を取得し
-// PageFields.Add(PivotField) を使用して Page 領域に登録します。
+// Low-level approach: grab the existing Year PivotField from BaseFields
+// and register it in the Page area via PageFields.Add(PivotField).
 PivotField yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
-// 保存されたワークブックに新しいページフィールドが反映されるよう更新します
+// Refresh so the new page field is reflected in the saved workbook
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -113,7 +114,7 @@ workbook.save("output.xlsx");
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
-// Fruit/Year/Amount データを入力
+// Populate Fruit/Year/Amount data
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
@@ -133,17 +134,17 @@ for (int r = 0; r < data.length; r++)
         sheet.getCells().get(r + 1, c).putValue(data[r][c]);
     }
 }
-// E3 にピボットテーブルを作成
+// Create pivot table at E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
 PivotTable pivot = pivotTables.add("=A1:C7", 2, 4);
-// ピボットフィールドを設定: Fruit を Row、Amount を Data、Year を Page に配置
+// Configure pivot fields: Fruit to Row, Amount to Data, Year to Page
 pivot.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivot.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivot.addFieldToArea(PivotFieldType.PAGE, "Year");
 pivot.calculateData();
-// ページフィールドのすべての項目が表示されるようにページフィルターをクリアします。
-// 0x7FFD（10 進数 32765）は「すべての項目」を表す特殊なセンチネル値であり、
-// Excel のページフィールドのドロップダウンで「(All)」を選択することに相当します。
+// Clear the page filter so every item in the page field is visible.
+// 0x7FFD (decimal 32765) is the special sentinel value that means "all items",
+// equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivot.getPageFields().get(0).setCurrentPageItem((short)0x7FFD);
 workbook.save("output.xlsx");
 ```
@@ -153,11 +154,11 @@ workbook.save("output.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// ワークブックを作成
+// Create workbook
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-// サンプルデータを追加（Fruit/Year/Amount）
+// Add sample data (Fruit/Year/Amount)
 cells.get("A1").putValue("Fruit");
 cells.get("B1").putValue("Year");
 cells.get("C1").putValue("Amount");
@@ -173,16 +174,16 @@ cells.get("C4").putValue("200");
 cells.get("A5").putValue("Banana");
 cells.get("B5").putValue("2021");
 cells.get("C5").putValue("250");
-// E3にピボットテーブルを追加
+// Add pivot table at E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
 PivotTable pivotTable = pivotTables.add("A1:C5", 2, 4);
-// フィールドを追加：Fruit→Row、Amount→Data、Year→Page
+// Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// ページフィールド固有の操作
-pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = ソート順で2番目の項目（例: "2021"）
-// ピボットテーブルを更新して計算
+// Page-field-specific operations
+pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = second item in sorted order (e.g. "2021")
+// Refresh and calculate pivot table
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -195,7 +196,7 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-// サンプルデータ: Fruit | Year | Amount
+// Sample data: Fruit | Year | Amount
 cells.get(0, 0).putValue("Fruit");
 cells.get(0, 1).putValue("Year");
 cells.get(0, 2).putValue("Amount");
@@ -223,15 +224,15 @@ PivotTable pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// -- ページフィールドで複数選択を有効にする
+// -- Enable multi-select on the page field
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
-// パート A -- すべての項目を選択（すべての項目を表示）
+// Part A -- select ALL items (make every item visible)
 PivotItemCollection pivotItems = pivotTable.getPageFields().get(0).getPivotItems();
 for (int i = 0; i < pivotItems.getCount(); i++)
 {
     pivotItems.get(i).setHidden(false);
 }
-// パート B -- ソース値に基づいて特定の項目のみを選択
+// Part B -- select only specific items by source value
 for (int i = 0; i < pivotItems.getCount(); i++)
 {
     switch (pivotItems.get(i).getStringValue())

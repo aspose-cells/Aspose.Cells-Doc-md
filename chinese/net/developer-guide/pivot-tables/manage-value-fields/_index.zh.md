@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for .NET 中管理数据透视表值字段
-linktitle: 在 Aspose.Cells for .NET 中管理数据透视表值字段
+linktitle: 值字段
 description: 学习如何在数据透视表的数据区域中添加基础字段，使用 PivotField.Function 更改汇总函数，以及在 Aspose.Cells for .NET 中将值字段绘制到行或列轴上。
 keywords: Aspose.Cells, .NET, 数据透视表, 值字段, PivotField, PivotField.Function, 数据字段, PivotTable.ValuesField, Sum, Average
 type: docs

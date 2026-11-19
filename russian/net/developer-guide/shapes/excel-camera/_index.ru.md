@@ -37,7 +37,7 @@ using Aspose.Cells.Drawing;
 var workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Name = "CameraDemo";
-// Динамическая камера: добавляем пустое изображение, связываем его через формулу с A1:F10, затем обновляем
+// Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 var pictures = worksheet.Pictures;
 int index = pictures.Add(10, 6, (Stream)null);
 pictures[0].Formula = "A1:F10";
@@ -63,7 +63,7 @@ using Aspose.Cells.Drawing;
 var workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Name = "CameraDemo";
-// Статичная камера: создать диапазон, преобразовать в байты, обернуть в MemoryStream, добавить как изображение
+// Static Camera: build Range, render to bytes, wrap in MemoryStream, add as picture
 var range = workbook.Worksheets[0].Cells.CreateRange("A1:F10");
 var pictures = worksheet.Pictures;
 pictures.Add(10, 6, new MemoryStream(range.ToImage(null)));

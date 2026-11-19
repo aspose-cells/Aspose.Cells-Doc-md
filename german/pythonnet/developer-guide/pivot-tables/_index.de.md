@@ -1,6 +1,6 @@
 ---
 title: PivotTable einfügen
-linktitle: PivotTable einfügen
+linktitle: Pivot-Tabellen
 description: Erstellen und formatieren Sie PivotTables mit Aspose.Cells for Python via .NET.
 keywords: PivotTable erstellen, PivotTable einfügen, PivotTable formatieren.
 type: docs
@@ -36,12 +36,10 @@ Nach der Ausführung des Beispielcodes wird dem Arbeitsblatt eine PivotTable hin
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-
-# Erstelle eine neue Arbeitsmappe und rufe das erste Arbeitsblatt ab
+# Create a new workbook and get the first worksheet
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-
-# Schreibe die Quelldaten: Umsätze pro Sportart und Quartal
+# Write the source data: sales per sport and quarter
 sheet.cells.get("A1").put_value("Sport")
 sheet.cells.get("B1").put_value("Quarter")
 sheet.cells.get("C1").put_value("Sales")
@@ -66,16 +64,13 @@ sheet.cells.get("C7").put_value(5000)
 sheet.cells.get("A8").put_value("Golf")
 sheet.cells.get("B8").put_value("Qtr3")
 sheet.cells.get("C8").put_value(6430)
-
-# Füge am Zielzelle E3 eine Pivot-Tabelle hinzu, deren Quelle A1:C8 ist
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivot_table = sheet.pivot_tables.add("A1:C8", 2, 4)
-
-# Weise Pivotfelder zu: Sport zu Zeilen, Quarter zu Spalten, Sales zu Daten
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Quarter")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
-
-# Speichere die Arbeitsmappe
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

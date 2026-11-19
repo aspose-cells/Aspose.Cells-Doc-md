@@ -40,55 +40,55 @@ jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
-# 创建一个新工作簿并访问第一个工作表
+# Create a new workbook and access the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# 在单元格 A1:E1 中填充示例数据
+# Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5)
 worksheet.getCells().get("B1").putValue(-3)
 worksheet.getCells().get("C1").putValue(8)
 worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
-# 添加锚定在 F1（第 5 列，第 0 行）的折线迷你图组
+# Add a Line sparkline group anchored at F1 (column 5, row 0)
 lineArea = CellArea()
 lineArea.StartColumn = 5
 lineArea.EndColumn = 5
 lineArea.StartRow = 0
 lineArea.EndRow = 0
 lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
-# 添加锚定在 G1（第 6 列，第 0 行）的柱形迷你图组
+# Add a Column sparkline group anchored at G1 (column 6, row 0)
 columnArea = CellArea()
 columnArea.StartColumn = 6
 columnArea.EndColumn = 6
 columnArea.StartRow = 0
 columnArea.EndRow = 0
 columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
-# 添加锚定在 H1（第 7 列，第 0 行）的盈亏（堆叠）迷你图组
+# Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 stackedArea = CellArea()
 stackedArea.StartColumn = 7
 stackedArea.EndColumn = 7
 stackedArea.StartRow = 0
 stackedArea.EndRow = 0
 stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
-# 为 PNG 输出配置图像选项
+# Configure image options for PNG output
 imageOptions = ImageOrPrintOptions()
 imageOptions.setImageType(ImageType.PNG)
-# 将折线迷你图转换为图像并嵌入到单元格 F2 中
+# Convert the Line sparkline to image and embed it in cell F2
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 lineSp.toImage(ms, imageOptions)
 worksheet.getCells().get("F2").setEmbeddedImage(ms.toByteArray())
-# 将柱形迷你图转换为图像并嵌入到单元格 G2 中
+# Convert the Column sparkline to image and embed it in cell G2
 columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 columnSp.toImage(ms, imageOptions)
 worksheet.getCells().get("G2").setEmbeddedImage(ms.toByteArray())
-# 将盈亏迷你图转换为图像并嵌入到单元格 H2 中
+# Convert the Win/Loss sparkline to image and embed it in cell H2
 stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 stackedSp.toImage(ms, imageOptions)
 worksheet.getCells().get("H2").setEmbeddedImage(ms.toByteArray())
-# 将工作簿保存到磁盘
+# Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx")
 jpype.shutdownJVM()
 ```

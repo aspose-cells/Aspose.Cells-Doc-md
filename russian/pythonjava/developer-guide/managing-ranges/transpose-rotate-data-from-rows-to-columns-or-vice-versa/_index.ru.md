@@ -84,7 +84,7 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, LoadOptions, LoadFormat, FormulaParseOptions, SaveFormat
-# портированный код здесь
+# ported code here
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
 workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
@@ -117,21 +117,21 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, LoadOptions, LoadFormat, Worksheet, Cells
-# Загрузить исходную книгу с помощью параметров загрузки xlsx
+# Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
 workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
-# Получить доступ к первому листу и его коллекции Cells
+# Access the first worksheet and its Cells collection
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
-# Установить классическую CSE формулу массива в ячейке A6.
-# Формула =TRANSPOSE(A1:D5) транспонирует исходный диапазон 5 строк x 4 столбца
-# в массив 4 строки x 5 столбцов. Второй аргумент (4) — это количество строк
-# а третий аргумент (5) — количество столбцов результирующего массива.
-# Aspose.Cells записывает маркер CSE формулы массива, чтобы Excel вычислял её как
-# единую многоячеечную формулу массива, совместимую со старыми версиями Excel
-# (2019, 2016, 2013 и т.д.), которые не поддерживают динамическое распыление массива.
+# Set the classic CSE array formula on cell A6.
+# The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+# into a 4-row x 5-column array. The second argument (4) is the number of rows
+# and the third argument (5) is the number of columns of the resulting array.
+# Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+# a single multi-cell array formula, compatible with older Excel versions
+# (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5)
-# Сохранить книгу, чтобы маркер формулы массива был сохранён
+# Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```

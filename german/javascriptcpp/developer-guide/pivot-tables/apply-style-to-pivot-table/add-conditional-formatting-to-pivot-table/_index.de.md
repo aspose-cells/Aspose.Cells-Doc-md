@@ -47,16 +47,16 @@ AsposeCells.onReady().then(() => {
         cells.get(i + 1, 1).putValue(years[i]);
         cells.get(i + 1, 2).putValue(amounts[i]);
     }
-    // Pivot-Tabelle mit ihrer oberen linken Ecke bei E3
+    // Pivot table with its top-left corner at E3
     const pivotTable = sheet.pivotTables.add("=A1:C7", 2, 4);
     pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit");
     pivotTable.addFieldToArea(PivotFieldType.Data, "Amount");
     pivotTable.calculateData();
-    // Verankere das bedingte Format bei F4 (Zeile 3, Spalte 5) mit dem Datenbereich
+    // Anchor the conditional format at F4 (row 3, column 5) with the Data scope
     const index = pivotTable.conditionalFormats.add();
     const format = pivotTable.conditionalFormats.get(index);
     format.applyTo(3, 5, PivotConditionFormatScopeType.Data);
-    // Regel – hebe Beträge hervor, die größer als 200 sind
+    // Rule - highlight amounts greater than 200
     const conditionIndex = format.formatConditions.addCondition(
         FormatConditionType.CellValue, OperatorType.GreaterThan, "200", null);
     const style = workbook.createStyle();
@@ -65,7 +65,7 @@ AsposeCells.onReady().then(() => {
     style.foregroundColor = Color.Red;
     style.pattern = BackgroundType.Solid;
     format.formatConditions.get(conditionIndex).style = style;
-    // wb.save(SaveFormat.Xlsx) gibt die Datei als Bytes zurück
+    // wb.save(SaveFormat.Xlsx) returns the file as bytes
     fs.writeFileSync("PivotConditionalFormatData.xlsx", workbook.save(SaveFormat.Xlsx));
     console.log("Done; the rule paints F4, F5, and F7");
     process.exit(0);
@@ -104,7 +104,7 @@ AsposeCells.onReady().then(() => {
     pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit");
     pivotTable.addFieldToArea(PivotFieldType.Data, "Amount");
     pivotTable.calculateData();
-    // Ziele das Rechteck F4:F6 (die Wertzellen ohne die Gesamtsumme)
+    // Target the rectangle F4:F6 (the value cells without the grand total)
     const index = pivotTable.conditionalFormats.add();
     const format = pivotTable.conditionalFormats.get(index);
     const area = new CellArea();
@@ -113,7 +113,7 @@ AsposeCells.onReady().then(() => {
     area.endRow = 5;
     area.endColumn = 5;
     format.addCellArea(area);
-    // Regel - kursiv auf hellgelb für Beträge zwischen 150 und 300
+    // Rule - italic on light yellow for amounts between 150 and 300
     const conditionIndex = format.formatConditions.addCondition(
         FormatConditionType.CellValue, OperatorType.Between, "150", "300");
     const style = workbook.createStyle();
@@ -154,13 +154,13 @@ AsposeCells.onReady().then(() => {
     pivotTable.addFieldToArea(PivotFieldType.Row, "Fruit");
     pivotTable.addFieldToArea(PivotFieldType.Data, "Amount");
     pivotTable.calculateData();
-    // Regel an das Datenfeld Amount als semantische Region anhängen
+    // Attach the rule to the Amount data field as a semantic region
     const index = pivotTable.conditionalFormats.add();
     const format = pivotTable.conditionalFormats.get(index);
     const area = new PivotArea(pivotTable);
     area.selectField(PivotFieldType.Data, "Amount");
     format.pivotAreas.addPivotArea(area);
-    // Regel – grauer Text für Beträge unter 150
+    // Rule - grey text for amounts below 150
     const conditionIndex = format.formatConditions.addCondition(
         FormatConditionType.CellValue, OperatorType.LessThan, "150", null);
     const style = workbook.createStyle();
@@ -178,8 +178,9 @@ Jeder Aufruf von `conditionalFormats.add()` fügt ein `PivotConditionalFormat` z
 ```html
 const fs = require("fs");
 const { AsposeCells } = require("aspose.cells.js");
+const { Workbook } = AsposeCells;
 AsposeCells.onReady().then(() => {
-    // Lade die Datei neu, die im ersten Beispiel geschrieben wurde
+    // Reload the file written by the first example
     const workbook = new Workbook(new Uint8Array(fs.readFileSync("PivotConditionalFormatData.xlsx")));
     const pivotTable = workbook.worksheets.get(0).pivotTables.get(0);
     console.log("Conditional formats: " + pivotTable.conditionalFormats.count);
@@ -194,10 +195,10 @@ AsposeCells.onReady().then(() => {
             console.log("    rows " + (area.startRow + 1) + "-" + (area.endRow + 1) +
                         ", columns " + (area.startColumn + 1) + "-" + (area.endColumn + 1));
     }
-    // Dies gibt aus:
-    // Bedingte Formate: 1
-    // Format 0: 1 2 formula1==200   (Typ 1 = Zellwert, Operator 2 = GrößerAls)
-    //     Zeilen 4-7, Spalten 6-6        (F4:F7, der aufgelöste Datenbereich)
+    // This prints:
+    // Conditional formats: 1
+    // Format 0: 1 2 formula1==200   (type 1 = CellValue, operator 2 = GreaterThan)
+    //     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
     process.exit(0);
 });
 ```

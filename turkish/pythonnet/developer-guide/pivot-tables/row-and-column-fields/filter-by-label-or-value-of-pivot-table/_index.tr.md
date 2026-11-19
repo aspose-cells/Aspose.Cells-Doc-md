@@ -68,23 +68,23 @@ input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
     raise FileNotFoundError("Source workbook not found.", input_path)
-# Mevcut pivot tablosunu içeren çalışma kitabını yükleyin
+# Load the existing workbook that contains the pivot table
 workbook = ac.Workbook(input_path)
-# Pivot tablosunu barındıran çalışma sayfasına erişin (dizine göre)
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.worksheets[0]
-# Pivot tablosuna dizine göre erişin
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# Satır alanından tarih PivotField'ını alın
-# (Tarih filtresi yalnızca satır/sütun alanı yalnızca tarih-saat hücreleri veya boşluklar içerdiğinde çalışır)
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 date_field = pivot_table.row_fields[0]
-# Between filtresi için tarih kriterini tanımlayın
+# Define the date criterion for the Between filter
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
-# Pivot alanına tarih filtresini uygulayın
+# Apply the date filter on the pivot field
 date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
-# Pivot tablosunu yenileyin ve yeniden hesaplayın, böylece filtre etkili olur
+# Refresh and recalculate the pivot table so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# Çalışma kitabını kaydedin
+# Persist the workbook
 workbook.save(output_path)
 ```
 
@@ -101,7 +101,7 @@ worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
 row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
-# PivotFieldCollection'da IndexOf olmadığından veri alanı dizinini manuel olarak bul
+# Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 data_field_index = -1
 for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
@@ -125,31 +125,31 @@ Aşağıdaki örnek, bir değer alanı içeren pivot tabloya sahip bir çalışm
 ```python
 import aspose.cells as ac
 import aspose.cells.pivot as acp
-# Pivot tablosunu içeren mevcut çalışma kitabını yükle
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = ac.Workbook(inputPath)
-# Pivot tablosunu tutan çalışma sayfasına eriş (indeks 0)
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.worksheets[0]
-# Pivot tablosuna indekse göre eriş
+# Access the pivot table by index
 pivotTable = worksheet.pivot_tables[0]
-# Veri alanında en az bir değer PivotField olduğunu doğrula
+# Confirm there is at least one value PivotField in the data area
 if len(pivotTable.data_fields) == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
-# Hedef satır PivotField'ını al (Top 10 uygulamak istediğimiz alan)
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.row_fields[0]
-# İlk (ve tek) veri alanı indeks 0'da; Top 10 ona göre sıralar.
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# Satır alanına Top 10 filtresini uygula:
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true (ilk N; false alt N anlamına gelir)
-#   - valueFieldIndex = öğeleri sıralamak için kullanılan veri alanının indeksi
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
-# Pivot tablo verilerini yenile ve filtrenin geçerli olması için yeniden hesapla
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.pivot_cache.refresh()
-# Çalışma kitabını kaydet
+# Save the workbook
 workbook.save(outputPath)
 ```
 
@@ -159,28 +159,28 @@ Bu yaklaşım, filtreleme kuralı düzensiz veya öğeye özgü olduğunda kulla
 
 ```python
 import aspose.cells as ac
-# Pivot tablo içeren mevcut bir çalışma kitabını yükleyin
+# Load an existing workbook containing a pivot table
 workbook = ac.Workbook("pivot_table_sample.xlsx")
-# Pivot tabloyu içeren ilk çalışma sayfasına erişin
+# Access the first worksheet which contains the pivot table
 sheet = workbook.worksheets[0]
-# Pivot tabloya dizine göre erişin (sayfadaki ilk pivot tablo)
+# Access the pivot table by index (the first pivot table on the sheet)
 pivot_table = sheet.pivot_tables[0]
-# Hedef PivotField'ı alın (öğelerini gizleyeceğimiz/göstereceğimiz ilk satır etiket alanı)
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivot_field = pivot_table.row_fields[0]
-# Seçilen PivotField'ın PivotItems koleksiyonu boyunca yineleyin
+# Iterate through the PivotItems collection of the selected PivotField
 item_count = pivot_field.pivot_items.count
 for i in range(item_count):
     item = pivot_field.pivot_items[i]
-    # Belirli bir ad/ölçütle eşleşen pivot öğelerini gizleyin
+    # Hide pivot items that match a specific name/criterion
     if item.name == "Item1" or item.name == "Item2":
         item.is_hidden = True
-    # Gizlemeyi kaldırmayı gösterin: daha önce gizlenmiş bir pivot öğesini yeniden gösterin
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.name == "Item3":
         item.is_hidden = False
-# Pivot tabloyu yenileyin ve yeniden hesaplayın, böylece değişiklikler etkili olur
+# Refresh and recalculate the pivot table so changes take effect
 pivot_table.pivot_cache.refresh()
-# Çalışma kitabını kaydedin — gizli öğeler temel verilerde kalır
-# ancak görüntülenen pivot tablo çıktısından hariç tutulur
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 ```
 

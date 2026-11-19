@@ -180,11 +180,11 @@ int main() {
     Aspose::Cells::Startup();
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // Écrire la ligne d’en-tête Fruit / Year / Amount
+    // Write Fruit / Year / Amount header row
     worksheet.GetCells().Get(u"A1").PutValue(u"Fruit");
     worksheet.GetCells().Get(u"B1").PutValue(u"Year");
     worksheet.GetCells().Get(u"C1").PutValue(u"Amount");
-    // Écrire 8 lignes de données (lignes 2-9, correspondant à la plage source A1:C9)
+    // Write 8 data rows (rows 2-9, fitting the source range A1:C9)
     worksheet.GetCells().Get(u"A2").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B2").PutValue(2020);
     worksheet.GetCells().Get(u"C2").PutValue(100);
@@ -209,21 +209,21 @@ int main() {
     worksheet.GetCells().Get(u"A9").PutValue(u"Cherry");
     worksheet.GetCells().Get(u"B9").PutValue(2021);
     worksheet.GetCells().Get(u"C9").PutValue(450);
- // Ajouter un tableau croisé dynamique nommé, placé dans la cellule de destination E3 et utilisant A1:C9 comme source
+ // Add a pivot table placed at destination cell E3, sourcing from A1:C9
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C9", 2, 4);
-    // Affecter les champs : Fruit à Ligne, Year à Colonne, Amount à Données
+    // Assign fields: Fruit to Row, Year to Column, Amount to Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // Modifier une propriété d’affichage/disposition — il s’agit uniquement d’une modification de présentation,
-    // elle ne nécessite donc PAS de relire les données source via PivotCache.Refresh().
+    // Modify a view/layout property — this is a presentation-only change,
+    // so it does NOT require re-reading the source data through PivotCache.Refresh().
     pivotTable.SetRefreshDataOnOpeningFile(false);
-    // CalculateData() régénère l’affichage de CE tableau croisé dynamique (données + style) à partir des
-    // données déjà conservées dans le PivotCache. Comme les données source n’ont pas changé,
-    // aucun aller-retour vers la source n’est effectué — seules les valeurs mises en cache sont recalculées
-    // dans les cellules de la feuille de calcul.
+    // CalculateData() re-renders THIS pivot table's display (data + style) from the
+    // data already held in the PivotCache. Because the source data did not change,
+    // no round-trip to the source is performed — only the cached values are recalculated
+    // into worksheet cells.
     pivotTable.CalculateData();
-    // Enregistrer le classeur sur le disque
+    // Save the workbook to disk
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

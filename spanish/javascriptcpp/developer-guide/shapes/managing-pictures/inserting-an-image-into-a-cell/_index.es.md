@@ -159,16 +159,16 @@ El siguiente código demuestra el enfoque completo.
             }
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // Obtener la celda de destino C6
+            // Get the target cell C6
             const cell = worksheet.cells.get("C6");
-            // Leer el archivo de imagen en un array de bytes
+            // Read the image file into a byte array
             const imageData = new Uint8Array(await fileInput.files[0].arrayBuffer());
-            // Incrustar la imagen directamente en la celda
+            // Embed the image directly into the cell
             cell.embeddedImage = imageData;
-            // Opcionalmente, ajustar la altura de fila y el ancho de columna para que la imagen incrustada sea más visible
-            worksheet.cells.setColumnWidth(2, 30); // Columna C (índice 2)
-            worksheet.cells.setRowHeight(5, 100); // Fila 6 (índice 5)
-            // Guardar el libro de trabajo resultante como un archivo .xlsx
+            // Optionally adjust row height and column width so the embedded image is more visible
+            worksheet.cells.setColumnWidth(2, 30); // Column C (index 2)
+            worksheet.cells.setRowHeight(5, 100); // Row 6 (index 5)
+            // Save the resulting workbook as an .xlsx file
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             downloadLink.href = URL.createObjectURL(blob);

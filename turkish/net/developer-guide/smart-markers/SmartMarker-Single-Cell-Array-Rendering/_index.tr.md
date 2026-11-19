@@ -1,87 +1,102 @@
 ---
-title: Akıllı İşaretleyici Tek Hücre Dizi Oluşturma | Aspose.Cells .NET
-linktitle: Akıllı İşaretleyici Tek Hücre Dizi Oluşturma | Aspose.Cells .NET
-description: Aspose.Cells for .NET ile Akıllı İşaretleyicilerdeki ArrayAsSingle ve ExtraDelimiter özniteliklerini kullanarak dizi verilerini tek bir hücreye nasıl oluşturacağınızı öğrenin.
-keywords: Aspose.Cells, .NET kütüphanesi, elektronik tablo, Akıllı İşaretleyiciler, ArrayAsSingle, ExtraDelimiter, tek hücre dizisi, dizi oluşturma, şablon
+title: Akıllı İşaret Tek Hücre Dizisi Oluşturma | Aspose.Cells for .Net
+description: `arrayassingle` ve `arraydelimiter` Akıllı İşaret özniteliklerini kullanarak Aspose.Cells for .Net ürününde dizi verisini tek hücreye oluşturmayı öğrenin.
+linktitle: Tek Hücrede Dizi Oluşturma | Aspose.Cells
+url: /tr/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+keywords: Aspose.Cells, .NET kitaplığı, elektronik tablo, Akıllı İşaretler, arrayassingle, arraydelimiter, tek hücre dizisi, dizi oluşturma, şablon
 type: docs
 weight: 195
-url: /tr/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells, Akıllı İşaretleyiciler aracılığıyla dizi verilerini tek bir hücreye oluşturmayı destekler. Geliştiriciler, `ArrayAsSingle` özniteliğini `ExtraDelimiter` özniteliğiyle birlikte kullanarak dizi öğelerinin tek bir hücre içinde nasıl ayrılacağını kontrol edebilir ve raporlar ile şablonlar için esnek biçimlendirme sağlayabilir.
+Aspose.Cells, Akıllı İşaretler aracılığıyla bir dizi veri kaynağını tek bir hücreye oluşturabilir. `arrayassingle` özniteliği, öğelerin varsayılan olarak tek tek hücrelere yayılmasını devre dışı bırakır; `arraydelimiter` özniteliği ise birleştirilen öğeler arasına yerleştirilecek ayırıcıyı belirler. Bu ayırıcı varsayılan olarak virgüldür veya belirttiğiniz herhangi bir tek karakter ya da tırnak içinde çok karakterli dize olabilir.
 {{% /alert %}}
 
-## **Introduction**
-Aspose.Cells'deki Akıllı İşaretleyiciler, `&=DataSource.Field` gibi işaretleyici ifadeleri kullanarak elektronik tablo verilerini dinamik olarak doldurmanıza olanak tanıyan, şablon tabanlı güçlü bir özelliktir. İşaretleyici bir tasarımcı çalışma kitabına yerleştirilir ve şablon `WorkbookDesigner` tarafından işlendiğinde, işaretleyiciler sağlanan veri kaynağındaki değerlerle değiştirilir.
-Varsayılan olarak, bir Akıllı İşaretleyici bir dizi özelliğine başvurduğunda (örneğin, `&=DataSource.Numbers`), motor diziyi genişletir ve her öğeyi ayrı bir bitişik hücreye yerleştirir — yatay olarak bir satır boyunca ya da dikey olarak bir sütun boyunca. Bu davranış birçok senaryoda kullanışlı olsa da, tüm diziyi seçtiğiniz bir sınırlayıcıyla ayrılmış ve birleştirilmiş biçimde tek bir hücreye oluşturmayı tercih edeceğiniz durumlar vardır.
-Bir Akıllı İşaretleyici etiketi içinde birlikte kullanılan `ArrayAsSingle` ve `ExtraDelimiter` öznitelikleri tam olarak bu gereksinimi karşılar. Rapor düzenlerini kompakt ve öngörülebilir tutarken yine de dizi veri kaynaklarıyla yerel olarak çalışmanıza olanak tanırlar.
+## **Giriş**
 
-## **Why This Feature Is Needed**
+Aspose.Cells içindeki Akıllı İşaretler, `&=DataSource.Field` gibi işaret ifadelerini kullanarak elektronik tablo verilerini dinamik olarak dolduran, şablona dayalı bir özelliktir. İşaret, tasarım çalışma kitabına yerleştirilir ve şablon `WorkbookDesigner` tarafından işlendiğinde işaretler, sağlanan veri kaynağındaki değerlerle değiştirilir.
+Varsayılan olarak, bir Akıllı İşaret bir dizi özelliğine başvurduğunda (örneğin, dört değerlik `string[]` öğesine bağlanan `&=Product.Tags`), motor diziyi genişletir ve her öğeyi kendi hücresine yerleştirerek değerleri işaretin altındaki sütunda dikey olarak yayar. Bu davranış birçok senaryoda kullanışlı olsa da, dizinin tamamını öğeleri birleştirilmiş ve tercih ettiğiniz bir ayırıcıyla ayrılmış şekilde tek bir hücreye oluşturmak isteyebileceğiniz durumlar vardır.
+`arrayassingle` ve `arraydelimiter` öznitelikleri, Akıllı İşaret'in parantezleri içinde `name:value` biçiminde yazılarak bu gereksinimi doğrudan karşılar. Rapor düzenlerini kompakt ve öngörülebilir tutmanıza olanak tanırken dizi veri kaynaklarıyla doğrudan çalışmanızı sağlar.
 
-### **Default Array Spreading Behavior**
-Bir Akıllı İşaretleyici bir dizi özelliğine başvurduğunda, Aspose.Cells diziyi varsayılan olarak birden çok hücreye genişletir. Örneğin, dört değer içeren bir `string[]` üzerindeki `&=Product.Tags` gibi bir işaretleyici, her değeri kendi hücresine yerleştirir, diğer şablon içeriğini dışa doğru iter ve özenle tasarlanmış rapor düzenlerini potansiyel olarak bozar.
+## **Bu Özelliğe Neden İhtiyaç Var**
 
-### **Use Case Limitations**
+### **Varsayılan Dizi Yayılma Davranışı**
+
+Bir Akıllı İşaret bir dizi özelliğine başvurduğunda Aspose.Cells varsayılan olarak diziyi birden fazla hücreye yayınlar. Örneğin, dört değer içeren bir `string[]` üzerinde `&=Product.Tags` gibi bir işaret, her değeri işaretin altındaki kendi hücresine yerleştirir; diğer şablon içeriğini kaydırabilir ve özenle tasarlanmış rapor düzenlerini bozabilir.
+
+### **Kullanım Senaryosu Sınırlamaları**
+
 Varsayılan yayılma davranışının istenmediği birçok pratik senaryo vardır:
-- **Özet tarzı raporlar** — kayıt başına kompakt tek satır düzeni gerektiren.
-- **Etiket veya anahtar kelime listeleri** — tek bir hücre içinde virgülle veya boru karakteriyle ayrılmış değerler olarak görüntülenmesi gereken.
-- **Filtre çipleri veya durum göstergeleri** — okunabilirlik için birden çok değeri tek bir yerde gruplayan.
-- **Aşağı yöndeki işlem hatları** (CSV dışa aktarma, PDF oluşturma, posta birleştirme) — genişletilmiş bir aralık yerine hücre başına tek bir birleşik değer bekleyen.
-- **Platformlar arası uyumluluk** — bazı tüketicilerin birden çok hücreye yayılan dizilere tahammül edemediği durumlar.
+- **Özet tarzı raporlar** her kayıt için kompakt, tek satırlık bir düzen gerektirir.
+- **Etiket, ad veya anahtar sözcük listeleri** virgülle veya dikey çizgiyle ayrılmış değerler olarak tek hücrede görüntülenmelidir.
+- **Filtre çipleri veya durum göstergeleri** okunabilirlik için birden fazla değeri tek bir yerde gruplar.
+- **Sonraki işlem hatları** (CSV dışa aktarma, PDF oluşturma, posta birleştirme), genişletilmiş bir aralık yerine hücre başına tek birleştirilmiş değer bekler.
+- **Platformlar arası uyumluluk**, bazı tüketicilerin birden fazla hücreye yayılan dizileri kabul edememesi durumunda gereklidir.
 
-### **The Gap It Fills**
-Yerleşik bir mekanizma olmadan, geliştiriciler verileri C# veya VB.NET'te önceden işlemeye — dizileri çalışma kitabı tasarımcısına bağlamadan önce sınırlayıcılı dizelere birleştirmeye zorlanırdı. Bu, mantığı çoğaltır, veri modellerini karmaşıklaştırır ve hata olasılığını artırır. `ArrayAsSingle` ve `ExtraDelimiter` öznitelikleri, biçimlendirmeyi Akıllı İşaretleyicinin kendisi içinde bildirimsel olarak ele alarak bu geçici çözümü ortadan kaldırır.
+### **Doldurduğu Boşluk**
 
-## **Feature Benefits**
-Akıllı İşaretleyicilerinizde `ArrayAsSingle` ve `ExtraDelimiter` özniteliklerini kullanmak birkaç avantaj sağlar:
-- **Tek hücrede kapsama**: Tüm dizi öğeleri tam olarak tek bir hücreye oluşturulur, bu da düzenleri kompakt ve öngörülebilir tutar.
-- **Özel sınırlayıcı kontrolü**: İstediğiniz herhangi bir ayırıcı dizeyi belirtin — virgül, noktalı virgül, kısa çizgi, boru karakteri, yeni satır veya herhangi bir özel metin.
-- **Şablon odaklı biçimlendirme**: Verileri önceden işlemek için ek kod gerekmez; biçimlendirme kuralları Akıllı İşaretleyici etiketinin içinde yer alır.
-- **Daha temiz raporlar**: Dizi verileri artık komşu şablon içeriğini farklı satır veya sütunlara itmez.
-- **Çok yönlü veri türleri**: Dizeler, sayılar, tarihler ve sınırlayıcıyla birleştirilebilen diğer tüm veri türleriyle çalışır.
-- **Geriye dönük uyumluluk**: Öznitelikler atlandığında, orijinal yayılma davranışı korunur, böylece mevcut şablonlar değişmeden çalışmaya devam eder.
+Yerleşik bir mekanizma olmadan, geliştiriciler dizileri çalışma kitabı tasarımcısına bağlamadan önce C# veya VB.NET içinde önceden işlemek zorunda kalır; dizileri ayraçlı dizelere birleştirirler. Bu yaklaşım mantığı yineler, veri modellerini karmaşıklaştırır ve hata olasılığını artırır. `arrayassingle` ve `arraydelimiter` öznitelikleri, biçimlendirmeyi Akıllı İşaret'in kendisi içinde bildirimsel olarak ele alarak bu geçici çözümü ortadan kaldırır.
 
-## **How to Use This Feature**
+## **Özellik Avantajları**
 
-### **Smart Marker Syntax**
-`ArrayAsSingle` ve `ExtraDelimiter` öznitelikleri, standart bir Akıllı İşaretleyicinin parantezleri içinde anahtar-değer çiftleri olarak geçirilir. Genel sözdizimi şöyledir:
+Akıllı İşaretlerde `arrayassingle` ve `arraydelimiter` özniteliklerini kullanmak çeşitli avantajlar sağlar:
+- **Tek hücrede toplama**: Tüm dizi öğeleri tam olarak bir hücreye oluşturulur; düzenler kompakt ve öngörülebilir kalır.
+- **Özel ayırıcı denetimi**: İstediğiniz ayırıcıyı belirtin — varsayılan virgül, noktalı virgül, tire, dikey çizgi veya `" | "` gibi tırnak içinde çok karakterli dize.
+- **Şablondan yönlendirilen biçimlendirme**: Veriyi önceden işlemek için ek kod gerekmez; biçimlendirme kuralları Akıllı İşaret etiketinin içinde bulunur.
+- **Daha temiz raporlar**: Dizi verisi, komşu şablon içeriğini farklı satırlara veya sütunlara itmez.
+- **Çok yönlü veri türleri**: Nesne veri kaynaklarındaki dize ve sayısal dizilerle çalışır.
+- **Geriye uyumluluk**: Öznitelikler atlandığında özgün yayılma davranışı korunur; böylece mevcut şablonlar değişiklik yapılmadan çalışmaya devam eder.
+
+## **Bu Özelliği Nasıl Kullanılır**
+
+### **Akıllı İşaret Sözdizimi**
+
+`arrayassingle` ve `arraydelimiter` öznitelikleri, standart bir Akıllı İşaret'in parantezleri içinde Aspose.Cells tarafından sunulan `name:value` öznitelik sözdizimini kullanır. Genel sözdizimi şöyledir:
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayProperty(arrayassingle:true,arraydelimiter:;)
 ```
 
-İşaretleyici aşağıdaki parçalardan oluşur:
-- `&=DataSource.ArrayProperty` — bağlı veri kaynağındaki dizi özelliğine başvuran standart Akıllı İşaretleyici.
-- `arrayasSingle=true` — motora tüm diziyi tek bir hücreye oluşturması talimatını verir. Yalnızca `true` değeri tek hücre davranışını tetikler.
-- `extraDelimiter=", "` — dizi öğeleri arasına yerleştirilecek ayırıcıyı tanımlar. Değer bir dize sabitidir; boş, tek karakterli veya çok karakterli bir dize olabilir.
+İşaret aşağıdaki bölümlerden oluşur:
+- `&=DataSource.ArrayProperty` — bağlı veri kaynağındaki dizi özelliğine başvuran standart Akıllı İşaret.
+- `arrayassingle:true` — öğeleri yaymak yerine motorun dizinin tamamını tek hücreye oluşturmasını sağlar.
+- `arraydelimiter:;` — isteğe bağlıdır; dizi öğeleri arasına yerleştirilecek ayırıcıyı tanımlar. Atlandığında virgül kullanılır.
 
-{{% alert color="primary" %}}
-`extraDelimiter` özniteliği, çok karakterli sınırlayıcılar, özel metinler veya yeni satırla ayrılmış çıktı için `\n` gibi kaçış dizileri dahil olmak üzere herhangi bir dize sabitini kabul eder. Dizi boşsa, sonuç hücresi boş bırakılır.
+{{% alert color="warning" %}}
+Öznitelikleri `name:value` biçiminde yazın (eşittir işareti değil, iki nokta) ve birden fazla özniteliği virgülle **boşluksuz** ayırın. Virgülden sonra boşluk bırakmak, ayrıştırılan değeri bir karakter kaydırır; `(arrayassingle:true, arraydelimiter:;)` ifadesi, `;` yerine hatalı `:;` ayırıcısıyla birleştirir.
 {{% /alert %}}
 
-### **Step-by-Step Workflow**
-Aşağıdaki iş akışı, Akıllı İşaretleyicileri kullanarak bir dizinin tek bir hücreye nasıl oluşturulacağını açıklar.
-1. **Veri kaynağını hazırlayın**: Bir dizi döndüren bir özellik sunan bir sınıf (veya veri yapısı) oluşturun. Özellik `string[]`, `int[]` veya desteklenen herhangi bir dizi türünü döndürebilir.
-2. **Bir tasarımcı çalışma kitabı oluşturun**: Yeni bir `Workbook` oluşturun, bir başlık satırı ekleyin ve `arrayasSingle` ile `extraDelimiter` özniteliklerini kullanarak dizi özelliğine başvuran bir Akıllı İşaretleyici hücresi yerleştirin.
-3. **WorkbookDesigner'ı örnekleyin**: Bir `WorkbookDesigner` nesnesi oluşturun, tasarımcı çalışma kitabını ona bağlayın ve `SetDataSource` yöntemini kullanarak veri kaynağınızı bağlayın.
-4. **İşaretleyicileri işleyin**: Akıllı İşaretleyicileri genişletmek ve çalışma kitabını gerçek verilerle doldurmak için `WorkbookDesigner.Process()` yöntemini çağırın.
-5. **Sonucu kaydedin**: Elde edilen çalışma kitabını diske XLSX veya desteklenen herhangi bir dosya biçiminde kaydedin.
+### **Ayırıcı Biçimleri**
 
-### **Code Example 1 — Basic String Array Rendering**
+- Tek karakter, iki noktadan hemen sonra yazılır: `arraydelimiter:;`, `arraydelimiter:-`, `arraydelimiter:*`.
+- Çok karakterli ayırıcı çift tırnak içinde yazılır: `arraydelimiter:" | "`, `arraydelimiter:" - "`.
+
+### **Adım Adım İş Akışı**
+
+Aşağıdaki iş akışı, Akıllı İşaretler kullanılarak bir dizinin tek hücreye nasıl oluşturulacağını açıklar.
+1. **Veri kaynağını hazırlayın**: `string[]` veya `int[]` gibi bir dizi döndüren özelliği sunan bir sınıf oluşturun ve bu sınıfın `List<T>` koleksiyonunu bağlayın; böylece motor her satır için bir kayıt okur.
+2. **Tasarım çalışma kitabı oluşturun**: Yeni bir `Workbook` oluşturun, başlık satırı ekleyin ve dizi özelliğine başvuran `arrayassingle` özniteliğine sahip bir Akıllı İşaret hücresi yerleştirin; özel bir ayırıcı gerektiğinde `arraydelimiter` özniteliğini de ekleyin.
+3. **WorkbookDesigner örneğini oluşturun**: Çalışma kitabının çevresinde bir `WorkbookDesigner` oluşturun ve veri kaynağınızı `SetDataSource` ile bağlayın.
+4. **İşaretleri işleyin**: Akıllı İşaretleri genişletmek ve çalışma kitabını gerçek verilerle doldurmak için `WorkbookDesigner.Process()` yöntemini çağırın.
+5. **Sonucu kaydedin**: Oluşturulan çalışma kitabını XLSX veya desteklenen başka bir dosya biçiminde diske kaydedin.
+
+### **Kod Örneği 1 — Temel Dize Dizisi Oluşturma**
 
 ```csharp
 using System;
+using System.Collections.Generic;
 using Aspose.Cells;
+
 class Program
 {
-    public class Product
+    class Product
     {
         public string[] Tags { get; set; }
     }
-    public static void Main()
+
+    static void Main()
     {
         Product product = new Product
         {
@@ -90,89 +105,131 @@ class Program
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.Worksheets[0];
         worksheet.Cells["A1"].PutValue("Tags");
-        worksheet.Cells["A2"].PutValue("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")");
-        WorkbookDesigner designer = new WorkbookDesigner();
-        designer.Workbook = workbook;
-        designer.SetDataSource("Product", product);
+        // No spaces inside the parentheses: attributes are name:value pairs
+        worksheet.Cells["A2"].PutValue("&=Product.Tags(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Product", new List<Product> { product });
         designer.Process();
-        workbook.Save("output_arraySingle.xlsx");
+        Console.WriteLine(worksheet.Cells["A2"].StringValue);
+        workbook.Save("output-array-single.xlsx");
     }
 }
 ```
 
-### **Code Example 2 — Numeric Array with Custom Delimiter**
+Örnek, dizinin tamamının birleştirilmiş değerini yazdırır. Dört etiket, varsayılan virgülle ayrılarak tek bir hücreye yerleşir:
 
-```csharp
-public class Student
-{
-    public int[] Scores { get; set; }
-}
-public class Program
-{
-    public static void Main()
-    {
-        var student = new Student
-        {
-            Scores = new int[] { 95, 88, 76, 100, 67 }
-        };
-        var workbook = new Workbook();
-        var worksheet = workbook.Worksheets[0];
-        worksheet.Cells["A1"].PutValue("Scores");
-        worksheet.Cells["A2"].PutValue(string.Join(" - ", student.Scores));
-        workbook.Save("output_numericArray.xlsx");
-    }
-}
+```
+C#,Aspose,SmartMarker,Excel
 ```
 
-### **Code Example 3 — Comparing Default vs. ArrayAsSingle Behavior**
+### **Kod Örneği 2 — Özel Ayırıcılı Sayısal Dizi**
 
 ```csharp
 using System;
+using System.Collections.Generic;
 using Aspose.Cells;
-public class Program
+
+class Program
 {
-    public static void Main()
+    class Student
     {
-        var order = new Order
-        {
-            Items = new string[] { "Apple", "Banana", "Cherry", "Date" }
-        };
-        var workbook = new Workbook();
-        var sheet = workbook.Worksheets[0];
-        var cells = sheet.Cells;
-        // Bölüm 1: Varsayılan Akıllı İşaretleyici - değerler hücreler arasında yatay olarak yayılır
-        cells["A1"].PutValue("Default Spreading Behavior:");
-        cells["A2"].PutValue("&=Order.Items");
-        // Bölüm 2: arrayasSingle ve extraDelimiter kullanarak yeni tek hücreli oluşturma
-        cells["A4"].PutValue("Single Cell Rendering (arrayasSingle=true):");
-        cells["A5"].PutValue("&=Order.Items(arrayasSingle=true, extraDelimiter=\"; \")");
-        // Veri kaynağını bağla ve Akıllı İşaretleyicileri işle
-        var designer = new WorkbookDesigner(workbook);
-        designer.SetDataSource("Order", order);
-        designer.Process();
-        // Ortaya çıkan çalışma kitabını kaydet
-        workbook.Save("output_comparison.xlsx");
+        public int[] Scores { get; set; }
     }
-}
-public class Order
-{
-    public string[] Items { get; set; }
+
+    static void Main()
+    {
+        Student student = new Student
+        {
+            Scores = new int[] { 95, 88, 76, 100, 67 }
+        };
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+        worksheet.Cells["A1"].PutValue("Scores");
+        // arraydelimiter:- joins the numbers with a hyphen
+        worksheet.Cells["A2"].PutValue("&=Student.Scores(arrayassingle:true,arraydelimiter:-)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Student", new List<Student> { student });
+        designer.Process();
+        Console.WriteLine(worksheet.Cells["A2"].StringValue);
+        workbook.Save("output-array-numeric.xlsx");
+    }
 }
 ```
 
-### **Notes & Best Practices**
-`ArrayAsSingle` ve `ExtraDelimiter` öznitelikleriyle çalışırken aşağıdaki noktaları akılda bulundurun:
-- `extraDelimiter` değeri bir dize sabiti olarak ele alınır; şablon işlemcinizin yorumlayabileceği özel karakterleri kaçışla işaretleyin.
-- `arrayasSingle` özniteliği bir boole değeri kabul eder (`true` / `false`). Yalnızca `true` tek hücre davranışını tetikler; diğer herhangi bir değer varsayılan yayılma davranışına geri döner.
-- Dizi boş veya null ise, hücre boş bırakılır (veya veri türüne bağlı olarak boş bir dize içerir).
-- Özellik, nesne veri kaynaklarıyla olduğu kadar bir sütunun dizilere bölünebildiği `DataSet` ve `DataTable` kaynaklarıyla da çalışır.
-- Yeni satırla ayrılmış çıktı için, sınırlayıcı değeri olarak `\n` veya `Environment.NewLine` kullanabilirsiniz.
+Sayısal diziler, dize dizileriyle tam olarak aynı şekilde birleştirilir; her öğe düz sayısal metnini korur:
 
-## Related Articles
-- [Aspose.Cells for .NET'te Pivot Tablosuna Filtre Alanı Ekleme](/cells/tr/net/add-page-field-in-pivot-table/)
+```
+95-88-76-100-67
+```
+
+### **Kod Örneği 3 — Varsayılan ile Tek Hücreye Oluşturmanın Karşılaştırılması**
+
+```csharp
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+class Program
+{
+    class Order
+    {
+        public string[] Items { get; set; }
+    }
+
+    static void Main()
+    {
+        Order order = new Order
+        {
+            Items = new string[] { "Apple", "Banana", "Cherry", "Date" }
+        };
+        Workbook workbook = new Workbook();
+        Worksheet sheet = workbook.Worksheets[0];
+        Cells cells = sheet.Cells;
+        // Column B: default marker — values spread vertically down the column
+        cells["B1"].PutValue("Default");
+        cells["B2"].PutValue("&=Order.Items");
+        // Column C: single-cell rendering — the whole array joins into one cell
+        cells["C1"].PutValue("Single cell");
+        cells["C2"].PutValue("&=Order.Items(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Order", new List<Order> { order });
+        designer.Process();
+        for (int row = 1; row <= 5; row++)
+        {
+            string b = cells[row, 1].StringValue;
+            string c = cells[row, 2].StringValue;
+            if (!string.IsNullOrEmpty(b) || !string.IsNullOrEmpty(c))
+                Console.WriteLine($"B{row + 1}=[{b}]  C{row + 1}=[{c}]");
+        }
+        workbook.Save("output-array-comparison.xlsx");
+    }
+}
+```
+
+Varsayılan işaret, her öğe için B sütununda bir hücre kullanırken `arrayassingle` işareti aynı diziyi C sütununda tek bir hücreye toplar:
+
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
+```
+
+### **Notlar ve En İyi Uygulamalar**
+
+`arrayassingle` ve `arraydelimiter` öznitelikleriyle çalışırken aşağıdaki noktaları göz önünde bulundurun:
+- Öznitelik değerleri `name:value` biçimini kullanır. `arrayassingle=true` gibi eşittir işareti kullanılan biçim tanınmaz ve sessizce varsayılan yayılma davranışına geri döner.
+- Öznitelikleri virgülle ve boşluksuz ayırın; virgülden sonra boşluk, ayırıcı değerini bir karakter kaydırır (yukarıdaki uyarıya bakın).
+- `arraydelimiter` değeri, iki noktadan hemen sonra doğrudan yazılan tek bir karakter veya çift tırnak içine alınmış çok karakterli bir dize olabilir.
+- `arraydelimiter` atlandığında öğeler virgülle birleştirilir.
+- Veri kaynağı, motorun kayıtları listelemesine izin vermelidir: dizi özelliğini sunan öğe türüne sahip bir `List<T>` (veya başka bir koleksiyon) bağlayın. Tek bir nesneyi bağlamak, gövde işaretlerinin çözümlenmeden kalmasına neden olur.
+- Aynı öznitelikler dize ve sayısal diziler için çalışır; her öğe düz değer metniyle oluşturulur.
+
+## **İlgili Makaleler**
+- [Aspose.Cells for .NET'te PivotTable'a filtre alanları ekleme](/cells/tr/net/add-page-field-in-pivot-table/)
 - [Aspose.Cells for .NET'te Pivot Tablolarına Stil Uygulama](/cells/tr/net/apply-style-to-pivot-table/)
-- [Pivot Tablosunda Sayfa Alanı Düzenini Değiştirme](/cells/tr/net/change-page-field-layout/)
-- [Sparkline'ı Aspose.Cells for .NET'te Görüntüye ve HTML'ye Dönüştürme](/cells/tr/net/convert-sparkline-to-image-and-html/)
-- [Excel'i OFD Biçimine Dönüştürme](/cells/tr/net/converting-excel-to-ofd-format/)
+- [Pivot tablosunda sayfa alanı düzenini değiştirme](/cells/tr/net/change-page-field-layout/)
+- [Aspose.Cells for .NET'te Sparkline'ı Görüntüye ve HTML'e Dönüştürme](/cells/tr/net/convert-sparkline-to-image-and-html/)
+- [Excel'i OFD biçimine dönüştürme](/cells/tr/net/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="csharp" >}}

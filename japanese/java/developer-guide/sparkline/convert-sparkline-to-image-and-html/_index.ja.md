@@ -35,43 +35,43 @@ Aspose.Cells はこれらの両方の操作をサポートしています。`Spa
 ```java
 import com.aspose.cells.*;
 import java.io.*;
-// 新しいワークブックを作成し、最初のワークシートにアクセスします
+// Create a new workbook and access the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// セルA1:E1にサンプルデータを入力します
+// Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// F1（列5、行0）にアンカーされた折れ線スパークライングループを追加します
+// Add a Line sparkline group anchored at F1 (column 5, row 0)
 CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5);
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
-// G1（列6、行0）にアンカーされた縦棒スパークライングループを追加します
+// Add a Column sparkline group anchored at G1 (column 6, row 0)
 CellArea columnArea = CellArea.createCellArea(0, 6, 0, 6);
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
-// H1（列7、行0）にアンカーされたWin/Loss（積み上げ）スパークライングループを追加します
+// Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 CellArea stackedArea = CellArea.createCellArea(0, 7, 0, 7);
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
-// PNG出力用の画像オプションを設定します
+// Configure image options for PNG output
 ImageOrPrintOptions imageOptions = new ImageOrPrintOptions();
 imageOptions.setImageType(ImageType.PNG);
-// 折れ線スパークラインを画像に変換し、セルF2に埋め込みます
+// Convert the Line sparkline to image and embed it in cell F2
 Sparkline lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0);
 ByteArrayOutputStream lineMs = new ByteArrayOutputStream();
 lineSp.toImage(lineMs, imageOptions);
 worksheet.getCells().get("F2").setEmbeddedImage(lineMs.toByteArray());
-// 縦棒スパークラインを画像に変換し、セルG2に埋め込みます
+// Convert the Column sparkline to image and embed it in cell G2
 Sparkline columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0);
 ByteArrayOutputStream columnMs = new ByteArrayOutputStream();
 columnSp.toImage(columnMs, imageOptions);
 worksheet.getCells().get("G2").setEmbeddedImage(columnMs.toByteArray());
-// Win/Lossスパークラインを画像に変換し、セルH2に埋め込みます
+// Convert the Win/Loss sparkline to image and embed it in cell H2
 Sparkline stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0);
 ByteArrayOutputStream stackedMs = new ByteArrayOutputStream();
 stackedSp.toImage(stackedMs, imageOptions);
 worksheet.getCells().get("H2").setEmbeddedImage(stackedMs.toByteArray());
-// ワークブックをディスクに保存します
+// Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx");
 ```
 

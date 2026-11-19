@@ -1,6 +1,6 @@
 ---
 title: Hantera värdefält i pivottabeller med Aspose.Cells for JavaScript via C++
-linktitle: Hantera värdefält i pivottabeller med Aspose.Cells for JavaScript via C++
+linktitle: Värdefält
 description: Lär dig hur du lägger till basfält i en pivottabells dataområde, ändrar sammanfattningsfunktionen med PivotField.Function och placerar värdefältet på rad- eller kolumnaxeln med Aspose.Cells for JavaScript via C++.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, pivottabell, värdefält, PivotField, PivotField.Function, datafält, PivotTable.ValuesField, Sum, Average
 type: docs

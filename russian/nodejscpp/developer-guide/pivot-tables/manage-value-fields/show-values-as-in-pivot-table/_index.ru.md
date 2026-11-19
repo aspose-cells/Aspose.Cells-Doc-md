@@ -1,8 +1,8 @@
 ---
 title: Показ значений как в сводной таблице
 linktitle: Показ значений как в сводной таблице
-description: Отображайте значения полей данных сводной таблицы в виде процента от общего итога, разницы от базового элемента, накопительные итоги, ранжирование и другие варианты с Aspose.Cells for Node.js via C++.
-keywords: Aspose.Cells, Aspose.Cells for Node.js via C++, сводная таблица, отобразить значения как, формат отображения данных, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex
+description: Отображать значения полей данных сводной таблицы в виде процента от общего итога, разницы от базового элемента, накопительных итогов, рангов и т.д. с помощью Aspose.Cells for Node.js via C++.
+keywords: Aspose.Cells, Aspose.Cells for Node.js via C++, сводная таблица, отображать значения как, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, showValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /ru/nodejs-cpp/show-values-as-in-pivot-table/
@@ -11,103 +11,56 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Возможные сценарии использования**
-Сводная таблица обычно агрегирует каждое поле данных с помощью агрегирующей функции, такой как `SUM` или `COUNT`. Функция Excel **Show Values As** заменяет каждый отображаемый результат вторичным вычислением, полученным из этой агрегации — например, процентом от общего итога, накопительным итогом, разницей от выбранного базового элемента или рангом — позволяя выполнять сравнительный анализ без вспомогательных формул или вычисляемых столбцов.  
-Типичные применения включают анализ доли от общего результата (проценты по строке, столбцу или общему итогу), накопительные отчёты, анализ отклонений от базового элемента посредством разницы или процентной разницы, а также ранжирование значений от наименьшего к наибольшему и наоборот.  
-В Aspose.Cells for Node.js via C++ параметр `PivotFieldDataDisplayFormat` выбирает вторичное вычисление. Только для чтения accessor `PivotField.getShowValuesSetting()` возвращает объект `PivotShowValuesSetting`, свойства которого (`setCalculationType()`, `setBaseFieldIndex()`, `setBaseItemPositionType()`, `setBaseItemIndex()`) позволяют настроить поведение; удобный метод `PivotField.showValuesAs(...)` применяет те же четыре параметра одним вызовом. Применяйте эти настройки к полю данных, полученному через `PivotTable.getDataFields()`.
+Сводная таблица обычно агрегирует каждое поле данных с помощью агрегатной функции, такой как `SUM` или `COUNT`. Функция **Show Values As** в Excel заменяет каждый отображаемый результат вторичным вычислением, полученным из этой агрегации — например, процент от общего итога, накопительный итог, разницу от выбранного базового элемента или ранг — что позволяет выполнять сравнительный анализ без вспомогательных формул или вычисляемых столбцов.  
+Обычными применениями являются анализ доли от общего итога, включая проценты по строке, столбцу или общему итогу; накопительная отчётность с использованием накопительного итога в поле периода; анализ отклонений относительно базового элемента с помощью разницы или процентной разницы от базового элемента; а также ранжирование значений от наименьшего к наибольшему или наоборот.  
+В Aspose.Cells for Node.js via C++ перечисление `PivotShowValuesAsType` выбирает вторичное вычисление. Только для чтения аксессор `PivotField.getShowValuesSetting()` возвращает объект `PivotShowValuesSetting`, методы `setShowValuesAs()`, `setBaseFieldIndex()` и `setBaseItemIndex()` которого настраивают поведение; удобный метод `PivotField.showValuesAs(...)` применяет те же настройки одним вызовом. Примените эти настройки к полю данных или значений, полученному из `PivotTable.getDataFields()`.
 
-## **PivotFieldDataDisplayFormat Enumeration Members**
-Поле данных сохраняет свою агрегирующую функцию, например `SUM` или `COUNT`, тогда как Show Values As меняет лишь способ отображения полученного агрегированного значения.  
-Помимо прямого задания свойств `PivotShowValuesSetting` (см. последний раздел), удобный метод, вызываемый одним разом, применяет ту же конфигурацию:
+## **Члены перечисления PivotShowValuesAsType**
+Поле данных сохраняет свою агрегатную функцию, например SUM или COUNT, тогда как Show Values As изменяет только способ отображения агрегированного значения.  
+Помимо прямой записи настроек `PivotShowValuesSetting` (см. последний раздел), удобный метод с одним вызовом применяет ту же конфигурацию. Он доступен в двух формах — с указанием базового поля и базового элемента по индексу и по имени:
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-function showValuesAs(pivotField, displayFormat, baseField, baseItemPositionType, baseItem) {
-    pivotField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem);
+function showValuesAs(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
 }
-function pickEnum(enumType, candidates, fallback) {
-    const type = enumType || {};
-    for (const name of candidates) {
-        if (type[name] !== undefined && type[name] !== null) {
-            return type[name];
-        }
-    }
-    return fallback;
+function showValuesAsByName(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
 }
-const workbook = new AsposeCells.Workbook();
-const sheet = workbook.getWorksheets().add("PivotData");
-const cells = sheet.getCells();
-// --- Source data -----------------------------------------------------------
-const headers = ["Region", "Product", "Sales"];
-for (const [c, header] of headers.entries()) {
-    cells.get(0, c).putValue(header);
-}
-const rows = [
-    ["East", "Apple", 100],
-    ["East", "Banana", 120],
-    ["West", "Apple", 90],
-    ["West", "Banana", 60],
-    ["North", "Apple", 75],
-    ["North", "Banana", 45]
-];
-for (const [r, row] of rows.entries()) {
-    for (const [c, value] of row.entries()) {
-        cells.get(r + 1, c).putValue(value);
-    }
-}
-// --- Pivot table ------------------------------------------------------------
-const pivotTables = sheet.getPivotTables();
-const pivotTable = pivotTables.add("A1:C7", 0, 4);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Region");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
-const salesField = pivotTable.getDataFields().get(0);
-// --- ShowValuesAs -----------------------------------------------------------
-const displayFormat = pickEnum(
-    AsposeCells.PivotFieldDataDisplayFormat,
-    ["PERCENT_OF_TOTAL", "PercentOfTotal", "PERCENTAGE_OF_TOTAL", "PercentageOfTotal"],
-    7
-);
-const baseItemPositionType = pickEnum(
-    AsposeCells.PivotItemPositionType,
-    ["DEFAULT", "Default"],
-    0
-);
-showValuesAs(salesField, displayFormat, -1, baseItemPositionType, -1);
-// --- Save -------------------------------------------------------------------
-workbook.save("ShowValuesAs.xlsx");
-console.log("ShowValuesAs applied and workbook saved.");
+// index form: AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0
+// name form:  AsposeCells.PivotShowValuesAsType.PercentageOf, "Fruit", "Apple"
 ```
 
 | Параметр | Значение | Когда требуется |
 | --- | --- | --- |
-| `displayFormat` | Вторичное вычисление `PivotFieldDataDisplayFormat`, которое следует применить. | Всегда. |
-| `baseField` | Нулевая индексация базового поля среди базовых полей сводной таблицы (например, индекс строкового поля, к которому относится базовый элемент). | Только шесть базовых форматов ниже (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`, `RUNNING_TOTAL_IN`, `PERCENTAGE_OF_RUNNING_TOTAL_IN`, `PERCENTAGE_OF_PARENT_TOTAL`); игнорируется всеми остальными форматами. |
-| `baseItemPositionType` | Способ выбора базового элемента относительно текущего: `PivotItemPositionType.PREVIOUS`, `.NEXT` или `.CUSTOM`. | Только три формата базового элемента (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`); игнорируется всеми остальными форматами. |
-| `baseItem` | Нулевая индексация базового элемента. | Только когда `baseItemPositionType` равен `CUSTOM` (индекс указывает точный базовый элемент); игнорируется для `PREVIOUS`/`NEXT` и всех не‑базовых форматов — передайте `0`. |
+| `showValuesAsType` | `PivotShowValuesAsType` — вторичный расчёт, который необходимо применить. | Всегда. |
+| `baseField` | Нулевой индекс базового поля среди базовых полей сводной таблицы (например, индекс строкового поля, к которому относится базовый элемент) или — в форме имени — имя базового поля. | Восемь форматов, зависящих от базового поля ниже (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, `RankSmallestToLargest`, `RankLargestToSmallest`); для всех остальных форматов передайте `0` (или `null` в форме имени). |
+| `baseItem` | Нулевой индекс базового элемента с двумя сигнальными значениями: -1 выбирает предыдущий элемент, а -2 — следующий (привязка Node.js via C++ не экспортирует именованные константы — передайте литеральные значения). В форме имени вместо индекса используется подпись базового элемента, а `null`, если выбранный формат не требует базового элемента. | Только три формата, использующие базовый элемент (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`) учитывают базовый элемент; пять форматов, зависящих от поля (`RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, оба ранга) игнорируют его — передайте `0` или `null`. |
 
 | Тип расчёта | Поведение | Параметры базового элемента |
 | --- | --- | --- |
-| `NORMAL` | Без вторичного расчёта; отображается агрегированное значение как есть (по умолчанию). | — |
-| `DIFFERENCE_FROM` | Показывает значение как разницу от значения базового элемента в базовом поле. | `baseField` + `PREVIOUS`/`NEXT`/`CUSTOM` (`baseItem` только при `CUSTOM`) |
-| `PERCENTAGE_OF` | Показывает значение как процент от значения базового элемента в базовом поле. | `baseField` + `PREVIOUS`/`NEXT`/`CUSTOM` (`baseItem` только при `CUSTOM`) |
-| `PERCENTAGE_DIFFERENCE_FROM` | Показывает значение как процентную разницу от значения базового элемента в базовом поле. | `baseField` + `PREVIOUS`/`NEXT`/`CUSTOM` (`baseItem` только при `CUSTOM`) |
-| `RUNNING_TOTAL_IN` | Показывает значение как накопительный итог для последовательных элементов базового поля. | `baseField` (поле, определяющее порядок накопления) |
-| `PERCENTAGE_OF_ROW` | Показывает значение как процент от итога строки. | — |
-| `PERCENTAGE_OF_COLUMN` | Показывает значение как процент от итога столбца. | — |
-| `PERCENTAGE_OF_TOTAL` | Показывает значение как процент от общего итога. | — |
-| `INDEX` | Показывает значение по формуле Excel INDEX ((value * grand total) / (row total * column total)). | — |
-| `PERCENTAGE_OF_PARENT_ROW_TOTAL` | Показывает значение как процент от итога родительской строки (для вложенных строковых полей). | — |
-| `PERCENTAGE_OF_PARENT_COLUMN_TOTAL` | Показывает значение как процент от итога родительского столбца (для вложенных столбцовых полей). | — |
-| `PERCENTAGE_OF_PARENT_TOTAL` | Показывает значение как процент от итога родительского уровня. | `baseField` (базовое родительское поле) |
-| `PERCENTAGE_OF_RUNNING_TOTAL_IN` | Показывает значение как процент от накопительного итога в базовом поле. | `baseField` (поле накопления) |
-| `RANK_SMALLEST_TO_LARGEST` | Ранжирует значение от наименьшего (1) к наибольшему. | — |
-| `RANK_LARGEST_TO_SMALLEST` | Ранжирует значение от наибольшего (1) к наименьшему. | — |
+| `Normal` | Без вторичного расчёта; агрегированное значение отображается как есть (по умолчанию). | — |
+| `DifferenceFrom` | Отображает значение как разницу от значения базового элемента в базовом поле. | `baseField` + `baseItem` (индекс или подпись, либо сигнальное предыдущее/следующее значение) |
+| `PercentageOf` | Отображает значение в виде процента от значения базового элемента в базовом поле. | `baseField` + `baseItem` (индекс или подпись, либо сигнальное предыдущее/следующее значение) |
+| `PercentageDifferenceFrom` | Отображает значение как процентную разницу от значения базового элемента в базовом поле. | `baseField` + `baseItem` (индекс или подпись, либо сигнальное предыдущее/следующее значение) |
+| `RunningTotalIn` | Отображает значение как накопительный итог по последовательным элементам базового поля. | `baseField` (поле, порядок элементов которого определяет накопление) |
+| `PercentageOfRow` | Отображает значение как процент от итога строки. | — |
+| `PercentageOfColumn` | Отображает значение как процент от итога столбца. | — |
+| `PercentageOfTotal` | Отображает значение как процент от общего итога. | — |
+| `Index` | Отображает значение, используя формулу индекса Excel ((value * grand total) / (row total * column total)). | — |
+| `PercentageOfParentRowTotal` | Отображает значение как процент от итоговой суммы родительской строки (для вложенных строковых полей). | — |
+| `PercentageOfParentColumnTotal` | Отображает значение как процент от итоговой суммы родительского столбца (для вложенных столбцовых полей). | — |
+| `PercentageOfParentTotal` | Отображает значение как процент от итоговой суммы родительского поля. | `baseField` (родительское поле, чья сумма служит эталоном) |
+| `PercentageOfRunningTotalIn` | Отображает значение как процент от накопительного итога в базовом поле. | `baseField` (поле накопления) |
+| `RankSmallestToLargest` | Ранжирует значение от наименьшего (1) до наибольшего. | `baseField` (поле, элементы которого задают диапазон ранжирования) |
+| `RankLargestToSmallest` | Ранжирует значение от наибольшего (1) до наименьшего. | `baseField` (поле, элементы которого задают диапазон ранжирования) |
 
 {{% alert color="primary" %}}
-`showValuesAs(...)` записывает настройки `PivotShowValuesSetting` (`getCalculationType()`/`setCalculationType()`, `getBaseFieldIndex()`/`setBaseFieldIndex()`, `getBaseItemPositionType()`/`setBaseItemPositionType()`, `getBaseItemIndex()`/`setBaseItemIndex()`) — метод и объект свойства представляют два способа задать одно и то же состояние, аналогично выбору базового поля и базового элемента в диалоговом окне Show Values As Excel.
+`showValuesAs(...)` записывает настройки `PivotShowValuesSetting` (`getShowValuesAs()`/`setShowValuesAs()`, `getBaseFieldIndex()`/`setBaseFieldIndex()`, и `getBaseItemIndex()`/`setBaseItemIndex()`) — метод и объект свойства являются двумя способами настроить одно и то же состояние, отражая выбор базового поля и базового элемента в диалоге Show Values As в Excel.
 {{% /alert %}}
 
-## **Отображение значений в виде процента от общего итога**
-Вызовите метод `PivotField.showValuesAs()` с параметром `PivotFieldDataDisplayFormat.PERCENTAGE_OF_TOTAL`, чтобы преобразовать каждую ячейку поля данных, включая общий итог, в её долю от общего итога. Отображаемые числа тогда представляют собой пропорции полного набора результатов. Этот формат сравнивает каждое значение только с общим итогом, поэтому не требует указания базового поля или базового элемента — завершающие аргументы (`0`, `PivotItemPositionType.PREVIOUS`, `0`) являются заполняющими значениями, которые формат игнорирует, как указано в таблице параметров выше.
+## **Отображение значений как процент от общего итога**
+Вызовите метод `PivotField.showValuesAs()` с параметром `PivotShowValuesAsType.PercentageOfTotal`, чтобы преобразовать каждую ячейку поля данных, включая общий итог, в её долю от общего итога. Отображаемые числа тогда представляют собой пропорции полной выборки. Этот формат сравнивает каждое значение только с общим итогом, поэтому не требуется базовое поле или базовый элемент — конечные аргументы (`0`, `0`) являются заполнителями, которые игнорируются форматом, как указано в таблице параметров выше.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -134,27 +87,22 @@ pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.calculateData();
 // Show the Amount data field as a percentage of the grand total with the
 // one-call method; PercentageOfTotal takes no base item, so the trailing
-// base arguments (0, Previous, 0) are placeholders the format ignores
+// base arguments (0, 0) are placeholders the format ignores
 const dataField = pivotTable.getDataFields().get(0);
-dataField.showValuesAs(
-    AsposeCells.PivotFieldDataDisplayFormat.PercentageOfTotal,
-    0,
-    AsposeCells.PivotItemPositionType.Previous,
-    0
-);
+dataField.showValuesAs(AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0);
 pivotTable.calculateData();
 // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
 workbook.save("ShowValuesAsPercentageOfTotal.xlsx");
 ```
 
 ## **Получить и настроить PivotField.getShowValuesSetting()**
-Прочитайте текущую конфигурацию через `PivotField.getShowValuesSetting()`: аксессор только для чтения возвращает объект `PivotShowValuesSetting` поля, в котором четыре свойства описывают активный расчёт **Show Values As**. Чтобы изменить конфигурацию, вызовите метод `PivotField.showValuesAs()` — он записывает все четыре настройки одним вызовом, поэтому нет необходимости задавать свойства по отдельности.  
-Объект `PivotShowValuesSetting` раскрывает четыре настройки, записываемые `showValuesAs()`:
-- `getCalculationType()` и `setCalculationType()` выбирают вторичное вычисление `PivotFieldDataDisplayFormat`.
-- `getBaseFieldIndex()` и `setBaseFieldIndex()` указывают нулевой индекс базового поля среди полей сводной таблицы. Используется базовыми форматами.
-- `getBaseItemPositionType()` и `setBaseItemPositionType()` определяют позицию базового элемента относительно текущего и принимают значения `PivotItemPositionType.NEXT`, `PivotItemPositionType.PREVIOUS` или `PivotItemPositionType.CUSTOM`.
-- `getBaseItemIndex()` и `setBaseItemIndex()` задают нулевой индекс базового элемента и используются, когда `getBaseItemPositionType()` равно `CUSTOM`.  
-После вызова `showValuesAs()` вновь вызовите `PivotTable.calculateData()`, чтобы тело сводной таблицы было пересчитано и перерисовано с обновлённой конфигурацией.
+Прочитайте текущие настройки через `PivotField.getShowValuesSetting()`: только для чтения аксессор возвращает объект `PivotShowValuesSetting` поля, чьи параметры описывают активный расчёт Show Values As. Чтобы изменить конфигурацию, вызовите метод `PivotField.showValuesAs()` — он записывает все параметры одним вызовом, поэтому вам не придётся задавать их по отдельности.  
+Объект `PivotShowValuesSetting` раскрывает состояние, которое записывает `showValuesAs()`:
+- `getShowValuesAs()` и `setShowValuesAs()` выбирают вторичный расчёт `PivotShowValuesAsType`.
+- `getBaseFieldIndex()` и `setBaseFieldIndex()` указывают нулевой индекс базового поля среди полей сводной таблицы. Он используется в форматах, зависящих от базового поля.
+- `getBaseItemIndex()` и `setBaseItemIndex()` указывают базовый элемент: нулевой индекс конкретного элемента сводной таблицы или одно из двух сигнальных значений — -1 для предыдущего элемента, -2 для следующего (привязка не экспортирует именованные константы). Он используется в форматах, зависящих от базового элемента.
+- `getBaseFieldName()` и `getBaseItemCaption()` — только для чтения представления, которые возвращают разрешённое имя базового поля и подпись базового элемента; например, после выбора сигнального значения предыдущего элемента `getBaseItemCaption()` вернёт `(previous)`.  
+После вызова `showValuesAs()` снова вызовите `PivotTable.calculateData()`, чтобы тело сводной таблицы было пересчитано и перерисовано с обновлённой конфигурацией.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
@@ -163,23 +111,24 @@ const pivotTable = workbook.getWorksheets().get(1).getPivotTables().get(0);
 const dataField = pivotTable.getDataFields().get(0);
 // Read the current show-values settings
 const settings = dataField.getShowValuesSetting();
-console.log(`CalculationType: ${settings.getCalculationType()}`);
+console.log(`ShowValuesAs: ${settings.getShowValuesAs()}`);
 console.log(`BaseFieldIndex: ${settings.getBaseFieldIndex()}`);
-console.log(`BaseItemPositionType: ${settings.getBaseItemPositionType()}`);
 console.log(`BaseItemIndex: ${settings.getBaseItemIndex()}`);
+console.log(`BaseFieldName: ${settings.getBaseFieldName()}`);
+console.log(`BaseItemCaption: ${settings.getBaseItemCaption()}`);
 // Switch to a base-item calculation with the one-call method: difference
 // from the value of the previous item in the row field
+// -1 is the previous-item sentinel (the binding does not export the named constant)
 dataField.showValuesAs(
-    AsposeCells.PivotFieldDataDisplayFormat.DifferenceFrom,
+    AsposeCells.PivotShowValuesAsType.DifferenceFrom,
     pivotTable.getRowFields().get(0).getBaseIndex(),
-    AsposeCells.PivotItemPositionType.Previous,
-    0
+    -1
 );
 pivotTable.calculateData();
 // Note: the percentage number format saved by the previous example still
 // clings to the data field cells; the underlying values are now differences
 // Re-read the applied configuration
-console.log(`CalculationType now: ${dataField.getShowValuesSetting().getCalculationType()}`);
+console.log(`ShowValuesAs now: ${dataField.getShowValuesSetting().getShowValuesAs()}`);
 workbook.save("ShowValuesAsDifferenceFrom.xlsx");
 ```
 

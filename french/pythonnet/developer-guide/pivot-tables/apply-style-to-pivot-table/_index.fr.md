@@ -32,16 +32,16 @@ L'exemple suivant charge un nouveau classeur, renseigne les données d'exemple F
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells.pivot import PivotTableAutoFormatType
-# Scénario 1 : Appliquer un format automatique prédéfini XLS hérité
-# API utilisée : PivotTable.AutoFormatType
-# Format de fichier cible : .xls (hérité)
-# Pour des exemples complets et des fichiers de données, veuillez consulter https://github.com/aspose-cells/Aspose.Cells-for-.NET
-# Créer un nouveau classeur
+# Scenario 1: Apply a legacy XLS preset autoformat
+# API in use: PivotTable.AutoFormatType
+# Target file format: .xls (legacy)
+# For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+# Create a new workbook
 workbook = ac.Workbook()
-# Obtenir la première feuille de calcul
+# Get the first worksheet
 sheet = workbook.worksheets[0]
-# Remplir les données sources avec une ligne d'en-tête (Fruit, Année, Montant)
-# et 9 lignes de données couvrant raisin, myrtille, kiwi, cerise sur 2020 et 2021
+# Populate the source data with header row (Fruit, Year, Amount)
+# and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.cells.get(0, 0).put_value("Fruit")
 sheet.cells.get(0, 1).put_value("Year")
 sheet.cells.get(0, 2).put_value("Amount")
@@ -72,17 +72,17 @@ sheet.cells.get(8, 2).put_value(45)
 sheet.cells.get(9, 0).put_value("grape")
 sheet.cells.get(9, 1).put_value(2020)
 sheet.cells.get(9, 2).put_value(45)
-# Ajouter un tableau croisé dynamique à la cellule de destination E3, nommé, en utilisant la plage source A1:C10
+# Add a pivot table at destination cell E3, using source range A1:C10
 pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
-# Assigner les champs : Fruit -> Lignes, Montant -> Données
+# Assign fields: Fruit -> Rows, Amount -> Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Appliquer le format automatique prédéfini XLS hérité "Report5"
-# Remarque : Cette propriété n'a de sens que lors de l'enregistrement en .xls.
-# Lorsqu'il est enregistré en .xlsx/.xlsm/.xlsb, Excel ignore AutoFormatType
-# et utilise ce que PivotTableStyleType / PivotTableStyleName spécifie.
+# Apply the legacy XLS preset autoformat "Report5"
+# Note: This property is only meaningful when saving as .xls.
+# When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+# and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivot_table.auto_format_type = PivotTableAutoFormatType.REPORT5
-# Enregistrer le classeur au format .xls hérité
+# Save the workbook in legacy .xls format
 workbook.save("output.xls")
 ```
 
@@ -172,7 +172,7 @@ from aspose.cells.tables import TableStyleElementType
 from aspose.pydrawing import Color
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# Remplir les données source : ligne d'en-tête + 9 lignes de données (A1:C10)
+# Populate source data: header row + 9 data rows (A1:C10)
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
@@ -203,15 +203,15 @@ worksheet.cells.get("C9").put_value(800)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(900)
-# Ajouter un tableau croisé dynamique à partir de A1:C10, ancré à E3, nommé
+# Add pivot table sourced from A1:C10, anchored at E3
 pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Étape 1 : enregistrer un nouveau style de tableau croisé dynamique personnalisé et capturer son index
+# Step 1: register a new custom pivot table style and capture its index
 style_index = workbook.worksheets.table_styles.add_pivot_table_style("CustomPivotStyle")
 table_style = workbook.worksheets.table_styles[style_index]
-# Étape 2 : ajouter un élément WholeTable et appliquer des bordures noires fines sur les quatre côtés
+# Step 2: add a WholeTable element and apply thin black borders on all four sides
 whole_table_element_index = table_style.table_style_elements.add(TableStyleElementType.WHOLE_TABLE)
 whole_table_element = table_style.table_style_elements[whole_table_element_index]
 whole_table_style = workbook.create_style()
@@ -224,14 +224,14 @@ whole_table_style.borders.get(ac.BorderType.LEFT_BORDER).color = Color.black
 whole_table_style.borders.get(ac.BorderType.RIGHT_BORDER).line_style = ac.CellBorderType.THIN
 whole_table_style.borders.get(ac.BorderType.RIGHT_BORDER).color = Color.black
 whole_table_element.set_element_style(whole_table_style)
-# Étape 3 : ajouter un élément GrandTotalRow et appliquer une police rouge en gras
+# Step 3: add a GrandTotalRow element and apply bold red font
 grand_total_element_index = table_style.table_style_elements.add(TableStyleElementType.GRAND_TOTAL_ROW)
 grand_total_element = table_style.table_style_elements[grand_total_element_index]
 grand_total_style = workbook.create_style()
 grand_total_style.font.is_bold = True
 grand_total_style.font.color = Color.red
 grand_total_element.set_element_style(grand_total_style)
-# Étape 4 : appliquer le style personnalisé par nom (PAS par PivotTableStyleType, qui est pour les préréglages intégrés)
+# Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivot_table.pivot_table_style_name = "CustomPivotStyle"
 workbook.save("output.xlsx")
 ```
@@ -249,13 +249,13 @@ from aspose.pydrawing import Color
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells import BackgroundType, CellBorderType, BorderType
-# Scénario 4 : Appliquer un seul Style à chaque cellule du tableau croisé dynamique en utilisant format_all
-# API utilisée : PivotTable.format_all(Style)
-# Format cible : .xlsx
-# Référence GitHub : voir le dépôt Aspose.Cells-for-.NET — exemples de style de tableau croisé dynamique
+# Scenario 4: Apply a single Style to every pivot table cell using format_all
+# API in use: PivotTable.format_all(Style)
+# Target format: .xlsx
+# GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# Remplir les données source : ligne d'en-tête (ligne 1) + 9 lignes de données (lignes 2-10)
+# Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
@@ -286,13 +286,13 @@ worksheet.cells.get("C9").put_value(2500)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(5500)
-# Ajouter un tableau croisé dynamique : plage source A1:C10, cellule de destination E3, nom
+# Add pivot table: source range A1:C10, destination cell E3
 pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
-# Affecter les champs du tableau croisé : Fruit -> zone Lignes, Year -> zone Colonnes, Amount -> zone Données
+# Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Construire un Style qui sera forcé sur chaque cellule du tableau croisé dynamique
+# Build a Style that will be forced onto every cell of the pivot table
 style = workbook.create_style()
 style.foreground_color = Color.yellow
 style.pattern = BackgroundType.SOLID
@@ -306,10 +306,10 @@ style.borders.get(BorderType.LEFT_BORDER).line_style = CellBorderType.THIN
 style.borders.get(BorderType.LEFT_BORDER).color = Color.black
 style.borders.get(BorderType.RIGHT_BORDER).line_style = CellBorderType.THIN
 style.borders.get(BorderType.RIGHT_BORDER).color = Color.black
-# Appliquer format_all : force ce style unique sur chaque cellule du tableau croisé dynamique,
-# écrasant tout PivotTableStyleType / PivotTableStyleName précédemment défini
+# Apply format_all: forces this single style onto every cell of the pivot table,
+# overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivot_table.format_all(style)
-# Enregistrer le classeur au format moderne .xlsx
+# Save the workbook in the modern .xlsx format
 workbook.save("output.xlsx")
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for .NET'te Excel Kamera
-linktitle: Aspose.Cells for .NET'te Excel Kamera
+linktitle: Excel Kamera
 description: Aspose.Cells for .NET'te Excel Kamerayı kullanarak, kaynak verilerle yenilenen ve tüm kaynak biçimlendirmesini koruyan bir hücre aralığına bağlı dinamik bir resim oluşturmayı öğrenin.
 keywords: Aspose.Cells, .NET, Excel Kamera, dinamik resim, bağlantılı resim, Picture.Formula, UpdateSelectedValue, CreateRange, ToImage, MemoryStream
 type: docs

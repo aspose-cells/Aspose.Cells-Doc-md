@@ -1,7 +1,7 @@
 ---
 title: Campos de valores en Aspose.Cells for Java
 description: Aprenda cómo agregar campos base a la región de datos de una tabla dinámica, cambiar la función de resumen con PivotField.Function y trazar el campo de valor en el eje de fila o columna en Aspose.Cells for Java.
-linktitle: Campos de valores en Aspose.Cells for Java
+linktitle: Campos de valor
 keywords: Aspose.Cells, Java, tabla dinámica, campo de valor, PivotField, PivotField.Function, campo de datos, PivotTable.ValuesField, Suma, Promedio
 type: docs
 weight: 230
@@ -18,12 +18,12 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// Encabezados en A1:D1
+// Headers in A1:D1
 worksheet.getCells().get(0, 0).putValue("Category");
 worksheet.getCells().get(0, 1).putValue("Item");
 worksheet.getCells().get(0, 2).putValue("Year");
 worksheet.getCells().get(0, 3).putValue("Amount");
-// Filas de datos A2:D9 usando bucles anidados con bifurcación en j
+// Data rows A2:D9 using nested loops branching on j
 for (int i = 1; i <= 8; i++)
 {
  for (int j = 0; j < 4; j++)
@@ -55,9 +55,9 @@ for (int i = 1; i <= 8; i++)
  }
  }
 }
-// Agregar tabla dinámica en F3 con el nombre PivotTable1
+// Add pivot table at F3 with name PivotTable1
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
-// Diseño de tabla dinámica: Categoría e Ítem en Fila, Año en Columna, Monto como campo de datos
+// Pivot layout: Category and Item on Row, Year on Column, Amount as data field
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");

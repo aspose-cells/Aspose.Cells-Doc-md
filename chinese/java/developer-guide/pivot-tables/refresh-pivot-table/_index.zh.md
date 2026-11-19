@@ -1,6 +1,6 @@
 ---
 title: 刷新 Aspose.Cells for Java 中的数据透视表和数据透视缓存
-linktitle: 刷新 Aspose.Cells for Java 中的数据透视表和数据透视缓存
+linktitle: 刷新数据透视表
 description: 了解如何使用 v26.7+ 数据透视表刷新 API 刷新 Aspose.Cells for Java 中的数据透视表。本文介绍 refreshAll、refreshPivotTables、PivotCache.refresh、calculateData 和 getPivotTables，并提供实用的代码示例。
 keywords: Aspose.Cells, Java, 数据透视表, 刷新, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

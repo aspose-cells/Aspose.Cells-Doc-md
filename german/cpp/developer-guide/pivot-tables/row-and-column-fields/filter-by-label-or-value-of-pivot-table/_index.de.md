@@ -1,8 +1,8 @@
 ---
-title: Filtern von Pivot-Tabellen nach Beschriftung oder Wert
-description: Aspose.Cells for C++ unterstützt umfassende Filterfunktionen für Pivot-Tabellen. Dieser Artikel erklärt, wie Pivot-Tabellendaten mit Beschriftungsfiltern, Datumsfiltern, Wertfiltern, Top-10-Filtern sowie durch Aus- oder Einblenden einzelner Pivot-Elemente gefiltert werden.
-linktitle: Filtern von Pivot-Tabellen nach Beschriftung oder Wert
-keywords: Aspose.Cells, C++ Bibliothek, Tabellenkalkulation, Pivot-Tabelle, Filter, Beschriftungsfilter, Wertfilter, Datumsfilter, Top-10-Filter, Pivot-Element, Pivot-Element ausblenden
+title: PivotTables nach Bezeichnung oder Wert filtern
+linktitle: PivotTables nach Bezeichnung oder Wert filtern
+description: Aspose.Cells for C++ unterstützt umfassende Filterfunktionen für PivotTables. Dieser Artikel erläutert, wie Sie PivotTable-Daten mithilfe von Bezeichnungsfiltern, Datumsfiltern, Wertfiltern, Top-10-Filtern sowie durch Aus- oder Einblenden von Pivot-Elementen filtern.
+keywords: Aspose.Cells, C++-Bibliothek, Kalkulationstabelle, PivotTable, Filter, Bezeichnungsfilter, Wertfilter, Datumsfilter, Top-10-Filter, Pivot-Element, Pivot-Element ausblenden
 type: docs
 weight: 10
 url: /de/cpp/filter-by-label-or-value-of-pivot-table/
@@ -11,23 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells stellt fünf praktische Strategien zum Filtern der in einer Pivot-Tabelle angezeigten Daten bereit. Sie können Beschriftungsfilter auf textbasierte Zeilen- oder Spaltenfelder anwenden, Datumsfilter verwenden, wenn das Feld ausschließlich Datums-/Uhrzeit-Zellen oder leere Zellen enthält, Wertfilter auf aggregierte Zahlen anwenden, Top-10-Filter zur Rangfolge nach einem Wertfeld einsetzen oder einzelne Pivot-Elemente manuell über die Eigenschaft `IsHidden` aus- und wieder einblenden. Jede Strategie wird über dedizierte APIs der Klassen `PivotField` und `PivotItem` bereitgestellt.
+Aspose.Cells bietet fünf praktische Strategien zum Filtern der in einer PivotTable angezeigten Daten. Sie können Bezeichnungsfilter auf textbasierte Zeilen- oder Spaltenfelder anwenden, Datumsfilter verwenden, wenn das Feld ausschließlich Zellen mit Datums-/Uhrzeitangaben oder Leerzellen enthält, Wertfilter auf aggregierte Zahlen anwenden, Top-10-Filter zur Rangierung nach einem Wertfeld einsetzen oder einzelne Pivot-Elemente mithilfe der Eigenschaft `IsHidden` manuell aus- und einblenden. Jede Strategie wird über dedizierte APIs in den Klassen `PivotField` und `PivotItem` bereitgestellt.
 {{% /alert %}}
 
-## **Einführung**
-Pivot-Tabellen sind leistungsstarke Analysewerkzeuge, doch Rohzusammenfassungen enthalten oft weitaus mehr Informationen, als Sie präsentieren möchten. Das Filtern ist der wichtigste Mechanismus, um eine Pivot-Tabelle auf die Zeilen, Spalten oder Werte einzugrenzen, die für einen bestimmten Bericht relevant sind. Aspose.Cells for C++ spiegelt die in Microsoft Excel verfügbaren Filterfunktionen wider und stellt diese programmatisch bereit, sodass die Berichterstellung vollständig automatisiert werden kann.
-Die folgenden Filterstrategien werden in diesem Artikel behandelt:
-1. **Beschriftungsfilter** — filtert Elemente von Zeilen- oder Spaltenfeldern basierend auf deren Textbeschriftungen.
-2. **Datumsfilter** — filtert Zeilen- oder Spaltenfelder, die ausschließlich Datums-/Uhrzeit-Werte (oder leere Werte) enthalten.
-3. **Wertfilter** — filtert Elemente basierend auf den aggregierten Werten eines Datenfeldes.
-4. **Top-10-Filter** — zeigt nur die obersten oder untersten N Elemente an, sortiert nach einem Wertfeld.
-5. **Pivot-Elemente ausblenden / einblenden** — steuert manuell die Sichtbarkeit jedes einzelnen Elements in einem Feld.
-Jeder Ansatz verwendet eine andere Methode der Klasse `PivotField` oder eine Eigenschaft der Klasse `PivotItem`. Nach Anwendung eines beliebigen Filters müssen Sie `RefreshData()` und `CalculateData()` auf der Pivot-Tabelle aufrufen, damit die zwischengespeicherten Daten und berechneten Werte den neuen Filterzustand widerspiegeln.
+## **Einleitung**
+PivotTables sind leistungsstarke Analysewerkzeuge, unaufbereitete Zusammenfassungen enthalten jedoch oft weit mehr Informationen, als Sie darstellen möchten. Filtern ist der wichtigste Mechanismus, um eine PivotTable auf die für einen bestimmten Bericht relevanten Zeilen, Spalten oder Werte einzugrenzen. Aspose.Cells for C++ bildet die in Microsoft Excel verfügbaren Filterfunktionen ab und stellt sie programmatisch bereit, sodass die Berichtserstellung vollständig automatisiert werden kann.
+In diesem Artikel werden die folgenden Filterstrategien behandelt:
+1. **Bezeichnungsfilter** — filtert Elemente eines Zeilen- oder Spaltenfelds anhand ihrer Textbeschriftungen.
+2. **Datumsfilter** — filtert Zeilen- oder Spaltenfelder, die ausschließlich Datums-/Uhrzeitwerte oder Leerzellen enthalten.
+3. **Wertfilter** — filtert Elemente anhand der aggregierten Werte eines Datenfelds.
+4. **Top-10-Filter** — zeigt nur die N höchsten oder niedrigsten Elemente an, die anhand eines Wertfelds rangiert sind.
+5. **Pivot-Elemente aus-/einblenden** — steuert manuell die Sichtbarkeit jedes einzelnen Elements in einem Feld.
+Jeder Ansatz verwendet eine jeweils andere Methode der Klasse `PivotField` bzw. eine Eigenschaft der Klasse `PivotItem`. Nach dem Anwenden eines Filters müssen Sie `GetPivotCache().Refresh()` für die PivotTable aufrufen, damit die zwischengespeicherten Daten und berechneten Werte den neuen Filterstatus berücksichtigen.
 
-## **Beschriftungsfilter**
-Ein Beschriftungsfilter ermöglicht es Ihnen, die Elemente eines Zeilen- oder Spaltenfeldes zu filtern, indem deren Textbeschriftungen mit einem Muster verglichen werden. Dies ist nützlich, wenn Sie nur Produkte anzeigen möchten, deren Namen mit einem bestimmten Buchstaben beginnen, ein bestimmtes Wort enthalten oder einem anderen beschriftungsbasierten Kriterium entsprechen.
-Aspose.Cells stellt die Beschriftungsfilterung über die Methode `PivotField.FilterByLabel(PivotFilterType, const char16_t*)` bereit. Die Enumeration `PivotFilterType` enthält Werte wie `CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank`, `CaptionIsBlank` und weitere. Das zweite Argument liefert die Beschriftungszeichenfolge für den Vergleich.
-Das folgende Beispiel lädt eine Arbeitsmappe mit einer vorhandenen Pivot-Tabelle, wendet einen Beschriftungsfilter an, sodass nur Elemente sichtbar bleiben, deren Beschriftungen mit einem bestimmten Präfix beginnen, aktualisiert die Pivot-Tabelle und speichert das Ergebnis.
+## **Bezeichnungsfilter**
+Ein Bezeichnungsfilter ermöglicht es, die Elemente eines Zeilen- oder Spaltenfelds zu filtern, indem ihre Textbeschriftungen mit einem Muster verglichen werden. Dies ist nützlich, wenn Sie nur Produkte anzeigen möchten, deren Namen mit einem bestimmten Buchstaben beginnen, ein bestimmtes Wort enthalten oder ein anderes auf der Beschriftung basierendes Kriterium erfüllen.
+Aspose.Cells stellt die Bezeichnungsfilterung über die Methode `PivotField.FilterByLabel(PivotFilterType, const char16_t*)` bereit. Die Enumeration `PivotFilterType` umfasst Werte wie `CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank`, `CaptionIsBlank` usw. Das zweite Argument ist die zum Vergleich verwendete Bezeichnungszeichenfolge.
+Das folgende Beispiel lädt eine Arbeitsmappe mit einer vorhandenen PivotTable, wendet einen Bezeichnungsfilter an, sodass nur Elemente sichtbar bleiben, deren Beschriftungen mit einem angegebenen Präfix beginnen, aktualisiert die PivotTable und speichert das Ergebnis.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -37,19 +37,19 @@ int main() {
     Aspose::Cells::Startup();
     U16String fileName(u"sample.xlsx");
     U16String prefix(u"B");
-    // Lade die vorhandene Arbeitsmappe, die eine Pivot-Tabelle enthält
+    // Load the existing workbook containing a pivot table
     Workbook wb(fileName);
-    // Greife über den Index auf das Arbeitsblatt zu (erstes Arbeitsblatt)
+    // Access the worksheet by index (first worksheet)
     Worksheet ws = wb.GetWorksheets().Get(0);
-    // Greife über den Index auf die Pivot-Tabelle zu
+    // Access the pivot table by index
     PivotTable pt = ws.GetPivotTables().Get(0);
-    // Hole das erste Zeilen-PivotField
+    // Retrieve the first row PivotField
     PivotField rowField = pt.GetRowFields().Get(0);
-    // Wende den Label-Filter an — zeige nur Zeilenelemente, deren Beschriftungen mit dem angegebenen Präfix beginnen
+    // Apply the label filter — show only row items whose labels begin with the supplied prefix
     rowField.FilterByLabel(PivotFilterType::CaptionBeginsWith, prefix, U16String(u""));
-    // Aktualisiere und berechne die Pivot-Tabellendaten neu, damit der Filter wirksam wird
-    pt.RefreshData();
-    // Speichere die Arbeitsmappe zurück auf die Festplatte
+    // Refresh and recalculate the pivot table data so the filter takes effect
+    pt.GetPivotCache().Refresh();
+    // Save the workbook back to disk
     wb.Save(fileName);
     Aspose::Cells::Cleanup();
     return 0;
@@ -57,12 +57,12 @@ int main() {
 ```
 
 ## **Datumsfilter**
-Datumsfilter ermöglichen es Ihnen, eine Pivot-Tabelle nach datumsbasierten Kriterien wie heute, letzte Woche, diesem Monat, nächstes Quartal oder einem bestimmten Datumsbereich einzugrenzen. Es handelt sich um spezielle Filter, die nur für Felder funktionieren, die Datums-/Uhrzeit-Informationen speichern.
+Datumsfilter ermöglichen es, eine PivotTable anhand von Datumskriterien wie dem heutigen Tag, der letzten Woche, diesem Monat, dem nächsten Quartal oder einem bestimmten Zeitraum einzugrenzen. Es sind spezialisierte Filter, die nur mit Feldern funktionieren, in denen Datums-/Uhrzeitinformationen gespeichert sind.
 
 {{% alert color="primary" %}}
-Der Datumsfilter funktioniert nur, wenn der Zeilen- oder Spaltenbereich ausschließlich Datums-/Uhrzeit-Zellen oder leere Werte enthält. Wenn das zugrundeliegende Feld andere Datentypen wie Zahlen oder Text enthält, liefert der Datumsfilter nicht das erwartete Ergebnis. Stellen Sie sicher, dass das Feld als Datum formatiert ist und alle Werte gültige `DateTime`-Instanzen oder leere Zellen sind, bevor Sie diesen Filter anwenden.
-Aspose.Cells stellt die Datumsfilterung über die Methode `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)` bereit. Die Enumeration `PivotFilterType` enthält dedizierte Datumswerte wie `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` und `Between`. Je nach gewähltem Filtertyp übergeben Sie einen oder zwei `DateTime`-Werte (für `Between` übergeben Sie das Start- und Enddatum).
-Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, deren Zeilenbereich ein Datumsfeld enthält, wendet einen Datumsfilter an, der die sichtbaren Elemente auf einen bestimmten Datumsbereich beschränkt, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
+Der Datumsfilter funktioniert nur, wenn der Zeilen- oder Spaltenbereich ausschließlich Zellen mit Datums-/Uhrzeitangaben oder Leerzellen enthält. Wenn das zugrunde liegende Feld andere Datentypen wie Zahlen oder Text enthält, liefert der Datumsfilter nicht das erwartete Ergebnis. Stellen Sie sicher, dass das Feld als Datum formatiert ist und alle Werte gültige `DateTime`-Instanzen oder leere Zellen sind, bevor Sie diesen Filter anwenden.
+Aspose.Cells stellt die Datumsfilterung über die Methode `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)` bereit. Die Enumeration `PivotFilterType` enthält spezielle Datumswerte wie `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` und `Between`. Je nach ausgewähltem Filtertyp übergeben Sie einen oder zwei `DateTime`-Werte; bei `Between` übergeben Sie das Start- und Enddatum.
+Das folgende Beispiel lädt eine Arbeitsmappe mit einer PivotTable, deren Zeilenbereich ein Datumsfeld enthält, wendet einen Datumsfilter an, der die sichtbaren Elemente auf einen bestimmten Zeitraum beschränkt, aktualisiert die PivotTable und speichert die Arbeitsmappe.
 {{% /alert %}}
 
 ```cpp
@@ -77,25 +77,26 @@ int main() {
     std::string outputPath = "output_filtered.xlsx";
     if (!std::filesystem::exists(inputPath))
     {
-        // Quellarbeitsmappe nicht gefunden.
+        // Source workbook not found.
         Aspose::Cells::Cleanup();
         return -1;
     }
-    // Die vorhandene Arbeitsmappe laden, die die Pivot-Tabelle enthält
+    // Load the existing workbook that contains the pivot table
     Workbook workbook(U16String(inputPath.c_str()));
-    // Auf das Arbeitsblatt zugreifen, das die Pivot-Tabelle enthält (über den Index)
+    // Access the worksheet that holds the pivot table (by index)
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // Auf die Pivot-Tabelle über den Index zugreifen
+    // Access the pivot table by index
     PivotTable pivotTable = worksheet.GetPivotTables().Get(0);
-    // Das Datums-PivotField aus dem Zeilenbereich abrufen
+    // Retrieve the date PivotField from the row area
     PivotField dateField = pivotTable.GetRowFields().Get(0);
-    // Das Datumskriterium für den Zwischen-Filter definieren
+    // Define the date criterion for the Between filter
     Date startDate{2020, 1, 1, 0, 0, 0, 0};
     Date endDate{2020, 12, 31, 0, 0, 0, 0};
-    // Den Datumsfilter auf das Pivot-Feld anwenden
+    // Apply the date filter on the pivot field
     dateField.FilterByDate(PivotFilterType::DateBetween, startDate, endDate);
-    // Die Pivot-Tabelle aktualisieren und neu berechnen, damit der Filter wirksam wird
-    // Die Arbeitsmappe speichern
+    // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
+    // Persist the workbook
     workbook.Save(U16String(outputPath.c_str()));
     Aspose::Cells::Cleanup();
     return 0;
@@ -103,9 +104,9 @@ int main() {
 ```
 
 ## **Wertfilter**
-Wertfilter arbeiten mit den aggregierten Werten, die eine Pivot-Tabelle in ihrem Datenbereich berechnet. Anstatt Textbeschriftungen abzugleichen, vergleichen sie numerische Gesamtsummen mit einem Schwellenwert. Typische Anwendungsfälle sind das Anzeigen nur der Produkte, deren Umsatzsumme einen Zielwert übersteigt, oder nur der Regionen, deren Transaktionsanzahl innerhalb eines Bereichs liegt.
-Aspose.Cells stellt die Wertfilterung über die Methode `PivotField.FilterByValue(PivotField valueField, PivotFilterType filterType, const Vector<Variant>& values)` bereit. Der Parameter `filterType` verwendet Werte wie `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual` und `ValueLessThanOrEqual`. Der Parameter `valueField` gibt an, welches Datenfeld ausgewertet werden soll, und das letzte Argument (bzw. die letzten Argumente) liefert die Schwellenwerte.
-Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, wendet einen Wertfilter an, der nur Elemente beibehält, deren aggregierter Umsatz einen numerischen Schwellenwert überschreitet, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
+Wertfilter wirken auf die aggregierten Werte, die eine PivotTable in ihrem Datenbereich berechnet. Statt Textbeschriftungen abzugleichen, vergleichen sie numerische Summen mit einem Schwellenwert. Typische Anwendungsfälle umfassen die Anzeige nur von Produkten, deren Umsatzsumme einen Zielbetrag überschreitet, oder nur von Regionen, deren Anzahl der Transaktionen in einem bestimmten Bereich liegt.
+Aspose.Cells stellt die Wertfilterung über die Methode `PivotField.FilterByValue(PivotField valueField, PivotFilterType filterType, const Vector<Variant>& values)` bereit. Der Parameter `filterType` verwendet Werte wie `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual` und `ValueLessThanOrEqual`. Der Parameter `valueField` legt fest, welches Datenfeld ausgewertet werden soll, und das letzte Argument bzw. die letzten Argumente liefern die Schwellenwerte.
+Das folgende Beispiel lädt eine Arbeitsmappe mit einer PivotTable, wendet einen Wertfilter an, der nur Elemente beibehält, deren aggregierter Umsatz einen numerischen Schwellenwert überschreitet, aktualisiert die PivotTable und speichert die Arbeitsmappe.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -134,6 +135,8 @@ int main() {
     {
         rowField.FilterByValue(dataFieldIndex, PivotFilterType::ValueGreaterThan, 5000, DBL_MAX);
     }
+    // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     wb.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -141,12 +144,12 @@ int main() {
 ```
 
 ## **Top-10-Filter**
-Der Top-10-Filter ist eine spezielle Form des Wertfilters, der nur die höchsten oder niedrigsten N Elemente basierend auf einem ausgewählten Wertfeld beibehält. Er wird häufig für Rangberichte wie „Top 10 Produkte nach Umsatz" oder „Untere 5 Regionen nach Verkaufsanzahl" verwendet.
+Der Top-10-Filter ist eine spezialisierte Form des Wertfilters, die auf Grundlage eines ausgewählten Wertfelds nur die N höchsten oder niedrigsten Elemente beibehält. Er wird häufig für Ranking-Berichte wie „Top 10 Produkte nach Umsatz“ oder „Bottom 5 Regionen nach Verkaufsanzahl“ verwendet.
 
 {{% alert color="primary" %}}
-Der Top-10-Filter ist nur wirksam, wenn die Pivot-Tabelle über ein oder mehrere Wertfelder im Datenbereich verfügt. Ohne mindestens ein Wertfeld gibt es keine aggregierte Messgröße, gegen die die Elemente eingestuft werden können, und der Filter kann nicht angewendet werden.
-Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)` bereit. Der Parameter `valueFieldIndex` ist der Index des Datenfelds, dessen aggregierte Werte die Elemente reihenfolgen, `type` wählt die Einheit von `itemCount` (`PivotFilterType::Count` behält eine feste Anzahl von Elementen, `PivotFilterType::Percent` behält einen Prozentsatz der Elemente, sodass `itemCount` der Prozentsatz selbst ist), `isTop` gibt an, ob die obersten (true) oder die untersten (false) Elemente behalten werden, und `itemCount` legt fest, wie viele Elemente oder welcher Prozentsatz erhalten bleibt.
-Das folgende Beispiel lädt eine Arbeitsmappe mit einer Pivot-Tabelle, die ein Wertfeld enthält, wendet einen Top-10-Filter an, um nur die obersten 10 Elemente nach der Umsatzsumme beizubehalten, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
+Der Top-10-Filter ist nur wirksam, wenn die PivotTable im Datenbereich ein oder mehrere Wertfelder enthält. Ohne mindestens ein Wertfeld gibt es keine aggregierte Kennzahl, anhand der die Elemente rangiert werden können, und der Filter kann nicht angewendet werden.
+Aspose.Cells stellt die Top-10-Filterung über die Methode `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)` bereit. Der Parameter `valueFieldIndex` ist der Index des Datenfelds, dessen aggregierte Werte die Elemente einordnen. `type` legt die Einheit von `itemCount` fest: `PivotFilterType::Count` behält eine feste Anzahl von Elementen bei, während `PivotFilterType::Percent` einen Prozentsatz der Elemente beibehält, sodass `itemCount` selbst der Prozentsatz ist. `isTop` gibt an, ob die höchsten (`true`) oder die niedrigsten Elemente (`false`) beibehalten werden sollen, und `itemCount` legt fest, wie viele Elemente oder welcher Prozentsatz beibehalten werden soll.
+Das folgende Beispiel lädt eine Arbeitsmappe mit einer PivotTable, die ein Wertfeld enthält, wendet einen Top-10-Filter an, um nur die zehn höchsten Elemente nach der Umsatzsumme beizubehalten, aktualisiert die PivotTable und speichert die Arbeitsmappe.
 {{% /alert %}}
 
 ```cpp
@@ -168,15 +171,17 @@ int main() {
     PivotField rowField = pivotTable.GetRowFields().Get(0);
     int valueFieldIndex = 0;
     rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
+    // Refresh the pivot table data and recalculate it so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     workbook.Save(outputPath);
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-## **Filtern durch Aus- oder Einblenden von Pivot-Elementen**
-Zusätzlich zu den strukturierten Filter-APIs ermöglicht Aspose.Cells die direkte Steuerung der Sichtbarkeit jedes einzelnen Pivot-Elements. Durch Iteration über die `PivotItems`-Sammlung eines `PivotField` und Umschalten der Eigenschaft `IsHidden` können Sie bestimmte Elemente selektiv unterdrücken, ohne einen formelbasierten Filter anzuwenden. Das Setzen von `IsHidden = true` blendet das Element aus der Pivot-Tabelle aus; das Setzen von `IsHidden = false` blendet es wieder ein und macht es erneut sichtbar.
-Dieser Ansatz ist nützlich, wenn die Filterregel unregelmäßig oder elementspezifisch ist, etwa um eine kleine Anzahl benannter Kategorien auszublenden, die in einem bestimmten Bericht nicht erscheinen sollen. Das folgende Beispiel lädt eine Pivot-Tabelle, blendet ein bestimmtes Element nach Namen aus, zeigt, wie es wieder eingeblendet wird, aktualisiert die Pivot-Tabelle und speichert die Arbeitsmappe.
+## **Pivot-Elemente aus- oder einblenden**
+Zusätzlich zu den strukturierten Filter-APIs ermöglicht Aspose.Cells die direkte Steuerung der Sichtbarkeit jedes einzelnen Pivot-Elements. Indem Sie die `PivotItems`-Sammlung eines `PivotField` durchlaufen und die Eigenschaft `IsHidden` umschalten, können Sie bestimmte Elemente gezielt ausblenden, ohne einen formelbasierten Filter anzuwenden. Das Setzen von `IsHidden = true` blendet das Element aus der PivotTable aus; das Setzen von `IsHidden = false` blendet es wieder ein und macht es sichtbar.
+Dieser Ansatz ist nützlich, wenn die Filterregel unregelmäßig oder elementbezogen ist, beispielsweise wenn eine kleine Anzahl benannter Kategorien, die in einem bestimmten Bericht nicht erscheinen dürfen, ausgeblendet werden soll. Das folgende Beispiel lädt eine Arbeitsmappe mit einer PivotTable, blendet ein bestimmtes Element anhand seines Namens aus, demonstriert das Einblenden, aktualisiert die PivotTable und speichert die Arbeitsmappe.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -185,36 +190,36 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Lade eine vorhandene Arbeitsmappe, die eine Pivot-Tabelle enthält
+    // Load an existing workbook containing a pivot table
     Workbook workbook(u"pivot_table_sample.xlsx");
-    // Greife auf das erste Arbeitsblatt zu, das die Pivot-Tabelle enthält
+    // Access the first worksheet which contains the pivot table
     Worksheet sheet = workbook.GetWorksheets().Get(0);
-    // Greife über den Index auf die Pivot-Tabelle zu (die erste Pivot-Tabelle auf dem Blatt)
+    // Access the pivot table by index (the first pivot table on the sheet)
     PivotTable pivotTable = sheet.GetPivotTables().Get(0);
-    // Rufe das Ziel-PivotField ab (das erste Zeilenbeschriftungsfeld, in dem wir Elemente ausblenden/einblenden werden)
+    // Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
     PivotField pivotField = pivotTable.GetRowFields().Get(0);
-    // Durchlaufe die PivotItems-Sammlung des ausgewählten PivotField
+    // Iterate through the PivotItems collection of the selected PivotField
     int itemCount = pivotField.GetPivotItems().GetCount();
     for (int i = 0; i < itemCount; i++)
     {
         PivotItem item = pivotField.GetPivotItems().Get(i);
         U16String name = item.GetName();
         std::string nameStr = name.ToUtf8();
-        // Blende Pivot-Elemente aus, die einem bestimmten Namen/Kriterium entsprechen
+        // Hide pivot items that match a specific name/criterion
         if (nameStr == "Item1" || nameStr == "Item2")
         {
             item.SetIsHidden(true);
         }
-        // Demonstriere das Einblenden: zeige ein zuvor ausgeblendetes Pivot-Element erneut an
+        // Demonstrate unhiding: re-show a previously hidden pivot item
         if (nameStr == "Item3")
         {
             item.SetIsHidden(false);
         }
     }
-    // Aktualisiere und berechne die Pivot-Tabelle neu, damit die Änderungen wirksam werden
-    pivotTable.CalculateData();
-    // Speichere die Arbeitsmappe – ausgeblendete Elemente bleiben in den zugrunde liegenden Daten erhalten,
-    // werden jedoch aus der angezeigten Pivot-Tabellen-Ausgabe ausgeschlossen
+    // Refresh and recalculate the pivot table so changes take effect
+    pivotTable.GetPivotCache().Refresh();
+    // Save the workbook — hidden items stay in the underlying data
+    // but are excluded from the displayed pivot table output
     workbook.Save(u"output_pivot_filtered.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -222,6 +227,13 @@ int main() {
 ```
 
 ## **Zusammenfassung**
-Aspose.Cells for C++ stellt einen vollständigen Satz an Filterfunktionen für Pivot-Tabellen bereit, die denen in Microsoft Excel entsprechen. Beschriftungs-, Datums- und Wertfilter decken die häufigsten Analyseszenarien ab, während der Top-10-Filter Rangberichte abdeckt. Wenn die Filterregel unregelmäßig ist, bietet die Eigenschaft `PivotItem.IsHidden` eine flexible, elementbezogene Ausweichmöglichkeit. Die Kombination dieser Strategien — beispielsweise das Anwenden eines Beschriftungsfilters und anschließendes Ausblenden bestimmter Elemente — ermöglicht es Ihnen, vollständig aus dem Code heraus präzise zugeschnittene Pivot-Tabellenberichte zu erstellen.
+Aspose.Cells for C++ bietet einen vollständigen Satz an PivotTable-Filterfunktionen, die den in Microsoft Excel verfügbaren entsprechen. Bezeichnungs-, Datums- und Wertfilter decken die häufigsten Analyseszenarien ab, während der Top-10-Filter für Ranking-Berichte geeignet ist. Wenn die Filterregel unregelmäßig ist, bietet die Eigenschaft `PivotItem.IsHidden` eine flexible Alternative auf Elementebene. Die Kombination dieser Strategien – beispielsweise das Anwenden eines Bezeichnungsfilters und das anschließende Ausblenden bestimmter Elemente – ermöglicht es Ihnen, mithilfe von Code präzise zugeschnittene PivotTable-Berichte zu erstellen.
+
+## Verwandte Artikel
+- [PivotTable einfügen](/cells/de/cpp/create-pivot-table/)
+- [Zeilen- und Spaltenfelder zu einer PivotTable in Aspose.Cells for C++ hinzufügen](/cells/de/cpp/pivot-table-add-row-and-column-fields/)
+- [Filterfelder zu einer PivotTable in Aspose.Cells for C++ hinzufügen](/cells/de/cpp/add-page-field-in-pivot-table/)
+- [Wertfelder einer PivotTable in Aspose.Cells for C++ verwalten](/cells/de/cpp/manage-value-fields/)
+- [PivotTables und Pivot-Caches in Aspose.Cells for C++ aktualisieren](/cells/de/cpp/refresh-pivot-table/)
 
 {{< app/cells/assistant language="cpp" >}}

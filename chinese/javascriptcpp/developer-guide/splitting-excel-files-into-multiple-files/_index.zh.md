@@ -1,6 +1,6 @@
 ---
 title: 将 Excel 文件拆分为多个文件
-linktitle: 将 Excel 文件拆分为多个文件
+linktitle: 拆分Excel文件
 description: Aspose.Cells for JavaScript via C++ 是一个用于处理电子表格文件的 JavaScript via C++ 库，支持将单个 Excel 文件拆分为多个文件。本篇文章将介绍如何通过将每个工作表复制到单独的工作簿以及将特定单元格区域复制到其他工作簿来拆分 Excel 文件。
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++ 库, 电子表格, 拆分 Excel 文件, 复制工作表, 复制区域, 多个工作簿, 另存为独立文件
 type: docs

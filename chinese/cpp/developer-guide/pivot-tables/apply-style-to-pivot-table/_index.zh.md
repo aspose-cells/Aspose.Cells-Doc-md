@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for C++ 中为数据透视表应用样式
-linktitle: 在 Aspose.Cells for C++ 中为数据透视表应用样式
+linktitle: 应用数据透视表样式
 description: 学习如何在 Aspose.Cells for C++ 中为数据透视表应用内置和自定义样式，涵盖旧版 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式以及 FormatAll 快捷方法。
 keywords: Aspose.Cells C++ 数据透视表样式, PivotTableStyleType, AutoFormatType, FormatAll, 自定义样式, PivotTableStyleName, TableStyles
 type: docs
@@ -34,12 +34,12 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // 创建新的工作簿
+    // Create a new workbook
     Workbook workbook;
-    // 获取第一个工作表
+    // Get the first worksheet
     Worksheet sheet = workbook.GetWorksheets().Get(0);
-    // 使用表头行（Fruit、Year、Amount）填充源数据
-    // 包含 9 行数据，覆盖 2020 年和 2021 年的葡萄、蓝莓、猕猴桃和樱桃
+    // Populate the source data with header row (Fruit, Year, Amount)
+    // and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
     sheet.GetCells().Get(0, 0).PutValue(u"Fruit");
     sheet.GetCells().Get(0, 1).PutValue(u"Year");
     sheet.GetCells().Get(0, 2).PutValue(u"Amount");
@@ -70,14 +70,14 @@ int main() {
     sheet.GetCells().Get(9, 0).PutValue(u"grape");
     sheet.GetCells().Get(9, 1).PutValue(2020);
     sheet.GetCells().Get(9, 2).PutValue(45);
- // 在目标单元格 E3 处添加名为“Pivot1”的数据透视表，使用源区域 A1:C10
+ // Add a pivot table at destination cell E3, using source range A1:C10
     PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // 分配字段：Fruit -> 行，Amount -> 数据
+    // Assign fields: Fruit -> Rows, Amount -> Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // 应用旧版 XLS 预设自动格式“Report5”
+    // Apply the legacy XLS preset autoformat "Report5"
     pivotTable.SetAutoFormatType(PivotTableAutoFormatType::Report5);
-    // 以旧版 .xls 格式保存工作簿
+    // Save the workbook in legacy .xls format
     workbook.Save(u"output.xls");
     Aspose::Cells::Cleanup();
     return 0;
@@ -165,7 +165,7 @@ int main() {
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // 填充源数据：表头行 + 9 行数据（A1:C10）
+    // Populate source data: header row + 9 data rows (A1:C10)
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
@@ -196,15 +196,15 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(900);
- // 添加数据源为 A1:C10 的数据透视表，定位在 E3，名称为
+ // Add pivot table sourced from A1:C10, anchored at E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // 步骤 1：注册一个新的自定义数据透视表样式并获取其索引
+    // Step 1: register a new custom pivot table style and capture its index
     int styleIndex = workbook.GetWorksheets().GetTableStyles().AddPivotTableStyle(u"CustomPivotStyle");
     TableStyle tableStyle = workbook.GetWorksheets().GetTableStyles().Get(styleIndex);
-    // 步骤 2：添加 WholeTable 元素，并在四边应用黑色细边框
+    // Step 2: add a WholeTable element and apply thin black borders on all four sides
     int wholeTableElementIndex = tableStyle.GetTableStyleElements().Add(TableStyleElementType::WholeTable);
     TableStyleElement wholeTableElement = tableStyle.GetTableStyleElements().Get(wholeTableElementIndex);
     Style wholeTableStyle = workbook.CreateStyle();
@@ -217,14 +217,14 @@ int main() {
     wholeTableStyle.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
     wholeTableStyle.GetBorders().Get(BorderType::RightBorder).SetColor(Color::Black());
     wholeTableElement.SetElementStyle(wholeTableStyle);
-    // 步骤 3：添加 GrandTotalRow 元素，并应用粗体红色字体
+    // Step 3: add a GrandTotalRow element and apply bold red font
     int grandTotalElementIndex = tableStyle.GetTableStyleElements().Add(TableStyleElementType::GrandTotalRow);
     TableStyleElement grandTotalElement = tableStyle.GetTableStyleElements().Get(grandTotalElementIndex);
     Style grandTotalStyle = workbook.CreateStyle();
     grandTotalStyle.GetFont().SetIsBold(true);
     grandTotalStyle.GetFont().SetColor(Color::Red());
     grandTotalElement.SetElementStyle(grandTotalStyle);
-    // 步骤 4：通过名称应用自定义样式（不要使用 PivotTableStyleType，它用于内置预设）
+    // Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
     pivotTable.SetPivotTableStyleName(u"CustomPivotStyle");
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
@@ -249,11 +249,11 @@ int main() {
     Aspose::Cells::Startup();
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
-    // 表头行
+    // Header row
     worksheet.GetCells().Get(u"A1").PutValue(u"Fruit");
     worksheet.GetCells().Get(u"B1").PutValue(u"Year");
     worksheet.GetCells().Get(u"C1").PutValue(u"Amount");
-    // 数据行
+    // Data rows
     worksheet.GetCells().Get(u"A2").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B2").PutValue(2020);
     worksheet.GetCells().Get(u"C2").PutValue(5000);
@@ -281,13 +281,13 @@ int main() {
     worksheet.GetCells().Get(u"A10").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B10").PutValue(2021);
     worksheet.GetCells().Get(u"C10").PutValue(5500);
- // 添加数据透视表:源区域 A1:C10,目标单元格 E3,名称
+ // Add pivot table: source range A1:C10, destination cell E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // 分配数据透视表字段
+    // Assign pivot fields
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // 构建一个样式,将其强制应用到数据透视表的每个单元格
+    // Build a Style that will be forced onto every cell of the pivot table
     Style style = wb.CreateStyle();
     style.SetForegroundColor(Color::Yellow());
     style.SetPattern(BackgroundType::Solid);
@@ -301,9 +301,9 @@ int main() {
     style.GetBorders().Get(BorderType::LeftBorder).SetColor(Color::Black());
     style.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
     style.GetBorders().Get(BorderType::RightBorder).SetColor(Color::Black());
-    // 应用 FormatAll
+    // Apply FormatAll
     pivotTable.FormatAll(style);
-    // 保存工作簿
+    // Save the workbook
     wb.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

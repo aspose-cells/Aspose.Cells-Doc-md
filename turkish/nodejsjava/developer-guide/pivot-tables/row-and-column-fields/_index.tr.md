@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via Java ile Özet Tablosuna Satır ve Sütun Alanları Ekleme
-linktitle: Aspose.Cells for Node.js via Java ile Özet Tablosuna Satır ve Sütun Alanları Ekleme
+linktitle: Satır ve Sütun Alanları
 description: Aspose.Cells for Node.js via Java kullanarak bir özet tablonun satır ve sütun bölgelerine temel alanlar eklemeyi ve özet tablo alanlarının alt toplamlarını PivotField.setSubtotals ile kontrol etmeyi öğrenin
 keywords: Aspose.Cells, Node.js, Java, özet tablo, satır alanı, sütun alanı, PivotField, setSubtotals, PivotFieldSubtotalType, alt toplamlar
 type: docs

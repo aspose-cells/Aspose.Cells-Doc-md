@@ -55,22 +55,22 @@ Om du skyddar arbetsboksstrukturen hindras andra användare från att visa dolda
 
 ```java
 import com.aspose.cells.*;
-// Skapa en ny arbetsbok
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Lägg till ett andra kalkylblad
+// Add a second worksheet
 workbook.getWorksheets().add();
-// Skriv ett exempelvärde till cell A1 i det första kalkylbladet
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// Skydda arbetsbokens struktur
+// Protect the workbook structure
 workbook.protect(ProtectionType.STRUCTURE, "StructPwd");
-// Spara arbetsboken som structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 String filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// Ladda om filen till en ny Workbook-instans
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// Ta bort strukturskyddet
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// Skriv ut bekräftelsemeddelande
+// Print confirmation message
 System.out.println("Structure protection has been successfully removed from the workbook.");
 ```
 

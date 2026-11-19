@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for C++ ile Excel Kamera
-linktitle: Aspose.Cells for C++ ile Excel Kamera
+linktitle: Excel Kamera
 description: Aspose.Cells for C++'ta Excel Kamerayı kullanarak kaynak verilerle yenilenen ve tüm kaynak biçimlendirmesini koruyan bir hücre aralığına bağlı dinamik bir resim oluşturmayı öğrenin.
 keywords: Aspose.Cells, C++, Excel Kamera, dinamik resim, bağlı resim, Picture.Formula, UpdateSelectedValue, CreateRange, ToImage, Vector
 type: docs
@@ -37,7 +37,7 @@ int main()
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(U16String("CameraDemo"));
-    // Dinamik Kamera: boş bir resim ekleyin, Formül ile A1:F10'a bağlayın, ardından yenileyin
+    // Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
     int index = worksheet.GetPictures().Add(10, 6, Vector<uint8_t>());
     Picture picture = worksheet.GetPictures().Get(index);
     picture.SetFormula(U16String("A1:F10"));
@@ -65,7 +65,7 @@ int main()
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(U16String("CameraDemo"));
-    // Statik Kamera: Range oluştur, bayt olarak işle, resim olarak ekle
+    // Static Camera: build Range, render to bytes, add as picture
     Range range = worksheet.GetCells().CreateRange(U16String("A1:F10"));
     Vector<uint8_t> imageBytes = range.ToImage(nullptr);
     worksheet.GetPictures().Add(10, 6, imageBytes);

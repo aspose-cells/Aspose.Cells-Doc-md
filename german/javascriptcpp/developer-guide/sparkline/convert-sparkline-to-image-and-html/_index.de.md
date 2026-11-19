@@ -1,6 +1,6 @@
 ---
 title: Sparkline mit Aspose.Cells for JavaScript via C++ in ein Bild und HTML konvertieren
-linktitle: Sparkline mit Aspose.Cells for JavaScript via C++ in ein Bild und HTML konvertieren
+linktitle: Sparkline in Bild und HTML konvertieren
 description: Erfahren Sie, wie Sie mit Aspose.Cells Sparklines als eigenständige Bilder zum Einbetten in Zellen rendern und Arbeitsblätter mit Sparklines mithilfe von HtmlSaveOptions in HTML exportieren.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, Sparkline, sparkline.toImage, cell.embeddedImage, HtmlSaveOptions, Sparkline rendern, Sparkline in ein Bild konvertieren, Sparkline in HTML exportieren
 type: docs
@@ -54,17 +54,17 @@ In diesem Arbeitsablauf erstellen Sie ein Arbeitsblatt mit einem kleinen Bereich
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Eine neue Arbeitsmappe erstellen und auf das erste Arbeitsblatt zugreifen
+            // Create a new workbook and access the first worksheet
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Beispieldaten in den Zellen A1:E1 einfüllen
+            // Populate sample data in cells A1:E1
             cells.get("A1").value = 5;
             cells.get("B1").value = -3;
             cells.get("C1").value = 8;
             cells.get("D1").value = -2;
             cells.get("E1").value = 6;
-            // Eine Sparkline-Gruppe vom Typ Linie hinzufügen, die in F1 verankert ist (Spalte 5, Zeile 0)
+            // Add a Line sparkline group anchored at F1 (column 5, row 0)
             const lineArea = new CellArea();
             lineArea.startColumn = 5;
             lineArea.endColumn = 5;
@@ -76,7 +76,7 @@ In diesem Arbeitsablauf erstellen Sie ein Arbeitsblatt mit einem kleinen Bereich
                 false,
                 lineArea
             );
-            // Eine Sparkline-Gruppe vom Typ Säule hinzufügen, die in G1 verankert ist (Spalte 6, Zeile 0)
+            // Add a Column sparkline group anchored at G1 (column 6, row 0)
             const columnArea = new CellArea();
             columnArea.startColumn = 6;
             columnArea.endColumn = 6;
@@ -88,7 +88,7 @@ In diesem Arbeitsablauf erstellen Sie ein Arbeitsblatt mit einem kleinen Bereich
                 false,
                 columnArea
             );
-            // Eine Gewinn/Verlust-Sparkline-Gruppe (gestapelt) hinzufügen, die in H1 verankert ist (Spalte 7, Zeile 0)
+            // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
             const stackedArea = new CellArea();
             stackedArea.startColumn = 7;
             stackedArea.endColumn = 7;
@@ -100,19 +100,19 @@ In diesem Arbeitsablauf erstellen Sie ein Arbeitsblatt mit einem kleinen Bereich
                 false,
                 stackedArea
             );
-            // Bildoptionen für die PNG-Ausgabe konfigurieren
+            // Configure image options for PNG output
             const imageOptions = new ImageOrPrintOptions();
             imageOptions.imageType = AsposeCells.ImageType.Png;
-            // Die Liniendiagramm-Sparkline in ein Bild umwandeln und in Zelle F2 einbetten
+            // Convert the Line sparkline to image and embed it in cell F2
             const lineSp = worksheet.sparklineGroups.get(lineIdx).sparklines.get(0);
             cells.get("F2").embeddedImage = lineSp.toImage(imageOptions);
-            // Die Säulendiagramm-Sparkline in ein Bild umwandeln und in Zelle G2 einbetten
+            // Convert the Column sparkline to image and embed it in cell G2
             const columnSp = worksheet.sparklineGroups.get(columnIdx).sparklines.get(0);
             cells.get("G2").embeddedImage = columnSp.toImage(imageOptions);
-            // Die Gewinn/Verlust-Sparkline in ein Bild umwandeln und in Zelle H2 einbetten
+            // Convert the Win/Loss sparkline to image and embed it in cell H2
             const stackedSp = worksheet.sparklineGroups.get(stackedIdx).sparklines.get(0);
             cells.get("H2").embeddedImage = stackedSp.toImage(imageOptions);
-            // Arbeitsmappe auf der Festplatte speichern
+            // Save the workbook to disk
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

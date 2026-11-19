@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for JavaScript via C++ 中向数据透视表添加行字段和列字段
-linktitle: 在 Aspose.Cells for JavaScript via C++ 中向数据透视表添加行字段和列字段
+linktitle: 行列字段
 description: 了解如何在 Aspose.Cells for JavaScript via C++ 中使用 PivotField.SetSubtotals 和 PivotFieldSubtotalType，向数据透视表添加行字段和列字段，并控制数据透视字段的小计。
 keywords: Aspose.Cells, JavaScript via C++, 数据透视表, 行字段, 列字段, PivotField, setSubtotals, PivotFieldSubtotalType, 小计, JavaScript, Excel 数据透视表
 type: docs

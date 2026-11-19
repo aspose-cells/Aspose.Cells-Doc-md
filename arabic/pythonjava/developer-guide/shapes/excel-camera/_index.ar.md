@@ -35,7 +35,7 @@ from asposecells.api import Workbook, SaveFormat
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
-# الكاميرا الديناميكية: أضف صورة فارغة، اربطها عبر الصيغة بـ A1:F10، ثم حدّث
+# Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 pictures = worksheet.getPictures()
 index = pictures.add(10, 6, b"")
 pictures.get(index).setFormula("A1:F10")
@@ -60,7 +60,7 @@ from java.io import ByteArrayInputStream
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
 worksheet.setName("CameraDemo")
-# الكاميرا الثابتة: بناء النطاق، التحويل إلى بايتات، التفاف في ByteArrayInputStream، الإضافة كصورة
+# Static Camera: build Range, render to bytes, wrap in ByteArrayInputStream, add as picture
 range_ = worksheet.getCells().createRange("A1:F10")
 image_bytes = range_.toImage(None)
 pictures = worksheet.getPictures()

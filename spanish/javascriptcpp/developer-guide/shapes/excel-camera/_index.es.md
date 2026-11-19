@@ -1,6 +1,6 @@
 ---
 title: Cámara de Excel en Aspose.Cells for JavaScript via C++
-linktitle: Cámara de Excel en Aspose.Cells for JavaScript via C++
+linktitle: Cámara de Excel
 description: Aprenda a usar la cámara de Excel en Aspose.Cells for JavaScript via C++ para crear una imagen dinámica vinculada a un rango de celdas que se actualiza con los datos de origen y conserva todo el formato de origen.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, Cámara de Excel, imagen dinámica, imagen vinculada, picture.formula, updateSelectedValue, createRange, toImage, Buffer
 type: docs
@@ -54,7 +54,7 @@ El siguiente código crea un libro de trabajo, agrega una imagen vacía anclada 
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // Cámara dinámica: agregar una imagen vacía, vincularla mediante Formula a A1:F10 y luego actualizar
+            // Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
             const pictures = worksheet.pictures;
             const index = pictures.add(10, 6, null);
             const picture = pictures.get(0);
@@ -109,7 +109,7 @@ El siguiente código crea un libro de trabajo, construye un `Range` para `A1:F10
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // Cámara estática: crear Range, renderizar a bytes, envolver en MemoryStream y agregar como imagen
+            // Static Camera: build Range, render to bytes, wrap in MemoryStream, add as picture
             const range = worksheet.cells.createRange("A1:F10");
             const imageData = range.toImage();
             const pictures = worksheet.pictures;

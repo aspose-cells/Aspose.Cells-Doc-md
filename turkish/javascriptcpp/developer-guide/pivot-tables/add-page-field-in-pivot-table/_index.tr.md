@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for JavaScript via C++ ile Özet Tabloya Filtre Alanları Ekleme
-linktitle: Aspose.Cells for JavaScript via C++ ile Özet Tabloya Filtre Alanları Ekleme
+linktitle: Filtre Alanları Ekle
 description: Aspose.Cells for JavaScript via C++ kullanarak özet tablolarda filtre alanlarını nasıl ekleyeceğinizi ve yapılandıracağınızı öğrenin. Bu kılavuz, filtre alanları ekleme, tekli seçimle filtreleme ve çoklu seçimle filtreleme senaryolarını kapsar.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, özet tablo, filtre alanı, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filtre
 type: docs
@@ -45,16 +45,16 @@ Aşağıdaki örnek, küçük bir `Fruit` / `Year` / `Amount` veri kümesi oluş
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Yeni bir çalışma kitabı oluştur
+            // Create a new workbook
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "Data";
-            // Başlık satırını ayarla
+            // Set up the header row
             const cells = worksheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // Örnek verilerle 9 satır doldur: Fruit, Year, Amount
+            // Populate 9 rows of sample data: Fruit, Year, Amount
             const data = [
                 ["apple", 2020, 100],
                 ["banana", 2021, 200],
@@ -71,15 +71,15 @@ Aşağıdaki örnek, küçük bir `Fruit` / `Year` / `Amount` veri kümesi oluş
                 cells.get(i + 1, 1).value = data[i][1];
                 cells.get(i + 1, 2).value = data[i][2];
             }
-            // E3 hücresine sabitlenmiş bir pivot tablo ekle
+            // Add a pivot table anchored at cell E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // Alanları ilgili alanlara ekle: Fruit Satır, Amount Veri, Year Sayfa alanı olarak
+            // Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-            // Pivot tablo verilerini yenile ve hesapla
+            // Refresh and calculate the pivot table data
             pivotTable.calculateData();
-            // Çalışma kitabını kaydet
+            // Save the workbook
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -118,19 +118,19 @@ Halihazırda bir `PivotField` örneğiyle çalışıyorsanız, bu nesneyi doğru
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // — Pivot tablo ve sayfa alanı, tam olarak
-            //   Senaryo 1a'daki gibi oluşturulur (Fruit/Year/Amount verisi, pivot E3'te,
-            //   Fruit→Satır, Amount→Veri). Aşağıda Year PivotField'i
-            //   BaseFields koleksiyonundan alıp PageFields.Add'e geçiriyoruz —
-            //   AddFieldToArea'nın düşük seviyeli alternatifi. Sonuç,
-            //   işlevsel olarak Senaryo 1a ile aynıdır.
+            // — The pivot table and page field are constructed exactly as in
+            //   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+            //   Amount→Data). Below we obtain the Year PivotField from the
+            //   BaseFields collection and pass it to PageFields.Add — the
+            //   low-level alternative to AddFieldToArea. The result is
+            //   functionally identical to Scenario 1a.
             const workbook = new Workbook();
             const sheet = workbook.worksheets.get(0);
-            // Başlıklar
+            // Headers
             sheet.cells.get("A1").value = "Fruit";
             sheet.cells.get("B1").value = "Year";
             sheet.cells.get("C1").value = "Amount";
-            // Örnek veri (9 satır)
+            // Sample data (9 rows)
             sheet.cells.get("A2").value = "apple";    sheet.cells.get("B2").value = "2020"; sheet.cells.get("C2").value = 100;
             sheet.cells.get("A3").value = "apple";    sheet.cells.get("B3").value = "2021"; sheet.cells.get("C3").value = 150;
             sheet.cells.get("A4").value = "apple";    sheet.cells.get("B4").value = "2022"; sheet.cells.get("C4").value = 200;
@@ -140,16 +140,16 @@ Halihazırda bir `PivotField` örneğiyle çalışıyorsanız, bu nesneyi doğru
             sheet.cells.get("A8").value = "blueberry"; sheet.cells.get("B8").value = "2020"; sheet.cells.get("C8").value = 250;
             sheet.cells.get("A9").value = "blueberry"; sheet.cells.get("B9").value = "2021"; sheet.cells.get("C9").value = 350;
             sheet.cells.get("A10").value = "blueberry"; sheet.cells.get("B10").value = "2022"; sheet.cells.get("C10").value = 450;
-            // E3 konumunda A1:C10 aralığını kapsayan pivot tabloyu ekle
+            // Add pivot table at E3 covering A1:C10
             const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
-            // Fruit -> Satır, Amount -> Veri (Year aşağıda Sayfa alanına gidecek)
+            // Fruit -> Row, Amount -> Data (Year will go to Page below)
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Düşük seviyeli yaklaşım: mevcut Year PivotField'i BaseFields'ten al
-            // ve PageFields.Add(PivotField) kullanarak Sayfa alanına kaydet.
+            // Low-level approach: grab the existing Year PivotField from BaseFields
+            // and register it in the Page area via PageFields.Add(PivotField).
             const yearField = pivotTable.baseFields.get("Year");
             pivotTable.pageFields.add(yearField);
-            // Yeni sayfa alanının kaydedilen çalışma kitabına yansıması için yenile
+            // Refresh so the new page field is reflected in the saved workbook
             pivotTable.calculateData();
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -192,10 +192,10 @@ Varsayılan tekli seçim davranışında filtre alanı tek bir açılır liste o
             document.getElementById('runExample').disabled = false;
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Yeni bir çalışma kitabı oluştur
+            // Create a new workbook
             const workbook = new Workbook();
             const sheet = workbook.worksheets.get(0);
-            // Fruit/Year/Amount verilerini doldur
+            // Populate Fruit/Year/Amount data
             const cells = sheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
@@ -213,17 +213,17 @@ Varsayılan tekli seçim davranışında filtre alanı tek bir açılır liste o
                     cells.get(r + 1, c).value = data[r][c];
                 }
             }
-            // E3 konumunda pivot tablo oluştur
+            // Create pivot table at E3
             const pivotTables = sheet.pivotTables;
             const pivotTable = pivotTables.add("=A1:C7", 2, 4);
-            // Pivot alanlarını yapılandır: Fruit→Satır, Amount→Veri, Year→Sayfa
+            // Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
             pivotTable.calculateData();
-            // Sayfa filtresini temizle ki sayfa alanındaki her öğe görünür olsun.
-            // 0x7FFD (ondalık 32765), "tüm öğeler" anlamına gelen özel sentinel değerdir —
-            // Excel'ın sayfa alanı açılır listesinde "(Tümü)" seçmeye eşdeğerdir.
+            // Clear the page filter so every item in the page field is visible.
+            // 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+            // equivalent to selecting "(All)" in Excel's page-field dropdown.
             pivotTable.pageFields.get(0).currentPageItem = 0x7FFD;
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -334,14 +334,14 @@ Varsayılan tekli seçim davranışında filtre alanı tek bir açılır liste o
             });
             document.getElementById('runExample').addEventListener('click', async () => {
                 await initializationPromise;
-                // — Pivot tablo ve sayfa alanı tam olarak
-                //   Senaryo 1a'daki gibi oluşturulur (Fruit/Year/Amount verisi, E3'te pivot,
-                //   Fruit→Satır, Amount→Veri, Year→Sayfa, AddFieldToArea kullanılarak).
-                //   Aşağıda sayfa alanına çoklu seçim filtresi uyguluyoruz.
+                // — The pivot table and page field are constructed exactly as in
+                //   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+                //   Amount→Data, Year→Page via AddFieldToArea).
+                //   Below we apply multi-select filtering on the page field.
                 const workbook = new Workbook();
                 const sheet = workbook.worksheets.get(0);
                 const cells = sheet.cells;
-                // Örnek veri: Fruit | Year | Amount
+                // Sample data: Fruit | Year | Amount
                 cells.get(0, 0).value = "Fruit";
                 cells.get(0, 1).value = "Year";
                 cells.get(0, 2).value = "Amount";
@@ -367,15 +367,15 @@ Varsayılan tekli seçim davranışında filtre alanı tek bir açılır liste o
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-                // — Sayfa alanında çoklu seçimi etkinleştir
+                // — Enable multi-select on the page field
                 const pageField = pivotTable.pageFields.get(0);
                 pageField.isMultipleItemSelectionAllowed = true;
                 const pivotItems = pageField.pivotItems;
-                // Bölüm A — TÜM öğeleri seç (her öğeyi görünür yap)
+                // Part A — select ALL items (make every item visible)
                 for (let i = 0; i < pivotItems.count; i++) {
                     pivotItems.get(i).isHidden = false;
                 }
-                // Bölüm B — Kaynak değerine göre yalnızca belirli öğeleri seç
+                // Part B — select only specific items by source value
                 for (let i = 0; i < pivotItems.count; i++) {
                     const pivotItem = pivotItems.get(i);
                     switch (pivotItem.getStringValue()) {

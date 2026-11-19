@@ -1,6 +1,6 @@
 ---
 title: Excel-kamera i Aspose.Cells for Node.js via C++
-linktitle: Excel-kamera i Aspose.Cells for Node.js via C++
+linktitle: Excel-kamera
 description: Lär dig hur du använder Excel-kamera i Aspose.Cells for Node.js via C++ för att skapa en dynamisk bild som är länkad till ett cellintervall och som uppdateras med källdata samt bevarar all källformatering.
 keywords: Aspose.Cells, Aspose.Cells for Node.js via C++, Excel-kamera, dynamisk bild, länkad bild, Picture.formula, updateSelectedValue, createRange, toImage, Buffer
 type: docs
@@ -33,7 +33,7 @@ const aspose = require("aspose.cells.node");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Dynamisk kamera: lägg till en tom bild, länka den via formel till A1:F10, uppdatera sedan
+// Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 let pictures = worksheet.getPictures();
 let index = pictures.add(10, 6, null);
 pictures.get(index).setFormula("A1:F10");

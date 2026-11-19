@@ -109,21 +109,21 @@ CSE 配列数式は `TRANSPOSE` 式を評価するための従来の Excel の�
 using System;
 using System.IO;
 using Aspose.Cells;
-// xlsx LoadOptions を使用してソース ワークブックを読み込む
+// Load the source workbook with xlsx LoadOptions
 string srcFile = "source.xlsx";
 Workbook workbook = new Workbook(srcFile, new LoadOptions(LoadFormat.Xlsx));
-// 最初のワークシートとその Cells コレクションにアクセスする
+// Access the first worksheet and its Cells collection
 Worksheet worksheet = workbook.Worksheets[0];
 Cells cells = worksheet.Cells;
-// セル A6 にクラシック CSE 配列数式を設定する。
-// 数式 =TRANSPOSE(A1:D5) は、5 行 x 4 列のソース範囲を回転します
-// 4 行 x 5 列の配列に変換します。2 番目の引数 (4) は行数
-// 3 番目の引数 (5) は結果として得られる配列の列数です。
-// Aspose.Cells は CSE 配列数式マーカーを書き込むため、Excel はそれを
-// 単一の複数セル配列数式として評価し、古い Excel バージョンと互換性があります
-// (2019、2016、2013 など)、動的配列のスピルをサポートしないバージョン。
+// Set the classic CSE array formula on cell A6.
+// The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+// into a 4-row x 5-column array. The second argument (4) is the number of rows
+// and the third argument (5) is the number of columns of the resulting array.
+// Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+// a single multi-cell array formula, compatible with older Excel versions
+// (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells["A6"].SetArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-// 配列数式マーカーが保持されるようにワークブックを保存する
+// Save the workbook so the array-formula marker is persisted
 workbook.Save("output.xlsx");
 ```
 

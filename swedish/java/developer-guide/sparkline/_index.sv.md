@@ -1,6 +1,6 @@
 ---
 title: Sparklines i Aspose.Cells for Java
-linktitle: Sparklines i Aspose.Cells for Java
+linktitle: Sparklines
 description: Aspose.Cells är ett Java-bibliotek för att arbeta med kalkylbladsfiler som stöder skapande av sparklines — miniatyrdiagram placerade i kalkylbladsceller. Den här artikeln förklarar hur man lägger till och anpassar linje-, kolumn- och vinst/förlust-sparklines med hjälp av Aspose.Cells-biblioteket.
 keywords: Aspose.Cells, Java-bibliotek, kalkylblad, sparklines, linje-sparkline, kolumn-sparkline, vinst/förlust-sparkline, SparklineGroup, SparklineType
 type: docs
@@ -31,34 +31,34 @@ Följande exempel skapar en arbetsbok, skriver värdena 5, -3, 8, -2, 6 i celler
 
 ```java
 import com.aspose.cells.*;
-// Steg 1: Skapa en Workbook och hämta det första arbetsbladet
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
-// Steg 2: Skriv exempelvärdena 5, -3, 8, -2, 6 i cellerna A1:E1
+// Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
 cells.get("A1").putValue(5);
 cells.get("B1").putValue(-3);
 cells.get("C1").putValue(8);
 cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
-// Steg 3: Bygg en CellArea som pekar på destinationscellen F1
+// Step 3: Build a CellArea pointing to destination cell F1
 CellArea dest = new CellArea();
-dest.StartColumn = 5;   // kolumn F (0-indexerad)
+dest.StartColumn = 5;   // column F (0-indexed)
 dest.EndColumn = 5;
-dest.StartRow = 0;      // rad 1 (0-indexerad)
+dest.StartRow = 0;      // row 1 (0-indexed)
 dest.EndRow = 0;
-// Steg 4: Lägg till en linje-sparkline från A1:E1 till F1
-// SparklineGroups.add returnerar indexet för den nyligen tillagda gruppen
+// Step 4: Add a Line sparkline from A1:E1 into F1
+// SparklineGroups.add returns the index of the newly added group
 int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(index);
-// Steg 5: Skapa en röd CellsColor och tilldela den till sparkline-linjefärgen
+// Step 5: Create a red CellsColor and assign it to the sparkline line color
 CellsColor red = workbook.createCellsColor();
 red.setColor(com.aspose.cells.Color.getRed());
 group.setSeriesColor(red);
-// Steg 6: Aktivera högpunkt- och lågpunktmarkeringar
+// Step 6: Enable high-point and low-point markers
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
-// Steg 7: Spara arbetsboken
+// Step 7: Save the workbook
 workbook.save("output_line.xlsx");
 ```
 
@@ -76,23 +76,23 @@ Exemplet nedan skriver värdena 5, -3, 8, -2, 6 i A1:E1 och renderar en kolumn-s
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Skriv exempelvärden till A1:E1
+// Write sample values into A1:E1
 int[] values = new int[] { 5, -3, 8, -2, 6 };
 for (int i = 0; i < values.length; i++) {
     worksheet.getCells().get(0, i).putValue(values[i]);
 }
-// Bygg en CellArea som pekar på F1 (kolumnindex 5, radindex 0)
+// Build a CellArea pointing to F1 (column index 5, row index 0)
 CellArea dest = new CellArea();
 dest.StartColumn = 5;
 dest.EndColumn = 5;
 dest.StartRow = 0;
 dest.EndRow = 0;
-// Lägg till en Column-sparkline till destinationscellen
+// Add a Column sparkline to the destination cell
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
-// Bekräfta sparkline-typen genom att läsa group.Type
+// Confirm the sparkline type by reading group.Type
 System.out.println("Sparkline Type added: " + group.getType());
-// Spara arbetsboken
+// Save the workbook
 workbook.save("output_column.xlsx");
 System.out.println("Workbook saved as output_column.xlsx");
 ```
@@ -112,42 +112,42 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
-// Fylla i exempeldata
+// Populate sample data
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Bygg en CellArea som pekar på F1 (kolumn 5, rad 0)
+// Build a CellArea pointing to F1 (column 5, row 0)
 CellArea dest = new CellArea();
 dest.StartColumn = 5;
 dest.EndColumn = 5;
 dest.StartRow = 0;
 dest.EndRow = 0;
-// Lägg till en Vinst/Förlust-sparkline (SparklineType.Stacked)
+// Add a Win/Loss sparkline (SparklineType.Stacked)
 int groupIndex = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(groupIndex);
-// Anpassa sparkline-gruppen
+// Customize the sparkline group
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
-// Ställ in högpunktens färg till grön
+// Set the high-point color to green
 CellsColor highColor = workbook.createCellsColor();
 highColor.setColor(Color.getGreen());
 group.setHighPointColor(highColor);
-// Ställ in lågpunktens färg till röd
+// Set the low-point color to red
 CellsColor lowColor = workbook.createCellsColor();
 lowColor.setColor(Color.getRed());
 group.setLowPointColor(lowColor);
-// Ställ in den negativa punktens färg till orange
+// Set the negative-point color to orange
 CellsColor negColor = workbook.createCellsColor();
 negColor.setColor(Color.getOrange());
 group.setNegativePointsColor(negColor);
-// Ställ in standardfärgen för serien (används för positiva staplar)
+// Set the default series color (used for positive bars)
 CellsColor seriesColor = workbook.createCellsColor();
-seriesColor.setColor(Color.fromArgb(70, 130, 180)); // SteelBlue-approximation
+seriesColor.setColor(Color.fromArgb(70, 130, 180)); // SteelBlue approximation
 group.setSeriesColor(seriesColor);
-// Spara arbetsboken
+// Save the workbook
 workbook.save("output_winloss.xlsx");
 System.out.println("Workbook saved successfully: output_winloss.xlsx");
 ```
@@ -157,40 +157,40 @@ Det kombinerade exemplet nedan skapar en enda arbetsbok, fyller rad 1 med värde
 
 ```java
 import com.aspose.cells.*;
-// Steg 1: Skapa en Workbook och hämta det första kalkylbladet
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Steg 2: Fyll i exempeldata i rad 1 (A1:E1)
+// Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Steg 3: Lägg till en linje-sparkline-grupp vid F1
-CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5); // Fix: Använd statisk fabriksmetod
+// Step 3: Add a Line sparkline group at F1
+CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5); // Fix: Use static factory method
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
 SparklineGroup lineGroup = worksheet.getSparklineGroups().get(lineIdx);
-// Anpassa linje-sparkline-färgen via CellsColor
+// Customize the line sparkline color via CellsColor
 CellsColor lineColor = workbook.createCellsColor();
 lineColor.setColor(com.aspose.cells.Color.getBlue());
 lineGroup.setSeriesColor(lineColor);
-// Steg 4: Lägg till en kolumn-sparkline-grupp vid F2
-CellArea columnArea = CellArea.createCellArea(1, 5, 1, 5); // Fix: Använd statisk fabriksmetod
+// Step 4: Add a Column sparkline group at F2
+CellArea columnArea = CellArea.createCellArea(1, 5, 1, 5); // Fix: Use static factory method
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
 SparklineGroup columnGroup = worksheet.getSparklineGroups().get(columnIdx);
-// Anpassa kolumn-sparkline-seriets färg
+// Customize the column sparkline series color
 CellsColor columnColor = workbook.createCellsColor();
 columnColor.setColor(com.aspose.cells.Color.getGreen());
 columnGroup.setSeriesColor(columnColor);
-// Steg 5: Lägg till en vinst/förlust (staplad) sparkline-grupp vid F3
-CellArea stackedArea = CellArea.createCellArea(2, 5, 2, 5); // Fix: Använd statisk fabriksmetod
+// Step 5: Add a Win/Loss (Stacked) sparkline group at F3
+CellArea stackedArea = CellArea.createCellArea(2, 5, 2, 5); // Fix: Use static factory method
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
 SparklineGroup stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
-// Anpassa vinst/förlust-sparkline-seriets färg
+// Customize the win/loss sparkline series color
 CellsColor stackedColor = workbook.createCellsColor();
 stackedColor.setColor(com.aspose.cells.Color.getDarkOrange());
 stackedGroup.setSeriesColor(stackedColor);
-// Steg 6: Spara arbetsboken
+// Step 6: Save the workbook
 workbook.save("output_all.xlsx");
 ```
 

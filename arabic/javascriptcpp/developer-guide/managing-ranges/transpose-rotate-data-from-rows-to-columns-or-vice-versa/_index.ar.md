@@ -217,24 +217,24 @@ Aspose.Cells for JavaScript via C++ يدعم عكس (تدوير) البيانا�
                 if (!file) {
                     throw new Error("Please select an XLSX workbook.");
                 }
-                // تحميل دفتر العمل المصدر باستخدام خيارات التحميل xlsx
+                // Load the source workbook with xlsx LoadOptions
                 const loadOptions = new LoadOptions(AsposeCells.LoadFormat.Xlsx);
                 const workbook = new Workbook(
                     new Uint8Array(await file.arrayBuffer()),
                     loadOptions
                 );
-                // الوصول إلى ورقة العمل الأولى ومجموعة الخلايا الخاصة بها
+                // Access the first worksheet and its Cells collection
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // تعيين صيغة المصفوفة الكلاسيكية CSE في الخلية A6.
-                // الصيغة =TRANSPOSE(A1:D5) تدور النطاق المصدر المكوّن من 5 صفوف × 4 أعمدة
-                // إلى مصفوفة مكوّنة من 4 صفوف × 5 أعمدة. الوسيط الثاني (4) هو عدد الصفوف
-                // والوسيط الثالث (5) هو عدد الأعمدة للمصفوفة الناتجة.
-                // Aspose.Cells يكتب علامة صيغة المصفوفة CSE بحيث يقوم Excel بتقييمها كـ
-                // صيغة مصفوفة متعددة الخلايا واحدة، متوافقة مع إصدارات Excel القديمة
-                // (2019، 2016، 2013، وما إلى ذلك) التي لا تدعم تدفق المصفوفة الديناميكي.
+                // Set the classic CSE array formula on cell A6.
+                // The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+                // into a 4-row x 5-column array. The second argument (4) is the number of rows
+                // and the third argument (5) is the number of columns of the resulting array.
+                // Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+                // a single multi-cell array formula, compatible with older Excel versions
+                // (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
                 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-                // حفظ دفتر العمل بحيث يتم الاحتفاظ بعلامة صيغة المصفوفة
+                // Save the workbook so the array-formula marker is persisted
                 const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
                 const blob = new Blob([outputData], {
                     type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"

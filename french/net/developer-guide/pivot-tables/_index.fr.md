@@ -36,12 +36,10 @@ Après l’exécution de l’exemple de code, un tableau croisé dynamique est a
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
-// Créer un nouveau classeur et obtenir la première feuille de calcul
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-
-// Écrire les données source : ventes par sport et trimestre
+// Write the source data: sales per sport and quarter
 sheet.Cells["A1"].PutValue("Sport");
 sheet.Cells["B1"].PutValue("Quarter");
 sheet.Cells["C1"].PutValue("Sales");
@@ -66,16 +64,13 @@ sheet.Cells["C7"].PutValue(5000);
 sheet.Cells["A8"].PutValue("Golf");
 sheet.Cells["B8"].PutValue("Qtr3");
 sheet.Cells["C8"].PutValue(6430);
-
-// Ajouter un tableau croisé dynamique à la cellule de destination E3, à partir de A1:C8
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C8", 2, 4);
-
-// Affecter les champs du tableau croisé dynamique : Sport aux lignes, Quarter aux colonnes, Sales aux données
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Quarter");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
-
-// Enregistrer le classeur
+// Save the workbook
 workbook.Save("pivotTable_test_out.xlsx");
 ```
 

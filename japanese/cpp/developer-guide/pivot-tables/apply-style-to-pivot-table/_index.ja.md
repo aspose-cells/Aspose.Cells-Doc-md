@@ -34,12 +34,12 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // 新しいワークブックを作成
+    // Create a new workbook
     Workbook workbook;
-    // 最初のワークシートを取得
+    // Get the first worksheet
     Worksheet sheet = workbook.GetWorksheets().Get(0);
-    // ヘッダー行（Fruit、Year、Amount）を持つソースデータを入力
-    // および2020年と2021年にわたる grape、blueberry、kiwi、cherry をカバーする9行のデータ
+    // Populate the source data with header row (Fruit, Year, Amount)
+    // and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
     sheet.GetCells().Get(0, 0).PutValue(u"Fruit");
     sheet.GetCells().Get(0, 1).PutValue(u"Year");
     sheet.GetCells().Get(0, 2).PutValue(u"Amount");
@@ -70,14 +70,14 @@ int main() {
     sheet.GetCells().Get(9, 0).PutValue(u"grape");
     sheet.GetCells().Get(9, 1).PutValue(2020);
     sheet.GetCells().Get(9, 2).PutValue(45);
- // ソース範囲 A1:C10 を使用して、宛先セル E3 に「Pivot1」という名前のピボットテーブルを追加
+ // Add a pivot table at destination cell E3, using source range A1:C10
     PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // フィールドを割り当て：Fruit → 行、Amount → データ
+    // Assign fields: Fruit -> Rows, Amount -> Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // レガシー XLS プリセット自動フォーマット「Report5」を適用
+    // Apply the legacy XLS preset autoformat "Report5"
     pivotTable.SetAutoFormatType(PivotTableAutoFormatType::Report5);
-    // ワークブックをレガシー .xls 形式で保存
+    // Save the workbook in legacy .xls format
     workbook.Save(u"output.xls");
     Aspose::Cells::Cleanup();
     return 0;
@@ -165,7 +165,7 @@ int main() {
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // ソースデータを入力：ヘッダー行 + 9行のデータ (A1:C10)
+    // Populate source data: header row + 9 data rows (A1:C10)
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
@@ -196,15 +196,15 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(900);
- // A1:C10 をデータソースとするピボットテーブルを追加し、E3 に配置、名前を とする
+ // Add pivot table sourced from A1:C10, anchored at E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // ステップ 1：新しいカスタムピボットテーブルスタイルを登録し、そのインデックスを取得する
+    // Step 1: register a new custom pivot table style and capture its index
     int styleIndex = workbook.GetWorksheets().GetTableStyles().AddPivotTableStyle(u"CustomPivotStyle");
     TableStyle tableStyle = workbook.GetWorksheets().GetTableStyles().Get(styleIndex);
-    // ステップ 2：WholeTable 要素を追加し、上下左右の 4 辺すべてに細い黒色の境界線を適用する
+    // Step 2: add a WholeTable element and apply thin black borders on all four sides
     int wholeTableElementIndex = tableStyle.GetTableStyleElements().Add(TableStyleElementType::WholeTable);
     TableStyleElement wholeTableElement = tableStyle.GetTableStyleElements().Get(wholeTableElementIndex);
     Style wholeTableStyle = workbook.CreateStyle();
@@ -217,14 +217,14 @@ int main() {
     wholeTableStyle.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
     wholeTableStyle.GetBorders().Get(BorderType::RightBorder).SetColor(Color::Black());
     wholeTableElement.SetElementStyle(wholeTableStyle);
-    // ステップ 3：GrandTotalRow 要素を追加し、太字の赤色フォントを適用する
+    // Step 3: add a GrandTotalRow element and apply bold red font
     int grandTotalElementIndex = tableStyle.GetTableStyleElements().Add(TableStyleElementType::GrandTotalRow);
     TableStyleElement grandTotalElement = tableStyle.GetTableStyleElements().Get(grandTotalElementIndex);
     Style grandTotalStyle = workbook.CreateStyle();
     grandTotalStyle.GetFont().SetIsBold(true);
     grandTotalStyle.GetFont().SetColor(Color::Red());
     grandTotalElement.SetElementStyle(grandTotalStyle);
-    // ステップ 4：カスタムスタイルを名前で適用する（PivotTableStyleType は組み込みプリセット用なので使用しない）
+    // Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
     pivotTable.SetPivotTableStyleName(u"CustomPivotStyle");
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
@@ -249,11 +249,11 @@ int main() {
     Aspose::Cells::Startup();
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
-    // ヘッダー行
+    // Header row
     worksheet.GetCells().Get(u"A1").PutValue(u"Fruit");
     worksheet.GetCells().Get(u"B1").PutValue(u"Year");
     worksheet.GetCells().Get(u"C1").PutValue(u"Amount");
-    // データ行
+    // Data rows
     worksheet.GetCells().Get(u"A2").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B2").PutValue(2020);
     worksheet.GetCells().Get(u"C2").PutValue(5000);
@@ -281,13 +281,13 @@ int main() {
     worksheet.GetCells().Get(u"A10").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B10").PutValue(2021);
     worksheet.GetCells().Get(u"C10").PutValue(5500);
- // ピボットテーブルの追加：ソース範囲 A1:C10、配置先セル E3、名前
+ // Add pivot table: source range A1:C10, destination cell E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // ピボットフィールドの割り当て
+    // Assign pivot fields
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // ピボットテーブルのすべてのセルに強制適用するスタイルの作成
+    // Build a Style that will be forced onto every cell of the pivot table
     Style style = wb.CreateStyle();
     style.SetForegroundColor(Color::Yellow());
     style.SetPattern(BackgroundType::Solid);
@@ -301,9 +301,9 @@ int main() {
     style.GetBorders().Get(BorderType::LeftBorder).SetColor(Color::Black());
     style.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
     style.GetBorders().Get(BorderType::RightBorder).SetColor(Color::Black());
-    // FormatAll の適用
+    // Apply FormatAll
     pivotTable.FormatAll(style);
-    // ワークブックの保存
+    // Save the workbook
     wb.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

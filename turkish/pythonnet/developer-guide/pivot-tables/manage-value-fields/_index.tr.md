@@ -1,8 +1,8 @@
 ---
-title: Aspose.Cells for Python via .NET'te PivotTable değer alanlarını yönetme
-description: Aspose.Cells for Python via .NET でピボットテーブルのデータ領域に基本フィールドを追加し、PivotField.Function で集計関数を変更し、値フィールドを行または列軸にプロットする方法を学習します。
+title: Aspose.Cells for Python via .NET ile Özet Tablo Değer Alanlarını Yönetme
 linktitle: Değer Alanları
-keywords: Aspose.Cells, Python via .NET, pivot table, value field, PivotField, PivotField.Function, data field, Sum, Average
+description: Aspose.Cells for Python via .NET'de bir özet tablonun veri bölgesine temel alanlar eklemeyi, PivotField.function ile özet işlevini değiştirmeyi ve değer alanını Satır ya da Sütun eksenine çizdirmeyi öğrenin.
+keywords: Aspose.Cells, Python via .NET, özet tablo, değer alanı, PivotField, PivotField.function, veri alanı, PivotTable.values_field, Sum, Average
 type: docs
 weight: 230
 url: /tr/python-net/manage-value-fields/
@@ -10,13 +10,12 @@ ai_search_scope: cells_pythonnet
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## Adding a Field to the Data Region
-Adding a base field to the data (value) region is the first step in shaping how a pivot table aggregates your source data. Aspose.Cells exposes `PivotTable.add_field_to_area(PivotFieldType, str)`, an overload that accepts the constant `PivotFieldType.DATA` and the source-column name. Once a field is added to the data region, the API exposes it through the `PivotTable.data_fields` collection, in the order in which the fields were added. By default, a numeric source column is summarised with `ConsolidationFunction.SUM`, while a non-numeric column defaults to `Count`.
+## **Veri Bölgesine Alan Ekleme**
+Veri (değer) bölgesine bir temel alan eklemek, bir özet tablonun kaynak verileri nasıl topladığına şekil vermenin ilk adımıdır. Aspose.Cells, `PivotTable.AddFieldToArea(PivotFieldType, string)` yöntemini sunar; bu aşırı yükleme `PivotFieldType.DATA` sabitini ve kaynak sütun adını alır. Bir alan veri bölgesine eklendiğinde, API bu alanı `PivotTable.DataFields` koleksiyonu aracılığıyla, alanların eklendiği sıraya göre sunar. Varsayılan olarak, sayısal bir kaynak sütun `Sum` ile özetlenirken, sayısal olmayan sütun `Count` ile özetlenir.
 
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -41,17 +40,15 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
-pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field)
 pivot_table.calculate_data()
-workbook.save("output_plot.xlsx")
+workbook.save("output_drag.xlsx")
 ```
 
-## Changing the Summary Function
+## **Özet İşlevini Değiştirme**
+Bir alan veri bölgesinde yer aldığında, Aspose.Cells bu alanı `PivotTable.DataFields` üzerindeki `PivotField` nesnesi aracılığıyla sunar. Her `PivotField`'in, alana uygulanan özetleme işlemini kontrol eden, `ConsolidationFunction` türünde yazılabilir bir `Function` özelliği vardır. `ConsolidationFunction` enum'ı `Sum`, `Count`, `Average`, `Max`, `Min`, `Product`, `StdDev`, `StdDevp`, `Var` ve `Varp` üyelerine sahiptir — ilk altı, gerçek dünya kullanım senaryolarının büyük çoğunluğunu kapsar, son dört ise varyans analizinde yararlı istatistiksel toplamalar sağlar.
 
 {{% alert color="primary" %}}
-Changing `function` only affects the aggregate, the source column does not change.
+`Function`'ı değiştirmek yalnızca özetlemeyi etkiler; kaynak sütun ve özet tablonun satır/sütun yapısı değiştirilmez. Mevcut bir veri alanı için özetlemeyi değiştirmek amacıyla, `pivotTable.DataFields[i].Function = ConsolidationFunction.<X>;` şeklinde ayarlayın ve ardından özet tabloyu yeniden oluşturmak için `pivotTable.calculate_data()` metodunu çağırın.
 {{% /alert %}}
 
 ```python
@@ -88,16 +85,17 @@ pivot_table.calculate_data()
 workbook.save("output_function.xlsx")
 ```
 
-## Plotting Value Fields to Row or Column Axis
-When a pivot table contains two or more data fields, Aspose.Cells exposes an additional virtual field called `PivotTable.values_field`. This virtual field represents the aggregate of every data field that lives in the data region. You can drag it into the Row or Column region as a base pivot field, which is useful for laying out multiple measures side by side.
+## **Değer Alanlarını Satır veya Sütun Ekseni Üzerine Çizdirme**
+Bir özet tablo iki veya daha fazla veri alanı içerdiğinde, Aspose.Cells `PivotTable.ValuesField` adlı ek bir sanal alan sunar. Bu sanal alan, veri bölgesinde yer alan her veri alanının toplamını temsil eder. Satır veya Sütun bölgesine temel bir pivot alanı olarak sürükleyebilirsiniz; bu, birden fazla ölçütü yan yana düzenlemek için kullanışlıdır.
 
 {{% alert color="primary" %}}
-`PivotTable.values_field` does not work if there is no or only one value field.
+`PivotTable.ValuesField` yalnızca hiçbir ya da yalnızca bir değer alanı bulunduğunda çalışmaz.
 {{% /alert %}}
 
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
+from aspose.cells import ConsolidationFunction
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
@@ -122,8 +120,11 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Category")
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Item")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
+pivot_table.data_fields[1].function = ConsolidationFunction.COUNT
+pivot_table.add_field_to_area(PivotFieldType.COLUMN, pivot_table.values_field)
 pivot_table.calculate_data()
-workbook.save("output_drag.xlsx")
+workbook.save("output_plot.xlsx")
 ```
 
 {{< app/cells/assistant language="python-net" >}}

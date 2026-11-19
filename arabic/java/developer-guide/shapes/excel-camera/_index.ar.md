@@ -37,7 +37,7 @@ import com.aspose.cells.Worksheet;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// الكاميرا الديناميكية: أضف صورة فارغة، اربطها عبر الصيغة بـ A1:F10، ثم قم بالتحديث
+// Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 PictureCollection pictures = worksheet.getPictures();
 int index = pictures.add(10, 6, (InputStream) null);
 pictures.get(index).setFormula("A1:F10");
@@ -64,7 +64,7 @@ import com.aspose.cells.Worksheet;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// كاميرا ثابتة: بناء Range، تحويل إلى بايتات، تغليف في ByteArrayInputStream، إضافة كصورة
+// Static Camera: build Range, render to bytes, wrap in ByteArrayInputStream, add as picture
 Range range = worksheet.getCells().createRange("A1:F10");
 PictureCollection pictures = worksheet.getPictures();
 pictures.add(10, 6, new ByteArrayInputStream(range.toImage(null)));

@@ -30,16 +30,16 @@ Das folgende Beispiel lädt eine neue Arbeitsmappe, füllt die Fruit/Year/Amount
 
 ```java
 import com.aspose.cells.*;
-// Szenario 1: Ein Legacy-XLS-Autoformat-Preset anwenden
-// Verwendete API: PivotTable.AutoFormatType
-// Zieldateiformat: .xls (Legacy)
-// Für vollständige Beispiele und Datendateien besuchen Sie bitte https://github.com/aspose-cells/Aspose.Cells-for-.NET
-// Eine neue Arbeitsmappe erstellen
+// Scenario 1: Apply a legacy XLS preset autoformat
+// API in use: PivotTable.AutoFormatType
+// Target file format: .xls (legacy)
+// For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Das erste Arbeitsblatt abrufen
+// Get the first worksheet
 Worksheet sheet = workbook.getWorksheets().get(0);
-// Die Quelldaten mit Kopfzeile (Fruit, Year, Amount) befüllen
-// und 9 Datenzeilen, die Trauben, Blaubeeren, Kiwi, Kirsche über 2020 und 2021 abdecken
+// Populate the source data with header row (Fruit, Year, Amount)
+// and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.getCells().get(0, 0).putValue("Fruit");
 sheet.getCells().get(0, 1).putValue("Year");
 sheet.getCells().get(0, 2).putValue("Amount");
@@ -70,17 +70,17 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// Eine Pivot-Tabelle an der Zielzelle E3 hinzufügen, benannt, unter Verwendung des Quellbereichs A1:C10
+// Add a pivot table at destination cell E3, using source range A1:C10
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// Felder zuweisen: Fruit -> Zeilen, Amount -> Daten
+// Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// Das Legacy-XLS-Autoformat-Preset "Report5" anwenden
-// Hinweis: Diese Eigenschaft ist nur beim Speichern als .xls relevant.
-// Beim Speichern als .xlsx/.xlsm/.xlsb ignoriert Excel AutoFormatType
-// und verwendet stattdessen die Angaben aus PivotTableStyleType / PivotTableStyleName.
+// Apply the legacy XLS preset autoformat "Report5"
+// Note: This property is only meaningful when saving as .xls.
+// When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+// and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivotTable.setAutoFormatType(PivotTableAutoFormatType.REPORT_5);
-// Die Arbeitsmappe im Legacy-.xls-Format speichern
+// Save the workbook in legacy .xls format
 workbook.save("output.xls");
 ```
 
@@ -162,7 +162,7 @@ Das folgende Beispiel definiert einen benutzerdefinierten Pivot-Stil mit einem d
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Quelldaten befüllen: Kopfzeile + 9 Datenzeilen (A1:C10)
+// Populate source data: header row + 9 data rows (A1:C10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -193,15 +193,15 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// Pivot-Tabelle aus A1:C10 hinzufügen, verankert bei E3, benannt
+// Add pivot table sourced from A1:C10, anchored at E3
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// Schritt 1: Einen neuen benutzerdefinierten Pivot-Tabellen-Stil registrieren und dessen Index erfassen
+// Step 1: register a new custom pivot table style and capture its index
 int styleIndex = workbook.getWorksheets().getTableStyles().addPivotTableStyle("CustomPivotStyle");
 TableStyle tableStyle = workbook.getWorksheets().getTableStyles().get(styleIndex);
-// Schritt 2: Ein WholeTable-Element hinzufügen und dünne schwarze Rahmen auf allen vier Seiten anwenden
+// Step 2: add a WholeTable element and apply thin black borders on all four sides
 int wholeTableElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.WHOLE_TABLE);
 TableStyleElement wholeTableElement = tableStyle.getTableStyleElements().get(wholeTableElementIndex);
 Style wholeTableStyle = workbook.createStyle();
@@ -219,14 +219,14 @@ Border borderRight = borders.getByBorderType(BorderType.RIGHT_BORDER);
 borderRight.setLineStyle(CellBorderType.THIN);
 borderRight.setColor(Color.getBlack());
 wholeTableElement.setElementStyle(wholeTableStyle);
-// Schritt 3: Ein GrandTotalRow-Element hinzufügen und eine fette rote Schriftart anwenden
+// Step 3: add a GrandTotalRow element and apply bold red font
 int grandTotalElementIndex = tableStyle.getTableStyleElements().add(TableStyleElementType.GRAND_TOTAL_ROW);
 TableStyleElement grandTotalElement = tableStyle.getTableStyleElements().get(grandTotalElementIndex);
 Style grandTotalStyle = workbook.createStyle();
 grandTotalStyle.getFont().setBold(true);
 grandTotalStyle.getFont().setColor(Color.getRed());
 grandTotalElement.setElementStyle(grandTotalStyle);
-// Schritt 4: Den benutzerdefinierten Stil nach Namen anwenden (NICHT über PivotTableStyleType, das für integrierte Voreinstellungen ist)
+// Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
@@ -243,7 +243,7 @@ Das folgende Beispiel erstellt einen `Style` mit gelber Vollfüllung, fett forma
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Quelldaten befüllen: Kopfzeile (Zeile 1) + 9 Datenzeilen (Zeilen 2-10)
+// Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -274,13 +274,13 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// Pivot-Tabelle hinzufügen: Quellbereich A1:C10, Zielzelle E3
+// Add pivot table: source range A1:C10, destination cell E3
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// Pivot-Felder zuweisen: Fruit -> Zeilenbereich, Year -> Spaltenbereich, Amount -> Datenbereich
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// Einen Stil erstellen, der auf jede Zelle der Pivot-Tabelle angewendet wird
+// Build a Style that will be forced onto every cell of the pivot table
 Style style = workbook.createStyle();
 style.setForegroundColor(Color.getYellow());
 style.setPattern(BackgroundType.SOLID);
@@ -294,10 +294,10 @@ style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBord
 style.getBorders().getByBorderType(BorderType.LEFT_BORDER).setColor(Color.getBlack());
 style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN);
 style.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setColor(Color.getBlack());
-// formatAll anwenden: erzwingt diesen einzelnen Stil auf jede Zelle der Pivot-Tabelle,
-// und überschreibt jeden zuvor gesetzten PivotTableStyleType / PivotTableStyleName
+// Apply formatAll: forces this single style onto every cell of the pivot table,
+// overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivotTable.formatAll(style);
-// Arbeitsmappe im modernen .xlsx-Format speichern
+// Save the workbook in the modern .xlsx format
 workbook.save("output.xlsx");
 ```
 

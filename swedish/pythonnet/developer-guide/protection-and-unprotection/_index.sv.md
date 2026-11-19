@@ -39,19 +39,19 @@ Excel stöder två distinkta lösenordslager. Det första är ett lösenord för
 
 ```python
 import aspose.cells as ac
-# Skapa en ny arbetsbok från grunden
+# Create a new workbook from scratch
 workbook = ac.Workbook()
-# Skriv ett exempelvärde till cell A1 i det första kalkylbladet
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get("A1").put_value("Sample Data")
-# Konfigurera skrivskyddet: ange lösenordet för att ändra och författaren
+# Configure the write protection: set the password to modify and the author
 workbook.settings.write_protection.password = "ModifyPwd"
 workbook.settings.write_protection.author = "AuthorName"
-# Spara arbetsboken så att skrivskyddet bevaras
+# Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx")
-# Validera lösenordet för att ändra med det korrekta lösenordet
+# Validate the password to modify using the correct password
 is_correct_valid = workbook.settings.write_protection.validate_password("ModifyPwd")
 print("ValidatePassword(\"ModifyPwd\") returned: " + str(is_correct_valid))
-# Validera lösenordet för att ändra med ett felaktigt lösenord för att demonstrera den andra grenen
+# Validate the password to modify using an incorrect password to demonstrate the other branch
 is_wrong_valid = workbook.settings.write_protection.validate_password("WrongPwd")
 print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 ```
@@ -61,22 +61,22 @@ Att skydda arbetsbokens struktur hindrar andra användare från att visa dolda k
 
 ```python
 import aspose.cells as ac
-# Skapa en ny arbetsbok
+# Create a new workbook
 workbook = ac.Workbook()
-# Lägg till ett andra kalkylblad
+# Add a second worksheet
 workbook.worksheets.add()
-# Skriv ett exempelvärde i cell A1 i det första kalkylbladet
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get(0, 0).put_value("Sample Data")
-# Skydda arbetsbokens struktur
+# Protect the workbook structure
 workbook.protect(ac.ProtectionType.STRUCTURE, "StructPwd")
-# Spara arbetsboken som structure_protected.xlsx
+# Save the workbook as structure_protected.xlsx
 file_path = "structure_protected.xlsx"
 workbook.save(file_path)
-# Ladda om filen till en ny Workbook-instans
+# Reload the file into a new Workbook instance
 loaded_workbook = ac.Workbook(file_path)
-# Ta bort struktskyddet
+# Remove the structure protection
 loaded_workbook.unprotect("StructPwd")
-# Skriv ut bekräftelsemeddelande
+# Print confirmation message
 print("Structure protection has been successfully removed from the workbook.")
 ```
 

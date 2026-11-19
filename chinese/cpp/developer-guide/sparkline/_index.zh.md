@@ -34,33 +34,33 @@ Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是容纳�
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // 步骤 1：创建工作簿并获取第一个工作表
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // 步骤 2：将示例值 5、-3、8、-2、6 写入单元格 A1:E1
+    // Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
     cells.Get(u"A1").PutValue(5);
     cells.Get(u"B1").PutValue(-3);
     cells.Get(u"C1").PutValue(8);
     cells.Get(u"D1").PutValue(-2);
     cells.Get(u"E1").PutValue(6);
-    // 步骤 3：构建一个指向目标单元格 F1 的 CellArea
+    // Step 3: Build a CellArea pointing to destination cell F1
     CellArea dest;
-    dest.StartColumn = 5;   // F 列（从 0 开始索引）
+    dest.StartColumn = 5;   // column F (0-indexed)
     dest.EndColumn = 5;
-    dest.StartRow = 0;      // 第 1 行（从 0 开始索引）
+    dest.StartRow = 0;      // row 1 (0-indexed)
     dest.EndRow = 0;
-    // 步骤 4：在 F1 中添加一条从 A1:E1 折线迷你图
+    // Step 4: Add a Line sparkline from A1:E1 into F1
     int index = worksheet.GetSparklineGroups().Add(SparklineType::Line, u"A1:E1", false, dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(index);
-    // 步骤 5：创建红色 CellsColor 并将其分配给迷你图线条颜色
+    // Step 5: Create a red CellsColor and assign it to the sparkline line color
     CellsColor red = workbook.CreateCellsColor();
     red.SetColor(Color::Red());
     group.SetSeriesColor(red);
-    // 步骤 6：启用高点和低点标记
+    // Step 6: Enable high-point and low-point markers
     group.SetShowHighPoint(true);
     group.SetShowLowPoint(true);
-    // 步骤 7：保存工作簿
+    // Step 7: Save the workbook
     workbook.Save(u"output_line.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -83,28 +83,28 @@ int main() {
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // 步骤 1：创建一个 Workbook 并获取第一个工作表
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
-    // 步骤 2：将示例值写入 A1:E1
+    // Step 2: Write sample values into A1:E1
     int values[5] = { 5, -3, 8, -2, 6 };
     Cells cells = worksheet.GetCells();
     for (int i = 0; i < 5; i++) {
         cells.Get(0, i).PutValue(values[i]);
     }
-    // 步骤 3：构建一个指向 F1（列索引 5，行索引 0）的 CellArea
+    // Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
     CellArea dest;
     dest.StartColumn = 5;
     dest.EndColumn = 5;
     dest.StartRow = 0;
     dest.EndRow = 0;
-    // 步骤 4：向目标单元格添加一个 Column 类型的迷你图
+    // Step 4: Add a Column sparkline to the destination cell
     int idx = worksheet.GetSparklineGroups().Add(
         SparklineType::Column, u"A1:E1", false, dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(idx);
-    // 步骤 5：通过读取 group.Type 确认迷你图的类型
+    // Step 5: Confirm the sparkline type by reading group.Type
     std::cout << "Sparkline Type added: " << static_cast<int>(group.GetType()) << std::endl;
-    // 步骤 6：保存工作簿
+    // Step 6: Save the workbook
     wb.Save(u"output_column.xlsx");
     std::cout << "Workbook saved as output_column.xlsx" << std::endl;
     Aspose::Cells::Cleanup();
@@ -128,51 +128,51 @@ int main() {
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // 步骤 1：创建工作簿并获取第一个工作表
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(u"WinLoss");
-    // 步骤 2：在第 1 行填充示例数据：A1=5，B1=-3，C1=8，D1=-2，E1=6
+    // Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
     worksheet.GetCells().Get(u"A1").PutValue(5);
     worksheet.GetCells().Get(u"B1").PutValue(-3);
     worksheet.GetCells().Get(u"C1").PutValue(8);
     worksheet.GetCells().Get(u"D1").PutValue(-2);
     worksheet.GetCells().Get(u"E1").PutValue(6);
-    // 步骤 3：构建一个指向 F1（第 5 列，第 0 行）的 CellArea
+    // Step 3: Build a CellArea pointing to F1 (column 5, row 0)
     CellArea dest;
     dest.StartColumn = 5;   // F
     dest.EndColumn = 5;
-    dest.StartRow = 0;      // 第 1 行
+    dest.StartRow = 0;      // row 1
     dest.EndRow = 0;
-    // 步骤 4：添加 Win/Loss 迷你图（SparklineType::Stacked）
+    // Step 4: Add a Win/Loss sparkline (SparklineType.Stacked)
     int groupIndex = worksheet.GetSparklineGroups().Add(
         SparklineType::Stacked,
         u"A1:E1",
         false,
         dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(groupIndex);
-    // 步骤 5：自定义迷你图组
-    // 启用高点标记和低点标记
+    // Step 5: Customize the sparkline group
+    // Enable high-point and low-point markers
     group.SetShowHighPoint(true);
     group.SetShowLowPoint(true);
     group.SetShowNegativePoints(true);
-    // 将高点颜色设置为绿色
+    // Set the high-point color to green
     CellsColor highColor = workbook.CreateCellsColor();
     highColor.SetColor(Color::Green());
     group.SetHighPointColor(highColor);
-    // 将低点颜色设置为红色
+    // Set the low-point color to red
     CellsColor lowColor = workbook.CreateCellsColor();
     lowColor.SetColor(Color::Red());
     group.SetLowPointColor(lowColor);
-    // 将负点颜色设置为橙色
+    // Set the negative-point color to orange
     CellsColor negColor = workbook.CreateCellsColor();
     negColor.SetColor(Color::Orange());
     group.SetNegativePointsColor(negColor);
-    // 设置默认系列颜色（用于正值条）
+    // Set the default series color (used for positive bars)
     CellsColor seriesColor = workbook.CreateCellsColor();
     seriesColor.SetColor(Color::SteelBlue());
     group.SetSeriesColor(seriesColor);
-    // 步骤 6：保存工作簿
+    // Step 6: Save the workbook
     workbook.Save(u"output_winloss.xlsx");
     std::cout << "Workbook saved successfully: output_winloss.xlsx" << std::endl;
     Aspose::Cells::Cleanup();
@@ -188,16 +188,16 @@ int main() {
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // 步骤 1：创建 Workbook 并获取第一个工作表
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // 步骤 2：在第 1 行（A1:E1）填充示例数据
+    // Step 2: Populate sample data in row 1 (A1:E1)
     worksheet.GetCells().Get(u"A1").PutValue(5);
     worksheet.GetCells().Get(u"B1").PutValue(-3);
     worksheet.GetCells().Get(u"C1").PutValue(8);
     worksheet.GetCells().Get(u"D1").PutValue(-2);
     worksheet.GetCells().Get(u"E1").PutValue(6);
-    // 步骤 3：在 F1 处添加折线迷你图组
+    // Step 3: Add a Line sparkline group at F1
     CellArea lineArea;
     lineArea.StartColumn = 5;
     lineArea.EndColumn = 5;
@@ -205,11 +205,11 @@ int main() {
     lineArea.EndRow = 0;
     int lineIdx = worksheet.GetSparklineGroups().Add(SparklineType::Line, u"A1:E1", false, lineArea);
     SparklineGroup lineGroup = worksheet.GetSparklineGroups().Get(lineIdx);
-    // 通过 CellsColor 自定义折线迷你图的颜色
+    // Customize the line sparkline color via CellsColor
     CellsColor lineColor = workbook.CreateCellsColor();
     lineColor.SetColor(Color::Blue());
     lineGroup.SetSeriesColor(lineColor);
-    // 步骤 4：在 F2 处添加柱形迷你图组
+    // Step 4: Add a Column sparkline group at F2
     CellArea columnArea;
     columnArea.StartColumn = 5;
     columnArea.EndColumn = 5;
@@ -217,11 +217,11 @@ int main() {
     columnArea.EndRow = 1;
     int columnIdx = worksheet.GetSparklineGroups().Add(SparklineType::Column, u"A1:E1", false, columnArea);
     SparklineGroup columnGroup = worksheet.GetSparklineGroups().Get(columnIdx);
-    // 自定义柱形迷你图系列的颜色
+    // Customize the column sparkline series color
     CellsColor columnColor = workbook.CreateCellsColor();
     columnColor.SetColor(Color::Green());
     columnGroup.SetSeriesColor(columnColor);
-    // 步骤 5：在 F3 处添加胜负（堆积）迷你图组
+    // Step 5: Add a Win/Loss (Stacked) sparkline group at F3
     CellArea stackedArea;
     stackedArea.StartColumn = 5;
     stackedArea.EndColumn = 5;
@@ -229,11 +229,11 @@ int main() {
     stackedArea.EndRow = 2;
     int stackedIdx = worksheet.GetSparklineGroups().Add(SparklineType::Stacked, u"A1:E1", false, stackedArea);
     SparklineGroup stackedGroup = worksheet.GetSparklineGroups().Get(stackedIdx);
-    // 自定义胜负迷你图系列的颜色
+    // Customize the win/loss sparkline series color
     CellsColor stackedColor = workbook.CreateCellsColor();
     stackedColor.SetColor(Color::FromArgb(0xFF8C00));
     stackedGroup.SetSeriesColor(stackedColor);
-    // 步骤 6：保存 Workbook
+    // Step 6: Save the workbook
     workbook.Save(u"output_all.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

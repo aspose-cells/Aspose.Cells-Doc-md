@@ -1,8 +1,8 @@
 ---
-title: Aspose.Cells for .NET'te Mini Grafikler
-linktitle: Aspose.Cells for .NET'te Mini Grafikler
-description: Aspose.Cells, çalışma sayfası hücrelerinin içine yerleştirilen küçük grafikler olan mini grafikler oluşturmayı destekleyen, elektronik tablo dosyalarıyla çalışmak için kullanılan bir .NET kütüphanesidir. Bu makale, Aspose.Cells kütüphanesini kullanarak çizgi, sütun ve kazanma/kaybetme mini grafiklerinin nasıl ekleneceğini ve özelleştirileceğini açıklar.
-keywords: Aspose.Cells, .NET kütüphanesi, elektronik tablo, mini grafikler, çizgi mini grafik, sütun mini grafik, kazanma/kaybetme mini grafik, SparklineGroup, SparklineType
+title: Aspose.Cells for .NET içinde Sparklines
+linktitle: Mini Grafikler
+description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için .NET kütüphanesidir ve hücre içinde yerleştirilen minik grafikler olan sparkline'ların oluşturulmasını destekler. Bu makale, Aspose.Cells kütüphanesini kullanarak satır, sütun ve kazan/kaybet sparkline'larını nasıl ekleyeceğinizi ve özelleştireceğinizi açıklar.
+keywords: Aspose.Cells, .NET kütüphanesi, elektronik tablo, sparkline'lar, çizgi sparkline, sütun sparkline, kazan/kaybet sparkline, SparklineGroup, SparklineType
 type: docs
 weight: 195
 url: /tr/net/creating-sparklines/
@@ -11,23 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells, çalışma sayfası hücrelerinin içine mini grafikler oluşturmayı destekler. Mini grafikler tek bir hücrenin içine sığan ve veri eğilimlerinin hızlı bir görsel temsilini sağlayan küçük grafiklerdir. Aspose.Cells çizgi, sütun ve kazanma/kaybetme mini grafiklerini destekler ve her biri renk, çizgi kalınlığı, en yüksek/en düşük noktalar ve işaretleyiciler bakımından özelleştirilebilir.
+Aspose.Cells, çalışma sayfası hücreleri içinde sparkline'lar oluşturmayı destekler. Sparkline'lar, tek bir hücreye sığabilen minik grafiklerdir ve veri trendlerinin hızlı görsel temsilini sağlar. Aspose.Cells, satır, sütun ve kazan/kaybet sparkline'larını destekler ve her biri renk, çizgi kalınlığı, yüksek/düşük nokta işaretçileri ve işaretçiler açısından özelleştirilebilir.
 {{% /alert %}}
 
-## **Introduction**
-Mini grafikler, tam bir grafiğin kapladığı alanı kullanmadan bir veri satırı veya sütununun yanında hızlı bir eğilim göstermek istediğinizde kullanışlı olan hücre içi küçük grafiklerdir. Excel üç tür mini grafiği destekler: **çizgi**, **sütun** ve **kazanma/kaybetme**. Aspose.Cells, `Aspose.Cells.Charts` ad alanında bulunan `SparklineGroup` ve `SparklineGroupCollection` API'leri aracılığıyla bu yeteneği yansıtır.
-Aspose.Cells'te eklediğiniz her mini grafik `worksheet.SparklineGroups.Add(...)` çağrısıyla oluşturulur ve bu çağrı bir `SparklineGroup` nesnesi döndürür. Ardından bu nesneyi mini grafik türünü, veri aralığını, hedef hücreyi ve çizgi rengi, çizgi kalınlığı, işaretleyiciler ve en yüksek/en düşük nokta göstergeleri gibi görsel özellikleri ayarlamak için kullanabilirsiniz.
-Bu makale, Aspose.Cells tarafından desteklenen üç mini grafik türünün — **Çizgi**, **Sütun** ve **Kazanma/Kaybetme** — her birini ele alır ve bunların nasıl ekleneceğini, renklerinin nasıl özelleştirileceğini ve ortaya çıkan çalışma kitabının nasıl kaydedileceğini gösterir.
+## **Giriş**
+Sparklines, bir satır veya sütun verisinin yanına hızlı bir eğilim göstermek istediğinizde, tam bir grafik alanı kaplamadan kullanılabilen çok küçük hücre içi grafiklerdir. Excel üç çeşit sparkline destekler: **çizgi**, **sütun** ve **kazan/kaybet**. Aspose.Cells, bu yeteneği `Aspose.Cells.Charts` ad alanında bulunan `SparklineGroup` ve `SparklineGroupCollection` API'leriyle sunar.
+Aspose.Cells'ta eklediğiniz her sparkline, `worksheet.SparklineGroups.Add(...)` çağrısıyla oluşturulur ve bir `SparklineGroup` nesnesi döndürür. Bu nesne aracılığıyla sparkline türü, veri aralığı, hedef hücre ve çizgi rengi, çizgi kalınlığı, işaretçiler, yüksek/düşük nokta göstergeleri gibi görsel özellikler ayarlanabilir.
+Bu makale, Aspose.Cells tarafından desteklenen üç sparkline türü — **Çizgi**, **Sütun** ve **Kazan/Kaybet** — üzerinde nasıl ekleneceklerini, renklerinin nasıl özelleştirileceğini ve ortaya çıkan çalışma kitabının nasıl kaydedileceğini gösterir.
 
-## **Line Sparklines**
-Çizgi mini grafiği, bir serideki veri noktalarının içinden kesintisiz bir çizgi çizer ve bu da onu zaman içindeki eğilimleri göstermek için en doğal seçim yapar. Aspose.Cells'te bir çizgi mini grafiği, `SparklineType.Line` değerini `SparklineGroups.Add` yöntemine geçirerek oluşturulur.
+## **Çizgi Sparkline'ları**
+Çizgi sparkline, bir serideki veri noktaları üzerinden sürekli bir çizgi çizer ve zaman içindeki eğilimleri göstermek için en doğal seçimdir. Aspose.Cells'ta bir çizgi sparkline, `SparklineType.Line` değerini `SparklineGroups.Add` yöntemine geçirerek oluşturulur.
 1. Yeni bir `Workbook` oluşturun ve ilk çalışma sayfasına erişin.
-2. Görselleştirmek istediğiniz değerlerle bir kaynak veri satırını (örneğin, satır 1, A'dan E'ye sütunlar) doldurun.
-3. Mini grafiğin çizileceği hedef hücreyi tanımlayan bir `CellArea` oluşturun.
-4. `worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, dest)` çağrısını yapın. Üçüncü bağımsız değişken olan `false`, Aspose.Cells'e veri aralığının dikey (bir sütun) değil yatay (bir satır) olduğunu bildirir.
-5. İsteğe bağlı olarak, döndürülen `SparklineGroup` öğesini özelleştirin. Çizgi mini grafiği için `group.Line.Color` (bu, `Aspose.Cells.Drawing`'den bir `CellsColor` bekler) ile çizgi rengini ayarlayabilir, çizgi kalınlığını değiştirebilir ve en yüksek/en düşük nokta işaretleyicilerini açıp kapatabilirsiniz.
+2. Görselleştirmek istediğiniz değerleri içeren bir kaynak veri satırı doldurun (örneğin, 1. satır, A ile E sütunları).
+3. Sparkline'ın çizileceği hedef hücreyi tanımlayan bir `CellArea` nesnesi oluşturun.
+4. `worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, dest)` çağrısını yapın. Üçüncü parametre — `false` — Aspose.Cells'e veri aralığının yatay (bir satır) olduğunu, dikey (bir sütun) olmadığını söyler.
+5. Döndürülen `SparklineGroup` nesnesini isteğe bağlı olarak özelleştirin. Bir çizgi sparkline için `group.Line.Color` (bir `CellsColor` nesnesi bekler) ile çizgi rengini ayarlayabilir, çizgi kalınlığını değiştirebilir ve yüksek/düşük nokta işaretçilerini açabilirsiniz.
 6. Çalışma kitabını kaydedin.
-Aşağıdaki örnek bir çalışma kitabı oluşturur, 5, -3, 8, -2, 6 değerlerini A1 ile E1 hücrelerine yazar ve bu değerleri izleyen F1 hücresine bir çizgi mini grafiği ekler. Ayrıca çizgi rengini kırmızı olarak özelleştirir ve en yüksek ile en düşük noktalar için işaretleyicileri etkinleştirir.
+Aşağıdaki örnek, bir çalışma kitabı oluşturur, A1‑E1 hücrelerine 5, -3, 8, -2, 6 değerlerini yazar ve bu değerleri izleyen bir çizgi sparkline'ı F1 hücresine ekler. Çizgi rengi kırmızıya ayarlanır ve yüksek‑düşük noktalar için işaretçiler etkinleştirilir.
 
 ```csharp
 using System;
@@ -74,15 +74,16 @@ namespace SparklineDemo
 }
 ```
 
-## **Column Sparklines**
-Sütun mini grafiği her veri noktasını dikey bir çubuk olarak işler. Bu, onu büyüklüğün anlamlı olduğu veriler için — örneğin aylık satış rakamları veya sayımlar — uygun hale getirir. Aspose.Cells'te bir sütun mini grafiğini `SparklineType.Column` değerini `SparklineGroups.Add` yöntemine geçirerek oluşturursunuz.
-Yordam, çizgi mini grafik örneğini yansıtır:
+## **Sütun Sparkline'ları**
+Sütun sparkline, her veri noktasını dikey bir çubuk olarak render eder. Bu, değerin büyüklüğünün anlam taşıdığı durumlar için uygundur — örneğin, aylık satış rakamları veya sayımlar. Aspose.Cells'ta bir sütun sparkline, `SparklineType.Column` değerini `SparklineGroups.Add` yöntemine geçirerek oluşturulur.
+İşlem, çizgi sparkline örneğiyle aynıdır:
 1. Yeni bir `Workbook` oluşturun ve ilk çalışma sayfasına erişin.
-3. Hedef hücreyi tanımlayan bir `CellArea` oluşturun.
+2. Görselleştirmek istediğiniz değerleri içeren bir kaynak veri satırı doldurun (örneğin, 1. satır, A ile E sütunları).
+3. Hedef hücreyi tanımlayan bir `CellArea` nesnesi oluşturun.
 4. `worksheet.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, dest)` çağrısını yapın.
-5. İsteğe bağlı olarak, ortaya çıkan `SparklineGroup` öğesini özelleştirin — örneğin türü doğrulamak için `group.Type` ayarlayarak veya çubuk rengini ince ayarlayarak.
-6. Çalışma kitabını, çizgi mini grafik örneğinin üzerine yazmaması için ayrı bir çıktı dosyasına kaydedin.
-Aşağıdaki örnek, 5, -3, 8, -2, 6 değerlerini A1:E1 hücrelerine yazar ve F1 hücresinde bir sütun mini grafiği oluşturur. Negatif değerler aşağı yönde çubuklar, pozitif değerler ise yukarı yönde çubuklar olarak çizilir; bu da pozitif ve negatif katkıların bir bakışta kolayca fark edilmesini sağlar.
+5. Oluşan `SparklineGroup` nesnesini isteğe bağlı olarak özelleştirin — örneğin, `group.Type` değerini kontrol ederek türü doğrulayabilir veya çubuk rengini ayarlayabilirsiniz.
+6. Önceki örneğin üzerine yazılmaması için çalışma kitabını ayrı bir dosyaya kaydedin.
+Aşağıdaki örnek, A1‑E1 hücrelerine 5, -3, 8, -2, 6 değerlerini yazar ve F1 hücresine bir sütun sparkline çizer. Negatif değerler aşağı doğru çubuklar, pozitif değerler yukarı doğru çubuklar olarak render edilerek pozitif ve negatif katkılar gözle görülür bir biçimde ayırt edilir.
 
 ```csharp
 using System;
@@ -124,15 +125,15 @@ namespace SparklineDemo
 }
 ```
 
-## **Win/Loss Sparklines**
-Kazanma/kaybetme mini grafiği, yalnızca iki sonucu göstermek için tasarlanmış sütun mini grafiğinin özel bir çeşididir: pozitif bir değer "yukarı" çubuğu (kazanma) olarak, sıfır veya negatif bir değer ise "aşağı" çubuğu (kaybetme) olarak çizilir. Kazanma/kaybetme mini grafikleri genellikle kazanma ve kaybetme dizilerini, geçer/geçmez sonuçlarını veya zaman içindeki herhangi bir ikili sonucu görselleştirmek için kullanılır.
-Aspose.Cells'te bir kazanma/kaybetme mini grafiği, `SparklineType.Stacked` değerini `SparklineGroups.Add` yöntemine geçirerek oluşturulur. (Adına rağmen, `SparklineType.Stacked`, kazanma/kaybetme işlemeyi istemek için kullanılan enum değeridir.)
+## **Kazan/Kaybet Sparkline'ları**
+Kazan/kaybet sparkline, sadece iki sonucu göstermek üzere tasarlanmış bir sütun sparkline çeşididir: pozitif bir değer “yukarı” çubuk (kazan) olarak, sıfır veya negatif bir değer ise “aşağı” çubuk (kaybet) olarak çizilir. Kazan/kaybet sparkline'lar, bir dizi kazan ve kaybı, geçme/kalma sonuçlarını veya zaman içinde ikili bir sonucu görselleştirmek için yaygın olarak kullanılır.
+Aspose.Cells'ta bir kazan/kaybet sparkline, `SparklineType.Stacked` değerini `SparklineGroups.Add` yöntemine geçirerek oluşturulur. (İsim yanıltıcı olsa da, `SparklineType.Stacked` kazan/kaybet render'ını talep etmek için kullanılan enum değeridir.)
 1. Yeni bir `Workbook` oluşturun ve ilk çalışma sayfasına erişin.
-2. Kaynak aralığı doldurun. Kazanma/kaybetme mini grafikleri her değeri bir kazanma veya kaybetme olarak ele aldığından, değerin büyüklüğü önemli değildir — yalnızca işareti önemlidir. Pozitif değerler yukarı çubukları, pozitif olmayan değerler ise aşağı çubukları olur.
-3. Hedef hücreyi tanımlayan bir `CellArea` oluşturun.
+2. Kaynak aralığı doldurun. Kazan/kaybet sparkline'lar her değeri kazan ya da kayıp olarak değerlendirir; değerin büyüklüğü önemli değildir, sadece işareti önemlidir. Pozitif değerler yukarı çubuk, sıfır ve negatif değerler aşağı çubuk olarak çizilir.
+3. Hedef hücreyi tanımlayan bir `CellArea` nesnesi oluşturun.
 4. `worksheet.SparklineGroups.Add(SparklineType.Stacked, "A1:E1", false, dest)` çağrısını yapın.
-5. İsteğe bağlı olarak, döndürülen `SparklineGroup` öğesini özelleştirin; örneğin kazanma ve kaybetme çubukları için vurgu renkleri ayarlayın.
-6. Çalışma kitabını, üç örneğin de diskte birlikte bulunabilmesi için farklı bir dosya adıyla kaydedin.
+5. Döndürülen `SparklineGroup` nesnesini isteğe bağlı olarak özelleştirin; örneğin kazan ve kayıp çubukları için vurgu renkleri ayarlayabilirsiniz.
+6. Üç örneğin aynı anda bulunabilmesi için çalışma kitabını farklı bir dosya adıyla kaydedin.
 
 ```csharp
 using System;
@@ -197,8 +198,8 @@ namespace SparklineDemo
 }
 ```
 
-## **Combining All Three Sparkline Types**
-Aşağıdaki birleşik örnek, tek bir çalışma kitabı oluşturur, 1. satıra 5, -3, 8, -2, 6 değerlerini doldurur ve ardından F1, F2 ve F3 hücrelerine üç mini grafik grubu ekler — her türden bir tane — böylece ortaya çıkan dosya aynı anda üç mini grafik stilini de gösterir.
+## **Üç Sparkline Türünü Birleştirme**
+Aşağıdaki birleşik örnek, tek bir çalışma kitabı oluşturur, 1. satıra 5, -3, 8, -2, 6 değerlerini yerleştirir ve ardından F1, F2 ve F3 hücrelerine — her bir türden bir sparkline — ekleyerek dosyanın aynı anda üç sparkline stilini göstermesini sağlar.
 
 ```csharp
 using System;
@@ -207,13 +208,13 @@ using Aspose.Cells.Charts;
 // Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Step 2: Populate sample data in row 1 (A1:E1)
+ // Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.Cells["A1"].PutValue(5);
 worksheet.Cells["B1"].PutValue(-3);
 worksheet.Cells["C1"].PutValue(8);
 worksheet.Cells["D1"].PutValue(-2);
 worksheet.Cells["E1"].PutValue(6);
-// Step 3: Add a Line sparkline group at F1
+ // Step 3: Add a Line sparkline group at F1
 CellArea lineArea = new CellArea();
 lineArea.StartColumn = 5;
 lineArea.EndColumn = 5;
@@ -237,7 +238,7 @@ SparklineGroup columnGroup = worksheet.SparklineGroups[columnIdx];
 CellsColor columnColor = workbook.CreateCellsColor();
 columnColor.Color = System.Drawing.Color.Green;
 columnGroup.SeriesColor = columnColor;
-// Step 5: Add a Win/Loss (Stacked) sparkline group at F3
+ // Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 CellArea stackedArea = new CellArea();
 stackedArea.StartColumn = 5;
 stackedArea.EndColumn = 5;
@@ -253,20 +254,20 @@ stackedGroup.SeriesColor = stackedColor;
 workbook.Save("output_all.xlsx");
 ```
 
-## **Customizing Sparkline Appearance**
-Bir `SparklineGroup` oluşturulup `worksheet.SparklineGroups` öğesine eklendikten sonra, çalışma kitabını kaydetmeden önce çeşitli görsel özelliklerini okuyabilir veya değiştirebilirsiniz. En sık özelleştirilen özellikler şunlardır:
-- **`group.Type`** — `SparklineType` (Line, Column veya Stacked). Grup eklendiğinde ayarlanır, ancak onaylamak için geri okuyabilirsiniz.
-- **`group.Line.Color`** — çizgi rengi, `workbook.CreateCellsColor()` ile oluşturulan bir `CellsColor` olarak ifade edilir. Çizgi mini grafiği kontur rengi için kullanılacak özellik budur.
-- **`group.Line.Weight`** — çizgi kalınlığı (puan cinsinden). Daha yüksek değerler daha kalın çizgiler üretir.
-- **En Yüksek/En Düşük nokta işaretleyicileri** — en yüksek ve en düşük veri noktalarında küçük işaretleyicileri açan, uç noktaları vurgulamak için kullanışlı olan bayraklar.
-- **İlk/Son/Negatif nokta işaretleyicileri** — ilk, son ve negatif veri noktalarındaki işaretleyicileri açıp kapatan bayraklar.
-Bir rengi değiştirmek için her zaman bir `CellsColor` örneği oluşturun ve bunu ilgili özelliğe atayın. Mini grafik renk özelliklerine doğrudan bir `System.Drawing.Color` atamayın — bunlar `Aspose.Cells.Drawing`'den `CellsColor` türünü bekler. `SparklineGroups.Add` yönteminin kendisi tam türde belirlenmiş bir `SparklineGroup` nesnesi döndürür; böylece dönüş değeri üzerinde özellik atamalarını zincirleyebilir veya onu yerel bir değişkende saklayıp kaydetmeden önce özelleştirebilirsiniz.
+## **Sparkline Görünümünü Özelleştirme**
+Bir `SparklineGroup` oluşturulup `worksheet.SparklineGroups` koleksiyonuna eklendikten sonra, çalışma kitabını kaydetmeden önce birkaç görsel özelliğini okuyabilir veya değiştirebilirsiniz. En sık özelleştirilen özellikler şunlardır:
+- **`group.Type`** — `SparklineType` (Line, Column, or Stacked). Grup eklenirken ayarlanır, ancak doğrulamak için geri okunabilir.
+- **`group.Line.Color`** — çizgi rengi, `workbook.CreateCellsColor()` ile oluşturulan bir `CellsColor` olarak ifade edilir. Bu, çizgi sparkline çizgi rengi için kullanılacak özelliktir.
+- **`group.Line.Weight`** — nokta cinsinden çizgi kalınlığı. Daha yüksek değerler daha kalın çizgiler üretir.
+- **High/Low point markers** — en yüksek ve en düşük veri noktalarına küçük işaretçiler ekleyen bayraklar, uç noktaları vurgulamak için kullanışlıdır.
+- **First/Last/Negative point markers** — ilk, son ve negatif veri noktalarına işaretçi ekleyen/çıkartan bayraklar.
+Bir rengi değiştirmek için her zaman bir `CellsColor` örneği oluşturup ilgili özelliğe atayın. `System.Drawing.Color` nesnesini doğrudan sparkline renk özelliklerine atamayın — bu özellikler `Aspose.Cells.Drawing` içindeki `CellsColor` tipini bekler. `SparklineGroups.Add` yöntemi zaten tam tipli bir `SparklineGroup` nesnesi döndürdüğü için, dönen değerin üzerine doğrudan özellik atamaları zincirlenebilir veya yerel bir değişkende tutularak kaydetmeden önce özelleştirilebilir.
 
-## Related Articles
-- [Aspose.Cells for .NET'te Mini Grafiği Görüntüye ve HTML'e Dönüştürme](/cells/tr/net/convert-sparkline-to-image-and-html/)
-- [Aspose.Cells for .NET'te Pivot Tablosuna Filtre Alanları Ekleme](/cells/tr/net/add-page-field-in-pivot-table/)
-- [Aspose.Cells for .NET'te Pivot Tablolarına Stiller Uygulama](/cells/tr/net/apply-style-to-pivot-table/)
-- [Pivot Tablosunda Sayfa Alanı Düzenini Değiştirme](/cells/tr/net/change-page-field-layout/)
-- [Excel'i OFD Biçimine Dönüştürme](/cells/tr/net/converting-excel-to-ofd-format/)
+## **İlgili Makaleler**
+- [Aspose.Cells for .NET'de Sparkline'ı Görüntü ve HTML'ye Dönüştür](/cells/tr/net/convert-sparkline-to-image-and-html/)
+- [Aspose.Cells for .NET'de Pivot Tablosuna Filtre Alanları Ekle](/cells/tr/net/add-page-field-in-pivot-table/)
+- [Aspose.Cells for .NET'de Pivot Tablolarına Stil Uygula](/cells/tr/net/apply-style-to-pivot-table/)
+- [Pivot Tablosunda Sayfa Alanı Düzenini Değiştir](/cells/tr/net/change-page-field-layout/)
+- [Excel'i OFD Formatına Dönüştürme](/cells/tr/net/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="csharp" >}}

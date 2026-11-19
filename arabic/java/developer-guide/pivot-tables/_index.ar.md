@@ -40,13 +40,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```java
 import com.aspose.cells.*;
-
-// إنشاء مصنف جديد والحصول على ورقة العمل الأولى
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-
-// كتابة بيانات المصدر: المبيعات حسب الرياضة والربع
+// Write the source data: sales per sport and quarter
 cells.get("A1").putValue("Sport");
 cells.get("B1").putValue("Quarter");
 cells.get("C1").putValue("Sales");
@@ -71,16 +69,13 @@ cells.get("C7").putValue(5000);
 cells.get("A8").putValue("Golf");
 cells.get("B8").putValue("Qtr3");
 cells.get("C8").putValue(6430);
-
-// إضافة جدول محوري في خلية الوجهة E3، بمصدر A1:C8
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// تعيين حقول الجدول المحوري: Sport إلى Rows، Quarter إلى Columns، Sales إلى Data
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Quarter");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
-
-// حفظ المصنف
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

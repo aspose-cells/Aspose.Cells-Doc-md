@@ -1,6 +1,6 @@
 ---
 title: Gruppieren von Pivot-Feldern in der Pivot-Tabelle
-linktitle: Gruppieren von Pivot-Feldern in der Pivot-Tabelle
+linktitle: Pivot-Felder gruppieren
 description: Erfahren Sie, wie Sie Zeilen- und Spalten-Pivot-Felder in einer Pivot-Tabelle in Zeiträume wie Monate und Quartale sowie in Zahlenbereiche gruppieren, indem Sie PivotField.Group und PivotFieldGroupOptions in Aspose.Cells for Python via .NET verwenden.
 keywords: Aspose.Cells, Pivot-Tabelle, Pivot-Felder gruppieren, PivotField.Group, PivotFieldGroupOptions, Datumsgruppierung, Zahlengruppierung, Monate, Quartale, Zahlenbereich, Python via .NET
 type: docs
@@ -20,15 +20,15 @@ Die parameterlose Überladung `pivot_field.group()` untersucht den Datentyp des 
 
 ```python
 import aspose.cells as ac
-# Laden Sie die Beispielarbeitsmappe
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Zugriff auf das zweite Arbeitsblatt und dessen Pivot-Tabelle
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# Gruppieren Sie das erste Zeilenfeld automatisch.
-# Das Feld enthält Datumsangaben, daher wird es nach Monaten gruppiert.
+# Group the first row field automatically.
+# The field contains dates, so it is grouped by months.
 field = pt.row_fields[0]
 field.group()
-# Berechnen Sie die Pivot-Tabellendaten und speichern Sie die Ausgabedatei
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputAutoGroupPivotField.xlsx")
 ```
@@ -45,17 +45,17 @@ import aspose.cells as ac
 from datetime import datetime
 from aspose.cells.pivot import PivotGroupByType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# Lade die Beispielarbeitsmappe
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Greife auf das zweite Arbeitsblatt und seine Pivot-Tabelle zu
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# Gruppiere das erste Zeilenfeld (ein Datumsfeld) nach Monaten und Quartalen
+# Group the first row field (a date field) by months and quarters
 options = PivotFieldGroupOptions()
 options.start_date = datetime(2008, 1, 1)
 options.end_date = datetime(2008, 9, 5)
 options.group_types = [PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS]
 pt.row_fields[0].group(options)
-# Berechne die Pivot-Tabellen-Daten und speichere die Ausgabedatei
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 ```
@@ -69,21 +69,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# Laden Sie die Beispielarbeitsmappe
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Greifen Sie auf das zweite Arbeitsblatt und dessen Pivot-Tabelle zu
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# FieldTwo ist ein Datenfeld: verschieben Sie es zuerst in den Zeilenbereich,
-# da nur Zeilen-/Spaltenfelder gruppiert werden können
+# FieldTwo is a data field: move it to the row area first,
+# because only row/column fields can be grouped
 pt.add_field_to_area(PivotFieldType.ROW, "FieldTwo")
 pt.calculate_data()
-# Gruppieren Sie das numerische Feld in die Bereiche 0-1, 2-3, 4-5
+# Group the numeric field into the ranges 0-1, 2-3, 4-5
 options = PivotFieldGroupOptions()
 options.start_number = 0.0
 options.end_number = 5.0
 options.interval = 2.0
 pt.row_fields[1].group(options)
-# Berechnen Sie die Pivot-Tabellendaten und speichern Sie die Ausgabedatei
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputNumberGroupPivotField.xlsx")
 ```

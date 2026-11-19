@@ -28,17 +28,14 @@ Der folgende Beispielcode zeigt, wie Sie eine PivotTable erstellen und mit ihr a
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main()
 {
     Aspose::Cells::Startup();
-
-    // Erstellen Sie eine neue Arbeitsmappe und rufen Sie das erste Arbeitsblatt ab
+    // Create a new workbook and get the first worksheet
     Workbook workbook;
     Worksheet sheet = workbook.GetWorksheets().Get(0);
     Cells cells = sheet.GetCells();
-
-    // Schreiben Sie die Quelldaten: Umsatz pro Sportart und Quartal
+    // Write the source data: sales per sport and quarter
     cells.Get(u"A1").PutValue(u"Sport");
     cells.Get(u"B1").PutValue(u"Quarter");
     cells.Get(u"C1").PutValue(u"Sales");
@@ -63,18 +60,14 @@ int main()
     cells.Get(u"A8").PutValue(u"Golf");
     cells.Get(u"B8").PutValue(u"Qtr3");
     cells.Get(u"C8").PutValue(6430);
-
-    // Fügen Sie in der Zielzelle E3 eine Pivot-Tabelle hinzu, deren Datenquelle A1:C8 ist
+    // Add a pivot table at destination cell E3, sourced from A1:C8
     PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C8", 2, 4);
-
-    // Weisen Sie die Pivot-Felder zu: Sportart zu Zeilen, Quartal zu Spalten, Umsatz zu Daten
+    // Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Sport");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Quarter");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
-
-    // Speichern Sie die Arbeitsmappe
+    // Save the workbook
     workbook.Save(u"pivotTable_test_out.xlsx");
-
     Aspose::Cells::Cleanup();
     return 0;
 }

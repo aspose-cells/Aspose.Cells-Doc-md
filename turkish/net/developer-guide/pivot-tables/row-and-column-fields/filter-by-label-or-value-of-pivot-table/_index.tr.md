@@ -1,6 +1,6 @@
 ---
 title: Pivot Tablolarını Etiket veya Değere Göre Filtreleme
-linktitle: Pivot Tablolarını Etiket veya Değere Göre Filtreleme
+linktitle: Etikete veya Değere Göre Filtreleme
 description: Aspose.Cells for .NET, kapsamlı pivot tablo filtreleme özelliklerini destekler. Bu makale, pivot tablo verilerini etiket filtreleri, tarih filtreleri, değer filtreleri, ilk 10 filtreleri kullanarak ve pivot öğelerini gizleyerek veya görünür kılarak nasıl filtreleneceğini açıklar.
 keywords: Aspose.Cells, .NET kütüphanesi, elektronik tablo, pivot tablo, filtre, etiket filtresi, değer filtresi, tarih filtresi, ilk 10 filtresi, pivot öğesi, pivot öğesini gizle
 type: docs
@@ -36,19 +36,19 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 string fileName = "sample.xlsx";
 string prefix = "B";
-// Pivot tablosu içeren mevcut çalışma kitabını yükle
+// Load the existing workbook containing a pivot table
 Workbook workbook = new Workbook(fileName);
-// Çalışma sayfasına dizin ile eriş (ilk çalışma sayfası)
+// Access the worksheet by index (first worksheet)
 Worksheet worksheet = workbook.Worksheets[0];
-// Pivot tablosuna dizin ile eriş
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// İlk satır PivotField alanını al
+// Retrieve the first row PivotField
 PivotField rowField = pivotTable.RowFields[0];
-// Etiket filtresini uygula — yalnızca etiketleri sağlanan önekle başlayan satır öğelerini göster
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.FilterByLabel(PivotFilterType.CaptionBeginsWith, prefix, string.Empty);
-// Filtrenin etkili olması için pivot tablo verilerini yenile ve yeniden hesapla
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Çalışma kitabını diske geri kaydet
+// Save the workbook back to disk
 workbook.Save(fileName);
 ```
 
@@ -72,23 +72,23 @@ if (!File.Exists(inputPath))
 {
     throw new FileNotFoundException("Source workbook not found.", inputPath);
 }
-// Pivot tablosunu içeren mevcut çalışma kitabını yükle
+// Load the existing workbook that contains the pivot table
 var workbook = new Workbook(inputPath);
-// Pivot tablosunu barındıran çalışma sayfasına eriş (dizine göre)
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.Worksheets[0];
-// Pivot tablosuna dizine göre eriş
+// Access the pivot table by index
 var pivotTable = worksheet.PivotTables[0];
-// Satır alanından tarih PivotField'ını al
-// (Tarih filtresi yalnızca satır/sütun alanı yalnızca tarih-saat hücreleri veya boşluklar içerdiğinde çalışır)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 PivotField dateField = pivotTable.RowFields[0];
-// Between filtresi için tarih ölçütünü tanımla
+// Define the date criterion for the Between filter
 DateTime startDate = new DateTime(2020, 1, 1);
 DateTime endDate = new DateTime(2020, 12, 31);
-// Pivot alanına tarih filtresini uygula
+// Apply the date filter on the pivot field
 dateField.FilterByDate(PivotFilterType.DateBetween, startDate, endDate);
-// Filtrenin geçerli olması için pivot tablosunu yenile ve yeniden hesapla
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Çalışma kitabını kaydet
+// Persist the workbook
 workbook.Save(outputPath);
 ```
 
@@ -105,7 +105,7 @@ var worksheet = workbook.Worksheets[0];
 var pivotTable = worksheet.PivotTables[0];
 var rowField = pivotTable.RowFields[0];
 var dataField = pivotTable.DataFields[0];
-// PivotFieldCollection'da IndexOf bulunmadığından veri alanı dizinini manuel olarak bul
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 int dataFieldIndex = -1;
 for (int i = 0; i < pivotTable.DataFields.Count; i++)
 {
@@ -137,33 +137,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Pivot tablosunu içeren mevcut çalışma kitabını yükleyin
+// Load the existing workbook that contains the pivot table
 string inputPath = "input.xlsx";
 string outputPath = "output.xlsx";
 Workbook workbook = new Workbook(inputPath);
-// Pivot tablosunu barındıran çalışma sayfasına erişin (indeks 0)
+// Access the worksheet that holds the pivot table (index 0)
 Worksheet worksheet = workbook.Worksheets[0];
-// Pivot tablosuna dizine göre erişin
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Veri alanında en az bir değer PivotField olduğunu doğrulayın
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.DataFields.Count == 0)
 {
     throw new InvalidOperationException("Pivot table has no value (data) PivotField.");
 }
 PivotField valueField = pivotTable.DataFields[0];
-// Hedef satır PivotField'ını alın (Top 10 filtre uygulamak istediğimiz alan)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 PivotField rowField = pivotTable.RowFields[0];
-// İlk (ve tek) veri alanı indeks 0'da; Top 10 sıralamayı buna göre yapar.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 int valueFieldIndex = 0;
-// Satır alanına Top 10 filtresini uygulayın:
+// Apply the Top 10 filter on the row field:
+//   - valueFieldIndex = 0 — the data field used to rank items
+//   - filterType  = PivotFilterType.Count (keep a fixed number of items;
+//     PivotFilterType.Percent would interpret 10 as "top 10 percent")
+//   - isTop       = true (top N; false would mean bottom N)
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Count
-//   - isTop       = true (en üst N; false en alt N anlamına gelir)
-//   - valueFieldIndex = öğeleri sıralamak için kullanılan veri alanının indeksi
 rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
-// Pivot tablosu verilerini yenileyin ve filtrenin etkili olması için yeniden hesaplayın
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Çalışma kitabını kaydedin
+// Save the workbook
 workbook.Save(outputPath);
 ```
 
@@ -176,34 +177,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Pivot tablosu içeren mevcut bir çalışma kitabını yükle
+// Load an existing workbook containing a pivot table
 Workbook workbook = new Workbook("pivot_table_sample.xlsx");
-// Pivot tablosunu içeren ilk çalışma sayfasına eriş
+// Access the first worksheet which contains the pivot table
 Worksheet sheet = workbook.Worksheets[0];
-// Pivot tablosuna dizine göre eriş (sayfadaki ilk pivot tablosu)
+// Access the pivot table by index (the first pivot table on the sheet)
 PivotTable pivotTable = sheet.PivotTables[0];
-// Hedef PivotField'i al (öğelerini gizleyeceğimiz/göstereceğimiz ilk satır etiket alanı)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 PivotField pivotField = pivotTable.RowFields[0];
-// Seçilen PivotField'in PivotItems koleksiyonu üzerinde yineleme yap
+// Iterate through the PivotItems collection of the selected PivotField
 int itemCount = pivotField.PivotItems.Count;
 for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.PivotItems[i];
-    // Belirli bir ad/ölçütle eşleşen pivot öğelerini gizle
+    // Hide pivot items that match a specific name/criterion
     if (item.Name == "Item1" || item.Name == "Item2")
     {
         item.IsHidden = true;
     }
-    // Gizlemenin kaldırılmasını göster: daha önce gizlenmiş bir pivot öğesini tekrar göster
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.Name == "Item3")
     {
         item.IsHidden = false;
     }
 }
-// Değişikliklerin etkili olması için pivot tablosunu yenile ve yeniden hesapla
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.PivotCache.Refresh();
-// Çalışma kitabını kaydet — gizli öğeler temel verilerde kalır
-// ancak görüntülenen pivot tablosu çıktısından hariç tutulur
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.Save("output_pivot_filtered.xlsx");
 ```
 

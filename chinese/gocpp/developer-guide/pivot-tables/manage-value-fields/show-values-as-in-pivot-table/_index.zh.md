@@ -1,6 +1,6 @@
 ---
 title: 在数据透视表中显示值方式
-linktitle: 在数据透视表中显示值方式
+linktitle: 显示值方式
 description: 使用 Aspose.Cells for Go via C++ 将数据透视表数据字段的值显示为总计的百分比、相对于基准项的差异、累计总计、排名等。
 keywords: Aspose.Cells for Go via C++, 数据透视表, 显示值方式, 数据展示格式, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex, C++
 type: docs

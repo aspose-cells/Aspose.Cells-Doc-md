@@ -22,7 +22,7 @@ In questo articolo vengono trattate le seguenti strategie di filtraggio:
 3. **Filtro per valore** — filtra gli elementi in base ai valori aggregati di un campo dati.
 4. **Filtro primi 10** — mostra solo i primi o gli ultimi N elementi classificati in base a un campo valore.
 5. **Nascondere/Mostrare elementi pivot** — controlla manualmente la visibilità di ciascun singolo elemento in un campo.
-Ogni approccio utilizza un metodo diverso sulla classe `PivotField` oppure una proprietà sulla classe `PivotItem`. Dopo aver applicato qualsiasi filtro, è necessario chiamare `refreshData()` e `calculateData()` sulla tabella pivot in modo che i dati memorizzati nella cache e i valori calcolati riflettano il nuovo stato del filtro.
+Ogni approccio utilizza un metodo diverso sulla classe `PivotField` oppure una proprietà sulla classe `PivotItem`. Dopo aver applicato qualsiasi filtro, è necessario chiamare `getPivotCache().refresh()` sulla tabella pivot in modo che i dati memorizzati nella cache e i valori calcolati riflettano il nuovo stato del filtro.
 
 ## **Filtro per etichetta**
 Un filtro per etichetta consente di filtrare gli elementi di un campo di riga o colonna confrontando le loro didascalie di testo con un modello. Ciò è utile quando si desidera visualizzare solo i prodotti i cui nomi iniziano con una lettera specifica, contengono una determinata parola o soddisfano un altro criterio basato sulla didascalia.
@@ -33,19 +33,19 @@ L'esempio seguente carica una cartella di lavoro contenente una tabella pivot es
 const AsposeCells = require("aspose.cells.node");
 let fileName = "sample.xlsx";
 let prefix = "B";
-// Carica la cartella di lavoro esistente contenente una tabella pivot
+// Load the existing workbook containing a pivot table
 let workbook = new AsposeCells.Workbook(fileName);
-// Accedi al foglio di lavoro tramite indice (primo foglio di lavoro)
+// Access the worksheet by index (first worksheet)
 let worksheet = workbook.getWorksheets().get(0);
-// Accedi alla tabella pivot tramite indice
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// Recupera il primo PivotField di riga
+// Retrieve the first row PivotField
 let rowField = pivotTable.getRowFields().get(0);
-// Applica il filtro sulle etichette: mostra solo gli elementi di riga le cui etichette iniziano con il prefisso fornito
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
-// Aggiorna e ricalcola i dati della tabella pivot affinché il filtro abbia effetto
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Salva la cartella di lavoro su disco
+// Save the workbook back to disk
 workbook.save(fileName);
 ```
 
@@ -67,23 +67,23 @@ if (!fs.existsSync(inputPath))
 {
     throw new Error("Source workbook not found: " + inputPath);
 }
-// Carica la cartella di lavoro esistente che contiene la tabella pivot
+// Load the existing workbook that contains the pivot table
 const workbook = new AsposeCells.Workbook(inputPath);
-// Accedi al foglio di lavoro che contiene la tabella pivot (per indice)
+// Access the worksheet that holds the pivot table (by index)
 const worksheet = workbook.getWorksheets().get(0);
-// Accedi alla tabella pivot per indice
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// Recupera il PivotField della data dall'area delle righe
-// (Il filtro per data funziona solo quando l'area delle righe/colonne contiene solo celle di data-ora o vuote)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 const dateField = pivotTable.getRowFields().get(0);
-// Definisci il criterio della data per il filtro Between
+// Define the date criterion for the Between filter
 const startDate = new Date(2020, 0, 1);
 const endDate = new Date(2020, 11, 31);
-// Applica il filtro per data sul campo pivot
+// Apply the date filter on the pivot field
 dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
-// Aggiorna e ricalcola la tabella pivot affinché il filtro abbia effetto
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Salva la cartella di lavoro
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
@@ -119,32 +119,32 @@ L'esempio seguente carica una cartella di lavoro con una tabella pivot che conti
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Carica la cartella di lavoro esistente che contiene la tabella pivot
+// Load the existing workbook that contains the pivot table
 const inputPath = "input.xlsx";
 const outputPath = "output.xlsx";
 const workbook = new AsposeCells.Workbook(inputPath);
-// Accedi al foglio di lavoro che contiene la tabella pivot (indice 0)
+// Access the worksheet that holds the pivot table (index 0)
 const worksheet = workbook.getWorksheets().get(0);
-// Accedi alla tabella pivot tramite indice
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// Verifica che ci sia almeno un PivotField di valore nell'area dati
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() === 0) {
     throw new Error("Pivot table has no value (data) PivotField.");
 }
 const valueField = pivotTable.getDataFields().get(0);
-// Recupera il PivotField di riga di destinazione (il campo a cui vogliamo applicare Top 10)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 const rowField = pivotTable.getRowFields().get(0);
-// Il primo (e unico) campo dati è all'indice 0; Top 10 classifica in base ad esso.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 const valueFieldIndex = 0;
-// Applica il filtro Top 10 sul campo di riga:
+// Apply the Top 10 filter on the row field:
 //   - itemCount   = 10
 //   - filterType  = PivotFilterType.Sum
-//   - isTop       = true (top N; false significherebbe bottom N)
-//   - valueFieldIndex = l'indice del campo dati utilizzato per classificare gli elementi
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
-// Aggiorna i dati della tabella pivot e ricalcolala affinché il filtro abbia effetto
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Salva la cartella di lavoro
+// Save the workbook
 workbook.save(outputPath);
 ```
 

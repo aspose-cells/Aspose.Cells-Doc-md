@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for C++ 中的 Excel 相机
-linktitle: Aspose.Cells for C++ 中的 Excel 相机
+linktitle: Excel 相机
 description: 了解如何在 Aspose.Cells for C++ 中使用 Excel 相机，创建与单元格区域链接的动态图片，该图片随源数据刷新并保留所有源格式。
 keywords: Aspose.Cells, C++, Excel 相机, 动态图片, 链接图片, Picture.Formula, UpdateSelectedValue, CreateRange, ToImage, Vector
 type: docs
@@ -37,7 +37,7 @@ int main()
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(U16String("CameraDemo"));
-    // 动态相机：添加一个空图片，通过公式将其链接到 A1:F10，然后刷新
+    // Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
     int index = worksheet.GetPictures().Add(10, 6, Vector<uint8_t>());
     Picture picture = worksheet.GetPictures().Get(index);
     picture.SetFormula(U16String("A1:F10"));
@@ -65,7 +65,7 @@ int main()
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(U16String("CameraDemo"));
-    // 静态相机：构建 Range，渲染为字节，作为图片添加
+    // Static Camera: build Range, render to bytes, add as picture
     Range range = worksheet.GetCells().CreateRange(U16String("A1:F10"));
     Vector<uint8_t> imageBytes = range.ToImage(nullptr);
     worksheet.GetPictures().Add(10, 6, imageBytes);

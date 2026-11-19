@@ -52,7 +52,7 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 pivotTable.CalculateData();
 PivotField sportField = pivotTable.RowFields[0];
-// عرض أفضل عنصرين مرتبين حسب "مجموع المبيعات" (فهرس حقل البيانات 0)
+// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sportField.Top10AutoShow(true, true, 2, 0);
 pivotTable.CalculateData();
 workbook.Save("output-top10-by-value-field.xlsx");
@@ -87,7 +87,7 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 pivotTable.CalculateData();
 PivotField sportField = pivotTable.RowFields[0];
-// إظهار أدنى 3 عناصر مرتبة حسب الحقل نفسه (rankBy = -1)
+// Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sportField.Top10AutoShow(true, false, 3, -1);
 pivotTable.CalculateData();
 workbook.Save("output-top10-by-field-itself.xlsx");
@@ -152,9 +152,9 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 pivotTable.CalculateData();
 PivotField sportField = pivotTable.RowFields[0];
-// مرشح Top 10 — احتفظ بأعلى عنصرين حسب "مجموع المبيعات" (فهرس حقل البيانات 0)
+// Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
 PivotFilter filter = sportField.FilterTop10(0, PivotFilterType.Count, true, 2);
-// لاستخدام مرشح قائم على النسبة بدلاً من ذلك، احتفظ بأعلى 30٪ من العناصر:
+// For a percentage-based filter instead, keep the top 30 percent of the items:
 // sportField.FilterTop10(0, PivotFilterType.Percent, true, 30);
 pivotTable.PivotCache.Refresh();
 pivotTable.CalculateData();

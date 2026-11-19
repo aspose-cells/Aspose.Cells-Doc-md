@@ -1,6 +1,6 @@
 ---
 title: Visa eller filtrera topp 10 i pivottabell
-linktitle: Visa eller filtrera topp 10 i pivottabell
+linktitle: Visa eller filtrera topp 10
 description: Lär dig hur du endast visar de högst eller lägst rangordade objekten i ett pivotfält med Aspose.Cells for Node.js via C++. Artikeln beskriver metoden Top10AutoShow för Excel 97-2003, hur alternativ läses med Top10AutoShowSettings och filtret för topp 10 i Excel 2007-365 via FilterTop10.
 keywords: Aspose.Cells, Node.js via C++, pivottabell, topp 10, automatisk topp 10-visning, Top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, FilterTop10, PivotFilterType, PivotField, Node.js
 type: docs

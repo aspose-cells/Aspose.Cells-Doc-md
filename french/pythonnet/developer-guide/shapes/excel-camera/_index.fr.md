@@ -33,7 +33,7 @@ from aspose.cells import Workbook, SaveFormat
 workbook = Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "CameraDemo"
-# Caméra dynamique : ajouter une image vide, la lier via une formule à A1:F10, puis actualiser
+# Dynamic Camera: add an empty picture, link it via formula to A1:F10, then refresh
 pictures = worksheet.pictures
 index = pictures.add(10, 6, None)
 pictures[index].formula = "A1:F10"
@@ -56,7 +56,7 @@ from aspose.cells import Workbook, SaveFormat
 workbook = Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "CameraDemo"
-# Caméra Statique : construire une Plage, rendre en octets, envelopper dans BytesIO, ajouter comme image
+# Static Camera: build Range, render to bytes, wrap in BytesIO, add as picture
 range_ = worksheet.cells.create_range("A1:F10")
 pictures = worksheet.pictures
 pictures.add(10, 6, BytesIO(range_.to_image(None)))

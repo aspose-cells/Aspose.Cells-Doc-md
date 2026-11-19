@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Java İçinde Pivot Tablolarını ve Önbelleklerini Yenileme
-linktitle: Aspose.Cells for Java İçinde Pivot Tablolarını ve Önbelleklerini Yenileme
+linktitle: Pivot Tablolarını Yenile
 description: Aspose.Cells for Java ile v26.7+ Pivot Tablosu yenileme API'sini kullanarak Pivot Tablolarının nasıl yenileneceğini öğrenin. Bu makale, refreshAll, refreshPivotTables, PivotCache.refresh, calculateData ve getPivotTables konularını pratik kod örnekleriyle ele alır.
 keywords: Aspose.Cells, Java, Pivot Tablosu, yenileme, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

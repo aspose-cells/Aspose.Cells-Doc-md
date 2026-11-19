@@ -1,7 +1,7 @@
 ---
 title: Özet Tabloları Etiket veya Değere Göre Filtreleme
 description: Aspose.Cells for Node.js via Java kapsamlı özet tablo filtreleme yeteneklerini destekler. Bu makale, etiket filtreleri, tarih filtreleri, değer filtreleri, ilk 10 filtreleri kullanarak ve özet öğelerini gizleyerek veya göstererek özet tablo verilerinin nasıl filtreleneceğini açıklar.
-linktitle: Özet Tabloları Etiket veya Değere Göre Filtreleme
+linktitle: Etikete veya Değere Göre Filtreleme
 url: /tr/nodejs-java/filter-by-label-or-value-of-pivot-table/
 keywords: Aspose.Cells, Node.js via Java kütüphanesi, elektronik tablo, özet tablo, filtre, etiket filtresi, değer filtresi, tarih filtresi, ilk 10 filtresi, özet öğesi, özet öğesini gizle
 type: docs
@@ -22,7 +22,7 @@ Bu makalede ele alınan filtreleme stratejileri şunlardır:
 3. **Değer Filtresi** — öğeleri bir veri alanının toplanan değerlerine göre filtreler.
 4. **İlk 10 Filtresi** — bir değer alanına göre sıralanmış yalnızca ilk veya son N öğeyi gösterir.
 5. **Özet Öğelerini Gizle / Göster** — bir alandaki her bir öğenin görünürlüğünü manuel olarak kontrol eder.
-Her yaklaşım, `PivotField` sınıfında farklı bir yöntem veya `PivotItem` sınıfında bir özellik kullanır. Herhangi bir filtre uyguladıktan sonra, önbelleğe alınmış verilerin ve hesaplanan değerlerin yeni filtre durumunu yansıtması için özet tablosunda `refreshData()` ve `calculateData()` çağrısı yapmanız gerekir.
+Her yaklaşım, `PivotField` sınıfında farklı bir yöntem veya `PivotItem` sınıfında bir özellik kullanır. Herhangi bir filtre uyguladıktan sonra, önbelleğe alınmış verilerin ve hesaplanan değerlerin yeni filtre durumunu yansıtması için özet tablosunda `getPivotCache().refresh()` çağrısı yapmanız gerekir.
 
 ## **Etiket Filtresi**
 Bir etiket filtresi, bir satır veya sütun alanının öğelerini metin başlıklarını bir kalıpla karşılaştırarak filtrelemenize olanak tanır. Bu, yalnızca adları belirli bir harfle başlayan, belirli bir kelimeyi içeren veya başka bir başlık tabanlı ölçüte uyan ürünleri görüntülemek istediğinizde kullanışlıdır.
@@ -33,19 +33,19 @@ Aşağıdaki örnek, mevcut bir özet tablo içeren bir çalışma kitabını y�
 const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
-// Mevcut çalışma kitabını, içinde bir pivot tablo bulunan şekilde yükle
+// Load the existing workbook containing a pivot table
 let workbook = new AsposeCells.Workbook(fileName);
-// Çalışma sayfasına dizin ile eriş (ilk çalışma sayfası)
+// Access the worksheet by index (first worksheet)
 let worksheet = workbook.getWorksheets().get(0);
-// Pivot tabloya dizin ile eriş
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// İlk satır PivotField'ını al
+// Retrieve the first row PivotField
 let rowField = pivotTable.getRowFields().get(0);
-// Etiket filtresini uygula — yalnızca etiketleri sağlanan önekle başlayan satır öğelerini göster
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
-// Pivot tablo verilerini yenile ve yeniden hesapla, böylece filtre etkili olur
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Çalışma kitabını diske geri kaydet
+// Save the workbook back to disk
 workbook.save(fileName);
 ```
 
@@ -67,23 +67,23 @@ if (!fs.existsSync(inputPath))
 {
     throw new Error("Source workbook not found. Path: " + inputPath);
 }
-// Pivot tablosunu içeren mevcut çalışma kitabını yükle
+// Load the existing workbook that contains the pivot table
 var workbook = new AsposeCells.Workbook(inputPath);
-// Pivot tablosunu barındıran çalışma sayfasına eriş (dizine göre)
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.getWorksheets().get(0);
-// Pivot tablosuna dizine göre eriş
+// Access the pivot table by index
 var pivotTable = worksheet.getPivotTables().get(0);
-// Satır alanından tarih PivotField'ını al
-// (Tarih filtresi yalnızca satır/sütun alanı yalnızca tarih-saat hücreleri veya boşluklar içerdiğinde çalışır)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 let dateField = pivotTable.getRowFields().get(0);
-// Between filtresi için tarih kriterini tanımla
+// Define the date criterion for the Between filter
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
-// Pivot alanına tarih filtresini uygula
+// Apply the date filter on the pivot field
 dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
-// Filtrenin etkili olması için pivot tablosunu yenile ve yeniden hesapla
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Çalışma kitabını kaydet
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
@@ -99,7 +99,7 @@ var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
 var rowField = pivotTable.getRowFields().get(0);
 var dataField = pivotTable.getDataFields().get(0);
-// PivotFieldCollection'ın IndexOf'u olmadığından veri alanı indeksini manuel olarak bul
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 var dataFieldIndex = -1;
 for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 {
@@ -164,29 +164,29 @@ Bu yaklaşım, filtreleme kuralı düzensiz veya öğeye özgü olduğunda, örn
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
-// İlk çalışma sayfasına erişim sağla, pivot tabloyu içeren sayfa
+// Access the first worksheet which contains the pivot table
 let sheet = workbook.getWorksheets().get(0);
-// Pivot tabloya dizin yoluyla erişim sağla (sayfadaki ilk pivot tablo)
+// Access the pivot table by index (the first pivot table on the sheet)
 let pivotTable = sheet.getPivotTables().get(0);
-// Hedef PivotField'i al (öğelerini gizleyeceğimiz/göstereceğimiz ilk satır etiket alanı)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 let pivotField = pivotTable.getRowFields().get(0);
-// Seçilen PivotField'in PivotItems koleksiyonu üzerinde yineleme yap
+// Iterate through the PivotItems collection of the selected PivotField
 let itemCount = pivotField.getPivotItems().getCount();
 for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
-    // Belirli bir ad/ölçütle eşleşen pivot öğelerini gizle
+    // Hide pivot items that match a specific name/criterion
     if (item.getName() == "Item1" || item.getName() == "Item2") {
         item.setHidden(true);
     }
-    // Gizleme işlemini geri almayı göster: daha önce gizlenmiş bir pivot öğesini yeniden göster
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.getName() == "Item3") {
         item.setHidden(false);
     }
 }
-// Değişikliklerin etkili olması için pivot tabloyu yenile ve yeniden hesapla
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh();
-// Çalışma kitabını kaydet — gizli öğeler temel verilerde kalır
-// ancak görüntülenen pivot tablo çıktısından hariç tutulur
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx");
 ```
 

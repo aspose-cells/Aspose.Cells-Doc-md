@@ -1,6 +1,6 @@
 ---
 title: 保护与撤销保护
-linktitle: 保护与撤销保护
+linktitle: 加密与保护
 description: 本节介绍如何使用 C# 代码对 Excel 文件进行加密和解密以及保护 Excel 数据，涵盖文件加密、只读保护、工作簿结构保护、工作表保护以及数字签名
 keywords: Aspose.Cells, .NET, 加密, 解密, 密码, 保护, 撤销保护, 工作簿保护, 工作表保护, 只读, 数字签名, C#
 type: docs
@@ -41,19 +41,19 @@ Excel 支持两个不同的密码层。第一层是打开密码，用于加密�
 ```csharp
 using System;
 using Aspose.Cells;
-// 从头开始创建一个新的工作簿
+// Create a new workbook from scratch
 Workbook workbook = new Workbook();
-// 向第一个工作表的 A1 单元格写入一个示例值
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
-// 配置写保护：设置修改密码和作者
+// Configure the write protection: set the password to modify and the author
 workbook.Settings.WriteProtection.Password = "ModifyPwd";
 workbook.Settings.WriteProtection.Author = "AuthorName";
-// 保存工作簿以使写保护生效
+// Save the workbook so the write protection is persisted
 workbook.Save("WriteProtectedWorkbook.xlsx");
-// 使用正确的密码验证修改密码
+// Validate the password to modify using the correct password
 bool isCorrectValid = workbook.Settings.WriteProtection.ValidatePassword("ModifyPwd");
 Console.WriteLine("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// 使用错误的密码验证修改密码以演示另一分支
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 bool isWrongValid = workbook.Settings.WriteProtection.ValidatePassword("WrongPwd");
 Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -64,22 +64,22 @@ Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```csharp
 using System;
 using Aspose.Cells;
-// 创建一个新的工作簿
+// Create a new workbook
 Workbook workbook = new Workbook();
-// 添加第二个工作表
+// Add a second worksheet
 workbook.Worksheets.Add();
-// 向第一个工作表的A1单元格写入一个示例值
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells[0, 0].PutValue("Sample Data");
-// 保护工作簿结构
+// Protect the workbook structure
 workbook.Protect(ProtectionType.Structure, "StructPwd");
-// 将工作簿保存为 structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 string filePath = "structure_protected.xlsx";
 workbook.Save(filePath);
-// 将文件重新加载到新的 Workbook 实例中
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// 移除结构保护
+// Remove the structure protection
 loadedWorkbook.Unprotect("StructPwd");
-// 打印确认消息
+// Print confirmation message
 Console.WriteLine("Structure protection has been successfully removed from the workbook.");
 ```
 

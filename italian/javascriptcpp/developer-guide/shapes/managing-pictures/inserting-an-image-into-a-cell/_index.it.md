@@ -159,16 +159,16 @@ Il codice seguente dimostra l'approccio completo.
             }
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // Ottenere la cella di destinazione C6
+            // Get the target cell C6
             const cell = worksheet.cells.get("C6");
-            // Leggere il file immagine in un array di byte
+            // Read the image file into a byte array
             const imageData = new Uint8Array(await fileInput.files[0].arrayBuffer());
-            // Incorporare l'immagine direttamente nella cella
+            // Embed the image directly into the cell
             cell.embeddedImage = imageData;
-            // Se desiderato, regolare l'altezza della riga e la larghezza della colonna per rendere l'immagine incorporata più visibile
-            worksheet.cells.setColumnWidth(2, 30); // Colonna C (indice 2)
-            worksheet.cells.setRowHeight(5, 100); // Riga 6 (indice 5)
-            // Salvare la cartella di lavoro risultante come file .xlsx
+            // Optionally adjust row height and column width so the embedded image is more visible
+            worksheet.cells.setColumnWidth(2, 30); // Column C (index 2)
+            worksheet.cells.setRowHeight(5, 100); // Row 6 (index 5)
+            // Save the resulting workbook as an .xlsx file
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             downloadLink.href = URL.createObjectURL(blob);

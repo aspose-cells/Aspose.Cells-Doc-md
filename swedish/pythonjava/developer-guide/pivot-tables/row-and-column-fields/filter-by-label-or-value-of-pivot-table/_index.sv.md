@@ -36,19 +36,19 @@ jpype.startJVM()
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
-# Ladda den befintliga arbetsboken som innehåller en pivottabell
+# Load the existing workbook containing a pivot table
 workbook = Workbook(fileName)
-# Hämta kalkylbladet via index (första kalkylbladet)
+# Access the worksheet by index (first worksheet)
 worksheet = workbook.getWorksheets().get(0)
-# Hämta pivottabellen via index
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# Hämta det första radens PivotField
+# Retrieve the first row PivotField
 rowField = pivotTable.getRowFields().get(0)
-# Tillämpa etikettfiltret — visa endast radobjekt vars etiketter börjar med det angivna prefixet
+# Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
-# Uppdatera och beräkna om pivottabellens data så att filtret träder i kraft
+# Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Spara arbetsboken tillbaka till disk
+# Save the workbook back to disk
 workbook.save(fileName)
 jpype.shutdownJVM()
 ```
@@ -72,24 +72,24 @@ inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
 if not os.path.exists(inputPath):
     raise FileNotFoundError(f"Source workbook not found: {inputPath}")
-# Ladda den befintliga arbetsboken som innehåller pivottabellen
+# Load the existing workbook that contains the pivot table
 workbook = Workbook(inputPath)
-# Kom åt kalkylbladet som innehåller pivottabellen (via index)
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.getWorksheets().get(0)
-# Kom åt pivottabellen via index
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# Hämta datum-PivotField från radområdet
-# (Datumfilter fungerar bara när rad-/kolumnområdet endast innehåller datum-tidsceller eller tomma celler)
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 dateField = pivotTable.getRowFields().get(0)
-# Definiera datumkriteriet för Between-filtret
+# Define the date criterion for the Between filter
 Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
-# Tillämpa datumfiltret på pivotfältet
+# Apply the date filter on the pivot field
 dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
-# Uppdatera och beräkna om pivottabellen så att filtret träder i kraft
+# Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Spara arbetsboken
+# Persist the workbook
 workbook.save(outputPath)
 jpype.shutdownJVM()
 ```
@@ -109,7 +109,7 @@ worksheet = workbook.getWorksheets().get(0)
 pivotTable = worksheet.getPivotTables().get(0)
 rowField = pivotTable.getRowFields().get(0)
 dataField = pivotTable.getDataFields().get(0)
-# Hitta datafältets index manuellt eftersom PivotFieldCollection inte har IndexOf
+# Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 dataFieldIndex = -1
 for i in range(pivotTable.getDataFields().getCount()):
     if pivotTable.getDataFields().get(i) == dataField:
@@ -136,31 +136,31 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
-# Ladda den befintliga arbetsboken som innehåller pivottabellen
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = Workbook(inputPath)
-# Öppna arbetsbladet som innehåller pivottabellen (index 0)
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.getWorksheets().get(0)
-# Öppna pivottabellen via index
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# Bekräfta att det finns minst ett värde PivotField i dataområdet
+# Confirm there is at least one value PivotField in the data area
 if pivotTable.getDataFields().getCount() == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.getDataFields().get(0)
-# Hämta målets rad-PivotField (fältet vi vill tillämpa Topp 10 på)
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.getRowFields().get(0)
-# Det första (och enda) datafältet finns på index 0; Topp 10 rangordnar efter det.
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# Tillämpa Topp 10-filtret på radfältet:
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true (topp N; false skulle betyda botten N)
-#   - valueFieldIndex = indexet för datafältet som används för att rangordna objekten
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, True, 10)
-# Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Spara arbetsboken
+# Save the workbook
 workbook.save(outputPath)
 jpype.shutdownJVM()
 ```
@@ -174,28 +174,28 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
-# Ladda en befintlig arbetsbok som innehåller en pivottabell
+# Load an existing workbook containing a pivot table
 workbook = Workbook("pivot_table_sample.xlsx")
-# Få åtkomst till det första arbetsbladet som innehåller pivottabellen
+# Access the first worksheet which contains the pivot table
 sheet = workbook.getWorksheets().get(0)
-# Få åtkomst till pivottabellen via index (den första pivottabellen på arket)
+# Access the pivot table by index (the first pivot table on the sheet)
 pivotTable = sheet.getPivotTables().get(0)
-# Hämta mål-PivotField (det första radetikettfältet där vi kommer att dölja/visa objekt)
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivotField = pivotTable.getRowFields().get(0)
-# Iterera genom PivotItems-samlingen för det valda PivotField
+# Iterate through the PivotItems collection of the selected PivotField
 itemCount = pivotField.getPivotItems().getCount()
 for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
-    # Dölj pivotobjekt som matchar ett specifikt namn/kriterium
+    # Hide pivot items that match a specific name/criterion
     if item.getName() == "Item1" or item.getName() == "Item2":
         item.setHidden(True)
-    # Demonstrera att visa: visa ett tidigare dolt pivotobjekt igen
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.getName() == "Item3":
         item.setHidden(False)
-# Uppdatera och beräkna om pivottabellen så att ändringarna träder i kraft
+# Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh()
-# Spara arbetsboken — dolda objekt finns kvar i underliggande data
-# men är exkluderade från den visade pivottabellutdatan
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 jpype.shutdownJVM()
 ```

@@ -1,7 +1,7 @@
 ---
 title: Konvertera Excel till OFD-format
 description: Aspose.Cells är ett Java-bibliotek för arbete med kalkylbladsfiler som stöder konvertering av Excel-arbetsböcker till OFD-format (Open Fixed-layout Document). Den här artikeln visar hur du skapar Excel-innehåll och exporterar det som OFD, samt hur du konverterar befintliga Excel-filer till OFD med hjälp av Aspose.Cells.
-linktitle: Konvertera Excel till OFD-format
+linktitle: OFD
 keywords: Aspose.Cells, Java-bibliotek, kalkylblad, Excel till OFD, OFD-konvertering, SaveFormat.Ofd, dokument med fast layout, arbetsboksexport
 type: docs
 weight: 195
@@ -33,25 +33,25 @@ import com.aspose.cells.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 String dataDir = "C:\\Temp\\";
-// Skapa en ny arbetsbok
+// Create a new Workbook
 Workbook workbook = new Workbook();
-// Hämta det första kalkylbladet
+// Obtain the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Ange kolumnbredder
+// Set column widths
 worksheet.getCells().setColumnWidth(0, 5);
 worksheet.getCells().setColumnWidth(1, 35);
 worksheet.getCells().setColumnWidth(2, 12);
 worksheet.getCells().setColumnWidth(3, 15);
 worksheet.getCells().setColumnWidth(4, 15);
 worksheet.getCells().setColumnWidth(5, 5);
-// Infoga företagslogotyp
+// Insert company logo
 worksheet.getPictures().add(1, 1, dataDir + "logo.png");
-// Företagsnamn och kontaktuppgifter
+// Company name and contact details
 worksheet.getCells().get("B3").putValue("Acme Corporation");
 worksheet.getCells().get("B4").putValue("123 Business Street");
 worksheet.getCells().get("B5").putValue("City, State 12345");
 worksheet.getCells().get("B6").putValue("Phone: (555) 123-4567");
-// FAKTURA-titel - sammanfoga celler
+// INVOICE title - merge cells
 worksheet.getCells().merge(7, 1, 2, 4);
 Cell titleCell = worksheet.getCells().get("B8");
 titleCell.putValue("INVOICE");
@@ -60,17 +60,17 @@ titleStyle.getFont().setBold(true);
 titleStyle.getFont().setSize(20);
 titleStyle.setHorizontalAlignment(TextAlignmentType.CENTER);
 titleCell.setStyle(titleStyle);
-// Fakturanummer och datum
+// Invoice number and date
 worksheet.getCells().get("B11").putValue("Invoice Number:");
 worksheet.getCells().get("C11").putValue("INV-2024-001");
 worksheet.getCells().get("B12").putValue("Date:");
 worksheet.getCells().get("C12").putValue(new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
-// Faktureras till-avsnitt
+// Bill-to section
 worksheet.getCells().get("B14").putValue("Bill To:");
 worksheet.getCells().get("B15").putValue("Client Name");
 worksheet.getCells().get("B16").putValue("Client Address");
 worksheet.getCells().get("B17").putValue("Client City, State");
-// Rubrik för radposter
+// Line items header
 Cell headerDesc = worksheet.getCells().get("B19");
 Cell headerQty = worksheet.getCells().get("C19");
 Cell headerPrice = worksheet.getCells().get("D19");
@@ -92,20 +92,20 @@ headerDesc.setStyle(headerStyle);
 headerQty.setStyle(headerStyle);
 headerPrice.setStyle(headerStyle);
 headerTotal.setStyle(headerStyle);
-// Valutastil med kanter
+// Currency style with borders
 Style currencyStyle = workbook.createStyle();
 currencyStyle.setCustom("\"$\"#,##0.00");
 currencyStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN);
 currencyStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN);
 currencyStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN);
 currencyStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN);
-// Enkel kantstil för beskrivnings-/kvantitetsceller
+// Plain border style for description/quantity cells
 Style borderStyle = workbook.createStyle();
 borderStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN);
 borderStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN);
 borderStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN);
 borderStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN);
-// Rader för radposter
+// Line items rows
 Object[][] lineItems = new Object[][] {
     {"Product A - Widget", 2, 50.00},
     {"Product B - Gadget", 3, 75.00},
@@ -127,7 +127,7 @@ for (int i = 0; i < lineItems.length; i++)
     priceCell.setStyle(currencyStyle);
     totalCell.setStyle(currencyStyle);
 }
-// Delsumma, skatt, totalsumma
+// Subtotal, tax, grand total
 worksheet.getCells().get("B24").putValue("Subtotal:");
 Cell subtotalCell = worksheet.getCells().get("E24");
 subtotalCell.setFormula("SUM(E20:E22)");
@@ -137,20 +137,20 @@ taxCell.setFormula("E24*0.1");
 worksheet.getCells().get("B26").putValue("Grand Total:");
 Cell grandTotalCell = worksheet.getCells().get("E26");
 grandTotalCell.setFormula("E24+E25");
-// Fet + valutastil för totalvärden
+// Bold + currency style for total values
 Style totalStyle = workbook.createStyle();
 totalStyle.getFont().setBold(true);
 totalStyle.setCustom("\"$\"#,##0.00");
 subtotalCell.setStyle(totalStyle);
 taxCell.setStyle(totalStyle);
 grandTotalCell.setStyle(totalStyle);
-// Fet stil för totaletiketter
+// Bold style for total labels
 Style boldStyle = workbook.createStyle();
 boldStyle.getFont().setBold(true);
 worksheet.getCells().get("B24").setStyle(boldStyle);
 worksheet.getCells().get("B25").setStyle(boldStyle);
 worksheet.getCells().get("B26").setStyle(boldStyle);
-// Spara arbetsboken som en OFD-fil
+// Save the workbook as an OFD file
 workbook.save(dataDir + "Invoice.ofd", SaveFormat.Ofd);
 ```
 
@@ -162,43 +162,43 @@ import com.aspose.cells.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 String dataDir = "C:\\Examples\\";
-// Öppna en befintlig Excel-arbetsbok från disken
+// Open an existing Excel workbook from disk
 Workbook workbook = new Workbook(dataDir + "SampleBook.xlsx");
-// (1) Läs och visa värden från valda celler för att bekräfta att filen laddades
+// (1) Read and display values from selected cells to confirm the file was loaded
 Worksheet firstSheet = workbook.getWorksheets().get(0);
 System.out.println("First sheet name: " + firstSheet.getName());
 System.out.println("Cell A1: " + firstSheet.getCells().get("A1").getStringValue());
 System.out.println("Cell B1: " + firstSheet.getCells().get("B1").getStringValue());
 System.out.println("Cell C1: " + firstSheet.getCells().get("C1").getStringValue());
-// (2) Iterera över Worksheets-samlingen för att räkna upp tillgängliga ark
+// (2) Iterate over the Worksheets collection to enumerate available sheets
 System.out.println("\nAvailable worksheets:");
 for (int i = 0; i < workbook.getWorksheets().getCount(); i++)
 {
     Worksheet ws = workbook.getWorksheets().get(i);
     System.out.println("  [" + i + "] " + ws.getName());
 }
-// (3) Valfritt: uppdatera en tidsstämpelcell för att återspegla konverteringen
+// (3) Optionally update a timestamp cell to reflect the conversion
 String timestamp1 = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
 firstSheet.getCells().get("A1").putValue("Converted on: " + timestamp1);
-// Lägg till en sammanfattningsrubrikrad överst i datablocket
+// Append a summary header row at the top of the data block
 firstSheet.getCells().insertRow(0);
 firstSheet.getCells().get("A1").putValue("Conversion Summary");
 String timestamp2 = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
 firstSheet.getCells().get("A2").putValue("Generated: " + timestamp2);
-// (4) Konfigurera PageSetup-egenskaper på kalkylbladet
+// (4) Configure PageSetup properties on the worksheet
 PageSetup pageSetup = firstSheet.getPageSetup();
 pageSetup.setOrientation(PageOrientationType.LANDSCAPE);
 pageSetup.setPaperSize(PaperSizeType.PAPER_A_4);
 pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
-// (5) Valfritt: ställ in utskriftsområdet för OFD-utdata
+// (5) Optionally set the print area for the OFD output
 int lastRow = firstSheet.getCells().getMaxDataRow();
 int lastCol = firstSheet.getCells().getMaxDataColumn();
 String lastColLetter = CellsHelper.columnIndexToName(lastCol);
 String printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 System.out.println("\nPrint area set to: " + printArea);
-// (6) Spara arbetsboken som en OFD-fil
+// (6) Save the workbook as an OFD file
 workbook.save(dataDir + "SampleBook.ofd", SaveFormat.Ofd);
 System.out.println("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 ```

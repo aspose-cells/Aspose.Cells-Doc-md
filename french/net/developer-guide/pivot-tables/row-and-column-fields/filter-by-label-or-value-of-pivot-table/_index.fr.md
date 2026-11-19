@@ -36,19 +36,19 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 string fileName = "sample.xlsx";
 string prefix = "B";
-// Charger le classeur existant contenant un tableau croisé dynamique
+// Load the existing workbook containing a pivot table
 Workbook workbook = new Workbook(fileName);
-// Accéder à la feuille de calcul par index (première feuille de calcul)
+// Access the worksheet by index (first worksheet)
 Worksheet worksheet = workbook.Worksheets[0];
-// Accéder au tableau croisé dynamique par index
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Récupérer le premier PivotField de ligne
+// Retrieve the first row PivotField
 PivotField rowField = pivotTable.RowFields[0];
-// Appliquer le filtre d'étiquette — afficher uniquement les éléments de ligne dont les étiquettes commencent par le préfixe fourni
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.FilterByLabel(PivotFilterType.CaptionBeginsWith, prefix, string.Empty);
-// Actualiser et recalculer les données du tableau croisé dynamique pour que le filtre prenne effet
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Enregistrer le classeur sur le disque
+// Save the workbook back to disk
 workbook.Save(fileName);
 ```
 
@@ -72,23 +72,23 @@ if (!File.Exists(inputPath))
 {
     throw new FileNotFoundException("Source workbook not found.", inputPath);
 }
-// Charger le classeur existant qui contient le tableau croisé dynamique
+// Load the existing workbook that contains the pivot table
 var workbook = new Workbook(inputPath);
-// Accéder à la feuille de calcul qui contient le tableau croisé dynamique (par index)
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.Worksheets[0];
-// Accéder au tableau croisé dynamique par index
+// Access the pivot table by index
 var pivotTable = worksheet.PivotTables[0];
-// Récupérer le PivotField de date depuis la zone des lignes
-// (Le filtre de date ne fonctionne que lorsque la zone de ligne/colonne contient uniquement des cellules de date-heure ou des vides)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 PivotField dateField = pivotTable.RowFields[0];
-// Définir le critère de date pour le filtre Between
+// Define the date criterion for the Between filter
 DateTime startDate = new DateTime(2020, 1, 1);
 DateTime endDate = new DateTime(2020, 12, 31);
-// Appliquer le filtre de date sur le champ pivot
+// Apply the date filter on the pivot field
 dateField.FilterByDate(PivotFilterType.DateBetween, startDate, endDate);
-// Actualiser et recalculer le tableau croisé dynamique pour que le filtre prenne effet
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Enregistrer le classeur
+// Persist the workbook
 workbook.Save(outputPath);
 ```
 
@@ -105,7 +105,7 @@ var worksheet = workbook.Worksheets[0];
 var pivotTable = worksheet.PivotTables[0];
 var rowField = pivotTable.RowFields[0];
 var dataField = pivotTable.DataFields[0];
-// Trouver l'index du champ de données manuellement car PivotFieldCollection n'a pas IndexOf
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 int dataFieldIndex = -1;
 for (int i = 0; i < pivotTable.DataFields.Count; i++)
 {
@@ -137,33 +137,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Charger le classeur existant qui contient le tableau croisé dynamique
+// Load the existing workbook that contains the pivot table
 string inputPath = "input.xlsx";
 string outputPath = "output.xlsx";
 Workbook workbook = new Workbook(inputPath);
-// Accéder à la feuille de calcul qui contient le tableau croisé dynamique (index 0)
+// Access the worksheet that holds the pivot table (index 0)
 Worksheet worksheet = workbook.Worksheets[0];
-// Accéder au tableau croisé dynamique par index
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Confirmer qu'il y a au moins un PivotField de valeur dans la zone de données
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.DataFields.Count == 0)
 {
     throw new InvalidOperationException("Pivot table has no value (data) PivotField.");
 }
 PivotField valueField = pivotTable.DataFields[0];
-// Récupérer le PivotField de ligne cible (le champ sur lequel nous voulons appliquer le Top 10)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 PivotField rowField = pivotTable.RowFields[0];
-// Le premier (et unique) champ de données est à l'index 0 ; le Top 10 classe par celui-ci.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 int valueFieldIndex = 0;
-// Appliquer le filtre Top 10 sur le champ de ligne :
+// Apply the Top 10 filter on the row field:
+//   - valueFieldIndex = 0 — the data field used to rank items
+//   - filterType  = PivotFilterType.Count (keep a fixed number of items;
+//     PivotFilterType.Percent would interpret 10 as "top 10 percent")
+//   - isTop       = true (top N; false would mean bottom N)
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Count
-//   - isTop       = true (top N ; false signifierait bottom N)
-//   - valueFieldIndex = l'index du champ de données utilisé pour classer les éléments
 rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
-// Actualiser les données du tableau croisé dynamique et les recalculer pour que le filtre prenne effet
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Enregistrer le classeur
+// Save the workbook
 workbook.Save(outputPath);
 ```
 
@@ -176,34 +177,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Charger un classeur existant contenant un tableau croisé dynamique
+// Load an existing workbook containing a pivot table
 Workbook workbook = new Workbook("pivot_table_sample.xlsx");
-// Accéder à la première feuille de calcul qui contient le tableau croisé dynamique
+// Access the first worksheet which contains the pivot table
 Worksheet sheet = workbook.Worksheets[0];
-// Accéder au tableau croisé dynamique par index (le premier tableau croisé dynamique de la feuille)
+// Access the pivot table by index (the first pivot table on the sheet)
 PivotTable pivotTable = sheet.PivotTables[0];
-// Récupérer le PivotField cible (le premier champ d'étiquette de ligne dans lequel nous masquerons/afficherons des éléments)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 PivotField pivotField = pivotTable.RowFields[0];
-// Parcourir la collection PivotItems du PivotField sélectionné
+// Iterate through the PivotItems collection of the selected PivotField
 int itemCount = pivotField.PivotItems.Count;
 for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.PivotItems[i];
-    // Masquer les éléments du tableau croisé dynamique qui correspondent à un nom/critère spécifique
+    // Hide pivot items that match a specific name/criterion
     if (item.Name == "Item1" || item.Name == "Item2")
     {
         item.IsHidden = true;
     }
-    // Démontrer l'affichage : réafficher un élément précédemment masqué du tableau croisé dynamique
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.Name == "Item3")
     {
         item.IsHidden = false;
     }
 }
-// Actualiser et recalculer le tableau croisé dynamique pour que les modifications prennent effet
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.PivotCache.Refresh();
-// Enregistrer le classeur — les éléments masqués restent dans les données sous-jacentes
-// mais sont exclus de l'affichage du tableau croisé dynamique
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.Save("output_pivot_filtered.xlsx");
 ```
 

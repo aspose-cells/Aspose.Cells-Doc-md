@@ -36,19 +36,19 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 string fileName = "sample.xlsx";
 string prefix = "B";
-// Загрузка существующей книги, содержащей сводную таблицу
+// Load the existing workbook containing a pivot table
 Workbook workbook = new Workbook(fileName);
-// Доступ к рабочему листу по индексу (первый рабочий лист)
+// Access the worksheet by index (first worksheet)
 Worksheet worksheet = workbook.Worksheets[0];
-// Доступ к сводной таблице по индексу
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Получение первого строкового PivotField
+// Retrieve the first row PivotField
 PivotField rowField = pivotTable.RowFields[0];
-// Применение фильтра меток — отображение только тех строковых элементов, метки которых начинаются с указанного префикса
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.FilterByLabel(PivotFilterType.CaptionBeginsWith, prefix, string.Empty);
-// Обновление и пересчёт данных сводной таблицы, чтобы фильтр вступил в силу
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Сохранение книги обратно на диск
+// Save the workbook back to disk
 workbook.Save(fileName);
 ```
 
@@ -72,23 +72,23 @@ if (!File.Exists(inputPath))
 {
     throw new FileNotFoundException("Source workbook not found.", inputPath);
 }
-// Загрузить существующую рабочую книгу, содержащую сводную таблицу
+// Load the existing workbook that contains the pivot table
 var workbook = new Workbook(inputPath);
-// Получить доступ к рабочему листу, содержащему сводную таблицу (по индексу)
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.Worksheets[0];
-// Получить доступ к сводной таблице по индексу
+// Access the pivot table by index
 var pivotTable = worksheet.PivotTables[0];
-// Получить поле даты из области строк
-// (Фильтр по дате работает только когда область строк/столбцов содержит только ячейки с датой/временем или пустые)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 PivotField dateField = pivotTable.RowFields[0];
-// Определить критерий даты для фильтра Between (Между)
+// Define the date criterion for the Between filter
 DateTime startDate = new DateTime(2020, 1, 1);
 DateTime endDate = new DateTime(2020, 12, 31);
-// Применить фильтр по дате к полю сводной таблицы
+// Apply the date filter on the pivot field
 dateField.FilterByDate(PivotFilterType.DateBetween, startDate, endDate);
-// Обновить и пересчитать сводную таблицу, чтобы фильтр вступил в силу
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Сохранить рабочую книгу
+// Persist the workbook
 workbook.Save(outputPath);
 ```
 
@@ -105,7 +105,7 @@ var worksheet = workbook.Worksheets[0];
 var pivotTable = worksheet.PivotTables[0];
 var rowField = pivotTable.RowFields[0];
 var dataField = pivotTable.DataFields[0];
-// Находим индекс поля данных вручную, так как PivotFieldCollection не имеет IndexOf
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 int dataFieldIndex = -1;
 for (int i = 0; i < pivotTable.DataFields.Count; i++)
 {
@@ -137,33 +137,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Загружаем существующую книгу, содержащую сводную таблицу
+// Load the existing workbook that contains the pivot table
 string inputPath = "input.xlsx";
 string outputPath = "output.xlsx";
 Workbook workbook = new Workbook(inputPath);
-// Получаем доступ к листу, содержащему сводную таблицу (индекс 0)
+// Access the worksheet that holds the pivot table (index 0)
 Worksheet worksheet = workbook.Worksheets[0];
-// Получаем доступ к сводной таблице по индексу
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Проверяем, что в области данных есть хотя бы одно PivotField со значением
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.DataFields.Count == 0)
 {
     throw new InvalidOperationException("Pivot table has no value (data) PivotField.");
 }
 PivotField valueField = pivotTable.DataFields[0];
-// Получаем целевое строковое PivotField (поле, к которому применяем Top 10)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 PivotField rowField = pivotTable.RowFields[0];
-// Первое (и единственное) поле данных находится по индексу 0; Top 10 ранжирует по нему.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 int valueFieldIndex = 0;
-// Применяем фильтр Top 10 к строковому полю:
+// Apply the Top 10 filter on the row field:
+//   - valueFieldIndex = 0 — the data field used to rank items
+//   - filterType  = PivotFilterType.Count (keep a fixed number of items;
+//     PivotFilterType.Percent would interpret 10 as "top 10 percent")
+//   - isTop       = true (top N; false would mean bottom N)
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Count
-//   - isTop       = true (верхние N; false означало бы нижние N)
-//   - valueFieldIndex = индекс поля данных, используемого для ранжирования элементов
 rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
-// Обновляем данные сводной таблицы и пересчитываем её, чтобы фильтр вступил в силу
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Сохраняем книгу
+// Save the workbook
 workbook.Save(outputPath);
 ```
 
@@ -176,34 +177,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Загрузить существующую книгу, содержащую сводную таблицу
+// Load an existing workbook containing a pivot table
 Workbook workbook = new Workbook("pivot_table_sample.xlsx");
-// Получить доступ к первому листу, который содержит сводную таблицу
+// Access the first worksheet which contains the pivot table
 Worksheet sheet = workbook.Worksheets[0];
-// Получить доступ к сводной таблице по индексу (первая сводная таблица на листе)
+// Access the pivot table by index (the first pivot table on the sheet)
 PivotTable pivotTable = sheet.PivotTables[0];
-// Получить целевой PivotField (первое поле метки строки, в котором мы будем скрывать/показывать элементы)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 PivotField pivotField = pivotTable.RowFields[0];
-// Перебор коллекции PivotItems выбранного PivotField
+// Iterate through the PivotItems collection of the selected PivotField
 int itemCount = pivotField.PivotItems.Count;
 for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.PivotItems[i];
-    // Скрыть элементы сводной таблицы, соответствующие определённому имени/критерию
+    // Hide pivot items that match a specific name/criterion
     if (item.Name == "Item1" || item.Name == "Item2")
     {
         item.IsHidden = true;
     }
-    // Демонстрация отображения: повторно показать ранее скрытый элемент сводной таблицы
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.Name == "Item3")
     {
         item.IsHidden = false;
     }
 }
-// Обновить и пересчитать сводную таблицу, чтобы изменения вступили в силу
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.PivotCache.Refresh();
-// Сохранить книгу — скрытые элементы остаются в базовых данных
-// но исключаются из отображаемого вывода сводной таблицы
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.Save("output_pivot_filtered.xlsx");
 ```
 

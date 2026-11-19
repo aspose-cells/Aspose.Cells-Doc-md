@@ -1,6 +1,6 @@
 ---
 title: Insertar tabla dinámica
-linktitle: Insertar tabla dinámica
+linktitle: Tablas dinámicas
 description: Cree y formatee tablas dinámicas con Aspose.Cells for Python via .NET.
 keywords: Crear tabla dinámica, Insertar tabla dinámica, Formatear tabla dinámica.
 type: docs
@@ -36,12 +36,10 @@ Después de ejecutar el código de ejemplo, se agrega una tabla dinámica a la h
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-
-# Crear un nuevo libro de trabajo y obtener la primera hoja de cálculo
+# Create a new workbook and get the first worksheet
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-
-# Escribir los datos de origen: ventas por deporte y trimestre
+# Write the source data: sales per sport and quarter
 sheet.cells.get("A1").put_value("Sport")
 sheet.cells.get("B1").put_value("Quarter")
 sheet.cells.get("C1").put_value("Sales")
@@ -66,16 +64,13 @@ sheet.cells.get("C7").put_value(5000)
 sheet.cells.get("A8").put_value("Golf")
 sheet.cells.get("B8").put_value("Qtr3")
 sheet.cells.get("C8").put_value(6430)
-
-# Agregar una tabla dinámica en la celda de destino E3, utilizando A1:C8 como origen
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivot_table = sheet.pivot_tables.add("A1:C8", 2, 4)
-
-# Asignar campos de la tabla dinámica: Sport a Filas, Quarter a Columnas y Sales a Datos
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Quarter")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
-
-# Guardar el libro de trabajo
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

@@ -40,13 +40,11 @@ Exempelkoden nedan skapar en enkel pivottabell enligt dessa steg. När koden kö
 
 ```java
 import com.aspose.cells.*;
-
-// Skapa en ny arbetsbok och hämta det första kalkylbladet
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-
-// Skriv källdatan: försäljning per sport och kvartal
+// Write the source data: sales per sport and quarter
 cells.get("A1").putValue("Sport");
 cells.get("B1").putValue("Quarter");
 cells.get("C1").putValue("Sales");
@@ -71,16 +69,13 @@ cells.get("C7").putValue(5000);
 cells.get("A8").putValue("Golf");
 cells.get("B8").putValue("Qtr3");
 cells.get("C8").putValue(6430);
-
-// Lägg till en pivottabell vid destinationscellen E3, med data från A1:C8
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// Tilldela pivotfält: Sport till Rader, Quarter till Kolumner, Sales till Data
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Quarter");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
-
-// Spara arbetsboken
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

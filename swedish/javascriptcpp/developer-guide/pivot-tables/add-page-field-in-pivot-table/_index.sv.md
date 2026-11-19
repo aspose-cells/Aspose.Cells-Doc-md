@@ -1,6 +1,6 @@
 ---
 title: Lägg till filterfält i en pivottabell med Aspose.Cells for JavaScript via C++
-linktitle: Lägg till filterfält i en pivottabell med Aspose.Cells for JavaScript via C++
+linktitle: Lägg till filterfält
 description: Lär dig hur du lägger till och konfigurerar filterfält i pivottabeller med Aspose.Cells for JavaScript via C++, inklusive att lägga till filterfält och använda filtrering med enkelval och flerval.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, pivottabell, filterfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
@@ -45,16 +45,16 @@ Det följande exemplet skapar en liten datamängd med `Fruit`, `Year` och `Amoun
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Skapa en ny arbetsbok
+            // Create a new workbook
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "Data";
-            // Konfigurera rubrikraden
+            // Set up the header row
             const cells = worksheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // Fyll i 9 rader med exempeldata: Fruit, Year, Amount
+            // Populate 9 rows of sample data: Fruit, Year, Amount
             const data = [
                 ["apple", 2020, 100],
                 ["banana", 2021, 200],
@@ -71,15 +71,15 @@ Det följande exemplet skapar en liten datamängd med `Fruit`, `Year` och `Amoun
                 cells.get(i + 1, 1).value = data[i][1];
                 cells.get(i + 1, 2).value = data[i][2];
             }
-            // Lägg till en pivottabell med förankring vid cellen E3
+            // Add a pivot table anchored at cell E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // Lägg till fält i sina områden: Fruit som rad, Amount som data, Year som sidfält
+            // Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-            // Uppdatera och beräkna pivottabellens data
+            // Refresh and calculate the pivot table data
             pivotTable.calculateData();
-            // Spara arbetsboken
+            // Save the workbook
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -118,19 +118,19 @@ När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till 
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // — Pivottabellen och sidfältet konstrueras exakt som i
-            //   Scenario 1a (Fruit/Year/Amount-data, pivot i E3, Fruit→Rad,
-            //   Amount→Data). Nedan hämtar vi Year PivotField från
-            //   BaseFields-samlingen och skickar det till PageFields.Add — det
-            //   lågnivåalternativet till AddFieldToArea. Resultatet är
-            //   funktionellt identiskt med Scenario 1a.
+            // — The pivot table and page field are constructed exactly as in
+            //   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+            //   Amount→Data). Below we obtain the Year PivotField from the
+            //   BaseFields collection and pass it to PageFields.Add — the
+            //   low-level alternative to AddFieldToArea. The result is
+            //   functionally identical to Scenario 1a.
             const workbook = new Workbook();
             const sheet = workbook.worksheets.get(0);
-            // Rubriker
+            // Headers
             sheet.cells.get("A1").value = "Fruit";
             sheet.cells.get("B1").value = "Year";
             sheet.cells.get("C1").value = "Amount";
-            // Exempeldata (9 rader)
+            // Sample data (9 rows)
             sheet.cells.get("A2").value = "apple";    sheet.cells.get("B2").value = "2020"; sheet.cells.get("C2").value = 100;
             sheet.cells.get("A3").value = "apple";    sheet.cells.get("B3").value = "2021"; sheet.cells.get("C3").value = 150;
             sheet.cells.get("A4").value = "apple";    sheet.cells.get("B4").value = "2022"; sheet.cells.get("C4").value = 200;
@@ -140,16 +140,16 @@ När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till 
             sheet.cells.get("A8").value = "blueberry"; sheet.cells.get("B8").value = "2020"; sheet.cells.get("C8").value = 250;
             sheet.cells.get("A9").value = "blueberry"; sheet.cells.get("B9").value = "2021"; sheet.cells.get("C9").value = 350;
             sheet.cells.get("A10").value = "blueberry"; sheet.cells.get("B10").value = "2022"; sheet.cells.get("C10").value = 450;
-            // Lägg till pivottabell i E3 som täcker A1:C10
+            // Add pivot table at E3 covering A1:C10
             const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
-            // Fruit -> Rad, Amount -> Data (Year läggs till på Sida nedan)
+            // Fruit -> Row, Amount -> Data (Year will go to Page below)
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Lågnivåmetod: hämta det befintliga Year PivotField från BaseFields
-            // och registrera det i Sidområdet via PageFields.Add(PivotField).
+            // Low-level approach: grab the existing Year PivotField from BaseFields
+            // and register it in the Page area via PageFields.Add(PivotField).
             const yearField = pivotTable.baseFields.get("Year");
             pivotTable.pageFields.add(yearField);
-            // Uppdatera så att det nya sidfältet återspeglas i den sparade arbetsboken
+            // Refresh so the new page field is reflected in the saved workbook
             pivotTable.calculateData();
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -157,7 +157,7 @@ När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till 
             downloadLink.href = URL.createObjectURL(blob);
             downloadLink.download = "output.xlsx";
             downloadLink.style.display = "block";
-            document.getElementById('result').innerHTML = '<p style="color: green;">Klart! Klicka på nedladdningslänken för att hämta resultatfilen.</p>';
+            document.getElementById('result').innerHTML = '<p style="color: green;">Done! Click the download link to get the result file.</p>';
         });
     </script>
 </html>
@@ -192,10 +192,10 @@ Att sätta `currentPageItem` till det särskilda värdet `0x7FFD` är likvärdig
             document.getElementById('runExample').disabled = false;
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Skapa en ny arbetsbok
+            // Create a new workbook
             const workbook = new Workbook();
             const sheet = workbook.worksheets.get(0);
-            // Fyll i data för frukt/år/antal
+            // Populate Fruit/Year/Amount data
             const cells = sheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
@@ -213,17 +213,17 @@ Att sätta `currentPageItem` till det särskilda värdet `0x7FFD` är likvärdig
                     cells.get(r + 1, c).value = data[r][c];
                 }
             }
-            // Skapa en pivottabell vid E3
+            // Create pivot table at E3
             const pivotTables = sheet.pivotTables;
             const pivotTable = pivotTables.add("=A1:C7", 2, 4);
-            // Konfigurera pivotfält: Fruit→Rad, Amount→Data, Year→Sida
+            // Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
             pivotTable.calculateData();
-            // Rensa sidfiltret så att alla objekt i sidfältet är synliga.
-            // 0x7FFD (decimal 32765) är det speciella kontrollvärdet som betyder "alla objekt" —
-            // motsvarar att välja "(Alla)" i Excels rullmenü för sidfält.
+            // Clear the page filter so every item in the page field is visible.
+            // 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+            // equivalent to selecting "(All)" in Excel's page-field dropdown.
             pivotTable.pageFields.get(0).currentPageItem = 0x7FFD;
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -263,11 +263,11 @@ Att ange ett giltigt index för `currentPageItem` väljer endast den filterposte
                 console.log("Aspose.Cells initialized");
             });
             document.getElementById("runExample").addEventListener("click", async () => {
-                // Skapa arbetsbok
+                // Create workbook
                 const workbook = new Workbook();
                 const sheet = workbook.worksheets.get(0);
                 const cells = sheet.cells;
-                // Lägg till exempeldata (Fruit/Year/Amount)
+                // Add sample data (Fruit/Year/Amount)
                 cells.get("A1").value = "Fruit";
                 cells.get("B1").value = "Year";
                 cells.get("C1").value = "Amount";
@@ -283,16 +283,16 @@ Att ange ett giltigt index för `currentPageItem` väljer endast den filterposte
                 cells.get("A5").value = "Banana";
                 cells.get("B5").value = "2021";
                 cells.get("C5").value = "250";
-                // Lägg till pivottabell vid E3
+                // Add pivot table at E3
                 const pivotTables = sheet.pivotTables;
                 const pivotTable = pivotTables.add("=A1:C5", 2, 4);
-                // Lägg till fält: Fruit→Rad, Amount→Data, Year→Sida
+                // Add fields: Fruit→Row, Amount→Data, Year→Page
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-                // Åtgärder specifika för sidfält
-                pivotTable.pageFields.get(0).currentPageItem = 1; // 1 = andra objektet i sorterad ordning (t.ex. "2021")
-                // Uppdatera och beräkna pivottabellen
+                // Page-field-specific operations
+                pivotTable.pageFields.get(0).currentPageItem = 1; // 1 = second item in sorted order (e.g. "2021")
+                // Refresh and calculate pivot table
                 pivotTable.calculateData();
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
@@ -334,14 +334,14 @@ Vid flervalfiltrering visas filtrets rullmeny som en lista med krytrutor, och sl
             });
             document.getElementById('runExample').addEventListener('click', async () => {
                 await initializationPromise;
-                // — Pivottabellen och sidfältet konstrueras exakt som i
-                //   Scenario 1a (Fruit/Year/Amount-data, pivot vid E3, Fruit→Rad,
-                //   Amount→Data, Year→Sida via AddFieldToArea).
-                //   Nedan tillämpar vi filter med flerval på sidfältet.
+                // — The pivot table and page field are constructed exactly as in
+                //   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+                //   Amount→Data, Year→Page via AddFieldToArea).
+                //   Below we apply multi-select filtering on the page field.
                 const workbook = new Workbook();
                 const sheet = workbook.worksheets.get(0);
                 const cells = sheet.cells;
-                // Exempeldata: Fruit | Year | Amount
+                // Sample data: Fruit | Year | Amount
                 cells.get(0, 0).value = "Fruit";
                 cells.get(0, 1).value = "Year";
                 cells.get(0, 2).value = "Amount";
@@ -367,15 +367,15 @@ Vid flervalfiltrering visas filtrets rullmeny som en lista med krytrutor, och sl
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-                // — Aktivera flerval på sidfältet
+                // — Enable multi-select on the page field
                 const pageField = pivotTable.pageFields.get(0);
                 pageField.isMultipleItemSelectionAllowed = true;
                 const pivotItems = pageField.pivotItems;
-                // Del A — välj ALLA objekt (gör varje objekt synligt)
+                // Part A — select ALL items (make every item visible)
                 for (let i = 0; i < pivotItems.count; i++) {
                     pivotItems.get(i).isHidden = false;
                 }
-                // Del B — välj endast specifika objekt baserat på källvärde
+                // Part B — select only specific items by source value
                 for (let i = 0; i < pivotItems.count; i++) {
                     const pivotItem = pivotItems.get(i);
                     switch (pivotItem.getStringValue()) {

@@ -1,8 +1,8 @@
 ---
 title: Visa värden som i pivottabell
 linktitle: Visa värden som i pivottabell
-description: Visa pivottabellens datafältvärden som en andel av den totala, en skillnad från ett basobjekt, löpande summor, rangordningar och mer med Aspose.Cells for Python via Java.
-keywords: Aspose.Cells, pivottabell, visa värden som, visningsformat, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex, Python via Java
+description: Visa pivottabellens datavärdefält som procent av totalen, skillnad från ett grundobjekt, löpande summor, rangordningar och mer med Aspose.Cells for Python via Java.
+keywords: Aspose.Cells, pivottabell, visa värden som, PivotShowValuesAsType, PERCENTAGE_OF_TOTAL, PivotShowValuesSetting, showValuesAs, BaseFieldIndex, BaseItemIndex, Python
 type: docs
 weight: 145
 url: /sv/python-java/show-values-as-in-pivot-table/
@@ -11,87 +11,72 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Möjliga användningsscenarier**
-En pivottabell aggregerar normalt varje datafält med en aggregatfunktion som `Sum` eller `Count`. Excels **Show Values As**‑funktion ersätter varje visat resultat med en sekundär beräkning som härstammar från det aggregerade värdet—till exempel en procentandel av den totala summan, en löpande total, en skillnad från ett valt basobjekt eller en rang—så att du kan utföra jämförande analyser utan hjälpformler eller beräknade kolumner.  
-Typiska användningar inkluderar analys av andel av totalen, inklusive procentandelar av en rad, kolumn eller total; kumulativ rapportering med en löpande total i ett periodfält; avvikelseanalys mot ett benchmark‑objekt med skillnad från eller procentuell skillnad från ett basobjekt; samt rangordning av värden från minst till störst eller omvänt.  
-I Aspose.Cells for Python via Java väljer `PivotFieldDataDisplayFormat` den sekundära beräkningen. Den skrivskyddade metoden `PivotField.getShowValuesSetting()` returnerar ett `PivotShowValuesSetting`‑objekt, vars skrivbara `setCalculationType`, `setBaseFieldIndex`, `setBaseItemPositionType` och `setBaseItemIndex` konfigurerar beteendet; bekvämlighetsmetoden `PivotField.showValuesAs(...)` applicerar samma fyra inställningar i ett anrop. Applicera dessa inställningar på ett data‑ eller värdefält erhållet via `PivotTable.getDataFields()`.
+En pivottabell aggregerar vanligtvis varje datavärdefält med en aggregationsfunktion såsom `SUM` eller `COUNT`. Excels **Show Values As**‑funktion ersätter varje visat resultat med en sekundär beräkning som härleds från den aggregeringen — till exempel en procent av grand total, en löpande total, en skillnad från ett valt grundobjekt eller en rangordning — så att du kan utföra jämförande analyser utan hjälpfunktioner eller beräknade kolumner.  
+Typiska användningsområden inkluderar andel‑av‑total‑analys, där man visar procent av en rad, kolumn eller grand total; kumulativ rapportering med en löpande total i ett periodfält; variansanalys mot ett referensobjekt med skillnad från eller procentuell skillnad från ett grundobjekt; samt rangordning av värden från minsta till största eller omvänt.  
+I Aspose.Cells for Python via Java väljer uppräkningen `PivotShowValuesAsType` den sekundära beräkningen. Den skrivskyddade metoden `PivotField.getShowValuesSetting()` returnerar ett objekt av typen `PivotShowValuesSetting`, vars metoder `setShowValuesAs(...)`, `setBaseFieldIndex(...)` och `setBaseItemIndex(...)` konfigurerar beteendet; bekvämlighetsmetoden `PivotField.showValuesAs(...)` tillämpar samma inställningar i ett anrop. Använd dessa inställningar på ett data‑ eller värdefält som erhålls via `PivotTable.getDataFields()`.
 
-## **PivotFieldDataDisplayFormat‑uppräkningens medlemmar**
-Datafältet behåller sin aggregatfunktion, såsom Sum eller Count, medan Show Values As endast förändrar hur det aggregerade värdet visas.  
-Förutom att sätta `PivotShowValuesSetting`‑egenskaperna direkt (se sista avsnittet) tillämpas samma konfiguration med en enda bekvämlighetsmetod:
+## **PivotShowValuesAsType‑uppräkningsmedlemmar**
+Datavärdefältet behåller sin aggregationsfunktion, såsom `SUM` eller `COUNT`, medan **Show Values As** bara förändrar hur det aggregerade värdet visas.  
+Förutom att använda `PivotShowValuesSetting`‑sättarna direkt (se sista avsnittet) finns en bekvämlighetsmetod som tillämpar samma konfiguration i ett anrop. Den finns i två former — en som adresserar grundfält och grundobjekt med index, och en med namn:
 
 ```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import (
-    PivotField,
-    PivotFieldDataDisplayFormat,
-    PivotItemPositionType,
-)
+from asposecells.api import PivotField, PivotShowValuesAsType
 def show_values_as(
     pivot_field: PivotField,
-    display_format: PivotFieldDataDisplayFormat,
+    show_values_as_type: PivotShowValuesAsType,
     base_field: int,
-    base_item_position_type: PivotItemPositionType,
     base_item: int,
-) -> None:
-    pivot_field.showValuesAs(
-        display_format,
-        base_field,
-        base_item_position_type,
-        base_item,
-    )
-jpype.shutdownJVM()
+):
+    pivot_field.showValuesAs(show_values_as_type, base_field, base_item)
+
+def show_values_as_by_name(
+    pivot_field: PivotField,
+    show_values_as_type: PivotShowValuesAsType,
+    base_field: str,
+    base_item: str,
+):
+    pivot_field.showValuesAs(show_values_as_type, base_field, base_item)
 ```
 
-| Parameter | Betydelse | När krävs det |
+| Parameter | Betydelse | När krävs den |
 | --- | --- | --- |
-| `displayFormat` | Den sekundära beräkning som ska tillämpas med `PivotFieldDataDisplayFormat`. | Alltid. |
-| `baseField` | Nollbaserat index för basfältet bland pivottabellens basfält (t.ex. index för radfältet som basobjektet tillhör). | Endast för de sex basrelaterade formaten nedan (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfRunningTotalIn`, `PercentageOfParentTotal`); ignoreras av alla andra format. |
-| `baseItemPositionType` | Hur basobjektet väljs i förhållande till det aktuella objektet: `PivotItemPositionType.Previous`, `.Next`, eller `.Custom`. | Endast för de tre basobjektformaten (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`); ignoreras av alla andra format. |
-| `baseItem` | Nollbaserat index för basobjektet. | Endast när `baseItemPositionType` är `Custom` (objektindexet väljer det exakta basobjektet); ignoreras för `Previous` / `Next` och av alla icke‑basformat — skicka `0`. |
+| `show_values_as_type` | Den `PivotShowValuesAsType` sekundära beräkning som ska tillämpas. | Alltid. |
+| `base_field` | Nollbaserat index för grundfältet bland pivottabellens grundfält (t.ex. index för radfältet som grundobjektet tillhör), eller — i namnformen — namnet på grundfältet. | De åtta grundrelativa formaten nedan (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`, `RUNNING_TOTAL_IN`, `PERCENTAGE_OF_PARENT_TOTAL`, `PERCENTAGE_OF_RUNNING_TOTAL_IN`, `RANK_SMALLEST_TO_LARGEST`, `RANK_LARGEST_TO_SMALLEST`); skicka `0` (eller `None` i namnformen) för alla andra format. |
+| `base_item` | Nollbaserat index för grundobjektet, med två sentinel‑värden: `PivotShowValuesSetting.PREVIOUS_PIVOT_ITEM` (-1) väljer föregående objekt och `PivotShowValuesSetting.NEXT_PIVOT_ITEM` (-2) nästa. Namnformen tar istället bildtexten för grundobjektet, och `None` när det valda formatet inte kräver ett grundobjekt. | Endast de tre grundobjektformaten (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`) använder grundobjektet; de fem fältrelaterade formaten (`RUNNING_TOTAL_IN`, `PERCENTAGE_OF_PARENT_TOTAL`, `PERCENTAGE_OF_RUNNING_TOTAL_IN`, båda rangordningarna) ignorerar det — skicka `0` eller `None`. |
 
-| Beräkningstyp | Beteende | Basobjektparametrar |
+| Beräkningstyp | Beteende | Grundobjektparametrar |
 | --- | --- | --- |
-| `Normal` | Ingen sekundär beräkning; det aggregerade värdet visas som det är (standard). | — |
-| `DifferenceFrom` | Visar värdet som en skillnad från värdet för ett basobjekt i ett basfält. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` endast med `Custom`) |
-| `PercentageOf` | Visar värdet som en procentandel av värdet för ett basobjekt i ett basfält. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` endast med `Custom`) |
-| `PercentageDifferenceFrom` | Visar värdet som procentuell skillnad från värdet för ett basobjekt i ett basfält. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` endast med `Custom`) |
-| `RunningTotalIn` | Visar värdet som en löpande total för på varandra följande objekt i ett basfält. | `baseField` (fältet vars objektordning driver ackumuleringen) |
-| `PercentageOfRow` | Visar värdet som en procentandel av radtotalen. | — |
-| `PercentageOfColumn` | Visar värdet som en procentandel av kolumntotalen. | — |
-| `PercentageOfTotal` | Visar värdet som en procentandel av den totala summan. | — |
-| `Index` | Visar värdet med hjälp av Excels indexformel ((värde * total summa) / (radtotal * kolumntotal)). | — |
-| `PercentageOfParentRowTotal` | Visar värdet som en procentandel av dess föräldraradtotal (för nästlade radfält). | — |
-| `PercentageOfParentColumnTotal` | Visar värdet som en procentandel av dess föräldrakolumntotal (för nästlade kolumnfält). | — |
-| `PercentageOfParentTotal` | Visar värdet som en procentandel av dess föräldratotal. | `baseField` (det överordnade referensfältet) |
-| `PercentageOfRunningTotalIn` | Visar värdet som en procentandel av en löpande total i ett basfält. | `baseField` (ackumuleringsfältet) |
-| `RankSmallestToLargest` | Rangerar värdet från minst (1) till störst. | — |
-| `RankLargestToSmallest` | Rangerar värdet från störst (1) till minst. | — |
+| `NORMAL` | Ingen sekundär beräkning; det aggregerade värdet visas som det är (standard). | — |
+| `DIFFERENCE_FROM` | Visar värdet som en differens från värdet av ett grundobjekt i ett grundfält. | `base_field` + `base_item` (index eller bildtext, eller föregående/nästa sentinel) |
+| `PERCENTAGE_OF` | Visar värdet som en procent av värdet av ett grundobjekt i ett grundfält. | `base_field` + `base_item` (index eller bildtext, eller föregående/nästa sentinel) |
+| `PERCENTAGE_DIFFERENCE_FROM` | Visar värdet som den procentuella skillnaden från värdet av ett grundobjekt i ett grundfält. | `base_field` + `base_item` (index eller bildtext, eller föregående/nästa sentinel) |
+| `RUNNING_TOTAL_IN` | Visar värdet som en löpande total för efterföljande objekt i ett grundfält. | `base_field` (fältet vars objektordning driver ackumuleringen) |
+| `PERCENTAGE_OF_ROW` | Visar värdet som en procent av radtotalen. | — |
+| `PERCENTAGE_OF_COLUMN` | Visar värdet som en procent av kolumntotalen. | — |
+| `PERCENTAGE_OF_TOTAL` | Visar värdet som en procent av grand total. | — |
+| `INDEX` | Visar värdet med Excel‑index‑formeln ((värde * grand total) / (radtotal * kolumntotal)). | — |
+| `PERCENTAGE_OF_PARENT_ROW_TOTAL` | Visar värdet som en procent av dess överordnade radtotal (för nästlade radfält). | — |
+| `PERCENTAGE_OF_PARENT_COLUMN_TOTAL` | Visar värdet som en procent av dess överordnade kolumntotal (för nästlade kolumnfält). | — |
+| `PERCENTAGE_OF_PARENT_TOTAL` | Visar värdet som en procent av dess överordnade total. | `base_field` (det överordnade fältet vars total är referensen) |
+| `PERCENTAGE_OF_RUNNING_TOTAL_IN` | Visar värdet som en procent av en löpande total i ett grundfält. | `base_field` (ackumuleringsfältet) |
+| `RANK_SMALLEST_TO_LARGEST` | Rangordnar värdet från minsta (1) till största. | `base_field` (fältet vars objekt definierar rangordningsomfånget) |
+| `RANK_LARGEST_TO_SMALLEST` | Rangordnar värdet från största (1) till minsta. | `base_field` (fältet vars objekt definierar rangordningsomfånget) |
 
 {{% alert color="primary" %}}
-`showValuesAs(...)` skriver de `PivotShowValuesSetting`‑värdena via `setCalculationType`, `setBaseFieldIndex`, `setBaseItemPositionType` och `setBaseItemIndex` — metoden och inställningsobjektet är två sätt att konfigurera samma tillstånd, vilket speglar basfält‑ och basobjektväljare i Excels Show Values As‑dialog.
+`showValuesAs(...)` skriver `PivotShowValuesSetting`‑värdena via `setShowValuesAs`, `setBaseFieldIndex` och `setBaseItemIndex` – metoden och inställningsobjektet är två sätt att konfigurera samma tillstånd, vilket speglar grundfält‑ och grundobjekt‑väljare i Excels **Show Values As**‑dialog.
 {{% /alert %}}
 
 ## **Visa värden som procent av totalen**
-Anropa `PivotField.showValuesAs`‑metoden med `PivotFieldDataDisplayFormat.PercentageOfTotal` för att konvertera varje datafältcell, inklusive totalen, till dess andel av totalen. De visade siffrorna läses därför som proportioner av hela resultatet. Detta format mäter varje värde endast mot totalen, så det kräver inget basfält eller basobjekt — de efterföljande argumenten (`0`, `PivotItemPositionType.Previous`, `0`) är platshållare som formatet ignorerar, enligt parameter‑tabellen ovan.
+Anropa metoden `PivotField.showValuesAs` med `PivotShowValuesAsType.PERCENTAGE_OF_TOTAL` för att omvandla varje datavärdefältscell, inklusive grand total, till dess andel av grand total. De visade siffrorna läses därför som andelar av hela resultatmängden. Detta format mäter varje värde endast mot grand total, så det kräver inget grundfält eller grundobjekt — de efterföljande argumenten (`0`, `0`) är platshållare som formatet ignorerar, enligt parametratabellen ovan.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import (
     Workbook,
-    Worksheet,
-    Cells,
-    Range,
-    SaveFormat,
-    PivotTable,
-    PivotField,
     PivotFieldType,
-    PivotFieldDataDisplayFormat,
-    PivotItemPositionType,
+    PivotShowValuesAsType,
 )
 # Load or create a workbook with source data
 workbook = Workbook()
@@ -99,7 +84,8 @@ data_sheet = workbook.getWorksheets().get(0)
 data_sheet.getCells().get("A1").putValue("Fruit")
 data_sheet.getCells().get("B1").putValue("Amount")
 fruits = ["Apple", "Banana", "Apple", "Cherry", "Banana", "Apple"]
-amounts = [10, 20, 30, 40, 50, 60]
+# float literals keep putValue on the double overload (an untyped Python int is ambiguous between putValue(boolean/int/Object) overloads)
+amounts = [10.0, 20.0, 30.0, 40.0, 50.0, 60.0]
 for i in range(len(fruits)):
     data_sheet.getCells().get(i + 1, 0).putValue(fruits[i])
     data_sheet.getCells().get(i + 1, 1).putValue(amounts[i])
@@ -110,15 +96,10 @@ pivot_table.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivot_table.calculateData()
 # Show the Amount data field as a percentage of the grand total with the
-# one-call method; PercentageOfTotal takes no base item, so the trailing
-# base arguments (0, Previous, 0) are placeholders the format ignores
+# one-call method; PERCENTAGE_OF_TOTAL takes no base item, so the trailing
+# base arguments (0, 0) are placeholders the format ignores
 data_field = pivot_table.getDataFields().get(0)
-data_field.showValuesAs(
-    PivotFieldDataDisplayFormat.PERCENTAGE_OF_TOTAL,
-    0,
-    PivotItemPositionType.PREVIOUS,
-    0,
-)
+data_field.showValuesAs(PivotShowValuesAsType.PERCENTAGE_OF_TOTAL, 0, 0)
 pivot_table.calculateData()
 # Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
 workbook.save("ShowValuesAsPercentageOfTotal.xlsx")
@@ -126,50 +107,46 @@ jpype.shutdownJVM()
 ```
 
 ## **Hämta och konfigurera PivotField.getShowValuesSetting()**
-Läs den aktuella konfigurationen via `PivotField.getShowValuesSetting()`: den skrivskyddade metoden returnerar fältets `PivotShowValuesSetting`‑objekt, vars fyra egenskaper beskriver den aktiva Show Values As‑beräkningen. För att ändra konfigurationen, anropa `PivotField.showValuesAs`‑metoden — den skriver alla fyra inställningar i ett anrop, så du aldrig behöver tilldela egenskaperna en åt gången.  
-`PivotShowValuesSetting`‑objektet exponerar de fyra egenskaper som `showValuesAs` skriver:
-- `getCalculationType()` returnerar den sekundära beräkningen `PivotFieldDataDisplayFormat`, medan `setCalculationType(...)` ändrar den.
-- `getBaseFieldIndex()` och `setBaseFieldIndex(...)` anger nollbaserat index för basfältet inom pivottabellens fält. Används av de basrelaterade formaten.
-- `getBaseItemPositionType()` och `setBaseItemPositionType(...)` bestämmer hur basobjektet positioneras relativt det aktuella objektet och accepterar `PivotItemPositionType.Next`, `PivotItemPositionType.Previous` eller `PivotItemPositionType.Custom`.
-- `getBaseItemIndex()` och `setBaseItemIndex(...)` anger nollbaserat index för basobjektet och används när `BaseItemPositionType` är `Custom`.
-Efter anropet `showValuesAs`, anropa `PivotTable.calculateData()` igen så att pivottabellens kropp beräknas om och renderas med den uppdaterade konfigurationen.
+Läs den aktuella konfigurationen via `PivotField.getShowValuesSetting()`; den skrivskyddade metoden returnerar fältets `PivotShowValuesSetting`‑objekt, vars egenskaper beskriver den aktiva **Show Values As**‑beräkningen. För att ändra konfigurationen, anropa metoden `PivotField.showValuesAs` — den skriver alla inställningar i ett anrop, så du behöver aldrig sätta egenskaperna en i taget.  
+`PivotShowValuesSetting`‑objektet exponerar det tillstånd som `showValuesAs` skriver:
+- `getShowValuesAs()` returnerar den `PivotShowValuesAsType` sekundära beräkningen, medan `setShowValuesAs(...)` ändrar den.
+- `getBaseFieldIndex()` och `setBaseFieldIndex(...)` anger det nollbaserade indexet för grundfältet i pivottabellens fält. Det används av de grundrelativa formaten.
+- `getBaseItemIndex()` och `setBaseItemIndex(...)` anger grundobjektet: ett nollbaserat index för ett specifikt pivottobjekt, eller ett av de två sentinel‑värdena — `PivotShowValuesSetting.PREVIOUS_PIVOT_ITEM` (-1) för föregående objekt, `PivotShowValuesSetting.NEXT_PIVOT_ITEM` (-2) för nästa. Det används av de grundobjekt‑formaten.
+- `getBaseFieldName()` och `getBaseItemCaption()` är skrivskyddade vyer som rapporterar det upplösta grundfältets namn och grundobjektets bildtext; exempelvis, efter att ha valt föregående‑objekt‑sentinel, returnerar `getBaseItemCaption()` `(previous)`.
+
+Efter att ha anropat `showValuesAs`, anropa `PivotTable.calculateData()` igen så att pivottabellens kropp beräknas om och renderas med den uppdaterade konfigurationen.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import (
     Workbook,
-    Worksheet,
-    Cells,
-    Range,
-    SaveFormat,
-    PivotFieldDataDisplayFormat,
-    PivotItemPositionType,
+    PivotShowValuesAsType,
+    PivotShowValuesSetting,
 )
 workbook = Workbook("ShowValuesAsPercentageOfTotal.xlsx")
 pivot_table = workbook.getWorksheets().get(1).getPivotTables().get(0)
 data_field = pivot_table.getDataFields().get(0)
 # Read the current show-values settings
 settings = data_field.getShowValuesSetting()
-print(f"CalculationType: {settings.getCalculationType()}")
+print(f"ShowValuesAs: {settings.getShowValuesAs()}")
 print(f"BaseFieldIndex: {settings.getBaseFieldIndex()}")
-print(f"BaseItemPositionType: {settings.getBaseItemPositionType()}")
 print(f"BaseItemIndex: {settings.getBaseItemIndex()}")
+print(f"BaseFieldName: {settings.getBaseFieldName()}")
+print(f"BaseItemCaption: {settings.getBaseItemCaption()}")
 # Switch to a base-item calculation with the one-call method: difference
 # from the value of the previous item in the row field
 data_field.showValuesAs(
-    PivotFieldDataDisplayFormat.DIFFERENCE_FROM,
+    PivotShowValuesAsType.DIFFERENCE_FROM,
     pivot_table.getRowFields().get(0).getBaseIndex(),
-    PivotItemPositionType.PREVIOUS,
-    0,
+    PivotShowValuesSetting.PREVIOUS_PIVOT_ITEM,
 )
 pivot_table.calculateData()
 # Note: the percentage number format saved by the previous example still
 # clings to the data field cells; the underlying values are now differences
 # Re-read the applied configuration
-print(f"CalculationType now: {data_field.getShowValuesSetting().getCalculationType()}")
+print(f"ShowValuesAs now: {data_field.getShowValuesSetting().getShowValuesAs()}")
 workbook.save("ShowValuesAsDifferenceFrom.xlsx")
 jpype.shutdownJVM()
 ```
@@ -177,6 +154,6 @@ jpype.shutdownJVM()
 ## **Relaterade artiklar**
 - [Hantera värdefält i pivottabell](/cells/sv/python-java/manage-value-fields/)
 - [Uppdatera pivottabell](/cells/sv/python-java/refresh-pivot-table/)
-- [Applicera format på pivottabell](/cells/sv/python-java/apply-style-to-pivot-table/)
+- [Applicera stil på pivottabell](/cells/sv/python-java/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="python" >}}

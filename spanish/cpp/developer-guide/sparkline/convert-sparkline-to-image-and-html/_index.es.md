@@ -1,6 +1,6 @@
 ---
 title: Convertir minigráficos a imágenes y HTML en Aspose.Cells for C++
-linktitle: Convertir minigráficos a imágenes y HTML en Aspose.Cells for C++
+linktitle: Convertir minigráficos a imagen y HTML
 description: Aprenda a generar imágenes independientes de los minigráficos de Aspose.Cells para incrustarlas en celdas y exportar a HTML hojas de cálculo con minigráficos mediante HtmlSaveOptions.
 keywords: Aspose.Cells, C++, minigráfico, Sparkline.ToImage, Cell.EmbeddedImage, HtmlSaveOptions, generar minigráfico, convertir minigráfico en imagen, exportar minigráfico a HTML
 type: docs

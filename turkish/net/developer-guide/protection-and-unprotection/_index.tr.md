@@ -41,19 +41,19 @@ Excel iki ayrı parola katmanını destekler. Birincisi, dosyanın kendisini şi
 ```csharp
 using System;
 using Aspose.Cells;
-// Sıfırdan yeni bir çalışma kitabı oluştur
+// Create a new workbook from scratch
 Workbook workbook = new Workbook();
-// İlk çalışma sayfasının A1 hücresine örnek bir değer yaz
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
-// Yazma korumasını yapılandır: değiştirme parolasını ve yazarı ayarla
+// Configure the write protection: set the password to modify and the author
 workbook.Settings.WriteProtection.Password = "ModifyPwd";
 workbook.Settings.WriteProtection.Author = "AuthorName";
-// Yazma korumasının kalıcı olması için çalışma kitabını kaydet
+// Save the workbook so the write protection is persisted
 workbook.Save("WriteProtectedWorkbook.xlsx");
-// Doğru parolayı kullanarak değiştirme parolasını doğrula
+// Validate the password to modify using the correct password
 bool isCorrectValid = workbook.Settings.WriteProtection.ValidatePassword("ModifyPwd");
 Console.WriteLine("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// Diğer dalı göstermek için yanlış bir parola kullanarak değiştirme parolasını doğrula
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 bool isWrongValid = workbook.Settings.WriteProtection.ValidatePassword("WrongPwd");
 Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -64,22 +64,22 @@ Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```csharp
 using System;
 using Aspose.Cells;
-// Yeni bir çalışma kitabı oluştur
+// Create a new workbook
 Workbook workbook = new Workbook();
-// İkinci bir çalışma sayfası ekle
+// Add a second worksheet
 workbook.Worksheets.Add();
-// İlk çalışma sayfasının A1 hücresine örnek bir değer yaz
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells[0, 0].PutValue("Sample Data");
-// Çalışma kitabının yapısını koru
+// Protect the workbook structure
 workbook.Protect(ProtectionType.Structure, "StructPwd");
-// Çalışma kitabını structure_protected.xlsx olarak kaydet
+// Save the workbook as structure_protected.xlsx
 string filePath = "structure_protected.xlsx";
 workbook.Save(filePath);
-// Dosyayı yeni bir Workbook örneğine yeniden yükle
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// Yapı korumasını kaldır
+// Remove the structure protection
 loadedWorkbook.Unprotect("StructPwd");
-// Onay mesajını yazdır
+// Print confirmation message
 Console.WriteLine("Structure protection has been successfully removed from the workbook.");
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: Tillämpa stilar på pivottabeller i Aspose.Cells for C++
-linktitle: Tillämpa stilar på pivottabeller i Aspose.Cells for C++
+linktitle: Tillämpa pivottabellstilar
 description: Lär dig hur du tillämpar inbyggda och anpassade stilar på pivottabeller i Aspose.Cells for C++, inklusive äldre XLS-autoformat, moderna namngivna Excel 2007+-stilar, anpassade pivottabellstilar och FormatAll-genvägen.
 keywords: Aspose.Cells C++ pivottabell stil, PivotTableStyleType, AutoFormatType, FormatAll, anpassad stil, PivotTableStyleName, TableStyles
 type: docs
@@ -34,12 +34,12 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Skapa en ny arbetsbok
+    // Create a new workbook
     Workbook workbook;
-    // Hämta det första kalkylbladet
+    // Get the first worksheet
     Worksheet sheet = workbook.GetWorksheets().Get(0);
-    // Fylla källdatan med rubrikrad (Fruit, Year, Amount)
-    // och 9 datarader som täcker grape, blueberry, kiwi, cherry över 2020 och 2021
+    // Populate the source data with header row (Fruit, Year, Amount)
+    // and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
     sheet.GetCells().Get(0, 0).PutValue(u"Fruit");
     sheet.GetCells().Get(0, 1).PutValue(u"Year");
     sheet.GetCells().Get(0, 2).PutValue(u"Amount");
@@ -70,14 +70,14 @@ int main() {
     sheet.GetCells().Get(9, 0).PutValue(u"grape");
     sheet.GetCells().Get(9, 1).PutValue(2020);
     sheet.GetCells().Get(9, 2).PutValue(45);
- // Lägg till en pivottabell vid destinationscell E3, med namnet, med källintervall A1:C10
+ // Add a pivot table at destination cell E3, using source range A1:C10
     PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // Tilldela fält: Fruit -> Rader, Amount -> Data
+    // Assign fields: Fruit -> Rows, Amount -> Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // Tillämpa det äldre XLS-förinställda automatiska formatet "Report5"
+    // Apply the legacy XLS preset autoformat "Report5"
     pivotTable.SetAutoFormatType(PivotTableAutoFormatType::Report5);
-    // Spara arbetsboken i äldre .xls-format
+    // Save the workbook in legacy .xls format
     workbook.Save(u"output.xls");
     Aspose::Cells::Cleanup();
     return 0;
@@ -165,7 +165,7 @@ int main() {
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // Fyll i källdata: rubrikrad + 9 datarader (A1:C10)
+    // Populate source data: header row + 9 data rows (A1:C10)
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
@@ -196,15 +196,15 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(900);
- // Lägg till pivottabell med källa från A1:C10, förankrad vid E3, namngiven
+ // Add pivot table sourced from A1:C10, anchored at E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // Steg 1: registrera en ny anpassad pivottabellstil och fånga dess index
+    // Step 1: register a new custom pivot table style and capture its index
     int styleIndex = workbook.GetWorksheets().GetTableStyles().AddPivotTableStyle(u"CustomPivotStyle");
     TableStyle tableStyle = workbook.GetWorksheets().GetTableStyles().Get(styleIndex);
-    // Steg 2: lägg till ett WholeTable-element och tillämpa tunna svarta kanter på alla fyra sidor
+    // Step 2: add a WholeTable element and apply thin black borders on all four sides
     int wholeTableElementIndex = tableStyle.GetTableStyleElements().Add(TableStyleElementType::WholeTable);
     TableStyleElement wholeTableElement = tableStyle.GetTableStyleElements().Get(wholeTableElementIndex);
     Style wholeTableStyle = workbook.CreateStyle();
@@ -217,14 +217,14 @@ int main() {
     wholeTableStyle.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
     wholeTableStyle.GetBorders().Get(BorderType::RightBorder).SetColor(Color::Black());
     wholeTableElement.SetElementStyle(wholeTableStyle);
-    // Steg 3: lägg till ett GrandTotalRow-element och tillämpa fet röd text
+    // Step 3: add a GrandTotalRow element and apply bold red font
     int grandTotalElementIndex = tableStyle.GetTableStyleElements().Add(TableStyleElementType::GrandTotalRow);
     TableStyleElement grandTotalElement = tableStyle.GetTableStyleElements().Get(grandTotalElementIndex);
     Style grandTotalStyle = workbook.CreateStyle();
     grandTotalStyle.GetFont().SetIsBold(true);
     grandTotalStyle.GetFont().SetColor(Color::Red());
     grandTotalElement.SetElementStyle(grandTotalStyle);
-    // Steg 4: tillämpa den anpassade stilen efter namn (INTE efter PivotTableStyleType, vilket är för inbyggda förinställningar)
+    // Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
     pivotTable.SetPivotTableStyleName(u"CustomPivotStyle");
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
@@ -249,11 +249,11 @@ int main() {
     Aspose::Cells::Startup();
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
-    // Rubrikrad
+    // Header row
     worksheet.GetCells().Get(u"A1").PutValue(u"Fruit");
     worksheet.GetCells().Get(u"B1").PutValue(u"Year");
     worksheet.GetCells().Get(u"C1").PutValue(u"Amount");
-    // Datarader
+    // Data rows
     worksheet.GetCells().Get(u"A2").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B2").PutValue(2020);
     worksheet.GetCells().Get(u"C2").PutValue(5000);
@@ -281,13 +281,13 @@ int main() {
     worksheet.GetCells().Get(u"A10").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B10").PutValue(2021);
     worksheet.GetCells().Get(u"C10").PutValue(5500);
- // Lägg till pivottabell: källområde A1:C10, destinationscell E3, namn
+ // Add pivot table: source range A1:C10, destination cell E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // Tilldela pivotfält
+    // Assign pivot fields
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // Bygg en stil som kommer att tvingas på varje cell i pivottabellen
+    // Build a Style that will be forced onto every cell of the pivot table
     Style style = wb.CreateStyle();
     style.SetForegroundColor(Color::Yellow());
     style.SetPattern(BackgroundType::Solid);
@@ -301,9 +301,9 @@ int main() {
     style.GetBorders().Get(BorderType::LeftBorder).SetColor(Color::Black());
     style.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
     style.GetBorders().Get(BorderType::RightBorder).SetColor(Color::Black());
-    // Tillämpa FormatAll
+    // Apply FormatAll
     pivotTable.FormatAll(style);
-    // Spara arbetsboken
+    // Save the workbook
     wb.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

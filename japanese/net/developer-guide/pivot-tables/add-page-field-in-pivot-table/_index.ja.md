@@ -30,15 +30,15 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// 新しいワークブックを作成
+// Create a new workbook
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
 worksheet.Name = "Data";
-// ヘッダー行を設定
+// Set up the header row
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// サンプルデータ9行を入力：果物、年、金額
+// Populate 9 rows of sample data: Fruit, Year, Amount
 object[,] data = new object[,]
 {
     { "apple", 2020, 100 },
@@ -57,15 +57,15 @@ for (int i = 0; i < data.GetLength(0); i++)
     worksheet.Cells[i + 1, 1].PutValue(data[i, 1]);
     worksheet.Cells[i + 1, 2].PutValue(data[i, 2]);
 }
-// セルE3を基準にピボットテーブルを追加
+// Add a pivot table anchored at cell E3
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
-// 各エリアにフィールドを追加：果物を行、金額をデータ、年をページフィールド
+// Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// ピボットテーブルのデータを更新して計算
+// Refresh and calculate the pivot table data
 pivotTable.CalculateData();
-// ワークブックを保存
+// Save the workbook
 workbook.Save("pageFieldSample.xlsx");
 ```
 
@@ -76,19 +76,19 @@ workbook.Save("pageFieldSample.xlsx");
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// — ピボットテーブルとページフィールドは、シナリオ 1a とまったく同じように構築されます
-//   (Fruit/Year/Amount データ、ピボットは E3、Fruit→Row、
-//   Amount→Data)。以下では、Year PivotField を
-//   BaseFields コレクションから取得し、PageFields.Add に渡します。これは
-//   AddFieldToArea に代わる低レベルの方法です。結果は
-//   機能的にはシナリオ 1a と同じです。
+// — The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+//   Amount→Data). Below we obtain the Year PivotField from the
+//   BaseFields collection and pass it to PageFields.Add — the
+//   low-level alternative to AddFieldToArea. The result is
+//   functionally identical to Scenario 1a.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-// ヘッダー
+// Headers
 sheet.Cells["A1"].PutValue("Fruit");
 sheet.Cells["B1"].PutValue("Year");
 sheet.Cells["C1"].PutValue("Amount");
-// サンプルデータ (9 行)
+// Sample data (9 rows)
 sheet.Cells["A2"].PutValue("apple");    sheet.Cells["B2"].PutValue("2020"); sheet.Cells["C2"].PutValue(100);
 sheet.Cells["A3"].PutValue("apple");    sheet.Cells["B3"].PutValue("2021"); sheet.Cells["C3"].PutValue(150);
 sheet.Cells["A4"].PutValue("apple");    sheet.Cells["B4"].PutValue("2022"); sheet.Cells["C4"].PutValue(200);
@@ -98,16 +98,16 @@ sheet.Cells["A7"].PutValue("grape");    sheet.Cells["B7"].PutValue("2022"); shee
 sheet.Cells["A8"].PutValue("blueberry"); sheet.Cells["B8"].PutValue("2020"); sheet.Cells["C8"].PutValue(250);
 sheet.Cells["A9"].PutValue("blueberry"); sheet.Cells["B9"].PutValue("2021"); sheet.Cells["C9"].PutValue(350);
 sheet.Cells["A10"].PutValue("blueberry");sheet.Cells["B10"].PutValue("2022"); sheet.Cells["C10"].PutValue(450);
-// E3 に A1:C10 をカバーするピボットテーブルを追加
+// Add pivot table at E3 covering A1:C10
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
-// Fruit -> Row、Amount -> Data (Year は下記で Page に追加)
+// Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// 低レベルのアプローチ: 既存の Year PivotField を BaseFields から取得し、
-// PageFields.Add(PivotField) 経由で Page 領域に登録します。
+// Low-level approach: grab the existing Year PivotField from BaseFields
+// and register it in the Page area via PageFields.Add(PivotField).
 PivotField yearField = pivotTable.BaseFields["Year"];
 pivotTable.PageFields.Add(yearField);
-// 新しいページフィールドが保存されるワークブックに反映されるように更新
+// Refresh so the new page field is reflected in the saved workbook
 pivotTable.CalculateData();
 workbook.Save("output.xlsx");
 ```
@@ -126,10 +126,10 @@ class Program
 {
     static void Main()
     {
-        // 新しいワークブックを作成
+        // Create a new workbook
         Workbook workbook = new Workbook();
         Worksheet sheet = workbook.Worksheets[0];
-        // Fruit/Year/Amount のデータを入力
+        // Populate Fruit/Year/Amount data
         sheet.Cells["A1"].PutValue("Fruit");
         sheet.Cells["B1"].PutValue("Year");
         sheet.Cells["C1"].PutValue("Amount");
@@ -149,17 +149,17 @@ class Program
                 sheet.Cells[r + 1, c].PutValue(data[r, c]);
             }
         }
-        // E3 にピボットテーブルを作成
+        // Create pivot table at E3
         var pivotTables = sheet.PivotTables;
         PivotTable pivotTable = pivotTables.Add("=A1:C7", 2, 4);
-        // ピボットフィールドを設定: Fruit→行、Amount→データ、Year→ページ
+        // Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
         pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
         pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
         pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
         pivotTable.CalculateData();
-        // ページフィールドのすべてのアイテムが表示されるようにページフィルターをクリア
-        // 0x7FFD (10進数 32765) は「すべてのアイテム」を意味する特別なセンチネル値です —
-        // Excel のページフィールドドロップダウンで「(すべて)」を選択するのと同等です。
+        // Clear the page filter so every item in the page field is visible.
+        // 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+        // equivalent to selecting "(All)" in Excel's page-field dropdown.
         pivotTable.PageFields[0].CurrentPageItem = 0x7FFD;
         workbook.Save("output.xlsx");
     }
@@ -173,11 +173,11 @@ class Program
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// ワークブックを作成
+// Create workbook
 var workbook = new Workbook();
 var sheet = workbook.Worksheets[0];
 var cells = sheet.Cells;
-// サンプルデータを追加 (果物/年/金額)
+// Add sample data (Fruit/Year/Amount)
 cells["A1"].PutValue("Fruit");
 cells["B1"].PutValue("Year");
 cells["C1"].PutValue("Amount");
@@ -193,16 +193,16 @@ cells["C4"].PutValue("200");
 cells["A5"].PutValue("Banana");
 cells["B5"].PutValue("2021");
 cells["C5"].PutValue("250");
-// E3にピボットテーブルを追加
+// Add pivot table at E3
 var pivotTables = sheet.PivotTables;
 var pivotTable = pivotTables.Add("A1:C5", 2, 4);
-// フィールドを追加: Fruit→行, Amount→データ, Year→ページ
+// Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// ページフィールド固有の操作
-pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = ソート順の2番目の項目 (例: "2021")
-// ピボットテーブルを更新して計算
+// Page-field-specific operations
+pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = second item in sorted order (e.g. "2021")
+// Refresh and calculate pivot table
 pivotTable.CalculateData();
 workbook.Save("output.xlsx");
 ```
@@ -215,14 +215,14 @@ workbook.Save("output.xlsx");
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// — ピボットテーブルとページフィールドは、シナリオ 1a とまったく同じ方法で構築されます
-//   (Fruit/Year/Amount データ、ピボット位置は E3、Fruit→行、
-//   Amount→データ、Year→ページ (AddFieldToArea 経由))
-//   以下では、ページフィールドに対して複数選択フィルタを適用します。
+// — The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+//   Amount→Data, Year→Page via AddFieldToArea).
+//   Below we apply multi-select filtering on the page field.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 Cells cells = sheet.Cells;
-// サンプルデータ: Fruit | Year | Amount
+// Sample data: Fruit | Year | Amount
 cells[0, 0].PutValue("Fruit");
 cells[0, 1].PutValue("Year");
 cells[0, 2].PutValue("Amount");
@@ -250,15 +250,15 @@ PivotTable pivotTable = pivots.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// — ページフィールドで複数選択を有効にする
+// — Enable multi-select on the page field
 pivotTable.PageFields[0].IsMultipleItemSelectionAllowed = true;
-// パート A — すべての項目を選択する (すべての項目を表示状態にする)
+// Part A — select ALL items (make every item visible)
 PivotItemCollection pivotItems = pivotTable.PageFields[0].PivotItems;
 for (int i = 0; i < pivotItems.Count; i++)
 {
     pivotItems[i].IsHidden = false;
 }
-// パート B — ソース値で特定の項目のみを選択する
+// Part B — select only specific items by source value
 for (int i = 0; i < pivotItems.Count; i++)
 {
     switch (pivotItems[i].GetStringValue())

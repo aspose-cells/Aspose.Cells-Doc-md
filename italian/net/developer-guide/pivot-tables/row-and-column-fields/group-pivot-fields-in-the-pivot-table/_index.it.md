@@ -20,15 +20,15 @@ L'overload senza parametri di `PivotField.Group()` esamina il tipo di dati del c
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Carica la cartella di lavoro di esempio
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Accedi al secondo foglio di lavoro e alla sua tabella pivot
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// Raggruppa automaticamente il primo campo riga.
-// Il campo contiene date, quindi viene raggruppato per mesi.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 PivotField field = pt.RowFields[0];
 field.Group();
-// Calcola i dati della tabella pivot e salva il file di output
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputAutoGroupPivotField.xlsx");
 ```
@@ -42,17 +42,17 @@ Si noti che l'ordine dei valori in `options.GroupTypes` viene ignorato. Indipend
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Carica la cartella di lavoro di esempio
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Accedi al secondo foglio di lavoro e alla sua tabella pivot
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// Raggruppa il primo campo riga (un campo data) per mesi e trimestri
+// Group the first row field (a date field) by months and quarters
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartDate = new DateTime(2008, 1, 1);
 options.EndDate = new DateTime(2008, 9, 5);
 options.GroupTypes = new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Quarters };
 pt.RowFields[0].Group(options);
-// Calcola i dati della tabella pivot e salva il file di output
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,21 +64,21 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Carica la cartella di lavoro di esempio
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Accedi al secondo foglio di lavoro e alla sua tabella pivot
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// FieldTwo è un campo dati: spostalo prima nell'area delle righe,
-// perché solo i campi riga/colonna possono essere raggruppati
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.AddFieldToArea(PivotFieldType.Row, "FieldTwo");
 pt.CalculateData();
-// Raggruppa il campo numerico negli intervalli 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartNumber = 0;
 options.EndNumber = 5;
 options.Interval = 2;
 pt.RowFields[1].Group(options);
-// Calcola i dati della tabella pivot e salva il file di output
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputNumberGroupPivotField.xlsx");
 ```

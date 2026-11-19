@@ -1,6 +1,6 @@
 ---
 title: Pivot-Felder in der Pivot-Tabelle gruppieren
-linktitle: Pivot-Felder in der Pivot-Tabelle gruppieren
+linktitle: Pivot-Felder gruppieren
 description: Erfahren Sie, wie Sie Zeilen- und Spalten-Pivot-Felder in einer Pivot-Tabelle in Zeitperioden wie Monate und Quartale sowie in Zahlenbereiche gruppieren, indem Sie PivotField.Group und PivotFieldGroupOptions in Aspose.Cells for Node.js via C++ verwenden.
 keywords: Aspose.Cells, Pivot-Tabelle, Pivot-Feld gruppieren, PivotField.Group, PivotFieldGroupOptions, Datumsgruppierung, Zahlengruppierung, Monate, Quartale, Zahlenbereich, JavaScript
 type: docs
@@ -20,15 +20,15 @@ Die parameterlose Überladung `pivotField.group()` prüft den Datentyp des Felde
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Beispielarbeitsmappe laden
+// Load the sample workbook
 const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Auf das zweite Arbeitsblatt und seine Pivot-Tabelle zugreifen
+// Access the second worksheet and its pivot table
 const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// Das erste Zeilenfeld automatisch gruppieren.
-// Das Feld enthält Datumsangaben, daher wird es nach Monaten gruppiert.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 const field = pt.getRowFields().get(0);
 field.group();
-// Die Daten der Pivot-Tabelle berechnen und die Ausgabedatei speichern
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputAutoGroupPivotField.xlsx");
 ```
@@ -43,15 +43,15 @@ Beachten Sie, dass die Reihenfolge der Werte in `options.groupTypes` ignoriert w
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Auf das zweite Arbeitsblatt und dessen Pivot-Tabelle zugreifen
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// Das erste Zeilenfeld (Anrissfeld) nach Monaten und Quartalen gruppieren
+// Group the first row field (a date field) by months and quarters
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartDate(new Date(2008, 0, 1));
 options.setEndDate(new Date(2008, 8, 5));
 options.setGroupTypes([AsposeCells.PivotGroupByType.Months, AsposeCells.PivotGroupByType.Quarters]);
 pt.getRowFields().get(0).group(options);
-// Die Pivot-Tabellendaten berechnen und die Ausgabedatei speichern
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,19 +64,19 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Zugriff auf das zweite Arbeitsblatt und seine Pivot-Tabelle
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo ist ein Datenfeld: zuerst in den Zeilenbereich verschieben,
-// da nur Zeilen-/Spaltenfelder gruppiert werden können
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(AsposeCells.PivotFieldType.Row, "FieldTwo");
 pt.calculateData();
-// Numerisches Feld in die Bereiche 0-1, 2-3, 4-5 gruppieren
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Pivot-Tabellen-Daten berechnen und Ausgabedatei speichern
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

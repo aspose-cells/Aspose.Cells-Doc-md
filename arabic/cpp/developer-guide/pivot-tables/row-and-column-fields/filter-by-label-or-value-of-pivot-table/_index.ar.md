@@ -1,8 +1,8 @@
 ---
 title: تصفية الجداول المحورية حسب التسمية أو القيمة
 linktitle: تصفية الجداول المحورية حسب التسمية أو القيمة
-description: توفر Aspose.Cells for C++ إمكانات شاملة لتصفية الجداول المحورية. توضح هذه المقالة كيفية تصفية بيانات الجدول المحوري باستخدام مرشحات التسمية والتاريخ والقيمة وأعلى 10، وكذلك عبر إخفاء عناصر الجدول المحوري أو إظهارها.
-keywords: Aspose.Cells, مكتبة C++, جدول بيانات, جدول محوري, تصفية, مرشح التسمية, مرشح القيمة, مرشح التاريخ, مرشح أعلى 10, عنصر الجدول المحوري, إخفاء عنصر الجدول المحوري
+description: يدعم Aspose.Cells for C++ إمكانات تصفية شاملة للجداول المحورية. توضح هذه المقالة كيفية تصفية بيانات الجدول المحوري باستخدام مرشحات التسمية والتاريخ والقيم وأعلى 10، وكذلك عبر إخفاء عناصر الجدول المحوري أو إظهارها.
+keywords: Aspose.Cells, مكتبة C++, جدول بيانات, جدول محوري, تصفية, مرشح التسمية, مرشح القيمة, مرشح التاريخ, مرشح أعلى 10, عنصر جدول محوري, إخفاء عنصر جدول محوري
 type: docs
 weight: 10
 url: /ar/cpp/filter-by-label-or-value-of-pivot-table/
@@ -11,23 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-توفر Aspose.Cells خمس استراتيجيات عملية لتصفية البيانات المعروضة في الجدول المحوري. يمكنك تطبيق مرشحات التسمية على حقول الصفوف أو الأعمدة المستندة إلى نص، أو استخدام مرشحات التاريخ عندما يحتوي الحقل على خلايا التاريخ والوقت فقط أو خلايا فارغة، أو تطبيق مرشحات القيمة على الأرقام المجمعة، أو استخدام مرشحات أعلى 10 للترتيب حسب حقل قيمة، أو إخفاء عناصر الجدول المحوري الفردية وإظهارها يدويًا باستخدام الخاصية `IsHidden`. تتوفر كل استراتيجية عبر واجهات API مخصصة في الصنفين `PivotField` و`PivotItem`.
+يوفر Aspose.Cells خمس استراتيجيات عملية لتصفية البيانات المعروضة في الجدول المحوري. يمكنك تطبيق مرشحات التسمية على حقول الصفوف أو الأعمدة التي تعتمد على النص، أو استخدام مرشحات التاريخ عندما يحتوي الحقل على خلايا التاريخ والوقت فقط أو خلايا فارغة، أو تطبيق مرشحات القيم على الأرقام المجمعة، أو استخدام مرشحات أعلى 10 لترتيب النتائج بحسب حقل قيمة، أو إخفاء عناصر الجدول المحوري الفردية وإظهارها يدويًا باستخدام الخاصية `IsHidden`. تتوفر كل استراتيجية من خلال واجهة API مخصصة في كل من الصنفين `PivotField` و`PivotItem`.
 {{% /alert %}}
 
 ## **مقدمة**
-تُعد الجداول المحورية أدوات تحليلية قوية، لكن الملخصات الخام غالبًا ما تحتوي على معلومات أكثر بكثير مما يلزم لعرضه. التصفية هي الآلية الأساسية لتضييق نطاق الجدول المحوري بحيث لا يشمل إلا الصفوف أو الأعمدة أو القيم المهمة لتقرير معين. يتيح Aspose.Cells for C++ إمكانات التصفية المتاحة في Microsoft Excel برمجيًا، مما يتيح أتمتة إنشاء التقارير بالكامل.
-استراتيجيات التصفية التالية موضحة في هذه المقالة:
-1. **مرشح التسمية** — يصفية عناصر حقول الصف أو العمود استنادًا إلى تسمياتها النصية.
-2. **مرشح التاريخ** — يصفية حقول الصف أو العمود التي لا تحتوي إلا على قيم التاريخ والوقت أو القيم الفارغة.
-3. **مرشح القيمة** — يصفية العناصر استنادًا إلى القيم المجمعة لحقل بيانات.
-4. **مرشح أعلى 10** — يعرض فقط أعلى N عناصر أو أدناها، مرتبة حسب حقل قيمة.
-5. **إخفاء / إظهار عناصر الجدول المحوري** — التحكم يدويًا في رؤية كل عنصر فردي في الحقل.
-تستخدم كل طريقة اسمًا مختلفًا للأسلوب في `PivotField` أو خاصية في `PivotItem`. نظرًا لأن تطبيق المرشح يغيّر طريقة العرض أو التخطيط، يجب استدعاء `CalculateData()` على الجدول المحوري حتى تعكس البيانات المخزنة مؤقتًا والقيم المحسوبة حالة المرشح الجديدة. وإذا تغيرت بيانات المصدر، استخدم `pivotTable.PivotCache.Refresh()` لتحديث ذاكرة التخزين المؤقت.
+الجداول المحورية أدوات تحليلية قوية، لكن الملخصات الخام غالبًا ما تحتوي على معلومات أكثر بكثير مما يلزم لعرضه. التصفية هي الآلية الأساسية لتضييق الجدول المحوري بحيث يقتصر على الصفوف أو الأعمدة أو القيم المهمة في تقرير معين. يوفر Aspose.Cells for C++ إمكانات تصفية مماثلة لما يتوفر في Microsoft Excel، ويتيح الوصول إليها برمجيًا لأتمتة إنشاء التقارير بالكامل.
+استراتيجيات التصفية التي يتناولها هذا المقال هي:
+1. **مرشح التسمية** — تصفية عناصر حقل الصف أو العمود بناءً على تسمياتها النصية.
+2. **مرشح التاريخ** — تصفية حقول الصف أو العمود التي تحتوي على قيم التاريخ والوقت فقط (أو خلايا فارغة).
+3. **مرشح القيمة** — تصفية العناصر بناءً على القيم المجمعة لحقل بيانات.
+4. **مرشح أعلى 10** — عرض أفضل N عناصر أو أدنى N عناصر فقط، مرتبة بحسب حقل قيمة.
+5. **إخفاء / إظهار عناصر الجدول المحوري** — التحكم يدويًا في ظهور كل عنصر فردي في الحقل.
+تستخدم كل مقاربة عنصر API مختلفًا: دالة في الصنف `PivotField` أو خاصية في الصنف `PivotItem`. بعد تطبيق أي مرشح، يجب استدعاء `GetPivotCache().Refresh()` على الجدول المحوري حتى تعكس البيانات المخزنة مؤقتًا والقيم المحسوبة حالة المرشح الجديدة.
 
 ## **مرشح التسمية**
-يسمح مرشح التسمية بتصفية عناصر حقل صف أو عمود بمقارنة تسمياتها النصية بنمط. يكون هذا مفيدًا عندما تريد عرض المنتجات التي تبدأ أسماؤها بحرف معين فقط، أو تحتوي على كلمة معينة، أو تطابق أي معيار آخر قائم على التسمية.
-توفر Aspose.Cells تصفية التسمية من خلال أسلوب `PivotField.FilterByLabel(PivotFilterType, const char16_t*)`. يضم التعداد `PivotFilterType` قيمًا مثل `CaptionBeginsWith` و`CaptionContains` و`CaptionEndsWith` و`CaptionDoesNotContain` و`CaptionIsNotBlank` و`CaptionIsBlank` وغيرها. ويوفر الوسيط الثاني سلسلة التسمية المستخدمة في المقارنة.
-يحمّل المثال التالي مصنفًا يحتوي على جدول محوري موجود، ويطبق مرشح تسمية بحيث لا تظهر إلا العناصر التي تبدأ تسمياتها ببادئة محددة، ثم يحدّث الجدول المحوري ويحفظ النتيجة.
+يتيح لك مرشح التسمية تصفية عناصر حقل الصف أو العمود بمقارنة تسمياته النصية بنمط. ويكون ذلك مفيدًا عندما تريد عرض المنتجات التي تبدأ أسماؤها بحرف محدد فقط، أو التي تحتوي على كلمة معينة، أو التي تطابق أي معيار آخر قائم على التسمية.
+يوفر Aspose.Cells تصفية التسمية من خلال الطريقة `PivotField.FilterByLabel(PivotFilterType, const char16_t*)`. يتضمن تعداد `PivotFilterType` قيمًا مثل `CaptionBeginsWith` و`CaptionContains` و`CaptionEndsWith` و`CaptionDoesNotContain` و`CaptionIsNotBlank` و`CaptionIsBlank` وغيرها. وتوفر الوسيطة الثانية سلسلة التسمية المستخدمة في المقارنة.
+يحمّل المثال التالي مصنفًا يحتوي على جدول محوري، ويطبق مرشح تسمية بحيث تظل العناصر التي تبدأ تسمياتها ببادئة محددة ظاهرة فقط، ثم يحدّث الجدول المحوري ويحفظ النتيجة.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -37,19 +37,19 @@ int main() {
     Aspose::Cells::Startup();
     U16String fileName(u"sample.xlsx");
     U16String prefix(u"B");
-    // تحميل مصنف العمل الحالي الذي يحتوي على جدول محوري
+    // Load the existing workbook containing a pivot table
     Workbook wb(fileName);
-    // الوصول إلى ورقة العمل حسب الفهرس (ورقة العمل الأولى)
+    // Access the worksheet by index (first worksheet)
     Worksheet ws = wb.GetWorksheets().Get(0);
-    // الوصول إلى الجدول المحوري حسب الفهرس
+    // Access the pivot table by index
     PivotTable pt = ws.GetPivotTables().Get(0);
-    // استرداد حقل الصف الأول PivotField
+    // Retrieve the first row PivotField
     PivotField rowField = pt.GetRowFields().Get(0);
-    // تطبيق مرشح التسميات — عرض عناصر الصف فقط التي تبدأ تسمياتها بالبادئة المقدمة
+    // Apply the label filter — show only row items whose labels begin with the supplied prefix
     rowField.FilterByLabel(PivotFilterType::CaptionBeginsWith, prefix, U16String(u""));
-    // تحديث بيانات الجدول المحوري وإعادة حسابها حتى يصبح المرشح ساري المفعول
-    pt.RefreshData();
-    // حفظ مصنف العمل على القرص
+    // Refresh and recalculate the pivot table data so the filter takes effect
+    pt.GetPivotCache().Refresh();
+    // Save the workbook back to disk
     wb.Save(fileName);
     Aspose::Cells::Cleanup();
     return 0;
@@ -57,12 +57,12 @@ int main() {
 ```
 
 ## **مرشح التاريخ**
-تتيح مرشحات التاريخ تضييق نطاق الجدول المحوري وفق معايير تستند إلى التاريخ، مثل اليوم أو الأسبوع الماضي أو الشهر الحالي أو الربع التالي أو نطاق تاريخ محدد. وهي مرشحات متخصصة تعمل فقط مع الحقول التي تخزن معلومات التاريخ والوقت.
+تتيح لك مرشحات التاريخ تضييق جدول محوري وفق معايير قائمة على التاريخ، مثل اليوم أو الأسبوع الماضي أو الشهر الحالي أو الربع التالي أو نطاق تاريخ محدد. وهي مرشحات متخصصة تعمل فقط مع الحقول التي تخزن معلومات التاريخ والوقت.
 
 {{% alert color="primary" %}}
-لا يعمل مرشح التاريخ إلا عندما تحتوي منطقة الصفوف أو الأعمدة على خلايا التاريخ والوقت فقط أو على قيم فارغة. إذا احتوى الحقل الأساسي على أنواع بيانات أخرى، مثل الأرقام أو النصوص، فلن ينتج مرشح التاريخ النتيجة المتوقعة. تأكد من تنسيق الحقل كتاريخ ومن أن جميع القيم إما نسخ صالحة من `DateTime` أو خلايا فارغة قبل تطبيق هذا المرشح.
-توفر Aspose.Cells تصفية التاريخ من خلال أسلوب `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)`. يحتوي التعداد `PivotFilterType` على قيم تاريخية مخصصة مثل `Today` و`Yesterday` و`LastWeek` و`ThisWeek` و`NextWeek` و`LastMonth` و`ThisMonth` و`NextMonth` و`LastQuarter` و`ThisQuarter` و`NextQuarter` و`LastYear` و`ThisYear` و`NextYear` و`Between`. وبحسب نوع المرشح المحدد، تمرر قيمة `DateTime` واحدة أو قيمتين؛ أما في حالة `Between`، فتمرر تاريخ البداية وتاريخ النهاية.
-يحمّل المثال التالي مصنفًا يحتوي على جدول محوري تقع في منطقة صفوفه حقل تاريخ، ويطبق مرشح تاريخ يقيّد العناصر الظاهرة بنطاق تاريخ محدد، ثم يحدّث الجدول المحوري ويحفظ المصنف.
+لا يعمل مرشح التاريخ إلا عندما تحتوي منطقة الصف أو العمود على خلايا التاريخ والوقت فقط أو قيم فارغة. إذا احتوى الحقل المصدر على أنواع بيانات أخرى، مثل الأرقام أو النصوص، فلن يُنتج مرشح التاريخ النتيجة المتوقعة. تأكد من تنسيق الحقل كتاريخ، وأن تكون جميع القيم إما نسخًا صالحة من `DateTime` أو خلايا فارغة، قبل تطبيق هذا المرشح.
+يوفر Aspose.Cells تصفية التاريخ من خلال الطريقة `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)`. ويحتوي تعداد `PivotFilterType` على قيم تاريخية مخصصة مثل `Today` و`Yesterday` و`LastWeek` و`ThisWeek` و`NextWeek` و`LastMonth` و`ThisMonth` و`NextMonth` و`LastQuarter` و`ThisQuarter` و`NextQuarter` و`LastYear` و`ThisYear` و`NextYear` و`Between`. وبناءً على نوع المرشح المحدد، تمرر قيمة `DateTime` واحدة أو قيمتَي `DateTime`، وفي حالة `Between`، تمرر تاريخي البداية والنهاية.
+يحمّل المثال التالي مصنفًا يحتوي على جدول محوري، ويطبّق مرشح تاريخ على حقل تاريخ موجود في منطقة الصفوف، بحيث يقصر العناصر الظاهرة على نطاق تاريخ محدد، ثم يحدّث الجدول المحوري ويحفظ المصنف.
 {{% /alert %}}
 
 ```cpp
@@ -77,25 +77,26 @@ int main() {
     std::string outputPath = "output_filtered.xlsx";
     if (!std::filesystem::exists(inputPath))
     {
-        // لم يتم العثور على مصنف المصدر.
+        // Source workbook not found.
         Aspose::Cells::Cleanup();
         return -1;
     }
-    // تحميل مصنف العمل الموجود الذي يحتوي على جدول المحور
+    // Load the existing workbook that contains the pivot table
     Workbook workbook(U16String(inputPath.c_str()));
-    // الوصول إلى ورقة العمل التي تحتوي على جدول المحور (حسب الفهرس)
+    // Access the worksheet that holds the pivot table (by index)
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // الوصول إلى جدول المحور حسب الفهرس
+    // Access the pivot table by index
     PivotTable pivotTable = worksheet.GetPivotTables().Get(0);
-    // استرجاع حقل التاريخ PivotField من منطقة الصفوف
+    // Retrieve the date PivotField from the row area
     PivotField dateField = pivotTable.GetRowFields().Get(0);
-    // تحديد معيار التاريخ لمرشح Between
+    // Define the date criterion for the Between filter
     Date startDate{2020, 1, 1, 0, 0, 0, 0};
     Date endDate{2020, 12, 31, 0, 0, 0, 0};
-    // تطبيق مرشح التاريخ على حقل المحور
+    // Apply the date filter on the pivot field
     dateField.FilterByDate(PivotFilterType::DateBetween, startDate, endDate);
-    // تحديث جدول المحور وإعادة حسابه حتى يسري المرشح
-    // حفظ مصنف العمل
+    // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
+    // Persist the workbook
     workbook.Save(U16String(outputPath.c_str()));
     Aspose::Cells::Cleanup();
     return 0;
@@ -103,9 +104,9 @@ int main() {
 ```
 
 ## **مرشح القيمة**
-تعمل مرشحات القيمة على القيم المجمعة التي يحسبها الجدول المحوري في منطقة البيانات. بدلاً من مطابقة التسميات النصية، تقارن الإجماليات الرقمية بحد. ومن أمثلة الاستخدامات النموذجية عرض المنتجات التي يزيد مجموع مبيعاتها عن مبلغ محدد فقط، أو المناطق التي يقع عدد معاملاتها ضمن نطاق محدد فقط.
-توفر Aspose.Cells تصفية القيمة من خلال أسلوب `PivotField.FilterByValue(PivotField valueField, PivotFilterType filterType, const Vector<Variant>& values)`. يستخدم الوسيط `filterType` قيمًا مثل `ValueGreaterThan` و`ValueLessThan` و`ValueBetween` و`ValueEqual` و`ValueNotEqual` و`ValueGreaterThanOrEqual` و`ValueLessThanOrEqual`. ويحدد الوسيط `valueField` حقل البيانات الذي يجب تقييمه، وتوفر الوسائط الأخيرة قيمة الحد أو قيمه.
-يحمّل المثال التالي مصنفًا يحتوي على جدول محوري، ويطبق مرشح قيمة يُبقي على العناصر التي تتجاوز مبيعاتها المجمعة حدًا رقميًا فقط، ثم يحدّث الجدول المحوري ويحفظ المصنف.
+تعمل مرشحات القيم على القيم المجمعة التي يحسبها الجدول المحوري في منطقة البيانات. بدلاً من مطابقة التسميات النصية، تقارن هذه المرشحات الإجماليات الرقمية بحد معين. ومن أمثلة استخدامها عرض المنتجات التي يزيد مجموع مبيعاتها عن مبلغ مستهدف، أو المناطق التي يقع عدد معاملاتها ضمن نطاق محدد.
+يوفر Aspose.Cells تصفية القيم من خلال الطريقة `PivotField.FilterByValue(PivotField valueField, PivotFilterType filterType, const Vector<Variant>& values)`. تستخدم الوسيطة `filterType` قيمًا مثل `ValueGreaterThan` و`ValueLessThan` و`ValueBetween` و`ValueEqual` و`ValueNotEqual` و`ValueGreaterThanOrEqual` و`ValueLessThanOrEqual`. وتحدد الوسيطة `valueField` حقل البيانات الذي ستُقيَّم قيمه، وتوفر الوسيطة أو الوسيطتان النهائيتان قيمة أو قيم الحد.
+يحمّل المثال التالي مصنفًا يحتوي على جدول محوري، ويطبق مرشح قيمة لا يُبقي إلا العناصر التي تتجاوز مبيعاتها المجمعة حدًا رقميًا، ثم يحدّث الجدول المحوري ويحفظ المصنف.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -134,6 +135,8 @@ int main() {
     {
         rowField.FilterByValue(dataFieldIndex, PivotFilterType::ValueGreaterThan, 5000, DBL_MAX);
     }
+    // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     wb.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -141,12 +144,12 @@ int main() {
 ```
 
 ## **مرشح أعلى 10**
-مرشح أعلى 10 هو شكل متخصص من مرشح القيمة يحتفظ فقط بأعلى N عناصر أو أدناها استنادًا إلى حقل قيمة محدد. ويستخدم عادةً في تقارير الترتيب مثل «أعلى 10 منتجات حسب الإيرادات» أو «أدنى 5 مناطق حسب عدد المبيعات».
+مرشح أعلى 10 هو شكل متخصص من مرشح القيمة، ولا يحتفظ إلا بعدد N من العناصر الأعلى أو الأدنى، استنادًا إلى حقل قيمة محدد. ويُستخدم عادةً في تقارير الترتيب مثل «أفضل 10 منتجات حسب الإيرادات» أو «أدنى 5 مناطق حسب عدد المبيعات».
 
 {{% alert color="primary" %}}
-لا يكون مرشح أعلى 10 فعالًا إلا عندما يحتوي الجدول المحوري على حقل قيمة واحد أو أكثر في منطقة البيانات. من دون حقل قيمة واحد على الأقل، لا يوجد مقياس مجمع يمكن لترتيب العناصر استنادًا إليه، ولا يمكن تطبيق المرشح.
-تكشف Aspose.Cells عن تصفية أفضل 10 من خلال الطريقة `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)`. المعلمة `valueFieldIndex` هي فهرس حقل البيانات الذي تُرتَّب العناصر حسب قيمه المجمعة، وتحدد `type` وحدة `itemCount` (`PivotFilterType::Count` تحتفظ بعدد ثابت من العناصر، و`PivotFilterType::Percent` تحتفظ بنسبة مئوية من العناصر بحيث تكون `itemCount` هي النسبة المئوية نفسها)، وتشير `isTop` إلى ما إذا كان سيتم الاحتفاظ بأعلى العناصر (true) أم أدناها (false)، وتحدد `itemCount` عدد العناصر أو النسبة المئوية المطلوب الاحتفاظ بها.
-يحمّل المثال التالي مصنفًا يحتوي على جدول محوري يضم حقل قيمة، ويطبق مرشح أعلى 10 للاحتفاظ بأعلى 10 عناصر فقط استنادًا إلى مجموع المبيعات، ثم يحدّث الجدول المحوري ويحفظ المصنف.
+لا يكون مرشح أعلى 10 فعالًا إلا عندما يحتوي الجدول المحوري على حقل قيمة واحد أو أكثر في منطقة البيانات. فبدون حقل قيمة واحد على الأقل، لا يوجد مقياس مجمع يمكن ترتيب العناصر بناءً عليه، ولا يمكن تطبيق المرشح.
+يوفر Aspose.Cells تصفية أعلى 10 من خلال الطريقة `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)`. تمثل الوسيطة `valueFieldIndex` فهرس حقل البيانات الذي تُرتَّب العناصر وفق قيمه المجمعة، ويحدد `type` وحدة احتساب `itemCount` (يحتفظ `PivotFilterType::Count` بعدد ثابت من العناصر، بينما يحتفظ `PivotFilterType::Percent` بنسبة من العناصر بحيث تكون `itemCount` هي النسبة نفسها)، وتشير `isTop` إلى ما إذا كان ينبغي الاحتفاظ بالعناصر الأعلى (`true`) أو الأدنى (`false`)، ويحدد `itemCount` عدد العناصر أو النسبة المئوية التي يجب الاحتفاظ بها.
+يحمّل المثال التالي مصنفًا يحتوي على جدول محوري يتضمن حقل قيمة، ويطبق مرشح أعلى 10 للإبقاء على أعلى 10 عناصر فقط بحسب مجموع المبيعات، ثم يحدّث الجدول المحوري ويحفظ المصنف.
 {{% /alert %}}
 
 ```cpp
@@ -168,15 +171,17 @@ int main() {
     PivotField rowField = pivotTable.GetRowFields().Get(0);
     int valueFieldIndex = 0;
     rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
+    // Refresh the pivot table data and recalculate it so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     workbook.Save(outputPath);
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-## **التصفية بإخفاء عناصر الجدول المحوري أو إظهارها**
-بالإضافة إلى واجهات API للتصفية المهيكلة، تتيح Aspose.Cells التحكم مباشرة في رؤية كل عنصر من عناصر الجدول المحوري. ومن خلال التكرار في المجموعة `PivotItems` الخاصة بالحقل `PivotField` وتبديل الخاصية `IsHidden`، يمكنك استبعاد عناصر محددة بشكل انتقائي دون تطبيق مرشح قائم على صيغة. يؤدي تعيين `IsHidden = true` إلى إخفاء العنصر من الجدول المحوري، بينما يؤدي تعيين `IsHidden = false` إلى إظهاره وجعله ظاهرًا مرة أخرى.
-يفيد هذا الأسلوب عندما تكون قاعدة التصفية غير منتظمة أو خاصة بعناصر محددة، مثل إخفاء عدد قليل من الفئات ذات الأسماء المحددة التي لا ينبغي أن تظهر في تقرير معين. يحمّل المثال التالي جدولًا محوريًا، ويخفي عنصرًا محددًا بالاسم، ويوضح كيفية إظهاره، ثم يحدّث الجدول المحوري ويحفظ المصنف.
+## **التصفية حسب إخفاء عناصر الجدول المحوري أو إظهارها**
+إلى جانب واجهات API المخصصة للتصفية، يتيح لك Aspose.Cells التحكم مباشرة في ظهور كل عنصر فردي في الجدول المحوري. ومن خلال التكرار عبر مجموعة `PivotItems` الخاصة بـ `PivotField` وتبديل الخاصية `IsHidden`، يمكنك إخفاء عناصر محددة بشكل انتقائي من دون تطبيق مرشح قائم على صيغة. عند تعيين `IsHidden = true`، يُخفى العنصر من الجدول المحوري؛ وعند تعيين `IsHidden = false`، يُعاد إظهاره ويصبح مرئيًا مرة أخرى.
+يفيد هذا النهج عندما تكون قاعدة التصفية غير منتظمة أو خاصة بعنصر معين، مثل إخفاء عدد قليل من الفئات محددة الاسم التي لا ينبغي أن تظهر في تقرير معين. يحمّل المثال التالي جدولًا محوريًا، ويخفي عنصرًا محددًا بالاسم، ويوضح كيفية إظهاره، ثم يحدّث الجدول المحوري ويحفظ المصنف.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -185,36 +190,36 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // تحميل مصنف موجود يحتوي على جدول محوري
+    // Load an existing workbook containing a pivot table
     Workbook workbook(u"pivot_table_sample.xlsx");
-    // الوصول إلى ورقة العمل الأولى التي تحتوي على الجدول المحوري
+    // Access the first worksheet which contains the pivot table
     Worksheet sheet = workbook.GetWorksheets().Get(0);
-    // الوصول إلى الجدول المحوري حسب الفهرس (أول جدول محوري في ورقة العمل)
+    // Access the pivot table by index (the first pivot table on the sheet)
     PivotTable pivotTable = sheet.GetPivotTables().Get(0);
-    // استرجاع حقل PivotField الهدف (حقل تسمية الصف الأول الذي سنخفي عناصره أو نظهرها فيه)
+    // Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
     PivotField pivotField = pivotTable.GetRowFields().Get(0);
-    // التكرار عبر مجموعة PivotItems الخاصة بحقل PivotField المحدد
+    // Iterate through the PivotItems collection of the selected PivotField
     int itemCount = pivotField.GetPivotItems().GetCount();
     for (int i = 0; i < itemCount; i++)
     {
         PivotItem item = pivotField.GetPivotItems().Get(i);
         U16String name = item.GetName();
         std::string nameStr = name.ToUtf8();
-        // إخفاء عناصر الجدول المحوري التي تطابق اسمًا/معيارًا محددًا
+        // Hide pivot items that match a specific name/criterion
         if (nameStr == "Item1" || nameStr == "Item2")
         {
             item.SetIsHidden(true);
         }
-        // إعادة إظهار عنصر جدول محوري كان مخفيًا سابقًا
+        // Demonstrate unhiding: re-show a previously hidden pivot item
         if (nameStr == "Item3")
         {
             item.SetIsHidden(false);
         }
     }
-    // تحديث الجدول المحوري وإعادة حسابه حتى تسري التغييرات
-    pivotTable.CalculateData();
-    // حفظ المصنف — تظل العناصر المخفية في البيانات الأساسية
-    // لكن يتم استبعادها من إخراج الجدول المحوري المعروض
+    // Refresh and recalculate the pivot table so changes take effect
+    pivotTable.GetPivotCache().Refresh();
+    // Save the workbook — hidden items stay in the underlying data
+    // but are excluded from the displayed pivot table output
     workbook.Save(u"output_pivot_filtered.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -222,13 +227,13 @@ int main() {
 ```
 
 ## **الملخص**
-توفر Aspose.Cells for C++ مجموعة كاملة من إمكانات تصفية الجداول المحورية بما يطابق ما يتوفر في Microsoft Excel. تغطي مرشحات التسمية والتاريخ والقيمة أكثر السيناريوهات التحليلية شيوعًا، بينما تتولى مرشحات أعلى 10 تقارير الترتيب. عندما تكون قاعدة التصفية غير منتظمة، توفر الخاصية `PivotItem.IsHidden` حلًا بديلًا مرنًا على مستوى العنصر. إن دمج هذه الاستراتيجيات — مثل تطبيق مرشح تسمية ثم إخفاء عناصر محددة — يتيح لك إنشاء تقارير جداول محورية دقيقة وموجهة بالكامل عبر التعليمات البرمجية.
+يوفر Aspose.Cells for C++ مجموعة كاملة من إمكانات تصفية الجداول المحورية، تطابق ما يتوفر في Microsoft Excel. تغطي مرشحات التسمية والتاريخ والقيم أكثر سيناريوهات التحليل شيوعًا، بينما يعالج مرشح أعلى 10 تقارير الترتيب. وعندما تكون قاعدة التصفية غير منتظمة، توفر الخاصية `PivotItem.IsHidden` بديلًا مرنًا على مستوى العنصر. ويمكن الجمع بين هذه الاستراتيجيات، مثل تطبيق مرشح تسمية ثم إخفاء عناصر محددة، لإنشاء تقارير جداول محورية مصممة بدقة من خلال التعليمات البرمجية وحدها.
 
-## مقالات ذات صلة
+## المقالات ذات الصلة
 - [إدراج جدول محوري](/cells/ar/cpp/create-pivot-table/)
 - [إضافة حقول الصفوف والأعمدة إلى جدول محوري في Aspose.Cells for C++](/cells/ar/cpp/pivot-table-add-row-and-column-fields/)
 - [إضافة حقول التصفية إلى جدول محوري في Aspose.Cells for C++](/cells/ar/cpp/add-page-field-in-pivot-table/)
-- [إدارة حقول القيم في جدول محوري في Aspose.Cells for C++](/cells/ar/cpp/manage-value-fields/)
-- [تحديث الجداول المحورية ومخازنها في Aspose.Cells for C++](/cells/ar/cpp/refresh-pivot-table/)
+- [إدارة حقول قيم الجدول المحوري في Aspose.Cells for C++](/cells/ar/cpp/manage-value-fields/)
+- [تحديث الجداول المحورية وذاكرات التخزين المؤقت الخاصة بها في Aspose.Cells for C++](/cells/ar/cpp/refresh-pivot-table/)
 
 {{< app/cells/assistant language="cpp" >}}

@@ -40,34 +40,34 @@ namespace SparklineDemo
     {
         public static void Main()
         {
-            // Passo 1: Crea una cartella di lavoro e ottieni il primo foglio di lavoro
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
             Cells cells = worksheet.Cells;
-            // Passo 2: Scrivi i valori di esempio 5, -3, 8, -2, 6 nelle celle A1:E1
+            // Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
             cells["A1"].PutValue(5);
             cells["B1"].PutValue(-3);
             cells["C1"].PutValue(8);
             cells["D1"].PutValue(-2);
             cells["E1"].PutValue(6);
-            // Passo 3: Costruisci un CellArea che punta alla cella di destinazione F1
+            // Step 3: Build a CellArea pointing to destination cell F1
             CellArea dest = new CellArea();
-            dest.StartColumn = 5;   // colonna F (indicizzata da 0)
+            dest.StartColumn = 5;   // column F (0-indexed)
             dest.EndColumn = 5;
-            dest.StartRow = 0;      // riga 1 (indicizzata da 0)
+            dest.StartRow = 0;      // row 1 (0-indexed)
             dest.EndRow = 0;
-            // Passo 4: Aggiungi una sparkline di tipo Line da A1:E1 in F1
-            // SparklineGroups.Add restituisce l'indice del gruppo appena aggiunto
+            // Step 4: Add a Line sparkline from A1:E1 into F1
+            // SparklineGroups.Add returns the index of the newly added group
             int index = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, dest);
             SparklineGroup group = worksheet.SparklineGroups[index];
-            // Passo 5: Crea un CellsColor rosso e assegnalo al colore della linea della sparkline
+            // Step 5: Create a red CellsColor and assign it to the sparkline line color
             CellsColor red = workbook.CreateCellsColor();
             red.Color = System.Drawing.Color.Red;
             group.SeriesColor = red;
-            // Passo 6: Abilita i marcatori del punto massimo e del punto minimo
+            // Step 6: Enable high-point and low-point markers
             group.ShowHighPoint = true;
             group.ShowLowPoint = true;
-            // Passo 7: Salva la cartella di lavoro
+            // Step 7: Save the workbook
             workbook.Save("output_line.xlsx");
         }
     }
@@ -96,28 +96,28 @@ namespace SparklineDemo
     {
         static void Main(string[] args)
         {
-            // Passo 1: Crea una cartella di lavoro e ottieni il primo foglio di lavoro
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            // Passo 2: Scrivi valori di esempio in A1:E1
+            // Step 2: Write sample values into A1:E1
             int[] values = { 5, -3, 8, -2, 6 };
             for (int i = 0; i < values.Length; i++)
             {
                 worksheet.Cells[0, i].PutValue(values[i]);
             }
-            // Passo 3: Costruisci un CellArea che punta a F1 (indice colonna 5, indice riga 0)
+            // Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
             CellArea dest = new CellArea();
             dest.StartColumn = 5;
             dest.EndColumn = 5;
             dest.StartRow = 0;
             dest.EndRow = 0;
-            // Passo 4: Aggiungi uno sparkline di tipo colonna alla cella di destinazione
+            // Step 4: Add a Column sparkline to the destination cell
             int idx = worksheet.SparklineGroups.Add(
                 SparklineType.Column, "A1:E1", false, dest);
             SparklineGroup group = worksheet.SparklineGroups[idx];
-            // Passo 5: Conferma il tipo di sparkline leggendo group.Type
+            // Step 5: Confirm the sparkline type by reading group.Type
             Console.WriteLine("Sparkline Type added: " + group.Type);
-            // Passo 6: Salva la cartella di lavoro
+            // Step 6: Save the workbook
             workbook.Save("output_column.xlsx");
             Console.WriteLine("Workbook saved as output_column.xlsx");
         }
@@ -146,51 +146,51 @@ namespace SparklineDemo
     {
         static void Main(string[] args)
         {
-            // Passo 1: Crea una cartella di lavoro e ottieni il primo foglio di lavoro
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
             worksheet.Name = "WinLoss";
-            // Passo 2: Popola i dati di esempio nella riga 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
+            // Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
             worksheet.Cells["A1"].PutValue(5);
             worksheet.Cells["B1"].PutValue(-3);
             worksheet.Cells["C1"].PutValue(8);
             worksheet.Cells["D1"].PutValue(-2);
             worksheet.Cells["E1"].PutValue(6);
-            // Passo 3: Costruisci un CellArea che punta a F1 (colonna 5, riga 0)
+            // Step 3: Build a CellArea pointing to F1 (column 5, row 0)
             CellArea dest = new CellArea();
             dest.StartColumn = 5;   // F
             dest.EndColumn = 5;
-            dest.StartRow = 0;      // riga 1
+            dest.StartRow = 0;      // row 1
             dest.EndRow = 0;
-            // Passo 4: Aggiungi uno sparkline Win/Loss (SparklineType.Stacked)
+            // Step 4: Add a Win/Loss sparkline (SparklineType.Stacked)
             int groupIndex = worksheet.SparklineGroups.Add(
                 SparklineType.Stacked,
                 "A1:E1",
                 false,
                 dest);
             SparklineGroup group = worksheet.SparklineGroups[groupIndex];
-            // Passo 5: Personalizza il gruppo di sparkline
-            // Abilita i marcatori dei punti alti e bassi
+            // Step 5: Customize the sparkline group
+            // Enable high-point and low-point markers
             group.ShowHighPoint = true;
             group.ShowLowPoint = true;
             group.ShowNegativePoints = true;
-            // Imposta il colore del punto alto su verde
+            // Set the high-point color to green
             CellsColor highColor = workbook.CreateCellsColor();
             highColor.Color = System.Drawing.Color.Green;
             group.HighPointColor = highColor;
-            // Imposta il colore del punto basso su rosso
+            // Set the low-point color to red
             CellsColor lowColor = workbook.CreateCellsColor();
             lowColor.Color = System.Drawing.Color.Red;
             group.LowPointColor = lowColor;
-            // Imposta il colore del punto negativo su arancione
+            // Set the negative-point color to orange
             CellsColor negColor = workbook.CreateCellsColor();
             negColor.Color = System.Drawing.Color.Orange;
             group.NegativePointsColor = negColor;
-            // Imposta il colore predefinito della serie (usato per le barre positive)
+            // Set the default series color (used for positive bars)
             CellsColor seriesColor = workbook.CreateCellsColor();
             seriesColor.Color = System.Drawing.Color.SteelBlue;
             group.SeriesColor = seriesColor;
-            // Passo 6: Salva la cartella di lavoro
+            // Step 6: Save the workbook
             workbook.Save("output_winloss.xlsx");
             Console.WriteLine("Workbook saved successfully: output_winloss.xlsx");
         }
@@ -205,16 +205,16 @@ L'esempio combinato di seguito crea una singola cartella di lavoro, popola la ri
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Charts;
-// Step 1: Creare una cartella di lavoro e ottenere il primo foglio di lavoro
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Step 2: Popolare i dati di esempio nella riga 1 (A1:E1)
+// Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.Cells["A1"].PutValue(5);
 worksheet.Cells["B1"].PutValue(-3);
 worksheet.Cells["C1"].PutValue(8);
 worksheet.Cells["D1"].PutValue(-2);
 worksheet.Cells["E1"].PutValue(6);
-// Step 3: Aggiungere un gruppo di sparkline di tipo Linea in F1
+// Step 3: Add a Line sparkline group at F1
 CellArea lineArea = new CellArea();
 lineArea.StartColumn = 5;
 lineArea.EndColumn = 5;
@@ -222,11 +222,11 @@ lineArea.StartRow = 0;
 lineArea.EndRow = 0;
 int lineIdx = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, lineArea);
 SparklineGroup lineGroup = worksheet.SparklineGroups[lineIdx];
-// Personalizzare il colore della sparkline di tipo Linea tramite CellsColor
+// Customize the line sparkline color via CellsColor
 CellsColor lineColor = workbook.CreateCellsColor();
 lineColor.Color = System.Drawing.Color.Blue;
 lineGroup.SeriesColor = lineColor;
-// Step 4: Aggiungere un gruppo di sparkline di tipo Colonna in F2
+// Step 4: Add a Column sparkline group at F2
 CellArea columnArea = new CellArea();
 columnArea.StartColumn = 5;
 columnArea.EndColumn = 5;
@@ -234,11 +234,11 @@ columnArea.StartRow = 1;
 columnArea.EndRow = 1;
 int columnIdx = worksheet.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, columnArea);
 SparklineGroup columnGroup = worksheet.SparklineGroups[columnIdx];
-// Personalizzare il colore della serie della sparkline di tipo Colonna
+// Customize the column sparkline series color
 CellsColor columnColor = workbook.CreateCellsColor();
 columnColor.Color = System.Drawing.Color.Green;
 columnGroup.SeriesColor = columnColor;
-// Step 5: Aggiungere un gruppo di sparkline Win/Loss (Stacked) in F3
+// Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 CellArea stackedArea = new CellArea();
 stackedArea.StartColumn = 5;
 stackedArea.EndColumn = 5;
@@ -246,11 +246,11 @@ stackedArea.StartRow = 2;
 stackedArea.EndRow = 2;
 int stackedIdx = worksheet.SparklineGroups.Add(SparklineType.Stacked, "A1:E1", false, stackedArea);
 SparklineGroup stackedGroup = worksheet.SparklineGroups[stackedIdx];
-// Personalizzare il colore della serie della sparkline win/loss
+// Customize the win/loss sparkline series color
 CellsColor stackedColor = workbook.CreateCellsColor();
 stackedColor.Color = System.Drawing.Color.DarkOrange;
 stackedGroup.SeriesColor = stackedColor;
-// Step 6: Salvare la cartella di lavoro
+// Step 6: Save the workbook
 workbook.Save("output_all.xlsx");
 ```
 

@@ -41,19 +41,19 @@ Excel admite dos capas distintas de contraseña. La primera es una contraseña p
 ```csharp
 using System;
 using Aspose.Cells;
-// Crear un nuevo libro desde cero
+// Create a new workbook from scratch
 Workbook workbook = new Workbook();
-// Escribir un valor de ejemplo en la celda A1 de la primera hoja de cálculo
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
-// Configurar la protección contra escritura: establecer la contraseña de modificación y el autor
+// Configure the write protection: set the password to modify and the author
 workbook.Settings.WriteProtection.Password = "ModifyPwd";
 workbook.Settings.WriteProtection.Author = "AuthorName";
-// Guardar el libro para que la protección contra escritura se conserve
+// Save the workbook so the write protection is persisted
 workbook.Save("WriteProtectedWorkbook.xlsx");
-// Validar la contraseña de modificación usando la contraseña correcta
+// Validate the password to modify using the correct password
 bool isCorrectValid = workbook.Settings.WriteProtection.ValidatePassword("ModifyPwd");
 Console.WriteLine("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// Validar la contraseña de modificación usando una contraseña incorrecta para demostrar la otra rama
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 bool isWrongValid = workbook.Settings.WriteProtection.ValidatePassword("WrongPwd");
 Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -64,22 +64,22 @@ La protección de la estructura del libro impide que otros usuarios visualicen h
 ```csharp
 using System;
 using Aspose.Cells;
-// Crear un nuevo libro
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Agregar una segunda hoja de cálculo
+// Add a second worksheet
 workbook.Worksheets.Add();
-// Escribir un valor de muestra en la celda A1 de la primera hoja de cálculo
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells[0, 0].PutValue("Sample Data");
-// Proteger la estructura del libro
+// Protect the workbook structure
 workbook.Protect(ProtectionType.Structure, "StructPwd");
-// Guardar el libro como structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 string filePath = "structure_protected.xlsx";
 workbook.Save(filePath);
-// Recargar el archivo en una nueva instancia de Workbook
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// Eliminar la protección de estructura
+// Remove the structure protection
 loadedWorkbook.Unprotect("StructPwd");
-// Imprimir mensaje de confirmación
+// Print confirmation message
 Console.WriteLine("Structure protection has been successfully removed from the workbook.");
 ```
 

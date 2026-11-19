@@ -1,6 +1,6 @@
 ---
 title: Mostrar o filtrar los 10 principales en una tabla dinámica
-linktitle: Mostrar o filtrar los 10 principales en una tabla dinámica
+linktitle: Mostrar o filtrar top 10
 description: Aprenda a mostrar únicamente los elementos mejor o peor clasificados de un campo de una tabla dinámica en Aspose.Cells for Node.js mediante Java. Este artículo explica el método Top10AutoShow de Excel 97-2003, cómo leer las opciones con Top10AutoShowSettings y el filtro de los 10 principales de Excel 2007-365 mediante FilterTop10.
 keywords: Aspose.Cells, Node.js mediante Java, tabla dinámica, 10 principales, mostrar automáticamente, top10AutoShow, getTop10AutoShowSettings, PivotFieldTop10AutoShowSettings, filterTop10, PivotFilterType, PivotField, JavaScript
 type: docs

@@ -95,16 +95,16 @@ Aspose.Cells также предоставляет более простой м�
 ```csharp
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
-// Получить целевую ячейку C6
+// Get the target cell C6
 var cell = worksheet.Cells["C6"];
-// Считать файл изображения в массив байтов
+// Read the image file into a byte array
 byte[] imageData = File.ReadAllBytes("logo.png");
-// Встроить изображение непосредственно в ячейку
+// Embed the image directly into the cell
 cell.EmbeddedImage = imageData;
-// При необходимости настроить высоту строки и ширину столбца, чтобы встроенное изображение было более заметным
-worksheet.Cells.SetColumnWidth(2, 30);   // Столбец C (индекс 2)
-worksheet.Cells.SetRowHeight(5, 100);     // Строка 6 (индекс 5)
-// Сохранить полученную рабочую книгу как файл .xlsx
+// Optionally adjust row height and column width so the embedded image is more visible
+worksheet.Cells.SetColumnWidth(2, 30);   // Column C (index 2)
+worksheet.Cells.SetRowHeight(5, 100);     // Row 6 (index 5)
+// Save the resulting workbook as an .xlsx file
 workbook.Save("output.xlsx", SaveFormat.Xlsx);
 ```
 

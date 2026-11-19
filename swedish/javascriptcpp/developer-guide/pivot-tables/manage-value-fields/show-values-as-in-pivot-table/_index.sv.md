@@ -1,8 +1,8 @@
 ---
 title: Visa värden som i pivottabell
 linktitle: Visa värden som i pivottabell
-description: Visa pivottabellens datafältvärden som en procentandel av totalen, en skillnad från ett basobjekt, löpande totaler, rangordningar och mer med Aspose.Cells for JavaScript via C++.
-keywords: Aspose.Cells, JavaScript via C++, pivottabell, visa värden som, data visningsformat, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex
+description: Visa pivottabellens datavärden som en procent av totalen, en skillnad från ett basobjekt, löpande totaler, ranking och mer med Aspose.Cells for JavaScript via C++.
+keywords: Aspose.Cells, JavaScript via C++, pivottabell, visa värden som, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, showValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /sv/javascript-cpp/show-values-as-in-pivot-table/
@@ -11,49 +11,53 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Möjliga användningsscenarier**
-En pivottabell aggregerar normalt varje datafält med en aggregatfunktion som `Sum` eller `Count`. Excels funktion **Show Values As** ersätter varje visat resultat med en sekundär beräkning hämtad från den aggregationen — till exempel en procentandel av totalen, en löpande total, en skillnad från ett valt basobjekt eller en rang — så att du kan utföra jämförande analys utan hjälprelaterade formler eller beräknade kolumner.  
-Vanliga användningsområden inkluderar andels‑analys av totalen, inklusive procentsatser för rad, kolumn eller total; kumulativ rapportering med en löpande total i ett periodfält; variansanalys mot ett referensobjekt med skillnad från eller procentuell skillnad från ett basobjekt; samt rangordning av värden från minsta till största eller största till minsta.  
-I Aspose.Cells for JavaScript via C++ väljer `PivotFieldDataDisplayFormat` den sekundära beräkningen. Den skrivskyddade egenskapen `PivotField.showValuesSetting` returnerar ett `PivotShowValuesSetting`‑objekt vars skrivbara egenskaper `calculationType`, `baseFieldIndex`, `baseItemPositionType` och `baseItemIndex` konfigurerar beteendet; bekvämlighetsmetoden `PivotField.showValuesAs(...)` tillämpar samma fyra inställningar i ett anrop. Applicera dessa inställningar på ett data‑ eller värdefält som erhålls från `PivotTable.dataFields`.
+En pivottabell aggregerar normalt varje värdefält med en aggregeringsfunktion som `Sum` eller `Count`. Excel‑funktionen **Show Values As** ersätter varje visat resultat med en sekundär beräkning som härrör från det aggregerade värdet — till exempel en procentsats av totalen, ett löpande total, en skillnad från ett valt basobjekt eller en ranking — så att du kan utföra jämförande analyser utan hjälpförmler eller beräknade kolumner. Vanliga användningsområden inkluderar andels‑av‑total‑analys, inklusive procentandelar av en rad, kolumn eller total; kumulativ rapportering med ett löpande total i ett periodfält; avvikelseanalys mot ett referensobjekt med skillnad från eller procentuell skillnad från ett basobjekt; samt rankning av värden från minst till störst eller omvänt.  
+I Aspose.Cells for JavaScript via C++ väljer uppräkningen `PivotShowValuesAsType` den sekundära beräkningen. Den skrivskyddade egenskapen `PivotField.showValuesSetting` returnerar ett `PivotShowValuesSetting`‑objekt, vars skrivbara egenskaper `showValuesAs`, `baseFieldIndex` och `baseItemIndex` konfigurerar beteendet; bekvämlighetsmetoden `PivotField.showValuesAs(...)` tillämpar samma inställningar i ett anrop. Applicera dessa inställningar på ett data‑ eller värdefält som erhålls från `PivotTable.dataFields`.
 
-## **PivotFieldDataDisplayFormat‑enumerationsmedlemmar**
-Datafältet behåller sin aggregatfunktion, såsom Sum eller Count, medan Show Values As bara förändrar hur det aggregerade värdet visas.  
-Förutom att skriva `PivotShowValuesSetting`‑egenskaperna direkt (se sista avsnittet) tillämpar en metod med ett anrop samma konfiguration:
+## **PivotShowValuesAsType‑uppräkningens medlemmar**
+Datavärdefältet behåller sin aggregeringsfunktion, såsom Sum eller Count, medan Show Values As bara omvandlar hur det aggregerade värdet visas. Förutom att skriva `PivotShowValuesSetting`‑egenskaperna direkt (se sista avsnittet) tillämpar en bekvämlighetsmetod i ett anrop samma konfiguration. Metoden finns i två former — en som anger basfältet och basobjektet med index och en som använder namn:
 
 ```html
-dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem);
+function showValuesAs(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
+}
+function showValuesAsByName(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
+}
+// index form: AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0
+// name form:  AsposeCells.PivotShowValuesAsType.PercentageOf, "Fruit", "Apple"
 ```
 
 | Parameter | Meaning | When It Is Required |
 | --- | --- | --- |
-| `displayFormat` | Den sekundära beräkning `PivotFieldDataDisplayFormat` som ska tillämpas. | Alltid. |
-| `baseField` | Nollbaserat index för basfältet bland pivottabellens basfält (t.ex. indexet för radfältet som basobjektet tillhör). | Endast för de sex basrelaterade formaten nedan (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfRunningTotalIn`, `PercentageOfParentTotal`); ignoreras av alla andra format. |
-| `baseItemPositionType` | Hur basobjektet väljs i förhållande till det aktuella objektet: `PivotItemPositionType.Previous`, `.Next` eller `.Custom`. | Endast för de tre basobjektformaten (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`); ignoreras av alla andra format. |
-| `baseItem` | Nollbaserat index för basobjektet. | Endast när `baseItemPositionType` är `Custom` (objektindexet väljer exakt basobjekt); ignoreras för `Previous`/`Next` och av alla icke‑basformat — skicka `0`. |
+| `showValuesAsType` | The `PivotShowValuesAsType` secondary calculation to apply. | Always. |
+| `baseField` | Zero-based index of the base field among the pivot table's base fields (for example, the index of the row field the base item belongs to), or — in the name form — the name of the base field. | The eight base-relative formats below (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, `RankSmallestToLargest`, `RankLargestToSmallest`); pass `0` (or `null` in the name form) for every other format. |
+| `baseItem` | Zero-based index of the base item, with two sentinels: -1 selects the preceding item and -2 the succeeding one (the JavaScript via C++ binding does not export the named constants — pass the literal values). The name form takes the caption of the base item instead, and `null` when the selected format needs no base item. | Only the three base-item formats (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`) evaluate the base item; the five field-relative formats (`RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, both ranks) ignore it — pass `0` or `null`. |
 
 | Calculation Type | Behavior | Base Item Parameters |
 | --- | --- | --- |
-| `Normal` | Ingen sekundär beräkning; det aggregerade värdet visas oförändrat (standard). | — |
-| `DifferenceFrom` | Visar värdet som en skillnad från värdet av ett basobjekt i ett basfält. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` only with `Custom`) |
-| `PercentageOf` | Visar värdet som en procentandel av värdet av ett basobjekt i ett basfält. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` only with `Custom`) |
-| `PercentageDifferenceFrom` | Visar värdet som den procentuella skillnaden från värdet av ett basobjekt i ett basfält. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` only with `Custom`) |
-| `RunningTotalIn` | Visar värdet som en löpande total för på varandra följande objekt i ett basfält. | `baseField` (the field whose item order drives the accumulation) |
-| `PercentageOfRow` | Visar värdet som en procentandel av radens total. | — |
-| `PercentageOfColumn` | Visar värdet som en procentandel av kolumnens total. | — |
-| `PercentageOfTotal` | Visar värdet som en procentandel av den totala totalen. | — |
-| `Index` | Visar värdet med hjälp av Excel-indexformeln ((värde * total) / (radtotal * kolumntotal)). | — |
-| `PercentageOfParentRowTotal` | Visar värdet som en procentandel av dess överordnade radtotal (för nästlade radfält). | — |
-| `PercentageOfParentColumnTotal` | Visar värdet som en procentandel av dess överordnade kolumntotal (för nästlade kolumnfält). | — |
-| `PercentageOfParentTotal` | Visar värdet som en procentandel av dess överordnade total. | `baseField` (det överordnade referensfältet) |
-| `PercentageOfRunningTotalIn` | Visar värdet som en procentandel av en löpande total i ett basfält. | `baseField` (the accumulation field) |
-| `RankSmallestToLargest` | Rangerar värdet från minsta (1) till största. | — |
-| `RankLargestToSmallest` | Rangerar värdet från största (1) till minsta. | — |
+| `Normal` | No secondary calculation; the aggregated value is displayed as is (default). | — |
+| `DifferenceFrom` | Displays the value as a difference from the value of a base item in a base field. | `baseField` + `baseItem` (an index or caption, or the previous/next sentinel) |
+| `PercentageOf` | Displays the value as a percentage of the value of a base item in a base field. | `baseField` + `baseItem` (an index or caption, or the previous/next sentinel) |
+| `PercentageDifferenceFrom` | Displays the value as the percentage difference from the value of a base item in a base field. | `baseField` + `baseItem` (an index or caption, or the previous/next sentinel) |
+| `RunningTotalIn` | Displays the value as a running total for successive items of a base field. | `baseField` (the field whose item order drives the accumulation) |
+| `PercentageOfRow` | Displays the value as a percentage of the row total. | — |
+| `PercentageOfColumn` | Displays the value as a percentage of the column total. | — |
+| `PercentageOfTotal` | Displays the value as a percentage of the grand total. | — |
+| `Index` | Displays the value using the Excel index formula ((value * grand total) / (row total * column total)). | — |
+| `PercentageOfParentRowTotal` | Displays the value as a percentage of its parent row total (for nested row fields). | — |
+| `PercentageOfParentColumnTotal` | Displays the value as a percentage of its parent column total (for nested column fields). | — |
+| `PercentageOfParentTotal` | Displays the value as a percentage of its parent total. | `baseField` (the parent field whose total is the reference) |
+| `PercentageOfRunningTotalIn` | Displays the value as a percentage of a running total in a base field. | `baseField` (the accumulation field) |
+| `RankSmallestToLargest` | Ranks the value from smallest (1) to largest. | `baseField` (the field whose items define the ranking scope) |
+| `RankLargestToSmallest` | Ranks the value from largest (1) to smallest. | `baseField` (the field whose items define the ranking scope) |
 
 {{% alert color="primary" %}}
-`showValuesAs(...)` skriver de egenskaperna i `PivotShowValuesSetting` (`calculationType`, `baseFieldIndex`, `baseItemPositionType`, `baseItemIndex`) — metoden och egendomsobjektet är två sätt att konfigurera samma tillstånd, vilket speglar basfält‑ och basobjektväljare i Excels dialogruta Show Values As.
+`showValuesAs(...)` skriver `PivotShowValuesSetting`‑egenskaperna (`showValuesAs`, `baseFieldIndex` och `baseItemIndex`) — metoden och egendomsobjektet är två sätt att konfigurera samma tillstånd, vilket speglar basfält‑ och basobjektväljare i Excels Show Values As‑dialog.
 {{% /alert %}}
 
-## **Visa värden som procentandel av totalen**
-Anropa metoden `PivotField.showValuesAs` med `PivotFieldDataDisplayFormat.PercentageOfTotal` för att konvertera varje datafältcell, inklusive totalen, till dess andel av totalen. De visade siffrorna blir därmed proportioner av hela resultatmängden. Detta format mäter varje värde endast mot totalen, så det kräver inget basfält eller basobjekt — de sista argumenten (`0`, `PivotItemPositionType.Previous`, `0`) är platshållare som formatet ignorerar, enligt tabellen ovan.
+## **Visa värden som procent av totalen**
+Anropa `PivotField.showValuesAs`‑metoden med `PivotShowValuesAsType.PercentageOfTotal` för att konvertera varje datacell, inklusive totalen, till dess andel av totalen. De visade siffrorna läses därför som proportioner av hela resultatet. Detta format mäter varje värde endast mot totalen, så det kräver inget basfält eller basobjekt — de avslutande argumenten (`0`, `0`) är platshållare som formatet ignorerar, enligt parameterbordet ovan.
 
 ```html
 <!DOCTYPE html>
@@ -79,6 +83,7 @@ Anropa metoden `PivotField.showValuesAs` med `PivotFieldDataDisplayFormat.Percen
                 console.log("Aspose.Cells initialized");
             });
             document.getElementById("runExample").addEventListener("click", async () => {
+
                 // Load or create a workbook with source data
                 const workbook = new Workbook();
                 const dataSheet = workbook.worksheets.get(0);
@@ -100,16 +105,12 @@ Anropa metoden `PivotField.showValuesAs` med `PivotFieldDataDisplayFormat.Percen
                 pivotTable.calculateData();
                 // Show the Amount data field as a percentage of the grand total with the
                 // one-call method; PercentageOfTotal takes no base item, so the trailing
-                // base arguments (0, Previous, 0) are placeholders the format ignores
+                // base arguments (0, 0) are placeholders the format ignores
                 const dataField = pivotTable.dataFields.get(0);
-                dataField.showValuesAs(
-                    AsposeCells.PivotFieldDataDisplayFormat.PercentageOfTotal,
-                    0,
-                    AsposeCells.PivotItemPositionType.Previous,
-                    0
-                );
+                dataField.showValuesAs(AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0);
                 pivotTable.calculateData();
-                // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
+                // Body now reads (underlying values are fractions, shown with the
+                // percentage format): Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById("downloadLink");
@@ -125,13 +126,13 @@ Anropa metoden `PivotField.showValuesAs` med `PivotFieldDataDisplayFormat.Percen
 ```
 
 ## **Hämta och konfigurera PivotField.showValuesSetting**
-Läs den aktuella konfigurationen via `PivotField.showValuesSetting`: den skrivskyddade egenskapen returnerar fältets `PivotShowValuesSetting`‑objekt, vars fyra egenskaper beskriver den aktiva Show Values As‑beräkningen. För att ändra konfigurationen, anropa metoden `PivotField.showValuesAs` — den skriver alla fyra inställningarna i ett anrop, så att du aldrig behöver tilldela egenskaperna en åt gången.  
-`PivotShowValuesSetting`‑objektet exponerar de fyra egenskaper som `showValuesAs` skriver:
-- `calculationType` väljer den sekundära beräkningen `PivotFieldDataDisplayFormat`.
-- `baseFieldIndex` anger det nollbaserade indexet för basfältet inom pivottabellens fält. Det används av basobjekt‑formaten.
-- `baseItemPositionType` bestämmer hur basobjektet placeras i förhållande till det aktuella objektet och accepterar `PivotItemPositionType.Next`, `PivotItemPositionType.Previous` eller `PivotItemPositionType.Custom`.
-- `baseItemIndex` anger det nollbaserade indexet för basobjektet och används när `baseItemPositionType` är `Custom`.
-Efter att ha anropat `showValuesAs`, anropa `PivotTable.calculateData()` igen så att pivottabellens kropp beräknas om och återrenderas med den uppdaterade konfigurationen.
+Läs den aktuella konfigurationen via `PivotField.showValuesSetting`: den skrivskyddade egenskapen returnerar fältets `PivotShowValuesSetting`‑objekt, vars egenskaper beskriver den aktiva Show Values As‑beräkningen. För att ändra konfigurationen, anropa `PivotField.showValuesAs`‑metoden — den skriver alla inställningar i ett anrop, så du behöver aldrig tilldela egenskaperna en åt gången.  
+`PivotShowValuesSetting`‑objektet exponerar följande tillstånd som `showValuesAs` skriver:
+- `showValuesAs` väljer den sekundära beräkningen `PivotShowValuesAsType`.
+- `baseFieldIndex` anger det nollbaserade indexet för basfältet inom pivottabellens fält. Det används av de bas‑relativa formaten.
+- `baseItemIndex` anger basobjektet: ett nollbaserat index för ett specifikt pivotelement, eller ett av två sentinelvärden — -1 för föregående element, -2 för efterföljande element (bindningen exporterar inte de namngivna konstanterna). Det används av bas‑objekt‑formaten.
+- `baseFieldName` och `baseItemCaption` är skrivskyddade vyer som rapporterar det lösta basfältets namn och basobjektets rubrik; till exempel, efter att ha valt föregående‑sentinel, returnerar `baseItemCaption` `(previous)`.
+Efter anropet av `showValuesAs`, anropa `PivotTable.calculateData()` igen så att pivottabellens kropp räknas om och renderas med den uppdaterade konfigurationen.
 
 ```html
 <!DOCTYPE html>
@@ -170,27 +171,28 @@ Efter att ha anropat `showValuesAs`, anropa `PivotTable.calculateData()` igen s�
                 // Read the current show-values settings
                 const settings = dataField.showValuesSetting;
                 const messages = [
-                    `CalculationType: ${settings.calculationType}`,
+                    `ShowValuesAs: ${settings.showValuesAs}`,
                     `BaseFieldIndex: ${settings.baseFieldIndex}`,
-                    `BaseItemPositionType: ${settings.baseItemPositionType}`,
-                    `BaseItemIndex: ${settings.baseItemIndex}`
+                    `BaseItemIndex: ${settings.baseItemIndex}`,
+                    `BaseFieldName: ${settings.baseFieldName}`,
+                    `BaseItemCaption: ${settings.baseItemCaption}`
                 ];
                 document.getElementById('result').innerHTML = messages
                     .map(message => `<p>${message}</p>`)
                     .join("");
                 // Switch to a base-item calculation with the one-call method: difference
                 // from the value of the previous item in the row field
+                // (-1 is the previous-item sentinel; the binding does not export the constant)
                 dataField.showValuesAs(
-                    AsposeCells.PivotFieldDataDisplayFormat.DifferenceFrom,
+                    AsposeCells.PivotShowValuesAsType.DifferenceFrom,
                     pivotTable.rowFields.get(0).baseIndex,
-                    AsposeCells.PivotItemPositionType.Previous,
-                    0
+                    -1
                 );
                 pivotTable.calculateData();
                 // Note: the percentage number format saved by the previous example still
                 // clings to the data field cells; the underlying values are now differences
                 // Re-read the applied configuration
-                messages.push(`CalculationType now: ${dataField.showValuesSetting.calculationType}`);
+                messages.push(`ShowValuesAs now: ${dataField.showValuesSetting.showValuesAs}`);
                 document.getElementById('result').innerHTML = messages
                     .map(message => `<p>${message}</p>`)
                     .join("");
@@ -212,6 +214,6 @@ Efter att ha anropat `showValuesAs`, anropa `PivotTable.calculateData()` igen s�
 ## **Relaterade artiklar**
 - [Hantera värdefält i pivottabell](/cells/sv/javascript-cpp/manage-value-fields/)
 - [Uppdatera pivottabell](/cells/sv/javascript-cpp/refresh-pivot-table/)
-- [Tillämpa stil på pivottabell](/cells/sv/javascript-cpp/apply-style-to-pivot-table/)
+- [Tillämpa format på pivottabell](/cells/sv/javascript-cpp/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

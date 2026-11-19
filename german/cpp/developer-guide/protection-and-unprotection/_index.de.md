@@ -77,22 +77,22 @@ Der Schutz der Arbeitsmappenstruktur verhindert, dass andere Benutzer ausgeblend
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Erstellen Sie eine neue Arbeitsmappe
+    // Create a new workbook
     Workbook workbook;
-    // Fügen Sie ein zweites Arbeitsblatt hinzu
+    // Add a second worksheet
     workbook.GetWorksheets().Add();
-    // Schreiben Sie einen Beispielwert in die Zelle A1 des ersten Arbeitsblatts
+    // Write a sample value to cell A1 of the first worksheet
     workbook.GetWorksheets().Get(0).GetCells().Get(0, 0).PutValue(u"Sample Data");
-    // Schützen Sie die Struktur der Arbeitsmappe
+    // Protect the workbook structure
     workbook.Protect(ProtectionType::Structure, u"StructPwd");
-    // Speichern Sie die Arbeitsmappe als structure_protected.xlsx
+    // Save the workbook as structure_protected.xlsx
     U16String filePath = u"structure_protected.xlsx";
     workbook.Save(filePath);
-    // Laden Sie die Datei in eine neue Workbook-Instanz
+    // Reload the file into a new Workbook instance
     Workbook loadedWorkbook(filePath);
-    // Entfernen Sie den Strukturschutz
+    // Remove the structure protection
     loadedWorkbook.Unprotect(u"StructPwd");
-    // Bestätigungsnachricht ausgeben
+    // Print confirmation message
     std::cout << "Structure protection has been successfully removed from the workbook." << std::endl;
     Aspose::Cells::Cleanup();
     return 0;

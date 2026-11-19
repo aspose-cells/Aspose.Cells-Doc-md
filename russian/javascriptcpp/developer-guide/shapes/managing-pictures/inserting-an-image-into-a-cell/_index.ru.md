@@ -159,16 +159,16 @@ Aspose.Cells также предоставляет более простой м�
             }
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // Получить целевую ячейку C6
+            // Get the target cell C6
             const cell = worksheet.cells.get("C6");
-            // Прочитать файл изображения в массив байтов
+            // Read the image file into a byte array
             const imageData = new Uint8Array(await fileInput.files[0].arrayBuffer());
-            // Встроить изображение непосредственно в ячейку
+            // Embed the image directly into the cell
             cell.embeddedImage = imageData;
-            // При желании изменить высоту строки и ширину столбца, чтобы встроенное изображение было лучше видно
-            worksheet.cells.setColumnWidth(2, 30); // Столбец C (индекс 2)
-            worksheet.cells.setRowHeight(5, 100); // Строка 6 (индекс 5)
-            // Сохранить полученную книгу в виде файла .xlsx
+            // Optionally adjust row height and column width so the embedded image is more visible
+            worksheet.cells.setColumnWidth(2, 30); // Column C (index 2)
+            worksheet.cells.setRowHeight(5, 100); // Row 6 (index 5)
+            // Save the resulting workbook as an .xlsx file
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             downloadLink.href = URL.createObjectURL(blob);

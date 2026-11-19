@@ -55,14 +55,14 @@ El siguiente ejemplo crea un libro de trabajo con un rango de origen de Fruta/A�
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Crear un nuevo libro de trabajo
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Escribir la fila de encabezado en las celdas A1:C1
+// Write header row into cells A1:C1
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// Escribir las filas de datos en las celdas A2:C9 (8 filas de datos de frutas entre 2020 y 2021)
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.Cells["A2"].PutValue("grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(50);
@@ -87,19 +87,19 @@ worksheet.Cells["C8"].PutValue(110);
 worksheet.Cells["A9"].PutValue("cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(120);
-// Agregar una tabla dinámica: rango de origen "A1:C9", celda de destino "E3", nombre
+// Add a pivot table: source range "A1:C9", destination cell "E3"
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// Asignar campos dinámicos: Fruit a Filas, Year a Columnas, Amount a Datos
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Modificar varios valores de Amount en los datos de origen para simular cambios
+// Modify several Amount values in the source data to simulate changes
 worksheet.Cells["C2"].PutValue(55);
 worksheet.Cells["C5"].PutValue(85);
 worksheet.Cells["C9"].PutValue(125);
-// Actualizar todas las tablas dinámicas / caché dinámica del libro de trabajo
+// Refresh every pivot table / pivot cache in the workbook
 workbook.RefreshAll();
-// Guardar el libro de trabajo
+// Save the workbook
 workbook.Save("output.xlsx");
 ```
 
@@ -165,11 +165,11 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
-// Escribir fila de encabezado Fruit / Year / Amount
+// Write Fruit / Year / Amount header row
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// Escribir 8 filas de datos (filas 2-9, ajustándose al rango de origen A1:C9)
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.Cells["A2"].PutValue("Grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(100);
@@ -194,21 +194,21 @@ worksheet.Cells["C8"].PutValue(350);
 worksheet.Cells["A9"].PutValue("Cherry");
 worksheet.Cells["B9"].PutValue(2021);
 worksheet.Cells["C9"].PutValue(450);
-// Agregar una tabla dinámica llamada ubicada en la celda de destino E3, con origen en A1:C9
+// Add a pivot table placed at destination cell E3, sourcing from A1:C9
 var pivotTable = worksheet.PivotTables.Add("A1:C9", 2, 4);
-// Asignar campos: Fruit a Fila, Year a Columna, Amount a Datos
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Modificar una propiedad de vista/diseño — este es un cambio solo de presentación,
-// por lo que NO requiere releer los datos de origen a través de PivotCache.Refresh().
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.Refresh().
 pivotTable.RefreshDataOnOpeningFile = false;
-// CalculateData() vuelve a renderizar la visualización de ESTA tabla dinámica (datos + estilo) desde los
-// datos ya almacenados en el PivotCache. Como los datos de origen no cambiaron,
-// no se realiza un viaje de ida y vuelta al origen — solo se recalculan los valores en caché
-// en las celdas de la hoja de cálculo.
+// CalculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.CalculateData();
-// Guardar el libro en disco
+// Save the workbook to disk
 workbook.Save("output.xlsx");
 ```
 

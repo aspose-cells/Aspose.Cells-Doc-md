@@ -1,6 +1,6 @@
 ---
 title: Excel'i OFD Formatına Dönüştürme
-linktitle: Excel'i OFD Formatına Dönüştürme
+linktitle: OFD
 description: Aspose.Cells for Node.js via Java, elektronik tablo dosyalarıyla çalışmak için Excel çalışma kitaplarını OFD (Open Fixed-layout Document) formatına dönüştürmeyi destekleyen bir elektronik tablo kitaplığıdır. Bu makale, Excel içeriği oluşturmayı ve onu OFD olarak dışa aktarmayı, ayrıca Aspose.Cells kullanarak mevcut Excel dosyalarını OFD'ye dönüştürmeyi göstermektedir.
 keywords: Aspose.Cells, Node.js Java kitaplığı üzerinden, elektronik tablo, Excel'den OFD'ye, OFD dönüşümü, SaveFormat.Ofd, sabit düzen belge, çalışma kitabı dışa aktarma
 type: docs

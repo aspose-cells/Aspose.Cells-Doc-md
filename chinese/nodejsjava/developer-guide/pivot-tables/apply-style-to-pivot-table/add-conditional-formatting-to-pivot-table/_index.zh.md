@@ -186,7 +186,7 @@ for (let i = 0; i < conditionalFormats.getCount(); i++) {
 }
 // This prints:
 // Conditional formats: 1
-// Format 0: CellValue GreaterThan formula1==200
+// Format 0: 1 2 formula1=200   (type 1 = CellValue, operator 2 = GreaterThan)
 //     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 

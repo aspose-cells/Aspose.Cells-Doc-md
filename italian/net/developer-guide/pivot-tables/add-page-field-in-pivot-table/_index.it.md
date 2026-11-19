@@ -27,15 +27,15 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Crea una nuova cartella di lavoro
+// Create a new workbook
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
 worksheet.Name = "Data";
-// Imposta la riga di intestazione
+// Set up the header row
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// Popola 9 righe di dati di esempio: Frutto, Anno, Importo
+// Populate 9 rows of sample data: Fruit, Year, Amount
 object[,] data = new object[,]
 {
     { "apple", 2020, 100 },
@@ -54,15 +54,15 @@ for (int i = 0; i < data.GetLength(0); i++)
     worksheet.Cells[i + 1, 1].PutValue(data[i, 1]);
     worksheet.Cells[i + 1, 2].PutValue(data[i, 2]);
 }
-// Aggiungi una tabella pivot ancorata alla cella E3
+// Add a pivot table anchored at cell E3
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
-// Aggiungi campi alle rispettive aree: Frutto come Riga, Importo come Dati, Anno come campo Pagina
+// Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// Aggiorna e calcola i dati della tabella pivot
+// Refresh and calculate the pivot table data
 pivotTable.CalculateData();
-// Salva la cartella di lavoro
+// Save the workbook
 workbook.Save("pageFieldSample.xlsx");
 ```
 
@@ -73,19 +73,19 @@ Quando si lavora già con un'istanza di `PivotField`, è possibile passarla dire
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// — La tabella pivot e il campo pagina vengono costruiti esattamente come nello
-//   Scenario 1a (dati Fruit/Year/Amount, pivot in E3, Fruit→Riga,
-//   Amount→Dati). Qui sotto otteniamo il PivotField Year dalla
-//   collezione BaseFields e lo passiamo a PageFields.Add — l'
-//   alternativa di basso livello ad AddFieldToArea. Il risultato è
-//   funzionalmente identico allo Scenario 1a.
+// — The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+//   Amount→Data). Below we obtain the Year PivotField from the
+//   BaseFields collection and pass it to PageFields.Add — the
+//   low-level alternative to AddFieldToArea. The result is
+//   functionally identical to Scenario 1a.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-// Intestazioni
+// Headers
 sheet.Cells["A1"].PutValue("Fruit");
 sheet.Cells["B1"].PutValue("Year");
 sheet.Cells["C1"].PutValue("Amount");
-// Dati di esempio (9 righe)
+// Sample data (9 rows)
 sheet.Cells["A2"].PutValue("apple");    sheet.Cells["B2"].PutValue("2020"); sheet.Cells["C2"].PutValue(100);
 sheet.Cells["A3"].PutValue("apple");    sheet.Cells["B3"].PutValue("2021"); sheet.Cells["C3"].PutValue(150);
 sheet.Cells["A4"].PutValue("apple");    sheet.Cells["B4"].PutValue("2022"); sheet.Cells["C4"].PutValue(200);
@@ -95,16 +95,16 @@ sheet.Cells["A7"].PutValue("grape");    sheet.Cells["B7"].PutValue("2022"); shee
 sheet.Cells["A8"].PutValue("blueberry"); sheet.Cells["B8"].PutValue("2020"); sheet.Cells["C8"].PutValue(250);
 sheet.Cells["A9"].PutValue("blueberry"); sheet.Cells["B9"].PutValue("2021"); sheet.Cells["C9"].PutValue(350);
 sheet.Cells["A10"].PutValue("blueberry");sheet.Cells["B10"].PutValue("2022"); sheet.Cells["C10"].PutValue(450);
-// Aggiunge la tabella pivot in E3 coprendo A1:C10
+// Add pivot table at E3 covering A1:C10
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
-// Fruit -> Riga, Amount -> Dati (Year andrà in Pagina qui sotto)
+// Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Approccio di basso livello: prendiamo il PivotField Year esistente dai BaseFields
-// e lo registriamo nell'area Page tramite PageFields.Add(PivotField).
+// Low-level approach: grab the existing Year PivotField from BaseFields
+// and register it in the Page area via PageFields.Add(PivotField).
 PivotField yearField = pivotTable.BaseFields["Year"];
 pivotTable.PageFields.Add(yearField);
-// Aggiorna affinché il nuovo campo pagina venga riflesso nella cartella di lavoro salvata
+// Refresh so the new page field is reflected in the saved workbook
 pivotTable.CalculateData();
 workbook.Save("output.xlsx");
 ```
@@ -123,10 +123,10 @@ class Program
 {
     static void Main()
     {
-        // Crea una nuova cartella di lavoro
+        // Create a new workbook
         Workbook workbook = new Workbook();
         Worksheet sheet = workbook.Worksheets[0];
-        // Popola i dati Frutto/Anno/Importo
+        // Populate Fruit/Year/Amount data
         sheet.Cells["A1"].PutValue("Fruit");
         sheet.Cells["B1"].PutValue("Year");
         sheet.Cells["C1"].PutValue("Amount");
@@ -146,17 +146,17 @@ class Program
                 sheet.Cells[r + 1, c].PutValue(data[r, c]);
             }
         }
-        // Crea tabella pivot in E3
+        // Create pivot table at E3
         var pivotTables = sheet.PivotTables;
         PivotTable pivotTable = pivotTables.Add("=A1:C7", 2, 4);
-        // Configura i campi pivot: Frutto→Riga, Importo→Dati, Anno→Pagina
+        // Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
         pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
         pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
         pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
         pivotTable.CalculateData();
-        // Cancella il filtro della pagina in modo che ogni elemento nel campo pagina sia visibile.
-        // 0x7FFD (decimale 32765) è il valore sentinella speciale che significa "tutti gli elementi" —
-        // equivalente a selezionare "(Tutto)" nel menu a discesa del campo pagina di Excel.
+        // Clear the page filter so every item in the page field is visible.
+        // 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+        // equivalent to selecting "(All)" in Excel's page-field dropdown.
         pivotTable.PageFields[0].CurrentPageItem = 0x7FFD;
         workbook.Save("output.xlsx");
     }
@@ -170,11 +170,11 @@ Impostare `CurrentPageItem` su un indice reale seleziona solo quell'elemento del
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Crea workbook
+// Create workbook
 var workbook = new Workbook();
 var sheet = workbook.Worksheets[0];
 var cells = sheet.Cells;
-// Aggiungi dati di esempio (Frutto/Anno/Importo)
+// Add sample data (Fruit/Year/Amount)
 cells["A1"].PutValue("Fruit");
 cells["B1"].PutValue("Year");
 cells["C1"].PutValue("Amount");
@@ -190,16 +190,16 @@ cells["C4"].PutValue("200");
 cells["A5"].PutValue("Banana");
 cells["B5"].PutValue("2021");
 cells["C5"].PutValue("250");
-// Aggiungi tabella pivot in E3
+// Add pivot table at E3
 var pivotTables = sheet.PivotTables;
 var pivotTable = pivotTables.Add("A1:C5", 2, 4);
-// Aggiungi campi: Frutto→Riga, Importo→Dati, Anno→Pagina
+// Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// Operazioni specifiche del campo Pagina
-pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = secondo elemento nell'ordine ordinato (es. "2021")
-// Aggiorna e calcola la tabella pivot
+// Page-field-specific operations
+pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = second item in sorted order (e.g. "2021")
+// Refresh and calculate pivot table
 pivotTable.CalculateData();
 workbook.Save("output.xlsx");
 ```
@@ -211,14 +211,14 @@ Il filtro a selezione multipla trasforma il menu a discesa del filtro in un elen
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// — La tabella pivot e il campo pagina sono costruiti esattamente come nello
-//   Scenario 1a (dati Frutto/Anno/Importo, pivot in E3, Frutto→Riga,
-//   Importo→Dati, Anno→Pagina tramite AddFieldToArea).
-//   Di seguito applichiamo il filtro a selezione multipla sul campo pagina.
+// — The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+//   Amount→Data, Year→Page via AddFieldToArea).
+//   Below we apply multi-select filtering on the page field.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 Cells cells = sheet.Cells;
-// Dati di esempio: Frutto | Anno | Importo
+// Sample data: Fruit | Year | Amount
 cells[0, 0].PutValue("Fruit");
 cells[0, 1].PutValue("Year");
 cells[0, 2].PutValue("Amount");
@@ -246,15 +246,15 @@ PivotTable pivotTable = pivots.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// — Abilita la selezione multipla sul campo pagina
+// — Enable multi-select on the page field
 pivotTable.PageFields[0].IsMultipleItemSelectionAllowed = true;
-// Parte A — seleziona TUTTI gli elementi (rendi visibile ogni elemento)
+// Part A — select ALL items (make every item visible)
 PivotItemCollection pivotItems = pivotTable.PageFields[0].PivotItems;
 for (int i = 0; i < pivotItems.Count; i++)
 {
     pivotItems[i].IsHidden = false;
 }
-// Parte B — seleziona solo elementi specifici per valore di origine
+// Part B — select only specific items by source value
 for (int i = 0; i < pivotItems.Count; i++)
 {
     switch (pivotItems[i].GetStringValue())

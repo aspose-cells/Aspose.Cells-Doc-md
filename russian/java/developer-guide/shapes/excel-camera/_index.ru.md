@@ -37,7 +37,7 @@ import com.aspose.cells.Worksheet;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Динамическая камера: добавить пустое изображение, связать его через формулу с A1:F10, затем обновить
+// Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 PictureCollection pictures = worksheet.getPictures();
 int index = pictures.add(10, 6, (InputStream) null);
 pictures.get(index).setFormula("A1:F10");

@@ -1,6 +1,6 @@
 ---
 title: Cámara de Excel en Aspose.Cells for Node.js via C++
-linktitle: Cámara de Excel en Aspose.Cells for Node.js via C++
+linktitle: Cámara de Excel
 description: Aprenda a usar la Cámara de Excel en Aspose.Cells for Node.js via C++ para crear una imagen dinámica vinculada a un rango de celdas que se actualiza con los datos de origen y conserva todo el formato de origen.
 keywords: Aspose.Cells, Aspose.Cells for Node.js via C++, Cámara de Excel, imagen dinámica, imagen vinculada, Picture.formula, updateSelectedValue, createRange, toImage, Buffer
 type: docs

@@ -40,17 +40,17 @@ console.log("Decrypted cell A1 value: " + decryptedWorkbook.getWorksheets().get(
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// كتابة قيمة عينة في الخلية A1 من ورقة العمل الأولى
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get("A1").putValue("Sample Data");
-// تكوين حماية الكتابة: تعيين كلمة المرور للتعديل والمؤلف
+// Configure the write protection: set the password to modify and the author
 workbook.getSettings().getWriteProtection().setPassword("ModifyPwd");
 workbook.getSettings().getWriteProtection().setAuthor("AuthorName");
-// حفظ المصنف بحيث تستمر حماية الكتابة
+// Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx");
-// التحقق من صحة كلمة المرور للتعديل باستخدام كلمة المرور الصحيحة
+// Validate the password to modify using the correct password
 let isCorrectValid = workbook.getSettings().getWriteProtection().validatePassword("ModifyPwd");
 console.log("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// التحقق من صحة كلمة المرور للتعديل باستخدام كلمة مرور غير صحيحة لإظهار الفرع الآخر
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 let isWrongValid = workbook.getSettings().getWriteProtection().validatePassword("WrongPwd");
 console.log("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -61,20 +61,20 @@ console.log("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// إضافة ورقة عمل ثانية
+// Add a second worksheet
 workbook.getWorksheets().add();
-// كتابة قيمة عينة في الخلية A1 من ورقة العمل الأولى
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// حماية بنية المصنف
+// Protect the workbook structure
 workbook.protect(AsposeCells.ProtectionType.STRUCTURE, "StructPwd");
-// حفظ المصنف باسم structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 let filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// إعادة تحميل الملف في نسخة Workbook جديدة
+// Reload the file into a new Workbook instance
 let loadedWorkbook = new AsposeCells.Workbook(filePath);
-// إلغاء حماية البنية
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// طباعة رسالة التأكيد
+// Print confirmation message
 console.log("Structure protection has been successfully removed from the workbook.");
 ```
 

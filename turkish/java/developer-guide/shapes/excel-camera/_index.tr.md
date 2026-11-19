@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Java'da Excel Kamera
-linktitle: Aspose.Cells for Java'da Excel Kamera
+linktitle: Excel Kamera
 description: Aspose.Cells for Java'da Excel Kamerası'nı kullanarak kaynak verilerle yenilenen ve tüm kaynak biçimlendirmesini koruyan bir hücre aralığına bağlı dinamik bir resim oluşturmayı öğrenin.
 keywords: Aspose.Cells, Java, Excel Kamera, dinamik resim, bağlı resim, Picture.Formula, UpdateSelectedValue, CreateRange, ToImage, ByteArrayInputStream
 type: docs

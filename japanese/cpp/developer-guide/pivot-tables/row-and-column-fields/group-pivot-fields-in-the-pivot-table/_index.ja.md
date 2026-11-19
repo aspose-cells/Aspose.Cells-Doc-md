@@ -49,24 +49,24 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // サンプルワークブックを読み込む
+    // Load the sample workbook
     Workbook wb(u"sampleGroupPivotFieldsInPivotTable.xlsx");
-    // 2番目のワークシートとそのピボットテーブルにアクセスする
+    // Access the second worksheet and its pivot table
     Worksheet ws = wb.GetWorksheets().Get(1);
     PivotTable pt = ws.GetPivotTables().Get(0);
-    // 最初の行フィールド（日付フィールド）を月と四半期でグループ化する
+    // Group the first row field (a date field) by months and quarters
     PivotFieldGroupOptions options;
     Date startDate{2008, 1, 1, 0, 0, 0, 0};
     Date endDate{2008, 9, 5, 0, 0, 0, 0};
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
-    // グループタイプを設定：月と四半期
+    // Set group types: Months and Quarters
     Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
-    // 最初の行フィールドにグループ化を適用する
+    // Apply grouping to the first row field
     PivotField rowField = pt.GetRowFields().Get(0);
     rowField.Group(options);
-    // ピボットテーブルのデータを計算し、出力ファイルを保存する
+    // Calculate the pivot table data and save the output file
     pt.CalculateData();
     wb.Save(u"outputGroupPivotFieldsInPivotTable.xlsx");
     Aspose::Cells::Cleanup();

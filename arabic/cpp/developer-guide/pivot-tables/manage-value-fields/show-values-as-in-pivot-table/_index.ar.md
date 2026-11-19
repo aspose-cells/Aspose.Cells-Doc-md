@@ -1,8 +1,8 @@
 ---
-title: إظهار القيم كـ في جدول محوري في Aspose.Cells for C++
-linktitle: إظهار القيم كـ في جدول محوري في Aspose.Cells for C++
-description: اعرض قيم حقل بيانات جدول محوري كنسبة مئوية من الإجمالي، أو كفرق عن عنصر أساسي، أو مجموع مستمر، أو ترتيب، والمزيد باستخدام Aspose.Cells for C++.
-keywords: Aspose.Cells, C++, جدول محوري, إظهار القيم كـ, تنسيق عرض البيانات, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex
+title: عرض القيم كـ في الجدول المحوري في Aspose.Cells for C++
+linktitle: عرض القيم كـ في الجدول المحوري في Aspose.Cells for C++
+description: اعرض قيم حقول بيانات الجدول المحوري كنسبة مئوية من الإجمالي، أو الفرق عن عنصر أساسي، أو إجماليات تراكمية، أو رتب، والمزيد باستخدام Aspose.Cells for C++.
+keywords: Aspose.Cells, C++, جدول محوري, عرض القيم كـ, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, ShowValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /ar/cpp/show-values-as-in-pivot-table/
@@ -10,50 +10,52 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **سيناريوهات الاستخدام الممكنة**
-عادةً ما يقوم جدول محوري بتجميع كل حقل بيانات باستخدام دالة تجميع مثل `Sum` أو `Count`. تُستبدل النتيجة المعروضة في ميزة **Show Values As** في Excel بحساب ثانوي مشتق من هذا التجميع — على سبيل المثال، نسبة مئوية من الإجمالي الكلي، أو مجموع مستمر، أو فرق عن عنصر أساسي مختار، أو رتبة — مما يتيح لك إجراء تحليل مقارن دون الحاجة إلى صيغ مساعدة أو أعمدة محسوبة.  
-تشمل الاستخدامات الشائعة تحليل حصة الإجمالي، بما في ذلك النسب المئوية للصف أو العمود أو الإجمالي الكلي؛ وإعداد تقارير تراكمية باستخدام مجموع مستمر في حقل الفترة؛ وتحليل الفرق مقابل عنصر معيار باستخدام الفرق من أو الفرق المئوي من عنصر أساسي؛ وترتيب القيم من الأصغر إلى الأكبر أو العكس.  
-في Aspose.Cells for C++، يحدد `PivotFieldDataDisplayFormat` الحساب الثانوي. تُعيد الدالة `PivotField.GetShowValuesSetting()` كائنًا من نوع `PivotShowValuesSetting`، الذي تُكوّن طرقه `SetCalculationType`، `SetBaseFieldIndex`، `SetBaseItemPositionType`، و `SetBaseItemIndex` السلوك؛ طريقة التسهيل `PivotField.ShowValuesAs(...)` تُطبق نفس الإعدادات الأربعة في استدعاء واحد. يُطبّق هذا الإعداد على حقل بيانات أو قيمة يتم الحصول عليه من `PivotTable.GetDataFields()`.
+## **سيناريوهات الاستخدام المحتملة**
+يجمع الجدول المحوري عادةً بيانات كل حقل بيانات باستخدام دالة تجميع مثل `Sum` أو `Count`. تستبدل ميزة **عرض القيم كـ** في Excel كل نتيجة معروضة بحساب ثانوي مشتق من هذا التجميع، مثل نسبة من الإجمالي الكلي، أو إجمالي تراكمي، أو الفرق عن عنصر أساسي مختار، أو رتبة؛ ما يتيح لك إجراء تحليل مقارن من دون صيغ مساعدة أو أعمدة محسوبة.
+تشمل الاستخدامات النموذجية تحليل حصة كل عنصر من الإجمالي، بما في ذلك النسب المئوية لصف أو عمود أو الإجمالي الكلي؛ وإعداد التقارير التراكمية باستخدام إجمالي تراكمي في حقل فترة؛ وتحليل التباين مقابل عنصر معياري باستخدام الفرق عن العنصر الأساسي أو نسبة الفرق عنه؛ وترتيب القيم من الأصغر إلى الأكبر أو من الأكبر إلى الأصغر.
+في Aspose.Cells for C++، يحدد تعداد `PivotShowValuesAsType` الحساب الثانوي. تعيد طريقة الوصول `PivotField.GetShowValuesSetting()` كائن `PivotShowValuesSetting`، وتهيئ طرائق `SetShowValuesAs` و`SetBaseFieldIndex` و`SetBaseItemIndex` السلوك؛ وتطبق الطريقة المختصرة `PivotField.ShowValuesAs(...)` الإعدادات نفسها في استدعاء واحد. طبّق هذه الإعدادات على حقل بيانات أو حقل قيم تم استرجاعه من `PivotTable.GetDataFields()`.
 
-## **قائمة أعضاء تعداد PivotFieldDataDisplayFormat**
-يحتفظ حقل البيانات بدالة التجميع الخاصة به، مثل Sum أو Count، بينما يقوم Show Values As بتحويل طريقة عرض القيمة المجمعة فقط.  
-بالإضافة إلى كتابة قيم `PivotShowValuesSetting` مباشرةً (انظر القسم الأخير)، تُطبق طريقة التسهيل ذات الاستدعاء الواحد نفس التكوين:
+## **أعضاء تعداد `PivotShowValuesAsType`**
+يحتفظ حقل البيانات بدالة التجميع، مثل `Sum` أو `Count`، بينما يغيّر **عرض القيم كـ** طريقة عرض القيمة المجمّعة فقط.
+إلى جانب كتابة قيم `PivotShowValuesSetting` مباشرةً (راجع القسم الأخير)، تتوفر طريقة مختصرة تطبق الإعداد نفسه في استدعاء واحد. وتأتي في صورتين: إحداهما تحدد الحقل الأساسي والعنصر الأساسي بالفهرس، والأخرى تحددهما بالاسم:
 
 ```cpp
-void ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int32_t baseField, PivotItemPositionType baseItemPositionType, int32_t baseItem);
+void ShowValuesAs(PivotShowValuesAsType showValuesAsType, int32_t baseField, int32_t baseItem);
+void ShowValuesAs(PivotShowValuesAsType showValuesAsType, const U16String& baseField, const U16String& baseItem);
+// index form: PivotShowValuesAsType::PercentageOfTotal, 0, 0
+// name form:  PivotShowValuesAsType::PercentageOf, u"Fruit", u"Apple"
 ```
 
 | المعامل | المعنى | متى يكون مطلوبًا |
 | --- | --- | --- |
-| `displayFormat` | الحساب الثانوي `PivotFieldDataDisplayFormat` المراد تطبيقه. | دائمًا. |
-| `baseField` | الفهرس الصفري للحقل الأساسي بين الحقول الأساسية لجدول محوري (مثال: فهرس حقل الصف الذي ينتمي إليه العنصر الأساسي). | فقط تنسيقات المرجع الستة أدناه (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfRunningTotalIn`, `PercentageOfParentTotal`)؛ يتم تجاهلها في جميع التنسيقات الأخرى. |
-| `baseItemPositionType` | طريقة اختيار العنصر الأساسي بالنسبة للعنصر الحالي: `PivotItemPositionType::Previous`، `::Next`، أو `::Custom`. | فقط تنسيقات العنصر الأساسي الثلاثة (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`)؛ يتم تجاهلها في جميع التنسيقات الأخرى. |
-| `baseItem` | الفهرس الصفري للعنصر الأساسي. | فقط عندما يكون `baseItemPositionType` هو `Custom` (يتم اختيار الفهرس لتحديد العنصر الأساسي بدقة); يتم تجاهلها عندما يكون `Previous` / `Next` وفي جميع تنسيقات غير العنصر الأساسي — مرّر `0`. |
+| `showValuesAsType` | حساب `PivotShowValuesAsType` الثانوي المطلوب تطبيقه. | دائمًا. |
+| `baseField` | فهرس يبدأ من الصفر للحقل الأساسي ضمن الحقول الأساسية للجدول المحوري، مثل فهرس حقل الصف الذي ينتمي إليه العنصر الأساسي، أو، في صيغة الاسم، اسم الحقل الأساسي. | التنسيقات الثمانية المرتبطة بالأساس أدناه (`DifferenceFrom` و`PercentageOf` و`PercentageDifferenceFrom` و`RunningTotalIn` و`PercentageOfParentTotal` و`PercentageOfRunningTotalIn` و`RankSmallestToLargest` و`RankLargestToSmallest`)؛ مرّر `0`، أو `U16String` فارغة في صيغة الاسم، لكل تنسيق آخر. |
+| `baseItem` | فهرس يبدأ من الصفر للعنصر الأساسي، مع قيمتَي إشارة خاصتين: تحدد `-1` العنصر السابق وتحدد `-2` العنصر التالي. لا يحدد C++ API أي ثوابت مسماة لقيمتَي الإشارة، لذا مرّر القيمتين حرفيتين. وتأخذ صيغة الاسم تسمية العنصر الأساسي بدلاً من ذلك، وتستخدم `U16String` فارغة عندما لا يحتاج التنسيق المحدد إلى عنصر أساسي. | تستخدم التنسيقات الثلاثة المرتبطة بالعنصر الأساسي (`DifferenceFrom` و`PercentageOf` و`PercentageDifferenceFrom`) العنصر الأساسي في الحساب، بينما تتجاهله التنسيقات الخمسة المرتبطة بالحقل (`RunningTotalIn` و`PercentageOfParentTotal` و`PercentageOfRunningTotalIn` وكلا تنسيقي الترتيب)؛ مرّر `0` أو `U16String` فارغة. |
 
-| نوع الحساب | السلوك | معلمات العنصر الأساسي |
+| نوع الحساب | السلوك | معاملات العنصر الأساسي |
 | --- | --- | --- |
-| `Normal` | لا حساب ثانوي؛ تُعرض القيمة المجمعة كما هي (افتراضي). | — |
-| `DifferenceFrom` | يعرض القيمة كفرق عن قيمة عنصر أساسي في حقل أساسي. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` فقط مع `Custom`) |
-| `PercentageOf` | يعرض القيمة كنسبة مئوية من قيمة عنصر أساسي في حقل أساسي. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` فقط مع `Custom`) |
-| `PercentageDifferenceFrom` | يعرض القيمة كفرق مئوي عن قيمة عنصر أساسي في حقل أساسي. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` فقط مع `Custom`) |
-| `RunningTotalIn` | يعرض القيمة كمجموع مستمر للعناصر المتتالية لحقل أساسي. | `baseField` (الحقل الذي يحدد ترتيب العنصر لتجميع القيم) |
-| `PercentageOfRow` | يعرض القيمة كنسبة مئوية من إجمالي الصف. | — |
-| `PercentageOfColumn` | يعرض القيمة كنسبة مئوية من إجمالي العمود. | — |
-| `PercentageOfTotal` | يعرض القيمة كنسبة مئوية من الإجمالي الكلي. | — |
-| `Index` | يعرض القيمة باستخدام صيغة الفهرس في Excel ((value * grand total) / (row total * column total)). | — |
-| `PercentageOfParentRowTotal` | يعرض القيمة كنسبة مئوية من إجمالي الصف الأب (للحقول المتداخلة). | — |
-| `PercentageOfParentColumnTotal` | يعرض القيمة كنسبة مئوية من إجمالي العمود الأب (للحقول المتداخلة). | — |
-| `PercentageOfParentTotal` | يعرض القيمة كنسبة مئوية من مجموع الأب. | `baseField` (الحقل الأصل المرجعي) |
-| `PercentageOfRunningTotalIn` | يعرض القيمة كنسبة مئوية من مجموع مستمر في حقل أساسي. | `baseField` (حقل التجميع) |
-| `RankSmallestToLargest` | يرقم القيمة من الأصغر (1) إلى الأكبر. | — |
-| `RankLargestToSmallest` | يرقم القيمة من الأكبر (1) إلى الأصغر. | — |
+| `Normal` | لا يُطبَّق أي حساب ثانوي؛ تُعرض القيمة المجمّعة كما هي، وهو السلوك الافتراضي. | — |
+| `DifferenceFrom` | يعرض القيمة بوصفها الفرق عن قيمة عنصر أساسي في حقل أساسي. | `baseField` + `baseItem`، أي فهرس أو تسمية أو قيمة إشارة للعنصر السابق/التالي |
+| `PercentageOf` | يعرض القيمة بوصفها نسبة مئوية من قيمة عنصر أساسي في حقل أساسي. | `baseField` + `baseItem`، أي فهرس أو تسمية أو قيمة إشارة للعنصر السابق/التالي |
+| `PercentageDifferenceFrom` | يعرض القيمة بوصفها النسبة المئوية للفرق عن قيمة عنصر أساسي في حقل أساسي. | `baseField` + `baseItem`، أي فهرس أو تسمية أو قيمة إشارة للعنصر السابق/التالي |
+| `RunningTotalIn` | يعرض القيمة بوصفها إجماليًا تراكميًا للعناصر المتتابعة في حقل أساسي. | `baseField`، أي الحقل الذي يحدد ترتيب عناصره عملية التراكم |
+| `PercentageOfRow` | يعرض القيمة بوصفها نسبة مئوية من إجمالي الصف. | — |
+| `PercentageOfColumn` | يعرض القيمة بوصفها نسبة مئوية من إجمالي العمود. | — |
+| `PercentageOfTotal` | يعرض القيمة بوصفها نسبة مئوية من الإجمالي الكلي. | — |
+| `Index` | يعرض القيمة باستخدام صيغة الفهرس في Excel، أي `(value * grand total) / (row total * column total)`. | — |
+| `PercentageOfParentRowTotal` | يعرض القيمة بوصفها نسبة مئوية من إجمالي صف الأصل (للحقول المتداخلة في الصفوف). | — |
+| `PercentageOfParentColumnTotal` | يعرض القيمة بوصفها نسبة مئوية من إجمالي عمود الأصل (للحقول المتداخلة في الأعمدة). | — |
+| `PercentageOfParentTotal` | يعرض القيمة بوصفها نسبة مئوية من إجمالي الحقل الأصل. | `baseField`، أي الحقل الأصل الذي يُستخدم إجماليه كمرجع |
+| `PercentageOfRunningTotalIn` | يعرض القيمة بوصفها نسبة مئوية من الإجمالي التراكمي في حقل أساسي. | `baseField`، أي حقل التراكم |
+| `RankSmallestToLargest` | يحدد رتبة القيمة من الأصغر (1) إلى الأكبر. | `baseField`، أي الحقل الذي تحدد عناصره نطاق الترتيب |
+| `RankLargestToSmallest` | يحدد رتبة القيمة من الأكبر (1) إلى الأصغر. | `baseField`، أي الحقل الذي تحدد عناصره نطاق الترتيب |
 
 {{% alert color="primary" %}}
-`ShowValuesAs(...)` تكتب القيم لكائن `PivotShowValuesSetting` (`CalculationType`، `BaseFieldIndex`، `BaseItemPositionType`، `BaseItemIndex`) — الطريقة وكائن الإعدادات يمثلان طريقتين لتكوين الحالة نفسها، مما يعكس أدوات اختيار الحقل الأساسي والعنصر الأساسي في مربع حوار Show Values As في Excel.
+`ShowValuesAs(...)` يكتب قيم `PivotShowValuesSetting` (`ShowValuesAs` و`BaseFieldIndex` و`BaseItemIndex`)، وتُعد الطريقة وكائن الإعداد طريقتين لتهيئة الحالة نفسها، بما يعكس أداتَي تحديد الحقل الأساسي والعنصر الأساسي في مربع حوار **عرض القيم كـ** في Excel.
 {{% /alert %}}
 
-## **إظهار القيم كنسبة مئوية من الإجمالي**
-استدعِ طريقة `PivotField.ShowValuesAs` مع `PivotFieldDataDisplayFormat::PercentageOfTotal` لتحويل كل خلية في حقل البيانات، بما في ذلك الإجمالي الكلي، إلى حصتها من الإجمالي الكلي. لذلك تُقرأ الأرقام المعروضة على أنها نسب من مجموعة النتائج الكاملة. هذا التنسيق يقيس كل قيمة مقارنة بالإجمالي الكلي فقط، لذا لا تحتاج إلى حقل أساسي أو عنصر أساسي — المعاملات الأخيرة (`0`، `PivotItemPositionType::Previous`، `0`) هي مجرد حجز موضع يتجاهله التنسيق، كما يُوضح جدول المعاملات أعلاه.
+## **عرض القيم كنسبة مئوية من الإجمالي**
+استدعِ طريقة `PivotField.ShowValuesAs` مع `PivotShowValuesAsType::PercentageOfTotal` لتحويل كل خلية في حقل البيانات، بما في ذلك الإجمالي الكلي، إلى حصتها من الإجمالي الكلي. لذلك تُعرض الأرقام بوصفها نِسبًا من مجموعة النتائج الكاملة. يقيس هذا التنسيق كل قيمة مقارنةً بالإجمالي الكلي فقط، لذا لا يحتاج إلى حقل أساسي أو عنصر أساسي؛ وتُعد الوسائط الأخيرة (`0`، `0`) قيمًا نائبة يتجاهلها التنسيق، كما يوضح جدول المعاملات أعلاه.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -82,9 +84,9 @@ int main() {
     pivotTable.CalculateData();
     // Show the Amount data field as a percentage of the grand total with the
     // one-call method; PercentageOfTotal takes no base item, so the trailing
-    // base arguments (0, Previous, 0) are placeholders the format ignores
+    // base arguments (0, 0) are placeholders the format ignores
     PivotField dataField = pivotTable.GetDataFields().Get(0);
-    dataField.ShowValuesAs(PivotFieldDataDisplayFormat::PercentageOfTotal, 0, PivotItemPositionType::Previous, 0);
+    dataField.ShowValuesAs(PivotShowValuesAsType::PercentageOfTotal, 0, 0);
     pivotTable.CalculateData();
     // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
     workbook.Save(u"ShowValuesAsPercentageOfTotal.xlsx");
@@ -93,14 +95,14 @@ int main() {
 }
 ```
 
-## **قراءة وتكوين PivotField.ShowValuesSetting**
-اقرأ التكوين الحالي عبر `PivotField.GetShowValuesSetting()`؛ تُعيد الدالة كائن `PivotShowValuesSetting` الخاص بالحقل، الذي تصف طرقه الأربعة للوصول القيم النشطة لـ Show Values As. لتغيير التكوين، استدعِ طريقة `PivotField.ShowValuesAs` — فهي تُكتب جميع الإعدادات الأربعة في استدعاء واحد، لذا لا تحتاج إلى تعيين القيم واحدةً تلو الأخرى.  
-يُظهر كائن `PivotShowValuesSetting` القيم الأربعة التي تُكتبها `ShowValuesAs`:
-- `GetCalculationType()` / `SetCalculationType()` يحددان الحساب الثانوي `PivotFieldDataDisplayFormat`.  
-- `GetBaseFieldIndex()` / `SetBaseFieldIndex()` يحددان الفهرس الصفري للحقل الأساسي داخل الحقول المحورية. يُستخدم في تنسيقات المرجع.  
-- `GetBaseItemPositionType()` / `SetBaseItemPositionType()` يحددان موضع العنصر الأساسي بالنسبة للعنصر الحالي ويقبلان `PivotItemPositionType::Next`، `PivotItemPositionType::Previous`، أو `PivotItemPositionType::Custom`.  
-- `GetBaseItemIndex()` / `SetBaseItemIndex()` يحددان الفهرس الصفري للعنصر الأساسي ويُستخدمان عندما يكون نوع الموضع هو `Custom`.  
-بعد استدعاء `ShowValuesAs`، استدعِ `PivotTable.CalculateData()` مرة أخرى حتى يُعاد حساب جسم الجدول المحوري وإعادة عرضه وفق التكوين المحدّث.
+## **الحصول على `PivotField.ShowValuesSetting` وتهيئته**
+اقرأ الإعداد الحالي من خلال `PivotField.GetShowValuesSetting()`: تعيد طريقة الوصول كائن `PivotShowValuesSetting` الخاص بالحقل، وتصف طرائق القراءة حساب **عرض القيم كـ** النشط. لتغيير الإعداد، استدعِ طريقة `PivotField.ShowValuesAs`؛ فهي تكتب جميع الإعدادات في استدعاء واحد، لذا لا تحتاج إلى تعيين القيم واحدًا تلو الآخر.
+يعرض كائن `PivotShowValuesSetting` حالة الإعداد التي تكتبها `ShowValuesAs`:
+- `GetShowValuesAs()` / `SetShowValuesAs()` يحددان حساب `PivotShowValuesAsType` الثانوي.
+- `GetBaseFieldIndex()` / `SetBaseFieldIndex()` يحددان الفهرس الذي يبدأ من الصفر للحقل الأساسي ضمن حقول الجدول المحوري. تُستخدم هذه القيمة في التنسيقات المرتبطة بالأساس.
+- `GetBaseItemIndex()` / `SetBaseItemIndex()` يحددان العنصر الأساسي، سواء كان فهرسًا يبدأ من الصفر لعنصر محوري محدد أو إحدى قيمتَي الإشارة، `-1` للعنصر السابق و`-2` للعنصر التالي. لا يحدد C++ API أي ثوابت مسماة لقيمتَي الإشارة. تُستخدم هذه القيمة في التنسيقات المرتبطة بالعنصر الأساسي.
+- `GetBaseFieldName()` و`GetBaseItemCaption()` يمثلان عرضين للقراءة فقط يعرضان اسم الحقل الأساسي وتسمية العنصر الأساسي كما حُدِّدتا؛ على سبيل المثال، بعد تحديد قيمة إشارة العنصر السابق، تُرجع `GetBaseItemCaption()` القيمة `(previous)`.
+بعد استدعاء `ShowValuesAs`، استدعِ `PivotTable.CalculateData()` مرة أخرى، بحيث يُعاد حساب جسم الجدول المحوري وإعادة عرضه بالإعداد المحدّث.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -114,28 +116,31 @@ int main() {
     PivotField dataField = pivotTable.GetDataFields().Get(0);
     // Read the current show-values settings
     PivotShowValuesSetting settings = dataField.GetShowValuesSetting();
-    std::cout << "CalculationType: " << static_cast<int32_t>(settings.GetCalculationType()) << std::endl;
+    std::cout << "ShowValuesAs: " << static_cast<int32_t>(settings.GetShowValuesAs()) << std::endl;
     std::cout << "BaseFieldIndex: " << settings.GetBaseFieldIndex() << std::endl;
-    std::cout << "BaseItemPositionType: " << static_cast<int32_t>(settings.GetBaseItemPositionType()) << std::endl;
     std::cout << "BaseItemIndex: " << settings.GetBaseItemIndex() << std::endl;
+    std::cout << "BaseFieldName: " << settings.GetBaseFieldName().ToUtf8() << std::endl;
+    std::cout << "BaseItemCaption: " << settings.GetBaseItemCaption().ToUtf8() << std::endl;
     // Switch to a base-item calculation with the one-call method: difference
     // from the value of the previous item in the row field
-    dataField.ShowValuesAs(PivotFieldDataDisplayFormat::DifferenceFrom,
-        pivotTable.GetRowFields().Get(0).GetBaseIndex(), PivotItemPositionType::Previous, 0);
+    // (-1 is the previous-item sentinel; no named constant exists in C++)
+    dataField.ShowValuesAs(PivotShowValuesAsType::DifferenceFrom,
+        pivotTable.GetRowFields().Get(0).GetBaseIndex(), -1);
     pivotTable.CalculateData();
     // Note: the percentage number format saved by the previous example still
     // clings to the data field cells; the underlying values are now differences
     // Re-read the applied configuration
-    std::cout << "CalculationType now: " << static_cast<int32_t>(dataField.GetShowValuesSetting().GetCalculationType()) << std::endl;
+    std::cout << "ShowValuesAs now: " << static_cast<int32_t>(dataField.GetShowValuesSetting().GetShowValuesAs()) << std::endl;
+    std::cout << "BaseItemCaption now: " << dataField.GetShowValuesSetting().GetBaseItemCaption().ToUtf8() << std::endl;
     workbook.Save(u"ShowValuesAsDifferenceFrom.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
 }
 ```
 
-## **مقالات ذات صلة**
-- [إدارة حقول القيم في جدول محوري](/cells/ar/cpp/manage-value-fields/)
-- [تحديث جدول محوري](/cells/ar/cpp/refresh-pivot-table/)
-- [تطبيق نمط على جدول محوري](/cells/ar/cpp/apply-style-to-pivot-table/)
+## **المقالات ذات الصلة**
+- [إدارة حقول القيم في الجدول المحوري](/cells/ar/cpp/manage-value-fields/)
+- [تحديث الجدول المحوري](/cells/ar/cpp/refresh-pivot-table/)
+- [تطبيق نمط على الجدول المحوري](/cells/ar/cpp/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="cpp" >}}

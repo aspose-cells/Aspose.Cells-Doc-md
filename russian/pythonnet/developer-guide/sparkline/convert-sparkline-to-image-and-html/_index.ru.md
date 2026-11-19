@@ -37,55 +37,55 @@ import aspose.cells as ac
 from aspose.cells.charts import SparklineType
 from aspose.cells.drawing import ImageType
 from aspose.cells.rendering import ImageOrPrintOptions
-# Создать новую книгу и получить доступ к первому листу
+# Create a new workbook and access the first worksheet
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# Заполнить ячейки A1:E1 примерными данными
+# Populate sample data in cells A1:E1
 worksheet.cells.get("A1").put_value(5)
 worksheet.cells.get("B1").put_value(-3)
 worksheet.cells.get("C1").put_value(8)
 worksheet.cells.get("D1").put_value(-2)
 worksheet.cells.get("E1").put_value(6)
-# Добавить группу линейных спарклайнов, привязанную к F1 (столбец 5, строка 0)
+# Add a Line sparkline group anchored at F1 (column 5, row 0)
 line_area = ac.CellArea()
 line_area.start_column = 5
 line_area.end_column = 5
 line_area.start_row = 0
 line_area.end_row = 0
 line_idx = worksheet.sparkline_groups.add(SparklineType.LINE, "A1:E1", False, line_area)
-# Добавить группу гистограммных спарклайнов, привязанную к G1 (столбец 6, строка 0)
+# Add a Column sparkline group anchored at G1 (column 6, row 0)
 column_area = ac.CellArea()
 column_area.start_column = 6
 column_area.end_column = 6
 column_area.start_row = 0
 column_area.end_row = 0
 column_idx = worksheet.sparkline_groups.add(SparklineType.COLUMN, "A1:E1", False, column_area)
-# Добавить группу спарклайнов «Выигрыш/проигрыш (с накоплением)», привязанную к H1 (столбец 7, строка 0)
+# Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 stacked_area = ac.CellArea()
 stacked_area.start_column = 7
 stacked_area.end_column = 7
 stacked_area.start_row = 0
 stacked_area.end_row = 0
 stacked_idx = worksheet.sparkline_groups.add(SparklineType.STACKED, "A1:E1", False, stacked_area)
-# Настроить параметры изображения для вывода PNG
+# Configure image options for PNG output
 image_options = ImageOrPrintOptions()
 image_options.image_type = ImageType.PNG
-# Преобразовать линейный спарклайн в изображение и встроить его в ячейку F2
+# Convert the Line sparkline to image and embed it in cell F2
 line_sp = worksheet.sparkline_groups[line_idx].sparklines[0]
 ms = BytesIO()
 line_sp.to_image(ms, image_options)
 worksheet.cells.get("F2").embedded_image = ms.getvalue()
-# Преобразовать гистограммный спарклайн в изображение и встроить его в ячейку G2
+# Convert the Column sparkline to image and embed it in cell G2
 column_sp = worksheet.sparkline_groups[column_idx].sparklines[0]
 ms = BytesIO()
 column_sp.to_image(ms, image_options)
 worksheet.cells.get("G2").embedded_image = ms.getvalue()
-# Преобразовать спарклайн «Выигрыш/проигрыш» в изображение и встроить его в ячейку H2
+# Convert the Win/Loss sparkline to image and embed it in cell H2
 stacked_sp = worksheet.sparkline_groups[stacked_idx].sparklines[0]
 ms = BytesIO()
 stacked_sp.to_image(ms, image_options)
 worksheet.cells.get("H2").embedded_image = ms.getvalue()
-# Сохранить книгу на диск
+# Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx")
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: Uppdatera pivottabeller och pivotcachar i Aspose.Cells for C++
-linktitle: Uppdatera pivottabeller och pivotcachar i Aspose.Cells for C++
+linktitle: Uppdatera pivottabeller
 description: Lär dig att uppdatera pivottabeller i Aspose.Cells for C++ med hjälp av API för pivotuppdatering i version v26.7+. Den här artikeln behandlar RefreshAll, RefreshPivotTables, PivotCache.Refresh, CalculateData och GetPivotTables med praktiska kodexempel.
 keywords: Aspose.Cells, C++, pivottabell, uppdatering, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

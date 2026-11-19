@@ -109,21 +109,21 @@ CSE-matrisformler är det klassiska Excel-sättet att utvärdera ett `TRANSPOSE`
 using System;
 using System.IO;
 using Aspose.Cells;
-// Ladda källarbetsboken med xlsx LoadOptions
+// Load the source workbook with xlsx LoadOptions
 string srcFile = "source.xlsx";
 Workbook workbook = new Workbook(srcFile, new LoadOptions(LoadFormat.Xlsx));
-// Kom åt det första kalkylbladet och dess Cells-samling
+// Access the first worksheet and its Cells collection
 Worksheet worksheet = workbook.Worksheets[0];
 Cells cells = worksheet.Cells;
-// Ställ in den klassiska CSE-matrisformeln på cell A6.
-// Formeln =TRANSPOSE(A1:D5) roterar källintervallet med 5 rader x 4 kolumner
-// till en matris med 4 rader x 5 kolumner. Det andra argumentet (4) är antalet rader
-// och det tredje argumentet (5) är antalet kolumner i den resulterande matrisen.
-// Aspose.Cells skriver CSE-matrisformelmarkeringen så att Excel utvärderar den som
-// en enstaka flercells-matrisformel, kompatibel med äldre Excel-versioner
-// (2019, 2016, 2013 etc.) som inte stöder dynamisk matrisöversvämning.
+// Set the classic CSE array formula on cell A6.
+// The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+// into a 4-row x 5-column array. The second argument (4) is the number of rows
+// and the third argument (5) is the number of columns of the resulting array.
+// Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+// a single multi-cell array formula, compatible with older Excel versions
+// (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells["A6"].SetArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-// Spara arbetsboken så att matrisformelmarkeringen bevaras
+// Save the workbook so the array-formula marker is persisted
 workbook.Save("output.xlsx");
 ```
 

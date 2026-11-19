@@ -1,6 +1,6 @@
 ---
 title: Schutz einrichten und aufheben
-linktitle: Schutz einrichten und aufheben
+linktitle: Verschlüsselung und Schutz
 description: Dieser Abschnitt beschreibt, wie Excel-Dateien mithilfe von C#-Code verschlüsselt und entschlüsselt sowie Excel-Daten geschützt werden. Behandelt werden die Dateiverschlüsselung, der Schreibschutz, der Schutz der Arbeitsmappenstruktur, der Schutz von Arbeitsblättern und digitale Signaturen.
 keywords: Aspose.Cells, .NET, verschlüsseln, entschlüsseln, Kennwort, schützen, Schutz aufheben, Arbeitsmappenschutz, Arbeitsblattschutz, schreibgeschützt, digitale Signatur, C#
 type: docs
@@ -41,19 +41,19 @@ Excel unterstützt zwei unterschiedliche Kennwortebenen. Die erste ist ein Kennw
 ```csharp
 using System;
 using Aspose.Cells;
-// Erstelle eine neue Arbeitsmappe von Grund auf
+// Create a new workbook from scratch
 Workbook workbook = new Workbook();
-// Schreibe einen Beispielwert in die Zelle A1 des ersten Arbeitsblatts
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
-// Konfiguriere den Schreibschutz: Lege das Änderungskennwort und den Autor fest
+// Configure the write protection: set the password to modify and the author
 workbook.Settings.WriteProtection.Password = "ModifyPwd";
 workbook.Settings.WriteProtection.Author = "AuthorName";
-// Speichere die Arbeitsmappe, damit der Schreibschutz beibehalten wird
+// Save the workbook so the write protection is persisted
 workbook.Save("WriteProtectedWorkbook.xlsx");
-// Validiere das Änderungskennwort mit dem richtigen Kennwort
+// Validate the password to modify using the correct password
 bool isCorrectValid = workbook.Settings.WriteProtection.ValidatePassword("ModifyPwd");
 Console.WriteLine("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// Validiere das Änderungskennwort mit einem falschen Kennwort, um den anderen Zweig zu veranschaulichen
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 bool isWrongValid = workbook.Settings.WriteProtection.ValidatePassword("WrongPwd");
 Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -64,22 +64,22 @@ Der Schutz der Arbeitsmappenstruktur verhindert, dass andere Benutzer ausgeblend
 ```csharp
 using System;
 using Aspose.Cells;
-// Erstellen Sie eine neue Arbeitsmappe
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Fügen Sie ein zweites Arbeitsblatt hinzu
+// Add a second worksheet
 workbook.Worksheets.Add();
-// Schreiben Sie einen Beispielwert in die Zelle A1 des ersten Arbeitsblatts
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells[0, 0].PutValue("Sample Data");
-// Schützen Sie die Struktur der Arbeitsmappe
+// Protect the workbook structure
 workbook.Protect(ProtectionType.Structure, "StructPwd");
-// Speichern Sie die Arbeitsmappe als structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 string filePath = "structure_protected.xlsx";
 workbook.Save(filePath);
-// Laden Sie die Datei in eine neue Workbook-Instanz
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// Entfernen Sie den Strukturschutz
+// Remove the structure protection
 loadedWorkbook.Unprotect("StructPwd");
-// Drucken Sie eine Bestätigungsnachricht
+// Print confirmation message
 Console.WriteLine("Structure protection has been successfully removed from the workbook.");
 ```
 

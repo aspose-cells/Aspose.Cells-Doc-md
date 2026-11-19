@@ -43,16 +43,16 @@ for (let i = 0; i < fruits.length; i++) {
     cells.get(i + 1, 1).putValue(years[i]);
     cells.get(i + 1, 2).putValue(amounts[i]);
 }
-// Pivot-Tabelle mit ihrer oberen linken Ecke bei E3
+// Pivot table with its top-left corner at E3
 const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Verankere das bedingte Format bei F4 (Zeile 3, Spalte 5) im Datenbereich
+// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 format.applyTo(3, 5, AsposeCells.PivotConditionFormatScopeType.DATA);
-// Regel - markiere Beträge größer als 200
+// Rule - highlight amounts greater than 200
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CELL_VALUE,
     AsposeCells.OperatorType.GREATER_THAN,
@@ -96,7 +96,7 @@ const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Zielrechteck F4:F6 (die Wertzellen ohne die Gesamtsumme)
+// Target the rectangle F4:F6 (the value cells without the grand total)
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 const cellArea = new AsposeCells.CellArea();
@@ -105,7 +105,7 @@ cellArea.StartColumn = 5;
 cellArea.EndRow = 5;
 cellArea.EndColumn = 5;
 format.addCellArea(cellArea);
-// Regel - kursiv in hellgelb für Beträge zwischen 150 und 300
+// Rule - italic on light yellow for amounts between 150 and 300
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CELL_VALUE,
     AsposeCells.OperatorType.BETWEEN,
@@ -143,13 +143,13 @@ const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Regel an das Datenfeld Amount als semantischen Bereich anhängen
+// Attach the rule to the Amount data field as a semantic region
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 const area = new AsposeCells.PivotArea(pivotTable);
 area.selectField(AsposeCells.PivotFieldType.DATA, "Amount");
 format.getPivotAreas().addPivotArea(area);
-// Regel - grauer Text für Beträge unter 150
+// Rule - grey text for amounts below 150
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CELL_VALUE,
     AsposeCells.OperatorType.LESS_THAN,
@@ -184,10 +184,10 @@ for (let i = 0; i < conditionalFormats.getCount(); i++) {
         console.log(`    rows ${area.StartRow + 1}-${area.EndRow + 1}, columns ${area.StartColumn + 1}-${area.EndColumn + 1}`);
     }
 }
-// Das wird ausgegeben:
-// Bedingte Formate: 1
-// Format 0: Zellwert GrößerAls formula1==200
-//     Zeilen 4-7, Spalten 6-6        (F4:F7, der aufgelöste Datenbereich)
+// This prints:
+// Conditional formats: 1
+// Format 0: 1 2 formula1=200   (type 1 = CellValue, operator 2 = GreaterThan)
+//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **Related Articles**

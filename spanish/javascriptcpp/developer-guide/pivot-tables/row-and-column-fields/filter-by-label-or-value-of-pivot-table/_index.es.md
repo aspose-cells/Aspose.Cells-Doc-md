@@ -1,8 +1,8 @@
 ---
-title: Filtrado de tablas dinámicas por etiqueta o valor
-description: Aspose.Cells for JavaScript via C++ ofrece capacidades integrales de filtrado de tablas dinámicas. Este artículo explica cómo filtrar datos de tablas dinámicas mediante filtros por etiqueta, filtros por fecha, filtros por valor, filtros de los 10 principales y la ocultación o visualización de elementos pivote.
-linktitle: Filtrado por etiqueta o valor
-keywords: Aspose.Cells, biblioteca de JavaScript vía C++, hoja de cálculo, tabla dinámica, filtro, filtro por etiqueta, filtro por valor, filtro por fecha, filtro de los 10 principales, elemento pivote, ocultar elemento pivote
+title: Filtrado de Tablas Dinámicas por Etiqueta o Valor
+description: Aspose.Cells for JavaScript via C++ admite capacidades completas de filtrado de Tabla Dinámica. Este artículo explica cómo filtrar los datos de una Tabla Dinámica mediante filtros de etiqueta, filtros de fecha, filtros de valor, filtros de los 10 principales y ocultando o mostrando elementos de la Tabla Dinámica.
+linktitle: Filtrado por Etiqueta o Valor
+keywords: Aspose.Cells, biblioteca de JavaScript via C++, hoja de cálculo, Tabla Dinámica, filtro, filtro de etiqueta, filtro de valor, filtro de fecha, filtro de los 10 principales, elemento de Tabla Dinámica, ocultar elemento de Tabla Dinámica
 type: docs
 weight: 10
 url: /es/javascript-cpp/filter-by-label-or-value-of-pivot-table/
@@ -11,23 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells ofrece cinco estrategias prácticas para filtrar los datos mostrados en una tabla dinámica. Puede aplicar filtros por etiqueta a campos de fila o columna basados en texto, utilizar filtros por fecha cuando el campo contenga únicamente celdas de fecha y hora o celdas vacías, aplicar filtros por valor a números agregados, utilizar filtros de los 10 principales para clasificar según un campo de valor u ocultar y mostrar manualmente elementos pivote individuales mediante la propiedad `isHidden`. Cada estrategia está disponible mediante API específicas en las clases `PivotField` y `PivotItem`.
+Aspose.Cells ofrece cinco estrategias prácticas para filtrar los datos mostrados en una Tabla Dinámica. Puede aplicar filtros de etiqueta a campos de fila o columna basados en texto, utilizar filtros de fecha cuando el campo contenga únicamente celdas de fecha y hora o valores en blanco, aplicar filtros de valor a números agregados, utilizar filtros de los 10 principales para clasificar según un campo de valores u ocultar y mostrar manualmente elementos individuales de la Tabla Dinámica mediante la propiedad `isHidden`. Cada estrategia se expone mediante API específicas en las clases `PivotField` y `PivotItem`.
 {{% /alert %}}
 
 ## **Introducción**
-Las tablas dinámicas son herramientas analíticas potentes, pero los resúmenes sin procesar suelen contener mucha más información de la que se desea presentar. El filtrado es el mecanismo principal para reducir una tabla dinámica a las filas, columnas o valores que importan para un informe concreto. Aspose.Cells for JavaScript via C++ reproduce las capacidades de filtrado disponibles en Microsoft Excel y las expone mediante programación para que la generación de informes pueda automatizarse por completo.
+Las Tablas Dinámicas son herramientas analíticas potentes, pero los resúmenes sin procesar suelen contener mucha más información de la que necesita presentar. El filtrado es el mecanismo principal para reducir una Tabla Dinámica a las filas, columnas o valores que son importantes para un informe concreto. Aspose.Cells for JavaScript via C++ replica las capacidades de filtrado disponibles en Microsoft Excel y las expone de forma programática para que la generación de informes pueda automatizarse por completo.
 Las siguientes estrategias de filtrado se explican en este artículo:
-1. **Filtro por etiqueta** — filtra los elementos de los campos de fila o columna según sus etiquetas de texto.
-2. **Filtro por fecha** — filtra los campos de fila o columna que contienen únicamente valores de fecha y hora o celdas vacías.
-3. **Filtro por valor** — filtra elementos según los valores agregados de un campo de datos.
-4. **Filtro de los 10 principales** — muestra únicamente los N elementos superiores o inferiores clasificados según un campo de valor.
-5. **Ocultar o mostrar elementos pivote** — controla manualmente la visibilidad de cada elemento individual de un campo.
-Cada enfoque utiliza un método diferente de la clase `PivotField` o una propiedad de la clase `PivotItem`. Después de aplicar cualquier filtro, debe llamar a `pivotCache.refresh()` en la tabla dinámica para que los datos en caché y los valores calculados reflejen el nuevo estado del filtro.
+1. **Filtro de etiqueta** — filtra los elementos de los campos de fila o columna en función de sus etiquetas de texto.
+2. **Filtro de fecha** — filtra los campos de fila o columna que contienen únicamente valores de fecha y hora (o valores en blanco).
+3. **Filtro de valor** — filtra los elementos en función de los valores agregados de un campo de datos.
+4. **Filtro de los 10 principales** — muestra únicamente los N elementos superiores o inferiores clasificados según un campo de valores.
+5. **Ocultar / Mostrar elementos de Tablas Dinámicas** — controla manualmente la visibilidad de cada elemento individual de un campo.
+Cada enfoque utiliza un método distinto de la clase `PivotField` o una propiedad de la clase `PivotItem`. Después de aplicar cualquier filtro, debe llamar a `pivotCache.refresh()` en la Tabla Dinámica para que los datos almacenados en caché y los valores calculados reflejen el nuevo estado del filtro.
 
-## **Filtro por etiqueta**
-Un filtro por etiqueta permite filtrar los elementos de un campo de fila o columna comparando sus rótulos de texto con un patrón. Esto resulta útil cuando desea mostrar únicamente productos cuyos nombres comiencen por una letra concreta, contengan una palabra determinada o coincidan con otro criterio basado en rótulos.
-Aspose.Cells expone el filtrado por etiqueta mediante el método `pivotField.filterByLabel(PivotFilterType filterType, string label1, string label2)`. El argumento `filterType` selecciona el modo de comparación (`CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank`, `CaptionIsBlank`, etc.). Los argumentos `label1` y `label2` proporcionan el texto de comparación; pase `""` para `label2` cuando solo necesite una coincidencia de un solo valor, por ejemplo, que comience por una secuencia o que la contenga.
-El siguiente ejemplo carga un libro de trabajo que contiene una tabla dinámica existente, aplica un filtro por etiqueta para que solo permanezcan visibles los elementos cuyos rótulos comiencen por un prefijo especificado, actualiza la tabla dinámica y guarda el resultado.
+## **Filtro de etiqueta**
+Un filtro de etiqueta permite filtrar los elementos de un campo de fila o de columna comparando sus rótulos de texto con un patrón. Esto resulta útil cuando desea mostrar únicamente productos cuyos nombres comienzan por una letra concreta, contienen una palabra determinada o cumplen algún otro criterio basado en rótulos.
+Aspose.Cells expone el filtrado por etiqueta mediante el método `pivotField.filterByLabel(PivotFilterType filterType, string label1, string label2)`. El argumento `filterType` selecciona el modo de comparación (`CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank`, `CaptionIsBlank`, etc.). Los argumentos `label1` y `label2` proporcionan el texto de comparación: pase `""` para `label2` cuando solo necesite una coincidencia de un solo valor (p. ej., que comience con o que contenga).
+El ejemplo siguiente carga un libro de trabajo que contiene una Tabla Dinámica existente, aplica un filtro de etiqueta para que solo permanezcan visibles los elementos cuyos rótulos comienzan por un prefijo especificado, actualiza la Tabla Dinámica y guarda el resultado.
 
 ```html
 <!DOCTYPE html>
@@ -62,19 +62,19 @@ El siguiente ejemplo carga un libro de trabajo que contiene una tabla dinámica 
                         result.innerHTML = '<p style="color: red;">Please select a workbook containing a pivot table.</p>';
                         return;
                     }
-                    // Cargar el libro de trabajo existente que contiene una tabla dinámica
+                    // Load the existing workbook containing a pivot table
                     const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
-                    // Acceder a la hoja de cálculo por índice (primera hoja de cálculo)
+                    // Access the worksheet by index (first worksheet)
                     const worksheet = workbook.worksheets.get(0);
-                    // Acceder a la tabla dinámica por índice
+                    // Access the pivot table by index
                     const pivotTable = worksheet.pivotTables.get(0);
-                    // Obtener el primer PivotField de fila
+                    // Retrieve the first row PivotField
                     const rowField = pivotTable.rowFields.get(0);
-                    // Aplicar el filtro de etiquetas: mostrar solo los elementos de fila cuyas etiquetas comienzan con el prefijo proporcionado
+                    // Apply the label filter — show only row items whose labels begin with the supplied prefix
                     rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, "B", "");
-                    // Actualizar y recalcular los datos de la tabla dinámica para que el filtro surta efecto
-                    pivotTable.refreshData();
-                    // Guardar el libro de trabajo de nuevo en el disco
+                    // Refresh and recalculate the pivot table data so the filter takes effect
+                    pivotTable.pivotCache.refresh();
+                    // Save the workbook back to disk
                     const outputData = workbook.save(SaveFormat.Xlsx);
                     const blob = new Blob([outputData], {
                         type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
@@ -93,13 +93,13 @@ El siguiente ejemplo carga un libro de trabajo que contiene una tabla dinámica 
 </html>
 ```
 
-## **Filtro por fecha**
-Los filtros por fecha permiten reducir una tabla dinámica según criterios basados en fechas, como hoy, la semana pasada, este mes, el próximo trimestre o un intervalo de fechas concreto. Son filtros especializados que solo funcionan con campos que almacenan información de fecha y hora.
+## **Filtro de fecha**
+Los filtros de fecha permiten reducir una Tabla Dinámica mediante criterios basados en fechas, como hoy, la semana pasada, este mes, el próximo trimestre o un intervalo de fechas concreto. Son filtros especializados que solo funcionan con campos que almacenan información de fecha y hora.
 
 {{% alert color="primary" %}}
-El filtro por fecha solo funciona cuando el área de fila o columna contiene únicamente celdas de fecha y hora o valores en blanco. Si el campo subyacente contiene otros tipos de datos, como números o texto, el filtro por fecha no producirá el resultado esperado. Asegúrese de que el campo tenga formato de fecha y de que todos los valores sean instancias válidas de `DateTime` o celdas vacías antes de aplicar este filtro.
-Aspose.Cells expone el filtrado por fecha mediante el método `pivotField.filterByDate(PivotFilterType, DateTime[] values)`. La enumeración `PivotFilterType` contiene valores de fecha específicos, como `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` y `Between`. Dependiendo del tipo de filtro seleccionado, se pasan uno o dos valores `DateTime`; para `Between`, se pasan las fechas de inicio y fin.
-El siguiente ejemplo carga un libro de trabajo con una tabla dinámica cuyo área de fila contiene un campo de fecha, aplica un filtro por fecha que restringe los elementos visibles a un intervalo de fechas concreto, actualiza la tabla dinámica y guarda el libro de trabajo.
+El filtro de fecha solo funciona cuando el área de filas o columnas contiene únicamente celdas de fecha y hora o valores en blanco. Si el campo subyacente contiene otros tipos de datos, como números o texto, el filtro de fecha no producirá el resultado esperado. Asegúrese de que el campo tenga formato de fecha y de que todos los valores sean instancias válidas de `DateTime` o celdas vacías antes de aplicar este filtro.
+Aspose.Cells expone el filtrado por fecha mediante el método `pivotField.filterByDate(PivotFilterType, DateTime[] values)`. La enumeración `PivotFilterType` contiene valores de fecha específicos, como `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` y `Between`. En función del tipo de filtro seleccionado, se pasan uno o dos valores `DateTime` (para `Between`, se pasan las fechas de inicio y fin).
+El ejemplo siguiente carga un libro de trabajo con una Tabla Dinámica cuya área de filas contiene un campo de fecha, aplica un filtro de fecha que restringe los elementos visibles a un intervalo de fechas concreto, actualiza la Tabla Dinámica y guarda el libro de trabajo.
 {{% /alert %}}
 
 ```html
@@ -134,23 +134,23 @@ El siguiente ejemplo carga un libro de trabajo con una tabla dinámica cuyo áre
                 if (!file) {
                     throw new Error("Source workbook not found.");
                 }
-                // Cargar el libro de trabajo existente que contiene la tabla dinámica
+                // Load the existing workbook that contains the pivot table
                 const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
-                // Acceder a la hoja de cálculo que contiene la tabla dinámica (por índice)
+                // Access the worksheet that holds the pivot table (by index)
                 const worksheet = workbook.worksheets.get(0);
-                // Acceder a la tabla dinámica por índice
+                // Access the pivot table by index
                 const pivotTable = worksheet.pivotTables.get(0);
-                // Obtener el campo dinámico de fecha del área de filas
-                // (El filtro de fechas solo funciona cuando el área de filas/columnas contiene únicamente celdas de fecha y hora o celdas vacías)
+                // Retrieve the date PivotField from the row area
+                // (Date filter only works when the row/column area contains only date-time cells or blanks)
                 const dateField = pivotTable.rowFields.get(0);
-                // Definir el criterio de fecha para el filtro Entre
+                // Define the date criterion for the Between filter
                 const startDate = new Date(2020, 0, 1);
                 const endDate = new Date(2020, 11, 31);
-                // Aplicar el filtro de fecha en el campo dinámico
+                // Apply the date filter on the pivot field
                 dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
-                // Actualizar y recalcular la tabla dinámica para que el filtro surta efecto
-                pivotTable.refreshData();
-                // Persistir el libro de trabajo
+                // Refresh and recalculate the pivot table so the filter takes effect
+                pivotTable.pivotCache.refresh();
+                // Persist the workbook
                 const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 downloadLink.href = URL.createObjectURL(blob);
@@ -166,10 +166,10 @@ El siguiente ejemplo carga un libro de trabajo con una tabla dinámica cuyo áre
 </html>
 ```
 
-## **Filtro por valor**
-Los filtros por valor operan sobre los valores agregados que calcula una tabla dinámica en su área de datos. En lugar de coincidir con etiquetas de texto, comparan totales numéricos con un umbral. Los casos de uso típicos incluyen mostrar únicamente productos cuya suma de ventas supere un importe objetivo o solo regiones cuyo número de transacciones se encuentre dentro de un intervalo.
-Aspose.Cells expone el filtrado por valor mediante el método `pivotField.filterByValue(int valueFieldIndex, PivotFilterType filterType, double value1, double value2)`. El parámetro `valueFieldIndex` especifica qué campo de datos se debe evaluar; utilice `pivotTable.getDataFields().indexOf(dataField)` o recorra la colección para encontrar la posición. El parámetro `filterType` utiliza valores como `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual` y `ValueLessThanOrEqual`. Los dos argumentos `double` proporcionan el valor o los valores de umbral.
-El siguiente ejemplo carga un libro de trabajo con una tabla dinámica, aplica un filtro por valor que conserva únicamente los elementos cuyas ventas agregadas superan un umbral numérico, actualiza la tabla dinámica y guarda el libro de trabajo.
+## **Filtro de valor**
+Los filtros de valor operan sobre los valores agregados que una Tabla Dinámica calcula en su área de datos. En lugar de comparar etiquetas de texto, comparan totales numéricos con un umbral. Los casos de uso habituales incluyen mostrar únicamente los productos cuya suma de ventas supera un importe objetivo o únicamente las regiones cuyo número de transacciones se sitúa dentro de un intervalo.
+Aspose.Cells expone el filtrado por valor mediante el método `pivotField.filterByValue(int valueFieldIndex, PivotFilterType filterType, double value1, double value2)`. El parámetro `valueFieldIndex` especifica qué campo de datos debe evaluarse (utilice `pivotTable.getDataFields().indexOf(dataField)` o recorra la colección para encontrar la posición). El parámetro `filterType` utiliza valores como `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual` y `ValueLessThanOrEqual`. Los dos argumentos `double` proporcionan el valor o los valores de umbral.
+El ejemplo siguiente carga un libro de trabajo con una Tabla Dinámica, aplica un filtro de valor que conserva únicamente los elementos cuyas ventas agregadas superan un umbral numérico, actualiza la Tabla Dinámica y guarda el libro de trabajo.
 
 ```html
 <!DOCTYPE html>
@@ -209,7 +209,7 @@ El siguiente ejemplo carga un libro de trabajo con una tabla dinámica, aplica u
                 const pivotTable = worksheet.pivotTables.get(0);
                 const rowField = pivotTable.rowFields.get(0);
                 const dataField = pivotTable.dataFields.get(0);
-                // Encuentra manualmente el índice del campo de datos ya que PivotFieldCollection no tiene IndexOf
+                // Find the data field index manually since PivotFieldCollection doesn't have IndexOf
                 let dataFieldIndex = -1;
                 for (let i = 0; i < pivotTable.dataFields.count; i++) {
                     if (pivotTable.dataFields.get(i) === dataField) {
@@ -225,7 +225,7 @@ El siguiente ejemplo carga un libro de trabajo con una tabla dinámica, aplica u
                         Number.MAX_VALUE
                     );
                 }
-                pivotTable.refreshData();
+                pivotTable.pivotCache.refresh();
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 downloadLink.href = URL.createObjectURL(blob);
@@ -242,12 +242,12 @@ El siguiente ejemplo carga un libro de trabajo con una tabla dinámica, aplica u
 ```
 
 ## **Filtro de los 10 principales**
-El filtro de los 10 principales es una forma especializada de filtro por valor que conserva únicamente los N elementos más altos o más bajos según un campo de valor elegido. Se utiliza habitualmente para informes de clasificación como "los 10 productos principales por ingresos" o "las 5 regiones inferiores por número de ventas".
+El filtro de los 10 principales es una forma especializada de filtro de valor que conserva únicamente los N elementos superiores o inferiores en función de un campo de valores seleccionado. Se utiliza con frecuencia para generar informes de clasificación como "10 principales productos por ingresos" o "5 regiones inferiores por número de ventas".
 
 {{% alert color="primary" %}}
-El filtro de los 10 principales solo es eficaz cuando la tabla dinámica tiene uno o más campos pivote de valor en el área de datos. Sin al menos un campo de valor, no existe una medida agregada con la que clasificar los elementos y el filtro no puede aplicarse.
-Aspose.Cells expone el filtrado de los 10 principales mediante el método `pivotField.filterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)`. El parámetro `valueFieldIndex` es el índice del campo de datos cuyos valores agregados se utilizan para clasificar los elementos; `filterType` selecciona la unidad de `itemCount` (`Count` conserva un número fijo de elementos y `Percent` conserva un porcentaje de los elementos, por lo que `itemCount` es el propio porcentaje); `isTop` indica si se deben conservar los elementos superiores (true) o inferiores (false); y `itemCount` define cuántos elementos o qué porcentaje se conservan.
-El siguiente ejemplo carga un libro de trabajo con una tabla dinámica que contiene un campo de valor, aplica un filtro de los 10 principales para conservar únicamente los 10 elementos con mayor suma de ventas, actualiza la tabla dinámica y guarda el libro de trabajo.
+El filtro de los 10 principales solo es eficaz cuando la Tabla Dinámica tiene uno o más campos de valores en el área de datos. Sin al menos un campo de valores, no existe una medida agregada con la que clasificar los elementos y el filtro no se puede aplicar.
+Aspose.Cells expone el filtrado de los 10 principales mediante el método `pivotField.filterTop10(int valueFieldIndex, PivotFilterType filterType, bool isTop, int itemCount)`. El parámetro `valueFieldIndex` es el índice del campo de datos cuyos valores agregados se utilizan para clasificar los elementos; `filterType` selecciona la unidad de `itemCount` (`Count` conserva un número fijo de elementos, mientras que `Percent` conserva un porcentaje de los elementos, por lo que `itemCount` es el propio porcentaje); `isTop` indica si se deben conservar los elementos superiores (true) o los inferiores (false); y `itemCount` define cuántos elementos o qué porcentaje se conservan.
+El ejemplo siguiente carga un libro de trabajo con una Tabla Dinámica que contiene un campo de valores, aplica un filtro de los 10 principales para conservar únicamente los 10 elementos con la mayor suma de ventas, actualiza la Tabla Dinámica y guarda el libro de trabajo.
 {{% /alert %}}
 
 ```html
@@ -283,31 +283,31 @@ El siguiente ejemplo carga un libro de trabajo con una tabla dinámica que conti
                     result.textContent = "Please select an input workbook.";
                     return;
                 }
-                // Cargar el libro de trabajo existente que contiene la tabla dinámica
+                // Load the existing workbook that contains the pivot table
                 const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
-                // Acceder a la hoja de cálculo que contiene la tabla dinámica (índice 0)
+                // Access the worksheet that holds the pivot table (index 0)
                 const worksheet = workbook.worksheets.get(0);
-                // Acceder a la tabla dinámica por índice
+                // Access the pivot table by index
                 const pivotTable = worksheet.pivotTables.get(0);
-                // Confirmar que hay al menos un campo dinámico de valor en el área de datos
+                // Confirm there is at least one value PivotField in the data area
                 if (pivotTable.dataFields.count === 0) {
                     throw new Error("Pivot table has no value (data) PivotField.");
                 }
                 const valueField = pivotTable.dataFields.get(0);
-                // Obtener el campo dinámico de fila objetivo (el campo al que se aplicará Top 10)
+                // Retrieve the target row PivotField (the field we want to apply Top 10 on)
                 const rowField = pivotTable.rowFields.get(0);
-                // El primer (y único) campo de datos está en el índice 0; Top 10 se clasifica por él.
+                // The first (and only) data field is at index 0; Top 10 ranks by it.
                 const valueFieldIndex = 0;
-                // Aplicar el filtro Top 10 al campo de fila:
-                //   - valueFieldIndex = 0 — el campo de datos utilizado para clasificar los elementos
-                //   - filterType  = PivotFilterType.Count (mantener un número fijo de elementos;
-                //     PivotFilterType.Percent interpretaría 10 como "top 10 percent")
-                //   - isTop       = true (top N; false significaría bottom N)
+                // Apply the Top 10 filter on the row field:
+                //   - valueFieldIndex = 0 — the data field used to rank items
+                //   - filterType  = PivotFilterType.Count (keep a fixed number of items;
+                //     PivotFilterType.Percent would interpret 10 as "top 10 percent")
+                //   - isTop       = true (top N; false would mean bottom N)
                 //   - itemCount   = 10
                 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
-                // Actualizar los datos de la tabla dinámica y recalcularla para que el filtro surta efecto
-                pivotTable.refreshData();
-                // Guardar el libro de trabajo
+                // Refresh the pivot table data and recalculate it so the filter takes effect
+                pivotTable.pivotCache.refresh();
+                // Save the workbook
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 downloadLink.href = URL.createObjectURL(blob);
@@ -322,9 +322,9 @@ El siguiente ejemplo carga un libro de trabajo con una tabla dinámica que conti
 </html>
 ```
 
-## **Filtrar ocultando o mostrando elementos pivote**
-Además de las API de filtrado estructurado, Aspose.Cells permite controlar directamente la visibilidad de cada elemento pivote individual. Al iterar por la colección `pivotField.getPivotItems()` de un `PivotField` y alternar la propiedad `isHidden`, puede suprimir selectivamente elementos concretos sin aplicar un filtro basado en fórmulas. Al establecer `pivotItem.isHidden = true`, el elemento se oculta de la tabla dinámica; al establecer `pivotItem.isHidden = false`, se muestra y vuelve a ser visible.
-Este enfoque resulta útil cuando la regla de filtrado es irregular o específica de cada elemento, por ejemplo, para ocultar unas pocas categorías con nombre que no deben aparecer en un informe concreto. El ejemplo siguiente carga una tabla dinámica, oculta un elemento concreto por nombre, demuestra cómo mostrarlo, actualiza la tabla dinámica y guarda el libro de trabajo.
+## **Filtrado mediante la ocultación o visualización de elementos de Tablas Dinámicas**
+Además de las API de filtrado estructurado, Aspose.Cells permite controlar directamente la visibilidad de cada elemento individual de una Tabla Dinámica. Al recorrer la colección `pivotField.getPivotItems()` de un `PivotField` y alternar el valor de la propiedad `isHidden`, puede suprimir selectivamente elementos concretos sin aplicar un filtro basado en fórmulas. Al establecer `pivotItem.isHidden = true`, el elemento se oculta de la Tabla Dinámica; al establecer `pivotItem.isHidden = false`, se muestra y vuelve a ser visible.
+Este enfoque resulta útil cuando la regla de filtrado es irregular o específica de un elemento, como ocultar un pequeño número de categorías con nombre que no deben aparecer en un informe concreto. El ejemplo siguiente carga una Tabla Dinámica, oculta un elemento concreto por nombre, demuestra cómo mostrarlo, actualiza la Tabla Dinámica y guarda el libro de trabajo.
 
 ```html
 <!DOCTYPE html>
@@ -358,31 +358,31 @@ Este enfoque resulta útil cuando la regla de filtrado es irregular o específic
                 return;
             }
             try {
-                // Cargar un libro existente que contiene una tabla dinámica
+                // Load an existing workbook containing a pivot table
                 const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
-                // Acceder a la primera hoja de cálculo que contiene la tabla dinámica
+                // Access the first worksheet which contains the pivot table
                 const sheet = workbook.worksheets.get(0);
-                // Acceder a la tabla dinámica por índice (la primera tabla dinámica de la hoja)
+                // Access the pivot table by index (the first pivot table on the sheet)
                 const pivotTable = sheet.pivotTables.get(0);
-                // Obtener el campo dinámico de destino (el primer campo de etiqueta de fila en el que ocultaremos o mostraremos elementos)
+                // Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
                 const pivotField = pivotTable.rowFields.get(0);
-                // Recorrer la colección PivotItems del campo dinámico seleccionado
+                // Iterate through the PivotItems collection of the selected PivotField
                 const itemCount = pivotField.pivotItems.count;
                 for (let i = 0; i < itemCount; i++) {
                     const item = pivotField.pivotItems.get(i);
-                    // Ocultar los elementos de la tabla dinámica que coincidan con un nombre o criterio específico
+                    // Hide pivot items that match a specific name/criterion
                     if (item.name === "Item1" || item.name === "Item2") {
                         item.isHidden = true;
                     }
-                    // Demostrar cómo volver a mostrar un elemento de tabla dinámica previamente oculto
+                    // Demonstrate unhiding: re-show a previously hidden pivot item
                     if (item.name === "Item3") {
                         item.isHidden = false;
                     }
                 }
-                // Actualizar y recalcular la tabla dinámica para que los cambios surtan efecto
-                pivotTable.refreshData();
-                // Guardar el libro: los elementos ocultos permanecen en los datos subyacentes
-                // pero se excluyen del resultado de la tabla dinámica mostrado
+                // Refresh and recalculate the pivot table so changes take effect
+                pivotTable.pivotCache.refresh();
+                // Save the workbook — hidden items stay in the underlying data
+                // but are excluded from the displayed pivot table output
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData], {
                     type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
@@ -401,6 +401,6 @@ Este enfoque resulta útil cuando la regla de filtrado es irregular o específic
 ```
 
 ## **Resumen**
-Aspose.Cells for JavaScript via C++ proporciona un conjunto completo de capacidades de filtrado de tablas dinámicas que coincide con las disponibles en Microsoft Excel. Los filtros por etiqueta, fecha y valor cubren los escenarios analíticos más comunes, mientras que el filtro de los 10 principales gestiona los informes de clasificación. Cuando la regla de filtrado es irregular, la propiedad `pivotItem.isHidden` ofrece una alternativa flexible a nivel de elemento. La combinación de estas estrategias —por ejemplo, aplicar un filtro por etiqueta y después ocultar elementos concretos— permite crear informes de tablas dinámicas dirigidos con precisión y totalmente mediante código.
+Aspose.Cells for JavaScript via C++ proporciona un conjunto completo de capacidades de filtrado de Tabla Dinámica que coinciden con las disponibles en Microsoft Excel. Los filtros de etiqueta, fecha y valor cubren los escenarios analíticos más comunes, mientras que el filtro de los 10 principales permite gestionar los informes de clasificación. Cuando la regla de filtrado es irregular, la propiedad `pivotItem.isHidden` ofrece una alternativa flexible a nivel de elemento. La combinación de estas estrategias —por ejemplo, aplicar un filtro de etiqueta y después ocultar elementos concretos— permite crear informes de Tabla Dinámica exactamente orientados por completo mediante código.
 
 {{< app/cells/assistant language="javascript-cpp" >}}

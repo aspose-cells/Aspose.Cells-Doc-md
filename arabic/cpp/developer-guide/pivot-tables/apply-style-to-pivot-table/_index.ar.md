@@ -34,12 +34,12 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // إنشاء مصنف جديد
+    // Create a new workbook
     Workbook workbook;
-    // الحصول على ورقة العمل الأولى
+    // Get the first worksheet
     Worksheet sheet = workbook.GetWorksheets().Get(0);
-    // تعبئة البيانات المصدرية مع صف الترويسة (فاكهة، سنة، كمية)
-    // و9 صفوف بيانات تغطي العنب، التوت الأزرق، الكيوي، الكرز عبر عامي 2020 و2021
+    // Populate the source data with header row (Fruit, Year, Amount)
+    // and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
     sheet.GetCells().Get(0, 0).PutValue(u"Fruit");
     sheet.GetCells().Get(0, 1).PutValue(u"Year");
     sheet.GetCells().Get(0, 2).PutValue(u"Amount");
@@ -70,14 +70,14 @@ int main() {
     sheet.GetCells().Get(9, 0).PutValue(u"grape");
     sheet.GetCells().Get(9, 1).PutValue(2020);
     sheet.GetCells().Get(9, 2).PutValue(45);
- // إضافة جدول محوري في خلية الوجهة E3، باسم ، باستخدام نطاق المصدر A1:C10
+ // Add a pivot table at destination cell E3, using source range A1:C10
     PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // تعيين الحقول: الفاكهة -> الصفوف، الكمية -> البيانات
+    // Assign fields: Fruit -> Rows, Amount -> Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // تطبيق التنسيق التلقائي المحدد مسبقًا للإصدار القديم من XLS "Report5"
+    // Apply the legacy XLS preset autoformat "Report5"
     pivotTable.SetAutoFormatType(PivotTableAutoFormatType::Report5);
-    // حفظ المصنف بتنسيق .xls القديم
+    // Save the workbook in legacy .xls format
     workbook.Save(u"output.xls");
     Aspose::Cells::Cleanup();
     return 0;
@@ -165,7 +165,7 @@ int main() {
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // تعبئة بيانات المصدر: صف الرأس + 9 صفوف بيانات (A1:C10)
+    // Populate source data: header row + 9 data rows (A1:C10)
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
@@ -196,15 +196,15 @@ int main() {
     cells.Get(u"A10").PutValue(u"Grape");
     cells.Get(u"B10").PutValue(2021);
     cells.Get(u"C10").PutValue(900);
- // إضافة جدول محوري مصدره A1:C10، مثبت عند E3، باسم
+ // Add pivot table sourced from A1:C10, anchored at E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // الخطوة 1: تسجيل نمط جدول محوري مخصص جديد والتقاط فهرسه
+    // Step 1: register a new custom pivot table style and capture its index
     int styleIndex = workbook.GetWorksheets().GetTableStyles().AddPivotTableStyle(u"CustomPivotStyle");
     TableStyle tableStyle = workbook.GetWorksheets().GetTableStyles().Get(styleIndex);
-    // الخطوة 2: إضافة عنصر WholeTable وتطبيق حدود سوداء رفيعة على الجوانب الأربعة
+    // Step 2: add a WholeTable element and apply thin black borders on all four sides
     int wholeTableElementIndex = tableStyle.GetTableStyleElements().Add(TableStyleElementType::WholeTable);
     TableStyleElement wholeTableElement = tableStyle.GetTableStyleElements().Get(wholeTableElementIndex);
     Style wholeTableStyle = workbook.CreateStyle();
@@ -217,14 +217,14 @@ int main() {
     wholeTableStyle.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
     wholeTableStyle.GetBorders().Get(BorderType::RightBorder).SetColor(Color::Black());
     wholeTableElement.SetElementStyle(wholeTableStyle);
-    // الخطوة 3: إضافة عنصر GrandTotalRow وتطبيق خط أحمر عريض
+    // Step 3: add a GrandTotalRow element and apply bold red font
     int grandTotalElementIndex = tableStyle.GetTableStyleElements().Add(TableStyleElementType::GrandTotalRow);
     TableStyleElement grandTotalElement = tableStyle.GetTableStyleElements().Get(grandTotalElementIndex);
     Style grandTotalStyle = workbook.CreateStyle();
     grandTotalStyle.GetFont().SetIsBold(true);
     grandTotalStyle.GetFont().SetColor(Color::Red());
     grandTotalElement.SetElementStyle(grandTotalStyle);
-    // الخطوة 4: تطبيق النمط المخصص بالاسم (وليس بواسطة PivotTableStyleType، وهو مخصص للإعدادات المسبقة المدمجة)
+    // Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
     pivotTable.SetPivotTableStyleName(u"CustomPivotStyle");
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
@@ -249,11 +249,11 @@ int main() {
     Aspose::Cells::Startup();
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
-    // صف الرأس
+    // Header row
     worksheet.GetCells().Get(u"A1").PutValue(u"Fruit");
     worksheet.GetCells().Get(u"B1").PutValue(u"Year");
     worksheet.GetCells().Get(u"C1").PutValue(u"Amount");
-    // صفوف البيانات
+    // Data rows
     worksheet.GetCells().Get(u"A2").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B2").PutValue(2020);
     worksheet.GetCells().Get(u"C2").PutValue(5000);
@@ -281,13 +281,13 @@ int main() {
     worksheet.GetCells().Get(u"A10").PutValue(u"Grape");
     worksheet.GetCells().Get(u"B10").PutValue(2021);
     worksheet.GetCells().Get(u"C10").PutValue(5500);
- // إضافة جدول محوري: نطاق المصدر A1:C10، خلية الوجهة E3، الاسم
+ // Add pivot table: source range A1:C10, destination cell E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // تعيين حقول الجدول المحوري
+    // Assign pivot fields
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
-    // بناء نمط سيتم فرضه على كل خلية في الجدول المحوري
+    // Build a Style that will be forced onto every cell of the pivot table
     Style style = wb.CreateStyle();
     style.SetForegroundColor(Color::Yellow());
     style.SetPattern(BackgroundType::Solid);
@@ -301,9 +301,9 @@ int main() {
     style.GetBorders().Get(BorderType::LeftBorder).SetColor(Color::Black());
     style.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
     style.GetBorders().Get(BorderType::RightBorder).SetColor(Color::Black());
-    // تطبيق FormatAll
+    // Apply FormatAll
     pivotTable.FormatAll(style);
-    // حفظ المصنف
+    // Save the workbook
     wb.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

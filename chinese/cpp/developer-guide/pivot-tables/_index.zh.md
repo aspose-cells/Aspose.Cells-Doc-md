@@ -28,17 +28,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main()
 {
     Aspose::Cells::Startup();
-
-    // 创建一个新工作簿并获取第一个工作表
+    // Create a new workbook and get the first worksheet
     Workbook workbook;
     Worksheet sheet = workbook.GetWorksheets().Get(0);
     Cells cells = sheet.GetCells();
-
-    // 写入源数据：每个运动项目和季度的销售额
+    // Write the source data: sales per sport and quarter
     cells.Get(u"A1").PutValue(u"Sport");
     cells.Get(u"B1").PutValue(u"Quarter");
     cells.Get(u"C1").PutValue(u"Sales");
@@ -63,18 +60,14 @@ int main()
     cells.Get(u"A8").PutValue(u"Golf");
     cells.Get(u"B8").PutValue(u"Qtr3");
     cells.Get(u"C8").PutValue(6430);
-
-    // 在目标单元格 E3 处添加数据透视表，数据源为 A1:C8
+    // Add a pivot table at destination cell E3, sourced from A1:C8
     PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C8", 2, 4);
-
-    // 分配数据透视表字段：将 Sport 放置在行区域，将 Quarter 放置在列区域，将 Sales 放置在数据区域
+    // Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Sport");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Quarter");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
-
-    // 保存工作簿
+    // Save the workbook
     workbook.Save(u"pivotTable_test_out.xlsx");
-
     Aspose::Cells::Cleanup();
     return 0;
 }

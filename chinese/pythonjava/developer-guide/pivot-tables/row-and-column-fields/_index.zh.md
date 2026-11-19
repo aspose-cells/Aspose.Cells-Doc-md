@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for Python via Java 中添加数据透视表的行字段和列字段
-linktitle: 在 Aspose.Cells for Python via Java 中添加数据透视表的行字段和列字段
+linktitle: 行列字段
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Python via Java.
 keywords: Aspose.Cells, Python via Java, 数据透视表, 行字段, 列字段, PivotField, setSubtotals, PivotFieldSubtotalType, 小计
 type: docs

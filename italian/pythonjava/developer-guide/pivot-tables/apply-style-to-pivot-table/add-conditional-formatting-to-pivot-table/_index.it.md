@@ -58,16 +58,16 @@ for i in range(len(fruits)):
     cells.get(i + 1, 0).putValue(fruits[i])
     cells.get(i + 1, 1).putValue(years[i])
     cells.get(i + 1, 2).putValue(amounts[i])
-# Tabella pivot con l'angolo in alto a sinistra in E3
+# Pivot table with its top-left corner at E3
 pivot_table = sheet.getPivotTables().add("=A1:C7", 2, 4)
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivot_table.calculateData()
-# Ancorare il formato condizionale in F4 (riga 3, colonna 5) con l'ambito Dati
+# Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 index = pivot_table.getConditionalFormats().add()
 format = pivot_table.getConditionalFormats().get(index)
 format.applyTo(3, 5, PivotConditionFormatScopeType.DATA)
-# Regola - evidenziare importi maggiori di 200
+# Rule - highlight amounts greater than 200
 condition_index = format.getFormatConditions().addCondition(
     FormatConditionType.CELL_VALUE,
     OperatorType.GREATER_THAN,
@@ -127,7 +127,7 @@ pivot_table = sheet.getPivotTables().add("=A1:C7", 2, 4)
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivot_table.calculateData()
-# Seleziona il rettangolo F4:F6 (le celle di valore senza il totale generale)
+# Target the rectangle F4:F6 (the value cells without the grand total)
 index = pivot_table.getConditionalFormats().add()
 conditional_format = pivot_table.getConditionalFormats().get(index)
 area = CellArea()
@@ -136,7 +136,7 @@ area.StartColumn = 5
 area.EndRow = 5
 area.EndColumn = 5
 conditional_format.addCellArea(area)
-# Regola - corsivo su giallo chiaro per importi compresi tra 150 e 300
+# Rule - italic on light yellow for amounts between 150 and 300
 condition_index = conditional_format.getFormatConditions().addCondition(
     FormatConditionType.CELL_VALUE,
     OperatorType.BETWEEN,
@@ -189,13 +189,13 @@ pivot_table = sheet.getPivotTables().add("=A1:C7", 2, 4)
 pivot_table.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivot_table.calculateData()
-# Allega la regola al campo dati Amount come una regione semantica
+# Attach the rule to the Amount data field as a semantic region
 index = pivot_table.getConditionalFormats().add()
 conditional_format = pivot_table.getConditionalFormats().get(index)
 area = PivotArea(pivot_table)
 area.selectField(PivotFieldType.DATA, "Amount")
 conditional_format.getPivotAreas().addPivotArea(area)
-# Regola - testo grigio per importi inferiori a 150
+# Rule - grey text for amounts below 150
 condition_index = conditional_format.getFormatConditions().addCondition(
     FormatConditionType.CELL_VALUE,
     OperatorType.LESS_THAN,
@@ -234,10 +234,10 @@ for i in range(pivot_table.getConditionalFormats().getCount()):
             f"    rows {area.StartRow + 1}-{area.EndRow + 1}, "
             f"columns {area.StartColumn + 1}-{area.EndColumn + 1}"
         )
-# Questo stampa:
-# Formati condizionali: 1
-# Formato 0: CellValue GreaterThan formula1==200
-#     righe 4-7, colonne 6-6        (F4:F7, la regione dati risolta)
+# This prints:
+# Conditional formats: 1
+# Format 0: CellValue GreaterThan formula1==200
+#     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 jpype.shutdownJVM()
 ```
 

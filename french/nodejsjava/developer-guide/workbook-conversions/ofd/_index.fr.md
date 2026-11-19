@@ -31,25 +31,25 @@ L'exemple construit une feuille de calcul de facture en insérant une image de l
 ```javascript
 const AsposeCells = require("aspose.cells");
 let dataDir = "C:\\Temp\\";
-// Créer un nouveau classeur
+// Create a new Workbook
 let workbook = new AsposeCells.Workbook();
-// Obtenir la première feuille de calcul
+// Obtain the first worksheet
 let worksheet = workbook.getWorksheets().get(0);
-// Définir les largeurs de colonnes
+// Set column widths
 worksheet.getCells().setColumnWidth(0, 5);
 worksheet.getCells().setColumnWidth(1, 35);
 worksheet.getCells().setColumnWidth(2, 12);
 worksheet.getCells().setColumnWidth(3, 15);
 worksheet.getCells().setColumnWidth(4, 15);
 worksheet.getCells().setColumnWidth(5, 5);
-// Insérer le logo de l'entreprise
+// Insert company logo
 worksheet.getPictures().add(1, 1, dataDir + "logo.png");
-// Nom de l'entreprise et coordonnées
+// Company name and contact details
 worksheet.getCells().get("B3").putValue("Acme Corporation");
 worksheet.getCells().get("B4").putValue("123 Business Street");
 worksheet.getCells().get("B5").putValue("City, State 12345");
 worksheet.getCells().get("B6").putValue("Phone: (555) 123-4567");
-// Titre FACTURE - fusionner les cellules
+// INVOICE title - merge cells
 worksheet.getCells().merge(7, 1, 2, 4);
 let titleCell = worksheet.getCells().get("B8");
 titleCell.putValue("INVOICE");
@@ -58,17 +58,17 @@ titleStyle.getFont().setBold(true);
 titleStyle.getFont().setSize(20);
 titleStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.CENTER);
 titleCell.setStyle(titleStyle);
-// Numéro de facture et date
+// Invoice number and date
 worksheet.getCells().get("B11").putValue("Invoice Number:");
 worksheet.getCells().get("C11").putValue("INV-2024-001");
 worksheet.getCells().get("B12").putValue("Date:");
 worksheet.getCells().get("C12").putValue(new Date().toISOString().slice(0, 10));
-// Section Facturation
+// Bill-to section
 worksheet.getCells().get("B14").putValue("Bill To:");
 worksheet.getCells().get("B15").putValue("Client Name");
 worksheet.getCells().get("B16").putValue("Client Address");
 worksheet.getCells().get("B17").putValue("Client City, State");
-// En-tête des articles
+// Line items header
 let headerDesc = worksheet.getCells().get("B19");
 let headerQty = worksheet.getCells().get("C19");
 let headerPrice = worksheet.getCells().get("D19");
@@ -90,20 +90,20 @@ headerDesc.setStyle(headerStyle);
 headerQty.setStyle(headerStyle);
 headerPrice.setStyle(headerStyle);
 headerTotal.setStyle(headerStyle);
-// Style de devise avec bordures
+// Currency style with borders
 let currencyStyle = workbook.createStyle();
 currencyStyle.setCustom("\"$\"#,##0.00");
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-// Style de bordure simple pour les cellules description/quantité
+// Plain border style for description/quantity cells
 let borderStyle = workbook.createStyle();
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.TOP_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.BOTTOM_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
-// Lignes des articles
+// Line items rows
 let lineItems = [
     ["Product A - Widget", 2, 50.00],
     ["Product B - Gadget", 3, 75.00],
@@ -125,7 +125,7 @@ for (let i = 0; i < lineItems.length; i++)
     priceCell.setStyle(currencyStyle);
     totalCell.setStyle(currencyStyle);
 }
-// Sous-total, taxe, total général
+// Subtotal, tax, grand total
 worksheet.getCells().get("B24").putValue("Subtotal:");
 let subtotalCell = worksheet.getCells().get("E24");
 subtotalCell.setFormula("SUM(E20:E22)");
@@ -135,20 +135,20 @@ taxCell.setFormula("E24*0.1");
 worksheet.getCells().get("B26").putValue("Grand Total:");
 let grandTotalCell = worksheet.getCells().get("E26");
 grandTotalCell.setFormula("E24+E25");
-// Style gras + devise pour les valeurs totales
+// Bold + currency style for total values
 let totalStyle = workbook.createStyle();
 totalStyle.getFont().setBold(true);
 totalStyle.setCustom("\"$\"#,##0.00");
 subtotalCell.setStyle(totalStyle);
 taxCell.setStyle(totalStyle);
 grandTotalCell.setStyle(totalStyle);
-// Style gras pour les étiquettes des totaux
+// Bold style for total labels
 let boldStyle = workbook.createStyle();
 boldStyle.getFont().setBold(true);
 worksheet.getCells().get("B24").setStyle(boldStyle);
 worksheet.getCells().get("B25").setStyle(boldStyle);
 worksheet.getCells().get("B26").setStyle(boldStyle);
-// Enregistrer le classeur en tant que fichier OFD
+// Save the workbook as an OFD file
 workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.OFD);
 ```
 
@@ -158,41 +158,41 @@ Aspose.Cells peut également charger un classeur Excel existant à partir du dis
 ```javascript
 const AsposeCells = require("aspose.cells");
 const dataDir = "C:\\Examples\\";
-// Ouvrir un classeur Excel existant à partir du disque
+// Open an existing Excel workbook from disk
 const workbook = new AsposeCells.Workbook(dataDir + "SampleBook.xlsx");
-// (1) Lire et afficher les valeurs des cellules sélectionnées pour confirmer que le fichier a été chargé
+// (1) Read and display values from selected cells to confirm the file was loaded
 const firstSheet = workbook.getWorksheets().get(0);
 console.log("First sheet name: " + firstSheet.getName());
 console.log("Cell A1: " + firstSheet.getCells().get("A1").getStringValue());
 console.log("Cell B1: " + firstSheet.getCells().get("B1").getStringValue());
 console.log("Cell C1: " + firstSheet.getCells().get("C1").getStringValue());
-// (2) Parcourir la collection Worksheets pour énumérer les feuilles disponibles
+// (2) Iterate over the Worksheets collection to enumerate available sheets
 console.log("\nAvailable worksheets:");
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++)
 {
     const ws = workbook.getWorksheets().get(i);
     console.log("  [" + i + "] " + ws.getName());
 }
-// (3) Optionnellement, mettre à jour une cellule d'horodatage pour refléter la conversion
+// (3) Optionally update a timestamp cell to reflect the conversion
 firstSheet.getCells().get("A1").putValue("Converted on: " + formatDate(new Date()));
-// Ajouter une ligne d'en-tête récapitulative en haut du bloc de données
+// Append a summary header row at the top of the data block
 firstSheet.getCells().insertRow(0);
 firstSheet.getCells().get("A1").putValue("Conversion Summary");
 firstSheet.getCells().get("A2").putValue("Generated: " + formatDate(new Date()));
-// (4) Configurer les propriétés PageSetup sur la feuille de calcul
+// (4) Configure PageSetup properties on the worksheet
 const pageSetup = firstSheet.getPageSetup();
 pageSetup.setOrientation(AsposeCells.PageOrientationType.Landscape);
 pageSetup.setPaperSize(AsposeCells.PaperSizeType.PaperA4);
 pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
-// (5) Optionnellement, définir la zone d'impression pour la sortie OFD
+// (5) Optionally set the print area for the OFD output
 const lastRow = firstSheet.getCells().getMaxDataRow();
 const lastCol = firstSheet.getCells().getMaxDataColumn();
 const lastColLetter = AsposeCells.CellsHelper.columnIndexToName(lastCol);
 const printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 console.log("\nPrint area set to: " + printArea);
-// (6) Enregistrer le classeur en tant que fichier OFD
+// (6) Save the workbook as an OFD file
 workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.OFD);
 console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 function formatDate(date) {

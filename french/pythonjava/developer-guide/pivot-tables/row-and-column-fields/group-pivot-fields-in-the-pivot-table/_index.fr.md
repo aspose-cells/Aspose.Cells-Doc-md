@@ -23,15 +23,15 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-# Charger le classeur d'exemple
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Accéder à la deuxième feuille de calcul et à son tableau croisé dynamique
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# Grouper automatiquement le premier champ de ligne.
-# Le champ contient des dates, il est donc groupé par mois.
+# Group the first row field automatically.
+# The field contains dates, so it is grouped by months.
 field = pt.getRowFields().get(0)
 field.group()
-# Calculer les données du tableau croisé dynamique et enregistrer le fichier de sortie
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputAutoGroupPivotField.xlsx")
 jpype.shutdownJVM()
@@ -49,17 +49,17 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldGroupOptions, PivotGroupByType, DateTime
-# Charger le classeur d'exemple
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Accéder à la deuxième feuille de calcul et à son tableau croisé dynamique
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# Grouper le premier champ de ligne (un champ de date) par mois et trimestres
+# Group the first row field (a date field) by months and quarters
 options = PivotFieldGroupOptions()
 options.setStartDate(DateTime(2008, 1, 1))
 options.setEndDate(DateTime(2008, 9, 5))
 options.setGroupTypes([PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS])
 pt.getRowFields().get(0).group(options)
-# Calculer les données du tableau croisé dynamique et enregistrer le fichier de sortie
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 jpype.shutdownJVM()
@@ -75,21 +75,21 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType, PivotFieldGroupOptions
-# Charger le classeur d'exemple
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Accéder à la deuxième feuille de calcul et à son tableau croisé dynamique
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# FieldTwo est un champ de données : déplacez-le d'abord dans la zone des lignes,
-# car seuls les champs de ligne/colonne peuvent être groupés
+# FieldTwo is a data field: move it to the row area first,
+# because only row/column fields can be grouped
 pt.addFieldToArea(PivotFieldType.ROW, "FieldTwo")
 pt.calculateData()
-# Grouper le champ numérique dans les plages 0-1, 2-3, 4-5
+# Group the numeric field into the ranges 0-1, 2-3, 4-5
 options = PivotFieldGroupOptions()
 options.setStartNumber(0)
 options.setEndNumber(5)
 options.setInterval(2)
 pt.getRowFields().get(1).group(options)
-# Calculer les données du tableau croisé dynamique et enregistrer le fichier de sortie
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputNumberGroupPivotField.xlsx")
 jpype.shutdownJVM()

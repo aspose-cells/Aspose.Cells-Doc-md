@@ -1,6 +1,6 @@
 ---
 title: 将 Excel 文件拆分为多个文件
-linktitle: 将 Excel 文件拆分为多个文件
+linktitle: 拆分Excel文件
 description: Aspose.Cells 是一个用于处理电子表格文件的 Node.js 库，支持将单个 Excel 文件拆分为多个文件。本文将介绍如何将每个工作表分别复制到单独的工作簿，以及将特定单元格区域复制到其他工作簿，从而拆分 Excel 文件。
 keywords: Aspose.Cells, Node.js 库, 电子表格, 拆分 Excel 文件, 复制工作表, 复制区域, 多个工作簿, 另存为独立文件
 type: docs

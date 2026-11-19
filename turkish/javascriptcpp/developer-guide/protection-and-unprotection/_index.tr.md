@@ -1,6 +1,6 @@
 ---
 title: C++ üzerinden JavaScript ile koruma ve korumayı kaldırma
-linktitle: C++ üzerinden JavaScript ile koruma ve korumayı kaldırma
+linktitle: Şifreleme ve Koruma
 description: Bu örnek, C++ eklentilerini kullanarak JavaScript ile Excel dosyalarını şifrelemeyi ve şifre çözmeyi; Excel dosyalarındaki verileri korumayı ve korumayı kaldırmayı tanıtır.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, şifreleme, şifre çözme, parola, koruma, korumayı kaldırma, çalışma kitabı koruması, çalışma sayfası koruması, paylaşılan çalışma kitabı koruması, JavaScript
 type: docs

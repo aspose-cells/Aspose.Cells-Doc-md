@@ -1,6 +1,6 @@
 ---
 title: 将 Excel 转换为 OFD 格式
-linktitle: 将 Excel 转换为 OFD 格式
+linktitle: OFD
 description: Aspose.Cells 是一个用于处理电子表格文件的 Node.js 库，支持将 Excel 工作簿转换为 OFD（Open Fixed-layout Document，开放式版式文档）格式。本文演示如何使用 Aspose.Cells 创建 Excel 内容并将其导出为 OFD，以及如何将现有 Excel 文件转换为 OFD。
 keywords: Aspose.Cells, Node.js 库, 电子表格, Excel 转 OFD, OFD 转换, SaveFormat.Ofd, 版式文档, 工作簿导出
 type: docs

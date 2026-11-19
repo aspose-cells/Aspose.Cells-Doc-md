@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via C++'ta Sparkline'ı Görüntüye ve HTML'e Dönüştürme
-linktitle: Aspose.Cells for Node.js via C++'ta Sparkline'ı Görüntüye ve HTML'e Dönüştürme
+linktitle: Sparkline'ı Görüntü ve HTML'e Dönüştür
 description: Aspose.Cells sparkline'larını hücreye gömmek için bağımsız görüntüler olarak işlemeyi ve sparkline açısından zengin çalışma sayfalarını HtmlSaveOptions kullanarak HTML'e aktarmayı öğrenin.
 keywords: Aspose.Cells, Node.js via C++, sparkline, Sparkline.toImage, cell.embeddedImage, HtmlSaveOptions, sparkline işleme, sparkline'ı görüntüye dönüştürme, sparkline'ı HTML'e aktarma
 type: docs

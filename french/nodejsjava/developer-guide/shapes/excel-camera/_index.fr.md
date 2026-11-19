@@ -33,7 +33,7 @@ const aspose = require("aspose.cells");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Caméra dynamique : ajouter une image vide, la lier via une formule à A1:F10, puis actualiser
+// Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
 let pictures = worksheet.getPictures();
 let index = pictures.add(10, 6, null);
 pictures.get(index).setFormula("A1:F10");
@@ -55,7 +55,7 @@ const aspose = require("aspose.cells");
 let workbook = new aspose.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("CameraDemo");
-// Caméra Statique : construire une Range, rendre en octets, envelopper dans ByteArrayInputStream, ajouter comme image
+// Static Camera: build Range, render to bytes, wrap in ByteArrayInputStream, add as picture
 let range = worksheet.getCells().createRange("A1:F10");
 let imageBytes = range.toImage(null);
 let pictures = worksheet.getPictures();

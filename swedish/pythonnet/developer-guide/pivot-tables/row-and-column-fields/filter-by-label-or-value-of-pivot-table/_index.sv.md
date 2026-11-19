@@ -34,19 +34,19 @@ import aspose.cells as ac
 from aspose.cells.pivot import PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
-# Ladda den befintliga arbetsboken som innehåller en pivottabell
+# Load the existing workbook containing a pivot table
 workbook = ac.Workbook(fileName)
-# Kom åt kalkylbladet via index (första kalkylbladet)
+# Access the worksheet by index (first worksheet)
 worksheet = workbook.worksheets[0]
-# Kom åt pivottabellen via index
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# Hämta det första radens PivotField
+# Retrieve the first row PivotField
 row_field = pivot_table.row_fields[0]
-# Använd etikettfiltret — visa endast radobjekt vars etiketter börjar med det angivna prefixet
+# Apply the label filter — show only row items whose labels begin with the supplied prefix
 row_field.filter_by_label(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
-# Uppdatera och beräkna om pivottabellens data så att filtret träder i kraft
+# Refresh and recalculate the pivot table data so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# Spara arbetsboken tillbaka till disken
+# Save the workbook back to disk
 workbook.save(fileName)
 ```
 
@@ -68,23 +68,23 @@ input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
     raise FileNotFoundError("Source workbook not found.", input_path)
-# Ladda den befintliga arbetsboken som innehåller pivottabellen
+# Load the existing workbook that contains the pivot table
 workbook = ac.Workbook(input_path)
-# Kom åt kalkylbladet som innehåller pivottabellen (via index)
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.worksheets[0]
-# Kom åt pivottabellen via index
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# Hämta datum-PivotField från radområdet
-# (Datumfilter fungerar endast när rad-/kolumnområdet endast innehåller datum-tid-celler eller tomma celler)
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 date_field = pivot_table.row_fields[0]
-# Definiera datakriteriet för Between-filtret
+# Define the date criterion for the Between filter
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
-# Tillämpa datumfiltret på pivotfältet
+# Apply the date filter on the pivot field
 date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
-# Uppdatera och beräkna om pivottabellen så att filtret träder i kraft
+# Refresh and recalculate the pivot table so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# Spara arbetsboken
+# Persist the workbook
 workbook.save(output_path)
 ```
 
@@ -101,7 +101,7 @@ worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
 row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
-# Hitta datafältindex manuellt eftersom PivotFieldCollection inte har IndexOf
+# Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 data_field_index = -1
 for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
@@ -125,31 +125,31 @@ Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett 
 ```python
 import aspose.cells as ac
 import aspose.cells.pivot as acp
-# Ladda den befintliga arbetsboken som innehåller pivottabellen
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = ac.Workbook(inputPath)
-# Öppna kalkylbladet som innehåller pivottabellen (index 0)
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.worksheets[0]
-# Hämta pivottabellen via index
+# Access the pivot table by index
 pivotTable = worksheet.pivot_tables[0]
-# Kontrollera att det finns minst ett värde PivotField i dataområdet
+# Confirm there is at least one value PivotField in the data area
 if len(pivotTable.data_fields) == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
-# Hämta målets rad PivotField (det fält vi vill tillämpa Top 10 på)
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.row_fields[0]
-# Det första (och enda) datafältet finns på index 0; Top 10 rangordnar efter det.
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# Tillämpa Top 10-filtret på radfältet:
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true (topp N; false skulle betyda botten N)
-#   - valueFieldIndex = indexet för datafältet som används för att rangordna objekten
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
-# Uppdatera pivottabellens data och beräkna om den så att filtret träder i kraft
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.pivot_cache.refresh()
-# Spara arbetsboken
+# Save the workbook
 workbook.save(outputPath)
 ```
 
@@ -159,28 +159,28 @@ Detta tillvägagångssätt är användbart när filtreringsregeln är oregelbund
 
 ```python
 import aspose.cells as ac
-# Ladda en befintlig arbetsbok som innehåller en pivottabell
+# Load an existing workbook containing a pivot table
 workbook = ac.Workbook("pivot_table_sample.xlsx")
-# Öppna det första kalkylbladet som innehåller pivottabellen
+# Access the first worksheet which contains the pivot table
 sheet = workbook.worksheets[0]
-# Öppna pivottabellen via index (den första pivottabellen på arket)
+# Access the pivot table by index (the first pivot table on the sheet)
 pivot_table = sheet.pivot_tables[0]
-# Hämta mål-PivotField (det första radetikettfältet där vi kommer att dölja/visa objekt)
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivot_field = pivot_table.row_fields[0]
-# Iterera genom PivotItems-samlingen för det valda PivotField
+# Iterate through the PivotItems collection of the selected PivotField
 item_count = pivot_field.pivot_items.count
 for i in range(item_count):
     item = pivot_field.pivot_items[i]
-    # Dölj pivotobjekt som matchar ett specifikt namn/villkor
+    # Hide pivot items that match a specific name/criterion
     if item.name == "Item1" or item.name == "Item2":
         item.is_hidden = True
-    # Demonstrera att visa igen: visa ett tidigare dolt pivotobjekt
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.name == "Item3":
         item.is_hidden = False
-# Uppdatera och beräkna om pivottabellen så att ändringarna träder i kraft
+# Refresh and recalculate the pivot table so changes take effect
 pivot_table.pivot_cache.refresh()
-# Spara arbetsboken — dolda objekt finns kvar i underliggande data
-# men exkluderas från den visade pivottabellens utdata
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 ```
 

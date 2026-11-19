@@ -40,55 +40,55 @@ jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType, ImageType, ImageOrPrintOptions, Sparkline
 from jpype import JClass
 ByteArrayOutputStream = JClass('java.io.ByteArrayOutputStream')
-# إنشاء مصنف جديد والوصول إلى ورقة العمل الأولى
+# Create a new workbook and access the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# تعبئة بيانات عينة في الخلايا A1:E1
+# Populate sample data in cells A1:E1
 worksheet.getCells().get("A1").putValue(5)
 worksheet.getCells().get("B1").putValue(-3)
 worksheet.getCells().get("C1").putValue(8)
 worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
-# إضافة مجموعة مؤشرات سطرية من نوع خط مثبتة في F1 (العمود 5، الصف 0)
+# Add a Line sparkline group anchored at F1 (column 5, row 0)
 lineArea = CellArea()
 lineArea.StartColumn = 5
 lineArea.EndColumn = 5
 lineArea.StartRow = 0
 lineArea.EndRow = 0
 lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
-# إضافة مجموعة مؤشرات سطرية من نوع عمود مثبتة في G1 (العمود 6، الصف 0)
+# Add a Column sparkline group anchored at G1 (column 6, row 0)
 columnArea = CellArea()
 columnArea.StartColumn = 6
 columnArea.EndColumn = 6
 columnArea.StartRow = 0
 columnArea.EndRow = 0
 columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
-# إضافة مجموعة مؤشرات سطرية من نوع فوز/خسارة (مكدسة) مثبتة في H1 (العمود 7، الصف 0)
+# Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
 stackedArea = CellArea()
 stackedArea.StartColumn = 7
 stackedArea.EndColumn = 7
 stackedArea.StartRow = 0
 stackedArea.EndRow = 0
 stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
-# تكوين خيارات الصورة للإخراج بصيغة PNG
+# Configure image options for PNG output
 imageOptions = ImageOrPrintOptions()
 imageOptions.setImageType(ImageType.PNG)
-# تحويل المؤشر السطري الخطي إلى صورة وتضمينها في الخلية F2
+# Convert the Line sparkline to image and embed it in cell F2
 lineSp = worksheet.getSparklineGroups().get(lineIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 lineSp.toImage(ms, imageOptions)
 worksheet.getCells().get("F2").setEmbeddedImage(ms.toByteArray())
-# تحويل المؤشر السطري العمودي إلى صورة وتضمينها في الخلية G2
+# Convert the Column sparkline to image and embed it in cell G2
 columnSp = worksheet.getSparklineGroups().get(columnIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 columnSp.toImage(ms, imageOptions)
 worksheet.getCells().get("G2").setEmbeddedImage(ms.toByteArray())
-# تحويل المؤشر السطري فوز/خسارة إلى صورة وتضمينها في الخلية H2
+# Convert the Win/Loss sparkline to image and embed it in cell H2
 stackedSp = worksheet.getSparklineGroups().get(stackedIdx).getSparklines().get(0)
 ms = ByteArrayOutputStream()
 stackedSp.toImage(ms, imageOptions)
 worksheet.getCells().get("H2").setEmbeddedImage(ms.toByteArray())
-# حفظ المصنف على القرص
+# Save the workbook to disk
 workbook.save("output_with_sparklines.xlsx")
 jpype.shutdownJVM()
 ```

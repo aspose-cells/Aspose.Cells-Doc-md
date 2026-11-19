@@ -20,15 +20,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```python
 import aspose.cells as ac
-# Загрузка workbook-примера
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Доступ ко второму листу и его сводной таблице
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# Автоматическая группировка первого поля строки.
-# Поле содержит даты, поэтому оно группируется по месяцам.
+# Group the first row field automatically.
+# The field contains dates, so it is grouped by months.
 field = pt.row_fields[0]
 field.group()
-# Вычисление данных сводной таблицы и сохранение выходного файла
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputAutoGroupPivotField.xlsx")
 ```
@@ -45,17 +45,17 @@ import aspose.cells as ac
 from datetime import datetime
 from aspose.cells.pivot import PivotGroupByType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# Загрузить образец рабочей книги
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Получить доступ ко второму рабочему листу и его сводной таблице
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# Сгруппировать первое поле строки (поле даты) по месяцам и кварталам
+# Group the first row field (a date field) by months and quarters
 options = PivotFieldGroupOptions()
 options.start_date = datetime(2008, 1, 1)
 options.end_date = datetime(2008, 9, 5)
 options.group_types = [PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS]
 pt.row_fields[0].group(options)
-# Вычислить данные сводной таблицы и сохранить выходной файл
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 ```
@@ -69,21 +69,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# Загрузить образец книги
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Получить доступ ко второму рабочему листу и его сводной таблице
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# FieldTwo является полем данных: сначала переместить его в область строк,
-# поскольку группировать можно только поля строк/столбцов
+# FieldTwo is a data field: move it to the row area first,
+# because only row/column fields can be grouped
 pt.add_field_to_area(PivotFieldType.ROW, "FieldTwo")
 pt.calculate_data()
-# Сгруппировать числовое поле в диапазоны 0-1, 2-3, 4-5
+# Group the numeric field into the ranges 0-1, 2-3, 4-5
 options = PivotFieldGroupOptions()
 options.start_number = 0.0
 options.end_number = 5.0
 options.interval = 2.0
 pt.row_fields[1].group(options)
-# Рассчитать данные сводной таблицы и сохранить выходной файл
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputNumberGroupPivotField.xlsx")
 ```

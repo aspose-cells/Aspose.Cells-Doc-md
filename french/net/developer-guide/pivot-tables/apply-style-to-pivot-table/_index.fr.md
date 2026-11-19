@@ -32,16 +32,16 @@ L'exemple suivant charge un classeur vierge, renseigne les données d'exemple Fr
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Scénario 1 : Appliquer un format automatique prédéfini XLS existant
-// API utilisée : PivotTable.AutoFormatType
-// Format de fichier cible : .xls (ancien)
-// Pour des exemples complets et des fichiers de données, veuillez consulter https://github.com/aspose-cells/Aspose-Cells-for-.NET
-// Créer un nouveau classeur
+// Scenario 1: Apply a legacy XLS preset autoformat
+// API in use: PivotTable.AutoFormatType
+// Target file format: .xls (legacy)
+// For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Obtenir la première feuille de calcul
+// Get the first worksheet
 Worksheet sheet = workbook.Worksheets[0];
-// Remplir les données sources avec une ligne d'en-tête (Fruit, Year, Amount)
-// et 9 lignes de données couvrant grape, blueberry, kiwi et cherry sur 2020 et 2021
+// Populate the source data with header row (Fruit, Year, Amount)
+// and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.Cells[0, 0].PutValue("Fruit");
 sheet.Cells[0, 1].PutValue("Year");
 sheet.Cells[0, 2].PutValue("Amount");
@@ -72,17 +72,17 @@ sheet.Cells[8, 2].PutValue(45);
 sheet.Cells[9, 0].PutValue("grape");
 sheet.Cells[9, 1].PutValue(2020);
 sheet.Cells[9, 2].PutValue(45);
-// Ajouter un tableau croisé dynamique à la cellule E3, nommé, en utilisant la plage source A1:C10
+// Add a pivot table at destination cell E3, using source range A1:C10
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
-// Attribuer les champs : Fruit -> Lignes, Amount -> Données
+// Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Appliquer le format automatique prédéfini XLS existant "Report5"
-// Remarque : cette propriété n'a de sens que lors de l'enregistrement au format .xls.
-// Lors de l'enregistrement aux formats .xlsx/.xlsm/.xlsb, Excel ignore AutoFormatType
-// et utilise ce que spécifient PivotTableStyleType / PivotTableStyleName.
+// Apply the legacy XLS preset autoformat "Report5"
+// Note: This property is only meaningful when saving as .xls.
+// When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+// and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivotTable.AutoFormatType = PivotTableAutoFormatType.Report5;
-// Enregistrer le classeur au format .xls existant
+// Save the workbook in legacy .xls format
 workbook.Save("output.xls");
 ```
 
@@ -100,17 +100,17 @@ Ce scénario réutilise le jeu de données Fruit/Year/Amount du Scénario 1, ajo
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Scénario 2 : appliquer à l’aide de PivotTableStyleType un style prédéfini moderne nommé pour Excel 2007+.
-// Format de fichier cible : .xlsx. L’énumération PivotTableStyleType se trouve dans l’espace de noms Aspose.Cells
-// (pas dans Aspose.Cells.Pivot) -- c’est pourquoi nous n’avons besoin d’aucune directive using supplémentaire.
-// Référence GitHub : https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+// Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+// Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+// (not in Aspose.Cells.Pivot) -- that is why we do not need any extra using for it.
+// GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Ligne d’en-tête : Fruit / Year / Amount
+// Header row: Fruit / Year / Amount
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// 9 lignes de données contenant Fruit / Year / Amount
+// 9 data rows of Fruit / Year / Amount
 worksheet.Cells["A2"].PutValue("Grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(100);
@@ -138,19 +138,19 @@ worksheet.Cells["C9"].PutValue(190);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(130);
-// Ajouter un tableau croisé dynamique à E3, nommé, avec A1:C10 comme source
+// Add a pivot table at E3, sourced from A1:C10
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
-// Attribuer les champs du tableau croisé dynamique : Fruit -> zone de lignes (Row), Year -> zone de colonnes (Column), Amount -> zone de données (Data)
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Appliquer un style moderne de tableau croisé dynamique, prédéfini et nommé pour Excel 2007+.
-// PivotTableStyleType est l’API correcte pour les fichiers .xlsx / .xlsm / .xlsb ; AutoFormatType
-// est ignoré par Excel pour ces formats. PivotTableStyleDark1 appartient à la famille
-// des thèmes sombres (PivotTableStyleDark1..PivotTableStyleDark28), et la même énumération expose également les
-// thèmes clair/sombre plus récents d’Excel 2017 (PivotTableStyleLight1..Light28 / Dark1..Dark28).
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
 pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
-// Enregistrer au format .xlsx moderne -- c’est le format pour lequel PivotTableStyleType est pris en compte.
+// Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
 workbook.Save("output.xlsx");
 ```
 
@@ -174,7 +174,7 @@ using System.Drawing;
 using Aspose.Cells.Tables;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Remplir les données sources : ligne d'en-tête + 9 lignes de données (A1:C10)
+// Populate source data: header row + 9 data rows (A1:C10)
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
@@ -205,15 +205,15 @@ worksheet.Cells["C9"].PutValue(800);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(900);
-// Ajouter un tableau croisé dynamique à partir de A1:C10, ancré en E3, nommé
+// Add pivot table sourced from A1:C10, anchored at E3
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Étape 1 : enregistrer un nouveau style de tableau croisé dynamique personnalisé et capturer son index
+// Step 1: register a new custom pivot table style and capture its index
 int styleIndex = workbook.Worksheets.TableStyles.AddPivotTableStyle("CustomPivotStyle");
 TableStyle tableStyle = workbook.Worksheets.TableStyles[styleIndex];
-// Étape 2 : ajouter un élément WholeTable et appliquer des bordures noires fines sur les quatre côtés
+// Step 2: add a WholeTable element and apply thin black borders on all four sides
 int wholeTableElementIndex = tableStyle.TableStyleElements.Add(TableStyleElementType.WholeTable);
 TableStyleElement wholeTableElement = tableStyle.TableStyleElements[wholeTableElementIndex];
 Style wholeTableStyle = workbook.CreateStyle();
@@ -226,14 +226,14 @@ wholeTableStyle.Borders[BorderType.LeftBorder].Color = Color.Black;
 wholeTableStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
 wholeTableStyle.Borders[BorderType.RightBorder].Color = Color.Black;
 wholeTableElement.SetElementStyle(wholeTableStyle);
-// Étape 3 : ajouter un élément GrandTotalRow et appliquer une police rouge en gras
+// Step 3: add a GrandTotalRow element and apply bold red font
 int grandTotalElementIndex = tableStyle.TableStyleElements.Add(TableStyleElementType.GrandTotalRow);
 TableStyleElement grandTotalElement = tableStyle.TableStyleElements[grandTotalElementIndex];
 Style grandTotalStyle = workbook.CreateStyle();
 grandTotalStyle.Font.IsBold = true;
 grandTotalStyle.Font.Color = Color.Red;
 grandTotalElement.SetElementStyle(grandTotalStyle);
-// Étape 4 : appliquer le style personnalisé par nom (PAS par PivotTableStyleType, qui est pour les préréglages intégrés)
+// Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivotTable.PivotTableStyleName = "CustomPivotStyle";
 workbook.Save("output.xlsx");
 ```
@@ -252,13 +252,13 @@ using System.Drawing;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Scénario 4 : appliquer un seul Style à chaque cellule du tableau croisé dynamique à l’aide de FormatAll
-// API utilisée : PivotTable.FormatAll(Style)
-// Format cible : .xlsx
-// Référence GitHub : voir le dépôt Aspose.Cells-for-.NET — exemples de mise en forme de tableaux croisés dynamiques
+// Scenario 4: Apply a single Style to every pivot table cell using FormatAll
+// API in use: PivotTable.FormatAll(Style)
+// Target format: .xlsx
+// GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// Remplir les données source : ligne d’en-tête (ligne 1) + 9 lignes de données (lignes 2-10)
+// Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
@@ -289,13 +289,13 @@ worksheet.Cells["C9"].PutValue(2500);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(5500);
-// Ajouter un tableau croisé dynamique : plage source A1:C10, cellule de destination E3, nom
+// Add pivot table: source range A1:C10, destination cell E3
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
-// Affecter les champs du tableau croisé dynamique : Fruit -> zone Ligne, Year -> zone Colonne, Amount -> zone Données
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Créer un Style qui sera imposé à chaque cellule du tableau croisé dynamique
+// Build a Style that will be forced onto every cell of the pivot table
 Style style = workbook.CreateStyle();
 style.ForegroundColor = Color.Yellow;
 style.Pattern = BackgroundType.Solid;
@@ -309,10 +309,10 @@ style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
 style.Borders[BorderType.LeftBorder].Color = Color.Black;
 style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
 style.Borders[BorderType.RightBorder].Color = Color.Black;
-// Appliquer FormatAll : impose ce style unique à chaque cellule du tableau croisé dynamique,
-// en remplaçant tout PivotTableStyleType / PivotTableStyleName défini précédemment
+// Apply FormatAll: forces this single style onto every cell of the pivot table,
+// overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivotTable.FormatAll(style);
-// Enregistrer le classeur au format .xlsx moderne
+// Save the workbook in the modern .xlsx format
 workbook.Save("output.xlsx");
 ```
 

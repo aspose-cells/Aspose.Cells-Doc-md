@@ -43,16 +43,16 @@ for (let i = 0; i < fruits.length; i++) {
     cells.get(i + 1, 1).putValue(years[i]);
     cells.get(i + 1, 2).putValue(amounts[i]);
 }
-// Üst sol köşesi E3'te olan pivot tablo
+// Pivot table with its top-left corner at E3
 const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Koşullu biçimi F4'te (satır 3, sütun 5) Veri kapsamı ile bağla
+// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 format.applyTo(3, 5, AsposeCells.PivotConditionFormatScopeType.DATA);
-// Kural - 200'den büyük tutarları vurgula
+// Rule - highlight amounts greater than 200
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CELL_VALUE,
     AsposeCells.OperatorType.GREATER_THAN,
@@ -96,7 +96,7 @@ const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// F4:F6 dikdörtgenini hedefle (toplam satırı olmayan değer hücreleri)
+// Target the rectangle F4:F6 (the value cells without the grand total)
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 const cellArea = new AsposeCells.CellArea();
@@ -105,7 +105,7 @@ cellArea.StartColumn = 5;
 cellArea.EndRow = 5;
 cellArea.EndColumn = 5;
 format.addCellArea(cellArea);
-// Kural - 150 ile 300 arasındaki tutarlar için açık sarı renkte italik
+// Rule - italic on light yellow for amounts between 150 and 300
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CELL_VALUE,
     AsposeCells.OperatorType.BETWEEN,
@@ -143,13 +143,13 @@ const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Kuralı Amount veri alanına anlamsal bir bölge olarak ekle
+// Attach the rule to the Amount data field as a semantic region
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 const area = new AsposeCells.PivotArea(pivotTable);
 area.selectField(AsposeCells.PivotFieldType.DATA, "Amount");
 format.getPivotAreas().addPivotArea(area);
-// Kural - 150'nin altındaki tutarlar için gri metin
+// Rule - grey text for amounts below 150
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CELL_VALUE,
     AsposeCells.OperatorType.LESS_THAN,
@@ -184,10 +184,10 @@ for (let i = 0; i < conditionalFormats.getCount(); i++) {
         console.log(`    rows ${area.StartRow + 1}-${area.EndRow + 1}, columns ${area.StartColumn + 1}-${area.EndColumn + 1}`);
     }
 }
-// Bu yazdırır:
-// Koşullu biçimler: 1
-// Biçim 0: CellValue GreaterThan formula1==200
-//     satırlar 4-7, sütunlar 6-6        (F4:F7, çözülen veri bölgesi)
+// This prints:
+// Conditional formats: 1
+// Format 0: 1 2 formula1=200   (type 1 = CellValue, operator 2 = GreaterThan)
+//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **İlgili Makaleler**

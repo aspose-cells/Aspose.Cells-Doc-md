@@ -100,17 +100,17 @@ workbook.Save("output.xls");
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// シナリオ 2: PivotTableStyleType を使用して、モダンな Excel 2007+ の名前付きプリセットスタイルを適用します。
-// 対象ファイル形式: .xlsx。PivotTableStyleType 列挙体は Aspose.Cells 名前空間にあります
-// (Aspose.Cells.Pivot ではなく) -- したがって、追加の using ステートメントは不要です。
-// GitHub 参照: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+// Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+// Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+// (not in Aspose.Cells.Pivot) -- that is why we do not need any extra using for it.
+// GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// ヘッダー行: Fruit / Year / Amount
+// Header row: Fruit / Year / Amount
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// Fruit / Year / Amount の 9 データ行
+// 9 data rows of Fruit / Year / Amount
 worksheet.Cells["A2"].PutValue("Grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(100);
@@ -138,19 +138,19 @@ worksheet.Cells["C9"].PutValue(190);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(130);
-// E3 に という名前のピボットテーブルを追加し、A1:C10 をデータソースとして使用します
+// Add a pivot table at E3, sourced from A1:C10
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
-// ピボットフィールドを割り当て: Fruit -> Row 領域、Year -> Column 領域、Amount -> Data 領域
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// モダンな Excel 2007+ の名前付きプリセットピボットスタイルを適用します。
-// PivotTableStyleType は .xlsx / .xlsm / .xlsb ファイルに対する適切な API です。Excel は
-// これらの形式では AutoFormatType を無視します。PivotTableStyleDark1 はダークテーマ
-// ファミリー (PivotTableStyleDark1..PivotTableStyleDark28) に属し、同じ列挙体では
-// 新しい Excel 2017 のライト/ダークテーマ (PivotTableStyleLight1..Light28 / Dark1..Dark28) も公開されています。
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
 pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
-// モダンな .xlsx 形式で保存 -- PivotTableStyleType が有効となる形式です。
+// Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
 workbook.Save("output.xlsx");
 ```
 

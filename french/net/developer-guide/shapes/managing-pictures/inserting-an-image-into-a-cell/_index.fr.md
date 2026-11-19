@@ -95,16 +95,16 @@ Le code suivant illustre l'approche complète.
 ```csharp
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
-// Obtenir la cellule cible C6
+// Get the target cell C6
 var cell = worksheet.Cells["C6"];
-// Lire le fichier image dans un tableau d'octets
+// Read the image file into a byte array
 byte[] imageData = File.ReadAllBytes("logo.png");
-// Incorporer l'image directement dans la cellule
+// Embed the image directly into the cell
 cell.EmbeddedImage = imageData;
-// Ajuster éventuellement la hauteur de ligne et la largeur de colonne pour que l'image intégrée soit plus visible
-worksheet.Cells.SetColumnWidth(2, 30);   // Colonne C (index 2)
-worksheet.Cells.SetRowHeight(5, 100);     // Ligne 6 (index 5)
-// Enregistrer le classeur résultant en tant que fichier .xlsx
+// Optionally adjust row height and column width so the embedded image is more visible
+worksheet.Cells.SetColumnWidth(2, 30);   // Column C (index 2)
+worksheet.Cells.SetRowHeight(5, 100);     // Row 6 (index 5)
+// Save the resulting workbook as an .xlsx file
 workbook.Save("output.xlsx", SaveFormat.Xlsx);
 ```
 

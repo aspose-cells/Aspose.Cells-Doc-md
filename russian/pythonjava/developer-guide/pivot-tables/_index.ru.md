@@ -38,13 +38,11 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType
-
-# Создать новую книгу и получить первый рабочий лист
+# Create a new workbook and get the first worksheet
 workbook = Workbook()
 sheet = workbook.getWorksheets().get(0)
 cells = sheet.getCells()
-
-# Записать исходные данные: продажи по видам спорта и кварталам
+# Write the source data: sales per sport and quarter
 cells.get("A1").putValue("Sport")
 cells.get("B1").putValue("Quarter")
 cells.get("C1").putValue("Sales")
@@ -69,16 +67,13 @@ cells.get("C7").putValue(5000)
 cells.get("A8").putValue("Golf")
 cells.get("B8").putValue("Qtr3")
 cells.get("C8").putValue(6430)
-
-# Добавить сводную таблицу в ячейку назначения E3 на основе данных из A1:C8
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4)
-
-# Назначить поля сводной таблицы: Sport в строки, Quarter в столбцы, Sales в данные
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Quarter")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales")
-
-# Сохранить книгу
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

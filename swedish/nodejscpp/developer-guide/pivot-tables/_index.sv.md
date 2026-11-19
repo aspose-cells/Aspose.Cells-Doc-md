@@ -1,6 +1,6 @@
 ---
 title: Infoga pivottabell
-linktitle: Infoga pivottabell
+linktitle: Pivottabeller
 description: Skapa och formatera pivottabeller med Aspose.Cells for Node.js via C++.
 keywords: Skapa pivottabell, Infoga pivottabell, Formatera pivottabell.
 type: docs
@@ -35,12 +35,10 @@ När exempelkoden har körts läggs en pivottabell till i kalkylbladet.
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-
-// Skapa en ny arbetsbok och hämta det första kalkylbladet
+// Create a new workbook and get the first worksheet
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-
-// Skriv källdata: försäljning per sport och kvartal
+// Write the source data: sales per sport and quarter
 sheet.getCells().get("A1").putValue("Sport");
 sheet.getCells().get("B1").putValue("Quarter");
 sheet.getCells().get("C1").putValue("Sales");
@@ -65,16 +63,13 @@ sheet.getCells().get("C7").putValue(5000);
 sheet.getCells().get("A8").putValue("Golf");
 sheet.getCells().get("B8").putValue("Qtr3");
 sheet.getCells().get("C8").putValue(6430);
-
-// Lägg till en pivottabell vid destinationscellen E3, med A1:C8 som källa
+// Add a pivot table at destination cell E3, sourced from A1:C8
 let pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// Tilldela pivotfält: Sport till Rader, Quarter till Kolumner, Sales till Data
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Quarter");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
-
-// Spara arbetsboken
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

@@ -36,12 +36,10 @@ Dopo l'esecuzione del codice di esempio, viene aggiunta una tabella pivot al fog
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
-// Crea un nuovo workbook e ottieni il primo foglio di lavoro
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-
-// Scrivi i dati di origine: vendite per sport e trimestre
+// Write the source data: sales per sport and quarter
 sheet.Cells["A1"].PutValue("Sport");
 sheet.Cells["B1"].PutValue("Quarter");
 sheet.Cells["C1"].PutValue("Sales");
@@ -66,16 +64,13 @@ sheet.Cells["C7"].PutValue(5000);
 sheet.Cells["A8"].PutValue("Golf");
 sheet.Cells["B8"].PutValue("Qtr3");
 sheet.Cells["C8"].PutValue(6430);
-
-// Aggiungi una tabella pivot nella cella di destinazione E3, utilizzando A1:C8 come origine
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C8", 2, 4);
-
-// Assegna i campi pivot: Sport a Righe, Quarter a Colonne, Sales a Dati
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Quarter");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
-
-// Salva il workbook
+// Save the workbook
 workbook.Save("pivotTable_test_out.xlsx");
 ```
 

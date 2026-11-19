@@ -1,6 +1,6 @@
 ---
 title: Excel'i OFD Biçimine Dönüştürme
-linktitle: Excel'i OFD Biçimine Dönüştürme
+linktitle: OFD
 description: Aspose.Cells for JavaScript via C++, elektronik tablo dosyalarıyla çalışmayı ve Excel çalışma kitaplarını OFD (Açık Sabit Düzenli Belge) biçimine dönüştürmeyi destekleyen bir JavaScript kitaplığıdır. Bu makale, Aspose.Cells kullanarak Excel içeriği oluşturup OFD olarak dışa aktarmayı ve mevcut Excel dosyalarını OFD biçimine dönüştürmeyi gösterir.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, JavaScript kitaplığı, elektronik tablo, Excel'den OFD'ye, OFD dönüştürme, SaveFormat.Ofd, sabit düzenli belge, çalışma kitabı dışa aktarma
 type: docs
@@ -51,20 +51,20 @@ Aspose.Cells ile bir çalışma kitabını programatik olarak oluşturabilir, ve
         });
         document.getElementById('runExample').addEventListener('click', async () => {
             try {
-                // Yeni bir Çalışma Kitabı oluştur
+                // Create a new Workbook
                 const workbook = new Workbook();
-                // İlk çalışma sayfasını al
+                // Obtain the first worksheet
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // Sütun genişliklerini ayarla
+                // Set column widths
                 cells.setColumnWidth(0, 5);
                 cells.setColumnWidth(1, 35);
                 cells.setColumnWidth(2, 12);
                 cells.setColumnWidth(3, 15);
                 cells.setColumnWidth(4, 15);
                 cells.setColumnWidth(5, 5);
-                // Şirket logosunu ekle
-                // Tarayıcının dosya sistemi yolu olmadığı için bellek içi bir PNG oluştur.
+                // Insert company logo
+                // Create an in-memory PNG because the browser has no filesystem path.
                 const logoCanvas = document.createElement("canvas");
                 logoCanvas.width = 100;
                 logoCanvas.height = 30;
@@ -80,12 +80,12 @@ Aspose.Cells ile bir çalışma kitabını programatik olarak oluşturabilir, ve
                 }
                 const logoData = new Uint8Array(await logoBlob.arrayBuffer());
                 worksheet.pictures.add(1, 1, logoData);
-                // Şirket adı ve iletişim bilgileri
+                // Company name and contact details
                 cells.get("B3").value = "Acme Corporation";
                 cells.get("B4").value = "123 Business Street";
                 cells.get("B5").value = "City, State 12345";
                 cells.get("B6").value = "Phone: (555) 123-4567";
-                // FATURA başlığı - hücreleri birleştir
+                // INVOICE title - merge cells
                 cells.merge(7, 1, 2, 4);
                 const titleCell = cells.get("B8");
                 titleCell.value = "INVOICE";
@@ -94,7 +94,7 @@ Aspose.Cells ile bir çalışma kitabını programatik olarak oluşturabilir, ve
                 titleStyle.font.size = 20;
                 titleStyle.horizontalAlignment = AsposeCells.TextAlignmentType.Center;
                 titleCell.style = titleStyle;
-                // Fatura numarası ve tarih
+                // Invoice number and date
                 cells.get("B11").value = "Invoice Number:";
                 cells.get("C11").value = "INV-2024-001";
                 cells.get("B12").value = "Date:";
@@ -105,12 +105,12 @@ Aspose.Cells ile bir çalışma kitabını programatik olarak oluşturabilir, ve
                     String(now.getDate()).padStart(2, "0")
                 ].join("-");
                 cells.get("C12").value = invoiceDate;
-                // Fatura edilecek kişi bölümü
+                // Bill-to section
                 cells.get("B14").value = "Bill To:";
                 cells.get("B15").value = "Client Name";
                 cells.get("B16").value = "Client Address";
                 cells.get("B17").value = "Client City, State";
-                // Satır öğeleri başlığı
+                // Line items header
                 const headerDesc = cells.get("B19");
                 const headerQty = cells.get("C19");
                 const headerPrice = cells.get("D19");
@@ -133,20 +133,20 @@ Aspose.Cells ile bir çalışma kitabını programatik olarak oluşturabilir, ve
                 headerQty.style = headerStyle;
                 headerPrice.style = headerStyle;
                 headerTotal.style = headerStyle;
-                // Kenarlıklı para birimi stili
+                // Currency style with borders
                 const currencyStyle = workbook.createStyle();
                 currencyStyle.custom = '"$"#,##0.00';
                 currencyStyle.borders.get(AsposeCells.BorderType.TopBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.BottomBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.LeftBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
-                // Açıklama/miktar hücreleri için sade kenarlık stili
+                // Plain border style for description/quantity cells
                 const borderStyle = workbook.createStyle();
                 borderStyle.borders.get(AsposeCells.BorderType.TopBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.BottomBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.LeftBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
-                // Satır öğeleri satırları
+                // Line items rows
                 const lineItems = [
                     ["Product A - Widget", 2, 50.00],
                     ["Product B - Gadget", 3, 75.00],
@@ -167,7 +167,7 @@ Aspose.Cells ile bir çalışma kitabını programatik olarak oluşturabilir, ve
                     priceCell.style = currencyStyle;
                     totalCell.style = currencyStyle;
                 }
-                // Ara toplam, vergi, genel toplam
+                // Subtotal, tax, grand total
                 cells.get("B24").value = "Subtotal:";
                 const subtotalCell = cells.get("E24");
                 subtotalCell.formula = "SUM(E21:E23)";
@@ -177,20 +177,20 @@ Aspose.Cells ile bir çalışma kitabını programatik olarak oluşturabilir, ve
                 cells.get("B26").value = "Grand Total:";
                 const grandTotalCell = cells.get("E26");
                 grandTotalCell.formula = "E24+E25";
-                // Toplam değerler için kalın + para birimi stili
+                // Bold + currency style for total values
                 const totalStyle = workbook.createStyle();
                 totalStyle.font.isBold = true;
                 totalStyle.custom = '"$"#,##0.00';
                 subtotalCell.style = totalStyle;
                 taxCell.style = totalStyle;
                 grandTotalCell.style = totalStyle;
-                // Toplam etiketleri için kalın stil
+                // Bold style for total labels
                 const boldStyle = workbook.createStyle();
                 boldStyle.font.isBold = true;
                 cells.get("B24").style = boldStyle;
                 cells.get("B25").style = boldStyle;
                 cells.get("B26").style = boldStyle;
-                // Çalışma kitabını OFD dosyası olarak kaydet
+                // Save the workbook as an OFD file
                 const outputData = workbook.save(AsposeCells.SaveFormat.Ofd);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById('downloadLink');
@@ -267,9 +267,9 @@ Aspose.Cells, diskte bulunan mevcut bir Excel çalışma kitabını yükleyebili
                     runButton.disabled = true;
                     downloadLink.style.display = "none";
                     downloadLink.removeAttribute("href");
-                    // Diskte mevcut bir Excel çalışma kitabını aç
+                    // Open an existing Excel workbook from disk
                     const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
-                    // (1) Dosyanın yüklendiğini doğrulamak için seçili hücrelerdeki değerleri oku ve göster
+                    // (1) Read and display values from selected cells to confirm the file was loaded
                     const firstSheet = workbook.worksheets.get(0);
                     const cells = firstSheet.cells;
                     const output = [];
@@ -277,26 +277,26 @@ Aspose.Cells, diskte bulunan mevcut bir Excel çalışma kitabını yükleyebili
                     output.push("Cell A1: " + cells.get("A1").stringValue);
                     output.push("Cell B1: " + cells.get("B1").stringValue);
                     output.push("Cell C1: " + cells.get("C1").stringValue);
-                    // (2) Mevcut sayfaları listelemek için Worksheets koleksiyonu üzerinde yinele
+                    // (2) Iterate over the Worksheets collection to enumerate available sheets
                     output.push("");
                     output.push("Available worksheets:");
                     for (let i = 0; i < workbook.worksheets.count; i++) {
                         const ws = workbook.worksheets.get(i);
                         output.push("  [" + i + "] " + ws.name);
                     }
-                    // (3) İsteğe bağlı olarak dönüşümü yansıtmak için zaman damgası hücresini güncelle
+                    // (3) Optionally update a timestamp cell to reflect the conversion
                     cells.get("A1").value = "Converted on: " + formatTimestamp(new Date());
-                    // Veri bloğunun üst kısmına özet başlık satırı ekle
+                    // Append a summary header row at the top of the data block
                     cells.insertRow(0);
                     cells.get("A1").value = "Conversion Summary";
                     cells.get("A2").value = "Generated: " + formatTimestamp(new Date());
-                    // (4) Çalışma sayfasında PageSetup özelliklerini yapılandır
+                    // (4) Configure PageSetup properties on the worksheet
                     const pageSetup = firstSheet.pageSetup;
                     pageSetup.orientation = AsposeCells.PageOrientationType.Landscape;
                     pageSetup.paperSize = AsposeCells.PaperSizeType.PaperA4;
                     pageSetup.fitToPagesTall = 1;
                     pageSetup.fitToPagesWide = 1;
-                    // (5) İsteğe bağlı olarak OFD çıktısı için yazdırma alanını ayarla
+                    // (5) Optionally set the print area for the OFD output
                     const lastRow = cells.maxDataRow;
                     const lastCol = cells.maxDataColumn;
                     const lastColLetter = CellsHelper.columnIndexToName(lastCol);
@@ -304,7 +304,7 @@ Aspose.Cells, diskte bulunan mevcut bir Excel çalışma kitabını yükleyebili
                     pageSetup.printArea = printArea;
                     output.push("");
                     output.push("Print area set to: " + printArea);
-                    // (6) Çalışma kitabını OFD dosyası olarak kaydet
+                    // (6) Save the workbook as an OFD file
                     const outputData = workbook.save(AsposeCells.SaveFormat.Ofd);
                     const blob = new Blob([outputData]);
                     downloadLink.href = URL.createObjectURL(blob);

@@ -1,6 +1,6 @@
 ---
 title: 读取和写入 DBF 文件
-linktitle: 读取和写入 DBF 文件
+linktitle: 读取/写入DBF
 description: Aspose.Cells 是一个基于 C++ 的 JavaScript 库，用于处理电子表格文件，支持读取和写入 dBASE III 和 IV (DBF) 文件。本文介绍如何使用 Aspose.Cells 从 DBF 文件导入数据并将数据导出到 DBF 文件，包括文件格式详细信息、支持的特性和分步示例。
 keywords: Aspose.Cells, 基于 C++ 的 JavaScript 库, DBF, dBASE, 读取 DBF, 写入 DBF, 导入 DBF, 导出 DBF, 文件格式, .dbf
 type: docs
@@ -161,43 +161,43 @@ Aspose.Cells 可轻松将数据从 DBF 文件加载到 Workbook 对象中。该�
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // 列标题
+            // Column headers
             cells.get(0, 0).value = "ID";
             cells.get(0, 1).value = "Name";
             cells.get(0, 2).value = "Department";
             cells.get(0, 3).value = "Salary";
             cells.get(0, 4).value = "HireDate";
-            // 数据行 1
+            // Data row 1
             cells.get(1, 0).value = 101;
             cells.get(1, 1).value = "John Smith";
             cells.get(1, 2).value = "Engineering";
             cells.get(1, 3).value = 75000.50;
             cells.get(1, 4).value = new Date(2020, 2, 15);
-            // 数据行 2
+            // Data row 2
             cells.get(2, 0).value = 102;
             cells.get(2, 1).value = "Jane Doe";
             cells.get(2, 2).value = "Marketing";
             cells.get(2, 3).value = 68000.75;
             cells.get(2, 4).value = new Date(2019, 6, 22);
-            // 数据行 3
+            // Data row 3
             cells.get(3, 0).value = 103;
             cells.get(3, 1).value = "Bob Johnson";
             cells.get(3, 2).value = "Finance";
             cells.get(3, 3).value = 82000.00;
             cells.get(3, 4).value = new Date(2021, 0, 10);
-            // 数据行 4
+            // Data row 4
             cells.get(4, 0).value = 104;
             cells.get(4, 1).value = "Alice Brown";
             cells.get(4, 2).value = "Human Resources";
             cells.get(4, 3).value = 71000.25;
             cells.get(4, 4).value = new Date(2018, 10, 5);
-            // 数据行 5
+            // Data row 5
             cells.get(5, 0).value = 105;
             cells.get(5, 1).value = "Charlie Wilson";
             cells.get(5, 2).value = "Operations";
             cells.get(5, 3).value = 79500.80;
             cells.get(5, 4).value = new Date(2022, 4, 30);
-            // 设置列宽以提高可读性
+            // Set column widths for better readability
             cells.setColumnWidth(0, 8);
             cells.setColumnWidth(1, 20);
             cells.setColumnWidth(2, 20);

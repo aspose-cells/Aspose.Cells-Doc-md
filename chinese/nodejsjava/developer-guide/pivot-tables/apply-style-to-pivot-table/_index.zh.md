@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for Node.js via Java 中为数据透视表应用样式
-linktitle: 在 Aspose.Cells for Node.js via Java 中为数据透视表应用样式
+linktitle: 应用数据透视表样式
 description: 了解如何在 Aspose.Cells for Node.js via Java 中为数据透视表应用内置和自定义样式,涵盖传统 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式以及 formatAll 快捷方式。
 keywords: Aspose.Cells Node.js via Java 数据透视表样式, PivotTableStyleType, AutoFormatType, FormatAll, 自定义样式, PivotTableStyleName, TableStyles
 type: docs
@@ -31,10 +31,10 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。两者之间的
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// 获取第一个工作表
+// Get the first worksheet
 let sheet = workbook.getWorksheets().get(0);
-// 填充源数据，包括表头行（Fruit、Year、Amount）
-// 以及 9 行数据，涵盖 2020 和 2021 年的葡萄、蓝莓、猕猴桃、樱桃
+// Populate the source data with header row (Fruit, Year, Amount)
+// and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.getCells().get(0, 0).putValue("Fruit");
 sheet.getCells().get(0, 1).putValue("Year");
 sheet.getCells().get(0, 2).putValue("Amount");
@@ -65,17 +65,17 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// 在目标单元格 E3 添加一个名为 的数据透视表，源数据范围为 A1:C10
+// Add a pivot table at destination cell E3, using source range A1:C10
 let pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// 分配字段：Fruit -> 行，Amount -> 数据
+// Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// 应用旧版 XLS 预设自动格式 "Report5"
-// 注意：此属性仅在保存为 .xls 格式时有效。
-// 当保存为 .xlsx/.xlsm/.xlsb 格式时，Excel 会忽略 AutoFormatType，
-// 而使用 PivotTableStyleType / PivotTableStyleName 所指定的样式。
+// Apply the legacy XLS preset autoformat "Report5"
+// Note: This property is only meaningful when saving as .xls.
+// When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+// and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivotTable.setAutoFormatType(AsposeCells.PivotTableAutoFormatType.REPORT_5);
-// 将工作簿保存为旧版 .xls 格式
+// Save the workbook in legacy .xls format
 workbook.save("output.xls");
 ```
 
@@ -157,7 +157,7 @@ workbook.save("output.xlsx");
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// 填充源数据：标题行 + 9 行数据 (A1:C10)
+// Populate source data: header row + 9 data rows (A1:C10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -188,15 +188,15 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// 添加数据透视表，源数据为 A1:C10，锚定在 E3，名称为
+// Add pivot table sourced from A1:C10, anchored at E3
 let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// 步骤 1：注册一个新的自定义数据透视表样式并捕获其索引
+// Step 1: register a new custom pivot table style and capture its index
 let styleIndex = workbook.getWorksheets().getTableStyles().addPivotTableStyle("CustomPivotStyle");
 let tableStyle = workbook.getWorksheets().getTableStyles().get(styleIndex);
-// 步骤 2：添加一个 WholeTable 元素并在四边应用细黑色边框
+// Step 2: add a WholeTable element and apply thin black borders on all four sides
 let wholeTableElementIndex = tableStyle.getTableStyleElements().add(AsposeCells.TableStyleElementType.WHOLE_TABLE);
 let wholeTableElement = tableStyle.getTableStyleElements().get(wholeTableElementIndex);
 let wholeTableStyle = workbook.createStyle();
@@ -213,14 +213,14 @@ let rightBorder = wholeTableStyle.getBorders().getByBorderType(AsposeCells.Borde
 rightBorder.setLineStyle(AsposeCells.CellBorderType.THIN);
 rightBorder.setColor(AsposeCells.Color.getBlack());
 wholeTableElement.setElementStyle(wholeTableStyle);
-// 步骤 3：添加一个 GrandTotalRow 元素并应用粗体红色字体
+// Step 3: add a GrandTotalRow element and apply bold red font
 let grandTotalElementIndex = tableStyle.getTableStyleElements().add(AsposeCells.TableStyleElementType.GRAND_TOTAL_ROW);
 let grandTotalElement = tableStyle.getTableStyleElements().get(grandTotalElementIndex);
 let grandTotalStyle = workbook.createStyle();
 grandTotalStyle.getFont().setBold(true);
 grandTotalStyle.getFont().setColor(AsposeCells.Color.getRed());
 grandTotalElement.setElementStyle(grandTotalStyle);
-// 步骤 4：按名称应用自定义样式（不要使用 PivotTableStyleType，那是用于内置预设样式的）
+// Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
@@ -237,7 +237,7 @@ workbook.save("output.xlsx");
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// 填充源数据：表头行（第1行）+ 9行数据（第2-10行）
+// Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -268,13 +268,13 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// 添加数据透视表：源数据区域 A1:C10，目标单元格 E3，名称
+// Add pivot table: source range A1:C10, destination cell E3
 let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// 分配透视字段：Fruit -> 行区域，Year -> 列区域，Amount -> 数据区域
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// 创建一个将强制应用于数据透视表每个单元格的样式
+// Build a Style that will be forced onto every cell of the pivot table
 let style = workbook.createStyle();
 style.setForegroundColor(AsposeCells.Color.getYellow());
 style.setPattern(AsposeCells.BackgroundType.SOLID);
@@ -288,10 +288,10 @@ style.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineSt
 style.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setColor(AsposeCells.Color.getBlack());
 style.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 style.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setColor(AsposeCells.Color.getBlack());
-// 应用 formatAll：强制将此单个样式应用于数据透视表的每个单元格，
-// 覆盖之前设置的任何 PivotTableStyleType / PivotTableStyleName
+// Apply formatAll: forces this single style onto every cell of the pivot table,
+// overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivotTable.formatAll(style);
-// 以现代 .xlsx 格式保存工作簿
+// Save the workbook in the modern .xlsx format
 workbook.save("output.xlsx");
 ```
 

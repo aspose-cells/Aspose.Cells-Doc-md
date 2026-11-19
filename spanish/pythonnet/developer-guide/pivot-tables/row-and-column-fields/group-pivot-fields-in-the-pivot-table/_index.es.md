@@ -1,6 +1,6 @@
 ---
 title: Agrupar Campos de Tabla Dinámica en la Tabla Dinámica
-linktitle: Agrupar Campos de Tabla Dinámica en la Tabla Dinámica
+linktitle: Agrupar campos dinámicos
 description: Aprenda a agrupar campos dinámicos de fila y columna en una tabla dinámica en períodos de fechas como meses y trimestres, y en rangos numéricos usando PivotField.Group y PivotFieldGroupOptions en Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells, tabla dinámica, agrupar campo dinámico, PivotField.Group, PivotFieldGroupOptions, agrupación por fechas, agrupación por números, meses, trimestres, rango numérico, Python via .NET
 type: docs
@@ -20,15 +20,15 @@ La sobrecarga sin parámetros de `pivot_field.group()` inspecciona el tipo de da
 
 ```python
 import aspose.cells as ac
-# Cargar el libro de muestra
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Acceder a la segunda hoja de cálculo y su tabla dinámica
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# Agrupar el primer campo de fila automáticamente.
-# El campo contiene fechas, por lo que se agrupa por meses.
+# Group the first row field automatically.
+# The field contains dates, so it is grouped by months.
 field = pt.row_fields[0]
 field.group()
-# Calcular los datos de la tabla dinámica y guardar el archivo de salida
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputAutoGroupPivotField.xlsx")
 ```
@@ -45,17 +45,17 @@ import aspose.cells as ac
 from datetime import datetime
 from aspose.cells.pivot import PivotGroupByType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# Cargar el libro de muestra
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Acceder a la segunda hoja de cálculo y su tabla dinámica
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# Agrupar el primer campo de fila (un campo de fecha) por meses y trimestres
+# Group the first row field (a date field) by months and quarters
 options = PivotFieldGroupOptions()
 options.start_date = datetime(2008, 1, 1)
 options.end_date = datetime(2008, 9, 5)
 options.group_types = [PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS]
 pt.row_fields[0].group(options)
-# Calcular los datos de la tabla dinámica y guardar el archivo de salida
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 ```
@@ -69,21 +69,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# Cargar el libro de muestra
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Acceder a la segunda hoja de cálculo y su tabla dinámica
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# FieldTwo es un campo de datos: muévalo al área de filas primero,
-# porque solo los campos de fila/columna se pueden agrupar
+# FieldTwo is a data field: move it to the row area first,
+# because only row/column fields can be grouped
 pt.add_field_to_area(PivotFieldType.ROW, "FieldTwo")
 pt.calculate_data()
-# Agrupar el campo numérico en los rangos 0-1, 2-3, 4-5
+# Group the numeric field into the ranges 0-1, 2-3, 4-5
 options = PivotFieldGroupOptions()
 options.start_number = 0.0
 options.end_number = 5.0
 options.interval = 2.0
 pt.row_fields[1].group(options)
-# Calcular los datos de la tabla dinámica y guardar el archivo de salida
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputNumberGroupPivotField.xlsx")
 ```

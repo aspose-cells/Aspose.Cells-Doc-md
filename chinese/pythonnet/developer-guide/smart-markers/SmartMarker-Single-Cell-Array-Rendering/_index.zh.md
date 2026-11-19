@@ -1,9 +1,9 @@
 ---
-title: SmartMarker 单单元格数组渲染 | Aspose.Cells for Python via .NET
-description: 学习如何使用 Aspose.Cells for Python via .NET 中 Smart Markers 的 ArrayAsSingle 和 ExtraDelimiter 属性将数组数据渲染到单个单元格中。
-linktitle: SmartMarker 单单元格数组渲染 | Aspose.Cells
+title: SmartMarker 单个单元格数组呈现 | Aspose.Cells for Python via .NET
+description: 了解如何在 Aspose.Cells for Python via .NET 中使用 arrayassingle 和 arraydelimiter 智能标记属性，将数组数据呈现到单个单元格中。
+linktitle: SmartMarker 单个单元格数组呈现 | Aspose.Cells
 url: /zh/python-net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
-keywords: Aspose.Cells, Python via .NET 库, 电子表格, Smart Markers, ArrayAsSingle, ExtraDelimiter, 单单元格数组, 数组渲染, 模板
+keywords: Aspose.Cells, Python via .NET 库, 电子表格, 智能标记, arrayassingle, arraydelimiter, 单个单元格数组, 数组呈现, 模板
 type: docs
 weight: 195
 ai_search_scope: cells_pythonnet
@@ -11,139 +11,177 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells 支持通过 Smart Markers 将数组数据渲染到单个单元格中。通过同时使用 `ArrayAsSingle` 属性和 `ExtraDelimiter` 属性，开发人员可以控制数组元素在单个单元格中的分隔方式，从而为报表和模板提供灵活的格式化功能。
+Aspose.Cells 可通过智能标记将数组数据源呈现到单个单元格中。`arrayassingle` 属性会关闭默认的逐元素展开行为，而 `arraydelimiter` 属性用于指定合并各元素时使用的分隔符——默认为逗号，也可以是任意单个字符或用引号括起的多字符字符串。
 {{% /alert %}}
 
 ## **简介**
-Aspose.Cells 中的 Smart Markers 是一项强大的、基于模板的功能，允许您使用标记表达式（如 `&=DataSource.Field`）动态填充电子表格数据。标记放置在设计器工作簿中，当模板由 `WorkbookDesigner` 处理时，标记会被替换为来自所提供数据源的值。
-默认情况下，当 Smart Marker 引用一个数组属性（例如，`&=DataSource.Numbers`）时，引擎会展开数组并将每个元素放置到相邻的单独单元格中——可以是水平横跨一行，也可以是垂直沿一列向下。虽然这种行为在许多场景下很方便，但在某些情况下，您可能更倾向于将整个数组渲染到单个单元格中，元素之间使用您选择的分隔符进行连接和分隔。
-`ArrayAsSingle` 和 `ExtraDelimiter` 属性一起在 Smart Marker 标签内使用，正是为了满足这一需求。它们允许您保持报表布局紧凑且可预测，同时仍然能够原生处理数组数据源。
+
+Aspose.Cells 中的智能标记是一项基于模板的功能，可使用 `&=DataSource.Field` 等标记表达式动态填充电子表格数据。该标记放置在设计器工作簿中，当模板由 `WorkbookDesigner` 处理时，标记将替换为所提供数据源中的值。
+默认情况下，当智能标记引用数组字段时（例如，绑定到包含四个值的列表的 `&=Product.Tags`），引擎会展开数组，并将每个元素放入各自的单元格，使值沿标记下方的列纵向排列。虽然此行为在许多场景中都很方便，但在某些情况下，您可能希望将整个数组呈现到一个单元格中，并将各元素连接起来，以自定义分隔符分隔。
+`arrayassingle` 和 `arraydelimiter` 属性以 `name:value` 形式写在智能标记的括号内，恰好可以满足这一需求。它们使您能够保持报告布局紧凑且可预测，同时仍可原生处理数组数据源。
 
 ## **为何需要此功能**
 
 ### **默认数组展开行为**
-当 Smart Marker 引用一个数组属性时，Aspose.Cells 默认会跨多个单元格展开数组。例如，对于包含四个值的 `string[]` 数组，使用 `&=Product.Tags` 这样的标记会将每个值放入各自的单元格中，从而推动其他模板内容向外移动，并可能破坏精心设计的报表布局。
+
+当智能标记引用数组字段时，Aspose.Cells 默认会将数组展开到多个单元格中。例如，对于包含四个值的列表，`&=Product.Tags` 这样的标记会将每个值放入其下方的独立单元格中，从而将其他模板内容向外推移，并可能破坏精心设计的报告布局。
 
 ### **用例限制**
-在许多实际场景中，默认的展开行为是不符合需求的：
-- **摘要式报表**，需要每个记录占用一行的紧凑布局。
-- **标签、标识或关键词列表**，需要以逗号分隔或竖线分隔的值显示在单个单元格中。
-- **筛选标签或状态指示器**，将多个值分组显示在一处以提高可读性。
-- **下游管道**（CSV 导出、PDF 渲染、邮件合并），期望每个单元格包含一个合并后的值，而不是展开的区域。
-- **跨平台兼容性**，某些使用者无法接受数组溢出到多个单元格的情况。
 
-### **它填补的空白**
-如果没有内置机制，开发人员将不得不在 Python 中预处理数据——在将数组绑定到工作簿设计器之前将其连接为带分隔符的字符串。这会导致逻辑重复、使数据模型复杂化，并增加出错的可能性。`ArrayAsSingle` 和 `ExtraDelimiter` 属性通过在 Smart Marker 内部以声明方式处理格式化问题，从而消除了这种变通方法。
+在许多实际场景中，默认的展开行为并不适合：
+- **摘要式报告**，需要采用每条记录一行的紧凑布局。
+- **标签、标注或关键词列表**，需要在单个单元格中显示以逗号或竖线分隔的值。
+- **筛选标签或状态指示符**，需要将多个值集中显示以提高可读性。
+- **下游管道**（CSV 导出、PDF 呈现、邮件合并），要求每个单元格包含单个合并值，而不是展开的区域。
+- **跨平台兼容性**，某些使用方无法接受数组横跨多个单元格。
+
+### **此功能填补的空白**
+
+如果没有内置机制，开发人员将不得不在 Python 中预处理数据，即先通过将列表连接为带分隔符的字符串，再将其绑定到工作簿设计器。这会重复实现逻辑、使数据模型复杂化，并增加出错概率。`arrayassingle` 和 `arraydelimiter` 属性通过在智能标记本身内以声明方式处理格式，消除了这种变通方案。
 
 ## **功能优势**
-在 Smart Markers 中使用 `ArrayAsSingle` 和 `ExtraDelimiter` 属性可提供以下优势：
-- **单单元格容纳**：所有数组元素都渲染到恰好一个单元格中，使布局保持紧凑和可预测。
-- **自定义分隔符控制**：可以指定任意分隔符字符串——逗号、分号、连字符、竖线、换行符或任何自定义文本。
-- **模板驱动的格式化**：无需额外的代码来预处理数据；格式化规则驻留在 Smart Marker 标签中。
-- **更整洁的报表**：数组数据不再将相邻的模板内容推入不同的行或列。
-- **多用途数据类型**：适用于字符串、数字、日期以及任何可以使用分隔符连接的其他数据类型。
-- **向后兼容性**：当省略这些属性时，将保留原有的展开行为，因此现有模板可以继续正常使用而无需修改。
+
+在智能标记中使用 `arrayassingle` 和 `arraydelimiter` 属性具有以下优势：
+- **单个单元格容纳**：所有数组元素均呈现到同一个单元格中，使布局保持紧凑且可预测。
+- **自定义分隔符控制**：可指定所需分隔符，例如默认逗号、分号、连字符、竖线，或 `" | "` 等带引号的多字符字符串。
+- **模板驱动的格式设置**：无需额外代码预处理数据；格式规则直接写在智能标记中。
+- **更清晰的报告**：数组数据不再将相邻的模板内容推入其他行或列。
+- ** versatile 数据类型**：适用于以 JSON 行提供的字符串列表和数值列表。
+- **向后兼容**：省略这些属性时，将保留原有的展开行为，因此现有模板可继续原样使用。
 
 ## **如何使用此功能**
 
-### **Smart Marker 语法**
-`ArrayAsSingle` 和 `ExtraDelimiter` 属性作为键值对传递，位于标准 Smart Marker 的圆括号内。通用语法为：
+### **智能标记语法**
+
+`arrayassingle` 和 `arraydelimiter` 属性在标准智能标记的括号内使用 Aspose.Cells 的 `name:value` 属性语法。一般语法如下：
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayField(arrayassingle:true,arraydelimiter:;)
 ```
 
 该标记由以下部分组成：
-- `&=DataSource.ArrayProperty` — 引用绑定数据源上数组属性的标准 Smart Marker。
-- `arrayasSingle=true` — 指示引擎将整个数组渲染到单个单元格中。只有值 `true` 会触发单单元格行为。
-- `extraDelimiter=", "` — 定义数组元素之间放置的分隔符。该值是一个字符串字面量；可以为空、单个字符或多个字符的字符串。
+- `&=DataSource.ArrayField` — 标准智能标记，用于引用绑定数据源上的数组字段。
+- `arrayassingle:true` — 指示引擎将整个数组呈现到单个单元格中，而不是展开各个元素。
+- `arraydelimiter:;` — 可选属性，用于定义数组元素之间的分隔符。省略该属性时，将使用逗号。
 
-{{% alert color="primary" %}}
-`extraDelimiter` 属性接受任何字符串字面量，包括多字符分隔符、自定义文本或转义序列（如 `\n` 表示换行分隔输出）。如果数组为空，则结果单元格将留空。
+{{% alert color="warning" %}}
+请以 `name:value` 形式写入属性（使用冒号，而不是等号），并用逗号分隔多个属性，且逗号后**不要留空格**。逗号后的空格会使解析到的值偏移一个字符——`(arrayassingle:true, arraydelimiter:;)` 将使用错误的分隔符 `:;` 连接，而不是 `;`。
 {{% /alert %}}
 
-### **分步工作流**
-以下工作流描述了如何使用 Smart Markers 将数组渲染到单个单元格中。
-1. **准备数据源**：创建一个公开返回数组的属性的类（或数据结构）。该属性可以返回 `list[str]`、`list[int]` 或任何其他受支持的数组类型。
-2. **创建设计器工作簿**：创建一个新的 `Workbook`，添加标题行，并放置一个 Smart Marker 单元格，该单元格引用带有 `arrayasSingle` 和 `extraDelimiter` 属性的数组属性。
-3. **实例化 WorkbookDesigner**：创建一个 `WorkbookDesigner` 对象，将设计器工作簿附加到该对象，并使用 `set_data_source` 方法绑定您的数据源。
-4. **处理标记**：调用 `WorkbookDesigner.process()` 方法展开 Smart Markers 并使用真实数据填充工作簿。
-5. **保存结果**：将生成的工作簿以 XLSX 或任何其他受支持的文件格式保存到磁盘。
+### **分隔符形式**
 
-### **代码示例 1 — 基本字符串数组渲染**
+- 单个字符直接跟在冒号后：`arraydelimiter:;`、`arraydelimiter:-`、`arraydelimiter:*`。
+- 多字符分隔符使用双引号括起：`arraydelimiter:" | "`、`arraydelimiter:" - "`。
+
+### **分步工作流**
+
+以下工作流介绍了如何使用智能标记将数组呈现到单个单元格中。
+1. **准备数据源**：将每条记录组织为字段中包含数组的 JSON 对象，例如 `{"Tags": ["C#", "Aspose"]}`。在此平台上，传递给 `set_data_source` 的普通 Python 类实例、字典和列表无法绑定数组字段——JSON 行才是受支持的表格形式。
+2. **创建设计器工作簿**：创建新的 `Workbook`，添加标题行，并放置一个引用数组字段的智能标记单元格，该单元格需包含 `arrayassingle` 属性；需要自定义分隔符时，还应包含 `arraydelimiter` 属性。
+3. **实例化 `WorkbookDesigner`**：基于该工作簿创建 `WorkbookDesigner`，并使用 `set_json_data_source` 附加 JSON 行。
+4. **处理标记**：调用 `WorkbookDesigner.process()` 方法展开智能标记，并使用实际数据填充工作簿。
+5. **保存结果**：将生成的工作簿以 XLSX 或其他受支持的文件格式保存到磁盘。
+
+### **代码示例 1 — 基本字符串数组呈现**
 
 ```python
 import aspose.cells as ac
-class Product:
-    def __init__(self):
-        self.Tags = []
-product = Product()
-product.Tags = ["C#", "Aspose", "SmartMarker", "Excel"]
+
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.cells.get("A1").put_value("Tags")
-worksheet.cells.get("A2").put_value("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")")
-designer = ac.WorkbookDesigner()
-designer.workbook = workbook
-designer.set_data_source("Product", product)
+# No spaces inside the parentheses: attributes are name:value pairs
+worksheet.cells.get("A2").put_value("&=Product.Tags(arrayassingle:true)")
+designer = ac.WorkbookDesigner(workbook)
+designer.set_json_data_source(
+    "Product",
+    '[{"Tags": ["C#", "Aspose", "SmartMarker", "Excel"]}]')
 designer.process()
-workbook.save("output_arraySingle.xlsx")
+print(worksheet.cells.get("A2").string_value)
+workbook.save("output-array-single.xlsx")
 ```
 
-### **代码示例 2 — 带自定义分隔符的数字数组**
+此示例会打印整个数组合并后的值。四个标签均位于一个单元格中，并使用默认逗号分隔：
+
+```
+C#,Aspose,SmartMarker,Excel
+```
+
+### **代码示例 2 — 使用自定义分隔符呈现数值数组**
 
 ```python
 import aspose.cells as ac
-class Student:
-    def __init__(self):
-        self.scores = []
-student = Student()
-student.scores = [95, 88, 76, 100, 67]
+
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.cells.get("A1").put_value("Scores")
-worksheet.cells.get("A2").put_value(" - ".join(str(s) for s in student.scores))
-workbook.save("output_numericArray.xlsx")
+# arraydelimiter:- joins the numbers with a hyphen
+worksheet.cells.get("A2").put_value("&=Student.Scores(arrayassingle:true,arraydelimiter:-)")
+designer = ac.WorkbookDesigner(workbook)
+designer.set_json_data_source(
+    "Student",
+    '[{"Scores": [95, 88, 76, 100, 67]}]')
+designer.process()
+print(worksheet.cells.get("A2").string_value)
+workbook.save("output-array-numeric.xlsx")
 ```
 
-### **代码示例 3 — 比较默认行为与 ArrayAsSingle 行为**
+JSON 数字的连接方式与字符串相同——每个元素都保留其纯数值文本：
+
+```
+95-88-76-100-67
+```
+
+### **代码示例 3 — 比较默认呈现与单个单元格呈现**
 
 ```python
 import aspose.cells as ac
-class Order:
-    def __init__(self, items):
-        self._items = items
-    @property
-    def Items(self):
-        return self._items
-    @Items.setter
-    def Items(self, value):
-        self._items = value
-order = Order(["Apple", "Banana", "Cherry", "Date"])
+
 workbook = ac.Workbook()
-sheet = workbook.worksheets[0]
-cells = sheet.cells
-# 第 1 节：默认智能标记 - 值水平跨单元格分布
-cells.get("A1").put_value("Default Spreading Behavior:")
-cells.get("A2").put_value("&=Order.Items")
-# 第 2 节：使用 arrayasSingle 和 extraDelimiter 进行新的单单元格渲染
-cells.get("A4").put_value("Single Cell Rendering (arrayasSingle=true):")
-cells.get("A5").put_value('&=Order.Items(arrayasSingle=true, extraDelimiter="; ")')
-# 绑定数据源并处理智能标记
+cells = workbook.worksheets[0].cells
+# Column B: default marker — values spread vertically down the column
+cells.get("B1").put_value("Default")
+cells.get("B2").put_value("&=Order.Items")
+# Column C: single-cell rendering — the whole array joins into one cell
+cells.get("C1").put_value("Single cell")
+cells.get("C2").put_value("&=Order.Items(arrayassingle:true)")
 designer = ac.WorkbookDesigner(workbook)
-designer.set_data_source("Order", order)
+designer.set_json_data_source(
+    "Order",
+    '[{"Items": ["Apple", "Banana", "Cherry", "Date"]}]')
 designer.process()
-# 保存生成的工作簿
-workbook.save("output_comparison.xlsx")
+for row in range(1, 6):
+    b = cells.get(row, 1).string_value or ""
+    c = cells.get(row, 2).string_value or ""
+    if b or c:
+        print(f"B{row + 1}=[{b}]  C{row + 1}=[{c}]")
+workbook.save("output-array-comparison.xlsx")
+```
+
+默认标记会沿 B 列向下为每个元素填充一个单元格，而 `arrayassingle` 标记则会将同一数组合并到 C 列的单个单元格中：
+
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
 ```
 
 ### **注意事项与最佳实践**
-在使用 `ArrayAsSingle` 和 `ExtraDelimiter` 属性时，请牢记以下几点：
-- `extraDelimiter` 的值被视为字符串字面量；对模板处理器可能解释的特殊字符进行转义。
-- `arrayasSingle` 属性接受布尔值（`True` / `False`）。只有 `True` 会触发单单元格行为；任何其他值将回退到默认的展开行为。
-- 如果数组为空或为 null，则该单元格将留空（或者根据数据类型包含一个空字符串）。
-- 该功能适用于对象数据源，也适用于可以将列拆分为数组的 `DataSet` 和 `DataTable` 数据源。
-- 对于换行分隔输出，您可以使用 `\n` 或 `os.linesep` 作为分隔符值。
-- 将 Smart Marker 放置在具有足够宽度的单元格中，以显示连接后的字符串；否则，根据格式的不同，内容可能会在视觉上溢出到相邻的单元格。
+
+使用 `arrayassingle` 和 `arraydelimiter` 属性时，请注意以下事项：
+- 属性值使用 `name:value` 形式。`arrayassingle=true` 这样的等号形式无法识别，并且会静默回退到默认展开行为。
+- 使用逗号分隔属性且不要留空格；逗号后的空格会使分隔符值偏移一个字符（请参阅上述警告）。
+- `arraydelimiter` 的值可以是直接写在冒号后的单个字符，也可以是使用双引号括起的多字符字符串。
+- 省略 `arraydelimiter` 时，各元素将使用逗号连接。
+- 通过 `set_json_data_source` 的行对象提供数组字段。在此平台上，传递给 `set_data_source` 的普通 Python 对象和字典无法绑定；如果自定义 `ICellsDataTable` 的列返回 Python 列表，则会呈现该列表的容器文本，而不会连接各个元素。
+- 在合并后的输出中，JSON 数字会保留其纯整数形式。
+
+## 相关文章
+- [在 Aspose.Cells for Python via .NET 中向数据透视表添加筛选字段](/cells/zh/python-net/add-page-field-in-pivot-table/)
+- [在 Aspose.Cells for Python via .NET 中为数据透视表应用样式](/cells/zh/python-net/apply-style-to-pivot-table/)
+- [修改数据透视表中的页字段布局](/cells/zh/python-net/change-page-field-layout/)
+- [在 Aspose.Cells for Python via .NET 中将迷你图转换为图像和 HTML](/cells/zh/python-net/convert-sparkline-to-image-and-html/)
+- [将 Excel 转换为 OFD 格式](/cells/zh/python-net/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="python-net" >}}

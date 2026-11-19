@@ -1,8 +1,8 @@
 ---
-title: Mostra valori come nella Tabella Pivot in Aspose.Cells for C++
-linktitle: Mostra valori come nella Tabella Pivot
-description: Visualizza i valori del campo dati della tabella pivot come percentuale del totale, differenza da un elemento base, totali cumulativi, ranghi e altro con Aspose.Cells for C++.
-keywords: Aspose.Cells, C++, Tabella Pivot, mostra valori come, formato visualizzazione dati, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex
+title: Mostra valori come in una tabella pivot in Aspose.Cells for C++
+linktitle: Mostra valori come in una tabella pivot
+description: Visualizza i valori dei campi dati di una tabella pivot in varie forme, ad esempio come percentuale del totale, come differenza da un elemento di base, come totale progressivo o come classifica, con Aspose.Cells for C++.
+keywords: Aspose.Cells, C++, tabella pivot, mostra valori come, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, ShowValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /it/cpp/show-values-as-in-pivot-table/
@@ -10,49 +10,52 @@ ai_search_scope: cells_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Scenari di utilizzo possibili**
-Una tabella pivot aggrega normalmente ogni campo dati con una funzione di aggregazione come `Sum` o `Count`. La funzionalità **Show Values As** di Excel sostituisce ogni risultato visualizzato con un calcolo secondario derivato da tale aggregato — ad esempio, una percentuale del totale globale, un totale cumulativo, una differenza da un elemento base scelto o un rango — consentendo di eseguire analisi comparative senza formule di supporto o colonne calcolate.  
-Gli usi tipici includono l'analisi della quota sul totale, comprese le percentuali di una riga, colonna o totale globale; reportistica cumulativa mediante totale in corso in un campo di periodo; analisi della varianza rispetto a un elemento di riferimento usando la differenza da o la differenza percentuale da un elemento base; e la classificazione dei valori dal più piccolo al più grande o viceversa.
+## **Possibili scenari di utilizzo**
+Una tabella pivot normalmente aggrega ogni campo dati mediante una funzione di aggregazione come `Sum` o `Count`. La funzione **Mostra valori come** di Excel sostituisce ogni risultato visualizzato con un calcolo secondario derivato da tale aggregazione, ad esempio una percentuale del totale complessivo, un totale progressivo, una differenza da un elemento di base selezionato o una classificazione, consentendo di eseguire analisi comparative senza formule ausiliarie o colonne calcolate.
+Gli utilizzi tipici includono l'analisi della quota del totale, comprese le percentuali di riga, di colonna o del totale complessivo; la generazione di report cumulativi mediante un totale progressivo in un campo di periodo; l'analisi della varianza rispetto a un elemento di riferimento mediante differenza o differenza percentuale da un elemento di base; e la classificazione dei valori dal più piccolo al più grande o dal più grande al più piccolo.
+In Aspose.Cells for C++, l'enumerazione `PivotShowValuesAsType` seleziona il calcolo secondario. Il metodo di accesso `PivotField.GetShowValuesSetting()` restituisce un oggetto `PivotShowValuesSetting`, i cui metodi `SetShowValuesAs`, `SetBaseFieldIndex` e `SetBaseItemIndex` configurano il comportamento. Il metodo `PivotField.ShowValuesAs(...)` costituisce un'alternativa per applicare le stesse impostazioni in una singola chiamata. Le impostazioni devono essere applicate a un campo dati o a un campo valore ottenuto da `PivotTable.GetDataFields()`.
 
-## **Membri dell'enumerazione PivotFieldDataDisplayFormat**
-Il campo dati conserva la sua funzione di aggregazione, ad esempio Sum o Count, mentre Show Values As trasforma solo il modo in cui il valore aggregato viene visualizzato.  
-Oltre a impostare direttamente i valori di `PivotShowValuesSetting` (vedi l'ultima sezione), un metodo di comodità con una sola chiamata applica la stessa configurazione:
+## **Membri dell'enumerazione PivotShowValuesAsType**
+Il campo dati mantiene la propria funzione di aggregazione, come `Sum` o `Count`, mentre Mostra valori come modifica esclusivamente la modalità di visualizzazione del valore aggregato.
+Oltre all'impostazione diretta dei valori `PivotShowValuesSetting` (vedere l'ultima sezione), è disponibile un metodo di convenienza che applica la stessa configurazione con una singola chiamata. Sono disponibili due forme: una che identifica il campo di base e l'elemento di base mediante indice e l'altra mediante nome:
 
 ```cpp
-void ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int32_t baseField, PivotItemPositionType baseItemPositionType, int32_t baseItem);
+void ShowValuesAs(PivotShowValuesAsType showValuesAsType, int32_t baseField, int32_t baseItem);
+void ShowValuesAs(PivotShowValuesAsType showValuesAsType, const U16String& baseField, const U16String& baseItem);
+// index form: PivotShowValuesAsType::PercentageOfTotal, 0, 0
+// name form:  PivotShowValuesAsType::PercentageOf, u"Fruit", u"Apple"
 ```
 
 | Parametro | Significato | Quando è obbligatorio |
 | --- | --- | --- |
-| `displayFormat` | Il calcolo secondario `PivotFieldDataDisplayFormat` da applicare. | Sempre. |
-| `baseField` | Indice basato su zero del campo base tra i campi base della tabella pivot (ad esempio, l'indice del campo riga a cui appartiene l'elemento base). | Solo per i sei formati a base di riferimento riportati di seguito (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfRunningTotalIn`, `PercentageOfParentTotal`); ignorato da ogni altro formato. |
-| `baseItemPositionType` | Come viene scelto l'elemento base rispetto all'elemento corrente: `PivotItemPositionType::Previous`, `::Next` o `::Custom`. | Solo per i tre formati con elemento di base (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`); ignorato da ogni altro formato. |
-| `baseItem` | Indice basato su zero dell'elemento base. | Solo quando `baseItemPositionType` è `Custom` (l'indice specifica l'elemento base esatto); ignorato per `Previous` / `Next` e per tutti i formati non basati su elemento — passare `0`. |
+| `showValuesAsType` | Il tipo di calcolo secondario `PivotShowValuesAsType` da applicare. | Sempre. |
+| `baseField` | Indice a base zero del campo di base tra i campi di base della tabella pivot (ad esempio, l'indice del campo di riga a cui appartiene l'elemento di base) oppure, nella forma basata sul nome, il nome del campo di base. | Per gli otto formati relativi alla base elencati di seguito (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, `RankSmallestToLargest`, `RankLargestToSmallest`); per tutti gli altri formati, passare `0` (o un `U16String` vuoto nella forma basata sul nome). |
+| `baseItem` | Indice a base zero dell'elemento di base, con due valori sentinella: -1 seleziona l'elemento precedente e -2 quello successivo (l'API C++ non definisce costanti nominate per i valori sentinella, pertanto occorre passare i valori letterali). Nella forma basata sul nome, il parametro accetta la didascalia dell'elemento di base; occorre passare un `U16String` vuoto quando il formato selezionato non richiede alcun elemento di base. | Solo per i tre formati basati sull'elemento di base (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`), che valutano l'elemento di base; i cinque formati relativi al campo (`RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, entrambe le classificazioni) lo ignorano, pertanto occorre passare `0` o un `U16String` vuoto. |
 
-| Tipo di calcolo | Comportamento | Parametri elemento base |
+| Tipo di calcolo | Comportamento | Parametri relativi alla base |
 | --- | --- | --- |
-| `Normal` | Nessun calcolo secondario; il valore aggregato viene visualizzato così com'è (predefinito). | — |
-| `DifferenceFrom` | Visualizza il valore come differenza rispetto al valore di un elemento base in un campo base. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` solo con `Custom`) |
-| `PercentageOf` | Visualizza il valore come percentuale del valore di un elemento base in un campo base. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` solo con `Custom`) |
-| `PercentageDifferenceFrom` | Visualizza il valore come differenza percentuale rispetto al valore di un elemento base in un campo base. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` solo con `Custom`) |
-| `RunningTotalIn` | Visualizza il valore come totale cumulativo per gli elementi successivi di un campo base. | `baseField` (il campo il cui ordine di elementi guida l'accumulazione) |
+| `Normal` | Nessun calcolo secondario; il valore aggregato viene visualizzato invariato (predefinito). | — |
+| `DifferenceFrom` | Visualizza il valore come differenza rispetto al valore di un elemento di base in un campo di base. | `baseField` + `baseItem` (un indice o una didascalia, oppure il valore sentinella dell'elemento precedente o successivo) |
+| `PercentageOf` | Visualizza il valore come percentuale del valore di un elemento di base in un campo di base. | `baseField` + `baseItem` (un indice o una didascalia, oppure il valore sentinella dell'elemento precedente o successivo) |
+| `PercentageDifferenceFrom` | Visualizza il valore come differenza percentuale rispetto al valore di un elemento di base in un campo di base. | `baseField` + `baseItem` (un indice o una didascalia, oppure il valore sentinella dell'elemento precedente o successivo) |
+| `RunningTotalIn` | Visualizza il valore come totale progressivo per gli elementi successivi di un campo di base. | `baseField` (il campo il cui ordine degli elementi determina l'accumulamento) |
 | `PercentageOfRow` | Visualizza il valore come percentuale del totale della riga. | — |
 | `PercentageOfColumn` | Visualizza il valore come percentuale del totale della colonna. | — |
-| `PercentageOfTotal` | Visualizza il valore come percentuale del totale globale. | — |
-| `Index` | Visualizza il valore usando la formula di indice di Excel ((valore * totale globale) / (totale riga * totale colonna)). | — |
-| `PercentageOfParentRowTotal` | Visualizza il valore come percentuale del totale della riga padre (per campi riga nidificati). | — |
-| `PercentageOfParentColumnTotal` | Visualizza il valore come percentuale del totale della colonna padre (per campi colonna nidificati). | — |
-| `PercentageOfParentTotal` | Visualizza il valore come percentuale del totale del padre. | `baseField` (il campo padre di riferimento) |
-| `PercentageOfRunningTotalIn` | Visualizza il valore come percentuale di un totale cumulativo in un campo base. | `baseField` (il campo di accumulazione) |
-| `RankSmallestToLargest` | Assegna un rango al valore dal più piccolo (1) al più grande. | — |
-| `RankLargestToSmallest` | Assegna un rango al valore dal più grande (1) al più piccolo. | — |
+| `PercentageOfTotal` | Visualizza il valore come percentuale del totale complessivo. | — |
+| `Index` | Visualizza il valore utilizzando la formula dell'indice di Excel ((valore * totale complessivo) / (totale della riga * totale della colonna)). | — |
+| `PercentageOfParentRowTotal` | Visualizza il valore come percentuale del totale della riga padre (per campi di riga annidati). | — |
+| `PercentageOfParentColumnTotal` | Visualizza il valore come percentuale del totale della colonna padre (per campi di colonna annidati). | — |
+| `PercentageOfParentTotal` | Visualizza il valore come percentuale del totale del campo padre. | `baseField` (il campo padre il cui totale viene utilizzato come riferimento) |
+| `PercentageOfRunningTotalIn` | Visualizza il valore come percentuale di un totale progressivo in un campo di base. | `baseField` (il campo di accumulo) |
+| `RankSmallestToLargest` | Classifica il valore dal più piccolo (1) al più grande. | `baseField` (il campo i cui elementi definiscono l'ambito della classificazione) |
+| `RankLargestToSmallest` | Classifica il valore dal più grande (1) al più piccolo. | `baseField` (il campo i cui elementi definiscono l'ambito della classificazione) |
 
 {{% alert color="primary" %}}
-`ShowValuesAs(...)` scrive i valori di `PivotShowValuesSetting` (`CalculationType`, `BaseFieldIndex`, `BaseItemPositionType`, `BaseItemIndex`) — il metodo e l'oggetto impostazioni sono due modi per configurare lo stesso stato, rispecchiando i selettori di campo base ed elemento base nella finestra di dialogo **Show Values As** di Excel.
+`ShowValuesAs(...)` imposta i valori `PivotShowValuesSetting` (`ShowValuesAs`, `BaseFieldIndex` e `BaseItemIndex`); il metodo e l'oggetto delle impostazioni sono due modi per configurare lo stesso stato, corrispondenti ai selettori del campo di base e dell'elemento di base nella finestra Mostra valori come di Excel.
 {{% /alert %}}
 
 ## **Mostra valori come percentuale del totale**
-Chiama il metodo `PivotField.ShowValuesAs` con `PivotFieldDataDisplayFormat::PercentageOfTotal` per convertire ogni cella del campo dati, incluso il totale globale, nella sua quota del totale globale. I numeri visualizzati quindi rappresentano proporzioni dell'insieme completo dei risultati. Questo formato confronta ogni valore solo con il totale globale, quindi non richiede né campo base né elemento base — gli argomenti finali (`0`, `PivotItemPositionType::Previous`, `0`) sono segnaposto che il formato ignora, come indicato nella tabella dei parametri sopra.
+Chiamare il metodo `PivotField.ShowValuesAs` con `PivotShowValuesAsType::PercentageOfTotal` per rappresentare ogni cella del campo dati, compreso il totale complessivo, come quota del totale complessivo. I numeri visualizzati rappresentano quindi proporzioni dell'insieme completo dei risultati. Questo formato confronta ogni valore esclusivamente con il totale complessivo; pertanto non richiede né un campo di base né un elemento di base. I segnaposto finali (`0`, `0`) vengono ignorati dal formato, come indicato nella tabella dei parametri.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -81,9 +84,9 @@ int main() {
     pivotTable.CalculateData();
     // Show the Amount data field as a percentage of the grand total with the
     // one-call method; PercentageOfTotal takes no base item, so the trailing
-    // base arguments (0, Previous, 0) are placeholders the format ignores
+    // base arguments (0, 0) are placeholders the format ignores
     PivotField dataField = pivotTable.GetDataFields().Get(0);
-    dataField.ShowValuesAs(PivotFieldDataDisplayFormat::PercentageOfTotal, 0, PivotItemPositionType::Previous, 0);
+    dataField.ShowValuesAs(PivotShowValuesAsType::PercentageOfTotal, 0, 0);
     pivotTable.CalculateData();
     // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
     workbook.Save(u"ShowValuesAsPercentageOfTotal.xlsx");
@@ -92,14 +95,14 @@ int main() {
 }
 ```
 
-## **Ottieni e configura PivotField.ShowValuesSetting**
-Leggi la configurazione corrente tramite `PivotField.GetShowValuesSetting()`: l'accessor restituisce l'oggetto `PivotShowValuesSetting` del campo, il cui quattro metodi getter descrivono il calcolo Show Values As attivo. Per modificare la configurazione, chiama il metodo `PivotField.ShowValuesAs` — scrive tutte e quattro le impostazioni in una sola chiamata, così non è necessario assegnare i valori uno per uno.  
-L'oggetto `PivotShowValuesSetting` espone i quattro valori che `ShowValuesAs` scrive:
-- `GetCalculationType()` / `SetCalculationType()` selezionano il calcolo secondario `PivotFieldDataDisplayFormat`.
-- `GetBaseFieldIndex()` / `SetBaseFieldIndex()` specificano l'indice basato su zero del campo base all'interno dei campi pivot. Viene usato dai formati a base di riferimento.
-- `GetBaseItemPositionType()` / `SetBaseItemPositionType()` determinano come l'elemento base è posizionato rispetto all'elemento corrente e accettano `PivotItemPositionType::Next`, `PivotItemPositionType::Previous` o `PivotItemPositionType::Custom`.
-- `GetBaseItemIndex()` / `SetBaseItemIndex()` specificano l'indice basato su zero dell'elemento base e sono usati quando il tipo di posizione è `Custom`.
-Dopo aver chiamato `ShowValuesAs`, richiama nuovamente `PivotTable.CalculateData()` affinché il corpo della tabella pivot venga ricalcolato e ridisegnato con la configurazione aggiornata.
+## **Ottenere e configurare PivotField.ShowValuesSetting**
+Leggere la configurazione corrente tramite `PivotField.GetShowValuesSetting()`: il metodo restituisce l'oggetto `PivotShowValuesSetting` del campo, i cui metodi di lettura descrivono il calcolo secondario Mostra valori come attivo. Per modificare la configurazione, chiamare il metodo `PivotField.ShowValuesAs`, che imposta tutte le opzioni in una singola chiamata e consente di evitare di impostarle singolarmente.
+L'oggetto `PivotShowValuesSetting` espone lo stato impostato da `ShowValuesAs`:
+- `GetShowValuesAs()` / `SetShowValuesAs()` selezionano il calcolo secondario `PivotShowValuesAsType`.
+- `GetBaseFieldIndex()` / `SetBaseFieldIndex()` specificano l'indice a base zero del campo di base tra i campi della tabella pivot. L'indice è utilizzato dai formati relativi alla base.
+- `GetBaseItemIndex()` / `SetBaseItemIndex()` specificano l'elemento di base: l'indice a base zero di un elemento specifico della tabella pivot oppure uno dei due valori sentinella, -1 per l'elemento precedente e -2 per quello successivo (l'API C++ non definisce costanti nominate per i valori sentinella). L'elemento è utilizzato dai formati basati sull'elemento di base.
+- `GetBaseFieldName()` e `GetBaseItemCaption()` forniscono viste di sola lettura del nome risolto del campo di base e della didascalia dell'elemento di base; ad esempio, dopo aver selezionato il valore sentinella dell'elemento precedente, `GetBaseItemCaption()` restituisce `(previous)`.
+Dopo aver chiamato `ShowValuesAs`, chiamare nuovamente `PivotTable.CalculateData()` affinché il corpo della tabella pivot venga ricalcolato e ridisegnato con la configurazione aggiornata.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -113,19 +116,22 @@ int main() {
     PivotField dataField = pivotTable.GetDataFields().Get(0);
     // Read the current show-values settings
     PivotShowValuesSetting settings = dataField.GetShowValuesSetting();
-    std::cout << "CalculationType: " << static_cast<int32_t>(settings.GetCalculationType()) << std::endl;
+    std::cout << "ShowValuesAs: " << static_cast<int32_t>(settings.GetShowValuesAs()) << std::endl;
     std::cout << "BaseFieldIndex: " << settings.GetBaseFieldIndex() << std::endl;
-    std::cout << "BaseItemPositionType: " << static_cast<int32_t>(settings.GetBaseItemPositionType()) << std::endl;
     std::cout << "BaseItemIndex: " << settings.GetBaseItemIndex() << std::endl;
+    std::cout << "BaseFieldName: " << settings.GetBaseFieldName().ToUtf8() << std::endl;
+    std::cout << "BaseItemCaption: " << settings.GetBaseItemCaption().ToUtf8() << std::endl;
     // Switch to a base-item calculation with the one-call method: difference
     // from the value of the previous item in the row field
-    dataField.ShowValuesAs(PivotFieldDataDisplayFormat::DifferenceFrom,
-        pivotTable.GetRowFields().Get(0).GetBaseIndex(), PivotItemPositionType::Previous, 0);
+    // (-1 is the previous-item sentinel; no named constant exists in C++)
+    dataField.ShowValuesAs(PivotShowValuesAsType::DifferenceFrom,
+        pivotTable.GetRowFields().Get(0).GetBaseIndex(), -1);
     pivotTable.CalculateData();
     // Note: the percentage number format saved by the previous example still
     // clings to the data field cells; the underlying values are now differences
     // Re-read the applied configuration
-    std::cout << "CalculationType now: " << static_cast<int32_t>(dataField.GetShowValuesSetting().GetCalculationType()) << std::endl;
+    std::cout << "ShowValuesAs now: " << static_cast<int32_t>(dataField.GetShowValuesSetting().GetShowValuesAs()) << std::endl;
+    std::cout << "BaseItemCaption now: " << dataField.GetShowValuesSetting().GetBaseItemCaption().ToUtf8() << std::endl;
     workbook.Save(u"ShowValuesAsDifferenceFrom.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -133,8 +139,8 @@ int main() {
 ```
 
 ## **Articoli correlati**
-- [Gestione dei campi valore nella Tabella Pivot](/cells/it/cpp/manage-value-fields/)
-- [Aggiornamento della Tabella Pivot](/cells/it/cpp/refresh-pivot-table/)
-- [Applicazione di stile alla Tabella Pivot](/cells/it/cpp/apply-style-to-pivot-table/)
+- [Gestione dei campi valore nella tabella pivot](/cells/it/cpp/manage-value-fields/)
+- [Aggiornamento della tabella pivot](/cells/it/cpp/refresh-pivot-table/)
+- [Applicazione di uno stile alla tabella pivot](/cells/it/cpp/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="cpp" >}}

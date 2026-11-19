@@ -22,7 +22,7 @@ Aspose.Cells предоставляет пять практических стр
 3. **Фильтр по значениям** — фильтрует элементы на основе агрегированных значений поля данных.
 4. **Фильтр топ-10** — показывает только N верхних или нижних элементов, ранжированных по полю значений.
 5. **Скрытие / отображение элементов сводной таблицы** — ручное управление видимостью каждого отдельного элемента в поле.
-Каждый подход использует отдельный метод класса `PivotField` или свойство класса `PivotItem`. После применения любого фильтра необходимо вызвать `refreshData()` и `calculateData()` на сводной таблице, чтобы кэшированные данные и вычисленные значения отражали новое состояние фильтра.
+Каждый подход использует отдельный метод класса `PivotField` или свойство класса `PivotItem`. После применения любого фильтра необходимо вызвать `getPivotCache().refresh()` на сводной таблице, чтобы кэшированные данные и вычисленные значения отражали новое состояние фильтра.
 
 ## **Фильтр по меткам**
 Фильтр по меткам позволяет фильтровать элементы поля строк или столбцов путём сравнения их текстовых заголовков с шаблоном. Это полезно, когда требуется отобразить только те продукты, названия которых начинаются с определённой буквы, содержат конкретное слово или удовлетворяют другому критерию, основанному на заголовках.
@@ -33,19 +33,19 @@ Aspose.Cells предоставляет фильтрацию по меткам �
 const AsposeCells = require("aspose.cells.node");
 let fileName = "sample.xlsx";
 let prefix = "B";
-// Загрузить существующую книгу, содержащую сводную таблицу
+// Load the existing workbook containing a pivot table
 let workbook = new AsposeCells.Workbook(fileName);
-// Получить доступ к рабочему листу по индексу (первый рабочий лист)
+// Access the worksheet by index (first worksheet)
 let worksheet = workbook.getWorksheets().get(0);
-// Получить доступ к сводной таблице по индексу
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// Извлечь первое строковое поле PivotField
+// Retrieve the first row PivotField
 let rowField = pivotTable.getRowFields().get(0);
-// Применить фильтр по подписи — отображать только элементы строк, подписи которых начинаются с указанного префикса
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
-// Обновить и пересчитать данные сводной таблицы, чтобы фильтр вступил в силу
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Сохранить книгу обратно на диск
+// Save the workbook back to disk
 workbook.save(fileName);
 ```
 
@@ -67,23 +67,23 @@ if (!fs.existsSync(inputPath))
 {
     throw new Error("Source workbook not found: " + inputPath);
 }
-// Загрузить существующую книгу, содержащую сводную таблицу
+// Load the existing workbook that contains the pivot table
 const workbook = new AsposeCells.Workbook(inputPath);
-// Получить доступ к листу, содержащему сводную таблицу (по индексу)
+// Access the worksheet that holds the pivot table (by index)
 const worksheet = workbook.getWorksheets().get(0);
-// Получить доступ к сводной таблице по индексу
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// Получить поле даты PivotField из области строк
-// (Фильтр по дате работает только когда область строк/столбцов содержит только ячейки с датой-временем или пустые)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 const dateField = pivotTable.getRowFields().get(0);
-// Определить критерий даты для фильтра Between
+// Define the date criterion for the Between filter
 const startDate = new Date(2020, 0, 1);
 const endDate = new Date(2020, 11, 31);
-// Применить фильтр по дате к полю сводной таблицы
+// Apply the date filter on the pivot field
 dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
-// Обновить и пересчитать сводную таблицу, чтобы фильтр вступил в силу
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Сохранить книгу
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
@@ -119,32 +119,32 @@ Aspose.Cells предоставляет фильтрацию Top 10 через �
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Загружаем существующую книгу, содержащую сводную таблицу
+// Load the existing workbook that contains the pivot table
 const inputPath = "input.xlsx";
 const outputPath = "output.xlsx";
 const workbook = new AsposeCells.Workbook(inputPath);
-// Получаем доступ к листу, содержащему сводную таблицу (индекс 0)
+// Access the worksheet that holds the pivot table (index 0)
 const worksheet = workbook.getWorksheets().get(0);
-// Получаем доступ к сводной таблице по индексу
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// Проверяем, что в области данных есть хотя бы одно поле значений (PivotField)
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() === 0) {
     throw new Error("Pivot table has no value (data) PivotField.");
 }
 const valueField = pivotTable.getDataFields().get(0);
-// Получаем целевое поле строки (PivotField), к которому применяем фильтр Top 10
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 const rowField = pivotTable.getRowFields().get(0);
-// Первое (и единственное) поле данных находится по индексу 0; Top 10 ранжирует по нему.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 const valueFieldIndex = 0;
-// Применяем фильтр Top 10 к полю строки:
+// Apply the Top 10 filter on the row field:
 //   - itemCount   = 10
 //   - filterType  = PivotFilterType.Sum
-//   - isTop       = true (верхние N; false — нижние N)
-//   - valueFieldIndex = индекс поля данных, используемого для ранжирования элементов
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
-// Обновляем данные сводной таблицы и пересчитываем её, чтобы фильтр вступил в силу
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Сохраняем книгу
+// Save the workbook
 workbook.save(outputPath);
 ```
 

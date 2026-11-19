@@ -178,6 +178,7 @@ Every `conditionalFormats.add()` call appends one `PivotConditionalFormat` to th
 ```js
 const fs = require("fs");
 const { AsposeCells } = require("aspose.cells.js");
+const { Workbook } = AsposeCells;
 AsposeCells.onReady().then(() => {
     // Reload the file written by the first example
     const workbook = new Workbook(new Uint8Array(fs.readFileSync("PivotConditionalFormatData.xlsx")));

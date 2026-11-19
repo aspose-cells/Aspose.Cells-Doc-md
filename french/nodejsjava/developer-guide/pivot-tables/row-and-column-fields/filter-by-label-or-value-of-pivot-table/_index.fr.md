@@ -22,7 +22,7 @@ Les stratégies de filtrage suivantes sont traitées dans cet article :
 3. **Filtre de valeur** — filtre les éléments en fonction des valeurs agrégées d'un champ de données.
 4. **Filtre des 10 premiers** — affiche uniquement les N premiers ou N derniers éléments classés selon un champ de valeur.
 5. **Masquer / Afficher des éléments** — contrôle manuellement la visibilité de chaque élément individuel dans un champ.
-Chaque approche utilise une méthode différente de la classe `PivotField` ou une propriété de la classe `PivotItem`. Après l'application de tout filtre, vous devez appeler `refreshData()` et `calculateData()` sur le tableau croisé dynamique afin que les données mises en cache et les valeurs calculées reflètent le nouvel état du filtre.
+Chaque approche utilise une méthode différente de la classe `PivotField` ou une propriété de la classe `PivotItem`. Après l'application de tout filtre, vous devez appeler `getPivotCache().refresh()` sur le tableau croisé dynamique afin que les données mises en cache et les valeurs calculées reflètent le nouvel état du filtre.
 
 ## **Filtre d'étiquette**
 Un filtre d'étiquette vous permet de filtrer les éléments d'un champ de ligne ou de colonne en comparant leurs libellés textuels à un motif. Cela est utile lorsque vous souhaitez afficher uniquement les produits dont les noms commencent par une lettre spécifique, contiennent un mot particulier ou correspondent à un autre critère basé sur le libellé.
@@ -33,19 +33,19 @@ L'exemple suivant charge un classeur contenant un tableau croisé dynamique exis
 const AsposeCells = require("aspose.cells");
 let fileName = "sample.xlsx";
 let prefix = "B";
-// Charger le classeur existant contenant un tableau croisé dynamique
+// Load the existing workbook containing a pivot table
 let workbook = new AsposeCells.Workbook(fileName);
-// Accéder à la feuille de calcul par index (première feuille)
+// Access the worksheet by index (first worksheet)
 let worksheet = workbook.getWorksheets().get(0);
-// Accéder au tableau croisé dynamique par index
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// Récupérer le premier PivotField de ligne
+// Retrieve the first row PivotField
 let rowField = pivotTable.getRowFields().get(0);
-// Appliquer le filtre d'étiquette — afficher uniquement les éléments de ligne dont les étiquettes commencent par le préfixe fourni
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(AsposeCells.PivotFilterType.CAPTION_BEGINS_WITH, prefix, "");
-// Actualiser et recalculer les données du tableau croisé dynamique pour que le filtre prenne effet
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Enregistrer le classeur sur le disque
+// Save the workbook back to disk
 workbook.save(fileName);
 ```
 
@@ -67,23 +67,23 @@ if (!fs.existsSync(inputPath))
 {
     throw new Error("Source workbook not found. Path: " + inputPath);
 }
-// Charger le classeur existant qui contient le tableau croisé dynamique
+// Load the existing workbook that contains the pivot table
 var workbook = new AsposeCells.Workbook(inputPath);
-// Accéder à la feuille de calcul qui contient le tableau croisé dynamique (par index)
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.getWorksheets().get(0);
-// Accéder au tableau croisé dynamique par index
+// Access the pivot table by index
 var pivotTable = worksheet.getPivotTables().get(0);
-// Récupérer le PivotField de date depuis la zone des lignes
-// (Le filtre de date ne fonctionne que lorsque la zone des lignes/colonnes contient uniquement des cellules date-heure ou des cellules vides)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 let dateField = pivotTable.getRowFields().get(0);
-// Définir le critère de date pour le filtre Between
+// Define the date criterion for the Between filter
 let startDate = new Date(2020, 0, 1);
 let endDate = new Date(2020, 11, 31);
-// Appliquer le filtre de date sur le champ croisé dynamique
+// Apply the date filter on the pivot field
 dateField.filterByDate(AsposeCells.PivotFilterType.DATE_BETWEEN, startDate, endDate);
-// Actualiser et recalculer le tableau croisé dynamique pour que le filtre prenne effet
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Enregistrer le classeur
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
@@ -99,7 +99,7 @@ var worksheet = workbook.getWorksheets().get(0);
 var pivotTable = worksheet.getPivotTables().get(0);
 var rowField = pivotTable.getRowFields().get(0);
 var dataField = pivotTable.getDataFields().get(0);
-// Trouver l'index du champ de données manuellement car PivotFieldCollection n'a pas de méthode IndexOf
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 var dataFieldIndex = -1;
 for (var i = 0; i < pivotTable.getDataFields().getCount(); i++)
 {
@@ -131,29 +131,29 @@ const AsposeCells = require("aspose.cells");
 let inputPath = "input.xlsx";
 let outputPath = "output.xlsx";
 let workbook = new AsposeCells.Workbook(inputPath);
-// Accéder à la feuille de calcul qui contient le tableau croisé dynamique (index 0)
+// Access the worksheet that holds the pivot table (index 0)
 let worksheet = workbook.getWorksheets().get(0);
-// Accéder au tableau croisé dynamique par index
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// Confirmer qu'il y a au moins un PivotField de valeur dans la zone de données
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() == 0)
 {
     throw new Error("Pivot table has no value (data) PivotField.");
 }
 let valueField = pivotTable.getDataFields().get(0);
-// Récupérer le PivotField de ligne cible (le champ sur lequel nous voulons appliquer Top 10)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 let rowField = pivotTable.getRowFields().get(0);
-// Le premier (et seul) champ de données est à l'index 0 ; Top 10 classe selon lui.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 let valueFieldIndex = 0;
-// Appliquer le filtre Top 10 sur le champ de ligne :
+// Apply the Top 10 filter on the row field:
 //   - itemCount   = 10
 //   - filterType  = PivotFilterType.SUM
-//   - isTop       = true (top N ; false signifierait bottom N)
-//   - valueFieldIndex = l'index du champ de données utilisé pour classer les éléments
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.COUNT, true, 10);
-// Actualiser les données du tableau croisé dynamique et les recalculer pour que le filtre prenne effet
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Enregistrer le classeur
+// Save the workbook
 workbook.save(outputPath);
 ```
 
@@ -164,29 +164,29 @@ Cette approche est utile lorsque la règle de filtrage est irrégulière ou spé
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
-// Accéder à la première feuille de calcul qui contient le tableau croisé dynamique
+// Access the first worksheet which contains the pivot table
 let sheet = workbook.getWorksheets().get(0);
-// Accéder au tableau croisé dynamique par index (le premier tableau croisé dynamique de la feuille)
+// Access the pivot table by index (the first pivot table on the sheet)
 let pivotTable = sheet.getPivotTables().get(0);
-// Récupérer le PivotField cible (le premier champ d'étiquette de ligne dans lequel nous masquerons/afficherons des éléments)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 let pivotField = pivotTable.getRowFields().get(0);
-// Parcourir la collection PivotItems du PivotField sélectionné
+// Iterate through the PivotItems collection of the selected PivotField
 let itemCount = pivotField.getPivotItems().getCount();
 for (let i = 0; i < itemCount; i++) {
     let item = pivotField.getPivotItems().get(i);
-    // Masquer les éléments du tableau croisé dynamique qui correspondent à un nom/critère spécifique
+    // Hide pivot items that match a specific name/criterion
     if (item.getName() == "Item1" || item.getName() == "Item2") {
         item.setHidden(true);
     }
-    // Démontrer le réaffichage : ré-afficher un élément précédemment masqué du tableau croisé dynamique
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.getName() == "Item3") {
         item.setHidden(false);
     }
 }
-// Actualiser et recalculer le tableau croisé dynamique pour que les modifications prennent effet
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh();
-// Enregistrer le classeur — les éléments masqués restent dans les données sous-jacentes
-// mais sont exclus de l'affichage du tableau croisé dynamique
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx");
 ```
 

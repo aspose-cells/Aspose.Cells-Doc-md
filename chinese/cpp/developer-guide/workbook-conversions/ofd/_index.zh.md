@@ -29,38 +29,38 @@ Aspose.Cells 允许您以编程方式构建工作簿、填充数据，然后使�
 此示例通过以下步骤构建发票工作表：将徽标图像插入左上角区域，填充公司名称和联系信息，通过合并单元格添加“INVOICE”标题，记录发票编号和日期，列出收货方客户端，创建包含说明、数量、单价和总计列的明细项目表，并使用单元格公式计算小计、税额和总计。粗体标题、价格货币格式、边框和列宽等格式通过 `Style` 和 `Font` 对象应用。最后，使用 `SaveFormat.Ofd` 将工作簿保存为 `.ofd` 扩展名。
 
 ```cpp
-// Aspose.Cells for C++ 示例
-// 使用 Aspose.Cells 26.6.0（或更高版本）和 C++17（或更高版本）编译器进行编译
+// Aspose.Cells for C++ example
+// Compile with Aspose.Cells 26.6.0 (or later) and a C++17 (or later) compiler
 #include "Aspose.Cells.h"
 #include <string>
 #include <ctime>
 using namespace Aspose::Cells;
 int main()
 {
-    // 初始化 Aspose.Cells
+    // Initialize Aspose.Cells
     Aspose::Cells::Startup();
-    // 资源和输出目录
+    // Directory for resources and output
     const char16_t* dataDir = u"C:\\Temp\\";
-    // 创建新工作簿
+    // Create a new workbook
     Workbook workbook;
-    // 获取第一个工作表
+    // Obtain the first worksheet
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // 设置列宽
+    // Set column widths
     cells.SetColumnWidth(0, 5.0);
     cells.SetColumnWidth(1, 35.0);
     cells.SetColumnWidth(2, 12.0);
     cells.SetColumnWidth(3, 15.0);
     cells.SetColumnWidth(4, 15.0);
     cells.SetColumnWidth(5, 5.0);
-    // 插入公司徽标
+    // Insert company logo
     worksheet.GetPictures().Add(1, 1, U16String(dataDir) + u"logo.png");
-    // 公司名称和联系方式
+    // Company name and contact details
     cells.Get(u"B3").PutValue(u"Acme Corporation");
     cells.Get(u"B4").PutValue(u"123 Business Street");
     cells.Get(u"B5").PutValue(u"City, State 12345");
     cells.Get(u"B6").PutValue(u"Phone: (555) 123-4567");
-    // INVOICE 标题 - 合并单元格
+    // INVOICE title - merge cells
     cells.Merge(7, 1, 2, 4);
     Cell titleCell = cells.Get(u"B8");
     titleCell.PutValue(u"INVOICE");
@@ -69,7 +69,7 @@ int main()
     titleStyle.GetFont().SetSize(20);
     titleStyle.SetHorizontalAlignment(TextAlignmentType::Center);
     titleCell.SetStyle(titleStyle);
-    // 发票编号和日期
+    // Invoice number and date
     cells.Get(u"B11").PutValue(u"Invoice Number:");
     cells.Get(u"C11").PutValue(u"INV-2024-001");
     cells.Get(u"B12").PutValue(u"Date:");
@@ -78,12 +78,12 @@ int main()
     char dateBuffer[11];
     std::strftime(dateBuffer, sizeof(dateBuffer), "%Y-%m-%d", now);
     cells.Get(u"C12").PutValue(U16String(dateBuffer));
-    // 付款方信息
+    // Bill-to section
     cells.Get(u"B14").PutValue(u"Bill To:");
     cells.Get(u"B15").PutValue(u"Client Name");
     cells.Get(u"B16").PutValue(u"Client Address");
     cells.Get(u"B17").PutValue(u"Client City, State");
-    // 明细项目表头
+    // Line items header
     Cell headerDesc = cells.Get(u"B19");
     Cell headerQty = cells.Get(u"C19");
     Cell headerPrice = cells.Get(u"D19");
@@ -106,20 +106,20 @@ int main()
     headerQty.SetStyle(headerStyle);
     headerPrice.SetStyle(headerStyle);
     headerTotal.SetStyle(headerStyle);
-    // 带边框的货币样式
+    // Currency style with borders
     Style currencyStyle = workbook.CreateStyle();
     currencyStyle.SetCustom(u"\"$\"#,##0.00");
     currencyStyle.GetBorders().Get(BorderType::TopBorder).SetLineStyle(CellBorderType::Thin);
     currencyStyle.GetBorders().Get(BorderType::BottomBorder).SetLineStyle(CellBorderType::Thin);
     currencyStyle.GetBorders().Get(BorderType::LeftBorder).SetLineStyle(CellBorderType::Thin);
     currencyStyle.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
-    // 用于描述/数量单元格的普通边框样式
+    // Plain border style for description/quantity cells
     Style borderStyle = workbook.CreateStyle();
     borderStyle.GetBorders().Get(BorderType::TopBorder).SetLineStyle(CellBorderType::Thin);
     borderStyle.GetBorders().Get(BorderType::BottomBorder).SetLineStyle(CellBorderType::Thin);
     borderStyle.GetBorders().Get(BorderType::LeftBorder).SetLineStyle(CellBorderType::Thin);
     borderStyle.GetBorders().Get(BorderType::RightBorder).SetLineStyle(CellBorderType::Thin);
-    // 明细项目行
+    // Line items rows
     struct LineItem { const char16_t* desc; int qty; double price; };
     LineItem lineItems[] = {
         {u"Product A - Widget", 2, 50.00},
@@ -143,7 +143,7 @@ int main()
         priceCell.SetStyle(currencyStyle);
         totalCell.SetStyle(currencyStyle);
     }
-    // 小计、税费、总计
+    // Subtotal, tax, grand total
     cells.Get(u"B24").PutValue(u"Subtotal:");
     Cell subtotalCell = cells.Get(u"E24");
     subtotalCell.SetFormula(u"SUM(E21:E23)");
@@ -153,22 +153,22 @@ int main()
     cells.Get(u"B26").PutValue(u"Grand Total:");
     Cell grandTotalCell = cells.Get(u"E26");
     grandTotalCell.SetFormula(u"E24+E25");
-    // 总计值的粗体 + 货币样式
+    // Bold + currency style for total values
     Style totalStyle = workbook.CreateStyle();
     totalStyle.GetFont().SetIsBold(true);
     totalStyle.SetCustom(u"\"$\"#,##0.00");
     subtotalCell.SetStyle(totalStyle);
     taxCell.SetStyle(totalStyle);
     grandTotalCell.SetStyle(totalStyle);
-    // 总计标签的粗体样式
+    // Bold style for total labels
     Style boldStyle = workbook.CreateStyle();
     boldStyle.GetFont().SetIsBold(true);
     cells.Get(u"B24").SetStyle(boldStyle);
     cells.Get(u"B25").SetStyle(boldStyle);
     cells.Get(u"B26").SetStyle(boldStyle);
-    // 将工作簿保存为 OFD 文件
+    // Save the workbook as an OFD file
     workbook.Save(U16String(dataDir) + u"Invoice.ofd", SaveFormat::Ofd);
-    // 清理 Aspose.Cells 资源
+    // Cleanup Aspose.Cells resources
     Aspose::Cells::Cleanup();
     return 0;
 }
@@ -193,9 +193,9 @@ std::string GetCurrentTimestamp() {
 int main() {
     Aspose::Cells::Startup();
     std::string dataDir = "C:\\Examples\\";
-    // 从磁盘打开现有的 Excel 工作簿
+    // Open an existing Excel workbook from disk
     Workbook workbook(U16String((dataDir + "SampleBook.xlsx").c_str()));
-    // (1) 读取并显示选定单元格的值，以确认文件已加载
+    // (1) Read and display values from selected cells to confirm the file was loaded
     Worksheet firstSheet = workbook.GetWorksheets().Get(0);
     U16String sheetName = firstSheet.GetName();
     Cell a1 = firstSheet.GetCells().Get(u"A1");
@@ -205,7 +205,7 @@ int main() {
     std::cout << "Cell A1: " << a1.GetStringValue().ToUtf8() << std::endl;
     std::cout << "Cell B1: " << b1.GetStringValue().ToUtf8() << std::endl;
     std::cout << "Cell C1: " << c1.GetStringValue().ToUtf8() << std::endl;
-    // (2) 遍历 Worksheets 集合以枚举可用的工作表
+    // (2) Iterate over the Worksheets collection to enumerate available sheets
     std::cout << "\nAvailable worksheets:" << std::endl;
     WorksheetCollection sheets = workbook.GetWorksheets();
     int sheetCount = sheets.GetCount();
@@ -214,28 +214,28 @@ int main() {
         U16String wsName = ws.GetName();
         std::cout << "  [" << i << "] " << wsName.ToUtf8() << std::endl;
     }
-    // (3) 根据需要更新时间戳单元格以反映转换情况
+    // (3) Optionally update a timestamp cell to reflect the conversion
     std::string timestamp1 = GetCurrentTimestamp();
     firstSheet.GetCells().Get(u"A1").PutValue(U16String(("Converted on: " + timestamp1).c_str()));
-    // 在数据块顶部追加摘要标题行
+    // Append a summary header row at the top of the data block
     firstSheet.GetCells().InsertRow(0);
     firstSheet.GetCells().Get(u"A1").PutValue(u"Conversion Summary");
     std::string timestamp2 = GetCurrentTimestamp();
     firstSheet.GetCells().Get(u"A2").PutValue(U16String(("Generated: " + timestamp2).c_str()));
-    // (4) 配置工作表的 PageSetup 属性
+    // (4) Configure PageSetup properties on the worksheet
     PageSetup pageSetup = firstSheet.GetPageSetup();
     pageSetup.SetOrientation(PageOrientationType::Landscape);
     pageSetup.SetPaperSize(PaperSizeType::PaperA4);
     pageSetup.SetFitToPagesTall(1);
     pageSetup.SetFitToPagesWide(1);
-    // (5) 根据需要设置 OFD 输出的打印区域
+    // (5) Optionally set the print area for the OFD output
     int lastRow = firstSheet.GetCells().GetMaxDataRow();
     int lastCol = firstSheet.GetCells().GetMaxDataColumn();
     U16String lastColLetter = CellsHelper::ColumnIndexToName(lastCol);
     std::string printArea = "A1:" + lastColLetter.ToUtf8() + std::to_string(lastRow + 1);
     firstSheet.GetPageSetup().SetPrintArea(U16String(printArea.c_str()));
     std::cout << "\nPrint area set to: " << printArea << std::endl;
-    // (6) 将工作簿保存为 OFD 文件
+    // (6) Save the workbook as an OFD file
     workbook.Save(U16String((dataDir + "SampleBook.ofd").c_str()), SaveFormat::Ofd);
     std::cout << "\nFile successfully converted to OFD format: " << dataDir << "SampleBook.ofd" << std::endl;
     Aspose::Cells::Cleanup();

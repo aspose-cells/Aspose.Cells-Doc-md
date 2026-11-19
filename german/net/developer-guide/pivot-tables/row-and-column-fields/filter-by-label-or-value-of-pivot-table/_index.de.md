@@ -36,19 +36,19 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 string fileName = "sample.xlsx";
 string prefix = "B";
-// Laden Sie die vorhandene Arbeitsmappe mit einer Pivot-Tabelle
+// Load the existing workbook containing a pivot table
 Workbook workbook = new Workbook(fileName);
-// Zugriff auf das Arbeitsblatt nach Index (erstes Arbeitsblatt)
+// Access the worksheet by index (first worksheet)
 Worksheet worksheet = workbook.Worksheets[0];
-// Zugriff auf die Pivot-Tabelle nach Index
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Abrufen des ersten Zeilen-PivotField
+// Retrieve the first row PivotField
 PivotField rowField = pivotTable.RowFields[0];
-// Anwenden des Beschriftungsfilters – nur Zeilenelemente anzeigen, deren Beschriftungen mit dem angegebenen Präfix beginnen
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.FilterByLabel(PivotFilterType.CaptionBeginsWith, prefix, string.Empty);
-// Aktualisieren und Neuberechnen der Pivot-Tabellendaten, damit der Filter wirksam wird
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Speichern der Arbeitsmappe zurück auf die Festplatte
+// Save the workbook back to disk
 workbook.Save(fileName);
 ```
 
@@ -72,23 +72,23 @@ if (!File.Exists(inputPath))
 {
     throw new FileNotFoundException("Source workbook not found.", inputPath);
 }
-// Laden Sie die vorhandene Arbeitsmappe, die die Pivot-Tabelle enthält
+// Load the existing workbook that contains the pivot table
 var workbook = new Workbook(inputPath);
-// Zugriff auf das Arbeitsblatt, das die Pivot-Tabelle enthält (nach Index)
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.Worksheets[0];
-// Zugriff auf die Pivot-Tabelle nach Index
+// Access the pivot table by index
 var pivotTable = worksheet.PivotTables[0];
-// Abrufen des Datums-PivotField aus dem Zeilenbereich
-// (Der Datumsfilter funktioniert nur, wenn der Zeilen-/Spaltenbereich nur Datums-/Uhrzeit-Zellen oder Leerzeichen enthält)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 PivotField dateField = pivotTable.RowFields[0];
-// Definieren des Datumskriteriums für den Zwischen-Filter
+// Define the date criterion for the Between filter
 DateTime startDate = new DateTime(2020, 1, 1);
 DateTime endDate = new DateTime(2020, 12, 31);
-// Anwenden des Datumsfilters auf das Pivot-Feld
+// Apply the date filter on the pivot field
 dateField.FilterByDate(PivotFilterType.DateBetween, startDate, endDate);
-// Aktualisieren und Neuberechnen der Pivot-Tabelle, damit der Filter wirksam wird
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Speichern der Arbeitsmappe
+// Persist the workbook
 workbook.Save(outputPath);
 ```
 
@@ -105,7 +105,7 @@ var worksheet = workbook.Worksheets[0];
 var pivotTable = worksheet.PivotTables[0];
 var rowField = pivotTable.RowFields[0];
 var dataField = pivotTable.DataFields[0];
-// Datenfeldindex manuell finden, da PivotFieldCollection keine IndexOf-Methode besitzt
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 int dataFieldIndex = -1;
 for (int i = 0; i < pivotTable.DataFields.Count; i++)
 {
@@ -137,33 +137,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Laden Sie die vorhandene Arbeitsmappe, die die Pivot-Tabelle enthält
+// Load the existing workbook that contains the pivot table
 string inputPath = "input.xlsx";
 string outputPath = "output.xlsx";
 Workbook workbook = new Workbook(inputPath);
-// Zugriff auf das Arbeitsblatt, das die Pivot-Tabelle enthält (Index 0)
+// Access the worksheet that holds the pivot table (index 0)
 Worksheet worksheet = workbook.Worksheets[0];
-// Zugriff auf die Pivot-Tabelle nach Index
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// Stellen Sie sicher, dass mindestens ein Wert-PivotField im Datenbereich vorhanden ist
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.DataFields.Count == 0)
 {
     throw new InvalidOperationException("Pivot table has no value (data) PivotField.");
 }
 PivotField valueField = pivotTable.DataFields[0];
-// Abrufen des Ziel-Zeilen-PivotFields (das Feld, auf das wir Top 10 anwenden möchten)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 PivotField rowField = pivotTable.RowFields[0];
-// Das erste (und einzige) Datenfeld befindet sich bei Index 0; Top 10 ordnet danach.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 int valueFieldIndex = 0;
-// Anwenden des Top-10-Filters auf das Zeilenfeld:
+// Apply the Top 10 filter on the row field:
+//   - valueFieldIndex = 0 — the data field used to rank items
+//   - filterType  = PivotFilterType.Count (keep a fixed number of items;
+//     PivotFilterType.Percent would interpret 10 as "top 10 percent")
+//   - isTop       = true (top N; false would mean bottom N)
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Count
-//   - isTop       = true (obere N; false würde untere N bedeuten)
-//   - valueFieldIndex = der Index des Datenfelds, das zum Rangordnen der Elemente verwendet wird
 rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
-// Aktualisieren Sie die Pivot-Tabellendaten und berechnen Sie sie neu, damit der Filter wirksam wird
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// Speichern der Arbeitsmappe
+// Save the workbook
 workbook.Save(outputPath);
 ```
 
@@ -176,34 +177,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Eine vorhandene Arbeitsmappe mit Pivot-Tabelle laden
+// Load an existing workbook containing a pivot table
 Workbook workbook = new Workbook("pivot_table_sample.xlsx");
-// Auf das erste Arbeitsblatt zugreifen, das die Pivot-Tabelle enthält
+// Access the first worksheet which contains the pivot table
 Worksheet sheet = workbook.Worksheets[0];
-// Auf die Pivot-Tabelle nach Index zugreifen (die erste Pivot-Tabelle auf dem Blatt)
+// Access the pivot table by index (the first pivot table on the sheet)
 PivotTable pivotTable = sheet.PivotTables[0];
-// Das Ziel-PivotField abrufen (das erste Zeilenbeschriftungsfeld, in dem wir Elemente ausblenden/einblenden werden)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 PivotField pivotField = pivotTable.RowFields[0];
-// Durch die PivotItems-Auflistung des ausgewählten PivotField iterieren
+// Iterate through the PivotItems collection of the selected PivotField
 int itemCount = pivotField.PivotItems.Count;
 for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.PivotItems[i];
-    // Pivot-Elemente ausblenden, die einem bestimmten Namen/Kriterium entsprechen
+    // Hide pivot items that match a specific name/criterion
     if (item.Name == "Item1" || item.Name == "Item2")
     {
         item.IsHidden = true;
     }
-    // Einblenden demonstrieren: Ein zuvor ausgeblendetes Pivot-Element wieder anzeigen
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.Name == "Item3")
     {
         item.IsHidden = false;
     }
 }
-// Die Pivot-Tabelle aktualisieren und neu berechnen, damit die Änderungen wirksam werden
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.PivotCache.Refresh();
-// Die Arbeitsmappe speichern – ausgeblendete Elemente bleiben in den zugrunde liegenden Daten erhalten,
-// werden jedoch aus der angezeigten Pivot-Tabellen-Ausgabe ausgeschlossen
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.Save("output_pivot_filtered.xlsx");
 ```
 

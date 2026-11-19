@@ -1,8 +1,8 @@
 ---
-title: Mostra valori come nella tabella pivot
-linktitle: Mostra valori come nella tabella pivot
-description: Visualizza i valori dei campi dati della tabella pivot come percentuale del totale, differenza da un elemento base, totali cumulativi, ranghi e altro con Aspose.Cells for JavaScript via C++.
-keywords: Aspose.Cells, JavaScript via C++, tabella pivot, mostra valori come, formato visualizzazione dati, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex
+title: Mostra Valori Come in Tabella Pivot
+linktitle: Mostra Valori Come in Tabella Pivot
+description: Visualizza i valori dei campi dati della tabella pivot come percentuale del totale, differenza da un elemento base, totali cumulativi, classifiche e altro con Aspose.Cells for JavaScript via C++.
+keywords: Aspose.Cells, JavaScript via C++, tabella pivot, mostra valori come, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, showValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /it/javascript-cpp/show-values-as-in-pivot-table/
@@ -10,50 +10,56 @@ ai_search_scope: cells_javascriptcpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Possibili scenari di utilizzo**
-Una tabella pivot normalmente aggrega ogni campo dati con una funzione di aggregazione come `Sum` o `Count`. La funzionalità **Show Values As** di Excel sostituisce ogni risultato visualizzato con un calcolo secondario derivato da quell'aggregato — ad esempio, una percentuale del totale generale, un totale cumulativo, una differenza da un elemento base scelto o un rango — così è possibile eseguire analisi comparative senza formule di supporto o colonne calcolate.  
-Gli usi tipici includono l'analisi della quota del totale, comprese le percentuali di riga, colonna o totale generale; la reportistica cumulativa usando un totale cumulativo in un campo di periodo; l'analisi delle varianze rispetto a un elemento di riferimento usando differenza o differenza percentuale da un elemento base; e la classificazione dei valori dal più piccolo al più grande o viceversa.  
-In Aspose.Cells for JavaScript via C++, `PivotFieldDataDisplayFormat` seleziona il calcolo secondario. La proprietà di sola lettura `PivotField.showValuesSetting` restituisce un oggetto `PivotShowValuesSetting`, le cui proprietà scrivibili `calculationType`, `baseFieldIndex`, `baseItemPositionType` e `baseItemIndex` configurano il comportamento; il metodo di convenienza `PivotField.showValuesAs(...)` applica le stesse quattro impostazioni in un'unica chiamata. Applica queste impostazioni a un campo dati o valore ottenuto da `PivotTable.dataFields`.
+## **Possibili Scenari d'Uso**
+Una tabella pivot aggrega normalmente ogni campo dati con una funzione di aggregazione come `Sum` o `Count`. La funzionalità **Show Values As** di Excel sostituisce ogni risultato visualizzato con un calcolo secondario derivato da quell'aggregato — ad esempio, una percentuale del totale generale, un totale cumulativo, una differenza da un elemento base scelto o una classifica — così è possibile eseguire analisi comparative senza formule ausiliarie o colonne calcolate.  
+Gli usi tipici includono l'analisi della quota totale, comprese le percentuali di una riga, colonna o totale generale; reportistica cumulativa usando un totale cumulativo in un campo periodo; analisi della varianza rispetto a un elemento di riferimento usando la differenza da o la differenza percentuale da un elemento base; e la classificazione dei valori dal più piccolo al più grande o dal più grande al più piccolo.  
+In Aspose.Cells for JavaScript via C++, l'enumerazione `PivotShowValuesAsType` seleziona il calcolo secondario. La proprietà di sola lettura `PivotField.showValuesSetting` restituisce un oggetto `PivotShowValuesSetting`, le cui proprietà scrivibili `showValuesAs`, `baseFieldIndex` e `baseItemIndex` configurano il comportamento; il metodo di comodità `PivotField.showValuesAs(...)` applica le stesse impostazioni in una sola chiamata. Applica queste impostazioni a un campo dati o valore ottenuto da `PivotTable.dataFields`.
 
-## **Membri dell'enumerazione PivotFieldDataDisplayFormat**
-Il campo dati mantiene la sua funzione di aggregazione, come Sum o Count, mentre **Show Values As** trasforma solo il modo in cui il valore aggregato viene visualizzato.  
-Oltre a scrivere direttamente le proprietà di `PivotShowValuesSetting` (vedi ultima sezione), un metodo di convenienza a chiamata singola applica la stessa configurazione:
+## **Membri dell'Enumerazione PivotShowValuesAsType**
+Il campo dati mantiene la sua funzione di aggregazione, come Sum o Count, mentre Show Values As trasforma solo il modo in cui il valore aggregato è visualizzato.  
+Oltre a impostare direttamente le proprietà `PivotShowValuesSetting` (vedi l'ultima sezione), un metodo di comodità a chiamata unica applica la stessa configurazione. È disponibile in due forme — una che indica il campo base e l'elemento base per indice, l'altra per nome:
 
 ```html
-dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem);
+function showValuesAs(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
+}
+function showValuesAsByName(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
+}
+// index form: AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0
+// name form:  AsposeCells.PivotShowValuesAsType.PercentageOf, "Fruit", "Apple"
 ```
 
-| Parametro | Significato | Quando è richiesto |
+| Parametro | Significato | Quando È Richiesto |
 | --- | --- | --- |
-| `displayFormat` | Il calcolo secondario `PivotFieldDataDisplayFormat` da applicare. | Sempre. |
-| `baseField` | Indice base‑zero del campo base tra i campi base della tabella pivot (ad esempio, l’indice del campo riga a cui appartiene l’elemento base). | Solo per i sei formati a base di riferimento riportati di seguito (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfRunningTotalIn`, `PercentageOfParentTotal`); ignorato da ogni altro formato. |
-| `baseItemPositionType` | Come l’elemento base è scelto rispetto all’elemento corrente: `PivotItemPositionType.Previous`, `.Next` o `.Custom`. | Solo per i tre formati con elemento di base (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`); ignorato da ogni altro formato. |
-| `baseItem` | Indice base‑zero dell’elemento base. | Solo quando `baseItemPositionType` è `Custom` (l’indice dell’elemento seleziona l’elemento base esatto); ignorato per `Previous` / `Next` e da tutti i formati non basati su elemento — passare `0`. |
+| `showValuesAsType` | Il calcolo secondario `PivotShowValuesAsType` da applicare. | Sempre. |
+| `baseField` | Indice basato su zero del campo base tra i campi base della tabella pivot (ad esempio, l'indice del campo riga a cui appartiene l'elemento base), o — nella forma per nome — il nome del campo base. | Gli otto formati relativi al campo base elencati sotto (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, `RankSmallestToLargest`, `RankLargestToSmallest`); per tutti gli altri formati passare `0` (o `null` nella forma per nome). |
+| `baseItem` | Indice basato su zero dell'elemento base, con due sentinelle: -1 seleziona l'elemento precedente e -2 quello successivo (il binding JavaScript via C++ non esporta le costanti denominate — passare i valori letterali). La forma per nome prende invece la didascalia dell'elemento base, e `null` quando il formato selezionato non richiede alcun elemento base. | Solo i tre formati basati su elemento (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`) valutano l'elemento base; i cinque formati relativi al campo (`RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, entrambe le classifiche) lo ignorano — passare `0` o `null`. |
 
-| Tipo di calcolo | Comportamento | Parametri elemento base |
+| Tipo di Calcolo | Comportamento | Parametri Elemento Base |
 | --- | --- | --- |
-| `Normal` | Nessun calcolo secondario; il valore aggregato viene visualizzato così com'è (predefinito). | — |
-| `DifferenceFrom` | Visualizza il valore come differenza dal valore di un elemento base in un campo base. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` solo con `Custom`) |
-| `PercentageOf` | Visualizza il valore come percentuale del valore di un elemento base in un campo base. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` solo con `Custom`) |
-| `PercentageDifferenceFrom` | Visualizza il valore come differenza percentuale dal valore di un elemento base in un campo base. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` solo con `Custom`) |
-| `RunningTotalIn` | Visualizza il valore come totale cumulativo per gli elementi successivi di un campo base. | `baseField` (il campo il cui ordine degli elementi guida l’accumulo) |
-| `PercentageOfRow` | Visualizza il valore come percentuale del totale della riga. | — |
-| `PercentageOfColumn` | Visualizza il valore come percentuale del totale della colonna. | — |
+| `Normal` | Nessun calcolo secondario; il valore aggregato è visualizzato così com'è (predefinito). | — |
+| `DifferenceFrom` | Visualizza il valore come differenza dal valore di un elemento base in un campo base. | `baseField` + `baseItem` (indice, didascalia o sentinella precedente/prossimo) |
+| `PercentageOf` | Visualizza il valore come percentuale del valore di un elemento base in un campo base. | `baseField` + `baseItem` (indice, didascalia o sentinella precedente/prossimo) |
+| `PercentageDifferenceFrom` | Visualizza il valore come differenza percentuale dal valore di un elemento base in un campo base. | `baseField` + `baseItem` (indice, didascalia o sentinella precedente/prossimo) |
+| `RunningTotalIn` | Visualizza il valore come totale cumulativo per gli elementi successivi di un campo base. | `baseField` (campo che guida l'ordine di accumulazione) |
+| `PercentageOfRow` | Visualizza il valore come percentuale del totale di riga. | — |
+| `PercentageOfColumn` | Visualizza il valore come percentuale del totale di colonna. | — |
 | `PercentageOfTotal` | Visualizza il valore come percentuale del totale generale. | — |
-| `Index` | Visualizza il valore usando la formula indice di Excel ((valore * totale generale) / (totale riga * totale colonna)). | — |
+| `Index` | Visualizza il valore usando la formula di indice di Excel ((value * grand total) / (row total * column total)). | — |
 | `PercentageOfParentRowTotal` | Visualizza il valore come percentuale del totale della riga padre (per campi riga annidati). | — |
 | `PercentageOfParentColumnTotal` | Visualizza il valore come percentuale del totale della colonna padre (per campi colonna annidati). | — |
-| `PercentageOfParentTotal` | Visualizza il valore come percentuale del totale del padre. | `baseField` (il campo padre di riferimento) |
-| `PercentageOfRunningTotalIn` | Visualizza il valore come percentuale di un totale cumulativo in un campo base. | `baseField` (il campo di accumulo) |
-| `RankSmallestToLargest` | Classifica il valore dal più piccolo (1) al più grande. | — |
-| `RankLargestToSmallest` | Classifica il valore dal più grande (1) al più piccolo. | — |
+| `PercentageOfParentTotal` | Visualizza il valore come percentuale del totale padre. | `baseField` (campo padre di riferimento) |
+| `PercentageOfRunningTotalIn` | Visualizza il valore come percentuale di un totale cumulativo in un campo base. | `baseField` (campo di accumulo) |
+| `RankSmallestToLargest` | Classifica il valore dal più piccolo (1) al più grande. | `baseField` (campo i cui elementi definiscono l'ambito di classifica) |
+| `RankLargestToSmallest` | Classifica il valore dal più grande (1) al più piccolo. | `baseField` (campo i cui elementi definiscono l'ambito di classifica) |
 
 {{% alert color="primary" %}}
-`showValuesAs(...)` scrive le proprietà `PivotShowValuesSetting` (`calculationType`, `baseFieldIndex`, `baseItemPositionType`, `baseItemIndex`) — il metodo e l’oggetto proprietà sono due modi per configurare lo stesso stato, rispecchiando i selettori di campo base e elemento base nella finestra di dialogo **Show Values As** di Excel.
+`showValuesAs(...)` scrive le proprietà `PivotShowValuesSetting` (`showValuesAs`, `baseFieldIndex` e `baseItemIndex`) — il metodo e l'oggetto proprietà sono due modi per configurare lo stesso stato, rispecchiando i selettori di campo base ed elemento base nella finestra di dialogo Show Values As di Excel.
 {{% /alert %}}
 
-## **Mostra valori come percentuale del totale**
-Chiama il metodo `PivotField.showValuesAs` con `PivotFieldDataDisplayFormat.PercentageOfTotal` per convertire ogni cella del campo dati, incluso il totale generale, nella sua quota del totale generale. I numeri visualizzati risultano quindi proporzioni dell’intero insieme di risultati. Questo formato misura ogni valore solo rispetto al totale generale, quindi non richiede né campo base né elemento base — gli argomenti finali (`0`, `PivotItemPositionType.Previous`, `0`) sono segnaposto che il formato ignora, come indicato nella tabella dei parametri sopra.
+## **Mostra Valori come Percentuale del Totale**
+Chiama il metodo `PivotField.showValuesAs` con `PivotShowValuesAsType.PercentageOfTotal` per convertire ogni cella del campo dati, incluso il totale generale, nella sua quota del totale generale. I numeri visualizzati sono quindi letti come proporzioni dell'intero set di risultati. Questo formato misura ogni valore rispetto solo al totale generale, quindi non richiede né campo base né elemento base — gli argomenti finali (`0`, `0`) sono segnaposto che il formato ignora, come indicato nella tabella dei parametri sopra.
 
 ```html
 <!DOCTYPE html>
@@ -79,6 +85,7 @@ Chiama il metodo `PivotField.showValuesAs` con `PivotFieldDataDisplayFormat.Perc
                 console.log("Aspose.Cells initialized");
             });
             document.getElementById("runExample").addEventListener("click", async () => {
+
                 // Load or create a workbook with source data
                 const workbook = new Workbook();
                 const dataSheet = workbook.worksheets.get(0);
@@ -100,16 +107,12 @@ Chiama il metodo `PivotField.showValuesAs` con `PivotFieldDataDisplayFormat.Perc
                 pivotTable.calculateData();
                 // Show the Amount data field as a percentage of the grand total with the
                 // one-call method; PercentageOfTotal takes no base item, so the trailing
-                // base arguments (0, Previous, 0) are placeholders the format ignores
+                // base arguments (0, 0) are placeholders the format ignores
                 const dataField = pivotTable.dataFields.get(0);
-                dataField.showValuesAs(
-                    AsposeCells.PivotFieldDataDisplayFormat.PercentageOfTotal,
-                    0,
-                    AsposeCells.PivotItemPositionType.Previous,
-                    0
-                );
+                dataField.showValuesAs(AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0);
                 pivotTable.calculateData();
-                // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
+                // Body now reads (underlying values are fractions, shown with the
+                // percentage format): Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById("downloadLink");
@@ -124,14 +127,14 @@ Chiama il metodo `PivotField.showValuesAs` con `PivotFieldDataDisplayFormat.Perc
 </html>
 ```
 
-## **Ottieni e configura PivotField.showValuesSetting**
-Leggi la configurazione corrente tramite `PivotField.showValuesSetting`: la proprietà di sola lettura restituisce l'oggetto `PivotShowValuesSetting` del campo, le cui quattro proprietà descrivono il calcolo **Show Values As** attivo. Per modificare la configurazione, chiama il metodo `PivotField.showValuesAs` — scrive tutte e quattro le impostazioni in un’unica chiamata, così non è necessario assegnare le proprietà una per una.  
-L'oggetto `PivotShowValuesSetting` espone le quattro proprietà che `showValuesAs` scrive:
-- `calculationType` seleziona il calcolo secondario `PivotFieldDataDisplayFormat`.
-- `baseFieldIndex` specifica l’indice base‑zero del campo base entro i campi pivot. È usato dai formati a base di riferimento.
-- `baseItemPositionType` determina come l’elemento base è posizionato rispetto all’elemento corrente e accetta `PivotItemPositionType.Next`, `PivotItemPositionType.Previous` o `PivotItemPositionType.Custom`.
-- `baseItemIndex` specifica l’indice base‑zero dell’elemento base ed è usato quando `baseItemPositionType` è `Custom`.
-Dopo aver chiamato `showValuesAs`, chiama nuovamente `PivotTable.calculateData()` affinché il corpo della tabella pivot venga ricalcolato e ridisegnato con la nuova configurazione.
+## **Ottieni e Configura PivotField.showValuesSetting**
+Leggi la configurazione corrente tramite `PivotField.showValuesSetting`: la proprietà di sola lettura restituisce l'oggetto `PivotShowValuesSetting` del campo, le cui proprietà descrivono il calcolo Show Values As attivo. Per modificare la configurazione, chiama il metodo `PivotField.showValuesAs` — scrive tutte le impostazioni in una sola chiamata, così non è necessario assegnare le proprietà una per una.  
+L'oggetto `PivotShowValuesSetting` espone lo stato che `showValuesAs` scrive:
+- `showValuesAs` seleziona il calcolo secondario `PivotShowValuesAsType`.
+- `baseFieldIndex` specifica l'indice basato su zero del campo base tra i campi pivot. È usato dai formati relativi al campo base.
+- `baseItemIndex` specifica l'elemento base: un indice basato su zero di uno specifico elemento pivot, o uno dei due valori sentinella — -1 per l'elemento precedente, -2 per quello successivo (il binding non esporta le costanti denominate). È usato dai formati basati su elemento.
+- `baseFieldName` e `baseItemCaption` sono visualizzazioni di sola lettura che segnalano il nome del campo base risolto e la didascalia dell'elemento base; ad esempio, dopo aver selezionato la sentinella dell'elemento precedente, `baseItemCaption` restituisce `(previous)`.  
+Dopo aver chiamato `showValuesAs`, chiama nuovamente `PivotTable.calculateData()` affinché il corpo della tabella pivot venga ricalcolato e rigenerato con la configurazione aggiornata.
 
 ```html
 <!DOCTYPE html>
@@ -170,27 +173,28 @@ Dopo aver chiamato `showValuesAs`, chiama nuovamente `PivotTable.calculateData()
                 // Read the current show-values settings
                 const settings = dataField.showValuesSetting;
                 const messages = [
-                    `CalculationType: ${settings.calculationType}`,
+                    `ShowValuesAs: ${settings.showValuesAs}`,
                     `BaseFieldIndex: ${settings.baseFieldIndex}`,
-                    `BaseItemPositionType: ${settings.baseItemPositionType}`,
-                    `BaseItemIndex: ${settings.baseItemIndex}`
+                    `BaseItemIndex: ${settings.baseItemIndex}`,
+                    `BaseFieldName: ${settings.baseFieldName}`,
+                    `BaseItemCaption: ${settings.baseItemCaption}`
                 ];
                 document.getElementById('result').innerHTML = messages
                     .map(message => `<p>${message}</p>`)
                     .join("");
                 // Switch to a base-item calculation with the one-call method: difference
                 // from the value of the previous item in the row field
+                // (-1 is the previous-item sentinel; the binding does not export the constant)
                 dataField.showValuesAs(
-                    AsposeCells.PivotFieldDataDisplayFormat.DifferenceFrom,
+                    AsposeCells.PivotShowValuesAsType.DifferenceFrom,
                     pivotTable.rowFields.get(0).baseIndex,
-                    AsposeCells.PivotItemPositionType.Previous,
-                    0
+                    -1
                 );
                 pivotTable.calculateData();
                 // Note: the percentage number format saved by the previous example still
                 // clings to the data field cells; the underlying values are now differences
                 // Re-read the applied configuration
-                messages.push(`CalculationType now: ${dataField.showValuesSetting.calculationType}`);
+                messages.push(`ShowValuesAs now: ${dataField.showValuesSetting.showValuesAs}`);
                 document.getElementById('result').innerHTML = messages
                     .map(message => `<p>${message}</p>`)
                     .join("");
@@ -209,9 +213,9 @@ Dopo aver chiamato `showValuesAs`, chiama nuovamente `PivotTable.calculateData()
 </html>
 ```
 
-## **Articoli correlati**
-- [Gestione dei campi valore nella tabella pivot](/cells/it/javascript-cpp/manage-value-fields/)
-- [Aggiornamento della tabella pivot](/cells/it/javascript-cpp/refresh-pivot-table/)
-- [Applicazione di stile alla tabella pivot](/cells/it/javascript-cpp/apply-style-to-pivot-table/)
+## **Articoli Correlati**
+- [Gestire i Campi Valore nella Tabella Pivot](/cells/it/javascript-cpp/manage-value-fields/)
+- [Aggiornare la Tabella Pivot](/cells/it/javascript-cpp/refresh-pivot-table/)
+- [Applicare Stile alla Tabella Pivot](/cells/it/javascript-cpp/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for Node.js via Java 中刷新数据透视表和数据透视缓存
-linktitle: 在 Aspose.Cells for Node.js via Java 中刷新数据透视表和数据透视缓存
+linktitle: 刷新数据透视表
 description: 了解如何使用 v26.7+ 的透视表刷新 API 在 Aspose.Cells for Node.js via Java 中刷新数据透视表。本文涵盖 refreshAll、refreshPivotTables、PivotCache.refresh、calculateData 以及 getPivotTables，并配有实用的代码示例。
 keywords: Aspose.Cells, Node.js, Java, 数据透视表, 刷新, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
@@ -51,14 +51,14 @@ workbook.save("output.xlsx");
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-// 创建一个新的工作簿
+// Create a new workbook
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-// 将表头行写入 A1:C1 单元格
+// Write header row into cells A1:C1
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// 将数据行写入 A2:C9 单元格（2020 和 2021 年的 8 行水果数据）
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.getCells().get("A2").putValue("grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(50);
@@ -83,19 +83,19 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// 添加数据透视表：源区域 "A1:C9"，目标单元格 "E3"，名称
+// Add a pivot table: source range "A1:C9", destination cell "E3"
 const pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
-// 分配数据透视表字段：Fruit 到行，Year 到列，Amount 到数据
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// 修改源数据中的若干 Amount 值以模拟变化
+// Modify several Amount values in the source data to simulate changes
 worksheet.getCells().get("C2").putValue(55);
 worksheet.getCells().get("C5").putValue(85);
 worksheet.getCells().get("C9").putValue(125);
-// 刷新工作簿中的所有数据透视表/数据透视缓存
+// Refresh every pivot table / pivot cache in the workbook
 workbook.refreshAll();
-// 保存工作簿
+// Save the workbook
 workbook.save("output.xlsx");
 ```
 
@@ -158,11 +158,11 @@ workbook.save("output.xlsx");
 const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
-// 写入 Fruit / Year / Amount 表头行
+// Write Fruit / Year / Amount header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// 写入 8 行数据（第 2-9 行，匹配数据源范围 A1:C9）
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(100);
@@ -187,21 +187,21 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// 添加名为 的数据透视表，放置在目标单元格 E3，数据源为 A1:C9
+// Add a pivot table placed at destination cell E3, sourcing from A1:C9
 var pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
-// 分配字段：Fruit 分配到行，Year 分配到列，Amount 分配到数据
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// 修改视图/布局属性——这只是一个展示层面的更改，
-// 因此不需要通过 PivotCache.refresh() 重新读取数据源。
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
-// calculateData() 会使用 PivotCache 中已保存的数据重新渲染
-// 此数据透视表的显示（数据和样式）。因为数据源没有变化，
-// 不会对数据源进行往返读取——只将缓存中的值重新计算
-// 到工作表单元格中。
+// calculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.calculateData();
-// 将工作簿保存到磁盘
+// Save the workbook to disk
 workbook.save("output.xlsx");
 ```
 

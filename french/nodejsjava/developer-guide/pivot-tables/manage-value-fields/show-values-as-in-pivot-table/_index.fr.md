@@ -1,8 +1,8 @@
 ---
 title: Afficher les valeurs comme dans le tableau croisé dynamique
 linktitle: Afficher les valeurs comme dans le tableau croisé dynamique
-description: Afficher les valeurs des champs de données d'un tableau croisé dynamique sous forme de pourcentage du total, de différence par rapport à un élément de base, de totaux cumulatifs, de classements, etc. avec Aspose.Cells for Node.js via Java.
-keywords: Aspose.Cells, tableau croisé dynamique, afficher les valeurs comme, format d'affichage des données, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex, Node.js via Java
+description: Affichez les valeurs des champs de données d’un tableau croisé dynamique sous forme de pourcentage du total, de différence par rapport à un élément de base, de totaux cumulés, de classements, et plus encore avec Aspose.Cells for Node.js via Java.
+keywords: Aspose.Cells, Aspose.Cells for Node.js via Java, tableau croisé dynamique, afficher les valeurs comme, PivotShowValuesAsType, PERCENTAGE_OF_TOTAL, PivotShowValuesSetting, showValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /fr/nodejs-java/show-values-as-in-pivot-table/
@@ -10,54 +10,57 @@ ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **Scénarios d’utilisation possibles**
-Un tableau croisé dynamique agrège normalement chaque champ de données à l’aide d’une fonction d’agrégation telle que `SUM` ou `COUNT`. La fonctionnalité **Show Values As** d’Excel remplace chaque résultat affiché par un calcul secondaire dérivé de cet agrégat — par exemple, un pourcentage du total général, un total cumulé, une différence par rapport à un élément de base choisi ou un classement — afin que vous puissiez effectuer une analyse comparative sans formules auxiliaires ni colonnes calculées.  
-Les utilisations typiques incluent l’analyse de **la** part du total, y compris les pourcentages d’une ligne, d’une colonne ou du total général ; le reporting cumulatif à l’aide d’un total cumulé dans un champ de période ; l’analyse des écarts par rapport à un élément de référence en utilisant la différence ou la différence en pourcentage d’un élément de base ; et le classement des valeurs du plus petit au plus grand ou inversement.  
-Dans Aspose.Cells for Node.js via Java, `PivotFieldDataDisplayFormat` sélectionne le calcul secondaire. La méthode en lecture seule `PivotField.getShowValuesSetting()` renvoie un objet `PivotShowValuesSetting`. Ses méthodes `setCalculationType()`, `setBaseFieldIndex()`, `setBaseItemPositionType()` et `setBaseItemIndex()` configurent le comportement ; la méthode de convenance `PivotField.showValuesAs(...)` applique les mêmes quatre paramètres en un seul appel. Appliquez ces paramètres à un champ de données ou de valeur obtenu via `PivotTable.getDataFields()`.
+## **Scénarios d'utilisation possibles**
+Un tableau croisé dynamique agrège généralement chaque champ de données à l’aide d’une fonction d’agrégation telle que `SUM` ou `COUNT`. La fonctionnalité **Show Values As** d’Excel remplace chaque résultat affiché par un calcul secondaire dérivé de cet agrégat — par exemple, un pourcentage du total général, un total cumulé, une différence par rapport à un élément de base choisi ou un classement—afin que vous puissiez effectuer des analyses comparatives sans formules d’assistance ni colonnes calculées.  
+Les utilisations typiques comprennent l’analyse de la part du total, incluant les pourcentages d’une ligne, d’une colonne ou du total général ; le reporting cumulatif à l’aide d’un total cumulé dans un champ de période ; l’analyse de variance par rapport à un élément de référence en utilisant la différence ou la différence en pourcentage d’un élément de base ; et le classement des valeurs du plus petit au plus grand ou du plus grand au plus petit.  
+Dans Aspose.Cells for Node.js via Java, l’énumération `PivotShowValuesAsType` sélectionne le calcul secondaire. La méthode en lecture seule `PivotField.getShowValuesSetting()` renvoie un objet `PivotShowValuesSetting`, dont les méthodes `setShowValuesAs()`, `setBaseFieldIndex()` et `setBaseItemIndex()` configurent le comportement ; la méthode de commodité `PivotField.showValuesAs(...)` applique les mêmes paramètres en un seul appel. Appliquez ces paramètres à un champ de données ou de valeur obtenu via `PivotTable.getDataFields()`.
 
-## **Membres de l’énumération PivotFieldDataDisplayFormat**
-Le champ de données conserve sa fonction d’agrégation, telle que SUM ou COUNT, tandis que **Show Values As** ne transforme que la façon dont la valeur agrégée est affichée.  
-En plus d’écrire directement les paramètres de `PivotShowValuesSetting` (voir la dernière section), une méthode de convenance en un seul appel applique la même configuration :
+## **Membres de l'énumération PivotShowValuesAsType**
+Le champ de données conserve sa fonction d’agrégation, telle que SUM ou COUNT, tandis que Show Values As ne transforme que la façon dont la valeur agrégée est affichée.  
+En plus d’utiliser directement les accesseurs du `PivotShowValuesSetting` (voir la dernière section), une méthode de commodité en un appel applique la même configuration. Elle existe sous deux formes — l’une adressant le champ de base et l’autre l’élément de base par indice, l’autre par nom :
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-function showValuesAs(pivotField, displayFormat, baseField, baseItemPositionType, baseItem) {
-    pivotField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem);
+function showValuesAs(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
 }
-module.exports = { showValuesAs };
+function showValuesAsByName(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
+}
+// index form: AsposeCells.PivotShowValuesAsType.PERCENTAGE_OF_TOTAL, 0, 0
+// name form:  AsposeCells.PivotShowValuesAsType.PERCENTAGE_OF, "Fruit", "Apple"
 ```
 
-| Paramètre | Signification | Quand c’est requis |
+| Paramètre | Signification | Quand il est requis |
 | --- | --- | --- |
-| `displayFormat` | Le calcul secondaire `PivotFieldDataDisplayFormat` à appliquer. | Toujours. |
-| `baseField` | Indice zéro‑base du champ de base parmi les champs de base du tableau croisé dynamique (par exemple, l’indice du champ de ligne auquel appartient l’élément de base). | Uniquement pour les six formats relatifs à une base ci-dessous (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`, `RUNNING_TOTAL_IN`, `PERCENTAGE_OF_RUNNING_TOTAL_IN`, `PERCENTAGE_OF_PARENT_TOTAL`) ; ignoré par tout autre format. |
-| `baseItemPositionType` | Mode de sélection de l’élément de base par rapport à l’élément actuel : `PivotItemPositionType.PREVIOUS`, `.NEXT` ou `.CUSTOM`. | Uniquement pour les trois formats à élément de base (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`) ; ignoré par tout autre format. |
-| `baseItem` | Indice zéro‑base de l’élément de base. | Uniquement lorsque `baseItemPositionType` est `CUSTOM` (l’indice sélectionne l’élément de base exact) ; ignoré pour `PREVIOUS` / `NEXT` et par tout format non‑base — passer `0`. |
+| `showValuesAsType` | Le calcul secondaire `PivotShowValuesAsType` à appliquer. | Toujours. |
+| `baseField` | Indice zéro‑based du champ de base parmi les champs de base du tableau croisé dynamique (par exemple, l’indice du champ de ligne auquel appartient l’élément de base), ou — sous forme de nom — le nom du champ de base. | Les huit formats relatifs à la base ci‑dessous (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`, `RUNNING_TOTAL_IN`, `PERCENTAGE_OF_PARENT_TOTAL`, `PERCENTAGE_OF_RUNNING_TOTAL_IN`, `RANK_SMALLEST_TO_LARGEST`, `RANK_LARGEST_TO_SMALLEST`) ; passer `0` (ou `null` dans la forme par nom) pour tout autre format. |
+| `baseItem` | Indice zéro‑based de l’élément de base, avec deux sentinelles : -1 sélectionne l’élément précédent et -2 l’élément suivant (la racine du package n’exporte pas les constantes `PivotShowValuesSetting` — utilisez les valeurs littérales). La forme par nom prend la légende de l’élément de base à la place, et `null` lorsque le format sélectionné ne nécessite aucun élément de base. | Seuls les trois formats d’élément de base (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`) évaluent l’élément de base ; les cinq formats relatifs au champ (`RUNNING_TOTAL_IN`, `PERCENTAGE_OF_PARENT_TOTAL`, `PERCENTAGE_OF_RUNNING_TOTAL_IN`, les deux classements) l’ignorent — passer `0` ou `null`. |
 
-| Type de calcul | Comportement | Paramètres d’élément de base |
+| Type de calcul | Comportement | Paramètres de l'élément de base |
 | --- | --- | --- |
-| `NORMAL` | Aucun calcul secondaire ; la valeur agrégée est affichée telle quelle (par défaut). | — |
-| `DIFFERENCE_FROM` | Affiche la valeur comme une différence par rapport à la valeur d’un élément de base dans un champ de base. | `baseField` + `PREVIOUS`/`NEXT`/`CUSTOM` (`baseItem` uniquement avec `CUSTOM`) |
-| `PERCENTAGE_OF` | Affiche la valeur comme un pourcentage de la valeur d’un élément de base dans un champ de base. | `baseField` + `PREVIOUS`/`NEXT`/`CUSTOM` (`baseItem` uniquement avec `CUSTOM`) |
-| `PERCENTAGE_DIFFERENCE_FROM` | Affiche la valeur comme la différence en pourcentage par rapport à la valeur d’un élément de base dans un champ de base. | `baseField` + `PREVIOUS`/`NEXT`/`CUSTOM` (`baseItem` uniquement avec `CUSTOM`) |
+| `NORMAL` | Aucun calcul secondaire ; la valeur agrégée est affichée telle quelle (défaut). | — |
+| `DIFFERENCE_FROM` | Affiche la valeur comme une différence par rapport à la valeur d’un élément de base dans un champ de base. | `baseField` + `baseItem` (un indice ou une légende, ou la sentinelle précédent/suivant) |
+| `PERCENTAGE_OF` | Affiche la valeur comme un pourcentage de la valeur d’un élément de base dans un champ de base. | `baseField` + `baseItem` (un indice ou une légende, ou la sentinelle précédent/suivant) |
+| `PERCENTAGE_DIFFERENCE_FROM` | Affiche la valeur comme la différence en pourcentage par rapport à la valeur d’un élément de base dans un champ de base. | `baseField` + `baseItem` (un indice ou une légende, ou la sentinelle précédent/suivant) |
 | `RUNNING_TOTAL_IN` | Affiche la valeur comme un total cumulé pour les éléments successifs d’un champ de base. | `baseField` (le champ dont l’ordre des éléments entraîne l’accumulation) |
 | `PERCENTAGE_OF_ROW` | Affiche la valeur comme un pourcentage du total de la ligne. | — |
 | `PERCENTAGE_OF_COLUMN` | Affiche la valeur comme un pourcentage du total de la colonne. | — |
 | `PERCENTAGE_OF_TOTAL` | Affiche la valeur comme un pourcentage du total général. | — |
-| `INDEX` | Affiche la valeur en utilisant la formule d’index Excel ((valeur × total général) / (total ligne × total colonne)). | — |
-| `PERCENTAGE_OF_PARENT_ROW_TOTAL` | Affiche la valeur comme un pourcentage du total de la ligne parente (pour les champs de ligne imbriqués). | — |
-| `PERCENTAGE_OF_PARENT_COLUMN_TOTAL` | Affiche la valeur comme un pourcentage du total de la colonne parente (pour les champs de colonne imbriqués). | — |
-| `PERCENTAGE_OF_PARENT_TOTAL` | Affiche la valeur comme un pourcentage du total du parent. | `baseField` (le champ parent servant de référence) |
+| `INDEX` | Affiche la valeur en utilisant la formule d’index Excel ((valeur * total général) / (total ligne * total colonne)). | — |
+| `PERCENTAGE_OF_PARENT_ROW_TOTAL` | Affiche la valeur comme un pourcentage du total de la ligne parent (pour les champs de ligne imbriqués). | — |
+| `PERCENTAGE_OF_PARENT_COLUMN_TOTAL` | Affiche la valeur comme un pourcentage du total de la colonne parent (pour les champs de colonne imbriqués). | — |
+| `PERCENTAGE_OF_PARENT_TOTAL` | Affiche la valeur comme un pourcentage de son total parent. | `baseField` (le champ parent dont le total sert de référence) |
 | `PERCENTAGE_OF_RUNNING_TOTAL_IN` | Affiche la valeur comme un pourcentage d’un total cumulé dans un champ de base. | `baseField` (le champ d’accumulation) |
-| `RANK_SMALLEST_TO_LARGEST` | Classe la valeur du plus petit (1) au plus grand. | — |
-| `RANK_LARGEST_TO_SMALLEST` | Classe la valeur du plus grand (1) au plus petit. | — |
+| `RANK_SMALLEST_TO_LARGEST` | Classe la valeur du plus petit (1) au plus grand. | `baseField` (le champ dont les éléments définissent le périmètre du classement) |
+| `RANK_LARGEST_TO_SMALLEST` | Classe la valeur du plus grand (1) au plus petit. | `baseField` (le champ dont les éléments définissent le périmètre du classement) |
 
 {{% alert color="primary" %}}
-`showValuesAs(...)` écrit les paramètres de `PivotShowValuesSetting` (`setCalculationType()`, `setBaseFieldIndex()`, `setBaseItemPositionType()`, et `setBaseItemIndex()`) — la méthode et l’objet de paramètres sont deux manières de configurer le même état, reflétant les sélecteurs de champ de base et d’élément de base de la boîte de dialogue **Show Values As** d’Excel.
+`showValuesAs(...)` écrit l’état `PivotShowValuesSetting` via `setShowValuesAs()`, `setBaseFieldIndex()` et `setBaseItemIndex()` — la méthode et l’objet de propriétés sont deux manières de configurer le même état, reflétant les sélecteurs de champ de base et d’élément de base dans la boîte de dialogue Show Values As d’Excel.
 {{% /alert %}}
 
-## **Afficher les valeurs en pourcentage du total**
-Appelez la méthode `PivotField.showValuesAs()` avec `PivotFieldDataDisplayFormat.PERCENTAGE_OF_TOTAL` pour convertir chaque cellule de champ de données, y compris le total général, en sa part du total général. Les nombres affichés sont donc interprétés comme des proportions de l’ensemble du jeu de résultats. Ce format mesure chaque valeur uniquement par rapport au total général, il ne nécessite donc aucun champ de base ni aucun élément de base ; les arguments supplémentaires (`0`, `PivotItemPositionType.PREVIOUS`, `0`) sont des espaces réservés que le format ignore, comme l’indique le tableau des paramètres ci‑dessus.
+## **Afficher les valeurs comme pourcentage du total**
+Appelez la méthode `PivotField.showValuesAs()` avec `PivotShowValuesAsType.PERCENTAGE_OF_TOTAL` pour convertir chaque cellule de champ de données, y compris le total général, en sa part du total général. Les nombres affichés représentent donc des proportions de l’ensemble du jeu de résultats. Ce format mesure chaque valeur uniquement par rapport au total général, il ne nécessite donc aucun champ de base ni aucun élément de base — les arguments de fin (`0`, `0`) sont des espaces réservés que le format ignore, comme l’indique le tableau des paramètres ci‑dessus.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -75,32 +78,27 @@ for (let i = 0; i < fruits.length; i++) {
 // Add a pivot table on a new worksheet
 const pivotSheetIndex = workbook.getWorksheets().add();
 const pivotTable = workbook.getWorksheets().get(pivotSheetIndex).getPivotTables().add("=Sheet1!A1:B7", 2, 2);
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
 // Show the Amount data field as a percentage of the grand total with the
-// one-call method; PercentageOfTotal takes no base item, so the trailing
-// base arguments (0, Previous, 0) are placeholders the format ignores
+// one-call method; PERCENTAGE_OF_TOTAL takes no base item, so the trailing
+// base arguments (0, 0) are placeholders the format ignores
 const dataField = pivotTable.getDataFields().get(0);
-dataField.showValuesAs(
-    AsposeCells.PivotFieldDataDisplayFormat.PercentageOfTotal,
-    0,
-    AsposeCells.PivotItemPositionType.Previous,
-    0
-);
+dataField.showValuesAs(AsposeCells.PivotShowValuesAsType.PERCENTAGE_OF_TOTAL, 0, 0);
 pivotTable.calculateData();
 // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
 workbook.save("ShowValuesAsPercentageOfTotal.xlsx");
 ```
 
 ## **Obtenir et configurer PivotField.getShowValuesSetting()**
-Lisez la configuration actuelle via `PivotField.getShowValuesSetting()` : la méthode en lecture seule renvoie l’objet `PivotShowValuesSetting` du champ, dont les quatre paramètres décrivent le calcul **Show Values As** actif. Pour modifier la configuration, appelez la méthode `PivotField.showValuesAs()` — elle écrit les quatre paramètres en un seul appel, de sorte que vous n’avez jamais à les affecter individuellement.  
-L’objet `PivotShowValuesSetting` expose les quatre paramètres que `showValuesAs()` écrit :
-- `getCalculationType()` / `setCalculationType()` sélectionne le calcul secondaire `PivotFieldDataDisplayFormat`.  
-- `getBaseFieldIndex()` / `setBaseFieldIndex()` spécifie l’indice zéro‑base du champ de base parmi les champs du tableau croisé dynamique. Il est utilisé par les formats relatifs à une base.  
-- `getBaseItemPositionType()` / `setBaseItemPositionType()` détermine comment l’élément de base est positionné par rapport à l’élément actuel et accepte `PivotItemPositionType.NEXT`, `PivotItemPositionType.PREVIOUS` ou `PivotItemPositionType.CUSTOM`.  
-- `getBaseItemIndex()` / `setBaseItemIndex()` spécifie l’indice zéro‑base de l’élément de base et est utilisé lorsque `getBaseItemPositionType()` est `CUSTOM`.  
-Après avoir appelé `showValuesAs()`, appelez à nouveau `PivotTable.calculateData()` afin que le corps du tableau croisé dynamique soit recalculé et rendu avec la nouvelle configuration.
+Lisez la configuration actuelle via `PivotField.getShowValuesSetting()` : la méthode en lecture seule renvoie l’objet `PivotShowValuesSetting` du champ, dont les réglages décrivent le calcul Show Values As actif. Pour modifier la configuration, appelez la méthode `PivotField.showValuesAs()` — elle écrit tous les réglages en un seul appel, vous n’avez donc jamais besoin de les définir un à un.  
+L’objet `PivotShowValuesSetting` expose l’état que `showValuesAs()` écrit :
+- `getShowValuesAs()` / `setShowValuesAs()` sélectionne le calcul secondaire `PivotShowValuesAsType`.  
+- `getBaseFieldIndex()` / `setBaseFieldIndex()` spécifie l’indice zéro‑based du champ de base parmi les champs du tableau croisé dynamique. Il est utilisé par les formats relatifs à la base.  
+- `getBaseItemIndex()` / `setBaseItemIndex()` spécifie l’élément de base : un indice zéro‑based d’un élément de tableau croisé dynamique spécifique, ou l’une des deux valeurs sentinelles — -1 pour l’élément précédent, -2 pour l’élément suivant (la racine du package n’exporte pas les constantes nommées). Il est utilisé par les formats d’élément de base.  
+- `getBaseFieldName()` et `getBaseItemCaption()` sont des vues en lecture seule qui rapportent respectivement le nom du champ de base résolu et la légende de l’élément de base ; par exemple, après avoir sélectionné la sentinelle d’élément précédent, `getBaseItemCaption()` renvoie `(previous)`.  
+Après avoir appelé `showValuesAs()`, appelez de nouveau `PivotTable.calculateData()` afin que le corps du tableau croisé dynamique soit recalculé et rendu avec la configuration mise à jour.
 
 ```javascript
 const AsposeCells = require("aspose.cells");
@@ -109,27 +107,28 @@ const pivotTable = workbook.getWorksheets().get(1).getPivotTables().get(0);
 const dataField = pivotTable.getDataFields().get(0);
 // Read the current show-values settings
 const settings = dataField.getShowValuesSetting();
-console.log(`CalculationType: ${settings.getCalculationType()}`);
+console.log(`ShowValuesAs: ${settings.getShowValuesAs()}`);
 console.log(`BaseFieldIndex: ${settings.getBaseFieldIndex()}`);
-console.log(`BaseItemPositionType: ${settings.getBaseItemPositionType()}`);
 console.log(`BaseItemIndex: ${settings.getBaseItemIndex()}`);
+console.log(`BaseFieldName: ${settings.getBaseFieldName()}`);
+console.log(`BaseItemCaption: ${settings.getBaseItemCaption()}`);
 // Switch to a base-item calculation with the one-call method: difference
 // from the value of the previous item in the row field
+// (-1 is the previous-item sentinel; the constants are not exported here)
 dataField.showValuesAs(
-    AsposeCells.PivotFieldDataDisplayFormat.DifferenceFrom,
+    AsposeCells.PivotShowValuesAsType.DIFFERENCE_FROM,
     pivotTable.getRowFields().get(0).getBaseIndex(),
-    AsposeCells.PivotItemPositionType.Previous,
-    0
+    -1
 );
 pivotTable.calculateData();
 // Note: the percentage number format saved by the previous example still
 // clings to the data field cells; the underlying values are now differences
 // Re-read the applied configuration
-console.log(`CalculationType now: ${dataField.getShowValuesSetting().getCalculationType()}`);
+console.log(`ShowValuesAs now: ${dataField.getShowValuesSetting().getShowValuesAs()}`);
 workbook.save("ShowValuesAsDifferenceFrom.xlsx");
 ```
 
-## **Articles connexes**
+## **Articles associés**
 - [Gestion des champs de valeur dans le tableau croisé dynamique](/cells/fr/nodejs-java/manage-value-fields/)
 - [Actualisation du tableau croisé dynamique](/cells/fr/nodejs-java/refresh-pivot-table/)
 - [Application du style au tableau croisé dynamique](/cells/fr/nodejs-java/apply-style-to-pivot-table/)

@@ -34,33 +34,33 @@ Aspose.Cells поддерживает создание спарклайнов в
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Шаг 1: Создаём книгу и получаем первый рабочий лист
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // Шаг 2: Записываем примеры значений 5, -3, 8, -2, 6 в ячейки A1:E1
+    // Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
     cells.Get(u"A1").PutValue(5);
     cells.Get(u"B1").PutValue(-3);
     cells.Get(u"C1").PutValue(8);
     cells.Get(u"D1").PutValue(-2);
     cells.Get(u"E1").PutValue(6);
-    // Шаг 3: Создаём CellArea, указывающий на целевую ячейку F1
+    // Step 3: Build a CellArea pointing to destination cell F1
     CellArea dest;
-    dest.StartColumn = 5;   // столбец F (с нулевым индексом)
+    dest.StartColumn = 5;   // column F (0-indexed)
     dest.EndColumn = 5;
-    dest.StartRow = 0;      // строка 1 (с нулевым индексом)
+    dest.StartRow = 0;      // row 1 (0-indexed)
     dest.EndRow = 0;
-    // Шаг 4: Добавляем линейную спарклайн-диаграмму из A1:E1 в F1
+    // Step 4: Add a Line sparkline from A1:E1 into F1
     int index = worksheet.GetSparklineGroups().Add(SparklineType::Line, u"A1:E1", false, dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(index);
-    // Шаг 5: Создаём красный CellsColor и назначаем его цветом линии спарклайна
+    // Step 5: Create a red CellsColor and assign it to the sparkline line color
     CellsColor red = workbook.CreateCellsColor();
     red.SetColor(Color::Red());
     group.SetSeriesColor(red);
-    // Шаг 6: Включаем маркеры максимальных и минимальных точек
+    // Step 6: Enable high-point and low-point markers
     group.SetShowHighPoint(true);
     group.SetShowLowPoint(true);
-    // Шаг 7: Сохраняем книгу
+    // Step 7: Save the workbook
     workbook.Save(u"output_line.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -84,28 +84,28 @@ int main() {
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Шаг 1: Создать рабочую книгу и получить первый рабочий лист
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
-    // Шаг 2: Записать примеры значений в A1:E1
+    // Step 2: Write sample values into A1:E1
     int values[5] = { 5, -3, 8, -2, 6 };
     Cells cells = worksheet.GetCells();
     for (int i = 0; i < 5; i++) {
         cells.Get(0, i).PutValue(values[i]);
     }
-    // Шаг 3: Создать CellArea, указывающую на F1 (индекс столбца 5, индекс строки 0)
+    // Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
     CellArea dest;
     dest.StartColumn = 5;
     dest.EndColumn = 5;
     dest.StartRow = 0;
     dest.EndRow = 0;
-    // Шаг 4: Добавить спарклайн-столбец в целевую ячейку
+    // Step 4: Add a Column sparkline to the destination cell
     int idx = worksheet.GetSparklineGroups().Add(
         SparklineType::Column, u"A1:E1", false, dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(idx);
-    // Шаг 5: Подтвердить тип спарклайна, прочитав group.Type
+    // Step 5: Confirm the sparkline type by reading group.Type
     std::cout << "Sparkline Type added: " << static_cast<int>(group.GetType()) << std::endl;
-    // Шаг 6: Сохранить рабочую книгу
+    // Step 6: Save the workbook
     wb.Save(u"output_column.xlsx");
     std::cout << "Workbook saved as output_column.xlsx" << std::endl;
     Aspose::Cells::Cleanup();
@@ -129,51 +129,51 @@ int main() {
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Шаг 1: Создаём Workbook и получаем первый рабочий лист
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(u"WinLoss");
-    // Шаг 2: Заполняем примеры данных в строке 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
+    // Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
     worksheet.GetCells().Get(u"A1").PutValue(5);
     worksheet.GetCells().Get(u"B1").PutValue(-3);
     worksheet.GetCells().Get(u"C1").PutValue(8);
     worksheet.GetCells().Get(u"D1").PutValue(-2);
     worksheet.GetCells().Get(u"E1").PutValue(6);
-    // Шаг 3: Формируем CellArea, указывающую на F1 (столбец 5, строка 0)
+    // Step 3: Build a CellArea pointing to F1 (column 5, row 0)
     CellArea dest;
     dest.StartColumn = 5;   // F
     dest.EndColumn = 5;
-    dest.StartRow = 0;      // строка 1
+    dest.StartRow = 0;      // row 1
     dest.EndRow = 0;
-    // Шаг 4: Добавляем спарклайн Win/Loss (SparklineType.Stacked)
+    // Step 4: Add a Win/Loss sparkline (SparklineType.Stacked)
     int groupIndex = worksheet.GetSparklineGroups().Add(
         SparklineType::Stacked,
         u"A1:E1",
         false,
         dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(groupIndex);
-    // Шаг 5: Настраиваем группу спарклайнов
-    // Включаем маркеры для максимальных и минимальных точек
+    // Step 5: Customize the sparkline group
+    // Enable high-point and low-point markers
     group.SetShowHighPoint(true);
     group.SetShowLowPoint(true);
     group.SetShowNegativePoints(true);
-    // Задаём зелёный цвет для максимальных точек
+    // Set the high-point color to green
     CellsColor highColor = workbook.CreateCellsColor();
     highColor.SetColor(Color::Green());
     group.SetHighPointColor(highColor);
-    // Задаём красный цвет для минимальных точек
+    // Set the low-point color to red
     CellsColor lowColor = workbook.CreateCellsColor();
     lowColor.SetColor(Color::Red());
     group.SetLowPointColor(lowColor);
-    // Задаём оранжевый цвет для отрицательных точек
+    // Set the negative-point color to orange
     CellsColor negColor = workbook.CreateCellsColor();
     negColor.SetColor(Color::Orange());
     group.SetNegativePointsColor(negColor);
-    // Задаём цвет серии по умолчанию (используется для положительных значений)
+    // Set the default series color (used for positive bars)
     CellsColor seriesColor = workbook.CreateCellsColor();
     seriesColor.SetColor(Color::SteelBlue());
     group.SetSeriesColor(seriesColor);
-    // Шаг 6: Сохраняем книгу
+    // Step 6: Save the workbook
     workbook.Save(u"output_winloss.xlsx");
     std::cout << "Workbook saved successfully: output_winloss.xlsx" << std::endl;
     Aspose::Cells::Cleanup();
@@ -189,16 +189,16 @@ int main() {
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Шаг 1: Создать рабочую книгу и получить первый лист
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // Шаг 2: Заполнить пример данных в строке 1 (A1:E1)
+    // Step 2: Populate sample data in row 1 (A1:E1)
     worksheet.GetCells().Get(u"A1").PutValue(5);
     worksheet.GetCells().Get(u"B1").PutValue(-3);
     worksheet.GetCells().Get(u"C1").PutValue(8);
     worksheet.GetCells().Get(u"D1").PutValue(-2);
     worksheet.GetCells().Get(u"E1").PutValue(6);
-    // Шаг 3: Добавить группу спарклайнов "Линия" в F1
+    // Step 3: Add a Line sparkline group at F1
     CellArea lineArea;
     lineArea.StartColumn = 5;
     lineArea.EndColumn = 5;
@@ -206,11 +206,11 @@ int main() {
     lineArea.EndRow = 0;
     int lineIdx = worksheet.GetSparklineGroups().Add(SparklineType::Line, u"A1:E1", false, lineArea);
     SparklineGroup lineGroup = worksheet.GetSparklineGroups().Get(lineIdx);
-    // Настроить цвет спарклайна "Линия" через CellsColor
+    // Customize the line sparkline color via CellsColor
     CellsColor lineColor = workbook.CreateCellsColor();
     lineColor.SetColor(Color::Blue());
     lineGroup.SetSeriesColor(lineColor);
-    // Шаг 4: Добавить группу спарклайнов "Столбец" в F2
+    // Step 4: Add a Column sparkline group at F2
     CellArea columnArea;
     columnArea.StartColumn = 5;
     columnArea.EndColumn = 5;
@@ -218,11 +218,11 @@ int main() {
     columnArea.EndRow = 1;
     int columnIdx = worksheet.GetSparklineGroups().Add(SparklineType::Column, u"A1:E1", false, columnArea);
     SparklineGroup columnGroup = worksheet.GetSparklineGroups().Get(columnIdx);
-    // Настроить цвет серии спарклайнов "Столбец"
+    // Customize the column sparkline series color
     CellsColor columnColor = workbook.CreateCellsColor();
     columnColor.SetColor(Color::Green());
     columnGroup.SetSeriesColor(columnColor);
-    // Шаг 5: Добавить группу спарклайнов "Победа/Проигрыш" (С накоплением) в F3
+    // Step 5: Add a Win/Loss (Stacked) sparkline group at F3
     CellArea stackedArea;
     stackedArea.StartColumn = 5;
     stackedArea.EndColumn = 5;
@@ -230,11 +230,11 @@ int main() {
     stackedArea.EndRow = 2;
     int stackedIdx = worksheet.GetSparklineGroups().Add(SparklineType::Stacked, u"A1:E1", false, stackedArea);
     SparklineGroup stackedGroup = worksheet.GetSparklineGroups().Get(stackedIdx);
-    // Настроить цвет серии спарклайнов "Победа/Проигрыш"
+    // Customize the win/loss sparkline series color
     CellsColor stackedColor = workbook.CreateCellsColor();
     stackedColor.SetColor(Color::FromArgb(0xFF8C00));
     stackedGroup.SetSeriesColor(stackedColor);
-    // Шаг 6: Сохранить рабочую книгу
+    // Step 6: Save the workbook
     workbook.Save(u"output_all.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

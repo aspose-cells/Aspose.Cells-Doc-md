@@ -1,6 +1,6 @@
 ---
 title: Özet Tablo'da Değerleri Göster
-linktitle: Özet Tablo'da Değerleri Göster
+linktitle: Değerleri Göster
 description: Özet tablo veri alanı değerlerini toplamın yüzde oranı, bir temel ögeye göre fark, kümülatif toplamlar, sıralamalar ve daha fazlası olarak görüntüleyin, Aspose.Cells for Go via C++ ile.
 keywords: Aspose.Cells for Go via C++, özet tablo, değerleri göster, veri gösterim formatı, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex, C++
 type: docs

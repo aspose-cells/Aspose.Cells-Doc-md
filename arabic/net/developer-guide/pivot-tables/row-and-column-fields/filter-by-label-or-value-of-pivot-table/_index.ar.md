@@ -36,19 +36,19 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 string fileName = "sample.xlsx";
 string prefix = "B";
-// تحميل المصنف الحالي الذي يحتوي على جدول محوري
+// Load the existing workbook containing a pivot table
 Workbook workbook = new Workbook(fileName);
-// الوصول إلى ورقة العمل حسب الفهرس (ورقة العمل الأولى)
+// Access the worksheet by index (first worksheet)
 Worksheet worksheet = workbook.Worksheets[0];
-// الوصول إلى الجدول المحوري حسب الفهرس
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// استرجاع حقل الصف الأول PivotField
+// Retrieve the first row PivotField
 PivotField rowField = pivotTable.RowFields[0];
-// تطبيق مرشح التسمية — إظهار عناصر الصفوف التي تبدأ تسميتها بالبادئة المقدمة فقط
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.FilterByLabel(PivotFilterType.CaptionBeginsWith, prefix, string.Empty);
-// تحديث وإعادة حساب بيانات الجدول المحوري لتطبيق المرشح
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// حفظ المصنف على القرص
+// Save the workbook back to disk
 workbook.Save(fileName);
 ```
 
@@ -72,23 +72,23 @@ if (!File.Exists(inputPath))
 {
     throw new FileNotFoundException("Source workbook not found.", inputPath);
 }
-// تحميل مصنف العمل الموجود الذي يحتوي على الجدول المحوري
+// Load the existing workbook that contains the pivot table
 var workbook = new Workbook(inputPath);
-// الوصول إلى ورقة العمل التي تحتوي على الجدول المحوري (بالفهرس)
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.Worksheets[0];
-// الوصول إلى الجدول المحوري بالفهرس
+// Access the pivot table by index
 var pivotTable = worksheet.PivotTables[0];
-// استرجاع حقل المحور التاريخي من منطقة الصفوف
-// (يعمل مرشح التاريخ فقط عندما تحتوي منطقة الصف/العمود على خلايا تاريخ ووقت فقط أو خلايا فارغة)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 PivotField dateField = pivotTable.RowFields[0];
-// تحديد معيار التاريخ لمرشح Between
+// Define the date criterion for the Between filter
 DateTime startDate = new DateTime(2020, 1, 1);
 DateTime endDate = new DateTime(2020, 12, 31);
-// تطبيق مرشح التاريخ على حقل المحور
+// Apply the date filter on the pivot field
 dateField.FilterByDate(PivotFilterType.DateBetween, startDate, endDate);
-// تحديث وإعادة حساب الجدول المحوري حتى يصبح المرشح ساري المفعول
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// حفظ مصنف العمل
+// Persist the workbook
 workbook.Save(outputPath);
 ```
 
@@ -105,7 +105,7 @@ var worksheet = workbook.Worksheets[0];
 var pivotTable = worksheet.PivotTables[0];
 var rowField = pivotTable.RowFields[0];
 var dataField = pivotTable.DataFields[0];
-// البحث عن فهرس حقل البيانات يدويًا نظرًا لأن PivotFieldCollection لا يحتوي على IndexOf
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 int dataFieldIndex = -1;
 for (int i = 0; i < pivotTable.DataFields.Count; i++)
 {
@@ -137,33 +137,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// تحميل المصنف الموجود الذي يحتوي على الجدول المحوري
+// Load the existing workbook that contains the pivot table
 string inputPath = "input.xlsx";
 string outputPath = "output.xlsx";
 Workbook workbook = new Workbook(inputPath);
-// الوصول إلى ورقة العمل التي تحتوي على الجدول المحوري (الفهرس 0)
+// Access the worksheet that holds the pivot table (index 0)
 Worksheet worksheet = workbook.Worksheets[0];
-// الوصول إلى الجدول المحوري حسب الفهرس
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// التأكد من وجود حقل قيمة واحد على الأقل في منطقة البيانات
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.DataFields.Count == 0)
 {
     throw new InvalidOperationException("Pivot table has no value (data) PivotField.");
 }
 PivotField valueField = pivotTable.DataFields[0];
-// استرجاع حقل الصف المستهدف لتطبيق مرشح أعلى 10 عليه
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 PivotField rowField = pivotTable.RowFields[0];
-// يقع حقل البيانات الأول والوحيد عند الفهرس 0، ويُستخدم للترتيب
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 int valueFieldIndex = 0;
-// تطبيق مرشح أعلى 10 على حقل الصف:
-//   - itemCount = 10
-//   - filterType = PivotFilterType.Count
-//   - isTop = true لأعلى N، أو false لأدنى N
-//   - valueFieldIndex = فهرس حقل البيانات المستخدم لترتيب العناصر
+// Apply the Top 10 filter on the row field:
+//   - valueFieldIndex = 0 — the data field used to rank items
+//   - filterType  = PivotFilterType.Count (keep a fixed number of items;
+//     PivotFilterType.Percent would interpret 10 as "top 10 percent")
+//   - isTop       = true (top N; false would mean bottom N)
+//   - itemCount   = 10
 rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
-// تحديث بيانات الجدول المحوري وإعادة حسابها لتطبيق المرشح
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// حفظ المصنف
+// Save the workbook
 workbook.Save(outputPath);
 ```
 
@@ -176,34 +177,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// تحميل مصنف موجود يحتوي على جدول محوري
+// Load an existing workbook containing a pivot table
 Workbook workbook = new Workbook("pivot_table_sample.xlsx");
-// الوصول إلى ورقة العمل الأولى التي تحتوي على الجدول المحوري
+// Access the first worksheet which contains the pivot table
 Worksheet sheet = workbook.Worksheets[0];
-// الوصول إلى الجدول المحوري حسب الفهرس (الجدول المحوري الأول في الورقة)
+// Access the pivot table by index (the first pivot table on the sheet)
 PivotTable pivotTable = sheet.PivotTables[0];
-// استرجاع حقل المحور المستهدف (أول حقل تسمية صف سنقوم بإخفاء/إظهار عناصره)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 PivotField pivotField = pivotTable.RowFields[0];
-// التكرار عبر مجموعة PivotItems الخاصة بحقل المحور المحدد
+// Iterate through the PivotItems collection of the selected PivotField
 int itemCount = pivotField.PivotItems.Count;
 for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.PivotItems[i];
-    // إخفاء عناصر المحور التي تطابق اسمًا/معيارًا محددًا
+    // Hide pivot items that match a specific name/criterion
     if (item.Name == "Item1" || item.Name == "Item2")
     {
         item.IsHidden = true;
     }
-    // عرض توضيح لإظهار عنصر محوري تم إخفاؤه سابقًا
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.Name == "Item3")
     {
         item.IsHidden = false;
     }
 }
-// تحديث الجدول المحوري وإعادة حسابه لتصبح التغييرات سارية المفعول
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.PivotCache.Refresh();
-// حفظ المصنف — تظل العناصر المخفية في البيانات الأساسية
-// ولكن يتم استبعادها من ناتج الجدول المحوري المعروض
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.Save("output_pivot_filtered.xlsx");
 ```
 

@@ -73,7 +73,7 @@ The following example loads a workbook containing an existing pivot table, appli
                     // Apply the label filter — show only row items whose labels begin with the supplied prefix
                     rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, "B", "");
                     // Refresh and recalculate the pivot table data so the filter takes effect
-                    pivotTable.refreshData();
+                    pivotTable.pivotCache.refresh();
                     // Save the workbook back to disk
                     const outputData = workbook.save(SaveFormat.Xlsx);
                     const blob = new Blob([outputData], {
@@ -149,7 +149,7 @@ The following example loads a workbook with a pivot table whose row area contain
                 // Apply the date filter on the pivot field
                 dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
                 // Refresh and recalculate the pivot table so the filter takes effect
-                pivotTable.refreshData();
+                pivotTable.pivotCache.refresh();
                 // Persist the workbook
                 const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
@@ -225,7 +225,7 @@ The following example loads a workbook with a pivot table, applies a value filte
                         Number.MAX_VALUE
                     );
                 }
-                pivotTable.refreshData();
+                pivotTable.pivotCache.refresh();
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 downloadLink.href = URL.createObjectURL(blob);
@@ -306,7 +306,7 @@ The following example loads a workbook with a pivot table that contains a value 
                 //   - itemCount   = 10
                 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
                 // Refresh the pivot table data and recalculate it so the filter takes effect
-                pivotTable.refreshData();
+                pivotTable.pivotCache.refresh();
                 // Save the workbook
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
@@ -380,7 +380,7 @@ This approach is useful when the filtering rule is irregular or item-specific, s
                     }
                 }
                 // Refresh and recalculate the pivot table so changes take effect
-                pivotTable.refreshData();
+                pivotTable.pivotCache.refresh();
                 // Save the workbook — hidden items stay in the underlying data
                 // but are excluded from the displayed pivot table output
                 const outputData = workbook.save(SaveFormat.Xlsx);

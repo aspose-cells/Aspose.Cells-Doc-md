@@ -22,7 +22,7 @@ Las siguientes estrategias de filtrado se cubren en este artículo:
 3. **Filtro de valor** — filtra elementos según los valores agregados de un campo de datos.
 4. **Filtro Top 10** — muestra solo los N elementos superiores o inferiores clasificados por un campo de valor.
 5. **Ocultar / Mostrar elementos dinámicos** — controla manualmente la visibilidad de cada elemento individual en un campo.
-Cada enfoque utiliza un método diferente en la clase `PivotField` o una propiedad en la clase `PivotItem`. Después de aplicar cualquier filtro, debe llamar a `refreshData()` y `calculateData()` en la tabla dinámica para que los datos en caché y los valores calculados reflejen el nuevo estado del filtro.
+Cada enfoque utiliza un método diferente en la clase `PivotField` o una propiedad en la clase `PivotItem`. Después de aplicar cualquier filtro, debe llamar a `getPivotCache().refresh()` en la tabla dinámica para que los datos en caché y los valores calculados reflejen el nuevo estado del filtro.
 
 ## **Filtro de etiqueta**
 Un filtro de etiqueta le permite filtrar los elementos de un campo de fila o columna comparando sus leyendas de texto con un patrón. Esto resulta útil cuando desea mostrar solo productos cuyos nombres comiencen con una letra específica, contengan una palabra particular o coincidan con algún otro criterio basado en leyendas.
@@ -33,19 +33,19 @@ El siguiente ejemplo carga un libro que contiene una tabla dinámica existente, 
 const AsposeCells = require("aspose.cells.node");
 let fileName = "sample.xlsx";
 let prefix = "B";
-// Cargar el libro de trabajo existente que contiene una tabla dinámica
+// Load the existing workbook containing a pivot table
 let workbook = new AsposeCells.Workbook(fileName);
-// Acceder a la hoja de cálculo por índice (primera hoja)
+// Access the worksheet by index (first worksheet)
 let worksheet = workbook.getWorksheets().get(0);
-// Acceder a la tabla dinámica por índice
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// Obtener el primer PivotField de fila
+// Retrieve the first row PivotField
 let rowField = pivotTable.getRowFields().get(0);
-// Aplicar el filtro de etiqueta: mostrar solo los elementos de fila cuyas etiquetas comiencen con el prefijo proporcionado
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
-// Refrescar y recalcular los datos de la tabla dinámica para que el filtro surta efecto
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Guardar el libro de trabajo de vuelta en disco
+// Save the workbook back to disk
 workbook.save(fileName);
 ```
 
@@ -67,23 +67,23 @@ if (!fs.existsSync(inputPath))
 {
     throw new Error("Source workbook not found: " + inputPath);
 }
-// Cargar el libro de trabajo existente que contiene la tabla dinámica
+// Load the existing workbook that contains the pivot table
 const workbook = new AsposeCells.Workbook(inputPath);
-// Acceder a la hoja de trabajo que contiene la tabla dinámica (por índice)
+// Access the worksheet that holds the pivot table (by index)
 const worksheet = workbook.getWorksheets().get(0);
-// Acceder a la tabla dinámica por índice
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// Obtener el PivotField de fecha del área de filas
-// (El filtro de fecha solo funciona cuando el área de filas/columnas contiene solo celdas de fecha-hora o espacios en blanco)
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 const dateField = pivotTable.getRowFields().get(0);
-// Definir el criterio de fecha para el filtro Entre
+// Define the date criterion for the Between filter
 const startDate = new Date(2020, 0, 1);
 const endDate = new Date(2020, 11, 31);
-// Aplicar el filtro de fecha en el campo dinámico
+// Apply the date filter on the pivot field
 dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
-// Actualizar y recalcular la tabla dinámica para que el filtro surta efecto
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Guardar el libro de trabajo
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
@@ -119,32 +119,32 @@ El siguiente ejemplo carga un libro con una tabla dinámica que contiene un camp
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Cargar el libro de trabajo existente que contiene la tabla dinámica
+// Load the existing workbook that contains the pivot table
 const inputPath = "input.xlsx";
 const outputPath = "output.xlsx";
 const workbook = new AsposeCells.Workbook(inputPath);
-// Acceder a la hoja de trabajo que contiene la tabla dinámica (índice 0)
+// Access the worksheet that holds the pivot table (index 0)
 const worksheet = workbook.getWorksheets().get(0);
-// Acceder a la tabla dinámica por índice
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// Confirmar que hay al menos un PivotField de valor en el área de datos
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() === 0) {
     throw new Error("Pivot table has no value (data) PivotField.");
 }
 const valueField = pivotTable.getDataFields().get(0);
-// Obtener el PivotField de fila objetivo (el campo al que queremos aplicar Top 10)
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 const rowField = pivotTable.getRowFields().get(0);
-// El primer (y único) campo de datos está en el índice 0; Top 10 clasifica por él.
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 const valueFieldIndex = 0;
-// Aplicar el filtro Top 10 en el campo de fila:
+// Apply the Top 10 filter on the row field:
 //   - itemCount   = 10
 //   - filterType  = PivotFilterType.Sum
-//   - isTop       = true (N superiores; false significaría N inferiores)
-//   - valueFieldIndex = el índice del campo de datos utilizado para clasificar elementos
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
-// Actualizar los datos de la tabla dinámica y recalcularla para que el filtro surta efecto
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// Guardar el libro de trabajo
+// Save the workbook
 workbook.save(outputPath);
 ```
 
@@ -154,34 +154,34 @@ Este enfoque resulta útil cuando la regla de filtrado es irregular o específic
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Cargar un libro de trabajo existente que contiene una tabla dinámica
+// Load an existing workbook containing a pivot table
 const workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
-// Acceder a la primera hoja de cálculo que contiene la tabla dinámica
+// Access the first worksheet which contains the pivot table
 const sheet = workbook.getWorksheets().get(0);
-// Acceder a la tabla dinámica por índice (la primera tabla dinámica de la hoja)
+// Access the pivot table by index (the first pivot table on the sheet)
 const pivotTable = sheet.getPivotTables().get(0);
-// Obtener el PivotField objetivo (el primer campo de etiqueta de fila en el que ocultaremos/mostraremos elementos)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 const pivotField = pivotTable.getRowFields().get(0);
-// Iterar a través de la colección PivotItems del PivotField seleccionado
+// Iterate through the PivotItems collection of the selected PivotField
 const itemCount = pivotField.getPivotItems().getCount();
 for (let i = 0; i < itemCount; i++)
 {
     const item = pivotField.getPivotItems().get(i);
-    // Ocultar los elementos de la tabla dinámica que coincidan con un nombre/criterio específico
+    // Hide pivot items that match a specific name/criterion
     if (item.getName() == "Item1" || item.getName() == "Item2")
     {
         item.setIsHidden(true);
     }
-    // Demostrar cómo mostrar nuevamente un elemento previamente oculto
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.getName() == "Item3")
     {
         item.setIsHidden(false);
     }
 }
-// Actualizar y recalcular la tabla dinámica para que los cambios surtan efecto
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh();
-// Guardar el libro de trabajo: los elementos ocultos permanecen en los datos subyacentes
-// pero se excluyen de la salida mostrada de la tabla dinámica
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx");
 ```
 

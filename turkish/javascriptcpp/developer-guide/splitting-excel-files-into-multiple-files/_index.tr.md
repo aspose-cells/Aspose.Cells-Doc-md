@@ -1,6 +1,6 @@
 ---
 title: Excel Dosyalarını Çoklu Dosyalara Bölme
-linktitle: Excel Dosyalarını Çoklu Dosyalara Bölme
+linktitle: Excel Dosyalarını Böl
 description: Aspose.Cells for JavaScript via C++ bir JavaScript via C++ kütüphanesidir ve elektronik tablo dosyalarıyla çalışmayı sağlar; tek bir Excel dosyasını çoklu dosyalara bölmeyi destekler. Bu makale, Excel dosyalarını her çalışma sayfasını ayrı bir çalışma kitabına kopyalayarak ve belirli hücre aralıklarını diğer çalışma kitaplarına kopyalayarak nasıl bölüneceğini tanıtacaktır.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++ library, elektronik tablo, Excel dosyasını böl, çalışma sayfasını kopyala, aralığı kopyala, birden fazla çalışma kitabı, ayrı dosyalar olarak kaydet
 type: docs

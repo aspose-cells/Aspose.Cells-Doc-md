@@ -48,68 +48,68 @@ Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.Worksheets;
 Worksheet pivotDataSheet = worksheets.Add("PivotData");
 Cells pivotDataCells = pivotDataSheet.Cells;
-// En-têtes (ligne 0)
+// Headers (row 0)
 pivotDataCells[0, 0].PutValue("Fruit");
 pivotDataCells[0, 1].PutValue("Year");
 pivotDataCells[0, 2].PutValue("Region");
 pivotDataCells[0, 3].PutValue("Amount");
-// Ligne 1 : Pomme, 2022, Nord, 150
+// Row 1: Apple, 2022, North, 150
 pivotDataCells[1, 0].PutValue("Apple");
 pivotDataCells[1, 1].PutValue(2022);
 pivotDataCells[1, 2].PutValue("North");
 pivotDataCells[1, 3].PutValue(150);
-// Ligne 2 : Pomme, 2023, Nord, 180
+// Row 2: Apple, 2023, North, 180
 pivotDataCells[2, 0].PutValue("Apple");
 pivotDataCells[2, 1].PutValue(2023);
 pivotDataCells[2, 2].PutValue("North");
 pivotDataCells[2, 3].PutValue(180);
-// Ligne 3 : Banane, 2022, Sud, 120
+// Row 3: Banana, 2022, South, 120
 pivotDataCells[3, 0].PutValue("Banana");
 pivotDataCells[3, 1].PutValue(2022);
 pivotDataCells[3, 2].PutValue("South");
 pivotDataCells[3, 3].PutValue(120);
-// Ligne 4 : Banane, 2023, Sud, 140
+// Row 4: Banana, 2023, South, 140
 pivotDataCells[4, 0].PutValue("Banana");
 pivotDataCells[4, 1].PutValue(2023);
 pivotDataCells[4, 2].PutValue("South");
 pivotDataCells[4, 3].PutValue(140);
-// Ligne 5 : Cerise, 2022, Est, 200
+// Row 5: Cherry, 2022, East, 200
 pivotDataCells[5, 0].PutValue("Cherry");
 pivotDataCells[5, 1].PutValue(2022);
 pivotDataCells[5, 2].PutValue("East");
 pivotDataCells[5, 3].PutValue(200);
-// Ligne 6 : Cerise, 2023, Est, 220
+// Row 6: Cherry, 2023, East, 220
 pivotDataCells[6, 0].PutValue("Cherry");
 pivotDataCells[6, 1].PutValue(2023);
 pivotDataCells[6, 2].PutValue("East");
 pivotDataCells[6, 3].PutValue(220);
-// Ligne 7 : Raisin, 2022, Ouest, 90
+// Row 7: Grape, 2022, West, 90
 pivotDataCells[7, 0].PutValue("Grape");
 pivotDataCells[7, 1].PutValue(2022);
 pivotDataCells[7, 2].PutValue("West");
 pivotDataCells[7, 3].PutValue(90);
-// Ligne 8 : Raisin, 2023, Ouest, 110
+// Row 8: Grape, 2023, West, 110
 pivotDataCells[8, 0].PutValue("Grape");
 pivotDataCells[8, 1].PutValue(2023);
 pivotDataCells[8, 2].PutValue("West");
 pivotDataCells[8, 3].PutValue(110);
-// Ajouter la feuille PivotTableReport
+// Add PivotTableReport sheet
 Worksheet pivotTableSheet = worksheets.Add("PivotTableReport");
 PivotTableCollection pivotTables = pivotTableSheet.PivotTables;
-// Créer un tableau croisé dynamique à partir de PivotData!A1:D9 placé en A1 sur PivotTableReport
+// Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
 PivotTable pivotTable = pivotTables.Add("PivotData!A1:D9", 0, 0);
-// Ajouter les champs
+// Add fields
 pivotTable.AddFieldToArea(PivotFieldType.Row, 0);   // Fruit
-pivotTable.AddFieldToArea(PivotFieldType.Page, 1);  // Année
-pivotTable.AddFieldToArea(PivotFieldType.Page, 2);  // Région
-pivotTable.AddFieldToArea(PivotFieldType.Data, 3);  // Montant
+pivotTable.AddFieldToArea(PivotFieldType.Page, 1);  // Year
+pivotTable.AddFieldToArea(PivotFieldType.Page, 2);  // Region
+pivotTable.AddFieldToArea(PivotFieldType.Data, 3);  // Amount
 pivotTable.DataFields[0].Function = ConsolidationFunction.Sum;
-// Configurer la disposition de la zone des champs de page : placer les champs de page horizontalement d'abord, retour à la ligne après chaque 2
+// Configure page field area layout: place page fields across first, wrap after every 2
 pivotTable.PageFieldOrder = PrintOrderType.OverThenDown;
 pivotTable.PageFieldWrapCount = 2;
-// Actualiser et calculer
+// Refresh and calculate
 pivotTable.CalculateData();
-// Enregistrer
+// Save
 workbook.Save(Path.Combine(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 ```
 

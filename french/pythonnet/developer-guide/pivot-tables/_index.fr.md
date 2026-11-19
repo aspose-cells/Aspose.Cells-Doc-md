@@ -36,12 +36,10 @@ Après l’exécution de l’exemple de code, un tableau croisé dynamique est a
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-
-# Créer un nouveau classeur et obtenir la première feuille de calcul
+# Create a new workbook and get the first worksheet
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-
-# Écrire les données source : ventes par sport et trimestre
+# Write the source data: sales per sport and quarter
 sheet.cells.get("A1").put_value("Sport")
 sheet.cells.get("B1").put_value("Quarter")
 sheet.cells.get("C1").put_value("Sales")
@@ -66,16 +64,13 @@ sheet.cells.get("C7").put_value(5000)
 sheet.cells.get("A8").put_value("Golf")
 sheet.cells.get("B8").put_value("Qtr3")
 sheet.cells.get("C8").put_value(6430)
-
-# Ajouter un tableau croisé dynamique à la cellule de destination E3, à partir de A1:C8
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivot_table = sheet.pivot_tables.add("A1:C8", 2, 4)
-
-# Affecter les champs du tableau croisé dynamique : Sport aux lignes, Quarter aux colonnes, Sales aux données
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Quarter")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
-
-# Enregistrer le classeur
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Java'da Değer Alanları
 description: Aspose.Cells for Java'da bir özet tablonun veri bölgesine temel alanların nasıl ekleneceğini, PivotField.Function ile özet işlevinin nasıl değiştirileceğini ve değer alanının Satır veya Sütun eksenine nasıl yerleştirileceğini öğrenin.
-linktitle: Aspose.Cells for Java'da Değer Alanları
+linktitle: Değer Alanları
 keywords: Aspose.Cells, Java, özet tablo, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -18,12 +18,12 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// A1:D1 aralığındaki başlıklar
+// Headers in A1:D1
 worksheet.getCells().get(0, 0).putValue("Category");
 worksheet.getCells().get(0, 1).putValue("Item");
 worksheet.getCells().get(0, 2).putValue("Year");
 worksheet.getCells().get(0, 3).putValue("Amount");
-// j üzerinde dallanma yapan iç içe döngüler kullanarak A2:D9 veri satırları
+// Data rows A2:D9 using nested loops branching on j
 for (int i = 1; i <= 8; i++)
 {
  for (int j = 0; j < 4; j++)
@@ -55,9 +55,9 @@ for (int i = 1; i <= 8; i++)
  }
  }
 }
-// F3 konumunda PivotTable1 adlı özet tablo ekle
+// Add pivot table at F3 with name PivotTable1
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
-// Pivot düzeni: Satır olarak Kategori ve Öğe, Sütun olarak Yıl, veri alanı olarak Tutar
+// Pivot layout: Category and Item on Row, Year on Column, Amount as data field
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");

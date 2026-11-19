@@ -1,6 +1,6 @@
 ---
 title: Mostrar valores como en tabla dinámica
-linktitle: Mostrar valores como en tabla dinámica
+linktitle: Mostrar valores como
 description: Mostrar valores de campos de datos de tabla dinámica como porcentaje del total, diferencia de un elemento base, totales acumulados, rangos y más con Aspose.Cells for Go via C++.
 keywords: Aspose.Cells for Go via C++, tabla dinámica, mostrar valores como, formato de visualización de datos, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex, C++
 type: docs

@@ -43,16 +43,16 @@ for (let i = 0; i < fruits.length; i++) {
     cells.get(i + 1, 1).putValue(years[i]);
     cells.get(i + 1, 2).putValue(amounts[i]);
 }
-// Pivot-Tabelle mit ihrer oberen linken Ecke bei E3
+// Pivot table with its top-left corner at E3
 const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.calculateData();
-// Verankere das bedingte Format bei F4 (Zeile 3, Spalte 5) mit dem Datenbereich
+// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 format.applyTo(3, 5, AsposeCells.PivotConditionFormatScopeType.Data);
-// Regel - Werte größer als 200 hervorheben
+// Rule - highlight amounts greater than 200
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CellValue,
     AsposeCells.OperatorType.GreaterThan,
@@ -71,6 +71,8 @@ workbook.save("PivotConditionalFormatData.xlsx");
 Die gleiche Regel an der Zeilen‑Feld‑Bezeichnung E4 (Zeile 3, Spalte 4) mit dem `FIELD`‑Bereich verankert, löst stattdessen F4:F6 – dieselbe Datenspalte ohne die Gesamtsummen‑Zeile – weil der Bereich nun das Feld `Fruit` beschreibt und nicht den gesamten Werte‑Bereich. Der `SELECTION`‑Bereich, der an F4 verankert ist, löst nur F4 auf.
 
 ## **Region manuell definieren**
+
+Der zweite Ansatz verzichtet auf die Bereichs‑Auswahl und benennt den Bereich explizit am `PivotConditionalFormat`.
 
 ### **Ein Arbeitsblattrechteck mit addCellArea**
 `addCellArea(cellArea)` speichert das angegebene Rechteck als Ziel der Regel. Die Koordinaten sind nullbasierte Arbeitsblattkoordinaten, und der Bereich entspricht exakt dem übergebenen Rechteck – keine Erweiterung zur Datenspalte und keine Gesamtsummen‑Logik. Verwenden Sie es, wenn die interessierenden Zellen ein bekanntes festes Rechteck des aktuellen Pivot‑Layouts bilden.
@@ -95,7 +97,7 @@ const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.calculateData();
-// Ziel das Rechteck F4:F6 (die Wertzellen ohne Gesamtsumme)
+// Target the rectangle F4:F6 (the value cells without the grand total)
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 const area = new AsposeCells.CellArea();
@@ -104,7 +106,7 @@ area.startColumn = 5;
 area.endRow = 5;
 area.endColumn = 5;
 format.addCellArea(area);
-// Regel - kursiv auf hellgelb für Beträge zwischen 150 und 300
+// Rule - italic on light yellow for amounts between 150 and 300
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CellValue,
     AsposeCells.OperatorType.Between,
@@ -142,13 +144,13 @@ const pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
 pivotTable.calculateData();
-// Regel an das Datenfeld Amount als semantischen Bereich anhängen
+// Attach the rule to the Amount data field as a semantic region
 const index = pivotTable.getConditionalFormats().add();
 const format = pivotTable.getConditionalFormats().get(index);
 const area = new AsposeCells.PivotArea(pivotTable);
 area.selectField(AsposeCells.PivotFieldType.Data, "Amount");
 format.getPivotAreas().addPivotArea(area);
-// Regel – grauer Text für Beträge unter 150
+// Rule - grey text for amounts below 150
 const conditionIndex = format.getFormatConditions().addCondition(
     AsposeCells.FormatConditionType.CellValue,
     AsposeCells.OperatorType.LessThan,
@@ -179,10 +181,10 @@ for (let i = 0; i < pivotTable.getConditionalFormats().getCount(); i++) {
         console.log(`    rows ${area.startRow + 1}-${area.endRow + 1}, columns ${area.startColumn + 1}-${area.endColumn + 1}`);
     }
 }
-// Dies wird ausgegeben:
-// Bedingte Formatierungen: 1
-// Format 0: Zellwert GrößerAls Formel1==200
-//     Zeilen 4-7, Spalten 6-6        (F4:F7, der aufgelöste Datenbereich)
+// This prints:
+// Conditional formats: 1
+// Format 0: 1 2 formula1=200   (type 1 = CellValue, operator 2 = GreaterThan)
+//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **Verwandte Artikel**

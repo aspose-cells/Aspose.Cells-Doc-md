@@ -27,15 +27,15 @@ Aspose.Cells for Java 提供了两种等效的方式来注册筛选字段。高�
 
 ```java
 import com.aspose.cells.*;
-// 创建一个新的工作簿
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// 设置标题行
+// Set up the header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// 填充 9 行示例数据：水果、年份、数量
+// Populate 9 rows of sample data: Fruit, Year, Amount
 Object[][] data = new Object[][]
 {
     { "apple", 2020, 100 },
@@ -54,15 +54,15 @@ for (int i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 1).putValue(data[i][1]);
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
-// 在 E3 单元格添加数据透视表
+// Add a pivot table anchored at cell E3
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// 将字段添加到相应区域：水果作为行字段，数量作为数据字段，年份作为页面筛选字段
+// Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// 刷新并计算数据透视表数据
+// Refresh and calculate the pivot table data
 pivotTable.calculateData();
-// 保存工作簿
+// Save the workbook
 workbook.save("pageFieldSample.xlsx");
 ```
 
@@ -71,19 +71,19 @@ workbook.save("pageFieldSample.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// - 透视表和页面字段的构建方式与
-//   场景1a完全相同(Fruit/Year/Amount数据,透视表位于E3,Fruit->行,
-//   Amount->数据)。下面我们从BaseFields集合中获取Year PivotField,
-//   并将其传递给PageFields.Add - 这是
-//   AddFieldToArea的底层替代方法。其结果与
-//   场景1a功能相同。
+// - The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit->Row,
+//   Amount->Data). Below we obtain the Year PivotField from the
+//   BaseFields collection and pass it to PageFields.Add - the
+//   low-level alternative to AddFieldToArea. The result is
+//   functionally identical to Scenario 1a.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
-// 表头
+// Headers
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
-// 示例数据 (9行)
+// Sample data (9 rows)
 sheet.getCells().get("A2").putValue("apple");    sheet.getCells().get("B2").putValue("2020"); sheet.getCells().get("C2").putValue(100);
 sheet.getCells().get("A3").putValue("apple");    sheet.getCells().get("B3").putValue("2021"); sheet.getCells().get("C3").putValue(150);
 sheet.getCells().get("A4").putValue("apple");    sheet.getCells().get("B4").putValue("2022"); sheet.getCells().get("C4").putValue(200);
@@ -93,16 +93,16 @@ sheet.getCells().get("A7").putValue("grape");    sheet.getCells().get("B7").putV
 sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").putValue("2020"); sheet.getCells().get("C8").putValue(250);
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
-// 在E3添加覆盖A1:C10的透视表
+// Add pivot table at E3 covering A1:C10
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// Fruit -> 行, Amount -> 数据 (Year将在下面添加到页面)
+// Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// 底层方法:从BaseFields中获取现有的Year PivotField,
-// 并通过PageFields.Add(PivotField)将其注册到页面区域。
+// Low-level approach: grab the existing Year PivotField from BaseFields
+// and register it in the Page area via PageFields.Add(PivotField).
 PivotField yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
-// 刷新以使新的页面字段在保存的工作簿中生效
+// Refresh so the new page field is reflected in the saved workbook
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -117,7 +117,7 @@ workbook.save("output.xlsx");
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
-// 填充水果/年份/金额数据
+// Populate Fruit/Year/Amount data
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
@@ -137,17 +137,17 @@ for (int r = 0; r < data.length; r++)
         sheet.getCells().get(r + 1, c).putValue(data[r][c]);
     }
 }
-// 在 E3 创建数据透视表
+// Create pivot table at E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
 PivotTable pivot = pivotTables.add("=A1:C7", 2, 4);
-// 配置透视字段：水果到行，金额到数据，年份到页
+// Configure pivot fields: Fruit to Row, Amount to Data, Year to Page
 pivot.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivot.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivot.addFieldToArea(PivotFieldType.PAGE, "Year");
 pivot.calculateData();
-// 清除页面筛选器，以便页面字段中的每个项目都可见。
-// 0x7FFD（十进制 32765）是表示"所有项目"的特殊哨兵值，
-// 等同于在 Excel 的页面字段下拉菜单中选择"(全部)"。
+// Clear the page filter so every item in the page field is visible.
+// 0x7FFD (decimal 32765) is the special sentinel value that means "all items",
+// equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivot.getPageFields().get(0).setCurrentPageItem((short)0x7FFD);
 workbook.save("output.xlsx");
 ```
@@ -157,11 +157,11 @@ workbook.save("output.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// 创建工作簿
+// Create workbook
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-// 添加示例数据（水果/年份/金额）
+// Add sample data (Fruit/Year/Amount)
 cells.get("A1").putValue("Fruit");
 cells.get("B1").putValue("Year");
 cells.get("C1").putValue("Amount");
@@ -177,16 +177,16 @@ cells.get("C4").putValue("200");
 cells.get("A5").putValue("Banana");
 cells.get("B5").putValue("2021");
 cells.get("C5").putValue("250");
-// 在 E3 处添加数据透视表
+// Add pivot table at E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
 PivotTable pivotTable = pivotTables.add("A1:C5", 2, 4);
-// 添加字段：Fruit→行，Amount→数据，Year→页
+// Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// 页字段特定操作
-pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = 排序顺序中的第二项（例如 "2021"）
-// 刷新并计算数据透视表
+// Page-field-specific operations
+pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = second item in sorted order (e.g. "2021")
+// Refresh and calculate pivot table
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -200,7 +200,7 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-// 样本数据：水果 | 年份 | 数量
+// Sample data: Fruit | Year | Amount
 cells.get(0, 0).putValue("Fruit");
 cells.get(0, 1).putValue("Year");
 cells.get(0, 2).putValue("Amount");
@@ -228,15 +228,15 @@ PivotTable pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// -- 启用页面字段上的多选
+// -- Enable multi-select on the page field
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
-// 部分 A -- 选择所有项目（使每个项目可见）
+// Part A -- select ALL items (make every item visible)
 PivotItemCollection pivotItems = pivotTable.getPageFields().get(0).getPivotItems();
 for (int i = 0; i < pivotItems.getCount(); i++)
 {
     pivotItems.get(i).setHidden(false);
 }
-// 部分 B -- 按源值仅选择特定项目
+// Part B -- select only specific items by source value
 for (int i = 0; i < pivotItems.getCount(); i++)
 {
     switch (pivotItems.get(i).getStringValue())

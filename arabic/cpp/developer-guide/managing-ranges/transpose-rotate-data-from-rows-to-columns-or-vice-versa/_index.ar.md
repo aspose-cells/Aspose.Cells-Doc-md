@@ -122,21 +122,21 @@ int main() {
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // تحميل المصنف المصدر باستخدام خيارات التحميل xlsx
+    // Load the source workbook with xlsx LoadOptions
     std::string srcFile = "source.xlsx";
     Workbook workbook(U16String(srcFile.c_str()), LoadOptions(LoadFormat::Xlsx));
-    // الوصول إلى ورقة العمل الأولى ومجموعة الخلايا الخاصة بها
+    // Access the first worksheet and its Cells collection
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // تعيين صيغة المصفوفة الكلاسيكية CSE على الخلية A6.
-    // الصيغة =TRANSPOSE(A1:D5) تدور نطاق المصدر ذو الـ 5 صفوف و 4 أعمدة
-    // إلى مصفوفة ذات 4 صفوف و 5 أعمدة. الوسيط الثاني (4) هو عدد الصفوف
-    // والوسيط الثالث (5) هو عدد أعمدة المصفوفة الناتجة.
-    // يقوم Aspose.Cells بكتابة علامة صيغة المصفوفة CSE بحيث يقوم Excel بتقييمها كـ
-    // صيغة مصفوفة واحدة متعددة الخلايا، متوافقة مع إصدارات Excel الأقدم
-    // (2019، 2016، 2013، إلخ) التي لا تدعم الانسكاب الديناميكي للمصفوفات.
+    // Set the classic CSE array formula on cell A6.
+    // The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+    // into a 4-row x 5-column array. The second argument (4) is the number of rows
+    // and the third argument (5) is the number of columns of the resulting array.
+    // Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+    // a single multi-cell array formula, compatible with older Excel versions
+    // (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
     cells.Get(u"A6").SetArrayFormula(u"=TRANSPOSE(A1:D5)", 4, 5);
-    // حفظ المصنف بحيث تتحدث بعلامة صيغة المصفوفة
+    // Save the workbook so the array-formula marker is persisted
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

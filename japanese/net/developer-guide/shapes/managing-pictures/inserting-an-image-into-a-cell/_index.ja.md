@@ -95,16 +95,16 @@ Aspose.Cells は、セル境界の画像に対してよりシンプルな仕組�
 ```csharp
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
-// 対象セル C6 を取得
+// Get the target cell C6
 var cell = worksheet.Cells["C6"];
-// 画像ファイルをバイト配列に読み込む
+// Read the image file into a byte array
 byte[] imageData = File.ReadAllBytes("logo.png");
-// 画像をセルに直接埋め込む
+// Embed the image directly into the cell
 cell.EmbeddedImage = imageData;
-// 埋め込まれた画像がより見やすくなるように、必要に応じて行の高さと列の幅を調整する
-worksheet.Cells.SetColumnWidth(2, 30);   // 列 C (インデックス 2)
-worksheet.Cells.SetRowHeight(5, 100);     // 行 6 (インデックス 5)
-// 結果のワークブックを .xlsx ファイルとして保存
+// Optionally adjust row height and column width so the embedded image is more visible
+worksheet.Cells.SetColumnWidth(2, 30);   // Column C (index 2)
+worksheet.Cells.SetRowHeight(5, 100);     // Row 6 (index 5)
+// Save the resulting workbook as an .xlsx file
 workbook.Save("output.xlsx", SaveFormat.Xlsx);
 ```
 

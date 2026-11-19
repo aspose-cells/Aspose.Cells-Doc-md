@@ -23,15 +23,15 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-# Carica la cartella di lavoro di esempio
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Accedi al secondo foglio di lavoro e alla sua tabella pivot
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# Raggruppa automaticamente il primo campo riga.
-# Il campo contiene date, quindi viene raggruppato per mesi.
+# Group the first row field automatically.
+# The field contains dates, so it is grouped by months.
 field = pt.getRowFields().get(0)
 field.group()
-# Calcola i dati della tabella pivot e salva il file di output
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputAutoGroupPivotField.xlsx")
 jpype.shutdownJVM()
@@ -49,17 +49,17 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldGroupOptions, PivotGroupByType, DateTime
-# Carica il workbook di esempio
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Accedi al secondo foglio di lavoro e alla sua tabella pivot
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# Raggruppa il primo campo riga (un campo data) per mesi e trimestri
+# Group the first row field (a date field) by months and quarters
 options = PivotFieldGroupOptions()
 options.setStartDate(DateTime(2008, 1, 1))
 options.setEndDate(DateTime(2008, 9, 5))
 options.setGroupTypes([PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS])
 pt.getRowFields().get(0).group(options)
-# Calcola i dati della tabella pivot e salva il file di output
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 jpype.shutdownJVM()
@@ -75,21 +75,21 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType, PivotFieldGroupOptions
-# Carica il workbook di esempio
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Accedi al secondo foglio di lavoro e alla sua tabella pivot
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# FieldTwo è un campo dati: spostalo prima nell'area delle righe,
-# perché solo i campi riga/colonna possono essere raggruppati
+# FieldTwo is a data field: move it to the row area first,
+# because only row/column fields can be grouped
 pt.addFieldToArea(PivotFieldType.ROW, "FieldTwo")
 pt.calculateData()
-# Raggruppa il campo numerico negli intervalli 0-1, 2-3, 4-5
+# Group the numeric field into the ranges 0-1, 2-3, 4-5
 options = PivotFieldGroupOptions()
 options.setStartNumber(0)
 options.setEndNumber(5)
 options.setInterval(2)
 pt.getRowFields().get(1).group(options)
-# Calcola i dati della tabella pivot e salva il file di output
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputNumberGroupPivotField.xlsx")
 jpype.shutdownJVM()

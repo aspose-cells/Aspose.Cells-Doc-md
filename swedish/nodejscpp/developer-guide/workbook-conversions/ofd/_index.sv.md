@@ -1,7 +1,7 @@
 ---
 title: Konvertera Excel till OFD-format
 description: Aspose.Cells är ett Node.js-bibliotek för att arbeta med kalkylbladsfiler som stöder konvertering av Excel-arbetsböcker till OFD-format (Open Fixed-layout Document). Den här artikeln visar hur man skapar Excel-innehåll och exporterar det som OFD, samt hur man konverterar befintliga Excel-filer till OFD med hjälp av Aspose.Cells.
-linktitle: Konvertera Excel till OFD-format
+linktitle: OFD
 keywords: Aspose.Cells, Node.js-bibliotek, kalkylblad, Excel till OFD, OFD-konvertering, SaveFormat.Ofd, dokument med fast layout, export av arbetsbok
 type: docs
 weight: 195
@@ -31,25 +31,25 @@ Exemplet konstruerar ett fakturakalkylblad genom att infoga en logotypbild i det
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let dataDir = "C:\\Temp\\";
-// Skapa en ny arbetsbok
+// Create a new Workbook
 let workbook = new AsposeCells.Workbook();
-// Hämta det första arbetsbladet
+// Obtain the first worksheet
 let worksheet = workbook.getWorksheets().get(0);
-// Ställ in kolumnbredder
+// Set column widths
 worksheet.getCells().setColumnWidth(0, 5);
 worksheet.getCells().setColumnWidth(1, 35);
 worksheet.getCells().setColumnWidth(2, 12);
 worksheet.getCells().setColumnWidth(3, 15);
 worksheet.getCells().setColumnWidth(4, 15);
 worksheet.getCells().setColumnWidth(5, 5);
-// Infoga företagslogotyp
+// Insert company logo
 worksheet.getPictures().add(1, 1, dataDir + "logo.png");
-// Företagsnamn och kontaktuppgifter
+// Company name and contact details
 worksheet.getCells().get("B3").putValue("Acme Corporation");
 worksheet.getCells().get("B4").putValue("123 Business Street");
 worksheet.getCells().get("B5").putValue("City, State 12345");
 worksheet.getCells().get("B6").putValue("Phone: (555) 123-4567");
-// FAKTURAtitel - sammanfoga celler
+// INVOICE title - merge cells
 worksheet.getCells().merge(7, 1, 2, 4);
 let titleCell = worksheet.getCells().get("B8");
 titleCell.putValue("INVOICE");
@@ -58,19 +58,19 @@ titleStyle.getFont().setIsBold(true);
 titleStyle.getFont().setSize(20);
 titleStyle.setHorizontalAlignment(AsposeCells.TextAlignmentType.Center);
 titleCell.setStyle(titleStyle);
-// Fakturanummer och datum
+// Invoice number and date
 worksheet.getCells().get("B11").putValue("Invoice Number:");
 worksheet.getCells().get("C11").putValue("INV-2024-001");
 worksheet.getCells().get("B12").putValue("Date:");
 let now = new Date();
 let dateStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
 worksheet.getCells().get("C12").putValue(dateStr);
-// Faktureras till-sektion
+// Bill-to section
 worksheet.getCells().get("B14").putValue("Bill To:");
 worksheet.getCells().get("B15").putValue("Client Name");
 worksheet.getCells().get("B16").putValue("Client Address");
 worksheet.getCells().get("B17").putValue("Client City, State");
-// Rubrik för radartiklar
+// Line items header
 let headerDesc = worksheet.getCells().get("B19");
 let headerQty = worksheet.getCells().get("C19");
 let headerPrice = worksheet.getCells().get("D19");
@@ -92,20 +92,20 @@ headerDesc.setStyle(headerStyle);
 headerQty.setStyle(headerStyle);
 headerPrice.setStyle(headerStyle);
 headerTotal.setStyle(headerStyle);
-// Valutastil med kanter
+// Currency style with borders
 let currencyStyle = workbook.createStyle();
 currencyStyle.setCustom("\"$\"#,##0.00");
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.TopBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.BottomBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.LeftBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 currencyStyle.getBorders().getByBorderType(AsposeCells.BorderType.RightBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
-// Enkel kantstil för beskrivnings-/kvantitetsceller
+// Plain border style for description/quantity cells
 let borderStyle = workbook.createStyle();
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.TopBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.BottomBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.LeftBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
 borderStyle.getBorders().getByBorderType(AsposeCells.BorderType.RightBorder).setLineStyle(AsposeCells.CellBorderType.Thin);
-// Rader för radartiklar
+// Line items rows
 let lineItems = [
     ["Product A - Widget", 2, 50.00],
     ["Product B - Gadget", 3, 75.00],
@@ -126,7 +126,7 @@ for (let i = 0; i < lineItems.length; i++) {
     priceCell.setStyle(currencyStyle);
     totalCell.setStyle(currencyStyle);
 }
-// Delsumma, skatt, totalsumma
+// Subtotal, tax, grand total
 worksheet.getCells().get("B24").putValue("Subtotal:");
 let subtotalCell = worksheet.getCells().get("E24");
 subtotalCell.setFormula("SUM(E20:E22)");
@@ -136,20 +136,20 @@ taxCell.setFormula("E24*0.1");
 worksheet.getCells().get("B26").putValue("Grand Total:");
 let grandTotalCell = worksheet.getCells().get("E26");
 grandTotalCell.setFormula("E24+E25");
-// Fetstil + valutastil för totalvärden
+// Bold + currency style for total values
 let totalStyle = workbook.createStyle();
 totalStyle.getFont().setIsBold(true);
 totalStyle.setCustom("\"$\"#,##0.00");
 subtotalCell.setStyle(totalStyle);
 taxCell.setStyle(totalStyle);
 grandTotalCell.setStyle(totalStyle);
-// Fetstil för totaletiketter
+// Bold style for total labels
 let boldStyle = workbook.createStyle();
 boldStyle.getFont().setIsBold(true);
 worksheet.getCells().get("B24").setStyle(boldStyle);
 worksheet.getCells().get("B25").setStyle(boldStyle);
 worksheet.getCells().get("B26").setStyle(boldStyle);
-// Spara arbetsboken som en OFD-fil
+// Save the workbook as an OFD file
 workbook.save(dataDir + "Invoice.ofd", AsposeCells.SaveFormat.Ofd);
 ```
 
@@ -159,39 +159,39 @@ Aspose.Cells kan också läsa in en befintlig Excel-arbetsbok från disk och exp
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let workbook = new AsposeCells.Workbook(dataDir + "SampleBook.xlsx");
-// (1) Läs och visa värden från valda celler för att bekräfta att filen laddades
+// (1) Read and display values from selected cells to confirm the file was loaded
 let firstSheet = workbook.getWorksheets().get(0);
 console.log("First sheet name: " + firstSheet.getName());
 console.log("Cell A1: " + firstSheet.getCells().get("A1").getStringValue());
 console.log("Cell B1: " + firstSheet.getCells().get("B1").getStringValue());
 console.log("Cell C1: " + firstSheet.getCells().get("C1").getStringValue());
-// (2) Iterera över Worksheets-samlingen för att räkna upp tillgängliga kalkylblad
+// (2) Iterate over the Worksheets collection to enumerate available sheets
 console.log("\nAvailable worksheets:");
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++)
 {
     let ws = workbook.getWorksheets().get(i);
     console.log("  [" + i + "] " + ws.getName());
 }
-// (3) Valfritt: uppdatera en tidsstämpelcell för att återspegla konverteringen
+// (3) Optionally update a timestamp cell to reflect the conversion
 firstSheet.getCells().get("A1").putValue("Converted on: " + formatDate(new Date()));
 // Append a summary header row at the top of the data block
 firstSheet.getCells().insertRow(0);
 firstSheet.getCells().get("A1").putValue("Conversion Summary");
 firstSheet.getCells().get("A2").putValue("Generated: " + formatDate(new Date()));
-// (4) Konfigurera PageSetup-egenskaper på kalkylbladet
+// (4) Configure PageSetup properties on the worksheet
 let pageSetup = firstSheet.getPageSetup();
 pageSetup.setOrientation(AsposeCells.PageOrientationType.Landscape);
 pageSetup.setPaperSize(AsposeCells.PaperSizeType.PaperA4);
 pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
-// (5) Valfritt: ange utskriftsområde för OFD-utdata
+// (5) Optionally set the print area for the OFD output
 let lastRow = firstSheet.getCells().getMaxDataRow();
 let lastCol = firstSheet.getCells().getMaxDataColumn();
 let lastColLetter = AsposeCells.CellsHelper.columnIndexToName(lastCol);
 let printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 console.log("\nPrint area set to: " + printArea);
-// (6) Spara arbetsboken som en OFD-fil
+// (6) Save the workbook as an OFD file
 workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.Ofd);
 console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 ```

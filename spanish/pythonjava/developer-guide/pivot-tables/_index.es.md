@@ -38,13 +38,11 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType
-
-# Crear un nuevo libro de trabajo y obtener la primera hoja de cálculo
+# Create a new workbook and get the first worksheet
 workbook = Workbook()
 sheet = workbook.getWorksheets().get(0)
 cells = sheet.getCells()
-
-# Escribir los datos de origen: ventas por deporte y trimestre
+# Write the source data: sales per sport and quarter
 cells.get("A1").putValue("Sport")
 cells.get("B1").putValue("Quarter")
 cells.get("C1").putValue("Sales")
@@ -69,16 +67,13 @@ cells.get("C7").putValue(5000)
 cells.get("A8").putValue("Golf")
 cells.get("B8").putValue("Qtr3")
 cells.get("C8").putValue(6430)
-
-# Agregar una tabla dinámica en la celda de destino E3, usando A1:C8 como origen
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4)
-
-# Asignar los campos de la tabla dinámica: Sport a Filas, Quarter a Columnas y Sales a Datos
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Quarter")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales")
-
-# Guardar el libro de trabajo
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

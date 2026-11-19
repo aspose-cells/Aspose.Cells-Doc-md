@@ -1,7 +1,7 @@
 ---
 title: Convertir Excel a formato OFD
 description: Aspose.Cells for Node.js via Java es una biblioteca de hojas de cálculo para trabajar con archivos de hojas de cálculo que admite la conversión de libros de trabajo de Excel al formato OFD (Open Fixed-layout Document). Este artículo demuestra cómo crear contenido de Excel y exportarlo como OFD, así como cómo convertir archivos de Excel existentes a OFD utilizando Aspose.Cells.
-linktitle: Convertir Excel a formato OFD
+linktitle: OFD
 keywords: Aspose.Cells, biblioteca de Node.js via Java, hoja de cálculo, Excel a OFD, conversión OFD, SaveFormat.Ofd, documento de diseño fijo, exportación de libro de trabajo
 type: docs
 weight: 195
@@ -158,41 +158,41 @@ Aspose.Cells también puede cargar un libro de trabajo de Excel existente desde 
 ```javascript
 const AsposeCells = require("aspose.cells");
 const dataDir = "C:\\Examples\\";
-// Abrir un libro de Excel existente desde el disco
+// Open an existing Excel workbook from disk
 const workbook = new AsposeCells.Workbook(dataDir + "SampleBook.xlsx");
-// (1) Leer y mostrar valores de celdas seleccionadas para confirmar que el archivo fue cargado
+// (1) Read and display values from selected cells to confirm the file was loaded
 const firstSheet = workbook.getWorksheets().get(0);
 console.log("First sheet name: " + firstSheet.getName());
 console.log("Cell A1: " + firstSheet.getCells().get("A1").getStringValue());
 console.log("Cell B1: " + firstSheet.getCells().get("B1").getStringValue());
 console.log("Cell C1: " + firstSheet.getCells().get("C1").getStringValue());
-// (2) Iterar sobre la colección de hojas de trabajo para enumerar las hojas disponibles
+// (2) Iterate over the Worksheets collection to enumerate available sheets
 console.log("\nAvailable worksheets:");
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++)
 {
     const ws = workbook.getWorksheets().get(i);
     console.log("  [" + i + "] " + ws.getName());
 }
-// (3) Opcionalmente actualizar una celda de marca de tiempo para reflejar la conversión
+// (3) Optionally update a timestamp cell to reflect the conversion
 firstSheet.getCells().get("A1").putValue("Converted on: " + formatDate(new Date()));
-// Agregar una fila de encabezado de resumen en la parte superior del bloque de datos
+// Append a summary header row at the top of the data block
 firstSheet.getCells().insertRow(0);
 firstSheet.getCells().get("A1").putValue("Conversion Summary");
 firstSheet.getCells().get("A2").putValue("Generated: " + formatDate(new Date()));
-// (4) Configurar propiedades de PageSetup en la hoja de trabajo
+// (4) Configure PageSetup properties on the worksheet
 const pageSetup = firstSheet.getPageSetup();
 pageSetup.setOrientation(AsposeCells.PageOrientationType.Landscape);
 pageSetup.setPaperSize(AsposeCells.PaperSizeType.PaperA4);
 pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
-// (5) Opcionalmente establecer el área de impresión para la salida OFD
+// (5) Optionally set the print area for the OFD output
 const lastRow = firstSheet.getCells().getMaxDataRow();
 const lastCol = firstSheet.getCells().getMaxDataColumn();
 const lastColLetter = AsposeCells.CellsHelper.columnIndexToName(lastCol);
 const printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 console.log("\nPrint area set to: " + printArea);
-// (6) Guardar el libro como un archivo OFD
+// (6) Save the workbook as an OFD file
 workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.OFD);
 console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 function formatDate(date) {

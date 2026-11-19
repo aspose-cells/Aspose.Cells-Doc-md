@@ -1,8 +1,8 @@
 ---
 title: إظهار القيم كـ في جدول محوري
-description: عرض قيم حقول بيانات جدول محوري كنسبة مئوية من الإجمالي، أو فرقًا عن عنصر أساسي، أو مجموعات تراكمية، أو ترتيبات، وأكثر باستخدام Aspose.Cells for JavaScript via C++.
-linktitle: Show Values As
-keywords: Aspose.Cells, JavaScript via C++, جدول محوري, إظهار القيم كـ, تنسيق عرض البيانات, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex
+linktitle: إظهار القيم كـ في جدول محوري
+description: عرض قيم حقول البيانات في جدول محوري كنسبة مئوية من الإجمالي، أو اختلاف عن عنصر أساسي، أو مجموعات تراكمية، أو تصنيفات، وأكثر باستخدام Aspose.Cells for JavaScript via C++.
+keywords: Aspose.Cells, JavaScript via C++, جدول محوري, إظهار القيم كـ, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, showValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /ar/javascript-cpp/show-values-as-in-pivot-table/
@@ -11,48 +11,54 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **سيناريوهات الاستخدام المحتملة**
-عادةً ما يجمع جدول محوري كل حقل بيانات باستخدام دالة تجميع مثل `Sum` أو `Count`. ميزة **Show Values As** في Excel تستبدل كل نتيجة معروضة بحساب ثانوي مستمد من ذلك التجميع — على سبيل المثال، نسبة من الإجمالي الكلي، أو مجموع متراكم، أو فرق عن عنصر أساسي مختار، أو ترتيب — بحيث يمكنك إجراء تحليل مقارن دون الحاجة إلى صيغ مساعدة أو أعمدة محسوبة.  
-تشمل الاستخدامات الشائعة تحليل الحصة من الإجمالي، بما في ذلك النسب المئوية للصف أو العمود أو الإجمالي الكلي؛ والتقارير التراكمية باستخدام مجموع متتابع في حقل زمني؛ وتحليل الانحراف مقابل عنصر مرجعي باستخدام الفرق أو الفرق بالنسبة المئوية؛ وترتيب القيم من الأصغر إلى الأكبر أو العكس.  
-في Aspose.Cells for JavaScript via C++، يحدد `PivotFieldDataDisplayFormat` الحساب الثانوي. الخاصية للقراءة فقط `PivotField.showValuesSetting` تُعيد كائن `PivotShowValuesSetting`، ويمكن تعديل الخصائص القابلة للكتابة `calculationType` و `baseFieldIndex` و `baseItemPositionType` و `baseItemIndex` لتكوين السلوك؛ كما تُطبق الطريقة المريحة `PivotField.showValuesAs(...)` نفس الإعدادات الأربع في استدعاء واحد. يُطبق هذا التكوين على حقل بيانات أو قيمة يتم الحصول عليه من `PivotTable.dataFields`.
+عادةً ما يجمع جدول محوري كل حقل بيانات باستخدام دالة تجميع مثل `Sum` أو `Count`. ميزة **Show Values As** في Excel تستبدل كل نتيجة معروضة بحساب ثانوي مشتق من ذلك التجميع — على سبيل المثال، نسبة مئوية من الإجمالي الكلي، أو مجموع تراكمي، أو فرق عن عنصر أساسي مختار، أو تصنيف — وبالتالي يمكنك إجراء تحليل مقارن دون الحاجة إلى صيغ مساعدة أو أعمدة محسوبة.  
+تشمل الاستخدامات الشائعة تحليل حصة الإجمالي، بما في ذلك النسب المئوية للصف أو العمود أو الإجمالي الكلي؛ وتقريرًا تراكمياً باستخدام مجموع تراكمي في حقل الفترة؛ وتحليل الانحراف مقابل عنصر مرجعي باستخدام الفرق أو الفرق النسبي عن عنصر أساسي؛ وتصنيف القيم من الأصغر إلى الأكبر أو من الأكبر إلى الأصغر.  
+في Aspose.Cells for JavaScript via C++، يحدد تعداد `PivotShowValuesAsType` الحساب الثانوي. الخاصية للقراءة فقط `PivotField.showValuesSetting` تُعيد كائن `PivotShowValuesSetting`، حيث تُكوّن الخصائص القابلة للكتابة `showValuesAs` و`baseFieldIndex` و`baseItemIndex` السلوك؛ كما تُطبّق طريقة الاختصار `PivotField.showValuesAs(...)` نفس الإعدادات في استدعاء واحد. طبّق هذه الإعدادات على حقل بيانات أو قيمة يتم الحصول عليه من `PivotTable.dataFields`.
 
-## **أعضاء تعداد PivotFieldDataDisplayFormat**
-يظل حقل البيانات يحتفظ بدالة التجميع الخاصة به، مثل Sum أو Count، بينما يقوم Show Values As بتحويل طريقة عرض القيمة المجمعة فقط. بالإضافة إلى كتابة خصائص `PivotShowValuesSetting` مباشرة (انظر القسم الأخير)، تُطبق طريقة المساعدة ذات الاستدعاء الواحد نفس التكوين:
+## **أعضاء تعداد PivotShowValuesAsType**
+يحافظ حقل البيانات على دالة التجميع الخاصة به، مثل Sum أو Count، بينما تقوم ميزة إظهار القيم كـ بتحويل طريقة عرض القيمة المجمعة فقط. إلى جانب كتابة خصائص `PivotShowValuesSetting` مباشرة (انظر القسم الأخير)، تُطبق طريقة الاختصار ذات الاستدعاء الواحد نفس التكوين. تُوفر بطريقتين — إحداهما تُعنى بالحقل الأساسي والعنصر الأساسي بحسب الفهرس، والأخرى بحسب الاسم:
 
 ```html
-dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem);
+function showValuesAs(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
+}
+function showValuesAsByName(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
+}
+// index form: AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0
+// name form:  AsposeCells.PivotShowValuesAsType.PercentageOf, "Fruit", "Apple"
 ```
 
 | المعامل | المعنى | متى يكون مطلوبًا |
 | --- | --- | --- |
-| `displayFormat` | حساب ثانوي من نوع `PivotFieldDataDisplayFormat` يُراد تطبيقه. | دائمًا. |
-| `baseField` | الفهرس الصفري للحقول الأساسية بين الحقول الأساسية لجدول محوري (على سبيل المثال، فهرس حقل الصف الذي ينتمي إليه العنصر الأساسي). | فقط تنسيقات المرجع الستة أدناه (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfRunningTotalIn`, `PercentageOfParentTotal`)؛ يتم تجاهلها في جميع التنسيقات الأخرى. |
-| `baseItemPositionType` | طريقة اختيار العنصر الأساسي بالنسبة للعنصر الحالي: `PivotItemPositionType.Previous`، `.Next`، أو `.Custom`. | فقط تنسيقات العنصر الأساسي الثلاثة (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`)؛ يتم تجاهلها في جميع التنسيقات الأخرى. |
-| `baseItem` | الفهرس الصفري للعنصر الأساسي. | فقط عندما يكون `baseItemPositionType` هو `Custom` (يُحدّد الفهرس العنصر الأساسي بدقة); تُهمل لـ `Previous` / `Next` ولكل الصيغ غير القائمة على العنصر الأساسي — يُمرّر `0`. |
+| `showValuesAsType` | حساب `PivotShowValuesAsType` الثانوي المراد تطبيقه. | دائمًا. |
+| `baseField` | الفهرس الصفري للحقل الأساسي ضمن الحقول الأساسية لجدول المحور (مثال: فهرس حقل الصف الذي ينتمي إليه العنصر الأساسي)، أو — في الصيغة التي تعتمد على الاسم — اسم الحقل الأساسي. | تنسيقات القاعدة الثمانية أدناه (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, `RankSmallestToLargest`, `RankLargestToSmallest`); استخدم `0` (أو `null` في صيغة الاسم) لكل تنسيق آخر. |
+| `baseItem` | الفهرس الصفري للعنصر الأساسي، مع قيمتين خاصتين: -1 تُحدد العنصر السابق و-2 العنصر التالي (ربط JavaScript عبر C++ لا يصدر الثوابت المسماة — استخدم القيم الحرفية). صيغة الاسم تأخذ تسمية العنصر الأساسي بدلاً من ذلك، وتُعطى `null` عندما لا يتطلب التنسيق اختيار عنصر أساسي. | تُقيِّم ثلاثة تنسيقات تعتمد على العنصر الأساسي فقط (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`)؛ تُهمل تنسيقات الخمسة التي تعتمد على الحقل (`RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, كلا التصنيفين) — استخدم `0` أو `null`. |
 
-| نوع الحساب | السلوك | معاملات العنصر الأساسي |
+| نوع الحساب | السلوك | معلمات العنصر الأساسي |
 | --- | --- | --- |
 | `Normal` | لا يوجد حساب ثانوي؛ تُعرض القيمة المجمعة كما هي (الافتراضي). | — |
-| `DifferenceFrom` | تُظهر القيمة كفرق عن قيمة عنصر أساسي في حقل أساسي. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` فقط مع `Custom`) |
-| `PercentageOf` | تُظهر القيمة كنسبة مئوية من قيمة عنصر أساسي في حقل أساسي. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` فقط مع `Custom`) |
-| `PercentageDifferenceFrom` | تُظهر القيمة كنسبة مئوية للفرق عن قيمة عنصر أساسي في حقل أساسي. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` فقط مع `Custom`) |
-| `RunningTotalIn` | تُظهر القيمة كمجموع متراكم للعناصر المتتابعة في حقل أساسي. | `baseField` (الحقل الذي يتحكم بترتيب التجميع) |
-| `PercentageOfRow` | تُظهر القيمة كنسبة مئوية لإجمالي الصف. | — |
-| `PercentageOfColumn` | تُظهر القيمة كنسبة مئوية لإجمالي العمود. | — |
-| `PercentageOfTotal` | تُظهر القيمة كنسبة مئوية للإجمالي الكلي. | — |
-| `Index` | تُظهر القيمة باستخدام صيغة الفهرس في Excel ((value * grand total) / (row total * column total)). | — |
-| `PercentageOfParentRowTotal` | تُظهر القيمة كنسبة مئوية لإجمالي الصف الأصلي (للحقول الصفية المتداخلة). | — |
-| `PercentageOfParentColumnTotal` | تُظهر القيمة كنسبة مئوية لإجمالي العمود الأصلي (للحقول العمودية المتداخلة). | — |
-| `PercentageOfParentTotal` | تُظهر القيمة كنسبة مئوية لإجمالي الأصل. | `baseField` (الحقل الأصل المرجعي) |
-| `PercentageOfRunningTotalIn` | تُظهر القيمة كنسبة مئوية لمجموع متراكم في حقل أساسي. | `baseField` (حقل التجميع) |
-| `RankSmallestToLargest` | ترتّب القيم من الأصغر (1) إلى الأكبر. | — |
-| `RankLargestToSmallest` | ترتّب القيم من الأكبر (1) إلى الأصغر. | — |
+| `DifferenceFrom` | تُظهر القيمة كفرق عن قيمة عنصر أساسي في حقل أساسي. | `baseField` + `baseItem` (فهرس أو تسمية، أو إشارة السابق/التالي) |
+| `PercentageOf` | تُظهر القيمة كنسبة مئوية من قيمة عنصر أساسي في حقل أساسي. | `baseField` + `baseItem` (فهرس أو تسمية، أو إشارة السابق/التالي) |
+| `PercentageDifferenceFrom` | تُظهر القيمة كنسبة الفرق عن قيمة عنصر أساسي في حقل أساسي. | `baseField` + `baseItem` (فهرس أو تسمية، أو إشارة السابق/التالي) |
+| `RunningTotalIn` | تُظهر القيمة كمجموع تراكمي للعنصر المتتابع في حقل أساسي. | `baseField` (الحقل الذي يُحدد ترتيب العناصر لتجميع القيم) |
+| `PercentageOfRow` | تُظهر القيمة كنسبة مئوية من إجمالي الصف. | — |
+| `PercentageOfColumn` | تُظهر القيمة كنسبة مئوية من إجمالي العمود. | — |
+| `PercentageOfTotal` | تُظهر القيمة كنسبة مئوية من الإجمالي الكلي. | — |
+| `Index` | تُظهر القيمة باستخدام صيغة الفهرس في Excel ((القيمة * الإجمالي الكلي) / (إجمالي الصف * إجمالي العمود)). | — |
+| `PercentageOfParentRowTotal` | تُظهر القيمة كنسبة مئوية من إجمالي الصف الأصلي (للحقول المتداخلة). | — |
+| `PercentageOfParentColumnTotal` | تُظهر القيمة كنسبة مئوية من إجمالي العمود الأصلي (للحقول المتداخلة). | — |
+| `PercentageOfParentTotal` | تُظهر القيمة كنسبة مئوية من إجمالي العنصر الأصلي. | `baseField` (الحقل الأصلي الذي يُعدّ الإجمالي مرجعًا) |
+| `PercentageOfRunningTotalIn` | تُظهر القيمة كنسبة مئوية من مجموع تراكمي في حقل أساسي. | `baseField` (حقل التجميع) |
+| `RankSmallestToLargest` | تصنّف القيمة من الأصغر (1) إلى الأكبر. | `baseField` (الحقل الذي تُحدد عناصره نطاق التصنيف) |
+| `RankLargestToSmallest` | تصنّف القيمة من الأكبر (1) إلى الأصغر. | `baseField` (الحقل الذي تُحدد عناصره نطاق التصنيف) |
 
 {{% alert color="primary" %}}
-`showValuesAs(...)` يكتب الخصائص لـ `PivotShowValuesSetting` (`calculationType`, `baseFieldIndex`, `baseItemPositionType`, `baseItemIndex`) — تُعَدُّ الطريقة وكائن الخاصية طريقتين لتكوين الحالة نفسها، مماثلة لمحددات الحقل الأساسي والعنصر الأساسي في مربع حوار Show Values As في Excel.
+`showValuesAs(...)` يكتب خصائص `PivotShowValuesSetting` (`showValuesAs` و`baseFieldIndex` و`baseItemIndex`) — الطريقة والكائن الخاص بالخاصية طريقتان لتكوين الحالة نفسها، مما يعكس محددات الحقل الأساسي والعنصر الأساسي في نافذة إظهار القيم كـ ببرنامج Excel.
 {{% /alert %}}
 
 ## **إظهار القيم كنسبة مئوية من الإجمالي**
-استدعِ الطريقة `PivotField.showValuesAs` مع `PivotFieldDataDisplayFormat.PercentageOfTotal` لتحويل كل خلية حقل بيانات، بما فيها الإجمالي الكلي، إلى نصيبها من الإجمالي الكلي. لذلك تُعرض الأرقام كنسب من مجموعة النتائج الكاملة. هذه الصيغة تقيس كل قيمة مقابل الإجمالي الكلي فقط، لذلك لا تحتاج إلى حقل أساسي أو عنصر أساسي — الوسائط الأخيرة (`0`, `PivotItemPositionType.Previous`, `0`) هي مجرد نائبات يتجاهلها التنسيق كما هو موضح في جدول المعاملات أعلاه.
+استدعِ الطريقة `PivotField.showValuesAs` مع `PivotShowValuesAsType.PercentageOfTotal` لتحويل كل خلية حقل بيانات، بما في ذلك الإجمالي الكلي، إلى حصتها من إجمالي النتيجة. وبالتالي تُعرض الأرقام كنسب من مجموعة النتائج الكاملة. هذا التنسيق يقيس كل قيمة مقابل الإجمالي الكلي فقط، لذا لا يحتاج إلى حقل أساسي أو عنصر أساسي — الوسيطات اللاحقة (`0`, `0`) هي عناصر نائبة يتجاهلها التنسيق، كما هو موضح في جدول المعاملات أعلاه.
 
 ```html
 <!DOCTYPE html>
@@ -78,6 +84,7 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
                 console.log("Aspose.Cells initialized");
             });
             document.getElementById("runExample").addEventListener("click", async () => {
+
                 // Load or create a workbook with source data
                 const workbook = new Workbook();
                 const dataSheet = workbook.worksheets.get(0);
@@ -99,16 +106,12 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
                 pivotTable.calculateData();
                 // Show the Amount data field as a percentage of the grand total with the
                 // one-call method; PercentageOfTotal takes no base item, so the trailing
-                // base arguments (0, Previous, 0) are placeholders the format ignores
+                // base arguments (0, 0) are placeholders the format ignores
                 const dataField = pivotTable.dataFields.get(0);
-                dataField.showValuesAs(
-                    AsposeCells.PivotFieldDataDisplayFormat.PercentageOfTotal,
-                    0,
-                    AsposeCells.PivotItemPositionType.Previous,
-                    0
-                );
+                dataField.showValuesAs(AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0);
                 pivotTable.calculateData();
-                // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
+                // Body now reads (underlying values are fractions, shown with the
+                // percentage format): Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById("downloadLink");
@@ -124,13 +127,13 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
 ```
 
 ## **قراءة وتكوين PivotField.showValuesSetting**
-اقرأ التكوين الحالي عبر `PivotField.showValuesSetting`: الخاصية للقراءة فقط تُعيد كائن `PivotShowValuesSetting` الخاص بالحقل، والذي تصف خصائصه الأربعة الحساب الثانوي النشط. لتغيير التكوين، استدعِ الطريقة `PivotField.showValuesAs` — فهي تكتب جميع الإعدادات الأربع في استدعاء واحد، لذا لن تحتاج أبدًا إلى تعيين الخصائص واحدة تلو الأخرى.  
-يعرض كائن `PivotShowValuesSetting` الخصائص الأربعة التي تُكتبها `showValuesAs`:
-- `calculationType` يُحدد الحساب الثانوي من نوع `PivotFieldDataDisplayFormat`.
-- `baseFieldIndex` يحدّد الفهرس الصفري للحقول الأساسية داخل حقول المحوري. يُستعمل في تنسيقات المرجع.
-- `baseItemPositionType` يحدد طريقة تموضع العنصر الأساسي بالنسبة للعنصر الحالي ويقبل القيم `PivotItemPositionType.Next`, `PivotItemPositionType.Previous`, أو `PivotItemPositionType.Custom`.
-- `baseItemIndex` يحدّد الفهرس الصفري للعنصر الأساسي ويُستعمل عندما يكون `baseItemPositionType` هو `Custom`.  
-بعد استدعاء `showValuesAs`، استدعِ `PivotTable.calculateData()` مرة أخرى بحيث يتم إعادة حساب جسم الجدول المحوري وإعادة عرضه بالإعدادات المحدثة.
+اقرأ التكوين الحالي عبر الخاصية `PivotField.showValuesSetting`: تُعيد هذه الخاصية للقراءة فقط كائن `PivotShowValuesSetting` الذي تصف خصائصه الحساب النشط لإظهار القيم كـ. لتغيير التكوين، استدعِ الطريقة `PivotField.showValuesAs` — فهي تُكتب جميع الإعدادات في استدعاء واحد، لذا لن تحتاج إلى تعيين الخصائص واحدةً تلو الأخرى.  
+يعرض كائن `PivotShowValuesSetting` الحالة التي تُكتبها الخاصية `showValuesAs`:
+- `showValuesAs` يختار حساب `PivotShowValuesAsType` الثانوي.
+- `baseFieldIndex` يحدد الفهرس الصفري للحقل الأساسي ضمن حقول المحور. يُستخدم في التنسيقات التي تعتمد على القاعدة.
+- `baseItemIndex` يحدد العنصر الأساسي: فهرس صفري لعنصر محوري محدد، أو إحدى القيمتين الخاصتين — -1 للعنصر السابق، -2 للعنصر التالي (الربط لا يصدر الثوابت المسماة). يُستخدم في التنسيقات التي تعتمد على العنصر الأساسي.
+- `baseFieldName` و`baseItemCaption` هما عرضان للقراءة فقط يُظهران اسم الحقل الأساسي المُ resolved وتسمية العنصر الأساسي؛ على سبيل المثال، بعد اختيار إشارة العنصر السابق، تُعيد `baseItemCaption` القيمة `(previous)`.  
+بعد استدعاء `showValuesAs`، استدعِ `PivotTable.calculateData()` مرة أخرى حتى يُعاد حساب جسم الجدول المحوري وإعادة عرضه وفقًا للتكوين المُحدَّث.
 
 ```html
 <!DOCTYPE html>
@@ -169,27 +172,28 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
                 // Read the current show-values settings
                 const settings = dataField.showValuesSetting;
                 const messages = [
-                    `CalculationType: ${settings.calculationType}`,
+                    `ShowValuesAs: ${settings.showValuesAs}`,
                     `BaseFieldIndex: ${settings.baseFieldIndex}`,
-                    `BaseItemPositionType: ${settings.baseItemPositionType}`,
-                    `BaseItemIndex: ${settings.baseItemIndex}`
+                    `BaseItemIndex: ${settings.baseItemIndex}`,
+                    `BaseFieldName: ${settings.baseFieldName}`,
+                    `BaseItemCaption: ${settings.baseItemCaption}`
                 ];
                 document.getElementById('result').innerHTML = messages
                     .map(message => `<p>${message}</p>`)
                     .join("");
                 // Switch to a base-item calculation with the one-call method: difference
                 // from the value of the previous item in the row field
+                // (-1 is the previous-item sentinel; the binding does not export the constant)
                 dataField.showValuesAs(
-                    AsposeCells.PivotFieldDataDisplayFormat.DifferenceFrom,
+                    AsposeCells.PivotShowValuesAsType.DifferenceFrom,
                     pivotTable.rowFields.get(0).baseIndex,
-                    AsposeCells.PivotItemPositionType.Previous,
-                    0
+                    -1
                 );
                 pivotTable.calculateData();
                 // Note: the percentage number format saved by the previous example still
                 // clings to the data field cells; the underlying values are now differences
                 // Re-read the applied configuration
-                messages.push(`CalculationType now: ${dataField.showValuesSetting.calculationType}`);
+                messages.push(`ShowValuesAs now: ${dataField.showValuesSetting.showValuesAs}`);
                 document.getElementById('result').innerHTML = messages
                     .map(message => `<p>${message}</p>`)
                     .join("");
@@ -211,6 +215,6 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
 ## **مقالات ذات صلة**
 - [إدارة حقول القيم في جدول محوري](/cells/ar/javascript-cpp/manage-value-fields/)
 - [تحديث جدول محوري](/cells/ar/javascript-cpp/refresh-pivot-table/)
-- [تطبيق نمط على جدول محوري](/cells/ar/javascript-cpp/apply-style-to-pivot-table/)
+- [تطبيق النمط على جدول محوري](/cells/ar/javascript-cpp/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

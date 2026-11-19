@@ -33,25 +33,25 @@ import com.aspose.cells.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 String dataDir = "C:\\Temp\\";
-// Создать новую рабочую книгу
+// Create a new Workbook
 Workbook workbook = new Workbook();
-// Получить первый рабочий лист
+// Obtain the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Установить ширину столбцов
+// Set column widths
 worksheet.getCells().setColumnWidth(0, 5);
 worksheet.getCells().setColumnWidth(1, 35);
 worksheet.getCells().setColumnWidth(2, 12);
 worksheet.getCells().setColumnWidth(3, 15);
 worksheet.getCells().setColumnWidth(4, 15);
 worksheet.getCells().setColumnWidth(5, 5);
-// Вставить логотип компании
+// Insert company logo
 worksheet.getPictures().add(1, 1, dataDir + "logo.png");
-// Название компании и контактные данные
+// Company name and contact details
 worksheet.getCells().get("B3").putValue("Acme Corporation");
 worksheet.getCells().get("B4").putValue("123 Business Street");
 worksheet.getCells().get("B5").putValue("City, State 12345");
 worksheet.getCells().get("B6").putValue("Phone: (555) 123-4567");
-// Заголовок СЧЁТ - объединить ячейки
+// INVOICE title - merge cells
 worksheet.getCells().merge(7, 1, 2, 4);
 Cell titleCell = worksheet.getCells().get("B8");
 titleCell.putValue("INVOICE");
@@ -60,17 +60,17 @@ titleStyle.getFont().setBold(true);
 titleStyle.getFont().setSize(20);
 titleStyle.setHorizontalAlignment(TextAlignmentType.CENTER);
 titleCell.setStyle(titleStyle);
-// Номер счёта и дата
+// Invoice number and date
 worksheet.getCells().get("B11").putValue("Invoice Number:");
 worksheet.getCells().get("C11").putValue("INV-2024-001");
 worksheet.getCells().get("B12").putValue("Date:");
 worksheet.getCells().get("C12").putValue(new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
-// Раздел "Плательщик"
+// Bill-to section
 worksheet.getCells().get("B14").putValue("Bill To:");
 worksheet.getCells().get("B15").putValue("Client Name");
 worksheet.getCells().get("B16").putValue("Client Address");
 worksheet.getCells().get("B17").putValue("Client City, State");
-// Заголовок позиций
+// Line items header
 Cell headerDesc = worksheet.getCells().get("B19");
 Cell headerQty = worksheet.getCells().get("C19");
 Cell headerPrice = worksheet.getCells().get("D19");
@@ -92,20 +92,20 @@ headerDesc.setStyle(headerStyle);
 headerQty.setStyle(headerStyle);
 headerPrice.setStyle(headerStyle);
 headerTotal.setStyle(headerStyle);
-// Стиль валюты с границами
+// Currency style with borders
 Style currencyStyle = workbook.createStyle();
 currencyStyle.setCustom("\"$\"#,##0.00");
 currencyStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN);
 currencyStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN);
 currencyStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN);
 currencyStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN);
-// Простой стиль границ для ячеек описания/количества
+// Plain border style for description/quantity cells
 Style borderStyle = workbook.createStyle();
 borderStyle.getBorders().getByBorderType(BorderType.TOP_BORDER).setLineStyle(CellBorderType.THIN);
 borderStyle.getBorders().getByBorderType(BorderType.BOTTOM_BORDER).setLineStyle(CellBorderType.THIN);
 borderStyle.getBorders().getByBorderType(BorderType.LEFT_BORDER).setLineStyle(CellBorderType.THIN);
 borderStyle.getBorders().getByBorderType(BorderType.RIGHT_BORDER).setLineStyle(CellBorderType.THIN);
-// Строки позиций
+// Line items rows
 Object[][] lineItems = new Object[][] {
     {"Product A - Widget", 2, 50.00},
     {"Product B - Gadget", 3, 75.00},
@@ -127,7 +127,7 @@ for (int i = 0; i < lineItems.length; i++)
     priceCell.setStyle(currencyStyle);
     totalCell.setStyle(currencyStyle);
 }
-// Промежуточный итог, налог, общий итог
+// Subtotal, tax, grand total
 worksheet.getCells().get("B24").putValue("Subtotal:");
 Cell subtotalCell = worksheet.getCells().get("E24");
 subtotalCell.setFormula("SUM(E20:E22)");
@@ -137,20 +137,20 @@ taxCell.setFormula("E24*0.1");
 worksheet.getCells().get("B26").putValue("Grand Total:");
 Cell grandTotalCell = worksheet.getCells().get("E26");
 grandTotalCell.setFormula("E24+E25");
-// Жирный шрифт + стиль валюты для итоговых значений
+// Bold + currency style for total values
 Style totalStyle = workbook.createStyle();
 totalStyle.getFont().setBold(true);
 totalStyle.setCustom("\"$\"#,##0.00");
 subtotalCell.setStyle(totalStyle);
 taxCell.setStyle(totalStyle);
 grandTotalCell.setStyle(totalStyle);
-// Жирный стиль для итоговых меток
+// Bold style for total labels
 Style boldStyle = workbook.createStyle();
 boldStyle.getFont().setBold(true);
 worksheet.getCells().get("B24").setStyle(boldStyle);
 worksheet.getCells().get("B25").setStyle(boldStyle);
 worksheet.getCells().get("B26").setStyle(boldStyle);
-// Сохранить рабочую книгу как файл OFD
+// Save the workbook as an OFD file
 workbook.save(dataDir + "Invoice.ofd", SaveFormat.Ofd);
 ```
 
@@ -162,43 +162,43 @@ import com.aspose.cells.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 String dataDir = "C:\\Examples\\";
-// Открытие существующей книги Excel с диска
+// Open an existing Excel workbook from disk
 Workbook workbook = new Workbook(dataDir + "SampleBook.xlsx");
-// (1) Чтение и отображение значений из выбранных ячеек для подтверждения загрузки файла
+// (1) Read and display values from selected cells to confirm the file was loaded
 Worksheet firstSheet = workbook.getWorksheets().get(0);
 System.out.println("First sheet name: " + firstSheet.getName());
 System.out.println("Cell A1: " + firstSheet.getCells().get("A1").getStringValue());
 System.out.println("Cell B1: " + firstSheet.getCells().get("B1").getStringValue());
 System.out.println("Cell C1: " + firstSheet.getCells().get("C1").getStringValue());
-// (2) Перебор коллекции Worksheets для перечисления доступных листов
+// (2) Iterate over the Worksheets collection to enumerate available sheets
 System.out.println("\nAvailable worksheets:");
 for (int i = 0; i < workbook.getWorksheets().getCount(); i++)
 {
     Worksheet ws = workbook.getWorksheets().get(i);
     System.out.println("  [" + i + "] " + ws.getName());
 }
-// (3) При необходимости обновить ячейку с меткой времени, чтобы отразить преобразование
+// (3) Optionally update a timestamp cell to reflect the conversion
 String timestamp1 = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
 firstSheet.getCells().get("A1").putValue("Converted on: " + timestamp1);
-// Добавление строки заголовка сводки в начало блока данных
+// Append a summary header row at the top of the data block
 firstSheet.getCells().insertRow(0);
 firstSheet.getCells().get("A1").putValue("Conversion Summary");
 String timestamp2 = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
 firstSheet.getCells().get("A2").putValue("Generated: " + timestamp2);
-// (4) Настройка свойств PageSetup на листе
+// (4) Configure PageSetup properties on the worksheet
 PageSetup pageSetup = firstSheet.getPageSetup();
 pageSetup.setOrientation(PageOrientationType.LANDSCAPE);
 pageSetup.setPaperSize(PaperSizeType.PAPER_A_4);
 pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
-// (5) При необходимости задать область печати для вывода OFD
+// (5) Optionally set the print area for the OFD output
 int lastRow = firstSheet.getCells().getMaxDataRow();
 int lastCol = firstSheet.getCells().getMaxDataColumn();
 String lastColLetter = CellsHelper.columnIndexToName(lastCol);
 String printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 System.out.println("\nPrint area set to: " + printArea);
-// (6) Сохранение книги в виде файла OFD
+// (6) Save the workbook as an OFD file
 workbook.save(dataDir + "SampleBook.ofd", SaveFormat.Ofd);
 System.out.println("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 ```

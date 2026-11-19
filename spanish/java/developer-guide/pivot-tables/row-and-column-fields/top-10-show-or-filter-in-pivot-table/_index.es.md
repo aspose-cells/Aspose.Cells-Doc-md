@@ -1,6 +1,6 @@
 ---
 title: Mostrar o filtrar los 10 principales en una tabla dinámica
-linktitle: Mostrar o filtrar los 10 principales en una tabla dinámica
+linktitle: Mostrar o filtrar top 10
 description: Aprenda a mostrar únicamente los elementos con mayor o menor clasificación de un campo de tabla dinámica en Aspose.Cells for Java. Este artículo cubre el método Top10AutoShow de Excel 97-2003, la lectura de las opciones con Top10AutoShowSettings y el filtro de 10 principales de Excel 2007-365 mediante FilterTop10.
 keywords: Aspose.Cells, Java, tabla dinámica, 10 principales, AutoShow, top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, filterTop10, PivotFilterType, PivotField
 type: docs
@@ -50,7 +50,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// Mostrar los 2 elementos principales clasificados por "Sum of Sales" (índice del campo de datos 0)
+// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sportField.top10AutoShow(true, true, 2, 0);
 pivotTable.calculateData();
 workbook.save("output-top10-by-value-field.xlsx");
@@ -83,7 +83,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// Mostrar los 3 elementos inferiores clasificados por el propio campo (rankBy = -1)
+// Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sportField.top10AutoShow(true, false, 3, -1);
 pivotTable.calculateData();
 workbook.save("output-top10-by-field-itself.xlsx");
@@ -144,9 +144,9 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// Filtro Top 10: conservar los 2 elementos principales por "Sum of Sales" (índice del campo de datos 0)
+// Top 10 Filter - keep the top 2 items by "Sum of Sales" (data field index 0)
 sportField.filterTop10(0, PivotFilterType.COUNT, true, 2);
-// Para usar en su lugar un filtro basado en porcentajes, conservar el 30 por ciento de los elementos:
+// For a percentage-based filter instead, keep the top 30 percent of the items:
 // sportField.filterTop10(0, PivotFilterType.PERCENT, true, 30);
 pivotTable.getPivotCache().refresh();
 pivotTable.calculateData();

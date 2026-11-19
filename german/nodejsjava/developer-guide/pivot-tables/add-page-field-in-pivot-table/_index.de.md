@@ -1,5 +1,5 @@
 ---
-title: Filterfelder zu einer PivotTable in Aspose.Cells für .NET hinzufügen
+title: Filterfelder zu einer PivotTable in Aspose.Cells for Node.js via Java hinzufügen
 description: Erfahren Sie, wie Sie mit Aspose.Cells for Node.js via Java Filterfelder in Pivot-Tabellen hinzufügen und konfigurieren, einschließlich des Hinzufügens von Filterfeldern, Einzel- und Mehrfachauswahl-Filterung.
 linktitle: Filterfelder hinzufügen
 keywords: Aspose.Cells, Node.js via Java, Pivot-Tabelle, Filterfeld, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, Filter
@@ -30,11 +30,11 @@ const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// Kopfzeile einrichten
+// Set up the header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// 9 Zeilen mit Beispieldaten befüllen: Frucht, Jahr, Menge
+// Populate 9 rows of sample data: Fruit, Year, Amount
 var data = [
     [ "apple", 2020, 100 ],
     [ "banana", 2021, 200 ],
@@ -52,15 +52,15 @@ for (var i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 1).putValue(data[i][1]);
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
-// Pivot-Tabelle hinzufügen, verankert an Zelle E3
+// Add a pivot table anchored at cell E3
 var pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// Felder ihren Bereichen hinzufügen: Frucht als Zeile, Menge als Daten, Jahr als Seitenfeld
+// Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
-// Pivot-Tabellen-Daten aktualisieren und berechnen
+// Refresh and calculate the pivot table data
 pivotTable.calculateData();
-// Arbeitsmappe speichern
+// Save the workbook
 workbook.save("pageFieldSample.xlsx");
 ```
 
@@ -71,11 +71,11 @@ Wenn Sie bereits mit einer `PivotField`-Instanz arbeiten, können Sie diese dire
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-// Kopfzeilen
+// Headers
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
-// Beispieldaten (9 Zeilen)
+// Sample data (9 rows)
 sheet.getCells().get("A2").putValue("apple");    sheet.getCells().get("B2").putValue("2020"); sheet.getCells().get("C2").putValue(100);
 sheet.getCells().get("A3").putValue("apple");    sheet.getCells().get("B3").putValue("2021"); sheet.getCells().get("C3").putValue(150);
 sheet.getCells().get("A4").putValue("apple");    sheet.getCells().get("B4").putValue("2022"); sheet.getCells().get("C4").putValue(200);
@@ -85,16 +85,16 @@ sheet.getCells().get("A7").putValue("grape");    sheet.getCells().get("B7").putV
 sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").putValue("2020"); sheet.getCells().get("C8").putValue(250);
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
-// Pivot-Tabelle bei E3 hinzufügen, die A1:C10 abdeckt
+// Add pivot table at E3 covering A1:C10
 let pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// Fruit -> Zeile, Amount -> Daten (Year wird unten zur Seite hinzugefügt)
+// Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// Low-Level-Ansatz: das vorhandene Year-PivotField aus BaseFields holen
-// und über PageFields.Add(PivotField) im Seitenbereich registrieren
+// Low-level approach: grab the existing Year PivotField from BaseFields
+// and register it in the Page area via PageFields.Add(PivotField).
 let yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
-// Aktualisieren, damit das neue Seitenfeld in der gespeicherten Arbeitsmappe widergespiegelt wird
+// Refresh so the new page field is reflected in the saved workbook
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -109,7 +109,7 @@ Das Setzen von `CurrentPageItem` auf den magischen Wert `0x7FFD` entspricht dem 
 const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
-// Fülle Obst/Jahr/Betrag Daten
+// Populate Fruit/Year/Amount data
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
@@ -126,17 +126,17 @@ for (var r = 0; r < data.length; r++) {
         sheet.getCells().get(r + 1, c).putValue(data[r][c]);
     }
 }
-// Erstelle Pivot-Tabelle bei E3
+// Create pivot table at E3
 var pivotTables = sheet.getPivotTables();
 var pivotTable = pivotTables.add("=A1:C7", 2, 4);
-// Konfiguriere Pivot-Felder: Obst→Zeile, Betrag→Daten, Jahr→Seite
+// Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
 pivotTable.calculateData();
-// Lösche den Seitenfilter, damit jedes Element im Seitenfeld sichtbar ist.
-// 0x7FFD (Dezimal 32765) ist der spezielle Sentinel-Wert, der "alle Elemente" bedeutet —
-// entspricht der Auswahl von "(Alle)" im Excel-Seitenfeld-Dropdown.
+// Clear the page filter so every item in the page field is visible.
+// 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+// equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivotTable.getPageFields().get(0).setCurrentPageItem(0x7FFD);
 workbook.save("output.xlsx");
 ```
@@ -149,7 +149,7 @@ const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var sheet = workbook.getWorksheets().get(0);
 var cells = sheet.getCells();
-// Beispieldaten hinzufügen (Obst/Jahr/Betrag)
+// Add sample data (Fruit/Year/Amount)
 cells.get("A1").setValue("Fruit");
 cells.get("B1").setValue("Year");
 cells.get("C1").setValue("Amount");
@@ -165,16 +165,16 @@ cells.get("C4").setValue("200");
 cells.get("A5").setValue("Banana");
 cells.get("B5").setValue("2021");
 cells.get("C5").setValue("250");
-// Pivot-Tabelle bei E3 hinzufügen
+// Add pivot table at E3
 var pivotTables = sheet.getPivotTables();
 var pivotTable = pivotTables.add("A1:C5", 2, 4);
-// Felder hinzufügen: Obst→Zeile, Betrag→Daten, Jahr→Seite
+// Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
-// Seitenfeldspezifische Operationen
-pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = zweites Element in sortierter Reihenfolge (z. B. "2021")
-// Pivot-Tabelle aktualisieren und berechnen
+// Page-field-specific operations
+pivotTable.getPageFields().get(0).setCurrentPageItem(1); // 1 = second item in sorted order (e.g. "2021")
+// Refresh and calculate pivot table
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -185,14 +185,14 @@ Der folgende Code aktiviert die Mehrfachauswahl für dasselbe Year-Filterfeld, d
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-// — Die Pivot-Tabelle und das Seitenfeld werden genau wie in
-//   Szenario 1a erstellt (Fruit/Year/Amount-Daten, Pivot bei E3, Fruit→Zeile,
-//   Amount→Daten, Year→Seite über AddFieldToArea).
-//   Unten wenden wir Mehrfachauswahl-Filterung auf das Seitenfeld an.
+// — The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+//   Amount→Data, Year→Page via AddFieldToArea).
+//   Below we apply multi-select filtering on the page field.
 const workbook = new AsposeCells.Workbook();
 const sheet = workbook.getWorksheets().get(0);
 const cells = sheet.getCells();
-// Beispieldaten: Frucht | Jahr | Betrag
+// Sample data: Fruit | Year | Amount
 cells.get(0, 0).putValue("Fruit");
 cells.get(0, 1).putValue("Year");
 cells.get(0, 2).putValue("Amount");
@@ -218,14 +218,14 @@ const pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.PAGE, "Year");
-// — Mehrfachauswahl auf dem Seitenfeld aktivieren
+// — Enable multi-select on the page field
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
-// Teil A — ALLE Elemente auswählen (jedes Element sichtbar machen)
+// Part A — select ALL items (make every item visible)
 const pivotItems = pivotTable.getPageFields().get(0).getPivotItems();
 for (let i = 0; i < pivotItems.getCount(); i++) {
     pivotItems.get(i).setHidden(false);
 }
-// Teil B — nur bestimmte Elemente anhand des Quellwerts auswählen
+// Part B — select only specific items by source value
 for (let i = 0; i < pivotItems.getCount(); i++) {
     switch (pivotItems.get(i).getStringValue()) {
         case "2020":

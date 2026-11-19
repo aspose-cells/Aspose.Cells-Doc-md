@@ -1,6 +1,6 @@
 ---
 title: Özet Tabloda İlk 10 Öğeyi Gösterme veya Filtreleme
-linktitle: Özet Tabloda İlk 10 Öğeyi Gösterme veya Filtreleme
+linktitle: İlk 10 Öğeyi Göster veya Filtrele
 description: Java üzerinden Aspose.Cells for Node.js kullanarak bir özet tablo alanında yalnızca en üst veya en alt sıralı öğelerin nasıl gösterileceğini öğrenin. Bu makale, Excel 97-2003 Top10AutoShow yöntemini, Top10AutoShowSettings ile seçenekleri okumayı ve FilterTop10 aracılığıyla Excel 2007-365 İlk 10 filtresini kapsar.
 keywords: Aspose.Cells, Node.js via Java, özet tablo, ilk 10, otomatik gösterim, top10AutoShow, getTop10AutoShowSettings, PivotFieldTop10AutoShowSettings, filterTop10, PivotFilterType, PivotField, JavaScript
 type: docs

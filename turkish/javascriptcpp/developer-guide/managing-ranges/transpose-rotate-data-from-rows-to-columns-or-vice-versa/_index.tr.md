@@ -217,24 +217,24 @@ CSE dizi formülleri, bir `TRANSPOSE` ifadesini değerlendirmek için klasik Exc
                 if (!file) {
                     throw new Error("Please select an XLSX workbook.");
                 }
-                // Kaynak çalışma kitabını xlsx LoadOptions ile yükle
+                // Load the source workbook with xlsx LoadOptions
                 const loadOptions = new LoadOptions(AsposeCells.LoadFormat.Xlsx);
                 const workbook = new Workbook(
                     new Uint8Array(await file.arrayBuffer()),
                     loadOptions
                 );
-                // İlk çalışma sayfasına ve onun Cells koleksiyonuna eriş
+                // Access the first worksheet and its Cells collection
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // A6 hücresine klasik CSE dizi formülünü ayarla.
-                // Formül =TRANSPOSE(A1:D5), 5 satır x 4 sütun kaynak aralığını döndürür
-                // 4 satır x 5 sütunluk bir diziye. İkinci argüman (4) satır sayısıdır
-                // ve üçüncü argüman (5) oluşan dizinin sütun sayısıdır.
-                // Aspose.Cells, CSE dizi-formül işaretçisini yazar, böylece Excel bunu şu şekilde değerlendirir:
-                // tek bir çok hücreli dizi formülü olarak, daha eski Excel sürümleriyle uyumlu
-                // (2019, 2016, 2013, vb.) dinamik dizi taşmasını desteklemeyen.
+                // Set the classic CSE array formula on cell A6.
+                // The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+                // into a 4-row x 5-column array. The second argument (4) is the number of rows
+                // and the third argument (5) is the number of columns of the resulting array.
+                // Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+                // a single multi-cell array formula, compatible with older Excel versions
+                // (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
                 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-                // Çalışma kitabını kaydedin, böylece dizi-formül işaretçisi kalıcı olur
+                // Save the workbook so the array-formula marker is persisted
                 const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
                 const blob = new Blob([outputData], {
                     type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"

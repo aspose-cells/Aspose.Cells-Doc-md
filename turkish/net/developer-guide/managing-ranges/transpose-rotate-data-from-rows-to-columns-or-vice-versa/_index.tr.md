@@ -109,21 +109,21 @@ CSE dizi formülleri, `TRANSPOSE` ifadesini değerlendirmenin klasik Excel yolud
 using System;
 using System.IO;
 using Aspose.Cells;
-// Kaynak çalışma kitabını xlsx LoadOptions ile yükle
+// Load the source workbook with xlsx LoadOptions
 string srcFile = "source.xlsx";
 Workbook workbook = new Workbook(srcFile, new LoadOptions(LoadFormat.Xlsx));
-// İlk çalışma sayfasına ve Cells koleksiyonuna eriş
+// Access the first worksheet and its Cells collection
 Worksheet worksheet = workbook.Worksheets[0];
 Cells cells = worksheet.Cells;
-// A6 hücresinde klasik CSE dizi formülünü ayarla.
-// =TRANSPOSE(A1:D5) formülü, 5 satır x 4 sütun kaynak aralığını
-// 4 satır x 5 sütunluk bir diziye döndürür. İkinci argüman (4) satır sayısıdır
-// ve üçüncü argüman (5) sonuç dizisinin sütun sayısıdır.
-// Aspose.Cells, CSE dizi formülü işaretini yazar, böylece Excel bunu
-// eski Excel sürümleriyle uyumlu tek bir çok hücreli dizi formülü olarak değerlendirir
-// (2019, 2016, 2013 vb.) dinamik dizi yayılımını desteklemez.
+// Set the classic CSE array formula on cell A6.
+// The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+// into a 4-row x 5-column array. The second argument (4) is the number of rows
+// and the third argument (5) is the number of columns of the resulting array.
+// Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+// a single multi-cell array formula, compatible with older Excel versions
+// (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells["A6"].SetArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-// Dizi formülü işaretinin kalıcı olması için çalışma kitabını kaydet
+// Save the workbook so the array-formula marker is persisted
 workbook.Save("output.xlsx");
 ```
 

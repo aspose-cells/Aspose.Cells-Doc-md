@@ -38,13 +38,11 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType
-
-# 创建一个新的工作簿并获取第一个工作表
+# Create a new workbook and get the first worksheet
 workbook = Workbook()
 sheet = workbook.getWorksheets().get(0)
 cells = sheet.getCells()
-
-# 写入源数据：按运动和季度统计的销售额
+# Write the source data: sales per sport and quarter
 cells.get("A1").putValue("Sport")
 cells.get("B1").putValue("Quarter")
 cells.get("C1").putValue("Sales")
@@ -69,16 +67,13 @@ cells.get("C7").putValue(5000)
 cells.get("A8").putValue("Golf")
 cells.get("B8").putValue("Qtr3")
 cells.get("C8").putValue(6430)
-
-# 在目标单元格 E3 处添加数据透视表，数据源为 A1:C8
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4)
-
-# 分配数据透视字段：将 Sport 放入行区域，将 Quarter 放入列区域，将 Sales 放入数据区域
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport")
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Quarter")
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales")
-
-# 保存工作簿
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

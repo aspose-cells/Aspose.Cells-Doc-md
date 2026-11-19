@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for .NET'te Sparkline'ı Görüntüye ve HTML'e Dönüştürme
-linktitle: Aspose.Cells for .NET'te Sparkline'ı Görüntüye ve HTML'e Dönüştürme
+linktitle: Sparkline'ı Görüntü ve HTML'e Dönüştür
 description: Aspose.Cells sparkline'larını hücre içine gömülmek üzere tek başına görüntüler olarak işlemeyi ve HtmlSaveOptions kullanarak sparkline açısından zengin çalışma sayfalarını HTML'ye aktarmayı öğrenin.
 keywords: Aspose.Cells, .NET, sparkline, Sparkline.ToImage, Cell.EmbeddedImage, HtmlSaveOptions, sparkline işleme, sparkline'ı görüntüye dönüştürme, sparkline'ı HTML'ye aktarma
 type: docs

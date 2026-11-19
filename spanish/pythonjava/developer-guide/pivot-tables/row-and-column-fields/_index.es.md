@@ -1,6 +1,6 @@
 ---
 title: Agregar campos de fila y columna de tablas dinámicas en Aspose.Cells for Python via Java
-linktitle: Agregar campos de fila y columna de tablas dinámicas en Aspose.Cells for Python via Java
+linktitle: Campos de fila y columna
 description: Aprenda a agregar campos base a las regiones de fila y columna de una tabla dinámica y a controlar los subtotales de los campos de tabla dinámica mediante PivotField.setSubtotals en Aspose.Cells for Python via Java.
 keywords: Aspose.Cells, Python via Java, tabla dinámica, campo de fila, campo de columna, PivotField, setSubtotals, PivotFieldSubtotalType, subtotales
 type: docs

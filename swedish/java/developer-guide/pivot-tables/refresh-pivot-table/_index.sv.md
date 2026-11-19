@@ -1,6 +1,6 @@
 ---
 title: Uppdatera pivottabeller och pivotcacheminnen i Aspose.Cells for Java
-linktitle: Uppdatera pivottabeller och pivotcacheminnen i Aspose.Cells for Java
+linktitle: Uppdatera pivottabeller
 description: Lär dig hur du uppdaterar pivottabeller i Aspose.Cells for Java med v26.7+ pivot-uppdaterings-API,et. Den här artikeln tar upp refreshAll, refreshPivotTables, PivotCache.refresh, calculateData och getPivotTables med praktiska kodexempel.
 keywords: Aspose.Cells, Java, pivottabell, uppdatera, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs
@@ -53,14 +53,14 @@ Följande exempel bygger en arbetsbok med ett Fruit/Year/Amount-källintervall, 
 
 ```java
 import com.aspose.cells.*;
-// Skapa en ny arbetsbok
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Skriv rubrikraden till cellerna A1:C1
+// Write header row into cells A1:C1
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// Skriv datarader till cellerna A2:C9 (8 rader fruktdata för 2020 och 2021)
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.getCells().get("A2").putValue("grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(50);
@@ -85,19 +85,19 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// Lägg till en pivottabell: källområde "A1:C9", destinationscell "E3", namn
+// Add a pivot table: source range "A1:C9", destination cell "E3"
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
-// Tilldela pivotfält: Fruit till Rows, Year till Columns, Amount till Data
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// Ändra flera Amount-värden i källdatan för att simulera ändringar
+// Modify several Amount values in the source data to simulate changes
 worksheet.getCells().get("C2").putValue(55);
 worksheet.getCells().get("C5").putValue(85);
 worksheet.getCells().get("C9").putValue(125);
-// Uppdatera alla pivottabeller/pivotcachar i arbetsboken
+// Refresh every pivot table / pivot cache in the workbook
 workbook.refreshAll();
-// Spara arbetsboken
+// Save the workbook
 workbook.save("output.xlsx");
 ```
 
@@ -160,11 +160,11 @@ Följande exempel modifierar en icke-källrelaterad egenskap hos pivottabellen o
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Skriv rubrikraden med Fruit / Year / Amount
+// Write Fruit / Year / Amount header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// Skriv 8 datarader (rader 2-9, som passar till källintervallet A1:C9)
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(100);
@@ -189,21 +189,21 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// Lägg till en pivottabell med namnet som är placerad på destinationscellen E3 och har A1:C9 som datakälla
+// Add a pivot table placed at destination cell E3, sourcing from A1:C9
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
-// Tilldela fält: Fruit till rad, Year till kolumn, Amount till data
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// Ändra en egenskap för vy/layout -- detta är enbart en ändring av presentationen,
-// så det kräver INTE att källdatan läses om via PivotCache.refresh().
+// Modify a view/layout property -- this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
-// calculateData() renderar denna pivottabells visning (data + stil) på nytt utifrån
-// de data som redan finns i PivotCache. Eftersom källdatan inte ändrades,
-// sker ingen rundtur till källan -- endast de cachelagrade värdena beräknas om
-// in i kalkylarkets celler.
+// calculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed -- only the cached values are recalculated
+// into worksheet cells.
 pivotTable.calculateData();
-// Spara arbetsboken till disk
+// Save the workbook to disk
 workbook.save("output.xlsx");
 ```
 

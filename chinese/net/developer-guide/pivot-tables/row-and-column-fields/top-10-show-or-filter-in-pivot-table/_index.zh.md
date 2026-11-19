@@ -1,6 +1,6 @@
 ---
 title: 在数据透视表中显示或筛选前 10 项
-linktitle: 在数据透视表中显示或筛选前 10 项
+linktitle: 前10项显示/筛选
 description: 了解如何在 Aspose.Cells for .NET 中仅显示数据透视字段中排名最高或最低的项目。本文介绍 Excel 97-2003 的 Top10AutoShow 方法、使用 Top10AutoShowSettings 读取选项，以及通过 FilterTop10 实现 Excel 2007-365 的前 10 项筛选。
 keywords: Aspose.Cells, .NET, 数据透视表, 前 10 项, 自动显示, Top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, FilterTop10, PivotFilterType, PivotField, C#
 type: docs
@@ -52,7 +52,7 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 pivotTable.CalculateData();
 PivotField sportField = pivotTable.RowFields[0];
-// 显示按“Sales 总计”排名的前 2 个项目（数据字段索引 0）
+// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sportField.Top10AutoShow(true, true, 2, 0);
 pivotTable.CalculateData();
 workbook.Save("output-top10-by-value-field.xlsx");
@@ -87,7 +87,7 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 pivotTable.CalculateData();
 PivotField sportField = pivotTable.RowFields[0];
-// 显示按字段本身排名的最低 3 个项目（rankBy = -1）
+// Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sportField.Top10AutoShow(true, false, 3, -1);
 pivotTable.CalculateData();
 workbook.Save("output-top10-by-field-itself.xlsx");
@@ -152,9 +152,9 @@ pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
 pivotTable.CalculateData();
 PivotField sportField = pivotTable.RowFields[0];
-// 前 10 项筛选——按“Sales 总计”保留前 2 个项目（数据字段索引 0）
+// Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
 PivotFilter filter = sportField.FilterTop10(0, PivotFilterType.Count, true, 2);
-// 如果改用基于百分比的筛选，则保留前 30% 的项目：
+// For a percentage-based filter instead, keep the top 30 percent of the items:
 // sportField.FilterTop10(0, PivotFilterType.Percent, true, 30);
 pivotTable.PivotCache.Refresh();
 pivotTable.CalculateData();

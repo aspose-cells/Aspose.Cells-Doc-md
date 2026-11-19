@@ -34,19 +34,19 @@ import aspose.cells as ac
 from aspose.cells.pivot import PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
-# Charger le classeur existant contenant un tableau croisé dynamique
+# Load the existing workbook containing a pivot table
 workbook = ac.Workbook(fileName)
-# Accéder à la feuille de calcul par indice (première feuille de calcul)
+# Access the worksheet by index (first worksheet)
 worksheet = workbook.worksheets[0]
-# Accéder au tableau croisé dynamique par indice
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# Récupérer le premier champ PivotField de ligne
+# Retrieve the first row PivotField
 row_field = pivot_table.row_fields[0]
-# Appliquer le filtre d’étiquette — afficher uniquement les éléments de ligne dont les étiquettes commencent par le préfixe fourni
+# Apply the label filter — show only row items whose labels begin with the supplied prefix
 row_field.filter_by_label(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
-# Actualiser et recalculer les données du tableau croisé dynamique afin que le filtre prenne effet
+# Refresh and recalculate the pivot table data so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# Enregistrer le classeur sur le disque
+# Save the workbook back to disk
 workbook.save(fileName)
 ```
 
@@ -68,23 +68,23 @@ input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
     raise FileNotFoundError("Source workbook not found.", input_path)
-# Charger le classeur existant qui contient le tableau croisé dynamique
+# Load the existing workbook that contains the pivot table
 workbook = ac.Workbook(input_path)
-# Accéder à la feuille de calcul qui contient le tableau croisé dynamique (par index)
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.worksheets[0]
-# Accéder au tableau croisé dynamique par index
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# Récupérer le PivotField de date depuis la zone des lignes
-# (Le filtre de date ne fonctionne que lorsque la zone de ligne/colonne contient uniquement des cellules de date-heure ou des cellules vides)
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 date_field = pivot_table.row_fields[0]
-# Définir le critère de date pour le filtre Entre
+# Define the date criterion for the Between filter
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
-# Appliquer le filtre de date sur le champ pivot
+# Apply the date filter on the pivot field
 date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
-# Actualiser et recalculer le tableau croisé dynamique pour que le filtre prenne effet
+# Refresh and recalculate the pivot table so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# Enregistrer le classeur
+# Persist the workbook
 workbook.save(output_path)
 ```
 
@@ -101,7 +101,7 @@ worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
 row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
-# Rechercher manuellement l’index du champ de données, car PivotFieldCollection ne dispose pas de IndexOf
+# Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 data_field_index = -1
 for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
@@ -125,31 +125,31 @@ L’exemple suivant charge un classeur contenant un tableau croisé dynamique qu
 ```python
 import aspose.cells as ac
 import aspose.cells.pivot as acp
-# Charger le classeur existant contenant le tableau croisé dynamique
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = ac.Workbook(inputPath)
-# Accéder à la feuille de calcul qui contient le tableau croisé dynamique (index 0)
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.worksheets[0]
-# Accéder au tableau croisé dynamique par index
+# Access the pivot table by index
 pivotTable = worksheet.pivot_tables[0]
-# Confirmer qu’il existe au moins un PivotField de valeur dans la zone de données
+# Confirm there is at least one value PivotField in the data area
 if len(pivotTable.data_fields) == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
-# Récupérer le PivotField de ligne cible (le champ auquel nous voulons appliquer Top 10)
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.row_fields[0]
-# Le premier (et unique) champ de données se trouve à l’index 0 ; Top 10 classe les éléments en fonction de celui-ci.
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# Appliquer le filtre Top 10 sur le champ de ligne :
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true (N premiers ; false signifierait N derniers)
-#   - valueFieldIndex = index du champ de données utilisé pour classer les éléments
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
-# Actualiser les données du tableau croisé dynamique et le recalculer afin que le filtre prenne effet
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.pivot_cache.refresh()
-# Enregistrer le classeur
+# Save the workbook
 workbook.save(outputPath)
 ```
 
@@ -159,28 +159,28 @@ Cette approche est utile lorsque la règle de filtrage est irrégulière ou spé
 
 ```python
 import aspose.cells as ac
-# Charger un classeur existant contenant un tableau croisé dynamique
+# Load an existing workbook containing a pivot table
 workbook = ac.Workbook("pivot_table_sample.xlsx")
-# Accéder à la première feuille de calcul qui contient le tableau croisé dynamique
+# Access the first worksheet which contains the pivot table
 sheet = workbook.worksheets[0]
-# Accéder au tableau croisé dynamique par index (le premier tableau croisé dynamique de la feuille)
+# Access the pivot table by index (the first pivot table on the sheet)
 pivot_table = sheet.pivot_tables[0]
-# Récupérer le champ PivotField cible (le premier champ d’étiquette de ligne dans lequel nous masquerons ou afficherons des éléments)
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivot_field = pivot_table.row_fields[0]
-# Parcourir la collection PivotItems du PivotField sélectionné
+# Iterate through the PivotItems collection of the selected PivotField
 item_count = pivot_field.pivot_items.count
 for i in range(item_count):
     item = pivot_field.pivot_items[i]
-    # Masquer les éléments du tableau croisé dynamique qui correspondent à un nom ou critère spécifique
+    # Hide pivot items that match a specific name/criterion
     if item.name == "Item1" or item.name == "Item2":
         item.is_hidden = True
-    # Démontrer comment afficher de nouveau un élément du tableau croisé dynamique précédemment masqué
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.name == "Item3":
         item.is_hidden = False
-# Actualiser et recalculer le tableau croisé dynamique afin que les modifications prennent effet
+# Refresh and recalculate the pivot table so changes take effect
 pivot_table.pivot_cache.refresh()
-# Enregistrer le classeur — les éléments masqués restent dans les données sous-jacentes
-# mais sont exclus de la sortie du tableau croisé dynamique affiché
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: Agrupar campos dinámicos en la tabla dinámica
-linktitle: Agrupar campos dinámicos en la tabla dinámica
+linktitle: Agrupar campos dinámicos
 description: Aprenda a agrupar campos dinámicos de filas y columnas en una tabla dinámica en períodos de fechas (como meses y trimestres) y rangos numéricos usando PivotField.Group y PivotFieldGroupOptions en Aspose.Cells for C++.
 keywords: Aspose.Cells, tabla dinámica, agrupar campo dinámico, PivotField.Group, PivotFieldGroupOptions, agrupación por fechas, agrupación por números, meses, trimestres, rango numérico, C++
 type: docs
@@ -49,24 +49,24 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Cargar el libro de trabajo de muestra
+    // Load the sample workbook
     Workbook wb(u"sampleGroupPivotFieldsInPivotTable.xlsx");
-    // Acceder a la segunda hoja de cálculo y su tabla dinámica
+    // Access the second worksheet and its pivot table
     Worksheet ws = wb.GetWorksheets().Get(1);
     PivotTable pt = ws.GetPivotTables().Get(0);
-    // Agrupar el primer campo de fila (un campo de fecha) por meses y trimestres
+    // Group the first row field (a date field) by months and quarters
     PivotFieldGroupOptions options;
     Date startDate{2008, 1, 1, 0, 0, 0, 0};
     Date endDate{2008, 9, 5, 0, 0, 0, 0};
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
-    // Establecer tipos de grupo: Meses y Trimestres
+    // Set group types: Months and Quarters
     Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
-    // Aplicar agrupación al primer campo de fila
+    // Apply grouping to the first row field
     PivotField rowField = pt.GetRowFields().Get(0);
     rowField.Group(options);
-    // Calcular los datos de la tabla dinámica y guardar el archivo de salida
+    // Calculate the pivot table data and save the output file
     pt.CalculateData();
     wb.Save(u"outputGroupPivotFieldsInPivotTable.xlsx");
     Aspose::Cells::Cleanup();

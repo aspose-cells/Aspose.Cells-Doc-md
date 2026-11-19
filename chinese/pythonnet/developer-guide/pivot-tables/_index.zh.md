@@ -1,6 +1,6 @@
 ---
 title: 插入数据透视表
-linktitle: 插入数据透视表
+linktitle: 数据透视表
 description: 使用 Aspose.Cells for Python via .NET 创建数据透视表并设置其格式。
 keywords: 创建数据透视表, 插入数据透视表, 设置数据透视表格式.
 type: docs
@@ -36,12 +36,10 @@ Aspose.Cells for Python via .NET 在 [**aspose.cells.pivot**](https://reference.
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-
-# 创建一个新工作簿并获取第一个工作表
+# Create a new workbook and get the first worksheet
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-
-# 写入源数据：按运动和季度统计的销售额
+# Write the source data: sales per sport and quarter
 sheet.cells.get("A1").put_value("Sport")
 sheet.cells.get("B1").put_value("Quarter")
 sheet.cells.get("C1").put_value("Sales")
@@ -66,16 +64,13 @@ sheet.cells.get("C7").put_value(5000)
 sheet.cells.get("A8").put_value("Golf")
 sheet.cells.get("B8").put_value("Qtr3")
 sheet.cells.get("C8").put_value(6430)
-
-# 在目标单元格 E3 添加数据透视表，源数据为 A1:C8
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivot_table = sheet.pivot_tables.add("A1:C8", 2, 4)
-
-# 分配透视字段：将 Sport 放入行区域，将 Quarter 放入列区域，将 Sales 放入数据区域
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Quarter")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
-
-# 保存工作簿
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

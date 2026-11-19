@@ -41,19 +41,19 @@ Excel prend en charge deux niveaux de mot de passe distincts. Le premier est un 
 ```csharp
 using System;
 using Aspose.Cells;
-// Créer un nouveau classeur à partir de zéro
+// Create a new workbook from scratch
 Workbook workbook = new Workbook();
-// Écrire une valeur d'exemple dans la cellule A1 de la première feuille de calcul
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
-// Configurer la protection en écriture : définir le mot de passe pour modifier et l'auteur
+// Configure the write protection: set the password to modify and the author
 workbook.Settings.WriteProtection.Password = "ModifyPwd";
 workbook.Settings.WriteProtection.Author = "AuthorName";
-// Enregistrer le classeur pour que la protection en écriture soit persistée
+// Save the workbook so the write protection is persisted
 workbook.Save("WriteProtectedWorkbook.xlsx");
-// Valider le mot de passe pour modifier en utilisant le bon mot de passe
+// Validate the password to modify using the correct password
 bool isCorrectValid = workbook.Settings.WriteProtection.ValidatePassword("ModifyPwd");
 Console.WriteLine("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// Valider le mot de passe pour modifier en utilisant un mot de passe incorrect pour démontrer l'autre branche
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 bool isWrongValid = workbook.Settings.WriteProtection.ValidatePassword("WrongPwd");
 Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -64,22 +64,22 @@ La protection de la structure du classeur empêche d'autres utilisateurs d'affic
 ```csharp
 using System;
 using Aspose.Cells;
-// Créer un nouveau classeur
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Ajouter une deuxième feuille de calcul
+// Add a second worksheet
 workbook.Worksheets.Add();
-// Écrire une valeur d'exemple dans la cellule A1 de la première feuille de calcul
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells[0, 0].PutValue("Sample Data");
-// Protéger la structure du classeur
+// Protect the workbook structure
 workbook.Protect(ProtectionType.Structure, "StructPwd");
-// Enregistrer le classeur sous structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 string filePath = "structure_protected.xlsx";
 workbook.Save(filePath);
-// Recharger le fichier dans une nouvelle instance de Workbook
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// Supprimer la protection de la structure
+// Remove the structure protection
 loadedWorkbook.Unprotect("StructPwd");
-// Afficher le message de confirmation
+// Print confirmation message
 Console.WriteLine("Structure protection has been successfully removed from the workbook.");
 ```
 

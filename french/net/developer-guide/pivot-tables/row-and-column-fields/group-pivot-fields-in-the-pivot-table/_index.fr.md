@@ -20,15 +20,15 @@ La surcharge sans paramètre `PivotField.Group()` examine le type de données du
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Charger le classeur exemple
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Accéder à la deuxième feuille de calcul et à son tableau croisé dynamique
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// Grouper automatiquement le premier champ de ligne.
-// Le champ contient des dates, donc il est groupé par mois.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 PivotField field = pt.RowFields[0];
 field.Group();
-// Calculer les données du tableau croisé dynamique et enregistrer le fichier de sortie
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputAutoGroupPivotField.xlsx");
 ```
@@ -42,17 +42,17 @@ Notez que l'ordre des valeurs dans `options.GroupTypes` est ignoré. Quel que so
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Charger le classeur d'exemple
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Accéder à la deuxième feuille de calcul et à son tableau croisé dynamique
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// Regrouper le premier champ de ligne (un champ de date) par mois et trimestres
+// Group the first row field (a date field) by months and quarters
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartDate = new DateTime(2008, 1, 1);
 options.EndDate = new DateTime(2008, 9, 5);
 options.GroupTypes = new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Quarters };
 pt.RowFields[0].Group(options);
-// Calculer les données du tableau croisé dynamique et enregistrer le fichier de sortie
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,21 +64,21 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```csharp
 using Aspose.Cells.Pivot;
-// Charger le classeur d'exemple
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Accéder à la deuxième feuille de calcul et à son tableau croisé dynamique
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// FieldTwo est un champ de données : déplacez-le d'abord dans la zone des lignes,
-// car seuls les champs de ligne/colonne peuvent être groupés
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.AddFieldToArea(PivotFieldType.Row, "FieldTwo");
 pt.CalculateData();
-// Grouper le champ numérique dans les plages 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartNumber = 0;
 options.EndNumber = 5;
 options.Interval = 2;
 pt.RowFields[1].Group(options);
-// Calculer les données du tableau croisé dynamique et enregistrer le fichier de sortie
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputNumberGroupPivotField.xlsx");
 ```

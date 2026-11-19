@@ -1,6 +1,6 @@
 ---
 title: Conversión de Excel al formato OFD
-linktitle: Conversión de Excel al formato OFD
+linktitle: OFD
 description: Aspose.Cells for JavaScript via C++ es una biblioteca de JavaScript para trabajar con archivos de hoja de cálculo que permite convertir libros de trabajo de Excel al formato OFD (documento de diseño fijo). Este artículo demuestra cómo crear contenido de Excel y exportarlo como OFD, así como cómo convertir archivos de Excel existentes a OFD mediante Aspose.Cells.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, biblioteca de JavaScript, hoja de cálculo, Excel a OFD, conversión a OFD, SaveFormat.Ofd, documento de diseño fijo, exportación de libros de trabajo
 type: docs
@@ -51,20 +51,20 @@ El ejemplo construye una hoja de cálculo para una factura. Para ello, inserta u
         });
         document.getElementById('runExample').addEventListener('click', async () => {
             try {
-                // Crear un nuevo libro de trabajo
+                // Create a new Workbook
                 const workbook = new Workbook();
-                // Obtener la primera hoja de cálculo
+                // Obtain the first worksheet
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // Establecer los anchos de las columnas
+                // Set column widths
                 cells.setColumnWidth(0, 5);
                 cells.setColumnWidth(1, 35);
                 cells.setColumnWidth(2, 12);
                 cells.setColumnWidth(3, 15);
                 cells.setColumnWidth(4, 15);
                 cells.setColumnWidth(5, 5);
-                // Insertar el logotipo de la empresa
-                // Crear un PNG en memoria porque el navegador no tiene una ruta del sistema de archivos.
+                // Insert company logo
+                // Create an in-memory PNG because the browser has no filesystem path.
                 const logoCanvas = document.createElement("canvas");
                 logoCanvas.width = 100;
                 logoCanvas.height = 30;
@@ -80,12 +80,12 @@ El ejemplo construye una hoja de cálculo para una factura. Para ello, inserta u
                 }
                 const logoData = new Uint8Array(await logoBlob.arrayBuffer());
                 worksheet.pictures.add(1, 1, logoData);
-                // Nombre de la empresa y datos de contacto
+                // Company name and contact details
                 cells.get("B3").value = "Acme Corporation";
                 cells.get("B4").value = "123 Business Street";
                 cells.get("B5").value = "City, State 12345";
                 cells.get("B6").value = "Phone: (555) 123-4567";
-                // Título de la factura: combinar celdas
+                // INVOICE title - merge cells
                 cells.merge(7, 1, 2, 4);
                 const titleCell = cells.get("B8");
                 titleCell.value = "INVOICE";
@@ -94,7 +94,7 @@ El ejemplo construye una hoja de cálculo para una factura. Para ello, inserta u
                 titleStyle.font.size = 20;
                 titleStyle.horizontalAlignment = AsposeCells.TextAlignmentType.Center;
                 titleCell.style = titleStyle;
-                // Número de factura y fecha
+                // Invoice number and date
                 cells.get("B11").value = "Invoice Number:";
                 cells.get("C11").value = "INV-2024-001";
                 cells.get("B12").value = "Date:";
@@ -105,12 +105,12 @@ El ejemplo construye una hoja de cálculo para una factura. Para ello, inserta u
                     String(now.getDate()).padStart(2, "0")
                 ].join("-");
                 cells.get("C12").value = invoiceDate;
-                // Sección de facturación
+                // Bill-to section
                 cells.get("B14").value = "Bill To:";
                 cells.get("B15").value = "Client Name";
                 cells.get("B16").value = "Client Address";
                 cells.get("B17").value = "Client City, State";
-                // Encabezado de las líneas de detalle
+                // Line items header
                 const headerDesc = cells.get("B19");
                 const headerQty = cells.get("C19");
                 const headerPrice = cells.get("D19");
@@ -133,20 +133,20 @@ El ejemplo construye una hoja de cálculo para una factura. Para ello, inserta u
                 headerQty.style = headerStyle;
                 headerPrice.style = headerStyle;
                 headerTotal.style = headerStyle;
-                // Estilo de moneda con bordes
+                // Currency style with borders
                 const currencyStyle = workbook.createStyle();
                 currencyStyle.custom = '"$"#,##0.00';
                 currencyStyle.borders.get(AsposeCells.BorderType.TopBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.BottomBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.LeftBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 currencyStyle.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
-                // Estilo de borde simple para celdas de descripción/cantidad
+                // Plain border style for description/quantity cells
                 const borderStyle = workbook.createStyle();
                 borderStyle.borders.get(AsposeCells.BorderType.TopBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.BottomBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.LeftBorder).lineStyle = AsposeCells.CellBorderType.Thin;
                 borderStyle.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
-                // Filas de las líneas de detalle
+                // Line items rows
                 const lineItems = [
                     ["Product A - Widget", 2, 50.00],
                     ["Product B - Gadget", 3, 75.00],
@@ -167,7 +167,7 @@ El ejemplo construye una hoja de cálculo para una factura. Para ello, inserta u
                     priceCell.style = currencyStyle;
                     totalCell.style = currencyStyle;
                 }
-                // Subtotal, impuesto y total general
+                // Subtotal, tax, grand total
                 cells.get("B24").value = "Subtotal:";
                 const subtotalCell = cells.get("E24");
                 subtotalCell.formula = "SUM(E21:E23)";
@@ -177,20 +177,20 @@ El ejemplo construye una hoja de cálculo para una factura. Para ello, inserta u
                 cells.get("B26").value = "Grand Total:";
                 const grandTotalCell = cells.get("E26");
                 grandTotalCell.formula = "E24+E25";
-                // Estilo de negrita y moneda para los valores totales
+                // Bold + currency style for total values
                 const totalStyle = workbook.createStyle();
                 totalStyle.font.isBold = true;
                 totalStyle.custom = '"$"#,##0.00';
                 subtotalCell.style = totalStyle;
                 taxCell.style = totalStyle;
                 grandTotalCell.style = totalStyle;
-                // Estilo de negrita para las etiquetas de totales
+                // Bold style for total labels
                 const boldStyle = workbook.createStyle();
                 boldStyle.font.isBold = true;
                 cells.get("B24").style = boldStyle;
                 cells.get("B25").style = boldStyle;
                 cells.get("B26").style = boldStyle;
-                // Guardar el libro de trabajo como un archivo OFD
+                // Save the workbook as an OFD file
                 const outputData = workbook.save(AsposeCells.SaveFormat.Ofd);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById('downloadLink');
@@ -267,9 +267,9 @@ Aspose.Cells también puede cargar un libro de trabajo de Excel existente desde 
                     runButton.disabled = true;
                     downloadLink.style.display = "none";
                     downloadLink.removeAttribute("href");
-                    // Abrir un libro de Excel existente desde el disco
+                    // Open an existing Excel workbook from disk
                     const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
-                    // (1) Leer y mostrar los valores de las celdas seleccionadas para confirmar que el archivo se cargó
+                    // (1) Read and display values from selected cells to confirm the file was loaded
                     const firstSheet = workbook.worksheets.get(0);
                     const cells = firstSheet.cells;
                     const output = [];
@@ -277,26 +277,26 @@ Aspose.Cells también puede cargar un libro de trabajo de Excel existente desde 
                     output.push("Cell A1: " + cells.get("A1").stringValue);
                     output.push("Cell B1: " + cells.get("B1").stringValue);
                     output.push("Cell C1: " + cells.get("C1").stringValue);
-                    // (2) Recorrer la colección Worksheets para enumerar las hojas disponibles
+                    // (2) Iterate over the Worksheets collection to enumerate available sheets
                     output.push("");
                     output.push("Available worksheets:");
                     for (let i = 0; i < workbook.worksheets.count; i++) {
                         const ws = workbook.worksheets.get(i);
                         output.push("  [" + i + "] " + ws.name);
                     }
-                    // (3) Opcionalmente, actualizar una celda de marca de tiempo para reflejar la conversión
+                    // (3) Optionally update a timestamp cell to reflect the conversion
                     cells.get("A1").value = "Converted on: " + formatTimestamp(new Date());
-                    // Agregar una fila de encabezado de resumen en la parte superior del bloque de datos
+                    // Append a summary header row at the top of the data block
                     cells.insertRow(0);
                     cells.get("A1").value = "Conversion Summary";
                     cells.get("A2").value = "Generated: " + formatTimestamp(new Date());
-                    // (4) Configurar las propiedades de PageSetup en la hoja de cálculo
+                    // (4) Configure PageSetup properties on the worksheet
                     const pageSetup = firstSheet.pageSetup;
                     pageSetup.orientation = AsposeCells.PageOrientationType.Landscape;
                     pageSetup.paperSize = AsposeCells.PaperSizeType.PaperA4;
                     pageSetup.fitToPagesTall = 1;
                     pageSetup.fitToPagesWide = 1;
-                    // (5) Opcionalmente, establecer el área de impresión para la salida OFD
+                    // (5) Optionally set the print area for the OFD output
                     const lastRow = cells.maxDataRow;
                     const lastCol = cells.maxDataColumn;
                     const lastColLetter = CellsHelper.columnIndexToName(lastCol);
@@ -304,7 +304,7 @@ Aspose.Cells también puede cargar un libro de trabajo de Excel existente desde 
                     pageSetup.printArea = printArea;
                     output.push("");
                     output.push("Print area set to: " + printArea);
-                    // (6) Guardar el libro como un archivo OFD
+                    // (6) Save the workbook as an OFD file
                     const outputData = workbook.save(AsposeCells.SaveFormat.Ofd);
                     const blob = new Blob([outputData]);
                     downloadLink.href = URL.createObjectURL(blob);

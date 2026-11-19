@@ -43,16 +43,16 @@ for i in range(len(fruits)):
     cells.get(i + 1, 0).put_value(fruits[i])
     cells.get(i + 1, 1).put_value(years[i])
     cells.get(i + 1, 2).put_value(amounts[i])
-# E3 konumunda sol üst köşesi bulunan pivot tablo
+# Pivot table with its top-left corner at E3
 pivot_table = sheet.pivot_tables.add("=A1:C7", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.calculate_data()
-# Koşullu biçimi F4'te (satır 3, sütun 5) Veri kapsamı ile sabitle
+# Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 index = pivot_table.conditional_formats.add()
 format = pivot_table.conditional_formats[index]
 format.apply_to(3, 5, PivotConditionFormatScopeType.DATA)
-# Kural - 200'den büyük tutarları vurgula
+# Rule - highlight amounts greater than 200
 condition_index = format.format_conditions.add_condition(
     ac.FormatConditionType.CELL_VALUE,
     ac.OperatorType.GREATER_THAN,
@@ -97,7 +97,7 @@ pivot_table = sheet.pivot_tables.add("=A1:C7", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.calculate_data()
-# F4:F6 dikdörtgenini hedefleyin (toplam satırı içermeyen değer hücreleri)
+# Target the rectangle F4:F6 (the value cells without the grand total)
 index = pivot_table.conditional_formats.add()
 conditional_format = pivot_table.conditional_formats[index]
 area = ac.CellArea()
@@ -106,7 +106,7 @@ area.start_column = 5
 area.end_row = 5
 area.end_column = 5
 conditional_format.add_cell_area(area)
-# Kural - 150 ile 300 arasındaki tutarlar için açık sarı renkte italik
+# Rule - italic on light yellow for amounts between 150 and 300
 condition_index = conditional_format.format_conditions.add_condition(
     FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "150", "300"
 )
@@ -141,13 +141,13 @@ pivot_table = sheet.pivot_tables.add("=A1:C7", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.calculate_data()
-# Amount veri alanına anlamsal bir bölge olarak kuralı ekle
+# Attach the rule to the Amount data field as a semantic region
 index = pivot_table.conditional_formats.add()
 format = pivot_table.conditional_formats[index]
 area = ac.PivotArea(pivot_table)
 area.select_field(PivotFieldType.DATA, "Amount")
 format.pivot_areas.add_pivot_area(area)
-# Kural - 150'nin altındaki miktarlar için gri metin
+# Rule - grey text for amounts below 150
 condition_index = format.format_conditions.add_condition(
     ac.FormatConditionType.CELL_VALUE,
     ac.OperatorType.LESS_THAN,
@@ -178,10 +178,10 @@ for i in range(pivot_table.conditional_formats.count):
             f"    rows {area.start_row + 1}-{area.end_row + 1}, "
             f"columns {area.start_column + 1}-{area.end_column + 1}"
         )
-# Bu çıktıyı verir:
-# Koşullu biçimler: 1
-# Biçim 0: CellValue GreaterThan formula1==200
-#     satırlar 4-7, sütunlar 6-6        (F4:F7, çözülen veri bölgesi)
+# This prints:
+# Conditional formats: 1
+# Format 0: CellValue GreaterThan formula1==200
+#     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **İlgili Makaleler**

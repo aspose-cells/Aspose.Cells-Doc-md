@@ -105,21 +105,21 @@ CSE-Array-Formeln sind die klassische Excel-Methode zur Auswertung eines `TRANSP
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Lade die Quellarbeitsmappe mit xlsx-Ladeoptionen
+// Load the source workbook with xlsx LoadOptions
 const srcFile = "source.xlsx";
 const workbook = new AsposeCells.Workbook(srcFile, new AsposeCells.LoadOptions(AsposeCells.LoadFormat.Xlsx));
-// Greife auf das erste Arbeitsblatt und dessen Cells-Auflistung zu
+// Access the first worksheet and its Cells collection
 const worksheet = workbook.getWorksheets().get(0);
 const cells = worksheet.getCells();
-// Setze die klassische CSE-Array-Formel auf Zelle A6.
-// Die Formel =TRANSPOSE(A1:D5) rotiert den 5-zeiligen x 4-spaltigen Quellbereich
-// in ein 4-zeiliges x 5-spaltiges Array. Das zweite Argument (4) ist die Anzahl der Zeilen
-// und das dritte Argument (5) ist die Anzahl der Spalten des resultierenden Arrays.
-// Aspose.Cells schreibt das CSE-Array-Formel-Marker, sodass Excel sie als
-// eine einzelne Multi-Zell-Array-Formel auswertet, kompatibel mit älteren Excel-Versionen
-// (2019, 2016, 2013 usw.), die kein dynamisches Array-Spreading unterstützen.
+// Set the classic CSE array formula on cell A6.
+// The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+// into a 4-row x 5-column array. The second argument (4) is the number of rows
+// and the third argument (5) is the number of columns of the resulting array.
+// Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+// a single multi-cell array formula, compatible with older Excel versions
+// (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-// Speichere die Arbeitsmappe, damit das Array-Formel-Marker beibehalten wird
+// Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx");
 ```
 

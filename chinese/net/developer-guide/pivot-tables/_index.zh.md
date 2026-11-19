@@ -1,6 +1,6 @@
 ---
 title: 插入数据透视表
-linktitle: 插入数据透视表
+linktitle: 数据透视表
 description: 创建 Excel 电子表格文件中的数据透视表并设置其格式。
 keywords: 创建数据透视表, 插入数据透视表, 设置数据透视表格式.
 type: docs
@@ -36,12 +36,10 @@ Aspose.Cells 在 [**Aspose.Cells.Pivot**](https://reference.aspose.com/cells/net
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
-// 创建一个新的工作簿并获取第一个工作表
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-
-// 写入源数据：按运动项目划分的各季度销售额
+// Write the source data: sales per sport and quarter
 sheet.Cells["A1"].PutValue("Sport");
 sheet.Cells["B1"].PutValue("Quarter");
 sheet.Cells["C1"].PutValue("Sales");
@@ -66,16 +64,13 @@ sheet.Cells["C7"].PutValue(5000);
 sheet.Cells["A8"].PutValue("Golf");
 sheet.Cells["B8"].PutValue("Qtr3");
 sheet.Cells["C8"].PutValue(6430);
-
-// 在目标单元格 E3 处添加数据透视表，数据源为 A1:C8
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C8", 2, 4);
-
-// 分配透视字段：将“Sport”添加到行区域，将“Quarter”添加到列区域，将“Sales”添加到数据区域
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Quarter");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
-
-// 保存工作簿
+// Save the workbook
 workbook.Save("pivotTable_test_out.xlsx");
 ```
 

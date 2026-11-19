@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Java'da Mini Grafikler (Sparklines)
-linktitle: Aspose.Cells for Java'da Mini Grafikler (Sparklines)
+linktitle: Mini Grafikler
 description: Aspose.Cells, çalışma sayfası hücrelerinin içine yerleştirilen küçük grafikler olan mini grafikler oluşturmayı destekleyen, elektronik tablo dosyalarıyla çalışmak için bir Java kütüphanesidir. Bu makale, Aspose.Cells kütüphanesini kullanarak çizgi, sütun ve kazanma/kayıp mini grafiklerinin nasıl ekleneceğini ve özelleştirileceğini açıklamaktadır.
 keywords: Aspose.Cells, Java kütüphanesi, elektronik tablo, mini grafikler, çizgi mini grafiği, sütun mini grafiği, kazanma/kayıp mini grafiği, SparklineGroup, SparklineType
 type: docs
@@ -31,34 +31,34 @@ Aşağıdaki örnek bir çalışma kitabı oluşturur, A1'den E1'e kadar olan h�
 
 ```java
 import com.aspose.cells.*;
-// Adım 1: Bir Workbook oluşturun ve ilk çalışma sayfasını alın
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
-// Adım 2: A1:E1 hücrelerine 5, -3, 8, -2, 6 örnek değerlerini yazın
+// Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
 cells.get("A1").putValue(5);
 cells.get("B1").putValue(-3);
 cells.get("C1").putValue(8);
 cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
-// Adım 3: Hedef hücre F1'i gösteren bir CellArea oluşturun
+// Step 3: Build a CellArea pointing to destination cell F1
 CellArea dest = new CellArea();
-dest.StartColumn = 5;   // F sütunu (0-indeksli)
+dest.StartColumn = 5;   // column F (0-indexed)
 dest.EndColumn = 5;
-dest.StartRow = 0;      // 1. satır (0-indeksli)
+dest.StartRow = 0;      // row 1 (0-indexed)
 dest.EndRow = 0;
-// Adım 4: A1:E1'den F1'e bir Çizgi sparkline ekleyin
-// SparklineGroups.add, yeni eklenen grubun indeksini döndürür
+// Step 4: Add a Line sparkline from A1:E1 into F1
+// SparklineGroups.add returns the index of the newly added group
 int index = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(index);
-// Adım 5: Kırmızı bir CellsColor oluşturun ve sparkline çizgi rengine atayın
+// Step 5: Create a red CellsColor and assign it to the sparkline line color
 CellsColor red = workbook.createCellsColor();
 red.setColor(com.aspose.cells.Color.getRed());
 group.setSeriesColor(red);
-// Adım 6: Yüksek nokta ve düşük nokta işaretleyicilerini etkinleştirin
+// Step 6: Enable high-point and low-point markers
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
-// Adım 7: Workbook'u kaydedin
+// Step 7: Save the workbook
 workbook.save("output_line.xlsx");
 ```
 
@@ -76,23 +76,23 @@ Aşağıdaki örnek, A1:E1 aralığına 5, -3, 8, -2, 6 değerlerini yazar ve F1
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// A1:E1 aralığına örnek değerler yaz
+// Write sample values into A1:E1
 int[] values = new int[] { 5, -3, 8, -2, 6 };
 for (int i = 0; i < values.length; i++) {
     worksheet.getCells().get(0, i).putValue(values[i]);
 }
-// F1 hücresini işaret eden bir CellArea oluştur (sütun indeksi 5, satır indeksi 0)
+// Build a CellArea pointing to F1 (column index 5, row index 0)
 CellArea dest = new CellArea();
 dest.StartColumn = 5;
 dest.EndColumn = 5;
 dest.StartRow = 0;
 dest.EndRow = 0;
-// Hedef hücreye bir Sütun sparkline ekle
+// Add a Column sparkline to the destination cell
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
-// group.Type okuyarak sparkline türünü doğrula
+// Confirm the sparkline type by reading group.Type
 System.out.println("Sparkline Type added: " + group.getType());
-// Çalışma kitabını kaydet
+// Save the workbook
 workbook.save("output_column.xlsx");
 System.out.println("Workbook saved as output_column.xlsx");
 ```
@@ -112,42 +112,42 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
-// Örnek verileri doldur
+// Populate sample data
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// F1'e (5. sütun, 0. satır) işaret eden bir CellArea oluştur
+// Build a CellArea pointing to F1 (column 5, row 0)
 CellArea dest = new CellArea();
 dest.StartColumn = 5;
 dest.EndColumn = 5;
 dest.StartRow = 0;
 dest.EndRow = 0;
-// Bir Kazanma/Kayıp mini grafik ekle (SparklineType.Stacked)
+// Add a Win/Loss sparkline (SparklineType.Stacked)
 int groupIndex = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, dest);
 SparklineGroup group = worksheet.getSparklineGroups().get(groupIndex);
-// Mini grafik grubunu özelleştir
+// Customize the sparkline group
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
-// Yüksek nokta rengini yeşil olarak ayarla
+// Set the high-point color to green
 CellsColor highColor = workbook.createCellsColor();
 highColor.setColor(Color.getGreen());
 group.setHighPointColor(highColor);
-// Düşük nokta rengini kırmızı olarak ayarla
+// Set the low-point color to red
 CellsColor lowColor = workbook.createCellsColor();
 lowColor.setColor(Color.getRed());
 group.setLowPointColor(lowColor);
-// Negatif nokta rengini turuncu olarak ayarla
+// Set the negative-point color to orange
 CellsColor negColor = workbook.createCellsColor();
 negColor.setColor(Color.getOrange());
 group.setNegativePointsColor(negColor);
-// Varsayılan seri rengini ayarla (pozitif çubuklar için kullanılır)
+// Set the default series color (used for positive bars)
 CellsColor seriesColor = workbook.createCellsColor();
-seriesColor.setColor(Color.fromArgb(70, 130, 180)); // SteelBlue yaklaşımı
+seriesColor.setColor(Color.fromArgb(70, 130, 180)); // SteelBlue approximation
 group.setSeriesColor(seriesColor);
-// Çalışma kitabını kaydet
+// Save the workbook
 workbook.save("output_winloss.xlsx");
 System.out.println("Workbook saved successfully: output_winloss.xlsx");
 ```
@@ -157,40 +157,40 @@ Aşağıdaki birleşik örnek, tek bir çalışma kitabı oluşturur, 1. satıra
 
 ```java
 import com.aspose.cells.*;
-// Adım 1: Bir Workbook oluşturun ve ilk çalışma sayfasını alın
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
-// Adım 2: 1. satıra (A1:E1) örnek verileri doldurun
+// Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Adım 3: F1'e bir Çizgi sparkline grubu ekleyin
-CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5); // Düzeltme: Statik fabrika yöntemi kullanın
+// Step 3: Add a Line sparkline group at F1
+CellArea lineArea = CellArea.createCellArea(0, 5, 0, 5); // Fix: Use static factory method
 int lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", false, lineArea);
 SparklineGroup lineGroup = worksheet.getSparklineGroups().get(lineIdx);
-// Çizgi sparkline rengini CellsColor aracılığıyla özelleştirin
+// Customize the line sparkline color via CellsColor
 CellsColor lineColor = workbook.createCellsColor();
 lineColor.setColor(com.aspose.cells.Color.getBlue());
 lineGroup.setSeriesColor(lineColor);
-// Adım 4: F2'ye bir Sütun sparkline grubu ekleyin
-CellArea columnArea = CellArea.createCellArea(1, 5, 1, 5); // Düzeltme: Statik fabrika yöntemi kullanın
+// Step 4: Add a Column sparkline group at F2
+CellArea columnArea = CellArea.createCellArea(1, 5, 1, 5); // Fix: Use static factory method
 int columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", false, columnArea);
 SparklineGroup columnGroup = worksheet.getSparklineGroups().get(columnIdx);
-// Sütun sparkline serisi rengini özelleştirin
+// Customize the column sparkline series color
 CellsColor columnColor = workbook.createCellsColor();
 columnColor.setColor(com.aspose.cells.Color.getGreen());
 columnGroup.setSeriesColor(columnColor);
-// Adım 5: F3'e bir Kazanma/Kaybetme (Yığılmış) sparkline grubu ekleyin
-CellArea stackedArea = CellArea.createCellArea(2, 5, 2, 5); // Düzeltme: Statik fabrika yöntemi kullanın
+// Step 5: Add a Win/Loss (Stacked) sparkline group at F3
+CellArea stackedArea = CellArea.createCellArea(2, 5, 2, 5); // Fix: Use static factory method
 int stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", false, stackedArea);
 SparklineGroup stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
-// Kazanma/kaybetme sparkline serisi rengini özelleştirin
+// Customize the win/loss sparkline series color
 CellsColor stackedColor = workbook.createCellsColor();
 stackedColor.setColor(com.aspose.cells.Color.getDarkOrange());
 stackedGroup.setSeriesColor(stackedColor);
-// Adım 6: Workbook'u kaydedin
+// Step 6: Save the workbook
 workbook.save("output_all.xlsx");
 ```
 

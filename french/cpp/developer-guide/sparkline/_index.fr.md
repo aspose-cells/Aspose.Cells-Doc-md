@@ -34,33 +34,33 @@ L'exemple suivant crée un classeur, écrit les valeurs 5, -3, 8, -2, 6 dans les
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Étape 1 : Créer un classeur et obtenir la première feuille de calcul
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // Étape 2 : Écrire les valeurs d'exemple 5, -3, 8, -2, 6 dans les cellules A1:E1
+    // Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
     cells.Get(u"A1").PutValue(5);
     cells.Get(u"B1").PutValue(-3);
     cells.Get(u"C1").PutValue(8);
     cells.Get(u"D1").PutValue(-2);
     cells.Get(u"E1").PutValue(6);
-    // Étape 3 : Construire un CellArea pointant vers la cellule de destination F1
+    // Step 3: Build a CellArea pointing to destination cell F1
     CellArea dest;
-    dest.StartColumn = 5;   // colonne F (indexée à partir de 0)
+    dest.StartColumn = 5;   // column F (0-indexed)
     dest.EndColumn = 5;
-    dest.StartRow = 0;      // ligne 1 (indexée à partir de 0)
+    dest.StartRow = 0;      // row 1 (0-indexed)
     dest.EndRow = 0;
-    // Étape 4 : Ajouter un sparkline en ligne de A1:E1 dans F1
+    // Step 4: Add a Line sparkline from A1:E1 into F1
     int index = worksheet.GetSparklineGroups().Add(SparklineType::Line, u"A1:E1", false, dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(index);
-    // Étape 5 : Créer un CellsColor rouge et l'assigner à la couleur de ligne du sparkline
+    // Step 5: Create a red CellsColor and assign it to the sparkline line color
     CellsColor red = workbook.CreateCellsColor();
     red.SetColor(Color::Red());
     group.SetSeriesColor(red);
-    // Étape 6 : Activer les marqueurs de point haut et de point bas
+    // Step 6: Enable high-point and low-point markers
     group.SetShowHighPoint(true);
     group.SetShowLowPoint(true);
-    // Étape 7 : Enregistrer le classeur
+    // Step 7: Save the workbook
     workbook.Save(u"output_line.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -84,28 +84,28 @@ L'exemple ci-dessous écrit les valeurs 5, -3, 8, -2, 6 dans A1:E1 et restitue u
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Étape 1 : Créer un classeur et obtenir la première feuille de calcul
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
-    // Étape 2 : Écrire des valeurs d'exemple dans A1:E1
+    // Step 2: Write sample values into A1:E1
     int values[5] = { 5, -3, 8, -2, 6 };
     Cells cells = worksheet.GetCells();
     for (int i = 0; i < 5; i++) {
         cells.Get(0, i).PutValue(values[i]);
     }
-    // Étape 3 : Construire un CellArea pointant vers F1 (index de colonne 5, index de ligne 0)
+    // Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
     CellArea dest;
     dest.StartColumn = 5;
     dest.EndColumn = 5;
     dest.StartRow = 0;
     dest.EndRow = 0;
-    // Étape 4 : Ajouter un sparkline de type colonne à la cellule de destination
+    // Step 4: Add a Column sparkline to the destination cell
     int idx = worksheet.GetSparklineGroups().Add(
         SparklineType::Column, u"A1:E1", false, dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(idx);
-    // Étape 5 : Confirmer le type de sparkline en lisant group.Type
+    // Step 5: Confirm the sparkline type by reading group.Type
     std::cout << "Sparkline Type added: " << static_cast<int>(group.GetType()) << std::endl;
-    // Étape 6 : Enregistrer le classeur
+    // Step 6: Save the workbook
     wb.Save(u"output_column.xlsx");
     std::cout << "Workbook saved as output_column.xlsx" << std::endl;
     Aspose::Cells::Cleanup();
@@ -129,53 +129,53 @@ Dans Aspose.Cells, une sparkline de type gain/perte est créée en passant `Spar
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Étape 1 : Créer un classeur et obtenir la première feuille de calcul
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(u"WinLoss");
-    // Étape 2 : Remplir des données d'exemple dans la ligne 1 : A1=5, B1=-3, C1=8, D1=-2, E1=6
+    // Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
     worksheet.GetCells().Get(u"A1").PutValue(5);
     worksheet.GetCells().Get(u"B1").PutValue(-3);
     worksheet.GetCells().Get(u"C1").PutValue(8);
     worksheet.GetCells().Get(u"D1").PutValue(-2);
     worksheet.GetCells().Get(u"E1").PutValue(6);
-    // Étape 3 : Construire une CellArea pointant vers F1 (colonne 5, ligne 0)
+    // Step 3: Build a CellArea pointing to F1 (column 5, row 0)
     CellArea dest;
     dest.StartColumn = 5;   // F
     dest.EndColumn = 5;
-    dest.StartRow = 0;      // ligne 1
+    dest.StartRow = 0;      // row 1
     dest.EndRow = 0;
-    // Étape 4 : Ajouter un sparkline Gagnant/Perdant (SparklineType.Stacked)
+    // Step 4: Add a Win/Loss sparkline (SparklineType.Stacked)
     int groupIndex = worksheet.GetSparklineGroups().Add(
         SparklineType::Stacked,
         u"A1:E1",
         false,
         dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(groupIndex);
-    // Étape 5 : Personnaliser le groupe de sparklines
-    // Activer les marqueurs de point haut et de point bas
+    // Step 5: Customize the sparkline group
+    // Enable high-point and low-point markers
     group.SetShowHighPoint(true);
     group.SetShowLowPoint(true);
     group.SetShowNegativePoints(true);
-    // Définir la couleur du point haut en vert
+    // Set the high-point color to green
     CellsColor highColor = workbook.CreateCellsColor();
     highColor.SetColor(Color::Green());
     group.SetHighPointColor(highColor);
-    // Définir la couleur du point bas en rouge
+    // Set the low-point color to red
     CellsColor lowColor = workbook.CreateCellsColor();
     lowColor.SetColor(Color::Red());
     group.SetLowPointColor(lowColor);
-    // Définir la couleur des points négatifs en orange
+    // Set the negative-point color to orange
     CellsColor negColor = workbook.CreateCellsColor();
     negColor.SetColor(Color::Orange());
     group.SetNegativePointsColor(negColor);
-    // Définir la couleur de série par défaut (utilisée pour les barres positives)
+    // Set the default series color (used for positive bars)
     CellsColor seriesColor = workbook.CreateCellsColor();
     seriesColor.SetColor(Color::SteelBlue());
     group.SetSeriesColor(seriesColor);
-    // Étape 6 : Enregistrer le classeur
+    // Step 6: Save the workbook
     workbook.Save(u"output_winloss.xlsx");
-    std::cout << "Classeur enregistré avec succès : output_winloss.xlsx" << std::endl;
+    std::cout << "Workbook saved successfully: output_winloss.xlsx" << std::endl;
     Aspose::Cells::Cleanup();
     return 0;
 }
@@ -189,16 +189,16 @@ L'exemple combiné ci-dessous crée un seul classeur, remplit la ligne 1 avec le
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Étape 1 : Créer un classeur et obtenir la première feuille de calcul
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // Étape 2 : Remplir des données d'exemple dans la ligne 1 (A1:E1)
+    // Step 2: Populate sample data in row 1 (A1:E1)
     worksheet.GetCells().Get(u"A1").PutValue(5);
     worksheet.GetCells().Get(u"B1").PutValue(-3);
     worksheet.GetCells().Get(u"C1").PutValue(8);
     worksheet.GetCells().Get(u"D1").PutValue(-2);
     worksheet.GetCells().Get(u"E1").PutValue(6);
-    // Étape 3 : Ajouter un groupe de sparklines de type Ligne en F1
+    // Step 3: Add a Line sparkline group at F1
     CellArea lineArea;
     lineArea.StartColumn = 5;
     lineArea.EndColumn = 5;
@@ -206,11 +206,11 @@ int main() {
     lineArea.EndRow = 0;
     int lineIdx = worksheet.GetSparklineGroups().Add(SparklineType::Line, u"A1:E1", false, lineArea);
     SparklineGroup lineGroup = worksheet.GetSparklineGroups().Get(lineIdx);
-    // Personnaliser la couleur de la sparkline de type Ligne via CellsColor
+    // Customize the line sparkline color via CellsColor
     CellsColor lineColor = workbook.CreateCellsColor();
     lineColor.SetColor(Color::Blue());
     lineGroup.SetSeriesColor(lineColor);
-    // Étape 4 : Ajouter un groupe de sparklines de type Colonne en F2
+    // Step 4: Add a Column sparkline group at F2
     CellArea columnArea;
     columnArea.StartColumn = 5;
     columnArea.EndColumn = 5;
@@ -218,11 +218,11 @@ int main() {
     columnArea.EndRow = 1;
     int columnIdx = worksheet.GetSparklineGroups().Add(SparklineType::Column, u"A1:E1", false, columnArea);
     SparklineGroup columnGroup = worksheet.GetSparklineGroups().Get(columnIdx);
-    // Personnaliser la couleur de la série de sparklines de type Colonne
+    // Customize the column sparkline series color
     CellsColor columnColor = workbook.CreateCellsColor();
     columnColor.SetColor(Color::Green());
     columnGroup.SetSeriesColor(columnColor);
-    // Étape 5 : Ajouter un groupe de sparklines de type Victoire/Défaite (Empilé) en F3
+    // Step 5: Add a Win/Loss (Stacked) sparkline group at F3
     CellArea stackedArea;
     stackedArea.StartColumn = 5;
     stackedArea.EndColumn = 5;
@@ -230,11 +230,11 @@ int main() {
     stackedArea.EndRow = 2;
     int stackedIdx = worksheet.GetSparklineGroups().Add(SparklineType::Stacked, u"A1:E1", false, stackedArea);
     SparklineGroup stackedGroup = worksheet.GetSparklineGroups().Get(stackedIdx);
-    // Personnaliser la couleur de la série de sparklines de type Victoire/Défaite
+    // Customize the win/loss sparkline series color
     CellsColor stackedColor = workbook.CreateCellsColor();
     stackedColor.SetColor(Color::FromArgb(0xFF8C00));
     stackedGroup.SetSeriesColor(stackedColor);
-    // Étape 6 : Enregistrer le classeur
+    // Step 6: Save the workbook
     workbook.Save(u"output_all.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

@@ -36,19 +36,19 @@ jpype.startJVM()
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
-# Загружаем существующую рабочую книгу, содержащую сводную таблицу
+# Load the existing workbook containing a pivot table
 workbook = Workbook(fileName)
-# Получаем доступ к листу по индексу (первый лист)
+# Access the worksheet by index (first worksheet)
 worksheet = workbook.getWorksheets().get(0)
-# Получаем доступ к сводной таблице по индексу
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# Получаем первое поле строки PivotField
+# Retrieve the first row PivotField
 rowField = pivotTable.getRowFields().get(0)
-# Применяем фильтр по метке — отображаем только элементы строк, метки которых начинаются с указанного префикса
+# Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
-# Обновляем и пересчитываем данные сводной таблицы, чтобы фильтр вступил в силу
+# Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Сохраняем рабочую книгу обратно на диск
+# Save the workbook back to disk
 workbook.save(fileName)
 jpype.shutdownJVM()
 ```
@@ -72,24 +72,24 @@ inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
 if not os.path.exists(inputPath):
     raise FileNotFoundError(f"Source workbook not found: {inputPath}")
-# Загрузка существующей книги, содержащей сводную таблицу
+# Load the existing workbook that contains the pivot table
 workbook = Workbook(inputPath)
-# Доступ к листу, содержащему сводную таблицу (по индексу)
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.getWorksheets().get(0)
-# Доступ к сводной таблице по индексу
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# Получение поля даты из области строк
-# (Фильтр по дате работает только когда область строк/столбцов содержит только ячейки с датой-временем или пустые ячейки)
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 dateField = pivotTable.getRowFields().get(0)
-# Определение критерия даты для фильтра "Между"
+# Define the date criterion for the Between filter
 Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
-# Применение фильтра по дате к полю сводной таблицы
+# Apply the date filter on the pivot field
 dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
-# Обновление и пересчёт сводной таблицы, чтобы фильтр вступил в силу
+# Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Сохранение книги
+# Persist the workbook
 workbook.save(outputPath)
 jpype.shutdownJVM()
 ```
@@ -109,7 +109,7 @@ worksheet = workbook.getWorksheets().get(0)
 pivotTable = worksheet.getPivotTables().get(0)
 rowField = pivotTable.getRowFields().get(0)
 dataField = pivotTable.getDataFields().get(0)
-# Найти индекс поля данных вручную, так как PivotFieldCollection не имеет IndexOf
+# Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 dataFieldIndex = -1
 for i in range(pivotTable.getDataFields().getCount()):
     if pivotTable.getDataFields().get(i) == dataField:
@@ -136,31 +136,31 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
-# Загрузить существующую рабочую книгу, содержащую сводную таблицу
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = Workbook(inputPath)
-# Получить доступ к листу, на котором находится сводная таблица (индекс 0)
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.getWorksheets().get(0)
-# Получить доступ к сводной таблице по индексу
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# Убедиться, что в области данных есть хотя бы одно поле значений (value PivotField)
+# Confirm there is at least one value PivotField in the data area
 if pivotTable.getDataFields().getCount() == 0:
-    raise Exception("Сводная таблица не имеет поля значений (data) PivotField.")
+    raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.getDataFields().get(0)
-# Получить целевое поле строки (row PivotField), к которому применяется фильтр Top 10
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.getRowFields().get(0)
-# Первое (и единственное) поле данных находится по индексу 0; Top 10 ранжирует по нему
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# Применить фильтр Top 10 к полю строки:
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true (верхние N; false означало бы нижние N)
-#   - valueFieldIndex = индекс поля данных, используемого для ранжирования элементов
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, True, 10)
-# Обновить данные сводной таблицы и пересчитать её, чтобы фильтр вступил в силу
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Сохранить рабочую книгу
+# Save the workbook
 workbook.save(outputPath)
 jpype.shutdownJVM()
 ```
@@ -174,28 +174,28 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
-# Загружаем существующую книгу, содержащую сводную таблицу
+# Load an existing workbook containing a pivot table
 workbook = Workbook("pivot_table_sample.xlsx")
-# Получаем доступ к первому листу, содержащему сводную таблицу
+# Access the first worksheet which contains the pivot table
 sheet = workbook.getWorksheets().get(0)
-# Получаем доступ к сводной таблице по индексу (первая сводная таблица на листе)
+# Access the pivot table by index (the first pivot table on the sheet)
 pivotTable = sheet.getPivotTables().get(0)
-# Получаем целевое поле PivotField (первое поле строки, в котором будем скрывать/отображать элементы)
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivotField = pivotTable.getRowFields().get(0)
-# Перебираем коллекцию PivotItems выбранного PivotField
+# Iterate through the PivotItems collection of the selected PivotField
 itemCount = pivotField.getPivotItems().getCount()
 for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
-    # Скрываем элементы сводной таблицы, соответствующие определённому имени/критерию
+    # Hide pivot items that match a specific name/criterion
     if item.getName() == "Item1" or item.getName() == "Item2":
         item.setHidden(True)
-    # Демонстрация отображения: повторно показываем ранее скрытый элемент сводной таблицы
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.getName() == "Item3":
         item.setHidden(False)
-# Обновляем и пересчитываем сводную таблицу, чтобы изменения вступили в силу
+# Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh()
-# Сохраняем книгу — скрытые элементы остаются в исходных данных
-# но исключаются из отображаемой сводной таблицы
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 jpype.shutdownJVM()
 ```

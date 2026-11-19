@@ -1,6 +1,6 @@
 ---
 title: 通过 Java 在 Aspose.Cells for Node.js 中将行和列字段添加到数据透视表
-linktitle: 通过 Java 在 Aspose.Cells for Node.js 中将行和列字段添加到数据透视表
+linktitle: 行列字段
 description: 了解如何使用 PivotField.setSubtotals 在 Aspose.Cells for Node.js via Java 中将基字段添加到数据透视表的行区域和列区域，并控制数据透视字段的小计
 keywords: Aspose.Cells, Node.js, Java, 数据透视表, 行字段, 列字段, PivotField, setSubtotals, PivotFieldSubtotalType, 小计
 type: docs

@@ -23,15 +23,15 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-# تحميل مصنف العينة
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# الوصول إلى ورقة العمل الثانية وجدول المحور الخاص بها
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# تجميع حقل الصف الأول تلقائيًا.
-# يحتوي الحقل على تواريخ، لذلك يتم تجميعها حسب الأشهر.
+# Group the first row field automatically.
+# The field contains dates, so it is grouped by months.
 field = pt.getRowFields().get(0)
 field.group()
-# حساب بيانات جدول المحور وحفظ ملف الإخراج
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputAutoGroupPivotField.xlsx")
 jpype.shutdownJVM()
@@ -49,17 +49,17 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldGroupOptions, PivotGroupByType, DateTime
-# تحميل مصنف العينة
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# الوصول إلى ورقة العمل الثانية والجدول المحوري الخاص بها
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# تجميع حقل الصف الأول (حقل تاريخ) حسب الأشهر والأرباع
+# Group the first row field (a date field) by months and quarters
 options = PivotFieldGroupOptions()
 options.setStartDate(DateTime(2008, 1, 1))
 options.setEndDate(DateTime(2008, 9, 5))
 options.setGroupTypes([PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS])
 pt.getRowFields().get(0).group(options)
-# حساب بيانات الجدول المحوري وحفظ ملف الإخراج
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 jpype.shutdownJVM()

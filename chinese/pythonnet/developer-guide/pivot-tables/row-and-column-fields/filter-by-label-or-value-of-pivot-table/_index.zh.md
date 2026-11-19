@@ -67,23 +67,23 @@ input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
     raise FileNotFoundError("Source workbook not found.", input_path)
-# 加载包含数据透视表的现有工作簿
+# Load the existing workbook that contains the pivot table
 workbook = ac.Workbook(input_path)
-# 通过索引访问包含数据透视表的工作表
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.worksheets[0]
-# 通过索引访问数据透视表
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# 从行区域检索日期 PivotField
-# （日期筛选仅在行/列区域仅包含日期时间单元格或空白单元格时有效）
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 date_field = pivot_table.row_fields[0]
-# 为 Between 筛选定义日期条件
+# Define the date criterion for the Between filter
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
-# 在数据透视字段上应用日期筛选
+# Apply the date filter on the pivot field
 date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
-# 刷新并重新计算数据透视表以使筛选生效
+# Refresh and recalculate the pivot table so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# 保存工作簿
+# Persist the workbook
 workbook.save(output_path)
 ```
 
@@ -125,31 +125,31 @@ Aspose.Cells 通过 `PivotField.filter_top10(value_field_index, filter_type, is_
 ```python
 import aspose.cells as ac
 import aspose.cells.pivot as acp
-# 加载包含数据透视表的现有工作簿
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = ac.Workbook(inputPath)
-# 访问包含数据透视表的工作表（索引 0）
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.worksheets[0]
-# 通过索引访问数据透视表
+# Access the pivot table by index
 pivotTable = worksheet.pivot_tables[0]
-# 确认数据区域中至少有一个值 PivotField
+# Confirm there is at least one value PivotField in the data area
 if len(pivotTable.data_fields) == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
-# 检索目标行 PivotField（我们要对其应用前 10 筛选的字段）
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.row_fields[0]
-# 第一个（也是唯一一个）数据字段位于索引 0；前 10 按它进行排序。
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# 在行字段上应用前 10 筛选器：
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true（前 N；false 表示后 N）
-#   - valueFieldIndex = 用于对项进行排名的数据字段的索引
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
-# 刷新数据透视表数据并重新计算以使筛选器生效
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.pivot_cache.refresh()
-# 保存工作簿
+# Save the workbook
 workbook.save(outputPath)
 ```
 
@@ -159,28 +159,28 @@ workbook.save(outputPath)
 
 ```python
 import aspose.cells as ac
-# 加载包含数据透视表的现有工作簿
+# Load an existing workbook containing a pivot table
 workbook = ac.Workbook("pivot_table_sample.xlsx")
-# 访问包含数据透视表的第一个工作表
+# Access the first worksheet which contains the pivot table
 sheet = workbook.worksheets[0]
-# 按索引访问数据透视表（工作表上的第一个数据透视表）
+# Access the pivot table by index (the first pivot table on the sheet)
 pivot_table = sheet.pivot_tables[0]
-# 获取目标 PivotField（我们将隐藏/取消隐藏项的第一个行标签字段）
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivot_field = pivot_table.row_fields[0]
-# 遍历所选 PivotField 的 PivotItems 集合
+# Iterate through the PivotItems collection of the selected PivotField
 item_count = pivot_field.pivot_items.count
 for i in range(item_count):
     item = pivot_field.pivot_items[i]
-    # 隐藏符合特定名称/条件的数据透视表项
+    # Hide pivot items that match a specific name/criterion
     if item.name == "Item1" or item.name == "Item2":
         item.is_hidden = True
-    # 演示取消隐藏：重新显示之前隐藏的数据透视表项
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.name == "Item3":
         item.is_hidden = False
-# 刷新并重新计算数据透视表以使更改生效
+# Refresh and recalculate the pivot table so changes take effect
 pivot_table.pivot_cache.refresh()
-# 保存工作簿 —— 隐藏的项保留在底层数据中
-# 但在显示的数据透视表输出中被排除
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 ```
 

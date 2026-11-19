@@ -40,13 +40,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```java
 import com.aspose.cells.*;
-
-// Создать новую книгу и получить первый лист
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-
-// Записать исходные данные: продажи по видам спорта и кварталам
+// Write the source data: sales per sport and quarter
 cells.get("A1").putValue("Sport");
 cells.get("B1").putValue("Quarter");
 cells.get("C1").putValue("Sales");
@@ -71,16 +69,13 @@ cells.get("C7").putValue(5000);
 cells.get("A8").putValue("Golf");
 cells.get("B8").putValue("Qtr3");
 cells.get("C8").putValue(6430);
-
-// Добавить сводную таблицу в ячейку E3 на основе A1:C8
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// Назначить поля сводной таблицы: Sport — строки, Quarter — столбцы, Sales — данные
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Quarter");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
-
-// Сохранить книгу
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

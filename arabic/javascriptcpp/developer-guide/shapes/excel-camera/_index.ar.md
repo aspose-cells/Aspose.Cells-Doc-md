@@ -54,7 +54,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // الكاميرا الديناميكية: أضف صورة فارغة، واربطها عبر الصيغة إلى A1:F10، ثم حدّثها
+            // Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
             const pictures = worksheet.pictures;
             const index = pictures.add(10, 6, null);
             const picture = pictures.get(0);
@@ -109,7 +109,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // كاميرا ثابتة: إنشاء النطاق، وعرضه إلى بايتات، ولفه في MemoryStream، وإضافته كصورة
+            // Static Camera: build Range, render to bytes, wrap in MemoryStream, add as picture
             const range = worksheet.cells.createRange("A1:F10");
             const imageData = range.toImage();
             const pictures = worksheet.pictures;

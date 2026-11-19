@@ -102,43 +102,43 @@ if not os.path.exists(outputDir):
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-# Sütun başlıkları
+# Column headers
 cells.get(0, 0).put_value("ID")
 cells.get(0, 1).put_value("Name")
 cells.get(0, 2).put_value("Department")
 cells.get(0, 3).put_value("Salary")
 cells.get(0, 4).put_value("HireDate")
-# Veri satırı 1
+# Data row 1
 cells.get(1, 0).put_value(101)
 cells.get(1, 1).put_value("John Smith")
 cells.get(1, 2).put_value("Engineering")
 cells.get(1, 3).put_value(75000.50)
 cells.get(1, 4).put_value(datetime(2020, 3, 15))
-# Veri satırı 2
+# Data row 2
 cells.get(2, 0).put_value(102)
 cells.get(2, 1).put_value("Jane Doe")
 cells.get(2, 2).put_value("Marketing")
 cells.get(2, 3).put_value(68000.75)
 cells.get(2, 4).put_value(datetime(2019, 7, 22))
-# Veri satırı 3
+# Data row 3
 cells.get(3, 0).put_value(103)
 cells.get(3, 1).put_value("Bob Johnson")
 cells.get(3, 2).put_value("Finance")
 cells.get(3, 3).put_value(82000.00)
 cells.get(3, 4).put_value(datetime(2021, 1, 10))
-# Veri satırı 4
+# Data row 4
 cells.get(4, 0).put_value(104)
 cells.get(4, 1).put_value("Alice Brown")
 cells.get(4, 2).put_value("Human Resources")
 cells.get(4, 3).put_value(71000.25)
 cells.get(4, 4).put_value(datetime(2018, 11, 5))
-# Veri satırı 5
+# Data row 5
 cells.get(5, 0).put_value(105)
 cells.get(5, 1).put_value("Charlie Wilson")
 cells.get(5, 2).put_value("Operations")
 cells.get(5, 3).put_value(79500.80)
 cells.get(5, 4).put_value(datetime(2022, 5, 30))
-# Daha iyi okunabilirlik için sütun genişliklerini ayarla
+# Set column widths for better readability
 worksheet.cells.set_column_width(0, 8.0)
 worksheet.cells.set_column_width(1, 20.0)
 worksheet.cells.set_column_width(2, 20.0)

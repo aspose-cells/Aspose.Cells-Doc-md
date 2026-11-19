@@ -51,14 +51,14 @@ El siguiente ejemplo crea un libro con un rango de origen Fruto/Año/Importe, cr
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-// Crear un nuevo libro de trabajo
+// Create a new workbook
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-// Escribir la fila de encabezado en las celdas A1:C1
+// Write header row into cells A1:C1
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// Escribir filas de datos en las celdas A2:C9 (8 filas de datos de frutas entre 2020 y 2021)
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.getCells().get("A2").putValue("grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(50);
@@ -83,19 +83,19 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// Agregar una tabla dinámica: rango de origen "A1:C9", celda de destino "E3", nombre
+// Add a pivot table: source range "A1:C9", destination cell "E3"
 const pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
-// Asignar campos dinámicos: Fruta a Filas, Año a Columnas, Cantidad a Datos
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// Modificar varios valores de Cantidad en los datos de origen para simular cambios
+// Modify several Amount values in the source data to simulate changes
 worksheet.getCells().get("C2").putValue(55);
 worksheet.getCells().get("C5").putValue(85);
 worksheet.getCells().get("C9").putValue(125);
-// Actualizar todas las tablas dinámicas / caché dinámica en el libro de trabajo
+// Refresh every pivot table / pivot cache in the workbook
 workbook.refreshAll();
-// Guardar el libro de trabajo
+// Save the workbook
 workbook.save("output.xlsx");
 ```
 
@@ -158,11 +158,11 @@ El siguiente ejemplo modifica una propiedad que no es de origen de la tabla din�
 const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
-// Escribir la fila de encabezado Fruta / Año / Cantidad
+// Write Fruit / Year / Amount header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// Escribir 8 filas de datos (filas 2-9, ajustándose al rango de origen A1:C9)
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(100);
@@ -187,21 +187,21 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// Agregar una tabla dinámica llamada ubicada en la celda de destino E3, con origen en A1:C9
+// Add a pivot table placed at destination cell E3, sourcing from A1:C9
 var pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
-// Asignar campos: Fruta a Fila, Año a Columna, Cantidad a Datos
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// Modificar una propiedad de vista/diseño — este es un cambio únicamente de presentación,
-// por lo que NO requiere releer los datos de origen mediante PivotCache.refresh().
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
-// calculateData() vuelve a renderizar la visualización de ESTA tabla dinámica (datos + estilo) a partir de los
-// datos ya almacenados en el PivotCache. Dado que los datos de origen no cambiaron,
-// no se realiza un recorrido de ida y vuelta al origen — solo los valores en caché se recalculan
-// en las celdas de la hoja de cálculo.
+// calculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.calculateData();
-// Guardar el libro en disco
+// Save the workbook to disk
 workbook.save("output.xlsx");
 ```
 

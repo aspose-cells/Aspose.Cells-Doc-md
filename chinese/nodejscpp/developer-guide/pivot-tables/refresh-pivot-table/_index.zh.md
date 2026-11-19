@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for Node.js via C++ 中刷新数据透视表和数据透视缓存
-linktitle: 在 Aspose.Cells for Node.js via C++ 中刷新数据透视表和数据透视缓存
+linktitle: 刷新数据透视表
 description: 学习如何在 Aspose.Cells for Node.js via C++ 中使用 v26.7+ 的数据透视刷新 API 来刷新数据透视表，本文涵盖 refreshAll、refreshPivotTables、PivotCache.refresh、calculateData 和 getPivotTables，并附有实用的代码示例。
 keywords: Aspose.Cells, Node.js via C++, 数据透视表, 刷新, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

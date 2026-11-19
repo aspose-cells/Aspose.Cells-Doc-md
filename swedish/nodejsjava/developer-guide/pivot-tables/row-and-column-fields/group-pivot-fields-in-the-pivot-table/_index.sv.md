@@ -21,13 +21,13 @@ Den parameterlösa överlagringen `PivotField.group()` inspekterar fältets data
 ```javascript
 const AsposeCells = require("aspose.cells");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Öppna det andra kalkylbladet och dess pivottabell
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// Gruppera det första radfältet automatiskt.
-// Fältet innehåller datum, så det grupperas efter månader.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 let field = pt.getRowFields().get(0);
 field.group();
-// Beräkna pivottabellens data och spara utdatafilen
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputAutoGroupPivotField.xlsx");
 ```
@@ -63,21 +63,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-// Ladda exempelarbetsboken
+// Load the sample workbook
 const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Öppna det andra kalkylbladet och dess pivottabell
+// Access the second worksheet and its pivot table
 const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo är ett datafält: flytta det till radområdet först,
-// eftersom endast rad-/kolumnfält kan grupperas
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(AsposeCells.PivotFieldType.ROW, "FieldTwo");
 pt.calculateData();
-// Gruppera det numeriska fältet i intervallen 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 const options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Beräkna pivottabellens data och spara utdatafilen
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

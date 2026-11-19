@@ -34,30 +34,30 @@ const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
-// Passo 2: Scrivi i valori di esempio 5, -3, 8, -2, 6 nelle celle A1:E1
+// Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
 cells.get("A1").putValue(5);
 cells.get("B1").putValue(-3);
 cells.get("C1").putValue(8);
 cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
-// Passo 3: Costruisci un CellArea che punta alla cella di destinazione F1
+// Step 3: Build a CellArea pointing to destination cell F1
 let dest = new AsposeCells.CellArea();
-dest.StartColumn = 5;   // colonna F (indicizzata da 0)
+dest.StartColumn = 5;   // column F (0-indexed)
 dest.EndColumn = 5;
-dest.StartRow = 0;      // riga 1 (indicizzata da 0)
+dest.StartRow = 0;      // row 1 (0-indexed)
 dest.EndRow = 0;
-// Passo 4: Aggiungi una sparkline di tipo Linea da A1:E1 in F1
-// SparklineGroups.Add restituisce l'indice del gruppo appena aggiunto
+// Step 4: Add a Line sparkline from A1:E1 into F1
+// SparklineGroups.Add returns the index of the newly added group
 let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(index);
-// Passo 5: Crea un CellsColor rosso e assegnalo al colore della linea della sparkline
+// Step 5: Create a red CellsColor and assign it to the sparkline line color
 let red = workbook.createCellsColor();
 red.setColor(AsposeCells.Color.fromArgb(255, 0, 0));
 group.setSeriesColor(red);
-// Passo 6: Abilita i marcatori del punto alto e del punto basso
+// Step 6: Enable high-point and low-point markers
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
-// Passo 7: Salva la cartella di lavoro
+// Step 7: Save the workbook
 workbook.save("output_line.xlsx");
 ```
 
@@ -76,24 +76,24 @@ L'esempio seguente scrive i valori 5, -3, 8, -2, 6 in A1:E1 e visualizza una spa
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// Passo 2: Scrivi valori di esempio in A1:E1
+// Step 2: Write sample values into A1:E1
 let values = [5, -3, 8, -2, 6];
 for (let i = 0; i < values.length; i++) {
     worksheet.getCells().get(0, i).putValue(values[i]);
 }
-// Passo 3: Costruisci un CellArea che punta a F1 (indice colonna 5, indice riga 0)
+// Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 let dest = new AsposeCells.CellArea();
 dest.StartColumn = 5;
 dest.EndColumn = 5;
 dest.StartRow = 0;
 dest.EndRow = 0;
-// Passo 4: Aggiungi una sparkline di tipo Column alla cella di destinazione
+// Step 4: Add a Column sparkline to the destination cell
 let idx = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.COLUMN, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(idx);
-// Passo 5: Conferma il tipo di sparkline leggendo group.Type
+// Step 5: Confirm the sparkline type by reading group.Type
 console.log("Sparkline Type added: " + group.getType());
-// Passo 6: Salva la cartella di lavoro
+// Step 6: Save the workbook
 workbook.save("output_column.xlsx");
 console.log("Workbook saved as output_column.xlsx");
 ```
@@ -113,19 +113,19 @@ const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
-// Passaggio 2: Popola i dati di esempio nella riga 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
+// Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Passaggio 3: Crea un CellArea che punta a F1 (colonna 5, riga 0)
+// Step 3: Build a CellArea pointing to F1 (column 5, row 0)
 let dest = new AsposeCells.CellArea();
 dest.StartColumn = 5;   // F
 dest.EndColumn = 5;
-dest.StartRow = 0;      // riga 1
+dest.StartRow = 0;      // row 1
 dest.EndRow = 0;
-// Passaggio 4: Aggiungi uno sparkline Win/Loss (SparklineType.STACKED)
+// Step 4: Add a Win/Loss sparkline (SparklineType.STACKED)
 let groupIndex = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.STACKED,
     "A1:E1",
@@ -133,28 +133,28 @@ let groupIndex = worksheet.getSparklineGroups().add(
     dest
 );
 let group = worksheet.getSparklineGroups().get(groupIndex);
-// Passaggio 5: Personalizza il gruppo di sparkline
-// Abilita i marcatori dei punti alti e bassi
+// Step 5: Customize the sparkline group
+// Enable high-point and low-point markers
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
-// Imposta il colore dei punti alti su verde
+// Set the high-point color to green
 let highColor = workbook.createCellsColor();
 highColor.setColor(AsposeCells.Color.getGreen());
 group.setHighPointColor(highColor);
-// Imposta il colore dei punti bassi su rosso
+// Set the low-point color to red
 let lowColor = workbook.createCellsColor();
 lowColor.setColor(AsposeCells.Color.getRed());
 group.setLowPointColor(lowColor);
-// Imposta il colore dei punti negativi su arancione
+// Set the negative-point color to orange
 let negColor = workbook.createCellsColor();
 negColor.setColor(AsposeCells.Color.getOrange());
 group.setNegativePointsColor(negColor);
-// Imposta il colore predefinito della serie (usato per le barre positive)
+// Set the default series color (used for positive bars)
 let seriesColor = workbook.createCellsColor();
 seriesColor.setColor(AsposeCells.Color.getSteelBlue());
 group.setSeriesColor(seriesColor);
-// Passaggio 6: Salva la cartella di lavoro
+// Step 6: Save the workbook
 workbook.save("output_winloss.xlsx");
 console.log("Workbook saved successfully: output_winloss.xlsx");
 ```
@@ -166,13 +166,13 @@ L'esempio combinato seguente crea una singola cartella di lavoro, popola la riga
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// Passo 2: Popola i dati di esempio nella riga 1 (A1:E1)
+// Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// Passo 3: Aggiungi un gruppo di sparkline di tipo Linea in F1
+// Step 3: Add a Line sparkline group at F1
 let lineArea = new AsposeCells.CellArea();
 lineArea.StartColumn = 5;
 lineArea.EndColumn = 5;
@@ -180,11 +180,11 @@ lineArea.StartRow = 0;
 lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
-// Personalizza il colore della sparkline a linea tramite CellsColor
+// Customize the line sparkline color via CellsColor
 let lineColor = workbook.createCellsColor();
 lineColor.setColor(AsposeCells.Color.getBlue());
 lineGroup.setSeriesColor(lineColor);
-// Passo 4: Aggiungi un gruppo di sparkline di tipo Colonna in F2
+// Step 4: Add a Column sparkline group at F2
 let columnArea = new AsposeCells.CellArea();
 columnArea.StartColumn = 5;
 columnArea.EndColumn = 5;
@@ -192,11 +192,11 @@ columnArea.StartRow = 1;
 columnArea.EndRow = 1;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
-// Personalizza il colore della serie della sparkline a colonne
+// Customize the column sparkline series color
 let columnColor = workbook.createCellsColor();
 columnColor.setColor(AsposeCells.Color.getGreen());
 columnGroup.setSeriesColor(columnColor);
-// Passo 5: Aggiungi un gruppo di sparkline Win/Loss (In pila) in F3
+// Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 let stackedArea = new AsposeCells.CellArea();
 stackedArea.StartColumn = 5;
 stackedArea.EndColumn = 5;
@@ -204,11 +204,11 @@ stackedArea.StartRow = 2;
 stackedArea.EndRow = 2;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
-// Personalizza il colore della serie della sparkline win/loss
+// Customize the win/loss sparkline series color
 let stackedColor = workbook.createCellsColor();
 stackedColor.setColor(AsposeCells.Color.getDarkOrange());
 stackedGroup.setSeriesColor(stackedColor);
-// Passo 6: Salva la cartella di lavoro
+// Step 6: Save the workbook
 workbook.save("output_all.xlsx");
 ```
 

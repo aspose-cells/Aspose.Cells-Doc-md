@@ -1,8 +1,8 @@
 ---
 title: Filtrera pivottabeller efter etikett eller värde
-description: Aspose.Cells for C++ stöder omfattande filtreringsfunktioner för pivottabeller. Den här artikeln förklarar hur man filtrerar pivottabellsdata med etikettfilter, datumfilter, värdefilter, topp 10-filter och genom att dölja eller visa pivotobjekt.
 linktitle: Filtrera pivottabeller efter etikett eller värde
-keywords: Aspose.Cells, C++-bibliotek, kalkylblad, pivottabell, filter, etikettfilter, värdefilter, datumfilter, topp 10-filter, pivotobjekt, dölj pivotobjekt
+description: Aspose.Cells for C++ stöder omfattande filtreringsmöjligheter för pivottabeller. Den här artikeln förklarar hur du filtrerar pivottabelldata med etikettfilter, datumfilter, värdefilter och topp 10-filter, samt hur du döljer och visar pivotobjekt.
+keywords: Aspose.Cells, C++-bibliotek, kalkylblad, pivottabell, filter, etikettfilter, värdefilter, datumfilter, topp 10-filter, pivotobjekt, dölja pivotobjekt
 type: docs
 weight: 10
 url: /sv/cpp/filter-by-label-or-value-of-pivot-table/
@@ -11,23 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells erbjuder fem praktiska strategier för att filtrera data som visas i en pivottabell. Du kan tillämpa etikettfilter på textbaserade rad- eller kolumnfält, använda datumfilter när fältet endast innehåller datum- och tidsceller eller tomma celler, tillämpa värdefilter mot aggregerade tal, använda topp 10-filter för att rangordna efter ett värdefält, eller manuellt dölja och visa enskilda pivotobjekt med egenskapen `IsHidden`. Varje strategi exponeras genom dedikerade API:er i klasserna `PivotField` och `PivotItem`.
+Aspose.Cells erbjuder fem praktiska strategier för att filtrera de data som visas i en pivottabell. Du kan tillämpa etikettfilter på textbaserade rad- eller kolumnfält, använda datumfilter när fältet endast innehåller datum- och tidsvärden eller tomma celler, tillämpa värdefilter på aggregerade tal, använda topp 10-filter för att rangordna efter ett värdefält eller manuellt dölja och visa enskilda pivotobjekt med egenskapen `IsHidden`. Varje strategi är tillgänglig via dedikerade API:er på klasserna `PivotField` och `PivotItem`.
 {{% /alert %}}
 
 ## **Introduktion**
-Pivottabeller är kraftfulla analysverktyg, men råa sammanfattningar innehåller ofta betydligt mer information än vad du behöver presentera. Filtrering är den primära mekanismen för att begränsa en pivottabell till de rader, kolumner eller värden som är relevanta för en specifik rapport. Aspose.Cells for C++ speglar de filtreringsfunktioner som är tillgängliga i Microsoft Excel och exponerar dem programmatiskt så att rapportgenerering kan automatiseras fullständigt.
-Följande filtreringsstrategier behandlas i den här artikeln:
-1. **Etikettfilter** — filtrerar rad- eller kolumnfältsposter baserat på deras textetiketter.
-2. **Datumfilter** — filtrerar rad- eller kolumnfält som endast innehåller datum- och tidsvärden (eller tomma värden).
-3. **Värdefilter** — filtrerar poster baserat på de aggregerade värdena i ett datafält.
-4. **Topp 10-filter** — visar endast de N översta eller understa posterna rangordnade efter ett värdefält.
-5. **Dölj / visa pivotobjekt** — manuellt styr synligheten för varje enskild post i ett fält.
-Varje strategi använder en annan metod i klassen `PivotField` eller en egenskap i klassen `PivotItem`. Efter att ha tillämpat ett filter måste du anropa `RefreshData()` och `CalculateData()` på pivottabellen så att den cachade datan och de beräknade värdena återspeglar det nya filterläget.
+Pivottabeller är kraftfulla analysverktyg, men råa sammanställningar innehåller ofta mycket mer information än du behöver presentera. Filtrering är den primära mekanismen för att begränsa en pivottabell till de rader, kolumner eller värden som är relevanta för en viss rapport. Aspose.Cells for C++ motsvarar de filtreringsmöjligheter som finns i Microsoft Excel och gör dem tillgängliga programmatiskt, så att rapportgenereringen kan automatiseras fullständigt.
+De följande filtreringsstrategierna behandlas i den här artikeln:
+1. **Etikettfilter** – filtrerar objekt i ett rad- eller kolumnfält baserat på deras textetiketter.
+2. **Datumfilter** – filtrerar rad- eller kolumnfält som endast innehåller datum- och tidsvärden eller tomma celler.
+3. **Värdefilter** – filtrerar objekt baserat på de aggregerade värdena i ett datafält.
+4. **Topp 10-filter** – visar endast de N högsta eller lägsta objekten, rangordnade efter ett värdefält.
+5. **Dölja/visa pivotobjekt** – styr manuellt synligheten för varje enskilt objekt i ett fält.
+Varje tillvägagångssätt använder en annan metod på klassen `PivotField` eller en egenskap på klassen `PivotItem`. Efter att du har tillämpat ett filter måste du anropa `GetPivotCache().Refresh()` på pivottabellen, så att cagrad data och beräknade värden återspeglar det nya filterläget.
 
 ## **Etikettfilter**
-Ett etikettfilter låter dig filtrera posterna i ett rad- eller kolumnfält genom att jämföra deras textetiketter mot ett mönster. Detta är användbart när du vill visa endast produkter vars namn börjar med en specifik bokstav, innehåller ett visst ord eller uppfyller något annat etikettbaserat kriterium.
-Aspose.Cells exponerar etikettfiltrering genom metoden `PivotField.FilterByLabel(PivotFilterType, const char16_t*)`. Uppräkningen `PivotFilterType` innehåller värden som `CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank`, `CaptionIsBlank` och så vidare. Det andra argumentet anger etikettsträngen som används för jämförelse.
-Följande exempel läser in en arbetsbok som innehåller en befintlig pivottabell, tillämpar ett etikettfilter så att endast poster vars etiketter börjar med ett angivet prefix förblir synliga, uppdaterar pivottabellen och sparar resultatet.
+Ett etikettfilter gör det möjligt att filtrera objekten i ett rad- eller kolumnfält genom att jämföra deras textetiketter med ett mönster. Det är användbart när du endast vill visa produkter som har ett namn som börjar med en viss bokstav, innehåller ett visst ord eller uppfyller något annat etikettbaserat kriterium.
+Aspose.Cells exponerar etikettfiltrering via metoden `PivotField.FilterByLabel(PivotFilterType, const char16_t*)`. Enumerationen `PivotFilterType` innehåller värden som `CaptionBeginsWith`, `CaptionContains`, `CaptionEndsWith`, `CaptionDoesNotContain`, `CaptionIsNotBlank`, `CaptionIsBlank` med mera. Det andra argumentet anger den etikettsträng som används för jämförelsen.
+Det följande exemplet läser in en arbetsbok som innehåller en befintlig pivottabell, tillämpar ett etikettfilter så att endast objekt vars etiketter börjar med ett angivet prefix förblir synliga, uppdaterar pivottabellen och sparar resultatet.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -37,19 +37,19 @@ int main() {
     Aspose::Cells::Startup();
     U16String fileName(u"sample.xlsx");
     U16String prefix(u"B");
-    // Ladda den befintliga arbetsboken som innehåller en pivottabell
+    // Load the existing workbook containing a pivot table
     Workbook wb(fileName);
-    // Hämta kalkylbladet via index (första kalkylbladet)
+    // Access the worksheet by index (first worksheet)
     Worksheet ws = wb.GetWorksheets().Get(0);
-    // Hämta pivottabellen via index
+    // Access the pivot table by index
     PivotTable pt = ws.GetPivotTables().Get(0);
-    // Hämta det första radens PivotField
+    // Retrieve the first row PivotField
     PivotField rowField = pt.GetRowFields().Get(0);
-    // Tillämpa etikettfiltret – visa endast radobjekt vars etiketter börjar med det angivna prefixet
+    // Apply the label filter — show only row items whose labels begin with the supplied prefix
     rowField.FilterByLabel(PivotFilterType::CaptionBeginsWith, prefix, U16String(u""));
-    // Uppdatera och beräkna om pivottabellens data så att filtret träder i kraft
-    pt.RefreshData();
-    // Spara arbetsboken tillbaka till disk
+    // Refresh and recalculate the pivot table data so the filter takes effect
+    pt.GetPivotCache().Refresh();
+    // Save the workbook back to disk
     wb.Save(fileName);
     Aspose::Cells::Cleanup();
     return 0;
@@ -57,12 +57,12 @@ int main() {
 ```
 
 ## **Datumfilter**
-Datumfilter låter dig begränsa en pivottabell efter datumbaserade kriterier såsom idag, förra veckan, denna månad, nästa kvartal eller ett specifikt datumintervall. De är specialiserade filter som endast fungerar mot fält som lagrar datum- och tidsinformation.
+Datumfilter gör det möjligt att filtrera en pivottabell baserat på datumkriterier, till exempel i dag, förra veckan, den här månaden, nästa kvartal eller ett visst datumintervall. Det är specialiserade filter som endast fungerar för fält som lagrar datum- och tidsinformation.
 
 {{% alert color="primary" %}}
-Datumfiltret fungerar endast när rad- eller kolumnområdet endast innehåller datum- och tidsceller eller tomma värden. Om det underliggande fältet innehåller andra datatyper som tal eller text kommer datumfiltret inte att ge det förväntade resultatet. Se till att fältet är formaterat som ett datum och att alla värden är giltiga `DateTime`-instanser eller tomma celler innan du tillämpar detta filter.
-Aspose.Cells exponerar datumfiltrering genom metoden `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)`. Uppräkningen `PivotFilterType` innehåller dedikerade datumvärden som `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` och `Between`. Beroende på vald filtertyp skickar du ett eller två `DateTime`-värden (för `Between` skickar du start- och slutdatum).
-Följande exempel läser in en arbetsbok med en pivottabell vars radområde innehåller ett datumfält, tillämpar ett datumfilter som begränsar de synliga posterna till ett visst datumintervall, uppdaterar pivottabellen och sparar arbetsboken.
+Datumfiltret fungerar endast när rad- eller kolumnområdet endast innehåller celler med datum- och tidsvärden eller tomma celler. Om det underliggande fältet innehåller andra datatyper, till exempel tal eller text, ger datumfiltret inte det förväntade resultatet. Kontrollera att fältet är formaterat som datum och att varje cell antingen innehåller en giltig `DateTime`-instans eller är tom innan du tillämpar filtret.
+Aspose.Cells exponerar datumfiltrering via metoden `PivotField.FilterByDate(PivotFilterType, const Vector<DateTime>& values)`. Enumerationen `PivotFilterType` innehåller särskilda datumvärden som `Today`, `Yesterday`, `LastWeek`, `ThisWeek`, `NextWeek`, `LastMonth`, `ThisMonth`, `NextMonth`, `LastQuarter`, `ThisQuarter`, `NextQuarter`, `LastYear`, `ThisYear`, `NextYear` och `Between`. Beroende på den valda filtertypen anger du ett eller två `DateTime`-värden (för `Between` anger du start- och slutdatum).
+Det följande exemplet läser in en arbetsbok med en pivottabell vars radområde innehåller ett datumfält, tillämpar ett datumfilter som begränsar de objekt som visas till ett visst datumintervall, uppdaterar pivottabellen och sparar arbetsboken.
 {{% /alert %}}
 
 ```cpp
@@ -77,25 +77,26 @@ int main() {
     std::string outputPath = "output_filtered.xlsx";
     if (!std::filesystem::exists(inputPath))
     {
-        // Källarbetsboken hittades inte.
+        // Source workbook not found.
         Aspose::Cells::Cleanup();
         return -1;
     }
-    // Ladda den befintliga arbetsboken som innehåller pivottabellen
+    // Load the existing workbook that contains the pivot table
     Workbook workbook(U16String(inputPath.c_str()));
-    // Få åtkomst till kalkylbladet som innehåller pivottabellen (via index)
+    // Access the worksheet that holds the pivot table (by index)
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // Få åtkomst till pivottabellen via index
+    // Access the pivot table by index
     PivotTable pivotTable = worksheet.GetPivotTables().Get(0);
-    // Hämta datum-PivotField från radområdet
+    // Retrieve the date PivotField from the row area
     PivotField dateField = pivotTable.GetRowFields().Get(0);
-    // Definiera datumkriteriet för Between-filtret
+    // Define the date criterion for the Between filter
     Date startDate{2020, 1, 1, 0, 0, 0, 0};
     Date endDate{2020, 12, 31, 0, 0, 0, 0};
-    // Tillämpa datumfiltret på pivotfältet
+    // Apply the date filter on the pivot field
     dateField.FilterByDate(PivotFilterType::DateBetween, startDate, endDate);
-    // Uppdatera och beräkna om pivottabellen så att filtret träder i kraft
-    // Spara arbetsboken
+    // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
+    // Persist the workbook
     workbook.Save(U16String(outputPath.c_str()));
     Aspose::Cells::Cleanup();
     return 0;
@@ -103,9 +104,9 @@ int main() {
 ```
 
 ## **Värdefilter**
-Värdefilter arbetar på de aggregerade värden som en pivottabell beräknar i sitt dataområde. Istället för att matcha textetiketter jämför de numeriska totaler mot ett tröskelvärde. Typiska användningsfall inkluderar att visa endast produkter vars summa av försäljning överstiger ett målbelopp eller endast regioner vars antal transaktioner ligger inom ett intervall.
-Aspose.Cells exponerar värdefiltrering genom metoden `PivotField.FilterByValue(PivotField valueField, PivotFilterType filterType, const Vector<Variant>& values)`. Parametern `filterType` använder värden som `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual` och `ValueLessThanOrEqual`. Parametern `valueField` anger vilket datafält som ska utvärderas, och det sista argumentet (eller de sista argumenten) anger tröskelvärdet (eller tröskelvärdena).
-Följande exempel läser in en arbetsbok med en pivottabell, tillämpar ett värdefilter som endast behåller poster vars aggregerade försäljning överstiger ett numeriskt tröskelvärde, uppdaterar pivottabellen och sparar arbetsboken.
+Värdefilter fungerar på de aggregerade värden som en pivottabell beräknar i sitt dataområde. I stället för att matcha textetiketter jämför de numeriska summor med ett tröskelvärde. Typiska användningsfall är att endast visa produkter vars försäljningssumma överstiger ett målvärde eller endast regioner vars antal transaktioner ligger inom ett intervall.
+Aspose.Cells exponerar värdefiltrering via metoden `PivotField.FilterByValue(PivotField valueField, PivotFilterType filterType, const Vector<Variant>& values)`. Parametern `filterType` anger villkoret, till exempel `ValueGreaterThan`, `ValueLessThan`, `ValueBetween`, `ValueEqual`, `ValueNotEqual`, `ValueGreaterThanOrEqual` och `ValueLessThanOrEqual`. Parametern `valueField` anger vilket datafält som ska utvärderas, och de avslutande argumenten tillhandahåller tröskelvärdet eller tröskelvärdena.
+Det följande exemplet läser in en arbetsbok med en pivottabell, tillämpar ett värdefilter som endast behåller objekt vars aggregerade försäljningsvärden överstiger ett numeriskt tröskelvärde, uppdaterar pivottabellen och sparar arbetsboken.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -134,6 +135,8 @@ int main() {
     {
         rowField.FilterByValue(dataFieldIndex, PivotFilterType::ValueGreaterThan, 5000, DBL_MAX);
     }
+    // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     wb.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -141,12 +144,12 @@ int main() {
 ```
 
 ## **Topp 10-filter**
-Topp 10-filtret är en specialiserad form av värdefilter som endast behåller de N översta eller understa posterna baserat på ett valt värdefält. Det används ofta för rankningsrapporter som "topp 10 produkter efter intäkt" eller "botten 5 regioner efter antal försäljningar".
+Topp 10-filtret är en specialiserad form av värdefilter som endast behåller de N högsta eller lägsta objekten baserat på ett valt värdefält. Det används ofta för att skapa rangordningsrapporter, till exempel ”10 produkter med högst intäkt” eller ”5 regioner med lägst antal försäljningar”.
 
 {{% alert color="primary" %}}
-Topp 10-filtret är endast effektivt när pivottabellen har ett eller flera värdepivotfält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mått att rangordna posterna mot, och filtret kan inte tillämpas.
-Aspose.Cells exponerar Top 10-filtrering via metoden `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)`. Parametern `valueFieldIndex` är indexet för datafältet vars aggregerade värden rangordnar objekten, `type` väljer enheten för `itemCount` (`PivotFilterType::Count` behåller ett fast antal objekt, `PivotFilterType::Percent` behåller en procentandel av objekten så att `itemCount` är själva procenttalet), `isTop` anger om de översta objekten (true) eller de nedersta (false) behålls, och `itemCount` definierar hur många objekt, eller vilken procentandel, som behålls.
-Följande exempel läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att endast behålla de 10 översta posterna efter summa av försäljning, uppdaterar pivottabellen och sparar arbetsboken.
+Topp 10-filtret är endast effektivt när pivottabellen har ett eller flera värdefält i dataområdet. Utan minst ett värdefält finns det inget aggregerat mätvärde att rangordna objekten efter, och filtret kan inte tillämpas.
+Aspose.Cells exponerar topp 10-filtrering via metoden `PivotField.FilterTop10(int32_t valueFieldIndex, PivotFilterType type, bool isTop, int32_t itemCount)`. Parametern `valueFieldIndex` är indexet för datafältet vars aggregerade värden används för att rangordna objekten. Parametern `type` väljer enheten för `itemCount` (`PivotFilterType::Count` behåller ett bestämt antal objekt, `PivotFilterType::Percent` behåller en procentandel av objekten, så att `itemCount` då anger procenten), `isTop` anger om de högsta objekten (true) eller de lägsta objekten (false) ska behållas, och `itemCount` anger hur många objekt, eller vilken procentandel, som ska behållas.
+Det följande exemplet läser in en arbetsbok med en pivottabell som innehåller ett värdefält, tillämpar ett topp 10-filter för att endast behålla de 10 högsta objekten baserat på summan av försäljningen, uppdaterar pivottabellen och sparar arbetsboken.
 {{% /alert %}}
 
 ```cpp
@@ -168,6 +171,8 @@ int main() {
     PivotField rowField = pivotTable.GetRowFields().Get(0);
     int valueFieldIndex = 0;
     rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
+    // Refresh the pivot table data and recalculate it so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     workbook.Save(outputPath);
     Aspose::Cells::Cleanup();
     return 0;
@@ -175,8 +180,8 @@ int main() {
 ```
 
 ## **Filtrera genom att dölja eller visa pivotobjekt**
-Utöver de strukturerade filter-API:erna låter Aspose.Cells dig styra synligheten för varje enskilt pivotobjekt direkt. Genom att iterera genom samlingen `PivotItems` i ett `PivotField` och växla egenskapen `IsHidden` kan du selektivt utelämna specifika poster utan att tillämpa ett formelbaserat filter. Att sätta `IsHidden = true` döljer posten från pivottabellen; att sätta `IsHidden = false` visar den igen och gör den synlig.
-Detta tillvägagångssätt är användbart när filtreringsregeln är oregelbunden eller postspecifik, till exempel att dölja ett litet antal namngivna kategorier som inte ska visas i en viss rapport. Exemplet nedan läser in en pivottabell, döljer en specifik post efter namn, visar hur man visar den igen, uppdaterar pivottabellen och sparar arbetsboken.
+Utöver de strukturerade filter-API:erna kan du med Aspose.Cells direkt styra synligheten för varje enskilt pivotobjekt. Genom att iterera över samlingen `PivotItems` i ett `PivotField` och ändra värdet på egenskapen `IsHidden` kan du dölja specifika objekt utan att tillämpa ett formelbaserat filter. Att ange `IsHidden = true` döljer objektet i pivottabellen, medan `IsHidden = false` gör det synligt igen.
+Det här tillvägagångssättet är användbart när filterregeln är oregelbunden eller objektspecifik, till exempel när ett litet antal namngivna kategorier som inte ska visas i en viss rapport ska döljas. Exemplet nedan läser in en pivottabell, döljer ett specifikt objekt efter namn, demonstrerar hur det visas igen, uppdaterar pivottabellen och sparar arbetsboken.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -185,36 +190,36 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Ladda en befintlig arbetsbok som innehåller en pivottabell
+    // Load an existing workbook containing a pivot table
     Workbook workbook(u"pivot_table_sample.xlsx");
-    // Öppna det första kalkylbladet som innehåller pivottabellen
+    // Access the first worksheet which contains the pivot table
     Worksheet sheet = workbook.GetWorksheets().Get(0);
-    // Öppna pivottabellen via index (den första pivottabellen på arket)
+    // Access the pivot table by index (the first pivot table on the sheet)
     PivotTable pivotTable = sheet.GetPivotTables().Get(0);
-    // Hämta målets PivotField (det första radetikettfältet där vi kommer att dölja/visa objekt)
+    // Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
     PivotField pivotField = pivotTable.GetRowFields().Get(0);
-    // Iterera genom PivotItems-samlingen för det valda PivotField
+    // Iterate through the PivotItems collection of the selected PivotField
     int itemCount = pivotField.GetPivotItems().GetCount();
     for (int i = 0; i < itemCount; i++)
     {
         PivotItem item = pivotField.GetPivotItems().Get(i);
         U16String name = item.GetName();
         std::string nameStr = name.ToUtf8();
-        // Dölj pivotobjekt som matchar ett specifikt namn/kriterium
+        // Hide pivot items that match a specific name/criterion
         if (nameStr == "Item1" || nameStr == "Item2")
         {
             item.SetIsHidden(true);
         }
-        // Demonstrera att visa igen: visa ett tidigare dolt pivotobjekt
+        // Demonstrate unhiding: re-show a previously hidden pivot item
         if (nameStr == "Item3")
         {
             item.SetIsHidden(false);
         }
     }
-    // Uppdatera och beräkna om pivottabellen så att ändringarna träder i kraft
-    pivotTable.CalculateData();
-    // Spara arbetsboken — dolda objekt finns kvar i underliggande data
-    // men är exkluderade från den visade pivottabellens utdata
+    // Refresh and recalculate the pivot table so changes take effect
+    pivotTable.GetPivotCache().Refresh();
+    // Save the workbook — hidden items stay in the underlying data
+    // but are excluded from the displayed pivot table output
     workbook.Save(u"output_pivot_filtered.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -222,6 +227,13 @@ int main() {
 ```
 
 ## **Sammanfattning**
-Aspose.Cells for C++ erbjuder en komplett uppsättning filtreringsfunktioner för pivottabeller som matchar de som finns i Microsoft Excel. Etikett-, datum- och värdefilter täcker de vanligaste analysscenarierna, medan topp 10-filtret hanterar rankningsrapporter. När filtreringsregeln är oregelbunden erbjuder egenskapen `PivotItem.IsHidden` ett flexibelt, postnivå-reservalternativ. Genom att kombinera dessa strategier — till exempel genom att tillämpa ett etikettfilter och sedan dölja specifika poster — kan du bygga exakt riktade pivottabellsrapporter helt från kod.
+Aspose.Cells for C++ erbjuder en fullständig uppsättning av filtreringsmöjligheter för pivottabeller som motsvarar filtreringsmöjligheterna i Microsoft Excel. Etikett-, datum- och värdefilter täcker de vanligaste analysscenarierna, medan topp 10-filtret används för rangordningsrapporter. När filterregeln är oregelbunden erbjuder egenskapen `PivotItem.IsHidden` ett flexibelt alternativ på objektnivå. Genom att kombinera dessa strategier – till exempel genom att tillämpa ett etikettfilter och sedan dölja specifika objekt – kan du skapa pivottabellrapporter med exakt avgränsat innehåll, helt och hållet med kod.
+
+## Relaterade artiklar
+- [Infoga pivottabell](/cells/sv/cpp/create-pivot-table/)
+- [Lägg till rad- och kolumnfält för pivottabell i Aspose.Cells for C++](/cells/sv/cpp/pivot-table-add-row-and-column-fields/)
+- [Lägg till filterfält i en pivottabell i Aspose.Cells for C++](/cells/sv/cpp/add-page-field-in-pivot-table/)
+- [Hantera värdefält för pivottabell i Aspose.Cells for C++](/cells/sv/cpp/manage-value-fields/)
+- [Uppdatera pivottabeller och pivotcachar i Aspose.Cells for C++](/cells/sv/cpp/refresh-pivot-table/)
 
 {{< app/cells/assistant language="cpp" >}}

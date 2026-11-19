@@ -1,6 +1,6 @@
 ---
 title: Visa eller filtrera topp 10 i pivottabell
-linktitle: Visa eller filtrera topp 10 i pivottabell
+linktitle: Visa eller filtrera topp 10
 description: Lär dig hur du endast visar de högst eller lägst rangordnade objekten i ett pivotfält i Aspose.Cells for Java. Den här artikeln beskriver metoden Top10AutoShow för Excel 97-2003, hur du läser alternativ med Top10AutoShowSettings och filtret Topp 10 för Excel 2007-365 via FilterTop10.
 keywords: Aspose.Cells, Java, pivottabell, topp 10, automatisk visning, top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, filterTop10, PivotFilterType, PivotField
 type: docs
@@ -50,7 +50,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// Visa de 2 högsta objekten rankade efter "Summa av försäljning" (datafältindex 0)
+// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sportField.top10AutoShow(true, true, 2, 0);
 pivotTable.calculateData();
 workbook.save("output-top10-by-value-field.xlsx");
@@ -83,7 +83,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// Visa de 3 lägsta objekten rankade efter fältet självt (rankBy = -1)
+// Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sportField.top10AutoShow(true, false, 3, -1);
 pivotTable.calculateData();
 workbook.save("output-top10-by-field-itself.xlsx");
@@ -144,9 +144,9 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// Top 10-filter - behåll de 2 bästa objekten baserat på "Sum of Sales" (index 0 för datafältet)
+// Top 10 Filter - keep the top 2 items by "Sum of Sales" (data field index 0)
 sportField.filterTop10(0, PivotFilterType.COUNT, true, 2);
-// För ett procentbaserat filter behålls i stället de översta 30 procenten av objekten:
+// For a percentage-based filter instead, keep the top 30 percent of the items:
 // sportField.filterTop10(0, PivotFilterType.PERCENT, true, 30);
 pivotTable.getPivotCache().refresh();
 pivotTable.calculateData();

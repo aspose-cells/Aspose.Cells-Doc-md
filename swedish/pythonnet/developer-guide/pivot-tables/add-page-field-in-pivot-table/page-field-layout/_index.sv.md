@@ -49,68 +49,68 @@ workbook = ac.Workbook()
 worksheets = workbook.worksheets
 pivot_data_sheet = worksheets.add("PivotData")
 pivot_data_cells = pivot_data_sheet.cells
-# Rubriker (rad 0)
+# Headers (row 0)
 pivot_data_cells.get(0, 0).put_value("Fruit")
 pivot_data_cells.get(0, 1).put_value("Year")
 pivot_data_cells.get(0, 2).put_value("Region")
 pivot_data_cells.get(0, 3).put_value("Amount")
-# Rad 1: Apple, 2022, North, 150
+# Row 1: Apple, 2022, North, 150
 pivot_data_cells.get(1, 0).put_value("Apple")
 pivot_data_cells.get(1, 1).put_value(2022)
 pivot_data_cells.get(1, 2).put_value("North")
 pivot_data_cells.get(1, 3).put_value(150)
-# Rad 2: Apple, 2023, North, 180
+# Row 2: Apple, 2023, North, 180
 pivot_data_cells.get(2, 0).put_value("Apple")
 pivot_data_cells.get(2, 1).put_value(2023)
 pivot_data_cells.get(2, 2).put_value("North")
 pivot_data_cells.get(2, 3).put_value(180)
-# Rad 3: Banana, 2022, South, 120
+# Row 3: Banana, 2022, South, 120
 pivot_data_cells.get(3, 0).put_value("Banana")
 pivot_data_cells.get(3, 1).put_value(2022)
 pivot_data_cells.get(3, 2).put_value("South")
 pivot_data_cells.get(3, 3).put_value(120)
-# Rad 4: Banana, 2023, South, 140
+# Row 4: Banana, 2023, South, 140
 pivot_data_cells.get(4, 0).put_value("Banana")
 pivot_data_cells.get(4, 1).put_value(2023)
 pivot_data_cells.get(4, 2).put_value("South")
 pivot_data_cells.get(4, 3).put_value(140)
-# Rad 5: Cherry, 2022, East, 200
+# Row 5: Cherry, 2022, East, 200
 pivot_data_cells.get(5, 0).put_value("Cherry")
 pivot_data_cells.get(5, 1).put_value(2022)
 pivot_data_cells.get(5, 2).put_value("East")
 pivot_data_cells.get(5, 3).put_value(200)
-# Rad 6: Cherry, 2023, East, 220
+# Row 6: Cherry, 2023, East, 220
 pivot_data_cells.get(6, 0).put_value("Cherry")
 pivot_data_cells.get(6, 1).put_value(2023)
 pivot_data_cells.get(6, 2).put_value("East")
 pivot_data_cells.get(6, 3).put_value(220)
-# Rad 7: Grape, 2022, West, 90
+# Row 7: Grape, 2022, West, 90
 pivot_data_cells.get(7, 0).put_value("Grape")
 pivot_data_cells.get(7, 1).put_value(2022)
 pivot_data_cells.get(7, 2).put_value("West")
 pivot_data_cells.get(7, 3).put_value(90)
-# Rad 8: Grape, 2023, West, 110
+# Row 8: Grape, 2023, West, 110
 pivot_data_cells.get(8, 0).put_value("Grape")
 pivot_data_cells.get(8, 1).put_value(2023)
 pivot_data_cells.get(8, 2).put_value("West")
 pivot_data_cells.get(8, 3).put_value(110)
-# Lägg till bladet PivotTableReport
+# Add PivotTableReport sheet
 pivot_table_sheet = worksheets.add("PivotTableReport")
 pivot_tables = pivot_table_sheet.pivot_tables
-# Skapa pivottabell med källa från PivotData!A1:D9 placerad vid A1 på PivotTableReport
+# Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
 pivot_table = pivot_tables.add("PivotData!A1:D9", 0, 0)
-# Lägg till fält
+# Add fields
 pivot_table.add_field_to_area(PivotFieldType.ROW, 0)   # Fruit
 pivot_table.add_field_to_area(PivotFieldType.PAGE, 1)  # Year
 pivot_table.add_field_to_area(PivotFieldType.PAGE, 2)  # Region
 pivot_table.add_field_to_area(PivotFieldType.DATA, 3)  # Amount
 pivot_table.data_fields[0].function = ac.ConsolidationFunction.SUM
-# Konfigurera layout för sidfältsområde: placera sidfält först horisontellt, radbryt efter varannan
+# Configure page field area layout: place page fields across first, wrap after every 2
 pivot_table.page_field_order = ac.PrintOrderType.OVER_THEN_DOWN
 pivot_table.page_field_wrap_count = 2
-# Uppdatera och beräkna
+# Refresh and calculate
 pivot_table.calculate_data()
-# Spara
+# Save
 workbook.save(os.path.join(data_dir, "pageFieldLayout_overThenDown.xlsx"))
 ```
 

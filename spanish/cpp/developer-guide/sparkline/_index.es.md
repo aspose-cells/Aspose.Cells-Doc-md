@@ -34,33 +34,33 @@ El siguiente ejemplo crea un libro, escribe los valores 5, -3, 8, -2, 6 en las c
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Paso 1: Crear un Workbook y obtener la primera hoja de trabajo
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // Paso 2: Escribir los valores de muestra 5, -3, 8, -2, 6 en las celdas A1:E1
+    // Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
     cells.Get(u"A1").PutValue(5);
     cells.Get(u"B1").PutValue(-3);
     cells.Get(u"C1").PutValue(8);
     cells.Get(u"D1").PutValue(-2);
     cells.Get(u"E1").PutValue(6);
-    // Paso 3: Construir un CellArea que apunte a la celda de destino F1
+    // Step 3: Build a CellArea pointing to destination cell F1
     CellArea dest;
-    dest.StartColumn = 5;   // columna F (índice 0)
+    dest.StartColumn = 5;   // column F (0-indexed)
     dest.EndColumn = 5;
-    dest.StartRow = 0;      // fila 1 (índice 0)
+    dest.StartRow = 0;      // row 1 (0-indexed)
     dest.EndRow = 0;
-    // Paso 4: Agregar un minigráfico de tipo Line desde A1:E1 en F1
+    // Step 4: Add a Line sparkline from A1:E1 into F1
     int index = worksheet.GetSparklineGroups().Add(SparklineType::Line, u"A1:E1", false, dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(index);
-    // Paso 5: Crear un CellsColor rojo y asignarlo al color de la línea del minigráfico
+    // Step 5: Create a red CellsColor and assign it to the sparkline line color
     CellsColor red = workbook.CreateCellsColor();
     red.SetColor(Color::Red());
     group.SetSeriesColor(red);
-    // Paso 6: Habilitar los marcadores de punto alto y punto bajo
+    // Step 6: Enable high-point and low-point markers
     group.SetShowHighPoint(true);
     group.SetShowLowPoint(true);
-    // Paso 7: Guardar el workbook
+    // Step 7: Save the workbook
     workbook.Save(u"output_line.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -84,28 +84,28 @@ El siguiente ejemplo escribe los valores 5, -3, 8, -2, 6 en A1:E1 y dibuja una s
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Paso 1: Crear un Workbook y obtener la primera hoja de cálculo
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
-    // Paso 2: Escribir valores de muestra en A1:E1
+    // Step 2: Write sample values into A1:E1
     int values[5] = { 5, -3, 8, -2, 6 };
     Cells cells = worksheet.GetCells();
     for (int i = 0; i < 5; i++) {
         cells.Get(0, i).PutValue(values[i]);
     }
-    // Paso 3: Construir un CellArea apuntando a F1 (índice de columna 5, índice de fila 0)
+    // Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
     CellArea dest;
     dest.StartColumn = 5;
     dest.EndColumn = 5;
     dest.StartRow = 0;
     dest.EndRow = 0;
-    // Paso 4: Agregar un minigráfico de columna a la celda de destino
+    // Step 4: Add a Column sparkline to the destination cell
     int idx = worksheet.GetSparklineGroups().Add(
         SparklineType::Column, u"A1:E1", false, dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(idx);
-    // Paso 5: Confirmar el tipo de minigráfico leyendo group.Type
+    // Step 5: Confirm the sparkline type by reading group.Type
     std::cout << "Sparkline Type added: " << static_cast<int>(group.GetType()) << std::endl;
-    // Paso 6: Guardar el libro de trabajo
+    // Step 6: Save the workbook
     wb.Save(u"output_column.xlsx");
     std::cout << "Workbook saved as output_column.xlsx" << std::endl;
     Aspose::Cells::Cleanup();
@@ -129,51 +129,51 @@ En Aspose.Cells, una sparkline de ganar/perder se crea pasando `SparklineType.St
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Paso 1: Crear un Workbook y obtener la primera hoja de cálculo
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(u"WinLoss");
-    // Paso 2: Poblar datos de muestra en la fila 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
+    // Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
     worksheet.GetCells().Get(u"A1").PutValue(5);
     worksheet.GetCells().Get(u"B1").PutValue(-3);
     worksheet.GetCells().Get(u"C1").PutValue(8);
     worksheet.GetCells().Get(u"D1").PutValue(-2);
     worksheet.GetCells().Get(u"E1").PutValue(6);
-    // Paso 3: Construir un CellArea que apunte a F1 (columna 5, fila 0)
+    // Step 3: Build a CellArea pointing to F1 (column 5, row 0)
     CellArea dest;
     dest.StartColumn = 5;   // F
     dest.EndColumn = 5;
-    dest.StartRow = 0;      // fila 1
+    dest.StartRow = 0;      // row 1
     dest.EndRow = 0;
-    // Paso 4: Agregar un minigráfico Win/Loss (SparklineType.Stacked)
+    // Step 4: Add a Win/Loss sparkline (SparklineType.Stacked)
     int groupIndex = worksheet.GetSparklineGroups().Add(
         SparklineType::Stacked,
         u"A1:E1",
         false,
         dest);
     SparklineGroup group = worksheet.GetSparklineGroups().Get(groupIndex);
-    // Paso 5: Personalizar el grupo de minigráficos
-    // Habilitar marcadores de punto alto y punto bajo
+    // Step 5: Customize the sparkline group
+    // Enable high-point and low-point markers
     group.SetShowHighPoint(true);
     group.SetShowLowPoint(true);
     group.SetShowNegativePoints(true);
-    // Establecer el color del punto alto en verde
+    // Set the high-point color to green
     CellsColor highColor = workbook.CreateCellsColor();
     highColor.SetColor(Color::Green());
     group.SetHighPointColor(highColor);
-    // Establecer el color del punto bajo en rojo
+    // Set the low-point color to red
     CellsColor lowColor = workbook.CreateCellsColor();
     lowColor.SetColor(Color::Red());
     group.SetLowPointColor(lowColor);
-    // Establecer el color del punto negativo en naranja
+    // Set the negative-point color to orange
     CellsColor negColor = workbook.CreateCellsColor();
     negColor.SetColor(Color::Orange());
     group.SetNegativePointsColor(negColor);
-    // Establecer el color predeterminado de la serie (usado para barras positivas)
+    // Set the default series color (used for positive bars)
     CellsColor seriesColor = workbook.CreateCellsColor();
     seriesColor.SetColor(Color::SteelBlue());
     group.SetSeriesColor(seriesColor);
-    // Paso 6: Guardar el libro de trabajo
+    // Step 6: Save the workbook
     workbook.Save(u"output_winloss.xlsx");
     std::cout << "Workbook saved successfully: output_winloss.xlsx" << std::endl;
     Aspose::Cells::Cleanup();
@@ -189,16 +189,16 @@ El siguiente ejemplo combinado crea un único libro, rellena la fila 1 con los v
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Paso 1: Crear un Workbook y obtener la primera hoja de cálculo
+    // Step 1: Create a Workbook and get the first worksheet
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // Paso 2: Poblar datos de muestra en la fila 1 (A1:E1)
+    // Step 2: Populate sample data in row 1 (A1:E1)
     worksheet.GetCells().Get(u"A1").PutValue(5);
     worksheet.GetCells().Get(u"B1").PutValue(-3);
     worksheet.GetCells().Get(u"C1").PutValue(8);
     worksheet.GetCells().Get(u"D1").PutValue(-2);
     worksheet.GetCells().Get(u"E1").PutValue(6);
-    // Paso 3: Agregar un grupo de minigráficos de línea en F1
+    // Step 3: Add a Line sparkline group at F1
     CellArea lineArea;
     lineArea.StartColumn = 5;
     lineArea.EndColumn = 5;
@@ -206,11 +206,11 @@ int main() {
     lineArea.EndRow = 0;
     int lineIdx = worksheet.GetSparklineGroups().Add(SparklineType::Line, u"A1:E1", false, lineArea);
     SparklineGroup lineGroup = worksheet.GetSparklineGroups().Get(lineIdx);
-    // Personalizar el color del minigráfico de línea mediante CellsColor
+    // Customize the line sparkline color via CellsColor
     CellsColor lineColor = workbook.CreateCellsColor();
     lineColor.SetColor(Color::Blue());
     lineGroup.SetSeriesColor(lineColor);
-    // Paso 4: Agregar un grupo de minigráficos de columna en F2
+    // Step 4: Add a Column sparkline group at F2
     CellArea columnArea;
     columnArea.StartColumn = 5;
     columnArea.EndColumn = 5;
@@ -218,11 +218,11 @@ int main() {
     columnArea.EndRow = 1;
     int columnIdx = worksheet.GetSparklineGroups().Add(SparklineType::Column, u"A1:E1", false, columnArea);
     SparklineGroup columnGroup = worksheet.GetSparklineGroups().Get(columnIdx);
-    // Personalizar el color de la serie del minigráfico de columna
+    // Customize the column sparkline series color
     CellsColor columnColor = workbook.CreateCellsColor();
     columnColor.SetColor(Color::Green());
     columnGroup.SetSeriesColor(columnColor);
-    // Paso 5: Agregar un grupo de minigráficos de Ganancia/Pérdida (Apilados) en F3
+    // Step 5: Add a Win/Loss (Stacked) sparkline group at F3
     CellArea stackedArea;
     stackedArea.StartColumn = 5;
     stackedArea.EndColumn = 5;
@@ -230,11 +230,11 @@ int main() {
     stackedArea.EndRow = 2;
     int stackedIdx = worksheet.GetSparklineGroups().Add(SparklineType::Stacked, u"A1:E1", false, stackedArea);
     SparklineGroup stackedGroup = worksheet.GetSparklineGroups().Get(stackedIdx);
-    // Personalizar el color de la serie del minigráfico de ganancia/pérdida
+    // Customize the win/loss sparkline series color
     CellsColor stackedColor = workbook.CreateCellsColor();
     stackedColor.SetColor(Color::FromArgb(0xFF8C00));
     stackedGroup.SetSeriesColor(stackedColor);
-    // Paso 6: Guardar el libro
+    // Step 6: Save the workbook
     workbook.Save(u"output_all.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

@@ -1,6 +1,6 @@
 ---
 title: Schützen und Schutz mit Go aufheben
-linktitle: Schützen und Schutz mit Go aufheben
+linktitle: Verschlüsselung und Schutz
 description: Dieses Beispiel zeigt, wie Sie mit Go-Code Excel-Dateien verschlüsseln und entschlüsseln sowie Daten in Excel-Dateien schützen und den Schutz aufheben.
 keywords: Aspose.Cells, Go über C++, verschlüsseln, entschlüsseln, Kennwort, schützen, Schutz aufheben, Arbeitsmappenschutz, Arbeitsblattschutz, gemeinsam genutzte Arbeitsmappe, Go
 type: docs

@@ -30,15 +30,15 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Yeni bir çalışma kitabı oluştur
+// Create a new workbook
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
 worksheet.Name = "Data";
-// Başlık satırını ayarla
+// Set up the header row
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// 9 satır örnek veri doldur: Meyve, Yıl, Miktar
+// Populate 9 rows of sample data: Fruit, Year, Amount
 object[,] data = new object[,]
 {
     { "apple", 2020, 100 },
@@ -57,15 +57,15 @@ for (int i = 0; i < data.GetLength(0); i++)
     worksheet.Cells[i + 1, 1].PutValue(data[i, 1]);
     worksheet.Cells[i + 1, 2].PutValue(data[i, 2]);
 }
-// E3 hücresine bağlı bir özet tablo ekle
+// Add a pivot table anchored at cell E3
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
-// Alanları kendi alanlarına ekle: Meyve Satır olarak, Miktar Veri olarak, Yıl Sayfa alanı olarak
+// Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// Özet tablo verilerini yenile ve hesapla
+// Refresh and calculate the pivot table data
 pivotTable.CalculateData();
-// Çalışma kitabını kaydet
+// Save the workbook
 workbook.Save("pageFieldSample.xlsx");
 ```
 
@@ -76,18 +76,19 @@ Zaten bir `PivotField` örneğiyle çalışırken, onu doğrudan `PivotTable.Pag
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// — Pivot tablosu ve sayfa alanı tam olarak Senaryo 1a'daki gibi oluşturulur
-//   (Meyve/Yıl/Tutar verileri, pivot E3'te, Meyve→Satır, Tutar→Veri).
-//   Aşağıda Yıl PivotField'ını BaseFields koleksiyonundan alıp
-//   PageFields.Add'a geçiriyoruz — AddFieldToArea'nın düşük seviyeli
-//   alternatifidir. Sonuç, Senaryo 1a ile işlevsel olarak aynıdır.
+// — The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+//   Amount→Data). Below we obtain the Year PivotField from the
+//   BaseFields collection and pass it to PageFields.Add — the
+//   low-level alternative to AddFieldToArea. The result is
+//   functionally identical to Scenario 1a.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-// Başlıklar
+// Headers
 sheet.Cells["A1"].PutValue("Fruit");
 sheet.Cells["B1"].PutValue("Year");
 sheet.Cells["C1"].PutValue("Amount");
-// Örnek veri (9 satır)
+// Sample data (9 rows)
 sheet.Cells["A2"].PutValue("apple");    sheet.Cells["B2"].PutValue("2020"); sheet.Cells["C2"].PutValue(100);
 sheet.Cells["A3"].PutValue("apple");    sheet.Cells["B3"].PutValue("2021"); sheet.Cells["C3"].PutValue(150);
 sheet.Cells["A4"].PutValue("apple");    sheet.Cells["B4"].PutValue("2022"); sheet.Cells["C4"].PutValue(200);
@@ -97,16 +98,16 @@ sheet.Cells["A7"].PutValue("grape");    sheet.Cells["B7"].PutValue("2022"); shee
 sheet.Cells["A8"].PutValue("blueberry"); sheet.Cells["B8"].PutValue("2020"); sheet.Cells["C8"].PutValue(250);
 sheet.Cells["A9"].PutValue("blueberry"); sheet.Cells["B9"].PutValue("2021"); sheet.Cells["C9"].PutValue(350);
 sheet.Cells["A10"].PutValue("blueberry");sheet.Cells["B10"].PutValue("2022"); sheet.Cells["C10"].PutValue(450);
-// A1:C10 aralığını kapsayacak şekilde E3'e pivot tablo ekle
+// Add pivot table at E3 covering A1:C10
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
-// Meyve -> Satır, Tutar -> Veri (Yıl aşağıda Sayfa'ya gidecek)
+// Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// Düşük seviyeli yaklaşım: mevcut Yıl PivotField'ını BaseFields'dan alın
-// ve PageFields.Add(PivotField) aracılığıyla Sayfa alanına kaydedin.
+// Low-level approach: grab the existing Year PivotField from BaseFields
+// and register it in the Page area via PageFields.Add(PivotField).
 PivotField yearField = pivotTable.BaseFields["Year"];
 pivotTable.PageFields.Add(yearField);
-// Yeni sayfa alanının kaydedilen çalışma kitabına yansıtılması için yenileyin
+// Refresh so the new page field is reflected in the saved workbook
 pivotTable.CalculateData();
 workbook.Save("output.xlsx");
 ```
@@ -125,10 +126,10 @@ class Program
 {
     static void Main()
     {
-        // Yeni bir çalışma kitabı oluştur
+        // Create a new workbook
         Workbook workbook = new Workbook();
         Worksheet sheet = workbook.Worksheets[0];
-        // Fruit/Year/Amount verilerini doldur
+        // Populate Fruit/Year/Amount data
         sheet.Cells["A1"].PutValue("Fruit");
         sheet.Cells["B1"].PutValue("Year");
         sheet.Cells["C1"].PutValue("Amount");
@@ -148,17 +149,17 @@ class Program
                 sheet.Cells[r + 1, c].PutValue(data[r, c]);
             }
         }
-        // E3 konumunda pivot tablo oluştur
+        // Create pivot table at E3
         var pivotTables = sheet.PivotTables;
         PivotTable pivotTable = pivotTables.Add("=A1:C7", 2, 4);
-        // Pivot alanlarını yapılandır: Fruit→Satır, Amount→Veri, Year→Sayfa
+        // Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
         pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
         pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
         pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
         pivotTable.CalculateData();
-        // Sayfa filtresini temizle, böylece sayfa alanındaki her öğe görünür olsun.
-        // 0x7FFD (ondalık 32765), "tüm öğeler" anlamına gelen özel sentinel değeridir —
-        // Excel'in sayfa alanı açılır menüsünde "(Tümü)" seçmeye eşdeğerdir.
+        // Clear the page filter so every item in the page field is visible.
+        // 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+        // equivalent to selecting "(All)" in Excel's page-field dropdown.
         pivotTable.PageFields[0].CurrentPageItem = 0x7FFD;
         workbook.Save("output.xlsx");
     }
@@ -172,11 +173,11 @@ class Program
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// Çalışma kitabı oluştur
+// Create workbook
 var workbook = new Workbook();
 var sheet = workbook.Worksheets[0];
 var cells = sheet.Cells;
-// Örnek veri ekle (Meyve/Yıl/Tutar)
+// Add sample data (Fruit/Year/Amount)
 cells["A1"].PutValue("Fruit");
 cells["B1"].PutValue("Year");
 cells["C1"].PutValue("Amount");
@@ -192,16 +193,16 @@ cells["C4"].PutValue("200");
 cells["A5"].PutValue("Banana");
 cells["B5"].PutValue("2021");
 cells["C5"].PutValue("250");
-// E3'e pivot tablo ekle
+// Add pivot table at E3
 var pivotTables = sheet.PivotTables;
 var pivotTable = pivotTables.Add("A1:C5", 2, 4);
-// Alanları ekle: Meyve→Satır, Tutar→Veri, Yıl→Sayfa
+// Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// Sayfa alanına özel işlemler
-pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = sıralı düzende ikinci öğe (ör. "2021")
-// Pivot tabloyu yenile ve hesapla
+// Page-field-specific operations
+pivotTable.PageFields[0].CurrentPageItem = 1; // 1 = second item in sorted order (e.g. "2021")
+// Refresh and calculate pivot table
 pivotTable.CalculateData();
 workbook.Save("output.xlsx");
 ```
@@ -214,14 +215,14 @@ Aşağıdaki kod, Senaryo 1a'da oluşturulan aynı Year filtre alanında çoklu 
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// — Pivot tablosu ve sayfa alanı tam olarak şu şekilde oluşturulur
-//   Senaryo 1a'da olduğu gibi (Fruit/Year/Amount verileri, E3'te pivot, Fruit→Satır,
-//   Amount→Veri, Year→Sayfa AddFieldToArea aracılığıyla).
-//   Aşağıda sayfa alanına çoklu seçim filtreleme uyguluyoruz.
+// — The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+//   Amount→Data, Year→Page via AddFieldToArea).
+//   Below we apply multi-select filtering on the page field.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 Cells cells = sheet.Cells;
-// Örnek veri: Fruit | Year | Amount
+// Sample data: Fruit | Year | Amount
 cells[0, 0].PutValue("Fruit");
 cells[0, 1].PutValue("Year");
 cells[0, 2].PutValue("Amount");
@@ -249,15 +250,15 @@ PivotTable pivotTable = pivots.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.AddFieldToArea(PivotFieldType.Page, "Year");
-// — Sayfa alanında çoklu seçimi etkinleştir
+// — Enable multi-select on the page field
 pivotTable.PageFields[0].IsMultipleItemSelectionAllowed = true;
-// Bölüm A — TÜM öğeleri seç (her öğeyi görünür yap)
+// Part A — select ALL items (make every item visible)
 PivotItemCollection pivotItems = pivotTable.PageFields[0].PivotItems;
 for (int i = 0; i < pivotItems.Count; i++)
 {
     pivotItems[i].IsHidden = false;
 }
-// Bölüm B — yalnızca kaynak değere göre belirli öğeleri seç
+// Part B — select only specific items by source value
 for (int i = 0; i < pivotItems.Count; i++)
 {
     switch (pivotItems[i].GetStringValue())

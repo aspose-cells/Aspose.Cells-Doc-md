@@ -217,24 +217,24 @@ CSE‑array‑formler är det klassiska Excel‑sättet att utvärdera ett `TRAN
                 if (!file) {
                     throw new Error("Please select an XLSX workbook.");
                 }
-                // Läs in källarboken med xlsx LoadOptions
+                // Load the source workbook with xlsx LoadOptions
                 const loadOptions = new LoadOptions(AsposeCells.LoadFormat.Xlsx);
                 const workbook = new Workbook(
                     new Uint8Array(await file.arrayBuffer()),
                     loadOptions
                 );
-                // Åtkomst till det första kalkylbladet och dess Cells-samling
+                // Access the first worksheet and its Cells collection
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // Ställ in den klassiska CSE-arrayformeln på cell A6.
-                // Formeln =TRANSPOSE(A1:D5) roterar det 5-rader x 4-kolumners källintervallet
-                // till en 4-rader x 5-kolumners array. Det andra argumentet (4) är antalet rader
-                // och det tredje argumentet (5) är antalet kolumner i den resulterande arrayen.
-                // Aspose.Cells skriver CSE-arrayformel-markören så att Excel utvärderar den som
-                // en enda flercellsarrayformel, kompatibel med äldre Excel-versioner
-                // (2019, 2016, 2013 osv.) som inte stöder dynamisk array-spillning.
+                // Set the classic CSE array formula on cell A6.
+                // The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+                // into a 4-row x 5-column array. The second argument (4) is the number of rows
+                // and the third argument (5) is the number of columns of the resulting array.
+                // Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+                // a single multi-cell array formula, compatible with older Excel versions
+                // (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
                 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-                // Spara arbetsboken så att arrayformel-markören bevaras
+                // Save the workbook so the array-formula marker is persisted
                 const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
                 const blob = new Blob([outputData], {
                     type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"

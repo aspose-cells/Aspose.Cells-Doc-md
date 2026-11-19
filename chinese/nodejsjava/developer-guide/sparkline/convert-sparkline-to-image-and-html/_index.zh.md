@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for Node.js via Java 中将迷你图转换为图片和 HTML
-linktitle: 在 Aspose.Cells for Node.js via Java 中将迷你图转换为图片和 HTML
+linktitle: 将迷你图转换为图像和HTML
 description: 了解如何使用 HtmlSaveOptions 将 Aspose.Cells 迷你图渲染为独立图片以嵌入单元格，以及将包含迷你图的工作表导出为 HTML。
 keywords: Aspose.Cells, Node.js via Java, 迷你图, Sparkline.toImage, Cell.EmbeddedImage, HtmlSaveOptions, 渲染迷你图, 将迷你图转换为图片, 将迷你图导出为 HTML
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via .NET 中的 Excel 照相机
-linktitle: Aspose.Cells for Python via .NET 中的 Excel 照相机
+linktitle: Excel 相机
 description: 了解如何在 Aspose.Cells for Python via .NET 中使用 Excel 照相机，创建链接到单元格区域的动态图片，该图片会随源数据刷新并保留所有源格式。
 keywords: Aspose.Cells, Python, Excel 照相机, 动态图片, 链接图片, Picture.Formula, UpdateSelectedValue, CreateRange, ToImage, BytesIO
 type: docs
@@ -56,7 +56,7 @@ from aspose.cells import Workbook, SaveFormat
 workbook = Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "CameraDemo"
-# 静态相机：构建 Range，渲染为字节，包装在 BytesIO 中，添加为图片
+# Static Camera: build Range, render to bytes, wrap in BytesIO, add as picture
 range_ = worksheet.cells.create_range("A1:F10")
 pictures = worksheet.pictures
 pictures.add(10, 6, BytesIO(range_.to_image(None)))

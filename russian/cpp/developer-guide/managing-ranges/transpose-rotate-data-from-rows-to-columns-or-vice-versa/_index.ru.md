@@ -122,21 +122,21 @@ int main() {
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Загрузить исходную книгу с помощью LoadOptions для xlsx
+    // Load the source workbook with xlsx LoadOptions
     std::string srcFile = "source.xlsx";
     Workbook workbook(U16String(srcFile.c_str()), LoadOptions(LoadFormat::Xlsx));
-    // Получить доступ к первому листу и его коллекции Cells
+    // Access the first worksheet and its Cells collection
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // Установить классическую формулу массива CSE в ячейке A6.
-    // Формула =TRANSPOSE(A1:D5) транспонирует исходный диапазон из 5 строк и 4 столбцов
-    // в массив из 4 строк и 5 столбцов. Второй аргумент (4) задаёт количество строк,
-    // а третий аргумент (5) — количество столбцов результирующего массива.
-    // Aspose.Cells записывает маркер формулы массива CSE, чтобы Excel вычислял её как
-    // единую многоячеечную формулу массива, совместимую со старыми версиями Excel
-    // (2019, 2016, 2013 и т. д.), которые не поддерживают динамическое распространение массивов.
+    // Set the classic CSE array formula on cell A6.
+    // The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+    // into a 4-row x 5-column array. The second argument (4) is the number of rows
+    // and the third argument (5) is the number of columns of the resulting array.
+    // Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+    // a single multi-cell array formula, compatible with older Excel versions
+    // (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
     cells.Get(u"A6").SetArrayFormula(u"=TRANSPOSE(A1:D5)", 4, 5);
-    // Сохранить книгу, чтобы маркер формулы массива был записан в файл
+    // Save the workbook so the array-formula marker is persisted
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

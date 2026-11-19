@@ -101,26 +101,26 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType
-# ステップ 1: Workbook を作成し、最初のワークシートを取得します
+# Step 1: Create a Workbook and get the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# ステップ 2: サンプル値を A1:E1 に書き込みます
+# Step 2: Write sample values into A1:E1
 values = [5, -3, 8, -2, 6]
 for i in range(len(values)):
     worksheet.getCells().get(0, i).putValue(values[i])
-# ステップ 3: F1 (列インデックス 5、行インデックス 0) を指す CellArea を作成します
+# Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 dest = CellArea()
 dest.StartColumn = 5
 dest.EndColumn = 5
 dest.StartRow = 0
 dest.EndRow = 0
-# ステップ 4: コピー先のセルに Column スパークラインを追加します
+# Step 4: Add a Column sparkline to the destination cell
 idx = worksheet.getSparklineGroups().add(
     SparklineType.COLUMN, "A1:E1", False, dest)
 group = worksheet.getSparklineGroups().get(idx)
-# ステップ 5: group.Type を読み取ってスパークラインのタイプを確認します
+# Step 5: Confirm the sparkline type by reading group.Type
 print("Sparkline Type added: " + str(group.getType()))
-# ステップ 6: ワークブックを保存します
+# Step 6: Save the workbook
 workbook.save("output_column.xlsx")
 print("Workbook saved as output_column.xlsx")
 jpype.shutdownJVM()

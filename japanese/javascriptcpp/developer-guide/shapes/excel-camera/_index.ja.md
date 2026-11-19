@@ -54,7 +54,7 @@ Excel カメラは、本質的には、ワークシートの描画レイヤー�
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // ダイナミックカメラ：空の画像を追加し、FormulaでA1:F10にリンクしてから更新する
+            // Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
             const pictures = worksheet.pictures;
             const index = pictures.add(10, 6, null);
             const picture = pictures.get(0);
@@ -109,7 +109,7 @@ Excel カメラは、本質的には、ワークシートの描画レイヤー�
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // 静的カメラ: Range を構築し、バイト列にレンダリングして、MemoryStream でラップし、画像として追加
+            // Static Camera: build Range, render to bytes, wrap in MemoryStream, add as picture
             const range = worksheet.cells.createRange("A1:F10");
             const imageData = range.toImage();
             const pictures = worksheet.pictures;

@@ -1,6 +1,6 @@
 ---
 title: Gruppera pivotfält i pivottabellen
-linktitle: Gruppera pivotfält i pivottabellen
+linktitle: Gruppera pivotfält
 description: Lär dig hur du grupperar rad- och kolumn-pivotfält i en pivottabell till datumperioder som månader och kvartal samt numeriska intervall med hjälp av PivotField.Group och PivotFieldGroupOptions i Aspose.Cells for C++.
 keywords: Aspose.Cells, pivottabell, gruppera pivotfält, PivotField.Group, PivotFieldGroupOptions, datumgruppering, talgruppering, månader, kvartal, numeriskt intervall, C++
 type: docs
@@ -49,24 +49,24 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Ladda in exempelarbetsboken
+    // Load the sample workbook
     Workbook wb(u"sampleGroupPivotFieldsInPivotTable.xlsx");
-    // Kom åt det andra kalkylbladet och dess pivottabell
+    // Access the second worksheet and its pivot table
     Worksheet ws = wb.GetWorksheets().Get(1);
     PivotTable pt = ws.GetPivotTables().Get(0);
-    // Gruppera det första radfältet (ett datumfält) efter månader och kvartal
+    // Group the first row field (a date field) by months and quarters
     PivotFieldGroupOptions options;
     Date startDate{2008, 1, 1, 0, 0, 0, 0};
     Date endDate{2008, 9, 5, 0, 0, 0, 0};
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
-    // Ställ in grupptyper: Månader och Kvartal
+    // Set group types: Months and Quarters
     Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
-    // Tillämpa gruppering på det första radfältet
+    // Apply grouping to the first row field
     PivotField rowField = pt.GetRowFields().Get(0);
     rowField.Group(options);
-    // Beräkna pivottabellsdata och spara utdatafilen
+    // Calculate the pivot table data and save the output file
     pt.CalculateData();
     wb.Save(u"outputGroupPivotFieldsInPivotTable.xlsx");
     Aspose::Cells::Cleanup();

@@ -1,6 +1,6 @@
 ---
 title: Werte anzeigen als in Pivot-Tabelle
-linktitle: Werte anzeigen als in Pivot-Tabelle
+linktitle: Werte anzeigen als
 description: Zeigt Pivot-Tabellendatenfeldwerte als Prozentsatz des Gesamtergebnisses, als Unterschied zu einem Basiselement, laufende Summen, Ranglisten und mehr mit Aspose.Cells for Go via C++.
 keywords: Aspose.Cells for Go via C++, Pivot-Tabelle, Werte anzeigen als, Datenanzeigeformat, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex, C++
 type: docs

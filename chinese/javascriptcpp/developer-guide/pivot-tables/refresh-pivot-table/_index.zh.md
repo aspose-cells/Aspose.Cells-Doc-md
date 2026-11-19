@@ -1,6 +1,6 @@
 ---
 title: 使用 Aspose.Cells for JavaScript via C++ 刷新数据透视表和数据透视缓存
-linktitle: 使用 Aspose.Cells for JavaScript via C++ 刷新数据透视表和数据透视缓存
+linktitle: 刷新数据透视表
 description: 了解如何使用 v26.7+ 数据透视表刷新 API，通过 Aspose.Cells for JavaScript via C++ 刷新数据透视表。本文介绍 workbook.refreshAll、worksheet.refreshPivotTables、pivotCache.refresh、pivotTable.calculateData 和 pivotCache.getPivotTables，并提供实用代码示例。
 keywords: Aspose.Cells, JavaScript via C++, 数据透视表, 刷新, PivotCache, calculateData, refreshAll, refreshPivotTables, getPivotTables, v26.7
 type: docs
@@ -114,15 +114,15 @@ Aspose.Cells 提供分层刷新 API，可在四个不同层级重新加载数据
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // 创建一个新的工作簿
+            // Create a new workbook
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // 将标题行写入 A1:C1 单元格
+            // Write header row into cells A1:C1
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // 将数据行写入 A2:C9 单元格（包含 2020 年和 2021 年的 8 行水果数据）
+            // Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
             cells.get("A2").value = "grape";
             cells.get("B2").value = 2020;
             cells.get("C2").value = 50;
@@ -147,19 +147,19 @@ Aspose.Cells 提供分层刷新 API，可在四个不同层级重新加载数据
             cells.get("A9").value = "cherry";
             cells.get("B9").value = 2021;
             cells.get("C9").value = 120;
-            // 添加数据透视表：源范围为 "A1:C9"，目标单元格为 "E3"
+            // Add a pivot table: source range "A1:C9", destination cell "E3"
             const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
-            // 分配数据透视字段：将 Fruit 放置在行区域，将 Year 放置在列区域，将 Amount 放置在数据区域
+            // Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // 修改源数据中的若干 Amount 值以模拟变化
+            // Modify several Amount values in the source data to simulate changes
             cells.get("C2").value = 55;
             cells.get("C5").value = 85;
             cells.get("C9").value = 125;
-            // 刷新工作簿中的所有数据透视表/数据透视缓存
+            // Refresh every pivot table / pivot cache in the workbook
             workbook.refreshAll();
-            // 保存工作簿
+            // Save the workbook
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -285,11 +285,11 @@ Aspose.Cells 提供分层刷新 API，可在四个不同层级重新加载数据
                 const workbook = new Workbook();
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // 写入 Fruit / Year / Amount 标题行
+                // Write Fruit / Year / Amount header row
                 cells.get("A1").value = "Fruit";
                 cells.get("B1").value = "Year";
                 cells.get("C1").value = "Amount";
-                // 写入 8 行数据（第 2-9 行，符合源范围 A1:C9）
+                // Write 8 data rows (rows 2-9, fitting the source range A1:C9)
                 cells.get("A2").value = "Grape";
                 cells.get("B2").value = 2020;
                 cells.get("C2").value = 100;
@@ -314,20 +314,21 @@ Aspose.Cells 提供分层刷新 API，可在四个不同层级重新加载数据
                 cells.get("A9").value = "Cherry";
                 cells.get("B9").value = 2021;
                 cells.get("C9").value = 450;
-                // 添加数据透视表，放置在目标单元格 E3，数据源为 A1:C9
+                // Add a pivot table placed at destination cell E3, sourcing from A1:C9
                 const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
-                // 分配字段：将 Fruit 分配到行，Year 分配到列，Amount 分配到数据区域
+                // Assign fields: Fruit to Row, Year to Column, Amount to Data
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-                // 修改视图/布局属性——这是仅影响呈现的更改，
-                // 因此不需要通过 PivotCache.Refresh() 重新读取源数据。
+                // Modify a view/layout property — this is a presentation-only change,
+                // so it does NOT require re-reading the source data through PivotCache.Refresh().
                 pivotTable.refreshDataOnOpeningFile = false;
-                // CalculateData() 根据 PivotCache 中已保存的数据重新呈现此数据透视表的显示效果（数据和样式）。
-                // 由于源数据未发生变化，因此不会往返访问数据源——仅将缓存值重新计算
-                // 到工作表单元格中。
+                // CalculateData() re-renders THIS pivot table's display (data + style) from the
+                // data already held in the PivotCache. Because the source data did not change,
+                // no round-trip to the source is performed — only the cached values are recalculated
+                // into worksheet cells.
                 pivotTable.calculateData();
-                // 将工作簿保存到磁盘
+                // Save the workbook to disk
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById("downloadLink");

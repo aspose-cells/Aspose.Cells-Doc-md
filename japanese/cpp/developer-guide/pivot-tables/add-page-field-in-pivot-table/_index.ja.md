@@ -28,16 +28,16 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // 新しいワークブックを作成します
+    // Create a new workbook
     Workbook workbook;
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     worksheet.SetName(u"Data");
     Cells cells = worksheet.GetCells();
-    // ヘッダー行を設定します
+    // Set up the header row
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
-    // 9行のサンプルデータ（Fruit、Year、Amount）を入力します
+    // Populate 9 rows of sample data: Fruit, Year, Amount
     const char* fruits[] = { "apple", "banana", "apple", "grape", "orange", "banana", "grape", "apple", "orange" };
     int years[]   = { 2020, 2021, 2021, 2020, 2022, 2020, 2021, 2022, 2021 };
     int amounts[] = { 100, 200, 150, 120, 180, 90, 130, 170, 110 };
@@ -47,15 +47,15 @@ int main() {
         cells.Get(i + 1, 1).PutValue(years[i]);
         cells.Get(i + 1, 2).PutValue(amounts[i]);
     }
-    // セル E3 を基準位置としてピボットテーブルを追加します
+    // Add a pivot table anchored at cell E3
     PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:C10", 2, 4);
-    // フィールドを各領域に追加します：Fruitを行、Amountをデータ、Yearをページフィールドとして指定します
+    // Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
-    // ピボットテーブルのデータを更新して計算します
+    // Refresh and calculate the pivot table data
     pivotTable.CalculateData();
-    // ワークブックを保存します
+    // Save the workbook
     workbook.Save(u"pageFieldSample.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -75,11 +75,11 @@ int main() {
     Workbook workbook;
     Worksheet sheet = workbook.GetWorksheets().Get(0);
     Cells cells = sheet.GetCells();
-    // ヘッダー
+    // Headers
     cells.Get(u"A1").PutValue(u"Fruit");
     cells.Get(u"B1").PutValue(u"Year");
     cells.Get(u"C1").PutValue(u"Amount");
-    // サンプルデータ（9行）
+    // Sample data (9 rows)
     cells.Get(u"A2").PutValue(u"apple");     cells.Get(u"B2").PutValue(u"2020"); cells.Get(u"C2").PutValue(100);
     cells.Get(u"A3").PutValue(u"apple");     cells.Get(u"B3").PutValue(u"2021"); cells.Get(u"C3").PutValue(150);
     cells.Get(u"A4").PutValue(u"apple");     cells.Get(u"B4").PutValue(u"2022"); cells.Get(u"C4").PutValue(200);
@@ -89,15 +89,15 @@ int main() {
     cells.Get(u"A8").PutValue(u"blueberry"); cells.Get(u"B8").PutValue(u"2020"); cells.Get(u"C8").PutValue(250);
     cells.Get(u"A9").PutValue(u"blueberry"); cells.Get(u"B9").PutValue(u"2021"); cells.Get(u"C9").PutValue(350);
     cells.Get(u"A10").PutValue(u"blueberry");cells.Get(u"B10").PutValue(u"2022");cells.Get(u"C10").PutValue(450);
-    // E3にA1:C10を範囲とするピボットテーブルを追加
+    // Add pivot table at E3 covering A1:C10
     PivotTableCollection pivotTables = sheet.GetPivotTables();
     int pivotIndex = pivotTables.Add(U16String(u"A1:C10"), U16String(u"E3"), U16String(u"PivotTable1"));
     PivotTable pivotTable = pivotTables.Get(pivotIndex);
-    // 果物 -> 行、金額 -> データ
+    // Fruit -> Row, Amount -> Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, U16String(u"Fruit"));
     pivotTable.AddFieldToArea(PivotFieldType::Data, U16String(u"Amount"));
-    // 低レベルアプローチ：BaseFields内の既存のYear PivotFieldを検索し、
-    // PageFields.Add(PivotField)を使用してページ領域に登録する。
+    // Low-level approach: locate the existing Year PivotField in BaseFields
+    // and register it in the Page area via PageFields.Add(PivotField).
     PivotFieldCollection baseFields = pivotTable.GetBaseFields();
     int baseFieldCount = baseFields.GetCount();
     for (int i = 0; i < baseFieldCount; ++i) {
@@ -107,7 +107,7 @@ int main() {
             break;
         }
     }
-    // 新しいページフィールドが保存されたワークブックに反映されるように更新する
+    // Refresh so the new page field is reflected in the saved workbook
     pivotTable.CalculateData();
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
@@ -209,7 +209,7 @@ int main() {
     Workbook workbook;
     Worksheet sheet = workbook.GetWorksheets().Get(0);
     Cells cells = sheet.GetCells();
-    // サンプルデータ: 果物 | 年 | 数量
+    // Sample data: Fruit | Year | Amount
     cells.Get(0, 0).PutValue(u"Fruit");
     cells.Get(0, 1).PutValue(u"Year");
     cells.Get(0, 2).PutValue(u"Amount");
@@ -235,15 +235,15 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Fruit");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Amount");
     pivotTable.AddFieldToArea(PivotFieldType::Page, u"Year");
-    // — ページフィールドで複数選択を有効にする
+    // — Enable multi-select on the page field
     pivotTable.GetPageFields().Get(0).SetIsMultipleItemSelectionAllowed(true);
-    // パート A — すべての項目を選択する（すべての項目を表示可能にする）
+    // Part A — select ALL items (make every item visible)
     PivotItemCollection pivotItems = pivotTable.GetPageFields().Get(0).GetPivotItems();
     int itemCount = pivotItems.GetCount();
     for (int i = 0; i < itemCount; i++) {
         pivotItems.Get(i).SetIsHidden(false);
     }
-    // パート B — ソース値に基づいて特定の項目だけを選択する
+    // Part B — select only specific items by source value
     for (int i = 0; i < itemCount; i++) {
         U16String val = pivotItems.Get(i).GetStringValue();
         std::string s = val.ToUtf8();

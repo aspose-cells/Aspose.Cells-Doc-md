@@ -48,68 +48,68 @@ Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.Worksheets;
 Worksheet pivotDataSheet = worksheets.Add("PivotData");
 Cells pivotDataCells = pivotDataSheet.Cells;
-// ヘッダー (行 0)
+// Headers (row 0)
 pivotDataCells[0, 0].PutValue("Fruit");
 pivotDataCells[0, 1].PutValue("Year");
 pivotDataCells[0, 2].PutValue("Region");
 pivotDataCells[0, 3].PutValue("Amount");
-// 行 1: Apple, 2022, North, 150
+// Row 1: Apple, 2022, North, 150
 pivotDataCells[1, 0].PutValue("Apple");
 pivotDataCells[1, 1].PutValue(2022);
 pivotDataCells[1, 2].PutValue("North");
 pivotDataCells[1, 3].PutValue(150);
-// 行 2: Apple, 2023, North, 180
+// Row 2: Apple, 2023, North, 180
 pivotDataCells[2, 0].PutValue("Apple");
 pivotDataCells[2, 1].PutValue(2023);
 pivotDataCells[2, 2].PutValue("North");
 pivotDataCells[2, 3].PutValue(180);
-// 行 3: Banana, 2022, South, 120
+// Row 3: Banana, 2022, South, 120
 pivotDataCells[3, 0].PutValue("Banana");
 pivotDataCells[3, 1].PutValue(2022);
 pivotDataCells[3, 2].PutValue("South");
 pivotDataCells[3, 3].PutValue(120);
-// 行 4: Banana, 2023, South, 140
+// Row 4: Banana, 2023, South, 140
 pivotDataCells[4, 0].PutValue("Banana");
 pivotDataCells[4, 1].PutValue(2023);
 pivotDataCells[4, 2].PutValue("South");
 pivotDataCells[4, 3].PutValue(140);
-// 行 5: Cherry, 2022, East, 200
+// Row 5: Cherry, 2022, East, 200
 pivotDataCells[5, 0].PutValue("Cherry");
 pivotDataCells[5, 1].PutValue(2022);
 pivotDataCells[5, 2].PutValue("East");
 pivotDataCells[5, 3].PutValue(200);
-// 行 6: Cherry, 2023, East, 220
+// Row 6: Cherry, 2023, East, 220
 pivotDataCells[6, 0].PutValue("Cherry");
 pivotDataCells[6, 1].PutValue(2023);
 pivotDataCells[6, 2].PutValue("East");
 pivotDataCells[6, 3].PutValue(220);
-// 行 7: Grape, 2022, West, 90
+// Row 7: Grape, 2022, West, 90
 pivotDataCells[7, 0].PutValue("Grape");
 pivotDataCells[7, 1].PutValue(2022);
 pivotDataCells[7, 2].PutValue("West");
 pivotDataCells[7, 3].PutValue(90);
-// 行 8: Grape, 2023, West, 110
+// Row 8: Grape, 2023, West, 110
 pivotDataCells[8, 0].PutValue("Grape");
 pivotDataCells[8, 1].PutValue(2023);
 pivotDataCells[8, 2].PutValue("West");
 pivotDataCells[8, 3].PutValue(110);
-// PivotTableReport シートを追加
+// Add PivotTableReport sheet
 Worksheet pivotTableSheet = worksheets.Add("PivotTableReport");
 PivotTableCollection pivotTables = pivotTableSheet.PivotTables;
-// PivotData!A1:D9 をソースとし、PivotTableReport の A1 に配置されるピボットテーブルを作成
+// Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
 PivotTable pivotTable = pivotTables.Add("PivotData!A1:D9", 0, 0);
-// フィールドを追加
+// Add fields
 pivotTable.AddFieldToArea(PivotFieldType.Row, 0);   // Fruit
 pivotTable.AddFieldToArea(PivotFieldType.Page, 1);  // Year
 pivotTable.AddFieldToArea(PivotFieldType.Page, 2);  // Region
 pivotTable.AddFieldToArea(PivotFieldType.Data, 3);  // Amount
 pivotTable.DataFields[0].Function = ConsolidationFunction.Sum;
-// ページフィールド領域のレイアウトを設定: ページフィールドを最初に横に配置し、2つごとに改行する
+// Configure page field area layout: place page fields across first, wrap after every 2
 pivotTable.PageFieldOrder = PrintOrderType.OverThenDown;
 pivotTable.PageFieldWrapCount = 2;
-// 更新と計算
+// Refresh and calculate
 pivotTable.CalculateData();
-// 保存
+// Save
 workbook.Save(Path.Combine(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 ```
 

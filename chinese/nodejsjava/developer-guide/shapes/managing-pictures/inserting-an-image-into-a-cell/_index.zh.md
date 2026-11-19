@@ -91,16 +91,16 @@ const AsposeCells = require("aspose.cells");
 const fs = require("fs");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
-// 获取目标单元格 C6
+// Get the target cell C6
 var cell = worksheet.getCells().get("C6");
-// 将图片文件读取为字节数组
+// Read the image file into a byte array
 var imageData = fs.readFileSync("logo.png");
-// 将图片直接嵌入到单元格中
+// Embed the image directly into the cell
 cell.setEmbeddedImage(imageData);
-// 可选地调整行高和列宽，使嵌入的图片更明显
-worksheet.getCells().setColumnWidth(2, 30);   // 列 C（索引 2）
-worksheet.getCells().setRowHeight(5, 100);     // 第 6 行（索引 5）
-// 将生成的工作簿保存为 .xlsx 文件
+// Optionally adjust row height and column width so the embedded image is more visible
+worksheet.getCells().setColumnWidth(2, 30);   // Column C (index 2)
+worksheet.getCells().setRowHeight(5, 100);     // Row 6 (index 5)
+// Save the resulting workbook as an .xlsx file
 workbook.save("output.xlsx", AsposeCells.SaveFormat.XLSX);
 ```
 

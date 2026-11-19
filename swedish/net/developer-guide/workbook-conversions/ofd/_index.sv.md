@@ -1,7 +1,7 @@
 ---
 title: Konvertera Excel till OFD-format
 description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylbladsfiler som stöder konvertering av Excel-arbetsböcker till OFD-format (Open Fixed-layout Document). Den här artikeln visar hur man skapar Excel-innehåll och exporterar det som OFD, samt hur man konverterar befintliga Excel-filer till OFD med Aspose.Cells.
-linktitle: Konvertera Excel till OFD-format
+linktitle: OFD
 keywords: Aspose.Cells, .NET-bibliotek, kalkylblad, Excel till OFD, OFD-konvertering, SaveFormat.Ofd, dokument med fast layout, arbetsboksexport
 type: docs
 weight: 195
@@ -33,25 +33,25 @@ using System;
 using Aspose.Cells;
 using System.Drawing;
 string dataDir = "C:\\Temp\\";
-// Skapa en ny arbetsbok
+// Create a new Workbook
 Workbook workbook = new Workbook();
-// Hämta det första kalkylbladet
+// Obtain the first worksheet
 Worksheet worksheet = workbook.Worksheets[0];
-// Ställ in kolumnbredder
+// Set column widths
 worksheet.Cells.SetColumnWidth(0, 5);
 worksheet.Cells.SetColumnWidth(1, 35);
 worksheet.Cells.SetColumnWidth(2, 12);
 worksheet.Cells.SetColumnWidth(3, 15);
 worksheet.Cells.SetColumnWidth(4, 15);
 worksheet.Cells.SetColumnWidth(5, 5);
-// Infoga företagslogotyp
+// Insert company logo
 worksheet.Pictures.Add(1, 1, dataDir + "logo.png");
-// Företagsnamn och kontaktuppgifter
+// Company name and contact details
 worksheet.Cells["B3"].PutValue("Acme Corporation");
 worksheet.Cells["B4"].PutValue("123 Business Street");
 worksheet.Cells["B5"].PutValue("City, State 12345");
 worksheet.Cells["B6"].PutValue("Phone: (555) 123-4567");
-// FAKTURA-titel - sammanfoga celler
+// INVOICE title - merge cells
 worksheet.Cells.Merge(7, 1, 2, 4);
 Cell titleCell = worksheet.Cells["B8"];
 titleCell.PutValue("INVOICE");
@@ -60,17 +60,17 @@ titleStyle.Font.IsBold = true;
 titleStyle.Font.Size = 20;
 titleStyle.HorizontalAlignment = TextAlignmentType.Center;
 titleCell.SetStyle(titleStyle);
-// Fakturanummer och datum
+// Invoice number and date
 worksheet.Cells["B11"].PutValue("Invoice Number:");
 worksheet.Cells["C11"].PutValue("INV-2024-001");
 worksheet.Cells["B12"].PutValue("Date:");
 worksheet.Cells["C12"].PutValue(DateTime.Now.ToString("yyyy-MM-dd"));
-// Faktura till-sektion
+// Bill-to section
 worksheet.Cells["B14"].PutValue("Bill To:");
 worksheet.Cells["B15"].PutValue("Client Name");
 worksheet.Cells["B16"].PutValue("Client Address");
 worksheet.Cells["B17"].PutValue("Client City, State");
-// Rubrik för radartiklar
+// Line items header
 Cell headerDesc = worksheet.Cells["B19"];
 Cell headerQty = worksheet.Cells["C19"];
 Cell headerPrice = worksheet.Cells["D19"];
@@ -93,20 +93,20 @@ headerDesc.SetStyle(headerStyle);
 headerQty.SetStyle(headerStyle);
 headerPrice.SetStyle(headerStyle);
 headerTotal.SetStyle(headerStyle);
-// Valutastil med kanter
+// Currency style with borders
 Style currencyStyle = workbook.CreateStyle();
 currencyStyle.Custom = "\"$\"#,##0.00";
 currencyStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
 currencyStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-// Enkel kantstil för beskrivnings-/kvantitetsceller
+// Plain border style for description/quantity cells
 Style borderStyle = workbook.CreateStyle();
 borderStyle.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
 borderStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
-// Rader för radartiklar
+// Line items rows
 object[,] lineItems = new object[,] {
     {"Product A - Widget", 2, 50.00},
     {"Product B - Gadget", 3, 75.00},
@@ -128,7 +128,7 @@ for (int i = 0; i < lineItems.GetLength(0); i++)
     priceCell.SetStyle(currencyStyle);
     totalCell.SetStyle(currencyStyle);
 }
-// Delsumma, skatt, totalsumma
+// Subtotal, tax, grand total
 worksheet.Cells["B24"].PutValue("Subtotal:");
 Cell subtotalCell = worksheet.Cells["E24"];
 subtotalCell.Formula = "SUM(E21:E23)";
@@ -138,20 +138,20 @@ taxCell.Formula = "E24*0.1";
 worksheet.Cells["B26"].PutValue("Grand Total:");
 Cell grandTotalCell = worksheet.Cells["E26"];
 grandTotalCell.Formula = "E24+E25";
-// Fetstil + valutastil för totalvärden
+// Bold + currency style for total values
 Style totalStyle = workbook.CreateStyle();
 totalStyle.Font.IsBold = true;
 totalStyle.Custom = "\"$\"#,##0.00";
 subtotalCell.SetStyle(totalStyle);
 taxCell.SetStyle(totalStyle);
 grandTotalCell.SetStyle(totalStyle);
-// Fetstil för totaletiketter
+// Bold style for total labels
 Style boldStyle = workbook.CreateStyle();
 boldStyle.Font.IsBold = true;
 worksheet.Cells["B24"].SetStyle(boldStyle);
 worksheet.Cells["B25"].SetStyle(boldStyle);
 worksheet.Cells["B26"].SetStyle(boldStyle);
-// Spara arbetsboken som en OFD-fil
+// Save the workbook as an OFD file
 workbook.Save(dataDir + "Invoice.ofd", SaveFormat.Ofd);
 ```
 
@@ -162,41 +162,41 @@ Aspose.Cells kan också läsa in en befintlig Excel-arbetsbok från disk och exp
 using System;
 using Aspose.Cells;
 string dataDir = "C:\\Examples\\";
-// Öppna en befintlig Excel-arbetsbok från disk
+// Open an existing Excel workbook from disk
 Workbook workbook = new Workbook(dataDir + "SampleBook.xlsx");
-// (1) Läs och visa värden från valda celler för att bekräfta att filen laddades
+// (1) Read and display values from selected cells to confirm the file was loaded
 Worksheet firstSheet = workbook.Worksheets[0];
 Console.WriteLine("First sheet name: " + firstSheet.Name);
 Console.WriteLine("Cell A1: " + firstSheet.Cells["A1"].StringValue);
 Console.WriteLine("Cell B1: " + firstSheet.Cells["B1"].StringValue);
 Console.WriteLine("Cell C1: " + firstSheet.Cells["C1"].StringValue);
-// (2) Iterera över Worksheets-samlingen för att räkna upp tillgängliga blad
+// (2) Iterate over the Worksheets collection to enumerate available sheets
 Console.WriteLine("\nAvailable worksheets:");
 for (int i = 0; i < workbook.Worksheets.Count; i++)
 {
     Worksheet ws = workbook.Worksheets[i];
     Console.WriteLine("  [" + i + "] " + ws.Name);
 }
-// (3) Valfritt: uppdatera en tidsstämpelcell för att återspegla konverteringen
+// (3) Optionally update a timestamp cell to reflect the conversion
 firstSheet.Cells["A1"].PutValue("Converted on: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-// Lägg till en sammanfattningsrubrikrad överst i datablocket
+// Append a summary header row at the top of the data block
 firstSheet.Cells.InsertRow(0);
 firstSheet.Cells["A1"].PutValue("Conversion Summary");
 firstSheet.Cells["A2"].PutValue("Generated: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-// (4) Konfigurera PageSetup-egenskaper på arbetsbladet
+// (4) Configure PageSetup properties on the worksheet
 PageSetup pageSetup = firstSheet.PageSetup;
 pageSetup.Orientation = PageOrientationType.Landscape;
 pageSetup.PaperSize = PaperSizeType.PaperA4;
 pageSetup.FitToPagesTall = 1;
 pageSetup.FitToPagesWide = 1;
-// (5) Valfritt: ställ in utskriftsområdet för OFD-utdata
+// (5) Optionally set the print area for the OFD output
 int lastRow = firstSheet.Cells.MaxDataRow;
 int lastCol = firstSheet.Cells.MaxDataColumn;
 string lastColLetter = CellsHelper.ColumnIndexToName(lastCol);
 string printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.PageSetup.PrintArea = printArea;
 Console.WriteLine("\nPrint area set to: " + printArea);
-// (6) Spara arbetsboken som en OFD-fil
+// (6) Save the workbook as an OFD file
 workbook.Save(dataDir + "SampleBook.ofd", SaveFormat.Ofd);
 Console.WriteLine("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 ```

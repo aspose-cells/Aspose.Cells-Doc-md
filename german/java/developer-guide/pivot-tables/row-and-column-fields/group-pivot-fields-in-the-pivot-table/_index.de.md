@@ -1,6 +1,6 @@
 ---
 title: Pivot-Felder in der Pivot-Tabelle gruppieren
-linktitle: Pivot-Felder in der Pivot-Tabelle gruppieren
+linktitle: Pivot-Felder gruppieren
 description: Erfahren Sie, wie Sie Zeilen- und Spalten-Pivot-Felder in einer Pivot-Tabelle in Datumsperioden wie Monate und Quartale sowie in Zahlenbereiche gruppieren können, indem Sie PivotField.group und PivotFieldGroupOptions in Aspose.Cells for Java verwenden.
 keywords: Aspose.Cells, Pivot-Tabelle, Pivot-Feld gruppieren, PivotField.group, PivotFieldGroupOptions, Datumsgruppierung, Zahlengruppierung, Monate, Quartale, Zahlenbereich, Java
 type: docs
@@ -55,21 +55,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// Laden Sie die Beispielarbeitsmappe
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Auf das zweite Arbeitsblatt und seine Pivot-Tabelle zugreifen
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo ist ein Datenfeld: Verschieben Sie es zuerst in den Zeilenbereich,
-// da nur Zeilen-/Spaltenfelder gruppiert werden können
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(PivotFieldType.ROW, "FieldTwo");
 pt.calculateData();
-// Gruppieren Sie das numerische Feld in die Bereiche 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Berechnen Sie die Pivot-Tabellendaten und speichern Sie die Ausgabedatei
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

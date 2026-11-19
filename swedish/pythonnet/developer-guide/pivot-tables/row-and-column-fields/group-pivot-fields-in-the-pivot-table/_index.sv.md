@@ -1,6 +1,6 @@
 ---
 title: Gruppera pivot-fält i pivottabellen
-linktitle: Gruppera pivot-fält i pivottabellen
+linktitle: Gruppera pivotfält
 description: Lär dig hur du grupperar rad- och kolumnpivotfält i en pivottabell till datumperioder som månader och kvartal samt numeriska intervall med PivotField.Group och PivotFieldGroupOptions i Aspose.Cells for Python via .NET.
 keywords: Aspose.Cells, pivottabell, gruppera pivotfält, PivotField.Group, PivotFieldGroupOptions, datumgruppering, nummergruppering, månader, kvartal, numeriskt intervall, Python via .NET
 type: docs
@@ -20,15 +20,15 @@ Den parameterlösa överlagringen `pivot_field.group()` inspekterar fältets dat
 
 ```python
 import aspose.cells as ac
-# Ladda exempelarbetsboken
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Öppna det andra kalkylbladet och dess pivottabell
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# Gruppera det första radfältet automatiskt.
-# Fältet innehåller datum, så det grupperas efter månader.
+# Group the first row field automatically.
+# The field contains dates, so it is grouped by months.
 field = pt.row_fields[0]
 field.group()
-# Beräkna pivottabellsdata och spara utdatafilen
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputAutoGroupPivotField.xlsx")
 ```
@@ -45,17 +45,17 @@ import aspose.cells as ac
 from datetime import datetime
 from aspose.cells.pivot import PivotGroupByType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# Ladda exempelarbetsboken
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Öppna det andra kalkylbladet och dess pivottabell
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# Gruppera det första radfältet (ett datumfält) efter månader och kvartal
+# Group the first row field (a date field) by months and quarters
 options = PivotFieldGroupOptions()
 options.start_date = datetime(2008, 1, 1)
 options.end_date = datetime(2008, 9, 5)
 options.group_types = [PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS]
 pt.row_fields[0].group(options)
-# Beräkna pivottabellsdata och spara utdatafilen
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 ```
@@ -69,21 +69,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# Ladda exempelarbetsboken
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# Kom åt det andra kalkylbladet och dess pivottabell
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# FieldTwo är ett datafält: flytta det först till radområdet,
-# eftersom endast rad-/kolumnfält kan grupperas
+# FieldTwo is a data field: move it to the row area first,
+# because only row/column fields can be grouped
 pt.add_field_to_area(PivotFieldType.ROW, "FieldTwo")
 pt.calculate_data()
-# Gruppera det numeriska fältet i intervallen 0-1, 2-3, 4-5
+# Group the numeric field into the ranges 0-1, 2-3, 4-5
 options = PivotFieldGroupOptions()
 options.start_number = 0.0
 options.end_number = 5.0
 options.interval = 2.0
 pt.row_fields[1].group(options)
-# Beräkna pivottabellens data och spara utdatafilen
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputNumberGroupPivotField.xlsx")
 ```

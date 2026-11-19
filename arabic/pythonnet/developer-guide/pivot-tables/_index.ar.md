@@ -36,12 +36,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-
-# إنشاء مصنف جديد والحصول على ورقة العمل الأولى
+# Create a new workbook and get the first worksheet
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-
-# كتابة بيانات المصدر: المبيعات لكل رياضة وربع سنة
+# Write the source data: sales per sport and quarter
 sheet.cells.get("A1").put_value("Sport")
 sheet.cells.get("B1").put_value("Quarter")
 sheet.cells.get("C1").put_value("Sales")
@@ -66,16 +64,13 @@ sheet.cells.get("C7").put_value(5000)
 sheet.cells.get("A8").put_value("Golf")
 sheet.cells.get("B8").put_value("Qtr3")
 sheet.cells.get("C8").put_value(6430)
-
-# إضافة جدول محوري في خلية الوجهة E3، باستخدام A1:C8 كمصدر
+# Add a pivot table at destination cell E3, sourced from A1:C8
 pivot_table = sheet.pivot_tables.add("A1:C8", 2, 4)
-
-# تعيين حقول الجدول المحوري: Sport إلى الصفوف، Quarter إلى الأعمدة، Sales إلى البيانات
+# Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Quarter")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
-
-# حفظ المصنف
+# Save the workbook
 workbook.save("pivotTable_test_out.xlsx")
 ```
 

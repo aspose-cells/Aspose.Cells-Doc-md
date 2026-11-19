@@ -34,19 +34,19 @@ import aspose.cells as ac
 from aspose.cells.pivot import PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
-# Cargar el libro existente que contiene una tabla dinámica
+# Load the existing workbook containing a pivot table
 workbook = ac.Workbook(fileName)
-# Acceder a la hoja de cálculo por índice (primera hoja)
+# Access the worksheet by index (first worksheet)
 worksheet = workbook.worksheets[0]
-# Acceder a la tabla dinámica por índice
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# Obtener el primer PivotField de fila
+# Retrieve the first row PivotField
 row_field = pivot_table.row_fields[0]
-# Aplicar el filtro de etiqueta: mostrar solo los elementos de fila cuyas etiquetas comiencen con el prefijo proporcionado
+# Apply the label filter — show only row items whose labels begin with the supplied prefix
 row_field.filter_by_label(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
-# Actualizar y recalcular los datos de la tabla dinámica para que el filtro surta efecto
+# Refresh and recalculate the pivot table data so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# Guardar el libro de nuevo en disco
+# Save the workbook back to disk
 workbook.save(fileName)
 ```
 
@@ -68,23 +68,23 @@ input_path = "sample.xlsx"
 output_path = "output_filtered.xlsx"
 if not os.path.exists(input_path):
     raise FileNotFoundError("Source workbook not found.", input_path)
-# Cargar el libro existente que contiene la tabla dinámica
+# Load the existing workbook that contains the pivot table
 workbook = ac.Workbook(input_path)
-# Acceder a la hoja de cálculo que contiene la tabla dinámica (por índice)
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.worksheets[0]
-# Acceder a la tabla dinámica por índice
+# Access the pivot table by index
 pivot_table = worksheet.pivot_tables[0]
-# Obtener el PivotField de fecha del área de filas
-# (El filtro de fecha solo funciona cuando el área de filas/columnas contiene solo celdas de fecha-hora o están vacías)
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 date_field = pivot_table.row_fields[0]
-# Definir el criterio de fecha para el filtro Entre
+# Define the date criterion for the Between filter
 start_date = datetime(2020, 1, 1)
 end_date = datetime(2020, 12, 31)
-# Aplicar el filtro de fecha en el campo dinámico
+# Apply the date filter on the pivot field
 date_field.filter_by_date(PivotFilterType.DATE_BETWEEN, start_date, end_date)
-# Refrescar y recalcular la tabla dinámica para que el filtro surta efecto
+# Refresh and recalculate the pivot table so the filter takes effect
 pivot_table.pivot_cache.refresh()
-# Guardar el libro
+# Persist the workbook
 workbook.save(output_path)
 ```
 
@@ -101,7 +101,7 @@ worksheet = workbook.worksheets[0]
 pivot_table = worksheet.pivot_tables[0]
 row_field = pivot_table.row_fields[0]
 data_field = pivot_table.data_fields[0]
-# Buscar el índice del campo de datos manualmente ya que PivotFieldCollection no tiene IndexOf
+# Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 data_field_index = -1
 for i in range(len(pivot_table.data_fields)):
     if pivot_table.data_fields[i] == data_field:
@@ -125,31 +125,31 @@ El siguiente ejemplo carga un libro con una tabla dinámica que contiene un camp
 ```python
 import aspose.cells as ac
 import aspose.cells.pivot as acp
-# Cargar el libro existente que contiene la tabla dinámica
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = ac.Workbook(inputPath)
-# Acceder a la hoja de cálculo que contiene la tabla dinámica (índice 0)
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.worksheets[0]
-# Acceder a la tabla dinámica por índice
+# Access the pivot table by index
 pivotTable = worksheet.pivot_tables[0]
-# Confirmar que hay al menos un PivotField de valor en el área de datos
+# Confirm there is at least one value PivotField in the data area
 if len(pivotTable.data_fields) == 0:
-    raise Exception("La tabla dinámica no tiene PivotField de valor (datos).")
+    raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.data_fields[0]
-# Obtener el PivotField de fila objetivo (el campo al que aplicaremos Top 10)
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.row_fields[0]
-# El primer (y único) campo de datos está en el índice 0; Top 10 clasifica por él.
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# Aplicar el filtro Top 10 en el campo de fila:
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true (N superiores; false significaría N inferiores)
-#   - valueFieldIndex = el índice del campo de datos utilizado para clasificar los elementos
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filter_top10(valueFieldIndex, acp.PivotFilterType.COUNT, True, 10)
-# Actualizar los datos de la tabla dinámica y recalcularla para que el filtro surta efecto
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.pivot_cache.refresh()
-# Guardar el libro
+# Save the workbook
 workbook.save(outputPath)
 ```
 
@@ -159,28 +159,28 @@ Este enfoque resulta útil cuando la regla de filtrado es irregular o específic
 
 ```python
 import aspose.cells as ac
-# Cargar un libro de trabajo existente que contenga una tabla dinámica
+# Load an existing workbook containing a pivot table
 workbook = ac.Workbook("pivot_table_sample.xlsx")
-# Acceder a la primera hoja de cálculo que contiene la tabla dinámica
+# Access the first worksheet which contains the pivot table
 sheet = workbook.worksheets[0]
-# Acceder a la tabla dinámica por índice (la primera tabla dinámica en la hoja)
+# Access the pivot table by index (the first pivot table on the sheet)
 pivot_table = sheet.pivot_tables[0]
-# Recuperar el PivotField objetivo (el primer campo de etiqueta de fila donde ocultaremos/mostraremos elementos)
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivot_field = pivot_table.row_fields[0]
-# Iterar a través de la colección PivotItems del PivotField seleccionado
+# Iterate through the PivotItems collection of the selected PivotField
 item_count = pivot_field.pivot_items.count
 for i in range(item_count):
     item = pivot_field.pivot_items[i]
-    # Ocultar elementos dinámicos que coincidan con un nombre/criterio específico
+    # Hide pivot items that match a specific name/criterion
     if item.name == "Item1" or item.name == "Item2":
         item.is_hidden = True
-    # Demostrar cómo mostrar: volver a mostrar un elemento dinámico previamente oculto
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.name == "Item3":
         item.is_hidden = False
-# Actualizar y recalcular la tabla dinámica para que los cambios surtan efecto
+# Refresh and recalculate the pivot table so changes take effect
 pivot_table.pivot_cache.refresh()
-# Guardar el libro de trabajo: los elementos ocultos permanecen en los datos subyacentes
-# pero se excluyen de la salida de la tabla dinámica mostrada
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 ```
 

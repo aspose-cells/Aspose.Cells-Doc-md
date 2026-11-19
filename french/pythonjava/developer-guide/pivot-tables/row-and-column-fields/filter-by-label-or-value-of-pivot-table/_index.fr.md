@@ -36,19 +36,19 @@ jpype.startJVM()
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
-# Charger le classeur existant contenant un tableau croisé dynamique
+# Load the existing workbook containing a pivot table
 workbook = Workbook(fileName)
-# Accéder à la feuille de calcul par index (première feuille)
+# Access the worksheet by index (first worksheet)
 worksheet = workbook.getWorksheets().get(0)
-# Accéder au tableau croisé dynamique par index
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# Récupérer le premier PivotField de ligne
+# Retrieve the first row PivotField
 rowField = pivotTable.getRowFields().get(0)
-# Appliquer le filtre d'étiquette — afficher uniquement les éléments de ligne dont les étiquettes commencent par le préfixe fourni
+# Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
-# Actualiser et recalculer les données du tableau croisé dynamique pour que le filtre prenne effet
+# Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Enregistrer le classeur sur le disque
+# Save the workbook back to disk
 workbook.save(fileName)
 jpype.shutdownJVM()
 ```
@@ -72,24 +72,24 @@ inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
 if not os.path.exists(inputPath):
     raise FileNotFoundError(f"Source workbook not found: {inputPath}")
-# Charger le classeur existant qui contient le tableau croisé dynamique
+# Load the existing workbook that contains the pivot table
 workbook = Workbook(inputPath)
-# Accéder à la feuille de calcul qui contient le tableau croisé dynamique (par index)
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.getWorksheets().get(0)
-# Accéder au tableau croisé dynamique par index
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# Récupérer le PivotField de date depuis la zone des lignes
-# (Le filtre de date ne fonctionne que lorsque la zone de ligne/colonne ne contient que des cellules de date-heure ou des cellules vides)
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 dateField = pivotTable.getRowFields().get(0)
-# Définir le critère de date pour le filtre Entre
+# Define the date criterion for the Between filter
 Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
-# Appliquer le filtre de date sur le champ croisé dynamique
+# Apply the date filter on the pivot field
 dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
-# Actualiser et recalculer le tableau croisé dynamique pour que le filtre prenne effet
+# Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Enregistrer le classeur
+# Persist the workbook
 workbook.save(outputPath)
 jpype.shutdownJVM()
 ```
@@ -109,7 +109,7 @@ worksheet = workbook.getWorksheets().get(0)
 pivotTable = worksheet.getPivotTables().get(0)
 rowField = pivotTable.getRowFields().get(0)
 dataField = pivotTable.getDataFields().get(0)
-# Trouver l'index du champ de données manuellement car PivotFieldCollection n'a pas de IndexOf
+# Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 dataFieldIndex = -1
 for i in range(pivotTable.getDataFields().getCount()):
     if pivotTable.getDataFields().get(i) == dataField:
@@ -136,31 +136,31 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
-# Charger le classeur existant qui contient le tableau croisé dynamique
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = Workbook(inputPath)
-# Accéder à la feuille de calcul qui contient le tableau croisé dynamique (index 0)
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.getWorksheets().get(0)
-# Accéder au tableau croisé dynamique par index
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# Vérifier qu'il y a au moins un PivotField de valeur dans la zone de données
+# Confirm there is at least one value PivotField in the data area
 if pivotTable.getDataFields().getCount() == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.getDataFields().get(0)
-# Récupérer le PivotField de ligne cible (le champ auquel nous voulons appliquer Top 10)
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.getRowFields().get(0)
-# Le premier (et seul) champ de données est à l'index 0 ; Top 10 classe par celui-ci.
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# Appliquer le filtre Top 10 sur le champ de ligne :
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true (N premiers ; false signifierait N derniers)
-#   - valueFieldIndex = l'index du champ de données utilisé pour classer les éléments
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, True, 10)
-# Actualiser les données du tableau croisé dynamique et le recalculer pour que le filtre prenne effet
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Enregistrer le classeur
+# Save the workbook
 workbook.save(outputPath)
 jpype.shutdownJVM()
 ```
@@ -174,28 +174,28 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
-# Charger un classeur existant contenant un tableau croisé dynamique
+# Load an existing workbook containing a pivot table
 workbook = Workbook("pivot_table_sample.xlsx")
-# Accéder à la première feuille de calcul qui contient le tableau croisé dynamique
+# Access the first worksheet which contains the pivot table
 sheet = workbook.getWorksheets().get(0)
-# Accéder au tableau croisé dynamique par index (le premier tableau croisé dynamique de la feuille)
+# Access the pivot table by index (the first pivot table on the sheet)
 pivotTable = sheet.getPivotTables().get(0)
-# Récupérer le PivotField cible (le premier champ d'étiquette de ligne dans lequel nous allons masquer/afficher des éléments)
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivotField = pivotTable.getRowFields().get(0)
-# Parcourir la collection PivotItems du PivotField sélectionné
+# Iterate through the PivotItems collection of the selected PivotField
 itemCount = pivotField.getPivotItems().getCount()
 for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
-    # Masquer les éléments du tableau croisé dynamique qui correspondent à un nom ou critère spécifique
+    # Hide pivot items that match a specific name/criterion
     if item.getName() == "Item1" or item.getName() == "Item2":
         item.setHidden(True)
-    # Démontrer l'affichage : réafficher un élément précédemment masqué du tableau croisé dynamique
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.getName() == "Item3":
         item.setHidden(False)
-# Actualiser et recalculer le tableau croisé dynamique pour que les modifications prennent effet
+# Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh()
-# Enregistrer le classeur — les éléments masqués restent dans les données sous-jacentes
-# mais sont exclus de l'affichage du tableau croisé dynamique
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 jpype.shutdownJVM()
 ```

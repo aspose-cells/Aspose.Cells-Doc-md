@@ -1,6 +1,6 @@
 ---
 title: Konvertera Sparkline till bild och HTML i Aspose.Cells for C++
-linktitle: Konvertera Sparkline till bild och HTML i Aspose.Cells for C++
+linktitle: Konvertera sparkline till bild och HTML
 description: Lär dig hur du renderar Aspose.Cells sparklines till fristående bilder för inbäddning i celler och exporterar sparkline-rika kalkylblad till HTML med HtmlSaveOptions.
 keywords: Aspose.Cells, C++, sparkline, Sparkline.ToImage, Cell.EmbeddedImage, HtmlSaveOptions, rendera sparkline, konvertera sparkline till bild, exportera sparkline till HTML
 type: docs

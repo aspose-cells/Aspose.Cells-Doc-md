@@ -1,6 +1,6 @@
 ---
 title: Actualizar tablas dinámicas y cachés de tablas dinámicas en Aspose.Cells for Python via Java
-linktitle: Actualizar tablas dinámicas y cachés de tablas dinámicas en Aspose.Cells for Python via Java
+linktitle: Actualizar tablas dinámicas
 description: Aprenda a actualizar tablas dinámicas en Aspose.Cells for Python via Java usando la API de actualización de tablas dinámicas v26.7+. Este artículo cubre refreshAll, refreshPivotTables, PivotCache.refresh, calculateData y getPivotTables con ejemplos prácticos de código.
 keywords: Aspose.Cells, Python via Java, tabla dinámica, actualizar, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

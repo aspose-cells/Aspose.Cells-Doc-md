@@ -1,6 +1,6 @@
 ---
 title: Agrupar campos dinámicos en la tabla dinámica
-linktitle: Agrupar campos dinámicos en la tabla dinámica
+linktitle: Agrupar campos dinámicos
 description: Aprenda cómo agrupar campos dinámicos de filas y columnas en una tabla dinámica en períodos de fechas como meses y trimestres, y en rangos numéricos, usando PivotField.Group y PivotFieldGroupOptions en Aspose.Cells for Node.js via C++.
 keywords: Aspose.Cells, tabla dinámica, agrupar campo dinámico, PivotField.Group, PivotFieldGroupOptions, agrupación por fechas, agrupación por números, meses, trimestres, rango numérico, JavaScript
 type: docs
@@ -20,15 +20,15 @@ La sobrecarga sin parámetros `pivotField.group()` inspecciona el tipo de dato d
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// Cargar el libro de trabajo de muestra
+// Load the sample workbook
 const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Acceder a la segunda hoja de cálculo y su tabla dinámica
+// Access the second worksheet and its pivot table
 const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// Agrupar automáticamente el primer campo de fila.
-// El campo contiene fechas, por lo que se agrupa por meses.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 const field = pt.getRowFields().get(0);
 field.group();
-// Calcular los datos de la tabla dinámica y guardar el archivo de salida
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputAutoGroupPivotField.xlsx");
 ```
@@ -43,15 +43,15 @@ Tenga en cuenta que el orden de los valores en `options.groupTypes` se ignora. N
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Acceder a la segunda hoja de cálculo y su tabla dinámica
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// Agrupar el primer campo de fila (un campo de fecha) por meses y trimestres
+// Group the first row field (a date field) by months and quarters
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartDate(new Date(2008, 0, 1));
 options.setEndDate(new Date(2008, 8, 5));
 options.setGroupTypes([AsposeCells.PivotGroupByType.Months, AsposeCells.PivotGroupByType.Quarters]);
 pt.getRowFields().get(0).group(options);
-// Calcular los datos de la tabla dinámica y guardar el archivo de salida
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,19 +64,19 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```javascript
 const AsposeCells = require("aspose.cells.node");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Acceder a la segunda hoja de cálculo y su tabla dinámica
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo es un campo de datos: muévalo primero al área de filas,
-// porque solo los campos de fila/columna se pueden agrupar
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(AsposeCells.PivotFieldType.Row, "FieldTwo");
 pt.calculateData();
-// Agrupar el campo numérico en los rangos 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 let options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Calcular los datos de la tabla dinámica y guardar el archivo de salida
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

@@ -31,10 +31,10 @@ L'esempio seguente carica una cartella di lavoro nuova, popola i dati di esempio
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// Ottieni il primo foglio di lavoro
+// Get the first worksheet
 let sheet = workbook.getWorksheets().get(0);
-// Popola i dati di origine con una riga di intestazione (Fruit, Year, Amount)
-// e 9 righe di dati che coprono uva, mirtillo, kiwi, ciliegia negli anni 2020 e 2021
+// Populate the source data with header row (Fruit, Year, Amount)
+// and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.getCells().get(0, 0).putValue("Fruit");
 sheet.getCells().get(0, 1).putValue("Year");
 sheet.getCells().get(0, 2).putValue("Amount");
@@ -65,17 +65,17 @@ sheet.getCells().get(8, 2).putValue(45);
 sheet.getCells().get(9, 0).putValue("grape");
 sheet.getCells().get(9, 1).putValue(2020);
 sheet.getCells().get(9, 2).putValue(45);
-// Aggiungi una tabella pivot nella cella di destinazione E3, denominata, utilizzando l'intervallo di origine A1:C10
+// Add a pivot table at destination cell E3, using source range A1:C10
 let pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// Assegna i campi: Fruit -> Righe, Amount -> Dati
+// Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// Applica il formato automatico preimpostato legacy XLS "Report5"
-// Nota: questa proprietà ha significato solo quando si salva come .xls.
-// Quando si salva come .xlsx/.xlsm/.xlsb, Excel ignora AutoFormatType
-// e utilizza qualsiasi cosa specificata da PivotTableStyleType / PivotTableStyleName.
+// Apply the legacy XLS preset autoformat "Report5"
+// Note: This property is only meaningful when saving as .xls.
+// When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+// and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivotTable.setAutoFormatType(AsposeCells.PivotTableAutoFormatType.REPORT_5);
-// Salva la cartella di lavoro nel formato legacy .xls
+// Save the workbook in legacy .xls format
 workbook.save("output.xls");
 ```
 
@@ -157,7 +157,7 @@ L'esempio seguente definisce uno stile personalizzato per tabelle pivot con un b
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// Popola i dati sorgente: riga di intestazione + 9 righe di dati (A1:C10)
+// Populate source data: header row + 9 data rows (A1:C10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -188,15 +188,15 @@ worksheet.getCells().get("C9").putValue(800);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(900);
-// Aggiungi tabella pivot con origine da A1:C10, ancorata in E3, denominata
+// Add pivot table sourced from A1:C10, anchored at E3
 let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// Passo 1: registra un nuovo stile personalizzato per tabella pivot e cattura il suo indice
+// Step 1: register a new custom pivot table style and capture its index
 let styleIndex = workbook.getWorksheets().getTableStyles().addPivotTableStyle("CustomPivotStyle");
 let tableStyle = workbook.getWorksheets().getTableStyles().get(styleIndex);
-// Passo 2: aggiungi un elemento WholeTable e applica bordi neri sottili su tutti e quattro i lati
+// Step 2: add a WholeTable element and apply thin black borders on all four sides
 let wholeTableElementIndex = tableStyle.getTableStyleElements().add(AsposeCells.TableStyleElementType.WHOLE_TABLE);
 let wholeTableElement = tableStyle.getTableStyleElements().get(wholeTableElementIndex);
 let wholeTableStyle = workbook.createStyle();
@@ -213,14 +213,14 @@ let rightBorder = wholeTableStyle.getBorders().getByBorderType(AsposeCells.Borde
 rightBorder.setLineStyle(AsposeCells.CellBorderType.THIN);
 rightBorder.setColor(AsposeCells.Color.getBlack());
 wholeTableElement.setElementStyle(wholeTableStyle);
-// Passo 3: aggiungi un elemento GrandTotalRow e applica un font rosso in grassetto
+// Step 3: add a GrandTotalRow element and apply bold red font
 let grandTotalElementIndex = tableStyle.getTableStyleElements().add(AsposeCells.TableStyleElementType.GRAND_TOTAL_ROW);
 let grandTotalElement = tableStyle.getTableStyleElements().get(grandTotalElementIndex);
 let grandTotalStyle = workbook.createStyle();
 grandTotalStyle.getFont().setBold(true);
 grandTotalStyle.getFont().setColor(AsposeCells.Color.getRed());
 grandTotalElement.setElementStyle(grandTotalStyle);
-// Passo 4: applica lo stile personalizzato per nome (NON tramite PivotTableStyleType, che è per i preset predefiniti)
+// Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivotTable.setPivotTableStyleName("CustomPivotStyle");
 workbook.save("output.xlsx");
 ```
@@ -237,7 +237,7 @@ L'esempio seguente crea un `Style` con riempimento solido giallo, un font blu sc
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// Popola i dati di origine: riga di intestazione (riga 1) + 9 righe di dati (righe 2-10)
+// Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
@@ -268,13 +268,13 @@ worksheet.getCells().get("C9").putValue(2500);
 worksheet.getCells().get("A10").putValue("Grape");
 worksheet.getCells().get("B10").putValue(2021);
 worksheet.getCells().get("C10").putValue(5500);
-// Aggiungi tabella pivot: intervallo di origine A1:C10, cella di destinazione E3, nome
+// Add pivot table: source range A1:C10, destination cell E3
 let pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// Assegna i campi pivot: Fruit -> area Righe, Year -> area Colonne, Amount -> area Dati
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// Crea uno Style che verrà applicato a ogni cella della tabella pivot
+// Build a Style that will be forced onto every cell of the pivot table
 let style = workbook.createStyle();
 style.setForegroundColor(AsposeCells.Color.getYellow());
 style.setPattern(AsposeCells.BackgroundType.SOLID);
@@ -288,10 +288,10 @@ style.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setLineSt
 style.getBorders().getByBorderType(AsposeCells.BorderType.LEFT_BORDER).setColor(AsposeCells.Color.getBlack());
 style.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setLineStyle(AsposeCells.CellBorderType.THIN);
 style.getBorders().getByBorderType(AsposeCells.BorderType.RIGHT_BORDER).setColor(AsposeCells.Color.getBlack());
-// Applica formatAll: forza questo singolo stile su ogni cella della tabella pivot,
-// sovrascrivendo qualsiasi PivotTableStyleType / PivotTableStyleName precedentemente impostato
+// Apply formatAll: forces this single style onto every cell of the pivot table,
+// overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivotTable.formatAll(style);
-// Salva la cartella di lavoro nel formato .xlsx moderno
+// Save the workbook in the modern .xlsx format
 workbook.save("output.xlsx");
 ```
 

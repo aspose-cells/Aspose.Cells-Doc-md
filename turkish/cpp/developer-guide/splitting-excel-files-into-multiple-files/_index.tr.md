@@ -1,6 +1,6 @@
 ---
 title: Excel Dosyalarını Birden Çok Dosyaya Bölme
-linktitle: Excel Dosyalarını Birden Çok Dosyaya Bölme
+linktitle: Excel Dosyalarını Böl
 description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için kullanılan bir C++ kütüphanesidir ve tek bir Excel dosyasını birden çok dosyaya bölmeyi destekler. Bu makale, her çalışma sayfasını ayrı bir çalışma kitabına kopyalayarak ve belirli hücre aralıklarını diğer çalışma kitaplarına kopyalayarak Excel dosyalarının nasıl bölüneceğini açıklayacaktır.
 keywords: Aspose.Cells, C++ kütüphanesi, elektronik tablo, Excel dosyası bölme, çalışma sayfası kopyalama, aralık kopyalama, birden çok çalışma kitabı, ayrı dosyalar olarak kaydetme
 type: docs

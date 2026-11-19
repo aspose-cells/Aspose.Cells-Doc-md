@@ -1,6 +1,6 @@
 ---
 title: 在数据透视表中显示或筛选前 10 项
-linktitle: 在数据透视表中显示或筛选前 10 项
+linktitle: 前10项显示/筛选
 description: 了解如何使用 Aspose.Cells for Java 仅显示数据透视字段中排名最高或最低的项目。本文介绍 Excel 97-2003 Top10AutoShow 方法、如何通过 Top10AutoShowSettings 读取选项，以及如何通过 FilterTop10 实现 Excel 2007-365 前 10 项筛选。
 keywords: Aspose.Cells, Java, 数据透视表, 前 10 项, 自动显示, top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, filterTop10, PivotFilterType, PivotField
 type: docs
@@ -50,7 +50,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// 按“Sales 之和”排名显示前 2 个项目（数据字段索引为 0）
+// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sportField.top10AutoShow(true, true, 2, 0);
 pivotTable.calculateData();
 workbook.save("output-top10-by-value-field.xlsx");
@@ -83,7 +83,7 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// 显示按字段本身排名的底部 3 个项目（rankBy = -1）
+// Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sportField.top10AutoShow(true, false, 3, -1);
 pivotTable.calculateData();
 workbook.save("output-top10-by-field-itself.xlsx");
@@ -144,9 +144,9 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, "Sport");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Sales");
 pivotTable.calculateData();
 PivotField sportField = pivotTable.getRowFields().get(0);
-// 前 10 项筛选——按“Sales 汇总”保留前 2 个项目（数据字段索引 0）
+// Top 10 Filter - keep the top 2 items by "Sum of Sales" (data field index 0)
 sportField.filterTop10(0, PivotFilterType.COUNT, true, 2);
-// 若改用基于百分比的筛选，则保留前 30% 的项目：
+// For a percentage-based filter instead, keep the top 30 percent of the items:
 // sportField.filterTop10(0, PivotFilterType.PERCENT, true, 30);
 pivotTable.getPivotCache().refresh();
 pivotTable.calculateData();

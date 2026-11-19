@@ -1,6 +1,6 @@
 ---
 title: Aufteilen von Excel-Dateien in mehrere Dateien
-linktitle: Aufteilen von Excel-Dateien in mehrere Dateien
+linktitle: Excel-Dateien aufteilen
 description: Aspose.Cells for JavaScript via C++ ist eine JavaScript‑via‑C++‑Bibliothek zum Arbeiten mit Tabellendateien, die das Aufteilen einer einzelnen Excel‑Datei in mehrere Dateien unterstützt. Dieser Artikel stellt vor, wie Excel‑Dateien durch Kopieren jedes Arbeitsblatts in eine separate Arbeitsmappe und durch Kopieren spezifischer Zellbereiche in andere Arbeitsmappen aufgeteilt werden können.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++ Bibliothek, Tabellenkalkulation, Excel‑Datei aufteilen, Arbeitsblatt kopieren, Bereich kopieren, mehrere Arbeitsmappen, als separate Dateien speichern
 type: docs

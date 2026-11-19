@@ -1,6 +1,6 @@
 ---
 title: Schutz und Schutzaufhebung mit JavaScript über C++
-linktitle: Schutz und Schutzaufhebung mit JavaScript über C++
+linktitle: Verschlüsselung und Schutz
 description: Dieses Codebeispiel zeigt, wie Sie Excel-Dateien verschlüsseln und entschlüsseln sowie die Daten in Excel-Dateien mithilfe von JavaScript mit C++-Add-ons schützen und deren Schutz aufheben.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, verschlüsseln, entschlüsseln, Kennwort, schützen, Schutz aufheben, Arbeitsmappenschutz, Arbeitsblattschutz, freigegebene Arbeitsmappe, JavaScript
 type: docs

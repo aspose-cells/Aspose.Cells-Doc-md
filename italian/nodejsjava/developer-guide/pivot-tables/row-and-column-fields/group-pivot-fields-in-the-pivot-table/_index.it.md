@@ -21,13 +21,13 @@ L'overload senza parametri `PivotField.group()` esamina il tipo di dato del camp
 ```javascript
 const AsposeCells = require("aspose.cells");
 let wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Accedi al secondo foglio di lavoro e alla sua tabella pivot
+// Access the second worksheet and its pivot table
 let pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// Raggruppa automaticamente il primo campo riga.
-// Il campo contiene date, quindi è raggruppato per mesi.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 let field = pt.getRowFields().get(0);
 field.group();
-// Calcola i dati della tabella pivot e salva il file di output
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputAutoGroupPivotField.xlsx");
 ```
@@ -41,17 +41,17 @@ Si noti che l'ordine dei valori in `options.GroupTypes` viene ignorato. Indipend
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-// Carica la cartella di lavoro di esempio
+// Load the sample workbook
 const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Accedi al secondo foglio di lavoro e alla sua tabella pivot
+// Access the second worksheet and its pivot table
 const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// Raggruppa il primo campo riga (un campo data) per mesi e trimestri
+// Group the first row field (a date field) by months and quarters
 const options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartDate(new Date(2008, 0, 1));
 options.setEndDate(new Date(2008, 8, 5));
 options.setGroupTypes([AsposeCells.PivotGroupByType.MONTHS, AsposeCells.PivotGroupByType.QUARTERS]);
 pt.getRowFields().get(0).group(options);
-// Calcola i dati della tabella pivot e salva il file di output
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -63,21 +63,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-// Carica il workbook di esempio
+// Load the sample workbook
 const wb = new AsposeCells.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// Accedi al secondo foglio di lavoro e alla sua tabella pivot
+// Access the second worksheet and its pivot table
 const pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo è un campo dati: spostalo prima nell'area delle righe,
-// perché solo i campi riga/colonna possono essere raggruppati
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(AsposeCells.PivotFieldType.ROW, "FieldTwo");
 pt.calculateData();
-// Raggruppa il campo numerico negli intervalli 0-1, 2-3, 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 const options = new AsposeCells.PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Calcola i dati della tabella pivot e salva il file di output
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

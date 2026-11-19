@@ -50,68 +50,68 @@ let workbook = new AsposeCells.Workbook();
 let worksheets = workbook.getWorksheets();
 let pivotDataSheet = worksheets.add("PivotData");
 let pivotDataCells = pivotDataSheet.getCells();
-// Rubriker (rad 0)
+// Headers (row 0)
 pivotDataCells.get(0, 0).putValue("Fruit");
 pivotDataCells.get(0, 1).putValue("Year");
 pivotDataCells.get(0, 2).putValue("Region");
 pivotDataCells.get(0, 3).putValue("Amount");
-// Rad 1: Apple, 2022, North, 150
+// Row 1: Apple, 2022, North, 150
 pivotDataCells.get(1, 0).putValue("Apple");
 pivotDataCells.get(1, 1).putValue(2022);
 pivotDataCells.get(1, 2).putValue("North");
 pivotDataCells.get(1, 3).putValue(150);
-// Rad 2: Apple, 2023, North, 180
+// Row 2: Apple, 2023, North, 180
 pivotDataCells.get(2, 0).putValue("Apple");
 pivotDataCells.get(2, 1).putValue(2023);
 pivotDataCells.get(2, 2).putValue("North");
 pivotDataCells.get(2, 3).putValue(180);
-// Rad 3: Banana, 2022, South, 120
+// Row 3: Banana, 2022, South, 120
 pivotDataCells.get(3, 0).putValue("Banana");
 pivotDataCells.get(3, 1).putValue(2022);
 pivotDataCells.get(3, 2).putValue("South");
 pivotDataCells.get(3, 3).putValue(120);
-// Rad 4: Banana, 2023, South, 140
+// Row 4: Banana, 2023, South, 140
 pivotDataCells.get(4, 0).putValue("Banana");
 pivotDataCells.get(4, 1).putValue(2023);
 pivotDataCells.get(4, 2).putValue("South");
 pivotDataCells.get(4, 3).putValue(140);
-// Rad 5: Cherry, 2022, East, 200
+// Row 5: Cherry, 2022, East, 200
 pivotDataCells.get(5, 0).putValue("Cherry");
 pivotDataCells.get(5, 1).putValue(2022);
 pivotDataCells.get(5, 2).putValue("East");
 pivotDataCells.get(5, 3).putValue(200);
-// Rad 6: Cherry, 2023, East, 220
+// Row 6: Cherry, 2023, East, 220
 pivotDataCells.get(6, 0).putValue("Cherry");
 pivotDataCells.get(6, 1).putValue(2023);
 pivotDataCells.get(6, 2).putValue("East");
 pivotDataCells.get(6, 3).putValue(220);
-// Rad 7: Grape, 2022, West, 90
+// Row 7: Grape, 2022, West, 90
 pivotDataCells.get(7, 0).putValue("Grape");
 pivotDataCells.get(7, 1).putValue(2022);
 pivotDataCells.get(7, 2).putValue("West");
 pivotDataCells.get(7, 3).putValue(90);
-// Rad 8: Grape, 2023, West, 110
+// Row 8: Grape, 2023, West, 110
 pivotDataCells.get(8, 0).putValue("Grape");
 pivotDataCells.get(8, 1).putValue(2023);
 pivotDataCells.get(8, 2).putValue("West");
 pivotDataCells.get(8, 3).putValue(110);
-// Lägg till PivotTableReport-blad
+// Add PivotTableReport sheet
 let pivotTableSheet = worksheets.add("PivotTableReport");
 let pivotTables = pivotTableSheet.getPivotTables();
-// Skapa pivottabell med källa från PivotData!A1:D9 placerad vid A1 på PivotTableReport
+// Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
 let pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0);
-// Lägg till fält
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // Frukt
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // År
+// Add fields
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // Fruit
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // Year
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);  // Region
-pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // Belopp
+pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // Amount
 pivotTable.getDataFields().get(0).setFunction(AsposeCells.ConsolidationFunction.Sum);
-// Konfigurera layout för sidfältsområde: placera sidfält först horisontellt, radbryt efter varannan
+// Configure page field area layout: place page fields across first, wrap after every 2
 pivotTable.setPageFieldOrder(AsposeCells.PrintOrderType.OverThenDown);
 pivotTable.setPageFieldWrapCount(2);
-// Uppdatera och beräkna
+// Refresh and calculate
 pivotTable.calculateData();
-// Spara
+// Save
 workbook.save(path.join(dataDir, "pageFieldLayout_overThenDown.xlsx"));
 ```
 

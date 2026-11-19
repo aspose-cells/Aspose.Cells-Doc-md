@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for .NET'te Pivot Tablosu Değer Alanlarını Yönetme
-linktitle: Aspose.Cells for .NET'te Pivot Tablosu Değer Alanlarını Yönetme
+linktitle: Değer Alanları
 description: Aspose.Cells for .NET'te bir pivot tablosunun veri bölgesine temel alanların nasıl ekleneceğini, PivotField.Function ile özetleme işlevinin nasıl değiştirileceğini ve değer alanının Satır veya Sütun eksenine nasıl yerleştirileceğini öğrenin.
 keywords: Aspose.Cells, .NET, pivot tablosu, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Toplam, Ortalama
 type: docs

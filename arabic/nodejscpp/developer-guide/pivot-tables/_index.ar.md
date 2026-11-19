@@ -35,12 +35,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-
-// إنشاء مصنف جديد والحصول على ورقة العمل الأولى
+// Create a new workbook and get the first worksheet
 let workbook = new AsposeCells.Workbook();
 let sheet = workbook.getWorksheets().get(0);
-
-// كتابة البيانات المصدرية: المبيعات حسب الرياضة والربع
+// Write the source data: sales per sport and quarter
 sheet.getCells().get("A1").putValue("Sport");
 sheet.getCells().get("B1").putValue("Quarter");
 sheet.getCells().get("C1").putValue("Sales");
@@ -65,16 +63,13 @@ sheet.getCells().get("C7").putValue(5000);
 sheet.getCells().get("A8").putValue("Golf");
 sheet.getCells().get("B8").putValue("Qtr3");
 sheet.getCells().get("C8").putValue(6430);
-
-// إضافة جدول محوري في خلية الوجهة E3، باستخدام A1:C8 كمصدر
+// Add a pivot table at destination cell E3, sourced from A1:C8
 let pivotTable = sheet.getPivotTables().add("A1:C8", 2, 4);
-
-// تعيين حقول الجدول المحوري: الرياضة إلى الصفوف، الربع إلى الأعمدة، المبيعات إلى البيانات
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Quarter");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
-
-// حفظ المصنف
+// Save the workbook
 workbook.save("pivotTable_test_out.xlsx");
 ```
 

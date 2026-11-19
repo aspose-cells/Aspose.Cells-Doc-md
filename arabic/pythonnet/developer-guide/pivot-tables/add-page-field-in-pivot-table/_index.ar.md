@@ -28,15 +28,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# إنشاء مصنف جديد
+# Create a new workbook
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-# إعداد صف الرأس
+# Set up the header row
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
-# تعبئة 9 صفوف من البيانات النموذجية: الفاكهة، السنة، المبلغ
+# Populate 9 rows of sample data: Fruit, Year, Amount
 data = [
     ["apple", 2020, 100],
     ["banana", 2021, 200],
@@ -52,15 +52,15 @@ for i in range(len(data)):
     worksheet.cells.get(i + 1, 0).put_value(data[i][0])
     worksheet.cells.get(i + 1, 1).put_value(data[i][1])
     worksheet.cells.get(i + 1, 2).put_value(data[i][2])
-# إضافة جدول محوري مثبت عند الخلية E3
+# Add a pivot table anchored at cell E3
 pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
-# إضافة الحقول إلى مناطقها: الفاكهة كصف، المبلغ كبيانات، السنة كحقل صفحة
+# Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
-# تحديث وحساب بيانات الجدول المحوري
+# Refresh and calculate the pivot table data
 pivot_table.calculate_data()
-# حفظ المصنف
+# Save the workbook
 workbook.save("pageFieldSample.xlsx")
 ```
 
@@ -70,19 +70,19 @@ workbook.save("pageFieldSample.xlsx")
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# — يتم إنشاء الجدول المحوري وحقل الصفحة تمامًا كما في
-#   السيناريو 1a (بيانات الفاكهة/السنة/المبلغ، الجدول المحوري في E3، الفاكهة→الصف،
-#   المبلغ→البيانات). أدناه نحصل على حقل السنة المحوري من
-#   مجموعة BaseFields ونمرره إلى PageFields.Add — البديل
-#   منخفض المستوى لـ AddFieldToArea. النتيجة هي
-#   مطابقة وظيفيًا للسيناريو 1a.
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data). Below we obtain the Year PivotField from the
+#   BaseFields collection and pass it to PageFields.Add — the
+#   low-level alternative to AddFieldToArea. The result is
+#   functionally identical to Scenario 1a.
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-# العناوين
+# Headers
 sheet.cells.get("A1").put_value("Fruit")
 sheet.cells.get("B1").put_value("Year")
 sheet.cells.get("C1").put_value("Amount")
-# بيانات العينة (9 صفوف)
+# Sample data (9 rows)
 sheet.cells.get("A2").put_value("apple");    sheet.cells.get("B2").put_value("2020"); sheet.cells.get("C2").put_value(100)
 sheet.cells.get("A3").put_value("apple");    sheet.cells.get("B3").put_value("2021"); sheet.cells.get("C3").put_value(150)
 sheet.cells.get("A4").put_value("apple");    sheet.cells.get("B4").put_value("2022"); sheet.cells.get("C4").put_value(200)
@@ -92,16 +92,16 @@ sheet.cells.get("A7").put_value("grape");    sheet.cells.get("B7").put_value("20
 sheet.cells.get("A8").put_value("blueberry"); sheet.cells.get("B8").put_value("2020"); sheet.cells.get("C8").put_value(250)
 sheet.cells.get("A9").put_value("blueberry"); sheet.cells.get("B9").put_value("2021"); sheet.cells.get("C9").put_value(350)
 sheet.cells.get("A10").put_value("blueberry");sheet.cells.get("B10").put_value("2022"); sheet.cells.get("C10").put_value(450)
-# إضافة جدول محوري في E3 يغطي A1:C10
+# Add pivot table at E3 covering A1:C10
 pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
-# الفاكهة -> الصف، المبلغ -> البيانات (ستذهب السنة إلى الصفحة أدناه)
+# Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# نهج منخفض المستوى: احصل على حقل السنة المحوري الموجود من BaseFields
-# وقم بتسجيله في منطقة الصفحة عبر PageFields.Add(PivotField).
+# Low-level approach: grab the existing Year PivotField from BaseFields
+# and register it in the Page area via PageFields.Add(PivotField).
 year_field = pivot_table.base_fields["Year"]
 pivot_table.page_fields.add(year_field)
-# قم بالتحديث حتى ينعكس حقل الصفحة الجديد في المصنف المحفوظ
+# Refresh so the new page field is reflected in the saved workbook
 pivot_table.calculate_data()
 workbook.save("output.xlsx")
 ```
@@ -115,10 +115,10 @@ workbook.save("output.xlsx")
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# إنشاء مصنف جديد
+# Create a new workbook
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-# تعبئة بيانات الفاكهة/السنة/المبلغ
+# Populate Fruit/Year/Amount data
 sheet.cells.get("A1").put_value("Fruit")
 sheet.cells.get("B1").put_value("Year")
 sheet.cells.get("C1").put_value("Amount")
@@ -133,17 +133,17 @@ data = [
 for r in range(len(data)):
     for c in range(len(data[r])):
         sheet.cells.get(r + 1, c).put_value(data[r][c])
-# إنشاء جدول محوري في E3
+# Create pivot table at E3
 pivot_tables = sheet.pivot_tables
 pivot_table = pivot_tables.add("=A1:C7", 2, 4)
-# تكوين حقول الجدول المحوري: الفاكهة→صف، المبلغ→بيانات، السنة→صفحة
+# Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 pivot_table.calculate_data()
-# مسح مرشح الصفحة بحيث يكون كل عنصر في حقل الصفحة مرئياً.
-# 0x7FFD (عشري 32765) هي القيمة الحارسية الخاصة التي تعني "جميع العناصر" —
-# مكافئة لتحديد "(الكل)" في القائمة المنسدلة لحقل الصفحة في Excel.
+# Clear the page filter so every item in the page field is visible.
+# 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+# equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivot_table.page_fields[0].current_page_item = 0x7FFD
 workbook.save("output.xlsx")
 ```
@@ -195,14 +195,14 @@ workbook.save("output.xlsx")
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# — يتم إنشاء الجدول المحوري وحقل الصفحة تمامًا كما في
-#   السيناريو 1أ (بيانات الفاكهة/السنة/المبلغ، الجدول المحوري عند E3، الفاكهة→الصف،
-#   المبلغ→البيانات، السنة→الصفحة عبر AddFieldToArea).
-#   أدناه نقوم بتطبيق التصفية متعددة التحديد على حقل الصفحة.
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data, Year→Page via AddFieldToArea).
+#   Below we apply multi-select filtering on the page field.
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
-# بيانات تجريبية: الفاكهة | السنة | المبلغ
+# Sample data: Fruit | Year | Amount
 cells.get(0, 0).put_value("Fruit")
 cells.get(0, 1).put_value("Year")
 cells.get(0, 2).put_value("Amount")
@@ -227,13 +227,13 @@ pivot_table = pivots.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
-# — تمكين التحديد المتعدد على حقل الصفحة
+# — Enable multi-select on the page field
 pivot_table.page_fields[0].is_multiple_item_selection_allowed = True
-# الجزء أ — تحديد جميع العناصر (جعل كل عنصر مرئيًا)
+# Part A — select ALL items (make every item visible)
 pivot_items = pivot_table.page_fields[0].pivot_items
 for i in range(len(pivot_items)):
     pivot_items[i].is_hidden = False
-# الجزء ب — تحديد عناصر محددة فقط حسب القيمة المصدرية
+# Part B — select only specific items by source value
 for i in range(len(pivot_items)):
     value = pivot_items[i].get_string_value()
     if value == "2020" or value == "grape" or value == "blueberry":

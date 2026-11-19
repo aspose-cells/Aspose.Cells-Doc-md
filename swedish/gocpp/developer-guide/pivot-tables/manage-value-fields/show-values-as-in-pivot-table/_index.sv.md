@@ -1,6 +1,6 @@
 ---
 title: Visa värden som i pivottabell
-linktitle: Visa värden som i pivottabell
+linktitle: Visa värden som
 description: Visa värden för pivottabellens datafält som en procentandel av totalen, en differens från ett grundobjekt, löpande summor, rankningar och mer med Aspose.Cells for Go via C++.
 keywords: Aspose.Cells for Go via C++, pivottabell, visa värden som, dataformat för visning, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex, C++
 type: docs

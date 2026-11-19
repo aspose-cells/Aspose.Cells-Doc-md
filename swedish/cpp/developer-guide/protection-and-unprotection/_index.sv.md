@@ -77,22 +77,22 @@ Att skydda arbetsboksstrukturen förhindrar andra användare från att visa dold
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // Skapa en ny arbetsbok
+    // Create a new workbook
     Workbook workbook;
-    // Lägg till ett andra kalkylblad
+    // Add a second worksheet
     workbook.GetWorksheets().Add();
-    // Skriv ett exempelvärde till cell A1 i det första kalkylbladet
+    // Write a sample value to cell A1 of the first worksheet
     workbook.GetWorksheets().Get(0).GetCells().Get(0, 0).PutValue(u"Sample Data");
-    // Skydda arbetsbokens struktur
+    // Protect the workbook structure
     workbook.Protect(ProtectionType::Structure, u"StructPwd");
-    // Spara arbetsboken som structure_protected.xlsx
+    // Save the workbook as structure_protected.xlsx
     U16String filePath = u"structure_protected.xlsx";
     workbook.Save(filePath);
-    // Ladda om filen i en ny Workbook-instans
+    // Reload the file into a new Workbook instance
     Workbook loadedWorkbook(filePath);
-    // Ta bort struktskyddet
+    // Remove the structure protection
     loadedWorkbook.Unprotect(u"StructPwd");
-    // Skriv ut bekräftelsemeddelande
+    // Print confirmation message
     std::cout << "Structure protection has been successfully removed from the workbook." << std::endl;
     Aspose::Cells::Cleanup();
     return 0;

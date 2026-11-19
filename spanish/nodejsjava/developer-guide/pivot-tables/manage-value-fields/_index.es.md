@@ -1,7 +1,7 @@
 ---
 title: Campos de Valor en Aspose.Cells for Node.js via Java
 description: Aprenda a añadir campos base a la región de datos de una tabla dinámica, cambie la función de resumen con PivotField.Function y coloque el campo de valor en el eje de fila o columna en Aspose.Cells for Node.js via Java.
-linktitle: Campos de Valor en Aspose.Cells for Node.js via Java
+linktitle: Campos de valor
 keywords: Aspose.Cells, Node.js via Java, tabla dinámica, campo de valor, PivotField, PivotField.Function, campo de datos, PivotTable.ValuesField, Suma, Promedio
 type: docs
 weight: 230

@@ -1,6 +1,6 @@
 ---
 title: Pivot Tablosunda Pivot Alanlarını Gruplama
-linktitle: Pivot Tablosunda Pivot Alanlarını Gruplama
+linktitle: Pivot Alanlarını Gruplama
 description: Aspose.Cells for C++ kullanarak PivotField.Group ve PivotFieldGroupOptions ile bir pivot tablosundaki satır ve sütun pivot alanlarını aylar ve çeyrekler gibi tarih dönemlerine ve sayısal aralıklara nasıl gruplayacağınızı öğrenin.
 keywords: Aspose.Cells, pivot tablosu, pivot alanını gruplama, PivotField.Group, PivotFieldGroupOptions, tarihe göre gruplama, sayıya göre gruplama, aylar, çeyrekler, sayısal aralık, C++
 type: docs
@@ -49,24 +49,24 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Örnek çalışma kitabını yükle
+    // Load the sample workbook
     Workbook wb(u"sampleGroupPivotFieldsInPivotTable.xlsx");
-    // İkinci çalışma sayfasına ve özet tablosuna eriş
+    // Access the second worksheet and its pivot table
     Worksheet ws = wb.GetWorksheets().Get(1);
     PivotTable pt = ws.GetPivotTables().Get(0);
-    // İlk satır alanını (bir tarih alanı) aylara ve çeyreklere göre grupla
+    // Group the first row field (a date field) by months and quarters
     PivotFieldGroupOptions options;
     Date startDate{2008, 1, 1, 0, 0, 0, 0};
     Date endDate{2008, 9, 5, 0, 0, 0, 0};
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
-    // Grup türlerini ayarla: Aylar ve Çeyrekler
+    // Set group types: Months and Quarters
     Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
-    // Gruplamayı ilk satır alanına uygula
+    // Apply grouping to the first row field
     PivotField rowField = pt.GetRowFields().Get(0);
     rowField.Group(options);
-    // Özet tablosu verilerini hesapla ve çıktı dosyasını kaydet
+    // Calculate the pivot table data and save the output file
     pt.CalculateData();
     wb.Save(u"outputGroupPivotFieldsInPivotTable.xlsx");
     Aspose::Cells::Cleanup();

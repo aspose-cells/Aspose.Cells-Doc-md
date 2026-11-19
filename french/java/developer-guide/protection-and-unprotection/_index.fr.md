@@ -55,22 +55,22 @@ La protection de la structure du classeur empêche les autres utilisateurs d'aff
 
 ```java
 import com.aspose.cells.*;
-// Créer un nouveau classeur
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Ajouter une deuxième feuille de calcul
+// Add a second worksheet
 workbook.getWorksheets().add();
-// Écrire une valeur d'exemple dans la cellule A1 de la première feuille de calcul
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// Protéger la structure du classeur
+// Protect the workbook structure
 workbook.protect(ProtectionType.STRUCTURE, "StructPwd");
-// Enregistrer le classeur sous structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 String filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// Recharger le fichier dans une nouvelle instance de classeur
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// Supprimer la protection de la structure
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// Afficher le message de confirmation
+// Print confirmation message
 System.out.println("Structure protection has been successfully removed from the workbook.");
 ```
 

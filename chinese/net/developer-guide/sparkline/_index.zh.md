@@ -1,8 +1,8 @@
 ---
 title: Aspose.Cells for .NET 中的迷你图
-linktitle: Aspose.Cells for .NET 中的迷你图
-description: Aspose.Cells 是一个用于处理电子表格文件的 .NET 库，支持创建迷你图——即放置在工作表单元格内的微型图表。本文介绍如何使用 Aspose.Cells 库添加和自定义折线、柱形及盈亏迷你图。
-keywords: Aspose.Cells, .NET 库, 电子表格, 迷你图, 折线迷你图, 柱形迷你图, 盈亏迷你图, SparklineGroup, SparklineType
+linktitle: 迷你图
+description: Aspose.Cells 是一个用于处理电子表格文件的 .NET 库，支持创建迷你图——放置在工作表单元格内的微型图表。本篇文章说明如何使用 Aspose.Cells 库添加和自定义线形、柱形和盈亏迷你图。
+keywords: Aspose.Cells, .NET 库, 电子表格, 迷你图, 线形迷你图, 柱形迷你图, 盈亏迷你图, SparklineGroup, SparklineType
 type: docs
 weight: 195
 url: /zh/net/creating-sparklines/
@@ -11,23 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是置于单个单元格内的小型图表，可快速、直观地呈现数据趋势。Aspose.Cells 支持折线、柱形和盈亏迷你图，每种迷你图均可自定义颜色、线宽、最高/最低点和标记。
+Aspose.Cells 支持在工作表单元格内创建迷你图。迷你图是适合单个单元格的微型图表，可快速直观地展示数据趋势。Aspose.Cells 支持线形、柱形和盈亏迷你图，并且可以对其颜色、线宽、最高/最低点以及标记等进行自定义。
 {{% /alert %}}
 
 ## **简介**
-迷你图是单元格内的小型图表，适合在一行或一列数据旁快速显示趋势，同时无需占用完整图表的空间。Excel 支持三种迷你图：**折线**、**柱形**和**盈亏**。Aspose.Cells 通过 `Aspose.Cells.Charts` 命名空间中的 `SparklineGroup` 和 `SparklineGroupCollection` API 提供相应功能。
-在 Aspose.Cells 中，您添加的每个迷你图都通过 `worksheet.SparklineGroups.Add(...)` 创建，该方法返回一个 `SparklineGroup` 对象。然后，您可以使用该对象设置迷你图类型、数据区域、目标单元格以及可视化属性，例如线条颜色、线宽、标记和最高/最低点指示符。
-本文将逐一介绍 Aspose.Cells 支持的三种迷你图类型——**折线**、**柱形**和**盈亏**——并演示如何添加这些迷你图、自定义其颜色以及保存生成的工作簿。
+迷你图是放置在单元格内的微型图表，当您希望在数据行或列旁快速显示趋势而不占用完整图表空间时非常有用。Excel 支持三种类型的迷你图：线形、柱形和盈亏。Aspose.Cells 在 `Aspose.Cells.Charts` 命名空间下提供的 `SparklineGroup` 和 `SparklineGroupCollection` API 完全复刻了此功能。
+在 Aspose.Cells 中，所有添加的迷你图均通过 `工作表.SparklineGroups.Add(...)` 创建，该方法返回一个 `SparklineGroup` 对象。随后可以使用该对象设置迷你图类型、数据区域、目标单元格以及线条颜色、线宽、标记和高/低点指示等视觉属性。
+本文将逐一讲解 Aspose.Cells 支持的三种迷你图类型——线形、柱形和盈亏——并演示如何添加、定制颜色以及保存生成的工作簿。
 
-## **折线迷你图**
-折线迷你图通过数据系列中的各个数据点绘制一条连续线条，是显示随时间变化趋势的最自然选择。在 Aspose.Cells 中，通过将 `SparklineType.Line` 传递给 `SparklineGroups.Add` 方法来创建折线迷你图。
-1. 创建一个新的 `Workbook`，并访问第一个工作表。
-2. 在一行源数据（例如第 1 行的 A 至 E 列）中填入要可视化的值。
-3. 构建一个 `CellArea`，用于描述将要绘制迷你图的目标单元格。
-4. 调用 `worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, dest)`。第三个参数 `false` 表示数据区域为水平方向（一行），而非垂直方向（一列）。
-5. 根据需要，自定义返回的 `SparklineGroup`。对于折线迷你图，您可以使用 `group.Line.Color`（该属性接受来自 `Aspose.Cells.Drawing` 的 `CellsColor`）设置线条颜色、调整线宽，并切换最高/最低点标记的显示状态。
+## **线形迷你图**
+线形迷你图在数据序列的各点之间绘制连续的线条，是显示时间趋势的最自然选择。在 Aspose.Cells 中，向 `SparklineGroups.Add` 方法传入 `SparklineType.Line` 即可创建线形迷你图。
+1. 创建一个新的 `Workbook` 并获取第一个工作表。
+2. 在源数据行中填充数据（例如第 1 行的 A 至 E 列），写入您希望可视化的数值。
+3. 构建一个 `CellArea`，用于描述绘制迷你图的目标单元格。
+4. 调用 `工作表.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, dest)`。第三个参数 `false` 表明数据区域是水平的（行），而非垂直的（列）。
+5. 可选地对返回的 `SparklineGroup` 进行自定义。对于线形迷你图，可使用 `group.Line.Color`（需要 `Aspose.Cells.Drawing` 中的 `CellsColor`）设置线条颜色，调整线宽，并开启最高/最低点标记。
 6. 保存工作簿。
-以下示例创建一个工作簿，将值 5、-3、8、-2、6 写入单元格 A1 至 E1，并在单元格 F1 中添加一个反映这些值的折线迷你图。该示例还将线条颜色设置为红色，并启用最高点和最低点标记。
+下面的示例创建一个工作簿，将数值 5、-3、8、-2、6 写入 A1 到 E1 单元格，并在 F1 单元格中添加一条跟踪这些数值的线形迷你图。示例还将线条颜色自定义为红色，并启用最高点和最低点的标记。
 
 ```csharp
 using System;
@@ -40,34 +40,34 @@ namespace SparklineDemo
     {
         public static void Main()
         {
-            // 第 1 步：创建工作簿并获取第一个工作表
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
             Cells cells = worksheet.Cells;
-            // 第 2 步：将示例值 5、-3、8、-2、6 写入 A1:E1 单元格
+            // Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
             cells["A1"].PutValue(5);
             cells["B1"].PutValue(-3);
             cells["C1"].PutValue(8);
             cells["D1"].PutValue(-2);
             cells["E1"].PutValue(6);
-            // 第 3 步：构建指向目标单元格 F1 的 CellArea
+            // Step 3: Build a CellArea pointing to destination cell F1
             CellArea dest = new CellArea();
-            dest.StartColumn = 5;   // F 列（从 0 开始索引）
+            dest.StartColumn = 5;   // column F (0-indexed)
             dest.EndColumn = 5;
-            dest.StartRow = 0;      // 第 1 行（从 0 开始索引）
+            dest.StartRow = 0;      // row 1 (0-indexed)
             dest.EndRow = 0;
-            // 第 4 步：添加从 A1:E1 到 F1 的 Line 迷你图
-            // SparklineGroups.Add 返回新添加组的索引
+            // Step 4: Add a Line sparkline from A1:E1 into F1
+            // SparklineGroups.Add returns the index of the newly added group
             int index = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, dest);
             SparklineGroup group = worksheet.SparklineGroups[index];
-            // 第 5 步：创建红色 CellsColor 并将其赋给迷你图线条颜色
+            // Step 5: Create a red CellsColor and assign it to the sparkline line color
             CellsColor red = workbook.CreateCellsColor();
             red.Color = System.Drawing.Color.Red;
             group.SeriesColor = red;
-            // 第 6 步：启用高点标记和低点标记
+            // Step 6: Enable high-point and low-point markers
             group.ShowHighPoint = true;
             group.ShowLowPoint = true;
-            // 第 7 步：保存工作簿
+            // Step 7: Save the workbook
             workbook.Save("output_line.xlsx");
         }
     }
@@ -75,14 +75,15 @@ namespace SparklineDemo
 ```
 
 ## **柱形迷你图**
-柱形迷你图将每个数据点呈现为垂直柱形，适用于数值大小具有实际意义的数据，例如月度销售额或计数值。在 Aspose.Cells 中，通过将 `SparklineType.Column` 传递给 `SparklineGroups.Add` 方法来创建柱形迷你图。
-其步骤与折线迷你图示例类似：
-1. 创建一个新的 `Workbook`，并访问第一个工作表。
-3. 构建一个 `CellArea`，用于描述目标单元格。
-4. 调用 `worksheet.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, dest)`。
-5. 根据需要，自定义生成的 `SparklineGroup`，例如通过 `group.Type` 确认类型，或调整柱形颜色。
-6. 将工作簿保存到单独的输出文件，以避免覆盖折线迷你图示例。
-以下示例将值 5、-3、8、-2、6 写入 A1:E1，并在 F1 中呈现柱形迷你图。负值绘制为向下的柱形，正值绘制向上的柱形，便于直观识别正值和负值。
+柱形迷你图将每个数据点渲染为纵向条形，适用于数值大小有意义的数据，例如月度销售额或计数。在 Aspose.Cells 中，向 `SparklineGroups.Add` 方法传入 `SparklineType.Column` 即可创建柱形迷你图。
+其操作步骤与线形迷你图示例相同：
+1. 创建一个新的 `Workbook` 并获取第一个工作表。
+2. 在源数据行中填充数据（例如第 1 行的 A 至 E 列），写入您希望可视化的数值。
+3. 构建一个 `CellArea`，用于描述绘制迷你图的目标单元格。
+4. 调用 `工作表.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, dest)`。
+5. 可选地对生成的 `SparklineGroup` 进行自定义，例如通过设置 `group.Type` 确认类型，或调整条形颜色。
+6. 将工作簿保存为其他文件，以免覆盖线形迷你图示例。
+下面的示例将数值 5、-3、8、-2、6 写入 A1:E1，并在 F1 单元格渲染柱形迷你图。负值显示为向下的条形，正值显示为向上的条形，能够一目了然地辨别正负贡献。
 
 ```csharp
 using System;
@@ -95,28 +96,28 @@ namespace SparklineDemo
     {
         static void Main(string[] args)
         {
-            // 步骤 1：创建 Workbook 并获取第一个工作表
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            // 步骤 2：将示例值写入 A1:E1
+            // Step 2: Write sample values into A1:E1
             int[] values = { 5, -3, 8, -2, 6 };
             for (int i = 0; i < values.Length; i++)
             {
                 worksheet.Cells[0, i].PutValue(values[i]);
             }
-            // 步骤 3：构建一个指向 F1（列索引 5，行索引 0）的 CellArea
+            // Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
             CellArea dest = new CellArea();
             dest.StartColumn = 5;
             dest.EndColumn = 5;
             dest.StartRow = 0;
             dest.EndRow = 0;
-            // 步骤 4：在目标单元格添加柱形迷你图
+            // Step 4: Add a Column sparkline to the destination cell
             int idx = worksheet.SparklineGroups.Add(
                 SparklineType.Column, "A1:E1", false, dest);
             SparklineGroup group = worksheet.SparklineGroups[idx];
-            // 步骤 5：通过读取 group.Type 确认迷你图类型
+            // Step 5: Confirm the sparkline type by reading group.Type
             Console.WriteLine("Sparkline Type added: " + group.Type);
-            // 步骤 6：保存工作簿
+            // Step 6: Save the workbook
             workbook.Save("output_column.xlsx");
             Console.WriteLine("Workbook saved as output_column.xlsx");
         }
@@ -125,14 +126,14 @@ namespace SparklineDemo
 ```
 
 ## **盈亏迷你图**
-盈亏迷你图是柱形迷你图的一种特殊变体，仅用于显示两种结果：正值绘制为“向上”柱形（赢），零或负值绘制为“向下”柱形（亏）。盈亏迷你图通常用于可视化一系列胜负结果、通过/失败结果，或随时间变化的任何二元结果。
-在 Aspose.Cells 中，通过将 `SparklineType.Stacked` 传递给 `SparklineGroups.Add` 方法来创建盈亏迷你图。（尽管名称如此，盈亏呈现方式实际使用 `SparklineType.Stacked` 枚举值。）
-1. 创建一个新的 `Workbook`，并访问第一个工作表。
-2. 填充源区域。由于盈亏迷你图将每个值视为“赢”或“亏”，因此值的大小并不重要，只有符号才有意义。正值绘制为上升柱形，非正值绘制为下降柱形。
-3. 构建一个 `CellArea`，用于描述目标单元格。
-4. 调用 `worksheet.SparklineGroups.Add(SparklineType.Stacked, "A1:E1", false, dest)`。
-5. 根据需要，自定义返回的 `SparklineGroup`，例如为表示赢和亏的柱形设置强调颜色。
-6. 使用不同的文件名保存工作簿，使三个示例可以同时保存在磁盘中。
+盈亏迷你图是柱形迷你图的特殊变体，仅显示两种结果：正值绘制为向上的柱形（盈），零或负值绘制为向下的柱形（亏）。盈亏迷你图常用于可视化一系列的盈亏、通过/未通过结果或任何二元时间序列。
+在 Aspose.Cells 中，向 `SparklineGroups.Add` 方法传入 `SparklineType.Stacked` 即可创建盈亏迷你图。（尽管名称为 Stacked，但该枚举值用于请求盈亏渲染。）
+1. 创建一个新的 `Workbook` 并获取第一个工作表。
+2. 填充源数据区域。盈亏迷你图将每个数值视为盈或亏，数值的大小无关紧要，只关注符号。正值显示为向上柱形，非正值显示为向下柱形。
+3. 构建一个 `CellArea`，用于描述绘制迷你图的目标单元格。
+4. 调用 `工作表.SparklineGroups.Add(SparklineType.Stacked, "A1:E1", false, dest)`。
+5. 可选地对返回的 `SparklineGroup` 进行自定义，例如为盈柱和亏柱设置强调颜色。
+6. 使用不同的文件名保存工作簿，以便三个示例能够共存于磁盘。
 
 ```csharp
 using System;
@@ -145,51 +146,51 @@ namespace SparklineDemo
     {
         static void Main(string[] args)
         {
-            // 第 1 步：创建一个工作簿并获取第一个工作表
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
             worksheet.Name = "WinLoss";
-            // 第 2 步：在第 1 行填充示例数据：A1=5, B1=-3, C1=8, D1=-2, E1=6
+            // Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
             worksheet.Cells["A1"].PutValue(5);
             worksheet.Cells["B1"].PutValue(-3);
             worksheet.Cells["C1"].PutValue(8);
             worksheet.Cells["D1"].PutValue(-2);
             worksheet.Cells["E1"].PutValue(6);
-            // 第 3 步：构建指向 F1 的 CellArea（第 5 列，第 0 行）
+            // Step 3: Build a CellArea pointing to F1 (column 5, row 0)
             CellArea dest = new CellArea();
             dest.StartColumn = 5;   // F
             dest.EndColumn = 5;
-            dest.StartRow = 0;      // 第 1 行
+            dest.StartRow = 0;      // row 1
             dest.EndRow = 0;
-            // 第 4 步：添加 Win/Loss 迷你图（SparklineType.Stacked）
+            // Step 4: Add a Win/Loss sparkline (SparklineType.Stacked)
             int groupIndex = worksheet.SparklineGroups.Add(
                 SparklineType.Stacked,
                 "A1:E1",
                 false,
                 dest);
             SparklineGroup group = worksheet.SparklineGroups[groupIndex];
-            // 第 5 步：自定义迷你图组
-            // 启用高点标记和低点标记
+            // Step 5: Customize the sparkline group
+            // Enable high-point and low-point markers
             group.ShowHighPoint = true;
             group.ShowLowPoint = true;
             group.ShowNegativePoints = true;
-            // 将高点颜色设置为绿色
+            // Set the high-point color to green
             CellsColor highColor = workbook.CreateCellsColor();
             highColor.Color = System.Drawing.Color.Green;
             group.HighPointColor = highColor;
-            // 将低点颜色设置为红色
+            // Set the low-point color to red
             CellsColor lowColor = workbook.CreateCellsColor();
             lowColor.Color = System.Drawing.Color.Red;
             group.LowPointColor = lowColor;
-            // 将负值点颜色设置为橙色
+            // Set the negative-point color to orange
             CellsColor negColor = workbook.CreateCellsColor();
             negColor.Color = System.Drawing.Color.Orange;
             group.NegativePointsColor = negColor;
-            // 设置默认系列颜色（用于正值柱）
+            // Set the default series color (used for positive bars)
             CellsColor seriesColor = workbook.CreateCellsColor();
             seriesColor.Color = System.Drawing.Color.SteelBlue;
             group.SeriesColor = seriesColor;
-            // 第 6 步：保存工作簿
+            // Step 6: Save the workbook
             workbook.Save("output_winloss.xlsx");
             Console.WriteLine("Workbook saved successfully: output_winloss.xlsx");
         }
@@ -198,22 +199,22 @@ namespace SparklineDemo
 ```
 
 ## **组合三种迷你图类型**
-以下综合示例创建一个工作簿，在第 1 行填入值 5、-3、8、-2、6，然后在单元格 F1、F2 和 F3 中分别添加三个迷你图组（每种类型一个），使生成的文件能够同时展示所有三种迷你图样式。
+下面的综合示例创建一个工作簿，在第 1 行填入数值 5、-3、8、-2、6，然后在 F1、F2、F3 单元格分别添加三种类型的迷你图组（各一种），从而在同一文件中展示全部三种迷你图样式。
 
 ```csharp
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Charts;
-// 步骤 1：创建一个 Workbook 并获取第一个工作表
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// 步骤 2：在第 1 行填充示例数据（A1:E1）
+// Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.Cells["A1"].PutValue(5);
 worksheet.Cells["B1"].PutValue(-3);
 worksheet.Cells["C1"].PutValue(8);
 worksheet.Cells["D1"].PutValue(-2);
 worksheet.Cells["E1"].PutValue(6);
-// 步骤 3：在 F1 添加一个折线迷你图组
+// Step 3: Add a Line sparkline group at F1
 CellArea lineArea = new CellArea();
 lineArea.StartColumn = 5;
 lineArea.EndColumn = 5;
@@ -221,11 +222,11 @@ lineArea.StartRow = 0;
 lineArea.EndRow = 0;
 int lineIdx = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, lineArea);
 SparklineGroup lineGroup = worksheet.SparklineGroups[lineIdx];
-// 通过 CellsColor 自定义折线迷你图的颜色
+// Customize the line sparkline color via CellsColor
 CellsColor lineColor = workbook.CreateCellsColor();
 lineColor.Color = System.Drawing.Color.Blue;
 lineGroup.SeriesColor = lineColor;
-// 步骤 4：在 F2 添加一个柱形迷你图组
+// Step 4: Add a Column sparkline group at F2
 CellArea columnArea = new CellArea();
 columnArea.StartColumn = 5;
 columnArea.EndColumn = 5;
@@ -233,11 +234,11 @@ columnArea.StartRow = 1;
 columnArea.EndRow = 1;
 int columnIdx = worksheet.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, columnArea);
 SparklineGroup columnGroup = worksheet.SparklineGroups[columnIdx];
-// 自定义柱形迷你图系列的颜色
+// Customize the column sparkline series color
 CellsColor columnColor = workbook.CreateCellsColor();
 columnColor.Color = System.Drawing.Color.Green;
 columnGroup.SeriesColor = columnColor;
-// 步骤 5：在 F3 添加一个盈亏（堆叠）迷你图组
+// Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 CellArea stackedArea = new CellArea();
 stackedArea.StartColumn = 5;
 stackedArea.EndColumn = 5;
@@ -245,28 +246,28 @@ stackedArea.StartRow = 2;
 stackedArea.EndRow = 2;
 int stackedIdx = worksheet.SparklineGroups.Add(SparklineType.Stacked, "A1:E1", false, stackedArea);
 SparklineGroup stackedGroup = worksheet.SparklineGroups[stackedIdx];
-// 自定义盈亏迷你图系列的颜色
+// Customize the win/loss sparkline series color
 CellsColor stackedColor = workbook.CreateCellsColor();
 stackedColor.Color = System.Drawing.Color.DarkOrange;
 stackedGroup.SeriesColor = stackedColor;
-// 步骤 6：保存工作簿
+// Step 6: Save the workbook
 workbook.Save("output_all.xlsx");
 ```
 
 ## **自定义迷你图外观**
-创建 `SparklineGroup` 并将其添加到 `worksheet.SparklineGroups` 后，可以在保存工作簿之前读取或修改其多个可视化属性。最常自定义的属性包括：
-- **`group.Type`** —— `SparklineType`（Line、Column 或 Stacked）。添加组时即会设置该属性，但您可以读取该值以确认类型。
-- **`group.Line.Color`** —— 线条颜色，即通过 `workbook.CreateCellsColor()` 创建的 `CellsColor`。这是用于设置折线迷你图描边颜色的属性。
-- **`group.Line.Weight`** —— 以磅为单位的线宽。值越大，线条越粗。
-- **最高/最低点标记** —— 用于在最高和最低数据点上显示小型标记的标志，便于突出极值。
-- **首点/末点/负值点标记** —— 用于切换第一个、最后一个和负值数据点上标记显示的标志。
-若要更改颜色，请始终创建 `CellsColor` 实例并将其赋给相关属性。请勿将 `System.Drawing.Color` 直接赋给迷你图颜色属性；这些属性需要使用来自 `Aspose.Cells.Drawing` 的 `CellsColor` 类型。`SparklineGroups.Add` 方法本身返回类型明确的 `SparklineGroup` 对象，因此您可以在返回值上链式设置属性，也可以将其存储在局部变量中，并在保存之前进行自定义。
+在创建并将 `SparklineGroup` 添加到 `工作表.SparklineGroups` 后，您可以在保存工作簿之前读取或修改其多个视觉属性。最常自定义的属性包括：
+- **`group.Type`** — `SparklineType`（Line、Column 或 Stacked）。该属性在添加分组时已设置，但您可以读取以确认。
+- **`group.Line.Color`** — 线条颜色，以通过 `workbook.CreateCellsColor()` 创建的 `CellsColor` 表示。此属性用于设置线形迷你图的描边颜色。
+- **`group.Line.Weight`** — 线宽（单位：磅），数值越大线条越粗。
+- **High/Low point markers** — 用于在最高点和最低点显示小标记的标志，可用于突出极值。
+- **First/Last/Negative point markers** — 用于在首点、尾点和负值点显示标记的标志。
+要更改颜色，始终创建 `CellsColor` 实例并将其赋给相应属性。不要直接将 `System.Drawing.Color` 赋给迷你图颜色属性——它们期望的是来自 `Aspose.Cells.Drawing` 的 `CellsColor` 类型。`SparklineGroups.Add` 方法本身返回一个完整类型的 `SparklineGroup` 对象，您可以对返回值链式调用属性赋值，或将其存入局部变量后再进行自定义，最后保存。
 
-## 相关文章
+## Related Articles
 - [在 Aspose.Cells for .NET 中将迷你图转换为图像和 HTML](/cells/zh/net/convert-sparkline-to-image-and-html/)
 - [在 Aspose.Cells for .NET 中向数据透视表添加筛选字段](/cells/zh/net/add-page-field-in-pivot-table/)
-- [在 Aspose.Cells for .NET 中对数据透视表应用样式](/cells/zh/net/apply-style-to-pivot-table/)
-- [修改数据透视表中的页面字段布局](/cells/zh/net/change-page-field-layout/)
+- [在 Aspose.Cells for .NET 中为数据透视表应用样式](/cells/zh/net/apply-style-to-pivot-table/)
+- [修改数据透视表的页面字段布局](/cells/zh/net/change-page-field-layout/)
 - [将 Excel 转换为 OFD 格式](/cells/zh/net/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="csharp" >}}

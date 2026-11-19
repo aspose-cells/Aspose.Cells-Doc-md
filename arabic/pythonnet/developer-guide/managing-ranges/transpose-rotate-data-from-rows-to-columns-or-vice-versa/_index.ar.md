@@ -103,21 +103,21 @@ workbook.save(outFile, ac.SaveFormat.XLSX)
 
 ```python
 import aspose.cells as ac
-# تحميل مصنف المصدر باستخدام xlsx LoadOptions
+# Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
 workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
-# الوصول إلى ورقة العمل الأولى ومجموعة Cells الخاصة بها
+# Access the first worksheet and its Cells collection
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-# تعيين صيغة المصفوفة الكلاسيكية CSE في الخلية A6.
-# تنقل الصيغة =TRANSPOSE(A1:D5) نطاق المصدر المكون من 5 صفوف و4 أعمدة
-# إلى مصفوفة مكونة من 4 صفوف و5 أعمدة. الوسيط الثاني (4) يمثل عدد الصفوف،
-# بينما يمثل الوسيط الثالث (5) عدد أعمدة المصفوفة الناتجة.
-# يكتب Aspose.Cells علامة صيغة المصفوفة CSE، بحيث يقوم Excel بحسابها
-# ك صيغة مصفوفة واحدة تشمل خلايا متعددة، بما يتوافق مع إصدارات Excel الأقدم
-# (2019 و2016 و2013 وغيرها) التي لا تدعم الت spilling الديناميكي للمصفوفات.
+# Set the classic CSE array formula on cell A6.
+# The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+# into a 4-row x 5-column array. The second argument (4) is the number of rows
+# and the third argument (5) is the number of columns of the resulting array.
+# Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+# a single multi-cell array formula, compatible with older Excel versions
+# (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
-# حفظ المصنف حتى يتم сохраظ علامة صيغة المصفوفة
+# Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx")
 ```
 

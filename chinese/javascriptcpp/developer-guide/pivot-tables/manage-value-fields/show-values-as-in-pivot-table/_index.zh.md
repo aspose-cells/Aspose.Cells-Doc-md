@@ -1,8 +1,8 @@
 ---
-title: 在数据透视表中显示数值方式
-description: 使用 Aspose.Cells for JavaScript via C++ 将数据透视表数据字段的值显示为总计的百分比、与基准项的差值、运行合计、排名等。
-linktitle: Show Values As
-keywords: Aspose.Cells, JavaScript via C++, 数据透视表, 显示数值方式, 数据展示格式, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex
+title: 在数据透视表中显示值的方式
+linktitle: 在数据透视表中显示值的方式
+description: 使用 Aspose.Cells for JavaScript via C++ 将数据透视表数据字段的值显示为总计的百分比、相对于基准项的差异、累计总计、排名等。
+keywords: Aspose.Cells, JavaScript via C++, 数据透视表, 显示值的方式, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, showValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /zh/javascript-cpp/show-values-as-in-pivot-table/
@@ -11,47 +11,53 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **可能的使用场景**
-数据透视表通常使用诸如 `Sum` 或 `Count` 等聚合函数对每个数据字段进行聚合。Excel 的 **显示数值方式** 功能会用二次计算的结果替换每个显示的聚合值——例如，总计的百分比、运行合计、与选定基准项的差值或排名——从而在无需辅助公式或计算列的情况下进行对比分析。典型的使用包括：按行、列或总计的占比分析；使用期间字段的运行合计进行累计报告；通过与基准项的差值或百分比差值进行方差分析；以及将数值按从小到大或从大到小进行排名。
-在 Aspose.Cells for JavaScript via C++ 中，`PivotFieldDataDisplayFormat` 用于选择二次计算。只读属性 `PivotField.showValuesSetting` 返回一个 `PivotShowValuesSetting` 对象，其可写的 `calculationType`、`baseFieldIndex`、`baseItemPositionType` 和 `baseItemIndex` 属性用于配置行为；便利方法 `PivotField.showValuesAs(...)` 可以在一次调用中应用这四个设置。将这些设置应用于通过 `PivotTable.dataFields` 获取的数据或值字段。
+数据透视表通常使用诸如 `Sum` 或 `Count` 等聚合函数对每个数据字段进行汇总。Excel 的 **显示值的方式** 功能会用二次计算取代每个显示结果，例如总体的百分比、累计总计、相对于选定基准项的差异或排名，从而无需辅助公式或计算列即可进行对比分析。常见用途包括：按行、列或总计的百分比进行份额分析；在期间字段中使用累计总计进行累计报表；通过相对于基准项的差异或百分比差异进行基准分析；以及对值进行从小到大或从大到小的排名。
+在 Aspose.Cells for JavaScript via C++ 中，`PivotShowValuesType` 枚举用于选择二次计算。只读属性 `PivotField.showValuesSetting` 返回一个 `PivotShowValuesSetting` 对象，其可写属性 `showValuesAs`、`baseFieldIndex` 和 `baseItemIndex` 用于配置行为；便捷方法 `PivotField.showValuesAs(...)` 可在一次调用中应用相同设置。将这些设置应用于通过 `PivotTable.dataFields` 获得的数据或值字段。
 
-## **PivotFieldDataDisplayFormat 枚举成员**
-数据字段保留其聚合函数（例如 Sum 或 Count），而 **显示数值方式** 只改变聚合值的显示方式。除了直接写入 `PivotShowValuesSetting` 属性（参见最后一节），亦可使用一次调用的便利方法来完成相同配置：
+## **PivotShowValuesAsType 枚举成员**
+数据字段保留其聚合函数（如 Sum 或 Count），而 **显示值的方式** 仅改变聚合值的显示方式。除直接写入 `PivotShowValuesSetting` 属性（见最后一节）外，还可以使用一次性便捷方法进行相同配置。该方法有两种形式——一种通过索引指定基字段和基项，另一种通过名称指定：
 
 ```html
-dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem);
+function showValuesAs(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
+}
+function showValuesAsByName(pivotField, showValuesAsType, baseField, baseItem) {
+    pivotField.showValuesAs(showValuesAsType, baseField, baseItem);
+}
+// index form: AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0
+// name form:  AsposeCells.PivotShowValuesAsType.PercentageOf, "Fruit", "Apple"
 ```
 
-| 参数 | 含义 | 何时必需 |
+| 参数 | 含义 | 何时需要 |
 | --- | --- | --- |
-| `displayFormat` | 要应用的 `PivotFieldDataDisplayFormat` 二次计算。 | 始终。 |
-| `baseField` | 基字段在数据透视表基字段集合中的零基索引（例如，基项所在的行字段索引）。 | 仅适用于以下六种基准相关格式（`DifferenceFrom`、`PercentageOf`、`PercentageDifferenceFrom`、`RunningTotalIn`、`PercentageOfRunningTotalIn`、`PercentageOfParentTotal`）；其它格式均忽略。 |
-| `baseItemPositionType` | 基项相对于当前项的选择方式：`PivotItemPositionType.Previous`、`.Next` 或 `.Custom`。 | 仅适用于三种基项格式（`DifferenceFrom`、`PercentageOf`、`PercentageDifferenceFrom`）；其它格式均忽略。 |
-| `baseItem` | 基项的零基索引。 | 仅当 `baseItemPositionType` 为 `Custom` 时使用（此时索引指向确切的基项）；`Previous` / `Next` 时以及所有非基项格式均忽略——传入 `0` 即可。 |
+| `showValuesAsType` | 要应用的 `PivotShowValuesAsType` 二次计算。 | 始终。 |
+| `baseField` | 基字段在数据透视表基字段集合中的零基索引（例如基项所在的行字段索引），或在名称形式下的基字段名称。 | 以下八种基相对格式（`DifferenceFrom`、`PercentageOf`、`PercentageDifferenceFrom`、`RunningTotalIn`、`PercentageOfParentTotal`、`PercentageOfRunningTotalIn`、`RankSmallestToLargest`、`RankLargestToSmallest`）需要；其它格式请传 `0`（名称形式则传 `null`）。 |
+| `baseItem` | 基项的零基索引，拥有两个哨兵值：-1 选取前一个项，-2 选取后一个项（JavaScript via C++ 绑定未导出命名常量——请直接传递字面值）。名称形式使用基项的标题，若所选格式不需要基项则传 `null`。 | 仅三种基项格式（`DifferenceFrom`、`PercentageOf`、`PercentageDifferenceFrom`）会使用基项；其余五种字段相对格式（`RunningTotalIn`、`PercentageOfParentTotal`、`PercentageOfRunningTotalIn`、两种排名）忽略基项——请传 `0` 或 `null`。 |
 
 | 计算类型 | 行为 | 基项参数 |
 | --- | --- | --- |
-| `Normal` | 不进行二次计算，直接显示聚合值（默认）。 | — |
-| `DifferenceFrom` | 将数值显示为相对于基字段中基项值的差值。 | `baseField` + `Previous`/`Next`/`Custom`（`Custom` 时需提供 `baseItem`） |
-| `PercentageOf` | 将数值显示为相对于基字段中基项值的百分比。 | `baseField` + `Previous`/`Next`/`Custom`（`Custom` 时需提供 `baseItem`） |
-| `PercentageDifferenceFrom` | 将数值显示为相对于基字段中基项值的百分比差值。 | `baseField` + `Previous`/`Next`/`Custom`（`Custom` 时需提供 `baseItem`） |
-| `RunningTotalIn` | 将数值显示为基字段中连续项的运行合计。 | `baseField`（决定累加顺序的字段） |
-| `PercentageOfRow` | 将数值显示为行总计的百分比。 | — |
-| `PercentageOfColumn` | 将数值显示为列总计的百分比。 | — |
-| `PercentageOfTotal` | 将数值显示为总体总计的百分比。 | — |
-| `Index` | 使用 Excel 的索引公式 ((value * grand total) / (row total * column total)) 显示数值。 | — |
-| `PercentageOfParentRowTotal` | 将数值显示为其父行总计的百分比（用于嵌套的行字段）。 | — |
-| `PercentageOfParentColumnTotal` | 将数值显示为其父列总计的百分比（用于嵌套的列字段）。 | — |
-| `PercentageOfParentTotal` | 将数值显示为其父总计的百分比。 | `baseField`（作为参照的父字段） |
-| `PercentageOfRunningTotalIn` | 将数值显示为基字段中运行合计的百分比。 | `baseField`（累加字段） |
-| `RankSmallestToLargest` | 按从最小（1）到最大进行排名。 | — |
-| `RankLargestToSmallest` | 按从最大（1）到最小进行排名。 | — |
+| `Normal` | 无二次计算；聚合值原样显示（默认）。 | — |
+| `DifferenceFrom` | 将值显示为相对基字段中基项值的差异。 | `baseField` + `baseItem`（索引或标题，或前/后哨兵） |
+| `PercentageOf` | 将值显示为相对基字段中基项值的百分比。 | `baseField` + `baseItem`（索引或标题，或前/后哨兵） |
+| `PercentageDifferenceFrom` | 将值显示为相对基字段中基项值的百分比差异。 | `baseField` + `baseItem`（索引或标题，或前/后哨兵） |
+| `RunningTotalIn` | 将值显示为基字段中连续项的累计总计。 | `baseField`（决定累计顺序的字段） |
+| `PercentageOfRow` | 将值显示为行总计的百分比。 | — |
+| `PercentageOfColumn` | 将值显示为列总计的百分比。 | — |
+| `PercentageOfTotal` | 将值显示为总计的百分比。 | — |
+| `Index` | 使用 Excel 索引公式 ((value * 总计) / (行总计 * 列总计)) 显示值。 | — |
+| `PercentageOfParentRowTotal` | 将值显示为其父行总计的百分比（针对嵌套行字段）。 | — |
+| `PercentageOfParentColumnTotal` | 将值显示为其父列总计的百分比（针对嵌套列字段）。 | — |
+| `PercentageOfParentTotal` | 将值显示为其父总计的百分比。 | `baseField`（作为参考的父字段） |
+| `PercentageOfRunningTotalIn` | 将值显示为基字段中累计总计的百分比。 | `baseField`（累计字段） |
+| `RankSmallestToLargest` | 对值进行从最小（1）到最大排序。 | `baseField`（定义排名范围的字段） |
+| `RankLargestToSmallest` | 对值进行从最大（1）到最小排序。 | `baseField`（定义排名范围的字段） |
 
 {{% alert color="primary" %}}
-`showValuesAs(...)` 写入 `PivotShowValuesSetting` 属性（`calculationType`、`baseFieldIndex`、`baseItemPositionType`、`baseItemIndex`）——该方法与属性对象是配置相同状态的两种方式，映射了 Excel “显示数值方式” 对话框中的基字段和基项选择器。
+`showValuesAs(...)` 会写入 `PivotShowValuesSetting` 的属性（`showValuesAs`、`baseFieldIndex`、`baseItemIndex`）——该方法与属性对象是配置同一状态的两种方式，映射了 Excel “显示值的方式” 对话框中的基字段和基项选择器。
 {{% /alert %}}
 
-## **将数值显示为总计的百分比**
-调用 `PivotField.showValuesAs` 并传入 `PivotFieldDataDisplayFormat.PercentageOfTotal`，可将每个数据字段单元格（包括总计）转换为其在整体总计中的占比。显示的数字因此表示整个结果集的比例。此格式仅相对于总体总计进行度量，无需基字段或基项——后置参数 (`0`、`PivotItemPositionType.Previous`、`0`) 仅为占位，格式本身会忽略它们，如上表所示。
+## **将值显示为总计的百分比**
+调用 `PivotField.showValuesAs` 并传入 `PivotShowValuesAsType.PercentageOfTotal`，即可将每个数据字段单元格（包括总计）转换为其在总计中的份额。显示的数字因此代表完整结果集的比例。该格式仅以总计为基准，无需基字段或基项——后置参数 (`0`, `0`) 仅为占位，格式本身会忽略它们，正如上表所示。
 
 ```html
 <!DOCTYPE html>
@@ -77,6 +83,7 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
                 console.log("Aspose.Cells initialized");
             });
             document.getElementById("runExample").addEventListener("click", async () => {
+
                 // Load or create a workbook with source data
                 const workbook = new Workbook();
                 const dataSheet = workbook.worksheets.get(0);
@@ -98,16 +105,12 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
                 pivotTable.calculateData();
                 // Show the Amount data field as a percentage of the grand total with the
                 // one-call method; PercentageOfTotal takes no base item, so the trailing
-                // base arguments (0, Previous, 0) are placeholders the format ignores
+                // base arguments (0, 0) are placeholders the format ignores
                 const dataField = pivotTable.dataFields.get(0);
-                dataField.showValuesAs(
-                    AsposeCells.PivotFieldDataDisplayFormat.PercentageOfTotal,
-                    0,
-                    AsposeCells.PivotItemPositionType.Previous,
-                    0
-                );
+                dataField.showValuesAs(AsposeCells.PivotShowValuesAsType.PercentageOfTotal, 0, 0);
                 pivotTable.calculateData();
-                // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
+                // Body now reads (underlying values are fractions, shown with the
+                // percentage format): Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById("downloadLink");
@@ -123,13 +126,13 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
 ```
 
 ## **获取并配置 PivotField.showValuesSetting**
-通过 `PivotField.showValuesSetting` 读取当前配置：只读属性返回该字段的 `PivotShowValuesSetting` 对象，其四个属性描述了当前的 **显示数值方式** 计算。若要更改配置，调用 `PivotField.showValuesAs` 方法即可——一次调用会写入所有四个设置，省去逐个属性赋值的步骤。
-`PivotShowValuesSetting` 对象公开了 `showValuesAs` 写入的四个属性：
-- `calculationType` 选择 `PivotFieldDataDisplayFormat` 的二次计算方式。
-- `baseFieldIndex` 指定基字段在数据透视表字段集合中的零基索引，供基准相关格式使用。
-- `baseItemPositionType` 确定基项相对于当前项的位置，可取 `PivotItemPositionType.Next`、`PivotItemPositionType.Previous` 或 `PivotItemPositionType.Custom`。
-- `baseItemIndex` 指定零基的基项索引，仅在 `baseItemPositionType` 为 `Custom` 时使用。
-调用 `showValuesAs` 后，请再次调用 `PivotTable.calculateData()`，以便重新计算并重新渲染数据透视表主体，使更新后的配置生效。
+通过 `PivotField.showValuesSetting` 读取当前配置：该只读属性返回字段的 `PivotShowValuesSetting` 对象，其属性描述当前的 “显示值的方式” 计算。若需更改配置，调用 `PivotField.showValuesAs` 方法即可——一次调用会写入所有设置，无需逐个赋值。
+`PivotShowValuesSetting` 对象公开的状态 `showValuesAs` 包含：
+- `showValuesAs` 选择 `PivotShowValuesAsType` 二次计算。
+- `baseFieldIndex` 指定基字段在数据透视表字段集合中的零基索引，供基相对格式使用。
+- `baseItemIndex` 指定基项：特定数据透视项的零基索引，或两个哨兵值之一（-1 表示前一个项，-2 表示后一个项，绑定未导出命名常量），供基项格式使用。
+- `baseFieldName` 与 `baseItemCaption` 为只读视图，报告解析后的基字段名称和基项标题；例如，选择前项哨兵后，`baseItemCaption` 返回 `(previous)`。
+在调用 `showValuesAs` 之后，请再次调用 `PivotTable.calculateData()`，以便重新计算并重新渲染数据透视表主体，使更新的配置生效。
 
 ```html
 <!DOCTYPE html>
@@ -168,27 +171,28 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
                 // Read the current show-values settings
                 const settings = dataField.showValuesSetting;
                 const messages = [
-                    `CalculationType: ${settings.calculationType}`,
+                    `ShowValuesAs: ${settings.showValuesAs}`,
                     `BaseFieldIndex: ${settings.baseFieldIndex}`,
-                    `BaseItemPositionType: ${settings.baseItemPositionType}`,
-                    `BaseItemIndex: ${settings.baseItemIndex}`
+                    `BaseItemIndex: ${settings.baseItemIndex}`,
+                    `BaseFieldName: ${settings.baseFieldName}`,
+                    `BaseItemCaption: ${settings.baseItemCaption}`
                 ];
                 document.getElementById('result').innerHTML = messages
                     .map(message => `<p>${message}</p>`)
                     .join("");
                 // Switch to a base-item calculation with the one-call method: difference
                 // from the value of the previous item in the row field
+                // (-1 is the previous-item sentinel; the binding does not export the constant)
                 dataField.showValuesAs(
-                    AsposeCells.PivotFieldDataDisplayFormat.DifferenceFrom,
+                    AsposeCells.PivotShowValuesAsType.DifferenceFrom,
                     pivotTable.rowFields.get(0).baseIndex,
-                    AsposeCells.PivotItemPositionType.Previous,
-                    0
+                    -1
                 );
                 pivotTable.calculateData();
                 // Note: the percentage number format saved by the previous example still
                 // clings to the data field cells; the underlying values are now differences
                 // Re-read the applied configuration
-                messages.push(`CalculationType now: ${dataField.showValuesSetting.calculationType}`);
+                messages.push(`ShowValuesAs now: ${dataField.showValuesSetting.showValuesAs}`);
                 document.getElementById('result').innerHTML = messages
                     .map(message => `<p>${message}</p>`)
                     .join("");
@@ -207,8 +211,8 @@ dataField.showValuesAs(displayFormat, baseField, baseItemPositionType, baseItem)
 </html>
 ```
 
-## **相关文章**
-- [管理数据透视表中的值字段](/cells/zh/javascript-cpp/manage-value-fields/)
+## **相关文档**
+- [在数据透视表中管理值字段](/cells/zh/javascript-cpp/manage-value-fields/)
 - [刷新数据透视表](/cells/zh/javascript-cpp/refresh-pivot-table/)
 - [为数据透视表应用样式](/cells/zh/javascript-cpp/apply-style-to-pivot-table/)
 

@@ -1,6 +1,6 @@
 ---
 title: Pivot Tablosunda Pivot Alanlarını Gruplama
-linktitle: Pivot Tablosunda Pivot Alanlarını Gruplama
+linktitle: Pivot Alanlarını Gruplama
 description: Aspose.Cells for Java kullanarak bir pivot tablosunda satır ve sütun pivot alanlarını aylar ve çeyrekler gibi tarih dönemleriyle ve sayısal aralıklarla nasıl gruplandıracağınızı PivotField.group ve PivotFieldGroupOptions aracılığıyla öğrenin.
 keywords: Aspose.Cells, pivot tablosu, pivot alanını gruplama, PivotField.group, PivotFieldGroupOptions, tarih gruplama, sayı gruplama, aylar, çeyrekler, sayısal aralık, Java
 type: docs
@@ -55,21 +55,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```java
 import com.aspose.cells.*;
-// Örnek çalışma kitabını yükle
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// İkinci çalışma sayfasına ve onun özet tablosuna eriş
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.getWorksheets().get(1).getPivotTables().get(0);
-// FieldTwo bir veri alanıdır: önce satır alanına taşı,
-// çünkü yalnızca satır/sütun alanları gruplanabilir
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.addFieldToArea(PivotFieldType.ROW, "FieldTwo");
 pt.calculateData();
-// Sayısal alanı 0-1, 2-3, 4-5 aralıklarına grupla
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.setStartNumber(0);
 options.setEndNumber(5);
 options.setInterval(2);
 pt.getRowFields().get(1).group(options);
-// Özet tablosu verilerini hesapla ve çıktı dosyasını kaydet
+// Calculate the pivot table data and save the output file
 pt.calculateData();
 wb.save("outputNumberGroupPivotField.xlsx");
 ```

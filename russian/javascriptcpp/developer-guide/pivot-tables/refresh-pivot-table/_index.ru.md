@@ -114,15 +114,15 @@ Aspose.Cells предоставляет многоуровневый API обн�
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Создать новую книгу
+            // Create a new workbook
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Записать строку заголовков в ячейки A1:C1
+            // Write header row into cells A1:C1
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // Записать строки данных в ячейки A2:C9 (8 строк данных о фруктах за 2020 и 2021 годы)
+            // Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
             cells.get("A2").value = "grape";
             cells.get("B2").value = 2020;
             cells.get("C2").value = 50;
@@ -147,19 +147,19 @@ Aspose.Cells предоставляет многоуровневый API обн�
             cells.get("A9").value = "cherry";
             cells.get("B9").value = 2021;
             cells.get("C9").value = 120;
-            // Добавить сводную таблицу: исходный диапазон "A1:C9", целевая ячейка "E3"
+            // Add a pivot table: source range "A1:C9", destination cell "E3"
             const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
-            // Назначить поля сводной таблицы: Fruit в строки, Year в столбцы, Amount в данные
+            // Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Изменить несколько значений Amount в исходных данных для имитации изменений
+            // Modify several Amount values in the source data to simulate changes
             cells.get("C2").value = 55;
             cells.get("C5").value = 85;
             cells.get("C9").value = 125;
-            // Обновить все сводные таблицы / кэши сводных таблиц в книге
+            // Refresh every pivot table / pivot cache in the workbook
             workbook.refreshAll();
-            // Сохранить книгу
+            // Save the workbook
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -285,11 +285,11 @@ Aspose.Cells предоставляет многоуровневый API обн�
                 const workbook = new Workbook();
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // Записать строку заголовков Fruit / Year / Amount
+                // Write Fruit / Year / Amount header row
                 cells.get("A1").value = "Fruit";
                 cells.get("B1").value = "Year";
                 cells.get("C1").value = "Amount";
-                // Записать 8 строк данных (строки 2-9, соответствующие исходному диапазону A1:C9)
+                // Write 8 data rows (rows 2-9, fitting the source range A1:C9)
                 cells.get("A2").value = "Grape";
                 cells.get("B2").value = 2020;
                 cells.get("C2").value = 100;
@@ -314,21 +314,21 @@ Aspose.Cells предоставляет многоуровневый API обн�
                 cells.get("A9").value = "Cherry";
                 cells.get("B9").value = 2021;
                 cells.get("C9").value = 450;
-                // Добавить сводную таблицу, размещённую в целевой ячейке E3, с источником данных A1:C9
+                // Add a pivot table placed at destination cell E3, sourcing from A1:C9
                 const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
-                // Назначить поля: Fruit в строки, Year в столбцы, Amount в данные
+                // Assign fields: Fruit to Row, Year to Column, Amount to Data
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-                // Изменить свойство представления/макета — это изменение только для отображения,
-                // поэтому для него НЕ требуется повторное чтение исходных данных через PivotCache.Refresh().
+                // Modify a view/layout property — this is a presentation-only change,
+                // so it does NOT require re-reading the source data through PivotCache.Refresh().
                 pivotTable.refreshDataOnOpeningFile = false;
-                // CalculateData() повторно отрисовывает отображение ЭТОЙ сводной таблицы (данные + стиль) из
-                // данных, уже хранящихся в PivotCache. Поскольку исходные данные не изменились,
-                // переход к источнику не выполняется — пересчитываются только кэшированные значения
-                // в ячейках листа.
+                // CalculateData() re-renders THIS pivot table's display (data + style) from the
+                // data already held in the PivotCache. Because the source data did not change,
+                // no round-trip to the source is performed — only the cached values are recalculated
+                // into worksheet cells.
                 pivotTable.calculateData();
-                // Сохранить книгу на диск
+                // Save the workbook to disk
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById("downloadLink");

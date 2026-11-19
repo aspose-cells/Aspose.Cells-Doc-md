@@ -1,6 +1,6 @@
 ---
 title: 按标签或值筛选数据透视表
-linktitle: 按标签或值筛选数据透视表
+linktitle: 按标签或值筛选
 description: Aspose.Cells for .NET 支持全面的数据透视表筛选功能。本文介绍如何使用标签筛选、日期筛选、值筛选、前 10 筛选，以及通过隐藏或取消隐藏数据透视项来筛选数据透视表数据。
 keywords: Aspose.Cells, .NET 库, 电子表格, 数据透视表, 筛选, 标签筛选, 值筛选, 日期筛选, 前 10 筛选, 数据透视项, 隐藏数据透视项
 type: docs
@@ -36,19 +36,19 @@ using Aspose.Cells;
 using Aspose.Cells.Pivot;
 string fileName = "sample.xlsx";
 string prefix = "B";
-// 加载包含数据透视表的现有工作簿
+// Load the existing workbook containing a pivot table
 Workbook workbook = new Workbook(fileName);
-// 按索引访问工作表（第一个工作表）
+// Access the worksheet by index (first worksheet)
 Worksheet worksheet = workbook.Worksheets[0];
-// 按索引访问数据透视表
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// 获取第一个行 PivotField
+// Retrieve the first row PivotField
 PivotField rowField = pivotTable.RowFields[0];
-// 应用标签筛选器 — 仅显示标签以提供的前缀开头的行项
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.FilterByLabel(PivotFilterType.CaptionBeginsWith, prefix, string.Empty);
-// 刷新并重新计算数据透视表数据，使筛选器生效
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// 将工作簿保存回磁盘
+// Save the workbook back to disk
 workbook.Save(fileName);
 ```
 
@@ -72,23 +72,23 @@ if (!File.Exists(inputPath))
 {
     throw new FileNotFoundException("Source workbook not found.", inputPath);
 }
-// 加载包含数据透视表的现有工作簿
+// Load the existing workbook that contains the pivot table
 var workbook = new Workbook(inputPath);
-// 通过索引访问包含数据透视表的工作表
+// Access the worksheet that holds the pivot table (by index)
 var worksheet = workbook.Worksheets[0];
-// 通过索引访问数据透视表
+// Access the pivot table by index
 var pivotTable = worksheet.PivotTables[0];
-// 从行区域获取日期 PivotField
-// （日期筛选仅在行/列区域只包含日期时间单元格或空白单元格时有效）
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 PivotField dateField = pivotTable.RowFields[0];
-// 为 Between 筛选定义日期条件
+// Define the date criterion for the Between filter
 DateTime startDate = new DateTime(2020, 1, 1);
 DateTime endDate = new DateTime(2020, 12, 31);
-// 对数据透视字段应用日期筛选
+// Apply the date filter on the pivot field
 dateField.FilterByDate(PivotFilterType.DateBetween, startDate, endDate);
-// 刷新并重新计算数据透视表，使筛选生效
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// 保存工作簿
+// Persist the workbook
 workbook.Save(outputPath);
 ```
 
@@ -105,7 +105,7 @@ var worksheet = workbook.Worksheets[0];
 var pivotTable = worksheet.PivotTables[0];
 var rowField = pivotTable.RowFields[0];
 var dataField = pivotTable.DataFields[0];
-// 手动查找数据字段索引，因为 PivotFieldCollection 没有 IndexOf
+// Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 int dataFieldIndex = -1;
 for (int i = 0; i < pivotTable.DataFields.Count; i++)
 {
@@ -137,33 +137,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// 加载包含数据透视表的现有工作簿
+// Load the existing workbook that contains the pivot table
 string inputPath = "input.xlsx";
 string outputPath = "output.xlsx";
 Workbook workbook = new Workbook(inputPath);
-// 访问包含数据透视表的工作表（索引 0）
+// Access the worksheet that holds the pivot table (index 0)
 Worksheet worksheet = workbook.Worksheets[0];
-// 按索引访问数据透视表
+// Access the pivot table by index
 PivotTable pivotTable = worksheet.PivotTables[0];
-// 确认数据区域中至少有一个值 PivotField
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.DataFields.Count == 0)
 {
     throw new InvalidOperationException("Pivot table has no value (data) PivotField.");
 }
 PivotField valueField = pivotTable.DataFields[0];
-// 获取目标行 PivotField（要对其应用 Top 10 的字段）
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 PivotField rowField = pivotTable.RowFields[0];
-// 第一个（也是唯一一个）数据字段的索引为 0；Top 10 根据该字段进行排名。
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 int valueFieldIndex = 0;
-// 对行字段应用 Top 10 筛选：
+// Apply the Top 10 filter on the row field:
+//   - valueFieldIndex = 0 — the data field used to rank items
+//   - filterType  = PivotFilterType.Count (keep a fixed number of items;
+//     PivotFilterType.Percent would interpret 10 as "top 10 percent")
+//   - isTop       = true (top N; false would mean bottom N)
 //   - itemCount   = 10
-//   - filterType  = PivotFilterType.Count
-//   - isTop       = true（顶部 N；false 表示底部 N）
-//   - valueFieldIndex = 用于对项目进行排名的数据字段索引
 rowField.FilterTop10(valueFieldIndex, PivotFilterType.Count, true, 10);
-// 刷新数据透视表数据并重新计算，使筛选生效
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.PivotCache.Refresh();
-// 保存工作簿
+// Save the workbook
 workbook.Save(outputPath);
 ```
 
@@ -176,34 +177,34 @@ using System;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// 加载包含数据透视表的现有工作簿
+// Load an existing workbook containing a pivot table
 Workbook workbook = new Workbook("pivot_table_sample.xlsx");
-// 访问包含数据透视表的第一个工作表
+// Access the first worksheet which contains the pivot table
 Worksheet sheet = workbook.Worksheets[0];
-// 通过索引访问数据透视表(工作表上的第一个数据透视表)
+// Access the pivot table by index (the first pivot table on the sheet)
 PivotTable pivotTable = sheet.PivotTables[0];
-// 获取目标数据透视字段(第一个行标签字段,我们将在其中隐藏/取消隐藏项)
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 PivotField pivotField = pivotTable.RowFields[0];
-// 遍历所选数据透视字段的 PivotItems 集合
+// Iterate through the PivotItems collection of the selected PivotField
 int itemCount = pivotField.PivotItems.Count;
 for (int i = 0; i < itemCount; i++)
 {
     PivotItem item = pivotField.PivotItems[i];
-    // 隐藏与特定名称/条件匹配的数据透视项
+    // Hide pivot items that match a specific name/criterion
     if (item.Name == "Item1" || item.Name == "Item2")
     {
         item.IsHidden = true;
     }
-    // 演示取消隐藏:重新显示之前隐藏的数据透视项
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.Name == "Item3")
     {
         item.IsHidden = false;
     }
 }
-// 刷新并重新计算数据透视表以使更改生效
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.PivotCache.Refresh();
-// 保存工作簿 — 隐藏项保留在底层数据中
-// 但会从显示的数据透视表输出中排除
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.Save("output_pivot_filtered.xlsx");
 ```
 

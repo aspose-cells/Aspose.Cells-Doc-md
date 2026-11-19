@@ -1,6 +1,6 @@
 ---
 title: Actualizar Tablas Dinámicas y Caches de Tablas Dinámicas en Aspose.Cells para Node.js mediante C++
-linktitle: Actualizar Tablas Dinámicas y Caches de Tablas Dinámicas en Aspose.Cells para Node.js mediante C++
+linktitle: Actualizar tablas dinámicas
 description: Aprenda cómo actualizar tablas dinámicas en Aspose.Cells para Node.js mediante C++ utilizando la API de actualización de tablas dinámicas v26.7+. Este artículo cubre refreshAll, refreshPivotTables, PivotCache.refresh, calculateData y getPivotTables con ejemplos prácticos de código.
 keywords: Aspose.Cells, Node.js mediante C++, tabla dinámica, actualizar, PivotCache, CalculateData, RefreshAll, RefreshPivotTables, GetPivotTables, v26.7
 type: docs

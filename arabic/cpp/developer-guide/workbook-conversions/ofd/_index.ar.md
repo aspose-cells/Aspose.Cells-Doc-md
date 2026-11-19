@@ -193,9 +193,9 @@ std::string GetCurrentTimestamp() {
 int main() {
     Aspose::Cells::Startup();
     std::string dataDir = "C:\\Examples\\";
-    // افتح مصنف Excel موجود من القرص
+    // Open an existing Excel workbook from disk
     Workbook workbook(U16String((dataDir + "SampleBook.xlsx").c_str()));
-    // (1) اقرأ واعرض القيم من الخلايا المحددة لتأكيد تحميل الملف
+    // (1) Read and display values from selected cells to confirm the file was loaded
     Worksheet firstSheet = workbook.GetWorksheets().Get(0);
     U16String sheetName = firstSheet.GetName();
     Cell a1 = firstSheet.GetCells().Get(u"A1");
@@ -205,7 +205,7 @@ int main() {
     std::cout << "Cell A1: " << a1.GetStringValue().ToUtf8() << std::endl;
     std::cout << "Cell B1: " << b1.GetStringValue().ToUtf8() << std::endl;
     std::cout << "Cell C1: " << c1.GetStringValue().ToUtf8() << std::endl;
-    // (2) تكرار عبر مجموعة أوراق العمل لتعداد الأوراق المتاحة
+    // (2) Iterate over the Worksheets collection to enumerate available sheets
     std::cout << "\nAvailable worksheets:" << std::endl;
     WorksheetCollection sheets = workbook.GetWorksheets();
     int sheetCount = sheets.GetCount();
@@ -214,28 +214,28 @@ int main() {
         U16String wsName = ws.GetName();
         std::cout << "  [" << i << "] " << wsName.ToUtf8() << std::endl;
     }
-    // (3) اختياريًا، قم بتحديث خلية الطابع الزمني لتعكس التحويل
+    // (3) Optionally update a timestamp cell to reflect the conversion
     std::string timestamp1 = GetCurrentTimestamp();
     firstSheet.GetCells().Get(u"A1").PutValue(U16String(("Converted on: " + timestamp1).c_str()));
-    // أضف صف رأس ملخص في أعلى كتلة البيانات
+    // Append a summary header row at the top of the data block
     firstSheet.GetCells().InsertRow(0);
     firstSheet.GetCells().Get(u"A1").PutValue(u"Conversion Summary");
     std::string timestamp2 = GetCurrentTimestamp();
     firstSheet.GetCells().Get(u"A2").PutValue(U16String(("Generated: " + timestamp2).c_str()));
-    // (4) تكوين خصائص PageSetup في ورقة العمل
+    // (4) Configure PageSetup properties on the worksheet
     PageSetup pageSetup = firstSheet.GetPageSetup();
     pageSetup.SetOrientation(PageOrientationType::Landscape);
     pageSetup.SetPaperSize(PaperSizeType::PaperA4);
     pageSetup.SetFitToPagesTall(1);
     pageSetup.SetFitToPagesWide(1);
-    // (5) اختياريًا، قم بتعيين منطقة الطباعة لمخرجات OFD
+    // (5) Optionally set the print area for the OFD output
     int lastRow = firstSheet.GetCells().GetMaxDataRow();
     int lastCol = firstSheet.GetCells().GetMaxDataColumn();
     U16String lastColLetter = CellsHelper::ColumnIndexToName(lastCol);
     std::string printArea = "A1:" + lastColLetter.ToUtf8() + std::to_string(lastRow + 1);
     firstSheet.GetPageSetup().SetPrintArea(U16String(printArea.c_str()));
     std::cout << "\nPrint area set to: " << printArea << std::endl;
-    // (6) احفظ المصنف كملف OFD
+    // (6) Save the workbook as an OFD file
     workbook.Save(U16String((dataDir + "SampleBook.ofd").c_str()), SaveFormat::Ofd);
     std::cout << "\nFile successfully converted to OFD format: " << dataDir << "SampleBook.ofd" << std::endl;
     Aspose::Cells::Cleanup();

@@ -39,19 +39,19 @@ Excel iki ayrı parola katmanını destekler. Birincisi açma parolasıdır; dos
 
 ```python
 import aspose.cells as ac
-# Sıfırdan yeni bir çalışma kitabı oluştur
+# Create a new workbook from scratch
 workbook = ac.Workbook()
-# İlk çalışma sayfasının A1 hücresine örnek bir değer yaz
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get("A1").put_value("Sample Data")
-# Yazma korumasını yapılandır: değiştirme parolasını ve yazarı ayarla
+# Configure the write protection: set the password to modify and the author
 workbook.settings.write_protection.password = "ModifyPwd"
 workbook.settings.write_protection.author = "AuthorName"
-# Yazma korumasının kalıcı olması için çalışma kitabını kaydet
+# Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx")
-# Değiştirme parolasını doğru parolayı kullanarak doğrula
+# Validate the password to modify using the correct password
 is_correct_valid = workbook.settings.write_protection.validate_password("ModifyPwd")
 print("ValidatePassword(\"ModifyPwd\") returned: " + str(is_correct_valid))
-# Diğer dalı göstermek için yanlış bir parola kullanarak değiştirme parolasını doğrula
+# Validate the password to modify using an incorrect password to demonstrate the other branch
 is_wrong_valid = workbook.settings.write_protection.validate_password("WrongPwd")
 print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 ```
@@ -61,22 +61,22 @@ print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 
 ```python
 import aspose.cells as ac
-# Yeni bir çalışma kitabı oluştur
+# Create a new workbook
 workbook = ac.Workbook()
-# İkinci bir çalışma sayfası ekle
+# Add a second worksheet
 workbook.worksheets.add()
-# İlk çalışma sayfasının A1 hücresine örnek bir değer yaz
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get(0, 0).put_value("Sample Data")
-# Çalışma kitabı yapısını koru
+# Protect the workbook structure
 workbook.protect(ac.ProtectionType.STRUCTURE, "StructPwd")
-# Çalışma kitabını structure_protected.xlsx olarak kaydet
+# Save the workbook as structure_protected.xlsx
 file_path = "structure_protected.xlsx"
 workbook.save(file_path)
-# Dosyayı yeni bir Çalışma Kitabı örneğine yeniden yükle
+# Reload the file into a new Workbook instance
 loaded_workbook = ac.Workbook(file_path)
-# Yapı korumasını kaldır
+# Remove the structure protection
 loaded_workbook.unprotect("StructPwd")
-# Onay mesajını yazdır
+# Print confirmation message
 print("Structure protection has been successfully removed from the workbook.")
 ```
 

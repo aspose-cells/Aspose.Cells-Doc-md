@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Java 中的值字段
 description: 学习如何在 Aspose.Cells for Java 中将基础字段添加到数据透视表的数据区域，使用 PivotField.Function 更改汇总函数，以及将值字段绘制到行轴或列轴上。
-linktitle: Aspose.Cells for Java 中的值字段
+linktitle: 值字段
 keywords: Aspose.Cells, Java, 数据透视表, 值字段, PivotField, PivotField.Function, 数据字段, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -18,12 +18,12 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// A1:D1 中的表头
+// Headers in A1:D1
 worksheet.getCells().get(0, 0).putValue("Category");
 worksheet.getCells().get(0, 1).putValue("Item");
 worksheet.getCells().get(0, 2).putValue("Year");
 worksheet.getCells().get(0, 3).putValue("Amount");
-// A2:D9 中的数据行，使用嵌套循环根据 j 进行分支
+// Data rows A2:D9 using nested loops branching on j
 for (int i = 1; i <= 8; i++)
 {
  for (int j = 0; j < 4; j++)
@@ -55,9 +55,9 @@ for (int i = 1; i <= 8; i++)
  }
  }
 }
-// 在 F3 处添加名称为 PivotTable1 的数据透视表
+// Add pivot table at F3 with name PivotTable1
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
-// 数据透视表布局：Category 和 Item 作为行，Year 作为列，Amount 作为数据字段
+// Pivot layout: Category and Item on Row, Year on Column, Amount as data field
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");

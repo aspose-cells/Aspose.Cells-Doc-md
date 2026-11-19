@@ -112,18 +112,18 @@ int main() {
     Workbook wb;
     Worksheet worksheet = wb.GetWorksheets().Get(0);
     Cell cell = worksheet.GetCells().Get(u"C6");
-    // Lire le fichier image dans un tableau d'octets
+    // Read the image file into a byte array
     std::ifstream file("logo.png", std::ios::binary);
     std::vector<uint8_t> stdImageData((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
     file.close();
-    // Convertir std::vector en Aspose::Cells::Vector en utilisant le constructeur pointeur+taille
+    // Convert std::vector to Aspose::Cells::Vector using pointer+size constructor
     Vector<uint8_t> imageData(stdImageData.data(), (int32_t)stdImageData.size());
-    // Incorporer l'image directement dans la cellule
+    // Embed the image directly into the cell
     cell.SetEmbeddedImage(imageData);
-    // Optionnellement ajuster la hauteur de ligne et la largeur de colonne pour que l'image incorporée soit plus visible
-    worksheet.GetCells().SetColumnWidth(2, 30);   // Colonne C (index 2)
-    worksheet.GetCells().SetRowHeight(5, 100);    // Ligne 6 (index 5)
-    // Enregistrer le classeur résultant sous forme de fichier .xlsx
+    // Optionally adjust row height and column width so the embedded image is more visible
+    worksheet.GetCells().SetColumnWidth(2, 30);   // Column C (index 2)
+    worksheet.GetCells().SetRowHeight(5, 100);    // Row 6 (index 5)
+    // Save the resulting workbook as an .xlsx file
     wb.Save(u"output.xlsx", SaveFormat::Xlsx);
     Aspose::Cells::Cleanup();
     return 0;

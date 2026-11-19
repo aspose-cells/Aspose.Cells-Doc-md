@@ -1,7 +1,7 @@
 ---
 title: 将 Excel 转换为 OFD 格式
 description: Aspose.Cells for Node.js via Java 是一个用于处理电子表格文件的电子表格库，支持将 Excel 工作簿转换为 OFD（Open Fixed-layout Document，开放版式文档）格式。本文演示了如何创建 Excel 内容并将其导出为 OFD，以及如何使用 Aspose.Cells 将现有的 Excel 文件转换为 OFD。
-linktitle: 将 Excel 转换为 OFD 格式
+linktitle: OFD
 keywords: Aspose.Cells, Node.js via Java 库, 电子表格, Excel 转 OFD, OFD 转换, SaveFormat.Ofd, 固定版式文档, 工作簿导出
 type: docs
 weight: 195
@@ -158,41 +158,41 @@ Aspose.Cells 还可以从磁盘加载现有的 Excel 工作簿，并将其直接
 ```javascript
 const AsposeCells = require("aspose.cells");
 const dataDir = "C:\\Examples\\";
-// 从磁盘打开一个已存在的 Excel 工作簿
+// Open an existing Excel workbook from disk
 const workbook = new AsposeCells.Workbook(dataDir + "SampleBook.xlsx");
-// (1) 读取并显示选定单元格的值，以确认文件已加载
+// (1) Read and display values from selected cells to confirm the file was loaded
 const firstSheet = workbook.getWorksheets().get(0);
 console.log("First sheet name: " + firstSheet.getName());
 console.log("Cell A1: " + firstSheet.getCells().get("A1").getStringValue());
 console.log("Cell B1: " + firstSheet.getCells().get("B1").getStringValue());
 console.log("Cell C1: " + firstSheet.getCells().get("C1").getStringValue());
-// (2) 遍历 Worksheets 集合以枚举可用的工作表
+// (2) Iterate over the Worksheets collection to enumerate available sheets
 console.log("\nAvailable worksheets:");
 for (let i = 0; i < workbook.getWorksheets().getCount(); i++)
 {
     const ws = workbook.getWorksheets().get(i);
     console.log("  [" + i + "] " + ws.getName());
 }
-// (3) 可选地更新时间戳单元格以反映转换操作
+// (3) Optionally update a timestamp cell to reflect the conversion
 firstSheet.getCells().get("A1").putValue("Converted on: " + formatDate(new Date()));
-// 在数据块的顶部添加一个汇总标题行
+// Append a summary header row at the top of the data block
 firstSheet.getCells().insertRow(0);
 firstSheet.getCells().get("A1").putValue("Conversion Summary");
 firstSheet.getCells().get("A2").putValue("Generated: " + formatDate(new Date()));
-// (4) 在工作表上配置 PageSetup 属性
+// (4) Configure PageSetup properties on the worksheet
 const pageSetup = firstSheet.getPageSetup();
 pageSetup.setOrientation(AsposeCells.PageOrientationType.Landscape);
 pageSetup.setPaperSize(AsposeCells.PaperSizeType.PaperA4);
 pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
-// (5) 可选地为 OFD 输出设置打印区域
+// (5) Optionally set the print area for the OFD output
 const lastRow = firstSheet.getCells().getMaxDataRow();
 const lastCol = firstSheet.getCells().getMaxDataColumn();
 const lastColLetter = AsposeCells.CellsHelper.columnIndexToName(lastCol);
 const printArea = "A1:" + lastColLetter + (lastRow + 1);
 firstSheet.getPageSetup().setPrintArea(printArea);
 console.log("\nPrint area set to: " + printArea);
-// (6) 将工作簿另存为 OFD 文件
+// (6) Save the workbook as an OFD file
 workbook.save(dataDir + "SampleBook.ofd", AsposeCells.SaveFormat.OFD);
 console.log("\nFile successfully converted to OFD format: " + dataDir + "SampleBook.ofd");
 function formatDate(date) {

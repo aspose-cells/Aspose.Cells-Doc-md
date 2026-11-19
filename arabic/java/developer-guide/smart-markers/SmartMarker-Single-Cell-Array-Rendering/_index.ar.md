@@ -1,9 +1,9 @@
 ---
-title: عرض مصفوفة خلية واحدة في SmartMarker | Aspose.Cells Java
-description: تعرف على كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمتي ArrayAsSingle و ExtraDelimiter في العلامات الذكية مع Aspose.Cells for Java.
-linktitle: عرض مصفوفة خلية واحدة في SmartMarker | Aspose.Cells
+title: عرض مصفوفة خلية واحدة باستخدام SmartMarker | Aspose.Cells Java
+description: تعلّم كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمات arrayassingle وarraydelimiter للعلامة الذكية في Aspose.Cells for Java.
+linktitle: عرض مصفوفة خلية واحدة باستخدام SmartMarker | Aspose.Cells
 url: /ar/java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
-keywords: Aspose.Cells, مكتبة Java, جدول بيانات, العلامات الذكية, ArrayAsSingle, ExtraDelimiter, مصفوفة خلية واحدة, عرض المصفوفة, قالب
+keywords: Aspose.Cells, مكتبة Java, جدول بيانات, العلامات الذكية, arrayassingle, arraydelimiter, مصفوفة خلية واحدة, عرض المصفوفة, قالب
 type: docs
 weight: 195
 ai_search_scope: cells_java
@@ -11,142 +11,217 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-يدعم Aspose.Cells عرض بيانات المصفوفة في خلية واحدة عبر العلامات الذكية. من خلال استخدام سمة `ArrayAsSingle` جنبًا إلى جنب مع سمة `ExtraDelimiter`، يمكن للمطورين التحكم في كيفية فصل عناصر المصفوفة داخل خلية واحدة، مما يوفر تنسيقًا مرنًا للتقارير والقوالب.
+يمكن لـ Aspose.Cells عرض مصدر بيانات من نوع مصفوفة في خلية واحدة من خلال العلامات الذكية. تعطّل السمة `arrayassingle` التوزيع الافتراضي عنصرًا تلو الآخر، وتحدّد السمة `arraydelimiter` الفاصل الموضوع بين العناصر المدمجة — الفاصلة افتراضيًا، أو أي حرف واحد أو سلسلة متعددة الأحرف بين علامتَي اقتباس تحدّدها.
 {{% /alert %}}
 
 ## **مقدمة**
-تعد العلامات الذكية في Aspose.Cells ميزة قوية قائمة على القوالب تتيح لك تعبئة بيانات جداول البيانات ديناميكيًا باستخدام تعبيرات العلامات مثل `&=DataSource.Field`. يتم وضع العلامة في مصنف المصمم، وعندما تتم معالجة القالب بواسطة `WorkbookDesigner`، يتم استبدال العلامات بقيم من مصدر البيانات المقدم.
-افتراضيًا، عندما تشير علامة ذكية إلى خاصية مصفوفة (على سبيل المثال، `&=DataSource.Numbers`)، يوسع المحرك المصفوفة ويضع كل عنصر في خلية منفصلة متجاورة — إما أفقيًا عبر صف أو رأسيًا أسفل عمود. بينما يكون هذا السلوك ملائمًا في العديد من السيناريوهات، هناك مواقف قد تفضل فيها عرض المصفوفة بأكملها في خلية واحدة، مع تسلسل العناصر وفصلها بواسطة محدد من اختيارك.
-تعالج سمتا `ArrayAsSingle` و `ExtraDelimiter`، المستخدمتين معًا داخل علامة ذكية، هذا المتطلب بالتحديد. تسمحان لك بالحفاظ على تخطيطات التقارير مضغوطة ويمكن التنبؤ بها مع العمل أصلاً مع مصادر بيانات المصفوفات.
+
+العلامات الذكية في Aspose.Cells هي ميزة قائمة على القوالب تملأ بيانات جدول البيانات ديناميكيًا باستخدام تعبيرات العلامات مثل `&=DataSource.Field`. تُوضع العلامة في مصنف مصمم، وعندما يعالج `WorkbookDesigner` القالب، تُستبدل العلامات بالقيم من مصدر البيانات المقدم.
+افتراضيًا، عندما تشير علامة ذكية إلى خاصية مصفوفة (على سبيل المثال، `&=Product.Tags` مرتبطة بمصفوفة `String[]` تضم أربع قيم)، يوسّع المحرك المصفوفة ويضع كل عنصر في خلية خاصة به، موزعًا القيم عموديًا داخل العمود الموجود أسفل العلامة. ورغم أن هذا السلوك مريح في سيناريوهات كثيرة، هناك حالات تفضّل فيها عرض المصفوفة بأكملها في خلية واحدة، مع دمج عناصرها وفصلها بفاصل تختاره.
+تلبّي السمتان `arrayassingle` و`arraydelimiter`، المكتوبتان داخل أقواس العلامة الذكية بصيغة `name:value`، هذا المتطلب تحديدًا. تتيحان لك إبقاء تخطيطات التقارير مضغوطة ومتوقعة مع الاستمرار في العمل أصلًا مع مصادر بيانات المصفوفات.
 
 ## **لماذا هذه الميزة مطلوبة**
 
-### **سلوك انتشار المصفوفة الافتراضي**
-عندما تشير علامة ذكية إلى خاصية مصفوفة، يوسع Aspose.Cells المصفوفة عبر خلايا متعددة افتراضيًا. على سبيل المثال، ستضع علامة مثل `&=Product.Tags` ضد `string[]` تحتوي على أربع قيم، كل قيمة في خليتها الخاصة، مما يدفع محتوى القالب الآخر إلى الخارج ويحتمل أن يكسر تخطيطات التقارير المصممة بعناية.
+### **سلوك توزيع المصفوفات الافتراضي**
+
+عندما تشير علامة ذكية إلى خاصية مصفوفة، يوسّع Aspose.Cells المصفوفة عبر خلايا متعددة افتراضيًا. على سبيل المثال، توضع علامة مثل `&=Product.Tags` مقابل `String[]` تحتوي على أربع قيم في خلية خاصة بكل قيمة أسفل العلامة، مما يدفع بقية محتوى القالب إلى الخارج وقد يعطّل تخطيطات التقارير المصممة بعناية.
 
 ### **قيود حالات الاستخدام**
-توجد العديد من السيناريوهات العملية التي يكون فيها سلوك الانتشار الافتراضي غير مرغوب فيه:
-- **التقارير بأسلوب الملخص** التي تحتاج إلى تخطيط مضغوط من صف واحد لكل سجل.
-- **قوائم العلامات أو التسميات أو الكلمات الرئيسية** التي تحتاج إلى عرضها كقيم مفصولة بفواصل أو أنابيب داخل خلية واحدة.
-- **رقائق التصفية أو مؤشرات الحالة** التي تجمع قيمًا متعددة في مكان واحد لسهولة القراءة.
-- **خطوط أنابيب المصب** (تصدير CSV، عرض PDF، دمج البريد) التي تتوقع قيمة موحدة واحدة لكل خلية بدلاً من نطاق موسع.
-- **التوافق عبر المنصات**، حيث لا يمكن لبعض المستهلكين التعامل مع المصفوفات التي تنتشر عبر خلايا متعددة.
 
-### **الفجوة التي تسدها**
-بدون آلية مدمجة، سيُجبر المطورون على معالجة البيانات مسبقًا في Java — دمج المصفوفات في سلاسل مفصولة بمحدد قبل ربطها بمصمم المصنف. يضاعف هذا المنطق، ويعقد نماذج البيانات، ويزيد من فرصة الأخطاء. تلغي سمتا `ArrayAsSingle` و `ExtraDelimiter` هذا الحل البديل من خلال التعامل مع التنسيق بشكل تصريحي داخل العلامة الذكية نفسها.
+توجد العديد من السيناريوهات العملية التي يكون فيها سلوك التوزيع الافتراضي غير مرغوب فيه:
+- **تقارير بأسلوب الملخصات** التي تحتاج إلى تخطيط مضغوط بصف واحد لكل سجل.
+- **قوائم الوسوم أو التسميات أو الكلمات المفتاحية** التي يلزم عرضها كقيم مفصولة بفواصل أو بالشرطة العمودية داخل خلية واحدة.
+- **رقائق التصفية أو مؤشرات الحالة** التي تجمع قيمًا متعددة في موضع واحد لتسهيل القراءة.
+- **خطوط المعالجة التالية** (تصدير CSV، وعرض PDF، ودمج البريد) التي تتوقع قيمة موحدة واحدة لكل خلية بدلًا من نطاق موسَّع.
+- **التوافق عبر المنصات**، حيث لا تتحمل بعض الجهات المستهلكة المصفوفات التي تمتد عبر خلايا متعددة.
 
-## **فوائد الميزة**
-يوفر استخدام سمتي `ArrayAsSingle` و `ExtraDelimiter` في العلامات الذكية الخاصة بك العديد من المزايا:
-- **الاحتواء في خلية واحدة**: يتم عرض جميع عناصر المصفوفة في خلية واحدة بالضبط، مما يحافظ على التخطيطات مضغوطة ويمكن التنبؤ بها.
-- **التحكم في المحدد المخصص**: حدد أي سلسلة فاصل تريدها — فاصلة، فاصلة منقوطة، واصلة، أنبوب، سطر جديد، أو أي نص مخصص.
-- **التنسيق القائم على القالب**: لا حاجة إلى كود إضافي لمعالجة البيانات مسبقًا؛ تعيش قواعد التنسيق داخل العلامة الذكية.
+### **الفجوة التي تسدّها**
+
+بدون آلية مدمجة، سيضطر المطوّرون إلى المعالجة المسبقة للبيانات في Java — أي دمج المصفوفات في نصوص مفصولة قبل ربطها بمصمم المصنف. وهذا يكرر المنطق، ويضيف تعقيدًا إلى نماذج البيانات، ويزيد احتمال وقوع الأخطاء. تزيل السمتان `arrayassingle` و`arraydelimiter` الحاجة إلى هذا النهج الالتفافي عبر التعامل مع التنسيق بشكل تصريحي داخل العلامة الذكية نفسها.
+
+## **مزايا الميزة**
+
+يوفر استخدام السمتين `arrayassingle` و`arraydelimiter` في العلامات الذكية عدة مزايا:
+- **الاحتواء في خلية واحدة**: تُعرض جميع عناصر المصفوفة في خلية واحدة بالضبط، مما يحافظ على تخطيطات مضغوطة ومتوقعة.
+- **التحكم في الفاصل المخصص**: حدد الفاصل الذي تفضّله — الفاصلة الافتراضية، أو فاصلة منقوطة، أو شرطة، أو شرطة عمودية، أو نص متعدد الأحرف بين علامتَي اقتباس مثل `" | "`.
+- **التنسيق المبني على القالب**: لا يلزم أي رمز إضافي للمعالجة المسبقة للبيانات؛ reside قواعد التنسيق داخل وسم العلامة الذكية.
 - **تقارير أنظف**: لم تعد بيانات المصفوفة تدفع محتوى القالب المجاور إلى صفوف أو أعمدة مختلفة.
-- **أنواع بيانات متعددة الاستخدامات**: تعمل مع السلاسل والأرقام والتواريخ وأي نوع بيانات آخر يمكن دمجه مع محدد.
-- **التوافق العكسي**: عند حذف السمات، يتم الحفاظ على سلوك الانتشار الأصلي، لذلك تستمر القوالب الموجودة في العمل دون تغيير.
+- **أنواع بيانات مرنة**: يعمل مع مصفوفات النصوص والقيم الرقمية المعروضة كنصوص من مصادر بيانات JavaBean.
+- **التوافق الخلفي**: عند حذف السمتين، يبقى سلوك التوزيع الأصلي كما هو، لذا تواصل القوالب الحالية العمل دون تغيير.
 
 ## **كيفية استخدام هذه الميزة**
 
-### **صيغة العلامة الذكية**
-يتم تمرير سمتي `ArrayAsSingle` و `ExtraDelimiter` كأزواج قيمة-مفتاح داخل أقواس العلامة الذكية القياسية. الصيغة العامة هي:
+### **صياغة العلامة الذكية**
+
+تستخدم السمتان `arrayassingle` و`arraydelimiter` قواعد السمات `name:value` الخاصة بـ Aspose.Cells داخل أقواس العلامة الذكية القياسية. الصيغة العامة هي:
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayProperty(arrayassingle:true,arraydelimiter:;)
 ```
 
 تتكون العلامة من الأجزاء التالية:
-- `&=DataSource.ArrayProperty` — العلامة الذكية القياسية التي تشير إلى خاصية المصفوفة على مصدر البيانات المنضم.
-- `arrayasSingle=true` — يوجه المحرك لعرض المصفوفة بأكملها في خلية واحدة. فقط القيمة `true` تؤدي إلى سلوك الخلية الواحدة.
-- `extraDelimiter=", "` — يحدد الفاصل الموضوع بين عناصر المصفوفة. القيمة هي سلسلة حرفية؛ يمكن أن تكون فارغة أو حرفًا واحدًا أو سلسلة متعددة الأحرف.
+- `&=DataSource.ArrayProperty` — العلامة الذكية القياسية التي تشير إلى خاصية المصفوفة في مصدر البيانات المرتبط.
+- `arrayassingle:true` — يوجّه المحرك إلى عرض المصفوفة بالكامل في خلية واحدة بدلًا من توزيع عناصرها.
+- `arraydelimiter:;` — اختيارية؛ تحدد الفاصل الموضوع بين عناصر المصفوفة. وعند حذفها، تُستخدم الفاصلة.
 
-{{% alert color="primary" %}}
-تقبل سمة `extraDelimiter` أي سلسلة حرفية، بما في ذلك المحددات متعددة الأحرف، أو النص المخصص، أو تسلسلات الهروب مثل `\n` للإخراج المفصول بسطر جديد. إذا كانت المصفوفة فارغة، فستترك الخلية الناتجة فارغة.
+{{% alert color="warning" %}}
+اكتب السمات بصيغة `name:value` (نقطتان، لا علامة يساوي) وافصل بين السمات المتعددة بفاصلة **من دون مسافات**. إن أضفت مسافة بعد الفاصلة، ستتغير القيمة المحلَّلة بمقدار حرف واحد — فسيؤدي `(arrayassingle:true, arraydelimiter:;)` إلى الدمج باستخدام الفاصل الخاطئ `:;` بدلًا من `;`.
 {{% /alert %}}
 
-### **سير العمل خطوة بخطوة**
-يصف سير العمل التالي كيفية عرض مصفوفة في خلية واحدة باستخدام العلامات الذكية.
-1. **تحضير مصدر البيانات**: أنشئ فئة (أو بنية بيانات) تعرض خاصية تُرجع مصفوفة. يمكن للخاصية إرجاع `String[]`، أو `int[]`، أو أي نوع مصفوفة مدعوم آخر.
-2. **إنشاء مصنف مصمم**: أنشئ `Workbook` جديدًا، وأضف صف رأس، وضع خلية علامة ذكية تشير إلى خاصية المصفوفة بسمتي `arrayasSingle` و `extraDelimiter`.
-3. **إنشاء مثيل WorkbookDesigner**: أنشئ كائن `WorkbookDesigner`، وأرفق مصنف المصمم به، واربط مصدر البيانات الخاص بك باستخدام طريقة `setDataSource`.
-4. **معالجة العلامات**: استدعِ طريقة `WorkbookDesigner.process()` لتوسيع العلامات الذكية وتعبئة المصنف بالبيانات الحقيقية.
-5. **حفظ النتيجة**: احفظ المصنف الناتج على القرص بصيغة XLSX أو أي صيغة ملف مدعومة أخرى.
+### **أشكال الفاصل**
 
-### **مثال الكود 1 — عرض مصفوفة سلسلة أساسية**
+- يتبع النقطتين حرف واحد مباشرة: `arraydelimiter:;`، `arraydelimiter:-`، `arraydelimiter:*`.
+- يُكتب الفاصل متعدد الأحرف بين علامتَي اقتباس مزدوجتين: `arraydelimiter:" | "`، `arraydelimiter:" - "`.
+
+### **سير العمل خطوة بخطوة**
+
+يصف سير العمل التالي كيفية عرض مصفوفة في خلية واحدة باستخدام العلامات الذكية.
+1. **جهّز مصدر البيانات**: أنشئ صنف JavaBean مع دالة وصول تُرجع المصفوفة، مثل `String[] getTags()`، واربط قائمة `java.util.List` من كائنات JavaBean بحيث يقرأ المحرك سجلًا واحدًا لكل صف. الحقول العامة وحدها لا تُربط — يقرأ المحرك دوال الوصول في JavaBean.
+2. **أنشئ مصنفًا مصممًا**: أنشئ كائن `Workbook` جديدًا، وأضف صف عنوان، وضع خلية علامة ذكية تشير إلى خاصية المصفوفة مع السمة `arrayassingle` (و`arraydelimiter` عند الحاجة إلى فاصل مخصص).
+3. **أنشئ WorkbookDesigner**: أنشئ كائن `WorkbookDesigner` حول المصنف واربط قائمتك باستخدام `setDataSource`.
+4. **عالج العلامات**: استدعِ الأسلوب `WorkbookDesigner.process()` لتوسيع العلامات الذكية وملء المصنف بالبيانات الفعلية.
+5. **احفظ النتيجة**: احفظ المصنف الناتج على القرص بصيغة XLSX أو أي تنسيق ملف مدعوم آخر.
+
+### **مثال الشيفرة 1 — العرض الأساسي لمصفوفة نصوص**
 
 ```java
 import com.aspose.cells.*;
-class Product {
-    public String[] Tags;
-}
+import java.util.*;
+
 public class CodeRunner {
+    // The bean must be public and expose a getter; public fields bind nothing
+    public static class Product {
+        private String[] tags;
+        public String[] getTags() { return tags; }
+        public void setTags(String[] tags) { this.tags = tags; }
+    }
+
     public static void main(String[] args) throws Exception {
         Product product = new Product();
-        product.Tags = new String[] { "C#", "Aspose", "SmartMarker", "Excel" };
+        product.setTags(new String[] { "C#", "Aspose", "SmartMarker", "Excel" });
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);
         worksheet.getCells().get("A1").putValue("Tags");
-        worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")");
-        WorkbookDesigner designer = new WorkbookDesigner();
-        designer.setWorkbook(workbook);
-        designer.setDataSource("Product", product);
+        // No spaces inside the parentheses: attributes are name:value pairs
+        worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.setDataSource("Product", Arrays.asList(product));
         designer.process();
-        workbook.save("output_arraySingle.xlsx");
+        System.out.println(worksheet.getCells().get("A2").getStringValue());
+        workbook.save("output-array-single.xlsx");
     }
 }
 ```
 
-### **مثال الكود 2 — مصفوفة رقمية بمحدد مخصص**
+يطبع المثال القيمة المدمجة للمصفوفة بأكملها. تقع الوسوم الأربعة في خلية واحدة مفصولة بفاصلة افتراضية:
+
+```
+C#,Aspose,SmartMarker,Excel
+```
+
+### **مثال الشيفرة 2 — القيم الرقمية مع فاصل مخصص**
 
 ```java
 import com.aspose.cells.*;
-class Student
-{
-    public int[] Scores;
-}
-public class CodeRunner
-{
-    public static void main(String[] args) throws Exception
-    {
+import java.util.*;
+
+public class CodeRunner {
+    public static class Student {
+        private String[] scores;
+        public String[] getScores() { return scores; }
+        public void setScores(String[] scores) { this.scores = scores; }
+    }
+
+    public static void main(String[] args) throws Exception {
         Student student = new Student();
-        student.Scores = new int[] { 95, 88, 76, 100, 67 };
+        student.setScores(new String[] { "95", "88", "76", "100", "67" });
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);
         worksheet.getCells().get("A1").putValue("Scores");
-        StringBuilder joined = new StringBuilder();
-        for (int i = 0; i < student.Scores.length; i++)
-        {
-            if (i > 0) joined.append(" - ");
-            joined.append(student.Scores[i]);
-        }
-        worksheet.getCells().get("A2").putValue(joined.toString());
-        workbook.save("output_numericArray.xlsx");
+        // arraydelimiter:- joins the values with a hyphen
+        worksheet.getCells().get("A2").putValue("&=Student.Scores(arrayassingle:true,arraydelimiter:-)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.setDataSource("Student", Arrays.asList(student));
+        designer.process();
+        System.out.println(worksheet.getCells().get("A2").getStringValue());
+        workbook.save("output-array-numeric.xlsx");
     }
 }
 ```
 
-### **مثال الكود 3 — مقارنة السلوك الافتراضي مقابل ArrayAsSingle**
+تدمج القيم الرقمية تمامًا مثل النصوص عندما تُرجع خاصية المصفوفة `String[]`:
+
+```
+95-88-76-100-67
+```
+
+{{% alert color="note" %}}
+اجعل خاصية المصفوفة من النوع `String[]` في Java. فعند دمج خاصية من النوع الأولي `int[]` في خلية واحدة، يُعرض النص الناتج عن toString لكائن المصفوفة (مثل `[I@1a2b3c4d`) بدلًا من الأرقام، لأن عملية الدمج تعمل على الصيغة النصية لكل عنصر وتعد المصفوفة الأولية عنصرًا واحدًا غير شفاف.
+{{% /alert %}}
+
+### **مثال الشيفرة 3 — مقارنة العرض الافتراضي بالعرض في خلية واحدة**
 
 ```java
-class Order
-{
-    private String[] items;
-    public String[] getItems()
-    {
-        return items;
+import com.aspose.cells.*;
+import java.util.*;
+
+public class CodeRunner {
+    public static class Order {
+        private String[] items;
+        public String[] getItems() { return items; }
+        public void setItems(String[] items) { this.items = items; }
     }
-    public void setItems(String[] items)
-    {
-        this.items = items;
+
+    public static void main(String[] args) throws Exception {
+        Order order = new Order();
+        order.setItems(new String[] { "Apple", "Banana", "Cherry", "Date" });
+        Workbook workbook = new Workbook();
+        Cells cells = workbook.getWorksheets().get(0).getCells();
+        // Column B: default marker — values spread vertically down the column
+        cells.get("B1").putValue("Default");
+        cells.get("B2").putValue("&=Order.Items");
+        // Column C: single-cell rendering — the whole array joins into one cell
+        cells.get("C1").putValue("Single cell");
+        cells.get("C2").putValue("&=Order.Items(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.setDataSource("Order", Arrays.asList(order));
+        designer.process();
+        for (int row = 1; row <= 5; row++) {
+            String b = cells.get(row, 1).getStringValue();
+            String c = cells.get(row, 2).getStringValue();
+            if (b != null && !b.isEmpty() || c != null && !c.isEmpty())
+                System.out.println("B" + (row + 1) + "=[" + b + "]  C" + (row + 1) + "=[" + c + "]");
+        }
+        workbook.save("output-array-comparison.xlsx");
     }
 }
+```
+
+تملأ العلامة الافتراضية خلية واحدة لكل عنصر في العمود B، بينما تجمع علامة `arrayassingle` المصفوفة نفسها في خلية واحدة في العمود C:
+
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
 ```
 
 ### **ملاحظات وأفضل الممارسات**
-ضع النقاط التالية في اعتبارك عند العمل مع سمتي `ArrayAsSingle` و `ExtraDelimiter`:
-- تُعامل قيمة `extraDelimiter` كسلسلة حرفية؛ قم بإفلات أي أحرف خاصة قد يفسرها معالج القالب الخاص بك.
-- تقبل سمة `arrayasSingle` قيمة منطقية (`true` / `false`). فقط `true` يؤدي إلى سلوك الخلية الواحدة؛ أي قيمة أخرى تعود إلى سلوك الانتشار الافتراضي.
-- إذا كانت المصفوفة فارغة أو null، فستترك الخلية فارغة (أو تحتوي على سلسلة فارغة اعتمادًا على نوع البيانات).
-- تعمل الميزة مع مصادر بيانات الكائنات بالإضافة إلى مصادر `DataSet` و `DataTable` حيث يمكن تقسيم عمود إلى مصفوفات.
-- للإخراج المفصول بسطر جديد، يمكنك استخدام `\n` أو `System.lineSeparator()` كقيمة المحدد.
-- ضع العلامة الذكية في خلية ذات عرض كافٍ لعرض السلسلة المتسلسلة الناتجة؛ وإلا، فقد يفيض المحتوى بصريًا إلى الخلايا المجاورة اعتمادًا على التنسيق.
+
+ضع النقاط التالية في الاعتبار عند العمل مع السمتين `arrayassingle` و`arraydelimiter`:
+- تستخدم قيم السمات صيغة `name:value`. ولا يتعرف النظام على صيغة علامة يساوي مثل `arrayassingle=true`، فيلجأ بهدوء إلى سلوك التوزيع الافتراضي.
+- افصل بين السمات بفاصلة ودون مسافات؛ فالمسافة بعد الفاصلة تغيّر قيمة الفاصل بمقدار حرف واحد (راجع التحذير أعلاه).
+- قد تكون قيمة `arraydelimiter` حرفًا واحدًا يُكتب مباشرة بعد النقطتين، أو نصًا متعدد الأحرف ملفوفًا بعلامتَي اقتباس مزدوجتين.
+- عند حذف `arraydelimiter`، تُدمج العناصر بفاصلة.
+- اربط قائمة `java.util.List` من كائنات JavaBean العامة التي تحتوي على دوال وصول تُرجع مصفوفات. فكائن JavaBean منفرد أو الحقول العامة وحدها يتركان العلامات غير محلولة.
+- احتفظ بخصائص المصفوفات من النوع `String[]`؛ فالمصفوفة الأولية `int[]` تعرض نص toString الخاص بها عند الدمج (راجع الملاحظة أعلاه).
+- ضع العلامة الذكية في خلية ذات عرض كافٍ لعرض النص المدمج الناتج؛ وإلا، فقد يفيض المحتوى بصريًا إلى الخلايا المجاورة بحسب تنسيق الملف.
+
+## المقالات ذات الصلة
+- [إضافة حقول التصفية إلى جدول محوري في Aspose.Cells for Java](/cells/ar/java/add-page-field-in-pivot-table/)
+- [تطبيق الأنماط على الجداول المحورية في Aspose.Cells for Java](/cells/ar/java/apply-style-to-pivot-table/)
+- [تعديل تخطيط حقل الصفحة في الجدول المحوري](/cells/ar/java/change-page-field-layout/)
+- [تحويل الخط المصغر إلى صورة وHTML في Aspose.Cells for Java](/cells/ar/java/convert-sparkline-to-image-and-html/)
+- [تحويل Excel إلى تنسيق OFD](/cells/ar/java/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="java" >}}

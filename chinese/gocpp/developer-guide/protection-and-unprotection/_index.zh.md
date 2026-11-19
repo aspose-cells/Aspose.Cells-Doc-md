@@ -1,6 +1,6 @@
 ---
 title: 使用 Go 进行保护和取消保护
-linktitle: 使用 Go 进行保护和取消保护
+linktitle: 加密与保护
 description: 此代码片段介绍了如何使用 Go 代码加密和解密 Excel 文件，以及保护并取消保护 Excel 文件中的数据。
 keywords: Aspose.Cells, Go via C++, 加密, 解密, 密码, 保护, 取消保护, 工作簿保护, 工作表保护, 共享工作簿, Go
 type: docs

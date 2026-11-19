@@ -1,6 +1,6 @@
 ---
 title: 在 Aspose.Cells for .NET 中将样式应用于数据透视表
-linktitle: 在 Aspose.Cells for .NET 中将样式应用于数据透视表
+linktitle: 应用数据透视表样式
 description: 了解如何在 Aspose.Cells for .NET 中将内置样式和自定义样式应用于数据透视表，内容涵盖旧版 XLS 自动格式、现代 Excel 2007+ 命名样式、自定义数据透视表样式以及 FormatAll 快捷方式。
 keywords: Aspose.Cells for .NET 数据透视表样式, PivotTableStyleType, AutoFormatType, FormatAll, 自定义样式, PivotTableStyleName, TableStyles
 type: docs
@@ -32,16 +32,16 @@ Aspose.Cells 为数据透视表提供两套并行的样式 API。选择哪一套
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// 场景 1：应用旧版 XLS 预设自动格式
-// 使用的 API：PivotTable.AutoFormatType
-// 目标文件格式：.xls（旧版）
-// 如需完整示例和数据文件，请访问 https://github.com/aspose-cells/Aspose.Cells-for-.NET
-// 创建新工作簿
+// Scenario 1: Apply a legacy XLS preset autoformat
+// API in use: PivotTable.AutoFormatType
+// Target file format: .xls (legacy)
+// For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+// Create a new workbook
 Workbook workbook = new Workbook();
-// 获取第一个工作表
+// Get the first worksheet
 Worksheet sheet = workbook.Worksheets[0];
-// 填充源数据，包括标题行（Fruit、Year、Amount）
-// 以及涵盖 2020 年和 2021 年 grape、blueberry、kiwi、cherry 的 9 行数据
+// Populate the source data with header row (Fruit, Year, Amount)
+// and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.Cells[0, 0].PutValue("Fruit");
 sheet.Cells[0, 1].PutValue("Year");
 sheet.Cells[0, 2].PutValue("Amount");
@@ -72,17 +72,17 @@ sheet.Cells[8, 2].PutValue(45);
 sheet.Cells[9, 0].PutValue("grape");
 sheet.Cells[9, 1].PutValue(2020);
 sheet.Cells[9, 2].PutValue(45);
-// 使用源范围 A1:C10，在目标单元格 E3 添加一个名为 的数据透视表
+// Add a pivot table at destination cell E3, using source range A1:C10
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C10", 2, 4);
-// 分配字段：Fruit -> 行，Amount -> 数据
+// Assign fields: Fruit -> Rows, Amount -> Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// 应用旧版 XLS 预设自动格式 "Report5"
-// 注意：仅在保存为 .xls 时此属性才有意义。
-// 保存为 .xlsx/.xlsm/.xlsb 时，Excel 会忽略 AutoFormatType
-// 并使用 PivotTableStyleType / PivotTableStyleName 指定的样式。
+// Apply the legacy XLS preset autoformat "Report5"
+// Note: This property is only meaningful when saving as .xls.
+// When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+// and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivotTable.AutoFormatType = PivotTableAutoFormatType.Report5;
-// 将工作簿保存为旧版 .xls 格式
+// Save the workbook in legacy .xls format
 workbook.Save("output.xls");
 ```
 
@@ -100,17 +100,17 @@ workbook.Save("output.xls");
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// 场景 2：使用 PivotTableStyleType 应用现代 Excel 2007+ 命名预设样式。
-// 目标文件格式：.xlsx。PivotTableStyleType 枚举位于 Aspose.Cells 命名空间中
-// （而不是 Aspose.Cells.Pivot）-- 因此无需为它添加任何额外的 using 指令。
-// GitHub 引用：https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+// Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+// Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+// (not in Aspose.Cells.Pivot) -- that is why we do not need any extra using for it.
+// GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// 表头行：Fruit / Year / Amount
+// Header row: Fruit / Year / Amount
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
-// 9 行 Fruit / Year / Amount 数据
+// 9 data rows of Fruit / Year / Amount
 worksheet.Cells["A2"].PutValue("Grape");
 worksheet.Cells["B2"].PutValue(2020);
 worksheet.Cells["C2"].PutValue(100);
@@ -138,19 +138,19 @@ worksheet.Cells["C9"].PutValue(190);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(130);
-// 在 E3 处添加一个名为 的数据透视表，数据源为 A1:C10
+// Add a pivot table at E3, sourced from A1:C10
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
-// 分配透视字段：Fruit -> Row 区域，Year -> Column 区域，Amount -> Data 区域
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// 应用现代 Excel 2007+ 命名预设数据透视样式。
-// PivotTableStyleType 是 .xlsx / .xlsm / .xlsb 文件的正确 API；对于这些格式，Excel 会忽略
-// AutoFormatType。PivotTableStyleDark1 属于深色主题
-// 系列 (PivotTableStyleDark1..PivotTableStyleDark28)，同一枚举还公开了
-// 较新的 Excel 2017 浅色/深色主题 (PivotTableStyleLight1..Light28 / Dark1..Dark28)。
+// Apply a modern Excel 2007+ named preset pivot style.
+// PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+// is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+// family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+// newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
 pivotTable.PivotTableStyleType = PivotTableStyleType.PivotTableStyleDark1;
-// 保存为现代 .xlsx 格式 -- PivotTableStyleType 仅对此格式有效。
+// Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
 workbook.Save("output.xlsx");
 ```
 
@@ -174,7 +174,7 @@ using System.Drawing;
 using Aspose.Cells.Tables;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// 填充源数据：标题行 + 9 个数据行 (A1:C10)
+// Populate source data: header row + 9 data rows (A1:C10)
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
@@ -205,15 +205,15 @@ worksheet.Cells["C9"].PutValue(800);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(900);
-// 添加数据源为 A1:C10、锚定于 E3 且名为 的数据透视表
+// Add pivot table sourced from A1:C10, anchored at E3
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// 第 1 步：注册新的自定义数据透视表样式并获取其索引
+// Step 1: register a new custom pivot table style and capture its index
 int styleIndex = workbook.Worksheets.TableStyles.AddPivotTableStyle("CustomPivotStyle");
 TableStyle tableStyle = workbook.Worksheets.TableStyles[styleIndex];
-// 第 2 步：添加 WholeTable 元素并为四个边应用黑色细边框
+// Step 2: add a WholeTable element and apply thin black borders on all four sides
 int wholeTableElementIndex = tableStyle.TableStyleElements.Add(TableStyleElementType.WholeTable);
 TableStyleElement wholeTableElement = tableStyle.TableStyleElements[wholeTableElementIndex];
 Style wholeTableStyle = workbook.CreateStyle();
@@ -226,14 +226,14 @@ wholeTableStyle.Borders[BorderType.LeftBorder].Color = Color.Black;
 wholeTableStyle.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
 wholeTableStyle.Borders[BorderType.RightBorder].Color = Color.Black;
 wholeTableElement.SetElementStyle(wholeTableStyle);
-// 第 3 步：添加 GrandTotalRow 元素并应用红色粗体字体
+// Step 3: add a GrandTotalRow element and apply bold red font
 int grandTotalElementIndex = tableStyle.TableStyleElements.Add(TableStyleElementType.GrandTotalRow);
 TableStyleElement grandTotalElement = tableStyle.TableStyleElements[grandTotalElementIndex];
 Style grandTotalStyle = workbook.CreateStyle();
 grandTotalStyle.Font.IsBold = true;
 grandTotalStyle.Font.Color = Color.Red;
 grandTotalElement.SetElementStyle(grandTotalStyle);
-// 第 4 步：按名称应用自定义样式（不要使用 PivotTableStyleType，后者用于内置预设）
+// Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivotTable.PivotTableStyleName = "CustomPivotStyle";
 workbook.Save("output.xlsx");
 ```
@@ -252,13 +252,13 @@ using System.Drawing;
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-// 场景 4：使用 FormatAll 将单个 Style 应用到数据透视表的每个单元格
-// 使用的 API：PivotTable.FormatAll(Style)
-// 目标格式：.xlsx
-// GitHub 参考：请参阅 Aspose.Cells-for-.NET 仓库 — 数据透视表样式示例
+// Scenario 4: Apply a single Style to every pivot table cell using FormatAll
+// API in use: PivotTable.FormatAll(Style)
+// Target format: .xlsx
+// GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// 填充源数据：表头行（第 1 行） + 9 行数据（第 2-10 行）
+// Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.Cells["A1"].PutValue("Fruit");
 worksheet.Cells["B1"].PutValue("Year");
 worksheet.Cells["C1"].PutValue("Amount");
@@ -289,13 +289,13 @@ worksheet.Cells["C9"].PutValue(2500);
 worksheet.Cells["A10"].PutValue("Grape");
 worksheet.Cells["B10"].PutValue(2021);
 worksheet.Cells["C10"].PutValue(5500);
-// 添加数据透视表：源区域 A1:C10，目标单元格 E3，名称
+// Add pivot table: source range A1:C10, destination cell E3
 PivotTable pivotTable = worksheet.PivotTables.Add("A1:C10", 2, 4);
-// 分配透视字段：Fruit -> 行区域，Year -> 列区域，Amount -> 数据区域
+// Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
-// 创建一个将强制应用于数据透视表每个单元格的 Style
+// Build a Style that will be forced onto every cell of the pivot table
 Style style = workbook.CreateStyle();
 style.ForegroundColor = Color.Yellow;
 style.Pattern = BackgroundType.Solid;
@@ -309,10 +309,10 @@ style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thin;
 style.Borders[BorderType.LeftBorder].Color = Color.Black;
 style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thin;
 style.Borders[BorderType.RightBorder].Color = Color.Black;
-// 应用 FormatAll：将此单个样式强制应用到数据透视表的每个单元格，
-// 覆盖之前设置的任何 PivotTableStyleType / PivotTableStyleName
+// Apply FormatAll: forces this single style onto every cell of the pivot table,
+// overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivotTable.FormatAll(style);
-// 以现代 .xlsx 格式保存工作簿
+// Save the workbook in the modern .xlsx format
 workbook.Save("output.xlsx");
 ```
 

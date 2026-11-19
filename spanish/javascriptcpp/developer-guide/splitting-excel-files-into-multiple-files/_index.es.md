@@ -1,6 +1,6 @@
 ---
 title: Dividir archivos Excel en varios archivos
-linktitle: Dividir archivos Excel en varios archivos
+linktitle: Dividir archivos Excel en varios
 description: Aspose.Cells for JavaScript via C++ es una biblioteca JavaScript via C++ para trabajar con archivos de hojas de cálculo, que admite dividir un único archivo Excel en varios archivos, este artículo presentará cómo dividir archivos Excel copiando cada hoja de cálculo a un libro de trabajo separado y copiando rangos de celdas específicos a otros libros de trabajo
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++ biblioteca, hoja de cálculo, dividir archivo Excel, copiar hoja de cálculo, copiar rango, varios libros de trabajo, guardar como archivos separados
 type: docs

@@ -1,8 +1,8 @@
 ---
-title: Aspose.Cells for C++ ile Pivot Tablosunda Değerleri Göster
-linktitle: Aspose.Cells for C++ ile Pivot Tablosunda Değerleri Göster
-description: Aspose.Cells for C++ ile pivot tablo veri alanı değerlerini toplamın yüzdesi, bir temel öğeden fark, kümülatif toplamlar, sıralamalar ve daha fazlası olarak gösterin.
-keywords: Aspose.Cells, C++, pivot tablo, değerleri göster, veri gösterim formatı, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex
+title: Aspose.Cells for C++ ile Özet Tablosunda Değerler Şöyle Göster
+linktitle: Aspose.Cells for C++ ile Özet Tablosunda Değerler Şöyle Göster
+description: Özet tablosu veri alanı değerlerini toplamın yüzdesi, temel öğeden fark, kümülatif toplamlar, sıralamalar ve daha fazlası olarak Aspose.Cells for C++ ile gösterin.
+keywords: Aspose.Cells, C++, özet tablo, değerler şöyle göster, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, ShowValuesAs, BaseFieldIndex, BaseItemIndex
 type: docs
 weight: 145
 url: /tr/cpp/show-values-as-in-pivot-table/
@@ -11,46 +11,51 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Olası Kullanım Senaryoları**
-Bir Pivot Tablosu genellikle her veri alanını `Sum` veya `Count` gibi bir toplama işleviyle toplar. Excel'in **Show Values As** özelliği, her gösterilen sonucu bu toplamdan türetilen ikinci bir hesaplama ile değiştirir—örneğin, toplamın yüzde oranı, kümülatif toplam, seçilen bir temel öğeden fark veya sıralama—böylece yardımcı formüller veya hesaplanmış sütunlar olmadan karşılaştırmalı analiz yapabilirsiniz. Tipik kullanım senaryoları, toplam payı analizini içerir; satır, sütun veya toplamın yüzde oranları; bir dönem alanında kümülatif toplam kullanarak birikimli raporlama; bir temel öğeden fark veya yüzde farkı kullanarak bir benchmark öğesine karşı varyans analizi; ve değerleri en küçüğünden en büyüğüne veya en büyükten en küçüğüne sıralamayı içerir. Aspose.Cells for C++'da, `PivotFieldDataDisplayFormat` ikinci hesabı seçer. `PivotField.GetShowValuesSetting()` erişimcisi bir `PivotShowValuesSetting` nesnesi döndürür; bu nesnenin `SetCalculationType`, `SetBaseFieldIndex`, `SetBaseItemPositionType` ve `SetBaseItemIndex` yöntemleri davranışı yapılandırır; kullanım kolaylığı sağlayan `PivotField.ShowValuesAs(...)` yöntemi aynı dört ayarı tek bir çağrıda uygular. Bu ayarları `PivotTable.GetDataFields()` ile elde edilen bir veri veya değer alanına uygulayın.
+Bir özet tablo normalde her veri alanını `Sum` veya `Count` gibi bir toplulaştırma işleviyle özetler. Excel'in **Değerler Şöyle Göster** özelliği, her görüntülenen sonucu bu toplulaştırmadan türetilen ikincil bir hesaplamayla değiştirir; örneğin genel toplamın yüzdesini, kümülatif toplamı, seçilen bir temel öğeden farkı veya sıralamayı gösterir. Böylece yardımcı formüller veya hesaplanmış sütunlar kullanmadan karşılaştırmalı analiz yapabilirsiniz.
+Tipik kullanımlar; toplam içindeki payı, satır, sütun veya genel toplam yüzdeleriyle analiz etmek; bir dönem alanında kümülatif toplam kullanarak kümülatif raporlama yapmak; bir temel öğeden fark veya yüzde fark kullanarak bir kıyaslama öğesine karşı varyans analizi yapmak; değerleri en küçükten en büyüğe veya en büyükten en küçüğe sıralamaktır.
+Aspose.Cells for C++ API'sinde, `PivotShowValuesAsType` numaralandırması ikincil hesaplamayı seçer. `PivotField.GetShowValuesSetting()` erişimcisi bir `PivotShowValuesSetting` nesnesi döndürür; bu nesnenin `SetShowValuesAs`, `SetBaseFieldIndex` ve `SetBaseItemIndex` metotları davranışı yapılandırır. `PivotField.ShowValuesAs(...)` kolaylık metodu ise aynı ayarları tek çağrıda uygular. Bu ayarları, `PivotTable.GetDataFields()` ile elde edilen bir veri veya değer alanına uygulayın.
 
-## **PivotFieldDataDisplayFormat Enum Üyeleri**
-Veri alanı, Sum veya Count gibi toplama işlevini korurken, Show Values As yalnızca toplamanmış değerin nasıl görüntüleneceğini değiştirir. `PivotShowValuesSetting` değerlerini doğrudan yazmanın (son bölüme bakınız) yanı sıra, tek çağrılı bir kullanım kolaylığı yöntemi aynı yapılandırmayı uygular:
+## **PivotShowValuesAsType Numaralandırmasının Üyeleri**
+Veri alanı, `Sum` veya `Count` gibi toplulaştırma işlevini korur; **Değerler Şöyle Göster** ise yalnızca toplulaştırılmış değerin nasıl görüntülendiğini değiştirir.
+Son bölümde açıklandığı gibi `PivotShowValuesSetting` ayarlarına doğrudan erişmenin yanı sıra, aynı yapılandırmayı uygulayan tek çağrıda yapılandıran bir kolaylık metodu da bulunur. Bu metot iki biçimde sunulur: biri temel alanı ve temel öğeyi dizinle, diğeri adla belirtir.
 
 ```cpp
-void ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int32_t baseField, PivotItemPositionType baseItemPositionType, int32_t baseItem);
+void ShowValuesAs(PivotShowValuesAsType showValuesAsType, int32_t baseField, int32_t baseItem);
+void ShowValuesAs(PivotShowValuesAsType showValuesAsType, const U16String& baseField, const U16String& baseItem);
+// index form: PivotShowValuesAsType::PercentageOfTotal, 0, 0
+// name form:  PivotShowValuesAsType::PercentageOf, u"Fruit", u"Apple"
 ```
 
-| Parametre | Anlam | Ne Zaman Gerekli |
+| Parametre | Anlam | Ne Zaman Gereklidir? |
 | --- | --- | --- |
-| `displayFormat` | `PivotFieldDataDisplayFormat` uygulanacak ikinci hesaplama. | Her zaman. |
-| `baseField` | Pivot tablosunun temel alanları arasındaki temel alanın sıfır tabanlı indeksi (örneğin, temel öğenin ait olduğu satır alanının indeksi). | Yalnızca aşağıdaki altı taban ilgili biçimi (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfRunningTotalIn`, `PercentageOfParentTotal`); diğer tüm biçimler tarafından yok sayılır. |
-| `baseItemPositionType` | Temel öğenin mevcut öğeye göre nasıl seçildiği: `PivotItemPositionType::Previous`, `::Next` veya `::Custom`. | Yalnızca üç taban öğesi biçimi (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`); diğer tüm biçimler tarafından yok sayılır. |
-| `baseItem` | Temel öğenin sıfır tabanlı indeksi. | Yalnızca `baseItemPositionType` `Custom` olduğunda (`baseItem` gerçek temel öğeyi seçer); `Previous` / `Next` ve diğer temel olmayan formatlar için yok sayılır — `0` geçirin. |
+| `showValuesAsType` | Uygulanacak `PivotShowValuesAsType` ikincil hesaplaması. | Her zaman. |
+| `baseField` | Özet tablosunun temel alanları arasındaki sıfır tabanlı dizin (örneğin temel öğenin ait olduğu satır alanının dizini) veya ad biçiminde temel alanın adı. | Aşağıdaki sekiz temele göreli biçimler (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn`, `RankSmallestToLargest`, `RankLargestToSmallest`) için gereklidir; diğer tüm biçimlerde `0` (veya ad biçiminde boş bir `U16String`) değeri geçirilmelidir. |
+| `baseItem` | Temel öğenin sıfır tabanlı dizini; iki özel değer vardır: -1 önceki öğeyi, -2 ise sonraki öğeyi seçer (C++ API, özel değerler için adlandırılmış sabitler tanımlamaz — değerleri doğrudan geçirin). Ad biçiminde parametre bunun yerine temel öğenin başlığını alır; seçilen biçim temel öğe gerektirmiyorsa boş bir `U16String` değeri geçirilir. | Yalnızca üç temel öğe biçimi (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`) temel öğeyi değerlendirir; beş alana göreli biçim (`RunningTotalIn`, `PercentageOfParentTotal`, `PercentageOfRunningTotalIn` ve her iki sıralama) temel öğeyi yok sayar — `0` veya boş bir `U16String` değeri geçirilmelidir. |
 
 | Hesaplama Türü | Davranış | Temel Öğe Parametreleri |
 | --- | --- | --- |
-| `Normal` | İkinci bir hesaplama yok; toplamanmış değer olduğu gibi gösterilir (varsayılan). | — |
-| `DifferenceFrom` | Değeri, temel alandaki bir temel öğenin değerinden fark olarak gösterir. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` yalnızca `Custom` ile) |
-| `PercentageOf` | Değeri, temel alandaki bir temel öğenin değerinin yüzde oranı olarak gösterir. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` yalnızca `Custom` ile) |
-| `PercentageDifferenceFrom` | Değeri, temel alandaki bir temel öğenin değerinden yüzde farkı olarak gösterir. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` yalnızca `Custom` ile) |
-| `RunningTotalIn` | Değeri, temel alanın ardışık öğeleri için kümülatif toplam olarak gösterir. | `baseField` (toplamı yöneten öğe sırasının alanı) |
-| `PercentageOfRow` | Değeri, satır toplamının yüzde oranı olarak gösterir. | — |
-| `PercentageOfColumn` | Değeri, sütun toplamının yüzde oranı olarak gösterir. | — |
-| `PercentageOfTotal` | Değeri, genel toplamın yüzde oranı olarak gösterir. | — |
-| `Index` | Değeri, Excel indeks formülü ((value * grand total) / (row total * column total)) kullanarak gösterir. | — |
-| `PercentageOfParentRowTotal` | Değeri, üst satır toplamının yüzde oranı olarak gösterir (iç içe satır alanları için). | — |
-| `PercentageOfParentColumnTotal` | Değeri, üst sütun toplamının yüzde oranı olarak gösterir (iç içe sütun alanları için). | — |
-| `PercentageOfParentTotal` | Değeri, üst toplamın yüzde oranı olarak gösterir. | `baseField` (referans üst alan) |
-| `PercentageOfRunningTotalIn` | Değeri, temel alandaki kümülatif toplamın yüzde oranı olarak gösterir. | `baseField` (toplamlama alanı) |
-| `RankSmallestToLargest` | Değeri en küçüğünden (1) en büyüğüne sıralar. | — |
-| `RankLargestToSmallest` | Değeri en büyükten (1) en küçüğe sıralar. | — |
+| `Normal` | İkincil hesaplama uygulanmaz; toplulaştırılmış değer olduğu gibi görüntülenir (varsayılan). | — |
+| `DifferenceFrom` | Değeri, bir temel alandaki temel öğenin değerinden fark olarak gösterir. | `baseField` + `baseItem` (dizin veya başlık, ya da önceki/sonraki özel değeri) |
+| `PercentageOf` | Değeri, bir temel alandaki temel öğenin değerinin yüzdesi olarak gösterir. | `baseField` + `baseItem` (dizin veya başlık, ya da önceki/sonraki özel değeri) |
+| `PercentageDifferenceFrom` | Değeri, bir temel alandaki temel öğenin değerinden yüzde fark olarak gösterir. | `baseField` + `baseItem` (dizin veya başlık, ya da önceki/sonraki özel değeri) |
+| `RunningTotalIn` | Değeri, bir temel alanın ardışık öğeleri için kümülatif toplam olarak gösterir. | `baseField` (birikimin sırasını belirleyen alan) |
+| `PercentageOfRow` | Değeri, satır toplamının yüzdesi olarak gösterir. | — |
+| `PercentageOfColumn` | Değeri, sütun toplamının yüzdesi olarak gösterir. | — |
+| `PercentageOfTotal` | Değeri, genel toplamın yüzdesi olarak gösterir. | — |
+| `Index` | Değeri, Excel dizin formülünü kullanarak görüntüler ((değer * genel toplam) / (satır toplamı * sütun toplamı)). | — |
+| `PercentageOfParentRowTotal` | Değeri, üst satır toplamının yüzdesi olarak gösterir (iç içe satır alanları için). | — |
+| `PercentageOfParentColumnTotal` | Değeri, üst sütun toplamının yüzdesi olarak gösterir (iç içe sütun alanları için). | — |
+| `PercentageOfParentTotal` | Değeri, üst öğe toplamının yüzdesi olarak gösterir. | `baseField` (toplamı referans alınan üst alan) |
+| `PercentageOfRunningTotalIn` | Değeri, bir temel alandaki kümülatif toplamın yüzdesi olarak gösterir. | `baseField` (birikim alanı) |
+| `RankSmallestToLargest` | Değeri en küçükten (1) en büyüğe sıralar. | `baseField` (öğelerinin sıralama kapsamını belirlediği alan) |
+| `RankLargestToSmallest` | Değeri en büyükten (1) en küçüğe sıralar. | `baseField` (öğelerinin sıralama kapsamını belirlediği alan) |
 
 {{% alert color="primary" %}}
-`ShowValuesAs(...)` `PivotShowValuesSetting` değerini (`CalculationType`, `BaseFieldIndex`, `BaseItemPositionType`, `BaseItemIndex`) yazar — metod ve ayar nesnesi, aynı durumu yapılandırmanın iki yoludur; Excel'in Show Values As iletişim kutusundaki temel alan ve temel öğe seçicilerini yansıtır.
+`ShowValuesAs(...)` metodu, `PivotShowValuesSetting` ayarlarını (`ShowValuesAs`, `BaseFieldIndex` ve `BaseItemIndex`) yazar; metot ve ayar nesnesi, aynı durumu yapılandırmanın iki yoludur ve Excel'in **Değerler Şöyle Göster** iletişim kutusundaki temel alan ve temel öğe seçicilerini yansıtır.
 {{% /alert %}}
 
-## **Değerleri Toplam Yüzdesi Olarak Göster**
-`PivotField.ShowValuesAs` metodunu `PivotFieldDataDisplayFormat::PercentageOfTotal` ile çağırarak, genel toplam dahil her veri alanı hücresini genel toplamın payına dönüştürün. Görüntülenen sayılar böylece tam sonuç kümesinin oranı olarak okunur. Bu format, her değeri yalnızca genel toplamla ölçer, bu nedenle temel alan veya temel öğe gerektirmez — son parametreler (`0`, `PivotItemPositionType::Previous`, `0`) formatın görmezden geldiği yer tutuculardır, yukarıdaki parametre tablosunda belirtildiği gibi.
+## **Değerleri Toplamın Yüzdesi Olarak Göster**
+`PivotField.ShowValuesAs` metodunu `PivotShowValuesAsType::PercentageOfTotal` ile çağırarak genel toplam dâhil her veri alanı hücresini genel toplamın yüzdesi olarak gösterin. Böylece görüntülenen sayılar, tam sonuç kümesine göre oranlar olarak yorumlanır. Bu biçim her değeri yalnızca genel toplama göre ölçer; bu nedenle temel alan veya temel öğe gerektirmez. Sondaki argümanlar (`0`, `0`), bu biçimin yok saydığı yer tutuculardır; yukarıdaki parametre tablosunda belirtildiği gibi.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -79,9 +84,9 @@ int main() {
     pivotTable.CalculateData();
     // Show the Amount data field as a percentage of the grand total with the
     // one-call method; PercentageOfTotal takes no base item, so the trailing
-    // base arguments (0, Previous, 0) are placeholders the format ignores
+    // base arguments (0, 0) are placeholders the format ignores
     PivotField dataField = pivotTable.GetDataFields().Get(0);
-    dataField.ShowValuesAs(PivotFieldDataDisplayFormat::PercentageOfTotal, 0, PivotItemPositionType::Previous, 0);
+    dataField.ShowValuesAs(PivotShowValuesAsType::PercentageOfTotal, 0, 0);
     pivotTable.CalculateData();
     // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
     workbook.Save(u"ShowValuesAsPercentageOfTotal.xlsx");
@@ -90,13 +95,14 @@ int main() {
 }
 ```
 
-## **PivotField.ShowValuesSetting'i Al ve Yapılandır**
-`PivotField.GetShowValuesSetting()` aracılığıyla mevcut yapılandırmayı okuyun: erişimci alanın `PivotShowValuesSetting` nesnesini döndürür; bu nesnenin dört alıcı yöntemi etkin Show Values As hesabını tanımlar. Yapılandırmayı değiştirmek için `PivotField.ShowValuesAs` metodunu çağırın — bu, dört ayarı tek bir çağrıda yazar, böylece değerleri tek tek atamanıza gerek kalmaz. `PivotShowValuesSetting` nesnesi, `ShowValuesAs` yazdığı dört değeri ortaya koyar:
-- `GetCalculationType()` / `SetCalculationType()` `PivotFieldDataDisplayFormat` ikinci hesaplamasını seçer.
-- `GetBaseFieldIndex()` / `SetBaseFieldIndex()` pivot alanları içinde temel alanın sıfır tabanlı indeksini belirtir. Taban ilgili biçimler tarafından kullanılır.
-- `GetBaseItemPositionType()` / `SetBaseItemPositionType()` temel öğenin mevcut öğeye göre nasıl konumlandırıldığını belirler ve `PivotItemPositionType::Next`, `PivotItemPositionType::Previous` veya `PivotItemPositionType::Custom` değerlerini kabul eder.
-- `GetBaseItemIndex()` / `SetBaseItemIndex()` sıfır tabanlı temel öğe indeksini belirtir ve konum türü `Custom` olduğunda kullanılır.
-`ShowValuesAs`'ı çağırdıktan sonra, pivot gövdesinin yeniden hesaplanıp güncellenmiş yapılandırma ile yeniden render edilmesi için `PivotTable.CalculateData()` metodunu tekrar çağırın.
+## **PivotField.ShowValuesSetting Ayarını Alma ve Yapılandırma**
+Mevcut yapılandırmayı `PivotField.GetShowValuesSetting()` ile okuyun: erişimci, alanın etkin **Değerler Şöyle Göster** hesaplamasını açıklayan `PivotShowValuesSetting` nesnesini döndürür. Yapılandırmayı değiştirmek için `PivotField.ShowValuesAs` metodunu çağırın; bu metot tüm ayarları tek çağrıda yazar, böylece değerleri tek tek ayarlamanız gerekmez.
+`PivotShowValuesSetting` nesnesi, `ShowValuesAs` çağrısının yazdığı ayar durumunu sunar:
+- `GetShowValuesAs()` / `SetShowValuesAs()`, `PivotShowValuesAsType` ikincil hesaplamasını seçer.
+- `GetBaseFieldIndex()` / `SetBaseFieldIndex()`, özet tablosu alanları arasındaki temel alanın sıfır tabanlı dizinini belirtir. Temele göreli biçimlerde kullanılır.
+- `GetBaseItemIndex()` / `SetBaseItemIndex()`, temel öğeyi belirtir: belirli bir özet tablosu öğesinin sıfır tabanlı dizini veya iki özel değerden biridir: önceki öğe için -1, sonraki öğe için -2 (C++ API, özel değerler için adlandırılmış sabitler tanımlamaz). Temel öğe biçimlerinde kullanılır.
+- `GetBaseFieldName()` ve `GetBaseItemCaption()`, belirlenen temel alan adını ve temel öğe başlığını bildiren salt okunur görünümlerdir; örneğin önceki öğe özel değeri seçildikten sonra `GetBaseItemCaption()`, `(previous)` değerini döndürür.
+`ShowValuesAs` çağrıldıktan sonra, özet tablosu gövdesinin güncellenen yapılandırmayla yeniden hesaplanması ve yeniden oluşturulması için `PivotTable.CalculateData()` metodunu yeniden çağırın.
 
 ```cpp
 #include "Aspose.Cells.h"
@@ -110,19 +116,22 @@ int main() {
     PivotField dataField = pivotTable.GetDataFields().Get(0);
     // Read the current show-values settings
     PivotShowValuesSetting settings = dataField.GetShowValuesSetting();
-    std::cout << "CalculationType: " << static_cast<int32_t>(settings.GetCalculationType()) << std::endl;
+    std::cout << "ShowValuesAs: " << static_cast<int32_t>(settings.GetShowValuesAs()) << std::endl;
     std::cout << "BaseFieldIndex: " << settings.GetBaseFieldIndex() << std::endl;
-    std::cout << "BaseItemPositionType: " << static_cast<int32_t>(settings.GetBaseItemPositionType()) << std::endl;
     std::cout << "BaseItemIndex: " << settings.GetBaseItemIndex() << std::endl;
+    std::cout << "BaseFieldName: " << settings.GetBaseFieldName().ToUtf8() << std::endl;
+    std::cout << "BaseItemCaption: " << settings.GetBaseItemCaption().ToUtf8() << std::endl;
     // Switch to a base-item calculation with the one-call method: difference
     // from the value of the previous item in the row field
-    dataField.ShowValuesAs(PivotFieldDataDisplayFormat::DifferenceFrom,
-        pivotTable.GetRowFields().Get(0).GetBaseIndex(), PivotItemPositionType::Previous, 0);
+    // (-1 is the previous-item sentinel; no named constant exists in C++)
+    dataField.ShowValuesAs(PivotShowValuesAsType::DifferenceFrom,
+        pivotTable.GetRowFields().Get(0).GetBaseIndex(), -1);
     pivotTable.CalculateData();
     // Note: the percentage number format saved by the previous example still
     // clings to the data field cells; the underlying values are now differences
     // Re-read the applied configuration
-    std::cout << "CalculationType now: " << static_cast<int32_t>(dataField.GetShowValuesSetting().GetCalculationType()) << std::endl;
+    std::cout << "ShowValuesAs now: " << static_cast<int32_t>(dataField.GetShowValuesSetting().GetShowValuesAs()) << std::endl;
+    std::cout << "BaseItemCaption now: " << dataField.GetShowValuesSetting().GetBaseItemCaption().ToUtf8() << std::endl;
     workbook.Save(u"ShowValuesAsDifferenceFrom.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -130,8 +139,8 @@ int main() {
 ```
 
 ## **İlgili Makaleler**
-- [Pivot Tablosunda Değer Alanlarını Yönetme](/cells/tr/cpp/manage-value-fields/)
-- [Pivot Tablosunu Yenileme](/cells/tr/cpp/refresh-pivot-table/)
-- [Pivot Tablosuna Stil Uygulama](/cells/tr/cpp/apply-style-to-pivot-table/)
+- [Özet Tablosunda Değer Alanlarını Yönetme](/cells/tr/cpp/manage-value-fields/)
+- [Özet Tablosunu Yenileme](/cells/tr/cpp/refresh-pivot-table/)
+- [Özet Tablosuna Biçim Uygulama](/cells/tr/cpp/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="cpp" >}}

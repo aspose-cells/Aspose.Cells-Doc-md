@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Python via .NET ile Pivot Tablolarına Stil Uygulama
-linktitle: Aspose.Cells for Python via .NET ile Pivot Tablolarına Stil Uygulama
+linktitle: Pivot Tablo Stillerini Uygula
 description: Aspose.Cells for Python via .NET'te yerleşik ve özel stilleri pivot tablolarına nasıl uygulayacağınızı öğrenin; eski XLS otomatik biçimleri, modern Excel 2007+ adlandırılmış stilleri, özel pivot tablo stilleri ve _format_all kısayolu dahil.
 keywords: Aspose.Cells Python via .NET pivot tablo stili, PivotTableStyleType, AutoFormatType, FormatAll, özel stil, PivotTableStyleName, TableStyles
 type: docs
@@ -32,16 +32,16 @@ Aşağıdaki örnek yeni bir çalışma kitabı yükler, Fruit/Year/Amount örne
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells.pivot import PivotTableAutoFormatType
-# Senaryo 1: Eski bir XLS ön ayar otomatik biçimi uygula
-# Kullanılan API: PivotTable.AutoFormatType
-# Hedef dosya formatı: .xls (eski)
-# Tam örnekler ve veri dosyaları için lütfen https://github.com/aspose-cells/Aspose.Cells-for-.NET adresine gidin
-# Yeni bir çalışma kitabı oluştur
+# Scenario 1: Apply a legacy XLS preset autoformat
+# API in use: PivotTable.AutoFormatType
+# Target file format: .xls (legacy)
+# For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+# Create a new workbook
 workbook = ac.Workbook()
-# İlk çalışma sayfasını al
+# Get the first worksheet
 sheet = workbook.worksheets[0]
-# Başlık satırı (Fruit, Year, Amount) ile kaynak verileri doldur
-# ve 2020 ve 2021 yıllarını kapsayan grape, blueberry, kiwi, cherry için 9 veri satırı
+# Populate the source data with header row (Fruit, Year, Amount)
+# and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
 sheet.cells.get(0, 0).put_value("Fruit")
 sheet.cells.get(0, 1).put_value("Year")
 sheet.cells.get(0, 2).put_value("Amount")
@@ -72,17 +72,17 @@ sheet.cells.get(8, 2).put_value(45)
 sheet.cells.get(9, 0).put_value("grape")
 sheet.cells.get(9, 1).put_value(2020)
 sheet.cells.get(9, 2).put_value(45)
-# E3 hedef hücresinde, adında, A1:C10 kaynak aralığını kullanarak bir pivot tablo ekle
+# Add a pivot table at destination cell E3, using source range A1:C10
 pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
-# Alanları ata: Fruit -> Satırlar, Amount -> Veri
+# Assign fields: Fruit -> Rows, Amount -> Data
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Eski XLS ön ayar otomatik biçimi "Report5" uygula
-# Not: Bu özellik yalnızca .xls olarak kaydederken anlamlıdır.
-# .xlsx/.xlsm/.xlsb olarak kaydedildiğinde, Excel AutoFormatType'ı yok sayar
-# ve PivotTableStyleType / PivotTableStyleName'de belirtileni kullanır.
+# Apply the legacy XLS preset autoformat "Report5"
+# Note: This property is only meaningful when saving as .xls.
+# When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+# and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
 pivot_table.auto_format_type = PivotTableAutoFormatType.REPORT5
-# Çalışma kitabını eski .xls formatında kaydet
+# Save the workbook in legacy .xls format
 workbook.save("output.xls")
 ```
 
@@ -172,7 +172,7 @@ from aspose.cells.tables import TableStyleElementType
 from aspose.pydrawing import Color
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# Kaynak verileri doldur: başlık satırı + 9 veri satırı (A1:C10)
+# Populate source data: header row + 9 data rows (A1:C10)
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
@@ -203,15 +203,15 @@ worksheet.cells.get("C9").put_value(800)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(900)
-# A1:C10'dan kaynaklanan, E3'e yerleştirilen ve adında bir pivot tablo ekle
+# Add pivot table sourced from A1:C10, anchored at E3
 pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Adım 1: yeni bir özel pivot tablo stili kaydet ve dizinini yakala
+# Step 1: register a new custom pivot table style and capture its index
 style_index = workbook.worksheets.table_styles.add_pivot_table_style("CustomPivotStyle")
 table_style = workbook.worksheets.table_styles[style_index]
-# Adım 2: bir WholeTable öğesi ekle ve dört kenara ince siyah kenarlıklar uygula
+# Step 2: add a WholeTable element and apply thin black borders on all four sides
 whole_table_element_index = table_style.table_style_elements.add(TableStyleElementType.WHOLE_TABLE)
 whole_table_element = table_style.table_style_elements[whole_table_element_index]
 whole_table_style = workbook.create_style()
@@ -224,14 +224,14 @@ whole_table_style.borders.get(ac.BorderType.LEFT_BORDER).color = Color.black
 whole_table_style.borders.get(ac.BorderType.RIGHT_BORDER).line_style = ac.CellBorderType.THIN
 whole_table_style.borders.get(ac.BorderType.RIGHT_BORDER).color = Color.black
 whole_table_element.set_element_style(whole_table_style)
-# Adım 3: bir GrandTotalRow öğesi ekle ve kırmızı kalın yazı tipi uygula
+# Step 3: add a GrandTotalRow element and apply bold red font
 grand_total_element_index = table_style.table_style_elements.add(TableStyleElementType.GRAND_TOTAL_ROW)
 grand_total_element = table_style.table_style_elements[grand_total_element_index]
 grand_total_style = workbook.create_style()
 grand_total_style.font.is_bold = True
 grand_total_style.font.color = Color.red
 grand_total_element.set_element_style(grand_total_style)
-# Adım 4: özel stili ada göre uygula (PivotTableStyleType ile DEĞİL, bu yerleşik ön ayarlar içindir)
+# Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
 pivot_table.pivot_table_style_name = "CustomPivotStyle"
 workbook.save("output.xlsx")
 ```
@@ -249,13 +249,13 @@ from aspose.pydrawing import Color
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells import BackgroundType, CellBorderType, BorderType
-# Senaryo 4: format_all kullanarak her pivot tablo hücresine tek bir Stil uygulama
-# Kullanılan API: PivotTable.format_all(Style)
-# Hedef format: .xlsx
-# GitHub referansı: Aspose.Cells-for-.NET deposuna bakın — pivot tablo stil örnekleri
+# Scenario 4: Apply a single Style to every pivot table cell using format_all
+# API in use: PivotTable.format_all(Style)
+# Target format: .xlsx
+# GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
-# Kaynak verileri doldur: başlık satırı (satır 1) + 9 veri satırı (satır 2-10)
+# Populate source data: header row (row 1) + 9 data rows (rows 2-10)
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
@@ -286,13 +286,13 @@ worksheet.cells.get("C9").put_value(2500)
 worksheet.cells.get("A10").put_value("Grape")
 worksheet.cells.get("B10").put_value(2021)
 worksheet.cells.get("C10").put_value(5500)
-# Pivot tablo ekle: kaynak aralığı A1:C10, hedef hücre E3, ad
+# Add pivot table: source range A1:C10, destination cell E3
 pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
-# Pivot alanlarını ata: Fruit -> Satır alanı, Year -> Sütun alanı, Amount -> Veri alanı
+# Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.COLUMN, "Year")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Pivot tablonun her hücresine zorla uygulanacak bir Stil oluştur
+# Build a Style that will be forced onto every cell of the pivot table
 style = workbook.create_style()
 style.foreground_color = Color.yellow
 style.pattern = BackgroundType.SOLID
@@ -306,10 +306,10 @@ style.borders.get(BorderType.LEFT_BORDER).line_style = CellBorderType.THIN
 style.borders.get(BorderType.LEFT_BORDER).color = Color.black
 style.borders.get(BorderType.RIGHT_BORDER).line_style = CellBorderType.THIN
 style.borders.get(BorderType.RIGHT_BORDER).color = Color.black
-# format_all uygula: bu tek stili pivot tablonun her hücresine zorlar,
-# daha önce ayarlanmış olan PivotTableStyleType / PivotTableStyleName değerlerini geçersiz kılar
+# Apply format_all: forces this single style onto every cell of the pivot table,
+# overriding any PivotTableStyleType / PivotTableStyleName previously set
 pivot_table.format_all(style)
-# Çalışma kitabını modern .xlsx formatında kaydet
+# Save the workbook in the modern .xlsx format
 workbook.save("output.xlsx")
 ```
 

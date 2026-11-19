@@ -1,6 +1,6 @@
 ---
 title: Dela upp Excel-filer i flera filer
-linktitle: Dela upp Excel-filer i flera filer
+linktitle: Dela upp Excel-filer i flera
 description: Aspose.Cells for C++ är ett C++-bibliotek för att arbeta med kalkylbladsfiler, som stöder uppdelning av en enskild Excel-fil i flera filer. Den här artikeln introducerar hur man delar upp Excel-filer genom att kopiera varje kalkylblad till en separat arbetsbok och genom att kopiera specifika cellintervall till andra arbetsböcker.
 keywords: Aspose.Cells, C++-bibliotek, kalkylblad, dela Excel-fil, kopiera kalkylblad, kopiera intervall, flera arbetsböcker, spara som separata filer
 type: docs

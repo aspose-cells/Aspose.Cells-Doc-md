@@ -84,7 +84,7 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, LoadOptions, LoadFormat, FormulaParseOptions, SaveFormat
-# 移植代码如下
+# ported code here
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
 workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
@@ -117,21 +117,21 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, LoadOptions, LoadFormat, Worksheet, Cells
-# 使用 xlsx LoadOptions 加载源工作簿
+# Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
 workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
-# 访问第一个工作表及其单元格集合
+# Access the first worksheet and its Cells collection
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
-# 在单元格 A6 上设置经典 CSE 数组公式。
-# 公式 =TRANSPOSE(A1:D5) 将 5 行 x 4 列的源区域
-# 转置为 4 行 x 5 列的数组。第二个参数 (4) 是行数
-# 第三个参数 (5) 是结果数组的列数。
-# Aspose.Cells 写入 CSE 数组公式标记，以便 Excel 将其作为
-# 单个多单元格数组公式进行求值，兼容较旧版本的 Excel
-# （2019、2016、2013 等）不支持动态数组溢出。
+# Set the classic CSE array formula on cell A6.
+# The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+# into a 4-row x 5-column array. The second argument (4) is the number of rows
+# and the third argument (5) is the number of columns of the resulting array.
+# Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+# a single multi-cell array formula, compatible with older Excel versions
+# (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5)
-# 保存工作簿以使数组公式标记持久化
+# Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```

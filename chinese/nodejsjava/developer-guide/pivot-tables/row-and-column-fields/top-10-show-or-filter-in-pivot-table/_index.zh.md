@@ -1,6 +1,6 @@
 ---
 title: 在数据透视表中显示或筛选前 10 项
-linktitle: 在数据透视表中显示或筛选前 10 项
+linktitle: 前10项显示/筛选
 description: 了解如何使用 Aspose.Cells for Node.js via Java 仅显示数据透视字段中排名最高或最低的项目。本文介绍 Excel 97-2003 的 Top10AutoShow 方法、如何使用 Top10AutoShowSettings 读取选项，以及如何通过 FilterTop10 实现 Excel 2007-365 前 10 项筛选。
 keywords: Aspose.Cells, Node.js via Java, 数据透视表, 前 10 项, 自动显示, top10AutoShow, getTop10AutoShowSettings, PivotFieldTop10AutoShowSettings, filterTop10, PivotFilterType, PivotField, JavaScript
 type: docs

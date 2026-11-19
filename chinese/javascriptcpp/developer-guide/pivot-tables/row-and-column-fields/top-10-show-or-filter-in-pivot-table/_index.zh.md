@@ -1,6 +1,6 @@
 ---
 title: 在数据透视表中显示或筛选前 10 项
-linktitle: 在数据透视表中显示或筛选前 10 项
+linktitle: 前10项显示/筛选
 description: 了解如何使用 Aspose.Cells for JavaScript via C++ 在数据透视字段中仅显示排名最高或最低的项。本文介绍 Excel 97-2003 AutoShow 属性（isAutoShow 等）、如何读取这些选项，以及如何通过 filterTop10 实现 Excel 2007-365 前 10 项筛选。
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, 数据透视表, 前 10 项, 自动显示, isAutoShow, isAscendShow, autoShowCount, autoShowField, filterTop10, PivotFilterType, PivotField, JavaScript
 type: docs
@@ -58,30 +58,28 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             cells.get("C1").value = "Sales";
             const sports = ["Golf", "Tennis", "Rugby", "Cricket", "Boxing"];
             let row = 2;
-            for (const sport of sports) {
+            sports.forEach(sport => {
                 for (let quarter = 1; quarter <= 3; quarter++) {
                     cells.get(row, 0).value = sport;
                     cells.get(row, 1).value = "Qtr" + quarter;
                     cells.get(row, 2).value = 1000 + 777 * row;
                     row++;
                 }
-            }
+            });
             const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();
             const sportField = pivotTable.rowFields.get(0);
-            // 显示按“销售额之和”排名的前 2 个项目（数据字段索引为 0）
-            sportField.isAutoShow = true;
-            sportField.isAscendShow = false;
-            sportField.autoShowCount = 2;
-            sportField.autoShowField = 0;
+            // Keep the top 3 items ranked by "Sum of Sales" (data field index 0)
+            sportField.filterTop10(0, AsposeCells.PivotFilterType.Count, true, 3);
+            pivotTable.pivotCache.refresh();
             pivotTable.calculateData();
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = "output-top10-by-value-field.xlsx";
+            downloadLink.download = "output-top10-filter.xlsx";
             downloadLink.style.display = "block";
             document.getElementById('result').innerHTML = '<p style="color: green;">Done! Click the download link to get the result file.</p>';
         });
@@ -91,6 +89,64 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ### **按字段自身排名**
 字段也可以按自身进行排名——只需向 `autoShowField` 传入 -1。此变体无需额外的数据字段；该字段只需位于行（或列）区域即可。以下示例显示按字段自身排名的后 3 个运动项目。保存此设置时，由于 -1 是该格式的默认值，数据透视表 XML 中会省略 `rankBy` 属性，而 `autoShowField` 读回的值也是 -1。
+
+```javascript
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Example</title>
+    </head>
+    <body>
+        <h1>Aspose.Cells PivotTable Example</h1>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+    </body>
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat } = AsposeCells;
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: ["arial.ttf", "NotoSansSC-Regular.ttf"]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            const result = document.getElementById('result');
+            const file = fileInput.files[0];
+            if (!file) {
+                result.innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
+                return;
+            }
+            try {
+                const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
+                const worksheet = workbook.worksheets.get(0);
+                const pivotTable = worksheet.pivotTables.get(0);
+                const sportField = pivotTable.rowFields.get(0);
+                const settings = sportField.top10AutoShowSettings;
+                const autoShowEnabled = settings.isAutoShow;
+                const direction = settings.isTop ? "Top" : "Bottom";
+                const itemCount = settings.autoShowCount;
+                const rankingDataFieldIndex = settings.rankBy;
+                result.innerHTML =
+                    '<p>AutoShow enabled: ' + autoShowEnabled + '</p>' +
+                    '<p>Direction: ' + direction + '</p>' +
+                    '<p>Item count: ' + itemCount + '</p>' +
+                    '<p>Ranking data field index: ' + rankingDataFieldIndex + '</p>';
+            } catch (error) {
+                result.innerHTML = '<p style="color: red;">An error occurred: ' + error.message + '</p>';
+                console.error(error);
+            }
+        });
+    </script>
+</html>
+```
+
+## **读取当前 AutoShow 选项**
+`PivotField` 属性 `isAutoShow`、`isAscendShow`、`autoShowCount` 和 `autoShowField` 用于访问当前存储在字段中的 AutoShow 选项。可使用这些属性检查现有工作簿中的数据透视表或刚配置的数据透视表将如何显示其中的项，包括从文件加载的工作簿。
 
 ```javascript
 <!DOCTYPE html>
@@ -137,11 +193,8 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();
             const sportField = pivotTable.rowFields.get(0);
-            // 显示按字段自身排序的后 3 个项目（rankBy = -1）
-            sportField.isAutoShow = true;
-            sportField.isAscendShow = true;
-            sportField.autoShowCount = 3;
-            sportField.autoShowField = -1;
+            // Show the bottom 3 items ranked by the field itself (rankBy = -1)
+            sportField.top10AutoShow(true, false, 3, -1);
             pivotTable.calculateData();
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -151,63 +204,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             downloadLink.style.display = "block";
             document.getElementById('result').innerHTML =
                 '<p style="color: green;">Done! Click the download link to get the result file.</p>';
-        });
-    </script>
-</html>
-```
-
-## **读取当前 AutoShow 选项**
-`PivotField` 属性 `isAutoShow`、`isAscendShow`、`autoShowCount` 和 `autoShowField` 用于访问当前存储在字段中的 AutoShow 选项。可使用这些属性检查现有工作簿中的数据透视表或刚配置的数据透视表将如何显示其中的项，包括从文件加载的工作簿。
-
-```javascript
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Aspose.Cells Example</title>
-    </head>
-    <body>
-        <h1>Aspose.Cells PivotTable Example</h1>
-        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
-        <button id="runExample">Run Example</button>
-        <a id="downloadLink" style="display: none;">Download Result</a>
-        <div id="result"></div>
-    </body>
-    <script src="aspose.cells.js.min.js"></script>
-    <script type="text/javascript">
-        const { Workbook, SaveFormat } = AsposeCells;
-        AsposeCells.onReady({
-            license: "/lic/aspose.cells.enc",
-            fontPath: "/fonts/",
-            fontList: ["arial.ttf", "NotoSansSC-Regular.ttf"]
-        }).then(() => {
-            console.log("Aspose.Cells initialized");
-        });
-        document.getElementById('runExample').addEventListener('click', async () => {
-            const fileInput = document.getElementById('fileInput');
-            const result = document.getElementById('result');
-            const file = fileInput.files[0];
-            if (!file) {
-                result.innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
-                return;
-            }
-            try {
-                const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
-                const worksheet = workbook.worksheets.get(0);
-                const pivotTable = worksheet.pivotTables.get(0);
-                const sportField = pivotTable.rowFields.get(0);
-                const autoShowEnabled = sportField.isAutoShow;
-                const direction = sportField.isAscendShow ? "Bottom" : "Top";
-                const itemCount = sportField.autoShowCount;
-                const rankingDataFieldIndex = sportField.autoShowField;
-                result.innerHTML =
-                    '<p>AutoShow enabled: ' + autoShowEnabled + '</p>' +
-                    '<p>Direction: ' + direction + '</p>' +
-                    '<p>Item count: ' + itemCount + '</p>' +
-                    '<p>Ranking data field index: ' + rankingDataFieldIndex + '</p>';
-            } catch (error) {
-                result.innerHTML = '<p style="color: red;">An error occurred: ' + error.message + '</p>';
-                console.error(error);
-            }
         });
     </script>
 </html>
@@ -261,13 +257,29 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             cells.get("C1").value = "Sales";
             const sports = ["Golf", "Tennis", "Rugby", "Cricket", "Boxing"];
             let row = 2;
-            sports.forEach(sport => {
+            for (const sport of sports) {
                 for (let quarter = 1; quarter <= 3; quarter++) {
                     cells.get(row, 0).value = sport;
                     cells.get(row, 1).value = "Qtr" + quarter;
                     cells.get(row, 2).value = 1000 + 777 * row;
                     row++;
                 }
+            }
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
+            pivotTable.calculateData();
+            const sportField = pivotTable.rowFields.get(0);
+            // Show the top 2 items ranked by "Sum of Sales" (data field index 0)
+            sportField.top10AutoShow(true, true, 2, 0);
+            pivotTable.calculateData();
+            const outputData = workbook.save(SaveFormat.Xlsx);
+            const blob = new Blob([outputData]);
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = "output-top10-by-value-field.xlsx";
+            downloadLink.style.display = "block";
+            document.getElementById('result').innerHTML = '<p style="color: green;">Done! Click the download link to get the result file.</p>';
         });
     </script>
 </html>

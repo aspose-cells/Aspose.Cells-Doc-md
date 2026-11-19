@@ -44,16 +44,16 @@ for (int i = 0; i < fruits.length; i++)
     cells.get(i + 1, 1).putValue(years[i]);
     cells.get(i + 1, 2).putValue(amounts[i]);
 }
-// Tabla dinámica con su esquina superior izquierda en E3
+// Pivot table with its top-left corner at E3
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C7", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Anclar el formato condicional en F4 (fila 3, columna 5) con el alcance de Datos
+// Anchor the conditional format at F4 (row 3, column 5) with the Data scope
 int index = pivotTable.getConditionalFormats().add();
 PivotConditionalFormat format = pivotTable.getConditionalFormats().get(index);
 format.applyTo(3, 5, PivotConditionFormatScopeType.DATA);
-// Regla - resaltar montos mayores a 200
+// Rule - highlight amounts greater than 200
 int conditionIndex = format.getFormatConditions().addCondition(
         FormatConditionType.CELL_VALUE, OperatorType.GREATER_THAN, "200", null);
 Style style = workbook.createStyle();
@@ -138,13 +138,13 @@ PivotTable pivotTable = sheet.getPivotTables().add("=A1:C7", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.calculateData();
-// Adjuntar la regla al campo de datos Amount como una región semántica
+// Attach the rule to the Amount data field as a semantic region
 int index = pivotTable.getConditionalFormats().add();
 PivotConditionalFormat format = pivotTable.getConditionalFormats().get(index);
 PivotArea area = new PivotArea(pivotTable);
 area.selectField(PivotFieldType.DATA, "Amount");
 format.getPivotAreas().addPivotArea(area);
-// Regla - texto gris para cantidades inferiores a 150
+// Rule - grey text for amounts below 150
 int conditionIndex = format.getFormatConditions().addCondition(
         FormatConditionType.CELL_VALUE, OperatorType.LESS_THAN, "150", null);
 Style style = workbook.createStyle();
@@ -175,10 +175,10 @@ for (int i = 0; i < pivotTable.getConditionalFormats().getCount(); i++)
                 + ", columns " + (area.StartColumn + 1) + "-" + (area.EndColumn + 1));
     }
 }
-// Esto imprime:
-// Formatos condicionales: 1
-// Formato 0: CellValue GreaterThan formula1==200
-//     filas 4-7, columnas 6-6        (F4:F7, la región de datos resuelta)
+// This prints:
+// Conditional formats: 1
+// Format 0: CellValue GreaterThan formula1==200
+//     rows 4-7, columns 6-6        (F4:F7, the resolved data region)
 ```
 
 ## **Artículos relacionados**

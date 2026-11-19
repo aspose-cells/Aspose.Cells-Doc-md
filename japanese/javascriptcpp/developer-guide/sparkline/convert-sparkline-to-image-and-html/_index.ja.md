@@ -54,17 +54,17 @@ Aspose.Cells は、この 2 つの操作をいずれもサポートしていま�
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // 新しいワークブックを作成し、最初のワークシートにアクセスする
+            // Create a new workbook and access the first worksheet
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // A1:E1のセルにサンプルデータを入力する
+            // Populate sample data in cells A1:E1
             cells.get("A1").value = 5;
             cells.get("B1").value = -3;
             cells.get("C1").value = 8;
             cells.get("D1").value = -2;
             cells.get("E1").value = 6;
-            // F1（列5、行0）を基準位置にLineスパークライングループを追加する
+            // Add a Line sparkline group anchored at F1 (column 5, row 0)
             const lineArea = new CellArea();
             lineArea.startColumn = 5;
             lineArea.endColumn = 5;
@@ -76,7 +76,7 @@ Aspose.Cells は、この 2 つの操作をいずれもサポートしていま�
                 false,
                 lineArea
             );
-            // G1（列6、行0）を基準位置にColumnスパークライングループを追加する
+            // Add a Column sparkline group anchored at G1 (column 6, row 0)
             const columnArea = new CellArea();
             columnArea.startColumn = 6;
             columnArea.endColumn = 6;
@@ -88,7 +88,7 @@ Aspose.Cells は、この 2 つの操作をいずれもサポートしていま�
                 false,
                 columnArea
             );
-            // H1（列7、行0）を基準位置にWin/Loss（Stacked）スパークライングループを追加する
+            // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
             const stackedArea = new CellArea();
             stackedArea.startColumn = 7;
             stackedArea.endColumn = 7;
@@ -100,19 +100,19 @@ Aspose.Cells は、この 2 つの操作をいずれもサポートしていま�
                 false,
                 stackedArea
             );
-            // PNG出力用の画像オプションを構成する
+            // Configure image options for PNG output
             const imageOptions = new ImageOrPrintOptions();
             imageOptions.imageType = AsposeCells.ImageType.Png;
-            // Lineスパークラインを画像に変換し、F2セルに埋め込む
+            // Convert the Line sparkline to image and embed it in cell F2
             const lineSp = worksheet.sparklineGroups.get(lineIdx).sparklines.get(0);
             cells.get("F2").embeddedImage = lineSp.toImage(imageOptions);
-            // Columnスパークラインを画像に変換し、G2セルに埋め込む
+            // Convert the Column sparkline to image and embed it in cell G2
             const columnSp = worksheet.sparklineGroups.get(columnIdx).sparklines.get(0);
             cells.get("G2").embeddedImage = columnSp.toImage(imageOptions);
-            // Win/Lossスパークラインを画像に変換し、H2セルに埋め込む
+            // Convert the Win/Loss sparkline to image and embed it in cell H2
             const stackedSp = worksheet.sparklineGroups.get(stackedIdx).sparklines.get(0);
             cells.get("H2").embeddedImage = stackedSp.toImage(imageOptions);
-            // ワークブックをディスクに保存する
+            // Save the workbook to disk
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

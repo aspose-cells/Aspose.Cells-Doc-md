@@ -51,16 +51,17 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // シナリオ1: 従来のXLSプリセット自動形式を適用する
-            // 使用中のAPI: PivotTable.AutoFormatType
-            // 対象ファイル形式: .xls（従来形式）
-            // 完全な例とデータファイルについては、https://github.com/aspose-cells/Aspose.Cells-for-.NET にアクセスしてください
-            // 新しいワークブックを作成する
+            // Scenario 1: Apply a legacy XLS preset autoformat
+            // API in use: PivotTable.AutoFormatType
+            // Target file format: .xls (legacy)
+            // For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-.NET
+            // Create a new workbook
             const workbook = new Workbook();
-            // 最初のワークシートを取得する
+            // Get the first worksheet
             const sheet = workbook.worksheets.get(0);
             const cells = sheet.cells;
-            // ヘッダー行（Fruit、Year、Amount）と、2020年および2021年にわたる9行のデータ（grape、blueberry、kiwi、cherry）でソースデータに入力する
+            // Populate the source data with header row (Fruit, Year, Amount)
+            // and 9 data rows covering grape, blueberry, kiwi, cherry across 2020 and 2021
             cells.get(0, 0).value = "Fruit";
             cells.get(0, 1).value = "Year";
             cells.get(0, 2).value = "Amount";
@@ -91,17 +92,17 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             cells.get(9, 0).value = "grape";
             cells.get(9, 1).value = 2020;
             cells.get(9, 2).value = 45;
-            // ソース範囲 A1:C10 を使用して、宛先セル E3 にピボットテーブルを追加する
+            // Add a pivot table at destination cell E3, using source range A1:C10
             const pivotTable = sheet.pivotTables.add("=A1:C10", 2, 4);
-            // フィールドを割り当てる: Fruit -> 行、Amount -> データ
+            // Assign fields: Fruit -> Rows, Amount -> Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // 従来のXLSプリセット自動形式「Report5」を適用する
-            // 注: このプロパティは .xls 形式で保存する場合にのみ有効です。
-            // .xlsx/.xlsm/.xlsb 形式で保存すると、Excel は AutoFormatType を無視し、
-            // PivotTableStyleType / PivotTableStyleName で指定された形式を使用します。
+            // Apply the legacy XLS preset autoformat "Report5"
+            // Note: This property is only meaningful when saving as .xls.
+            // When saved as .xlsx/.xlsm/.xlsb, Excel ignores AutoFormatType
+            // and uses whatever PivotTableStyleType / PivotTableStyleName specifies.
             pivotTable.autoFormatType = AsposeCells.PivotTableAutoFormatType.Report5;
-            // ワークブックを従来の .xls 形式で保存する
+            // Save the workbook in legacy .xls format
             const outputData = workbook.save(SaveFormat.Excel97To2003);
             const blob = new Blob([outputData], { type: "application/vnd.ms-excel" });
             const downloadLink = document.getElementById('downloadLink');
@@ -146,18 +147,18 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // シナリオ 2: PivotTableStyleType を使用して、新しい Excel 2007+ の名前付きプリセットスタイルを適用します。
-            // 対象ファイル形式: .xlsx。PivotTableStyleType 列挙体は Aspose.Cells 名前空間にあります。
-            // Aspose.Cells.Pivot 名前空間にはないため、追加の using 宣言は不要です。
-            // GitHub リファレンス: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
+            // Scenario 2: Apply a modern Excel 2007+ named preset style using PivotTableStyleType.
+            // Target file format: .xlsx. The PivotTableStyleType enum lives in the Aspose.Cells namespace
+            // (not in Aspose.Cells.Pivot) -- that is why we do not need any extra using for it.
+            // GitHub reference: https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples/CSharp/PivotTables/ApplyStyleToPivotTable2.cs
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // ヘッダー行: 果物 / 年 / 金額
+            // Header row: Fruit / Year / Amount
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // 果物 / 年 / 金額からなる 9 件のデータ行
+            // 9 data rows of Fruit / Year / Amount
             cells.get("A2").value = "Grape";
             cells.get("B2").value = 2020;
             cells.get("C2").value = 100;
@@ -185,19 +186,19 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 130;
-            // A1:C10 をソースとして E3 にピボットテーブルを追加します。
+            // Add a pivot table at E3, sourced from A1:C10
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // ピボットフィールドを割り当てる: 果物 -> 行領域、年 -> 列領域、金額 -> データ領域
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // 新しい Excel 2007+ の名前付きプリセットピボットスタイルを適用します。
-            // PivotTableStyleType は .xlsx / .xlsm / .xlsb ファイル向けの正しい API です。AutoFormatType は
-            // これらの形式では Excel に無視されます。PivotTableStyleDark1 はダークテーマファミリー
-            // (PivotTableStyleDark1..PivotTableStyleDark28) に属し、同じ列挙体には新しい Excel 2017 の
-            // ライト/ダークテーマ (PivotTableStyleLight1..Light28 / Dark1..Dark28) も含まれています。
+            // Apply a modern Excel 2007+ named preset pivot style.
+            // PivotTableStyleType is the correct API for .xlsx / .xlsm / .xlsb files; AutoFormatType
+            // is ignored by Excel for those formats. PivotTableStyleDark1 belongs to the dark-theme
+            // family (PivotTableStyleDark1..PivotTableStyleDark28), and the same enum also exposes the
+            // newer Excel 2017 light/dark themes (PivotTableStyleLight1..Light28 / Dark1..Dark28).
             pivotTable.pivotTableStyleType = AsposeCells.PivotTableStyleType.PivotTableStyleDark1;
-            // 新しい .xlsx 形式で保存します。PivotTableStyleType が有効なのはこの形式です。
+            // Save as modern .xlsx -- this is the format for which PivotTableStyleType is meaningful.
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -249,7 +250,7 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // ソースデータを入力: ヘッダー行 + 9つのデータ行 (A1:C10)
+            // Populate source data: header row + 9 data rows (A1:C10)
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
@@ -280,15 +281,15 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 900;
-            // A1:C10 をソースとし、E3 に配置するピボットテーブルを追加
+            // Add pivot table sourced from A1:C10, anchored at E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // ステップ1: 新しいカスタムピボットテーブルスタイルを登録し、そのインデックスを取得
+            // Step 1: register a new custom pivot table style and capture its index
             const styleIndex = workbook.worksheets.tableStyles.addPivotTableStyle("CustomPivotStyle");
             const tableStyle = workbook.worksheets.tableStyles.get(styleIndex);
-            // ステップ2: WholeTable 要素を追加し、4辺すべてに細い黒色の罫線を適用
+            // Step 2: add a WholeTable element and apply thin black borders on all four sides
             const wholeTableElementIndex = tableStyle.tableStyleElements.add(AsposeCells.TableStyleElementType.WholeTable);
             const wholeTableElement = tableStyle.tableStyleElements.get(wholeTableElementIndex);
             const wholeTableStyle = workbook.createStyle();
@@ -305,14 +306,14 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             rightBorder.lineStyle = AsposeCells.CellBorderType.Thin;
             rightBorder.color = "black";
             wholeTableElement.setElementStyle(wholeTableStyle);
-            // ステップ3: GrandTotalRow 要素を追加し、太い赤色のフォントを適用
+            // Step 3: add a GrandTotalRow element and apply bold red font
             const grandTotalElementIndex = tableStyle.tableStyleElements.add(AsposeCells.TableStyleElementType.GrandTotalRow);
             const grandTotalElement = tableStyle.tableStyleElements.get(grandTotalElementIndex);
             const grandTotalStyle = workbook.createStyle();
             grandTotalStyle.font.isBold = true;
             grandTotalStyle.font.color = "red";
             grandTotalElement.setElementStyle(grandTotalStyle);
-            // ステップ4: カスタムスタイルを名前で適用（組み込みプリセット用ではない PivotTableStyleType は使用しない）
+            // Step 4: apply the custom style by name (NOT by PivotTableStyleType, which is for built-in presets)
             pivotTable.pivotTableStyleName = "CustomPivotStyle";
             const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
             const blob = new Blob([outputData], {
@@ -359,13 +360,13 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // シナリオ 4: FormatAll を使用してピボットテーブルのすべてのセルに単一のスタイルを適用します
-            // 使用中の API: PivotTable.FormatAll(Style)
-            // 対象形式: .xlsx
-            // GitHub リファレンス: Aspose.Cells-for-.NET リポジトリのピボットテーブルのスタイル設定例を参照してください
+            // Scenario 4: Apply a single Style to every pivot table cell using FormatAll
+            // API in use: PivotTable.FormatAll(Style)
+            // Target format: .xlsx
+            // GitHub reference: see Aspose.Cells-for-.NET repository — pivot table styling examples
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
-            // ソースデータを入力: ヘッダー行 (行 1) + 9 データ行 (行 2-10)
+            // Populate source data: header row (row 1) + 9 data rows (rows 2-10)
             const cells = worksheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
@@ -397,13 +398,13 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             cells.get("A10").value = "Grape";
             cells.get("B10").value = 2021;
             cells.get("C10").value = 5500;
-            // ピボットテーブルを追加: ソース範囲 A1:C10、宛先セル E3
+            // Add pivot table: source range A1:C10, destination cell E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // ピボットフィールドを割り当て: Fruit -> 行領域、Year -> 列領域、Amount -> データ領域
+            // Assign pivot fields: Fruit -> Row area, Year -> Column area, Amount -> Data area
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // ピボットテーブルのすべてのセルに強制適用する Style を作成します
+            // Build a Style that will be forced onto every cell of the pivot table
             const style = workbook.createStyle();
             style.foregroundColor = AsposeCells.Color.Yellow;
             style.pattern = AsposeCells.BackgroundType.Solid;
@@ -417,10 +418,10 @@ Aspose.Cells は、ピボットテーブル向けの 2 つのスタイル API �
             style.borders.get(AsposeCells.BorderType.LeftBorder).color = AsposeCells.Color.Black;
             style.borders.get(AsposeCells.BorderType.RightBorder).lineStyle = AsposeCells.CellBorderType.Thin;
             style.borders.get(AsposeCells.BorderType.RightBorder).color = AsposeCells.Color.Black;
-            // FormatAll を適用: この単一スタイルをピボットテーブルのすべてのセルに強制適用し、
-            // 以前に設定した PivotTableStyleType / PivotTableStyleName を上書きします
+            // Apply FormatAll: forces this single style onto every cell of the pivot table,
+            // overriding any PivotTableStyleType / PivotTableStyleName previously set
             pivotTable.formatAll(style);
-            // ワークブックを最新の .xlsx 形式で保存します
+            // Save the workbook in the modern .xlsx format
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

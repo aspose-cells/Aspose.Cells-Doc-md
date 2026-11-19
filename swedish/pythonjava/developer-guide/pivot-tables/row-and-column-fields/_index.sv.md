@@ -1,6 +1,6 @@
 ---
 title: Lägg till pivottabellens rad- och kolumnfält i Aspose.Cells for Python via Java
-linktitle: Lägg till pivottabellens rad- och kolumnfält i Aspose.Cells for Python via Java
+linktitle: Rad- och kolumnfält
 description: Lär dig hur du lägger till basfält i pivottabellens rad- och kolumnområden och styr pivotfältets delsummor med PivotField.setSubtotals i Aspose.Cells for Python via Java.
 keywords: Aspose.Cells, Python via Java, pivottabell, radfält, kolumnfält, PivotField, setSubtotals, PivotFieldSubtotalType, delsummor
 type: docs

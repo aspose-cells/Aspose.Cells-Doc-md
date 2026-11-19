@@ -40,17 +40,17 @@ Excel supporta due distinti livelli di password. Il primo è una password di ape
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// Scrivi un valore di esempio nella cella A1 del primo foglio di lavoro
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get("A1").putValue("Sample Data");
-// Configura la protezione da scrittura: imposta la password per modificare e l'autore
+// Configure the write protection: set the password to modify and the author
 workbook.getSettings().getWriteProtection().setPassword("ModifyPwd");
 workbook.getSettings().getWriteProtection().setAuthor("AuthorName");
-// Salva la cartella di lavoro in modo che la protezione da scrittura venga mantenuta
+// Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx");
-// Valida la password per modificare utilizzando la password corretta
+// Validate the password to modify using the correct password
 let isCorrectValid = workbook.getSettings().getWriteProtection().validatePassword("ModifyPwd");
 console.log("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// Valida la password per modificare utilizzando una password errata per dimostrare l'altro ramo
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 let isWrongValid = workbook.getSettings().getWriteProtection().validatePassword("WrongPwd");
 console.log("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -61,20 +61,20 @@ La protezione della struttura della cartella di lavoro impedisce ad altri utenti
 ```javascript
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
-// Aggiungi un secondo foglio di lavoro
+// Add a second worksheet
 workbook.getWorksheets().add();
-// Scrivi un valore di esempio nella cella A1 del primo foglio di lavoro
+// Write a sample value to cell A1 of the first worksheet
 workbook.getWorksheets().get(0).getCells().get(0, 0).putValue("Sample Data");
-// Proteggi la struttura della cartella di lavoro
+// Protect the workbook structure
 workbook.protect(AsposeCells.ProtectionType.STRUCTURE, "StructPwd");
-// Salva la cartella di lavoro come structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 let filePath = "structure_protected.xlsx";
 workbook.save(filePath);
-// Ricarica il file in una nuova istanza di Workbook
+// Reload the file into a new Workbook instance
 let loadedWorkbook = new AsposeCells.Workbook(filePath);
-// Rimuovi la protezione della struttura
+// Remove the structure protection
 loadedWorkbook.unprotect("StructPwd");
-// Stampa il messaggio di conferma
+// Print confirmation message
 console.log("Structure protection has been successfully removed from the workbook.");
 ```
 

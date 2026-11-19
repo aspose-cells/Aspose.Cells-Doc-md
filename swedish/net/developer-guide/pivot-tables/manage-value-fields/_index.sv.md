@@ -1,6 +1,6 @@
 ---
 title: Hantera värdefält i pivottabeller i Aspose.Cells for .NET
-linktitle: Hantera värdefält i pivottabeller i Aspose.Cells for .NET
+linktitle: Värdefält
 description: Lär dig hur du lägger till basfält i dataregionen i en pivottabell, ändrar summeringsfunktionen med PivotField.Function och placerar värdefältet på rad- eller kolumnaxeln i Aspose.Cells for .NET.
 keywords: Aspose.Cells, .NET, pivottabell, värdefält, PivotField, PivotField.Function, datafält, PivotTable.ValuesField, Sum, Average
 type: docs

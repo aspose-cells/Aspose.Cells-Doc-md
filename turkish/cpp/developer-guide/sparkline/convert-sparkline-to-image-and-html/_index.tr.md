@@ -1,6 +1,6 @@
 ---
 title: Sparkline'ı Aspose.Cells for C++'ta Görüntüye ve HTML'e Dönüştürme
-linktitle: Sparkline'ı Aspose.Cells for C++'ta Görüntüye ve HTML'e Dönüştürme
+linktitle: Sparkline'ı Görüntü ve HTML'e Dönüştür
 description: Aspose.Cells sparkline'larını hücreye gömme için bağımsız görüntülere işlemeyi ve sparkline açısından zengin çalışma sayfalarını HtmlSaveOptions kullanarak HTML'e aktarmayı öğrenin.
 keywords: Aspose.Cells, C++, sparkline, Sparkline.ToImage, Cell.EmbeddedImage, HtmlSaveOptions, sparkline işleme, sparkline'ı görüntüye dönüştürme, sparkline'ı HTML'e aktarma
 type: docs

@@ -65,68 +65,68 @@ Microsoft Excel のピボットテーブルには、表の行・列・データ�
             const worksheets = workbook.worksheets;
             const pivotDataSheet = worksheets.add("PivotData");
             const pivotDataCells = pivotDataSheet.cells;
-            // ヘッダー（行0）
+            // Headers (row 0)
             pivotDataCells.get(0, 0).value = "Fruit";
             pivotDataCells.get(0, 1).value = "Year";
             pivotDataCells.get(0, 2).value = "Region";
             pivotDataCells.get(0, 3).value = "Amount";
-            // 行1: りんご、2022、北部、150
+            // Row 1: Apple, 2022, North, 150
             pivotDataCells.get(1, 0).value = "Apple";
             pivotDataCells.get(1, 1).value = 2022;
             pivotDataCells.get(1, 2).value = "North";
             pivotDataCells.get(1, 3).value = 150;
-            // 行2: りんご、2023、北部、180
+            // Row 2: Apple, 2023, North, 180
             pivotDataCells.get(2, 0).value = "Apple";
             pivotDataCells.get(2, 1).value = 2023;
             pivotDataCells.get(2, 2).value = "North";
             pivotDataCells.get(2, 3).value = 180;
-            // 行3: バナナ、2022、南部、120
+            // Row 3: Banana, 2022, South, 120
             pivotDataCells.get(3, 0).value = "Banana";
             pivotDataCells.get(3, 1).value = 2022;
             pivotDataCells.get(3, 2).value = "South";
             pivotDataCells.get(3, 3).value = 120;
-            // 行4: バナナ、2023、南部、140
+            // Row 4: Banana, 2023, South, 140
             pivotDataCells.get(4, 0).value = "Banana";
             pivotDataCells.get(4, 1).value = 2023;
             pivotDataCells.get(4, 2).value = "South";
             pivotDataCells.get(4, 3).value = 140;
-            // 行5: さくらんぼ、2022、東部、200
+            // Row 5: Cherry, 2022, East, 200
             pivotDataCells.get(5, 0).value = "Cherry";
             pivotDataCells.get(5, 1).value = 2022;
             pivotDataCells.get(5, 2).value = "East";
             pivotDataCells.get(5, 3).value = 200;
-            // 行6: さくらんぼ、2023、東部、220
+            // Row 6: Cherry, 2023, East, 220
             pivotDataCells.get(6, 0).value = "Cherry";
             pivotDataCells.get(6, 1).value = 2023;
             pivotDataCells.get(6, 2).value = "East";
             pivotDataCells.get(6, 3).value = 220;
-            // 行7: ぶどう、2022、西部、90
+            // Row 7: Grape, 2022, West, 90
             pivotDataCells.get(7, 0).value = "Grape";
             pivotDataCells.get(7, 1).value = 2022;
             pivotDataCells.get(7, 2).value = "West";
             pivotDataCells.get(7, 3).value = 90;
-            // 行8: ぶどう、2023、西部、110
+            // Row 8: Grape, 2023, West, 110
             pivotDataCells.get(8, 0).value = "Grape";
             pivotDataCells.get(8, 1).value = 2023;
             pivotDataCells.get(8, 2).value = "West";
             pivotDataCells.get(8, 3).value = 110;
-            // PivotTableReportシートを追加
+            // Add PivotTableReport sheet
             const pivotTableSheet = worksheets.add("PivotTableReport");
             const pivotTables = pivotTableSheet.pivotTables;
-            // PivotData!A1:D9をデータ元として、PivotTableReportのA1にピボットテーブルを作成
+            // Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
             const pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0);
-            // フィールドを追加
-            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // 果物
-            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // 年
-            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);  // 地域
-            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // 金額
+            // Add fields
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, 0);   // Fruit
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 1);  // Year
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, 2);  // Region
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, 3);  // Amount
             pivotTable.dataFields.get(0).function = AsposeCells.ConsolidationFunction.Sum;
-            // ページフィールド領域のレイアウトを設定：ページフィールドを横方向優先で配置し、2つごとに改行
+            // Configure page field area layout: place page fields across first, wrap after every 2
             pivotTable.pageFieldOrder = AsposeCells.PrintOrderType.OverThenDown;
             pivotTable.pageFieldWrapCount = 2;
-            // 更新して計算
+            // Refresh and calculate
             pivotTable.calculateData();
-            // 保存
+            // Save
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');

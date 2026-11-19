@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for JavaScript via C++ ile Excel Kamera
-linktitle: Aspose.Cells for JavaScript via C++ ile Excel Kamera
+linktitle: Excel Kamera
 description: Excel Kamera'yı Aspose.Cells for JavaScript via C++ ile kullanarak bir hücre aralığına bağlı, kaynak verileri değiştiğinde yenilenen ve kaynak alanının tüm biçimlendirmesini koruyan dinamik bir resim oluşturmayı öğrenin.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, Excel Camera, dinamik resim, bağlı resim, picture.formula, updateSelectedValue, createRange, toImage, Buffer
 type: docs
@@ -54,7 +54,7 @@ Aşağıdaki kod bir çalışma kitabı oluşturur, 10. satır ve 6. sütuna sab
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // Dinamik Kamera: boş bir resim ekle, Formula ile A1:F10 aralığına bağla, ardından yenile
+            // Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
             const pictures = worksheet.pictures;
             const index = pictures.add(10, 6, null);
             const picture = pictures.get(0);
@@ -109,7 +109,7 @@ Aşağıdaki kod bir çalışma kitabı oluşturur, `A1:F10` için bir `Range` o
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // Statik Kamera: Range oluştur, baytlara dönüştür, MemoryStream içine sar, resim olarak ekle
+            // Static Camera: build Range, render to bytes, wrap in MemoryStream, add as picture
             const range = worksheet.cells.createRange("A1:F10");
             const imageData = range.toImage();
             const pictures = worksheet.pictures;

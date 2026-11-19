@@ -1,9 +1,9 @@
 ---
-title: عرض مصفوفة خلية واحدة لـ SmartMarker | Aspose.Cells for Node.js via Java
-description: تعلم كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمات ArrayAsSingle و ExtraDelimiter في علامات Smart مع Aspose.Cells for Node.js via Java.
-linktitle: عرض مصفوفة خلية واحدة لـ SmartMarker | Aspose.Cells
+title: عرض مصفوفة في خلية واحدة باستخدام SmartMarker | Aspose.Cells for Node.js via Java
+description: تعلّم كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمات العلامة الذكية `arrayassingle` و`arraydelimiter` في Aspose.Cells for Node.js via Java.
+linktitle: عرض مصفوفة SmartMarker في خلية واحدة
 url: /ar/nodejs-java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
-keywords: Aspose.Cells, مكتبة Node.js via Java, جدول بيانات, علامات Smart, ArrayAsSingle, ExtraDelimiter, مصفوفة خلية واحدة, عرض المصفوفة, قالب
+keywords: Aspose.Cells, مكتبة Node.js عبر Java, جدول بيانات, العلامات الذكية, arrayassingle, arraydelimiter, مصفوفة في خلية واحدة, عرض المصفوفة, قالب
 type: docs
 weight: 195
 ai_search_scope: cells_nodejsjava
@@ -11,139 +11,182 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-يدعم Aspose.Cells عرض بيانات المصفوفة في خلية واحدة عبر علامات Smart. من خلال استخدام سمة `ArrayAsSingle` مع سمة `ExtraDelimiter`، يمكن للمطورين التحكم في كيفية فصل عناصر المصفوفة داخل خلية واحدة، مما يوفر تنسيقًا مرنًا للتقارير والقوالب.
+يمكن لـ Aspose.Cells عرض مصدر بيانات مصفوفة في خلية واحدة عبر العلامات الذكية. توقف السمة `arrayassingle` النشر الافتراضي عنصرًا تلو الآخر، وتحدد السمة `arraydelimiter` الفاصل الموضوع بين العناصر المدمجة — فاصلة افتراضيًا، أو أي حرف منفرد أو سلسلة متعددة الأحرف بين علامتَي اقتباس تحددها.
 {{% /alert %}}
 
-## **المقدمة**
-تعد علامات Smart في Aspose.Cells ميزة قوية قائمة على القوالب تتيح لك تعبئة بيانات جدول البيانات ديناميكيًا باستخدام تعبيرات العلامات مثل `&=DataSource.Field`. يتم وضع العلامة في مصنف المصمم، وعندما تتم معالجة القالب بواسطة `WorkbookDesigner`، يتم استبدال العلامات بقيم من مصدر البيانات المقدم.
-افتراضيًا، عندما تشير علامة Smart إلى خاصية مصفوفة (على سبيل المثال، `&=DataSource.Numbers`)، يقوم المحرك بتوسيع المصفوفة ووضع كل عنصر في خلية مجاورة منفصلة - إما أفقيًا عبر صف أو رأسيًا لأسفل عمود. على الرغم من أن هذا السلوك مناسب في العديد من السيناريوهات، إلا أن هناك مواقف قد تفضل فيها عرض المصفوفة بأكملها في خلية واحدة، مع ربط العناصر وفصلها بفاصل من اختيارك.
-تلبى سمات `ArrayAsSingle` و `ExtraDelimiter`، المستخدمة معًا داخل علامة Smart، هذا المتطلب بالتحديد. تتيح لك الحفاظ على تخطيطات التقارير مدمجة وقابلة للتنبؤ مع الاستمرار في العمل بشكل أصلي مع مصادر بيانات المصفوفات.
+## **مقدمة**
+
+تعد العلامات الذكية في Aspose.Cells ميزة قائمة على القوالب تملأ بيانات الجداول ديناميكيًا باستخدام تعبيرات العلامات مثل `&=DataSource.Field`. توضع العلامة في مصنف تصميم، وعندما تتم معالجة القالب بواسطة `WorkbookDesigner`، تُستبدل العلامات بالقيم من مصدر البيانات المزوَّد.
+افتراضيًا، عندما تشير علامة ذكية إلى حقل مصفوفة، مثل `&=Product.Tags` المرتبط بمصفوفة تضم أربع قيم، يوسع المحرك المصفوفة ويضع كل عنصر في خلية خاصة به، مبثوثًا القيم رأسيًا إلى أسفل العمود أسفل العلامة. ورغم أن هذا السلوك مريح في سيناريوهات كثيرة، هناك مواقف تفضل فيها عرض المصفوفة بأكملها في خلية واحدة، مع دمج العناصر وفصلها بفاصل تختاره.
+تقدم السمات `arrayassingle` و`arraydelimiter`، المكتوبة داخل أقواس العلامة الذكية بصيغة `name:value`، حلًا مباشرًا لهذا المتطلب. تتيح لك الحفاظ على تخطيطات التقارير مضغوطة ومتوقعة مع الاستمرار في العمل أصلًا مع مصادر بيانات المصفوفات.
 
 ## **لماذا هذه الميزة مطلوبة**
 
-### **سلوك انتشار المصفوفة الافتراضي**
-عندما تشير علامة Smart إلى خاصية مصفوفة، يقوم Aspose.Cells بتوسيع المصفوفة عبر خلايا متعددة افتراضيًا. على سبيل المثال، ستضع علامة مثل `&=Product.Tags` مقابل `string[]` تحتوي على أربع قيم كل قيمة في خليتها الخاصة، مما يدفع محتوى القالب الآخر للخارج ويحتمل أن يكسر تخطيطات التقارير المصممة بعناية.
+### **سلوك نشر المصفوفات الافتراضي**
+
+عندما تشير علامة ذكية إلى حقل مصفوفة، يوسع Aspose.Cells المصفوفة افتراضيًا عبر خلايا متعددة. على سبيل المثال، تضع علامة مثل `&=Product.Tags`، عند تطبيقها على مصفوفة تحتوي على أربع قيم، كل قيمة في خلية خاصة أسفل العلامة، مما يدفع بقية محتوى القالب إلى الخارج وقد يؤدي إلى كسر تخطيطات التقارير المصممة بعناية.
 
 ### **قيود حالات الاستخدام**
-هناك العديد من السيناريوهات العملية حيث يكون سلوك الانتشار الافتراضي غير مرغوب فيه:
-- **تقارير بأسلوب الملخص** التي تحتاج إلى تخطيط مدمج من صف واحد لكل سجل.
-- **قوائم العلامات أو التسميات أو الكلمات الرئيسية** التي تحتاج إلى عرضها كقيم مفصولة بفواصل أو أنابيب داخل خلية واحدة.
-- **شرائح التصفية أو مؤشرات الحالة** التي تجمع قيمًا متعددة في مكان واحد لسهولة القراءة.
-- **خطوط أنابيب المصب** (تصدير CSV، عرض PDF، دمج البريد) التي تتوقع قيمة موحدة واحدة لكل خلية بدلاً من نطاق موسع.
-- **التوافق عبر الأنظمة الأساسية**، حيث لا يمكن لبعض المستهلكين تحمل المصفوفات التي تنتشر عبر خلايا متعددة.
 
-### **الفجوة التي تملأها**
-بدون آلية مدمجة، سيكون المطورون مجبرين على معالجة البيانات مسبقًا في JavaScript - ربط المصفوفات في سلاسل مفصولة قبل ربطها بمصمم المصنف. يؤدي هذا إلى تكرار المنطق، وتعقيد نماذج البيانات، وزيادة فرصة الأخطاء. تقضي سمات `ArrayAsSingle` و `ExtraDelimiter` على هذا الحل البديل من خلال التعامل مع التنسيق بشكل وصفي داخل علامة Smart نفسها.
+توجد سيناريوهات عملية كثيرة يكون فيها سلوك النشر الافتراضي غير مرغوب فيه:
+- **تقارير بأسلوب الملخص** التي تحتاج إلى تخطيط مضغوط من صف واحد لكل سجل.
+- **قوائم الوسوم أو التسميات أو الكلمات المفتاحية** التي يلزم عرضها كقيم مفصولة بفواصل أو خطوط أنابيب داخل خلية واحدة.
+- **عناصر التصفية أو مؤشرات الحالة** التي تجمع قيمًا متعددة في موضع واحد لتسهيل القراءة.
+- **خطوط المعالجة اللاحقة**، مثل تصدير CSV وعرض PDF ودمج البريد، التي تتوقع قيمة موحدة واحدة لكل خلية بدل نطاق موسّع.
+- **التوافق عبر المنصات**، حيث لا يمكن لبعض الجهات المستهلكة التعامل مع مصفوفات ممتدة عبر خلايا متعددة.
 
-## **فوائد الميزة**
-يوفر استخدام سمات `ArrayAsSingle` و `ExtraDelimiter` في علامات Smart الخاصة بك العديد من المزايا:
-- **الاحتواء في خلية واحدة**: يتم عرض جميع عناصر المصفوفة في خلية واحدة بالضبط، مما يحافظ على التخطيطات مدمجة وقابلة للتنبؤ.
-- **التحكم في الفاصل المخصص**: حدد أي سلسلة فاصل تريدها - فاصلة، فاصلة منقوطة، واصلة، أنبوب، سطر جديد، أو أي نص مخصص.
-- **التنسيق القائم على القوالب**: لا حاجة إلى كود إضافي لمعالجة البيانات مسبقًا؛ تعيش قواعد التنسيق داخل علامة Smart.
-- **تقارير أنظف**: لم تعد بيانات المصفوفة تدفع محتوى القالب المجاور إلى صفوف أو أعمدة مختلفة.
-- **أنواع بيانات متعددة الاستخدامات**: تعمل مع السلاسل والأرقام والتواريخ وأي نوع بيانات آخر يمكن ربطه بفاصل.
-- **التوافق العكسي**: عند حذف السمات، يتم الحفاظ على سلوك الانتشار الأصلي، لذا تستمر القوالب الحالية في العمل دون تغيير.
+### **الفجوة التي يسدها**
+
+بدون آلية مدمجة، سيضطر المطورون إلى معالجة البيانات مسبقًا في JavaScript، بدمج المصفوفات في سلاسل ذات فواصل قبل ربطها بمصمم المصنف. يكرر هذا الأسلوب منطقًا، ويعقد نماذج البيانات، ويزيد احتمال وقوع الأخطاء. وتلغي سمتا `arrayassingle` و`arraydelimiter` الحاجة إلى هذا الحل البديل عبر التعامل مع التنسيق بطريقة تعريفية داخل العلامة الذكية نفسها.
+
+## **مزايا الميزة**
+
+يوفر استخدام السمتين `arrayassingle` و`arraydelimiter` في العلامات الذكية عدة مزايا:
+- **الاحتواء في خلية واحدة**: تُعرض جميع عناصر المصفوفة في خلية واحدة بالضبط، مما يحافظ على تخطيطات مضغوطة ومتوقعة.
+- **التحكم في الفاصل المخصص**: حدد الفاصل الذي تفضله — الفاصلة الافتراضية، أو فاصلة منقوطة، أو شرطة، أو خط أنابيب، أو سلسلة متعددة الأحرف بين علامتَي اقتباس مثل `" | "`.
+- **التنسيق المعتمد على القالب**: لا يلزم أي كود إضافي لمعالجة البيانات مسبقًا؛ فقواعد التنسيق موجودة داخل وسم العلامة الذكية.
+- **تقارير أنظف**: لم تعد بيانات المصفوفة تدفع بمحتوى القالب المجاور إلى صفوف أو أعمدة مختلفة.
+- **أنواع بيانات متعددة الاستخدام**: يعمل مع مصفوفات السلاسل المزوَّدة كصفوف JSON، بما في ذلك القيم الرقمية المعروضة كنصوص.
+- **التوافق مع الإصدارات السابقة**: عند حذف السمتين، يبقى سلوك النشر الأصلي كما هو، لذا تواصل القوالب الحالية العمل دون تغيير.
 
 ## **كيفية استخدام هذه الميزة**
 
-### **صيغة علامة Smart**
-يتم تمرير سمات `ArrayAsSingle` و `ExtraDelimiter` كأزواج قيمة-مفتاح داخل أقواس علامة Smart القياسية. الصيغة العامة هي:
+### **صيغة العلامة الذكية**
+
+تستخدم سمتا `arrayassingle` و`arraydelimiter` أسلوب سمات `name:value` الخاص بـ Aspose.Cells داخل أقواس علامة ذكية قياسية. الصيغة العامة هي:
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayField(arrayassingle:true,arraydelimiter:;)
 ```
 
 تتكون العلامة من الأجزاء التالية:
-- `&=DataSource.ArrayProperty` — علامة Smart القياسية التي تشير إلى خاصية المصفوفة على مصدر البيانات المرتبط.
-- `arrayasSingle=true` — يوجه المحرك لعرض المصفوفة بأكملها في خلية واحدة. فقط القيمة `true` تؤدي إلى تشغيل سلوك الخلية الواحدة.
-- `extraDelimiter=", "` — يحدد الفاصل الموضوع بين عناصر المصفوفة. القيمة هي سلسلة حرفية؛ يمكن أن تكون فارغة أو حرفًا واحدًا أو سلسلة متعددة الأحرف.
+- `&=DataSource.ArrayField` — العلامة الذكية القياسية التي تشير إلى حقل المصفوفة في مصدر البيانات المرتبط.
+- `arrayassingle:true` — يوجه المحرك إلى عرض المصفوفة بأكملها في خلية واحدة بدل نشر عناصرها.
+- `arraydelimiter:;` — اختيارية؛ تحدد الفاصل الموضوع بين عناصر المصفوفة. وعند حذفها، تُستخدم فاصلة.
 
-{{% alert color="primary" %}}
-تقبل سمة `extraDelimiter` أي سلسلة حرفية، بما في ذلك الفواصل متعددة الأحرف أو النص المخصص أو تسلسلات الهروب مثل `\n` للإخراج المفصول بسطر جديد. إذا كانت المصفوفة فارغة، فستترك الخلية الناتجة فارغة.
+{{% alert color="warning" %}}
+اكتب السمات بصيغة `name:value` (نقطتان، لا علامة يساوي) وافصل بين السمات المتعددة بفاصلة **من دون مسافات**. تؤدي المسافة بعد الفاصلة إلى إزاحة القيمة المحلَّلة بمقدار حرف واحد — إذ ستدمج `(arrayassingle:true, arraydelimiter:;)` باستخدام الفاصل الخاطئ `:;` بدلًا من `;`.
 {{% /alert %}}
 
-### **سير العمل خطوة بخطوة**
-يصف سير العمل التالي كيفية عرض مصفوفة في خلية واحدة باستخدام علامات Smart.
-1. **إعداد مصدر البيانات**: أنشئ فئة (أو بنية بيانات) تعرض خاصية تُرجع مصفوفة. يمكن للخاصية إرجاع `string[]` أو `int[]` أو أي نوع مصفوفة آخر مدعوم.
-2. **إنشاء مصنف مصمم**: أنشئ `Workbook` جديدًا، وأضف صف رأس، وضع خلية علامة Smart تشير إلى خاصية المصفوفة بسمات `arrayasSingle` و `extraDelimiter`.
-3. **إنشاء مثيل WorkbookDesigner**: أنشئ كائن `WorkbookDesigner`، وأرفق مصنف المصمم به، واربط مصدر البيانات الخاص بك باستخدام طريقة `setDataSource`.
-4. **معالجة العلامات**: اتصل بطريقة `workbookDesigner.process()` لتوسيع علامات Smart وتعبئة المصنف بالبيانات الحقيقية.
-5. **حفظ النتيجة**: احفظ المصنف الناتج على القرص بتنسيق XLSX أو أي تنسيق ملف مدعوم آخر.
+### **أشكال الفاصل**
 
-### **مثال الكود 1 — عرض مصفوفة سلسلة أساسية**
+- يأتي الحرف المفرد مباشرة بعد النقطتين: `arraydelimiter:;`، `arraydelimiter:-`، `arraydelimiter:*`.
+- يكتب الفاصل متعدد الأحرف بين علامتَي اقتباس مزدوجتين: `arraydelimiter:" | "`، `arraydelimiter:" - "`.
+
+### **سير العمل خطوة بخطوة**
+
+يوضح سير العمل التالي كيفية عرض مصفوفة في خلية واحدة باستخدام العلامات الذكية.
+1. **تهيئة مصدر البيانات**: نظّم كل سجل في صورة كائن JSON يحتوي حقله على مصفوفة، مثل `{"Tags": ["C#", "Aspose"]}`. لا يتم ربط كائنات ومصفوفات JavaScript العادية التي تمرر إلى `setDataSource` على هذه المنصة — صفوف JSON هي الصيغة الجدولية المدعومة.
+2. **إنشاء مصنف مصمم**: أنشئ `Workbook` جديدًا، وأضف صف عنوان، وضع خلية علامة ذكية تشير إلى حقل المصفوفة مع السمة `arrayassingle` (و`arraydelimiter` عند الحاجة إلى فاصل مخصص).
+3. **إنشاء WorkbookDesigner**: أنشئ `WorkbookDesigner` حول المصنف وأرفق صفوف JSON باستخدام `setJsonDataSource`.
+4. **معالجة العلامات**: استدع الأسلوب `workbookDesigner.process()` لتوسيع العلامات الذكية وتعبئة المصنف بالبيانات الفعلية.
+5. **حفظ النتيجة**: احفظ المصنف الناتج على القرص بصيغة XLSX أو أي تنسيق ملف آخر مدعوم.
+
+### **مثال برمجي 1 — العرض الأساسي لمصفوفة سلاسل**
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-class Product {
-    constructor() {
-        this.Tags = null;
-    }
-}
-const product = new Product();
-product.Tags = ["C#", "Aspose", "SmartMarker", "Excel"];
+
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.getCells().get("A1").putValue("Tags");
-worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")");
-const designer = new AsposeCells.WorkbookDesigner();
-designer.setWorkbook(workbook);
-designer.setDataSource("Product", product);
+// No spaces inside the parentheses: attributes are name:value pairs
+worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayassingle:true)");
+const designer = new AsposeCells.WorkbookDesigner(workbook);
+designer.setJsonDataSource(
+    "Product",
+    '[{"Tags": ["C#", "Aspose", "SmartMarker", "Excel"]}]');
 designer.process();
-workbook.save("output_arraySingle.xlsx");
+console.log(worksheet.getCells().get("A2").getStringValue());
+workbook.save("output-array-single.xlsx");
 ```
 
-### **مثال الكود 2 — مصفوفة رقمية بفاصل مخصص**
+يطبع المثال القيمة المدمجة للمصفوفة بأكملها. تقع الوسوم الأربعة في خلية واحدة، مفصولة بفاصلة افتراضية:
+
+```
+C#,Aspose,SmartMarker,Excel
+```
+
+### **مثال برمجي 2 — القيم الرقمية مع فاصل مخصص**
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-class Student {
-    constructor() {
-        this.Scores = [];
-    }
-}
-const student = new Student();
-student.Scores = [95, 88, 76, 100, 67];
+
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.getCells().get("A1").putValue("Scores");
-worksheet.getCells().get("A2").putValue(student.Scores.join(" - "));
-workbook.save("output_numericArray.xlsx");
+// arraydelimiter:- joins the values with a hyphen
+worksheet.getCells().get("A2").putValue("&=Student.Scores(arrayassingle:true,arraydelimiter:-)");
+const designer = new AsposeCells.WorkbookDesigner(workbook);
+designer.setJsonDataSource(
+    "Student",
+    '[{"Scores": ["95", "88", "76", "100", "67"]}]');
+designer.process();
+console.log(worksheet.getCells().get("A2").getStringValue());
+workbook.save("output-array-numeric.xlsx");
 ```
 
-### **مثال الكود 3 — مقارنة السلوك الافتراضي مقابل سلوك ArrayAsSingle**
+عند توفير الدرجات كسلاسل JSON، تحافظ النتيجة المدمجة على الأرقام دون تنسيق:
+
+```
+95-88-76-100-67
+```
+
+{{% alert color="note" %}}
+تصل أرقام JSON الممررة عبر محرك Java كأعداد مزدوجة، لذا يدمج `[95, 88]` على هيئة `95.0-88.0`. ضع الأرقام بين علامتَي اقتباس في صفوف JSON عندما تريد نص الأعداد الصحيحة كما هو في الخلية المدمجة.
+{{% /alert %}}
+
+### **مثال برمجي 3 — مقارنة العرض الافتراضي بالعرض في خلية واحدة**
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-function main() {
-    const order = {
-        Items: ["Apple", "Banana", "Cherry", "Date"]
-    };
-    const workbook = new AsposeCells.Workbook();
-    const sheet = workbook.getWorksheets().get(0);
-    const cells = sheet.getCells();
-    // القسم 1: العلامة الذكية الافتراضية - يتم توزيع القيم أفقيًا عبر الخلايا
-    cells.get("A1").putValue("Default Spreading Behavior:");
-    cells.get("A2").putValue("&=Order.Items");
-    // القسم 2: العرض الجديد في خلية واحدة باستخدام arrayasSingle و extraDelimiter
-    cells.get("A4").putValue("Single Cell Rendering (arrayasSingle=true):");
-    cells.get("A5").putValue("&=Order.Items(arrayasSingle=true, extraDelimiter=\"; \")");
-    // ربط مصدر البيانات ومعالجة العلامات الذكية
-    const designer = new AsposeCells.WorkbookDesigner(workbook);
-    designer.setDataSource("Order", order);
-    designer.process();
-    // حفظ المصنف الناتج
-    workbook.save("output_comparison.xlsx");
+
+const workbook = new AsposeCells.Workbook();
+const cells = workbook.getWorksheets().get(0).getCells();
+// Column B: default marker — values spread vertically down the column
+cells.get("B1").putValue("Default");
+cells.get("B2").putValue("&=Order.Items");
+// Column C: single-cell rendering — the whole array joins into one cell
+cells.get("C1").putValue("Single cell");
+cells.get("C2").putValue("&=Order.Items(arrayassingle:true)");
+const designer = new AsposeCells.WorkbookDesigner(workbook);
+designer.setJsonDataSource(
+    "Order",
+    '[{"Items": ["Apple", "Banana", "Cherry", "Date"]}]');
+designer.process();
+for (let row = 1; row <= 5; row++) {
+    const b = cells.get(row, 1).getStringValue() || "";
+    const c = cells.get(row, 2).getStringValue() || "";
+    if (b || c) console.log(`B${row + 1}=[${b}]  C${row + 1}=[${c}]`);
 }
-main();
+workbook.save("output-array-comparison.xlsx");
+```
+
+تملأ العلامة الافتراضية خلية واحدة لكل عنصر في العمود B، بينما تجمع علامة `arrayassingle` المصفوفة نفسها في خلية واحدة في العمود C:
+
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
 ```
 
 ### **ملاحظات وأفضل الممارسات**
-ضع النقاط التالية في الاعتبار عند العمل مع سمات `ArrayAsSingle` و `ExtraDelimiter`:
-- تُعامل قيمة `extraDelimiter` كسلسلة حرفية؛ ضع أحرف هروب لأي أحرف خاصة قد يفسرها معالج القالب الخاص بك.
-- تقبل سمة `arrayasSingle` قيمة منطقية (`true` / `false`). فقط `true` تؤدي إلى تشغيل سلوك الخلية الواحدة؛ أي قيمة أخرى تعود إلى سلوك الانتشار الافتراضي.
-- إذا كانت المصفوفة فارغة أو null، فستترك الخلية فارغة (أو تحتوي على سلسلة فارغة اعتمادًا على نوع البيانات).
-- تعمل الميزة مع مصادر بيانات الكائنات بالإضافة إلى مصادر `DataSet` و `DataTable` حيث يمكن تقسيم عمود إلى مصفوفات.
-- للإخراج المفصول بسطر جديد، يمكنك استخدام `\n` كقيمة الفاصل.
-- ضع علامة Smart في خلية ذات عرض كافٍ لعرض السلسلة المتسلسلة الناتجة؛ وإلا، فقد يفيض المحتوى بصريًا إلى الخلايا المجاورة اعتمادًا على التنسيق.
+
+ضع النقاط التالية في الاعتبار عند العمل مع السمتين `arrayassingle` و`arraydelimiter`:
+- تستخدم قيم السمات صيغة `name:value`. ولا يتم التعرف على صيغة علامة يساوي مثل `arrayassingle=true`، بل يعود بصمت إلى سلوك النشر الافتراضي.
+- افصل السمات بفاصلة ومن دون مسافات؛ فالمسافة بعد الفاصلة تزيح قيمة الفاصل بمقدار حرف واحد، كما ورد في التحذير أعلاه.
+- قد تكون قيمة `arraydelimiter` حرفًا مفردًا مكتوبًا مباشرة بعد النقطتين، أو سلسلة متعددة الأحرف مغلقة بعلامتَي اقتباس مزدوجتين.
+- عند حذف `arraydelimiter`، تُدمج العناصر بفاصلة.
+- وفّر حقول المصفوفة عبر كائنات صفوف `setJsonDataSource`؛ فكائنات ومصفوفات JavaScript العادية التي تمرر إلى `setDataSource` لا يتم ربطها على هذه المنصة.
+- تصل أرقام JSON كأعداد مزدوجة عبر محرك Java (`95` يُدمج على هيئة `95.0`)؛ ضع القيم الرقمية بين علامتَي اقتباس في صفوف JSON عندما يكون نص الأعداد الصحيحة الدقيق مهمًا.
+- ضع العلامة الذكية في خلية ذات عرض كافٍ لعرض السلسلة المدمجة الناتجة؛ وإلا فقد يفيض المحتوى بصريًا إلى الخلايا المجاورة، وفقًا على التنسيق.
+
+## المقالات ذات الصلة
+- [إضافة حقول التصفية إلى جدول محوري في Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/add-page-field-in-pivot-table/)
+- [تطبيق الأنماط على الجداول المحورية في Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/apply-style-to-pivot-table/)
+- [تعديل تخطيط حقل الصفحة في الجدول المحوري](/cells/ar/nodejs-java/change-page-field-layout/)
+- [تحويل Sparkline إلى صورة وHTML في Aspose.Cells for Node.js via Java](/cells/ar/nodejs-java/convert-sparkline-to-image-and-html/)
+- [تحويل Excel إلى تنسيق OFD](/cells/ar/nodejs-java/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

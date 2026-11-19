@@ -122,21 +122,21 @@ CSE 配列数式は `TRANSPOSE` 式を評価するための従来の Excel の�
 using namespace Aspose::Cells;
 int main() {
     Aspose::Cells::Startup();
-    // xlsx の LoadOptions を使用してソースワークブックを読み込む
+    // Load the source workbook with xlsx LoadOptions
     std::string srcFile = "source.xlsx";
     Workbook workbook(U16String(srcFile.c_str()), LoadOptions(LoadFormat::Xlsx));
-    // 最初のワークシートとその Cells コレクションにアクセスする
+    // Access the first worksheet and its Cells collection
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
     Cells cells = worksheet.GetCells();
-    // セル A6 に従来の CSE 配列数式を設定する。
-    // 数式 =TRANSPOSE(A1:D5) は 5 行 x 4 列のソース範囲を回転させ、
-    // 4 行 x 5 列の配列に変換する。2 番目の引数 (4) は行数、
-    // 3 番目の引数 (5) は結果として得られる配列の列数である。
-    // Aspose.Cells は CSE 配列数式マーカーを書き込むので、Excel はこれを
-    // 単一の複数セル配列数式として評価し、古いバージョンの Excel
-    // (2019、2016、2013 など)、動的配列のスピリングをサポートしない環境と互換性がある。
+    // Set the classic CSE array formula on cell A6.
+    // The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+    // into a 4-row x 5-column array. The second argument (4) is the number of rows
+    // and the third argument (5) is the number of columns of the resulting array.
+    // Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+    // a single multi-cell array formula, compatible with older Excel versions
+    // (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
     cells.Get(u"A6").SetArrayFormula(u"=TRANSPOSE(A1:D5)", 4, 5);
-    // 配列数式マーカーが保持されるようにワークブックを保存する
+    // Save the workbook so the array-formula marker is persisted
     workbook.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;

@@ -51,14 +51,14 @@ workbook.save("output.xlsx");
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-// 新しいワークブックを作成
+// Create a new workbook
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
-// セルA1:C1にヘッダー行を書き込み
+// Write header row into cells A1:C1
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// セルA2:C9にデータ行を書き込み（2020年と2021年にわたる8行の果物のデータ）
+// Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
 worksheet.getCells().get("A2").putValue("grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(50);
@@ -83,19 +83,19 @@ worksheet.getCells().get("C8").putValue(110);
 worksheet.getCells().get("A9").putValue("cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(120);
-// ピボットテーブルを追加：ソース範囲"A1:C9"、配置先のセル"E3"、名前
+// Add a pivot table: source range "A1:C9", destination cell "E3"
 const pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
-// ピボットフィールドを割り当て：Fruitを行、Yearを列、Amountをデータに
+// Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// 変更をシミュレートするため、ソースデータのいくつかのAmount値を変更
+// Modify several Amount values in the source data to simulate changes
 worksheet.getCells().get("C2").putValue(55);
 worksheet.getCells().get("C5").putValue(85);
 worksheet.getCells().get("C9").putValue(125);
-// ワークブック内のすべてのピボットテーブル/ピボットキャッシュを更新
+// Refresh every pivot table / pivot cache in the workbook
 workbook.refreshAll();
-// ワークブックを保存
+// Save the workbook
 workbook.save("output.xlsx");
 ```
 
@@ -158,11 +158,11 @@ workbook.save("output.xlsx");
 const AsposeCells = require("aspose.cells");
 var workbook = new AsposeCells.Workbook();
 var worksheet = workbook.getWorksheets().get(0);
-// フルーツ / 年 / 数量の見出し行を書き込む
+// Write Fruit / Year / Amount header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// 8行のデータ行を書き込む（2〜9行目、ソース範囲A1:C9に合わせる）
+// Write 8 data rows (rows 2-9, fitting the source range A1:C9)
 worksheet.getCells().get("A2").putValue("Grape");
 worksheet.getCells().get("B2").putValue(2020);
 worksheet.getCells().get("C2").putValue(100);
@@ -187,20 +187,21 @@ worksheet.getCells().get("C8").putValue(350);
 worksheet.getCells().get("A9").putValue("Cherry");
 worksheet.getCells().get("B9").putValue(2021);
 worksheet.getCells().get("C9").putValue(450);
-// 名前が のピボットテーブルを追加し、配置先セルE3、ソース範囲をA1:C9とする
+// Add a pivot table placed at destination cell E3, sourcing from A1:C9
 var pivotTable = worksheet.getPivotTables().add("A1:C9", 2, 4);
-// フィールドを割り当てる：Fruitを行、Yearを列、Amountをデータへ
+// Assign fields: Fruit to Row, Year to Column, Amount to Data
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.COLUMN, "Year");
 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.DATA, "Amount");
-// 表示/レイアウトプロパティを変更する — これは表示のみの変更であるため、
-// PivotCache.refresh() を通じてソースデータを再読み込みする必要はない。
+// Modify a view/layout property — this is a presentation-only change,
+// so it does NOT require re-reading the source data through PivotCache.refresh().
 pivotTable.setRefreshDataOnOpeningFile(false);
-// calculateData() はこのピボットテーブルの表示（データ＋スタイル）を
-// PivotCache にすでに保持されているデータから再レンダリングする。ソースデータは変更されていないため、
-// ソースへのラウンドトリップは行われず、キャッシュされた値のみがワークシートセルに再計算される。
+// calculateData() re-renders THIS pivot table's display (data + style) from the
+// data already held in the PivotCache. Because the source data did not change,
+// no round-trip to the source is performed — only the cached values are recalculated
+// into worksheet cells.
 pivotTable.calculateData();
-// ワークブックをディスクに保存する
+// Save the workbook to disk
 workbook.save("output.xlsx");
 ```
 

@@ -39,19 +39,19 @@ print("Decrypted cell A1 value: " + decrypted_workbook.worksheets[0].cells.get("
 
 ```python
 import aspose.cells as ac
-# إنشاء مصنف جديد من البداية
+# Create a new workbook from scratch
 workbook = ac.Workbook()
-# كتابة قيمة عينة في الخلية A1 من ورقة العمل الأولى
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get("A1").put_value("Sample Data")
-# تكوين حماية الكتابة: تعيين كلمة المرور للتعديل والمؤلف
+# Configure the write protection: set the password to modify and the author
 workbook.settings.write_protection.password = "ModifyPwd"
 workbook.settings.write_protection.author = "AuthorName"
-# حفظ المصنف بحيث تستمر حماية الكتابة
+# Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx")
-# التحقق من كلمة المرور للتعديل باستخدام كلمة المرور الصحيحة
+# Validate the password to modify using the correct password
 is_correct_valid = workbook.settings.write_protection.validate_password("ModifyPwd")
 print("ValidatePassword(\"ModifyPwd\") returned: " + str(is_correct_valid))
-# التحقق من كلمة المرور للتعديل باستخدام كلمة مرور غير صحيحة لإظهار الفرع الآخر
+# Validate the password to modify using an incorrect password to demonstrate the other branch
 is_wrong_valid = workbook.settings.write_protection.validate_password("WrongPwd")
 print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 ```
@@ -61,22 +61,22 @@ print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 
 ```python
 import aspose.cells as ac
-# إنشاء مصنف جديد
+# Create a new workbook
 workbook = ac.Workbook()
-# إضافة ورقة عمل ثانية
+# Add a second worksheet
 workbook.worksheets.add()
-# كتابة قيمة عينة في الخلية A1 من ورقة العمل الأولى
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get(0, 0).put_value("Sample Data")
-# حماية بنية المصنف
+# Protect the workbook structure
 workbook.protect(ac.ProtectionType.STRUCTURE, "StructPwd")
-# حفظ المصنف باسم structure_protected.xlsx
+# Save the workbook as structure_protected.xlsx
 file_path = "structure_protected.xlsx"
 workbook.save(file_path)
-# إعادة تحميل الملف في نسخة Workbook جديدة
+# Reload the file into a new Workbook instance
 loaded_workbook = ac.Workbook(file_path)
-# إلغاء حماية البنية
+# Remove the structure protection
 loaded_workbook.unprotect("StructPwd")
-# طباعة رسالة التأكيد
+# Print confirmation message
 print("Structure protection has been successfully removed from the workbook.")
 ```
 

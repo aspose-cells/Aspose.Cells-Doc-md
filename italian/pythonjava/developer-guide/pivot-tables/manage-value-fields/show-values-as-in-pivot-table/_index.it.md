@@ -1,8 +1,8 @@
 ---
-title: Mostra valori come nella tabella pivot
-description: Visualizza i valori dei campi dati di una tabella pivot come percentuale del totale, differenza da un elemento di base, totali cumulativi, ranghi e altro con Aspose.Cells for Python via Java.
-linktitle: Show Values As
-keywords: Aspose.Cells, tabella pivot, mostra valori come, formato di visualizzazione dati, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex, Python via Java
+title: Mostra Valori Come nella Tabella Pivot
+description: Visualizza i valori dei campi dati della tabella pivot come percentuale del totale, differenza da un elemento di base, totali cumulativi, classifiche e altro con Aspose.Cells for Python via Java.
+linktitle: Mostra Valori Come
+keywords: Aspose.Cells, tabella pivot, mostra valori come, PivotShowValuesAsType, PERCENTAGE_OF_TOTAL, PivotShowValuesSetting, showValuesAs, BaseFieldIndex, BaseItemIndex, Python
 type: docs
 weight: 145
 url: /it/python-java/show-values-as-in-pivot-table/
@@ -11,87 +11,71 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Possibili scenari di utilizzo**
-Una tabella pivot normalmente aggrega ciascun campo dati con una funzione di aggregazione come `Sum` o `Count`. La funzionalità **Show Values As** di Excel sostituisce ogni risultato visualizzato con un calcolo secondario derivato da tale aggregato — ad esempio, una percentuale del totale generale, un totale cumulativo, una differenza da un elemento di base scelto o un rango — così è possibile eseguire analisi comparative senza formule di supporto o colonne calcolate.
-Gli usi tipici includono l'analisi della quota rispetto al totale, comprese le percentuali di una riga, colonna o totale generale; la rendicontazione cumulativa usando un totale cumulativo in un campo periodo; l'analisi delle variazioni rispetto a un elemento di riferimento mediante differenza da o differenza percentuale da un elemento di base; e la classificazione dei valori dal più piccolo al più grande o dal più grande al più piccolo.
-In Aspose.Cells for Python via Java, `PivotFieldDataDisplayFormat` seleziona il calcolo secondario. Il metodo di sola lettura `PivotField.getShowValuesSetting()` restituisce un oggetto `PivotShowValuesSetting`, i cui metodi scrivibili `setCalculationType`, `setBaseFieldIndex`, `setBaseItemPositionType` e `setBaseItemIndex` configurano il comportamento; il metodo di convenienza `PivotField.showValuesAs(...)` applica le stesse quattro impostazioni in una sola chiamata. Applica queste impostazioni a un campo dati o valore ottenuto da `PivotTable.getDataFields()`.
+Una tabella pivot aggrega normalmente ogni campo dati con una funzione di aggregazione come `SUM` o `COUNT`. La funzionalità **Show Values As** di Excel sostituisce ogni risultato visualizzato con un calcolo secondario derivato da quell'aggregato — ad esempio, una percentuale del totale generale, un totale cumulativo, una differenza rispetto a un elemento di base scelto o una classifica — così è possibile eseguire analisi comparative senza formule di supporto o colonne calcolate.  
+Gli usi tipici includono l'analisi della quota di parte, comprese le percentuali di una riga, colonna o totale generale; la segnalazione cumulativa mediante un totale cumulativo in un campo periodico; l'analisi della varianza rispetto a un elemento di riferimento usando la differenza o la differenza percentuale da un elemento di base; e la classificazione dei valori dal più piccolo al più grande o dal più grande al più piccolo.  
+In Aspose.Cells for Python via Java, l'enumerazione `PivotShowValuesAsType` seleziona il calcolo secondario. Il metodo di sola lettura `PivotField.getShowValuesSetting()` restituisce un oggetto `PivotShowValuesSetting`, i cui metodi `setShowValuesAs(...)`, `setBaseFieldIndex(...)` e `setBaseItemIndex(...)` configurano il comportamento; il metodo di convenienza `PivotField.showValuesAs(...)` applica le stesse impostazioni in una singola chiamata. Applica queste impostazioni a un campo dati o valore ottenuto da `PivotTable.getDataFields()`.
 
-## **Membri dell'enumerazione PivotFieldDataDisplayFormat**
-Il campo dati conserva la propria funzione di aggregazione, come Sum o Count, mentre Show Values As trasforma solo il modo in cui il valore aggregato viene visualizzato.  
-Oltre a impostare direttamente le proprietà di `PivotShowValuesSetting` (vedi l'ultima sezione), un metodo di convenienza a chiamata unica applica la stessa configurazione:
+## **Membri dell'enumerazione PivotShowValuesAsType**
+Il campo dati mantiene la sua funzione di aggregazione, come `SUM` o `COUNT`, mentre Show Values As trasforma solo il modo in cui il valore aggregato viene visualizzato.  
+Oltre a utilizzare direttamente i setter di `PivotShowValuesSetting` (vedi l'ultima sezione), un metodo di convenienza a chiamata singola applica la stessa configurazione. È disponibile in due forme — una che fa riferimento al campo di base e all'elemento di base per indice, l'altra per nome:
 
 ```python
-import jpype
-import asposecells
-jpype.startJVM()
-from asposecells.api import (
-    PivotField,
-    PivotFieldDataDisplayFormat,
-    PivotItemPositionType,
-)
+from asposecells.api import PivotField, PivotShowValuesAsType
 def show_values_as(
     pivot_field: PivotField,
-    display_format: PivotFieldDataDisplayFormat,
+    show_values_as_type: PivotShowValuesAsType,
     base_field: int,
-    base_item_position_type: PivotItemPositionType,
     base_item: int,
-) -> None:
-    pivot_field.showValuesAs(
-        display_format,
-        base_field,
-        base_item_position_type,
-        base_item,
-    )
-jpype.shutdownJVM()
+):
+    pivot_field.showValuesAs(show_values_as_type, base_field, base_item)
+def show_values_as_by_name(
+    pivot_field: PivotField,
+    show_values_as_type: PivotShowValuesAsType,
+    base_field: str,
+    base_item: str,
+):
+    pivot_field.showValuesAs(show_values_as_type, base_field, base_item)
 ```
 
-| Parameter | Meaning | When It Is Required |
+| Parametro | Significato | Quando è richiesto |
 | --- | --- | --- |
-| `displayFormat` | Il calcolo secondario `PivotFieldDataDisplayFormat` da applicare. | Sempre. |
-| `baseField` | Indice basato su zero del campo base tra i campi base della tabella pivot (ad esempio, l'indice del campo riga a cui appartiene l'elemento base). | Solo per i sei formati a base di riferimento riportati di seguito (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`, `RunningTotalIn`, `PercentageOfRunningTotalIn`, `PercentageOfParentTotal`); ignorato da ogni altro formato. |
-| `baseItemPositionType` | Come viene scelto l'elemento base rispetto all'elemento corrente: `PivotItemPositionType.Previous`, `.Next` o `.Custom`. | Solo per i tre formati con elemento di base (`DifferenceFrom`, `PercentageOf`, `PercentageDifferenceFrom`); ignorato da ogni altro formato. |
-| `baseItem` | Indice basato su zero dell'elemento base. | Solo quando `baseItemPositionType` è `Custom` (l'indice dell'elemento sceglie l'elemento base esatto); ignorato per `Previous` / `Next` e da tutti i formati non basati su elemento — passare `0`. |
+| `show_values_as_type` | Il calcolo secondario `PivotShowValuesAsType` da applicare. | Sempre. |
+| `base_field` | Indice a base zero del campo di base tra i campi base della tabella pivot (ad esempio, l'indice del campo riga a cui appartiene l'elemento di base), oppure — nella forma per nome — il nome del campo di base. | I otto formati relativi al base elencati di seguito (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`, `RUNNING_TOTAL_IN`, `PERCENTAGE_OF_PARENT_TOTAL`, `PERCENTAGE_OF_RUNNING_TOTAL_IN`, `RANK_SMALLEST_TO_LARGEST`, `RANK_LARGEST_TO_SMALLEST`); passare `0` (o `None` nella forma per nome) per tutti gli altri formati. |
+| `base_item` | Indice a base zero dell'elemento di base, con due sentinelle: `PivotShowValuesSetting.PREVIOUS_PIVOT_ITEM` (-1) seleziona l'elemento precedente e `PivotShowValuesSetting.NEXT_PIVOT_ITEM` (-2) quello successivo. La forma per nome utilizza la didascalia dell'elemento di base, e `None` quando il formato selezionato non richiede alcun elemento di base. | Solo i tre formati relativi all'elemento di base (`DIFFERENCE_FROM`, `PERCENTAGE_OF`, `PERCENTAGE_DIFFERENCE_FROM`) valutano l'elemento di base; i cinque formati relativi al campo (`RUNNING_TOTAL_IN`, `PERCENTAGE_OF_PARENT_TOTAL`, `PERCENTAGE_OF_RUNNING_TOTAL_IN`, entrambi i ranghi) lo ignorano — passare `0` o `None`. |
 
-| Tipo di calcolo | Comportamento | Parametri elemento base |
+| Tipo di calcolo | Comportamento | Parametri dell'elemento base |
 | --- | --- | --- |
-| `Normal` | Nessun calcolo secondario; il valore aggregato è visualizzato così com'è (predefinito). | — |
-| `DifferenceFrom` | Visualizza il valore come differenza rispetto al valore di un elemento base in un campo base. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` solo con `Custom`) |
-| `PercentageOf` | Visualizza il valore come percentuale del valore di un elemento base in un campo base. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` solo con `Custom`) |
-| `PercentageDifferenceFrom` | Visualizza il valore come differenza percentuale dal valore di un elemento base in un campo base. | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` solo con `Custom`) |
-| `RunningTotalIn` | Visualizza il valore come totale cumulativo per gli elementi successivi di un campo base. | `baseField` (il campo il cui ordine degli elementi guida l'accumulazione) |
-| `PercentageOfRow` | Visualizza il valore come percentuale del totale della riga. | — |
-| `PercentageOfColumn` | Visualizza il valore come percentuale del totale della colonna. | — |
-| `PercentageOfTotal` | Visualizza il valore come percentuale del totale generale. | — |
-| `Index` | Visualizza il valore usando la formula di indice di Excel ((value * grand total) / (row total * column total)). | — |
-| `PercentageOfParentRowTotal` | Visualizza il valore come percentuale del totale della riga padre (per campi riga nidificati). | — |
-| `PercentageOfParentColumnTotal` | Visualizza il valore come percentuale del totale della colonna padre (per campi colonna nidificati). | — |
-| `PercentageOfParentTotal` | Visualizza il valore come percentuale del totale del padre. | `baseField` (il campo padre di riferimento) |
-| `PercentageOfRunningTotalIn` | Visualizza il valore come percentuale di un totale cumulativo in un campo base. | `baseField` (il campo di accumulazione) |
-| `RankSmallestToLargest` | Classifica il valore dal più piccolo (1) al più grande. | — |
-| `RankLargestToSmallest` | Classifica il valore dal più grande (1) al più piccolo. | — |
+| `NORMAL` | Nessun calcolo secondario; il valore aggregato viene visualizzato così com'è (predefinito). | — |
+| `DIFFERENCE_FROM` | Visualizza il valore come differenza dal valore di un elemento di base in un campo di base. | `base_field` + `base_item` (un indice o didascalia, o la sentinella precedente/successiva) |
+| `PERCENTAGE_OF` | Visualizza il valore come percentuale del valore di un elemento di base in un campo di base. | `base_field` + `base_item` (un indice o didascalia, o la sentinella precedente/successiva) |
+| `PERCENTAGE_DIFFERENCE_FROM` | Visualizza il valore come differenza percentuale dal valore di un elemento di base in un campo di base. | `base_field` + `base_item` (un indice o didascalia, o la sentinella precedente/successiva) |
+| `RUNNING_TOTAL_IN` | Visualizza il valore come totale cumulativo per gli elementi successivi di un campo di base. | `base_field` (il campo il cui ordine degli elementi guida l'accumulo) |
+| `PERCENTAGE_OF_ROW` | Visualizza il valore come percentuale del totale della riga. | — |
+| `PERCENTAGE_OF_COLUMN` | Visualizza il valore come percentuale del totale della colonna. | — |
+| `PERCENTAGE_OF_TOTAL` | Visualizza il valore come percentuale del totale generale. | — |
+| `INDEX` | Visualizza il valore usando la formula di indice di Excel ((valore * totale generale) / (totale riga * totale colonna)). | — |
+| `PERCENTAGE_OF_PARENT_ROW_TOTAL` | Visualizza il valore come percentuale del totale della riga padre (per campi riga annidati). | — |
+| `PERCENTAGE_OF_PARENT_COLUMN_TOTAL` | Visualizza il valore come percentuale del totale della colonna padre (per campi colonna annidati). | — |
+| `PERCENTAGE_OF_PARENT_TOTAL` | Visualizza il valore come percentuale del totale del padre. | `base_field` (il campo padre il cui totale è il riferimento) |
+| `PERCENTAGE_OF_RUNNING_TOTAL_IN` | Visualizza il valore come percentuale di un totale cumulativo in un campo di base. | `base_field` (il campo di accumulazione) |
+| `RANK_SMALLEST_TO_LARGEST` | Classifica il valore dal più piccolo (1) al più grande. | `base_field` (il campo i cui elementi definiscono l'ambito di classificazione) |
+| `RANK_LARGEST_TO_SMALLEST` | Classifica il valore dal più grande (1) al più piccolo. | `base_field` (il campo i cui elementi definiscono l'ambito di classificazione) |
 
 {{% alert color="primary" %}}
-`showValuesAs(...)` scrive i valori di `PivotShowValuesSetting` tramite `setCalculationType`, `setBaseFieldIndex`, `setBaseItemPositionType` e `setBaseItemIndex` — il metodo e l'oggetto impostazione sono due modi per configurare lo stesso stato, rispecchiando i selettori di campo base e elemento base nella finestra di dialogo Show Values As di Excel.
+`showValuesAs(...)` scrive i valori di `PivotShowValuesSetting` tramite `setShowValuesAs`, `setBaseFieldIndex` e `setBaseItemIndex` — il metodo e l'oggetto di impostazione sono due modi per configurare lo stesso stato, rispecchiando i selettori di campo base e elemento base nella finestra di dialogo Show Values As di Excel.
 {{% /alert %}}
 
-## **Mostra valori come percentuale del totale**
-Chiama il metodo `PivotField.showValuesAs` con `PivotFieldDataDisplayFormat.PercentageOfTotal` per convertire ogni cella di campo dati, inclusa la totalizzazione generale, nella sua quota del totale generale. I numeri visualizzati sono quindi letti come proporzioni dell'intero insieme di risultati. Questo formato misura ogni valore solo rispetto al totale generale, quindi non richiede né campo base né elemento base — gli argomenti finali (`0`, `PivotItemPositionType.Previous`, `0`) sono segnaposti che il formato ignora, come indicato nella tabella dei parametri sopra.
+## **Mostra Valori Come Percentuale del Totale**
+Chiama il metodo `PivotField.showValuesAs` con `PivotShowValuesAsType.PERCENTAGE_OF_TOTAL` per convertire ogni cella del campo dati, incluso il totale generale, nella sua quota del totale generale. I numeri visualizzati rappresentano quindi proporzioni dell'intero set di risultati. Questo formato misura ogni valore solo rispetto al totale generale, quindi non richiede né campo base né elemento base — gli argomenti finali (`0`, `0`) sono segnaposto che il formato ignora, come indicato nella tabella dei parametri sopra.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import (
     Workbook,
-    Worksheet,
-    Cells,
-    Range,
-    SaveFormat,
-    PivotTable,
-    PivotField,
     PivotFieldType,
-    PivotFieldDataDisplayFormat,
-    PivotItemPositionType,
+    PivotShowValuesAsType,
 )
 # Load or create a workbook with source data
 workbook = Workbook()
@@ -99,7 +83,8 @@ data_sheet = workbook.getWorksheets().get(0)
 data_sheet.getCells().get("A1").putValue("Fruit")
 data_sheet.getCells().get("B1").putValue("Amount")
 fruits = ["Apple", "Banana", "Apple", "Cherry", "Banana", "Apple"]
-amounts = [10, 20, 30, 40, 50, 60]
+# float literals keep putValue on the double overload (an untyped Python int is ambiguous between putValue(boolean/int/Object) overloads)
+amounts = [10.0, 20.0, 30.0, 40.0, 50.0, 60.0]
 for i in range(len(fruits)):
     data_sheet.getCells().get(i + 1, 0).putValue(fruits[i])
     data_sheet.getCells().get(i + 1, 1).putValue(amounts[i])
@@ -110,73 +95,63 @@ pivot_table.addFieldToArea(PivotFieldType.ROW, "Fruit")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Amount")
 pivot_table.calculateData()
 # Show the Amount data field as a percentage of the grand total with the
-# one-call method; PercentageOfTotal takes no base item, so the trailing
-# base arguments (0, Previous, 0) are placeholders the format ignores
+# one-call method; PERCENTAGE_OF_TOTAL takes no base item, so the trailing
+# base arguments (0, 0) are placeholders the format ignores
 data_field = pivot_table.getDataFields().get(0)
-data_field.showValuesAs(
-    PivotFieldDataDisplayFormat.PERCENTAGE_OF_TOTAL,
-    0,
-    PivotItemPositionType.PREVIOUS,
-    0,
-)
+data_field.showValuesAs(PivotShowValuesAsType.PERCENTAGE_OF_TOTAL, 0, 0)
 pivot_table.calculateData()
 # Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
 workbook.save("ShowValuesAsPercentageOfTotal.xlsx")
 jpype.shutdownJVM()
 ```
 
-## **Ottieni e configura PivotField.getShowValuesSetting()**
-Leggi la configurazione corrente tramite `PivotField.getShowValuesSetting()`: il metodo di sola lettura restituisce l'oggetto `PivotShowValuesSetting` del campo, le cui quattro proprietà descrivono il calcolo Show Values As attivo. Per modificare la configurazione, chiama il metodo `PivotField.showValuesAs` — scrive tutte e quattro le impostazioni in una sola chiamata, così non è necessario assegnare le proprietà una per una.
-L'oggetto `PivotShowValuesSetting` espone le quattro proprietà che `showValuesAs` scrive:
-- `getCalculationType()` restituisce il calcolo secondario `PivotFieldDataDisplayFormat`, mentre `setCalculationType(...)` lo cambia.
-- `getBaseFieldIndex()` e `setBaseFieldIndex(...)` specificano l'indice basato su zero del campo base all'interno dei campi pivot. È usato dai formati a base di riferimento.
-- `getBaseItemPositionType()` e `setBaseItemPositionType(...)` determinano come l'elemento base è posizionato rispetto all'elemento corrente e accettano `PivotItemPositionType.Next`, `PivotItemPositionType.Previous` o `PivotItemPositionType.Custom`.
-- `getBaseItemIndex()` e `setBaseItemIndex(...)` specificano l'indice basato su zero dell'elemento base e sono usati quando `BaseItemPositionType` è `Custom`.
-Dopo aver chiamato `showValuesAs`, richiama nuovamente `PivotTable.calculateData()` affinché il corpo della tabella pivot venga ricalcolato e renderizzato con la configurazione aggiornata.
+## **Ottieni e Configura PivotField.getShowValuesSetting()**
+Leggi la configurazione corrente tramite `PivotField.getShowValuesSetting()`: il metodo di sola lettura restituisce l'oggetto `PivotShowValuesSetting` del campo, le cui proprietà descrivono il calcolo Show Values As attivo. Per modificare la configurazione, chiama il metodo `PivotField.showValuesAs` — scrive tutte le impostazioni in una singola chiamata, così non è necessario impostare le proprietà una per una.  
+L'oggetto `PivotShowValuesSetting` espone lo stato che `showValuesAs` scrive:
+- `getShowValuesAs()` restituisce il calcolo secondario `PivotShowValuesAsType`, mentre `setShowValuesAs(...)` lo modifica.
+- `getBaseFieldIndex()` e `setBaseFieldIndex(...)` specificano l'indice a base zero del campo di base tra i campi pivot. È usato dai formati relativi al campo base.
+- `getBaseItemIndex()` e `setBaseItemIndex(...)` specificano l'elemento di base: un indice a base zero di uno specifico elemento pivot, o una delle due sentinelle — `PivotShowValuesSetting.PREVIOUS_PIVOT_ITEM` (-1) per l'elemento precedente, `PivotShowValuesSetting.NEXT_PIVOT_ITEM` (-2) per quello successivo. È usato dai formati relativi all'elemento di base.
+- `getBaseFieldName()` e `getBaseItemCaption()` sono visualizzazioni di sola lettura che riportano il nome del campo di base e la didascalia dell'elemento di base risolti; ad esempio, dopo aver selezionato la sentinella dell'elemento precedente, `getBaseItemCaption()` restituisce `(previous)`.
+Dopo aver chiamato `showValuesAs`, chiama nuovamente `PivotTable.calculateData()` affinché il corpo della tabella pivot venga ricalcolato e ridisegnato con la configurazione aggiornata.
 
 ```python
 import jpype
 import asposecells
 jpype.startJVM()
-from asposecells.api import Workbook
 from asposecells.api import (
     Workbook,
-    Worksheet,
-    Cells,
-    Range,
-    SaveFormat,
-    PivotFieldDataDisplayFormat,
-    PivotItemPositionType,
+    PivotShowValuesAsType,
+    PivotShowValuesSetting,
 )
 workbook = Workbook("ShowValuesAsPercentageOfTotal.xlsx")
 pivot_table = workbook.getWorksheets().get(1).getPivotTables().get(0)
 data_field = pivot_table.getDataFields().get(0)
 # Read the current show-values settings
 settings = data_field.getShowValuesSetting()
-print(f"CalculationType: {settings.getCalculationType()}")
+print(f"ShowValuesAs: {settings.getShowValuesAs()}")
 print(f"BaseFieldIndex: {settings.getBaseFieldIndex()}")
-print(f"BaseItemPositionType: {settings.getBaseItemPositionType()}")
 print(f"BaseItemIndex: {settings.getBaseItemIndex()}")
+print(f"BaseFieldName: {settings.getBaseFieldName()}")
+print(f"BaseItemCaption: {settings.getBaseItemCaption()}")
 # Switch to a base-item calculation with the one-call method: difference
 # from the value of the previous item in the row field
 data_field.showValuesAs(
-    PivotFieldDataDisplayFormat.DIFFERENCE_FROM,
+    PivotShowValuesAsType.DIFFERENCE_FROM,
     pivot_table.getRowFields().get(0).getBaseIndex(),
-    PivotItemPositionType.PREVIOUS,
-    0,
+    PivotShowValuesSetting.PREVIOUS_PIVOT_ITEM,
 )
 pivot_table.calculateData()
 # Note: the percentage number format saved by the previous example still
 # clings to the data field cells; the underlying values are now differences
 # Re-read the applied configuration
-print(f"CalculationType now: {data_field.getShowValuesSetting().getCalculationType()}")
+print(f"ShowValuesAs now: {data_field.getShowValuesSetting().getShowValuesAs()}")
 workbook.save("ShowValuesAsDifferenceFrom.xlsx")
 jpype.shutdownJVM()
 ```
 
 ## **Articoli correlati**
-- [Gestire i campi valore nella Tabella Pivot](/cells/it/python-java/manage-value-fields/)
-- [Aggiornare la Tabella Pivot](/cells/it/python-java/refresh-pivot-table/)
-- [Applicare lo stile alla Tabella Pivot](/cells/it/python-java/apply-style-to-pivot-table/)
+- [Gestione dei Campi Valore nella Tabella Pivot](/cells/it/python-java/manage-value-fields/)
+- [Aggiornamento della Tabella Pivot](/cells/it/python-java/refresh-pivot-table/)
+- [Applicazione di Stile alla Tabella Pivot](/cells/it/python-java/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="python" >}}

@@ -1,6 +1,6 @@
 ---
 title: Excel-kamera i Aspose.Cells for Python via .NET
-linktitle: Excel-kamera i Aspose.Cells for Python via .NET
+linktitle: Excel-kamera
 description: Lär dig hur du använder Excel-kamera i Aspose.Cells for Python via .NET för att skapa en dynamisk bild kopplad till ett cellområde som uppdateras med källdata och bevarar all källformatering.
 keywords: Aspose.Cells, Python, Excel-kamera, dynamisk bild, länkad bild, Picture.Formula, UpdateSelectedValue, CreateRange, ToImage, BytesIO
 type: docs
@@ -33,7 +33,7 @@ from aspose.cells import Workbook, SaveFormat
 workbook = Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "CameraDemo"
-# Dynamisk kamera: lägg till en tom bild, länka den via formel till A1:F10, uppdatera sedan
+# Dynamic Camera: add an empty picture, link it via formula to A1:F10, then refresh
 pictures = worksheet.pictures
 index = pictures.add(10, 6, None)
 pictures[index].formula = "A1:F10"
@@ -56,7 +56,7 @@ from aspose.cells import Workbook, SaveFormat
 workbook = Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "CameraDemo"
-# Statisk kamera: bygg Range, rendera till bytes, wrappar i BytesIO, lägg till som bild
+# Static Camera: build Range, render to bytes, wrap in BytesIO, add as picture
 range_ = worksheet.cells.create_range("A1:F10")
 pictures = worksheet.pictures
 pictures.add(10, 6, BytesIO(range_.to_image(None)))

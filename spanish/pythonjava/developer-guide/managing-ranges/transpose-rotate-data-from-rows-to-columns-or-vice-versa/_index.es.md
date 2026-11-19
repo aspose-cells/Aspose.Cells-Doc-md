@@ -84,7 +84,7 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, LoadOptions, LoadFormat, FormulaParseOptions, SaveFormat
-# código portado aquí
+# ported code here
 srcFile = "source.xlsx"
 outFile = "output_transpose_dynamic.xlsx"
 workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
@@ -117,21 +117,21 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, LoadOptions, LoadFormat, Worksheet, Cells
-# Cargar el libro de trabajo fuente con LoadOptions de xlsx
+# Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
 workbook = Workbook(srcFile, LoadOptions(LoadFormat.XLSX))
-# Acceder a la primera hoja de cálculo y a su colección Cells
+# Access the first worksheet and its Cells collection
 worksheet = workbook.getWorksheets().get(0)
 cells = worksheet.getCells()
-# Establecer la fórmula de matriz CSE clásica en la celda A6.
-# La fórmula =TRANSPOSE(A1:D5) rota el rango fuente de 5 filas x 4 columnas
-# en una matriz de 4 filas x 5 columnas. El segundo argumento (4) es el número de filas
-# y el tercer argumento (5) es el número de columnas de la matriz resultante.
-# Aspose.Cells escribe el marcador de fórmula de matriz CSE para que Excel la evalúe como
-# una fórmula de matriz de varias celdas, compatible con versiones anteriores de Excel
-# (2019, 2016, 2013, etc.) que no admiten el derrame dinámico de matrices.
+# Set the classic CSE array formula on cell A6.
+# The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+# into a 4-row x 5-column array. The second argument (4) is the number of rows
+# and the third argument (5) is the number of columns of the resulting array.
+# Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+# a single multi-cell array formula, compatible with older Excel versions
+# (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5)
-# Guardar el libro de trabajo para que el marcador de fórmula de matriz se conserve
+# Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx")
 jpype.shutdownJVM()
 ```

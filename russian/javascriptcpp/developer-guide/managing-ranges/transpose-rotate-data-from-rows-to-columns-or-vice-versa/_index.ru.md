@@ -217,24 +217,24 @@ Aspose.Cells for JavaScript via C++ поддерживает транспони�
                 if (!file) {
                     throw new Error("Please select an XLSX workbook.");
                 }
-                // Загрузить исходную книгу с параметрами загрузки xlsx
+                // Load the source workbook with xlsx LoadOptions
                 const loadOptions = new LoadOptions(AsposeCells.LoadFormat.Xlsx);
                 const workbook = new Workbook(
                     new Uint8Array(await file.arrayBuffer()),
                     loadOptions
                 );
-                // Получить доступ к первому рабочему листу и его коллекции ячеек
+                // Access the first worksheet and its Cells collection
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // Установить классическую формулу массива CSE в ячейку A6.
-                // Формула =TRANSPOSE(A1:D5) вращает исходный диапазон 5 строк на 4 столбца
-                // в массив 4 строки на 5 столбцов. Второй аргумент (4) — количество строк,
-                // а третий аргумент (5) — количество столбцов получаемого массива.
-                // Aspose.Cells записывает маркер формулы массива CSE, чтобы Excel вычислял её как
-                // одну многоклеточную формулу массива, совместимую со старыми версиями Excel
-                // (2019, 2016, 2013 и др.), которые не поддерживают динамический массивный вывод.
+                // Set the classic CSE array formula on cell A6.
+                // The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+                // into a 4-row x 5-column array. The second argument (4) is the number of rows
+                // and the third argument (5) is the number of columns of the resulting array.
+                // Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+                // a single multi-cell array formula, compatible with older Excel versions
+                // (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
                 cells.get("A6").setArrayFormula("=TRANSPOSE(A1:D5)", 4, 5);
-                // Сохранить книгу, чтобы маркер формулы массива был сохранён
+                // Save the workbook so the array-formula marker is persisted
                 const outputData = workbook.save(AsposeCells.SaveFormat.Xlsx);
                 const blob = new Blob([outputData], {
                     type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"

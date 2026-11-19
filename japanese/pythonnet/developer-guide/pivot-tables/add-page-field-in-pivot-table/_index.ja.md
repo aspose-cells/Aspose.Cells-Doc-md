@@ -28,15 +28,15 @@ Aspose.Cells for Python via .NET は、フィルターフィールドを登録�
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# 新しいワークブックを作成
+# Create a new workbook
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-# ヘッダー行を設定
+# Set up the header row
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
-# サンプルデータ9行を入力: Fruit、Year、Amount
+# Populate 9 rows of sample data: Fruit, Year, Amount
 data = [
     ["apple", 2020, 100],
     ["banana", 2021, 200],
@@ -52,15 +52,15 @@ for i in range(len(data)):
     worksheet.cells.get(i + 1, 0).put_value(data[i][0])
     worksheet.cells.get(i + 1, 1).put_value(data[i][1])
     worksheet.cells.get(i + 1, 2).put_value(data[i][2])
-# セルE3にアンカーされたピボットテーブルを追加
+# Add a pivot table anchored at cell E3
 pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
-# フィールドをそれぞれのエリアに追加: Fruitを行、Amountをデータ、Yearをページフィールド
+# Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
-# ピボットテーブルのデータを更新して計算
+# Refresh and calculate the pivot table data
 pivot_table.calculate_data()
-# ワークブックを保存
+# Save the workbook
 workbook.save("pageFieldSample.xlsx")
 ```
 
@@ -70,19 +70,19 @@ workbook.save("pageFieldSample.xlsx")
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# — ピボットテーブルとページフィールドは、Scenario 1a とまったく同じように構築されます
-#   (Fruit/Year/Amount データ、E3 にピボット、Fruit→行、
-#   Amount→データ)。以下では、BaseFields コレクションから
-#   Year PivotField を取得し、PageFields.Add に渡します — これは
-#   AddFieldToArea の低レベルの代替手段です。結果は
-#   Scenario 1a と機能的に同一です。
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data). Below we obtain the Year PivotField from the
+#   BaseFields collection and pass it to PageFields.Add — the
+#   low-level alternative to AddFieldToArea. The result is
+#   functionally identical to Scenario 1a.
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-# ヘッダー
+# Headers
 sheet.cells.get("A1").put_value("Fruit")
 sheet.cells.get("B1").put_value("Year")
 sheet.cells.get("C1").put_value("Amount")
-# サンプルデータ（9 行）
+# Sample data (9 rows)
 sheet.cells.get("A2").put_value("apple");    sheet.cells.get("B2").put_value("2020"); sheet.cells.get("C2").put_value(100)
 sheet.cells.get("A3").put_value("apple");    sheet.cells.get("B3").put_value("2021"); sheet.cells.get("C3").put_value(150)
 sheet.cells.get("A4").put_value("apple");    sheet.cells.get("B4").put_value("2022"); sheet.cells.get("C4").put_value(200)
@@ -92,16 +92,16 @@ sheet.cells.get("A7").put_value("grape");    sheet.cells.get("B7").put_value("20
 sheet.cells.get("A8").put_value("blueberry"); sheet.cells.get("B8").put_value("2020"); sheet.cells.get("C8").put_value(250)
 sheet.cells.get("A9").put_value("blueberry"); sheet.cells.get("B9").put_value("2021"); sheet.cells.get("C9").put_value(350)
 sheet.cells.get("A10").put_value("blueberry");sheet.cells.get("B10").put_value("2022"); sheet.cells.get("C10").put_value(450)
-# A1:C10 をカバーする E3 にピボットテーブルを追加
+# Add pivot table at E3 covering A1:C10
 pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
-# Fruit → 行、Amount → データ（Year は以下にページへ追加）
+# Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# 低レベルの方法: BaseFields から既存の Year PivotField を取得し、
-# PageFields.Add(PivotField) 経由でページエリアに登録します。
+# Low-level approach: grab the existing Year PivotField from BaseFields
+# and register it in the Page area via PageFields.Add(PivotField).
 year_field = pivot_table.base_fields["Year"]
 pivot_table.page_fields.add(year_field)
-# 新しいページフィールドが保存されたワークブックに反映されるように更新
+# Refresh so the new page field is reflected in the saved workbook
 pivot_table.calculate_data()
 workbook.save("output.xlsx")
 ```
@@ -115,10 +115,10 @@ workbook.save("output.xlsx")
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# 新しいワークブックを作成
+# Create a new workbook
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-# Fruit/Year/Amount のデータを入力
+# Populate Fruit/Year/Amount data
 sheet.cells.get("A1").put_value("Fruit")
 sheet.cells.get("B1").put_value("Year")
 sheet.cells.get("C1").put_value("Amount")
@@ -133,17 +133,17 @@ data = [
 for r in range(len(data)):
     for c in range(len(data[r])):
         sheet.cells.get(r + 1, c).put_value(data[r][c])
-# E3 にピボットテーブルを作成
+# Create pivot table at E3
 pivot_tables = sheet.pivot_tables
 pivot_table = pivot_tables.add("=A1:C7", 2, 4)
-# ピボットフィールドを設定: Fruit→行、Amount→データ、Year→ページ
+# Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 pivot_table.calculate_data()
-# ページフィルタをクリアして、ページフィールドの全項目を表示します。
-# 0x7FFD（10進数で32765）は "全項目" を意味する特別なセンチネル値です —
-# Excel のページフィールドドロップダウンで「(すべて)」を選択するのと同じです。
+# Clear the page filter so every item in the page field is visible.
+# 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+# equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivot_table.page_fields[0].current_page_item = 0x7FFD
 workbook.save("output.xlsx")
 ```
@@ -195,14 +195,14 @@ workbook.save("output.xlsx")
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# — ピボットテーブルとページフィールドは以下とまったく同じ方法で構築されます
-#   シナリオ1a（Fruit/Year/Amountデータ、E3にピボット、Fruit→行、
-#   Amount→データ、Year→ページをAddFieldToArea経由で設定）。
-#   以下ではページフィールドに複数選択フィルタを適用します。
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data, Year→Page via AddFieldToArea).
+#   Below we apply multi-select filtering on the page field.
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
-# サンプルデータ: Fruit | Year | Amount
+# Sample data: Fruit | Year | Amount
 cells.get(0, 0).put_value("Fruit")
 cells.get(0, 1).put_value("Year")
 cells.get(0, 2).put_value("Amount")
@@ -227,13 +227,13 @@ pivot_table = pivots.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
-# — ページフィールドで複数選択を有効化
+# — Enable multi-select on the page field
 pivot_table.page_fields[0].is_multiple_item_selection_allowed = True
-# パートA — すべての項目を選択（すべての項目を表示）
+# Part A — select ALL items (make every item visible)
 pivot_items = pivot_table.page_fields[0].pivot_items
 for i in range(len(pivot_items)):
     pivot_items[i].is_hidden = False
-# パートB — ソース値で特定の項目のみを選択
+# Part B — select only specific items by source value
 for i in range(len(pivot_items)):
     value = pivot_items[i].get_string_value()
     if value == "2020" or value == "grape" or value == "blueberry":

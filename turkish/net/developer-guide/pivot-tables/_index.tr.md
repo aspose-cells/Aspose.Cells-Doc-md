@@ -1,6 +1,6 @@
 ---
 title: Özet Tablo Ekle
-linktitle: Özet Tablo Ekle
+linktitle: Özet Tablolar
 description: Excel elektronik tablo dosyalarının özet tablolarını oluşturun ve biçimlendirin.
 keywords: Özet Tablo Oluştur, Özet Tablo Ekle, Özet Tabloyu Biçimlendir.
 type: docs
@@ -36,12 +36,10 @@ Bir özet tablo oluşturmak üç adımlık bir süreçtir: kaynak veriyi çalı�
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
-// Yeni bir çalışma kitabı oluştur ve ilk çalışma sayfasını al
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-
-// Kaynak verileri yaz: spor ve çeyrek bazında satışlar
+// Write the source data: sales per sport and quarter
 sheet.Cells["A1"].PutValue("Sport");
 sheet.Cells["B1"].PutValue("Quarter");
 sheet.Cells["C1"].PutValue("Sales");
@@ -66,16 +64,13 @@ sheet.Cells["C7"].PutValue(5000);
 sheet.Cells["A8"].PutValue("Golf");
 sheet.Cells["B8"].PutValue("Qtr3");
 sheet.Cells["C8"].PutValue(6430);
-
-// E3 hücresine A1:C8 kaynaklı bir pivot tablo ekle
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C8", 2, 4);
-
-// Pivot alanlarını ata: Sport satırlara, Quarter sütunlara, Sales verilere
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Quarter");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
-
-// Çalışma kitabını kaydet
+// Save the workbook
 workbook.Save("pivotTable_test_out.xlsx");
 ```
 

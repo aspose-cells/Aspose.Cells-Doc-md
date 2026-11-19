@@ -114,15 +114,15 @@ L’exemple suivant crée un classeur avec une plage source contenant des fruits
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // Créer un nouveau classeur
+            // Create a new workbook
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Écrire la ligne d'en-tête dans les cellules A1:C1
+            // Write header row into cells A1:C1
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // Écrire les lignes de données dans les cellules A2:C9 (8 lignes de données de fruits pour 2020 et 2021)
+            // Write data rows into cells A2:C9 (8 rows of fruit data across 2020 and 2021)
             cells.get("A2").value = "grape";
             cells.get("B2").value = 2020;
             cells.get("C2").value = 50;
@@ -147,19 +147,19 @@ L’exemple suivant crée un classeur avec une plage source contenant des fruits
             cells.get("A9").value = "cherry";
             cells.get("B9").value = 2021;
             cells.get("C9").value = 120;
-            // Ajouter un tableau croisé dynamique : plage source "A1:C9", cellule de destination "E3"
+            // Add a pivot table: source range "A1:C9", destination cell "E3"
             const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
-            // Attribuer les champs du tableau croisé dynamique : Fruit aux lignes, Year aux colonnes, Amount aux données
+            // Assign pivot fields: Fruit to Rows, Year to Columns, Amount to Data
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-            // Modifier plusieurs valeurs de Amount dans les données source pour simuler des changements
+            // Modify several Amount values in the source data to simulate changes
             cells.get("C2").value = 55;
             cells.get("C5").value = 85;
             cells.get("C9").value = 125;
-            // Actualiser tous les tableaux croisés dynamiques et caches de tableau croisé dynamique du classeur
+            // Refresh every pivot table / pivot cache in the workbook
             workbook.refreshAll();
-            // Enregistrer le classeur
+            // Save the workbook
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -285,11 +285,11 @@ L’exemple suivant modifie une propriété qui ne concerne pas la source du Tab
                 const workbook = new Workbook();
                 const worksheet = workbook.worksheets.get(0);
                 const cells = worksheet.cells;
-                // Écrire la ligne d'en-tête des champs Fruit / Year / Amount
+                // Write Fruit / Year / Amount header row
                 cells.get("A1").value = "Fruit";
                 cells.get("B1").value = "Year";
                 cells.get("C1").value = "Amount";
-                // Écrire 8 lignes de données (lignes 2 à 9, correspondant à la plage source A1:C9)
+                // Write 8 data rows (rows 2-9, fitting the source range A1:C9)
                 cells.get("A2").value = "Grape";
                 cells.get("B2").value = 2020;
                 cells.get("C2").value = 100;
@@ -314,21 +314,21 @@ L’exemple suivant modifie une propriété qui ne concerne pas la source du Tab
                 cells.get("A9").value = "Cherry";
                 cells.get("B9").value = 2021;
                 cells.get("C9").value = 450;
-                // Ajouter un tableau croisé dynamique à la cellule de destination E3, avec A1:C9 comme source
+                // Add a pivot table placed at destination cell E3, sourcing from A1:C9
                 const pivotTable = worksheet.pivotTables.add("=A1:C9", 2, 4);
-                // Affecter les champs : Fruit aux lignes, Year aux colonnes, Amount aux données
+                // Assign fields: Fruit to Row, Year to Column, Amount to Data
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Column, "Year");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
-                // Modifier une propriété d'affichage/de disposition — il s'agit uniquement d'une modification présentationnelle,
-                // elle ne nécessite donc PAS de relire les données source via PivotCache.Refresh().
+                // Modify a view/layout property — this is a presentation-only change,
+                // so it does NOT require re-reading the source data through PivotCache.Refresh().
                 pivotTable.refreshDataOnOpeningFile = false;
-                // CalculateData() réaffiche la présentation (données + style) de CE tableau croisé dynamique à partir des
-                // données déjà conservées dans le PivotCache. Comme les données source n'ont pas changé,
-                // aucun aller-retour vers la source n'est effectué — seules les valeurs en cache sont recalculées
-                // dans les cellules de la feuille de calcul.
+                // CalculateData() re-renders THIS pivot table's display (data + style) from the
+                // data already held in the PivotCache. Because the source data did not change,
+                // no round-trip to the source is performed — only the cached values are recalculated
+                // into worksheet cells.
                 pivotTable.calculateData();
-                // Enregistrer le classeur sur le disque
+                // Save the workbook to disk
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
                 const downloadLink = document.getElementById("downloadLink");

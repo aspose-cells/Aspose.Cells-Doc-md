@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for JavaScript via C++ ile Özet Tablosu Değer Alanlarını Yönetme
-linktitle: Aspose.Cells for JavaScript via C++ ile Özet Tablosu Değer Alanlarını Yönetme
+linktitle: Değer Alanları
 description: Aspose.Cells for JavaScript via C++ ile bir özet tablonun veri bölgesine temel alanların nasıl ekleneceğini, özet fonksiyonunun PivotField.Function ile nasıl değiştirileceğini ve değer alanının Satır veya Sütun eksenine nasıl yerleştirileceğini öğrenin.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, özet tablo, değer alanı, PivotField, PivotField.Function, veri alanı, PivotTable.ValuesField, Sum, Average
 type: docs

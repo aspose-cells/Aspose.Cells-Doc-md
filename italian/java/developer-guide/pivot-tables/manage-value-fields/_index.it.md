@@ -18,12 +18,12 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// Intestazioni in A1:D1
+// Headers in A1:D1
 worksheet.getCells().get(0, 0).putValue("Category");
 worksheet.getCells().get(0, 1).putValue("Item");
 worksheet.getCells().get(0, 2).putValue("Year");
 worksheet.getCells().get(0, 3).putValue("Amount");
-// Righe di dati A2:D9 utilizzando cicli annidati che si diramano su j
+// Data rows A2:D9 using nested loops branching on j
 for (int i = 1; i <= 8; i++)
 {
  for (int j = 0; j < 4; j++)
@@ -55,9 +55,9 @@ for (int i = 1; i <= 8; i++)
  }
  }
 }
-// Aggiungi tabella pivot in F3 con nome PivotTable1
+// Add pivot table at F3 with name PivotTable1
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:D9", 2, 5);
-// Layout pivot: Category e Item su Row, Year su Column, Amount come campo dati
+// Pivot layout: Category and Item on Row, Year on Column, Amount as data field
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Category");
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Item");
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, "Year");

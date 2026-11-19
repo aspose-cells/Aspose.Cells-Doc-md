@@ -1,8 +1,8 @@
 ---
-title: Aspose.Cells for .NET でのスパークライン
-linktitle: Aspose.Cells for .NET でのスパークライン
-description: Aspose.Cells はスプレッドシートファイルを操作するための .NET ライブラリで、ワークシートセル内に配置されるミニチュアグラフであるスパークラインの作成をサポートしています。この記事では、Aspose.Cells ライブラリを使用して、ライン、列、勝敗のスパークラインを追加およびカスタマイズする方法について説明します。
-keywords: Aspose.Cells, .NET ライブラリ, スプレッドシート, スパークライン, ラインスパークライン, 列スパークライン, 勝敗スパークライン, SparklineGroup, SparklineType
+title: Aspose.Cells for .NET のスパークライン
+linktitle: Aspose.Cells for .NET のスパークライン
+description: Aspose.Cells はワークシートのセル内に配置できるミニチャートであるスパークラインの作成をサポートする .NET ライブラリです。本記事では、Aspose.Cells ライブラリを使用してライン、カラム、勝敗スパークラインを追加およびカスタマイズする方法を説明します。
+keywords: Aspose.Cells, .NET ライブラリ, スプレッドシート, スパークライン, ライン スパークライン, カラム スパークライン, 勝敗 スパークライン, SparklineGroup, SparklineType
 type: docs
 weight: 195
 url: /ja/net/creating-sparklines/
@@ -11,23 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells は、ワークシートセル内にスパークラインを作成することをサポートします。スパークラインは 1 つのセル内に収まるミニチュアグラフであり、データ傾向を素早く視覚的に表現します。Aspose.Cells はライン、列、勝敗のスパークラインをサポートしており、それぞれを色、線の太さ、高値/安値ポイント、マーカーに関してカスタマイズできます。
+Aspose.Cells はワークシートのセル内にスパークラインを作成することをサポートしています。スパークラインは単一セルに収まるミニチャートで、データのトレンドをすばやく視覚的に表現します。Aspose.Cells はライン、カラム、勝敗スパークラインをサポートしており、色、線の太さ、最高/最低ポイント、マーカーなどをカスタマイズできます。
 {{% /alert %}}
 
-## **Introduction**
-スパークラインはセル内に収まる小さなグラフで、完全なグラフのスペースを占有せずにデータの行や列の隣に素早く傾向を表示したい場合に役立ちます。Excel は **ライン**、**列**、**勝敗** の 3 種類のスパークラインをサポートします。Aspose.Cells は `Aspose.Cells.Charts` 名前空間にある `SparklineGroup` および `SparklineGroupCollection` API を通じてこの機能を提供します。
-Aspose.Cells では、追加するすべてのスパークラインが `worksheet.SparklineGroups.Add(...)` を通じて作成され、これは `SparklineGroup` オブジェクトを返します。その後、そのオブジェクトを使用してスパークラインの種類、データ範囲、配置先セル、および線の色、線の太さ、マーカー、高値/安値ポイントインジケーターなどの視覚的なプロパティを設定できます。
-この記事では、Aspose.Cells がサポートする 3 種類のスパークライン、**ライン**、**列**、**勝敗** のそれぞれについて、その追加方法、色のカスタマイズ方法、結果として得られるワークブックの保存方法を説明します。
+## **導入**
+スパークラインはセル内に表示できる小さなチャートで、行や列の横にデータの傾向を素早く示したいときに便利です。Excel では **ライン**、**カラム**、**勝敗** の 3 種類のスパークラインが使用可能です。Aspose.Cells は `Aspose.Cells.Charts` 名前空間の `SparklineGroup` と `SparklineGroupCollection` API を通じて同様の機能を提供します。  
+Aspose.Cells では、追加する各スパークラインは `worksheet.SparklineGroups.Add(...)` によって作成され、戻り値として `SparklineGroup` オブジェクトが得られます。このオブジェクトを使用して、スパークラインの種類、データ範囲、配置先セル、線の色や太さ、マーカーや最高/最低ポイントの表示などの視覚プロパティを設定できます。  
+本記事では、Aspose.Cells がサポートする **ライン**、**カラム**、**勝敗** の 3 種類のスパークラインについて、追加方法、色のカスタマイズ方法、そして最終的なワークブックの保存手順を順に解説します。
 
-## **Line Sparklines**
-ラインスパークラインは、系列のデータポイントを結ぶ連続的な線を描画するため、時間の経過に伴う傾向を示すのに最も自然な選択肢です。Aspose.Cells では、`SparklineType.Line` を `SparklineGroups.Add` メソッドに渡すことでラインスパークラインを作成します。
-1. 新しい `Workbook` を作成し、最初のワークシートにアクセスします。
-2. ソースデータの行 (たとえば 1 行目の A 列から E 列) に視覚化したい値を入力します。
-3. スパークラインが描画される配置先セルを示す `CellArea` を作成します。
-4. `worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, dest)` を呼び出します。3 番目の引数 `false` は、データ範囲が縦方向 (列) ではなく横方向 (行) であることを Aspose.Cells に伝えます。
-5. 必要に応じて、返された `SparklineGroup` をカスタマイズします。ラインスパークラインの場合、`group.Line.Color` を使用して線の色を設定し (`Aspose.Cells.Drawing` の `CellsColor` を必要とします)、線の太さを調整し、高値/安値ポイントマーカーを有効化できます。
+## **ライン スパークライン**
+ライン スパークラインは系列内のデータポイントを連続した線で結び、時間経過による傾向を示すのに最適です。Aspose.Cells では、`SparklineType.Line` を `SparklineGroups.Add` メソッドに渡すことでライン スパークラインを作成します。
+1. 新しい `Workbook` を作成し、最初のワークシートにアクセスします。  
+2. ソース データの行を入力します（例：1 行目の A 列から E 列へ）し、可視化したい値を設定します。  
+3. スパークラインを描画する先のセルを示す `CellArea` を作成します。  
+4. `worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, dest)` を呼び出します。3 番目の引数 `false` はデータ範囲が水平（行）であることを Aspose.Cells に示し、垂直（列）ではないことを指定します。  
+5. 必要に応じて返された `SparklineGroup` をカスタマイズします。ライン スパークラインの場合、`group.Line.Color`（`Aspose.Cells.Drawing` の `CellsColor` が必要）で線の色を設定し、`group.Line.Weight` で線の太さを調整し、最高/最低ポイントのマーカーを有効化できます。  
 6. ワークブックを保存します。
-次の例は、ワークブックを作成し、セル A1 から E1 に値 5、-3、8、-2、6 を書き込み、セル F1 にそれらの値をトレースするラインスパークラインを追加します。また、線の色を赤にカスタマイズし、高値および安値のマーカーを有効化します。
+以下の例は、ワークブックを作成し、セル A1~E1 に 5, -3, 8, -2, 6 の値を書き込み、セル F1 にそれらの値を描画したライン スパークラインを追加します。また、線の色を赤に設定し、最高点と最低点のマーカーを有効にしています。
 
 ```csharp
 using System;
@@ -40,49 +40,50 @@ namespace SparklineDemo
     {
         public static void Main()
         {
-            // ステップ1: Workbookを作成し、最初のワークシートを取得します
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
             Cells cells = worksheet.Cells;
-            // ステップ2: サンプル値5、-3、8、-2、6をセルA1:E1に書き込みます
+            // Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
             cells["A1"].PutValue(5);
             cells["B1"].PutValue(-3);
             cells["C1"].PutValue(8);
             cells["D1"].PutValue(-2);
             cells["E1"].PutValue(6);
-            // ステップ3: 宛先セルF1を指すCellAreaを構築します
+            // Step 3: Build a CellArea pointing to destination cell F1
             CellArea dest = new CellArea();
-            dest.StartColumn = 5;   // 列F（0から始まるインデックス）
+            dest.StartColumn = 5;   // column F (0-indexed)
             dest.EndColumn = 5;
-            dest.StartRow = 0;      // 行1（0から始まるインデックス）
+            dest.StartRow = 0;      // row 1 (0-indexed)
             dest.EndRow = 0;
-            // ステップ4: A1:E1からF1に折れ線スパークラインを追加します
-            // SparklineGroups.Addは新しく追加されたグループのインデックスを返します
+            // Step 4: Add a Line sparkline from A1:E1 into F1
+            // SparklineGroups.Add returns the index of the newly added group
             int index = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, dest);
             SparklineGroup group = worksheet.SparklineGroups[index];
-            // ステップ5: 赤いCellsColorを作成し、スパークラインの線の色に割り当てます
+            // Step 5: Create a red CellsColor and assign it to the sparkline line color
             CellsColor red = workbook.CreateCellsColor();
             red.Color = System.Drawing.Color.Red;
             group.SeriesColor = red;
-            // ステップ6: 高点マーカーと低点マーカーを有効にします
+            // Step 6: Enable high-point and low-point markers
             group.ShowHighPoint = true;
             group.ShowLowPoint = true;
-            // ステップ7: ワークブックを保存します
+            // Step 7: Save the workbook
             workbook.Save("output_line.xlsx");
         }
     }
 }
 ```
 
-## **Column Sparklines**
-列スパークラインは各データポイントを縦棒としてレンダリングします。そのため、大きさが意味を持つデータ、たとえば月次売上や個数などに適しています。Aspose.Cells では、`SparklineType.Column` を `SparklineGroups.Add` メソッドに渡すことで列スパークラインを作成します。
-手順はラインスパークラインの例と同様です。
-1. 新しい `Workbook` を作成し、最初のワークシートにアクセスします。
-3. 配置先セルを示す `CellArea` を作成します。
-4. `worksheet.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, dest)` を呼び出します。
-5. 必要に応じて、結果として得られる `SparklineGroup` をカスタマイズします。たとえば、`group.Type` を設定して種類を確認したり、棒の色を調整したりできます。
-6. ラインスパークラインの例を上書きしないように、ワークブックを別の出力ファイルに保存します。
-次の例では、A1:E1 に値 5、-3、8、-2、6 を書き込み、F1 に列スパークラインをレンダリングします。負の値は下向きの棒として、正の値は上向きの棒として描画されるため、プラスとマイナスの寄与を一目で容易に確認できます。
+## **カラム スパークライン**
+カラム スパークラインは各データポイントを縦棒で表示します。値の大小が重要なデータ（例：月次売上や件数など）に適しています。Aspose.Cells では、`SparklineType.Column` を `SparklineGroups.Add` メソッドに渡すことでカラム スパークラインを作成します。
+手順はライン スパークラインの例と同様です。
+1. 新しい `Workbook` を作成し、最初のワークシートにアクセスします。  
+2. ソース データの行を入力します（例：1 行目の A 列から E 列へ）し、可視化したい値を設定します。  
+3. スパークラインを描画する先のセルを示す `CellArea` を作成します。  
+4. `worksheet.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, dest)` を呼び出します。  
+5. 必要に応じて生成された `SparklineGroup` をカスタマイズします。たとえば `group.Type` を確認したり、棒の色を変更したりできます。  
+6. ライン スパークラインの例と上書きしないように、別ファイルとしてワークブックを保存します。
+以下の例は、A1:E1 に 5, -3, 8, -2, 6 の値を書き込み、セル F1 にカラム スパークラインを描画します。負の値は下方向の棒、正の値は上方向の棒として表示され、正負の貢献度を一目で把握できます。
 
 ```csharp
 using System;
@@ -95,28 +96,28 @@ namespace SparklineDemo
     {
         static void Main(string[] args)
         {
-            // ステップ 1: Workbook を作成し、最初のワークシートを取得します
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
-            // ステップ 2: A1:E1 にサンプル値書き込みます
+            // Step 2: Write sample values into A1:E1
             int[] values = { 5, -3, 8, -2, 6 };
             for (int i = 0; i < values.Length; i++)
             {
                 worksheet.Cells[0, i].PutValue(values[i]);
             }
-            // ステップ 3: F1 を指す CellArea を作成します (列インデックス 5、行インデックス 0)
+            // Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
             CellArea dest = new CellArea();
             dest.StartColumn = 5;
             dest.EndColumn = 5;
             dest.StartRow = 0;
             dest.EndRow = 0;
-            // ステップ 4: 目的セルに Column スパークラインを追加します
+            // Step 4: Add a Column sparkline to the destination cell
             int idx = worksheet.SparklineGroups.Add(
                 SparklineType.Column, "A1:E1", false, dest);
             SparklineGroup group = worksheet.SparklineGroups[idx];
-            // ステップ 5: group.Type を読み取ってスパークラインのタイプを確認します
+            // Step 5: Confirm the sparkline type by reading group.Type
             Console.WriteLine("Sparkline Type added: " + group.Type);
-            // ステップ 6: ワークブックを保存します
+            // Step 6: Save the workbook
             workbook.Save("output_column.xlsx");
             Console.WriteLine("Workbook saved as output_column.xlsx");
         }
@@ -124,15 +125,15 @@ namespace SparklineDemo
 }
 ```
 
-## **Win/Loss Sparklines**
-勝敗スパークラインは、2 つの結果のみを表示するように設計された列スパークラインの特殊なバリエーションです。正の値は「上向き」の棒 (勝ち) として描画され、ゼロまたは負の値は「下向き」の棒 (負け) として描画されます。勝敗スパークラインは、勝ち負けの連続、合否結果、または経時的な二値の結果を可視化するためによく使用されます。
-Aspose.Cells では、`SparklineType.Stacked` を `SparklineGroups.Add` メソッドに渡すことで勝敗スパークラインを作成します。(名前にかかわらず、`SparklineType.Stacked` は勝敗レンダリングを要求するために使用される列挙値です。)
-1. 新しい `Workbook` を作成し、最初のワークシートにアクセスします。
-2. ソース範囲を入力します。勝敗スパークラインはすべての値を勝ちまたは負けのいずれかとして扱うため、値の絶対値ではなく符号のみが重要です。正の値は上向きの棒に、非正の値は下向きの棒になります。
-3. 配置先セルを示す `CellArea` を作成します。
-4. `worksheet.SparklineGroups.Add(SparklineType.Stacked, "A1:E1", false, dest)` を呼び出します。
-5. 必要に応じて、返された `SparklineGroup` をカスタマイズします。たとえば、勝ち棒と負け棒のアクセント色を設定します。
-6. 3 つのすべての例がディスク上で共存できるように、ワークブックを別のファイル名で保存します。
+## **勝敗 スパークライン**
+勝敗 スパークラインはカラム スパークラインの特殊形で、2 つの結果のみを示します。正の値は「上向き」の棒（勝ち）として、0 または負の値は「下向き」の棒（負け）として描画されます。勝敗 スパークラインは、勝敗のシーケンスや合格/不合格結果、2 値データの時系列表示によく用いられます。
+Aspose.Cells では、`SparklineType.Stacked` を `SparklineGroups.Add` メソッドに渡すことで勝敗 スパークラインを作成します。（名前は `Stacked` ですが、勝敗表示を要求する列挙値として使用されます。）
+1. 新しい `Workbook` を作成し、最初のワークシートにアクセスします。  
+2. ソース範囲を入力します。勝敗 スパークラインは各値を勝ちまたは負けとして扱うため、数値の大きさは無視され、符号のみが重要です。正の値は上向き棒、非正（0 または負）の値は下向き棒になります。  
+3. スパークラインを描画する先のセルを示す `CellArea` を作成します。  
+4. `worksheet.SparklineGroups.Add(SparklineType.Stacked, "A1:E1", false, dest)` を呼び出します。  
+5. 必要に応じて返された `SparklineGroup` をカスタマイズします。たとえば、勝ち棒と負け棒のアクセントカラーを設定できます。  
+6. 3 つの例が同時に存在できるよう、別ファイル名でワークブックを保存します。
 
 ```csharp
 using System;
@@ -145,51 +146,51 @@ namespace SparklineDemo
     {
         static void Main(string[] args)
         {
-            // ステップ 1: Workbook を作成し、最初のワークシートを取得します
+            // Step 1: Create a Workbook and get the first worksheet
             Workbook workbook = new Workbook();
             Worksheet worksheet = workbook.Worksheets[0];
             worksheet.Name = "WinLoss";
-            // ステップ 2: 1 行目にサンプル データを入力します: A1=5, B1=-3, C1=8, D1=-2, E1=6
+            // Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
             worksheet.Cells["A1"].PutValue(5);
             worksheet.Cells["B1"].PutValue(-3);
             worksheet.Cells["C1"].PutValue(8);
             worksheet.Cells["D1"].PutValue(-2);
             worksheet.Cells["E1"].PutValue(6);
-            // ステップ 3: F1 (列 5、行 0) を指す CellArea を作成します
+            // Step 3: Build a CellArea pointing to F1 (column 5, row 0)
             CellArea dest = new CellArea();
             dest.StartColumn = 5;   // F
             dest.EndColumn = 5;
-            dest.StartRow = 0;      // 行 1
+            dest.StartRow = 0;      // row 1
             dest.EndRow = 0;
-            // ステップ 4: Win/Loss スパークライン (SparklineType.Stacked) を追加します
+            // Step 4: Add a Win/Loss sparkline (SparklineType.Stacked)
             int groupIndex = worksheet.SparklineGroups.Add(
                 SparklineType.Stacked,
                 "A1:E1",
                 false,
                 dest);
             SparklineGroup group = worksheet.SparklineGroups[groupIndex];
-            // ステップ 5: スパークライン グループをカスタマイズします
-            // 高値ポイントと低値ポイントのマーカーを有効にします
+            // Step 5: Customize the sparkline group
+            // Enable high-point and low-point markers
             group.ShowHighPoint = true;
             group.ShowLowPoint = true;
             group.ShowNegativePoints = true;
-            // 高値ポイントの色を緑に設定します
+            // Set the high-point color to green
             CellsColor highColor = workbook.CreateCellsColor();
             highColor.Color = System.Drawing.Color.Green;
             group.HighPointColor = highColor;
-            // 低値ポイントの色を赤に設定します
+            // Set the low-point color to red
             CellsColor lowColor = workbook.CreateCellsColor();
             lowColor.Color = System.Drawing.Color.Red;
             group.LowPointColor = lowColor;
-            // 負のポイントの色をオレンジに設定します
+            // Set the negative-point color to orange
             CellsColor negColor = workbook.CreateCellsColor();
             negColor.Color = System.Drawing.Color.Orange;
             group.NegativePointsColor = negColor;
-            // 既定の系列の色 (正の棒に使用されます) を設定します
+            // Set the default series color (used for positive bars)
             CellsColor seriesColor = workbook.CreateCellsColor();
             seriesColor.Color = System.Drawing.Color.SteelBlue;
             group.SeriesColor = seriesColor;
-            // ステップ 6: ワークブックを保存します
+            // Step 6: Save the workbook
             workbook.Save("output_winloss.xlsx");
             Console.WriteLine("Workbook saved successfully: output_winloss.xlsx");
         }
@@ -197,23 +198,23 @@ namespace SparklineDemo
 }
 ```
 
-## **Combining All Three Sparkline Types**
-次の統合例は、単一のワークブックを作成し、1 行目に値 5、-3、8、-2、6 を入力してから、セル F1、F2、F3 に 3 つのスパークライングループ (各種類 1 つずつ) を追加し、結果のファイルが 3 種類のスパークラインスタイルを一度に示すようにします。
+## **3 つすべてのスパークライン タイプを組み合わせる**
+以下の統合例は、単一のワークブックを作成し、1 行目に 5, -3, 8, -2, 6 の値を配置したうえで、セル F1、F2、F3 にそれぞれライン、カラム、勝敗のスパークライン グループを追加します。これにより、生成されたファイルで 3 種類すべてのスパークライン スタイルを同時に確認できます。
 
 ```csharp
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Charts;
-// ステップ1: ワークブックを作成し、最初のワークシートを取得する
+// Step 1: Create a Workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
-// ステップ2: 1行目(A1:E1)にサンプルデータを入力する
+// Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.Cells["A1"].PutValue(5);
 worksheet.Cells["B1"].PutValue(-3);
 worksheet.Cells["C1"].PutValue(8);
 worksheet.Cells["D1"].PutValue(-2);
 worksheet.Cells["E1"].PutValue(6);
-// ステップ3: F1に折れ線スパークライングループを追加する
+// Step 3: Add a Line sparkline group at F1
 CellArea lineArea = new CellArea();
 lineArea.StartColumn = 5;
 lineArea.EndColumn = 5;
@@ -221,11 +222,11 @@ lineArea.StartRow = 0;
 lineArea.EndRow = 0;
 int lineIdx = worksheet.SparklineGroups.Add(SparklineType.Line, "A1:E1", false, lineArea);
 SparklineGroup lineGroup = worksheet.SparklineGroups[lineIdx];
-// CellsColorを介して折れ線スパークラインの色をカスタマイズする
+// Customize the line sparkline color via CellsColor
 CellsColor lineColor = workbook.CreateCellsColor();
 lineColor.Color = System.Drawing.Color.Blue;
 lineGroup.SeriesColor = lineColor;
-// ステップ4: F2に縦棒スパークライングループを追加する
+// Step 4: Add a Column sparkline group at F2
 CellArea columnArea = new CellArea();
 columnArea.StartColumn = 5;
 columnArea.EndColumn = 5;
@@ -233,11 +234,11 @@ columnArea.StartRow = 1;
 columnArea.EndRow = 1;
 int columnIdx = worksheet.SparklineGroups.Add(SparklineType.Column, "A1:E1", false, columnArea);
 SparklineGroup columnGroup = worksheet.SparklineGroups[columnIdx];
-// 縦棒スパークラインシリーズの色をカスタマイズする
+// Customize the column sparkline series color
 CellsColor columnColor = workbook.CreateCellsColor();
 columnColor.Color = System.Drawing.Color.Green;
 columnGroup.SeriesColor = columnColor;
-// ステップ5: F3にWin/Loss(積み上げ)スパークライングループを追加する
+// Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 CellArea stackedArea = new CellArea();
 stackedArea.StartColumn = 5;
 stackedArea.EndColumn = 5;
@@ -245,28 +246,28 @@ stackedArea.StartRow = 2;
 stackedArea.EndRow = 2;
 int stackedIdx = worksheet.SparklineGroups.Add(SparklineType.Stacked, "A1:E1", false, stackedArea);
 SparklineGroup stackedGroup = worksheet.SparklineGroups[stackedIdx];
-// Win/Lossスパークラインシリーズの色をカスタマイズする
+// Customize the win/loss sparkline series color
 CellsColor stackedColor = workbook.CreateCellsColor();
 stackedColor.Color = System.Drawing.Color.DarkOrange;
 stackedGroup.SeriesColor = stackedColor;
-// ステップ6: ワークブックを保存する
+ // Step 6: Save the workbook
 workbook.Save("output_all.xlsx");
 ```
 
-## **Customizing Sparkline Appearance**
-`SparklineGroup` が作成されて `worksheet.SparklineGroups` に追加されたら、ワークブックを保存する前にその視覚的なプロパティのいくつかを読み取ったり変更したりできます。最も一般的にカスタマイズされるプロパティは次のとおりです。
-- **`group.Type`** — `SparklineType` (Line、Column、または Stacked)。グループは追加されるときに設定されますが、読み戻して確認できます。
-- **`group.Line.Color`** — 線の色で、`workbook.CreateCellsColor()` を介して作成された `CellsColor` として表現されます。これはラインスパークラインのストローク色に使用するプロパティです。
-- **`group.Line.Weight`** — ポイント単位の線の太さ。値が大きいほど太い線が描画されます。
-- **高値/安値ポイントマーカー** — 最高および最低のデータポイントに小さなマーカーをオンにするフラグで、極端な値を強調するのに役立ちます。
-- **最初/最後/負のポイントマーカー** — 最初、最後、および負のデータポイントにマーカーを切り替えるフラグ。
-色を変更するには、常に `CellsColor` インスタンスを作成し、関連するプロパティに割り当てます。`System.Drawing.Color` をスパークラインの色プロパティに直接割り当てないでください。それらは `Aspose.Cells.Drawing` の `CellsColor` 型を必要とします。`SparklineGroups.Add` メソッド自体は完全に型付けされた `SparklineGroup` オブジェクトを返すため、戻り値にプロパティ割り当てをチェーンしたり、ローカル変数に保存して保存前にカスタマイズしたりできます。
+## **スパークラインの外観をカスタマイズする**
+`SparklineGroup` を作成し `worksheet.SparklineGroups` に追加した後、ワークブックを保存する前にいくつかの視覚プロパティを読み取り・変更できます。最も一般的にカスタマイズされるプロパティは以下の通りです。
+- **`group.Type`** — `SparklineType`（Line、Column、Stacked）。追加時に設定されますが、確認のために取得可能です。  
+- **`group.Line.Color`** — `Aspose.Cells.Drawing` の `CellsColor` で作成したオブジェクトを使用して設定する線の色。ライン スパークラインのストローク色に使用します。  
+- **`group.Line.Weight`** — 線の太さ（ポイント単位）。数値が大きいほど太い線になります。  
+- **最高/最低ポイント マーカー** — 最高点と最低点に小さなマーカーを表示するフラグ。極端な値を強調するのに便利です。  
+- **先頭/末尾/負のポイント マーカー** — 先頭、末尾、および負のデータポイントにマーカーを付けるフラグ。
+色を変更する場合は、必ず `CellsColor` インスタンスを作成し、該当プロパティに割り当ててください。`System.Drawing.Color` を直接代入してはいけません。`SparklineGroups.Add` メソッド自体が完全に型指定された `SparklineGroup` オブジェクトを返すため、返り値に対してプロパティ設定をチェーンしたり、ローカル変数に保持して保存前にカスタマイズしたりできます。
 
-## Related Articles
-- [Aspose.Cells for .NET でスパークラインを画像および HTML に変換する](/cells/ja/net/convert-sparkline-to-image-and-html/)
-- [Aspose.Cells for .NET でピボットテーブルにページフィールドを追加する](/cells/ja/net/add-page-field-in-pivot-table/)
+## 関連記事
+- [Aspose.Cells for .NET でスパークラインを画像と HTML に変換する](/cells/ja/net/convert-sparkline-to-image-and-html/)
+- [Aspose.Cells for .NET でピボットテーブルにフィルタ フィールドを追加する](/cells/ja/net/add-page-field-in-pivot-table/)
 - [Aspose.Cells for .NET でピボットテーブルにスタイルを適用する](/cells/ja/net/apply-style-to-pivot-table/)
-- [ピボットテーブルのページフィールドのレイアウトを変更する](/cells/ja/net/change-page-field-layout/)
+- [ピボットテーブルのページ フィールド レイアウトを変更する](/cells/ja/net/change-page-field-layout/)
 - [Excel を OFD 形式に変換する](/cells/ja/net/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="csharp" >}}

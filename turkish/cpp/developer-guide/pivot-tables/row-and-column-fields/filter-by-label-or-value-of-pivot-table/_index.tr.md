@@ -31,26 +31,42 @@ Aşağıdaki örnek, mevcut bir özet tablo içeren bir çalışma kitabını y�
 
 ```cpp
 #include "Aspose.Cells.h"
+#include <string>
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    U16String fileName(u"sample.xlsx");
-    U16String prefix(u"B");
-    // Load the existing workbook containing a pivot table
-    Workbook wb(fileName);
-    // Access the worksheet by index (first worksheet)
-    Worksheet ws = wb.GetWorksheets().Get(0);
-    // Access the pivot table by index
-    PivotTable pt = ws.GetPivotTables().Get(0);
-    // Retrieve the first row PivotField
-    PivotField rowField = pt.GetRowFields().Get(0);
-    // Apply the label filter — show only row items whose labels begin with the supplied prefix
-    rowField.FilterByLabel(PivotFilterType::CaptionBeginsWith, prefix, U16String(u""));
-    // Refresh and recalculate the pivot table data so the filter takes effect
-    pt.RefreshData();
-    // Save the workbook back to disk
-    wb.Save(fileName);
+    // Load an existing workbook containing a pivot table
+    Workbook workbook(u"pivot_table_sample.xlsx");
+    // Access the first worksheet which contains the pivot table
+    Worksheet sheet = workbook.GetWorksheets().Get(0);
+    // Access the pivot table by index (the first pivot table on the sheet)
+    PivotTable pivotTable = sheet.GetPivotTables().Get(0);
+    // Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
+    PivotField pivotField = pivotTable.GetRowFields().Get(0);
+    // Iterate through the PivotItems collection of the selected PivotField
+    int itemCount = pivotField.GetPivotItems().GetCount();
+    for (int i = 0; i < itemCount; i++)
+    {
+        PivotItem item = pivotField.GetPivotItems().Get(i);
+        U16String name = item.GetName();
+        std::string nameStr = name.ToUtf8();
+        // Hide pivot items that match a specific name/criterion
+        if (nameStr == "Item1" || nameStr == "Item2")
+        {
+            item.SetIsHidden(true);
+        }
+        // Demonstrate unhiding: re-show a previously hidden pivot item
+        if (nameStr == "Item3")
+        {
+            item.SetIsHidden(false);
+        }
+    }
+    // Refresh and recalculate the pivot table so changes take effect
+    pivotTable.GetPivotCache().Refresh();
+    // Save the workbook — hidden items stay in the underlying data
+    // but are excluded from the displayed pivot table output
+    workbook.Save(u"output_pivot_filtered.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
 }
@@ -67,36 +83,26 @@ Aşağıdaki örnek, satır alanında bir tarih alanı bulunan özet tablo içer
 
 ```cpp
 #include "Aspose.Cells.h"
-#include <string>
-#include <filesystem>
+#include <stdexcept>
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    std::string inputPath = "sample.xlsx";
-    std::string outputPath = "output_filtered.xlsx";
-    if (!std::filesystem::exists(inputPath))
-    {
-        // Kaynak çalışma kitabı bulunamadı.
-        Aspose::Cells::Cleanup();
-        return -1;
-    }
-    // Pivot tablosunu içeren mevcut çalışma kitabını yükle
-    Workbook workbook(U16String(inputPath.c_str()));
-    // Pivot tablosunu tutan çalışma sayfasına eriş (dizine göre)
+    U16String inputPath(u"input.xlsx");
+    U16String outputPath(u"output.xlsx");
+    Workbook workbook(inputPath);
     Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    // Pivot tablosuna dizine göre eriş
     PivotTable pivotTable = worksheet.GetPivotTables().Get(0);
-    // Tarih PivotField'ını satır alanından al
-    PivotField dateField = pivotTable.GetRowFields().Get(0);
-    // Between filtresi için tarih kriterini tanımla
-    Date startDate{2020, 1, 1, 0, 0, 0, 0};
-    Date endDate{2020, 12, 31, 0, 0, 0, 0};
-    // Pivot alanına tarih filtresini uygula
-    dateField.FilterByDate(PivotFilterType::DateBetween, startDate, endDate);
-    // Filtrenin geçerli olması için pivot tablosunu yenile ve yeniden hesapla
-    // Çalışma kitabını kaydet
-    workbook.Save(U16String(outputPath.c_str()));
+    if (pivotTable.GetDataFields().GetCount() == 0) {
+        throw std::runtime_error("Pivot table has no value (data) PivotField.");
+    }
+    PivotField valueField = pivotTable.GetDataFields().Get(0);
+    PivotField rowField = pivotTable.GetRowFields().Get(0);
+    int valueFieldIndex = 0;
+    rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
+    // Refresh the pivot table data and recalculate it so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
+    workbook.Save(outputPath);
     Aspose::Cells::Cleanup();
     return 0;
 }
@@ -134,6 +140,8 @@ int main() {
     {
         rowField.FilterByValue(dataFieldIndex, PivotFilterType::ValueGreaterThan, 5000, DBL_MAX);
     }
+    // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
     wb.Save(u"output.xlsx");
     Aspose::Cells::Cleanup();
     return 0;
@@ -151,24 +159,37 @@ Aşağıdaki örnek, bir değer alanı içeren özet tablo bulunan bir çalışm
 
 ```cpp
 #include "Aspose.Cells.h"
-#include <stdexcept>
+#include <string>
+#include <filesystem>
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    U16String inputPath(u"input.xlsx");
-    U16String outputPath(u"output.xlsx");
-    Workbook workbook(inputPath);
-    Worksheet worksheet = workbook.GetWorksheets().Get(0);
-    PivotTable pivotTable = worksheet.GetPivotTables().Get(0);
-    if (pivotTable.GetDataFields().GetCount() == 0) {
-        throw std::runtime_error("Pivot table has no value (data) PivotField.");
+    std::string inputPath = "sample.xlsx";
+    std::string outputPath = "output_filtered.xlsx";
+    if (!std::filesystem::exists(inputPath))
+    {
+        // Source workbook not found.
+        Aspose::Cells::Cleanup();
+        return -1;
     }
-    PivotField valueField = pivotTable.GetDataFields().Get(0);
-    PivotField rowField = pivotTable.GetRowFields().Get(0);
-    int valueFieldIndex = 0;
-    rowField.FilterTop10(valueFieldIndex, PivotFilterType::Count, true, 10);
-    workbook.Save(outputPath);
+    // Load the existing workbook that contains the pivot table
+    Workbook workbook(U16String(inputPath.c_str()));
+    // Access the worksheet that holds the pivot table (by index)
+    Worksheet worksheet = workbook.GetWorksheets().Get(0);
+    // Access the pivot table by index
+    PivotTable pivotTable = worksheet.GetPivotTables().Get(0);
+    // Retrieve the date PivotField from the row area
+    PivotField dateField = pivotTable.GetRowFields().Get(0);
+    // Define the date criterion for the Between filter
+    Date startDate{2020, 1, 1, 0, 0, 0, 0};
+    Date endDate{2020, 12, 31, 0, 0, 0, 0};
+    // Apply the date filter on the pivot field
+    dateField.FilterByDate(PivotFilterType::DateBetween, startDate, endDate);
+    // Refresh and recalculate the pivot table so the filter takes effect
+    pivotTable.GetPivotCache().Refresh();
+    // Persist the workbook
+    workbook.Save(U16String(outputPath.c_str()));
     Aspose::Cells::Cleanup();
     return 0;
 }
@@ -180,42 +201,26 @@ Bu yaklaşım, filtreleme kuralı düzensiz veya öğeye özgü olduğunda, örn
 
 ```cpp
 #include "Aspose.Cells.h"
-#include <string>
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // Pivot tablo içeren mevcut bir çalışma kitabını yükle
-    Workbook workbook(u"pivot_table_sample.xlsx");
-    // Pivot tabloyu içeren ilk çalışma sayfasına eriş
-    Worksheet sheet = workbook.GetWorksheets().Get(0);
-    // Pivot tabloya dizine göre eriş (sayfadaki ilk pivot tablo)
-    PivotTable pivotTable = sheet.GetPivotTables().Get(0);
-    // Hedef PivotField'ı al (öğelerini gizleyeceğimiz/göstereceğimiz ilk satır etiketi alanı)
-    PivotField pivotField = pivotTable.GetRowFields().Get(0);
-    // Seçilen PivotField'ın PivotItems koleksiyonu üzerinde yineleme yap
-    int itemCount = pivotField.GetPivotItems().GetCount();
-    for (int i = 0; i < itemCount; i++)
-    {
-        PivotItem item = pivotField.GetPivotItems().Get(i);
-        U16String name = item.GetName();
-        std::string nameStr = name.ToUtf8();
-        // Belirli bir ad/ölçütle eşleşen pivot öğelerini gizle
-        if (nameStr == "Item1" || nameStr == "Item2")
-        {
-            item.SetIsHidden(true);
-        }
-        // Gizlemeyi kaldırmayı göster: daha önce gizlenmiş bir pivot öğesini tekrar göster
-        if (nameStr == "Item3")
-        {
-            item.SetIsHidden(false);
-        }
-    }
-    // Değişikliklerin etkili olması için pivot tabloyu yenile ve yeniden hesapla
-    pivotTable.CalculateData();
-    // Çalışma kitabını kaydet — gizli öğeler alttaki verilerde kalır
-    // ancak görüntülenen pivot tablo çıktısından hariç tutulur
-    workbook.Save(u"output_pivot_filtered.xlsx");
+    U16String fileName(u"sample.xlsx");
+    U16String prefix(u"B");
+    // Load the existing workbook containing a pivot table
+    Workbook wb(fileName);
+    // Access the worksheet by index (first worksheet)
+    Worksheet ws = wb.GetWorksheets().Get(0);
+    // Access the pivot table by index
+    PivotTable pt = ws.GetPivotTables().Get(0);
+    // Retrieve the first row PivotField
+    PivotField rowField = pt.GetRowFields().Get(0);
+    // Apply the label filter — show only row items whose labels begin with the supplied prefix
+    rowField.FilterByLabel(PivotFilterType::CaptionBeginsWith, prefix, U16String(u""));
+    // Refresh and recalculate the pivot table data so the filter takes effect
+    pt.GetPivotCache().Refresh();
+    // Save the workbook back to disk
+    wb.Save(fileName);
     Aspose::Cells::Cleanup();
     return 0;
 }

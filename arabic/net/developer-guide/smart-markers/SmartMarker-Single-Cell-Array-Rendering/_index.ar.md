@@ -1,87 +1,102 @@
 ---
-title: عرض مصفوفة الخلية الواحدة في SmartMarker | Aspose.Cells .NET
-linktitle: عرض مصفوفة الخلية الواحدة في SmartMarker | Aspose.Cells .NET
-description: تعلم كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمتي ArrayAsSingle و ExtraDelimiter في Smart Markers مع Aspose.Cells for .NET.
-keywords: Aspose.Cells, .NET library, spreadsheet, Smart Markers, ArrayAsSingle, ExtraDelimiter, single cell array, array rendering, template, خلية واحدة, مصفوفة
+title: عرض المصفوفات في خلية واحدة باستخدام SmartMarker | Aspose.Cells .NET
+description: تعلَّم كيفية عرض بيانات المصفوفة في خلية واحدة باستخدام سمتَي `arrayassingle` و`arraydelimiter` الخاصتين بالعلامة الذكية في Aspose.Cells for .Net.
+linktitle: عرض SmartMarker في خلية واحدة | Aspose.Cells
+url: /ar/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+keywords: Aspose.Cells, مكتبة .NET, جدول بيانات, العلامات الذكية, arrayassingle, arraydelimiter, مصفوفة في خلية واحدة, عرض المصفوفات, قالب
 type: docs
 weight: 195
-url: /ar/net/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
 ai_search_scope: cells_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-يدعم Aspose.Cells عرض بيانات المصفوفة في خلية واحدة عبر Smart Markers. من خلال استخدام سمة `ArrayAsSingle` مع سمة `ExtraDelimiter`، يمكن للمطورين التحكم في كيفية فصل عناصر المصفوفة داخل خلية واحدة، مما يوفر تنسيقًا مرنًا للتقارير والقوالب.
+يمكن لـ Aspose.Cells عرض مصدر بيانات من نوع مصفوفة في خلية واحدة عبر العلامات الذكية. تعطّل السمة `arrayassingle` سلوك التوزيع الافتراضي عنصرًا تلو الآخر، وتحدد السمة `arraydelimiter` الفاصل الموضوع بين العناصر المدمجة — بفاصلة افتراضيًا، أو بأي حرف واحد أو سلسلة متعددة الأحرف بين علامتَي اقتباس تحددها.
 {{% /alert %}}
 
-## **المقدمة**
-تُعد Smart Markers في Aspose.Cells ميزة قوية قائمة على القوالب تتيح لك تعبئة بيانات جدول البيانات ديناميكيًا باستخدام تعبيرات العلامات مثل `&=DataSource.Field`. توضع العلامة في مصنف المصمم، وعندما تتم معالجة القالب بواسطة `WorkbookDesigner`، تستبدل العلامات بقيم من مصدر البيانات المقدم.
-افتراضيًا، عندما تشير علامة Smart Marker إلى خاصية مصفوفة (على سبيل المثال، `&=DataSource.Numbers`)، يقوم المحرك بتوسيع المصفوفة ووضع كل عنصر في خلية منفصلة مجاورة — إما أفقيًا عبر صف أو رأسيًا عبر عمود. على الرغم من أن هذا السلوك ملائم في العديد من السيناريوهات، إلا أن هناك حالات قد تفضل فيها عرض المصفوفة بأكملها في خلية واحدة، مع دمج العناصر وفصلها بمحدد من اختيارك.
-تعالج سمتي `ArrayAsSingle` و `ExtraDelimiter`، المستخدمتين معًا داخل علامة Smart Marker، هذا المتطلب بالتحديد. تسمحان لك بالحفاظ على تخطيطات التقارير مضغوطة وقابلة للتنبؤ مع الاستمرار في العمل أصلاً مع مصادر بيانات المصفوفات.
+## **مقدمة**
 
-## **لماذا تُعد هذه الميزة ضرورية**
+تمثل العلامات الذكية في Aspose.Cells ميزة قائمة على القوالب تملأ بيانات جداول البيانات ديناميكيًا باستخدام تعبيرات العلامات مثل `&=DataSource.Field`. تُوضع العلامة في مصنف التصميم، وعند معالجة القالب بواسطة `WorkbookDesigner`، تُستبدل العلامات بالقيم من مصدر البيانات المقدم.
+افتراضيًا، عندما تشير علامة ذكية إلى خاصية مصفوفة، مثل `&=Product.Tags` المرتبطة بمصفوفة `string[]` من أربع قيم، يوسّع المحرك المصفوفة ويضع كل عنصر في خلية خاصة به، فتتوزع القيم رأسيًا في العمود تحت العلامة. على الرغم من أن هذا السلوك ملائم في العديد من السيناريوهات، هناك حالات تفضّل فيها عرض المصفوفة بأكملها في خلية واحدة، مع ربط عناصرها متتالية وفصلها بفاصل من اختيارك.
+تتعامل سمتا `arrayassingle` و`arraydelimiter`، المكتوبتان داخل أقواس العلامة الذكية بصيغة `name:value`، مع هذا المتطلب تحديدًا. تتيح لك الحفاظ على تخطيطات التقارير مضغوطة ومتوقعة، مع الاستمرار في العمل مباشرةً مع مصادر بيانات المصفوفات.
 
-### **سلوك انتشار المصفوفة الافتراضي**
-عندما تشير علامة Smart Marker إلى خاصية مصفوفة، يقوم Aspose.Cells بتوسيع المصفوفة عبر خلايا متعددة بشكل افتراضي. على سبيل المثال، ستضع علامة مثل `&=Product.Tags` مقابل `string[]` تحتوي على أربع قيم كل قيمة في خلية خاصة بها، مما يدفع محتوى القالب الآخر للخارج ويحتمل أن يكسر تخطيطات التقارير المصممة بعناية.
+## **لماذا هذه الميزة مطلوبة**
+
+### **سلوك توزيع المصفوفات الافتراضي**
+
+عندما تشير علامة ذكية إلى خاصية مصفوفة، يمدّ Aspose.Cells المصفوفة عبر خلايا متعددة افتراضيًا. على سبيل المثال، إذا كانت العلامة `&=Product.Tags` مرتبطة بمصفوفة `string[]` تحتوي على أربع قيم، تضع كل قيمة في خلية خاصة بها أسفل العلامة، مما يزيح بقية محتوى القالب إلى مواضع أخرى وقد يعطل تخطيطات التقارير المصممة بعناية.
 
 ### **قيود حالات الاستخدام**
-توجد سيناريوهات عملية عديدة يكون فيها سلوك الانتشار الافتراضي غير مرغوب فيه:
-- **تقارير بنمط الملخص** التي تحتاج إلى تخطيط مضغوط من صف واحد لكل سجل.
-- **قوائم العلامات أو التسميات أو الكلمات الرئيسية** التي تحتاج إلى عرضها كقيم مفصولة بفواصل أو بخطوط عمودية داخل خلية واحدة.
-- **رقائق التصفية أو مؤشرات الحالة** التي تجمع قيمًا متعددة في مكان واحد لسهولة القراءة.
-- **خطوط أنابيب المعالجة اللاحقة** (تصدير CSV، عرض PDF، دمج البريد) التي تتوقع قيمة موحدة واحدة لكل خلية بدلاً من نطاق موسع.
-- **التوافق عبر الأنظمة الأساسية**، حيث لا يستطيع بعض المستهلكين التعامل مع المصفوفات التي تنتشر عبر خلايا متعددة.
 
-### **الفجوة التي تسدها**
-بدون آلية مدمجة، سيُجبر المطورون على معالجة البيانات مسبقًا في C# أو VB.NET — دمج المصفوفات في سلاسل محددة قبل ربطها بمصمم المصنف. يؤدي ذلك إلى تكرار المنطق، وتعقيد نماذج البيانات، وزيادة فرص الأخطاء. تلغي سمتي `ArrayAsSingle` و `ExtraDelimiter` هذا الحل البديل من خلال معالجة التنسيق بشكل وصفي داخل علامة Smart Marker نفسها.
+توجد العديد من السيناريوهات العملية التي يكون فيها سلوك التوزيع الافتراضي غير مرغوب فيه:
+- **تقارير بأسلوب ملخصي** تحتاج إلى تخطيط مختصر بسجل واحد لكل صف.
+- **قوائم الوسوم أو التسميات أو الكلمات المفتاحية** التي يلزم عرضها كقيم مفصولة بفواصل أو بالشرطة العمودية داخل خلية واحدة.
+- **وسوم التصفية أو مؤشرات الحالة** التي تجمع عدة قيم في موضع واحد لتسهيل القراءة.
+- **خطوط المعالجة اللاحقة** (تصدير CSV، وعرض PDF، ودمج المراسلات) التي تتوقع قيمة موحدة واحدة لكل خلية بدلًا من نطاق موسّع.
+- **التوافق عبر المنصات**، حيث لا تتحمل بعض الجهات المستهلكة المصفوفات الممتدة عبر خلايا متعددة.
 
-## **فوائد الميزة**
-يوفر استخدام سمتي `ArrayAsSingle` و `ExtraDelimiter` في Smart Markers الخاصة بك العديد من المزايا:
-- **احتواء في خلية واحدة**: يتم عرض جميع عناصر المصفوفة في خلية واحدة بالضبط، مما يحافظ على التخطيطات مضغوطة وقابلة للتنبؤ.
-- **التحكم في المحدد المخصص**: حدد أي سلسلة فاصل تريدها — فاصلة، فاصلة منقوطة، واصلة، خط عمودي، سطر جديد، أو أي نص مخصص.
-- **التنسيق القائم على القالب**: لا حاجة إلى كود إضافي لمعالجة البيانات مسبقًا؛ توجد قواعد التنسيق داخل علامة Smart Marker.
-- **تقارير أنظف**: لم تعد بيانات المصفوفة تدفع محتوى القالب المجاور إلى صفوف أو أعمدة مختلفة.
-- **أنواع بيانات متعددة الاستخدامات**: تعمل مع السلاسل النصية، والأرقام، والتواريخ، وأي نوع بيانات آخر يمكن ربطه بمحدد.
-- **التوافق العكسي**: عند حذف السمات، يتم الحفاظ على سلوك الانتشار الأصلي، لذا تستمر القوالب الحالية في العمل دون تغيير.
+### **الفجوة التي تعالجها**
+
+بدون آلية مدمجة، سيضطر المطورون إلى معالجة البيانات مسبقًا في C# أو VB.NET — بدمج المصفوفات في سلاسل مفصولة قبل ربطها بمصمم المصنف. يكرر هذا المنطق، ويصعّب نماذج البيانات، ويزيد احتمال وقوع الأخطاء. تلغي سمتا `arrayassingle` و`arraydelimiter` هذا الالتفاف عبر التعامل مع التنسيق تعريفًا داخل العلامة الذكية نفسها.
+
+## **مزايا الميزة**
+
+يوفر استخدام سمتَي `arrayassingle` و`arraydelimiter` في العلامات الذكية عدة مزايا:
+- **الاحتواء داخل خلية واحدة**: تُعرض جميع عناصر المصفوفة في خلية واحدة بالضبط، مما يحافظ على تخطيطات مضغوطة ومتوقعة.
+- **التحكم المخصص في الفاصل**: حدّد الفاصل الذي تريده — الفاصلة الافتراضية، أو فاصلة منقوطة، أو شرطة، أو شرطة عمودية، أو سلسلة متعددة الأحرف محاطة بعلامتَي اقتباس مثل `" | "`.
+- **التنسيق المستند إلى القالب**: لا يلزم كتابة أي كود إضافي لمعالجة البيانات مسبقًا؛ وتقع قواعد التنسيق داخل وسم العلامة الذكية.
+- **تقارير أنظف**: لم تعد بيانات المصفوفة تدفع بمحتوى القالب المجاور إلى صفوف أو أعمدة مختلفة.
+- **أنواع بيانات مرنة**: تعمل مع المصفوفات النصية والرقمية من مصادر بيانات كائن.
+- **التوافق مع الإصدارات الأقدم**: عند حذف السمتين، يبقى سلوك التوزيع الأصلي كما هو، لذا تستمر القوالب الحالية في العمل دون تغيير.
 
 ## **كيفية استخدام هذه الميزة**
 
-### **صيغة Smart Marker**
-يتم تمرير سمتي `ArrayAsSingle` و `ExtraDelimiter` كأزواج مفتاح-قيمة داخل أقواس علامة Smart Marker القياسية. الصيغة العامة هي:
+### **صيغة العلامة الذكية**
+
+تستخدم سمتا `arrayassingle` و`arraydelimiter` قواعد سمات `name:value` في Aspose.Cells داخل أقواس علامة ذكية قياسية. الصيغة العامة هي:
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayProperty(arrayassingle:true,arraydelimiter:;)
 ```
 
-تتكون العلامة من الأجزاء التالية:
-- `&=DataSource.ArrayProperty` — علامة Smart Marker القياسية التي تشير إلى خاصية المصفوفة في مصدر البيانات المنضم.
-- `arrayasSingle=true` — يوجه المحرك لعرض المصفوفة بأكملها في خلية واحدة. فقط القيمة `true` تؤدي إلى سلوك الخلية الواحدة.
-- `extraDelimiter=", "` — يحدد الفاصل الموضوع بين عناصر المصفوفة. القيمة هي سلسلة حرفية؛ يمكن أن تكون فارغة، أو حرفًا واحدًا، أو سلسلة متعددة الأحرف.
+يتكوّن العلامة من الأجزاء التالية:
+- `&=DataSource.ArrayProperty` — العلامة الذكية القياسية التي تشير إلى خاصية المصفوفة في مصدر البيانات المرتبط.
+- `arrayassingle:true` — يوجّه المحرك إلى عرض المصفوفة بأكملها في خلية واحدة بدلًا من توزيع عناصرها.
+- `arraydelimiter:;` — اختيارية؛ تحدد الفاصل الموضوع بين عناصر المصفوفة. عند حذفها، تُستخدم الفاصلة.
 
-{{% alert color="primary" %}}
-تقبل سمة `extraDelimiter` أي سلسلة حرفية، بما في ذلك المحددات متعددة الأحرف، أو النص المخصص، أو تسلسلات الهروب مثل `\n` للإخراج المفصول بأسطر جديدة. إذا كانت المصفوفة فارغة، تُترك الخلية الناتجة فارغة.
+{{% alert color="warning" %}}
+اكتب السمات بصيغة `name:value` (نقطتان، لا علامة يساوي) وافصل بين السمات المتعددة بفاصلة **دون مسافات**. فالمسافة بعد الفاصلة تزيح القيمة التي تم تحليلها بمقدار حرف واحد — إذ سيؤدي `(arrayassingle:true, arraydelimiter:;)` إلى الدمج باستخدام الفاصل الخاطئ `:;` بدلًا من `;`.
 {{% /alert %}}
 
-### **سير العمل خطوة بخطوة**
-يصف سير العمل التالي كيفية عرض مصفوفة في خلية واحدة باستخدام Smart Markers.
-1. **إعداد مصدر البيانات**: أنشئ فئة (أو بنية بيانات) تعرض خاصية تُرجع مصفوفة. يمكن للخاصية إرجاع `string[]`، أو `int[]`، أو أي نوع مصفوفة آخر مدعوم.
-2. **إنشاء مصنف مصمم**: أنشئ `Workbook` جديدًا، وأضف صف رأس، وضع خلية Smart Marker تشير إلى خاصية المصفوفة مع سمتي `arrayasSingle` و `extraDelimiter`.
-3. **إنشاء WorkbookDesigner**: أنشئ كائن `WorkbookDesigner`، وأرفق مصمم المصنف به، واربط مصدر البيانات باستخدام طريقة `SetDataSource`.
-4. **معالجة العلامات**: استدعِ طريقة `WorkbookDesigner.Process()` لتوسيع Smart Markers وتعبئة المصنف بالبيانات الفعلية.
-5. **حفظ النتيجة**: احفظ المصنف الناتج على القرص بتنسيق XLSX أو أي تنسيق ملف آخر مدعوم.
+### **أشكال الفاصل**
 
-### **مثال الكود 1 — عرض مصفوفة السلاسل النصية الأساسي**
+- حرف واحد يوضع مباشرةً بعد النقطتين: `arraydelimiter:;`، `arraydelimiter:-`، `arraydelimiter:*`.
+- يُكتب الفاصل متعدد الأحرف بين علامتَي اقتباس مزدوجتين: `arraydelimiter:" | "`، `arraydelimiter:" - "`.
+
+### **سير العمل خطوة بخطوة**
+
+يوضح سير العمل التالي كيفية عرض مصفوفة في خلية واحدة باستخدام العلامات الذكية.
+1. **تجهيز مصدر البيانات**: أنشئ فئة تكشف خاصية تُعيد مصفوفة، مثل `string[]` أو `int[]`، واربط `List<T>` من هذه الفئة حتى يقرأ المحرك سجلًا واحدًا لكل صف.
+2. **إنشاء مصنف تصميم**: أنشئ `Workbook` جديدًا، وأضف صف عناوين، وضع خلية علامة ذكية تشير إلى خاصية المصفوفة مع السمة `arrayassingle` (و`arraydelimiter` عند الحاجة إلى فاصل مخصص).
+3. **إنشاء WorkbookDesigner**: أنشئ كائن `WorkbookDesigner` حول المصنف واربط مصدر البيانات باستخدام `SetDataSource`.
+4. **معالجة العلامات**: استدعِ أسلوب `WorkbookDesigner.Process()` لتوسيع العلامات الذكية وملء المصنف بالبيانات الفعلية.
+5. **حفظ النتيجة**: احفظ المصنف الناتج على القرص بصيغة XLSX أو أي صيغة ملف مدعومة أخرى.
+
+### **مثال برمجي 1 — العرض الأساسي لمصفوفة نصية**
 
 ```csharp
 using System;
+using System.Collections.Generic;
 using Aspose.Cells;
+
 class Program
 {
-    public class Product
+    class Product
     {
         public string[] Tags { get; set; }
     }
-    public static void Main()
+
+    static void Main()
     {
         Product product = new Product
         {
@@ -90,90 +105,131 @@ class Program
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.Worksheets[0];
         worksheet.Cells["A1"].PutValue("Tags");
-        worksheet.Cells["A2"].PutValue("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")");
-        WorkbookDesigner designer = new WorkbookDesigner();
-        designer.Workbook = workbook;
-        designer.SetDataSource("Product", product);
+        // No spaces inside the parentheses: attributes are name:value pairs
+        worksheet.Cells["A2"].PutValue("&=Product.Tags(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Product", new List<Product> { product });
         designer.Process();
-        workbook.Save("output_arraySingle.xlsx");
+        Console.WriteLine(worksheet.Cells["A2"].StringValue);
+        workbook.Save("output-array-single.xlsx");
     }
 }
 ```
 
-### **مثال الكود 2 — مصفوفة رقمية بمحدد مخصص**
+يطبع المثال القيمة المدمجة للمصفوفة بأكملها. تنتهي الوسوم الأربعة في خلية واحدة، مفصولة بفاصلة افتراضية:
 
-```csharp
-public class Student
-{
-    public int[] Scores { get; set; }
-}
-public class Program
-{
-    public static void Main()
-    {
-        var student = new Student
-        {
-            Scores = new int[] { 95, 88, 76, 100, 67 }
-        };
-        var workbook = new Workbook();
-        var worksheet = workbook.Worksheets[0];
-        worksheet.Cells["A1"].PutValue("Scores");
-        worksheet.Cells["A2"].PutValue(string.Join(" - ", student.Scores));
-        workbook.Save("output_numericArray.xlsx");
-    }
-}
+```
+C#,Aspose,SmartMarker,Excel
 ```
 
-### **مثال الكود 3 — مقارنة السلوك الافتراضي مقابل ArrayAsSingle**
+### **مثال برمجي 2 — مصفوفة رقمية بفاصل مخصص**
 
 ```csharp
 using System;
+using System.Collections.Generic;
 using Aspose.Cells;
-public class Program
+
+class Program
 {
-    public static void Main()
+    class Student
     {
-        var order = new Order
-        {
-            Items = new string[] { "Apple", "Banana", "Cherry", "Date" }
-        };
-        var workbook = new Workbook();
-        var sheet = workbook.Worksheets[0];
-        var cells = sheet.Cells;
-        // القسم 1: العلامة الذكية الافتراضية - القيم تنتشر أفقيًا عبر الخلايا
-        cells["A1"].PutValue("Default Spreading Behavior:");
-        cells["A2"].PutValue("&=Order.Items");
-        // القسم 2: العرض الجديد في خلية واحدة باستخدام arrayasSingle و extraDelimiter
-        cells["A4"].PutValue("Single Cell Rendering (arrayasSingle=true):");
-        cells["A5"].PutValue("&=Order.Items(arrayasSingle=true, extraDelimiter=\"; \")");
-        // ربط مصدر البيانات ومعالجة العلامات الذكية
-        var designer = new WorkbookDesigner(workbook);
-        designer.SetDataSource("Order", order);
-        designer.Process();
-        // حفظ المصنف الناتج
-        workbook.Save("output_comparison.xlsx");
+        public int[] Scores { get; set; }
     }
-}
-public class Order
-{
-    public string[] Items { get; set; }
+
+    static void Main()
+    {
+        Student student = new Student
+        {
+            Scores = new int[] { 95, 88, 76, 100, 67 }
+        };
+        Workbook workbook = new Workbook();
+        Worksheet worksheet = workbook.Worksheets[0];
+        worksheet.Cells["A1"].PutValue("Scores");
+        // arraydelimiter:- joins the numbers with a hyphen
+        worksheet.Cells["A2"].PutValue("&=Student.Scores(arrayassingle:true,arraydelimiter:-)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Student", new List<Student> { student });
+        designer.Process();
+        Console.WriteLine(worksheet.Cells["A2"].StringValue);
+        workbook.Save("output-array-numeric.xlsx");
+    }
 }
 ```
 
+تدمج المصفوفات الرقمية تمامًا مثل المصفوفات النصية — يحتفظ كل عنصر بنصه الرقمي البسيط:
+
+```
+95-88-76-100-67
+```
+
+### **مثال برمجي 3 — مقارنة بين العرض الافتراضي والعرض في خلية واحدة**
+
+```csharp
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+class Program
+{
+    class Order
+    {
+        public string[] Items { get; set; }
+    }
+
+    static void Main()
+    {
+        Order order = new Order
+        {
+            Items = new string[] { "Apple", "Banana", "Cherry", "Date" }
+        };
+        Workbook workbook = new Workbook();
+        Worksheet sheet = workbook.Worksheets[0];
+        Cells cells = sheet.Cells;
+        // Column B: default marker — values spread vertically down the column
+        cells["B1"].PutValue("Default");
+        cells["B2"].PutValue("&=Order.Items");
+        // Column C: single-cell rendering — the whole array joins into one cell
+        cells["C1"].PutValue("Single cell");
+        cells["C2"].PutValue("&=Order.Items(arrayassingle:true)");
+        WorkbookDesigner designer = new WorkbookDesigner(workbook);
+        designer.SetDataSource("Order", new List<Order> { order });
+        designer.Process();
+        for (int row = 1; row <= 5; row++)
+        {
+            string b = cells[row, 1].StringValue;
+            string c = cells[row, 2].StringValue;
+            if (!string.IsNullOrEmpty(b) || !string.IsNullOrEmpty(c))
+                Console.WriteLine($"B{row + 1}=[{b}]  C{row + 1}=[{c}]");
+        }
+        workbook.Save("output-array-comparison.xlsx");
+    }
+}
+```
+
+تملأ العلامة الافتراضية خلية واحدة لكل عنصر أسفل العمود B، بينما تجمع العلامة التي تستخدم `arrayassingle` المصفوفة نفسها في خلية واحدة في العمود C:
+
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
+```
+
 ### **ملاحظات وأفضل الممارسات**
-ضع النقاط التالية في الاعتبار عند العمل مع سمتي `ArrayAsSingle` و `ExtraDelimiter`:
-- تُعامل قيمة `extraDelimiter` كسلسلة حرفية؛ قم بإفلات أي أحرف خاصة قد يفسرها معالج القالب الخاص بك.
-- تقبل سمة `arrayasSingle` قيمة منطقية (`true` / `false`). فقط `true` تؤدي إلى سلوك الخلية الواحدة؛ أي قيمة أخرى تعود إلى سلوك الانتشار الافتراضي.
-- إذا كانت المصفوفة فارغة أو null، تُترك الخلية فارغة (أو تحتوي على سلسلة فارغة حسب نوع البيانات).
-- تعمل الميزة مع مصادر بيانات الكائنات بالإضافة إلى مصادر `DataSet` و `DataTable` حيث يمكن تقسيم عمود إلى مصفوفات.
-- للإخراج المفصول بأسطر جديدة، يمكنك استخدام `\n` أو `Environment.NewLine` كقيمة المحدد.
-- ضع Smart Marker في خلية ذات عرض كافٍ لعرض السلسلة المتسلسلة الناتجة؛ وإلا، فقد يتجاوز المحتوى بصريًا إلى الخلايا المجاورة حسب التنسيق.
+
+ضع النقاط التالية في الاعتبار عند العمل مع سمتَي `arrayassingle` و`arraydelimiter`:
+- تتبع قيم السمات صيغة `name:value`. لا يتم التعرف على صيغة علامة يساوي مثل `arrayassingle=true`، فيلجأ التطبيق بصمت إلى سلوك التوزيع الافتراضي.
+- افصل السمات بفاصلة ودون مسافات؛ فالمسافة بعد الفاصلة تزيح قيمة الفاصل بمقدار حرف واحد، كما ورد في التحذير أعلاه.
+- يمكن أن تكون قيمة `arraydelimiter` حرفًا واحدًا مكتوبًا مباشرةً بعد النقطتين، أو سلسلة متعددة الأحرف محاطة بعلامتَي اقتباس مزدوجتين.
+- عند حذف `arraydelimiter`، تُدمج العناصر بفاصلة.
+- يجب أن يسمح مصدر البيانات للمحرك بتعداد السجلات: اربط `List<T>` أو مجموعة أخرى يكشف نوع عنصرها خاصية المصفوفة. أما ربط كائن واحد فيترك علامات المحتوى دون حل.
+- تعمل السمات نفسها مع المصفوفات النصية والرقمية؛ ويُعرض كل عنصر بنص قيمته العادي.
 
 ## المقالات ذات الصلة
-- [إضافة حقول تصفية إلى جدول محوري في Aspose.Cells for .NET](/cells/ar/net/add-page-field-in-pivot-table/)
+- [إضافة حقول التصفية إلى جدول محوري في Aspose.Cells لـ .NET](/cells/ar/net/add-page-field-in-pivot-table/)
 - [تطبيق الأنماط على الجداول المحورية في Aspose.Cells for .NET](/cells/ar/net/apply-style-to-pivot-table/)
 - [تعديل تخطيط حقل الصفحة في الجدول المحوري](/cells/ar/net/change-page-field-layout/)
-- [تحويل Sparkline إلى صورة و HTML في Aspose.Cells for .NET](/cells/ar/net/convert-sparkline-to-image-and-html/)
+- [تحويل سباركلاين إلى صورة وHTML في Aspose.Cells for .NET](/cells/ar/net/convert-sparkline-to-image-and-html/)
 - [تحويل Excel إلى تنسيق OFD](/cells/ar/net/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="csharp" >}}

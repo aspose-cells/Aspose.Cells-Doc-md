@@ -1,8 +1,8 @@
 ---
-title: 在数据透视表中显示值方式
-description: 使用 Aspose.Cells for .NET，将数据透视表数据字段的值显示为总计的百分比、相对于基准项的差异、累计总计、排名等。
-linktitle: Show Values As
-keywords: Aspose.Cells, 数据透视表, 显示值方式, 数据显示格式, PivotFieldDataDisplayFormat, PercentageOfTotal, PivotShowValuesSetting, CalculationType, BaseFieldIndex, C#
+title: 数据透视表中的值显示方式
+linktitle: 数据透视表中的值显示方式
+description: 使用 Aspose.Cells for .NET，将数据透视表的数据字段值显示为占总计的百分比、与基准项的差异、累计总计、排名等。
+keywords: Aspose.Cells, 数据透视表, 值显示方式, PivotShowValuesAsType, PercentageOfTotal, PivotShowValuesSetting, ShowValuesAs, BaseFieldIndex, BaseItemIndex, C#
 type: docs
 weight: 145
 url: /zh/net/show-values-as-in-pivot-table/
@@ -11,48 +11,49 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **可能的使用场景**
-数据透视表通常使用聚合函数（例如 `Sum` 或 `Count`）对每个数据字段进行汇总。Excel 的 **Show Values As** 功能将每个显示的结果替换为基于该聚合的二次计算——例如，总计的百分比、累计总计、相对于选定基准项的差异或排名——从而无需辅助公式或计算列即可进行比较分析。
-典型用法包括占比分析（如行、列或总计的百分比）；使用期间字段的累计总计进行累计报告；使用相对于基准项的差异或百分比差异进行方差分析；以及对数值进行从最小到最大或从最大到最小的排名。
-在 Aspose.Cells for .NET 中，`PivotFieldDataDisplayFormat` 用于选择二次计算。只读属性 `PivotField.ShowValuesSetting` 返回一个 `PivotShowValuesSetting` 对象，其可写的 `CalculationType`、`BaseFieldIndex`、`BaseItemPositionType` 和 `BaseItemIndex` 属性用于配置行为；便捷方法 `PivotField.ShowValuesAs(...)` 在一次调用中应用相同的四个设置。将这些设置应用于从 `PivotTable.DataFields` 获取的数据字段或数值字段。
+数据透视表通常通过 `Sum` 或 `Count` 等聚合函数对每个数据字段进行汇总。Excel 的**值显示方式**功能会将每个显示结果替换为基于该聚合值计算得出的二次计算结果，例如占总计的百分比、累计总计、与所选基准项的差异或排名，从而无需使用辅助公式或计算列即可完成比较分析。
+典型用途包括占比分析，例如显示占行总计、列总计或总计的百分比；在期间字段中使用累计总计来生成累计报告；基于基准项使用“与基准项的差异”或“与基准项的百分比差异”进行差异分析；以及按从小到大或从大到小的顺序对值进行排名。
+在 Aspose.Cells for .NET 中，`PivotShowValuesAsType` 枚举用于选择二次计算。只读属性 `PivotField.ShowValuesSetting` 返回 `PivotShowValuesSetting` 对象，该对象的可写属性 `ShowValuesAs`、`BaseFieldIndex` 和 `BaseItemIndex` 用于配置行为；便捷方法 `PivotField.ShowValuesAs(...)` 通过一次调用应用相同的设置。请将这些设置应用于从 `PivotTable.DataFields` 获取的数据字段或值字段。
 
-## **PivotFieldDataDisplayFormat 枚举成员**
-数据字段保持其聚合函数（如 Sum 或 Count），而 Show Values As 仅改变聚合值的显示方式。除了直接写入 `PivotShowValuesSetting` 属性（参见最后一节），还可以使用一次调用的便捷方法来应用相同的配置：
+## **`PivotShowValuesAsType` 枚举成员**
+数据字段保留其聚合函数，例如 `Sum` 或 `Count`，而“值显示方式”仅改变聚合值的显示方式。
+除直接写入 `PivotShowValuesSetting` 属性外（请参阅最后一节），还提供了一种单次调用即可应用相同配置的便捷方法。该方法包含两个重载：一个通过索引指定基准字段和基准项，另一个通过名称指定。
 
 ```csharp
-public void ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int baseField, PivotItemPositionType baseItemPositionType, int baseItem)
+public void ShowValuesAs(PivotShowValuesAsType showValuesAsType, int baseField, int baseItem)
+public void ShowValuesAs(PivotShowValuesAsType showValuesAsType, string baseField, string baseItem)
 ```
 
-| 参数 | 含义 | 何时必需 |
+| 参数 | 含义 | 何时需要 |
 | --- | --- | --- |
-| `displayFormat` | 要应用的 `PivotFieldDataDisplayFormat` 二次计算。 | 始终必需。 |
-| `baseField` | 数据透视表基字段的零基索引（例如，基项所属的行字段的索引）。 | 仅适用于以下六种基准相关格式（`DifferenceFrom`、`PercentageOf`、`PercentageDifferenceFrom`、`RunningTotalIn`、`PercentageOfRunningTotalIn`、`PercentageOfParentTotal`）；其它格式均忽略。 |
-| `baseItemPositionType` | 相对于当前项选择基项的方式：`PivotItemPositionType.Previous`、`.Next` 或 `.Custom`。 | 仅适用于三种基项格式（`DifferenceFrom`、`PercentageOf`、`PercentageDifferenceFrom`）；其它格式均忽略。 |
-| `baseItem` | 基项的零基索引。 | 仅当 `baseItemPositionType` 为 `Custom` 时使用（此时项索引指定具体基项）；`Previous` / `Next` 以及所有非基项格式均忽略——传入 `0`。 |
+| `showValuesAsType` | 要应用的 `PivotShowValuesAsType` 二次计算。 | 始终需要。 |
+| `baseField` | 基准字段在数据透视表各基准字段中的从零开始的索引（例如基准项所属行字段的索引），或者在字符串重载中指定基准字段的名称。 | 以下八种基于基准的格式（`DifferenceFrom`、`PercentageOf`、`PercentageDifferenceFrom`、`RunningTotalIn`、`PercentageOfParentTotal`、`PercentageOfRunningTotalIn`、`RankSmallestToLargest`、`RankLargestToSmallest`）；对于其他所有格式，请传入 `0`（或在字符串重载中传入 `null`）。 |
+| `baseItem` | 基准项的从零开始的索引，另有两个哨兵值：`PivotShowValuesSetting.PreviousPivotItem` (-1) 用于选择前一项，`PivotShowValuesSetting.NextPivotItem` (-2) 用于选择后一项。字符串重载接受基准项的标题，而不是索引；当所选格式不需要基准项时，传入 `null`。 | 仅以下三种基于基准项的格式（`DifferenceFrom`、`PercentageOf`、`PercentageDifferenceFrom`）会使用基准项；以下五种基于字段的格式（`RunningTotalIn`、`PercentageOfParentTotal`、`PercentageOfRunningTotalIn` 以及两种排名格式）会忽略该参数——传入 `0` 或 `null`。 |
 
-| 计算类型 | 行为 | 基项参数 |
+| 计算类型 | 行为 | 基准项参数 |
 | --- | --- | --- |
-| `Normal` | 无二次计算；聚合值按原样显示（默认）。 | — |
-| `DifferenceFrom` | 将数值显示为相对于基字段中基项值的差异。 | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` 仅在 `Custom` 时) |
-| `PercentageOf` | 将数值显示为基字段中基项值的百分比。 | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` 仅在 `Custom` 时) |
-| `PercentageDifferenceFrom` | 将数值显示为相对于基字段中基项值的百分比差异。 | `baseField` + `Previous`/`Next`/`Custom` (`baseItem` 仅在 `Custom` 时) |
-| `RunningTotalIn` | 将数值显示为基字段连续项的累计总计。 | `baseField` (累加所依据的字段) |
-| `PercentageOfRow` | 将数值显示为行总计的百分比。 | — |
-| `PercentageOfColumn` | 将数值显示为列总计的百分比。 | — |
-| `PercentageOfTotal` | 将数值显示为总计的百分比。 | — |
-| `Index` | 使用 Excel 的 INDEX 公式 ((value * grand total) / (row total * column total)) 显示数值。 | — |
-| `PercentageOfParentRowTotal` | 将数值显示为其父行总计的百分比（用于嵌套行字段）。 | — |
-| `PercentageOfParentColumnTotal` | 将数值显示为其父列总计的百分比（用于嵌套列字段）。 | — |
-| `PercentageOfParentTotal` | 将数值显示为其父总计的百分比。 | `baseField`（作为参照的父字段） |
-| `PercentageOfRunningTotalIn` | 将数值显示为基字段累计总计的百分比。 | `baseField` (累加所依据的字段) |
-| `RankSmallestToLargest` | 对数值进行从最小（1）到最大排序。 | — |
-| `RankLargestToSmallest` | 对数值进行从最大（1）到最小排序。 | — |
+| `Normal` | 不执行二次计算；按原样显示聚合值（默认值）。 | — |
+| `DifferenceFrom` | 将值显示为相对于基准字段中基准项数值的差异。 | `baseField` + `baseItem`（索引或标题，或前一项/后一项哨兵值） |
+| `PercentageOf` | 将值显示为占基准字段中基准项数值的百分比。 | `baseField` + `baseItem`（索引或标题，或前一项/后一项哨兵值） |
+| `PercentageDifferenceFrom` | 将值显示为相对于基准字段中基准项数值的百分比差异。 | `baseField` + `baseItem`（索引或标题，或前一项/后一项哨兵值） |
+| `RunningTotalIn` | 将值显示为基准字段中连续项目的累计总计。 | `baseField`（其项目顺序决定累加顺序的字段） |
+| `PercentageOfRow` | 将值显示为行总计的百分比。 | — |
+| `PercentageOfColumn` | 将值显示为列总计的百分比。 | — |
+| `PercentageOfTotal` | 将值显示为总计的百分比。 | — |
+| `Index` | 使用 Excel 索引公式显示值（(值 * 总计) / (行总计 * 列总计)）。 | — |
+| `PercentageOfParentRowTotal` | 将值显示为其父级行总计的百分比（适用于嵌套行字段）。 | — |
+| `PercentageOfParentColumnTotal` | 将值显示为其父级列总计的百分比（适用于嵌套列字段）。 | — |
+| `PercentageOfParentTotal` | 将值显示为其父级总计的百分比。 | `baseField`（用作总计参考的父级字段） |
+| `PercentageOfRunningTotalIn` | 将值显示为基准字段中累计总计的百分比。 | `baseField`（累加字段） |
+| `RankSmallestToLargest` | 按从小到大的顺序对值进行排名（最小值为 1）。 | `baseField`（其项目定义排名作用域的字段） |
+| `RankLargestToSmallest` | 按从大到小的顺序对值进行排名（最大值为 1）。 | `baseField`（其项目定义排名作用域的字段） |
 
 {{% alert color="primary" %}}
-`ShowValuesAs(...)` 写入 `PivotShowValuesSetting` 属性（`CalculationType`、`BaseFieldIndex`、`BaseItemPositionType`、`BaseItemIndex`）——该方法和属性对象是配置相同状态的两种方式，映射了 Excel "Show Values As" 对话框中的基字段和基项选择器。
+`ShowValuesAs(...)` 会设置 `PivotShowValuesSetting` 状态（`ShowValuesAs`、`BaseFieldIndex`、`BaseItemIndex`）——该方法与属性对象是配置同一状态的两种方式，对应 Excel“值显示方式”对话框中的基准字段和基准项选择器。
 {{% /alert %}}
 
-## **显示为总计的百分比**
-使用 `PivotField.ShowValuesAs` 方法并传入 `PivotFieldDataDisplayFormat.PercentageOfTotal`，可将每个数据字段单元格（包括总计）转换为其在总计中的份额。因此显示的数字表现为完整结果集的比例。该格式仅相对于总计进行测量，无需基字段或基项——尾随参数（`0`、`PivotItemPositionType.Previous`、`0`）为该格式所忽略的占位符，如上表所示。
+## **将值显示为占总计的百分比**
+调用 `PivotField.ShowValuesAs` 方法并传入 `PivotShowValuesAsType.PercentageOfTotal`，将每个数据字段单元格（包括总计）转换为占总计的比例。因此，显示的数字表示完整结果集中各部分所占的比例。此格式仅以总计为基准衡量每个值，因此不需要基准字段或基准项——末尾参数（`0`、`0`）只是占位参数，该格式会忽略这些参数，如上表中的参数说明所示。
 
 ```csharp
 using Aspose.Cells;
@@ -77,22 +78,22 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
 pivotTable.CalculateData();
 // Show the Amount data field as a percentage of the grand total with the
 // one-call method; PercentageOfTotal takes no base item, so the trailing
-// base arguments (0, Previous, 0) are placeholders the format ignores
+// base arguments (0, 0) are placeholders the format ignores
 PivotField dataField = pivotTable.DataFields[0];
-dataField.ShowValuesAs(PivotFieldDataDisplayFormat.PercentageOfTotal, 0, PivotItemPositionType.Previous, 0);
+dataField.ShowValuesAs(PivotShowValuesAsType.PercentageOfTotal, 0, 0);
 pivotTable.CalculateData();
 // Body now reads: Apple 47.62%, Banana 33.33%, Cherry 19.05%, Grand Total 100.00%
 workbook.Save("ShowValuesAsPercentageOfTotal.xlsx");
 ```
 
 ## **获取并配置 PivotField.ShowValuesSetting**
-通过 `PivotField.ShowValuesSetting` 读取当前配置：只读属性返回字段的 `PivotShowValuesSetting` 对象，其四个属性描述了当前的 Show Values As 计算。要更改配置，调用 `PivotField.ShowValuesAs` 方法——它一次调用即可写入全部四个设置，无需逐个赋值。
-`PivotShowValuesSetting` 对象公开了 `ShowValuesAs` 写入的四个属性：
-- `CalculationType` 选择 `PivotFieldDataDisplayFormat` 二次计算。
-- `BaseFieldIndex` 指定基字段在数据透视表字段中的零基索引。用于基准相关格式。
-- `BaseItemPositionType` 确定基项相对于当前项的位置，可接受 `PivotItemPositionType.Next`、`PivotItemPositionType.Previous` 或 `PivotItemPositionType.Custom`。
-- `BaseItemIndex` 指定零基的基项索引，仅在 `BaseItemPositionType` 为 `Custom` 时使用。
-调用 `ShowValuesAs` 后，再次调用 `PivotTable.CalculateData()`，使数据透视表主体重新计算并使用更新的配置重新渲染。
+通过 `PivotField.ShowValuesSetting` 读取当前配置：该只读属性返回字段的 `PivotShowValuesSetting` 对象，其属性描述当前生效的“值显示方式”计算类型。若要更改配置，请调用 `PivotField.ShowValuesAs` 方法——该方法通过一次调用写入所有设置，因此无需逐个赋值属性。
+`PivotShowValuesSetting` 对象公开由 `ShowValuesAs` 写入的状态：
+- `ShowValuesAs` 选择 `PivotShowValuesAsType` 二次计算。
+- `BaseFieldIndex` 指定基准字段在数据透视表各字段中的从零开始的索引。该属性用于基于基准的格式。
+- `BaseItemIndex` 指定基准项：可以是特定数据透视表项的从零开始的索引，也可以是两个哨兵值之一——`PivotShowValuesSetting.PreviousPivotItem` (-1) 用于选择前一项，`PivotShowValuesSetting.NextPivotItem` (-2) 用于选择后一项。该属性用于基于基准项的格式。
+- `BaseFieldName` 和 `BaseItemCaption` 是只读视图，用于返回解析后的基准字段名称和基准项标题；例如，选择前一项哨兵值后，`BaseItemCaption` 的值为 `(previous)`。
+调用 `ShowValuesAs` 后，请再次调用 `PivotTable.CalculateData()`，以便使用更新后的配置重新计算并重新呈现数据透视表主体。
 
 ```csharp
 using System;
@@ -103,26 +104,27 @@ PivotTable pivotTable = workbook.Worksheets[1].PivotTables[0];
 PivotField dataField = pivotTable.DataFields[0];
 // Read the current show-values settings
 PivotShowValuesSetting settings = dataField.ShowValuesSetting;
-Console.WriteLine($"CalculationType: {settings.CalculationType}");
+Console.WriteLine($"ShowValuesAs: {settings.ShowValuesAs}");
 Console.WriteLine($"BaseFieldIndex: {settings.BaseFieldIndex}");
-Console.WriteLine($"BaseItemPositionType: {settings.BaseItemPositionType}");
 Console.WriteLine($"BaseItemIndex: {settings.BaseItemIndex}");
+Console.WriteLine($"BaseFieldName: {settings.BaseFieldName}");
+Console.WriteLine($"BaseItemCaption: {settings.BaseItemCaption}");
 // Switch to a base-item calculation with the one-call method: difference
 // from the value of the previous item in the row field
-dataField.ShowValuesAs(PivotFieldDataDisplayFormat.DifferenceFrom,
-    pivotTable.RowFields[0].BaseIndex, PivotItemPositionType.Previous, 0);
+dataField.ShowValuesAs(PivotShowValuesAsType.DifferenceFrom,
+    pivotTable.RowFields[0].BaseIndex, PivotShowValuesSetting.PreviousPivotItem);
 pivotTable.CalculateData();
 // Note: the percentage number format saved by the previous example still
 // clings to the data field cells; the underlying values are now differences
 // Re-read the applied configuration
-Console.WriteLine($"CalculationType now: {dataField.ShowValuesSetting.CalculationType}");
+Console.WriteLine($"ShowValuesAs now: {dataField.ShowValuesSetting.ShowValuesAs}");
 workbook.Save("ShowValuesAsDifferenceFrom.xlsx");
 ```
 
 ## **相关文章**
 - [管理数据透视表中的值字段](/cells/zh/net/manage-value-fields/)
-- [使用数据透视表中 DataField 的数据显示格式](/cells/zh/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+- [处理数据透视表中 DataField 的数据显示格式](/cells/zh/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
 - [刷新数据透视表](/cells/zh/net/refresh-pivot-table/)
-- [为数据透视表应用样式](/cells/zh/net/apply-style-to-pivot-table/)
+- [对数据透视表应用样式](/cells/zh/net/apply-style-to-pivot-table/)
 
 {{< app/cells/assistant language="csharp" >}}

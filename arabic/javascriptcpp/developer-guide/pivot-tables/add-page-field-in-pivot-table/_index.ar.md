@@ -45,16 +45,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // إنشاء مصنف جديد
+            // Create a new workbook
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "Data";
-            // إعداد صف العناوين
+            // Set up the header row
             const cells = worksheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
             cells.get("C1").value = "Amount";
-            // ملء 9 صفوف ببيانات نموذجية: الفاكهة، السنة، المبلغ
+            // Populate 9 rows of sample data: Fruit, Year, Amount
             const data = [
                 ["apple", 2020, 100],
                 ["banana", 2021, 200],
@@ -71,15 +71,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
                 cells.get(i + 1, 1).value = data[i][1];
                 cells.get(i + 1, 2).value = data[i][2];
             }
-            // إضافة جدول محوري مثبت عند الخلية E3
+            // Add a pivot table anchored at cell E3
             const pivotTable = worksheet.pivotTables.add("=A1:C10", 2, 4);
-            // إضافة الحقول إلى مناطقها: الفاكهة كصف، والمبلغ كبيانات، والسنة كحقل صفحة
+            // Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-            // تحديث بيانات الجدول المحوري وحسابها
+            // Refresh and calculate the pivot table data
             pivotTable.calculateData();
-            // حفظ المصنف
+            // Save the workbook
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
@@ -192,10 +192,10 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             document.getElementById('runExample').disabled = false;
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // إنشاء مصنف جديد
+            // Create a new workbook
             const workbook = new Workbook();
             const sheet = workbook.worksheets.get(0);
-            // تعبئة بيانات الفاكهة/السنة/المبلغ
+            // Populate Fruit/Year/Amount data
             const cells = sheet.cells;
             cells.get("A1").value = "Fruit";
             cells.get("B1").value = "Year";
@@ -213,17 +213,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
                     cells.get(r + 1, c).value = data[r][c];
                 }
             }
-            // إنشاء جدول محوري عند E3
+            // Create pivot table at E3
             const pivotTables = sheet.pivotTables;
             const pivotTable = pivotTables.add("=A1:C7", 2, 4);
-            // إعداد حقول الجدول المحوري: Fruit→Row، Amount→Data، Year→Page
+            // Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
             pivotTable.calculateData();
-            // امسح مرشح الصفحة بحيث يظهر كل عنصر في حقل الصفحة.
-            // 0x7FFD (العشري 32765) هو قيمة خاصة تعني "جميع العناصر" —
-            // أي ما يعادل تحديد "(الكل)" في قائمة حقول صفحة Excel.
+            // Clear the page filter so every item in the page field is visible.
+            // 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+            // equivalent to selecting "(All)" in Excel's page-field dropdown.
             pivotTable.pageFields.get(0).currentPageItem = 0x7FFD;
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -263,11 +263,11 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
                 console.log("Aspose.Cells initialized");
             });
             document.getElementById("runExample").addEventListener("click", async () => {
-                // إنشاء مصنف العمل
+                // Create workbook
                 const workbook = new Workbook();
                 const sheet = workbook.worksheets.get(0);
                 const cells = sheet.cells;
-                // إضافة بيانات نموذجية (الفاكهة/السنة/المبلغ)
+                // Add sample data (Fruit/Year/Amount)
                 cells.get("A1").value = "Fruit";
                 cells.get("B1").value = "Year";
                 cells.get("C1").value = "Amount";
@@ -283,16 +283,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
                 cells.get("A5").value = "Banana";
                 cells.get("B5").value = "2021";
                 cells.get("C5").value = "250";
-                // إضافة جدول محوري عند E3
+                // Add pivot table at E3
                 const pivotTables = sheet.pivotTables;
                 const pivotTable = pivotTables.add("=A1:C5", 2, 4);
-                // إضافة الحقول: Fruit→Row، Amount→Data، Year→Page
+                // Add fields: Fruit→Row, Amount→Data, Year→Page
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-                // عمليات خاصة بحقل الصفحة
-                pivotTable.pageFields.get(0).currentPageItem = 1; // 1 = العنصر الثاني في الترتيب (مثل "2021")
-                // تحديث الجدول المحوري وحساب بياناته
+                // Page-field-specific operations
+                pivotTable.pageFields.get(0).currentPageItem = 1; // 1 = second item in sorted order (e.g. "2021")
+                // Refresh and calculate pivot table
                 pivotTable.calculateData();
                 const outputData = workbook.save(SaveFormat.Xlsx);
                 const blob = new Blob([outputData]);
@@ -334,14 +334,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             });
             document.getElementById('runExample').addEventListener('click', async () => {
                 await initializationPromise;
-                // — يُنشأ الجدول المحوري وحقل الصفحة تمامًا كما في
-                //   السيناريو 1a (بيانات Fruit/Year/Amount، الجدول المحوري عند E3، Fruit→Row،
-                //   Amount→Data، Year→Page عبر AddFieldToArea).
-                //   أدناه نطبّق التصفية متعددة التحديد على حقل الصفحة.
+                // — The pivot table and page field are constructed exactly as in
+                //   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+                //   Amount→Data, Year→Page via AddFieldToArea).
+                //   Below we apply multi-select filtering on the page field.
                 const workbook = new Workbook();
                 const sheet = workbook.worksheets.get(0);
                 const cells = sheet.cells;
-                // بيانات العينة: Fruit | Year | Amount
+                // Sample data: Fruit | Year | Amount
                 cells.get(0, 0).value = "Fruit";
                 cells.get(0, 1).value = "Year";
                 cells.get(0, 2).value = "Amount";
@@ -367,15 +367,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Fruit");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Amount");
                 pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Page, "Year");
-                // — تفعيل التحديد المتعدد على حقل الصفحة
+                // — Enable multi-select on the page field
                 const pageField = pivotTable.pageFields.get(0);
                 pageField.isMultipleItemSelectionAllowed = true;
                 const pivotItems = pageField.pivotItems;
-                // الجزء أ — تحديد جميع العناصر (جعل كل عنصر ظاهرًا)
+                // Part A — select ALL items (make every item visible)
                 for (let i = 0; i < pivotItems.count; i++) {
                     pivotItems.get(i).isHidden = false;
                 }
-                // الجزء ب — تحديد عناصر محددة فقط حسب القيمة المصدرية
+                // Part B — select only specific items by source value
                 for (let i = 0; i < pivotItems.count; i++) {
                     const pivotItem = pivotItems.get(i);
                     switch (pivotItem.getStringValue()) {

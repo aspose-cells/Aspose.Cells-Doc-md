@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for C++ 中的值字段
 description: 了解如何在 Aspose.Cells for C++ 中将基础字段添加到数据透视表的数据区域，使用 PivotField.Function 更改汇总函数，并将值字段绘制到行轴或列轴上。
-linktitle: Aspose.Cells for C++ 中的值字段
+linktitle: 值字段
 keywords: Aspose.Cells, C++, 数据透视表, 值字段, PivotField, PivotField.Function, 数据字段, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -23,12 +23,12 @@ int main() {
  Worksheet worksheet = workbook.GetWorksheets().Get(0);
  worksheet.SetName(u"Data");
  Cells cells = worksheet.GetCells();
- // A1:D1 中的表头
+ // Headers in A1:D1
  cells.Get(0, 0).PutValue(U16String("Category"));
  cells.Get(0, 1).PutValue(U16String("Item"));
  cells.Get(0, 2).PutValue(U16String("Year"));
  cells.Get(0, 3).PutValue(U16String("Amount"));
- // 使用嵌套循环根据 j 分支处理 A2:D9 的数据行
+ // Data rows A2:D9 using nested loops branching on j
  for (int i = 1; i <= 8; i++)
  {
  for (int j = 0; j < 4; j++)
@@ -60,9 +60,9 @@ int main() {
  }
  }
  }
- // 在 F3 位置添加名为 PivotTable1 的数据透视表
+ // Add pivot table at F3 with name PivotTable1
  PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
- // 数据透视表布局：Category 和 Item 作为行，Year 作为列，Amount 作为数据字段
+ // Pivot layout: Category and Item on Row, Year on Column, Amount as data field
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");

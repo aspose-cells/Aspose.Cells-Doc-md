@@ -20,15 +20,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 
 ```csharp
 using Aspose.Cells.Pivot;
-// تحميل ملف العمل النموذجي
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// الوصول إلى ورقة العمل الثانية وجدول المحور الخاص بها
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// تجميع حقل الصف الأول تلقائياً.
-// يحتوي الحقل على تواريخ، لذا يتم تجميعها حسب الأشهر.
+// Group the first row field automatically.
+// The field contains dates, so it is grouped by months.
 PivotField field = pt.RowFields[0];
 field.Group();
-// حساب بيانات جدول المحور وحفظ ملف الإخراج
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputAutoGroupPivotField.xlsx");
 ```
@@ -42,17 +42,17 @@ wb.Save("outputAutoGroupPivotField.xlsx");
 
 ```csharp
 using Aspose.Cells.Pivot;
-// تحميل مصنف العينة
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// الوصول إلى ورقة العمل الثانية والجدول المحوري الخاص بها
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// تجميع حقل الصف الأول (حقل تاريخ) حسب الأشهر والأرباع
+// Group the first row field (a date field) by months and quarters
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartDate = new DateTime(2008, 1, 1);
 options.EndDate = new DateTime(2008, 9, 5);
 options.GroupTypes = new PivotGroupByType[] { PivotGroupByType.Months, PivotGroupByType.Quarters };
 pt.RowFields[0].Group(options);
-// حساب بيانات الجدول المحوري وحفظ ملف الإخراج
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 ```
@@ -64,21 +64,21 @@ wb.Save("outputGroupPivotFieldsInPivotTable.xlsx");
 
 ```csharp
 using Aspose.Cells.Pivot;
-// تحميل مصنف العينة
+// Load the sample workbook
 Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
-// الوصول إلى ورقة العمل الثانية وجدول المحور الخاص بها
+// Access the second worksheet and its pivot table
 PivotTable pt = wb.Worksheets[1].PivotTables[0];
-// FieldTwo هو حقل بيانات: انقله أولاً إلى منطقة الصفوف،
-// لأن فقط حقول الصفوف/الأعمدة يمكن تجميعها
+// FieldTwo is a data field: move it to the row area first,
+// because only row/column fields can be grouped
 pt.AddFieldToArea(PivotFieldType.Row, "FieldTwo");
 pt.CalculateData();
-// تجميع الحقل الرقمي إلى النطاقات 0-1، 2-3، 4-5
+// Group the numeric field into the ranges 0-1, 2-3, 4-5
 PivotFieldGroupOptions options = new PivotFieldGroupOptions();
 options.StartNumber = 0;
 options.EndNumber = 5;
 options.Interval = 2;
 pt.RowFields[1].Group(options);
-// حساب بيانات جدول المحور وحفظ ملف الإخراج
+// Calculate the pivot table data and save the output file
 pt.CalculateData();
 wb.Save("outputNumberGroupPivotField.xlsx");
 ```

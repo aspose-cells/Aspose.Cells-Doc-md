@@ -36,19 +36,19 @@ jpype.startJVM()
 from asposecells.api import Workbook, PivotFilterType
 fileName = "sample.xlsx"
 prefix = "B"
-# Özet tablo içeren mevcut çalışma kitabını yükle
+# Load the existing workbook containing a pivot table
 workbook = Workbook(fileName)
-# Çalışma sayfasına dizine göre eriş (ilk çalışma sayfası)
+# Access the worksheet by index (first worksheet)
 worksheet = workbook.getWorksheets().get(0)
-# Özet tabloya dizine göre eriş
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# İlk satır PivotField alanını al
+# Retrieve the first row PivotField
 rowField = pivotTable.getRowFields().get(0)
-# Etiket filtresi uygula — yalnızca etiketleri sağlanan önekle başlayan satır öğelerini göster
+# Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(PivotFilterType.CAPTION_BEGINS_WITH, prefix, "")
-# Filtrenin geçerli olması için özet tablo verilerini yenile ve yeniden hesapla
+# Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Çalışma kitabını diske geri kaydet
+# Save the workbook back to disk
 workbook.save(fileName)
 jpype.shutdownJVM()
 ```
@@ -72,24 +72,24 @@ inputPath = "sample.xlsx"
 outputPath = "output_filtered.xlsx"
 if not os.path.exists(inputPath):
     raise FileNotFoundError(f"Source workbook not found: {inputPath}")
-# Pivot tablosunu içeren mevcut çalışma kitabını yükleyin
+# Load the existing workbook that contains the pivot table
 workbook = Workbook(inputPath)
-# Pivot tablosunu tutan çalışma sayfasına erişin (dizine göre)
+# Access the worksheet that holds the pivot table (by index)
 worksheet = workbook.getWorksheets().get(0)
-# Pivot tablosuna dizine göre erişin
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# Satır alanından tarih PivotField'ını alın
-# (Tarih filtresi yalnızca satır/sütun alanı yalnızca tarih-saat hücreleri veya boşluklar içerdiğinde çalışır)
+# Retrieve the date PivotField from the row area
+# (Date filter only works when the row/column area contains only date-time cells or blanks)
 dateField = pivotTable.getRowFields().get(0)
-# Between filtresi için tarih kriterini tanımlayın
+# Define the date criterion for the Between filter
 Date = jpype.JClass("java.util.Date")
 startDate = Date(2020 - 1900, 0, 1)
 endDate = Date(2020 - 1900, 11, 31)
-# Pivot alanına tarih filtresini uygulayın
+# Apply the date filter on the pivot field
 dateField.filterByDate(PivotFilterType.DATE_BETWEEN, startDate, endDate)
-# Filtrenin etkili olması için pivot tablosunu yenileyin ve yeniden hesaplayın
+# Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Çalışma kitabını kaydedin
+# Persist the workbook
 workbook.save(outputPath)
 jpype.shutdownJVM()
 ```
@@ -109,7 +109,7 @@ worksheet = workbook.getWorksheets().get(0)
 pivotTable = worksheet.getPivotTables().get(0)
 rowField = pivotTable.getRowFields().get(0)
 dataField = pivotTable.getDataFields().get(0)
-# PivotFieldCollection'da IndexOf olmadığından veri alanı indeksini manuel olarak bul
+# Find the data field index manually since PivotFieldCollection doesn't have IndexOf
 dataFieldIndex = -1
 for i in range(pivotTable.getDataFields().getCount()):
     if pivotTable.getDataFields().get(i) == dataField:
@@ -136,31 +136,31 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, PivotTable, PivotField, PivotFilterType
-# Pivot tablosunu içeren mevcut çalışma kitabını yükleyin
+# Load the existing workbook that contains the pivot table
 inputPath = "input.xlsx"
 outputPath = "output.xlsx"
 workbook = Workbook(inputPath)
-# Pivot tablosunu tutan çalışma sayfasına erişin (indeks 0)
+# Access the worksheet that holds the pivot table (index 0)
 worksheet = workbook.getWorksheets().get(0)
-# Pivot tablosuna indeks ile erişin
+# Access the pivot table by index
 pivotTable = worksheet.getPivotTables().get(0)
-# Veri alanında en az bir değer PivotField olduğunu doğrulayın
+# Confirm there is at least one value PivotField in the data area
 if pivotTable.getDataFields().getCount() == 0:
     raise Exception("Pivot table has no value (data) PivotField.")
 valueField = pivotTable.getDataFields().get(0)
-# Hedef satır PivotField'ını alın (Top 10 filtresini uygulamak istediğimiz alan)
+# Retrieve the target row PivotField (the field we want to apply Top 10 on)
 rowField = pivotTable.getRowFields().get(0)
-# İlk (ve tek) veri alanı 0 indeksindedir; Top 10 buna göre sıralar.
+# The first (and only) data field is at index 0; Top 10 ranks by it.
 valueFieldIndex = 0
-# Satır alanına Top 10 filtresini uygulayın:
+# Apply the Top 10 filter on the row field:
 #   - itemCount   = 10
 #   - filterType  = PivotFilterType.SUM
-#   - isTop       = true (ilk N; false alt N anlamına gelir)
-#   - valueFieldIndex = öğeleri sıralamak için kullanılan veri alanının indeksi
+#   - isTop       = true (top N; false would mean bottom N)
+#   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, PivotFilterType.COUNT, True, 10)
-# Pivot tablosu verilerini yenileyin ve filtrenin geçerli olması için yeniden hesaplayın
+# Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh()
-# Çalışma kitabını kaydedin
+# Save the workbook
 workbook.save(outputPath)
 jpype.shutdownJVM()
 ```
@@ -174,28 +174,28 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, Cells, Range, SaveFormat, PivotTable, PivotField, PivotItem
-# Pivot tablosu içeren mevcut bir çalışma kitabını yükle
+# Load an existing workbook containing a pivot table
 workbook = Workbook("pivot_table_sample.xlsx")
-# Pivot tablosunu içeren ilk çalışma sayfasına eriş
+# Access the first worksheet which contains the pivot table
 sheet = workbook.getWorksheets().get(0)
-# Pivot tablosuna dizine göre eriş (sayfadaki ilk pivot tablosu)
+# Access the pivot table by index (the first pivot table on the sheet)
 pivotTable = sheet.getPivotTables().get(0)
-# Hedef PivotField'ı al (öğelerini gizleyeceğimiz/göstereceğimiz ilk satır etiket alanı)
+# Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 pivotField = pivotTable.getRowFields().get(0)
-# Seçilen PivotField'ın PivotItems koleksiyonu boyunca yinele
+# Iterate through the PivotItems collection of the selected PivotField
 itemCount = pivotField.getPivotItems().getCount()
 for i in range(itemCount):
     item = pivotField.getPivotItems().get(i)
-    # Belirli bir ad/ölçütle eşleşen pivot öğelerini gizle
+    # Hide pivot items that match a specific name/criterion
     if item.getName() == "Item1" or item.getName() == "Item2":
         item.setHidden(True)
-    # Gizlemeyi kaldırmayı göster: daha önce gizlenmiş bir pivot öğesini yeniden göster
+    # Demonstrate unhiding: re-show a previously hidden pivot item
     if item.getName() == "Item3":
         item.setHidden(False)
-# Değişikliklerin geçerli olması için pivot tablosunu yenile ve yeniden hesapla
+# Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh()
-# Çalışma kitabını kaydet — gizli öğeler temel verilerde kalır
-# ancak görüntülenen pivot tablosu çıktısından hariç tutulur
+# Save the workbook — hidden items stay in the underlying data
+# but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx")
 jpype.shutdownJVM()
 ```

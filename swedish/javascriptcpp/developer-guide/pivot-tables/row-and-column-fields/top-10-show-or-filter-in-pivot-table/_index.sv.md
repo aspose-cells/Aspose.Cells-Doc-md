@@ -1,6 +1,6 @@
 ---
 title: Visa eller filtrera topp 10 i pivottabell
-linktitle: Visa eller filtrera topp 10 i pivottabell
+linktitle: Visa eller filtrera topp 10
 description: Lär dig att endast visa de högst eller lägst rankade objekten i ett pivotfält med Aspose.Cells for JavaScript via C++. Artikeln beskriver AutoShow-egenskaperna i Excel 97-2003 (isAutoShow och andra egenskaper), hur du läser tillbaka alternativen och Top 10-filtret i Excel 2007-365 via filterTop10.
 keywords: Aspose.Cells, Aspose.Cells for JavaScript via C++, pivottabell, topp 10, AutoShow, isAutoShow, isAscendShow, autoShowCount, autoShowField, filterTop10, PivotFilterType, PivotField, JavaScript
 type: docs
@@ -58,30 +58,28 @@ Rangordna radfältets objekt efter ett vanligt värdefält, till exempel ”Summ
             cells.get("C1").value = "Sales";
             const sports = ["Golf", "Tennis", "Rugby", "Cricket", "Boxing"];
             let row = 2;
-            for (const sport of sports) {
+            sports.forEach(sport => {
                 for (let quarter = 1; quarter <= 3; quarter++) {
                     cells.get(row, 0).value = sport;
                     cells.get(row, 1).value = "Qtr" + quarter;
                     cells.get(row, 2).value = 1000 + 777 * row;
                     row++;
                 }
-            }
+            });
             const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();
             const sportField = pivotTable.rowFields.get(0);
-            // Visa de två översta objekten, rankade efter "Sum of Sales" (index 0 för datafältet)
-            sportField.isAutoShow = true;
-            sportField.isAscendShow = false;
-            sportField.autoShowCount = 2;
-            sportField.autoShowField = 0;
+            // Keep the top 3 items ranked by "Sum of Sales" (data field index 0)
+            sportField.filterTop10(0, AsposeCells.PivotFilterType.Count, true, 3);
+            pivotTable.pivotCache.refresh();
             pivotTable.calculateData();
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
             const downloadLink = document.getElementById('downloadLink');
             downloadLink.href = URL.createObjectURL(blob);
-            downloadLink.download = "output-top10-by-value-field.xlsx";
+            downloadLink.download = "output-top10-filter.xlsx";
             downloadLink.style.display = "block";
             document.getElementById('result').innerHTML = '<p style="color: green;">Done! Click the download link to get the result file.</p>';
         });
@@ -91,6 +89,64 @@ Rangordna radfältets objekt efter ett vanligt värdefält, till exempel ”Summ
 
 ### **Rangordna efter fältet självt**
 Ett fält kan också användas för att rangordna sina egna objekt – ange -1 för `autoShowField`. Den här varianten kräver inget extra datafält; fältet behöver bara finnas i rad- eller kolumnområdet. Följande exempel visar de tre lägst rankade sportgrupperna. När inställningen sparas utelämnas attributet `rankBy` från pivottabellens XML eftersom -1 är standardvärdet för formatet, och `autoShowField` läses tillbaka som -1.
+
+```javascript
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aspose.Cells Example</title>
+    </head>
+    <body>
+        <h1>Aspose.Cells PivotTable Example</h1>
+        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
+        <button id="runExample">Run Example</button>
+        <a id="downloadLink" style="display: none;">Download Result</a>
+        <div id="result"></div>
+    </body>
+    <script src="aspose.cells.js.min.js"></script>
+    <script type="text/javascript">
+        const { Workbook, SaveFormat } = AsposeCells;
+        AsposeCells.onReady({
+            license: "/lic/aspose.cells.enc",
+            fontPath: "/fonts/",
+            fontList: ["arial.ttf", "NotoSansSC-Regular.ttf"]
+        }).then(() => {
+            console.log("Aspose.Cells initialized");
+        });
+        document.getElementById('runExample').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            const result = document.getElementById('result');
+            const file = fileInput.files[0];
+            if (!file) {
+                result.innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
+                return;
+            }
+            try {
+                const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
+                const worksheet = workbook.worksheets.get(0);
+                const pivotTable = worksheet.pivotTables.get(0);
+                const sportField = pivotTable.rowFields.get(0);
+                const settings = sportField.top10AutoShowSettings;
+                const autoShowEnabled = settings.isAutoShow;
+                const direction = settings.isTop ? "Top" : "Bottom";
+                const itemCount = settings.autoShowCount;
+                const rankingDataFieldIndex = settings.rankBy;
+                result.innerHTML =
+                    '<p>AutoShow enabled: ' + autoShowEnabled + '</p>' +
+                    '<p>Direction: ' + direction + '</p>' +
+                    '<p>Item count: ' + itemCount + '</p>' +
+                    '<p>Ranking data field index: ' + rankingDataFieldIndex + '</p>';
+            } catch (error) {
+                result.innerHTML = '<p style="color: red;">An error occurred: ' + error.message + '</p>';
+                console.error(error);
+            }
+        });
+    </script>
+</html>
+```
+
+## **Läsa aktuella AutoShow-inställningar**
+De `PivotField`-egenskaperna `isAutoShow`, `isAscendShow`, `autoShowCount` och `autoShowField` visar vilka AutoShow-inställningar som för närvarande lagras på fältet. Använd dem för att kontrollera hur en befintlig arbetsbok eller en pivottabell som du nyss har konfigurerat kommer att presentera sina objekt. Det gäller även arbetsböcker som har lästs in från en fil.
 
 ```javascript
 <!DOCTYPE html>
@@ -137,11 +193,8 @@ Ett fält kan också användas för att rangordna sina egna objekt – ange -1 f
             pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
             pivotTable.calculateData();
             const sportField = pivotTable.rowFields.get(0);
-            // Visa de 3 lägsta objekten rankade efter fältet självt (rankBy = -1)
-            sportField.isAutoShow = true;
-            sportField.isAscendShow = true;
-            sportField.autoShowCount = 3;
-            sportField.autoShowField = -1;
+            // Show the bottom 3 items ranked by the field itself (rankBy = -1)
+            sportField.top10AutoShow(true, false, 3, -1);
             pivotTable.calculateData();
             const outputData = workbook.save(SaveFormat.Xlsx);
             const blob = new Blob([outputData]);
@@ -151,63 +204,6 @@ Ett fält kan också användas för att rangordna sina egna objekt – ange -1 f
             downloadLink.style.display = "block";
             document.getElementById('result').innerHTML =
                 '<p style="color: green;">Done! Click the download link to get the result file.</p>';
-        });
-    </script>
-</html>
-```
-
-## **Läsa aktuella AutoShow-inställningar**
-De `PivotField`-egenskaperna `isAutoShow`, `isAscendShow`, `autoShowCount` och `autoShowField` visar vilka AutoShow-inställningar som för närvarande lagras på fältet. Använd dem för att kontrollera hur en befintlig arbetsbok eller en pivottabell som du nyss har konfigurerat kommer att presentera sina objekt. Det gäller även arbetsböcker som har lästs in från en fil.
-
-```javascript
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Aspose.Cells Example</title>
-    </head>
-    <body>
-        <h1>Aspose.Cells PivotTable Example</h1>
-        <input type="file" id="fileInput" accept=".xls,.xlsx,.csv" />
-        <button id="runExample">Run Example</button>
-        <a id="downloadLink" style="display: none;">Download Result</a>
-        <div id="result"></div>
-    </body>
-    <script src="aspose.cells.js.min.js"></script>
-    <script type="text/javascript">
-        const { Workbook, SaveFormat } = AsposeCells;
-        AsposeCells.onReady({
-            license: "/lic/aspose.cells.enc",
-            fontPath: "/fonts/",
-            fontList: ["arial.ttf", "NotoSansSC-Regular.ttf"]
-        }).then(() => {
-            console.log("Aspose.Cells initialized");
-        });
-        document.getElementById('runExample').addEventListener('click', async () => {
-            const fileInput = document.getElementById('fileInput');
-            const result = document.getElementById('result');
-            const file = fileInput.files[0];
-            if (!file) {
-                result.innerHTML = '<p style="color: red;">Please select an Excel file.</p>';
-                return;
-            }
-            try {
-                const workbook = new Workbook(new Uint8Array(await file.arrayBuffer()));
-                const worksheet = workbook.worksheets.get(0);
-                const pivotTable = worksheet.pivotTables.get(0);
-                const sportField = pivotTable.rowFields.get(0);
-                const autoShowEnabled = sportField.isAutoShow;
-                const direction = sportField.isAscendShow ? "Bottom" : "Top";
-                const itemCount = sportField.autoShowCount;
-                const rankingDataFieldIndex = sportField.autoShowField;
-                result.innerHTML =
-                    '<p>AutoShow enabled: ' + autoShowEnabled + '</p>' +
-                    '<p>Direction: ' + direction + '</p>' +
-                    '<p>Item count: ' + itemCount + '</p>' +
-                    '<p>Ranking data field index: ' + rankingDataFieldIndex + '</p>';
-            } catch (error) {
-                result.innerHTML = '<p style="color: red;">An error occurred: ' + error.message + '</p>';
-                console.error(error);
-            }
         });
     </script>
 </html>
@@ -261,13 +257,29 @@ Moderna Excel-versioner erbjuder Topp 10 som ett värdefilter i fältmenyn (Vär
             cells.get("C1").value = "Sales";
             const sports = ["Golf", "Tennis", "Rugby", "Cricket", "Boxing"];
             let row = 2;
-            sports.forEach(sport => {
+            for (const sport of sports) {
                 for (let quarter = 1; quarter <= 3; quarter++) {
                     cells.get(row, 0).value = sport;
                     cells.get(row, 1).value = "Qtr" + quarter;
                     cells.get(row, 2).value = 1000 + 777 * row;
                     row++;
                 }
+            }
+            const pivotTable = worksheet.pivotTables.add("=A1:C16", 2, 5);
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Row, "Sport");
+            pivotTable.addFieldToArea(AsposeCells.PivotFieldType.Data, "Sales");
+            pivotTable.calculateData();
+            const sportField = pivotTable.rowFields.get(0);
+            // Show the top 2 items ranked by "Sum of Sales" (data field index 0)
+            sportField.top10AutoShow(true, true, 2, 0);
+            pivotTable.calculateData();
+            const outputData = workbook.save(SaveFormat.Xlsx);
+            const blob = new Blob([outputData]);
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = "output-top10-by-value-field.xlsx";
+            downloadLink.style.display = "block";
+            document.getElementById('result').innerHTML = '<p style="color: green;">Done! Click the download link to get the result file.</p>';
         });
     </script>
 </html>

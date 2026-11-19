@@ -1,149 +1,192 @@
 ---
-title: SmartMarker の単一セル配列レンダリング | Aspose.Cells for Node.js via Java
-linktitle: SmartMarker の単一セル配列レンダリング | Aspose.Cells for Node.js via Java
-description: Aspose.Cells for Node.js via Java のスマートマーカーで ArrayAsSingle および ExtraDelimiter 属性を使用して、配列データを単一セルにレンダリングする方法を学びます。
-keywords: Aspose.Cells, Node.js via Java ライブラリ, スプレッドシート, スマートマーカー, ArrayAsSingle, ExtraDelimiter, 単一セル配列, 配列レンダリング, テンプレート
+title: スマートマーカーの単一セル配列レンダリング | Aspose.Cells for Node.js via Java
+description: `arrayassingle` と `arraydelimiter` のスマートマーカー属性を使用して、Aspose.Cells for Node.js via Java で配列データを単一セルにレンダリングする方法を学びます。
+linktitle: スマートマーカーの単一セル配列レンダリング | Aspose.Cells for Node.js via Java
+url: /ja/nodejs-java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
+keywords: Aspose.Cells, Java 経由の Node.js ライブラリ, スプレッドシート, スマートマーカー, arrayassingle, arraydelimiter, 単一セル配列, 配列レンダリング, テンプレート
 type: docs
 weight: 195
-url: /ja/nodejs-java/smartmarker-array-single-cell-rendering-arrayassingle-extradelimiter/
 ai_search_scope: cells_nodejsjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 {{% alert color="primary" %}}
-Aspose.Cells は、スマートマーカーを使用して配列データを単一セルにレンダリングできます。`ArrayAsSingle` 属性を `ExtraDelimiter` 属性とともに使用することで、開発者は単一セル内で配列要素を区切る方法を制御し、レポートやテンプレートに柔軟な書式を設定できます。
+Aspose.Cells は、スマートマーカーを使用して配列データソースを 1 つのセルにレンダリングできます。`arrayassingle` 属性は、要素を 1 つずつ展開する既定の動作を無効にし、`arraydelimiter` 属性は、結合された要素間に配置される区切り文字を選択します。初期値はカンマですが、指定した任意の 1 文字または引用符で囲んだ複数文字の文字列も使用できます。
 {{% /alert %}}
 
-## **Introduction**
-Aspose.Cells のスマートマーカーは、`&=DataSource.Field` などのマーカー式を使用して、スプレッドシートのデータを動的に設定できる、強力なテンプレートベースの機能です。マーカーをデザイナー用ワークブックに配置し、テンプレートを `WorkbookDesigner` で処理すると、マーカーは提供されたデータソースの値に置き換えられます。
-既定では、スマートマーカーが配列プロパティ（たとえば `&=DataSource.Numbers`）を参照すると、エンジンは配列を展開し、各要素を行方向または列方向に、隣接する別々のセルへ配置します。この動作は多くのシナリオで便利です。しかし、配列全体を 1 つのセルにレンダリングし、要素を連結して任意の区切り文字で区切りたい場合があります。
-`ArrayAsSingle` と `ExtraDelimiter` の属性は、スマートマーカータグ内で一緒に使用することで、この要件に正確に応えます。配列データソースとネイティブに連携しながら、レポートレイアウトをコンパクトで予測可能な状態に保つことができます。
+## **はじめに**
 
-## **Why This Feature Is Needed**
+Aspose.Cells のスマートマーカーは、`&=DataSource.Field` などのマーカー式を使用して、スプレッドシートにデータを動的に設定するテンプレートベースの機能です。マーカーをデザインワークブックに配置し、テンプレートを `WorkbookDesigner` で処理すると、マーカーは指定されたデータソースの値に置き換えられます。
+既定では、スマートマーカーが配列フィールドを参照する場合（例：`&=Product.Tags` が 4 つの値の配列にバインドされている場合）、エンジンは配列を展開し、各要素を個別のセルに配置して、マーカーの下の列に値を垂直方向に広げます。この動作は多くのシナリオで便利ですが、要素を連結して任意の区切り文字で区切り、配列全体を 1 つのセルにレンダリングしたい場合があります。
+`arrayassingle` 属性と `arraydelimiter` 属性は、スマートマーカーの括弧内に `name:value` 形式で記述すると、まさにこの要件に対応します。配列データソースをネイティブに扱いながら、レポートレイアウトをコンパクトかつ予測可能な状態に保てます。
 
-### **Default Array Spreading Behavior**
-スマートマーカーが配列プロパティを参照すると、Aspose.Cells は既定で配列を複数のセルに展開します。たとえば、4 つの値を含む `string[]` に対して `&=Product.Tags` のようなマーカーを使用すると、各値が独自のセルに配置され、他のテンプレートコンテンツが外側に押し出され、慎重に設計されたレポートレイアウトが壊れる可能性があります。
+## **この機能が必要な理由**
 
-### **Use Case Limitations**
-既定の展開動作が望ましくない実用的なシナリオは多数あります。
-- **サマリー形式のレポート**: レコードごとに 1 行のコンパクトなレイアウトが必要な場合。
-- **タグ、ラベル、またはキーワードのリスト**: 1 つのセル内にカンマ区切りまたはパイプ区切りの値として表示する必要がある場合。
-- **フィルターチップまたはステータスインジケーター**: 可読性のため複数の値を 1 か所にまとめたい場合。
-- **後続のパイプライン**（CSV エクスポート、PDF レンダリング、メールマージ）: 展開された範囲ではなく、セルごとに 1 つの統合された値を必要とする場合。
-- **クロスプラットフォーム互換性**: 一部のコンシューマーが複数セルにまたがる配列を許容できない場合。
+### **既定の配列展開動作**
 
-### **The Gap It Fills**
-組み込みのメカニズムがなければ、開発者は JavaScript でデータを前処理し、ワークブックデザイナーにバインドする前に配列を区切り文字付き文字列に結合せざるを得ません。これによりロジックが重複し、データモデルが複雑になり、エラー発生の可能性が高まります。`ArrayAsSingle` と `ExtraDelimiter` の属性は、スマートマーカー内で書式を宣言的に処理することで、この回避策を不要にします。
+スマートマーカーが配列フィールドを参照すると、既定では Aspose.Cells が配列を複数のセルに展開します。たとえば、4 つの値を含む配列に対して `&=Product.Tags` のようなマーカーを使用すると、各値がマーカーの下の個別のセルに配置されます。これにより、他のテンプレートコンテンツが押し下げられ、慎重に設計したレポートレイアウトが崩れる可能性があります。
 
-## **Feature Benefits**
-スマートマーカーで `ArrayAsSingle` と `ExtraDelimiter` の属性を使用すると、いくつかの利点が得られます。
-- **単一セルへの集約**: すべての配列要素がちょうど 1 つのセルにレンダリングされ、レイアウトをコンパクトで予測可能な状態に保ちます。
-- **カスタム区切り文字の制御**: カンマ、セミコロン、ハイフン、パイプ、改行、または任意のカスタムテキストなど、お好みの区切り文字列を指定できます。
-- **テンプレート駆動の書式設定**: データを前処理するための追加コードは不要です。書式設定ルールはスマートマーカータグ内に記述されます。
-- **より整洁なレポート**: 配列データによって隣接するテンプレートコンテンツが別の行や列へ押し出されることがなくなります。
-- **柔軟なデータ型**: 文字列、数値、日付など、区切り文字で結合できるあらゆるデータ型を使用できます。
-- **後方互換性**: 属性を省略した場合は元の展開動作が維持されるため、既存のテンプレートは変更を加えずに引き続き動作します。
+### **ユースケースの制限**
 
-## **How to Use This Feature**
+既定の展開動作が望ましくない実際のシナリオは多数あります。
+- **要約形式のレポート**: レコードごとに 1 行のコンパクトなレイアウトが必要なものです。
+- **タグ、ラベル、キーワードのリスト**: 単一セル内でカンマ区切りまたはパイプ区切りの値として表示する必要があるものです。
+- **フィルターチップまたはステータス表示**: 可読性のために複数の値を 1 か所にまとめる必要があるものです。
+- **後続のパイプライン**（CSV エクスポート、PDF レンダリング、メールマージ）: 展開された範囲ではなく、セルごとに 1 つの統合された値が必要なものです。
+- **クロスプラットフォーム互換性**: 複数のセルにまたがる配列を許容できない利用側があります。
 
-### **Smart Marker Syntax**
-`ArrayAsSingle` と `ExtraDelimiter` の属性は、標準のスマートマーカーの括弧内にキーと値のペアとして渡されます。一般的な構文は次のとおりです。
+### **この機能が解決する課題**
+
+組み込みのメカニズムがなければ、開発者は JavaScript でデータを前処理し、ワークブックデザイナーにバインドする前に配列を区切り文字付き文字列へ結合することを強いられます。これにより、ロジックが重複し、データモデルが複雑になり、エラーの発生率が高まります。`arrayassingle` 属性と `arraydelimiter` 属性は、スマートマーカー内で書式設定を宣言的に処理できるため、この回避策を不要にします。
+
+## **機能の利点**
+
+スマートマーカーで `arrayassingle` 属性と `arraydelimiter` 属性を使用すると、次の利点が得られます。
+- **単一セルへの格納**: すべての配列要素をちょうど 1 つのセルにレンダリングし、レイアウトをコンパクトかつ予測可能に保ちます。
+- **カスタム区切り文字の制御**: 任意の区切り文字を指定できます。初期値のカンマ、セミコロン、ハイフン、パイプ、または `" | "` のような引用符付き複数文字文字列を使用できます。
+- **テンプレート駆動の書式設定**: データを前処理するために追加のコードは必要ありません。書式設定ルールはスマートマーカーのタグ内に記述されます。
+- **より整洁なレポート**: 配列データによって、隣接するテンプレートコンテンツが別の行や列に押し出されることがなくなります。
+- **多様なデータ型**: JSON 行として提供された文字列配列や、文字列としてレンダリングされる数値も扱えます。
+- **後方互換性**: 属性を省略すると元の展開動作が維持されるため、既存のテンプレートは変更されずに動作し続けます。
+
+## **この機能の使用方法**
+
+### **スマートマーカーの構文**
+
+`arrayassingle` 属性と `arraydelimiter` 属性では、標準のスマートマーカーの括弧内で Aspose.Cells の `name:value` 属性文法を使用します。一般的な構文は次のとおりです。
 
 ```
-&=DataSource.ArrayProperty(arrayasSingle=true, extraDelimiter=", ")
+&=DataSource.ArrayField(arrayassingle:true,arraydelimiter:;)
 ```
 
 マーカーは次の要素で構成されます。
-- `&=DataSource.ArrayProperty` — バインドされたデータソース上の配列プロパティを参照する標準のスマートマーカー。
-- `arrayasSingle=true` — エンジンに配列全体を単一セルにレンダリングするよう指示します。値 `true` の場合のみ、単一セル動作が有効になります。
-- `extraDelimiter=", "` — 配列要素の間に配置される区切り文字を定義します。値は文字列リテラルであり、空の文字列、1 文字、または複数文字の文字列にできます。
+- `&=DataSource.ArrayField` — バインドされたデータソースの配列フィールドを参照する標準スマートマーカー。
+- `arrayassingle:true` — 要素を展開する代わりに、配列全体を単一セルにレンダリングするようエンジンに指示します。
+- `arraydelimiter:;` — 省略可。配列要素間に配置される区切り文字を定義します。省略するとカンマが使用されます。
 
-{{% alert color="primary" %}}
-`extraDelimiter` 属性は、複数文字の区切り文字、カスタムテキスト、改行区切りの出力のための `\n` などのエスケープシーケンスなど、任意の文字列リテラルを受け入れます。配列が空の場合、結果のセルは空白のままになります。
+{{% alert color="warning" %}}
+属性は `name:value` 形式（等号ではなくコロン）で記述し、複数の属性は**スペースを入れずに**カンマで区切ります。カンマの後にスペースを入れると、解析された値が 1 文字分ずれます。`(arrayassingle:true, arraydelimiter:;)` では、正しい区切り文字 `;` ではなく、誤った区切り文字 `:;` で結合されます。
 {{% /alert %}}
 
-### **Step-by-Step Workflow**
-次のワークフローは、スマートマーカーを使用して配列を単一セルにレンダリングする方法を説明します。
-1. **データソースを準備する**: 配列を返すプロパティを公開するクラス（またはデータ構造）を作成します。プロパティは `string[]`、`int[]`、その他サポートされている配列型を返すことができます。
-2. **デザイナー用ワークブックを作成する**: 新しい `Workbook` を作成し、ヘッダー行を追加して、`arrayasSingle` と `extraDelimiter` 属性を備えた配列プロパティを参照するスマートマーカーのセルを配置します。
-3. **WorkbookDesigner をインスタンス化する**: `WorkbookDesigner` オブジェクトを作成し、デザイナー用ワークブックをそれに設定し、`setDataSource` メソッドを使用してデータソースをバインドします。
-4. **マーカーを処理する**: `workbookDesigner.process()` メソッドを呼び出してスマートマーカーを展開し、ワークブックに実際のデータを入力します。
-5. **結果を保存する**: 結果のワークブックを、XLSX またはサポートされているその他のファイル形式でディスクに保存します。
+### **区切り文字の形式**
 
-### **Code Example 1 — Basic String Array Rendering**
+- コロンの直後に 1 文字を直接記述します：`arraydelimiter:;`、`arraydelimiter:-`、`arraydelimiter:*`。
+- 複数文字の区切り文字は二重引用符で記述します：`arraydelimiter:" | "`、`arraydelimiter:" - "`。
+
+### **段階的な手順**
+
+次のワークフローで、スマートマーカーを使用して配列を単一セルにレンダリングする方法を説明します。
+1. **データソースの準備**: 各レコードを、フィールドが配列を保持する JSON オブジェクトとして構成します。例：`{"Tags": ["C#", "Aspose"]}`。このプラットフォームでは、`setDataSource` に渡されたプレーンな JavaScript オブジェクトと配列はバインドされません。JSON 行がサポートされる表形式です。
+2. **デザインワークブックの作成**: 新しい `Workbook` を作成し、ヘッダー行を追加します。次に、配列フィールドを参照し、`arrayassingle` 属性（必要に応じてカスタム区切り文字を指定する `arraydelimiter` 属性）を持つスマートマーカーのセルを配置します。
+3. **WorkbookDesigner のインスタンス化**: ワークブックに対して `WorkbookDesigner` を作成し、`setJsonDataSource` を使って JSON 行を関連付けます。
+4. **マーカーの処理**: `workbookDesigner.process()` メソッドを呼び出して、スマートマーカーを展開し、ワークブックに実際のデータを設定します。
+5. **結果の保存**: 生成されたワークブックを XLSX またはその他のサポートされているファイル形式でディスクに保存します。
+
+### **コード例 1 — 基本的な文字列配列のレンダリング**
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-class Product {
-    constructor() {
-        this.Tags = null;
-    }
-}
-const product = new Product();
-product.Tags = ["C#", "Aspose", "SmartMarker", "Excel"];
+
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.getCells().get("A1").putValue("Tags");
-worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayasSingle=true, extraDelimiter=\", \")");
-const designer = new AsposeCells.WorkbookDesigner();
-designer.setWorkbook(workbook);
-designer.setDataSource("Product", product);
+// No spaces inside the parentheses: attributes are name:value pairs
+worksheet.getCells().get("A2").putValue("&=Product.Tags(arrayassingle:true)");
+const designer = new AsposeCells.WorkbookDesigner(workbook);
+designer.setJsonDataSource(
+    "Product",
+    '[{"Tags": ["C#", "Aspose", "SmartMarker", "Excel"]}]');
 designer.process();
-workbook.save("output_arraySingle.xlsx");
+console.log(worksheet.getCells().get("A2").getStringValue());
+workbook.save("output-array-single.xlsx");
 ```
 
-### **Code Example 2 — Numeric Array with Custom Delimiter**
+この例では、配列全体を結合した値が出力されます。4 つのタグは、既定のカンマで区切られ、1 つのセルに配置されます。
+
+```
+C#,Aspose,SmartMarker,Excel
+```
+
+### **コード例 2 — カスタム区切り文字を使った数値値**
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-class Student {
-    constructor() {
-        this.Scores = [];
-    }
-}
-const student = new Student();
-student.Scores = [95, 88, 76, 100, 67];
+
 const workbook = new AsposeCells.Workbook();
 const worksheet = workbook.getWorksheets().get(0);
 worksheet.getCells().get("A1").putValue("Scores");
-worksheet.getCells().get("A2").putValue(student.Scores.join(" - "));
-workbook.save("output_numericArray.xlsx");
+// arraydelimiter:- joins the values with a hyphen
+worksheet.getCells().get("A2").putValue("&=Student.Scores(arrayassingle:true,arraydelimiter:-)");
+const designer = new AsposeCells.WorkbookDesigner(workbook);
+designer.setJsonDataSource(
+    "Student",
+    '[{"Scores": ["95", "88", "76", "100", "67"]}]');
+designer.process();
+console.log(worksheet.getCells().get("A2").getStringValue());
+workbook.save("output-array-numeric.xlsx");
 ```
 
-### **Code Example 3 — Comparing Default vs. ArrayAsSingle Behavior**
+スコアの値が JSON 文字列として提供されるため、結合された出力には数値がそのまま保持されます。
+
+```
+95-88-76-100-67
+```
+
+{{% alert color="note" %}}
+Java エンジンを介して渡された JSON の数値は倍精度浮動小数点数になるため、`[95, 88]` は `95.0-88.0` として結合されます。結合したセルに正確な整数のテキストを表示したい場合は、JSON 行で数値を引用符で囲んでください。
+{{% /alert %}}
+
+### **コード例 3 — 既定のレンダリングと単一セルレンダリングの比較**
 
 ```javascript
 const AsposeCells = require("aspose.cells");
-function main() {
-    const order = {
-        Items: ["Apple", "Banana", "Cherry", "Date"]
-    };
-    const workbook = new AsposeCells.Workbook();
-    const sheet = workbook.getWorksheets().get(0);
-    const cells = sheet.getCells();
-    // セクション 1: 既定のスマートマーカー - 値がセル横向に展開されます
-    cells.get("A1").putValue("Default Spreading Behavior:");
-    cells.get("A2").putValue("&=Order.Items");
-    // セクション 2: arrayasSingle と extraDelimiter を使用した新しい単一セルレンダリング
-    cells.get("A4").putValue("Single Cell Rendering (arrayasSingle=true):");
-    cells.get("A5").putValue("&=Order.Items(arrayasSingle=true, extraDelimiter=\"; \")");
-    // データソースをバインドしてスマートマーカーを処理
-    const designer = new AsposeCells.WorkbookDesigner(workbook);
-    designer.setDataSource("Order", order);
-    designer.process();
-    // 結果のワークブックを保存
-    workbook.save("output_comparison.xlsx");
+
+const workbook = new AsposeCells.Workbook();
+const cells = workbook.getWorksheets().get(0).getCells();
+// Column B: default marker — values spread vertically down the column
+cells.get("B1").putValue("Default");
+cells.get("B2").putValue("&=Order.Items");
+// Column C: single-cell rendering — the whole array joins into one cell
+cells.get("C1").putValue("Single cell");
+cells.get("C2").putValue("&=Order.Items(arrayassingle:true)");
+const designer = new AsposeCells.WorkbookDesigner(workbook);
+designer.setJsonDataSource(
+    "Order",
+    '[{"Items": ["Apple", "Banana", "Cherry", "Date"]}]');
+designer.process();
+for (let row = 1; row <= 5; row++) {
+    const b = cells.get(row, 1).getStringValue() || "";
+    const c = cells.get(row, 2).getStringValue() || "";
+    if (b || c) console.log(`B${row + 1}=[${b}]  C${row + 1}=[${c}]`);
 }
-main();
+workbook.save("output-array-comparison.xlsx");
 ```
 
-### **Notes & Best Practices**
-`ArrayAsSingle` と `ExtraDelimiter` の属性を扱うときは、次の点に注意してください。
-- `extraDelimiter` の値は文字列リテラルとして扱われます。テンプレートプロセッサーが解釈する可能性がある特殊文字はエスケープしてください。
-- `arrayasSingle` 属性はブール値 (`true` / `false`) を受け取ります。`true` の場合のみ単一セル動作が有効になり、それ以外の値の場合は既定の展開動作に戻ります。
-- 配列が空または `null` の場合、セルは空のままです（データ型によっては空の文字列になります）。
-- この機能は、オブジェクトデータソースと、列を配列に分割できる `DataSet` および `DataTable` ソースでも動作します。
-- 改行区切りの出力には、区切り文字の値として `\n` を使用できます。
-- スマートマーカーを、結果の連結文字列を表示できる幅が十分なセルに配置してください。それ以外の場合、書式に応じてコンテンツが隣接するセルに視覚的にあふれる可能性があります。
+既定のマーカーは列 B に各要素を 1 セルずつ縦に配置しますが、`arrayassingle` マーカーは同じ配列を列 C の 1 つのセルにまとめます。
+
+```
+B2=[Apple]  C2=[Apple,Banana,Cherry,Date]
+B3=[Banana]  C3=[]
+B4=[Cherry]  C4=[]
+B5=[Date]  C5=[]
+```
+
+### **注記とベストプラクティス**
+
+`arrayassingle` 属性と `arraydelimiter` 属性を使用する際は、次の点に注意してください。
+- 属性値は `name:value` 形式を使用します。`arrayassingle=true` のような等号形式は認識されず、警告なく既定の展開動作にフォールバックします。
+- 属性はカンマで区切り、スペースを入れません。カンマの後のスペースによって区切り文字の値が 1 文字分ずれます（上記の警告を参照してください）。
+- `arraydelimiter` の値は、コロンの直後に直接記述した 1 文字、または二重引用符で囲んだ複数文字文字列にできます。
+- `arraydelimiter` を省略すると、要素はカンマで結合されます。
+- 配列フィールドは `setJsonDataSource` の行オブジェクトで提供してください。このプラットフォームでは、`setDataSource` に渡されたプレーンな JavaScript オブジェクトと配列はバインドされません。
+- Java エンジンを介した JSON の数値は倍精度浮動小数点数として到着します（`95` は `95.0` として結合されます）。正確な整数テキストが必要な場合は、JSON 行で数値を引用符で囲んでください。
+- 結果の連結文字列を表示できる幅が十分に大きいセルにスマートマーカーを配置してください。書式に応じて、コンテンツが隣接するセルに視覚的にあふれる場合があります。
+
+## 関連記事
+- [Aspose.Cells for Node.js via Java でピボットテーブルにフィルターフィールドを追加する](/cells/ja/nodejs-java/add-page-field-in-pivot-table/)
+- [Aspose.Cells for Node.js via Java でピボットテーブルにスタイルを適用する](/cells/ja/nodejs-java/apply-style-to-pivot-table/)
+- [ピボットテーブルのページフィールドレイアウトを変更する](/cells/ja/nodejs-java/change-page-field-layout/)
+- [Aspose.Cells for Node.js via Java でスパークラインを画像および HTML に変換する](/cells/ja/nodejs-java/convert-sparkline-to-image-and-html/)
+- [Excel を OFD 形式に変換する](/cells/ja/nodejs-java/converting-excel-to-ofd-format/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

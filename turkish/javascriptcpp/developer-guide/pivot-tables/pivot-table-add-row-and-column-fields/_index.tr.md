@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for JavaScript via C++ ile Özet Tabloya Satır ve Sütun Alanları Ekleme
-linktitle: Aspose.Cells for JavaScript via C++ ile Özet Tabloya Satır ve Sütun Alanları Ekleme
+linktitle: Satır ve Sütun Alanları
 description: Aspose.Cells for JavaScript via C++ ile bir özet tabloya satır ve sütun alanları eklemeyi ve PivotField.SetSubtotals ile PivotFieldSubtotalType kullanarak özet tablo alanlarının alt toplamlarını denetlemeyi öğrenin.
 keywords: Aspose.Cells, JavaScript via C++, özet tablo, satır alanı, sütun alanı, PivotField, setSubtotals, PivotFieldSubtotalType, alt toplamlar, JavaScript, Excel özet tablosu
 type: docs

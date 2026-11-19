@@ -1,7 +1,7 @@
 ---
 title: Aspose.Cells for Python via Java 中的值字段
 description: 了解如何向数据透视表的数据区域添加基础字段，使用 PivotField.Function 更改汇总函数，以及将值字段绘制到 Aspose.Cells for Python via Java 中的行或列轴。
-linktitle: Aspose.Cells for Python via Java 中的值字段
+linktitle: 值字段
 keywords: Aspose.Cells, Python via Java, 数据透视表, 值字段, PivotField, PivotField.Function, 数据字段, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230

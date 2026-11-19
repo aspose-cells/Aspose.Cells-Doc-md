@@ -161,43 +161,43 @@ Aspose.Cells обеспечивает простую загрузку данны
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // Заголовки столбцов
+            // Column headers
             cells.get(0, 0).value = "ID";
             cells.get(0, 1).value = "Name";
             cells.get(0, 2).value = "Department";
             cells.get(0, 3).value = "Salary";
             cells.get(0, 4).value = "HireDate";
-            // Строка данных 1
+            // Data row 1
             cells.get(1, 0).value = 101;
             cells.get(1, 1).value = "John Smith";
             cells.get(1, 2).value = "Engineering";
             cells.get(1, 3).value = 75000.50;
             cells.get(1, 4).value = new Date(2020, 2, 15);
-            // Строка данных 2
+            // Data row 2
             cells.get(2, 0).value = 102;
             cells.get(2, 1).value = "Jane Doe";
             cells.get(2, 2).value = "Marketing";
             cells.get(2, 3).value = 68000.75;
             cells.get(2, 4).value = new Date(2019, 6, 22);
-            // Строка данных 3
+            // Data row 3
             cells.get(3, 0).value = 103;
             cells.get(3, 1).value = "Bob Johnson";
             cells.get(3, 2).value = "Finance";
             cells.get(3, 3).value = 82000.00;
             cells.get(3, 4).value = new Date(2021, 0, 10);
-            // Строка данных 4
+            // Data row 4
             cells.get(4, 0).value = 104;
             cells.get(4, 1).value = "Alice Brown";
             cells.get(4, 2).value = "Human Resources";
             cells.get(4, 3).value = 71000.25;
             cells.get(4, 4).value = new Date(2018, 10, 5);
-            // Строка данных 5
+            // Data row 5
             cells.get(5, 0).value = 105;
             cells.get(5, 1).value = "Charlie Wilson";
             cells.get(5, 2).value = "Operations";
             cells.get(5, 3).value = 79500.80;
             cells.get(5, 4).value = new Date(2022, 4, 30);
-            // Установка ширины столбцов для лучшей читаемости
+            // Set column widths for better readability
             cells.setColumnWidth(0, 8);
             cells.setColumnWidth(1, 20);
             cells.setColumnWidth(2, 20);

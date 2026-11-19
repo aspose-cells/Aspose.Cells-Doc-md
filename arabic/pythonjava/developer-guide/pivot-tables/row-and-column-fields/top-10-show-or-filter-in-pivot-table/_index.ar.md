@@ -1,8 +1,8 @@
 ---
-title: عرض أو تصفية أعلى 10 عناصر في الجدول المحوري
-linktitle: عرض أو تصفية أعلى 10 عناصر في الجدول المحوري
-description: تعلم كيفية عرض العناصر الأعلى أو الأدنى تصنيفًا فقط في حقل محوري باستخدام Aspose.Cells for Python via Java. تتناول هذه المقالة طريقة top10AutoShow في Excel 97-2003، وقراءة الخيارات باستخدام Top10AutoShowSettings، وتطبيق تصفية أعلى 10 في Excel 2007-365 عبر filterTop10.
-keywords: Aspose.Cells for Python via Java, جدول محوري, أعلى 10, العرض التلقائي, top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, filterTop10, PivotFilterType, PivotField, Python
+title: أعلى 10 عرض أو تصفية في جدول محوري
+linktitle: أعلى 10 عرض أو تصفية في جدول محوري
+description: تعرّف على كيفية عرض العناصر ذات الترتيب الأعلى أو الأدنى فقط لحقل محوري في Aspose.Cells for Python via Java، يتناول هذا المقال طريقة Excel 97‑2003 top10AutoShow، قراءة الخيارات باستخدام Top10AutoShowSettings، ومرشح Excel 2007‑365 أعلى 10 عبر filterTop10.
+keywords: Aspose.Cells for Python via Java, جدول محوري, أعلى 10, إظهار تلقائي, top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, filterTop10, PivotFilterType, PivotField, Python
 type: docs
 weight: 20
 url: /ar/python-java/top-10-show-or-filter-in-pivot-table/
@@ -10,21 +10,22 @@ ai_search_scope: cells_pythonjava
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
-## **سيناريوهات الاستخدام الممكنة**
-قد يكون من الصعب قراءة جدول محوري يسرد كل عنصر من حقل صف عندما يحتوي ذلك الحقل على عشرات العناصر. يحتفظ تقرير أعلى 10 فقط بالعناصر الأعلى أو الأدنى تصنيفًا، وهو بالضبط ما تحتاجه تقارير الترتيب — «أعلى 5 منتجات حسب الإيرادات» أو «أسفل 3 مناطق حسب عدد المبيعات». يدعم Aspose.Cells أسلوبين لذلك، وهما يقابلان جيلين من إصدارات Microsoft Excel.
-- **العرض التلقائي في Excel 97-2003** — طريقة `PivotField.top10AutoShow()`. وهذا هو الإعداد الكلاسيكي «عرض أعلى N عنصر أو أسفلها»، ويُخزَّن مباشرةً على الحقل المحوري. يعمل في جميع إصدارات Excel، القديمة والحديثة، لأنه جزء من تنسيق الجدول المحوري الأصلي.
-- **تصفية أعلى 10 في Excel 2007-365** — طريقة `PivotField.filterTop10()`. وهذه تصفية قيمة حديثة لأعلى 10 يمكن الوصول إليها من تصفية القيم في قائمة الحقل. وتُخزَّن في صورة كائن `PivotFilter` مرتبط بالحقل، وتوفر ترتيبًا قائمًا على عدد العناصر أو النسبة المئوية.
+## **سيناريوهات الاستخدام المحتملة**
+قد يكون جدول محوري يُظهر كل عنصر من عناصر حقل الصف صعب القراءة عندما يحتوي الحقل على عشرات الأعضاء. يُبقي تقرير أعلى 10 العناصر فقط العناصر الأعلى أو الأدنى تصنيفًا، وهو ما تحتاجه تقارير التصنيف — "أعلى 5 منتجات حسب الإيرادات" أو "أدنى 3 مناطق حسب عدد المبيعات". يدعم Aspose.Cells آليتين لهذه الميزة، ويتوافق كل منهما مع جيلين من Microsoft Excel.
+- **Excel 97‑2003 AutoShow** — طريقة `PivotField.top10AutoShow()` تُعد الإعداد الكلاسيكي “عرض أعلى/أدنى N عناصر” المخزّن مباشرةً على الحقل المحوري. يعمل في جميع إصدارات Excel، القديمة والجديدة، لأنه جزء من تنسيق جدول محوري الأصلي.
+- **Excel 2007‑365 Top 10 Filter** — طريقة `PivotField.filterTop10()` هي مرشح القيمة “أعلى 10” الحديث الموجود ضمن قائمة مرشحات القيمة في حقل القائمة.
 
-## **عرض أعلى 10 في Excel 97-2003 (top10AutoShow)**
-يُهيَّأ العرض التلقائي الكلاسيكي من خلال استدعاء واحد لطريقة `PivotField.top10AutoShow(boolean isAutoShow, boolean isTop, int count, int rankBy)`:
-- `isAutoShow` — يمكّن إعداد العرض التلقائي على الحقل أو يعطّله.
-- `isTop` — تحدد `True` الإبقاء على العناصر الأعلى تصنيفًا (أعلى)، بينما تحدد `False` الإبقاء على العناصر الأدنى (أسفل).
-- `count` — عدد العناصر المطلوب الاحتفاظ بها، مثل 10 لتقرير كلاسيكي لأعلى 10 عناصر.
-- `rankBy` — الفهرس الصفري، الذي يبدأ من 0، لحقل البيانات الذي تُرتَّب العناصر وفق قيمه. مرّر -1 لترتيب العناصر حسب الحقل نفسه.
-قد يستند الترتيب إلى حقل قيمة أو إلى الحقل نفسه. وتوجد طريقتان طبيعيتان لذلك، كما هو موضح أدناه.
+## **عرض أعلى 10 في Excel 97‑2003 (top10AutoShow)**
+يتم تكوين AutoShow الكلاسيكي باستدعاء واحد إلى `PivotField.top10AutoShow(boolean isAutoShow, boolean isTop, int count, int rankBy)`:
+- `isAutoShow` — يفعِّل أو يلغي إعداد AutoShow على الحقل.
+- `isTop` — `True` يبقي العناصر ذات أعلى تصنيف (Top)، `False` يبقي الأدنى (Bottom).
+- `count` — عدد العناصر التي سيتم الاحتفاظ بها، على سبيل المثال 10 لتقرير أعلى 10 الكلاسيكي.
+- `rankBy` — الفهرس الصفري لحقل البيانات الذي تُرتّب قيمه العناصر. استخدم -1 لترتيب العناصر وفقًا للحقل نفسه.
+
+يمكن أن يتم الترتيب بناءً على حقل قيمة أو على الحقل نفسه. يوجد نوعان طبيعيان موضحان أدناه.
 
 ### **الترتيب حسب حقل قيمة**
-رتّب عناصر حقل الصف حسب حقل قيمة عادي مثل "Sum of Sales". يبني المثال التالي جدولًا محوريًا يحتوي على حقل صف واحد (`Sport`) وحقل بيانات واحد (`Sales`)، ثم يعرض أعلى رياضتين حسب المبيعات. تكون `rankBy` بقيمة 0 لأن "Sum of Sales" هو حقل البيانات عند الفهرس 0.
+رتّب عناصر حقل الصف بحسب حقل قيمة عادي مثل مجموع المبيعات. المثال التالي يبني جدولًا محوريًا بحقل صف واحد (`Sport`) وحقل بيانات واحد (`Sales`)، ثم يُظهر أعلى رياضتين حسب المبيعات. `rankBy` يساوي 0 لأن “Sum of Sales” هو حقل البيانات في الفهرس 0.
 
 ```python
 import jpype
@@ -49,16 +50,14 @@ pivot_table.addFieldToArea(PivotFieldType.ROW, "Sport")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Sales")
 pivot_table.calculateData()
 sport_field = pivot_table.getRowFields().get(0)
-sport_field.setAutoShow(True)
-sport_field.setAutoShowCount(2)
-sport_field.setAutoShowField(2)
+sport_field.top10AutoShow(True, True, 2, 0)
 pivot_table.calculateData()
 workbook.save("output-top10-by-value-field.xlsx")
 jpype.shutdownJVM()
 ```
 
 ### **الترتيب حسب الحقل نفسه**
-يمكن أيضًا ترتيب حقل حسب نفسه — أي مرّر -1 كقيمة لـ `rankBy`. لا يلزم وجود حقل بيانات إضافي لهذا البديل؛ يكفي أن يكون الحقل في منطقة الصفوف (أو الأعمدة). يعرض المثال التالي ثلاث رياضات ذات الترتيب الأدنى، مرتبةً وفق الحقل نفسه. وعند حفظ هذا الإعداد، تُحذف سمة `rankBy` من XML الخاص بالجدول المحوري لأن -1 هي القيمة الافتراضية لهذا التنسيق، وتقرأ `Top10AutoShowSettings.getRankBy()` القيمة -1.
+يمكن أيضًا ترتيب الحقل نفسه — مرّر -1 كقيمة `rankBy`. لا يلزم حقل بيانات إضافي لهذا النوع؛ يجب أن يكون الحقل موجودًا في منطقة الصف (أو العمود) فقط. المثال التالي يُظهر أدنى 3 رياضات مرتبة حسب الحقل نفسه. عند حفظ هذا الإعداد، تُحذف سمة `rankBy` من XML جدول محوري لأن -1 هو القيمة الافتراضية للتنسيق، وتُعيد `Top10AutoShowSettings.getRankBy()` القيمة -1.
 
 ```python
 import jpype
@@ -83,7 +82,7 @@ pivot_table.addFieldToArea(PivotFieldType.ROW, "Sport")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Sales")
 pivot_table.calculateData()
 sport_field = pivot_table.getRowFields().get(0)
-# إظهار آخر 3 عناصر مرتبة حسب الحقل نفسه (rankBy = -1)
+# Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sport_field.top10AutoShow(True, False, 3, -1)
 pivot_table.calculateData()
 workbook.save("output-top10-by-field-itself.xlsx")
@@ -91,7 +90,7 @@ jpype.shutdownJVM()
 ```
 
 ## **قراءة الخيارات الحالية (Top10AutoShowSettings)**
-تعيد طريقة `PivotField.getTop10AutoShowSettings()` كائن `PivotFieldTop10AutoShowSettings` الذي يتيح الوصول إلى خيارات العرض التلقائي المخزنة حاليًا على الحقل. استخدمه لفحص كيفية عرض العناصر في مصنف موجود أو في جدول محوري قمت بتهيئته للتو — بما في ذلك المصنفات المحمّلة من ملف.
+طريقة `PivotField.getTop10AutoShowSettings()` تُعيد كائن `PivotFieldTop10AutoShowSettings` يتيح الاطلاع على خيارات AutoShow المخزّنة حاليًا على الحقل. استخدمه لفحص كيفية عرض العناصر في مصنف موجود أو جدول محوري قمت بتكوينه مؤخرًا — بما في ذلك المصنفات التي تم تحميلها من ملف.
 
 ```python
 import jpype
@@ -109,21 +108,21 @@ print("Ranking data field index: " + str(settings.getRankBy()))
 jpype.shutdownJVM()
 ```
 
-تطابق الخصائص الأربع سمات العرض التلقائي الكلاسيكية التي تُكتب في XML الخاص بالجدول المحوري (`autoShow`، `topAutoShow`، `itemPageCount`، `rankBy`)، لذا تكون القيم المقروءة هي القيم التي ستطبّقها جميع إصدارات Excel.
+الخصائص الأربعة تُطابق سمات AutoShow الكلاسيكية المكتوبة في XML جدول محوري (`autoShow`, `topAutoShow`, `itemPageCount`, `rankBy`), لذا القيم المقروءة هي القيم التي تحترمها جميع إصدارات Excel.
 
 ## **ملاحظة**
 
 {{% alert color="primary" %}}
-- أدوات الوصول المباشرة إلى `PivotField`، وهي `isAutoShow()` و`isAscendShow()` و`getAutoShowCount()` و`getAutoShowField()`، مهجورة. استخدم كائن `Top10AutoShowSettings` بدلاً منها، إذ يوفر البدائل المكافئة: `PivotField.isAutoShow()` مقابل `Top10AutoShowSettings.isAutoShow()`، و`PivotField.isAscendShow()` مقابل `Top10AutoShowSettings.isTop()`، و`PivotField.getAutoShowCount()` مقابل `Top10AutoShowSettings.getAutoShowCount()`، و`PivotField.getAutoShowField()` مقابل `Top10AutoShowSettings.getRankBy()`. وتُعد طريقة `top10AutoShow()` الطريقة المدعومة لتغيير الإعدادات.
-- تعمل `top10AutoShow` مع حقول الصفوف والأعمدة. لا يمكن ترتيب حقل يقع فقط في منطقة الصفحات (التصفية) بهذه الطريقة، لأن عناصره لا تظهر في جسم الجدول المحوري.
+- تُعتبر وصوليات `PivotField` المباشرة `isAutoShow()`, `isAscendShow()`, `getAutoShowCount()` و `getAutoShowField()` قديمة (obsolete). استخدم كائن `Top10AutoShowSettings` بدلاً منها: يتحول `PivotField.isAutoShow()` إلى `Top10AutoShowSettings.isAutoShow()`, و `PivotField.isAscendShow()` إلى `Top10AutoShowSettings.isTop()`, و `PivotField.getAutoShowCount()` إلى `Top10AutoShowSettings.getAutoShowCount()`, و `PivotField.getAutoShowField()` إلى `Top10AutoShowSettings.getRankBy()`. طريقة `top10AutoShow()` نفسها هي الطريقة المدعومة لتغيير الإعدادات.
+- يعمل `top10AutoShow` مع حقول الصف والعمود. لا يمكن ترتيب حقل يكون فقط في منطقة الصفحة (التصفية) بهذه الطريقة لأن عناصره لا تُعرض في جسم الجدول المحوري.
 {{% /alert %}}
 
-## **Excel 2007-365: تصفية أعلى 10 (filterTop10)**
-تتيح إصدارات Excel الحديثة تطبيق تصفية أعلى 10 بوصفها تصفية قيم في قائمة الحقل (تصفية القيم، أعلى 10...). وينفذ Aspose.Cells هذه العملية من خلال طريقة `PivotField.filterTop10(int valueFieldIndex, PivotFilterType type, boolean isTop, int itemCount)`، التي تُرجع كائن `PivotFilter` الذي تم إنشاؤه:
-- `valueFieldIndex` — الفهرس الصفري لحقل البيانات الذي تُرتَّب العناصر وفق قيمه المجمّعة.
-- `type` — معنى `itemCount`. يحتفظ `PivotFilterType.COUNT` بعدد ثابت من العناصر (خيار العناصر في مربع الحوار). يحتفظ `PivotFilterType.PERCENT` بنسبة مئوية من العناصر، وبذلك تكون `itemCount` هي النسبة نفسها؛ أي أن 30 يحتفظ بأعلى 30٪. أما `PivotFilterType.SUM` فيرتب العناصر بحسب التغطية التراكمية للقيم.
-- `isTop` — القيمة `True` تعني الأعلى، والقيمة `False` تعني الأسفل.
-- `itemCount` — القيمة N في «أعلى N»، وتعتمد وحدتها على `type`.
+## **Excel 2007‑365: مرشح أعلى 10 (filterTop10)**
+تُظهر إصدارات Excel الحديثة مرشح أعلى 10 كقيمة ضمن قائمة مرشحات القيمة (Value Filters, Top 10…). يُنمذج Aspose.Cells ذلك باستخدام طريقة `PivotField.filterTop10(int valueFieldIndex, PivotFilterType type, boolean isTop, int itemCount)` التي تُعيد كائن `PivotFilter` المُنشأ:
+- `valueFieldIndex` — الفهرس الصفري لحقل البيانات الذي تُرتّب قيمه العناصر المجمعة.
+- `type` — ما الذي يعنيه `itemCount`. `PivotFilterType.COUNT` يحتفظ بعدد ثابت من العناصر (خيار Items في الحوار). `PivotFilterType.PERCENT` يحتفظ بنسبة مئوية من العناصر، لذا فإن `itemCount` هو النسبة نفسها — 30 يعني أعلى 30 ٪. `PivotFilterType.SUM` يرتّب حسب تغطية القيمة التراكمية.
+- `isTop` — `True` للترتيب الأعلى, `False` للترتيب الأدنى.
+- `itemCount` — الـ N في أعلى N؛ وحدته تعتمد على `type`.
 
 ```python
 import jpype
@@ -149,9 +148,9 @@ try:
     pivot_table.addFieldToArea(PivotFieldType.DATA, "Sales")
     pivot_table.calculateData()
     sport_field = pivot_table.getRowFields().get(0)
-    # مرشح أعلى 10 — احتفظ بأعلى عنصرين وفق "مجموع المبيعات" (فهرس حقل البيانات 0)
+    # Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
     filter = sport_field.filterTop10(0, PivotFilterType.COUNT, True, 2)
-    # بدلاً من ذلك، لاستخدام مرشح قائم على النسبة، احتفظ بأعلى 30٪ من العناصر:
+    # For a percentage-based filter instead, keep the top 30 percent of the items:
     # sport_field.filterTop10(0, PivotFilterType.PERCENT, True, 30)
     pivot_table.getPivotCache().refresh()
     pivot_table.calculateData()
@@ -161,14 +160,14 @@ finally:
 ```
 
 {{% alert color="primary" %}}
-`top10AutoShow` و`filterTop10` هما وظيفتان منفصلتان. يكتب العرض التلقائي سمة `autoShow` الكلاسيكية على الحقل المحوري، وتتعرف عليها جميع إصدارات Excel منذ Excel 97. ويكتب `filterTop10` مدخل `PivotFilter` حديثًا يتطلب Excel 2007 أو إصدارًا أحدث. وعند فتح مصنف في إصدار أقدم من Excel، يعرض الجدول المحوري الذي يستخدم التصفية الحديثة جميع العناصر. للمستندات التي يجب أن تمر ذهابًا وإيابًا عبر أدوات الإصدارات القديمة، فضّل `top10AutoShow`؛ أما المصنفات الحديثة، فاستخدم `filterTop10` لأنه يتكامل مع مرشحات القيم الأخرى.
+`top10AutoShow` و `filterTop10` ميزتان منفصلتان. يكتب AutoShow السمة الكلاسيكية `autoShow` المُحددة على الحقل المحوري ويُحترم من جميع إصدارات Excel بدءًا من Excel 97. يكتب `filterTop10` إدخال `PivotFilter` حديث، والذي يتطلب Excel 2007 أو أحدث. عندما يُفتح المصنف في إصدار Excel أقدم، يعود جدول محوري يستخدم المرشح الحديث إلى عرض جميع العناصر. بالنسبة للمستندات التي يجب أن تمر عبر أدوات قديمة، يُفضَّل `top10AutoShow`; بالنسبة للمصنفات الحديثة، يُفضَّل `filterTop10` لأنه يتكامل مع مرشحات القيم الأخرى.
 {{% /alert %}}
 
 ## **مقالات ذات صلة**
-- [تصفية الجداول المحورية حسب التسمية أو القيمة](/cells/ar/python-java/filter-by-label-or-value-of-pivot-table/)
-- [إضافة حقول الصفوف والأعمدة إلى الجدول المحوري](/cells/ar/python-java/pivot-table-add-row-and-column-fields/)
-- [تجميع حقول الجدول المحوري في الجدول المحوري](/cells/ar/python-java/group-pivot-fields-in-the-pivot-table/)
-- [تحديث الجدول المحوري](/cells/ar/python-java/refresh-pivot-table/)
-- [إضافة حقل صفحة في الجدول المحوري](/cells/ar/python-java/add-page-field-in-pivot-table/)
+- [تصفية جداول محورية حسب التسمية أو القيمة](/cells/ar/python-java/filter-by-label-or-value-of-pivot-table/)
+- [إضافة حقول صف وعمود إلى جدول محوري](/cells/ar/python-java/pivot-table-add-row-and-column-fields/)
+- [تجميع حقول محورية في جدول محوري](/cells/ar/python-java/group-pivot-fields-in-the-pivot-table/)
+- [تحديث جدول محوري](/cells/ar/python-java/refresh-pivot-table/)
+- [إضافة حقل صفحة في جدول محوري](/cells/ar/python-java/add-page-field-in-pivot-table/)
 
 {{< app/cells/assistant language="python" >}}

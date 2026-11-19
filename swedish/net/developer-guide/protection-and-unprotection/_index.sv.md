@@ -41,19 +41,19 @@ Excel stöder två distinkta lösenordslager. Det första är ett lösenord för
 ```csharp
 using System;
 using Aspose.Cells;
-// Skapa en ny arbetsbok från grunden
+// Create a new workbook from scratch
 Workbook workbook = new Workbook();
-// Skriv ett exempelvärde till cell A1 i det första kalkylbladet
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells["A1"].PutValue("Sample Data");
-// Konfigurera skrivskyddet: ange lösenord för att ändra och författare
+// Configure the write protection: set the password to modify and the author
 workbook.Settings.WriteProtection.Password = "ModifyPwd";
 workbook.Settings.WriteProtection.Author = "AuthorName";
-// Spara arbetsboken så att skrivskyddet bevaras
+// Save the workbook so the write protection is persisted
 workbook.Save("WriteProtectedWorkbook.xlsx");
-// Validera lösenordet för att ändra med rätt lösenord
+// Validate the password to modify using the correct password
 bool isCorrectValid = workbook.Settings.WriteProtection.ValidatePassword("ModifyPwd");
 Console.WriteLine("ValidatePassword(\"ModifyPwd\") returned: " + isCorrectValid);
-// Validera lösenordet för att ändra med ett felaktigt lösenord för att demonstrera den andra grenen
+// Validate the password to modify using an incorrect password to demonstrate the other branch
 bool isWrongValid = workbook.Settings.WriteProtection.ValidatePassword("WrongPwd");
 Console.WriteLine("ValidatePassword(\"WrongPwd\") returned: " + isWrongValid);
 ```
@@ -64,22 +64,22 @@ Att skydda arbetsboksstrukturen hindrar andra användare från att visa dolda ka
 ```csharp
 using System;
 using Aspose.Cells;
-// Skapa en ny arbetsbok
+// Create a new workbook
 Workbook workbook = new Workbook();
-// Lägg till ett andra kalkylblad
+// Add a second worksheet
 workbook.Worksheets.Add();
-// Skriv ett exempelvärde till cell A1 i det första kalkylbladet
+// Write a sample value to cell A1 of the first worksheet
 workbook.Worksheets[0].Cells[0, 0].PutValue("Sample Data");
-// Skydda arbetsbokens struktur
+// Protect the workbook structure
 workbook.Protect(ProtectionType.Structure, "StructPwd");
-// Spara arbetsboken som structure_protected.xlsx
+// Save the workbook as structure_protected.xlsx
 string filePath = "structure_protected.xlsx";
 workbook.Save(filePath);
-// Ladda om filen till en ny Workbook-instans
+// Reload the file into a new Workbook instance
 Workbook loadedWorkbook = new Workbook(filePath);
-// Ta bort strukturskyddet
+// Remove the structure protection
 loadedWorkbook.Unprotect("StructPwd");
-// Skriv ut bekräftelsemeddelande
+// Print confirmation message
 Console.WriteLine("Structure protection has been successfully removed from the workbook.");
 ```
 

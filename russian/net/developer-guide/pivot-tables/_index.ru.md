@@ -19,7 +19,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 Типичные сценарии применения — дашборды продаж, разбивка расходов и анализ запасов; с их помощью можно ответить на любой вопрос вида «как эти показатели распределяются по категориям и периодам?». Aspose.Cells for .NET программным способом создает аналогичные сводные таблицы, поэтому рабочие книги, формируемые вашим приложением, могут содержать готовые отчеты, а не только необработанные данные.
 
 ### **Объектная модель сводной таблицы**
-Aspose.Cells предоставляет специальный набор классов в namespace [**Aspose.Cells.Pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot), которые используются для создания сводных таблиц и управления ими. Эти классы применяются для создания и настройки объектов [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable), являющихся основными компонентами сводной таблицы. Эти объекты:
+Aspose.Cells предоставляет специальный набор классов в пространстве имен [**Aspose.Cells.Pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot), которые используются для создания сводных таблиц и управления ими. Эти классы применяются для создания и настройки объектов [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable), являющихся основными компонентами сводной таблицы. Эти объекты:
 - [**PivotField**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield) представляет поле объекта [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable).
 - [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) представляет коллекцию всех объектов [**PivotField**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield) в объекте [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable).
 - [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) представляет сводную таблицу на рабочем листе.
@@ -36,12 +36,10 @@ Aspose.Cells предоставляет специальный набор кла
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
-// Создать новую книгу и получить первый лист
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-
-// Записать исходные данные: продажи по видам спорта и кварталам
+// Write the source data: sales per sport and quarter
 sheet.Cells["A1"].PutValue("Sport");
 sheet.Cells["B1"].PutValue("Quarter");
 sheet.Cells["C1"].PutValue("Sales");
@@ -66,16 +64,13 @@ sheet.Cells["C7"].PutValue(5000);
 sheet.Cells["A8"].PutValue("Golf");
 sheet.Cells["B8"].PutValue("Qtr3");
 sheet.Cells["C8"].PutValue(6430);
-
-// Добавить сводную таблицу в ячейку назначения E3 на основе A1:C8
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C8", 2, 4);
-
-// Назначить поля сводной таблицы: Sport в строки, Quarter в столбцы, Sales в данные
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Quarter");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
-
-// Сохранить книгу
+// Save the workbook
 workbook.Save("pivotTable_test_out.xlsx");
 ```
 

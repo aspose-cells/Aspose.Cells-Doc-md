@@ -22,7 +22,7 @@ Aspose.Cells は、ピボットテーブルに表示されるデータをフィ�
 3. **値フィルタ** — データフィールドの集計値に基づいてアイテムをフィルタリングします。
 4. **トップ 10 フィルタ** — 値フィールドによってランク付けされた上位または下位 N 個のアイテムのみを表示します。
 5. **ピボットアイテムの非表示 / 再表示** — フィールド内の各アイテムの表示を手動で制御します。
-各アプローチは、`PivotField` クラスの異なるメソッド、または `PivotItem` クラスのプロパティを使用します。フィルタを適用した後、新しいフィルタ状態を反映してキャッシュされたデータと計算値を更新するため、ピボットテーブルで `refreshData()` と `calculateData()` を呼び出す必要があります。
+各アプローチは、`PivotField` クラスの異なるメソッド、または `PivotItem` クラスのプロパティを使用します。フィルタを適用した後、新しいフィルタ状態を反映してキャッシュされたデータと計算値を更新するため、ピボットテーブルで `getPivotCache().refresh()` を呼び出す必要があります。
 
 ## **Label Filter**
 ラベルフィルタを使用すると、行または列フィールドのアイテムを、テキストキャプションとパターンを比較してフィルタリングできます。これは、名前の先頭が特定の文字で始まる製品、特定の単語を含む製品、またはその他のキャプションベースの基準に一致する製品のみを表示する場合に便利です。
@@ -33,19 +33,19 @@ Aspose.Cells は、`PivotField.filterByLabel(PivotFilterType, string)` メソッ
 const AsposeCells = require("aspose.cells.node");
 let fileName = "sample.xlsx";
 let prefix = "B";
-// ピボットテーブルを含む既存のワークブックを読み込む
+// Load the existing workbook containing a pivot table
 let workbook = new AsposeCells.Workbook(fileName);
-// インデックスでワークシートにアクセスする（最初のワークシート）
+// Access the worksheet by index (first worksheet)
 let worksheet = workbook.getWorksheets().get(0);
-// インデックスでピボットテーブルにアクセスする
+// Access the pivot table by index
 let pivotTable = worksheet.getPivotTables().get(0);
-// 最初の行のPivotFieldを取得する
+// Retrieve the first row PivotField
 let rowField = pivotTable.getRowFields().get(0);
-// ラベルフィルターを適用する — 指定された接頭辞で始まるラベルの行項目のみを表示する
+// Apply the label filter — show only row items whose labels begin with the supplied prefix
 rowField.filterByLabel(AsposeCells.PivotFilterType.CaptionBeginsWith, prefix, "");
-// ピボットテーブルのデータを更新して再計算し、フィルターを反映する
+// Refresh and recalculate the pivot table data so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// ワークブックをディスクに保存する
+// Save the workbook back to disk
 workbook.save(fileName);
 ```
 
@@ -67,23 +67,23 @@ if (!fs.existsSync(inputPath))
 {
     throw new Error("Source workbook not found: " + inputPath);
 }
-// ピボットテーブルを含む既存のワークブックを読み込む
+// Load the existing workbook that contains the pivot table
 const workbook = new AsposeCells.Workbook(inputPath);
-// ピボットテーブルを含むワークシートにアクセスする（インデックスで指定）
+// Access the worksheet that holds the pivot table (by index)
 const worksheet = workbook.getWorksheets().get(0);
-// インデックスでピボットテーブルにアクセスする
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// 行エリアから日付の PivotField を取得する
-//（日付フィルターは、行/列エリアに日時セルまたは空白セルのみが含まれている場合にのみ機能します）
+// Retrieve the date PivotField from the row area
+// (Date filter only works when the row/column area contains only date-time cells or blanks)
 const dateField = pivotTable.getRowFields().get(0);
-// Between フィルターの日付条件を指定する
+// Define the date criterion for the Between filter
 const startDate = new Date(2020, 0, 1);
 const endDate = new Date(2020, 11, 31);
-// ピボットフィールドに日付フィルターを適用する
+// Apply the date filter on the pivot field
 dateField.filterByDate(AsposeCells.PivotFilterType.DateBetween, startDate, endDate);
-// ピボットテーブルを更新して再計算し、フィルターを反映する
+// Refresh and recalculate the pivot table so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// ワークブックを保存する
+// Persist the workbook
 workbook.save(outputPath);
 ```
 
@@ -119,32 +119,32 @@ Aspose.Cells は `PivotField.filterTop10(valueFieldIndex, filterType, isTop, ite
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// ピボットテーブルを含む既存のワークブックを読み込む
+// Load the existing workbook that contains the pivot table
 const inputPath = "input.xlsx";
 const outputPath = "output.xlsx";
 const workbook = new AsposeCells.Workbook(inputPath);
-// ピボットテーブルを含むワークシートにアクセスする（インデックス0）
+// Access the worksheet that holds the pivot table (index 0)
 const worksheet = workbook.getWorksheets().get(0);
-// インデックスでピボットテーブルにアクセスする
+// Access the pivot table by index
 const pivotTable = worksheet.getPivotTables().get(0);
-// データエリアに少なくとも1つの値PivotFieldが存在することを確認する
+// Confirm there is at least one value PivotField in the data area
 if (pivotTable.getDataFields().getCount() === 0) {
     throw new Error("Pivot table has no value (data) PivotField.");
 }
 const valueField = pivotTable.getDataFields().get(0);
-// Top 10を適用する対象の行PivotFieldを取得する
+// Retrieve the target row PivotField (the field we want to apply Top 10 on)
 const rowField = pivotTable.getRowFields().get(0);
-// 最初（且唯一の）データFieldはインデックス0にある。Top 10はこれでランク付けされる。
+// The first (and only) data field is at index 0; Top 10 ranks by it.
 const valueFieldIndex = 0;
-// 行FieldにTop 10フィルターを適用する：
+// Apply the Top 10 filter on the row field:
 //   - itemCount   = 10
 //   - filterType  = PivotFilterType.Sum
-//   - isTop       = true（上位N件、falseなら下位N件）
-//   - valueFieldIndex = アイテムのランク付けに使用されるデータFieldのインデックス
+//   - isTop       = true (top N; false would mean bottom N)
+//   - valueFieldIndex = the index of the data field used to rank items
 rowField.filterTop10(valueFieldIndex, AsposeCells.PivotFilterType.Count, true, 10);
-// ピボットテーブルのデータを更新し、再計算してフィルターを反映する
+// Refresh the pivot table data and recalculate it so the filter takes effect
 pivotTable.getPivotCache().refresh();
-// ワークブックを保存する
+// Save the workbook
 workbook.save(outputPath);
 ```
 
@@ -154,34 +154,34 @@ workbook.save(outputPath);
 
 ```javascript
 const AsposeCells = require("aspose.cells.node");
-// ピボットテーブルを含む既存のワークブックを読み込む
+// Load an existing workbook containing a pivot table
 const workbook = new AsposeCells.Workbook("pivot_table_sample.xlsx");
-// ピボットテーブルを含む最初のワークシートにアクセスする
+// Access the first worksheet which contains the pivot table
 const sheet = workbook.getWorksheets().get(0);
-// インデックスでピボットテーブルにアクセスする（シート上の最初のピボットテーブル）
+// Access the pivot table by index (the first pivot table on the sheet)
 const pivotTable = sheet.getPivotTables().get(0);
-// 対象のPivotFieldを取得する（アイテムを非表示/表示する最初の行ラベルフィールド）
+// Retrieve the target PivotField (the first row label field that we'll hide/unhide items in)
 const pivotField = pivotTable.getRowFields().get(0);
-// 選択したPivotFieldのPivotItemsコレクションを反復処理する
+// Iterate through the PivotItems collection of the selected PivotField
 const itemCount = pivotField.getPivotItems().getCount();
 for (let i = 0; i < itemCount; i++)
 {
     const item = pivotField.getPivotItems().get(i);
-    // 特定の名前/条件に一致するピボットアイテムを非表示にする
+    // Hide pivot items that match a specific name/criterion
     if (item.getName() == "Item1" || item.getName() == "Item2")
     {
         item.setIsHidden(true);
     }
-    // 非表示解除のデモ：以前に非表示にしたピボットアイテムを再表示する
+    // Demonstrate unhiding: re-show a previously hidden pivot item
     if (item.getName() == "Item3")
     {
         item.setIsHidden(false);
     }
 }
-// 変更を有効にするためにピボットテーブルを更新して再計算する
+// Refresh and recalculate the pivot table so changes take effect
 pivotTable.getPivotCache().refresh();
-// ワークブックを保存する — 非表示のアイテムは基になるデータに残るが
-// 表示されるピボットテーブルの出力からは除外される
+// Save the workbook — hidden items stay in the underlying data
+// but are excluded from the displayed pivot table output
 workbook.save("output_pivot_filtered.xlsx");
 ```
 

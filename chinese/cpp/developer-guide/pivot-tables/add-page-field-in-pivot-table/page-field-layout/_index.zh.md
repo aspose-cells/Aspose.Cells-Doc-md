@@ -44,68 +44,68 @@ int main() {
     WorksheetCollection worksheets = workbook.GetWorksheets();
     Worksheet pivotDataSheet = worksheets.Add(u"PivotData");
     Cells pivotDataCells = pivotDataSheet.GetCells();
-    // 表头（第0行）
+    // Headers (row 0)
     pivotDataCells.Get(0, 0).PutValue(u"Fruit");
     pivotDataCells.Get(0, 1).PutValue(u"Year");
     pivotDataCells.Get(0, 2).PutValue(u"Region");
     pivotDataCells.Get(0, 3).PutValue(u"Amount");
-    // 第1行：苹果，2022，北方，150
+    // Row 1: Apple, 2022, North, 150
     pivotDataCells.Get(1, 0).PutValue(u"Apple");
     pivotDataCells.Get(1, 1).PutValue(2022);
     pivotDataCells.Get(1, 2).PutValue(u"North");
     pivotDataCells.Get(1, 3).PutValue(150);
-    // 第2行：苹果，2023，北方，180
+    // Row 2: Apple, 2023, North, 180
     pivotDataCells.Get(2, 0).PutValue(u"Apple");
     pivotDataCells.Get(2, 1).PutValue(2023);
     pivotDataCells.Get(2, 2).PutValue(u"North");
     pivotDataCells.Get(2, 3).PutValue(180);
-    // 第3行：香蕉，2022，南方，120
+    // Row 3: Banana, 2022, South, 120
     pivotDataCells.Get(3, 0).PutValue(u"Banana");
     pivotDataCells.Get(3, 1).PutValue(2022);
     pivotDataCells.Get(3, 2).PutValue(u"South");
     pivotDataCells.Get(3, 3).PutValue(120);
-    // 第4行：香蕉，2023，南方，140
+    // Row 4: Banana, 2023, South, 140
     pivotDataCells.Get(4, 0).PutValue(u"Banana");
     pivotDataCells.Get(4, 1).PutValue(2023);
     pivotDataCells.Get(4, 2).PutValue(u"South");
     pivotDataCells.Get(4, 3).PutValue(140);
-    // 第5行：樱桃，2022，东方，200
+    // Row 5: Cherry, 2022, East, 200
     pivotDataCells.Get(5, 0).PutValue(u"Cherry");
     pivotDataCells.Get(5, 1).PutValue(2022);
     pivotDataCells.Get(5, 2).PutValue(u"East");
     pivotDataCells.Get(5, 3).PutValue(200);
-    // 第6行：樱桃，2023，东方，220
+    // Row 6: Cherry, 2023, East, 220
     pivotDataCells.Get(6, 0).PutValue(u"Cherry");
     pivotDataCells.Get(6, 1).PutValue(2023);
     pivotDataCells.Get(6, 2).PutValue(u"East");
     pivotDataCells.Get(6, 3).PutValue(220);
-    // 第7行：葡萄，2022，西方，90
+    // Row 7: Grape, 2022, West, 90
     pivotDataCells.Get(7, 0).PutValue(u"Grape");
     pivotDataCells.Get(7, 1).PutValue(2022);
     pivotDataCells.Get(7, 2).PutValue(u"West");
     pivotDataCells.Get(7, 3).PutValue(90);
-    // 第8行：葡萄，2023，西方，110
+    // Row 8: Grape, 2023, West, 110
     pivotDataCells.Get(8, 0).PutValue(u"Grape");
     pivotDataCells.Get(8, 1).PutValue(2023);
     pivotDataCells.Get(8, 2).PutValue(u"West");
     pivotDataCells.Get(8, 3).PutValue(110);
-    // 添加数据透视表报表工作表
+    // Add PivotTableReport sheet
     Worksheet pivotTableSheet = worksheets.Add(u"PivotTableReport");
     PivotTableCollection pivotTables = pivotTableSheet.GetPivotTables();
-    // 在 PivotTableReport 工作表的 A1 位置创建数据源为 PivotData!A1:D9 的数据透视表
+    // Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
     PivotTable pivotTable = pivotTables.Add(u"PivotData!A1:D9", 0, 0);
-    // 添加字段
-    pivotTable.AddFieldToArea(PivotFieldType::Row, 0);   // 水果
-    pivotTable.AddFieldToArea(PivotFieldType::Page, 1);  // 年份
-    pivotTable.AddFieldToArea(PivotFieldType::Page, 2);  // 地区
-    pivotTable.AddFieldToArea(PivotFieldType::Data, 3);  // 金额
+    // Add fields
+    pivotTable.AddFieldToArea(PivotFieldType::Row, 0);   // Fruit
+    pivotTable.AddFieldToArea(PivotFieldType::Page, 1);  // Year
+    pivotTable.AddFieldToArea(PivotFieldType::Page, 2);  // Region
+    pivotTable.AddFieldToArea(PivotFieldType::Data, 3);  // Amount
     pivotTable.GetDataFields().Get(0).SetFunction(ConsolidationFunction::Sum);
-    // 配置页面字段区域布局：先水平放置页面字段，每2个换行
+    // Configure page field area layout: place page fields across first, wrap after every 2
     pivotTable.SetPageFieldOrder(PrintOrderType::OverThenDown);
     pivotTable.SetPageFieldWrapCount(2);
-    // 刷新并计算
+    // Refresh and calculate
     pivotTable.CalculateData();
-    // 保存
+    // Save
     std::string filePath = dataDir + "/pageFieldLayout_overThenDown.xlsx";
     workbook.Save(U16String(filePath.c_str()));
     Aspose::Cells::Cleanup();

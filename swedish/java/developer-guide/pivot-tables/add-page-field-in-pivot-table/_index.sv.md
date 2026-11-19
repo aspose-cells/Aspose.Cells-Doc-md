@@ -1,6 +1,6 @@
 ---
 title: Lägga till filterfält i en pivottabell i Aspose.Cells for Java
-linktitle: Lägga till filterfält i en pivottabell i Aspose.Cells for Java
+linktitle: Lägg till filterfält
 description: Lär dig hur du lägger till och konfigurerar filterfält i pivottabeller med Aspose.Cells for Java, inklusive att lägga till filterfält, enkelvalfiltrering och flervalsfiltrering.
 keywords: Aspose.Cells, Java, pivottabell, filterfält, PivotFieldType.Page, PageFields, IsMultipleItemSelectionAllowed, CurrentPageItem, PivotItem, IsHidden, filter
 type: docs
@@ -24,15 +24,15 @@ Följande exempel bygger en liten Fruit / Year / Amount-datamängd, placerar en 
 
 ```java
 import com.aspose.cells.*;
-// Skapa en ny arbetsbok
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("Data");
-// Ställ in rubrikraden
+// Set up the header row
 worksheet.getCells().get("A1").putValue("Fruit");
 worksheet.getCells().get("B1").putValue("Year");
 worksheet.getCells().get("C1").putValue("Amount");
-// Fyll i 9 rader med exempeldata: Frukt, År, Belopp
+// Populate 9 rows of sample data: Fruit, Year, Amount
 Object[][] data = new Object[][]
 {
     { "apple", 2020, 100 },
@@ -51,15 +51,15 @@ for (int i = 0; i < data.length; i++)
     worksheet.getCells().get(i + 1, 1).putValue(data[i][1]);
     worksheet.getCells().get(i + 1, 2).putValue(data[i][2]);
 }
-// Lägg till en pivottabell förankrad vid cell E3
+// Add a pivot table anchored at cell E3
 PivotTable pivotTable = worksheet.getPivotTables().add("A1:C10", 2, 4);
-// Lägg till fält i deras områden: Frukt som Rad, Belopp som Data, År som Sidfält
+// Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// Uppdatera och beräkna pivottabellens data
+// Refresh and calculate the pivot table data
 pivotTable.calculateData();
-// Spara arbetsboken
+// Save the workbook
 workbook.save("pageFieldSample.xlsx");
 ```
 
@@ -68,19 +68,19 @@ När du redan arbetar med en `PivotField`-instans kan du skicka den direkt till 
 
 ```java
 import com.aspose.cells.*;
-// - Pivottabellen och sidfältet konstrueras exakt som i
-//   Scenario 1a (Frukt/År/Belopp-data, pivot vid E3, Frukt->Rad,
-//   Belopp->Data). Nedan hämtar vi År PivotField från
-//   BaseFields-samlingen och skickar det till PageFields.Add - det
-//   lågnivåalternativ till AddFieldToArea. Resultatet är
-//   funktionellt identiskt med Scenario 1a.
+// - The pivot table and page field are constructed exactly as in
+//   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit->Row,
+//   Amount->Data). Below we obtain the Year PivotField from the
+//   BaseFields collection and pass it to PageFields.Add - the
+//   low-level alternative to AddFieldToArea. The result is
+//   functionally identical to Scenario 1a.
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
-// Rubriker
+// Headers
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
-// Exempeldata (9 rader)
+// Sample data (9 rows)
 sheet.getCells().get("A2").putValue("apple");    sheet.getCells().get("B2").putValue("2020"); sheet.getCells().get("C2").putValue(100);
 sheet.getCells().get("A3").putValue("apple");    sheet.getCells().get("B3").putValue("2021"); sheet.getCells().get("C3").putValue(150);
 sheet.getCells().get("A4").putValue("apple");    sheet.getCells().get("B4").putValue("2022"); sheet.getCells().get("C4").putValue(200);
@@ -90,16 +90,16 @@ sheet.getCells().get("A7").putValue("grape");    sheet.getCells().get("B7").putV
 sheet.getCells().get("A8").putValue("blueberry"); sheet.getCells().get("B8").putValue("2020"); sheet.getCells().get("C8").putValue(250);
 sheet.getCells().get("A9").putValue("blueberry"); sheet.getCells().get("B9").putValue("2021"); sheet.getCells().get("C9").putValue(350);
 sheet.getCells().get("A10").putValue("blueberry");sheet.getCells().get("B10").putValue("2022"); sheet.getCells().get("C10").putValue(450);
-// Lägg till pivottabell vid E3 som täcker A1:C10
+// Add pivot table at E3 covering A1:C10
 PivotTable pivotTable = sheet.getPivotTables().add("A1:C10", 2, 4);
-// Frukt -> Rad, Belopp -> Data (År kommer att läggas till Sida nedan)
+// Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
-// Lågnivåmetod: hämta det befintliga År PivotField från BaseFields
-// och registrera det i Sid-området via PageFields.Add(PivotField).
+// Low-level approach: grab the existing Year PivotField from BaseFields
+// and register it in the Page area via PageFields.Add(PivotField).
 PivotField yearField = pivotTable.getBaseFields().get("Year");
 pivotTable.getPageFields().add(yearField);
-// Uppdatera så att det nya sidfältet återspeglas i den sparade arbetsboken
+// Refresh so the new page field is reflected in the saved workbook
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -114,7 +114,7 @@ Att sätta `CurrentPageItem` till det magiska värdet `0x7FFD` är likvärdigt m
 import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
-// Fylla i Frukt/År/Belopp-data
+// Populate Fruit/Year/Amount data
 sheet.getCells().get("A1").putValue("Fruit");
 sheet.getCells().get("B1").putValue("Year");
 sheet.getCells().get("C1").putValue("Amount");
@@ -134,17 +134,17 @@ for (int r = 0; r < data.length; r++)
         sheet.getCells().get(r + 1, c).putValue(data[r][c]);
     }
 }
-// Skapa pivottabell vid E3
+// Create pivot table at E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
 PivotTable pivot = pivotTables.add("=A1:C7", 2, 4);
-// Konfigurera pivotfält: Frukt till Rad, Belopp till Data, År till Sida
+// Configure pivot fields: Fruit to Row, Amount to Data, Year to Page
 pivot.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivot.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivot.addFieldToArea(PivotFieldType.PAGE, "Year");
 pivot.calculateData();
-// Rensa sidfiltret så att varje objekt i sidfältet visas.
-// 0x7FFD (decimal 32765) är det speciella sentinelvärdet som betyder "alla objekt",
-// motsvarande att välja "(Alla)" i Excels sidfält-rullmeny.
+// Clear the page filter so every item in the page field is visible.
+// 0x7FFD (decimal 32765) is the special sentinel value that means "all items",
+// equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivot.getPageFields().get(0).setCurrentPageItem((short)0x7FFD);
 workbook.save("output.xlsx");
 ```
@@ -154,11 +154,11 @@ Att sätta `CurrentPageItem` till ett verkligt index väljer bara det ena filter
 
 ```java
 import com.aspose.cells.*;
-// Skapa arbetsbok
+// Create workbook
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-// Lägg till exempeldata (Fruit/Year/Amount)
+// Add sample data (Fruit/Year/Amount)
 cells.get("A1").putValue("Fruit");
 cells.get("B1").putValue("Year");
 cells.get("C1").putValue("Amount");
@@ -174,16 +174,16 @@ cells.get("C4").putValue("200");
 cells.get("A5").putValue("Banana");
 cells.get("B5").putValue("2021");
 cells.get("C5").putValue("250");
-// Lägg till pivottabell vid E3
+// Add pivot table at E3
 PivotTableCollection pivotTables = sheet.getPivotTables();
 PivotTable pivotTable = pivotTables.add("A1:C5", 2, 4);
-// Lägg till fält: Fruit→Rad, Amount→Data, Year→Sida
+// Add fields: Fruit→Row, Amount→Data, Year→Page
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// Sidfältsspecifika operationer
-pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = andra objektet i sorterad ordning (t.ex. "2021")
-// Uppdatera och beräkna pivottabell
+// Page-field-specific operations
+pivotTable.getPageFields().get(0).setCurrentPageItem((short) 1); // 1 = second item in sorted order (e.g. "2021")
+// Refresh and calculate pivot table
 pivotTable.calculateData();
 workbook.save("output.xlsx");
 ```
@@ -196,7 +196,7 @@ import com.aspose.cells.*;
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.getWorksheets().get(0);
 Cells cells = sheet.getCells();
-// Exempeldata: Frukt | År | Belopp
+// Sample data: Fruit | Year | Amount
 cells.get(0, 0).putValue("Fruit");
 cells.get(0, 1).putValue("Year");
 cells.get(0, 2).putValue("Amount");
@@ -224,15 +224,15 @@ PivotTable pivotTable = pivots.add("A1:C10", 2, 4);
 pivotTable.addFieldToArea(PivotFieldType.ROW, "Fruit");
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Amount");
 pivotTable.addFieldToArea(PivotFieldType.PAGE, "Year");
-// -- Aktivera flerval på sidfältet
+// -- Enable multi-select on the page field
 pivotTable.getPageFields().get(0).setMultipleItemSelectionAllowed(true);
-// Del A -- välj ALLA objekt (gör alla objekt synliga)
+// Part A -- select ALL items (make every item visible)
 PivotItemCollection pivotItems = pivotTable.getPageFields().get(0).getPivotItems();
 for (int i = 0; i < pivotItems.getCount(); i++)
 {
     pivotItems.get(i).setHidden(false);
 }
-// Del B -- välj endast specifika objekt efter källvärde
+// Part B -- select only specific items by source value
 for (int i = 0; i < pivotItems.getCount(); i++)
 {
     switch (pivotItems.get(i).getStringValue())

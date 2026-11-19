@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via Java 中的迷你图
-linktitle: Aspose.Cells for Node.js via Java 中的迷你图
+linktitle: 迷你图
 description: Aspose.Cells 是一个用于处理电子表格文件的 Node.js via Java 库，支持创建迷你图——放置在工作表单元格中的微型图表。本文介绍如何使用 Aspose.Cells 库添加和自定义折线、柱形和盈亏迷你图。
 keywords: Aspose.Cells, Node.js via Java 库, 电子表格, 迷你图, 折线迷你图, 柱形迷你图, 盈亏迷你图, SparklineGroup, SparklineType
 type: docs
@@ -34,30 +34,30 @@ const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 let cells = worksheet.getCells();
-// 步骤 2：将示例值 5、-3、8、-2、6 写入单元格 A1:E1
+// Step 2: Write sample values 5, -3, 8, -2, 6 into cells A1:E1
 cells.get("A1").putValue(5);
 cells.get("B1").putValue(-3);
 cells.get("C1").putValue(8);
 cells.get("D1").putValue(-2);
 cells.get("E1").putValue(6);
-// 步骤 3：构建一个指向目标单元格 F1 的 CellArea
+// Step 3: Build a CellArea pointing to destination cell F1
 let dest = new AsposeCells.CellArea();
-dest.StartColumn = 5;   // 列 F（从 0 开始索引）
+dest.StartColumn = 5;   // column F (0-indexed)
 dest.EndColumn = 5;
-dest.StartRow = 0;      // 行 1（从 0 开始索引）
+dest.StartRow = 0;      // row 1 (0-indexed)
 dest.EndRow = 0;
-// 步骤 4：从 A1:E1 添加一个折线迷你图到 F1
-// SparklineGroups.Add 返回新添加组的索引
+// Step 4: Add a Line sparkline from A1:E1 into F1
+// SparklineGroups.Add returns the index of the newly added group
 let index = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(index);
-// 步骤 5：创建一个红色 CellsColor 并将其分配给迷你图线条颜色
+// Step 5: Create a red CellsColor and assign it to the sparkline line color
 let red = workbook.createCellsColor();
 red.setColor(AsposeCells.Color.fromArgb(255, 0, 0));
 group.setSeriesColor(red);
-// 步骤 6：启用高点标记和低点标记
+// Step 6: Enable high-point and low-point markers
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
-// 步骤 7：保存工作簿
+// Step 7: Save the workbook
 workbook.save("output_line.xlsx");
 ```
 
@@ -75,24 +75,24 @@ workbook.save("output_line.xlsx");
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// 步骤 2：将示例值写入 A1:E1
+// Step 2: Write sample values into A1:E1
 let values = [5, -3, 8, -2, 6];
 for (let i = 0; i < values.length; i++) {
     worksheet.getCells().get(0, i).putValue(values[i]);
 }
-// 步骤 3：构建一个指向 F1 的 CellArea（列索引 5，行索引 0）
+// Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 let dest = new AsposeCells.CellArea();
 dest.StartColumn = 5;
 dest.EndColumn = 5;
 dest.StartRow = 0;
 dest.EndRow = 0;
-// 步骤 4：在目标单元格中添加一个 Column 迷你图
+// Step 4: Add a Column sparkline to the destination cell
 let idx = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.COLUMN, "A1:E1", false, dest);
 let group = worksheet.getSparklineGroups().get(idx);
-// 步骤 5：通过读取 group.Type 确认迷你图类型
+// Step 5: Confirm the sparkline type by reading group.Type
 console.log("Sparkline Type added: " + group.getType());
-// 步骤 6：保存工作簿
+// Step 6: Save the workbook
 workbook.save("output_column.xlsx");
 console.log("Workbook saved as output_column.xlsx");
 ```
@@ -112,19 +112,19 @@ const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
 worksheet.setName("WinLoss");
-// 步骤 2：在第 1 行填充示例数据：A1=5, B1=-3, C1=8, D1=-2, E1=6
+// Step 2: Populate sample data in row 1: A1=5, B1=-3, C1=8, D1=-2, E1=6
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// 步骤 3：构建一个指向 F1（列 5，行 0）的 CellArea
+// Step 3: Build a CellArea pointing to F1 (column 5, row 0)
 let dest = new AsposeCells.CellArea();
 dest.StartColumn = 5;   // F
 dest.EndColumn = 5;
-dest.StartRow = 0;      // 第 1 行
+dest.StartRow = 0;      // row 1
 dest.EndRow = 0;
-// 步骤 4：添加 Win/Loss 迷你图（SparklineType.STACKED）
+// Step 4: Add a Win/Loss sparkline (SparklineType.STACKED)
 let groupIndex = worksheet.getSparklineGroups().add(
     AsposeCells.SparklineType.STACKED,
     "A1:E1",
@@ -132,28 +132,28 @@ let groupIndex = worksheet.getSparklineGroups().add(
     dest
 );
 let group = worksheet.getSparklineGroups().get(groupIndex);
-// 步骤 5：自定义迷你图组
-// 启用最高点和最低点标记
+// Step 5: Customize the sparkline group
+// Enable high-point and low-point markers
 group.setShowHighPoint(true);
 group.setShowLowPoint(true);
 group.setShowNegativePoints(true);
-// 将最高点颜色设置为绿色
+// Set the high-point color to green
 let highColor = workbook.createCellsColor();
 highColor.setColor(AsposeCells.Color.getGreen());
 group.setHighPointColor(highColor);
-// 将最低点颜色设置为红色
+// Set the low-point color to red
 let lowColor = workbook.createCellsColor();
 lowColor.setColor(AsposeCells.Color.getRed());
 group.setLowPointColor(lowColor);
-// 将负点颜色设置为橙色
+// Set the negative-point color to orange
 let negColor = workbook.createCellsColor();
 negColor.setColor(AsposeCells.Color.getOrange());
 group.setNegativePointsColor(negColor);
-// 设置默认系列颜色（用于正值柱）
+// Set the default series color (used for positive bars)
 let seriesColor = workbook.createCellsColor();
 seriesColor.setColor(AsposeCells.Color.getSteelBlue());
 group.setSeriesColor(seriesColor);
-// 步骤 6：保存工作簿
+// Step 6: Save the workbook
 workbook.save("output_winloss.xlsx");
 console.log("Workbook saved successfully: output_winloss.xlsx");
 ```
@@ -165,13 +165,13 @@ console.log("Workbook saved successfully: output_winloss.xlsx");
 const AsposeCells = require("aspose.cells");
 let workbook = new AsposeCells.Workbook();
 let worksheet = workbook.getWorksheets().get(0);
-// 步骤 2：在第 1 行 (A1:E1) 中填充示例数据
+// Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.getCells().get("A1").putValue(5);
 worksheet.getCells().get("B1").putValue(-3);
 worksheet.getCells().get("C1").putValue(8);
 worksheet.getCells().get("D1").putValue(-2);
 worksheet.getCells().get("E1").putValue(6);
-// 步骤 3：在 F1 处添加一个折线迷你图组
+// Step 3: Add a Line sparkline group at F1
 let lineArea = new AsposeCells.CellArea();
 lineArea.StartColumn = 5;
 lineArea.EndColumn = 5;
@@ -179,11 +179,11 @@ lineArea.StartRow = 0;
 lineArea.EndRow = 0;
 let lineIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.LINE, "A1:E1", false, lineArea);
 let lineGroup = worksheet.getSparklineGroups().get(lineIdx);
-// 通过 CellsColor 自定义折线迷你图的颜色
+// Customize the line sparkline color via CellsColor
 let lineColor = workbook.createCellsColor();
 lineColor.setColor(AsposeCells.Color.getBlue());
 lineGroup.setSeriesColor(lineColor);
-// 步骤 4：在 F2 处添加一个柱形迷你图组
+// Step 4: Add a Column sparkline group at F2
 let columnArea = new AsposeCells.CellArea();
 columnArea.StartColumn = 5;
 columnArea.EndColumn = 5;
@@ -191,11 +191,11 @@ columnArea.StartRow = 1;
 columnArea.EndRow = 1;
 let columnIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.COLUMN, "A1:E1", false, columnArea);
 let columnGroup = worksheet.getSparklineGroups().get(columnIdx);
-// 自定义柱形迷你图系列的颜色
+// Customize the column sparkline series color
 let columnColor = workbook.createCellsColor();
 columnColor.setColor(AsposeCells.Color.getGreen());
 columnGroup.setSeriesColor(columnColor);
-// 步骤 5：在 F3 处添加一个涨跌（堆叠）迷你图组
+// Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 let stackedArea = new AsposeCells.CellArea();
 stackedArea.StartColumn = 5;
 stackedArea.EndColumn = 5;
@@ -203,11 +203,11 @@ stackedArea.StartRow = 2;
 stackedArea.EndRow = 2;
 let stackedIdx = worksheet.getSparklineGroups().add(AsposeCells.SparklineType.STACKED, "A1:E1", false, stackedArea);
 let stackedGroup = worksheet.getSparklineGroups().get(stackedIdx);
-// 自定义涨跌迷你图系列的颜色
+// Customize the win/loss sparkline series color
 let stackedColor = workbook.createCellsColor();
 stackedColor.setColor(AsposeCells.Color.getDarkOrange());
 stackedGroup.setSeriesColor(stackedColor);
-// 步骤 6：保存工作簿
+// Step 6: Save the workbook
 workbook.save("output_all.xlsx");
 ```
 

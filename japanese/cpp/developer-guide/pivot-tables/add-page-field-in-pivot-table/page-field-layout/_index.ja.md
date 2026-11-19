@@ -53,68 +53,68 @@ int main() {
     WorksheetCollection worksheets = workbook.GetWorksheets();
     Worksheet pivotDataSheet = worksheets.Add(u"PivotData");
     Cells pivotDataCells = pivotDataSheet.GetCells();
-    // ヘッダー（0行目）
+    // Headers (row 0)
     pivotDataCells.Get(0, 0).PutValue(u"Fruit");
     pivotDataCells.Get(0, 1).PutValue(u"Year");
     pivotDataCells.Get(0, 2).PutValue(u"Region");
     pivotDataCells.Get(0, 3).PutValue(u"Amount");
-    // 1行目: りんご、2022、北、150
+    // Row 1: Apple, 2022, North, 150
     pivotDataCells.Get(1, 0).PutValue(u"Apple");
     pivotDataCells.Get(1, 1).PutValue(2022);
     pivotDataCells.Get(1, 2).PutValue(u"North");
     pivotDataCells.Get(1, 3).PutValue(150);
-    // 2行目: りんご、2023、北、180
+    // Row 2: Apple, 2023, North, 180
     pivotDataCells.Get(2, 0).PutValue(u"Apple");
     pivotDataCells.Get(2, 1).PutValue(2023);
     pivotDataCells.Get(2, 2).PutValue(u"North");
     pivotDataCells.Get(2, 3).PutValue(180);
-    // 3行目: バナナ、2022、南、120
+    // Row 3: Banana, 2022, South, 120
     pivotDataCells.Get(3, 0).PutValue(u"Banana");
     pivotDataCells.Get(3, 1).PutValue(2022);
     pivotDataCells.Get(3, 2).PutValue(u"South");
     pivotDataCells.Get(3, 3).PutValue(120);
-    // 4行目: バナナ、2023、南、140
+    // Row 4: Banana, 2023, South, 140
     pivotDataCells.Get(4, 0).PutValue(u"Banana");
     pivotDataCells.Get(4, 1).PutValue(2023);
     pivotDataCells.Get(4, 2).PutValue(u"South");
     pivotDataCells.Get(4, 3).PutValue(140);
-    // 5行目: さくらんぼ、2022、東、200
+    // Row 5: Cherry, 2022, East, 200
     pivotDataCells.Get(5, 0).PutValue(u"Cherry");
     pivotDataCells.Get(5, 1).PutValue(2022);
     pivotDataCells.Get(5, 2).PutValue(u"East");
     pivotDataCells.Get(5, 3).PutValue(200);
-    // 6行目: さくらんぼ、2023、東、220
+    // Row 6: Cherry, 2023, East, 220
     pivotDataCells.Get(6, 0).PutValue(u"Cherry");
     pivotDataCells.Get(6, 1).PutValue(2023);
     pivotDataCells.Get(6, 2).PutValue(u"East");
     pivotDataCells.Get(6, 3).PutValue(220);
-    // 7行目: ぶどう、2022、西、90
+    // Row 7: Grape, 2022, West, 90
     pivotDataCells.Get(7, 0).PutValue(u"Grape");
     pivotDataCells.Get(7, 1).PutValue(2022);
     pivotDataCells.Get(7, 2).PutValue(u"West");
     pivotDataCells.Get(7, 3).PutValue(90);
-    // 8行目: ぶどう、2023、西、110
+    // Row 8: Grape, 2023, West, 110
     pivotDataCells.Get(8, 0).PutValue(u"Grape");
     pivotDataCells.Get(8, 1).PutValue(2023);
     pivotDataCells.Get(8, 2).PutValue(u"West");
     pivotDataCells.Get(8, 3).PutValue(110);
-    // PivotTableReportシートを追加
+    // Add PivotTableReport sheet
     Worksheet pivotTableSheet = worksheets.Add(u"PivotTableReport");
     PivotTableCollection pivotTables = pivotTableSheet.GetPivotTables();
-    // PivotData!A1:D9をデータ元としてPivotTableReportのA1に配置するピボットテーブルを作成
+    // Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
     PivotTable pivotTable = pivotTables.Add(u"PivotData!A1:D9", 0, 0);
-    // フィールドを追加
-    pivotTable.AddFieldToArea(PivotFieldType::Row, 0);   // フルーツ
-    pivotTable.AddFieldToArea(PivotFieldType::Page, 1);  // 年
-    pivotTable.AddFieldToArea(PivotFieldType::Page, 2);  // 地域
-    pivotTable.AddFieldToArea(PivotFieldType::Data, 3);  // 金額
+    // Add fields
+    pivotTable.AddFieldToArea(PivotFieldType::Row, 0);   // Fruit
+    pivotTable.AddFieldToArea(PivotFieldType::Page, 1);  // Year
+    pivotTable.AddFieldToArea(PivotFieldType::Page, 2);  // Region
+    pivotTable.AddFieldToArea(PivotFieldType::Data, 3);  // Amount
     pivotTable.GetDataFields().Get(0).SetFunction(ConsolidationFunction::Sum);
-    // ページフィールド領域のレイアウトを構成：ページフィールドを横に配置し、2個ごとに改行
+    // Configure page field area layout: place page fields across first, wrap after every 2
     pivotTable.SetPageFieldOrder(PrintOrderType::OverThenDown);
     pivotTable.SetPageFieldWrapCount(2);
-    // 更新して計算
+    // Refresh and calculate
     pivotTable.CalculateData();
-    // 保存
+    // Save
     std::string filePath = dataDir + "/pageFieldLayout_overThenDown.xlsx";
     workbook.Save(U16String(filePath.c_str()));
     Aspose::Cells::Cleanup();

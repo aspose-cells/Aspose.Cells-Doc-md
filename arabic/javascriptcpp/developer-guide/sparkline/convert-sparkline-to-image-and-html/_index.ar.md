@@ -54,17 +54,17 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
             console.log("Aspose.Cells initialized");
         });
         document.getElementById('runExample').addEventListener('click', async () => {
-            // إنشاء مصنف جديد والوصول إلى ورقة العمل الأولى
+            // Create a new workbook and access the first worksheet
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             const cells = worksheet.cells;
-            // ملء بيانات العينة في الخلايا A1:E1
+            // Populate sample data in cells A1:E1
             cells.get("A1").value = 5;
             cells.get("B1").value = -3;
             cells.get("C1").value = 8;
             cells.get("D1").value = -2;
             cells.get("E1").value = 6;
-            // إضافة مجموعة Sparkline من النوع Line مثبتة عند F1 (العمود 5، الصف 0)
+            // Add a Line sparkline group anchored at F1 (column 5, row 0)
             const lineArea = new CellArea();
             lineArea.startColumn = 5;
             lineArea.endColumn = 5;
@@ -76,7 +76,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
                 false,
                 lineArea
             );
-            // إضافة مجموعة Sparkline من النوع Column مثبتة عند G1 (العمود 6، الصف 0)
+            // Add a Column sparkline group anchored at G1 (column 6, row 0)
             const columnArea = new CellArea();
             columnArea.startColumn = 6;
             columnArea.endColumn = 6;
@@ -88,7 +88,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
                 false,
                 columnArea
             );
-            // إضافة مجموعة Sparkline من النوع Win/Loss (Stacked) مثبتة عند H1 (العمود 7، الصف 0)
+            // Add a Win/Loss (Stacked) sparkline group anchored at H1 (column 7, row 0)
             const stackedArea = new CellArea();
             stackedArea.startColumn = 7;
             stackedArea.endColumn = 7;
@@ -100,7 +100,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
                 false,
                 stackedArea
             );
-            // configuring image options for PNG output
+            // Configure image options for PNG output
             const imageOptions = new ImageOrPrintOptions();
             imageOptions.imageType = AsposeCells.ImageType.Png;
             // Convert the Line sparkline to image and embed it in cell F2

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for Node.js via C++'te PivotTable'a satır ve sütun alanları ekleme
-linktitle: Aspose.Cells for Node.js via C++'te PivotTable'a satır ve sütun alanları ekleme
+linktitle: Satır ve Sütun Alanları
 description: Learn how to add base fields to the row and column regions of a pivot table and control pivot field subtotals using PivotField.setSubtotals in Aspose.Cells for Node.js via C++
 keywords: Aspose.Cells, Node.js, C++, pivot tablosu, satır alanı, sütun alanı, PivotField, SetSubtotals, PivotFieldSubtotalType, alt toplamlar
 type: docs

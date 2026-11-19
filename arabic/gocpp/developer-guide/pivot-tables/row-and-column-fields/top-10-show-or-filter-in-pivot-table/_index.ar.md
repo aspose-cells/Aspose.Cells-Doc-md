@@ -1,8 +1,8 @@
 ---
-title: عرض أو تصفية أعلى 10 في الجدول المحوري
-linktitle: عرض أو تصفية أعلى 10 في الجدول المحوري
-description: تعلّم كيفية عرض أفضل 10 عناصر أو أسوأ 10 عناصر فقط من حقل في الجدول المحوري في Aspose.Cells for Go via C++. تتناول هذه المقالة إعدادات العرض التلقائي AutoShow في Excel 97-2003 (SetIsAutoShow والدوال المرتبطة بها)، وقراءة هذه الخيارات، وتصفية أعلى 10 في Excel 2007-365 عبر FilterTop10.
-keywords: Aspose.Cells, Go via C++, جدول محوري, أعلى 10, العرض التلقائي, SetIsAutoShow, SetIsAscendShow, SetAutoShowCount, SetAutoShowField, FilterTop10, PivotFilterType, PivotField, Go
+title: أعلى 10 إظهار أو تصفية في جدول محوري
+linktitle: أعلى 10 إظهار أو تصفية في جدول محوري
+description: تعلم كيفية إظهار العناصر الأعلى أو الأدنى ترتيبًا في حقل محوري في Aspose.Cells for Go via C++. تغطي هذه المقالة طريقة Excel 97‑2003 Top10AutoShow، قراءة الخيارات باستخدام Top10AutoShowSettings، وفلتر Excel 2007‑365 أعلى 10 عبر FilterTop10.
+keywords: Aspose.Cells, Go via C++, جدول محوري, أعلى 10, العرض التلقائي, Top10AutoShow, GetTop10AutoShowSettings, PivotFieldTop10AutoShowSettings, FilterTop10, PivotFilterType, PivotField, Go
 type: docs
 weight: 20
 url: /ar/go-cpp/top-10-show-or-filter-in-pivot-table/
@@ -11,20 +11,21 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **سيناريوهات الاستخدام المحتملة**
-قد يصعب قراءة جدول محوري يسرد جميع عناصر حقل صف إذا كان الحقل يحتوي على عشرات العناصر. لا يعرض تقرير أعلى 10 سوى العناصر الأعلى أو الأدنى تصنيفًا، وهو ما تحتاج إليه تقارير الترتيب تحديدًا — «أفضل 5 منتجات حسب الإيرادات» أو «أسفل 3 مناطق حسب عدد المبيعات». تدعم Aspose.Cells آليتين لهذا الغرض، وتتطابقان مع جيلين من إصدارات Microsoft Excel.
-- **العرض التلقائي `AutoShow` في Excel 97-2003** — دوال التعيين الأربعة الموجودة في `PivotField`، وهي `SetIsAutoShow` و`SetIsAscendShow` و`SetAutoShowCount` و`SetAutoShowField`. هذا هو الإعداد الكلاسيكي «اعرض أعلى N عناصر/أسفل N عناصر»، ويُخزَّن مباشرةً في حقل الجدول المحوري. يعمل في جميع إصدارات Excel، القديمة والجديدة، لأنه جزء من تنسيق الجداول المحورية الأصلي.
-- **تصفية أعلى 10 في Excel 2007-365** — طريقة `PivotField.FilterTop10()`. هذا هو مرشح القيم الحديث الموجود ضمن مرشحات القيم في قائمة الحقل. يُخزَّن في صورة كائن `PivotFilter` مرتبط بالحقل، ويوفر ترتيبًا قائمًا على عدد العناصر أو النسبة المئوية.
+قد يكون جدولًا محوريًا يعرض كل عنصر من حقل الصف صعب القراءة عندما يحتوي الحقل على عشرات الأعضاء. تقرير أعلى 10 يحتفظ فقط بأعلى أو أدنى العناصر ترتيبًا، وهو ما تحتاجه تقارير الترتيب — “أعلى 5 منتجات حسب الإيرادات” أو “أدنى 3 مناطق حسب عدد المبيعات”. يدعم Aspose.Cells آليتين لهذه الميزة، وهما تمثيلان لجيلين من Microsoft Excel.
+- **Excel 97‑2003 AutoShow** — طريقة `PivotField.Top10AutoShow()`. هذه هي الإعداد الكلاسيكي “إظهار أعلى/أدنى N عناصر” المخزن مباشرة على حقل Pivot. يعمل في كل إصدارات Excel، القديمة والجديدة، لأنه جزء من تنسيق جدول Pivot الأصلي.
+- **Excel 2007‑365 Top 10 Filter** — طريقة `PivotField.FilterTop10()`. هذا هو مرشح القيمة أعلى 10 الحديث الموجود ضمن قائمة مرشحات القيمة في حقل القائمة. يُخزن ككائن `PivotFilter` مرتبط بالحقل ويوفر ترتيبات قائمة حسب عدد العناصر أو النسبة المئوية.
 
-## **عرض أعلى 10 في Excel 97-2003 (`AutoShow`)**
-يُهيأ العرض التلقائي `AutoShow` الكلاسيكي بأربعة استدعاءات لدوال التعيين في `PivotField`:
-- `SetIsAutoShow(bool)` — يتيح إعداد العرض التلقائي `AutoShow` على الحقل أو يعطله.
-- `SetIsAscendShow(bool)` — قيمة `false` تحتفظ بالعناصر الأعلى تصنيفًا (الأعلى)، بينما قيمة `true` تحتفظ بالعناصر الأدنى (الأسفل).
-- `SetAutoShowCount(int32)` — عدد العناصر التي يجب الاحتفاظ بها، مثل 10 لتقرير أعلى 10 كلاسيكي.
-- `SetAutoShowField(int32)` — الفهرس الذي يبدأ من الصفر لحقل **البيانات** الذي تُرتَّب العناصر وفق قيمه. مرِّر -1 لترتيب العناصر حسب الحقل نفسه.
-يمكن أن يعتمد الترتيب على حقل قيمة أو على الحقل نفسه. وهناك خياران طبيعيان، يوضحهما المثالان أدناه.
+## **إظهار أعلى 10 في Excel 97‑2003 (Top10AutoShow)**
+يتم تكوين AutoShow الكلاسيكي باستدعاء واحد للطريقة `PivotField.Top10AutoShow(isAutoShow bool, isTop bool, count int32, rankBy int32)`:
+- `isAutoShow` — يفعّل أو يعطل إعداد AutoShow على الحقل.
+- `isTop` — `true` يبقي العناصر ذات الترتيب الأعلى (Top)، `false` يبقي الأقل (Bottom).
+- `count` — عدد العناصر التي سيتم الاحتفاظ بها، على سبيل المثال 10 لتقرير أعلى 10 كلاسيكي.
+- `rankBy` — الفهرس الصفري **لحقل البيانات** الذي تُرتّب قيمه العناصر. مرّر -1 لترتيب العناصر حسب الحقل نفسه.
 
-### **الترتيب حسب حقل قيمة**
-رتّب عناصر حقل الصف باستخدام حقل قيمة عادي مثل «مجموع المبيعات». ينشئ المثال التالي جدولًا محوريًا بحقل صف واحد (`Sport`) وحقل بيانات واحد (`Sales`)، ثم يعرض أعلى رياضتين حسب المبيعات. وتكون قيمة `rankBy` هي 0 لأن «مجموع المبيعات» هو حقل البيانات الموجود عند الفهرس 0.
+يمكن أن يتم الترتيب بناءً على حقل قيمة أو حسب الحقل نفسه. يوجد نوعان طبيعيان، موضحان أدناه.
+
+### **الترتيب حسب حقل القيمة**
+ترتيب عناصر حقل الصف حسب حقل قيمة عادي مثل مجموع المبيعات. المثال التالي يبني جدولًا محوريًا بحقل صف واحد (`Sport`) وحقل بيانات واحد (`Sales`)، ثم يُظهر أعلى 2 رياضات حسب المبيعات. `rankBy` هو 0 لأن “Sum of Sales” هو حقل البيانات عند الفهرس 0.
 
 ```go
 package main
@@ -63,18 +64,15 @@ func main() {
 	pivotTable.CalculateData()
 	rowFields, _ := pivotTable.GetRowFields()
 	sportField, _ := rowFields.Get_Int(0)
-	// عرض أفضل عنصرين مرتبين حسب "مجموع المبيعات" (فهرس حقل البيانات 0)
-	sportField.SetIsAutoShow(true)
-	sportField.SetIsAscendShow(false)
-	sportField.SetAutoShowCount(int32(2))
-	sportField.SetAutoShowField(int32(0))
+	// Show the top 2 items ranked by "Sum of Sales" (data field index 0)
+	sportField.Top10AutoShow(true, true, 2, 0)
 	pivotTable.CalculateData()
 	workbook.Save_String("output-top10-by-value-field.xlsx")
 }
 ```
 
 ### **الترتيب حسب الحقل نفسه**
-يمكن أيضًا استخدام الحقل نفسه لترتيب عناصره — مرِّر -1 إلى `SetAutoShowField`. لا يلزم وجود حقل بيانات إضافي لهذا الخيار؛ يكفي أن يكون الحقل في منطقة الصفوف (أو الأعمدة). يعرض المثال التالي أدنى 3 رياضات مرتبة حسب الحقل نفسه. عند حفظ هذا الإعداد، لا تُدرج سمة `rankBy` في XML للجدول المحوري لأن -1 هي القيمة الافتراضية للتنسيق، وتعيد `GetAutoShowField()` إرجاع -1.
+يمكن أيضًا ترتيب الحقل بنفسه — مرّر -1 إلى `rankBy`. لا يحتاج هذا النوع إلى حقل بيانات إضافي؛ يكفي أن يكون الحقل موجودًا في منطقة الصف (أو العمود). المثال التالي يُظهر أدنى 3 رياضات مرتبة حسب الحقل نفسه. عند حفظ هذا الإعداد، يُحذف سمة `rankBy` من XML جدول Pivot لأن -1 هو القيمة الافتراضية للتنسيق، وتُعيد `GetRankBy()` القيمة -1.
 
 ```go
 package main
@@ -113,18 +111,15 @@ func main() {
 	pivotTable.CalculateData()
 	rowFields, _ := pivotTable.GetRowFields()
 	sportField, _ := rowFields.Get_Int(0)
-	// إظهار آخر 3 عناصر مرتبة حسب الحقل نفسه (rankBy = -1)
-	sportField.SetIsAutoShow(true)
-	sportField.SetIsAscendShow(true)
-	sportField.SetAutoShowCount(3)
-	sportField.SetAutoShowField(-1)
+	// Show the bottom 3 items ranked by the field itself (rankBy = -1)
+	sportField.Top10AutoShow(true, false, 3, -1)
 	pivotTable.CalculateData()
 	workbook.Save_String("output-top10-by-field-itself.xlsx")
 }
 ```
 
-## **قراءة خيارات العرض التلقائي `AutoShow` الحالية**
-تتيح دوال القراءة في `PivotField`، وهي `IsAutoShow()` و`IsAscendShow()` و`GetAutoShowCount()` و`GetAutoShowField()`، الوصول إلى خيارات العرض التلقائي `AutoShow` المخزنة حاليًا في الحقل. استخدمها لفحص طريقة عرض العناصر في مصنف موجود أو في جدول محوري قمت بتهيئته للتو، بما في ذلك المصنفات المحمّلة من الملفات.
+## **قراءة خيارات AutoShow الحالية**
+تُعيد الطريقة `PivotField.GetTop10AutoShowSettings()` كائن `PivotFieldTop10AutoShowSettings` يُظهر خيارات AutoShow المخزَّنة حالياً على الحقل. استخدمه لتفحص كيف سيعرض مصنف موجود مسبقًا، أو جدول Pivot قمت بتهيئته لتوًّا، العناصر الخاصة به — بما في ذلك المصنفات المحمَّلة من ملف.
 
 ```go
 package main
@@ -140,36 +135,37 @@ func main() {
 	pivotTable, _ := pivotTables.Get_Int(0)
 	rowFields, _ := pivotTable.GetRowFields()
 	sportField, _ := rowFields.Get_Int(0)
-	isAutoShow, _ := sportField.IsAutoShow()
-	isAscendShow, _ := sportField.IsAscendShow()
-	autoShowCount, _ := sportField.GetAutoShowCount()
-	autoShowField, _ := sportField.GetAutoShowField()
+	settings, _ := sportField.GetTop10AutoShowSettings()
+	isAutoShow, _ := settings.IsAutoShow()
+	isTop, _ := settings.IsTop()
+	autoShowCount, _ := settings.GetAutoShowCount()
+	rankBy, _ := settings.GetRankBy()
 	direction := "Bottom"
-	if !isAscendShow {
+	if isTop {
 		direction = "Top"
 	}
 	fmt.Println("AutoShow enabled:", isAutoShow)
 	fmt.Println("Direction:", direction)
 	fmt.Println("Item count:", autoShowCount)
-	fmt.Println("Ranking data field index:", autoShowField)
+	fmt.Println("Ranking data field index:", rankBy)
 }
 ```
 
-تطابق دوال القراءة الأربع سمات العرض التلقائي الكلاسيكية المكتوبة في XML للجدول المحوري (`autoShow` و`topAutoShow` و`itemPageCount` و`rankBy`)، لذا تكون القيم المقروءة هي القيم التي ستدعمها جميع إصدارات Excel.
+تُطابق الإعدادات سمات AutoShow الكلاسيكية المكتوبة في XML جدول Pivot (`autoShow`, `topAutoShow`, `itemPageCount`, `rankBy`)، لذا القيم المرتجعة هي القيم التي سيُحترمها كل إصدار من Excel.
 
 ## **ملاحظة**
 
 {{% alert color="primary" %}}
-- بعد تغيير أي من دوال التعيين الخاصة بـ `AutoShow`، استدعِ `PivotTable.CalculateData()` مجددًا — لا تسري الإعدادات إلا في التخطيط المعروض عند إجراء عملية إعادة الحساب التالية.
-- تعمل إعدادات العرض التلقائي `AutoShow` مع حقول الصفوف والأعمدة. لا يمكن ترتيب الحقل الموجود في منطقة الصفحات (التصفية) فقط بهذه الطريقة، لأن عناصره لا تظهر في جسم الجدول المحوري.
+- بعد استدعاء `Top10AutoShow()`، استدعِ `PivotTable.CalculateData()` مرة أخرى — الإعدادات تُطبق فقط في التخطيط المرسوم عند إعادة الحساب التالية.
+- تعمل إعدادات AutoShow مع حقول الصف والعمود. لا يمكن ترتيب حقل موجود فقط في منطقة الصفحات (الفلتر) بهذه الطريقة لأن عناصره لا تُعرض في جسم جدول Pivot.
 {{% /alert %}}
 
-## **Excel 2007-365: تصفية أعلى 10 (`FilterTop10`)**
-تتيح إصدارات Excel الحديثة تطبيق مرشح أعلى 10 ضمن قائمة الحقل (مرشحات القيم، أعلى 10...). يمثل Aspose.Cells هذا الخيار من خلال طريقة `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType type, bool isTop, int itemCount)`، التي تُعيد كائن `PivotFilter` الذي تم إنشاؤه:
-- `valueFieldIndex` — الفهرس الذي يبدأ من الصفر لحقل البيانات الذي تُرتَّب العناصر وفق قيمه المجمّعة.
-- `type` — المعنى الذي يحمله `itemCount`. تحافظ `PivotFilterType.Count` على عدد ثابت من العناصر (خيار «العناصر» في مربع الحوار). وتحافظ `PivotFilterType.Percent` على نسبة مئوية من العناصر، لذا تكون قيمة `itemCount` هي النسبة نفسها — أي أن القيمة 30 تحتفظ بأعلى 30 بالمئة. أما `PivotFilterType.Sum` فيرتب العناصر بحسب التغطية التراكمية للقيم.
-- `isTop` — قيمة `true` للأعلى، وقيمة `false` للأسفل.
-- `itemCount` — قيمة `N` في «أعلى N»، وتعتمد وحدتها على `type`.
+## **Excel 2007‑365: فلتر أعلى 10 (FilterTop10)**
+تُظهر إصدارات Excel الحديثة فلتر أعلى 10 كمرشح قيمة في قائمة الحقل (Value Filters, Top 10…). يُنمذج Aspose.Cells ذلك بطريقة `PivotField.FilterTop10(int valueFieldIndex, PivotFilterType type, bool isTop, int itemCount)` التي تُعيد كائن `PivotFilter` المُنشأ:
+- `valueFieldIndex` — الفهرس الصفري لحقل البيانات الذي تُرتّب قيمه المُجمَّعة للعناصر.
+- `type` — ما يعنيه `itemCount`. `PivotFilterType.Count` يحتفظ بعدد ثابت من العناصر (خيار Items في الحوار). `PivotFilterType.Percent` يحتفظ بنسبة مئوية من العناصر، لذا `itemCount` هو النسبة نفسها — 30 يعني أعلى 30 ٪. `PivotFilterType.Sum` يُرتّب حسب تغطية القيمة التراكمية.
+- `isTop` — `true` لأعلى، `false` لأدنى.
+- `itemCount` — الـ N في أعلى N؛ وحدته تعتمد على `type`.
 
 ```go
 package main
@@ -208,9 +204,9 @@ func main() {
 	pivotTable.CalculateData()
 	rowFields, _ := pivotTable.GetRowFields()
 	sportField, _ := rowFields.Get_Int(0)
-	// تصفية أعلى 10 — احتفظ بأعلى عنصرين حسب "مجموع المبيعات" (فهرس حقل البيانات 0)
+	// Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
 	sportField.FilterTop10(0, PivotFilterType_Count, true, 2)
-	// بدلاً من ذلك، لعامل تصفية قائم على النسبة، احتفظ بأفضل 30٪ من العناصر:
+	// For a percentage-based filter instead, keep the top 30 percent of the items:
 	// sportField.FilterTop10(0, PivotFilterType_Percent, true, 30)
 	pivotTable.CalculateData()
 	workbook.Save_String("output-top10-filter.xlsx")
@@ -218,10 +214,10 @@ func main() {
 ```
 
 {{% alert color="primary" %}}
-تعد إعدادات `AutoShow` و`FilterTop10` ميزتين منفصلتين. تكتب `AutoShow` سمة `autoShow` الكلاسيكية على حقل الجدول المحوري، وتحترمها جميع إصدارات Excel منذ Excel 97. أما `FilterTop10` فيكتب إدخال `PivotFilter` حديثًا يتطلب Excel 2007 أو إصدارًا أحدث. عند فتح مصنف في إصدار أقدم من Excel، يعود الجدول المحوري الذي يستخدم المرشح الحديث إلى عرض جميع العناصر. للمستندات التي يجب أن تُعالَج ذهابًا وإيابًا بواسطة أدوات قديمة، فضِّل دوال التعيين الخاصة بـ `AutoShow`؛ أما للمصنفات الحديثة، ففضِّل `FilterTop10` لأنه يتكامل مع مرشحات القيم الأخرى.
+إعدادات AutoShow و`FilterTop10` ميزتان منفصلتان. يكتب AutoShow سمة `autoShow` الكلاسيكية على حقل Pivot ويُعترف بها جميع إصدارات Excel منذ Excel 97. يكتب `FilterTop10` إدخال `PivotFilter` حديث، يتطلب Excel 2007 أو أحدث. عند فتح مصنف في إصدار Excel أسبق، يُظهر جدول Pivot يستخدم الفلتر الحديث جميع العناصر. للمستندات التي يجب أن تمر عبر أدوات قديمة، يُفضَّل `Top10AutoShow`؛ للمصنفات الحديثة، يُفضَّل `FilterTop10` لأنه يتناغم مع مرشحات القيمة الأخرى.
 {{% /alert %}}
 
 ## **مقالات ذات صلة**
-- [تجميع حقول الجدول المحوري داخل الجدول المحوري](/cells/ar/go-cpp/group-pivot-fields-in-the-pivot-table/)
+- [تجميع حقول Pivot في جدول محوري](/cells/ar/go-cpp/group-pivot-fields-in-the-pivot-table/)
 
 {{< app/cells/assistant language="go" >}}

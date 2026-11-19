@@ -28,15 +28,15 @@ L'esempio seguente crea un piccolo set di dati Frutta / Anno / Importo, posizion
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# Crea una nuova cartella di lavoro
+# Create a new workbook
 workbook = ac.Workbook()
 worksheet = workbook.worksheets[0]
 worksheet.name = "Data"
-# Imposta la riga di intestazione
+# Set up the header row
 worksheet.cells.get("A1").put_value("Fruit")
 worksheet.cells.get("B1").put_value("Year")
 worksheet.cells.get("C1").put_value("Amount")
-# Popola 9 righe di dati di esempio: Frutto, Anno, Quantità
+# Populate 9 rows of sample data: Fruit, Year, Amount
 data = [
     ["apple", 2020, 100],
     ["banana", 2021, 200],
@@ -52,15 +52,15 @@ for i in range(len(data)):
     worksheet.cells.get(i + 1, 0).put_value(data[i][0])
     worksheet.cells.get(i + 1, 1).put_value(data[i][1])
     worksheet.cells.get(i + 1, 2).put_value(data[i][2])
-# Aggiungi una tabella pivot ancorata alla cella E3
+# Add a pivot table anchored at cell E3
 pivot_table = worksheet.pivot_tables.add("A1:C10", 2, 4)
-# Aggiungi i campi alle rispettive aree: Frutto come Riga, Quantità come Dati, Anno come campo Pagina
+# Add fields to their areas: Fruit as Row, Amount as Data, Year as Page field
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
-# Aggiorna e calcola i dati della tabella pivot
+# Refresh and calculate the pivot table data
 pivot_table.calculate_data()
-# Salva la cartella di lavoro
+# Save the workbook
 workbook.save("pageFieldSample.xlsx")
 ```
 
@@ -70,19 +70,19 @@ Quando si lavora già con un'istanza di `PivotField`, è possibile passarla dire
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# — La tabella pivot e il campo pagina sono costruiti esattamente come in
-#   Scenario 1a (dati Fruit/Year/Amount, pivot in E3, Fruit→Riga,
-#   Amount→Dati). Di seguito otteniamo il PivotField Year dalla
-#   raccolta BaseFields e lo passiamo a PageFields.Add — l'
-#   alternativa a basso livello a AddFieldToArea. Il risultato è
-#   funzionalmente identico allo Scenario 1a.
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data). Below we obtain the Year PivotField from the
+#   BaseFields collection and pass it to PageFields.Add — the
+#   low-level alternative to AddFieldToArea. The result is
+#   functionally identical to Scenario 1a.
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-# Intestazioni
+# Headers
 sheet.cells.get("A1").put_value("Fruit")
 sheet.cells.get("B1").put_value("Year")
 sheet.cells.get("C1").put_value("Amount")
-# Dati di esempio (9 righe)
+# Sample data (9 rows)
 sheet.cells.get("A2").put_value("apple");    sheet.cells.get("B2").put_value("2020"); sheet.cells.get("C2").put_value(100)
 sheet.cells.get("A3").put_value("apple");    sheet.cells.get("B3").put_value("2021"); sheet.cells.get("C3").put_value(150)
 sheet.cells.get("A4").put_value("apple");    sheet.cells.get("B4").put_value("2022"); sheet.cells.get("C4").put_value(200)
@@ -92,16 +92,16 @@ sheet.cells.get("A7").put_value("grape");    sheet.cells.get("B7").put_value("20
 sheet.cells.get("A8").put_value("blueberry"); sheet.cells.get("B8").put_value("2020"); sheet.cells.get("C8").put_value(250)
 sheet.cells.get("A9").put_value("blueberry"); sheet.cells.get("B9").put_value("2021"); sheet.cells.get("C9").put_value(350)
 sheet.cells.get("A10").put_value("blueberry");sheet.cells.get("B10").put_value("2022"); sheet.cells.get("C10").put_value(450)
-# Aggiungi tabella pivot in E3 coprendo A1:C10
+# Add pivot table at E3 covering A1:C10
 pivot_table = sheet.pivot_tables.add("A1:C10", 2, 4)
-# Fruit -> Riga, Amount -> Dati (Year andrà in Page qui sotto)
+# Fruit -> Row, Amount -> Data (Year will go to Page below)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
-# Approccio a basso livello: prendi il PivotField Year esistente da BaseFields
-# e registralo nell'area Page tramite PageFields.Add(PivotField).
+# Low-level approach: grab the existing Year PivotField from BaseFields
+# and register it in the Page area via PageFields.Add(PivotField).
 year_field = pivot_table.base_fields["Year"]
 pivot_table.page_fields.add(year_field)
-# Aggiorna affinché il nuovo campo pagina venga riflesso nella cartella di lavoro salvata
+# Refresh so the new page field is reflected in the saved workbook
 pivot_table.calculate_data()
 workbook.save("output.xlsx")
 ```
@@ -115,10 +115,10 @@ Impostare `current_page_item` al valore magico `0x7FFD` equivale a cancellare il
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# Crea una nuova cartella di lavoro
+# Create a new workbook
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
-# Popola i dati Frutto/Anno/Importo
+# Populate Fruit/Year/Amount data
 sheet.cells.get("A1").put_value("Fruit")
 sheet.cells.get("B1").put_value("Year")
 sheet.cells.get("C1").put_value("Amount")
@@ -133,17 +133,17 @@ data = [
 for r in range(len(data)):
     for c in range(len(data[r])):
         sheet.cells.get(r + 1, c).put_value(data[r][c])
-# Crea una tabella pivot in E3
+# Create pivot table at E3
 pivot_tables = sheet.pivot_tables
 pivot_table = pivot_tables.add("=A1:C7", 2, 4)
-# Configura i campi pivot: Frutto→Riga, Importo→Dati, Anno→Pagina
+# Configure pivot fields: Fruit→Row, Amount→Data, Year→Page
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
 pivot_table.calculate_data()
-# Cancella il filtro pagina in modo che ogni elemento nel campo pagina sia visibile.
-# 0x7FFD (decimale 32765) è il valore sentinella speciale che significa "tutti gli elementi" —
-# equivalente a selezionare "(Tutti)" nel menu a discesa del campo pagina di Excel.
+# Clear the page filter so every item in the page field is visible.
+# 0x7FFD (decimal 32765) is the special sentinel value that means "all items" —
+# equivalent to selecting "(All)" in Excel's page-field dropdown.
 pivot_table.page_fields[0].current_page_item = 0x7FFD
 workbook.save("output.xlsx")
 ```
@@ -195,14 +195,14 @@ Il codice seguente abilita la selezione multipla sullo stesso campo filtro Year 
 ```python
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
-# — La tabella pivot e il campo pagina sono costruiti esattamente come nello
-#   Scenario 1a (dati Fruit/Year/Amount, pivot in E3, Fruit→Riga,
-#   Amount→Dati, Year→Pagina tramite AddFieldToArea).
-#   Di seguito applichiamo il filtro multi-selezione sul campo pagina.
+# — The pivot table and page field are constructed exactly as in
+#   Scenario 1a (Fruit/Year/Amount data, pivot at E3, Fruit→Row,
+#   Amount→Data, Year→Page via AddFieldToArea).
+#   Below we apply multi-select filtering on the page field.
 workbook = ac.Workbook()
 sheet = workbook.worksheets[0]
 cells = sheet.cells
-# Dati di esempio: Fruit | Year | Amount
+# Sample data: Fruit | Year | Amount
 cells.get(0, 0).put_value("Fruit")
 cells.get(0, 1).put_value("Year")
 cells.get(0, 2).put_value("Amount")
@@ -227,13 +227,13 @@ pivot_table = pivots.add("A1:C10", 2, 4)
 pivot_table.add_field_to_area(PivotFieldType.ROW, "Fruit")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Amount")
 pivot_table.add_field_to_area(PivotFieldType.PAGE, "Year")
-# — Abilita la multi-selezione sul campo pagina
+# — Enable multi-select on the page field
 pivot_table.page_fields[0].is_multiple_item_selection_allowed = True
-# Parte A — seleziona TUTTI gli elementi (rendi visibile ogni elemento)
+# Part A — select ALL items (make every item visible)
 pivot_items = pivot_table.page_fields[0].pivot_items
 for i in range(len(pivot_items)):
     pivot_items[i].is_hidden = False
-# Parte B — seleziona solo elementi specifici per valore di origine
+# Part B — select only specific items by source value
 for i in range(len(pivot_items)):
     value = pivot_items[i].get_string_value()
     if value == "2020" or value == "grape" or value == "blueberry":

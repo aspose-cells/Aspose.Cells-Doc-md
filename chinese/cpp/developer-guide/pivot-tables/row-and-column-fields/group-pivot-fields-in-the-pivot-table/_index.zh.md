@@ -1,6 +1,6 @@
 ---
 title: 在数据透视表中对透视字段分组
-linktitle: 在数据透视表中对透视字段分组
+linktitle: 分组透视字段
 description: 学习如何使用 Aspose.Cells for C++ 中的 PivotField.Group 和 PivotFieldGroupOptions 将数据透视表的行和列透视字段按日期周期（如月份和季度）以及数值范围进行分组。
 keywords: Aspose.Cells, 数据透视表, 透视字段分组, PivotField.Group, PivotFieldGroupOptions, 日期分组, 数字分组, 月份, 季度, 数值范围, C++
 type: docs
@@ -49,24 +49,24 @@ using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
 int main() {
     Aspose::Cells::Startup();
-    // 加载示例工作簿
+    // Load the sample workbook
     Workbook wb(u"sampleGroupPivotFieldsInPivotTable.xlsx");
-    // 访问第二个工作表及其数据透视表
+    // Access the second worksheet and its pivot table
     Worksheet ws = wb.GetWorksheets().Get(1);
     PivotTable pt = ws.GetPivotTables().Get(0);
-    // 按月份和季度对第一个行字段（日期字段）进行分组
+    // Group the first row field (a date field) by months and quarters
     PivotFieldGroupOptions options;
     Date startDate{2008, 1, 1, 0, 0, 0, 0};
     Date endDate{2008, 9, 5, 0, 0, 0, 0};
     options.SetStartDate(startDate);
     options.SetEndDate(endDate);
-    // 设置分组类型：月份和季度
+    // Set group types: Months and Quarters
     Vector<PivotGroupByType> groupTypes{ PivotGroupByType::Months, PivotGroupByType::Quarters };
     options.SetGroupTypes(groupTypes);
-    // 对第一个行字段应用分组
+    // Apply grouping to the first row field
     PivotField rowField = pt.GetRowFields().Get(0);
     rowField.Group(options);
-    // 计算数据透视表数据并保存输出文件
+    // Calculate the pivot table data and save the output file
     pt.CalculateData();
     wb.Save(u"outputGroupPivotFieldsInPivotTable.xlsx");
     Aspose::Cells::Cleanup();

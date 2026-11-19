@@ -1,6 +1,6 @@
 ---
 title: Aspose.Cells for C++ ile Pivot Tablo Satır ve Sütun Alanları Ekleme
-linktitle: Aspose.Cells for C++ ile Pivot Tablo Satır ve Sütun Alanları Ekleme
+linktitle: Satır ve Sütun Alanları
 description: Aspose.Cells for C++ kullanarak bir pivot tablonun satır ve sütun bölgelerine temel alanlar eklemeyi ve PivotField.SetSubtotals ile pivot alanı alt toplamlarını kontrol etmeyi öğrenin.
 keywords: Aspose.Cells, C++, pivot tablosu, satır alanı, sütun alanı, PivotField, SetSubtotals, PivotFieldSubtotalType, alt toplamlar
 type: docs

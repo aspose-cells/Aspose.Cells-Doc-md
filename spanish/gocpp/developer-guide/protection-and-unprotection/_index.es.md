@@ -1,6 +1,6 @@
 ---
 title: Protección y desprotección con Go
-linktitle: Protección y desprotección con Go
+linktitle: Cifrado y protección
 description: Este fragmento presenta cómo cifrar y descifrar archivos Excel y proteger y desproteger los datos de los archivos Excel mediante código Go.
 keywords: Aspose.Cells, Go via C++, cifrar, descifrar, contraseña, proteger, desproteger, protección del libro de trabajo, protección de la hoja de cálculo, libro de trabajo compartido, Go
 type: docs

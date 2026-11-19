@@ -1,7 +1,7 @@
 ---
 title: Värdefält i Aspose.Cells for C++
 description: Lär dig hur du lägger till basfält i dataregionen i en pivottabell, ändrar summeringsfunktionen med PivotField.Function, och placerar värdefältet på rad- eller kolumnaxeln i Aspose.Cells for C++.
-linktitle: Värdefält i Aspose.Cells for C++
+linktitle: Värdefält
 keywords: Aspose.Cells, C++, pivottabell, värdefält, PivotField, PivotField.Function, datafält, PivotTable.ValuesField, Sum, Average
 type: docs
 weight: 230
@@ -23,12 +23,12 @@ int main() {
  Worksheet worksheet = workbook.GetWorksheets().Get(0);
  worksheet.SetName(u"Data");
  Cells cells = worksheet.GetCells();
- // Rubriker i A1:D1
+ // Headers in A1:D1
  cells.Get(0, 0).PutValue(U16String("Category"));
  cells.Get(0, 1).PutValue(U16String("Item"));
  cells.Get(0, 2).PutValue(U16String("Year"));
  cells.Get(0, 3).PutValue(U16String("Amount"));
- // Datarader A2:D9 med kapslade slingor som förgrenar sig på j
+ // Data rows A2:D9 using nested loops branching on j
  for (int i = 1; i <= 8; i++)
  {
  for (int j = 0; j < 4; j++)
@@ -60,9 +60,9 @@ int main() {
  }
  }
  }
- // Lägg till pivottabell vid F3 med namnet PivotTable1
+ // Add pivot table at F3 with name PivotTable1
  PivotTable pivotTable = worksheet.GetPivotTables().Add(u"A1:D9", 2, 5);
- // Pivotlayout: Category och Item på Rad, Year på Kolumn, Amount som datafält
+ // Pivot layout: Category and Item on Row, Year on Column, Amount as data field
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Category");
  pivotTable.AddFieldToArea(PivotFieldType::Row, u"Item");
  pivotTable.AddFieldToArea(PivotFieldType::Column, u"Year");

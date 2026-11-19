@@ -1,6 +1,6 @@
 ---
 title: 在数据透视表中分组数据透视字段
-linktitle: 在数据透视表中分组数据透视字段
+linktitle: 分组透视字段
 description: 学习如何使用 PivotField.group 和 PivotFieldGroupOptions 在 Aspose.Cells for Python via Java 中将数据透视表中的行和列数据透视字段分组为月份、季度等日期周期以及数值区域。
 keywords: Aspose.Cells, 数据透视表, 分组数据透视字段, PivotField.group, PivotFieldGroupOptions, 日期分组, 数值分组, 月份, 季度, 数值区域, Python
 type: docs
@@ -23,15 +23,15 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook
-# 加载示例工作簿
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# 访问第二个工作表及其数据透视表
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# 自动对第一个行字段进行分组
-# 该字段包含日期，因此按月份进行分组
+# Group the first row field automatically.
+# The field contains dates, so it is grouped by months.
 field = pt.getRowFields().get(0)
 field.group()
-# 计算数据透视表数据并保存输出文件
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputAutoGroupPivotField.xlsx")
 jpype.shutdownJVM()
@@ -49,17 +49,17 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldGroupOptions, PivotGroupByType, DateTime
-# 加载示例工作簿
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# 访问第二个工作表及其数据透视表
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# 按月份和季度对第一个行字段（日期字段）进行分组
+# Group the first row field (a date field) by months and quarters
 options = PivotFieldGroupOptions()
 options.setStartDate(DateTime(2008, 1, 1))
 options.setEndDate(DateTime(2008, 9, 5))
 options.setGroupTypes([PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS])
 pt.getRowFields().get(0).group(options)
-# 计算数据透视表数据并保存输出文件
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 jpype.shutdownJVM()
@@ -75,21 +75,21 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, PivotFieldType, PivotFieldGroupOptions
-# 加载示例工作簿
+# Load the sample workbook
 wb = Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# 访问第二个工作表及其数据透视表
+# Access the second worksheet and its pivot table
 pt = wb.getWorksheets().get(1).getPivotTables().get(0)
-# FieldTwo 是一个数据字段：首先将其移动到行区域，
-# 因为只有行/列字段才能进行分组
+# FieldTwo is a data field: move it to the row area first,
+# because only row/column fields can be grouped
 pt.addFieldToArea(PivotFieldType.ROW, "FieldTwo")
 pt.calculateData()
-# 将数值字段分组为 0-1、2-3、4-5 的区间
+# Group the numeric field into the ranges 0-1, 2-3, 4-5
 options = PivotFieldGroupOptions()
 options.setStartNumber(0)
 options.setEndNumber(5)
 options.setInterval(2)
 pt.getRowFields().get(1).group(options)
-# 计算数据透视表数据并保存输出文件
+# Calculate the pivot table data and save the output file
 pt.calculateData()
 wb.save("outputNumberGroupPivotField.xlsx")
 jpype.shutdownJVM()

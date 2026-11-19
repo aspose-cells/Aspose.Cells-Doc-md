@@ -1,6 +1,6 @@
 ---
 title: Excel Dosyalarını Birden Fazla Dosyaya Bölme
-linktitle: Excel Dosyalarını Birden Fazla Dosyaya Bölme
+linktitle: Excel Dosyalarını Böl
 description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için kullanılan bir Java kütüphanesidir ve tek bir Excel dosyasını birden fazla dosyaya bölmeyi destekler. Bu makale, Excel dosyalarını her çalışma sayfasını ayrı bir çalışma kitabına kopyalayarak ve belirli hücre aralıklarını diğer çalışma kitaplarına kopyalayarak nasıl böleceğinizi anlatacaktır.
 keywords: Aspose.Cells, Java kütüphanesi, elektronik tablo, Excel dosyası bölme, çalışma sayfası kopyalama, aralık kopyalama, birden fazla çalışma kitabı, ayrı dosyalar olarak kaydetme
 type: docs

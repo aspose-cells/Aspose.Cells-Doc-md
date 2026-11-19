@@ -1,6 +1,6 @@
 ---
 title: Özet Tabloda İlk 10'u Gösterme veya Filtreleme
-linktitle: Özet Tabloda İlk 10'u Gösterme veya Filtreleme
+linktitle: İlk 10 Öğeyi Göster veya Filtrele
 description: Aspose.Cells for C++ ile bir özet tablo alanının yalnızca en yüksek veya en düşük sıralı öğelerini nasıl göstereceğinizi öğrenin. Bu makale; Excel 97-2003 Top10AutoShow yöntemini, GetTop10AutoShowSettings ile seçeneklerin okunmasını ve Excel 2007-365 İlk 10 Filtresi'nin FilterTop10 aracılığıyla kullanılmasını ele alır.
 keywords: Aspose.Cells, C++, özet tablo, ilk 10, otomatik gösterim, Top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, GetTop10AutoShowSettings, FilterTop10, PivotFilterType, PivotField
 type: docs
@@ -87,7 +87,7 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
     pivotTable.CalculateData();
     PivotField sportField = pivotTable.GetRowFields().Get(0);
-    // "Satışların Toplamı" ölçütüne göre sıralanan ilk 2 öğeyi göster (veri alanı dizini 0)
+    // Show the top 2 items ranked by "Sum of Sales" (data field index 0)
     sportField.Top10AutoShow(true, true, 2, 0);
     pivotTable.CalculateData();
     workbook.Save(u"output-top10-by-value-field.xlsx");
@@ -160,7 +160,7 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
     pivotTable.CalculateData();
     PivotField sportField = pivotTable.GetRowFields().Get(0);
-    // Alanın kendisiyle sıralanan en alt 3 öğeyi göster (rankBy = -1)
+    // Show the bottom 3 items ranked by the field itself (rankBy = -1)
     sportField.Top10AutoShow(true, false, 3, -1);
     pivotTable.CalculateData();
     workbook.Save(u"output-top10-by-field-itself.xlsx");
@@ -269,9 +269,9 @@ int main() {
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
     pivotTable.CalculateData();
     PivotField sportField = pivotTable.GetRowFields().Get(0);
-    // İlk 10 Filtresi — "Satışların Toplamı"na göre en üstteki 2 öğeyi tut (veri alanı indeksi 0)
+    // Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
     PivotFilter filter = sportField.FilterTop10(0, PivotFilterType::Count, true, 2);
-    // Bunun yerine yüzdeye dayalı bir filtre kullanırsanız, öğelerin en üst %30'unu tutun:
+    // For a percentage-based filter instead, keep the top 30 percent of the items:
     // sportField.FilterTop10(0, PivotFilterType::Percent, true, 30);
     pivotTable.GetPivotCache().Refresh();
     pivotTable.CalculateData();

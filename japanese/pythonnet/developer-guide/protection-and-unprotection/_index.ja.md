@@ -39,19 +39,19 @@ Excel は 2 つの異なるパスワード層をサポートしています。1 
 
 ```python
 import aspose.cells as ac
-# ゼロから新しいワークブックを作成する
+# Create a new workbook from scratch
 workbook = ac.Workbook()
-# 最初のワークシートのセル A1 にサンプル値を書き込む
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get("A1").put_value("Sample Data")
-# 書き込み保護を構成する：変更用パスワードと作成者を設定する
+# Configure the write protection: set the password to modify and the author
 workbook.settings.write_protection.password = "ModifyPwd"
 workbook.settings.write_protection.author = "AuthorName"
-# 書き込み保護が永続化されるようにワークブックを保存する
+# Save the workbook so the write protection is persisted
 workbook.save("WriteProtectedWorkbook.xlsx")
-# 正しいパスワードを使用して変更用パスワードを検証する
+# Validate the password to modify using the correct password
 is_correct_valid = workbook.settings.write_protection.validate_password("ModifyPwd")
 print("ValidatePassword(\"ModifyPwd\") returned: " + str(is_correct_valid))
-# 別の分岐を示すために、誤ったパスワードを使用して変更用パスワードを検証する
+# Validate the password to modify using an incorrect password to demonstrate the other branch
 is_wrong_valid = workbook.settings.write_protection.validate_password("WrongPwd")
 print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 ```
@@ -61,22 +61,22 @@ print("ValidatePassword(\"WrongPwd\") returned: " + str(is_wrong_valid))
 
 ```python
 import aspose.cells as ac
-# 新しいワークブックを作成
+# Create a new workbook
 workbook = ac.Workbook()
-# 2番目のワークシートを追加
+# Add a second worksheet
 workbook.worksheets.add()
-# 最初のワークシートのセルA1にサンプル値を書き込む
+# Write a sample value to cell A1 of the first worksheet
 workbook.worksheets[0].cells.get(0, 0).put_value("Sample Data")
-# ワークブックの構造を保護
+# Protect the workbook structure
 workbook.protect(ac.ProtectionType.STRUCTURE, "StructPwd")
-# ワークブックをstructure_protected.xlsxとして保存
+# Save the workbook as structure_protected.xlsx
 file_path = "structure_protected.xlsx"
 workbook.save(file_path)
-# ファイルを新しいWorkbookインスタンスに再読み込み
+# Reload the file into a new Workbook instance
 loaded_workbook = ac.Workbook(file_path)
-# 構造保護を解除
+# Remove the structure protection
 loaded_workbook.unprotect("StructPwd")
-# 確認メッセージを出力
+# Print confirmation message
 print("Structure protection has been successfully removed from the workbook.")
 ```
 

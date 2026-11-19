@@ -46,68 +46,68 @@ Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet pivotDataSheet = worksheets.add("PivotData");
 Cells pivotDataCells = pivotDataSheet.getCells();
-// En-têtes (ligne 0)
+// Headers (row 0)
 pivotDataCells.get(0, 0).putValue("Fruit");
 pivotDataCells.get(0, 1).putValue("Year");
 pivotDataCells.get(0, 2).putValue("Region");
 pivotDataCells.get(0, 3).putValue("Amount");
-// Ligne 1 : Apple, 2022, Nord, 150
+// Row 1: Apple, 2022, North, 150
 pivotDataCells.get(1, 0).putValue("Apple");
 pivotDataCells.get(1, 1).putValue(2022);
 pivotDataCells.get(1, 2).putValue("North");
 pivotDataCells.get(1, 3).putValue(150);
-// Ligne 2 : Apple, 2023, Nord, 180
+// Row 2: Apple, 2023, North, 180
 pivotDataCells.get(2, 0).putValue("Apple");
 pivotDataCells.get(2, 1).putValue(2023);
 pivotDataCells.get(2, 2).putValue("North");
 pivotDataCells.get(2, 3).putValue(180);
-// Ligne 3 : Banane, 2022, Sud, 120
+// Row 3: Banana, 2022, South, 120
 pivotDataCells.get(3, 0).putValue("Banana");
 pivotDataCells.get(3, 1).putValue(2022);
 pivotDataCells.get(3, 2).putValue("South");
 pivotDataCells.get(3, 3).putValue(120);
-// Ligne 4 : Banane, 2023, Sud, 140
+// Row 4: Banana, 2023, South, 140
 pivotDataCells.get(4, 0).putValue("Banana");
 pivotDataCells.get(4, 1).putValue(2023);
 pivotDataCells.get(4, 2).putValue("South");
 pivotDataCells.get(4, 3).putValue(140);
-// Ligne 5 : Cerise, 2022, Est, 200
+// Row 5: Cherry, 2022, East, 200
 pivotDataCells.get(5, 0).putValue("Cherry");
 pivotDataCells.get(5, 1).putValue(2022);
 pivotDataCells.get(5, 2).putValue("East");
 pivotDataCells.get(5, 3).putValue(200);
-// Ligne 6 : Cerise, 2023, Est, 220
+// Row 6: Cherry, 2023, East, 220
 pivotDataCells.get(6, 0).putValue("Cherry");
 pivotDataCells.get(6, 1).putValue(2023);
 pivotDataCells.get(6, 2).putValue("East");
 pivotDataCells.get(6, 3).putValue(220);
-// Ligne 7 : Raisin, 2022, Ouest, 90
+// Row 7: Grape, 2022, West, 90
 pivotDataCells.get(7, 0).putValue("Grape");
 pivotDataCells.get(7, 1).putValue(2022);
 pivotDataCells.get(7, 2).putValue("West");
 pivotDataCells.get(7, 3).putValue(90);
-// Ligne 8 : Raisin, 2023, Ouest, 110
+// Row 8: Grape, 2023, West, 110
 pivotDataCells.get(8, 0).putValue("Grape");
 pivotDataCells.get(8, 1).putValue(2023);
 pivotDataCells.get(8, 2).putValue("West");
 pivotDataCells.get(8, 3).putValue(110);
-// Ajouter la feuille PivotTableReport
+// Add PivotTableReport sheet
 Worksheet pivotTableSheet = worksheets.add("PivotTableReport");
 PivotTableCollection pivotTables = pivotTableSheet.getPivotTables();
-// Créer un tableau croisé dynamique à partir de PivotData!A1:D9 placé à A1 sur PivotTableReport
+// Create pivot table sourced from PivotData!A1:D9 placed at A1 on PivotTableReport
 PivotTable pivotTable = pivotTables.add("PivotData!A1:D9", 0, 0);
-// Ajouter des champs
+// Add fields
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0);   // Fruit
-pivotTable.addFieldToArea(PivotFieldType.PAGE, 1);  // Année
-pivotTable.addFieldToArea(PivotFieldType.PAGE, 2);  // Région
-pivotTable.addFieldToArea(PivotFieldType.DATA, 3);  // Montant
+pivotTable.addFieldToArea(PivotFieldType.PAGE, 1);  // Year
+pivotTable.addFieldToArea(PivotFieldType.PAGE, 2);  // Region
+pivotTable.addFieldToArea(PivotFieldType.DATA, 3);  // Amount
 pivotTable.getDataFields().get(0).setFunction(ConsolidationFunction.SUM);
-// Configurer la disposition de la zone des champs de page : placer les champs de page horizontalement d'abord, revenir à la ligne après chaque 2
+// Configure page field area layout: place page fields across first, wrap after every 2
 pivotTable.setPageFieldOrder(PrintOrderType.OVER_THEN_DOWN);
 pivotTable.setPageFieldWrapCount(2);
-// Actualiser et calculer
+// Refresh and calculate
 pivotTable.calculateData();
-// Enregistrer
+// Save
 workbook.save(dataDir + "/pageFieldLayout_overThenDown.xlsx");
 ```
 

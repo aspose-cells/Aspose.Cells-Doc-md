@@ -95,16 +95,16 @@ Aspose.Cells 还提供了一种更简单的单元格绑定图片机制：`Cell.E
 ```csharp
 var workbook = new Workbook();
 var worksheet = workbook.Worksheets[0];
-// 获取目标单元格 C6
+// Get the target cell C6
 var cell = worksheet.Cells["C6"];
-// 将图像文件读取到字节数组中
+// Read the image file into a byte array
 byte[] imageData = File.ReadAllBytes("logo.png");
-// 将图像直接嵌入到单元格中
+// Embed the image directly into the cell
 cell.EmbeddedImage = imageData;
-// 可选地调整行高和列宽，以便嵌入的图像更清晰可见
-worksheet.Cells.SetColumnWidth(2, 30);   // C 列（索引 2）
-worksheet.Cells.SetRowHeight(5, 100);     // 第 6 行（索引 5）
-// 将生成的工作簿保存为 .xlsx 文件
+// Optionally adjust row height and column width so the embedded image is more visible
+worksheet.Cells.SetColumnWidth(2, 30);   // Column C (index 2)
+worksheet.Cells.SetRowHeight(5, 100);     // Row 6 (index 5)
+// Save the resulting workbook as an .xlsx file
 workbook.Save("output.xlsx", SaveFormat.Xlsx);
 ```
 

@@ -108,21 +108,21 @@ Les formules matricielles CSE sont la méthode classique d'Excel pour évaluer u
 
 ```python
 import aspose.cells as ac
-# Charger le classeur source avec les LoadOptions xlsx
+# Load the source workbook with xlsx LoadOptions
 srcFile = "source.xlsx"
 workbook = ac.Workbook(srcFile, ac.LoadOptions(ac.LoadFormat.XLSX))
-# Accéder à la première feuille de calcul et à sa collection Cells
+# Access the first worksheet and its Cells collection
 worksheet = workbook.worksheets[0]
 cells = worksheet.cells
-# Définir la formule matricielle CSE classique sur la cellule A6.
-# La formule =TRANSPOSE(A1:D5) transpose la plage source de 5 lignes x 4 colonnes
-# en un tableau de 4 lignes x 5 colonnes. Le deuxième argument (4) est le nombre de lignes
-# et le troisième argument (5) est le nombre de colonnes du tableau résultant.
-# Aspose.Cells écrit le marqueur de formule matricielle CSE afin qu'Excel l'évalue comme
-# une formule matricielle multi-cellules unique, compatible avec les anciennes versions d'Excel
-# (2019, 2016, 2013, etc.) qui ne prennent pas en charge le déversement dynamique des tableaux.
+# Set the classic CSE array formula on cell A6.
+# The formula =TRANSPOSE(A1:D5) rotates the 5-row x 4-column source range
+# into a 4-row x 5-column array. The second argument (4) is the number of rows
+# and the third argument (5) is the number of columns of the resulting array.
+# Aspose.Cells writes the CSE array-formula marker so Excel evaluates it as
+# a single multi-cell array formula, compatible with older Excel versions
+# (2019, 2016, 2013, etc.) that do not support dynamic array spilling.
 cells.get("A6").set_array_formula("=TRANSPOSE(A1:D5)", 4, 5)
-# Enregistrer le classeur afin que le marqueur de formule matricielle soit conservé
+# Save the workbook so the array-formula marker is persisted
 workbook.save("output.xlsx")
 ```
 

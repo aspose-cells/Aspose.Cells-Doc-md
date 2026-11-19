@@ -1,6 +1,6 @@
 ---
 title: Excel'i OFD Formatına Dönüştürme
-linktitle: Excel'i OFD Formatına Dönüştürme
+linktitle: OFD
 description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için OFD (Open Fixed-layout Document) formatına Excel çalışma kitaplarını dönüştürmeyi destekleyen bir C++ kütüphanesidir. Bu makale, Aspose.Cells kullanarak Excel içeriği oluşturmayı ve OFD olarak dışa aktarmayı, ayrıca mevcut Excel dosyalarını OFD'ye dönüştürmeyi göstermektedir.
 keywords: Aspose.Cells, C++ kütüphanesi, elektronik tablo, Excel'den OFD'ye, OFD dönüşümü, SaveFormat.Ofd, sabit düzenli belge, çalışma kitabı dışa aktarma
 type: docs

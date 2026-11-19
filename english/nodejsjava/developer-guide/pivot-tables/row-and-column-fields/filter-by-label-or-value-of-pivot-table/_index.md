@@ -22,7 +22,7 @@ The following filtering strategies are covered in this article:
 3. **Value Filter** — filters items based on the aggregated values of a data field.
 4. **Top 10 Filter** — shows only the top or bottom N items ranked by a value field.
 5. **Hide / Unhide Pivot Items** — manually controls the visibility of each individual item in a field.
-Each approach uses a different method on the `PivotField` class or a property on the `PivotItem` class. After applying any filter, you must call `refreshData()` and `calculateData()` on the pivot table so that the cached data and calculated values reflect the new filter state.
+Each approach uses a different method on the `PivotField` class or a property on the `PivotItem` class. After applying any filter, you must call `getPivotCache().refresh()` on the pivot table so that the cached data and calculated values reflect the new filter state.
 
 ## **Label Filter**
 A label filter allows you to filter the items of a row or column field by comparing their text captions against a pattern. This is useful when you want to display only products whose names start with a specific letter, contain a particular word, or match some other caption-based criterion.

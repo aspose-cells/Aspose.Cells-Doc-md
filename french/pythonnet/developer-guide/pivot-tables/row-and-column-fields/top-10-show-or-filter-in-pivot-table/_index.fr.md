@@ -47,7 +47,7 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
 pivot_table.calculate_data()
 sport_field = pivot_table.row_fields[0]
-# Afficher les 2 premiers éléments classés par « Sum of Sales » (index du champ de données 0)
+# Show the top 2 items ranked by "Sum of Sales" (data field index 0)
 sport_field.top_10_auto_show(True, True, 2, 0)
 pivot_table.calculate_data()
 workbook.save("output-top10-by-value-field.xlsx")
@@ -134,9 +134,9 @@ pivot_table.add_field_to_area(PivotFieldType.ROW, "Sport")
 pivot_table.add_field_to_area(PivotFieldType.DATA, "Sales")
 pivot_table.calculate_data()
 sport_field = pivot_table.row_fields[0]
-# Filtre Top 10 — conserver les 2 premiers éléments selon « Total des ventes » (index du champ de données 0)
+# Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
 filter = sport_field.filter_top10(0, PivotFilterType.COUNT, True, 2)
-# Pour un filtre basé sur un pourcentage, conserver plutôt les 30 % premiers éléments :
+# For a percentage-based filter instead, keep the top 30 percent of the items:
 # sport_field.filter_top10(0, PivotFilterType.PERCENT, True, 30)
 pivot_table.pivot_cache.refresh()
 pivot_table.calculate_data()

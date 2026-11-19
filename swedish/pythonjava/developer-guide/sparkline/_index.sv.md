@@ -99,26 +99,26 @@ import jpype
 import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, Worksheet, CellArea, SparklineType
-# Steg 1: Skapa en Workbook och hämta det första kalkylbladet
+# Step 1: Create a Workbook and get the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# Steg 2: Skriv exempelvärden i A1:E1
+# Step 2: Write sample values into A1:E1
 values = [5, -3, 8, -2, 6]
 for i in range(len(values)):
     worksheet.getCells().get(0, i).putValue(values[i])
-# Steg 3: Bygg en CellArea som pekar mot F1 (kolumnindex 5, radindex 0)
+# Step 3: Build a CellArea pointing to F1 (column index 5, row index 0)
 dest = CellArea()
 dest.StartColumn = 5
 dest.EndColumn = 5
 dest.StartRow = 0
 dest.EndRow = 0
-# Steg 4: Lägg till en Column-sparkline i destinationscellen
+# Step 4: Add a Column sparkline to the destination cell
 idx = worksheet.getSparklineGroups().add(
     SparklineType.COLUMN, "A1:E1", False, dest)
 group = worksheet.getSparklineGroups().get(idx)
-# Steg 5: Bekräfta sparkline-typen genom att läsa group.Type
+# Step 5: Confirm the sparkline type by reading group.Type
 print("Sparkline Type added: " + str(group.getType()))
-# Steg 6: Spara arbetsboken
+# Step 6: Save the workbook
 workbook.save("output_column.xlsx")
 print("Workbook saved as output_column.xlsx")
 jpype.shutdownJVM()
@@ -183,16 +183,16 @@ import asposecells
 jpype.startJVM()
 from asposecells.api import Workbook, CellArea, CellsColor, SparklineType
 from asposecells.api import Color
-# Steg 1: Skapa en Workbook och hämta det första kalkylbladet
+# Step 1: Create a Workbook and get the first worksheet
 workbook = Workbook()
 worksheet = workbook.getWorksheets().get(0)
-# Steg 2: Fyll i exempeldata i rad 1 (A1:E1)
+# Step 2: Populate sample data in row 1 (A1:E1)
 worksheet.getCells().get("A1").putValue(5)
 worksheet.getCells().get("B1").putValue(-3)
 worksheet.getCells().get("C1").putValue(8)
 worksheet.getCells().get("D1").putValue(-2)
 worksheet.getCells().get("E1").putValue(6)
-# Steg 3: Lägg till en linje-sparkline-grupp vid F1
+# Step 3: Add a Line sparkline group at F1
 lineArea = CellArea()
 lineArea.StartColumn = 5
 lineArea.EndColumn = 5
@@ -200,11 +200,11 @@ lineArea.StartRow = 0
 lineArea.EndRow = 0
 lineIdx = worksheet.getSparklineGroups().add(SparklineType.LINE, "A1:E1", False, lineArea)
 lineGroup = worksheet.getSparklineGroups().get(lineIdx)
-# Anpassa linje-sparkline-färgen via CellsColor
+# Customize the line sparkline color via CellsColor
 lineColor = workbook.createCellsColor()
 lineColor.setColor(Color.getBlue())
 lineGroup.setSeriesColor(lineColor)
-# Steg 4: Lägg till en kolumn-sparkline-grupp vid F2
+# Step 4: Add a Column sparkline group at F2
 columnArea = CellArea()
 columnArea.StartColumn = 5
 columnArea.EndColumn = 5
@@ -212,11 +212,11 @@ columnArea.StartRow = 1
 columnArea.EndRow = 1
 columnIdx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "A1:E1", False, columnArea)
 columnGroup = worksheet.getSparklineGroups().get(columnIdx)
-# Anpassa kolumn-sparkline-serie-färgen
+# Customize the column sparkline series color
 columnColor = workbook.createCellsColor()
 columnColor.setColor(Color.getGreen())
 columnGroup.setSeriesColor(columnColor)
-# Steg 5: Lägg till en Win/Loss (staplad) sparkline-grupp vid F3
+# Step 5: Add a Win/Loss (Stacked) sparkline group at F3
 stackedArea = CellArea()
 stackedArea.StartColumn = 5
 stackedArea.EndColumn = 5
@@ -224,11 +224,11 @@ stackedArea.StartRow = 2
 stackedArea.EndRow = 2
 stackedIdx = worksheet.getSparklineGroups().add(SparklineType.STACKED, "A1:E1", False, stackedArea)
 stackedGroup = worksheet.getSparklineGroups().get(stackedIdx)
-# Anpassa win/loss-sparkline-serie-färgen
+# Customize the win/loss sparkline series color
 stackedColor = workbook.createCellsColor()
 stackedColor.setColor(Color.fromArgb(255, 140, 0))  # DarkOrange
 stackedGroup.setSeriesColor(stackedColor)
-# Steg 6: Spara arbetsboken
+# Step 6: Save the workbook
 workbook.save("output_all.xlsx")
 jpype.shutdownJVM()
 ```

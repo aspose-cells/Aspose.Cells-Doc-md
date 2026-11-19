@@ -54,7 +54,7 @@ Il codice seguente crea una cartella di lavoro, aggiunge un'immagine vuota ancor
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // Camera dinamica: aggiungi un'immagine vuota, collegala tramite Formula a A1:F10, quindi aggiorna
+            // Dynamic Camera: add an empty picture, link it via Formula to A1:F10, then refresh
             const pictures = worksheet.pictures;
             const index = pictures.add(10, 6, null);
             const picture = pictures.get(0);
@@ -109,7 +109,7 @@ Il codice seguente crea una cartella di lavoro, costruisce un `Range` per `A1:F1
             const workbook = new Workbook();
             const worksheet = workbook.worksheets.get(0);
             worksheet.name = "CameraDemo";
-            // Camera statica: crea Range, esegui il rendering in byte, inseriscilo in MemoryStream e aggiungilo come immagine
+            // Static Camera: build Range, render to bytes, wrap in MemoryStream, add as picture
             const range = worksheet.cells.createRange("A1:F10");
             const imageData = range.toImage();
             const pictures = worksheet.pictures;

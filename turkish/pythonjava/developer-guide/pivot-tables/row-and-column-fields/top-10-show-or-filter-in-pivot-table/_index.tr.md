@@ -1,7 +1,7 @@
 ---
-title: Özet Tablosunda İlk 10 Öğeyi Göster veya Filtrele
-linktitle: Özet Tablosunda İlk 10 Öğeyi Göster veya Filtrele
-description: Aspose.Cells for Python via Java kullanarak bir pivot alanında yalnızca en üst veya en alt sıralı öğelerin nasıl gösterileceğini öğrenin. Bu makale; Excel 97-2003 top10AutoShow yöntemini, Top10AutoShowSettings ile seçeneklerin okunmasını ve filterTop10 aracılığıyla Excel 2007-365 İlk 10 Filtresi'ni ele alır.
+title: Özet Tabloda İlk 10 Öğeyi Gösterme veya Filtreleme
+linktitle: Özet Tabloda İlk 10 Öğeyi Gösterme veya Filtreleme
+description: Aspose.Cells for Python via Java kullanarak bir özet tablo alanında yalnızca en üst veya en alt sıralı öğelerin nasıl gösterileceğini öğrenin. Bu makale, Excel 97-2003 top10AutoShow yöntemini, Top10AutoShowSettings ile seçeneklerin okunmasını ve filterTop10 aracılığıyla Excel 2007-365 İlk 10 Filtresini ele alır.
 keywords: Aspose.Cells for Python via Java, özet tablo, ilk 10, otomatik gösterim, top10AutoShow, Top10AutoShowSettings, PivotFieldTop10AutoShowSettings, filterTop10, PivotFilterType, PivotField, Python
 type: docs
 weight: 20
@@ -11,20 +11,20 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ---
 
 ## **Olası Kullanım Senaryoları**
-Bir satır alanındaki her öğeyi listeleyen bir özet tablo, alan onlarca üye içerdiğinde okunması zor olabilir. İlk 10 raporu yalnızca en yüksek veya en düşük sıralı öğeleri korur; sıralama raporlarının gerektiği tam olarak budur — "gelire göre ilk 5 ürün" veya "satış sayısına göre son 3 bölge". Aspose.Cells bunun için iki mekanizma destekler ve bu mekanizmalar Microsoft Excel'in iki nesline karşılık gelir.
-- **Excel 97-2003 AutoShow** — `PivotField.top10AutoShow()` yöntemi. Bu, pivot alanında doğrudan saklanan klasik "En üst/en alt N öğeyi göster" ayarıdır. Eski ve yeni sürümler dâhil tüm Excel sürümlerinde çalışır; çünkü özgün özet tablo biçiminin bir parçasıdır.
-- **Excel 2007-365 İlk 10 Filtresi** — `PivotField.filterTop10()` yöntemi. Bu, alan menüsündeki Değer Filtreleri bölümünde bulunan modern İlk 10 değer filtresidir. Alanla ilişkilendirilmiş bir `PivotFilter` nesnesi olarak saklanır ve öğe sayısına ve yüzdeye dayalı sıralama sunar.
+Bir satır alanındaki her öğeyi listeleyen bir özet tablo, alanda düzinelerce üye bulunduğunda okunması zor olabilir. İlk 10 raporu yalnızca en yüksek veya en düşük sıralı öğeleri tutar; bu da sıralama raporlarının ihtiyaç duyduğu işlevi sağlar: "satış gelirine göre ilk 5 ürün" veya "satış sayısına göre en düşük 3 bölge". Aspose.Cells bunun için iki mekanizmayı destekler ve bu mekanizmalar Microsoft Excel'in iki nesline karşılık gelir.
+- **Excel 97-2003 Otomatik Gösterme (`AutoShow`)** — `PivotField.top10AutoShow()` yöntemi. Bu, doğrudan özet tablo alanında saklanan klasik "En üst/En alt N öğeyi göster" ayarıdır. Excel'in hem eski hem yeni tüm sürümlerinde çalışır; çünkü ilk özet tablo biçiminin bir parçasıdır.
+- **Excel 2007-365 İlk 10 Filtresi** — `PivotField.filterTop10()` yöntemi. Bu, alan menüsündeki Değer Filtreleri, İlk 10... seçeneğinde bulunan modern İlk 10 değer filtresidir. Alanla ilişkilendirilmiş `PivotFilter` nesnesi olarak saklanır ve öğe sayısına ve yüzdeye dayalı sıralama sunar.
 
 ## **Excel 97-2003'te İlk 10 Gösterimi (top10AutoShow)**
-Klasik AutoShow, `PivotField.top10AutoShow(boolean isAutoShow, boolean isTop, int count, int rankBy)` yöntemine yapılan tek bir çağrıyla yapılandırılır:
+Klasik AutoShow, `PivotField.top10AutoShow(boolean isAutoShow, boolean isTop, int count, int rankBy)` çağrısıyla yapılandırılır:
 - `isAutoShow` — alandaki AutoShow ayarını etkinleştirir veya devre dışı bırakır.
-- `isTop` — `True`, en yüksek sıralı öğeleri (Üst) korur; `False`, en düşük sıralı öğeleri (Alt) korur.
-- `count` — kaç öğenin korunacağını belirtir; örneğin klasik bir İlk 10 raporu için 10.
-- `rankBy` — öğeleri sıralayan **veri alanının** sıfırdan başlayan dizini. Öğeleri alanın kendisine göre sıralamak için -1 değerini belirtin.
-Sıralama, bir değer alanı veya alanın kendisi tarafından belirlenebilir. Aşağıda bu iki doğal varyant gösterilmektedir.
+- `isTop` — `True`, en yüksek sıralı öğeleri (Üst) tutar; `False`, en düşük sıralı öğeleri (Alt) tutar.
+- `count` — korunacak öğe sayısı; örneğin klasik İlk 10 raporu için 10.
+- `rankBy` — öğeleri sıralayan **veri alanının** sıfırdan başlayan indeksi. Öğeleri alanın kendisine göre sıralamak için -1 değerini geçirin.
+Sıralama, bir değer alanına veya alanın kendisine göre belirlenebilir. Aşağıda bu iki doğal varyant gösterilmektedir.
 
-### **Değer Alanına Göre Sıralama**
-Satır alanının öğelerini, Satışların Toplamı gibi standart bir değer alanına göre sıralayın. Aşağıdaki örnek, bir satır alanı (`Sport`) ve bir veri alanı (`Sales`) içeren bir özet tablo oluşturur ve ardından satışlara göre ilk 2 sporu gösterir. `rankBy` 0'dır; çünkü "Satışların Toplamı", 0 dizinindeki veri alanıdır.
+### **Bir Değer Alanına Göre Sıralama**
+Satır alanının öğelerini `Sum of Sales` gibi olağan bir değer alanına göre sıralayın. Aşağıdaki örnek, bir satır alanı (`Sport`) ve bir veri alanı (`Sales`) içeren bir özet tablo oluşturur; ardından satışlara göre en üst 2 sporu gösterir. `rankBy` değeri 0'dır; çünkü `Sum of Sales`, 0. dizindeki veri alanıdır.
 
 ```python
 import jpype
@@ -49,16 +49,14 @@ pivot_table.addFieldToArea(PivotFieldType.ROW, "Sport")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Sales")
 pivot_table.calculateData()
 sport_field = pivot_table.getRowFields().get(0)
-sport_field.setAutoShow(True)
-sport_field.setAutoShowCount(2)
-sport_field.setAutoShowField(2)
+sport_field.top10AutoShow(True, True, 2, 0)
 pivot_table.calculateData()
 workbook.save("output-top10-by-value-field.xlsx")
 jpype.shutdownJVM()
 ```
 
 ### **Alanın Kendisine Göre Sıralama**
-Bir alan kendisi üzerinden de sıralanabilir — `rankBy` olarak -1 değerini geçirin. Bu varyant için ek bir veri alanı gerekmez; alanın yalnızca satır (veya sütun) alanında bulunması yeterlidir. Aşağıdaki örnek, alanın kendisine göre sıralanan en düşük 3 sporu gösterir. Bu ayar kaydedildiğinde, -1 biçimin varsayılan değeri olduğu için `rankBy` özniteliği özet tablo XML'inden çıkarılır ve `Top10AutoShowSettings.getRankBy()` çağrısı -1 değerini döndürür.
+Bir alan kendisiyle de sıralanabilir; bu durumda `rankBy` parametresine -1 değerini geçirin. Bu varyant için ek bir veri alanı gerekmez; alanın satır (veya sütun) alanına yerleştirilmiş olması yeterlidir. Aşağıdaki örnek, alanın kendisine göre sıralanan en alt 3 sporu gösterir. Bu ayar kaydedildiğinde, -1 biçimin varsayılan değeri olduğundan `rankBy` özniteliği özet tablo XML'inden çıkarılır ve `Top10AutoShowSettings.getRankBy()` -1 değerini döndürür.
 
 ```python
 import jpype
@@ -83,15 +81,15 @@ pivot_table.addFieldToArea(PivotFieldType.ROW, "Sport")
 pivot_table.addFieldToArea(PivotFieldType.DATA, "Sales")
 pivot_table.calculateData()
 sport_field = pivot_table.getRowFields().get(0)
-# Alanın kendisine göre sıralanan en alt 3 öğeyi göster (rankBy = -1)
+# Show the bottom 3 items ranked by the field itself (rankBy = -1)
 sport_field.top10AutoShow(True, False, 3, -1)
 pivot_table.calculateData()
 workbook.save("output-top10-by-field-itself.xlsx")
 jpype.shutdownJVM()
 ```
 
-## **Mevcut Seçenekleri Okuma (Top10AutoShowSettings)**
-`PivotField.getTop10AutoShowSettings()` yöntemi, alanda hâlihazırda saklanan AutoShow seçeneklerini sunan bir `PivotFieldTop10AutoShowSettings` nesnesi döndürür. Mevcut bir çalışma kitabında veya yeni yapılandırdığınız bir özet tabloda öğelerin nasıl sunulacağını incelemek için bu yöntemi kullanın; dosyadan yüklenen çalışma kitapları da kapsamdadır.
+## **Geçerli Seçenekleri Okuma (Top10AutoShowSettings)**
+`PivotField.getTop10AutoShowSettings()` yöntemi, alanda hâlihazırda saklanan AutoShow seçeneklerini sunan bir `PivotFieldTop10AutoShowSettings` nesnesi döndürür. Mevcut bir çalışma kitabında veya yeni yapılandırdığınız bir özet tabloda öğelerin nasıl sunulacağını incelemek için kullanın; bu, dosyadan yüklenen çalışma kitapları için de geçerlidir.
 
 ```python
 import jpype
@@ -109,21 +107,21 @@ print("Ranking data field index: " + str(settings.getRankBy()))
 jpype.shutdownJVM()
 ```
 
-Dört özellik, özet tablo XML'ine yazılan klasik AutoShow öznitelikleriyle (`autoShow`, `topAutoShow`, `itemPageCount`, `rankBy`) eşleşir. Bu nedenle geri okunan değerler, her Excel sürümünün dikkate alacağı değerlerdir.
+Dört özellik, özet tablo XML'ine yazılan klasik AutoShow öznitelikleriyle (`autoShow`, `topAutoShow`, `itemPageCount`, `rankBy`) eşleşir. Dolayısıyla okunan değerler, Excel'in her sürümünün dikkate alacağı değerlerdir.
 
 ## **Not**
 
 {{% alert color="primary" %}}
-- Doğrudan `PivotField` erişimcileri `isAutoShow()`, `isAscendShow()`, `getAutoShowCount()` ve `getAutoShowField()` kullanımdan kaldırılmış olarak işaretlenmiştir. Bunun yerine `Top10AutoShowSettings` nesnesini kullanın: `PivotField.isAutoShow()` karşılığı `Top10AutoShowSettings.isAutoShow()`, `PivotField.isAscendShow()` karşılığı `Top10AutoShowSettings.isTop()`, `PivotField.getAutoShowCount()` karşılığı `Top10AutoShowSettings.getAutoShowCount()` ve `PivotField.getAutoShowField()` karşılığı `Top10AutoShowSettings.getRankBy()` olur. `top10AutoShow()` yöntemi, ayarları değiştirmek için desteklenen yöntemdir.
-- `top10AutoShow`, satır ve sütun alanlarıyla çalışır. Yalnızca sayfa (filtre) alanında bulunan bir alan, öğeleri özet tablo gövdesinde yerleşmediği için bu şekilde sıralanamaz.
+- Doğrudan `PivotField` erişim yöntemleri `isAutoShow()`, `isAscendShow()`, `getAutoShowCount()` ve `getAutoShowField()` kullanımdan kaldırılmış olarak işaretlenmiştir. Bunun yerine `Top10AutoShowSettings` nesnesini kullanın: `PivotField.isAutoShow()` yerine `Top10AutoShowSettings.isAutoShow()`, `PivotField.isAscendShow()` yerine `Top10AutoShowSettings.isTop()`, `PivotField.getAutoShowCount()` yerine `Top10AutoShowSettings.getAutoShowCount()` ve `PivotField.getAutoShowField()` yerine `Top10AutoShowSettings.getRankBy()` kullanılır. `top10AutoShow()` yöntemi, ayarları değiştirmek için desteklenen yöntemdir.
+- `top10AutoShow`, satır ve sütun alanlarıyla çalışır. Yalnızca sayfa (filtre) alanında bulunan bir alan bu şekilde sıralanamaz; çünkü öğeleri özet tablo gövdesinde yer almaz.
 {{% /alert %}}
 
 ## **Excel 2007-365: İlk 10 Filtresi (filterTop10)**
-Modern Excel sürümleri, İlk 10 filtresini alan menüsünde bir değer filtresi olarak sunar (Değer Filtreleri, İlk 10...). Aspose.Cells bunu, oluşturulan `PivotFilter` nesnesini döndüren `PivotField.filterTop10(int valueFieldIndex, PivotFilterType type, boolean isTop, int itemCount)` yöntemiyle temsil eder:
-- `valueFieldIndex` — öğelerin sıralamasını belirleyen toplulaştırılmış değerlerin ait olduğu veri alanının sıfırdan başlayan dizini.
-- `type` — `itemCount` değerinin neyi belirttiğini tanımlar. `PivotFilterType.COUNT` sabit sayıda öğe korur (iletişim kutusunun Öğeler seçeneği). `PivotFilterType.PERCENT` öğelerin belirli bir yüzdesini korur; dolayısıyla `itemCount` doğrudan yüzde değeridir — 30 değeri, en üst yüzde 30'luk öğe kümesini korur. `PivotFilterType.SUM` kümülatif değer kapsamına göre sıralar.
-- `isTop` — `True`, Üst seçeneğini; `False`, Alt seçeneğini belirtir.
-- `itemCount` — İlk N'deki N değeridir; birimi `type` değerine bağlıdır.
+Modern Excel sürümleri, İlk 10'u alan menüsünde bir değer filtresi olarak sunar (Değer Filtreleri, İlk 10...). Aspose.Cells bunu, oluşturulan `PivotFilter` nesnesini döndüren `PivotField.filterTop10(int valueFieldIndex, PivotFilterType type, boolean isTop, int itemCount)` yöntemiyle temsil eder:
+- `valueFieldIndex` — öğeleri toplulaştırılmış değerlerine göre sıralayan veri alanının sıfırdan başlayan indeksi.
+- `type` — `itemCount` değerinin ne anlama geldiğini belirtir. `PivotFilterType.COUNT` sabit sayıda öğe tutar (iletişim kutusunun Öğeler seçeneği). `PivotFilterType.PERCENT` öğelerin belirli bir yüzdesini tutar; dolayısıyla `itemCount` yüzde değerinin kendisidir — 30 değeri, öğelerin en üst %30'unu tutar. `PivotFilterType.SUM` kümülatif değer kapsamına göre sıralar.
+- `isTop` — Üst için `True`, Alt için `False`.
+- `itemCount` — İlk N içindeki N; birimi `type` değerine bağlıdır.
 
 ```python
 import jpype
@@ -149,9 +147,9 @@ try:
     pivot_table.addFieldToArea(PivotFieldType.DATA, "Sales")
     pivot_table.calculateData()
     sport_field = pivot_table.getRowFields().get(0)
-    # İlk 10 Filtresi — öğeleri "Satışların Toplamı" ölçütüne göre en üst 2 ile sınırlayın (veri alanı dizini 0)
+    # Top 10 Filter — keep the top 2 items by "Sum of Sales" (data field index 0)
     filter = sport_field.filterTop10(0, PivotFilterType.COUNT, True, 2)
-    # Bunun yerine yüzdeye dayalı bir filtre kullanmak için öğelerin en üst %30'unu koruyun:
+    # For a percentage-based filter instead, keep the top 30 percent of the items:
     # sport_field.filterTop10(0, PivotFilterType.PERCENT, True, 30)
     pivot_table.getPivotCache().refresh()
     pivot_table.calculateData()
@@ -161,13 +159,13 @@ finally:
 ```
 
 {{% alert color="primary" %}}
-`top10AutoShow` ve `filterTop10` iki ayrı özelliğidir. AutoShow, pivot alanında ayarlanan klasik `autoShow` özniteliğini yazar ve Excel 97'den başlayarak tüm Excel sürümlerinde dikkate alınır. `filterTop10`, Excel 2007 veya sonrasını gerektiren modern bir `PivotFilter` kaydı yazar. Bir çalışma kitabı daha eski bir Excel sürümünde açıldığında, modern filtreyi kullanan bir özet tablo tüm öğeleri gösterme durumuna geri döner. Eski araçlarla işlenip yeniden kaydedilmesi gereken belgelerde `top10AutoShow` tercih edin; modern çalışma kitaplarında ise diğer değer filtreleriyle birleştirilebildiği için `filterTop10` tercih edin.
+`top10AutoShow` ve `filterTop10` iki ayrı özelliktir. AutoShow, özet tablo alanında ayarlanan klasik `autoShow` özniteliğini yazar ve Excel 97'den itibaren tüm Excel sürümlerinde dikkate alınır. `filterTop10` ise modern bir `PivotFilter` kaydı yazar ve Excel 2007 veya sonrasını gerektirir. Bir çalışma kitabı daha eski bir Excel sürümünde açıldığında, modern filtreyi kullanan bir özet tablo tüm öğeleri gösterir duruma geri döner. Eski araçlarda korunup yeniden yüklenmesi gereken belgelerde `top10AutoShow`; modern çalışma kitaplarında ise diğer değer filtreleriyle birleştirilebildiği için `filterTop10` tercih edilmelidir.
 {{% /alert %}}
 
 ## **İlgili Makaleler**
-- [Özet Tablolarını Etiket veya Değere Göre Filtreleme](/cells/tr/python-java/filter-by-label-or-value-of-pivot-table/)
+- [Özet Tablolarını Etikete veya Değere Göre Filtreleme](/cells/tr/python-java/filter-by-label-or-value-of-pivot-table/)
 - [Özet Tablosuna Satır ve Sütun Alanları Ekleme](/cells/tr/python-java/pivot-table-add-row-and-column-fields/)
-- [Özet Tablosundaki Pivot Alanlarını Gruplandırma](/cells/tr/python-java/group-pivot-fields-in-the-pivot-table/)
+- [Özet Tablosunda Özet Tablo Alanlarını Gruplama](/cells/tr/python-java/group-pivot-fields-in-the-pivot-table/)
 - [Özet Tablosunu Yenileme](/cells/tr/python-java/refresh-pivot-table/)
 - [Özet Tablosuna Sayfa Alanı Ekleme](/cells/tr/python-java/add-page-field-in-pivot-table/)
 

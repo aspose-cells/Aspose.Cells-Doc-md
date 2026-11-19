@@ -1,6 +1,6 @@
 ---
 title: Pivot Tablosunda Pivot Alanlarını Gruplama
-linktitle: Pivot Tablosunda Pivot Alanlarını Gruplama
+linktitle: Pivot Alanlarını Gruplama
 description: Python via .NET için Aspose.Cells'de PivotField.Group ve PivotFieldGroupOptions kullanarak bir pivot tablodaki satır ve sütun pivot alanlarını aylar ve çeyrekler gibi tarih dönemlerine ve sayısal aralıklara nasıl gruplayacağınızı öğrenin.
 keywords: Aspose.Cells, pivot tablosu, pivot alanını gruplama, PivotField.Group, PivotFieldGroupOptions, tarih gruplama, sayı gruplama, aylar, çeyrekler, sayısal aralık, Python via .NET
 type: docs
@@ -20,15 +20,15 @@ Parametresiz `pivot_field.group()` aşırı yüklemesi, alanın veri türünü i
 
 ```python
 import aspose.cells as ac
-# Örnek çalışma kitabını yükle
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# İkinci çalışma sayfasına ve özet tablosuna eriş
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# İlk satır alanını otomatik olarak grupla.
-# Alan tarihler içeriyor, bu nedenle aylara göre gruplanır.
+# Group the first row field automatically.
+# The field contains dates, so it is grouped by months.
 field = pt.row_fields[0]
 field.group()
-# Özet tablo verilerini hesapla ve çıktı dosyasını kaydet
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputAutoGroupPivotField.xlsx")
 ```
@@ -45,17 +45,17 @@ import aspose.cells as ac
 from datetime import datetime
 from aspose.cells.pivot import PivotGroupByType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# Örnek çalışma kitabını yükle
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# İkinci çalışma sayfasına ve pivot tablosuna eriş
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# İlk satır alanını (bir tarih alanı) aylara ve çeyreklere göre gruplandır
+# Group the first row field (a date field) by months and quarters
 options = PivotFieldGroupOptions()
 options.start_date = datetime(2008, 1, 1)
 options.end_date = datetime(2008, 9, 5)
 options.group_types = [PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS]
 pt.row_fields[0].group(options)
-# Pivot tablo verilerini hesapla ve çıktı dosyasını kaydet
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 ```
@@ -69,21 +69,21 @@ wb.save("outputGroupPivotFieldsInPivotTable.xlsx")
 import aspose.cells as ac
 from aspose.cells.pivot import PivotFieldType
 from aspose.cells.pivot import PivotFieldGroupOptions
-# Örnek çalışma kitabını yükle
+# Load the sample workbook
 wb = ac.Workbook("sampleGroupPivotFieldsInPivotTable.xlsx")
-# İkinci çalışma sayfasına ve özet tablosuna erişin
+# Access the second worksheet and its pivot table
 pt = wb.worksheets[1].pivot_tables[0]
-# FieldTwo bir veri alanıdır: önce onu satır alanına taşıyın,
-# çünkü yalnızca satır/sütun alanları gruplanabilir
+# FieldTwo is a data field: move it to the row area first,
+# because only row/column fields can be grouped
 pt.add_field_to_area(PivotFieldType.ROW, "FieldTwo")
 pt.calculate_data()
-# Sayısal alanı 0-1, 2-3, 4-5 aralıklarına gruplayın
+# Group the numeric field into the ranges 0-1, 2-3, 4-5
 options = PivotFieldGroupOptions()
 options.start_number = 0.0
 options.end_number = 5.0
 options.interval = 2.0
 pt.row_fields[1].group(options)
-# Özet tablo verilerini hesaplayın ve çıktı dosyasını kaydedin
+# Calculate the pivot table data and save the output file
 pt.calculate_data()
 wb.save("outputNumberGroupPivotField.xlsx")
 ```

@@ -1,6 +1,6 @@
 ---
 title: PivotTable einfügen
-linktitle: PivotTable einfügen
+linktitle: Pivot-Tabellen
 description: Erstellen und formatieren Sie PivotTables in Excel-Arbeitsmappendateien.
 keywords: PivotTable erstellen, PivotTable einfügen, PivotTable formatieren.
 type: docs
@@ -26,7 +26,7 @@ Aspose.Cells stellt eine Reihe spezialisierter Klassen im [**Aspose.Cells.Pivot*
 - [**PivotTableCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) repräsentiert eine Sammlung aller [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)-Objekte auf einem Arbeitsblatt.
 
 ### **Erstellen einer einfachen PivotTable mit Aspose.Cells**
-Eine PivotTable wird in drei Schritten erstellt und anschließend gespeichert:
+Das Erstellen einer PivotTable folgt einem Drei-Schritte-Rezept: Die Quelldaten werden in Arbeitsblattzellen geschrieben, die PivotTable wird an einer Zielposition hinzugefügt, und die Pivot-Felder werden in die Zeilen-, Spalten- und Datenbereiche platziert.
 1. Fügen Sie mithilfe der Methode [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) des [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-Objekts Daten zu einem Arbeitsblatt hinzu. Diese Daten dienen als Datenquelle der PivotTable.
 2. Fügen Sie dem Arbeitsblatt eine PivotTable hinzu, indem Sie die Methode [**Add**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index) der Sammlung [**PivotTables**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) aufrufen: `Add(sourceData, row, column)`. `sourceData` ist der Quellbereich (zum Beispiel "A1:C8"); `row` und `column` sind die 0-basierten Koordinaten der Zielzelle am linken oberen Eck der PivotTable (Zelle E3 bedeutet Zeile 2, Spalte 4). Die Methode gibt das neue [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)-Objekt direkt zurück.
 3. Ordnen Sie die Felder mithilfe der Methode `AddFieldToArea` des [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)-Objekts zu: Ein Feldname wird dem Zeilenbereich (`PivotFieldType.Row`), dem Spaltenbereich (`PivotFieldType.Column`) oder dem Datenbereich (`PivotFieldType.Data`) zugeordnet.
@@ -36,12 +36,10 @@ Nach der Ausführung des Beispielcodes wird dem Arbeitsblatt eine PivotTable hin
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
-
-// Eine neue Arbeitsmappe erstellen und das erste Arbeitsblatt abrufen
+// Create a new workbook and get the first worksheet
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
-
-// Die Quelldaten schreiben: Umsätze pro Sportart und Quartal
+// Write the source data: sales per sport and quarter
 sheet.Cells["A1"].PutValue("Sport");
 sheet.Cells["B1"].PutValue("Quarter");
 sheet.Cells["C1"].PutValue("Sales");
@@ -66,16 +64,13 @@ sheet.Cells["C7"].PutValue(5000);
 sheet.Cells["A8"].PutValue("Golf");
 sheet.Cells["B8"].PutValue("Qtr3");
 sheet.Cells["C8"].PutValue(6430);
-
-// Eine Pivot-Tabelle in der Zielzelle E3 hinzufügen, basierend auf A1:C8
+// Add a pivot table at destination cell E3, sourced from A1:C8
 PivotTable pivotTable = sheet.PivotTables.Add("A1:C8", 2, 4);
-
-// Pivotfelder zuweisen: Sport zu Zeilen, Quarter zu Spalten, Sales zu Daten
+// Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
 pivotTable.AddFieldToArea(PivotFieldType.Row, "Sport");
 pivotTable.AddFieldToArea(PivotFieldType.Column, "Quarter");
 pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
-
-// Die Arbeitsmappe speichern
+// Save the workbook
 workbook.Save("pivotTable_test_out.xlsx");
 ```
 

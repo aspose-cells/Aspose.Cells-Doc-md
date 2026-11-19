@@ -28,17 +28,14 @@ Il seguente codice di esempio mostra come creare una tabella pivot e gestirla. C
 #include "Aspose.Cells.h"
 using namespace Aspose::Cells;
 using namespace Aspose::Cells::Pivot;
-
 int main()
 {
     Aspose::Cells::Startup();
-
-    // Crea un nuovo workbook e ottieni il primo foglio di lavoro
+    // Create a new workbook and get the first worksheet
     Workbook workbook;
     Worksheet sheet = workbook.GetWorksheets().Get(0);
     Cells cells = sheet.GetCells();
-
-    // Scrivi i dati di origine: vendite per sport e trimestre
+    // Write the source data: sales per sport and quarter
     cells.Get(u"A1").PutValue(u"Sport");
     cells.Get(u"B1").PutValue(u"Quarter");
     cells.Get(u"C1").PutValue(u"Sales");
@@ -63,18 +60,14 @@ int main()
     cells.Get(u"A8").PutValue(u"Golf");
     cells.Get(u"B8").PutValue(u"Qtr3");
     cells.Get(u"C8").PutValue(6430);
-
-    // Aggiungi una tabella pivot alla cella di destinazione E3, usando A1:C8 come origine
+    // Add a pivot table at destination cell E3, sourced from A1:C8
     PivotTable pivotTable = sheet.GetPivotTables().Add(u"A1:C8", 2, 4);
-
-    // Assegna i campi pivot: Sport a Righe, Quarter a Colonne, Sales a Dati
+    // Assign pivot fields: Sport to Rows, Quarter to Columns, Sales to Data
     pivotTable.AddFieldToArea(PivotFieldType::Row, u"Sport");
     pivotTable.AddFieldToArea(PivotFieldType::Column, u"Quarter");
     pivotTable.AddFieldToArea(PivotFieldType::Data, u"Sales");
-
-    // Salva il workbook
+    // Save the workbook
     workbook.Save(u"pivotTable_test_out.xlsx");
-
     Aspose::Cells::Cleanup();
     return 0;
 }
