@@ -88,5 +88,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Lägg till sidfält i pivottabell](/cells/sv/java/add-page-field-in-pivot-table/)
 - [Tillämpa stil på pivottabell](/cells/sv/java/apply-style-to-pivot-table/)
 - [Uppdatera pivottabell](/cells/sv/java/refresh-pivot-table/)
+- [Diskret gruppering av objekt i pivotfält](/cells/sv/java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="java" >}}

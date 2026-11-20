@@ -102,5 +102,6 @@ wb.save("outputNumberGroupPivotField.xlsx")
 - [Pivot Tablosuna Sayfa Alanı Ekleme](/cells/tr/python-net/add-page-field-in-pivot-table/)
 - [Pivot Tablosuna Stil Uygulama](/cells/tr/python-net/apply-style-to-pivot-table/)
 - [Pivot Tablosunu Yenileme](/cells/tr/python-net/refresh-pivot-table/)
+- [Pivot Alanı Öğelerinin Ayrık Gruplandırılması](/cells/tr/python-net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python-net" >}}

@@ -96,5 +96,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Добавление поля страницы в сводной таблице](/cells/ru/nodejs-java/add-page-field-in-pivot-table/)
 - [Применение стиля к сводной таблице](/cells/ru/nodejs-java/apply-style-to-pivot-table/)
 - [Обновление сводной таблицы](/cells/ru/nodejs-java/refresh-pivot-table/)
+- [Дискретная группировка элементов поля сводной таблицы](/cells/ru/nodejs-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

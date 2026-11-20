@@ -96,5 +96,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Pivot Tablosuna Sayfa Alanı Ekleme](/cells/tr/nodejs-java/add-page-field-in-pivot-table/)
 - [Pivot Tablosuna Stil Uygulama](/cells/tr/nodejs-java/apply-style-to-pivot-table/)
 - [Pivot Tablosunu Yenileme](/cells/tr/nodejs-java/refresh-pivot-table/)
+- [Pivot Alanı Öğelerinin Ayrık Gruplanması](/cells/tr/nodejs-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

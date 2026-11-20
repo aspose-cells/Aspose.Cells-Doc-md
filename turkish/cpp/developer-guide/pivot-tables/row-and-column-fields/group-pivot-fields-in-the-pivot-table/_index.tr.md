@@ -116,5 +116,6 @@ int main() {
 - [Pivot Tablosuna Sayfa Alanı Ekleme](/cells/tr/cpp/add-page-field-in-pivot-table/)
 - [Pivot Tablosuna Stil Uygulama](/cells/tr/cpp/apply-style-to-pivot-table/)
 - [Pivot Tablosunu Yenileme](/cells/tr/cpp/refresh-pivot-table/)
+- [Pivot Alanı Öğelerinin Ayrık Gruplanması](/cells/tr/cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="cpp" >}}

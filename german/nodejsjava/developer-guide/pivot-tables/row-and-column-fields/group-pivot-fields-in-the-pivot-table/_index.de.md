@@ -96,5 +96,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Seitenfeld in der Pivot-Tabelle hinzufügen](/cells/de/nodejs-java/add-page-field-in-pivot-table/)
 - [Formatvorlage auf Pivot-Tabelle anwenden](/cells/de/nodejs-java/apply-style-to-pivot-table/)
 - [Pivot-Tabelle aktualisieren](/cells/de/nodejs-java/refresh-pivot-table/)
+- [Diskrete Gruppierung von Pivot-Feldelementen](/cells/de/nodejs-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

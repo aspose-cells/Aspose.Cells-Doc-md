@@ -109,5 +109,6 @@ jpype.shutdownJVM()
 - [Добавление поля страницы в сводную таблицу](/cells/ru/python-java/add-page-field-in-pivot-table/)
 - [Применение стиля к сводной таблице](/cells/ru/python-java/apply-style-to-pivot-table/)
 - [Обновление сводной таблицы](/cells/ru/python-java/refresh-pivot-table/)
+- [Дискретная группировка элементов поля сводной таблицы](/cells/ru/python-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python" >}}

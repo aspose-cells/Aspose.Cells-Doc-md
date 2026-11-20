@@ -88,5 +88,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Agregar Campo de Página en la Tabla Dinámica](/cells/es/java/add-page-field-in-pivot-table/)
 - [Aplicar Estilo a la Tabla Dinámica](/cells/es/java/apply-style-to-pivot-table/)
 - [Actualizar la Tabla Dinámica](/cells/es/java/refresh-pivot-table/)
+- [Agrupación discreta de elementos de campos de tabla dinámica](/cells/es/java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="java" >}}

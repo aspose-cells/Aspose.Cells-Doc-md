@@ -116,5 +116,6 @@ int main() {
 - [Добавление поля страницы в сводную таблицу](/cells/ru/cpp/add-page-field-in-pivot-table/)
 - [Применение стиля к сводной таблице](/cells/ru/cpp/apply-style-to-pivot-table/)
 - [Обновление сводной таблицы](/cells/ru/cpp/refresh-pivot-table/)
+- [Дискретная группировка элементов полей сводной таблицы](/cells/ru/cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="cpp" >}}

@@ -109,5 +109,6 @@ jpype.shutdownJVM()
 - [Seitenfeld in Pivot-Tabelle hinzufügen](/cells/de/python-java/add-page-field-in-pivot-table/)
 - [Stil auf Pivot-Tabelle anwenden](/cells/de/python-java/apply-style-to-pivot-table/)
 - [Pivot-Tabelle aktualisieren](/cells/de/python-java/refresh-pivot-table/)
+- [Diskrete Gruppierung von Pivot-Feldelementen](/cells/de/python-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python" >}}

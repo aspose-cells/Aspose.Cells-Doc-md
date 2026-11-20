@@ -109,5 +109,6 @@ jpype.shutdownJVM()
 - [إضافة حقل صفحة في الجدول المحوري](/cells/ar/python-java/add-page-field-in-pivot-table/)
 - [تطبيق نمط على الجدول المحوري](/cells/ar/python-java/apply-style-to-pivot-table/)
 - [تحديث الجدول المحوري](/cells/ar/python-java/refresh-pivot-table/)
+- [التجميع المنفصل لعناصر حقول الجدول المحوري](/cells/ar/python-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python" >}}

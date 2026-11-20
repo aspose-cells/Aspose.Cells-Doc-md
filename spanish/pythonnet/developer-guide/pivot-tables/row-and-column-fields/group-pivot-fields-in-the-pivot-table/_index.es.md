@@ -102,5 +102,6 @@ wb.save("outputNumberGroupPivotField.xlsx")
 - [Agregar Campo de Página en la Tabla Dinámica](/cells/es/python-net/add-page-field-in-pivot-table/)
 - [Aplicar Estilo a la Tabla Dinámica](/cells/es/python-net/apply-style-to-pivot-table/)
 - [Actualizar la Tabla Dinámica](/cells/es/python-net/refresh-pivot-table/)
+- [Agrupación discreta de elementos de campos de tablas dinámicas](/cells/es/python-net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python-net" >}}

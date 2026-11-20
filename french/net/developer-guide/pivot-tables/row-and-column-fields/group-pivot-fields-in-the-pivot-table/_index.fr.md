@@ -97,5 +97,6 @@ wb.Save("outputNumberGroupPivotField.xlsx");
 - [Ajouter un champ de page dans un tableau croisé dynamique](/cells/fr/net/add-page-field-in-pivot-table/)
 - [Appliquer un style à un tableau croisé dynamique](/cells/fr/net/apply-style-to-pivot-table/)
 - [Actualiser un tableau croisé dynamique](/cells/fr/net/refresh-pivot-table/)
+- [Regroupement discret des éléments de champ pivot](/cells/fr/net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="csharp" >}}

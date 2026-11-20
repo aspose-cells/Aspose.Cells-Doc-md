@@ -109,5 +109,6 @@ jpype.shutdownJVM()
 - [Ajouter un champ de page dans un tableau croisé dynamique](/cells/fr/python-java/add-page-field-in-pivot-table/)
 - [Appliquer un style à un tableau croisé dynamique](/cells/fr/python-java/apply-style-to-pivot-table/)
 - [Actualiser un tableau croisé dynamique](/cells/fr/python-java/refresh-pivot-table/)
+- [Regroupement discret des éléments d’un champ de tableau croisé dynamique](/cells/fr/python-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python" >}}

@@ -222,5 +222,6 @@ Observera att ordningen på värdena i `options.groupTypes` inte spelar roll. Oa
 - [Lägg till sidfält i pivottabell](/cells/sv/javascript-cpp/add-page-field-in-pivot-table/)
 - [Använd format på pivottabell](/cells/sv/javascript-cpp/apply-style-to-pivot-table/)
 - [Uppdatera pivottabell](/cells/sv/javascript-cpp/refresh-pivot-table/)
+- [Diskret gruppering av objekt i pivotfält](/cells/sv/javascript-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

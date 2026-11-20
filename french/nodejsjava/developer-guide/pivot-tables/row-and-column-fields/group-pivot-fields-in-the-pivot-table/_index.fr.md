@@ -96,5 +96,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Ajouter un champ de page dans un tableau croisé dynamique](/cells/fr/nodejs-java/add-page-field-in-pivot-table/)
 - [Appliquer un style au tableau croisé dynamique](/cells/fr/nodejs-java/apply-style-to-pivot-table/)
 - [Actualiser le tableau croisé dynamique](/cells/fr/nodejs-java/refresh-pivot-table/)
+- [Regroupement discret des éléments d’un champ de tableau croisé dynamique](/cells/fr/nodejs-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="nodejs-java" >}}

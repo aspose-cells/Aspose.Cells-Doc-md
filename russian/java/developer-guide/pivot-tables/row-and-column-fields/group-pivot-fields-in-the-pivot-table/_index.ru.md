@@ -88,5 +88,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Добавление поля страницы в сводной таблице](/cells/ru/java/add-page-field-in-pivot-table/)
 - [Применение стиля к сводной таблице](/cells/ru/java/apply-style-to-pivot-table/)
 - [Обновление сводной таблицы](/cells/ru/java/refresh-pivot-table/)
+- [Дискретная группировка элементов поля сводной таблицы](/cells/ru/java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="java" >}}

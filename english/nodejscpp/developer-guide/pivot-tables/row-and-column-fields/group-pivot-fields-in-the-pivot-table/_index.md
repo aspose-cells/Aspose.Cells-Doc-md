@@ -95,5 +95,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Add Page Field in Pivot Table](/cells/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Apply Style to Pivot Table](/cells/nodejs-cpp/apply-style-to-pivot-table/)
 - [Refresh Pivot Table](/cells/nodejs-cpp/refresh-pivot-table/)
+- [Discrete Grouping of Pivot Field Items](/cells/nodejs-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

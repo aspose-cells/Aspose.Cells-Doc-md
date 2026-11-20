@@ -97,5 +97,6 @@ wb.Save("outputNumberGroupPivotField.xlsx");
 - [Добавление поля страницы в сводную таблицу](/cells/ru/net/add-page-field-in-pivot-table/)
 - [Применение стиля к сводной таблице](/cells/ru/net/apply-style-to-pivot-table/)
 - [Обновление сводной таблицы](/cells/ru/net/refresh-pivot-table/)
+- [Дискретная группировка элементов поля сводной таблицы](/cells/ru/net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="csharp" >}}

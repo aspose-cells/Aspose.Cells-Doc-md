@@ -97,5 +97,6 @@ wb.Save("outputNumberGroupPivotField.xlsx");
 - [إضافة حقل صفحة في الجدول المحوري](/cells/ar/net/add-page-field-in-pivot-table/)
 - [تطبيق نمط على الجدول المحوري](/cells/ar/net/apply-style-to-pivot-table/)
 - [تحديث الجدول المحوري](/cells/ar/net/refresh-pivot-table/)
+- [التجميع المتقطع لعناصر حقول الجدول المحوري](/cells/ar/net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="csharp" >}}

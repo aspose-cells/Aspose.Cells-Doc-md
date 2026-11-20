@@ -116,5 +116,6 @@ int main() {
 - [Agregar campo de página en la tabla dinámica](/cells/es/cpp/add-page-field-in-pivot-table/)
 - [Aplicar estilo a la tabla dinámica](/cells/es/cpp/apply-style-to-pivot-table/)
 - [Actualizar tabla dinámica](/cells/es/cpp/refresh-pivot-table/)
+- [Agrupación discreta de elementos de campos de tabla dinámica](/cells/es/cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="cpp" >}}

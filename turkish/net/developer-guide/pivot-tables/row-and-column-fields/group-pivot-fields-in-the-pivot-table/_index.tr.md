@@ -97,5 +97,6 @@ wb.Save("outputNumberGroupPivotField.xlsx");
 - [Pivot Tablosuna Sayfa Alanı Ekleme](/cells/tr/net/add-page-field-in-pivot-table/)
 - [Pivot Tablosuna Stil Uygulama](/cells/tr/net/apply-style-to-pivot-table/)
 - [Pivot Tablosunu Yenileme](/cells/tr/net/refresh-pivot-table/)
+- [Pivot Alanı Öğelerinin Ayrık Gruplanması](/cells/tr/net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="csharp" >}}

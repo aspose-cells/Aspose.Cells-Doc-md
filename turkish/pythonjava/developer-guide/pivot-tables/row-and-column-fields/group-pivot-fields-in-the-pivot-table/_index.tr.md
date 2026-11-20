@@ -109,5 +109,6 @@ jpype.shutdownJVM()
 - [Pivot Tablosuna Sayfa Alanı Ekleme](/cells/tr/python-java/add-page-field-in-pivot-table/)
 - [Pivot Tablosuna Stil Uygulama](/cells/tr/python-java/apply-style-to-pivot-table/)
 - [Pivot Tablosunu Yenileme](/cells/tr/python-java/refresh-pivot-table/)
+- [PivotField Öğelerinin Ayrık Gruplandırılması](/cells/tr/python-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python" >}}

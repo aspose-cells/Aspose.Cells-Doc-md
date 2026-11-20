@@ -222,5 +222,6 @@ keywords: Aspose.Cells, сводная таблица, группировать 
 - [Добавить поле страницы в сводную таблицу](/cells/ru/javascript-cpp/add-page-field-in-pivot-table/)
 - [Применить стиль к сводной таблице](/cells/ru/javascript-cpp/apply-style-to-pivot-table/)
 - [Обновить сводную таблицу](/cells/ru/javascript-cpp/refresh-pivot-table/)
+- [Дискретная группировка элементов поля сводной таблицы](/cells/ru/javascript-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

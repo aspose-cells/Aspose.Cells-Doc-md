@@ -222,5 +222,6 @@ Note that the order of the values in `options.groupTypes` is ignored. No matter 
 - [Add Page Field in Pivot Table](/cells/javascript-cpp/add-page-field-in-pivot-table/)
 - [Apply Style to Pivot Table](/cells/javascript-cpp/apply-style-to-pivot-table/)
 - [Refresh Pivot Table](/cells/javascript-cpp/refresh-pivot-table/)
+- [Discrete Grouping of Pivot Field Items](/cells/javascript-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

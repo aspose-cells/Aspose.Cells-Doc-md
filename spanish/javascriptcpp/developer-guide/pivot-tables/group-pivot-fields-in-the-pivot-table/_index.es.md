@@ -222,5 +222,6 @@ Tenga en cuenta que el orden de los valores de `options.groupTypes` se omite. In
 - [Agregar un campo de página en la Tabla Dinámica](/cells/es/javascript-cpp/add-page-field-in-pivot-table/)
 - [Aplicar estilo a la Tabla Dinámica](/cells/es/javascript-cpp/apply-style-to-pivot-table/)
 - [Actualizar la Tabla Dinámica](/cells/es/javascript-cpp/refresh-pivot-table/)
+- [Agrupación discreta de elementos de campos de tablas dinámicas](/cells/es/javascript-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

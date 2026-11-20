@@ -102,5 +102,6 @@ wb.save("outputNumberGroupPivotField.xlsx")
 - [Lägg till sidfält i pivottabell](/cells/sv/python-net/add-page-field-in-pivot-table/)
 - [Tillämpa stil på pivottabell](/cells/sv/python-net/apply-style-to-pivot-table/)
 - [Uppdatera pivottabell](/cells/sv/python-net/refresh-pivot-table/)
+- [Diskret gruppering av pivotfältsobjekt](/cells/sv/python-net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python-net" >}}

@@ -109,5 +109,6 @@ jpype.shutdownJVM()
 - [ピボットテーブルにページフィールドを追加](/cells/ja/python-java/add-page-field-in-pivot-table/)
 - [ピボットテーブルにスタイルを適用](/cells/ja/python-java/apply-style-to-pivot-table/)
 - [ピボットテーブルを更新](/cells/ja/python-java/refresh-pivot-table/)
+- [ピボットフィールドのアイテムを個別にグループ化](/cells/ja/python-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python" >}}

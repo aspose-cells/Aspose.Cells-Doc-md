@@ -116,5 +116,6 @@ int main() {
 - [Ajouter un champ de page dans un tableau croisé dynamique](/cells/fr/cpp/add-page-field-in-pivot-table/)
 - [Appliquer un style à un tableau croisé dynamique](/cells/fr/cpp/apply-style-to-pivot-table/)
 - [Actualiser le tableau croisé dynamique](/cells/fr/cpp/refresh-pivot-table/)
+- [Regroupement discret des éléments d’un champ de tableau croisé dynamique](/cells/fr/cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="cpp" >}}

@@ -109,5 +109,6 @@ jpype.shutdownJVM()
 - [Añadir Campo de Página en Tabla Dinámica](/cells/es/python-java/add-page-field-in-pivot-table/)
 - [Aplicar Estilo a Tabla Dinámica](/cells/es/python-java/apply-style-to-pivot-table/)
 - [Actualizar Tabla Dinámica](/cells/es/python-java/refresh-pivot-table/)
+- [Agrupación discreta de elementos de campos de tabla dinámica](/cells/es/python-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python" >}}

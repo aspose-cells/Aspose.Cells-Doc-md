@@ -222,5 +222,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [ピボットテーブルにページフィールドを追加](/cells/ja/javascript-cpp/add-page-field-in-pivot-table/)
 - [ピボットテーブルにスタイルを適用](/cells/ja/javascript-cpp/apply-style-to-pivot-table/)
 - [ピボットテーブルを更新](/cells/ja/javascript-cpp/refresh-pivot-table/)
+- [ピボットフィールド項目の離散グループ化](/cells/ja/javascript-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

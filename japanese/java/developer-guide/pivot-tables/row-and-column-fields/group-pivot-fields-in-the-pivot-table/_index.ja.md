@@ -88,5 +88,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [ピボットテーブルにページフィールドを追加](/cells/ja/java/add-page-field-in-pivot-table/)
 - [ピボットテーブルにスタイルを適用](/cells/ja/java/apply-style-to-pivot-table/)
 - [ピボットテーブルをリフレッシュ](/cells/ja/java/refresh-pivot-table/)
+- [ピボットフィールド項目の個別グループ化](/cells/ja/java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="java" >}}

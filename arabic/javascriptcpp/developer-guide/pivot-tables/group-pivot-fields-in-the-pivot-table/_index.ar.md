@@ -222,5 +222,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [إضافة حقل صفحة في جدول محوري](/cells/ar/javascript-cpp/add-page-field-in-pivot-table/)
 - [تطبيق التنسيق على جدول محوري](/cells/ar/javascript-cpp/apply-style-to-pivot-table/)
 - [تحديث جدول محوري](/cells/ar/javascript-cpp/refresh-pivot-table/)
+- [التجميع المتقطع لعناصر حقول الجدول المحوري](/cells/ar/javascript-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

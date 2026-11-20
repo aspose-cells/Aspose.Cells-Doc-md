@@ -102,5 +102,6 @@ wb.save("outputNumberGroupPivotField.xlsx")
 - [ピボットテーブルにページフィールドを追加する](/cells/ja/python-net/add-page-field-in-pivot-table/)
 - [ピボットテーブルにスタイルを適用する](/cells/ja/python-net/apply-style-to-pivot-table/)
 - [ピボットテーブルを更新する](/cells/ja/python-net/refresh-pivot-table/)
+- [ピボットフィールド項目の個別グループ化](/cells/ja/python-net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python-net" >}}

@@ -102,5 +102,6 @@ wb.save("outputNumberGroupPivotField.xlsx")
 - [إضافة حقل صفحة في الجدول المحوري](/cells/ar/python-net/add-page-field-in-pivot-table/)
 - [تطبيق نمط على الجدول المحوري](/cells/ar/python-net/apply-style-to-pivot-table/)
 - [تحديث الجدول المحوري](/cells/ar/python-net/refresh-pivot-table/)
+- [التجميع المتقطع لعناصر حقول الجدول المحوري](/cells/ar/python-net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python-net" >}}

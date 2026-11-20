@@ -88,5 +88,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Aggiungere un campo pagina nella tabella pivot](/cells/it/java/add-page-field-in-pivot-table/)
 - [Applicare uno stile alla tabella pivot](/cells/it/java/apply-style-to-pivot-table/)
 - [Aggiornare la tabella pivot](/cells/it/java/refresh-pivot-table/)
+- [Raggruppamento discreto degli elementi dei campi pivot](/cells/it/java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="java" >}}

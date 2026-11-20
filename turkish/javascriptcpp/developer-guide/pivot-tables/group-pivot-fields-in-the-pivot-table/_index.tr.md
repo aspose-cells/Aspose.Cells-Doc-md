@@ -223,5 +223,6 @@ Bu örnek, örnek özet tablosunun tarih satır alanını, belirtilen başlangı
 - [Özet Tablosuna Sayfa Alanı Ekle](/cells/tr/javascript-cpp/add-page-field-in-pivot-table/)
 - [Özet Tablosuna Biçim Uygula](/cells/tr/javascript-cpp/apply-style-to-pivot-table/)
 - [Özet Tablosunu Yenile](/cells/tr/javascript-cpp/refresh-pivot-table/)
+- [Özet Alanı Öğelerinin Ayrık Gruplandırılması](/cells/tr/javascript-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

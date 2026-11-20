@@ -88,5 +88,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Seitenfeld in der Pivot-Tabelle hinzufügen](/cells/de/java/add-page-field-in-pivot-table/)
 - [Stil auf Pivot-Tabelle anwenden](/cells/de/java/apply-style-to-pivot-table/)
 - [Pivot-Tabelle aktualisieren](/cells/de/java/refresh-pivot-table/)
+- [Diskrete Gruppierung von Pivot-Feldelementen](/cells/de/java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="java" >}}

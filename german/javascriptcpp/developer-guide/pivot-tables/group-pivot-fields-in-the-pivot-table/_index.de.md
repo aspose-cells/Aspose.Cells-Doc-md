@@ -222,5 +222,6 @@ Beachten Sie, dass die Reihenfolge der Werte in `options.groupTypes` ignoriert w
 - [Seitenfeld in Pivot‑Tabelle hinzufügen](/cells/de/javascript-cpp/add-page-field-in-pivot-table/)
 - [Stil auf Pivot‑Tabelle anwenden](/cells/de/javascript-cpp/apply-style-to-pivot-table/)
 - [Pivot‑Tabelle aktualisieren](/cells/de/javascript-cpp/refresh-pivot-table/)
+- [Diskrete Gruppierung von Pivot-Feldelementen](/cells/de/javascript-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

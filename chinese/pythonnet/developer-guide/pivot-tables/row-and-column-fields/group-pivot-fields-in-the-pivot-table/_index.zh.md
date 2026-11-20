@@ -102,5 +102,6 @@ wb.save("outputNumberGroupPivotField.xlsx")
 - [在数据透视表中添加页面字段](/cells/zh/python-net/add-page-field-in-pivot-table/)
 - [对数据透视表应用样式](/cells/zh/python-net/apply-style-to-pivot-table/)
 - [刷新数据透视表](/cells/zh/python-net/refresh-pivot-table/)
+- [数据透视字段项的离散分组](/cells/zh/python-net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python-net" >}}

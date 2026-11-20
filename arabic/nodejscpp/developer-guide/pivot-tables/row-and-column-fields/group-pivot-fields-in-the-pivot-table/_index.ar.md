@@ -94,6 +94,7 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [إضافة حقل صفحة في الجدول المحوري](/cells/ar/nodejs-cpp/add-page-field-in-pivot-table/)
 - [تطبيق نمط على الجدول المحوري](/cells/ar/nodejs-cpp/apply-style-to-pivot-table/)
 - [تحديث الجدول المحوري](/cells/ar/nodejs-cpp/refresh-pivot-table/)
+- [تجميع منفصل لعناصر حقل الجدول المحوري](/cells/ar/nodejs-cpp/discrete-group-pivot-fields/)
 Count of code fences: 0 (since they're all replaced by placeholders) ✅
 Alert block has balanced open and close tags ✅
 

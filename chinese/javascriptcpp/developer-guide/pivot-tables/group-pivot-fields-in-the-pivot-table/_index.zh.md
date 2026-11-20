@@ -221,5 +221,6 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 - [在数据透视表中添加页面字段](/cells/zh/javascript-cpp/add-page-field-in-pivot-table/)
 - [对数据透视表应用样式](/cells/zh/javascript-cpp/apply-style-to-pivot-table/)
 - [刷新数据透视表](/cells/zh/javascript-cpp/refresh-pivot-table/)
+- [数据透视表字段项的离散分组](/cells/zh/javascript-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

@@ -95,5 +95,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [在数据透视表中添加页面字段](/cells/zh/nodejs-cpp/add-page-field-in-pivot-table/)
 - [将样式应用于数据透视表](/cells/zh/nodejs-cpp/apply-style-to-pivot-table/)
 - [刷新数据透视表](/cells/zh/nodejs-cpp/refresh-pivot-table/)
+- [数据透视表字段项的离散分组](/cells/zh/nodejs-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

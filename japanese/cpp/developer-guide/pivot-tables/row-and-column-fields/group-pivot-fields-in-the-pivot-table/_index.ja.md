@@ -116,5 +116,6 @@ int main() {
 - [ピボットテーブルにページフィールドを追加する](/cells/ja/cpp/add-page-field-in-pivot-table/)
 - [ピボットテーブルにスタイルを適用する](/cells/ja/cpp/apply-style-to-pivot-table/)
 - [ピボットテーブルを更新する](/cells/ja/cpp/refresh-pivot-table/)
+- [ピボットフィールド項目の離散グループ化](/cells/ja/cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="cpp" >}}

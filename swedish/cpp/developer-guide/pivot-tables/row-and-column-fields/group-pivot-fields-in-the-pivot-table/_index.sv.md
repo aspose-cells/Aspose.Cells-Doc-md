@@ -116,5 +116,6 @@ int main() {
 - [Lägg till sidfält i pivottabell](/cells/sv/cpp/add-page-field-in-pivot-table/)
 - [Tillämpa stil på pivottabell](/cells/sv/cpp/apply-style-to-pivot-table/)
 - [Uppdatera pivottabell](/cells/sv/cpp/refresh-pivot-table/)
+- [Diskret gruppering av objekt i pivotfält](/cells/sv/cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="cpp" >}}

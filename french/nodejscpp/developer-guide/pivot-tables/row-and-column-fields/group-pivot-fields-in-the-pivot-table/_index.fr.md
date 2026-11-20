@@ -95,5 +95,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Ajouter un champ de page dans un tableau croisé dynamique](/cells/fr/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Appliquer un style à un tableau croisé dynamique](/cells/fr/nodejs-cpp/apply-style-to-pivot-table/)
 - [Actualiser un tableau croisé dynamique](/cells/fr/nodejs-cpp/refresh-pivot-table/)
+- [Regroupement discret des éléments de champ de tableau croisé dynamique](/cells/fr/nodejs-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="nodejs-cpp" >}}

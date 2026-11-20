@@ -222,5 +222,6 @@ Notez que l’ordre des valeurs dans `options.groupTypes` est ignoré. Quel que 
 - [Ajouter un champ de page dans le Tableau Croisé Dynamique](/cells/fr/javascript-cpp/add-page-field-in-pivot-table/)
 - [Appliquer un style au Tableau Croisé Dynamique](/cells/fr/javascript-cpp/apply-style-to-pivot-table/)
 - [Actualiser le Tableau Croisé Dynamique](/cells/fr/javascript-cpp/refresh-pivot-table/)
+- [Regroupement discret des éléments des champs de tableau croisé dynamique](/cells/fr/javascript-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="javascript-cpp" >}}

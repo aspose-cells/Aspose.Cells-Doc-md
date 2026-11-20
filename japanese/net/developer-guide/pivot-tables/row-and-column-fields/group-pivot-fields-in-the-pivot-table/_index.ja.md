@@ -97,5 +97,6 @@ wb.Save("outputNumberGroupPivotField.xlsx");
 - [ピボットテーブルにページフィールドを追加する](/cells/ja/net/add-page-field-in-pivot-table/)
 - [ピボットテーブルにスタイルを適用する](/cells/ja/net/apply-style-to-pivot-table/)
 - [ピボットテーブルを更新する](/cells/ja/net/refresh-pivot-table/)
+- [ピボットフィールド項目の個別グループ化](/cells/ja/net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="csharp" >}}

@@ -97,5 +97,6 @@ wb.Save("outputNumberGroupPivotField.xlsx");
 - [Seitenfeld in Pivot-Tabelle hinzufügen](/cells/de/net/add-page-field-in-pivot-table/)
 - [Formatvorlage auf Pivot-Tabelle anwenden](/cells/de/net/apply-style-to-pivot-table/)
 - [Pivot-Tabelle aktualisieren](/cells/de/net/refresh-pivot-table/)
+- [Diskrete Gruppierung von Pivot-Feldelementen](/cells/de/net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="csharp" >}}

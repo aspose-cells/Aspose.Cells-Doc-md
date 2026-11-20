@@ -109,5 +109,6 @@ jpype.shutdownJVM()
 - [Add Page Field in Pivot Table](/cells/python-java/add-page-field-in-pivot-table/)
 - [Apply Style to Pivot Table](/cells/python-java/apply-style-to-pivot-table/)
 - [Refresh Pivot Table](/cells/python-java/refresh-pivot-table/)
+- [Discrete Grouping of Pivot Field Items](/cells/python-java/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="python" >}}

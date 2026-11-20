@@ -116,5 +116,6 @@ int main() {
 - [Aggiungere un Campo Pagina nella Tabella Pivot](/cells/it/cpp/add-page-field-in-pivot-table/)
 - [Applicare uno Stile alla Tabella Pivot](/cells/it/cpp/apply-style-to-pivot-table/)
 - [Aggiornare la Tabella Pivot](/cells/it/cpp/refresh-pivot-table/)
+- [Raggruppamento discreto degli elementi dei campi pivot](/cells/it/cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="cpp" >}}

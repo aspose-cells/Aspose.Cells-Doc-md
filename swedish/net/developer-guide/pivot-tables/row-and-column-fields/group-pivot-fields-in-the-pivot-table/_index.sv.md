@@ -97,5 +97,6 @@ wb.Save("outputNumberGroupPivotField.xlsx");
 - [Lägg till sidfält i pivottabell](/cells/sv/net/add-page-field-in-pivot-table/)
 - [Tillämpa stil på pivottabell](/cells/sv/net/apply-style-to-pivot-table/)
 - [Uppdatera pivottabell](/cells/sv/net/refresh-pivot-table/)
+- [Diskret gruppering av poster i pivotfält](/cells/sv/net/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="csharp" >}}

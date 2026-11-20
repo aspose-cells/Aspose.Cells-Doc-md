@@ -95,5 +95,6 @@ wb.save("outputNumberGroupPivotField.xlsx");
 - [Lägg till sidfält i pivottabell](/cells/sv/nodejs-cpp/add-page-field-in-pivot-table/)
 - [Tillämpa stil på pivottabell](/cells/sv/nodejs-cpp/apply-style-to-pivot-table/)
 - [Uppdatera pivottabell](/cells/sv/nodejs-cpp/refresh-pivot-table/)
+- [Diskret gruppering av pivottabellfält](/cells/sv/nodejs-cpp/discrete-group-pivot-fields/)
 
 {{< app/cells/assistant language="nodejs-cpp" >}}
