@@ -1,7 +1,7 @@
 ---
 title: ピボットフィールド項目の個別グループ化
 linktitle: 個別グループ化
-description: `DiscreteGroupItem` と `PivotFieldGroupOptions.DiscreteGroupItems` を使用して、果物や野菜などの名前付きのカスタムグループにピボットフィールド項目をグループ化する方法を Aspose.Cells for .NET で学習します。
+description: DiscreteGroupItem と `PivotFieldGroupOptions.DiscreteGroupItems` を使用して、果物や野菜などの名前付きのカスタムグループにピボットフィールド項目をグループ化する方法を Aspose.Cells for .NET で学習します。
 keywords: Aspose.Cells, ピボットテーブル, 個別グループ化, DiscreteGroupItem, PivotFieldGroupOptions, ピボット項目のグループ化, カスタムグループ, PivotField.Group, C#, Excel ピボットテーブル
 type: docs
 weight: 90

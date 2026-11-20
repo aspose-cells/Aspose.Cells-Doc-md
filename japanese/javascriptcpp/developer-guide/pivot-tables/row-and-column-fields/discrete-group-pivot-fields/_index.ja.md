@@ -1,7 +1,7 @@
 ---
 title: ピボットフィールド項目の離散グループ化
 linktitle: 離散グループ化
-description: `DiscreteGroupItem` と `PivotFieldGroupOptions.discreteGroupItems` を使用して、`Aspose.Cells for JavaScript via C++` でピボットフィールド項目を果物や野菜など、任意の名前を設定したカスタムグループにグループ化する方法を学びます。
+description: DiscreteGroupItem と `PivotFieldGroupOptions.discreteGroupItems` を使用して、`Aspose.Cells for JavaScript via C++` でピボットフィールド項目を果物や野菜など、任意の名前を設定したカスタムグループにグループ化する方法を学びます。
 keywords: Aspose.Cells, ピボットテーブル, 離散グループ化, DiscreteGroupItem, PivotFieldGroupOptions, ピボット項目のグループ化, カスタムグループ, PivotField.group, Aspose.Cells for JavaScript via C++, Excel ピボットテーブル
 type: docs
 weight: 90
