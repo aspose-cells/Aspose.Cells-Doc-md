@@ -11,6 +11,7 @@ keywords: Aspose.Cells Create repair parse merge convert JSON Excel XML PDF HTML
 
 - [Aspose.Cells MCP for Node.js](/cells/nodejs-cpp/mcp/) - Connect an AI assistant to local Excel inspection, editing, auditing, conversion, and rendering.
 - [Aspose CLI for Excel](/cells/cli/) - Process spreadsheets from a terminal, script, or AI agent, with local browser preview.
+- [Aspose.Cells Skills](https://github.com/aspose-cells/skills) - Equip AI coding agents with Aspose.Cells expertise through API guidance, code examples, and best practices.
 
 {{% alert color="primary" %}}
 
