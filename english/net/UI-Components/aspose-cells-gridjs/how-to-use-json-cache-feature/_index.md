@@ -27,6 +27,8 @@ The cache is a two-level (L1 + L2) design:
 
 When a cache read misses L1 but hits L2, the JSON is loaded from disk and promoted back into memory. Writes to disk happen asynchronously in the background, so they never block the response.
 
+Each disk entry consists of a data file plus a small sidecar metadata file that records the original cache key. Both are created and removed automatically by the cache, and both are what makes invalidation and cleanup work without any in-memory state — see [Invalidate the Cache](#step-3-invalidate-the-cache-when-data-changes) and [Proactive Cleanup](#step-4-proactively-clean-up-expired-cache-files).
+
 The cache is automatically used by the data-loading APIs, for example:
 
 - `DetailStreamJsonWithUid` / `DetailFileJsonWithUid` — caches the whole workbook JSON (cache key `gridjs_json_{uid}_{fileName}`).
@@ -125,6 +127,38 @@ _service.ClearJsonCacheForUid(uid);
 _service.ClearAllJsonCache();
 ```
 
+`ClearJsonCacheForUid` is disk-aware: it also removes the cached files of a workbook that is **not currently open in memory** — for example after a server restart, when the source file was deleted and never reopened. It matches every cache key belonging to the `uid`, so both workbook-level and sheet-level entries are removed and no sheet names are needed.
+
+### Step 4: Proactively Clean Up Expired Cache Files
+
+Disk entries expire after `DiskTtl`, but the check is lazy: an expired file is deleted when it is read again. Files of workbooks that are never reopened would otherwise stay on disk until the `MaxDiskSizeMB` limit evicts the oldest ones. To reclaim that space on your own schedule, call:
+
+```csharp
+// Deletes expired data files and their metadata, orphaned metadata, and stale temp files
+int removed = _service.PurgeExpiredJsonCache();
+```
+
+The method returns the number of deleted files. It skips entries written within the last 10 minutes so it never races with a background write, which makes it safe to call at any time. GridJs deliberately does not start a background thread of its own — scheduling is left to the host application, typically at startup and/or from a hosted service:
+
+```csharp
+public class JsonCacheCleanupService : BackgroundService
+{
+    private readonly IGridJsService _service;
+
+    public JsonCacheCleanupService(IGridJsService service) => _service = service;
+
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        using var timer = new PeriodicTimer(TimeSpan.FromHours(1));
+        do
+        {
+            _service.PurgeExpiredJsonCache();
+        }
+        while (await timer.WaitForNextTickAsync(stoppingToken));
+    }
+}
+```
+
 ## Using a Custom Cache Implementation (Redis, etc.)
 
 If you want to store the JSON in your own infrastructure — for example a distributed Redis cache — implement the `IGridJsJsonCache` interface and assign it to `Implementation`:
@@ -153,7 +187,7 @@ Config.JsonCache.Enable = true;
 Config.JsonCache.Implementation = new RedisJsonCache();
 ```
 
-When `Implementation` is set, GridJs uses it exclusively and the built-in memory/disk options (`MaxMemoryEntries`, `DiskPath`, and so on) are ignored.
+When `Implementation` is set, GridJs uses it exclusively and the built-in memory/disk options (`MaxMemoryEntries`, `DiskPath`, and so on) are ignored. Expiration and cleanup are then your responsibility as well: `PurgeExpiredJsonCache` is implemented by the built-in cache only and returns 0 for a custom implementation.
 
 ## Performance Results
 
